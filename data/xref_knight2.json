@@ -1,0 +1,35 @@
+{
+  "task": "Search for knight dialogue containing レジーナ",
+  "target_text": "君が、行方不明になったレジーナ達を探してくれる者かね。",
+  "speaker": "騎士団 (Knight Order, 3 kanji)",
+  "status": "NOT_FOUND",
+
+  "glyph_mapping_issues": {
+    "problem": "User-provided glyph IDs come from name-entry screen, not dialogue font",
+    "evidence": [
+      "visual_id_sheet0 maps glyph 91=q and 93=s (ASCII), not kana",
+      "Glyph 139 absent from top 200 MSG frequencies",
+      "Name-entry table uses stride-57 font variants different from dialogue font"
+    ]
+  },
+
+  "msg_format_findings": {
+    "speaker_tag_format": "FF01 [name_glyphs] FFF0",
+    "line_break": "FFFE",
+    "message_delimiter": "FFFF",
+    "valid_msg_resources": 47,
+    "total_classified_as_msg": 296,
+    "resources_with_ff01_tags": 83
+  },
+
+  "three_char_speakers_found": 8,
+  "all_in_resource": 46,
+  "candidate_knight_speaker": {
+    "glyphs": ["0x118", "0x146", "0x136"],
+    "decimal": [280, 326, 310],
+    "evidence": "2-char variant [0x118,0x146] also found, suggesting 騎士 vs 騎士団",
+    "dialogue_text_hex": "00AB 02A3 0073 0098 0085 FFFE 0076 008E 00BF 0082 009D 00A4 00B7 0087 005D 0075 0001",
+    "glyph_count": 20,
+    "note": "Different line from knight, not the レジーナ dialogue"
+  }
+}

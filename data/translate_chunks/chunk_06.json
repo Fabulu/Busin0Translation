@@ -1,0 +1,793 @@
+[
+  {
+    "resource": 45,
+    "message": 36,
+    "japanese": "オメェのソウコだ  /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 37,
+    "japanese": "それをどうするんだべ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 38,
+    "japanese": "誰の持ち士を / あずけるだよ？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 39,
+    "japanese": "どれをあずけるだよ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 40,
+    "japanese": "誰のを回復するだよ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 41,
+    "japanese": "どれを回復するだよ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 42,
+    "japanese": "回復するだか？  /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 43,
+    "japanese": "ほれ、多体がわかって / スッキリしたべ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 44,
+    "japanese": "使われてしまった / 不幸なやつは / どいつだべ？？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 45,
+    "japanese": "どれの使いを / 殿けばいいんだべ？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 46,
+    "japanese": "使いを殿いてほしいべ？ / 使われっぱなしは / つらいべ？ な？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 47,
+    "japanese": "ほれ、使いも殿けて / スッキリしたべ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 48,
+    "japanese": "おおお、オダときたら / 殿使のスーパースター / だな  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 49,
+    "japanese": "ほだ  / これがただいまの / ヴィガー商店情報だ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 50,
+    "japanese": "われらがヴィガー商店を / く宝に地装するか？  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 51,
+    "japanese": "倉庫をでっかく / してやるだよ～  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 52,
+    "japanese": "われらがヴィガー商店の / 支店を造るか  / そっかそっかー  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 53,
+    "japanese": "支店をリニュアール / オープンさせるべか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 54,
+    "japanese": "支店の引越しだべか  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 55,
+    "japanese": "いま拡築したら、 / アイテム２０個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 56,
+    "japanese": "いま拡築したら、 / アイテム３０個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 57,
+    "japanese": "いま拡築したら、 / アイテム４０個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 58,
+    "japanese": "いま拡築したら、 / アイテム５０個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 59,
+    "japanese": "いま拡築したら、 / アイテム６０個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 60,
+    "japanese": "いま拡築したら、 / アイテム７０個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 61,
+    "japanese": "いま拡築したら、 / アイテム８０個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 62,
+    "japanese": "いま拡築したら、 / アイテム９０個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 63,
+    "japanese": "いま拡築したら、 / アイテム１００個まで / 置けるようになるど～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 64,
+    "japanese": "ごりゃ、オメェ  / 金がたりねえだろ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 65,
+    "japanese": "どこにオープン / させるべか？  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 66,
+    "japanese": "あこがれの支店が / とうとうできるのか～  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 67,
+    "japanese": "いつでも買取できれば / 持ち士のかたづけが / ラクチンだよな  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 68,
+    "japanese": "オメェの荷士をいつでも / 倉庫まで送ってやるだ  / 感謝しろよ～う  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 69,
+    "japanese": "いろんなイベントをすれば / お客さまにも / あきられねえべよ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 70,
+    "japanese": "いつでも休めたら / ボロボロになっても安心だ  / レベルはあがんねえけど  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 71,
+    "japanese": "支店がどんどん / ゴージャスになるだな  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 72,
+    "japanese": "どこに物転させるべ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 73,
+    "japanese": "物転して / 客足がのびると / ええだなあ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 74,
+    "japanese": "どこを探索させるべ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 75,
+    "japanese": "探索に向かわせて / ええだか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 76,
+    "japanese": "は い / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 77,
+    "japanese": "いいえ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 78,
+    "japanese": "納品 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 79,
+    "japanese": "引受 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 80,
+    "japanese": "やめておく / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 81,
+    "japanese": "納品し、このオーダーを / 退了しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 82,
+    "japanese": "このオーダーを / 引き受けますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 83,
+    "japanese": "仲間にこのオーダーを / 紹棄しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 84,
+    "japanese": "出す / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 85,
+    "japanese": "買い取り / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 86,
+    "japanese": "潜び替え / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 87,
+    "japanese": "持てる / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 88,
+    "japanese": "回復しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 89,
+    "japanese": "殿使しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 90,
+    "japanese": "使いが殿かれ抜け落った  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 91,
+    "japanese": "使いが殿けたが崩れなかった  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 92,
+    "japanese": "倉庫の拡築 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 93,
+    "japanese": "支店の新増 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 94,
+    "japanese": "支店の業種変更 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 95,
+    "japanese": "支店の物転 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 96,
+    "japanese": "倉庫を拡築しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 97,
+    "japanese": "支店を新増しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 98,
+    "japanese": "業種を追加しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 99,
+    "japanese": "物転しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 100,
+    "japanese": "雇息しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 102,
+    "japanese": "所持金が不足しています / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 103,
+    "japanese": "回復しました / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 105,
+    "japanese": "倉庫 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 106,
+    "japanese": "売却しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 107,
+    "japanese": "売却しました / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 108,
+    "japanese": "ありがとだ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 109,
+    "japanese": "装備していますが / 売却しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 110,
+    "japanese": "回復 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 111,
+    "japanese": "使いで外すことができません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 112,
+    "japanese": "それはしょうたいが / よぐわかんねーから / １０gでしか買わねえ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 113,
+    "japanese": "装備を外しますが / よろしいですか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 114,
+    "japanese": "所持品がいっぱいです / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 115,
+    "japanese": "納品 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 116,
+    "japanese": "紹棄 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 117,
+    "japanese": "何もしない / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 118,
+    "japanese": "所持品 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 119,
+    "japanese": "依頼人： / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 120,
+    "japanese": "報酬： / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 121,
+    "japanese": "期日： / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 122,
+    "japanese": "あと / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 124,
+    "japanese": "商店レベルが足りません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 125,
+    "japanese": "倉庫にアイテムがありません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 126,
+    "japanese": "ニューイヤーバーゲン中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 127,
+    "japanese": "ふゆのクリアランス中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 128,
+    "japanese": "フレッシュマンセール中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 129,
+    "japanese": "サマーバーゲン中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 130,
+    "japanese": "なつのホラースペシャル中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 131,
+    "japanese": "さい期大売出し中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 132,
+    "japanese": "冒金事チャレンジフェア中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 133,
+    "japanese": "買取解除中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 134,
+    "japanese": "冒金事息品買取解除中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 135,
+    "japanese": "使い装備品買取解除中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 136,
+    "japanese": "装備品買取解除中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 137,
+    "japanese": "自回復品買取解除中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 138,
+    "japanese": "アイテム買取解除中 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 139,
+    "japanese": "引き受けるオーダーがありません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 140,
+    "japanese": "オーダーを引き受けていません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 141,
+    "japanese": "b１ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 142,
+    "japanese": "b２ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 143,
+    "japanese": "b３ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 144,
+    "japanese": "b４ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 145,
+    "japanese": "b５ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 146,
+    "japanese": "b６ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 147,
+    "japanese": "b７ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 148,
+    "japanese": "b８ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 149,
+    "japanese": "b９ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 150,
+    "japanese": "b１０ 支店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 151,
+    "japanese": "地装メニュー / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  }
+]

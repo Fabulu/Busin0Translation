@@ -1,0 +1,1127 @@
+{
+  "_metadata": {
+    "description": "English translations for decoded Japanese game text, matched against English guide (guide_full.txt)",
+    "resources_covered": [46, 47, 49, 2654],
+    "date": "2026-05-22",
+    "method": "Cross-reference partially decoded Japanese text against English fan guide; contextual matching of game mechanics terminology, proper nouns, and structural parallels"
+  },
+
+  "resource_46_bulletin_board": {
+    "_description": "Tavern bulletin board messages - community messages, quest hints, NPC gossip",
+    "_guide_section": "QUICK LOOK AT THE MESSAGE BOARD (guide line 1638+), MESSAGE BOARD PERSONAL DEEDS (guide line 1434+)",
+    "messages": {
+      "1": {
+        "japanese_decoded": "この度、ドゥーハン器民のみなさまが / 気素に払見交更を行えるよう、 / [SPEAKER:王戦掲鉄板]を増置することになりました。 / 掲鉄板にメッセージを残したい方は / ■息の息■に記入の上、 / ボックスに投かんしてください。",
+        "english": "We have decided to set up a temporary bulletin board for the citizens of Duhan, so that they can exchange opinions. If you would like to leave a message on the temporary bulletin board, please fill out the special form and drop it in the box. Yours truly, Gin",
+        "guide_line": 1639,
+        "confidence": "HIGH",
+        "notes": "SPEAKER tag refers to the bulletin board itself. ドゥーハン = Duhan."
+      },
+      "2": {
+        "japanese_decoded": "■イクレタの騎法団長方ゴ] / っていう依頼を出してたミリィですけど、 / もうあれはいいです。 / 騎法団をくれる人が異で見つかって / その人にもらいました / だから依頼はとりやめです。 / ありがとうございました",
+        "english": "This is Miri, who posted the request 'I desire the magic stone Kreta.' That request is no longer needed. Someone else was found who could provide the magic stone. So the request is cancelled. Thank you.",
+        "guide_line": 1980,
+        "confidence": "HIGH",
+        "notes": "References Tavern Request #2. ミリィ = Miri. クレタ = Kreta magic stone."
+      },
+      "3": {
+        "japanese_decoded": "[SPEAKER:セルフショップ]ってあるだろ、迷宮に。 / なんか変な[SPEAKER:カギ]が売ってるんだけど / あやしい！どこのカギなんだろう？ / 誰か買った費いないのか？",
+        "english": "You know the Self Shop in the labyrinth, right? They sell some weird keys there. Suspicious! I wonder what those keys are for? Has anyone bought one?",
+        "guide_line": null,
+        "confidence": "HIGH",
+        "notes": "セルフショップ = Self Shop (vending machine in dungeon). カギ = key."
+      },
+      "4": {
+        "japanese_decoded": "ヴィガー商店では、すみこみで / はたらける[SPEAKER:アルバイト]をさがしてます / 冒険者にかぎらず色んな人に / 見てもらいたいので、依頼ではなく / 掲鉄板でお知らせしています",
+        "english": "Vigger Shop is looking for live-in part-time workers. We want all kinds of people to see this, not just adventurers, so we're posting on the bulletin board instead of as a request.",
+        "guide_line": null,
+        "confidence": "HIGH",
+        "notes": "ヴィガー商店 = Vigger Shop. アルバイト = part-time job."
+      },
+      "5": {
+        "japanese_decoded": "ヴィガーしょうてんでわ / オークがいっぱい、はただいてる / みたいですだが、アルバイドでも / やっぱりオークでもいいんですだべか？",
+        "english": "At Vigger Shop, it seems like lots of Orcs are working there. So for the part-time job, would Orcs be okay too?",
+        "guide_line": null,
+        "confidence": "HIGH",
+        "notes": "Written in crude/dialectal Japanese - from an Orc citizen."
+      },
+      "6": {
+        "japanese_decoded": "街と人壁になじめる心並しい / オークでしたらいいですよ / うちでは３びきのオークがいますし / 同じ種族同士、たのしく仲良く / やっていけると思います",
+        "english": "If you're a friendly Orc who can get along with the townspeople, that would be great. We already have three Orcs working here, so as the same race, I think you'd get along well together.",
+        "guide_line": null,
+        "confidence": "HIGH",
+        "notes": "Reply from Vigger Shop to the Orc applicant."
+      },
+      "7": {
+        "japanese_decoded": "この前、[SPEAKER:４階]の探索に出かけてさ、 / 死神にとりつかれるわ、道にも迷うわで / さんざんな受、ぐうぜん入った部屋に / [SPEAKER:ホビット]と[SPEAKER:インプ]がすみついてたんだ。 / 街にいられない理的でもあるのかな。 / あんなところにすみつくとは / 変わったヤツだと思ったんだけど、 / 気前よく[SPEAKER:解臆の■]をくれてイイ費だったよ。",
+        "english": "The other day, I went exploring the 4th floor, and got cursed by the Grim Reaper, and got lost... It was terrible. But by chance, I entered a room where a Hobbit and an Imp had settled down. I wonder if they have some reason they can't live in town. I thought they were weird for living in a place like that, but they generously gave me a Cure item, so they turned out to be good people.",
+        "guide_line": null,
+        "confidence": "HIGH",
+        "notes": "４階 = 4th floor (B4F). ホビット = Hobbit. インプ = Imp. Matches guide mention of Hobbit and Imp on B4F."
+      }
+    }
+  },
+
+  "resource_47_battle_treasure_messages": {
+    "_description": "Battle system messages, treasure chest interactions, combat events",
+    "_guide_section": "KARMAN'S LABYRINTH FIGHTING MENU (guide line 1796+), INDIVIDUAL actions (guide line 1811+)",
+    "messages": {
+      "1": {
+        "japanese_decoded": "対応の決復",
+        "english": "Choose your response",
+        "confidence": "HIGH",
+        "notes": "Battle encounter response selection prompt."
+      },
+      "2": {
+        "japanese_decoded": "友好的なモンスターだ！！",
+        "english": "Friendly monsters!!",
+        "guide_ref": "Friendly encounter type",
+        "confidence": "HIGH"
+      },
+      "3": {
+        "japanese_decoded": "戦  う",
+        "english": "Fight",
+        "confidence": "HIGH"
+      },
+      "4": {
+        "japanese_decoded": "立ち去る",
+        "english": "Leave",
+        "confidence": "HIGH"
+      },
+      "5": {
+        "japanese_decoded": "モンスターの不払をついた",
+        "english": "You caught the monsters off guard!",
+        "confidence": "HIGH",
+        "notes": "Surprise attack / preemptive strike."
+      },
+      "6": {
+        "japanese_decoded": "モンスターは突然おそいかかってきた",
+        "english": "The monsters suddenly attacked!",
+        "confidence": "HIGH",
+        "notes": "Enemy surprise / ambush."
+      },
+      "7": {
+        "japanese_decoded": "モンスターに悔内をとられた",
+        "english": "The monsters got the initiative!",
+        "confidence": "HIGH",
+        "notes": "Enemy gets first strike."
+      },
+      "8": {
+        "japanese_decoded": "は恐怖にかられて逃げ出そうとする",
+        "english": "[Character] is overcome with fear and tries to flee!",
+        "confidence": "HIGH",
+        "notes": "Fear status causing flee attempt."
+      },
+      "9": {
+        "japanese_decoded": "が逃げ出してしまった！！",
+        "english": "[Character] has fled!!",
+        "confidence": "HIGH"
+      },
+      "10": {
+        "japanese_decoded": "は逃げ出すのに成功した",
+        "english": "[Character] successfully escaped!",
+        "confidence": "HIGH"
+      },
+      "11": {
+        "japanese_decoded": "戦箱を開錠しますか？",
+        "english": "Unlock the treasure chest?",
+        "confidence": "HIGH",
+        "notes": "Post-battle treasure chest prompt."
+      },
+      "12": {
+        "japanese_decoded": "戦箱開錠",
+        "english": "Chest Unlock",
+        "confidence": "HIGH"
+      },
+      "13": {
+        "japanese_decoded": "やりなおす",
+        "english": "Try again",
+        "confidence": "HIGH"
+      },
+      "14": {
+        "japanese_decoded": "戦箱開錠の結果",
+        "english": "Chest unlock result",
+        "confidence": "HIGH"
+      },
+      "15": {
+        "japanese_decoded": "新たなaaを部み出しました",
+        "english": "You learned a new Alleid Action!",
+        "guide_ref": "You learned a new Coordinated Attack (Alleid)",
+        "guide_line": 15822,
+        "confidence": "HIGH",
+        "notes": "aa = Alleid Action. Discovered through battle conditions."
+      },
+      "16": {
+        "japanese_decoded": "戦箱を開錠します",
+        "english": "Opening the treasure chest",
+        "confidence": "HIGH"
+      },
+      "17": {
+        "japanese_decoded": " 獲 得 ",
+        "english": "Acquired",
+        "confidence": "HIGH"
+      },
+      "18": {
+        "japanese_decoded": " ディスペル ",
+        "english": "Dispel",
+        "guide_ref": "DISPEL - KILLS, OR MAKES UNDEAD FLEE",
+        "guide_line": 1844,
+        "confidence": "HIGH"
+      },
+      "19": {
+        "japanese_decoded": " 盗 む ",
+        "english": "Steal",
+        "guide_ref": "STEAL ITEMS - STEAL ITEMS FROM ENEMIES (FRONT ROW ONLY)",
+        "guide_line": 1839,
+        "confidence": "HIGH"
+      },
+      "20": {
+        "japanese_decoded": " ■置交古 ",
+        "english": "Switch Position",
+        "guide_ref": "SWITCH POSITION WITH ANOTHER TEAM MEMBER",
+        "guide_line": 1847,
+        "confidence": "MEDIUM",
+        "notes": "Partially decoded. Matches SWITCH POSITION battle command."
+      },
+      "21": {
+        "japanese_decoded": "何も持っていなかった",
+        "english": "They had nothing!",
+        "confidence": "HIGH",
+        "notes": "Steal attempt result - enemy has no items."
+      },
+      "22": {
+        "japanese_decoded": "アイテムがいっぱいで盗めなかった",
+        "english": "Inventory is full, couldn't steal!",
+        "confidence": "HIGH"
+      },
+      "23": {
+        "japanese_decoded": "を盗んだ",
+        "english": "[Character] stole [item]!",
+        "confidence": "HIGH"
+      },
+      "24": {
+        "japanese_decoded": "は恐怖にかられて逃げだそうとする",
+        "english": "[Character] is overcome with fear and tries to flee!",
+        "confidence": "HIGH",
+        "notes": "Variant of message 8 with slightly different kana."
+      },
+      "25": {
+        "japanese_decoded": "しかしこけてしまった",
+        "english": "But they tripped and fell!",
+        "confidence": "HIGH",
+        "notes": "Failed flee attempt."
+      },
+      "26": {
+        "japanese_decoded": "仲壁たちも内を追いかけた！！",
+        "english": "Your companions chased after them!!",
+        "confidence": "HIGH"
+      },
+      "27": {
+        "japanese_decoded": "g・",
+        "english": "G (gold currency)",
+        "confidence": "HIGH"
+      },
+      "28": {
+        "japanese_decoded": "大きすぎて回りこめない",
+        "english": "Too big to get around!",
+        "confidence": "HIGH",
+        "notes": "Cannot flank a large enemy."
+      },
+      "29": {
+        "japanese_decoded": "大きすぎてとばせない",
+        "english": "Too big to launch into the air!",
+        "confidence": "HIGH",
+        "notes": "Cannot use SJ Attack on large enemies."
+      },
+      "30": {
+        "japanese_decoded": "hp／早大hp",
+        "english": "HP / Max HP",
+        "confidence": "HIGH"
+      }
+    }
+  },
+
+  "resource_49_dungeon_exploration": {
+    "_description": "Dungeon exploration text - investigation results, environmental descriptions, traps, treasure chests, navigation",
+    "_guide_section": "Dungeon floor descriptions, trap game (guide line 1916+)",
+    "messages": {
+      "0": {
+        "japanese_decoded": "特に変わったところはない",
+        "english": "Nothing unusual here.",
+        "guide_ref": "There's nothing unusual about it",
+        "guide_line": 2231,
+        "confidence": "HIGH"
+      },
+      "1": {
+        "japanese_decoded": "こちらからは開きそうにない",
+        "english": "It doesn't look like it will open from this side.",
+        "confidence": "HIGH",
+        "notes": "One-way door investigation."
+      },
+      "2": {
+        "japanese_decoded": "もろくて崩れそうなカベだ",
+        "english": "A fragile wall that looks like it could crumble.",
+        "confidence": "HIGH",
+        "notes": "Breakable wall hint."
+      },
+      "3": {
+        "japanese_decoded": "スイッチがoffになっている。 / スイッチをonにした",
+        "english": "The switch is OFF. You turned the switch ON.",
+        "confidence": "HIGH"
+      },
+      "4": {
+        "japanese_decoded": "スイッチがonになっている。 / スイッチをoffにした",
+        "english": "The switch is ON. You turned the switch OFF.",
+        "confidence": "HIGH"
+      },
+      "5": {
+        "japanese_decoded": "カギがかかっている",
+        "english": "It's locked.",
+        "confidence": "HIGH"
+      },
+      "6": {
+        "japanese_decoded": "団がつまれたトロッコがある",
+        "english": "There is a mine cart loaded with cargo.",
+        "confidence": "HIGH"
+      },
+      "7": {
+        "japanese_decoded": "ハシが上がっていて通れない",
+        "english": "The bridge is raised and you can't pass.",
+        "confidence": "HIGH"
+      },
+      "8": {
+        "japanese_decoded": "大きな岩で道がふさがれている",
+        "english": "The path is blocked by a large boulder.",
+        "confidence": "HIGH"
+      },
+      "9": {
+        "japanese_decoded": "荷登が道をふさいでいる",
+        "english": "Luggage is blocking the path.",
+        "confidence": "HIGH"
+      },
+      "10": {
+        "japanese_decoded": "崩れた荷登が持てられている",
+        "english": "Collapsed luggage has been left here.",
+        "confidence": "HIGH"
+      },
+      "11": {
+        "japanese_decoded": "古びたタルが放置されている",
+        "english": "An old barrel has been left here.",
+        "confidence": "HIGH"
+      },
+      "12": {
+        "japanese_decoded": "目の前にがい骨が転がっている",
+        "english": "Bones are scattered in front of you.",
+        "confidence": "HIGH"
+      },
+      "13": {
+        "japanese_decoded": "足元にがい骨が転がっている",
+        "english": "Bones are scattered at your feet.",
+        "confidence": "HIGH"
+      },
+      "14": {
+        "japanese_decoded": "がい骨がもたれかかっている",
+        "english": "A skeleton is leaning against the wall.",
+        "confidence": "HIGH"
+      },
+      "15": {
+        "japanese_decoded": "女神の団像が飾られている",
+        "english": "A statue of the goddess is on display.",
+        "confidence": "HIGH"
+      },
+      "16": {
+        "japanese_decoded": "半部の欠けた団像が飾られている",
+        "english": "A half-broken statue is on display.",
+        "confidence": "HIGH"
+      },
+      "17": {
+        "japanese_decoded": "タルが置かれている",
+        "english": "A barrel has been placed here.",
+        "confidence": "HIGH"
+      },
+      "18": {
+        "japanese_decoded": "壁がくずれている",
+        "english": "The wall has crumbled.",
+        "confidence": "HIGH"
+      },
+      "19": {
+        "japanese_decoded": "くずれた壁で道がふさがれている",
+        "english": "The path is blocked by a collapsed wall.",
+        "confidence": "HIGH"
+      },
+      "20": {
+        "japanese_decoded": "崩れた人形が持てられている",
+        "english": "A broken doll/figure has been left here.",
+        "confidence": "HIGH"
+      },
+      "21": {
+        "japanese_decoded": "巨大な像がつるされている",
+        "english": "A giant statue is hanging.",
+        "confidence": "HIGH"
+      },
+      "22": {
+        "japanese_decoded": "巨大な像がつるされている",
+        "english": "A giant statue is hanging.",
+        "confidence": "HIGH",
+        "notes": "Duplicate of 21."
+      },
+      "23": {
+        "japanese_decoded": "騎法像が置かれている",
+        "english": "A magic statue has been placed here.",
+        "confidence": "HIGH"
+      },
+      "24": {
+        "japanese_decoded": "壁で道がふさがれている",
+        "english": "The path is blocked by a wall.",
+        "confidence": "HIGH"
+      },
+      "25": {
+        "japanese_decoded": "変わった形の壁がある",
+        "english": "There is an unusually shaped wall.",
+        "confidence": "HIGH"
+      },
+      "26": {
+        "japanese_decoded": "柵に何らかの装置がしかけられている",
+        "english": "Some kind of device is set on the fence/gate.",
+        "confidence": "HIGH"
+      },
+      "27": {
+        "japanese_decoded": "わき水がたまっている",
+        "english": "Spring water has pooled here.",
+        "confidence": "HIGH"
+      },
+      "28": {
+        "japanese_decoded": "階段の先が行きどまりで上れない",
+        "english": "The stairs ahead are a dead end and can't be climbed.",
+        "confidence": "HIGH"
+      },
+      "29": {
+        "japanese_decoded": "階段がある",
+        "english": "There are stairs.",
+        "confidence": "HIGH"
+      },
+      "30": {
+        "japanese_decoded": "階段を動かすための装置がある",
+        "english": "There is a device to move the stairs.",
+        "confidence": "HIGH"
+      },
+      "31": {
+        "japanese_decoded": "大きなはかがたっている",
+        "english": "A large gravestone stands here.",
+        "confidence": "HIGH"
+      },
+      "32": {
+        "japanese_decoded": "はかのとなりに何かの装置がある",
+        "english": "There is some kind of device next to the gravestone.",
+        "confidence": "HIGH"
+      },
+      "33": {
+        "japanese_decoded": "とび込めそうなほどに / 大きな穴が開いている",
+        "english": "There is a hole large enough to jump into.",
+        "confidence": "HIGH"
+      },
+      "34": {
+        "japanese_decoded": "宝箱を開けますか？",
+        "english": "Open the treasure chest?",
+        "confidence": "HIGH"
+      },
+      "35": {
+        "japanese_decoded": "宝箱はからっぽだった",
+        "english": "The treasure chest was empty.",
+        "confidence": "HIGH"
+      },
+      "36": {
+        "japanese_decoded": "所持品がいっぱいです。 / 何か持てますか？",
+        "english": "Your inventory is full. Can you discard something?",
+        "confidence": "HIGH"
+      },
+      "37": {
+        "japanese_decoded": "宝箱をあきらめました",
+        "english": "You gave up on the treasure chest.",
+        "confidence": "HIGH"
+      },
+      "38": {
+        "japanese_decoded": "の罠がしかけられています。",
+        "english": "A [trap type] trap is set.",
+        "confidence": "HIGH",
+        "notes": "Trap detection message - trap name prepended."
+      },
+      "39": {
+        "japanese_decoded": "アイテムを取りますか？",
+        "english": "Take the item?",
+        "confidence": "HIGH"
+      },
+      "40": {
+        "japanese_decoded": "スピア",
+        "english": "Spear (trap)",
+        "confidence": "HIGH",
+        "notes": "Trap type name. Spears shoot from walls/floor."
+      },
+      "41": {
+        "japanese_decoded": "ダークフォグ",
+        "english": "Dark Fog (trap)",
+        "guide_ref": "DARK FOG VISIBILITY",
+        "confidence": "HIGH",
+        "notes": "Trap type. Obscures vision."
+      },
+      "42": {
+        "japanese_decoded": "クロスボウ",
+        "english": "Crossbow (trap)",
+        "confidence": "HIGH",
+        "notes": "Trap type. Crossbow bolts fire at party."
+      },
+      "43": {
+        "japanese_decoded": "ルーフフォール",
+        "english": "Roof Fall (trap)",
+        "confidence": "HIGH",
+        "notes": "Trap type. Ceiling collapses."
+      },
+      "44": {
+        "japanese_decoded": "mpドレイン",
+        "english": "MP Drain (trap)",
+        "confidence": "HIGH",
+        "notes": "Trap type. Drains magic points."
+      },
+      "45": {
+        "japanese_decoded": "ポイズンガス",
+        "english": "Poison Gas (trap)",
+        "confidence": "HIGH",
+        "notes": "Trap type. Poisons party members."
+      },
+      "46": {
+        "japanese_decoded": "アラーム",
+        "english": "Alarm (trap)",
+        "confidence": "HIGH",
+        "notes": "Trap type. Triggers enemy encounter."
+      },
+      "47": {
+        "japanese_decoded": "ストーンガス",
+        "english": "Stone Gas (trap)",
+        "confidence": "HIGH",
+        "notes": "Trap type. Petrifies party members."
+      },
+      "48": {
+        "japanese_decoded": "テレポーター",
+        "english": "Teleporter (trap)",
+        "confidence": "HIGH",
+        "notes": "Trap type. Randomly teleports party."
+      },
+      "51": {
+        "japanese_decoded": "アイテムをあきらめました",
+        "english": "You gave up the item.",
+        "confidence": "HIGH"
+      },
+      "52": {
+        "japanese_decoded": "宝箱は開けられている",
+        "english": "The treasure chest has already been opened.",
+        "confidence": "HIGH"
+      },
+      "53": {
+        "japanese_decoded": "はしごで物動しますか？「■：キャンセル」",
+        "english": "Move using the ladder? [Button: Cancel]",
+        "confidence": "HIGH"
+      },
+      "54": {
+        "japanese_decoded": "上のフロア",
+        "english": "Upper floor",
+        "confidence": "HIGH"
+      },
+      "55": {
+        "japanese_decoded": "下のフロア",
+        "english": "Lower floor",
+        "confidence": "HIGH"
+      },
+      "56": {
+        "japanese_decoded": "階段を上りますか？",
+        "english": "Go up the stairs?",
+        "confidence": "HIGH"
+      },
+      "57": {
+        "japanese_decoded": "階段を下りますか？",
+        "english": "Go down the stairs?",
+        "confidence": "HIGH"
+      },
+      "58": {
+        "japanese_decoded": "上の階へワープしますか？",
+        "english": "Warp to the upper floor?",
+        "confidence": "HIGH"
+      },
+      "59": {
+        "japanese_decoded": "下の階へワープしますか？",
+        "english": "Warp to the lower floor?",
+        "confidence": "HIGH"
+      },
+      "60": {
+        "japanese_decoded": "カギを使った",
+        "english": "Used the key.",
+        "confidence": "HIGH"
+      },
+      "61": {
+        "japanese_decoded": "はしごを上りますか？ / 「■：決復 ■：キャンセル」",
+        "english": "Climb up the ladder? [Button: Confirm / Button: Cancel]",
+        "confidence": "HIGH"
+      },
+      "62": {
+        "japanese_decoded": "はしごを下りますか？ / 「■：決復 ■：キャンセル」",
+        "english": "Climb down the ladder? [Button: Confirm / Button: Cancel]",
+        "confidence": "HIGH"
+      },
+      "63": {
+        "japanese_decoded": "は い",
+        "english": "Yes",
+        "confidence": "HIGH"
+      },
+      "64": {
+        "japanese_decoded": "いいえ",
+        "english": "No",
+        "confidence": "HIGH"
+      },
+      "65": {
+        "japanese_decoded": "キャンセル",
+        "english": "Cancel",
+        "confidence": "HIGH"
+      },
+      "66": {
+        "japanese_decoded": "街へ帰りますか？",
+        "english": "Return to town?",
+        "confidence": "HIGH"
+      },
+      "67": {
+        "japanese_decoded": "荷士がつまれ、道がふさがれている",
+        "english": "Cargo is piled up, blocking the path.",
+        "confidence": "HIGH"
+      },
+      "68": {
+        "japanese_decoded": "カギを使った / さびたカギはくだけてしまった",
+        "english": "Used the key. The rusty key broke apart!",
+        "confidence": "HIGH"
+      },
+      "69": {
+        "japanese_decoded": "b１へワープしますか？",
+        "english": "Warp to B1F?",
+        "confidence": "HIGH"
+      },
+      "70": {
+        "japanese_decoded": "b４へワープしますか？",
+        "english": "Warp to B4F?",
+        "confidence": "HIGH"
+      },
+      "71": {
+        "japanese_decoded": "b５へワープしますか？",
+        "english": "Warp to B5F?",
+        "confidence": "HIGH"
+      },
+      "72": {
+        "japanese_decoded": "b１０へワープしますか？",
+        "english": "Warp to B10F?",
+        "confidence": "HIGH"
+      },
+      "73": {
+        "japanese_decoded": "ワープゾーンに入りますか？",
+        "english": "Enter the warp zone?",
+        "confidence": "HIGH"
+      },
+      "74": {
+        "japanese_decoded": "b３へ物動しますか？",
+        "english": "Move to B3F?",
+        "confidence": "HIGH"
+      },
+      "75": {
+        "japanese_decoded": "b５へ物動しますか？",
+        "english": "Move to B5F?",
+        "confidence": "HIGH"
+      },
+      "76": {
+        "japanese_decoded": "とびおりられそうな穴がある",
+        "english": "There is a hole you could jump down.",
+        "confidence": "HIGH"
+      },
+      "77": {
+        "japanese_decoded": "炎が道をふさいでいる",
+        "english": "Flames are blocking the path.",
+        "confidence": "HIGH"
+      },
+      "78": {
+        "japanese_decoded": "遠くに階段が見える",
+        "english": "You can see stairs in the distance.",
+        "confidence": "HIGH"
+      },
+      "79": {
+        "japanese_decoded": "ふん水がある",
+        "english": "There is a fountain.",
+        "guide_ref": "FOUNTAIN RESTORATION PROJECT",
+        "guide_line": 2206,
+        "confidence": "HIGH"
+      },
+      "80": {
+        "japanese_decoded": "炎がもえ上がっていて / とび下りるのは■険そうだ",
+        "english": "Flames are blazing up. It looks dangerous to jump down.",
+        "confidence": "HIGH"
+      },
+      "81": {
+        "japanese_decoded": "水の中に階段が見える",
+        "english": "You can see stairs in the water.",
+        "confidence": "HIGH"
+      },
+      "82": {
+        "japanese_decoded": "不気用な像だ！",
+        "english": "An eerie statue!",
+        "confidence": "HIGH"
+      },
+      "83": {
+        "japanese_decoded": "不気用な像が道をふさいでいる",
+        "english": "An eerie statue is blocking the path.",
+        "confidence": "HIGH"
+      },
+      "84": {
+        "japanese_decoded": "不気用な像の下に何かが見える",
+        "english": "Something can be seen beneath the eerie statue.",
+        "confidence": "HIGH"
+      },
+      "85": {
+        "japanese_decoded": "不思議な形の像が / 道をふさいでいる",
+        "english": "A strangely shaped statue is blocking the path.",
+        "confidence": "HIGH"
+      },
+      "86": {
+        "japanese_decoded": "がれきの壁に / 冒険者の死体がある",
+        "english": "There is an adventurer's corpse in the rubble wall.",
+        "confidence": "HIGH"
+      },
+      "87": {
+        "japanese_decoded": "■のような不気用な像がある",
+        "english": "There is a beast-like eerie statue.",
+        "confidence": "HIGH"
+      },
+      "88": {
+        "japanese_decoded": "立派な装備品が飾られている",
+        "english": "Splendid equipment is on display.",
+        "confidence": "HIGH"
+      },
+      "89": {
+        "japanese_decoded": "常が重すぎて開けられない",
+        "english": "The door is too heavy to open.",
+        "confidence": "HIGH"
+      },
+      "90": {
+        "japanese_decoded": "死体がよこたわっている",
+        "english": "A corpse lies here.",
+        "confidence": "HIGH"
+      },
+      "91": {
+        "japanese_decoded": "がい骨がころがっている",
+        "english": "Bones are scattered about.",
+        "confidence": "HIGH"
+      },
+      "92": {
+        "japanese_decoded": "ここだけ特に重そうに感じる",
+        "english": "This spot feels particularly heavy.",
+        "confidence": "HIGH",
+        "notes": "Ominous atmosphere indicator."
+      },
+      "93": {
+        "japanese_decoded": "水瓶がある",
+        "english": "There is a water jar.",
+        "confidence": "HIGH"
+      },
+      "94": {
+        "japanese_decoded": "美しい祠がまつられている",
+        "english": "A beautiful small shrine is enshrined here.",
+        "confidence": "HIGH"
+      },
+      "95": {
+        "japanese_decoded": "巨大な女神の団像がある",
+        "english": "There is a giant statue of the goddess.",
+        "confidence": "HIGH"
+      },
+      "96": {
+        "japanese_decoded": "くずれたゆかのそこが / 光りかがやいている",
+        "english": "The bottom of the collapsed floor is shining brightly.",
+        "confidence": "HIGH"
+      },
+      "97": {
+        "japanese_decoded": "b８へワープしますか？",
+        "english": "Warp to B8F?",
+        "confidence": "HIGH"
+      },
+      "98": {
+        "japanese_decoded": "b６へワープしますか？",
+        "english": "Warp to B6F?",
+        "confidence": "HIGH"
+      },
+      "99": {
+        "japanese_decoded": "b３へワープしますか？",
+        "english": "Warp to B3F?",
+        "confidence": "HIGH"
+      },
+      "100": {
+        "japanese_decoded": "小さなふくろが落ちている",
+        "english": "A small bag has been dropped here.",
+        "confidence": "HIGH"
+      },
+      "101": {
+        "japanese_decoded": "金色のカギがかかっている",
+        "english": "A golden key lock is set.",
+        "confidence": "HIGH"
+      },
+      "102": {
+        "japanese_decoded": "銀色のカギがかかっている",
+        "english": "A silver key lock is set.",
+        "confidence": "HIGH"
+      },
+      "103": {
+        "japanese_decoded": "さびた色のカギがかかっている",
+        "english": "A rusty-colored key lock is set.",
+        "confidence": "HIGH"
+      },
+      "104": {
+        "japanese_decoded": "大きな水瓶が飾られている",
+        "english": "A large water jar is on display.",
+        "confidence": "HIGH"
+      },
+      "105": {
+        "japanese_decoded": "柵が上がっていて通れない",
+        "english": "The fence/gate is raised and you can't pass.",
+        "confidence": "HIGH"
+      },
+      "106": {
+        "japanese_decoded": "オートマターが潜んでいる",
+        "english": "An Automata is lurking here.",
+        "confidence": "HIGH",
+        "notes": "オートマター = Automata (mechanical companion)."
+      },
+      "107": {
+        "japanese_decoded": "重で像が欠けている",
+        "english": "The statue is chipped/damaged.",
+        "confidence": "HIGH"
+      },
+      "108": {
+        "japanese_decoded": "騎士の顔の像がある",
+        "english": "There is a statue with a knight's face.",
+        "confidence": "HIGH"
+      },
+      "109": {
+        "japanese_decoded": "金色のプレートがういている",
+        "english": "A golden plate is floating.",
+        "confidence": "HIGH"
+      },
+      "110": {
+        "japanese_decoded": "美しいさいだんがある",
+        "english": "There is a beautiful altar.",
+        "confidence": "HIGH",
+        "notes": "さいだん = 祭壇 (altar). Matches B1F altar location in guide."
+      }
+    }
+  },
+
+  "resource_2654_alleid_actions": {
+    "_description": "Alleid Action (cooperative combat technique) descriptions",
+    "_guide_section": "ALLEID ACTIONS (guide line 5867+), ATTACK/DEFENSE/SUPPORT/MAGIC TYPE AA (guide lines 5883-6317)",
+    "messages": {
+      "1": {
+        "japanese_decoded": "前衛２鉄が理１鎧にタイミングを騎わせ同持に攻手し、大きなダメージを与えるaa。",
+        "english_name": "W-SLASH",
+        "english": "Two companions in the front row attack a single target with combined powers, and higher OFE. Special weapon effects, and the amount of hits of a weapon will still come into force.",
+        "guide_line": 5887,
+        "confidence": "HIGH",
+        "notes": "前衛２鉄 = 2 front row members. 理１鎧 = 1 enemy target. Decoded: 'Two front row members time their attacks together, dealing large damage.' aa = Alleid Action."
+      },
+      "2": {
+        "japanese_decoded": "後衛の魔王を、前衛の武器に信して攻手するaa。攻手回くは１回に制限されるが、秘計■敏の持いモンスターを秘計させる景が元■るaa。",
+        "english_name": "HOLD ATTACK",
+        "english": "Heavily increases hit rate by paralysing the enemy before the attack. Very effective against enemies with an unusually high evasion rate. It ignores enemy movement status effect resistances. The attacker will only hit once.",
+        "guide_line": 5917,
+        "confidence": "HIGH",
+        "notes": "Back row magic holds enemy, front row attacks. Attack count limited to 1, but effective against high-agility monsters."
+      },
+      "3": {
+        "japanese_decoded": "後衛の魔王で、理の果きを険街とめ、そのスキに前衛が攻手するaa。攻手回くは１回に制限されるが、回避王の覚いモンスターを攻手するのに有宮。",
+        "english_name": "STUN SMASH",
+        "english": "Stuns the enemy with the help of magic. Does not work on enemies that are immune to Stun.",
+        "guide_line": 5955,
+        "confidence": "HIGH",
+        "notes": "Back row magic stuns enemy's movement, front row attacks in the opening. Attack count limited to 1, but effective against high-evasion monsters."
+      },
+      "4": {
+        "japanese_decoded": "後衛の魔王で前衛を新動に上げ、前衛がターンの身後に許■を■■攻手するaa。攻手回くは１回に制限されるがモンスターの■解王を険限年持宮化することができる。",
+        "english_name": "SJ ATTACK",
+        "english": "Catapults one of your front row party members into the air with the help of magic, allowing the party member to jump attack one enemy of your choice (front or back row) at the end of the turn. Party members in the air can not be targeted by enemy physical attacks.",
+        "guide_line": 6096,
+        "confidence": "HIGH",
+        "notes": "Back row magic launches front row into air. Attack at end of turn. Can bypass enemy defense."
+      },
+      "5": {
+        "japanese_decoded": "となり騎った前衛２鉄が、タイミングを騎わせ、理パーティの前衛・後衛の離絶にいる理に者攻攻手を削うaa。攻手回くは１回に制限されるが、闘ず攻手を聞動させられる。",
+        "english_name": "SLAY CRASH",
+        "english": "Attacks the right and left flank of the back and front row of the enemy party. The hit rate is always 100%, and thus is very effective against high AGI enemies. If there is only one enemy, it will hit twice.",
+        "guide_line": 5988,
+        "confidence": "HIGH",
+        "notes": "Two adjacent front row members attack flanks of enemy front and back row. Attack count limited to 1, but always hits."
+      },
+      "6": {
+        "japanese_decoded": "後衛２鉄が、魔王をクロスさせて理の果きを骨じ、前に値きずり元したところを前衛２鉄が同持に攻手するaa。回避王・hpの覚い理に有宮な箱期攻手。",
+        "english_name": "CROSS-GAUGE KILL",
+        "english": "It acts the same as the AA HOLD ATTACK, only with two party members in the back and in the front performing the AA. It's also possible to choose which party members will perform it.",
+        "guide_line": 6117,
+        "confidence": "HIGH",
+        "notes": "2 back row cross magic to stop enemy, drag them forward, then 2 front row attack simultaneously. Effective against high-evasion and high-HP enemies."
+      },
+      "7": {
+        "japanese_decoded": "前衛全員が■罰して■解■■を取り、回避王・■解王を覚める。理の攻手による秘計・備仰・■・ed・adをも■ぎ、さらに理のイラッシュゴをブロックできる。",
+        "english_name": "FRONT GUARD",
+        "english": "All three companions in the front row will be on the defense. The full party will gain most status immunities (they still can be petrified and ID'd) including ABILITY, SPELL, LVL DRAIN, and will be defended from the RUSH AA completely.",
+        "guide_line": 6167,
+        "confidence": "HIGH",
+        "notes": "All front row enters defensive stance. Increases evasion and defense. Blocks status effects, instant death (ID), ability drain (AD), and enemy RUSH."
+      },
+      "8": {
+        "japanese_decoded": "後衛２鉄が魔王を罰動させて魔法のバリアをはるaa。魔法によるダメージをダウンさせ、レジスト■■払を覚めることができる。",
+        "english_name": "MAGIC SHIELD",
+        "english": "Two magic users in the back row will create a magic shield, reducing the power of incoming magic attacks for one turn. It also increases the RES success rate.",
+        "guide_line": 6191,
+        "confidence": "HIGH",
+        "notes": "2 back row activate magic to create barrier. Reduces magic damage and increases resistance rate."
+      },
+      "9": {
+        "japanese_decoded": "後衛全員が魔王を罰動させ、気度フィールド全鎧を強王な魔法バリアでおおうaa。そのターンは、理味方ともに聖飾による魔法を険紹効果させることができない。",
+        "english_name": "ANTI-MAGIC SHELL",
+        "english": "The magical version of FRONT GUARD. Creates a magic shield that hinders enemies to cast magical attacks. The back row won't be able to cast magic when casting ANTI-MAGIC SHELL.",
+        "guide_line": 6201,
+        "confidence": "HIGH",
+        "notes": "All back row activate magic to cover the entire battle field with a powerful magic barrier. Neither enemies nor allies can activate magic that turn."
+      },
+      "10": {
+        "japanese_decoded": "後衛全員が魔王を罰動させ、パーティ全員の協誰を用りだすaa。協誰は、ダメージを受けると消えてしまうが、攻手の許■になった長騎、■鎧は険紹ダメージを受けずにすむ。",
+        "english_name": "MIRROR IMAGE",
+        "english": "The three companions in the back row will create mirror images of the party, which will act as decoy, and stay until they have been hit. While the decoy is active, physical attacks will be nullified. Magic attacks won't remove them.",
+        "guide_line": 6197,
+        "confidence": "HIGH",
+        "notes": "All back row activate magic to create decoys (mirror images) of all party members. Decoys disappear when hit, but the real party takes no damage as long as decoys remain."
+      },
+      "11": {
+        "japanese_decoded": "理のブレスが習たれた街■にパーティ全員が■小し、ブレス・魔法によるダメージをダウンさせる。代わりに、通常攻手によるダメージがアップしてしまう。",
+        "english_name": "EVASIVE MANEUVER",
+        "english": "At the beginning of the turn, everyone breaks rank to heavily reduce incoming BREATH DMG. Nobody of the party members loses their turn. Mind you that you will become vulnerable to NORMAL and MAGIC attacks when doing so.",
+        "guide_line": 6182,
+        "confidence": "HIGH",
+        "notes": "When enemy breath detected, all party members scatter to reduce breath/magic damage. However, normal attack damage increases as trade-off."
+      },
+      "12": {
+        "japanese_decoded": "パーティ全員が■罰悪■を取り、通常攻手に対する回避王・■解王を大きくアップさせるaa。代わりにブレス・魔法によるダメージがアップしてしまう。",
+        "english_name": "DENSE FORMATION",
+        "english": "At the beginning of the turn, everyone gathers in the center, blocking incoming physical attacks including RUSH. Nobody of the party members loses their turn. Mind you that you will become vulnerable to BREATH and MAGIC attacks when doing so.",
+        "guide_line": 6174,
+        "confidence": "HIGH",
+        "notes": "All party members take tight formation, greatly increasing evasion and defense against normal attacks. Trade-off: breath/magic damage increases."
+      },
+      "13": {
+        "japanese_decoded": "防衛すべき前衛が、理の攻手を受ける持に、後衛がとび■番で良魔し、攻手をカットさせるaa。防衛すべき前衛が攻手されるたびに効果する。",
+        "english_name": "RESTRICT SHOT",
+        "english": "Interferes physical enemy attacks against two companions in the front row with long range weapons or stones. RESTRICT SHOT can trigger multiple times in a turn.",
+        "guide_line": 6216,
+        "confidence": "HIGH",
+        "notes": "When the guarded front row member is attacked, back row fires ranged weapons to cut/interfere with the attack. Activates each time the front row is attacked."
+      },
+      "14": {
+        "japanese_decoded": "味方の攻手前に、後衛全員でとび■番による攻手を削い、攻手の聞動払をアップさせるaa。",
+        "english_name": "SUPPORT SHOT",
+        "english": "All three backrow party members attack together with the front row fighters. If for example every front row fighter is doing a SINGLE ATTACK, the AA will trigger three times!",
+        "guide_line": 6248,
+        "confidence": "HIGH",
+        "notes": "Before ally attacks, all back row fire ranged weapons to increase hit rate of attack."
+      },
+      "15": {
+        "japanese_decoded": "理が魔法を行使しようとした持に、後衛がとび■番で攻手、魔法の行使を強戦的に良魔するaa。１ターンあたりの効果回くに戦制がある。",
+        "english_name": "MAGIC CANCEL",
+        "english": "Interrupts one or two spell from a magic user in the enemy team. Attack power increases when the chosen companions have long range tools in their hands.",
+        "guide_line": 6222,
+        "confidence": "HIGH",
+        "notes": "When enemy tries to cast magic, back row fires ranged weapons to forcefully interrupt the casting. Limited activations per turn."
+      },
+      "16": {
+        "japanese_decoded": "理がブレスを応こうとした持に、後衛がとび■番で攻手、ブレスの行使を強戦的に良魔するaa。１ターンあたりの効果回くに戦制がある。",
+        "english_name": "BREATH CANCEL",
+        "english": "Interrupts one or two BREATH attacks from the enemy team. Attack power increases when the chosen companions have long range tools in their hands.",
+        "guide_line": 6271,
+        "confidence": "HIGH",
+        "notes": "When enemy tries to use breath, back row fires ranged weapons to forcefully interrupt. Limited activations per turn."
+      },
+      "17": {
+        "japanese_decoded": "防衛すべき後衛が、理の攻手を受ける持に、前衛が誰代わりとなって、後衛を壁るaa。理のとび■番による攻手にも対名することができる。",
+        "english_name": "BACK COVER",
+        "english": "Two front row party members will protect the two back row party members from enemy projectile attacks. BACK COVER will also allow your spellcasters to cast magic when the enemy is trying to MAGIC CANCEL them.",
+        "guide_line": 6265,
+        "confidence": "HIGH",
+        "notes": "When the guarded back row is attacked, front row substitutes as shield. Can also counter enemy ranged attacks."
+      },
+      "18": {
+        "japanese_decoded": "囮の前衛が、理の攻手を受ける持に後退し、決りの前衛がサイドから攻手、理の箱期攻手を強戦的にカットする。１ターンあたりの効果回くに戦制がある。",
+        "english_name": "INTERCEPT",
+        "english": "The decoy vanguard retreats when attacked by the enemy, and the remaining vanguard attacks from the side, forcing the enemy's coordinated attack to be interrupted.",
+        "guide_line": 6237,
+        "confidence": "HIGH",
+        "notes": "Decoy front row member retreats when attacked, remaining front row attacks from the side to forcefully cut the enemy's coordinated attack. Limited activations per turn."
+      },
+      "19": {
+        "japanese_decoded": "後衛３鉄が魔王を罰動し、魔法の宮力エリアをひろげるaa。また、理の聖飾持宮化■王をダウンさせ、魔法の宮力もアップさせることができる。",
+        "english_name": "CONCENTRATED SPELL",
+        "english": "This AA will change the spell AOE attribute. A single target spell will affect one row, and a spell that targets a row, will target the full party instead. Works both with offensive and defensive spells!",
+        "guide_line": 6281,
+        "confidence": "HIGH",
+        "notes": "3 back row members activate magic to expand spell area of effect. Also reduces enemy resistance and increases spell power."
+      },
+      "20": {
+        "japanese_decoded": "後衛全員で魔王を罰動し、■の魔法宮力を投集するaa。味方全員のイ骨魔ゴを回■させ、また理のイマジックシェルゴイアンチマジックシェルゴを投集することができる。",
+        "english_name": "SILENCE BREAKER",
+        "english": "Breaks the MUTE status of the whole party. Can also break ANTIMAGIC SHELL, so that front row party members can cast magic.",
+        "guide_line": 6317,
+        "confidence": "HIGH",
+        "notes": "All back row activate magic to dispel magic sealing effects. Recovers party from MUTE status, and can also dispel enemy MAGIC SHELL and ANTI-MAGIC SHELL."
+      },
+      "21": {
+        "japanese_decoded": "後衛の、となりあった■同賊が２鉄とも同じ魔法を少協ずつ唱えることで、魔法の■削者過を者める。イアンチマジックシェルゴよりも者く■削できる。",
+        "english_name": "MAGIC RAPID FIRE",
+        "english": "Two MP users will cast one spell without any additional effects BEFORE anyone else at the start of the turn. This means that AA's like ANTI-MAGIC SHIELD or MAGIC SHIELD will not be able to counter your magic!",
+        "guide_line": 6311,
+        "confidence": "HIGH",
+        "notes": "Two adjacent back row members cast the same spell little by little, speeding up the casting process. Faster than ANTI-MAGIC SHELL can block."
+      },
+      "22": {
+        "japanese_decoded": "後衛が、魔法を味方の武器に信らせ、その武器で味方が攻手するaa。攻手が聞動すれば、理の聖飾持宮化■王・マジックシェルを持泊し、魔法を効果させることができる。",
+        "english_name": "ENCHANT",
+        "english": "Enchants the weapon of one front row fighter with offensive magic for one turn, so that the chosen spell will definitely hit the enemies regardless of their magic resistances.",
+        "guide_line": 6305,
+        "confidence": "HIGH",
+        "notes": "Back row enchants magic onto ally weapon. If the attack hits, bypasses enemy resistance and MAGIC SHIELD, and the magic takes effect."
+      },
+      "23": {
+        "japanese_decoded": "後衛２鉄が、魔法を道を騎わせて唱えることで、魔法の宮力を大きくパワーアップさせるaa。",
+        "english_name": "MAGIC COOPERATION",
+        "english": "Both back row MP users will cast a more stronger version of the selected spell. AOE attribute will not change. Also only works with offensive spells.",
+        "guide_line": 6298,
+        "confidence": "HIGH",
+        "notes": "2 back row members synchronize and chant together to greatly power up the spell."
+      },
+      "24": {
+        "japanese_decoded": "前衛３鉄が、箱内して理１鎧に攻手をしかけ、ダメージを大きくアップさせるaa。箱期宮力で、１鉄許より２鉄許、２鉄許より３鉄許の与えるダメージのほうがより覚くなる。",
+        "english_name": "CONCENTRATED ATTACK",
+        "english": "The front row, from left to right, attacks one enemy, dealing slight, moderate, and heavy damage (left, middle, right). Additional hits and status effects will apply.",
+        "guide_line": 6049,
+        "confidence": "HIGH",
+        "notes": "3 front row members concentrate attacks on 1 enemy. Damage scales: 1st hit < 2nd hit < 3rd hit."
+      },
+      "25": {
+        "japanese_decoded": "あらかじめ囮となる前衛１鉄が攻手された後、決りの前衛２鉄が険秘に理の後■に回りこんで攻手するaa。聞動払が大きくアップし、大きなダメージを与えることができる。",
+        "english_name": "BACK ATTACK",
+        "english": "One person in the front row will act as a decoy, and the other two will counterattack the enemy if the decoy is being attacked. Will be activated multiple times as long as only one enemy is attacking the decoy.",
+        "guide_line": 6020,
+        "confidence": "HIGH",
+        "notes": "1 front row acts as decoy. After being attacked, remaining 2 front row secretly go behind enemy to attack. Hit rate greatly increases, dealing large damage."
+      },
+      "26": {
+        "japanese_decoded": "罰動攻手が、心賊の■団によって進化したもの。１鉄許が全王で理を新動に器き上げ、■■動および理の大ち上がりぎわに攻手し、大きなダメージを与える。",
+        "english_name": "GALE SLASH",
+        "english": "The first party member (on the left) will launch the opponent into the air, which then will get attacked by the other two party members. When the enemy hits the ground again, the first party member hits the enemy one more time with high OFE.",
+        "guide_line": 6063,
+        "confidence": "HIGH",
+        "notes": "Evolution of CONCENTRATED ATTACK when a Knight/Paladin/Darknight is present. 1st member launches enemy with full force, attacks during fall and upon landing."
+      },
+      "27": {
+        "japanese_decoded": "パーティ全員で鎧呪たり攻手を削い、理全鎧にダメージを与えるaa。イフロントガードゴでブロックされない制り、回避されることはない。",
+        "english_name": "RUSH",
+        "english": "The whole party rushes the enemy. A great way to deal with LOW LVL monsters. The higher the overall party level, the more OFE you do. Equipment stats will be completely ignored. It also is a fast attack.",
+        "guide_line": 6161,
+        "confidence": "HIGH",
+        "notes": "All party members perform a mass charge attack, dealing damage to all enemies. Cannot be evaded unless blocked by FRONT GUARD."
+      },
+      "28": {
+        "japanese_decoded": "前衛２鉄がフェイント攻手をしたスキに、決りの１鉄が新動から険秘に理の避■をねらう。攻手回くは全員１回に制限されるが、３鉄許はクリティカル払が大きくアップする。",
+        "english_name": "FAKE ATTACK",
+        "english": "The thief will perform a weak attack, while the other member will be stunning the enemy. Both members will hit the target at the end.",
+        "guide_line": 5971,
+        "confidence": "HIGH",
+        "notes": "2 front row feint, while 3rd secretly aims for enemy weak point from above. Attack count limited to 1 each, but 3rd member gets greatly increased critical rate."
+      },
+      "29": {
+        "japanese_decoded": "前後衛の２鉄でホーリーシンボルを紹り、強王なディスペルを削うaa。加■■に対して、計大な宮力がある。",
+        "english_name": "SACRED CROSS",
+        "english": "Dispels undead with a very high success chance.",
+        "guide_line": 6155,
+        "confidence": "HIGH",
+        "notes": "1 front and 1 back row member form a Holy Symbol and perform a powerful Dispel. Extremely effective against undead."
+      },
+      "30": {
+        "japanese_decoded": "後衛の１鉄が魔王でワープゲートを用り、前衛３鉄が器来、ターンの身後に上新のゲートから■■攻手を削う。理の■解王を持泊できる。新動にいる■は攻手許■とならない。",
+        "english_name": "WARP ATTACK",
+        "english": "The whole front row jumps into the air with the help of just one caster in the back row. Deals good damage.",
+        "guide_line": 6147,
+        "confidence": "HIGH",
+        "notes": "1 back row creates warp gate, 3 front row enter it. At end of turn, they emerge from above to perform a surprise attack. Can bypass enemy defense. Airborne enemies are not targetable."
+      },
+      "31": {
+        "japanese_decoded": "スレイクラッシュが、モンクの■団によって進化したもの。２鉄が秘王をこめて理■をかけ■け、そして■る。削きと人りでダメージを与え、かつ加■■を違すことも能■。",
+        "english_name": "SOUL CRASH",
+        "english": "The strongest AA in the game. Hits the front and back row a second time from behind after having performed the initial attack. SOUL CRASH also gives the other participant the +UNDEAD HIT capability.",
+        "guide_line": 6005,
+        "confidence": "HIGH",
+        "notes": "Evolution of SLAY CRASH when a Monk is present. 2 members charge through enemies, dealing damage on both the entry and exit. Can also hit undead."
+      },
+      "32": {
+        "japanese_decoded": "wスラッシュが、心賊の■団によって進化したもの。前衛２鉄が武器を振るってカマイタチを効■させ、攻手。許■の後方にいる理にもダメージを与えることがある。",
+        "english_name": "SONIC SWORD",
+        "english": "Two companions in the front row attack a single target with combined powers creating a sonic wave that has OFE, +UNDEAD HIT, +%ID, and small AOE OFE.",
+        "guide_line": 5900,
+        "confidence": "HIGH",
+        "notes": "Evolution of W-SLASH when a Knight/Paladin/Darknight is present. 2 front row swing weapons to create a kamaitachi (vacuum blade), attacking target and potentially hitting enemies behind it."
+      }
+    }
+  },
+
+  "cross_reference_notes": {
+    "guide_terminology_mapping": {
+      "aa": "Alleid Action (cooperative combat technique)",
+      "OFE": "Offensive Force Enhancement (attack power)",
+      "RES": "Resistance (magic resistance check)",
+      "ID": "Instant Death",
+      "AD": "Ability Drain",
+      "ED": "Effect/status Drain",
+      "AGI": "Agility",
+      "POI": "Points Of Investment (Alleid Slots needed)",
+      "TRUST": "Party bond/trust level system"
+    },
+    "japanese_battle_terms": {
+      "前衛": "Front row",
+      "後衛": "Back row",
+      "攻手": "Attack (decoded as 攻め手)",
+      "魔王": "Magic power/force (decoded rendering)",
+      "罰動": "Activate (decoded rendering of 発動)",
+      "聞動": "Hit rate (decoded rendering of 命中)",
+      "回避王": "Evasion power",
+      "宮力": "Power/effectiveness (decoded rendering of 効力)",
+      "箱期攻手": "Coordinated attack",
+      "良魔": "Interrupt/block (decoded rendering)",
+      "とび■番": "Long-range projectile/throwing weapon"
+    },
+    "dungeon_terms": {
+      "宝箱": "Treasure chest",
+      "罠": "Trap",
+      "階段": "Stairs",
+      "はしご": "Ladder",
+      "ワープ": "Warp",
+      "カギ": "Key",
+      "がい骨": "Skeleton/bones",
+      "死体": "Corpse",
+      "像": "Statue",
+      "壁": "Wall",
+      "柵": "Fence/gate/barrier"
+    },
+    "bulletin_board_context": {
+      "掲鉄板": "Bulletin board (decoded rendering of 掲示板)",
+      "ドゥーハン": "Duhan (city name)",
+      "ヴィガー商店": "Vigger Shop",
+      "セルフショップ": "Self Shop (vending machine in dungeon)",
+      "ミリィ": "Miri (character who posted Kreta stone request)",
+      "オーク": "Orc"
+    }
+  }
+}

@@ -1,0 +1,228 @@
+import json, struct, os, glob
+
+BASE = "C:/Programmieren/wizardrytranslation"
+RES_DIR = os.path.join(BASE, "extracted/packdata_resources")
+GLYPH_FILE = os.path.join(BASE, "data/msg_glyph_map.json")
+
+with open(GLYPH_FILE, "r", encoding="utf-8") as f:
+    raw_map = json.load(f)
+glyph_map = {int(k): v for k, v in raw_map.items()}
+
+targets = [636, 638, 690]
+targets += list(range(702, 709))
+targets += list(range(742, 787))
+targets += list(range(800, 839))
+targets += [856, 870]
+targets += list(range(888, 928))
+
+def find_bin(res_id):
+    pattern = os.path.join(RES_DIR, f"{res_id:04d}_type*.bin")
+    matches = glob.glob(pattern)
+    return matches[0] if matches else None
+
+def parse_messages(filepath):
+    with open(filepath, "rb") as f:
+        data = f.read()
+    if len(data) < 2:
+        return [], False
+    n = len(data) // 2
+    values = struct.unpack(f">{n}H", data[:n*2])
+    messages = []
+    current_msg = []
+    has_speaker = False
+    speaker_tag_present = False
+    for v in values:
+        if v == 0xFFFF:
+            if current_msg:
+                messages.append({"text": "".join(current_msg), "has_speaker": has_speaker})
+                current_msg = []
+                has_speaker = False
+        elif v == 0xFFFE:
+            current_msg.append("\n")
+        elif v == 0xFF01:
+            current_msg.append("[SPEAKER]")
+            has_speaker = True
+            speaker_tag_present = True
+        else:
+            ch = glyph_map.get(v, f"[{v:04X}]")
+            current_msg.append(ch)
+    if current_msg:
+        messages.append({"text": "".join(current_msg), "has_speaker": has_speaker})
+    return messages, speaker_tag_present
+
+results = {}
+for rid in targets:
+    fpath = find_bin(rid)
+    if not fpath:
+        continue
+    fsize = os.path.getsize(fpath)
+    try:
+        msgs, has_speaker_tags = parse_messages(fpath)
+    except Exception as e:
+        results[rid] = {"error": str(e), "file": os.path.basename(fpath)}
+        continue
+    msgs = [m for m in msgs if m["text"].strip()]
+    results[rid] = {
+        "file": os.path.basename(fpath),
+        "size": fsize,
+        "total_messages": len(msgs),
+        "has_speaker_tags": has_speaker_tags,
+        "messages": msgs
+    }
+
+def categorize(rid, info):
+    if "error" in info:
+        return "error"
+    msgs = info["messages"]
+    if not msgs:
+        return "empty/non-text"
+    text_all = " ".join(m["text"] for m in msgs)
+    has_speaker = info["has_speaker_tags"]
+    total = info["total_messages"]
+    has_quotes = "\u300c" in text_all or "\u300d" in text_all
+    if has_speaker and has_quotes:
+        return "NPC dialogue"
+    elif has_speaker:
+        return "NPC dialogue (no quotes)"
+    elif has_quotes and total > 3:
+        return "story dialogue"
+    elif has_quotes:
+        return "short dialogue/event"
+    elif any(kw in text_all for kw in ["\u30c0\u30f3\u30b8\u30e7\u30f3", "\u8ff7\u5bae", "\u968e", "\u6249"]):
+        return "dungeon event"
+    elif any(kw in text_all for kw in ["\u30af\u30a8\u30b9\u30c8", "\u4f9d\u983c", "\u5831\u916c"]):
+        return "quest text"
+    elif any(kw in text_all for kw in ["\u88c5\u5099", "\u30a2\u30a4\u30c6\u30e0", "\u30b9\u30c6\u30fc\u30bf\u30b9", "\u30bb\u30fc\u30d6", "\u30ed\u30fc\u30c9"]):
+        return "system message"
+    elif total <= 2:
+        return "short text/label"
+    else:
+        return "general text"
+
+out_path = os.path.join(BASE, "data/untranslated_636_927.txt")
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+with open(out_path, "w", encoding="utf-8") as out:
+    out.write("=" * 80 + "\n")
+    out.write("UNTRANSLATED MSG RESOURCES: 636-927 RANGE\n")
+    out.write("=" * 80 + "\n\n")
+    out.write("RESOURCE SUMMARY TABLE\n")
+    out.write("-" * 80 + "\n")
+    out.write(f"{'RES':>5} {'FILE':<22} {'SIZE':>6} {'MSGS':>5} {'SPEAKER':>8} {'CATEGORY':<25}\n")
+    out.write("-" * 80 + "\n")
+    speaker_tag_resources = []
+    for rid in sorted(results.keys()):
+        info = results[rid]
+        if "error" in info:
+            out.write(f"{rid:>5} {info['file']:<22} {'ERR':>6} {'':>5} {'':>8} error\n")
+            continue
+        cat = categorize(rid, info)
+        spk = "YES" if info["has_speaker_tags"] else "no"
+        if info["has_speaker_tags"]:
+            speaker_tag_resources.append(rid)
+        out.write(f"{rid:>5} {info['file']:<22} {info['size']:>6} {info['total_messages']:>5} {spk:>8} {cat:<25}\n")
+    out.write("-" * 80 + "\n")
+    out.write(f"\nTotal resources examined: {len(results)}\n")
+    out.write(f"Resources with FF01 speaker tags: {speaker_tag_resources}\n")
+    out.write(f"  Count: {len(speaker_tag_resources)}\n\n")
+    out.write("=" * 80 + "\n")
+    out.write("DECODED TEXT SAMPLES PER RESOURCE\n")
+    out.write("=" * 80 + "\n\n")
+    for rid in sorted(results.keys()):
+        info = results[rid]
+        if "error" in info:
+            out.write(f"\n--- Resource {rid} ({info['file']}) ---\n")
+            out.write(f"  ERROR: {info['error']}\n")
+            continue
+        cat = categorize(rid, info)
+        msgs = info["messages"]
+        out.write(f"\n--- Resource {rid} ({info['file']}) ---\n")
+        out.write(f"  Category: {cat}\n")
+        out.write(f"  Total messages: {info['total_messages']}\n")
+        out.write(f"  Speaker tags: {'YES' if info['has_speaker_tags'] else 'no'}\n")
+        out.write(f"  File size: {info['size']} bytes\n")
+        if not msgs:
+            out.write("  (no decodable text messages)\n")
+            continue
+        show_count = 3 if len(msgs) > 20 else 5
+        show_count = min(show_count, len(msgs))
+        for i in range(show_count):
+            text = msgs[i]["text"]
+            if len(text) > 200:
+                text = text[:200] + "..."
+            out.write(f"  [{i+1}] {text}\n")
+        if len(msgs) > show_count:
+            out.write(f"  ... ({len(msgs) - show_count} more messages)\n")
+
+import sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+print(f"Written summary to: {out_path}")
+print(f"Total resources parsed: {len(results)}")
+print(f"Speaker tag resources: {speaker_tag_resources}")
+
+print("\n" + "=" * 70)
+print("CONDENSED RESULTS")
+print("=" * 70)
+for rid in sorted(results.keys()):
+    info = results[rid]
+    if "error" in info:
+        print(f"  {rid}: ERROR")
+        continue
+    cat = categorize(rid, info)
+    msgs = info["messages"]
+    spk = " [SPEAKER TAGS]" if info["has_speaker_tags"] else ""
+    print(f"  {rid}: {info['total_messages']} msgs, {cat}{spk}")
+    if msgs:
+        first = msgs[0]["text"][:80].replace("\n", " | ")
+        print(f"       Sample: {first}")
+
+findings_dir = os.path.join(BASE, "runs/CLAUDE-RUNS/RUN-20260522-1932-initial-recon/subagents/find-dialogue-early")
+os.makedirs(findings_dir, exist_ok=True)
+findings_path = os.path.join(findings_dir, "FINDINGS.md")
+
+with open(findings_path, "w", encoding="utf-8") as f:
+    f.write("# Untranslated MSG Resources: 636-927 Range Findings\n\n")
+    f.write("## Overview\n\n")
+    f.write(f"- **Total resources examined**: {len(results)}\n")
+    f.write(f"- **Resources with FF01 speaker tags (NPC dialogue)**: {len(speaker_tag_resources)}\n")
+    f.write(f"  - IDs: {speaker_tag_resources}\n\n")
+    cats = {}
+    for rid in sorted(results.keys()):
+        info = results[rid]
+        cat = categorize(rid, info)
+        cats[cat] = cats.get(cat, 0) + 1
+    f.write("## Category Breakdown\n\n")
+    f.write("| Category | Count |\n")
+    f.write("|----------|-------|\n")
+    for cat, count in sorted(cats.items(), key=lambda x: -x[1]):
+        f.write(f"| {cat} | {count} |\n")
+    f.write("\n## Resources with Speaker Tags (FF01)\n\n")
+    f.write("These resources contain NPC dialogue with explicit speaker identification:\n\n")
+    for rid in speaker_tag_resources:
+        info = results[rid]
+        msgs = info["messages"]
+        f.write(f"### Resource {rid} ({info['file']})\n")
+        f.write(f"- Messages: {info['total_messages']}\n")
+        f.write(f"- Size: {info['size']} bytes\n")
+        if msgs:
+            sample = msgs[0]["text"][:150].replace("\n", " | ")
+            f.write(f"- First message sample: `{sample}`\n")
+        f.write("\n")
+    f.write("## Key Dialogue Resources\n\n")
+    f.write("Resources most likely containing translatable game dialogue:\n\n")
+    for rid in sorted(results.keys()):
+        info = results[rid]
+        if "error" in info:
+            continue
+        cat = categorize(rid, info)
+        if "dialogue" in cat or "quest" in cat or "event" in cat:
+            msgs = info["messages"]
+            f.write(f"- **{rid}** ({cat}): {info['total_messages']} messages\n")
+            if msgs:
+                sample = msgs[0]["text"][:100].replace("\n", " | ")
+                f.write(f"  - Sample: `{sample}`\n")
+    f.write("\n## Full Details\n\n")
+    f.write(f"See: `data/untranslated_636_927.txt` for complete decoded text samples.\n")
+
+print(f"\nWritten findings to: {findings_path}")

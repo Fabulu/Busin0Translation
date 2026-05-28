@@ -1,0 +1,717 @@
+{
+  "_meta": {
+    "source": "0038_type01.bin (MSG resource, 260 messages, 2930 glyphs)",
+    "method": "Contextual inference from partially decoded Japanese text + English guide cross-reference",
+    "guide": "dumps/guide_full.txt (Busin 0 Wizardry Alternative Neo fan translation guide)",
+    "date": "2026-05-22",
+    "agent": "claude-opus-4.6-infer-r38"
+  },
+  "inferred_mappings": {
+    "0": {
+      "char": " ",
+      "confidence": "HIGH",
+      "reasoning": "Word separator in English text (MSG 233 'venom fang', MSG 249 'queen guard', etc.)"
+    },
+    "17": {
+      "char": "\uff11",
+      "confidence": "HIGH",
+      "reasoning": "Sequential with confirmed 18=\uff12; MSG 18 pattern [44][86][17] = Lv\uff11"
+    },
+    "19": {
+      "char": "\uff13",
+      "confidence": "HIGH",
+      "reasoning": "Sequential fullwidth digit: MSG 20 pattern [44][86][19] = Lv\uff13"
+    },
+    "20": {
+      "char": "\uff14",
+      "confidence": "HIGH",
+      "reasoning": "Sequential fullwidth digit"
+    },
+    "21": {
+      "char": "\uff15",
+      "confidence": "HIGH",
+      "reasoning": "Sequential fullwidth digit"
+    },
+    "22": {
+      "char": "\uff16",
+      "confidence": "HIGH",
+      "reasoning": "Sequential fullwidth digit"
+    },
+    "23": {
+      "char": "\uff17",
+      "confidence": "HIGH",
+      "reasoning": "Sequential fullwidth digit"
+    },
+    "33": {
+      "char": "a",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid: glyph-32=alphabet position. MSG 241 'adventurer', MSG 242 'guard'"
+    },
+    "34": {
+      "char": "b",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 243 'boldness', MSG 244 'bravery'"
+    },
+    "35": {
+      "char": "c",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 230 'commoner'"
+    },
+    "36": {
+      "char": "d",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 252 'kind' has no d, but MSG 242 'guard' does"
+    },
+    "37": {
+      "char": "e",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 232 'evil', MSG 248 'hero'"
+    },
+    "38": {
+      "char": "f",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 233 'venom fang', MSG 245 'famous'"
+    },
+    "39": {
+      "char": "g",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 233 'venom fang', MSG 242 'guard'"
+    },
+    "40": {
+      "char": "h",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 248 'hero', MSG 231 'hooligan'"
+    },
+    "41": {
+      "char": "i",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 232 'evil', MSG 234 'villain'"
+    },
+    "42": {
+      "char": "j",
+      "confidence": "MEDIUM",
+      "reasoning": "Latin lowercase grid position (not directly attested in decoded messages but follows pattern)"
+    },
+    "43": {
+      "char": "k",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 252 'kind'"
+    },
+    "44": {
+      "char": "l",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 232 'evil', MSG 234 'villain'"
+    },
+    "45": {
+      "char": "m",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 230 'commoner', MSG 245 'famous'"
+    },
+    "46": {
+      "char": "n",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 230 'commoner', MSG 234 'villain'"
+    },
+    "47": {
+      "char": "o",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 230 'commoner', MSG 231 'hooligan'"
+    },
+    "48": {
+      "char": "p",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 251 'honest person'"
+    },
+    "49": {
+      "char": "q",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 249 'queen guard', MSG 247 'conqueror'"
+    },
+    "50": {
+      "char": "r",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 230 'commoner', MSG 248 'hero'"
+    },
+    "51": {
+      "char": "s",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 235 'gangster', MSG 258 'sage'"
+    },
+    "52": {
+      "char": "t",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 235 'gangster', MSG 246 'veteran'"
+    },
+    "53": {
+      "char": "u",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 245 'famous', MSG 237 'vicious'"
+    },
+    "54": {
+      "char": "v",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 232 'evil', MSG 234 'villain'"
+    },
+    "55": {
+      "char": "w",
+      "confidence": "MEDIUM",
+      "reasoning": "Latin lowercase grid position (not directly attested but follows pattern)"
+    },
+    "56": {
+      "char": "x",
+      "confidence": "MEDIUM",
+      "reasoning": "Latin lowercase grid position (not directly attested but follows pattern)"
+    },
+    "57": {
+      "char": "y",
+      "confidence": "HIGH",
+      "reasoning": "Latin lowercase grid. MSG 244 'bravery', MSG 236 'cruelty'"
+    },
+    "58": {
+      "char": "z",
+      "confidence": "MEDIUM",
+      "reasoning": "Latin lowercase grid position (not directly attested but follows pattern)"
+    },
+    "91": {
+      "char": "\u30fb",
+      "confidence": "HIGH",
+      "reasoning": "List separator between class names in MSG 164/166/168 and between class types in MSG 185/190/199"
+    },
+    "193": {
+      "char": "\u30a2",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 0. MSG 192 \u5b9d\u306e\u30a2\u30a4\u30c6\u30e0 (treasure's items). MSG 98 \u30a2\u30a4\u30c6\u30e0"
+    },
+    "194": {
+      "char": "\u30a4",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 1. MSG 192 \u30a2\u30a4\u30c6\u30e0. Duplicate of glyph 59=\u30a4 at different font position"
+    },
+    "195": {
+      "char": "\u30a6",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 2 (sequential with confirmed \u30aa=197)"
+    },
+    "196": {
+      "char": "\u30a8",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 3. MSG 67 \u30a8\u30b3\u30ed\u30b8\u30b9\u30c8 (Ecologist), MSG 75 \u30a8\u30b3\u30ce\u30df\u30b9\u30c8 (Economist)"
+    },
+    "198": {
+      "char": "\u30ab",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 5 (sequential). NB: msg_glyph_map already has 198=\u9375 - this may indicate a COLLISION or the map entry is for a different context"
+    },
+    "199": {
+      "char": "\u30ad",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 6 (sequential with confirmed neighbors)"
+    },
+    "200": {
+      "char": "\u30af",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 7. MSG 204 \u30c0\u30fc\u30af\u30be\u30fc\u30f3 (Dark Zone)"
+    },
+    "201": {
+      "char": "\u30b1",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 8 (sequential)"
+    },
+    "202": {
+      "char": "\u30b3",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 9. MSG 67 \u30a8\u30b3\u30ed\u30b8\u30b9\u30c8, MSG 75 \u30a8\u30b3\u30ce\u30df\u30b9\u30c8"
+    },
+    "203": {
+      "char": "\u30b5",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 10 (sequential)"
+    },
+    "204": {
+      "char": "\u30b7",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 11. MSG 77 \u30ca\u30eb\u30b7\u30b9\u30c8 (Narcissist)"
+    },
+    "205": {
+      "char": "\u30b9",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 12. MSG 67 \u30a8\u30b3\u30ed\u30b8\u30b9\u30c8, MSG 77 \u30ca\u30eb\u30b7\u30b9\u30c8"
+    },
+    "206": {
+      "char": "\u30bb",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 13 (sequential)"
+    },
+    "207": {
+      "char": "\u30bd",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 14 (sequential)"
+    },
+    "208": {
+      "char": "\u30bf",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 15. MSG 34 \u30aa\u30fc\u30c8\u30de\u30bf\u30fc (Automata)"
+    },
+    "209": {
+      "char": "\u30c1",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 16 (sequential)"
+    },
+    "210": {
+      "char": "\u30c4",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 17 (sequential)"
+    },
+    "211": {
+      "char": "\u30c6",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 18. MSG 192 \u30a2\u30a4\u30c6\u30e0 (Item)"
+    },
+    "212": {
+      "char": "\u30c8",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 19. MSG 67 \u30a8\u30b3\u30ed\u30b8\u30b9\u30c8, MSG 77 \u30ca\u30eb\u30b7\u30b9\u30c8"
+    },
+    "213": {
+      "char": "\u30ca",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 20. MSG 77 \u30ca\u30eb\u30b7\u30b9\u30c8 (Narcissist)"
+    },
+    "214": {
+      "char": "\u30cb",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 21 (sequential)"
+    },
+    "215": {
+      "char": "\u30cc",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 22 (sequential)"
+    },
+    "216": {
+      "char": "\u30cd",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 23 (sequential)"
+    },
+    "217": {
+      "char": "\u30ce",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 24. MSG 75 \u30a8\u30b3\u30ce\u30df\u30b9\u30c8 (Economist). MSG 31 \u30ce\u30fc\u30e0 (Gnome)"
+    },
+    "218": {
+      "char": "\u30cf",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 25 (sequential)"
+    },
+    "219": {
+      "char": "\u30d2",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 26 (sequential)"
+    },
+    "220": {
+      "char": "\u30d5",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 27. MSG 32 \u30c9\u30ef\u30fc\u30d5 (Dwarf)"
+    },
+    "221": {
+      "char": "\u30d8",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 28 (sequential)"
+    },
+    "222": {
+      "char": "\u30db",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 29. MSG 33 \u30db\u30d3\u30c3\u30c8 (Hobbit)"
+    },
+    "223": {
+      "char": "\u30de",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 30. MSG 34 \u30aa\u30fc\u30c8\u30de\u30bf\u30fc (Automata)"
+    },
+    "224": {
+      "char": "\u30df",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 31. MSG 75 \u30a8\u30b3\u30ce\u30df\u30b9\u30c8 (Economist)"
+    },
+    "225": {
+      "char": "\u30e0",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 32. MSG 192 \u30a2\u30a4\u30c6\u30e0 (Item)"
+    },
+    "227": {
+      "char": "\u30e2",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 34. MSG 47 [227]\u30f3\u30af = \u30e2\u30f3\u30af (Monk class)"
+    },
+    "228": {
+      "char": "\u30e4",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 35 (sequential)"
+    },
+    "229": {
+      "char": "\u30e6",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 36 (sequential)"
+    },
+    "230": {
+      "char": "\u30e8",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 37 (sequential)"
+    },
+    "231": {
+      "char": "\u30e9",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 38. MSG 110 \u30c8\u30e9\u30c3\u30d7 context"
+    },
+    "232": {
+      "char": "\u30ea",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 39 (sequential)"
+    },
+    "233": {
+      "char": "\u30eb",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 40. MSG 177 \u30c7\u30a3\u30b9\u30da\u30eb (Dispel)"
+    },
+    "234": {
+      "char": "\u30ec",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 41 (sequential)"
+    },
+    "235": {
+      "char": "\u30ed",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 42. MSG 67 \u30a8\u30b3\u30ed\u30b8\u30b9\u30c8 (Ecologist)"
+    },
+    "236": {
+      "char": "\u30ef",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 43. MSG 32 \u30c9\u30ef\u30fc\u30d5 (Dwarf)"
+    },
+    "237": {
+      "char": "\u30f2",
+      "confidence": "HIGH",
+      "reasoning": "Katakana grid position 44 (sequential, rarely used)"
+    },
+    "240": {
+      "char": "\u30ae",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential: \u30ac(239)\u30ae(240)\u30b0(241)..."
+    },
+    "241": {
+      "char": "\u30b0",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "242": {
+      "char": "\u30b2",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "243": {
+      "char": "\u30b4",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "244": {
+      "char": "\u30b6",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "245": {
+      "char": "\u30b8",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana \u30b8. MSG 67 \u30a8\u30b3\u30ed\u30b8\u30b9\u30c8 (Ecologist)"
+    },
+    "246": {
+      "char": "\u30ba",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "247": {
+      "char": "\u30bc",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "248": {
+      "char": "\u30be",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana \u30be. MSG 204 \u30c0\u30fc\u30af\u30be\u30fc\u30f3 (Dark Zone)"
+    },
+    "250": {
+      "char": "\u30c2",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential (rarely used)"
+    },
+    "251": {
+      "char": "\u30c5",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential (rarely used)"
+    },
+    "252": {
+      "char": "\u30c7",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana \u30c7. MSG 177 \u30c7\u30a3\u30b9\u30da\u30eb (Dispel)"
+    },
+    "253": {
+      "char": "\u30c9",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana \u30c9. MSG 32 \u30c9\u30ef\u30fc\u30d5 (Dwarf)"
+    },
+    "255": {
+      "char": "\u30d3",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana \u30d3. MSG 33 \u30db\u30d3\u30c3\u30c8 (Hobbit)"
+    },
+    "256": {
+      "char": "\u30d6",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "257": {
+      "char": "\u30d9",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "258": {
+      "char": "\u30dc",
+      "confidence": "HIGH",
+      "reasoning": "Dakuten katakana sequential"
+    },
+    "259": {
+      "char": "\u30d1",
+      "confidence": "HIGH",
+      "reasoning": "Handakuten katakana \u30d1. MSG 96/123/132 \u30d1\u30fc\u30c6\u30a3 (Party)"
+    },
+    "260": {
+      "char": "\u30d4",
+      "confidence": "HIGH",
+      "reasoning": "Handakuten katakana sequential"
+    },
+    "261": {
+      "char": "\u30d7",
+      "confidence": "HIGH",
+      "reasoning": "Handakuten katakana \u30d7. MSG 110 \u30c8\u30e9\u30c3\u30d7 (Trap)"
+    },
+    "262": {
+      "char": "\u30da",
+      "confidence": "HIGH",
+      "reasoning": "Handakuten katakana \u30da. MSG 177 \u30c7\u30a3\u30b9\u30da\u30eb (Dispel)"
+    },
+    "263": {
+      "char": "\u30dd",
+      "confidence": "HIGH",
+      "reasoning": "Handakuten katakana sequential. MSG 186 \u30dd\u30fc\u30eb context"
+    },
+    "264": {
+      "char": "\u30e3",
+      "confidence": "HIGH",
+      "reasoning": "Small katakana \u30e3 (sequential with confirmed \u30a3=268)"
+    },
+    "265": {
+      "char": "\u30e5",
+      "confidence": "HIGH",
+      "reasoning": "Small katakana sequential"
+    },
+    "266": {
+      "char": "\u30e7",
+      "confidence": "HIGH",
+      "reasoning": "Small katakana sequential"
+    },
+    "267": {
+      "char": "\u30a1",
+      "confidence": "HIGH",
+      "reasoning": "Small katakana \u30a1 (sequential with confirmed \u30a3=268)"
+    },
+    "269": {
+      "char": "\u30a5",
+      "confidence": "HIGH",
+      "reasoning": "Small katakana sequential (between confirmed \u30a3=268 and \u30a7=270)"
+    },
+    "270": {
+      "char": "\u30a7",
+      "confidence": "HIGH",
+      "reasoning": "Small katakana \u30a7. xref_party confirms vera = \u30f4\u30a7\u30fc\u30e9"
+    },
+    "271": {
+      "char": "\u30a9",
+      "confidence": "HIGH",
+      "reasoning": "Small katakana sequential"
+    },
+    "272": {
+      "char": "\u30c3",
+      "confidence": "HIGH",
+      "reasoning": "Small katakana \u30c3. MSG 33 \u30db\u30d3\u30c3\u30c8 (Hobbit), MSG 110 \u30c8\u30e9\u30c3\u30d7 (Trap)"
+    },
+    "286": {
+      "char": "\u6226",
+      "confidence": "HIGH",
+      "reasoning": "MSG 37 [286][297] = \u6226\u58eb (Fighter class). Single-char class abbreviation in MSG 164/166/168"
+    },
+    "287": {
+      "char": "\u8005",
+      "confidence": "HIGH",
+      "reasoning": "Person/one who. Fits all 16 contexts: MSG 99 '\u8005\u3068\u306f', MSG 152 '\u8005\u306f\u3044\u306a\u3044', MSG 165 '\u8005\u306f\u4e2d\u7acb'"
+    },
+    "289": {
+      "char": "\u60aa",
+      "confidence": "HIGH",
+      "reasoning": "Evil alignment. MSG 222/225 standalone label. MSG 163 '\u60aa\u3078\u3068\u5909\u308f\u3063\u3066\u3057\u307e\u3046'"
+    },
+    "297": {
+      "char": "\u58eb",
+      "confidence": "HIGH",
+      "reasoning": "MSG 37 \u6226\u58eb (Fighter), MSG 44 [304]\u58eb, MSG 48/49 three-char class names ending in \u58eb. Duplicate of confirmed 326=\u58eb at different glyph position"
+    },
+    "337": {
+      "char": "\u4e2d",
+      "confidence": "HIGH",
+      "reasoning": "MSG 221/224 \u4e2d\u7acb (Neutral alignment). MSG 165 '\u4e2d\u7acb\u3068\u3044\u308f\u308c\u307e\u3059'"
+    },
+    "340": {
+      "char": "\u7acb",
+      "confidence": "HIGH",
+      "reasoning": "MSG 221/224 \u4e2d\u7acb (Neutral alignment)"
+    },
+    "401": {
+      "char": "\u4f8d",
+      "confidence": "HIGH",
+      "reasoning": "MSG 42 standalone 1-char class name = \u4f8d (Samurai). Single-char abbreviation in MSG 164/166/168"
+    },
+    "520": {
+      "char": "\u5584",
+      "confidence": "HIGH",
+      "reasoning": "Good alignment. MSG 220/223 standalone label. MSG 167 '\u5584\u306b\u5909\u52d5\u3059\u308b\u8005'"
+    },
+    "610": {
+      "char": "\u601d",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 100/108/135 \u601d\u3063\u3066\u3044\u308b (thinking/believing). Personality trait descriptions"
+    },
+    "618": {
+      "char": "\u8003",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 165 '\u8003\u3048\u3092\u3057\u306a\u3044\u8005\u306f\u4e2d\u7acb' = person without biased thoughts is neutral"
+    },
+    "700": {
+      "char": "\u80fd",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 17/171/183/204 \u80fd\u529b (ability). Appears 30 times, always in ability/skill context"
+    },
+    "718": {
+      "char": "\u751f",
+      "confidence": "HIGH",
+      "reasoning": "MSG 121 \u751f\u304d\u304c\u3044 (ikigai), MSG 129 \u751f\u307e\u308c\u3064\u304d (innately), MSG 161 \u751f\u307e\u308c\u6301\u3064"
+    },
+    "346": {
+      "char": "\u529b",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 17/83/171 \u80fd\u529b (ability). Appears 21 times in stat/ability contexts. \u80fd\u529b\u5024 (ability score) pattern"
+    },
+    "534": {
+      "char": "\u611f",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 104 \u611f\u3058\u308b (feel). Personality trait context"
+    },
+    "720": {
+      "char": "\u5e78",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 104 \u5e78\u305b\u306b\u611f\u3058\u308b (feel happy). Knight trait description"
+    },
+    "613": {
+      "char": "\u8a31",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 120/144 \u8a31\u305b\u306a\u3044 (cannot forgive/allow). Personality trait context"
+    }
+  },
+  "katakana_grid_discovery": {
+    "description": "Complete katakana syllabary mapping discovered at glyphs 193-272",
+    "basic_katakana": "193-237 maps to \u30a2-\u30f2 (45 basic katakana in standard order)",
+    "dakuten": "239-258 maps to \u30ac-\u30dc (dakuten katakana: \u30ac\u30ae\u30b0\u30b2\u30b4\u30b6\u30b8\u30ba\u30bc\u30be\u30c0\u30c2\u30c5\u30c7\u30c9\u30d0\u30d3\u30d6\u30d9\u30dc)",
+    "handakuten": "259-263 maps to \u30d1-\u30dd (handakuten: \u30d1\u30d4\u30d7\u30da\u30dd)",
+    "small_kana": "264-272 maps to \u30e3\u30e5\u30e7\u30a1\u30a3\u30a5\u30a7\u30a9\u30c3",
+    "special": "238=\u30f3(confirmed), 273=\u30f4(confirmed)",
+    "verification_words": [
+      "\u30a2\u30a4\u30c6\u30e0 (Item) = 193,194,211,225",
+      "\u30c9\u30ef\u30fc\u30d5 (Dwarf) = 253,236,93,220",
+      "\u30ce\u30fc\u30e0 (Gnome) = 217,93,225",
+      "\u30db\u30d3\u30c3\u30c8 (Hobbit) = 222,255,272,212",
+      "\u30a8\u30b3\u30ed\u30b8\u30b9\u30c8 (Ecologist) = 196,202,235,245,205,212",
+      "\u30a8\u30b3\u30ce\u30df\u30b9\u30c8 (Economist) = 196,202,217,224,205,212",
+      "\u30ca\u30eb\u30b7\u30b9\u30c8 (Narcissist) = 213,233,204,205,212",
+      "\u30c7\u30a3\u30b9\u30da\u30eb (Dispel) = 252,268,205,262,233",
+      "\u30c0\u30fc\u30af\u30be\u30fc\u30f3 (Dark Zone) = 249,93,200,248,93,238",
+      "\u30d1\u30fc\u30c6\u30a3 (Party) = 259,93,211,268",
+      "\u30aa\u30fc\u30c8\u30de\u30bf\u30fc (Automata) = 197,93,212,223,208,93",
+      "\u30e2\u30f3\u30af (Monk) = 227,238,200",
+      "\u30c8\u30e9\u30c3\u30d7 (Trap) = 212,231,272,261",
+      "\u30d0\u30e9\u30f3\u30b9 (Balance) = 254,231,238,205"
+    ]
+  },
+  "latin_grid_discovery": {
+    "description": "Lowercase Latin alphabet at glyphs 33-58",
+    "formula": "glyph = character_code - ord('a') + 33, so 33=a, 34=b, ..., 58=z",
+    "space": "glyph 0 = space (word separator in English text)",
+    "verification_words": [
+      "commoner = 35,47,45,45,47,46,37,50",
+      "hooligan = 40,47,47,44,41,39,33,46",
+      "evil = 37,54,41,44",
+      "hero = 40,37,50,47",
+      "guard = 39,53,33,50,36",
+      "sage = 51,33,39,37",
+      "adventurer = 33,36,54,37,46,52,53,50,37,50",
+      "god hand = 39,47,36,0,40,33,46,36"
+    ]
+  },
+  "fullwidth_digit_discovery": {
+    "description": "Fullwidth digits \uff11-\uff17 at glyphs 17-23",
+    "confirmed_anchor": "18=\uff12 (from msg_glyph_map)",
+    "inferred": "17=\uff11, 19=\uff13, 20=\uff14, 21=\uff15, 22=\uff16, 23=\uff17"
+  },
+  "game_vocabulary_discoveries": {
+    "alignments": {
+      "520": "\u5584 (Good)",
+      "337+340": "\u4e2d\u7acb (Neutral)",
+      "289": "\u60aa (Evil)"
+    },
+    "classes_identified": {
+      "MSG_37": "[286,297] = \u6226\u58eb (Fighter)",
+      "MSG_42": "[401] = \u4f8d (Samurai)",
+      "MSG_47": "[227,238,200] = \u30e2\u30f3\u30af (Monk)",
+      "MSG_15": "[280,342,343,280,326] = \u9a0e\u4e8b[343]\u9a0e\u58eb (hierarchical knight title)",
+      "MSG_31": "[217,93,225] = \u30ce\u30fc\u30e0 (Gnome race)",
+      "MSG_32": "[253,236,93,220] = \u30c9\u30ef\u30fc\u30d5 (Dwarf race)",
+      "MSG_33": "[222,255,272,212] = \u30db\u30d3\u30c3\u30c8 (Hobbit race)",
+      "MSG_34": "[197,93,212,223,208,93] = \u30aa\u30fc\u30c8\u30de\u30bf\u30fc (Automata)"
+    },
+    "english_reputation_tiers": {
+      "evil_tiers": "commoner, hooligan, evil, venom fang, villain, gangster, cruelty, vicious, dangerous, curiosity",
+      "good_tiers": "commoner, adventurer, guard, boldness, bravery, famous, veteran, conqueror, hero, queen guard",
+      "neutral_tiers": "commoner, honest person, kind, reliable, great heart, fairness, noble, achievement, sage, god hand"
+    }
+  },
+  "resource_structure": {
+    "total_messages": 260,
+    "total_glyphs": 2930,
+    "message_categories": {
+      "0-1": "HP labels",
+      "2-17": "Game system labels (stats, classes, ranks)",
+      "18-24": "Level labels (Lv1-Lv7)",
+      "25-36": "Additional system labels",
+      "37-52": "Class/job names in Japanese",
+      "53-86": "Personality trait names and sub-labels",
+      "87-144": "Personality trait descriptions (Japanese prose)",
+      "145-163": "Class descriptions and mechanics",
+      "164-168": "Class restriction lists (separated by \u30fb)",
+      "169-219": "Advanced class and ability descriptions",
+      "220-228": "Alignment labels (\u5584/\u4e2d\u7acb/\u60aa with display codes)",
+      "229": "Level prefix label",
+      "230-259": "English reputation tier names (30 entries, 3 tiers of 10)"
+    }
+  },
+  "notes": {
+    "glyph_198_collision": "msg_glyph_map has 198=\u9375 but katakana grid predicts 198=\u30ab. These may be from different font sheets or contexts. The MSG resource 0038 likely uses the katakana mapping.",
+    "glyph_326_vs_297": "Both map to \u58eb. 326=\u58eb is confirmed in msg_glyph_map. 297=\u58eb is inferred from \u6226\u58eb (Fighter) context. May represent same character at different font positions.",
+    "glyph_369_uncertainty": "Confirmed map says 369=\u660e but contextual usage (\u660e\u3064\u3051\u3066=find, \u660e\u305f\u3060\u3051=just by seeing) strongly suggests 369=\u898b instead. Possible map error.",
+    "glyph_659_uncertainty": "Confirmed map says 659=\u57ce but MSG 92/136/142 use it as a verb (\u57ce\u308b, \u57ce\u3063\u305f\u308a) suggesting it may actually be \u5e30 (return) instead."
+  }
+}

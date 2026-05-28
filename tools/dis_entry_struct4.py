@@ -1,0 +1,130 @@
+"""Check what the *12 patterns do - are they pixel offsets or struct strides?"""
+import struct
+
+exe = open('C:/Programmieren/wizardrytranslation/extracted/SLPM_653.78', 'rb').read()
+FILE_TO_VADDR = 0x0FFF80
+R = ['zero','at','v0','v1','a0','a1','a2','a3','t0','t1','t2','t3','t4','t5','t6','t7','s0','s1','s2','s3','s4','s5','s6','s7','t8','t9','k0','k1','gp','sp','fp','ra']
+
+def dis(off_f):
+    raw = struct.unpack_from('<I', exe, off_f)[0]
+    va = off_f + FILE_TO_VADDR
+    op = (raw >> 26) & 0x3F
+    rs = (raw >> 21) & 0x1F; rt = (raw >> 16) & 0x1F; rd = (raw >> 11) & 0x1F
+    sa = (raw >> 6) & 0x1F; fn = raw & 0x3F
+    imm = raw & 0xFFFF; si = imm - 0x10000 if imm > 0x7FFF else imm
+    if op == 0x28: return f'sb ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x29: return f'sh ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x2B: return f'sw ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x20: return f'lb ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x21: return f'lh ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x23: return f'lw ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x24: return f'lbu ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x25: return f'lhu ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x09: return f'addiu ${R[rt]}, ${R[rs]}, {si}'
+    if op == 0x0F: return f'lui ${R[rt]}, 0x{imm:04X}'
+    if op == 0x0D: return f'ori ${R[rt]}, ${R[rs]}, 0x{imm:04X}'
+    if op == 0x0C: return f'andi ${R[rt]}, ${R[rs]}, 0x{imm:04X}'
+    if op == 0x04: return f'beq ${R[rs]}, ${R[rt]}, 0x{va+4+(si<<2):08X}'
+    if op == 0x05: return f'bne ${R[rs]}, ${R[rt]}, 0x{va+4+(si<<2):08X}'
+    if op == 0x03: return f'jal 0x{(va & 0xF0000000) | ((raw & 0x3FFFFFF) << 2):08X}'
+    if op == 0x02: return f'j 0x{(va & 0xF0000000) | ((raw & 0x3FFFFFF) << 2):08X}'
+    if op == 0x0A: return f'slti ${R[rt]}, ${R[rs]}, {si}'
+    if op == 0x07: return f'bgtz ${R[rs]}, 0x{va+4+(si<<2):08X}'
+    if op == 0x06: return f'blez ${R[rs]}, 0x{va+4+(si<<2):08X}'
+    if op == 0x19: return f'daddiu ${R[rt]}, ${R[rs]}, {si}'
+    if op == 0x1F: return f'sq ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x3F: return f'sd ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x37: return f'ld ${R[rt]}, {si}(${R[rs]})'
+    if op == 0x01 and rt == 0: return f'bltz ${R[rs]}, 0x{va+4+(si<<2):08X}'
+    if op == 0x01 and rt == 1: return f'bgez ${R[rs]}, 0x{va+4+(si<<2):08X}'
+    if op == 0:
+        if fn == 0x21: return f'addu ${R[rd]}, ${R[rs]}, ${R[rt]}'
+        if fn == 0x25: return f'or ${R[rd]}, ${R[rs]}, ${R[rt]}'
+        if fn == 0x24: return f'and ${R[rd]}, ${R[rs]}, ${R[rt]}'
+        if fn == 0 and rd == 0 and rt == 0 and sa == 0: return 'nop'
+        if fn == 0: return f'sll ${R[rd]}, ${R[rt]}, {sa}'
+        if fn == 8: return f'jr ${R[rs]}'
+        if fn == 9: return f'jalr ${R[rd]}, ${R[rs]}'
+        if fn == 0x2D: return f'daddu ${R[rd]}, ${R[rs]}, ${R[rt]}'
+        if fn == 0x23: return f'subu ${R[rd]}, ${R[rs]}, ${R[rt]}'
+        if fn == 0x2A: return f'slt ${R[rd]}, ${R[rs]}, ${R[rt]}'
+        if fn == 0x3C: return f'dsll32 ${R[rd]}, ${R[rt]}, {sa}'
+        if fn == 0x3F: return f'dsra32 ${R[rd]}, ${R[rt]}, {sa}'
+        if fn == 0x18: return f'mult ${R[rs]}, ${R[rt]}'
+        if fn == 0x12: return f'mflo ${R[rd]}'
+        if fn == 0x10: return f'mfhi ${R[rd]}'
+        if fn == 2: return f'srl ${R[rd]}, ${R[rt]}, {sa}'
+        if fn == 3: return f'sra ${R[rd]}, ${R[rt]}, {sa}'
+    return f'raw=0x{raw:08X}'
+
+def show(start_va, end_va, label=""):
+    if label: print(f'\n=== {label} ===')
+    for va in range(start_va, end_va, 4):
+        o = va - FILE_TO_VADDR
+        if o < 0 or o+4 > len(exe): continue
+        print(f'  {va:08X}: {dis(o)}')
+
+# Check what the *12 at 0x305CC4 is used for (context)
+show(0x305CB0, 0x305D10, "*12 at 0x305CC4 - check if stride or pixel")
+
+# Check 0x3077D0
+show(0x3077BC, 0x307810, "*12 at 0x3077D0")
+
+# Check 0x307920
+show(0x30790C, 0x307960, "*12 at 0x307920")
+
+# Now, look at where the 12px advance is computed as PIXEL
+# In the renderer, the glyph position in the TEXT BOX uses Y=row*24
+# The X must use col*12. But where is col*12?
+# col = charIndex % 21
+# The div-by-21 gives row. The remainder would give col.
+# But we saw the magic multiply for div-by-21 doesn't compute remainder.
+# Instead: col = charIndex - row * 21
+# Then X = col * 12
+
+# Let me look at where (row*21) or (charIndex - row*21) is computed
+# After the div-by-21 at 0x306184, the code should compute:
+# remainder = charIndex - quotient * 21
+# Then X = remainder * 12
+# Look for addiu with 21 or a multiply-by-21 pattern
+
+print('\n=== Search for *21 pattern or addiu 21 in renderer ===')
+for va in range(0x305000, 0x310000, 4):
+    o = va - FILE_TO_VADDR
+    raw = struct.unpack_from('<I', exe, o)[0]
+    op = (raw >> 26) & 0x3F
+    si = (raw & 0xFFFF)
+    if si > 0x7FFF: si -= 0x10000
+    if op == 0x09 and si == 21:
+        print(f'  {va:08X}: {dis(o)}')
+    if op == 0x09 and si == -21:
+        print(f'  {va:08X}: {dis(o)}')
+    # Also look for multiply by 21: sll by 4 + sll by 2 + sll by 0 = *16+*4+*1=21
+    # or more likely sll by 4 then addu + sll by 2 then addu + add
+    # Actually 21 = 16 + 4 + 1 = (x<<4) + (x<<2) + x
+
+# Better: search for places that load constant 21 (ori/addiu zero, 21)
+print('\n=== Constant 21 loads in renderer ===')
+for va in range(0x305000, 0x310000, 4):
+    o = va - FILE_TO_VADDR
+    raw = struct.unpack_from('<I', exe, o)[0]
+    op = (raw >> 26) & 0x3F
+    rs = (raw >> 21) & 0x1F
+    si = (raw & 0xFFFF)
+    if si > 0x7FFF: si -= 0x10000
+    if op == 0x09 and rs == 0 and si == 21:
+        print(f'  {va:08X}: {dis(o)}')
+    if op == 0x0D and rs == 0 and (raw & 0xFFFF) == 21:
+        print(f'  {va:08X}: {dis(o)}')
+
+# And constant 42:
+print('\n=== Constant 42 loads in renderer ===')
+for va in range(0x305000, 0x310000, 4):
+    o = va - FILE_TO_VADDR
+    raw = struct.unpack_from('<I', exe, o)[0]
+    op = (raw >> 26) & 0x3F
+    rs = (raw >> 21) & 0x1F
+    si = (raw & 0xFFFF)
+    if si > 0x7FFF: si -= 0x10000
+    if op == 0x09 and rs == 0 and si == 42:
+        print(f'  {va:08X}: {dis(o)}')

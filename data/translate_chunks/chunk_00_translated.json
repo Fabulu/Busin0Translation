@@ -1,0 +1,793 @@
+[
+  {
+    "resource": 34,
+    "message": 1,
+    "japanese": "回復の魔石 / ",
+    "english": "Healing Stone / ",
+    "notes": "Magic stone for recovery/healing spells"
+  },
+  {
+    "resource": 34,
+    "message": 2,
+    "japanese": "武神の魔石 / ",
+    "english": "War God Stone / ",
+    "notes": "武神 = war god/warrior god"
+  },
+  {
+    "resource": 34,
+    "message": 3,
+    "japanese": "騎事務の魔石 / ",
+    "english": "Knight's Stone / ",
+    "notes": "騎事務 likely decoding artifact for 騎士 (knight)"
+  },
+  {
+    "resource": 34,
+    "message": 4,
+    "japanese": "ブラフマンの魔石 / ",
+    "english": "Brahman Stone / ",
+    "notes": "Ring of Brahman is in the guide"
+  },
+  {
+    "resource": 34,
+    "message": 5,
+    "japanese": "■落の魔石 / ",
+    "english": "Corruption Stone / ",
+    "notes": "■ likely 堕 making 堕落 = corruption/fall"
+  },
+  {
+    "resource": 34,
+    "message": 6,
+    "japanese": "使いの魔石 / ",
+    "english": "Messenger Stone / ",
+    "notes": "使い = messenger/familiar"
+  },
+  {
+    "resource": 34,
+    "message": 7,
+    "japanese": "死の魔石 / ",
+    "english": "Death Stone / ",
+    "notes": "Ring of Death is in the guide"
+  },
+  {
+    "resource": 34,
+    "message": 8,
+    "japanese": "飾りの罰■ / ",
+    "english": "Decorative Talisman / ",
+    "notes": "罰■ = likely お守り variant; guide confirms Decorative Talisman"
+  },
+  {
+    "resource": 34,
+    "message": 12,
+    "japanese": "騎戦の罰■ / ",
+    "english": "Warrior Talisman / ",
+    "notes": "騎戦 = warrior/knight-battle; guide has Talisman of the Warrior"
+  },
+  {
+    "resource": 34,
+    "message": 13,
+    "japanese": "聖王の罰■ / ",
+    "english": "Holy King Talisman / ",
+    "notes": "聖王 = Holy King; guide has Talisman of the Holy King"
+  },
+  {
+    "resource": 34,
+    "message": 15,
+    "japanese": "使いの罰■ / ",
+    "english": "Cursed Talisman / ",
+    "notes": "使い here may refer to cursed/messenger variant; guide has Cursed Talisman"
+  },
+  {
+    "resource": 34,
+    "message": 16,
+    "japanese": "ラピスの■飾り / ",
+    "english": "Lapis Hair Ornament / ",
+    "notes": "■ likely 髪; guide confirms Lapis Hair Ornament"
+  },
+  {
+    "resource": 34,
+    "message": 17,
+    "japanese": "エルフの■飾り / ",
+    "english": "Elf Hair Ornament / ",
+    "notes": "Guide has Elven Hair Ornament"
+  },
+  {
+    "resource": 34,
+    "message": 18,
+    "japanese": "聖女の■飾り / ",
+    "english": "Saint's Hair Ornament / ",
+    "notes": "聖女 = saint/holy maiden; guide confirms Saint's Hair Ornament"
+  },
+  {
+    "resource": 34,
+    "message": 19,
+    "japanese": "銀の■飾り / ",
+    "english": "Silver Hair Ornament / ",
+    "notes": "銀 = silver; guide confirms Silver Hair Ornament"
+  },
+  {
+    "resource": 34,
+    "message": 20,
+    "japanese": "水の■飾り / ",
+    "english": "Water Hair Ornament / ",
+    "notes": "水 = water; guide confirms Water Hair Ornament"
+  },
+  {
+    "resource": 34,
+    "message": 21,
+    "japanese": "騎女の■飾り / ",
+    "english": "Witch's Hair Ornament / ",
+    "notes": "騎女 likely decoding of 魔女 (witch); guide has Witch's Hair Ornament"
+  },
+  {
+    "resource": 34,
+    "message": 22,
+    "japanese": "使いの■飾り / ",
+    "english": "Cursed Hair Ornament / ",
+    "notes": "Guide has Cursed Hair Ornament as an accessory"
+  },
+  {
+    "resource": 34,
+    "message": 23,
+    "japanese": "オークのリスト / ",
+    "english": "Orc Wristband / ",
+    "notes": "リスト = wrist(band); guide confirms Orc Wristband"
+  },
+  {
+    "resource": 34,
+    "message": 24,
+    "japanese": "オーガパワーリスト / ",
+    "english": "Ogre Power Wristband / ",
+    "notes": "Guide confirms Ogre Power Wristband"
+  },
+  {
+    "resource": 34,
+    "message": 25,
+    "japanese": "盗賊のリスト / ",
+    "english": "Thief's Wristband / ",
+    "notes": "盗賊 = thief; guide confirms Thief's Wristband"
+  },
+  {
+    "resource": 34,
+    "message": 26,
+    "japanese": "兵士のリスト / ",
+    "english": "Knight's Wristband / ",
+    "notes": "兵士 = soldier but guide has Knight's Wristband in same slot"
+  },
+  {
+    "resource": 34,
+    "message": 27,
+    "japanese": "だめオークのリスト / ",
+    "english": "Useless Orc Wristband / ",
+    "notes": "だめ = useless/no good; guide confirms"
+  },
+  {
+    "resource": 34,
+    "message": 28,
+    "japanese": "力ぬけるリスト / ",
+    "english": "Exhausting Wristband / ",
+    "notes": "力ぬける = strength-draining; guide has Exhausting Wristband"
+  },
+  {
+    "resource": 34,
+    "message": 29,
+    "japanese": "スピードブーツ / ",
+    "english": "Boots of Speed / ",
+    "notes": "Guide has Boots of Speed / Speed Boots"
+  },
+  {
+    "resource": 35,
+    "message": 1,
+    "japanese": "セーブ / ",
+    "english": "Save / ",
+    "notes": "Menu label"
+  },
+  {
+    "resource": 35,
+    "message": 3,
+    "japanese": "ロード / ",
+    "english": "Load / ",
+    "notes": "Menu label"
+  },
+  {
+    "resource": 35,
+    "message": 4,
+    "japanese": "オプション / ",
+    "english": "Options / ",
+    "notes": "Menu label"
+  },
+  {
+    "resource": 35,
+    "message": 5,
+    "japanese": "タイトルに帰る / ",
+    "english": "Return to Title / ",
+    "notes": "Menu label"
+  },
+  {
+    "resource": 35,
+    "message": 6,
+    "japanese": "exit / ",
+    "english": "Exit / ",
+    "notes": "Menu label"
+  },
+  {
+    "resource": 35,
+    "message": 7,
+    "japanese": "アナログコントローラの振動 / ",
+    "english": "Controller Vibration / ",
+    "notes": "Guide: Analog Controller Vibration; shortened for space"
+  },
+  {
+    "resource": 35,
+    "message": 8,
+    "japanese": "ステータスパネルのサイズ / ",
+    "english": "Status Panel Size / ",
+    "notes": "Guide confirms Status Panel Size"
+  },
+  {
+    "resource": 35,
+    "message": 9,
+    "japanese": "カメラゆれ / ",
+    "english": "Camera Shake / ",
+    "notes": "Guide: Camera Shaking"
+  },
+  {
+    "resource": 35,
+    "message": 10,
+    "japanese": "戦箱エフェクト / ",
+    "english": "Battle Effects / ",
+    "notes": "戦箱 likely decoding of 戦闘; guide confirms Battle Effects"
+  },
+  {
+    "resource": 35,
+    "message": 11,
+    "japanese": "コマンド■置記■「ターン」 / ",
+    "english": "Cmd Memory (Turn) / ",
+    "notes": "Guide: Command Position Memory (Turn); shortened"
+  },
+  {
+    "resource": 35,
+    "message": 12,
+    "japanese": "コマンド■置記■「戦箱」 / ",
+    "english": "Cmd Memory (Battle) / ",
+    "notes": "Guide: Command Position Memory (Battle); shortened"
+  },
+  {
+    "resource": 35,
+    "message": 13,
+    "japanese": "バックアタック受の内容避多 / ",
+    "english": "Back Attack Auto Fix / ",
+    "notes": "Guide: Auto Correct Party Rank on Back Attack; shortened"
+  },
+  {
+    "resource": 35,
+    "message": 15,
+    "japanese": "■期増復に帰す / ",
+    "english": "Reset to Default / ",
+    "notes": "■期 likely 初期; restore initial settings"
+  },
+  {
+    "resource": 35,
+    "message": 16,
+    "japanese": "増復終了 / ",
+    "english": "Done / ",
+    "notes": "増復 likely decoding artifact for 設定; end/finish settings"
+  },
+  {
+    "resource": 35,
+    "message": 17,
+    "japanese": "o n / ",
+    "english": "ON / ",
+    "notes": "Toggle option"
+  },
+  {
+    "resource": 35,
+    "message": 18,
+    "japanese": "off / ",
+    "english": "OFF / ",
+    "notes": "Toggle option"
+  },
+  {
+    "resource": 35,
+    "message": 19,
+    "japanese": "通 通 / ",
+    "english": "Normal / ",
+    "notes": "通常 = normal; guide confirms Normal option"
+  },
+  {
+    "resource": 35,
+    "message": 22,
+    "japanese": "おそい / ",
+    "english": "Slow / ",
+    "notes": "Message speed option"
+  },
+  {
+    "resource": 35,
+    "message": 23,
+    "japanese": "はやい / ",
+    "english": "Fast / ",
+    "notes": "Message speed option"
+  },
+  {
+    "resource": 36,
+    "message": 1,
+    "japanese": "バブリースライム / ",
+    "english": "Bubbly Slime / ",
+    "notes": "Classic Wizardry monster"
+  },
+  {
+    "resource": 36,
+    "message": 2,
+    "japanese": "ローグ / ",
+    "english": "Rogue / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 3,
+    "japanese": "ゾンビ / ",
+    "english": "Zombie / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 4,
+    "japanese": "ガスドラゴン / ",
+    "english": "Gas Dragon / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 5,
+    "japanese": "オーガ / ",
+    "english": "Ogre / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 6,
+    "japanese": "ピクシー / ",
+    "english": "Pixie / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 7,
+    "japanese": "ボギーキャット / ",
+    "english": "Bogey Cat / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 8,
+    "japanese": "ドラゴンフライ / ",
+    "english": "Dragonfly / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 9,
+    "japanese": "ロッティングコープス / ",
+    "english": "Rotting Corpse / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 10,
+    "japanese": "ボーリングビートル / ",
+    "english": "Boring Beetle / ",
+    "notes": "Classic Wizardry monster"
+  },
+  {
+    "resource": 36,
+    "message": 11,
+    "japanese": "オーク / ",
+    "english": "Orc / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 12,
+    "japanese": "コボルド / ",
+    "english": "Kobold / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 13,
+    "japanese": "アンデッドコボルド / ",
+    "english": "Undead Kobold / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 14,
+    "japanese": "ジャイアントトード / ",
+    "english": "Giant Toad / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 15,
+    "japanese": "ヒュージスパイダーa / ",
+    "english": "Huge Spider A / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 16,
+    "japanese": "ヒュージスパイダーb / ",
+    "english": "Huge Spider B / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 17,
+    "japanese": "ジャイアントスピナー / ",
+    "english": "Giant Spinner / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 18,
+    "japanese": "ゲイズハウンド / ",
+    "english": "Gaze Hound / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 19,
+    "japanese": "スピリット / ",
+    "english": "Spirit / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 20,
+    "japanese": "ワイバーン / ",
+    "english": "Wyvern / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 21,
+    "japanese": "シェイド / ",
+    "english": "Shade / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 22,
+    "japanese": "アースジャイアント / ",
+    "english": "Earth Giant / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 23,
+    "japanese": "ウィル■オ■ウィスプ / ",
+    "english": "Will-o'-Wisp / ",
+    "notes": "■ = hyphen/apostrophe characters"
+  },
+  {
+    "resource": 36,
+    "message": 24,
+    "japanese": "ガーゴイル / ",
+    "english": "Gargoyle / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 25,
+    "japanese": "キメラ / ",
+    "english": "Chimera / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 26,
+    "japanese": "オーガロード / ",
+    "english": "Ogre Lord / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 27,
+    "japanese": "ヴァンパイア / ",
+    "english": "Vampire / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 28,
+    "japanese": "ドラゴンゾンビ / ",
+    "english": "Dragon Zombie / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 29,
+    "japanese": "ファイアジャイアント / ",
+    "english": "Fire Giant / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 30,
+    "japanese": "フロストジャイアント / ",
+    "english": "Frost Giant / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 31,
+    "japanese": "ポイズンジャイアント / ",
+    "english": "Poison Giant / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 32,
+    "japanese": "レッサーデーモン / ",
+    "english": "Lesser Demon / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 33,
+    "japanese": "グレーターデーモン / ",
+    "english": "Greater Demon / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 34,
+    "japanese": "ファイアドラゴン / ",
+    "english": "Fire Dragon / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 35,
+    "japanese": "バイドパイパー / ",
+    "english": "Bide Piper / ",
+    "notes": "Possibly Pied Piper variant"
+  },
+  {
+    "resource": 36,
+    "message": 36,
+    "japanese": "ヴァンパイアロード / ",
+    "english": "Vampire Lord / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 37,
+    "japanese": "マイルフィック / ",
+    "english": "Maelific / ",
+    "notes": "Classic Wizardry boss enemy"
+  },
+  {
+    "resource": 36,
+    "message": 38,
+    "japanese": "バンシー / ",
+    "english": "Banshee / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 39,
+    "japanese": "セラフ / ",
+    "english": "Seraph / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 40,
+    "japanese": "アークエンジェル / ",
+    "english": "Archangel / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 41,
+    "japanese": "デュラハン / ",
+    "english": "Dullahan / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 42,
+    "japanese": "ケルベロス / ",
+    "english": "Cerberus / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 43,
+    "japanese": "レイバーロード / ",
+    "english": "Reaver Lord / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 44,
+    "japanese": "ハーピー / ",
+    "english": "Harpy / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 45,
+    "japanese": "メデューサリザード / ",
+    "english": "Medusa Lizard / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 46,
+    "japanese": "プリーステス / ",
+    "english": "Priestess / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 47,
+    "japanese": "ワーウルフ / ",
+    "english": "Werewolf / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 48,
+    "japanese": "lv３ファイター / ",
+    "english": "Lv3 Fighter / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 49,
+    "japanese": "lv１プリースト / ",
+    "english": "Lv1 Priest / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 50,
+    "japanese": "lv１メイジ / ",
+    "english": "Lv1 Mage / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 51,
+    "japanese": "lv３サムライ / ",
+    "english": "Lv3 Samurai / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 52,
+    "japanese": "lv１ビショップ / ",
+    "english": "Lv1 Bishop / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 53,
+    "japanese": "lv１ニンジャ / ",
+    "english": "Lv1 Ninja / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 54,
+    "japanese": "ナインテール / ",
+    "english": "Ninetails / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 55,
+    "japanese": "インキュバス / ",
+    "english": "Incubus / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 56,
+    "japanese": "フレッシュゴーレム / ",
+    "english": "Flesh Golem / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 57,
+    "japanese": "ブシン / ",
+    "english": "Busin / ",
+    "notes": "Title character/boss; the Warrior God"
+  },
+  {
+    "resource": 36,
+    "message": 58,
+    "japanese": "ブッシュワッカーa / ",
+    "english": "Bushwhacker A / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 59,
+    "japanese": "ハイウェイマン / ",
+    "english": "Highwayman / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 60,
+    "japanese": "lv４シーフa / ",
+    "english": "Lv4 Thief A / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 61,
+    "japanese": "マスターシーフa / ",
+    "english": "Master Thief A / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 62,
+    "japanese": "ファントムシーフa / ",
+    "english": "Phantom Thief A / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 63,
+    "japanese": "lv７ファイター / ",
+    "english": "Lv7 Fighter / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 64,
+    "japanese": "lv８ファイター / ",
+    "english": "Lv8 Fighter / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 65,
+    "japanese": "lv１０ファイター / ",
+    "english": "Lv10 Fighter / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 66,
+    "japanese": "ソードマン / ",
+    "english": "Swordsman / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 67,
+    "japanese": "バーサーカー / ",
+    "english": "Berserker / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 68,
+    "japanese": "lv５メイジ / ",
+    "english": "Lv5 Mage / ",
+    "notes": ""
+  },
+  {
+    "resource": 36,
+    "message": 69,
+    "japanese": "lv７メイジ / ",
+    "english": "Lv7 Mage / ",
+    "notes": ""
+  }
+]

@@ -1,0 +1,262 @@
+import json
+import os
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+
+RESOURCE_DIR = "C:/Programmieren/wizardrytranslation/extracted/packdata_resources"
+CLASS_FILE = "C:/Programmieren/wizardrytranslation/dumps/resource_classification.json"
+OUT_JSON = "C:/Programmieren/wizardrytranslation/dumps/non_msg_text_scan.json"
+OUT_MD = "C:/Programmieren/wizardrytranslation/runs/CLAUDE-RUNS/RUN-20260522-1932-initial-recon/subagents/recon28-non-msg-text/FINDINGS.md"
+
+with open(CLASS_FILE) as f:
+    cdata = json.load(f)
+
+sjis_set = set(cdata["sjis_resource_indices"])
+msg_set = set(cdata["msg_resource_indices"])
+non_msg_sjis = sorted(sjis_set - msg_set)
+
+res_info = {}
+for r in cdata["resources"]:
+    res_info[r["index"]] = r
+
+
+def has_japanese_char(b1, b2):
+    if b1 == 0x82 and 0x9F <= b2 <= 0xF1:
+        return True
+    if b1 == 0x83 and 0x40 <= b2 <= 0x96:
+        return True
+    if 0x88 <= b1 <= 0x9F and ((0x40 <= b2 <= 0x7E) or (0x80 <= b2 <= 0xFC)):
+        return True
+    if 0xE0 <= b1 <= 0xEA and ((0x40 <= b2 <= 0x7E) or (0x80 <= b2 <= 0xFC)):
+        return True
+    return False
+
+
+def is_sjis_lead(b):
+    return (0x81 <= b <= 0x9F) or (0xE0 <= b <= 0xEF)
+
+
+def is_sjis_trail(b):
+    return (0x40 <= b <= 0x7E) or (0x80 <= b <= 0xFC)
+
+
+def is_jp_unicode(c):
+    """Check if a unicode char is hiragana, katakana, or CJK kanji."""
+    return (
+        '\u3040' <= c <= '\u309F' or  # Hiragana
+        '\u30A0' <= c <= '\u30FF' or  # Katakana
+        '\u4E00' <= c <= '\u9FFF'     # CJK Unified Ideographs
+    )
+
+def is_fullwidth(c):
+    """Check if char is fullwidth form (incl symbols, Latin)."""
+    return '\uFF00' <= c <= '\uFFEF' or '\u3000' <= c <= '\u303F'
+
+def extract_sjis_strings(data, min_len=4):
+    """Extract genuine SJIS text strings from binary data.
+
+    Strategy: find null-terminated byte sequences, try SJIS decode, filter aggressively.
+    Real game text has hiragana (particles, conjugations) - pure kanji is usually noise.
+    """
+    strings = []
+    # Find all null-terminated byte runs
+    n = len(data)
+    i = 0
+    while i < n:
+        # Skip null bytes
+        if data[i] == 0x00:
+            i += 1
+            continue
+        # Find end of non-null run (null terminator or end of data)
+        end = i
+        while end < n and data[end] != 0x00:
+            end += 1
+        chunk = data[i:end]
+        i = end + 1
+        if len(chunk) < min_len:
+            continue
+        # Try strict SJIS decode
+        try:
+            decoded = chunk.decode("shift_jis", errors="strict")
+        except (UnicodeDecodeError, ValueError):
+            continue
+        decoded = decoded.strip()
+        if len(decoded) < 2:
+            continue
+        # Count character types
+        hira_count = sum(1 for c in decoded if '\u3041' <= c <= '\u3093')
+        kata_count = sum(1 for c in decoded if '\u30A1' <= c <= '\u30F6')
+        kanji_count = sum(1 for c in decoded if '\u4E00' <= c <= '\u9FFF')
+        fw_count = sum(1 for c in decoded if is_fullwidth(c))
+        jp_count = hira_count + kata_count + kanji_count
+        non_space = sum(1 for c in decoded if c not in ' \t\r\n')
+        if non_space == 0:
+            continue
+        jp_ratio = jp_count / non_space
+        # Check for control chars or other binary indicators
+        has_control = any(ord(c) < 0x20 and c not in '\r\n\t' for c in decoded)
+        if has_control:
+            continue
+        # STRICT FILTERING:
+        # 1. Must have hiragana (strongest signal of real Japanese text)
+        #    Exception: pure katakana words (spell/monster names) with good density
+        # 2. Must have reasonable JP ratio
+        is_real = False
+        if hira_count >= 2:
+            # Has hiragana - very likely real text
+            is_real = jp_count >= 3 and jp_ratio >= 0.3
+        elif hira_count == 1 and (kata_count >= 1 or kanji_count >= 2):
+            # Some hiragana with other JP chars
+            is_real = jp_count >= 3 and jp_ratio >= 0.4
+        elif kata_count >= 3 and jp_ratio >= 0.6:
+            # Pure katakana (monster/spell names like "ファイア")
+            is_real = True
+        elif kanji_count >= 3 and kata_count >= 1 and jp_ratio >= 0.7:
+            # Kanji+katakana mix (item names)
+            is_real = True
+        if is_real:
+            strings.append({
+                "offset": i - len(chunk) - 1,
+                "text": decoded,
+                "length": len(decoded),
+                "jp_char_count": jp_count,
+                "hira": hira_count,
+                "kata": kata_count,
+                "kanji": kanji_count
+            })
+    return strings
+
+
+def categorize_string(s):
+    length = len(s["text"])
+    if length <= 6:
+        return "menu_ui"
+    elif length <= 20:
+        return "name"
+    elif length <= 80:
+        return "description"
+    else:
+        return "long_text"
+
+
+def check_debug(text):
+    debug_markers = ["debug", "error", "assert", "TODO", "FIXME", "HACK"]
+    lower = text.lower()
+    return any(m.lower() in lower for m in debug_markers)
+
+
+results = []
+total_with_text = 0
+total_strings = 0
+category_counts = {"menu_ui": 0, "name": 0, "description": 0, "long_text": 0, "debug": 0}
+
+for idx in non_msg_sjis:
+    info = res_info.get(idx, {})
+    type_code = info.get("type_code", -1)
+    size = info.get("size", 0)
+    classifications = info.get("classifications", [])
+    # Skip resources that are likely binary data (textures, models, etc.)
+    # High sjis_pair_count relative to size = binary data, not real text
+    sjis_pairs = info.get("sjis_pair_count", 0)
+    if size > 10000 and sjis_pairs > size / 10:
+        continue
+    if "likely_3d_model" in classifications and size > 10000:
+        continue
+    fname = f"{idx:04d}_type{type_code:02d}.bin"
+    fpath = os.path.join(RESOURCE_DIR, fname)
+    if not os.path.exists(fpath):
+        candidates = [ff for ff in os.listdir(RESOURCE_DIR) if ff.startswith(f"{idx:04d}_")]
+        if candidates:
+            fpath = os.path.join(RESOURCE_DIR, candidates[0])
+        else:
+            continue
+    with open(fpath, "rb") as f:
+        data = f.read()
+    strings = extract_sjis_strings(data)
+    if not strings:
+        continue
+    seen = set()
+    unique_strings = []
+    for s in strings:
+        if s["text"] not in seen:
+            seen.add(s["text"])
+            unique_strings.append(s)
+    if not unique_strings:
+        continue
+    categorized = []
+    for s in unique_strings:
+        cat = categorize_string(s)
+        if check_debug(s["text"]):
+            cat = "debug"
+        category_counts[cat] = category_counts.get(cat, 0) + 1
+        categorized.append({
+            "text": s["text"],
+            "offset": s["offset"],
+            "length": s["length"],
+            "jp_chars": s["jp_char_count"],
+            "category": cat
+        })
+    total_with_text += 1
+    total_strings += len(categorized)
+    results.append({
+        "index": idx,
+        "type_code": type_code,
+        "size": size,
+        "filename": os.path.basename(fpath),
+        "num_strings": len(categorized),
+        "sample_strings": [s["text"] for s in categorized[:5]],
+        "all_strings": categorized
+    })
+
+results.sort(key=lambda x: x["num_strings"], reverse=True)
+
+summary = {
+    "total_sjis_only_resources": len(non_msg_sjis),
+    "resources_with_genuine_text": total_with_text,
+    "total_genuine_strings": total_strings,
+    "category_counts": category_counts,
+    "false_positive_rate": f"{(1 - total_with_text / len(non_msg_sjis)) * 100:.1f}%"
+}
+
+output = {"summary": summary, "resources": results}
+
+with open(OUT_JSON, "w", encoding="utf-8") as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
+
+print(f"Summary: {json.dumps(summary, indent=2)}")
+print(f"\nTop 10 resources by string count:")
+for r in results[:10]:
+    print(f"  idx={r['index']} type={r['type_code']} size={r['size']} strings={r['num_strings']} samples={r['sample_strings'][:3]}")
+
+with open(OUT_MD, "w", encoding="utf-8") as f:
+    f.write("# Non-MSG Text Scan Findings\n\n")
+    f.write("## Summary\n\n")
+    f.write(f"- Total SJIS-flagged non-MSG resources scanned: {len(non_msg_sjis)}\n")
+    f.write(f"- Resources with genuine Japanese text: {total_with_text}\n")
+    f.write(f"- Total genuine strings found: {total_strings}\n")
+    f.write(f"- False positive rate: {summary['false_positive_rate']}\n\n")
+    f.write("### Category Breakdown\n\n")
+    f.write("| Category | Count |\n|----------|-------|\n")
+    for cat, cnt in sorted(category_counts.items(), key=lambda x: -x[1]):
+        f.write(f"| {cat} | {cnt} |\n")
+    f.write("\n")
+    f.write("## Top Resources with Japanese Text\n\n")
+    for r in results[:30]:
+        f.write(f"### Resource {r['index']} (type {r['type_code']:02d}, {r['size']} bytes, {r['num_strings']} strings)\n\n")
+        f.write(f"File: `{r['filename']}`\n\n")
+        f.write("Sample strings:\n")
+        for s in r["all_strings"][:10]:
+            text_preview = s["text"][:80].replace("\n", "\\n").replace("\r", "\\r")
+            f.write(f"- [{s['category']}] `{text_preview}` (offset 0x{s['offset']:X}, {s['jp_chars']} JP chars)\n")
+        f.write("\n")
+    if len(results) > 30:
+        f.write(f"\n## Remaining Resources\n\n")
+        f.write(f"{len(results) - 30} additional resources with genuine text (see JSON for full details).\n\n")
+        f.write("| Index | Type | Size | Strings | First Sample |\n|-------|------|------|---------|-------------|\n")
+        for r in results[30:]:
+            sample = r["sample_strings"][0][:30].replace("\n", "\\n") if r["sample_strings"] else ""
+            f.write(f"| {r['index']} | {r['type_code']:02d} | {r['size']} | {r['num_strings']} | `{sample}` |\n")
+
+print("\nDone.")

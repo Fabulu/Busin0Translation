@@ -1,0 +1,214 @@
+Total SJIS strings found in data section: 212
+
+  0x3D7485 (  4 bytes): 囹埀
+  0x3D7C78 (  4 bytes): 囹奧
+  0x3D7D74 (  4 bytes): 勦勹
+  0x3DCFE8 (  6 bytes): 囮劔劔
+  0x3DCFF0 (  6 bytes): 囮劔劔
+  0x3DE2B2 ( 10 bytes): 疏膵瓩@厳x
+  0x3DE2D9 (  7 bytes): 无yCx鵐
+  0x3DE309 (  4 bytes): 華隆
+  0x3DE320 (  4 bytes): 恬狐
+  0x3DFF34 ( 12 bytes): 囮Y?囮Y?囮Y?
+  0x3EAD25 (  9 bytes): 渉>\渉>)\
+  0x3EAD59 (  7 bytes): 渉>\渉>
+  0x3EC910 ( 28 bytes): デバックチェック　！！！！！
+  0x3EC930 ( 28 bytes): デバック戦闘だよ　！！！！！
+  0x3EC950 ( 28 bytes): デバック戦闘確認　！！！！！
+  0x3EE9D0 ( 28 bytes): ＡＡ・フロントガードブレイク
+  0x3EE9F0 ( 28 bytes): ＡＡ・マジックシェルブレイク
+  0x3EEA10 ( 34 bytes): ＡＡ・アンチマジックシェルブレイク
+  0x3EEA40 ( 22 bytes): ＡＡ・散開隊形ブレイク
+  0x3EEA60 ( 22 bytes): ＡＡ・密集隊形ブレイク
+  0x3EEA80 ( 30 bytes): ＭＡＡ・フロントガードブレイク
+  0x3EEAA0 ( 30 bytes): ＭＡＡ・マジックシェルブレイク
+  0x3EEAC0 ( 36 bytes): ＭＡＡ・アンチマジックシェルブレイク
+  0x3EEAF0 ( 22 bytes): カウンターチェック！！
+  0x3EEB40 ( 22 bytes): シーケンス行動初期化!!
+  0x3EEB60 ( 24 bytes): プレイヤー攻撃武器作成!!
+  0x3EEB80 ( 26 bytes): プレイヤー攻撃武器未作成!!
+  0x3EEBA0 ( 20 bytes): シーケンス行動終了!!
+  0x3F0B00 ( 46 bytes): モンスター魔法使用 : magic_no=%d : magic_id=%d
+  0x3F10C0 ( 30 bytes): アレイド：ラッシュ発見チェック
+  0x3F1110 ( 30 bytes): アレイド：援護射撃発見チェック
+  0x3F1130 ( 30 bytes): アレイド：密集隊形発見チェック
+  0x3F1150 ( 30 bytes): アレイド：魔法協力発見チェック
+  0x3F1170 ( 38 bytes): アレイド：マジックウエポン発見チェック
+  0x3F11A0 ( 30 bytes): アレイド：魔法速射発見チェック
+  0x3F11C0 ( 40 bytes): アレイド：セイクリッドクロス発見チェック
+  0x3F13DD ( 12 bytes): Ｗスラッシュ
+  0x3F13F0 ( 16 bytes): アレイドブレイク
+  0x3F1410 ( 15 bytes): 効果レベル = %d
+  0x3F145D ( 14 bytes): フロントガード
+  0x3F1470 ( 16 bytes): アレイドブレイク
+  0x3F1490 ( 15 bytes): 効果レベル = %d
+  0x3F14FD ( 12 bytes): Ｗスラッシュ
+  0x3F1510 ( 16 bytes): アレイドブレイク
+  0x3F1530 ( 15 bytes): 効果レベル = %d
+  0x3F159D ( 16 bytes): スタンスマッシュ
+  0x3F15B0 ( 16 bytes): アレイドブレイク
+  0x3F15D0 ( 15 bytes): 効果レベル = %d
+  0x3F1618 ( 12 bytes): ホールド！！
+  0x3F165D ( 16 bytes): ホールドアタック
+  0x3F1670 ( 16 bytes): アレイドブレイク
+  0x3F1690 ( 15 bytes): 効果レベル = %d
+  0x3F16BD ( 28 bytes): シングルジャンプアタック下降
+  0x3F174D ( 24 bytes): シングルジャンプアタック
+  0x3F1770 ( 16 bytes): アレイドブレイク
+  0x3F1790 ( 15 bytes): 効果レベル = %d
+  0x3F17DD (  8 bytes): ラッシュ
+  0x3F17F0 ( 16 bytes): アレイドブレイク
+  0x3F181D (  8 bytes): 一斉逃走
+  0x3F185D ( 14 bytes): フロントガード
+  0x3F1870 ( 16 bytes): アレイドブレイク
+  0x3F1890 ( 15 bytes): 効果レベル = %d
+  0x3F18FD ( 16 bytes): スレイクラッシュ
+  0x3F1910 ( 16 bytes): アレイドブレイク
+  0x3F1930 ( 15 bytes): 効果レベル = %d
+  0x3F1978 ( 12 bytes): ホールド！！
+  0x3F19BD ( 16 bytes): クロスケージキル
+  0x3F19D0 ( 16 bytes): アレイドブレイク
+  0x3F19F0 ( 15 bytes): 効果レベル = %d
+  0x3F1A3D ( 14 bytes): マジックシェル
+  0x3F1A50 ( 16 bytes): アレイドブレイク
+  0x3F1A70 ( 15 bytes): 効果レベル = %d
+  0x3F1ABD ( 20 bytes): アンチマジックシェル
+  0x3F1AE0 ( 16 bytes): アレイドブレイク
+  0x3F1B00 ( 15 bytes): 効果レベル = %d
+  0x3F1B4D ( 14 bytes): ミラーイメージ
+  0x3F1B60 ( 16 bytes): アレイドブレイク
+  0x3F1B80 ( 15 bytes): 効果レベル = %d
+  0x3F1C0D (  8 bytes): 散開隊形
+  0x3F1C20 ( 16 bytes): アレイドブレイク
+  0x3F1C40 ( 15 bytes): 効果レベル = %d
+  0x3F1CAD (  8 bytes): 密集隊形
+  0x3F1CC0 ( 16 bytes): アレイドブレイク
+  0x3F1CE0 ( 15 bytes): 効果レベル = %d
+  0x3F1D00 ( 14 bytes): 牽制射撃終了!!
+  0x3F1D3D (  8 bytes): 牽制射撃
+  0x3F1D50 ( 16 bytes): アレイドブレイク
+  0x3F1D70 ( 15 bytes): 効果レベル = %d
+  0x3F1DBD (  8 bytes): 援護射撃
+  0x3F1DD0 ( 16 bytes): アレイドブレイク
+  0x3F1DF0 ( 15 bytes): 効果レベル = %d
+  0x3F1E3D ( 18 bytes): マジックキャンセル
+  0x3F1E60 ( 16 bytes): アレイドブレイク
+  0x3F1E80 ( 15 bytes): 効果レベル = %d
+  0x3F1ECD ( 16 bytes): ブレスキャンセル
+  0x3F1EE0 ( 16 bytes): アレイドブレイク
+  0x3F1F00 ( 15 bytes): 効果レベル = %d
+  0x3F1F6D ( 12 bytes): バックカバー
+  0x3F1F80 ( 16 bytes): アレイドブレイク
+  0x3F1FA0 ( 15 bytes): 効果レベル = %d
+  0x3F1FED ( 14 bytes): インターセプト
+  0x3F2000 ( 16 bytes): アレイドブレイク
+  0x3F2020 ( 15 bytes): 効果レベル = %d
+  0x3F206D ( 10 bytes): 呪文集中陣
+  0x3F2080 ( 16 bytes): アレイドブレイク
+  0x3F20A0 ( 15 bytes): 効果レベル = %d
+  0x3F20ED ( 18 bytes): ブレイクサイレンス
+  0x3F2110 ( 16 bytes): アレイドブレイク
+  0x3F2130 ( 17 bytes): 効果レベル = なし
+  0x3F217D (  8 bytes): 魔法速射
+  0x3F2190 ( 16 bytes): アレイドブレイク
+  0x3F21B0 ( 17 bytes): 効果レベル = なし
+  0x3F222D ( 16 bytes): マジックウエポン
+  0x3F2240 ( 16 bytes): アレイドブレイク
+  0x3F2260 ( 15 bytes): 効果レベル = %d
+  0x3F22AD (  8 bytes): 魔法協力
+  0x3F22C0 ( 16 bytes): アレイドブレイク
+  0x3F22E0 ( 15 bytes): 効果レベル = %d
+  0x3F235D (  8 bytes): 集中攻撃
+  0x3F2370 ( 16 bytes): アレイドブレイク
+  0x3F2390 ( 15 bytes): 効果レベル = %d
+  0x3F23FD ( 14 bytes): バックアタック
+  0x3F2410 ( 16 bytes): アレイドブレイク
+  0x3F2430 ( 15 bytes): 効果レベル = %d
+  0x3F24CD ( 16 bytes): ゲイルスラッシュ
+  0x3F24E0 ( 16 bytes): アレイドブレイク
+  0x3F2500 ( 15 bytes): 効果レベル = %d
+  0x3F256D (  8 bytes): ラッシュ
+  0x3F2580 ( 16 bytes): アレイドブレイク
+  0x3F25A0 ( 15 bytes): 効果レベル = %d
+  0x3F261D (  8 bytes): 立体殺法
+  0x3F2630 ( 16 bytes): アレイドブレイク
+  0x3F2650 ( 15 bytes): 効果レベル = %d
+  0x3F2670 ( 21 bytes): ディスペル抵抗値 = %d
+  0x3F2690 ( 15 bytes): ランダム値 = %d
+  0x3F26B0 ( 16 bytes): ディスペル成功！
+  0x3F26D0 ( 16 bytes): ディスペル失敗！
+  0x3F271D ( 18 bytes): セイクリッドクロス
+  0x3F2740 ( 16 bytes): アレイドブレイク
+  0x3F2760 ( 15 bytes): 効果レベル = %d
+  0x3F2780 ( 15 bytes): 基本成功率 = %d
+  0x3F27AD ( 18 bytes): ワープアタック下降
+  0x3F285D ( 14 bytes): ワープアタック
+  0x3F2870 ( 16 bytes): アレイドブレイク
+  0x3F2890 ( 15 bytes): 効果レベル = %d
+  0x3F28FD ( 16 bytes): ソウルクラッシュ
+  0x3F2910 ( 16 bytes): アレイドブレイク
+  0x3F2930 ( 15 bytes): 効果レベル = %d
+  0x3F2A5D ( 14 bytes): ソニックソード
+  0x3F2A70 ( 16 bytes): アレイドブレイク
+  0x3F2A90 ( 15 bytes): 効果レベル = %d
+  0x3F2AFD (  8 bytes): 範囲攻撃
+  0x3F2B10 ( 16 bytes): アレイドブレイク
+  0x3F2B30 ( 15 bytes): 効果レベル = %d
+  0x3F2BBD ( 16 bytes): フェイクアタック
+  0x3F2BD0 ( 16 bytes): アレイドブレイク
+  0x3F2BF0 ( 15 bytes): 効果レベル = %d
+  0x3F2C6D ( 10 bytes): 居合斬月斬
+  0x3F2C80 ( 16 bytes): アレイドブレイク
+  0x3F2CA0 ( 15 bytes): 効果レベル = %d
+  0x3F2CCD ( 22 bytes): ナイトメアクエイク下降
+  0x3F2D5D ( 18 bytes): ナイトメアクエイク
+  0x3F2D80 ( 16 bytes): アレイドブレイク
+  0x3F2DA0 ( 15 bytes): 効果レベル = %d
+  0x3F2DE8 ( 12 bytes): ホールド！！
+  0x3F2E2D ( 18 bytes): ウィークスマッシュ
+  0x3F2E50 ( 16 bytes): アレイドブレイク
+  0x3F2E70 ( 15 bytes): 効果レベル = %d
+  0x3F2EBD ( 14 bytes): マジックシェル
+  0x3F2ED0 ( 16 bytes): アレイドブレイク
+  0x3F2EF0 ( 15 bytes): 効果レベル = %d
+  0x3F2F6D (  8 bytes): 集中攻撃
+  0x3F2F80 ( 16 bytes): アレイドブレイク
+  0x3F2FA0 ( 15 bytes): 効果レベル = %d
+  0x3F2FED ( 20 bytes): アンチマジックシェル
+  0x3F3010 ( 16 bytes): アレイドブレイク
+  0x3F3030 ( 15 bytes): 効果レベル = %d
+  0x3F309D (  8 bytes): 牽制射撃
+  0x3F30B0 ( 16 bytes): アレイドブレイク
+  0x3F30D0 ( 15 bytes): 効果レベル = %d
+  0x3F313D ( 18 bytes): マジックキャンセル
+  0x3F3160 ( 16 bytes): アレイドブレイク
+  0x3F3180 ( 15 bytes): 効果レベル = %d
+  0x3F31CD (  8 bytes): 魔法協力
+  0x3F31E0 ( 16 bytes): アレイドブレイク
+  0x3F3200 ( 15 bytes): 効果レベル = %d
+  0x3F329D ( 10 bytes): 呪文集中陣
+  0x3F32B0 ( 16 bytes): アレイドブレイク
+  0x3F32D0 ( 15 bytes): 効果レベル = %d
+  0x3F336D (  8 bytes): 魔法速射
+  0x3F3380 ( 16 bytes): アレイドブレイク
+  0x3F33A0 ( 15 bytes): 効果レベル = %d
+  0x3F343D ( 12 bytes): ダブルブレス
+  0x3F3450 ( 16 bytes): アレイドブレイク
+  0x3F3470 ( 15 bytes): 効果レベル = %d
+  0x3F3634 ( 30 bytes): 壁イベントデータ作成エラー   *
+  0x3F3B90 ( 30 bytes): コールバッファオーバーです！！
+  0x3F3CE0 ( 20 bytes): メモリ足りんで〜！！
+  0x3F3D00 ( 24 bytes): アイテム数足りんで〜！！
+  0x3F8150 ( 20 bytes): ガーディアン戦闘！！
+  0x3F81D0 ( 57 bytes): 接触！！ : product = %f : target_product = %f : rand = %d
+  0x3F8240 ( 22 bytes): コンティニューロード！
+  0x3F8260 ( 24 bytes): 取り付ける人がいないよ。
+  0x3F8EF0 ( 27 bytes): そのようなＯＴはないです!!!
+  0x3F9370 ( 22 bytes): ＢＵＳＩＮ０中断データ
+  0x3F9678 ( 12 bytes): ＢＵＳＩＮ０
+  0x3FC402 ( 23 bytes): が Over です!!!!!!!!!!!
+  0x3FC720 ( 12 bytes): ＢＵＳＩＮ０
+  0x3FC750 ( 20 bytes): ＢＵＳＩＮ０データ１
+  0x3FC770 ( 20 bytes): ＢＵＳＩＮ０データ２
+  0x3FC790 ( 20 bytes): ＢＵＳＩＮ０データ３
+  0x3FC7F0 ( 16 bytes): 松野ゲー起動！！

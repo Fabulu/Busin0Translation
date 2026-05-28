@@ -1,0 +1,315 @@
+{
+  "_metadata": {
+    "resource": "0041_type01.bin",
+    "game": "Busin 0 (Wizardry Alternative Neo)",
+    "agent": "infer-r41",
+    "date": "2026-05-22",
+    "location": "Church of Salem",
+    "msgs": 18,
+    "inferred": 42
+  },
+  "inferred_mappings": {
+    "0": {
+      "char": "　",
+      "confidence": "HIGH",
+      "evidence": "Null/space padding; 66.5pct freq"
+    },
+    "92": {
+      "char": "!",
+      "confidence": "MEDIUM",
+      "evidence": "Sentence-end emphasis marker"
+    },
+    "203": {
+      "char": "サ",
+      "confidence": "HIGH",
+      "evidence": "Salem katakana: Sa"
+    },
+    "225": {
+      "char": "ム",
+      "confidence": "HIGH",
+      "evidence": "Salem katakana: Mu"
+    },
+    "234": {
+      "char": "レ",
+      "confidence": "HIGH",
+      "evidence": "Salem katakana: Re"
+    },
+    "285": {
+      "char": "罰",
+      "confidence": "HIGH",
+      "evidence": "tenbatsu: batsu (punishment)"
+    },
+    "287": {
+      "char": "締",
+      "confidence": "LOW",
+      "evidence": "Unknown in imperative clause before me-comma"
+    },
+    "300": {
+      "char": "神",
+      "confidence": "HIGH",
+      "evidence": "kami (God) church context"
+    },
+    "338": {
+      "char": "今",
+      "confidence": "MEDIUM",
+      "evidence": "ima/kon in greeting line"
+    },
+    "340": {
+      "char": "立",
+      "confidence": "HIGH",
+      "evidence": "tachisaru: tatsu"
+    },
+    "344": {
+      "char": "悔",
+      "confidence": "MEDIUM",
+      "evidence": "Imperative verb before aratame"
+    },
+    "346": {
+      "char": "力",
+      "confidence": "HIGH",
+      "evidence": "kami no o-chikara (Gods power)"
+    },
+    "396": {
+      "char": "改",
+      "confidence": "MEDIUM",
+      "evidence": "aratame (reform/mend)"
+    },
+    "419": {
+      "char": "金",
+      "confidence": "HIGH",
+      "evidence": "kin/kane (gold/money)"
+    },
+    "490": {
+      "char": "息",
+      "confidence": "HIGH",
+      "evidence": "shousoku (news/tidings): shou+soku"
+    },
+    "496": {
+      "char": "所",
+      "confidence": "MEDIUM",
+      "evidence": "shojikin: sho+ji+kin"
+    },
+    "546": {
+      "char": "方",
+      "confidence": "HIGH",
+      "evidence": "kata (person, honorific)"
+    },
+    "550": {
+      "char": "天",
+      "confidence": "HIGH",
+      "evidence": "ten (heaven) tenbatsu"
+    },
+    "612": {
+      "char": "払",
+      "confidence": "HIGH",
+      "evidence": "shiharai: harai (pay)"
+    },
+    "620": {
+      "char": "下",
+      "confidence": "HIGH",
+      "evidence": "kudasu/kudasareru (bestow)"
+    },
+    "668": {
+      "char": "持",
+      "confidence": "MEDIUM",
+      "evidence": "shojikin: ji (hold/possess)"
+    },
+    "672": {
+      "char": "日",
+      "confidence": "LOW",
+      "evidence": "hi/nichi (day) in greeting"
+    },
+    "709": {
+      "char": "必",
+      "confidence": "HIGH",
+      "evidence": "hitsuyou and kanarazu"
+    },
+    "710": {
+      "char": "要",
+      "confidence": "HIGH",
+      "evidence": "hitsuyou (necessary)"
+    },
+    "712": {
+      "char": "分",
+      "confidence": "HIGH",
+      "evidence": "juubun (sufficient): bun"
+    },
+    "742": {
+      "char": "手",
+      "confidence": "HIGH",
+      "evidence": "tedasuke: te (hand)"
+    },
+    "834": {
+      "char": "治",
+      "confidence": "HIGH",
+      "evidence": "chiryou: chi (cure)"
+    },
+    "851": {
+      "char": "十",
+      "confidence": "HIGH",
+      "evidence": "juubun: juu (ten)"
+    },
+    "856": {
+      "char": "去",
+      "confidence": "HIGH",
+      "evidence": "tachisaru: saru (leave)"
+    },
+    "867": {
+      "char": "助",
+      "confidence": "HIGH",
+      "evidence": "tasuke (help)"
+    },
+    "880": {
+      "char": "何",
+      "confidence": "HIGH",
+      "evidence": "naniyou: nani (what)"
+    },
+    "881": {
+      "char": "用",
+      "confidence": "HIGH",
+      "evidence": "naniyou: you (business)"
+    },
+    "883": {
+      "char": "教",
+      "confidence": "HIGH",
+      "evidence": "kyoukai: kyou (teach)"
+    },
+    "884": {
+      "char": "会",
+      "confidence": "HIGH",
+      "evidence": "kyoukai: kai (meeting)"
+    },
+    "885": {
+      "char": "お",
+      "confidence": "MEDIUM",
+      "evidence": "Honorific o-prefix"
+    },
+    "886": {
+      "char": "対",
+      "confidence": "MEDIUM",
+      "evidence": "taika: tai (versus)"
+    },
+    "887": {
+      "char": "価",
+      "confidence": "MEDIUM",
+      "evidence": "taika: ka (price)"
+    },
+    "888": {
+      "char": "奉",
+      "confidence": "HIGH",
+      "evidence": "tatematsuru: godan verb tatematsura-neba"
+    },
+    "889": {
+      "char": "達",
+      "confidence": "HIGH",
+      "evidence": "tachi plural marker"
+    },
+    "890": {
+      "char": "越",
+      "confidence": "HIGH",
+      "evidence": "okoshi kudasare (please come)"
+    },
+    "891": {
+      "char": "療",
+      "confidence": "HIGH",
+      "evidence": "chiryou: ryou (heal)"
+    },
+    "892": {
+      "char": "頼",
+      "confidence": "HIGH",
+      "evidence": "tanomu (request)"
+    }
+  },
+  "decoded_messages": [
+    {
+      "index": 0,
+      "text": "　\n",
+      "unknowns": null
+    },
+    {
+      "index": 1,
+      "text": "ここはサレム教会。\n!何用な方が\n今日どんな消息で？\n",
+      "unknowns": null
+    },
+    {
+      "index": 2,
+      "text": "サレム教会へようこそ。\nおや、お手の助けが\n必要なようですな。\n",
+      "unknowns": null
+    },
+    {
+      "index": 3,
+      "text": "助けを必要とされる方は\nどなたですかな。\n　\n",
+      "unknowns": null
+    },
+    {
+      "index": 4,
+      "text": "では、おがサレム教会に\n必要なだけの対価を\nいただきましょうか。\n",
+      "unknowns": null
+    },
+    {
+      "index": 5,
+      "text": "十分な対価金も息払せず\n神のお力にすがろうとは!\n悔改締め、立ち去るがよい \n",
+      "unknowns": null
+    },
+    {
+      "index": 6,
+      "text": "神への対価を奉らねば\nそなた達は必ず\n天罰を下られるであろう。\n",
+      "unknowns": null
+    },
+    {
+      "index": 7,
+      "text": "神への対価を奉らねば\nそなた達は必ず\n天罰を下られるであろう。\n",
+      "unknowns": null
+    },
+    {
+      "index": 8,
+      "text": "神への対価を奉らねば\nそなた達は必ず\n天罰を下られるであろう。\n",
+      "unknowns": null
+    },
+    {
+      "index": 9,
+      "text": "神への対価を奉らねば\nそなた達は必ず\n天罰を下られるであろう。\n",
+      "unknowns": null
+    },
+    {
+      "index": 10,
+      "text": "神への対価を奉らねば\nそなた達は必ず\n天罰を下られるであろう。\n",
+      "unknowns": null
+    },
+    {
+      "index": 11,
+      "text": "神への対価を奉らねば\nそなた達は必ず\n天罰を下られるであろう。\n",
+      "unknowns": null
+    },
+    {
+      "index": 12,
+      "text": "神への対価を奉らねば\nそなた達は必ず\n天罰を下られるであろう。\n",
+      "unknowns": null
+    },
+    {
+      "index": 13,
+      "text": "お手の助けが必要になれば\nいつでも対価を息払して\nお越しくだされ。\n",
+      "unknowns": null
+    },
+    {
+      "index": 14,
+      "text": "治療を頼みますか？\n",
+      "unknowns": null
+    },
+    {
+      "index": 15,
+      "text": "は　い\n",
+      "unknowns": null
+    },
+    {
+      "index": 16,
+      "text": "いいえ\n",
+      "unknowns": null
+    },
+    {
+      "index": 17,
+      "text": "所持金がン分しています\n",
+      "unknowns": null
+    }
+  ]
+}

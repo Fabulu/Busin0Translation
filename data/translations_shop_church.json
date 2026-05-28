@@ -1,0 +1,1601 @@
+{
+  "_metadata": {
+    "game": "Busin 0 (Wizardry Alternative Neo)",
+    "agent": "translate-shops",
+    "date": "2026-05-22",
+    "description": "English translations for Resources 41 (Church of Salem), 42 (Adventurer's Inn), and 45 (Vigger Shop) matched against guide_full.txt",
+    "guide_file": "dumps/guide_full.txt",
+    "decoded_file": "data/full_decoded_text.txt",
+    "note": "Guide provides contextual/story translations but not direct NPC menu dialogue. Translations are produced by matching Japanese UI text to guide terminology and Wizardry conventions."
+  },
+
+  "resource_41_church_of_salem": {
+    "_location": "Church of Salem (Priest Fouquet — healing services)",
+    "_guide_refs": [
+      "Line 1373: 'Church of Salem unlocked!'",
+      "Line 1647: 'THE JEWEL OF VENOA DUHAN CHURCH OF SALEM'",
+      "Line 573: 'cured...at the church for some gold coins'",
+      "Line 9217-9233: status effects curable at church",
+      "Line 3375: 'you have to pay a huge amount of gold to be resurrected here'"
+    ],
+    "entries": [
+      {
+        "id": 1,
+        "japanese": "ここはサレム教会。\n何用な方が\n一体どんな消息で？",
+        "english": "This is the Church of Salem.\nWhat brings you here,\nand what is the matter?",
+        "confidence": "HIGH",
+        "guide_match": "Church of Salem (guide line 1373, 1647). Fouquet's greeting to visitors.",
+        "context": "Default greeting when entering church with no injured party members"
+      },
+      {
+        "id": 2,
+        "japanese": "サレム教会へようこそ。\nおや、■手の助けが\n必要なようですな。",
+        "english": "Welcome to the Church of Salem.\nOh my, it seems you are\nin need of our help.",
+        "confidence": "HIGH",
+        "guide_match": "Line 1656: 'temples provided various treatments for the sick'. Greeting when party has injured/afflicted members.",
+        "context": "Greeting when party members have status ailments or are dead"
+      },
+      {
+        "id": 3,
+        "japanese": "助けを必要とされる方は\nどなたですかな。",
+        "english": "Which one of you\nis in need of help?",
+        "confidence": "HIGH",
+        "guide_match": "Standard church selection prompt. Player selects party member to heal.",
+        "context": "Prompt to select which party member to treat"
+      },
+      {
+        "id": 4,
+        "japanese": "では、■がサレム教会に\n必要なだけの■価を\nいただきましょうか。",
+        "english": "Then, shall we accept\nthe appropriate offering\nfor the Church of Salem?",
+        "confidence": "HIGH",
+        "guide_match": "Line 3378: 'dedicated Gold needed for resuscitation to the offering box'. Line 3375: 'pay a huge amount of gold'.",
+        "context": "Payment confirmation prompt before healing/resurrection"
+      },
+      {
+        "id": 5,
+        "japanese": "十足な■価金も息払せず\n神のお力にすがろうとは！\n悔教者め、立ち去るがよい",
+        "english": "You dare seek the power of God\nwithout offering sufficient payment!\nBegone, you blasphemer!",
+        "confidence": "HIGH",
+        "guide_match": "Line 3686: Fouqet: '...Get out of here! Do not sully this sanctuary'. Fouquet's angry rejection when player cannot pay.",
+        "context": "Rejection when player has insufficient gold"
+      },
+      {
+        "id": 6,
+        "japanese": "神への■価を奉らねば\nそなた達は必ず\n加罰を下られるであろう。",
+        "english": "If you do not make\nan offering to God,\nyou shall surely be punished.",
+        "confidence": "HIGH",
+        "guide_match": "Fouquet's warning about divine punishment. Repeated lines 6-12 are variants for different status conditions.",
+        "context": "Warning/refusal line for Poison status (repeated pattern for each healable condition)"
+      },
+      {
+        "id": 7,
+        "japanese": "神への■価を奉らねば\nそなた達は必ず\n加罰を下られるであろう。",
+        "english": "If you do not make\nan offering to God,\nyou shall surely be punished.",
+        "confidence": "HIGH",
+        "guide_match": "Same line repeated for Paralysis status",
+        "context": "Warning line for Paralysis"
+      },
+      {
+        "id": 8,
+        "japanese": "神への■価を奉らねば\nそなた達は必ず\n加罰を下られるであろう。",
+        "english": "If you do not make\nan offering to God,\nyou shall surely be punished.",
+        "confidence": "HIGH",
+        "guide_match": "Same line repeated for Fear status",
+        "context": "Warning line for Fear"
+      },
+      {
+        "id": 9,
+        "japanese": "神への■価を奉らねば\nそなた達は必ず\n加罰を下られるであろう。",
+        "english": "If you do not make\nan offering to God,\nyou shall surely be punished.",
+        "confidence": "HIGH",
+        "guide_match": "Same line repeated for Stone status",
+        "context": "Warning line for Stone/Petrification"
+      },
+      {
+        "id": 10,
+        "japanese": "神への■価を奉らねば\nそなた達は必ず\n加罰を下られるであろう。",
+        "english": "If you do not make\nan offering to God,\nyou shall surely be punished.",
+        "confidence": "HIGH",
+        "guide_match": "Same line repeated for Dead status",
+        "context": "Warning line for Death/Resurrection"
+      },
+      {
+        "id": 11,
+        "japanese": "神への■価を奉らねば\nそなた達は必ず\n加罰を下られるであろう。",
+        "english": "If you do not make\nan offering to God,\nyou shall surely be punished.",
+        "confidence": "HIGH",
+        "guide_match": "Same line repeated for Ash status",
+        "context": "Warning line for Ash"
+      },
+      {
+        "id": 12,
+        "japanese": "神への■価を奉らねば\nそなた達は必ず\n加罰を下られるであろう。",
+        "english": "If you do not make\nan offering to God,\nyou shall surely be punished.",
+        "confidence": "HIGH",
+        "guide_match": "Same line repeated for Possessed status",
+        "context": "Warning line for Possessed"
+      },
+      {
+        "id": 13,
+        "japanese": "■手の助けが必要になれば\nいつでも■価を息払して\nお越しくだされ。",
+        "english": "Should you ever need our help,\nplease come again\nwith the proper offering.",
+        "confidence": "HIGH",
+        "guide_match": "Line 3644: Fouqet: 'do not forget to seek out our services if you are suffering'. Farewell after service.",
+        "context": "Farewell/dismissal after treatment is complete or declined"
+      },
+      {
+        "id": 14,
+        "japanese": "治療を頼みますか？",
+        "english": "Do you wish to request treatment?",
+        "confidence": "HIGH",
+        "guide_match": "Standard Yes/No prompt for healing. Line 1656: 'temples provided various treatments'.",
+        "context": "Yes/No confirmation prompt"
+      },
+      {
+        "id": 15,
+        "japanese": "は い",
+        "english": "Yes",
+        "confidence": "CONFIRMED",
+        "guide_match": "Standard UI element",
+        "context": "Menu option"
+      },
+      {
+        "id": 16,
+        "japanese": "いいえ",
+        "english": "No",
+        "confidence": "CONFIRMED",
+        "guide_match": "Standard UI element",
+        "context": "Menu option"
+      },
+      {
+        "id": 17,
+        "japanese": "所持金が不足しています",
+        "english": "Insufficient gold.",
+        "confidence": "CONFIRMED",
+        "guide_match": "Standard insufficient funds message, shared across R41/R42/R45",
+        "context": "Error message when player lacks gold"
+      }
+    ]
+  },
+
+  "resource_42_adventurers_inn": {
+    "_location": "Adventurer's Inn",
+    "_guide_refs": [
+      "Line 1665: 'Adventurer's Inn unlocked!'",
+      "Line 1675-1676: 'THE JEWEL OF VENOA DUHAN ADVENTURER'S INN' / Waitress welcome dialogue",
+      "Line 9257: 'CHARACTERS WILL LEVEL UP WHEN RESTING'",
+      "Line 9483: 'Do you want to rest?'",
+      "Line 6320: 'potential ability...awaken an ability they never had before'"
+    ],
+    "entries": [
+      {
+        "id": 1,
+        "japanese": "冒険者の宿へようこそ。\nここは心身を休め、\nまた新たな力を下る場所。",
+        "english": "Welcome to the Adventurer's Inn.\nThis is a place to rest your mind\nand body, and gain new strength.",
+        "confidence": "HIGH",
+        "guide_match": "Line 1676: Waitress: 'Welcome to the Inn, dear guest! If you are tired, please stay with us. It is said that sleep can unravel the tangled threads of emotional strife and heal the wounded body.'",
+        "context": "Default greeting, no one ready to level up"
+      },
+      {
+        "id": 2,
+        "japanese": "冒険者の宿へようこそ。\nおや、レベルアップ\nされる方がおられますね。",
+        "english": "Welcome to the Adventurer's Inn.\nOh my, it seems there is someone\nwho is ready to level up.",
+        "confidence": "HIGH",
+        "guide_match": "Line 9257: 'CHARACTERS WILL LEVEL UP WHEN RESTING'. Line 5029: 'When you have enough XP to level up, the panel below you will start to glow.'",
+        "context": "Greeting when a party member has enough XP to level up"
+      },
+      {
+        "id": 3,
+        "japanese": "宿泊されるのですか。\nお部屋は空いているので\nご安心ください。",
+        "english": "Will you be staying with us?\nA room is available,\nso please rest assured.",
+        "confidence": "HIGH",
+        "guide_match": "Line 1676: 'If you are tired, please stay with us.'",
+        "context": "Confirmation that rooms are available"
+      },
+      {
+        "id": 4,
+        "japanese": "もう出発されるのですか？\nどうかお気をつけて。",
+        "english": "Are you leaving already?\nPlease take care of yourselves.",
+        "confidence": "HIGH",
+        "guide_match": "Standard farewell from inn clerk",
+        "context": "Farewell when leaving the inn"
+      },
+      {
+        "id": 5,
+        "japanese": "お泊りに\nなられますか？",
+        "english": "Would you like\nto stay the night?",
+        "confidence": "HIGH",
+        "guide_match": "Line 9483: 'Do you want to rest?'",
+        "context": "Rest confirmation prompt"
+      },
+      {
+        "id": 6,
+        "japanese": "ごゆっくりできましたか？\nよき休■は■日への活力。\nまたいらしてくださいね。",
+        "english": "Did you have a good rest?\nA good night's rest gives you\nvitality for tomorrow. Please come again.",
+        "confidence": "HIGH",
+        "guide_match": "Line 1676: 'sleep can unravel the tangled threads of emotional strife and heal the wounded body...sleep can help an adventurer grow over the course of a night.'",
+        "context": "Farewell after resting (partial decode: 休養 rest, 翌日 tomorrow)"
+      },
+      {
+        "id": 7,
+        "japanese": "あら、お金が足りない\nようですね。\nまたお越しください。",
+        "english": "Oh my, it seems you don't\nhave enough gold.\nPlease come again.",
+        "confidence": "HIGH",
+        "guide_match": "Standard insufficient funds with polite dismissal",
+        "context": "Rejection when player lacks gold for lodging"
+      },
+      {
+        "id": 8,
+        "japanese": "宿泊しますか？",
+        "english": "Will you stay at the inn?",
+        "confidence": "HIGH",
+        "guide_match": "Line 9483: 'Do you want to rest?'",
+        "context": "Yes/No prompt for lodging"
+      },
+      {
+        "id": 9,
+        "japanese": "は い",
+        "english": "Yes",
+        "confidence": "CONFIRMED",
+        "guide_match": "Standard UI element",
+        "context": "Menu option"
+      },
+      {
+        "id": 10,
+        "japanese": "いいえ",
+        "english": "No",
+        "confidence": "CONFIRMED",
+        "guide_match": "Standard UI element",
+        "context": "Menu option"
+      },
+      {
+        "id": 11,
+        "japanese": "所持金が不足しています",
+        "english": "Insufficient gold.",
+        "confidence": "CONFIRMED",
+        "guide_match": "Shared insufficient funds message",
+        "context": "Error message"
+      },
+      {
+        "id": 12,
+        "japanese": "■員能力が目覚めました",
+        "english": "A Potential Ability has awakened!",
+        "confidence": "HIGH",
+        "guide_match": "Line 1101: 'POTENTIAL ABILITY is a bonus that a party member might receive'. Line 6320: 'awaken an ability they never had before'. Japanese: 潜在能力が目覚めました.",
+        "context": "Notification when a party member gains a Potential Ability on level up"
+      },
+      {
+        "id": 13,
+        "japanese": "が目覚めました",
+        "english": "has awakened!",
+        "confidence": "HIGH",
+        "guide_match": "Fragment appended to ability/spell name: '[Ability Name] has awakened!'",
+        "context": "Suffix for specific ability awakening notification"
+      }
+    ]
+  },
+
+  "resource_45_vigger_shop": {
+    "_location": "Vigger Shop (shopkeeper Oda/Lucy — buying, selling, orders, warehouse)",
+    "_guide_refs": [
+      "Line 9471: 'Vigger Shop unlocked!'",
+      "Line 13092: Orc: 'Welcome to the Vigger Shop!'",
+      "Line 13099: 'SELL...you can SELL all the stuff you found in the labyrinth'",
+      "Line 13136: 'IDENTIFY items...in the labyrinth'",
+      "Line 13139: 'UNCURSE...removes and destroys equipped cursed equipment'",
+      "Line 13153: 'EXPANSION...manage certain aspects of the VIGGER SHOP'",
+      "Line 13226: 'SHOP MANAGEMENT'",
+      "Line 13273: 'ORDERS'",
+      "Line 15077: 'WAREHOUSE EXPANSION'",
+      "Line 15097: 'ESTABLISHMENT OF NEW BRANCHES'",
+      "Line 15109: 'SET UP RESTING ROOMS'"
+    ],
+    "_note": "Oda (オダ) is the orc shopkeeper who speaks in a rustic dialect. Lucy is the shop owner.",
+    "entries": [
+      {
+        "id": 1,
+        "japanese": "ヴィガーしょうてんに\nようこそ",
+        "english": "Welcome to\nthe Vigger Shop!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 13092: 'Welcome to the Vigger Shop!'",
+        "context": "Default greeting"
+      },
+      {
+        "id": 2,
+        "japanese": "ほれ\nバリバリはたらくだよ",
+        "english": "Come on!\nLet's get to work!",
+        "confidence": "HIGH",
+        "guide_match": "Oda's enthusiastic work ethic. Rustic dialect.",
+        "context": "Greeting variant, Oda encouraging player to work hard"
+      },
+      {
+        "id": 3,
+        "japanese": "うりたいものがあったら\nとっととよこすだよ",
+        "english": "If ya got somethin' to sell,\nhand it over already!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13099: 'SELL...SELL all the stuff you found in the labyrinth'. Line 13093: 'If you want sell something, you can do it here.'",
+        "context": "Sell menu prompt, Oda's dialect"
+      },
+      {
+        "id": 4,
+        "japanese": "おきゃくさんの\nちゅうもんを\nかたづけるだか？",
+        "english": "Shall we take care of\nthe customer's\norders?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13273: 'ORDERS'. Line 13265: 'follow the orders you receive from the customers'.",
+        "context": "Orders menu prompt"
+      },
+      {
+        "id": 5,
+        "japanese": "そうこは\nオダがバッチリ\nそうこばんしてるだよ～",
+        "english": "Oda's got the warehouse\nunder perfect\ncontrol!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13222-13223: 'STORE MANAGEMENT...STOREHOUSE is now available'. Oda manages warehouse.",
+        "context": "Warehouse/storage menu prompt"
+      },
+      {
+        "id": 6,
+        "japanese": "オダのめは\nこうみえても\nふしあなではない",
+        "english": "Oda's eyes may not\nlook like much,\nbut they don't miss a thing!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13136: 'IDENTIFY items'. Oda boasts about identification skills.",
+        "context": "Identify/Appraise menu prompt"
+      },
+      {
+        "id": 7,
+        "japanese": "オダのうつくしいこころで\nオメェの使いをといて\nやるでよ～",
+        "english": "With Oda's beautiful heart,\nI'll break that curse\nfor ya!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13139: 'UNCURSE - Removes and destroys equipped cursed equipment'.",
+        "context": "Uncurse/Remove Curse menu prompt"
+      },
+      {
+        "id": 8,
+        "japanese": "ヴィガー商店の\nカンリもしてくでよ",
+        "english": "Let's manage the\nVigger Shop too!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13226: 'SHOP MANAGEMENT'.",
+        "context": "Shop Management menu prompt"
+      },
+      {
+        "id": 9,
+        "japanese": "アルバイトを雇うってのは\nなんだか店っぽくて\nええだよなあ～",
+        "english": "Hiring part-timers really\nmakes it feel like\na real shop, huh!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13450-13452: 'PART-TIME / EMPLOY PART-TIMERS'. Line 5642: 'The Vigger Shop is looking for part timers'.",
+        "context": "Part-time worker hiring prompt"
+      },
+      {
+        "id": 10,
+        "japanese": "なんだ、もうでてくのか？\nまたこいよ",
+        "english": "What, leaving already?\nCome again!",
+        "confidence": "HIGH",
+        "guide_match": "Standard shop farewell",
+        "context": "Farewell when leaving shop"
+      },
+      {
+        "id": 11,
+        "japanese": "オーダーをうけるか？\nそれはとっても\nいいことだ",
+        "english": "Taking on an order?\nThat's a really\ngreat thing!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13269: 'Orders are more profitable'. Line 13271: 'ORDERS is now available'.",
+        "context": "Order acceptance encouragement"
+      },
+      {
+        "id": 12,
+        "japanese": "おめえがうけてる\nオーダーはオダがちゃんと\nメモってるだよ",
+        "english": "Oda's keeping proper track\nof all the orders\nyou've taken on!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13275: 'SEE ORDERS PINNED ORDER'.",
+        "context": "Viewing current accepted orders"
+      },
+      {
+        "id": 13,
+        "japanese": "ソウコはいつも\nせいりせいとん",
+        "english": "The warehouse is always\nneat and tidy!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13228: 'ACCESS STORAGE PUT INTO STORAGE'.",
+        "context": "Warehouse access prompt"
+      },
+      {
+        "id": 14,
+        "japanese": "オメぇ～\nソウコがパンパンだど\nちっと、かたづけるだよ",
+        "english": "Hey!\nThe warehouse is packed full!\nClean it up a bit!",
+        "confidence": "HIGH",
+        "guide_match": "Warehouse full warning",
+        "context": "Warning when warehouse/storage is full"
+      },
+      {
+        "id": 15,
+        "japanese": "ソウコをかたづけるのか？\nうしゃ、エラい エラい",
+        "english": "Cleaning up the warehouse?\nGood for you, good for you!",
+        "confidence": "HIGH",
+        "guide_match": "Warehouse cleanup confirmation",
+        "context": "Positive response when player organizes warehouse"
+      },
+      {
+        "id": 16,
+        "japanese": "ソウコになにか\nしまっとくだか？",
+        "english": "Wanna store\nsomething in the warehouse?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13228: 'PUT INTO STORAGE'.",
+        "context": "Prompt to store items"
+      },
+      {
+        "id": 17,
+        "japanese": "ぐひゃひゃ\nけいえいのアドバイス\nしてくれるだか？",
+        "english": "Gyahahaha!\nGonna give us some\nbusiness advice?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13233-13240: Shop Level, Popularity, Reputation, Street Name stats.",
+        "context": "Shop management advice prompt"
+      },
+      {
+        "id": 18,
+        "japanese": "わがヴィガーしょうてんの\nけいえいじょうたいを\nおしえてやるだよ",
+        "english": "Let me tell ya about\nour Vigger Shop's\nbusiness status!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13233-13240: SHOP LEVEL/POPULARITY/REPUTATION/STREET NAME info screen.",
+        "context": "Viewing shop management stats"
+      },
+      {
+        "id": 19,
+        "japanese": "われらがヴィガー商店を\nステキに地装するか？",
+        "english": "Shall we give our\nVigger Shop a makeover?",
+        "confidence": "HIGH",
+        "guide_match": "Line 15073: 'EXPANSION MENU'. Shop decoration/renovation.",
+        "context": "Expansion/decoration menu prompt"
+      },
+      {
+        "id": 20,
+        "japanese": "だれのもちものを\n売ってくれるだよ？",
+        "english": "Whose items\nare ya selling?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13099: 'SELL...bring up your inventories'. Player selects party member.",
+        "context": "Sell menu - select party member"
+      },
+      {
+        "id": 21,
+        "japanese": "何を売ってくれるだよ？",
+        "english": "What are ya selling?",
+        "confidence": "HIGH",
+        "guide_match": "Sell menu - select item",
+        "context": "Sell menu - select item from inventory"
+      },
+      {
+        "id": 22,
+        "japanese": "それは使われちまってて\n外せねえだよう。\nあきらめろ",
+        "english": "That's cursed and can't\nbe removed!\nGive it up!",
+        "confidence": "HIGH",
+        "guide_match": "Line 9507: 'CURSED...MUST BE REMOVED WITH A SPELL OR IN THE VIGGER SHOP'. Cannot sell equipped cursed item.",
+        "context": "Error: trying to sell a cursed equipped item that cannot be removed"
+      },
+      {
+        "id": 23,
+        "japanese": "装備してるけども\nええのかよう？",
+        "english": "That's currently equipped.\nAre ya sure?",
+        "confidence": "HIGH",
+        "guide_match": "Confirmation for selling equipped items",
+        "context": "Warning when selling an equipped item"
+      },
+      {
+        "id": 24,
+        "japanese": "ほで、\nはよ売ってくれよう",
+        "english": "Well then,\nhurry up and sell it!",
+        "confidence": "HIGH",
+        "guide_match": "Sell confirmation prompt",
+        "context": "Urging player to complete the sale"
+      },
+      {
+        "id": 25,
+        "japanese": "オメー、金持ちすぎだから\n持ちきれない分はオダへの\nチップとしていただく",
+        "english": "You've got too much gold!\nAnything over the limit will\nbe taken as a tip for Oda!",
+        "confidence": "HIGH",
+        "guide_match": "Gold overflow mechanic - excess gold is lost",
+        "context": "Warning when gold exceeds carry limit"
+      },
+      {
+        "id": 26,
+        "japanese": "おーおー、オメぇ、\n呪呪の品士持ってるべ\nそれよこすだよ",
+        "english": "Ohhh, hey!\nYou've got cursed items!\nHand 'em over!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13139: 'UNCURSE'. Oda notices cursed items in inventory.",
+        "context": "Prompt when player has cursed items"
+      },
+      {
+        "id": 27,
+        "japanese": "どのオーダーをうけるだよ？",
+        "english": "Which order will ya take?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13275: 'SEE ORDERS PINNED ORDER'. Order selection.",
+        "context": "Order selection prompt"
+      },
+      {
+        "id": 28,
+        "japanese": "どうするべか？",
+        "english": "What'll ya do?",
+        "confidence": "HIGH",
+        "guide_match": "Generic action prompt",
+        "context": "General menu prompt"
+      },
+      {
+        "id": 29,
+        "japanese": "どんどんオーダーを\nこなして、店の評判を\nグーンとあげてくで",
+        "english": "Keep completing orders\nand boost the shop's\nreputation way up!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13235-13238: 'POPULARITY...REPUTATION'. Orders increase shop reputation.",
+        "context": "Encouragement to complete orders for reputation"
+      },
+      {
+        "id": 30,
+        "japanese": "しっかりやってくでよ",
+        "english": "Do a good job now!",
+        "confidence": "HIGH",
+        "guide_match": "Generic encouragement",
+        "context": "Encouragement after accepting order"
+      },
+      {
+        "id": 31,
+        "japanese": "オメェがうけてる\nオーダーはこんだけだ",
+        "english": "These are all the orders\nyou've taken on!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13275: 'SEE ORDERS'.",
+        "context": "Displaying list of accepted orders"
+      },
+      {
+        "id": 32,
+        "japanese": "で、どうするんだべ？",
+        "english": "So, what'll ya do?",
+        "confidence": "HIGH",
+        "guide_match": "Generic action prompt",
+        "context": "Follow-up menu prompt"
+      },
+      {
+        "id": 33,
+        "japanese": "店の評判おとすような\nことはカンベンして\nくれだよな！",
+        "english": "Don't go doing anything\nthat'll hurt the shop's\nreputation, ya hear!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13237: 'REPUTATION - Changes the Street Name'. Warning about reputation loss.",
+        "context": "Warning about reputation loss from cancelling orders"
+      },
+      {
+        "id": 34,
+        "japanese": "アイテムがそろってねえど",
+        "english": "You don't have all the items!",
+        "confidence": "HIGH",
+        "guide_match": "Order delivery - missing items",
+        "context": "Error when trying to deliver an order without all required items"
+      },
+      {
+        "id": 35,
+        "japanese": "アイテムの数が足りません",
+        "english": "Not enough items.",
+        "confidence": "HIGH",
+        "guide_match": "Insufficient item count for order",
+        "context": "Error message for insufficient item quantity"
+      },
+      {
+        "id": 36,
+        "japanese": "オメェのソウコだ",
+        "english": "This is your warehouse!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13228: 'ACCESS STORAGE'.",
+        "context": "Opening warehouse/storage screen"
+      },
+      {
+        "id": 37,
+        "japanese": "それをどうするんだべ？",
+        "english": "What do ya want to do with it?",
+        "confidence": "HIGH",
+        "guide_match": "Item action prompt in warehouse",
+        "context": "Prompt for warehouse item actions"
+      },
+      {
+        "id": 38,
+        "japanese": "誰の持ち士を\nあずけるだよ？",
+        "english": "Whose items\nare ya storing?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13228: 'PUT INTO STORAGE'. Select party member.",
+        "context": "Storage deposit - select party member"
+      },
+      {
+        "id": 39,
+        "japanese": "どれをあずけるだよ？",
+        "english": "Which one are ya storing?",
+        "confidence": "HIGH",
+        "guide_match": "Storage deposit - select item",
+        "context": "Storage deposit - select item"
+      },
+      {
+        "id": 40,
+        "japanese": "誰のを回復するだよ？",
+        "english": "Whose items\nare ya identifying?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13136: 'IDENTIFY items'. Select party member for identification.",
+        "context": "Identify - select party member"
+      },
+      {
+        "id": 41,
+        "japanese": "どれを回復するだよ？",
+        "english": "Which one are ya identifying?",
+        "confidence": "HIGH",
+        "guide_match": "Identify - select item",
+        "context": "Identify - select item"
+      },
+      {
+        "id": 42,
+        "japanese": "回復するだか？",
+        "english": "Identify it?",
+        "confidence": "HIGH",
+        "guide_match": "Identify confirmation",
+        "context": "Identify confirmation prompt"
+      },
+      {
+        "id": 43,
+        "japanese": "ほれ、多体がわかって\nスッキリしたべ",
+        "english": "There! Now that you know\nwhat it is, don't ya feel better?",
+        "confidence": "HIGH",
+        "guide_match": "Identification complete",
+        "context": "After successful identification"
+      },
+      {
+        "id": 44,
+        "japanese": "使われてしまった\n不幸なやつは\nどいつだべ？？",
+        "english": "Which unlucky soul\ngot cursed??",
+        "confidence": "HIGH",
+        "guide_match": "Line 13139: 'UNCURSE'. Select cursed party member.",
+        "context": "Uncurse - select party member"
+      },
+      {
+        "id": 45,
+        "japanese": "どれの使いを\n殿けばいいんだべ？",
+        "english": "Which curse\nshould I remove?",
+        "confidence": "HIGH",
+        "guide_match": "Uncurse - select cursed item",
+        "context": "Uncurse - select item"
+      },
+      {
+        "id": 46,
+        "japanese": "使いを殿いてほしいべ？\n使われっぱなしは\nつらいべ？ な？",
+        "english": "Want me to remove the curse?\nBeing cursed all the time\nis tough, ain't it?",
+        "confidence": "HIGH",
+        "guide_match": "Uncurse confirmation",
+        "context": "Uncurse confirmation prompt"
+      },
+      {
+        "id": 47,
+        "japanese": "ほれ、使いも殿けて\nスッキリしたべ",
+        "english": "There! Curse removed,\nfeels better, right?",
+        "confidence": "HIGH",
+        "guide_match": "Uncurse success",
+        "context": "After successful curse removal"
+      },
+      {
+        "id": 48,
+        "japanese": "おおお、オダときたら\n殿使のスーパースター\nだな",
+        "english": "Ohhh, Oda is the\nsuperstar of curse removal!",
+        "confidence": "HIGH",
+        "guide_match": "Oda boasting about uncursing skills",
+        "context": "Oda's self-praise after uncursing"
+      },
+      {
+        "id": 49,
+        "japanese": "ほだ\nこれがただいまの\nヴィガー商店情報だ",
+        "english": "Right then!\nHere's the current\nVigger Shop info!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13233-13240: Shop management info display.",
+        "context": "Displaying shop management statistics"
+      },
+      {
+        "id": 50,
+        "japanese": "われらがヴィガー商店を\nく宝に地装するか？",
+        "english": "Shall we spruce up\nour Vigger Shop?",
+        "confidence": "HIGH",
+        "guide_match": "Line 15073: 'EXPANSION MENU'.",
+        "context": "Expansion menu prompt (variant)"
+      },
+      {
+        "id": 51,
+        "japanese": "倉庫をでっかく\nしてやるだよ～",
+        "english": "Let's make the\nwarehouse bigger!",
+        "confidence": "HIGH",
+        "guide_match": "Line 15077: 'WAREHOUSE EXPANSION'. Line 13342: 'EXTEND THE WAREHOUSE'.",
+        "context": "Warehouse expansion option"
+      },
+      {
+        "id": 52,
+        "japanese": "われらがヴィガー商店の\n支店を造るか\nそっかそっかー",
+        "english": "We're gonna build a\nVigger Shop branch?\nOh yeah, oh yeah!",
+        "confidence": "HIGH",
+        "guide_match": "Line 15097: 'ESTABLISHMENT OF NEW BRANCHES'. Line 13332: 'CREATE A NEW BRANCH'.",
+        "context": "New branch creation"
+      },
+      {
+        "id": 53,
+        "japanese": "支店をリニュアール\nオープンさせるべか？",
+        "english": "Shall we renovate and\nreopen the branch?",
+        "confidence": "HIGH",
+        "guide_match": "Branch renovation/renewal",
+        "context": "Branch renovation prompt"
+      },
+      {
+        "id": 54,
+        "japanese": "支店の引越しだべか",
+        "english": "Moving the branch, eh?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13394: 'BRANCH RELOCATION'.",
+        "context": "Branch relocation prompt"
+      },
+      {
+        "id": 55,
+        "japanese": "いま拡築したら、\nアイテム２０個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 20 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 15077: 'WAREHOUSE EXPANSION - Will increase your storage space'.",
+        "context": "Warehouse expansion to 20 slots"
+      },
+      {
+        "id": 56,
+        "japanese": "いま拡築したら、\nアイテム３０個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 30 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Warehouse expansion to 30 slots",
+        "context": "Warehouse expansion to 30 slots"
+      },
+      {
+        "id": 57,
+        "japanese": "いま拡築したら、\nアイテム４０個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 40 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Warehouse expansion to 40 slots",
+        "context": "Warehouse expansion to 40 slots"
+      },
+      {
+        "id": 58,
+        "japanese": "いま拡築したら、\nアイテム５０個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 50 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Warehouse expansion to 50 slots",
+        "context": "Warehouse expansion to 50 slots"
+      },
+      {
+        "id": 59,
+        "japanese": "いま拡築したら、\nアイテム６０個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 60 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Warehouse expansion to 60 slots",
+        "context": "Warehouse expansion to 60 slots"
+      },
+      {
+        "id": 60,
+        "japanese": "いま拡築したら、\nアイテム７０個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 70 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Warehouse expansion to 70 slots",
+        "context": "Warehouse expansion to 70 slots"
+      },
+      {
+        "id": 61,
+        "japanese": "いま拡築したら、\nアイテム８０個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 80 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Warehouse expansion to 80 slots",
+        "context": "Warehouse expansion to 80 slots"
+      },
+      {
+        "id": 62,
+        "japanese": "いま拡築したら、\nアイテム９０個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 90 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Warehouse expansion to 90 slots",
+        "context": "Warehouse expansion to 90 slots"
+      },
+      {
+        "id": 63,
+        "japanese": "いま拡築したら、\nアイテム１００個まで\n置けるようになるど～",
+        "english": "If we expand now,\nyou'll be able to store\nup to 100 items!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Warehouse expansion to 100 slots",
+        "context": "Warehouse expansion to 100 slots"
+      },
+      {
+        "id": 64,
+        "japanese": "ごりゃ、オメェ\n金がたりねえだろ",
+        "english": "Hey, you!\nYou don't have enough gold!",
+        "confidence": "HIGH",
+        "guide_match": "Insufficient funds for expansion",
+        "context": "Error: not enough gold for shop action"
+      },
+      {
+        "id": 65,
+        "japanese": "どこにオープン\nさせるべか？",
+        "english": "Where should we\nopen it?",
+        "confidence": "HIGH",
+        "guide_match": "Line 15097: 'ESTABLISHMENT OF NEW BRANCHES...create...store front in the labyrinth'.",
+        "context": "Branch location selection"
+      },
+      {
+        "id": 66,
+        "japanese": "あこがれの支店が\nとうとうできるのか～",
+        "english": "The branch we've always\ndreamed of is finally here!",
+        "confidence": "HIGH",
+        "guide_match": "Line 4305: 'surprised to hear that they made enough gold to open a branch store'.",
+        "context": "Celebration after creating new branch"
+      },
+      {
+        "id": 67,
+        "japanese": "いつでも買取できれば\n持ち士のかたづけが\nラクチンだよな",
+        "english": "If we can buy anytime,\nmanaging your inventory\nwill be a breeze!",
+        "confidence": "HIGH",
+        "guide_match": "Line 15104: 'INCREASED QUANTITY OF PURCHABLE ITEMS...lets you sell items in the Vigger Shop store fronts'.",
+        "context": "Buyback service feature description"
+      },
+      {
+        "id": 68,
+        "japanese": "オメェの荷士をいつでも\n倉庫まで送ってやるだ\n感謝しろよ～う",
+        "english": "I'll ship your stuff\nto the warehouse anytime!\nBe grateful!",
+        "confidence": "HIGH",
+        "guide_match": "Line 15079: 'ESTABLISHMENT OF SHIPPING SERVICE...ship items in your inventory...to the warehouse'.",
+        "context": "Shipping service feature description"
+      },
+      {
+        "id": 69,
+        "japanese": "いろんなイベントをすれば\nお客さまにも\nあきられねえべよ",
+        "english": "With all sorts of events,\nour customers will\nnever get bored!",
+        "confidence": "HIGH",
+        "guide_match": "Line 15100: 'SET UP AN EVENT SPACE...access to various events'.",
+        "context": "Event space feature description"
+      },
+      {
+        "id": 70,
+        "japanese": "いつでも休めたら\nボロボロになっても安心だ\nレベルはあがんねえけど",
+        "english": "Being able to rest anytime\nmeans no worries even when beaten up!\nBut ya won't level up here.",
+        "confidence": "HIGH",
+        "guide_match": "Line 15109: 'SET UP RESTING ROOMS - Restores Party HP and MP for Gold at the store front'. Note: no level up at branch rest.",
+        "context": "Rest area feature description (HP/MP only, no level up)"
+      },
+      {
+        "id": 71,
+        "japanese": "支店がどんどん\nゴージャスになるだな",
+        "english": "The branch is getting\nmore and more gorgeous!",
+        "confidence": "HIGH",
+        "guide_match": "Branch upgrade celebration",
+        "context": "After upgrading branch"
+      },
+      {
+        "id": 72,
+        "japanese": "どこに物転させるべ？",
+        "english": "Where should we\nrelocate it?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13394: 'BRANCH RELOCATION'. Line 15098: 'store front can be moved'.",
+        "context": "Branch relocation - select destination"
+      },
+      {
+        "id": 73,
+        "japanese": "物転して\n客足がのびると\nええだなあ",
+        "english": "If we relocate\nand get more customers,\nthat'd be great!",
+        "confidence": "HIGH",
+        "guide_match": "Relocation benefit",
+        "context": "After relocating branch"
+      },
+      {
+        "id": 74,
+        "japanese": "どこを探索させるべ？",
+        "english": "Where should we\nsend them to explore?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13458: 'SENT THEM ON A SEARCH'. Part-timer exploration.",
+        "context": "Part-timer exploration destination selection"
+      },
+      {
+        "id": 75,
+        "japanese": "探索に向かわせて\nええだか？",
+        "english": "Shall we send them\nout to explore?",
+        "confidence": "HIGH",
+        "guide_match": "Exploration dispatch confirmation",
+        "context": "Confirm sending part-timers to explore"
+      },
+      {
+        "id": 76,
+        "japanese": "は い",
+        "english": "Yes",
+        "confidence": "CONFIRMED",
+        "guide_match": "Standard UI element",
+        "context": "Menu option"
+      },
+      {
+        "id": 77,
+        "japanese": "いいえ",
+        "english": "No",
+        "confidence": "CONFIRMED",
+        "guide_match": "Standard UI element",
+        "context": "Menu option"
+      },
+      {
+        "id": 78,
+        "japanese": "納品",
+        "english": "Deliver",
+        "confidence": "HIGH",
+        "guide_match": "Line 13292: 'DELIVER ORDERED ITEMS ON TIME'.",
+        "context": "Order delivery menu option"
+      },
+      {
+        "id": 79,
+        "japanese": "引受",
+        "english": "Accept",
+        "confidence": "HIGH",
+        "guide_match": "Order acceptance",
+        "context": "Accept order menu option"
+      },
+      {
+        "id": 80,
+        "japanese": "やめておく",
+        "english": "Never mind",
+        "confidence": "HIGH",
+        "guide_match": "Cancel/decline option",
+        "context": "Cancel menu option"
+      },
+      {
+        "id": 81,
+        "japanese": "納品し、このオーダーを\n退了しますか？",
+        "english": "Deliver and complete\nthis order?",
+        "confidence": "HIGH",
+        "guide_match": "Order delivery confirmation",
+        "context": "Confirm order completion"
+      },
+      {
+        "id": 82,
+        "japanese": "このオーダーを\n引き受けますか？",
+        "english": "Will you accept\nthis order?",
+        "confidence": "HIGH",
+        "guide_match": "Order acceptance confirmation",
+        "context": "Confirm accepting an order"
+      },
+      {
+        "id": 83,
+        "japanese": "仲間にこのオーダーを\n紹棄しますか？",
+        "english": "Will you refer this order\nto a companion?",
+        "confidence": "MEDIUM",
+        "guide_match": "Order referral to companion",
+        "context": "Refer/pass order to companion"
+      },
+      {
+        "id": 84,
+        "japanese": "出す",
+        "english": "Take Out",
+        "confidence": "HIGH",
+        "guide_match": "Line 13228: 'ACCESS STORAGE'. Retrieve from warehouse.",
+        "context": "Warehouse: retrieve item"
+      },
+      {
+        "id": 85,
+        "japanese": "買い取り",
+        "english": "Buy Back",
+        "confidence": "HIGH",
+        "guide_match": "Buyback option in warehouse",
+        "context": "Warehouse: buy back item"
+      },
+      {
+        "id": 86,
+        "japanese": "潜び替え",
+        "english": "Swap",
+        "confidence": "HIGH",
+        "guide_match": "Item swap in warehouse",
+        "context": "Warehouse: swap items"
+      },
+      {
+        "id": 87,
+        "japanese": "持てる",
+        "english": "Take",
+        "confidence": "HIGH",
+        "guide_match": "Take item to inventory",
+        "context": "Warehouse: take item"
+      },
+      {
+        "id": 88,
+        "japanese": "回復しますか？",
+        "english": "Identify it?",
+        "confidence": "HIGH",
+        "guide_match": "Identify confirmation prompt",
+        "context": "Identify item confirmation"
+      },
+      {
+        "id": 89,
+        "japanese": "殿使しますか？",
+        "english": "Remove the curse?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13139: 'UNCURSE'.",
+        "context": "Uncurse confirmation prompt"
+      },
+      {
+        "id": 90,
+        "japanese": "使いが殿かれ抜け落った",
+        "english": "The curse was removed and the item crumbled away!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13139: 'Removes and destroys equipped cursed equipment'. Item destroyed on uncurse.",
+        "context": "Curse removed but item was destroyed"
+      },
+      {
+        "id": 91,
+        "japanese": "使いが殿けたが崩れなかった",
+        "english": "The curse was removed and the item survived!",
+        "confidence": "HIGH",
+        "guide_match": "Successful uncurse without item destruction",
+        "context": "Curse removed, item survived"
+      },
+      {
+        "id": 92,
+        "japanese": "倉庫の拡築",
+        "english": "Warehouse Expansion",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 15077: 'WAREHOUSE EXPANSION'.",
+        "context": "Expansion menu label"
+      },
+      {
+        "id": 93,
+        "japanese": "支店の新増",
+        "english": "Establish New Branch",
+        "confidence": "HIGH",
+        "guide_match": "Line 15097: 'ESTABLISHMENT OF NEW BRANCHES'.",
+        "context": "Expansion menu label"
+      },
+      {
+        "id": 94,
+        "japanese": "支店の業種変更",
+        "english": "Change Branch Type",
+        "confidence": "HIGH",
+        "guide_match": "Branch type/service change",
+        "context": "Expansion menu label"
+      },
+      {
+        "id": 95,
+        "japanese": "支店の物転",
+        "english": "Relocate Branch",
+        "confidence": "HIGH",
+        "guide_match": "Line 13394: 'BRANCH RELOCATION'.",
+        "context": "Expansion menu label"
+      },
+      {
+        "id": 96,
+        "japanese": "倉庫を拡築しますか？",
+        "english": "Expand the warehouse?",
+        "confidence": "HIGH",
+        "guide_match": "Line 15077: 'WAREHOUSE EXPANSION'.",
+        "context": "Expansion confirmation"
+      },
+      {
+        "id": 97,
+        "japanese": "支店を新増しますか？",
+        "english": "Establish a new branch?",
+        "confidence": "HIGH",
+        "guide_match": "Line 15097: 'ESTABLISHMENT OF NEW BRANCHES'.",
+        "context": "Branch creation confirmation"
+      },
+      {
+        "id": 98,
+        "japanese": "業種を追加しますか？",
+        "english": "Add a new service?",
+        "confidence": "HIGH",
+        "guide_match": "Adding services to branch (buyback, shipping, events, rest)",
+        "context": "Add service type confirmation"
+      },
+      {
+        "id": 99,
+        "japanese": "物転しますか？",
+        "english": "Relocate?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13394: 'BRANCH RELOCATION'.",
+        "context": "Relocation confirmation"
+      },
+      {
+        "id": 100,
+        "japanese": "雇息しますか？",
+        "english": "Hire them?",
+        "confidence": "HIGH",
+        "guide_match": "Line 13452: 'EMPLOY PART-TIMERS'.",
+        "context": "Part-timer hiring confirmation"
+      },
+      {
+        "id": 102,
+        "japanese": "所持金が不足しています",
+        "english": "Insufficient gold.",
+        "confidence": "CONFIRMED",
+        "guide_match": "Shared insufficient funds message",
+        "context": "Error message"
+      },
+      {
+        "id": 103,
+        "japanese": "回復しました",
+        "english": "Identification complete.",
+        "confidence": "HIGH",
+        "guide_match": "Identify success message",
+        "context": "After successful identification"
+      },
+      {
+        "id": 105,
+        "japanese": "倉庫",
+        "english": "Warehouse",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 13342: 'EXTEND THE WAREHOUSE'. Line 15077: 'WAREHOUSE EXPANSION'.",
+        "context": "Menu label"
+      },
+      {
+        "id": 106,
+        "japanese": "売却しますか？",
+        "english": "Sell it?",
+        "confidence": "HIGH",
+        "guide_match": "Sell confirmation",
+        "context": "Sell item confirmation prompt"
+      },
+      {
+        "id": 107,
+        "japanese": "売却しました",
+        "english": "Sold!",
+        "confidence": "HIGH",
+        "guide_match": "Sell success",
+        "context": "After successful sale"
+      },
+      {
+        "id": 108,
+        "japanese": "ありがとだ",
+        "english": "Thanks!",
+        "confidence": "HIGH",
+        "guide_match": "Oda's thanks after transaction",
+        "context": "Thank you after sale"
+      },
+      {
+        "id": 109,
+        "japanese": "装備していますが\n売却しますか？",
+        "english": "This is equipped.\nSell it anyway?",
+        "confidence": "HIGH",
+        "guide_match": "Warning for selling equipped item",
+        "context": "Equipped item sell confirmation"
+      },
+      {
+        "id": 110,
+        "japanese": "回復",
+        "english": "Identify",
+        "confidence": "HIGH",
+        "guide_match": "Line 13136: 'IDENTIFY'.",
+        "context": "Menu label for identification"
+      },
+      {
+        "id": 111,
+        "japanese": "使いで外すことができません",
+        "english": "Cannot be removed due to a curse!",
+        "confidence": "HIGH",
+        "guide_match": "Cursed item cannot be unequipped normally",
+        "context": "Error: cursed item cannot be removed"
+      },
+      {
+        "id": 112,
+        "japanese": "それはしょうたいが\nよぐわかんねーから\n１０gでしか買わねえ",
+        "english": "I can't tell what that is,\nso I'll only buy it\nfor 10G!",
+        "confidence": "HIGH",
+        "guide_match": "Unidentified item sell price penalty",
+        "context": "Selling an unidentified item at minimum price"
+      },
+      {
+        "id": 113,
+        "japanese": "装備を外しますが\nよろしいですか？",
+        "english": "This will unequip the item.\nIs that OK?",
+        "confidence": "HIGH",
+        "guide_match": "Unequip confirmation",
+        "context": "Confirm unequipping item before storing"
+      },
+      {
+        "id": 114,
+        "japanese": "所持品がいっぱいです",
+        "english": "Inventory is full!",
+        "confidence": "HIGH",
+        "guide_match": "Inventory full error",
+        "context": "Error: inventory full"
+      },
+      {
+        "id": 115,
+        "japanese": "納品",
+        "english": "Deliver",
+        "confidence": "HIGH",
+        "guide_match": "Delivery option (duplicate of 78)",
+        "context": "Order menu - deliver option"
+      },
+      {
+        "id": 116,
+        "japanese": "紹棄",
+        "english": "Refer",
+        "confidence": "MEDIUM",
+        "guide_match": "Refer/introduce order to companion",
+        "context": "Order menu - refer option"
+      },
+      {
+        "id": 117,
+        "japanese": "何もしない",
+        "english": "Do Nothing",
+        "confidence": "HIGH",
+        "guide_match": "Cancel option",
+        "context": "Order menu - cancel"
+      },
+      {
+        "id": 118,
+        "japanese": "所持品",
+        "english": "Inventory",
+        "confidence": "HIGH",
+        "guide_match": "Inventory label",
+        "context": "Menu label"
+      },
+      {
+        "id": 119,
+        "japanese": "依頼人：",
+        "english": "Client:",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 2678: 'Client:Lucy'. Line 3299: 'Client:Fouquet'.",
+        "context": "Order info label"
+      },
+      {
+        "id": 120,
+        "japanese": "報酬：",
+        "english": "Reward:",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 2678: 'Reward: Accomodation Ticket'. Line 3299: 'Reward: Cloak of the'.",
+        "context": "Order info label"
+      },
+      {
+        "id": 121,
+        "japanese": "期日：",
+        "english": "Time Limit:",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 2678: 'Time limit: None'. Line 3299: 'Time limit: None'.",
+        "context": "Order info label"
+      },
+      {
+        "id": 122,
+        "japanese": "あと",
+        "english": "Remaining:",
+        "confidence": "HIGH",
+        "guide_match": "Days remaining prefix",
+        "context": "Time remaining display prefix"
+      },
+      {
+        "id": 124,
+        "japanese": "商店レベルが足りません",
+        "english": "Shop level is too low!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13233: 'SHOP LEVEL - Indicates the degree of growth of the shop'. Level requirement not met.",
+        "context": "Error: shop level insufficient for action"
+      },
+      {
+        "id": 125,
+        "japanese": "倉庫にアイテムがありません",
+        "english": "There are no items in the warehouse.",
+        "confidence": "HIGH",
+        "guide_match": "Empty warehouse",
+        "context": "Info: warehouse is empty"
+      },
+      {
+        "id": 126,
+        "japanese": "ニューイヤーバーゲン中",
+        "english": "New Year Bargain Sale!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Seasonal sale event",
+        "context": "Branch event - January"
+      },
+      {
+        "id": 127,
+        "japanese": "ふゆのクリアランス中",
+        "english": "Winter Clearance Sale!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Seasonal sale event",
+        "context": "Branch event - Winter"
+      },
+      {
+        "id": 128,
+        "japanese": "フレッシュマンセール中",
+        "english": "Freshman Sale!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Seasonal sale event",
+        "context": "Branch event - Spring"
+      },
+      {
+        "id": 129,
+        "japanese": "サマーバーゲン中",
+        "english": "Summer Bargain Sale!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Seasonal sale event",
+        "context": "Branch event - Summer"
+      },
+      {
+        "id": 130,
+        "japanese": "なつのホラースペシャル中",
+        "english": "Summer Horror Special!",
+        "confidence": "CONFIRMED",
+        "guide_match": "Seasonal sale event",
+        "context": "Branch event - Late Summer"
+      },
+      {
+        "id": 131,
+        "japanese": "さい期大売出し中",
+        "english": "End-of-Season Grand Sale!",
+        "confidence": "HIGH",
+        "guide_match": "Seasonal sale event",
+        "context": "Branch event - end of season"
+      },
+      {
+        "id": 132,
+        "japanese": "冒金事チャレンジフェア中",
+        "english": "Adventurer Challenge Fair!",
+        "confidence": "HIGH",
+        "guide_match": "Special event",
+        "context": "Branch event"
+      },
+      {
+        "id": 133,
+        "japanese": "買取解除中",
+        "english": "Buyback Unlocked!",
+        "confidence": "HIGH",
+        "guide_match": "Branch service unlocked",
+        "context": "Branch status - buyback active"
+      },
+      {
+        "id": 134,
+        "japanese": "冒金事息品買取解除中",
+        "english": "Adventurer Goods Buyback Unlocked!",
+        "confidence": "HIGH",
+        "guide_match": "Specific buyback category",
+        "context": "Branch status - adventurer items buyback"
+      },
+      {
+        "id": 135,
+        "japanese": "使い装備品買取解除中",
+        "english": "Cursed Equipment Buyback Unlocked!",
+        "confidence": "HIGH",
+        "guide_match": "Specific buyback category",
+        "context": "Branch status - cursed equipment buyback"
+      },
+      {
+        "id": 136,
+        "japanese": "装備品買取解除中",
+        "english": "Equipment Buyback Unlocked!",
+        "confidence": "HIGH",
+        "guide_match": "Specific buyback category",
+        "context": "Branch status - equipment buyback"
+      },
+      {
+        "id": 137,
+        "japanese": "自回復品買取解除中",
+        "english": "Consumables Buyback Unlocked!",
+        "confidence": "HIGH",
+        "guide_match": "Specific buyback category",
+        "context": "Branch status - consumables buyback"
+      },
+      {
+        "id": 138,
+        "japanese": "アイテム買取解除中",
+        "english": "Item Buyback Unlocked!",
+        "confidence": "HIGH",
+        "guide_match": "General buyback category",
+        "context": "Branch status - item buyback"
+      },
+      {
+        "id": 139,
+        "japanese": "引き受けるオーダーがありません",
+        "english": "There are no orders to accept.",
+        "confidence": "HIGH",
+        "guide_match": "No available orders",
+        "context": "Info: no orders available"
+      },
+      {
+        "id": 140,
+        "japanese": "オーダーを引き受けていません",
+        "english": "You have not accepted any orders.",
+        "confidence": "HIGH",
+        "guide_match": "No accepted orders",
+        "context": "Info: player has no active orders"
+      },
+      {
+        "id": 141,
+        "japanese": "b１ 支店",
+        "english": "B1 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch location labels (B1F-B10F labyrinth floors)",
+        "context": "Branch label"
+      },
+      {
+        "id": 142,
+        "japanese": "b２ 支店",
+        "english": "B2 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 143,
+        "japanese": "b３ 支店",
+        "english": "B3 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 144,
+        "japanese": "b４ 支店",
+        "english": "B4 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 145,
+        "japanese": "b５ 支店",
+        "english": "B5 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 146,
+        "japanese": "b６ 支店",
+        "english": "B6 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 147,
+        "japanese": "b７ 支店",
+        "english": "B7 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 148,
+        "japanese": "b８ 支店",
+        "english": "B8 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 149,
+        "japanese": "b９ 支店",
+        "english": "B9 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 150,
+        "japanese": "b１０ 支店",
+        "english": "B10 Branch",
+        "confidence": "CONFIRMED",
+        "guide_match": "Branch label",
+        "context": "Branch label"
+      },
+      {
+        "id": 151,
+        "japanese": "地装メニュー",
+        "english": "Expansion Menu",
+        "confidence": "HIGH",
+        "guide_match": "Line 15073: 'EXPANSION MENU'.",
+        "context": "Menu label"
+      },
+      {
+        "id": 152,
+        "japanese": "増置先リスト",
+        "english": "Installation Location List",
+        "confidence": "HIGH",
+        "guide_match": "List of locations for new installations",
+        "context": "Menu label for branch/installation locations"
+      },
+      {
+        "id": 153,
+        "japanese": "業種リスト",
+        "english": "Service Type List",
+        "confidence": "HIGH",
+        "guide_match": "List of branch service types (buyback, shipping, events, rest)",
+        "context": "Menu label for service types"
+      },
+      {
+        "id": 154,
+        "japanese": "物転先リスト",
+        "english": "Relocation Destination List",
+        "confidence": "HIGH",
+        "guide_match": "Line 13394: 'BRANCH RELOCATION'. List of possible relocation destinations.",
+        "context": "Menu label for relocation targets"
+      },
+      {
+        "id": 155,
+        "japanese": "ほれ、\nギャラを受け取るだよ",
+        "english": "Here!\nTake your pay!",
+        "confidence": "HIGH",
+        "guide_match": "Order completion reward",
+        "context": "Oda handing over order reward"
+      },
+      {
+        "id": 156,
+        "japanese": "おそかったから、\nバッキンしといたべ",
+        "english": "You were late,\nso I docked your pay!",
+        "confidence": "HIGH",
+        "guide_match": "Line 13302: 'DELIVER ITEMS NOT ON TIME'. Late delivery penalty.",
+        "context": "Late delivery penalty message"
+      },
+      {
+        "id": 157,
+        "japanese": "ないようがイマイチだから、\nちょっとギャラも\nすくなくなったべ",
+        "english": "The quality was so-so,\nso your pay's been\nreduced a bit!",
+        "confidence": "HIGH",
+        "guide_match": "Partial quality penalty on order",
+        "context": "Reduced reward for mediocre delivery"
+      },
+      {
+        "id": 158,
+        "japanese": "ないようがよかったから、\nボーナスつけといたべ",
+        "english": "The quality was great,\nso I added a bonus!",
+        "confidence": "HIGH",
+        "guide_match": "Bonus for good order delivery",
+        "context": "Bonus reward for quality delivery"
+      },
+      {
+        "id": 160,
+        "japanese": "受け取った",
+        "english": "Received!",
+        "confidence": "HIGH",
+        "guide_match": "Item received confirmation",
+        "context": "Reward received message"
+      },
+      {
+        "id": 161,
+        "japanese": "どれを納品するだよ？",
+        "english": "Which one are ya delivering?",
+        "confidence": "HIGH",
+        "guide_match": "Order delivery item selection",
+        "context": "Select item to deliver for order"
+      },
+      {
+        "id": 162,
+        "japanese": "納品しますか？",
+        "english": "Deliver it?",
+        "confidence": "HIGH",
+        "guide_match": "Delivery confirmation",
+        "context": "Delivery confirmation prompt"
+      },
+      {
+        "id": 163,
+        "japanese": "買取業種を追加",
+        "english": "Add Buyback Service",
+        "confidence": "HIGH",
+        "guide_match": "Line 15104: 'INCREASED QUANTITY OF PURCHABLE ITEMS...lets you sell items in the Vigger Shop store fronts'.",
+        "context": "Branch service addition option"
+      },
+      {
+        "id": 164,
+        "japanese": "配送業種を追加",
+        "english": "Add Shipping Service",
+        "confidence": "HIGH",
+        "guide_match": "Line 15079: 'ESTABLISHMENT OF SHIPPING SERVICE'.",
+        "context": "Branch service addition option"
+      },
+      {
+        "id": 165,
+        "japanese": "イベント場を増置",
+        "english": "Set Up Event Space",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 15100: 'SET UP AN EVENT SPACE'.",
+        "context": "Branch service addition option"
+      },
+      {
+        "id": 166,
+        "japanese": "休けい所を増置",
+        "english": "Set Up Resting Room",
+        "confidence": "CONFIRMED",
+        "guide_match": "Line 15109: 'SET UP RESTING ROOMS'.",
+        "context": "Branch service addition option"
+      },
+      {
+        "id": 167,
+        "japanese": "今は地装できません",
+        "english": "Cannot expand right now.",
+        "confidence": "HIGH",
+        "guide_match": "Expansion unavailable",
+        "context": "Error: expansion not available"
+      }
+    ]
+  }
+}

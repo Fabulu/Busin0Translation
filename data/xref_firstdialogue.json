@@ -1,0 +1,98 @@
+{
+  "_metadata": {
+    "date": "2026-05-23",
+    "agent": "xref59-firstdlg",
+    "task": "Cross-reference first dialogue screenshot with MSG resource glyph data",
+    "target_text": "なあ、教えてくれよ～。俺、早くあの事を言わなきゃ、ならないんだよ。",
+    "target_speaker": "怪しい男"
+  },
+  "critical_finding": {
+    "name_entry_ids_differ_from_dialogue": true,
+    "explanation": "The glyph IDs from the name-entry screen (し=126, い=87, あ=86, etc.) are NOT used in dialogue text. Search for adjacent pair (126,87) or (128,87) across all 296 MSG resources returned ZERO matches. The name-entry and dialogue systems use separate glyph ID spaces.",
+    "evidence": "Searched all MSG resources for bigram (126,87) and (128,87) - zero occurrences"
+  },
+  "dialogue_hiragana_mapping": {
+    "confidence": "HIGH (bigram-verified)",
+    "source": "Bigram frequency analysis of resources 34-49 plus display table in resource 37 seq 17",
+    "method": "Top bigrams matched against known Japanese patterns (ます, ない, して, って, った, etc.)",
+    "confirmed_mappings": {
+      "112": {"char": "あ", "evidence": "Position 0 in display table; gojuuon position consistent with ま=142 (position 30)", "frequency": 179},
+      "113": {"char": "い", "evidence": "Bigram (130,113)=116 matches てい; (132,113)=95 matches ない", "frequency": 675},
+      "117": {"char": "か", "evidence": "Bigram (117,31)=106 matches か。; (142,124,117) ますか pattern", "frequency": 402},
+      "123": {"char": "し", "evidence": "Bigram (123,130)=94 matches して", "frequency": 451},
+      "124": {"char": "す", "evidence": "Bigram (142,124)=155 matches ます (highest bigram)", "frequency": 351},
+      "127": {"char": "た", "evidence": "Bigram (191,127)=80 matches った", "frequency": 405},
+      "130": {"char": "て", "evidence": "Bigram (191,130)=153 matches って; (123,130)=94 matches して", "frequency": 480},
+      "132": {"char": "な", "evidence": "Bigram (132,113)=95 matches ない; gojuuon position 20 = 112+20", "frequency": 444},
+      "136": {"char": "の", "evidence": "Rank 2 frequency (665) matches の as most common particle", "frequency": 665},
+      "142": {"char": "ま", "evidence": "Bigram (142,124)=155 matches ます", "frequency": 411},
+      "191": {"char": "っ", "evidence": "Bigram (191,130)=153 matches って; (191,127)=80 matches った; in dakuten/small kana range 158-192", "frequency": 323}
+    },
+    "gojuuon_extrapolated": {
+      "note": "Based on sequential glyph IDs 112-155 following standard gojuuon order, confirmed at multiple anchor points",
+      "112": "あ", "113": "い", "114": "う", "115": "え", "116": "お",
+      "117": "か", "118": "き", "119": "く", "120": "け", "121": "こ",
+      "122": "さ", "123": "し", "124": "す", "125": "せ", "126": "そ",
+      "127": "た", "128": "ち", "129": "つ", "130": "て", "131": "と",
+      "132": "な", "133": "に", "134": "ぬ", "135": "ね", "136": "の",
+      "137": "は", "138": "ひ", "139": "ふ", "140": "へ", "141": "ほ",
+      "142": "ま", "143": "み", "144": "む", "145": "め", "146": "も",
+      "147": "や", "148": "ゆ", "149": "よ",
+      "93": "ら (out-of-sequence, from display table)",
+      "94": "り (out-of-sequence, from display table)",
+      "150": "る", "151": "れ", "152": "ろ",
+      "153": "わ", "154": "を", "155": "ん"
+    },
+    "dakuten_range": {
+      "note": "Glyphs 158-192 contain dakuten, handakuten, and small kana variants",
+      "estimated_layout": {
+        "158-162": "が行 (が,ぎ,ぐ,げ,ご)",
+        "163-167": "ざ行 (ざ,じ,ず,ぜ,ぞ)",
+        "168-172": "だ行 (だ,ぢ,づ,で,ど)",
+        "173-177": "ば行 (ば,び,ぶ,べ,ぼ)",
+        "178-182": "ぱ行 (ぱ,ぴ,ぷ,ぺ,ぽ)",
+        "183": "ゃ (small ya, from display table position)",
+        "184": "ゅ (small yu)",
+        "185": "ょ (small yo)",
+        "186-190": "ぁ,ぃ,ぅ,ぇ,ぉ (small vowels)",
+        "191": "っ (confirmed via bigram analysis)",
+        "192": "ー (long vowel mark, estimated)"
+      }
+    }
+  },
+  "display_table_evidence": {
+    "resource": 37,
+    "sequence": 17,
+    "offset": "0x33E",
+    "description": "Sequential glyph display grid showing IDs 112-192 in two columns of 5, with FFFE row separators",
+    "left_column_ids": "112-149, 93, 94, 150-157",
+    "right_column_ids": "158-192 (with reordering at rows 5-6)",
+    "total_left": 48,
+    "total_right": 35,
+    "interpretation": "Left = basic hiragana (46 chars + 2 extras at 156-157), Right = modified kana (dakuten + small)"
+  },
+  "target_text_search": {
+    "bigram_132_112": {
+      "description": "Searched for なあ (glyph 132 followed by 112) across all MSG resources",
+      "total_occurrences": 3,
+      "locations": [
+        {"resource": 45, "offset": "0x4DA", "context": "Part of longer dialogue in resource 45"},
+        {"resource": 45, "offset": "0x1134", "context": "Part of longer dialogue in resource 45"},
+        {"resource": 46, "offset": "0x4462", "context": "Part of longer multi-speaker dialogue in resource 46"}
+      ],
+      "match_status": "NONE of the 3 occurrences match the full target text pattern",
+      "possible_reasons": [
+        "The target text may be in a resource not classified as MSG",
+        "The text may use inline control codes that disrupt the glyph sequence",
+        "The exact Japanese text from the screenshot may differ slightly",
+        "The first dialogue may be in a cutscene resource with different encoding",
+        "The first dialogue resource may be outside the 34-49 range"
+      ]
+    }
+  },
+  "punctuation_mapping": {
+    "31": {"char": "。", "evidence": "Bigram (117,31)=106 matches か。sentence-end", "confidence": "HIGH"},
+    "63": {"char": "？", "evidence": "Bigram (124,63)=76 matches す？ from ます？; (113,63)=45 matches い？", "confidence": "MEDIUM"},
+    "62": {"char": "speaker_delimiter", "evidence": "Appears at end of speaker names/first lines; frequency 421", "confidence": "MEDIUM"}
+  }
+}

@@ -1,0 +1,674 @@
+[
+  {
+    "resource": 49,
+    "message": 40,
+    "japanese": "スピア / ",
+    "english": "Spear / "
+  },
+  {
+    "resource": 49,
+    "message": 41,
+    "japanese": "ダークフォグ / ",
+    "english": "Dark Fog / "
+  },
+  {
+    "resource": 49,
+    "message": 42,
+    "japanese": "クロスボウ / ",
+    "english": "Crossbow / "
+  },
+  {
+    "resource": 49,
+    "message": 43,
+    "japanese": "ルーフフォール / ",
+    "english": "Roof Fall / "
+  },
+  {
+    "resource": 49,
+    "message": 44,
+    "japanese": "mpドレイン / ",
+    "english": "MP Drain / "
+  },
+  {
+    "resource": 49,
+    "message": 45,
+    "japanese": "ポイズンガス / ",
+    "english": "Poison Gas / "
+  },
+  {
+    "resource": 49,
+    "message": 46,
+    "japanese": "アラーム / ",
+    "english": "Alarm / "
+  },
+  {
+    "resource": 49,
+    "message": 47,
+    "japanese": "ストーンガス / ",
+    "english": "Stone Gas / "
+  },
+  {
+    "resource": 49,
+    "message": 48,
+    "japanese": "テレポーター / ",
+    "english": "Teleporter / "
+  },
+  {
+    "resource": 49,
+    "message": 51,
+    "japanese": "アイテムをあきらめました / ",
+    "english": "Gave up the item. / "
+  },
+  {
+    "resource": 49,
+    "message": 52,
+    "japanese": "宝箱は開けられている / ",
+    "english": "Chest already open. / "
+  },
+  {
+    "resource": 49,
+    "message": 53,
+    "japanese": "はしごで物動しますか？「■：キャンセル」 / ",
+    "english": "Use the ladder? / "
+  },
+  {
+    "resource": 49,
+    "message": 54,
+    "japanese": "上のフロア / ",
+    "english": "Upper Floor / "
+  },
+  {
+    "resource": 49,
+    "message": 55,
+    "japanese": "下のフロア / ",
+    "english": "Lower Floor / "
+  },
+  {
+    "resource": 49,
+    "message": 56,
+    "japanese": "階段を上りますか？ / ",
+    "english": "Go upstairs? / "
+  },
+  {
+    "resource": 49,
+    "message": 57,
+    "japanese": "階段を下りますか？ / ",
+    "english": "Go downstairs? / "
+  },
+  {
+    "resource": 49,
+    "message": 58,
+    "japanese": "上の階へワープしますか？ / ",
+    "english": "Warp to upper floor? / "
+  },
+  {
+    "resource": 49,
+    "message": 59,
+    "japanese": "下の階へワープしますか？ / ",
+    "english": "Warp to lower floor? / "
+  },
+  {
+    "resource": 49,
+    "message": 60,
+    "japanese": "カギを使った  / ",
+    "english": "Used the key. / "
+  },
+  {
+    "resource": 49,
+    "message": 61,
+    "japanese": "はしごを上りますか？ / 「■：決復 ■：キャンセル」 / ",
+    "english": "Climb up the ladder? / "
+  },
+  {
+    "resource": 49,
+    "message": 62,
+    "japanese": "はしごを下りますか？ / 「■：決復 ■：キャンセル」 / ",
+    "english": "Climb down the ladder? / "
+  },
+  {
+    "resource": 49,
+    "message": 63,
+    "japanese": "は い / ",
+    "english": "Yes / "
+  },
+  {
+    "resource": 49,
+    "message": 64,
+    "japanese": "いいえ / ",
+    "english": "No / "
+  },
+  {
+    "resource": 49,
+    "message": 65,
+    "japanese": "キャンセル / ",
+    "english": "Cancel / "
+  },
+  {
+    "resource": 49,
+    "message": 66,
+    "japanese": "街へ帰りますか？ / ",
+    "english": "Return to town? / "
+  },
+  {
+    "resource": 49,
+    "message": 67,
+    "japanese": "荷士がつまれ、道がふさがれている / ",
+    "english": "Debris blocks the way. / "
+  },
+  {
+    "resource": 49,
+    "message": 68,
+    "japanese": "カギを使った  / さびたカギはくだけてしまった  / ",
+    "english": "Used the key. / The rusty key broke! / "
+  },
+  {
+    "resource": 49,
+    "message": 69,
+    "japanese": "b１へワープしますか？ / ",
+    "english": "Warp to B1? / "
+  },
+  {
+    "resource": 49,
+    "message": 70,
+    "japanese": "b４へワープしますか？ / ",
+    "english": "Warp to B4? / "
+  },
+  {
+    "resource": 49,
+    "message": 71,
+    "japanese": "b５へワープしますか？ / ",
+    "english": "Warp to B5? / "
+  },
+  {
+    "resource": 49,
+    "message": 72,
+    "japanese": "b１０へワープしますか？ / ",
+    "english": "Warp to B10? / "
+  },
+  {
+    "resource": 49,
+    "message": 73,
+    "japanese": "ワープゾーンに入りますか？ / ",
+    "english": "Enter warp zone? / "
+  },
+  {
+    "resource": 49,
+    "message": 74,
+    "japanese": "b３へ物動しますか？ / ",
+    "english": "Move to B3? / "
+  },
+  {
+    "resource": 49,
+    "message": 75,
+    "japanese": "b５へ物動しますか？ / ",
+    "english": "Move to B5? / "
+  },
+  {
+    "resource": 49,
+    "message": 76,
+    "japanese": "とびおりられそうな穴がある / ",
+    "english": "A hole you can / jump down into. / "
+  },
+  {
+    "resource": 49,
+    "message": 77,
+    "japanese": "炎が道をふさいでいる / ",
+    "english": "Flames block the way. / "
+  },
+  {
+    "resource": 49,
+    "message": 78,
+    "japanese": "遠くに階段が見える / ",
+    "english": "Stairs in the distance. / "
+  },
+  {
+    "resource": 49,
+    "message": 79,
+    "japanese": "ふん水がある / ",
+    "english": "There is a fountain. / "
+  },
+  {
+    "resource": 49,
+    "message": 80,
+    "japanese": "炎がもえ上がっていて / とび下りるのは■険そうだ / ",
+    "english": "Flames rage below. / Too dangerous to / jump down. / "
+  },
+  {
+    "resource": 49,
+    "message": 81,
+    "japanese": "水の中に階段が見える / ",
+    "english": "Stairs visible in / the water. / "
+  },
+  {
+    "resource": 49,
+    "message": 82,
+    "japanese": "不気用な像だ！ / ",
+    "english": "An eerie statue! / "
+  },
+  {
+    "resource": 49,
+    "message": 83,
+    "japanese": "不気用な像が道をふさいでいる / ",
+    "english": "An eerie statue / blocks the way. / "
+  },
+  {
+    "resource": 49,
+    "message": 84,
+    "japanese": "不気用な像の下に何かが見える / ",
+    "english": "Something under the / eerie statue. / "
+  },
+  {
+    "resource": 49,
+    "message": 85,
+    "japanese": "不思議な形の像が / 道をふさいでいる / ",
+    "english": "A strange statue / blocks the way. / "
+  },
+  {
+    "resource": 49,
+    "message": 86,
+    "japanese": "がれきの壁に / 冒険者の死体がある / ",
+    "english": "An adventurer's corpse / lies by the rubble. / "
+  },
+  {
+    "resource": 49,
+    "message": 87,
+    "japanese": "■のような不気用な像がある / ",
+    "english": "An eerie statue / stands here. / "
+  },
+  {
+    "resource": 49,
+    "message": 88,
+    "japanese": "立派な装備品が飾られている / ",
+    "english": "Fine equipment / on display. / "
+  },
+  {
+    "resource": 49,
+    "message": 89,
+    "japanese": "常が重すぎて開けられない / ",
+    "english": "Too heavy to open. / "
+  },
+  {
+    "resource": 49,
+    "message": 90,
+    "japanese": "死体がよこたわっている / ",
+    "english": "A corpse lies here. / "
+  },
+  {
+    "resource": 49,
+    "message": 91,
+    "japanese": "がい骨がころがっている / ",
+    "english": "Bones lie scattered. / "
+  },
+  {
+    "resource": 49,
+    "message": 92,
+    "japanese": "ここだけ特に重そうに感じる / ",
+    "english": "The air feels / especially heavy here. / "
+  },
+  {
+    "resource": 49,
+    "message": 93,
+    "japanese": "水瓶がある / ",
+    "english": "There is a water jug. / "
+  },
+  {
+    "resource": 49,
+    "message": 94,
+    "japanese": "美しい祠がまつられている / ",
+    "english": "A beautiful shrine / stands here. / "
+  },
+  {
+    "resource": 49,
+    "message": 95,
+    "japanese": "巨大な女神の団像がある / ",
+    "english": "A great goddess / statue stands here. / "
+  },
+  {
+    "resource": 49,
+    "message": 96,
+    "japanese": "くずれたゆかのそこが / 光りかがやいている / ",
+    "english": "Light shines from / the crumbled floor. / "
+  },
+  {
+    "resource": 49,
+    "message": 97,
+    "japanese": "b８へワープしますか？ / ",
+    "english": "Warp to B8? / "
+  },
+  {
+    "resource": 49,
+    "message": 98,
+    "japanese": "b６へワープしますか？ / ",
+    "english": "Warp to B6? / "
+  },
+  {
+    "resource": 49,
+    "message": 99,
+    "japanese": "b３へワープしますか？ / ",
+    "english": "Warp to B3? / "
+  },
+  {
+    "resource": 49,
+    "message": 100,
+    "japanese": "小さなふくろが落ちている / ",
+    "english": "A small pouch lies / on the ground. / "
+  },
+  {
+    "resource": 49,
+    "message": 101,
+    "japanese": "金色のカギがかかっている / ",
+    "english": "Locked with a / gold key. / "
+  },
+  {
+    "resource": 49,
+    "message": 102,
+    "japanese": "銀色のカギがかかっている / ",
+    "english": "Locked with a / silver key. / "
+  },
+  {
+    "resource": 49,
+    "message": 103,
+    "japanese": "さびた色のカギがかかっている / ",
+    "english": "Locked with a / rusty key. / "
+  },
+  {
+    "resource": 49,
+    "message": 104,
+    "japanese": "大きな水瓶が飾られている / ",
+    "english": "A large water jug / on display. / "
+  },
+  {
+    "resource": 49,
+    "message": 105,
+    "japanese": "柵が上がっていて通れない / ",
+    "english": "A gate blocks / the passage. / "
+  },
+  {
+    "resource": 49,
+    "message": 106,
+    "japanese": "オートマターが潜んでいる / ",
+    "english": "An Automata lurks / in hiding. / "
+  },
+  {
+    "resource": 49,
+    "message": 107,
+    "japanese": "重で像が欠けている / ",
+    "english": "Part of the statue / is missing. / "
+  },
+  {
+    "resource": 49,
+    "message": 108,
+    "japanese": "騎士の顔の像がある / ",
+    "english": "A statue of a / knight's face. / "
+  },
+  {
+    "resource": 49,
+    "message": 109,
+    "japanese": "金色のプレートがういている / ",
+    "english": "A gold plate / floats in the air. / "
+  },
+  {
+    "resource": 49,
+    "message": 110,
+    "japanese": "美しいさいだんがある / ",
+    "english": "A beautiful altar / stands here. / "
+  },
+  {
+    "resource": 1053,
+    "message": 0,
+    "japanese": "ブベ     ",
+    "english": "DATA_LABEL_A     "
+  },
+  {
+    "resource": 1053,
+    "message": 1,
+    "japanese": "別ベ     ",
+    "english": "DATA_LABEL_B     "
+  },
+  {
+    "resource": 1053,
+    "message": 2,
+    "japanese": "容ベ     ",
+    "english": "DATA_LABEL_C     "
+  },
+  {
+    "resource": 1053,
+    "message": 4,
+    "japanese": "ブベ     ",
+    "english": "DATA_LABEL_A     "
+  },
+  {
+    "resource": 1908,
+    "message": 0,
+    "japanese": "ブベ     ",
+    "english": "DATA_LABEL_A     "
+  },
+  {
+    "resource": 1908,
+    "message": 1,
+    "japanese": "別ベ     ",
+    "english": "DATA_LABEL_B     "
+  },
+  {
+    "resource": 1908,
+    "message": 2,
+    "japanese": "容ベ     ",
+    "english": "DATA_LABEL_C     "
+  },
+  {
+    "resource": 2124,
+    "message": 0,
+    "japanese": "ブベ     ",
+    "english": "DATA_LABEL_A     "
+  },
+  {
+    "resource": 2124,
+    "message": 1,
+    "japanese": "別ベ     ",
+    "english": "DATA_LABEL_B     "
+  },
+  {
+    "resource": 2124,
+    "message": 2,
+    "japanese": "容ベ     ",
+    "english": "DATA_LABEL_C     "
+  },
+  {
+    "resource": 2124,
+    "message": 3,
+    "japanese": "容ベ     ",
+    "english": "DATA_LABEL_C     "
+  },
+  {
+    "resource": 2654,
+    "message": 1,
+    "japanese": "前衛２鉄が理１鎧にタイミングを騎わ / せ同持に攻手し、大きなダメージを与 / えるaa。 / ",
+    "english": "2 front row members / time their strikes on / 1 enemy together, / dealing heavy damage. / "
+  },
+  {
+    "resource": 2654,
+    "message": 2,
+    "japanese": "後衛の魔王を、前衛の武器に信して攻 / 手するaa。攻手回くは１回に制限さ / れるが、秘計■敏の持いモンスターを / 秘計させる景が元■るaa。 / ",
+    "english": "Channel back row / magic into front row / weapons to attack. / Hits limited to 1, / but greatly improves / hit rate vs high / evasion enemies. / "
+  },
+  {
+    "resource": 2654,
+    "message": 3,
+    "japanese": "後衛の魔王で、理の果きを険街とめ、 / そのスキに前衛が攻手するaa。 / 攻手回くは１回に制限されるが、回避 / 王の覚いモンスターを攻手するのに / 有宮。 / ",
+    "english": "Back row magic stuns / the enemy, letting the / front row attack. / Hits limited to 1, / but effective against / high evasion foes. / "
+  },
+  {
+    "resource": 2654,
+    "message": 4,
+    "japanese": "後衛の魔王で前衛を新動に上げ、前衛 / がターンの身後に許■を■■攻手する / aa。攻手回くは１回に制限されるが / モンスターの■解王を険限年持宮化す / ることができる。 / ",
+    "english": "Back row magic lifts / front row into the / air to jump attack at / turn's end. Hits are / limited to 1, but can / bypass enemy DEF. / "
+  },
+  {
+    "resource": 2654,
+    "message": 5,
+    "japanese": "となり騎った前衛２鉄が、タイミング / を騎わせ、理パーティの前衛・後衛の / 離絶にいる理に者攻攻手を削うaa。 / 攻手回くは１回に制限されるが、闘ず / 攻手を聞動させられる。 / ",
+    "english": "2 adjacent front row / members strike both / enemy front and back / rows in sync. Hits / limited to 1, but / always connects. / "
+  },
+  {
+    "resource": 2654,
+    "message": 6,
+    "japanese": "後衛２鉄が、魔王をクロスさせて理の / 果きを骨じ、前に値きずり元したとこ / ろを前衛２鉄が同持に攻手するaa。 / 回避王・hpの覚い理に有宮な箱期攻 / 手。 / ",
+    "english": "2 back row cross their / magic to seal enemy / movement, then 2 / front row strike / together. Effective / vs high EVA/HP foes. / "
+  },
+  {
+    "resource": 2654,
+    "message": 7,
+    "japanese": "前衛全員が■罰して■解■■を取り、 / 回避王・■解王を覚める。理の攻手に / よる秘計・備仰・■・ed・adをも / ■ぎ、さらに理のイラッシュゴを / ブロックできる。 / ",
+    "english": "All front row take a / defensive stance, / boosting EVA and DEF. / Blocks status effects / and enemy RUSH. / "
+  },
+  {
+    "resource": 2654,
+    "message": 8,
+    "japanese": "後衛２鉄が魔王を罰動させて魔法のバ / リアをはるaa。 / 魔法によるダメージをダウンさせ、レ / ジスト■■払を覚めることができる。 / ",
+    "english": "2 back row activate / magic to create a / barrier. Reduces / magic damage and / boosts RES rate. / "
+  },
+  {
+    "resource": 2654,
+    "message": 9,
+    "japanese": "後衛全員が魔王を罰動させ、気度 / フィールド全鎧を強王な魔法バリアで / おおうaa。そのターンは、理味方と / もに聖飾による魔法を険紹効果させる / ことができない。 / ",
+    "english": "All back row activate / magic to cover the / field with a strong / barrier. Neither side / can cast spells / this turn. / "
+  },
+  {
+    "resource": 2654,
+    "message": 10,
+    "japanese": "後衛全員が魔王を罰動させ、パーティ / 全員の協誰を用りだすaa。協誰は、 / ダメージを受けると消えてしまうが、 / 攻手の許■になった長騎、■鎧は険紹 / ダメージを受けずにすむ。 / ",
+    "english": "All back row create / mirror images for the / party. Images vanish / when hit, but / protect the real / body from damage. / "
+  },
+  {
+    "resource": 2654,
+    "message": 11,
+    "japanese": "理のブレスが習たれた街■にパーティ / 全員が■小し、ブレス・魔法による / ダメージをダウンさせる。 / 代わりに、通常攻手によるダメージが / アップしてしまう。 / ",
+    "english": "All party members / scatter to reduce / breath and magic / damage. However, / normal attack damage / taken increases. / "
+  },
+  {
+    "resource": 2654,
+    "message": 12,
+    "japanese": "パーティ全員が■罰悪■を取り、通常 / 攻手に対する回避王・■解王を大きく / アップさせるaa。代わりにブレス・ / 魔法によるダメージがアップしてしま / う。 / ",
+    "english": "All party members / take evasive stance, / greatly boosting EVA / and DEF vs physical / attacks. Breath and / magic damage up. / "
+  },
+  {
+    "resource": 2654,
+    "message": 13,
+    "japanese": "防衛すべき前衛が、理の攻手を受ける / 持に、後衛がとび■番で良魔し、攻手 / をカットさせるaa。防衛すべき前衛 / が攻手されるたびに効果する。 / ",
+    "english": "When a guarded front / row member is hit, / back row intercepts / with ranged attacks. / Triggers each time / the target is hit. / "
+  },
+  {
+    "resource": 2654,
+    "message": 14,
+    "japanese": "味方の攻手前に、後衛全員でとび■番 / による攻手を削い、攻手の聞動払を / アップさせるaa。 / ",
+    "english": "Before allies attack, / all back row fire / ranged shots to boost / hit rate. / "
+  },
+  {
+    "resource": 2654,
+    "message": 15,
+    "japanese": "理が魔法を行使しようとした持に、後 / 衛がとび■番で攻手、魔法の行使を強 / 戦的に良魔するaa。１ターンあたり / の効果回くに戦制がある。 / ",
+    "english": "When an enemy tries / to cast a spell, back / row attacks to cancel / it. Limited uses / per turn. / "
+  },
+  {
+    "resource": 2654,
+    "message": 16,
+    "japanese": "理がブレスを応こうとした持に、後衛 / がとび■番で攻手、ブレスの行使を強 / 戦的に良魔するaa。１ターンあたり / の効果回くに戦制がある。 / ",
+    "english": "When an enemy tries / to use breath, back / row attacks to cancel / it. Limited uses / per turn. / "
+  },
+  {
+    "resource": 2654,
+    "message": 17,
+    "japanese": "防衛すべき後衛が、理の攻手を受ける / 持に、前衛が誰代わりとなって、後衛 / を壁るaa。理のとび■番による攻手 / にも対名することができる。 / ",
+    "english": "When a guarded back / row member is hit, / front row takes the / blow instead. Also / blocks enemy ranged / attacks. / "
+  },
+  {
+    "resource": 2654,
+    "message": 18,
+    "japanese": "囮の前衛が、理の攻手を受ける持に後 / 退し、決りの前衛がサイドから攻手、 / 理の箱期攻手を強戦的にカットする。 / １ターンあたりの効果回くに戦制があ / る。 / ",
+    "english": "Decoy retreats when / attacked, others / flank and intercept / enemy coordinated / attacks. Limited / uses per turn. / "
+  },
+  {
+    "resource": 2654,
+    "message": 19,
+    "japanese": "後衛３鉄が魔王を罰動し、魔法の宮力 / エリアをひろげるaa。また、理の聖 / 飾持宮化■王をダウンさせ、魔法の宮 / 力もアップさせることができる。 / ",
+    "english": "3 back row activate / magic to expand spell / range. Also lowers / enemy spell resist / and boosts spell / power. / "
+  },
+  {
+    "resource": 2654,
+    "message": 20,
+    "japanese": "後衛全員で魔王を罰動し、■の魔法宮 / 力を投集するaa。味方全員のイ骨 / 魔ゴを回■させ、また理のイマジック / シェルゴイアンチマジックシェルゴを / 投集することができる。 / ",
+    "english": "All back row channel / magic to dispel. / Cures party's Mute / status, and breaks / enemy Magic Shell / and Anti-Magic Shell. / "
+  },
+  {
+    "resource": 2654,
+    "message": 21,
+    "japanese": "後衛の、となりあった■同賊が２鉄と / も同じ魔法を少協ずつ唱えることで、 / 魔法の■削者過を者める。 / イアンチマジックシェルゴよりも者く / ■削できる。 / ",
+    "english": "2 adjacent back row / members cast the same / spell in small doses / to speed up casting. / Faster than breaking / Anti-Magic Shell. / "
+  },
+  {
+    "resource": 2654,
+    "message": 22,
+    "japanese": "後衛が、魔法を味方の武器に信らせ、 / その武器で味方が攻手するaa。攻手 / が聞動すれば、理の聖飾持宮化■王・ / マジックシェルを持泊し、魔法を効果 / させることができる。 / ",
+    "english": "Back row enchants an / ally's weapon with / magic. If the attack / hits, it bypasses / enemy spell resist / and Magic Shell. / "
+  },
+  {
+    "resource": 2654,
+    "message": 23,
+    "japanese": "後衛２鉄が、魔法を道を騎わせて唱え / ることで、魔法の宮力を大きくパワー / アップさせるaa。 / ",
+    "english": "2 back row cast the / same spell together / to greatly boost its / power. / "
+  },
+  {
+    "resource": 2654,
+    "message": 24,
+    "japanese": "前衛３鉄が、箱内して理１鎧に攻手を / しかけ、ダメージを大きくアップさせ / るaa。箱期宮力で、１鉄許より２鉄 / 許、２鉄許より３鉄許の与えるダメー / ジのほうがより覚くなる。 / ",
+    "english": "3 front row attack 1 / enemy in sequence, / each hit dealing more / damage than the last. / The 3rd strike deals / the most damage. / "
+  },
+  {
+    "resource": 2654,
+    "message": 25,
+    "japanese": "あらかじめ囮となる前衛１鉄が攻手さ / れた後、決りの前衛２鉄が険秘に理の / 後■に回りこんで攻手するaa。 / 聞動払が大きくアップし、大きなダ / メージを与えることができる。 / ",
+    "english": "1 front row acts as / decoy. After being / attacked, the other / 2 sneak behind the / enemy to strike. / Hit rate and damage / greatly increased. / "
+  },
+  {
+    "resource": 2654,
+    "message": 26,
+    "japanese": "罰動攻手が、心賊の■団によって進化 / したもの。 / １鉄許が全王で理を新動に器き上げ、 / ■■動および理の大ち上がりぎわに攻 / 手し、大きなダメージを与える。 / ",
+    "english": "An evolved version of / Stun Smash. 1 member / lifts the enemy into / the air with full / force, then strikes / as they fall for / heavy damage. / "
+  },
+  {
+    "resource": 2654,
+    "message": 27,
+    "japanese": "パーティ全員で鎧呪たり攻手を削い、 / 理全鎧にダメージを与えるaa。イフ / ロントガードゴでブロックされない制 / り、回避されることはない。 / ",
+    "english": "All party members / attack all enemies. / Cannot be evaded / unless blocked by / Front Guard. / "
+  },
+  {
+    "resource": 2654,
+    "message": 28,
+    "japanese": "前衛２鉄がフェイント攻手をしたスキ / に、決りの１鉄が新動から険秘に理の / 避■をねらう。攻手回くは全員１回に / 制限されるが、３鉄許はクリティカル / 払が大きくアップする。 / ",
+    "english": "2 front row feint / while 1 aims for the / enemy's weak point. / All hits limited to / 1, but 3rd member's / crit rate is greatly / increased. / "
+  },
+  {
+    "resource": 2654,
+    "message": 29,
+    "japanese": "前後衛の２鉄でホーリーシンボルを紹 / り、強王なディスペルを削うaa。 / 加■■に対して、計大な宮力がある。 / ",
+    "english": "2 members form a Holy / Symbol and perform a / powerful Dispel. / Very effective / against the undead. / "
+  },
+  {
+    "resource": 2654,
+    "message": 30,
+    "japanese": "後衛の１鉄が魔王でワープゲートを用 / り、前衛３鉄が器来、ターンの身後に / 上新のゲートから■■攻手を削う。 / 理の■解王を持泊できる。 / 新動にいる■は攻手許■とならない。 / ",
+    "english": "1 back row opens a / Warp Gate. 3 front / row jump through and / attack from above at / turn's end. Bypasses / enemy DEF. Airborne / allies can't be hit. / "
+  },
+  {
+    "resource": 2654,
+    "message": 31,
+    "japanese": "スレイクラッシュが、モンクの■団に / よって進化したもの。 / ２鉄が秘王をこめて理■をかけ■け、 / そして■る。削きと人りでダメージを / 与え、かつ加■■を違すことも能■。 / ",
+    "english": "An evolved Slay Crash / from a Monk's bond. / 2 members charge / through the enemy, / dealing damage on / the way through. Can / also hit undead. / "
+  },
+  {
+    "resource": 2654,
+    "message": 32,
+    "japanese": "wスラッシュが、心賊の■団によって / 進化したもの。 / 前衛２鉄が武器を振るってカマイタチ / を効■させ、攻手。許■の後方にいる / 理にもダメージを与えることがある。 / ",
+    "english": "An evolved W-Slash / from a bond. 2 front / row swing weapons to / create a sonic wave / that can also damage / enemies behind the / target. / "
+  }
+]

@@ -1,0 +1,803 @@
+[
+  {
+    "resource": 43,
+    "message": 6,
+    "japanese": "気分転更に / ゲームでもしていけよ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 7,
+    "japanese": "なんだ、 / もう帰るってのか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 8,
+    "japanese": "おっ  / ゲームをしていくか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 9,
+    "japanese": "トホホ！、 / アンタにやられちゃ / 商売あがったりだぜ。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 10,
+    "japanese": "自信がないなら / 練習でもしてみな  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 11,
+    "japanese": "ゲームは１回５００gだぜ。 /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 12,
+    "japanese": "ゲームで集めたメダルと / アイテムを交更するぜ。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 13,
+    "japanese": "ゲームで損したくなければ / しっかり練習しろよ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 14,
+    "japanese": "ゲームを錠めていいか？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 15,
+    "japanese": "おいおい、金が足りねえと / ゲームはできねえぜ。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 16,
+    "japanese": "残念だな、メダルは / なしだ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 17,
+    "japanese": "ほら、メダルをやるよ  /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 18,
+    "japanese": "どの景品がほしいんだ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 19,
+    "japanese": "その景品と / 交更したいのか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 20,
+    "japanese": "誰に持たせるんだい？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 21,
+    "japanese": "ほらよ  /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 22,
+    "japanese": "持ち士を整理してから / 来てくれよ。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 23,
+    "japanese": "は い / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 24,
+    "japanese": "いいえ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 25,
+    "japanese": "練習をはじめますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 43,
+    "message": 26,
+    "japanese": "ゲームをはじめますか？ / 「１プレイ ５００g」 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 1,
+    "japanese": "よく来てくださいました。 / 冒金事に御用を / お持ちですか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 2,
+    "japanese": "お待ちしておりましたよ。 / オートマターの調子は / どうですか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 3,
+    "japanese": "騎士から集ったく勲を / 冒金事で編隊し、 / 騎法団を造りましょう。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 4,
+    "japanese": "古古呪■の遺跡。 / ■遠に朽ちぬ、永使き自動 / 人形に御用がありますか？ / ",
+    "coverage": 93,
+    "unknown_glyphs": [
+      617,
+      917
+    ]
+  },
+  {
+    "resource": 44,
+    "message": 5,
+    "japanese": "もう行かれるのですか。 / また来てくださるのを / お待ちしていますよ。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 6,
+    "japanese": "決して迷切らない友であり / 忠実な戦士です。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 7,
+    "japanese": "騎法団を投入することで、 / オートマターをパワーアッ / プすることができます。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 8,
+    "japanese": "武器や解闘を加算してオー / トマター■息の■■体チッ / プを造ることができます。 / ",
+    "coverage": 91,
+    "unknown_glyphs": [
+      489,
+      417,
+      924
+    ]
+  },
+  {
+    "resource": 44,
+    "message": 9,
+    "japanese": "獲得命中果、ステータス変 / 除効果をアップさせます。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 10,
+    "japanese": "宝からの報酬獲得に対する / 解消力、獲得系騎法に対す / る効果をアップさせます。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 11,
+    "japanese": "宝を獲得する力や回数に影 / 響します。身に価けていれ / ば内方獲得も可能です。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 12,
+    "japanese": "宝からの報酬獲得に対して / の解消力や回避力に影響を / 与えます。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 13,
+    "japanese": "宝からの報酬獲得に対する / 回避力に影響を与えます。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 14,
+    "japanese": "造隊したい騎法を / 選んでください。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 15,
+    "japanese": "造隊するための / く勲の組み編わせを / 選んでください。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 16,
+    "japanese": "いくつ造りますか？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 17,
+    "japanese": "編隊をはじめても / よろしいですか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 18,
+    "japanese": "騎法団ができました。 /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 19,
+    "japanese": "今すぐ騎法団を / 使いますか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 20,
+    "japanese": "編隊を続けますか？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 21,
+    "japanese": "解除したいオートマターを / 選択してください。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 22,
+    "japanese": "投入する騎法団と数を / 選択してください。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 23,
+    "japanese": "変更する騎法団が０に / なっています。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 24,
+    "japanese": "騎法団の変更を行っても / よろしいですか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 25,
+    "japanese": "所持金が不足しています / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 26,
+    "japanese": "召喚できるメンバーが / 一杯のようです。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 27,
+    "japanese": "■■体チップを選択して / ください。 /   / ",
+    "coverage": 87,
+    "unknown_glyphs": [
+      417,
+      924
+    ]
+  },
+  {
+    "resource": 44,
+    "message": 28,
+    "japanese": "カーズパワーを設出する、 / アイテムを選択してくださ / い。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 29,
+    "japanese": "は い / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 30,
+    "japanese": "いいえ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 31,
+    "japanese": "所持品がいっぱいです / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 32,
+    "japanese": "オートマターを作入しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 33,
+    "japanese": "の造隊を行いますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 34,
+    "japanese": "が退隊しました。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 35,
+    "japanese": "騎法団の変更をはじめて / よろしいですか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 36,
+    "japanese": "編隊できるだけのく勲を / お持ちでないようですね。 /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 37,
+    "japanese": "編隊く勲が足りません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 38,
+    "japanese": "使われた装備品を所持していません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 39,
+    "japanese": "カーズパワーが足りません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 40,
+    "japanese": "チップを造りますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 41,
+    "japanese": "mhpに変更 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 42,
+    "japanese": "力に変更 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 43,
+    "japanese": "知恵に変更 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 44,
+    "japanese": "信仰心に変更 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 45,
+    "japanese": "生命力に変更 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 46,
+    "japanese": "敏捷度に変更 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 47,
+    "japanese": "幸運度に変更 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 48,
+    "japanese": "mhpが / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 49,
+    "japanese": "力が / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 50,
+    "japanese": "知恵が / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 51,
+    "japanese": "信仰心が / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 52,
+    "japanese": "生命力が / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 53,
+    "japanese": "敏捷度が / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 54,
+    "japanese": "幸運度が / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 55,
+    "japanese": "up / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 56,
+    "japanese": "pt / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 44,
+    "message": 57,
+    "japanese": "解除できません / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 1,
+    "japanese": "ヴィガーしょうてんに / ようこそ    /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 2,
+    "japanese": "ほれ  / バリバリはたらくだよ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 3,
+    "japanese": "うりたいものがあったら / とっととよこすだよ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 4,
+    "japanese": "おきゃくさんの / ちゅうもんを / かたづけるだか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 5,
+    "japanese": "そうこは / オダがバッチリ / そうこばんしてるだよ～ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 6,
+    "japanese": "オダのめは / こうみえても / ふしあなではない  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 7,
+    "japanese": "オダのうつくしいこころで / オメェの使いをといて / やるでよ～ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 8,
+    "japanese": "ヴィガー商店の / カンリもしてくでよ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 9,
+    "japanese": "アルバイトを雇うってのは / なんだか店っぽくて / ええだよなあ～  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 10,
+    "japanese": "なんだ、もうでてくのか？ / またこいよ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 11,
+    "japanese": "オーダーをうけるか？  / それはとっても / いいことだ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 12,
+    "japanese": "おめえがうけてる / オーダーはオダがちゃんと / メモってるだよ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 13,
+    "japanese": "ソウコはいつも / せいりせいとん  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 14,
+    "japanese": "オメぇ～ / ソウコがパンパンだど  / ちっと、かたづけるだよ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 15,
+    "japanese": "ソウコをかたづけるのか？ / うしゃ、エラい エラい  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 16,
+    "japanese": "ソウコになにか / しまっとくだか？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 17,
+    "japanese": "ぐひゃひゃ  / けいえいのアドバイス / してくれるだか？  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 18,
+    "japanese": "わがヴィガーしょうてんの / けいえいじょうたいを / おしえてやるだよ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 19,
+    "japanese": "われらがヴィガー商店を / ステキに地装するか？  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 20,
+    "japanese": "だれのもちものを / 売ってくれるだよ？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 21,
+    "japanese": "何を売ってくれるだよ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 22,
+    "japanese": "それは使われちまってて / 外せねえだよう。 / あきらめろ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 23,
+    "japanese": "装備してるけども / ええのかよう？ /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 24,
+    "japanese": "ほで、 / はよ売ってくれよう  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 25,
+    "japanese": "オメー、金持ちすぎだから / 持ちきれない分はオダへの / チップとしていただく  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 26,
+    "japanese": "おーおー、オメぇ、 / 呪呪の品士持ってるべ  / それよこすだよ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 27,
+    "japanese": "どのオーダーをうけるだよ？  /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 28,
+    "japanese": "どうするべか？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 29,
+    "japanese": "どんどんオーダーを / こなして、店の評判を / グーンとあげてくで  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 30,
+    "japanese": "しっかりやってくでよ  /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 31,
+    "japanese": "オメェがうけてる / オーダーはこんだけだ  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 32,
+    "japanese": "で、どうするんだべ？ /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 33,
+    "japanese": "店の評判おとすような / ことはカンベンして / くれだよな！ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 34,
+    "japanese": "アイテムがそろってねえど  /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 45,
+    "message": 35,
+    "japanese": "アイテムの数が足りません /   /   / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  }
+]

@@ -1,0 +1,64 @@
+import zipfile, struct
+
+def read_ee_ram(p):
+    with zipfile.ZipFile(p, 'r') as z:
+        with z.open('eeMemory.bin') as f:
+            return f.read()
+
+ram = read_ee_ram('C:/Programmieren/wizardrytranslation/Nameentrystate.p2s')
+
+# The table is at 0x4C9AB0. Let's look for where this address appears
+# as a MIPS lui/addiu pair or as a direct reference in the ELF code
+# In MIPS, loading 0x004C9AB0:
+#   lui reg, 0x004D  (upper 16 bits, with carry adjustment)
+#   addiu reg, reg, 0x9AB0  (0x9AB0 is signed = -0x6550, so lui would use 0x004D)
+# Actually 0x9AB0 is negative in signed: 0x9AB0 = -25936
+# So lui would be 0x004C + 1 = 0x004D, addiu would be 0x9AB0
+
+# Search for lui with 0x004D
+print('=== Searching for LUI with upper=0x004D in code region ===')
+# MIPS lui: 001111 rs(5) rt(5) imm(16)
+# opcode = 0x3C000000 | (rt << 16) | imm
+# lui $reg, 0x004D = 0x3C00004D | (reg << 16)
+count = 0
+for addr in range(0x100000, 0x400000, 4):
+    instr = struct.unpack_from('<I', ram, addr)[0]
+    opcode = (instr >> 26) & 0x3F
+    if opcode == 0x0F:  # LUI
+        imm = instr & 0xFFFF
+        if imm == 0x004D:
+            rt = (instr >> 16) & 0x1F
+            print(f'  0x{addr:08X}: lui ${rt}, 0x{imm:04X}')
+            # Check next few instructions for addiu with 0x9AB0
+            for off in range(1, 6):
+                ni = struct.unpack_from('<I', ram, addr + off*4)[0]
+                nop = (ni >> 26) & 0x3F
+                if nop == 0x09:  # addiu
+                    nimm = ni & 0xFFFF
+                    if nimm == 0x9AB0:
+                        print(f'    0x{addr+off*4:08X}: addiu with 0x9AB0 - TABLE REF!')
+                    elif nimm >= 0x9000 and nimm <= 0xA000:
+                        print(f'    0x{addr+off*4:08X}: addiu with 0x{nimm:04X}')
+            count += 1
+if count == 0:
+    print('  No matches')
+
+# Also try: the table might be referenced relative to $gp or some base
+# Let's look for other table addresses nearby
+# Maybe there are MULTIPLE tables stored contiguously
+# Let's check what's BEFORE 0x4C9AB0
+print('\n=== Data before katakana table (0x4C9900-0x4C9AB0) ===')
+for addr in range(0x4C9900, 0x4C9AB0, 12):
+    vals = [struct.unpack_from('<H', ram, addr+c*2)[0] for c in range(6)]
+    row = (addr - 0x4C9900) // 12
+    print(f'Addr 0x{addr:08X} row {row:3d}: {vals}')
+
+# Check a broader area before
+print('\n=== Data at 0x4C9600-0x4C9AB0 (checking for another table) ===')
+for addr in range(0x4C9600, 0x4C9AB0, 12):
+    vals = [struct.unpack_from('<H', ram, addr+c*2)[0] for c in range(6)]
+    # Check if any values look like valid glyph IDs (1-500 range)
+    valid = sum(1 for v in vals if 1 <= v <= 500)
+    if valid >= 3:
+        row = (addr - 0x4C9600) // 12
+        print(f'0x{addr:08X} row {row:3d}: {vals} ({valid} valid)')

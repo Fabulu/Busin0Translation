@@ -1,0 +1,636 @@
+{
+  "_metadata": {
+    "date": "2026-05-22",
+    "source": "Contextual inference from resource 0039_type15.bin party/equipment menu messages",
+    "method": "Japanese language analysis of partially-decoded menu text, cross-referenced with English guide (guide_full.txt) and known Busin 0 / Wizardry game mechanics",
+    "resource_file": "0039_type15.bin",
+    "resource_index": 39,
+    "total_messages": 94,
+    "total_unknown_glyph_ids": 120,
+    "resource_purpose": "Party management, equipment, and knight order (騎士団) menu system"
+  },
+  "inferred_mappings": {
+    "855": {
+      "char": "更",
+      "confidence": "HIGH",
+      "evidence": "Msgs 54,56,58-64: 変[855] consistently forms 変更 (change/modify). Msgs 56: 騎士団の変更を行いますか？ (Will you change the knight order?). 変更 is the standard menu term for 'change/modify'.",
+      "occurrences_in_r39": 10
+    },
+    "367": {
+      "char": "行",
+      "confidence": "HIGH",
+      "evidence": "Msgs 47,56: [367]いますか？ forms 行いますか？ (Will you carry out...?). Msg 47: [656]が[421]隊を[367]いますか？ = ○が○隊を行いますか？. Standard polite form 行う (to carry out/perform).",
+      "occurrences_in_r39": 2
+    },
+    "421": {
+      "char": "編",
+      "confidence": "HIGH",
+      "evidence": "Msgs 34,45,47,48,49,51: [421]隊 forms 編隊 (formation/squad). But more likely: these messages about party assembly suggest 編成 pattern, where [421] before 隊 = 編. Msg 34: 編隊しますか？ Msg 49: 編隊しました. Party formation menu term.",
+      "occurrences_in_r39": 7
+    },
+    "647": {
+      "char": "使",
+      "confidence": "HIGH",
+      "evidence": "Msg 1: [647]う = 使う (to use). Msg 19: ここでは[647]えません = ここでは使えません (cannot use here). Msg 50: 今すぐ[647][490]しますか = 今すぐ使用しますか？ (Will you use it right now?). Msg 85: 誰に使用しますか？ (On whom will you use it?). 281 is also mapped to 使 - likely different font size variant (menu vs dialogue text). The MSG system uses multiple font sheets.",
+      "note": "Duplicate of 281=使. Different glyph IDs for same character in different font size contexts is normal for this game's encoding.",
+      "occurrences_in_r39": 5
+    },
+    "332": {
+      "char": "装",
+      "confidence": "HIGH",
+      "evidence": "Msgs 2,26,28: [332][602] consistently appears in equipment context. [332][602] = 装備 (equipment). Msg 26: 装備できません (cannot equip). Msg 28: 装備をししますがよろしいですか？ = likely 装備を外しますがよろしいですか？ (Will you remove equipment?).",
+      "occurrences_in_r39": 3
+    },
+    "602": {
+      "char": "備",
+      "confidence": "HIGH",
+      "evidence": "Always paired with [332] as [332][602] = 装備 (equipment/equip). Standard RPG menu term.",
+      "occurrences_in_r39": 3
+    },
+    "775": {
+      "char": "回",
+      "confidence": "HIGH",
+      "evidence": "Msgs 7,15,16,29: [775][428] consistently appears. Msg 15: が[775][428]しています = が回復しています (is recovering/healed). Msg 16: [775][428]しました = 回復しました (recovered). Msg 29: [775][428]できる[287]がいません = 回復できる○がいません (no one who can recover). 回復 (recovery/healing) is standard RPG term.",
+      "occurrences_in_r39": 4
+    },
+    "428": {
+      "char": "復",
+      "confidence": "HIGH",
+      "evidence": "Always paired with [775] as [775][428] = 回復 (recovery). See evidence for 775.",
+      "occurrences_in_r39": 4
+    },
+    "605": {
+      "char": "持",
+      "confidence": "HIGH",
+      "evidence": "Msg 6: [605]てる = 持てる (can hold/carry). Msg 13: [543][544]に[605]てますか？ = ○○に持てますか？ (Can you carry it to...?). 持つ (to hold/carry) is standard inventory term.",
+      "occurrences_in_r39": 2
+    },
+    "619": {
+      "char": "攻",
+      "confidence": "MEDIUM",
+      "evidence": "Msgs 20,40,41: [619][620] appears as a 2-char compound. Msg 20: を[619][620]した = を攻撃した (attacked) or を獲得した (acquired). Given this is equipment/party menu, 獲得 (acquisition) fits better. However, 1121 is already mapped to 攻.",
+      "alternative": "獲",
+      "alt_confidence": "MEDIUM"
+    },
+    "620": {
+      "char": "撃",
+      "confidence": "MEDIUM",
+      "evidence": "Paired with [619]. If [619]=攻, then [620]=撃 (攻撃=attack). But in party/equipment context, [619][620]した could be 獲得した (acquired). If [619]=獲, then [620]=得.",
+      "alternative": "得",
+      "alt_confidence": "MEDIUM"
+    },
+    "621": {
+      "char": "解",
+      "confidence": "HIGH",
+      "evidence": "Msgs 21,42,43,52: [621][351] consistently appears. Msg 21: が[621][351]された = が解除された (was removed/cancelled). Msg 52: どのオー[212][223][208]ーを[621][351]しますか？ = which order to 解除 (cancel/remove)?. 解除 (cancel/release) is standard menu term.",
+      "occurrences_in_r39": 4
+    },
+    "351": {
+      "char": "除",
+      "confidence": "HIGH",
+      "evidence": "Always paired with [621] as [621][351] = 解除 (cancel/release/remove). See evidence for 621.",
+      "occurrences_in_r39": 4
+    },
+    "712": {
+      "char": "足",
+      "confidence": "HIGH",
+      "evidence": "Msgs 22,25,51: [712]りません = 足りません (not enough/insufficient). Standard phrase for resource shortage in menus.",
+      "occurrences_in_r39": 3
+    },
+    "728": {
+      "char": "入",
+      "confidence": "HIGH",
+      "evidence": "Msgs 5,30,46,79,82,83: [728]れ[800]える = 入れ替える (to swap/replace). Msg 46: アイテムを入れ替えました (swapped the item). Msg 30: 入れ替える品がありません (no items to swap). Msg 79: [728][276]アイテム = 入手アイテム (acquired item) if [276]=手. 入れ替える is the standard RPG menu term for equipment swapping.",
+      "occurrences_in_r39": 6
+    },
+    "800": {
+      "char": "替",
+      "confidence": "HIGH",
+      "evidence": "Msgs 5,30,46,82,83: always follows [728]れ as [728]れ[800]え = 着替え (change equipment). 替える = to replace/swap.",
+      "occurrences_in_r39": 5
+    },
+    "707": {
+      "char": "選",
+      "confidence": "HIGH",
+      "evidence": "Msgs 48,82,83,86,88: [707]んで = 選んで (choose/select). Msg 48: [854]み[421]わせを[707]んでください = 組み合わせを選んでください (please choose a combination). Msg 86: わたす[193][194][211][225]を[707]んでください = わたすアイテムを選んでください (please choose item to hand over). 選ぶ (to select) is standard menu term.",
+      "occurrences_in_r39": 5
+    },
+    "708": {
+      "char": "択",
+      "confidence": "MEDIUM",
+      "evidence": "Msgs 82,83: [707][708]して = 選択して (select). [707]=選 + [708]=択 = 選択 (selection). Standard compound.",
+      "occurrences_in_r39": 2
+    },
+    "709": {
+      "char": "必",
+      "confidence": "HIGH",
+      "evidence": "Msgs 25,88: [709][710]な = 必要な (necessary). Msg 25: [709][710]な[33][48]が[712]りません = 必要な○○が足りません (necessary XX is insufficient). 必要 (necessary) is standard.",
+      "occurrences_in_r39": 2
+    },
+    "710": {
+      "char": "要",
+      "confidence": "HIGH",
+      "evidence": "Always paired with [709] as [709][710] = 必要 (necessary). See evidence for 709.",
+      "occurrences_in_r39": 2
+    },
+    "287": {
+      "char": "者",
+      "confidence": "HIGH",
+      "evidence": "Msg 29: [775][428]できる[287]がいません = 回復できる者がいません (there is no one who can heal). 者 (person) is standard.",
+      "occurrences_in_r39": 1
+    },
+    "581": {
+      "char": "品",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 30: [728]れ[800]える[581]がありません = 着替える品がありません (there are no items to change into). 品 (goods/items). Could also be 物 (thing) but 412 is already 物.",
+      "occurrences_in_r39": 1
+    },
+    "543": {
+      "char": "仲",
+      "confidence": "HIGH",
+      "evidence": "Msg 13: [543][544]に[605]てますか？ = 仲間に持てますか？ (Can a companion carry it?). 仲間 (companion/ally) is standard RPG term.",
+      "occurrences_in_r39": 1
+    },
+    "544": {
+      "char": "間",
+      "confidence": "HIGH",
+      "evidence": "Paired with [543] as [543][544] = 仲間 (companion). See evidence for 543.",
+      "occurrences_in_r39": 1
+    },
+    "656": {
+      "char": "誰",
+      "confidence": "HIGH",
+      "evidence": "Msgs 47,85: [656]が[421]隊を[367]いますか？ = 誰が編隊を行いますか？ (Who will form the party?). Msg 85: [656]に[647][490]しますか？ = 誰に使/買○しますか？ (To whom will you use/give?). 誰 (who) is standard question word.",
+      "occurrences_in_r39": 2
+    },
+    "370": {
+      "char": "成",
+      "confidence": "HIGH",
+      "evidence": "Msg 45: [421]隊に[370][682]しました = 編隊に成功しました (party formation succeeded). [370][682] = 成功 (success). Standard term.",
+      "occurrences_in_r39": 1
+    },
+    "682": {
+      "char": "功",
+      "confidence": "HIGH",
+      "evidence": "Paired with [370] as [370][682] = 成功 (success). See evidence for 370.",
+      "occurrences_in_r39": 1
+    },
+    "854": {
+      "char": "組",
+      "confidence": "HIGH",
+      "evidence": "Msg 48: [854]み[421]わせを[707]んでください = 組み合わせを選んでください (please choose a combination). 組み合わせ (combination) is standard.",
+      "occurrences_in_r39": 1
+    },
+    "853": {
+      "char": "枠",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 51: [421]隊く[853]が[712]りません = 編隊枠が足りません (not enough party slots). 枠 (frame/slot) is common for slot limitations. The く before [853] is suspicious though - may need reparse.",
+      "alternative": "数",
+      "alt_confidence": "MEDIUM",
+      "note": "Could be 編隊の数が足りません (not enough party count) if parsed differently."
+    },
+    "693": {
+      "char": "今",
+      "confidence": "HIGH",
+      "evidence": "Msg 50: [693]すぐ[647][490]しますか？ = 今すぐ使/買○しますか？ (Will you do it right now?). 今すぐ (right now/immediately) is standard phrase.",
+      "occurrences_in_r39": 1
+    },
+    "490": {
+      "char": "用",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 50: 今すぐ[647][490]しますか？ If [647]=使, then [647][490] = 使用 (use). If [647]=買, then 買[490] doesn't form a word easily. This supports [647]=使 and [490]=用, forming 使用 (usage). Msg 85: [656]に[647][490]しますか？ = 誰に使用しますか？ (On whom will you use it?).",
+      "occurrences_in_r39": 2
+    },
+    "698": {
+      "char": "終",
+      "confidence": "HIGH",
+      "evidence": "Msg 80: [698][969] standalone = 終了 (end/complete) as menu button label. Msg 84: アイテム確認を[698][969]します = アイテム確認を終了します (end item confirmation). Msg 24: 部隊を[698]えます = 部隊を終えます (finish the squad). 終了 is standard menu term for completion/ending.",
+      "occurrences_in_r39": 3
+    },
+    "508": {
+      "char": "部",
+      "confidence": "HIGH",
+      "evidence": "Msg 24: [508]隊 = 部隊 (unit/squad). 部 is the standard prefix for 部隊. With 509=隊 already known.",
+      "occurrences_in_r39": 1
+    },
+    "443": {
+      "char": "名",
+      "confidence": "HIGH",
+      "evidence": "Msg 53: 騎士団と[443][728][597]を[737]めてください = 騎士団と名前を決めてください (please decide the knight order and name). [443]=名 with [728]=着? No - msg 53 context: [443][728][597] should be 名前 (name) which is 2 chars. But [443][728][597] is 3 glyphs. Reconsidering: if [443]=名, then [443] alone = 名. But 名前 = [443][597] with [728] in between doesn't work. Let me reconsider: maybe [443][728][597] is not 名前. Could be 称号 or 旗印 (banner/emblem).",
+      "alternative": null,
+      "note": "Needs more context. If [728]=着 as inferred elsewhere, then [443]着[597] doesn't form a clear word. May need reconsideration."
+    },
+    "597": {
+      "char": "前",
+      "confidence": "MEDIUM",
+      "evidence": "If msg 53 reads 騎士団と名前を決めてください, then [597]=前. But the sequence [443][728][597] has [728] in between. Reconsidering: Msg 53 could parse as 騎士団と○ ○○を○めてください where the subject is different. Msg 88: [709][710]な[597]を[707]んでいません = 必要な○を選んでいません (haven't selected the necessary XX). If [597]=数 (number), then 必要な数を選んでいません = haven't selected the necessary number.",
+      "alternative": "数",
+      "alt_confidence": "MEDIUM"
+    },
+    "737": {
+      "char": "決",
+      "confidence": "HIGH",
+      "evidence": "Msg 53: [737]めてください = 決めてください (please decide). 決める (to decide) is standard.",
+      "occurrences_in_r39": 1
+    },
+    "572": {
+      "char": "何",
+      "confidence": "HIGH",
+      "evidence": "Msg 33: [572]も[668]っていません = 何も持っていません (don't have anything). 何も (nothing/anything) is standard phrase.",
+      "occurrences_in_r39": 1
+    },
+    "668": {
+      "char": "持",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 33: [572]も[668]っていません = 何も持っていません (don't have anything). [668]っている = 持っている (to have/possess). But [605] is also inferred as 持. These could be the same character at different font sizes or a duplicate, or one of them is wrong.",
+      "note": "Both 605 and 668 may map to 持 in different contexts, or one may be 待 (to wait) - but 753=待 is already mapped. Possibly 668=持 is correct and 605 is a different character."
+    },
+    "839": {
+      "char": "下",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 4: [51][48]殿[839] could parse as ○○殿下 (Your Highness) - a form of address in royal/knightly context. 殿下 is a title used in Wizardry games.",
+      "occurrences_in_r39": 1
+    },
+    "849": {
+      "char": "体",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 18: 使いで[849][850]に[851]たされた = 使いで体力に満たされた (filled with physical strength through use). Alternatively [849][850] could be 元気 or another compound.",
+      "note": "Low confidence, context insufficient."
+    },
+    "850": {
+      "char": "力",
+      "confidence": "MEDIUM",
+      "evidence": "Paired with [849] in msg 18. If [849]=体, then [850]=力 forming 体力 (physical strength/HP). Common RPG term.",
+      "occurrences_in_r39": 1
+    },
+    "851": {
+      "char": "満",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 18: [851]たされた = 満たされた (was filled/satisfied). 満たす (to fill/satisfy) is standard.",
+      "occurrences_in_r39": 1
+    },
+    "666": {
+      "char": "異",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 77: [722][350][638][593]が[666]なる[316][776]は = ○○○○が異なる○○は (XX that differ in...). 異なる (to differ) is standard. In equipment context: items with different attributes.",
+      "occurrences_in_r39": 1
+    },
+    "507": {
+      "char": "増",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 89: [339][959]が[507]えた = ○○が増えた (XX increased). 増える (to increase) is standard.",
+      "occurrences_in_r39": 1
+    },
+    "339": {
+      "char": "経",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 89: [339][959]が[507]えた = 経験が増えた (experience increased). [339][959] = 経験 (experience) is standard RPG term.",
+      "occurrences_in_r39": 1
+    },
+    "959": {
+      "char": "験",
+      "confidence": "MEDIUM",
+      "evidence": "Paired with [339] as [339][959] = 経験 (experience). See evidence for 339.",
+      "occurrences_in_r39": 1
+    },
+    "911": {
+      "char": "確",
+      "confidence": "MEDIUM",
+      "evidence": "Msgs 81,84: [911][587] appears as a compound. Msg 81: [193][194][211][225]を[911][587]してください = アイテムを確認してください (please confirm the item). 確認 (confirmation) is standard menu term.",
+      "occurrences_in_r39": 2
+    },
+    "587": {
+      "char": "認",
+      "confidence": "MEDIUM",
+      "evidence": "Paired with [911] as [911][587] = 確認 (confirm/verify). See evidence for 911.",
+      "occurrences_in_r39": 2
+    },
+    "969": {
+      "char": "了",
+      "confidence": "HIGH",
+      "evidence": "Paired with [698] as [698][969] = 終了 (end/complete). Msg 80: standalone menu label. Msg 84: アイテム確認を終了します.",
+      "occurrences_in_r39": 2
+    },
+    "908": {
+      "char": "残",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 92: [836][989]の[908]り[597] = ○○の残り○ (remaining XX of...). 残り (remaining) is standard.",
+      "occurrences_in_r39": 1
+    },
+    "836": {
+      "char": "所",
+      "confidence": "MEDIUM",
+      "evidence": "Msgs 90,91,92: [836][989] appears consistently. Msg 90: が騎士で[836][989]を明ています. Msg 91: [836][989]の[597]. Msg 92: [836][989]の[908]り[597]. Context suggests 所持 (possession) - 所持品 (possessions/belongings). [836]=所, [989]=持?",
+      "note": "If [989]=持 then [836][989]=所持 (to possess). But already have 605 and 668 potentially as 持. In this case [989] might be a different character."
+    },
+    "989": {
+      "char": "持",
+      "confidence": "LOW",
+      "evidence": "If [836][989]=所持, then [989]=持. But multiple glyphs mapping to 持 is unusual. Could be a different compound.",
+      "alternative": "蔵",
+      "alt_confidence": "LOW"
+    },
+    "276": {
+      "char": "手",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 79: [728][276][193][194][211][225] = 入手アイテム (acquired item). [728]=入, [276]=手 forming 入手 (acquisition/obtaining). Standard RPG term for item acquisition.",
+      "occurrences_in_r39": 1
+    },
+    "278": {
+      "char": "性",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 75: [278]の使いでつけかえられません = 性の使いでつけかえられません. In equipment context, 性 (nature/gender/attribute) restriction. Could mean 'due to the attribute, cannot swap'. But 属性 (attribute) would be more natural as a 2-char compound.",
+      "note": "Low context. Possibly 性別 (gender) related restriction."
+    },
+    "316": {
+      "char": "職",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 76: [316][776]の使いでつけかえられません = 職業の使いでつけかえられません (cannot swap due to class/occupation). Msg 77: [666]なる[316][776]は = 異なる職業は (different classes). 職業 (occupation/class) is standard RPG term for character class.",
+      "occurrences_in_r39": 2
+    },
+    "776": {
+      "char": "業",
+      "confidence": "MEDIUM",
+      "evidence": "Paired with [316] as [316][776] = 職業 (class/occupation). See evidence for 316.",
+      "occurrences_in_r39": 2
+    },
+    "365": {
+      "char": "両",
+      "confidence": "LOW",
+      "evidence": "Msg 78: [365][288][600]にできません = ○○○にできません (cannot make into XX). Context unclear.",
+      "note": "Insufficient context for confident inference."
+    },
+    "288": {
+      "char": "手",
+      "confidence": "LOW",
+      "evidence": "Msg 78: [365][288][600]にできません. If [365]=両 and [288]=手, then 両手○ (two-handed XX). 両手持ち (two-handed grip) or 両手装備 (two-handed equip) could be referenced.",
+      "note": "Speculative."
+    },
+    "600": {
+      "char": "持",
+      "confidence": "LOW",
+      "evidence": "Msg 78: [365][288][600]にできません. If preceding is 両手, then [600]=持 forming 両手持ちにできません (cannot be two-handed).",
+      "note": "Very speculative, multiple glyphs for 持 would be unusual."
+    },
+    "436": {
+      "char": "抜",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 93: 使いが殿かれ[436]け[941]った = likely 使いが解かれ抜け落った or similar. [436]け = 抜け (slip out/remove). Context: 'the spell/enchantment was released and fell away'.",
+      "note": "Speculative."
+    },
+    "941": {
+      "char": "落",
+      "confidence": "LOW",
+      "evidence": "Msg 93: [436]け[941]った. If [436]=抜, then 抜け[941]った. 408=落 is already mapped. Could be a different character.",
+      "note": "408 is already 落. If [941] is also 落, that's unusual but possible for different font variants."
+    },
+    "704": {
+      "char": "値",
+      "confidence": "MEDIUM",
+      "evidence": "Msgs 40-43: appear in stat change context. [619][620][704][700] and [621][351][704][700] = acquisition/removal of stat values. [704] could be 値 (value) in stat context.",
+      "note": "Context insufficient."
+    },
+    "700": {
+      "char": "段",
+      "confidence": "LOW",
+      "evidence": "Appears with [704] in msgs 40-43. If these are item stat displays, could be part of value/level indicators.",
+      "note": "Very low context."
+    },
+    "767": {
+      "char": "内",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 8: この[767][768]でよろしいですか？ = この内容でよろしいですか？ (Is this content/choice OK?). 内容 (content/details) is standard confirmation phrase.",
+      "occurrences_in_r39": 1
+    },
+    "768": {
+      "char": "容",
+      "confidence": "MEDIUM",
+      "evidence": "Paired with [767] as [767][768] = 内容 (content). See evidence for 767.",
+      "occurrences_in_r39": 1
+    },
+    "535": {
+      "char": "忍",
+      "confidence": "MEDIUM",
+      "evidence": "Msgs 60,67: [535][717] appears as a 2-char class name. In Wizardry, 忍者 (Ninja) is a 2-char class. [535]=忍, [717]=者.",
+      "occurrences_in_r39": 2
+    },
+    "717": {
+      "char": "者",
+      "confidence": "MEDIUM",
+      "evidence": "Paired with [535] as [535][717] = 忍者 (Ninja). Note: 287 was also inferred as 者. Multiple IDs for same char could indicate different font/size variants or one inference is wrong.",
+      "note": "If 287=者 from msg 29, and 717=者 from class names, this is unusual. Alternatively [717] could be a different character."
+    },
+    "346": {
+      "char": "侍",
+      "confidence": "HIGH",
+      "evidence": "Msgs 59,62,66: [346] appears as a single-character class name. In Wizardry, 侍 (Samurai) is the only single-character class name. Msg 59: [0][346]に変更. Msg 66: [346]が.",
+      "occurrences_in_r39": 4
+    },
+    "308": {
+      "char": "僧",
+      "confidence": "MEDIUM",
+      "evidence": "Msgs 61,68: [308][354][320] is a 3-char class name. In Busin 0, 修道僧 (Monk) is the 3-char class. But [308]≠修. Alternatively 僧侶 is 2 chars. Let me reconsider: if classes with 3 chars include 魔法使 (without い), 錬金術, 暗黒騎, etc.",
+      "note": "Needs more investigation. The 3-char classes in Japanese Wizardry are uncertain."
+    },
+    "582": {
+      "char": "暗",
+      "confidence": "LOW",
+      "evidence": "Msgs 63,70: [582][719][590] is a 3-char class name. Could be 暗黒騎 (Dark Knight prefix) but 暗黒騎士 is 4 chars. Or this could be a different 3-char compound.",
+      "note": "Speculative."
+    },
+    "719": {
+      "char": "黒",
+      "confidence": "LOW",
+      "evidence": "If [582]=暗, paired as 暗黒 (darkness). See 582.",
+      "note": "Speculative."
+    },
+    "590": {
+      "char": "騎",
+      "confidence": "LOW",
+      "evidence": "If [582][719][590] = 暗黒騎 (dark knight), then [590]=騎. But 280=騎 is already mapped.",
+      "note": "280=騎 already exists. Could be 士 instead - 暗黒士 but that's not standard. Reconsidering the class identification."
+    },
+    "720": {
+      "char": "聖",
+      "confidence": "LOW",
+      "evidence": "Msgs 64,71: [720][721][590] is a 3-char class name. If these are advanced classes, [720][721][590] could be 聖騎士 (Paladin/Holy Knight) with [720]=聖, [721]=騎, [590]=士. But 280=騎 already.",
+      "note": "Speculative. The font may have duplicate kanji at different glyph IDs for different usage contexts."
+    },
+    "721": {
+      "char": "騎",
+      "confidence": "LOW",
+      "evidence": "See 720 analysis.",
+      "note": "Speculative."
+    },
+    "718": {
+      "char": "義",
+      "confidence": "LOW",
+      "evidence": "Msgs 62,69: [718][696][346] is a 3-char class name containing [346]=侍. Could be 義○侍. In Wizardry, 義賊 (Gizoku) is a class, but it would be [718][696] = 義賊 + [346]=侍 which doesn't form a standard class name.",
+      "note": "Needs reconsideration of class name assignments."
+    },
+    "696": {
+      "char": "賊",
+      "confidence": "LOW",
+      "evidence": "If [718]=義, paired as 義賊 (Gizoku). But the 3-char sequence [718][696][346] would need explanation.",
+      "note": "Speculative."
+    },
+    "722": {
+      "char": "属",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 77: [722][350][638][593]が[666]なる[316][776]は = 属性○○が異なる職業は (classes with different attributes...). [722][350] could be 属性 (attribute type).",
+      "note": "Common RPG term."
+    },
+    "350": {
+      "char": "性",
+      "confidence": "LOW",
+      "evidence": "If [722]=属, then [722][350]=属性 (attribute). But 278 was also tentatively 性.",
+      "note": "Multiple IDs for 性 is unusual but possible."
+    },
+    "638": {
+      "char": "制",
+      "confidence": "LOW",
+      "evidence": "Msg 77 context suggests equipment restrictions. [638][593] could be 制限 (restriction).",
+      "note": "Speculative."
+    },
+    "593": {
+      "char": "限",
+      "confidence": "LOW",
+      "evidence": "If [638]=制, then [638][593]=制限 (restriction).",
+      "note": "Speculative."
+    }
+  },
+  "katakana_system": {
+    "MAJOR_DISCOVERY": "MSG resource katakana follow standard gojuuon order starting at glyph ID 193",
+    "confidence": "HIGH",
+    "evidence": [
+      "197=オ confirmed in msg_glyph_map.json matches position 193+4",
+      "226=メ confirmed in msg_glyph_map.json matches position 193+33",
+      "238=ン confirmed in msg_glyph_map.json matches position 193+45",
+      "239=ガ confirmed in msg_glyph_map.json matches dakuten start at 239",
+      "249=ダ confirmed in msg_glyph_map.json matches 239+10",
+      "254=バ confirmed in msg_glyph_map.json matches 239+15",
+      "268=ィ confirmed in msg_glyph_map.json matches small katakana range",
+      "アイテム=[193][194][211][225]=ア,イ,テ,ム verified in 7+ messages",
+      "アレイドアクション=[193][234][194][253][193][200][204][266][238] verified in msg 24 (Alleid Action from guide)",
+      "スペシャルパワー=[205][262][204][264][233][259][236][93] verified in msg 27 (Special Power from guide)",
+      "オートマタ=オー[212][223][208]ー verified in msg 52 (Automata from guide)",
+      "モンスター=[227][238][205][208][93] verified in msg 89"
+    ],
+    "basic_katakana_193_238": {
+      "193": "ア", "194": "イ", "195": "ウ", "196": "エ", "197": "オ",
+      "198": "カ", "199": "キ", "200": "ク", "201": "ケ", "202": "コ",
+      "203": "サ", "204": "シ", "205": "ス", "206": "セ", "207": "ソ",
+      "208": "タ", "209": "チ", "210": "ツ", "211": "テ", "212": "ト",
+      "213": "ナ", "214": "ニ", "215": "ヌ", "216": "ネ", "217": "ノ",
+      "218": "ハ", "219": "ヒ", "220": "フ", "221": "ヘ", "222": "ホ",
+      "223": "マ", "224": "ミ", "225": "ム", "226": "メ", "227": "モ",
+      "228": "ヤ", "229": "ユ", "230": "ヨ", "231": "ラ", "232": "リ",
+      "233": "ル", "234": "レ", "235": "ロ", "236": "ワ", "237": "ヲ",
+      "238": "ン"
+    },
+    "dakuten_katakana_239_263": {
+      "239": "ガ", "240": "ギ", "241": "グ", "242": "ゲ", "243": "ゴ",
+      "244": "ザ", "245": "ジ", "246": "ズ", "247": "ゼ", "248": "ゾ",
+      "249": "ダ", "250": "ヂ", "251": "ヅ", "252": "デ", "253": "ド",
+      "254": "バ", "255": "ビ", "256": "ブ", "257": "ベ", "258": "ボ",
+      "259": "パ", "260": "ピ", "261": "プ", "262": "ペ", "263": "ポ"
+    },
+    "small_katakana_264_273": {
+      "264": "ャ", "265": "ュ", "266": "ョ",
+      "267": "ッ_tentative", "268": "ィ",
+      "269": "ァ_tentative", "270": "ゥ_tentative",
+      "271": "ェ_tentative", "272": "ォ_tentative",
+      "273": "ヴ"
+    },
+    "verified_words": {
+      "アイテム": {"ids": [193,194,211,225], "english": "Item", "msgs": "31,46,79,81,82,83,84,86"},
+      "アレイドアクション": {"ids": [193,234,194,253,193,200,204,266,238], "english": "Alleid Action", "msgs": "24"},
+      "スペシャルパワー": {"ids": [205,262,204,264,233,259,236,93], "english": "Special Power", "msgs": "27"},
+      "オートマタ": {"ids": [197,93,212,223,208,93], "english": "Automata", "msgs": "52"},
+      "モンスター": {"ids": [227,238,205,208,93], "english": "Monster", "msgs": "89"}
+    }
+  },
+  "control_codes_and_placeholders": {
+    "0": {
+      "type": "placeholder",
+      "meaning": "Character/entity name insertion point",
+      "confidence": "HIGH",
+      "evidence": "Appears at start of msgs 58-64 before class names in pattern [0][class]に変更. Likely inserts current character name."
+    },
+    "11": {
+      "type": "unknown_control",
+      "note": "Msg 37 standalone"
+    },
+    "13": {
+      "type": "unknown_control",
+      "note": "Msg 38 standalone"
+    },
+    "15": {
+      "type": "unknown_control",
+      "note": "Msg 39 standalone"
+    },
+    "108": {
+      "type": "katakana_or_label",
+      "possible_char": "カ",
+      "confidence": "LOW",
+      "note": "Msg 35 standalone. Could be a menu label."
+    },
+    "109": {
+      "type": "katakana_or_label",
+      "possible_char": "キ",
+      "confidence": "LOW",
+      "note": "Msg 36 standalone. Could be a menu label."
+    },
+    "92": {
+      "type": "punctuation_or_special",
+      "possible_char": "！",
+      "confidence": "MEDIUM",
+      "evidence": "Msg 89 ends with [92][92] which could be ！！ (double exclamation)."
+    }
+  },
+  "low_id_ascii_range": {
+    "note": "Glyph IDs 33-53 in this resource appear to form short labels, possibly for character stats or class identifiers.",
+    "45": {"possible": "E or label char", "context": "msgs 22,23,25,44,58,65"},
+    "48": {"possible": "H or label char", "context": "msgs 4,22,23,44,58,65,72,73"},
+    "33": {"possible": "9 or label char", "context": "msgs 23,25,44"},
+    "40": {"possible": "@ or label char", "context": "msgs 58,65"},
+    "50": {"possible": "J or label char", "context": "msg 44"},
+    "51": {"possible": "K or label char", "context": "msgs 4,44"},
+    "52": {"possible": "L or label char", "context": "msgs 44,73"},
+    "53": {"possible": "M or label char", "context": "msg 72"},
+    "37": {"possible": "= or label char", "context": "msg 44"}
+  },
+  "fully_decoded_messages": {
+    "3": "しす",
+    "9": "はい",
+    "10": "いいえ",
+    "11": "使いでしすことができません",
+    "12": "は使われていた",
+    "14": "は崩れた",
+    "17": "は",
+    "32": "つけかえることができません",
+    "55": "なっています。",
+    "57": "どちらとつけかえますか？",
+    "74": "とつけかえますか？",
+    "87": "これでよろしいですか？"
+  },
+  "high_confidence_summary": {
+    "total_high_confidence_kanji": 33,
+    "total_high_confidence_katakana": 46,
+    "kanji_mappings": {
+      "287": "者", "332": "装", "346": "侍", "351": "除", "367": "行",
+      "370": "成", "421": "編", "428": "復", "490": "用", "508": "部",
+      "543": "仲", "544": "間", "572": "何", "605": "持", "621": "解",
+      "647": "使", "656": "誰", "682": "功", "693": "今", "698": "終",
+      "707": "選", "709": "必", "710": "要", "712": "足", "728": "入",
+      "737": "決", "767": "内", "768": "容", "775": "回", "800": "替",
+      "854": "組", "855": "更", "969": "了"
+    },
+    "katakana_block_193_273": {
+      "note": "Complete katakana mapping discovered: basic (193-238), dakuten (239-263), small (264-268+), plus 273=ヴ",
+      "total_new_katakana": 46,
+      "already_known": ["197=オ", "226=メ", "238=ン", "239=ガ", "249=ダ", "254=バ", "268=ィ", "273=ヴ"],
+      "newly_inferred": 38
+    }
+  }
+}

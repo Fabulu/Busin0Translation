@@ -1,0 +1,680 @@
+[
+  {
+    "resource": 45,
+    "message": 152,
+    "japanese": "増置先リスト / ",
+    "english": "Branch List / "
+  },
+  {
+    "resource": 45,
+    "message": 153,
+    "japanese": "業種リスト / ",
+    "english": "Category List / "
+  },
+  {
+    "resource": 45,
+    "message": 154,
+    "japanese": "物転先リスト / ",
+    "english": "Delivery List / "
+  },
+  {
+    "resource": 45,
+    "message": 155,
+    "japanese": "ほれ、 / ギャラを受け取るだよ  /   / ",
+    "english": "Here, / take yer pay. /   / "
+  },
+  {
+    "resource": 45,
+    "message": 156,
+    "japanese": "おそかったから、 / バッキンしといたべ  /   / ",
+    "english": "Ya were late, / so I docked yer pay. /   / "
+  },
+  {
+    "resource": 45,
+    "message": 157,
+    "japanese": "ないようがイマイチだから、 / ちょっとギャラも / すくなくなったべ  / ",
+    "english": "The work was so-so, / so yer pay's a bit / less this time. / "
+  },
+  {
+    "resource": 45,
+    "message": 158,
+    "japanese": "ないようがよかったから、 / ボーナスつけといたべ  /   / ",
+    "english": "Good work, so / I added a bonus! /   / "
+  },
+  {
+    "resource": 45,
+    "message": 160,
+    "japanese": "受け取った  / ",
+    "english": "Received. / "
+  },
+  {
+    "resource": 45,
+    "message": 161,
+    "japanese": "どれを納品するだよ？ /   /   / ",
+    "english": "Which one ya / deliverin'? /   / "
+  },
+  {
+    "resource": 45,
+    "message": 162,
+    "japanese": "納品しますか？ / ",
+    "english": "Deliver this? / "
+  },
+  {
+    "resource": 45,
+    "message": 163,
+    "japanese": "買取業種を追加 / ",
+    "english": "Add Purchase Type / "
+  },
+  {
+    "resource": 45,
+    "message": 164,
+    "japanese": "配送業種を追加 / ",
+    "english": "Add Shipping Type / "
+  },
+  {
+    "resource": 45,
+    "message": 165,
+    "japanese": "イベント場を増置 / ",
+    "english": "Set Up Event Space / "
+  },
+  {
+    "resource": 45,
+    "message": 166,
+    "japanese": "休けい所を増置 / ",
+    "english": "Set Up Resting Room / "
+  },
+  {
+    "resource": 45,
+    "message": 167,
+    "japanese": "今は地装できません / ",
+    "english": "Cannot equip now. / "
+  },
+  {
+    "resource": 45,
+    "message": 168,
+    "japanese": "オメェ、そんなにまとめて / うけてばっかりいねえで / とっととあつめてこい  / ",
+    "english": "Hey, quit takin' / so many orders and / go collect 'em! / "
+  },
+  {
+    "resource": 45,
+    "message": 169,
+    "japanese": "これ以上受けられません / ",
+    "english": "Can't accept more. / "
+  },
+  {
+    "resource": 45,
+    "message": 170,
+    "japanese": "b１f / ",
+    "english": "B1F / "
+  },
+  {
+    "resource": 45,
+    "message": 171,
+    "japanese": "b２f / ",
+    "english": "B2F / "
+  },
+  {
+    "resource": 45,
+    "message": 172,
+    "japanese": "b３f / ",
+    "english": "B3F / "
+  },
+  {
+    "resource": 45,
+    "message": 173,
+    "japanese": "b４f / ",
+    "english": "B4F / "
+  },
+  {
+    "resource": 45,
+    "message": 174,
+    "japanese": "b５f / ",
+    "english": "B5F / "
+  },
+  {
+    "resource": 45,
+    "message": 175,
+    "japanese": "b６f / ",
+    "english": "B6F / "
+  },
+  {
+    "resource": 45,
+    "message": 176,
+    "japanese": "b７f / ",
+    "english": "B7F / "
+  },
+  {
+    "resource": 45,
+    "message": 177,
+    "japanese": "b８f / ",
+    "english": "B8F / "
+  },
+  {
+    "resource": 45,
+    "message": 178,
+    "japanese": "b９f / ",
+    "english": "B9F / "
+  },
+  {
+    "resource": 45,
+    "message": 179,
+    "japanese": "b１０f / ",
+    "english": "B10F / "
+  },
+  {
+    "resource": 45,
+    "message": 180,
+    "japanese": "探索隊呪 / ",
+    "english": "Party Spells / "
+  },
+  {
+    "resource": 45,
+    "message": 181,
+    "japanese": "探索スキル / ",
+    "english": "Party Skills / "
+  },
+  {
+    "resource": 45,
+    "message": 182,
+    "japanese": "生戻果 / ",
+    "english": "HP Restore / "
+  },
+  {
+    "resource": 45,
+    "message": 183,
+    "japanese": "トラスト / ",
+    "english": "Trust / "
+  },
+  {
+    "resource": 45,
+    "message": 185,
+    "japanese": "今は雇えません / ",
+    "english": "Can't hire now. / "
+  },
+  {
+    "resource": 45,
+    "message": 186,
+    "japanese": "あいつら、いま / 大ゲンカしてるから / しばらく雇えないだよ / ",
+    "english": "They're havin' a / big fight right now, / can't hire 'em yet. / "
+  },
+  {
+    "resource": 45,
+    "message": 187,
+    "japanese": "現員、探索中です / ",
+    "english": "Currently exploring. / "
+  },
+  {
+    "resource": 45,
+    "message": 188,
+    "japanese": "まだ、アルバイトにいってる / まっさいちゅうだど  /   / ",
+    "english": "They're still out / on a part-time job. /   / "
+  },
+  {
+    "resource": 45,
+    "message": 189,
+    "japanese": "作入数を決めてください / ",
+    "english": "Set the quantity. / "
+  },
+  {
+    "resource": 45,
+    "message": 190,
+    "japanese": "作入しますか？ / ",
+    "english": "Purchase this? / "
+  },
+  {
+    "resource": 45,
+    "message": 191,
+    "japanese": "配送しますか？ / ",
+    "english": "Ship this? / "
+  },
+  {
+    "resource": 45,
+    "message": 192,
+    "japanese": "装備を外して / 配送しますか？ / ",
+    "english": "Unequip and / ship this? / "
+  },
+  {
+    "resource": 45,
+    "message": 193,
+    "japanese": "倉庫がいっぱいです / ",
+    "english": "Storage is full. / "
+  },
+  {
+    "resource": 45,
+    "message": 194,
+    "japanese": "休んでいきますか？ / ",
+    "english": "Rest here? / "
+  },
+  {
+    "resource": 45,
+    "message": 195,
+    "japanese": "仲間に持てますか？ / ",
+    "english": "Give to ally? / "
+  },
+  {
+    "resource": 45,
+    "message": 196,
+    "japanese": "何も置いていません / ",
+    "english": "Nothing stored. / "
+  },
+  {
+    "resource": 46,
+    "message": 1,
+    "japanese": "この度、ドゥーハン器民のみなさまが / 気素に払見交更を行えるよう、 / [SPEAKER:王戦掲鉄板]を増置することになりました。 /   / 掲鉄板にメッセージを残したい方は / ■息の息■に記入の上、 / ボックスに投かんしてください。 / ",
+    "english": "A bulletin board / has been set up for / the citizens of / Duhan to exchange /   / opinions. To leave / a message, fill out / the form and drop / it in the box. / "
+  },
+  {
+    "resource": 46,
+    "message": 2,
+    "japanese": "■イクレタの騎法団長方ゴ] / っていう依頼を出してたミリィですけど、 / もうあれはいいです。 /   / 騎法団をくれる人が異で見つかって / その人にもらいました  / だから依頼はとりやめです。 / ありがとうございました  / ",
+    "english": "This is Miri, who / posted the request / for the Kreta / stone. Never mind. /   / Someone else gave / it to me already. / Request canceled. / Thanks! / "
+  },
+  {
+    "resource": 46,
+    "message": 3,
+    "japanese": "[SPEAKER:セルフショップ]ってあるだろ、迷宮に。 / なんか変な[SPEAKER:カギ]が売ってるんだけど / あやしい！どこのカギなんだろう？ /   / 誰か買った費いないのか？ / ",
+    "english": "You know the / Self-Seraph Shop / in the labyrinth? / They sell a strange /   / key there. What / does it unlock? / Has anyone bought / one yet? / "
+  },
+  {
+    "resource": 46,
+    "message": 4,
+    "japanese": "ヴィガー商店では、すみこみで / はたらける[SPEAKER:アルバイト]をさがしてます  /   / 冒険者にかぎらず色んな人に / 見てもらいたいので、依頼ではなく / 掲鉄板でお知らせしています  / ",
+    "english": "The Vigger Shop / is looking for / part-time workers! /   / This is posted on / the board, not as / a request, so / everyone can see. / "
+  },
+  {
+    "resource": 46,
+    "message": 5,
+    "japanese": "ヴィガーしょうてんでわ / オークがいっぱい、はただいてる / みたいですだが、アルバイドでも / やっぱりオークでもいいんですだべか？ / ",
+    "english": "The Vigger Shop / has lots of orcs / working there. Do / they accept orcs / as part-timers too? / "
+  },
+  {
+    "resource": 46,
+    "message": 6,
+    "japanese": "街と人壁になじめる心並しい / オークでしたらいいですよ  /   / うちでは３びきのオークがいますし / 同じ種族同士、たのしく仲良く / やっていけると思います  / ",
+    "english": "A friendly orc who / fits in with the / town is welcome! /   / We have 3 orcs / already. Same race, / they'll get along / just fine! / "
+  },
+  {
+    "resource": 46,
+    "message": 7,
+    "japanese": "この前、[SPEAKER:４階]の探索に出かけてさ、 / 死神にとりつかれるわ、道にも迷うわで / さんざんな受、ぐうぜん入った部屋に / [SPEAKER:ホビット]と[SPEAKER:インプ]がすみついてたんだ。 /   / 街にいられない理的でもあるのかな。 / あんなところにすみつくとは / 変わったヤツだと思ったんだけど、 / 気前よく[SPEAKER:解臆の■]をくれてイイ費だったよ。 / ",
+    "english": "I went exploring / on the 4th floor, / got haunted by the / Grim Reaper, got /   / lost... it was a / disaster. But I / stumbled into a / room where a Hobbit /   / and an Imp lived. / Odd folks, but they / gave me a cure. / Nice people! / "
+  },
+  {
+    "resource": 47,
+    "message": 1,
+    "japanese": "対応の決復 / ",
+    "english": "Choose Response / "
+  },
+  {
+    "resource": 47,
+    "message": 2,
+    "japanese": "友好的なモンスターだ！！ / ",
+    "english": "Friendly monsters! / "
+  },
+  {
+    "resource": 47,
+    "message": 3,
+    "japanese": "戦  う / ",
+    "english": "Fight / "
+  },
+  {
+    "resource": 47,
+    "message": 4,
+    "japanese": "立ち去る / ",
+    "english": "Leave / "
+  },
+  {
+    "resource": 47,
+    "message": 5,
+    "japanese": "モンスターの不払をついた   / ",
+    "english": "Surprised the monsters! / "
+  },
+  {
+    "resource": 47,
+    "message": 6,
+    "japanese": "モンスターは突然おそいかかってきた   / ",
+    "english": "Monsters attacked! / "
+  },
+  {
+    "resource": 47,
+    "message": 7,
+    "japanese": "モンスターに悔内をとられた   / ",
+    "english": "Ambushed by monsters! / "
+  },
+  {
+    "resource": 47,
+    "message": 8,
+    "japanese": "は恐怖にかられて逃げ出そうとする  / ",
+    "english": " tries to flee / in terror! / "
+  },
+  {
+    "resource": 47,
+    "message": 9,
+    "japanese": "が逃げ出してしまった！！ / ",
+    "english": " has fled! / "
+  },
+  {
+    "resource": 47,
+    "message": 10,
+    "japanese": "は逃げ出すのに成功した  / ",
+    "english": " escaped! / "
+  },
+  {
+    "resource": 47,
+    "message": 11,
+    "japanese": "戦箱を開錠しますか？ / ",
+    "english": "Open the chest? / "
+  },
+  {
+    "resource": 47,
+    "message": 12,
+    "japanese": "戦箱開錠 / ",
+    "english": "Open Chest / "
+  },
+  {
+    "resource": 47,
+    "message": 13,
+    "japanese": "やりなおす / ",
+    "english": "Retry / "
+  },
+  {
+    "resource": 47,
+    "message": 14,
+    "japanese": "戦箱開錠の結果 / ",
+    "english": "Chest Results / "
+  },
+  {
+    "resource": 47,
+    "message": 15,
+    "japanese": "新たなaaを部み出しました   / ",
+    "english": "Created a new aa! / "
+  },
+  {
+    "resource": 47,
+    "message": 16,
+    "japanese": "戦箱を開錠します / ",
+    "english": "Opening the chest. / "
+  },
+  {
+    "resource": 47,
+    "message": 17,
+    "japanese": " 獲 得  / ",
+    "english": " Obtain / "
+  },
+  {
+    "resource": 47,
+    "message": 18,
+    "japanese": " ディスペル  / ",
+    "english": " Dispel / "
+  },
+  {
+    "resource": 47,
+    "message": 19,
+    "japanese": " 盗 む  / ",
+    "english": " Steal / "
+  },
+  {
+    "resource": 47,
+    "message": 21,
+    "japanese": "何も持っていなかった  / ",
+    "english": "Had nothing. / "
+  },
+  {
+    "resource": 47,
+    "message": 22,
+    "japanese": "アイテムがいっぱいで盗めなかった  / ",
+    "english": "Inventory full! / Cannot steal. / "
+  },
+  {
+    "resource": 47,
+    "message": 23,
+    "japanese": "を盗んだ  / ",
+    "english": " was stolen! / "
+  },
+  {
+    "resource": 47,
+    "message": 24,
+    "japanese": "は恐怖にかられて逃げだそうとする  / ",
+    "english": " tries to flee / in terror! / "
+  },
+  {
+    "resource": 47,
+    "message": 25,
+    "japanese": "しかしこけてしまった   / ",
+    "english": "But tripped! / "
+  },
+  {
+    "resource": 47,
+    "message": 26,
+    "japanese": "仲壁たちも内を追いかけた！！ / ",
+    "english": "Allies gave chase! / "
+  },
+  {
+    "resource": 47,
+    "message": 27,
+    "japanese": "g・ / ",
+    "english": "G. / "
+  },
+  {
+    "resource": 47,
+    "message": 28,
+    "japanese": "大きすぎて回りこめない  / ",
+    "english": "Too large to flank! / "
+  },
+  {
+    "resource": 47,
+    "message": 29,
+    "japanese": "大きすぎてとばせない   / ",
+    "english": "Too large to skip! / "
+  },
+  {
+    "resource": 47,
+    "message": 30,
+    "japanese": "hp／早大hp / ",
+    "english": "HP / Max HP / "
+  },
+  {
+    "resource": 48,
+    "message": 0,
+    "japanese": "なし / ",
+    "english": "None / "
+  },
+  {
+    "resource": 48,
+    "message": 1,
+    "japanese": "不法投棄場 / ",
+    "english": "Illegal Dump / "
+  },
+  {
+    "resource": 48,
+    "message": 2,
+    "japanese": "はい棄士しょ理場 / ",
+    "english": "Disposal Site / "
+  },
+  {
+    "resource": 48,
+    "message": 3,
+    "japanese": "ゴミ焼却場 / ",
+    "english": "Waste Incinerator / "
+  },
+  {
+    "resource": 48,
+    "message": 4,
+    "japanese": "ゴミ持て場 / ",
+    "english": "Garbage Dump / "
+  },
+  {
+    "resource": 48,
+    "message": 5,
+    "japanese": "空きちの巨大ゴミ / ",
+    "english": "Oversized Garbage / "
+  },
+  {
+    "resource": 48,
+    "message": 6,
+    "japanese": "ばったもん屋 / ",
+    "english": "Knockoff Shop / "
+  },
+  {
+    "resource": 48,
+    "message": 7,
+    "japanese": "ちょう使名店 / ",
+    "english": "Premium Shop / "
+  },
+  {
+    "resource": 48,
+    "message": 8,
+    "japanese": "おんぼろ小屋 / ",
+    "english": "Dilapidated Shed / "
+  },
+  {
+    "resource": 48,
+    "message": 9,
+    "japanese": "小屋 / ",
+    "english": "Shed / "
+  },
+  {
+    "resource": 48,
+    "message": 10,
+    "japanese": "民家 / ",
+    "english": "Private Home / "
+  },
+  {
+    "resource": 48,
+    "message": 11,
+    "japanese": "屋登 / ",
+    "english": "Residence / "
+  },
+  {
+    "resource": 48,
+    "message": 12,
+    "japanese": "ろ店 / ",
+    "english": "Nameless Store / "
+  },
+  {
+    "resource": 48,
+    "message": 13,
+    "japanese": "リサイクルショップ / ",
+    "english": "Recycling Shop / "
+  },
+  {
+    "resource": 48,
+    "message": 14,
+    "japanese": "近所の不法投棄場 / ",
+    "english": "Nearby Dump / "
+  },
+  {
+    "resource": 48,
+    "message": 15,
+    "japanese": "近所のしょ理場 / ",
+    "english": "Nearby Disposal / "
+  },
+  {
+    "resource": 48,
+    "message": 16,
+    "japanese": "近所のゴミ焼却場 / ",
+    "english": "Nearby Incinerator / "
+  },
+  {
+    "resource": 48,
+    "message": 17,
+    "japanese": "近所のゴミ持て場 / ",
+    "english": "Nearby Garbage / "
+  },
+  {
+    "resource": 48,
+    "message": 18,
+    "japanese": "巨大ゴミ置き場 / ",
+    "english": "Giant Junk Heap / "
+  },
+  {
+    "resource": 48,
+    "message": 19,
+    "japanese": "ぼったくり商店 / ",
+    "english": "Clip Joint / "
+  },
+  {
+    "resource": 48,
+    "message": 20,
+    "japanese": "ほったて小屋 / ",
+    "english": "Shanty / "
+  },
+  {
+    "resource": 48,
+    "message": 21,
+    "japanese": "住たく / ",
+    "english": "Settlement / "
+  },
+  {
+    "resource": 48,
+    "message": 22,
+    "japanese": "質屋 / ",
+    "english": "Pawn Shop / "
+  },
+  {
+    "resource": 48,
+    "message": 23,
+    "japanese": "商店 / ",
+    "english": "Shop / "
+  },
+  {
+    "resource": 48,
+    "message": 24,
+    "japanese": "低級商店 / ",
+    "english": "Cheap Store / "
+  },
+  {
+    "resource": 48,
+    "message": 25,
+    "japanese": "近所のリサイクル店 / ",
+    "english": "Nearby Recycler / "
+  },
+  {
+    "resource": 48,
+    "message": 26,
+    "japanese": "町の不法投棄場 / ",
+    "english": "Town Dump / "
+  },
+  {
+    "resource": 48,
+    "message": 27,
+    "japanese": "町のしょ理場 / ",
+    "english": "Town Disposal / "
+  },
+  {
+    "resource": 48,
+    "message": 28,
+    "japanese": "町のゴミ焼却場 / ",
+    "english": "Town Incinerator / "
+  },
+  {
+    "resource": 48,
+    "message": 29,
+    "japanese": "町のゴミ持て場 / ",
+    "english": "Town Garbage / "
+  },
+  {
+    "resource": 48,
+    "message": 30,
+    "japanese": "い法けん築 / ",
+    "english": "Illegal Building / "
+  },
+  {
+    "resource": 48,
+    "message": 31,
+    "japanese": "悪とく商店 / ",
+    "english": "Crooked Shop / "
+  },
+  {
+    "resource": 48,
+    "message": 32,
+    "japanese": "ありふれた店 / ",
+    "english": "Commonplace Store / "
+  },
+  {
+    "resource": 48,
+    "message": 33,
+    "japanese": "はいきょ / ",
+    "english": "Ruins / "
+  }
+]

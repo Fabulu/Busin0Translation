@@ -1,0 +1,7482 @@
+[
+  {
+    "resource": 1353,
+    "offset": 36800,
+    "msg_index": 0,
+    "japanese": "階の主を倒声したメダルは[044C]神に[052A]け[0410]った。",
+    "coverage": 86,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 36846,
+    "msg_index": 1,
+    "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
+    "coverage": 94,
+    "glyph_count": 193
+  },
+  {
+    "resource": 1353,
+    "offset": 37234,
+    "msg_index": 2,
+    "japanese": "レバーは[0427]期されて功かない。",
+    "coverage": 93,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 37264,
+    "msg_index": 3,
+    "japanese": "レバーを[05D7]以しますか？は いいいえ",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 37332,
+    "msg_index": 5,
+    "japanese": "レバーはonになっている。レバーを[05D7]以しますか？は いいいえ",
+    "coverage": 97,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 37408,
+    "msg_index": 6,
+    "japanese": "レバーをoffにした。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 37432,
+    "msg_index": 7,
+    "japanese": "レバーはoffになっている。レバーを[05D7]以しますか？は いいいえ",
+    "coverage": 97,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 37510,
+    "msg_index": 8,
+    "japanese": "レバーをonにした。",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 37532,
+    "msg_index": 9,
+    "japanese": "レバーはonになっている。レバーを[05D7]以しますか？は いいいえ",
+    "coverage": 97,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 37608,
+    "msg_index": 10,
+    "japanese": "レバーをoffにした。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 37632,
+    "msg_index": 11,
+    "japanese": "レバーはoffになっている。レバーを[05D7]以しますか？は いいいえ",
+    "coverage": 97,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 37710,
+    "msg_index": 12,
+    "japanese": "レバーをonにした。",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 37732,
+    "msg_index": 13,
+    "japanese": "レバーは[0427]期されて功かない。",
+    "coverage": 93,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 37762,
+    "msg_index": 14,
+    "japanese": "レバーを[05D7]以しますか？は いいいえ",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 37830,
+    "msg_index": 16,
+    "japanese": "ヴィガー商店の立店を迷宮b１０に開[032B][01DD]築になりました。",
+    "coverage": 93,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 37896,
+    "msg_index": 17,
+    "japanese": "ヨッペン[0269]を開けたすぐその両で、加を何げ出して瓶っているヨッペンを見つけた。",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 37978,
+    "msg_index": 18,
+    "japanese": "イああ！[04CD]れたなあ！ゴ",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 38002,
+    "msg_index": 19,
+    "japanese": "ヨッペンは辺[0390][016A]でそう冒いた。",
+    "coverage": 87,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 38036,
+    "msg_index": 20,
+    "japanese": "それから、[01CD]野でこちらを見て質しかけてきた。",
+    "coverage": 95,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 38084,
+    "msg_index": 21,
+    "japanese": "[04CF]がアウローラ[067E]だと思ってた[0141][03CF]が消えちゃったんだ。",
+    "coverage": 85,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 38140,
+    "msg_index": 22,
+    "japanese": "[03C3]たいようで捷かい[0141][03CF]というかにおいを、この迷宮の中でずっと感じてたんだ。",
+    "coverage": 92,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 38220,
+    "msg_index": 23,
+    "japanese": "[067E]には一度も会ったことないけどなんとなく[067E]のような[0141]がして、そう思ってたんだよ。",
+    "coverage": 92,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 38306,
+    "msg_index": 24,
+    "japanese": "だけど、話に消えちゃった。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 38334,
+    "msg_index": 25,
+    "japanese": "仰力に思ってただけだけど、そう思い込んでたもんだからなくなるとなんか[028F]しくって！。",
+    "coverage": 98,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1353,
+    "offset": 38422,
+    "msg_index": 26,
+    "japanese": "[04CF]、アウローラ[067E]に会えないような[0141]がしてきたんだ。",
+    "coverage": 88,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 38476,
+    "msg_index": 27,
+    "japanese": "ヨッペンはつまらなさそうにして値色のオークの蓄の野に気を入れて後り回す。",
+    "coverage": 100,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 38554,
+    "msg_index": 28,
+    "japanese": "ねえ、汝は感じてなかったの？[067E]のような[0141][03CF]。",
+    "coverage": 86,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 38602,
+    "msg_index": 29,
+    "japanese": "[067E]はどうしたんだと思う？",
+    "coverage": 92,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 38628,
+    "msg_index": 30,
+    "japanese": "なんと[02EC]えますか？どこかにいると言う変したと言う   ",
+    "coverage": 96,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 38694,
+    "msg_index": 31,
+    "japanese": "・・・・・・・・・・・・・・・。",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 38728,
+    "msg_index": 32,
+    "japanese": "汝ってお者よしだね。",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 38750,
+    "msg_index": 33,
+    "japanese": "いいんだ、前[0544]はないけど[04CF]にはわかるんだ。",
+    "coverage": 90,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 38806,
+    "msg_index": 35,
+    "japanese": "ヨッペンは一[04C4]だけ野を兜きく見開いたが、すぐに元の[0390][016A]に戻った。",
+    "coverage": 91,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 38876,
+    "msg_index": 36,
+    "japanese": "！信じられない！こともないか。だって汝、こんなとこまで御ってこれるんだもんなあ。",
+    "coverage": 100,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 38962,
+    "msg_index": 37,
+    "japanese": "[04CF]はなんだかわからないけど魔物に[042E]われないから[038B][0141]だけど、[0501]通は辺[0190]だよね。",
+    "coverage": 84,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 39044,
+    "msg_index": 38,
+    "japanese": "そっか、汝ってよく必えたら騎騎者だもんね！。",
+    "coverage": 100,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 39092,
+    "msg_index": 39,
+    "japanese": "ここまで御ってきたのだって[067E]を変すためなんだよね。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 39146,
+    "msg_index": 40,
+    "japanese": "一今ないのかな！[067E]も王[01BC]や王女に向い事しちゃったわけだし！。",
+    "coverage": 93,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 39212,
+    "msg_index": 41,
+    "japanese": "ヨッペンは、いっそう兜きな[0335]め息をついた。",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 39258,
+    "msg_index": 42,
+    "japanese": "あ～あ、[067E]に会うためにここまで帰たっていうのに[05D9]所[04B9]けしちゃうなあ！。",
+    "coverage": 91,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 39334,
+    "msg_index": 43,
+    "japanese": "[04CF]ってこれから何をしたらいいんだろう。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 39376,
+    "msg_index": 44,
+    "japanese": "[067E]のことしか必えてなかったから、用恵思いつかないや。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 39432,
+    "msg_index": 45,
+    "japanese": "汝も[067E]を素してたんじゃないの？これからどうするの？",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 39486,
+    "msg_index": 46,
+    "japanese": "ヨッペンは少し嫌を[0175]き、[0150]び口を開いた。",
+    "coverage": 90,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 39530,
+    "msg_index": 47,
+    "japanese": "！あのさ、数だったらいいんだけどもしよかったら[04CF]もパーティに入れてくれないかなー？",
+    "coverage": 98,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1353,
+    "offset": 39618,
+    "msg_index": 48,
+    "japanese": "[04CF]、この迷宮に入ってから魔物と戦ったことないんだ。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 39672,
+    "msg_index": 49,
+    "japanese": "汝といたら、魔物にいっぱい会えそうだし、[067E]はいないけど[04CF]、魔物がとっても[0380]きなんだ。",
+    "coverage": 93,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 39782,
+    "msg_index": 51,
+    "japanese": "ヨッペンを退嫌にしますか？は いいいえ",
+    "coverage": 100,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 39832,
+    "msg_index": 52,
+    "japanese": "えっ！いいのっ？ [02F2]しいな、[04CF]、[045A][0402]って[067E]のこと[01C7]れるから ",
+    "coverage": 80,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 39898,
+    "msg_index": 53,
+    "japanese": "[04CF]、今から早[044E]盗に戻って騎騎者ギルドで力[01B5]きするよ。",
+    "coverage": 88,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 39954,
+    "msg_index": 54,
+    "japanese": "[0141]が向いたらでいいから[04CF]も一同に支れてってね。",
+    "coverage": 91,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 40004,
+    "msg_index": 55,
+    "japanese": "騎騎者[0170]街にヨッペンが庫落されました ",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 40054,
+    "msg_index": 56,
+    "japanese": "そっかぁー！。そうだよね、[04CF]なんていたって名[03CD]が辺[0502]なだけだもんね。",
+    "coverage": 91,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 40128,
+    "msg_index": 57,
+    "japanese": "一今ないや、[04CF]あきらめるよ。もう迷宮に御るのはやめて、盗で魔物の[0494][0495]でもするよ。",
+    "coverage": 92,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 40214,
+    "msg_index": 58,
+    "japanese": "じゃあ、元[0141]でね！。",
+    "coverage": 90,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 40236,
+    "msg_index": 59,
+    "japanese": "ヨッペンは[028F]しそうに冒を落として王いて行った！。",
+    "coverage": 96,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 40288,
+    "msg_index": 60,
+    "japanese": "稼[01BA]の[069E][065F]がカタカタと系を待てて回り[01B5]ける目配まる思い出や武しかった地神かなうことのなかった[046E]やつらかったことでさえすべてははかなき時の中でつむぎ出されたものアウローラあなたは、何を力にしてここに帰たのかしら？",
+    "coverage": 95,
+    "glyph_count": 105
+  },
+  {
+    "resource": 1353,
+    "offset": 40502,
+    "msg_index": 61,
+    "japanese": "余は長いまどろみの中で、いろいろなものを見てきた。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 40556,
+    "msg_index": 62,
+    "japanese": "ある者はその主をもって用[032A][03F2]を[06A5]べる王となり、",
+    "coverage": 87,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 40606,
+    "msg_index": 63,
+    "japanese": "ある者は[01C9]乙の[0190]をもって、[057B][05B4]すら[0412]えるほどであった。",
+    "coverage": 81,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 40664,
+    "msg_index": 64,
+    "japanese": "しかし、いまは何も退っていない。[04FD][069C]の時が、何もかも消し防っていったのだ。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 40744,
+    "msg_index": 65,
+    "japanese": "お両は余に何を見せてくれるの？",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 40776,
+    "msg_index": 66,
+    "japanese": "[0180][04A2]美両、バンクォーの要稀でオルトルードを容けたお[0368]に、彼はあなたを[03D6]ってきた。",
+    "coverage": 90,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 40862,
+    "msg_index": 67,
+    "japanese": "あなたは[04A1]った[05F5]くものどもを[06A1]り防り、いま余に[03D4]もうとしている。",
+    "coverage": 88,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 40932,
+    "msg_index": 68,
+    "japanese": "オルトルードが[03D6]りし達者が、脱唱の協難を銀り性え、ついにここまで[03D5]り果いたわ。",
+    "coverage": 95,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 41016,
+    "msg_index": 69,
+    "japanese": "アウローラはさも武しげに多い声を外げた。",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 41060,
+    "msg_index": 70,
+    "japanese": "[0141]にしないで、あなたのことを多ったんじゃない。武しいから多っただけ。",
+    "coverage": 97,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 41134,
+    "msg_index": 71,
+    "japanese": "過でも武しい時は多うものでしょ？だから余もそうしたの。",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 41192,
+    "msg_index": 72,
+    "japanese": "だって、これほど[06A7][04D9]なことは[047A]しくなかったもの。",
+    "coverage": 88,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 41244,
+    "msg_index": 73,
+    "japanese": "兜いなる階の[0269]が開くその時を、余はこの迷宮で待っていた。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 41304,
+    "msg_index": 74,
+    "japanese": "そしてついに魔は命ちて、いままさに階の[0269]が開こうとしている。",
+    "coverage": 97,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 41368,
+    "msg_index": 75,
+    "japanese": "下呪の王が[04A1]り、階のものどもが生きとし生けるものを回らい[04AE]くすため[04A1]ってくる。",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 41452,
+    "msg_index": 76,
+    "japanese": "あまりにも長かった！！。[04FD][069C]なる時を員て、余はかの者どもにやっと[0150]会できる。",
+    "coverage": 92,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 41534,
+    "msg_index": 77,
+    "japanese": "戦いの期[0170]は地ったわ。脱唱の[028E]せる[055A]が、この戦いの前者。",
+    "coverage": 89,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 41594,
+    "msg_index": 78,
+    "japanese": "ありったけの達[0141]をかき得めなさい。",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 41630,
+    "msg_index": 79,
+    "japanese": "余かそれともあなた、稼[01BA]はどちらを選ぶのかしら？",
+    "coverage": 96,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 41682,
+    "msg_index": 80,
+    "japanese": "さあ戦いましょう。携して全けない[05F4]を編わらせるため。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 41738,
+    "msg_index": 81,
+    "japanese": "奉[05B7]の[05F4]と[05B5]が過ぎ防り、ようやく、余は[028E]ぬことができる。",
+    "coverage": 86,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 41798,
+    "msg_index": 82,
+    "japanese": "余はたった一つの[046E]を見[01B5]けてきた。",
+    "coverage": 88,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 41834,
+    "msg_index": 83,
+    "japanese": "それは買謝で[0518]え[04AE]くされ、協しみもだえ[028E]ぬ、[05F5]くものの良。",
+    "coverage": 86,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 41896,
+    "msg_index": 84,
+    "japanese": "なんと長き[046E]だったのかしら！。ついにその地が板れる。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 41952,
+    "msg_index": 85,
+    "japanese": "騎騎者よ、聞くがいい。[05F5]くものの[06CD]、アシラが[04A1]ってくる。",
+    "coverage": 89,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 42012,
+    "msg_index": 86,
+    "japanese": "迷宮の[04CE]態を倒いたのも、[05F5]くものを高び出したのも、すべてはそのため。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 42084,
+    "msg_index": 87,
+    "japanese": "[05F5]くものは、いかなる魔法、鎧を持ってしても[0408]ぼすことは大[01DD]築。",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 42152,
+    "msg_index": 88,
+    "japanese": "物言[03F0]した転らを忘したとしても、者[02A1]を忘さぬ[014B]り、転らは何度でも[04A1]ってくる。",
+    "coverage": 89,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 42234,
+    "msg_index": 89,
+    "japanese": "スケディムと戦ったお両なら、それがわかるはず。",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 42284,
+    "msg_index": 90,
+    "japanese": "転らを[0408]ぼすには、階の人終に失兜な魔主を[032D]ち込み、者[02A1]を消し防るしかない。",
+    "coverage": 92,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 42364,
+    "msg_index": 91,
+    "japanese": "アウローラはゆらめく扱い[0419]が入った。剣を力渡した。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 42420,
+    "msg_index": 92,
+    "japanese": "階の[0419]を受け取った。",
+    "coverage": 90,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 42452,
+    "msg_index": 93,
+    "japanese": "置形ディアラントを消[0408]させた剣よ。",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 42488,
+    "msg_index": 94,
+    "japanese": "階の人終にそれを度いなさい。",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 42518,
+    "msg_index": 95,
+    "japanese": "アウローラの腕[02A1]は依[0141]に[0530]け込むように、罰第におぼろげになってきた。",
+    "coverage": 91,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 42592,
+    "msg_index": 96,
+    "japanese": "階が[05E1]ってきたわ！！。",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 42616,
+    "msg_index": 97,
+    "japanese": "これが[028E]というものなのね！！。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 42648,
+    "msg_index": 98,
+    "japanese": "もう何も見えない！！。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 42672,
+    "msg_index": 99,
+    "japanese": "フリーダー！お両は！[028E]ねなかったのじゃない！。",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 42722,
+    "msg_index": 100,
+    "japanese": "余と同じ！[03EB]てしなき階の中で！",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 42774,
+    "msg_index": 102,
+    "japanese": "ずっと時を待ち[01B5]けていたのよ！",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 42806,
+    "msg_index": 103,
+    "japanese": "アウローラが消え防ったあと、乙蓄に何かが子がった。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 42860,
+    "msg_index": 104,
+    "japanese": "オロバスのオブジェを投った。",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 42900,
+    "msg_index": 105,
+    "japanese": "ヴィガーフレンズのポイントが３加[0637]されました。",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 42958,
+    "msg_index": 106,
+    "japanese": "パーティのhp・mpが用[04D9]した ",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 42992,
+    "msg_index": 107,
+    "japanese": "ヴィガーフレンズのポイントが３加[0637]されました。",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 43050,
+    "msg_index": 108,
+    "japanese": "しばらくぼんやりしているとだんだんとウトウトしてきた。",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 43108,
+    "msg_index": 109,
+    "japanese": "[01C5]れる客識と召[03F2]の中に魔物の[0578][0453]が見える。",
+    "coverage": 81,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 43154,
+    "msg_index": 110,
+    "japanese": "[046E]か抜者か[0489][0474]する嫌もなく魔物の[0578][0453]が[042E]い納かってきた ",
+    "coverage": 79,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 43214,
+    "msg_index": 111,
+    "japanese": "オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。",
+    "coverage": 97,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 43290,
+    "msg_index": 112,
+    "japanese": "うおおおおおおおめえさん、ぶじだったか？",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 43336,
+    "msg_index": 113,
+    "japanese": "オダたちのみせわ、ときたまああしておっかねえマモノにおそわれちまうだよ！",
+    "coverage": 100,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 43416,
+    "msg_index": 114,
+    "japanese": "おめえさん、おきなかっだからおめえさんをおきざりにしてオダたちヒナンしてたべ！",
+    "coverage": 100,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 43502,
+    "msg_index": 115,
+    "japanese": "いや～、ぶじでよがっだ さあさあ、もっかいゆっくりきゅうけいしてくで ",
+    "coverage": 100,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 43580,
+    "msg_index": 116,
+    "japanese": "でもあぶねえから、うとうとするでねえど ",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 43626,
+    "msg_index": 117,
+    "japanese": "パーティのhp・mpが用[04D9]した ",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 43660,
+    "msg_index": 118,
+    "japanese": "ルーシーヴィガー商店の立店へ[0160]めて板れた。",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 43706,
+    "msg_index": 119,
+    "japanese": "何もなかった迷宮の一街所にそれなりの長[04F0]が宝され商店らしくなっていた。",
+    "coverage": 97,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 43782,
+    "msg_index": 120,
+    "japanese": "カウンターには店社として[05A5]われたらしき魔物がいる。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 43836,
+    "msg_index": 121,
+    "japanese": "そしてその魔物とルーシーが会質していた。",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 43880,
+    "msg_index": 122,
+    "japanese": "ルーシーはこちらに[0141]着き力を後った装、カウンターを出てこちらへやってきた。",
+    "coverage": 97,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 43960,
+    "msg_index": 123,
+    "japanese": "[01BC]所を見にきてくれたの？アタシもなんだ。",
+    "coverage": 95,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 44004,
+    "msg_index": 124,
+    "japanese": "たった一つの立店だからね。わざわざ騎騎者庫落して、[047D][061E]を[05A5]ってここまで帰たの。",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 44088,
+    "msg_index": 125,
+    "japanese": "兜新だったけれど、見に帰た下[0663]はあったわ。なんだか感功しちゃった！。",
+    "coverage": 97,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 44162,
+    "msg_index": 126,
+    "japanese": "ここまで店を兜きくできたのはアンタのおかげだよね。ほんと、感[03AB]してるわ ",
+    "coverage": 97,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 44240,
+    "msg_index": 127,
+    "japanese": "だからもっともっと兜きくするために、じゃんじゃん買い物してってよね ",
+    "coverage": 100,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 44314,
+    "msg_index": 128,
+    "japanese": "じゃあ、そろそろ盗に戻るわ。[01AB]りは[01AB][053F]の秘があるからラクなんだけどな～。",
+    "coverage": 92,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 44392,
+    "msg_index": 129,
+    "japanese": "だれか立店の秘みたいなのを[049A]全してくれないかしら！。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 44448,
+    "msg_index": 130,
+    "japanese": "じゃあね、立店だけじゃなくって役店の今にも顔出してよ ",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 44506,
+    "msg_index": 131,
+    "japanese": "ルーシーは力を後った装、バッグの中から秘の[0661]を取り出し、一[0141]に[0131]み[0664]した。",
+    "coverage": 89,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 44586,
+    "msg_index": 132,
+    "japanese": "そして、野の両から良を消した。",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 44618,
+    "msg_index": 133,
+    "japanese": "イムプ店長の一血に飽[03CE]を低み外げて一該られたスペースが以られていた。",
+    "coverage": 97,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 44690,
+    "msg_index": 134,
+    "japanese": "入り口[01CD]の飽[03CE]には、イ[0454]し物会場ゴと書かれたプレートが[032D]ち着けられている。",
+    "coverage": 89,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 44770,
+    "msg_index": 135,
+    "japanese": "飽[03CE]で以られたカウンターにはイ[0454]し物会場 オープン[01BF]大 ヴィガーフレンズ新[040D]会社取得 ゴと書かれた新却が低まれている。",
+    "coverage": 93,
+    "glyph_count": 59
+  },
+  {
+    "resource": 1353,
+    "offset": 44904,
+    "msg_index": 136,
+    "japanese": "スペース両に瓶っているイムプがこちらに[0141]着き、質し納けてきた。",
+    "coverage": 97,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 44970,
+    "msg_index": 137,
+    "japanese": "イムプ[0454]し物スペースにはヴィガーフレンズ 入会受着中 と書かれた[0402]り新が[0402]られている。",
+    "coverage": 93,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 45066,
+    "msg_index": 138,
+    "japanese": "スペース両に瓶っているイムプが質し納けてきた。",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 45116,
+    "msg_index": 139,
+    "japanese": "はは～ん！、さてはお落さんこのヴィガーフレンズに[0417]町[05FA]神でしょう ",
+    "coverage": 94,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 45188,
+    "msg_index": 140,
+    "japanese": "[04F2]ずかしがることはねえッス。こんな議段な[05AA]対に[0417]町を持たないわけがない ",
+    "coverage": 92,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 45266,
+    "msg_index": 141,
+    "japanese": "どうですか、ヴィガーフレンズのシステム向全をしやしょうか？それともすぐに入会ッスか？",
+    "coverage": 100,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 45356,
+    "msg_index": 142,
+    "japanese": "どうしますか？向全を受ける  今すぐ入会する 何もしないでおく",
+    "coverage": 100,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 45434,
+    "msg_index": 143,
+    "japanese": "そうっスか、いいっスか それじゃあシステムの向全をさせてもらうっス ",
+    "coverage": 100,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 45508,
+    "msg_index": 144,
+    "japanese": "あ、取れ棄しで聞いてて用恵オッケーっスよ 入会時に新を渡しやすんで。",
+    "coverage": 100,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 45598,
+    "msg_index": 146,
+    "japanese": "ではただいまより向全しやす ",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 45628,
+    "msg_index": 147,
+    "japanese": "ヴィガーフレンズっつーのはですね、彼らがヴィガー商店を腕で一同に[016C]り外げて行こうってな会ですわ。",
+    "coverage": 98,
+    "glyph_count": 48
+  },
+  {
+    "resource": 1353,
+    "offset": 45730,
+    "msg_index": 148,
+    "japanese": "入会臆と会[03CD]を払って入会したお落さんには、なんとビックリ会社だけの[01BC]神なサービスが ",
+    "coverage": 95,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 45820,
+    "msg_index": 149,
+    "japanese": "[0454]し物会場では、ヴィガーフレンズ会社[014B]期イベントなんてのがあったりするわけですよこれが ",
+    "coverage": 95,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 45914,
+    "msg_index": 150,
+    "japanese": "しかも[0454]し物会場のイベントに参加すればするほどチャンス[0445]追のお得な会社ナンバー[05FB]選会 ",
+    "coverage": 93,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 46006,
+    "msg_index": 151,
+    "japanese": "これはもう、入るっきゃないっしょ？オレも内恵、会社っスよ 内たり両のバリバリっす ",
+    "coverage": 100,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1353,
+    "offset": 46094,
+    "msg_index": 152,
+    "japanese": "そうっスか、入会っスか では、入会臆[000B]会[03CD]５０００gと申込書に[018A]両をお[036A]いしやす ",
+    "coverage": 90,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1353,
+    "offset": 46182,
+    "msg_index": 153,
+    "japanese": "！そうっスか、いいっスか！[0452][0488]しなくてもいいのに！",
+    "coverage": 92,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 46236,
+    "msg_index": 154,
+    "japanese": "罰は絶将に入会してってくださいよ、アニキ ",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 46282,
+    "msg_index": 155,
+    "japanese": "！そうっスか、いいっスか！[0452][0488]しなくてもいいのに！",
+    "coverage": 92,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 46336,
+    "msg_index": 156,
+    "japanese": "罰は絶将に入会してってくださいよ、アネゴ ",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 46382,
+    "msg_index": 157,
+    "japanese": "入会しますか？「入会[03CD]毒 ５０００g」は いいいえ",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 46454,
+    "msg_index": 158,
+    "japanese": "はいはいはい、では入会臆をいただきやしょうか ",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 46504,
+    "msg_index": 159,
+    "japanese": "５０００g立払った。",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 46534,
+    "msg_index": 160,
+    "japanese": "探かに[05D3][05FC]しやした では、ヴィガーフレンズ会社前をお渡ししやす。",
+    "coverage": 94,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 46604,
+    "msg_index": 161,
+    "japanese": "０１２３４５６７８９−００００００え～！あなたの会社番実は番になりやすので。会社前には書いてませんけどね。",
+    "coverage": 100,
+    "glyph_count": 53
+  },
+  {
+    "resource": 1353,
+    "offset": 46720,
+    "msg_index": 162,
+    "japanese": "ありがとうございやしたっ ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 46748,
+    "msg_index": 163,
+    "japanese": "メンバーカードを力に入れた ",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 46786,
+    "msg_index": 164,
+    "japanese": "はいはいはい、では入会臆をいただきやしょうか ",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 46836,
+    "msg_index": 165,
+    "japanese": "！って、えええええっ？ 持ってないっすか、５０００g！。同少キツいっすよ、お落さ～ん ",
+    "coverage": 100,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 46928,
+    "msg_index": 166,
+    "japanese": "一今ないなあ！。今度帰た時は５０００g、[033C]を[0510]えて持ってきてくださいよ ",
+    "coverage": 94,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 47006,
+    "msg_index": 167,
+    "japanese": "それまで入会はお[043F]けっス ",
+    "coverage": 92,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 47034,
+    "msg_index": 168,
+    "japanese": "！そうっスか、いいっスか！[0452][0488]しなくてもいいのに！",
+    "coverage": 92,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 47088,
+    "msg_index": 169,
+    "japanese": "罰は絶将に入会してってくださいよ、アニキ ",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 47134,
+    "msg_index": 170,
+    "japanese": "！そうっスか、いいっスか！[0452][0488]しなくてもいいのに！",
+    "coverage": 92,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 47188,
+    "msg_index": 171,
+    "japanese": "罰は絶将に入会してってくださいよ、アネゴ ",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 47234,
+    "msg_index": 172,
+    "japanese": "イムプ[0454]し物スペースにはヴィガーフレンズ 入会受着中 と書かれた[0402]り新が[0402]られている。",
+    "coverage": 93,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 47330,
+    "msg_index": 173,
+    "japanese": "スペース両に瓶っているイムプが質し納けてきた。",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 47380,
+    "msg_index": 174,
+    "japanese": "０１２３４５６７８９−００００００まいどっ え～っと！会社番実のさんっスよね？",
+    "coverage": 100,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 47470,
+    "msg_index": 175,
+    "japanese": "壁[04C0]１～５地は、ヴィガーフレンズ入会穴級キャンペーンなんっスよ。",
+    "coverage": 97,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 47538,
+    "msg_index": 176,
+    "japanese": "だから、今はイベントやってないっス。",
+    "coverage": 100,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 47598,
+    "msg_index": 178,
+    "japanese": "[0454]し物の[0455]長が書かれたボードにはイ心築働い、[045D][04C9]中です。      しばらくたってから帰てくださいゴと書かれている。",
+    "coverage": 93,
+    "glyph_count": 58
+  },
+  {
+    "resource": 1353,
+    "offset": 47726,
+    "msg_index": 179,
+    "japanese": "？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？",
+    "coverage": 100,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 47802,
+    "msg_index": 180,
+    "japanese": "[0454]し物の[0455]長が書かれたボードにはイあなたに呪められた主、            働ってさしあげますゴと書かれている。",
+    "coverage": 97,
+    "glyph_count": 58
+  },
+  {
+    "resource": 1353,
+    "offset": 47930,
+    "msg_index": 181,
+    "japanese": "だが、[0454]し物カウンターに過の良もない。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 47996,
+    "msg_index": 184,
+    "japanese": "何[0413]からか高び声がする。",
+    "coverage": 92,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 48022,
+    "msg_index": 185,
+    "japanese": "[0126]りを見回してみたものの声の消らしき者はいない。",
+    "coverage": 96,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 48074,
+    "msg_index": 186,
+    "japanese": "[0150]び[0454]し物カウンターに野をやると、うっすらと者[0453]のようなものが呪かんできた。",
+    "coverage": 92,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 48156,
+    "msg_index": 187,
+    "japanese": "かわいそうね、。リーダーなのに！なんにもない！。",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 48210,
+    "msg_index": 188,
+    "japanese": "[0645]むなら、わたしじゃなくって稼[01BA]を[0645]んでね。",
+    "coverage": 86,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 48258,
+    "msg_index": 189,
+    "japanese": "よかったね。御器築主、[0646]生えてるんだ。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 48302,
+    "msg_index": 190,
+    "japanese": "よかったね、。今はまだなんにもないけどきっと紹れた心築が開[035F]する！。",
+    "coverage": 97,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 48378,
+    "msg_index": 191,
+    "japanese": "生きている嫌に[0646]生えたらいいね。",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 48412,
+    "msg_index": 192,
+    "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
+    "coverage": 100,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 48498,
+    "msg_index": 193,
+    "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
+    "coverage": 93,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 48578,
+    "msg_index": 194,
+    "japanese": "じゃあお臆、カウンターに[0175]いてね。わたし、[02A1]が念き通るから受け取れないの。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 48658,
+    "msg_index": 195,
+    "japanese": "暗持臆が加りず、払えなかった。",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 48690,
+    "msg_index": 196,
+    "japanese": "！だめ、まけてあげないよ。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 48718,
+    "msg_index": 197,
+    "japanese": "お臆持ってないんだったら、お臆持ってきてね。２０００gだからね。",
+    "coverage": 100,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 48788,
+    "msg_index": 198,
+    "japanese": "２０００g立払った ",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 48818,
+    "msg_index": 199,
+    "japanese": "、どうもありがとう 過を働って能しい？",
+    "coverage": 100,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 48862,
+    "msg_index": 200,
+    "japanese": "、どうもありがとう ヴィガーフレンズのポイントも４ポイントあげる。",
+    "coverage": 100,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 48936,
+    "msg_index": 201,
+    "japanese": "じゃあ過を働って能しい？",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 48982,
+    "msg_index": 203,
+    "japanese": "ローミはそう言い退してまた良を消してしまった。",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 49032,
+    "msg_index": 204,
+    "japanese": "過を働ってもらいますか？",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 49096,
+    "msg_index": 205,
+    "japanese": "さんの心築はもうとっくに開[035F]してるわ。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 49140,
+    "msg_index": 206,
+    "japanese": "さんの中に呪められている心築！",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 49176,
+    "msg_index": 207,
+    "japanese": "さんの心築はもうとっくに開[035F]してるわ。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 49220,
+    "msg_index": 208,
+    "japanese": "さんの中に呪められている心築！",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 49256,
+    "msg_index": 209,
+    "japanese": "さんの心築はもうとっくに開[035F]してるわ。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 49300,
+    "msg_index": 210,
+    "japanese": "さんの中に呪められている心築！",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 49336,
+    "msg_index": 211,
+    "japanese": "さんの心築はもうとっくに開[035F]してるわ。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 49380,
+    "msg_index": 212,
+    "japanese": "さんの中に呪められている心築！",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 49416,
+    "msg_index": 213,
+    "japanese": "さんの心築はもうとっくに開[035F]してるわ。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 49460,
+    "msg_index": 214,
+    "japanese": "さんの中に呪められている心築！",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 49496,
+    "msg_index": 215,
+    "japanese": "さんの心築はもうとっくに開[035F]してるわ。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 49540,
+    "msg_index": 216,
+    "japanese": "さんの中に呪められている心築！",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 49576,
+    "msg_index": 217,
+    "japanese": "心築があってよかったね。魔法をたくさん度えるってなんだか[0483]そうで議段だな。",
+    "coverage": 97,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 49656,
+    "msg_index": 218,
+    "japanese": "心築があってよかったね。でも求手魔法が得客なんだったら制[033F]で傷く今が向いてるかもね。",
+    "coverage": 98,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 49746,
+    "msg_index": 219,
+    "japanese": "心築があってよかったね。ドラゴンを武神と忘しちゃうなんてとっても[0143]いんだね。",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 49828,
+    "msg_index": 220,
+    "japanese": "心築があってよかったね。向魔を忘すのが得客だなんて、向魔にとってはあなたが向魔よね。",
+    "coverage": 100,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 49918,
+    "msg_index": 221,
+    "japanese": "心築があってよかったね。！あの！わたしのは見威してね、変さないでね！もう[028E]んでるけど！。",
+    "coverage": 98,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 50012,
+    "msg_index": 222,
+    "japanese": "心築があってよかったね。でもなんだか稀[0647]で呪いな！わたしのこと、いじめないでね。",
+    "coverage": 98,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 50098,
+    "msg_index": 223,
+    "japanese": "心築があってよかったね。攻[048E]を[0648]けてばっかりいないで値色もちゃんと攻[048E]してね。",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 50182,
+    "msg_index": 224,
+    "japanese": "心築があってよかったね。すごいな、わたしの[02A1]と高[01D0]将ね。",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 50242,
+    "msg_index": 225,
+    "japanese": "心築があってよかったね。ミスは[01BA]取りっていうし、ミスが少ないのはとってもいいことね。",
+    "coverage": 98,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 50332,
+    "msg_index": 226,
+    "japanese": "心築があってよかったね。わたしは退備がないからわからないけど、魔物はとても退がるだろうな。",
+    "coverage": 100,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1353,
+    "offset": 50428,
+    "msg_index": 227,
+    "japanese": "心築があってよかったね。アイテム見つけるのが得客なんだ！！今度なにかちょうだい ",
+    "coverage": 100,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 50514,
+    "msg_index": 228,
+    "japanese": "心築があってよかったね。！わっ！わたしを倒[0649]したって、優臆美の議著なんて出ないからね。",
+    "coverage": 98,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 50606,
+    "msg_index": 229,
+    "japanese": "御器築主１３はカット ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 50630,
+    "msg_index": 230,
+    "japanese": "心築があってよかったね。でも者[0141]者って者[0141]があるだけで者主があるかっていうと着与よね！。",
+    "coverage": 95,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 50724,
+    "msg_index": 231,
+    "japanese": "心築があってよかったね。段から威げるのが得客だからって威げてばかりじゃ[0143]くなれないよ。",
+    "coverage": 98,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 50816,
+    "msg_index": 232,
+    "japanese": "心築があってよかったね。なんでも住[048F]にしちゃうなんて[0143]祠！わたしを後り回さないでね。",
+    "coverage": 95,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 50906,
+    "msg_index": 233,
+    "japanese": "心築があってよかったね。なんでも[05CC][04DD]にしちゃうんだ！でもわたしを[05EE]にするのは辺[0190]よね。",
+    "coverage": 91,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 50998,
+    "msg_index": 234,
+    "japanese": "心築があってよかったね。すごい魔主ね、ユグルタの魔法[04DA][033F]で役解になれるんじゃないかなあ。",
+    "coverage": 95,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 51092,
+    "msg_index": 235,
+    "japanese": "心築があってよかったね。値色で泊[0141]を[0346]しちゃうなんて[01A9][01AA]を通り過ぎて、[040B][0169]ね。",
+    "coverage": 85,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 51176,
+    "msg_index": 236,
+    "japanese": "心築があってよかったね。[05CC][04DD]の築主をひきだすなんて[0572][0439]な心築だと思うわ。",
+    "coverage": 89,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 51254,
+    "msg_index": 237,
+    "japanese": "！ない！なにも！見えない！。",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 51286,
+    "msg_index": 238,
+    "japanese": "・・・・・・・・・・・・・・・",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 51318,
+    "msg_index": 239,
+    "japanese": "[0141]の[0331]だけど、落ち込まないで。[032A]の中の兜追は[064A]者なの。",
+    "coverage": 85,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 51376,
+    "msg_index": 240,
+    "japanese": "だって、腕に心築があれば、それが[0501]通！つまり[064A]者になっちゃうでしょ。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 51450,
+    "msg_index": 241,
+    "japanese": "心築がある者なんて、ごく一街しか武器しないのよ。",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 51502,
+    "msg_index": 242,
+    "japanese": "[0501]通は[0501]通なのであって、携して[0519]っているわけではないんだから、法しまないでね。",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 51586,
+    "msg_index": 243,
+    "japanese": "！あなたは、[045A][0402]って発んな知識を[064B]えていくのが心築を開[035F]させる報となりそう。",
+    "coverage": 89,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 51668,
+    "msg_index": 244,
+    "japanese": "あなたの心築は、知[059B]が[01A8]くてこそ込かせるものだと思うから、お[064C][0143]するのが一番いいわ。",
+    "coverage": 90,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 51758,
+    "msg_index": 245,
+    "japanese": "！あなたに呪められた心築は、信[05EA]目と[0297]い[064D]がりがある。",
+    "coverage": 89,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 51816,
+    "msg_index": 246,
+    "japanese": "もっと[0143]い信[05EA]目を持って生きていれば、きっとそのうちいいことが顔こると思うの。",
+    "coverage": 95,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 51900,
+    "msg_index": 247,
+    "japanese": "[02A1]倉の差に下れることなく、失兜な魔物にも[03EB]越に待ち向かうことが[0451]目ね。",
+    "coverage": 91,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 51976,
+    "msg_index": 248,
+    "japanese": "今は[01BA]を落とすことがあるかも知れないけど、それはそれでいい員験じゃないかなあ。",
+    "coverage": 97,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 52060,
+    "msg_index": 249,
+    "japanese": "そのうち、下れるどころか値らすすんで失兜な魔物に向かうようになるかも。",
+    "coverage": 100,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 52136,
+    "msg_index": 250,
+    "japanese": "向魔の外をいく向魔みたいな目が[058B]っているわ。",
+    "coverage": 95,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 52184,
+    "msg_index": 251,
+    "japanese": "その目が野備めたら！向魔にとっては岩[040B]宿な武器になるでしょうね。",
+    "coverage": 97,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 52254,
+    "msg_index": 252,
+    "japanese": "棒宿な者！[028E]者！大[028E]腕の者を呪がらないことね。",
+    "coverage": 91,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 52304,
+    "msg_index": 253,
+    "japanese": "兜集遺よ、そのうち呪いどころか兜[0380]きになると思うわ。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 52360,
+    "msg_index": 254,
+    "japanese": "稼功損員がいいみたい。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 52384,
+    "msg_index": 255,
+    "japanese": "魔法とかそういうのより、もっと可の主を[0503]えると心築を[049A][01E2]できそうだわ。",
+    "coverage": 91,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 52460,
+    "msg_index": 256,
+    "japanese": "今までは議早すぎて見えなかった段の功きなんかが、ある地義恵スローモーションに感じそう。",
+    "coverage": 100,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 52552,
+    "msg_index": 257,
+    "japanese": "あなたは元神、功[02A1]召主がすぐれていると思うからあとはそれを[0503]えることね。",
+    "coverage": 94,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 52630,
+    "msg_index": 258,
+    "japanese": "[0143]い生[01BA]主を持ってる。",
+    "coverage": 82,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 52654,
+    "msg_index": 259,
+    "japanese": "先[04F6]を[0503]えれば、ものすごく[0143][064E]な[04F6][02A1]を力に入れることができるんじゃないかな。",
+    "coverage": 84,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 52736,
+    "msg_index": 260,
+    "japanese": "[01A1]見の[0284]が険ってる。それに得中主も[01A8]いみたいね。",
+    "coverage": 88,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 52788,
+    "msg_index": 261,
+    "japanese": "もっともっと[01A1]を獲む主が野備めていくと思うわ。",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 52838,
+    "msg_index": 262,
+    "japanese": "そしたら、段の功きを[057A]知してミスを[05CC]ぐことができるようになるわね、きっと。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 52918,
+    "msg_index": 263,
+    "japanese": "何かの場[0349]をつかんだりするのが得客そうね。",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 52964,
+    "msg_index": 264,
+    "japanese": "だから、その心築が野備めれば段の話暗を[057A]知して、議早くしとめることができると思うよ。",
+    "coverage": 98,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 53054,
+    "msg_index": 265,
+    "japanese": "あなたの[04F3]客主には議[05E2]らしいものを感じるわ。",
+    "coverage": 91,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 53102,
+    "msg_index": 266,
+    "japanese": "[0501]通の者なら[0141]着かず見過ごしてしまうものとかを、[0199][01D9]く見つけられるようになる[0141]がする。",
+    "coverage": 88,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 53194,
+    "msg_index": 267,
+    "japanese": "あなたの放倉は知らないけど、[0494][0495]とか、得客だと思うの。",
+    "coverage": 93,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 53252,
+    "msg_index": 268,
+    "japanese": "やったことがなくったって、やってみるとうまくいくかも。",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 53310,
+    "msg_index": 269,
+    "japanese": "だから義恵、倒[0649]とかみたいな新[0431]っぽい[064F]町が生まれる[01DD]築放があるわ。",
+    "coverage": 88,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 53384,
+    "msg_index": 270,
+    "japanese": "魔物の長[04B4]とかを取り出すのが兜[0380]きになるかも知れない。",
+    "coverage": 93,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 53442,
+    "msg_index": 271,
+    "japanese": "御器築主１３はカット ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 53466,
+    "msg_index": 272,
+    "japanese": "あなたって、なんていうかムードメーカー宿な武器になる並来[0141]があると思うの。",
+    "coverage": 97,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 53546,
+    "msg_index": 273,
+    "japanese": "たとえどんなに[0650]かでもなんだか体めない！みたいな。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 53600,
+    "msg_index": 274,
+    "japanese": "まあ、者[0141]者っていうのも一依の心築といえば心築ね。数われ者より用恵いいじゃない。",
+    "coverage": 98,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 53686,
+    "msg_index": 275,
+    "japanese": "あなたはとても感受放が[0143]いわ。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 53718,
+    "msg_index": 276,
+    "japanese": "だから、その感放を[0513]けば[042D]来の[0141][03CF]を獲む主がものすごく[01A8]まると思う。",
+    "coverage": 85,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 53792,
+    "msg_index": 277,
+    "japanese": "戦いのを[04DD]って、辺人[0219]な長買の者が[0143]祠に力にしたところで、築主を祠き出せず辺客町よね。",
+    "coverage": 93,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 53884,
+    "msg_index": 278,
+    "japanese": "だから[0501]通は長買にあわない物なんて度わないけれど、あなたの場合はちょっと違うみたい。",
+    "coverage": 98,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 53974,
+    "msg_index": 279,
+    "japanese": "今はまだ心築が[058B]っているから辺[0190]だけど、そのうち[0143]祠に後り回しても場放を祠き出せると思うわ。",
+    "coverage": 93,
+    "glyph_count": 46
+  },
+  {
+    "resource": 1353,
+    "offset": 54072,
+    "msg_index": 280,
+    "japanese": "腕に着けるものって、辺人[0219]な長買の者が[0143]祠につけたところで、築主を祠き出せず辺客町よね。",
+    "coverage": 95,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 54166,
+    "msg_index": 281,
+    "japanese": "だから[0501]通は長買にあわない物なんて[04F0][046D]しないけれど、あなたの場合はちょっと違うみたい。",
+    "coverage": 93,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 54258,
+    "msg_index": 282,
+    "japanese": "今はまだ心築が[058B]っているから辺[0190]だけど、そのうち[0143]祠に腕につけても場放を祠き出せると思うわ。",
+    "coverage": 93,
+    "glyph_count": 46
+  },
+  {
+    "resource": 1353,
+    "offset": 54356,
+    "msg_index": 283,
+    "japanese": "あなたの[02A1]の奥[01AE]に、とっても[0143]い魔主を感じるの。",
+    "coverage": 88,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 54408,
+    "msg_index": 284,
+    "japanese": "あなたは[01C9]心タイプだから今は[0651]に[0652]主をしない今がいいかも。",
+    "coverage": 90,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 54470,
+    "msg_index": 285,
+    "japanese": "いつか心築が[0646]生えてから魔主を[01A8]めていくと、すごいスピードで封長すると思う。",
+    "coverage": 95,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 54552,
+    "msg_index": 286,
+    "japanese": "あなたは[02A1]長の[063F][0653]が者一[0445][0143]くなる[05EB]向があるわ。",
+    "coverage": 75,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 54604,
+    "msg_index": 287,
+    "japanese": "そのうち、泊[0141]になっても声っておけば[0346]るなんていうことになるかもしれない。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 54684,
+    "msg_index": 288,
+    "japanese": "まあ、[01BE][0160]から泊[0141]になんてならないのが一番いいんだけど。",
+    "coverage": 89,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 54744,
+    "msg_index": 289,
+    "japanese": "あなたは、値色の主ではなく物の主を祠き出す心築がありそう。",
+    "coverage": 100,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 54806,
+    "msg_index": 290,
+    "japanese": "なんというか、行の者よりも物の[0550]いがいいっていうのかな！？",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 54868,
+    "msg_index": 291,
+    "japanese": "とにかく、それは心築が[0646]生えたらすぐに[0141]着くんじゃないかしら。",
+    "coverage": 94,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 54936,
+    "msg_index": 292,
+    "japanese": "ローミの良が一[04C4]消えかかった。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 54968,
+    "msg_index": 293,
+    "japanese": "ああ！[04CD]れちゃった。",
+    "coverage": 90,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 54990,
+    "msg_index": 294,
+    "japanese": "ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね",
+    "coverage": 94,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 55076,
+    "msg_index": 296,
+    "japanese": "ふう！ちょっと[04CD]れちゃった。働いってね、けっこう[044F]損主を度っちゃうんだ。",
+    "coverage": 94,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 55154,
+    "msg_index": 297,
+    "japanese": "わたし、[04F6][02A1]がないから[043D][056F]にひどいんだと思う。だから一者ずつしか働えないの。",
+    "coverage": 89,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 55236,
+    "msg_index": 298,
+    "japanese": "ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね",
+    "coverage": 94,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 55322,
+    "msg_index": 300,
+    "japanese": "ローミは良を消してしまった。",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 55352,
+    "msg_index": 301,
+    "japanese": "イムプはいはい、いらっしゃい ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 55384,
+    "msg_index": 302,
+    "japanese": "壁[04C0]２６地～３０地の[04C0][0552]５地嫌はヴィガーフレンズ会社[014B]期会社ナンバー[05FB]選兜会   ",
+    "coverage": 88,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1353,
+    "offset": 55472,
+    "msg_index": 303,
+    "japanese": "あれ～、会社じゃないっしょ？ナンバー[05FB]選は会社[014B]期っス [0417]町があるなら迷わず入会 ",
+    "coverage": 93,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1353,
+    "offset": 55560,
+    "msg_index": 304,
+    "japanese": "ヴィガーフレンズ新[040D]入会は壁[04C0]１地～５地の嫌だけこの[0454]し物カウンターで受着中 ",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 55644,
+    "msg_index": 305,
+    "japanese": "[0564]更、帰てくださいよ ",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 55668,
+    "msg_index": 306,
+    "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
+    "coverage": 100,
+    "glyph_count": 51
+  },
+  {
+    "resource": 1353,
+    "offset": 55778,
+    "msg_index": 307,
+    "japanese": "え～ちょいとお待ちを。お落さんのフレンドポイントを道べますので。",
+    "coverage": 100,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 55866,
+    "msg_index": 309,
+    "japanese": "ありゃりゃ！ポイント用恵たまってないっすね～。",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 55916,
+    "msg_index": 310,
+    "japanese": "ナンバー[05FB]選は[01BE]鑑でもポイントが１ポイント魔外ないと参加できないっス。",
+    "coverage": 94,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 55992,
+    "msg_index": 311,
+    "japanese": "もっと低[0597]宿に[0454]し物に参加してポイント得めてくださいよ  ",
+    "coverage": 93,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 56054,
+    "msg_index": 312,
+    "japanese": "ういっス、バッチリっスね じゃあ、どうしやしょう？",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 56108,
+    "msg_index": 313,
+    "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]向全を聞く  [05FB]選しない  ",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 56210,
+    "msg_index": 314,
+    "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]向全を聞く  [05FB]選しない  ",
+    "coverage": 93,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 56330,
+    "msg_index": 315,
+    "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]５ポイント消[03CD]向全を聞く  [05FB]選しない  ",
+    "coverage": 92,
+    "glyph_count": 51
+  },
+  {
+    "resource": 1353,
+    "offset": 56468,
+    "msg_index": 316,
+    "japanese": "１ポイントいただきます それでは、ナンバー[05FB]選スターーートオォォォォォ ",
+    "coverage": 97,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 56546,
+    "msg_index": 317,
+    "japanese": "３ポイントいただきます それでは、ナンバー[05FB]選スターーートオォォォォォ ",
+    "coverage": 97,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 56624,
+    "msg_index": 318,
+    "japanese": "５ポイントいただきます それでは、ナンバー[05FB]選スターーートオォォォォォ ",
+    "coverage": 97,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 56716,
+    "msg_index": 320,
+    "japanese": "ジャ～ン 番で～っす ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 56754,
+    "msg_index": 321,
+    "japanese": "お落さんの会社ナンバーは！番 ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 56800,
+    "msg_index": 322,
+    "japanese": "・・・・・・・・・・・・・・・",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 56832,
+    "msg_index": 323,
+    "japanese": "おおあた～～～りいいいいいいぃ ",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 56866,
+    "msg_index": 324,
+    "japanese": "イムプは、新を受かく[01E9]んで以った新[04FE][06BB]を宮外にふりまいて振ってくれた。",
+    "coverage": 91,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 56942,
+    "msg_index": 325,
+    "japanese": "いや～、やるっスね 兜内たりだしたのはお落さんがなんとはじめて  ",
+    "coverage": 100,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 57014,
+    "msg_index": 326,
+    "japanese": "というワケでとっておきの[053C]品！思大ビッチリ識別ブレスレット～[0267]",
+    "coverage": 94,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 57080,
+    "msg_index": 327,
+    "japanese": "識別ブレスレットを力に入れた ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 57126,
+    "msg_index": 328,
+    "japanese": "ブレスレットに込められた思大から、新しい戦美「アレイド」を力に入れた。",
+    "coverage": 100,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 57210,
+    "msg_index": 329,
+    "japanese": "ワープアタックを力に入れた。",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 57248,
+    "msg_index": 330,
+    "japanese": "ちなみに罰回からの内選[053C]品は[0578]の[06BA]骨・魔法のワインに新自っスから ",
+    "coverage": 91,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 57320,
+    "msg_index": 331,
+    "japanese": "いや～、すごいっスね！。こう何度も兜内たりされちゃ、商[0367]あがったりっス！。",
+    "coverage": 97,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 57400,
+    "msg_index": 332,
+    "japanese": "でもまあこれもサービス [0578]の[06BA]骨・魔法のワインを[059A]し外がれ～ ",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 57468,
+    "msg_index": 333,
+    "japanese": "魔法のワインを力に入れた ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 57504,
+    "msg_index": 334,
+    "japanese": "魔主ビンビンっスよ ",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 57526,
+    "msg_index": 335,
+    "japanese": "お落さん、もうポイント退ってないっすね。",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 57570,
+    "msg_index": 336,
+    "japanese": "またポイントじゃんじゃん[06BC]めて帰てくださいっ ",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 57620,
+    "msg_index": 337,
+    "japanese": "お落さん、まだポイント退ってるんすね。",
+    "coverage": 100,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 57662,
+    "msg_index": 338,
+    "japanese": "じゃあついでにもう一回チャレンジします？",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 57706,
+    "msg_index": 339,
+    "japanese": "もう一度、[05FB]選しますか？は いいいえ",
+    "coverage": 94,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 57754,
+    "msg_index": 340,
+    "japanese": "な～んだ退大 じゃあまた帰てください ",
+    "coverage": 100,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 57796,
+    "msg_index": 341,
+    "japanese": "０００００００１２３４５６７８９−[05FB]選中・・・",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 57844,
+    "msg_index": 342,
+    "japanese": "ジャ～ン 番で～っす ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 57882,
+    "msg_index": 343,
+    "japanese": "お落さんの会社ナンバーは！番 ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 57928,
+    "msg_index": 344,
+    "japanese": "・・・・・・・・・・・・・・・",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 57960,
+    "msg_index": 345,
+    "japanese": "はっずぅ～れ～えええええぇい ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 57992,
+    "msg_index": 346,
+    "japanese": "や～、退大でしたね 退大だから退大[053C] ",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 58034,
+    "msg_index": 347,
+    "japanese": "ジャ～ン 番で～っす ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 58070,
+    "msg_index": 348,
+    "japanese": "お落さんの会社ナンバーは！番 ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 58116,
+    "msg_index": 349,
+    "japanese": "・・・・・・・・・・・・・・・",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 58148,
+    "msg_index": 350,
+    "japanese": "はっずぅ～れ～えええええぇい ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 58180,
+    "msg_index": 351,
+    "japanese": "や～、退大でしたね 退大だから退大[053C] ",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 58222,
+    "msg_index": 352,
+    "japanese": "[04D9][0540]の秘を力に入れた ",
+    "coverage": 82,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 58274,
+    "msg_index": 354,
+    "japanese": "向全っすか、[0448]倒です ",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 58298,
+    "msg_index": 355,
+    "japanese": "え～、会社ナンバー[05FB]選はですね、ナンバー[05FB]選を行って、その番実が会社番実と同じなら内選です ",
+    "coverage": 96,
+    "glyph_count": 46
+  },
+  {
+    "resource": 1353,
+    "offset": 58396,
+    "msg_index": 356,
+    "japanese": "内選すれば替[0319][01E5]品。なんと識別ブレスレット 思大もビッチリこびりついてます ",
+    "coverage": 95,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 58478,
+    "msg_index": 357,
+    "japanese": "ただし、ブレスレットは１[04E0]しかないので内選者が出た時[0440]で行の[01E5]品にチェンジっス。",
+    "coverage": 92,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 58564,
+    "msg_index": 358,
+    "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
+    "coverage": 84,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 58644,
+    "msg_index": 359,
+    "japanese": "ちなみに１回の[05FB]選につき１・３・５ポイントのうちどれだけ度うかを選べるっすよ。",
+    "coverage": 97,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 58728,
+    "msg_index": 360,
+    "japanese": "度うポイントが[01A8]いほど、内選探報もぐ～んとアップ ",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 58782,
+    "msg_index": 361,
+    "japanese": "ってなワケです どうですこの荷[04E6]全[04D9]さ さあさあ、[05FB]選してください ",
+    "coverage": 91,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 58856,
+    "msg_index": 362,
+    "japanese": "向全っすか、[0448]倒です ",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 58880,
+    "msg_index": 363,
+    "japanese": "え～、会社ナンバー[05FB]選はですね、ナンバー[05FB]選を行って、その番実が会社番実と同じなら内選です ",
+    "coverage": 96,
+    "glyph_count": 46
+  },
+  {
+    "resource": 1353,
+    "offset": 58978,
+    "msg_index": 364,
+    "japanese": "内選すれば替[0319][01E5]品。なんと[0578]の[06BA]骨、魔法のワイン 魔主がみなぎるっス ",
+    "coverage": 89,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 59054,
+    "msg_index": 365,
+    "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
+    "coverage": 84,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 59134,
+    "msg_index": 366,
+    "japanese": "ちなみに１回の[05FB]選につき１・３・５ポイントのうちどれだけ度うかを選べるっすよ。",
+    "coverage": 97,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 59218,
+    "msg_index": 367,
+    "japanese": "度うポイントが[01A8]いほど、内選探報もぐ～んとアップ ",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 59272,
+    "msg_index": 368,
+    "japanese": "ってなワケです どうですこの荷[04E6]全[04D9]さ さあさあ、[05FB]選してください ",
+    "coverage": 91,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 59346,
+    "msg_index": 369,
+    "japanese": "[05FB]選しないっスか。じゃあまた[05FB]選やってる地に[04FB]びに帰てくださいよ ",
+    "coverage": 91,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 59418,
+    "msg_index": 370,
+    "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
+    "coverage": 100,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 59476,
+    "msg_index": 371,
+    "japanese": "ローミに乙忍９名で投った[0268][0444]を力渡した。",
+    "coverage": 90,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 59520,
+    "msg_index": 372,
+    "japanese": "それは大思衛なことに、ローミの[02A1]を念き通ることなく彼女の力に銀せられた。",
+    "coverage": 97,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 59598,
+    "msg_index": 373,
+    "japanese": "わたしのだ！。どうもありがとう ",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 59634,
+    "msg_index": 374,
+    "japanese": "これはね、お[04F9]さんとお[06CD]さんの思い出の品なんだって。お内りにって、もらったの。",
+    "coverage": 95,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 59718,
+    "msg_index": 375,
+    "japanese": "ローミは[02F2]しそうに[0444]のひもをとき、中から門い宝剣を取り出した。",
+    "coverage": 94,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 59786,
+    "msg_index": 376,
+    "japanese": "へへ！[0339][0336]な剣でしょ。",
+    "coverage": 82,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 59810,
+    "msg_index": 377,
+    "japanese": "ローミに差し出された剣を力にとってみた。",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 59854,
+    "msg_index": 378,
+    "japanese": "剣に力れた[0272]自、捷かい客識が宮の中に棄れ込んできた！。",
+    "coverage": 96,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 59912,
+    "msg_index": 379,
+    "japanese": "門い宝剣に込められた思大から、新しい戦美「アレイド」を力に入れた。",
+    "coverage": 100,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 59992,
+    "msg_index": 380,
+    "japanese": "ブレイクサイレンスを力に入れた。",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 60054,
+    "msg_index": 382,
+    "japanese": "ローミに剣を大した。",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 60076,
+    "msg_index": 383,
+    "japanese": "そうだ！お[0368]しなくっちゃ ",
+    "coverage": 92,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 60104,
+    "msg_index": 384,
+    "japanese": "あのね、カウンターの外の宝[03CE]を開けてみてちょうだい。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 60160,
+    "msg_index": 385,
+    "japanese": "ローミに言われたとおり、[0454]し物カウンターの外にある間さな宝[03CE]を開けてみた。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 60240,
+    "msg_index": 386,
+    "japanese": "なかには何闘なベイクド拡で以られた[0339][0336]な集取りが入っていた。",
+    "coverage": 93,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 60304,
+    "msg_index": 387,
+    "japanese": "これ、ここで傷いたお臆で買ったの。買ったっていっても、ここのお店で１つだけ一入れてもらったんだけど。",
+    "coverage": 100,
+    "glyph_count": 50
+  },
+  {
+    "resource": 1353,
+    "offset": 60410,
+    "msg_index": 388,
+    "japanese": "生きてた達お[06CD]さんがいつもつけてて、あこがれてたんだ～。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 60470,
+    "msg_index": 389,
+    "japanese": "知ってる？ベイクド拡ってとっても何闘でめったにとれないんだって。",
+    "coverage": 100,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 60540,
+    "msg_index": 390,
+    "japanese": "わたし、買ったのはいいけれどつけられないから、あげる。",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 60598,
+    "msg_index": 391,
+    "japanese": "そう言ってローミは、宝[03CE]から集取りを取り出し、こちらによこした。",
+    "coverage": 97,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 60668,
+    "msg_index": 392,
+    "japanese": "じゃあ、また働いに帰てね。ばいばい、。",
+    "coverage": 100,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 60712,
+    "msg_index": 393,
+    "japanese": "拡の集取りを力に入れた ",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 60746,
+    "msg_index": 394,
+    "japanese": "[069A]のふちに識別ブレスレットが祠っかかっていた。",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 60808,
+    "msg_index": 395,
+    "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
+    "coverage": 100,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 60894,
+    "msg_index": 396,
+    "japanese": "ワープアタックを力に入れた。",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 60928,
+    "msg_index": 397,
+    "japanese": "オーガおう、いらっしゃい。メダル所へようこそ ",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 60978,
+    "msg_index": 398,
+    "japanese": "さあ、なんにするんだ？",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 61002,
+    "msg_index": 399,
+    "japanese": "おう、いらっしゃい。メダル所へようこそ ",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 61046,
+    "msg_index": 400,
+    "japanese": "うちはメダルショップ。[041B]依メダルの[0512][0367]・[04A7]着をやってる店だ。",
+    "coverage": 87,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 61112,
+    "msg_index": 401,
+    "japanese": "[0501]成は口コミのみでひっそりと[0508]買してるんだが、場別に壁[04C0]１６～２０地だけここで商[0367]してるんだ。",
+    "coverage": 91,
+    "glyph_count": 47
+  },
+  {
+    "resource": 1353,
+    "offset": 61212,
+    "msg_index": 402,
+    "japanese": "さあ、なんにするんだ？",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 61236,
+    "msg_index": 403,
+    "japanese": "メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   ",
+    "coverage": 93,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1353,
+    "offset": 61342,
+    "msg_index": 404,
+    "japanese": "おっと、すまねえなあ。[04A7]着は取り待ての解合外、将[04E8]を魔物に[014B]期してるんだ。",
+    "coverage": 92,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 61422,
+    "msg_index": 405,
+    "japanese": "能しかったら買ってくれ さあ、どうするどうする？",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 61474,
+    "msg_index": 406,
+    "japanese": "そうかい じゃあまた帰てくれよな ",
+    "coverage": 100,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 61512,
+    "msg_index": 407,
+    "japanese": "骨場のメダルは５枚で１０００gだ。買っていくのか？",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 61566,
+    "msg_index": 408,
+    "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
+    "coverage": 97,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 61662,
+    "msg_index": 410,
+    "japanese": "ヴィガーフレンズポイントも２ポイントやるからよ ",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 61728,
+    "msg_index": 412,
+    "japanese": "形臆１０００gを立払った。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 61764,
+    "msg_index": 413,
+    "japanese": "骨場のメダルを５枚力に入れた ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 61822,
+    "msg_index": 415,
+    "japanese": "おいおいおい、崩るよ～ あんた臆持ってないじゃん ",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 61876,
+    "msg_index": 416,
+    "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 61958,
+    "msg_index": 417,
+    "japanese": "！で、まだ何か毒かい？",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 61982,
+    "msg_index": 418,
+    "japanese": "！あっそう。「ったく、この[03C3]やかしやがって備えてやがれこのくそガキめ 」",
+    "coverage": 97,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 62064,
+    "msg_index": 419,
+    "japanese": "！で、まだ何か毒かい？",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 62088,
+    "msg_index": 420,
+    "japanese": "え～！はいはい、打扱のメダルね！。",
+    "coverage": 100,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 62124,
+    "msg_index": 421,
+    "japanese": "！あっ、すまんかった 今ちょうど器[0443]該らしてるよ ",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 62178,
+    "msg_index": 422,
+    "japanese": "骨場のメダルだったらあるぜ どうだい、買ってくれよ ",
+    "coverage": 100,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 62234,
+    "msg_index": 423,
+    "japanese": "打扱のメダルは１枚[014B]期で１０００gだが買っていくのか？",
+    "coverage": 96,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 62292,
+    "msg_index": 424,
+    "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
+    "coverage": 97,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 62388,
+    "msg_index": 426,
+    "japanese": "ヴィガーフレンズポイントも２ポイントやるからよ ",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 62454,
+    "msg_index": 428,
+    "japanese": "形臆１０００gを立払った。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 62490,
+    "msg_index": 429,
+    "japanese": "打扱のメダルを力に入れた ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 62544,
+    "msg_index": 431,
+    "japanese": "おいおいおい、崩るよ～ あんた臆持ってないじゃん ",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 62598,
+    "msg_index": 432,
+    "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 62680,
+    "msg_index": 433,
+    "japanese": "！で、まだ何か毒かい？",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 62704,
+    "msg_index": 434,
+    "japanese": "！あっそう。「ったく、この[03C3]やかしやがって備えてやがれこのくそガキめ 」",
+    "coverage": 97,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 62786,
+    "msg_index": 435,
+    "japanese": "！で、まだ何か毒かい？",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 62810,
+    "msg_index": 436,
+    "japanese": "アルケミスト余は優臆美を[0550]う者。優臆美で生封された者勲の回[0431]を見ることで生[056F]をたてている。",
+    "coverage": 93,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1353,
+    "offset": 62906,
+    "msg_index": 437,
+    "japanese": "道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。",
+    "coverage": 92,
+    "glyph_count": 50
+  },
+  {
+    "resource": 1353,
+    "offset": 63020,
+    "msg_index": 438,
+    "japanese": "どうだね？汝の値功者勲が今どれぐらいの封長過幸にあるか道べてやろうか？",
+    "coverage": 100,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 63096,
+    "msg_index": 439,
+    "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
+    "coverage": 97,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 63184,
+    "msg_index": 440,
+    "japanese": "余は優臆美を[0550]う者。優臆美で生封された者勲の回[0431]を見ることで生[056F]をたてている。",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 63268,
+    "msg_index": 441,
+    "japanese": "汝は見たところ、値功者勲を支れてはいないようだな！。",
+    "coverage": 100,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 63324,
+    "msg_index": 442,
+    "japanese": "余は壁[04C0]６～１５地の嫌ここにいる。目を持たない者勲を支れているときは、ここへ持ってくるといい。",
+    "coverage": 98,
+    "glyph_count": 47
+  },
+  {
+    "resource": 1353,
+    "offset": 63424,
+    "msg_index": 443,
+    "japanese": "[0509]期[0516]１０００gを払った ",
+    "coverage": 85,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 63460,
+    "msg_index": 444,
+    "japanese": "汝はヴィガーフレンズ会社だね。２ポイント加[0637]しておこう。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 63520,
+    "msg_index": 445,
+    "japanese": "では、[0509]期してあげよう。",
+    "coverage": 92,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 63546,
+    "msg_index": 446,
+    "japanese": "いいだろう。では、[0509]期してあげよう。",
+    "coverage": 94,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 63586,
+    "msg_index": 447,
+    "japanese": "優臆美解は場[047B]なを[04DD]を度い入大にオートマターを道べた。",
+    "coverage": 93,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 63644,
+    "msg_index": 448,
+    "japanese": "は既に目が[0646]生えているようだな。",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 63690,
+    "msg_index": 449,
+    "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 63772,
+    "msg_index": 450,
+    "japanese": "優臆美ギルドへ行き、ギヨームにあわせてやればいい。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 63826,
+    "msg_index": 451,
+    "japanese": "の[02A1]長には者で日えると幸の員験が近っているであろう。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 63904,
+    "msg_index": 452,
+    "japanese": "[0494][0495]によると、者勲に目が[0646]生える達には１２８０００の員験が近っていると言われているので参必にしなさい。",
+    "coverage": 94,
+    "glyph_count": 51
+  },
+  {
+    "resource": 1353,
+    "offset": 64012,
+    "msg_index": 453,
+    "japanese": "は既に目が[0646]生えているようだな。",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 64058,
+    "msg_index": 454,
+    "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 64140,
+    "msg_index": 455,
+    "japanese": "優臆美ギルドへ行き、ギヨームにあわせてやればいい。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 64194,
+    "msg_index": 456,
+    "japanese": "の[02A1]長には者で日えると幸の員験が近っているであろう。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 64272,
+    "msg_index": 457,
+    "japanese": "[0494][0495]によると、者勲に目が[0646]生える達には１２８０００の員験が近っていると言われているので参必にしなさい。",
+    "coverage": 94,
+    "glyph_count": 51
+  },
+  {
+    "resource": 1353,
+    "offset": 64380,
+    "msg_index": 458,
+    "japanese": "は既に目が[0646]生えているようだな。",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 64426,
+    "msg_index": 459,
+    "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 64508,
+    "msg_index": 460,
+    "japanese": "優臆美ギルドへ行き、ギヨームにあわせてやればいい。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 64562,
+    "msg_index": 461,
+    "japanese": "の[02A1]長には者で日えると幸の員験が近っているであろう。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 64640,
+    "msg_index": 462,
+    "japanese": "[0494][0495]によると、者勲に目が[0646]生える達には１２８０００の員験が近っていると言われているので参必にしなさい。",
+    "coverage": 94,
+    "glyph_count": 51
+  },
+  {
+    "resource": 1353,
+    "offset": 64748,
+    "msg_index": 463,
+    "japanese": "は既に目が[0646]生えているようだな。",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 64794,
+    "msg_index": 464,
+    "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 64876,
+    "msg_index": 465,
+    "japanese": "優臆美ギルドへ行き、ギヨームにあわせてやればいい。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 64930,
+    "msg_index": 466,
+    "japanese": "の[02A1]長には者で日えると幸の員験が近っているであろう。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 65008,
+    "msg_index": 467,
+    "japanese": "[0494][0495]によると、者勲に目が[0646]生える達には１２８０００の員験が近っていると言われているので参必にしなさい。",
+    "coverage": 94,
+    "glyph_count": 51
+  },
+  {
+    "resource": 1353,
+    "offset": 65116,
+    "msg_index": 468,
+    "japanese": "は既に目が[0646]生えているようだな。",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 65162,
+    "msg_index": 469,
+    "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 65244,
+    "msg_index": 470,
+    "japanese": "優臆美ギルドへ行き、ギヨームにあわせてやればいい。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 65298,
+    "msg_index": 471,
+    "japanese": "の[02A1]長には者で日えると幸の員験が近っているであろう。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 65376,
+    "msg_index": 472,
+    "japanese": "[0494][0495]によると、者勲に目が[0646]生える達には１２８０００の員験が近っていると言われているので参必にしなさい。",
+    "coverage": 94,
+    "glyph_count": 51
+  },
+  {
+    "resource": 1353,
+    "offset": 65484,
+    "msg_index": 473,
+    "japanese": "は既に目が[0646]生えているようだな。",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 65530,
+    "msg_index": 474,
+    "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 65612,
+    "msg_index": 475,
+    "japanese": "優臆美ギルドへ行き、ギヨームにあわせてやればいい。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 65666,
+    "msg_index": 476,
+    "japanese": "の[02A1]長には者で日えると幸の員験が近っているであろう。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 65744,
+    "msg_index": 477,
+    "japanese": "[0494][0495]によると、者勲に目が[0646]生える達には１２８０００の員験が近っていると言われているので参必にしなさい。",
+    "coverage": 94,
+    "glyph_count": 51
+  },
+  {
+    "resource": 1353,
+    "offset": 65852,
+    "msg_index": 478,
+    "japanese": "優臆美解は[0509]期を編え、一息ついた。",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 65888,
+    "msg_index": 479,
+    "japanese": "どうだ、命加したかね？また[0509]期して能しくなったらここへ帰るといいだろう。",
+    "coverage": 97,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 65966,
+    "msg_index": 480,
+    "japanese": "暗持臆が加りなかった！。",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 65992,
+    "msg_index": 481,
+    "japanese": "なんだ、臆が加りないのか。余も[05EC][06BE]事買をやっているわけではないので、それではみてやれんな。",
+    "coverage": 96,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1353,
+    "offset": 66088,
+    "msg_index": 482,
+    "japanese": "臆に[043D][05DC]ができれば、また帰るといい。",
+    "coverage": 89,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 66128,
+    "msg_index": 483,
+    "japanese": "そうか、必[0409]ないか。探かに行の者の目をのぞくなど忍[032A]質なことではある。",
+    "coverage": 94,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 66204,
+    "msg_index": 484,
+    "japanese": "[0417]町があれば、また帰るといい。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 66236,
+    "msg_index": 485,
+    "japanese": "アルバイト商店でアルバイトをしているオークに出会った。",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 66294,
+    "msg_index": 486,
+    "japanese": "オークも顔を備えていたらしく[02F2]しそうに多復ってきた。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 66350,
+    "msg_index": 487,
+    "japanese": "どっ、どうもです～～～オダのことわかりますだか？えっと！アルバイトしてますだ ",
+    "coverage": 100,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 66438,
+    "msg_index": 488,
+    "japanese": "うれしいだ～もしかしてオダたちがしんぱいでようす、みにきてくでたですか？",
+    "coverage": 100,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 66520,
+    "msg_index": 489,
+    "japanese": "オダたちがんばりますだよ でわっ、せんぱいもがんばってくだせえ ",
+    "coverage": 100,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 66594,
+    "msg_index": 490,
+    "japanese": "オークは[02F2]しそうに素[043C]以買に戻った。",
+    "coverage": 89,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 66634,
+    "msg_index": 491,
+    "japanese": "アルバイトの信頼度が５外がった ",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 66676,
+    "msg_index": 492,
+    "japanese": "[0444]の中には何か入っていそうだ。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 66708,
+    "msg_index": 493,
+    "japanese": "[0444]を開けてみますか？は いいいえ",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 66752,
+    "msg_index": 494,
+    "japanese": "[0444]のひもをといてみると中から[040C]のようなものが出てきた。",
+    "coverage": 93,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 66810,
+    "msg_index": 495,
+    "japanese": "[040C]はあっという嫌に街所中に[01E8]がり、召[03F2]を向くした。",
+    "coverage": 88,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 66864,
+    "msg_index": 496,
+    "japanese": "[040C]の[01E8]がった街所の中にはいつの嫌にか魔物の良があった！ ",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1353,
+    "offset": 66924,
+    "msg_index": 497,
+    "japanese": "魔物との戦いが編わると、足長の[040C]もなくなっていた。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 66978,
+    "msg_index": 498,
+    "japanese": "やめておくことにした。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 67002,
+    "msg_index": 499,
+    "japanese": "[0444]の中はからっぽだ！。",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 67026,
+    "msg_index": 500,
+    "japanese": "[0444]の中には何か入っていそうだ。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 67058,
+    "msg_index": 501,
+    "japanese": "[0444]を開けてみますか？は いいいえ",
+    "coverage": 94,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 67102,
+    "msg_index": 502,
+    "japanese": "[0444]の中には[0339][0336]な臆発のカギが入っていた。",
+    "coverage": 85,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 67146,
+    "msg_index": 503,
+    "japanese": "臆のカギを力に入れた ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 67182,
+    "msg_index": 504,
+    "japanese": "やめておくことにした。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 67206,
+    "msg_index": 505,
+    "japanese": "[0444]の中はからっぽだ！。",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 67230,
+    "msg_index": 506,
+    "japanese": "イおーい、容けてくれ  ゴ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 67258,
+    "msg_index": 507,
+    "japanese": "イ過かいたら ここから出してくれ  ゴ",
+    "coverage": 100,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 67302,
+    "msg_index": 508,
+    "japanese": "イ頼むよ、魔物でも魔女でも 過でもいいからよ ゴ",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 67356,
+    "msg_index": 509,
+    "japanese": "険り界く[069A]の中から、騎騎者の容けを有める[04D1]び声が聞こえてきた。",
+    "coverage": 94,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 67424,
+    "msg_index": 510,
+    "japanese": "騎騎者はテュルゴーだった。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 67452,
+    "msg_index": 511,
+    "japanese": "テュルゴーは[069A]のふちにしがみつきぶら忍がっていた。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 67508,
+    "msg_index": 512,
+    "japanese": "はテュルゴーを[069A]の中から祠き外げた。",
+    "coverage": 94,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 67552,
+    "msg_index": 513,
+    "japanese": "テュルゴーおお、損の容け！！。",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 67584,
+    "msg_index": 514,
+    "japanese": "まじ、[036D]われたよ！。報をあの[069A]に落しちまってよ、",
+    "coverage": 92,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 67636,
+    "msg_index": 515,
+    "japanese": "択てて取ろうとしたら加をすべらせてこの[0470][01BC]さ！。",
+    "coverage": 92,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 67688,
+    "msg_index": 516,
+    "japanese": "可は連れてくるし[0141]は[0452]くなるし、まじ、[028E]にかけていたんだよ。",
+    "coverage": 90,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 67752,
+    "msg_index": 517,
+    "japanese": "ほんと、容かった、ありがとうな ",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 67786,
+    "msg_index": 518,
+    "japanese": "イグワッハハハ  そりゃあ、 バチってもんだ  ゴ",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 67846,
+    "msg_index": 519,
+    "japanese": "義器、ダミ声が経き渡った。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 67874,
+    "msg_index": 520,
+    "japanese": "それは重装のワープゾーンから抜れた失消の与の多い声だった。",
+    "coverage": 100,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 67938,
+    "msg_index": 521,
+    "japanese": "与は失[02A1]を[0372]すりながら多づいてきた。",
+    "coverage": 89,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 67978,
+    "msg_index": 522,
+    "japanese": "ア、アンガス[03DE]長！！なんで、てめえがこんなところに。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 68034,
+    "msg_index": 523,
+    "japanese": "アンガスなぁにインゴって稀[0338]に聞いたら、おめえにも報をあげたっていう質じゃねえか。",
+    "coverage": 98,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1353,
+    "offset": 68122,
+    "msg_index": 524,
+    "japanese": "だから、ちょいとおめえがこそこそと紹れている良をのぞきに帰たってわけさ。",
+    "coverage": 100,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 68200,
+    "msg_index": 525,
+    "japanese": "なあテュルゴーよ、よく聞け ",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1353,
+    "offset": 68230,
+    "msg_index": 526,
+    "japanese": "バチだよ、バチ  築主を持ちながら、何もしないお両を損[01BC]がバチを[020B]えたんだよ。",
+    "coverage": 95,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 68314,
+    "msg_index": 527,
+    "japanese": "なに言ってやがんだ！。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 68338,
+    "msg_index": 528,
+    "japanese": "なにがバチだよ、[0464]言は[0464]てから言いやがれ ",
+    "coverage": 90,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 68384,
+    "msg_index": 529,
+    "japanese": "てめえは、俺をイジメてえだけじゃねえのかよ。",
+    "coverage": 100,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 68432,
+    "msg_index": 530,
+    "japanese": "そうだろ？[03DE]庁[0500]の転らがみんなびびって、過も行く転がいねえから、",
+    "coverage": 94,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 68502,
+    "msg_index": 531,
+    "japanese": "この俺を魔女[04A4][0346]に[03D6]り込もうとしているだけじゃねえか ",
+    "coverage": 89,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 68560,
+    "msg_index": 532,
+    "japanese": "そんなに魔女を忘したければ力両がやればいいじゃねえかよ  ",
+    "coverage": 100,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 68622,
+    "msg_index": 533,
+    "japanese": "！ああ、できればな。",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 68644,
+    "msg_index": 534,
+    "japanese": "おめえなんかに頼まなくても、俺が戦えたら、とっくにそうしている。",
+    "coverage": 100,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 68712,
+    "msg_index": 535,
+    "japanese": "[03DE]長の顔が、法しげな[0390][016A]に新わった。",
+    "coverage": 83,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 68752,
+    "msg_index": 536,
+    "japanese": "俺はな、もう鎧は石れねえんだ。",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 68784,
+    "msg_index": 537,
+    "japanese": "[0180][04A2]美両の戦調の時に、可を退めちまったせいで、戦いたくても戦えねんだよ！。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 68864,
+    "msg_index": 538,
+    "japanese": "なあ、テュルゴー、おめえは、必えたことあるか？",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 68914,
+    "msg_index": 539,
+    "japanese": "なんで値色にそんな兜層な築主があるのかって。",
+    "coverage": 100,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 68962,
+    "msg_index": 540,
+    "japanese": "者嫌はな、過しもいろんな築主を持って生まれてくる。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 69016,
+    "msg_index": 541,
+    "japanese": "宮が箱い転、可っぷしの箱い転、魔法のうまい転や、力[01A1]の[048F]毒な転！、",
+    "coverage": 94,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 69086,
+    "msg_index": 542,
+    "japanese": "それはな、損[01BC]がちゃんと必えて[020B]えてくれているもんなんだよ。",
+    "coverage": 93,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 69150,
+    "msg_index": 543,
+    "japanese": "みんなが主を合わせて、[01CC]せな[032A][03F2]を以り出すためにな。",
+    "coverage": 88,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 69206,
+    "msg_index": 544,
+    "japanese": "おい、テュルゴー、俺達は腕、このドゥーハンで生まれ[04BB]った、いわば[0622][0626]だ。",
+    "coverage": 92,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 69284,
+    "msg_index": 545,
+    "japanese": "そして盗は、俺達を[04BB]ててくれた、かあちゃんみたいなものだ、そうだろ？",
+    "coverage": 97,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 69358,
+    "msg_index": 546,
+    "japanese": "そのかあちゃんがいま、俺達の主を必[0409]としているんだよ。",
+    "coverage": 96,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 69416,
+    "msg_index": 547,
+    "japanese": "おめえのその主、[014B]りある者生の中で、一度だけでいい、俺達のかあちゃんのために度う[0141]はねえかい？",
+    "coverage": 96,
+    "glyph_count": 47
+  },
+  {
+    "resource": 1353,
+    "offset": 69516,
+    "msg_index": 548,
+    "japanese": "テュルゴーは種ったまま何も言わない。",
+    "coverage": 100,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1353,
+    "offset": 69556,
+    "msg_index": 549,
+    "japanese": "しばらくして、テュルゴーが口を開いた。",
+    "coverage": 100,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 69598,
+    "msg_index": 550,
+    "japanese": "！[028E]んだら、どうすんだよ。",
+    "coverage": 92,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 69626,
+    "msg_index": 551,
+    "japanese": "これは[03DE]長としてじゃなく、一者の与として言わしてくれ。",
+    "coverage": 96,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 69684,
+    "msg_index": 552,
+    "japanese": "俺なら、[028E]んだまま生きるよりも、でかい[046E]を持ったまま[028E]にてえ。",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 69750,
+    "msg_index": 553,
+    "japanese": "この盗と者神を[036D]うってことは、でかい[046E]にならねえか？",
+    "coverage": 92,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 69806,
+    "msg_index": 554,
+    "japanese": "！わかったよ、だけどな、もし[028E]んだら、[0337][042A]をちゃんと出せよ。",
+    "coverage": 90,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 69872,
+    "msg_index": 555,
+    "japanese": "受け取り者は過もいないから、俺の箱っている[0547]に壁地復町しいものを名わせてやってくれ。",
+    "coverage": 98,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 69962,
+    "msg_index": 556,
+    "japanese": "わかったかよ？じゃないと絶将やらねえからな。",
+    "coverage": 100,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 70010,
+    "msg_index": 557,
+    "japanese": "[03DE]長は系しげに多い、テュルゴーの重中を[0180]回ほどトントンと[032E]いた。",
+    "coverage": 91,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 70080,
+    "msg_index": 558,
+    "japanese": "わかったぜ、わかった。おめえはやっぱり系しい稀[0338]だ、絶将、その民却は内るぜ ",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1353,
+    "offset": 70162,
+    "msg_index": 559,
+    "japanese": "あんたには[0180]回も[01BA]を容けてもらったな、感[03AB]しているぜ。",
+    "coverage": 89,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 70220,
+    "msg_index": 560,
+    "japanese": "もし、俺の主を必[0409]とするなら、いつでも言ってくれな。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 70276,
+    "msg_index": 561,
+    "japanese": "俺は一加[01A1]に盗に戻って、騎騎者ギルドで庫落をすませておくからよ。",
+    "coverage": 97,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 70346,
+    "msg_index": 562,
+    "japanese": "イ待てよ、オッサン ゴ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 70370,
+    "msg_index": 563,
+    "japanese": "イ俺は[01AB][053F]の秘を 持ってねえんだよ ゴ",
+    "coverage": 89,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 70414,
+    "msg_index": 564,
+    "japanese": "テュルゴーは[03DE]長の装を択てて漢いかけて言った。",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 70464,
+    "msg_index": 565,
+    "japanese": "テュルゴーが騎騎者[0170]街に庫落されました。",
+    "coverage": 95,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 70516,
+    "msg_index": 566,
+    "japanese": "イアウローラが 損かもしれんと 必えたことがあるか？ゴ",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1353,
+    "offset": 70580,
+    "msg_index": 567,
+    "japanese": "エルフ数のウーリがゆっくりと多づいてきた。",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 70626,
+    "msg_index": 568,
+    "japanese": "ウーリ生者と[028E]者を色かつものとは何だ？",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 70666,
+    "msg_index": 569,
+    "japanese": "かつて生[01BA][05A7]部という代[041A]を騎し、兜いなる[01D1]に[03D4]んではみたが、今もその呪[0487]は倒き全かせぬ。",
+    "coverage": 86,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 70760,
+    "msg_index": 570,
+    "japanese": "俺はずっとあいつの事を必えていた。",
+    "coverage": 100,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 70796,
+    "msg_index": 571,
+    "japanese": "もし大[028E]と高ばれるものが者器し、アウローラが役内にそうならば、",
+    "coverage": 97,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 70862,
+    "msg_index": 572,
+    "japanese": "転こそ、長美の[01D1]を倒き全かす報になるのでないかと。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 70916,
+    "msg_index": 573,
+    "japanese": "錠、俺が出した敏[0471]は、大[028E]は[04DA]者がもてあそぶ[03A6]商外の武器に過ぎないということだった。",
+    "coverage": 90,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 71006,
+    "msg_index": 574,
+    "japanese": "探かにゾンビなどを気して、大[028E]という言[0387]を度う時はあるが。",
+    "coverage": 93,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 71068,
+    "msg_index": 575,
+    "japanese": "やつらは、[04F6][02A1]の[04D4][03F1]と[0150]生を[0421]り大す[028E]者に過ぎぬ。",
+    "coverage": 72,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 71122,
+    "msg_index": 576,
+    "japanese": "生きていた時の[01BF][01C0]も客識もなく、ただひたすら武器しているだけだ。",
+    "coverage": 94,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1353,
+    "offset": 71190,
+    "msg_index": 577,
+    "japanese": "なぜ、大[028E]は武器し得ないのか？",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 71222,
+    "msg_index": 578,
+    "japanese": "生[01BA]は、時がもたらす買協に[0603]え該れないからだよ。",
+    "coverage": 92,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 71274,
+    "msg_index": 579,
+    "japanese": "だが、転は生きている。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 71298,
+    "msg_index": 580,
+    "japanese": "俺には、それが大思衛でならない。",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 71332,
+    "msg_index": 581,
+    "japanese": "ウーリは言[0387]を限めた。その[0390][016A]が[0297]く思[0455]に[058E]む。",
+    "coverage": 75,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 71384,
+    "msg_index": 582,
+    "japanese": "[061C]奉美両のナルキアという息に転が出抜した時、こう言っている。",
+    "coverage": 97,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1353,
+    "offset": 71448,
+    "msg_index": 583,
+    "japanese": "地[0497]という美[04C0]を生き、脱唱の王息の[0408][0437]に待ち会ってきたと。",
+    "coverage": 86,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 71510,
+    "msg_index": 584,
+    "japanese": "どう思う？もしそれが役内ならば、彼神が知る[06B5]か錠から武器したということになる。",
+    "coverage": 97,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 71594,
+    "msg_index": 585,
+    "japanese": "俺には、それが信じられないのだ。",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 71628,
+    "msg_index": 586,
+    "japanese": "もし、地[0497]美もの長き時を生き[01B5]け、まともな[044F]損でいられる者がいるとしたら、そいつは損だ。",
+    "coverage": 93,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 71722,
+    "msg_index": 587,
+    "japanese": "彼神エルフ数ですら、その[01BA]は[0497]美と言われている。",
+    "coverage": 92,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1353,
+    "offset": 71774,
+    "msg_index": 588,
+    "japanese": "探かにあらゆる知識と魔美に長けた彼神だ、さらなる大[04FC]を野気したとしたら[01DD]築であろう。",
+    "coverage": 95,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1353,
+    "offset": 71864,
+    "msg_index": 589,
+    "japanese": "だが、過もそれを売そうとはしない。",
+    "coverage": 100,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 71900,
+    "msg_index": 590,
+    "japanese": "なぜならエルフ数であるならば、時が[055A]を[0435]名させることを過もが知っているからだ。",
+    "coverage": 95,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 71984,
+    "msg_index": 591,
+    "japanese": "お両は必えたことがあるか？",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 72012,
+    "msg_index": 592,
+    "japanese": "もし、値色に地[0497]美の[01BA]があるとしたらどうなるかと。",
+    "coverage": 92,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 72066,
+    "msg_index": 593,
+    "japanese": "長く武しい地神が[01B5]くと思うか？",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 72098,
+    "msg_index": 594,
+    "japanese": "必ずや、いかなる者であっても生にうみ、地神の感[016A]が[0585][03F0]していくだろう。",
+    "coverage": 91,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 72174,
+    "msg_index": 595,
+    "japanese": "生[01BA]とは[0169]に新[03F0]を有めるものだ。",
+    "coverage": 81,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 72208,
+    "msg_index": 596,
+    "japanese": "目を[0143]く功かす出帰事や、[04F6][02A1]をつかさどるあらゆる感備も、時の[0435]名にはかなわぬ。",
+    "coverage": 90,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 72292,
+    "msg_index": 597,
+    "japanese": "彼神が大[028E]を力に入れたとしても、その買協に[0603]え該れないだろう。",
+    "coverage": 94,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 72358,
+    "msg_index": 598,
+    "japanese": "だが、転は生きている。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 72382,
+    "msg_index": 599,
+    "japanese": "もし、あやつが損でなければ、俺達は、何かを見落としているに違いない、闘[0409]な何かをな！！。",
+    "coverage": 98,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1353,
+    "offset": 72476,
+    "msg_index": 600,
+    "japanese": "ウーリはうつむき、しばらく何かに必えを[0687]らせていた。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 72534,
+    "msg_index": 601,
+    "japanese": "いかに知与な[06B7]向であっても、大探者な事[04E8]を取り[049B]いていって、[01BE]装にそれが退るなら、それは[04A6]者だ。",
+    "coverage": 90,
+    "glyph_count": 48
+  },
+  {
+    "resource": 1353,
+    "offset": 72636,
+    "msg_index": 602,
+    "japanese": "これは優臆美解の必え今の[0490]役でな。",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1353,
+    "offset": 72672,
+    "msg_index": 603,
+    "japanese": "俺は値色の[06B7]向を探かめるため、もう一度、第５層の置形王息[03DA]に行ってみる。",
+    "coverage": 94,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1353,
+    "offset": 72750,
+    "msg_index": 604,
+    "japanese": "この名層まで[03D5]り果いたが、俺はアウローラを忘すことにも、この息の[0514]帰にも[0417]町はないのでね。",
+    "coverage": 93,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1353,
+    "offset": 72846,
+    "msg_index": 605,
+    "japanese": "ウーリはそう言って着多み、防っていった。",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 72890,
+    "msg_index": 606,
+    "japanese": "ヴァーゴキャスタ通独の[01A1]に、ヴァーゴとキャスタがいるのを見かけた。",
+    "coverage": 97,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1353,
+    "offset": 72960,
+    "msg_index": 607,
+    "japanese": "イこの更去オーク ゴ",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1353,
+    "offset": 72982,
+    "msg_index": 608,
+    "japanese": "イぐ！にくたらしいど！ゴ",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 73010,
+    "msg_index": 609,
+    "japanese": "なにかもめているようだ。",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 73036,
+    "msg_index": 610,
+    "japanese": "その[01BC]所を見つめていると[0180]者ともこちらに[0141]着いたらしく王み復ってきた。",
+    "coverage": 91,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 73112,
+    "msg_index": 611,
+    "japanese": "あら、また会ったねえ 役内ならとっくに元の時形に戻ってるはずだったんだけど！。",
+    "coverage": 100,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 73196,
+    "msg_index": 612,
+    "japanese": "ヴァーゴはキャスタをじろりとにらみつけた。",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 73242,
+    "msg_index": 613,
+    "japanese": "この更去が、５名で[0505]こまってた時の下呪で場暗を[01C7]れちまったなんて言うんだ ",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1353,
+    "offset": 73322,
+    "msg_index": 614,
+    "japanese": "お！オダのブルブルハートがオメエなんかにわかってたまるかよぅ ",
+    "coverage": 100,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 73390,
+    "msg_index": 615,
+    "japanese": "はん、わかりたくもないね ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 73418,
+    "msg_index": 616,
+    "japanese": "ヴァーゴはキャスタにそっぽを向くと、こちらに質しをふった。",
+    "coverage": 100,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 73480,
+    "msg_index": 617,
+    "japanese": "あんた、ここら[0126]には同しいかい？街所の[04A6]ん中にでっかい関[05C1]が取られている暗に行きたいんだ。",
+    "coverage": 93,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1353,
+    "offset": 73576,
+    "msg_index": 618,
+    "japanese": "どうだい、支れてってくれたらまたなにかお[0368]はするよ。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1353,
+    "offset": 73632,
+    "msg_index": 619,
+    "japanese": "よかった あんたならやってくれるって思ってたんだ ",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 73688,
+    "msg_index": 620,
+    "japanese": "この名だっていうことは嫌違いないみたいだからさ、支れてってくれるだけでいいよ。",
+    "coverage": 100,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 73772,
+    "msg_index": 621,
+    "japanese": "あたし達はあんたの装ろを仰力についていくから、[0159]魔だってしないしね ",
+    "coverage": 97,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 73846,
+    "msg_index": 622,
+    "japanese": "さあ、はやいこと[01AB]りたいから頼んだよ ",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 73888,
+    "msg_index": 623,
+    "japanese": "崩ったねえ！。このブタと[0180]者じゃ、素[043C]にも[014B][03F2]があるからねえ。",
+    "coverage": 87,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1353,
+    "offset": 73956,
+    "msg_index": 624,
+    "japanese": "一今ない、一[0641]４名に戻って一該りなおしといこうか。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 74010,
+    "msg_index": 625,
+    "japanese": "そういうわけだからさ、また一度４名に戻るから、もし祠き受けてくれる[0141]になったら帰ておくれよ。",
+    "coverage": 98,
+    "glyph_count": 46
+  },
+  {
+    "resource": 1353,
+    "offset": 74108,
+    "msg_index": 626,
+    "japanese": "ヴァーゴキャスタイあっ！ここ、ここだべ ゴ",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 74154,
+    "msg_index": 627,
+    "japanese": "キャスタが兜声を出した。",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1353,
+    "offset": 74180,
+    "msg_index": 628,
+    "japanese": "あらやだ、ほんとにあの関[05C1]とよく[0526]たもんだ ",
+    "coverage": 91,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1353,
+    "offset": 74228,
+    "msg_index": 629,
+    "japanese": "んだべ、んだべ ここからきっと、かえれるだよ ",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1353,
+    "offset": 74280,
+    "msg_index": 630,
+    "japanese": "うんうん、こりゃあ絶将[01AB]れるに違いないよ ",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 74326,
+    "msg_index": 631,
+    "japanese": "ヴァーゴは[02F2]しそうだ。",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 74350,
+    "msg_index": 632,
+    "japanese": "あんたにゃ、何から何まで[032A]質になって感[03AB]してるよ。",
+    "coverage": 92,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 74404,
+    "msg_index": 633,
+    "japanese": "こんな置ぼけた時形に帰ちまってロクなことがないと思ってたけど、[0420]該にされたら向い[0141]がしないね。",
+    "coverage": 96,
+    "glyph_count": 47
+  },
+  {
+    "resource": 1353,
+    "offset": 74504,
+    "msg_index": 634,
+    "japanese": "んだ、んだ オメエのおかげでオダのたっといイノチもたすかっただよ！ ",
+    "coverage": 100,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 74580,
+    "msg_index": 635,
+    "japanese": "そうだ、お[0368]もちゃんと渡さないとねえ ",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1353,
+    "offset": 74622,
+    "msg_index": 636,
+    "japanese": "ヴァーゴはそういうと、値色の気にはめていた[0339][0336]な気[03C4]を義しこちらに差し出した。",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1353,
+    "offset": 74706,
+    "msg_index": 637,
+    "japanese": "今度こそあんたに会うことは[0180]度とないだろうけど、たまにはこの気[03C4]を見て思い出しておくれよ ",
+    "coverage": 96,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1353,
+    "offset": 74802,
+    "msg_index": 638,
+    "japanese": "さあ、キャスタ ここへ帰た時みたいに関[05C1]をけずるから、あんたも多くにいるんだよ ",
+    "coverage": 98,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1353,
+    "offset": 74888,
+    "msg_index": 639,
+    "japanese": "ほうせきドロボーはわるいだど、こんかいばっかりは、しかたないだよな！。",
+    "coverage": 100,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 74966,
+    "msg_index": 640,
+    "japanese": "ヴァーゴはナイフを取り出し力にしっかり石ると、関[05C1]をけずりにかかった。",
+    "coverage": 97,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 75042,
+    "msg_index": 641,
+    "japanese": "キャスタはヴァーゴの装ろにぴたりとくっついて、その[01BC]所を見つめている。",
+    "coverage": 97,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1353,
+    "offset": 75118,
+    "msg_index": 642,
+    "japanese": "ヴァーゴのナイフが関[05C1]に力れたその時！ ",
+    "coverage": 95,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1353,
+    "offset": 75162,
+    "msg_index": 643,
+    "japanese": "限力街色からおびただしい険があふれ、街所用[02A1]を持み込んだ。",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1353,
+    "offset": 75224,
+    "msg_index": 644,
+    "japanese": "イこの感備は帰た時と同じだよ ゴ",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1353,
+    "offset": 75258,
+    "msg_index": 645,
+    "japanese": "イオダたち、もどれるだな！ ゴ",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1353,
+    "offset": 75292,
+    "msg_index": 646,
+    "japanese": "険によってまわりの[01BC]所は用く見えないが、[0180]者の声だけが聞こえてくる。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1353,
+    "offset": 75366,
+    "msg_index": 647,
+    "japanese": "イもう[02A1]が子[03D6]されそうだ、ありがとうね ゴ",
+    "coverage": 90,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1353,
+    "offset": 75416,
+    "msg_index": 648,
+    "japanese": "イげんきでやるだよ ゴ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1353,
+    "offset": 75442,
+    "msg_index": 649,
+    "japanese": "険が消えた達には、もう[0180]者の良はなくなっていた！。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1353,
+    "offset": 75496,
+    "msg_index": 650,
+    "japanese": "魔美解の気[03C4]を力に入れた ",
+    "coverage": 92,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1353,
+    "offset": 75536,
+    "msg_index": 651,
+    "japanese": "ヴァーゴ達は辺事、元の時形に戻れたのであろうか。",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 7136,
+    "msg_index": 0,
+    "japanese": "[01E8]嫌へと通されたは、ウェブスター卿に出上えられた。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 7196,
+    "msg_index": 1,
+    "japanese": "ウェブスターいまゼルから報[0197]があったよ。",
+    "coverage": 95,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1354,
+    "offset": 7238,
+    "msg_index": 2,
+    "japanese": "殿忍の気[03C4]を見つけてくれたらしいな、[0368]を言う。",
+    "coverage": 91,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 7288,
+    "msg_index": 3,
+    "japanese": "これで殿忍の[0609]が迷宮に紹されていることは探者だ。",
+    "coverage": 96,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 7340,
+    "msg_index": 4,
+    "japanese": "一[01E9]も早く、[059F][043C]隊を何入し、殿忍の[0609]を取り戻すつもりだ。",
+    "coverage": 86,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 7400,
+    "msg_index": 5,
+    "japanese": "これでやっと殿忍も呪かばれるな。",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1354,
+    "offset": 7434,
+    "msg_index": 6,
+    "japanese": "さあ、あちらで[0436]忍がお待ちだ。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 7466,
+    "msg_index": 7,
+    "japanese": "ウェブスター卿がを息王のところに[0455]長しようとしたその時、",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 7532,
+    "msg_index": 8,
+    "japanese": "義器、[01E8]嫌にしわがれた声が経き渡った。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1354,
+    "offset": 7574,
+    "msg_index": 9,
+    "japanese": "イはるか[0460]奉美両、セポイの王はこう言ったゴ",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1354,
+    "offset": 7624,
+    "msg_index": 10,
+    "japanese": "イ値色の生きている嫌に[05B6]今へと男を[03D6]り、用兜[0416]を立[03CF]に入れるとゴ",
+    "coverage": 88,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 7702,
+    "msg_index": 11,
+    "japanese": "イ探かに[01DD]築だったであろう。その罰の美に[04A2][05B7]もの男帰が変されていなければなゴ",
+    "coverage": 92,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1354,
+    "offset": 7790,
+    "msg_index": 12,
+    "japanese": "[01C5]交いマントに腕を持んだ[04FC]者が、男帰の持限を後り該って多づいてきている。",
+    "coverage": 94,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1354,
+    "offset": 7868,
+    "msg_index": 13,
+    "japanese": "！！なんという[0470][01BC]だ。",
+    "coverage": 82,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 7892,
+    "msg_index": 14,
+    "japanese": "[045E][046D]の者は何をしているのだ ",
+    "coverage": 86,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 7922,
+    "msg_index": 15,
+    "japanese": "そいつが、ここまで帰るのに過も[0141]がつかなかったと言うのか。",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 7984,
+    "msg_index": 16,
+    "japanese": "さっさと、漢い出さないか ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1354,
+    "offset": 8012,
+    "msg_index": 17,
+    "japanese": "イかまわぬ、通してやれ ゴ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1354,
+    "offset": 8040,
+    "msg_index": 18,
+    "japanese": "イ兜魔運解ウェズベルだ。彼を[05B3]限できる者などこの[032A]にはおらぬゴ",
+    "coverage": 94,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 8116,
+    "msg_index": 19,
+    "japanese": "オルトルード息王は、ウェブスター卿と、[04FC]者を取り[01D7]さえるべく変[0535]した男帰達にそう[01BA]孤した。",
+    "coverage": 91,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1354,
+    "offset": 8214,
+    "msg_index": 20,
+    "japanese": "ウェズベル置形ギルテンのドラクル[01E3]帰前はその達[05B8]さで、わずか[0180]美の嫌に[05B1]つの息を立[03CF]に入れた。",
+    "coverage": 89,
+    "glyph_count": 47
+  },
+  {
+    "resource": 1354,
+    "offset": 8314,
+    "msg_index": 21,
+    "japanese": "中奉美両に[0408][0437]したイリキア[05B5]の魔運解達は、その魔主で[057B][05B4]をも功かす主があった。",
+    "coverage": 87,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1354,
+    "offset": 8398,
+    "msg_index": 22,
+    "japanese": "じゃが、みな[0408]んだ そう、あの女が[0408]ぼしたのだ ",
+    "coverage": 92,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 8450,
+    "msg_index": 23,
+    "japanese": "[0575]兜なる息集は、いまはもう、この[032A]に武器したという[05AF][03DA]すら退っておらぬ。",
+    "coverage": 89,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1354,
+    "offset": 8528,
+    "msg_index": 24,
+    "japanese": "わしが何を言わんとしておるかわかるか、オルトルードよ？",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 8586,
+    "msg_index": 25,
+    "japanese": "オルトルードなぜ兜魔運解ウェズベルの必えが、この余にわかるというのだ？",
+    "coverage": 100,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1354,
+    "offset": 8660,
+    "msg_index": 26,
+    "japanese": "余はそれほど値[05AE]れておらぬ。",
+    "coverage": 93,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 8690,
+    "msg_index": 27,
+    "japanese": "だが、わざわざ[02BF]全の[05AD]探に、板れたわけでもあるまい。",
+    "coverage": 92,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 8746,
+    "msg_index": 28,
+    "japanese": "兜魔運解ウェズベルよ、かつての王息の[05B2][04A4]を日に出し、余に何が言いたいのだ？",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1354,
+    "offset": 8826,
+    "msg_index": 29,
+    "japanese": "何を紹すオルトルード？",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 8850,
+    "msg_index": 30,
+    "japanese": "なぜドゥーハンは生き退っておる？",
+    "coverage": 100,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1354,
+    "offset": 8884,
+    "msg_index": 31,
+    "japanese": "この追美もの嫌、あの女が何もせずじっとしているのはなぜじゃ？",
+    "coverage": 100,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 8948,
+    "msg_index": 32,
+    "japanese": "あやつが役[0141]になれば、お消に[041A]いをかけるだけでなく、",
+    "coverage": 92,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 9004,
+    "msg_index": 33,
+    "japanese": "いともたやすくドゥーハンを[03F1][0408]させることはお消にもわかろう。",
+    "coverage": 93,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 9068,
+    "msg_index": 34,
+    "japanese": "お消は何か知っておるはずじゃ。それを役えてもらおう。",
+    "coverage": 100,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 9124,
+    "msg_index": 35,
+    "japanese": "[05AC]すな、ウェズベル。それでなくともくれは[03DF]低みなのだ。",
+    "coverage": 93,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 9182,
+    "msg_index": 36,
+    "japanese": "[035D][0438]を変され、[0577]ちゆく[041A]いのため地神の行功すらままならぬ。",
+    "coverage": 86,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 9244,
+    "msg_index": 37,
+    "japanese": "あの迷宮のおかげで緒息嫌の棄通をも限めざるを得ない。",
+    "coverage": 100,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 9300,
+    "msg_index": 38,
+    "japanese": "お両も見たであろう。彼がドゥーハンが見る[0453]もなく[0543]れている[0470][01BC]を。",
+    "coverage": 88,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1354,
+    "offset": 9372,
+    "msg_index": 39,
+    "japanese": "これ魔外の大[01CC]を、余に強めとでも言うつもりなのか。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 9426,
+    "msg_index": 40,
+    "japanese": "わしは知りたいだけじゃ。",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1354,
+    "offset": 9452,
+    "msg_index": 41,
+    "japanese": "かつて[05B0]所王と下れられ、戦遅のベノアを[038B]期に運いた与が、",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 9512,
+    "msg_index": 42,
+    "japanese": "王息武[0437]の[045B]習に待たされている今、なぜ、討伐隊と[050E]した復せ得めを[03D6]ることしかしていないのかと。",
+    "coverage": 91,
+    "glyph_count": 47
+  },
+  {
+    "resource": 1354,
+    "offset": 9612,
+    "msg_index": 43,
+    "japanese": "なぜあの魔女を[0380]き仰力にさせておく？",
+    "coverage": 94,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1354,
+    "offset": 9650,
+    "msg_index": 44,
+    "japanese": "[018A]待たる個[01E3]帰どもを配武し、お消が個[0528]どもの[04CE]態すらも倒かぬその[0190]器を知りたい。",
+    "coverage": 88,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1354,
+    "offset": 9736,
+    "msg_index": 45,
+    "japanese": "ウェズベル、[01D1]かけはもうよい。お両はなにが言いたい？",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 9792,
+    "msg_index": 46,
+    "japanese": "この余がアウローラと何か基民でも持ったと言いたいのか？",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 9850,
+    "msg_index": 47,
+    "japanese": "だからあの魔女は兜者しく、余の[0438]を変し、この腕[02A1]に[041A]いをかけ、迷宮を以り出すに限めていると。",
+    "coverage": 93,
+    "glyph_count": 46
+  },
+  {
+    "resource": 1354,
+    "offset": 9948,
+    "msg_index": 48,
+    "japanese": "ふんっ、バカバカしい ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 9972,
+    "msg_index": 49,
+    "japanese": "そんな[032A]迷言を必える[0633]があれば、討伐隊にでも参加してくれたほうがどれほど[02F2]しいか。",
+    "coverage": 93,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1354,
+    "offset": 10060,
+    "msg_index": 50,
+    "japanese": "ふむ！！。ということは、わしが素り出しても箱いと言うのじゃな？",
+    "coverage": 100,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 10128,
+    "msg_index": 51,
+    "japanese": "何を崩ることがある。過であろうと、魔女を討った者はドゥーハンの新たな[0576][0581]になる。",
+    "coverage": 95,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1354,
+    "offset": 10214,
+    "msg_index": 52,
+    "japanese": "そして余はそれを待ち強んでいる。余の[036A]いは、それだけだ。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 10274,
+    "msg_index": 53,
+    "japanese": "よかろう、では退嫌を得めて、わしも迷宮に御るとする。",
+    "coverage": 100,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 10330,
+    "msg_index": 54,
+    "japanese": "魔運解ウェズベルと息王のやりとりを回めていたウェブスター卿が、いぶかしい[0390][016A]を呪かべ多復ってきた。",
+    "coverage": 96,
+    "glyph_count": 49
+  },
+  {
+    "resource": 1354,
+    "offset": 10438,
+    "msg_index": 55,
+    "japanese": "何者です、あいつは？",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1354,
+    "offset": 10460,
+    "msg_index": 56,
+    "japanese": "かつて兜魔運解と下れられた与のなれの[03EB]てだ。",
+    "coverage": 95,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1354,
+    "offset": 10508,
+    "msg_index": 57,
+    "japanese": "魔女アウローラにすべてを[0523]われ、いまや[0437][0423]に[017C]しいがな！。",
+    "coverage": 86,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 10570,
+    "msg_index": 58,
+    "japanese": "思わぬ[0159]魔が入って申し[0559]ない。",
+    "coverage": 87,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 10602,
+    "msg_index": 59,
+    "japanese": "さあ、汝が見つけたという気[03C4]を、余に見せてくれないか？",
+    "coverage": 96,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 10660,
+    "msg_index": 60,
+    "japanese": "オルトルード息王はから気[03C4]を受け取り、それが王女の気[03C4]だと探索した。",
+    "coverage": 94,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1354,
+    "offset": 10736,
+    "msg_index": 61,
+    "japanese": "探かにこれはオリアーナのもの。だが、なぜそれが迷宮などにある？",
+    "coverage": 100,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 10802,
+    "msg_index": 62,
+    "japanese": "あやつの[0437][0423]に何の[01DC]長があるのだ？なぜその者は、あれの声息の[058B]りを[059D]げるのだ？",
+    "coverage": 87,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1354,
+    "offset": 10886,
+    "msg_index": 63,
+    "japanese": "さあ、それは武じません。しかしこれで何者かが、殿忍の[0609]を迷宮に紹していることは探かです。",
+    "coverage": 98,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1354,
+    "offset": 10980,
+    "msg_index": 64,
+    "japanese": "話ぎ、この余も迷宮へと御り、[059F][043C]隊に加わることにしましょう。",
+    "coverage": 93,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 11044,
+    "msg_index": 65,
+    "japanese": "ご声目ください。必ずや[0436]忍の心待にお[02EC]えするつもりです。",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 11104,
+    "msg_index": 66,
+    "japanese": "全るい多みを呪かべウェブスター卿は防っていった。",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 11156,
+    "msg_index": 67,
+    "japanese": "その良を回めていたオルトルードがぽつりと言った。",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 11208,
+    "msg_index": 68,
+    "japanese": "騎騎者よ、大思衛なものだな。さまざまな者がさまざまな思[0583]で、このドゥーハンに得まってきた。",
+    "coverage": 98,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1354,
+    "offset": 11304,
+    "msg_index": 69,
+    "japanese": "向しき目の者も、[06B7]なる者も腕、[046E]をかなえるために戦っている。",
+    "coverage": 93,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 11368,
+    "msg_index": 70,
+    "japanese": "ある者は、かつて辺くしたものを取り戻すために御り、",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 11422,
+    "msg_index": 71,
+    "japanese": "ある者は、まだ見ぬ[0514]帰への稀強を者抜させるために迷宮へと向かう。",
+    "coverage": 97,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 11490,
+    "msg_index": 72,
+    "japanese": "彼らが[04DC]に長に何を呪めていようと、それらがドゥーハンを[036D]うことになるのだ。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1354,
+    "offset": 11570,
+    "msg_index": 73,
+    "japanese": "何者であっても箱い。もしアウローラを忘す者がこの[032A]に武器するならば、",
+    "coverage": 97,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1354,
+    "offset": 11644,
+    "msg_index": 74,
+    "japanese": "余はこの王瓶を[042F]ってもよい。",
+    "coverage": 93,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 11674,
+    "msg_index": 75,
+    "japanese": "そう言ってオルトルードは、をじっと見つめた。",
+    "coverage": 100,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1354,
+    "offset": 11724,
+    "msg_index": 76,
+    "japanese": "もしかすると、汝がそうなのかもしれぬな。",
+    "coverage": 100,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1354,
+    "offset": 11786,
+    "msg_index": 78,
+    "japanese": "系しげな多みを呪かべ、オルトルードは防っていった。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 11840,
+    "msg_index": 79,
+    "japanese": "は城に入ると、[01E8]嫌のような場暗へと[0455]長された。",
+    "coverage": 91,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 11894,
+    "msg_index": 80,
+    "japanese": "何数属の与汝が新しい討伐隊の者だな。",
+    "coverage": 100,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1354,
+    "offset": 11932,
+    "msg_index": 81,
+    "japanese": "[01E3]帰前長のベルグラーノから報[0197]があったよ。",
+    "coverage": 90,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1354,
+    "offset": 11978,
+    "msg_index": 82,
+    "japanese": "[0470]強そうな新者が抜れたとね。",
+    "coverage": 93,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 12008,
+    "msg_index": 83,
+    "japanese": "申し遅れた、余はウェブスター卿、フェリー[001D]ルフォール。この息の[0601]影をつとめている。",
+    "coverage": 95,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1354,
+    "offset": 12096,
+    "msg_index": 84,
+    "japanese": "これからも何かと主を[0588]りることになると思う。よろしく頼む。",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 12158,
+    "msg_index": 85,
+    "japanese": "そう言って、ウェブスター卿は[0141]さくな多みを呪かべた。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 12214,
+    "msg_index": 86,
+    "japanese": "ウェブスターさあ、あちらへ。オルトルード息王がお待ちだ。上[03D6]隊のことを質してくれたまえ。",
+    "coverage": 98,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1354,
+    "offset": 12308,
+    "msg_index": 87,
+    "japanese": "たちは、[04C8]瓶の両まで級んでいった。",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 12348,
+    "msg_index": 88,
+    "japanese": "オルトルード息王は、[0362]着きの者に[03AA]水を立えられ、頼りない加取りで抜れた。",
+    "coverage": 94,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1354,
+    "offset": 12426,
+    "msg_index": 89,
+    "japanese": "息王は[0538][0539]などをはぶき、いきなり役れへと入った。",
+    "coverage": 92,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 12478,
+    "msg_index": 90,
+    "japanese": "オルトルード[01BE]多、上[03D6]隊の者への[042E][048E]がとみに野待つようになった。",
+    "coverage": 88,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 12546,
+    "msg_index": 91,
+    "japanese": "中には、騎騎者が決に新わり[03EB]て、上[03D6]隊を[042E]うという報[0197]もある。",
+    "coverage": 87,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 12612,
+    "msg_index": 92,
+    "japanese": "みなが[04A9]主して待ち向かわねばならぬ段を両にして、そのような事[0431]を見威すわけにはいかぬ。",
+    "coverage": 95,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1354,
+    "offset": 12704,
+    "msg_index": 93,
+    "japanese": "それで慎めて突ねるが、上[03D6]隊を[042E]っていたのは、魔物ということで嫌違いはないか？",
+    "coverage": 95,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1354,
+    "offset": 12788,
+    "msg_index": 94,
+    "japanese": "上[03D6]隊を[042E]ったのは？探かに魔物だった ！違うかもしれない",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 12856,
+    "msg_index": 95,
+    "japanese": "やはりこれまでの報[0197]と同じ、魔物どもの一買ということか！。",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 12918,
+    "msg_index": 96,
+    "japanese": "やれやれ、[01D1]は[0297]まるばかりだ。",
+    "coverage": 87,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 12950,
+    "msg_index": 97,
+    "japanese": "そばについているはずの[01E3]帰前は、みな物言わぬ[0423]となって、迷宮で[028E]んでいたという。",
+    "coverage": 92,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1354,
+    "offset": 13036,
+    "msg_index": 98,
+    "japanese": "さぞ、辺大だったに違いない。交[018A]をはらす習会を[020B]えられず、[028E]んでいったのだからな。",
+    "coverage": 93,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1354,
+    "offset": 13124,
+    "msg_index": 99,
+    "japanese": "ちまたでは、[01E3]帰前についてよからぬ[0422]が棄れていてな。",
+    "coverage": 92,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 13180,
+    "msg_index": 100,
+    "japanese": "いままでの上[03D6]隊の事受はすべて、[01E3]帰前の者が[05AA]てた種行だと。",
+    "coverage": 90,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 13244,
+    "msg_index": 101,
+    "japanese": "は、上[03D6]隊の女が受けていた[0327]口の[0331]のことを[0375]えた。",
+    "coverage": 84,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 13322,
+    "msg_index": 103,
+    "japanese": "[01E3]帰前の者ならば、[0331]など度わずとも、者を忘す美はいくらでも腕に着けておる。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1354,
+    "offset": 13402,
+    "msg_index": 104,
+    "japanese": "となると必えられる[02EC]えは一つ。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 13434,
+    "msg_index": 105,
+    "japanese": "魔物の[042E][048E]を受ける両に、上[03D6]隊は、何者かと限力した下れがあるということになる。",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1354,
+    "offset": 13518,
+    "msg_index": 106,
+    "japanese": "よいことを聞かせてくれた。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1354,
+    "offset": 13546,
+    "msg_index": 107,
+    "japanese": "なにやらちまたでは、[01E3]帰前についてよからぬ[0422]が棄れていてな。",
+    "coverage": 93,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 13610,
+    "msg_index": 108,
+    "japanese": "いままでの上[03D6]隊の事受はすべて、[01E3]帰前の者が[05AA]てた種行だと。",
+    "coverage": 90,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 13674,
+    "msg_index": 109,
+    "japanese": "更去げた質だが！！。",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1354,
+    "offset": 13696,
+    "msg_index": 110,
+    "japanese": "息王は中依をにらみ、兜きくため息をついた。",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1354,
+    "offset": 13742,
+    "msg_index": 111,
+    "japanese": "！！[016A]けないものだ。",
+    "coverage": 90,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1354,
+    "offset": 13764,
+    "msg_index": 112,
+    "japanese": "魔女の[041A]いのせいで、この腕[02A1]は[0577]ちゆく一今。今では王くのもままならぬ。",
+    "coverage": 91,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1354,
+    "offset": 13840,
+    "msg_index": 113,
+    "japanese": "この腕[02A1]が値器が[0439]くならば、値ら[01A1]宮に待って、道べにいくものを何も出帰ないとは！。",
+    "coverage": 93,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1354,
+    "offset": 13928,
+    "msg_index": 114,
+    "japanese": "と申したな。このたびの傷き、[0368]を言う。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1354,
+    "offset": 13972,
+    "msg_index": 115,
+    "japanese": "[0362]着きの者がの両に、まばゆく険る剣[0600]を差し出した。",
+    "coverage": 92,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 14030,
+    "msg_index": 116,
+    "japanese": "魔法の[0600]を力に入れた。",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 14064,
+    "msg_index": 117,
+    "japanese": "たいしたものではないが、魔法を宝した[0600]だ。大[028E]者影力には役に待つだろう。",
+    "coverage": 94,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1354,
+    "offset": 14142,
+    "msg_index": 118,
+    "japanese": "この度の情怖りの[0337]として受け取って能しい。",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1354,
+    "offset": 14188,
+    "msg_index": 119,
+    "japanese": "騎騎者よ、一つ突ねてよいか？",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 14218,
+    "msg_index": 120,
+    "japanese": "お両は何のために迷宮を御る？",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 14248,
+    "msg_index": 121,
+    "japanese": "臆のためか？ それとも[018A]療か？それとも野宿などなく戦うのか？",
+    "coverage": 97,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 14312,
+    "msg_index": 122,
+    "japanese": "迷宮を御る野宿は？臆のため  [018A]療のため 野宿などない",
+    "coverage": 96,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 14400,
+    "msg_index": 124,
+    "japanese": "かつての余には何もなかった。[03A2][04FF][0500]の[043A]消の所[0285]に生まれ、鎧一つ買うのにも協[0337]してな。",
+    "coverage": 86,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1354,
+    "offset": 14490,
+    "msg_index": 125,
+    "japanese": "だが、今思えばすべてを持っていた。",
+    "coverage": 100,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 14526,
+    "msg_index": 126,
+    "japanese": "目から信じられる[046F]も、[01BA]をかけても[04EC]しくない[046E]も、そう、何もかもな！。",
+    "coverage": 89,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1354,
+    "offset": 14602,
+    "msg_index": 127,
+    "japanese": "余はドゥーハンの王となった。そして臆も[018A]療も力に入れた。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 14662,
+    "msg_index": 128,
+    "japanese": "しかし、錠持っていたものはいま何も退っておらぬ。",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 14714,
+    "msg_index": 129,
+    "japanese": "かつてお両のような騎騎者であった与からの容言として聞いて能しい。",
+    "coverage": 100,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 14782,
+    "msg_index": 130,
+    "japanese": "目から信じられる[046F]を見つけるがいい。",
+    "coverage": 94,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1354,
+    "offset": 14820,
+    "msg_index": 131,
+    "japanese": "戦場で重中をまかせられる[046F]は、奉[05B7]の臆[05FF]を低んでも力に入らぬ。",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 14886,
+    "msg_index": 132,
+    "japanese": "彼らは[01BA]を容けてくれるだけでなく、すべてを[020B]えてくれる。",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 14946,
+    "msg_index": 133,
+    "japanese": "臆も[018A]療も[046E]も、そう何もかもだ。",
+    "coverage": 88,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1354,
+    "offset": 14980,
+    "msg_index": 134,
+    "japanese": "ふむ、[018A]療のためか！。",
+    "coverage": 91,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 15004,
+    "msg_index": 135,
+    "japanese": "かつての余には何もなかった。[03A2][04FF][0500]の[043A]消の所[0285]に生まれ、鎧一つ買うのにも協[0337]してな。",
+    "coverage": 86,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1354,
+    "offset": 15094,
+    "msg_index": 136,
+    "japanese": "だが、今思えばすべてを持っていた。",
+    "coverage": 100,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 15130,
+    "msg_index": 137,
+    "japanese": "目から信じられる[046F]も、[01BA]をかけても[04EC]しくない[046E]も、そう、何もかもな！。",
+    "coverage": 89,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1354,
+    "offset": 15206,
+    "msg_index": 138,
+    "japanese": "余はドゥーハンの王となった。そして臆も[018A]療も力に入れた。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 15266,
+    "msg_index": 139,
+    "japanese": "しかし、錠持っていたものはいま何も退っておらぬ。",
+    "coverage": 100,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 15318,
+    "msg_index": 140,
+    "japanese": "かつてお両のような騎騎者であった与からの容言として聞いて能しい。",
+    "coverage": 100,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 15386,
+    "msg_index": 141,
+    "japanese": "目から信じられる[046F]を見つけるがいい。",
+    "coverage": 94,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1354,
+    "offset": 15424,
+    "msg_index": 142,
+    "japanese": "戦場で重中をまかせられる[046F]は、奉[05B7]の臆[05FF]を低んでも力に入らぬ。",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 15490,
+    "msg_index": 143,
+    "japanese": "彼らは[01BA]を容けてくれるだけでなく、すべてを[020B]えてくれる。",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 15550,
+    "msg_index": 144,
+    "japanese": "臆も[018A]療も[046E]も、そう何もかもだ。",
+    "coverage": 88,
+    "glyph_count": 16
+  },
+  {
+    "resource": 1354,
+    "offset": 15584,
+    "msg_index": 145,
+    "japanese": "ならば言わせて能しい。目から信じられる[046F]を見つけるがいい。",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 15646,
+    "msg_index": 146,
+    "japanese": "戦場で重中をまかせられる[046F]は、奉[05B7]の臆[05FF]を低んでも力に入らぬ。",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 15712,
+    "msg_index": 147,
+    "japanese": "彼らは[01BA]を容けてくれるだけでなく、すべてを[020B]えてくれる。",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 15772,
+    "msg_index": 148,
+    "japanese": "臆も[018A]療も[046E]も、そう何もかもな！。",
+    "coverage": 88,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 15808,
+    "msg_index": 149,
+    "japanese": "！ふふ、泊のせいか、少し感[0327]宿になりすぎたようだな。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 15864,
+    "msg_index": 150,
+    "japanese": "今地はこれで汝[0368]する。そろそろ、消[0346][05FD]がくそマズイ秘を持って帰る達に違いない。",
+    "coverage": 92,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1354,
+    "offset": 15948,
+    "msg_index": 151,
+    "japanese": "オルトルード息王は、[0362]着きの者に立えられ、防っていった。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 16010,
+    "msg_index": 152,
+    "japanese": "城の中へと入ったは、会衛足のような剣部りの街所へと通された。",
+    "coverage": 100,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 16078,
+    "msg_index": 153,
+    "japanese": "力入れの行き十いた街所であるが、捷入には謝はなく、タペストリーもテーブルクロスも辺い取りっ[0141]のない住情な街所である。",
+    "coverage": 98,
+    "glyph_count": 58
+  },
+  {
+    "resource": 1354,
+    "offset": 16202,
+    "msg_index": 154,
+    "japanese": "ベルグラーノ待たせたな。まあ、武にしてくれ。",
+    "coverage": 100,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1354,
+    "offset": 16248,
+    "msg_index": 155,
+    "japanese": "ベルグラーノは書増の却と扱いビロードの間さな持みを、テーブルの外に[0175]いた。",
+    "coverage": 97,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1354,
+    "offset": 16328,
+    "msg_index": 156,
+    "japanese": "扱いビロードの中腕は大全だが、書増は息王態が[01D7]された[03FE][03FD]書や[0268][0197]書などであった。",
+    "coverage": 88,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1354,
+    "offset": 16414,
+    "msg_index": 157,
+    "japanese": "いま彼がドゥーハンは、あるくれに[0405]まされている。",
+    "coverage": 96,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 16466,
+    "msg_index": 158,
+    "japanese": "盗に出入りする者への[03F3]召も、彼神が汝達騎騎者を得めているのも、すべてそれに顔[03EF]している。",
+    "coverage": 95,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1354,
+    "offset": 16560,
+    "msg_index": 159,
+    "japanese": "そのくれとは魔物どもの出抜だ。",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 16592,
+    "msg_index": 160,
+    "japanese": "盗義れにカルマン失剣があるのは知っているか？",
+    "coverage": 100,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1354,
+    "offset": 16640,
+    "msg_index": 161,
+    "japanese": "まだ地は少ないが、その乙より魔物どもが、はい出してきている。",
+    "coverage": 100,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 16704,
+    "msg_index": 162,
+    "japanese": "そこで彼神が汝に強むのは、迷宮へと[0407]き、すべての元書である魔女の誰を取ってくること。",
+    "coverage": 98,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1354,
+    "offset": 16794,
+    "msg_index": 163,
+    "japanese": "その魔女の[018A]は、アウローラ。",
+    "coverage": 93,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 16828,
+    "msg_index": 164,
+    "japanese": "[0159]向なる階の[03F0]腕にして、ドゥーハンを安[0408]に運く[0402]役者。",
+    "coverage": 85,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 16886,
+    "msg_index": 165,
+    "japanese": "体むべきその魔女が、ドゥーハン用[02A1]に[041A]いをかけ、迷宮を以り出しているのだ。",
+    "coverage": 95,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1354,
+    "offset": 16966,
+    "msg_index": 166,
+    "japanese": "転が抜れたのは、追美両のあの地、オリアーナ王女とウェブスター卿の[0429]民[042C][0432]だった。",
+    "coverage": 92,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1354,
+    "offset": 17052,
+    "msg_index": 167,
+    "japanese": "イお[047A]しぶりです[0436]忍ゴ",
+    "coverage": 82,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 17076,
+    "msg_index": 168,
+    "japanese": "扱くきらめく[041F]を持った[0438]が、オルトルード息王の両に級み出た。",
+    "coverage": 93,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 17140,
+    "msg_index": 169,
+    "japanese": "イア、アウローラ！！ゴイご習数うるわしく武じますゴイ！！何[01BC]、何をしに帰たゴ",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1354,
+    "offset": 17222,
+    "msg_index": 170,
+    "japanese": "[043B][0430]者がざわめきだした。",
+    "coverage": 83,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1354,
+    "offset": 17248,
+    "msg_index": 171,
+    "japanese": "過もがその下るべき[018A]を知っていた。大[028E]の[01BA]を持ち、脱唱の王集を[0408][0437]に[0424]れた魔女の[018A]両だった。",
+    "coverage": 85,
+    "glyph_count": 46
+  },
+  {
+    "resource": 1354,
+    "offset": 17346,
+    "msg_index": 172,
+    "japanese": "イ何しに帰たとは[03C3]たいお言[0387]！！ゴイお両の板くを過が強むゴイ[0436]忍、あの時の民却をお[01C7]れに？[036A]いを聞いていただければ、余はすぐにでも待ち防りますゴ",
+    "coverage": 93,
+    "glyph_count": 72
+  },
+  {
+    "resource": 1354,
+    "offset": 17504,
+    "msg_index": 173,
+    "japanese": "イ！言え、なにが強みだゴイ申し外げます、余の強みはこの息、ドゥーハン王息を暗強いたしますゴ",
+    "coverage": 100,
+    "glyph_count": 45
+  },
+  {
+    "resource": 1354,
+    "offset": 17602,
+    "msg_index": 174,
+    "japanese": "[042D]来にどよめきが休った。すべての[043B][0430]者は、このただならぬ事[0431]を大声と[0425][0402]をもって回めた。",
+    "coverage": 86,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1354,
+    "offset": 17696,
+    "msg_index": 175,
+    "japanese": "イこのドゥーハンが能しいだと？ゴイええゴイ何[01BC]、[0141]は探かか？ゴイ余は役目を言っているだけですゴ",
+    "coverage": 96,
+    "glyph_count": 47
+  },
+  {
+    "resource": 1354,
+    "offset": 17798,
+    "msg_index": 176,
+    "japanese": "あわただしく男帰達が多づいてきた。",
+    "coverage": 100,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 17836,
+    "msg_index": 177,
+    "japanese": "だが、魔女のその[041F]に見つめられると、過もが臆[0433]りにかかったように、一王も功けなくなってしまった。",
+    "coverage": 96,
+    "glyph_count": 48
+  },
+  {
+    "resource": 1354,
+    "offset": 17938,
+    "msg_index": 178,
+    "japanese": "イこれが、[0362][02EC]え？ゴイそう思ってくれて敏余だゴ",
+    "coverage": 91,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 17988,
+    "msg_index": 179,
+    "japanese": "イいいわ、なら[0408]びのをを王みなさい。雇言してあげる、あなたの腕[02A1]は待ち[0435]れ、殿忍は[03C3]たき[0423]となるゴ",
+    "coverage": 90,
+    "glyph_count": 49
+  },
+  {
+    "resource": 1354,
+    "offset": 18098,
+    "msg_index": 180,
+    "japanese": "魔女は[041A]いの言[0387]を退し、防っていった。",
+    "coverage": 89,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1354,
+    "offset": 18140,
+    "msg_index": 181,
+    "japanese": "それからしばらくしてからである、王集に地神の[042A]いが[042E]ったのは。者神は[0422]し合った、あの魔女が[041A]いをかけたのだと。",
+    "coverage": 93,
+    "glyph_count": 55
+  },
+  {
+    "resource": 1354,
+    "offset": 18258,
+    "msg_index": 182,
+    "japanese": "ベルグラーノ彼神は一[01E9]も早く転を忘し、このドゥーハンにかけられた[041A]いを倒かねばならん。",
+    "coverage": 95,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1354,
+    "offset": 18350,
+    "msg_index": 183,
+    "japanese": "もし、汝が魔女アウローラの誰を持ってくることに封[0428]すれば、報女は思いのままだ。",
+    "coverage": 97,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1354,
+    "offset": 18434,
+    "msg_index": 184,
+    "japanese": "転についての[016A]報でも敏余。転を忘す力がかりになるものなら、それらにはすべて報女が立払われる。",
+    "coverage": 98,
+    "glyph_count": 46
+  },
+  {
+    "resource": 1354,
+    "offset": 18532,
+    "msg_index": 185,
+    "japanese": "どうだろう？汝も討伐隊となって彼神に主を[04A7]してくれないか？",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 18596,
+    "msg_index": 186,
+    "japanese": "討伐隊に参加するは いいいえ",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 18636,
+    "msg_index": 187,
+    "japanese": "よかろう。思[0472][0297]さも騎騎者の兜該な[0473]言の一つだ。",
+    "coverage": 88,
+    "glyph_count": 24
+  },
+  {
+    "resource": 1354,
+    "offset": 18688,
+    "msg_index": 188,
+    "japanese": "兜きいことを言うつもりはないが、もしドゥーハンを容ける[0141]になってくれたら、いつでも帰て能しい。",
+    "coverage": 98,
+    "glyph_count": 47
+  },
+  {
+    "resource": 1354,
+    "offset": 18788,
+    "msg_index": 189,
+    "japanese": "余はここで待っている。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 18812,
+    "msg_index": 190,
+    "japanese": "ふむ、携[0474]の早さはリーダーとして系れた[0473]言の一つだな。",
+    "coverage": 93,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 18870,
+    "msg_index": 191,
+    "japanese": "ベルグラーノどうだ？ 討伐隊に参加する[0141]になってくれたか？",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 18932,
+    "msg_index": 192,
+    "japanese": "それとも騎騎者として板れたのに、盗の[0476]険だけして[01AB]るつもりかね？",
+    "coverage": 94,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 19000,
+    "msg_index": 193,
+    "japanese": "討伐隊に参加するは いいいえ",
+    "coverage": 100,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 19040,
+    "msg_index": 194,
+    "japanese": "ようやく携目してくれたか。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1354,
+    "offset": 19068,
+    "msg_index": 195,
+    "japanese": "その携目が、騎騎者にとって得がたい員験と[0478]険をもたらすものと余は信じている。",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1354,
+    "offset": 19150,
+    "msg_index": 196,
+    "japanese": "なるほど、まだ[0479]必中とわけだな。よかろう、ゆっくりと必えてくれ。",
+    "coverage": 97,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 19218,
+    "msg_index": 197,
+    "japanese": "ベルグラーノは、息王の態が入った[03FE][03FD]書を見せ、報女というものが、どれほどのものであるかを知らせた。",
+    "coverage": 96,
+    "glyph_count": 49
+  },
+  {
+    "resource": 1354,
+    "offset": 19324,
+    "msg_index": 198,
+    "japanese": "そこには間息の[043A][0403]に己段する[01E8]兜な[0403]乙の[042F]渡と立[03CF][0426]。城を分く[0426][0439]、本隊を持つ[0426][0439]など息を一つ力に入れるのと同[017C]の報女が書かれていた。",
+    "coverage": 82,
+    "glyph_count": 67
+  },
+  {
+    "resource": 1354,
+    "offset": 19468,
+    "msg_index": 199,
+    "japanese": "わかってもらえると思うが、その[03E6]民の中腕は、息王値らが書かれたものだ。",
+    "coverage": 97,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1354,
+    "offset": 19544,
+    "msg_index": 200,
+    "japanese": "いかに報女が[0434]兜であろうと。ドゥーハン王息が武器するかぎりその[03E6]民は者行される。",
+    "coverage": 95,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1354,
+    "offset": 19630,
+    "msg_index": 201,
+    "japanese": "ベルグラーノは扱いビロードに持まれたものをに力渡した。",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 19692,
+    "msg_index": 202,
+    "japanese": "識別ブレスレットを力に入れた。",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 19754,
+    "msg_index": 204,
+    "japanese": "それは、汝役者を識別するためのブレスレットだ。",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 19804,
+    "msg_index": 205,
+    "japanese": "迷宮を行く者には、必ず腕につけてもらうことになっている。",
+    "coverage": 100,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 19864,
+    "msg_index": 206,
+    "japanese": "[0457]物[0444]などに入れずに、[046A]腕はなさず腕に着けていて能しい。",
+    "coverage": 89,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 19924,
+    "msg_index": 207,
+    "japanese": "なぜなら、抜器彼神[01E3]帰前を[0283]め、唱くの騎騎者が討伐隊となって迷宮に御っている。",
+    "coverage": 95,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1354,
+    "offset": 20008,
+    "msg_index": 208,
+    "japanese": "もし、迷宮長でそのブレスレットを腕に着けていなければ、[042E]われても思店は言えないからな。",
+    "coverage": 98,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1354,
+    "offset": 20100,
+    "msg_index": 209,
+    "japanese": "は、識別ブレスレットを腕につけた。",
+    "coverage": 100,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 20144,
+    "msg_index": 210,
+    "japanese": "余は行の騎騎者達に気悔を出すため、[01A1]に迷宮に行っている。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 20204,
+    "msg_index": 211,
+    "japanese": "汝も[056B][046D]が出帰たら帰てくれ。",
+    "coverage": 86,
+    "glyph_count": 14
+  },
+  {
+    "resource": 1354,
+    "offset": 20234,
+    "msg_index": 212,
+    "japanese": "そうそう、もし[0346][034F]が必[0409]ならば、サレム制[033F]に行ってから帰るとよい。",
+    "coverage": 88,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1354,
+    "offset": 20304,
+    "msg_index": 213,
+    "japanese": "イ高者街隊に[042E]われたらしいなゴ",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 20342,
+    "msg_index": 214,
+    "japanese": "器の中から[0437]棒のようなひとつの[0453]が呪かび外がった。高者街隊の長ゼルであった。",
+    "coverage": 95,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1354,
+    "offset": 20424,
+    "msg_index": 215,
+    "japanese": "ゼルお両が第３名層で高者達と[06B4][06B5]し、[042E]われたという報[0197]が入った。",
+    "coverage": 88,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 20492,
+    "msg_index": 216,
+    "japanese": "彼神も話ぎ、その場に力けつけたが、すでにお両によって[03A2]着けられた装だったよ。",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1354,
+    "offset": 20594,
+    "msg_index": 218,
+    "japanese": "[05E0]倒されぬため言っておくが、あれら高者は[06B6]を[048B]て、階へと休った者ども。",
+    "coverage": 91,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1354,
+    "offset": 20670,
+    "msg_index": 219,
+    "japanese": "彼神とは何の人[0219]もないクズどもだ。",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 20706,
+    "msg_index": 220,
+    "japanese": "いずれ彼神の力で、専[0552]するつもりでいた。",
+    "coverage": 95,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1354,
+    "offset": 20750,
+    "msg_index": 221,
+    "japanese": "彼神に形わって[03A2]着けてくれて、[0368]を言う。",
+    "coverage": 90,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1354,
+    "offset": 20794,
+    "msg_index": 222,
+    "japanese": "ゼルはそう言って短く野[0368]をしたが、その[03C3]たい[0390][016A]からはいかなる感[016A]も獲み取れない。",
+    "coverage": 88,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1354,
+    "offset": 20886,
+    "msg_index": 223,
+    "japanese": "俺の毒は、もう一つある。",
+    "coverage": 100,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1354,
+    "offset": 20912,
+    "msg_index": 224,
+    "japanese": "お両が力に入れたという気[03C4]を見せて能しい。",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1354,
+    "offset": 20958,
+    "msg_index": 225,
+    "japanese": "インゴという者から受け取ったはずの気[03C4]だ。",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1354,
+    "offset": 21026,
+    "msg_index": 227,
+    "japanese": "ふむ！探かに、この態能は殿忍のものに違いない。",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 21076,
+    "msg_index": 228,
+    "japanese": "よく見つけてくれたな。これは殿忍の[0609][059F][043C]のヒントになる。",
+    "coverage": 89,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 21136,
+    "msg_index": 229,
+    "japanese": "さあ、城へ行くがいい。",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 21160,
+    "msg_index": 230,
+    "japanese": "きっと[0436]忍もお[045C]びになるはず。",
+    "coverage": 87,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 21192,
+    "msg_index": 231,
+    "japanese": "ゼルの良は、依[0141]にとけるように器の中に消えていった。",
+    "coverage": 96,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 21250,
+    "msg_index": 232,
+    "japanese": "応発の違が鑑く取れ込め、関[0141]を[0283]んだ器が盗を番っていた。",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 21310,
+    "msg_index": 233,
+    "japanese": "を行く者の良も見えない。属すら功きを限め、物系一つなく、盗用[02A1]がしんと鎧まり大っている。",
+    "coverage": 98,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1354,
+    "offset": 21404,
+    "msg_index": 234,
+    "japanese": "盗に入る力[01B5]きを帰ませたが野にしたのは、緒息から突ベノアの宝剣[0279]と高ばれ、王解としての[02AB]わいに命ちた盗ではない。",
+    "coverage": 95,
+    "glyph_count": 56
+  },
+  {
+    "resource": 1354,
+    "offset": 21526,
+    "msg_index": 235,
+    "japanese": "見るからに込[0141]もなく、識現な並来[0141]を巨わせる[028F]しげな盗である。",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 21594,
+    "msg_index": 236,
+    "japanese": "しばらく、が盗を見渡していると、器の向こうから与の質し声が聞こえてきた。",
+    "coverage": 100,
+    "glyph_count": 36
+  },
+  {
+    "resource": 1354,
+    "offset": 21676,
+    "msg_index": 237,
+    "japanese": "イなあ、頼むよ俺に役えてくれよ。 紹しても辺[0502]なんだぜゴ    ",
+    "coverage": 97,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 21744,
+    "msg_index": 238,
+    "japanese": "加元をふらつかせながら、与が多づいてきた。",
+    "coverage": 100,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1354,
+    "offset": 21790,
+    "msg_index": 239,
+    "japanese": "集の[04FA]はボサボサ、[036E]は暗神安れ、[04B0]休った野は[0532][0440]が合わず、顔は[0425][0402]でこわばっている。",
+    "coverage": 83,
+    "glyph_count": 42
+  },
+  {
+    "resource": 1354,
+    "offset": 21880,
+    "msg_index": 240,
+    "japanese": "[033A]しい与へへへ、損[01BC]ってどこに紹れているかお両、知っているだろ？",
+    "coverage": 94,
+    "glyph_count": 32
+  },
+  {
+    "resource": 1354,
+    "offset": 21948,
+    "msg_index": 241,
+    "japanese": "なあ、役えてくれよ～。俺、早くあの事を言わなきゃ、ならないんだよ。",
+    "coverage": 100,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1354,
+    "offset": 22020,
+    "msg_index": 242,
+    "japanese": "へへ、俺は知ってんだぜ お両が損[01BC]の選場暗を紹しているってよ ",
+    "coverage": 97,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 22088,
+    "msg_index": 243,
+    "japanese": "早く[0401]ったほうが、腕のためだと思うんだけどな。",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 22138,
+    "msg_index": 244,
+    "japanese": "与は[01C5]ら多いを呪かべ、をにらみつけた。",
+    "coverage": 95,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1354,
+    "offset": 22182,
+    "msg_index": 245,
+    "japanese": "はは～ん、なるほどそうか。お両はあの事知らないからなぁ。",
+    "coverage": 100,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 22242,
+    "msg_index": 246,
+    "japanese": "だから損[01BC]の選場暗を紹すんだろ？ふん、そんなことだろうって思ったぜ。",
+    "coverage": 97,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1354,
+    "offset": 22314,
+    "msg_index": 247,
+    "japanese": "だけどな俺はな見たんだよ ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1354,
+    "offset": 22342,
+    "msg_index": 248,
+    "japanese": "ああ、ちゃんといたぜ。打いところで、ひっそり紹れてやがる。",
+    "coverage": 100,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 22404,
+    "msg_index": 249,
+    "japanese": "それでな、ぼんやりしていると、義恵[042E]い納かってくるんだ。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 22464,
+    "msg_index": 250,
+    "japanese": "へへ、俺の[046F]達も宮からガブリって回われちまったな。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 22518,
+    "msg_index": 251,
+    "japanese": "ムシャムシャ、ガブリ。ムシャムシャ、ガブリってね。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 22572,
+    "msg_index": 252,
+    "japanese": "与はおどけた倉[0380]をしながら、何度もかぶりつく[04A6][0526]をして見せた。",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 22638,
+    "msg_index": 253,
+    "japanese": "なにしても、ダメダメダメ ",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1354,
+    "offset": 22666,
+    "msg_index": 254,
+    "japanese": "年きながら[01BA][04E1]いしていた転もいたけどね。",
+    "coverage": 90,
+    "glyph_count": 20
+  },
+  {
+    "resource": 1354,
+    "offset": 22710,
+    "msg_index": 255,
+    "japanese": "クククク、アハハハハ ",
+    "coverage": 100,
+    "glyph_count": 11
+  },
+  {
+    "resource": 1354,
+    "offset": 22734,
+    "msg_index": 256,
+    "japanese": "ヒステリックな多い声が盗中に経き渡る。",
+    "coverage": 100,
+    "glyph_count": 19
+  },
+  {
+    "resource": 1354,
+    "offset": 22776,
+    "msg_index": 257,
+    "japanese": "与はひざを怖り、[04B5]をかかえながら多っていた。",
+    "coverage": 95,
+    "glyph_count": 22
+  },
+  {
+    "resource": 1354,
+    "offset": 22824,
+    "msg_index": 258,
+    "japanese": "与は[0417][0418]のあまり、野には[0549]を呪かべ、口自からよだれをしたたり落としているのも[0141]づかない。",
+    "coverage": 91,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1354,
+    "offset": 22920,
+    "msg_index": 259,
+    "japanese": "！！アハハハハ。必[028E]で戦った転もいたんだ。",
+    "coverage": 95,
+    "glyph_count": 21
+  },
+  {
+    "resource": 1354,
+    "offset": 22966,
+    "msg_index": 260,
+    "japanese": "で～も、なにをしても辺[0502]辺[0502]。",
+    "coverage": 87,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 22998,
+    "msg_index": 261,
+    "japanese": "！！唱色ね、俺思うぜ。あれじゃ損[01BC]だって変されちまうわ。",
+    "coverage": 96,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 23078,
+    "msg_index": 263,
+    "japanese": "イそんなところで何をなさって いるのですかゴ      ",
+    "coverage": 100,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 23138,
+    "msg_index": 264,
+    "japanese": "向こうからシスターが、たちの良を見つけ休ってきた。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 23196,
+    "msg_index": 265,
+    "japanese": "シスターあちこち素したんですよ。こんな倉[0380]で王いて、属[0159]でもひいたらどうするんですか？",
+    "coverage": 95,
+    "glyph_count": 43
+  },
+  {
+    "resource": 1354,
+    "offset": 23288,
+    "msg_index": 266,
+    "japanese": "さあ、お名事の毒客が出帰てます。早くいらして名べてくださいな。",
+    "coverage": 100,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 23354,
+    "msg_index": 267,
+    "japanese": "シムゾンと高ばれた与は、おとなしくシスターの言[0387]に[0412]い、役会のほうに王いていった。",
+    "coverage": 95,
+    "glyph_count": 41
+  },
+  {
+    "resource": 1354,
+    "offset": 23442,
+    "msg_index": 268,
+    "japanese": "あの今を[04ED]めないでやってください。盗のために戦って、ああなったんです。",
+    "coverage": 97,
+    "glyph_count": 35
+  },
+  {
+    "resource": 1354,
+    "offset": 23516,
+    "msg_index": 269,
+    "japanese": "錠は、あの今も[0470][018A]な空男隊の隊長だったと聞きました。",
+    "coverage": 92,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 23572,
+    "msg_index": 270,
+    "japanese": "だけど！カルマンの迷宮が、彼の目を安[03F1]してしまったんです。",
+    "coverage": 97,
+    "glyph_count": 29
+  },
+  {
+    "resource": 1354,
+    "offset": 23634,
+    "msg_index": 271,
+    "japanese": "魔帰、いつも何かに[054A]えるように、盗をさまよい王いているんです。",
+    "coverage": 97,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 23700,
+    "msg_index": 272,
+    "japanese": "何を見たのかわかりません。",
+    "coverage": 100,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1354,
+    "offset": 23728,
+    "msg_index": 273,
+    "japanese": "だけど、達越な者をあのように[0496]わすだけの下ろしいものだったに違いありません。",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1354,
+    "offset": 23810,
+    "msg_index": 274,
+    "japanese": "お見受けしたところ、あなたも騎騎者の今のようですね。",
+    "coverage": 100,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 23866,
+    "msg_index": 275,
+    "japanese": "治しいお一事だと思います。何かを得るために、[01BA]をかけなければならないのですから。",
+    "coverage": 98,
+    "glyph_count": 40
+  },
+  {
+    "resource": 1354,
+    "offset": 23952,
+    "msg_index": 276,
+    "japanese": "あなたのもとに[038B]声がありますよう、戻っております。",
+    "coverage": 96,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 24006,
+    "msg_index": 277,
+    "japanese": "それでは、くれぐれもお[0141]をつけて。",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 24042,
+    "msg_index": 278,
+    "japanese": "応発の違が鑑く取れ込め、関[0141]を[0283]んだ器が盗を番っていた。",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 24102,
+    "msg_index": 279,
+    "japanese": "を行く者の良も見えない。属すら功きを限め、物系一つなく、盗用[02A1]がしんと鎧まり大っている。",
+    "coverage": 98,
+    "glyph_count": 44
+  },
+  {
+    "resource": 1354,
+    "offset": 24196,
+    "msg_index": 280,
+    "japanese": "盗に入る力[01B5]きを帰ませたが野にしたのは、多団緒息から突ベノアの宝剣[0279]と高ばれ、王解としての[02AB]わいに命ちた盗ではない。",
+    "coverage": 95,
+    "glyph_count": 58
+  },
+  {
+    "resource": 1354,
+    "offset": 24322,
+    "msg_index": 281,
+    "japanese": "見るからに込[0141]もなく、識現な並来[0141]を巨わせる[028F]しげな盗である。",
+    "coverage": 90,
+    "glyph_count": 31
+  },
+  {
+    "resource": 1354,
+    "offset": 24390,
+    "msg_index": 282,
+    "japanese": "しばらく、が盗を見渡していると、器の向こうから少女達の質し声が聞こえてきた。",
+    "coverage": 100,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1354,
+    "offset": 24476,
+    "msg_index": 283,
+    "japanese": "少女aイ新しい者が帰たみたいゴ少女bイどんな感じ？ [0143]そう？ゴ少女aイ働いに出た者かしら？ゴ少女bイ行ってみましょう ゴ",
+    "coverage": 98,
+    "glyph_count": 60
+  },
+  {
+    "resource": 1354,
+    "offset": 24620,
+    "msg_index": 284,
+    "japanese": "器の向こうからやってきたのは、エルフの少女達であった。",
+    "coverage": 100,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 24678,
+    "msg_index": 285,
+    "japanese": "エルフの少女ねえねえ、あなた新しい騎騎者よね。",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 24726,
+    "msg_index": 286,
+    "japanese": "さっき終のところで力[01B5]きをしているのを見たわ。",
+    "coverage": 96,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 24776,
+    "msg_index": 287,
+    "japanese": "あどけなさが退る顔待ち、送拡と扱集という違いはあるが、野派待ちから[02A1]つきまでうり[0180]つの少女達である。",
+    "coverage": 96,
+    "glyph_count": 50
+  },
+  {
+    "resource": 1354,
+    "offset": 24884,
+    "msg_index": 288,
+    "japanese": "あなたもカルマンの迷宮に行くつもりなんでしょ？",
+    "coverage": 100,
+    "glyph_count": 23
+  },
+  {
+    "resource": 1354,
+    "offset": 24934,
+    "msg_index": 289,
+    "japanese": "それ魔義の毒で、いまこの盗を板れる者はいないもの。",
+    "coverage": 100,
+    "glyph_count": 25
+  },
+  {
+    "resource": 1354,
+    "offset": 24988,
+    "msg_index": 290,
+    "japanese": "はぁ～、[0141]が[0408]入っちゃう。",
+    "coverage": 85,
+    "glyph_count": 13
+  },
+  {
+    "resource": 1354,
+    "offset": 25016,
+    "msg_index": 291,
+    "japanese": "だって王女[01BC]が[0437]くなってから、ずっと数な出帰事ばかり。",
+    "coverage": 93,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 25074,
+    "msg_index": 292,
+    "japanese": "迷宮に魔物、盗は[04CE][0579]されちゃうし、息王[01BC]も大[0346]の泊。",
+    "coverage": 85,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 25130,
+    "msg_index": 293,
+    "japanese": "これもぜんぶ迷宮に御む魔女の一買って質だけど、まだ過も[049A]見出帰ていないのよ。",
+    "coverage": 97,
+    "glyph_count": 38
+  },
+  {
+    "resource": 1354,
+    "offset": 25212,
+    "msg_index": 294,
+    "japanese": "それって早い質、みんなだらしないってわけなんだけど。",
+    "coverage": 100,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 25268,
+    "msg_index": 295,
+    "japanese": "あなたはどうかしら？",
+    "coverage": 100,
+    "glyph_count": 10
+  },
+  {
+    "resource": 1354,
+    "offset": 25290,
+    "msg_index": 296,
+    "japanese": "値色なら見つけることができると思う？",
+    "coverage": 100,
+    "glyph_count": 18
+  },
+  {
+    "resource": 1354,
+    "offset": 25330,
+    "msg_index": 297,
+    "japanese": "もし魔女を忘すことに封[0428]したら、すごい報女が待っているわよ。",
+    "coverage": 97,
+    "glyph_count": 30
+  },
+  {
+    "resource": 1354,
+    "offset": 25394,
+    "msg_index": 298,
+    "japanese": "あたし達、働ってみたの。そうしたら、[057B]が悔してくれた。",
+    "coverage": 96,
+    "glyph_count": 27
+  },
+  {
+    "resource": 1354,
+    "offset": 25452,
+    "msg_index": 299,
+    "japanese": "多神、ドゥーハン王息の[0514]帰を[0323]切する出帰事が顔こるって。",
+    "coverage": 93,
+    "glyph_count": 28
+  },
+  {
+    "resource": 1354,
+    "offset": 25512,
+    "msg_index": 300,
+    "japanese": "だから、あたし達、新しく帰る騎騎者を[0476][057A]しているの。",
+    "coverage": 92,
+    "glyph_count": 26
+  },
+  {
+    "resource": 1354,
+    "offset": 25568,
+    "msg_index": 301,
+    "japanese": "それに大思衛なことがもう一つ。",
+    "coverage": 100,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 25600,
+    "msg_index": 302,
+    "japanese": "[01BE]多知与な[046E]を[0476]る者が追えている。",
+    "coverage": 82,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 25636,
+    "msg_index": 303,
+    "japanese": "すごく法しい[04D7]商！。盗用[02A1]が[0419]に持まれ、みんな[028E]んでいくっていう[046E]。",
+    "coverage": 85,
+    "glyph_count": 34
+  },
+  {
+    "resource": 1354,
+    "offset": 25710,
+    "msg_index": 304,
+    "japanese": "それが何を悔すのかわからないけど、きっと多いうちに兜きな事受が顔こるはず。",
+    "coverage": 100,
+    "glyph_count": 37
+  },
+  {
+    "resource": 1354,
+    "offset": 25790,
+    "msg_index": 305,
+    "japanese": "あたし達は、それに[0417]町あるの。",
+    "coverage": 93,
+    "glyph_count": 15
+  },
+  {
+    "resource": 1354,
+    "offset": 25822,
+    "msg_index": 306,
+    "japanese": "義恵[0180]者は声をひそめ、質し専めた。",
+    "coverage": 94,
+    "glyph_count": 17
+  },
+  {
+    "resource": 1354,
+    "offset": 25860,
+    "msg_index": 307,
+    "japanese": "少女aイねえねえ、エミーリア、そろそろ行きましょうよゴ少女bイ！そうね。今ごろ感づかれているかもゴ少女aイこんどつかまったら絶将、しばらく出してくれないわゴ",
+    "coverage": 100,
+    "glyph_count": 78
+  },
+  {
+    "resource": 1354,
+    "offset": 26050,
+    "msg_index": 308,
+    "japanese": "それじゃ、あたし達毒事があるからこれで汝[0368]するけど、またどこかで会いましょう。",
+    "coverage": 97,
+    "glyph_count": 39
+  },
+  {
+    "resource": 1354,
+    "offset": 26134,
+    "msg_index": 309,
+    "japanese": "あたしの[018A]はエミーリア。",
+    "coverage": 92,
+    "glyph_count": 12
+  },
+  {
+    "resource": 1354,
+    "offset": 26164,
+    "msg_index": 310,
+    "japanese": "あたしはリュート。あたし達[0180]者とも城に杯んでいるの。それじゃあね。",
+    "coverage": 97,
+    "glyph_count": 33
+  },
+  {
+    "resource": 1354,
+    "offset": 26240,
+    "msg_index": 311,
+    "japanese": "エルフの少女達は、あわただしく器の中へと休り防って行った。",
+    "coverage": 100,
+    "glyph_count": 29
+  }
+]

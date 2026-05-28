@@ -1,0 +1,157 @@
+{
+  "search_target": {
+    "speaker": "Adventurer A (冒険者Ａ)",
+    "text": "こちとら怪我人かかえて そんなひまなんて ありゃしねえ",
+    "line_structure": [
+      11,
+      8,
+      6
+    ],
+    "user_stated_glyph_ids": {
+      "こ": 95,
+      "か": 91,
+      "え": 89,
+      "し": 126
+    },
+    "note": "User glyph IDs are from name-entry screen grid, NOT from MSG resource encoding"
+  },
+  "critical_finding": {
+    "glyph_id_mismatch": true,
+    "explanation": "Name-entry screen glyph IDs (86-129 for hiragana) do NOT match the glyph IDs used in MSG resource dialogue text. MSG resources use IDs in the 90-200+ range that correspond to BLANK positions in the extracted font sheets (100-157 confirmed blank). The MSG glyph IDs likely index into a CHARACTER TABLE that maps to actual font atlas positions, NOT directly to font glyph positions.",
+    "evidence": [
+      "Glyph 91 (user-stated ka) exists 570 times in MSG data but NEVER appears consecutively (consecutive kaka pattern not found)",
+      "Font sheet analysis confirms glyphs 100-157 are visually blank, yet values in this range (113, 136, 142, etc.) are the most frequent in MSG dialogue",
+      "The glyph_map_partial.json maps based on name-entry screen stride-57 pattern but these IDs are different from MSG resource IDs"
+    ]
+  },
+  "structural_candidates": [
+    {
+      "resource": 45,
+      "resource_file": "0045_type01.bin",
+      "msg_index": 22,
+      "line_lengths": [
+        11,
+        8,
+        6,
+        0
+      ],
+      "uniqueness": "ONLY message in all 296 MSG resources with exactly [11, 8, 6] line structure",
+      "glyphs": {
+        "line0": [
+          126,
+          153,
+          137,
+          281,
+          155,
+          153,
+          128,
+          142,
+          191,
+          130,
+          130
+        ],
+        "line1": [
+          358,
+          125,
+          135,
+          115,
+          168,
+          149,
+          114,
+          63
+        ],
+        "line2": [
+          112,
+          118,
+          150,
+          145,
+          154,
+          1
+        ]
+      },
+      "anomalies": [
+        "Glyph 153 appears at positions 1 and 5 (would map to different characters chi/ga)",
+        "Glyph 130 appears at positions 9-10 (consecutive but maps to e/te, different chars)",
+        "No consecutive duplicate at expected position 7-8 for kaka"
+      ],
+      "confidence": "MEDIUM - unique structural match but glyph mapping has contradictions"
+    },
+    {
+      "resource": 45,
+      "resource_file": "0045_type01.bin",
+      "msg_index": 7,
+      "line_lengths": [
+        12,
+        10,
+        5,
+        0
+      ],
+      "glyphs": {
+        "line0": [
+          197,
+          249,
+          136,
+          114,
+          129,
+          119,
+          123,
+          113,
+          121,
+          121,
+          154,
+          171
+        ],
+        "line1": [
+          197,
+          226,
+          270,
+          136,
+          281,
+          113,
+          156,
+          131,
+          113,
+          130
+        ],
+        "line2": [
+          147,
+          152,
+          171,
+          149,
+          94
+        ]
+      },
+      "consecutive_dup": {
+        "glyph": 121,
+        "position": [
+          8,
+          9
+        ],
+        "could_be": "kaka"
+      },
+      "note": "Lines are 1-2 glyphs longer than expected. Glyph 197 (0xC5) appears at start of lines 0 and 1, may be an inline control/prefix. If 197 is prefix, line0 has 11 text glyphs matching expected.",
+      "confidence": "LOW-MEDIUM - consecutive duplicate exists but line lengths dont match exactly"
+    }
+  ],
+  "consecutive_duplicate_statistics": {
+    "description": "Consecutive identical glyph pairs in dialogue resources 34-49",
+    "top_pairs": {
+      "113": 28,
+      "92": 7,
+      "121": 6,
+      "117": 6,
+      "130": 5,
+      "115": 4,
+      "112": 4,
+      "132": 4,
+      "131": 3,
+      "194": 3
+    }
+  },
+  "recommendations": [
+    "The name-entry screen glyph IDs and MSG resource glyph IDs are DIFFERENT numbering systems",
+    "Need to find the CHARACTER TABLE that maps MSG glyph IDs to actual font atlas positions",
+    "Cross-reference with EXE code that renders MSG text to find the mapping table",
+    "Resource 45 (0045_type01.bin) is the most likely location for this dialogue scene"
+  ]
+}

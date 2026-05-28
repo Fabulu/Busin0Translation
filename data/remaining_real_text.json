@@ -1,0 +1,602 @@
+[
+  {
+    "resource": 2097,
+    "size": 13418496,
+    "total_msgs": 2281,
+    "sentence_like": 882,
+    "avg_ratio": 0.51,
+    "avg_jp_chars": 62.3,
+    "has_header": false,
+    "sample": "前？ガ[0020][03CF]者ボb器隊[000C][03DE]所独器[01D1][03EF]能p街社ヴdガraビ[03FE][0061]族[041F]a年／["
+  },
+  {
+    "resource": 2095,
+    "size": 13764608,
+    "total_msgs": 2504,
+    "sentence_like": 878,
+    "avg_ratio": 0.51,
+    "avg_jp_chars": 62.6,
+    "has_header": false,
+    "sample": "年別３社 士果違q器飾捷／前bォミ対失r 交種出m[000E]く運ベ専グ"
+  },
+  {
+    "resource": 2090,
+    "size": 7215104,
+    "total_msgs": 1315,
+    "sentence_like": 745,
+    "avg_ratio": 0.58,
+    "avg_jp_chars": 32.3,
+    "has_header": false,
+    "sample": "社交族依ベ交[004E][03F0]新悪魔ェ鎧ドビグ[041E]所ニ条人依然ド覚的"
+  },
+  {
+    "resource": 2096,
+    "size": 14161920,
+    "total_msgs": 2668,
+    "sentence_like": 723,
+    "avg_ratio": 0.49,
+    "avg_jp_chars": 65.8,
+    "has_header": false,
+    "sample": "    ０ ０ッ間ブ？ブブベグギヴ集ブベ ゲッブ別新  \n０ヴヴッo０ ブ１１   ０  ブo０ヴォ     内悪[0423]記依手[01BA]ガ０ ッボ消  "
+  },
+  {
+    "resource": 2093,
+    "size": 13522944,
+    "total_msgs": 2248,
+    "sentence_like": 632,
+    "avg_ratio": 0.51,
+    "avg_jp_chars": 35.3,
+    "has_header": false,
+    "sample": "グ社ベo祠戦集ミ専ベボ消 ベ[001E]小悪ベ[01E2]ブ社 ベ間 都グォ ギ出？\n   ゴ新族 覚２／ビ\n難\nベ ベ探\n悪動果交[000E]\n祠難種所\n選ボ"
+  },
+  {
+    "resource": 2091,
+    "size": 11083776,
+    "total_msgs": 1504,
+    "sentence_like": 476,
+    "avg_ratio": 0.49,
+    "avg_jp_chars": 85.3,
+    "has_header": false,
+    "sample": "色／該前鎧仲[03FE][0054][01DC]動ェ彼１ムブ消果[03DF]兵"
+  },
+  {
+    "resource": 2089,
+    "size": 6567936,
+    "total_msgs": 1219,
+    "sentence_like": 385,
+    "avg_ratio": 0.51,
+    "avg_jp_chars": 46.1,
+    "has_header": false,
+    "sample": "ム[01D0][043E]鎧 \nmバ消索新ミ別払[001E]ア[03F0]出ベ消nマバ [001E]／nバヴ祠交出条 [0330] 脱２ボ人新難ベブェ地稼ベ所ベ"
+  },
+  {
+    "resource": 2087,
+    "size": 3956736,
+    "total_msgs": 870,
+    "sentence_like": 346,
+    "avg_ratio": 0.55,
+    "avg_jp_chars": 28.8,
+    "has_header": false,
+    "sample": "悪ォ対果前帰街[01DC]切彼依依 入ミ果美[01DD]ンンゲ動特q団ブ 入所出ベc奥替  [01F3]ビ特[01E2]q鎧動[03EF]消魔[01DD][01"
+  },
+  {
+    "resource": 2092,
+    "size": 12670976,
+    "total_msgs": 1946,
+    "sentence_like": 272,
+    "avg_ratio": 0.45,
+    "avg_jp_chars": 101.1,
+    "has_header": false,
+    "sample": "１新所d索動果ヲ独消悪０ボ[0004]出ブ[0020]前ブ／／"
+  },
+  {
+    "resource": 2088,
+    "size": 5134336,
+    "total_msgs": 888,
+    "sentence_like": 257,
+    "avg_ratio": 0.49,
+    "avg_jp_chars": 82.6,
+    "has_header": false,
+    "sample": "社ヴ社幸 ギ[01E2]器２独ハ授[001C]後１ベ却前少 ギ種飾"
+  },
+  {
+    "resource": 2094,
+    "size": 4063232,
+    "total_msgs": 719,
+    "sentence_like": 242,
+    "avg_ratio": 0.5,
+    "avg_jp_chars": 70.9,
+    "has_header": false,
+    "sample": "        ０１／隊[01F3]２[042F]タ罰依ググ        動族ブッ ェ／ トェくヴパ[0055]\nc[035E]所ベチ店ンメsベ交下族ぉ種所["
+  },
+  {
+    "resource": 1286,
+    "size": 264192,
+    "total_msgs": 199,
+    "sentence_like": 127,
+    "avg_ratio": 0.56,
+    "avg_jp_chars": 196.1,
+    "has_header": false,
+    "sample": "ベ威ベベパ威ベベベベ威ベ[0401]ベベベベベベベベベベベベベベベベ威ベ[0401]ベベベベ威ベ威ベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベ"
+  },
+  {
+    "resource": 2854,
+    "size": 67584,
+    "total_msgs": 60,
+    "sentence_like": 35,
+    "avg_ratio": 0.56,
+    "avg_jp_chars": 52.0,
+    "has_header": false,
+    "sample": "種１ベ感ベベピボベベ器器壁依"
+  },
+  {
+    "resource": 2860,
+    "size": 67584,
+    "total_msgs": 35,
+    "sentence_like": 32,
+    "avg_ratio": 0.93,
+    "avg_jp_chars": 577.9,
+    "has_header": false,
+    "sample": "ブベ           ブ[0400]       ベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベベ"
+  },
+  {
+    "resource": 2820,
+    "size": 67584,
+    "total_msgs": 34,
+    "sentence_like": 24,
+    "avg_ratio": 0.83,
+    "avg_jp_chars": 14.3,
+    "has_header": false,
+    "sample": "別別別種族族族ベ別族種族別族別口種族"
+  },
+  {
+    "resource": 2855,
+    "size": 67584,
+    "total_msgs": 27,
+    "sentence_like": 20,
+    "avg_ratio": 0.74,
+    "avg_jp_chars": 21.7,
+    "has_header": false,
+    "sample": "種威独族仲族分ャ族男[0002]族族"
+  },
+  {
+    "resource": 2825,
+    "size": 67584,
+    "total_msgs": 31,
+    "sentence_like": 17,
+    "avg_ratio": 0.69,
+    "avg_jp_chars": 17.0,
+    "has_header": false,
+    "sample": "ブブ ブブブブブ   容ブブブブ[0400]ベベベベ"
+  },
+  {
+    "resource": 2866,
+    "size": 67584,
+    "total_msgs": 40,
+    "sentence_like": 12,
+    "avg_ratio": 0.49,
+    "avg_jp_chars": 23.3,
+    "has_header": false,
+    "sample": "ボ[000C]数−勉−慎族枚飽家"
+  },
+  {
+    "resource": 1342,
+    "size": 264192,
+    "total_msgs": 24,
+    "sentence_like": 10,
+    "avg_ratio": 0.49,
+    "avg_jp_chars": 47.8,
+    "has_header": false,
+    "sample": "ベパ 種 種ベ別ベ族ベ族ブボブ[0003] パ パ パ パ 威ブ種ブ威 族条性業壁下[0402][0402]"
+  },
+  {
+    "resource": 2840,
+    "size": 67584,
+    "total_msgs": 21,
+    "sentence_like": 10,
+    "avg_ratio": 0.52,
+    "avg_jp_chars": 15.1,
+    "has_header": false,
+    "sample": "業族族条別[0400]ィ容ピ容パ種下"
+  },
+  {
+    "resource": 2819,
+    "size": 67584,
+    "total_msgs": 21,
+    "sentence_like": 9,
+    "avg_ratio": 0.53,
+    "avg_jp_chars": 22.0,
+    "has_header": false,
+    "sample": "下[0403]下条下下下下下下下下下難難下下難難難呪下下威[0402]難条"
+  },
+  {
+    "resource": 2836,
+    "size": 67584,
+    "total_msgs": 20,
+    "sentence_like": 9,
+    "avg_ratio": 0.6,
+    "avg_jp_chars": 11.4,
+    "has_header": false,
+    "sample": " 像 影 じじじじ像落対防封げざ[01A0]岩[01A4]"
+  },
+  {
+    "resource": 758,
+    "size": 112640,
+    "total_msgs": 13,
+    "sentence_like": 7,
+    "avg_ratio": 0.56,
+    "avg_jp_chars": 482.2,
+    "has_header": false,
+    "sample": "下依下下下下下下[0003]７就響下かま杯"
+  },
+  {
+    "resource": 2841,
+    "size": 67584,
+    "total_msgs": 37,
+    "sentence_like": 7,
+    "avg_ratio": 0.46,
+    "avg_jp_chars": 16.6,
+    "has_header": false,
+    "sample": "族枚壁 ／「ャ的祠所退依"
+  },
+  {
+    "resource": 2827,
+    "size": 67584,
+    "total_msgs": 17,
+    "sentence_like": 5,
+    "avg_ratio": 0.49,
+    "avg_jp_chars": 13.4,
+    "has_header": false,
+    "sample": "条置性[036B]性探族独条性族性族条条男条勉下性回ピ回ピ壁呪響[0402]難[0402]難下呪間"
+  },
+  {
+    "resource": 1138,
+    "size": 331776,
+    "total_msgs": 18,
+    "sentence_like": 4,
+    "avg_ratio": 0.6,
+    "avg_jp_chars": 22.8,
+    "has_header": false,
+    "sample": "\nビめビビビビ[00C0]果カ騎別[0066]ビ"
+  },
+  {
+    "resource": 2828,
+    "size": 67584,
+    "total_msgs": 24,
+    "sentence_like": 4,
+    "avg_ratio": 0.4,
+    "avg_jp_chars": 19.7,
+    "has_header": false,
+    "sample": "下[0407]呪難呪呪呪難下難威威族難[0003]パ族威威条パ威難威別別威 威 威族難[0002]条 種 難 パ[0402]下下下[0403]"
+  },
+  {
+    "resource": 2842,
+    "size": 67584,
+    "total_msgs": 21,
+    "sentence_like": 4,
+    "avg_ratio": 0.54,
+    "avg_jp_chars": 8.5,
+    "has_header": false,
+    "sample": "ゥ教ョ教[000A]孤孤族ブ "
+  },
+  {
+    "resource": 2863,
+    "size": 67584,
+    "total_msgs": 16,
+    "sentence_like": 4,
+    "avg_ratio": 0.52,
+    "avg_jp_chars": 8.5,
+    "has_header": false,
+    "sample": "下下威下種難種難難下種下種下族下種[0335]階階組"
+  },
+  {
+    "resource": 1283,
+    "size": 264192,
+    "total_msgs": 17,
+    "sentence_like": 3,
+    "avg_ratio": 0.88,
+    "avg_jp_chars": 6.2,
+    "has_header": false,
+    "sample": "ベ[04A0]暗顔石祠"
+  },
+  {
+    "resource": 2817,
+    "size": 67584,
+    "total_msgs": 7,
+    "sentence_like": 3,
+    "avg_ratio": 0.56,
+    "avg_jp_chars": 9.6,
+    "has_header": false,
+    "sample": "難条壁下[0330]下難下"
+  },
+  {
+    "resource": 2856,
+    "size": 67584,
+    "total_msgs": 23,
+    "sentence_like": 3,
+    "avg_ratio": 0.42,
+    "avg_jp_chars": 16.0,
+    "has_header": false,
+    "sample": "[001D]威−覚ャャポャ"
+  },
+  {
+    "resource": 1295,
+    "size": 133120,
+    "total_msgs": 6,
+    "sentence_like": 2,
+    "avg_ratio": 0.63,
+    "avg_jp_chars": 6.5,
+    "has_header": false,
+    "sample": "唱下性下威下下下威打念"
+  },
+  {
+    "resource": 2105,
+    "size": 231424,
+    "total_msgs": 6,
+    "sentence_like": 2,
+    "avg_ratio": 0.63,
+    "avg_jp_chars": 6.5,
+    "has_header": false,
+    "sample": "下壁ボププ選[0405]呪柵"
+  },
+  {
+    "resource": 2121,
+    "size": 264192,
+    "total_msgs": 2,
+    "sentence_like": 2,
+    "avg_ratio": 0.62,
+    "avg_jp_chars": 20.0,
+    "has_header": false,
+    "sample": "下下呪下下難下難下下下下下下下下[0403][0403]"
+  },
+  {
+    "resource": 2821,
+    "size": 67584,
+    "total_msgs": 8,
+    "sentence_like": 2,
+    "avg_ratio": 0.51,
+    "avg_jp_chars": 10.9,
+    "has_header": false,
+    "sample": "[0002]教ピピ業ュュ３業ピg難業"
+  },
+  {
+    "resource": 2822,
+    "size": 67584,
+    "total_msgs": 7,
+    "sentence_like": 2,
+    "avg_ratio": 0.58,
+    "avg_jp_chars": 5.1,
+    "has_header": false,
+    "sample": "ェ枚ェォ限種[021E]都内"
+  },
+  {
+    "resource": 2824,
+    "size": 67584,
+    "total_msgs": 4,
+    "sentence_like": 2,
+    "avg_ratio": 0.53,
+    "avg_jp_chars": 6.8,
+    "has_header": false,
+    "sample": "ポピ一q算 別ベ  "
+  },
+  {
+    "resource": 2835,
+    "size": 67584,
+    "total_msgs": 4,
+    "sentence_like": 2,
+    "avg_ratio": 0.58,
+    "avg_jp_chars": 10.5,
+    "has_header": false,
+    "sample": "ボ種ボ賊ベ代ベヴ種ポ見５  "
+  },
+  {
+    "resource": 838,
+    "size": 122880,
+    "total_msgs": 5,
+    "sentence_like": 1,
+    "avg_ratio": 0.53,
+    "avg_jp_chars": 28.2,
+    "has_header": false,
+    "sample": "ブブブブブ別ブ別別ブブブブブブブ別別容ブ別ブ別ブ別別[0400]別別別別別ブ別ブブブ別ブ別ブブブブブブブブ[0400]ブ別ブ別ブ別ブ[0400]別別[0400]"
+  },
+  {
+    "resource": 850,
+    "size": 110592,
+    "total_msgs": 5,
+    "sentence_like": 1,
+    "avg_ratio": 0.53,
+    "avg_jp_chars": 586.6,
+    "has_header": false,
+    "sample": " ベ 威 パ 威活活下下器特活ヴ[0002]孤  壁[0002]別ブ別ブ 容 ブ       ベ ベ活器下下器活族[0002]族族 ヴ[0002]壁[0002]"
+  },
+  {
+    "resource": 899,
+    "size": 946176,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.52,
+    "avg_jp_chars": 75.0,
+    "has_header": false,
+    "sample": "息同デ同情ぱ心心更[006F]ぷ[047D]ぬ[0006]腕８退だ３騎騎敏違[017C][03D5]げげ[01C9]ケ聖[001C]謝索索同判てぱ心退ざ棄だ容 "
+  },
+  {
+    "resource": 1285,
+    "size": 264192,
+    "total_msgs": 67,
+    "sentence_like": 1,
+    "avg_ratio": 0.41,
+    "avg_jp_chars": 4.1,
+    "has_header": false,
+    "sample": "\n\n\n野囮[014D]ィベベヴベ置"
+  },
+  {
+    "resource": 1289,
+    "size": 264192,
+    "total_msgs": 2,
+    "sentence_like": 1,
+    "avg_ratio": 0.48,
+    "avg_jp_chars": 4.0,
+    "has_header": false,
+    "sample": "違[02B1]込込動余全\n\n"
+  },
+  {
+    "resource": 1317,
+    "size": 264192,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.75,
+    "avg_jp_chars": 235.0,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]       業種[020A][020A][020A]ボ[020A][020"
+  },
+  {
+    "resource": 1322,
+    "size": 264192,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.52,
+    "avg_jp_chars": 4331.0,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]                       下下下下回回下下下下下下下特容"
+  },
+  {
+    "resource": 1327,
+    "size": 264192,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.69,
+    "avg_jp_chars": 1933.0,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]                          威 プ ョ プ [000"
+  },
+  {
+    "resource": 1329,
+    "size": 264192,
+    "total_msgs": 2,
+    "sentence_like": 1,
+    "avg_ratio": 0.48,
+    "avg_jp_chars": 5415.5,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]       ベボベボベ族ベ族ベ種ベ種ベ族ベ族族族族族族族族ボ族ボ族ボ族ボ族"
+  },
+  {
+    "resource": 1330,
+    "size": 264192,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.79,
+    "avg_jp_chars": 11768.0,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]                       種威威ベパベ威種ボパ下ベベパパ"
+  },
+  {
+    "resource": 1333,
+    "size": 264192,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.88,
+    "avg_jp_chars": 1014.0,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]                       難族族族業結業業結結難下経稀業"
+  },
+  {
+    "resource": 1336,
+    "size": 264192,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.51,
+    "avg_jp_chars": 2451.0,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]                                      "
+  },
+  {
+    "resource": 1337,
+    "size": 264192,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.88,
+    "avg_jp_chars": 7195.0,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]                       下難容難下男回条[0003]条"
+  },
+  {
+    "resource": 1343,
+    "size": 264192,
+    "total_msgs": 2,
+    "sentence_like": 1,
+    "avg_ratio": 0.86,
+    "avg_jp_chars": 686.0,
+    "has_header": false,
+    "sample": "ブベ  [0002][0002]     [0004]   [0400][0400]                                      "
+  },
+  {
+    "resource": 2119,
+    "size": 34816,
+    "total_msgs": 6,
+    "sentence_like": 1,
+    "avg_ratio": 0.39,
+    "avg_jp_chars": 38.8,
+    "has_header": false,
+    "sample": "トトナラルラギギ探ヘぇ[000C][0400]ご ０ ぜ[0401]れ ブゴ召ゾウヂサロガグレソザゼワググ特グギンンギザすナラルナぉぞソソ[049D]sジブ ゾ"
+  },
+  {
+    "resource": 2122,
+    "size": 34816,
+    "total_msgs": 1,
+    "sentence_like": 1,
+    "avg_ratio": 0.53,
+    "avg_jp_chars": 8.0,
+    "has_header": false,
+    "sample": "ゆげらエのいa[0376] ャ対 "
+  },
+  {
+    "resource": 2418,
+    "size": 317440,
+    "total_msgs": 9,
+    "sentence_like": 1,
+    "avg_ratio": 0.45,
+    "avg_jp_chars": 64.1,
+    "has_header": false,
+    "sample": "ビbヤロスnk[0400]\nジソヤb"
+  },
+  {
+    "resource": 2791,
+    "size": 67584,
+    "total_msgs": 5,
+    "sentence_like": 1,
+    "avg_ratio": 0.65,
+    "avg_jp_chars": 4.0,
+    "has_header": false,
+    "sample": "離交性業古下ビ[0402]"
+  },
+  {
+    "resource": 2823,
+    "size": 67584,
+    "total_msgs": 7,
+    "sentence_like": 1,
+    "avg_ratio": 0.5,
+    "avg_jp_chars": 14.0,
+    "has_header": false,
+    "sample": "[0432]ブ切ブブュプピ[0401]プベベベベベベベピベ場くこ"
+  },
+  {
+    "resource": 2826,
+    "size": 67584,
+    "total_msgs": 3,
+    "sentence_like": 1,
+    "avg_ratio": 0.52,
+    "avg_jp_chars": 16.7,
+    "has_header": false,
+    "sample": "小活ボ活族業族性族難[0403]条性族下就難"
+  },
+  {
+    "resource": 2858,
+    "size": 67584,
+    "total_msgs": 3,
+    "sentence_like": 1,
+    "avg_ratio": 0.48,
+    "avg_jp_chars": 6.7,
+    "has_header": false,
+    "sample": "p特経聖依手４教[000A]ョ"
+  }
+]

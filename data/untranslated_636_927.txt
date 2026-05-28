@@ -1,0 +1,1480 @@
+================================================================================
+UNTRANSLATED MSG RESOURCES: 636-927 RANGE
+================================================================================
+
+RESOURCE SUMMARY TABLE
+--------------------------------------------------------------------------------
+  RES FILE                     SIZE  MSGS  SPEAKER CATEGORY                 
+--------------------------------------------------------------------------------
+  636 0636_type01.bin          1974    10       no story dialogue           
+  638 0638_type01.bin          2194    14       no story dialogue           
+  690 0690_type02.bin         72384    83       no general text             
+  702 0702_type01.bin         91872    33       no story dialogue           
+  703 0703_type02.bin         91408     2       no short dialogue/event     
+  704 0704_type02.bin        151248    45       no story dialogue           
+  705 0705_type02.bin         91408     2       no short dialogue/event     
+  706 0706_type02.bin        151248   118       no story dialogue           
+  707 0707_type02.bin         91408     2       no short dialogue/event     
+  708 0708_type02.bin        152288    46       no story dialogue           
+  742 0742_type01.bin        122592    45       no story dialogue           
+  743 0743_type03.bin        253388     2       no short dialogue/event     
+  744 0744_type03.bin        101312    43       no general text             
+  745 0745_type02.bin        296248     4       no story dialogue           
+  746 0746_type01.bin        108496    34       no story dialogue           
+  747 0747_type05.bin        259096     2      YES NPC dialogue             
+  748 0748_type03.bin         93424    21       no story dialogue           
+  749 0749_type02.bin        244376     2      YES NPC dialogue             
+  750 0750_type02.bin        134384    22       no story dialogue           
+  751 0751_type02.bin        233692     2       no short dialogue/event     
+  752 0752_type02.bin         75632    26       no story dialogue           
+  753 0753_type02.bin        253316     3       no short dialogue/event     
+  754 0754_type02.bin        106208    29      YES NPC dialogue             
+  755 0755_type02.bin        264596     5       no story dialogue           
+  756 0756_type02.bin        122592   111       no story dialogue           
+  757 0757_type02.bin        259304     2       no short dialogue/event     
+  758 0758_type01.bin        112096   199       no story dialogue           
+  759 0759_type02.bin        277892     2      YES NPC dialogue             
+  760 0760_type02.bin        138976    29       no story dialogue           
+  761 0761_type02.bin        234068    10       no story dialogue           
+  762 0762_type02.bin         86976   233       no story dialogue           
+  763 0763_type02.bin        302824     2       no short dialogue/event     
+  764 0764_type01.bin        112096    25       no story dialogue           
+  765 0765_type02.bin        225108     4       no story dialogue           
+  766 0766_type02.bin        112096    52       no story dialogue           
+  767 0767_type02.bin        201352     2       no short dialogue/event     
+  768 0768_type02.bin         77040    37       no story dialogue           
+  769 0769_type02.bin        225172    32       no story dialogue           
+  770 0770_type02.bin        130784    40       no story dialogue           
+  771 0771_type02.bin        264232     4       no story dialogue           
+  772 0772_type02.bin        103344   116       no story dialogue           
+  773 0773_type02.bin        199720     2       no short dialogue/event     
+  774 0774_type02.bin         84832    32       no story dialogue           
+  775 0775_type02.bin        178356     8       no story dialogue           
+  776 0776_type02.bin        107968    41      YES NPC dialogue             
+  777 0777_type02.bin        248012     2       no short dialogue/event     
+  778 0778_type02.bin        134032    65       no story dialogue           
+  779 0779_type02.bin        265208     2       no short dialogue/event     
+  780 0780_type02.bin        118176    57       no story dialogue           
+  781 0781_type02.bin        500328     7      YES NPC dialogue             
+  782 0782_type02.bin         91120   155       no story dialogue           
+  783 0783_type02.bin        536844     2       no short dialogue/event     
+  784 0784_type01.bin        107200    45       no story dialogue           
+  785 0785_type02.bin        588312    36       no story dialogue           
+  786 0786_type01.bin        149456    45       no story dialogue           
+  800 0800_type02.bin        130784    49      YES NPC dialogue             
+  801 0801_type02.bin        222516    32       no story dialogue           
+  802 0802_type02.bin        130784    29       no story dialogue           
+  803 0803_type02.bin        225204    32       no story dialogue           
+  804 0804_type02.bin        130784    33       no story dialogue           
+  805 0805_type02.bin        199720     2       no short dialogue/event     
+  806 0806_type02.bin         84832    42       no story dialogue           
+  807 0807_type02.bin        199720     2       no short dialogue/event     
+  808 0808_type02.bin         84832    32       no story dialogue           
+  809 0809_type02.bin        199720     2       no short dialogue/event     
+  810 0810_type02.bin         84832    30       no story dialogue           
+  811 0811_type02.bin        199720     2       no short dialogue/event     
+  812 0812_type02.bin         84832    27       no story dialogue           
+  813 0813_type02.bin        221956     4       no story dialogue           
+  814 0814_type02.bin        112096    50       no story dialogue           
+  815 0815_type02.bin        264232     4       no story dialogue           
+  816 0816_type02.bin        123824   121       no story dialogue           
+  817 0817_type02.bin        221956     4       no story dialogue           
+  818 0818_type02.bin        112096    91       no story dialogue           
+  819 0819_type02.bin        264232     4       no story dialogue           
+  820 0820_type02.bin        123824   116       no story dialogue           
+  821 0821_type02.bin        248012     2       no short dialogue/event     
+  822 0822_type02.bin        118672    65      YES NPC dialogue             
+  823 0823_type02.bin        248012     2       no short dialogue/event     
+  824 0824_type02.bin        126864    65       no story dialogue           
+  825 0825_type02.bin        248012     2       no short dialogue/event     
+  826 0826_type02.bin        126864    65       no story dialogue           
+  827 0827_type02.bin        355872     2       no short dialogue/event     
+  828 0828_type01.bin        151424    61       no story dialogue           
+  829 0829_type02.bin        355872     2       no short dialogue/event     
+  830 0830_type01.bin        151424    75       no story dialogue           
+  831 0831_type02.bin        178356     8       no story dialogue           
+  832 0832_type02.bin        107968    41       no story dialogue           
+  833 0833_type02.bin        178356     8       no story dialogue           
+  834 0834_type02.bin        107968    41      YES NPC dialogue             
+  835 0835_type02.bin        178356     8       no story dialogue           
+  836 0836_type02.bin        107968    41      YES NPC dialogue             
+  837 0837_type02.bin        522512    45       no story dialogue           
+  838 0838_type01.bin        122592  1846      YES NPC dialogue             
+  856 0856_type02.bin         72384   114       no story dialogue           
+  870 0870_type02.bin        116016    32       no story dialogue           
+  888 0888_type02.bin         94944    69       no story dialogue           
+  889 0889_type02.bin        130516     2       no short dialogue/event     
+  890 0890_type02.bin        112096    25       no story dialogue           
+  891 0891_type03.bin        305556     2       no short dialogue/event     
+  892 0892_type03.bin         85232    79       no story dialogue           
+  893 0893_type03.bin        220796    11       no story dialogue           
+  894 0894_type03.bin         85232    23       no story dialogue           
+  895 0895_type03.bin        278468     2       no short dialogue/event     
+  896 0896_type04.bin        112096   947      YES NPC dialogue             
+  897 0897_type02.bin        938716    29       no story dialogue           
+  898 0898_type02.bin        153808    91       no story dialogue           
+  899 0899_type01.bin        944588    49      YES NPC dialogue             
+  900 0900_type01.bin        705908    16      YES NPC dialogue             
+  901 0901_type01.bin        378356    12      YES NPC dialogue             
+  902 0902_type02.bin        440524    18       no story dialogue           
+  903 0903_type02.bin        152784    44       no story dialogue           
+  904 0904_type04.bin        420968     6       no story dialogue           
+  905 0905_type03.bin         80816    13       no story dialogue           
+  906 0906_type02.bin        152196     2      YES NPC dialogue             
+  907 0907_type02.bin         93424    39       no story dialogue           
+  908 0908_type02.bin         19476     2       no short dialogue/event     
+  909 0909_type02.bin          5584    13       no general text             
+  910 0910_type02.bin        174276   162       no story dialogue           
+  911 0911_type02.bin         56064    13       no story dialogue           
+  912 0912_type02.bin        300968     2       no short dialogue/event     
+  913 0913_type02.bin        102608    86       no story dialogue           
+  914 0914_type02.bin        359308     2       no short dialogue/event     
+  915 0915_type02.bin        112096   547       no story dialogue           
+  916 0916_type02.bin        257928     4      YES NPC dialogue             
+  917 0917_type02.bin         99840    33       no story dialogue           
+  918 0918_type02.bin        518460    19       no story dialogue           
+  919 0919_type01.bin         18976     4       no general text             
+  920 0920_type02.bin        368680     4       no story dialogue           
+  921 0921_type01.bin         19008     4       no general text             
+  922 0922_type02.bin          6212     2       no short text/label         
+  923 0923_type02.bin          6580     2       no short text/label         
+  924 0924_type02.bin         16644     4       no general text             
+  925 0925_type02.bin          9076     2       no short text/label         
+  926 0926_type02.bin           612     2       no short text/label         
+  927 0927_type01.bin          8416   444       no general text             
+--------------------------------------------------------------------------------
+
+Total resources examined: 136
+Resources with FF01 speaker tags: [747, 749, 754, 759, 776, 781, 800, 822, 834, 836, 838, 896, 899, 900, 901, 906, 916]
+  Count: 17
+
+================================================================================
+DECODED TEXT SAMPLES PER RESOURCE
+================================================================================
+
+
+--- Resource 636 (0636_type01.bin) ---
+  Category: story dialogue
+  Total messages: 10
+  Speaker tags: no
+  File size: 1974 bytes
+  [1] [0003]r [000A][0006][0007] i[0004][FFF6] [0400]   [0003]「         [0003][0007]         [0003][0006]         [0006] ４[0049]       [0006] [001E][0049]       [0006] c[0049]       [0006] [0046][0050] 
+   ...
+  [2]      [0006] ４  
+  [3]      [0006] [001E]  
+  [4]      [0006] h  
+  [5]      [0006] r  
+  ... (5 more messages)
+
+--- Resource 638 (0638_type01.bin) ---
+  Category: story dialogue
+  Total messages: 14
+  Speaker tags: no
+  File size: 2194 bytes
+  [1] [0003]r [0005][0003]          [0006][0002]ら[0045][FFFC]
+  [2] [FFFB]  [0400] [0006][0003]る[0045][FFFC][FFFD][FFFB]  [0400] [0006][0003]ぐ[0045][FFFC][FFFA][FFFB]  [0400] [0006][0002]ぐ[0045][FFFC][FFFA][FFFB] [0400][0400] ？[0006][0002][001E][0045]
+[FFFB][FFFD]  [0...
+  [3] [0005]別 [0400] [0006][0003]け「 
+  [4] [0005]別 [0400]  」せ        [0006][0002]ら[0045] 
+  [5]    [0400] [0006][0003]ら[0045] 
+  ... (9 more messages)
+
+--- Resource 690 (0690_type02.bin) ---
+  Category: general text
+  Total messages: 83
+  Speaker tags: no
+  File size: 72384 bytes
+  [1] ブ [E05B] [E01A]ブ別 [1600] [2100]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [68FF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [80FF]
+  [3] [1400]   [0040][3059][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [78FF]
+  ... (80 more messages)
+
+--- Resource 702 (0702_type01.bin) ---
+  Category: story dialogue
+  Total messages: 33
+  Speaker tags: no
+  File size: 91872 bytes
+  [1] [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  [2] [1400]   ち[309D][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [5AFF]
+  [3] [1400]   [0040][3055][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [72FF]
+  ... (30 more messages)
+
+--- Resource 703 (0703_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 91408 bytes
+  [1] ブ [784B][0700][3065]ブ  [FC0D] [0900] [3600] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][3E79][A12F][F504][353F][774F][4EAF][F304][353F] [803F] [803F] [803F] [803F]      ...
+  [2]  ブ別容[0400][0500][0600]容[0800][0900][0A00]容[0C00][0D00][0E00]容[1000][1100][1200]容[1400][1500][1600][1700][1800][1600][1A00][1B00]容[1D00][1E00][1E00]容[2100][2200][2300]容[2500][2600][2700]容[2900][2A00][2...
+
+--- Resource 704 (0704_type02.bin) ---
+  Category: story dialogue
+  Total messages: 45
+  Speaker tags: no
+  File size: 151248 bytes
+  [1] ブ [1049] [F04E]別別 [0E00] [1400]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [A9FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]  ...
+  [3] [1400]    [3121][0600][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]   [6000] [AAFF]
+  ... (42 more messages)
+
+--- Resource 705 (0705_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 91408 bytes
+  [1] ブ [8419][0700][3065]ブ  [FC0D] [0900] [3600] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][3E79][A12F][F504][353F][774F][4EAF][F304][353F] [803F] [803F] [803F] [803F]      ...
+  [2]  ブ別容[0400][0500][0600]容[0800][0900][0A00]容[0C00][0D00][0E00]容[1000][1100][1200]容[1400][1500][1600][1700][1800][1600][1A00][1B00]容[1D00][1E00][1E00]容[2100][2200][2300]容[2500][2600][2700]容[2900][2A00][2...
+
+--- Resource 706 (0706_type02.bin) ---
+  Category: story dialogue
+  Total messages: 118
+  Speaker tags: no
+  File size: 151248 bytes
+  [1] ブ [1049] [F04E]別別 [0E00] [1400]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [A9FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]  ...
+  [3] [1400]    [3121][0600][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]   [6000] [AAFF]
+  ... (115 more messages)
+
+--- Resource 707 (0707_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 91408 bytes
+  [1] ブ [D005][0800][3065]ブ  [FC0D] [0900] [3600] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][3E79][A12F][F504][353F][774F][4EAF][F304][353F] [803F] [803F] [803F] [803F]      ...
+  [2]  ブ別容[0400][0500][0600]容[0800][0900][0A00]容[0C00][0D00][0E00]容[1000][1100][1200]容[1400][1500][1600][1700][1800][1600][1A00][1B00]容[1D00][1E00][1E00]容[2100][2200][2300]容[2500][2600][2700]容[2900][2A00][2...
+
+--- Resource 708 (0708_type02.bin) ---
+  Category: story dialogue
+  Total messages: 46
+  Speaker tags: no
+  File size: 152288 bytes
+  [1] ブ [1049] [0053]別別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [A9FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]  ...
+  [3] [1400]    [3121][0600][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]   [6000] [AAFF]
+  ... (43 more messages)
+
+--- Resource 742 (0742_type01.bin) ---
+  Category: story dialogue
+  Total messages: 45
+  Speaker tags: no
+  File size: 122592 bytes
+  [1] [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [61FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [2CFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [63FF]
+  ... (42 more messages)
+
+--- Resource 743 (0743_type03.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 253388 bytes
+  [1] ブ [183D][0D00]ホ容  別 [3403] [201B][1100]  [F414] [0D00] [5100] [0B00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [32EC][9532]   [803F] [803F] [803F] [803F] [803F]       [803F]...
+  [2]  ブ  [0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1800][0C00][1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2200][240...
+
+--- Resource 744 (0744_type03.bin) ---
+  Category: general text
+  Total messages: 43
+  Speaker tags: no
+  File size: 101312 bytes
+  [1] ブ [100D] [F08B]ブ別 別 [A005] れブ別 [1400] [1E00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [15FF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [75FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6FFF]
+  ... (40 more messages)
+
+--- Resource 745 (0745_type02.bin) ---
+  Category: story dialogue
+  Total messages: 4
+  Speaker tags: no
+  File size: 296248 bytes
+  [1] ブ [68F1][0E00][6085][0400]  [C016] [1000] [5800] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [...
+  [2]  ブ    [0600]  [0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][0D00][1300][1400][0B00][1600][1700][1800][1900][1A00][1B00][1C00][1D00][1B00][1F00][2000][2100][2200][2300][2400][2500][2600][2700]...
+  [3] [3F3F][9A99][193E][8225][5EBC][6376][FA3F][E276][8B3E][9A99][993E][6C91][E93F][D159][5C40][4411][5E3E] 。[7081][FA3F]突[4340][0700][0040][CDCC][CC3E][58BD][5D40][2819][7C40][9614][473E][295C][0F3F][A678...
+  [4] [3F3F][9A99][193E][0C24][0C3F][E435][843F][2EAC][B73F][9999][193E][6C91][E93F][D159][5C40][4411][5E3E] 。[8225][5EBC][6376][FA3F][E276][8B3E][9A99][993E][5677][963F][1411][AB3F][D3C1][EA3F][5C8F][423E]...
+
+--- Resource 746 (0746_type01.bin) ---
+  Category: story dialogue
+  Total messages: 34
+  Speaker tags: no
+  File size: 108496 bytes
+  [1] [1000] [1800]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [68FF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [89FF]
+  [3] [1400]   ち[30D9][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [73FF]
+  ... (31 more messages)
+
+--- Resource 747 (0747_type05.bin) ---
+  Category: NPC dialogue
+  Total messages: 2
+  Speaker tags: YES
+  File size: 259096 bytes
+  [1] ブ [30C6][0D00][70F4]容  別 [F40E] [A0BA][1100]  容 [D00E] [A0C9][1100]  [0400] [3403] [70D8][1100]  [2413] [0900] [4A00] 別        [803F] [803F] [803F] [803F] [803F]       [803F][C66D][74BD]     [803F]   ...
+  [2]  ブ別容[0400][0500][0600][0700]容[0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1100][1500][1600][1700][1800][1900][1A00][1B00][1C00][1D00][1100][1F00][2000][0E00][2200][2300][2400][25...
+
+--- Resource 748 (0748_type03.bin) ---
+  Category: story dialogue
+  Total messages: 21
+  Speaker tags: no
+  File size: 93424 bytes
+  [1] ブ [E004] [206D]ブ別 別 [E002] うブ別 [0A00] [0F00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [59FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7AFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [66FF]
+  ... (18 more messages)
+
+--- Resource 749 (0749_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 2
+  Speaker tags: YES
+  File size: 244376 bytes
+  [1] ブ [7C20][1100][C0BA]容  [FC15] [0F00] [5500] 別 [95FE][7CB4][30EC][9532][34EC][95B2] [803F] [803F] [803F] [803F] [803F]       [803F]   ち ち [803F]  [F204][353F]  [F404][353F] [803F] [803F] [803F] [803F] ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][0C00][1300][1400][1500][1600][1700][0C00][1900][1A00][0C00][1C00][1D00][0900][1F00][2000][2100][2200][2300][240...
+
+--- Resource 750 (0750_type02.bin) ---
+  Category: story dialogue
+  Total messages: 22
+  Speaker tags: no
+  File size: 134384 bytes
+  [1] ブ [4005] [100D]別別 [0A00] [0F00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6FFF]
+  [3] [1400]   ち[309D][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [92FF]
+  ... (19 more messages)
+
+--- Resource 751 (0751_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 233692 bytes
+  [1] ブ [4021][1000]め容  [C016] [1200] [5800] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F404][353F]  [F204][353F] [803F] [803F] [803F] [803F]       [803F][973C][8EBF][EC77]...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1000][1400][1500][1600][1700][1800][1600][1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][1D00][2400][25...
+
+--- Resource 752 (0752_type02.bin) ---
+  Category: story dialogue
+  Total messages: 26
+  Speaker tags: no
+  File size: 75632 bytes
+  [1] ブ [804C] [9027]ブ別 [0A00] [0F00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][4055][0500][1020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][340...
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6FFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [60FF]
+  ... (23 more messages)
+
+--- Resource 753 (0753_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 3
+  Speaker tags: no
+  File size: 253316 bytes
+  [1] ブ [E883][1200][B0DD]容  [341D] [1A00] [7100] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F504][353F]  [F204][353F] [803F] [803F] [803F] [803F]       [803F][4F92][0EC0][...
+  [2]  ブ別容[0400][0500][0600][0700][0800]容[0A00][0B00][0C00][0D00][0E00][0F00]容[1100][1200][1300][1400][1500][1600][1700][1800][1900][1A00][1B00][1C00][1A00][1E00][1F00][1600][2100][2200][2300][2400][2500][2...
+  [3] [FFBE] [803F] [E040][E89E][56C2][8845][A434] [803F] [E037][754F][8BC2][75BC][D1B7] [803F] [5038][DAB5][ABC2][16B7][51B8] [803F] [E040][A782][8BC2][8845][A434] [803F] [E040][DAB5][ABC2][8845][A434] [80...
+
+--- Resource 754 (0754_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 29
+  Speaker tags: YES
+  File size: 106208 bytes
+  [1] ブ [8055] ぎブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6DFF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [5BFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6CFF]
+  ... (26 more messages)
+
+--- Resource 755 (0755_type02.bin) ---
+  Category: story dialogue
+  Total messages: 5
+  Speaker tags: no
+  File size: 264596 bytes
+  [1] ブ [CCE2][1800][C009][0400]  [F81D] [1100] [7400] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]    [0AD7][23BD] [803F]...
+  [2]  ブ別容[0400][0500][0600][0400][0800][0900]ブブ [0D00][0E00][0F00][1000][1100][1200][1000][1400][1500][1600][1700][1800][1900][1500][1B00][1C00][1000][1E00][1F00][1000][2100][2200][2300][2400][2500][2600][...
+  [3] [4240][934A][913F][6078][9B40][9999][193F][09F3][4940][7C9B][1840][B85D][6240][9999][193F][6B03][5040][2359][3840][3B8D][C03F][9999][193F][06FF][1540][5496][2140][08EE][7040][3333][333F][8C76][2440][8...
+  [4] [4240][9A4A][913F][6C78][9BC0][9999][193F][06FF][1540][5796][2140][1BEE][70C0][3333][333F][09F3][4940][7F9B][1840][D15D][62C0][9999][193F][8C76][2440][83B9][3E40][A89B][DCBF][3333][333F][6B03][5040][2...
+  [5] [4240][934A][913F][6078][9B40][9999][193F][1C00]４[00C0]影[0A2C]ブ可[0A62][1B1A][1918][170D][0C0B][0A09] [0180][0A6C][DC69][333F][7411][E7BE][B6F6][ACC0][9A99][193F][E2B4][0A40][A1A4][17C0][AD34][D8C0][CD...
+
+--- Resource 756 (0756_type02.bin) ---
+  Category: story dialogue
+  Total messages: 111
+  Speaker tags: no
+  File size: 122592 bytes
+  [1] ブ [9003] マブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [60FF]
+  [2] [1400]   ち[309D][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [72FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [68FF]
+  ... (108 more messages)
+
+--- Resource 757 (0757_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 259304 bytes
+  [1] ブ [700D][0F00][10F5]容  [FC15] [0C00] [5500] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F]...
+  [2]   別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0500][1000][1100][1200][1300][1400][1500][1600][1700][1800][0500][1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][240...
+
+--- Resource 758 (0758_type01.bin) ---
+  Category: story dialogue
+  Total messages: 199
+  Speaker tags: no
+  File size: 112096 bytes
+  [1] [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [52FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [63FF]
+  ... (196 more messages)
+
+--- Resource 759 (0759_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 2
+  Speaker tags: YES
+  File size: 277892 bytes
+  [1] ブ [38E1][0C00][B03D][0400]  [841F] [1B00] [7A00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F][7EC3][0CBF][C9BE][56C2...
+  [2]  ブ別容[0400]容別[0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][0700][1200][1300][1400][1500][1600][1700][1800][1900][1A00][0700][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2100][2500][2...
+
+--- Resource 760 (0760_type02.bin) ---
+  Category: story dialogue
+  Total messages: 29
+  Speaker tags: no
+  File size: 138976 bytes
+  [1] ブ [100D] ？別別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [8CFF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [95FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6CFF]
+  ... (26 more messages)
+
+--- Resource 761 (0761_type02.bin) ---
+  Category: story dialogue
+  Total messages: 10
+  Speaker tags: no
+  File size: 234068 bytes
+  [1] ブ [8026][1600][8092]容  [A01A] [0F00] [6700] 別        [803F] [803F] [803F] [803F] [803F]       [803F]   [34C2][6822][6C3D] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]    [6822][6CBD] [...
+  [2]        [0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1100][1000][1500][1600][1500][1000][1900][1A00][1900][0E00][0A00][0900][1F00][2000][2100][2200][2300][2400][2500][2600][...
+  [3] [FF3E][FCDF][833C][8338][213F][37D7][0C3F][CCCC][4C3E][1C00]４[00C0]影[051E] 可[0562][2B27][2625][2100] [0180][056C][1830][89BF][9E8B][2BC0][531E][1AC0] [803F][3F36][6EBD][3919][EFBF][D346][4AC0] [803F][...
+  [4] [FF3E][AFD2][433E][5F12][F3BD][6D21][323F] 。[C141][F33F][EE7B][093F][CE69][933F] [803F][977A][55BF][357F][363F][51D9][A8BE] 。[7BEC][9B40][F1E5][713F][C3CA][6F3E] [803F][0BEB][DB40][FF2F]。[6DAE][9CBD][...
+  [5] [FF3E]発[3A3E][721D][463F][CE68][84BD][9999][993E][D3A3][B0BE][910D][383F][DD8B][2CBF][CDCC][CC3E][DF6D][B240][A732][2A40][D0DE][403F][CDCC][4C3F][D591][CC40][31BB][393F][DAC8][A83F][3333][333F][DABB][...
+  ... (5 more messages)
+
+--- Resource 762 (0762_type02.bin) ---
+  Category: story dialogue
+  Total messages: 233
+  Speaker tags: no
+  File size: 86976 bytes
+  [1] ブ う [E053]ブ別 [1600] [2100]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [75FF]
+  [2] [1400]   ち[309D][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [83FF]
+  [3] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [67FF]
+  ... (230 more messages)
+
+--- Resource 763 (0763_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 302824 bytes
+  [1] ブ [8810][1400][109F][0400]  [C81F] [0700] [7B00] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [4CE2][E032]   [803F] [803F] [803F][AE47][813F] [803F]       [803F][9204][61BC][...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000]容[1200][1300][1400][1500][1600][1700][1800][1900]容[1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][...
+
+--- Resource 764 (0764_type01.bin) ---
+  Category: story dialogue
+  Total messages: 25
+  Speaker tags: no
+  File size: 112096 bytes
+  [1] [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [71FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [65FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6EFF]
+  ... (22 more messages)
+
+--- Resource 765 (0765_type02.bin) ---
+  Category: story dialogue
+  Total messages: 4
+  Speaker tags: no
+  File size: 225108 bytes
+  [1] ブ [306A][0900][806F]容  [7815] [1500] [5300] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F][713D][8A3F][713D][8A3F][713D][8A3F] [803F]       [803F]       [803F]     ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0500][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1800][1900][1A00][1B00][1200][1D00][1E00][1F00][2000][2100][1F00][2300][240...
+  [3] [9B3F][13F9][4440][4896][18C0] [803F][4D20][EABE][1D84][95C0][F5E0][32C0] [803F][464B][96BE][0BE9][B2C0][A024][77BE] [803F][ECD9][68BE][2EBA][C5C0][49EA][473F] [803F]別４  [00C0]影[041E] [2E00]４種 [00C0]影...
+  [4] [3F3B][7FD0][843D][A57E][2E3D][0CA2][0B3D][CFDD][A53C][581D][533B][C125][123B][6566][06B0][6566][863B][CF29][873D][BA94][313D][6B66][42BC][C1CC][A83C][F0B0][9CBC][F2CD][2ABD][EA9E][E33B][2F33][513D][2...
+
+--- Resource 766 (0766_type02.bin) ---
+  Category: story dialogue
+  Total messages: 52
+  Speaker tags: no
+  File size: 112096 bytes
+  [1] ブ [1029] ぽブ別 [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [67FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [80FF]
+  ... (49 more messages)
+
+--- Resource 767 (0767_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 201352 bytes
+  [1] ブ [10BF][0C00][B012]容  [4417] [1700] [5A00] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F404][353F]  [F204][353F] [803F] [803F] [803F] [803F]       [803F][F981][5FBF][AF50]...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1800][1900][1A00][1B00][1C00][1000][1E00][1F00][2000][2100][2200][2300][2400][25...
+
+--- Resource 768 (0768_type02.bin) ---
+  Category: story dialogue
+  Total messages: 37
+  Speaker tags: no
+  File size: 77040 bytes
+  [1] ブ も [102D]ブ別 [0A00] [0F00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [76FF]
+  [2] [1400]   ち[309D][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6BFF]
+  ... (34 more messages)
+
+--- Resource 769 (0769_type02.bin) ---
+  Category: story dialogue
+  Total messages: 32
+  Speaker tags: no
+  File size: 225172 bytes
+  [1] ブ [68FC][0A00][C06F]容  [1419] [1200] [6100] 別        [803F] [803F] [803F] [803F] [803F]       [803F][46B6][1FBF][12DE][BE3E][C233][D1BE] [803F]  [F404][353F]  [F204][353F] [803F] [803F] [803F] [803F] ...
+  [2]  ブ別容[0400][0500][0600][0700][0800]容[0A00][0B00]容[0D00][0E00][0F00][1000][1100][1200][1300][1400][1500]容[1700][1800]容[1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][2700]...
+  [3] [2740][9F99][1940][A51B][0AB5][9999][993E][82EB][4140][B647][0940][F9FF][3F3F][9999][993E][B51E][E53F][638F][823F][07D7][233F][CDCC][4C3E][CDCC][5C40][5B0A][A73F][85EB][913F][9999][993E][D6A7][B640][3...
+  ... (29 more messages)
+
+--- Resource 770 (0770_type02.bin) ---
+  Category: story dialogue
+  Total messages: 40
+  Speaker tags: no
+  File size: 130784 bytes
+  [1] ブ [1049] ビブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [84FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [68FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [75FF]
+  ... (37 more messages)
+
+--- Resource 771 (0771_type02.bin) ---
+  Category: story dialogue
+  Total messages: 4
+  Speaker tags: no
+  File size: 264232 bytes
+  [1] ブ [BCCA][0900][5008][0400]  [7815] [1400] [5300] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [80...
+  [2]       [0600][0600]  [0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1000][1400][1500][0C00][1700][1800][0C00][1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][2700]...
+  [3] [FF3E][14C2][6640][6CCF][A4BF][6BB9][823F] [803F]別４[00C0]影[021E]ブ可思[2C2A] [0180]下[C259][0B3F][1F5F][1DBF][7111][8FBE][CCCC][4C3E][3BB5][0C3F][CDE2][11BF][7350][04BD][CCCC][4C3E][1C00]４[00C0]影[0417]ブ可[...
+  [4] [FF3E][E1E5][A540][2ACB][0BBF][8CAC][25C0][3333][333F][F04D][7940][9D8E][9FBF][A16C][ABBF][9A99][193F][EA32][4740][9330][2EBF][516A][08C0][EC51][183F][1C00]４[00C0]影己 可思[0D0A] [0180]下美[0741][5548][6BBF...
+
+--- Resource 772 (0772_type02.bin) ---
+  Category: story dialogue
+  Total messages: 116
+  Speaker tags: no
+  File size: 103344 bytes
+  [1] ブ f [D093]ブ別 [1800] [2400]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6AFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [8AFF]
+  [3] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6CFF]
+  ... (113 more messages)
+
+--- Resource 773 (0773_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 199720 bytes
+  [1] ブ [B876][0C00][500C]容  [0417] [1900] [5900] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]  [C634][EBBE][9C53][C9B6] [803F][88E2][B636][F304][353F][CD54][B336][F404][353F] [803F] [803F]...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1000][1700][1800][1900][1A00][1B00][1000][1D00][1E00][1F00][2000][2100][1000][2300][2400][25...
+
+--- Resource 774 (0774_type02.bin) ---
+  Category: story dialogue
+  Total messages: 32
+  Speaker tags: no
+  File size: 84832 bytes
+  [1] ブ [F02C] [804B]ブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [BAFF]
+  [3] [1400]   [0040][3015][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  ... (29 more messages)
+
+--- Resource 775 (0775_type02.bin) ---
+  Category: story dialogue
+  Total messages: 8
+  Speaker tags: no
+  File size: 178356 bytes
+  [1] ブ [409D][0A00][E0B8]別  [4C18] [1A00] [5E00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F][5247][4AC0][C08C][31C2][959...
+  [2] [7F41]  [BD37][8635] [803F][4A04][9F32][2846][E1B3][F604][353F][F104][353F] [803F] [803F] [803F] [803F]       [803F][BD37][8635]     [803F][29F2][573C][6FEC][1DBE][4AC2][48BF][DBD2][193F] [803F] [803F...
+  [3] [FF3E]ブ。[FBFF][FF3E] [803F] [803F] [803F] [803F]       [803F] [C0BF] 。 [6040] [803F][AB7A][2D3F][18AC][153F][B90A][2EBE][4926][D33E] [803F] [803F] [803F] [803F]       [803F]       [803F]    [3B16][E03...
+  [4] [FF3E]ブ。[FBFF][FF3E] [803F] [803F] [803F] [803F]       [803F] [E0C0]   [0841] [803F][BA64][60BD][6A4C][F1BC][2CEA][06BF][F6FA][583F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] ...
+  [5] [A341][BD37][86B5][BD37][0636] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]  [06FB][72C2][535C][05BF] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [8...
+  ... (3 more messages)
+
+--- Resource 776 (0776_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 41
+  Speaker tags: YES
+  File size: 107968 bytes
+  [1] ブ [F04A] [E0A5]ブ別 [1400] [1E00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7CFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [35FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [9FFF]
+  ... (38 more messages)
+
+--- Resource 777 (0777_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 248012 bytes
+  [1] ブ [6C71][1100][F0C8]容  [3025] [2000] [9000] 別 [9899][AF25][32EC][95B2][32EC][95B2] [803F] [803F] [803F] [803F] [803F]       [803F][C840][1EBC][9565][48BE][F8AA][553D] [803F]       [803F] [803F] [803F]...
+  [2]  ブ 容[0400][0500][0400][0700] [0900][0900][0900][0900][0900][0900][0F00][0900][0900]  [1400][1500] [1700][1700]  [1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][1D00][2800][290...
+
+--- Resource 778 (0778_type02.bin) ---
+  Category: story dialogue
+  Total messages: 65
+  Speaker tags: no
+  File size: 134032 bytes
+  [1] ブ [1019] [B00B]別別 [2000] [3000]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6BFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [64FF]
+  ... (62 more messages)
+
+--- Resource 779 (0779_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 265208 bytes
+  [1] ブ [540E][0900][200C][0400]  [641B] [1D00] [6A00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F][A65E][B73B][D19F][0DC2][74D2][FBBB] [803F]       [803F] [803F] [803F] [803F] [803F]      ...
+  [2]  ブ    [0600][0700][0700][0600][0A00][0600][0C00][0D00][0C00][0F00][0600][1100][1100][0600][1400] [1600][1700][1800][1900][1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][1800][2300][2400][2500][2600][...
+
+--- Resource 780 (0780_type02.bin) ---
+  Category: story dialogue
+  Total messages: 57
+  Speaker tags: no
+  File size: 118176 bytes
+  [1] ブ [F022] [C0CD]ブ別 [1C00] [2A00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [72FF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6AFF]
+  [3] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [71FF]
+  ... (54 more messages)
+
+--- Resource 781 (0781_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 7
+  Speaker tags: YES
+  File size: 500328 bytes
+  [1] ブ [1425][1B00][90A2][0700]  [E823] [0C00] [8B00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][9E83][84B3][F404][353F][9F83][84B3][F204][353F] [803F] [803F] [803F] [803F] ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][0C00][1600][1700][1800][1900][1A00][1B00][1C00][1D00]容[1F00][2000][2100][2200][2300][2400][25...
+  [3] [FF3E][DC07][CD40][3575][8040][006E][F540][6766][663F]別４[00C0]影[1310] 可[1362][1211][100F][0E0D][0C0B][0A09][0807][0605][0403]種 [0180][136C][DF0A][E540][527C][2540][CEEC][F440] [803F][DC9F][7640][8679]...
+  [4] [FF3E][7AEE][98BE][FC46][92BD][23D2][44BF] 。[8567][F6BE][B8A2][5B3E][05C5][2DBF][732A][DE3E][D751][A03B][5358][DC3E][0BFA][1EBF][28D3][A43E][0400]４[00C0]影[123A]ブ可[1262][2624][2215][1413][110E][0D0C][0...
+  [5] [3F3F][8CF9][C83F][6BE0]っ[9534][BBBF][87A5][4B3F][277E][BE3F][9E72][983F][33C1][273F][374C][F53E][CA88][9A40][3789][CC3F][A34D][5C3F][7CE5][493F][0FAA][633F][76F3][5DC0][01CD][47BF][2D1B][783F][D4A0][...
+  ... (2 more messages)
+
+--- Resource 782 (0782_type02.bin) ---
+  Category: story dialogue
+  Total messages: 155
+  Speaker tags: no
+  File size: 91120 bytes
+  [1] ブ [804C] [1064]ブ別 [0800] [0C00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [79FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [54FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  ... (152 more messages)
+
+--- Resource 783 (0783_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 536844 bytes
+  [1] ブ [8C96][2500][3031][0800]  [F435] [3B00] [D100] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F404][353F]  [F204][353F] [803F] [803F] [803F] [803F]       [803F][EDF2][1041][...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400]容[1600][1700][1800][1900][1A00][1B00][1C00][1D00][1E00]容[2000][2100][2200][2300][2400][2500][2...
+
+--- Resource 784 (0784_type01.bin) ---
+  Category: story dialogue
+  Total messages: 45
+  Speaker tags: no
+  File size: 107200 bytes
+  [1] [1600] [2100]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6CFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [65FF]
+  [3] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [68FF]
+  ... (42 more messages)
+
+--- Resource 785 (0785_type02.bin) ---
+  Category: story dialogue
+  Total messages: 36
+  Speaker tags: no
+  File size: 588312 bytes
+  [1] ブ [4C55][1600][40FA][0800]  [5421] [0B00] [8100] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F404][353F]  [F204][353F] [803F] [803F] [803F] [803F]       [803F][5027][BCC0][...
+  [2] [0F41][BD37][8635] [803F][64F6][50BC][ED94][7F3F][7B06][CA3B][11BD][62BD] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F][EDFF][0741]     [8...
+  [3] [0F41][ACC5][27B7][9C53][4936] [803F][FA04][353F][ED04][353F][AEAB][1C36][1CC0][2AB6] [803F] [803F] [803F] [803F]       [803F][1900][00C0][3200][C0BF][A800][4040] [803F] [803F][4B18][97B6][BA0C][90B5]...
+  ... (33 more messages)
+
+--- Resource 786 (0786_type01.bin) ---
+  Category: story dialogue
+  Total messages: 45
+  Speaker tags: no
+  File size: 149456 bytes
+  [1] [1000] [1800]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [55FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [5BFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [5FFF]
+  ... (42 more messages)
+
+--- Resource 800 (0800_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 49
+  Speaker tags: YES
+  File size: 130784 bytes
+  [1] ブ [1049] ビブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [87FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [65FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [78FF]
+  ... (46 more messages)
+
+--- Resource 801 (0801_type02.bin) ---
+  Category: story dialogue
+  Total messages: 32
+  Speaker tags: no
+  File size: 222516 bytes
+  [1] ブ [4CBD][0B00][6065]容  [1419] [1200] [6100] 別        [803F] [803F] [803F] [803F] [803F]       [803F][46B6][1FBF][12DE][BE3E][C233][D1BE] [803F]  [F404][353F]  [F204][353F] [803F] [803F] [803F] [803F] ...
+  [2]  ブ別容[0400][0500][0600][0700][0800]容[0A00][0B00]容[0D00][0E00][0F00][1000][1100][1200][1300][1400][1500]容[1700][1800]容[1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][2700]...
+  [3] [2740][9F99][1940][A51B][0AB5][9999][993E][82EB][4140][B647][0940][F9FF][3F3F][9999][993E][B51E][E53F][638F][823F][07D7][233F][CDCC][4C3E][CDCC][5C40][5B0A][A73F][85EB][913F][9999][993E][D6A7][B640][3...
+  ... (29 more messages)
+
+--- Resource 802 (0802_type02.bin) ---
+  Category: story dialogue
+  Total messages: 29
+  Speaker tags: no
+  File size: 130784 bytes
+  [1] ブ [1049] ビブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [89FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [65FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [78FF]
+  ... (26 more messages)
+
+--- Resource 803 (0803_type02.bin) ---
+  Category: story dialogue
+  Total messages: 32
+  Speaker tags: no
+  File size: 225204 bytes
+  [1] ブ [4CBD][0B00][E06F]容  [1419] [1200] [6100] 別        [803F] [803F] [803F] [803F] [803F]       [803F][46B6][1FBF][12DE][BE3E][C233][D1BE] [803F]  [F404][353F]  [F204][353F] [803F] [803F] [803F] [803F] ...
+  [2]  ブ別容[0400][0500][0600][0700][0800]容[0A00][0B00]容[0D00][0E00][0F00][1000][1100][1200][1300][1400][1500]容[1700][1800]容[1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][2700]...
+  [3] [2740][9F99][1940][A51B][0AB5][9999][993E][82EB][4140][B647][0940][F9FF][3F3F][9999][993E][B51E][E53F][638F][823F][07D7][233F][CDCC][4C3E][CDCC][5C40][5B0A][A73F][85EB][913F][9999][993E][D6A7][B640][3...
+  ... (29 more messages)
+
+--- Resource 804 (0804_type02.bin) ---
+  Category: story dialogue
+  Total messages: 33
+  Speaker tags: no
+  File size: 130784 bytes
+  [1] ブ [1049] ビブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [87FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [65FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [78FF]
+  ... (30 more messages)
+
+--- Resource 805 (0805_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 199720 bytes
+  [1] ブ [B876][0C00][500C]容  [0417] [1900] [5900] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]  [C634][EBBE][9C53][C9B6] [803F][88E2][B636][F304][353F][CD54][B336][F404][353F] [803F] [803F]...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1000][1700][1800][1900][1A00][1B00][1000][1D00][1E00][1F00][2000][2100][1000][2300][2400][25...
+
+--- Resource 806 (0806_type02.bin) ---
+  Category: story dialogue
+  Total messages: 42
+  Speaker tags: no
+  File size: 84832 bytes
+  [1] ブ [F02C] [804B]ブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [BAFF]
+  [3] [1400]   [0040][3015][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  ... (39 more messages)
+
+--- Resource 807 (0807_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 199720 bytes
+  [1] ブ [B876][0C00][500C]容  [0417] [1900] [5900] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]  [C634][EBBE][9C53][C9B6] [803F][88E2][B636][F304][353F][CD54][B336][F404][353F] [803F] [803F]...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1000][1700][1800][1900][1A00][1B00][1000][1D00][1E00][1F00][2000][2100][1000][2300][2400][25...
+
+--- Resource 808 (0808_type02.bin) ---
+  Category: story dialogue
+  Total messages: 32
+  Speaker tags: no
+  File size: 84832 bytes
+  [1] ブ [A02C] [804B]ブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [BAFF]
+  [3] [1400]   [0040][3015][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  ... (29 more messages)
+
+--- Resource 809 (0809_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 199720 bytes
+  [1] ブ [B876][0C00][500C]容  [0417] [1900] [5900] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]  [C634][EBBE][9C53][C9B6] [803F][88E2][B636][F304][353F][CD54][B336][F404][353F] [803F] [803F]...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1000][1700][1800][1900][1A00][1B00][1000][1D00][1E00][1F00][2000][2100][1000][2300][2400][25...
+
+--- Resource 810 (0810_type02.bin) ---
+  Category: story dialogue
+  Total messages: 30
+  Speaker tags: no
+  File size: 84832 bytes
+  [1] ブ [A02C] [804B]ブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [BAFF]
+  [3] [1400]   [0040][3015][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  ... (27 more messages)
+
+--- Resource 811 (0811_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 199720 bytes
+  [1] ブ [B876][0C00][500C]容  [0417] [1900] [5900] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]  [C634][EBBE][9C53][C9B6] [803F][88E2][B636][F304][353F][CD54][B336][F404][353F] [803F] [803F]...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1000][1700][1800][1900][1A00][1B00][1000][1D00][1E00][1F00][2000][2100][1000][2300][2400][25...
+
+--- Resource 812 (0812_type02.bin) ---
+  Category: story dialogue
+  Total messages: 27
+  Speaker tags: no
+  File size: 84832 bytes
+  [1] ブ [A02C] [804B]ブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [BAFF]
+  [3] [1400]   [0040][3015][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  ... (24 more messages)
+
+--- Resource 813 (0813_type02.bin) ---
+  Category: story dialogue
+  Total messages: 4
+  Speaker tags: no
+  File size: 221956 bytes
+  [1] ブ [306A][0900][3063]容  [7815] [1500] [5300] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F][713D][8A3F][713D][8A3F][713D][8A3F] [803F]       [803F]       [803F]     ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0500][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1800][1900][1A00][1B00][1200][1D00][1E00][1F00][2000][2100][1F00][2300][240...
+  [3] [9B3F][13F9][4440][4896][18C0] [803F][4D20][EABE][1D84][95C0][F5E0][32C0] [803F][464B][96BE][0BE9][B2C0][A024][77BE] [803F][ECD9][68BE][2EBA][C5C0][49EA][473F] [803F]別４  [00C0]影[041E] [2E00]４種 [00C0]影...
+  [4] [3F3B][A789][343D][C09A][8C3C][5F1D][0E3B][6D66][763C][163A][393D][C541][903C][8E14][4EBA][C8CC][7C3C][581D][533B][C125][123B][6566][06B0][6566][863B][7D68][90BC][C469][1DBD][73BE][903C][CFCC][403D][4...
+
+--- Resource 814 (0814_type02.bin) ---
+  Category: story dialogue
+  Total messages: 50
+  Speaker tags: no
+  File size: 112096 bytes
+  [1] ブ [1029] ぽブ別 [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [67FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [80FF]
+  ... (47 more messages)
+
+--- Resource 815 (0815_type02.bin) ---
+  Category: story dialogue
+  Total messages: 4
+  Speaker tags: no
+  File size: 264232 bytes
+  [1] ブ [BCCA][0900][5008][0400]  [7815] [1400] [5300] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [80...
+  [2]       [0600][0600]  [0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1000][1400][1500][0C00][1700][1800][0C00][1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][2700]...
+  [3] [FF3E][14C2][6640][6CCF][A4BF][6BB9][823F] [803F]別４[00C0]影[021E]ブ可思[2C2A] [0180]下[C259][0B3F][1F5F][1DBF][7111][8FBE][CCCC][4C3E][3BB5][0C3F][CDE2][11BF][7350][04BD][CCCC][4C3E][1C00]４[00C0]影[0417]ブ可[...
+  [4] [FF3E][E1E5][A540][2ACB][0BBF][8CAC][25C0][3333][333F][F04D][7940][9D8E][9FBF][A16C][ABBF][9A99][193F][EA32][4740][9330][2EBF][516A][08C0][EC51][183F][1C00]４[00C0]影己 可思[0D0A] [0180]下美[0741][5548][6BBF...
+
+--- Resource 816 (0816_type02.bin) ---
+  Category: story dialogue
+  Total messages: 121
+  Speaker tags: no
+  File size: 123824 bytes
+  [1] ブ f [D0E3]ブ別 [1800] [2400]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6AFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [8AFF]
+  [3] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6CFF]
+  ... (118 more messages)
+
+--- Resource 817 (0817_type02.bin) ---
+  Category: story dialogue
+  Total messages: 4
+  Speaker tags: no
+  File size: 221956 bytes
+  [1] ブ [C869][0900][3063]容  [7815] [1500] [5300] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F][713D][8A3F][713D][8A3F][713D][8A3F] [803F]       [803F]       [803F]     ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0500][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1800][1900][1A00][1B00][1200][1D00][1E00][1F00][2000][2100][1F00][2300][240...
+  [3] [9B3F][13F9][4440][4896][18C0] [803F][4D20][EABE][1D84][95C0][F5E0][32C0] [803F][464B][96BE][0BE9][B2C0][A024][77BE] [803F][ECD9][68BE][2EBA][C5C0][49EA][473F] [803F]別４  [00C0]影[041E] [2E00]４種 [00C0]影...
+  [4] [3F3B][A789][343D][C09A][8C3C][5F1D][0E3B][6D66][763C][163A][393D][C541][903C][8E14][4EBA][C8CC][7C3C][581D][533B][C125][123B][6566][06B0][6566][863B][7D68][90BC][C469][1DBD][73BE][903C][CFCC][403D][4...
+
+--- Resource 818 (0818_type02.bin) ---
+  Category: story dialogue
+  Total messages: 91
+  Speaker tags: no
+  File size: 112096 bytes
+  [1] ブ [1029] ぽブ別 [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [67FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [80FF]
+  ... (88 more messages)
+
+--- Resource 819 (0819_type02.bin) ---
+  Category: story dialogue
+  Total messages: 4
+  Speaker tags: no
+  File size: 264232 bytes
+  [1] ブ [BCCA][0900][5008][0400]  [7815] [1400] [5300] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [80...
+  [2]       [0600][0600]  [0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1000][1400][1500][0C00][1700][1800][0C00][1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][2700]...
+  [3] [FF3E][14C2][6640][6CCF][A4BF][6BB9][823F] [803F]別４[00C0]影[021E]ブ可思[2C2A] [0180]下[C259][0B3F][1F5F][1DBF][7111][8FBE][CCCC][4C3E][3BB5][0C3F][CDE2][11BF][7350][04BD][CCCC][4C3E][1C00]４[00C0]影[0417]ブ可[...
+  [4] [FF3E][E1E5][A540][2ACB][0BBF][8CAC][25C0][3333][333F][F04D][7940][9D8E][9FBF][A16C][ABBF][9A99][193F][EA32][4740][9330][2EBF][516A][08C0][EC51][183F][1C00]４[00C0]影己 可思[0D0A] [0180]下美[0741][5548][6BBF...
+
+--- Resource 820 (0820_type02.bin) ---
+  Category: story dialogue
+  Total messages: 116
+  Speaker tags: no
+  File size: 123824 bytes
+  [1] ブ f [D0E3]ブ別 [1800] [2400]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6AFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [8AFF]
+  [3] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6CFF]
+  ... (113 more messages)
+
+--- Resource 821 (0821_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 248012 bytes
+  [1] ブ [6C71][1100][F0C8]容  [3025] [2000] [9000] 別 [9899][AF25][32EC][95B2][32EC][95B2] [803F] [803F] [803F] [803F] [803F]       [803F][C840][1EBC][9565][48BE][F8AA][553D] [803F]       [803F] [803F] [803F]...
+  [2]  ブ 容[0400][0500][0400][0700] [0900][0900][0900][0900][0900][0900][0F00][0900][0900]  [1400][1500] [1700][1700]  [1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][1D00][2800][290...
+
+--- Resource 822 (0822_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 65
+  Speaker tags: YES
+  File size: 118672 bytes
+  [1] ブ [1019] [B0CF]ブ別 [2000] [3000]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6BFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [64FF]
+  ... (62 more messages)
+
+--- Resource 823 (0823_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 248012 bytes
+  [1] ブ [6C71][1100][F0C8]容  [3025] [2000] [9000] 別 [9899][AF25][32EC][95B2][32EC][95B2] [803F] [803F] [803F] [803F] [803F]       [803F][C840][1EBC][9565][48BE][F8AA][553D] [803F]       [803F] [803F] [803F]...
+  [2]  ブ 容[0400][0500][0400][0700] [0900][0900][0900][0900][0900][0900][0F00][0900][0900]  [1400][1500] [1700][1700]  [1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][1D00][2800][290...
+
+--- Resource 824 (0824_type02.bin) ---
+  Category: story dialogue
+  Total messages: 65
+  Speaker tags: no
+  File size: 126864 bytes
+  [1] ブ [1019] [B0EF]ブ別 [2000] [3000]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6BFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [64FF]
+  ... (62 more messages)
+
+--- Resource 825 (0825_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 248012 bytes
+  [1] ブ [6C71][1100][F0C8]容  [3025] [2000] [9000] 別 [9899][AF25][32EC][95B2][32EC][95B2] [803F] [803F] [803F] [803F] [803F]       [803F][C840][1EBC][9565][48BE][F8AA][553D] [803F]       [803F] [803F] [803F]...
+  [2]  ブ 容[0400][0500][0400][0700] [0900][0900][0900][0900][0900][0900][0F00][0900][0900]  [1400][1500] [1700][1700]  [1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][1D00][2800][290...
+
+--- Resource 826 (0826_type02.bin) ---
+  Category: story dialogue
+  Total messages: 65
+  Speaker tags: no
+  File size: 126864 bytes
+  [1] ブ [1019] [B0EF]ブ別 [2000] [3000]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6BFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [64FF]
+  ... (62 more messages)
+
+--- Resource 827 (0827_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 355872 bytes
+  [1] ブ [342F][1D00][406E][0500]  [5421] [1200] [8100] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][B344][ACB3][F404][353F][B644][ACB3][F204][353F] [803F] [803F] [803F] [803F]      ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0B00][0800][0400]容[1100][1200][1300][1400][1500][1600][1700][1800][1900][1800][1500][1100]容[1E00][1F00][2000][2100][2200][2300][2400][2500][2...
+
+--- Resource 828 (0828_type01.bin) ---
+  Category: story dialogue
+  Total messages: 61
+  Speaker tags: no
+  File size: 151424 bytes
+  [1] [1E00] [2B00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6AFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  ... (58 more messages)
+
+--- Resource 829 (0829_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 355872 bytes
+  [1] ブ [342F][1D00][406E][0500]  [5421] [1200] [8100] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][B344][ACB3][F404][353F][B644][ACB3][F204][353F] [803F] [803F] [803F] [803F]      ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0B00][0800][0400]容[1100][1200][1300][1400][1500][1600][1700][1800][1900][1800][1500][1100]容[1E00][1F00][2000][2100][2200][2300][2400][2500][2...
+
+--- Resource 830 (0830_type01.bin) ---
+  Category: story dialogue
+  Total messages: 75
+  Speaker tags: no
+  File size: 151424 bytes
+  [1] [1E00] [2B00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6AFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  ... (72 more messages)
+
+--- Resource 831 (0831_type02.bin) ---
+  Category: story dialogue
+  Total messages: 8
+  Speaker tags: no
+  File size: 178356 bytes
+  [1] ブ [D0CE][0A00][E0B8]別  [4C18] [1A00] [5E00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F][5247][4AC0][C08C][31C2][959...
+  [2] [7F41]  [BD37][8635] [803F][4A04][9F32][2846][E1B3][F604][353F][F104][353F] [803F] [803F] [803F] [803F]       [803F][BD37][8635]     [803F][29F2][573C][6FEC][1DBE][4AC2][48BF][DBD2][193F] [803F] [803F...
+  [3] [FF3E]ブ。[FBFF][FF3E] [803F] [803F] [803F] [803F]       [803F] [C0BF] 。 [6040] [803F][AB7A][2D3F][18AC][153F][B90A][2EBE][4926][D33E] [803F] [803F] [803F] [803F]       [803F]       [803F]    [3B16][E03...
+  [4] [FF3E]ブ。[FBFF][FF3E] [803F] [803F] [803F] [803F]       [803F] [E0C0]   [0841] [803F][BA64][60BD][6A4C][F1BC][2CEA][06BF][F6FA][583F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] ...
+  [5] [A341][BD37][86B5][BD37][0636] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]  [06FB][72C2][535C][05BF] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [8...
+  ... (3 more messages)
+
+--- Resource 832 (0832_type02.bin) ---
+  Category: story dialogue
+  Total messages: 41
+  Speaker tags: no
+  File size: 107968 bytes
+  [1] ブ [F04A] [E0A5]ブ別 [1400] [1E00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7CFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [35FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [9FFF]
+  ... (38 more messages)
+
+--- Resource 833 (0833_type02.bin) ---
+  Category: story dialogue
+  Total messages: 8
+  Speaker tags: no
+  File size: 178356 bytes
+  [1] ブ [D0CE][0A00][E0B8]別  [4C18] [1A00] [5E00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F][5247][4AC0][C08C][31C2][959...
+  [2] [7F41]  [BD37][8635] [803F][4A04][9F32][2846][E1B3][F604][353F][F104][353F] [803F] [803F] [803F] [803F]       [803F][BD37][8635]     [803F][29F2][573C][6FEC][1DBE][4AC2][48BF][DBD2][193F] [803F] [803F...
+  [3] [FF3E]ブ。[FBFF][FF3E] [803F] [803F] [803F] [803F]       [803F] [C0BF] 。 [6040] [803F][AB7A][2D3F][18AC][153F][B90A][2EBE][4926][D33E] [803F] [803F] [803F] [803F]       [803F]       [803F]    [3B16][E03...
+  [4] [FF3E]ブ。[FBFF][FF3E] [803F] [803F] [803F] [803F]       [803F] [E0C0]   [0841] [803F][BA64][60BD][6A4C][F1BC][2CEA][06BF][F6FA][583F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] ...
+  [5] [A341][BD37][86B5][BD37][0636] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]  [06FB][72C2][535C][05BF] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [8...
+  ... (3 more messages)
+
+--- Resource 834 (0834_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 41
+  Speaker tags: YES
+  File size: 107968 bytes
+  [1] ブ [F04A] [E0A5]ブ別 [1400] [1E00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7CFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [35FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [9FFF]
+  ... (38 more messages)
+
+--- Resource 835 (0835_type02.bin) ---
+  Category: story dialogue
+  Total messages: 8
+  Speaker tags: no
+  File size: 178356 bytes
+  [1] ブ [D0CE][0A00][E0B8]別  [4C18] [1A00] [5E00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F][5247][4AC0][C08C][31C2][959...
+  [2] [7F41]  [BD37][8635] [803F][4A04][9F32][2846][E1B3][F604][353F][F104][353F] [803F] [803F] [803F] [803F]       [803F][BD37][8635]     [803F][29F2][573C][6FEC][1DBE][4AC2][48BF][DBD2][193F] [803F] [803F...
+  [3] [FF3E]ブ。[FBFF][FF3E] [803F] [803F] [803F] [803F]       [803F] [C0BF] 。 [6040] [803F][AB7A][2D3F][18AC][153F][B90A][2EBE][4926][D33E] [803F] [803F] [803F] [803F]       [803F]       [803F]    [3B16][E03...
+  [4] [FF3E]ブ。[FBFF][FF3E] [803F] [803F] [803F] [803F]       [803F] [E0C0]   [0841] [803F][BA64][60BD][6A4C][F1BC][2CEA][06BF][F6FA][583F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] ...
+  [5] [A341][BD37][86B5][BD37][0636] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]  [06FB][72C2][535C][05BF] [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [8...
+  ... (3 more messages)
+
+--- Resource 836 (0836_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 41
+  Speaker tags: YES
+  File size: 107968 bytes
+  [1] ブ [F04A] [E0A5]ブ別 [1400] [1E00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7CFF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [35FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [9FFF]
+  ... (38 more messages)
+
+--- Resource 837 (0837_type02.bin) ---
+  Category: story dialogue
+  Total messages: 45
+  Speaker tags: no
+  File size: 522512 bytes
+  [1] ブ [A4D7][2000][30F9][0700]  [3025] [1500] [9000] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [...
+  [2] [3FC1] [803F][3C80][F9BD][969C][41BE][FEF7][10BF][33FD][4A3F] [803F] [803F] [803F] [803F]       [803F]       [803F]    [42AC][ABBE][3F2E][713F] [803F] [803F] [803F] [803F]       [803F][551F][C441][BD3...
+  [3] [FF3E]ブ。[FEFF][FF3E]
+  ... (42 more messages)
+
+--- Resource 838 (0838_type01.bin) ---
+  Category: NPC dialogue
+  Total messages: 1846
+  Speaker tags: YES
+  File size: 122592 bytes
+  [1] [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [72FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [3CFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [75FF]
+  ... (1843 more messages)
+
+--- Resource 856 (0856_type02.bin) ---
+  Category: story dialogue
+  Total messages: 114
+  Speaker tags: no
+  File size: 72384 bytes
+  [1] ブ [E05B] [E01A]ブ別 [1600] [2100]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [68FF]
+  [2] [1400]   [0040][3099][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [80FF]
+  [3] [1400]   [0040][3059][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [78FF]
+  ... (111 more messages)
+
+--- Resource 870 (0870_type02.bin) ---
+  Category: story dialogue
+  Total messages: 32
+  Speaker tags: no
+  File size: 116016 bytes
+  [1] ブ [604A] [50C5]ブ別 [0800] [1000]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [77FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [49FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [66FF]
+  ... (29 more messages)
+
+--- Resource 888 (0888_type02.bin) ---
+  Category: story dialogue
+  Total messages: 69
+  Speaker tags: no
+  File size: 94944 bytes
+  [1] ブ [1029] えブ別 [0E00] [1500]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [80FF]
+  [2] [1400]   ち[309D][0500][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]   [6000] [82FF]
+  [3] [1400]    [31A1][0500][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]   [6000] [89FF]
+  ... (66 more messages)
+
+--- Resource 889 (0889_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 130516 bytes
+  [1] ブ [D8CD][1300]バブ  [B014] [1100] [5000] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][9E83][8433][F204][353F][...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0B00][0800][0700][1100][1200][1300][1400][1500][1600][1700][1800][1900][1A00][1B00][1800][1500][1100][0700][2000][2100][2200][2300][240...
+
+--- Resource 890 (0890_type02.bin) ---
+  Category: story dialogue
+  Total messages: 25
+  Speaker tags: no
+  File size: 112096 bytes
+  [1] ブ [100D] ぽブ別 [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [98FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [98FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [94FF]
+  ... (22 more messages)
+
+--- Resource 891 (0891_type03.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 305556 bytes
+  [1] ブ [AC42][2300][D0A9][0400]  別 [441A] [80EC][2700]  [E42B] [2600] [AA00] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F204][353F]  [F404][353F] [803F] [803F] [803F] [803F]   ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1200][1600][1700][1200][1900][1A00][1B00][0F00][1D00][1E00][1F00][0F00][2100][2200][2300][0F0...
+
+--- Resource 892 (0892_type03.bin) ---
+  Category: story dialogue
+  Total messages: 79
+  Speaker tags: no
+  File size: 85232 bytes
+  [1] ブ [004B] [204D]ブ別 別 [A009] [2098]ブ別 [0A00] [0F00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6EFF]
+  [2] [1400]   ち[309D][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [8BFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [74FF]
+  ... (76 more messages)
+
+--- Resource 893 (0893_type03.bin) ---
+  Category: story dialogue
+  Total messages: 11
+  Speaker tags: no
+  File size: 220796 bytes
+  [1] ブ [B004][0E00][B05E]容  別 [640C] [6063][1100]  [5811] [1300] [4300] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [80...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1400][1900][1A00][1B00][1400][1D00][1E00][1F00][0A00][2100][2200][2300][240...
+  [3] [3643]
+  [4] [3643]
+  [5] [3643][CDC8][C842][FBFF][7B43][FBFF][7B43][FBFF][7B43] [0043][0900][C442][0900][C442][0900][C442]  [0500][5643][0500][5643][0500][5643] [0043][BCFF][2F41][BCFF][2F41][BCFF][2F41]  [2800]４ベ ち[0160][1A0...
+  ... (6 more messages)
+
+--- Resource 894 (0894_type03.bin) ---
+  Category: story dialogue
+  Total messages: 23
+  Speaker tags: no
+  File size: 85232 bytes
+  [1] ブ [F087] [204D]ブ別 別 [E004] [10D5]ブ別 [0A00] [0F00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7EFF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [82FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [87FF]
+  ... (20 more messages)
+
+--- Resource 895 (0895_type03.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 278468 bytes
+  [1] ブ [9C58][1500][0040][0400]  別 [A426] [A098][1900]  [F01C] [1100] [7000] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F404][353F]  [F204][353F] [803F] [803F] [803F] [803...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00]容[0E00][0F00][1000][1100][1200][1300][1400][1500][1600]容[1800][1900][1A00][1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2...
+
+--- Resource 896 (0896_type04.bin) ---
+  Category: NPC dialogue
+  Total messages: 947
+  Speaker tags: YES
+  File size: 112096 bytes
+  [1] ブ b [20B6]ブ別 別 [A004]ブ[20D8]ブブ 容 [A008] [C0DC]別別 [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [75FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [70FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [64FF]
+  ... (944 more messages)
+
+--- Resource 897 (0897_type02.bin) ---
+  Category: story dialogue
+  Total messages: 29
+  Speaker tags: no
+  File size: 938716 bytes
+  [1] ブ [4CE6][3E00][0053][0E00]  [A054] [2A00] [4801] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F204][353F]  [F404][353F] [803F] [803F] [803F] [803F]       [803F]   [9041...
+  [2] [DF42][82A8][FB37] [803F][CEA7][E133][7FC5][72B0][8676][28BF][6EC2][403F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F][6258][1542]     [8...
+  [3] [0F41][B5FE][1637] ち [803F][BE02][B4B2][D0CA][8632][F9EA][4CBF][5771][193F] [803F] [803F] [803F] [803F]       [803F][8CC0][11C2][DFF3][C541][1A60][12C1] [803F][D216][82BB][6F7A][C6BE][C91B][B4BB][CFF9...
+  ... (26 more messages)
+
+--- Resource 898 (0898_type02.bin) ---
+  Category: story dialogue
+  Total messages: 91
+  Speaker tags: no
+  File size: 153808 bytes
+  [1] ブ [6011]ブ[F058]別別 [1C00] [1D00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [45FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [5BFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   ち [0400][4000][3400]   [6000] [51FF]
+  ... (88 more messages)
+
+--- Resource 899 (0899_type01.bin) ---
+  Category: NPC dialogue
+  Total messages: 49
+  Speaker tags: YES
+  File size: 944588 bytes
+  [1] [1313][1313]ブ[4801]    [1800] ぐ[1200][D0C4][8100][CC01][2A41]０[0002][3000][0450][0006][7000][0890][000A][B000][0CD0][000E][F000][1010]祠[3001][1450]防[7001][1890][011A][B001][1CD0]戦[F001][2010]方[3002][2...
+  [2] [E83F][A701][D700]地[FEFF][E83F][A101][D800]地[FEFF][E83F][A101][D900]地[FEFF][E83F][A701][DA00]隊[FEFF][E83F][B101][DB00]隊[FEFF][E73F][BF01][DC00]ド
+  [3] [E73F][D001][DD00][FFFC]
+  ... (46 more messages)
+
+--- Resource 900 (0900_type01.bin) ---
+  Category: NPC dialogue
+  Total messages: 16
+  Speaker tags: YES
+  File size: 705908 bytes
+  [1] [1313][1313]ブ[4801]    [1800]  [1C00][D453][8200][AC02][C041]              [1000]間[0003][3000][0440][0005][5000][0660][0007][7000][0880]」[9000][0AA0][000B][B000][0CC0]−[D000][0EE0]／[F000][1000]ヴ[1001]...
+  [2] [C002][CFC0][BE09][A600][FBFF][B702][D1C0][D109][A800][F7FF][B002][D3C0][E009][AA00][F4FF][AA02][D5C0][EB09][AC00][F3FF][A402][D6C0][F309][AE00][F4FF][9D02][D6C0][F809][B000][FAFF][9502][D6C0][FA09][B...
+  [3] [3C15][1201][A0F6][74C4][E300][7915][1401][DEF6][82C4][B501][AD15][1601][19F7][92C4][8A02][DE15][1801][51F7][A6C4][6003][0D16][1A01][86F7][BCC4][3904][3816][1C01][B8F7][D6C4][1305][6116][1E01][E6F7][F...
+  [4] [071D][B600][84FC][D3C6][E4FF][8A1C][B800][7DFC][40C6][86FF][591B][BA00][7DFC][7FC5][D1FE][AD19][BC00][86FC][BDC4][C9FD][CD17][BE00][97FC][1DC4][91FC][0B16][C000][ACFC][AFC3][5DFB][9F14][C200][C3FC][6...
+  [5] [08C5][6810][F400][8D12][E7FF][FEC4][6C10][F600][6712][CEFF][F4C4][7010][F800][3E12][B4FF][E8C4][7410][FA00][1312][99FF][DCC4][7810][FC00][E711][7EFF][D0C4][7D10][FE00][B811][62FF][C3C4][8110] [8811][...
+  ... (11 more messages)
+
+--- Resource 901 (0901_type01.bin) ---
+  Category: NPC dialogue
+  Total messages: 12
+  Speaker tags: YES
+  File size: 378356 bytes
+  [1] [1313][1313]ブ[4801]    [1800] ミ[0E00][9040][8100][7001][EE40]  [1000]間[0003][3000][0440][0005][5000][0660][0007][7000][0880]」[9000][0AA0][000B][B000][0CC0]−[D000][0EE0]／[F000][1000]ヴ[1001][1220]小[3001...
+  [2] [ACC1][7E0E][8000][0B01][1F00][BCC1][C10E][8200][2101][3F00][CDC1][040F][8400][3701][5E00][DEC1][470F][8600][4D01][7C00][EFC1][8C0F][8800][6401][9900]員[D10F][8A00][7C01][B500][15C2][1810][8C00][9601][...
+  [3] [BFC2][8912][2000][E6FF] [EBC1][8A0F][2200][F8FF] [5CC1][1E0D][2400][0500] [3BC1][7B0C][2600][1200]
+  [4] [33C1][500C][2800][2100][FEFF][31C1][470C][2A00][3000][FDFF][35C1][5B0C][2C00][3F00][FCFF][3EC1][890C][2E00][4F00][FBFF][4BC1][CA0C][3000][5E00][FAFF][5CC1][1A0D][3200][6D00][FAFF][6FC1][740D][3400][7...
+  [5] [16C1][BD0B][5400][3A00][FEFF][BAC1][BF0E][5600][7D00]別[C0C2][8A12][5800][BE00][0E00][DCC3][DD15][5A00][E600][1900][A4C4][E717][5C00][E800][1B00][D4C4][5D18][5E00][E100][1B00][E2C4][7F18][6000][D800][...
+  ... (7 more messages)
+
+--- Resource 902 (0902_type02.bin) ---
+  Category: story dialogue
+  Total messages: 18
+  Speaker tags: no
+  File size: 440524 bytes
+  [1] ブ [804E][2800][F0B8][0600]  [6C24] [1800] [8D00] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]   [94C2] [0041] [803F] っ
+  [2] [FFBE] 。
+  [3] [FFBE] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F] [C841]   ち [803F]
+  [4] [FFBE] っ
+  [5] [FF3E]別。 [803F] [803F] [803F] [803F]       [803F] [C8C1]  [BD37][8635] [803F][1385][083F][0BBE][EDBE][0F85][08BF]ぉ[EDBE] [803F] [803F] [803F] [803F]       [803F] ち[BD37][86B5]   [803F]       [803F] [8...
+  ... (13 more messages)
+
+--- Resource 903 (0903_type02.bin) ---
+  Category: story dialogue
+  Total messages: 44
+  Speaker tags: no
+  File size: 152784 bytes
+  [1] ブ ～ [F054]別別 [1200] [1B00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [77FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7FFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6FFF]
+  ... (41 more messages)
+
+--- Resource 904 (0904_type04.bin) ---
+  Category: story dialogue
+  Total messages: 6
+  Speaker tags: no
+  File size: 420968 bytes
+  [1] ブ [F827][1E00][B06C][0600]  別 [D411] [B094][2400]  容 [401F] [90A6][2400]  [9421] [0D00] [8200] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][6895][0F3F][D953][20BF][1CF4][...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1800][1900][1A00][1B00][1C00][1D00][1E00][1900][2000][2100][2200][2300][240...
+  [3] [843D][F2E1][683D][2700] [FFC2][1C3D][BB7A][353D][8F07][A63D][2600] [D770][6C3D][5507][6A3E][9F05][3E3E][2500] [C050][163D][848B][283E][4112][7E3E][2200] [AD86][44BD][6478][B83E][1DCB][AF3E][2100] [75...
+  [4] [843D][F2E1][683D][2300] [FB2F][21BE][7ABD][053F][99C6][15BF][0500] [D1F0][41BE][3568][FE3E][1502][19BF][0400] [8DC2][29BE][F614][643E][D029][08BF]容 [5FD4][733D][A72B][6B3E][A104][3CBE]別 [E065][A6BD][...
+  [5] [EA40][62A5][25C0][0FCF][F7BF][9A99][993E][4672][A440][3B84][C6BF][3209][BCBF][CDCC][4C3E][10D9][0941][8D4D][0CC0][59BC][79BF][9999][993E][ED69][BD40][12C1][9EBF][ACAC][62BF][CCCC][4C3E][1A00]４[00C0]影...
+  ... (1 more messages)
+
+--- Resource 905 (0905_type03.bin) ---
+  Category: story dialogue
+  Total messages: 13
+  Speaker tags: no
+  File size: 80816 bytes
+  [1] ブ [2089] [E03B]ブ別 別 [A00A] オブ別 [0600] [0C00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [65FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [5EFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [65FF]
+  [4] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [5FFF]
+  [5] [1400]   ち[309D][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][30CD][0400][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][34...
+  ... (8 more messages)
+
+--- Resource 906 (0906_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 2
+  Speaker tags: YES
+  File size: 152196 bytes
+  [1] ブ [20BE][1200][B052]別  [5C1A] [1900] [6600] 別        [803F] [803F] [803F] [803F] [803F]       [803F] ち   ち [803F]       [803F] [803F] [803F] [803F] [803F]       [803F] ち[6DE2][CE3F] ち [803F]  [F204][3...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][0E00][0A00][0700][0500][1400][1500][1600][1700][1800][1900][1A00][1B00][1C00][1D00][1C00][1800][1500][0500][2200][2300][240...
+
+--- Resource 907 (0907_type02.bin) ---
+  Category: story dialogue
+  Total messages: 39
+  Speaker tags: no
+  File size: 93424 bytes
+  [1] ブ [1049] [106D]ブ別 [0A00] [0F00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7FFF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [A1FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [90FF]
+  ... (36 more messages)
+
+--- Resource 908 (0908_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 19476 bytes
+  [1] ブ [B4BA][0A00][404C]   [4006] [0700] [1800] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]   [48C2]   [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [80...
+  [2]  ブ別容[0400]別[0600][0700]別[0900][0A00]別別別ブ[0F00] [1100][1200][1200][1100][1500][1500][2007] [A007] [204A] [804A] [0600]       [201B] [801B] [A04A] [004B] [0600]       [5028] [B028] [204B] [804B] [0600] ...
+
+--- Resource 909 (0909_type02.bin) ---
+  Category: general text
+  Total messages: 13
+  Speaker tags: no
+  File size: 5584 bytes
+  [1] ブ [9014] [F015] 別 [0800] [0A00]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [74FF]
+  [2] [1400]   [0040][4099][0500][1020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][4099][0500][1020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][400...
+  [3] [1400]   [0040][4099][0500][1020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][4099][0500][1020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][400...
+  [4] [1400]   [0040][4099][0500][1020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][4099][0500][1020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][400...
+  [5] [1400]   [0040][4099][0500][1020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040][4099][0500][1020][0600]    
+  ... (8 more messages)
+
+--- Resource 910 (0910_type02.bin) ---
+  Category: story dialogue
+  Total messages: 162
+  Speaker tags: no
+  File size: 174276 bytes
+  [1] ブ [E8C3][0500][F0A8]別  [480F] [1E00] [3B00] 別        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F]...
+  [2]  ブブ容[0400][0500][0600][0700][0800][0900][0700][0B00][0C00][0700][0E00][0F00][0400][0400][1200][0400][0400][1500][1600]容ブブ [1B00][1C00][1D00][1E00][1F00][2000][2100][2200][2300][2400][2500][2600][2700]...
+  [3] [0A43]
+  ... (159 more messages)
+
+--- Resource 911 (0911_type02.bin) ---
+  Category: story dialogue
+  Total messages: 13
+  Speaker tags: no
+  File size: 56064 bytes
+  [1] ブ も [20DB] 別 [0600] [0900]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6CFF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [42FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [45FF]
+  [4] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6CFF]
+  [5] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [42FF]
+  ... (8 more messages)
+
+--- Resource 912 (0912_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 300968 bytes
+  [1] ブ [0426][1800][D097][0400]  [2824] [2500] [8C00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]  [F204][353F]  [F404][353F] [803F] [803F] [803F] [803F]       [803F]   [3CC2...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][0F00][1300][1400][0F00][1600][1700][0F00][1900][1A00][1B00][1C00][1D00][1E00][1F00][2000][0F00][2200][2300][0F0...
+
+--- Resource 913 (0913_type02.bin) ---
+  Category: story dialogue
+  Total messages: 86
+  Speaker tags: no
+  File size: 102608 bytes
+  [1] ブ [004F] [F090]ブ別 [1000] [1800]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [7AFF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [88FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [79FF]
+  ... (83 more messages)
+
+--- Resource 914 (0914_type02.bin) ---
+  Category: short dialogue/event
+  Total messages: 2
+  Speaker tags: no
+  File size: 359308 bytes
+  [1] ブ [B0B4][0F00][B07B][0500]  [3025] [5A00] [9000] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][CB05][D4B5][F204][353F][CB05][D4B5][F404][353F] [803F] [803F] [803F] [803F] ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][0900][1300][1400][1500][1600][1700][1800][1800][1A00][1B00][1B00][1D00][1E00][1F00][2000][2100][2200][2300][240...
+
+--- Resource 915 (0915_type02.bin) ---
+  Category: story dialogue
+  Total messages: 547
+  Speaker tags: no
+  File size: 112096 bytes
+  [1] ブ ７ ぽブ別 [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [84FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [9BFF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [85FF]
+  ... (544 more messages)
+
+--- Resource 916 (0916_type02.bin) ---
+  Category: NPC dialogue
+  Total messages: 4
+  Speaker tags: YES
+  File size: 257928 bytes
+  [1] ブ [1041][0A00][B0EF]容  [480F] [0E00] [3B00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]  [7AA6][173E]   [803F]  [F504][353F]  [F204][353F] [803F] [803F] [803F] [803F]       [803F][C1...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900]容[0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1800][1900][1000][1B00][1C00][1D00][1E00][1F00][1000][2100][2200][2300][2400][25...
+  [3] [E4BE][1968][08BE][2E00] [6F15][843E][FF2C][2CBF][362E][B2BE][2C00] [C077][0BBF][C93B][873E][5ADD][05BF][2900] [4DCF][E5BE][070A][E13E][A29B][FDBE][2600] [4299][86BE][100D][163F][651E][F4BE][2500] [67...
+  [4] [E43E][1968][083E][2000] [6F15][84BE][FF2C][2C3F][362E][B23E][1F00] [3621][0DBF][8A87][113F][52C5][E83D][1E00] [9F8B][CBBE][EEDC][0A3F][18D5][DD3E][1D00] [A584][60BE][4BC7][DC3E][9A1D][233F][1C00] [B8...
+
+--- Resource 917 (0917_type02.bin) ---
+  Category: story dialogue
+  Total messages: 33
+  Speaker tags: no
+  File size: 99840 bytes
+  [1] ブ [400D] [2086]ブ別 [0C00] [1200]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [68FF]
+  [2] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [31FF]
+  [3] [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [69FF]
+  ... (30 more messages)
+
+--- Resource 918 (0918_type02.bin) ---
+  Category: story dialogue
+  Total messages: 19
+  Speaker tags: no
+  File size: 518460 bytes
+  [1] ブ [804E][2800][60E9][0700]  [6C24] [0C00] [8D00] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]   [94C2] [0041] [803F]...
+  [2] [FFBE] 。
+  [3] [FFBE] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F] [C841]   ち [803F]
+  [4] [FFBE] っ
+  [5] [FF3E]別。 [803F] [803F] [803F] [803F]       [803F] [C8C1]  [BD37][8635] [803F][1385][083F][0BBE][EDBE][0F85][08BF]ぉ[EDBE] [803F] [803F] [803F] [803F]       [803F] ち[BD37][86B5]   [803F]       [803F] [8...
+  ... (14 more messages)
+
+--- Resource 919 (0919_type01.bin) ---
+  Category: general text
+  Total messages: 4
+  Speaker tags: no
+  File size: 18976 bytes
+  [1] 別 [0400]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   [0040...
+  [2] ブベ  [8000][8000]別
+  [3] 容ベ  [1000][1000]  [4800] [4000][4000][4000]   [3840] [1000][1000][0400]   [2844] [0800][0800]ブ   [1845] [1000][1000][0400]     [FFF9][E5C5][FFF9][E5C5][FFF9][E5C5][FFF9][E5C5][F9FF][C6E4][F9FF][C6E4][...
+  [4] [FF80][F0FF][FF80][DFFF][FF80][E5F6][FF80][DBEB][FF80][CBEB][FF80][D2E5][FE80][CEDD][F080][A4D3][FF80][A9C1][E380][AABF][D980][AFBE][D380][AABC][D380][AEBC][CF80][ADBB][CD80][A9B8][CB80][C4D2][E380][B...
+
+--- Resource 920 (0920_type02.bin) ---
+  Category: story dialogue
+  Total messages: 4
+  Speaker tags: no
+  File size: 368680 bytes
+  [1] ブ [7854][1D00][50A0][0500]  [9421] [0800] [8200] [0A00]        [803F] [803F] [803F] [803F] [803F]       [803F]       [803F][3095][0FBF][B853][203F][B5F4][B8BE][3186][CEBE] [803F] [803F] [803F] [803F] ...
+  [2]  ブ別容[0400][0500][0600][0700][0800][0900][0A00][0B00][0C00][0D00][0E00][0F00][1000][1100][1200][1300][1400][1500][1600][1700][1800][1900][1A00][1B00][1C00][1D00][1E00][1900][2000][2100][2200][2300][240...
+  [3] [EA40][62A5][25C0][0FCF][F7BF][9A99][993E][4672][A440][3B84][C6BF][3209][BCBF][CDCC][4C3E][1A00]４[00C0]影[0460]ブ可[0462][2520][1918][0180][046C][5BA9][503E][25F4][C9BE][3DE8][CDBF][9999][193E][7326][793...
+  [4] [EA40][62A5][25C0][0FCF][F7BF][9A99][993E][733D][C540][9929][56C0][85A8][3A3E][0AD7][A33E][4057][2F40][86E6]門[A883]心[CDCC][4C3E][60FE][0741][D191][ACC0][41C0][4D40] 。[9BB3][973F][0FCC][81BF][B06C][3E3...
+
+--- Resource 921 (0921_type01.bin) ---
+  Category: general text
+  Total messages: 4
+  Speaker tags: no
+  File size: 19008 bytes
+  [1] 別 [0400]     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000]   [1400]   ち[30DD][0500][0020][0600]   [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [A9FF]
+  [2] [1400]   [0040][3011][0500][0020][0600]    
+  [3] ブベ  [8000][8000]別
+  [4] 容ベ  [1000][1000]  [6800] [4000][4000][4000]   [5840] [1000][1000][0400]   [4844] [0800][0800]ブ   [3845] [1000][1000][0400]                     [CDCE][B4AB][CDCD][ADAB][C8C2][ABB4][C2BC][A4B9][C0E0][A4...
+
+--- Resource 922 (0922_type02.bin) ---
+  Category: short text/label
+  Total messages: 2
+  Speaker tags: no
+  File size: 6212 bytes
+  [1] ブ [B427] [7018]   [9010] 別 [4000]   [44FE]声[7CFC][31BF][44FE]声[7CFC][313F][295C][4F3F][295C][4F3F][295C][4F3F] [803F]       [803F]  [3D2C][4C3F]   [803F][D19F][F333][32EC][1533][CCAC][8E27] [803F] [80...
+  [2]      [0500][0600][0700][0800][0800][0800][0800][0800][0800][0800][0800][0800][0800][0800][0800][1400][1400][1400][1400][1400][1400][1400][0800][0800][0600][0500][1F00][1F00][1F00][1F00][0500][2400][25...
+
+--- Resource 923 (0923_type02.bin) ---
+  Category: short text/label
+  Total messages: 2
+  Speaker tags: no
+  File size: 6580 bytes
+  [1] ブ [9CF3]容[E019]   [A012] 別 [4800]   [4CCB][DFBE][C94A][0EBF][49CB][DFBE][C84A][0E3F] [803F] [803F] [803F] [803F]       [803F][D8F1][3B3F][F258][FEC1][2904][EA3F] [803F][31EC][1532][3E67][3B33][32EC][9...
+  [2]  ブ別容[0400][0400][0400]容[0800][0800][0800][0800]別[0D00][0E00][0E00][0E00][0D00][1200][1200][1200][1200]別[1700][1800][1800][1700][1700][1700]ブ[1E00][1F00][2000][2100][2100][2100][2000][2000][2000][2000]...
+
+--- Resource 924 (0924_type02.bin) ---
+  Category: general text
+  Total messages: 4
+  Speaker tags: no
+  File size: 16644 bytes
+  [1] ブ [9051][0C00][3041]   [CC0F] [0A00] [3D00]          [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F][D7A3][903F] [803F]       [803F][9BF6][B340][B532][0FC1][3B5...
+  [2]  ブ別ブ[0400]ブ[0600]ブ[0800]ブ[0A00]                                                  [0C11] [2011] [D03F] [E03F] ブ  別    [B015] [D015] [F03F] [0040] ブ  別    [701A] [901A] [1040] [2040] ブ  別    [101F] [301...
+  [3] [1F41][ACC5][A7B6][BD37][86B5] [803F][D00C][D140][EEEA][74C0][D00C][D140] [803F]別４[00C0]影[1110] 可[1162][100F][0E0D][0C0B][0A09][0807][0605][0403]種  [0180][116C][2E46][E240][ACC5][A7B6][2E46][E240] [80...
+  [4] [1F41] [803F][D20C][D1C0][EEEA][74C0][CE0C][D140] [803F][3246][E2C0][ACC5][A7B6][2E46][E240] [803F][C32E][2D40][20D2][13C1][CB2E][2DC0] [803F][BD37][86B5][20D2][13C1][DDEA][74C0] [803F][CB2E][2DC0][20...
+
+--- Resource 925 (0925_type02.bin) ---
+  Category: short text/label
+  Total messages: 2
+  Speaker tags: no
+  File size: 9076 bytes
+  [1] ブ [24C4][0400][A023]   [E81B] 別 [6C00]   [3E67][BBB4][4AE2][E032][3CEC][15B2] [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]       [803F] [803F] [803F] [803F] [803F]       [803F]  [CB69]...
+  [2]  ブ別容容容容容容容容容別[0D00][0D00][0D00][0D00] [1200][1300][1400][1400][1400][1400][1400][1900][1900][1900][1400][1300][1E00][1E00][1E00][1E00][1E00][1E00][2400][2400][2400][1200][2800][2900][2900][2900][2800]...
+
+--- Resource 926 (0926_type02.bin) ---
+  Category: short text/label
+  Total messages: 2
+  Speaker tags: no
+  File size: 612 bytes
+  [1] ブ [3001] [9002]   [5400] ブ ブ          [803F] [803F] [803F] [803F] [803F]       [803F]       [803F]
+  [2]  [7400] [9000] [5002] [6002] ブ       ブ [0A00][0400] ブ別 [1100]     ベ ち下[0180]  ０[0E00]       [1A00]   [1400]４ち[016C] [7F43] [7F43] [7F43] [0043][2A00]４ち下[0180]  ０[0E00]   [4400] [8000] [4200]   [1400]４...
+
+--- Resource 927 (0927_type01.bin) ---
+  Category: general text
+  Total messages: 444
+  Speaker tags: no
+  File size: 8416 bytes
+  [1] ブ 別     [0480]  ０[0E00]       [0800]   [0040] [0400][4000][3400]   [6000] [6AFF]
+  [2] [1400]   ち[40DD][0500][0020][0600]    
+  [3] ブベ  [8000][8000]  [2C00] [4000][2000][2000]   [1C20] [0800]別ブ       
+  ... (441 more messages)

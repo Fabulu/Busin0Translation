@@ -1,0 +1,797 @@
+[
+  {
+    "resource": 38,
+    "message": 12,
+    "japanese": "条果 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 13,
+    "japanese": "職業 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 14,
+    "japanese": "果性 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 15,
+    "japanese": "騎事務騎法 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 16,
+    "japanese": "神聖騎法 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 17,
+    "japanese": "能力値 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 18,
+    "japanese": "lｖ１ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 19,
+    "japanese": "lｖ２ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 20,
+    "japanese": "lｖ３ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 21,
+    "japanese": "lｖ４ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 22,
+    "japanese": "lｖ５ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 23,
+    "japanese": "lｖ６ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 24,
+    "japanese": "lｖ７ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 27,
+    "japanese": "イオ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 28,
+    "japanese": "エウロパ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 29,
+    "japanese": "人壁 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 30,
+    "japanese": "エルフ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 31,
+    "japanese": "ノーム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 32,
+    "japanese": "ドワーフ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 33,
+    "japanese": "ホビット / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 34,
+    "japanese": "オートマター / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 37,
+    "japanese": "戦士 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 38,
+    "japanese": "盗賊 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 39,
+    "japanese": "騎事務 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 40,
+    "japanese": "神聖 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 41,
+    "japanese": "忍者 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 43,
+    "japanese": "集教 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 44,
+    "japanese": "兵士 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 45,
+    "japanese": "冒金事務 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 46,
+    "japanese": "義賊 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 47,
+    "japanese": "モンク / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 48,
+    "japanese": "聖兵士 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 49,
+    "japanese": "暗兵士 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 50,
+    "japanese": "将後 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 51,
+    "japanese": "教授 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 52,
+    "japanese": "美盗 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 53,
+    "japanese": "飽き果 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 55,
+    "japanese": "れ全費 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 56,
+    "japanese": "孤独 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 57,
+    "japanese": "社交的 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 58,
+    "japanese": "収集家 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 59,
+    "japanese": "慎重 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 60,
+    "japanese": "与蓄家 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 61,
+    "japanese": "知的 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 62,
+    "japanese": "好戦的 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 63,
+    "japanese": "冒険家 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 64,
+    "japanese": "迷信家 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 65,
+    "japanese": "勤勉務 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 66,
+    "japanese": "効向け / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 67,
+    "japanese": "エコロジスト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 68,
+    "japanese": "乙女心 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 69,
+    "japanese": "重腕漢 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 70,
+    "japanese": "多義感 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 71,
+    "japanese": "勤ち気 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 72,
+    "japanese": "協力的 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 73,
+    "japanese": "友愛 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 74,
+    "japanese": "短気 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 75,
+    "japanese": "エコノミスト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 76,
+    "japanese": "好色 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 77,
+    "japanese": "ナルシスト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 78,
+    "japanese": "気分屋 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 79,
+    "japanese": "自己的 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 80,
+    "japanese": "種族愛 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 81,
+    "japanese": "大胆 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 82,
+    "japanese": "除味家 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 83,
+    "japanese": "獲得力 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 84,
+    "japanese": "命中果 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 85,
+    "japanese": "解消力 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 86,
+    "japanese": "回避果 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 87,
+    "japanese": "何でもすぐ飽きる。迷宮探索も同じ。 / 長受壁街に帰らないと消嫌が悪くなる。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 88,
+    "japanese": "臆的な士に敏感なので、死神を見ただけで / ふるえあがる。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 89,
+    "japanese": "金をためることに全てをかける。わざわざ / 迷宮を探索して、稼ぎが少ないと城る。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 90,
+    "japanese": "人ごみや大人数での行動は苦手。 / 少人数でひっそり行動する方が落ち着く。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 91,
+    "japanese": "いつも大同の者との交進を方む。 / 少人数の大しいパーティは嫌い。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 92,
+    "japanese": "宝士に目がない。 / アイテム収集が人生のテーマ。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 93,
+    "japanese": "使理のある冒険・戦箱をする者とは / 欠け編えないと思っている。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 94,
+    "japanese": "騎士の生態に解い関心を持っている。 / 騎士を見つけて調べるのが大好き。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 95,
+    "japanese": "神秘的な力は有対だと信じており、 / 騎法の知鑑が高まると幸せに感じる。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 96,
+    "japanese": "腕の気が聞く、通に解者との箱いを / 求めている。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 97,
+    "japanese": "冒険者が、冒険に出なければ払用がないと / 思っている。冒険できないとつらい。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 98,
+    "japanese": "突然の出来頼に対して敏感に違応する。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 99,
+    "japanese": "トラップ殿解にムキになる。隊失すると / 消嫌がいいが成功するとひどく落ちこむ。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 100,
+    "japanese": "気が探く、長く迷宮にいると不安になる。 / 不死族はこの世から除えてほしい。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 101,
+    "japanese": "リサイクル言神を大切にしている。 / まだ使える士を持てるなどもってのほか。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 102,
+    "japanese": "乙女の高い絆があれば、 / つらい箱いでも余計な男はいらない。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 103,
+    "japanese": "箱いの世界に女は使息と考えている。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 104,
+    "japanese": "話え騎士であっても戦払のない友好的な / 騎士をむやみに殺傷するのは許せない。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 105,
+    "japanese": "騎士をかたっぱしから殺すのが生きがい。 / 逃げるなどといった除卑的な行動を嫌う。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 106,
+    "japanese": "パーティとしての行動を重んじる。自分が / 単独で何かをするような魔鉄は嫌い。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 107,
+    "japanese": "戦いを嫌い、■血を方む。 / 戦友が死んだ受などはひどく落ち込む。 / ",
+    "coverage": 96,
+    "unknown_glyphs": [
+      639
+    ]
+  },
+  {
+    "resource": 38,
+    "message": 108,
+    "japanese": "とても気が短いので、いつまでもだらだら / 続く戦箱はイライラしている。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 109,
+    "japanese": "生まれつき商人気質があり、商売などに / 解い関心をもっている。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 110,
+    "japanese": "取果に解い関心を持っている。 / 同果ばかりのパーティに御用がない。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 111,
+    "japanese": "自分はこの世でいちばん美しいと信じる。 / 美しい自分が傷ついたりするとショック。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 112,
+    "japanese": "とつぜん振んだかと思えば、今度は経に / 城ったり、つかみどころのない果性。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 113,
+    "japanese": "自分が苦しい立場であればあるほど振ぶ。 / 体の取通ををされるのはかえってつらい。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 114,
+    "japanese": "同種族の者に対する仲壁払鑑が解い。 / 異種族との交進を全く方まない。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 115,
+    "japanese": "何も考えていない。何でもいい。誰かが / 振べば一緒に振ぶ、城れば一緒に城る。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 116,
+    "japanese": "何でも持っているものは著消活息すべき。 / 宝のもちぐされは許せない。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 117,
+    "japanese": "果別によって、個人の基仲能力値と隊長が取なります。 / 男果は力解く、女果は知的に隊長していきます。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 118,
+    "japanese": "種族はその者の隊長の基本となります。 / 人壁は少手信仰心が高いものの、全体的にむらなく / 隊長するバランスのいい種族といわれています。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 119,
+    "japanese": "種族はその者の隊長の基本となります。 / エルフ族は知力と生命力に優れ、力は探いですが、 / 騎法の扱いでは■に出る者はいないと言われています。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      748
+    ]
+  },
+  {
+    "resource": 38,
+    "message": 120,
+    "japanese": "種族はその者の隊長の基本となります。 / ノーム族は、信仰心がとても解く、 / また身のこなしがく器いため、神聖に向いています。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 121,
+    "japanese": "種族はその者の隊長の基本となります。 / 動きは胆いが、力解く信仰の待いドワーフ族。 / その特果を生かせる戦士に就く者が聞いようです。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 122,
+    "japanese": "種族はその者の隊長の基本となります。 / ホビット族は小格でか探いものの、素い身のこなしと、 / 生まれ持つ幸運とで盗賊に就く者が内をたちません。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 123,
+    "japanese": "正義を重んじる善は、その正義に違した行動によっては / 悪へと変わってしまうこともあります。 / 可能職業：戦・騎・神・侍・義・集・兵・冒・モ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 124,
+    "japanese": "かたよった考えをしない者は中立といわれます。 / 可能職業：戦・盗・騎・侍・義・冒・モ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 125,
+    "japanese": "休息を好む悪。稀に善に地心する者もいるようです。 / 可能職業：戦・盗・騎・神・忍・集・冒 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 126,
+    "japanese": "武闘のエキスパート。 / 騎法は習下できません。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 127,
+    "japanese": "罠の発難度を下げる能力を持ち、また宝箱を / 見つけるのも下払です。 / lｖ３までの騎事務騎法を習下可能。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 128,
+    "japanese": "騎事務騎法の使い手。 / 全ての騎事務騎法を習下可能。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 129,
+    "japanese": "神聖騎法の使い手。 / 不死族を退除するディスペルを覚えることができます。 / 全ての神聖騎法を習下可能。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 130,
+    "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / lｖ２までの騎事務騎法を習下可能。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  }
+]

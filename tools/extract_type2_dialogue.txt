@@ -1,0 +1,141 @@
+import struct, json, re, sys
+from collections import Counter
+
+PACKDATA = 'C:/Programmieren/wizardrytranslation/extracted/PACKDATA.DIG'
+GLYPH_MAP_PATH = 'C:/Programmieren/wizardrytranslation/data/msg_glyph_map.json'
+OUT_JSON = 'C:/Programmieren/wizardrytranslation/data/type2_dialogue_full.json'
+OUT_TXT = 'C:/Programmieren/wizardrytranslation/data/type2_dialogue_full.txt'
+
+SECTOR = 2048
+TOC_ENTRIES = 2883
+OUTLIER_INDICES = {1370, 2100}
+
+# Force UTF-8
+sys.stdout.reconfigure(encoding='utf-8')
+
+with open(GLYPH_MAP_PATH, 'r', encoding='utf-8') as f:
+    glyph_map = {int(k): v for k, v in json.load(f).items()}
+print(f'Loaded {len(glyph_map)} glyph mappings', flush=True)
+
+with open(PACKDATA, 'rb') as f:
+    toc_data = f.read(TOC_ENTRIES * 12)
+
+toc = []
+for i in range(TOC_ENTRIES):
+    so, sc, tc = struct.unpack_from('<III', toc_data, i * 12)
+    toc.append((i, so, sc, tc))
+
+# Filter type-2 resources with >10 sectors, excluding outliers
+type2 = [(idx, so, sc, tc) for idx, so, sc, tc in toc if tc == 2 and sc > 10 and idx not in OUTLIER_INDICES]
+print(f'Found {len(type2)} type-2 resources with >10 sectors', flush=True)
+
+def find_dialogue_in_section2(data, resource_idx, sec2_offset):
+    """Parse section 2 of a type-2 resource for dialogue."""
+    results = []
+    sec2 = data[sec2_offset:]
+    if len(sec2) < 4:
+        return results
+    n_words = len(sec2) // 2
+
+    # Read all words
+    words = []
+    for wi in range(n_words):
+        words.append(struct.unpack_from('>H', sec2, wi * 2)[0])
+
+    # Split by FFFF into messages
+    msg_start = 0
+    for wi in range(n_words):
+        if words[wi] == 0xFFFF:
+            msg_glyphs = words[msg_start:wi]
+            # Filter out control codes (FF**, FB**, FE**)
+            text_glyphs = [g for g in msg_glyphs if g < 0xFB00]
+            if len(text_glyphs) >= 10:
+                mapped = sum(1 for g in text_glyphs if g in glyph_map)
+                coverage = 100 * mapped / len(text_glyphs) if text_glyphs else 0
+                if coverage >= 50:
+                    decoded = []
+                    for g in msg_glyphs:
+                        if g >= 0xFB00:
+                            continue  # skip control codes
+                        elif g in glyph_map:
+                            decoded.append(glyph_map[g])
+                        else:
+                            decoded.append(f'[{g:04X}]')
+                    text = ''.join(decoded)
+                    clean = re.sub(r'\[[0-9A-F]{4}\]', '', text).replace(' ', '')
+                    if len(clean) >= 5:
+                        results.append({
+                            'resource': resource_idx,
+                            'offset': sec2_offset + msg_start * 2,
+                            'japanese': text,
+                            'coverage': round(coverage),
+                            'glyph_count': len(text_glyphs)
+                        })
+            msg_start = wi + 1
+    return results
+
+all_dialogue = []
+processed = 0
+no_sec2 = 0
+
+with open(PACKDATA, 'rb') as f:
+    for idx, so, sc, tc in type2:
+        abs_off = so * SECTOR
+        size = sc * SECTOR
+        f.seek(abs_off)
+        data = f.read(size)
+
+        # Parse resource header to find section 2
+        if len(data) < 0x1C:
+            no_sec2 += 1
+            continue
+        z1, payload_size, stride, z2 = struct.unpack_from('<IIII', data, 0)
+        sec_count = struct.unpack_from('<I', data, 0x10)[0]
+        if sec_count >= 1 and len(data) >= 0x1C:
+            sec2_size = struct.unpack_from('<I', data, 0x14)[0]
+            sec2_offset = struct.unpack_from('<I', data, 0x18)[0]
+            if sec2_offset > 0 and sec2_offset < len(data) and sec2_size > 20:
+                runs = find_dialogue_in_section2(data, idx, sec2_offset)
+                if runs:
+                    all_dialogue.extend(runs)
+            else:
+                no_sec2 += 1
+        else:
+            no_sec2 += 1
+
+        processed += 1
+        if processed % 100 == 0:
+            print(f'  Processed {processed}/{len(type2)}, {len(all_dialogue)} runs...', flush=True)
+
+print(f'\nTotal: {len(all_dialogue)} dialogue runs', flush=True)
+print(f'Resources without usable section 2: {no_sec2}', flush=True)
+
+all_dialogue.sort(key=lambda x: (x['resource'], x['offset']))
+unique_resources = len(set(d['resource'] for d in all_dialogue))
+print(f'Dialogue in {unique_resources} unique resources', flush=True)
+
+with open(OUT_JSON, 'w', encoding='utf-8') as f:
+    json.dump(all_dialogue, f, ensure_ascii=False, indent=2)
+print(f'Saved {OUT_JSON}', flush=True)
+
+with open(OUT_TXT, 'w', encoding='utf-8') as f:
+    current_resource = None
+    for entry in all_dialogue:
+        if entry['resource'] != current_resource:
+            current_resource = entry['resource']
+            f.write(f'\n{"="*60}\n')
+            f.write(f'Resource {current_resource}\n')
+            f.write(f'{"="*60}\n')
+        f.write(f'  [offset {entry["offset"]:06X}] ({entry["glyph_count"]} glyphs, {entry["coverage"]}% mapped)\n')
+        f.write(f'  {entry["japanese"]}\n\n')
+print(f'Saved {OUT_TXT}', flush=True)
+
+if all_dialogue:
+    avg_cov = sum(d['coverage'] for d in all_dialogue) / len(all_dialogue)
+    avg_gl = sum(d['glyph_count'] for d in all_dialogue) / len(all_dialogue)
+    total_glyphs = sum(d['glyph_count'] for d in all_dialogue)
+    print(f'\nStats: avg coverage={avg_cov:.1f}%, avg glyphs={avg_gl:.1f}, total glyphs={total_glyphs}')
+    res_counts = Counter(d['resource'] for d in all_dialogue)
+    print(f'\nTop 20 resources by dialogue count:')
+    for res, count in res_counts.most_common(20):
+        print(f'  R{res}: {count} runs')

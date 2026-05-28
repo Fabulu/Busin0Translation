@@ -1,0 +1,184 @@
+[
+  {
+    "resource": 43,
+    "message": 1,
+    "japanese": "おうおう、 / あの依頼はどうなった？ /   / ",
+    "english": "Hey there, / how'd that job go? /   / ",
+    "notes": "Bartender greeting when player has active quest"
+  },
+  {
+    "resource": 43,
+    "message": 2,
+    "japanese": "よう、 / 一杯ひっかけてくかい？ /   / ",
+    "english": "Yo, / want a drink? /   / ",
+    "notes": "Bartender main greeting, casual tone"
+  },
+  {
+    "resource": 43,
+    "message": 3,
+    "japanese": "掲鉄板を見るのか？ /   /   / ",
+    "english": "Check the board? /   /   / ",
+    "notes": "掲鉄板 = bulletin board (掲示板 with decoding artifact)"
+  },
+  {
+    "resource": 43,
+    "message": 4,
+    "japanese": "何か依頼を / 引き受けてくれるのか？ /   / ",
+    "english": "Gonna take on / a job? /   / ",
+    "notes": "Tavern quest accept prompt"
+  },
+  {
+    "resource": 43,
+    "message": 5,
+    "japanese": "お前さんがこれまでに / こなした依頼を / 教えてやろう。 / ",
+    "english": "Lemme show ya / the jobs you've / done so far. / ",
+    "notes": "Quest history review"
+  },
+  {
+    "resource": 43,
+    "message": 6,
+    "japanese": "気分転更に / ゲームでもしていけよ  /   / ",
+    "english": "Take a break, / play a game! /   / ",
+    "notes": "気分転換 = change of pace (更 is decoding artifact for 換)"
+  },
+  {
+    "resource": 43,
+    "message": 7,
+    "japanese": "なんだ、 / もう帰るってのか？ /   / ",
+    "english": "What, / leaving already? /   / ",
+    "notes": "Exit tavern prompt"
+  },
+  {
+    "resource": 43,
+    "message": 8,
+    "japanese": "おっ  / ゲームをしていくか？ /   / ",
+    "english": "Oh! / Wanna play a game? /   / ",
+    "notes": "Medal game prompt"
+  },
+  {
+    "resource": 43,
+    "message": 9,
+    "japanese": "トホホ！、 / アンタにやられちゃ / 商売あがったりだぜ。 / ",
+    "english": "Argh! / You're too good, / bad for business! / ",
+    "notes": "Player wins medal game"
+  },
+  {
+    "resource": 43,
+    "message": 10,
+    "japanese": "自信がないなら / 練習でもしてみな  /   / ",
+    "english": "Not confident? / Try practicing! /   / ",
+    "notes": "Suggests practice mode"
+  },
+  {
+    "resource": 43,
+    "message": 11,
+    "japanese": "ゲームは１回５００gだぜ。 /   /   / ",
+    "english": "It's 500g a game. /   /   / ",
+    "notes": "Medal game cost"
+  },
+  {
+    "resource": 43,
+    "message": 12,
+    "japanese": "ゲームで集めたメダルと / アイテムを交更するぜ。 /   / ",
+    "english": "Trade medals for / items, yeah? /   / ",
+    "notes": "Medal exchange intro. 交更 = 交換 (exchange) decoding artifact"
+  },
+  {
+    "resource": 43,
+    "message": 13,
+    "japanese": "ゲームで損したくなければ / しっかり練習しろよ  /   / ",
+    "english": "Don't wanna lose? / Practice well! /   / ",
+    "notes": "Practice suggestion"
+  },
+  {
+    "resource": 43,
+    "message": 14,
+    "japanese": "ゲームを錠めていいか？ /   /   / ",
+    "english": "Quit the game? /   /   / ",
+    "notes": "錠め = 止め (stop) decoding artifact. Confirm quit"
+  },
+  {
+    "resource": 43,
+    "message": 15,
+    "japanese": "おいおい、金が足りねえと / ゲームはできねえぜ。 /   / ",
+    "english": "Hey now, no gold / means no game! /   / ",
+    "notes": "Insufficient gold for medal game"
+  },
+  {
+    "resource": 43,
+    "message": 16,
+    "japanese": "残念だな、メダルは / なしだ  /   / ",
+    "english": "Too bad, / no medals! /   / ",
+    "notes": "Player loses medal game"
+  },
+  {
+    "resource": 43,
+    "message": 17,
+    "japanese": "ほら、メダルをやるよ  /   /   / ",
+    "english": "Here, take these / medals! /   / ",
+    "notes": "Player wins medals"
+  },
+  {
+    "resource": 43,
+    "message": 18,
+    "japanese": "どの景品がほしいんだ？ /   /   / ",
+    "english": "Which prize / d'ya want? /   / ",
+    "notes": "Prize selection prompt"
+  },
+  {
+    "resource": 43,
+    "message": 19,
+    "japanese": "その景品と / 交更したいのか？ /   / ",
+    "english": "Trade for / that prize? /   / ",
+    "notes": "Confirm prize exchange"
+  },
+  {
+    "resource": 43,
+    "message": 20,
+    "japanese": "誰に持たせるんだい？ /   /   / ",
+    "english": "Who gets it? /   /   / ",
+    "notes": "Select party member to receive prize"
+  },
+  {
+    "resource": 43,
+    "message": 21,
+    "japanese": "ほらよ  /   /   / ",
+    "english": "Here ya go! /   /   / ",
+    "notes": "Item given to player"
+  },
+  {
+    "resource": 43,
+    "message": 22,
+    "japanese": "持ち士を整理してから / 来てくれよ。 /   / ",
+    "english": "Sort your stuff / then come back. /   / ",
+    "notes": "持ち士 = 持ち物 (belongings) decoding artifact. Inventory full"
+  },
+  {
+    "resource": 43,
+    "message": 23,
+    "japanese": "は い / ",
+    "english": "Yes / ",
+    "notes": "Confirmation option"
+  },
+  {
+    "resource": 43,
+    "message": 24,
+    "japanese": "いいえ / ",
+    "english": "No / ",
+    "notes": "Decline option"
+  },
+  {
+    "resource": 43,
+    "message": 25,
+    "japanese": "練習をはじめますか？ / ",
+    "english": "Start practice? / ",
+    "notes": "Practice mode confirmation"
+  },
+  {
+    "resource": 43,
+    "message": 26,
+    "japanese": "ゲームをはじめますか？ / 「１プレイ ５００g」 / ",
+    "english": "Start the game? / [1 play: 500g] / ",
+    "notes": "Medal game start confirmation with cost"
+  }
+]

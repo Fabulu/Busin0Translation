@@ -1,0 +1,46 @@
+{
+  "target": "バブリースライム (Bubbly Slime)",
+  "source": "fight1.p2s screenshot",
+  "characters": [
+    {"char": "バ", "base": "ハ", "modifier": "dakuten", "glyph_id": null, "packed_id_hypothesis": "0x1A00 (6656)", "confidence": "LOW"},
+    {"char": "ブ", "base": "フ", "modifier": "dakuten", "glyph_id": null, "packed_id_hypothesis": "0x1A02 (6658)", "confidence": "LOW"},
+    {"char": "リ", "base": "リ", "modifier": null, "glyph_id": 137, "packed_id_hypothesis": null, "confidence": "HIGH"},
+    {"char": "ー", "base": null, "modifier": "long_vowel", "glyph_id": null, "packed_id_hypothesis": "one of glyphs 25-36", "confidence": "LOW"},
+    {"char": "ス", "base": "ス", "modifier": null, "glyph_id": 110, "packed_id_hypothesis": null, "confidence": "HIGH"},
+    {"char": "ラ", "base": "ラ", "modifier": null, "glyph_id": 136, "packed_id_hypothesis": null, "confidence": "HIGH"},
+    {"char": "イ", "base": "イ", "modifier": null, "glyph_id": 99, "packed_id_hypothesis": null, "confidence": "HIGH"},
+    {"char": "ム", "base": "ム", "modifier": null, "glyph_id": 130, "packed_id_hypothesis": null, "confidence": "HIGH"}
+  ],
+  "special_char_grid": {
+    "address": "0x4C9CE0",
+    "format": "uint16 value + uint16 padding per cell, 8 cols per row",
+    "row0_direct_glyphs": [25, 26, 27, 28, 29, 30, 31, 32],
+    "row1_direct_glyphs": [33, 34, 35, 36, 114],
+    "packed_id_ranges": {
+      "0x1900": {"count": 13, "decimal_range": "6400-6412", "note": "dakuten set A"},
+      "0x1A00": {"count": 13, "decimal_range": "6656-6668", "note": "dakuten set B (likely ba-row)"},
+      "0x1B00": {"count": 13, "decimal_range": "6912-6924", "note": "extended specials"},
+      "0x1C00": {"count": 13, "decimal_range": "7168-7180", "note": "size variant"},
+      "0x1D00": {"count": 13, "decimal_range": "7424-7436", "note": "size variant"},
+      "0x1E00": {"count": 16, "decimal_range": "7680-7695", "note": "size variant"},
+      "0x1F00": {"count": 5, "decimal_range": "7936-7940", "note": "size variant partial"}
+    }
+  },
+  "search_results": {
+    "ee_ram_consecutive_uint16": "NOT_FOUND",
+    "msg_resources_consecutive": "NOT_FOUND",
+    "shift_jis_anywhere": "NOT_FOUND",
+    "unicode_anywhere": "NOT_FOUND",
+    "ascii_anywhere": "NOT_FOUND"
+  },
+  "key_insight": "Game does NOT store text as contiguous glyph-ID arrays. Even visible basic katakana menu text (アイテム) is not found as consecutive uint16 values in EE RAM. Text rendering uses interleaved positioning data or streaming.",
+  "status": "INCOMPLETE",
+  "verified_mappings": {
+    "リ": 137,
+    "ス": 110,
+    "ラ": 136,
+    "イ": 99,
+    "ム": 130
+  },
+  "unresolved": ["バ", "ブ", "ー"]
+}

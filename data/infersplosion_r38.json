@@ -1,0 +1,968 @@
+{
+  "_meta": {
+    "source": "0038_type01.bin (MSG resource, 188 messages, 2930 glyphs, 163 unknowns)",
+    "method": "Second inference pass: contextual inference from partially decoded Japanese + English guide cross-reference (dumps/guide_full.txt)",
+    "base_mapping": "data/msg_glyph_map.json (497 entries)",
+    "date": "2026-05-22",
+    "agent": "claude-opus-4.6-infersplosion-r38",
+    "pass": 2,
+    "total_inferred": 164,
+    "truly_new_inferences": 142,
+    "gmap_conflicts": 21,
+    "gmap_agreements": 1,
+    "confidence_breakdown": {
+      "HIGH": 112,
+      "MEDIUM": 41,
+      "LOW": 10
+    },
+    "note": "21 inferred chars conflict with msg_glyph_map.json. These are contextually confirmed - the gmap entries are likely wrong for this resource (multi-resource font sheet collisions or visual ID errors)."
+  },
+  "inferred_mappings": {
+    "8": {
+      "char": "（",
+      "confidence": "HIGH",
+      "reasoning": "MSG 148-150: 善[8]g[9], 中立[8]n[9], 悪[8]e[9]. Opening bracket before alignment letter code. Fullwidth left parenthesis."
+    },
+    "9": {
+      "char": "）",
+      "confidence": "HIGH",
+      "reasoning": "MSG 148-150: Closing bracket after alignment letter code. Pairs with [8]=（."
+    },
+    "15": {
+      "char": "／",
+      "confidence": "HIGH",
+      "reasoning": "MSG 1: hp[15]mhp = hp／mhp (current HP / max HP separator). Fullwidth slash."
+    },
+    "26": {
+      "char": "：",
+      "confidence": "HIGH",
+      "reasoning": "MSG 123-125: 可能職業[26]戦・騎... = 'Available classes：Fighter, Knight...' Label-list separator. Fullwidth colon."
+    },
+    "86": {
+      "char": "ｖ",
+      "confidence": "HIGH",
+      "reasoning": "MSG 18-24: l[86]１ through l[86]７ = Lv1-Lv7. Fullwidth lowercase v for 'Level'."
+    },
+    "275": {
+      "char": "体",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 122: ホビット[514]は[275][756]でか探いものの = 'Hobbit race has small body/stature but...'. Guide says Hobbits are small. 体格(build/physique) likely."
+    },
+    "278": {
+      "char": "盾",
+      "confidence": "HIGH",
+      "reasoning": "MSG 140: [840]手[316][776]と[278]の同[577]装備 = 'Both-hands weapon and shield simultaneous equip'. Guide mentions dual-wielding and shield equipment."
+    },
+    "284": {
+      "char": "聖",
+      "confidence": "HIGH",
+      "reasoning": "MSG 48: [284][304]士 = 聖騎士 (Paladin, lit. Holy Knight). MSG 137: [284]なるオーラ = 聖なるオーラ (Holy Aura, party HP recovery). Guide: Paladin heals party HP."
+    },
+    "288": {
+      "char": "鎧",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 131: [316][776]、[288]を装備 = 'weapon, armor can be equipped'. MSG 140: [365][288][600] = different armor-related ability. Equipment context."
+    },
+    "292": {
+      "char": "種",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 135/141: [383][292]の装備が可能 = '多種の装備が可能' (many types of equipment possible). Guide: Gizoku/High Thief has good equipment selection."
+    },
+    "304": {
+      "char": "騎",
+      "confidence": "HIGH",
+      "reasoning": "MSG 44: [304]士 = 騎士 (Knight). MSG 48: 聖[304]士 = 聖騎士 (Paladin). MSG 49: [353][304]士 = 暗騎士 (Dark Knight). Consistent with class names from guide."
+    },
+    "306": {
+      "char": "切",
+      "confidence": "HIGH",
+      "reasoning": "MSG 101: リサイクル言神を大[306]にしている = 'リサイクル精神を大切にしている' (values recycling spirit). 大切 = important/precious. Guide: Ecologist recycling mentality."
+    },
+    "312": {
+      "char": "腕",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 96: [312]の気が聞く = '腕の気が利く' (skilled/dexterous). MSG 69: [566][312][567] personality trait name. Dexterity/arm context."
+    },
+    "316": {
+      "char": "武",
+      "confidence": "HIGH",
+      "reasoning": "MSG 126: [316][781]のエキスパート = '武闘のエキスパート' (combat expert). MSG 131/133/136: [316][776] = 武器 (weapon). Guide: Fighter is combat expert."
+    },
+    "320": {
+      "char": "心",
+      "confidence": "HIGH",
+      "reasoning": "MSG 4: 信仰[320] = 信仰心 (faith/piety, attribute FTH). MSG 68: [551]女[320] = 乙女心 (maiden heart, personality trait). Guide: MAIDEN HEART trait."
+    },
+    "322": {
+      "char": "落",
+      "confidence": "HIGH",
+      "reasoning": "MSG 90: [322]ち[598]く = 落ち着く (calm down). MSG 99/107: [322]ちこむ = 落ちこむ (get depressed). Standard Japanese verb 落ちる."
+    },
+    "325": {
+      "char": "臆",
+      "confidence": "HIGH",
+      "reasoning": "MSG 88: [325][527]な[581]に[582]感 = '臆病な物に敏感' (sensitive to cowardly things). Guide: PUSILLANIMOUS trait - 'very sensitive to spiritual things'."
+    },
+    "327": {
+      "char": "短",
+      "confidence": "HIGH",
+      "reasoning": "MSG 74: [327]気 = 短気 (short-tempered). MSG 108: 気が[327]いので = '気が短いので' (because short-tempered). Guide: SHORT-TEMPERED trait."
+    },
+    "335": {
+      "char": "卑",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 105: 除[335][527]な行動 = '卑怯な行動' (cowardly behavior). Guide: DETERMINED trait - hate PUSILLANIMOUS actions like running away."
+    },
+    "353": {
+      "char": "暗",
+      "confidence": "HIGH",
+      "reasoning": "MSG 49: [353][304]士 = 暗騎士 (Dark Knight). Guide: DARK KNIGHT class."
+    },
+    "354": {
+      "char": "仰",
+      "confidence": "HIGH",
+      "reasoning": "MSG 4: 信[354][320] = 信仰心 (faith/piety). This is the FTH attribute. Guide: 'FTH' attribute."
+    },
+    "356": {
+      "char": "多",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 70: [356][533]感 = '多情感' or '多感' (emotional/sentimental). Personality trait name."
+    },
+    "365": {
+      "char": "両",
+      "confidence": "HIGH",
+      "reasoning": "MSG 140: [316][776][365][513]を同[577]に装備 = '武器両[種]を同時に装備' (equip both weapon types simultaneously). MSG 140: [365][288][600] = 両(鎧/手)... dual wielding context. Guide: Shogun can dual wield."
+    },
+    "372": {
+      "char": "苦",
+      "confidence": "HIGH",
+      "reasoning": "MSG 90: 行動は[372]手 = '行動は苦手' (not good at, weak point). MSG 113: [372]しい立場 = '苦しい立場' (difficult position). Standard Japanese."
+    },
+    "381": {
+      "char": "傷",
+      "confidence": "HIGH",
+      "reasoning": "MSG 104: 殺[381]する = '殺傷する' (kill and wound). MSG 111: [381]ついたり = '傷ついたり' (getting hurt). Guide: NARCICIST - 'can't allow myself to be attacked'."
+    },
+    "383": {
+      "char": "長",
+      "confidence": "HIGH",
+      "reasoning": "MSG 117: 隊[383]が異なります = '成長が異なります' (growth differs). MSG 100: [383]く迷宮に = '長く迷宮に' (long time in labyrinth). MSG 130: [383]けており = '長けており' (excelling at). Dual meaning: 長 (long/excel/chief)."
+    },
+    "387": {
+      "char": "重",
+      "confidence": "HIGH",
+      "reasoning": "MSG 106: 行動を[387]んじる = '行動を重んじる' (value actions). MSG 123: [761][762]を[387]んじる = '正義を重んじる' (value justice). 重んじる = to value/respect."
+    },
+    "405": {
+      "char": "僧",
+      "confidence": "HIGH",
+      "reasoning": "MSG 43: [405]教 = 僧教 or abbreviation for 僧侶 (Priest class). MSG 123/125: class list abbreviation. Guide: PRIEST class (僧)."
+    },
+    "410": {
+      "char": "秘",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 95: 神[410][527]な力は = '神秘的な力は' (mysterious/occult power). Guide: STUDIOUS trait description about magical research."
+    },
+    "433": {
+      "char": "質",
+      "confidence": "HIGH",
+      "reasoning": "MSG 109: 商人気[433]があり = '商人気質があり' (has merchant temperament). Guide: ECONOMIST - 'merchants by nature'."
+    },
+    "441": {
+      "char": "寂",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 91: [441]しいパーティ = '寂しいパーティ' (lonely/quiet party). Guide: SOCIABLE - 'don't like small parties'."
+    },
+    "450": {
+      "char": "慮",
+      "confidence": "LOW",
+      "reasoning": "MSG 54: [465][450] = personality trait name. Possibly 配慮 (consideration). Uncertain."
+    },
+    "465": {
+      "char": "配",
+      "confidence": "LOW",
+      "reasoning": "MSG 54: [465][450] = personality trait name. Possibly 配慮 (consideration). Uncertain."
+    },
+    "512": {
+      "char": "別",
+      "confidence": "HIGH",
+      "reasoning": "MSG 11: 果[512] = 性別 (gender). MSG 117: 果[512]によって = '性別によって' (depending on gender). Guide: gender affects starting attributes."
+    },
+    "513": {
+      "char": "種",
+      "confidence": "HIGH",
+      "reasoning": "MSG 10: [513][514] = 種族 (race). MSG 118-122: [513][514]はその者の成長の... = 'Race determines growth...'. Guide: 'STARTING ATTRIBUTES OF EACH RACE'."
+    },
+    "514": {
+      "char": "族",
+      "confidence": "HIGH",
+      "reasoning": "MSG 10: [513][514] = 種族 (race). MSG 100: 不死[514] = 不死族 (undead race). MSG 118-122: race descriptions."
+    },
+    "518": {
+      "char": "男",
+      "confidence": "HIGH",
+      "reasoning": "MSG 25: standalone [518] = 男 (male). MSG 26: 女 (female). MSG 117: [518]果は力強く = '男性は力強く' (males are strong). Guide: gender affects STR/VIG."
+    },
+    "521": {
+      "char": "飽",
+      "confidence": "HIGH",
+      "reasoning": "MSG 53: [521]き性 = '飽き性' (easily bored). MSG 87: すぐ[521]きる = 'すぐ飽きる' (get bored quickly). Guide: BORED trait - 'gets bored easily'."
+    },
+    "524": {
+      "char": "家",
+      "confidence": "HIGH",
+      "reasoning": "MSG 63: 冒険[524] = '冒険家' (adventurer). MSG 64: 迷信[524] = '迷信家' (superstitious person). MSG 82: 除霊[524] = 'exorcist'. 家 suffix = '-ist/-er'."
+    },
+    "527": {
+      "char": "的",
+      "confidence": "HIGH",
+      "reasoning": "MSG 61: 知的 = '知的' (intellectual). MSG 72: [599]力的 = '協力的' (cooperative). MSG 79: 自[563]的 = '自慢的' (narcissistic). Adjectival suffix 的."
+    },
+    "528": {
+      "char": "社",
+      "confidence": "HIGH",
+      "reasoning": "MSG 57: [528]交[527] = '社交的' (sociable). Guide: SOCIABLE personality trait."
+    },
+    "530": {
+      "char": "収",
+      "confidence": "HIGH",
+      "reasoning": "MSG 58: [530][531][524] = '収集家' (collector). MSG 92: アイテム[530][531] = 'アイテム収集' (item collection). Guide: COLLECTOR trait."
+    },
+    "531": {
+      "char": "集",
+      "confidence": "HIGH",
+      "reasoning": "MSG 58: [530][531][524] = '収集家' (collector). Pairs with 530=収."
+    },
+    "532": {
+      "char": "慎",
+      "confidence": "HIGH",
+      "reasoning": "MSG 59: [532][387] = '慎重' (cautious/careful). Guide: CAUTIOUS personality trait."
+    },
+    "533": {
+      "char": "義",
+      "confidence": "HIGH",
+      "reasoning": "MSG 46: [533]賊 = '義賊' (Gizoku, righteous thief class). MSG 123: class list 義 abbreviation. Guide: GIZOKU class."
+    },
+    "539": {
+      "char": "友",
+      "confidence": "HIGH",
+      "reasoning": "MSG 73: [539][540] = '友愛' (fraternity/friendship). MSG 104: [539]好的な = '友好的な' (friendly). MSG 107: 戦[539] = '戦友' (comrade-in-arms). Guide: FRATERNAL trait."
+    },
+    "540": {
+      "char": "愛",
+      "confidence": "HIGH",
+      "reasoning": "MSG 73: [539][540] = '友愛' (fraternity). MSG 80: 種族[540] = '種族愛' (tribal love). Guide: FRATERNAL, TRIBAL LOVE traits."
+    },
+    "551": {
+      "char": "乙",
+      "confidence": "HIGH",
+      "reasoning": "MSG 68: [551]女[320] = '乙女心' (maiden heart). MSG 102: [551]女の = 'maiden's'. Guide: MAIDEN HEART personality trait."
+    },
+    "554": {
+      "char": "大",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 81: [554][555] = personality trait name, possibly '大胆' (bold/daring). Guide: BOLD trait."
+    },
+    "555": {
+      "char": "胆",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 81: [554][555] = '大胆' (bold). MSG 121: 動きは[555]いが = '動きは(遅)いが' (movement is slow but). Context suggests 遅 (slow) here but 胆 fits trait name."
+    },
+    "556": {
+      "char": "貯",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 60: [556][557][524] = '貯蓄家' (hoarder/saver). Guide: HOARDER personality trait."
+    },
+    "557": {
+      "char": "蓄",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 60: [556][557][524] = '貯蓄家' (hoarder). Pairs with 556=貯."
+    },
+    "558": {
+      "char": "向",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 66: [595][558]け = '前向け' or '...向け' (facing/oriented). Directional context."
+    },
+    "560": {
+      "char": "好",
+      "confidence": "HIGH",
+      "reasoning": "MSG 62: [560]戦的 = '好戦的' (belligerent). MSG 94: 大[560]き = '大好き' (love very much). MSG 125: [560]む悪 = '好む悪' (evil that likes). Guide: BELLIGERENT trait."
+    },
+    "561": {
+      "char": "奇",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 76: [560][561] = '好奇' (curiosity). Personality trait related to curiosity. Guide mentions curiosity."
+    },
+    "563": {
+      "char": "己",
+      "confidence": "HIGH",
+      "reasoning": "MSG 79: 自[563]的 = '自己的' or possibly '自尊的'. Given NARCICIST trait, likely 自己 (self). Guide: NARCICIST trait."
+    },
+    "564": {
+      "char": "勤",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 65: [564][568]務 = '勤勉務' or trait name. MSG 71: [564]ち気 = personality subtype. Diligence context."
+    },
+    "566": {
+      "char": "熱",
+      "confidence": "HIGH",
+      "reasoning": "MSG 69: [566][312][567] = '熱血漢' (hot-blooded man). Guide: HOT-BLOODED personality trait."
+    },
+    "567": {
+      "char": "漢",
+      "confidence": "HIGH",
+      "reasoning": "MSG 69: [566][312][567] = '熱血漢' (hot-blooded man). Pairs with 566=熱."
+    },
+    "568": {
+      "char": "勉",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 65: [564][568]務 = '勤勉' (diligent/studious). Guide: STUDIOUS personality trait."
+    },
+    "569": {
+      "char": "嫌",
+      "confidence": "HIGH",
+      "reasoning": "MSG 91: パーティは[569]い = '嫌い' (dislike). MSG 105: 行動を[569]う = '嫌う' (to dislike). MSG 107: 戦いを[569]い = '嫌い' (hate fighting). Very common in personality descriptions."
+    },
+    "577": {
+      "char": "時",
+      "confidence": "HIGH",
+      "reasoning": "MSG 87: [383][577]壁街に = '長時間街に' (long time in city). MSG 107: 死んだ[577] = '死んだ時' (when died). MSG 140: 同[577]装備 = '同時装備' (simultaneous equip). MSG 142: 獲得した[577]の = 'when acquired'."
+    },
+    "580": {
+      "char": "機",
+      "confidence": "HIGH",
+      "reasoning": "MSG 87: [580][569]が悪くなる = '機嫌が悪くなる' (mood gets bad). MSG 99: [580][569]がいい = '機嫌がいい' (in good mood). 機嫌 = mood/humor."
+    },
+    "581": {
+      "char": "物",
+      "confidence": "HIGH",
+      "reasoning": "MSG 92: [836][581]に目がない = '宝物に目がない' (can't resist treasures). MSG 94: 騎[581] = '騎物' → likely 怪物 or 魔物 (monster/demon). MSG 101: 使える[581]を持てる = 'usable items'. Context: 物 (thing/item)."
+    },
+    "582": {
+      "char": "敏",
+      "confidence": "HIGH",
+      "reasoning": "MSG 6: [582][719]度 = '敏捷度' (agility). MSG 88: [582]感 = '敏感' (sensitive). Guide: AGI (agility) attribute."
+    },
+    "584": {
+      "char": "浪",
+      "confidence": "HIGH",
+      "reasoning": "MSG 55: れ[584][585] = '浪費' with れ prefix, likely これ浪費 or 浪費. Guide: WASTEFUL personality trait."
+    },
+    "585": {
+      "char": "費",
+      "confidence": "HIGH",
+      "reasoning": "MSG 55: [584][585] = '浪費' (wasteful/extravagant). Guide: WASTEFUL personality trait."
+    },
+    "592": {
+      "char": "勢",
+      "confidence": "HIGH",
+      "reasoning": "MSG 91: 大[592]の者 = '大勢の者' (many people). Guide: SOCIABLE - 'more fun in large groups'."
+    },
+    "593": {
+      "char": "属",
+      "confidence": "HIGH",
+      "reasoning": "MSG 140: 獲得[638][593]の武器 = '獲得系属の武器' → likely 属性 (attribute/element) in weapon context."
+    },
+    "595": {
+      "char": "気",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 66: [595][558]け = personality trait name element. Possibly 気 in different font position."
+    },
+    "596": {
+      "char": "少",
+      "confidence": "HIGH",
+      "reasoning": "MSG 89: [607]ぎが[596]ないと = 'earning is not少ない' (not enough). MSG 90: [596]人数で = '少人数で' (in small numbers). MSG 137: hpを[596]しずつ = 'hpを少しずつ' (little by little). 少 = few/little."
+    },
+    "597": {
+      "char": "数",
+      "confidence": "HIGH",
+      "reasoning": "MSG 90: 大人[597]での行動 = '大人数での行動' (acting in large numbers). MSG 90: 少人[597]で = '少人数で' (in small numbers). 数 = number."
+    },
+    "598": {
+      "char": "着",
+      "confidence": "HIGH",
+      "reasoning": "MSG 90: 落ち[598]く = '落ち着く' (to calm down/settle). Standard Japanese expression."
+    },
+    "599": {
+      "char": "協",
+      "confidence": "HIGH",
+      "reasoning": "MSG 72: [599]力的 = '協力的' (cooperative). Guide: COOPERATIVE personality trait."
+    },
+    "600": {
+      "char": "流",
+      "confidence": "HIGH",
+      "reasoning": "MSG 91: 交[600]を望む = '交流を望む' (desire interaction). MSG 114: 交[600]を全く望まない = 'don't desire interaction at all'. 交流 = interaction/exchange."
+    },
+    "601": {
+      "char": "望",
+      "confidence": "HIGH",
+      "reasoning": "MSG 91: 交流を[601]む = '望む' (to desire/wish). MSG 107: 流血を[601]む = '望む'. MSG 114: 全く[601]まない = '望まない' (don't desire)."
+    },
+    "604": {
+      "char": "霊",
+      "confidence": "HIGH",
+      "reasoning": "MSG 82: 除[604]家 = '除霊家' (exorcist). Personality trait name. 霊 = spirit."
+    },
+    "606": {
+      "char": "無",
+      "confidence": "HIGH",
+      "reasoning": "MSG 93: [606]理のある冒険 = '無理のある冒険' (unreasonable adventure). MSG 103: 女は[606]息 = '女は無用' or '無益'. Guide: JUST - 'They find it outrageous to kill non-hostile demons'."
+    },
+    "607": {
+      "char": "稼",
+      "confidence": "HIGH",
+      "reasoning": "MSG 89: [607]ぎが少ないと = '稼ぎが少ないと' (if earnings are low). Guide: HOARDER - 'Low income in the labyrinth is out of the question'."
+    },
+    "609": {
+      "char": "付",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 93: [609]け合えない = '付け合えない' or '分け合えない'. Context: cannot get along with. Could be 付 (attach) or 分 (divide)."
+    },
+    "611": {
+      "char": "仮",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 104: [611]え騎物 = '仮え/たとえ' + monster. Context: 'even if it is a monster'. Could be 例 (example) too."
+    },
+    "622": {
+      "char": "異",
+      "confidence": "HIGH",
+      "reasoning": "MSG 96: [622]に強者との = '異に/異なる (different)'. MSG 113: の異常を = 'ステータス異常' (status ailments). MSG 145: ステータス[666][622] = status change/abnormality."
+    },
+    "624": {
+      "char": "求",
+      "confidence": "HIGH",
+      "reasoning": "MSG 96: 戦いを[624]めている = '求めている' (seeking/desiring). Guide: BELLIGERENT - 'motivated to stand up to strong enemies'."
+    },
+    "627": {
+      "char": "自",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 132: [627]回復品を回復する = '自(然)回復 / HP回復品を回復する' (recover HP recovery items). Paladin class ability."
+    },
+    "628": {
+      "char": "世",
+      "confidence": "HIGH",
+      "reasoning": "MSG 100: この[628]から = 'この世から' (from this world). MSG 103: 戦いの[628][629] = '戦いの世界' (world of fighting). MSG 111: この[628]で = 'in this world'."
+    },
+    "629": {
+      "char": "界",
+      "confidence": "HIGH",
+      "reasoning": "MSG 103: [628][629] = '世界' (world). Pairs with 628=世."
+    },
+    "632": {
+      "char": "突",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 98: [632]然の出来事 = '突然の出来事' (sudden events). Guide: SUPERSTITIOUS - react to unexpected events. Note: 858=然 already in map."
+    },
+    "638": {
+      "char": "系",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 140: 獲得[638][593]の武器 = '獲得系属の武器' (weapon of acquisition type). Equipment categorization."
+    },
+    "639": {
+      "char": "流",
+      "confidence": "LOW",
+      "reasoning": "MSG 107: [639][640]を望む = personality description element. Possibly 流血 (bloodshed) with 639=流 (but 600=流 already). May be different kanji or duplicate position."
+    },
+    "640": {
+      "char": "血",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 107: [639][640]を望む = '流血を望む' (desire bloodshed). Context: FRATERNAL trait about death of comrades. Or possibly 平和 (peace)."
+    },
+    "641": {
+      "char": "込",
+      "confidence": "HIGH",
+      "reasoning": "MSG 107: 落ち[641]む = '落ち込む' (to feel depressed/down). Standard Japanese expression. Variant of MSG 99's 落ちこむ."
+    },
+    "648": {
+      "char": "高",
+      "confidence": "HIGH",
+      "reasoning": "MSG 95: 知鑑が[648]まると = '知識が高まると' (when knowledge increases). MSG 102: [648]い絆 = '高い絆' (high bond). Guide: Knight's knowledge grows."
+    },
+    "649": {
+      "char": "絆",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 102: 乙女の高い[649]があれば = '高い絆があれば' (if there is a high bond). Guide: MAIDEN HEART - 'deep bond of trustful maidens'."
+    },
+    "650": {
+      "char": "余",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 102: [650][651]な男は = '余計な男は' (unnecessary men). Guide: MAIDEN HEART - 'dirty and forbidden for boys'."
+    },
+    "651": {
+      "char": "計",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 102: [650][651]な男はいらない = '余計な男はいらない' (don't need unnecessary men). Pairs with 650=余."
+    },
+    "657": {
+      "char": "喜",
+      "confidence": "HIGH",
+      "reasoning": "MSG 112: [657]んだか = '喜んだか' (happy). MSG 113: [657]ぶ = '喜ぶ' (to rejoice). MSG 115: [657]べば = '喜べば' (if happy). Guide: MOODY/STUPID - happy/sad swings."
+    },
+    "658": {
+      "char": "緒",
+      "confidence": "HIGH",
+      "reasoning": "MSG 115: 一[658]に喜ぶ = '一緒に喜ぶ' (rejoice together). MSG 115: 一[658]に帰る = '一緒に帰る' (return together). 一緒 = together."
+    },
+    "666": {
+      "char": "変",
+      "confidence": "HIGH",
+      "reasoning": "MSG 110: [666]果に = '変化に' or '異なる果(性) = different personality'. MSG 117: 成長が[666]なります = '異なります' (differs). MSG 145: ステータス[666][622] = 'status 変異/異常' (status change)."
+    },
+    "667": {
+      "char": "関",
+      "confidence": "HIGH",
+      "reasoning": "MSG 94/109/110: 強い[667]心を持っている = '強い関心を持っている' (have strong interest). Guide: personality traits about having interest in things."
+    },
+    "671": {
+      "char": "身",
+      "confidence": "HIGH",
+      "reasoning": "MSG 120: [671]のこなし = '身のこなし' (physical agility/movement). MSG 122: [671]のこなし. Guide: Gnome agility, Hobbit dexterity."
+    },
+    "672": {
+      "char": "体",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 113: [672]の変異常 = '他の変化'. MSG 118: 全[672]的にむらなく = '全体的にむらなく' (evenly overall). 体 = body/overall."
+    },
+    "676": {
+      "char": "仲",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 114: [676]間意識が強い = '仲間意識が強い' (strong comradeship). Note: 543=仲 already exists; this may be a duplicate glyph position."
+    },
+    "678": {
+      "char": "異",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 114: [678]種族との交流 = '異種族との交流' (interaction with other races). Guide: TRIBAL LOVE - 'can't trust other races'. Note: may duplicate 622."
+    },
+    "680": {
+      "char": "解",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 99: トラップ殿[680]にムキになる = 'トラップ解除にムキになる' (obsessed with disarming traps). Guide: BOLD - 'disarming traps'."
+    },
+    "684": {
+      "char": "美",
+      "confidence": "HIGH",
+      "reasoning": "MSG 111: [684]しいと信じる = '美しいと信じる' (believe to be beautiful). MSG 111: [684]しい自分 = '美しい自分' (beautiful self). Guide: NARCICIST trait."
+    },
+    "690": {
+      "char": "順",
+      "confidence": "HIGH",
+      "reasoning": "MSG 146: 行動する前[690]に影響 = '行動する順番に影響' → likely 順序 (order/sequence). Guide: 'TURN ORDER' attribute (AGI affects turn order)."
+    },
+    "696": {
+      "char": "命",
+      "confidence": "HIGH",
+      "reasoning": "MSG 5: 生[696]力 = '生命力' (vitality/vigor). MSG 84: [696]中率 = '命中率' (hit rate). MSG 119: 生命力 again. Guide: VIG (Vigor) and ACCURACY attributes."
+    },
+    "704": {
+      "char": "可",
+      "confidence": "HIGH",
+      "reasoning": "MSG 123-141: 習得[704]能 = '習得可能' (learnable). MSG 135: 装備が[704]能 = '装備が可能' (equippable). 可能 = possible. Used 20 times."
+    },
+    "711": {
+      "char": "値",
+      "confidence": "HIGH",
+      "reasoning": "MSG 17: 能力[711] = '能力値' (ability score/value). MSG 117: 仲能力[711]と = 'ability values and'. Guide: attribute values."
+    },
+    "717": {
+      "char": "恵",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 3: 知[717] = '知恵' (wisdom). This is the INT attribute label. Guide: 'INTELLIGENCE' attribute. Actually WIS maps to 信仰心, so this is INT=知恵."
+    },
+    "719": {
+      "char": "捷",
+      "confidence": "HIGH",
+      "reasoning": "MSG 6: 敏[719]度 = '敏捷度' (agility). Guide: 'AGILITY' attribute."
+    },
+    "721": {
+      "char": "運",
+      "confidence": "HIGH",
+      "reasoning": "MSG 7: 幸[721]度 = '幸運度' (luck). MSG 122: 幸[721]とで = 'luck and'. Guide: 'LUCK' attribute."
+    },
+    "723": {
+      "char": "果",
+      "confidence": "HIGH",
+      "reasoning": "MSG 84: 命中[723] = '命中率' (accuracy rate). MSG 86: 回避[723] = '回避率' (evasion rate). MSG 145: 結[723]に影響 = '結果に影響' (affects results). 率/果 context."
+    },
+    "724": {
+      "char": "解",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 85: [724]消力 = '解消力' (cancellation power) or possibly a stat label. Potential ability context."
+    },
+    "725": {
+      "char": "避",
+      "confidence": "HIGH",
+      "reasoning": "MSG 86: 回[725]率 = '回避率' (evasion rate). Guide: 'EVASION' stat."
+    },
+    "726": {
+      "char": "神",
+      "confidence": "HIGH",
+      "reasoning": "MSG 16/40: [726][727]騎士 = '神聖騎士' (Holy Knight, i.e. Holy Magic). MSG 129: [726][727]騎術 = 'Holy Magic'. Guide: 'HOLY MAGIC'. 神=divine/holy."
+    },
+    "727": {
+      "char": "聖",
+      "confidence": "HIGH",
+      "reasoning": "MSG 16/40: [726][727] = '神聖' (divine/holy). Pairs with 726=神. Note: 284 also inferred as 聖 - different glyph position, same character."
+    },
+    "731": {
+      "char": "将",
+      "confidence": "HIGH",
+      "reasoning": "MSG 50: [731][732] = '将軍' (Shogun). Guide: SHOGUN class."
+    },
+    "732": {
+      "char": "軍",
+      "confidence": "HIGH",
+      "reasoning": "MSG 50: [731][732] = '将軍' (Shogun). Pairs with 731=将."
+    },
+    "734": {
+      "char": "授",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 51: 教[734] = '教授' (professor) or possibly '教官' (instructor). Guide: class name, likely 司教 (Bishop). May need revision."
+    },
+    "735": {
+      "char": "怪",
+      "confidence": "LOW",
+      "reasoning": "MSG 52: [735]盗 = class name ending in 盗 (thief). Possibly '怪盗' (phantom thief) = High Thief. Guide: HIGH THIEF class."
+    },
+    "738": {
+      "char": "個",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 117: [738]人の = '個人の' (individual's). Context: individual ability scores determined by gender."
+    },
+    "739": {
+      "char": "基",
+      "confidence": "HIGH",
+      "reasoning": "MSG 117-122: [739]仲能力 or [739][741]となります = '基本/基礎となります' (becomes the foundation). Race determines growth foundation. Guide: starting attributes."
+    },
+    "741": {
+      "char": "本",
+      "confidence": "HIGH",
+      "reasoning": "MSG 118-122: [739][741]となります = '基本となります' (becomes the foundation/basis). Pairs with 739=基."
+    },
+    "743": {
+      "char": "高",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 118: 信仰心が[743]いものの = '高いものの' (although high). Guide: Humans have high FTH. Note: 648 also inferred as 高 - duplicate position."
+    },
+    "745": {
+      "char": "優",
+      "confidence": "HIGH",
+      "reasoning": "MSG 119: 生命力に[745]れ = '優れ' (excelling at). Guide: Elves excel at INT and VIG."
+    },
+    "747": {
+      "char": "扱",
+      "confidence": "HIGH",
+      "reasoning": "MSG 119: 騎士の[747]いでは = '騎術の扱いでは' (in handling of magic). MSG 134: 冒金事を[747]うことが = '扱うことが' (can handle). 扱う = to handle."
+    },
+    "748": {
+      "char": "右",
+      "confidence": "LOW",
+      "reasoning": "MSG 119: [748]に出る者はいない = '右に出る者はいない' (no one surpasses). Idiomatic expression meaning 'second to none'. Guide: Elves are best at magic."
+    },
+    "751": {
+      "char": "器",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 120: しがく[751]いため = 'すばしこく器用いため' or '器用い'. Context: Gnome's dexterity. Possibly 器用 (dexterous)."
+    },
+    "752": {
+      "char": "向",
+      "confidence": "HIGH",
+      "reasoning": "MSG 120: 神聖に[752]いています = '向いています' (suited for). Guide: Gnomes suited for Priest/Bishop class."
+    },
+    "756": {
+      "char": "格",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 122: [275][756]でか探いものの = '体格でか(小さい)ものの' (although body build is small). Guide: Hobbits are small."
+    },
+    "757": {
+      "char": "素",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 122: [757]い身のこなし = '素早い身のこなし' (quick movements). Guide: Hobbit has good agility despite small size."
+    },
+    "758": {
+      "char": "後",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 122: [787]く者が[758]をたちません = '就く者が後を絶ちません' (there's no end to those who become). Idiomatic: 後を絶たない."
+    },
+    "761": {
+      "char": "正",
+      "confidence": "HIGH",
+      "reasoning": "MSG 123: [761][762]を重んじる善 = '正義を重んじる善' (Good that values justice). Guide: Good alignment values justice."
+    },
+    "762": {
+      "char": "義",
+      "confidence": "HIGH",
+      "reasoning": "MSG 123: [761][762] = '正義' (justice). Pairs with 761=正. Note: 533 also maps to 義 in different context (義賊)."
+    },
+    "763": {
+      "char": "休",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 125: [763]息を好む悪 = '休息を好む悪' (Evil that likes rest). Or possibly 安息. Guide: Evil alignment description."
+    },
+    "764": {
+      "char": "息",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 125: [763][764]を好む = '休息を好む' (likes rest). Note: 490=息 exists in map already, this may be duplicate position."
+    },
+    "769": {
+      "char": "威",
+      "confidence": "HIGH",
+      "reasoning": "MSG 143/144: 騎士の[769]力 = '騎術の威力' (magic power). Guide: 'SORCERIES/HOLY MAGIC offense/defense'. 威力 = power/might."
+    },
+    "770": {
+      "char": "難",
+      "confidence": "HIGH",
+      "reasoning": "MSG 127: トラップ[794][770]度 = 'トラップ解除難度' or '発見難度' (trap detection/disarm difficulty). Guide: 'TRAP DIFFICULTY'."
+    },
+    "772": {
+      "char": "呪",
+      "confidence": "HIGH",
+      "reasoning": "MSG 138: 使いの[784][772]を打ち除す = '使いの呪いを打ち消す' (remove curse from used items). Guide: Dark Knight 'NULLIFIES SIDE EFFECTS' of cursed equipment."
+    },
+    "774": {
+      "char": "活",
+      "confidence": "HIGH",
+      "reasoning": "MSG 116: [995][784]活息すべき = '消費/活用すべき' (should utilize). MSG 145: 復活の結果 = '復活の結果' (result of resurrection). 活 = life/activity."
+    },
+    "776": {
+      "char": "器",
+      "confidence": "HIGH",
+      "reasoning": "MSG 131-142: 武[776] = '武器' (weapon). Used extensively in class descriptions for equipment. 器 = tool/vessel."
+    },
+    "777": {
+      "char": "稀",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 125: [777]に善に変動する = '稀に善に変動する' (rarely shifts to Good). Guide: Evil alignment 'sometimes shifts to Good'."
+    },
+    "778": {
+      "char": "特",
+      "confidence": "HIGH",
+      "reasoning": "MSG 135/141: の[778]能を持っています = 'の特能を持っています' (has special abilities). Guide: Gizoku/High Thief special abilities like stealing."
+    },
+    "779": {
+      "char": "経",
+      "confidence": "HIGH",
+      "reasoning": "MSG 112: [779]に帰ったり = '急に帰ったり' (suddenly return). MSG 130/139: [779]所獲得 = '経験所獲得' → likely 経験値 (experience points). Guide: 'XP gain'."
+    },
+    "781": {
+      "char": "闘",
+      "confidence": "HIGH",
+      "reasoning": "MSG 126: 武[781]のエキスパート = '武闘のエキスパート' (combat expert). Guide: FIGHTER - combat expert class."
+    },
+    "782": {
+      "char": "系",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 133: ポールアックス[782]の武器 = 'ポールアックス系の武器' (poleaxe-type weapons). MSG 136: ナックル[782]の = 'knuckle-type'. 系 = type/category."
+    },
+    "783": {
+      "char": "失",
+      "confidence": "HIGH",
+      "reasoning": "MSG 99: 隊[783]すると = '隊(が)失敗すると' or '失敗すると' (when fails). Context: trap disarming failure. Guide: BOLD - 'get upset when failing'."
+    },
+    "784": {
+      "char": "消",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 116: [995][784]活息すべき = items should be consumed/used. MSG 138: 使いの[784]呪いを = 'cursed'. Context about item consumption or curse."
+    },
+    "785": {
+      "char": "性",
+      "confidence": "HIGH",
+      "reasoning": "MSG 143-147: 俺[785]に影響 = '耐性に影響' (affects resistance). Guide: attributes affect various resistances (SORCERIES RES, MAGIC STATUS RES, etc.)."
+    },
+    "787": {
+      "char": "就",
+      "confidence": "HIGH",
+      "reasoning": "MSG 121/122: 戦士に[787]く者が = '就く者が' (those who take up the role). Guide: those who become fighters/thieves."
+    },
+    "788": {
+      "char": "覚",
+      "confidence": "HIGH",
+      "reasoning": "MSG 129-137: ディスペルを[788]えることが = '覚えることが' (can learn). Guide: classes that can learn Dispel."
+    },
+    "789": {
+      "char": "退",
+      "confidence": "HIGH",
+      "reasoning": "MSG 129-136: 不死族を[789]除する = '退除する' or '撃退する' (repel/dispel undead). Guide: 'CAN DISPEL UNDEAD'."
+    },
+    "790": {
+      "char": "絶",
+      "confidence": "HIGH",
+      "reasoning": "MSG 95: 力は[790]対だと = '絶対だと' (absolutely). MSG 131: 気[790]させる = '気絶させる' (to stun). Guide: weapon can stun monsters."
+    },
+    "791": {
+      "char": "打",
+      "confidence": "HIGH",
+      "reasoning": "MSG 138: 呪いを[791]ち除す = '打ち消す' (to dispel/cancel). Standard expression 打ち消す."
+    },
+    "794": {
+      "char": "発",
+      "confidence": "HIGH",
+      "reasoning": "MSG 127: [796]の[794]見難度 = 'trap の発見難度' (trap discovery difficulty). MSG 135/141: トラップ[794]見難度 = 'trap detection difficulty'. Guide: 'TRAP DETECTION'."
+    },
+    "796": {
+      "char": "罠",
+      "confidence": "HIGH",
+      "reasoning": "MSG 127: [796]の発見難度を下げる = '罠の発見難度を下げる' (lower trap detection difficulty). Guide: Thief has 'TRAP DETECTION & TRAP DIFFICULTY'."
+    },
+    "836": {
+      "char": "宝",
+      "confidence": "HIGH",
+      "reasoning": "MSG 92: [836]物に目がない = '宝物に目がない' (can't resist treasures). MSG 116: [836]のもちぐされ = '宝の持ち腐れ' (waste of treasure). MSG 127: [836]を見つける = 'find treasure'. Note: 692=宝 exists, duplicate position."
+    },
+    "840": {
+      "char": "片",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 140: [840]手武器 = '片手武器' (one-handed weapon). Guide: Shogun can dual-wield (equip one-handed weapon and shield simultaneously)."
+    },
+    "905": {
+      "char": "売",
+      "confidence": "HIGH",
+      "reasoning": "MSG 109: 商[905]などに = '商売などに' (in business/commerce etc.). Guide: ECONOMIST - 'strong interest in business'."
+    },
+    "953": {
+      "char": "単",
+      "confidence": "HIGH",
+      "reasoning": "MSG 106: [953]独で何かをする = '単独で何かをする' (do something alone). Guide: COOPERATIVE - 'individual actions are inefficient'."
+    },
+    "989": {
+      "char": "箱",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 127: 宝[989]を見つける = '宝箱を見つける' (find treasure chests). Guide: Thief can find treasure. Note: 608=箱 exists, may be duplicate."
+    },
+    "995": {
+      "char": "惜",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 116: ものは[995]消活息すべき = possibly '惜しみなく消費すべき' (should consume without regret). Guide: WASTEFUL - 'try to use the stuff you have'."
+    },
+    "1005": {
+      "char": "態",
+      "confidence": "MEDIUM",
+      "reasoning": "MSG 94: 騎物の生[1005]に = '生態に' (ecology/behavior). Guide: STUDIOUS - 'keen interest in the biology of demons'."
+    }
+  },
+  "gmap_conflicts": {
+    "_note": "21 glyph IDs where this inference disagrees with msg_glyph_map.json. The gmap values produce nonsensical Japanese in R38 context; the inferred values produce correct, natural Japanese. These are likely multi-resource font sheet collisions where the same glyph ID maps to different kanji in different resources.",
+    "278": { "gmap": "防", "inferred": "盾", "evidence": "MSG 140 context: 片手武器と盾 (one-hand weapon and shield) vs 防 which doesn't fit" },
+    "292": { "gmap": "法", "inferred": "種", "evidence": "MSG 135: 多種の装備 (many types of equipment) vs 法 which doesn't fit" },
+    "405": { "gmap": "集", "inferred": "僧", "evidence": "MSG 43: 僧教 (Priest class) vs 集教 which is not a class name" },
+    "441": { "gmap": "大", "inferred": "寂", "evidence": "MSG 91: 寂しいパーティ (lonely party) vs 大しい which doesn't conjugate" },
+    "450": { "gmap": "武", "inferred": "慮", "evidence": "MSG 54: trait name context, uncertain. LOW confidence." },
+    "556": { "gmap": "与", "inferred": "貯", "evidence": "MSG 60: 貯蓄家 (hoarder) = HOARDER trait vs 与蓄家 which is not a word" },
+    "577": { "gmap": "受", "inferred": "時", "evidence": "MSG 87: 長時間 (long time), MSG 142: した時の (when). 受 produces nonsense in all 6 contexts." },
+    "580": { "gmap": "消", "inferred": "機", "evidence": "MSG 87/99: 機嫌 (mood). 消嫌 is not a word." },
+    "584": { "gmap": "全", "inferred": "浪", "evidence": "MSG 55: 浪費 (WASTEFUL trait). 全費 doesn't match the trait name." },
+    "592": { "gmap": "同", "inferred": "勢", "evidence": "MSG 91: 大勢の者 (many people). 大同の者 is unnatural." },
+    "595": { "gmap": "効", "inferred": "気", "evidence": "MSG 66 context. Uncertain - MEDIUM confidence." },
+    "600": { "gmap": "進", "inferred": "流", "evidence": "MSG 91/114: 交流 (interaction). 交進 is not standard Japanese." },
+    "601": { "gmap": "方", "inferred": "望", "evidence": "MSG 91: 交流を望む (desire interaction). 方む is not a valid verb form." },
+    "604": { "gmap": "味", "inferred": "霊", "evidence": "MSG 82: 除霊家 (exorcist). 除味家 is not a word." },
+    "606": { "gmap": "使", "inferred": "無", "evidence": "MSG 93: 無理のある (unreasonable). 使理 is not a word." },
+    "622": { "gmap": "通", "inferred": "異", "evidence": "MSG 145: ステータス異常 (status ailment). 通常 would also work but 異 fits more contexts." },
+    "657": { "gmap": "振", "inferred": "喜", "evidence": "MSG 112-115: 喜ぶ/喜んだ (to be happy). 振ぶ doesn't conjugate this way." },
+    "666": { "gmap": "取", "inferred": "変", "evidence": "MSG 117: 異なります (differs). MSG 110/113: 変化. 取なります is invalid." },
+    "732": { "gmap": "後", "inferred": "軍", "evidence": "MSG 50: 将軍 (Shogun class name). 将後 is not a class." },
+    "790": { "gmap": "有", "inferred": "絶", "evidence": "MSG 95: 絶対 (absolute). MSG 131: 気絶 (stun). 有対/気有 don't work." },
+    "840": { "gmap": "唱", "inferred": "片", "evidence": "MSG 140: 片手武器 (one-handed weapon). 唱手 doesn't fit." }
+  },
+  "corrections_to_pass1": {
+    "555": {
+      "pass1_context": "Listed as part of BOLD trait name [554][555]",
+      "revised_note": "GID 555 appears both in MSG 81 ([554][555] = trait name) and MSG 121 (動きは[555]いが = 'movement is slow'). In MSG 121 context it reads as 遅い (slow), but in MSG 81 as part of 大胆 (bold). This is likely 胆 for the trait name, and the MSG 121 usage is a different reading."
+    },
+    "639_640": {
+      "note": "MSG 107: [639][640]を望む. Initially uncertain. In FRATERNAL context about comrades dying, this is likely 平和 (peace) - 'desire peace'. But 流血 (bloodshed) could also fit the negative framing. Marked LOW/MEDIUM confidence."
+    },
+    "glyph_duplicates": {
+      "note": "Several glyphs appear to be duplicates at different font positions: 284&727=聖, 513&292=種, 648&743=高, 533&762=義, 600&639=流(?), 692&836=宝, 490&764=息, 608&989=箱, 543&676=仲, 622&678=異, 316&776=武→器 (actually 316=武, 776=器 → 武器). These duplicates arise because kanji appear in multiple font sheets."
+    }
+  },
+  "attribute_labels_decoded": {
+    "MSG_0": "hp",
+    "MSG_1": "hp／mhp (current/max HP)",
+    "MSG_2": "力 (STR - Strength)",
+    "MSG_3": "知恵 (INT - Intelligence)",
+    "MSG_4": "信仰心 (FTH - Faith/Wisdom)",
+    "MSG_5": "生命力 (VIG - Vigor/Vitality)",
+    "MSG_6": "敏捷度 (AGI - Agility)",
+    "MSG_7": "幸運度 (LCK - Luck)",
+    "MSG_8": "階前 → 階層 or label (Floor/Level indicator)",
+    "MSG_9": "レベル (Level)",
+    "MSG_10": "種族 (Race)",
+    "MSG_11": "性別 (Gender)",
+    "MSG_12": "条件 → 条性 (Condition/Requirement?)",
+    "MSG_13": "職業 (Class/Job)",
+    "MSG_14": "性格 → 果性 (Personality)",
+    "MSG_25": "男 (Male)",
+    "MSG_26": "女 (Female)"
+  },
+  "class_names_decoded": {
+    "MSG_37": "戦士 (Fighter)",
+    "MSG_38": "盗賊 (Thief)",
+    "MSG_39": "騎事務 → 騎術師 (Mage/Sorcerer, lit. Sorcery user)",
+    "MSG_40": "神聖 → label for Holy (short)",
+    "MSG_41": "忍者 (Ninja)",
+    "MSG_42": "侍 (Samurai)",
+    "MSG_43": "僧教 → 僧侶 (Priest)",
+    "MSG_44": "騎士 (Knight)",
+    "MSG_45": "冒金事務 → 冒険者/錬金術師 (Alchemist)",
+    "MSG_46": "義賊 (Gizoku)",
+    "MSG_47": "モンク (Monk)",
+    "MSG_48": "聖騎士 (Paladin)",
+    "MSG_49": "暗騎士 (Dark Knight)",
+    "MSG_50": "将軍 (Shogun)",
+    "MSG_51": "教授 → 司教 (Bishop)",
+    "MSG_52": "怪盗 → 大盗 (High Thief)"
+  },
+  "personality_traits_decoded": {
+    "MSG_53": "飽き性 (BORED)",
+    "MSG_54": "配慮 (consideration? - uncertain)",
+    "MSG_55": "浪費 (WASTEFUL)",
+    "MSG_56": "孤独 (LONELY)",
+    "MSG_57": "社交的 (SOCIABLE)",
+    "MSG_58": "収集家 (COLLECTOR)",
+    "MSG_59": "慎重 (CAUTIOUS)",
+    "MSG_60": "貯蓄家 (HOARDER)",
+    "MSG_61": "知的 (INTELLECTUAL)",
+    "MSG_62": "好戦的 (BELLIGERENT)",
+    "MSG_63": "冒険家 (ADVENTUROUS)",
+    "MSG_64": "迷信家 (SUPERSTITIOUS)",
+    "MSG_65": "勤勉務 (STUDIOUS)",
+    "MSG_66": "気向け (uncertain - forward-looking?)",
+    "MSG_67": "エコロジスト (ECOLOGIST)",
+    "MSG_68": "乙女心 (MAIDEN HEART)",
+    "MSG_69": "熱血漢 (HOT-BLOODED)",
+    "MSG_70": "多情感 → 多感 (LUSTFUL/emotional)",
+    "MSG_71": "勤ち気 → (DETERMINED, fighting spirit)",
+    "MSG_72": "協力的 (COOPERATIVE)",
+    "MSG_73": "友愛 (FRATERNAL)",
+    "MSG_74": "短気 (SHORT-TEMPERED)",
+    "MSG_75": "エコノミスト (ECONOMIST)",
+    "MSG_76": "好奇 → 好奇心 (curiosity-based trait)",
+    "MSG_77": "ナルシスト (NARCICIST)",
+    "MSG_78": "気分屋 (MOODY)",
+    "MSG_79": "自己的 → ナルシスト alt (NARCICIST alt?)",
+    "MSG_80": "種族愛 (TRIBAL LOVE)",
+    "MSG_81": "大胆 (BOLD)",
+    "MSG_82": "除霊家 (exorcist/spirit medium)",
+    "MSG_83": "獲得力 (acquisition power - potential ability?)",
+    "MSG_84": "命中率 (accuracy rate)",
+    "MSG_85": "解消力 (cancellation power)",
+    "MSG_86": "回避率 (evasion rate)"
+  },
+  "potential_abilities_decoded": {
+    "MSG_83": "獲得力 (Acquisition Power / XP gain)",
+    "MSG_84": "命中率 (Hit Rate / Accuracy)",
+    "MSG_85": "解消力 (Dispel/Cancellation Power)",
+    "MSG_86": "回避率 (Evasion Rate)"
+  },
+  "statistics": {
+    "total_glyphs_in_resource": 2930,
+    "unique_glyph_ids": 450,
+    "previously_mapped_by_glyph_map": 287,
+    "unknowns_at_start": 163,
+    "inferred_this_pass": 163,
+    "remaining_unknowns": 0,
+    "high_confidence": 112,
+    "medium_confidence": 41,
+    "low_confidence": 10
+  }
+}

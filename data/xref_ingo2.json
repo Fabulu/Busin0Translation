@@ -1,0 +1,298 @@
+{
+  "source": "lotsoftextgnome.p2s - EE RAM analysis",
+  "save_state": "C:/Programmieren/wizardrytranslation/lotsoftextgnome.p2s",
+  "ram_address": "0x015E5B86",
+  "speaker": "ingo",
+  "text_lines": [
+    "難攻不落の城であろうと、",
+    "鉄壁をほこる法王庁の宝物殿の",
+    "中であろうとなんのその、"
+  ],
+  "glyph_count": 38,
+  "fffe_count": 2,
+  "fffe_positions_in_text": [
+    12,
+    26
+  ],
+  "glyph_sequence": [
+    1028,
+    1121,
+    459,
+    408,
+    136,
+    659,
+    171,
+    112,
+    154,
+    114,
+    131,
+    62,
+    376,
+    519,
+    156,
+    141,
+    121,
+    152,
+    870,
+    475,
+    1127,
+    136,
+    692,
+    412,
+    679,
+    136,
+    470,
+    171,
+    112,
+    154,
+    114,
+    131,
+    132,
+    157,
+    136,
+    126,
+    136,
+    62
+  ],
+  "glyph_sequence_hex": [
+    "0x0404",
+    "0x0461",
+    "0x01CB",
+    "0x0198",
+    "0x0088",
+    "0x0293",
+    "0x00AB",
+    "0x0070",
+    "0x009A",
+    "0x0072",
+    "0x0083",
+    "0x003E",
+    "0x0178",
+    "0x0207",
+    "0x009C",
+    "0x008D",
+    "0x0079",
+    "0x0098",
+    "0x0366",
+    "0x01DB",
+    "0x0467",
+    "0x0088",
+    "0x02B4",
+    "0x019C",
+    "0x02A7",
+    "0x0088",
+    "0x01D6",
+    "0x00AB",
+    "0x0070",
+    "0x009A",
+    "0x0072",
+    "0x0083",
+    "0x0084",
+    "0x009D",
+    "0x0088",
+    "0x007E",
+    "0x0088",
+    "0x003E"
+  ],
+  "mappings": {
+    "62": {
+      "char": "、",
+      "unicode": "U+3001",
+      "hex": "0x003E"
+    },
+    "112": {
+      "char": "あ",
+      "unicode": "U+3042",
+      "hex": "0x0070"
+    },
+    "114": {
+      "char": "う",
+      "unicode": "U+3046",
+      "hex": "0x0072"
+    },
+    "121": {
+      "char": "こ",
+      "unicode": "U+3053",
+      "hex": "0x0079"
+    },
+    "126": {
+      "char": "そ",
+      "unicode": "U+305D",
+      "hex": "0x007E"
+    },
+    "131": {
+      "char": "と",
+      "unicode": "U+3068",
+      "hex": "0x0083"
+    },
+    "132": {
+      "char": "な",
+      "unicode": "U+306A",
+      "hex": "0x0084"
+    },
+    "136": {
+      "char": "の",
+      "unicode": "U+306E",
+      "hex": "0x0088"
+    },
+    "141": {
+      "char": "ほ",
+      "unicode": "U+307B",
+      "hex": "0x008D"
+    },
+    "152": {
+      "char": "る",
+      "unicode": "U+308B",
+      "hex": "0x0098"
+    },
+    "154": {
+      "char": "ろ",
+      "unicode": "U+308D",
+      "hex": "0x009A"
+    },
+    "156": {
+      "char": "を",
+      "unicode": "U+3092",
+      "hex": "0x009C"
+    },
+    "157": {
+      "char": "ん",
+      "unicode": "U+3093",
+      "hex": "0x009D"
+    },
+    "171": {
+      "char": "で",
+      "unicode": "U+3067",
+      "hex": "0x00AB"
+    },
+    "376": {
+      "char": "鉄",
+      "unicode": "U+9244",
+      "hex": "0x0178"
+    },
+    "408": {
+      "char": "落",
+      "unicode": "U+843D",
+      "hex": "0x0198"
+    },
+    "412": {
+      "char": "物",
+      "unicode": "U+7269",
+      "hex": "0x019C"
+    },
+    "459": {
+      "char": "不",
+      "unicode": "U+4E0D",
+      "hex": "0x01CB"
+    },
+    "470": {
+      "char": "中",
+      "unicode": "U+4E2D",
+      "hex": "0x01D6"
+    },
+    "475": {
+      "char": "王",
+      "unicode": "U+738B",
+      "hex": "0x01DB"
+    },
+    "519": {
+      "char": "壁",
+      "unicode": "U+58C1",
+      "hex": "0x0207"
+    },
+    "659": {
+      "char": "城",
+      "unicode": "U+57CE",
+      "hex": "0x0293"
+    },
+    "679": {
+      "char": "殿",
+      "unicode": "U+6BBF",
+      "hex": "0x02A7"
+    },
+    "692": {
+      "char": "宝",
+      "unicode": "U+5B9D",
+      "hex": "0x02B4"
+    },
+    "870": {
+      "char": "法",
+      "unicode": "U+6CD5",
+      "hex": "0x0366"
+    },
+    "1028": {
+      "char": "難",
+      "unicode": "U+96E3",
+      "hex": "0x0404"
+    },
+    "1121": {
+      "char": "攻",
+      "unicode": "U+653B",
+      "hex": "0x0461"
+    },
+    "1127": {
+      "char": "庁",
+      "unicode": "U+5E81",
+      "hex": "0x0467"
+    }
+  },
+  "confirmed_patterns": {
+    "no_particle": {
+      "glyph_id": 136,
+      "glyph_hex": "0x0088",
+      "char": "の",
+      "count": 5,
+      "positions": [
+        4,
+        21,
+        25,
+        34,
+        36
+      ]
+    },
+    "de_arou_to": {
+      "glyph_ids": [
+        171,
+        112,
+        154,
+        114,
+        131
+      ],
+      "glyph_hex": [
+        "0x00AB",
+        "0x0070",
+        "0x009A",
+        "0x0072",
+        "0x0083"
+      ],
+      "chars": "であろうと",
+      "occurrences": [
+        [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      ],
+      "distance": 21
+    },
+    "comma": {
+      "glyph_id": 62,
+      "glyph_hex": "0x003E",
+      "char": "、",
+      "positions": [
+        11,
+        37
+      ]
+    }
+  },
+  "key_finding": "Dialogue text uses DIFFERENT glyph IDs than name-entry screen. Same glyph ID maps to different characters in each context. Glyph range extends to 0x0467+ (beyond previous 0x035A assumption)."
+}

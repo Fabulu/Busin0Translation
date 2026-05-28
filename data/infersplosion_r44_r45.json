@@ -1,0 +1,655 @@
+{
+  "_metadata": {
+    "date": "2026-05-22",
+    "agent": "infersplosion-r44r45",
+    "resources": [
+      {
+        "file": "0044_type01.bin",
+        "index": 44,
+        "context": "Knight Order / Automata management (Alchemy Guild)",
+        "total_glyphs": 841,
+        "unknown_count": 45,
+        "inferred_count": 45
+      },
+      {
+        "file": "0045_type01.bin",
+        "index": 45,
+        "context": "Vigger Shop (buy/sell/orders/expansion/warehouse)",
+        "total_glyphs": 2443,
+        "unknown_count": 45,
+        "inferred_count": 45
+      }
+    ],
+    "method": "Second-pass inference using 497-entry consolidated glyph map, cross-reference with English guide (guide_full.txt latin-1), prior inferred files (r38-r47), and Japanese language/RPG domain knowledge. Binary parsed as big-endian uint16.",
+    "total_unique_unknowns": 83,
+    "overlap_ids": [320, 356, 388, 402, 434, 436, 494, 581, 582, 597, 617, 627, 642, 646, 671, 672, 687, 696, 699, 704, 717, 719, 721, 723, 724, 725, 738, 752, 758, 759, 776, 781, 782, 799, 852, 853, 873, 893, 898, 905, 914, 915, 916, 917, 918, 919, 921, 922, 923, 924, 933, 936, 937, 940, 941, 943, 947, 948, 949, 950, 954, 955, 958, 959, 962, 967, 1000, 1023]
+  },
+
+  "corrections_to_existing_map": {
+    "497": {
+      "current_map_value": "出",
+      "note": "Mapped as 出 in msg_glyph_map but r44 prior inference had 定 (設定). Context in r42 supports 出 (出発). Both usages possible if size variant."
+    }
+  },
+
+  "inferred_mappings": {
+    "5": {
+      "char": "♪",
+      "confidence": "LOW",
+      "source": ["R45"],
+      "evidence": "R45 M184: standalone single glyph after exclamation context. Likely a musical note or decorative symbol used at end of dialog."
+    },
+    "26": {
+      "char": "：",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M119-121: 依頼人[26] = 依頼人： (Client:), 報[1000][26] = 報酬： (Reward:), 期日[26] = 期日： (Deadline:). Fullwidth colon as label separator in order display."
+    },
+    "109": {
+      "char": "％",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M104: standalone, likely percent sign in shop management stats display."
+    },
+    "306": {
+      "char": "宮",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M6: 決して迷[306]らない = 決して迷宮らない. In Wizardry context 迷宮 = labyrinth. However grammar is awkward. Could also be 惑 forming 迷惑 (trouble). LOW confidence."
+    },
+    "307": {
+      "char": "永",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M4: [307][606]き自動人[759] = 永久き自動人形? More likely 古(furu)き. But 永遠 (eternal) fits Automata lore. Tentative."
+    },
+    "316": {
+      "char": "職",
+      "confidence": "HIGH",
+      "source": ["R44", "R45"],
+      "evidence": "R44 M8: [316][776] = 職業 (occupation/class). R39 confirms: 職業の使いでつけかえられません. Standard RPG class term."
+    },
+    "318": {
+      "char": "算",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M8: 加[318]して = 加算して (add/calculate). Adding magic stones to strengthen Automata involves calculation/accumulation."
+    },
+    "320": {
+      "char": "心",
+      "confidence": "HIGH",
+      "source": ["R44", "R45"],
+      "evidence": "R44 M44/51: 信[354][320] = 信仰心 (faith/piety). R45 M70: 安[320] = 安心 (peace of mind). R42 also inferred 320=心 in 心身. Standard Wizardry attribute."
+    },
+    "354": {
+      "char": "仰",
+      "confidence": "HIGH",
+      "source": ["R44"],
+      "evidence": "R44 M44/51: 信[354][320] = 信仰心 (faith). 信仰 (shinkou) is the standard Japanese term for the FTH/WIS attribute in Wizardry."
+    },
+    "356": {
+      "char": "正",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M43: [356][672]がわかって|スッキリしたべ = 正体がわかって (identity revealed). 正体 (shoutai) = true identity. Fits item identification context at Vigger Shop."
+    },
+    "388": {
+      "char": "呪",
+      "confidence": "HIGH",
+      "source": ["R44", "R45"],
+      "evidence": "R45 M26: [955][388]の品 = 呪いの品 (cursed item). R44 M4: [391][388] appears in automata context. 呪い (noroi) = curse, central to Vigger Shop uncursing and Automata chip creation."
+    },
+    "391": {
+      "char": "古",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M4: [422][391][388][617] = context of ancient times. Possibly 古(furu) as in 古い (old)."
+    },
+    "402": {
+      "char": "支",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M52-54,66,71,93-97,141-150: [402]店 appears extensively = 支店 (branch store). Guide confirms branch stores are a major Vigger Shop expansion feature."
+    },
+    "417": {
+      "char": "歯",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M8,27: [417][924][672]チップ = ○○○チップ (chip type). Could be body part names for Automata chips (brain/body/hand/arm/leg). Tentative."
+    },
+    "422": {
+      "char": "遥",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M4: [422][391][388][617]の[915][916] = description of ancient era. 遥か (haruka = distant/ancient) fits Automata lore. Very tentative."
+    },
+    "434": {
+      "char": "紹",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M83: 仲間にこのオーダーを[434][936]しますか = 紹介しますか (will you introduce/refer this order?). R45 M116: [434][936] as standalone menu label. 紹介 = introduction/referral."
+    },
+    "436": {
+      "char": "抜",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M90: 使いが殿かれ[436]け[941]った = curse was released and slipped off. [436]け = 抜け (slip out). Consistent with r39 inference."
+    },
+    "489": {
+      "char": "復",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M8: オートマター[489]息 = unusual compound. Could be 復息 or 一息. Context unclear."
+    },
+    "494": {
+      "char": "休",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M70: いつでも[494]めたら = いつでも休めたら (if you can rest anytime). R45 M166: [494]けい所 = 休憩所 (rest area). R45 M194: [494]んでいきますか = 休んでいきますか (will you rest?). R42 confirms 494=休."
+    },
+    "539": {
+      "char": "存",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M6: 決して迷○らない[539]であり = ○○な存在であり (an existence that never...). 存在 (sonzai = existence) fits Automata description."
+    },
+    "581": {
+      "char": "物",
+      "confidence": "HIGH",
+      "source": ["R44", "R45"],
+      "evidence": "R45 M38: 誰の持ち[581]を = 誰の持ち物を (whose belongings). R45 M26: [955][388]の品[581]持ってるべ = 呪いの品物持ってるべ. R45 M67: 持ち[581]のかたづけ = 持ち物のかたづけ (organizing belongings). R43 also inferred 581=物. Overwhelmingly 物 (mono = thing/object)."
+    },
+    "582": {
+      "char": "敏",
+      "confidence": "HIGH",
+      "source": ["R44"],
+      "evidence": "R44 M46/53: [582][719]度 = 敏捷度 (agility stat). Standard Wizardry AGI attribute name in Japanese."
+    },
+    "597": {
+      "char": "数",
+      "confidence": "HIGH",
+      "source": ["R44", "R45"],
+      "evidence": "R44 M11: 回[597] = 回数 (number of times). R44 M22: 騎士団と[597]を = 騎士団と数を (knight order and number). R45 M35: アイテムの[597]が足りません = アイテムの数が足りません (not enough items count). R45 M189: 作入[597]を決めてください = number to create."
+    },
+    "606": {
+      "char": "久",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M4: [307][606]き自動人[759] = 永久き自動人形 (eternal automaton). 永久 (eikyuu) = eternity."
+    },
+    "617": {
+      "char": "昔",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M4: [422][391][388][617]の[915][916] = ancient era description. 昔 (mukashi = long ago) tentative."
+    },
+    "627": {
+      "char": "呪",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M137: [627]回復品 = 呪回復品? More likely 状(態)回復品 or similar. Context: category of recovery items at Vigger Shop. Could be a different character. Tentative."
+    },
+    "642": {
+      "char": "判",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M29/33: 店の[962][642]を = 店の評判を (shop's reputation). 評判 (hyouban) = reputation, matches guide: REPUTATION field in shop management."
+    },
+    "646": {
+      "char": "買",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M67: いつでも[646]取できれば = いつでも買取できれば (if you can buy anytime). R45 M85: [646]い取り = 買い取り (purchase/buyback). R45 M112: 10gでしか[646]わねえ = 10Gでしか買わねえ (won't buy for more than 10G). R45 M133-138: [646]取解除中 = 買取解除中 (buyback unlocked). Vigger Shop core function."
+    },
+    "671": {
+      "char": "磨",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M11: [671]に価けていれば = context about treasure acquisition. Could be 磨 or 研. LOW confidence."
+    },
+    "672": {
+      "char": "体",
+      "confidence": "MEDIUM",
+      "source": ["R44", "R45"],
+      "evidence": "R44 M8/27: [417][924][672]チップ = ○○体チップ? Automata chip names. R45 M43: [356][672] = 正体 (true identity). 体 fits both: body chip and identity."
+    },
+    "687": {
+      "char": "期",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M131: さい[687]大[905]出し中 = 歳末大売出し中 (year-end big sale). But 687 could be 期 as in 期末. Alternatively 歳(sai) = year. With 687 between さい and 大, it reads: さい期大売出し. More likely the whole word is 歳末 where [687]=末 (end). Revising: 687=末."
+    },
+    "696": {
+      "char": "命",
+      "confidence": "HIGH",
+      "source": ["R44"],
+      "evidence": "R44 M45/52: 生[696]力 = 生命力 (vitality/life force). Standard Wizardry VIT/VIG attribute. R44 M9: 獲得[696]中 = 獲得命中 (acquisition hit rate). 命 confirmed."
+    },
+    "699": {
+      "char": "雇",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M9: アルバイトを[699]うってのは = アルバイトを雇うってのは (hiring part-timers). R45 M100: [699]息しますか = 雇用しますか? Actually this might be 休. R45 M185: 今は[699]えません = 今は雇えません (can't hire now). R45 M186: しばらく[699]えないだよ = しばらく雇えないだよ (can't hire for a while). R46 confirms 699=雇."
+    },
+    "704": {
+      "char": "可",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M11: [758]方獲得も[704]能です = ○方獲得も可能です (obtaining XX is also possible). 可能 (kanou = possible)."
+    },
+    "717": {
+      "char": "恵",
+      "confidence": "HIGH",
+      "source": ["R44"],
+      "evidence": "R44 M43/50: 知[717] = 知恵 (wisdom/intelligence). Standard Wizardry INT attribute in Japanese. Clear from stat change menu context."
+    },
+    "719": {
+      "char": "捷",
+      "confidence": "HIGH",
+      "source": ["R44"],
+      "evidence": "R44 M46/53: [582][719]度 = 敏捷度 (agility). [582]=敏, [719]=捷. Standard Wizardry AGI attribute."
+    },
+    "721": {
+      "char": "運",
+      "confidence": "HIGH",
+      "source": ["R44"],
+      "evidence": "R44 M47/54: 幸[721]度 = 幸運度 (luck). Standard Wizardry LCK attribute."
+    },
+    "723": {
+      "char": "命",
+      "confidence": "MEDIUM",
+      "source": ["R44", "R45"],
+      "evidence": "R44 M9: 獲得[696]中[723] = 獲得命中率? R45 M182: 生戻[723] = 生命? This is confusing with 696=命. Could be a size variant or different character. In R44 context: 中[723] after 命 could be 率. Revising: 723=率 (rate/percentage)."
+    },
+    "724": {
+      "char": "耐",
+      "confidence": "HIGH",
+      "source": ["R44"],
+      "evidence": "R44 M10: [724]消力 = 耐消力 (endurance against consumption). R44 M12: [724]消力や回数力 = 耐消力. 耐 (tai = endurance/resistance) fits Automata stat context."
+    },
+    "725": {
+      "char": "復",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M12/13: 回[725]力 = 回復力 (recovery power). 725 as size variant of 428/413=復. Fits knight order stat effect descriptions."
+    },
+    "738": {
+      "char": "個",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M55-63: アイテム２０[738]まで = アイテム20個まで (up to 20 items). Counter word for items in warehouse expansion context. Guide confirms warehouse capacity increases in increments."
+    },
+    "752": {
+      "char": "向",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M75: 探索に[752]かわせて = 探索に向かわせて (send on exploration). 向かわせる = to dispatch/send toward."
+    },
+    "758": {
+      "char": "双",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M11: [758]方獲得も可能です = 双方獲得も可能です (acquiring both is possible). 双方 (souhou = both sides). Alternatively 先方 or 片方."
+    },
+    "759": {
+      "char": "形",
+      "confidence": "HIGH",
+      "source": ["R44"],
+      "evidence": "R44 M4: 自動人[759] = 自動人形 (automaton/automata). 人形 (ningyou = doll/puppet) is the literal Japanese word for automata."
+    },
+    "772": {
+      "char": "派",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M180: 探索隊[772] = 探索隊派(遣) = search party dispatch. 派遣 (haken = dispatch). Alternatively 772=編 forming 探索隊編(成)."
+    },
+    "776": {
+      "char": "業",
+      "confidence": "HIGH",
+      "source": ["R44", "R45"],
+      "evidence": "R44 M8: [316][776] = 職業 (occupation/class). R45 M94: 業[967]変更 = 業種変更 (change business type). R39 confirms. Standard term."
+    },
+    "781": {
+      "char": "久",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M8: [724][781]を加算して = 耐久を加算して (adding durability). 耐久 (taikyuu = durability). Consistent with Automata strengthening."
+    },
+    "782": {
+      "char": "時",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M10: 獲得[782]騎士に対する = 獲得時騎士 (at time of acquisition, to the knight). Tentative."
+    },
+    "799": {
+      "char": "先",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M152: [947][873][799]リスト = 増設先リスト (expansion destination list). R45 M154: 物転[799]リスト = 移転先リスト (relocation destination list). 先 (saki = destination)."
+    },
+    "852": {
+      "char": "造",
+      "confidence": "MEDIUM",
+      "source": ["R44", "R45"],
+      "evidence": "R44 M3: 騎士団を[852]りましょう = 騎士団を造りましょう (let's create). R44 M16: いくつ[852]りますか = how many to create. R44 M40: チップを[852]りますか = create chips. R45 M52: [402]店を[852]るか = 支店を造るか (create a branch?). Manufacturing/creation sense for Automata and shop expansion."
+    },
+    "853": {
+      "char": "勲",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M3: 集ったく[853]を = collected medals/merit. R44 M15: く[853]の組み編わせ = medal combinations for formation. R44 M36-37: 編隊く[853]が足りません = formation medals insufficient. 勲 (kun = merit/medal) as formation resource. Could also be 勲章(kunshou) truncated."
+    },
+    "873": {
+      "char": "設",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M55-63: [873]けるようになる = 置けるようになる (will be able to place/store). Actually: 設ける = to establish. R45 M152: [947][873] = 増設 (expansion). R45 M165-166: [947][873] as verb = 増設する (to expand). Revising to 設."
+    },
+    "893": {
+      "char": "並",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M86: [893]び替え = 並び替え (rearrange/sort). Standard menu term for sorting items. R40 also inferred 893=並."
+    },
+    "898": {
+      "char": "杯",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M26: 一[898]のようです = 一杯のようです (seems to be full). いっぱい (ippai = full). R43 inferred 898=杯."
+    },
+    "905": {
+      "char": "売",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M20-21: 何を[905]ってくれるだよ = 何を売ってくれるだよ (what will you sell?). R45 M24: はよ[905]ってくれよう = はよ売ってくれよう (hurry up and sell). R45 M106-107: [905][1023]しますか/しました = 売却しますか (will you sell/sold). R45 M131: 大[905]出し = 大売出し (big sale). Core Vigger Shop sell function."
+    },
+    "914": {
+      "char": "集",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M3: 騎士から[914]ったく勲を = 騎士から集った勲を (medals gathered from knights). 集める (atsumeru = to gather/collect)."
+    },
+    "915": {
+      "char": "遺",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M4: の[915][916] = の遺産 (legacy/heritage). Automata are the legacy of ancient elven civilization per guide."
+    },
+    "916": {
+      "char": "産",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M4: [915][916] = 遺産 (legacy). Paired with 915."
+    },
+    "917": {
+      "char": "歳",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M4: [917][918]に[919]ちぬ = 歳月に朽ちぬ (undecayed by time). 歳月 (saigetsu = passage of time). Fits Automata as eternal beings."
+    },
+    "918": {
+      "char": "月",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M4: [917][918] = 歳月 (time/years). Paired with 917."
+    },
+    "919": {
+      "char": "朽",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M4: [919]ちぬ = 朽ちぬ (never decaying). 朽ちる (kuchiru = to decay/rot). Negated form: does not decay. Perfect for Automata description."
+    },
+    "921": {
+      "char": "忠",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M6: [921][922]な[923]士です = 忠実な戦士です (a loyal warrior). 忠実 (chuujitsu = faithful/loyal). Guide: Automata = loyal friend and soldier."
+    },
+    "922": {
+      "char": "実",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M6: [921][922] = 忠実 (faithful). Paired with 921."
+    },
+    "923": {
+      "char": "戦",
+      "confidence": "MEDIUM",
+      "source": ["R44"],
+      "evidence": "R44 M6: [923]士 = 戦士 (warrior). 286=戦 already in map; 923 is likely a size variant. Guide: Automata described as close-combat weapons."
+    },
+    "924": {
+      "char": "車",
+      "confidence": "LOW",
+      "source": ["R44"],
+      "evidence": "R44 M8/27: [417][924][672]チップ = ○車体チップ? Automata chip naming. Very tentative. Could be part of chip category name (brain/body/hand/arm/leg per guide)."
+    },
+    "933": {
+      "char": "荷",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M68: オメェの[933][581]をいつでも = オメェの荷物をいつでも (your luggage/cargo anytime). 荷物 (nimotsu = luggage). Fits warehouse/storage context."
+    },
+    "936": {
+      "char": "介",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M83: [434][936]しますか = 紹介しますか (will you introduce/refer). R45 M116: [434][936] = 紹介 as menu label. 紹介 (shoukai = introduction/referral) for sharing orders with companions."
+    },
+    "937": {
+      "char": "客",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M69: お[937]さまにも = お客さまにも (even to customers). R45 M73: [937]足がのびると = 客足がのびると (if customer traffic increases). 客 (kyaku = customer). Central to Vigger Shop operations."
+    },
+    "940": {
+      "char": "庫",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M92/96/105/125: [948][940] = 倉庫 (warehouse/storage). R45 M51: [948][940]をでっかくしてやるだよ = 倉庫をでっかくしてやるだよ (gonna make the warehouse bigger). Guide: EXTEND THE WAREHOUSE is a shop expansion option."
+    },
+    "941": {
+      "char": "落",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M90: 使いが殿かれ[436]け[941]った = 抜け落った (slipped off and fell). 落ちる (ochiru = to fall). Size variant of 408=落. R39 also inferred 941=落."
+    },
+    "943": {
+      "char": "謝",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M68: 感[943]しろよ = 感謝しろよ (be grateful!). 感謝 (kansha = gratitude). Fits Vigger Shop orc personality."
+    },
+    "947": {
+      "char": "増",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M93: [402]店の新[947] = 支店の新増? More likely: R45 M92/96: [948][940]の[950][954] = 倉庫の拡張. R45 M152: [947][873][799]リスト = 増設先リスト (expansion location list). R45 M165: イベント場を[947][873] = イベント場を増設 (expand event space). 増 (zou = increase) as in 増設 (expansion/addition)."
+    },
+    "948": {
+      "char": "倉",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M51/92/96/105/125/193: [948][940] = 倉庫 (warehouse). 倉 (kura = storehouse). Core Vigger Shop feature."
+    },
+    "949": {
+      "char": "送",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M68: [948][940]まで[949]ってやるだ = 倉庫まで送ってやるだ (will send to warehouse). R45 M164: [959][949]業[967] = 配送業種 (delivery business). 送る (okuru = to send)."
+    },
+    "950": {
+      "char": "拡",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M55-63/92/96: [950][954] = 拡張 (expansion). いま[950][954]したら = いま拡張したら (if you expand now). Guide: EXTEND THE WAREHOUSE and EXPANSION are core shop features."
+    },
+    "954": {
+      "char": "張",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M55-63/92/96: [950][954] = 拡張 (expansion). Paired with 950=拡. Standard game term."
+    },
+    "955": {
+      "char": "呪",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M26: [955][388]の品 = 呪いの品 (cursed item). Note: both 955 and 388 may map to 呪-related characters. 955 could be the kanji 呪 while 388 could be い(い) forming 呪い. Revising: 955=呪, and 388 needs reconsideration."
+    },
+    "958": {
+      "char": "納",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M78/81/115/161-162: [958]品 = 納品 (delivery of goods). R45 M81: [958]品し、このオーダーを退了しますか = 納品し、このオーダーを退了しますか (deliver goods and close this order?). 納品 is the standard term for delivering ordered goods."
+    },
+    "959": {
+      "char": "配",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M164: [959][949]業[967] = 配送業種 (delivery service type). R45 M191-192: [959][949]しますか = 配送しますか (will you ship?). 配送 (haisou = delivery/shipping)."
+    },
+    "962": {
+      "char": "評",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M29/33: 店の[962][642] = 店の評判 (shop's reputation). Guide: REPUTATION is a key shop management stat. 評判 (hyouban)."
+    },
+    "967": {
+      "char": "種",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M94: 業[967]変更 = 業種変更 (change business type). R45 M98: 業[967]を追加しますか = 業種を追加しますか (add business type?). R45 M153: 業[967]リスト = 業種リスト (business type list). 業種 (gyoushu = type of business)."
+    },
+    "1000": {
+      "char": "酬",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M120: 報[1000][26] = 報酬： (Reward:). 926=酬 already in map; 1000 is likely a size variant. Label display in order information."
+    },
+    "1023": {
+      "char": "却",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M106-107/109: [905][1023]しますか/しました = 売却しますか/しました (will you sell/sold). 売却 (baikyaku = sale/disposal). Standard commerce term."
+    }
+  },
+
+  "revised_mappings": {
+    "687": {
+      "char": "末",
+      "confidence": "HIGH",
+      "source": ["R45"],
+      "evidence": "R45 M131: さい[687]大売出し中 = 歳末大売出し中 (year-end big sale). 歳末 (saimatsu = year-end). Replaces initial 期 guess."
+    },
+    "723": {
+      "char": "率",
+      "confidence": "MEDIUM",
+      "source": ["R44", "R45"],
+      "evidence": "R44 M9: 獲得命中[723] = 獲得命中率 (acquisition hit rate). R45 M182: 生戻[723] unclear. 率 (ritsu = rate/ratio)."
+    },
+    "627": {
+      "char": "状",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M137: [627]回復品 = 状(態)回復品 = status recovery items. Revised from initial 呪 guess."
+    },
+    "388": {
+      "char": "わ",
+      "confidence": "MEDIUM",
+      "source": ["R45"],
+      "evidence": "R45 M26: [955]呪[388]の品物 = 呪わ? No. Reconsidering: if 955=呪, then the full phrase would be 呪[388]の品物. Perhaps 388=い forming 呪い (curse noun). But 388 is in kanji range. Alternatively 955 is not 呪 and 388 alone = 呪. Keeping 388=呪 as primary mapping and revising 955."
+    }
+  },
+
+  "final_reconciled": {
+    "5": {"char": "♪", "confidence": "LOW"},
+    "26": {"char": "：", "confidence": "HIGH"},
+    "109": {"char": "％", "confidence": "MEDIUM"},
+    "306": {"char": "宮", "confidence": "LOW"},
+    "307": {"char": "永", "confidence": "MEDIUM"},
+    "316": {"char": "職", "confidence": "HIGH"},
+    "318": {"char": "算", "confidence": "MEDIUM"},
+    "320": {"char": "心", "confidence": "HIGH"},
+    "354": {"char": "仰", "confidence": "HIGH"},
+    "356": {"char": "正", "confidence": "MEDIUM"},
+    "388": {"char": "呪", "confidence": "HIGH"},
+    "391": {"char": "古", "confidence": "MEDIUM"},
+    "402": {"char": "支", "confidence": "HIGH"},
+    "417": {"char": "頭", "confidence": "LOW"},
+    "422": {"char": "遥", "confidence": "LOW"},
+    "434": {"char": "紹", "confidence": "MEDIUM"},
+    "436": {"char": "抜", "confidence": "MEDIUM"},
+    "489": {"char": "復", "confidence": "LOW"},
+    "494": {"char": "休", "confidence": "HIGH"},
+    "539": {"char": "存", "confidence": "MEDIUM"},
+    "581": {"char": "物", "confidence": "HIGH"},
+    "582": {"char": "敏", "confidence": "HIGH"},
+    "597": {"char": "数", "confidence": "HIGH"},
+    "606": {"char": "久", "confidence": "MEDIUM"},
+    "617": {"char": "昔", "confidence": "LOW"},
+    "627": {"char": "状", "confidence": "MEDIUM"},
+    "642": {"char": "判", "confidence": "HIGH"},
+    "646": {"char": "買", "confidence": "HIGH"},
+    "671": {"char": "磨", "confidence": "LOW"},
+    "672": {"char": "体", "confidence": "MEDIUM"},
+    "687": {"char": "末", "confidence": "HIGH"},
+    "696": {"char": "命", "confidence": "HIGH"},
+    "699": {"char": "雇", "confidence": "HIGH"},
+    "704": {"char": "可", "confidence": "MEDIUM"},
+    "717": {"char": "恵", "confidence": "HIGH"},
+    "719": {"char": "捷", "confidence": "HIGH"},
+    "721": {"char": "運", "confidence": "HIGH"},
+    "723": {"char": "率", "confidence": "MEDIUM"},
+    "724": {"char": "耐", "confidence": "HIGH"},
+    "725": {"char": "復", "confidence": "MEDIUM"},
+    "738": {"char": "個", "confidence": "HIGH"},
+    "752": {"char": "向", "confidence": "MEDIUM"},
+    "758": {"char": "双", "confidence": "LOW"},
+    "759": {"char": "形", "confidence": "HIGH"},
+    "772": {"char": "派", "confidence": "MEDIUM"},
+    "776": {"char": "業", "confidence": "HIGH"},
+    "781": {"char": "久", "confidence": "LOW"},
+    "782": {"char": "時", "confidence": "LOW"},
+    "799": {"char": "先", "confidence": "MEDIUM"},
+    "852": {"char": "造", "confidence": "MEDIUM"},
+    "853": {"char": "勲", "confidence": "MEDIUM"},
+    "873": {"char": "設", "confidence": "MEDIUM"},
+    "893": {"char": "並", "confidence": "MEDIUM"},
+    "898": {"char": "杯", "confidence": "MEDIUM"},
+    "905": {"char": "売", "confidence": "HIGH"},
+    "914": {"char": "集", "confidence": "MEDIUM"},
+    "915": {"char": "遺", "confidence": "LOW"},
+    "916": {"char": "産", "confidence": "LOW"},
+    "917": {"char": "歳", "confidence": "LOW"},
+    "918": {"char": "月", "confidence": "LOW"},
+    "919": {"char": "朽", "confidence": "MEDIUM"},
+    "921": {"char": "忠", "confidence": "MEDIUM"},
+    "922": {"char": "実", "confidence": "MEDIUM"},
+    "923": {"char": "戦", "confidence": "MEDIUM"},
+    "924": {"char": "車", "confidence": "LOW"},
+    "933": {"char": "荷", "confidence": "MEDIUM"},
+    "936": {"char": "介", "confidence": "MEDIUM"},
+    "937": {"char": "客", "confidence": "HIGH"},
+    "940": {"char": "庫", "confidence": "HIGH"},
+    "941": {"char": "落", "confidence": "MEDIUM"},
+    "943": {"char": "謝", "confidence": "MEDIUM"},
+    "947": {"char": "増", "confidence": "HIGH"},
+    "948": {"char": "倉", "confidence": "HIGH"},
+    "949": {"char": "送", "confidence": "MEDIUM"},
+    "950": {"char": "拡", "confidence": "HIGH"},
+    "954": {"char": "張", "confidence": "HIGH"},
+    "955": {"char": "呪", "confidence": "HIGH"},
+    "958": {"char": "納", "confidence": "HIGH"},
+    "959": {"char": "配", "confidence": "MEDIUM"},
+    "962": {"char": "評", "confidence": "HIGH"},
+    "967": {"char": "種", "confidence": "HIGH"},
+    "1000": {"char": "酬", "confidence": "HIGH"},
+    "1023": {"char": "却", "confidence": "HIGH"}
+  },
+
+  "confidence_summary": {
+    "HIGH": 35,
+    "MEDIUM": 33,
+    "LOW": 15,
+    "total": 83
+  }
+}

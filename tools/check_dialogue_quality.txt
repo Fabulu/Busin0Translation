@@ -1,0 +1,24 @@
+import json, sys
+sys.stdout.reconfigure(encoding='utf-8')
+
+d = json.load(open('C:/Programmieren/wizardrytranslation/data/type2_dialogue_full.json', 'r', encoding='utf-8'))
+
+print("=== Sample from R1203 (high coverage) ===")
+r1203 = [x for x in d if x['resource'] == 1203 and x['coverage'] >= 80]
+for e in r1203[:8]:
+    print(f'  off={e["offset"]:06X} cov={e["coverage"]}% gl={e["glyph_count"]}: {e["japanese"][:120]}')
+print()
+
+print("=== Coverage distribution ===")
+brackets = {}
+for x in d:
+    b = (x['coverage'] // 10) * 10
+    brackets[b] = brackets.get(b, 0) + 1
+for b in sorted(brackets):
+    print(f'  {b}-{b+9}%: {brackets[b]} entries')
+print()
+
+print("=== Unique resources ===")
+resources = sorted(set(x['resource'] for x in d))
+print(f'  Total: {len(resources)} resources')
+print(f'  List: {resources}')

@@ -1,0 +1,255 @@
+import os, sys, json
+import numpy as np
+from PIL import Image, ImageFont, ImageDraw
+from pathlib import Path
+
+GLYPH_DIR = Path('C:/Programmieren/wizardrytranslation/dumps/glyphs')
+OUTPUT_JSON = Path('C:/Programmieren/wizardrytranslation/data/glyph_map_template.json')
+FINDINGS_DIR = Path('C:/Programmieren/wizardrytranslation/runs/CLAUDE-RUNS/RUN-20260522-1932-initial-recon/subagents/impl14-template-match')
+
+FONT_CANDIDATES = [
+    'C:/Windows/Fonts/msgothic.ttc',
+    'C:/Windows/Fonts/meiryo.ttc',
+    'C:/Windows/Fonts/msmincho.ttc',
+    'C:/Windows/Fonts/YuGothM.ttc',
+]
+
+def find_font():
+    for path in FONT_CANDIDATES:
+        if os.path.exists(path):
+            print(f'Found font: {path}')
+            return path
+    fonts_dir = Path('C:/Windows/Fonts')
+    for ext in ['*.ttc', '*.ttf', '*.otf']:
+        for f in fonts_dir.glob(ext):
+            try:
+                font = ImageFont.truetype(str(f), 12)
+                img = Image.new('L', (12, 12), 255)
+                draw = ImageDraw.Draw(img)
+                draw.text((0, 0), chr(0x3042), font=font, fill=0)
+                arr = np.array(img)
+                if arr.min() < 128:
+                    print(f'Found working Japanese font: {f}')
+                    return str(f)
+            except Exception:
+                continue
+    print('ERROR: No Japanese font found!')
+    sys.exit(1)
+
+def load_glyph(path):
+    img = Image.open(path).convert('L')
+    img = img.resize((12, 12), Image.NEAREST)
+    arr = np.array(img)
+    binary = (arr < 128).astype(np.uint8)
+    return binary
+
+def render_char_centered(font, char, size=12):
+    img = Image.new('L', (size, size), 255)
+    draw = ImageDraw.Draw(img)
+    bbox = font.getbbox(char)
+    if bbox is None:
+        return None
+    x0, y0, x1, y1 = bbox
+    char_w = x1 - x0
+    char_h = y1 - y0
+    offset_x = (size - char_w) // 2 - x0
+    offset_y = (size - char_h) // 2 - y0
+    draw.text((offset_x, offset_y), char, font=font, fill=0)
+    arr = np.array(img)
+    binary = (arr < 128).astype(np.uint8)
+    return binary
+
+def render_char_topleft(font, char, size=12):
+    img = Image.new('L', (size, size), 255)
+    draw = ImageDraw.Draw(img)
+    draw.text((0, 0), char, font=font, fill=0)
+    arr = np.array(img)
+    binary = (arr < 128).astype(np.uint8)
+    return binary
+
+def compute_match_score(glyph_bin, ref_bin):
+    total = glyph_bin.size
+    matching = np.sum(glyph_bin == ref_bin)
+    return matching / total
+
+def build_char_list():
+    chars = []
+    chars.append(' ')
+    for c in range(0x21, 0x7F):
+        chars.append(chr(c))
+    for c in range(0xFF01, 0xFF5F):
+        chars.append(chr(c))
+    for c in range(0x3000, 0x3021):
+        chars.append(chr(c))
+    for c in range(0x3041, 0x3097):
+        chars.append(chr(c))
+    for c in range(0x30A1, 0x30FF):
+        chars.append(chr(c))
+    sjis_chars = []
+    for high in range(0x81, 0xA0):
+        for low in range(0x40, 0xFD):
+            if low == 0x7F:
+                continue
+            try:
+                c = bytes([high, low]).decode('shift_jis')
+                sjis_chars.append(c)
+            except (UnicodeDecodeError, ValueError):
+                continue
+    for high in range(0xE0, 0xF0):
+        for low in range(0x40, 0xFD):
+            if low == 0x7F:
+                continue
+            try:
+                c = bytes([high, low]).decode('shift_jis')
+                sjis_chars.append(c)
+            except (UnicodeDecodeError, ValueError):
+                continue
+    chars.extend(sjis_chars)
+    seen = set()
+    unique = []
+    for c in chars:
+        if c not in seen:
+            seen.add(c)
+            unique.append(c)
+    return unique
+
+def match_glyphs(glyphs, refs):
+    results = {}
+    total_score = 0
+    for idx in sorted(glyphs.keys()):
+        glyph_bin = glyphs[idx]
+        if glyph_bin.sum() == 0:
+            results[idx] = {'char': ' ', 'score': 1.0, 'blank': True}
+            total_score += 1.0
+            continue
+        best_char = None
+        best_score = 0
+        for char, ref_bin in refs.items():
+            score = compute_match_score(glyph_bin, ref_bin)
+            if score > best_score:
+                best_score = score
+                best_char = char
+        results[idx] = {'char': best_char, 'score': best_score}
+        total_score += best_score
+    avg = total_score / len(results) if results else 0
+    high_conf = sum(1 for r in results.values() if r['score'] >= 0.90)
+    return results, avg, high_conf
+
+def main():
+    print('=== Template Matching for Glyph Identification ===')
+    font_path = find_font()
+    chars = build_char_list()
+    print(f'Built character list: {len(chars)} characters')
+
+    glyph_files = sorted(GLYPH_DIR.glob('glyph_*.png'))
+    print(f'Found {len(glyph_files)} glyph files')
+    glyphs = {}
+    for gf in glyph_files:
+        idx = int(gf.stem.split('_')[1])
+        glyphs[idx] = load_glyph(gf)
+    print(f'Loaded {len(glyphs)} glyphs')
+
+    FONT_SIZES = [12, 10, 11, 13, 14, 9, 8, 16]
+    best_size = None
+    best_avg = 0
+    best_results = None
+    best_render = None
+
+    for font_size in FONT_SIZES:
+        try:
+            font = ImageFont.truetype(font_path, font_size)
+        except Exception as e:
+            print(f'  Cannot load font at size {font_size}: {e}')
+            continue
+        print(f'Trying font size {font_size}...')
+
+        for render_name, render_fn in [('centered', render_char_centered), ('topleft', render_char_topleft)]:
+            refs = {}
+            for char in chars:
+                bmp = render_fn(font, char, size=12)
+                if bmp is not None and bmp.sum() > 0:
+                    refs[char] = bmp
+            results, avg, high_conf = match_glyphs(glyphs, refs)
+            print(f'  {render_name}: avg={avg:.4f}, high_conf(>=90%)={high_conf}/{len(results)}')
+            if avg > best_avg:
+                best_avg = avg
+                best_size = font_size
+                best_results = results
+                best_render = render_name
+
+    print(f'Best: size={best_size}, render={best_render}, avg={best_avg:.4f}')
+
+    output = {}
+    scores_list = []
+    for idx, res in sorted(best_results.items()):
+        output[str(idx)] = res['char']
+        scores_list.append(res['score'])
+
+    OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    print(f'Saved mapping to {OUTPUT_JSON}')
+
+    scores_arr = np.array(scores_list)
+    print(f'Total glyphs: {len(output)}')
+    print(f'Average match score: {scores_arr.mean():.4f}')
+    print(f'Median match score: {np.median(scores_arr):.4f}')
+    pct95 = int(np.sum(scores_arr >= 0.95))
+    pct90 = int(np.sum(scores_arr >= 0.90))
+    pct85 = int(np.sum(scores_arr >= 0.85))
+    pct80 = int(np.sum(scores_arr >= 0.80))
+    low80 = int(np.sum(scores_arr < 0.80))
+    print(f'Score >= 95%: {pct95}')
+    print(f'Score >= 90%: {pct90}')
+    print(f'Score >= 85%: {pct85}')
+    print(f'Score >= 80%: {pct80}')
+    print(f'Score < 80%: {low80}')
+
+    print('Sample Mappings (first 30):')
+    for idx in range(min(30, len(output))):
+        if idx in best_results:
+            r = best_results[idx]
+            print(f'  glyph_{idx:04d} -> {repr(r["char"])} (score: {r["score"]:.4f})')
+
+    print('Lowest Confidence Matches:')
+    sorted_by_score = sorted(best_results.items(), key=lambda x: x[1]['score'])
+    for idx, r in sorted_by_score[:20]:
+        print(f'  glyph_{idx:04d} -> {repr(r["char"])} (score: {r["score"]:.4f})')
+
+    detailed = {}
+    for idx, res in sorted(best_results.items()):
+        detailed[str(idx)] = {'char': res['char'], 'score': round(res['score'], 4)}
+    detailed_path = OUTPUT_JSON.parent / 'glyph_map_template_detailed.json'
+    with open(detailed_path, 'w', encoding='utf-8') as f:
+        json.dump(detailed, f, ensure_ascii=False, indent=2)
+    print(f'Saved detailed results to {detailed_path}')
+
+    findings_text = '# Template Matching Findings\n\n'
+    findings_text += '## Method\n'
+    findings_text += f'- Used TTF font: {font_path} at size {best_size}px, rendering: {best_render}\n'
+    findings_text += f'- Rendered {len(chars)} reference characters\n'
+    findings_text += '- Compared each of 882 game glyphs (48x48 downscaled to 12x12 binary)\n'
+    findings_text += '- Scoring: pixel-wise match percentage (144 pixels per glyph)\n\n'
+    findings_text += '## Results\n'
+    findings_text += f'- Total glyphs mapped: {len(output)}\n'
+    findings_text += f'- Average match score: {scores_arr.mean():.4f}\n'
+    findings_text += f'- Median match score: {np.median(scores_arr):.4f}\n'
+    findings_text += f'- Perfect/near-perfect (>=95%): {pct95}\n'
+    findings_text += f'- High confidence (>=90%): {pct90}\n'
+    findings_text += f'- Medium confidence (>=85%): {pct85}\n'
+    findings_text += f'- Low confidence (<80%): {low80}\n\n'
+    findings_text += '## Output Files\n'
+    findings_text += '- data/glyph_map_template.json - Simple index to character mapping\n'
+    findings_text += '- data/glyph_map_template_detailed.json - Includes confidence scores\n\n'
+    findings_text += '## Notes\n'
+    findings_text += '- TTF fonts anti-alias even at small sizes\n'
+    findings_text += '- The game likely used a bitmap font for pixel-perfect rendering\n'
+    findings_text += '- Low-confidence matches should be verified manually\n'
+
+    FINDINGS_DIR.mkdir(parents=True, exist_ok=True)
+    with open(FINDINGS_DIR / 'FINDINGS.md', 'w', encoding='utf-8') as f:
+        f.write(findings_text)
+    print(f'Findings written to {FINDINGS_DIR}')
+
+if __name__ == '__main__':
+    main()

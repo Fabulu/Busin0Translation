@@ -1,0 +1,226 @@
+import sys, struct, os
+from collections import Counter
+
+def hexdump(data, offset=0, length=None):
+    if length is None:
+        length = len(data)
+    end = min(offset + length, len(data))
+    lines = []
+    for i in range(offset, end, 16):
+        hex_part = ' '.join(f'{data[j]:02x}' for j in range(i, min(i+16, end)))
+        ascii_part = ''.join(chr(data[j]) if 32 <= data[j] < 127 else '.' for j in range(i, min(i+16, end)))
+        lines.append(f'{i:08x}  {hex_part:<48s}  |{ascii_part}|')
+    return '\n'.join(lines)
+
+eve_files = [
+    'C:/Programmieren/wizardrytranslation/extracted_busin1/IMAGE/EVENT/UEDA.EVE',
+    'C:/Programmieren/wizardrytranslation/extracted_busin1/IMAGE/EVENT/KYOUGOKU.EVE',
+    'C:/Programmieren/wizardrytranslation/extracted_busin1/IMAGE/EVENT/FUKAUMI.EVE',
+]
+
+msg_files = [
+    'C:/Programmieren/wizardrytranslation/extracted_busin1/IMAGE/EVENT/UEDA.MSG',
+    'C:/Programmieren/wizardrytranslation/extracted_busin1/IMAGE/EVENT/KYOUGOKU.MSG',
+    'C:/Programmieren/wizardrytranslation/extracted_busin1/IMAGE/EVENT/FUKAUMI.MSG',
+]
+
+print("=" * 80)
+print("EVE FILE ANALYSIS")
+print("=" * 80)
+
+# 1. File sizes comparison
+print("\n--- FILE SIZE COMPARISON ---")
+for e, m in zip(eve_files, msg_files):
+    esize = os.path.getsize(e)
+    msize = os.path.getsize(m)
+    ename = os.path.basename(e)
+    mname = os.path.basename(m)
+    print(f"  {ename}: {esize:6d} bytes    {mname}: {msize:6d} bytes    ratio EVE/MSG: {esize/msize:.2f}")
+
+# 2. Hex dumps of each EVE file
+for fpath in eve_files:
+    data = open(fpath, 'rb').read()
+    fname = os.path.basename(fpath)
+    fsize = len(data)
+    print(f"\n{'=' * 60}")
+    print(f"=== {fname} ({fsize} bytes) ===")
+    print(f"{'=' * 60}")
+
+    # Full hex dump in 512-byte chunks
+    for chunk_start in range(0, min(fsize, 6144), 512):
+        print(f"\n--- Bytes {chunk_start}-{chunk_start+512} ---")
+        print(hexdump(data, chunk_start, 512))
+
+    if fsize > 6144:
+        print(f"\n--- Last 512 bytes ---")
+        print(hexdump(data, max(0, fsize-512), 512))
+
+    # Byte frequency analysis
+    print(f"\n--- Byte Frequency (top 30) ---")
+    freq = Counter(data)
+    for byte_val, count in freq.most_common(30):
+        pct = count / fsize * 100
+        print(f"  0x{byte_val:02x} ({chr(byte_val) if 32 <= byte_val < 127 else '.'}): {count:4d} ({pct:5.1f}%)")
+
+    # 2-byte aligned word analysis
+    print(f"\n--- 2-byte aligned word analysis (LE uint16) ---")
+    hwords = []
+    for i in range(0, fsize - 1, 2):
+        h = struct.unpack_from('<H', data, i)[0]
+        hwords.append(h)
+    hword_freq = Counter(hwords)
+    print(f"  Total 2-byte words: {len(hwords)}")
+    print(f"  Unique 2-byte words: {len(hword_freq)}")
+    print(f"  Top 30 most common:")
+    for h, count in hword_freq.most_common(30):
+        print(f"    0x{h:04x} ({h:6d}): {count:4d} times")
+
+    # 4-byte aligned word analysis
+    print(f"\n--- 4-byte aligned word analysis (LE uint32) ---")
+    words = []
+    for i in range(0, fsize - 3, 4):
+        w = struct.unpack_from('<I', data, i)[0]
+        words.append(w)
+    word_freq = Counter(words)
+    print(f"  Total 4-byte words: {len(words)}")
+    print(f"  Unique 4-byte words: {len(word_freq)}")
+    print(f"  Top 20 most common:")
+    for w, count in word_freq.most_common(20):
+        print(f"    0x{w:08x} ({w:10d}): {count:4d} times")
+
+    # Small integer values at 2-byte boundaries
+    print(f"\n--- Small integer values at 2-byte boundaries (potential MSG indices) ---")
+    small_ints = []
+    for i in range(0, fsize - 1, 2):
+        h = struct.unpack_from('<H', data, i)[0]
+        if h < 200:
+            small_ints.append((i, h))
+    print(f"  Count of values 0-199: {len(small_ints)}")
+    if small_ints:
+        print(f"  First 80 occurrences:")
+        for offset, val in small_ints[:80]:
+            print(f"    offset 0x{offset:04x}: value {val}")
+
+    # Zero-byte runs
+    print(f"\n--- Zero-byte runs (>= 8 consecutive zeros) ---")
+    in_run = False
+    run_start = 0
+    for i in range(fsize):
+        if data[i] == 0:
+            if not in_run:
+                in_run = True
+                run_start = i
+        else:
+            if in_run and (i - run_start) >= 8:
+                print(f"  0x{run_start:04x} - 0x{i-1:04x} ({i - run_start} bytes)")
+            in_run = False
+    if in_run and (fsize - run_start) >= 8:
+        print(f"  0x{run_start:04x} - 0x{fsize-1:04x} ({fsize - run_start} bytes)")
+
+    # Header analysis
+    print(f"\n--- Header analysis (uint32 LE) ---")
+    print(f"  First 16 bytes: {' '.join(f'{data[i]:02x}' for i in range(min(16, fsize)))}")
+    for i in range(min(40, len(data) // 4)):
+        val = struct.unpack_from('<I', data, i*4)[0]
+        print(f"    uint32[{i:2d}] offset 0x{i*4:03x}: 0x{val:08x} ({val})")
+
+    # Scan for byte pattern 76 5a ('vZ')
+    vz_offsets = []
+    for i in range(fsize - 1):
+        if data[i] == 0x76 and data[i+1] == 0x5a:
+            vz_offsets.append(i)
+    print(f"\n  Pattern 0x76 0x5a ('vZ') found {len(vz_offsets)} times at offsets:")
+    for o in vz_offsets:
+        ctx = data[max(0,o-8):min(fsize,o+12)]
+        ctx_off = max(0, o-8)
+        print(f"    0x{o:04x}: context from 0x{ctx_off:04x}: {' '.join(f'{b:02x}' for b in ctx)}")
+
+    # Scan for potential opcode patterns - look for recurring byte at regular intervals
+    print(f"\n--- Byte value scan at 4-byte intervals (potential opcode field) ---")
+    for byte_pos in range(4):
+        vals = Counter()
+        for i in range(byte_pos, fsize, 4):
+            vals[data[i]] += 1
+        top5 = vals.most_common(5)
+        print(f"  Position {byte_pos} mod 4: top5 = {', '.join(f'0x{b:02x}({c})' for b,c in top5)}")
+
+print("\n" + "=" * 80)
+print("CROSS-REFERENCE ANALYSIS: EVE -> MSG")
+print("=" * 80)
+
+for efpath, mfpath in zip(eve_files, msg_files):
+    edata = open(efpath, 'rb').read()
+    mdata = open(mfpath, 'rb').read()
+    ename = os.path.basename(efpath)
+    mname = os.path.basename(mfpath)
+
+    print(f"\n--- {ename} -> {mname} ---")
+
+    # MSG header analysis
+    print(f"  MSG first 32 bytes: {' '.join(f'{mdata[i]:02x}' for i in range(min(32, len(mdata))))}")
+    print(f"  MSG size: {len(mdata)} bytes")
+
+    # EVE header - first 64 uint16 values
+    print(f"\n  EVE first 64 uint16 values (LE):")
+    for i in range(min(64, len(edata) // 2)):
+        val = struct.unpack_from('<H', edata, i*2)[0]
+        print(f"    [{i:2d}] offset 0x{i*2:03x}: 0x{val:04x} ({val})")
+
+    # Look for values that could be MSG entry indices
+    # Scan for sequential or near-sequential small numbers
+    print(f"\n  Potential MSG index sequences (consecutive small values):")
+    prev_val = -1
+    seq_start = -1
+    seq = []
+    for i in range(0, len(edata) - 1, 2):
+        val = struct.unpack_from('<H', edata, i)[0]
+        if val < 200:
+            if prev_val >= 0 and abs(val - prev_val) <= 3:
+                if not seq:
+                    seq = [(i-2, prev_val)]
+                seq.append((i, val))
+            else:
+                if len(seq) >= 3:
+                    print(f"    Sequence at {', '.join(f'0x{o:04x}={v}' for o,v in seq)}")
+                seq = []
+            prev_val = val
+        else:
+            if len(seq) >= 3:
+                print(f"    Sequence at {', '.join(f'0x{o:04x}={v}' for o,v in seq)}")
+            seq = []
+            prev_val = -1
+    if len(seq) >= 3:
+        print(f"    Sequence at {', '.join(f'0x{o:04x}={v}' for o,v in seq)}")
+
+print("\n" + "=" * 80)
+print("STRUCTURAL COMPARISON BETWEEN EVE FILES")
+print("=" * 80)
+
+all_data = {}
+for fpath in eve_files:
+    data = open(fpath, 'rb').read()
+    fname = os.path.basename(fpath)
+    all_data[fname] = data
+
+print("\n--- Header comparison (first 80 bytes as uint16 LE) ---")
+for fname, data in all_data.items():
+    vals = []
+    for i in range(min(40, len(data) // 2)):
+        v = struct.unpack_from('<H', data, i*2)[0]
+        vals.append(f'{v:04x}')
+    print(f"  {fname}: {' '.join(vals)}")
+
+print("\n--- Common byte values across all EVE files ---")
+for fname, data in all_data.items():
+    freq = Counter(data)
+    top15 = freq.most_common(15)
+    print(f"  {fname} top 15 bytes: {', '.join(f'0x{b:02x}({c})' for b,c in top15)}")
+
+# Compare specific patterns
+print("\n--- Pattern comparison: vZ (0x76 0x5a) occurrences ---")
+for fname, data in all_data.items():
+    count = 0
+    for i in range(len(data) - 1):
+        if data[i] == 0x76 and data[i+1] == 0x5a:
+            count += 1
+    print(f"  {fname}: {count} occurrences")

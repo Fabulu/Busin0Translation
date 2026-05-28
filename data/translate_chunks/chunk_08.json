@@ -1,0 +1,793 @@
+[
+  {
+    "resource": 48,
+    "message": 34,
+    "japanese": "使名店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 35,
+    "japanese": "ディスカウント店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 36,
+    "japanese": "よろず屋 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 37,
+    "japanese": "町のリサイクル店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 38,
+    "japanese": "街の不法投棄場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 39,
+    "japanese": "街のしょ理場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 40,
+    "japanese": "街のゴミ焼却場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 41,
+    "japanese": "街のゴミ持て場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 42,
+    "japanese": "悪とくマーケット / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 43,
+    "japanese": "ぼったくり器場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 44,
+    "japanese": "小屋 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 45,
+    "japanese": "ふつうの店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 46,
+    "japanese": "著名商店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 47,
+    "japanese": "街のリサイクル店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 48,
+    "japanese": "器の不法投棄場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 49,
+    "japanese": "器のしょ理場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 50,
+    "japanese": "器のゴミ焼却場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 51,
+    "japanese": "器のゴミ持て場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 52,
+    "japanese": "ぼったくりデパート / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 53,
+    "japanese": "マニアな店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 54,
+    "japanese": "信頼のおける店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 55,
+    "japanese": "専門店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 56,
+    "japanese": "スーパー / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 57,
+    "japanese": "低級マーケット / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 58,
+    "japanese": "器のリサイクル店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 59,
+    "japanese": "都の不法投棄場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 60,
+    "japanese": "都のしょ理場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 61,
+    "japanese": "都のゴミ焼却場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 62,
+    "japanese": "都のゴミ持て場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 63,
+    "japanese": "どろ棒器場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 64,
+    "japanese": "誰もが知る店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 65,
+    "japanese": "著名専門店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 66,
+    "japanese": "都のリサイクル店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 67,
+    "japanese": "戦の不法投棄場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 68,
+    "japanese": "戦のしょ理場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 69,
+    "japanese": "戦のゴミ焼却場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 70,
+    "japanese": "戦のゴミ持て場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 71,
+    "japanese": "自まんの名店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 72,
+    "japanese": "町の登所 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 73,
+    "japanese": "大手専門店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 74,
+    "japanese": "街の登所 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 75,
+    "japanese": "デパート / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 76,
+    "japanese": "戦のリサイクル店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 77,
+    "japanese": "大りくの不法投棄場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 78,
+    "japanese": "大りくのしょ理場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 79,
+    "japanese": "大りくのゴミ焼却場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 80,
+    "japanese": "大りくのゴミ持て場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 81,
+    "japanese": "悪とくデパート / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 82,
+    "japanese": "知る人ぞ知る店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 83,
+    "japanese": "品そろえのいい店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 84,
+    "japanese": "街のみやげ屋 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 85,
+    "japanese": "街のかん光名所 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 86,
+    "japanese": "戦の登所 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 87,
+    "japanese": "低級デパート / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 88,
+    "japanese": "低級リサイクル店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 89,
+    "japanese": "世界の不法投棄場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 90,
+    "japanese": "世界のしょ理場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 91,
+    "japanese": "世界のゴミ焼却場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 92,
+    "japanese": "世界のゴミ持て場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 93,
+    "japanese": "器のみやげ屋 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 94,
+    "japanese": "器のかん光名所 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 95,
+    "japanese": "世界の登所 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 96,
+    "japanese": "著名デパート / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 97,
+    "japanese": "世界のリサイクル店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 98,
+    "japanese": "地下の不法投棄場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 99,
+    "japanese": "地下のしょ理場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 100,
+    "japanese": "地下のゴミ焼却場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 101,
+    "japanese": "地下のゴミ持て場 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 102,
+    "japanese": "戦のみやげ屋 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 103,
+    "japanese": "戦のかん光名所 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 104,
+    "japanese": "地下の登所 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 105,
+    "japanese": "世界遺跡 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 48,
+    "message": 106,
+    "japanese": "地下のリサイクル店 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 0,
+    "japanese": "特に変わったところはない / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 1,
+    "japanese": "こちらからは開きそうにない / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 2,
+    "japanese": "もろくて崩れそうなカベだ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 3,
+    "japanese": "スイッチがoffになっている。 / スイッチをonにした  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 4,
+    "japanese": "スイッチがonになっている。 / スイッチをoffにした  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 5,
+    "japanese": "カギがかかっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 6,
+    "japanese": "団がつまれたトロッコがある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 7,
+    "japanese": "ハシが上がっていて通れない / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 8,
+    "japanese": "大きな岩で道がふさがれている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 9,
+    "japanese": "荷登が道をふさいでいる / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 10,
+    "japanese": "崩れた荷登が持てられている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 11,
+    "japanese": "古びたタルが放置されている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 12,
+    "japanese": "目の前にがい骨が転がっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 13,
+    "japanese": "足元にがい骨が転がっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 14,
+    "japanese": "がい骨がもたれかかっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 15,
+    "japanese": "女神の団像が飾られている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 16,
+    "japanese": "半部の欠けた団像が飾られている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 17,
+    "japanese": "タルが置かれている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 18,
+    "japanese": "壁がくずれている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 19,
+    "japanese": "くずれた壁で道がふさがれている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 20,
+    "japanese": "崩れた人形が持てられている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 21,
+    "japanese": "巨大な像がつるされている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 22,
+    "japanese": "巨大な像がつるされている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 23,
+    "japanese": "騎法像が置かれている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 24,
+    "japanese": "壁で道がふさがれている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 25,
+    "japanese": "変わった形の壁がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 26,
+    "japanese": "柵に何らかの装置がしかけられている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 27,
+    "japanese": "わき水がたまっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 28,
+    "japanese": "階段の先が行きどまりで上れない / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 29,
+    "japanese": "階段がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 30,
+    "japanese": "階段を動かすための装置がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 31,
+    "japanese": "大きなはかがたっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 32,
+    "japanese": "はかのとなりに何かの装置がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 33,
+    "japanese": "とび込めそうなほどに / 大きな穴が開いている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 34,
+    "japanese": "宝箱を開けますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 35,
+    "japanese": "宝箱はからっぽだった / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 36,
+    "japanese": "所持品がいっぱいです。 / 何か持てますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 37,
+    "japanese": "宝箱をあきらめました / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 38,
+    "japanese": "の罠がしかけられています。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 39,
+    "japanese": "アイテムを取りますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  }
+]

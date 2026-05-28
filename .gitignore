@@ -1,0 +1,53 @@
+# Large binary files - ISOs, disc images
+*.iso
+*.bin
+*.cue
+*.DIG
+*.zip
+
+# EXE binaries (patched copies)
+SLPM_653.78*
+build/SLPM_653.78*
+
+# Extracted game data (can re-extract from ISO)
+extracted/
+extracted_busin1/
+
+# RAM dumps
+RAMdumps/
+ee_memory_*.bin
+
+# Build artifacts - large generated files
+build/BUSIN0_EN*.iso
+build/PACKDATA*.DIG
+build/english_font_atlas.bin
+build/packdata_resources/
+build/packdata_resources_v3_backup/
+build/patched_type2/
+build/pcsx2_dumps/
+build/textures_to_edit/
+build/__pycache__/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Texture dumps
+texturedumps/
+dumps/
+
+# Release builds
+release/
+
+# Temp files
+*.tmp
+test123.txt
+build/test123.txt
+
+# Large reference files
+*.pdf
+*.png
+
+# popup-tent (framework, not project code)
+popup-tent/
+popup-tent.zip

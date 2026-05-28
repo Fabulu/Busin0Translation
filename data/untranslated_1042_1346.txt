@@ -1,0 +1,123 @@
+UNTRANSLATED MSG RESOURCES: 1042-1346 RANGE
+============================================================
+Date: 2026-05-22
+Total resources in "MSG" classification: 97
+Actual MSG resources (strict test): 0
+Compound/binary resources (GS packets, models, textures): 92
+Unknown: 5
+============================================================
+
+CRITICAL FINDING: The vast majority of resources in the 1042-1346
+range are NOT message/dialogue resources. They are PS2 Graphics
+Synthesizer (GS) packet data containing 3D models, textures,
+and level rendering data. The original classifier used a threshold
+of ffff>=5 and fffe>=3 which is far too loose for large binary files.
+
+RESOURCE CLASSIFICATION DETAILS
+------------------------------------------------------------
+
+=== ACTUAL MSG RESOURCES (0) ===
+
+=== COMPOUND/BINARY (92) ===
+  R1053: 1053_type03.bin (35,200B) - GS packet data: ratio=0.20 ffff=90 fffe=9 map=0.78 maxHiraRun=9
+  R1056: 1056_type02.bin (105,264B) - sub1=ratio=0.09 ffff=1943 fffe=142 map=0.74 maxHiraRun=2 sub2=ratio=0.06 ffff=694 fffe=11 map=0.75 maxHiraRun=0
+  R1058: 1058_type02.bin (207,568B) - sub1=ratio=0.06 ffff=1371 fffe=116 map=0.72 maxHiraRun=2 sub2=ratio=0.05 ffff=1779 fffe=28 map=0.80 maxHiraRun=1
+  R1060: 1060_type02.bin (202,528B) - sub1=ratio=0.07 ffff=1288 fffe=1 map=0.88 maxHiraRun=2 sub2=ratio=0.03 ffff=1611 fffe=20 map=0.90 maxHiraRun=6
+  R1062: 1062_type02.bin (226,256B) - sub1=ratio=0.01 ffff=61 fffe=0 map=0.70 maxHiraRun=2 sub2=ratio=0.03 ffff=1578 fffe=44 map=0.65 maxHiraRun=1
+  R1064: 1064_type02.bin (186,032B) - sub1=ratio=0.01 ffff=45 fffe=7 map=0.73 maxHiraRun=2 sub2=ratio=0.01 ffff=633 fffe=16 map=0.96 maxHiraRun=2
+  R1066: 1066_type02.bin (242,736B) - sub1=ratio=0.09 ffff=1267 fffe=13 map=0.71 maxHiraRun=2 sub2=ratio=0.03 ffff=2521 fffe=40 map=0.87 maxHiraRun=2
+  R1068: 1068_type02.bin (205,248B) - sub1=ratio=0.04 ffff=604 fffe=8 map=0.95 maxHiraRun=8 sub2=ratio=0.01 ffff=512 fffe=0 map=0.69 maxHiraRun=1
+  R1070: 1070_type02.bin (244,432B) - sub1=ratio=0.02 ffff=663 fffe=12 map=0.71 maxHiraRun=2 sub2=ratio=0.01 ffff=544 fffe=3 map=0.76 maxHiraRun=1
+  R1072: 1072_type02.bin (110,512B) - sub1=ratio=0.20 ffff=3398 fffe=7 map=0.72 maxHiraRun=2 sub2=ratio=0.06 ffff=630 fffe=23 map=0.75 maxHiraRun=2
+  R1074: 1074_type02.bin (160,816B) - sub1=ratio=0.03 ffff=325 fffe=33 map=0.78 maxHiraRun=2 sub2=ratio=0.03 ffff=761 fffe=20 map=0.73 maxHiraRun=1
+  R1076: 1076_type02.bin (237,392B) - sub1=ratio=0.01 ffff=56 fffe=0 map=0.70 maxHiraRun=2 sub2=ratio=0.08 ffff=5752 fffe=83 map=0.79 maxHiraRun=1
+  R1078: 1078_type02.bin (154,416B) - sub1=ratio=0.13 ffff=1795 fffe=17 map=0.79 maxHiraRun=2 sub2=ratio=0.29 ffff=15352 fffe=179 map=0.82 maxHiraRun=1
+  R1080: 1080_type02.bin (114,608B) - sub1=ratio=0.07 ffff=1004 fffe=17 map=0.75 maxHiraRun=18 sub2=ratio=0.00 ffff=0 fffe=0 map=0.82 maxHiraRun=1
+  R1082: 1082_type02.bin (129,840B) - sub1=ratio=0.01 ffff=24 fffe=0 map=0.75 maxHiraRun=2 sub2=ratio=0.02 ffff=166 fffe=43 map=0.74 maxHiraRun=1
+  R1084: 1084_type02.bin (373,712B) - sub1=ratio=0.18 ffff=6316 fffe=632 map=0.85 maxHiraRun=26 sub2=ratio=0.04 ffff=1523 fffe=52 map=0.84 maxHiraRun=11
+  R1088: 1088_type02.bin (184,768B) - sub1=ratio=0.01 ffff=176 fffe=21 map=0.70 maxHiraRun=2 sub2=ratio=0.00 ffff=3 fffe=2 map=0.85 maxHiraRun=2
+  R1090: 1090_type02.bin (242,736B) - sub1=ratio=0.23 ffff=4976 fffe=311 map=0.79 maxHiraRun=2 sub2=ratio=0.18 ffff=8739 fffe=756 map=0.86 maxHiraRun=2
+  R1092: 1092_type02.bin (329,184B) - sub1=ratio=0.23 ffff=1146 fffe=33 map=0.71 maxHiraRun=2 sub2=ratio=0.21 ffff=19284 fffe=959 map=0.86 maxHiraRun=5
+  R1094: 1094_type02.bin (186,032B) - sub1=ratio=0.24 ffff=9965 fffe=8 map=0.81 maxHiraRun=2 sub2=ratio=0.17 ffff=4103 fffe=355 map=0.95 maxHiraRun=2
+  R1096: 1096_type02.bin (245,840B) - sub1=ratio=0.04 ffff=64 fffe=0 map=0.68 maxHiraRun=2 sub2=ratio=0.01 ffff=170 fffe=22 map=0.90 maxHiraRun=2
+  R1100: 1100_type02.bin (339,696B) - sub1=ratio=0.03 ffff=88 fffe=0 map=0.83 maxHiraRun=2 sub2=ratio=0.03 ffff=568 fffe=261 map=0.82 maxHiraRun=9
+  R1104: 1104_type01.bin (290,512B) - GS packet data: ratio=0.11 ffff=7497 fffe=384 map=0.84 maxHiraRun=3
+  R1106: 1106_type02.bin (369,488B) - sub1=ratio=0.21 ffff=1830 fffe=8 map=0.81 maxHiraRun=2 sub2=ratio=0.03 ffff=1022 fffe=151 map=0.80 maxHiraRun=4
+  R1108: 1108_type02.bin (195,632B) - sub1=ratio=0.05 ffff=556 fffe=25 map=0.93 maxHiraRun=2 sub2=ratio=0.04 ffff=860 fffe=138 map=0.85 maxHiraRun=1
+  R1110: 1110_type02.bin (40,352B) - sub1=ratio=0.03 ffff=12 fffe=0 map=0.63 maxHiraRun=2 sub2=ratio=0.01 ffff=23 fffe=5 map=0.85 maxHiraRun=1
+  R1112: 1112_type02.bin (301,248B) - sub1=ratio=0.08 ffff=3257 fffe=447 map=0.86 maxHiraRun=3 sub2=ratio=0.07 ffff=1135 fffe=175 map=0.84 maxHiraRun=1
+  R1114: 1114_type01.bin (22,816B) - GS packet data: ratio=0.05 ffff=303 fffe=11 map=0.61 maxHiraRun=2
+  R1116: 1116_type02.bin (267,840B) - sub1=ratio=0.04 ffff=286 fffe=14 map=0.81 maxHiraRun=2 sub2=ratio=0.03 ffff=637 fffe=140 map=0.80 maxHiraRun=2
+  R1118: 1118_type02.bin (22,816B) - GS packet data: ratio=0.05 ffff=303 fffe=11 map=0.62 maxHiraRun=2
+  R1120: 1120_type02.bin (252,720B) - sub1=ratio=0.15 ffff=1945 fffe=62 map=0.82 maxHiraRun=2 sub2=ratio=0.13 ffff=8208 fffe=260 map=0.77 maxHiraRun=3
+  R1122: 1122_type01.bin (33,312B) - GS packet data: ratio=0.04 ffff=311 fffe=11 map=0.60 maxHiraRun=2
+  R1124: 1124_type02.bin (242,640B) - sub1=ratio=0.02 ffff=60 fffe=0 map=0.69 maxHiraRun=2 sub2=ratio=0.01 ffff=17 fffe=9 map=0.78 maxHiraRun=1
+  R1126: 1126_type02.bin (168,480B) - sub1=ratio=0.01 ffff=50 fffe=22 map=0.76 maxHiraRun=2 sub2=ratio=0.02 ffff=79 fffe=48 map=0.82 maxHiraRun=5
+  R1128: 1128_type02.bin (49,696B) - GS packet data: ratio=0.08 ffff=1061 fffe=95 map=0.70 maxHiraRun=2
+  R1130: 1130_type06.bin (68,800B) - sub1=ratio=0.04 ffff=36 fffe=0 map=0.60 maxHiraRun=2 sub2=ratio=0.05 ffff=744 fffe=50 map=0.91 maxHiraRun=2
+  R1134: 1134_type02.bin (239,440B) - sub1=ratio=0.29 ffff=6269 fffe=212 map=0.92 maxHiraRun=3 sub2=ratio=0.19 ffff=9729 fffe=540 map=0.85 maxHiraRun=5
+  R1136: 1136_type05.bin (66,720B) - sub1=ratio=0.40 ffff=803 fffe=27 map=0.83 maxHiraRun=2 sub2=ratio=0.41 ffff=10197 fffe=292 map=0.79 maxHiraRun=4
+  R1138: 1138_type01.bin (330,336B) - GS packet data: ratio=0.03 ffff=647 fffe=283 map=0.80 maxHiraRun=6
+  R1142: 1142_type02.bin (202,800B) - GS packet data: ratio=0.02 ffff=1213 fffe=28 map=0.77 maxHiraRun=2
+  R1144: 1144_type03.bin (66,720B) - sub1=ratio=0.67 ffff=723 fffe=1 map=0.81 maxHiraRun=3 sub2=ratio=0.57 ffff=13144 fffe=70 map=0.67 maxHiraRun=3
+  R1146: 1146_type02.bin (189,136B) - sub1=ratio=0.09 ffff=1341 fffe=4 map=0.80 maxHiraRun=2 sub2=ratio=0.02 ffff=122 fffe=24 map=0.92 maxHiraRun=6
+  R1148: 1148_type02.bin (75,696B) - sub1=ratio=0.18 ffff=2486 fffe=308 map=0.72 maxHiraRun=2 sub2=ratio=0.06 ffff=209 fffe=41 map=1.00 maxHiraRun=1
+  R1179: 1179_type18.bin (338,480B) - sub1=ratio=0.03 ffff=100 fffe=19 map=0.81 maxHiraRun=16 sub2=ratio=0.03 ffff=7 fffe=2 map=0.88 maxHiraRun=5
+  R1181: 1181_type12.bin (338,480B) - sub1=ratio=0.03 ffff=100 fffe=19 map=0.81 maxHiraRun=16 sub2=ratio=0.03 ffff=7 fffe=2 map=0.88 maxHiraRun=5
+  R1183: 1183_type07.bin (447,696B) - sub1=ratio=0.03 ffff=76 fffe=1 map=0.76 maxHiraRun=5 sub2=ratio=0.02 ffff=219 fffe=26 map=0.81 maxHiraRun=17
+  R1185: 1185_type08.bin (302,128B) - sub1=ratio=0.07 ffff=37 fffe=3 map=0.78 maxHiraRun=17 sub2=ratio=0.05 ffff=3 fffe=0 map=0.94 maxHiraRun=30
+  R1187: 1187_type02.bin (332,320B) - sub1=ratio=0.42 ffff=14310 fffe=8 map=0.77 maxHiraRun=2 sub2=ratio=0.01 ffff=0 fffe=8 map=0.86 maxHiraRun=2
+  R1216: 1216_type01.bin (263,360B) - GS packet data: ratio=0.09 ffff=10 fffe=9 map=0.84 maxHiraRun=130
+  R1221: 1221_type01.bin (263,360B) - GS packet data: ratio=0.29 ffff=31 fffe=8 map=0.95 maxHiraRun=266
+  R1226: 1226_type01.bin (263,360B) - GS packet data: ratio=0.11 ffff=14 fffe=9 map=0.81 maxHiraRun=34
+  R1229: 1229_type01.bin (263,360B) - GS packet data: ratio=0.07 ffff=7 fffe=5 map=0.74 maxHiraRun=48
+  R1231: 1231_type01.bin (132,288B) - GS packet data: ratio=0.11 ffff=14 fffe=4 map=0.63 maxHiraRun=6
+  R1233: 1233_type01.bin (132,288B) - GS packet data: ratio=0.05 ffff=29 fffe=5 map=0.66 maxHiraRun=2
+  R1234: 1234_type01.bin (263,360B) - GS packet data: ratio=0.06 ffff=17 fffe=17 map=0.66 maxHiraRun=4
+  R1237: 1237_type01.bin (132,288B) - GS packet data: ratio=0.04 ffff=5 fffe=3 map=0.61 maxHiraRun=2
+  R1241: 1241_type01.bin (132,288B) - GS packet data: ratio=0.04 ffff=10 fffe=22 map=0.66 maxHiraRun=3
+  R1244: 1244_type01.bin (132,288B) - GS packet data: ratio=0.07 ffff=10 fffe=5 map=0.83 maxHiraRun=17
+  R1246: 1246_type01.bin (132,288B) - GS packet data: ratio=0.04 ffff=13 fffe=8 map=0.65 maxHiraRun=2
+  R1254: 1254_type01.bin (132,288B) - GS packet data: ratio=0.11 ffff=9 fffe=8 map=0.62 maxHiraRun=2
+  R1255: 1255_type01.bin (263,360B) - GS packet data: ratio=0.07 ffff=79 fffe=16 map=0.81 maxHiraRun=97
+  R1259: 1259_type01.bin (132,288B) - GS packet data: ratio=0.07 ffff=83 fffe=45 map=0.82 maxHiraRun=209
+  R1263: 1263_type01.bin (132,288B) - GS packet data: ratio=0.07 ffff=28 fffe=16 map=0.74 maxHiraRun=5
+  R1266: 1266_type01.bin (132,288B) - GS packet data: ratio=0.04 ffff=27 fffe=14 map=0.73 maxHiraRun=8
+  R1272: 1272_type01.bin (65,792B) - GS packet data: ratio=0.74 ffff=22512 fffe=254 map=0.85 maxHiraRun=2
+  R1277: 1277_type01.bin (263,360B) - GS packet data: ratio=0.14 ffff=8 fffe=41 map=0.91 maxHiraRun=450
+  R1279: 1279_type01.bin (263,328B) - GS packet data: ratio=0.71 ffff=90930 fffe=1731 map=0.72 maxHiraRun=2
+  R1280: 1280_type01.bin (263,328B) - GS packet data: ratio=0.59 ffff=74604 fffe=512 map=0.72 maxHiraRun=2
+  R1281: 1281_type01.bin (132,256B) - GS packet data: ratio=0.13 ffff=7190 fffe=1159 map=0.73 maxHiraRun=2
+  R1282: 1282_type01.bin (132,256B) - GS packet data: ratio=0.16 ffff=9307 fffe=918 map=0.71 maxHiraRun=2
+  R1284: 1284_type01.bin (263,328B) - GS packet data: ratio=0.67 ffff=84133 fffe=998 map=0.77 maxHiraRun=2
+  R1285: 1285_type01.bin (263,328B) - GS packet data: ratio=0.76 ffff=93213 fffe=877 map=0.94 maxHiraRun=2
+  R1287: 1287_type01.bin (263,328B) - GS packet data: ratio=0.62 ffff=81217 fffe=362 map=0.73 maxHiraRun=2
+  R1288: 1288_type01.bin (263,328B) - GS packet data: ratio=0.47 ffff=57800 fffe=1982 map=0.75 maxHiraRun=2
+  R1289: 1289_type01.bin (263,328B) - GS packet data: ratio=0.64 ffff=79903 fffe=2079 map=0.89 maxHiraRun=2
+  R1302: 1302_type01.bin (263,360B) - GS packet data: ratio=0.06 ffff=30 fffe=20 map=0.72 maxHiraRun=2
+  R1312: 1312_type01.bin (132,288B) - GS packet data: ratio=0.11 ffff=9 fffe=5 map=0.63 maxHiraRun=4
+  R1314: 1314_type01.bin (263,328B) - GS packet data: ratio=0.06 ffff=6 fffe=3 map=0.86 maxHiraRun=19
+  R1324: 1324_type01.bin (263,328B) - GS packet data: ratio=0.07 ffff=23 fffe=3 map=0.91 maxHiraRun=41
+  R1325: 1325_type01.bin (263,360B) - GS packet data: ratio=0.02 ffff=31 fffe=23 map=0.91 maxHiraRun=10
+  R1326: 1326_type01.bin (263,360B) - GS packet data: ratio=0.03 ffff=859 fffe=206 map=0.86 maxHiraRun=18
+  R1330: 1330_type01.bin (263,360B) - GS packet data: ratio=0.21 ffff=25 fffe=12 map=0.99 maxHiraRun=167
+  R1331: 1331_type01.bin (263,360B) - GS packet data: ratio=0.10 ffff=49 fffe=55 map=0.98 maxHiraRun=33
+  R1332: 1332_type01.bin (263,360B) - GS packet data: ratio=0.14 ffff=9 fffe=6 map=0.96 maxHiraRun=40
+  R1333: 1333_type01.bin (263,360B) - GS packet data: ratio=0.10 ffff=5 fffe=3 map=0.99 maxHiraRun=53
+  R1334: 1334_type01.bin (263,360B) - GS packet data: ratio=0.04 ffff=449 fffe=197 map=0.98 maxHiraRun=32
+  R1340: 1340_type01.bin (263,360B) - GS packet data: ratio=0.02 ffff=660 fffe=133 map=0.92 maxHiraRun=8
+  R1341: 1341_type01.bin (263,360B) - GS packet data: ratio=0.05 ffff=713 fffe=138 map=0.94 maxHiraRun=19
+  R1342: 1342_type01.bin (263,360B) - GS packet data: ratio=0.09 ffff=161 fffe=40 map=0.97 maxHiraRun=34
+  R1343: 1343_type01.bin (263,360B) - GS packet data: ratio=0.03 ffff=874 fffe=235 map=0.91 maxHiraRun=22
+  R1345: 1345_type01.bin (263,360B) - GS packet data: ratio=0.07 ffff=5 fffe=4 map=0.94 maxHiraRun=146
+  R1346: 1346_type01.bin (263,360B) - GS packet data: ratio=0.04 ffff=16 fffe=32 map=0.98 maxHiraRun=96
+
+=== UNKNOWN (5) ===
+  R1042: 1042_type04.bin (938,764B) - ratio=0.11 ffff=28 fffe=4 map=0.70 maxHiraRun=3
+  R1161: 1161_type01.bin (73,268B) - ratio=0.94 ffff=163 fffe=18 map=0.56 maxHiraRun=1
+  R1178: 1178_type57.bin (938,764B) - ratio=0.11 ffff=28 fffe=4 map=0.70 maxHiraRun=3
+  R1180: 1180_type59.bin (938,764B) - ratio=0.11 ffff=28 fffe=4 map=0.70 maxHiraRun=3
+  R1186: 1186_type20.bin (500,328B) - ratio=0.10 ffff=6 fffe=9 map=0.70 maxHiraRun=3
+
+NO ACTUAL MSG RESOURCES FOUND IN THIS RANGE.
+All 97 resources classified as "MSG" are actually binary data.

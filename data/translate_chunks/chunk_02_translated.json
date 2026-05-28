@@ -1,0 +1,680 @@
+[
+  {
+    "resource": 38,
+    "message": 12,
+    "japanese": "条果 / ",
+    "english": "Alignment / "
+  },
+  {
+    "resource": 38,
+    "message": 13,
+    "japanese": "職業 / ",
+    "english": "Class / "
+  },
+  {
+    "resource": 38,
+    "message": 14,
+    "japanese": "果性 / ",
+    "english": "Gender / "
+  },
+  {
+    "resource": 38,
+    "message": 15,
+    "japanese": "騎事務騎法 / ",
+    "english": "Sorcery / "
+  },
+  {
+    "resource": 38,
+    "message": 16,
+    "japanese": "神聖騎法 / ",
+    "english": "Holy Magic / "
+  },
+  {
+    "resource": 38,
+    "message": 17,
+    "japanese": "能力値 / ",
+    "english": "Attributes / "
+  },
+  {
+    "resource": 38,
+    "message": 18,
+    "japanese": "lｖ１ / ",
+    "english": "Lv1 / "
+  },
+  {
+    "resource": 38,
+    "message": 19,
+    "japanese": "lｖ２ / ",
+    "english": "Lv2 / "
+  },
+  {
+    "resource": 38,
+    "message": 20,
+    "japanese": "lｖ３ / ",
+    "english": "Lv3 / "
+  },
+  {
+    "resource": 38,
+    "message": 21,
+    "japanese": "lｖ４ / ",
+    "english": "Lv4 / "
+  },
+  {
+    "resource": 38,
+    "message": 22,
+    "japanese": "lｖ５ / ",
+    "english": "Lv5 / "
+  },
+  {
+    "resource": 38,
+    "message": 23,
+    "japanese": "lｖ６ / ",
+    "english": "Lv6 / "
+  },
+  {
+    "resource": 38,
+    "message": 24,
+    "japanese": "lｖ７ / ",
+    "english": "Lv7 / "
+  },
+  {
+    "resource": 38,
+    "message": 27,
+    "japanese": "イオ / ",
+    "english": "Io / "
+  },
+  {
+    "resource": 38,
+    "message": 28,
+    "japanese": "エウロパ / ",
+    "english": "Europa / "
+  },
+  {
+    "resource": 38,
+    "message": 29,
+    "japanese": "人壁 / ",
+    "english": "Human / "
+  },
+  {
+    "resource": 38,
+    "message": 30,
+    "japanese": "エルフ / ",
+    "english": "Elf / "
+  },
+  {
+    "resource": 38,
+    "message": 31,
+    "japanese": "ノーム / ",
+    "english": "Gnome / "
+  },
+  {
+    "resource": 38,
+    "message": 32,
+    "japanese": "ドワーフ / ",
+    "english": "Dwarf / "
+  },
+  {
+    "resource": 38,
+    "message": 33,
+    "japanese": "ホビット / ",
+    "english": "Hobbit / "
+  },
+  {
+    "resource": 38,
+    "message": 34,
+    "japanese": "オートマター / ",
+    "english": "Automata / "
+  },
+  {
+    "resource": 38,
+    "message": 37,
+    "japanese": "戦士 / ",
+    "english": "Fighter / "
+  },
+  {
+    "resource": 38,
+    "message": 38,
+    "japanese": "盗賊 / ",
+    "english": "Thief / "
+  },
+  {
+    "resource": 38,
+    "message": 39,
+    "japanese": "騎事務 / ",
+    "english": "Mage / "
+  },
+  {
+    "resource": 38,
+    "message": 40,
+    "japanese": "神聖 / ",
+    "english": "Priest / "
+  },
+  {
+    "resource": 38,
+    "message": 41,
+    "japanese": "忍者 / ",
+    "english": "Ninja / "
+  },
+  {
+    "resource": 38,
+    "message": 43,
+    "japanese": "集教 / ",
+    "english": "Bishop / "
+  },
+  {
+    "resource": 38,
+    "message": 44,
+    "japanese": "兵士 / ",
+    "english": "Samurai / "
+  },
+  {
+    "resource": 38,
+    "message": 45,
+    "japanese": "冒金事務 / ",
+    "english": "Alchemist / "
+  },
+  {
+    "resource": 38,
+    "message": 46,
+    "japanese": "義賊 / ",
+    "english": "Gizoku / "
+  },
+  {
+    "resource": 38,
+    "message": 47,
+    "japanese": "モンク / ",
+    "english": "Monk / "
+  },
+  {
+    "resource": 38,
+    "message": 48,
+    "japanese": "聖兵士 / ",
+    "english": "Paladin / "
+  },
+  {
+    "resource": 38,
+    "message": 49,
+    "japanese": "暗兵士 / ",
+    "english": "Dark Knight / "
+  },
+  {
+    "resource": 38,
+    "message": 50,
+    "japanese": "将後 / ",
+    "english": "Shogun / "
+  },
+  {
+    "resource": 38,
+    "message": 51,
+    "japanese": "教授 / ",
+    "english": "Knight / "
+  },
+  {
+    "resource": 38,
+    "message": 52,
+    "japanese": "美盗 / ",
+    "english": "High Thief / "
+  },
+  {
+    "resource": 38,
+    "message": 53,
+    "japanese": "飽き果 / ",
+    "english": "Omnitsu / "
+  },
+  {
+    "resource": 38,
+    "message": 55,
+    "japanese": "れ全費 / ",
+    "english": "Wasteful / "
+  },
+  {
+    "resource": 38,
+    "message": 56,
+    "japanese": "孤独 / ",
+    "english": "Lonely / "
+  },
+  {
+    "resource": 38,
+    "message": 57,
+    "japanese": "社交的 / ",
+    "english": "Sociable / "
+  },
+  {
+    "resource": 38,
+    "message": 58,
+    "japanese": "収集家 / ",
+    "english": "Collector / "
+  },
+  {
+    "resource": 38,
+    "message": 59,
+    "japanese": "慎重 / ",
+    "english": "Cautious / "
+  },
+  {
+    "resource": 38,
+    "message": 60,
+    "japanese": "与蓄家 / ",
+    "english": "Hoarder / "
+  },
+  {
+    "resource": 38,
+    "message": 61,
+    "japanese": "知的 / ",
+    "english": "Intellectual / "
+  },
+  {
+    "resource": 38,
+    "message": 62,
+    "japanese": "好戦的 / ",
+    "english": "Belligerent / "
+  },
+  {
+    "resource": 38,
+    "message": 63,
+    "japanese": "冒険家 / ",
+    "english": "Adventurous / "
+  },
+  {
+    "resource": 38,
+    "message": 64,
+    "japanese": "迷信家 / ",
+    "english": "Superstitious / "
+  },
+  {
+    "resource": 38,
+    "message": 65,
+    "japanese": "勤勉務 / ",
+    "english": "Studious / "
+  },
+  {
+    "resource": 38,
+    "message": 66,
+    "japanese": "効向け / ",
+    "english": "Pusillanimous / "
+  },
+  {
+    "resource": 38,
+    "message": 67,
+    "japanese": "エコロジスト / ",
+    "english": "Ecologist / "
+  },
+  {
+    "resource": 38,
+    "message": 68,
+    "japanese": "乙女心 / ",
+    "english": "Maiden Heart / "
+  },
+  {
+    "resource": 38,
+    "message": 69,
+    "japanese": "重腕漢 / ",
+    "english": "Hot-Blooded / "
+  },
+  {
+    "resource": 38,
+    "message": 70,
+    "japanese": "多義感 / ",
+    "english": "Just / "
+  },
+  {
+    "resource": 38,
+    "message": 71,
+    "japanese": "勤ち気 / ",
+    "english": "Determined / "
+  },
+  {
+    "resource": 38,
+    "message": 72,
+    "japanese": "協力的 / ",
+    "english": "Cooperative / "
+  },
+  {
+    "resource": 38,
+    "message": 73,
+    "japanese": "友愛 / ",
+    "english": "Fraternal / "
+  },
+  {
+    "resource": 38,
+    "message": 74,
+    "japanese": "短気 / ",
+    "english": "Short-Tempered / "
+  },
+  {
+    "resource": 38,
+    "message": 75,
+    "japanese": "エコノミスト / ",
+    "english": "Economist / "
+  },
+  {
+    "resource": 38,
+    "message": 76,
+    "japanese": "好色 / ",
+    "english": "Lustful / "
+  },
+  {
+    "resource": 38,
+    "message": 77,
+    "japanese": "ナルシスト / ",
+    "english": "Narcissist / "
+  },
+  {
+    "resource": 38,
+    "message": 78,
+    "japanese": "気分屋 / ",
+    "english": "Moody / "
+  },
+  {
+    "resource": 38,
+    "message": 79,
+    "japanese": "自己的 / ",
+    "english": "Sadist / "
+  },
+  {
+    "resource": 38,
+    "message": 80,
+    "japanese": "種族愛 / ",
+    "english": "Tribal Love / "
+  },
+  {
+    "resource": 38,
+    "message": 81,
+    "japanese": "大胆 / ",
+    "english": "Bold / "
+  },
+  {
+    "resource": 38,
+    "message": 82,
+    "japanese": "除味家 / ",
+    "english": "Stupid / "
+  },
+  {
+    "resource": 38,
+    "message": 83,
+    "japanese": "獲得力 / ",
+    "english": "Attack / "
+  },
+  {
+    "resource": 38,
+    "message": 84,
+    "japanese": "命中果 / ",
+    "english": "Accuracy / "
+  },
+  {
+    "resource": 38,
+    "message": 85,
+    "japanese": "解消力 / ",
+    "english": "Defense / "
+  },
+  {
+    "resource": 38,
+    "message": 86,
+    "japanese": "回避果 / ",
+    "english": "Evasion / "
+  },
+  {
+    "resource": 38,
+    "message": 87,
+    "japanese": "何でもすぐ飽きる。迷宮探索も同じ。 / 長受壁街に帰らないと消嫌が悪くなる。 / ",
+    "english": "Gets bored easily. / Must return to town / often or mood drops. / "
+  },
+  {
+    "resource": 38,
+    "message": 88,
+    "japanese": "臆的な士に敏感なので、死神を見ただけで / ふるえあがる。 / ",
+    "english": "Sensitive to spirits. / Trembles at the / sight of Death. / "
+  },
+  {
+    "resource": 38,
+    "message": 89,
+    "japanese": "金をためることに全てをかける。わざわざ / 迷宮を探索して、稼ぎが少ないと城る。 / ",
+    "english": "Lives to hoard gold. / Gets angry if loot / is too scarce. / "
+  },
+  {
+    "resource": 38,
+    "message": 90,
+    "japanese": "人ごみや大人数での行動は苦手。 / 少人数でひっそり行動する方が落ち着く。 / ",
+    "english": "Dislikes crowds and / large groups. Calmer / in small parties. / "
+  },
+  {
+    "resource": 38,
+    "message": 91,
+    "japanese": "いつも大同の者との交進を方む。 / 少人数の大しいパーティは嫌い。 / ",
+    "english": "Enjoys socializing / in large groups. / Hates small parties. / "
+  },
+  {
+    "resource": 38,
+    "message": 92,
+    "japanese": "宝士に目がない。 / アイテム収集が人生のテーマ。 / ",
+    "english": "Can't resist loot. / Item collecting is / their life's goal. / "
+  },
+  {
+    "resource": 38,
+    "message": 93,
+    "japanese": "使理のある冒険・戦箱をする者とは / 欠け編えないと思っている。 / ",
+    "english": "Believes reckless / adventurers can't / be trusted. / "
+  },
+  {
+    "resource": 38,
+    "message": 94,
+    "japanese": "騎士の生態に解い関心を持っている。 / 騎士を見つけて調べるのが大好き。 / ",
+    "english": "Deeply interested in / monster biology. / Loves to study them. / "
+  },
+  {
+    "resource": 38,
+    "message": 95,
+    "japanese": "神秘的な力は有対だと信じており、 / 騎法の知鑑が高まると幸せに感じる。 / ",
+    "english": "Believes in mystic / power. Happy when / magic knowledge grows. / "
+  },
+  {
+    "resource": 38,
+    "message": 96,
+    "japanese": "腕の気が聞く、通に解者との箱いを / 求めている。 / ",
+    "english": "A skilled warrior / who seeks battle with / strong opponents. / "
+  },
+  {
+    "resource": 38,
+    "message": 97,
+    "japanese": "冒険者が、冒険に出なければ払用がないと / 思っている。冒険できないとつらい。 / ",
+    "english": "An adventurer must / adventure. Staying / idle is unbearable. / "
+  },
+  {
+    "resource": 38,
+    "message": 98,
+    "japanese": "突然の出来頼に対して敏感に違応する。 / ",
+    "english": "Reacts keenly to / sudden events. / "
+  },
+  {
+    "resource": 38,
+    "message": 99,
+    "japanese": "トラップ殿解にムキになる。隊失すると / 消嫌がいいが成功するとひどく落ちこむ。 / ",
+    "english": "Obsessed with traps. / Happy on success, / crushed on failure. / "
+  },
+  {
+    "resource": 38,
+    "message": 100,
+    "japanese": "気が探く、長く迷宮にいると不安になる。 / 不死族はこの世から除えてほしい。 / ",
+    "english": "Anxious in dungeons / too long. Wishes the / undead would vanish. / "
+  },
+  {
+    "resource": 38,
+    "message": 101,
+    "japanese": "リサイクル言神を大切にしている。 / まだ使える士を持てるなどもってのほか。 / ",
+    "english": "Values recycling. / Hates discarding / usable items. / "
+  },
+  {
+    "resource": 38,
+    "message": 102,
+    "japanese": "乙女の高い絆があれば、 / つらい箱いでも余計な男はいらない。 / ",
+    "english": "With maiden bonds, / no need for men / even in hard fights. / "
+  },
+  {
+    "resource": 38,
+    "message": 103,
+    "japanese": "箱いの世界に女は使息と考えている。 / ",
+    "english": "Believes women have / no place in battle. / "
+  },
+  {
+    "resource": 38,
+    "message": 104,
+    "japanese": "話え騎士であっても戦払のない友好的な / 騎士をむやみに殺傷するのは許せない。 / ",
+    "english": "Cannot forgive those / who slay friendly, / non-hostile monsters. / "
+  },
+  {
+    "resource": 38,
+    "message": 105,
+    "japanese": "騎士をかたっぱしから殺すのが生きがい。 / 逃げるなどといった除卑的な行動を嫌う。 / ",
+    "english": "Lives to slay every / monster. Despises / cowardly retreat. / "
+  },
+  {
+    "resource": 38,
+    "message": 106,
+    "japanese": "パーティとしての行動を重んじる。自分が / 単独で何かをするような魔鉄は嫌い。 / ",
+    "english": "Values party action. / Dislikes doing / things solo. / "
+  },
+  {
+    "resource": 38,
+    "message": 107,
+    "japanese": "戦いを嫌い、■血を方む。 / 戦友が死んだ受などはひどく落ち込む。 / ",
+    "english": "Hates fighting and / bloodshed. Deeply / mourns fallen allies. / "
+  },
+  {
+    "resource": 38,
+    "message": 108,
+    "japanese": "とても気が短いので、いつまでもだらだら / 続く戦箱はイライラしている。 / ",
+    "english": "Very short-tempered. / Long, drawn-out / battles are maddening. / "
+  },
+  {
+    "resource": 38,
+    "message": 109,
+    "japanese": "生まれつき商人気質があり、商売などに / 解い関心をもっている。 / ",
+    "english": "Born with a merchant / spirit. Deeply into / business and trade. / "
+  },
+  {
+    "resource": 38,
+    "message": 110,
+    "japanese": "取果に解い関心を持っている。 / 同果ばかりのパーティに御用がない。 / ",
+    "english": "Keen interest in the / opposite sex. Bored / by same-sex parties. / "
+  },
+  {
+    "resource": 38,
+    "message": 111,
+    "japanese": "自分はこの世でいちばん美しいと信じる。 / 美しい自分が傷ついたりするとショック。 / ",
+    "english": "Believes they are / the most beautiful. / Shocked when harmed. / "
+  },
+  {
+    "resource": 38,
+    "message": 112,
+    "japanese": "とつぜん振んだかと思えば、今度は経に / 城ったり、つかみどころのない果性。 / ",
+    "english": "Happy one moment, / angry the next. An / unpredictable nature. / "
+  },
+  {
+    "resource": 38,
+    "message": 113,
+    "japanese": "自分が苦しい立場であればあるほど振ぶ。 / 体の取通ををされるのはかえってつらい。 / ",
+    "english": "Thrives in hardship. / Being healed or / helped feels worse. / "
+  },
+  {
+    "resource": 38,
+    "message": 114,
+    "japanese": "同種族の者に対する仲壁払鑑が解い。 / 異種族との交進を全く方まない。 / ",
+    "english": "Deep bond with own / race. Wants nothing / to do with others. / "
+  },
+  {
+    "resource": 38,
+    "message": 115,
+    "japanese": "何も考えていない。何でもいい。誰かが / 振べば一緒に振ぶ、城れば一緒に城る。 / ",
+    "english": "Thinks of nothing. / If others are happy, / they're happy too. / "
+  },
+  {
+    "resource": 38,
+    "message": 116,
+    "japanese": "何でも持っているものは著消活息すべき。 / 宝のもちぐされは許せない。 / ",
+    "english": "Use everything you / own. Hoarding loot / is unforgivable. / "
+  },
+  {
+    "resource": 38,
+    "message": 117,
+    "japanese": "果別によって、個人の基仲能力値と隊長が取なります。 / 男果は力解く、女果は知的に隊長していきます。 / ",
+    "english": "Gender affects base / stats and growth. / Men are strong, / women are wise. / "
+  },
+  {
+    "resource": 38,
+    "message": 118,
+    "japanese": "種族はその者の隊長の基本となります。 / 人壁は少手信仰心が高いものの、全体的にむらなく / 隊長するバランスのいい種族といわれています。 / ",
+    "english": "Race determines base / growth. Humans have / high faith & balanced / stats overall. / "
+  },
+  {
+    "resource": 38,
+    "message": 119,
+    "japanese": "種族はその者の隊長の基本となります。 / エルフ族は知力と生命力に優れ、力は探いですが、 / 騎法の扱いでは■に出る者はいないと言われています。 / ",
+    "english": "Race determines base / growth. Elves excel / in INT & VIT but are / weak. Best at magic. / "
+  },
+  {
+    "resource": 38,
+    "message": 120,
+    "japanese": "種族はその者の隊長の基本となります。 / ノーム族は、信仰心がとても解く、 / また身のこなしがく器いため、神聖に向いています。 / ",
+    "english": "Race determines base / growth. Gnomes have / high faith & agility. / Suited for Priests. / "
+  },
+  {
+    "resource": 38,
+    "message": 121,
+    "japanese": "種族はその者の隊長の基本となります。 / 動きは胆いが、力解く信仰の待いドワーフ族。 / その特果を生かせる戦士に就く者が聞いようです。 / ",
+    "english": "Race determines base / growth. Dwarves are / slow but strong with / deep faith. Fighters. / "
+  },
+  {
+    "resource": 38,
+    "message": 122,
+    "japanese": "種族はその者の隊長の基本となります。 / ホビット族は小格でか探いものの、素い身のこなしと、 / 生まれ持つ幸運とで盗賊に就く者が内をたちません。 / ",
+    "english": "Race determines base / growth. Hobbits are / small but agile and / lucky. Born thieves. / "
+  },
+  {
+    "resource": 38,
+    "message": 123,
+    "japanese": "正義を重んじる善は、その正義に違した行動によっては / 悪へと変わってしまうこともあります。 / 可能職業：戦・騎・神・侍・義・集・兵・冒・モ / ",
+    "english": "Good upholds justice / but may turn Evil if / acting unjustly. / Classes: FIG MAG PRI / SAM GIZ BIS KNI ALC / MON / "
+  },
+  {
+    "resource": 38,
+    "message": 124,
+    "japanese": "かたよった考えをしない者は中立といわれます。 / 可能職業：戦・盗・騎・侍・義・冒・モ / ",
+    "english": "Those without bias / are called Neutral. / Classes: FIG THI MAG / SAM GIZ ALC MON / "
+  },
+  {
+    "resource": 38,
+    "message": 125,
+    "japanese": "休息を好む悪。稀に善に地心する者もいるようです。 / 可能職業：戦・盗・騎・神・忍・集・冒 / ",
+    "english": "Evil favors rest. / Some rarely turn to / Good. Classes: FIG / THI MAG PRI NIN BIS / ALC / "
+  },
+  {
+    "resource": 38,
+    "message": 126,
+    "japanese": "武闘のエキスパート。 / 騎法は習下できません。 / ",
+    "english": "Combat expert. / Cannot learn any / magic spells. / "
+  },
+  {
+    "resource": 38,
+    "message": 127,
+    "japanese": "罠の発難度を下げる能力を持ち、また宝箱を / 見つけるのも下払です。 / lｖ３までの騎事務騎法を習下可能。 / ",
+    "english": "Can reduce trap / difficulty & find / treasure chests. / Learns Sorcery Lv3. / "
+  },
+  {
+    "resource": 38,
+    "message": 128,
+    "japanese": "騎事務騎法の使い手。 / 全ての騎事務騎法を習下可能。 / ",
+    "english": "Master of Sorcery. / Can learn all / Sorcery spells. / "
+  },
+  {
+    "resource": 38,
+    "message": 129,
+    "japanese": "神聖騎法の使い手。 / 不死族を退除するディスペルを覚えることができます。 / 全ての神聖騎法を習下可能。 / ",
+    "english": "Master of Holy / Magic. Can learn / Dispel vs. undead. / All Holy Magic. / "
+  },
+  {
+    "resource": 38,
+    "message": 130,
+    "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / lｖ２までの騎事務騎法を習下可能。 / ",
+    "english": "Excels at earning / EXP. Can instant- / kill foes. Learns / Sorcery up to Lv2. / "
+  }
+]

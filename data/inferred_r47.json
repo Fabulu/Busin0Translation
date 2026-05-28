@@ -1,0 +1,260 @@
+{
+  "resource": "0047_type03.bin",
+  "description": "Battle/treasure/dungeon system messages for Busin 0 (Wizardry Alternative Neo)",
+  "total_messages": 73,
+  "total_unique_unknowns": 122,
+  "inferred_count": 48,
+  "methodology": "Contextual inference from partially decoded PS2 game text using msg_glyph_map.json, cross-referenced with English guide (guide_full.txt) and RPG domain knowledge",
+  "key_discoveries": {
+    "katakana_block": "Dialogue font katakana runs roughly 193-238+ with gaps. NOT same as name-entry stride-57 katakana.",
+    "dakuten_block": "Dakuten katakana: ga=239+, da=249+, ba=254+, pa=259+",
+    "monster_name": "monster = glyphs 227,238,205,208,93",
+    "party_name": "party = glyphs 259,93,211,268",
+    "item_name": "item = glyphs 193,194,211,225",
+    "dispel_spell": "Dispel = glyphs 252,268,205,262,233",
+    "level_word": "Level = glyphs 234,257,233",
+    "levelup_verb": "increased = glyphs 193,272,261"
+  },
+  "inferred_mappings": {
+    "92": {
+      "char": "！",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 2,9,26,64: doubled at sentence end as exclamation"
+    },
+    "193": {
+      "char": "ア",
+      "confidence": "HIGH",
+      "evidence": "MSG 22: item katakana. MSG 68,69,71: level up verb"
+    },
+    "194": {
+      "char": "イ",
+      "confidence": "HIGH",
+      "evidence": "MSG 22: item katakana. Sequential with 193"
+    },
+    "205": {
+      "char": "ス",
+      "confidence": "HIGH",
+      "evidence": "MSG 2,5-7,64,65: monster katakana"
+    },
+    "208": {
+      "char": "タ",
+      "confidence": "HIGH",
+      "evidence": "MSG 2,5-7,64,65: monster katakana"
+    },
+    "211": {
+      "char": "テ",
+      "confidence": "HIGH",
+      "evidence": "MSG 22: item. MSG 66-69: party"
+    },
+    "225": {
+      "char": "ム",
+      "confidence": "HIGH",
+      "evidence": "MSG 22: item katakana"
+    },
+    "227": {
+      "char": "モ",
+      "confidence": "HIGH",
+      "evidence": "MSG 2,5-7,64,65: monster katakana. Sequential with 226"
+    },
+    "233": {
+      "char": "ル",
+      "confidence": "HIGH",
+      "evidence": "MSG 18,31,32: Dispel and Level katakana"
+    },
+    "234": {
+      "char": "レ",
+      "confidence": "HIGH",
+      "evidence": "MSG 31,32: Level katakana"
+    },
+    "252": {
+      "char": "デ",
+      "confidence": "HIGH",
+      "evidence": "MSG 18: Dispel katakana"
+    },
+    "257": {
+      "char": "ベ",
+      "confidence": "HIGH",
+      "evidence": "MSG 31,32: Level katakana"
+    },
+    "259": {
+      "char": "パ",
+      "confidence": "HIGH",
+      "evidence": "MSG 66-69: party katakana"
+    },
+    "261": {
+      "char": "プ",
+      "confidence": "HIGH",
+      "evidence": "MSG 68,69,71: level up verb"
+    },
+    "262": {
+      "char": "ペ",
+      "confidence": "HIGH",
+      "evidence": "MSG 18: Dispel katakana"
+    },
+    "272": {
+      "char": "ッ",
+      "confidence": "HIGH",
+      "evidence": "MSG 68,69,71: level up verb"
+    },
+    "315": {
+      "char": "盗",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 19,22,23: steal verb (nusumu)"
+    },
+    "340": {
+      "char": "打",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 4: uchitoru=strike down"
+    },
+    "346": {
+      "char": "力",
+      "confidence": "HIGH",
+      "evidence": "MSG 33-35,56,66,68,69: stat suffix XY-ryoku"
+    },
+    "348": {
+      "char": "盾",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 57: spell incantation shield"
+    },
+    "351": {
+      "char": "化",
+      "confidence": "HIGH",
+      "evidence": "MSG 66: kyouka=strengthened"
+    },
+    "370": {
+      "char": "成",
+      "confidence": "HIGH",
+      "evidence": "MSG 10: seikou=succeeded"
+    },
+    "406": {
+      "char": "封",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 65: fuujita=sealed ability"
+    },
+    "415": {
+      "char": "入",
+      "confidence": "HIGH",
+      "evidence": "MSG 28: hairiKOmenai=cant fit in"
+    },
+    "497": {
+      "char": "出",
+      "confidence": "HIGH",
+      "evidence": "MSG 8-10,15: dasu/deru=out"
+    },
+    "498": {
+      "char": "新",
+      "confidence": "HIGH",
+      "evidence": "MSG 15: aratana=new"
+    },
+    "508": {
+      "char": "編",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 15: amidasu=devise"
+    },
+    "572": {
+      "char": "何",
+      "confidence": "HIGH",
+      "evidence": "MSG 21: nani=what/nothing"
+    },
+    "591": {
+      "char": "果",
+      "confidence": "HIGH",
+      "evidence": "MSG 14: kekka=result"
+    },
+    "608": {
+      "char": "箱",
+      "confidence": "HIGH",
+      "evidence": "MSG 11-16: hako=chest"
+    },
+    "612": {
+      "char": "隙",
+      "confidence": "HIGH",
+      "evidence": "MSG 5: suki wo tsuita=exploited opening"
+    },
+    "613": {
+      "char": "許",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 55: spell - yurusazu=not allowing"
+    },
+    "621": {
+      "char": "強",
+      "confidence": "HIGH",
+      "evidence": "MSG 42,44,56,66: tsuyoi/kyouka"
+    },
+    "653": {
+      "char": "全",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 67-69: zenin=all members"
+    },
+    "661": {
+      "char": "解",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 52: kaimei=clarified"
+    },
+    "668": {
+      "char": "持",
+      "confidence": "HIGH",
+      "evidence": "MSG 21: motteINAkatta=didnt have"
+    },
+    "682": {
+      "char": "功",
+      "confidence": "HIGH",
+      "evidence": "MSG 10: seikou=succeeded"
+    },
+    "685": {
+      "char": "追",
+      "confidence": "HIGH",
+      "evidence": "MSG 26: oikaketa=chased"
+    },
+    "773": {
+      "char": "結",
+      "confidence": "HIGH",
+      "evidence": "MSG 14: kekka=result"
+    },
+    "833": {
+      "char": "戻",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 54,60: spell modore=return"
+    },
+    "849": {
+      "char": "恐",
+      "confidence": "HIGH",
+      "evidence": "MSG 8,24: kyoufu=fear"
+    },
+    "850": {
+      "char": "怖",
+      "confidence": "HIGH",
+      "evidence": "MSG 8,24: kyoufu=fear"
+    },
+    "856": {
+      "char": "取",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 4: uchitoru=strike down"
+    },
+    "857": {
+      "char": "突",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 6: totsuzen=suddenly"
+    },
+    "858": {
+      "char": "然",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 6: totsuzen=suddenly"
+    },
+    "859": {
+      "char": "逃",
+      "confidence": "HIGH",
+      "evidence": "MSG 8-10,24,63: nigedasu=flee"
+    },
+    "876": {
+      "char": "錠",
+      "confidence": "HIGH",
+      "evidence": "MSG 11-16: kaijou=unlock"
+    },
+    "997": {
+      "char": "員",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 67-69: zenin=all members"
+    }
+  }
+}

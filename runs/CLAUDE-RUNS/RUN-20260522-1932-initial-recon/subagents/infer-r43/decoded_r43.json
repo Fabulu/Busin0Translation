@@ -1,0 +1,1926 @@
+{
+  "messages": [
+    {
+      "msg_index": 0,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 1,
+      "glyph_ids": [
+        116,
+        114,
+        116,
+        114,
+        62
+      ],
+      "text": "おうおう、",
+      "unknowns": []
+    },
+    {
+      "msg_index": 2,
+      "glyph_ids": [
+        112,
+        136,
+        786,
+        635,
+        137,
+        172,
+        114,
+        132,
+        191,
+        127,
+        31
+      ],
+      "text": "あの[786][635]はどうなった？",
+      "unknowns": [
+        {
+          "position": 2,
+          "glyph_id": 786
+        },
+        {
+          "position": 3,
+          "glyph_id": 635
+        }
+      ]
+    },
+    {
+      "msg_index": 3,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 4,
+      "glyph_ids": [
+        149,
+        114,
+        62
+      ],
+      "text": "よう、",
+      "unknowns": []
+    },
+    {
+      "msg_index": 5,
+      "glyph_ids": [
+        338,
+        898,
+        138,
+        191,
+        117,
+        120,
+        130,
+        119,
+        117,
+        113,
+        31
+      ],
+      "text": "[338][898]ひっかけてくかい？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 338
+        },
+        {
+          "position": 1,
+          "glyph_id": 898
+        }
+      ]
+    },
+    {
+      "msg_index": 6,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 7,
+      "glyph_ids": [
+        899,
+        376,
+        900,
+        156,
+        369,
+        152,
+        136,
+        117,
+        31
+      ],
+      "text": "[899]鉄[900]を明るのか？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 899
+        },
+        {
+          "position": 2,
+          "glyph_id": 900
+        }
+      ]
+    },
+    {
+      "msg_index": 8,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 9,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 10,
+      "glyph_ids": [
+        572,
+        117,
+        786,
+        635,
+        156
+      ],
+      "text": "[572]か[786][635]を",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 572
+        },
+        {
+          "position": 2,
+          "glyph_id": 786
+        },
+        {
+          "position": 3,
+          "glyph_id": 635
+        }
+      ]
+    },
+    {
+      "msg_index": 11,
+      "glyph_ids": [
+        901,
+        118,
+        902,
+        120,
+        130,
+        119,
+        153,
+        152,
+        136,
+        117,
+        31
+      ],
+      "text": "[901]き[902]けてくれるのか？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 901
+        },
+        {
+          "position": 2,
+          "glyph_id": 902
+        }
+      ]
+    },
+    {
+      "msg_index": 12,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 13,
+      "glyph_ids": [
+        116,
+        510,
+        122,
+        157,
+        158,
+        121,
+        153,
+        142,
+        171,
+        133
+      ],
+      "text": "お[510]さんがこれまでに",
+      "unknowns": [
+        {
+          "position": 1,
+          "glyph_id": 510
+        }
+      ]
+    },
+    {
+      "msg_index": 14,
+      "glyph_ids": [
+        121,
+        132,
+        123,
+        127,
+        786,
+        635,
+        156
+      ],
+      "text": "こなした[786][635]を",
+      "unknowns": [
+        {
+          "position": 4,
+          "glyph_id": 786
+        },
+        {
+          "position": 5,
+          "glyph_id": 635
+        }
+      ]
+    },
+    {
+      "msg_index": 15,
+      "glyph_ids": [
+        396,
+        115,
+        130,
+        147,
+        154,
+        114,
+        63
+      ],
+      "text": "[396]えてやろう。",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 396
+        }
+      ]
+    },
+    {
+      "msg_index": 16,
+      "glyph_ids": [
+        339,
+        552,
+        379,
+        855,
+        133
+      ],
+      "text": "[339][552][379][855]に",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 339
+        },
+        {
+          "position": 1,
+          "glyph_id": 552
+        },
+        {
+          "position": 2,
+          "glyph_id": 379
+        },
+        {
+          "position": 3,
+          "glyph_id": 855
+        }
+      ]
+    },
+    {
+      "msg_index": 17,
+      "glyph_ids": [
+        242,
+        93,
+        225,
+        171,
+        146,
+        123,
+        130,
+        113,
+        120,
+        149,
+        1
+      ],
+      "text": "[242]ー[225]でもしていけよ ",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 242
+        },
+        {
+          "position": 2,
+          "glyph_id": 225
+        }
+      ]
+    },
+    {
+      "msg_index": 18,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 19,
+      "glyph_ids": [
+        132,
+        157,
+        168,
+        62
+      ],
+      "text": "なんだ、",
+      "unknowns": []
+    },
+    {
+      "msg_index": 20,
+      "glyph_ids": [
+        146,
+        114,
+        398,
+        152,
+        191,
+        130,
+        136,
+        117,
+        31
+      ],
+      "text": "もう[398]るってのか？",
+      "unknowns": [
+        {
+          "position": 2,
+          "glyph_id": 398
+        }
+      ]
+    },
+    {
+      "msg_index": 21,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 22,
+      "glyph_ids": [
+        116,
+        191,
+        1
+      ],
+      "text": "おっ ",
+      "unknowns": []
+    },
+    {
+      "msg_index": 23,
+      "glyph_ids": [
+        242,
+        93,
+        225,
+        156,
+        123,
+        130,
+        113,
+        119,
+        117,
+        31
+      ],
+      "text": "[242]ー[225]をしていくか？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 242
+        },
+        {
+          "position": 2,
+          "glyph_id": 225
+        }
+      ]
+    },
+    {
+      "msg_index": 24,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 25,
+      "glyph_ids": [
+        212,
+        222,
+        222,
+        92,
+        62
+      ],
+      "text": "[212][222][222][92]、",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 212
+        },
+        {
+          "position": 1,
+          "glyph_id": 222
+        },
+        {
+          "position": 2,
+          "glyph_id": 222
+        },
+        {
+          "position": 3,
+          "glyph_id": 92
+        }
+      ]
+    },
+    {
+      "msg_index": 26,
+      "glyph_ids": [
+        193,
+        238,
+        208,
+        133,
+        147,
+        150,
+        153,
+        128,
+        183
+      ],
+      "text": "[193]ン[208]にやられちゃ",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 193
+        },
+        {
+          "position": 2,
+          "glyph_id": 208
+        }
+      ]
+    },
+    {
+      "msg_index": 27,
+      "glyph_ids": [
+        904,
+        905,
+        112,
+        158,
+        191,
+        127,
+        151,
+        168,
+        166,
+        63
+      ],
+      "text": "[904][905]あがったりだぜ。",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 904
+        },
+        {
+          "position": 1,
+          "glyph_id": 905
+        }
+      ]
+    },
+    {
+      "msg_index": 28,
+      "glyph_ids": [
+        562,
+        308,
+        158,
+        132,
+        113,
+        132,
+        150
+      ],
+      "text": "[562][308]がないなら",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 562
+        },
+        {
+          "position": 1,
+          "glyph_id": 308
+        }
+      ]
+    },
+    {
+      "msg_index": 29,
+      "glyph_ids": [
+        906,
+        619,
+        171,
+        146,
+        123,
+        130,
+        143,
+        132,
+        1
+      ],
+      "text": "[906][619]でもしてみな ",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 906
+        },
+        {
+          "position": 1,
+          "glyph_id": 619
+        }
+      ]
+    },
+    {
+      "msg_index": 30,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 31,
+      "glyph_ids": [
+        242,
+        93,
+        225,
+        137,
+        17,
+        415,
+        21,
+        16,
+        16,
+        39,
+        168,
+        166,
+        63
+      ],
+      "text": "[242]ー[225]は[17][415][21][16][16][39]だぜ。",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 242
+        },
+        {
+          "position": 2,
+          "glyph_id": 225
+        },
+        {
+          "position": 4,
+          "glyph_id": 17
+        },
+        {
+          "position": 5,
+          "glyph_id": 415
+        },
+        {
+          "position": 6,
+          "glyph_id": 21
+        },
+        {
+          "position": 7,
+          "glyph_id": 16
+        },
+        {
+          "position": 8,
+          "glyph_id": 16
+        },
+        {
+          "position": 9,
+          "glyph_id": 39
+        }
+      ]
+    },
+    {
+      "msg_index": 32,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 33,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 34,
+      "glyph_ids": [
+        242,
+        93,
+        225,
+        171,
+        531,
+        145,
+        127,
+        226,
+        249,
+        233,
+        131
+      ],
+      "text": "[242]ー[225]で[531]めたメダ[233]と",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 242
+        },
+        {
+          "position": 2,
+          "glyph_id": 225
+        },
+        {
+          "position": 4,
+          "glyph_id": 531
+        },
+        {
+          "position": 9,
+          "glyph_id": 233
+        }
+      ]
+    },
+    {
+      "msg_index": 35,
+      "glyph_ids": [
+        193,
+        194,
+        211,
+        225,
+        156,
+        529,
+        855,
+        124,
+        152,
+        166,
+        63
+      ],
+      "text": "[193][194][211][225]を[529][855]するぜ。",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 193
+        },
+        {
+          "position": 1,
+          "glyph_id": 194
+        },
+        {
+          "position": 2,
+          "glyph_id": 211
+        },
+        {
+          "position": 3,
+          "glyph_id": 225
+        },
+        {
+          "position": 5,
+          "glyph_id": 529
+        },
+        {
+          "position": 6,
+          "glyph_id": 855
+        }
+      ]
+    },
+    {
+      "msg_index": 36,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 37,
+      "glyph_ids": [
+        242,
+        93,
+        225,
+        171,
+        665,
+        123,
+        127,
+        119,
+        132,
+        120,
+        153,
+        173
+      ],
+      "text": "[242]ー[225]で[665]したくなければ",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 242
+        },
+        {
+          "position": 2,
+          "glyph_id": 225
+        },
+        {
+          "position": 4,
+          "glyph_id": 665
+        }
+      ]
+    },
+    {
+      "msg_index": 38,
+      "glyph_ids": [
+        123,
+        191,
+        117,
+        151,
+        906,
+        619,
+        123,
+        154,
+        149,
+        1
+      ],
+      "text": "しっかり[906][619]しろよ ",
+      "unknowns": [
+        {
+          "position": 4,
+          "glyph_id": 906
+        },
+        {
+          "position": 5,
+          "glyph_id": 619
+        }
+      ]
+    },
+    {
+      "msg_index": 39,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 40,
+      "glyph_ids": [
+        242,
+        93,
+        225,
+        156,
+        876,
+        145,
+        130,
+        113,
+        113,
+        117,
+        31
+      ],
+      "text": "[242]ー[225]を[876]めていいか？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 242
+        },
+        {
+          "position": 2,
+          "glyph_id": 225
+        },
+        {
+          "position": 4,
+          "glyph_id": 876
+        }
+      ]
+    },
+    {
+      "msg_index": 41,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 42,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 43,
+      "glyph_ids": [
+        116,
+        113,
+        116,
+        113,
+        62,
+        419,
+        158,
+        712,
+        151,
+        135,
+        115,
+        131
+      ],
+      "text": "おいおい、[419]が[712]りねえと",
+      "unknowns": [
+        {
+          "position": 5,
+          "glyph_id": 419
+        },
+        {
+          "position": 7,
+          "glyph_id": 712
+        }
+      ]
+    },
+    {
+      "msg_index": 44,
+      "glyph_ids": [
+        242,
+        93,
+        225,
+        137,
+        171,
+        118,
+        135,
+        115,
+        166,
+        63
+      ],
+      "text": "[242]ー[225]はできねえぜ。",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 242
+        },
+        {
+          "position": 2,
+          "glyph_id": 225
+        }
+      ]
+    },
+    {
+      "msg_index": 45,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 46,
+      "glyph_ids": [
+        908,
+        909,
+        168,
+        132,
+        62,
+        226,
+        249,
+        233,
+        137
+      ],
+      "text": "[908][909]だな、メダ[233]は",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 908
+        },
+        {
+          "position": 1,
+          "glyph_id": 909
+        },
+        {
+          "position": 7,
+          "glyph_id": 233
+        }
+      ]
+    },
+    {
+      "msg_index": 47,
+      "glyph_ids": [
+        132,
+        123,
+        168,
+        1
+      ],
+      "text": "なしだ ",
+      "unknowns": []
+    },
+    {
+      "msg_index": 48,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 49,
+      "glyph_ids": [
+        141,
+        150,
+        62,
+        226,
+        249,
+        233,
+        156,
+        147,
+        152,
+        149,
+        1
+      ],
+      "text": "ほら、メダ[233]をやるよ ",
+      "unknowns": [
+        {
+          "position": 5,
+          "glyph_id": 233
+        }
+      ]
+    },
+    {
+      "msg_index": 50,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 51,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 52,
+      "glyph_ids": [
+        172,
+        136,
+        910,
+        603,
+        158,
+        141,
+        123,
+        113,
+        157,
+        168,
+        31
+      ],
+      "text": "どの[910][603]がほしいんだ？",
+      "unknowns": [
+        {
+          "position": 2,
+          "glyph_id": 910
+        },
+        {
+          "position": 3,
+          "glyph_id": 603
+        }
+      ]
+    },
+    {
+      "msg_index": 53,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 54,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 55,
+      "glyph_ids": [
+        126,
+        136,
+        910,
+        603,
+        131
+      ],
+      "text": "その[910][603]と",
+      "unknowns": [
+        {
+          "position": 2,
+          "glyph_id": 910
+        },
+        {
+          "position": 3,
+          "glyph_id": 603
+        }
+      ]
+    },
+    {
+      "msg_index": 56,
+      "glyph_ids": [
+        529,
+        855,
+        123,
+        127,
+        113,
+        136,
+        117,
+        31
+      ],
+      "text": "[529][855]したいのか？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 529
+        },
+        {
+          "position": 1,
+          "glyph_id": 855
+        }
+      ]
+    },
+    {
+      "msg_index": 57,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 58,
+      "glyph_ids": [
+        656,
+        133,
+        668,
+        127,
+        125,
+        152,
+        157,
+        168,
+        113,
+        31
+      ],
+      "text": "[656]に[668]たせるんだい？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 656
+        },
+        {
+          "position": 2,
+          "glyph_id": 668
+        }
+      ]
+    },
+    {
+      "msg_index": 59,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 60,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 61,
+      "glyph_ids": [
+        141,
+        150,
+        149,
+        1
+      ],
+      "text": "ほらよ ",
+      "unknowns": []
+    },
+    {
+      "msg_index": 62,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 63,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 64,
+      "glyph_ids": [
+        668,
+        128,
+        581,
+        156,
+        911,
+        587,
+        123,
+        130,
+        117,
+        150
+      ],
+      "text": "[668]ち[581]を[911][587]してから",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 668
+        },
+        {
+          "position": 2,
+          "glyph_id": 581
+        },
+        {
+          "position": 4,
+          "glyph_id": 911
+        },
+        {
+          "position": 5,
+          "glyph_id": 587
+        }
+      ]
+    },
+    {
+      "msg_index": 65,
+      "glyph_ids": [
+        634,
+        130,
+        119,
+        153,
+        149,
+        63
+      ],
+      "text": "[634]てくれよ。",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 634
+        }
+      ]
+    },
+    {
+      "msg_index": 66,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 67,
+      "glyph_ids": [
+        137,
+        0,
+        113
+      ],
+      "text": "は[0]い",
+      "unknowns": [
+        {
+          "position": 1,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 68,
+      "glyph_ids": [
+        113,
+        113,
+        115
+      ],
+      "text": "いいえ",
+      "unknowns": []
+    },
+    {
+      "msg_index": 69,
+      "glyph_ids": [
+        906,
+        619,
+        156,
+        137,
+        164,
+        145,
+        142,
+        124,
+        117,
+        31
+      ],
+      "text": "[906][619]をはじめますか？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 906
+        },
+        {
+          "position": 1,
+          "glyph_id": 619
+        }
+      ]
+    },
+    {
+      "msg_index": 70,
+      "glyph_ids": [
+        242,
+        93,
+        225,
+        156,
+        137,
+        164,
+        145,
+        142,
+        124,
+        117,
+        31
+      ],
+      "text": "[242]ー[225]をはじめますか？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 242
+        },
+        {
+          "position": 2,
+          "glyph_id": 225
+        }
+      ]
+    },
+    {
+      "msg_index": 71,
+      "glyph_ids": [
+        8,
+        17,
+        261,
+        234,
+        194,
+        0,
+        21,
+        16,
+        16,
+        39,
+        9
+      ],
+      "text": "[8][17][261][234][194][0][21][16][16][39][9]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 8
+        },
+        {
+          "position": 1,
+          "glyph_id": 17
+        },
+        {
+          "position": 2,
+          "glyph_id": 261
+        },
+        {
+          "position": 3,
+          "glyph_id": 234
+        },
+        {
+          "position": 4,
+          "glyph_id": 194
+        },
+        {
+          "position": 5,
+          "glyph_id": 0
+        },
+        {
+          "position": 6,
+          "glyph_id": 21
+        },
+        {
+          "position": 7,
+          "glyph_id": 16
+        },
+        {
+          "position": 8,
+          "glyph_id": 16
+        },
+        {
+          "position": 9,
+          "glyph_id": 39
+        },
+        {
+          "position": 10,
+          "glyph_id": 9
+        }
+      ]
+    },
+    {
+      "msg_index": 72,
+      "glyph_ids": [
+        226,
+        249,
+        233,
+        0,
+        107,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "text": "メダ[233][0][107][0][0][0][0][0][0]",
+      "unknowns": [
+        {
+          "position": 2,
+          "glyph_id": 233
+        },
+        {
+          "position": 3,
+          "glyph_id": 0
+        },
+        {
+          "position": 4,
+          "glyph_id": 107
+        },
+        {
+          "position": 5,
+          "glyph_id": 0
+        },
+        {
+          "position": 6,
+          "glyph_id": 0
+        },
+        {
+          "position": 7,
+          "glyph_id": 0
+        },
+        {
+          "position": 8,
+          "glyph_id": 0
+        },
+        {
+          "position": 9,
+          "glyph_id": 0
+        },
+        {
+          "position": 10,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 73,
+      "glyph_ids": [
+        226,
+        249,
+        233,
+        131,
+        910,
+        603,
+        156
+      ],
+      "text": "メダ[233]と[910][603]を",
+      "unknowns": [
+        {
+          "position": 2,
+          "glyph_id": 233
+        },
+        {
+          "position": 4,
+          "glyph_id": 910
+        },
+        {
+          "position": 5,
+          "glyph_id": 603
+        }
+      ]
+    },
+    {
+      "msg_index": 74,
+      "glyph_ids": [
+        529,
+        855,
+        123,
+        142,
+        124,
+        117,
+        31
+      ],
+      "text": "[529][855]しますか？",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 529
+        },
+        {
+          "position": 1,
+          "glyph_id": 855
+        }
+      ]
+    },
+    {
+      "msg_index": 75,
+      "glyph_ids": [
+        496,
+        668,
+        419,
+        158,
+        341,
+        712,
+        123,
+        130,
+        113,
+        142,
+        124
+      ],
+      "text": "[496][668][419]がン[712]しています",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 496
+        },
+        {
+          "position": 1,
+          "glyph_id": 668
+        },
+        {
+          "position": 2,
+          "glyph_id": 419
+        },
+        {
+          "position": 5,
+          "glyph_id": 712
+        }
+      ]
+    },
+    {
+      "msg_index": 76,
+      "glyph_ids": [
+        137
+      ],
+      "text": "は",
+      "unknowns": []
+    },
+    {
+      "msg_index": 77,
+      "glyph_ids": [
+        496,
+        668,
+        226,
+        249,
+        233
+      ],
+      "text": "[496][668]メダ[233]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 496
+        },
+        {
+          "position": 1,
+          "glyph_id": 668
+        },
+        {
+          "position": 4,
+          "glyph_id": 233
+        }
+      ]
+    },
+    {
+      "msg_index": 78,
+      "glyph_ids": [
+        709,
+        710,
+        226,
+        249,
+        233
+      ],
+      "text": "[709][710]メダ[233]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 709
+        },
+        {
+          "position": 1,
+          "glyph_id": 710
+        },
+        {
+          "position": 4,
+          "glyph_id": 233
+        }
+      ]
+    },
+    {
+      "msg_index": 79,
+      "glyph_ids": [
+        998
+      ],
+      "text": "[998]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 998
+        }
+      ]
+    },
+    {
+      "msg_index": 80,
+      "glyph_ids": [
+        156,
+        902,
+        120,
+        944,
+        191,
+        127,
+        1
+      ],
+      "text": "を[902]け[944]った ",
+      "unknowns": [
+        {
+          "position": 1,
+          "glyph_id": 902
+        },
+        {
+          "position": 3,
+          "glyph_id": 944
+        }
+      ]
+    },
+    {
+      "msg_index": 81,
+      "glyph_ids": [
+        226,
+        249,
+        233,
+        158,
+        341,
+        712,
+        123,
+        130,
+        113,
+        142,
+        124
+      ],
+      "text": "メダ[233]がン[712]しています",
+      "unknowns": [
+        {
+          "position": 2,
+          "glyph_id": 233
+        },
+        {
+          "position": 5,
+          "glyph_id": 712
+        }
+      ]
+    },
+    {
+      "msg_index": 82,
+      "glyph_ids": [
+        126,
+        153,
+        131,
+        529,
+        855,
+        124,
+        152,
+        133,
+        137
+      ],
+      "text": "それと[529][855]するには",
+      "unknowns": [
+        {
+          "position": 3,
+          "glyph_id": 529
+        },
+        {
+          "position": 4,
+          "glyph_id": 855
+        }
+      ]
+    },
+    {
+      "msg_index": 83,
+      "glyph_ids": [
+        226,
+        249,
+        233,
+        158,
+        712,
+        151,
+        135,
+        115,
+        166,
+        1
+      ],
+      "text": "メダ[233]が[712]りねえぜ ",
+      "unknowns": [
+        {
+          "position": 2,
+          "glyph_id": 233
+        },
+        {
+          "position": 4,
+          "glyph_id": 712
+        }
+      ]
+    },
+    {
+      "msg_index": 84,
+      "glyph_ids": [
+        0
+      ],
+      "text": "[0]",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 0
+        }
+      ]
+    },
+    {
+      "msg_index": 85,
+      "glyph_ids": [
+        999,
+        892,
+        156,
+        121,
+        132,
+        123,
+        130,
+        113,
+        142,
+        125,
+        157
+      ],
+      "text": "[999][892]をこなしていません",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 999
+        },
+        {
+          "position": 1,
+          "glyph_id": 892
+        }
+      ]
+    },
+    {
+      "msg_index": 86,
+      "glyph_ids": [
+        496,
+        668,
+        603,
+        158,
+        113,
+        191,
+        178,
+        113,
+        171,
+        124
+      ],
+      "text": "[496][668][603]がいっぱいです",
+      "unknowns": [
+        {
+          "position": 0,
+          "glyph_id": 496
+        },
+        {
+          "position": 1,
+          "glyph_id": 668
+        },
+        {
+          "position": 2,
+          "glyph_id": 603
+        }
+      ]
+    }
+  ],
+  "unknown_glyph_ids": [
+    0,
+    8,
+    9,
+    16,
+    17,
+    21,
+    39,
+    92,
+    107,
+    193,
+    194,
+    208,
+    211,
+    212,
+    222,
+    225,
+    233,
+    234,
+    242,
+    261,
+    308,
+    338,
+    339,
+    379,
+    396,
+    398,
+    415,
+    419,
+    496,
+    510,
+    529,
+    531,
+    552,
+    562,
+    572,
+    581,
+    587,
+    603,
+    619,
+    634,
+    635,
+    656,
+    665,
+    668,
+    709,
+    710,
+    712,
+    786,
+    855,
+    876,
+    892,
+    898,
+    899,
+    900,
+    901,
+    902,
+    904,
+    905,
+    906,
+    908,
+    909,
+    910,
+    911,
+    944,
+    998,
+    999
+  ]
+}

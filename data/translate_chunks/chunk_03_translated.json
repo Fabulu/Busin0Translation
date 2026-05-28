@@ -1,0 +1,680 @@
+[
+  {
+    "resource": 38,
+    "message": 131,
+    "japanese": "騎士を気有させることができる武器、鎧を装備できます。 / lｖ５までの騎事務騎法を習下可能。 / ",
+    "english": "Can equip weapons / and armor for knights. / Learns Sorceries / up to Lv5. / "
+  },
+  {
+    "resource": 38,
+    "message": 132,
+    "japanese": "自回復品を回復する能力を備えており、 / 不死族を退除するディスペルを覚えることができます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Has the ability to / restore HP. / Can learn Dispel / to banish undead. / Learns Sorceries and / Holy Magic up to Lv6. / "
+  },
+  {
+    "resource": 38,
+    "message": 133,
+    "japanese": "ポールアックス系の武器を装備できます。 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
+    "english": "Can equip poleaxe / type weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / "
+  },
+  {
+    "resource": 38,
+    "message": 134,
+    "japanese": "冒金事を扱うことができる。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Can handle alchemy. / Learns Sorceries and / Holy Magic up to Lv4. / "
+  },
+  {
+    "resource": 38,
+    "message": 135,
+    "japanese": "長法の装備が可能で、トラップ発難度を下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ３までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Can equip longbows. / Lowers trap difficulty / and can steal items. / Learns Sorceries and / Holy Magic up to Lv3. / "
+  },
+  {
+    "resource": 38,
+    "message": 136,
+    "japanese": "スタッフやナックル系の武器を装備でき、 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
+    "english": "Can equip staffs / and knuckle weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / "
+  },
+  {
+    "resource": 38,
+    "message": 137,
+    "japanese": "聖なるオーラでパーティのhpを少しずつ回復する / ことができ、ディスペルを覚えることもできます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Holy aura slowly / restores party HP. / Can also learn Dispel. / Learns Sorceries and / Holy Magic up to Lv6. / "
+  },
+  {
+    "resource": 38,
+    "message": 138,
+    "japanese": "使われている装備の、その使いの消呪を / 打ち除すことができます。 / lｖ６までの騎事務騎法を習下可能。 / ",
+    "english": "Can remove curses / from equipped items. / Learns Sorceries / up to Lv6. / "
+  },
+  {
+    "resource": 38,
+    "message": 139,
+    "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / さらにダークゾーンを見るなどの能力も備えています。 / lｖ５までの騎事務騎法を習下可能。 / ",
+    "english": "Excels at gaining EXP / and instant death atk. / Can also see through / dark fog zones. / Learns Sorceries / up to Lv5. / "
+  },
+  {
+    "resource": 38,
+    "message": 140,
+    "japanese": "唱手武器と防の同受装備や、同じ獲得系属の武器両種を / 同受に装備できる両鎧進の能力を持っています。 / lｖ６までの騎事務騎法を習下可能。 / ",
+    "english": "Can dual wield / weapons of the same / type simultaneously. / Learns Sorceries / up to Lv6. / "
+  },
+  {
+    "resource": 38,
+    "message": 141,
+    "japanese": "長法の装備が可能で、トラップ発難度を大きく下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Can equip longbows. / Greatly lowers trap / difficulty. Can steal / items from enemies. / Learns Sorceries and / Holy Magic up to Lv4. / "
+  },
+  {
+    "resource": 38,
+    "message": 142,
+    "japanese": "武器で獲得した受のダメージに影響します。 / ",
+    "english": "Affects damage dealt / with weapons. / "
+  },
+  {
+    "resource": 38,
+    "message": 143,
+    "japanese": "騎事務騎法の威力、俺性に影響します。 / ",
+    "english": "Affects Sorcery power / and resistance. / "
+  },
+  {
+    "resource": 38,
+    "message": 144,
+    "japanese": "神聖騎法の威力、俺性に影響します。 / ",
+    "english": "Affects Holy Magic / power and resistance. / "
+  },
+  {
+    "resource": 38,
+    "message": 145,
+    "japanese": "hpの低さや、ステータス取通に対する俺性、 / 復活の結果に影響します。 / ",
+    "english": "Affects max HP, / status resistance, / and revival success. / "
+  },
+  {
+    "resource": 38,
+    "message": 146,
+    "japanese": "戦箱受に行動する前番に影響します。 / ",
+    "english": "Affects turn order / in battle. / "
+  },
+  {
+    "resource": 38,
+    "message": 147,
+    "japanese": "ブレスに対する俺性や、クリティカルヒットの結果 / などに影響します。 / ",
+    "english": "Affects breath resist / and critical hit / chance. / "
+  },
+  {
+    "resource": 38,
+    "message": 148,
+    "japanese": "善「g」 / ",
+    "english": "Good \"G\" / "
+  },
+  {
+    "resource": 38,
+    "message": 149,
+    "japanese": "中立「n」 / ",
+    "english": "Neutral \"N\" / "
+  },
+  {
+    "resource": 38,
+    "message": 150,
+    "japanese": "悪「e」 / ",
+    "english": "Evil \"E\" / "
+  },
+  {
+    "resource": 38,
+    "message": 152,
+    "japanese": "中立 / ",
+    "english": "Neutral / "
+  },
+  {
+    "resource": 38,
+    "message": 157,
+    "japanese": "lｖ / ",
+    "english": "Lv / "
+  },
+  {
+    "resource": 38,
+    "message": 158,
+    "japanese": "commoner / ",
+    "english": "Commoner / "
+  },
+  {
+    "resource": 38,
+    "message": 159,
+    "japanese": "hooligan / ",
+    "english": "Hooligan / "
+  },
+  {
+    "resource": 38,
+    "message": 160,
+    "japanese": "evil / ",
+    "english": "Evil / "
+  },
+  {
+    "resource": 38,
+    "message": 161,
+    "japanese": "venom fang / ",
+    "english": "Venom Fang / "
+  },
+  {
+    "resource": 38,
+    "message": 162,
+    "japanese": "villain / ",
+    "english": "Villain / "
+  },
+  {
+    "resource": 38,
+    "message": 163,
+    "japanese": "gangster / ",
+    "english": "Gangster / "
+  },
+  {
+    "resource": 38,
+    "message": 164,
+    "japanese": "clurelty / ",
+    "english": "Cruelty / "
+  },
+  {
+    "resource": 38,
+    "message": 165,
+    "japanese": "vicious / ",
+    "english": "Vicious / "
+  },
+  {
+    "resource": 38,
+    "message": 166,
+    "japanese": "dengerous / ",
+    "english": "Dangerous / "
+  },
+  {
+    "resource": 38,
+    "message": 167,
+    "japanese": "curiosity / ",
+    "english": "Curiosity / "
+  },
+  {
+    "resource": 38,
+    "message": 168,
+    "japanese": "commoner / ",
+    "english": "Commoner / "
+  },
+  {
+    "resource": 38,
+    "message": 169,
+    "japanese": "adventurer / ",
+    "english": "Adventurer / "
+  },
+  {
+    "resource": 38,
+    "message": 170,
+    "japanese": "guard / ",
+    "english": "Guard / "
+  },
+  {
+    "resource": 38,
+    "message": 171,
+    "japanese": "boldness / ",
+    "english": "Boldness / "
+  },
+  {
+    "resource": 38,
+    "message": 172,
+    "japanese": "bravery / ",
+    "english": "Bravery / "
+  },
+  {
+    "resource": 38,
+    "message": 173,
+    "japanese": "famous / ",
+    "english": "Famous / "
+  },
+  {
+    "resource": 38,
+    "message": 174,
+    "japanese": "veteran / ",
+    "english": "Veteran / "
+  },
+  {
+    "resource": 38,
+    "message": 175,
+    "japanese": "conqueror / ",
+    "english": "Conqueror / "
+  },
+  {
+    "resource": 38,
+    "message": 176,
+    "japanese": "hero / ",
+    "english": "Hero / "
+  },
+  {
+    "resource": 38,
+    "message": 177,
+    "japanese": "queen guard / ",
+    "english": "Queen Guard / "
+  },
+  {
+    "resource": 38,
+    "message": 178,
+    "japanese": "commoner / ",
+    "english": "Commoner / "
+  },
+  {
+    "resource": 38,
+    "message": 179,
+    "japanese": "honest person / ",
+    "english": "Honest Person / "
+  },
+  {
+    "resource": 38,
+    "message": 180,
+    "japanese": "kind / ",
+    "english": "Kind / "
+  },
+  {
+    "resource": 38,
+    "message": 181,
+    "japanese": "reliable / ",
+    "english": "Reliable / "
+  },
+  {
+    "resource": 38,
+    "message": 182,
+    "japanese": "great heart / ",
+    "english": "Great Heart / "
+  },
+  {
+    "resource": 38,
+    "message": 183,
+    "japanese": "fairness / ",
+    "english": "Fairness / "
+  },
+  {
+    "resource": 38,
+    "message": 184,
+    "japanese": "norble / ",
+    "english": "Noble / "
+  },
+  {
+    "resource": 38,
+    "message": 185,
+    "japanese": "achievement / ",
+    "english": "Achievement / "
+  },
+  {
+    "resource": 38,
+    "message": 186,
+    "japanese": "sage / ",
+    "english": "Sage / "
+  },
+  {
+    "resource": 38,
+    "message": 187,
+    "japanese": "god hand / ",
+    "english": "God Hand / "
+  },
+  {
+    "resource": 39,
+    "message": 1,
+    "japanese": "使う / ",
+    "english": "Use / "
+  },
+  {
+    "resource": 39,
+    "message": 2,
+    "japanese": "装備 / ",
+    "english": "Equip / "
+  },
+  {
+    "resource": 39,
+    "message": 3,
+    "japanese": "外す / ",
+    "english": "Unequip / "
+  },
+  {
+    "resource": 39,
+    "message": 4,
+    "japanese": "sp殿放 / ",
+    "english": "SP Release / "
+  },
+  {
+    "resource": 39,
+    "message": 5,
+    "japanese": "入れ替え / ",
+    "english": "Swap / "
+  },
+  {
+    "resource": 39,
+    "message": 6,
+    "japanese": "持てる / ",
+    "english": "Give / "
+  },
+  {
+    "resource": 39,
+    "message": 7,
+    "japanese": "回復 / ",
+    "english": "Recover / "
+  },
+  {
+    "resource": 39,
+    "message": 8,
+    "japanese": "この内容でよろしいですか？ / ",
+    "english": "Is this OK? / "
+  },
+  {
+    "resource": 39,
+    "message": 9,
+    "japanese": "はい / ",
+    "english": "Yes / "
+  },
+  {
+    "resource": 39,
+    "message": 10,
+    "japanese": "いいえ / ",
+    "english": "No / "
+  },
+  {
+    "resource": 39,
+    "message": 11,
+    "japanese": "使いで外すことができません / ",
+    "english": "Cannot unequip / due to curse / "
+  },
+  {
+    "resource": 39,
+    "message": 12,
+    "japanese": "は使われていた  / ",
+    "english": " was cursed  / "
+  },
+  {
+    "resource": 39,
+    "message": 13,
+    "japanese": "仲間に持てますか？ / ",
+    "english": "Give to ally? / "
+  },
+  {
+    "resource": 39,
+    "message": 14,
+    "japanese": "は崩れた  / ",
+    "english": " crumbled  / "
+  },
+  {
+    "resource": 39,
+    "message": 15,
+    "japanese": "が回復しています / ",
+    "english": " is recovering / "
+  },
+  {
+    "resource": 39,
+    "message": 16,
+    "japanese": "回復しました / ",
+    "english": "Recovered / "
+  },
+  {
+    "resource": 39,
+    "message": 17,
+    "japanese": "は / 使いで恐怖に十たされた  / ",
+    "english": " was / filled with fear  / "
+  },
+  {
+    "resource": 39,
+    "message": 18,
+    "japanese": "ここでは使えません / ",
+    "english": "Can't use here / "
+  },
+  {
+    "resource": 39,
+    "message": 19,
+    "japanese": "を習下した  / ",
+    "english": " was learned  / "
+  },
+  {
+    "resource": 39,
+    "message": 20,
+    "japanese": "が解除された  / ",
+    "english": " was removed  / "
+  },
+  {
+    "resource": 39,
+    "message": 21,
+    "japanese": "mpが足りません / ",
+    "english": "Not enough MP / "
+  },
+  {
+    "resource": 39,
+    "message": 22,
+    "japanese": "apがオーバーしています / ",
+    "english": "AP is exceeded / "
+  },
+  {
+    "resource": 39,
+    "message": 23,
+    "japanese": "アレイドアクションの部隊を終えます / ",
+    "english": "End Allied Action / setup / "
+  },
+  {
+    "resource": 39,
+    "message": 24,
+    "japanese": "必要なapが足りません / ",
+    "english": "Not enough AP / "
+  },
+  {
+    "resource": 39,
+    "message": 25,
+    "japanese": "装備できません / ",
+    "english": "Cannot equip / "
+  },
+  {
+    "resource": 39,
+    "message": 26,
+    "japanese": "スペシャルパワーがありません / ",
+    "english": "No Special Power / "
+  },
+  {
+    "resource": 39,
+    "message": 27,
+    "japanese": "装備を外しますがよろしいですか？ / ",
+    "english": "Unequip item. OK? / "
+  },
+  {
+    "resource": 39,
+    "message": 28,
+    "japanese": "回復できる者がいません / ",
+    "english": "No one to heal / "
+  },
+  {
+    "resource": 39,
+    "message": 29,
+    "japanese": "入れ替える士がありません / ",
+    "english": "Nothing to swap / "
+  },
+  {
+    "resource": 39,
+    "message": 30,
+    "japanese": "このアイテムは使えません / ",
+    "english": "Can't use item / "
+  },
+  {
+    "resource": 39,
+    "message": 31,
+    "japanese": "つけかえることができません / ",
+    "english": "Cannot re-equip / "
+  },
+  {
+    "resource": 39,
+    "message": 32,
+    "japanese": "何も持っていません / ",
+    "english": "No items held / "
+  },
+  {
+    "resource": 39,
+    "message": 33,
+    "japanese": "編隊しますか？ / ",
+    "english": "Change formation? / "
+  },
+  {
+    "resource": 39,
+    "message": 39,
+    "japanese": "習下可能 / ",
+    "english": "Can Learn / "
+  },
+  {
+    "resource": 39,
+    "message": 40,
+    "japanese": "習下不可 / ",
+    "english": "Cannot Learn / "
+  },
+  {
+    "resource": 39,
+    "message": 41,
+    "japanese": "解除可能 / ",
+    "english": "Can Remove / "
+  },
+  {
+    "resource": 39,
+    "message": 42,
+    "japanese": "解除不可 / ",
+    "english": "Cannot Remove / "
+  },
+  {
+    "resource": 39,
+    "message": 43,
+    "japanese": "master / ",
+    "english": "Master / "
+  },
+  {
+    "resource": 39,
+    "message": 44,
+    "japanese": "編隊に成功しました / ",
+    "english": "Formation set / "
+  },
+  {
+    "resource": 39,
+    "message": 45,
+    "japanese": "アイテムを入れ替えました / ",
+    "english": "Items swapped / "
+  },
+  {
+    "resource": 39,
+    "message": 46,
+    "japanese": "誰が編隊を行いますか？ / ",
+    "english": "Who will form up? / "
+  },
+  {
+    "resource": 39,
+    "message": 47,
+    "japanese": "組み編わせを選んでください / ",
+    "english": "Choose combination / "
+  },
+  {
+    "resource": 39,
+    "message": 48,
+    "japanese": "編隊しました / ",
+    "english": "Formation changed / "
+  },
+  {
+    "resource": 39,
+    "message": 49,
+    "japanese": "今すぐ使息しますか？ / ",
+    "english": "Use it now? / "
+  },
+  {
+    "resource": 39,
+    "message": 50,
+    "japanese": "編隊く勲が足りません / ",
+    "english": "Not enough merit / for formation / "
+  },
+  {
+    "resource": 39,
+    "message": 51,
+    "japanese": "どのオートマターを解除しますか？ / ",
+    "english": "Which Automata / to remove? / "
+  },
+  {
+    "resource": 39,
+    "message": 52,
+    "japanese": "騎法団と投入数を決めてください / ",
+    "english": "Set spell school / and amount / "
+  },
+  {
+    "resource": 39,
+    "message": 53,
+    "japanese": "変更する騎法団が０に / なっています。 / ",
+    "english": "Spell school to / change is at 0. / "
+  },
+  {
+    "resource": 39,
+    "message": 54,
+    "japanese": "騎法団の変更を行いますか？ / ",
+    "english": "Change spell school? / "
+  },
+  {
+    "resource": 39,
+    "message": 55,
+    "japanese": "どちらとつけかえますか？ / ",
+    "english": "Swap with which? / "
+  },
+  {
+    "resource": 39,
+    "message": 56,
+    "japanese": " mhpに変更 / ",
+    "english": " Change to MHP / "
+  },
+  {
+    "resource": 39,
+    "message": 57,
+    "japanese": " 力に変更 / ",
+    "english": " Change to STR / "
+  },
+  {
+    "resource": 39,
+    "message": 58,
+    "japanese": " 知恵に変更 / ",
+    "english": " Change to INT / "
+  },
+  {
+    "resource": 39,
+    "message": 59,
+    "japanese": " 信仰心に変更 / ",
+    "english": " Change to FTH / "
+  },
+  {
+    "resource": 39,
+    "message": 60,
+    "japanese": " 生命力に変更 / ",
+    "english": " Change to VIG / "
+  },
+  {
+    "resource": 39,
+    "message": 61,
+    "japanese": " 敏捷度に変更 / ",
+    "english": " Change to AGI / "
+  },
+  {
+    "resource": 39,
+    "message": 62,
+    "japanese": " 幸運度に変更 / ",
+    "english": " Change to LCK / "
+  },
+  {
+    "resource": 39,
+    "message": 63,
+    "japanese": "mhpが / ",
+    "english": "MHP / "
+  },
+  {
+    "resource": 39,
+    "message": 64,
+    "japanese": "力が / ",
+    "english": "STR / "
+  },
+  {
+    "resource": 39,
+    "message": 65,
+    "japanese": "知恵が / ",
+    "english": "INT / "
+  },
+  {
+    "resource": 39,
+    "message": 66,
+    "japanese": "信仰心が / ",
+    "english": "FTH / "
+  }
+]

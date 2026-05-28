@@ -1,0 +1,1345 @@
+[
+  {
+    "resource": 34,
+    "message": 1,
+    "japanese": "回復の魔石",
+    "english": "Magic Stone of Recovery",
+    "source": "guide"
+  },
+  {
+    "resource": 34,
+    "message": 2,
+    "japanese": "武神の魔石",
+    "english": "Magic Stone of the War God",
+    "source": "guide"
+  },
+  {
+    "resource": 34,
+    "message": 3,
+    "japanese": "騎事務の魔石",
+    "english": "Magic Stone of the Knight",
+    "source": "guide"
+  },
+  {
+    "resource": 34,
+    "message": 4,
+    "japanese": "ブラフマンの魔石",
+    "english": "Magic Stone of Brahman",
+    "source": "guide"
+  },
+  {
+    "resource": 34,
+    "message": 5,
+    "japanese": "■落の魔石",
+    "english": "Magic Stone of Falling",
+    "source": "guide",
+    "note": "partially decoded (80%)"
+  },
+  {
+    "resource": 34,
+    "message": 6,
+    "japanese": "使いの魔石",
+    "english": "Magic Stone of the Familiar",
+    "source": "guide"
+  },
+  {
+    "resource": 34,
+    "message": 7,
+    "japanese": "死の魔石",
+    "english": "Magic Stone of Death",
+    "source": "guide"
+  },
+  {
+    "resource": 34,
+    "message": 8,
+    "japanese": "飾りの罰■",
+    "english": "Decorative Talisman",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 9,
+    "japanese": "■像の罰■",
+    "english": "Statue Talisman",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 10,
+    "japanese": "■除の罰■",
+    "english": "Dusty Talisman",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 11,
+    "japanese": "侍の罰■",
+    "english": "Samurai Talisman",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 12,
+    "japanese": "騎戦の罰■",
+    "english": "Battlemage Talisman",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 13,
+    "japanese": "聖王の罰■",
+    "english": "Holy Knight Talisman",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 14,
+    "japanese": "■さ■■の罰■",
+    "english": "Saint Peter Talisman",
+    "source": "glossary",
+    "note": "partially decoded (42%)"
+  },
+  {
+    "resource": 34,
+    "message": 15,
+    "japanese": "使いの罰■",
+    "english": "Cursed Talisman",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 16,
+    "japanese": "ラピスの■飾り",
+    "english": "Lapis Hair Ornament",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 17,
+    "japanese": "エルフの■飾り",
+    "english": "Elf Hair Ornament",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 18,
+    "japanese": "聖女の■飾り",
+    "english": "Saint's Hair Ornament",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 19,
+    "japanese": "銀の■飾り",
+    "english": "Silver Hair Ornament",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 20,
+    "japanese": "水の■飾り",
+    "english": "Water Hair Ornament",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 21,
+    "japanese": "騎女の■飾り",
+    "english": "Witch's Hair Ornament",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 22,
+    "japanese": "使いの■飾り",
+    "english": "Cursed Hair Ornament",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 23,
+    "japanese": "オークのリスト",
+    "english": "Orc Wristband",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 24,
+    "japanese": "オーガパワーリスト",
+    "english": "Ogre Power Wristband",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 25,
+    "japanese": "盗賊のリスト",
+    "english": "Thief's Wristband",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 26,
+    "japanese": "兵士のリスト",
+    "english": "Knight's Wristband",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 27,
+    "japanese": "だめオークのリスト",
+    "english": "Useless Orc Wristband",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 28,
+    "japanese": "力ぬけるリスト",
+    "english": "Exhausting Wristband",
+    "source": "glossary"
+  },
+  {
+    "resource": 34,
+    "message": 29,
+    "japanese": "スピードブーツ",
+    "english": "Boots of Speed",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 1,
+    "japanese": "バブリースライム",
+    "english": "Bubble Slime",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 2,
+    "japanese": "ローグ",
+    "english": "Rogue",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 3,
+    "japanese": "ゾンビ",
+    "english": "Zombie",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 4,
+    "japanese": "ガスドラゴン",
+    "english": "Gas Dragon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 5,
+    "japanese": "オーガ",
+    "english": "Ogre",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 6,
+    "japanese": "ピクシー",
+    "english": "Pixie",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 7,
+    "japanese": "ボギーキャット",
+    "english": "Bogey Cat",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 8,
+    "japanese": "ドラゴンフライ",
+    "english": "Dragon Fly",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 9,
+    "japanese": "ロッティングコープス",
+    "english": "Rotting Corpse",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 10,
+    "japanese": "ボーリングビートル",
+    "english": "Boring Beetle",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 11,
+    "japanese": "オーク",
+    "english": "Orc",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 12,
+    "japanese": "コボルド",
+    "english": "Kobold",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 13,
+    "japanese": "アンデッドコボルド",
+    "english": "Undead Kobold",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 14,
+    "japanese": "ジャイアントトード",
+    "english": "Giant Toad",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 15,
+    "japanese": "ヒュージスパイダーa",
+    "english": "Huge Spider A",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 16,
+    "japanese": "ヒュージスパイダーb",
+    "english": "Huge Spider B",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 17,
+    "japanese": "ジャイアントスピナー",
+    "english": "Giant Spinner",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 18,
+    "japanese": "ゲイズハウンド",
+    "english": "Gaze Hound",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 19,
+    "japanese": "スピリット",
+    "english": "Spirit",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 20,
+    "japanese": "ワイバーン",
+    "english": "Wyvern",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 21,
+    "japanese": "シェイド",
+    "english": "Shade",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 22,
+    "japanese": "アースジャイアント",
+    "english": "Earth Giant",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 23,
+    "japanese": "ウィル■オ■ウィスプ",
+    "english": "Will-O-Wisp",
+    "source": "glossary",
+    "note": "partially decoded (80%), likely ウィル・オ・ウィスプ"
+  },
+  {
+    "resource": 36,
+    "message": 24,
+    "japanese": "ガーゴイル",
+    "english": "Gargoyle",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 25,
+    "japanese": "キメラ",
+    "english": "Chimera",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 26,
+    "japanese": "オーガロード",
+    "english": "Ogre Rogue",
+    "source": "glossary",
+    "note": "Japanese reads Ogre Lord but glossary maps to Ogre Rogue"
+  },
+  {
+    "resource": 36,
+    "message": 27,
+    "japanese": "ヴァンパイア",
+    "english": "Vampire",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 28,
+    "japanese": "ドラゴンゾンビ",
+    "english": "Dragon Zombie",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 29,
+    "japanese": "ファイアジャイアント",
+    "english": "Fire Giant",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 30,
+    "japanese": "フロストジャイアント",
+    "english": "Frost Giant",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 31,
+    "japanese": "ポイズンジャイアント",
+    "english": "Poison Giant",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 32,
+    "japanese": "レッサーデーモン",
+    "english": "Lesser Demon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 33,
+    "japanese": "グレーターデーモン",
+    "english": "Greater Demon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 34,
+    "japanese": "ファイアドラゴン",
+    "english": "Fire Dragon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 35,
+    "japanese": "バイドパイパー",
+    "english": "Pied Piper",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 36,
+    "japanese": "ヴァンパイアロード",
+    "english": "Vampire Lord",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 37,
+    "japanese": "マイルフィック",
+    "english": "Maelific",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 38,
+    "japanese": "バンシー",
+    "english": "Banshee",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 39,
+    "japanese": "セラフ",
+    "english": "Seraph",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 40,
+    "japanese": "アークエンジェル",
+    "english": "Archangel",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 41,
+    "japanese": "デュラハン",
+    "english": "Dullahan",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 42,
+    "japanese": "ケルベロス",
+    "english": "Cerberus",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 43,
+    "japanese": "レイバーロード",
+    "english": "Labor Lord",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 44,
+    "japanese": "ハーピー",
+    "english": "Harpy",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 45,
+    "japanese": "メデューサリザード",
+    "english": "Medusa Salamander",
+    "source": "glossary",
+    "note": "Japanese says Medusa Lizard; glossary name is Medusa Salamander"
+  },
+  {
+    "resource": 36,
+    "message": 46,
+    "japanese": "プリーステス",
+    "english": "Priestess",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 47,
+    "japanese": "ワーウルフ",
+    "english": "Werewolf",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 48,
+    "japanese": "lv３ファイター",
+    "english": "Lvl3 Fighter",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 49,
+    "japanese": "lv１プリースト",
+    "english": "Lvl1 Priest",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 50,
+    "japanese": "lv１メイジ",
+    "english": "Lvl1 Mage",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 51,
+    "japanese": "lv３サムライ",
+    "english": "Lvl3 Samurai",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 52,
+    "japanese": "lv１ビショップ",
+    "english": "Lvl1 Bishop",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 53,
+    "japanese": "lv１ニンジャ",
+    "english": "Lvl1 Ninja",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 54,
+    "japanese": "ナインテール",
+    "english": "Ninetails",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 55,
+    "japanese": "インキュバス",
+    "english": "Incubus",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 56,
+    "japanese": "フレッシュゴーレム",
+    "english": "Flesh Golem",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 57,
+    "japanese": "ブシン",
+    "english": "Bushwacker",
+    "source": "glossary",
+    "note": "Abbreviated form of ブッシュワッカー"
+  },
+  {
+    "resource": 36,
+    "message": 58,
+    "japanese": "ブッシュワッカーa",
+    "english": "Bushwacker",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 59,
+    "japanese": "ハイウェイマン",
+    "english": "Pied Piper",
+    "source": "glossary",
+    "note": "Highwayman - may be second Pied Piper encounter variant (level 48)"
+  },
+  {
+    "resource": 36,
+    "message": 60,
+    "japanese": "lv４シーフa",
+    "english": "Lvl10 Thief",
+    "source": "glossary",
+    "note": "Thief variant A"
+  },
+  {
+    "resource": 36,
+    "message": 61,
+    "japanese": "マスターシーフa",
+    "english": "Master Thief A",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 62,
+    "japanese": "ファントムシーフa",
+    "english": "Phantom Thief A",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 63,
+    "japanese": "lv７ファイター",
+    "english": "Lvl8 Fighter",
+    "source": "glossary",
+    "note": "Japanese lv7, glossary closest match is Lvl8 Fighter"
+  },
+  {
+    "resource": 36,
+    "message": 64,
+    "japanese": "lv８ファイター",
+    "english": "Lvl8 Fighter",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 65,
+    "japanese": "lv１０ファイター",
+    "english": "Swordsman",
+    "source": "glossary",
+    "note": "High-level fighter, no direct glossary entry for Lvl10 Fighter"
+  },
+  {
+    "resource": 36,
+    "message": 66,
+    "japanese": "ソードマン",
+    "english": "Swordsman",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 67,
+    "japanese": "バーサーカー",
+    "english": "Berserker",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 68,
+    "japanese": "lv５メイジ",
+    "english": "Lvl7 Mage",
+    "source": "glossary",
+    "note": "Japanese lv5, closest glossary match is Lvl7 Mage"
+  },
+  {
+    "resource": 36,
+    "message": 69,
+    "japanese": "lv７メイジ",
+    "english": "Lvl7 Mage",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 70,
+    "japanese": "アークメイジ",
+    "english": "Archmage",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 71,
+    "japanese": "lv１０メイジ",
+    "english": "High Wizard",
+    "source": "glossary",
+    "note": "No Lvl10 Mage in glossary; promoted to High Wizard"
+  },
+  {
+    "resource": 36,
+    "message": 72,
+    "japanese": "ハイウィザード",
+    "english": "High Wizard",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 73,
+    "japanese": "ネクロマンサー",
+    "english": "Necromancer",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 74,
+    "japanese": "lv３プリースト",
+    "english": "Lvl8 Priest",
+    "source": "glossary",
+    "note": "Japanese lv3 Priest"
+  },
+  {
+    "resource": 36,
+    "message": 75,
+    "japanese": "lv５プリーステス",
+    "english": "Lvl5 Priestess",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 76,
+    "japanese": "lv８プリースト",
+    "english": "Lvl8 Priest",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 77,
+    "japanese": "ハイプリースト",
+    "english": "Arch Priest",
+    "source": "glossary",
+    "note": "Japanese High Priest; glossary uses Arch Priest"
+  },
+  {
+    "resource": 36,
+    "message": 78,
+    "japanese": "マスタープリーステス",
+    "english": "Master Priestess",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 79,
+    "japanese": "アークプリースト",
+    "english": "Arch Priest",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 80,
+    "japanese": "lv８ビショップ",
+    "english": "Lvl8 Bishop",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 81,
+    "japanese": "lv１０ビショップ",
+    "english": "Lvl10 Bishop",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 82,
+    "japanese": "アークビショップ",
+    "english": "Arch Bishop",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 83,
+    "japanese": "ブルードラゴン",
+    "english": "Blue Dragon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 84,
+    "japanese": "カッパードラゴン",
+    "english": "Copper Dragon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 85,
+    "japanese": "マイナーダイミョウ",
+    "english": "Chicken Ogre",
+    "source": "glossary",
+    "note": "Minor Daimyo - mapped to Chicken Ogre per guide context"
+  },
+  {
+    "resource": 36,
+    "message": 86,
+    "japanese": "メジャーダイミョウ",
+    "english": "Champion Samurai",
+    "source": "glossary",
+    "note": "Major Daimyo - mapped to Champion Samurai per guide context"
+  },
+  {
+    "resource": 36,
+    "message": 87,
+    "japanese": "チャンプサムライ",
+    "english": "Champion Samurai",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 88,
+    "japanese": "ハタモト",
+    "english": "Hatamoto",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 89,
+    "japanese": "ショウグン",
+    "english": "Shogun",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 90,
+    "japanese": "ホワイトドラゴン",
+    "english": "White Dragon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 91,
+    "japanese": "ゴールドドラゴン",
+    "english": "Gold Dragon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 92,
+    "japanese": "スペルデーモン",
+    "english": "Spell Demon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 93,
+    "japanese": "エルダーデーモン",
+    "english": "Elder Demon",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 94,
+    "japanese": "ゴースト",
+    "english": "Skedim Ghost",
+    "source": "glossary",
+    "note": "Generic Ghost entry"
+  },
+  {
+    "resource": 36,
+    "message": 95,
+    "japanese": "ライフスティーラー",
+    "english": "Deathbringer",
+    "source": "glossary",
+    "note": "Life Stealer - mapped to Deathbringer per glossary"
+  },
+  {
+    "resource": 36,
+    "message": 96,
+    "japanese": "デスブリンガー",
+    "english": "Deathbringer",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 98,
+    "japanese": "エンジェル",
+    "english": "Archangel",
+    "source": "glossary",
+    "note": "Angel - no separate Angel entry in glossary"
+  },
+  {
+    "resource": 36,
+    "message": 99,
+    "japanese": "オークキング",
+    "english": "Orc King",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 100,
+    "japanese": "レッドスライム",
+    "english": "Red Slime",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 101,
+    "japanese": "シルバースライム",
+    "english": "Silver Slime",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 102,
+    "japanese": "フェアリー",
+    "english": "Fairy",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 103,
+    "japanese": "ストーンフライ",
+    "english": "Stonefly",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 104,
+    "japanese": "スパイラルビートル",
+    "english": "Spiral Beetle",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 105,
+    "japanese": "lv３ニンジャ",
+    "english": "Lvl6 Ninja",
+    "source": "glossary",
+    "note": "Japanese lv3 Ninja"
+  },
+  {
+    "resource": 36,
+    "message": 106,
+    "japanese": "lv６ニンジャ",
+    "english": "Lvl6 Ninja",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 107,
+    "japanese": "lv８ニンジャ",
+    "english": "Master Ninja",
+    "source": "glossary",
+    "note": "Japanese lv8 Ninja"
+  },
+  {
+    "resource": 36,
+    "message": 108,
+    "japanese": "マスターニンジャ",
+    "english": "Master Ninja",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 109,
+    "japanese": "ザ・ハイマスター",
+    "english": "Grandmaster Ninja",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 110,
+    "japanese": "ハイニンジャ",
+    "english": "High Ninja",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 111,
+    "japanese": "フウマニンジャ",
+    "english": "Fuma Ninja",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 112,
+    "japanese": " 死 神 ",
+    "english": "Grim Reaper",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 113,
+    "japanese": "lv１０シーフ",
+    "english": "Lvl10 Thief",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 114,
+    "japanese": "マスターシーフb",
+    "english": "Master Thief B",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 115,
+    "japanese": "ブッシュワッカーb",
+    "english": "Bushwacker",
+    "source": "glossary",
+    "note": "Bushwacker variant B"
+  },
+  {
+    "resource": 36,
+    "message": 116,
+    "japanese": "lv４シーフb",
+    "english": "Lvl10 Thief",
+    "source": "glossary",
+    "note": "Thief variant B"
+  },
+  {
+    "resource": 36,
+    "message": 117,
+    "japanese": "マスターシーフb",
+    "english": "Master Thief B",
+    "source": "glossary",
+    "note": "Duplicate of message 114"
+  },
+  {
+    "resource": 36,
+    "message": 118,
+    "japanese": "ファントムシーフb",
+    "english": "Phantom Thief B",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 119,
+    "japanese": "lv１０シーフ",
+    "english": "Lvl10 Thief",
+    "source": "glossary",
+    "note": "Duplicate of message 113"
+  },
+  {
+    "resource": 36,
+    "message": 120,
+    "japanese": "マスターシーフc",
+    "english": "Master Thief C",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 121,
+    "japanese": "lv３ニンジャb",
+    "english": "Lvl6 Ninja",
+    "source": "glossary",
+    "note": "Ninja variant B"
+  },
+  {
+    "resource": 36,
+    "message": 122,
+    "japanese": "lv６ニンジャb",
+    "english": "Lvl6 Ninja",
+    "source": "glossary",
+    "note": "Ninja variant B"
+  },
+  {
+    "resource": 36,
+    "message": 123,
+    "japanese": "lv８ニンジャb",
+    "english": "Master Ninja",
+    "source": "glossary",
+    "note": "Ninja variant B"
+  },
+  {
+    "resource": 36,
+    "message": 124,
+    "japanese": "マスターニンジャb",
+    "english": "Master Ninja",
+    "source": "glossary",
+    "note": "Variant B"
+  },
+  {
+    "resource": 36,
+    "message": 125,
+    "japanese": "ザ・ハイマスターb",
+    "english": "Grandmaster Ninja",
+    "source": "glossary",
+    "note": "Variant B"
+  },
+  {
+    "resource": 36,
+    "message": 126,
+    "japanese": "ハイニンジャb",
+    "english": "High Ninja",
+    "source": "glossary",
+    "note": "Variant B"
+  },
+  {
+    "resource": 36,
+    "message": 127,
+    "japanese": "フウマニンジャb",
+    "english": "Fuma Ninja",
+    "source": "glossary",
+    "note": "Variant B"
+  },
+  {
+    "resource": 36,
+    "message": 128,
+    "japanese": "ダフネ",
+    "english": "Starfish",
+    "source": "glossary",
+    "note": "Daphne - mapped to Starfish per glossary"
+  },
+  {
+    "resource": 36,
+    "message": 129,
+    "japanese": "サキュバス",
+    "english": "Succubus",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 130,
+    "japanese": "レプラコーン",
+    "english": "Leprechaun",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 131,
+    "japanese": "スレイプニル",
+    "english": "Sleipnir",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 132,
+    "japanese": "リッチ",
+    "english": "Lich",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 133,
+    "japanese": "ストラス",
+    "english": "Seraph",
+    "source": "glossary",
+    "note": "Stolas/Stras - angelic monster, mapped to Seraph variant"
+  },
+  {
+    "resource": 36,
+    "message": 134,
+    "japanese": "ケンタウロス",
+    "english": "Centaurus",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 135,
+    "japanese": "アシラ",
+    "english": "Ashira",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 136,
+    "japanese": "スケディム",
+    "english": "Skedim",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 137,
+    "japanese": "マジキム",
+    "english": "Mazikeen",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 138,
+    "japanese": "イムプ",
+    "english": "Imp",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 139,
+    "japanese": "アシラの子",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Child of Ashira"
+  },
+  {
+    "resource": 36,
+    "message": 140,
+    "japanese": " 強の壁 ",
+    "english": "Maelific",
+    "source": "glossary",
+    "note": "Wall of Strength - boss/special encounter"
+  },
+  {
+    "resource": 36,
+    "message": 141,
+    "japanese": "アウローラ",
+    "english": "Aurora",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 142,
+    "japanese": "オートマター",
+    "english": "Automata",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 143,
+    "japanese": "スケディム",
+    "english": "Skedim",
+    "source": "glossary",
+    "note": "Second Skedim entry (level 50 variant)"
+  },
+  {
+    "resource": 36,
+    "message": 144,
+    "japanese": " アシラ ",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Boss variant with spacing"
+  },
+  {
+    "resource": 36,
+    "message": 145,
+    "japanese": " アシラ ",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Boss variant with spacing"
+  },
+  {
+    "resource": 36,
+    "message": 146,
+    "japanese": " アシラ ",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Boss variant with spacing"
+  },
+  {
+    "resource": 36,
+    "message": 147,
+    "japanese": " アシラ ",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Boss variant with spacing"
+  },
+  {
+    "resource": 36,
+    "message": 148,
+    "japanese": "アシラの子",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Child of Ashira"
+  },
+  {
+    "resource": 36,
+    "message": 149,
+    "japanese": "アシラの子",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Child of Ashira"
+  },
+  {
+    "resource": 36,
+    "message": 150,
+    "japanese": "アシラの子",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Child of Ashira"
+  },
+  {
+    "resource": 36,
+    "message": 151,
+    "japanese": "アシラの子",
+    "english": "Ashira",
+    "source": "glossary",
+    "note": "Child of Ashira"
+  },
+  {
+    "resource": 36,
+    "message": 152,
+    "japanese": "フレッシュゴーレム",
+    "english": "Flesh Golem",
+    "source": "glossary",
+    "note": "Duplicate entry"
+  },
+  {
+    "resource": 36,
+    "message": 153,
+    "japanese": "フレッシュゴーレム",
+    "english": "Flesh Golem",
+    "source": "glossary",
+    "note": "Duplicate entry"
+  },
+  {
+    "resource": 36,
+    "message": 154,
+    "japanese": "チキンオーガ",
+    "english": "Chicken Ogre",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 155,
+    "japanese": "スケディム・ゴースト",
+    "english": "Skedim Ghost",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 156,
+    "japanese": "マジキム・ゴースト",
+    "english": "Mazikeem Ghost",
+    "source": "glossary"
+  },
+  {
+    "resource": 36,
+    "message": 157,
+    "japanese": " 強の壁 ",
+    "english": "Maelific",
+    "source": "glossary",
+    "note": "Wall of Strength - boss/special encounter (duplicate)"
+  }
+]

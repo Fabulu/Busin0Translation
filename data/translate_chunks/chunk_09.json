@@ -1,0 +1,877 @@
+[
+  {
+    "resource": 49,
+    "message": 40,
+    "japanese": "スピア / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 41,
+    "japanese": "ダークフォグ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 42,
+    "japanese": "クロスボウ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 43,
+    "japanese": "ルーフフォール / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 44,
+    "japanese": "mpドレイン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 45,
+    "japanese": "ポイズンガス / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 46,
+    "japanese": "アラーム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 47,
+    "japanese": "ストーンガス / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 48,
+    "japanese": "テレポーター / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 51,
+    "japanese": "アイテムをあきらめました / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 52,
+    "japanese": "宝箱は開けられている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 53,
+    "japanese": "はしごで物動しますか？「■：キャンセル」 / ",
+    "coverage": 95,
+    "unknown_glyphs": [
+      107
+    ]
+  },
+  {
+    "resource": 49,
+    "message": 54,
+    "japanese": "上のフロア / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 55,
+    "japanese": "下のフロア / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 56,
+    "japanese": "階段を上りますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 57,
+    "japanese": "階段を下りますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 58,
+    "japanese": "上の階へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 59,
+    "japanese": "下の階へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 60,
+    "japanese": "カギを使った  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 61,
+    "japanese": "はしごを上りますか？ / 「■：決復 ■：キャンセル」 / ",
+    "coverage": 91,
+    "unknown_glyphs": [
+      106,
+      107
+    ]
+  },
+  {
+    "resource": 49,
+    "message": 62,
+    "japanese": "はしごを下りますか？ / 「■：決復 ■：キャンセル」 / ",
+    "coverage": 91,
+    "unknown_glyphs": [
+      106,
+      107
+    ]
+  },
+  {
+    "resource": 49,
+    "message": 63,
+    "japanese": "は い / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 64,
+    "japanese": "いいえ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 65,
+    "japanese": "キャンセル / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 66,
+    "japanese": "街へ帰りますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 67,
+    "japanese": "荷士がつまれ、道がふさがれている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 68,
+    "japanese": "カギを使った  / さびたカギはくだけてしまった  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 69,
+    "japanese": "b１へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 70,
+    "japanese": "b４へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 71,
+    "japanese": "b５へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 72,
+    "japanese": "b１０へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 73,
+    "japanese": "ワープゾーンに入りますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 74,
+    "japanese": "b３へ物動しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 75,
+    "japanese": "b５へ物動しますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 76,
+    "japanese": "とびおりられそうな穴がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 77,
+    "japanese": "炎が道をふさいでいる / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 78,
+    "japanese": "遠くに階段が見える / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 79,
+    "japanese": "ふん水がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 80,
+    "japanese": "炎がもえ上がっていて / とび下りるのは■険そうだ / ",
+    "coverage": 95,
+    "unknown_glyphs": [
+      625
+    ]
+  },
+  {
+    "resource": 49,
+    "message": 81,
+    "japanese": "水の中に階段が見える / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 82,
+    "japanese": "不気用な像だ！ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 83,
+    "japanese": "不気用な像が道をふさいでいる / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 84,
+    "japanese": "不気用な像の下に何かが見える / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 85,
+    "japanese": "不思議な形の像が / 道をふさいでいる / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 86,
+    "japanese": "がれきの壁に / 冒険者の死体がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 87,
+    "japanese": "■のような不気用な像がある / ",
+    "coverage": 92,
+    "unknown_glyphs": [
+      829
+    ]
+  },
+  {
+    "resource": 49,
+    "message": 88,
+    "japanese": "立派な装備品が飾られている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 89,
+    "japanese": "常が重すぎて開けられない / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 90,
+    "japanese": "死体がよこたわっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 91,
+    "japanese": "がい骨がころがっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 92,
+    "japanese": "ここだけ特に重そうに感じる / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 93,
+    "japanese": "水瓶がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 94,
+    "japanese": "美しい祠がまつられている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 95,
+    "japanese": "巨大な女神の団像がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 96,
+    "japanese": "くずれたゆかのそこが / 光りかがやいている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 97,
+    "japanese": "b８へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 98,
+    "japanese": "b６へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 99,
+    "japanese": "b３へワープしますか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 100,
+    "japanese": "小さなふくろが落ちている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 101,
+    "japanese": "金色のカギがかかっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 102,
+    "japanese": "銀色のカギがかかっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 103,
+    "japanese": "さびた色のカギがかかっている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 104,
+    "japanese": "大きな水瓶が飾られている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 105,
+    "japanese": "柵が上がっていて通れない / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 106,
+    "japanese": "オートマターが潜んでいる / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 107,
+    "japanese": "重で像が欠けている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 108,
+    "japanese": "騎士の顔の像がある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 109,
+    "japanese": "金色のプレートがういている / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 49,
+    "message": 110,
+    "japanese": "美しいさいだんがある / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 1053,
+    "message": 0,
+    "japanese": "ブベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 1053,
+    "message": 1,
+    "japanese": "別ベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 1053,
+    "message": 2,
+    "japanese": "容ベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 1053,
+    "message": 4,
+    "japanese": "ブベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 1908,
+    "message": 0,
+    "japanese": "ブベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 1908,
+    "message": 1,
+    "japanese": "別ベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 1908,
+    "message": 2,
+    "japanese": "容ベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2124,
+    "message": 0,
+    "japanese": "ブベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2124,
+    "message": 1,
+    "japanese": "別ベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2124,
+    "message": 2,
+    "japanese": "容ベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2124,
+    "message": 3,
+    "japanese": "容ベ     ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 1,
+    "japanese": "前衛２鉄が理１鎧にタイミングを騎わ / せ同持に攻手し、大きなダメージを与 / えるaa。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 2,
+    "japanese": "後衛の魔王を、前衛の武器に信して攻 / 手するaa。攻手回くは１回に制限さ / れるが、秘計■敏の持いモンスターを / 秘計させる景が元■るaa。 / ",
+    "coverage": 96,
+    "unknown_glyphs": [
+      439,
+      823
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 3,
+    "japanese": "後衛の魔王で、理の果きを険街とめ、 / そのスキに前衛が攻手するaa。 / 攻手回くは１回に制限されるが、回避 / 王の覚いモンスターを攻手するのに / 有宮。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 4,
+    "japanese": "後衛の魔王で前衛を新動に上げ、前衛 / がターンの身後に許■を■■攻手する / aa。攻手回くは１回に制限されるが / モンスターの■解王を険限年持宮化す / ることができる。 / ",
+    "coverage": 94,
+    "unknown_glyphs": [
+      1257,
+      456,
+      703,
+      617
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 5,
+    "japanese": "となり騎った前衛２鉄が、タイミング / を騎わせ、理パーティの前衛・後衛の / 離絶にいる理に者攻攻手を削うaa。 / 攻手回くは１回に制限されるが、闘ず / 攻手を聞動させられる。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 6,
+    "japanese": "後衛２鉄が、魔王をクロスさせて理の / 果きを骨じ、前に値きずり元したとこ / ろを前衛２鉄が同持に攻手するaa。 / 回避王・hpの覚い理に有宮な箱期攻 / 手。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 7,
+    "japanese": "前衛全員が■罰して■解■■を取り、 / 回避王・■解王を覚める。理の攻手に / よる秘計・備仰・■・ed・adをも / ■ぎ、さらに理のイラッシュゴを / ブロックできる。 / ",
+    "coverage": 90,
+    "unknown_glyphs": [
+      294,
+      617,
+      809,
+      1100,
+      617,
+      345,
+      617
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 8,
+    "japanese": "後衛２鉄が魔王を罰動させて魔法のバ / リアをはるaa。 / 魔法によるダメージをダウンさせ、レ / ジスト■■払を覚めることができる。 / ",
+    "coverage": 96,
+    "unknown_glyphs": [
+      655,
+      805
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 9,
+    "japanese": "後衛全員が魔王を罰動させ、気度 / フィールド全鎧を強王な魔法バリアで / おおうaa。そのターンは、理味方と / もに聖飾による魔法を険紹効果させる / ことができない。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 10,
+    "japanese": "後衛全員が魔王を罰動させ、パーティ / 全員の協誰を用りだすaa。協誰は、 / ダメージを受けると消えてしまうが、 / 攻手の許■になった長騎、■鎧は険紹 / ダメージを受けずにすむ。 / ",
+    "coverage": 97,
+    "unknown_glyphs": [
+      1257,
+      305
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 11,
+    "japanese": "理のブレスが習たれた街■にパーティ / 全員が■小し、ブレス・魔法による / ダメージをダウンさせる。 / 代わりに、通常攻手によるダメージが / アップしてしまう。 / ",
+    "coverage": 97,
+    "unknown_glyphs": [
+      570,
+      282
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 12,
+    "japanese": "パーティ全員が■罰悪■を取り、通常 / 攻手に対する回避王・■解王を大きく / アップさせるaa。代わりにブレス・ / 魔法によるダメージがアップしてしま / う。 / ",
+    "coverage": 95,
+    "unknown_glyphs": [
+      294,
+      1018,
+      617
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 13,
+    "japanese": "防衛すべき前衛が、理の攻手を受ける / 持に、後衛がとび■番で良魔し、攻手 / をカットさせるaa。防衛すべき前衛 / が攻手されるたびに効果する。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      442
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 14,
+    "japanese": "味方の攻手前に、後衛全員でとび■番 / による攻手を削い、攻手の聞動払を / アップさせるaa。 / ",
+    "coverage": 97,
+    "unknown_glyphs": [
+      442
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 15,
+    "japanese": "理が魔法を行使しようとした持に、後 / 衛がとび■番で攻手、魔法の行使を強 / 戦的に良魔するaa。１ターンあたり / の効果回くに戦制がある。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      442
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 16,
+    "japanese": "理がブレスを応こうとした持に、後衛 / がとび■番で攻手、ブレスの行使を強 / 戦的に良魔するaa。１ターンあたり / の効果回くに戦制がある。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      442
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 17,
+    "japanese": "防衛すべき後衛が、理の攻手を受ける / 持に、前衛が誰代わりとなって、後衛 / を壁るaa。理のとび■番による攻手 / にも対名することができる。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      442
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 18,
+    "japanese": "囮の前衛が、理の攻手を受ける持に後 / 退し、決りの前衛がサイドから攻手、 / 理の箱期攻手を強戦的にカットする。 / １ターンあたりの効果回くに戦制があ / る。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 19,
+    "japanese": "後衛３鉄が魔王を罰動し、魔法の宮力 / エリアをひろげるaa。また、理の聖 / 飾持宮化■王をダウンさせ、魔法の宮 / 力もアップさせることができる。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      631
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 20,
+    "japanese": "後衛全員で魔王を罰動し、■の魔法宮 / 力を投集するaa。味方全員のイ骨 / 魔ゴを回■させ、また理のイマジック / シェルゴイアンチマジックシェルゴを / 投集することができる。 / ",
+    "coverage": 97,
+    "unknown_glyphs": [
+      874,
+      483
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 21,
+    "japanese": "後衛の、となりあった■同賊が２鉄と / も同じ魔法を少協ずつ唱えることで、 / 魔法の■削者過を者める。 / イアンチマジックシェルゴよりも者く / ■削できる。 / ",
+    "coverage": 95,
+    "unknown_glyphs": [
+      333,
+      740,
+      740
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 22,
+    "japanese": "後衛が、魔法を味方の武器に信らせ、 / その武器で味方が攻手するaa。攻手 / が聞動すれば、理の聖飾持宮化■王・ / マジックシェルを持泊し、魔法を効果 / させることができる。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      631
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 23,
+    "japanese": "後衛２鉄が、魔法を道を騎わせて唱え / ることで、魔法の宮力を大きくパワー / アップさせるaa。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 24,
+    "japanese": "前衛３鉄が、箱内して理１鎧に攻手を / しかけ、ダメージを大きくアップさせ / るaa。箱期宮力で、１鉄許より２鉄 / 許、２鉄許より３鉄許の与えるダメー / ジのほうがより覚くなる。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 25,
+    "japanese": "あらかじめ囮となる前衛１鉄が攻手さ / れた後、決りの前衛２鉄が険秘に理の / 後■に回りこんで攻手するaa。 / 聞動払が大きくアップし、大きなダ / メージを与えることができる。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      444
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 26,
+    "japanese": "罰動攻手が、心賊の■団によって進化 / したもの。 / １鉄許が全王で理を新動に器き上げ、 / ■■動および理の大ち上がりぎわに攻 / 手し、大きなダメージを与える。 / ",
+    "coverage": 95,
+    "unknown_glyphs": [
+      1294,
+      456,
+      703
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 27,
+    "japanese": "パーティ全員で鎧呪たり攻手を削い、 / 理全鎧にダメージを与えるaa。イフ / ロントガードゴでブロックされない制 / り、回避されることはない。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 2654,
+    "message": 28,
+    "japanese": "前衛２鉄がフェイント攻手をしたスキ / に、決りの１鉄が新動から険秘に理の / 避■をねらう。攻手回くは全員１回に / 制限されるが、３鉄許はクリティカル / 払が大きくアップする。 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      663
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 29,
+    "japanese": "前後衛の２鉄でホーリーシンボルを紹 / り、強王なディスペルを削うaa。 / 加■■に対して、計大な宮力がある。 / ",
+    "coverage": 96,
+    "unknown_glyphs": [
+      368,
+      645
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 30,
+    "japanese": "後衛の１鉄が魔王でワープゲートを用 / り、前衛３鉄が器来、ターンの身後に / 上新のゲートから■■攻手を削う。 / 理の■解王を持泊できる。 / 新動にいる■は攻手許■とならない。 / ",
+    "coverage": 93,
+    "unknown_glyphs": [
+      456,
+      703,
+      617,
+      570,
+      1257
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 31,
+    "japanese": "スレイクラッシュが、モンクの■団に / よって進化したもの。 / ２鉄が秘王をこめて理■をかけ■け、 / そして■る。削きと人りでダメージを / 与え、かつ加■■を違すことも能■。 / ",
+    "coverage": 91,
+    "unknown_glyphs": [
+      1294,
+      303,
+      878,
+      1277,
+      368,
+      645,
+      631
+    ]
+  },
+  {
+    "resource": 2654,
+    "message": 32,
+    "japanese": "wスラッシュが、心賊の■団によって / 進化したもの。 / 前衛２鉄が武器を振るってカマイタチ / を効■させ、攻手。許■の後方にいる / 理にもダメージを与えることがある。 / ",
+    "coverage": 96,
+    "unknown_glyphs": [
+      1294,
+      654,
+      1257
+    ]
+  }
+]

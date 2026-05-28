@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "sheet": "sheet_01_glyphs_0100-0199.png",
+    "method": "Visual inspection of 12x12 pixel glyphs at 8x zoom",
+    "confidence": "LOW - resolution too coarse for reliable Japanese character identification",
+    "blank_range": "100-157 (confirmed empty, no visible pixels)",
+    "artifact_range": "157-159 (1-2 pixel artifacts only, not identifiable characters)",
+    "visible_range": "160-199 (visible glyph content, but individual character ID unreliable at 12px)"
+  }
+}

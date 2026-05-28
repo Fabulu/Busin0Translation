@@ -1,0 +1,405 @@
+{
+  "previous_count": 428,
+  "corrections": {
+    "358": {
+      "old": "し",
+      "new": "外",
+      "reason": "r40: all contexts require hazusu/remove"
+    }
+  },
+  "added_count": 64,
+  "added": {
+    "0": {
+      "char": " ",
+      "agents": [
+        "r38"
+      ]
+    },
+    "13": {
+      "char": "−",
+      "agents": [
+        "r46"
+      ]
+    },
+    "276": {
+      "char": "手",
+      "agents": [
+        "r39",
+        "r46"
+      ]
+    },
+    "309": {
+      "char": "忍",
+      "agents": [
+        "r46"
+      ]
+    },
+    "315": {
+      "char": "盗",
+      "agents": [
+        "findings"
+      ]
+    },
+    "328": {
+      "char": "上",
+      "agents": [
+        "r46"
+      ]
+    },
+    "338": {
+      "char": "一",
+      "agents": [
+        "r46"
+      ]
+    },
+    "343": {
+      "char": "務",
+      "agents": [
+        "findings"
+      ]
+    },
+    "344": {
+      "char": "悔",
+      "agents": [
+        "findings"
+      ]
+    },
+    "355": {
+      "char": "殺",
+      "agents": [
+        "r46"
+      ]
+    },
+    "397": {
+      "char": "毒",
+      "agents": [
+        "r46"
+      ]
+    },
+    "398": {
+      "char": "帰",
+      "agents": [
+        "findings"
+      ]
+    },
+    "406": {
+      "char": "封",
+      "agents": [
+        "findings"
+      ]
+    },
+    "423": {
+      "char": "良",
+      "agents": [
+        "r46"
+      ]
+    },
+    "490": {
+      "char": "息",
+      "agents": [
+        "r41"
+      ]
+    },
+    "505": {
+      "char": "地",
+      "agents": [
+        "findings"
+      ]
+    },
+    "510": {
+      "char": "前",
+      "agents": [
+        "r46"
+      ]
+    },
+    "515": {
+      "char": "条",
+      "agents": [
+        "findings"
+      ]
+    },
+    "525": {
+      "char": "孤",
+      "agents": [
+        "findings"
+      ]
+    },
+    "526": {
+      "char": "独",
+      "agents": [
+        "findings"
+      ]
+    },
+    "534": {
+      "char": "感",
+      "agents": [
+        "r38",
+        "r46"
+      ]
+    },
+    "535": {
+      "char": "知",
+      "agents": [
+        "r46"
+      ]
+    },
+    "547": {
+      "char": "該",
+      "agents": [
+        "findings"
+      ]
+    },
+    "576": {
+      "char": "同",
+      "agents": [
+        "findings"
+      ]
+    },
+    "578": {
+      "char": "街",
+      "agents": [
+        "r46"
+      ]
+    },
+    "579": {
+      "char": "帰",
+      "agents": [
+        "r46"
+      ]
+    },
+    "590": {
+      "char": "度",
+      "agents": [
+        "r46"
+      ]
+    },
+    "605": {
+      "char": "持",
+      "agents": [
+        "r39"
+      ]
+    },
+    "610": {
+      "char": "思",
+      "agents": [
+        "r38",
+        "r46"
+      ]
+    },
+    "612": {
+      "char": "払",
+      "agents": [
+        "r41"
+      ]
+    },
+    "618": {
+      "char": "考",
+      "agents": [
+        "findings"
+      ]
+    },
+    "636": {
+      "char": "違",
+      "agents": [
+        "findings"
+      ]
+    },
+    "637": {
+      "char": "応",
+      "agents": [
+        "findings"
+      ]
+    },
+    "647": {
+      "char": "使",
+      "agents": [
+        "r39",
+        "r44",
+        "r46"
+      ]
+    },
+    "665": {
+      "char": "損",
+      "agents": [
+        "findings"
+      ]
+    },
+    "669": {
+      "char": "御",
+      "agents": [
+        "findings"
+      ]
+    },
+    "670": {
+      "char": "用",
+      "agents": [
+        "findings"
+      ]
+    },
+    "677": {
+      "char": "鑑",
+      "agents": [
+        "findings"
+      ]
+    },
+    "691": {
+      "char": "並",
+      "agents": [
+        "findings"
+      ]
+    },
+    "698": {
+      "char": "終",
+      "agents": [
+        "r39"
+      ]
+    },
+    "702": {
+      "char": "日",
+      "agents": [
+        "r46"
+      ]
+    },
+    "705": {
+      "char": "現",
+      "agents": [
+        "r46"
+      ]
+    },
+    "706": {
+      "char": "員",
+      "agents": [
+        "findings"
+      ]
+    },
+    "720": {
+      "char": "幸",
+      "agents": [
+        "r38",
+        "r46"
+      ]
+    },
+    "765": {
+      "char": "地",
+      "agents": [
+        "r46"
+      ]
+    },
+    "766": {
+      "char": "年",
+      "agents": [
+        "r46"
+      ]
+    },
+    "771": {
+      "char": "下",
+      "agents": [
+        "r46"
+      ]
+    },
+    "833": {
+      "char": "戻",
+      "agents": [
+        "findings"
+      ]
+    },
+    "843": {
+      "char": "場",
+      "agents": [
+        "findings"
+      ]
+    },
+    "857": {
+      "char": "突",
+      "agents": [
+        "findings"
+      ]
+    },
+    "858": {
+      "char": "然",
+      "agents": [
+        "findings"
+      ]
+    },
+    "860": {
+      "char": "忘",
+      "agents": [
+        "r46"
+      ]
+    },
+    "868": {
+      "char": "連",
+      "agents": [
+        "findings"
+      ]
+    },
+    "869": {
+      "char": "携",
+      "agents": [
+        "findings"
+      ]
+    },
+    "887": {
+      "char": "価",
+      "agents": [
+        "findings"
+      ]
+    },
+    "913": {
+      "char": "調",
+      "agents": [
+        "findings"
+      ]
+    },
+    "928": {
+      "char": "設",
+      "agents": [
+        "findings"
+      ]
+    },
+    "944": {
+      "char": "取",
+      "agents": [
+        "findings"
+      ]
+    },
+    "969": {
+      "char": "了",
+      "agents": [
+        "r39"
+      ]
+    },
+    "972": {
+      "char": "通",
+      "agents": [
+        "r46"
+      ]
+    },
+    "994": {
+      "char": "以",
+      "agents": [
+        "findings"
+      ]
+    },
+    "997": {
+      "char": "員",
+      "agents": [
+        "r46",
+        "r47"
+      ]
+    },
+    "999": {
+      "char": "依",
+      "agents": [
+        "r46"
+      ]
+    },
+    "1012": {
+      "char": "顔",
+      "agents": [
+        "r46"
+      ]
+    }
+  },
+  "final_count": 492
+}

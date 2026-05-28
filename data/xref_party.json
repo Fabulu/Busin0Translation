@@ -1,0 +1,354 @@
+{
+  "description": "Party member name cross-reference from normaldungeonscreen.p2s EE RAM",
+  "save_state": "normaldungeonscreen.p2s",
+  "name_encoding": {
+    "format": "uint16 LE array, 8 values max, unused slots filled with 0xFFFF",
+    "basic_katakana_formula": "For name_values 193-237 (grid positions 0-44, a through wo): glyph_size0 = name_val - 95",
+    "n_katakana": "name_val 238 (grid position 45) maps to glyph 97 (special: placed before a in atlas)",
+    "extended_chars": "dakuten (positions 46-65), handakuten (66-70), small kana (71-79+), vu (80) use grid_position + 193 but glyph indices are NOT simple offset from base",
+    "chouon_special": "name_val 93 encodes the long vowel mark; does NOT follow grid_pos+193 formula"
+  },
+  "memory_layout": {
+    "guild_roster": {
+      "name_base": "0x55DD22",
+      "stride": "0x3E0 (992 bytes)",
+      "level_offset_from_name": "0xBA (186 bytes)",
+      "header_before_name": "uint16 at name_addr - 2 (0x8000=katakana, 0x8001=variation, 0x0001=other)"
+    },
+    "active_party_and_npcs": {
+      "example_base": "0x5601F2 (vera)",
+      "stride": "0x1F0 (496 bytes)",
+      "level_offset_from_name": "0xBA (186 bytes)",
+      "header_before_name": "uint16 at name_addr - 2 (0xC001=Good?, 0xC000=Neutral?)"
+    }
+  },
+  "party_members": {
+    "1_ia": {
+      "display_name": "ia (2 chars)",
+      "name_values": [
+        194,
+        193
+      ],
+      "glyph_indices_size0": [
+        99,
+        98
+      ],
+      "class_abbr": "FIG",
+      "level": 21,
+      "guild_addr": "0x55DD22",
+      "all_glyphs_known": true
+    },
+    "2_vera": {
+      "display_name": "vera (vu-small_e-chouon-ra, 4 chars)",
+      "name_values": [
+        273,
+        270,
+        93,
+        231
+      ],
+      "glyph_indices_size0": [
+        "?vu",
+        "?small_e",
+        "?chouon",
+        136
+      ],
+      "class_abbr": "KNI",
+      "level": 27,
+      "party_addr": "0x5601F2",
+      "all_glyphs_known": false
+    },
+    "3_konde": {
+      "display_name": "konde (ko-n-de, 3 chars)",
+      "name_values": [
+        202,
+        238,
+        252
+      ],
+      "glyph_indices_size0": [
+        107,
+        97,
+        "?de"
+      ],
+      "class_abbr": "MAG",
+      "level": 14,
+      "party_addr": "0x5605D2",
+      "all_glyphs_known": false
+    },
+    "4_basuko": {
+      "display_name": "basuko- (ba-su-ko-chouon, 4 chars)",
+      "name_values": [
+        254,
+        205,
+        202,
+        93
+      ],
+      "glyph_indices_size0": [
+        "?ba",
+        110,
+        107,
+        "?chouon"
+      ],
+      "class_abbr": "FIG",
+      "level": 21,
+      "guild_addr": "0x55E102",
+      "all_glyphs_known": false
+    },
+    "5_erika": {
+      "display_name": "e-rika (e-chouon-ri-ka, 4 chars)",
+      "name_values": [
+        196,
+        93,
+        232,
+        198
+      ],
+      "glyph_indices_size0": [
+        101,
+        "?chouon",
+        137,
+        103
+      ],
+      "class_abbr": "PRI",
+      "level": 15,
+      "party_addr": "0x5603E2",
+      "all_glyphs_known": false
+    },
+    "6_freesia": {
+      "display_name": "furi-jia (fu-ri-chouon-ji-a, 5 chars)",
+      "name_values": [
+        220,
+        232,
+        93,
+        245,
+        193
+      ],
+      "glyph_indices_size0": [
+        125,
+        137,
+        "?chouon",
+        "?ji",
+        98
+      ],
+      "class_abbr": "PRI",
+      "level": 16,
+      "guild_addr": "0x55E4E2",
+      "all_glyphs_known": false
+    }
+  },
+  "unknown_glyphs_needed": {
+    "chouon": {
+      "character": "long vowel mark (minus)",
+      "name_val": 93
+    },
+    "ba": {
+      "character": "ba (dakuten ha)",
+      "name_val": 254,
+      "grid_pos": 61
+    },
+    "ji": {
+      "character": "ji (dakuten shi)",
+      "name_val": 245,
+      "grid_pos": 52
+    },
+    "de": {
+      "character": "de (dakuten te)",
+      "name_val": 252,
+      "grid_pos": 59
+    },
+    "small_e": {
+      "character": "small e",
+      "name_val": 270,
+      "grid_pos": 77
+    },
+    "vu": {
+      "character": "vu (u with dakuten)",
+      "name_val": 273,
+      "grid_pos": 80
+    }
+  },
+  "confirmed_name_val_to_glyph_map": {
+    "193": {
+      "glyph": 98,
+      "char": "a"
+    },
+    "194": {
+      "glyph": 99,
+      "char": "i"
+    },
+    "195": {
+      "glyph": 100,
+      "char": "u"
+    },
+    "196": {
+      "glyph": 101,
+      "char": "e"
+    },
+    "197": {
+      "glyph": 102,
+      "char": "o"
+    },
+    "198": {
+      "glyph": 103,
+      "char": "ka"
+    },
+    "199": {
+      "glyph": 104,
+      "char": "ki"
+    },
+    "200": {
+      "glyph": 105,
+      "char": "ku"
+    },
+    "201": {
+      "glyph": 106,
+      "char": "ke"
+    },
+    "202": {
+      "glyph": 107,
+      "char": "ko"
+    },
+    "203": {
+      "glyph": 108,
+      "char": "sa"
+    },
+    "204": {
+      "glyph": 109,
+      "char": "shi"
+    },
+    "205": {
+      "glyph": 110,
+      "char": "su"
+    },
+    "206": {
+      "glyph": 111,
+      "char": "se"
+    },
+    "207": {
+      "glyph": 112,
+      "char": "so"
+    },
+    "208": {
+      "glyph": 113,
+      "char": "ta"
+    },
+    "209": {
+      "glyph": 114,
+      "char": "chi"
+    },
+    "210": {
+      "glyph": 115,
+      "char": "tsu"
+    },
+    "211": {
+      "glyph": 116,
+      "char": "te"
+    },
+    "212": {
+      "glyph": 117,
+      "char": "to"
+    },
+    "213": {
+      "glyph": 118,
+      "char": "na"
+    },
+    "214": {
+      "glyph": 119,
+      "char": "ni"
+    },
+    "215": {
+      "glyph": 120,
+      "char": "nu"
+    },
+    "216": {
+      "glyph": 121,
+      "char": "ne"
+    },
+    "217": {
+      "glyph": 122,
+      "char": "no"
+    },
+    "218": {
+      "glyph": 123,
+      "char": "ha"
+    },
+    "219": {
+      "glyph": 124,
+      "char": "hi"
+    },
+    "220": {
+      "glyph": 125,
+      "char": "fu"
+    },
+    "221": {
+      "glyph": 126,
+      "char": "he"
+    },
+    "222": {
+      "glyph": 127,
+      "char": "ho"
+    },
+    "223": {
+      "glyph": 128,
+      "char": "ma"
+    },
+    "224": {
+      "glyph": 129,
+      "char": "mi"
+    },
+    "225": {
+      "glyph": 130,
+      "char": "mu"
+    },
+    "226": {
+      "glyph": 131,
+      "char": "me"
+    },
+    "227": {
+      "glyph": 132,
+      "char": "mo"
+    },
+    "228": {
+      "glyph": 133,
+      "char": "ya"
+    },
+    "229": {
+      "glyph": 134,
+      "char": "yu"
+    },
+    "230": {
+      "glyph": 135,
+      "char": "yo"
+    },
+    "231": {
+      "glyph": 136,
+      "char": "ra"
+    },
+    "232": {
+      "glyph": 137,
+      "char": "ri"
+    },
+    "233": {
+      "glyph": 138,
+      "char": "ru"
+    },
+    "234": {
+      "glyph": 139,
+      "char": "re"
+    },
+    "235": {
+      "glyph": 140,
+      "char": "ro"
+    },
+    "236": {
+      "glyph": 141,
+      "char": "wa"
+    },
+    "237": {
+      "glyph": 142,
+      "char": "wo"
+    },
+    "238": {
+      "glyph": 97,
+      "char": "n"
+    }
+  }
+}

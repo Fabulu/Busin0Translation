@@ -1,0 +1,749 @@
+{
+  "_metadata": {
+    "description": "Hiragana character mapping table for BUSIN 0 name entry screen",
+    "source": "EE RAM analysis of PS2 save states",
+    "table_start_addr": "0x004C99B8",
+    "table_end_addr": "0x004C9AA4",
+    "entry_format": "6 x uint16 glyph IDs per row (12 bytes) with variable padding",
+    "font_page_stride": 57,
+    "total_entries": 15,
+    "total_unique_glyph_ids": 90,
+    "related_katakana_table": "0x004C9AB0",
+    "rendering_function": "0x002F53F0 (dispatched via switch at 0x002F5380)",
+    "notes": [
+      "Each row contains 6 glyph IDs rendered at 6 different grid positions",
+      "Glyph IDs follow stride-57 pattern: val[n] = base + n*57",
+      "Position function at 0x001C1DC0 maps column index to screen coordinates",
+      "The katakana_mapping.json labels all 6 stride-57 values as the same character",
+      "but analysis of the rendering code confirms they are 6 DIFFERENT characters",
+      "displayed at 6 different screen positions (columns)",
+      "Code switch cases: 0-6 = rows 0-6, 7 = rows 7-8, A = rows 9-11, extras = rows 12-14"
+    ]
+  },
+  "grid": [
+    {
+      "row_index": 0,
+      "ram_addr": "0x004C99B8",
+      "glyph_ids": [
+        86,
+        143,
+        200,
+        257,
+        314,
+        371
+      ]
+    },
+    {
+      "row_index": 1,
+      "ram_addr": "0x004C99C8",
+      "glyph_ids": [
+        87,
+        144,
+        201,
+        258,
+        315,
+        372
+      ]
+    },
+    {
+      "row_index": 2,
+      "ram_addr": "0x004C99D8",
+      "glyph_ids": [
+        88,
+        145,
+        202,
+        259,
+        316,
+        373
+      ]
+    },
+    {
+      "row_index": 3,
+      "ram_addr": "0x004C99E8",
+      "glyph_ids": [
+        89,
+        146,
+        203,
+        260,
+        317,
+        374
+      ]
+    },
+    {
+      "row_index": 4,
+      "ram_addr": "0x004C99F8",
+      "glyph_ids": [
+        90,
+        147,
+        204,
+        261,
+        318,
+        375
+      ]
+    },
+    {
+      "row_index": 5,
+      "ram_addr": "0x004C9A08",
+      "glyph_ids": [
+        91,
+        148,
+        205,
+        262,
+        319,
+        376
+      ]
+    },
+    {
+      "row_index": 6,
+      "ram_addr": "0x004C9A18",
+      "glyph_ids": [
+        92,
+        149,
+        206,
+        263,
+        320,
+        377
+      ]
+    },
+    {
+      "row_index": 7,
+      "ram_addr": "0x004C9A30",
+      "glyph_ids": [
+        93,
+        150,
+        207,
+        264,
+        321,
+        378
+      ]
+    },
+    {
+      "row_index": 8,
+      "ram_addr": "0x004C9A3C",
+      "glyph_ids": [
+        94,
+        151,
+        208,
+        265,
+        322,
+        379
+      ]
+    },
+    {
+      "row_index": 9,
+      "ram_addr": "0x004C9A50",
+      "glyph_ids": [
+        126,
+        183,
+        240,
+        297,
+        354,
+        411
+      ]
+    },
+    {
+      "row_index": 10,
+      "ram_addr": "0x004C9A5C",
+      "glyph_ids": [
+        127,
+        184,
+        241,
+        298,
+        355,
+        412
+      ]
+    },
+    {
+      "row_index": 11,
+      "ram_addr": "0x004C9A68",
+      "glyph_ids": [
+        128,
+        185,
+        242,
+        299,
+        356,
+        413
+      ]
+    },
+    {
+      "row_index": 12,
+      "ram_addr": "0x004C9A78",
+      "glyph_ids": [
+        129,
+        186,
+        243,
+        300,
+        357,
+        414
+      ]
+    },
+    {
+      "row_index": 13,
+      "ram_addr": "0x004C9A88",
+      "glyph_ids": [
+        95,
+        152,
+        209,
+        266,
+        323,
+        380
+      ]
+    },
+    {
+      "row_index": 14,
+      "ram_addr": "0x004C9A98",
+      "glyph_ids": [
+        96,
+        153,
+        210,
+        267,
+        324,
+        381
+      ]
+    }
+  ],
+  "glyph_id_to_grid_position": {
+    "86": {
+      "row": 0,
+      "col": 0,
+      "ram_addr": "0x004C99B8"
+    },
+    "143": {
+      "row": 0,
+      "col": 1,
+      "ram_addr": "0x004C99B8"
+    },
+    "200": {
+      "row": 0,
+      "col": 2,
+      "ram_addr": "0x004C99B8"
+    },
+    "257": {
+      "row": 0,
+      "col": 3,
+      "ram_addr": "0x004C99B8"
+    },
+    "314": {
+      "row": 0,
+      "col": 4,
+      "ram_addr": "0x004C99B8"
+    },
+    "371": {
+      "row": 0,
+      "col": 5,
+      "ram_addr": "0x004C99B8"
+    },
+    "87": {
+      "row": 1,
+      "col": 0,
+      "ram_addr": "0x004C99C8"
+    },
+    "144": {
+      "row": 1,
+      "col": 1,
+      "ram_addr": "0x004C99C8"
+    },
+    "201": {
+      "row": 1,
+      "col": 2,
+      "ram_addr": "0x004C99C8"
+    },
+    "258": {
+      "row": 1,
+      "col": 3,
+      "ram_addr": "0x004C99C8"
+    },
+    "315": {
+      "row": 1,
+      "col": 4,
+      "ram_addr": "0x004C99C8"
+    },
+    "372": {
+      "row": 1,
+      "col": 5,
+      "ram_addr": "0x004C99C8"
+    },
+    "88": {
+      "row": 2,
+      "col": 0,
+      "ram_addr": "0x004C99D8"
+    },
+    "145": {
+      "row": 2,
+      "col": 1,
+      "ram_addr": "0x004C99D8"
+    },
+    "202": {
+      "row": 2,
+      "col": 2,
+      "ram_addr": "0x004C99D8"
+    },
+    "259": {
+      "row": 2,
+      "col": 3,
+      "ram_addr": "0x004C99D8"
+    },
+    "316": {
+      "row": 2,
+      "col": 4,
+      "ram_addr": "0x004C99D8"
+    },
+    "373": {
+      "row": 2,
+      "col": 5,
+      "ram_addr": "0x004C99D8"
+    },
+    "89": {
+      "row": 3,
+      "col": 0,
+      "ram_addr": "0x004C99E8"
+    },
+    "146": {
+      "row": 3,
+      "col": 1,
+      "ram_addr": "0x004C99E8"
+    },
+    "203": {
+      "row": 3,
+      "col": 2,
+      "ram_addr": "0x004C99E8"
+    },
+    "260": {
+      "row": 3,
+      "col": 3,
+      "ram_addr": "0x004C99E8"
+    },
+    "317": {
+      "row": 3,
+      "col": 4,
+      "ram_addr": "0x004C99E8"
+    },
+    "374": {
+      "row": 3,
+      "col": 5,
+      "ram_addr": "0x004C99E8"
+    },
+    "90": {
+      "row": 4,
+      "col": 0,
+      "ram_addr": "0x004C99F8"
+    },
+    "147": {
+      "row": 4,
+      "col": 1,
+      "ram_addr": "0x004C99F8"
+    },
+    "204": {
+      "row": 4,
+      "col": 2,
+      "ram_addr": "0x004C99F8"
+    },
+    "261": {
+      "row": 4,
+      "col": 3,
+      "ram_addr": "0x004C99F8"
+    },
+    "318": {
+      "row": 4,
+      "col": 4,
+      "ram_addr": "0x004C99F8"
+    },
+    "375": {
+      "row": 4,
+      "col": 5,
+      "ram_addr": "0x004C99F8"
+    },
+    "91": {
+      "row": 5,
+      "col": 0,
+      "ram_addr": "0x004C9A08"
+    },
+    "148": {
+      "row": 5,
+      "col": 1,
+      "ram_addr": "0x004C9A08"
+    },
+    "205": {
+      "row": 5,
+      "col": 2,
+      "ram_addr": "0x004C9A08"
+    },
+    "262": {
+      "row": 5,
+      "col": 3,
+      "ram_addr": "0x004C9A08"
+    },
+    "319": {
+      "row": 5,
+      "col": 4,
+      "ram_addr": "0x004C9A08"
+    },
+    "376": {
+      "row": 5,
+      "col": 5,
+      "ram_addr": "0x004C9A08"
+    },
+    "92": {
+      "row": 6,
+      "col": 0,
+      "ram_addr": "0x004C9A18"
+    },
+    "149": {
+      "row": 6,
+      "col": 1,
+      "ram_addr": "0x004C9A18"
+    },
+    "206": {
+      "row": 6,
+      "col": 2,
+      "ram_addr": "0x004C9A18"
+    },
+    "263": {
+      "row": 6,
+      "col": 3,
+      "ram_addr": "0x004C9A18"
+    },
+    "320": {
+      "row": 6,
+      "col": 4,
+      "ram_addr": "0x004C9A18"
+    },
+    "377": {
+      "row": 6,
+      "col": 5,
+      "ram_addr": "0x004C9A18"
+    },
+    "93": {
+      "row": 7,
+      "col": 0,
+      "ram_addr": "0x004C9A30"
+    },
+    "150": {
+      "row": 7,
+      "col": 1,
+      "ram_addr": "0x004C9A30"
+    },
+    "207": {
+      "row": 7,
+      "col": 2,
+      "ram_addr": "0x004C9A30"
+    },
+    "264": {
+      "row": 7,
+      "col": 3,
+      "ram_addr": "0x004C9A30"
+    },
+    "321": {
+      "row": 7,
+      "col": 4,
+      "ram_addr": "0x004C9A30"
+    },
+    "378": {
+      "row": 7,
+      "col": 5,
+      "ram_addr": "0x004C9A30"
+    },
+    "94": {
+      "row": 8,
+      "col": 0,
+      "ram_addr": "0x004C9A3C"
+    },
+    "151": {
+      "row": 8,
+      "col": 1,
+      "ram_addr": "0x004C9A3C"
+    },
+    "208": {
+      "row": 8,
+      "col": 2,
+      "ram_addr": "0x004C9A3C"
+    },
+    "265": {
+      "row": 8,
+      "col": 3,
+      "ram_addr": "0x004C9A3C"
+    },
+    "322": {
+      "row": 8,
+      "col": 4,
+      "ram_addr": "0x004C9A3C"
+    },
+    "379": {
+      "row": 8,
+      "col": 5,
+      "ram_addr": "0x004C9A3C"
+    },
+    "126": {
+      "row": 9,
+      "col": 0,
+      "ram_addr": "0x004C9A50"
+    },
+    "183": {
+      "row": 9,
+      "col": 1,
+      "ram_addr": "0x004C9A50"
+    },
+    "240": {
+      "row": 9,
+      "col": 2,
+      "ram_addr": "0x004C9A50"
+    },
+    "297": {
+      "row": 9,
+      "col": 3,
+      "ram_addr": "0x004C9A50"
+    },
+    "354": {
+      "row": 9,
+      "col": 4,
+      "ram_addr": "0x004C9A50"
+    },
+    "411": {
+      "row": 9,
+      "col": 5,
+      "ram_addr": "0x004C9A50"
+    },
+    "127": {
+      "row": 10,
+      "col": 0,
+      "ram_addr": "0x004C9A5C"
+    },
+    "184": {
+      "row": 10,
+      "col": 1,
+      "ram_addr": "0x004C9A5C"
+    },
+    "241": {
+      "row": 10,
+      "col": 2,
+      "ram_addr": "0x004C9A5C"
+    },
+    "298": {
+      "row": 10,
+      "col": 3,
+      "ram_addr": "0x004C9A5C"
+    },
+    "355": {
+      "row": 10,
+      "col": 4,
+      "ram_addr": "0x004C9A5C"
+    },
+    "412": {
+      "row": 10,
+      "col": 5,
+      "ram_addr": "0x004C9A5C"
+    },
+    "128": {
+      "row": 11,
+      "col": 0,
+      "ram_addr": "0x004C9A68"
+    },
+    "185": {
+      "row": 11,
+      "col": 1,
+      "ram_addr": "0x004C9A68"
+    },
+    "242": {
+      "row": 11,
+      "col": 2,
+      "ram_addr": "0x004C9A68"
+    },
+    "299": {
+      "row": 11,
+      "col": 3,
+      "ram_addr": "0x004C9A68"
+    },
+    "356": {
+      "row": 11,
+      "col": 4,
+      "ram_addr": "0x004C9A68"
+    },
+    "413": {
+      "row": 11,
+      "col": 5,
+      "ram_addr": "0x004C9A68"
+    },
+    "129": {
+      "row": 12,
+      "col": 0,
+      "ram_addr": "0x004C9A78"
+    },
+    "186": {
+      "row": 12,
+      "col": 1,
+      "ram_addr": "0x004C9A78"
+    },
+    "243": {
+      "row": 12,
+      "col": 2,
+      "ram_addr": "0x004C9A78"
+    },
+    "300": {
+      "row": 12,
+      "col": 3,
+      "ram_addr": "0x004C9A78"
+    },
+    "357": {
+      "row": 12,
+      "col": 4,
+      "ram_addr": "0x004C9A78"
+    },
+    "414": {
+      "row": 12,
+      "col": 5,
+      "ram_addr": "0x004C9A78"
+    },
+    "95": {
+      "row": 13,
+      "col": 0,
+      "ram_addr": "0x004C9A88"
+    },
+    "152": {
+      "row": 13,
+      "col": 1,
+      "ram_addr": "0x004C9A88"
+    },
+    "209": {
+      "row": 13,
+      "col": 2,
+      "ram_addr": "0x004C9A88"
+    },
+    "266": {
+      "row": 13,
+      "col": 3,
+      "ram_addr": "0x004C9A88"
+    },
+    "323": {
+      "row": 13,
+      "col": 4,
+      "ram_addr": "0x004C9A88"
+    },
+    "380": {
+      "row": 13,
+      "col": 5,
+      "ram_addr": "0x004C9A88"
+    },
+    "96": {
+      "row": 14,
+      "col": 0,
+      "ram_addr": "0x004C9A98"
+    },
+    "153": {
+      "row": 14,
+      "col": 1,
+      "ram_addr": "0x004C9A98"
+    },
+    "210": {
+      "row": 14,
+      "col": 2,
+      "ram_addr": "0x004C9A98"
+    },
+    "267": {
+      "row": 14,
+      "col": 3,
+      "ram_addr": "0x004C9A98"
+    },
+    "324": {
+      "row": 14,
+      "col": 4,
+      "ram_addr": "0x004C9A98"
+    },
+    "381": {
+      "row": 14,
+      "col": 5,
+      "ram_addr": "0x004C9A98"
+    }
+  },
+  "all_glyph_ids_sorted": [
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    126,
+    127,
+    128,
+    129,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    183,
+    184,
+    185,
+    186,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    240,
+    241,
+    242,
+    243,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    297,
+    298,
+    299,
+    300,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    354,
+    355,
+    356,
+    357,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    411,
+    412,
+    413,
+    414
+  ]
+}

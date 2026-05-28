@@ -1,0 +1,2885 @@
+Killed. Running fast version...
+Loading PACKDATA.DIG...
+Loaded 839661568 bytes
+Converting to uint16...
+419830784 uint16 values
+Finding dialogue runs...
+Found 143251 dialogue runs
+Dialogue in 2876 unique resources:
+
+R   0 t01   1runs   578glyphs |                          
+R   1 t01   1runs    34glyphs |                          
+R   2 t01   1runs   698glyphs |                          
+R   3 t03 304runs 10927glyphs |         ブ 別     
+R   4 t04   2runs   764glyphs | 容       容 容     
+R   5 t04   2runs   444glyphs | 容       容 容     
+R   6 t04   2runs   388glyphs | 容       容 容     
+R   7 t04   2runs    91glyphs |        容 容     
+R   8 t04   5runs   990glyphs | 別ブ                       
+R   9 t04   2runs   985glyphs |        別 別     
+R  10 t04   2runs   916glyphs | 容       容 容     
+R  11 t04   7runs   462glyphs | 別ブ                       
+R  12 t04  10runs  1957glyphs |                          
+R  13 t04   2runs   497glyphs |        容 容     
+R  14 t04   6runs   752glyphs | 容       別 容     
+R  15 t04  72runs  2690glyphs | 別              
+R  16 t04   2runs   451glyphs |        別 別     
+R  17 t03   3runs   840glyphs |        ブ 別     
+R  18 t04   2runs   578glyphs | 容       容 容     
+R  19 t04   2runs   394glyphs | 容       別 別     
+R  20 t04   1runs   680glyphs |                          
+R  21 t03  10runs  1191glyphs |         容 容     
+R  22 t04   1runs   218glyphs |                          
+R  23 t04   2runs   740glyphs | 容       容 容     
+R  24 t04   1runs   796glyphs |                          
+R  25 t04   1runs   908glyphs |                          
+R  26 t10 124runs  4778glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R  27 t02   1runs   600glyphs |                          
+R  28 t02   1runs  1008glyphs |                          
+R  29 t02   1runs   324glyphs |                          
+R  30 t02   2runs   724glyphs |                          
+R  31 t02   1runs    32glyphs |                          
+R  32 t02   1runs   728glyphs |                          
+R  33 t01   3runs  1033glyphs | ４ １             
+R  34 t20 537runs 24304glyphs | ブ  q ク セ フ レ ヂ ェ 聖 迷 団 
+R  35 t02  29runs  1732glyphs |  け ち ひ る づ ぽ ト ギ バ ッ 魔 言 
+R  36 t01   4runs  1447glyphs |    が 違 判 目 体 功 終 択 幸 個 格 
+R  37 t01   9runs  1404glyphs |    そ 部 族 同 備 世 
+R  38 t01   6runs  3299glyphs |    ぅ 格 息 響 依 発 
+R  39 t15 163runs  9749glyphs | [E] |[E]使う|[E]装備|[E]外す|[E]sp殿放|[E]入れ替
+R  40 t01   6runs  1771glyphs |    y リ ン ェ 落 上 
+R  41 t01  13runs   892glyphs | [E] |[E]ここはサレム教会。|！何用な方が|一体どん
+R  42 t01   3runs   954glyphs |  能 善 収 愛 重 動[E] |[E]冒険者の宿へようこ
+R  43 t01   4runs   831glyphs |    g ぐ ぜ タ ズ 手 算 対 
+R  44 t01   5runs  1767glyphs |    z ワ ゲ 魔 影 時 職 探 求 日 系 
+R  45 t01   3runs  3144glyphs |    オ 俺 脱 宿 何 岩 
+R  46 t03 133runs  8944glyphs | [E] |[E]この度、ドゥーハン器民のみなさまが|気素に
+R  47 t03  19runs  1474glyphs |  男 方 探 着 思 求 判 仲 命 要 入 手 
+R  48 t01   1runs  1612glyphs | [E]なし|[E]不法投棄場|[E]はい棄士しょ理場|[E]ゴミ焼
+R  49 t01   7runs  1589glyphs |  削 感 同 余 体 日 後 息 有 
+R  50 t01   2runs   991glyphs |        ／         
+R  51 t02  88runs  2247glyphs |                  
+R  52 t01   1runs   980glyphs |                          
+R  53 t01   6runs   847glyphs |          −     
+R  54 t01   1runs   984glyphs |          f               
+R  55 t01   1runs   940glyphs |                          
+R  56 t01   6runs   847glyphs |          −     
+R  57 t01   1runs  1000glyphs |                  f       
+R  58 t01   2runs  1020glyphs |     」               
+R  59 t01   1runs   940glyphs |                          
+R  60 t01   1runs   984glyphs |          f               
+R  61 t01   1runs   940glyphs |                          
+R  62 t01   1runs   940glyphs |                          
+R  63 t01   6runs   847glyphs |          −     
+R  64 t01   4runs   917glyphs |                  
+R  65 t01   1runs   984glyphs |          f               
+R  66 t01   1runs   980glyphs |                          
+R  67 t01   2runs   959glyphs |                  
+R  68 t01   2runs   965glyphs |                  
+R  69 t01   6runs   847glyphs |          −     
+R  70 t01   2runs   965glyphs |                  
+R  71 t01   6runs   847glyphs |          −     
+R  72 t01   1runs   966glyphs |                          
+R  73 t01   4runs   927glyphs |                  
+R  74 t01   2runs   965glyphs |                  
+R  75 t01   1runs   948glyphs |                          
+R  76 t01   1runs   992glyphs |                  f       
+R  77 t01   2runs   933glyphs |                  
+R  78 t01   1runs   966glyphs |                          
+R  79 t01   2runs   933glyphs |                  
+R  80 t01   6runs   847glyphs |          −     
+R  81 t01   1runs   992glyphs |                          
+R  82 t01   1runs   940glyphs |                          
+R  83 t01   6runs   849glyphs |                  
+R  84 t01   3runs   938glyphs |                  
+R  85 t01   1runs   974glyphs |                          
+R  86 t01   1runs   974glyphs |                          
+R  87 t01   6runs   847glyphs |          −     
+R  88 t01   4runs   937glyphs |                  
+R  89 t01   1runs   974glyphs |                          
+R  90 t01   1runs   966glyphs |                          
+R  91 t01   4runs   877glyphs |          −     
+R  92 t01   1runs   966glyphs |                          
+R  93 t01   1runs   966glyphs |                          
+R  94 t01   1runs   940glyphs |                          
+R  95 t01   1runs   954glyphs |                          
+R  96 t01   6runs   847glyphs |          −     
+R  97 t01   1runs   940glyphs |                          
+R  98 t01   1runs   940glyphs |                          
+R  99 t01   1runs   940glyphs |                          
+R 100 t01   1runs   940glyphs |                          
+R 101 t01   4runs   877glyphs |          −     
+R 102 t01   2runs   979glyphs |                  
+R 103 t01   1runs   948glyphs |                          
+R 104 t01   1runs   948glyphs |                          
+R 105 t01   1runs   948glyphs |                          
+R 106 t01   1runs   992glyphs |                          
+R 107 t01   6runs   847glyphs |          −     
+R 108 t01   1runs   918glyphs |                          
+R 109 t01   1runs   918glyphs |                          
+R 110 t01   1runs   992glyphs |                          
+R 111 t01   1runs   966glyphs |                          
+R 112 t01   1runs   992glyphs |                          
+R 113 t01   1runs   992glyphs |                          
+R 114 t01   1runs   966glyphs |                          
+R 115 t01   1runs   966glyphs |                          
+R 116 t01   1runs   992glyphs |                          
+R 117 t01   1runs   992glyphs |                          
+R 118 t01   1runs   970glyphs |                          
+R 119 t01   1runs   940glyphs |                          
+R 120 t01   1runs   940glyphs |                          
+R 121 t01   1runs   940glyphs |                          
+R 122 t01   1runs   992glyphs |                          
+R 123 t01   1runs   992glyphs |                          
+R 124 t01   1runs   966glyphs |                          
+R 125 t01   1runs   992glyphs |                          
+R 126 t01   1runs   992glyphs |                          
+R 127 t01   1runs   992glyphs |                          
+R 128 t01   1runs   992glyphs |                          
+R 129 t01   1runs   992glyphs |                          
+R 130 t01   1runs   966glyphs |                          
+R 131 t01   1runs   966glyphs |                          
+R 132 t01   1runs   970glyphs |                          
+R 133 t01   1runs   970glyphs |                          
+R 134 t02   1runs   874glyphs |                          
+R 135 t01   1runs   918glyphs |                          
+R 136 t02   1runs   906glyphs |                          
+R 137 t01   1runs   966glyphs |                          
+R 138 t01   1runs   966glyphs |                          
+R 139 t01   1runs   944glyphs |                          
+R 140 t01   1runs   918glyphs |                          
+R 141 t01   1runs   992glyphs |                          
+R 142 t01   1runs   992glyphs |                          
+R 143 t01   1runs   918glyphs |                          
+R 144 t01   1runs   992glyphs |                          
+R 145 t02   5runs   878glyphs |          「     
+R 146 t01   7runs   884glyphs |          「               
+R 147 t01   3runs   878glyphs |        ４         
+R 148 t01   2runs   913glyphs |        ４         
+R 149 t01   4runs   889glyphs |          「     
+R 150 t01   1runs   922glyphs |                          
+R 151 t02   5runs   848glyphs |          「     
+R 152 t01   2runs   959glyphs |                  
+R 153 t01   2runs   913glyphs |                  
+R 154 t01   2runs   913glyphs |        ４         
+R 155 t02   5runs   840glyphs |          「     
+R 156 t02   5runs   728glyphs |          「     
+R 157 t01   2runs   913glyphs |        ４         
+R 158 t01   2runs   959glyphs |                  
+R 159 t01   5runs   828glyphs |          「     
+R 160 t01   4runs   933glyphs |          「     
+R 161 t01   1runs   966glyphs |                          
+R 162 t01   4runs   933glyphs |          「     
+R 163 t01   1runs   862glyphs |                          
+R 164 t01   1runs   914glyphs |                          
+R 165 t02   5runs   858glyphs |          「     
+R 166 t01   4runs   907glyphs |          「     
+R 167 t02   6runs   835glyphs |          「     
+R 168 t01   9runs   842glyphs |                  
+R 169 t01   4runs   889glyphs |          「     
+R 170 t01   8runs   837glyphs |                  
+R 171 t01   9runs   892glyphs |                          
+R 172 t01   2runs   939glyphs |                  
+R 173 t01   8runs   863glyphs |                  
+R 174 t01   4runs   933glyphs |          「     
+R 175 t01   6runs   895glyphs |                  
+R 176 t01   4runs   933glyphs |          「     
+R 177 t01   4runs   933glyphs |          「     
+R 178 t01   4runs   917glyphs |                  
+R 179 t01  10runs   871glyphs |                          
+R 180 t01   4runs   933glyphs |          「     
+R 181 t01   4runs   933glyphs |          「     
+R 182 t01   1runs   914glyphs |                          
+R 183 t02   9runs   810glyphs |                
+R 184 t01   1runs   896glyphs |                          
+R 185 t01   1runs  1000glyphs |        −                 
+R 186 t01   1runs   966glyphs |                          
+R 187 t01   2runs   991glyphs |      「   ９ 「         
+R 188 t01   2runs   929glyphs |                
+R 189 t01   1runs   964glyphs |                          
+R 190 t01   1runs   992glyphs |                          
+R 191 t01   2runs   929glyphs |                
+R 192 t01   2runs   939glyphs |          「     
+R 193 t01   2runs   939glyphs |          「     
+R 194 t01   3runs   892glyphs |          「     
+R 195 t01   1runs   966glyphs |                          
+R 196 t01   1runs   992glyphs |                          
+R 197 t01   3runs   918glyphs |          「     
+R 198 t01   1runs   992glyphs |                          
+R 199 t01   1runs   992glyphs |                          
+R 200 t01   1runs   966glyphs |                          
+R 201 t01   1runs   992glyphs |                          
+R 202 t01   1runs   964glyphs |                          
+R 203 t01   1runs   964glyphs |                          
+R 204 t01   1runs   912glyphs |                          
+R 205 t01   1runs   912glyphs |                          
+R 206 t01   1runs   964glyphs |                          
+R 207 t01   1runs   888glyphs |                          
+R 208 t01   1runs   964glyphs |                          
+R 209 t01   1runs   964glyphs |                          
+R 210 t01   1runs   964glyphs |                          
+R 211 t01   1runs   992glyphs |                          
+R 212 t01   1runs   992glyphs |                          
+R 213 t01   1runs   992glyphs |                          
+R 214 t01   1runs   992glyphs |                          
+R 215 t01   1runs   992glyphs |                          
+R 216 t01   3runs   892glyphs |          「     
+R 217 t01   3runs   892glyphs |          「     
+R 218 t01   1runs   966glyphs |                          
+R 219 t01   1runs   966glyphs |                          
+R 220 t01   1runs   964glyphs |                          
+R 221 t01   1runs   938glyphs |                          
+R 222 t01   1runs   966glyphs |                          
+R 223 t01   1runs   966glyphs |                          
+R 224 t01   1runs   964glyphs |                          
+R 225 t01   1runs   964glyphs |                          
+R 226 t01   1runs   992glyphs |                          
+R 227 t01   1runs   964glyphs |                          
+R 228 t01   1runs   964glyphs |                          
+R 229 t01   1runs   992glyphs |                          
+R 230 t01   4runs   937glyphs |                  
+R 231 t02  13runs   822glyphs |                          
+R 232 t01   1runs   940glyphs |                          
+R 233 t01   1runs   966glyphs |                          
+R 234 t01   1runs   992glyphs |                          
+R 235 t01   2runs   887glyphs |        ／         
+R 236 t01   1runs   940glyphs |                          
+R 237 t01   1runs   940glyphs |                          
+R 238 t01   4runs   927glyphs |                  
+R 239 t01   1runs   992glyphs |                          
+R 240 t02  12runs   797glyphs |                
+R 241 t02   9runs   814glyphs |                  
+R 242 t01   4runs   889glyphs |          「     
+R 243 t01   1runs   914glyphs |                          
+R 244 t01   2runs  1001glyphs |          」       ９       
+R 245 t02   8runs   811glyphs |          「     
+R 246 t01   3runs   902glyphs |          「     
+R 247 t01   1runs   940glyphs |                          
+R 248 t01   1runs  1002glyphs |          」       r       
+R 249 t01   3runs   928glyphs |          「     
+R 250 t01   1runs   948glyphs |                          
+R 251 t01   1runs   940glyphs |                          
+R 252 t01   2runs   929glyphs |          」       ４       
+R 253 t01   3runs   964glyphs |                
+R 254 t01   5runs   946glyphs |                          
+R 255 t01   1runs   940glyphs |                          
+R 256 t01   6runs   895glyphs |          「     
+R 257 t01   1runs   966glyphs |                          
+R 258 t01   1runs   992glyphs |                          
+R 259 t01   3runs   944glyphs |                
+R 260 t01   1runs   966glyphs |                          
+R 261 t01   3runs   894glyphs |          「     
+R 262 t01   2runs   939glyphs |          「     
+R 263 t01   2runs   913glyphs |          「     
+R 264 t01   1runs   948glyphs |        」                 
+R 265 t01   1runs   992glyphs |                          
+R 266 t01   2runs   993glyphs |          「     「 ♥   「 
+R 267 t01   2runs   987glyphs |          「     「 
+R 268 t01   1runs   992glyphs |                          
+R 269 t01   1runs   992glyphs |                          
+R 270 t01   1runs   992glyphs |                          
+R 271 t01   1runs   950glyphs |                          
+R 272 t01   1runs   914glyphs |                          
+R 273 t01   1runs   974glyphs |        」                 
+R 274 t01   1runs   974glyphs |        」                 
+R 275 t01   1runs   948glyphs |        」                 
+R 276 t01   1runs   948glyphs |        」                 
+R 277 t01   2runs   903glyphs |        「     「 
+R 278 t01   2runs   963glyphs |                
+R 279 t01   1runs  1002glyphs |                          
+R 280 t01   1runs  1002glyphs |                          
+R 281 t01   1runs   966glyphs |                          
+R 282 t01   1runs   966glyphs |                          
+R 283 t01   1runs   966glyphs |                          
+R 284 t01   1runs   974glyphs |        」                 
+R 285 t01   1runs   974glyphs |        」                 
+R 286 t01   1runs   974glyphs |        」                 
+R 287 t01   1runs   888glyphs |                          
+R 288 t01   1runs   924glyphs |                          
+R 289 t01   3runs   894glyphs |                
+R 290 t01   6runs   761glyphs |                  
+R 291 t01   6runs   773glyphs |                          
+R 292 t01   1runs   922glyphs |        」                 
+R 293 t01   6runs   761glyphs |                  
+R 294 t01   2runs   935glyphs |          「     「 
+R 295 t01   4runs   803glyphs |                  
+R 296 t01   4runs   803glyphs |                  
+R 297 t01   1runs  1002glyphs |                          
+R 298 t01   2runs   981glyphs |                
+R 299 t01   2runs   981glyphs |                
+R 300 t01   1runs   810glyphs |                          
+R 301 t01   1runs   992glyphs |                          
+R 302 t01   1runs   992glyphs |                          
+R 303 t01   1runs  1000glyphs |  s     」                 
+R 304 t01   1runs  1000glyphs |  s     」                 
+R 305 t01   8runs   853glyphs |                  
+R 306 t01   4runs   967glyphs |          −               
+R 307 t02   9runs   828glyphs |        ／         
+R 308 t02  11runs   824glyphs |          「               
+R 309 t01   3runs   990glyphs |          −     
+R 310 t01   1runs   844glyphs |                          
+R 311 t02  11runs   824glyphs |                
+R 312 t01   4runs   927glyphs |                  
+R 313 t01   1runs   882glyphs |                          
+R 314 t02  11runs   824glyphs |          「               
+R 315 t02   8runs   809glyphs |                  
+R 316 t01   2runs   787glyphs |                ４         
+R 317 t01   1runs   882glyphs |                          
+R 318 t01   4runs   927glyphs |                  
+R 319 t02  15runs   698glyphs |          −     
+R 320 t01   7runs   856glyphs |                  
+R 321 t01   4runs   967glyphs |          −               
+R 322 t02  11runs   820glyphs |                
+R 323 t01   5runs   858glyphs |                  
+R 324 t01   9runs   766glyphs |                  
+R 325 t02  13runs   762glyphs |                          
+R 326 t02  10runs   673glyphs |          「             
+R 327 t01   1runs   848glyphs |                          
+R 328 t01   8runs   863glyphs |                  
+R 329 t01   9runs   842glyphs |                  
+R 330 t01   3runs   990glyphs |          −     
+R 331 t01   1runs   940glyphs |                          
+R 332 t02  11runs   622glyphs |                
+R 333 t02   8runs   713glyphs |                        
+R 334 t01   4runs   879glyphs |                  
+R 335 t01   3runs   980glyphs |          −     
+R 336 t01   1runs   848glyphs |                          
+R 337 t01   6runs   915glyphs |          「               
+R 338 t02  15runs   742glyphs |                  
+R 339 t01   3runs   990glyphs |          −     
+R 340 t01   8runs   863glyphs |                  
+R 341 t01   4runs   889glyphs |                  
+R 342 t02  88runs  2253glyphs |                          
+R 343 t01   3runs   892glyphs |                
+R 344 t01   3runs   918glyphs |                
+R 345 t01   5runs   860glyphs |        ／         
+R 346 t01   1runs   946glyphs |                          
+R 347 t01   3runs   918glyphs |                
+R 348 t01   3runs   918glyphs |                
+R 349 t01   2runs   965glyphs |        ／         
+R 350 t01   3runs   950glyphs |                
+R 351 t01   5runs   852glyphs |                
+R 352 t01   2runs   921glyphs |        「       「   「 「 
+R 353 t01   5runs   852glyphs |                
+R 354 t01   1runs   878glyphs |        」                 
+R 355 t01   4runs   933glyphs |          「     
+R 356 t01   1runs   940glyphs |                          
+R 357 t01   3runs   918glyphs |                
+R 358 t01   3runs   918glyphs |                
+R 359 t01   2runs   965glyphs |                  
+R 360 t01   1runs   914glyphs |                          
+R 361 t01   1runs   914glyphs |                          
+R 362 t01   4runs   855glyphs |                
+R 363 t01   1runs   862glyphs |                          
+R 364 t01   1runs   992glyphs |                          
+R 365 t01   1runs   914glyphs |                          
+R 366 t01   2runs   965glyphs |        ／         
+R 367 t01   1runs   862glyphs |                          
+R 368 t01   2runs   825glyphs |          」     
+R 369 t01   4runs   933glyphs |          「     
+R 370 t01   3runs   900glyphs |        「       「   「 「 
+R 371 t01   1runs   888glyphs |                          
+R 372 t01   5runs   876glyphs |                
+R 373 t01   1runs   992glyphs |                          
+R 374 t01   2runs   991glyphs |          −     
+R 375 t01   1runs   888glyphs |                          
+R 376 t01   1runs   836glyphs |                          
+R 377 t01   3runs   954glyphs |          「     
+R 378 t01   3runs   866glyphs |                
+R 379 t01   1runs   836glyphs |                          
+R 380 t01   1runs   992glyphs |                          
+R 381 t01   3runs   840glyphs |                
+R 382 t01   1runs   948glyphs |                          
+R 383 t01   4runs   837glyphs |          「     
+R 384 t01   1runs   940glyphs |                          
+R 385 t01   1runs   940glyphs |                          
+R 386 t01   1runs   940glyphs |                          
+R 387 t01   1runs   914glyphs |                          
+R 388 t01   2runs   825glyphs |          」     
+R 389 t01   1runs   940glyphs |                          
+R 390 t01   1runs   940glyphs |                          
+R 391 t01   3runs   894glyphs |          」     
+R 392 t01   2runs   905glyphs |          」     
+R 393 t02  88runs  2253glyphs |                          
+R 394 t01   2runs   773glyphs |          」     
+R 395 t01   4runs   803glyphs |          「     
+R 396 t01   2runs   939glyphs |                
+R 397 t01   3runs   990glyphs |          −     
+R 398 t01   2runs   939glyphs |                
+R 399 t01   3runs   990glyphs |          −     
+R 400 t01   1runs   940glyphs |                          
+R 401 t01   2runs   939glyphs |                
+R 402 t02   7runs   806glyphs |          「     
+R 403 t02   4runs   889glyphs |          」               
+R 404 t01   3runs   962glyphs |                    
+R 405 t01   1runs   940glyphs |                          
+R 406 t01   1runs   940glyphs |                  」       
+R 407 t01   1runs   940glyphs |        ９         」       
+R 408 t02   5runs   920glyphs |                    
+R 409 t01   3runs   980glyphs |          「     
+R 410 t01   1runs   914glyphs |                          
+R 411 t01   1runs   862glyphs |                          
+R 412 t02   6runs   901glyphs |                  
+R 413 t02   9runs   878glyphs |                
+R 414 t01   3runs   980glyphs |          「     
+R 415 t02   7runs   858glyphs |        」             
+R 416 t02   6runs   855glyphs |        」                 
+R 417 t01   1runs   836glyphs |                          
+R 418 t01   5runs   880glyphs |                
+R 419 t01   3runs   954glyphs |          「     
+R 420 t02   2runs   931glyphs |                
+R 421 t01   1runs   930glyphs |        」                 
+R 422 t02   8runs   801glyphs |                
+R 423 t01   1runs   930glyphs |        」                 
+R 424 t01   1runs   862glyphs |                  」       
+R 425 t01   1runs   800glyphs |        」                 
+R 426 t01   1runs   836glyphs |                          
+R 427 t02   5runs   824glyphs |                    − 
+R 428 t02   5runs   804glyphs |          「     
+R 429 t01   1runs   940glyphs |                          
+R 430 t01   1runs   914glyphs |                          
+R 431 t01   1runs   966glyphs |                          
+R 432 t01   1runs   966glyphs |                          
+R 433 t01   1runs  1002glyphs |                          
+R 434 t02   4runs   901glyphs |                − 
+R 435 t02   3runs   884glyphs |          「     
+R 436 t01   1runs  1002glyphs |                          
+R 437 t01   1runs   966glyphs |                          
+R 438 t01   2runs   831glyphs |        」             
+R 439 t02   2runs   983glyphs |          」     
+R 440 t01   2runs   909glyphs |        」             
+R 441 t01   1runs  1002glyphs |                          
+R 442 t02   4runs   915glyphs |          「     
+R 443 t02   3runs   916glyphs |          「     
+R 444 t02   3runs   860glyphs |          「     
+R 445 t02   4runs   867glyphs |          「     
+R 446 t01   2runs   939glyphs |          「     
+R 447 t02   2runs   961glyphs |            」     
+R 448 t01   1runs   862glyphs |                          
+R 449 t02   5runs   878glyphs |                
+R 450 t01   1runs   844glyphs |        」                 
+R 451 t01   1runs   914glyphs |                          
+R 452 t01   1runs   940glyphs |                          
+R 453 t02   4runs   885glyphs |          「     
+R 454 t01   1runs   966glyphs |                          
+R 455 t01   2runs   939glyphs |          「     
+R 456 t01   1runs   992glyphs |                          
+R 457 t02   2runs   919glyphs |            −   
+R 458 t01   2runs   991glyphs |          「     
+R 459 t01   1runs   966glyphs |                          
+R 460 t01   2runs   965glyphs |          「     
+R 461 t01   1runs   914glyphs |                          
+R 462 t01   2runs   903glyphs |                
+R 463 t01   1runs   924glyphs |                          
+R 464 t01   3runs   892glyphs |          「     
+R 465 t02   2runs   859glyphs |                
+R 466 t01   1runs   914glyphs |                          
+R 467 t02   5runs   868glyphs |                          
+R 468 t01   3runs   892glyphs |          「     
+R 469 t01   1runs   948glyphs |        」                 
+R 470 t01   4runs   857glyphs |                「 
+R 471 t02   1runs   944glyphs |                          
+R 472 t01   1runs   888glyphs |                          
+R 473 t02   1runs   818glyphs |                          
+R 474 t02   3runs   846glyphs |                  r       
+R 475 t06   7runs   668glyphs |    r         ／       
+R 476 t01   4runs  1003glyphs |          ／       
+R 477 t01   5runs   982glyphs |          ８       
+R 478 t01   4runs   985glyphs |          ／       
+R 479 t01   8runs   951glyphs |        １       r   
+R 480 t01   4runs   969glyphs |  ９ 「         ／           
+R 481 t01   7runs   976glyphs |  r     ０                 
+R 482 t01   5runs   966glyphs |      ／       r   
+R 483 t01   7runs   982glyphs |          １     
+R 484 t01   8runs   953glyphs |          ７       r   
+R 485 t01   2runs   943glyphs |          ／           
+R 486 t01   5runs   984glyphs |          ／       
+R 487 t01   5runs   982glyphs |          ８       
+R 488 t01   4runs   985glyphs |          ／       
+R 489 t01   5runs   994glyphs |          ５       
+R 490 t01   5runs   988glyphs |  「 ／       a         ６   
+R 491 t01   8runs   969glyphs |          １     
+R 492 t01   8runs   951glyphs |          １     
+R 493 t01   7runs   976glyphs |  「 ／       h   
+R 494 t01   6runs   965glyphs |    −     ０       w 
+R 495 t01   3runs   950glyphs |        ／     「 
+R 496 t01   4runs  1003glyphs |          ／       
+R 497 t01   4runs  1003glyphs |          ／       
+R 498 t01   5runs  1000glyphs |        ／       
+R 499 t01   6runs   947glyphs |          ／       ４ 
+R 500 t02   6runs   785glyphs |      ／         「 
+R 501 t01   8runs   987glyphs |  s     ０       
+R 502 t02   5runs   882glyphs |                
+R 503 t02  10runs   927glyphs |        １       
+R 504 t01   5runs   958glyphs |        １     「 
+R 505 t01   5runs   970glyphs |        １     「 r 「 「 」 
+R 506 t01   7runs   970glyphs |          １     
+R 507 t02   4runs   769glyphs |  ／     「 r ５ 「   
+R 508 t02  14runs   721glyphs |        ０               w 
+R 509 t02   7runs   740glyphs |        １     「 
+R 510 t01   7runs   796glyphs |        １       
+R 511 t01  12runs   893glyphs |          ／             
+R 512 t02  11runs   826glyphs |          ／               
+R 513 t01   6runs   979glyphs |        ７       ４ 
+R 514 t02   7runs   730glyphs |          ５     
+R 515 t02  12runs   847glyphs |    w         ／           
+R 516 t01   2runs   821glyphs |              ／     
+R 517 t01   6runs   937glyphs |        １                 
+R 518 t01   8runs   961glyphs |      ０               r   
+R 519 t01   7runs   978glyphs |      ／       r 
+R 520 t01   9runs   940glyphs |          ５     
+R 521 t01   4runs   925glyphs |          ／               
+R 522 t01   9runs   966glyphs |  「 」       ５             
+R 523 t01  12runs   955glyphs |      ／           ０   
+R 524 t01  10runs   915glyphs |                  r 
+R 525 t01   4runs   849glyphs |                
+R 526 t01   4runs  1003glyphs |          ／       
+R 527 t01   2runs   853glyphs |          ／               
+R 528 t01   6runs   999glyphs |          ／       
+R 529 t01   4runs   787glyphs |  」       ０     
+R 530 t02   8runs   653glyphs |        １       
+R 531 t02  20runs   777glyphs |        ７                 
+R 532 t01   3runs   946glyphs |  」       ８     
+R 533 t01   4runs   967glyphs |          ／       
+R 534 t01   3runs   894glyphs |  」       ８       r       
+R 535 t01   4runs   949glyphs |      ／                   
+R 536 t01   4runs  1003glyphs |          ／       
+R 537 t01   4runs   925glyphs |      ／                 
+R 538 t01   9runs   890glyphs |        ０                 
+R 539 t01   7runs   926glyphs |        ０       
+R 540 t01   5runs   982glyphs |      w         ０         
+R 541 t01   2runs   853glyphs |          ／               
+R 542 t01   3runs   818glyphs |  」       ０       
+R 543 t01   7runs   922glyphs |  ０                   r 
+R 544 t01   2runs   825glyphs |        ／               
+R 545 t01   5runs   916glyphs |        ０       r 
+R 546 t01   7runs   832glyphs |                  w 
+R 547 t01  10runs   929glyphs |                  r 
+R 548 t01   2runs   827glyphs |          ／               
+R 549 t01   7runs   944glyphs |          １     
+R 550 t01   3runs   884glyphs |      ／         
+R 551 t01   4runs   917glyphs |  ５ 「         ／         
+R 552 t01   6runs   963glyphs |          ／       
+R 553 t01   8runs   885glyphs |  v     ０                 
+R 554 t01  11runs   952glyphs |          １     
+R 555 t01   3runs   858glyphs |      ／         
+R 556 t01   5runs   890glyphs |          ５     
+R 557 t01   7runs   964glyphs |        ０               w 
+R 558 t02   5runs   750glyphs |      ／         
+R 559 t01   6runs   973glyphs |          ８       
+R 560 t01   4runs  1003glyphs |          ／       
+R 561 t01   5runs  1002glyphs |          ８       
+R 562 t01   7runs   898glyphs |                        
+R 563 t01   5runs   956glyphs |          ／     
+R 564 t01   2runs   963glyphs |        ／           
+R 565 t01   5runs   934glyphs |      ／                 
+R 566 t01   5runs   948glyphs |      ／       w   
+R 567 t01   6runs   960glyphs |     」 」   w         ／    
+R 568 t01   6runs   939glyphs |  ／       r         ／     
+R 569 t01   3runs   932glyphs |          ／       
+R 570 t03  20runs  1349glyphs |        １                 
+R 571 t01   6runs   999glyphs |          ／       
+R 572 t01   5runs   934glyphs |  」       ８     
+R 573 t01   5runs   928glyphs |        ：       
+R 574 t01   7runs   912glyphs |  」       ８               
+R 575 t01   4runs   929glyphs |          ８     
+R 576 t01   5runs   964glyphs |        ：       
+R 577 t01   3runs   774glyphs |  ５             
+R 578 t01   9runs   958glyphs |  r     ０       
+R 579 t01   8runs   953glyphs |          １             
+R 580 t01  10runs   823glyphs |          ／             
+R 581 t01   5runs  1000glyphs |        ：       
+R 582 t16 103runs  3216glyphs |          d             
+R 583 t03  27runs  1534glyphs |                
+R 584 t02   7runs   608glyphs |          ５     
+R 585 t01   7runs   946glyphs |          ５               
+R 586 t04  18runs   945glyphs |          ／       
+R 587 t01   1runs  1010glyphs |  」       ９               
+R 588 t02  23runs  1456glyphs |        ０                 
+R 589 t01   4runs   829glyphs |      ／                 
+R 590 t03  27runs  1372glyphs |                  
+R 591 t04  24runs  1399glyphs |          c     
+R 592 t04  26runs  1367glyphs |          c     
+R 593 t04  28runs   705glyphs |  」       e               
+R 594 t04  26runs  1231glyphs |          c     
+R 595 t01   5runs  1002glyphs |          ／       
+R 596 t01   5runs  1006glyphs |      」       ９       
+R 597 t01   5runs  1002glyphs |          ／       
+R 598 t01   4runs  1003glyphs |        ０       
+R 599 t02  20runs   773glyphs |        ７                 
+R 600 t02  22runs   751glyphs |        ７                 
+R 601 t01   6runs   957glyphs |          ／     
+R 602 t03   8runs   731glyphs |      ／               
+R 603 t02   4runs   619glyphs |        ？       ♥   
+R 604 t01   2runs   864glyphs |              ／           
+R 605 t01   2runs   813glyphs |           ８            
+R 606 t01   3runs   958glyphs | r         ９              
+R 607 t01   1runs   642glyphs |                          
+R 608 t01   1runs   806glyphs |                          
+R 609 t01   2runs   668glyphs |                      
+R 610 t01   4runs   815glyphs |           m          o   
+R 611 t01   1runs   576glyphs |                          
+R 612 t01   2runs   477glyphs |   ４          q           
+R 613 t01   2runs   898glyphs |                c
+R 614 t01   3runs   885glyphs | r        ／        
+R 615 t01   2runs   902glyphs |               ：
+R 616 t01   1runs   901glyphs |                          
+R 617 t01   2runs   901glyphs |                    
+R 618 t01   4runs   772glyphs |               ：
+R 619 t01   4runs   769glyphs |           k          n   
+R 620 t01   2runs   778glyphs | ゴp                    
+R 621 t01   2runs   915glyphs | r                    
+R 622 t01   2runs   378glyphs | ／／         １１          ４ 
+R 623 t01   2runs   820glyphs | w           ４            
+R 624 t01   4runs   792glyphs |                p        
+R 625 t01   3runs   974glyphs |                       す  
+R 626 t01   2runs   805glyphs |            g            
+R 627 t01   2runs   612glyphs | ５               
+R 628 t01   2runs   766glyphs |          ２ま         ２ゃ   
+R 629 t01   3runs   381glyphs |     「  ぺ         
+R 630 t01   4runs   541glyphs |        p        
+R 631 t01   3runs   792glyphs |         p        
+R 632 t01   1runs   342glyphs | ！！！！！！！！                 
+R 633 t01   3runs   851glyphs | r     。              d   
+R 634 t01   2runs   285glyphs |            a             
+R 635 t01   4runs   516glyphs |  容    し        
+R 636 t01   4runs    94glyphs |  |       、        
+R 637 t01   1runs   855glyphs | ??                       
+R 638 t01   6runs  1053glyphs |  」d          i         −
+R 639 t01   4runs   868glyphs | r     ｖ            
+R 640 t01   4runs   687glyphs |   ５          ｖ         
+R 641 t01   6runs   701glyphs |             ゴ          
+R 642 t01   6runs   707glyphs |          ２れ         
+R 643 t01   1runs   551glyphs | 」x                       
+R 644 t01   2runs   736glyphs |               ：「交交交交交交交交 
+R 645 t01   3runs   906glyphs | r        ５           
+R 646 t01   6runs   583glyphs |             ９         
+R 647 t01   3runs   964glyphs |   」          ９           
+R 648 t01   3runs   693glyphs |       ４h        
+R 649 t01   2runs   815glyphs |           c            
+R 650 t01   2runs   942glyphs |   」          ９           
+R 651 t01   3runs   911glyphs |   ／          ／           
+R 652 t01   3runs   708glyphs |           ｖ        
+R 653 t01   1runs   820glyphs |                          
+R 654 t01   2runs   724glyphs |           １         −d   
+R 655 t01   2runs   560glyphs |               ９
+R 656 t01   3runs   437glyphs |           か        
+R 657 t01   2runs   413glyphs | ウ          ウ         
+R 658 t01   2runs   767glyphs |           c            
+R 659 t01   3runs   800glyphs |           c            
+R 660 t01   3runs   283glyphs |                       
+R 661 t01   3runs   904glyphs |           ８            
+R 662 t01   5runs   828glyphs | r     d          
+R 663 t01   3runs   801glyphs |  ２c         ２q           
+R 664 t01   2runs   155glyphs | ョ         ０ １０         
+R 665 t01   3runs  1073glyphs | け             f          
+R 666 t01   2runs   797glyphs | ふ          む           
+R 667 t01   6runs   591glyphs |                  
+R 668 t01   9runs   823glyphs |           」い        
+R 669 t01   4runs   536glyphs | ♥  |      」ぁ         
+R 670 t01   4runs   794glyphs | 、              ：−
+R 671 t01   4runs   760glyphs | m           −          
+R 672 t01   3runs   755glyphs | ４                
+R 673 t01   3runs   555glyphs |                
+R 674 t01   5runs   773glyphs |           z        
+R 675 t02 119runs  5507glyphs |                  
+R 676 t01 107runs  7927glyphs | 難威威下威威威下ベ威ベ下ベ威威下威ベ下ベ威
+R 677 t02 100runs  5102glyphs |                          
+R 678 t01  10runs  1552glyphs | 条族 族種ブ族難ボ性性性性プ下
+R 679 t02  64runs  2847glyphs |                   鎧
+R 680 t02   9runs   915glyphs |                          
+R 681 t02  80runs  4016glyphs | 容別条        ベ ち下
+R 682 t01   6runs  1014glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E
+R 683 t02  23runs  1406glyphs |                          
+R 684 t02  35runs  1548glyphs | 種別別別別別別別別別別別別別別別別別別別別別別容別
+R 685 t02  57runs  2677glyphs |                          
+R 686 t02  23runs  3462glyphs |                          
+R 687 t02  31runs  2201glyphs |                          
+R 688 t02  36runs  2522glyphs |                          
+R 689 t02  30runs  1268glyphs |                   ブ 
+R 690 t02  58runs  2522glyphs |                          
+R 691 t02  14runs   915glyphs |                  
+R 692 t01  11runs   503glyphs |                 苦a
+R 693 t02  28runs  1496glyphs |                鎧
+R 694 t02  19runs  2621glyphs |                          
+R 695 t02  23runs  1470glyphs |                          
+R 696 t01   6runs  2178glyphs |                 
+R 697 t02   8runs  1201glyphs |                          
+R 698 t02  11runs  1128glyphs |                  
+R 699 t02  10runs   937glyphs |                          
+R 700 t01  10runs   757glyphs |  ブ     ブ  別    別  
+R 701 t02   8runs   475glyphs |                          
+R 702 t01   1runs   138glyphs |                          
+R 703 t02   5runs  1104glyphs |                          
+R 704 t02   5runs    83glyphs | ピベブベブベベ威威ベ威ベベベベベ
+R 705 t02   5runs   330glyphs |                          
+R 706 t02  12runs   214glyphs | 壁パ条パ族条族条族条下条条条パ条
+R 707 t02   8runs   944glyphs |                        
+R 708 t02  12runs   793glyphs |                          
+R 709 t02   6runs  1355glyphs |                          
+R 710 t01   3runs   546glyphs | 業条難威難種族種条種族難族族族族
+R 711 t02   7runs   491glyphs |                          
+R 712 t02   9runs  1637glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R 713 t02  41runs  2591glyphs |                          
+R 714 t02   7runs   493glyphs |                  
+R 715 t02  77runs  3531glyphs |                          
+R 716 t02  21runs  2788glyphs |                
+R 717 t02  58runs  4888glyphs |                          
+R 718 t02  34runs  2617glyphs |                  
+R 719 t06  15runs  1558glyphs | 別              
+R 720 t04   7runs  1197glyphs |                          
+R 721 t02  42runs  2723glyphs |                鎧
+R 722 t01   6runs   768glyphs |                     ５ と 
+R 723 t02  13runs   469glyphs |                          
+R 724 t02   7runs   465glyphs |                 
+R 725 t02  31runs  2523glyphs |                          
+R 726 t02  12runs  1212glyphs | 下下下下下下下下下下条下条下下呪
+R 727 t02  14runs   915glyphs |                  
+R 728 t01  20runs   613glyphs |                 
+R 729 t02 215runs 15231glyphs |                          
+R 730 t02   8runs   155glyphs |                 
+R 731 t02  58runs  4338glyphs |                          
+R 732 t02  60runs  3101glyphs |                  
+R 733 t02  58runs  4690glyphs |                          
+R 734 t02  32runs  2596glyphs |                  
+R 735 t02  49runs  4415glyphs |                          
+R 736 t01   1runs   546glyphs |                          
+R 737 t02  21runs  1673glyphs |                          
+R 738 t02  13runs   991glyphs |   別別族 別別族   族 別  
+R 739 t02 197runs 11387glyphs |                          
+R 740 t01   1runs   794glyphs |                          
+R 741 t02  35runs  3040glyphs |                ０
+R 742 t01  10runs   349glyphs |        ブブブ ブブブ 別容ブブブブブブ  
+R 743 t03  69runs  2427glyphs |                  
+R 744 t03  12runs  1807glyphs | 種族ボ条族条族下種難種難威下難難
+R 745 t02  97runs  4364glyphs |                          
+R 746 t01   6runs   129glyphs |                        
+R 747 t05 160runs 13866glyphs |                          
+R 748 t03  16runs  1127glyphs | 条条条条条条条下下条下条条条条族族
+R 749 t02  24runs  1991glyphs |                  
+R 750 t02  19runs  2135glyphs |                          
+R 751 t02  27runs  2098glyphs |                     
+R 752 t02   3runs   539glyphs | 団ボボボベボボポ族プププ族パ業パ
+R 753 t02  53runs  2968glyphs |                          
+R 754 t02 108runs  2492glyphs |                        ユ 
+R 755 t02  56runs  3912glyphs |                          
+R 756 t02  13runs  1080glyphs |  「                       
+R 757 t02  41runs  2481glyphs |                          
+R 758 t01 112runs  3392glyphs | 難難難難難難難難難難難難難難難難難難難難難難難難難
+R 759 t02  88runs  5508glyphs |                          
+R 760 t02   7runs  1571glyphs | nどどどどどどどどろどじどぢどど復
+R 761 t02  50runs  4187glyphs |                          
+R 762 t02  50runs  1483glyphs | 小ブブ ブブブベブブブブベブブブブ  ブ  ベベブ
+R 763 t02  56runs  2624glyphs |                          
+R 764 t01   5runs   364glyphs | ベベベベベベベベベベベベベベベベ
+R 765 t02  17runs  1521glyphs |                     
+R 766 t02   5runs   186glyphs | 難難難難難難難難難難難難難難難
+R 767 t02  52runs  3036glyphs |                          
+R 768 t02  17runs   746glyphs | 族族族族族族族族族族族族族族族族族性族性性性族性族
+R 769 t02  17runs  1326glyphs |                          
+R 770 t02  67runs  2921glyphs |      下下下下下下下下下下下下下下下下下下下下
+R 771 t02  18runs  1346glyphs |                          
+R 772 t02  24runs  2090glyphs | 性業性業業業性ャ種性族業族プ族プピボピピピピププ
+R 773 t02  16runs  1335glyphs |                          
+R 774 t02  12runs  1234glyphs | ポポポポポポポ動ポポポポポポポポポポポポィポパポポ
+R 775 t02  56runs  2748glyphs |                          
+R 776 t02  19runs  1509glyphs | 呪呪呪呪呪呪呪呪呪呪呪呪呪呪呪呪呪
+R 777 t02 117runs  8389glyphs |                          
+R 778 t02  13runs   616glyphs |  ブ             
+R 779 t02  48runs  3002glyphs |                          
+R 780 t02  45runs  5133glyphs | ベボベボベプベペベベベベボボボボャ迷
+R 781 t02  30runs  2501glyphs |                          
+R 782 t02  11runs  1157glyphs | 別ブ                  
+R 783 t02 362runs 20272glyphs |                          
+R 784 t01  13runs   897glyphs |              −        
+R 785 t02 258runs 17009glyphs |                          
+R 786 t01  96runs  2761glyphs |                          
+R 787 t02  99runs  6904glyphs |                          
+R 788 t02  64runs  3764glyphs | ボ族族族族族族族種族族族族族族族族族族族族族族別族
+R 789 t01   1runs   775glyphs |                          
+R 790 t01   6runs  1508glyphs | 女限屋迷自分士法者分切限切分炎法r
+R 791 t01   1runs   775glyphs |                          
+R 792 t01   6runs  1444glyphs | 防小知攻小eッ消魔６感防防３間間発迷追経防−
+R 793 t02 107runs  5299glyphs |                          
+R 794 t01  10runs  1740glyphs | 容ベパベベベパベパボベベベベ容パパベ下難ベプベボベ
+R 795 t02 107runs  5299glyphs |                          
+R 796 t01  14runs  1941glyphs | 魔動悪者魔b動？王e法e魔bb悪９攻防ッ
+R 797 t02 114runs  5938glyphs |                          
+R 798 t01  11runs  1738glyphs |                 
+R 799 t02  16runs  1546glyphs |                          
+R 800 t02  45runs  2269glyphs |      下下下威下下下下下下下下下威下パパ下下下
+R 801 t02  20runs  1683glyphs |                          
+R 802 t02  73runs  3371glyphs | 族族族族族族族別族族族族族族族族族族族族族族族族族
+R 803 t02  20runs  1363glyphs |                          
+R 804 t02  55runs  2743glyphs |      ベベベベベベベベベベベベベベベベベベベベ
+R 805 t02  16runs  1335glyphs |                          
+R 806 t02   7runs  1081glyphs | 族             ベ  ピ盗
+R 807 t02  16runs  1335glyphs |                          
+R 808 t02   6runs  1105glyphs | ベ「パ「プ結結結結結プ結結結結結結結結結結
+R 809 t02  16runs  1335glyphs |                          
+R 810 t02  10runs  1192glyphs | 族難条条条族下６下族族条条族条族条条族条族条族族族
+R 811 t02  16runs  1335glyphs |                          
+R 812 t02   5runs  1084glyphs | 下」パ」ペ活活活活活活活活活活活活活活活活
+R 813 t02  17runs  1049glyphs |                     
+R 814 t02   2runs   139glyphs | 種ベベベピベベベピ種ベベピベベベピ
+R 815 t02  18runs  1346glyphs |                          
+R 816 t02  22runs  2184glyphs | 業族家族ポ性ャピピピピピポピプ
+R 817 t02  16runs  1055glyphs |                     
+R 818 t02   9runs   253glyphs | ベ威パ種ョボブ性ベボベブパ忍ベ
+R 819 t02  18runs  1346glyphs |                          
+R 820 t02  22runs  2345glyphs | 業族家族ポ性ャピピピピピポピプ
+R 821 t02 117runs  8389glyphs |                          
+R 822 t02  11runs  1093glyphs | 別 ブ             
+R 823 t02 117runs  8389glyphs |                          
+R 824 t02  44runs  2450glyphs |                  
+R 825 t02 117runs  8389glyphs |                          
+R 826 t02  37runs  1701glyphs |   ブ ブ   オ イ ♥ブ 
+R 827 t02  80runs  4016glyphs | 容別条        ベ ち下
+R 828 t01   7runs   272glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R 829 t02  80runs  4016glyphs | 容別条        ベ ち下
+R 830 t01   8runs   289glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R 831 t02  56runs  2502glyphs |                          
+R 832 t02  29runs  1657glyphs | 下下下下下下下響下下下下下下下下下下下下下下下下下
+R 833 t02  56runs  2502glyphs |                          
+R 834 t02  21runs  1616glyphs | 条条条条条下下ャパ種下条下条下下条下条条条条条条条
+R 835 t02  56runs  2502glyphs |                          
+R 836 t02  24runs  2100glyphs | 族族族族族家族別族族族族族族族族族族族族族族族族族
+R 837 t02  35runs  3048glyphs |                ０
+R 838 t01   3runs   185glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E]?ブブブブ
+R 839 t02  35runs  3048glyphs |                ０
+R 840 t01  12runs   408glyphs | 族ォ族性族難性乙性宮ペ乙ピ男ボボ
+R 841 t02  21runs  1193glyphs |                          
+R 842 t02  76runs  2484glyphs | 種ベ条ベ下ベ呪ボ下ベ難ベ難種難種
+R 843 t02 197runs 11419glyphs |                          
+R 844 t01   1runs   794glyphs |                          
+R 845 t02  88runs  5508glyphs |                          
+R 846 t02  11runs  1853glyphs |  ベベベベベベベベベベベベベベベベベベベベベベベベ
+R 847 t02  23runs  1472glyphs |                          
+R 848 t01   5runs  2869glyphs |                          
+R 849 t02 119runs  4843glyphs |                  
+R 850 t01  51runs  2923glyphs | 性闘闘−性活性パ性ゥ容       
+R 851 t02 119runs  4845glyphs |                  
+R 852 t02  57runs  4023glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R 853 t02  57runs  2677glyphs |                          
+R 854 t02  22runs  3417glyphs |                          
+R 855 t02  30runs  1268glyphs |                   ブ 
+R 856 t02  10runs  1024glyphs |                   
+R 857 t02  28runs  1496glyphs |                鎧
+R 858 t02  11runs  1004glyphs |                          
+R 859 t02  48runs  2738glyphs |                          
+R 860 t02  21runs  3873glyphs | ボ動ボ迷ボx     ブ ブ 別 種 種 種種種種
+R 861 t02  48runs  2862glyphs |                          
+R 862 t02  27runs  3904glyphs | 族族男族族族壁男蓄条的男慎業的条
+R 863 t02  48runs  2862glyphs |                          
+R 864 t02  24runs  3922glyphs | プィピッボ宮ボブ宮ベッ族ュプピ  
+R 865 t02  48runs  2862glyphs |                          
+R 866 t02  24runs  3888glyphs | 別 種 種 種種種種種 種 種ブ別ベ別ベ別種種種種
+R 867 t02  48runs  2862glyphs |                          
+R 868 t02  31runs  4355glyphs | ！         別 別 別 別別別別別 別 別
+R 869 t02   6runs  1081glyphs |                          
+R 870 t02 151runs  6077glyphs |                  
+R 871 t02 113runs  6471glyphs |                          
+R 872 t01  11runs  1535glyphs |  下下   威下下威容威威 下下 ベ
+R 873 t02  84runs  4343glyphs |                          
+R 874 t01   9runs  1144glyphs | 条族 族種ブ族難ボ性性性性プ下
+R 875 t02  80runs  4232glyphs |                          
+R 876 t01   9runs  1144glyphs | 条族 族種ブ族難ボ性性性性プ下
+R 877 t02  80runs  4232glyphs |                          
+R 878 t01   4runs  1019glyphs | 防小知攻小eッ消魔６感防防３間間発迷追経防−
+R 879 t02  80runs  4232glyphs |                          
+R 880 t01  10runs  1348glyphs | 容ベパベベベパベパボベベベベ容パパベ下難ベプベボベ
+R 881 t02  80runs  4232glyphs |                          
+R 882 t01  11runs  1476glyphs | 魔動悪者魔b動？王e法e魔bb悪９攻防ッ
+R 883 t02  80runs  4232glyphs |                          
+R 884 t01   9runs  1313glyphs |                 
+R 885 t02  80runs  4232glyphs |                          
+R 886 t01  11runs  1143glyphs |  下下   威下下威容威威 下下 ベ
+R 887 t02 334runs 27570glyphs |                          
+R 888 t02  59runs  4694glyphs |                          
+R 889 t02  10runs   991glyphs |                          
+R 890 t02  10runs   848glyphs |                 
+R 891 t03  11runs   602glyphs |           ち    
+R 892 t03  27runs  1334glyphs | ォベャベゥベボボペベ小ベ手ベャベ種ベポ慎
+R 893 t03  44runs  1186glyphs |                
+R 894 t03  70runs  3384glyphs | s１t３s３rlccjcgh１lelh
+R 895 t03 163runs  7991glyphs |                          
+R 896 t04  18runs  1720glyphs | ピ呪ピプピプボプベプベププププププププベベベベベベ
+R 897 t02   2runs   875glyphs | ４ １       ち ち  
+R 898 t02  67runs  2581glyphs | ブブブブブ別別ブブブブブブブブブボbポ−
+R 899 t01   1runs   788glyphs |                          
+R 900 t01   1runs   320glyphs |                          
+R 901 t01   1runs   256glyphs |                          
+R 902 t02  16runs  1106glyphs |                  
+R 903 t02  10runs  1740glyphs |                          
+R 904 t04 205runs 14421glyphs |                          
+R 905 t03  36runs  1361glyphs |  業結業結結結結結下結結結結結結結結ブ結ブ結ブ威ブ
+R 906 t02   6runs  1019glyphs |                  
+R 907 t02  12runs   576glyphs |               −o
+R 908 t02  75runs  3930glyphs |                  
+R 909 t02  11runs   888glyphs |  ブ 別 別 ブ ブ ブ ブ ブ
+R 910 t02  14runs  1086glyphs |    ち ち   ち ち ち  
+R 911 t02   3runs   422glyphs | ゲ    eシワ   シ    ツ 、   ｖ ｖ
+R 912 t02   1runs   280glyphs |                          
+R 913 t02  23runs   938glyphs |                        
+R 914 t02  44runs  2236glyphs |                        
+R 915 t02  31runs  1335glyphs | 条下下下下下下下難下下下下下下条性
+R 916 t02  31runs  2461glyphs |                          
+R 917 t02  24runs  2193glyphs |                  難ヴ難
+R 918 t02  16runs  1050glyphs |                  
+R 919 t01   1runs  1244glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R 920 t02 206runs 15049glyphs |                          
+R 921 t01   6runs  1350glyphs |                      
+R 922 t02   1runs  1008glyphs |                          
+R 923 t02   1runs   324glyphs |                          
+R 924 t02   2runs   724glyphs |                          
+R 925 t02   1runs    32glyphs |                          
+R 926 t02   2runs   563glyphs |                  
+R 927 t01   1runs   906glyphs |                          
+R 928 t02   1runs   628glyphs |                          
+R 929 t01   2runs   433glyphs |                        
+R 930 t02   1runs   496glyphs |                          
+R 931 t02   2runs  3415glyphs |                          
+R 932 t03 225runs 12768glyphs | 難威威下威威威下ベ威ベ下ベ威威下威ベ下ベ威
+R 933 t03 101runs  6710glyphs |                          
+R 934 t04  66runs  3563glyphs | ペベプピプボププピプペボ結ボ難難難性プピ
+R 935 t03  93runs  4647glyphs | 容別条        ベ ち下
+R 936 t04  97runs  5164glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 937 t04  58runs 11405glyphs |                          
+R 938 t04 108runs 12834glyphs | 威ベベベベボベボパ種ベ威ベ威ベ
+R 939 t04 159runs  9539glyphs |            ベ ベベベベベベベ  
+R 940 t03  14runs  1051glyphs |                  
+R 941 t04  90runs  4927glyphs |                  
+R 942 t03  27runs  5420glyphs |                          
+R 943 t04   9runs   960glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R 944 t03  10runs  1481glyphs |                          
+R 945 t03  37runs  1270glyphs | 別威別容別容ブ性別族別ベ別ベブ性
+R 946 t04  10runs  1187glyphs | ピベブベブベベ威威ベ威ベベベベベ
+R 947 t04  17runs   544glyphs | 壁パ条パ族条族条族条下条条条パ条
+R 948 t04  19runs   711glyphs |                          
+R 949 t03   8runs   873glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R 950 t04  16runs  2126glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R 951 t04  42runs  2480glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 952 t04  78runs  8283glyphs |                          
+R 953 t04 128runs 12208glyphs | 族ョ男ャペョポョピ業ボ男ボ業ボ
+R 954 t03  30runs  2944glyphs | 別              
+R 955 t03  43runs  3402glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R 956 t04  45runs  1912glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 957 t04  97runs  4262glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 958 t03  14runs  1051glyphs |                  
+R 959 t04 270runs 17321glyphs | 種族ベ種別族種族ブ族ベ族 族ベ族族
+R 960 t04 129runs 12543glyphs | 業下業難業条飽性呪条下ボ下ボ結
+R 961 t04 117runs 10094glyphs |                        
+R 962 t03  49runs  3935glyphs |                          
+R 963 t04  46runs  2831glyphs | ベベベベベベベベベベベベベベベベベベベベベベベベベ
+R 964 t03 198runs 12196glyphs | 呪難族結性結条男呪業結業呪業威結回
+R 965 t03  74runs  3531glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 966 t04  96runs  4642glyphs |                          
+R 967 t03  98runs  4398glyphs | ゥ条種業条族種族種族条種威種種種ベ善
+R 968 t03 257runs 17560glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 969 t04  57runs  6720glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ   
+R 970 t04  42runs  1955glyphs | 就就就就就就就就就就就就就就就就就就的就ォ消ォ消ォ
+R 971 t04 207runs  8179glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 972 t04 151runs  6646glyphs | ?                        
+R 973 t03 717runs 29026glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 974 t04 146runs  7345glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 975 t04  99runs  4644glyphs | 小ブブ ブブブベブブブブベブブブブ  ブ  ベベブ
+R 976 t03  80runs  3624glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 977 t04  47runs  2441glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 978 t04  80runs  4047glyphs |                          
+R 979 t04 416runs 16457glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 980 t04 117runs  5138glyphs | 族難族呪族下族下族下族族交族集種
+R 981 t04  92runs  5620glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R 982 t04 137runs  6982glyphs | 下下下下下下下下下下下下下下下下下下下下下下下下下
+R 983 t04 134runs  8709glyphs | 安下迷自蓄効蓄孤手ブ種ブ加別安別
+R 984 t04 127runs  8435glyphs | ベベベベベベベベベベベベベベベベベパベパベパベパベ
+R 985 t04  42runs  3124glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 986 t03 362runs 21064glyphs |                          
+R 987 t03 975runs 43114glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 988 t04 381runs 21722glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 989 t02   2runs  2378glyphs |                          
+R 990 t02   2runs  2378glyphs |                          
+R 991 t03 108runs  6907glyphs |                          
+R 992 t03 108runs  6907glyphs |                          
+R 993 t03 115runs  7546glyphs |                          
+R 994 t04 389runs 15115glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 995 t04 398runs 19362glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 996 t04 371runs 15161glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R 997 t04 119runs  5709glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R 998 t04 109runs  5791glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R 999 t04 114runs  5597glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R1000 t04 120runs  5598glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R1001 t04  68runs  2448glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1002 t04 129runs  6383glyphs | 族種種種種種種種威種威種威種威種威
+R1003 t04 154runs  5294glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1004 t04 100runs  6193glyphs |                          
+R1005 t04 117runs  8293glyphs |                          
+R1006 t04 123runs  8889glyphs |                 
+R1007 t04 117runs  8293glyphs |                          
+R1008 t03  98runs  5753glyphs | 容別条        ベ ち下
+R1009 t03 101runs  5857glyphs | 容別条        ベ ち下
+R1010 t04 161runs  7606glyphs | 性性族族族族族族族族族族性族族族
+R1011 t04 148runs  6998glyphs | 下下下下下下下回下下下下下下下下下下下下下下下下下
+R1012 t04 154runs  7690glyphs | 難難難難難難難難難難難難難難難難
+R1013 t03  77runs  3499glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1014 t03  80runs  3724glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1015 t04  46runs  3375glyphs | ベベベベベベベベベベベベベベベベベベベベベベベベベ
+R1016 t03 197runs 12211glyphs |                          
+R1017 t04 111runs  8311glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1018 t03  24runs  5366glyphs |                          
+R1019 t03 169runs  7764glyphs | 性闘闘−性活性パ性ゥ容       
+R1020 t04 176runs  8864glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R1021 t04  67runs 11595glyphs |                          
+R1022 t04 111runs  7093glyphs |      ボボボボボボ族ボ種族種族族族族ボベパベ性
+R1023 t04 100runs  5231glyphs |                  
+R1024 t04 119runs 10092glyphs | 飽稀経稀経稀孤稀稀稀稀稀飽稀稀経
+R1025 t04 124runs  8352glyphs | 難難難難難難難難難難難難難難難難難
+R1026 t04 123runs  9470glyphs | ベベベベベベベベベベベベベベベベベボベボベボベボベ
+R1027 t04 130runs  9852glyphs | 威族種下種下種退パ法ボ消ボ難ボ
+R1028 t04 148runs 11546glyphs | 威ベ ベ ベ ベ下ベ下ベパベパベベベベパベャベャベ
+R1029 t04 294runs 14292glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1030 t03 114runs  7055glyphs |                          
+R1031 t03  85runs  6639glyphs |                          
+R1032 t03  81runs  5504glyphs |                          
+R1033 t03  81runs  5960glyphs |                          
+R1034 t02   2runs  1562glyphs |                          
+R1035 t03  81runs  5960glyphs |                          
+R1036 t03  81runs  5960glyphs |                          
+R1037 t04 467runs 38055glyphs | −別／種ョベ孤ベ５条「性 性 性呪
+R1038 t04  95runs  2804glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1039 t04 112runs  4541glyphs |           ち    
+R1040 t04 337runs 18094glyphs |                
+R1041 t04 234runs 10872glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1042 t04 158runs  5060glyphs | ４ １       ち ち  
+R1043 t04  83runs  4500glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1044 t04 416runs 21784glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1045 t04 107runs  4076glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1046 t04  85runs  4815glyphs |  ブ 別 別 ブ ブ ブ ブ ブ
+R1047 t04  16runs  1504glyphs |    ち ち   ち ち ち  
+R1048 t04 173runs  5836glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1049 t04 180runs  6505glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1050 t04 129runs  6557glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1051 t03  17runs  2292glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1052 t03 212runs 15373glyphs |                      
+R1053 t03 185runs  3745glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1054 t02 217runs 10031glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1055 t02   2runs   795glyphs |                          
+R1056 t02   1runs   194glyphs |                          
+R1057 t02   2runs   826glyphs |                 
+R1058 t02   3runs  1168glyphs | 族血 ち ち ち ち ち ち ち ち ち ち ち 
+R1059 t02   1runs    41glyphs |                          
+R1060 t02   6runs   994glyphs | 難難難難難難難難難難難難難難難難
+R1061 t02   5runs   674glyphs |   ベボ族ベブ 下呪難ベパ下ベプ
+R1062 t02   2runs   522glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1063 t02   2runs   281glyphs |                 
+R1064 t02   2runs   477glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1065 t02   1runs   337glyphs |                          
+R1066 t02   1runs   330glyphs |                          
+R1067 t02   3runs   225glyphs | 錠               
+R1068 t02   8runs  2143glyphs | 族ベボボベボベボ威ボ威ボ威ボ種ベ威
+R1069 t02   1runs   753glyphs |                          
+R1070 t02   2runs   396glyphs | 覚別容種容種別ベベボベ種別威容容
+R1071 t02   4runs   219glyphs | 容ブ種          ベ ち下
+R1072 t02   3runs   843glyphs |                          
+R1073 t02   1runs   265glyphs |                          
+R1074 t02   1runs   204glyphs | 難血                       
+R1075 t01   1runs   449glyphs |                          
+R1076 t02   1runs   954glyphs |                          
+R1077 t02   4runs   166glyphs | ブ          っ   
+R1078 t02   1runs   460glyphs | 族血                       
+R1079 t02   5runs   879glyphs | [E]                        
+R1080 t02   2runs   925glyphs | ミシんゃだゃシょタタだシんシやシんシ
+R1081 t01   1runs   641glyphs |                          
+R1082 t02   1runs   458glyphs |                          
+R1083 t01   3runs   627glyphs |                 容
+R1084 t02  10runs  1254glyphs | ぼ?カ[E]ミ[E]ミドぼジべキ質ぼべミぼカべコじイぼロミ
+R1085 t02   4runs   385glyphs |   ベボ族下呪難ベパ下ベブ 下結
+R1086 t02   1runs   330glyphs |                          
+R1087 t02   3runs   436glyphs |   ベボ族ベブ 下威ベ下呪難下結
+R1088 t02   2runs   650glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1089 t02   2runs   186glyphs | [E]                 
+R1090 t02   1runs   906glyphs |                          
+R1091 t02   3runs   445glyphs | [E]                   
+R1092 t02   1runs   690glyphs |                          
+R1093 t02   5runs   231glyphs | [E]                        
+R1094 t02   2runs    30glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R1096 t02   4runs  1004glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1097 t01   1runs   129glyphs |                          
+R1098 t01   2runs   656glyphs |  ち ち ち ち ち ち ち ち
+R1099 t02   2runs  1010glyphs |   ベボ族下呪難ベブ 下威ベ下容 
+R1100 t02   4runs  1540glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1101 t01   2runs   724glyphs | [E]                   
+R1102 t01   1runs   742glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1103 t02   6runs   919glyphs | [E]                
+R1104 t01   3runs   246glyphs |  ち ち ち ち ち ち ち ち
+R1105 t02  13runs   505glyphs |   ブボベ容族ベブブ 種ピブ容業ボ種ペ
+R1106 t02   3runs   542glyphs |  ち ち ち ち ち ち ち ち
+R1107 t02   5runs   854glyphs |   ベボ族ベブ 下呪難族種ベ下結
+R1108 t02   3runs   973glyphs |                          
+R1109 t02   1runs    42glyphs | 容                        
+R1110 t02   2runs  1374glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1111 t01   2runs   809glyphs |   ベボ族ベパ下族条下ベピ難ベプ
+R1112 t02   3runs   676glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1113 t01   1runs   858glyphs | 容                        
+R1114 t01   2runs   903glyphs |  ： ８ ６ ３ v t r o m k h f 
+R1115 t01   2runs   796glyphs | [E] ブ                      
+R1116 t02   3runs   943glyphs |  ち ち ち ち ち ち ち ち
+R1117 t02   1runs   625glyphs |                          
+R1118 t02   5runs  1049glyphs |  ： ８ ６ ３ v t r o m k h f 
+R1119 t01   1runs   785glyphs |                          
+R1120 t02   2runs   923glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R1121 t01   1runs   233glyphs |                          
+R1122 t01   2runs   777glyphs |  ： ８ ６ ３ v t r o m k h f 
+R1123 t02   1runs   425glyphs |                          
+R1124 t02   1runs   954glyphs |                          
+R1125 t01   3runs   992glyphs |   ベボ族下難族ベピ難下威ベ難
+R1126 t02   2runs   483glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1127 t02   1runs   297glyphs |                          
+R1128 t02   1runs   906glyphs |                          
+R1129 t05   3runs   417glyphs |   ベボ族族種ベ下難族下呪難難
+R1130 t06   5runs  1357glyphs |  ち   ち ち ち ち ち ち ち ち ち ち 
+R1131 t01  12runs   375glyphs |   ベボ族族種ベ下難族下呪難難
+R1132 t02   2runs   473glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R1133 t02   1runs   369glyphs |                          
+R1134 t02   3runs   388glyphs | ち別ちブち ち ち ち ち ち ち ち ち ち ち
+R1135 t05   1runs   426glyphs | 別                        
+R1136 t05   2runs    81glyphs |                        
+R1137 t02   4runs   585glyphs |   ベボ族ベパ下族条下ベピ難ベプ
+R1138 t01   3runs  1172glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1139 t01   2runs   586glyphs | [E]                        
+R1140 t01   1runs   742glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1141 t02   1runs   185glyphs |                          
+R1142 t02   4runs   695glyphs |  ち ち ち ち ち ち ち ち
+R1143 t03   1runs   513glyphs |                          
+R1144 t03  10runs   836glyphs |  フ                       
+R1145 t02   3runs    71glyphs |   ベボ族難容 族別 難呪ピベブ 
+R1146 t02   8runs  1335glyphs |  ち ち ち ち ち ち ち ち
+R1147 t02  15runs  1127glyphs |                          
+R1148 t02   1runs   330glyphs |                          
+R1149 t05   1runs   466glyphs | ブ                        
+R1150 t05   4runs   654glyphs |  ち ち ち ち ち ち ち ち
+R1151 t01   1runs   345glyphs |                          
+R1152 t02  36runs  3075glyphs | ベベベベベベベベベベベベベベベベベベベベベベベベベ
+R1153 t01  12runs   503glyphs |   ベボ族族種ベ下難族下呪難難
+R1154 t02   1runs    15glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R1155 t01   1runs   898glyphs |                          
+R1156 t02   2runs   700glyphs |                
+R1157 t02   2runs    36glyphs |  別 別               
+R1158 t02   2runs   572glyphs |  別 別               
+R1159 t02   2runs   716glyphs |  別 別               
+R1160 t19  17runs   653glyphs |  別 別 別               
+R1161 t01 463runs 28657glyphs |  ず                       
+R1162 t02  66runs 18076glyphs |                          
+R1163 t02 112runs  6230glyphs |                          
+R1164 t02  94runs  5650glyphs |                          
+R1165 t02  59runs  5358glyphs |                          
+R1166 t02  99runs  4711glyphs |                          
+R1167 t02  91runs  5499glyphs |                          
+R1168 t02 111runs  5100glyphs |                          
+R1169 t02  86runs  5096glyphs |                          
+R1170 t02 121runs  4751glyphs |                          
+R1171 t02  82runs  5256glyphs |                          
+R1172 t02  92runs  5427glyphs |                          
+R1173 t02  81runs  4016glyphs |                          
+R1174 t02 288runs 14031glyphs |     「 持     「            
+R1175 t104 479runs 15616glyphs |    ／   ０       
+R1176 t08   4runs   584glyphs |  ゴ v m g a ８ ２ 
+R1177 t04 357runs 15752glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1178 t57  56runs  3123glyphs | ４ １       ち ち  
+R1179 t18 180runs  5933glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1180 t59  36runs   655glyphs | ４ １       ち ち  
+R1181 t12 161runs  6003glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1182 t36  27runs   919glyphs |                          
+R1183 t07  68runs  2836glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1184 t41  36runs  1992glyphs |                          
+R1185 t08 213runs  7521glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1186 t20  33runs  2208glyphs |                          
+R1187 t02  12runs   625glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R1188 t01 913runs 17496glyphs | 別ブ                       
+R1189 t02   2runs   873glyphs |      別 け     け 
+R1190 t01   4runs  1315glyphs | gi     fj     hj     w−  
+R1191 t03   5runs   999glyphs | 別ブ                       
+R1192 t02  20runs  1304glyphs |                ０ 
+R1193 t02  11runs   576glyphs | ギ０ギ４ [E] カ 」４ [E] ソ −４
+R1194 t02  10runs   794glyphs |  れ ：く   く   く「  く「  く」  く
+R1195 t02   1runs   757glyphs |                          
+R1196 t02 625runs 20729glyphs |  ：                       
+R1197 t02 700runs 24155glyphs | −    限く？  く？  t：
+R1198 t02  59runs  4146glyphs |                          
+R1199 t02 168runs  7592glyphs |                          
+R1200 t02 232runs  7762glyphs |   ９復 ！よセポ心滅[E][E]：２ 考％
+R1201 t02 117runs  4877glyphs |  ２ 抜：                    
+R1202 t02 220runs  9316glyphs |   ９復 ！よセポ心滅[E][E]：２ 容
+R1203 t02 1013runs 33253glyphs | く３  く３  く３  く３  く３ 
+R1204 t02 593runs 20265glyphs | ：− ガ− ギ− グ６復 復ブ  ブ
+R1205 t02 557runs 19578glyphs |  異 −あdp０mあdp０mあdp０m
+R1206 t02 593runs 20557glyphs | − 回：                     
+R1207 t02 531runs 19040glyphs | ：                        
+R1208 t02 537runs 18002glyphs |                          
+R1209 t02 382runs 14113glyphs |  ほｖ ２ 異：−  ２ 持へ
+R1210 t02 455runs 16231glyphs | − 回：                     
+R1211 t02 346runs 13283glyphs |                          
+R1212 t02 416runs 15701glyphs | ２ 探：                     
+R1213 t02  26runs  2916glyphs |    ク 神 け ０け４ [E] 悪 」
+R1214 t02   1runs   988glyphs | データ[E]                     
+R1215 t01 261runs 88562glyphs |                        ベベ
+R1216 t01 256runs 91308glyphs |                          
+R1217 t01 203runs 33424glyphs |                          
+R1218 t01 213runs 33813glyphs |                          
+R1219 t01 196runs 34631glyphs |                          
+R1220 t01 269runs 100587glyphs |                          
+R1221 t01 408runs 86810glyphs |                          
+R1222 t01 435runs 89817glyphs |                          
+R1223 t01 488runs 25025glyphs |                        族族
+R1224 t01 247runs 86853glyphs |                          
+R1225 t01 176runs 46207glyphs |                          
+R1226 t01 213runs 101587glyphs |                          
+R1227 t01 186runs 88327glyphs |                          
+R1228 t01 278runs 86828glyphs |                          
+R1229 t01 314runs 80404glyphs |                          
+R1230 t01 193runs 44524glyphs |                          
+R1231 t01 215runs 45148glyphs |                          
+R1232 t01 198runs 39124glyphs |                          
+R1233 t01 180runs 38915glyphs |                          
+R1234 t01 210runs 102432glyphs |                          
+R1235 t01 196runs 36480glyphs |                          
+R1236 t01 160runs 46888glyphs |                          
+R1237 t01 188runs 41588glyphs |                          
+R1238 t01 179runs 95669glyphs |                          
+R1239 t01 200runs 41455glyphs |                          
+R1240 t01 232runs 40007glyphs |                          
+R1241 t01 194runs 35721glyphs |                          
+R1242 t01 185runs 41021glyphs |                          
+R1243 t01 207runs 84273glyphs |                          
+R1244 t01 259runs 29785glyphs |                          
+R1245 t01 200runs 93409glyphs |                          
+R1246 t01 203runs 35927glyphs |                          
+R1247 t01 213runs 39619glyphs |                          
+R1248 t01 216runs 93756glyphs |                          
+R1249 t01 268runs 29277glyphs |                          
+R1250 t01 251runs 81692glyphs |                          
+R1251 t01 208runs 33152glyphs |                          
+R1252 t01 290runs 67287glyphs |                          
+R1253 t01 192runs 40542glyphs |                          
+R1254 t01 217runs 45259glyphs |                          
+R1255 t01 192runs 103325glyphs |                          
+R1256 t01 236runs 26896glyphs |                          
+R1257 t01 224runs 34337glyphs |                          
+R1258 t01 150runs 24951glyphs |                          
+R1259 t01 215runs 29821glyphs |                          
+R1260 t01 188runs 100877glyphs |                          
+R1261 t01 158runs 39519glyphs |                          
+R1262 t01 189runs 43084glyphs |                          
+R1263 t01 161runs 48684glyphs |                          
+R1264 t01 173runs 44874glyphs |                          
+R1265 t01 179runs 44754glyphs |                        族族
+R1266 t01 217runs 33500glyphs |                          
+R1267 t01 231runs 92772glyphs |                          
+R1268 t01 158runs 48077glyphs |                          
+R1269 t01 301runs 69199glyphs |                          
+R1270 t01 213runs 34300glyphs |                          
+R1271 t01 201runs 38457glyphs |                          
+R1272 t01   2runs   917glyphs | 別ブ                       
+R1273 t01 256runs 37547glyphs |                          
+R1274 t01 248runs 88290glyphs |                          
+R1275 t01 197runs 88406glyphs |                          
+R1276 t01 259runs 81359glyphs |                          
+R1277 t01 426runs 58236glyphs |                          
+R1278 t01 271runs 34079glyphs |                          
+R1279 t01   1runs   426glyphs |                          
+R1280 t01   1runs   426glyphs |                          
+R1281 t01   1runs   426glyphs |                          
+R1282 t01   1runs   426glyphs |                          
+R1283 t01   1runs   426glyphs |                          
+R1284 t01   1runs   426glyphs |                          
+R1285 t01   1runs   426glyphs |                          
+R1286 t01 614runs 70500glyphs |                        [E]
+R1287 t01   1runs   426glyphs |                          
+R1288 t01   1runs   426glyphs |                          
+R1289 t01   1runs   426glyphs |                          
+R1290 t01   1runs   426glyphs |                          
+R1291 t01 483runs 92609glyphs |                        [E]
+R1292 t01 737runs 77038glyphs |                        [E]
+R1293 t01 676runs 64125glyphs |                        
+R1294 t01 610runs 72237glyphs |                        [E]
+R1295 t01   2runs   433glyphs |                        [E][E]
+R1296 t01   1runs   426glyphs |                          
+R1297 t01 481runs 95488glyphs |                        [E]
+R1298 t01 560runs 81148glyphs |                        [E]
+R1299 t01   1runs   426glyphs |                          
+R1300 t01 485runs 79079glyphs |                        [E]
+R1301 t01 499runs 77353glyphs |                        [E]
+R1302 t01 410runs 76919glyphs |                          
+R1303 t01   1runs   426glyphs |                          
+R1304 t01 614runs 74182glyphs |                        [E]
+R1305 t01 503runs 91895glyphs |                        [E]
+R1306 t01 516runs 98325glyphs |                        [E]
+R1307 t01 857runs 75327glyphs |                        [E]
+R1308 t01 256runs 46337glyphs |                          
+R1309 t01 753runs 82351glyphs |                        [E]
+R1310 t01 592runs 71654glyphs |                        [E]
+R1311 t01 531runs 99566glyphs |                        [E]
+R1312 t01 214runs 45128glyphs |                          
+R1313 t01 250runs 10243glyphs |                   」
+R1314 t01  76runs  2189glyphs |                   
+R1315 t01  50runs  1915glyphs |                        
+R1316 t01 251runs 17190glyphs | 難呪経難響呪響難響呪下呪下呪下呪経響活響
+R1317 t01 134runs  4234glyphs | ベ種種ベベププペボベベベプベベベベベ
+R1318 t01 424runs 24910glyphs |                        
+R1319 t01 149runs  4006glyphs |         ブ         ブ ブ ブベベ
+R1320 t01 343runs 16028glyphs | 族種ベボベベベベ種ベ族ベ種ベ族
+R1321 t01  86runs  2470glyphs |                        
+R1322 t01  58runs  1592glyphs |                        下下
+R1323 t01   1runs   426glyphs |                          
+R1324 t01  68runs  2083glyphs |  ベ別ベ別種別ボブ     別 容        
+R1325 t01   3runs   449glyphs |                        
+R1326 t01  19runs   890glyphs |                        
+R1327 t01 159runs  4477glyphs |                        
+R1328 t01 255runs  8274glyphs |                          
+R1329 t01 266runs 12053glyphs |        ベボベボベ族ベ族ベ種ベ種ベ族ベ族族族
+R1330 t01 230runs 26522glyphs |                        種威
+R1331 t01 232runs  8956glyphs |                        ベ 
+R1332 t01 276runs 14319glyphs |                          
+R1333 t01 151runs  7691glyphs |                        
+R1334 t01  73runs  2528glyphs |                        
+R1335 t01 274runs 11406glyphs |                          
+R1336 t01 208runs 12026glyphs |                          
+R1337 t01 442runs 20270glyphs |                        
+R1338 t01 195runs  4868glyphs |                        
+R1339 t01  78runs  2182glyphs |                        
+R1340 t01  15runs   720glyphs |                        
+R1341 t01  47runs  1636glyphs |                        
+R1342 t01 221runs 11307glyphs |                          
+R1343 t01  35runs  1524glyphs |                          
+R1344 t01 284runs  8652glyphs |                        
+R1345 t01 171runs 18066glyphs |                        
+R1346 t01  64runs  3952glyphs |                        
+R1347 t02   5runs  1236glyphs |  ：                       
+R1348 t02   6runs  1911glyphs | 名：２ すぉ６７ ７ブ  ブx７ブ
+R1349 t02  11runs   478glyphs |   求：く   く   く「  く「  く」  く
+R1350 t02   1runs   685glyphs | ：                        
+R1351 t02  17runs  1207glyphs | ：                        
+R1352 t02  16runs  1497glyphs |  れ ：く   く   く「  く「  く」  く
+R1353 t02 387runs 13674glyphs |  コ ／２ 可：−  ２ 強へ
+R1354 t02 205runs  6210glyphs | ：く   く   く「  く「  く」  く」  
+R1355 t02  52runs  2192glyphs |   ：く   く   ：く   く   ：く   
+R1356 t02   1runs  1007glyphs |    」：         ダミーテキスト [E]  
+R1357 t02   1runs  1007glyphs |    」：         ダミーテキスト [E]  
+R1358 t02 215runs  9865glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1359 t02 205runs 10841glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1360 t02 114runs 13693glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1361 t02 246runs  6193glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1362 t02 243runs  7801glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1363 t02 127runs  3906glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1364 t04 293runs 11106glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1365 t02  71runs  2250glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1366 t02 198runs  7190glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1367 t02 174runs  6998glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1368 t62 1828runs 88123glyphs |  ２ ６ z 、 迷 魔 「 
+R1369 t01  14runs  1209glyphs |                    
+R1370 t04 265runs  6020glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1371 t01  34runs  1999glyphs | 別ブ                       
+R1372 t01  18runs  4077glyphs | 別ブ                       
+R1373 t01  18runs  3945glyphs | 別ブ                       
+R1374 t01  23runs  4132glyphs | 別ブ                       
+R1375 t01  18runs  4035glyphs | 別ブ                       
+R1376 t01  19runs  4098glyphs | 別ブ                       
+R1377 t01  35runs  3738glyphs | 別ブ                       
+R1378 t01  25runs  3999glyphs | 別ブ                       
+R1379 t01  27runs  4186glyphs | 別ブ                       
+R1380 t01  22runs  3749glyphs | 別ブ                       
+R1381 t01  23runs  4189glyphs | 別ブ                       
+R1382 t01  45runs  3584glyphs | 別ブ                       
+R1383 t01  19runs  3903glyphs | 別ブ                       
+R1384 t01  32runs  4372glyphs | 別ブ                       
+R1385 t01  42runs  3382glyphs | 別ブ                       
+R1386 t01  33runs  4034glyphs | 別ブ                       
+R1387 t01  54runs  4152glyphs | 別ブ                       
+R1388 t01  46runs  4001glyphs | 別ブ                       
+R1389 t01  46runs  3308glyphs | 別ブ                       
+R1390 t01  46runs  4105glyphs | 別ブ                       
+R1391 t01  48runs  4094glyphs | 別ブ                       
+R1392 t01  44runs  3661glyphs | 別ブ                       
+R1393 t01  34runs  3656glyphs | 別ブ                       
+R1394 t01  18runs  4287glyphs | 別ブ                       
+R1395 t01  18runs  4026glyphs | 別ブ                       
+R1396 t01  35runs  3950glyphs | 別ブ                       
+R1397 t01  34runs  4128glyphs | 別ブ                       
+R1398 t01  18runs  4162glyphs | 別ブ                       
+R1399 t01  34runs  4143glyphs | 別ブ                       
+R1400 t01  20runs  3884glyphs | 別ブ                       
+R1401 t01  18runs  4199glyphs | 別ブ                       
+R1402 t01  20runs  3733glyphs | 別ブ                       
+R1403 t01  24runs  4023glyphs | 別ブ                       
+R1404 t01  19runs  3907glyphs | 別ブ                       
+R1405 t01  19runs  3881glyphs | 別ブ                       
+R1406 t01  24runs  3616glyphs | 別ブ                       
+R1407 t01  34runs  3563glyphs | 別ブ                       
+R1408 t01  27runs  3178glyphs | 別ブ                       
+R1409 t01  20runs  3608glyphs | 別ブ                       
+R1410 t01  35runs  3154glyphs | 別ブ                       
+R1411 t01  18runs  3715glyphs | 別ブ                       
+R1412 t01  35runs  3029glyphs | 別ブ                       
+R1413 t01  31runs  3254glyphs | 別ブ                       
+R1414 t01  18runs  3507glyphs | 別ブ                       
+R1415 t01  36runs  3870glyphs | 別ブ                       
+R1416 t01  20runs  3682glyphs | 別ブ                       
+R1417 t01  34runs  3314glyphs | 別ブ                       
+R1418 t01  38runs  3187glyphs | 別ブ                       
+R1419 t01  32runs  3521glyphs | 別ブ                       
+R1420 t01  19runs  3666glyphs | 別ブ                       
+R1421 t01  46runs  3436glyphs | 別ブ                       
+R1422 t01  41runs  4133glyphs | 別ブ                       
+R1423 t01  45runs  3078glyphs | 別ブ                       
+R1424 t01  33runs  3274glyphs | 別ブ                       
+R1425 t01  41runs  3589glyphs | 別ブ                       
+R1426 t01  37runs  2879glyphs | 別ブ                       
+R1427 t01  36runs  3677glyphs | 別ブ                       
+R1428 t01  49runs  3161glyphs | 別ブ                       
+R1429 t01  35runs  2633glyphs | 別ブ                       
+R1430 t01  44runs  3199glyphs | 別ブ                       
+R1431 t01  34runs  3588glyphs | 別ブ                       
+R1432 t01  38runs  3502glyphs | 別ブ                       
+R1433 t01  39runs  2640glyphs | 別ブ                       
+R1434 t01  40runs  3190glyphs | 別ブ                       
+R1435 t01  39runs  2998glyphs | 別ブ                       
+R1436 t01  34runs  2582glyphs | 別ブ                       
+R1437 t01  40runs  3163glyphs | 別ブ                       
+R1438 t01  34runs  3653glyphs | 別ブ                       
+R1439 t01  26runs  3892glyphs | 別ブ                       
+R1440 t01  37runs  3759glyphs | 別ブ                       
+R1441 t01  37runs  3600glyphs | 別ブ                       
+R1442 t01  36runs  3481glyphs | 別ブ                       
+R1443 t01  28runs  3798glyphs | 別ブ                       
+R1444 t01  37runs  3079glyphs | 別ブ                       
+R1445 t01  36runs  3629glyphs | 別ブ                       
+R1446 t01  34runs  2990glyphs | 別ブ                       
+R1447 t01  40runs  3065glyphs | 別ブ                       
+R1448 t01  40runs  3257glyphs | 別ブ                       
+R1449 t01  39runs  2828glyphs | 別ブ                       
+R1450 t01  47runs  2675glyphs | 別ブ                       
+R1451 t01  29runs  3667glyphs | 別ブ                       
+R1452 t01  18runs  3826glyphs | 別ブ                       
+R1453 t01  42runs  3846glyphs | 別ブ                       
+R1454 t01  34runs  4258glyphs | 別ブ                       
+R1455 t01  37runs  4083glyphs | 別ブ                       
+R1456 t01  29runs  4296glyphs | 別ブ                       
+R1457 t01  30runs  4391glyphs | 別ブ                       
+R1458 t01  32runs  4308glyphs | 別ブ                       
+R1459 t01  27runs  4069glyphs | 別ブ                       
+R1460 t01  36runs  3898glyphs | 別ブ                       
+R1461 t01  43runs  3100glyphs | 別ブ                       
+R1462 t01  19runs  3988glyphs | 別ブ                       
+R1463 t01  23runs  3769glyphs | 別ブ                       
+R1464 t01  18runs  4309glyphs | 別ブ                       
+R1465 t01  26runs  4092glyphs | 別ブ                       
+R1466 t01  18runs  4228glyphs | 別ブ                       
+R1467 t01  30runs  4150glyphs | 別ブ                       
+R1468 t01  24runs  3842glyphs | 別ブ                       
+R1469 t01  38runs  3628glyphs | 別ブ                       
+R1470 t01  18runs  4057glyphs | 別ブ                       
+R1471 t01  38runs  3856glyphs | 別ブ                       
+R1472 t01  23runs  3930glyphs | 別ブ                       
+R1473 t01  37runs  3763glyphs | 別ブ                       
+R1474 t01  18runs  3721glyphs | 別ブ                       
+R1475 t01  31runs  3687glyphs | 別ブ                       
+R1476 t01  35runs  4136glyphs | 別ブ                       
+R1477 t01  32runs  3693glyphs | 別ブ                       
+R1478 t01  18runs  4076glyphs | 別ブ                       
+R1479 t01  19runs  3953glyphs | 別ブ                       
+R1480 t01  18runs  4102glyphs | 別ブ                       
+R1481 t01   1runs   906glyphs |                          
+R1482 t01   1runs   906glyphs |                          
+R1483 t01   1runs   906glyphs |                          
+R1484 t01   1runs   906glyphs |                          
+R1485 t01   1runs   906glyphs |                          
+R1486 t01   1runs   906glyphs |                          
+R1487 t01   1runs   906glyphs |                          
+R1488 t01   1runs   906glyphs |                          
+R1489 t01   1runs   906glyphs |                          
+R1490 t01   1runs   906glyphs |                          
+R1491 t01   1runs   906glyphs |                          
+R1492 t01   1runs   906glyphs |                          
+R1493 t01   1runs   906glyphs |                          
+R1494 t01   1runs   906glyphs |                          
+R1495 t01   1runs   906glyphs |                          
+R1496 t01   1runs   906glyphs |                          
+R1497 t01   1runs   906glyphs |                          
+R1498 t01   1runs   906glyphs |                          
+R1499 t01   1runs   906glyphs |                          
+R1500 t01   1runs   906glyphs |                          
+R1501 t01   1runs   908glyphs |                          
+R1502 t01  22runs  3844glyphs | 別ブ                       
+R1503 t01  23runs  3765glyphs | 別ブ                       
+R1504 t01  21runs  3767glyphs | 別ブ                       
+R1505 t01  23runs  3781glyphs | 別ブ                       
+R1506 t01  24runs  3838glyphs | 別ブ                       
+R1507 t01  34runs  3772glyphs | 別ブ                       
+R1508 t01  35runs  3775glyphs | 別ブ                       
+R1509 t01  35runs  3794glyphs | 別ブ                       
+R1510 t01  34runs  3744glyphs | 別ブ                       
+R1511 t01  35runs  3798glyphs | 別ブ                       
+R1512 t01  36runs  3989glyphs | 別ブ                       
+R1513 t01  34runs  3959glyphs | 別ブ                       
+R1514 t01  34runs  3957glyphs | 別ブ                       
+R1515 t01  34runs  3938glyphs | 別ブ                       
+R1516 t01  35runs  3955glyphs | 別ブ                       
+R1517 t01  18runs  3739glyphs | 別ブ                       
+R1518 t01  20runs  3591glyphs | 別ブ                       
+R1519 t01  18runs  3741glyphs | 別ブ                       
+R1520 t01  20runs  3589glyphs | 別ブ                       
+R1521 t01  20runs  3652glyphs | 別ブ                       
+R1522 t01  32runs  3493glyphs | 別ブ                       
+R1523 t01  32runs  3493glyphs | 別ブ                       
+R1524 t01  32runs  3493glyphs | 別ブ                       
+R1525 t01  32runs  3493glyphs | 別ブ                       
+R1526 t01  32runs  3501glyphs | 別ブ                       
+R1527 t01  33runs  3518glyphs | 別ブ                       
+R1528 t01  33runs  3518glyphs | 別ブ                       
+R1529 t01  33runs  3518glyphs | 別ブ                       
+R1530 t01  33runs  3518glyphs | 別ブ                       
+R1531 t01  33runs  3518glyphs | 別ブ                       
+R1532 t01  33runs  3518glyphs | 別ブ                       
+R1533 t01  33runs  3488glyphs | 別ブ                       
+R1534 t01  33runs  3488glyphs | 別ブ                       
+R1535 t01  33runs  3488glyphs | 別ブ                       
+R1536 t01  33runs  3488glyphs | 別ブ                       
+R1537 t01  33runs  3486glyphs | 別ブ                       
+R1538 t01   1runs   906glyphs |                          
+R1539 t01   1runs   906glyphs |                          
+R1540 t01   1runs   906glyphs |                          
+R1541 t01   1runs   906glyphs |                          
+R1542 t01   1runs   906glyphs |                          
+R1543 t01   1runs   906glyphs |                          
+R1544 t01   1runs   906glyphs |                          
+R1545 t01   1runs   906glyphs |                          
+R1546 t01   1runs   906glyphs |                          
+R1547 t01   1runs   908glyphs |                          
+R1548 t01  33runs  3727glyphs | 別ブ                       
+R1549 t01  18runs  3623glyphs | 別ブ                       
+R1550 t01  38runs  3797glyphs | 別ブ                       
+R1551 t01  36runs  3055glyphs | 別ブ                       
+R1552 t01  42runs  3956glyphs | 別ブ                       
+R1553 t01  31runs  4200glyphs | 別ブ                       
+R1554 t01  42runs  3224glyphs | 別ブ                       
+R1555 t01  28runs  4094glyphs | 別ブ                       
+R1556 t01  34runs  4011glyphs | 別ブ                       
+R1557 t01  18runs  4065glyphs | 別ブ                       
+R1558 t01  36runs  3792glyphs | 別ブ                       
+R1559 t01  35runs  3815glyphs | 別ブ                       
+R1560 t01  37runs  3662glyphs | 別ブ                       
+R1561 t01  24runs  3548glyphs | 別ブ                       
+R1562 t01  44runs  3716glyphs | 別ブ                       
+R1563 t01  36runs  3967glyphs | 別ブ                       
+R1564 t01   2runs   917glyphs | 別ブ                       
+R1565 t01  24runs  3549glyphs | 別ブ                       
+R1566 t01  42runs  3486glyphs | 別ブ                       
+R1567 t01  34runs  3827glyphs | 別ブ                       
+R1568 t01  34runs  4108glyphs | 別ブ                       
+R1569 t01  18runs  3620glyphs | 別ブ                       
+R1570 t01  35runs  3738glyphs | 別ブ                       
+R1571 t01  36runs  3081glyphs | 別ブ                       
+R1572 t01  38runs  3105glyphs | 別ブ                       
+R1573 t01  41runs  3412glyphs | 別ブ                       
+R1574 t01  34runs  3620glyphs | 別ブ                       
+R1575 t01  29runs  3739glyphs | 別ブ                       
+R1576 t01  29runs  3725glyphs | 別ブ                       
+R1577 t01  20runs  4226glyphs | 別ブ                       
+R1578 t01  35runs  2875glyphs | 別ブ                       
+R1579 t01  30runs  4015glyphs | 別ブ                       
+R1580 t01  18runs  3708glyphs | 別ブ                       
+R1581 t01  31runs  3645glyphs | 別ブ                       
+R1582 t01  34runs  3905glyphs | 別ブ                       
+R1583 t01  20runs  4682glyphs | 別ブ                       
+R1584 t01  19runs  4362glyphs | 別ブ                       
+R1585 t01  39runs  3920glyphs | 別ブ                       
+R1586 t01  50runs  4168glyphs | 別ブ                       
+R1587 t01  36runs  3898glyphs | 別ブ                       
+R1588 t01  19runs  3633glyphs | 別ブ                       
+R1589 t01  18runs  3664glyphs | 別ブ                       
+R1590 t01  18runs  3604glyphs | 別ブ                       
+R1591 t01  19runs  3733glyphs | 別ブ                       
+R1592 t01  18runs  3590glyphs | 別ブ                       
+R1593 t01  19runs  3563glyphs | 別ブ                       
+R1594 t01  34runs  3302glyphs | 別ブ                       
+R1595 t01  18runs  3592glyphs | 別ブ                       
+R1596 t01  19runs  3585glyphs | 別ブ                       
+R1597 t01  18runs  3657glyphs | 別ブ                       
+R1598 t01  18runs  3938glyphs | 別ブ                       
+R1599 t01  18runs  3731glyphs | 別ブ                       
+R1600 t01  18runs  3648glyphs | 別ブ                       
+R1601 t01  18runs  3792glyphs | 別ブ                       
+R1602 t01  18runs  3733glyphs | 別ブ                       
+R1603 t01  18runs  3684glyphs | 別ブ                       
+R1604 t01  18runs  3638glyphs | 別ブ                       
+R1605 t01  18runs  3697glyphs | 別ブ                       
+R1606 t01  18runs  3722glyphs | 別ブ                       
+R1607 t01  18runs  3656glyphs | 別ブ                       
+R1608 t01  31runs  3576glyphs | 別ブ                       
+R1609 t01  18runs  3762glyphs | 別ブ                       
+R1610 t01  18runs  3838glyphs | 別ブ                       
+R1611 t01  18runs  3787glyphs | 別ブ                       
+R1612 t01  18runs  3785glyphs | 別ブ                       
+R1613 t01  18runs  3754glyphs | 別ブ                       
+R1614 t01  18runs  3779glyphs | 別ブ                       
+R1615 t01  20runs  3636glyphs | 別ブ                       
+R1616 t01  18runs  3541glyphs | 別ブ                       
+R1617 t01  18runs  3702glyphs | 別ブ                       
+R1618 t01  18runs  3712glyphs | 別ブ                       
+R1619 t01  18runs  3750glyphs | 別ブ                       
+R1620 t01  18runs  3632glyphs | 別ブ                       
+R1621 t01  18runs  3526glyphs | 別ブ                       
+R1622 t01  18runs  3873glyphs | 別ブ                       
+R1623 t01  18runs  3679glyphs | 別ブ                       
+R1624 t01  18runs  3655glyphs | 別ブ                       
+R1625 t01  23runs  3644glyphs | 別ブ                       
+R1626 t01  18runs  3639glyphs | 別ブ                       
+R1627 t01  18runs  3678glyphs | 別ブ                       
+R1628 t01  18runs  3728glyphs | 別ブ                       
+R1629 t01  19runs  3649glyphs | 別ブ                       
+R1630 t01  18runs  3687glyphs | 別ブ                       
+R1631 t01  18runs  3655glyphs | 別ブ                       
+R1632 t01  18runs  3687glyphs | 別ブ                       
+R1633 t01  19runs  3575glyphs | 別ブ                       
+R1634 t01  18runs  3552glyphs | 別ブ                       
+R1635 t01  19runs  3547glyphs | 別ブ                       
+R1636 t01  18runs  3512glyphs | 別ブ                       
+R1637 t01  18runs  3554glyphs | 別ブ                       
+R1638 t01  18runs  3540glyphs | 別ブ                       
+R1639 t01  19runs  3523glyphs | 別ブ                       
+R1640 t01  19runs  3579glyphs | 別ブ                       
+R1641 t01  18runs  3530glyphs | 別ブ                       
+R1642 t01  18runs  3597glyphs | 別ブ                       
+R1643 t01  19runs  3573glyphs | 別ブ                       
+R1644 t01  19runs  3557glyphs | 別ブ                       
+R1645 t01  18runs  3560glyphs | 別ブ                       
+R1646 t01  18runs  3600glyphs | 別ブ                       
+R1647 t01  18runs  3612glyphs | 別ブ                       
+R1648 t01  18runs  4159glyphs | 別ブ                       
+R1649 t01  18runs  3704glyphs | 別ブ                       
+R1650 t01  18runs  3917glyphs | 別ブ                       
+R1651 t01  20runs  3776glyphs | 別ブ                       
+R1652 t01  18runs  3817glyphs | 別ブ                       
+R1653 t01  25runs  4064glyphs | 別ブ                       
+R1654 t01  46runs  3131glyphs | 別ブ                       
+R1655 t01  18runs  3834glyphs | 別ブ                       
+R1656 t01  18runs  3871glyphs | 別ブ                       
+R1657 t01  18runs  3798glyphs | 別ブ                       
+R1658 t01  18runs  3651glyphs | 別ブ                       
+R1659 t01  19runs  3862glyphs | 別ブ                       
+R1660 t01  24runs  3980glyphs | 別ブ                       
+R1661 t01  26runs  3941glyphs | 別ブ                       
+R1662 t01  19runs  3899glyphs | 別ブ                       
+R1663 t01  18runs  3840glyphs | 別ブ                       
+R1664 t01  19runs  3909glyphs | 別ブ                       
+R1665 t01  18runs  3980glyphs | 別ブ                       
+R1666 t01  18runs  3887glyphs | 別ブ                       
+R1667 t01  18runs  3718glyphs | 別ブ                       
+R1668 t01  18runs  3980glyphs | 別ブ                       
+R1669 t01  20runs  3949glyphs | 別ブ                       
+R1670 t01  34runs  3056glyphs | 別ブ                       
+R1671 t01  18runs  3651glyphs | 別ブ                       
+R1672 t01  18runs  3832glyphs | 別ブ                       
+R1673 t01  18runs  3718glyphs | 別ブ                       
+R1674 t01  20runs  3896glyphs | 別ブ                       
+R1675 t01  18runs  3904glyphs | 別ブ                       
+R1676 t01  18runs  3684glyphs | 別ブ                       
+R1677 t01  18runs  3806glyphs | 別ブ                       
+R1678 t01  18runs  3659glyphs | 別ブ                       
+R1679 t01  18runs  3980glyphs | 別ブ                       
+R1680 t01  18runs  3768glyphs | 別ブ                       
+R1681 t01  18runs  3782glyphs | 別ブ                       
+R1682 t01  36runs  3471glyphs | 別ブ                       
+R1683 t01  35runs  3595glyphs | 別ブ                       
+R1684 t01  38runs  3590glyphs | 別ブ                       
+R1685 t01  34runs  3462glyphs | 別ブ                       
+R1686 t01  36runs  3746glyphs | 別ブ                       
+R1687 t01  33runs  3686glyphs | 別ブ                       
+R1688 t01  34runs  3728glyphs | 別ブ                       
+R1689 t01  33runs  3581glyphs | 別ブ                       
+R1690 t01  34runs  3519glyphs | 別ブ                       
+R1691 t01  33runs  3741glyphs | 別ブ                       
+R1692 t01  34runs  3455glyphs | 別ブ                       
+R1693 t01  35runs  3950glyphs | 別ブ                       
+R1694 t01  34runs  3863glyphs | 別ブ                       
+R1695 t01  35runs  3890glyphs | 別ブ                       
+R1696 t01  37runs  3963glyphs | 別ブ                       
+R1697 t01  34runs  3889glyphs | 別ブ                       
+R1698 t01  35runs  3962glyphs | 別ブ                       
+R1699 t01  36runs  3923glyphs | 別ブ                       
+R1700 t01  34runs  3859glyphs | 別ブ                       
+R1701 t01   2runs   440glyphs |                        [E][E]
+R1702 t01   2runs   440glyphs |                        [E][E]
+R1703 t01   2runs   442glyphs |                        [E][E]
+R1704 t01   2runs   442glyphs |                        [E][E]
+R1705 t01   2runs   435glyphs |                        [E][E]
+R1706 t01   2runs   435glyphs |                        [E][E]
+R1707 t01   2runs   441glyphs |                        [E][E]
+R1708 t01   2runs   439glyphs |                        [E][E]
+R1709 t01   2runs   441glyphs |                        [E][E]
+R1710 t01   2runs   444glyphs |                        [E][E]
+R1711 t01   2runs   442glyphs |                        [E][E]
+R1712 t01   2runs   437glyphs |                        [E][E]
+R1713 t01   2runs   441glyphs |                        [E][E]
+R1714 t01   2runs   437glyphs |                        [E][E]
+R1715 t01   2runs   435glyphs |                        [E][E]
+R1716 t01   2runs   438glyphs |                        [E][E]
+R1717 t01   2runs   435glyphs |                        [E][E]
+R1718 t01   2runs   440glyphs |                        [E][E]
+R1719 t01   2runs   435glyphs |                        [E][E]
+R1720 t01   2runs   438glyphs |                        [E][E]
+R1721 t01   2runs   435glyphs |                        [E][E]
+R1722 t01   2runs   438glyphs |                        [E][E]
+R1723 t01  25runs  4381glyphs | 別ブ                       
+R1724 t01  31runs  4239glyphs | 別ブ                       
+R1725 t01  24runs  4452glyphs | 別ブ                       
+R1726 t01   2runs   917glyphs | 別ブ                       
+R1727 t01  31runs  4361glyphs | 別ブ                       
+R1728 t01  25runs  4314glyphs | 別ブ                       
+R1729 t01  26runs  4054glyphs | 別ブ                       
+R1730 t01  29runs  4259glyphs | 別ブ                       
+R1731 t01  26runs  4388glyphs | 別ブ                       
+R1732 t01  31runs  4285glyphs | 別ブ                       
+R1733 t01  30runs  4184glyphs | 別ブ                       
+R1734 t01  34runs  4284glyphs | 別ブ                       
+R1735 t01  30runs  4279glyphs | 別ブ                       
+R1736 t01  30runs  4258glyphs | 別ブ                       
+R1737 t01  34runs  4128glyphs | 別ブ                       
+R1738 t01  34runs  4258glyphs | 別ブ                       
+R1739 t01  29runs  4379glyphs | 別ブ                       
+R1740 t01  34runs  4259glyphs | 別ブ                       
+R1741 t01  24runs  4254glyphs | 別ブ                       
+R1742 t01  29runs  4331glyphs | 別ブ                       
+R1743 t01  24runs  4334glyphs | 別ブ                       
+R1744 t01  21runs  4440glyphs | 別ブ                       
+R1745 t01  30runs  4386glyphs | 別ブ                       
+R1746 t01  29runs  4369glyphs | 別ブ                       
+R1747 t01  26runs  4430glyphs | 別ブ                       
+R1748 t01  29runs  4319glyphs | 別ブ                       
+R1749 t01  29runs  4225glyphs | 別ブ                       
+R1750 t01  27runs  4333glyphs | 別ブ                       
+R1751 t01  28runs  4374glyphs | 別ブ                       
+R1752 t01  30runs  4403glyphs | 別ブ                       
+R1753 t01  30runs  4329glyphs | 別ブ                       
+R1754 t01  29runs  4377glyphs | 別ブ                       
+R1755 t01  31runs  4311glyphs | 別ブ                       
+R1756 t01  30runs  4366glyphs | 別ブ                       
+R1757 t01  31runs  4154glyphs | 別ブ                       
+R1758 t01  33runs  4265glyphs | 別ブ                       
+R1759 t01  29runs  4324glyphs | 別ブ                       
+R1760 t01  35runs  4228glyphs | 別ブ                       
+R1761 t01  32runs  4048glyphs | 別ブ                       
+R1762 t01   2runs   917glyphs | 別ブ                       
+R1763 t01  31runs  4368glyphs | 別ブ                       
+R1764 t01  31runs  4207glyphs | 別ブ                       
+R1765 t01  32runs  4224glyphs | 別ブ                       
+R1766 t01  33runs  4007glyphs | 別ブ                       
+R1767 t01  33runs  4208glyphs | 別ブ                       
+R1768 t01  32runs  4178glyphs | 別ブ                       
+R1769 t01  35runs  4129glyphs | 別ブ                       
+R1770 t01  33runs  4367glyphs | 別ブ                       
+R1771 t01  34runs  4232glyphs | 別ブ                       
+R1772 t01  35runs  4302glyphs | 別ブ                       
+R1773 t01  41runs  4253glyphs | 別ブ                       
+R1774 t01  39runs  4250glyphs | 別ブ                       
+R1775 t01  43runs  4167glyphs | 別ブ                       
+R1776 t01  41runs  4234glyphs | 別ブ                       
+R1777 t01  41runs  4254glyphs | 別ブ                       
+R1778 t01  41runs  4201glyphs | 別ブ                       
+R1779 t01  33runs  4329glyphs | 別ブ                       
+R1780 t01  30runs  4386glyphs | 別ブ                       
+R1781 t01  31runs  4408glyphs | 別ブ                       
+R1782 t01  31runs  4389glyphs | 別ブ                       
+R1783 t01  30runs  4316glyphs | 別ブ                       
+R1784 t01  32runs  4312glyphs | 別ブ                       
+R1785 t01  31runs  4381glyphs | 別ブ                       
+R1786 t01  36runs  4328glyphs | 別ブ                       
+R1787 t01  32runs  4376glyphs | 別ブ                       
+R1788 t01  34runs  4328glyphs | 別ブ                       
+R1789 t01  32runs  4250glyphs | 別ブ                       
+R1790 t01  34runs  4205glyphs | 別ブ                       
+R1791 t01  32runs  4348glyphs | 別ブ                       
+R1792 t01  23runs  4184glyphs | 別ブ                       
+R1793 t01  34runs  3936glyphs | 別ブ                       
+R1794 t01  31runs  4173glyphs | 別ブ                       
+R1795 t01  33runs  4137glyphs | 別ブ                       
+R1796 t01  34runs  3985glyphs | 別ブ                       
+R1797 t01  37runs  3999glyphs | 別ブ                       
+R1798 t01  32runs  4032glyphs | 別ブ                       
+R1799 t01  34runs  4064glyphs | 別ブ                       
+R1800 t01  28runs  4109glyphs | 別ブ                       
+R1801 t01  29runs  4169glyphs | 別ブ                       
+R1802 t01  30runs  3948glyphs | 別ブ                       
+R1803 t01  33runs  4294glyphs | 別ブ                       
+R1804 t01  35runs  4060glyphs | 別ブ                       
+R1805 t01  34runs  4168glyphs | 別ブ                       
+R1806 t01  31runs  4308glyphs | 別ブ                       
+R1807 t01  34runs  4269glyphs | 別ブ                       
+R1808 t01  35runs  4019glyphs | 別ブ                       
+R1809 t01  37runs  3886glyphs | 別ブ                       
+R1810 t01  41runs  4034glyphs | 別ブ                       
+R1811 t01  35runs  4076glyphs | 別ブ                       
+R1812 t01  34runs  4134glyphs | 別ブ                       
+R1813 t01  36runs  3690glyphs | 別ブ                       
+R1814 t01  39runs  3650glyphs | 別ブ                       
+R1815 t01  39runs  3323glyphs | 別ブ                       
+R1816 t01  37runs  3597glyphs | 別ブ                       
+R1817 t01  35runs  3486glyphs | 別ブ                       
+R1818 t01  25runs  3851glyphs | 別ブ                       
+R1819 t01  33runs  3757glyphs | 別ブ                       
+R1820 t01  33runs  4305glyphs | 別ブ                       
+R1821 t01  33runs  4329glyphs | 別ブ                       
+R1822 t01  33runs  4244glyphs | 別ブ                       
+R1823 t01  33runs  4283glyphs | 別ブ                       
+R1824 t01  35runs  4214glyphs | 別ブ                       
+R1825 t01  32runs  4262glyphs | 別ブ                       
+R1826 t01  33runs  4325glyphs | 別ブ                       
+R1827 t01  34runs  4329glyphs | 別ブ                       
+R1828 t01  32runs  4336glyphs | 別ブ                       
+R1829 t01  34runs  4222glyphs | 別ブ                       
+R1830 t01  35runs  3996glyphs | 別ブ                       
+R1831 t01  18runs  4284glyphs | 別ブ                       
+R1832 t01  29runs  4417glyphs | 別ブ                       
+R1833 t01  34runs  4012glyphs | 別ブ                       
+R1834 t01  31runs  4109glyphs | 別ブ                       
+R1835 t01  29runs  4321glyphs | 別ブ                       
+R1836 t01  32runs  4203glyphs | 別ブ                       
+R1837 t01  39runs  4063glyphs | 別ブ                       
+R1838 t01  36runs  3892glyphs | 別ブ                       
+R1839 t01  36runs  4255glyphs | 別ブ                       
+R1840 t01  36runs  4077glyphs | 別ブ                       
+R1841 t01  20runs  4529glyphs | 別ブ                       
+R1842 t01  18runs  4509glyphs | 別ブ                       
+R1843 t01  18runs  4473glyphs | 別ブ                       
+R1844 t01  18runs  4562glyphs | 別ブ                       
+R1845 t01  18runs  4438glyphs | 別ブ                       
+R1846 t01  18runs  4508glyphs | 別ブ                       
+R1847 t01  18runs  4406glyphs | 別ブ                       
+R1848 t01  18runs  4479glyphs | 別ブ                       
+R1849 t01  40runs  3521glyphs | 別ブ                       
+R1850 t01  40runs  3501glyphs | 別ブ                       
+R1851 t01  38runs  3462glyphs | 別ブ                       
+R1852 t01  49runs  3772glyphs | 別ブ                       
+R1853 t01  47runs  3703glyphs | 別ブ                       
+R1854 t01  47runs  3388glyphs | 別ブ                       
+R1855 t01  42runs  3899glyphs | 別ブ                       
+R1856 t01  36runs  3867glyphs | 別ブ                       
+R1857 t01  43runs  3829glyphs | 別ブ                       
+R1858 t01  38runs  3644glyphs | 別ブ                       
+R1859 t01  37runs  4162glyphs | 別ブ                       
+R1860 t01  44runs  3880glyphs | 別ブ                       
+R1861 t01  38runs  3792glyphs | 別ブ                       
+R1862 t01  27runs  4491glyphs | 別ブ                       
+R1863 t01  26runs  4390glyphs | 別ブ                       
+R1864 t01  30runs  4400glyphs | 別ブ                       
+R1865 t01  30runs  4456glyphs | 別ブ                       
+R1866 t01  28runs  4489glyphs | 別ブ                       
+R1867 t01  29runs  4410glyphs | 別ブ                       
+R1868 t01  31runs  4257glyphs | 別ブ                       
+R1869 t01  34runs  4384glyphs | 別ブ                       
+R1870 t01  31runs  4325glyphs | 別ブ                       
+R1871 t01  33runs  4337glyphs | 別ブ                       
+R1872 t01  32runs  4390glyphs | 別ブ                       
+R1873 t01  32runs  4239glyphs | 別ブ                       
+R1874 t01  29runs  4174glyphs | 別ブ                       
+R1875 t01  36runs  3896glyphs | 別ブ                       
+R1876 t01  36runs  3694glyphs | 別ブ                       
+R1877 t01  34runs  3980glyphs | 別ブ                       
+R1878 t01  36runs  3806glyphs | 別ブ                       
+R1879 t01  34runs  3631glyphs | 別ブ                       
+R1880 t01  34runs  3803glyphs | 別ブ                       
+R1881 t01  41runs  3525glyphs | 別ブ                       
+R1882 t01  18runs  4086glyphs | 別ブ                       
+R1883 t02   2runs   588glyphs |         ブ 別     
+R1884 t02   6runs  1006glyphs | ブ  。 。別     容  
+R1885 t03   8runs   594glyphs |    。   。 。ブ  。  別  。 
+R1886 t01   1runs   930glyphs |    ち ち ち ち ち ち ち ち ち ち ち 
+R1887 t01   1runs   426glyphs |                          
+R1888 t66 119runs  5410glyphs | 容       容 容     
+R1889 t14   2runs   549glyphs |                  
+R1890 t01   1runs   826glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R1891 t04   1runs    34glyphs |                          
+R1892 t20  55runs  2432glyphs |                          
+R1893 t08  18runs  1435glyphs |           ブブ             
+R1894 t02   1runs    52glyphs |                          
+R1895 t02   1runs   340glyphs |                          
+R1897 t06   1runs   388glyphs |                          
+R1898 t06   1runs   388glyphs |                          
+R1899 t06   1runs   388glyphs |                          
+R1900 t01 235runs 97782glyphs |                          
+R1901 t01  30runs  1726glyphs | 別ブ                       
+R1902 t01  33runs  2103glyphs | 別ブ                       
+R1903 t01  33runs  1629glyphs | 別ブ                       
+R1904 t01  33runs  1956glyphs | 別ブ                       
+R1905 t01  27runs  1772glyphs | 別ブ                       
+R1906 t01  27runs  2160glyphs | 別ブ                       
+R1907 t01  33runs  1618glyphs | 別ブ                       
+R1908 t06   7runs   233glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1909 t04 537runs 32041glyphs |  ず                       
+R1910 t02 150runs  6035glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R1911 t02   1runs    50glyphs |                          
+R1912 t02   2runs   281glyphs |                
+R1913 t02   1runs   420glyphs |                          
+R1914 t02   1runs   506glyphs |                          
+R1915 t02   2runs   835glyphs |             ボ    
+R1916 t02   1runs   482glyphs |                          
+R1917 t02   1runs   538glyphs |                          
+R1919 t02   1runs   290glyphs |                          
+R1920 t02   1runs   580glyphs |  ン                       
+R1921 t02   1runs   394glyphs |                          
+R1922 t02   1runs   602glyphs |                          
+R1923 t02   1runs    34glyphs |                          
+R1924 t02   1runs   482glyphs |                          
+R1925 t02   1runs   962glyphs |                          
+R1926 t02   1runs   794glyphs |                          
+R1927 t02   1runs    58glyphs |                          
+R1928 t02   1runs    26glyphs |                          
+R1929 t02   1runs   506glyphs |                          
+R1930 t02   1runs   266glyphs |                          
+R1931 t02   1runs   122glyphs |                          
+R1932 t02   1runs   370glyphs |                          
+R1933 t02   1runs   730glyphs |                          
+R1934 t02   1runs   402glyphs |                          
+R1935 t02   1runs    58glyphs |                          
+R1936 t02   1runs   298glyphs |                          
+R1937 t02   1runs   498glyphs |                          
+R1938 t02   1runs   338glyphs |                          
+R1939 t02   1runs   320glyphs |                          
+R1940 t02   1runs   320glyphs |                          
+R1941 t02   1runs    26glyphs |                          
+R1942 t02   1runs   226glyphs |                          
+R1943 t02   1runs   146glyphs |                          
+R1944 t02   1runs    18glyphs |                   
+R1945 t02   1runs   482glyphs |                          
+R1946 t02   1runs   458glyphs |                          
+R1947 t02   1runs   666glyphs |                          
+R1948 t02   1runs   538glyphs |                          
+R1949 t02   1runs   570glyphs |                          
+R1950 t02   1runs   882glyphs |                          
+R1951 t02   1runs  1002glyphs |                          
+R1952 t02   1runs   642glyphs |                          
+R1953 t02   1runs   298glyphs |                          
+R1954 t02   1runs   546glyphs |                          
+R1955 t02   1runs    34glyphs |                          
+R1956 t02   1runs   522glyphs |                          
+R1957 t02   1runs   402glyphs |                          
+R1958 t02   1runs   210glyphs |                          
+R1959 t02   1runs   818glyphs |                          
+R1960 t02   1runs   818glyphs |                          
+R1961 t02   1runs   186glyphs |                          
+R1962 t02   1runs   322glyphs |                          
+R1963 t02   1runs   162glyphs |                          
+R1964 t02   1runs    98glyphs |                          
+R1965 t02   1runs   226glyphs |                          
+R1966 t02   1runs    58glyphs |                          
+R1967 t02   1runs   354glyphs |                          
+R1968 t02   1runs   610glyphs |                          
+R1969 t02   1runs   106glyphs |                          
+R1970 t02   1runs   682glyphs |                          
+R1971 t02   1runs   970glyphs |                          
+R1972 t02   1runs   586glyphs |                          
+R1973 t02   1runs    42glyphs |                          
+R1974 t02   1runs   754glyphs |                          
+R1975 t02   1runs   442glyphs |                          
+R1977 t02   1runs   306glyphs |                          
+R1978 t02   1runs   730glyphs |                          
+R1979 t02   1runs   890glyphs |                          
+R1980 t02   1runs   914glyphs |                          
+R1981 t02   1runs   882glyphs |                          
+R1982 t02   1runs   914glyphs |                          
+R1983 t02   1runs   250glyphs |                          
+R1984 t02   1runs   122glyphs |                          
+R1985 t02   1runs   570glyphs |                          
+R1986 t02   1runs   890glyphs |                          
+R1987 t02   1runs   842glyphs |                          
+R1988 t02   1runs    18glyphs |                   
+R1990 t02   1runs   450glyphs |                          
+R1991 t02   1runs   650glyphs |                          
+R1992 t02   1runs   346glyphs |                          
+R1993 t02   1runs   498glyphs |                          
+R1994 t02   1runs   986glyphs |                          
+R1995 t02   1runs   906glyphs |                          
+R1996 t02   1runs   234glyphs |                          
+R1997 t02   1runs   650glyphs |                          
+R1998 t02   1runs   906glyphs |                          
+R1999 t02   1runs   378glyphs |                          
+R2000 t02   1runs  1018glyphs |                          
+R2001 t02   1runs   450glyphs |                          
+R2002 t02   1runs   274glyphs |                          
+R2003 t02   1runs   994glyphs |                          
+R2004 t02   1runs    74glyphs |                          
+R2005 t02   1runs   970glyphs |                          
+R2006 t02   1runs  1010glyphs |                          
+R2007 t02   1runs   170glyphs |                          
+R2008 t02   1runs   210glyphs |                          
+R2009 t02   1runs   210glyphs |                          
+R2010 t02   1runs   634glyphs |                          
+R2011 t02   1runs   162glyphs |                          
+R2012 t02   1runs   946glyphs |                          
+R2013 t02   1runs   818glyphs |                          
+R2014 t02   1runs    66glyphs |                          
+R2015 t02   1runs   218glyphs |                          
+R2016 t02   1runs   162glyphs |                          
+R2017 t02   1runs    18glyphs |                   
+R2018 t02   1runs   850glyphs |                          
+R2019 t02   1runs    66glyphs |                          
+R2020 t02   1runs   466glyphs |                          
+R2021 t02   1runs   778glyphs |                          
+R2022 t02   1runs   890glyphs |                          
+R2023 t02   1runs   250glyphs |                          
+R2024 t02   1runs   858glyphs |                          
+R2025 t02   1runs   842glyphs |                          
+R2026 t02   1runs    58glyphs |                          
+R2027 t03   1runs   794glyphs |                          
+R2028 t03   1runs    50glyphs |                          
+R2029 t03   1runs   162glyphs |                          
+R2030 t03   1runs   404glyphs |                          
+R2031 t03   1runs   986glyphs |                          
+R2032 t03   1runs    82glyphs |                          
+R2033 t03   1runs   890glyphs |                          
+R2034 t03   1runs   522glyphs |                          
+R2035 t03   1runs    42glyphs |                          
+R2036 t03   1runs   746glyphs |                          
+R2037 t03   1runs   538glyphs |                          
+R2038 t03   1runs   306glyphs |                          
+R2039 t03   1runs   842glyphs |                          
+R2040 t03   1runs   882glyphs |                          
+R2041 t03   1runs   594glyphs |                          
+R2042 t03   1runs   586glyphs |                          
+R2043 t03   1runs   706glyphs |                          
+R2044 t03   1runs   322glyphs |                          
+R2045 t03   1runs   250glyphs |                          
+R2046 t03   1runs   442glyphs |                          
+R2047 t03   1runs   906glyphs |                          
+R2048 t03   1runs   770glyphs |                          
+R2049 t03   1runs   818glyphs |                          
+R2050 t03   1runs   226glyphs |                          
+R2051 t03   1runs   778glyphs |                          
+R2052 t03   1runs   474glyphs |                          
+R2053 t03   1runs  1018glyphs |                          
+R2054 t03   1runs   122glyphs |                          
+R2056 t03   1runs   922glyphs |                          
+R2057 t03   1runs   786glyphs |                          
+R2058 t03   1runs   507glyphs | 色                        
+R2059 t03   1runs    26glyphs |                          
+R2060 t03   1runs   370glyphs |                          
+R2061 t03   1runs   938glyphs |                          
+R2062 t03   1runs   398glyphs |                          
+R2063 t03   1runs   170glyphs |                          
+R2064 t03   1runs   330glyphs |                          
+R2065 t03   1runs   122glyphs |                          
+R2066 t03   1runs   498glyphs |                          
+R2067 t03   2runs   337glyphs |         族      
+R2068 t03   1runs   786glyphs |                          
+R2069 t03   1runs   658glyphs |                          
+R2070 t03   1runs   588glyphs |                          
+R2071 t03   2runs   761glyphs |                
+R2072 t03   1runs  1010glyphs |                          
+R2073 t03   1runs   954glyphs |                          
+R2074 t03   1runs   890glyphs |                          
+R2075 t03   1runs   378glyphs |                          
+R2076 t03   2runs   369glyphs |         族      
+R2077 t03   1runs   570glyphs |                          
+R2078 t03   1runs  1002glyphs |                          
+R2079 t03   1runs   115glyphs | 取                        
+R2080 t03   1runs   866glyphs |                          
+R2081 t03   1runs   714glyphs |                          
+R2082 t03   1runs   714glyphs |                          
+R2083 t03   1runs  1010glyphs |                          
+R2084 t03   1runs    74glyphs |                          
+R2085 t03   1runs  1002glyphs |                          
+R2086 t03   1runs   320glyphs |                          
+R2087 t01   3runs   263glyphs |                
+R2088 t01   2runs   600glyphs |                          
+R2089 t01   3runs   727glyphs |                
+R2090 t01   2runs   968glyphs |                          
+R2091 t01   2runs   184glyphs |                          
+R2092 t01   2runs   184glyphs |                          
+R2093 t01   2runs   136glyphs |                          
+R2094 t01   2runs   392glyphs |                          
+R2095 t01   2runs   424glyphs |                          
+R2096 t01   3runs   167glyphs |                
+R2097 t01   3runs   833glyphs |                
+R2098 t05 105runs 19535glyphs | ちちちちちちちちちちちちちちちちちちちちちちちちち
+R2099 t02 114runs 20404glyphs |                        
+R2100 t04   9runs   514glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2101 t19  31runs  2218glyphs |  y w t q m h d 
+R2102 t06  10runs   658glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2103 t01   1runs   936glyphs |                          
+R2104 t03 747runs 51851glyphs | [E][E][E]?[E]?[E]?[E][E][E][E][E][E][E][E][E][E][E
+R2105 t01   1runs   426glyphs |                          
+R2106 t03 719runs 56048glyphs | [E][E][E][E][E][E][E]?                 
+R2107 t03 814runs 54189glyphs | 別ブ       [E][E][E][E][E][E][E][E][E][E][E][E][E][E
+R2108 t03 743runs 56131glyphs | ??[E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E]
+R2109 t03 704runs 43820glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E]  
+R2110 t03 782runs 54393glyphs |                          
+R2111 t03 743runs 52966glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E]  
+R2112 t03 739runs 49740glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E]  
+R2113 t03 925runs 59765glyphs | [E][E][E][E][E]?[E]?[E][E][E][E][E][E][E][E][E][E]
+R2114 t03 727runs 47437glyphs |                          
+R2115 t03 733runs 54859glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E]  
+R2116 t03 716runs 47955glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E]  
+R2117 t03 737runs 48947glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E]  
+R2118 t01   2runs   685glyphs |                        
+R2119 t01   3runs   458glyphs |                        [E][E]
+R2120 t01   2runs   763glyphs |                        
+R2121 t01  33runs  1208glyphs |                        [E][E]
+R2122 t01   2runs   433glyphs |                        [E][E]
+R2123 t01   1runs   650glyphs |                          
+R2124 t01 110runs  6589glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2125 t01   5runs   938glyphs |  ８     ８ ♥ ８     p 
+R2126 t181  80runs  4943glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2127 t46 400runs 19624glyphs |                ッ 
+R2128 t06   7runs  1637glyphs | ボ回ボ活種業ベベ 別 ブブブブブ        
+R2129 t15  46runs  4538glyphs | [E] ブブブブブブブブブブブブブブブブブブブブブ  
+R2130 t03   3runs   453glyphs |                     
+R2131 t03   2runs   629glyphs |                    
+R2132 t03   2runs   300glyphs |                   
+R2133 t03   5runs  1080glyphs |                  
+R2134 t03   7runs   992glyphs |                
+R2135 t12   9runs  2297glyphs |  ち ち ち ち ち ち ち ち
+R2136 t02   2runs   893glyphs |      リ ０     ０ リ ０     
+R2137 t03  79runs  1858glyphs |                   
+R2138 t29 2153runs 106668glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2139 t15  23runs  1004glyphs |      ち ８     ８ ち ８     p 
+R2140 t03 425runs 24550glyphs |                        
+R2141 t02 376runs 21617glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2142 t02   3runs   924glyphs |  」     ち ８     ８ ち ８     
+R2143 t03  50runs  1550glyphs |                        
+R2144 t02 214runs 25649glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2145 t02   3runs   954glyphs |      ち ８     ８ ち ８     p 
+R2146 t03 252runs 10024glyphs |                   」
+R2147 t06 1162runs 86534glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2148 t05  13runs   366glyphs |  」     ち ８     ８ ち ８     
+R2149 t03 136runs  4783glyphs | ベ種種ベベププペボベベベプベベベベベ
+R2150 t05 583runs 34829glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2151 t16 144runs  3875glyphs |  ０     ち ８     ８ ち ８     
+R2152 t03 253runs 16842glyphs | 難呪経難響呪響難響呪下呪下呪下呪経響活響
+R2153 t05 451runs 40097glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2154 t05   7runs   636glyphs |      ち ８     ８ ち ８     p 
+R2155 t10 725runs 45406glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2156 t16   3runs   676glyphs | ボブ難 威ブ種 ブブブ      
+R2157 t17  50runs  2013glyphs |  だ     ０ ０   ０   ０ ０   
+R2158 t02 160runs  4725glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2159 t32 576runs 26942glyphs | 容       ブ 別     
+R2160 t17  14runs  1172glyphs | ブ              
+R2161 t02   4runs   393glyphs |  ギ ゲ ゼ ド ／ o た ガ
+R2162 t02   1runs   690glyphs |                          
+R2163 t02   1runs   228glyphs | 族血                       
+R2164 t02   1runs   588glyphs | 族血                       
+R2165 t02   1runs   490glyphs |                          
+R2166 t02   1runs   802glyphs |                          
+R2167 t03   5runs   574glyphs |   ベボ族族種ベ下難族下呪難難
+R2168 t02   1runs   506glyphs |                          
+R2169 t03   3runs  1003glyphs |   ベボ族下容 族族族ベピ難族性難
+R2170 t03   4runs   668glyphs |   ベボ族下容 族別 下呪難ベブ 
+R2171 t02   2runs    65glyphs |   ベボ族下呪難ベパ下ベブ  
+R2172 t02   2runs   642glyphs | 別       ブ 別     
+R2173 t02   2runs   130glyphs | 別       ブ 別     
+R2174 t02   1runs   394glyphs |                          
+R2175 t02  29runs  1908glyphs | 別ブ  ち ち ち ち ち ち ち ち ち ち ち
+R2177 t02   2runs   106glyphs |         ブ 別     
+R2178 t02   2runs   106glyphs |         ブ 別     
+R2179 t02   2runs   106glyphs |         ブ 別     
+R2180 t02   2runs   106glyphs |         ブ 別     
+R2181 t02   2runs   738glyphs |         ブ 別     
+R2182 t02   2runs   738glyphs |         ブ 別     
+R2183 t02   5runs   792glyphs |         ブ 別     
+R2184 t02   1runs   634glyphs |                          
+R2185 t02   1runs  1018glyphs |                          
+R2186 t02   2runs    34glyphs | ざブ  ２ ５ ２ p p０p 
+R2187 t02   2runs   234glyphs |         ブ 別     
+R2188 t02   2runs   458glyphs |         ブ 別     
+R2189 t02   1runs   362glyphs |                          
+R2190 t02   1runs   282glyphs |                          
+R2191 t02   1runs   362glyphs |                          
+R2192 t02  11runs  1153glyphs |         ブ 別     
+R2193 t02   2runs   475glyphs | 別       ブ 別     
+R2194 t02   1runs   627glyphs | ち                        
+R2195 t02   1runs   226glyphs |                          
+R2196 t02   1runs    15glyphs |        ブ 別     
+R2197 t02   2runs    33glyphs |        ブ 別     
+R2198 t03   2runs   170glyphs | 別       ブ 別     
+R2199 t02   3runs   818glyphs | 下               
+R2200 t02   1runs   434glyphs |                          
+R2201 t02   1runs   618glyphs |                          
+R2202 t02   1runs   812glyphs |                          
+R2203 t03   4runs   682glyphs |        ブ 別     
+R2204 t02   1runs   578glyphs |                          
+R2205 t02   1runs   906glyphs |                          
+R2206 t02   1runs   538glyphs |                          
+R2207 t02   1runs   634glyphs |                          
+R2208 t02   4runs   196glyphs |  ？ 。 あ ア ザ ゾ 内 
+R2209 t03   3runs   705glyphs | 別          員   
+R2210 t03   1runs    50glyphs |                          
+R2211 t02   1runs   380glyphs | 種ち                       
+R2212 t03   4runs    89glyphs |   ベボ族ベブ 下呪難ベパ下ベピ難
+R2213 t03   4runs   604glyphs |  ち ち ち ち ち ち ち ち難
+R2214 t03   3runs   374glyphs | バちドちデちヅちダちゼちジちゲちンちルちヤちホちヌ
+R2215 t02   4runs   514glyphs | 容       別 別     
+R2216 t03  11runs  1241glyphs |                          
+R2217 t02  92runs  1678glyphs | [E]               
+R2218 t02  52runs  1480glyphs | [E]               
+R2219 t02 103runs  1719glyphs | [E]               
+R2220 t03 157runs  3181glyphs | [E]容[E]            [E][E][E][E]   
+R2221 t03  81runs  1610glyphs | [E]            [E][E][E][E]別  
+R2222 t03 101runs  2496glyphs |      容 ブ [E]ブ容[E]    ち      
+R2223 t03 111runs  1792glyphs |      容 ブ [E]ブ容[E]    ち       
+R2224 t03  74runs  1550glyphs |  ベ [E][E]ブ[E]    ち      
+R2225 t03  52runs   980glyphs | 別     [E]      [E][E][E][E]   
+R2226 t03  60runs  1630glyphs | [E]            [E][E][E][E]ブ  
+R2227 t03 147runs  3593glyphs | ブブ[E]別[E]      [E]      [E][E][E][E]別  
+R2228 t03 126runs  2453glyphs |  ベ [E][E]別[E]            [E][E][E][E]別 
+R2229 t03  88runs  1599glyphs |       [E]      [E][E][E][E]ブ  
+R2230 t03 161runs  2930glyphs | [E]ブ[E]    ち       [E][E][E][E]別  
+R2231 t31 205runs 595221glyphs |                          
+R2232 t04   1runs    49glyphs |                          
+R2233 t03   5runs  1131glyphs |                          
+R2234 t03   3runs   457glyphs |                          
+R2235 t05   6runs  1405glyphs |                     
+R2236 t05   8runs  1554glyphs |                
+R2237 t03   5runs   875glyphs |                          
+R2238 t05   7runs   995glyphs |                          
+R2239 t03   3runs  1083glyphs |                          
+R2240 t03   9runs   759glyphs |                 
+R2241 t03   2runs   257glyphs |                        
+R2242 t05   4runs  1522glyphs |                          
+R2243 t03   4runs  1024glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2244 t03   6runs   878glyphs |                
+R2245 t03   4runs  1250glyphs |                   
+R2246 t03   5runs  1037glyphs |                    
+R2247 t03   3runs   296glyphs | [E] ブ別別                   
+R2248 t06   3runs  1729glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2249 t04   4runs   978glyphs | iパ 士パベ族 威呪ボ別プ 威活 
+R2250 t04   1runs   465glyphs |                          
+R2251 t03   4runs   667glyphs | [E] ブブブブ                
+R2252 t03   2runs   710glyphs | [E]                        
+R2253 t04   4runs   606glyphs |                   
+R2254 t03   1runs    65glyphs |                          
+R2255 t03   5runs   726glyphs |                    
+R2256 t04   2runs   234glyphs | 覚別容種容種別ベベボベ種別威容容
+R2257 t04   7runs   648glyphs |   ベボ族下呪難ベパ下ベブ 難
+R2258 t03   1runs   954glyphs | 別                        
+R2259 t04   1runs   833glyphs |                          
+R2260 t03   3runs   414glyphs |                          
+R2261 t03   2runs  1009glyphs |                 
+R2262 t03   6runs   464glyphs |                
+R2263 t03   4runs   151glyphs |   ベボ族ベパ下族性難族条下難
+R2264 t03   3runs   997glyphs | ブ              
+R2265 t03   5runs   318glyphs |                   
+R2266 t03   4runs   243glyphs |                  
+R2267 t04   2runs   993glyphs |   ベボ族下容 族別 下呪難 
+R2268 t10   4runs  1026glyphs |                 
+R2269 t06   1runs   674glyphs |                          
+R2270 t11  79runs  4829glyphs |   ベボ族下難族ベピ難下威ベ難
+R2271 t09   7runs   853glyphs |   ベボ族下呪難族条下族種ベ難
+R2272 t03   1runs  1009glyphs |                          
+R2273 t04   5runs   717glyphs |   ベボ族族種ベ下難族下呪難下結
+R2274 t04   7runs  1164glyphs |                
+R2275 t04   6runs   733glyphs |   ベボ族族種ベ下難族下呪難下結
+R2276 t05   5runs   873glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2277 t05   8runs  1330glyphs |   ベボ族下容 族別 下呪難 
+R2278 t05  35runs  2393glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2279 t05  30runs  1764glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2280 t05  30runs  2715glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2281 t04   7runs   996glyphs |  ち ち ち ち ち ち ち ち
+R2282 t04   8runs   971glyphs |  ち ち ち ち ち ち ち ち
+R2283 t04  11runs  1131glyphs | 別パブn  種  族パ容  種条 種性
+R2284 t03   6runs   474glyphs |  ち ち ち ち ち ち ち ち
+R2285 t04   5runs   145glyphs |  ち ち ち ち ち ち ち ち
+R2286 t04  10runs   672glyphs |                          
+R2287 t12   2runs   115glyphs | 別       ブ 別     
+R2288 t01  68runs  2363glyphs |                          
+R2289 t01 192runs 13608glyphs |      た ヤ            
+R2290 t22   5runs   451glyphs |   ベボブ威性ベ種下ボ種威ピ 
+R2291 t04  34runs  2348glyphs |                 
+R2292 t06  28runs  3714glyphs |                          
+R2293 t03   6runs   366glyphs |   ベボ族下呪難プパ下プブ  
+R2294 t04   2runs    34glyphs |                  
+R2295 t03   3runs    64glyphs | ボ回ボ活種業ベベ 別 ブブブブブ        
+R2296 t04   3runs  1243glyphs |  ち ち ち ち ち ち ち ち
+R2297 t04   4runs   640glyphs |                  
+R2298 t04   7runs  1099glyphs |   ベボブ威性ベ種下ボ種威ピ 
+R2299 t04   2runs   204glyphs | [E]                   
+R2300 t04  12runs  1982glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2301 t04  14runs   879glyphs | ャュョァィゥェ的社交収集慎義 
+R2302 t03   4runs   901glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2303 t04  10runs   587glyphs |                
+R2304 t04   4runs   578glyphs |   ベボ族族種ベ下難族下呪難族業
+R2305 t12   2runs   331glyphs | 別       ブ 別     
+R2306 t01  58runs  2822glyphs |                          
+R2307 t01   2runs   333glyphs |                    
+R2308 t27   8runs   607glyphs |   ベボ族ベブ 下呪難ベパ下ベピ難
+R2309 t04   5runs   189glyphs | 難難難難難難難難難難難難難難難難難難難難難
+R2310 t07  22runs  1466glyphs |                  
+R2311 t10   7runs   648glyphs |   ベボ族ベブ 下威ベ下呪難下結
+R2312 t05   2runs   834glyphs |   ボパ性業男壁善稀特経響闘 
+R2313 t06  19runs   809glyphs |                   容
+R2314 t05   1runs   858glyphs |                          
+R2315 t06  49runs  3074glyphs |   ベボ族下容 族別 下活難ベブ 
+R2316 t04   6runs   379glyphs |   ベボ族ベブ 下威ベ下呪難下結
+R2317 t04   1runs   433glyphs |                          
+R2318 t06   2runs   280glyphs |   ボパ性業男壁善稀特経響闘 
+R2319 t04   7runs  1106glyphs |   ベボ族難呪ピ   族業業難容 
+R2320 t04   2runs   492glyphs | [E]                   
+R2321 t04  12runs  1118glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2322 t03   4runs   189glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2323 t08   7runs  1146glyphs | 容       ブ 別     
+R2324 t12   2runs   323glyphs | 別       ブ 別     
+R2325 t01 100runs  5075glyphs |                          
+R2326 t26   2runs   992glyphs | 容              
+R2327 t03   7runs   792glyphs |                          
+R2328 t05   3runs   544glyphs |                         
+R2329 t05   5runs   433glyphs | [E] ブブブブ              
+R2330 t03   2runs   226glyphs |                          
+R2331 t08  24runs  1377glyphs |                          
+R2332 t04   7runs  1548glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2333 t04   6runs  1000glyphs |                  
+R2334 t03   4runs   467glyphs | [E] ブブブブ                
+R2335 t03   2runs  1042glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R2336 t04   2runs   444glyphs | [E]                   
+R2337 t04  12runs  1358glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2338 t03   4runs   605glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2339 t04  12runs   578glyphs |                
+R2340 t04   5runs   553glyphs |                          
+R2341 t02   2runs   194glyphs |         ブ 別     
+R2342 t12   2runs    43glyphs | 別       ブ 別     
+R2343 t01  54runs  5736glyphs |                          
+R2344 t01   1runs   626glyphs |                          
+R2345 t22   4runs   338glyphs |   ベボ族難呪ピ   族業結難容 
+R2346 t14   5runs   442glyphs |  ベボパピプペポャュョァィゥェ
+R2347 t08   7runs   167glyphs |   ベボ族威呪 族条パ族種ベ 
+R2348 t14   9runs   444glyphs |   ベボ族族種ベ下呪難族条下難
+R2349 t08  10runs  1156glyphs |   ベボ族威呪呪族別 族性呪威結
+R2350 t10  20runs   678glyphs |   ベボ族族種ベ下呪難族条下難
+R2351 t04  14runs   399glyphs |                  
+R2352 t08   8runs   897glyphs | ポャュョァ家孤独的消性依就覚退有
+R2353 t08   6runs  2127glyphs |   ベボ族族種ベ下呪難族条下難
+R2354 t04   6runs   475glyphs | 容パボ族種 下ブボ条ボ ピ下威性下
+R2355 t04   5runs   106glyphs | 族ベボボベボベボ威ボ威ボ威ボ種ベ威
+R2356 t04   2runs   788glyphs | [E]                   
+R2357 t04  12runs  1598glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2358 t03   8runs   486glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2359 t11  10runs   727glyphs |   ベボ族威呪 族条パ族種ベ 
+R2360 t14  10runs  4672glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2361 t02   9runs   834glyphs |                          
+R2362 t22   2runs   867glyphs | 別       ブ 別     
+R2363 t01  36runs  1122glyphs |                          
+R2364 t01   1runs   426glyphs |                          
+R2365 t22   6runs   721glyphs |   ベボボ難容 条別 難呪難難結
+R2366 t01  96runs  4997glyphs | 下下下下下下下下下下下下下下下下
+R2367 t27   2runs  1016glyphs |   ベボ族族種ベ下下下ベピ難難
+R2368 t03   2runs   314glyphs |   ベボ族難性 種プ 威ペ族難業下
+R2369 t06   2runs   449glyphs | 容       ブ 別     
+R2370 t06   6runs  1035glyphs | [E] ブブブ                
+R2371 t06   2runs   522glyphs | [E]                 
+R2372 t07   6runs   376glyphs |   ベボ族下難族難難難族種ベ難
+R2373 t07   1runs   642glyphs |                          
+R2374 t05   4runs   506glyphs |   ベボ族下容 族性難下難族難
+R2375 t04   4runs   833glyphs | ミシんゃだゃシょタタだシんシやシんシ
+R2376 t04   2runs   872glyphs | [E]               
+R2377 t04  15runs   870glyphs |                
+R2378 t04   2runs   596glyphs | [E]                   
+R2379 t04  12runs  1238glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2380 t03   4runs   509glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2381 t04   4runs   342glyphs | ブ          っ   
+R2382 t06   3runs   854glyphs |    ち ち ち ち ち ち ち ち ち ち ち 
+R2383 t12   2runs   842glyphs |        ブ 別     
+R2384 t01 135runs  4504glyphs |                          
+R2385 t01   1runs  1104glyphs |                          
+R2386 t22   7runs   751glyphs | ブ              
+R2387 t04  13runs  1059glyphs | ぼ?カ[E]ミ[E]ミドぼジべキ質ぼべミぼカべコじイぼロミ
+R2388 t06   9runs   244glyphs |   ベボ族ベパ下族性難族条下難
+R2389 t04   6runs   741glyphs |   ベボ族下容 族性難下難族ベピ難族業ベ
+R2390 t07   5runs   948glyphs | 別              
+R2391 t06  15runs  1501glyphs | ぼ?カ[E]ミ[E]ミドぼジべキ質ぼべミぼカべコじイぼロミ
+R2392 t04   4runs   119glyphs |   ベボ族下容 族別 下呪呪下結
+R2393 t03   3runs   730glyphs |   ベボ族下呪難ベブ 下威ベ下容 
+R2394 t04  67runs  6205glyphs |   ベボ族下呪難ベブ 下威ベ下容 
+R2395 t04   3runs  1061glyphs | ６４３４３４３５８４７４６４６４７迷７俺８打９
+R2396 t04  12runs  1174glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2397 t03   4runs   869glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2398 t02   2runs   978glyphs | 別       ブ 別     
+R2399 t13   2runs    85glyphs | 別       ブ 別     
+R2400 t01  41runs  2029glyphs |                  ブ８
+R2401 t01   9runs  1043glyphs |                          
+R2402 t22   3runs   455glyphs |   ベボ族族種ベ下難族下呪難難
+R2403 t12  18runs   808glyphs |   ベボ族ベブ 下呪難下容 下呪難
+R2404 t06   4runs   309glyphs |   ベボ族下容 族別 下呪難 
+R2405 t11  10runs  1363glyphs |   ベボ族族種ベ下難族下呪難 
+R2406 t12   5runs   440glyphs |   ベボ族下容 族性難ベブ 下呪難 
+R2407 t07  49runs  3484glyphs |   ベボ族下呪難ベブ 下威ベ 
+R2408 t09   8runs  1056glyphs |   ベボ族ベブ 下威ベ下呪難下結
+R2409 t06   4runs   585glyphs |   ベボ族下容 族別 下呪難 
+R2410 t06   4runs   597glyphs |   ベボ族下容 族別 下呪難 
+R2411 t04   2runs   708glyphs | [E]                   
+R2412 t04  12runs  1392glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2413 t04  14runs  1046glyphs |   ベボ族ベブ 下呪難ベパ下下容 
+R2414 t04  10runs   170glyphs |   ベボ族ベブ 下呪難ベパ下下容 
+R2415 t03   4runs   605glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2416 t11   3runs  1202glyphs | ブ       ブ 別     
+R2417 t12  12runs  1149glyphs |   ベボ族族種ベ下下下ベピ難難
+R2418 t01 219runs 10084glyphs |        q ゴ ゴ ii 
+R2419 t01   1runs   736glyphs |                          
+R2420 t29  15runs  1248glyphs | ４ １             
+R2421 t04 143runs  5441glyphs |                 
+R2422 t04   8runs   793glyphs |   ベボ族下容 族条下族性難難
+R2423 t04   1runs   281glyphs |                          
+R2424 t06   8runs   936glyphs |                    
+R2425 t04   6runs   495glyphs | [E]  別別別別別別別別別       
+R2426 t04   2runs   770glyphs | [E]                 
+R2427 t04   4runs   933glyphs |   ベボ族族種ベ下難族下呪難下結
+R2428 t04   5runs  1012glyphs |   ベボ族族種ベ下難族下呪難下結
+R2429 t06  22runs   860glyphs |                 
+R2430 t04   2runs   932glyphs | [E]                   
+R2431 t04  12runs  1768glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2432 t03   4runs   685glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2433 t12   7runs   179glyphs | ブ       ブ 別     
+R2434 t12   2runs   915glyphs |        ブ 別     
+R2435 t01  74runs  3872glyphs |                        性難
+R2436 t27   4runs   329glyphs | ブ          ち   
+R2437 t06   7runs   926glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2438 t06  10runs  1268glyphs |  ち ち ち ち ち ち ち ち難
+R2439 t05  11runs  1095glyphs |   ベボ族下呪難族条下族種ベ 
+R2440 t06  19runs  2198glyphs |   ベボ族族種ベ下呪難下威ベベプ
+R2441 t05   8runs  1823glyphs | ブ              
+R2442 t03   6runs  1332glyphs | 族血 ち ち ち ち ち ち ち ち ち ち ち 
+R2443 t05   7runs   688glyphs |  パベボブ 下ボベパボ 呪ブ威性ブ
+R2444 t06   6runs  1341glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2445 t04   2runs   492glyphs | [E]                   
+R2446 t04  13runs  1448glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2447 t03   6runs  1527glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2448 t06   6runs  1156glyphs |   ベボ族ベブ 下威ベ下呪ピ下結
+R2449 t10  15runs  1495glyphs | 別       ブ 別     
+R2450 t14  10runs   614glyphs | 下     。ブ      っ  
+R2451 t01 122runs 14112glyphs |                 
+R2452 t24   7runs   315glyphs | ブ              
+R2453 t04   8runs   757glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R2454 t06  21runs  3173glyphs |   ベボ族ベブ 下呪難族種ベ下結
+R2455 t06  10runs   769glyphs |  ち ち ち ち ち ち ち ち
+R2456 t06  11runs   601glyphs |                  
+R2457 t06  55runs  8901glyphs |  ち ち ち ち ち ち ち ち
+R2458 t03   6runs  1154glyphs |  ち ち ち ち ち ち ち ち
+R2459 t03   6runs  1042glyphs |  ち ち ち ち ち ち ち ち
+R2460 t03   8runs   988glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R2461 t03   6runs   186glyphs |  ち ち ち ち ち ち ち ち
+R2462 t03   7runs   367glyphs |  ち ち ち ち ち ち ち ち
+R2463 t04   4runs   968glyphs |  ち ち ち ち ち ち ち ち
+R2464 t04  12runs  1366glyphs |   ベボボ威容 種性 難プ族難ピ 
+R2465 t03   4runs   253glyphs |   ベボ族下難族ベパ下ベピ難ベブ 
+R2466 t04   4runs  1018glyphs |  ち ち ち ち ち ち ち ち
+R2467 t08  12runs  1916glyphs | [E]                   
+R2468 t05   3runs   200glyphs | 種騎ベ祠ボェ１宮ブヴ 手 t tl
+R2469 t10   8runs  1173glyphs |   ベボ族ベブ 下呪難ベパ下ベピ
+R2470 t06   7runs  1176glyphs |                 
+R2471 t01 109runs 54475glyphs |                          
+R2472 t01 162runs 55578glyphs |                          
+R2473 t01 162runs 54273glyphs |                          
+R2474 t01 285runs 40795glyphs |                          
+R2475 t01 222runs 45090glyphs |                          
+R2476 t01 223runs 54137glyphs |                          
+R2477 t01 236runs 47332glyphs |                          
+R2478 t01 145runs 57421glyphs |                          
+R2479 t01 159runs 57859glyphs |                          
+R2480 t01 167runs 58293glyphs |                          
+R2481 t01 159runs 55256glyphs |                          
+R2482 t01 207runs 54333glyphs |                          
+R2483 t01 189runs 55902glyphs |                          
+R2484 t01 106runs 53264glyphs |                          
+R2485 t01 154runs 59792glyphs |                          
+R2486 t01 153runs 59813glyphs |                          
+R2487 t01 150runs 59580glyphs |                          
+R2488 t01 191runs 51221glyphs |                          
+R2489 t01  99runs 59955glyphs |                          
+R2490 t01 373runs 46794glyphs |                          
+R2491 t01 158runs 49441glyphs |                          
+R2492 t01 233runs 45696glyphs |                          
+R2493 t01  84runs 54899glyphs |                          
+R2494 t01 204runs 48721glyphs |                          
+R2495 t01 188runs 50409glyphs |                          
+R2496 t01 224runs 50735glyphs |                          
+R2497 t01 217runs 43159glyphs |                          
+R2498 t01 239runs 45895glyphs |                          
+R2499 t01 242runs 46021glyphs |                          
+R2500 t01 269runs 44506glyphs |                          
+R2501 t01 348runs 39335glyphs |                          
+R2502 t01 233runs 49823glyphs |                          
+R2503 t01 184runs 41533glyphs |                          
+R2504 t01 265runs 50218glyphs |                          
+R2505 t01 144runs 52572glyphs |                          
+R2506 t01 207runs 44671glyphs |                          
+R2507 t01 157runs 55992glyphs |                          
+R2508 t01 254runs 49827glyphs |                          
+R2509 t01 259runs 46976glyphs |                          
+R2510 t01 201runs 47952glyphs |                          
+R2511 t01 204runs 51165glyphs |                          
+R2512 t01 226runs 39774glyphs |                          
+R2513 t01 158runs 56903glyphs |                          
+R2514 t01 243runs 50005glyphs |                          
+R2515 t01 159runs 54078glyphs |                          
+R2516 t01 172runs 53464glyphs |                          
+R2517 t01 158runs 51117glyphs |                          
+R2518 t01 273runs 50908glyphs |                          
+R2519 t01 148runs 51184glyphs |                          
+R2520 t01 157runs 52072glyphs |                          
+R2521 t01 153runs 51394glyphs |                          
+R2522 t01 171runs 53959glyphs |                          
+R2523 t01 314runs 33451glyphs |                          
+R2524 t01 229runs 45586glyphs |                          
+R2525 t01 228runs 39931glyphs |                          
+R2526 t01 362runs 39100glyphs |                          
+R2527 t01 242runs 39842glyphs |                          
+R2528 t01 196runs 39985glyphs |                          
+R2529 t01 179runs 39422glyphs |                          
+R2530 t01 214runs 37742glyphs |                          
+R2531 t01 197runs 37068glyphs |                          
+R2532 t01 158runs 47523glyphs |                          
+R2533 t01 188runs 41506glyphs |                          
+R2534 t01 182runs 30435glyphs |                          
+R2535 t01 199runs 42214glyphs |                          
+R2536 t01 227runs 40147glyphs |                          
+R2537 t01 194runs 36971glyphs |                          
+R2538 t01 183runs 41543glyphs |                          
+R2539 t01 135runs 24934glyphs |                          
+R2540 t01 243runs 29023glyphs |                          
+R2541 t01 174runs 29631glyphs |                          
+R2542 t01 204runs 37150glyphs |                          
+R2543 t01 215runs 40267glyphs |                          
+R2544 t01 176runs 28930glyphs |                          
+R2545 t01 157runs 17132glyphs |                          
+R2546 t01 120runs 12681glyphs |                          
+R2547 t01 123runs 17417glyphs |                          
+R2548 t01  74runs  2392glyphs |     [E][E][E]ブベ     [E][E][E]別ベ     [E]
+R2549 t01   1runs   466glyphs |                          
+R2550 t17   1runs   450glyphs |                          
+R2551 t03   2runs   821glyphs |      ち       ち       ち   
+R2552 t01   1runs   650glyphs |                          
+R2553 t04   3runs   534glyphs |         ブ 別     
+R2554 t12   9runs   582glyphs | 容       ブ 別     
+R2555 t24  16runs   651glyphs | 別ブ                       
+R2556 t11   5runs   716glyphs | ブ       ブ 別     
+R2557 t01   1runs   908glyphs |                          
+R2558 t01   1runs   652glyphs |                          
+R2559 t01   1runs   908glyphs |                          
+R2560 t01   1runs   908glyphs |                          
+R2561 t01   1runs   792glyphs |    ち ち ち ち ち ち           
+R2562 t01   1runs   652glyphs |                          
+R2563 t01   1runs   652glyphs |                          
+R2564 t01   1runs   652glyphs |                          
+R2565 t01   1runs   652glyphs |                          
+R2566 t01   1runs   652glyphs |                          
+R2567 t01   9runs   757glyphs |                          
+R2568 t01   1runs   652glyphs |                          
+R2569 t01   1runs   652glyphs |                          
+R2570 t03   2runs   241glyphs |        ブ 別     
+R2571 t03   2runs   241glyphs |        ブ 別     
+R2572 t02   2runs   348glyphs |         ブ 別     
+R2573 t02   2runs   594glyphs |         ブ 別     
+R2574 t02   2runs   564glyphs |         ブ 別     
+R2575 t02   2runs   900glyphs |         ブ 別     
+R2576 t02   2runs   900glyphs |         ブ 別     
+R2577 t02   2runs   258glyphs |         ブ 別     
+R2578 t02   2runs   564glyphs |         ブ 別     
+R2579 t01   1runs   908glyphs |                          
+R2580 t03   3runs   996glyphs | ４ １             
+R2581 t04   3runs    74glyphs |         ブ 別     
+R2582 t08   5runs   850glyphs |         ブ 別     
+R2583 t12   7runs  1075glyphs | 容       ブ 別     
+R2584 t04   3runs   258glyphs |         ブ 別     
+R2585 t02   2runs   242glyphs |         ブ ブ     
+R2586 t01   1runs   650glyphs |                          
+R2587 t02 113runs  4292glyphs |         ブ ブ     
+R2588 t02  15runs   925glyphs | [E]                        
+R2589 t02  15runs  1261glyphs | [E]                        
+R2590 t06   4runs   946glyphs |         ブ 別     
+R2591 t06 157runs 10062glyphs |         ブ ブ     
+R2592 t04   2runs   162glyphs | 容       ブ 別     
+R2593 t07   4runs  1050glyphs |         ブ 別     
+R2594 t02   2runs   994glyphs |         ブ 別     
+R2595 t06  36runs  2534glyphs | ブ       ブ 別     
+R2596 t11   5runs   924glyphs |         ブ ブ     
+R2597 t13   7runs   594glyphs |         ブ 別     
+R2598 t07   5runs   252glyphs |         ブ 別     
+R2599 t10   7runs   260glyphs |         ブ 別     
+R2600 t14   8runs   618glyphs |         ブ 別     
+R2601 t05   2runs   192glyphs | 血種ち   ちブ 別     
+R2602 t02   3runs   846glyphs | [E]                        
+R2603 t02   1runs   952glyphs |  ち ち ち ち ち ち ち ち ち ち ち   
+R2604 t02  20runs   950glyphs |  。 。   、 、ブ  、 
+R2605 t02  42runs  2053glyphs |         ブ ブ     
+R2606 t04   2runs   138glyphs |         ブ ブ     
+R2607 t01   1runs   780glyphs |                          
+R2608 t02   4runs   721glyphs | 別ブ [E] [E] [E] [E] [E] [E] [E] [E] [E] [E] [E] 
+R2609 t10   5runs   234glyphs | ブ       ブ 別     
+R2610 t09   4runs   988glyphs | ブ       ブ 別     
+R2611 t22  12runs   307glyphs |        ブ 別     
+R2612 t02   2runs   516glyphs |         ブ 別     
+R2613 t04   3runs   380glyphs |         ブ 別     
+R2614 t06   5runs   243glyphs |         ブ 別     
+R2615 t04  17runs  1392glyphs |         ブ ブ     
+R2616 t06   4runs   296glyphs |         ブ 別     
+R2617 t08   7runs   138glyphs |         ブ 別     
+R2618 t04   3runs   132glyphs |         ブ 別     
+R2619 t08   6runs   218glyphs |         ブ 別     
+R2620 t04   6runs  1018glyphs |         f g g g b 
+R2621 t06   4runs   874glyphs |         ブ 別     
+R2622 t10   7runs   649glyphs |         ブ 別     
+R2623 t04   3runs   410glyphs |         ブ 別     
+R2624 t02   1runs   508glyphs |                          
+R2625 t02   2runs   284glyphs | ブ       ブ 別     
+R2626 t13  14runs   613glyphs | [E]                        
+R2627 t06   5runs   577glyphs | 下下下下下下下下下下下下下下下下[E][E][E][E][E][E][E][E][E]
+R2628 t01   1runs  1402glyphs |  ち ち ち ち ち ち ち ち ち ち ち ち 
+R2629 t05   6runs  1139glyphs |                          
+R2630 t04   3runs   436glyphs |         ブ 別     
+R2631 t05   3runs   570glyphs |         ブ 別     
+R2632 t02   1runs   826glyphs |                          
+R2633 t05   3runs   346glyphs |         ブ 別     
+R2634 t04   4runs   812glyphs | ４ １             
+R2635 t06   3runs   545glyphs |         ブ 別     
+R2636 t04   4runs   128glyphs |                
+R2637 t06   4runs   602glyphs |         ブ 別     
+R2638 t01   1runs   652glyphs |                          
+R2639 t12   7runs  1108glyphs |         ブ 別     
+R2640 t04   2runs   538glyphs |         ブ 別     
+R2641 t08   8runs   301glyphs |         ブ 別     
+R2642 t08   6runs   331glyphs | 容              
+R2643 t10   8runs   986glyphs |         ブ 別     
+R2644 t02   1runs   362glyphs |                          
+R2645 t14  72runs  4765glyphs | 別       ブ 別     
+R2646 t01   2runs   278glyphs | [E]                        
+R2647 t03   9runs  1070glyphs |             ブ 別     
+R2648 t03   4runs  2833glyphs |         ブ 別     
+R2649 t03  16runs   693glyphs | 性族族族族族族族族族族族族族族族族族性族性族選族
+R2650 t03 182runs  7747glyphs |             ブ 別     
+R2651 t02  84runs  2890glyphs |     [E][E][E]ブベ    別[E][E][E]ブベ    容[E]
+R2652 t02 378runs 44074glyphs | 別ブ                       
+R2653 t02   7runs   544glyphs |                    
+R2654 t44 1550runs 45412glyphs | [E] |[E]前衛２鉄が理１鎧にタイミングを騎わ|せ同持
+R2655 t07 201runs 10999glyphs |                          
+R2656 t03 111runs  9043glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ    
+R2657 t01   3runs   904glyphs |  f             
+R2658 t01  37runs  2849glyphs |     b m           v     ビ
+R2659 t02  20runs  1702glyphs |      ビ     ビ   
+R2660 t01   5runs   878glyphs |    ブ 「 「 「   ブ 」 」 」   ブ 
+R2661 t08  15runs   862glyphs |  ９ ９ ：   ６ ： ： 
+R2662 t01   3runs  8629glyphs |                          
+R2663 t01   3runs  8629glyphs |                          
+R2664 t01   3runs  8629glyphs |                          
+R2665 t01   3runs  8629glyphs |                          
+R2666 t01   3runs  8629glyphs |                          
+R2667 t01   3runs  8627glyphs |                          
+R2668 t01   3runs  8627glyphs |                          
+R2669 t01   3runs  8629glyphs |                          
+R2670 t01   3runs  8629glyphs |                          
+R2671 t01   3runs  8627glyphs |                          
+R2672 t01   3runs  8629glyphs |                          
+R2673 t01   3runs  8629glyphs |                          
+R2674 t01   3runs  8629glyphs |                          
+R2675 t01   3runs  8629glyphs |                          
+R2676 t01   3runs  8629glyphs |                          
+R2677 t01   3runs  8629glyphs |                          
+R2678 t01   3runs  8629glyphs |                          
+R2679 t01   3runs  8629glyphs |                          
+R2680 t01   3runs  8629glyphs |                          
+R2681 t01   3runs  8629glyphs |                          
+R2682 t01   3runs  8629glyphs |                          
+R2683 t01   3runs  8629glyphs |                          
+R2684 t01   3runs  8631glyphs |                          
+R2685 t01   3runs  8631glyphs |                          
+R2686 t01   3runs  8631glyphs |                          
+R2687 t01   3runs  8629glyphs |                          
+R2688 t01   3runs  8629glyphs |                          
+R2689 t01   3runs  8631glyphs |                          
+R2690 t01   3runs  8633glyphs |                          
+R2691 t01   3runs  8629glyphs |                          
+R2692 t01   3runs  8627glyphs |                          
+R2693 t01   3runs  8629glyphs |                          
+R2694 t01   3runs  8629glyphs |                          
+R2695 t01   3runs  8629glyphs |                          
+R2696 t01   3runs  8629glyphs |                          
+R2697 t01   3runs  8629glyphs |                          
+R2698 t01   3runs  8629glyphs |                          
+R2699 t01   3runs  8629glyphs |                          
+R2700 t01   3runs  8627glyphs |                          
+R2701 t01   3runs  8629glyphs |                          
+R2702 t01   3runs  8627glyphs |                          
+R2703 t01   3runs  8629glyphs |                          
+R2704 t01   3runs  8629glyphs |                          
+R2705 t01   3runs  8629glyphs |                          
+R2706 t01   3runs  8629glyphs |                          
+R2707 t01   4runs  8644glyphs |                          
+R2708 t01   3runs  8629glyphs |                          
+R2709 t01   3runs  8627glyphs |                          
+R2710 t01   3runs  8629glyphs |                          
+R2711 t01   3runs  8629glyphs |                          
+R2712 t01   3runs  8627glyphs |                          
+R2713 t01   3runs  8629glyphs |                          
+R2714 t01   3runs  8627glyphs |                          
+R2715 t01   3runs  8629glyphs |                          
+R2716 t01   3runs  8629glyphs |                          
+R2717 t01   3runs  8629glyphs |                          
+R2718 t01   3runs  8633glyphs |                          
+R2719 t01   3runs  8633glyphs |                          
+R2720 t01   3runs  8629glyphs |                          
+R2721 t01   3runs  8631glyphs |                          
+R2722 t01   3runs  8629glyphs |                          
+R2723 t01   3runs  8629glyphs |                          
+R2724 t01   3runs  8629glyphs |                          
+R2725 t01   3runs  8629glyphs |                          
+R2726 t01   3runs  8629glyphs |                          
+R2727 t01   3runs  8629glyphs |                          
+R2728 t01   3runs  8629glyphs |                          
+R2729 t01   3runs  8630glyphs |                          
+R2730 t01   3runs  8629glyphs |                          
+R2731 t01   3runs  8629glyphs |                          
+R2732 t01   3runs  8629glyphs |                          
+R2733 t01   3runs  8629glyphs |                          
+R2734 t01   3runs  8631glyphs |                          
+R2735 t01   3runs  8629glyphs |                          
+R2736 t01   3runs  8629glyphs |                          
+R2737 t01   3runs  8629glyphs |                          
+R2738 t01   3runs  8629glyphs |                          
+R2739 t01   3runs  8629glyphs |                          
+R2740 t01   3runs  8627glyphs |                          
+R2741 t01   3runs  8629glyphs |                          
+R2742 t01   3runs  8629glyphs |                          
+R2743 t01   3runs  8629glyphs |                          
+R2744 t01   3runs  8629glyphs |                          
+R2745 t01   3runs  8629glyphs |                          
+R2746 t01   3runs  8629glyphs |                          
+R2747 t01   3runs  8629glyphs |                          
+R2748 t01   3runs  8627glyphs |                          
+R2749 t01   3runs  8629glyphs |                          
+R2750 t01   3runs  8629glyphs |                          
+R2751 t01   3runs  8629glyphs |                          
+R2752 t01   3runs  8629glyphs |                          
+R2753 t01   3runs  8629glyphs |                          
+R2754 t01   3runs  8629glyphs |                          
+R2755 t01   3runs  8627glyphs |                          
+R2756 t01   3runs  8627glyphs |                          
+R2757 t01   3runs  8629glyphs |                          
+R2758 t01   3runs  8629glyphs |                          
+R2759 t01   3runs  8629glyphs |                          
+R2760 t01   3runs  8629glyphs |                          
+R2761 t01   3runs  8629glyphs |                          
+R2762 t01   3runs  8629glyphs |                          
+R2763 t01   3runs  8627glyphs |                          
+R2764 t01   3runs  8629glyphs |                          
+R2765 t01   3runs  8629glyphs |                          
+R2766 t01   3runs  8629glyphs |                          
+R2767 t01   3runs  8629glyphs |                          
+R2768 t01   3runs  8629glyphs |                          
+R2769 t01   3runs  8631glyphs |                        ベベ
+R2770 t01   3runs  8631glyphs |                        ベベ
+R2771 t01   3runs  8629glyphs |                          
+R2772 t01   3runs  8633glyphs |                          
+R2773 t01   3runs  8629glyphs |                          
+R2774 t01   2runs 66479glyphs |                          
+R2775 t01   6runs  8482glyphs |                          
+R2776 t01   7runs  8726glyphs |                          
+R2777 t01 118runs 17268glyphs |                          
+R2778 t01 128runs 18494glyphs |                          
+R2779 t01 112runs 20831glyphs |        ベベベベベベベベベベベベベベベベベベ
+R2780 t01 114runs 20576glyphs |                          
+R2781 t01 122runs 19182glyphs |                          
+R2782 t01 122runs 17388glyphs |                          
+R2783 t01 143runs 14467glyphs |                          
+R2784 t01   1runs   426glyphs |                          
+R2785 t01 133runs 19390glyphs |                          
+R2786 t01   1runs   426glyphs |                          
+R2787 t01 103runs 24386glyphs |                          
+R2788 t01 104runs 20599glyphs |                          
+R2789 t01 105runs 17258glyphs |                          
+R2790 t01 125runs 17244glyphs |                          
+R2791 t01   1runs   426glyphs |                          
+R2792 t01 104runs 23650glyphs |                          
+R2793 t01 125runs 22563glyphs |                          
+R2794 t01 119runs 21032glyphs |                          
+R2795 t01 117runs 18347glyphs |                          
+R2796 t01 129runs 18794glyphs |                          
+R2797 t01  70runs  5995glyphs |                          
+R2798 t01 113runs 22200glyphs |                          
+R2799 t01 124runs 21669glyphs |                          
+R2800 t01 109runs 16725glyphs |                          
+R2801 t01 106runs 23122glyphs |                          
+R2802 t01 147runs 21165glyphs |                          
+R2803 t01 116runs 19148glyphs |                          
+R2804 t01 102runs 22116glyphs |                          
+R2805 t01 125runs 15235glyphs |                          
+R2806 t01 154runs 16739glyphs |                          
+R2807 t01 126runs 16142glyphs |                          
+R2808 t01 122runs 20640glyphs |                          
+R2809 t01 130runs 20690glyphs |                          
+R2810 t01 128runs 18016glyphs |                          
+R2811 t01 152runs 18864glyphs |                          
+R2812 t01 116runs 16316glyphs |                          
+R2813 t01 114runs 20005glyphs |                          
+R2814 t01 108runs 11558glyphs |                          
+R2815 t01 104runs 23584glyphs |                          
+R2816 t01   1runs   426glyphs |                          
+R2817 t01   3runs   458glyphs | ブ ブブ   ブ別 別 別 別 
+R2818 t01   1runs   426glyphs |                          
+R2819 t01  10runs   641glyphs | 下条下下下下下下下下下難難下下難難難呪下下威
+R2820 t01   2runs   441glyphs | [E]愛[E]種[E]別[E]別別別種族族族ベ別族種族
+R2821 t01  11runs   701glyphs |  ブ             
+R2822 t01   1runs   426glyphs |                          
+R2823 t01   1runs   426glyphs |                          
+R2824 t01   1runs   426glyphs |                          
+R2825 t01  10runs   671glyphs |                   多 板 
+R2826 t01   1runs   427glyphs | 容                        
+R2827 t01   2runs   441glyphs | 勉帰ボ条ボ下族下族闘種難種難種
+R2828 t01  11runs   646glyphs | 下ボ下下難難条下族下下ボ難容条難別
+R2829 t01   1runs   426glyphs |                          
+R2830 t01  95runs 24938glyphs |                          
+R2831 t01   1runs   426glyphs |                          
+R2832 t01 112runs 19535glyphs |                          
+R2833 t01 111runs 22147glyphs |        ベベベベベベベベベベベベベベベベベベ
+R2834 t01 168runs 17418glyphs |                          
+R2835 t01   1runs   426glyphs |                          
+R2836 t01  17runs   785glyphs |                   
+R2837 t01   1runs   426glyphs |                          
+R2838 t01   1runs   426glyphs |                          
+R2839 t01   1runs   426glyphs |                          
+R2840 t01   1runs   426glyphs |                          
+R2841 t01   6runs   506glyphs |  容 別 ブ 種 ベ     
+R2842 t01   1runs   426glyphs |                          
+R2843 t01   1runs   426glyphs |                          
+R2844 t01   1runs   426glyphs |                          
+R2845 t01   1runs   427glyphs | 容                        
+R2846 t01   1runs   426glyphs |                          
+R2847 t01   1runs   427glyphs | 容                        
+R2848 t01   1runs   426glyphs |                          
+R2849 t01   1runs   426glyphs |                          
+R2850 t01   1runs   426glyphs |                          
+R2851 t01   1runs   426glyphs |                          
+R2852 t01   1runs   426glyphs |                          
+R2853 t01   1runs   426glyphs |                          
+R2854 t01  57runs  1791glyphs | 条種ベ種ボ種ブベパボベボベベベベベ
+R2855 t01   9runs   623glyphs | 族 族ベパボ条ボ族ボ難ベ族種難難族族族難族条族族難
+R2856 t01  45runs  1412glyphs | [E]ド[E]オ[E]」[E]   」        
+R2857 t01   1runs   426glyphs |                          
+R2858 t01   1runs   426glyphs |                          
+R2859 t01  17runs   739glyphs |  容 活 ５ r ６      容 
+R2860 t01 142runs 18139glyphs |        ベベベベベベベベベベベベベベベベベベ
+R2861 t01   1runs   426glyphs |                          
+R2862 t01  11runs   628glyphs | 威下威下威下威下下難下下威下威下下
+R2863 t01   5runs   495glyphs | 下下威下種難種難難下種下種下族下種
+R2864 t01 134runs 13972glyphs |                          
+R2865 t01   1runs   426glyphs |                          
+R2866 t01   8runs   600glyphs | ペ種ペ パ ベュ族ュパャ壁壁ブ
+R2867 t01   1runs   426glyphs |                          
+R2868 t01   1runs   426glyphs |                          
+R2869 t01   1runs   426glyphs |                          
+R2870 t01   1runs   426glyphs |                          
+R2871 t01   1runs   426glyphs |                          
+R2872 t01   1runs   426glyphs |                          
+R2873 t01   1runs   426glyphs |                          
+R2874 t01   1runs   426glyphs |                          
+R2875 t01   1runs   426glyphs |                          
+R2876 t01   1runs   426glyphs |                          
+R2877 t04   3runs   722glyphs |         ブ 別     
+R2878 t03 120runs 23987glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R2879 t07 323runs 125579glyphs |     [E][E][E]ブベ    別[E][E][E]容ベ  
+R2880 t11 388runs 12687glyphs |   ブビビ  ブブビビ  別ブビビ   
+R2881 t15 627runs 47930glyphs | ブブビビ  別ブビビ  容ブビビ  
+R2882 t09 220runs 21206glyphs | [E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E][E

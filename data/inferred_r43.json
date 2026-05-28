@@ -1,0 +1,297 @@
+{
+  "resource": "0043_type01.bin",
+  "description": "Bar Luna Light - Trap Game and Medal Exchange dialogue",
+  "inferred_glyphs": {
+    "0": {
+      "char": " ",
+      "confidence": "LOW",
+      "evidence": "Separator/padding in msg 67 (hai) and msg 72"
+    },
+    "8": {
+      "char": "（",
+      "confidence": "MEDIUM",
+      "evidence": "Opening bracket in msg 71 template"
+    },
+    "9": {
+      "char": "）",
+      "confidence": "MEDIUM",
+      "evidence": "Closing bracket in msg 71 template"
+    },
+    "16": {
+      "char": "０",
+      "confidence": "HIGH",
+      "evidence": "Number 0 in 500G price. Consistent with 18=2"
+    },
+    "17": {
+      "char": "１",
+      "confidence": "HIGH",
+      "evidence": "Number 1 in msg 31 and 71"
+    },
+    "21": {
+      "char": "５",
+      "confidence": "HIGH",
+      "evidence": "Number 5 in 500G price"
+    },
+    "39": {
+      "char": "Ｇ",
+      "confidence": "HIGH",
+      "evidence": "G for Gold in price display"
+    },
+    "107": {
+      "char": "枚",
+      "confidence": "MEDIUM",
+      "evidence": "Counter for flat objects in medal display"
+    },
+    "193": {
+      "char": "ア",
+      "confidence": "HIGH",
+      "evidence": "Katakana A in aitemu=item (msg 35)"
+    },
+    "194": {
+      "char": "イ",
+      "confidence": "HIGH",
+      "evidence": "Katakana I in aitemu and purei (msg 35,71)"
+    },
+    "211": {
+      "char": "テ",
+      "confidence": "HIGH",
+      "evidence": "Katakana TE in aitemu (msg 35)"
+    },
+    "225": {
+      "char": "ム",
+      "confidence": "HIGH",
+      "evidence": "Katakana MU in ge-mu=game and aitemu"
+    },
+    "233": {
+      "char": "ル",
+      "confidence": "HIGH",
+      "evidence": "Katakana RU in medaru=medal"
+    },
+    "234": {
+      "char": "レ",
+      "confidence": "HIGH",
+      "evidence": "Katakana RE in purei=play (msg 71)"
+    },
+    "242": {
+      "char": "ゲ",
+      "confidence": "HIGH",
+      "evidence": "Katakana GE in ge-mu=game"
+    },
+    "261": {
+      "char": "プ",
+      "confidence": "HIGH",
+      "evidence": "Katakana PU in purei=play (msg 71)"
+    },
+    "308": {
+      "char": "信",
+      "confidence": "HIGH",
+      "evidence": "shin in jishin=confidence (msg 28)"
+    },
+    "338": {
+      "char": "一",
+      "confidence": "HIGH",
+      "evidence": "ichi in ippai=one cup (msg 5)"
+    },
+    "339": {
+      "char": "気",
+      "confidence": "HIGH",
+      "evidence": "ki in kibun tenkan=change of pace (msg 16)"
+    },
+    "379": {
+      "char": "転",
+      "confidence": "HIGH",
+      "evidence": "ten in kibun tenkan (msg 16)"
+    },
+    "396": {
+      "char": "数",
+      "confidence": "MEDIUM",
+      "evidence": "kazo in kazoeru=count (msg 15)"
+    },
+    "398": {
+      "char": "帰",
+      "confidence": "HIGH",
+      "evidence": "kae in kaeru=return (msg 20)"
+    },
+    "415": {
+      "char": "回",
+      "confidence": "HIGH",
+      "evidence": "kai=round in 1kai 500G (msg 31)"
+    },
+    "419": {
+      "char": "金",
+      "confidence": "HIGH",
+      "evidence": "kane=money (msg 43,75)"
+    },
+    "496": {
+      "char": "所",
+      "confidence": "HIGH",
+      "evidence": "sho in shoji=possession (msg 75,77,86)"
+    },
+    "510": {
+      "char": "客",
+      "confidence": "HIGH",
+      "evidence": "kyaku=customer (msg 13: okyaku-san)"
+    },
+    "529": {
+      "char": "交",
+      "confidence": "HIGH",
+      "evidence": "kou in koukan=exchange (msg 35,56,74,82)"
+    },
+    "531": {
+      "char": "集",
+      "confidence": "HIGH",
+      "evidence": "atsu in atsumeru=collect (msg 34)"
+    },
+    "552": {
+      "char": "分",
+      "confidence": "HIGH",
+      "evidence": "bun in kibun=mood (msg 16)"
+    },
+    "562": {
+      "char": "自",
+      "confidence": "HIGH",
+      "evidence": "ji in jishin=confidence (msg 28)"
+    },
+    "572": {
+      "char": "何",
+      "confidence": "HIGH",
+      "evidence": "nani in nanika=something (msg 10)"
+    },
+    "581": {
+      "char": "物",
+      "confidence": "HIGH",
+      "evidence": "mono in mochimono=belongings (msg 64)"
+    },
+    "587": {
+      "char": "理",
+      "confidence": "HIGH",
+      "evidence": "ri in seiri=organize (msg 64)"
+    },
+    "603": {
+      "char": "品",
+      "confidence": "HIGH",
+      "evidence": "hin in keihin=prize and shojihin (msg 52,86)"
+    },
+    "619": {
+      "char": "習",
+      "confidence": "HIGH",
+      "evidence": "shuu in renshuu=practice (msg 29,38,69)"
+    },
+    "634": {
+      "char": "来",
+      "confidence": "HIGH",
+      "evidence": "ki in kuru=come (msg 65)"
+    },
+    "635": {
+      "char": "頼",
+      "confidence": "HIGH",
+      "evidence": "rai in irai=request (msg 2,10,14)"
+    },
+    "656": {
+      "char": "誰",
+      "confidence": "HIGH",
+      "evidence": "dare=who (msg 58)"
+    },
+    "665": {
+      "char": "損",
+      "confidence": "MEDIUM",
+      "evidence": "son in sonsuru=to lose (msg 37)"
+    },
+    "668": {
+      "char": "持",
+      "confidence": "HIGH",
+      "evidence": "mo in motsu=hold (msg 58,64,75,77,86)"
+    },
+    "709": {
+      "char": "必",
+      "confidence": "HIGH",
+      "evidence": "hitsu in hitsuyou=required (msg 78)"
+    },
+    "710": {
+      "char": "要",
+      "confidence": "HIGH",
+      "evidence": "you in hitsuyou=required (msg 78)"
+    },
+    "712": {
+      "char": "足",
+      "confidence": "HIGH",
+      "evidence": "ta in tariru=sufficient (msg 43,81,83)"
+    },
+    "786": {
+      "char": "依",
+      "confidence": "HIGH",
+      "evidence": "i in irai=request (msg 2,10,14)"
+    },
+    "855": {
+      "char": "換",
+      "confidence": "HIGH",
+      "evidence": "kan in koukan=exchange and tenkan (msg 16,35,56,74,82)"
+    },
+    "876": {
+      "char": "始",
+      "confidence": "HIGH",
+      "evidence": "haji in hajimeru=begin (msg 40)"
+    },
+    "892": {
+      "char": "務",
+      "confidence": "MEDIUM",
+      "evidence": "mu in ninmu=mission (msg 85)"
+    },
+    "898": {
+      "char": "杯",
+      "confidence": "HIGH",
+      "evidence": "hai in ippai=one cup (msg 5)"
+    },
+    "901": {
+      "char": "引",
+      "confidence": "HIGH",
+      "evidence": "hi in hikiukeru=accept (msg 11)"
+    },
+    "902": {
+      "char": "受",
+      "confidence": "HIGH",
+      "evidence": "u in ukeru=receive (msg 11,80)"
+    },
+    "906": {
+      "char": "練",
+      "confidence": "HIGH",
+      "evidence": "ren in renshuu=practice (msg 29,38,69)"
+    },
+    "908": {
+      "char": "残",
+      "confidence": "HIGH",
+      "evidence": "zan in zannen=too bad (msg 46)"
+    },
+    "909": {
+      "char": "念",
+      "confidence": "HIGH",
+      "evidence": "nen in zannen=too bad (msg 46)"
+    },
+    "910": {
+      "char": "景",
+      "confidence": "HIGH",
+      "evidence": "kei in keihin=prize (msg 52,55,73)"
+    },
+    "911": {
+      "char": "整",
+      "confidence": "HIGH",
+      "evidence": "sei in seiri=organize (msg 64)"
+    },
+    "944": {
+      "char": "取",
+      "confidence": "HIGH",
+      "evidence": "to in uketoru=receive (msg 80)"
+    },
+    "999": {
+      "char": "任",
+      "confidence": "MEDIUM",
+      "evidence": "nin in ninmu=mission (msg 85)"
+    }
+  },
+  "uncertain_glyphs": {},
+  "context_notes": {
+    "resource_purpose": "Bar Luna Light tavern UI - trap game, medal exchange, quest list",
+    "speaker": "Gin Barbus (barkeep), casual male Japanese",
+    "guide_reference": "BAR LUNA LIGHT, TRAP GAME, MEDAL EXCHANGE sections"
+  }
+}

@@ -1,0 +1,289 @@
+File size: 5038496 bytes
+Total ASCII strings (>=4 chars): 11078
+
+================================================================================
+1. FCD_ REFERENCES
+================================================================================
+  Total: 0
+
+================================================================================
+2. MSG / EVE / DAT FILE REFERENCES
+================================================================================
+  0x0049EE40: source/game/battle/data/weapon00.dat
+  0x0049EE68: source/game/battle/data/protec00.dat
+  0x0049EE90: source/game/battle/data/tool00.dat
+  0x0049EEB8: source/game/battle/data/access00.dat
+  0x0049EEE0: source/game/battle/data/mate00.dat
+  0x0049EF08: source/game/battle/data/stone00.dat
+  0x0049EF30: source/game/battle/data/magic00.dat
+  0x004AC900: source/game/battle/data/weapon04.dat
+  0x004AC928: source/game/battle/data/weapon03.dat
+  0x004AC950: source/game/battle/data/weapon02.dat
+  0x004AC978: source/game/battle/data/weapon01.dat
+  0x004AC9A0: source/game/battle/data/weapon00.dat
+  0x004AC9C8: source/game/battle/data/protec04.dat
+  0x004AC9F0: source/game/battle/data/protec03.dat
+  0x004ACA18: source/game/battle/data/protec02.dat
+  0x004ACA40: source/game/battle/data/protec01.dat
+  0x004ACA68: source/game/battle/data/protec00.dat
+  0x004ACA90: source/game/battle/data/tool04.dat
+  0x004ACAB8: source/game/battle/data/tool03.dat
+  0x004ACAE0: source/game/battle/data/tool02.dat
+  0x004ACB08: source/game/battle/data/tool01.dat
+  0x004ACB30: source/game/battle/data/tool00.dat
+  0x004ACB58: source/game/battle/data/access04.dat
+  0x004ACB80: source/game/battle/data/access03.dat
+  0x004ACBA8: source/game/battle/data/access02.dat
+  0x004ACBD0: source/game/battle/data/access01.dat
+  0x004ACBF8: source/game/battle/data/access00.dat
+  0x004ACC20: source/game/battle/data/magic04.dat
+  0x004ACC48: source/game/battle/data/magic03.dat
+  0x004ACC70: source/game/battle/data/magic02.dat
+  0x004ACC98: source/game/battle/data/magic01.dat
+  0x004ACCC0: source/game/battle/data/magic00.dat
+  0x004ACCE8: source/game/battle/data/mate04.dat
+  0x004ACD10: source/game/battle/data/mate03.dat
+  0x004ACD38: source/game/battle/data/mate02.dat
+  0x004ACD60: source/game/battle/data/mate01.dat
+  0x004ACD88: source/game/battle/data/mate00.dat
+  0x004ACDB0: source/game/battle/data/stone04.dat
+  0x004ACDD8: source/game/battle/data/stone03.dat
+  0x004ACE00: source/game/battle/data/stone02.dat
+  0x004ACE28: source/game/battle/data/stone01.dat
+  0x004ACE50: source/game/battle/data/stone00.dat
+  0x004ACE78: source/game/battle/data/allied04.dat
+  0x004ACEA0: source/game/battle/data/allied03.dat
+  0x004ACEC8: source/game/battle/data/allied02.dat
+  0x004ACEF0: source/game/battle/data/allied01.dat
+  0x004ACF18: source/game/battle/data/allied00.dat
+  0x004AF368: source/game/battle/data/point00.dat
+  0x004AF390: source/game/battle/data/point01.dat
+  0x004AF3B8: source/game/battle/data/point02.dat
+  0x004AF3E0: source/game/battle/data/point03.dat
+  0x004AF408: source/game/battle/data/point04.dat
+  0x004B5DE8: source/game/battle/data/weapon00.dat
+  0x004B5E10: source/game/battle/data/protec00.dat
+  0x004B5E38: source/game/battle/data/tool00.dat
+  0x004B5E60: source/game/battle/data/access00.dat
+  0x004B5E88: source/game/battle/data/mate00.dat
+  0x004B5EB0: source/game/battle/data/stone00.dat
+  0x004B5ED8: source/game/battle/data/magic00.dat
+  0x004B5F00: source/game/battle/data/allied00.dat
+  0x004B5F28: source/game/battle/data/point00.dat
+  0x004BA3C0: source/game/btl_sequence/dt_seq0.dat
+  0x004CD904: .data
+  Total: 63
+
+================================================================================
+3. TEXTEVENT / MESSAGE SYSTEM REFERENCES
+================================================================================
+  Total: 0
+
+================================================================================
+4. FILE PATHS
+================================================================================
+  0x004970A0: cdrom0:\IOPRP234.IMG;1
+  0x004970F0: cdrom0:\SIO2MAN.IRX;1
+  0x00497108: cdrom0:\PADMAN.IRX;1
+  0x00497120: cdrom0:\MCMAN.IRX;1
+  0x00497138: cdrom0:\MCSERV.IRX;1
+  0x00497150: cdrom0:\LIBSD.IRX;1
+  0x00497168: cdrom0:\MODMIDI.IRX;1
+  0x00497180: cdrom0:\MODHSYN.IRX;1
+  0x00497198: cdrom0:\MODMSIN.IRX;1
+  0x004971B0: cdrom0:\ASDMUS.IRX;1
+  0x004BFB70: cdrom0:\%s
+  Total: 11
+
+================================================================================
+5. DATA LOADING / SYSTEM FUNCTIONS
+================================================================================
+  0x0049F160: LightData Err:%9d(DungeonDataReadNo)
+  0x004A4458: Dungeon Read BackUp No.:%d
+  0x004A4478: Dungeon Read BackUp Set No.:%d
+  0x004ADC00: %G WEAPON Data Load Done!!
+  0x004ADC20: WEAPON Data Load Done!!
+  0x004ADF28: PROTECTOR Data Load Done!!
+  0x004AFB47: ?MonsterSeq_Init2 %d
+  0x004B4308: Monster Sequence Load Done!!
+  0x004B4481: --- Monster Load ---
+  0x004B44B8: - Monster Load Done!! -
+  0x004B44D8: --- Battle Other Data Load ---
+  0x004B45D0: - Battle Other Data Load Done !! -
+  0x004B4679: --- Battle Field Load ---
+  0x004B46F8: - Battle field Load Done!! -
+  0x004B4740: FreeDataIdle03
+  0x004B4821: --- Monster Sync Free ---
+  0x004B4970: SceneLoadSet %d
+  0x004B4988: SceneFreeSet %d
+  0x004B5BC0: --- Battle BGM Load ---
+  0x004B5BE1: --- Battle SE Load ---
+  0x004B5C00: - Battle SE Load Done !! -
+  0x004B5DA1: --- Battle Parameter Data Load ---
+  0x004B5DC9: --- Battle Item Data Load ---
+  0x004B5F51: - Battle Item Data Load Done !! -
+  0x004B7F88: Warning!!! Effect Double LoadTmz(Bank:%d/sec_no:%d)
+  0x004B7FC0: Warning!!! Effect Double LoadTmx(Bank:%d/sec_no:%d)
+  0x004B8090: Free_Btl_Effect_Tbl(): Error.
+  0x004BD3A0: Treasure Data Load Error!!
+  0x004BE5B0: No Suport PSM (asdGrTextureLoad)
+  0x004BE6D0: asdGrTextureLoad:
+  Total: 30
+
+================================================================================
+6. DEBUG / ERROR MESSAGES
+================================================================================
+  0x004975F8: Pad Failed.
+  0x004977A8: Pad Initialize Failed.
+  0x00497910: %RFRAME HANDLE GET ERROR!!!
+  0x0049E2D0: %R! WARNING ! SORRY, UNFORMAT MISS!!
+  0x0049E3D8: %R! WARNING ! LOAD FAILED
+  0x0049E438: %R! WARNING ! SAVE FAILED
+  0x0049E4A0: %R! WARNING ! DELETE FAILED
+  0x0049E510: %R! WARNING ! UNFORMAT FAILED
+  0x0049E580: %R! WARNING ! FORMAT FAILED
+  0x004A1C40: GetError PlayerNumber!!! (%d)
+  0x004A9F70: Wiz Warning:Enemy GroundNo(level) Not Set!!(%d)
+  0x004A9FE8: Wiz Warning:EnemyData Set Not Chr!!(%d)
+  0x004AA018: Wiz Warning:EnemyData Set Not Block!!(%d)
+  0x004AA0A0: Wiz Warning:EnemyData Restart(Not Way)!!:%d(now:%d/next:%d)
+  0x004B0288: %Y --- DEBUG MENU ---
+  0x004B5D88: Monster Sheet Error!! 
+  0x004B75E0: Event Item Error : Player Name Select No
+  0x004B7700: Event Dealing Error : Player Name Select No
+  0x004B7F88: Warning!!! Effect Double LoadTmz(Bank:%d/sec_no:%d)
+  0x004B7FC0: Warning!!! Effect Double LoadTmx(Bank:%d/sec_no:%d)
+  0x004B8090: Free_Btl_Effect_Tbl(): Error.
+  0x004B9800: Error: Btl_Effect_Take_A_Breath(): Lwork_Eff_Breath too large.
+  0x004B9840: Error: Btl_Effect_Make_Atomosphere(): Lwork_Eff_Breath too large.
+  0x004B9888: Error: Btl_Effect_A_Sword_Shine(): Lwork_Eff_Sword too large.
+  0x004B98C8: Error: Btl_Effect_Eyes_Shine(): Lwork_Eff_Eyes too large.
+  0x004B9AC8: Error: scn_eff_whiteout_proc(): para = 0
+  0x004BA060: MYL : error...Memory Allocate error!
+  0x004BCB70: Trap Error : Player Name Select No
+  0x004BCBC0: Trap AntiMagic Error : Player Name Select No
+  0x004BCCE7: BTrap Crossbow Error : Player Name Select No
+  0x004BCD78: Trap Rooffall Error : Player Name Select No
+  0x004BCDA8: Trap Spear Error : Player Name Select No
+  0x004BD3A0: Treasure Data Load Error!!
+  0x004BD6E8: Treasure Item Error : Player Name Select No
+  0x004BE810: WARNING:Big Size Texture Area Get
+  0x004BE850: WARNING:Texture Width is not multiplier(2)%s
+  0x004BE880: WARNING:Texture Height is not multiplier(2)%s
+  0x004BF888: Error Code = %d.
+  0x004BFC08: libpad: sceSifSetDma faild
+  0x004BFF48: bind error libmc 
+  0x004C0F38: ## internel error in libkernl.a!
+  0x004C0F88: TTY: receive error
+  Total: 42 (showing first 80)
+
+================================================================================
+7. GAME-SPECIFIC TERMS
+================================================================================
+  0x0049E5D8: BASLUS-20259WIZTFL
+  0x0049E6F0: BASLUS-20259WIZTFL
+  0x0049E788: WIZ-GBUSIN0
+  0x0049E798: WIZ-GBUSIN1
+  0x0049E7A8: WIZ-GBUSIN2
+  0x0049E8A0: BASLUS-20259WIZTFL
+  0x0049E8B8: WIZ-GBUSIN0
+  0x0049E8C8: WIZ-GBUSIN1
+  0x0049E8D8: WIZ-GBUSIN2
+  0x0049E930: BASLUS-20259WIZTFL
+  0x0049EA70: WIZ-GBUSIN0
+  0x0049EA80: WIZ-GBUSIN1
+  0x0049EA90: WIZ-GBUSIN2
+  0x0049EB30: BASLUS-20259WIZTFL
+  0x0049ED88: BASLUS-20259WIZTFL
+  0x0049F160: LightData Err:%9d(DungeonDataReadNo)
+  0x004A3838: PartyRank Now All PARTY_NORMAL!!!
+  0x004A4458: Dungeon Read BackUp No.:%d
+  0x004A4478: Dungeon Read BackUp Set No.:%d
+  0x004A8198: Not Party Death Possess Set!!
+  0x004A81B8: Not Party Death Possess Kill!!
+  0x004A81F8: Party In Member MAX:%d
+  0x004A8220: Return Dungeon:%d(%d)
+  0x004B49A0: MonsterMagic Dummy!!
+  0x004B49E8: Player Magic Dummy!!
+  0x004B9B18: 4  BUSIN ATTACK 2
+  0x004B9B30: 3  BUSIN ATTACK 1
+  0x004B9B48: 2  BUSIN MIDDLE
+  0x004B9B58: 1  BUSIN OUT
+  0x004B9B68: 0  BUSIN IN
+  0x004BCBC0: Trap AntiMagic Error : Player Name Select No
+  Total: 31
+
+================================================================================
+8. FORMAT STRINGS
+================================================================================
+  0x004970B8: Load Iop Module %s
+  0x004970E0: Load Module %s
+  0x004971C8: CD READ RETRY NOW!!!(%d)
+  0x004971E8: CD READ RETRY!!!(%d)
+  0x00497210: SRP Size Over!! (%d)
+  0x00497240: %GSOUND STEP %d
+  0x004977C0: %PVIB A:%d
+  0x004977D0: %PVIB B:%d
+  0x004977E0: Pad Change & Check!!! port:%d
+  0x00497850: SE SET ADR:%x
+  0x00497860: SE OPEN:%d
+  0x00497870: Se Call Vol Over!!!:%d
+  0x004978D8: JAMBGM SET ADR:%x
+  0x004978F0: fhandle = %d
+  0x00497900: thandle = %d
+  0x00497988: Save Chk!!:%d
+  0x0049E5F0: MemoryDataSize:%d
+  0x0049E678: Wiz MC Save Play : %x
+  0x0049E748: MemoryDataSize           :%d
+  0x0049E768: MemoryDataSize(Full)     :%d
+  0x0049E7B8: Check MemoryDataSize(All):%d
+  0x0049E7D8: Check MemoryDataSize(Sp):%d
+  0x0049E998: MemoryDataSize(StopPage) :%d
+  0x0049E9B8: Mc Name %s
+  0x0049E9E8: Check MemoryDataSize(All):%d
+  0x0049EA08: Check MemoryDataSize(Sp):%d
+  0x0049EB48: Mc Name %s
+  0x0049EC70: Demo Step 1 : %d
+  0x0049ED78: Mc Name %s
+  0x0049EDB0: GazeOnCnt   = %d
+  0x0049EDC8: SpiderOnCnt = %d
+  0x0049EDE0: DarkOnCnt   = %d
+  0x0049EDF8: StoneOnCnt  = %d
+  0x0049EE10: FuuinOnCnt  = %d
+  0x0049EE28: DeathOnCnt  = %d
+  0x004A0778: Town Tool Step:%d
+  0x004A0A50: check flg = %d
+  0x004A1B90: bonus = %d
+  0x004A1BA0: makebonus = %d
+  0x004A1BB0: level    = %d
+  0x004A1BC0: lifemax  = %d
+  0x004A1BD0: lifedisp = %d
+  0x004A1BE0: set player : %d
+  0x004A1C40: GetError PlayerNumber!!! (%d)
+  0x004A2AB8: Plw->place:%d
+  0x004A2DE0: %GCLIENT NUMBER = %d
+  0x004A2DF8: %G            X = %d
+  0x004A2E10: %G            Y = %d
+  0x004A2E28: %Y        EVENT = %d
+  0x004A2E40: dt_townbarclientse_info.se_vol=%d
+  0x004A35C0: Chk Effect Cockpit:%d(%d)
+  0x004A35E0: StoneEffect(Cockpit) Force Off( %d )
+  0x004A3608: DeathEffect(Cockpit) Force Off( %d )
+  0x004A3630: Good-By Player!!!(%d:%d/step:%d)
+  0x004A3BA0: Set DefChr Pattern:%d
+  0x004A3BB8: %RCURSOR R = %P%d
+  0x004A3BD0: %GCURSOR G = %P%d
+  0x004A3BE8: %BCURSOR B = %P%d
+  0x004A4390: Item SP Open Number:%d
+  0x004A43A8: Item SP Open Not Number:%d
+  Total: 337 (showing first 60)
+
+================================================================================
+9. ALL UNIQUE FCD_ RESOURCE NAMES
+================================================================================
+  Total unique FCD_ names: 0
+
+================================================================================
+10. WAKU (frame/window) STRINGS
+================================================================================
+  Total: 0

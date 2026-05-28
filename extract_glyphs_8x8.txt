@@ -1,0 +1,98 @@
+import struct, os
+import numpy as np
+from PIL import Image
+
+ATLAS_PATH = r"C:\Programmieren\wizardrytranslation\extracted\packdata_resources\1272_type01.bin"
+OUT_DIR = r"C:\Programmieren\wizardrytranslation\dumps\glyphs"
+HEADER_SIZE = 192
+PAGE_W = 128
+PAGE_H = 128
+GLYPH_W = 8
+GLYPH_H = 8
+COLS_PER_PAGE = PAGE_W // GLYPH_W  # 16
+ROWS_PER_PAGE = PAGE_H // GLYPH_H  # 16
+GLYPHS_PER_PAGE = COLS_PER_PAGE * ROWS_PER_PAGE  # 256
+NUM_PAGES = 8
+TOTAL_GLYPHS = GLYPHS_PER_PAGE * NUM_PAGES  # 2048
+SCALE = 8  # 8x scale for 64x64 output
+
+os.makedirs(OUT_DIR, exist_ok=True)
+
+with open(ATLAS_PATH, "rb") as f:
+    data = f.read()
+
+pixel_data = data[HEADER_SIZE:HEADER_SIZE + 65536]
+
+# Decode all pages
+pages = []
+for pi in range(NUM_PAGES):
+    po = pi * 8192
+    page = np.zeros((PAGE_H, PAGE_W), dtype=np.uint8)
+    for y in range(PAGE_H):
+        for x in range(0, PAGE_W, 2):
+            bo = po + y * (PAGE_W // 2) + x // 2
+            bv = pixel_data[bo]
+            page[y, x] = bv & 0x0F
+            page[y, x+1] = (bv >> 4) & 0x0F
+    pages.append(page)
+
+# LUT: 15=white bg, 0-14=black text
+lut = np.zeros(16, dtype=np.uint8)
+for i in range(15):
+    lut[i] = 0
+lut[15] = 255
+
+# Extract glyphs per page
+non_empty_count = 0
+for pi in range(NUM_PAGES):
+    page_vis = lut[pages[pi]]
+    for gy in range(ROWS_PER_PAGE):
+        for gx in range(COLS_PER_PAGE):
+            gi = pi * GLYPHS_PER_PAGE + gy * COLS_PER_PAGE + gx
+            y0 = gy * GLYPH_H
+            x0 = gx * GLYPH_W
+            cell = page_vis[y0:y0+GLYPH_H, x0:x0+GLYPH_W]
+
+            is_empty = np.all(cell >= 250)
+            if not is_empty:
+                non_empty_count += 1
+
+            img = Image.fromarray(cell, "L")
+            scaled = img.resize((GLYPH_W * SCALE, GLYPH_H * SCALE), Image.NEAREST)
+            scaled.save(os.path.join(OUT_DIR, f"glyph_{gi:04d}.png"))
+
+print(f"Extracted {TOTAL_GLYPHS} glyphs ({non_empty_count} non-empty).")
+
+# Create composite grid: all pages stacked
+# 16 glyphs per row, 16*8=128 rows total
+grid_cols = COLS_PER_PAGE
+grid_rows = ROWS_PER_PAGE * NUM_PAGES
+grid_w = grid_cols * GLYPH_W * SCALE
+grid_h = grid_rows * GLYPH_H * SCALE
+grid_img = Image.new("L", (grid_w, grid_h), 255)
+
+for pi in range(NUM_PAGES):
+    page_vis = lut[pages[pi]]
+    for gy in range(ROWS_PER_PAGE):
+        for gx in range(COLS_PER_PAGE):
+            y0 = gy * GLYPH_H
+            x0 = gx * GLYPH_W
+            cell = page_vis[y0:y0+GLYPH_H, x0:x0+GLYPH_W]
+            img = Image.fromarray(cell, "L")
+            scaled = img.resize((GLYPH_W * SCALE, GLYPH_H * SCALE), Image.NEAREST)
+
+            grid_x = gx * GLYPH_W * SCALE
+            grid_y = (pi * ROWS_PER_PAGE + gy) * GLYPH_H * SCALE
+            grid_img.paste(scaled, (grid_x, grid_y))
+
+grid_img.save(os.path.join(OUT_DIR, "_grid_composite.png"))
+print("Composite grid saved.")
+
+# Save individual page images at scale
+for pi in range(NUM_PAGES):
+    page_vis = lut[pages[pi]]
+    img = Image.fromarray(page_vis, "L")
+    img_scaled = img.resize((PAGE_W * SCALE, PAGE_H * SCALE), Image.NEAREST)
+    img_scaled.save(os.path.join(OUT_DIR, f"_page{pi}.png"))
+
+print("Done.")

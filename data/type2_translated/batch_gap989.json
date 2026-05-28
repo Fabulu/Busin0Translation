@@ -1,0 +1,22 @@
+[
+  {
+    "_comment": "R989, R990, R1034 -- NO TRANSLATABLE DIALOGUE FOUND",
+    "_analysis": "These are large type-02 dungeon/map resources (626-632 KB each). Section 2 contains binary event data (encounter tables, scripting bytecode), not dialogue glyph streams. The 63/112/109 'dialogue line' counts in the resource map were false positives from FFFE values occurring naturally in binary data. Maximum consecutive Japanese glyph run in any of these files is 6 characters (vs 12+ for real dialogue resources like R1196 which has 1626 runs of 8+ chars). R989 and R990 share identical Section 1 data (215,568 bytes), confirming they are dungeon floor variants with same geometry but different encounter/event data.",
+    "resource": 989,
+    "msg_index": -1,
+    "japanese": "",
+    "english": "[NO DIALOGUE] Dungeon map/event data resource"
+  },
+  {
+    "resource": 990,
+    "msg_index": -1,
+    "japanese": "",
+    "english": "[NO DIALOGUE] Dungeon map/event data resource"
+  },
+  {
+    "resource": 1034,
+    "msg_index": -1,
+    "japanese": "",
+    "english": "[NO DIALOGUE] Dungeon map/event data resource"
+  }
+]

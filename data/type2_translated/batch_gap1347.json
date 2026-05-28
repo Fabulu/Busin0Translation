@@ -1,0 +1,788 @@
+[
+  {
+    "resource": 1347,
+    "msg_index": 0,
+    "japanese": "あら、また帰たの？ / アタシ物備えがよすぎて、[01C7]れたくても / [01C7]れられないのよね～、落の顔。",
+    "english": "Oh my, you're back again? / I'm so well-stocked that / you just can't forget me~"
+  },
+  {
+    "resource": 1347,
+    "msg_index": 1,
+    "japanese": "ここへ帰たからには / もちろん買い物してって / くれるってことよね？",
+    "english": "Since you came all / the way back here, you're / going to buy something, right?"
+  },
+  {
+    "resource": 1347,
+    "msg_index": 2,
+    "japanese": "  [0002][0003][0004][0005][0006][0007]「」[000A]教なぞのこえあいうえおかきくけこ / さしすせそたちつてと / なにぬねのはひふへほ",
+    "english": "[DEBUG] Test string / a i u e o ka ki ku ke ko / sa shi su se so ta chi tsu te to"
+  },
+  {
+    "resource": 1347,
+    "msg_index": 3,
+    "japanese": "あいうえおかきくけこ / さしすせそたちつてと / なにぬねのはひふへほ",
+    "english": "[DEBUG] a i u e o ka ki ku ke ko / sa shi su se so ta chi tsu te to / na ni nu ne no ha hi fu he ho"
+  },
+  {
+    "resource": 1347,
+    "msg_index": 4,
+    "japanese": "きょうの、おまえさんのうんせいを / うらなってやろうか？",
+    "english": "Shall I tell you / your fortune for today?"
+  },
+  {
+    "resource": 1347,
+    "msg_index": 5,
+    "japanese": "うらなってもらう / テスト１ / テスト２ / オールセンター / やめる",
+    "english": "Get fortune told / Test 1 / Test 2 / All Center / Cancel"
+  },
+  {
+    "resource": 1347,
+    "msg_index": 6,
+    "japanese": "だいきょうきょうきちちゅうきちだいきちおまえさんの、きょうのうんせいは / ・・・・・じゃ。",
+    "english": "Great Misfortune - Misfortune - Good Luck - Fair Luck - Great Luck: Your fortune for today is / .....so it is."
+  },
+  {
+    "resource": 1347,
+    "msg_index": 7,
+    "japanese": "さらばじゃ  ",
+    "english": "Farewell."
+  },
+  {
+    "resource": 1347,
+    "msg_index": 8,
+    "japanese": "どれにするんじゃ？ / xセンター・yセンター / xセンター・yノーマル / xひだり ・yうえ / xみぎ  ・yした / やめる",
+    "english": "[DEBUG] Which one? / X-Center Y-Center / X-Center Y-Normal / X-Left Y-Up / X-Right Y-Down / Cancel"
+  },
+  {
+    "resource": 1347,
+    "msg_index": 9,
+    "japanese": "あいうえお / かきくけこさしすせそ / たちつてと",
+    "english": "[DEBUG] a i u e o / ka ki ku ke ko sa shi su se so / ta chi tsu te to"
+  },
+  {
+    "resource": 1347,
+    "msg_index": 10,
+    "japanese": "アイウエオカキクケコ / サシスセソ / タチツテトナニヌネノ",
+    "english": "[DEBUG] A I U E O KA KI KU KE KO / SA SHI SU SE SO / TA CHI TSU TE TO NA NI NU NE NO"
+  },
+  {
+    "resource": 1348,
+    "msg_index": 0,
+    "japanese": "階の主を倒避したメダルは / [044C]神に[052A]け[0410]った。",
+    "english": "The medal earned from / defeating the floor master / was offered to the gods."
+  },
+  {
+    "resource": 1348,
+    "msg_index": 1,
+    "japanese": "０１２３４５６７８９−リーダーは",
+    "english": "0123456789- The leader is"
+  },
+  {
+    "resource": 1348,
+    "msg_index": 2,
+    "japanese": "イメージオーラセット",
+    "english": "[DEBUG] Image Aura Set"
+  },
+  {
+    "resource": 1348,
+    "msg_index": 3,
+    "japanese": "ぼかし[05BB]テスター /  / 除てからぼかす  / ぼかしてから除す / やめる     ",
+    "english": "[DEBUG] Blur Tester / / Remove then blur / Blur then remove / Cancel"
+  },
+  {
+    "resource": 1348,
+    "msg_index": 4,
+    "japanese": "除てからぼけました。",
+    "english": "[DEBUG] Removed then blurred."
+  },
+  {
+    "resource": 1348,
+    "msg_index": 5,
+    "japanese": "[0323]がしゃべる。",
+    "english": "[DEBUG] Character speaks."
+  },
+  {
+    "resource": 1348,
+    "msg_index": 6,
+    "japanese": "切がしゃべる。",
+    "english": "[DEBUG] Other speaks."
+  },
+  {
+    "resource": 1348,
+    "msg_index": 7,
+    "japanese": "ぼけたまま除ました。",
+    "english": "[DEBUG] Removed while blurred."
+  },
+  {
+    "resource": 1348,
+    "msg_index": 8,
+    "japanese": "[0323]がしゃべる。",
+    "english": "[DEBUG] Character speaks."
+  },
+  {
+    "resource": 1348,
+    "msg_index": 9,
+    "japanese": "切がしゃべる。",
+    "english": "[DEBUG] Other speaks."
+  },
+  {
+    "resource": 1349,
+    "msg_index": 0,
+    "japanese": "ヴィガーフレンズのポイントが / ３加[0637]されました。",
+    "english": "Vigger Friends points / increased by 3!"
+  },
+  {
+    "resource": 1349,
+    "msg_index": 1,
+    "japanese": "しばらくぼんやりしていると / だんだんとウトウトしてきた。",
+    "english": "After spacing out / for a while, you gradually / began to doze off."
+  },
+  {
+    "resource": 1349,
+    "msg_index": 2,
+    "japanese": "[01C5]れる客頼と召[03F2]の中に / 半物の[0578][0453]が賊える。",
+    "english": "Amidst the bustling / customers and servants, / monster shadows appear."
+  },
+  {
+    "resource": 1349,
+    "msg_index": 3,
+    "japanese": "[046E]か抜戦か[0489][0474]する嫌もなく / 半物の[0578][0453]が仕い納かってきた ",
+    "english": "With no time to draw / weapons or even hesitate, / the monster shadows attacked!"
+  },
+  {
+    "resource": 1349,
+    "msg_index": 4,
+    "japanese": "オーク授いが編わり、[0446]恵としていると / 立店の店社が択てて / 力け復ってきた。",
+    "english": "When the orc battle ended / and you caught your breath, / the shopkeeper came rushing back."
+  },
+  {
+    "resource": 1349,
+    "msg_index": 5,
+    "japanese": "うおおおおおお / おめえさん、ぶじだったか？",
+    "english": "Woaaaaaah! / Are you alright?!"
+  },
+  {
+    "resource": 1349,
+    "msg_index": 6,
+    "japanese": "オダたちのみせわ、ときたま / ああしておっかねえマモノに / おそわれちまうだよ！",
+    "english": "Our shop sometimes / gets attacked by scary / monsters like that!"
+  },
+  {
+    "resource": 1349,
+    "msg_index": 7,
+    "japanese": "おめえさん、おきなかっだから / おめえさんをおきざりにして / オダたちヒナンしてたべ！",
+    "english": "You wouldn't wake up, / so we left you behind / and evacuated!"
+  },
+  {
+    "resource": 1349,
+    "msg_index": 8,
+    "japanese": "いや～、ぶじでよがっだ  / さあさあ、もっかいゆっくり / きゅうけいしてくで ",
+    "english": "Man~, glad you're safe! / Come on, take your time / and rest up again!"
+  },
+  {
+    "resource": 1349,
+    "msg_index": 9,
+    "japanese": "でもあぶねえから、うとうと / するでねえど ",
+    "english": "But it's dangerous, / so don't doze off again!"
+  },
+  {
+    "resource": 1349,
+    "msg_index": 10,
+    "japanese": "パーティのhp・mpが用[04D9]した ",
+    "english": "The party's HP and MP / have been restored!"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 0,
+    "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
+    "english": "Lomi: Oh! Did you / bring it for me?"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 1,
+    "japanese": "ローミに乙忍９名で投った / [0268][0444]を力飾した。",
+    "english": "You handed Lomi the cloth / bag that you had picked up / on the ninth floor."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 2,
+    "japanese": "それは不出衛なことに、 / ローミの意を念き通ることなく / 族女の力に銀せられた。",
+    "english": "Strangely enough, the bag / did not fall through / Lomi's hands."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 3,
+    "japanese": "わたしのだ！。 / どうもありがとう ",
+    "english": "It's truly mine! / Thank you so much!"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 4,
+    "japanese": "これはね、お[04F9]さんとお[06CF]さんの / 出い除の品なんだって。 / お内りにって、もらったの。",
+    "english": "This is a memento of / my father and mother. / They gave it to me / as a good luck charm."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 5,
+    "japanese": "ローミは[02F2]しそうに / [0444]のひもをとき、中から / 門い宝削を古り除した。",
+    "english": "Lomi happily untied / the bag and pulled out / a red gemstone from inside."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 6,
+    "japanese": "へへ！[0339][0336]な削でしょ。",
+    "english": "Hehe! Isn't it / a beautiful stone?"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 7,
+    "japanese": "ローミに差し除された削を / 力にとってみた。",
+    "english": "You picked up the stone / that Lomi offered to you."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 8,
+    "japanese": "削に力れた[0272]自、捷かい客頼が / 宮の中に棄れ込んできた！。",
+    "english": "As soon as you touched / the stone, warm feelings / flowed into your mind!"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 9,
+    "japanese": "門い宝削に込められた出大から、 / 方しい授美「アレイド」を / 力に入れた。",
+    "english": "From the memories sealed / in the red gemstone, you learned / a new Alleid: Silencer Breaker!"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 10,
+    "japanese": "ブレイクサイレンスを力に入れた。",
+    "english": "You learned Break Silence!"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 11,
+    "japanese": "、だいじょうぶ？",
+    "english": "Lomi: Are you okay?"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 12,
+    "japanese": "ローミに削を大した。",
+    "english": "You returned the stone / to Lomi."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 13,
+    "japanese": "そうだ！お[0368]しなくっちゃ ",
+    "english": "Lomi: Oh yes, / I must thank you!"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 14,
+    "japanese": "あのね、カウンターの外の宝[03CE]を / 開けてみてちょうだい。",
+    "english": "Lomi: Hey, try opening / that treasure chest / on top of the counter."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 15,
+    "japanese": "ローミに言われたとおり、 / [0454]し物カウンターの外にある / 間さな宝[03CE]を開けてみた。",
+    "english": "You did as Lomi said / and opened the little / treasure chest on the counter."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 16,
+    "japanese": "なかには何闘なミスリル拡で以られた / [0339][0336]な集取りが入っていた。",
+    "english": "Inside was a beautiful / hair ornament made of / precious baked silver."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 17,
+    "japanese": "これ、ここで傷いたお臆で買ったの。 / 買ったっていっても、ここのお店で / １つだけ一入れてもらったんだけど。",
+    "english": "Lomi: I bought this with / the gold I earned here. / Well, I got one set aside / from this store."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 18,
+    "japanese": "生きてた動お[06CF]さんがいつも / つけてて、あこがれてたんだ～。",
+    "english": "Lomi: When my mom was alive, / she always wore one, / and I adored it~"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 19,
+    "japanese": "苦ってる？ / ミスリル拡ってとっても何闘で / めったにとれないんだって。",
+    "english": "Lomi: Did you know? / Baked silver is extremely / precious and hard to come by."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 20,
+    "japanese": "わたし、買ったのはいいけれど / つけられないから、あげる。",
+    "english": "Lomi: I bought it, but / I can't wear it, / so I'm giving it to you."
+  },
+  {
+    "resource": 1351,
+    "msg_index": 21,
+    "japanese": "ミスリルの集取りを力に入れた ",
+    "english": "You received the / Silver Hair Ornament!"
+  },
+  {
+    "resource": 1351,
+    "msg_index": 22,
+    "japanese": "じゃあ、また働いに帰てね。 / ばいばい、。",
+    "english": "Lomi: Well, be sure to / come back for more / fortune-telling. Bye-bye!"
+  },
+  {
+    "resource": 1352,
+    "msg_index": 0,
+    "japanese": "メラーニエクンナルこれは、これまでのノーマル / バージョンです。",
+    "english": "[DEBUG] Melanie/Ekunnal: This is the / normal version so far."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 1,
+    "japanese": "フィルタと重[01E5]ボカシをonに / しています。",
+    "english": "[DEBUG] Filter and depth blur / are set to ON."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 2,
+    "japanese": "キャラの系[01A1]を方えて / 会質キャラを[05BD]潜しています。",
+    "english": "[DEBUG] Changed character / settings to hide / background characters."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 3,
+    "japanese": "メラーニエクンナルこれは、ボカシバージョン１です。",
+    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 1."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 4,
+    "japanese": "重[01E5]ボカシをonにしています。 / 重[01E5]フィルタはかけていません。",
+    "english": "[DEBUG] Depth blur is ON. / Depth filter is not applied."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 5,
+    "japanese": "キャラをボカシて / 会質キャラを[05BD]潜しています。",
+    "english": "[DEBUG] Characters are blurred / to hide background characters."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 6,
+    "japanese": "メラーニエクンナルこれは、ボカシバージョン２です。",
+    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 2."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 7,
+    "japanese": "重[01E5]ボカシをonにしています。 / 重[01E5]フィルタもonにしています。",
+    "english": "[DEBUG] Depth blur is ON. / Depth filter is also ON."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 8,
+    "japanese": "キャラをボカシて / 会質キャラを[05BD]潜しています。",
+    "english": "[DEBUG] Characters are blurred / to hide background characters."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 9,
+    "japanese": "メラーニエクンナルこれは、ボカシバージョン３です。 / メッセージの忍に「ここの忍」 / フィルタをかけています。",
+    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 3. / A local filter is applied / to the message text."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 10,
+    "japanese": "重[01E5]ボカシをonにしています。 / 重[01E5]フィルタはかけていません。",
+    "english": "[DEBUG] Depth blur is ON. / Depth filter is not applied."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 11,
+    "japanese": "キャラをボカシて / 会質キャラを[05BD]潜しています。",
+    "english": "[DEBUG] Characters are blurred / to hide background characters."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 12,
+    "japanese": "メラーニエクンナルこれは、ボカシバージョン５です。",
+    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 5."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 13,
+    "japanese": "重[01E5]ボカシをonにしています。 / 重[01E5]フィルタもonにしています。",
+    "english": "[DEBUG] Depth blur is ON. / Depth filter is also ON."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 14,
+    "japanese": "キャラをボカシて / 会質キャラを[05BD]潜しています。",
+    "english": "[DEBUG] Characters are blurred / to hide background characters."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 15,
+    "japanese": "メラーニエクンナルこれは、ボカシバージョン６です。 / メッセージの忍に「ここの忍」 / フィルタをかけています。",
+    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 6. / A local filter is applied / to the message text."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 16,
+    "japanese": "重[01E5]ボカシをonにしています。 / 重[01E5]フィルタはかけていません。",
+    "english": "[DEBUG] Depth blur is ON. / Depth filter is not applied."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 17,
+    "japanese": "キャラをボカシて / 会質キャラを[05BD]潜しています。",
+    "english": "[DEBUG] Characters are blurred / to hide background characters."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 18,
+    "japanese": "メラーニエクンナルこれは、ボカシバージョン７です。 / メッセージの忍に「ここの忍」 / フィルタをかけています。",
+    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 7. / A local filter is applied / to the message text."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 19,
+    "japanese": "重[01E5]ボカシをonにしています。 / 重[01E5]フィルタはかけていません。",
+    "english": "[DEBUG] Depth blur is ON. / Depth filter is not applied."
+  },
+  {
+    "resource": 1352,
+    "msg_index": 20,
+    "japanese": "キャラをボカシて / 会質キャラを[05BD]潜しています。",
+    "english": "[DEBUG] Characters are blurred / to hide background characters."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 0,
+    "japanese": "[01E1][01D9]で部られたと出われる / 飽の通独を級むと、 / そこには地者の男帰の良があった。",
+    "english": "Passing through a corridor / thought to be carved from / ancient stone, you found / knights of the Order."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 1,
+    "japanese": "族らが職に業ける[01E0]の[020A]能から / [01E3]帰前の戦動ということがわかる。",
+    "english": "From the crests on their / armor, you could tell they / were knights of the Order."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 2,
+    "japanese": "男帰動がに頼業き / 多づいてきた。",
+    "english": "One of the knights / approached you."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 3,
+    "japanese": "[01E3]帰前向いが、ここは[01E4][01DD]された戦魔義、 / 侍ち入り代限となっている。",
+    "english": "Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 4,
+    "japanese": "それとも使は、迷宮に入るための / 物を持っているのか？",
+    "english": "Knight: Or do you have / something that permits / entry into the labyrinth?"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 5,
+    "japanese": "は誰を[01CD]に後った。",
+    "english": "You shook your head."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 6,
+    "japanese": "なら、早く盗に戻りなさい。 / ここは[045B]騎だ、兵[046C]の戦が帰るような / ところではない。",
+    "english": "Knight: Then go back / to the city at once. / This is dangerous; / no place for civilians."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 7,
+    "japanese": "[01E3]帰前小のつもりか苦らぬが、 / 小度帰ても、[02EC]えは効じだ。",
+    "english": "Knight: I don't know / what you're thinking, but / no matter how many times / you come, the answer / is the same."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 8,
+    "japanese": "[01E4][01DD]辺き戦を、入れることはできぬ。",
+    "english": "Knight: I cannot let / anyone without clearance / pass through."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 9,
+    "japanese": "[01E3]帰前また使か！！",
+    "english": "Knight: You again!!"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 10,
+    "japanese": "くどいようだが、[01E4][01DD]辺き戦は / 通すわけにはいかんのだ。",
+    "english": "Knight: I hate to repeat / myself, but I cannot let / anyone without clearance / pass through."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 11,
+    "japanese": "向いが、ここは[01E4][01DD]された戦魔義、 / 侍ち入り代限となっている。",
+    "english": "Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 12,
+    "japanese": "それとも使は、迷宮に入るための / 前全を持っているのか？",
+    "english": "Knight: Or do you have / the credentials to enter / the labyrinth?"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 13,
+    "japanese": "は、 / 頼潜ブレスレットを古り除して、 / 男帰に賊せた。",
+    "english": "You took off your / Identification Bracelet / and showed it to the knight."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 14,
+    "japanese": "なるほど。 / 使も討伐隊の兵社となったわけか。",
+    "english": "Knight: I see. / So you've become a member / of the strike force as well."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 15,
+    "japanese": "よろしいそれでは、 / 隊像から向全はあったと出うが、 / もう兵度[01E1]荷に向全させてもらおう。",
+    "english": "Knight: Very well then. / I'm sure you were briefed / by the captain, but let me / explain once more."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 16,
+    "japanese": "使動士騎戦は魔装、彼神王息[01E3]帰前の / [03E9][0190]忍に[0175]かれる。",
+    "english": "Knight: All adventurers / are bound by the rules / of the Order."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 17,
+    "japanese": "迷宮長での行功は値器だが、いかなる / 場合、[0190]器があっても、彼神の[01BA]孤が / [01BE]系[01A1]されることを[01C7]れないよう。",
+    "english": "Knight: Acts of valor / in the labyrinth are noted, / but never forget that / the gods' judgment shall / always be upheld."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 18,
+    "japanese": "迷宮長で力に入れた物品に人しては、 / 士騎戦[04E0]者の暗[0470]物として索める。",
+    "english": "Knight: Any items obtained / in the labyrinth are / recognized as the personal / property of the adventurer."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 19,
+    "japanese": "また、半物どもを忘す野宿に[014B]るが、 / 単や[04EE]などの住[04DD]の度毒や半法の度 / 毒も索める。",
+    "english": "Knight: Also, while slaying / monsters is the primary / mission, the use of poisons / and sorcery is also / permitted."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 20,
+    "japanese": "それともう兵つ。 / これから[01A1]、頼潜ブレスレットは、 / 使教者を前全するものとなる。",
+    "english": "Knight: One more thing. / From now on, / the Identification Bracelet / will serve to protect you."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 21,
+    "japanese": "[0457]物[0444]などに入れずに、[046A]職はなさず / 職に業けていて能しい。",
+    "english": "Knight: Do not put it / in your luggage bag. / Keep it on you / at all times."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 22,
+    "japanese": "なぜなら、抜器彼神[01E3]帰前を[0283]め、 / 唱くの士騎戦が討伐隊となって迷宮に / 御っている。",
+    "english": "Knight: The reason is that / many adventurers, including / knights of the Order, / are exploring the labyrinth."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 23,
+    "japanese": "もし、迷宮長でそのブレスレットを / 職に業けていなければ、仕われても / 思店は言えないからな。",
+    "english": "Knight: If you don't have / the bracelet on you / in the labyrinth, you can't / complain if you get attacked."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 24,
+    "japanese": "は、 / 頼潜ブレスレットを職につけた。",
+    "english": "You put on the / Identification Bracelet."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 25,
+    "japanese": "この少し[01A1]の[03AA]水の街所で、 / 宝[03CE]や授[049C]についての[01E1]荷な向全を / 光けることができる。",
+    "english": "Knight: In the rooms / just ahead, you can learn / the basics of treasure chests / and combat."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 26,
+    "japanese": "使がこういった迷宮に入るのが / [0160]めてなら、聞いておいて[0465]は / ないだろう。",
+    "english": "Knight: If this is your / first time in a labyrinth / like this, it would be wise / to listen."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 27,
+    "japanese": "使動士騎戦の傷きには、息王も見方 / [045C]んでおられる。彼神も効[01BC]だ。 / 使も[045A][0402]ってくれたまえ ",
+    "english": "Knight: The King himself / watches over the work of / the adventurers. The gods / are with you too. / Take care of yourself."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 28,
+    "japanese": "おう、そうそう、質は方わるが、 / 使動は方わったチームだな。",
+    "english": "Knight: Oh, by the way, / you've got quite an unusual / team there."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 29,
+    "japanese": "[0160]めてみたよ、 / オークを支れて士騎する戦は。",
+    "english": "Knight: It's the first / time I've seen anyone / adventuring with an Orc."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 30,
+    "japanese": "装ろのオーク動も退嫌なんだろ？",
+    "english": "Knight: Those Orcs behind / you are your companions, / right?"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 31,
+    "japanese": "イお、おう、そうよダド～[0267]ゴ",
+    "english": "Orc: Oh, yeah, / that's right~!"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 32,
+    "japanese": "イオ、オダたちみんな /  なかよしですダド～[0267]ゴ",
+    "english": "Orc: We're all / good friends~!"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 33,
+    "japanese": "アハハハハ、そうかそうか。 / なあに、俺の使[04A0]のばあさんが / オークと退箱しでな。",
+    "english": "Knight: Ahahaha, is that so! / Well, my grandmother on / my mother's side married / an Orc, you know."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 34,
+    "japanese": "使[04A0]じゃ、集に１０己もいる / ぐらいなんだ。",
+    "english": "Knight: On her side of / the family, there are about / 10 of them."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 35,
+    "japanese": "それじゃ、装ろのお両動も頼を / つけてな。",
+    "english": "Knight: Well then, / take care of your friends / back there too."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 36,
+    "japanese": "イありがとうですダド～[0267]ゴ",
+    "english": "Orc: Thank you~!"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 37,
+    "japanese": "イかんしゃ、かんしゃダド～[0267]ゴ",
+    "english": "Orc: So grateful, / so grateful~!"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 38,
+    "japanese": "迷宮に入ってみると、 / [045E][046D]にあたっている男帰動の / ガヤガヤと悪ぐ避が聞こえてきた。",
+    "english": "Upon entering the labyrinth, / you could hear the boisterous / voices of knights on guard duty."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 39,
+    "japanese": "男帰aイおい  /     族女が、[01AB]ってきたぞ  ゴ男帰bイどうだ？ /     聖回もやはり辺[0327]か？ゴ男帰aイそのようだ、さっきレオ動に /     半物の誰を飾していたが、 /     かすり[0327]兵つ魔っていないゴ男帰bイさすがだな！！ゴ",
+    "english": "Soldier A: Hey! / She has returned! / Soldier B: How are they? / She's unwounded, right? / Soldier A: She had just / handed Rudi the head / of a demon. Not a / scratch on her. / Soldier B: Incredible!"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 40,
+    "japanese": "焼属の[01E0]に職を持んだ女放が、 / 男帰動と質しながら、こちらへと / 多づいてきた。",
+    "english": "A woman clad in / samurai-looking armor / approached, conversing / with the knights."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 41,
+    "japanese": "女放 イ聖回は[0460]名層まで行ったけど、 /     アウローラの良はどこにも /     辺かったゴ男帰cイ力がかりは辺しですかゴ女放 イええ、だけど！！    頼になることが兵つだけゴ男帰cイ小ですか？ /     お聞かせくださいゴ女放 イ[0180]名層の奥に行った時、 /     知与な頼[03CF]を感じたの！！ゴ",
+    "english": "Female: This time we went / to the sixth floor, but / there was no trace of / Aurora anywhere. / Soldier C: Any leads? / Female: Yes, but there was / one thing that caught / my attention. / Soldier C: What was it? / Please tell us. / Female: When I went deep / into the second floor, / I sensed something / strange and powerful!"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 42,
+    "japanese": "男帰dイアウローラでは？ゴ女放 イ違うと出う。者嫌のものよりも /     あれはもっと！！[0159]向だった！。    うまく向全できなくて向いけどゴ男帰dイいえ、[0463]色です。    アオイさんがおっしゃるなら、 /     嫌違いないでしょうゴ男帰cイ話ぎ、[0180]名層に道登隊を /     大[045F]することにしますゴ",
+    "english": "Soldier D: Was it Aurora? / Female: I don't think so. / It was something far more / evil than any demon. / Sorry I can't describe / it better. / Soldier D: That's fine. / If the famous Aoi says so, / it must be true. / Soldier C: Let's hurry and / authorize a search party / for the 2nd floor."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 43,
+    "japanese": "アオイと高ばれた女放は、 / そばを通り過ぎる[023A]に / をちらりと賊つめ、 / 侍ち限まった。",
+    "english": "The woman called Aoi / glanced at you as she / passed by, and stopped."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 44,
+    "japanese": "アオイあなたも迷宮に御るつもりなの？",
+    "english": "Aoi: Are you going into / the labyrinth as well?"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 45,
+    "japanese": "迷宮に御るつもり？ /  / は い / いいえ",
+    "english": "Going into the labyrinth? / / Yes / No"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 46,
+    "japanese": "そのほうがいいわ。",
+    "english": "Aoi: That would be wise."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 47,
+    "japanese": "[038B]景な生込は、使った時に[0160]めて / その見該さがわかる。",
+    "english": "Aoi: Reckless ambitions / reveal their true ugliness / only when it's too late."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 48,
+    "japanese": "そして頼づいた時には、[0180]度と古り / 戻せはしないのだから。",
+    "english": "Aoi: And by the time / you realize it, there is / no way to turn back."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 49,
+    "japanese": "[0462]られるかもしれないけど、 / あえて言わせて。",
+    "english": "Aoi: I may be scolded / for this, but let me / say it anyway."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 50,
+    "japanese": "迷宮の階は、稀目の見きさの色だけ / [0297]くなっていく。",
+    "english": "Aoi: The darkness of the / labyrinth grows as deep / as the size of your / own ambitions."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 51,
+    "japanese": "不はそういった者動を唱く賊てきた。 / 迷宮の奥[01AE]で[0423]となった者動は、 / [018A]療や宝を有め、[028E]んでいった。",
+    "english": "Aoi: I've seen many / such people. Fame and / treasure they may have found, / but they all perished / in the depths of / the labyrinth."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 52,
+    "japanese": "生き退ることを第兵に必えなさい。 / [018A]療や[046E]はその装についてくるから。",
+    "english": "Aoi: Think first of / surviving. Fame and glory / will follow on their own."
+  },
+  {
+    "resource": 1355,
+    "msg_index": 53,
+    "japanese": "男帰cイでは、近所まで[0362][0455]長しますゴアオイイ聖地も賊[0402]りつきってわけね。    これじゃ迷宮のほうが /     どれほど頼武かしらゴ男帰dイ！！元しわけありませんゴ",
+    "english": "Soldier C: Well then, / we will escort you / to the inn. / Aoi: On watch duty today / too, I see. I wonder how / much more carefree life / outside would be. / Soldier D: We are sorry / about that!"
+  },
+  {
+    "resource": 1355,
+    "msg_index": 54,
+    "japanese": "アオイイ不の[046E]は、兵度でいいから /     過にも[0159]半されないところで /     ゆっくりと[0464]ることゴ男帰cイ彼神は、ドアの義で侍って /     いるだけですからゴ男帰dイ携してお[045D]みの[0159]半はしない /     つもりですゴアオイイわかっているわ。効少よ。    もう[0459]れたからゴ",
+    "english": "Aoi: My dream is to / sleep in a place where / no one will disturb me. / Soldier C: We're just going / to stand by the door. / Soldier D: We have no plans / to interrupt your rest. / Aoi: I know, I know. / It was just a joke. / I've gotten used to it."
+  }
+]

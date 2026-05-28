@@ -1,0 +1,23 @@
+{
+  "resource": "1053_type03.bin",
+  "status": "NO_TEXT_CONTENT",
+  "analysis": {
+    "file_size_bytes": 35200,
+    "total_uint16_values": 17600,
+    "header_offset": 1330,
+    "glyph_values_after_header": 16935,
+    "values_in_glyph_range_2_to_1131": 2098,
+    "values_above_glyph_range_below_control": 9540,
+    "zero_values_space": 4921,
+    "control_codes": 329,
+    "ffff_terminators": 90,
+    "fffe_linebreaks": 9,
+    "text_content_ratio": 0.12,
+    "conclusion": "Resource 1053 is a type03 binary resource containing primarily control/rendering data, NOT dialogue text. Only ~12% of values fall within the glyph ID range (0-1131). The remaining values (9540 above range) are binary data: coordinates, pointers, flags, or rendering parameters. Isolated katakana (ブ,ベ,ギ,ゾ,ヂ) and hiragana (ち,ぐ,べ) appear as single-character labels or markers, not as readable sentences. No kanji inference is possible from this resource."
+  },
+  "confirmed": {},
+  "high_confidence": {},
+  "medium_confidence": {},
+  "low_confidence": {},
+  "total_inferences": 0
+}

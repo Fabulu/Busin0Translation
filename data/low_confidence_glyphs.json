@@ -1,0 +1,310 @@
+{
+  "672": {
+    "char": "日",
+    "agents": [
+      "r41"
+    ],
+    "confidence": "LOW"
+  },
+  "853": {
+    "char": "勲",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "LOW"
+  },
+  "898": {
+    "char": "無",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "LOW"
+  },
+  "610": {
+    "char": "思",
+    "agents": [
+      "r38"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "618": {
+    "char": "考",
+    "agents": [
+      "r38"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "534": {
+    "char": "感",
+    "agents": [
+      "r38"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "720": {
+    "char": "幸",
+    "agents": [
+      "r38"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "490": {
+    "char": "用",
+    "agents": [
+      "r39"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "605": {
+    "char": "持",
+    "agents": [
+      "r39"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "666": {
+    "char": "異",
+    "agents": [
+      "r39"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "316": {
+    "char": "職",
+    "agents": [
+      "r39"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "776": {
+    "char": "業",
+    "agents": [
+      "r39"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "839": {
+    "char": "下",
+    "agents": [
+      "r39"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "959": {
+    "char": "験",
+    "agents": [
+      "r39"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "535": {
+    "char": "忍",
+    "agents": [
+      "r39"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "338": {
+    "char": "今",
+    "agents": [
+      "r41"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "344": {
+    "char": "悔",
+    "agents": [
+      "r41"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "886": {
+    "char": "対",
+    "agents": [
+      "r41"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "887": {
+    "char": "価",
+    "agents": [
+      "r41"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "612": {
+    "char": "雙",
+    "agents": [
+      "r47"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "320": {
+    "char": "心",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "352": {
+    "char": "養",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "494": {
+    "char": "休",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "617": {
+    "char": "翌",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "671": {
+    "char": "身",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "689": {
+    "char": "潜",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "702": {
+    "char": "日",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "706": {
+    "char": "在",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "774": {
+    "char": "活",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "843": {
+    "char": "場",
+    "agents": [
+      "r42"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "581": {
+    "char": "士",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "647": {
+    "char": "使",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "669": {
+    "char": "御",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "670": {
+    "char": "用",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "852": {
+    "char": "入",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "913": {
+    "char": "調",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "928": {
+    "char": "設",
+    "agents": [
+      "r44"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "315": {
+    "char": "盗",
+    "agents": [
+      "r47"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "348": {
+    "char": "盾",
+    "agents": [
+      "r47"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "406": {
+    "char": "封",
+    "agents": [
+      "r47"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "833": {
+    "char": "戻",
+    "agents": [
+      "r47"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "857": {
+    "char": "突",
+    "agents": [
+      "r47"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "858": {
+    "char": "然",
+    "agents": [
+      "r47"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  },
+  "997": {
+    "char": "員",
+    "agents": [
+      "r47"
+    ],
+    "confidence": "MEDIUM-SINGLE"
+  }
+}

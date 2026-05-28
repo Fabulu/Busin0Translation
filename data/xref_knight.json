@@ -1,0 +1,40 @@
+{
+  "status": "inconclusive",
+  "target_text": "聞いたかもしれないが、迷宮の第２階層において討伐隊のメンバーが消息を絶った。",
+  "target_speaker": "騎士団長",
+  "target_glyph_count": 38,
+  "search_constraints": {
+    "い_positions_0indexed": [1, 8, 20],
+    "が_positions_0indexed": [9, 30],
+    "の_positions_0indexed": [13, 25],
+    "た_positions_0indexed": [2, 36],
+    "comma_position": 10,
+    "period_position": 37,
+    "assumed_comma_glyph": 62,
+    "assumed_period_glyph": 63
+  },
+  "resources_searched": {
+    "dialogue_resources_34_49": "All messages parsed. 3 messages with exactly 38 glyphs found in res 38, none match repeat pattern.",
+    "all_296_msg_resources": "Searched all classified MSG resources. No 38-glyph message (with control codes stripped) has g[1]==g[8].",
+    "sliding_window_search": "Searched within large dialogue blocks in res 46 (type03) which stores entire scenes as single FFFF-delimited blocks with embedded FF01 separators. One weak match (sc=2/5) found but does not satisfy comma/period constraints.",
+    "resource_46_note": "Resource 46 uses a different format from resources 34-49 (type03 vs type01). Messages are much longer (60-165 glyphs) representing entire dialogue scenes with 0xFF01 control codes as internal separators."
+  },
+  "format_findings": {
+    "message_delimiter": "FFFF marks message boundaries, FFFE may terminate messages",
+    "control_codes": "Values >= 0xFFC0 are control codes (formatting, line breaks, etc.). 0xFF01 (65281) appears frequently as an internal dialogue separator in type03 resources.",
+    "glyph_value_range": "Valid text glyphs range 0-858 (0x035A) based on frequency analysis",
+    "common_glyphs": {
+      "113": "Most frequent text glyph (675 occurrences) - likely a very common hiragana",
+      "136": "2nd most frequent (665) - likely another common character",
+      "158": "3rd most frequent (493)",
+      "152": "4th most frequent (491)",
+      "93": "5th most frequent (489) - appears in katakana name sequences"
+    }
+  },
+  "possible_issues": [
+    "Knight dialogue may be in an unclassified resource not in the 296 MSG list",
+    "The glyph table may extend beyond 858, requiring kanji glyphs at higher indices",
+    "The 0xFF01 separator in type03 resources may need to be treated differently",
+    "The save state knightguy.ps2.p2s may reference a dynamically loaded resource not in the static packdata"
+  ]
+}

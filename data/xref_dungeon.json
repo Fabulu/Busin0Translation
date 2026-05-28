@@ -1,0 +1,143 @@
+{
+  "_metadata": {
+    "date": "2026-05-22",
+    "source": "Cross-reference of normaldungeonscreen screenshot against MSG resources",
+    "method": "Structural pattern matching: 12-glyph message with kanji at pos 0,2 and hiragana elsewhere, validated via cross-reference with other messages in same resource",
+    "confidence": "HIGH",
+    "screenshot_text": "特に変わったところはない",
+    "resource_file": "0049_type01.bin",
+    "resource_index": 49,
+    "message_index": 0
+  },
+  "matched_message": {
+    "resource": 49,
+    "resource_file": "0049_type01.bin",
+    "message_index": 0,
+    "glyph_sequence": [1006, 133, 652, 155, 191, 127, 131, 121, 154, 137, 132, 113],
+    "text": "特に変わったところはない",
+    "char_count": 12
+  },
+  "glyph_mappings": {
+    "1006": {
+      "character": "特",
+      "type": "kanji",
+      "reading": "toku",
+      "confidence": "HIGH",
+      "evidence": "Position 0 in '特に変わったところはない'; also appears in msg#102 in context ここ...特に..."
+    },
+    "133": {
+      "character": "に",
+      "type": "hiragana",
+      "reading": "ni",
+      "confidence": "HIGH",
+      "evidence": "Position 1 (particle); appears in msg#102 after 特 (特に); very common particle"
+    },
+    "652": {
+      "character": "変",
+      "type": "kanji",
+      "reading": "hen",
+      "confidence": "HIGH",
+      "evidence": "Position 2; also appears at start of msg#27 as [652,155,191,127,...] = 変わった..."
+    },
+    "155": {
+      "character": "わ",
+      "type": "hiragana",
+      "reading": "wa",
+      "confidence": "HIGH",
+      "evidence": "Position 3; part of 変わった pattern confirmed in msg#27"
+    },
+    "191": {
+      "character": "っ",
+      "type": "hiragana_small",
+      "reading": "small_tsu",
+      "confidence": "HIGH",
+      "evidence": "Position 4; part of った (past tense) pattern; appears frequently before 127(た) in resource 49"
+    },
+    "127": {
+      "character": "た",
+      "type": "hiragana",
+      "reading": "ta",
+      "confidence": "HIGH",
+      "evidence": "Position 5; forms った with 191(っ); confirmed in msg#27 [652,155,191,127] = 変わった and msg#64 ending [191,127,1] = った+space"
+    },
+    "131": {
+      "character": "と",
+      "type": "hiragana",
+      "reading": "to",
+      "confidence": "HIGH",
+      "evidence": "Position 6; part of ところ (tokoro); consistent with frequency rank"
+    },
+    "121": {
+      "character": "こ",
+      "type": "hiragana",
+      "reading": "ko",
+      "confidence": "HIGH",
+      "evidence": "Position 7; part of ところ; confirmed by msg#102 starting [121,121,...] = ここ (here)"
+    },
+    "154": {
+      "character": "ろ",
+      "type": "hiragana",
+      "reading": "ro",
+      "confidence": "HIGH",
+      "evidence": "Position 8; completes ところ (tokoro)"
+    },
+    "137": {
+      "character": "は",
+      "type": "hiragana",
+      "reading": "ha/wa",
+      "confidence": "HIGH",
+      "evidence": "Position 9; topic-marking particle; common in Japanese text"
+    },
+    "132": {
+      "character": "な",
+      "type": "hiragana",
+      "reading": "na",
+      "confidence": "HIGH",
+      "evidence": "Position 10; part of ない (nai = not exist)"
+    },
+    "113": {
+      "character": "い",
+      "type": "hiragana",
+      "reading": "i",
+      "confidence": "HIGH",
+      "evidence": "Position 11 (final); completes ない; rank 5 in MSG frequency (675 occurrences) - consistent with い being extremely common"
+    }
+  },
+  "cross_validation": [
+    {
+      "message": "msg#27 res49",
+      "glyphs": [652, 155, 191, 127, 759, 136, 695, 158, 112, 152],
+      "partial_decode": "変わった[759][136][695][158][112][152]",
+      "validates": ["652=変", "155=わ", "191=っ", "127=た"]
+    },
+    {
+      "message": "msg#102 res49",
+      "glyphs": [121, 121, 168, 120, 1006, 133, 566, 126, 114, 133, 534, 164, 152],
+      "partial_decode": "ここ[168][120]特に[566][126][114]に[534][164][152]",
+      "validates": ["121=こ", "1006=特", "133=に"]
+    },
+    {
+      "message": "msg#64 res49",
+      "glyphs": [198, 240, 156, 647, 191, 127, 1],
+      "partial_decode": "[198][240][156][647]った ",
+      "validates": ["191=っ", "127=た"]
+    }
+  ],
+  "additional_observations": {
+    "glyph_152_period": {
+      "note": "Glyph 152 ends 46.7% of messages in resource 49 - likely 。(Japanese period/maru)",
+      "confidence": "MEDIUM"
+    },
+    "glyph_id_space": {
+      "note": "MSG resources use glyph IDs 0-858+ (up to ~1015 observed in res49). IDs >200 are generally kanji. IDs 86-200 include hiragana and katakana. This is a DIFFERENT mapping than the name-entry screen glyph IDs.",
+      "ascii_range": "0-85 (same as glyph_map_partial.json)",
+      "kana_range": "~86-200 (hiragana and katakana mixed)",
+      "kanji_range": ">200"
+    },
+    "resource_49_context": {
+      "type": "type01",
+      "total_messages": 122,
+      "likely_content": "Dungeon exploration messages (investigation results, trap descriptions, event text)"
+    }
+  }
+}

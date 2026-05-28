@@ -1,0 +1,52 @@
+{
+  "_metadata": {
+    "date": "2026-05-22",
+    "status": "UNVERIFIED",
+    "agent": "visid09",
+    "notes": [
+      "Glyphs 200-399 are NOT confirmed as the hiragana/katakana range.",
+      "Frequency analysis shows the highest-frequency Japanese characters (which must be hiragana particles) are at indices below 200.",
+      "The glyph sheet images are too low-resolution for reliable individual kana identification.",
+      "Individual glyph PNGs (glyphs_v3/) show glyphs 200-383 as nearly blank due to deswizzle issues.",
+      "The actual kana range is estimated to be approximately glyphs 94-345 (hiragana ~177-259, katakana ~260-345).",
+      "These estimates need confirmation via cross-reference analysis or fixed font atlas OCR."
+    ]
+  },
+  "_kana_range_hypothesis": {
+    "hiragana_start": "~177 (uncertain, could be 94-200)",
+    "hiragana_end": "~259 (uncertain)",
+    "hiragana_count": 83,
+    "katakana_start": "~260 (uncertain)",
+    "katakana_end": "~345 (uncertain)",
+    "katakana_count": 86,
+    "ordering": "unknown (likely JIS X 0208 standard, but custom ordering possible)",
+    "confidence": "LOW -- based on frequency analysis only, no visual confirmation"
+  },
+  "_frequency_evidence": {
+    "top_non_ascii_glyphs_by_frequency": {
+      "113": {"count": 675, "likely": "hiragana particle (shi?)"},
+      "136": {"count": 665, "likely": "hiragana particle (ta?)"},
+      "158": {"count": 493, "likely": "hiragana particle (te?)"},
+      "152": {"count": 491, "likely": "hiragana particle (ni?)"},
+      "93":  {"count": 489, "likely": "hiragana particle (na?) -- also last ASCII 's'"},
+      "130": {"count": 480, "likely": "hiragana particle (to?)"},
+      "123": {"count": 451, "likely": "hiragana particle (ka?)"},
+      "132": {"count": 444, "likely": "hiragana particle (ru?)"},
+      "255": {"count": 1075, "likely": "hiragana particle (ha/wa?)"},
+      "note": "These hypothesized mappings are from msg_frequency_analysis.txt and are UNCONFIRMED"
+    }
+  },
+  "_sheet02_observations": {
+    "range": "200-299",
+    "200-214": "very sparse patterns (1-4 lit pixels), likely tile top-fragments",
+    "215-240": "moderate density, possible simple kana or symbols",
+    "240-269": "medium complexity, mixed character types",
+    "270-299": "dense multi-stroke characters, likely transition to kanji"
+  },
+  "_sheet03_observations": {
+    "range": "300-399",
+    "300-369": "very dense complex characters, consistent with kanji NOT katakana",
+    "370-399": "abrupt simplification to horizontal bars, likely tile fragments"
+  },
+  "verified_kana_mappings": {}
+}

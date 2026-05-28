@@ -1,0 +1,50 @@
+{
+  "confirmed": {},
+  "high_confidence": {
+    "419": {"char": "金", "reason": "お金が足りない (not enough money); 所持金 (money on hand)", "examples": ["あら、お金が足りないようですね。", "所持金が不足しています"]},
+    "496": {"char": "所", "reason": "所持金 (money on hand); 場所 (place); confirmed by r43 所持品がいっぱいです", "examples": ["所持金が不足しています", "ここは心身を休め、また新たな力を得る場所。"]},
+    "668": {"char": "持", "reason": "所持金 (money on hand); confirmed by r43 所持品", "examples": ["所持金が不足しています"]},
+    "712": {"char": "足", "reason": "不足 (insufficient) and 足りない (not enough); confirmed by r43 金が足りねえ", "examples": ["所持金が不足しています", "お金が足りないようですね"]},
+    "842": {"char": "宿", "reason": "冒険者の宿 (adventurers inn); 宿泊 (lodging) - matches English guide", "examples": ["冒険者の宿へようこそ。", "宿泊されるのですか。"]},
+    "844": {"char": "泊", "reason": "宿泊 (lodging); お泊り (staying over) - standard inn terminology", "examples": ["宿泊されるのですか。", "お泊りになられますか？"]},
+    "339": {"char": "気", "reason": "お気をつけて (please take care) - standard farewell phrase", "examples": ["どうかお気をつけて。"]},
+    "486": {"char": "冒", "reason": "冒険者 (adventurer) - matches Adventurers Inn context in guide", "examples": ["冒険者の宿へようこそ。"]},
+    "487": {"char": "険", "reason": "冒険者 (adventurer) - second character", "examples": ["冒険者の宿へようこそ。"]},
+    "287": {"char": "者", "reason": "冒険者 (adventurer) - common agent suffix", "examples": ["冒険者の宿へようこそ。"]},
+    "662": {"char": "目", "reason": "目覚めました (awakened) - potential ability system", "examples": ["潜在能力が目覚めました"]},
+    "675": {"char": "覚", "reason": "目覚めました (awakened) - 覚 before め forming 覚める", "examples": ["潜在能力が目覚めました"]},
+    "890": {"char": "越", "reason": "お越しください (please come again) - standard polite farewell", "examples": ["またお越しください。"]},
+    "497": {"char": "出", "reason": "出発 (departure) - もう出発されるのですか", "examples": ["もう出発されるのですか？"]},
+    "661": {"char": "発", "reason": "出発 (departure)", "examples": ["もう出発されるのですか？"]},
+    "498": {"char": "新", "reason": "新たな (new) - 新たな力を得る", "examples": ["また新たな力を得る場所。"]},
+    "845": {"char": "部", "reason": "お部屋 (room) - inn context", "examples": ["お部屋は空いているのでご安心ください。"]},
+    "553": {"char": "屋", "reason": "部屋 (room) - inn context", "examples": ["お部屋は空いているのでご安心ください。"]},
+    "846": {"char": "空", "reason": "空いている (is available/open) - room availability", "examples": ["お部屋は空いているのでご安心ください。"]},
+    "586": {"char": "安", "reason": "ご安心ください (please be at ease) - polite reassurance", "examples": ["ご安心ください。"]}
+  },
+  "medium_confidence": {
+    "320": {"char": "心", "reason": "心身 (mind and body) in msg2; ご安心 in msg4 - dual usage supports this", "examples": ["ここは心身を休め", "ご安心ください"]},
+    "671": {"char": "身", "reason": "心身 (mind and body) - rest mind and body at inn", "examples": ["ここは心身を休め"]},
+    "494": {"char": "休", "reason": "休め (rest) in msg2; 休養 (recuperation) in msg7", "examples": ["ここは心身を休め", "よき休養は翌日への活力"]},
+    "346": {"char": "力", "reason": "新たな力を得る (gain new power); 活力; 潜在能力 - triple usage", "examples": ["また新たな力を得る場所", "翌日への活力", "潜在能力が目覚めました"]},
+    "620": {"char": "得", "reason": "力を得る (gain power) - common verb", "examples": ["新たな力を得る場所"]},
+    "843": {"char": "場", "reason": "場所 (place) - ここは...場所", "examples": ["力を得る場所。"]},
+    "546": {"char": "方", "reason": "される方がおられますね (there is a person who...) - polite form", "examples": ["レベルアップされる方がおられますね。"]},
+    "689": {"char": "潜", "reason": "潜在能力 (potential ability) - Wizardry game mechanic awakened at inn", "examples": ["潜在能力が目覚めました"]},
+    "706": {"char": "在", "reason": "潜在能力 (potential ability)", "examples": ["潜在能力が目覚めました"]},
+    "700": {"char": "能", "reason": "潜在能力 (potential ability)", "examples": ["潜在能力が目覚めました"]},
+    "352": {"char": "養", "reason": "休養 (rest/recuperation) - fits inn context", "examples": ["よき休養は翌日への活力"]},
+    "617": {"char": "翌", "reason": "翌日 (next day) - よき休養は翌日への活力", "examples": ["翌日への活力"]},
+    "702": {"char": "日", "reason": "翌日 (next day)", "examples": ["翌日への活力"]},
+    "774": {"char": "活", "reason": "活力 (vitality) - rest gives vitality for tomorrow", "examples": ["翌日への活力"]}
+  },
+  "low_confidence": {
+    "234": {"char": "レ", "reason": "レベルアップ (level up) - 6 unknown katakana in sequence; common RPG term", "examples": ["レベルアップされる方がおられますね"]},
+    "257": {"char": "ベ", "reason": "レベルアップ (level up)", "examples": ["レベルアップされる方がおられますね"]},
+    "233": {"char": "ル", "reason": "レベルアップ (level up); also メダル in r43", "examples": ["レベルアップされる方がおられますね"]},
+    "193": {"char": "ア", "reason": "レベルアップ (level up)", "examples": ["レベルアップされる方がおられますね"]},
+    "272": {"char": "ッ", "reason": "レベルアップ (level up) - small tsu for gemination", "examples": ["レベルアップされる方がおられますね"]},
+    "261": {"char": "プ", "reason": "レベルアップ (level up)", "examples": ["レベルアップされる方がおられますね"]},
+    "341_CORRECTION": {"char": "不", "reason": "Currently mapped as ン in msg_glyph_map.json but context requires 不 (不足しています); glyph 238 already maps to ン making 341 a duplicate", "examples": ["所持金が不足しています", "メダルが不足しています (r43)"]}
+  }
+}

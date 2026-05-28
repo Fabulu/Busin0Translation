@@ -1,0 +1,797 @@
+[
+  {
+    "resource": 36,
+    "message": 70,
+    "japanese": "アークメイジ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 71,
+    "japanese": "lv１０メイジ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 72,
+    "japanese": "ハイウィザード / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 73,
+    "japanese": "ネクロマンサー / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 74,
+    "japanese": "lv３プリースト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 75,
+    "japanese": "lv５プリーステス / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 76,
+    "japanese": "lv８プリースト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 77,
+    "japanese": "ハイプリースト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 78,
+    "japanese": "マスタープリーステス / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 79,
+    "japanese": "アークプリースト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 80,
+    "japanese": "lv８ビショップ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 81,
+    "japanese": "lv１０ビショップ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 82,
+    "japanese": "アークビショップ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 83,
+    "japanese": "ブルードラゴン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 84,
+    "japanese": "カッパードラゴン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 85,
+    "japanese": "マイナーダイミョウ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 86,
+    "japanese": "メジャーダイミョウ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 87,
+    "japanese": "チャンプサムライ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 88,
+    "japanese": "ハタモト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 89,
+    "japanese": "ショウグン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 90,
+    "japanese": "ホワイトドラゴン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 91,
+    "japanese": "ゴールドドラゴン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 92,
+    "japanese": "スペルデーモン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 93,
+    "japanese": "エルダーデーモン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 94,
+    "japanese": "ゴースト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 95,
+    "japanese": "ライフスティーラー / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 96,
+    "japanese": "デスブリンガー / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 98,
+    "japanese": "エンジェル / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 99,
+    "japanese": "オークキング / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 100,
+    "japanese": "レッドスライム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 101,
+    "japanese": "シルバースライム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 102,
+    "japanese": "フェアリー / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 103,
+    "japanese": "ストーンフライ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 104,
+    "japanese": "スパイラルビートル / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 105,
+    "japanese": "lv３ニンジャ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 106,
+    "japanese": "lv６ニンジャ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 107,
+    "japanese": "lv８ニンジャ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 108,
+    "japanese": "マスターニンジャ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 109,
+    "japanese": "ザ・ハイマスター / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 110,
+    "japanese": "ハイニンジャ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 111,
+    "japanese": "フウマニンジャ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 112,
+    "japanese": " 死 神  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 113,
+    "japanese": "lv１０シーフ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 114,
+    "japanese": "マスターシーフb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 115,
+    "japanese": "ブッシュワッカーb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 116,
+    "japanese": "lv４シーフb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 117,
+    "japanese": "マスターシーフb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 118,
+    "japanese": "ファントムシーフb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 119,
+    "japanese": "lv１０シーフ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 120,
+    "japanese": "マスターシーフc / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 121,
+    "japanese": "lv３ニンジャb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 122,
+    "japanese": "lv６ニンジャb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 123,
+    "japanese": "lv８ニンジャb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 124,
+    "japanese": "マスターニンジャb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 125,
+    "japanese": "ザ・ハイマスターb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 126,
+    "japanese": "ハイニンジャb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 127,
+    "japanese": "フウマニンジャb / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 128,
+    "japanese": "ダフネ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 129,
+    "japanese": "サキュバス / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 130,
+    "japanese": "レプラコーン / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 131,
+    "japanese": "スレイプニル / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 132,
+    "japanese": "リッチ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 133,
+    "japanese": "ストラス / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 134,
+    "japanese": "ケンタウロス / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 135,
+    "japanese": "アシラ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 136,
+    "japanese": "スケディム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 137,
+    "japanese": "マジキム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 138,
+    "japanese": "イムプ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 139,
+    "japanese": "アシラの子 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 140,
+    "japanese": " 強の壁  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 141,
+    "japanese": "アウローラ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 142,
+    "japanese": "オートマター / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 143,
+    "japanese": "スケディム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 144,
+    "japanese": " アシラ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 145,
+    "japanese": " アシラ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 146,
+    "japanese": " アシラ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 147,
+    "japanese": " アシラ  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 148,
+    "japanese": "アシラの子 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 149,
+    "japanese": "アシラの子 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 150,
+    "japanese": "アシラの子 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 151,
+    "japanese": "アシラの子 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 152,
+    "japanese": "フレッシュゴーレム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 153,
+    "japanese": "フレッシュゴーレム / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 154,
+    "japanese": "チキンオーガ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 155,
+    "japanese": "スケディム・ゴースト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 156,
+    "japanese": "マジキム・ゴースト / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 36,
+    "message": 157,
+    "japanese": " 強の壁  / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 1,
+    "japanese": "名前を入力してください。 / 「男名・女名■名前を自動で入力」 / ",
+    "coverage": 96,
+    "unknown_glyphs": [
+      29
+    ]
+  },
+  {
+    "resource": 37,
+    "message": 2,
+    "japanese": "果別を選んでください。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 3,
+    "japanese": "種族を選んでください。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 4,
+    "japanese": "条果を選んでください。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 5,
+    "japanese": "職業を選んでください。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 6,
+    "japanese": "能力値を振り分けてください。 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 7,
+    "japanese": "これでよろしいですか？ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 9,
+    "japanese": "は い / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 10,
+    "japanese": "いいえ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 11,
+    "japanese": "カナ / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 12,
+    "japanese": "かな / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 15,
+    "japanese": "自動 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 16,
+    "japanese": "決復 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 37,
+    "message": 17,
+    "japanese": "あいうえおがぎぐげご / かきくけこざじずぜぞ / さしすせそだぢづでど / たちつてとばびぶべぼ / なにぬねのぱぴぷぺぽ / はひふへほぁぃぅぇぉ / まみむめもっゃゅょ■ / や ゆ よー～    / らりるれろ男男男男男 / わ を ん女女女女女 / ",
+    "coverage": 98,
+    "unknown_glyphs": [
+      192
+    ]
+  },
+  {
+    "resource": 37,
+    "message": 18,
+    "japanese": "アイウエオガギグゲゴ / カキクケコザジズゼゾ / サシスセソダヂヅデド / タチツテトバビブベボ / ナニヌネノパピプペポ / ハヒフヘホァィゥェォ / マミムメモッャュョヴ / ヤ ユ ヨー～    / ラリルレロ男男男男男 / ワ ヲ ン女女女女女 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 0,
+    "japanese": "hp / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 1,
+    "japanese": "hp／mhp / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 3,
+    "japanese": "知恵 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 4,
+    "japanese": "信仰心 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 5,
+    "japanese": "生命力 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 6,
+    "japanese": "敏捷度 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 7,
+    "japanese": "幸運度 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 8,
+    "japanese": "名前 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 9,
+    "japanese": "レベル / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 10,
+    "japanese": "種族 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  },
+  {
+    "resource": 38,
+    "message": 11,
+    "japanese": "果別 / ",
+    "coverage": 100,
+    "unknown_glyphs": []
+  }
+]

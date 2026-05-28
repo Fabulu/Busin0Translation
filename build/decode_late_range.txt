@@ -1,0 +1,242 @@
+import struct, json, os, sys, io
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
+RES_DIR = r'C:/Programmieren/wizardrytranslation/extracted/packdata_resources'
+GLYPH_MAP_PATH = r'C:/Programmieren/wizardrytranslation/data/msg_glyph_map.json'
+OUT_TXT = r'C:/Programmieren/wizardrytranslation/data/untranslated_1371_2654.txt'
+FINDINGS_DIR = r'C:/Programmieren/wizardrytranslation/runs/CLAUDE-RUNS/RUN-20260522-1932-initial-recon/subagents/find-dialogue-late'
+FINDINGS_PATH = os.path.join(FINDINGS_DIR, 'FINDINGS.md')
+
+with open(GLYPH_MAP_PATH, 'r', encoding='utf-8') as f:
+    gmap = json.load(f)
+
+targets = [1371, 1438, 1564, 1610, 1623]
+targets += list(range(1701, 1727))
+targets += [1762, 1891, 1909]
+targets += list(range(2101, 2123))
+targets += [2137, 2156, 2283, 2303, 2325, 2343, 2400, 2401, 2418]
+
+def find_resource_file(idx):
+    prefix = '{:04d}_'.format(idx)
+    for fn in os.listdir(RES_DIR):
+        if fn.startswith(prefix) and fn.endswith('.bin'):
+            return os.path.join(RES_DIR, fn)
+    return None
+
+def extract_messages(data):
+    first_ffff = None
+    for off in range(0, len(data) - 1, 2):
+        val = struct.unpack('>H', data[off:off+2])[0]
+        if val == 0xFFFF:
+            first_ffff = off
+            break
+    if first_ffff is None:
+        return []
+    stream_data = data[first_ffff:]
+    n = len(stream_data) // 2
+    vals = struct.unpack('>{}H'.format(n), stream_data[:n*2])
+    messages = []
+    cur = []
+    for v in vals:
+        if v == 0xFFFF:
+            if cur:
+                messages.append(cur)
+            cur = []
+        elif v == 0xFFFE:
+            cur.append(0xFFFE)
+        elif v >= 0xFFC0:
+            cur.append(v)
+        else:
+            cur.append(v)
+    if cur:
+        messages.append(cur)
+    return messages
+
+def decode_message(glyphs):
+    parts = []
+    for g in glyphs:
+        if g == 0xFFFE:
+            parts.append('\n')
+        elif g >= 0xFFC0:
+            parts.append('<ctrl:{:04X}>'.format(g))
+        elif str(g) in gmap:
+            parts.append(gmap[str(g)])
+        else:
+            parts.append('[{:04X}]'.format(g))
+    return ''.join(parts)
+
+def categorize_resource(res_id, filename, messages):
+    all_text = ''
+    for msg in messages:
+        all_text += decode_message(msg) + ' '
+    if not messages:
+        return 'EMPTY/NO_MSG'
+    has_jp = any(c for c in all_text if '\u3040' <= c <= '\u309F' or '\u30A0' <= c <= '\u30FF' or '\u4E00' <= c <= '\u9FFF')
+    has_ascii = any(c for c in all_text if 'a' <= c <= 'z')
+    if any(kw in all_text for kw in ['ダンジョン', '迷宮', '階', '層', '扉', '罠']):
+        return 'DUNGEON'
+    elif any(kw in all_text for kw in ['攻撃', '戦闘', '魔法', '呪文']):
+        return 'BATTLE'
+    elif any(kw in all_text for kw in ['店', '宿', '買', '売', '泊']):
+        return 'SHOP/INN'
+    elif any(kw in all_text for kw in ['冒険', 'クエスト', '依頼', '報酬']):
+        return 'QUEST'
+    elif any(kw in all_text for kw in ['装備', '武器', '防具', '鎧']):
+        return 'EQUIPMENT'
+    elif has_jp and len(messages) > 3:
+        return 'DIALOGUE'
+    elif has_jp:
+        return 'UI/SYSTEM'
+    elif has_ascii and not has_jp:
+        return 'ASCII_ONLY'
+    else:
+        return 'UNKNOWN'
+
+categories = {}
+lines_out = []
+sep = '=' * 80
+sep2 = '=' * 60
+lines_out.append(sep)
+lines_out.append('UNTRANSLATED MSG RESOURCES: 1371-2654 RANGE')
+lines_out.append(sep)
+lines_out.append('')
+total_messages = 0
+total_unknown_glyphs = set()
+rich_resources = []
+
+for res_id in targets:
+    fp = find_resource_file(res_id)
+    if fp is None:
+        lines_out.append('--- Resource {}: FILE NOT FOUND ---'.format(res_id))
+        continue
+    filename = os.path.basename(fp)
+    with open(fp, 'rb') as f:
+        data = f.read()
+    messages = extract_messages(data)
+    category = categorize_resource(res_id, filename, messages)
+    if category not in categories:
+        categories[category] = []
+    categories[category].append(res_id)
+    total_messages += len(messages)
+    if len(messages) >= 1:
+        rich_resources.append((res_id, len(messages), filename))
+    lines_out.append(sep2)
+    lines_out.append('Resource {} ({}) - {} bytes - {} messages'.format(res_id, filename, len(data), len(messages)))
+    lines_out.append('Category: {}'.format(category))
+    lines_out.append(sep2)
+    if not messages:
+        lines_out.append('  (no decodable messages)')
+        lines_out.append('')
+        continue
+    res_unknowns = set()
+    for msg in messages:
+        for g in msg:
+            if g != 0xFFFE and g < 0xFFC0 and str(g) not in gmap:
+                res_unknowns.add(g)
+                total_unknown_glyphs.add(g)
+    if res_unknowns:
+        lines_out.append('  Unknown glyph IDs: {}'.format(sorted(res_unknowns)))
+    show_count = min(len(messages), 30)
+    for mi in range(show_count):
+        decoded = decode_message(messages[mi])
+        lines_out.append('  MSG[{}]: {}'.format(mi, decoded))
+    if len(messages) > show_count:
+        lines_out.append('  ... ({} more messages)'.format(len(messages) - show_count))
+    lines_out.append('')
+
+lines_out.append('')
+lines_out.append(sep)
+lines_out.append('SUMMARY')
+lines_out.append(sep)
+lines_out.append('Total resources examined: {}'.format(len(targets)))
+lines_out.append('Total messages found: {}'.format(total_messages))
+lines_out.append('Total unique unknown glyph IDs: {}'.format(len(total_unknown_glyphs)))
+lines_out.append('')
+lines_out.append('CATEGORIES:')
+for cat, ids in sorted(categories.items()):
+    lines_out.append('  {}: {} resources -> {}'.format(cat, len(ids), ids))
+lines_out.append('')
+output_text = '\n'.join(lines_out)
+with open(OUT_TXT, 'w', encoding='utf-8') as f:
+    f.write(output_text)
+print('Written to ' + OUT_TXT)
+print('Total resources: {}'.format(len(targets)))
+print('Total messages: {}'.format(total_messages))
+print('Unknown glyphs: {}'.format(len(total_unknown_glyphs)))
+print('Categories:')
+for cat, ids in sorted(categories.items()):
+    print('  {}: {} resources'.format(cat, len(ids)))
+
+# FINDINGS
+os.makedirs(FINDINGS_DIR, exist_ok=True)
+rich_resources.sort(key=lambda x: -x[1])
+findings = []
+findings.append('# Late-Range Untranslated MSG Resources (1371-2654)')
+findings.append('')
+findings.append('## Overview')
+findings.append('- **Resources examined**: {}'.format(len(targets)))
+findings.append('- **Total messages decoded**: {}'.format(total_messages))
+findings.append('- **Unique unknown glyph IDs**: {}'.format(len(total_unknown_glyphs)))
+findings.append('')
+findings.append('## Category Breakdown')
+findings.append('')
+findings.append('| Category | Count | Resource IDs |')
+findings.append('|----------|-------|-------------|')
+for cat, ids in sorted(categories.items()):
+    id_str = ', '.join(str(x) for x in ids[:10])
+    if len(ids) > 10:
+        id_str += ' ... (+{} more)'.format(len(ids)-10)
+    findings.append('| {} | {} | {} |'.format(cat, len(ids), id_str))
+findings.append('')
+findings.append('## Key Findings')
+findings.append('')
+findings.append('### Resources with Most Messages (likely dialogue/UI)')
+findings.append('')
+for res_id, count, fn in rich_resources[:15]:
+    findings.append('- **{}** ({}): {} messages'.format(res_id, fn, count))
+findings.append('')
+findings.append('### Sample Decoded Messages')
+findings.append('')
+sample_resources = [r[0] for r in rich_resources[:5]]
+for res_id in sample_resources:
+    fp = find_resource_file(res_id)
+    with open(fp, 'rb') as f:
+        data = f.read()
+    messages = extract_messages(data)
+    findings.append('#### Resource {}'.format(res_id))
+    findings.append('```')
+    for mi in range(min(5, len(messages))):
+        decoded = decode_message(messages[mi])
+        findings.append('MSG[{}]: {}'.format(mi, decoded))
+    findings.append('```')
+    findings.append('')
+findings.append('### Unknown Glyph Analysis')
+findings.append('')
+if total_unknown_glyphs:
+    sorted_unk = sorted(total_unknown_glyphs)
+    findings.append('Found {} unique unmapped glyph IDs.'.format(len(sorted_unk)))
+    findings.append('Range: {}-{}'.format(min(sorted_unk), max(sorted_unk)))
+    findings.append('')
+    findings.append('These need to be added to msg_glyph_map.json for complete decoding.')
+else:
+    findings.append('All glyphs are mapped - no unknown glyph IDs found.')
+findings.append('')
+findings.append('## Files')
+findings.append('- Full decoded text: data/untranslated_1371_2654.txt')
+findings.append('- Glyph map used: data/msg_glyph_map.json')
+findings_text = '\n'.join(findings)
+with open(FINDINGS_PATH, 'w', encoding='utf-8') as f:
+    f.write(findings_text)
+print('Findings written to ' + FINDINGS_PATH)
+print()
+print('--- SAMPLE MESSAGES ---')
+for res_id in sample_resources[:3]:
+    fp = find_resource_file(res_id)
+    with open(fp, 'rb') as f:
+        data = f.read()
+    messages = extract_messages(data)
+    print('Resource {} ({} messages):'.format(res_id, len(messages)))
+    for mi in range(min(3, len(messages))):
+        decoded = decode_message(messages[mi])
+        print('  MSG[{}]: {}'.format(mi, decoded))
+    print()

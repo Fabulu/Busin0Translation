@@ -1,0 +1,315 @@
+import json
+
+with open("data/msg_glyph_map.json", "r", encoding="utf-8") as f:
+    master = json.load(f)
+original_count = len(master)
+
+proposals = {}
+def add(g, c, conf, agent):
+    gid = str(g)
+    if gid not in proposals: proposals[gid] = []
+    proposals[gid].append((c, conf, agent))
+
+# KATAKANA 193-238
+k = "\u30a2\u30a4\u30a6\u30a8\u30aa\u30ab\u30ad\u30af\u30b1\u30b3\u30b5\u30b7\u30b9\u30bb\u30bd\u30bf\u30c1\u30c4\u30c6\u30c8\u30ca\u30cb\u30cc\u30cd\u30ce\u30cf\u30d2\u30d5\u30d8\u30db\u30de\u30df\u30e0\u30e1\u30e2\u30e4\u30e6\u30e8\u30e9\u30ea\u30eb\u30ec\u30ed\u30ef\u30f2\u30f3"
+for i, ch in enumerate(k):
+    add(193+i, ch, "HIGH", "r38"); add(193+i, ch, "HIGH", "r39"); add(193+i, ch, "HIGH", "r46")
+dk = "\u30ac\u30ae\u30b0\u30b2\u30b4\u30b6\u30b8\u30ba\u30bc\u30be\u30c0\u30c2\u30c5\u30c7\u30c9\u30d0\u30d3\u30d6\u30d9\u30dc"
+for i, ch in enumerate(dk):
+    add(239+i, ch, "HIGH", "r38"); add(239+i, ch, "HIGH", "r39"); add(239+i, ch, "HIGH", "r46")
+hdk = "\u30d1\u30d4\u30d7\u30da\u30dd"
+for i, ch in enumerate(hdk):
+    add(259+i, ch, "HIGH", "r38"); add(259+i, ch, "HIGH", "r39"); add(259+i, ch, "HIGH", "r46")
+sk = "\u30e3\u30e5\u30e7\u30a1\u30a3\u30a5\u30a7\u30a9\u30c3"
+for i, ch in enumerate(sk):
+    add(264+i, ch, "HIGH", "r38"); add(264+i, ch, "HIGH", "r39"); add(264+i, ch, "HIGH", "r46")
+add(273, "\u30f4", "HIGH", "r38"); add(273, "\u30f4", "HIGH", "r39"); add(273, "\u30f4", "HIGH", "r46")
+for g in [193,194,205,208,211,225,227,233,234,252,257,259,261,262,272]:
+    if str(g) in proposals: add(g, proposals[str(g)][0][0], "HIGH", "r47")
+for g in [193,194,211,225,233,234,242,261]:
+    if str(g) in proposals: add(g, proposals[str(g)][0][0], "HIGH", "r43")
+
+for i, ch in enumerate("abcdefghijklmnopqrstuvwxyz"):
+    add(33+i, ch, "HIGH", "r38")
+
+digs = "\uff10\uff11\uff12\uff13\uff14\uff15\uff16\uff17\uff18\uff19"
+for i, ch in enumerate(digs):
+    add(16+i, ch, "HIGH", "r38"); add(16+i, ch, "HIGH", "r46")
+
+add(91, "\u30fb", "HIGH", "r38"); add(39, "\uff27", "HIGH", "r43")
+add(92, "\uff01", "MEDIUM", "r41"); add(92, "\uff01", "MEDIUM", "r47")
+
+kanji_data = [
+    (520,"\u5584","HIGH","r38"),(337,"\u4e2d","HIGH","r38"),(289,"\u60aa","HIGH","r38"),
+    (286,"\u6226","HIGH","r38"),(287,"\u8005","HIGH","r38"),(297,"\u58eb","HIGH","r38"),
+    (401,"\u4f8d","HIGH","r38"),(718,"\u751f","HIGH","r38"),
+    (610,"\u601d","MEDIUM","r38"),(618,"\u8003","MEDIUM","r38"),
+    (700,"\u80fd","MEDIUM","r38"),(346,"\u529b","MEDIUM","r38"),
+    (534,"\u611f","MEDIUM","r38"),(720,"\u5e78","MEDIUM","r38"),(613,"\u8a31","MEDIUM","r38"),
+    (332,"\u88c5","HIGH","r39"),(602,"\u5099","HIGH","r39"),
+    (421,"\u7de8","HIGH","r39"),(621,"\u89e3","HIGH","r39"),(351,"\u9664","HIGH","r39"),
+    (775,"\u56de","HIGH","r39"),(428,"\u5fa9","HIGH","r39"),(855,"\u66f4","HIGH","r39"),
+    (367,"\u884c","HIGH","r39"),(707,"\u9078","HIGH","r39"),(709,"\u5fc5","HIGH","r39"),
+    (710,"\u8981","HIGH","r39"),(712,"\u8db3","HIGH","r39"),(728,"\u5165","HIGH","r39"),
+    (800,"\u66ff","HIGH","r39"),(737,"\u6c7a","HIGH","r39"),(543,"\u4ef2","HIGH","r39"),
+    (544,"\u9593","HIGH","r39"),(572,"\u4f55","HIGH","r39"),(656,"\u8ab0","HIGH","r39"),
+    (693,"\u4eca","HIGH","r39"),(508,"\u90e8","HIGH","r39"),(370,"\u6210","HIGH","r39"),
+    (682,"\u529f","HIGH","r39"),(854,"\u7d44","HIGH","r39"),(767,"\u5185","HIGH","r39"),
+    (768,"\u5bb9","HIGH","r39"),(287,"\u8005","HIGH","r39"),
+    (490,"\u7528","MEDIUM","r39"),(605,"\u6301","MEDIUM","r39"),
+    (666,"\u7570","MEDIUM","r39"),(668,"\u6301","MEDIUM","r39"),
+    (708,"\u629e","MEDIUM","r39"),(316,"\u8077","MEDIUM","r39"),
+    (776,"\u696d","MEDIUM","r39"),(722,"\u5c5e","MEDIUM","r39"),
+    (911,"\u78ba","MEDIUM","r39"),(587,"\u8a8d","MEDIUM","r39"),
+    (839,"\u4e0b","MEDIUM","r39"),(507,"\u5897","MEDIUM","r39"),
+    (339,"\u7d4c","MEDIUM","r39"),(959,"\u9a13","MEDIUM","r39"),
+    (908,"\u6b8b","MEDIUM","r39"),(535,"\u5fcd","MEDIUM","r39"),
+    (486,"\u5192","HIGH","r40"),(487,"\u967a","HIGH","r40"),(287,"\u8005","HIGH","r40"),
+    (491,"\u767b","HIGH","r40"),(492,"\u9332","HIGH","r40"),(379,"\u8ee2","HIGH","r40"),
+    (504,"\u8077","HIGH","r40"),(506,"\u524a","HIGH","r40"),(507,"\u9664","HIGH","r40"),
+    (500,"\u53ec","HIGH","r40"),(501,"\u559a","HIGH","r40"),
+    (707,"\u9078","HIGH","r40"),(708,"\u629e","HIGH","r40"),
+    (549,"\u8ffd","HIGH","r40"),(550,"\u52a0","HIGH","r40"),
+    (797,"\u96e2","HIGH","r40"),(798,"\u8131","HIGH","r40"),
+    (652,"\u5909","HIGH","r40"),(879,"\u66f4","HIGH","r40"),
+    (709,"\u5fc5","HIGH","r40"),(710,"\u8981","HIGH","r40"),
+    (713,"\u540d","HIGH","r40"),(714,"\u524d","HIGH","r40"),
+    (715,"\u9ad8","HIGH","r40"),(716,"\u4f4e","HIGH","r40"),
+    (502,"\u80fd","HIGH","r40"),(503,"\u529b","HIGH","r40"),(517,"\u696d","HIGH","r40"),
+    (300,"\u795e","HIGH","r41"),(340,"\u7acb","HIGH","r41"),(346,"\u529b","HIGH","r41"),
+    (419,"\u91d1","HIGH","r41"),(546,"\u65b9","HIGH","r41"),(550,"\u5929","HIGH","r41"),
+    (709,"\u5fc5","HIGH","r41"),(710,"\u8981","HIGH","r41"),(712,"\u8db3","HIGH","r41"),
+    (742,"\u624b","HIGH","r41"),(834,"\u6cbb","HIGH","r41"),(851,"\u5341","HIGH","r41"),
+    (856,"\u53bb","HIGH","r41"),(867,"\u52a9","HIGH","r41"),
+    (880,"\u4f55","HIGH","r41"),(881,"\u7528","HIGH","r41"),
+    (883,"\u6559","HIGH","r41"),(884,"\u4f1a","HIGH","r41"),
+    (888,"\u5949","HIGH","r41"),(889,"\u9054","HIGH","r41"),(890,"\u8d8a","HIGH","r41"),
+    (891,"\u7642","HIGH","r41"),(892,"\u983c","HIGH","r41"),
+    (285,"\u7f70","HIGH","r41"),(620,"\u4e0b","HIGH","r41"),
+    (338,"\u4eca","MEDIUM","r41"),(344,"\u6094","MEDIUM","r41"),(396,"\u6539","MEDIUM","r41"),
+    (496,"\u6240","MEDIUM","r41"),(668,"\u6301","MEDIUM","r41"),
+    (886,"\u5bfe","MEDIUM","r41"),(887,"\u4fa1","MEDIUM","r41"),
+    (672,"\u65e5","LOW","r41"),(612,"\u6255","LOW","r41"),
+    (287,"\u8005","HIGH","r42"),(339,"\u6c17","HIGH","r42"),(419,"\u91d1","HIGH","r42"),
+    (486,"\u5192","HIGH","r42"),(487,"\u967a","HIGH","r42"),(496,"\u6240","HIGH","r42"),
+    (497,"\u51fa","HIGH","r42"),(498,"\u65b0","HIGH","r42"),(553,"\u5c4b","HIGH","r42"),
+    (586,"\u5b89","HIGH","r42"),(661,"\u767a","HIGH","r42"),(662,"\u76ee","HIGH","r42"),
+    (668,"\u6301","HIGH","r42"),(675,"\u899a","HIGH","r42"),(712,"\u8db3","HIGH","r42"),
+    (842,"\u5bbf","HIGH","r42"),(844,"\u6cca","HIGH","r42"),(845,"\u90e8","HIGH","r42"),
+    (846,"\u7a7a","HIGH","r42"),(890,"\u8d8a","HIGH","r42"),(346,"\u529b","HIGH","r42"),
+    (320,"\u5fc3","MEDIUM","r42"),(352,"\u990a","MEDIUM","r42"),
+    (494,"\u4f11","MEDIUM","r42"),(546,"\u65b9","MEDIUM","r42"),
+    (617,"\u7fcc","MEDIUM","r42"),(620,"\u5f97","MEDIUM","r42"),
+    (671,"\u8eab","MEDIUM","r42"),(689,"\u6f5c","MEDIUM","r42"),
+    (700,"\u80fd","MEDIUM","r42"),(702,"\u65e5","MEDIUM","r42"),
+    (706,"\u5728","MEDIUM","r42"),(774,"\u6d3b","MEDIUM","r42"),
+    (843,"\u5834","MEDIUM","r42"),
+    (419,"\u91d1","HIGH","r43"),(496,"\u6240","HIGH","r43"),
+    (668,"\u6301","HIGH","r43"),(712,"\u8db3","HIGH","r43"),
+    (709,"\u5fc5","HIGH","r43"),(710,"\u8981","HIGH","r43"),
+    (529,"\u4ea4","HIGH","r43"),(906,"\u7df4","HIGH","r43"),(619,"\u7fd2","HIGH","r43"),
+    (786,"\u4f9d","HIGH","r43"),(635,"\u983c","HIGH","r43"),
+    (910,"\u666f","HIGH","r43"),(603,"\u54c1","HIGH","r43"),
+    (908,"\u6b8b","HIGH","r43"),(909,"\u5ff5","HIGH","r43"),
+    (562,"\u81ea","HIGH","r43"),(308,"\u4fe1","HIGH","r43"),
+    (339,"\u6c17","HIGH","r43"),(552,"\u5206","HIGH","r43"),
+    (379,"\u8ee2","HIGH","r43"),(901,"\u5f15","HIGH","r43"),(902,"\u53d7","HIGH","r43"),
+    (911,"\u6574","HIGH","r43"),(587,"\u7406","HIGH","r43"),(415,"\u56de","HIGH","r43"),
+    (855,"\u63db","HIGH","r43"),
+    (350,"\u5f97","HIGH","r44"),(351,"\u6563","HIGH","r44"),
+    (366,"\u5f71","HIGH","r44"),(367,"\u884c","HIGH","r44"),
+    (371,"\u4e0e","HIGH","r44"),(374,"\u5bfe","HIGH","r44"),
+    (419,"\u91d1","HIGH","r44"),(421,"\u5408","HIGH","r44"),
+    (431,"\u52b9","HIGH","r44"),(443,"\u7de8","HIGH","r44"),
+    (496,"\u6240","HIGH","r44"),(511,"\u679c","HIGH","r44"),
+    (603,"\u54c1","HIGH","r44"),(621,"\u89e3","HIGH","r44"),
+    (634,"\u6765","HIGH","r44"),(668,"\u6301","HIGH","r44"),
+    (707,"\u9078","HIGH","r44"),(708,"\u629e","HIGH","r44"),
+    (712,"\u8db3","HIGH","r44"),(722,"\u7372","HIGH","r44"),
+    (728,"\u6210","HIGH","r44"),(780,"\u97ff","HIGH","r44"),
+    (854,"\u7d44","HIGH","r44"),(855,"\u66f4","HIGH","r44"),
+    (920,"\u5f85","HIGH","r44"),(925,"\u5831","HIGH","r44"),
+    (926,"\u916c","HIGH","r44"),(927,"\u7d9a","HIGH","r44"),
+    (929,"\u4f5c","HIGH","r44"),(931,"\u9000","HIGH","r44"),
+    (332,"\u88c5","MEDIUM","r44"),(414,"\u5b50","MEDIUM","r44"),
+    (497,"\u5b9a","MEDIUM","r44"),(500,"\u8ffd","MEDIUM","r44"),
+    (501,"\u52a0","MEDIUM","r44"),(581,"\u58eb","MEDIUM","r44"),
+    (602,"\u5099","MEDIUM","r44"),(647,"\u4f7f","MEDIUM","r44"),
+    (669,"\u5fa1","MEDIUM","r44"),(670,"\u7528","MEDIUM","r44"),
+    (693,"\u4eca","MEDIUM","r44"),(737,"\u6c7a","MEDIUM","r44"),
+    (852,"\u5165","MEDIUM","r44"),(913,"\u8abf","MEDIUM","r44"),(928,"\u8a2d","MEDIUM","r44"),
+    (338,"\u7686","LOW","r44"),(853,"\u52f2","LOW","r44"),(898,"\u7121","LOW","r44"),
+    (319,"\u4eba","HIGH","r46"),(349,"\u5973","HIGH","r46"),(414,"\u5b50","HIGH","r46"),
+    (339,"\u6c17","HIGH","r46"),(497,"\u51fa","HIGH","r46"),(367,"\u884c","HIGH","r46"),
+    (538,"\u8ff7","HIGH","r46"),(573,"\u5bae","HIGH","r46"),(300,"\u795e","HIGH","r46"),
+    (486,"\u5192","HIGH","r46"),(308,"\u4fe1","HIGH","r46"),(892,"\u983c","HIGH","r46"),
+    (415,"\u56de","HIGH","r46"),(413,"\u5fa9","HIGH","r46"),
+    (653,"\u5168","HIGH","r46"),(377,"\u6ec5","HIGH","r46"),
+    (313,"\u6b7b","HIGH","r46"),(516,"\u6027","HIGH","r46"),
+    (574,"\u63a2","HIGH","r46"),(575,"\u7d22","HIGH","r46"),
+    (899,"\u63b2","HIGH","r46"),(900,"\u677f","HIGH","r46"),
+    (904,"\u5546","HIGH","r46"),(956,"\u5e97","HIGH","r46"),
+    (946,"\u60c5","HIGH","r46"),(965,"\u5831","HIGH","r46"),
+    (935,"\u671f","HIGH","r46"),(548,"\u9650","HIGH","r46"),
+    (660,"\u9577","HIGH","r46"),(730,"\u5192","HIGH","r46"),(1014,"\u66f8","HIGH","r46"),
+    (978,"\u968e","HIGH","r46"),(296,"\u738b","HIGH","r46"),(749,"\u8a00","HIGH","r46"),
+    (396,"\u6559","HIGH","r46"),(511,"\u683c","HIGH","r46"),
+    (346,"\u529b","HIGH","r47"),(370,"\u6210","HIGH","r47"),
+    (497,"\u51fa","HIGH","r47"),(498,"\u65b0","HIGH","r47"),
+    (572,"\u4f55","HIGH","r47"),(608,"\u7bb1","HIGH","r47"),
+    (621,"\u5f37","HIGH","r47"),(668,"\u6301","HIGH","r47"),
+    (682,"\u529f","HIGH","r47"),(685,"\u8ffd","HIGH","r47"),
+    (773,"\u7d50","HIGH","r47"),(849,"\u6050","HIGH","r47"),
+    (850,"\u6016","HIGH","r47"),(859,"\u9003","HIGH","r47"),
+    (876,"\u9320","HIGH","r47"),(591,"\u679c","HIGH","r47"),
+    (351,"\u5316","HIGH","r47"),(415,"\u5165","HIGH","r47"),
+    (315,"\u76d7","MEDIUM","r47"),(340,"\u6253","MEDIUM","r47"),
+    (348,"\u76fe","MEDIUM","r47"),(406,"\u5c01","MEDIUM","r47"),
+    (508,"\u7de8","MEDIUM","r47"),(613,"\u8a31","MEDIUM","r47"),
+    (653,"\u5168","MEDIUM","r47"),(661,"\u89e3","MEDIUM","r47"),
+    (833,"\u623b","MEDIUM","r47"),(856,"\u53d6","MEDIUM","r47"),
+    (857,"\u7a81","MEDIUM","r47"),(858,"\u7136","MEDIUM","r47"),
+    (997,"\u54e1","MEDIUM","r47"),(612,"\u96d9","MEDIUM","r47"),
+]
+for g,c,co,ag in kanji_data:
+    add(g,c,co,ag)
+
+resolved = {}; conflicts = {}; low_confidence = {}
+for gid, pl in proposals.items():
+    cg = {}
+    for (ch, co, ag) in pl:
+        if ch not in cg: cg[ch] = {"HIGH":[], "MEDIUM":[], "LOW":[]}
+        cg[ch][co].append(ag)
+    if len(cg) == 1:
+        ch = list(cg.keys())[0]; info = cg[ch]
+        ha = list(set(info["HIGH"])); ma = list(set(info["MEDIUM"])); la = list(set(info["LOW"]))
+        aa = ha+ma+la
+        if len(ha)>=2: resolved[gid]=(ch,"CONFIRMED",aa)
+        elif len(ha)>=1: resolved[gid]=(ch,"HIGH",aa)
+        elif len(ma)>=2: resolved[gid]=(ch,"HIGH",aa)
+        elif len(ma)>=1: resolved[gid]=(ch,"MEDIUM",aa)
+        else: low_confidence[gid]=(ch,aa)
+    else:
+        bc=None; bs=-1; cd=[]
+        for ch, info in cg.items():
+            ha=list(set(info["HIGH"])); ma=list(set(info["MEDIUM"])); la=list(set(info["LOW"]))
+            sc=len(ha)*3+len(ma)+len(la)*0.1
+            cd.append((ch,ha,ma,la,sc))
+            if sc>bs: bs=sc; bc=ch; ba=ha+ma+la
+        conflicts[gid]=cd
+        top=[d for d in cd if d[0]==bc][0]
+        if len(top[1])>=2: resolved[gid]=(bc,"CONFIRMED",ba)
+        elif len(top[1])>=1: resolved[gid]=(bc,"HIGH",ba)
+        elif len(top[2])>=2: resolved[gid]=(bc,"HIGH",ba)
+        elif len(top[2])>=1: resolved[gid]=(bc,"MEDIUM",ba)
+        else: low_confidence[gid]=(bc,ba)
+
+corrections = {
+    "341": ("\u4e0d", "\u30f3", "r41,r42,r43,r44: fu-soku pattern; 238 already = N katakana"),
+    "198": ("\u30ab", "\u9375", "r38 katakana grid; r46 confirms via multiple words"),
+    "369": ("\u898b", "\u660e", "r38+r46: mi-tsukete makes sense; mei-tsukete does not"),
+}
+for gid, (nc,oc,_) in corrections.items(): master[gid]=nc
+
+new_mappings = []
+for gid, (ch, co, ag) in resolved.items():
+    if co in ("CONFIRMED","HIGH"):
+        if gid not in master: master[gid]=ch; new_mappings.append((gid,ch,co,ag))
+        elif master[gid]!=ch and co=="CONFIRMED": new_mappings.append((gid,ch,co,ag)); master[gid]=ch
+for gid, (ch, co, ag) in resolved.items():
+    if co=="MEDIUM" and gid not in master and len(set(ag))>=2:
+        master[gid]=ch; new_mappings.append((gid,ch,"MEDIUM-CORROBORATED",ag))
+
+sm = dict(sorted(master.items(), key=lambda x: int(x[0])))
+fc = len(sm)
+
+with open("data/msg_glyph_map.json", "w", encoding="utf-8") as f:
+    json.dump(sm, f, ensure_ascii=False, indent=2)
+
+lcd = {}
+for gid,(ch,ag) in low_confidence.items():
+    lcd[gid]={"char":ch,"agents":ag,"confidence":"LOW"}
+for gid,(ch,co,ag) in resolved.items():
+    if co=="MEDIUM" and gid not in sm:
+        lcd[gid]={"char":ch,"agents":ag,"confidence":"MEDIUM-SINGLE"}
+with open("data/low_confidence_glyphs.json", "w", encoding="utf-8") as f:
+    json.dump(lcd, f, ensure_ascii=False, indent=2)
+
+L=["# Glyph Map Consolidation Report","",
+"**Date**: 2026-05-22","**Sources**: 9 inference agents (r38, r39, r40, r41, r42, r43, r44, r46, r47)","",
+"## Summary","",
+f"- **Mappings before**: {original_count}",f"- **Mappings after**: {fc}",
+f"- **New mappings added**: {fc-original_count}",f"- **Corrections applied**: {len(corrections)}",
+f"- **Conflicts found**: {len(conflicts)}",f"- **Low-confidence deferred**: {len(lcd)}","",
+"## Corrections Applied","","| Glyph | Old | New | Reason |","|-------|-----|-----|--------|"]
+for gid,(nc,oc,reason) in corrections.items():
+    L.append(f"| {gid} | {oc} | {nc} | {reason} |")
+L+=["","## Major Additions","",
+"### Katakana Grid (193-273)","Complete katakana syllabary: 81 glyphs. Confirmed by r38, r39, r46, r47, r43.","",
+"### Latin Lowercase (33-58)","26 lowercase letters a-z. Verified via English reputation tier names (r38).","",
+"### Fullwidth Digits (16-25)","Complete digit set 0-9. Confirmed by r38 and r46.","",
+"## Conflicts Found and Resolution","","| Glyph | Options | Resolution | Reason |","|-------|---------|------------|--------|"]
+for gid in sorted(conflicts.keys(), key=lambda x: int(x)):
+    detail=conflicts[gid]
+    opts=", ".join([f"{d[0]}({len(d[1])}H/{len(d[2])}M)" for d in detail])
+    w=resolved.get(gid,(sm.get(gid,"?"),))[0]
+    L.append(f"| {gid} | {opts} | {w} | Highest weighted vote |")
+L+=["","### Glyph 341 Resolution","",
+"**Previous**: katakana \u30f3 -- **New**: kanji \u4e0d","",
+"- r41,r42,r43,r44 all found \u6240\u6301\u91d1\u304c[341]\u8db3 = \u4e0d\u8db3 (insufficient)",
+"- Glyph 238 already = \u30f3; 459 already = \u4e0d (font variant duplication confirmed)","",
+"## Low-Confidence Inferences (deferred)","",
+f"{len(lcd)} mappings need additional corroboration:","",
+"| Glyph | Char | Confidence | Agents |","|-------|------|------------|--------|"]
+for gid in sorted(lcd.keys(), key=lambda x: int(x)):
+    info=lcd[gid]
+    L.append(f"| {gid} | {info['char']} | {info['confidence']} | {', '.join(info['agents'])} |")
+L+=["","## New Mappings Added","","| Glyph | Char | Confidence | Sources |","|-------|------|------------|---------|"]
+for entry in sorted(new_mappings, key=lambda x: int(x[0])):
+    L.append(f"| {entry[0]} | {entry[1]} | {entry[2]} | {', '.join(set(entry[3]))} |")
+with open("data/CONSOLIDATION_REPORT.md", "w", encoding="utf-8") as f:
+    f.write("\n".join(L))
+
+hcs=set("\u3042\u3044\u3046\u3048\u304a\u304b\u304d\u304f\u3051\u3053\u3055\u3057\u3059\u305b\u305d\u305f\u3061\u3064\u3066\u3068\u306a\u306b\u306c\u306d\u306e\u306f\u3072\u3075\u3078\u307b\u307e\u307f\u3080\u3081\u3082\u3084\u3086\u3088\u3089\u308a\u308b\u308c\u308d\u308f\u3092\u3093\u304c\u304e\u3050\u3052\u3054\u3056\u3058\u305a\u305c\u305e\u3060\u3062\u3065\u3067\u3069\u3070\u3073\u3076\u3079\u307c\u3071\u3074\u3077\u307a\u307d\u3083\u3085\u3087\u3041\u3043\u3045\u3047\u3049\u3063")
+kcs=set("\u30a2\u30a4\u30a6\u30a8\u30aa\u30ab\u30ad\u30af\u30b1\u30b3\u30b5\u30b7\u30b9\u30bb\u30bd\u30bf\u30c1\u30c4\u30c6\u30c8\u30ca\u30cb\u30cc\u30cd\u30ce\u30cf\u30d2\u30d5\u30d8\u30db\u30de\u30df\u30e0\u30e1\u30e2\u30e4\u30e6\u30e8\u30e9\u30ea\u30eb\u30ec\u30ed\u30ef\u30f0\u30f1\u30f2\u30f3\u30ac\u30ae\u30b0\u30b2\u30b4\u30b6\u30b8\u30ba\u30bc\u30be\u30c0\u30c2\u30c5\u30c7\u30c9\u30d0\u30d3\u30d6\u30d9\u30dc\u30d1\u30d4\u30d7\u30da\u30dd\u30e3\u30e5\u30e7\u30a1\u30a3\u30a5\u30a7\u30a9\u30c3\u30f4\u30fc")
+hi={};ka={};kj={};la={};di={};pu={}
+for gid,ch in sm.items():
+    if ch in hcs: hi[gid]=ch
+    elif ch in kcs: ka[gid]=ch
+    elif ch.isascii() and ch.isalpha(): la[gid]=ch
+    elif ch in "\uff10\uff11\uff12\uff13\uff14\uff15\uff16\uff17\uff18\uff19": di[gid]=ch
+    elif ch in " \u3001\u3002\uff1f\uff5e\u30fb\uff01\uff27": pu[gid]=ch
+    else: kj[gid]=ch
+
+def tbl(d,r):
+    items=sorted(d.items(),key=lambda x:int(x[0]))
+    r.append("| Glyph | Char | Glyph | Char | Glyph | Char | Glyph | Char |")
+    r.append("|-------|------|-------|------|-------|------|-------|------|")
+    for i in range(0,len(items),4):
+        row=""
+        for j in range(4):
+            if i+j<len(items): row+=f"| {items[i+j][0]} | {items[i+j][1]} "
+            else: row+="| | "
+        r.append(row+"|")
+
+R=["# BUSIN 0 MSG Glyph Mapping Reference","",f"**Total mapped: {fc} glyphs**","**Last updated: 2026-05-22**",""]
+R.append(f"## Hiragana ({len(hi)} mapped)");R.append("");tbl(hi,R);R.append("")
+R.append(f"## Katakana ({len(ka)} mapped)");R.append("");tbl(ka,R);R.append("")
+R.append(f"## Latin Lowercase ({len(la)} mapped)");R.append("");tbl(la,R);R.append("")
+R.append(f"## Fullwidth Digits ({len(di)} mapped)");R.append("");tbl(di,R);R.append("")
+R.append(f"## Punctuation & Symbols ({len(pu)} mapped)");R.append("")
+for gid,ch in sorted(pu.items(),key=lambda x:int(x[0])):
+    d=repr(ch) if ch.strip()=="" else ch
+    R.append(f"- Glyph {gid} = {d}")
+R.append("")
+R.append(f"## Kanji ({len(kj)} mapped)");R.append("");tbl(kj,R);R.append("")
+R+=["## Coverage Status","",f"- Hiragana: {len(hi)}",f"- Katakana: {len(ka)} (complete syllabary 193-273)",
+f"- Latin lowercase: {len(la)} (a-z)",f"- Fullwidth digits: {len(di)} (0-9)",
+f"- Kanji: {len(kj)}",f"- Punctuation/symbols: {len(pu)}",f"- **Total: {fc}**"]
+with open("data/GLYPH_MAP_REFERENCE.md", "w", encoding="utf-8") as f:
+    f.write("\n".join(R))
+
+print(f"=== CONSOLIDATION COMPLETE ===")
+print(f"Original: {original_count} | Final: {fc} | New: {fc-original_count}")
+print(f"Corrections: {len(corrections)} | Conflicts: {len(conflicts)} | Low-conf: {len(lcd)}")
+print(f"Hiragana:{len(hi)} Katakana:{len(ka)} Latin:{len(la)} Digits:{len(di)} Kanji:{len(kj)} Punct:{len(pu)}")

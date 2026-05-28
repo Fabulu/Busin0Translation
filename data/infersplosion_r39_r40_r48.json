@@ -1,0 +1,264 @@
+{
+  "_metadata": {
+    "date": "2026-05-22",
+    "method": "Second inference pass with 497-entry base mapping + previous inferences. Contextual analysis of partially-decoded text against English guide (guide_full.txt, latin-1) and Japanese RPG vocabulary. BE uint16 glyph parsing.",
+    "base_map_size": 497,
+    "resources_analyzed": [
+      {
+        "file": "0039_type15.bin",
+        "context": "Party management / equipment menus",
+        "total_msgs": 91,
+        "total_glyphs": 732,
+        "unknowns_before": 30,
+        "unknowns_after": 4
+      },
+      {
+        "file": "0040_type01.bin",
+        "context": "Adventurer's Guild",
+        "total_msgs": 57,
+        "total_glyphs": 753,
+        "unknowns_before": 23,
+        "unknowns_after": 0
+      },
+      {
+        "file": "0048_type01.bin",
+        "context": "Shop upgrades / Vigger Shop names",
+        "total_msgs": 107,
+        "total_glyphs": 663,
+        "unknowns_before": 29,
+        "unknowns_after": 0
+      }
+    ]
+  },
+  "inferred_mappings": {
+    "11": {
+      "char": "\u3000",
+      "type": "control",
+      "confidence": "LOW",
+      "evidence": "R39 MSG 36: standalone single-glyph message in party equipment UI. Likely a UI control code or empty label placeholder."
+    },
+    "15": {
+      "char": "\uff0b",
+      "type": "control",
+      "confidence": "LOW",
+      "evidence": "R39 MSG 38: standalone single-glyph message in party equipment UI. Likely a UI control code or icon placeholder."
+    },
+    "108": {
+      "char": "\uff2c\uff12",
+      "type": "control",
+      "confidence": "LOW",
+      "evidence": "R39 MSG 34: standalone glyph near L1(106)/R1(107) button labels. Likely L2 button label or similar controller icon."
+    },
+    "109": {
+      "char": "\uff32\uff12",
+      "type": "control",
+      "confidence": "LOW",
+      "evidence": "R39 MSG 35: standalone glyph near L1(106)/R1(107) button labels. Likely R2 button label or similar controller icon."
+    },
+    "275": {
+      "char": "\u5c0f",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 8: おんぼろ[275]屋 = おんぼろ小屋 (dilapidated shed). MSG 9/20/44: [275]屋 = 小屋 (shed/hut). Matches guide's SHED and DILAPIDATED SHED."
+    },
+    "354": {
+      "char": "\u4ef0",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R39 MSG 59/66: 信[354]心 forms 信仰心 (faith/piety), a core Wizardry stat (FTH). Cross-confirmed with 320=心 correction."
+    },
+    "385": {
+      "char": "\u5730",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "R48 MSG 98-101/104/106: [385]下の = 地下の (underground). Third instance of 地 glyph (505, 765 already mapped). Fits as final location tier in shop hierarchy."
+    },
+    "411": {
+      "char": "\u753a",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 26-29/37/72: [411]の = 町の (town). Matches guide branch shop location hierarchy: neighborhood < town < city. Occurs 7 times."
+    },
+    "433": {
+      "char": "\u8cea",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 22: [433]屋 = 質屋 (pawn shop). Matches guide's PAWN SHOP which appears at reputation levels 21-61."
+    },
+    "495": {
+      "char": "\u5c02",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 55: [495][960]店 = 専門店 (specialty store). MSG 73: 大手専門店 (major specialty store). MSG 65: 著名専門店 (notable specialty store)."
+    },
+    "524": {
+      "char": "\u5bb6",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 10: [966][524] = 民家 (private home). Matches guide's PRIVATE HOME."
+    },
+    "606": {
+      "char": "\u6709",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 7: ちょう[606]名店 = ちょう有名店 (super famous store). MSG 34: [606]名店 = 有名店 (famous store). 有名 (yuumei = famous/well-known) is a common compound."
+    },
+    "629": {
+      "char": "\u754c",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 89-92/95/97/105: 異[629]の = 異界の (other world). Consistent location prefix for otherworldly branch shops."
+    },
+    "686": {
+      "char": "\u5de8",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 5: 空き地の[686]大ゴミ = 巨大ゴミ (giant garbage). MSG 18: [686]大ゴミ置き場 = 巨大ゴミ置き場 (oversized garbage dump). Matches guide OVERSIZED GARBAGE DUMP."
+    },
+    "697": {
+      "char": "\u5e02",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 43: ぼったくり[697]場 = ぼったくり市場 (ripoff marketplace). MSG 48-51/58/93/94: [697]の as location prefix = 市の (city). Fits hierarchy: 近所 < 町 < 街 < 市."
+    },
+    "744": {
+      "char": "\u713c",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 3/16/28/40/50/61/69/79/91/100: ゴミ[744][1023]場 = ゴミ焼却場 (garbage incineration plant). Matches guide WASTE INCINERATION PLANT."
+    },
+    "755": {
+      "char": "\u90fd",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 59-62/66: [755]の = 都の (capital/metropolis). Fits location hierarchy after 市(city). Occurs 6 times."
+    },
+    "760": {
+      "char": "\u8fd1",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 14-17/25: [760]所の = 近所の (neighborhood). Matches guide NEIGHBORHOOD pattern. Occurs 6 times."
+    },
+    "848": {
+      "char": "\u68d2",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "R48 MSG 63: どろ[848]市場 = どろ棒市場 (thief's market). 泥棒 (dorobou=thief) commonly written with 棒 as ateji. A thief's market fits as a low-reputation shop name."
+    },
+    "873": {
+      "char": "\u7f6e",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 18: 巨大ゴミ[873]き場 = 巨大ゴミ置き場 (garbage storage/dump site). 置き場 (storage place) is standard Japanese."
+    },
+    "894": {
+      "char": "\u7d1a",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 24/57/87/88: 低[894]xxx = 低級xxx (low-grade). R40 MSG 59: 下[894]・上[894] = 下級・上級 (lower/upper grade). Corrects previous LOW-confidence inference of い."
+    },
+    "915": {
+      "char": "\u907a",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "R48 MSG 105: 異界[915][916] likely = 異界遺跡 (otherworld ruins). Following tourist landmark patterns, otherworld ruin fits as ultimate landmark."
+    },
+    "916": {
+      "char": "\u8de1",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "R48 MSG 105: 異界遺[916] = 異界遺跡 (otherworld ruins). Completes 遺跡 (ruins) compound."
+    },
+    "936": {
+      "char": "\u68c4",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 1-2/14/26/38/48/59/67/77/89/98: appears in 不法投[936]場 = 不法投棄場 (illegal dumping ground) and はい[936]品 = 廃棄品 (waste). Matches guide."
+    },
+    "945": {
+      "char": "\u4f4f",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "R48 MSG 21: [945]たく = 住たく = 住宅 (residence/dwelling). Fits guide's RESIDENCE in shop name progression."
+    },
+    "954": {
+      "char": "\u7bc9",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "R48 MSG 30: い法けん[954] likely = 違法建築 (illegal construction) with phonetic rendering. Matches guide's ILLEGAL CONSTRUCTION shop name."
+    },
+    "960": {
+      "char": "\u9580",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 55: 専[960]店 = 専門店 (specialty store). Completes 専門 compound across 3 messages."
+    },
+    "966": {
+      "char": "\u6c11",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 10: [966][524] = 民家 (private home). Matches guide's PRIVATE HOME."
+    },
+    "995": {
+      "char": "\u8457",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 46: [995]名商店 = 著名商店 (notable shop). MSG 96: [995]名デパート = 著名デパート. 著名 (chomei) = notable/famous."
+    },
+    "1017": {
+      "char": "\u56fd",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 67-70/76/86/102/103: [1017]の = 国の (country). Fits hierarchy: 市 < 都 < 国 < 大陸. Occurs 8 times."
+    },
+    "1023": {
+      "char": "\u5374",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 3/16/28/etc: ゴミ焼[1023]場 = ゴミ焼却場 (garbage incineration plant). 却 completes 焼却 (incineration)."
+    }
+  },
+  "corrections": {
+    "314": {
+      "previous_value": "\u968e",
+      "corrected_value": "\u540d",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 85: かん光[314]所 = 観光名所 (tourist landmark). MSG 71: 自まんの[314]店 = 自慢の名店 (famous store). R40 MSG 23: 冒険者登録から[314]前を削除 = 名前を削除 (delete name). 713 already maps to 名 (different font variant). Base map's 階 was incorrect - 978 is the actual 階 glyph."
+    },
+    "320": {
+      "previous_value": "\u82bd",
+      "corrected_value": "\u5fc3",
+      "confidence": "HIGH",
+      "evidence": "R39 MSG 59/66: 信仰[320] must be 信仰心 (faith). R40 MSG 82: [320]のめばえていない = 心のめばえていない (heart hasn't awakened) makes more sense for automata than redundant 芽のめばえ."
+    },
+    "326": {
+      "previous_value": "\u58eb",
+      "corrected_value": "\u6cd5",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 1/14/26/38/48/59/67/77/89/98: 不[326]投棄場 = 不法投棄場 (illegal dumping ground). Matches guide's ILLEGAL DUMPING GROUND. 297 already maps to 士, making 326=士 a suspicious duplicate."
+    },
+    "443": {
+      "previous_value": "\u7de8",
+      "corrected_value": "\u6295",
+      "confidence": "HIGH",
+      "evidence": "R48 MSG 1/14/26/etc: 不法[443]棄場 = 不法投棄場 (illegal dumping ground). 421 already maps to 編, making 443=編 a suspicious duplicate. 投 fits perfectly in 投棄 (dumping)."
+    }
+  },
+  "cross_resource_confirmations": {
+    "348": {
+      "char": "\u5149",
+      "confirmed_from": "R48",
+      "evidence": "R48 MSG 85/94/103: かん[348]名所 = 観光名所 (tourist landmark). Confirms 348=光."
+    },
+    "581": {
+      "char": "\u54c1",
+      "confirmed_from": "R48",
+      "evidence": "R48 MSG 2: はい棄[581]しょ理場 = 廃棄品処理場 (waste disposal site). Confirms 581=品."
+    },
+    "628": {
+      "char": "\u7570",
+      "confirmed_from": "R48",
+      "evidence": "R48 MSG 89-92/95/97: 異界の pattern confirms previous inference of 628=異."
+    }
+  }
+}

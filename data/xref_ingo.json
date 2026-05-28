@@ -1,0 +1,33 @@
+{
+  "confirmed_mappings": {
+    "59": {
+      "char": "イ",
+      "confidence": "HIGH"
+    },
+    "341": {
+      "char": "ン",
+      "confidence": "HIGH"
+    },
+    "61": {
+      "char": "ゴ",
+      "confidence": "HIGH"
+    },
+    "63": {
+      "char": "。",
+      "confidence": "HIGH"
+    }
+  },
+  "control_codes": {
+    "0xFF01": "color start",
+    "0xFFF0": "color end",
+    "0xFFFF": "msg delimiter",
+    "0xFFFE": "line break"
+  },
+  "search": {
+    "ingo_hex": "FF01_003B_0155_003D_FFF0",
+    "found_at": [
+      "0xE2D572",
+      "0xE2D5E2"
+    ]
+  }
+}

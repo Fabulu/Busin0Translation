@@ -1,0 +1,2065 @@
+{
+  "_metadata": {
+    "resource": "0040_type01.bin",
+    "resource_index": 40,
+    "context": "Adventurer Guild party management UI - Busin 0",
+    "total_messages": 84,
+    "total_inferred": 116,
+    "remaining_unknowns": [],
+    "corrections": {
+      "358": {
+        "existing_map_value": "し",
+        "corrected_value": "外",
+        "evidence": "MSG 30/32/33/62/70 all require 外(hazusu). Existing map has し which produces nonsense."
+      }
+    }
+  },
+  "inferred_mappings": {
+    "0": {
+      "character": "[NULL]",
+      "type": "control",
+      "confidence": "LOW",
+      "evidence": "empty messages"
+    },
+    "8": {
+      "character": "（",
+      "type": "symbol",
+      "confidence": "LOW",
+      "evidence": "MSG 59: bracket"
+    },
+    "9": {
+      "character": "）",
+      "type": "symbol",
+      "confidence": "LOW",
+      "evidence": "MSG 59: bracket"
+    },
+    "13": {
+      "character": "‘",
+      "type": "symbol",
+      "confidence": "LOW",
+      "evidence": "MSG 11: quote"
+    },
+    "16": {
+      "character": "[VAR]",
+      "type": "control",
+      "confidence": "LOW",
+      "evidence": "variable placeholder"
+    },
+    "19": {
+      "character": "[NUM]",
+      "type": "control",
+      "confidence": "LOW",
+      "evidence": "number placeholder"
+    },
+    "21": {
+      "character": "[LABEL]",
+      "type": "control",
+      "confidence": "LOW",
+      "evidence": "field label"
+    },
+    "91": {
+      "character": "／",
+      "type": "symbol",
+      "confidence": "LOW",
+      "evidence": "separator"
+    },
+    "106": {
+      "character": "Ｌ",
+      "type": "symbol",
+      "confidence": "LOW",
+      "evidence": "MSG 65: L1 button"
+    },
+    "107": {
+      "character": "Ｒ",
+      "type": "symbol",
+      "confidence": "LOW",
+      "evidence": "MSG 65: R1 button"
+    },
+    "194": {
+      "character": "ア",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "katakana block context"
+    },
+    "200": {
+      "character": "ク",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 83: party rank"
+    },
+    "203": {
+      "character": "サ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 75 context"
+    },
+    "205": {
+      "character": "ス",
+      "type": "katakana",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 12: status"
+    },
+    "208": {
+      "character": "タ",
+      "type": "katakana",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 12: status; MSG 65: button"
+    },
+    "211": {
+      "character": "テ",
+      "type": "katakana",
+      "confidence": "HIGH",
+      "evidence": "party pattern"
+    },
+    "212": {
+      "character": "ト",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 82 context"
+    },
+    "213": {
+      "character": "ナ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 71 context"
+    },
+    "219": {
+      "character": "ヒ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 71 context"
+    },
+    "223": {
+      "character": "マ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 82 context"
+    },
+    "231": {
+      "character": "ラ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 83: party rank"
+    },
+    "232": {
+      "character": "リ",
+      "type": "katakana",
+      "confidence": "HIGH",
+      "evidence": "MSG 25/33/76: leader"
+    },
+    "233": {
+      "character": "ル",
+      "type": "katakana",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 51/57/58: level"
+    },
+    "234": {
+      "character": "レ",
+      "type": "katakana",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 51/57/58: level"
+    },
+    "241": {
+      "character": "ワ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 73 context"
+    },
+    "253": {
+      "character": "ン",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 72 context"
+    },
+    "257": {
+      "character": "ベ",
+      "type": "katakana",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 51: level"
+    },
+    "258": {
+      "character": "ボ",
+      "type": "katakana",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 65: button"
+    },
+    "259": {
+      "character": "パ",
+      "type": "katakana",
+      "confidence": "HIGH",
+      "evidence": "party across many messages"
+    },
+    "272": {
+      "character": "ワ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 73 context"
+    },
+    "287": {
+      "character": "者",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "adventurer"
+    },
+    "308": {
+      "character": "現",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 83: currently"
+    },
+    "320": {
+      "character": "芽",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 82: not yet emerged"
+    },
+    "328": {
+      "character": "速",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 59: speed"
+    },
+    "332": {
+      "character": "魔",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 62/64: magic stone"
+    },
+    "337": {
+      "character": "済",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 29: already completed"
+    },
+    "346": {
+      "character": "ロ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 39/67: slot"
+    },
+    "365": {
+      "character": "一",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 24: together"
+    },
+    "367": {
+      "character": "行",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "MSG 8/18: go/perform"
+    },
+    "379": {
+      "character": "転",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "class change"
+    },
+    "393": {
+      "character": "順",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 55: in order"
+    },
+    "415": {
+      "character": "前",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 21: from previous"
+    },
+    "421": {
+      "character": "合",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 41: dont match"
+    },
+    "486": {
+      "character": "冒",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "adventurer"
+    },
+    "487": {
+      "character": "険",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "adventurer"
+    },
+    "488": {
+      "character": "今",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 4: current party"
+    },
+    "489": {
+      "character": "構",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 4: composition"
+    },
+    "490": {
+      "character": "成",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 4: composition"
+    },
+    "491": {
+      "character": "登",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "registration"
+    },
+    "492": {
+      "character": "録",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "registration"
+    },
+    "497": {
+      "character": "帰",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "MSG 8: going home"
+    },
+    "498": {
+      "character": "冒",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 11/80: adventure"
+    },
+    "499": {
+      "character": "険",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 11/80: adventure"
+    },
+    "500": {
+      "character": "召",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "summon"
+    },
+    "501": {
+      "character": "喚",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "summon"
+    },
+    "502": {
+      "character": "能",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 12: ability"
+    },
+    "503": {
+      "character": "力",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 12: ability"
+    },
+    "504": {
+      "character": "職",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "class change/occupation"
+    },
+    "505": {
+      "character": "地",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 14: basement"
+    },
+    "506": {
+      "character": "削",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "delete"
+    },
+    "507": {
+      "character": "除",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "delete"
+    },
+    "510": {
+      "character": "級",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "rank"
+    },
+    "511": {
+      "character": "件",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "conditions"
+    },
+    "515": {
+      "character": "条",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "conditions"
+    },
+    "517": {
+      "character": "業",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "occupation"
+    },
+    "527": {
+      "character": "順",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 54: in order"
+    },
+    "543": {
+      "character": "本",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 45: really"
+    },
+    "544": {
+      "character": "当",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 45: really"
+    },
+    "546": {
+      "character": "人",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "person"
+    },
+    "547": {
+      "character": "該",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "applicable"
+    },
+    "548": {
+      "character": "当",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "applicable"
+    },
+    "549": {
+      "character": "追",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "MSG 16: party addition"
+    },
+    "550": {
+      "character": "加",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "MSG 16/31: addition/add"
+    },
+    "576": {
+      "character": "同",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 37: same"
+    },
+    "577": {
+      "character": "日",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 21: date"
+    },
+    "579": {
+      "character": "外",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 24: remove"
+    },
+    "589": {
+      "character": "経",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 21: elapsed"
+    },
+    "590": {
+      "character": "緒",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 24: together"
+    },
+    "591": {
+      "character": "頭",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 66: front"
+    },
+    "594": {
+      "character": "動",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 69: move"
+    },
+    "602": {
+      "character": "石",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "magic stone"
+    },
+    "613": {
+      "character": "完",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 22: completion"
+    },
+    "627": {
+      "character": "特",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 80: special"
+    },
+    "653": {
+      "character": "全",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 62: all"
+    },
+    "664": {
+      "character": "装",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 24: equipment"
+    },
+    "676": {
+      "character": "隠",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 70/80: hidden wall"
+    },
+    "691": {
+      "character": "並",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "party sort"
+    },
+    "698": {
+      "character": "送",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 66: fast forward"
+    },
+    "700": {
+      "character": "ス",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "slot"
+    },
+    "702": {
+      "character": "経",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "elapsed"
+    },
+    "703": {
+      "character": "過",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "elapsed"
+    },
+    "704": {
+      "character": "了",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "completion"
+    },
+    "705": {
+      "character": "他",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "other"
+    },
+    "706": {
+      "character": "員",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "member"
+    },
+    "707": {
+      "character": "選",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "select"
+    },
+    "708": {
+      "character": "択",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "select"
+    },
+    "709": {
+      "character": "必",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "necessary"
+    },
+    "710": {
+      "character": "要",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "necessary"
+    },
+    "711": {
+      "character": "ッ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "slot katakana"
+    },
+    "712": {
+      "character": "プ",
+      "type": "katakana",
+      "confidence": "LOW",
+      "evidence": "MSG 40: setup"
+    },
+    "713": {
+      "character": "名",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "name"
+    },
+    "714": {
+      "character": "前",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "name/before"
+    },
+    "715": {
+      "character": "高",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "high level"
+    },
+    "716": {
+      "character": "低",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "low level"
+    },
+    "728": {
+      "character": "入",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "MSG 47: swap in"
+    },
+    "758": {
+      "character": "先",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "target/ahead"
+    },
+    "771": {
+      "character": "遅",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 59: slow"
+    },
+    "773": {
+      "character": "り",
+      "type": "hiragana",
+      "confidence": "LOW",
+      "evidence": "MSG 66: okurigana"
+    },
+    "797": {
+      "character": "離",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "withdrawal"
+    },
+    "798": {
+      "character": "脱",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "withdrawal"
+    },
+    "799": {
+      "character": "替",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "rearrange"
+    },
+    "800": {
+      "character": "替",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 47: swap"
+    },
+    "879": {
+      "character": "更",
+      "type": "kanji",
+      "confidence": "HIGH",
+      "evidence": "change"
+    },
+    "892": {
+      "character": "在",
+      "type": "kanji",
+      "confidence": "LOW",
+      "evidence": "MSG 83: currently"
+    },
+    "893": {
+      "character": "並",
+      "type": "kanji",
+      "confidence": "MEDIUM",
+      "evidence": "arrange"
+    },
+    "894": {
+      "character": "い",
+      "type": "hiragana",
+      "confidence": "LOW",
+      "evidence": "MSG 59: adjective ending"
+    }
+  },
+  "decoded_messages": [
+    {
+      "index": 0,
+      "glyphs": [
+        0
+      ],
+      "decoded": "[NULL]",
+      "unknowns": []
+    },
+    {
+      "index": 1,
+      "glyphs": [
+        149,
+        114,
+        121,
+        126,
+        62,
+        486,
+        487,
+        287,
+        149,
+        1
+      ],
+      "decoded": "ようこそ、冒険者よ ",
+      "unknowns": []
+    },
+    {
+      "index": 2,
+      "glyphs": [
+        0
+      ],
+      "decoded": "[NULL]",
+      "unknowns": []
+    },
+    {
+      "index": 3,
+      "glyphs": [
+        0
+      ],
+      "decoded": "[NULL]",
+      "unknowns": []
+    },
+    {
+      "index": 4,
+      "glyphs": [
+        488,
+        136,
+        259,
+        93,
+        211,
+        268,
+        489,
+        490,
+        136
+      ],
+      "decoded": "今のパーティ構成の",
+      "unknowns": []
+    },
+    {
+      "index": 5,
+      "glyphs": [
+        486,
+        487,
+        287,
+        491,
+        492,
+        156,
+        493,
+        113,
+        130,
+        147,
+        154,
+        114
+      ],
+      "decoded": "冒険者登録を開いてやろう",
+      "unknowns": []
+    },
+    {
+      "index": 6,
+      "glyphs": [
+        0
+      ],
+      "decoded": "[NULL]",
+      "unknowns": []
+    },
+    {
+      "index": 7,
+      "glyphs": [
+        0
+      ],
+      "decoded": "[NULL]",
+      "unknowns": []
+    },
+    {
+      "index": 8,
+      "glyphs": [
+        116,
+        147,
+        62,
+        146,
+        114,
+        497,
+        130,
+        367,
+        119,
+        136,
+        117,
+        31
+      ],
+      "decoded": "おや、もう帰て行くのか？",
+      "unknowns": []
+    },
+    {
+      "index": 9,
+      "glyphs": [
+        0
+      ],
+      "decoded": "[NULL]",
+      "unknowns": []
+    },
+    {
+      "index": 10,
+      "glyphs": [
+        0
+      ],
+      "decoded": "[NULL]",
+      "unknowns": []
+    },
+    {
+      "index": 11,
+      "glyphs": [
+        13,
+        498,
+        499,
+        500,
+        501,
+        13
+      ],
+      "decoded": "‘冒険召喚‘",
+      "unknowns": []
+    },
+    {
+      "index": 12,
+      "glyphs": [
+        502,
+        503,
+        205,
+        211,
+        93,
+        208,
+        205
+      ],
+      "decoded": "能力ステータス",
+      "unknowns": []
+    },
+    {
+      "index": 13,
+      "glyphs": [
+        379,
+        504
+      ],
+      "decoded": "転職",
+      "unknowns": []
+    },
+    {
+      "index": 14,
+      "glyphs": [
+        505,
+        314
+      ],
+      "decoded": "地階",
+      "unknowns": []
+    },
+    {
+      "index": 15,
+      "glyphs": [
+        500,
+        501,
+        506,
+        507
+      ],
+      "decoded": "召喚削除",
+      "unknowns": []
+    },
+    {
+      "index": 16,
+      "glyphs": [
+        259,
+        93,
+        211,
+        268,
+        549,
+        550
+      ],
+      "decoded": "パーティ追加",
+      "unknowns": []
+    },
+    {
+      "index": 17,
+      "glyphs": [
+        259,
+        93,
+        211,
+        268,
+        797,
+        798
+      ],
+      "decoded": "パーティ離脱",
+      "unknowns": []
+    },
+    {
+      "index": 18,
+      "glyphs": [
+        379,
+        504,
+        156,
+        367,
+        113,
+        142,
+        124,
+        63
+      ],
+      "decoded": "転職を行います。",
+      "unknowns": []
+    },
+    {
+      "index": 19,
+      "glyphs": [
+        126,
+        136,
+        546,
+        156,
+        379,
+        504,
+        122,
+        125,
+        152
+      ],
+      "decoded": "その人を転職させる",
+      "unknowns": []
+    },
+    {
+      "index": 20,
+      "glyphs": [
+        547,
+        548,
+        137,
+        112,
+        151,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "該当はありません。",
+      "unknowns": []
+    },
+    {
+      "index": 21,
+      "glyphs": [
+        510,
+        415,
+        136,
+        379,
+        504,
+        577,
+        117,
+        150,
+        19,
+        16,
+        702,
+        703,
+        589
+      ],
+      "decoded": "級前の転職日から[NUM][VAR]経過経",
+      "unknowns": []
+    },
+    {
+      "index": 22,
+      "glyphs": [
+        123,
+        130,
+        113,
+        132,
+        113,
+        127,
+        145,
+        62,
+        379,
+        504,
+        156,
+        613,
+        704,
+        171,
+        118,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "していないため、転職を完了できません。",
+      "unknowns": []
+    },
+    {
+      "index": 23,
+      "glyphs": [
+        486,
+        487,
+        287,
+        491,
+        492,
+        117,
+        150,
+        314,
+        510,
+        156,
+        506,
+        507,
+        123,
+        142,
+        124,
+        63
+      ],
+      "decoded": "冒険者登録から階級を削除します。",
+      "unknowns": []
+    },
+    {
+      "index": 24,
+      "glyphs": [
+        506,
+        507,
+        758,
+        137,
+        365,
+        590,
+        131,
+        664,
+        133,
+        579,
+        125,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "削除先は一緒と装に外せません。",
+      "unknowns": []
+    },
+    {
+      "index": 25,
+      "glyphs": [
+        232,
+        93,
+        249,
+        93,
+        136
+      ],
+      "decoded": "リーダーの",
+      "unknowns": []
+    },
+    {
+      "index": 26,
+      "glyphs": [
+        500,
+        501,
+        506,
+        507,
+        137,
+        171,
+        118,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "召喚削除はできません。",
+      "unknowns": []
+    },
+    {
+      "index": 27,
+      "glyphs": [
+        126,
+        136,
+        546,
+        156,
+        506,
+        507,
+        124,
+        152
+      ],
+      "decoded": "その人を削除する",
+      "unknowns": []
+    },
+    {
+      "index": 28,
+      "glyphs": [
+        547,
+        548,
+        137,
+        112,
+        151,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "該当はありません。",
+      "unknowns": []
+    },
+    {
+      "index": 29,
+      "glyphs": [
+        486,
+        487,
+        133,
+        549,
+        550,
+        337,
+        136,
+        546,
+        137,
+        62
+      ],
+      "decoded": "冒険に追加済の人は、",
+      "unknowns": []
+    },
+    {
+      "index": 30,
+      "glyphs": [
+        142,
+        165,
+        259,
+        93,
+        211,
+        268,
+        117,
+        150,
+        358,
+        123,
+        130,
+        119,
+        168,
+        122,
+        113,
+        63
+      ],
+      "decoded": "まずパーティから外してください。",
+      "unknowns": []
+    },
+    {
+      "index": 31,
+      "glyphs": [
+        259,
+        93,
+        211,
+        268,
+        226,
+        238,
+        254,
+        93,
+        133,
+        550,
+        115,
+        142,
+        124,
+        63
+      ],
+      "decoded": "パーティメンバーに加えます。",
+      "unknowns": []
+    },
+    {
+      "index": 32,
+      "glyphs": [
+        259,
+        93,
+        211,
+        268,
+        226,
+        238,
+        254,
+        93,
+        117,
+        150,
+        358,
+        123,
+        142,
+        124,
+        63
+      ],
+      "decoded": "パーティメンバーから外します。",
+      "unknowns": []
+    },
+    {
+      "index": 33,
+      "glyphs": [
+        232,
+        93,
+        249,
+        93,
+        137,
+        259,
+        93,
+        211,
+        268,
+        117,
+        150,
+        358,
+        125,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "リーダーはパーティから外せません。",
+      "unknowns": []
+    },
+    {
+      "index": 34,
+      "glyphs": [
+        314,
+        510,
+        156,
+        652,
+        879,
+        123,
+        142,
+        124,
+        63
+      ],
+      "decoded": "階級を変更します。",
+      "unknowns": []
+    },
+    {
+      "index": 35,
+      "glyphs": [
+        126,
+        136,
+        546,
+        136,
+        314,
+        510,
+        156,
+        652,
+        879,
+        124,
+        152
+      ],
+      "decoded": "その人の階級を変更する",
+      "unknowns": []
+    },
+    {
+      "index": 36,
+      "glyphs": [
+        547,
+        548,
+        137,
+        112,
+        151,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "該当はありません。",
+      "unknowns": []
+    },
+    {
+      "index": 37,
+      "glyphs": [
+        705,
+        706,
+        131,
+        576,
+        164,
+        504,
+        517,
+        156
+      ],
+      "decoded": "他員と同じ職業を",
+      "unknowns": []
+    },
+    {
+      "index": 38,
+      "glyphs": [
+        707,
+        708,
+        123,
+        130,
+        113,
+        142,
+        124,
+        63
+      ],
+      "decoded": "選択しています。",
+      "unknowns": []
+    },
+    {
+      "index": 39,
+      "glyphs": [
+        379,
+        504,
+        133,
+        709,
+        710,
+        132,
+        700,
+        346,
+        711,
+        158
+      ],
+      "decoded": "転職に必要なスロッが",
+      "unknowns": []
+    },
+    {
+      "index": 40,
+      "glyphs": [
+        341,
+        712,
+        123,
+        130,
+        113,
+        142,
+        124,
+        63
+      ],
+      "decoded": "ンプしています。",
+      "unknowns": []
+    },
+    {
+      "index": 41,
+      "glyphs": [
+        515,
+        511,
+        158,
+        421,
+        155,
+        132,
+        113,
+        127,
+        145
+      ],
+      "decoded": "条件が合わないため",
+      "unknowns": []
+    },
+    {
+      "index": 42,
+      "glyphs": [
+        379,
+        504,
+        171,
+        118,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "転職できません。",
+      "unknowns": []
+    },
+    {
+      "index": 43,
+      "glyphs": [
+        133,
+        379,
+        504,
+        123,
+        142,
+        124,
+        117,
+        31
+      ],
+      "decoded": "に転職しますか？",
+      "unknowns": []
+    },
+    {
+      "index": 44,
+      "glyphs": [
+        133,
+        379,
+        504,
+        123,
+        142,
+        123,
+        127,
+        63
+      ],
+      "decoded": "に転職しました。",
+      "unknowns": []
+    },
+    {
+      "index": 45,
+      "glyphs": [
+        543,
+        544,
+        133,
+        506,
+        507,
+        123,
+        130
+      ],
+      "decoded": "本当に削除して",
+      "unknowns": []
+    },
+    {
+      "index": 46,
+      "glyphs": [
+        149,
+        154,
+        123,
+        113,
+        171,
+        124,
+        117,
+        31
+      ],
+      "decoded": "よろしいですか？",
+      "unknowns": []
+    },
+    {
+      "index": 47,
+      "glyphs": [
+        728,
+        153,
+        800,
+        115,
+        152,
+        226,
+        238,
+        254,
+        93,
+        156
+      ],
+      "decoded": "入れ替えるメンバーを",
+      "unknowns": []
+    },
+    {
+      "index": 48,
+      "glyphs": [
+        707,
+        708,
+        123,
+        130,
+        119,
+        168,
+        122,
+        113,
+        63
+      ],
+      "decoded": "選択してください。",
+      "unknowns": []
+    },
+    {
+      "index": 49,
+      "glyphs": [
+        259,
+        93,
+        211,
+        268,
+        691,
+        799
+      ],
+      "decoded": "パーティ並替",
+      "unknowns": []
+    },
+    {
+      "index": 50,
+      "glyphs": [
+        21,
+        16,
+        713,
+        714
+      ],
+      "decoded": "[LABEL][VAR]名前",
+      "unknowns": []
+    },
+    {
+      "index": 51,
+      "glyphs": [
+        715,
+        234,
+        257,
+        233,
+        714
+      ],
+      "decoded": "高レベル前",
+      "unknowns": []
+    },
+    {
+      "index": 52,
+      "glyphs": [
+        716,
+        234,
+        257,
+        233,
+        714
+      ],
+      "decoded": "低レベル前",
+      "unknowns": []
+    },
+    {
+      "index": 53,
+      "glyphs": [
+        504,
+        517,
+        714
+      ],
+      "decoded": "職業前",
+      "unknowns": []
+    },
+    {
+      "index": 54,
+      "glyphs": [
+        259,
+        93,
+        211,
+        268,
+        226,
+        238,
+        254,
+        93,
+        156,
+        691,
+        799,
+        527,
+        133
+      ],
+      "decoded": "パーティメンバーを並替順に",
+      "unknowns": []
+    },
+    {
+      "index": 55,
+      "glyphs": [
+        799,
+        393,
+        133,
+        893,
+        176,
+        142,
+        124,
+        63
+      ],
+      "decoded": "替順に並べます。",
+      "unknowns": []
+    },
+    {
+      "index": 56,
+      "glyphs": [
+        314,
+        510,
+        136,
+        21,
+        16,
+        713,
+        714,
+        133,
+        893,
+        176,
+        142,
+        124,
+        63
+      ],
+      "decoded": "階級の[LABEL][VAR]名前に並べます。",
+      "unknowns": []
+    },
+    {
+      "index": 57,
+      "glyphs": [
+        715,
+        234,
+        257,
+        233,
+        136,
+        287,
+        117,
+        150,
+        714,
+        133,
+        893,
+        176,
+        142,
+        124,
+        63
+      ],
+      "decoded": "高レベルの者から前に並べます。",
+      "unknowns": []
+    },
+    {
+      "index": 58,
+      "glyphs": [
+        716,
+        234,
+        257,
+        233,
+        714,
+        136,
+        287,
+        117,
+        150,
+        714,
+        133,
+        893,
+        176,
+        142,
+        124,
+        63
+      ],
+      "decoded": "低レベル前の者から前に並べます。",
+      "unknowns": []
+    },
+    {
+      "index": 59,
+      "glyphs": [
+        504,
+        517,
+        8,
+        771,
+        894,
+        91,
+        328,
+        894,
+        91,
+        895,
+        328,
+        894,
+        9,
+        714,
+        133
+      ],
+      "decoded": "職業（遅い／速い／早速い）前に",
+      "unknowns": []
+    },
+    {
+      "index": 60,
+      "glyphs": [
+        893,
+        176,
+        142,
+        124,
+        63
+      ],
+      "decoded": "並べます。",
+      "unknowns": []
+    },
+    {
+      "index": 61,
+      "glyphs": [
+        379,
+        504,
+        124,
+        152,
+        504,
+        517,
+        156,
+        707,
+        708,
+        123,
+        130,
+        119,
+        168,
+        122,
+        113,
+        63
+      ],
+      "decoded": "転職する職業を選択してください。",
+      "unknowns": []
+    },
+    {
+      "index": 62,
+      "glyphs": [
+        332,
+        602,
+        137,
+        653,
+        130,
+        358,
+        122,
+        153,
+        142,
+        124,
+        63
+      ],
+      "decoded": "魔石は全て外されます。",
+      "unknowns": []
+    },
+    {
+      "index": 63,
+      "glyphs": [
+        281,
+        155,
+        153,
+        130,
+        113,
+        152,
+        519,
+        137,
+        379,
+        504,
+        171,
+        118,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "使われている壁は転職できません。",
+      "unknowns": []
+    },
+    {
+      "index": 64,
+      "glyphs": [
+        281,
+        113,
+        136,
+        332,
+        602,
+        156,
+        679,
+        113,
+        130,
+        119,
+        168,
+        122,
+        113,
+        63
+      ],
+      "decoded": "使いの魔石を殿いてください。",
+      "unknowns": []
+    },
+    {
+      "index": 65,
+      "glyphs": [
+        106,
+        258,
+        208,
+        238,
+        117,
+        107,
+        258,
+        208,
+        238,
+        156,
+        116,
+        124,
+        131
+      ],
+      "decoded": "ＬボタンかＲボタンをおすと",
+      "unknowns": []
+    },
+    {
+      "index": 66,
+      "glyphs": [
+        895,
+        698,
+        773,
+        591,
+        140,
+        412,
+        151,
+        142,
+        124,
+        63
+      ],
+      "decoded": "早送り頭へ物ります。",
+      "unknowns": []
+    },
+    {
+      "index": 67,
+      "glyphs": [
+        700,
+        346,
+        711,
+        131,
+        515,
+        511,
+        158,
+        112,
+        155,
+        132,
+        113,
+        127,
+        145
+      ],
+      "decoded": "スロッと条件があわないため",
+      "unknowns": []
+    },
+    {
+      "index": 68,
+      "glyphs": [
+        379,
+        504,
+        171,
+        118,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "転職できません。",
+      "unknowns": []
+    },
+    {
+      "index": 69,
+      "glyphs": [
+        232,
+        93,
+        249,
+        93,
+        158,
+        594,
+        120,
+        132,
+        113,
+        127,
+        145
+      ],
+      "decoded": "リーダーが動けないため",
+      "unknowns": []
+    },
+    {
+      "index": 70,
+      "glyphs": [
+        676,
+        519,
+        156,
+        358,
+        125,
+        142,
+        125,
+        157,
+        63
+      ],
+      "decoded": "隠壁を外せません。",
+      "unknowns": []
+    },
+    {
+      "index": 71,
+      "glyphs": [
+        219,
+        213
+      ],
+      "decoded": "ヒナ",
+      "unknowns": []
+    },
+    {
+      "index": 72,
+      "glyphs": [
+        232,
+        198,
+        233,
+        253
+      ],
+      "decoded": "リ鍵ルン",
+      "unknowns": []
+    },
+    {
+      "index": 73,
+      "glyphs": [
+        241,
+        234,
+        272,
+        241
+      ],
+      "decoded": "ワレワワ",
+      "unknowns": []
+    },
+    {
+      "index": 74,
+      "glyphs": [
+        233,
+        194
+      ],
+      "decoded": "ルア",
+      "unknowns": []
+    },
+    {
+      "index": 75,
+      "glyphs": [
+        203,
+        231
+      ],
+      "decoded": "サラ",
+      "unknowns": []
+    },
+    {
+      "index": 76,
+      "glyphs": [
+        259,
+        93,
+        211,
+        268,
+        232,
+        93,
+        249,
+        93,
+        171,
+        124,
+        63
+      ],
+      "decoded": "パーティリーダーです。",
+      "unknowns": []
+    },
+    {
+      "index": 77,
+      "glyphs": [
+        486,
+        487,
+        287,
+        491,
+        492,
+        149,
+        151,
+        500,
+        501,
+        122,
+        153,
+        127,
+        546,
+        171,
+        124,
+        63
+      ],
+      "decoded": "冒険者登録より召喚された人です。",
+      "unknowns": []
+    },
+    {
+      "index": 78,
+      "glyphs": [
+        112,
+        132,
+        127,
+        136,
+        259,
+        93,
+        211,
+        268,
+        133,
+        62,
+        131,
+        128,
+        184,
+        114,
+        117,
+        150
+      ],
+      "decoded": "あなたのパーティに、とちゅうから",
+      "unknowns": []
+    },
+    {
+      "index": 79,
+      "glyphs": [
+        550,
+        728,
+        122,
+        153,
+        127,
+        546,
+        171,
+        124,
+        63
+      ],
+      "decoded": "加入された人です。",
+      "unknowns": []
+    },
+    {
+      "index": 80,
+      "glyphs": [
+        627,
+        500,
+        501,
+        136,
+        127,
+        145,
+        62,
+        498,
+        499,
+        133,
+        676,
+        519,
+        156
+      ],
+      "decoded": "特召喚のため、冒険に隠壁を",
+      "unknowns": []
+    },
+    {
+      "index": 81,
+      "glyphs": [
+        500,
+        501,
+        124,
+        152,
+        121,
+        131,
+        158,
+        171,
+        118,
+        142,
+        124,
+        63
+      ],
+      "decoded": "召喚することができます。",
+      "unknowns": []
+    },
+    {
+      "index": 82,
+      "glyphs": [
+        320,
+        136,
+        145,
+        173,
+        115,
+        130,
+        113,
+        132,
+        113,
+        197,
+        93,
+        212,
+        223,
+        208,
+        93,
+        137
+      ],
+      "decoded": "芽のめばえていないオートマターは",
+      "unknowns": []
+    },
+    {
+      "index": 83,
+      "glyphs": [
+        308,
+        892,
+        590,
+        91,
+        259,
+        93,
+        211,
+        268,
+        231,
+        238,
+        200,
+        158,
+        112,
+        151,
+        142,
+        125,
+        157
+      ],
+      "decoded": "現在緒／パーティランクがありません",
+      "unknowns": []
+    }
+  ]
+}
