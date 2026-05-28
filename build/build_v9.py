@@ -16,6 +16,13 @@ print("\n=== Step 1: Type-1 injection (v2 pipeline) ===")
 os.system('PYTHONIOENCODING=utf-8 python build/build_full_english_v2.py > /dev/null 2>&1')
 print("  v2 pipeline complete")
 
+# Remove unsafe type-03/06 resources that v2 pipeline incorrectly patches
+for unsafe_r, tc in [(1053, '03'), (1908, '06')]:
+    f = f'build/packdata_resources/{unsafe_r:04d}_type{tc}.raw'
+    if os.path.exists(f):
+        os.remove(f)
+        print(f"  Removed unsafe R{unsafe_r} (type-{tc})")
+
 # ===== STEP 2: Fix problem type-1 resources (R34, R35, R2124, R2654) =====
 print("\n=== Step 2: Fix type-1 FFFF mismatches ===")
 table = json.load(open('data/english_glyph_table.json', encoding='utf-8'))
@@ -31,7 +38,7 @@ for i in range(10):
                 translations[k] = en
     except:
         pass
-for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json']:
+for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json']:
     try:
         d = json.load(open(f'data/translate_chunks/{fix}', encoding='utf-8'))
         for e in d:
@@ -104,7 +111,7 @@ for r_id in [34, 35, 2124, 2654]:
 # ===== STEP 3: R39 custom type-15 injection =====
 print("\n=== Step 3: R39 type-15 injection ===")
 os.system('rm -f build/packdata_resources/0039_type15.raw')
-os.system('PYTHONIOENCODING=utf-8 python /tmp/inject_r39.py 2>/dev/null')
+os.system('PYTHONIOENCODING=utf-8 python build/inject_r39_v2.py 2>/dev/null')
 print("  R39 injected")
 
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
@@ -235,7 +242,43 @@ with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
             break
         pos += rec_len
 
+# ===== STEP 8.4: Patch EXE =====
+print("\n=== Step 8.4: Patch EXE ===")
+os.system('PYTHONIOENCODING=utf-8 python build/patch_exe.py')
+
+# ===== STEP 8.5: Patch EXE into ISO =====
+print("\n=== Step 8.5: Patch EXE ===")
+exe_path = 'build/SLPM_653.78_patched'
+if os.path.exists(exe_path):
+    exe_data = open(exe_path, 'rb').read()
+    with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
+        iso.seek(16 * SECTOR)
+        pvd = iso.read(SECTOR)
+        root_lba = struct.unpack_from('<I', pvd, 158)[0]
+        root_size = struct.unpack_from('<I', pvd, 166)[0]
+        iso.seek(root_lba * SECTOR)
+        root_dir = iso.read(root_size)
+        pos = 0
+        while pos < len(root_dir):
+            rec_len = root_dir[pos]
+            if rec_len == 0:
+                break
+            name_len = root_dir[pos + 32]
+            name = root_dir[pos + 33:pos + 33 + name_len].decode('ascii', errors='replace')
+            if 'SLPM' in name:
+                exe_lba = struct.unpack_from('<I', root_dir, pos + 2)[0]
+                iso.seek(root_lba * SECTOR + pos + 10)
+                iso.write(struct.pack('<I', len(exe_data)))
+                iso.write(struct.pack('>I', len(exe_data)))
+                iso.seek(exe_lba * SECTOR)
+                iso.write(exe_data)
+                print(f"  EXE patched: {len(exe_data):,} bytes at LBA {exe_lba}")
+                break
+            pos += rec_len
+else:
+    print("  No patched EXE found, skipping")
+
 print(f"\n{'=' * 60}")
 print(f"  BUSIN0_EN_v9.iso built ({len(d):,} bytes)")
-print(f"  Variable-size + Section 1 opcode patching")
+print(f"  Variable-size + Section 1 opcode patching + EXE")
 print(f"{'=' * 60}")
