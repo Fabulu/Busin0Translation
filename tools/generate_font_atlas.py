@@ -63,6 +63,32 @@ for slot, char in slot_to_char.items():
     except:
         pass
 
+# ---- MENU TILE INJECTION ----
+# Render English menu labels into glyph slots 683-866
+try:
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    from render_menu_tiles import load_menu_tiles
+    menu_tiles = load_menu_tiles()
+    for glyph_id, tile_pixels in menu_tiles.items():
+        col = glyph_id % COLS
+        row = glyph_id // COLS
+        x0 = col * CELL_W
+        y0 = row * CELL_H
+        if x0 + CELL_W > ATLAS_W or y0 + CELL_H > ATLAS_H:
+            continue
+        # Write grayscale pixels into the atlas image
+        # tile_pixels are 0-255 (0=black/bg, 255=white/text) -- same as atlas convention
+        for dy in range(CELL_H):
+            for dx in range(CELL_W):
+                val = tile_pixels[dy * CELL_W + dx]
+                atlas.putpixel((x0 + dx, y0 + dy), val)
+    print(f"  Injected {len(menu_tiles)} menu tiles into atlas")
+except ImportError as e:
+    print(f"  WARNING: render_menu_tiles not found ({e}), skipping menu tiles")
+except Exception as e:
+    print(f"  WARNING: menu tile injection failed: {e}")
+# ---- END MENU TILE INJECTION ----
+
 # Save preview
 atlas.save(OUTPUT_PNG)
 print(f"Preview saved: {OUTPUT_PNG}")

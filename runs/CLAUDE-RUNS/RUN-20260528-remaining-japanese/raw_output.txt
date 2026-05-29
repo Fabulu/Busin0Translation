@@ -1,0 +1,824 @@
+EXE size: 4185776 bytes (0x3FDEB0)
+Scanning data section 0x3B0000 - 0x3FDEB0...
+
+================================================================================
+SHIFT-JIS STRING SCAN (2+ double-byte chars)
+================================================================================
+  0x3BEE3A     4B    2ch  [JP]   '線樋'
+  0x3C3978     4B    2ch  [JP]  [Table 2C menu structs]  '囮院'
+  0x3C39AA     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C3AC2     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C3CF2     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C3D2A     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C3D62     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C3D9A     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C3DD2     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C4622     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C465A     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C4692     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C46CA     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C4702     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C473A     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3C4772     4B    2ch  [JP]  [Table 2C menu structs]  '沓囮'
+  0x3D7485     4B    2ch  [JP]   '囹埀'
+  0x3D7C78     4B    2ch  [JP]   '囹奧'
+  0x3D7D74     4B    2ch  [JP]   '勦勹'
+  0x3DCFE8     6B    3ch  [JP]   '囮劔劔'
+  0x3DCFF0     6B    3ch  [JP]   '囮劔劔'
+  0x3DE2B2     6B    3ch  [JP]   '疏膵瓩'
+  0x3DE309     4B    2ch  [JP]   '華隆'
+  0x3DE320     4B    2ch  [JP]   '恬狐'
+  0x3EC910    28B   14ch  [JP]   'デバックチェック\u3000！！！！！'
+  0x3EC930    28B   14ch  [JP]   'デバック戦闘だよ\u3000！！！！！'
+  0x3EC950    28B   14ch  [JP]   'デバック戦闘確認\u3000！！！！！'
+  0x3F3634    26B   13ch  [JP]   '壁イベントデータ作成エラー'
+  0x3F3B90    30B   15ch  [JP]   'コールバッファオーバーです！！'
+  0x3F3CE0    20B   10ch  [JP]   'メモリ足りんで〜！！'
+  0x3F3D00    24B   12ch  [JP]   'アイテム数足りんで〜！！'
+  0x3F8150    20B   10ch  [JP]  [near SJIS string 1 (0x3F8240)]  'ガーディアン戦闘！！'
+  0x3F81D0     8B    4ch  [JP]  [near SJIS string 1 (0x3F8240)]  '接触！！'
+  0x3F8240    22B   11ch  [JP]  [near SJIS string 1 (0x3F8240)]  'コンティニューロード！'
+  0x3F8260    24B   12ch  [JP]  [near SJIS string 1 (0x3F8240)]  '取り付ける人がいないよ。'
+  0x3F8EF0    24B   12ch  [JP]   'そのようなＯＴはないです'
+  0x3F9370    22B   11ch  [JP]   'ＢＵＳＩＮ０中断データ'
+  0x3F9678    12B    6ch  [JP]   'ＢＵＳＩＮ０'
+  0x3FC40A     4B    2ch  [JP]   'です'
+  0x3FC720    12B    6ch  [JP]  [near save slot names (0x3FC720)]  'ＢＵＳＩＮ０'
+  0x3FC750    20B   10ch  [JP]  [near save slot names (0x3FC720)]  'ＢＵＳＩＮ０データ１'
+  0x3FC770    20B   10ch  [JP]  [near save slot names (0x3FC720)]  'ＢＵＳＩＮ０データ２'
+  0x3FC790    20B   10ch  [JP]  [near save slot names (0x3FC720)]  'ＢＵＳＩＮ０データ３'
+  0x3FC7F0    16B    8ch  [JP]  [near save slot names (0x3FC720)]  '松野ゲー起動！！'
+
+Total SJIS runs found in data section: 44
+
+================================================================================
+ASCII STRING SCAN (6+ chars, data section, filtered)
+================================================================================
+  0x3DC9C8    20ch   'libdma: sync timeout'
+  0x3DCA58    34ch   'Invalid modion type -- ignored(%d)'
+  0x3DCA80    29ch   '(a) invalid motion_type(%d)-0'
+  0x3DCAA0    29ch   '(b) invalid motion_type(%d)-1'
+  0x3DCAC0    29ch   '(c) invalid motion_type(%d)-2'
+  0x3DCAE0    16ch   'intra && skip MB'
+  0x3DCAF8    25ch   'Error code detected(BDEC)'
+  0x3DCB18    49ch   'Invalid macroblock_address_increment code(0x%08x)'
+  0x3DCB50    28ch   '= Skip to the next picture ='
+  0x3DCB70    37ch   'slice_start_code(0x%08x) out of range'
+  0x3DCB98    25ch   '_sliceA0(): error happens'
+  0x3DCBB8    31ch   'Too many macroblocks in picture'
+  0x3DCBD8    44ch   'skiped macroblock in I picure is not allowed'
+  0x3DCC08    31ch   'Invalid macroblock_type code: 0'
+  0x3DCC58    39ch   'load_chroma_intra_quantizer_matrix == 1'
+  0x3DCC80    43ch   'load_chroma_non_intra_quantizer_matrix == 1'
+  0x3DCCB0    28ch   'odd number of field pictures'
+  0x3DCCD0    26ch   'unknown picture sutructure'
+  0x3DCCF0    39ch   'Too small buffer size for %dx%d picture'
+  0x3DCD40    34ch   'The size of work area is too small'
+  0x3DCD68    27ch   'work area size is too small'
+  0x3DCD88    59ch   'image buffer needs to be aligned to 64byte boundary(0x%08x)'
+  0x3DCDE8    27ch   'the second field is missing'
+  0x3DCE08    14ch   '[MPEG ERROR]%s'
+  0x3DCE18    20ch   'vertical size > 2800'
+  0x3DCE30    33ch   '_chroma_format needs to be 1: 420'
+  0x3DCE58    25ch   'Unsupported profile/level'
+  0x3DCE78    47ch   '_sequenceScalableExtension() is not implemented'
+  0x3DCEA8    17ch   'Unknown Extension'
+  0x3DCEC0    49ch   '_pictureSpatialScalableExtension is not supported'
+  0x3DCEF8    50ch   '_pictureTemporalScalableExtension is not supported'
+  0x3DCF30    32ch   '## internel error in libkernl.a!'
+  0x3DCF58    35ch   'TTY: packet size larger than expect'
+  0x3DCFB0    22ch   'TTY: err ti->wlen=%08x'
+  0x3DD1C0    23ch   "too long parameter '%s'"
+  0x3DD1E0    53ch   '# TLB spad=0 kernel=1:%d default=%d:%d extended=%d:%d'
+  0x3DD268    26ch   'libpad: sceSifSetDma faild'
+  0x3DD288    33ch   'libpad: tPadDma Structure Invalid'
+  0x3DD2B0    32ch   'libpad: Module version mismatch '
+  0x3DD2D8    38ch   '[libpad.a = %d.%d, padman.irx = %d.%d]'
+  0x3DD300    46ch   'libpad: buffer addr is not 64 byte align. %08x'
+  0x3DD330    41ch   'libpad: pad port is already open [%d][%d]'
+  0x3DD3B0     8ch   'COMPLETE'
+  0x3DD3E8    29ch   'Libcdvd bind err CdSearchFile'
+  0x3DD408    21ch   'ee call cmd search %s'
+  0x3DD420    14ch   'search name %s'
+  0x3DD458    37ch   'Ncmd fail sema cur_cmd:%d keep_cmd:%d'
+  0x3DD480    22ch   'Libcdvd bind err N CMD'
+  0x3DD4B8    37ch   'Scmd fail sema cur_cmd:%d keep_cmd:%d'
+  0x3DD4E0    22ch   'Libcdvd bind err S cmd'
+  0x3DD4F8    30ch   'Libcdvd bind err %d CD_Init %d'
+  0x3DD538    28ch   'Libcdvd bind err CdDiskReady'
+  0x3DD598    13ch   'status called'
+  0x3DD5C0    36ch   'libmc: too old release of mcserv.irx'
+  0x3DD5E8    35ch   'libmc: too old release of mcman.irx'
+  0x3DE059    32ch   '         (((((                  '
+  0x3DE330    35ch   '                0000000000000000Inf'
+  0x3DE398    25ch   'bug in vfprintf: bad base'
+  0x3DE590    20ch   'pm0: mtxPktp Is NULL'
+  0x3DE5A8    22ch   'pm0: lightPktp Is NULL'
+  0x3DE5C0    21ch   'pm0: bumpPktp Is NULL'
+  0x3DE5D8    24ch   'pm0: reflectPktp Is NULL'
+  0x3DE660    29ch   'racGlmAllocMemory:Empty Free '
+  0x3DE680    42ch   'racGlmAllocMemory:Empty Memory (0x%x size)'
+  0x3DE6B0    30ch   'racGlmAllocMemory32:Empty Free'
+  0x3DE6D0    44ch   'racGlmAllocMemory32:Empty Memory (0x%x size)'
+  0x3DE700    33ch   'racGlmFreeMemory:Not Bind 0x%xbp '
+  0x3DE780    16ch   'TownMenu Init!!!'
+  0x3DE9C0    19ch   'AllIns Menu Init!!!'
+  0x3DE9E0    21ch   'AllIns ComTex Init!!!'
+  0x3DEC30    17ch   'Guild Npc Load!!!'
+  0x3DED60    27ch   'Potentialty Check(%d/%d)!!!'
+  0x3DEE00    12ch   'Guild End!!!'
+  0x3DEE10    18ch   'Guild Start(%d)!!!'
+  0x3DEE30    16ch   'Guild Set Err!!!'
+  0x3DF1C0    16ch   'Inn Start(%d)!!!'
+  0x3DF1E0    14ch   'Inn Set Err!!!'
+  0x3DF270    26ch   'Temple Start(%d):ID(%d)!!!'
+  0x3DF290    17ch   'Temple Set Err!!!'
+  0x3DF2E0    21ch   'Bar Trap Start(%d)!!!'
+  0x3DF310    23ch   'Bar Notice Start(%d)!!!'
+  0x3DF330    21ch   'Bar Notice Set Err!!!'
+  0x3DF390    24ch   'Bar Request Start(%d)!!!'
+  0x3DF3B0    22ch   'Bar Request Set Err!!!'
+  0x3DF3F0    21ch   'Bar Gift Start(%d)!!!'
+  0x3DF450    23ch   'MagicStone Start(%d)!!!'
+  0x3DF470    21ch   'MagicStone Set Err!!!'
+  0x3DF510    25ch   'Auto PowerUp Start(%d)!!!'
+  0x3DF530    21ch   'MagicStone Set Err!!!'
+  0x3DF580    34ch   'Auto Customize Start(%d):ID(%d)!!!'
+  0x3DF5B0    21ch   'MagicStone Set Err!!!'
+  0x3DF640    26ch   'Shop Judgment Start(%d)!!!'
+  0x3DF660    24ch   'Shop Judgment Set Err!!!'
+  0x3DF6A0    26ch   'Shop Exorcise Start(%d)!!!'
+  0x3DF6C0    24ch   'Shop Exorcise Set Err!!!'
+  0x3DF700    22ch   'Shop Sell Start(%d)!!!'
+  0x3DF720    20ch   'Shop Sell Set Err!!!'
+  0x3DF740    24ch   'Bar History Start(%d)!!!'
+  0x3DF760    22ch   'Bar History Set Err!!!'
+  0x3DF7B0    33ch   'Shop Warehouse-Store Start(%d)!!!'
+  0x3DF7E0    31ch   'Shop Warehouse-Store Set Err!!!'
+  0x3DF840    27ch   'Shop Warehouse Start(%d)!!!'
+  0x3DF860    25ch   'Shop Warehouse Set Err!!!'
+  0x3DF920    23ch   'Shop Order Start(%d)!!!'
+  0x3DF940    21ch   'Shop Order Set Err!!!'
+  0x3DF9A0    30ch   'Shop Shop-Remodel Start(%d)!!!'
+  0x3DF9C0    28ch   'Shop Shop-Remodel Set Err!!!'
+  0x3DFFE0    27ch   'Shop Order Get Start(%d)!!!'
+  0x3E0000    21ch   'Shop Order Set Err!!!'
+  0x3E0040    29ch   'Floor %d, (ex:%f,dun:%f,lv%f)'
+  0x3E0080    23ch   'ArbeitItemReturn!!!(%d)'
+  0x3E0110    24ch   'Shop Arbeit Start(%d)!!!'
+  0x3E0130    22ch   'Shop Arbeit Set Err!!!'
+  0x3E0170    26ch   'Shop Delivery Start(%d)!!!'
+  0x3E0190    24ch   'Shop Delivery Set Err!!!'
+  0x3E01D0    25ch   'Shop Resting Start(%d)!!!'
+  0x3E01F0    23ch   'Shop Resting Set Err!!!'
+  0x3E0240    21ch   'Shop Buy Start(%d)!!!'
+  0x3E0260    19ch   'Shop Buy Set Err!!!'
+  0x3E02A0    21ch   'Efct Composite Set!!!'
+  0x3E9270    23ch   '---MOVE ADDR NULL !!---'
+  0x3E9500    21ch   'Set FloorRate %d(%f) '
+  0x3E9520    59ch   'Dungeon Data Access Error !!!! : no=%d : GetDungeonDataPos.'
+  0x3E9560    67ch   'Dungeon Data Access Error !!!! : no=%d : GetDungeonDataTextEventNo.'
+  0x3E9630    31ch   'Dungeon Wall & Door Init Err!!!'
+  0x3E9660    32ch   'Free Room Tbl Num(%d:%d)/(%x)!!!'
+  0x3E96B0    30ch   'Dungeon Copy GetMax Over!?(%d)'
+  0x3E96D0    23ch   'roomnum%d = %x (Rot:%x)'
+  0x3E9710    17ch   'Floor Not Data!!!'
+  0x3E97D0    26ch   'Dun ALL SE/BGM Btl Stop!!!'
+  0x3E97F0    21ch   'Dun ALL SE/BGM Set!!!'
+  0x3E9830    16ch   'Room Data Nop!!!'
+  0x3E9850    31ch   'Set Room Tbl Num(%d:%d)/(%x)!!!'
+  0x3E98D0    34ch   'DunEffect Set Err Model Null !!!!!'
+  0x3E9900    32ch   'DunEffect Set Err Pos Null !!!!!'
+  0x3E9930    32ch   'DunEffect Set Err ObjMax 0 !!!!!'
+  0x3E9A60    33ch   'Dungeon Way Model Disp Err!!!(%d)'
+  0x3E9A90    34ch   'Dungeon Door Model Disp Err!!!(%d)'
+  0x3E9AC0    27ch   'Dungeon Obj Disp Err!!!(%d)'
+  0x3E9AE0    22ch   'Room Data Nop(Disp)!!!'
+  0x3E9B00    24ch   'Dungeon Room Disp Err!!!'
+  0x3E9CF0    25ch   'Dun Treasure Model Set!!!'
+  0x3E9D10    26ch   'Dun Treasure 2D Img Set!!!'
+  0x3E9DA0    53ch   'Treasure Set Data:ItemKtg=%d,ItemNo=%d,Type=%d(ID:%d)'
+  0x3E9DE0    46ch   'Treasure Get Data MAX Over!!!(Floor=%dF:ID=%d)'
+  0x3E9E40    66ch   'BtlTreasure Set Data0:Itemflg = %x, ItemNo = %d, MonTbl=%d(Mon:%d)'
+  0x3E9E90    66ch   'BtlTreasure Set Data1:Itemflg = %x, ItemNo = %d, MonTbl=%d(Mon:%d)'
+  0x3E9EE0    22ch   'Dun Gimmick Set(%d)!!!'
+  0x3E9FC0    21ch   'Dun EV Obj Set(%d)!!!'
+  0x3EA000    23ch   'Trap PoisonGas Start!!!'
+  0x3EA020    25ch   'Trap PoisonGas Set Err!!!'
+  0x3EA040    22ch   'Trap StoneGas Start!!!'
+  0x3EA060    24ch   'Trap StoneGas Set Err!!!'
+  0x3EA080    21ch   'Trap DarkFog Start!!!'
+  0x3EA0A0    23ch   'Trap DarkFog Set Err!!!'
+  0x3EA0C0    25ch   'Dun Trap Model Set(%d)!!!'
+  0x3EA1C0    30ch   'Trap Set(TrapNo:%d / Lv:%d)!!!'
+  0x3EB680    21ch   'Trap Spear Set Err!!!'
+  0x3EB6A0    22ch   'Dun Shading Set(%d)!!!'
+  0x3EB6E0    22ch   'Trap RoofFall Start!!!'
+  0x3EB700    24ch   'Trap RoofFall Set Err!!!'
+  0x3EB740    22ch   'Trap CrossBow Start!!!'
+  0x3EB760    24ch   'Trap CrossBow Set Err!!!'
+  0x3EB7A0    21ch   'Trap MPDrain Start!!!'
+  0x3EB7C0    23ch   'Trap MPDrain Set Err!!!'
+  0x3EB800    21ch   'Trap Alarm Set Err!!!'
+  0x3EB820    24ch   'Trap Teleporter Start!!!'
+  0x3EB840    26ch   'Trap Teleporter Set Err!!!'
+  0x3EB860    24ch   'Stage4F Fire Work Cut!!!'
+  0x3EB880    24ch   'Stage5F Fire Work Cut!!!'
+  0x3EB8A0    22ch   'Wall Break Work Cut!!!'
+  0x3EB8C0    24ch   'SMGEfct Warp Work Cut!!!'
+  0x3EB900    28ch   'SMGEfct Aurora_U Work Cut!!!'
+  0x3EB920    28ch   'SMGEfct Aurora_D Work Cut!!!'
+  0x3EB940    26ch   'SMGEfct Search Work Cut!!!'
+  0x3EB960    29ch   'SMGEfct T_Protect Work Cut!!!'
+  0x3EB9E0    79ch   'SetPartyWarehouseData_NewItemData : Protector Item Category None : item_no=%d!!'
+  0x3EBD70    66ch   'SetItemData_ItemInfo : Protector Item Category None : item_no=%d!!'
+  0x3EBDC0    68ch   'SetPlayerItem_PlayerNo : Protector Item Category None : item_no=%d!!'
+  0x3EBFB0   100ch   '****** Player Petrify Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EC020   100ch   '****** Player Paralys Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EC090    99ch   '****** Player Poison Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EC100    98ch   '****** Player Sleep Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EC170    88ch   '****** Player Silence Resist : player_no=%d : diff=%d : base_percent=%d : rand=%d ******'
+  0x3EC1D0    97ch   '****** Player Fear Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EC240   103ch   '****** Player MagParalys Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EC2B0   103ch   '****** Player GyzParalys Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EC320   103ch   '****** Player WebParalys Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EC4F0    37ch   'Error( WakuDisp_Size ) : size error!!'
+  0x3EC520    37ch   'Error( WakuDisp_Size ) : type error!!'
+  0x3EC820    28ch   'RandDungeon Set Block!!!(%d)'
+  0x3EC840    26ch   'RandDungeon Max Over!?(%d)'
+  0x3EC860    29ch   'RandDungeon GetMax Over!?(%d)'
+  0x3EC880    26ch   'RandomDungeon Set(%d)!!!!!'
+  0x3EC8A0    32ch   'RandomDungeon Pattern!!!(%ld)!!!'
+  0x3EC8F0    29ch   'Random Room Boss Exit Set(%d)'
+  0x3EC970    20ch   'MT Game Go Battle!!!'
+  0x3EC990    36ch   'Monster Treasure Data Demolition !!!'
+  0x3ECB30    41ch   'Battle Monster Allied Action Data Over !!'
+  0x3ECB60    31ch   'BattleDataMonsterAlliedDataFree'
+  0x3ECC30    35ch   'BattleFieldObjectFree : field_no=%d'
+  0x3ECC60    45ch   'BattleFieldRead : old data kill : field_no=%d'
+  0x3ECC90    49ch   'BattleFieldRead : texture data kill : field_no=%d'
+  0x3ECCF0    29ch   'BattleFieldKill : field_no=%d'
+  0x3ED090    48ch   'SetBattleMainPlayerActionCode : Set Over Error!!'
+  0x3ED0D0    53ch   'SetBattleMainPlayerGroupActionCode : Set Over Error!!'
+  0x3ED110    54ch   'SetBattleMainPlayerGroupActionCode : Group data NULL!!'
+  0x3ED150    57ch   'SetBattleMainPlayerGroupActionCode : Group Datamax Over!!'
+  0x3ED190    54ch   'SetBattleMainPlayerAlliedActionCode : Set Over Error!!'
+  0x3ED1D0    77ch   'SetBattleMainPlayerAlliedActionCode : Battle Command Allied Buff NULL Error!!'
+  0x3ED220    49ch   'SetBattleMainMonsterActionCode : Set Over Error!!'
+  0x3ED260    55ch   'SetBattleMainMonsterAlliedActionCode : Set Over Error!!'
+  0x3ED2A0    79ch   'SetBattleMainMmonsterAlliedActionCode : Battle Command Allied Buff NULL Error!!'
+  0x3ED320    21ch   '/*******************/'
+  0x3ED340    21ch   '/* Battle Turn End */'
+  0x3ED400    47ch   '----- Monster Parameter Gold Data Minus!! -----'
+  0x3ED5B0    86ch   '****** Monster Petrify Resist : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3ED610    86ch   '****** Monster Paralys Resist : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3ED670    85ch   '****** Monster Poison Resist : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3ED6D0    84ch   '****** Monster Sleep Resist : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3ED730    86ch   '****** Monster Silence Resist : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3ED790    89ch   '****** Monster MagParalys Resist : diff=%d : resist=%d : base_percent=%d : rand=%d ******'
+  0x3EDAC0    66ch   'Wk_BattleMonsterModelReadCheck : texture data kill : monster_no=%d'
+  0x3EDB10    58ch   'BattleMonsterModelReadMake : old data kill : monster_no=%d'
+  0x3EDB50    38ch   'BattleMonsterModelKill : monster_no=%d'
+  0x3EDB80    32ch   'BattlePositionKill : stage_no=%d'
+  0x3EDBB0    21ch   'BattleMonsterTblNo=%d'
+  0x3EDBD0    27ch   'entry_no=%d : monster_no=%d'
+  0x3EDBF0    21ch   'tmp    : %d : %d : %d'
+  0x3EDC10    21ch   'backup : %d : %d : %d'
+  0x3EDC30    30ch   'no=%d : level=%d : x=%d : z=%d'
+  0x3EDC80    32ch   '*** Monster Level Data : %2d ***'
+  0x3EDCB0    32ch   '********************************'
+  0x3EDCE0    32ch   '* Not Monster Level Data : %2d *'
+  0x3EDD10    38ch   '*** Monster Level Data [BAT] : %2d ***'
+  0x3EDD40    40ch   '*** Monster Level Data [HUMAN] : %2d ***'
+  0x3EDD70    41ch   '*** Monster Level Data [INSECT] : %2d ***'
+  0x3EDDA0    44ch   '*** Monster Level Data [QUADRUPED] : %2d ***'
+  0x3EDDD0    45ch   '*** Monster Level Data [MINI_HUMAN] : %2d ***'
+  0x3EDE00    38ch   '**************************************'
+  0x3EDE30    38ch   '* Not Monster Level Data [BAT] : %2d *'
+  0x3EDE60    40ch   '****************************************'
+  0x3EDE90    40ch   '* Not Monster Level Data [HUMAN] : %2d *'
+  0x3EDEC0    41ch   '*****************************************'
+  0x3EDEF0    41ch   '* Not Monster Level Data [INSECT] : %2d *'
+  0x3EDF20    44ch   '********************************************'
+  0x3EDF50    44ch   '* Not Monster Level Data [QUADRUPED] : %2d *'
+  0x3EDF80    45ch   '*********************************************'
+  0x3EDFB0    45ch   '* Not Monster Level Data [MINI_HUMAN] : %2d *'
+  0x3EDFE0    23ch   'Acquire Material Over!!'
+  0x3EE150    49ch   'RARE CHECK : max_percent=%d : percent=%d : get=%d'
+  0x3EE190    42ch   'RARE ITEM : monster_no=%d : flg=%d : no=%d'
+  0x3EE1C0    51ch   'NORMAL CHECK : max_percent=%d : percent=%d : get=%d'
+  0x3EE200    39ch   'NORMAL : monster_no=%d : flg=%d : no=%d'
+  0x3EE230    49ch   'MISS CHECK : max_percent=%d : percent=%d : get=%d'
+  0x3EE270    37ch   'MISS : monster_no=%d : flg=%d : no=%d'
+  0x3EE2A0    31ch   '[[[ !!! Set Tresure Item !!!]]]'
+  0x3EE2D0    63ch   '0 : monster_no=%d : flg=%d : no=%d : monster=%d : tresure_no=%d'
+  0x3EE320    63ch   '1 : monster_no=%d : flg=%d : no=%d : monster=%d : tresure_no=%d'
+  0x3EE370    39ch   '---------- Not Treasure : %d ----------'
+  0x3EE3A0    49ch   'BattleCommonEffectKill : FCD_battle_common_effect'
+  0x3EE3E0    42ch   'BattleCommonEffectKill : FCD_battle_weapon'
+  0x3EE410    46ch   'BattleCommonEffectKill : FCD_battle_weapon_add'
+  0x3EE4C0    27ch   'Weapon Make Weapon No  : %d'
+  0x3EE4E0    27ch   'Weapon Make Attack Cnt : %d'
+  0x3EE500    55ch   'Weapon Make Type : BATTLE_EFFECT_WEAPON_MAKETYPE_NORMAL'
+  0x3EE540    53ch   'Weapon Make Type : BATTLE_EFFECT_WEAPON_MAKETYPE_LEFT'
+  0x3EE580    54ch   'Weapon Make Type : BATTLE_EFFECT_WEAPON_MAKETYPE_RIGHT'
+  0x3EE620    36ch   'Two Weapon Make Weapon No  : %d : %d'
+  0x3EE650    36ch   'Two Weapon Make Attack Cnt : %d : %d'
+  0x3EE680    59ch   'Two Weapon Make Type : BATTLE_EFFECT_WEAPON_MAKETYPE_NORMAL'
+  0x3EE6C0    57ch   'Two Weapon Make Type : BATTLE_EFFECT_WEAPON_MAKETYPE_LEFT'
+  0x3EE700    58ch   'Two Weapon Make Type : BATTLE_EFFECT_WEAPON_MAKETYPE_RIGHT'
+  0x3EE760    36ch   'BattleResultFree : FCD_battle_result'
+  0x3EE8D0    20ch   'SEQUENCE MONSTER NO '
+  0x3EE900    38ch   'BattleSequenceDataKill : monster_no=%d'
+  0x3EE930    63ch   'BattleMonsterSequence : MonsterNo=%d : Sequence Data None Err!!'
+  0x3EE980    65ch   'BattleMonsterSequence : VariationNo=%d : Sequence Data None Err!!'
+  0x3F3510    35ch   'TextEventSystemDelete : event_no=%d'
+  0x3F35A0    61ch   '[[[[[ EventRandomCheck : percent=%d : rand=%d : walk=%d ]]]]]'
+  0x3F3600    34ch   '*--------------------------------*'
+  0x3F3660    29ch   'WallEventRead : FCD_wallevent'
+  0x3F3740    31ch   '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+  0x3F3770    31ch   '!!!!!   Event Bgm Chage   !!!!!'
+  0x3F37A0    16ch   'Play BgmNo  = %d'
+  0x3F37C0    16ch   'Play CddaNo = %d'
+  0x3F37E0    21ch   'Backup BgmNo[0] = %d '
+  0x3F3800    20ch   'Backup BgmNo[1] = %d'
+  0x3F3820    20ch   'Backup CddaNo   = %d'
+  0x3F3840    32ch   '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+  0x3F3870    32ch   '!!!!!   Event Bgm Backup   !!!!!'
+  0x3F38A0    33ch   '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+  0x3F38D0    33ch   '!!!!!   Event Cdda Backup   !!!!!'
+  0x3F3900    20ch   '********************'
+  0x3F3920    20ch   '***  Event End   ***'
+  0x3F3940    22ch   '**********************'
+  0x3F3960    22ch   '***  Event Start   ***'
+  0x3F3980    45ch   '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
+  0x3F39B0    45ch   '!!!!!!!!!! TextEventEveAddr = NULL !!!!!!!!!!'
+  0x3F39E0    45ch   '!!!!!!!!!! EventCommandError = %3d !!!!!!!!!!'
+  0x3F3A10    46ch   '----------------------------------------------'
+  0x3F3A40    34ch   '     Event Filter Check Start     '
+  0x3F3A70    40ch   '!!!!!     Event Back Filter ON     !!!!!'
+  0x3F3AA0    43ch   '!!!!!     Event Message Filter ON     !!!!!'
+  0x3F3AD0    40ch   '!!!!!     Event Name Filter ON     !!!!!'
+  0x3F3B00    35ch   '!!!!!     Event Filter ON     !!!!!'
+  0x3F3B30    41ch   '!!!!!     Event Color Filter ON     !!!!!'
+  0x3F3B60    34ch   '     Event Filter Check E n d     '
+  0x3F3D20    33ch   'TextEventMsgLinkSetCnt Over !!!!!'
+  0x3F3D50    38ch   '----- TEXTEVENT XCNTBUF MAX OVER -----'
+  0x3F3D80    48ch   '----- TextEventMsgIdle : ControlPtr = NULL -----'
+  0x3F3DC0    67ch   'FontDispSetCnt Max Over !!! : FontDispSetCnt=%d : FontDispMaxCnt=%d'
+  0x3F3E10    71ch   'Event Message : MessageMax=%d : MessageCnt=%d : FontMax=%d : FontCnt=%d'
+  0x3F3E60    61ch   '----- TextEventImageDrawRequest : prio type none!! : %d -----'
+  0x3F3EA0    51ch   '----- SetTextEventImageData : BufNo Over : %d -----'
+  0x3F3EE0    55ch   '----- SetTextEventImageData : ImageNo Over!! : %d -----'
+  0x3F3F20    53ch   '----- TextEventImageDataClear : BufNo Over : %d -----'
+  0x3F3F60    52ch   '----- TextEventImageDataInit : BufNo Over : %d -----'
+  0x3F3FA0    56ch   '----- TextEventImageDataInit : ImageNo Over!! : %d -----'
+  0x3F3FE0    52ch   '----- TextEventImageDataKill : BufNo Over : %d -----'
+  0x3F4020    57ch   '----- TextEventImageDataKill : Image Data None : %d -----'
+  0x3F4060    36ch   'TextEventImageDataKill : image_no=%d'
+  0x3F4090    41ch   '----- Error ! Error ! Error ! Error -----'
+  0x3F40C0    41ch   '----- TextEvent Image Not Kill : %d -----'
+  0x3F40F0    55ch   '----- GetTextEventImageDataIdle : BufNo Over : %d -----'
+  0x3F4130    60ch   '----- GetTextEventImageDataIdle : Image Data None : %d -----'
+  0x3F4170    58ch   '----- TextEventEffectDataClear : Effect No Over : %d -----'
+  0x3F41B0    56ch   '----- SetTextEventEffectData : Effect No Over : %d -----'
+  0x3F41F0    57ch   '----- TextEventEffectDataKill : Effect No Over : %d -----'
+  0x3F4230    59ch   '----- TextEventEffectDataKill : Effect Data None : %d -----'
+  0x3F4270    38ch   'TextEventEffectDataKill : effect_no=%d'
+  0x3F42A0    42ch   '----- TextEvent Effect Not Kill : %d -----'
+  0x3F42D0    36ch   'CampRead : texture data kill : no=%d'
+  0x3F46B0    20ch   '********************'
+  0x3F46D0    20ch   '***  Camp Kill   ***'
+  0x3F4720    20ch   '***  Camp Make   ***'
+  0x3F4D80    31ch   'Not Dark Magic & Not Prie Magic'
+  0x3F4DB0    43ch   'Not Battle Use Magic : Target Monster Set!!'
+  0x3F5650    54ch   'MagicMake : [0]=%d : [1]=%d : [2]=%d : [3]=%d : [4]=%d'
+  0x3F5690    16ch   'Magic No Error!!'
+  0x3F5A00    39ch   'select_check : [0]=%d : [1]=%d : [2]=%d'
+  0x3F5A30    36ch   'select_no : [0]=%d : [1]=%d : [2]=%d'
+  0x3F5A60    87ch   '****** Player Pipe Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d ******'
+  0x3F5AC0    88ch   '****** Player Grief Resist : player_no=%d : diff=%d : resist=%d : base_percent=%d ******'
+  0x3F5B20    48ch   'Error( AddMenuSystemIndex ) : ImagePtr = NULL !!'
+  0x3F5B60    48ch   'Error( AddMenuSystemIndex ) : info     = NULL !!'
+  0x3F5BA0    57ch   'Error( AddMenuSystemIndex_NoSelect ) : ImagePtr = NULL !!'
+  0x3F5BE0    57ch   'Error( AddMenuSystemIndex_NoSelect ) : info     = NULL !!'
+  0x3F5C20    37ch   '*************************************'
+  0x3F5C50    37ch   '*                                   *'
+  0x3F5C80    37ch   '*          Menu Not Select          *'
+  0x3F5D70    40ch   '*********** Not Entry Select ***********'
+  0x3F5DA0    40ch   '********** No Add Menu System **********'
+  0x3F5DD0    40ch   '*********** Program Menu Idle **********'
+  0x3F5E00    66ch   '*********** SubMenuSystemIndex : DivideIndex No Delete ***********'
+  0x3F5E80    30ch   'MessageDataLoadClose : code=%d'
+  0x3F5EA0    53ch   'EffectSystemGameRead : texture data kill : FCD_haikai'
+  0x3F5EE0    59ch   'EffectSystemGameRead : texture data kill : FCD_effect_mnist'
+  0x3F5F20    65ch   'EffectSystemGameRead : texture data kill : FCD_game_common_effect'
+  0x3F5FD0    45ch   'Get Effect Common Data Pm0 : ID Error : ID=%d'
+  0x3F6000    53ch   'Get Effect Common Data Pm0 : no Error : ID=%d : no=%d'
+  0x3F6040    50ch   'Get Effect Common Data Pm0 : fcd_data none : ID=%d'
+  0x3F6080    53ch   'Get Effect Common Data Pm0 : pm0 none : ID=%d : no=%d'
+  0x3F60C0    45ch   'Get Effect Common Data Opa : ID Error : ID=%d'
+  0x3F60F0    53ch   'Get Effect Common Data Opa : no Error : ID=%d : no=%d'
+  0x3F6130    50ch   'Get Effect Common Data Opa : fcd_data none : ID=%d'
+  0x3F6170    53ch   'Get Effect Common Data Opa : opa none : ID=%d : no=%d'
+  0x3F61B0    45ch   'Get Effect Common Data Xlu : ID Error : ID=%d'
+  0x3F61E0    53ch   'Get Effect Common Data Xlu : no Error : ID=%d : no=%d'
+  0x3F6220    50ch   'Get Effect Common Data Xlu : fcd_data none : ID=%d'
+  0x3F6260    53ch   'Get Effect Common Data Xlu : xlu none : ID=%d : no=%d'
+  0x3F62A0    45ch   'Get Effect Common Data Img : ID Error : ID=%d'
+  0x3F62D0    53ch   'Get Effect Common Data Img : no Error : ID=%d : no=%d'
+  0x3F6310    50ch   'Get Effect Common Data Img : fcd_data none : ID=%d'
+  0x3F6350    53ch   'Get Effect Common Data Img : img none : ID=%d : no=%d'
+  0x3F6390    33ch   'EffectBattleCommonAllFree : no=%d'
+  0x3F63C0    52ch   'Get Effect Battle Common Data Pm0 : ID Error : ID=%d'
+  0x3F6400    60ch   'Get Effect Battle Common Data Pm0 : no Error : ID=%d : no=%d'
+  0x3F6440    57ch   'Get Effect Battle Common Data Pm0 : fcd_data none : ID=%d'
+  0x3F6480    60ch   'Get Effect Battle Common Data Pm0 : pm0 none : ID=%d : no=%d'
+  0x3F64C0    52ch   'Get Effect Battle Common Data Opa : ID Error : ID=%d'
+  0x3F6500    60ch   'Get Effect Battle Common Data Opa : no Error : ID=%d : no=%d'
+  0x3F6540    57ch   'Get Effect Battle Common Data Opa : fcd_data none : ID=%d'
+  0x3F6580    60ch   'Get Effect Battle Common Data Opa : opa none : ID=%d : no=%d'
+  0x3F65C0    52ch   'Get Effect Battle Common Data Xlu : ID Error : ID=%d'
+  0x3F6600    60ch   'Get Effect Battle Common Data Xlu : no Error : ID=%d : no=%d'
+  0x3F6640    57ch   'Get Effect Battle Common Data Xlu : fcd_data none : ID=%d'
+  0x3F6680    60ch   'Get Effect Battle Common Data Xlu : xlu none : ID=%d : no=%d'
+  0x3F66C0    52ch   'Get Effect Battle Common Data Img : ID Error : ID=%d'
+  0x3F6700    60ch   'Get Effect Battle Common Data Img : no Error : ID=%d : no=%d'
+  0x3F6740    57ch   'Get Effect Battle Common Data Img : fcd_data none : ID=%d'
+  0x3F6780    60ch   'Get Effect Battle Common Data Img : img none : ID=%d : no=%d'
+  0x3F67C0    52ch   'Get Effect Battle Common Data Add : ID Error : ID=%d'
+  0x3F6800    60ch   'Get Effect Battle Common Data Add : no Error : ID=%d : no=%d'
+  0x3F6840    57ch   'Get Effect Battle Common Data Add : fcd_data none : ID=%d'
+  0x3F6880    60ch   'Get Effect Battle Common Data Add : add none : ID=%d : no=%d'
+  0x3F68C0    40ch   'Effect Data List Init : ID Error : ID=%d'
+  0x3F68F0    45ch   'Effect Data List Init : fcd_data none : ID=%d'
+  0x3F6920    35ch   'Effect List Load : ID Error : ID=%d'
+  0x3F6950    40ch   'Effect List Load : fcd_data none : ID=%d'
+  0x3F6980    42ch   'Effect List Model Entry : ID Error : ID=%d'
+  0x3F69B0    50ch   'Effect List Model Entry : no Error : ID=%d : no=%d'
+  0x3F69F0    70ch   'Effect List Model Entry : opa bank Error : ID=%d : no=%d : opa_bank=%d'
+  0x3F6A40    47ch   'Effect List Model Entry : fcd_data none : ID=%d'
+  0x3F6A80    48ch   'Effect List Model Entry : Not Model Data : ID=%d'
+  0x3F6AC0    54ch   'Effect List Model Entry : Not Opa Texture Data : ID=%d'
+  0x3F6B00    70ch   'Effect List Model Entry : xlu bank Error : ID=%d : no=%d : xlu_bank=%d'
+  0x3F6B50    54ch   'Effect List Model Entry : Not Xlu Texture Data : ID=%d'
+  0x3F6B90    42ch   'Effect List Image Entry : ID Error : ID=%d'
+  0x3F6BC0    62ch   'Effect List Image Entry : bank Error : ID=%d : no=%d : bank=%d'
+  0x3F6C00    47ch   'Effect List Image Entry : fcd_data none : ID=%d'
+  0x3F6C40    56ch   'Effect List Image Entry : Not Image Texture Data : ID=%d'
+  0x3F6C80    41ch   'Effect List Model Free : ID Error : ID=%d'
+  0x3F6CB0    49ch   'Effect List Model Free : no Error : ID=%d : no=%d'
+  0x3F6CF0    65ch   'Effect List Model Free : bank Error : ID=%d : no=%d : opa_bank=%d'
+  0x3F6D40    65ch   'Effect List Model Free : bank Error : ID=%d : no=%d : xlu_bank=%d'
+  0x3F6D90    46ch   'Effect List Model Free : fcd_data none : ID=%d'
+  0x3F6DC0    27ch   'EffectListModelFree : id=%d'
+  0x3F6DE0    41ch   'Effect List Image Free : ID Error : ID=%d'
+  0x3F6E10    49ch   'Effect List Image Free : no Error : ID=%d : no=%d'
+  0x3F6E50    61ch   'Effect List Image Free : bank Error : ID=%d : no=%d : bank=%d'
+  0x3F6E90    46ch   'Effect List Image Free : fcd_data none : ID=%d'
+  0x3F6EC0    57ch   'Effect List Image Free : Not Entry Data : ID=%d : bank=%d'
+  0x3F6F00    27ch   'EffectListImageFree : id=%d'
+  0x3F6F20    43ch   'Get Effect Data List Pm0 : ID Error : ID=%d'
+  0x3F6F50    51ch   'Get Effect Data List Pm0 : no Error : ID=%d : no=%d'
+  0x3F6F90    48ch   'Get List Effect Data Pm0 : fcd_data none : ID=%d'
+  0x3F6FD0    51ch   'Get List Effect Data Pm0 : pm0 none : ID=%d : no=%d'
+  0x3F7010    43ch   'Get List Effect Data Opa : ID Error : ID=%d'
+  0x3F7040    51ch   'Get Effect Data List Opa : no Error : ID=%d : no=%d'
+  0x3F7080    55ch   'Get Effect Data List Opa : bank Error : ID=%d : bank=%d'
+  0x3F70C0    48ch   'Get Effect Data List Opa : fcd_data none : ID=%d'
+  0x3F7100    51ch   'Get List Effect Data Opa : opa none : ID=%d : no=%d'
+  0x3F7140    43ch   'Get Effect Data List Xlu : ID Error : ID=%d'
+  0x3F7170    51ch   'Get Effect Data List Xlu : no Error : ID=%d : no=%d'
+  0x3F71B0    55ch   'Get Effect Data List Xlu : bank Error : ID=%d : bank=%d'
+  0x3F71F0    48ch   'Get Effect Data List Xlu : fcd_data none : ID=%d'
+  0x3F7230    51ch   'Get List Effect Data Xlu : xlu none : ID=%d : no=%d'
+  0x3F7270    43ch   'Get Effect Data List Img : ID Error : ID=%d'
+  0x3F72A0    51ch   'Get Effect Data List Img : no Error : ID=%d : no=%d'
+  0x3F72E0    55ch   'Get Effect Data List Img : bank Error : ID=%d : bank=%d'
+  0x3F7320    48ch   'Get Effect Data List Img : fcd_data none : ID=%d'
+  0x3F7360    51ch   'Get List Effect Data Img : img none : ID=%d : no=%d'
+  0x3F73A0    38ch   'Get Effect Data Add : ID Error : ID=%d'
+  0x3F73D0    51ch   'Get Effect Data List Add : no Error : ID=%d : no=%d'
+  0x3F7410    48ch   'Get Effect Data List Add : fcd_data none : ID=%d'
+  0x3F7450    51ch   'Get List Effect Data Add : add none : ID=%d : no=%d'
+  0x3F7DA0    50ch   '----- ItemSystemInitError : index=%d : no=%d -----'
+  0x3F7DE0    43ch   '----- ItemSystemRead : ItemIndexError -----'
+  0x3F7E10    40ch   '----- ItemSystemRead : ItemNoError -----'
+  0x3F7E40    35ch   'ItemSystemRead : Data Address Error'
+  0x3F7E70    50ch   'ItemSystemReadAddCnt : image=%p : index=%d : no=%d'
+  0x3F7EB0    44ch   'ItemSystemRead : image=%p : index=%d : no=%d'
+  0x3F7F40    50ch   '----- ItemSystemKillError : index=%d : no=%d -----'
+  0x3F7F80    50ch   'ItemSystemKillSubCnt : image=%p : index=%d : no=%d'
+  0x3F7FC0    44ch   'ItemSystemKill : image=%p : index=%d : no=%d'
+  0x3F7FF0    33ch   'ItemSystemKill : index=%d : no=%d'
+  0x3F8050    54ch   '----- ItemSystemItemImageDisp : index=%d : no=%d -----'
+  0x3F80E0    48ch   '*****   Get Haikai Type Error : tblno=%d   *****'
+  0x3F8170    29ch  [near SJIS string 1 (0x3F8240)]  '-----------------------------'
+  0x3F8190    29ch  [near SJIS string 1 (0x3F8240)]  '---                       ---'
+  0x3F81B0    29ch  [near SJIS string 1 (0x3F8240)]  '--- Guardian Set Max Over ---'
+  0x3F81D7    50ch  [near SJIS string 1 (0x3F8240)]  'I : product = %f : target_product = %f : rand = %d'
+  0x3F8280    24ch  [near SJIS string 1 (0x3F8240)]  'DeathAllKill : FCD_death'
+  0x3F82D0    19ch  [near SJIS string 1 (0x3F8240)]  'Request Tex Init!!!'
+  0x3F82F0    39ch  [near SJIS string 1 (0x3F8240)]  'RequestNoticeDataFree : FCD_notice_data'
+  0x3F8320    30ch  [near SJIS string 1 (0x3F8240)]  'COMPETE MOVE WAIT!!!!!!!!!!!!!'
+  0x3F8340    29ch  [near SJIS string 2 (0x3F8260)]  'COMPETE MOVE END!!!!!!!!!!!!!'
+  0x3F83C0    30ch   'Library Init End & Image Entry'
+  0x3F83E0    23ch   'Library Image Entry End'
+  0x3F8400    23ch   'Library Model Data Load'
+  0x3F8420    41ch   'Library Model Data Load End & Image Entry'
+  0x3F8450    34ch   'Library Model Data Image Entry End'
+  0x3F8C60    24ch   "Can't Connect Mus Device"
+  0x3F8C80    33ch   'Request ProtOpen does not accept.'
+  0x3F8CB0    22ch   'Pad Initialize Failed.'
+  0x3F8CD0    48ch   'Capture Image Buff Free : Not Capture Image Addr'
+  0x3F8D10    53ch   'CaptureImageStoreDrawRequest : Not Capture Image Addr'
+  0x3F8D50    54ch   'CaptureImageScreenDrawRequest : Not Capture Image Addr'
+  0x3F8D90    32ch   'No Suport PSM (asdGrTextureLoad)'
+  0x3F8DC0    32ch   'CapImgSet Memory Noting...(NULL)'
+  0x3F8DF0    25ch   'getGrBuff Is NULL(Over!!)'
+  0x3F8E10    32ch   'No Suport PSM (asdGrTextureLoad)'
+  0x3F8E40    32ch   'CapImgSet Memory Noting...(NULL)'
+  0x3F8ED0    26ch   'Model Init objinfo Miss!!!'
+  0x3F8F40    76ch   'grTexBankStoreImg : bank=%d : bkt_mclient_size = 0x%x : bkt_mclient_cnt = %d'
+  0x3F8F90    36ch   'grTexBankStoreImg : data_size = 0x%x'
+  0x3F8FC0    30ch   'racImgGetHeaderSize = ZERO !!!'
+  0x3F8FE0    22ch   'bkt_mclient = NULL !!!'
+  0x3F9000    75ch   'grTexBankFreeImg : bank=%d : bkt_mclient_size = 0x%x : bkt_mclient_cnt = %d'
+  0x3F9050    35ch   'grTexBankFreeImg : data_size = 0x%x'
+  0x3F9080    26ch   'Tex Comm Header Get Err!!!'
+  0x3F90A0    39ch   'TexDisp Err Info Null!!!(ID:%d / NO:%d)'
+  0x3F90D0    30ch   'TexDisp Err ImgPtr Null!!!(%d)'
+  0x3F92C8    11ch   'BUSIN2-GAME'
+  0x3F92E0    22ch   'Mcrd_DeleteFile(%s)=%d'
+  0x3F9300    22ch   'Mcrd_DeleteName(%s)=%d'
+  0x3F9358    11ch   'BUSIN2-GAME'
+  0x3F93B0    27ch   'MemorySP_DataSize       :%d'
+  0x3F93D0    27ch   'MemorySP_DataSize(Full) :%d'
+  0x3F93F0    28ch   'Check MemoryDataSize(All):%d'
+  0x3F94A8    11ch   'BUSIN2-GAME'
+  0x3F9560    27ch   'MemoryData Normal   Size:%d'
+  0x3F9580    27ch   'MemoryData BreakOff Size:%d'
+  0x3F96D0     6ch   'no03_a'
+  0x3F96D8     6ch   'no03_b'
+  0x3FC230    22ch   'cdrom0:\\IOPRP254.IMG;1'
+  0x3FC250    18ch   'Load Iop Module %s'
+  0x3FC280    21ch   'cdrom0:\\SIO2MAN.IRX;1'
+  0x3FC2A0    20ch   'cdrom0:\\PADMAN.IRX;1'
+  0x3FC2E0    20ch   'cdrom0:\\MCSERV.IRX;1'
+  0x3FC320    21ch   'cdrom0:\\MODMIDI.IRX;1'
+  0x3FC340    21ch   'cdrom0:\\MODHSYN.IRX;1'
+  0x3FC360    21ch   'cdrom0:\\MODMSIN.IRX;1'
+  0x3FC3D0    44ch   'LoadOpen:Resorce Memory Empty(GetSize = %xH)'
+  0x3FC420    32ch   'LoadOpen:Q is Over --->send Kido'
+  0x3FC460    16ch   'LoadClose : 0x%x'
+  0x3FC480    32ch   'GetLoadAdr:Not Found FileID %x!!'
+  0x3FC4B0    30ch   'GetLoadSize:Not Found FileID!!'
+  0x3FC4E0    31ch   'Packet Use(%p -> %p) / Last(%x)'
+  0x3FC510    32ch   'Packet Use Warning!!!!!(Last:%x)'
+  0x3FC560    20ch   'Source End Adr??? %p'
+  0x3FC5A0    36ch   'memAlloc:Empty Memory (size = %xH)!!'
+  0x3FC630    17ch  [near save slot names (0x3FC720)]  'JAMBGM SET ADR:%x'
+  0x3FC650    18ch  [near save slot names (0x3FC720)]  'BISLPM-65378BSN2-0'
+  0x3FC670    18ch  [near save slot names (0x3FC720)]  'BISLPM-65378BSN2-1'
+  0x3FC690    18ch  [near save slot names (0x3FC720)]  'BISLPM-65378BSN2-2'
+  0x3FC6B0    25ch  [near save slot names (0x3FC720)]  'Memory_DataSize       :%d'
+  0x3FC6D0    25ch  [near save slot names (0x3FC720)]  'Memory_DataSize(Full) :%d'
+  0x3FC6F0     8ch  [near save slot names (0x3FC720)]  'icon.sys'
+  0x3FC700     9ch  [near save slot names (0x3FC720)]  'icon1.ico'
+  0x3FC710    11ch  [near save slot names (0x3FC720)]  'BUSIN2-GAME'
+  0x3FC730     9ch  [near save slot names (0x3FC720)]  'icon2.ico'
+  0x3FC740     9ch  [near save slot names (0x3FC720)]  'icon3.ico'
+  0x3FC7B0    28ch  [near save slot names (0x3FC720)]  'Check MemoryDataSize(All):%d'
+  0x3FC7D0    15ch  [near save slot names (0x3FC720)]  'SysFont Init!!!'
+  0x3FC810    27ch  [near save slot names (0x3FC720)]  'TMInit Start LastMem = (%x)'
+  0x3FC830    39ch   'TMInit SysFontImgLoadEnd LastMem = (%x)'
+  0x3FC860    42ch   'TMInit SE_CommonDataLoadEnd LastMem = (%x)'
+  0x3FC890    43ch   'TMInit MemoryCardDataLoadEnd LastMem = (%x)'
+  0x3FC8C0    39ch   'TMInit CockpitImgLoadEnd LastMem = (%x)'
+  0x3FC8F0    37ch   'TMInit CampDataLoadEnd LastMem = (%x)'
+  0x3FC920    41ch   'TMInit OptionSystemLoadEnd LastMem = (%x)'
+  0x3FC950    25ch   'TMInit End LastMem = (%x)'
+  0x3FC970    27ch   'TMLogo Start LastMem = (%x)'
+  0x3FC990    43ch   'TMLogo PlayerConvDataLoadEnd LastMem = (%x)'
+  0x3FC9C0    44ch   'TMLogo TextEventSystemLoadEnd LastMem = (%x)'
+  0x3FC9F0    47ch   'TMLogo LibraryMenuMonDataLoadEnd LastMem = (%x)'
+  0x3FCA30    40ch   'TMLogo DungeonDataLoadEnd LastMem = (%x)'
+  0x3FCA60    35ch   'TMLogo HaikaiLoadEnd LastMem = (%x)'
+  0x3FCA90    35ch   'TMLogo SiphonLoadEnd LastMem = (%x)'
+  0x3FCAC0    36ch   'TMLogo RequestLoadEnd LastMem = (%x)'
+  0x3FCAF0    41ch   'TMLogo EffectSystemLoadEnd LastMem = (%x)'
+  0x3FCB20    42ch   'TMLogo CaptureSystemLoadEnd LastMem = (%x)'
+  0x3FCB50    47ch   'TMLogo TownDispControlMemInitEnd LastMem = (%x)'
+  0x3FCB90    39ch   'TMLogo PlayerDataLoadEnd LastMem = (%x)'
+  0x3FCBC0    41ch   'TMLogo BattleSystemLoadEnd LastMem = (%x)'
+  0x3FCBF0    39ch   'TMLogo MenuSystemLoadEnd LastMem = (%x)'
+  0x3FCC20    39ch   'TMLogo ItemSystemLoadEnd LastMem = (%x)'
+  0x3FCC50    40ch   'TMLogo DeathSystemLoadEnd LastMem = (%x)'
+  0x3FCC80    42ch   'TMLogo DungeonSVDataLoadEnd LastMem = (%x)'
+  0x3FCCB0    25ch   'TMLogo End LastMem = (%x)'
+  0x3FCCF0    28ch   'TMTitle Start LastMem = (%x)'
+  0x3FCD90    26ch   'TMTitle End LastMem = (%x)'
+  0x3FCDB0    11ch   'GoodExit!!!'
+  0x3FCDE0    30ch   'TMOpening Start LastMem = (%x)'
+  0x3FCE00    32ch   'TMOpening Step001 LastMem = (%x)'
+  0x3FCE30    34ch   'TMOpening MakeStart LastMem = (%x)'
+  0x3FCE60    32ch   'TMOpening MakeEnd LastMem = (%x)'
+  0x3FCE90    31ch   'TMOpening Chenge LastMem = (%x)'
+  0x3FDD01     9ch   '.shstrtab'
+  0x3FDD0B     7ch   '.strtab'
+  0x3FDD2D    29ch   'MW MIPS C Compiler (2.4.1.01)'
+
+Total interesting ASCII strings: 573
+Total ASCII strings (all): 1765
+
+================================================================================
+NEIGHBORHOOD SCAN (256 bytes around each patched area)
+================================================================================
+
+--- Around 0x3C93B0 (NPC names) ---
+  0x3C92B0: FE FF FF FF FE FF FF FF FE FF FF FF FE FF FF FF   ................
+  0x3C92C0: 00 00 D4 01 00 00 D4 01 00 00 D5 01 00 00 D5 01   ................
+  0x3C92D0: 00 00 D6 01 00 00 D6 01 00 00 D7 01 01 00 D7 01   ................
+  0x3C92E0: FE FF FF FF FE FF FF FF 00 00 D8 01 00 00 D8 01   ................
+  0x3C92F0: 00 00 D9 01 01 00 D9 01 FE FF FF FF FE FF FF FF   ................
+  0x3C9300: 00 00 DA 01 01 00 DA 01 FF FF FF FF FF FF FF FF   ................
+  0x3C9310: 00 00 00 00 E0 7C 4C 00 90 7E 4C 00 40 80 4C 00   .....|L..~L.@.L. *SJIS*
+  0x3C9320: 00 82 4C 00 A0 83 4C 00 70 85 4C 00 10 87 4C 00   ..L...L.p.L...L. *SJIS*
+  0x3C9330: A0 88 4C 00 70 8A 4C 00 10 8C 4C 00 E0 8D 4C 00   ..L.p.L...L...L. *SJIS*
+  0x3C9340: 80 8F 4C 00 00 00 00 00 00 00 00 00 00 00 00 00   ..L............. *SJIS*
+  0x3C9350: 00 00 00 00 E0 4A 2E 00 20 52 2E 00 B0 52 2E 00   .....J.. R...R.. *SJIS*
+  0x3C9360: 30 56 2E 00 00 00 00 00 0A 2B 00 00 0B 2B 00 00   0V.......+...+..
+  0x3C9370: 0C 2B 00 00 00 00 00 00 00 00 00 00 00 00 00 00   .+..............
+  0x3C9380: 00 86 2E 00 60 8F 2E 00 C0 92 2E 00 C0 94 2E 00   ....`...........
+  0x3C9390: C0 97 2E 00 B0 98 2E 00 70 99 2E 00 00 00 00 00   ........p.......
+  0x3C93A0: 90 19 2F 00 B0 19 2F 00 E0 19 2F 00 20 1A 2F 00   ../.../.../. ./.
+  0x3C93B0: C4 00 E0 00 5D 00 E8 00 C1 00 FF FF FF FF FF FF   ....]...........
+  0x3C93C0: E8 00 09 01 5D 00 D4 00 FF FF FF FF FF FF FF FF   ....]...........
+  0x3C93D0: FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF   ................
+  0x3C93E0: 80 36 2F 00 80 36 2F 00 80 36 2F 00 90 36 2F 00   .6/..6/..6/..6/.
+  0x3C93F0: 00 37 2F 00 80 36 2F 00 E0 37 2F 00 E0 37 2F 00   .7/..6/..7/..7/.
+  0x3C9400: 60 3B 2F 00 80 36 2F 00 80 36 2F 00 60 3B 2F 00   `;/..6/..6/.`;/.
+  0x3C9410: B0 3B 2F 00 00 3C 2F 00 50 3C 2F 00 F0 3C 2F 00   .;/..</.P</..</.
+  0x3C9420: 90 3D 2F 00 C0 3D 2F 00 10 3E 2F 00 B0 3E 2F 00   .=/..=/..>/..>/.
+  0x3C9430: 00 3F 2F 00 F0 3F 2F 00 90 40 2F 00 60 42 2F 00   .?/..?/..@/.`B/. *SJIS*
+  0x3C9440: 00 43 2F 00 A0 43 2F 00 50 44 2F 00 C0 44 2F 00   .C/..C/.PD/..D/.
+  0x3C9450: 80 45 2F 00 00 46 2F 00 B0 46 2F 00 C0 46 2F 00   .E/..F/..F/..F/.
+  0x3C9460: E0 46 2F 00 00 47 2F 00 20 4A 2F 00 40 4A 2F 00   .F/..G/. J/.@J/. *SJIS*
+  0x3C9470: 10 4B 2F 00 50 4B 2F 00 90 4B 2F 00 70 4D 2F 00   .K/.PK/..K/.pM/. *SJIS*
+  0x3C9480: C0 4D 2F 00 90 4F 2F 00 C0 4F 2F 00 00 53 2F 00   .M/..O/..O/..S/. *SJIS*
+  0x3C9490: 70 6B 2F 00 C0 7B 2F 00 B0 7D 2F 00 B0 7E 2F 00   pk/..{/..}/..~/.
+  0x3C94A0: 70 80 2F 00 D0 83 2F 00 60 85 2F 00 A0 87 2F 00   p./.../.`./.../.
+
+--- Around 0x3F8240 (SJIS string 1) ---
+  0x3F8140: 58 91 43 00 00 00 00 00 00 00 00 00 00 00 00 00   X.C............. *SJIS*
+  0x3F8150: 83 4B 81 5B 83 66 83 42 83 41 83 93 90 ED 93 AC   .K.[.f.B.A...... *SJIS*
+  0x3F8160: 81 49 81 49 0A 00 00 00 00 00 00 00 00 00 00 00   .I.I............ *SJIS*
+  0x3F8170: 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D   ----------------
+  0x3F8180: 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 0A 00 00   -------------...
+  0x3F8190: 2D 2D 2D 20 20 20 20 20 20 20 20 20 20 20 20 20   ---             
+  0x3F81A0: 20 20 20 20 20 20 20 20 20 20 2D 2D 2D 0A 00 00             ---...
+  0x3F81B0: 2D 2D 2D 20 47 75 61 72 64 69 61 6E 20 53 65 74   --- Guardian Set
+  0x3F81C0: 20 4D 61 78 20 4F 76 65 72 20 2D 2D 2D 0A 00 00    Max Over ---...
+  0x3F81D0: 90 DA 90 47 81 49 81 49 20 3A 20 70 72 6F 64 75   ...G.I.I : produ *SJIS*
+  0x3F81E0: 63 74 20 3D 20 25 66 20 3A 20 74 61 72 67 65 74   ct = %f : target
+  0x3F81F0: 5F 70 72 6F 64 75 63 74 20 3D 20 25 66 20 3A 20   _product = %f : 
+  0x3F8200: 72 61 6E 64 20 3D 20 25 64 0A 00 00 00 00 00 00   rand = %d.......
+  0x3F8210: 18 F9 43 00 70 F9 43 00 C8 F9 43 00 70 FA 43 00   ..C.p.C...C.p.C.
+  0x3F8220: 18 FB 43 00 C0 FB 43 00 68 FC 43 00 10 FD 43 00   ..C...C.h.C...C.
+  0x3F8230: B8 FD 43 00 00 00 00 00 00 00 00 00 00 00 00 00   ..C.............
+  0x3F8240: 83 52 83 93 83 65 83 42 83 6A 83 85 81 5B 83 8D   .R...e.B.j...[.. *SJIS*
+  0x3F8250: 81 5B 83 68 81 49 0A 00 00 00 00 00 00 00 00 00   .[.h.I.......... *SJIS*
+  0x3F8260: 8E E6 82 E8 95 74 82 AF 82 E9 90 6C 82 AA 82 A2   .....t.....l.... *SJIS*
+  0x3F8270: 82 C8 82 A2 82 E6 81 42 0A 00 00 00 00 00 00 00   .......B........ *SJIS*
+  0x3F8280: 44 65 61 74 68 41 6C 6C 4B 69 6C 6C 20 3A 20 46   DeathAllKill : F
+  0x3F8290: 43 44 5F 64 65 61 74 68 0A 00 00 00 00 00 00 00   CD_death........
+  0x3F82A0: C0 55 44 00 D0 56 44 00 58 57 44 00 B8 57 44 00   .UD..VD.XWD..WD.
+  0x3F82B0: 78 58 44 00 D8 58 44 00 88 59 44 00 80 5A 44 00   xXD..XD..YD..ZD. *SJIS*
+  0x3F82C0: E0 5A 44 00 00 00 00 00 00 00 00 00 00 00 00 00   .ZD............. *SJIS*
+  0x3F82D0: 52 65 71 75 65 73 74 20 54 65 78 20 49 6E 69 74   Request Tex Init
+  0x3F82E0: 21 21 21 0A 00 00 00 00 00 00 00 00 00 00 00 00   !!!.............
+  0x3F82F0: 52 65 71 75 65 73 74 4E 6F 74 69 63 65 44 61 74   RequestNoticeDat
+  0x3F8300: 61 46 72 65 65 20 3A 20 46 43 44 5F 6E 6F 74 69   aFree : FCD_noti
+  0x3F8310: 63 65 5F 64 61 74 61 0A 00 00 00 00 00 00 00 00   ce_data.........
+  0x3F8320: 43 4F 4D 50 45 54 45 20 4D 4F 56 45 20 57 41 49   COMPETE MOVE WAI
+  0x3F8330: 54 21 21 21 21 21 21 21 21 21 21 21 21 21 0A 00   T!!!!!!!!!!!!!..
+
+--- Around 0x3F8260 (SJIS string 2) ---
+  0x3F8160: 81 49 81 49 0A 00 00 00 00 00 00 00 00 00 00 00   .I.I............ *SJIS*
+  0x3F8170: 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D   ----------------
+  0x3F8180: 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 0A 00 00   -------------...
+  0x3F8190: 2D 2D 2D 20 20 20 20 20 20 20 20 20 20 20 20 20   ---             
+  0x3F81A0: 20 20 20 20 20 20 20 20 20 20 2D 2D 2D 0A 00 00             ---...
+  0x3F81B0: 2D 2D 2D 20 47 75 61 72 64 69 61 6E 20 53 65 74   --- Guardian Set
+  0x3F81C0: 20 4D 61 78 20 4F 76 65 72 20 2D 2D 2D 0A 00 00    Max Over ---...
+  0x3F81D0: 90 DA 90 47 81 49 81 49 20 3A 20 70 72 6F 64 75   ...G.I.I : produ *SJIS*
+  0x3F81E0: 63 74 20 3D 20 25 66 20 3A 20 74 61 72 67 65 74   ct = %f : target
+  0x3F81F0: 5F 70 72 6F 64 75 63 74 20 3D 20 25 66 20 3A 20   _product = %f : 
+  0x3F8200: 72 61 6E 64 20 3D 20 25 64 0A 00 00 00 00 00 00   rand = %d.......
+  0x3F8210: 18 F9 43 00 70 F9 43 00 C8 F9 43 00 70 FA 43 00   ..C.p.C...C.p.C.
+  0x3F8220: 18 FB 43 00 C0 FB 43 00 68 FC 43 00 10 FD 43 00   ..C...C.h.C...C.
+  0x3F8230: B8 FD 43 00 00 00 00 00 00 00 00 00 00 00 00 00   ..C.............
+  0x3F8240: 83 52 83 93 83 65 83 42 83 6A 83 85 81 5B 83 8D   .R...e.B.j...[.. *SJIS*
+  0x3F8250: 81 5B 83 68 81 49 0A 00 00 00 00 00 00 00 00 00   .[.h.I.......... *SJIS*
+  0x3F8260: 8E E6 82 E8 95 74 82 AF 82 E9 90 6C 82 AA 82 A2   .....t.....l.... *SJIS*
+  0x3F8270: 82 C8 82 A2 82 E6 81 42 0A 00 00 00 00 00 00 00   .......B........ *SJIS*
+  0x3F8280: 44 65 61 74 68 41 6C 6C 4B 69 6C 6C 20 3A 20 46   DeathAllKill : F
+  0x3F8290: 43 44 5F 64 65 61 74 68 0A 00 00 00 00 00 00 00   CD_death........
+  0x3F82A0: C0 55 44 00 D0 56 44 00 58 57 44 00 B8 57 44 00   .UD..VD.XWD..WD.
+  0x3F82B0: 78 58 44 00 D8 58 44 00 88 59 44 00 80 5A 44 00   xXD..XD..YD..ZD. *SJIS*
+  0x3F82C0: E0 5A 44 00 00 00 00 00 00 00 00 00 00 00 00 00   .ZD............. *SJIS*
+  0x3F82D0: 52 65 71 75 65 73 74 20 54 65 78 20 49 6E 69 74   Request Tex Init
+  0x3F82E0: 21 21 21 0A 00 00 00 00 00 00 00 00 00 00 00 00   !!!.............
+  0x3F82F0: 52 65 71 75 65 73 74 4E 6F 74 69 63 65 44 61 74   RequestNoticeDat
+  0x3F8300: 61 46 72 65 65 20 3A 20 46 43 44 5F 6E 6F 74 69   aFree : FCD_noti
+  0x3F8310: 63 65 5F 64 61 74 61 0A 00 00 00 00 00 00 00 00   ce_data.........
+  0x3F8320: 43 4F 4D 50 45 54 45 20 4D 4F 56 45 20 57 41 49   COMPETE MOVE WAI
+  0x3F8330: 54 21 21 21 21 21 21 21 21 21 21 21 21 21 0A 00   T!!!!!!!!!!!!!..
+  0x3F8340: 43 4F 4D 50 45 54 45 20 4D 4F 56 45 20 45 4E 44   COMPETE MOVE END
+  0x3F8350: 21 21 21 21 21 21 21 21 21 21 21 21 21 0A 00 00   !!!!!!!!!!!!!...
+
+--- Around 0x3FC720 (save slot names) ---
+  0x3FC620: D8 4A 49 00 C8 4B 49 00 00 4C 49 00 28 4C 49 00   .JI..KI..LI.(LI.
+  0x3FC630: 4A 41 4D 42 47 4D 20 53 45 54 20 41 44 52 3A 25   JAMBGM SET ADR:%
+  0x3FC640: 78 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00   x...............
+  0x3FC650: 42 49 53 4C 50 4D 2D 36 35 33 37 38 42 53 4E 32   BISLPM-65378BSN2
+  0x3FC660: 2D 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00   -0..............
+  0x3FC670: 42 49 53 4C 50 4D 2D 36 35 33 37 38 42 53 4E 32   BISLPM-65378BSN2
+  0x3FC680: 2D 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00   -1..............
+  0x3FC690: 42 49 53 4C 50 4D 2D 36 35 33 37 38 42 53 4E 32   BISLPM-65378BSN2
+  0x3FC6A0: 2D 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00   -2..............
+  0x3FC6B0: 4D 65 6D 6F 72 79 5F 44 61 74 61 53 69 7A 65 20   Memory_DataSize 
+  0x3FC6C0: 20 20 20 20 20 20 3A 25 64 0A 00 00 00 00 00 00         :%d.......
+  0x3FC6D0: 4D 65 6D 6F 72 79 5F 44 61 74 61 53 69 7A 65 28   Memory_DataSize(
+  0x3FC6E0: 46 75 6C 6C 29 20 3A 25 64 0A 00 00 00 00 00 00   Full) :%d.......
+  0x3FC6F0: 69 63 6F 6E 2E 73 79 73 00 00 00 00 00 00 00 00   icon.sys........
+  0x3FC700: 69 63 6F 6E 31 2E 69 63 6F 00 00 00 00 00 00 00   icon1.ico.......
+  0x3FC710: 42 55 53 49 4E 32 2D 47 41 4D 45 00 00 00 00 00   BUSIN2-GAME.....
+  0x3FC720: 82 61 82 74 82 72 82 68 82 6D 82 4F 00 00 00 00   .a.t.r.h.m.O.... *SJIS*
+  0x3FC730: 69 63 6F 6E 32 2E 69 63 6F 00 00 00 00 00 00 00   icon2.ico.......
+  0x3FC740: 69 63 6F 6E 33 2E 69 63 6F 00 00 00 00 00 00 00   icon3.ico.......
+  0x3FC750: 82 61 82 74 82 72 82 68 82 6D 82 4F 83 66 81 5B   .a.t.r.h.m.O.f.[ *SJIS*
+  0x3FC760: 83 5E 82 50 00 00 00 00 00 00 00 00 00 00 00 00   .^.P............ *SJIS*
+  0x3FC770: 82 61 82 74 82 72 82 68 82 6D 82 4F 83 66 81 5B   .a.t.r.h.m.O.f.[ *SJIS*
+  0x3FC780: 83 5E 82 51 00 00 00 00 00 00 00 00 00 00 00 00   .^.Q............ *SJIS*
+  0x3FC790: 82 61 82 74 82 72 82 68 82 6D 82 4F 83 66 81 5B   .a.t.r.h.m.O.f.[ *SJIS*
+  0x3FC7A0: 83 5E 82 52 00 00 00 00 00 00 00 00 00 00 00 00   .^.R............ *SJIS*
+  0x3FC7B0: 43 68 65 63 6B 20 4D 65 6D 6F 72 79 44 61 74 61   Check MemoryData
+  0x3FC7C0: 53 69 7A 65 28 41 6C 6C 29 3A 25 64 0A 00 00 00   Size(All):%d....
+  0x3FC7D0: 53 79 73 46 6F 6E 74 20 49 6E 69 74 21 21 21 0A   SysFont Init!!!.
+  0x3FC7E0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+  0x3FC7F0: 8F BC 96 EC 83 51 81 5B 8B 4E 93 AE 81 49 81 49   .....Q.[.N...I.I *SJIS*
+  0x3FC800: 0A 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+  0x3FC810: 54 4D 49 6E 69 74 20 53 74 61 72 74 20 4C 61 73   TMInit Start Las
+
+================================================================================
+SCAN OF UNEXPLORED DATA RANGES
+================================================================================
+
+  Pre-table area (0x3B0000 - 0x3C3000, 77824 bytes)
+    SJIS runs: 1, ASCII strings: 32
+      0x3BEE3A  2ch [JP]  '線樋'
+
+  Between Table2C and Table2B (0x3C5300 - 0x3C83C0, 12480 bytes)
+    SJIS runs: 0, ASCII strings: 0
+
+  Between Table2B and Table2A (includes NPC names) (0x3C93A0 - 0x3C9BF0, 2128 bytes)
+    SJIS runs: 0, ASCII strings: 0
+
+  Between Table2E and font data (0x3C9DFC - 0x3DDC00, 81412 bytes)
+    SJIS runs: 5, ASCII strings: 104
+      0x3D7485  2ch [JP]  '囹埀'
+      0x3D7C78  2ch [JP]  '囹奧'
+      0x3D7D74  2ch [JP]  '勦勹'
+      0x3DCFE8  3ch [JP]  '囮劔劔'
+      0x3DCFF0  3ch [JP]  '囮劔劔'
+
+  Between font data and debug strings (0x3DDE00 - 0x3EE9D0, 68560 bytes)
+    SJIS runs: 6, ASCII strings: 585
+      0x3DE2B2  3ch [JP]  '疏膵瓩'
+      0x3DE309  2ch [JP]  '華隆'
+      0x3DE320  2ch [JP]  '恬狐'
+      0x3EC910  14ch [JP]  'デバックチェック\u3000！！！！！'
+      0x3EC930  14ch [JP]  'デバック戦闘だよ\u3000！！！！！'
+      0x3EC950  14ch [JP]  'デバック戦闘確認\u3000！！！！！'
+
+  Between debug strings and save names (0x3F3500 - 0x3FC720, 37408 bytes)
+    SJIS runs: 12, ASCII strings: 994
+      0x3F3634  13ch [JP]  '壁イベントデータ作成エラー'
+      0x3F3B90  15ch [JP]  'コールバッファオーバーです！！'
+      0x3F3CE0  10ch [JP]  'メモリ足りんで〜！！'
+      0x3F3D00  12ch [JP]  'アイテム数足りんで〜！！'
+      0x3F8150  10ch [JP]  'ガーディアン戦闘！！'
+      0x3F81D0  4ch [JP]  '接触！！'
+      0x3F8240  11ch [JP]  'コンティニューロード！'
+      0x3F8260  12ch [JP]  '取り付ける人がいないよ。'
+      0x3F8EF0  12ch [JP]  'そのようなＯＴはないです'
+      0x3F9370  11ch [JP]  'ＢＵＳＩＮ０中断データ'
+      0x3F9678  6ch [JP]  'ＢＵＳＩＮ０'
+      0x3FC40A  2ch [JP]  'です'
+
+  After save names to end of data (0x3FC800 - 0x3FD000, 2048 bytes)
+    SJIS runs: 0, ASCII strings: 39
+
+  Post-data section (0x3FD000 - 0x3FDEB0, 3760 bytes)
+    SJIS runs: 0, ASCII strings: 7

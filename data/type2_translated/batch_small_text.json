@@ -1,0 +1,30 @@
+{
+  "_metadata": {
+    "description": "Analysis of 11 'smaller' type-02 resources flagged for translation",
+    "date": "2026-05-28",
+    "result": "ALL SKIPPED - binary parameter data, not translatable text",
+    "resources_analyzed": [1054, 1055, 1065, 1358, 1359, 1360, 1361, 1362, 1365, 1366, 1367],
+    "resources_skipped_binary": [1054, 1055, 1065, 1358, 1359, 1360, 1361, 1362, 1365, 1366, 1367],
+    "resources_translated": [],
+    "evidence": {
+      "0x803F_counts": {
+        "R1054": "present in final group (17864 glyphs of binary data)",
+        "R1055": "4577 occurrences (battle/animation parameter table)",
+        "R1065": "4335 occurrences (battle/animation parameter table)",
+        "R1358-R1367": "present in final groups (11000-18000 glyphs of binary data)"
+      },
+      "structure": "All follow identical pattern: header group G000, then N fixed 7-word parameter structs (XX00 0101 0000 0000 0001 0001 0000), then massive binary blob as final group",
+      "glyph_hit_rate_explanation": "Reported 40-85% hit rates were inflated by 0x0000 and 0x0001 mapping to space characters in the glyph map. Actual meaningful text content is zero.",
+      "comparison": "Known text resource R1196 has 0 occurrences of 0x803F and decodes to readable Japanese. These resources decode to gibberish."
+    },
+    "notes": [
+      "R760 and R788 do not exist as type-02 raw files",
+      "R1054/R1359/R1360/R1361/R1362 are nearly identical (36864 bytes, 12 groups each)",
+      "R1358 is slightly smaller variant (34816 bytes, 7 groups)",
+      "R1365/R1366 are identical structure (38912 bytes, 17 groups each)",
+      "R1367 has extra trailing binary groups (21 groups total)",
+      "R1055/R1065 are large parameter tables (174-164 KB, 169-864 groups)"
+    ]
+  },
+  "translations": []
+}
