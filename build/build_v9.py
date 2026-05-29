@@ -114,6 +114,11 @@ os.system('rm -f build/packdata_resources/0039_type15.raw')
 os.system('PYTHONIOENCODING=utf-8 python build/inject_r39_v2.py 2>/dev/null')
 print("  R39 injected")
 
+# ===== STEP 3.5: R46/R47 type-03 injection =====
+print("\n=== Step 3.5: R46/R47 type-03 injection ===")
+os.system('PYTHONIOENCODING=utf-8 python build/inject_r46_r47.py 2>/dev/null')
+print("  R46/R47 injected")
+
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
 

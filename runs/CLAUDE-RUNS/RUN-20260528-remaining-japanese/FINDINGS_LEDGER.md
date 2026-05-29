@@ -400,3 +400,38 @@ These are **demo disc splash screens** left over in the retail build:
 | Consolidation bug | 368 lost translations | CRITICAL — BUG-C1 |
 | Unloaded translations | r37(111)+r38(178)+r43(26) | Needs wiring |
 | Community/terminology | Canonical names from Busin 1 | Reference only |
+
+---
+
+## Wave 4: Menu Font Tiles + R38 Lowercase + Deep Scans [COMPLETE]
+**Commit**: 5767832
+
+- 184 English font tiles created in R1272 atlas (menu labels)
+- R38 lowercase letters mapped and verified
+- Deep scan for remaining gaps in glyph coverage
+
+## Wave 5: System Menus R36-R49, R38 Gaps, EXE Cleanup [COMPLETE]
+**Commit**: 6c166ec
+
+### Implementation Results
+- **16 type-01 resources now translated**: R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R44, R45, R48, R49, R2124, R2654
+- **739 new system menu messages** added across R36-R49 and R38 gap fills
+- **R39**: 545 equipment translations (spells, skills, quests, equipment types)
+- **EXE**: fully patched with 10 total patches (save names, SJIS strings, NPC names, cleanup)
+- **Glyph mappings**: 1,100 total (up from 810 at run start)
+- **Menu font tiles**: 184 English tiles in R1272 atlas
+
+### Cumulative Status After Wave 5
+- 32 type-02 resources patched, 12,863 messages injected
+- 16 type-01 resources translated
+- 10 EXE patches applied
+- 184 menu font tiles created
+- 1,100 glyph mappings
+- 6 commits total (a62c7bb through 6c166ec)
+
+### Remaining After Wave 5
+- R46/R47: decoded, custom patcher in progress
+- R1188 name entry: custom glyph format, needs parser
+- 46 MSG-format type-02 dialogue (R680-R911 dungeon events)
+- 101 ICS-format scenario scripts (R1911-R2026)
+- Visual QA pass needed
