@@ -152,6 +152,9 @@ for r in all_trans:
     if r < len(manifest) and not manifest[r].get('skipped') and manifest[r].get('type_code') == 2:
         type02_resources.add(r)
 
+# Exclude R1193 -- handled manually in Step 5 (has trailing data without FFFF terminator)
+type02_resources.discard(1193)
+
 print(f"  Type-02 dialogue resources: {len(type02_resources)}")
 
 os.makedirs('build/patched_type2', exist_ok=True)

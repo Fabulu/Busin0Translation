@@ -1,0 +1,44 @@
+[
+  {
+    "resource": 1168,
+    "msg_index": null,
+    "japanese": null,
+    "english": null,
+    "note": "SKIPPED - graphical/sprite data, not dialogue. 12288 bytes, 4228+ glyphs with <0.01% text glyph ratio."
+  },
+  {
+    "resource": 1169,
+    "msg_index": null,
+    "japanese": null,
+    "english": null,
+    "note": "SKIPPED - graphical/sprite data, not dialogue. 12288 bytes, 14 segments all dominated by low-range tile indices."
+  },
+  {
+    "resource": 1170,
+    "msg_index": null,
+    "japanese": null,
+    "english": null,
+    "note": "SKIPPED - graphical/sprite data, not dialogue. 12288 bytes, single 6144-glyph block of tile/coordinate data."
+  },
+  {
+    "resource": 1171,
+    "msg_index": null,
+    "japanese": null,
+    "english": null,
+    "note": "SKIPPED - graphical/sprite data, not dialogue. 12288 bytes, 10 segments with near-zero mapped text glyphs."
+  },
+  {
+    "resource": 1172,
+    "msg_index": null,
+    "japanese": null,
+    "english": null,
+    "note": "SKIPPED - graphical/sprite data, not dialogue. 12288 bytes, 4 segments all dominated by low-range tile indices."
+  },
+  {
+    "resource": 1173,
+    "msg_index": null,
+    "japanese": null,
+    "english": null,
+    "note": "SKIPPED - graphical/sprite data, not dialogue. 10240 bytes, 3 segments with near-zero mapped text glyphs."
+  }
+]

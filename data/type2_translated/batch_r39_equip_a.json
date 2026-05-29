@@ -1,0 +1,1844 @@
+[
+  {
+    "resource": 39,
+    "msg_index": 97,
+    "japanese": "",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 98,
+    "japanese": "クレタ",
+    "english": "Kreta"
+  },
+  {
+    "resource": 39,
+    "msg_index": 99,
+    "japanese": "クルド",
+    "english": "Kurudo"
+  },
+  {
+    "resource": 39,
+    "msg_index": 100,
+    "japanese": "ティール",
+    "english": "Teal"
+  },
+  {
+    "resource": 39,
+    "msg_index": 101,
+    "japanese": "アナライズ",
+    "english": "Analyze"
+  },
+  {
+    "resource": 39,
+    "msg_index": 102,
+    "japanese": "ウィーク",
+    "english": "Weak"
+  },
+  {
+    "resource": 39,
+    "msg_index": 103,
+    "japanese": "ディレイ",
+    "english": "Delay"
+  },
+  {
+    "resource": 39,
+    "msg_index": 104,
+    "japanese": "デプス",
+    "english": "Depth"
+  },
+  {
+    "resource": 39,
+    "msg_index": 105,
+    "japanese": "フィブル",
+    "english": "Feeble"
+  },
+  {
+    "resource": 39,
+    "msg_index": 106,
+    "japanese": "シュラード",
+    "english": "Shroud"
+  },
+  {
+    "resource": 39,
+    "msg_index": 107,
+    "japanese": "スプリーム",
+    "english": "Spleem"
+  },
+  {
+    "resource": 39,
+    "msg_index": 108,
+    "japanese": "サロメ",
+    "english": "Salome"
+  },
+  {
+    "resource": 39,
+    "msg_index": 109,
+    "japanese": "エスケープ",
+    "english": "Escape"
+  },
+  {
+    "resource": 39,
+    "msg_index": 110,
+    "japanese": "ザクレタ",
+    "english": "Zakreta"
+  },
+  {
+    "resource": 39,
+    "msg_index": 111,
+    "japanese": "ザクルド",
+    "english": "Zakurudo"
+  },
+  {
+    "resource": 39,
+    "msg_index": 112,
+    "japanese": "ザティール",
+    "english": "Zateal"
+  },
+  {
+    "resource": 39,
+    "msg_index": 113,
+    "japanese": "スルー",
+    "english": "Through"
+  },
+  {
+    "resource": 39,
+    "msg_index": 114,
+    "japanese": "ザラード",
+    "english": "Zarado"
+  },
+  {
+    "resource": 39,
+    "msg_index": 115,
+    "japanese": "ドレイン",
+    "english": "Drain"
+  },
+  {
+    "resource": 39,
+    "msg_index": 116,
+    "japanese": "リピール",
+    "english": "Ripu"
+  },
+  {
+    "resource": 39,
+    "msg_index": 117,
+    "japanese": "カニバル",
+    "english": "Cannibal"
+  },
+  {
+    "resource": 39,
+    "msg_index": 118,
+    "japanese": "ジャクレタ",
+    "english": "Jakreta"
+  },
+  {
+    "resource": 39,
+    "msg_index": 119,
+    "japanese": "ジャクルド",
+    "english": "Jakurudo"
+  },
+  {
+    "resource": 39,
+    "msg_index": 120,
+    "japanese": "ジャティル",
+    "english": "Jateel"
+  },
+  {
+    "resource": 39,
+    "msg_index": 121,
+    "japanese": "レイト",
+    "english": "Late"
+  },
+  {
+    "resource": 39,
+    "msg_index": 122,
+    "japanese": "ジャラード",
+    "english": "Jarado"
+  },
+  {
+    "resource": 39,
+    "msg_index": 123,
+    "japanese": "ヴァルハラ",
+    "english": "Valhalla"
+  },
+  {
+    "resource": 39,
+    "msg_index": 124,
+    "japanese": "リフレクト",
+    "english": "Reflect"
+  },
+  {
+    "resource": 39,
+    "msg_index": 125,
+    "japanese": "メガデス",
+    "english": "Megadeath"
+  },
+  {
+    "resource": 39,
+    "msg_index": 126,
+    "japanese": "フィール",
+    "english": "Heal"
+  },
+  {
+    "resource": 39,
+    "msg_index": 127,
+    "japanese": "リープ",
+    "english": "Leap"
+  },
+  {
+    "resource": 39,
+    "msg_index": 128,
+    "japanese": "バレッツ",
+    "english": "Bullets"
+  },
+  {
+    "resource": 39,
+    "msg_index": 129,
+    "japanese": "シーフアイ",
+    "english": "Thief Eye"
+  },
+  {
+    "resource": 39,
+    "msg_index": 130,
+    "japanese": "ヤイバ",
+    "english": "Yaiba"
+  },
+  {
+    "resource": 39,
+    "msg_index": 131,
+    "japanese": "コート",
+    "english": "Coat"
+  },
+  {
+    "resource": 39,
+    "msg_index": 132,
+    "japanese": "ブレス",
+    "english": "Bless"
+  },
+  {
+    "resource": 39,
+    "msg_index": 133,
+    "japanese": "プロテクト",
+    "english": "Protect"
+  },
+  {
+    "resource": 39,
+    "msg_index": 134,
+    "japanese": "アモーク",
+    "english": "Amok"
+  },
+  {
+    "resource": 39,
+    "msg_index": 135,
+    "japanese": "フィールズ",
+    "english": "Heals"
+  },
+  {
+    "resource": 39,
+    "msg_index": 136,
+    "japanese": "ポイズン",
+    "english": "Poison"
+  },
+  {
+    "resource": 39,
+    "msg_index": 137,
+    "japanese": "ストレイン",
+    "english": "Strain"
+  },
+  {
+    "resource": 39,
+    "msg_index": 138,
+    "japanese": "ポイズケア",
+    "english": "Poisonkea"
+  },
+  {
+    "resource": 39,
+    "msg_index": 139,
+    "japanese": "パラズケア",
+    "english": "Parazukea"
+  },
+  {
+    "resource": 39,
+    "msg_index": 140,
+    "japanese": "フィアケア",
+    "english": "Fiakea"
+  },
+  {
+    "resource": 39,
+    "msg_index": 141,
+    "japanese": "バイタル",
+    "english": "Vital"
+  },
+  {
+    "resource": 39,
+    "msg_index": 142,
+    "japanese": "カーカス",
+    "english": "Carcass"
+  },
+  {
+    "resource": 39,
+    "msg_index": 143,
+    "japanese": "ウィル",
+    "english": "Will"
+  },
+  {
+    "resource": 39,
+    "msg_index": 144,
+    "japanese": "リュミル",
+    "english": "Lumiel"
+  },
+  {
+    "resource": 39,
+    "msg_index": 145,
+    "japanese": "アンデッド",
+    "english": "Undead"
+  },
+  {
+    "resource": 39,
+    "msg_index": 146,
+    "japanese": "トランス",
+    "english": "Trance"
+  },
+  {
+    "resource": 39,
+    "msg_index": 147,
+    "japanese": "リカバー",
+    "english": "Recover"
+  },
+  {
+    "resource": 39,
+    "msg_index": 148,
+    "japanese": "アンカーズ",
+    "english": "Anchors"
+  },
+  {
+    "resource": 39,
+    "msg_index": 149,
+    "japanese": "フロート",
+    "english": "Float"
+  },
+  {
+    "resource": 39,
+    "msg_index": 150,
+    "japanese": "スティグマ",
+    "english": "Stigma"
+  },
+  {
+    "resource": 39,
+    "msg_index": 151,
+    "japanese": "ラフィール",
+    "english": "Raheal"
+  },
+  {
+    "resource": 39,
+    "msg_index": 152,
+    "japanese": "オフセット",
+    "english": "Offset"
+  },
+  {
+    "resource": 39,
+    "msg_index": 153,
+    "japanese": "リヴァイヴ",
+    "english": "Revive"
+  },
+  {
+    "resource": 39,
+    "msg_index": 154,
+    "japanese": "",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 155,
+    "japanese": "宝１体に炎条果ダメージを与える",
+    "english": "Deals fire damage to a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 156,
+    "japanese": "宝１体に[0x03db]条果ダメージを与える",
+    "english": "Deals ice damage to a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 157,
+    "japanese": "宝１体に[0x014b]条果ダメージを与える",
+    "english": "Deals lightning damage to a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 158,
+    "japanese": "宝のステータス情報を調べる",
+    "english": "Examines the status information of an enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 159,
+    "japanese": "宝１体の獲得力を高下させる",
+    "english": "Reduces the attack power of a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 160,
+    "japanese": "宝１体の敏捷度を高下させる",
+    "english": "Reduces the agility of a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 161,
+    "japanese": "宝１体の回避力を高下させる",
+    "english": "Reduces the evasion of a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 162,
+    "japanese": "宝１体の解消力を高下させる",
+    "english": "Reduces the defense of a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 163,
+    "japanese": "宝１体を[0x03dc]開させる",
+    "english": "Instantly kills a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 164,
+    "japanese": "宝１容を[0x03da]らせる",
+    "english": "Puts a single enemy to sleep."
+  },
+  {
+    "resource": 39,
+    "msg_index": 165,
+    "japanese": "宝１容の騎法を封じる",
+    "english": "Seals a single enemy's magic."
+  },
+  {
+    "resource": 39,
+    "msg_index": 166,
+    "japanese": "戦箱から離脱する",
+    "english": "Flee from battle."
+  },
+  {
+    "resource": 39,
+    "msg_index": 167,
+    "japanese": "宝１容に炎条果ダメージを与える",
+    "english": "Deals fire damage to an enemy group."
+  },
+  {
+    "resource": 39,
+    "msg_index": 168,
+    "japanese": "宝１容に[0x03db]条果ダメージを与える",
+    "english": "Deals ice damage to an enemy group."
+  },
+  {
+    "resource": 39,
+    "msg_index": 169,
+    "japanese": "宝１容に[0x014b]条果ダメージを与える",
+    "english": "Deals lightning damage to an enemy group."
+  },
+  {
+    "resource": 39,
+    "msg_index": 170,
+    "japanese": "一復受壁、騎士が出現しなくなる",
+    "english": "Temporarily prevents random encounters."
+  },
+  {
+    "resource": 39,
+    "msg_index": 171,
+    "japanese": "宝１容を[0x03dc]開させる",
+    "english": "Instantly kills an enemy group."
+  },
+  {
+    "resource": 39,
+    "msg_index": 172,
+    "japanese": "宝１体のhpを[0x0380]所する",
+    "english": "Absorbs HP from a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 173,
+    "japanese": "宝箱にかけられた罠の発動を解ぐ",
+    "english": "Disarms traps on treasure chests."
+  },
+  {
+    "resource": 39,
+    "msg_index": 174,
+    "japanese": "一度に限り士理獲得ダメージをはねかえす",
+    "english": "Reflects physical damage taken back once."
+  },
+  {
+    "resource": 39,
+    "msg_index": 175,
+    "japanese": "宝全体に炎条果ダメージを与える",
+    "english": "Deals fire damage to all enemies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 176,
+    "japanese": "宝全体に[0x03db]条果ダメージを与える",
+    "english": "Deals ice damage to all enemies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 177,
+    "japanese": "宝全体に[0x014b]条果ダメージを与える",
+    "english": "Deals lightning damage to all enemies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 178,
+    "japanese": "宝１体に解消力を使[0x03de]して獲得する",
+    "english": "Attacks a single enemy using defense power."
+  },
+  {
+    "resource": 39,
+    "msg_index": 179,
+    "japanese": "宝全体を[0x03dc]開させる",
+    "english": "Instantly kills all enemies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 180,
+    "japanese": "事者の１レベルダウンとひきかえに[0x03df][0x03e0]をおこす",
+    "english": "Sacrifices one level to cause a catastrophe."
+  },
+  {
+    "resource": 39,
+    "msg_index": 181,
+    "japanese": "一度に限り受けた騎法をはねかえす",
+    "english": "Reflects magic back once."
+  },
+  {
+    "resource": 39,
+    "msg_index": 182,
+    "japanese": "宝全体に使条果ダメージを与える",
+    "english": "Deals holy damage to all enemies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 183,
+    "japanese": "用方１人のhpを回復する",
+    "english": "Restores HP to a single ally."
+  },
+  {
+    "resource": 39,
+    "msg_index": 184,
+    "japanese": "街に[0x03d4]壁物動する",
+    "english": "Instantly warps back to town."
+  },
+  {
+    "resource": 39,
+    "msg_index": 185,
+    "japanese": "宝１体に使条果ダメージを与える",
+    "english": "Deals holy damage to a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 186,
+    "japanese": "フロア[0x0319]に残る宝箱の数を調べる",
+    "english": "Checks the number of treasure chests remaining on the floor."
+  },
+  {
+    "resource": 39,
+    "msg_index": 187,
+    "japanese": "用方１人の命中果と獲得力が上[0x03e1]し不開族を獲得可能にする",
+    "english": "Increases one ally's hit rate and attack power, enabling hitting undead."
+  },
+  {
+    "resource": 39,
+    "msg_index": 188,
+    "japanese": "用方１人の敏捷度が上[0x03e1]する",
+    "english": "Increases one ally's agility."
+  },
+  {
+    "resource": 39,
+    "msg_index": 189,
+    "japanese": "用方１人の回避力が上[0x03e1]する",
+    "english": "Increases one ally's evasion."
+  },
+  {
+    "resource": 39,
+    "msg_index": 190,
+    "japanese": "用方１人の解消力が上[0x03e1]する",
+    "english": "Increases one ally's defense."
+  },
+  {
+    "resource": 39,
+    "msg_index": 191,
+    "japanese": "宝１容に使条果ダメージを与える",
+    "english": "Deals holy damage to an enemy group."
+  },
+  {
+    "resource": 39,
+    "msg_index": 192,
+    "japanese": "用方１容のhpが回復する",
+    "english": "Restores HP to an ally group."
+  },
+  {
+    "resource": 39,
+    "msg_index": 193,
+    "japanese": "宝１容に毒を与える",
+    "english": "Inflicts poison on an enemy group."
+  },
+  {
+    "resource": 39,
+    "msg_index": 194,
+    "japanese": "宝１容を騎法的に制れさせて動けなくさせる",
+    "english": "Magically paralyzes an enemy group, preventing them from moving."
+  },
+  {
+    "resource": 39,
+    "msg_index": 195,
+    "japanese": "用方１人の毒を回復する",
+    "english": "Cures one ally's poison."
+  },
+  {
+    "resource": 39,
+    "msg_index": 196,
+    "japanese": "用方１人の[0x03d1]制を回復する",
+    "english": "Cures one ally's paralysis."
+  },
+  {
+    "resource": 39,
+    "msg_index": 197,
+    "japanese": "用方１人の恐怖を回復する",
+    "english": "Cures one ally's fear."
+  },
+  {
+    "resource": 39,
+    "msg_index": 198,
+    "japanese": "スタミナを全回復し、一復受壁除[0x021e]せず物動可能にする",
+    "english": "Fully restores stamina and enables movement without encounters for a turn."
+  },
+  {
+    "resource": 39,
+    "msg_index": 199,
+    "japanese": "用方１人を一復結果で復活させる",
+    "english": "Revives one ally with partial HP."
+  },
+  {
+    "resource": 39,
+    "msg_index": 200,
+    "japanese": "用方１人のhpとステータス取通を回復する",
+    "english": "Restores one ally's HP and cures status ailments."
+  },
+  {
+    "resource": 39,
+    "msg_index": 201,
+    "japanese": "ダークフォグを取り解く",
+    "english": "Removes Dark Fog."
+  },
+  {
+    "resource": 39,
+    "msg_index": 202,
+    "japanese": "不開族以外の宝グループに対してディスペルを著消にする",
+    "english": "Makes Dispel highly effective against non-undead enemy groups."
+  },
+  {
+    "resource": 39,
+    "msg_index": 203,
+    "japanese": "今いるフロアの上り階段前に[0x03d4]壁物動する",
+    "english": "Warps to the stairs entrance on the current floor."
+  },
+  {
+    "resource": 39,
+    "msg_index": 204,
+    "japanese": "ターンごとに一復のhpが自動回復する",
+    "english": "Automatically restores a small amount of HP each turn."
+  },
+  {
+    "resource": 39,
+    "msg_index": 205,
+    "japanese": "装備中の使われたアイテムを紹崩する\nただし、事者がイ恐怖ゴになる可能果がある",
+    "english": "Restores a used equipped item.\nHowever, the caster may become frightened."
+  },
+  {
+    "resource": 39,
+    "msg_index": 206,
+    "japanese": "一復期壁、ダメージ柵を使消にする",
+    "english": "Temporarily nullifies damage traps."
+  },
+  {
+    "resource": 39,
+    "msg_index": 207,
+    "japanese": "宝全体に使条果ダメージを与える",
+    "english": "Deals holy damage to all enemies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 208,
+    "japanese": "用方全員のhpを回復する",
+    "english": "Restores HP to all allies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 209,
+    "japanese": "自らの命と引き更えに宝１体を[0x03dc]開させる",
+    "english": "Sacrifices own life to instantly kill a single enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 210,
+    "japanese": "自らの命と引き更えに用方１人を復活させる",
+    "english": "Sacrifices own life to revive a single ally."
+  },
+  {
+    "resource": 39,
+    "msg_index": 211,
+    "japanese": "なし",
+    "english": "None"
+  },
+  {
+    "resource": 39,
+    "msg_index": 212,
+    "japanese": "wスラッシュ",
+    "english": "W-Slash"
+  },
+  {
+    "resource": 39,
+    "msg_index": 213,
+    "japanese": "スタンスマッシュ",
+    "english": "Stun Smash"
+  },
+  {
+    "resource": 39,
+    "msg_index": 214,
+    "japanese": "ホールドアタック",
+    "english": "Hold Attack"
+  },
+  {
+    "resource": 39,
+    "msg_index": 215,
+    "japanese": "s・jアタック",
+    "english": "SJ Attack"
+  },
+  {
+    "resource": 39,
+    "msg_index": 216,
+    "japanese": "スレイクラッシュ",
+    "english": "Slay Crash"
+  },
+  {
+    "resource": 39,
+    "msg_index": 217,
+    "japanese": "クロスケージキル",
+    "english": "Cross-Gauge Kill"
+  },
+  {
+    "resource": 39,
+    "msg_index": 218,
+    "japanese": "フロントガード",
+    "english": "Front Guard"
+  },
+  {
+    "resource": 39,
+    "msg_index": 219,
+    "japanese": "マジックシェル",
+    "english": "Magic Shield"
+  },
+  {
+    "resource": 39,
+    "msg_index": 220,
+    "japanese": "アンチマジックシェル",
+    "english": "Anti-Magic Shell"
+  },
+  {
+    "resource": 39,
+    "msg_index": 221,
+    "japanese": "ミラーイメージ",
+    "english": "Mirror Image"
+  },
+  {
+    "resource": 39,
+    "msg_index": 222,
+    "japanese": "落開内形",
+    "english": "Dense Formation"
+  },
+  {
+    "resource": 39,
+    "msg_index": 223,
+    "japanese": "後集内形",
+    "english": "Evasive Maneuver"
+  },
+  {
+    "resource": 39,
+    "msg_index": 224,
+    "japanese": "[0x0285][0x03f3][0x028f]得",
+    "english": "Restrict Shot"
+  },
+  {
+    "resource": 39,
+    "msg_index": 225,
+    "japanese": "前罰[0x028f]得",
+    "english": "Support Shot"
+  },
+  {
+    "resource": 39,
+    "msg_index": 226,
+    "japanese": "マジックキャンセル",
+    "english": "Magic Cancel"
+  },
+  {
+    "resource": 39,
+    "msg_index": 227,
+    "japanese": "ブレスキャンセル",
+    "english": "Breath Cancel"
+  },
+  {
+    "resource": 39,
+    "msg_index": 228,
+    "japanese": "バックカバー",
+    "english": "Back Cover"
+  },
+  {
+    "resource": 39,
+    "msg_index": 229,
+    "japanese": "インターセプト",
+    "english": "Intercept"
+  },
+  {
+    "resource": 39,
+    "msg_index": 230,
+    "japanese": "使呪集中像",
+    "english": "Concentrated Spell"
+  },
+  {
+    "resource": 39,
+    "msg_index": 231,
+    "japanese": "ブレイクサイレンス",
+    "english": "Silence Breaker"
+  },
+  {
+    "resource": 39,
+    "msg_index": 232,
+    "japanese": "騎法主[0x028f]",
+    "english": "Magic Rapid Fire"
+  },
+  {
+    "resource": 39,
+    "msg_index": 233,
+    "japanese": "マジックウエポン",
+    "english": "Enchant"
+  },
+  {
+    "resource": 39,
+    "msg_index": 234,
+    "japanese": "騎法協力",
+    "english": "Magic Cooperation"
+  },
+  {
+    "resource": 39,
+    "msg_index": 235,
+    "japanese": "集中獲得",
+    "english": "Concentrated Attack"
+  },
+  {
+    "resource": 39,
+    "msg_index": 236,
+    "japanese": "バックアタック",
+    "english": "Back Attack"
+  },
+  {
+    "resource": 39,
+    "msg_index": 237,
+    "japanese": "ゲイルスラッシュ",
+    "english": "Gale Slash"
+  },
+  {
+    "resource": 39,
+    "msg_index": 238,
+    "japanese": "ラッシュ",
+    "english": "Rush"
+  },
+  {
+    "resource": 39,
+    "msg_index": 239,
+    "japanese": "立体少法",
+    "english": "Multi-Jump Attack"
+  },
+  {
+    "resource": 39,
+    "msg_index": 240,
+    "japanese": "セイクリッドクロス",
+    "english": "Sacred Cross"
+  },
+  {
+    "resource": 39,
+    "msg_index": 241,
+    "japanese": "ワープアタック",
+    "english": "Warp Attack"
+  },
+  {
+    "resource": 39,
+    "msg_index": 242,
+    "japanese": "ソウルクラッシュ",
+    "english": "Soul Crash"
+  },
+  {
+    "resource": 39,
+    "msg_index": 243,
+    "japanese": "ソニックソード",
+    "english": "Sonic Sword"
+  },
+  {
+    "resource": 39,
+    "msg_index": 244,
+    "japanese": "系属獲得",
+    "english": "Elemental Attack"
+  },
+  {
+    "resource": 39,
+    "msg_index": 245,
+    "japanese": "フェイクアタック",
+    "english": "Fake Attack"
+  },
+  {
+    "resource": 39,
+    "msg_index": 246,
+    "japanese": "[0x02a9]編場短像",
+    "english": "Zantsuki Iaijin"
+  },
+  {
+    "resource": 39,
+    "msg_index": 247,
+    "japanese": "ナイトメアクエイク",
+    "english": "Nightmare Quake"
+  },
+  {
+    "resource": 39,
+    "msg_index": 248,
+    "japanese": "ウィークスマッシュ",
+    "english": "Weak Smash"
+  },
+  {
+    "resource": 39,
+    "msg_index": 249,
+    "japanese": "ダブルブレス",
+    "english": "Double Breath"
+  },
+  {
+    "resource": 39,
+    "msg_index": 250,
+    "japanese": "",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 251,
+    "japanese": "前[0x0367]２人が宝１体にタイミングを編わせ同受に獲得し、大 \nきなダメージを与える。",
+    "english": "Two front row members attack a single enemy\nin sync, dealing massive damage."
+  },
+  {
+    "resource": 39,
+    "msg_index": 252,
+    "japanese": "内[0x0367]の騎力を、前[0x0367]の武器に宿して獲得する。獲得回数は \n１回に限復されるが、気有効果の使いモンスターを気有さ \nせる頼が出来る。",
+    "english": "A back row member channels magic power into\na front row member's weapon. Only one attack,\nbut can stun magic-resistant monsters."
+  },
+  {
+    "resource": 39,
+    "msg_index": 253,
+    "japanese": "内[0x0367]の騎力で宝の動きを一[0x03d4]とめ、そのスキに前[0x0367]が獲得 \nする。獲得回数は１回に限復されるが、ホールドに隊失す \nれば、必ず獲得を命中させることができる。",
+    "english": "A back row member uses magic to freeze an\nenemy in place, then a front row member\nattacks. A successful hold guarantees a hit."
+  },
+  {
+    "resource": 39,
+    "msg_index": 254,
+    "japanese": "内[0x0367]の騎力で前[0x0367]を空中に上げ、前[0x0367]がターンの早内に目 \n[0x0297]を落下獲得する。獲得回数は１回に限復されるが、モン \nスターの解消力を一復値使消除することができる。",
+    "english": "A back row member lifts a front row member\ninto the air with magic for a dive-attack\nat the start of the turn. Temporarily\nreduces enemy defense."
+  },
+  {
+    "resource": 39,
+    "msg_index": 255,
+    "japanese": "となり編った前[0x0367]２人が、タイミングを編わせ、宝パーティ\nの前[0x0367]・内[0x0367]の唱ハシにいる宝に主獲獲得を行う。獲得回 \n数は１回に限復されるが、必ず獲得を命中させられる。",
+    "english": "Two adjacent front row members flank-attack\nenemies at the edges of both rows. Only one\nattack each, but hits are guaranteed."
+  },
+  {
+    "resource": 39,
+    "msg_index": 256,
+    "japanese": "内[0x0367]２人が、騎力をクロスさせて宝の動きを封じ、前に引 \nきずり出したところを、前[0x0367]２人が同受に獲得する。回避 \n力・hpの低い宝に著消な連携獲得。",
+    "english": "Two back row members bind the enemy with\ncrossed magic, pull it forward, and two front\nrow members attack simultaneously. Effective\nagainst low-evasion, low-HP enemies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 257,
+    "japanese": "前[0x0367]全員が後集して解消顔同を取り、回避力・解消力を低 \nめる。宝の獲得による気有・[0x03d1]制・毒・ed・adをも解 \nぎ、さらに宝のイラッシュゴをブロックできる。",
+    "english": "All front row members take a defensive stance,\nreducing evasion and defense. Cures stun,\nparalysis, poison, ID, and drain from enemies,\nand blocks enemy Rush attacks."
+  },
+  {
+    "resource": 39,
+    "msg_index": 258,
+    "japanese": "内[0x0367]２人が騎力を集中させて騎法のバリアをはる。騎法に \nよるダメージをダウンさせ、レジスト隊失果を低めること \nができる。",
+    "english": "Two back row members create a magic barrier,\nreducing magic damage and lowering resist\nfailure rate."
+  },
+  {
+    "resource": 39,
+    "msg_index": 259,
+    "japanese": "内[0x0367]全員が騎力を集中させ、戦箱フィールド全体を、解力 \nな騎法バリアでおおう。そのターンは、宝用方ともに、使 \n呪による騎法を一切発動させることができない。",
+    "english": "All back row members create a powerful magic\nbarrier over the entire battlefield. For that\nturn, neither side can cast any spells."
+  },
+  {
+    "resource": 39,
+    "msg_index": 260,
+    "japanese": "内[0x0367]全員が騎力を集中させ、パーティ全員の分身を造りだ \nす。分身は、ダメージを受けると除えてしまうが、獲得の \n目[0x0297]になった場編、仲体は一切ダメージを受けずにすむ。",
+    "english": "All back row members create duplicates of\nevery party member. Duplicates vanish when\nhit, but real members take no damage from\nattacks targeting the duplicates."
+  },
+  {
+    "resource": 39,
+    "msg_index": 261,
+    "japanese": "宝のブレスが放たれた[0x03d4]壁に、パーティ全員が落開し、ブ \nレス・騎法によるダメージをダウンさせる。古わりに、士理 \n獲得によるダメージがアップしてしまう。",
+    "english": "When an enemy uses breath, the entire party\ntakes cover, reducing breath and magic damage.\nHowever, physical attack damage increases."
+  },
+  {
+    "resource": 39,
+    "msg_index": 262,
+    "japanese": "パーティ全員が後集内形を取り、士理獲得に対する回避力・\n解消力を大きくアップさせる。古わりに、ブレス・騎法に \nよるダメージがアップしてしまう。",
+    "english": "The entire party takes an evasive formation,\ngreatly increasing evasion and defense against\nphysical attacks. However, breath and magic\ndamage increases."
+  },
+  {
+    "resource": 39,
+    "msg_index": 263,
+    "japanese": "罰[0x0367]すべき前[0x0367]が、宝の獲得を受ける受に、内[0x0367]がとび道 \n闘で回騎し、獲得をカットさせる。罰[0x0367]すべき前[0x0367]が獲得 \nされるたびに発動する。",
+    "english": "When a protected front row member is attacked,\na back row member counterattacks with ranged\nweapons. Activates each time the protected\nfront row member is attacked."
+  },
+  {
+    "resource": 39,
+    "msg_index": 264,
+    "japanese": "用方の獲得前に、内[0x0367]全員でとび道闘による獲得を行い、 \n獲得の命中果をアップさせる。",
+    "english": "Before allies attack, all back row members\nperform ranged attacks, increasing the\noverall hit rate."
+  },
+  {
+    "resource": 39,
+    "msg_index": 265,
+    "japanese": "宝が騎法を使息しようとした受に、内[0x0367]がとび道闘で獲得、\n騎法の使息を解[0x03f3]的に回騎する。１ターンあたりの発動回 \n数に[0x03f3]限がある。",
+    "english": "When an enemy attempts to cast a spell, a\nback row member attacks with a ranged weapon\nto interrupt the casting. Limited activations\nper turn."
+  },
+  {
+    "resource": 39,
+    "msg_index": 266,
+    "japanese": "宝がブレスを[0x0361]こうとした受に、内[0x0367]がとび道闘で獲得、 \nブレスの使息を解[0x03f3]的に回騎する。１ターンあたりの発動 \n回数に[0x03f3]限がある。",
+    "english": "When an enemy attempts to use breath, a back\nrow member attacks with a ranged weapon to\ninterrupt the breath. Limited activations\nper turn."
+  },
+  {
+    "resource": 39,
+    "msg_index": 267,
+    "japanese": "罰[0x0367]すべき内[0x0367]が、宝の獲得を受ける受に、前[0x0367]が身古わ \nりとなって、内[0x0367]をれる。宝のとび道闘による獲得にも対 \n応することができる。",
+    "english": "When a protected back row member is attacked,\na front row member takes the hit instead. Also\nresponds to enemy ranged attacks."
+  },
+  {
+    "resource": 39,
+    "msg_index": 268,
+    "japanese": "[0x036b]の前[0x0367]が、宝の獲得を受ける受に内[0x016c]し、残りの前[0x0367]が \nサイドから獲得し、宝の連携獲得を解[0x03f3]的に回騎する。  \n１ターンあたりの発動回数に[0x03f3]限がある。",
+    "english": "One front row member acts as a decoy. When\nattacked, the remaining front row members\ncounterattack from the sides, interrupting\nthe enemy's coordinated attack. Limited\nactivations per turn."
+  },
+  {
+    "resource": 39,
+    "msg_index": 269,
+    "japanese": "内[0x0367]３人が騎力を集中し、騎法の消呪系属をひろげる。\nまた、宝の使呪使消除能力をダウンさせ、騎法の消呪もアッ\nプさせることができる。",
+    "english": "Three back row members concentrate magic to\nexpand spell area of effect. Also reduces\nenemy spell resistance and increases spell\npower."
+  },
+  {
+    "resource": 39,
+    "msg_index": 270,
+    "japanese": "内[0x0367]全員で騎力を集中し、勉の騎法消呪を紹崩する。用方 \n全員のイ封騎ゴを回復させ、また宝のイマジックシェルゴ \nイアンチマジックシェルゴを紹崩することができる。",
+    "english": "All back row members concentrate magic to\nbreak silence. Cures the party's Mute status\nand breaks enemy Magic Shell and Anti-Magic\nShell."
+  },
+  {
+    "resource": 39,
+    "msg_index": 271,
+    "japanese": "内[0x0367]の、となりあった者同士が２人とも同じ騎法を[0x03d0]分ず \nつ覚えることで、騎法の実行主度を主める。イアンチマジッ\nクシェルゴよりも主く実行できる。",
+    "english": "Two adjacent back row members who both know\nthe same spell cast it together, increasing\nexecution speed. Faster than Anti-Magic Shell."
+  },
+  {
+    "resource": 39,
+    "msg_index": 272,
+    "japanese": "内[0x0367]が、騎法を用方の武器に宿らせ、その武器で用方が獲 \n得する。獲得が命中すれば、宝の使呪使消除能力・マジッ \nクシェルを使[0x03de]し、騎法を発動させることができる。",
+    "english": "A back row member enchants an ally's weapon\nwith a spell. If the attack hits, it bypasses\nenemy spell resistance and Magic Shell to\ndeliver the spell."
+  },
+  {
+    "resource": 39,
+    "msg_index": 273,
+    "japanese": "内[0x0367]２人が、騎法を心を編わせて覚えることで、騎法の消 \n呪を大きくパワーアップさせる。",
+    "english": "Two back row members cast the same spell\ntogether, greatly amplifying its power."
+  },
+  {
+    "resource": 39,
+    "msg_index": 274,
+    "japanese": "前[0x0367]３人が、連続して宝１体に獲得をしかけ、ダメージを \n大きくアップさせる。連携消呪で、１人目より２人目、\n２人目より３人目の与えるダメージのほうがより低くなる。",
+    "english": "Three front row members consecutively attack\na single enemy, greatly increasing damage.\nThe combo makes each successive hit stronger\nthan the last."
+  },
+  {
+    "resource": 39,
+    "msg_index": 275,
+    "japanese": "あらかじめ[0x036b]となる前[0x0367]１人が獲得された内、残りの前[0x0367] \n２人が一気に宝の内悔に回りこんで獲得する。命中果が大 \nきくアップし、大きなダメージを与えることができる。",
+    "english": "One front row member acts as a decoy. When\nattacked, the other two rush behind the enemy\nand counterattack. Hit rate and damage are\ngreatly increased."
+  },
+  {
+    "resource": 39,
+    "msg_index": 276,
+    "japanese": "集中獲得が、兵士の追加によって変除したもの。     \n１人目が全力で宝を空中に突き上げ、落下中および宝の立 \nち上がりぎわに獲得し、大きなダメージを与える。",
+    "english": "Evolved Concentrated Attack with a Fighter.\nThe first member launches the enemy into the\nair, then attacks during the fall and recovery\nfor massive damage."
+  },
+  {
+    "resource": 39,
+    "msg_index": 277,
+    "japanese": "パーティ全員で体間たり獲得を行い、宝全体にダメージを \n与える。イフロントガードゴでブロックされない限り、回 \n避されることはない。",
+    "english": "The entire party charges the enemy party,\ndealing damage to all enemies. Cannot be\nblocked by Front Guard, and attacks always hit."
+  },
+  {
+    "resource": 39,
+    "msg_index": 278,
+    "japanese": "前[0x0367]２人がフェイント獲得をしたスキに、残りの１人が空 \n中から一気に宝の経所をねらう。獲得回数は全員１回に限 \n復されるが、３人目はクリティカル果が大きくアップする。",
+    "english": "Two front row members feint while the third\nstrikes from above at the enemy's weak point.\nAll members attack once, but the third member's\ncritical rate is greatly increased."
+  },
+  {
+    "resource": 39,
+    "msg_index": 279,
+    "japanese": "前内[0x0367]の２人でホーリーシンボルを切り、解力なディスペ \nルを行う。不開族に対して、有大な消呪がある。",
+    "english": "A front and back row member trace a holy\nsymbol and perform a powerful Dispel.\nExtremely effective against undead."
+  },
+  {
+    "resource": 39,
+    "msg_index": 280,
+    "japanese": "内[0x0367]の１人が騎力でワープゲートを造り、前[0x0367]３人が突入、\nターンの早内に上空のゲートから落下獲得を行う。宝の解 \n消力を使[0x03de]できる。空中にいる壁は獲得目[0x0297]とならない。",
+    "english": "One back row member creates a warp gate, and\nthree front row members dive-attack from an\naerial gate. Can reduce enemy defense.\nAirborne enemies cannot be targeted."
+  },
+  {
+    "resource": 39,
+    "msg_index": 281,
+    "japanese": "スレイクラッシュが、モンクの追加によって変除したもの。\n２人が気力をこめて宝像をかけ向け、そして帰る。行きと \n帰りでダメージを与え、かつ不開族を倒すことができる。",
+    "english": "Evolved Slay Crash with a Monk.\nTwo members charge through the enemy with\nspirit energy, dealing damage on the charge\nand return, and can destroy undead."
+  },
+  {
+    "resource": 39,
+    "msg_index": 282,
+    "japanese": "wスラッシュが、兵士の追加によって変除したもの。   \n前[0x0367]２人が武器を振るってカマイタチを発生させ、獲得。 \n目[0x0297]の内方にいる宝にもダメージを与えることがある。",
+    "english": "Evolved W-Slash with a Fighter.\nTwo front row members swing their weapons to\ncreate a shockwave. May also damage enemies\nbehind the target."
+  },
+  {
+    "resource": 39,
+    "msg_index": 283,
+    "japanese": "前[0x0367]３人が、一体になって武器を振り回しながら、宝の \n前を一気にかけぬけ、宝前[0x0367]１容にダメージを与える。  \n与えるダメージこそ高いが、低い命中果がポイント。",
+    "english": "Three front row members charge through the\nentire enemy front row as one, dealing damage\nto each enemy. High damage but low hit rate."
+  },
+  {
+    "resource": 39,
+    "msg_index": 284,
+    "japanese": "スタンスマッシュが、義賊・美盗の追加によって変除し \nたもの。[0x036b]がフェイント獲得を行って命中果を上げ、す \nかさずもう１人が獲得をたたきこみ、宝を気有させる。",
+    "english": "Evolved Stun Smash with a Gizoku/Bitou.\nThe decoy performs a feint to boost hit rate,\nthen the other strikes to stun the enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 285,
+    "japanese": "バックアタックが、侍の追加によって変除したもの。   \n侍の[0x02a9]編によって、より解力なカウンター獲得にくわえて、\n宝を[0x03d1]制させることすらある。",
+    "english": "Evolved Back Attack with a Samurai.\nThe samurai's swordsmanship enables an even\nmore powerful counterattack that can also\nparalyze the enemy."
+  },
+  {
+    "resource": 39,
+    "msg_index": 286,
+    "japanese": "s・j・aが、暗兵士の追加によって変除したもの。   \n上空から気をこめて武器をたたきつけることでフィールド \nを大きくゆるがせ、宝全体にダメージと気有を与える。",
+    "english": "Evolved SJ Attack with a Dark Knight.\nSlams a spirit-charged weapon from above to\ncreate a shockwave, dealing damage and\nstunning all enemies."
+  },
+  {
+    "resource": 39,
+    "msg_index": 287,
+    "japanese": "ホールドアタックが、集教の追加によって変除したもの。 \n内[0x0367]が宝をホールドする受に宝のスキを見向き、そこを前 \n[0x0367]が獲得することで、より解力なダメージを与える。",
+    "english": "Evolved Hold Attack with a Bishop.\nThe back row spots the enemy's weakness while\nholding, allowing the front row to deal even\ngreater damage."
+  },
+  {
+    "resource": 39,
+    "msg_index": 288,
+    "japanese": "２人",
+    "english": "2 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 289,
+    "japanese": "１人",
+    "english": "1 member"
+  },
+  {
+    "resource": 39,
+    "msg_index": 290,
+    "japanese": "mp[0x020a]著者１人",
+    "english": "1 MP user"
+  },
+  {
+    "resource": 39,
+    "msg_index": 291,
+    "japanese": "１人",
+    "english": "1 member"
+  },
+  {
+    "resource": 39,
+    "msg_index": 292,
+    "japanese": "mp[0x020a]著者１人",
+    "english": "1 MP user"
+  },
+  {
+    "resource": 39,
+    "msg_index": 293,
+    "japanese": "１人",
+    "english": "1 member"
+  },
+  {
+    "resource": 39,
+    "msg_index": 294,
+    "japanese": "mp[0x020a]著者１人",
+    "english": "1 MP user"
+  },
+  {
+    "resource": 39,
+    "msg_index": 295,
+    "japanese": "となりあう２人",
+    "english": "2 adjacent members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 296,
+    "japanese": "２人",
+    "english": "2 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 297,
+    "japanese": "mp[0x020a]著者２人",
+    "english": "2 MP users"
+  },
+  {
+    "resource": 39,
+    "msg_index": 298,
+    "japanese": "２人以上全員",
+    "english": "2 or more, all members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 299,
+    "japanese": "mp[0x020a]著者２人",
+    "english": "2 MP users"
+  },
+  {
+    "resource": 39,
+    "msg_index": 300,
+    "japanese": "mp[0x020a]著者３人",
+    "english": "3 MP users"
+  },
+  {
+    "resource": 39,
+    "msg_index": 301,
+    "japanese": "mp[0x020a]著者３人",
+    "english": "3 MP users"
+  },
+  {
+    "resource": 39,
+    "msg_index": 302,
+    "japanese": "２人以上全員",
+    "english": "2 or more, all members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 303,
+    "japanese": "２人以上全員",
+    "english": "2 or more, all members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 304,
+    "japanese": "１−２人",
+    "english": "1-2 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 305,
+    "japanese": "全員",
+    "english": "All members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 306,
+    "japanese": "１−２人",
+    "english": "1-2 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 307,
+    "japanese": "２人",
+    "english": "2 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 308,
+    "japanese": "２人",
+    "english": "2 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 309,
+    "japanese": "３人",
+    "english": "3 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 310,
+    "japanese": "mp[0x020a]著者３人",
+    "english": "3 MP users"
+  },
+  {
+    "resource": 39,
+    "msg_index": 311,
+    "japanese": "mp[0x020a]著者３人",
+    "english": "3 MP users"
+  },
+  {
+    "resource": 39,
+    "msg_index": 312,
+    "japanese": "同じ騎法をもつとなりあう２人",
+    "english": "2 adjacent members with same spell"
+  },
+  {
+    "resource": 39,
+    "msg_index": 313,
+    "japanese": "内[0x0367]騎法使息者と獲得者１人ずつ",
+    "english": "1 back row caster and 1 attacker"
+  },
+  {
+    "resource": 39,
+    "msg_index": 314,
+    "japanese": "",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 315,
+    "japanese": "mp[0x020a]著者２人",
+    "english": "2 MP users"
+  },
+  {
+    "resource": 39,
+    "msg_index": 316,
+    "japanese": "３人",
+    "english": "3 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 317,
+    "japanese": "３人",
+    "english": "3 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 318,
+    "japanese": "４人以上全員",
+    "english": "4 or more, all members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 319,
+    "japanese": "３人",
+    "english": "3 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 320,
+    "japanese": "ディスペル可能者前内２人",
+    "english": "2 Dispel-capable front and back members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 321,
+    "japanese": "３人",
+    "english": "3 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 322,
+    "japanese": "mp[0x020a]著者１人",
+    "english": "1 MP user"
+  },
+  {
+    "resource": 39,
+    "msg_index": 323,
+    "japanese": "３人",
+    "english": "3 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 324,
+    "japanese": "３人",
+    "english": "3 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 325,
+    "japanese": "となりあう２人",
+    "english": "2 adjacent members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 326,
+    "japanese": "２人",
+    "english": "2 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 327,
+    "japanese": "１人",
+    "english": "1 member"
+  },
+  {
+    "resource": 39,
+    "msg_index": 328,
+    "japanese": "mp[0x020a]著者１人",
+    "english": "1 MP user"
+  },
+  {
+    "resource": 39,
+    "msg_index": 329,
+    "japanese": "３人",
+    "english": "3 members"
+  },
+  {
+    "resource": 39,
+    "msg_index": 330,
+    "japanese": "１人",
+    "english": "1 member"
+  },
+  {
+    "resource": 39,
+    "msg_index": 331,
+    "japanese": "mp[0x020a]著者１人",
+    "english": "1 MP user"
+  },
+  {
+    "resource": 39,
+    "msg_index": 332,
+    "japanese": "１人",
+    "english": "1 member"
+  },
+  {
+    "resource": 39,
+    "msg_index": 333,
+    "japanese": "mp[0x020a]著者１人",
+    "english": "1 MP user"
+  },
+  {
+    "resource": 39,
+    "msg_index": 334,
+    "japanese": "なし",
+    "english": "None"
+  },
+  {
+    "resource": 39,
+    "msg_index": 335,
+    "japanese": "アレイドアクションを全て外しました",
+    "english": "All Alleid Actions have been removed."
+  },
+  {
+    "resource": 39,
+    "msg_index": 336,
+    "japanese": "アレイドアクションが一つもセットされていません",
+    "english": "No Alleid Actions are currently set."
+  },
+  {
+    "resource": 39,
+    "msg_index": 337,
+    "japanese": "アレイドアクションのセッティングを元に帰しました",
+    "english": "Alleid Action settings have been reset."
+  },
+  {
+    "resource": 39,
+    "msg_index": 338,
+    "japanese": "部隊を変更し、終了しますか？",
+    "english": "Change formation and exit?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 339,
+    "japanese": "apが足りません",
+    "english": "Not enough AP."
+  },
+  {
+    "resource": 39,
+    "msg_index": 340,
+    "japanese": "部隊を変更せずに終了します よろしいですか？",
+    "english": "Exit without changing formation?\nAre you sure?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 341,
+    "japanese": "",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 342,
+    "japanese": "[0x0375]がサレム教会の著り発用を\n世にひろく知らしめるという、立派な\n依頼をまかせてあげてもかまいませんよ。",
+    "english": "I don't mind entrusting you with the noble\ntask of spreading the healing power of the\nChurch of Salem throughout the world."
+  },
+  {
+    "resource": 39,
+    "msg_index": 343,
+    "japanese": "われらがヴィガー商店では、\nただ今、新入社員をボシュウしてます。\nボシュウ人員はたった１人 \n入社長方者はエントリーシートを\n持って、店へ来てください",
+    "english": "Our Vigger Shop is currently recruiting\nnew employees! Only one position available.\nApplicants, please bring your entry sheet\nto the shop."
+  },
+  {
+    "resource": 39,
+    "msg_index": 344,
+    "japanese": "これを死んだ方、今すぐ迷宮地下５階の、\n一回ワープしたすぐ内の小部屋に、カンバンを\n立てておくので、そこまで来てください \nとにかく経いでます \n能しいことは、来てくれたらはなします",
+    "english": "If you're reading this, please come\nimmediately to the small room just past the\nfirst warp on B5F. I'll put up a sign there.\nI'm in a real hurry.\nI'll explain when you get here."
+  },
+  {
+    "resource": 39,
+    "msg_index": 345,
+    "japanese": "騎法を覚えたいのに騎法団がありません。\n騎法を覚えないと、のたれ開んでしまいます。\nおねがいです。クレタの騎法団をください。\nとっても、いそいでます。おそいとだめです。\n今すぐくれる人、おねがいします。",
+    "english": "I want to learn magic but I don't have any\nmagic stones. Without magic, I'll waste away.\nPlease give me a Kreta magic stone.\nI'm in a terrible hurry. Too late means over.\nAnyone who can help right now, please do."
+  },
+  {
+    "resource": 39,
+    "msg_index": 346,
+    "japanese": "オレっチとジャンケン勤勉で５連勤すれば\nいいものをやろう だが勉ければ[0x03dc]リープ \n追加[0x021e]は１回につき打れた祠１個 \n[0x0340]に自信のあるヤツは迷宮b２、ろうやが\nたくさんある階にある小部屋に集編",
+    "english": "Beat me at 5 rounds of Rock-Paper-Scissors\nand I'll give you something good! But if you\nlose, you get Ripu'd! Fee: 1 medal per loss.\nConfident in your luck? Come to B2F, the\nsmall room on the floor with lots of cells."
+  },
+  {
+    "resource": 39,
+    "msg_index": 347,
+    "japanese": "このたびドゥーハン器では、冒険者[0x0362]助\n書を増立いたしました。\n絶場に仲壁を５人連れてきていただいた\n人全員に、特別冒険者手間てとして\n５００gを交階いたします。",
+    "english": "Duhan Castle has recently established an\nAdventurer Assistance Program.\nBring 5 companions to the Castle and\neach person will receive a special\nadventurer stipend of 500G."
+  },
+  {
+    "resource": 39,
+    "msg_index": 348,
+    "japanese": "大頼な、カワイイ、口しい\nピッピちゃんを連れて、\n地下８階まで行ってきてくれ",
+    "english": "Please take my precious, adorable Pippi\ndown to B8F of the labyrinth."
+  },
+  {
+    "resource": 39,
+    "msg_index": 349,
+    "japanese": "迷宮[0x0319]で、古古エルフ王戦の遺[0x03e0]が見つ\nかったという情報が入った。\n冒書与蓄に必要な品が手に入るかもしれ\nない。迷宮３階のスクラップ置き場まで\n行って結かめてくれないか？",
+    "english": "Information has come in that ruins of an\nancient Elf kingdom were found in the\nlabyrinth. Items needed for the book of\nadventures may be there. Go to the scrap\nyard on B3F and investigate."
+  },
+  {
+    "resource": 39,
+    "msg_index": 350,
+    "japanese": "とってもちっちゃくてかわいい\nピクシーちゃんが気になります。\nピクシーのこと知りつくしてる人 \nぼくと一緒に重くかたろうよ～",
+    "english": "I'm really curious about those tiny, adorable\nPixies.\nAnyone who knows everything about Pixies,\nlet's talk about them together!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 351,
+    "japanese": "オレ、オーガのオヤジにメダル２０[0x03e6]\nかりっぱなしでよ、取り立てに追われて\n将れてるんだ \n頼む、オレにメダルをくれ \nオレは逃多生活をやめたいんだって",
+    "english": "I borrowed 20 medals from the Ogre boss\nand debt collectors are after me.\nI'm exhausted.\nPlease, give me medals.\nI just want to stop living on the run."
+  },
+  {
+    "resource": 39,
+    "msg_index": 352,
+    "japanese": "とってもセクシーなサキュバスねえさま \nああ、いじめられたい \nそんなぼくといっぱいはなしましょう",
+    "english": "Oh, the incredibly sexy Succubus ladies...\nAh, I want to be tormented.\nLet's have a nice long chat about that."
+  },
+  {
+    "resource": 39,
+    "msg_index": 353,
+    "japanese": "この依頼を受けてくださった方に\n報酬として、とちをおゆずりします。\n依頼[0x0319]王は受けてくださった方にのみ\nおはなしします。\n兵士団の方はごえんりょねがいます。",
+    "english": "As a reward for accepting this request,\nI will transfer a piece of land to you.\nDetails will only be shared with those\nwho accept.\nKnight Order members, please refrain."
+  },
+  {
+    "resource": 39,
+    "msg_index": 354,
+    "japanese": "一方通行になってる常から出られなく\nなっちゃったんだってば \nはやく、助けて \nこの階のどこかの落とし穴に落ちちゃって\nここにいるわけなんだけども",
+    "english": "I'm stuck in a one-way passage and\ncan't get out!\nPlease hurry and help me!\nI fell through a trapdoor on this floor\nand ended up here."
+  },
+  {
+    "resource": 39,
+    "msg_index": 355,
+    "japanese": "b４とb１をつなぐ騎法像の部屋に\nカギがかかっていてこまってるの。\nインゴならなんとかできるはず。\nb４にあるインゴの将れ家へいって\nカギをもらってきて",
+    "english": "The magic portal room connecting B4F and B1F\nis locked and I'm in trouble.\nIngo should be able to help.\nPlease go to Ingo's hideout on B4F\nand get the key."
+  },
+  {
+    "resource": 39,
+    "msg_index": 356,
+    "japanese": "オレさまがちょちょいと造ってやったカギ、\nほしがるヤツが出てくるのはわかってたぜ \nだがタダでやるワケねえだろう \nほしけりゃオレさまの依頼道闘である\n小人の[0x033a]のスペアを１[0x03e6]持ってこい",
+    "english": "I knew someone would want the key I made!\nBut I'm not giving it away for free.\nIf you want it, bring me a spare\nGnome's Ring as my price."
+  },
+  {
+    "resource": 39,
+    "msg_index": 357,
+    "japanese": "クンナルっていう腕色の悪い冒書事持が\nいるんだけど、そいつがどっか行っちゃって\nこまってるの \n悪いけど探して、見かけたらとっとと\n帰ってこいって言ってくれないかな～？",
+    "english": "A shady adventurer named Kunnal has gone\nmissing somewhere. I'm in trouble.\nPlease find him and tell him\nto come back immediately."
+  },
+  {
+    "resource": 39,
+    "msg_index": 358,
+    "japanese": "間店でトラップゲームコンテストをします。\nゲームに自信のある方は、ふるって\nエントリーしてください。\n見頼チャンピオンにかがやいた方には\nレアアイテムをさしあげます。",
+    "english": "We're holding a Trap Game Contest at the\ntavern. Anyone confident in their skills,\nplease sign up!\nThe grand champion will receive\na rare item."
+  },
+  {
+    "resource": 39,
+    "msg_index": 359,
+    "japanese": "サキュバスねえさまとおなはししたいけど\nすぐに逃げていっちゃうんだ。\nいまがおはなしのチャンス \n目の前で[0x03da]るサキュバスねえさまを\nとりおさえておいてほしいんだ～。",
+    "english": "I want to talk to the Succubus ladies but\nthey always run away.\nNow's my chance!\nPlease catch a Succubus that appears\nright in front of me and hold her!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 360,
+    "japanese": "兵士団では、[0x03c3][0x03ca]内に加入されている\n冒険者のレベルチェックを行っております。\nどのくらい迷宮・冒険についてよく\n知っているかといったテストです。\n御用がある方はまず依頼を受けてください。",
+    "english": "The Knight Order is conducting level checks\non registered adventurers.\nThis is a test of how well you know\nthe labyrinth and adventuring.\nInterested parties, accept the request first."
+  },
+  {
+    "resource": 39,
+    "msg_index": 361,
+    "japanese": "一人前の騎事持になるために、日手避行を\nしているエルフの女の子メラーニエと\nそのマネージャーのミリィです \nたくさん騎法を覚えたいので、冒書事持の\nいるパーティにいれてください",
+    "english": "I'm Melanie, an elf girl training daily\nto become a full-fledged mage,\nand my manager Miri.\nI want to learn lots of spells, so please\nlet me join a party with adventurers."
+  },
+  {
+    "resource": 39,
+    "msg_index": 362,
+    "japanese": "わたしの体をさがしてください。\nわたしはずっとむかし、ひとりで\nあやしいきょうかいにしのびこんだとき\nこわいかおのしきょうさまに\nころされてしまいました。",
+    "english": "Please find my body.\nA long time ago, I snuck into\na suspicious church all by myself.\nA scary-faced priest\nkilled me."
+  },
+  {
+    "resource": 39,
+    "msg_index": 363,
+    "japanese": "アタシの大頼な大頼な宝士を、地下１階の\nおっかない部屋に落っことしてきて\nしまったんだわさ \nちょっとここには書けないけど、いいもの\nあげるから、おねがい、ひろってきて",
+    "english": "I dropped my precious treasure chest\nin the scary room on B1F.\nI can't write the details here, but\nI'll give you something nice, so please,\ngo pick it up for me."
+  },
+  {
+    "resource": 39,
+    "msg_index": 364,
+    "japanese": "ドゥーハン商人ギルドで[0x026f][0x0268]していた\nカルマン探索ツアーのガイドが一名\n経に冒員となり、古わりのガイドさんを\n探しています \n迷宮探索に自信のある方、待ってます",
+    "english": "The guide for the Karman Exploration Tour\norganized by the Duhan Merchant Guild has\nsuddenly become an adventurer, and we need\na replacement guide.\nConfident explorers, we're waiting for you."
+  },
+  {
+    "resource": 39,
+    "msg_index": 365,
+    "japanese": "侍道を差め、新たなる光を見出すため\nには一進の職人によってつくられた鎧が\n必要であると感じた。\nどなたか手に入れてもらえないだろうか？",
+    "english": "To master the way of the samurai and find\na new light, I feel I need armor crafted by\na master artisan.\nWould someone obtain one for me?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 366,
+    "japanese": "やっとの思いで手に入れた一進の鎧。\nだが新たなる光を見出すにはまだ\nまだ何かが足りぬようだ。\nそこでこの鎧を迷宮の欠岩できた\nえてきてはもらえぬだろうか？",
+    "english": "The masterwork armor, obtained with great\neffort. But to find the new light, something\nis still missing.\nSo I'd like someone to temper this armor\nin the labyrinth's lava rocks."
+  },
+  {
+    "resource": 39,
+    "msg_index": 367,
+    "japanese": "一進の鎧に迷宮の騎力をそそぎこみ、\n早解にきたえぬいた鎧で日手戦い向いて\nきたがまだ何かが足りない。そこで異人\nの戦いというものをじっくり見士したい。\n一進の武士からのもうし出を待つ",
+    "english": "I poured the labyrinth's magic into the\nmasterwork armor and tempered it rigorously,\nbut something is still missing. I'd like to\nobserve foreign fighting styles.\nAwaiting a challenge from a master warrior."
+  },
+  {
+    "resource": 39,
+    "msg_index": 368,
+    "japanese": "ワシの造った秘[0x0346]を地下１階の\nわき水に休ぜてきてくれんかの？",
+    "english": "Could you go mix my secret potion\ninto the spring water on B1F?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 369,
+    "japanese": "ワシの造った秘[0x0346]を今度は地下２階の\nわき水に休ぜてきてくれんかの？",
+    "english": "Could you go mix my secret potion\ninto the spring water on B2F this time?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 370,
+    "japanese": "ワシの造った秘[0x0346]があと１個あまっておる\nんじゃが、持っていても使い道がないから\nのう。なんでも地下６階にはふん水がある\nそうじゃないか。\nそのふん水で回復できたら[0x03c4][0x03c8]じゃろ？",
+    "english": "I have one more secret potion left, but\nno use for it. I hear there's a fountain\non B6F.\nWouldn't it be wonderful if it could\nheal you there?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 371,
+    "japanese": "ボクは、開神にとり[0x03d6]かれた人を\n見たことがないので、あってみたいです。\n迷宮で開神に[0x03d6]かれた[0x03ec]態で、\n絶場まで帰ってきてくれればいいです。\nよろしくおねがいします。",
+    "english": "I've never seen anyone possessed by a death\nspirit, so I'd like to meet one.\nPlease come back to the Castle while\npossessed by a death spirit.\nThank you in advance."
+  },
+  {
+    "resource": 39,
+    "msg_index": 372,
+    "japanese": "子分がどこかへいっちまったんだよ。\nオークのキャスタっていうんだけど\n探してきておくれよ。\n地下５階のさびたカギのかかった部屋に\nかくれていそうなんだけど！。",
+    "english": "My underling has gone missing.\nAn orc named Casta.\nPlease go find him.\nHe's probably hiding in the room with\nthe rusty key on B5F!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 373,
+    "japanese": "オダのことをボカーン てなぐった\nわるいボウケンシャをこらしめてくで \nあいつは５かいの、きたのにしのへやで\nへんなぞうをずっとしらべてたから、\nそのへんにいるとおもうだ",
+    "english": "Punish the bad adventurer who punched\nmy friend!\nHe was examining a weird statue on B5F,\nin the room to the northwest,\nso he should be around there."
+  },
+  {
+    "resource": 39,
+    "msg_index": 374,
+    "japanese": "地下１０階のどこかに、部屋の力ん中に\n大きな水瓶が飾られている部屋があるはず\nなんだけど、場所がわからないんだよ。\nあそこへ行けば、元の受古に帰れると\n思うから、連れてっておくれよ。",
+    "english": "Somewhere on B10F, there should be a room\nwith a large water vase in the center.\nI don't know where it is though.\nIf I can get there, I think I can return\nto my former time, so please take me there."
+  },
+  {
+    "resource": 39,
+    "msg_index": 375,
+    "japanese": "",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 376,
+    "japanese": "フーケ",
+    "english": "Fuke"
+  },
+  {
+    "resource": 39,
+    "msg_index": 377,
+    "japanese": "ルーシー",
+    "english": "Lucy"
+  },
+  {
+    "resource": 39,
+    "msg_index": 378,
+    "japanese": "オロガド",
+    "english": "Orogad"
+  },
+  {
+    "resource": 39,
+    "msg_index": 379,
+    "japanese": "ミリィ",
+    "english": "Miri"
+  },
+  {
+    "resource": 39,
+    "msg_index": 380,
+    "japanese": "ジャンケンマン",
+    "english": "Rock-Paper-Scissors Man"
+  },
+  {
+    "resource": 39,
+    "msg_index": 381,
+    "japanese": "ドゥーハン器長",
+    "english": "Castle Steward"
+  },
+  {
+    "resource": 39,
+    "msg_index": 382,
+    "japanese": "アンガス",
+    "english": "Angus"
+  },
+  {
+    "resource": 39,
+    "msg_index": 383,
+    "japanese": "ギヨーム",
+    "english": "Guillaume"
+  },
+  {
+    "resource": 39,
+    "msg_index": 384,
+    "japanese": "ヨッペン",
+    "english": "Yoppen"
+  },
+  {
+    "resource": 39,
+    "msg_index": 385,
+    "japanese": "気の毒なイムプ",
+    "english": "Pitiful Imp"
+  },
+  {
+    "resource": 39,
+    "msg_index": 386,
+    "japanese": "インゴ",
+    "english": "Ingo"
+  },
+  {
+    "resource": 39,
+    "msg_index": 387,
+    "japanese": "コンテスト終了",
+    "english": "Contest Over"
+  },
+  {
+    "resource": 39,
+    "msg_index": 388,
+    "japanese": "ローミ",
+    "english": "Lomi"
+  },
+  {
+    "resource": 39,
+    "msg_index": 389,
+    "japanese": "ポポー",
+    "english": "Popo"
+  },
+  {
+    "resource": 39,
+    "msg_index": 390,
+    "japanese": "商人ギルド",
+    "english": "Merchant Guild"
+  },
+  {
+    "resource": 39,
+    "msg_index": 391,
+    "japanese": "フドウ",
+    "english": "Fudo"
+  },
+  {
+    "resource": 39,
+    "msg_index": 392,
+    "japanese": "ラング",
+    "english": "Rang"
+  },
+  {
+    "resource": 39,
+    "msg_index": 393,
+    "japanese": "？？？がいずみに向かいはじめた",
+    "english": "??? has started heading for the spring."
+  },
+  {
+    "resource": 39,
+    "msg_index": 394,
+    "japanese": "絶場",
+    "english": "Castle"
+  },
+  {
+    "resource": 39,
+    "msg_index": 395,
+    "japanese": "スコーン",
+    "english": "Scone"
+  },
+  {
+    "resource": 39,
+    "msg_index": 396,
+    "japanese": "アンケート期限",
+    "english": "Survey Deadline"
+  },
+  {
+    "resource": 39,
+    "msg_index": 397,
+    "japanese": "ローグが迷宮５階に向かいはじめた",
+    "english": "Rogue has started heading for B5F."
+  },
+  {
+    "resource": 39,
+    "msg_index": 398,
+    "japanese": "兵士団",
+    "english": "Knight Order"
+  },
+  {
+    "resource": 39,
+    "msg_index": 399,
+    "japanese": "[0x020b]戻の期限になってしまった",
+    "english": "The return deadline has passed."
+  },
+  {
+    "resource": 39,
+    "msg_index": 400,
+    "japanese": "リディ",
+    "english": "Lidi"
+  },
+  {
+    "resource": 39,
+    "msg_index": 401,
+    "japanese": "ヴァーゴ",
+    "english": "Vago"
+  },
+  {
+    "resource": 39,
+    "msg_index": 402,
+    "japanese": "キャスタ",
+    "english": "Casta"
+  },
+  {
+    "resource": 39,
+    "msg_index": 403,
+    "japanese": "ジャンケンマンをねらう影が！",
+    "english": "A shadow is targeting Rock-Paper-Scissors Man!"
+  }
+]

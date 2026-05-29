@@ -307,12 +307,40 @@ These are **demo disc splash screens** left over in the retail build:
 
 ---
 
+### Wave 2 Results
+
+#### Full Dialogue Scan [COMPLETE]
+- 138 of ~304 text resources translated (45.4% by count, ~76.6% by line count)
+- **166 untranslated text resources remain**:
+  - 46 MSG-format type-02 (main dialogue): 29 dungeon/event (R680-R911), 3 large system (R1067/R1095/R1103), 3 text tables (R2217-R2219, ~2,500 groups!), 10 smaller
+  - 101 ICS-format type-02 (R1911-R2026): small scenario scripts, 2-8 groups each (~314 groups total)
+  - 19 non-type-02 text resources (R34-R49 system menus etc.)
+
+#### Glyph Mapping: 864→1100 (+236 new kanji)
+- FE:xx range confirmed as control codes, NOT unmapped glyphs
+- R1163-R1173 confirmed as layout templates, NOT narration
+- 565 standard-range glyphs remain unmapped (low-frequency)
+
+#### R39 Equipment: 545 translations created
+- Sections 1-7: 307 entries (spells, Alleid Actions, quests)
+- Sections 8-14: 238 entries (quest UI, skills, shops, equipment types, party ranks)
+
+#### R1193 Fix: Build warning eliminated
+- Trailing unterminated data was being counted as group 3
+- R1193 excluded from Step 4 (handled by Step 5 manual inject)
+
+#### batch_gap681.json: Deleted (was research note, not translations)
+
+#### Resources confirmed as non-text: R1163-R1173, R1186, R2129, R1168-R1173
+
+---
+
 ## Summary Counters
 | Category | Estimated Items | Status |
 |----------|----------------|--------|
 | EXE glyph tables | ~~293~~ **composite glyphs + kana keyboard** | TEXTURE problem, not glyph swap |
 | R39 equipment messages | **655 total** (84/97 OT done, 558 sequential TODO) | M8 root cause found — 3 bugs |
-| R1100-1190 dialogue | ~~484~~ **54 messages** | Scope corrected |
+| R1100-1190 dialogue | ~~484~~ ~~54~~ **0 — all layout templates** | FALSE POSITIVE eliminated |
 | CockpitImg textures | R2118-R2124 are **DEMO DISC leftovers**, not tavern UI | PSMT8 deswizzle SOLVED, real UI location TBD |
 | Narration textures | R1193+R1194 are **standard MSG glyph text!** | MEDIUM — use existing pipeline, map ~50 glyphs |
 | Name entry font | R1189 is PSMT4 atlas (512x256), R1188 is GS draw commands | Edit R1189 atlas for tab labels, need PSMT4 deswizzle |

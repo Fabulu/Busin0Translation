@@ -1,0 +1,1430 @@
+[
+  {
+    "resource": 39,
+    "msg_index": 412,
+    "japanese": " [FFFE]",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 413,
+    "japanese": "この依頼を引き受けますか？[FFFE]",
+    "english": "Accept this request?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 414,
+    "japanese": "この依頼を紹棄しますか？[FFFE]",
+    "english": "Abandon this request?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 415,
+    "japanese": "依頼を紹棄すれば信頼度が下がります。[FFFE]それでもよろしいでしょうか？[FFFE]",
+    "english": "Abandoning a request will\nlower your trust rating.\nAre you sure?"
+  },
+  {
+    "resource": 39,
+    "msg_index": 416,
+    "japanese": "は い[FFFE]",
+    "english": "Yes"
+  },
+  {
+    "resource": 39,
+    "msg_index": 417,
+    "japanese": "いいえ[FFFE]",
+    "english": "No"
+  },
+  {
+    "resource": 39,
+    "msg_index": 418,
+    "japanese": "依頼人[FFFE]",
+    "english": "Client"
+  },
+  {
+    "resource": 39,
+    "msg_index": 419,
+    "japanese": "報酬[FFFE]",
+    "english": "Reward"
+  },
+  {
+    "resource": 39,
+    "msg_index": 420,
+    "japanese": "[03E9]編開錠日[FFFE]",
+    "english": "Estimated Deadline"
+  },
+  {
+    "resource": 39,
+    "msg_index": 421,
+    "japanese": "依頼引き受けより[FFFE]",
+    "english": "From Acceptance"
+  },
+  {
+    "resource": 39,
+    "msg_index": 422,
+    "japanese": "日[FFFE]",
+    "english": "Day(s)"
+  },
+  {
+    "resource": 39,
+    "msg_index": 423,
+    "japanese": "これ以上引き受けられません[FFFE]",
+    "english": "Cannot accept any more"
+  },
+  {
+    "resource": 39,
+    "msg_index": 424,
+    "japanese": "なし[FFFE]",
+    "english": "None"
+  },
+  {
+    "resource": 39,
+    "msg_index": 425,
+    "japanese": "g[FFFE]",
+    "english": "G"
+  },
+  {
+    "resource": 39,
+    "msg_index": 426,
+    "japanese": "依頼達隊[FFFE]",
+    "english": "Request Failed"
+  },
+  {
+    "resource": 39,
+    "msg_index": 427,
+    "japanese": "依頼紹棄[FFFE]",
+    "english": "Request Abandoned"
+  },
+  {
+    "resource": 39,
+    "msg_index": 428,
+    "japanese": "依頼成功[FFFE]",
+    "english": "Request Completed"
+  },
+  {
+    "resource": 39,
+    "msg_index": 429,
+    "japanese": "器民からの依頼[FFFE]",
+    "english": "Request from Citizens"
+  },
+  {
+    "resource": 39,
+    "msg_index": 430,
+    "japanese": "冒険者からの依頼[FFFE]",
+    "english": "Request from Adventurers"
+  },
+  {
+    "resource": 39,
+    "msg_index": 431,
+    "japanese": "宣暗街からの依頼[FFFE]",
+    "english": "Request from Dark Street"
+  },
+  {
+    "resource": 39,
+    "msg_index": 432,
+    "japanese": "オーダー[FFFE]",
+    "english": "Order"
+  },
+  {
+    "resource": 39,
+    "msg_index": 433,
+    "japanese": "依頼[FFFE]",
+    "english": "Request"
+  },
+  {
+    "resource": 39,
+    "msg_index": 434,
+    "japanese": "依頼を受けていません[FFFE]",
+    "english": "No active requests"
+  },
+  {
+    "resource": 39,
+    "msg_index": 435,
+    "japanese": "オーダーを受けていません[FFFE]",
+    "english": "No active orders"
+  },
+  {
+    "resource": 39,
+    "msg_index": 436,
+    "japanese": "あと[FFFE]",
+    "english": "Remaining"
+  },
+  {
+    "resource": 39,
+    "msg_index": 437,
+    "japanese": "期限オーバー[FFFE]",
+    "english": "Deadline Passed"
+  },
+  {
+    "resource": 39,
+    "msg_index": 438,
+    "japanese": "[03E9]編中[FFFE]",
+    "english": "In Progress"
+  },
+  {
+    "resource": 39,
+    "msg_index": 439,
+    "japanese": "と[03E9]編中[FFFE]",
+    "english": "Also In Progress"
+  },
+  {
+    "resource": 39,
+    "msg_index": 440,
+    "japanese": "「引受可能」[FFFE]",
+    "english": "\"Accepting\""
+  },
+  {
+    "resource": 39,
+    "msg_index": 441,
+    "japanese": "対応終了[FFFE]",
+    "english": "Completed"
+  },
+  {
+    "resource": 39,
+    "msg_index": 443,
+    "japanese": " [FFFE]",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 444,
+    "japanese": "サレム教会[0390]教活動[FFFE]",
+    "english": "Salem Church Missionary Work"
+  },
+  {
+    "resource": 39,
+    "msg_index": 445,
+    "japanese": "社員ボシュウ [FFFE]",
+    "english": "Recruiting Employees"
+  },
+  {
+    "resource": 39,
+    "msg_index": 446,
+    "japanese": "地下５階まで来てください [FFFE]",
+    "english": "Come to B5F"
+  },
+  {
+    "resource": 39,
+    "msg_index": 447,
+    "japanese": "クレタの騎法団長方[FFFE]",
+    "english": "Kreta Spell Book Wanted"
+  },
+  {
+    "resource": 39,
+    "msg_index": 448,
+    "japanese": "集え、ジャンケン小神 [FFFE]",
+    "english": "Gather, Janken Masters!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 449,
+    "japanese": "冒険者[0362]助書[FFFE]",
+    "english": "Adventurer Support Plan"
+  },
+  {
+    "resource": 39,
+    "msg_index": 450,
+    "japanese": "ピッピちゃんを頼む[FFFE]",
+    "english": "Please Take Care of Pippi"
+  },
+  {
+    "resource": 39,
+    "msg_index": 451,
+    "japanese": "古古王戦の秘宝[FFFE]",
+    "english": "Treasure of the Ancient Royal Palace"
+  },
+  {
+    "resource": 39,
+    "msg_index": 452,
+    "japanese": "ピクシーについて[FFFE]",
+    "english": "About Pixies"
+  },
+  {
+    "resource": 39,
+    "msg_index": 453,
+    "japanese": "オレにメダルをくれ[FFFE]",
+    "english": "Give Me Medals"
+  },
+  {
+    "resource": 39,
+    "msg_index": 454,
+    "japanese": "サキュバスファンの集い[FFFE]",
+    "english": "Succubus Fan Gathering"
+  },
+  {
+    "resource": 39,
+    "msg_index": 455,
+    "japanese": "[0387]地をおゆずりします[FFFE]",
+    "english": "Land For Sale"
+  },
+  {
+    "resource": 39,
+    "msg_index": 456,
+    "japanese": "アタイを助けて [FFFE]",
+    "english": "Help Me!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 457,
+    "japanese": "インゴのカギがほしい[FFFE]",
+    "english": "Want Ingo's Key"
+  },
+  {
+    "resource": 39,
+    "msg_index": 458,
+    "japanese": "インゴのカギがほしければ！[FFFE]",
+    "english": "If You Want Ingo's Key!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 459,
+    "japanese": "クンナルを探してほしい[FFFE]",
+    "english": "Search for Kunnal"
+  },
+  {
+    "resource": 39,
+    "msg_index": 460,
+    "japanese": "トラップゲームコンテスト[FFFE]",
+    "english": "Trap Game Contest"
+  },
+  {
+    "resource": 39,
+    "msg_index": 461,
+    "japanese": "サキュバスをつかまえて[FFFE]",
+    "english": "Capture the Succubus"
+  },
+  {
+    "resource": 39,
+    "msg_index": 462,
+    "japanese": "迷宮アンケート[FFFE]",
+    "english": "Labyrinth Survey"
+  },
+  {
+    "resource": 39,
+    "msg_index": 463,
+    "japanese": "冒書事持パーティに入れて [FFFE]",
+    "english": "Let Me Join a Party!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 464,
+    "japanese": "体をさがして！[FFFE]",
+    "english": "Find My Body!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 465,
+    "japanese": "忘れ士をひろってきて[FFFE]",
+    "english": "Retrieve My Lost Item"
+  },
+  {
+    "resource": 39,
+    "msg_index": 466,
+    "japanese": "カルマンガイド人手配 [FFFE]",
+    "english": "Karman Guide Wanted"
+  },
+  {
+    "resource": 39,
+    "msg_index": 467,
+    "japanese": "一進の鎧、求む[FFFE]",
+    "english": "Seeking Fine Armor"
+  },
+  {
+    "resource": 39,
+    "msg_index": 468,
+    "japanese": "鎧をきたえてほしい[FFFE]",
+    "english": "Please Temper My Armor"
+  },
+  {
+    "resource": 39,
+    "msg_index": 469,
+    "japanese": "一進の戦いが見たい[FFFE]",
+    "english": "I Want to See a Great Battle"
+  },
+  {
+    "resource": 39,
+    "msg_index": 470,
+    "japanese": "回復の層[026F][0268][FFFE]",
+    "english": "Healing Spring Research"
+  },
+  {
+    "resource": 39,
+    "msg_index": 471,
+    "japanese": "回復の層[026F][0268][0061][FFFE]",
+    "english": "Healing Spring Research 2"
+  },
+  {
+    "resource": 39,
+    "msg_index": 472,
+    "japanese": "回復の層[026F][0268][0062][FFFE]",
+    "english": "Healing Spring Research 3"
+  },
+  {
+    "resource": 39,
+    "msg_index": 473,
+    "japanese": "開神に[03D6]かれた人にあいたい[FFFE]",
+    "english": "I Want to Meet Someone Possessed"
+  },
+  {
+    "resource": 39,
+    "msg_index": 474,
+    "japanese": "子分を探してきておくれ[FFFE]",
+    "english": "Find My Subordinate"
+  },
+  {
+    "resource": 39,
+    "msg_index": 475,
+    "japanese": "わるいヤツをこらしめてくで[FFFE]",
+    "english": "Punish the Bad Guy"
+  },
+  {
+    "resource": 39,
+    "msg_index": 476,
+    "japanese": "水瓶の壁へ連れてっておくれ[FFFE]",
+    "english": "Take Me to the Water Jar Room"
+  },
+  {
+    "resource": 39,
+    "msg_index": 478,
+    "japanese": " [FFFE]",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 479,
+    "japanese": "パーティ全員のmpが全回復する[FFFE]spが発動した [FFFE]",
+    "english": "All party members' MP\nfully restored.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 480,
+    "japanese": "パーティ全員のhpが全回復する[FFFE]spが発動した [FFFE]",
+    "english": "All party members' HP\nfully restored.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 481,
+    "japanese": "殿放者の早大hpが上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's max HP increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 482,
+    "japanese": "殿放者の力が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's Strength increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 483,
+    "japanese": "殿放者の知恵が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's Intelligence increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 484,
+    "japanese": "殿放者の信仰心が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's Piety increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 485,
+    "japanese": "殿放者の生命力が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's Vitality increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 486,
+    "japanese": "殿放者の敏捷度が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's Agility increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 487,
+    "japanese": "殿放者の幸運度が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's Luck increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 488,
+    "japanese": "パーティ[0319]の開者がよみがえる[FFFE]spが発動した [FFFE]",
+    "english": "A dead party member\nhas been revived.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 489,
+    "japanese": "殿放者の条果が枚に変除する[FFFE]spが発動した [FFFE]",
+    "english": "User's alignment changed\nto Good.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 490,
+    "japanese": "殿放者の条果が中立に変除する[FFFE]spが発動した [FFFE]",
+    "english": "User's alignment changed\nto Neutral.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 491,
+    "japanese": "殿放者の条果が悪に変除する[FFFE]spが発動した [FFFE]",
+    "english": "User's alignment changed\nto Evil.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 492,
+    "japanese": "殿放者の信頼度が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's trust rating\nincreased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 493,
+    "japanese": "殿放者のexpが上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's EXP increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 494,
+    "japanese": "アレイドの[03FA]練度が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "Allied action proficiency\nincreased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 495,
+    "japanese": "オートマターの心expが[FFFE]上[03E1]するspが発動した [FFFE]",
+    "english": "Automater's inner EXP\nincreased. SP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 496,
+    "japanese": "殿放者の使息回数が[FFFE]回復するspが発動した [FFFE]",
+    "english": "User's ability charges\nrestored. SP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 497,
+    "japanese": "殿放者の持つ武器一つの獲得力が[FFFE]上[03E1]するspが発動した [FFFE]",
+    "english": "Attack power of one\nweapon increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 498,
+    "japanese": "殿放者の解消力が上[03E1]する[FFFE]spが発動した [FFFE]",
+    "english": "User's Defense increased.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 499,
+    "japanese": "パーティ全員のステータス取通が[FFFE]回復するspが発動した [FFFE]",
+    "english": "All party members' status\nailments cured.\nSP activated."
+  },
+  {
+    "resource": 39,
+    "msg_index": 500,
+    "japanese": "spによってフロア[0319]から[FFFE]開神の気配が除えた [FFFE]",
+    "english": "The presence of death\nhas vanished from this\nfloor due to SP."
+  },
+  {
+    "resource": 39,
+    "msg_index": 502,
+    "japanese": "なし[FFFE]",
+    "english": "None"
+  },
+  {
+    "resource": 39,
+    "msg_index": 503,
+    "japanese": "騎力・騎[FFFE]",
+    "english": "Magic Mastery: Arcane"
+  },
+  {
+    "resource": 39,
+    "msg_index": 504,
+    "japanese": "騎力・神[FFFE]",
+    "english": "Magic Mastery: Holy"
+  },
+  {
+    "resource": 39,
+    "msg_index": 505,
+    "japanese": "[0169][01C5]人[FFFE]",
+    "english": "Dragon Hunter"
+  },
+  {
+    "resource": 39,
+    "msg_index": 506,
+    "japanese": "悪騎[01C5]人[FFFE]",
+    "english": "Demon Hunter"
+  },
+  {
+    "resource": 39,
+    "msg_index": 507,
+    "japanese": "[0380]腕[01C5]人[FFFE]",
+    "english": "Vampire Hunter"
+  },
+  {
+    "resource": 39,
+    "msg_index": 508,
+    "japanese": "美力[FFFE]",
+    "english": "Inhuman Strength"
+  },
+  {
+    "resource": 39,
+    "msg_index": 509,
+    "japanese": "見切り[FFFE]",
+    "english": "Parry"
+  },
+  {
+    "resource": 39,
+    "msg_index": 510,
+    "japanese": "辺の[0335]体[FFFE]",
+    "english": "Ironskin"
+  },
+  {
+    "resource": 39,
+    "msg_index": 511,
+    "japanese": "命中センス[FFFE]",
+    "english": "Accuracy Sense"
+  },
+  {
+    "resource": 39,
+    "msg_index": 512,
+    "japanese": "経所センス[FFFE]",
+    "english": "Vital Sense"
+  },
+  {
+    "resource": 39,
+    "msg_index": 513,
+    "japanese": "盗賊の目[FFFE]",
+    "english": "Thief Eye"
+  },
+  {
+    "resource": 39,
+    "msg_index": 514,
+    "japanese": "殿体センス[FFFE]",
+    "english": "Anatomy Sense"
+  },
+  {
+    "resource": 39,
+    "msg_index": 515,
+    "japanese": "自復[FFFE]",
+    "english": "Auto-Heal"
+  },
+  {
+    "resource": 39,
+    "msg_index": 516,
+    "japanese": "カリスマ[FFFE]",
+    "english": "Charisma"
+  },
+  {
+    "resource": 39,
+    "msg_index": 517,
+    "japanese": "知覚力[FFFE]",
+    "english": "Perception"
+  },
+  {
+    "resource": 39,
+    "msg_index": 518,
+    "japanese": "武器センス[FFFE]",
+    "english": "Weapon Sense"
+  },
+  {
+    "resource": 39,
+    "msg_index": 519,
+    "japanese": "解闘センス[FFFE]",
+    "english": "Armor Sense"
+  },
+  {
+    "resource": 39,
+    "msg_index": 520,
+    "japanese": "騎法センス[FFFE]",
+    "english": "Magic Sense"
+  },
+  {
+    "resource": 39,
+    "msg_index": 521,
+    "japanese": "取通退除[FFFE]",
+    "english": "Status Recovery"
+  },
+  {
+    "resource": 39,
+    "msg_index": 522,
+    "japanese": "解消センス[FFFE]",
+    "english": "Defense Sense"
+  },
+  {
+    "resource": 39,
+    "msg_index": 524,
+    "japanese": " [FFFE]",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 525,
+    "japanese": "ヴィガー商店[FFFE]",
+    "english": "Vigor General Store"
+  },
+  {
+    "resource": 39,
+    "msg_index": 526,
+    "japanese": "ミリィ[FFFE]",
+    "english": "Miri"
+  },
+  {
+    "resource": 39,
+    "msg_index": 527,
+    "japanese": "モッチ[FFFE]",
+    "english": "Mocchi"
+  },
+  {
+    "resource": 39,
+    "msg_index": 528,
+    "japanese": "ノッチ[FFFE]",
+    "english": "Nocchi"
+  },
+  {
+    "resource": 39,
+    "msg_index": 529,
+    "japanese": "クンナル[FFFE]",
+    "english": "Kunnal"
+  },
+  {
+    "resource": 39,
+    "msg_index": 530,
+    "japanese": "メラーニエ[FFFE]",
+    "english": "Melaanie"
+  },
+  {
+    "resource": 39,
+    "msg_index": 531,
+    "japanese": "リディ[FFFE]",
+    "english": "Lidi"
+  },
+  {
+    "resource": 39,
+    "msg_index": 532,
+    "japanese": "ルーシー[FFFE]",
+    "english": "Lucy"
+  },
+  {
+    "resource": 39,
+    "msg_index": 533,
+    "japanese": "ヨッペン[FFFE]",
+    "english": "Yoppen"
+  },
+  {
+    "resource": 39,
+    "msg_index": 534,
+    "japanese": "冒書事ギルド[FFFE]",
+    "english": "Mage Guild"
+  },
+  {
+    "resource": 39,
+    "msg_index": 535,
+    "japanese": "冒険者ギルド[FFFE]",
+    "english": "Adventurer's Guild"
+  },
+  {
+    "resource": 39,
+    "msg_index": 536,
+    "japanese": "ドゥーハン器合[FFFE]",
+    "english": "Duhan Town Hall"
+  },
+  {
+    "resource": 39,
+    "msg_index": 537,
+    "japanese": "兵士団[FFFE]",
+    "english": "Soldier Corps"
+  },
+  {
+    "resource": 39,
+    "msg_index": 539,
+    "japanese": " [FFFE]",
+    "english": ""
+  },
+  {
+    "resource": 39,
+    "msg_index": 540,
+    "japanese": "武器[FFFE]",
+    "english": "Weapons"
+  },
+  {
+    "resource": 39,
+    "msg_index": 541,
+    "japanese": "回復武器[FFFE]",
+    "english": "Repair Weapons"
+  },
+  {
+    "resource": 39,
+    "msg_index": 542,
+    "japanese": "自回復武器[FFFE]",
+    "english": "Self-Repair Weapons"
+  },
+  {
+    "resource": 39,
+    "msg_index": 543,
+    "japanese": "通通武器[FFFE]",
+    "english": "Cursed Weapons"
+  },
+  {
+    "resource": 39,
+    "msg_index": 544,
+    "japanese": "使いの武器[FFFE]",
+    "english": "Unidentified Weapons"
+  },
+  {
+    "resource": 39,
+    "msg_index": 545,
+    "japanese": "解闘[FFFE]",
+    "english": "Armor"
+  },
+  {
+    "resource": 39,
+    "msg_index": 546,
+    "japanese": "回復解闘[FFFE]",
+    "english": "Repair Armor"
+  },
+  {
+    "resource": 39,
+    "msg_index": 547,
+    "japanese": "自回復解闘[FFFE]",
+    "english": "Self-Repair Armor"
+  },
+  {
+    "resource": 39,
+    "msg_index": 548,
+    "japanese": "通通解闘[FFFE]",
+    "english": "Cursed Armor"
+  },
+  {
+    "resource": 39,
+    "msg_index": 549,
+    "japanese": "使いの解闘[FFFE]",
+    "english": "Unidentified Armor"
+  },
+  {
+    "resource": 39,
+    "msg_index": 550,
+    "japanese": "アクセサリー[FFFE]",
+    "english": "Accessories"
+  },
+  {
+    "resource": 39,
+    "msg_index": 551,
+    "japanese": "回復アクセサリー[FFFE]",
+    "english": "Repair Accessories"
+  },
+  {
+    "resource": 39,
+    "msg_index": 552,
+    "japanese": "自回復アクセサリー[FFFE]",
+    "english": "Self-Repair Accessories"
+  },
+  {
+    "resource": 39,
+    "msg_index": 553,
+    "japanese": "通通アクセサリー[FFFE]",
+    "english": "Cursed Accessories"
+  },
+  {
+    "resource": 39,
+    "msg_index": 554,
+    "japanese": "使いのアクセサリー[FFFE]",
+    "english": "Unidentified Accessories"
+  },
+  {
+    "resource": 39,
+    "msg_index": 555,
+    "japanese": "アイテム[FFFE]",
+    "english": "Items"
+  },
+  {
+    "resource": 39,
+    "msg_index": 556,
+    "japanese": "騎法団[FFFE]",
+    "english": "Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 557,
+    "japanese": "騎事持騎法騎法団[FFFE]",
+    "english": "Arcane Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 558,
+    "japanese": "神聖騎法騎法団[FFFE]",
+    "english": "Holy Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 559,
+    "japanese": "オートマターチップ[FFFE]",
+    "english": "Automater Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 560,
+    "japanese": "回復チップ[FFFE]",
+    "english": "Repair Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 561,
+    "japanese": "自回復チップ[FFFE]",
+    "english": "Self-Repair Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 562,
+    "japanese": "装備品[FFFE]",
+    "english": "Equipment"
+  },
+  {
+    "resource": 39,
+    "msg_index": 563,
+    "japanese": "回復装備品[FFFE]",
+    "english": "Repair Equipment"
+  },
+  {
+    "resource": 39,
+    "msg_index": 564,
+    "japanese": "自回復装備品[FFFE]",
+    "english": "Self-Repair Equipment"
+  },
+  {
+    "resource": 39,
+    "msg_index": 565,
+    "japanese": "通通装備品[FFFE]",
+    "english": "Cursed Equipment"
+  },
+  {
+    "resource": 39,
+    "msg_index": 566,
+    "japanese": "使いの装備品[FFFE]",
+    "english": "Unidentified Equipment"
+  },
+  {
+    "resource": 39,
+    "msg_index": 567,
+    "japanese": "ダガー[FFFE]",
+    "english": "Dagger"
+  },
+  {
+    "resource": 39,
+    "msg_index": 568,
+    "japanese": "ショートソード[FFFE]",
+    "english": "Shortsword"
+  },
+  {
+    "resource": 39,
+    "msg_index": 569,
+    "japanese": "ロングソード[FFFE]",
+    "english": "Longsword"
+  },
+  {
+    "resource": 39,
+    "msg_index": 570,
+    "japanese": "グレートソード[FFFE]",
+    "english": "Greatsword"
+  },
+  {
+    "resource": 39,
+    "msg_index": 571,
+    "japanese": "鎧[FFFE]",
+    "english": "Katana"
+  },
+  {
+    "resource": 39,
+    "msg_index": 572,
+    "japanese": "動[FFFE]",
+    "english": "Wand"
+  },
+  {
+    "resource": 39,
+    "msg_index": 573,
+    "japanese": "[0349]手攻[FFFE]",
+    "english": "Handaxe"
+  },
+  {
+    "resource": 39,
+    "msg_index": 574,
+    "japanese": "唱手攻[FFFE]",
+    "english": "Greataxe"
+  },
+  {
+    "resource": 39,
+    "msg_index": 575,
+    "japanese": "手迷祠[FFFE]",
+    "english": "Shuriken"
+  },
+  {
+    "resource": 39,
+    "msg_index": 576,
+    "japanese": "メイス[FFFE]",
+    "english": "Mace"
+  },
+  {
+    "resource": 39,
+    "msg_index": 577,
+    "japanese": "フレイル[FFFE]",
+    "english": "Flail"
+  },
+  {
+    "resource": 39,
+    "msg_index": 578,
+    "japanese": "スローイングダガー[FFFE]",
+    "english": "Throwing Knives"
+  },
+  {
+    "resource": 39,
+    "msg_index": 579,
+    "japanese": "クロスボウ[FFFE]",
+    "english": "Crossbow"
+  },
+  {
+    "resource": 39,
+    "msg_index": 580,
+    "japanese": "ロングボウ[FFFE]",
+    "english": "Longbow"
+  },
+  {
+    "resource": 39,
+    "msg_index": 581,
+    "japanese": "[01E0][FFFE]",
+    "english": "Cudgel"
+  },
+  {
+    "resource": 39,
+    "msg_index": 582,
+    "japanese": "ポールアックス[FFFE]",
+    "english": "Poleaxe"
+  },
+  {
+    "resource": 39,
+    "msg_index": 583,
+    "japanese": "グローブ[FFFE]",
+    "english": "Knuckles"
+  },
+  {
+    "resource": 39,
+    "msg_index": 584,
+    "japanese": "？短鎧[FFFE]",
+    "english": "? Shortsword"
+  },
+  {
+    "resource": 39,
+    "msg_index": 585,
+    "japanese": "？祠[FFFE]",
+    "english": "? Shuriken"
+  },
+  {
+    "resource": 39,
+    "msg_index": 586,
+    "japanese": "？鎧[FFFE]",
+    "english": "? Katana"
+  },
+  {
+    "resource": 39,
+    "msg_index": 587,
+    "japanese": "？動[FFFE]",
+    "english": "? Wand"
+  },
+  {
+    "resource": 39,
+    "msg_index": 588,
+    "japanese": "？攻[FFFE]",
+    "english": "? Axe"
+  },
+  {
+    "resource": 39,
+    "msg_index": 589,
+    "japanese": "？武器[FFFE]",
+    "english": "? Weapon"
+  },
+  {
+    "resource": 39,
+    "msg_index": 590,
+    "japanese": "？メイス[FFFE]",
+    "english": "? Mace"
+  },
+  {
+    "resource": 39,
+    "msg_index": 591,
+    "japanese": "？フレイル[FFFE]",
+    "english": "? Flail"
+  },
+  {
+    "resource": 39,
+    "msg_index": 592,
+    "japanese": "？法[FFFE]",
+    "english": "? Bow"
+  },
+  {
+    "resource": 39,
+    "msg_index": 593,
+    "japanese": "？棒[FFFE]",
+    "english": "? Cudgel"
+  },
+  {
+    "resource": 39,
+    "msg_index": 594,
+    "japanese": "宮[FFFE]",
+    "english": "Helmet"
+  },
+  {
+    "resource": 39,
+    "msg_index": 595,
+    "japanese": "[0126][FFFE]",
+    "english": "Robe"
+  },
+  {
+    "resource": 39,
+    "msg_index": 596,
+    "japanese": "防[FFFE]",
+    "english": "Shield"
+  },
+  {
+    "resource": 39,
+    "msg_index": 597,
+    "japanese": "小手[FFFE]",
+    "english": "Gauntlets"
+  },
+  {
+    "resource": 39,
+    "msg_index": 598,
+    "japanese": "？宮[FFFE]",
+    "english": "? Helmet"
+  },
+  {
+    "resource": 39,
+    "msg_index": 599,
+    "japanese": "？[0126][FFFE]",
+    "english": "? Robe"
+  },
+  {
+    "resource": 39,
+    "msg_index": 600,
+    "japanese": "？防[FFFE]",
+    "english": "? Shield"
+  },
+  {
+    "resource": 39,
+    "msg_index": 601,
+    "japanese": "？小手[FFFE]",
+    "english": "? Gauntlets"
+  },
+  {
+    "resource": 39,
+    "msg_index": 602,
+    "japanese": "魔石[FFFE]",
+    "english": "Amulet"
+  },
+  {
+    "resource": 39,
+    "msg_index": 603,
+    "japanese": "罰野[FFFE]",
+    "english": "Ring"
+  },
+  {
+    "resource": 39,
+    "msg_index": 604,
+    "japanese": "依飾り[FFFE]",
+    "english": "Necklace"
+  },
+  {
+    "resource": 39,
+    "msg_index": 605,
+    "japanese": "[0340]石[FFFE]",
+    "english": "Gemstone"
+  },
+  {
+    "resource": 39,
+    "msg_index": 606,
+    "japanese": "ブーツ[FFFE]",
+    "english": "Boots"
+  },
+  {
+    "resource": 39,
+    "msg_index": 607,
+    "japanese": "マント[FFFE]",
+    "english": "Cloak"
+  },
+  {
+    "resource": 39,
+    "msg_index": 608,
+    "japanese": "？魔石[FFFE]",
+    "english": "? Amulet"
+  },
+  {
+    "resource": 39,
+    "msg_index": 609,
+    "japanese": "？罰野[FFFE]",
+    "english": "? Ring"
+  },
+  {
+    "resource": 39,
+    "msg_index": 610,
+    "japanese": "？依飾り[FFFE]",
+    "english": "? Necklace"
+  },
+  {
+    "resource": 39,
+    "msg_index": 611,
+    "japanese": "？[0340]石[FFFE]",
+    "english": "? Gemstone"
+  },
+  {
+    "resource": 39,
+    "msg_index": 612,
+    "japanese": "？ブーツ[FFFE]",
+    "english": "? Boots"
+  },
+  {
+    "resource": 39,
+    "msg_index": 613,
+    "japanese": "？マント[FFFE]",
+    "english": "? Cloak"
+  },
+  {
+    "resource": 39,
+    "msg_index": 614,
+    "japanese": "ハンドチップ[FFFE]",
+    "english": "Hand Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 615,
+    "japanese": "？ハンドチップ[FFFE]",
+    "english": "? Hand Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 616,
+    "japanese": "ボディチップ[FFFE]",
+    "english": "Body Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 617,
+    "japanese": "？ボディチップ[FFFE]",
+    "english": "? Body Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 618,
+    "japanese": "アームチップ[FFFE]",
+    "english": "Arm Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 619,
+    "japanese": "？アームチップ[FFFE]",
+    "english": "? Arm Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 620,
+    "japanese": "レッグチップ[FFFE]",
+    "english": "Leg Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 621,
+    "japanese": "？レッグチップ[FFFE]",
+    "english": "? Leg Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 622,
+    "japanese": "ブレインチップ[FFFE]",
+    "english": "Brain Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 623,
+    "japanese": "？ブレインチップ[FFFE]",
+    "english": "? Brain Chip"
+  },
+  {
+    "resource": 39,
+    "msg_index": 624,
+    "japanese": "lv１騎法団[FFFE]",
+    "english": "Lv1 Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 625,
+    "japanese": "lv２騎法団[FFFE]",
+    "english": "Lv2 Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 626,
+    "japanese": "lv３騎法団[FFFE]",
+    "english": "Lv3 Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 627,
+    "japanese": "lv４騎法団[FFFE]",
+    "english": "Lv4 Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 628,
+    "japanese": "lv５騎法団[FFFE]",
+    "english": "Lv5 Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 629,
+    "japanese": "lv６騎法団[FFFE]",
+    "english": "Lv6 Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 630,
+    "japanese": "lv７騎法団[FFFE]",
+    "english": "Lv7 Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 631,
+    "japanese": "lv１騎事持騎法団[FFFE]",
+    "english": "Lv1 Arcane Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 632,
+    "japanese": "lv２騎事持騎法団[FFFE]",
+    "english": "Lv2 Arcane Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 633,
+    "japanese": "lv３騎事持騎法団[FFFE]",
+    "english": "Lv3 Arcane Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 634,
+    "japanese": "lv４騎事持騎法団[FFFE]",
+    "english": "Lv4 Arcane Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 635,
+    "japanese": "lv５騎事持騎法団[FFFE]",
+    "english": "Lv5 Arcane Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 636,
+    "japanese": "lv６騎事持騎法団[FFFE]",
+    "english": "Lv6 Arcane Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 637,
+    "japanese": "lv７騎事持騎法団[FFFE]",
+    "english": "Lv7 Arcane Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 638,
+    "japanese": "lv１騎事持騎法団[FFFE]",
+    "english": "Lv1 Holy Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 639,
+    "japanese": "lv２騎事持騎法団[FFFE]",
+    "english": "Lv2 Holy Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 640,
+    "japanese": "lv３騎事持騎法団[FFFE]",
+    "english": "Lv3 Holy Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 641,
+    "japanese": "lv４騎事持騎法団[FFFE]",
+    "english": "Lv4 Holy Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 642,
+    "japanese": "lv５騎事持騎法団[FFFE]",
+    "english": "Lv5 Holy Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 643,
+    "japanese": "lv６騎事持騎法団[FFFE]",
+    "english": "Lv6 Holy Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 644,
+    "japanese": "lv７騎事持騎法団[FFFE]",
+    "english": "Lv7 Holy Spell Book"
+  },
+  {
+    "resource": 39,
+    "msg_index": 646,
+    "japanese": "なし[FFFE]",
+    "english": "None"
+  },
+  {
+    "resource": 39,
+    "msg_index": 647,
+    "japanese": "パーティランクが[FF01]イ不ゴ[FFF0]となりました [FFFE][FF01]aaが使息できなくなりました [FFF0][FFFE]",
+    "english": "Party rank has become\n[Disabled].\n[AA] can no longer be used."
+  },
+  {
+    "resource": 39,
+    "msg_index": 648,
+    "japanese": "aaが使息できなくなりました [FFFE]",
+    "english": "AA can no longer be used."
+  },
+  {
+    "resource": 39,
+    "msg_index": 649,
+    "japanese": "パーティランク[FF01]イ不ゴ[FFF0]が回復しました[FFFE]",
+    "english": "Party rank [Disabled]\nhas been restored."
+  },
+  {
+    "resource": 39,
+    "msg_index": 650,
+    "japanese": "パーティランクが発生しました [FFFE]",
+    "english": "A party rank has been\nestablished!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 651,
+    "japanese": "パーティランクが除店しました [FFFE][FF01]aaが使息できなくなりました [FFF0][FFFE]",
+    "english": "A party rank has been\nremoved!\n[AA] can no longer be used."
+  },
+  {
+    "resource": 39,
+    "msg_index": 652,
+    "japanese": "[FF01]アレイドポイント[FFF0]がアップしました [FFFE]",
+    "english": "[Allied Points] have\nincreased!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 653,
+    "japanese": "[FF01]アレイドポイント[FFF0]がダウンしました [FFFE]",
+    "english": "[Allied Points] have\ndecreased!"
+  },
+  {
+    "resource": 39,
+    "msg_index": 654,
+    "japanese": "[FF01]aaの一部が外されました [FFF0][FFFE]",
+    "english": "[Some of AA's parts have\nbeen removed.]"
+  },
+  {
+    "resource": 39,
+    "msg_index": 655,
+    "japanese": "                                                                                                                                                                                                                                                                                   ",
+    "english": ""
+  }
+]

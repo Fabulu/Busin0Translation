@@ -1,0 +1,37 @@
+[
+  {
+    "resource": 1163,
+    "msg_index": -1,
+    "japanese": "",
+    "english": "",
+    "note": "No dialogue. Section 2 is 96% null bytes with scattered low-index values and control codes. Binary/script data, not glyph-encoded text."
+  },
+  {
+    "resource": 1164,
+    "msg_index": -1,
+    "japanese": "",
+    "english": "",
+    "note": "No dialogue. Section 2 is 81-99% null bytes with sparse control codes. Binary/script data, not glyph-encoded text."
+  },
+  {
+    "resource": 1165,
+    "msg_index": -1,
+    "japanese": "",
+    "english": "",
+    "note": "No dialogue. Section 2 is a single 2664-word block of nearly all null bytes. Binary/script data."
+  },
+  {
+    "resource": 1166,
+    "msg_index": -1,
+    "japanese": "",
+    "english": "",
+    "note": "No dialogue. Section 2 has 84-95% null bytes with scattered low-index values. Binary/script data."
+  },
+  {
+    "resource": 1167,
+    "msg_index": -1,
+    "japanese": "",
+    "english": "",
+    "note": "No dialogue. Section 2 has 87-93% null bytes with sparse control codes. Binary/script data."
+  }
+]
