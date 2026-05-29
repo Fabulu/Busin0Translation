@@ -333,6 +333,55 @@ These are **demo disc splash screens** left over in the retail build:
 
 #### Resources confirmed as non-text: R1163-R1173, R1186, R2129, R1168-R1173
 
+### Wave 3: Hard Engineering Recon [COMPLETE]
+
+#### Composite Glyph Atlas [PARADIGM SHIFT]
+- NO "composite glyphs" — IDs 480+ are individual kanji, not pre-rendered words
+- R1272 is the ONLY font atlas (PSMT4, 256x512, 882 cells)
+- Menu structs have 2 label slots = 2 kanji per label
+- Translation: replace font tiles at IDs 480+ with English word halves
+
+#### Stat/Alignment/Race/Class Labels [BREAKTHROUGH]
+- All in R38 (PACKDATA), NOT in EXE — goes through existing pipeline!
+- Reputation labels already English lowercase ("commoner", "hero") — engine supports multi-char ASCII
+- Only lowercase a-z available, no uppercase
+- 10+ glyph map errors found (e.g., 520=善 not 枚)
+- 5 missing R38 translations: Ninja, Lv7, 3 alignment short forms
+
+#### Menu Button Structs (Table 2C)
+- 92 active records, 53 menu screens, 328 unique glyph IDs
+- Each struct: icon + 2 label glyphs + floats — multi-char ASCII NOT possible in struct
+- Town hub: Tavern/Guild/Shop/Inn/Church/Labyrinth/Adventure/Quest/Plaza/Seal
+- Battle: Retreat/Strike/Cast/Trap/Flee
+- Translation: edit R1272 font tiles with English word fragments
+
+#### Text Renderer (M14 Truncation) [ROOT CAUSE FOUND]
+- Fixed 12px per glyph, 224px display box = 18 chars/line max
+- No per-glyph width table exists
+- **Option A (half-width)**: patch glyph advance 12→6 at 3 sites → 36 chars/line
+- **Option B (proportional)**: code injection for per-glyph widths — hardest
+- Key patch points: VA 0x303E70, 0x303EF4, 0x305BF8 (advance), X-clamp 128→256
+
+#### PSMT4 Deswizzle [IMPLEMENTED]
+- tools/psmt4_deswizzle.py created and round-trip verified on R1272
+- Page 128x128, block 32x16, column table 16x32
+- R1272 .raw = PSMCT32-swizzled upload data
+
+#### Name Entry Screen [SIMPLIFIED]
+- Only R1188 texture edit needed for tab/button labels
+- R1189 already has A-Z, a-z, 0-9 — grid works for English
+- **R1188 is NOT standard PSMT4** — structured glyph resource with 8x8 bitmaps, needs custom parser
+- Optional: EXE patch to default to alphanumeric mode
+
+#### Status Screen Layout
+- R38 is 94% translated (178/190), only 5 messages missing
+- EXE Table 2C has 359 unmapped glyphs (475-886) — need mapping for menu labels
+- No textures involved — all runtime glyph-rendered
+
+#### R2217-R2219 [FALSE POSITIVE]
+- 3D coordinate/waypoint data, not text
+- "~2,500 groups" was fake FFFF in mesh data
+
 ---
 
 ## Summary Counters
