@@ -1,180 +1,1100 @@
 [
-  {"resource": 38, "message": 0, "japanese": "hp / ", "english": "HP / "},
-  {"resource": 38, "message": 1, "japanese": "hp\uff0fmhp / ", "english": "HP/MHP / "},
-  {"resource": 38, "message": 2, "japanese": "\u529b / ", "english": "STR / "},
-  {"resource": 38, "message": 3, "japanese": "\u77e5\u6075 / ", "english": "INT / "},
-  {"resource": 38, "message": 4, "japanese": "\u4fe1\u4ef0\u5fc3 / ", "english": "FTH / "},
-  {"resource": 38, "message": 5, "japanese": "\u751f\u547d\u529b / ", "english": "VIT / "},
-  {"resource": 38, "message": 6, "japanese": "\u654f\u6377\u5ea6 / ", "english": "AGI / "},
-  {"resource": 38, "message": 7, "japanese": "\u5e78\u904b\u5ea6 / ", "english": "LCK / "},
-  {"resource": 38, "message": 8, "japanese": "\u540d\u524d / ", "english": "Name / "},
-  {"resource": 38, "message": 9, "japanese": "\u30ec\u30d9\u30eb / ", "english": "Level / "},
-  {"resource": 38, "message": 10, "japanese": "\u7a2e\u65cf / ", "english": "Race / "},
-  {"resource": 38, "message": 11, "japanese": "\u679c\u5225 / ", "english": "Gender / "},
-  {"resource": 38, "message": 12, "japanese": "\u6761\u679c / ", "english": "Alignment / "},
-  {"resource": 38, "message": 13, "japanese": "\u8077\u696d / ", "english": "Class / "},
-  {"resource": 38, "message": 14, "japanese": "\u679c\u6027 / ", "english": "Personality / "},
-  {"resource": 38, "message": 15, "japanese": "\u9a0e\u4e8b\u52d9\u9a0e\u6cd5 / ", "english": "Sorcery / "},
-  {"resource": 38, "message": 16, "japanese": "\u795e\u8056\u9a0e\u6cd5 / ", "english": "Holy Magic / "},
-  {"resource": 38, "message": 17, "japanese": "\u80fd\u529b\u5024 / ", "english": "Attributes / "},
-  {"resource": 38, "message": 18, "japanese": "l\uff56\uff11 / ", "english": "Lv1 / "},
-  {"resource": 38, "message": 19, "japanese": "l\uff56\uff12 / ", "english": "Lv2 / "},
-  {"resource": 38, "message": 20, "japanese": "l\uff56\uff13 / ", "english": "Lv3 / "},
-  {"resource": 38, "message": 21, "japanese": "l\uff56\uff14 / ", "english": "Lv4 / "},
-  {"resource": 38, "message": 22, "japanese": "l\uff56\uff15 / ", "english": "Lv5 / "},
-  {"resource": 38, "message": 23, "japanese": "l\uff56\uff16 / ", "english": "Lv6 / "},
-  {"resource": 38, "message": 24, "japanese": "l\uff56\uff17 / ", "english": "Lv7 / "},
-  {"resource": 38, "message": 27, "japanese": "\u30a4\u30aa / ", "english": "Io / "},
-  {"resource": 38, "message": 28, "japanese": "\u30a8\u30a6\u30ed\u30d1 / ", "english": "Europa / "},
-  {"resource": 38, "message": 29, "japanese": "\u4eba\u58c1 / ", "english": "Human / "},
-  {"resource": 38, "message": 30, "japanese": "\u30a8\u30eb\u30d5 / ", "english": "Elf / "},
-  {"resource": 38, "message": 31, "japanese": "\u30ce\u30fc\u30e0 / ", "english": "Gnome / "},
-  {"resource": 38, "message": 32, "japanese": "\u30c9\u30ef\u30fc\u30d5 / ", "english": "Dwarf / "},
-  {"resource": 38, "message": 33, "japanese": "\u30db\u30d3\u30c3\u30c8 / ", "english": "Hobbit / "},
-  {"resource": 38, "message": 34, "japanese": "\u30aa\u30fc\u30c8\u30de\u30bf\u30fc / ", "english": "Automata / "},
-  {"resource": 38, "message": 37, "japanese": "\u6226\u58eb / ", "english": "Fighter / "},
-  {"resource": 38, "message": 38, "japanese": "\u76d7\u8cca / ", "english": "Thief / "},
-  {"resource": 38, "message": 39, "japanese": "\u9a0e\u4e8b\u52d9 / ", "english": "Mage / "},
-  {"resource": 38, "message": 40, "japanese": "\u795e\u8056 / ", "english": "Priest / "},
-  {"resource": 38, "message": 41, "japanese": "\u5fcd\u8005 / ", "english": "Ninja / "},
-  {"resource": 38, "message": 43, "japanese": "\u96c6\u6559 / ", "english": "Bishop / "},
-  {"resource": 38, "message": 44, "japanese": "\u5175\u58eb / ", "english": "Samurai / "},
-  {"resource": 38, "message": 45, "japanese": "\u5192\u91d1\u4e8b\u52d9 / ", "english": "Alchemist / "},
-  {"resource": 38, "message": 46, "japanese": "\u7fa9\u8cca / ", "english": "Gizoku / "},
-  {"resource": 38, "message": 47, "japanese": "\u30e2\u30f3\u30af / ", "english": "Monk / "},
-  {"resource": 38, "message": 48, "japanese": "\u8056\u5175\u58eb / ", "english": "Paladin / "},
-  {"resource": 38, "message": 49, "japanese": "\u6697\u5175\u58eb / ", "english": "Dark Knight / "},
-  {"resource": 38, "message": 50, "japanese": "\u5c06\u5f8c / ", "english": "Shogun / "},
-  {"resource": 38, "message": 51, "japanese": "\u6559\u6388 / ", "english": "Knight / "},
-  {"resource": 38, "message": 52, "japanese": "\u7f8e\u76d7 / ", "english": "High Thief / "},
-  {"resource": 38, "message": 53, "japanese": "\u98fd\u304d\u679c / ", "english": "Omnitsu / "},
-  {"resource": 38, "message": 54, "japanese": "\u25a0\u6b66 / ", "english": "Militant / "},
-  {"resource": 38, "message": 55, "japanese": "\u308c\u5168\u8cbb / ", "english": "Wasteful / "},
-  {"resource": 38, "message": 56, "japanese": "\u5b64\u72ec / ", "english": "Lonely / "},
-  {"resource": 38, "message": 57, "japanese": "\u793e\u4ea4\u7684 / ", "english": "Sociable / "},
-  {"resource": 38, "message": 58, "japanese": "\u53ce\u96c6\u5bb6 / ", "english": "Collector / "},
-  {"resource": 38, "message": 59, "japanese": "\u614e\u91cd / ", "english": "Cautious / "},
-  {"resource": 38, "message": 60, "japanese": "\u4e0e\u84c4\u5bb6 / ", "english": "Hoarder / "},
-  {"resource": 38, "message": 61, "japanese": "\u77e5\u7684 / ", "english": "Intellectual / "},
-  {"resource": 38, "message": 62, "japanese": "\u597d\u6226\u7684 / ", "english": "Belligerent / "},
-  {"resource": 38, "message": 63, "japanese": "\u5192\u967a\u5bb6 / ", "english": "Adventurous / "},
-  {"resource": 38, "message": 64, "japanese": "\u8ff7\u4fe1\u5bb6 / ", "english": "Superstitious / "},
-  {"resource": 38, "message": 65, "japanese": "\u52e4\u52c9\u52d9 / ", "english": "Studious / "},
-  {"resource": 38, "message": 66, "japanese": "\u52b9\u5411\u3051 / ", "english": "Pusillanimous / "},
-  {"resource": 38, "message": 67, "japanese": "\u30a8\u30b3\u30ed\u30b8\u30b9\u30c8 / ", "english": "Ecologist / "},
-  {"resource": 38, "message": 68, "japanese": "\u4e59\u5973\u5fc3 / ", "english": "Maiden Heart / "},
-  {"resource": 38, "message": 69, "japanese": "\u91cd\u8155\u6f22 / ", "english": "Hot-Blooded / "},
-  {"resource": 38, "message": 70, "japanese": "\u591a\u7fa9\u611f / ", "english": "Just / "},
-  {"resource": 38, "message": 71, "japanese": "\u52e4\u3061\u6c17 / ", "english": "Determined / "},
-  {"resource": 38, "message": 72, "japanese": "\u5354\u529b\u7684 / ", "english": "Cooperative / "},
-  {"resource": 38, "message": 73, "japanese": "\u53cb\u611b / ", "english": "Fraternal / "},
-  {"resource": 38, "message": 74, "japanese": "\u77ed\u6c17 / ", "english": "Short-Tempered / "},
-  {"resource": 38, "message": 75, "japanese": "\u30a8\u30b3\u30ce\u30df\u30b9\u30c8 / ", "english": "Economist / "},
-  {"resource": 38, "message": 76, "japanese": "\u597d\u8272 / ", "english": "Lustful / "},
-  {"resource": 38, "message": 77, "japanese": "\u30ca\u30eb\u30b7\u30b9\u30c8 / ", "english": "Narcissist / "},
-  {"resource": 38, "message": 78, "japanese": "\u6c17\u5206\u5c4b / ", "english": "Moody / "},
-  {"resource": 38, "message": 79, "japanese": "\u81ea\u5df1\u7684 / ", "english": "Sadist / "},
-  {"resource": 38, "message": 80, "japanese": "\u7a2e\u65cf\u611b / ", "english": "Tribal Love / "},
-  {"resource": 38, "message": 81, "japanese": "\u5927\u80c6 / ", "english": "Bold / "},
-  {"resource": 38, "message": 82, "japanese": "\u9664\u5473\u5bb6 / ", "english": "Hobbyist / "},
-  {"resource": 38, "message": 83, "japanese": "\u7372\u5f97\u529b / ", "english": "Attack / "},
-  {"resource": 38, "message": 84, "japanese": "\u547d\u4e2d\u679c / ", "english": "Accuracy / "},
-  {"resource": 38, "message": 85, "japanese": "\u89e3\u6d88\u529b / ", "english": "Defense / "},
-  {"resource": 38, "message": 86, "japanese": "\u56de\u907f\u679c / ", "english": "Evasion / "},
-  {"resource": 38, "message": 87, "japanese": "\u4f55\u3067\u3082\u3059\u3050\u98fd\u304d\u308b\u3002\u8ff7\u5bae\u63a2\u7d22\u3082\u540c\u3058\u3002 / \u9577\u53d7\u58c1\u8857\u306b\u5e30\u3089\u306a\u3044\u3068\u6d88\u5acc\u304c\u60aa\u304f\u306a\u308b\u3002 / ", "english": "Bores easily. / Return to town often. / "},
-  {"resource": 38, "message": 88, "japanese": "\u81c6\u7684\u306a\u58eb\u306b\u654f\u611f\u306a\u306e\u3067\u3001\u6b7b\u795e\u3092\u898b\u305f\u3060\u3051\u3067 / \u3075\u308b\u3048\u3042\u304c\u308b\u3002 / ", "english": "Senses spirits. / Trembles at Death. / "},
-  {"resource": 38, "message": 89, "japanese": "\u91d1\u3092\u305f\u3081\u308b\u3053\u3068\u306b\u5168\u3066\u3092\u304b\u3051\u308b\u3002\u308f\u3056\u308f\u3056 / \u8ff7\u5bae\u3092\u63a2\u7d22\u3057\u3066\u3001\u7a3c\u304e\u304c\u5c11\u306a\u3044\u3068\u57ce\u308b\u3002 / ", "english": "Lives to hoard gold. / Angry if loot is low. / "},
-  {"resource": 38, "message": 90, "japanese": "\u4eba\u3054\u307f\u3084\u5927\u4eba\u6570\u3067\u306e\u884c\u52d5\u306f\u82e6\u624b\u3002 / \u5c11\u4eba\u6570\u3067\u3072\u3063\u305d\u308a\u884c\u52d5\u3059\u308b\u65b9\u304c\u843d\u3061\u7740\u304f\u3002 / ", "english": "Dislikes crowds. / Calmer in few. / "},
-  {"resource": 38, "message": 91, "japanese": "\u3044\u3064\u3082\u5927\u540c\u306e\u8005\u3068\u306e\u4ea4\u9032\u3092\u65b9\u3080\u3002 / \u5c11\u4eba\u6570\u306e\u5927\u3057\u3044\u30d1\u30fc\u30c6\u30a3\u306f\u5acc\u3044\u3002 / ", "english": "Loves big groups. / Hates small parties. / "},
-  {"resource": 38, "message": 92, "japanese": "\u5b9d\u58eb\u306b\u76ee\u304c\u306a\u3044\u3002 / \u30a2\u30a4\u30c6\u30e0\u53ce\u96c6\u304c\u4eba\u751f\u306e\u30c6\u30fc\u30de\u3002 / ", "english": "Can't resist loot. / Lives to collect. / "},
-  {"resource": 38, "message": 93, "japanese": "\u4f7f\u7406\u306e\u3042\u308b\u5192\u967a\u30fb\u6226\u7bb1\u3092\u3059\u308b\u8005\u3068\u306f / \u6b20\u3051\u7de8\u3048\u306a\u3044\u3068\u601d\u3063\u3066\u3044\u308b\u3002 / ", "english": "Distrusts reckless / adventurers. / "},
-  {"resource": 38, "message": 94, "japanese": "\u9a0e\u58eb\u306e\u751f\u614b\u306b\u89e3\u3044\u95a2\u5fc3\u3092\u6301\u3063\u3066\u3044\u308b\u3002 / \u9a0e\u58eb\u3092\u898b\u3064\u3051\u3066\u8abf\u3079\u308b\u306e\u304c\u5927\u597d\u304d\u3002 / ", "english": "Fascinated by / monster biology. / "},
-  {"resource": 38, "message": 95, "japanese": "\u795e\u79d8\u7684\u306a\u529b\u306f\u6709\u5bfe\u3060\u3068\u4fe1\u3058\u3066\u304a\u308a\u3001 / \u9a0e\u6cd5\u306e\u77e5\u9451\u304c\u9ad8\u307e\u308b\u3068\u5e78\u305b\u306b\u611f\u3058\u308b\u3002 / ", "english": "Believes in mystic / power. Loves magic. / "},
-  {"resource": 38, "message": 96, "japanese": "\u8155\u306e\u6c17\u304c\u805e\u304f\u3001\u901a\u306b\u89e3\u8005\u3068\u306e\u7bb1\u3044\u3092 / \u6c42\u3081\u3066\u3044\u308b\u3002 / ", "english": "Skilled warrior. / Seeks strong foes. / "},
-  {"resource": 38, "message": 97, "japanese": "\u5192\u967a\u8005\u304c\u3001\u5192\u967a\u306b\u51fa\u306a\u3051\u308c\u3070\u6255\u7528\u304c\u306a\u3044\u3068 / \u601d\u3063\u3066\u3044\u308b\u3002\u5192\u967a\u3067\u304d\u306a\u3044\u3068\u3064\u3089\u3044\u3002 / ", "english": "Must adventure. / Idleness is agony. / "},
-  {"resource": 38, "message": 98, "japanese": "\u7a81\u7136\u306e\u51fa\u6765\u983c\u306b\u5bfe\u3057\u3066\u654f\u611f\u306b\u9055\u5fdc\u3059\u308b\u3002 / ", "english": "Reacts keenly to / sudden events. / "},
-  {"resource": 38, "message": 99, "japanese": "\u30c8\u30e9\u30c3\u30d7\u6bbf\u89e3\u306b\u30e0\u30ad\u306b\u306a\u308b\u3002\u968a\u5931\u3059\u308b\u3068 / \u6d88\u5acc\u304c\u3044\u3044\u304c\u6210\u529f\u3059\u308b\u3068\u3072\u3069\u304f\u843d\u3061\u3053\u3080\u3002 / ", "english": "Obsessed with traps. / Crushed by success. / "},
-  {"resource": 38, "message": 100, "japanese": "\u6c17\u304c\u63a2\u304f\u3001\u9577\u304f\u8ff7\u5bae\u306b\u3044\u308b\u3068\u4e0d\u5b89\u306b\u306a\u308b\u3002 / \u4e0d\u6b7b\u65cf\u306f\u3053\u306e\u4e16\u304b\u3089\u9664\u3048\u3066\u307b\u3057\u3044\u3002 / ", "english": "Anxious in dungeons. / Dreads the undead. / "},
-  {"resource": 38, "message": 101, "japanese": "\u30ea\u30b5\u30a4\u30af\u30eb\u8a00\u795e\u3092\u5927\u5207\u306b\u3057\u3066\u3044\u308b\u3002 / \u307e\u3060\u4f7f\u3048\u308b\u58eb\u3092\u6301\u3066\u308b\u306a\u3069\u3082\u3063\u3066\u306e\u307b\u304b\u3002 / ", "english": "Values recycling. / Hates wasting items. / "},
-  {"resource": 38, "message": 102, "japanese": "\u4e59\u5973\u306e\u9ad8\u3044\u7d46\u304c\u3042\u308c\u3070\u3001 / \u3064\u3089\u3044\u7bb1\u3044\u3067\u3082\u4f59\u8a08\u306a\u7537\u306f\u3044\u3089\u306a\u3044\u3002 / ", "english": "Strong maiden bonds. / No need for men. / "},
-  {"resource": 38, "message": 103, "japanese": "\u7bb1\u3044\u306e\u4e16\u754c\u306b\u5973\u306f\u4f7f\u606f\u3068\u8003\u3048\u3066\u3044\u308b\u3002 / ", "english": "Believes women have / no place in battle. / "},
-  {"resource": 38, "message": 104, "japanese": "\u8a71\u3048\u9a0e\u58eb\u3067\u3042\u3063\u3066\u3082\u6226\u6255\u306e\u306a\u3044\u53cb\u597d\u7684\u306a / \u9a0e\u58eb\u3092\u3080\u3084\u307f\u306b\u6bba\u50b7\u3059\u308b\u306e\u306f\u8a31\u305b\u306a\u3044\u3002 / ", "english": "Won't forgive those / who slay tame foes. / "},
-  {"resource": 38, "message": 105, "japanese": "\u9a0e\u58eb\u3092\u304b\u305f\u3063\u3071\u3057\u304b\u3089\u6bba\u3059\u306e\u304c\u751f\u304d\u304c\u3044\u3002 / \u9003\u3052\u308b\u306a\u3069\u3068\u3044\u3063\u305f\u9664\u5351\u7684\u306a\u884c\u52d5\u3092\u5acc\u3046\u3002 / ", "english": "Lives to slay all. / Despises retreat. / "},
-  {"resource": 38, "message": 106, "japanese": "\u30d1\u30fc\u30c6\u30a3\u3068\u3057\u3066\u306e\u884c\u52d5\u3092\u91cd\u3093\u3058\u308b\u3002\u81ea\u5206\u304c / \u5358\u72ec\u3067\u4f55\u304b\u3092\u3059\u308b\u3088\u3046\u306a\u9b54\u9244\u306f\u5acc\u3044\u3002 / ", "english": "Values teamwork. / Hates going solo. / "},
-  {"resource": 38, "message": 107, "japanese": "\u6226\u3044\u3092\u5acc\u3044\u3001\u25a0\u8840\u3092\u65b9\u3080\u3002 / \u6226\u53cb\u304c\u6b7b\u3093\u3060\u53d7\u306a\u3069\u306f\u3072\u3069\u304f\u843d\u3061\u8fbc\u3080\u3002 / ", "english": "Hates bloodshed. / Mourns fallen allies. / "},
-  {"resource": 38, "message": 108, "japanese": "\u3068\u3066\u3082\u6c17\u304c\u77ed\u3044\u306e\u3067\u3001\u3044\u3064\u307e\u3067\u3082\u3060\u3089\u3060\u3089 / \u7d9a\u304f\u6226\u7bb1\u306f\u30a4\u30e9\u30a4\u30e9\u3057\u3066\u3044\u308b\u3002 / ", "english": "Short-tempered. / Long fights enrage. / "},
-  {"resource": 38, "message": 109, "japanese": "\u751f\u307e\u308c\u3064\u304d\u5546\u4eba\u6c17\u8cea\u304c\u3042\u308a\u3001\u5546\u58f2\u306a\u3069\u306b / \u89e3\u3044\u95a2\u5fc3\u3092\u3082\u3063\u3066\u3044\u308b\u3002 / ", "english": "Born merchant. / Loves trade. / "},
-  {"resource": 38, "message": 110, "japanese": "\u53d6\u679c\u306b\u89e3\u3044\u95a2\u5fc3\u3092\u6301\u3063\u3066\u3044\u308b\u3002 / \u540c\u679c\u3070\u304b\u308a\u306e\u30d1\u30fc\u30c6\u30a3\u306b\u5fa1\u7528\u304c\u306a\u3044\u3002 / ", "english": "Likes opposite sex. / Bored by same sex. / "},
-  {"resource": 38, "message": 111, "japanese": "\u81ea\u5206\u306f\u3053\u306e\u4e16\u3067\u3044\u3061\u3070\u3093\u7f8e\u3057\u3044\u3068\u4fe1\u3058\u308b\u3002 / \u7f8e\u3057\u3044\u81ea\u5206\u304c\u50b7\u3064\u3044\u305f\u308a\u3059\u308b\u3068\u30b7\u30e7\u30c3\u30af\u3002 / ", "english": "Vain narcissist. / Shocked when harmed. / "},
-  {"resource": 38, "message": 112, "japanese": "\u3068\u3064\u305c\u3093\u632f\u3093\u3060\u304b\u3068\u601d\u3048\u3070\u3001\u4eca\u5ea6\u306f\u7d4c\u306b / \u57ce\u3063\u305f\u308a\u3001\u3064\u304b\u307f\u3069\u3053\u308d\u306e\u306a\u3044\u679c\u6027\u3002 / ", "english": "Happy then angry. / Unpredictable mood. / "},
-  {"resource": 38, "message": 113, "japanese": "\u81ea\u5206\u304c\u82e6\u3057\u3044\u7acb\u5834\u3067\u3042\u308c\u3070\u3042\u308b\u307b\u3069\u632f\u3076\u3002 / \u4f53\u306e\u53d6\u901a\u3092\u3092\u3055\u308c\u308b\u306e\u306f\u304b\u3048\u3063\u3066\u3064\u3089\u3044\u3002 / ", "english": "Thrives in hardship. / Hates being helped. / "},
-  {"resource": 38, "message": 114, "japanese": "\u540c\u7a2e\u65cf\u306e\u8005\u306b\u5bfe\u3059\u308b\u4ef2\u58c1\u6255\u9451\u304c\u89e3\u3044\u3002 / \u7570\u7a2e\u65cf\u3068\u306e\u4ea4\u9032\u3092\u5168\u304f\u65b9\u307e\u306a\u3044\u3002 / ", "english": "Bonds with own race. / Shuns other races. / "},
-  {"resource": 38, "message": 115, "japanese": "\u4f55\u3082\u8003\u3048\u3066\u3044\u306a\u3044\u3002\u4f55\u3067\u3082\u3044\u3044\u3002\u8ab0\u304b\u304c / \u632f\u3079\u3070\u4e00\u7dd2\u306b\u632f\u3076\u3001\u57ce\u308c\u3070\u4e00\u7dd2\u306b\u57ce\u308b\u3002 / ", "english": "Empty-headed. / Happy if others are. / "},
-  {"resource": 38, "message": 116, "japanese": "\u4f55\u3067\u3082\u6301\u3063\u3066\u3044\u308b\u3082\u306e\u306f\u8457\u6d88\u6d3b\u606f\u3059\u3079\u304d\u3002 / \u5b9d\u306e\u3082\u3061\u3050\u3055\u308c\u306f\u8a31\u305b\u306a\u3044\u3002 / ", "english": "Use everything. / Hoarding is a sin. / "},
-  {"resource": 38, "message": 117, "japanese": "\u679c\u5225\u306b\u3088\u3063\u3066\u3001\u500b\u4eba\u306e\u57fa\u4ef2\u80fd\u529b\u5024\u3068\u968a\u9577\u304c\u53d6\u306a\u308a\u307e\u3059\u3002 / \u7537\u679c\u306f\u529b\u89e3\u304f\u3001\u5973\u679c\u306f\u77e5\u7684\u306b\u968a\u9577\u3057\u3066\u3044\u304d\u307e\u3059\u3002 / ", "english": "Gender affects base / stats and growth. / Men are strong, / women are wise. / "},
-  {"resource": 38, "message": 118, "japanese": "\u7a2e\u65cf\u306f\u305d\u306e\u8005\u306e\u968a\u9577\u306e\u57fa\u672c\u3068\u306a\u308a\u307e\u3059\u3002 / \u4eba\u58c1\u306f\u5c11\u624b\u4fe1\u4ef0\u5fc3\u304c\u9ad8\u3044\u3082\u306e\u306e\u3001\u5168\u4f53\u7684\u306b\u3080\u3089\u306a\u304f / \u968a\u9577\u3059\u308b\u30d0\u30e9\u30f3\u30b9\u306e\u3044\u3044\u7a2e\u65cf\u3068\u3044\u308f\u308c\u3066\u3044\u307e\u3059\u3002 / ", "english": "Race determines base / growth. Humans have / high faith & balanced / stats overall. / "},
-  {"resource": 38, "message": 119, "japanese": "\u7a2e\u65cf\u306f\u305d\u306e\u8005\u306e\u968a\u9577\u306e\u57fa\u672c\u3068\u306a\u308a\u307e\u3059\u3002 / \u30a8\u30eb\u30d5\u65cf\u306f\u77e5\u529b\u3068\u751f\u547d\u529b\u306b\u512a\u308c\u3001\u529b\u306f\u63a2\u3044\u3067\u3059\u304c\u3001 / \u9a0e\u6cd5\u306e\u6271\u3044\u3067\u306f\u25a0\u306b\u51fa\u308b\u8005\u306f\u3044\u306a\u3044\u3068\u8a00\u308f\u308c\u3066\u3044\u307e\u3059\u3002 / ", "english": "Race determines base / growth. Elves excel / in INT & VIT but are / weak. Best at magic. / "},
-  {"resource": 38, "message": 120, "japanese": "\u7a2e\u65cf\u306f\u305d\u306e\u8005\u306e\u968a\u9577\u306e\u57fa\u672c\u3068\u306a\u308a\u307e\u3059\u3002 / \u30ce\u30fc\u30e0\u65cf\u306f\u3001\u4fe1\u4ef0\u5fc3\u304c\u3068\u3066\u3082\u89e3\u304f\u3001 / \u307e\u305f\u8eab\u306e\u3053\u306a\u3057\u304c\u304f\u5668\u3044\u305f\u3081\u3001\u795e\u8056\u306b\u5411\u3044\u3066\u3044\u307e\u3059\u3002 / ", "english": "Race determines base / growth. Gnomes have / high faith & agility. / Suited for Priests. / "},
-  {"resource": 38, "message": 121, "japanese": "\u7a2e\u65cf\u306f\u305d\u306e\u8005\u306e\u968a\u9577\u306e\u57fa\u672c\u3068\u306a\u308a\u307e\u3059\u3002 / \u52d5\u304d\u306f\u80c6\u3044\u304c\u3001\u529b\u89e3\u304f\u4fe1\u4ef0\u306e\u5f85\u3044\u30c9\u30ef\u30fc\u30d5\u65cf\u3002 / \u305d\u306e\u7279\u679c\u3092\u751f\u304b\u305b\u308b\u6226\u58eb\u306b\u5c31\u304f\u8005\u304c\u805e\u3044\u3088\u3046\u3067\u3059\u3002 / ", "english": "Race determines base / growth. Dwarves are / slow but strong with / deep faith. Fighters. / "},
-  {"resource": 38, "message": 122, "japanese": "\u7a2e\u65cf\u306f\u305d\u306e\u8005\u306e\u968a\u9577\u306e\u57fa\u672c\u3068\u306a\u308a\u307e\u3059\u3002 / \u30db\u30d3\u30c3\u30c8\u65cf\u306f\u5c0f\u683c\u3067\u304b\u63a2\u3044\u3082\u306e\u306e\u3001\u7d20\u3044\u8eab\u306e\u3053\u306a\u3057\u3068\u3001 / \u751f\u307e\u308c\u6301\u3064\u5e78\u904b\u3068\u3067\u76d7\u8cca\u306b\u5c31\u304f\u8005\u304c\u5185\u3092\u305f\u3061\u307e\u305b\u3093\u3002 / ", "english": "Race determines base / growth. Hobbits are / small but agile and / lucky. Born thieves. / "},
-  {"resource": 38, "message": 123, "japanese": "\u6b63\u7fa9\u3092\u91cd\u3093\u3058\u308b\u5584\u306f\u3001\u305d\u306e\u6b63\u7fa9\u306b\u9055\u3057\u305f\u884c\u52d5\u306b\u3088\u3063\u3066\u306f / \u60aa\u3078\u3068\u5909\u308f\u3063\u3066\u3057\u307e\u3046\u3053\u3068\u3082\u3042\u308a\u307e\u3059\u3002 / \u53ef\u80fd\u8077\u696d\uff1a\u6226\u30fb\u9a0e\u30fb\u795e\u30fb\u4f8d\u30fb\u7fa9\u30fb\u96c6\u30fb\u5175\u30fb\u5192\u30fb\u30e2 / ", "english": "Good upholds justice / but may turn Evil if / acting unjustly. / Classes: FIG MAG PRI / SAM GIZ BIS KNI ALC / MON / "},
-  {"resource": 38, "message": 124, "japanese": "\u304b\u305f\u3088\u3063\u305f\u8003\u3048\u3092\u3057\u306a\u3044\u8005\u306f\u4e2d\u7acb\u3068\u3044\u308f\u308c\u307e\u3059\u3002 / \u53ef\u80fd\u8077\u696d\uff1a\u6226\u30fb\u76d7\u30fb\u9a0e\u30fb\u4f8d\u30fb\u7fa9\u30fb\u5192\u30fb\u30e2 / ", "english": "Those without bias / are called Neutral. / Classes: FIG THI MAG / SAM GIZ ALC MON / "},
-  {"resource": 38, "message": 125, "japanese": "\u4f11\u606f\u3092\u597d\u3080\u60aa\u3002\u7a00\u306b\u5584\u306b\u5730\u5fc3\u3059\u308b\u8005\u3082\u3044\u308b\u3088\u3046\u3067\u3059\u3002 / \u53ef\u80fd\u8077\u696d\uff1a\u6226\u30fb\u76d7\u30fb\u9a0e\u30fb\u795e\u30fb\u5fcd\u30fb\u96c6\u30fb\u5192 / ", "english": "Evil favors rest. / Some rarely turn to / Good. Classes: FIG / THI MAG PRI NIN BIS / ALC / "},
-  {"resource": 38, "message": 126, "japanese": "\u6b66\u95d8\u306e\u30a8\u30ad\u30b9\u30d1\u30fc\u30c8\u3002 / \u9a0e\u6cd5\u306f\u7fd2\u4e0b\u3067\u304d\u307e\u305b\u3093\u3002 / ", "english": "Combat expert. / Cannot learn any / magic spells. / "},
-  {"resource": 38, "message": 127, "japanese": "\u7f60\u306e\u767a\u96e3\u5ea6\u3092\u4e0b\u3052\u308b\u80fd\u529b\u3092\u6301\u3061\u3001\u307e\u305f\u5b9d\u7bb1\u3092 / \u898b\u3064\u3051\u308b\u306e\u3082\u4e0b\u6255\u3067\u3059\u3002 / l\uff56\uff13\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can reduce trap / difficulty & find / treasure chests. / Learns Sorcery Lv3. / "},
-  {"resource": 38, "message": 128, "japanese": "\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u306e\u4f7f\u3044\u624b\u3002 / \u5168\u3066\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Master of Sorcery. / Can learn all / Sorcery spells. / "},
-  {"resource": 38, "message": 129, "japanese": "\u795e\u8056\u9a0e\u6cd5\u306e\u4f7f\u3044\u624b\u3002 / \u4e0d\u6b7b\u65cf\u3092\u9000\u9664\u3059\u308b\u30c7\u30a3\u30b9\u30da\u30eb\u3092\u899a\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002 / \u5168\u3066\u306e\u795e\u8056\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Master of Holy / Magic. Can learn / Dispel vs. undead. / All Holy Magic. / "},
-  {"resource": 38, "message": 130, "japanese": "\u7d4c\u6240\u7372\u5f97\u306b\u9577\u3051\u3066\u304a\u308a\u3001\u4e00\u5f97\u3067\u4f9d\u3068\u3081\u308b\u80fd\u529b\u3092\u6301\u3061\u307e\u3059\u3002 / l\uff56\uff12\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Excels at earning / EXP. Can instant- / kill foes. Learns / Sorcery up to Lv2. / "},
-  {"resource": 38, "message": 131, "japanese": "\u9a0e\u58eb\u3092\u6c17\u6709\u3055\u305b\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u6b66\u5668\u3001\u93a7\u3092\u88c5\u5099\u3067\u304d\u307e\u3059\u3002 / l\uff56\uff15\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can equip weapons / and armor for knights. / Learns Sorcery / up to Lv5. / "},
-  {"resource": 38, "message": 132, "japanese": "\u81ea\u56de\u5fa9\u54c1\u3092\u56de\u5fa9\u3059\u308b\u80fd\u529b\u3092\u5099\u3048\u3066\u304a\u308a\u3001 / \u4e0d\u6b7b\u65cf\u3092\u9000\u9664\u3059\u308b\u30c7\u30a3\u30b9\u30da\u30eb\u3092\u899a\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002 / l\uff56\uff16\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u30fb\u795e\u8056\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Has the ability to / restore HP. / Can learn Dispel / to banish undead. / Learns Sorcery and / Holy Magic up to Lv6. / "},
-  {"resource": 38, "message": 133, "japanese": "\u30dd\u30fc\u30eb\u30a2\u30c3\u30af\u30b9\u7cfb\u306e\u6b66\u5668\u3092\u88c5\u5099\u3067\u304d\u307e\u3059\u3002 / \u4e0d\u6b7b\u65cf\u3092\u9000\u9664\u3059\u308b\u30c7\u30a3\u30b9\u30da\u30eb\u3092\u899a\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002 / l\uff56\uff15\u307e\u3067\u306e\u795e\u8056\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can equip poleaxe / type weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / "},
-  {"resource": 38, "message": 134, "japanese": "\u5192\u91d1\u4e8b\u3092\u6271\u3046\u3053\u3068\u304c\u3067\u304d\u308b\u3002 / l\uff56\uff14\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u30fb\u795e\u8056\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can handle alchemy. / Learns Sorcery and / Holy Magic up to Lv4. / "},
-  {"resource": 38, "message": 135, "japanese": "\u9577\u6cd5\u306e\u88c5\u5099\u304c\u53ef\u80fd\u3067\u3001\u30c8\u30e9\u30c3\u30d7\u767a\u96e3\u5ea6\u3092\u4e0b\u3052\u305f\u308a\u3001 / \u5b9d\u306e\u30a2\u30a4\u30c6\u30e0\u3092\u3076\u3093\u3069\u308b\u306a\u3069\u306e\u7279\u80fd\u3092\u6301\u3063\u3066\u3044\u307e\u3059\u3002 / l\uff56\uff13\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u30fb\u795e\u8056\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can equip longbows. / Lowers trap difficulty / and can steal items. / Learns Sorcery and / Holy Magic up to Lv3. / "},
-  {"resource": 38, "message": 136, "japanese": "\u30b9\u30bf\u30c3\u30d5\u3084\u30ca\u30c3\u30af\u30eb\u7cfb\u306e\u6b66\u5668\u3092\u88c5\u5099\u3067\u304d\u3001 / \u4e0d\u6b7b\u65cf\u3092\u9000\u9664\u3059\u308b\u30c7\u30a3\u30b9\u30da\u30eb\u3092\u899a\u3048\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002 / l\uff56\uff15\u307e\u3067\u306e\u795e\u8056\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can equip staffs / and knuckle weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / "},
-  {"resource": 38, "message": 137, "japanese": "\u8056\u306a\u308b\u30aa\u30fc\u30e9\u3067\u30d1\u30fc\u30c6\u30a3\u306ehp\u3092\u5c11\u3057\u305a\u3064\u56de\u5fa9\u3059\u308b / \u3053\u3068\u304c\u3067\u304d\u3001\u30c7\u30a3\u30b9\u30da\u30eb\u3092\u899a\u3048\u308b\u3053\u3068\u3082\u3067\u304d\u307e\u3059\u3002 / l\uff56\uff16\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u30fb\u795e\u8056\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Holy aura slowly / restores party HP. / Can also learn Dispel. / Learns Sorcery and / Holy Magic up to Lv6. / "},
-  {"resource": 38, "message": 138, "japanese": "\u4f7f\u308f\u308c\u3066\u3044\u308b\u88c5\u5099\u306e\u3001\u305d\u306e\u4f7f\u3044\u306e\u6d88\u546a\u3092 / \u6253\u3061\u9664\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002 / l\uff56\uff16\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can remove curses / from equipped items. / Learns Sorcery / up to Lv6. / "},
-  {"resource": 38, "message": 139, "japanese": "\u7d4c\u6240\u7372\u5f97\u306b\u9577\u3051\u3066\u304a\u308a\u3001\u4e00\u5f97\u3067\u4f9d\u3068\u3081\u308b\u80fd\u529b\u3092\u6301\u3061\u307e\u3059\u3002 / \u3055\u3089\u306b\u30c0\u30fc\u30af\u30be\u30fc\u30f3\u3092\u898b\u308b\u306a\u3069\u306e\u80fd\u529b\u3082\u5099\u3048\u3066\u3044\u307e\u3059\u3002 / l\uff56\uff15\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Excels at gaining EXP / and instant death atk. / Can also see through / dark fog zones. / Learns Sorcery / up to Lv5. / "},
-  {"resource": 38, "message": 140, "japanese": "\u5531\u624b\u6b66\u5668\u3068\u9632\u306e\u540c\u53d7\u88c5\u5099\u3084\u3001\u540c\u3058\u7372\u5f97\u7cfb\u5c5e\u306e\u6b66\u5668\u4e21\u7a2e\u3092 / \u540c\u53d7\u306b\u88c5\u5099\u3067\u304d\u308b\u4e21\u93a7\u9032\u306e\u80fd\u529b\u3092\u6301\u3063\u3066\u3044\u307e\u3059\u3002 / l\uff56\uff16\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can dual wield / weapons of the same / type simultaneously. / Learns Sorcery / up to Lv6. / "},
-  {"resource": 38, "message": 141, "japanese": "\u9577\u6cd5\u306e\u88c5\u5099\u304c\u53ef\u80fd\u3067\u3001\u30c8\u30e9\u30c3\u30d7\u767a\u96e3\u5ea6\u3092\u5927\u304d\u304f\u4e0b\u3052\u305f\u308a\u3001 / \u5b9d\u306e\u30a2\u30a4\u30c6\u30e0\u3092\u3076\u3093\u3069\u308b\u306a\u3069\u306e\u7279\u80fd\u3092\u6301\u3063\u3066\u3044\u307e\u3059\u3002 / l\uff56\uff14\u307e\u3067\u306e\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u30fb\u795e\u8056\u9a0e\u6cd5\u3092\u7fd2\u4e0b\u53ef\u80fd\u3002 / ", "english": "Can equip longbows. / Greatly lowers trap / difficulty. Can steal / items from enemies. / Learns Sorcery and / Holy Magic up to Lv4. / "},
-  {"resource": 38, "message": 142, "japanese": "\u6b66\u5668\u3067\u7372\u5f97\u3057\u305f\u53d7\u306e\u30c0\u30e1\u30fc\u30b8\u306b\u5f71\u97ff\u3057\u307e\u3059\u3002 / ", "english": "Affects damage dealt / with weapons. / "},
-  {"resource": 38, "message": 143, "japanese": "\u9a0e\u4e8b\u52d9\u9a0e\u6cd5\u306e\u5a01\u529b\u3001\u4fc4\u6027\u306b\u5f71\u97ff\u3057\u307e\u3059\u3002 / ", "english": "Affects Sorcery power / and resistance. / "},
-  {"resource": 38, "message": 144, "japanese": "\u795e\u8056\u9a0e\u6cd5\u306e\u5a01\u529b\u3001\u4fc4\u6027\u306b\u5f71\u97ff\u3057\u307e\u3059\u3002 / ", "english": "Affects Holy Magic / power and resistance. / "},
-  {"resource": 38, "message": 145, "japanese": "hp\u306e\u4f4e\u3055\u3084\u3001\u30b9\u30c6\u30fc\u30bf\u30b9\u53d6\u901a\u306b\u5bfe\u3059\u308b\u4fc4\u6027\u3001 / \u5fa9\u6d3b\u306e\u7d50\u679c\u306b\u5f71\u97ff\u3057\u307e\u3059\u3002 / ", "english": "Affects max HP, / status resistance, / and revival success. / "},
-  {"resource": 38, "message": 146, "japanese": "\u6226\u7bb1\u53d7\u306b\u884c\u52d5\u3059\u308b\u524d\u756a\u306b\u5f71\u97ff\u3057\u307e\u3059\u3002 / ", "english": "Affects turn order / in battle. / "},
-  {"resource": 38, "message": 147, "japanese": "\u30d6\u30ec\u30b9\u306b\u5bfe\u3059\u308b\u4fc4\u6027\u3084\u3001\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30d2\u30c3\u30c8\u306e\u7d50\u679c / \u306a\u3069\u306b\u5f71\u97ff\u3057\u307e\u3059\u3002 / ", "english": "Affects breath resist / and critical hit / chance. / "},
-  {"resource": 38, "message": 148, "japanese": "\u5584\u300cg\u300d / ", "english": "Good \"G\" / "},
-  {"resource": 38, "message": 149, "japanese": "\u4e2d\u7acb\u300cn\u300d / ", "english": "Neutral \"N\" / "},
-  {"resource": 38, "message": 150, "japanese": "\u60aa\u300ce\u300d / ", "english": "Evil \"E\" / "},
-  {"resource": 38, "message": 152, "japanese": "\u4e2d\u7acb / ", "english": "Neutral / "},
-  {"resource": 38, "message": 157, "japanese": "l\uff56 / ", "english": "Lv / "},
-  {"resource": 38, "message": 158, "japanese": "commoner / ", "english": "Commoner / "},
-  {"resource": 38, "message": 159, "japanese": "hooligan / ", "english": "Hooligan / "},
-  {"resource": 38, "message": 160, "japanese": "evil / ", "english": "Evil / "},
-  {"resource": 38, "message": 161, "japanese": "venom fang / ", "english": "Venom Fang / "},
-  {"resource": 38, "message": 162, "japanese": "villain / ", "english": "Villain / "},
-  {"resource": 38, "message": 163, "japanese": "gangster / ", "english": "Gangster / "},
-  {"resource": 38, "message": 164, "japanese": "clurelty / ", "english": "Cruelty / "},
-  {"resource": 38, "message": 165, "japanese": "vicious / ", "english": "Vicious / "},
-  {"resource": 38, "message": 166, "japanese": "dengerous / ", "english": "Dangerous / "},
-  {"resource": 38, "message": 167, "japanese": "curiosity / ", "english": "Curiosity / "},
-  {"resource": 38, "message": 168, "japanese": "commoner / ", "english": "Commoner / "},
-  {"resource": 38, "message": 169, "japanese": "adventurer / ", "english": "Adventurer / "},
-  {"resource": 38, "message": 170, "japanese": "guard / ", "english": "Guard / "},
-  {"resource": 38, "message": 171, "japanese": "boldness / ", "english": "Boldness / "},
-  {"resource": 38, "message": 172, "japanese": "bravery / ", "english": "Bravery / "},
-  {"resource": 38, "message": 173, "japanese": "famous / ", "english": "Famous / "},
-  {"resource": 38, "message": 174, "japanese": "veteran / ", "english": "Veteran / "},
-  {"resource": 38, "message": 175, "japanese": "conqueror / ", "english": "Conqueror / "},
-  {"resource": 38, "message": 176, "japanese": "hero / ", "english": "Hero / "},
-  {"resource": 38, "message": 177, "japanese": "queen guard / ", "english": "Queen Guard / "},
-  {"resource": 38, "message": 178, "japanese": "commoner / ", "english": "Commoner / "},
-  {"resource": 38, "message": 179, "japanese": "honest person / ", "english": "Honest Person / "},
-  {"resource": 38, "message": 180, "japanese": "kind / ", "english": "Kind / "},
-  {"resource": 38, "message": 181, "japanese": "reliable / ", "english": "Reliable / "},
-  {"resource": 38, "message": 182, "japanese": "great heart / ", "english": "Great Heart / "},
-  {"resource": 38, "message": 183, "japanese": "fairness / ", "english": "Fairness / "},
-  {"resource": 38, "message": 184, "japanese": "norble / ", "english": "Noble / "},
-  {"resource": 38, "message": 185, "japanese": "achievement / ", "english": "Achievement / "},
-  {"resource": 38, "message": 186, "japanese": "sage / ", "english": "Sage / "},
-  {"resource": 38, "message": 187, "japanese": "god hand / ", "english": "God Hand / "}
+  {
+    "resource": 38,
+    "message": 0,
+    "japanese": "hp / ",
+    "english": "HP / "
+  },
+  {
+    "resource": 38,
+    "message": 1,
+    "japanese": "hp／mhp / ",
+    "english": "HP/MHP / "
+  },
+  {
+    "resource": 38,
+    "message": 2,
+    "japanese": "力 / ",
+    "english": "STR / "
+  },
+  {
+    "resource": 38,
+    "message": 3,
+    "japanese": "知恵 / ",
+    "english": "INT / "
+  },
+  {
+    "resource": 38,
+    "message": 4,
+    "japanese": "信仰心 / ",
+    "english": "FTH / "
+  },
+  {
+    "resource": 38,
+    "message": 5,
+    "japanese": "生命力 / ",
+    "english": "VIT / "
+  },
+  {
+    "resource": 38,
+    "message": 6,
+    "japanese": "敏捷度 / ",
+    "english": "AGI / "
+  },
+  {
+    "resource": 38,
+    "message": 7,
+    "japanese": "幸運度 / ",
+    "english": "LCK / "
+  },
+  {
+    "resource": 38,
+    "message": 8,
+    "japanese": "名前 / ",
+    "english": "Name / "
+  },
+  {
+    "resource": 38,
+    "message": 9,
+    "japanese": "レベル / ",
+    "english": "Level / "
+  },
+  {
+    "resource": 38,
+    "message": 10,
+    "japanese": "種族 / ",
+    "english": "Race / "
+  },
+  {
+    "resource": 38,
+    "message": 11,
+    "japanese": "果別 / ",
+    "english": "Gender / "
+  },
+  {
+    "resource": 38,
+    "message": 12,
+    "japanese": "条果 / ",
+    "english": "Alignment / "
+  },
+  {
+    "resource": 38,
+    "message": 13,
+    "japanese": "職業 / ",
+    "english": "Class / "
+  },
+  {
+    "resource": 38,
+    "message": 14,
+    "japanese": "果性 / ",
+    "english": "Personality / "
+  },
+  {
+    "resource": 38,
+    "message": 15,
+    "japanese": "騎事務騎法 / ",
+    "english": "Sorcery / "
+  },
+  {
+    "resource": 38,
+    "message": 16,
+    "japanese": "神聖騎法 / ",
+    "english": "Holy Magic / "
+  },
+  {
+    "resource": 38,
+    "message": 17,
+    "japanese": "能力値 / ",
+    "english": "Attributes / "
+  },
+  {
+    "resource": 38,
+    "message": 18,
+    "japanese": "lｖ１ / ",
+    "english": "Lv1 / "
+  },
+  {
+    "resource": 38,
+    "message": 19,
+    "japanese": "lｖ２ / ",
+    "english": "Lv2 / "
+  },
+  {
+    "resource": 38,
+    "message": 20,
+    "japanese": "lｖ３ / ",
+    "english": "Lv3 / "
+  },
+  {
+    "resource": 38,
+    "message": 21,
+    "japanese": "lｖ４ / ",
+    "english": "Lv4 / "
+  },
+  {
+    "resource": 38,
+    "message": 22,
+    "japanese": "lｖ５ / ",
+    "english": "Lv5 / "
+  },
+  {
+    "resource": 38,
+    "message": 23,
+    "japanese": "lｖ６ / ",
+    "english": "Lv6 / "
+  },
+  {
+    "resource": 38,
+    "message": 24,
+    "japanese": "lｖ７ / ",
+    "english": "Lv7 / "
+  },
+  {
+    "resource": 38,
+    "message": 27,
+    "japanese": "イオ / ",
+    "english": "Io / "
+  },
+  {
+    "resource": 38,
+    "message": 28,
+    "japanese": "エウロパ / ",
+    "english": "Europa / "
+  },
+  {
+    "resource": 38,
+    "message": 29,
+    "japanese": "人壁 / ",
+    "english": "Human / "
+  },
+  {
+    "resource": 38,
+    "message": 30,
+    "japanese": "エルフ / ",
+    "english": "Elf / "
+  },
+  {
+    "resource": 38,
+    "message": 31,
+    "japanese": "ノーム / ",
+    "english": "Gnome / "
+  },
+  {
+    "resource": 38,
+    "message": 32,
+    "japanese": "ドワーフ / ",
+    "english": "Dwarf / "
+  },
+  {
+    "resource": 38,
+    "message": 33,
+    "japanese": "ホビット / ",
+    "english": "Hobbit / "
+  },
+  {
+    "resource": 38,
+    "message": 34,
+    "japanese": "オートマター / ",
+    "english": "Automata / "
+  },
+  {
+    "resource": 38,
+    "message": 37,
+    "japanese": "戦士 / ",
+    "english": "Fighter / "
+  },
+  {
+    "resource": 38,
+    "message": 38,
+    "japanese": "盗賊 / ",
+    "english": "Thief / "
+  },
+  {
+    "resource": 38,
+    "message": 39,
+    "japanese": "騎事務 / ",
+    "english": "Mage / "
+  },
+  {
+    "resource": 38,
+    "message": 40,
+    "japanese": "神聖 / ",
+    "english": "Priest / "
+  },
+  {
+    "resource": 38,
+    "message": 41,
+    "japanese": "忍者 / ",
+    "english": "Ninja / "
+  },
+  {
+    "resource": 38,
+    "message": 43,
+    "japanese": "集教 / ",
+    "english": "Bishop / "
+  },
+  {
+    "resource": 38,
+    "message": 44,
+    "japanese": "兵士 / ",
+    "english": "Samurai / "
+  },
+  {
+    "resource": 38,
+    "message": 45,
+    "japanese": "冒金事務 / ",
+    "english": "Alchemist / "
+  },
+  {
+    "resource": 38,
+    "message": 46,
+    "japanese": "義賊 / ",
+    "english": "Gizoku / "
+  },
+  {
+    "resource": 38,
+    "message": 47,
+    "japanese": "モンク / ",
+    "english": "Monk / "
+  },
+  {
+    "resource": 38,
+    "message": 48,
+    "japanese": "聖兵士 / ",
+    "english": "Paladin / "
+  },
+  {
+    "resource": 38,
+    "message": 49,
+    "japanese": "暗兵士 / ",
+    "english": "Dark Knight / "
+  },
+  {
+    "resource": 38,
+    "message": 50,
+    "japanese": "将後 / ",
+    "english": "Shogun / "
+  },
+  {
+    "resource": 38,
+    "message": 51,
+    "japanese": "教授 / ",
+    "english": "Knight / "
+  },
+  {
+    "resource": 38,
+    "message": 52,
+    "japanese": "美盗 / ",
+    "english": "High Thief / "
+  },
+  {
+    "resource": 38,
+    "message": 53,
+    "japanese": "飽き果 / ",
+    "english": "Omnitsu / "
+  },
+  {
+    "resource": 38,
+    "message": 54,
+    "japanese": "■武 / ",
+    "english": "Militant / "
+  },
+  {
+    "resource": 38,
+    "message": 55,
+    "japanese": "れ全費 / ",
+    "english": "Wasteful / "
+  },
+  {
+    "resource": 38,
+    "message": 56,
+    "japanese": "孤独 / ",
+    "english": "Lonely / "
+  },
+  {
+    "resource": 38,
+    "message": 57,
+    "japanese": "社交的 / ",
+    "english": "Sociable / "
+  },
+  {
+    "resource": 38,
+    "message": 58,
+    "japanese": "収集家 / ",
+    "english": "Collector / "
+  },
+  {
+    "resource": 38,
+    "message": 59,
+    "japanese": "慎重 / ",
+    "english": "Cautious / "
+  },
+  {
+    "resource": 38,
+    "message": 60,
+    "japanese": "与蓄家 / ",
+    "english": "Hoarder / "
+  },
+  {
+    "resource": 38,
+    "message": 61,
+    "japanese": "知的 / ",
+    "english": "Intellectual / "
+  },
+  {
+    "resource": 38,
+    "message": 62,
+    "japanese": "好戦的 / ",
+    "english": "Belligerent / "
+  },
+  {
+    "resource": 38,
+    "message": 63,
+    "japanese": "冒険家 / ",
+    "english": "Adventurous / "
+  },
+  {
+    "resource": 38,
+    "message": 64,
+    "japanese": "迷信家 / ",
+    "english": "Superstitious / "
+  },
+  {
+    "resource": 38,
+    "message": 65,
+    "japanese": "勤勉務 / ",
+    "english": "Studious / "
+  },
+  {
+    "resource": 38,
+    "message": 66,
+    "japanese": "効向け / ",
+    "english": "Pusillanimous / "
+  },
+  {
+    "resource": 38,
+    "message": 67,
+    "japanese": "エコロジスト / ",
+    "english": "Ecologist / "
+  },
+  {
+    "resource": 38,
+    "message": 68,
+    "japanese": "乙女心 / ",
+    "english": "Maiden Heart / "
+  },
+  {
+    "resource": 38,
+    "message": 69,
+    "japanese": "重腕漢 / ",
+    "english": "Hot-Blooded / "
+  },
+  {
+    "resource": 38,
+    "message": 70,
+    "japanese": "多義感 / ",
+    "english": "Just / "
+  },
+  {
+    "resource": 38,
+    "message": 71,
+    "japanese": "勤ち気 / ",
+    "english": "Determined / "
+  },
+  {
+    "resource": 38,
+    "message": 72,
+    "japanese": "協力的 / ",
+    "english": "Cooperative / "
+  },
+  {
+    "resource": 38,
+    "message": 73,
+    "japanese": "友愛 / ",
+    "english": "Fraternal / "
+  },
+  {
+    "resource": 38,
+    "message": 74,
+    "japanese": "短気 / ",
+    "english": "Short-Tempered / "
+  },
+  {
+    "resource": 38,
+    "message": 75,
+    "japanese": "エコノミスト / ",
+    "english": "Economist / "
+  },
+  {
+    "resource": 38,
+    "message": 76,
+    "japanese": "好色 / ",
+    "english": "Lustful / "
+  },
+  {
+    "resource": 38,
+    "message": 77,
+    "japanese": "ナルシスト / ",
+    "english": "Narcissist / "
+  },
+  {
+    "resource": 38,
+    "message": 78,
+    "japanese": "気分屋 / ",
+    "english": "Moody / "
+  },
+  {
+    "resource": 38,
+    "message": 79,
+    "japanese": "自己的 / ",
+    "english": "Sadist / "
+  },
+  {
+    "resource": 38,
+    "message": 80,
+    "japanese": "種族愛 / ",
+    "english": "Tribal Love / "
+  },
+  {
+    "resource": 38,
+    "message": 81,
+    "japanese": "大胆 / ",
+    "english": "Bold / "
+  },
+  {
+    "resource": 38,
+    "message": 82,
+    "japanese": "除味家 / ",
+    "english": "Hobbyist / "
+  },
+  {
+    "resource": 38,
+    "message": 83,
+    "japanese": "獲得力 / ",
+    "english": "Attack / "
+  },
+  {
+    "resource": 38,
+    "message": 84,
+    "japanese": "命中果 / ",
+    "english": "Accuracy / "
+  },
+  {
+    "resource": 38,
+    "message": 85,
+    "japanese": "解消力 / ",
+    "english": "Defense / "
+  },
+  {
+    "resource": 38,
+    "message": 86,
+    "japanese": "回避果 / ",
+    "english": "Evasion / "
+  },
+  {
+    "resource": 38,
+    "message": 87,
+    "japanese": "何でもすぐ飽きる。迷宮探索も同じ。 / 長受壁街に帰らないと消嫌が悪くなる。 / ",
+    "english": "Bores easily. / Return to town often. / "
+  },
+  {
+    "resource": 38,
+    "message": 88,
+    "japanese": "臆的な士に敏感なので、死神を見ただけで / ふるえあがる。 / ",
+    "english": "Senses spirits. / Trembles at Death. / "
+  },
+  {
+    "resource": 38,
+    "message": 89,
+    "japanese": "金をためることに全てをかける。わざわざ / 迷宮を探索して、稼ぎが少ないと城る。 / ",
+    "english": "Lives to hoard gold. / Angry if loot is low. / "
+  },
+  {
+    "resource": 38,
+    "message": 90,
+    "japanese": "人ごみや大人数での行動は苦手。 / 少人数でひっそり行動する方が落ち着く。 / ",
+    "english": "Dislikes crowds. / Calmer in few. / "
+  },
+  {
+    "resource": 38,
+    "message": 91,
+    "japanese": "いつも大同の者との交進を方む。 / 少人数の大しいパーティは嫌い。 / ",
+    "english": "Loves big groups. / Hates small parties. / "
+  },
+  {
+    "resource": 38,
+    "message": 92,
+    "japanese": "宝士に目がない。 / アイテム収集が人生のテーマ。 / ",
+    "english": "Can't resist loot. / Lives to collect. / "
+  },
+  {
+    "resource": 38,
+    "message": 93,
+    "japanese": "使理のある冒険・戦箱をする者とは / 欠け編えないと思っている。 / ",
+    "english": "Distrusts reckless / adventurers. / "
+  },
+  {
+    "resource": 38,
+    "message": 94,
+    "japanese": "騎士の生態に解い関心を持っている。 / 騎士を見つけて調べるのが大好き。 / ",
+    "english": "Fascinated by / monster biology. / "
+  },
+  {
+    "resource": 38,
+    "message": 95,
+    "japanese": "神秘的な力は有対だと信じており、 / 騎法の知鑑が高まると幸せに感じる。 / ",
+    "english": "Believes in mystic / power. Loves magic. / "
+  },
+  {
+    "resource": 38,
+    "message": 96,
+    "japanese": "腕の気が聞く、通に解者との箱いを / 求めている。 / ",
+    "english": "Skilled warrior. / Seeks strong foes. / "
+  },
+  {
+    "resource": 38,
+    "message": 97,
+    "japanese": "冒険者が、冒険に出なければ払用がないと / 思っている。冒険できないとつらい。 / ",
+    "english": "Must adventure. / Idleness is agony. / "
+  },
+  {
+    "resource": 38,
+    "message": 98,
+    "japanese": "突然の出来頼に対して敏感に違応する。 / ",
+    "english": "Reacts keenly to / sudden events. / "
+  },
+  {
+    "resource": 38,
+    "message": 99,
+    "japanese": "トラップ殿解にムキになる。隊失すると / 消嫌がいいが成功するとひどく落ちこむ。 / ",
+    "english": "Obsessed with traps. / Crushed by success. / "
+  },
+  {
+    "resource": 38,
+    "message": 100,
+    "japanese": "気が探く、長く迷宮にいると不安になる。 / 不死族はこの世から除えてほしい。 / ",
+    "english": "Anxious in dungeons. / Dreads the undead. / "
+  },
+  {
+    "resource": 38,
+    "message": 101,
+    "japanese": "リサイクル言神を大切にしている。 / まだ使える士を持てるなどもってのほか。 / ",
+    "english": "Values recycling. / Hates wasting items. / "
+  },
+  {
+    "resource": 38,
+    "message": 102,
+    "japanese": "乙女の高い絆があれば、 / つらい箱いでも余計な男はいらない。 / ",
+    "english": "Strong maiden bonds. / No need for men. / "
+  },
+  {
+    "resource": 38,
+    "message": 103,
+    "japanese": "箱いの世界に女は使息と考えている。 / ",
+    "english": "Believes women have / no place in battle. / "
+  },
+  {
+    "resource": 38,
+    "message": 104,
+    "japanese": "話え騎士であっても戦払のない友好的な / 騎士をむやみに殺傷するのは許せない。 / ",
+    "english": "Won't forgive those / who slay tame foes. / "
+  },
+  {
+    "resource": 38,
+    "message": 105,
+    "japanese": "騎士をかたっぱしから殺すのが生きがい。 / 逃げるなどといった除卑的な行動を嫌う。 / ",
+    "english": "Lives to slay all. / Despises retreat. / "
+  },
+  {
+    "resource": 38,
+    "message": 106,
+    "japanese": "パーティとしての行動を重んじる。自分が / 単独で何かをするような魔鉄は嫌い。 / ",
+    "english": "Values teamwork. / Hates going solo. / "
+  },
+  {
+    "resource": 38,
+    "message": 107,
+    "japanese": "戦いを嫌い、■血を方む。 / 戦友が死んだ受などはひどく落ち込む。 / ",
+    "english": "Hates bloodshed. / Mourns fallen allies. / "
+  },
+  {
+    "resource": 38,
+    "message": 108,
+    "japanese": "とても気が短いので、いつまでもだらだら / 続く戦箱はイライラしている。 / ",
+    "english": "Short-tempered. / Long fights enrage. / "
+  },
+  {
+    "resource": 38,
+    "message": 109,
+    "japanese": "生まれつき商人気質があり、商売などに / 解い関心をもっている。 / ",
+    "english": "Born merchant. / Loves trade. / "
+  },
+  {
+    "resource": 38,
+    "message": 110,
+    "japanese": "取果に解い関心を持っている。 / 同果ばかりのパーティに御用がない。 / ",
+    "english": "Likes opposite sex. / Bored by same sex. / "
+  },
+  {
+    "resource": 38,
+    "message": 111,
+    "japanese": "自分はこの世でいちばん美しいと信じる。 / 美しい自分が傷ついたりするとショック。 / ",
+    "english": "Vain narcissist. / Shocked when harmed. / "
+  },
+  {
+    "resource": 38,
+    "message": 112,
+    "japanese": "とつぜん振んだかと思えば、今度は経に / 城ったり、つかみどころのない果性。 / ",
+    "english": "Happy then angry. / Unpredictable mood. / "
+  },
+  {
+    "resource": 38,
+    "message": 113,
+    "japanese": "自分が苦しい立場であればあるほど振ぶ。 / 体の取通ををされるのはかえってつらい。 / ",
+    "english": "Thrives in hardship. / Hates being helped. / "
+  },
+  {
+    "resource": 38,
+    "message": 114,
+    "japanese": "同種族の者に対する仲壁払鑑が解い。 / 異種族との交進を全く方まない。 / ",
+    "english": "Bonds with own race. / Shuns other races. / "
+  },
+  {
+    "resource": 38,
+    "message": 115,
+    "japanese": "何も考えていない。何でもいい。誰かが / 振べば一緒に振ぶ、城れば一緒に城る。 / ",
+    "english": "Empty-headed. / Happy if others are. / "
+  },
+  {
+    "resource": 38,
+    "message": 116,
+    "japanese": "何でも持っているものは著消活息すべき。 / 宝のもちぐされは許せない。 / ",
+    "english": "Use everything. / Hoarding is a sin. / "
+  },
+  {
+    "resource": 38,
+    "message": 117,
+    "japanese": "果別によって、個人の基仲能力値と隊長が取なります。 / 男果は力解く、女果は知的に隊長していきます。 / ",
+    "english": "Gender affects base / stats and growth. / Men are strong, / women are wise. / "
+  },
+  {
+    "resource": 38,
+    "message": 118,
+    "japanese": "種族はその者の隊長の基本となります。 / 人壁は少手信仰心が高いものの、全体的にむらなく / 隊長するバランスのいい種族といわれています。 / ",
+    "english": "Race determines base / growth. Humans have / high faith & balanced / stats overall. / "
+  },
+  {
+    "resource": 38,
+    "message": 119,
+    "japanese": "種族はその者の隊長の基本となります。 / エルフ族は知力と生命力に優れ、力は探いですが、 / 騎法の扱いでは■に出る者はいないと言われています。 / ",
+    "english": "Race determines base / growth. Elves excel / in INT & VIT but are / weak. Best at magic. / "
+  },
+  {
+    "resource": 38,
+    "message": 120,
+    "japanese": "種族はその者の隊長の基本となります。 / ノーム族は、信仰心がとても解く、 / また身のこなしがく器いため、神聖に向いています。 / ",
+    "english": "Race determines base / growth. Gnomes have / high faith & agility. / Suited for Priests. / "
+  },
+  {
+    "resource": 38,
+    "message": 121,
+    "japanese": "種族はその者の隊長の基本となります。 / 動きは胆いが、力解く信仰の待いドワーフ族。 / その特果を生かせる戦士に就く者が聞いようです。 / ",
+    "english": "Race determines base / growth. Dwarves are / slow but strong with / deep faith. Fighters. / "
+  },
+  {
+    "resource": 38,
+    "message": 122,
+    "japanese": "種族はその者の隊長の基本となります。 / ホビット族は小格でか探いものの、素い身のこなしと、 / 生まれ持つ幸運とで盗賊に就く者が内をたちません。 / ",
+    "english": "Race determines base / growth. Hobbits are / small but agile and / lucky. Born thieves. / "
+  },
+  {
+    "resource": 38,
+    "message": 123,
+    "japanese": "正義を重んじる善は、その正義に違した行動によっては / 悪へと変わってしまうこともあります。 / 可能職業：戦・騎・神・侍・義・集・兵・冒・モ / ",
+    "english": "Good upholds justice / but may turn Evil if / acting unjustly. / Classes: FIG MAG PRI / SAM GIZ BIS KNI ALC / MON / "
+  },
+  {
+    "resource": 38,
+    "message": 124,
+    "japanese": "かたよった考えをしない者は中立といわれます。 / 可能職業：戦・盗・騎・侍・義・冒・モ / ",
+    "english": "Those without bias / are called Neutral. / Classes: FIG THI MAG / SAM GIZ ALC MON / "
+  },
+  {
+    "resource": 38,
+    "message": 125,
+    "japanese": "休息を好む悪。稀に善に地心する者もいるようです。 / 可能職業：戦・盗・騎・神・忍・集・冒 / ",
+    "english": "Evil favors rest. / Some rarely turn to / Good. Classes: FIG / THI MAG PRI NIN BIS / ALC / "
+  },
+  {
+    "resource": 38,
+    "message": 126,
+    "japanese": "武闘のエキスパート。 / 騎法は習下できません。 / ",
+    "english": "Combat expert. / Cannot learn any / magic spells. / "
+  },
+  {
+    "resource": 38,
+    "message": 127,
+    "japanese": "罠の発難度を下げる能力を持ち、また宝箱を / 見つけるのも下払です。 / lｖ３までの騎事務騎法を習下可能。 / ",
+    "english": "Can reduce trap / difficulty & find / treasure chests. / Learns Sorcery Lv3. / "
+  },
+  {
+    "resource": 38,
+    "message": 128,
+    "japanese": "騎事務騎法の使い手。 / 全ての騎事務騎法を習下可能。 / ",
+    "english": "Master of Sorcery. / Can learn all / Sorcery spells. / "
+  },
+  {
+    "resource": 38,
+    "message": 129,
+    "japanese": "神聖騎法の使い手。 / 不死族を退除するディスペルを覚えることができます。 / 全ての神聖騎法を習下可能。 / ",
+    "english": "Master of Holy / Magic. Can learn / Dispel vs. undead. / All Holy Magic. / "
+  },
+  {
+    "resource": 38,
+    "message": 130,
+    "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / lｖ２までの騎事務騎法を習下可能。 / ",
+    "english": "Excels at earning / EXP. Can instant- / kill foes. Learns / Sorcery up to Lv2. / "
+  },
+  {
+    "resource": 38,
+    "message": 131,
+    "japanese": "騎士を気有させることができる武器、鎧を装備できます。 / lｖ５までの騎事務騎法を習下可能。 / ",
+    "english": "Can equip weapons / and armor for knights. / Learns Sorcery / up to Lv5. / "
+  },
+  {
+    "resource": 38,
+    "message": 132,
+    "japanese": "自回復品を回復する能力を備えており、 / 不死族を退除するディスペルを覚えることができます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Has the ability to / restore HP. / Can learn Dispel / to banish undead. / Learns Sorcery and / Holy Magic up to Lv6. / "
+  },
+  {
+    "resource": 38,
+    "message": 133,
+    "japanese": "ポールアックス系の武器を装備できます。 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
+    "english": "Can equip poleaxe / type weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / "
+  },
+  {
+    "resource": 38,
+    "message": 134,
+    "japanese": "冒金事を扱うことができる。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Can handle alchemy. / Learns Sorcery and / Holy Magic up to Lv4. / "
+  },
+  {
+    "resource": 38,
+    "message": 135,
+    "japanese": "長法の装備が可能で、トラップ発難度を下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ３までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Can equip longbows. / Lowers trap difficulty / and can steal items. / Learns Sorcery and / Holy Magic up to Lv3. / "
+  },
+  {
+    "resource": 38,
+    "message": 136,
+    "japanese": "スタッフやナックル系の武器を装備でき、 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
+    "english": "Can equip staffs / and knuckle weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / "
+  },
+  {
+    "resource": 38,
+    "message": 137,
+    "japanese": "聖なるオーラでパーティのhpを少しずつ回復する / ことができ、ディスペルを覚えることもできます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Holy aura slowly / restores party HP. / Can also learn Dispel. / Learns Sorcery and / Holy Magic up to Lv6. / "
+  },
+  {
+    "resource": 38,
+    "message": 138,
+    "japanese": "使われている装備の、その使いの消呪を / 打ち除すことができます。 / lｖ６までの騎事務騎法を習下可能。 / ",
+    "english": "Can remove curses / from equipped items. / Learns Sorcery / up to Lv6. / "
+  },
+  {
+    "resource": 38,
+    "message": 139,
+    "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / さらにダークゾーンを見るなどの能力も備えています。 / lｖ５までの騎事務騎法を習下可能。 / ",
+    "english": "Excels at gaining EXP / and instant death atk. / Can also see through / dark fog zones. / Learns Sorcery / up to Lv5. / "
+  },
+  {
+    "resource": 38,
+    "message": 140,
+    "japanese": "唱手武器と防の同受装備や、同じ獲得系属の武器両種を / 同受に装備できる両鎧進の能力を持っています。 / lｖ６までの騎事務騎法を習下可能。 / ",
+    "english": "Can dual wield / weapons of the same / type simultaneously. / Learns Sorcery / up to Lv6. / "
+  },
+  {
+    "resource": 38,
+    "message": 141,
+    "japanese": "長法の装備が可能で、トラップ発難度を大きく下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
+    "english": "Can equip longbows. / Greatly lowers trap / difficulty. Can steal / items from enemies. / Learns Sorcery and / Holy Magic up to Lv4. / "
+  },
+  {
+    "resource": 38,
+    "message": 142,
+    "japanese": "武器で獲得した受のダメージに影響します。 / ",
+    "english": "Affects damage dealt / with weapons. / "
+  },
+  {
+    "resource": 38,
+    "message": 143,
+    "japanese": "騎事務騎法の威力、俄性に影響します。 / ",
+    "english": "Affects Sorcery power / and resistance. / "
+  },
+  {
+    "resource": 38,
+    "message": 144,
+    "japanese": "神聖騎法の威力、俄性に影響します。 / ",
+    "english": "Affects Holy Magic / power and resistance. / "
+  },
+  {
+    "resource": 38,
+    "message": 145,
+    "japanese": "hpの低さや、ステータス取通に対する俄性、 / 復活の結果に影響します。 / ",
+    "english": "Affects max HP, / status resistance, / and revival success. / "
+  },
+  {
+    "resource": 38,
+    "message": 146,
+    "japanese": "戦箱受に行動する前番に影響します。 / ",
+    "english": "Affects turn order / in battle. / "
+  },
+  {
+    "resource": 38,
+    "message": 147,
+    "japanese": "ブレスに対する俄性や、クリティカルヒットの結果 / などに影響します。 / ",
+    "english": "Affects breath resist / and critical hit / chance. / "
+  },
+  {
+    "resource": 38,
+    "message": 148,
+    "japanese": "善「g」 / ",
+    "english": "Good \"G\" / "
+  },
+  {
+    "resource": 38,
+    "message": 149,
+    "japanese": "中立「n」 / ",
+    "english": "Neutral \"N\" / "
+  },
+  {
+    "resource": 38,
+    "message": 150,
+    "japanese": "悪「e」 / ",
+    "english": "Evil \"E\" / "
+  },
+  {
+    "resource": 38,
+    "message": 152,
+    "japanese": "中立 / ",
+    "english": "Neutral / "
+  },
+  {
+    "resource": 38,
+    "message": 157,
+    "japanese": "lｖ / ",
+    "english": "Lv / "
+  },
+  {
+    "resource": 38,
+    "message": 158,
+    "japanese": "commoner / ",
+    "english": "Commoner / "
+  },
+  {
+    "resource": 38,
+    "message": 159,
+    "japanese": "hooligan / ",
+    "english": "Hooligan / "
+  },
+  {
+    "resource": 38,
+    "message": 160,
+    "japanese": "evil / ",
+    "english": "Evil / "
+  },
+  {
+    "resource": 38,
+    "message": 161,
+    "japanese": "venom fang / ",
+    "english": "Venom Fang / "
+  },
+  {
+    "resource": 38,
+    "message": 162,
+    "japanese": "villain / ",
+    "english": "Villain / "
+  },
+  {
+    "resource": 38,
+    "message": 163,
+    "japanese": "gangster / ",
+    "english": "Gangster / "
+  },
+  {
+    "resource": 38,
+    "message": 164,
+    "japanese": "clurelty / ",
+    "english": "Cruelty / "
+  },
+  {
+    "resource": 38,
+    "message": 165,
+    "japanese": "vicious / ",
+    "english": "Vicious / "
+  },
+  {
+    "resource": 38,
+    "message": 166,
+    "japanese": "dengerous / ",
+    "english": "Dangerous / "
+  },
+  {
+    "resource": 38,
+    "message": 167,
+    "japanese": "curiosity / ",
+    "english": "Curiosity / "
+  },
+  {
+    "resource": 38,
+    "message": 168,
+    "japanese": "commoner / ",
+    "english": "Commoner / "
+  },
+  {
+    "resource": 38,
+    "message": 169,
+    "japanese": "adventurer / ",
+    "english": "Adventurer / "
+  },
+  {
+    "resource": 38,
+    "message": 170,
+    "japanese": "guard / ",
+    "english": "Guard / "
+  },
+  {
+    "resource": 38,
+    "message": 171,
+    "japanese": "boldness / ",
+    "english": "Boldness / "
+  },
+  {
+    "resource": 38,
+    "message": 172,
+    "japanese": "bravery / ",
+    "english": "Bravery / "
+  },
+  {
+    "resource": 38,
+    "message": 173,
+    "japanese": "famous / ",
+    "english": "Famous / "
+  },
+  {
+    "resource": 38,
+    "message": 174,
+    "japanese": "veteran / ",
+    "english": "Veteran / "
+  },
+  {
+    "resource": 38,
+    "message": 175,
+    "japanese": "conqueror / ",
+    "english": "Conqueror / "
+  },
+  {
+    "resource": 38,
+    "message": 176,
+    "japanese": "hero / ",
+    "english": "Hero / "
+  },
+  {
+    "resource": 38,
+    "message": 177,
+    "japanese": "queen guard / ",
+    "english": "Queen Guard / "
+  },
+  {
+    "resource": 38,
+    "message": 178,
+    "japanese": "commoner / ",
+    "english": "Commoner / "
+  },
+  {
+    "resource": 38,
+    "message": 179,
+    "japanese": "honest person / ",
+    "english": "Honest Person / "
+  },
+  {
+    "resource": 38,
+    "message": 180,
+    "japanese": "kind / ",
+    "english": "Kind / "
+  },
+  {
+    "resource": 38,
+    "message": 181,
+    "japanese": "reliable / ",
+    "english": "Reliable / "
+  },
+  {
+    "resource": 38,
+    "message": 182,
+    "japanese": "great heart / ",
+    "english": "Great Heart / "
+  },
+  {
+    "resource": 38,
+    "message": 183,
+    "japanese": "fairness / ",
+    "english": "Fairness / "
+  },
+  {
+    "resource": 38,
+    "message": 184,
+    "japanese": "norble / ",
+    "english": "Noble / "
+  },
+  {
+    "resource": 38,
+    "message": 185,
+    "japanese": "achievement / ",
+    "english": "Achievement / "
+  },
+  {
+    "resource": 38,
+    "message": 186,
+    "japanese": "sage / ",
+    "english": "Sage / "
+  },
+  {
+    "resource": 38,
+    "message": 187,
+    "japanese": "god hand / ",
+    "english": "God Hand / "
+  },
+  {
+    "resource": 38,
+    "message": 25,
+    "japanese": "lv7",
+    "english": "lv.7"
+  },
+  {
+    "resource": 38,
+    "message": 42,
+    "japanese": "ninja",
+    "english": "ninja"
+  },
+  {
+    "resource": 38,
+    "message": 151,
+    "japanese": "evil short",
+    "english": "e"
+  },
+  {
+    "resource": 38,
+    "message": 153,
+    "japanese": "neutral short",
+    "english": "n"
+  },
+  {
+    "resource": 38,
+    "message": 154,
+    "japanese": "evil short 2",
+    "english": "e"
+  }
 ]
