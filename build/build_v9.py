@@ -38,7 +38,7 @@ for i in range(10):
                 translations[k] = en
     except:
         pass
-for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json']:
+for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json', 'chunk_r40_r42_translated.json', 'chunk_r36_translated.json', 'chunk_r37_r48_r49_translated.json', 'chunk_r43_r45_translated.json']:
     try:
         d = json.load(open(f'data/translate_chunks/{fix}', encoding='utf-8'))
         for e in d:
@@ -56,7 +56,7 @@ def enc(ch):
         return table[ch.lower()]
     return 31
 
-for r_id in [34, 35, 2124, 2654]:
+for r_id in [34, 35, 36, 37, 40, 41, 42, 43, 44, 45, 48, 49, 2124, 2654]:
     tc_map = {34: '20', 35: '02', 2654: '44'}
     tc = tc_map.get(r_id, '01')
     orig = bytearray(open(f'extracted/packdata_raw/{r_id:04d}_type{tc}.raw', 'rb').read())

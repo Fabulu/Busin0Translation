@@ -1,0 +1,1850 @@
+[
+  {
+    "resource": 43,
+    "message": 27,
+    "japanese": "メダル [006B]      / ",
+    "english": "Medals:        / ",
+    "notes": "Medal count display label"
+  },
+  {
+    "resource": 43,
+    "message": 28,
+    "japanese": "メダルと景品を / 交更しますか？ / ",
+    "english": "Trade medals / for a prize? / ",
+    "notes": "Medal exchange confirmation"
+  },
+  {
+    "resource": 43,
+    "message": 29,
+    "japanese": "所持書が不足しています / ",
+    "english": "Not enough gold / ",
+    "notes": "Insufficient gold"
+  },
+  {
+    "resource": 43,
+    "message": 30,
+    "japanese": "は / ",
+    "english": "  / ",
+    "notes": "Spacer/divider"
+  },
+  {
+    "resource": 43,
+    "message": 31,
+    "japanese": "所持メダル / ",
+    "english": "Medals held / ",
+    "notes": "Current medal count label"
+  },
+  {
+    "resource": 43,
+    "message": 32,
+    "japanese": "必要メダル / ",
+    "english": "Medals needed / ",
+    "notes": "Required medal count label"
+  },
+  {
+    "resource": 43,
+    "message": 33,
+    "japanese": "恩 / ",
+    "english": "  / ",
+    "notes": "Particle/spacer"
+  },
+  {
+    "resource": 43,
+    "message": 34,
+    "japanese": "を受け取った  / ",
+    "english": " received! / ",
+    "notes": "Item received message suffix"
+  },
+  {
+    "resource": 43,
+    "message": 35,
+    "japanese": "メダルが不足しています / ",
+    "english": "Not enough medals / ",
+    "notes": "Insufficient medals"
+  },
+  {
+    "resource": 43,
+    "message": 36,
+    "japanese": "それと交更するには / メダルが足りねえぜ  /   / ",
+    "english": "You don't have / enough medals / for that! / ",
+    "notes": "Not enough medals for exchange (dialogue)"
+  },
+  {
+    "resource": 43,
+    "message": 37,
+    "japanese": "依頼をこなしていません / ",
+    "english": "No quests completed / ",
+    "notes": "No completed quests"
+  },
+  {
+    "resource": 43,
+    "message": 38,
+    "japanese": "所持品がいっぱいです / ",
+    "english": "Inventory is full / ",
+    "notes": "Inventory full"
+  },
+  {
+    "resource": 44,
+    "message": 2,
+    "japanese": "よく来てくださいました。 / 冒書事に御用を / お持ちですか？ / ",
+    "english": "Welcome. / Do you need help / with adventuring? / ",
+    "notes": "Service NPC greeting (automata workshop)"
+  },
+  {
+    "resource": 44,
+    "message": 3,
+    "japanese": "お待ちしておりましたよ。 / オートマターの調子は / どうですか？ / ",
+    "english": "I've been waiting. / How is the automata / doing? / ",
+    "notes": "Greeting when player has automata"
+  },
+  {
+    "resource": 44,
+    "message": 4,
+    "japanese": "騎士から集ったく勲を / 冒書事で編隊し、 / 騎法団を造りましょう。 / ",
+    "english": "Let's form magic / stones from medals / collected by knights. / ",
+    "notes": "騎法団 = magic stones, く勲 = medals/decorations"
+  },
+  {
+    "resource": 44,
+    "message": 5,
+    "japanese": "古古呪扉の遺跡。 / 略遠に朽ちぬ、奥使き自動 / 人形に御用がありますか？ / ",
+    "english": "Ruins of ancient / magic. Need help with / the automata? / ",
+    "notes": "Ancient elven automata reference"
+  },
+  {
+    "resource": 44,
+    "message": 6,
+    "japanese": "もう行かれるのですか。 / また来てくださるのを / お待ちしていますよ。 / ",
+    "english": "Leaving already? / I look forward to / your next visit. / ",
+    "notes": "Exit greeting"
+  },
+  {
+    "resource": 44,
+    "message": 7,
+    "japanese": "決して迷切らない元であり / 忠実な戦士です。 /   / ",
+    "english": "An unfailing ally / and loyal warrior. /   / ",
+    "notes": "Automata description"
+  },
+  {
+    "resource": 44,
+    "message": 8,
+    "japanese": "騎法団を投入することで、 / オートマターをパワーアッ / プすることができます。 / ",
+    "english": "By using magic / stones, you can power / up the automata. / ",
+    "notes": "Magic stone power-up explanation"
+  },
+  {
+    "resource": 44,
+    "message": 9,
+    "japanese": "武器や解闘を加算してオー / トマター刻息の直[039C]体チッ / プを造ることができます。 / ",
+    "english": "Combine weapons / and gear to make / automata chips. / ",
+    "notes": "Chip creation explanation"
+  },
+  {
+    "resource": 44,
+    "message": 10,
+    "japanese": "獲得命中果、ステータス変 / 除効性をアップさせます。 /   / ",
+    "english": "Boosts accuracy / and status effect / resistance. / ",
+    "notes": "Weapon chip description"
+  },
+  {
+    "resource": 44,
+    "message": 11,
+    "japanese": "宝からの報酬獲得に対する / 解消力、獲得系騎法に対す / る効性をアップさせます。 / ",
+    "english": "Boosts defense / against attacks and / magic resistance. / ",
+    "notes": "Armor chip description"
+  },
+  {
+    "resource": 44,
+    "message": 12,
+    "japanese": "宝を獲得する力や回数に影 / 響します。身に階けていれ / ば内方獲得も可能です。 / ",
+    "english": "Affects attack / power and hit count. / Enables combos. / ",
+    "notes": "Offensive chip"
+  },
+  {
+    "resource": 44,
+    "message": 13,
+    "japanese": "宝からの報酬獲得に対して / の解消力や回避力に影響を / 与えます。 / ",
+    "english": "Affects defense / and evasion against / enemy attacks. / ",
+    "notes": "Defensive chip"
+  },
+  {
+    "resource": 44,
+    "message": 14,
+    "japanese": "宝からの報酬獲得に対する / 回避力に影響を与えます。 /   / ",
+    "english": "Affects evasion / against attacks. /   / ",
+    "notes": "Evasion chip"
+  },
+  {
+    "resource": 44,
+    "message": 15,
+    "japanese": "造隊したい騎法を / 選んでください。 /   / ",
+    "english": "Select the magic / to synthesize. /   / ",
+    "notes": "Magic stone selection"
+  },
+  {
+    "resource": 44,
+    "message": 16,
+    "japanese": "造隊するための / く勲の組み編わせを / 選んでください。 / ",
+    "english": "Select the medal / combination for / synthesis. / ",
+    "notes": "Medal combination selection"
+  },
+  {
+    "resource": 44,
+    "message": 17,
+    "japanese": "いくつ造りますか？ /   /   / ",
+    "english": "How many to make? /   /   / ",
+    "notes": "Quantity prompt"
+  },
+  {
+    "resource": 44,
+    "message": 18,
+    "japanese": "編隊をはじめても / よろしいですか？ /   / ",
+    "english": "Begin synthesis? /   /   / ",
+    "notes": "Confirm synthesis"
+  },
+  {
+    "resource": 44,
+    "message": 19,
+    "japanese": "騎法団ができました。 /   /   / ",
+    "english": "Magic stone / created! /   / ",
+    "notes": "Synthesis complete"
+  },
+  {
+    "resource": 44,
+    "message": 20,
+    "japanese": "今すぐ騎法団を / 使いますか？ /   / ",
+    "english": "Use the magic / stone now? /   / ",
+    "notes": "Use stone immediately"
+  },
+  {
+    "resource": 44,
+    "message": 21,
+    "japanese": "編隊を続けますか？ /   /   / ",
+    "english": "Continue making / more? /   / ",
+    "notes": "Continue synthesis"
+  },
+  {
+    "resource": 44,
+    "message": 22,
+    "japanese": "解除したいオートマターを / 選択してください。 /   / ",
+    "english": "Select automata / to modify. /   / ",
+    "notes": "Automata selection for modification"
+  },
+  {
+    "resource": 44,
+    "message": 23,
+    "japanese": "投入する騎法団と数を / 選択してください。 /   / ",
+    "english": "Select stone / and quantity. /   / ",
+    "notes": "Stone and quantity selection"
+  },
+  {
+    "resource": 44,
+    "message": 24,
+    "japanese": "変更する騎法団が０に / なっています。 /   / ",
+    "english": "No magic stones / to change. /   / ",
+    "notes": "No stones available"
+  },
+  {
+    "resource": 44,
+    "message": 25,
+    "japanese": "騎法団の変更を行っても / よろしいですか？ /   / ",
+    "english": "Proceed with / stone changes? /   / ",
+    "notes": "Confirm stone modification"
+  },
+  {
+    "resource": 44,
+    "message": 26,
+    "japanese": "所持書が不足しています / ",
+    "english": "Not enough gold / ",
+    "notes": "Insufficient gold"
+  },
+  {
+    "resource": 44,
+    "message": 27,
+    "japanese": "召喚できるメンバーが / 一杯のようです。 /   / ",
+    "english": "Party is already / at full capacity. /   / ",
+    "notes": "Party full"
+  },
+  {
+    "resource": 44,
+    "message": 28,
+    "japanese": "直[039C]体チップを選択して / ください。 /   / ",
+    "english": "Select a chip. /   /   / ",
+    "notes": "Chip selection"
+  },
+  {
+    "resource": 44,
+    "message": 29,
+    "japanese": "カーズパワーを設出する、 / アイテムを選択してくださ / い。 / ",
+    "english": "Select an item / to extract curse / power from. / ",
+    "notes": "Curse power extraction item selection"
+  },
+  {
+    "resource": 44,
+    "message": 30,
+    "japanese": "は い / ",
+    "english": "Yes / ",
+    "notes": "Confirmation"
+  },
+  {
+    "resource": 44,
+    "message": 31,
+    "japanese": "いいえ / ",
+    "english": "No / ",
+    "notes": "Decline"
+  },
+  {
+    "resource": 44,
+    "message": 32,
+    "japanese": "所持品がいっぱいです / ",
+    "english": "Inventory is full / ",
+    "notes": "Inventory full"
+  },
+  {
+    "resource": 44,
+    "message": 33,
+    "japanese": "オートマターを作入しますか？ / ",
+    "english": "Recruit automata? / ",
+    "notes": "Automata recruitment confirmation"
+  },
+  {
+    "resource": 44,
+    "message": 34,
+    "japanese": "の造隊を行いますか？ / ",
+    "english": " - synthesize? / ",
+    "notes": "Synthesis confirmation (name prefix)"
+  },
+  {
+    "resource": 44,
+    "message": 35,
+    "japanese": "が退隊しました。 / ",
+    "english": " has left the party. / ",
+    "notes": "Party member left"
+  },
+  {
+    "resource": 44,
+    "message": 36,
+    "japanese": "騎法団の変更をはじめて / よろしいですか？ / ",
+    "english": "Begin modifying / magic stones? / ",
+    "notes": "Start stone modification"
+  },
+  {
+    "resource": 44,
+    "message": 37,
+    "japanese": "編隊できるだけのく勲を / お持ちでないようですね。 /   / ",
+    "english": "You don't have / enough medals. /   / ",
+    "notes": "Insufficient medals for synthesis"
+  },
+  {
+    "resource": 44,
+    "message": 38,
+    "japanese": "編隊く勲が足りません / ",
+    "english": "Not enough medals / ",
+    "notes": "Insufficient medals (short)"
+  },
+  {
+    "resource": 44,
+    "message": 39,
+    "japanese": "使われた装備品を所持していません / ",
+    "english": "No cursed gear held / ",
+    "notes": "No cursed equipment in inventory"
+  },
+  {
+    "resource": 44,
+    "message": 40,
+    "japanese": "カーズパワーが足りません / ",
+    "english": "Not enough curse power / ",
+    "notes": "Insufficient curse power"
+  },
+  {
+    "resource": 44,
+    "message": 41,
+    "japanese": "チップを造りますか？ / ",
+    "english": "Create a chip? / ",
+    "notes": "Chip creation confirmation"
+  },
+  {
+    "resource": 44,
+    "message": 42,
+    "japanese": "mhpに変更 / ",
+    "english": "Change to mhp / ",
+    "notes": "Stat change option - max HP"
+  },
+  {
+    "resource": 44,
+    "message": 43,
+    "japanese": "力に変更 / ",
+    "english": "Change to str / ",
+    "notes": "Stat change - strength"
+  },
+  {
+    "resource": 44,
+    "message": 44,
+    "japanese": "知恵に変更 / ",
+    "english": "Change to int / ",
+    "notes": "Stat change - intelligence"
+  },
+  {
+    "resource": 44,
+    "message": 45,
+    "japanese": "信仰心に変更 / ",
+    "english": "Change to fth / ",
+    "notes": "Stat change - faith"
+  },
+  {
+    "resource": 44,
+    "message": 46,
+    "japanese": "生命力に変更 / ",
+    "english": "Change to vit / ",
+    "notes": "Stat change - vitality"
+  },
+  {
+    "resource": 44,
+    "message": 47,
+    "japanese": "敏捷度に変更 / ",
+    "english": "Change to agi / ",
+    "notes": "Stat change - agility"
+  },
+  {
+    "resource": 44,
+    "message": 48,
+    "japanese": "幸運度に変更 / ",
+    "english": "Change to lck / ",
+    "notes": "Stat change - luck"
+  },
+  {
+    "resource": 44,
+    "message": 49,
+    "japanese": "mhpが / ",
+    "english": "mhp / ",
+    "notes": "Stat label prefix"
+  },
+  {
+    "resource": 44,
+    "message": 50,
+    "japanese": "力が / ",
+    "english": "str / ",
+    "notes": "Stat label prefix"
+  },
+  {
+    "resource": 44,
+    "message": 51,
+    "japanese": "知恵が / ",
+    "english": "int / ",
+    "notes": "Stat label prefix"
+  },
+  {
+    "resource": 44,
+    "message": 52,
+    "japanese": "信仰心が / ",
+    "english": "fth / ",
+    "notes": "Stat label prefix"
+  },
+  {
+    "resource": 44,
+    "message": 53,
+    "japanese": "生命力が / ",
+    "english": "vit / ",
+    "notes": "Stat label prefix"
+  },
+  {
+    "resource": 44,
+    "message": 54,
+    "japanese": "敏捷度が / ",
+    "english": "agi / ",
+    "notes": "Stat label prefix"
+  },
+  {
+    "resource": 44,
+    "message": 55,
+    "japanese": "幸運度が / ",
+    "english": "lck / ",
+    "notes": "Stat label prefix"
+  },
+  {
+    "resource": 44,
+    "message": 56,
+    "japanese": "up / ",
+    "english": "up / ",
+    "notes": "Stat up suffix (already English)"
+  },
+  {
+    "resource": 44,
+    "message": 57,
+    "japanese": "pt / ",
+    "english": "pt / ",
+    "notes": "Point suffix (already English)"
+  },
+  {
+    "resource": 44,
+    "message": 58,
+    "japanese": "解除できません / ",
+    "english": "Cannot remove / ",
+    "notes": "Cannot remove chip/stone"
+  },
+  {
+    "resource": 45,
+    "message": 2,
+    "japanese": "ヴィガーしょうてんに / ようこそ    / ",
+    "english": "Welcome to / Vigor's shop! /   / ",
+    "notes": "Vigor shop greeting"
+  },
+  {
+    "resource": 45,
+    "message": 3,
+    "japanese": "ほれ  / バリバリはたらくだよ  /   / ",
+    "english": "C'mon! / Let's get to work! /   / ",
+    "notes": "Vigor motivational greeting"
+  },
+  {
+    "resource": 45,
+    "message": 4,
+    "japanese": "うりたいものがあったら / とっととよこすだよ  /   / ",
+    "english": "Got stuff to sell? / Hand it over! /   / ",
+    "notes": "Sell prompt"
+  },
+  {
+    "resource": 45,
+    "message": 5,
+    "japanese": "おきゃくさんの / ちゅうもんを / かたづけるだか？ / ",
+    "english": "Shall we fill / the customer / orders? / ",
+    "notes": "Customer order handling"
+  },
+  {
+    "resource": 45,
+    "message": 6,
+    "japanese": "そうこは / オダがバッチリ / そうこばんしてるだよ～ / ",
+    "english": "The warehouse / is under my / watchful eye! / ",
+    "notes": "Warehouse/storage management. オダ = Oda (Vigor's assistant)"
+  },
+  {
+    "resource": 45,
+    "message": 7,
+    "japanese": "オダのめは / こうみえても / ふしあなではない  / ",
+    "english": "My eyes miss / nothing, believe / me! / ",
+    "notes": "Oda boasting about appraisal skill"
+  },
+  {
+    "resource": 45,
+    "message": 8,
+    "japanese": "オダのうつくしいこころで / オメェの使いをといて / やるでよ～ / ",
+    "english": "With my pure heart / I'll remove your / curse! / ",
+    "notes": "Curse removal service"
+  },
+  {
+    "resource": 45,
+    "message": 9,
+    "japanese": "ヴィガー商店の / カンリもしてくでよ  /   / ",
+    "english": "I manage Vigor's / shop too! /   / ",
+    "notes": "Shop management"
+  },
+  {
+    "resource": 45,
+    "message": 10,
+    "japanese": "アルバイトを雇うってのは / なんだか店っぽくて / ええだよなあ～  / ",
+    "english": "Hiring workers / makes this place / feel like a real shop! / ",
+    "notes": "Part-time worker hiring"
+  },
+  {
+    "resource": 45,
+    "message": 11,
+    "japanese": "なんだ、もうでてくのか？ / またこいよ  /   / ",
+    "english": "Leaving already? / Come back soon! /   / ",
+    "notes": "Exit shop"
+  },
+  {
+    "resource": 45,
+    "message": 12,
+    "japanese": "オーダーをうけるか？  / それはとっても / いいことだ  / ",
+    "english": "Taking an order? / That's great! /   / ",
+    "notes": "Order acceptance"
+  },
+  {
+    "resource": 45,
+    "message": 13,
+    "japanese": "おめえがうけてる / オーダーはオダがちゃんと / メモってるだよ  / ",
+    "english": "I've got all your / orders written / down! / ",
+    "notes": "Order tracking"
+  },
+  {
+    "resource": 45,
+    "message": 14,
+    "japanese": "ソウコはいつも / せいりせいとん  /   / ",
+    "english": "The warehouse / is always tidy! /   / ",
+    "notes": "Warehouse is organized"
+  },
+  {
+    "resource": 45,
+    "message": 15,
+    "japanese": "オメぇ～ / ソウコがパンパンだど  / ちっと、かたづけるだよ  / ",
+    "english": "Hey! Warehouse / is packed full! / Clean it up! / ",
+    "notes": "Warehouse full warning"
+  },
+  {
+    "resource": 45,
+    "message": 16,
+    "japanese": "ソウコをかたづけるのか？ / うしゃ、エラい エラい  / ",
+    "english": "Cleaning up the / warehouse? Good, / good! / ",
+    "notes": "Warehouse cleanup confirmation"
+  },
+  {
+    "resource": 45,
+    "message": 17,
+    "japanese": "ソウコになにか / しまっとくだか？ /   / ",
+    "english": "Want to store / something? /   / ",
+    "notes": "Store item in warehouse"
+  },
+  {
+    "resource": 45,
+    "message": 18,
+    "japanese": "ぐひゃひゃ  / けいえいのアドバイス / してくれるだか？  / ",
+    "english": "Hehehe! / Got any business / advice? / ",
+    "notes": "Business advice request"
+  },
+  {
+    "resource": 45,
+    "message": 19,
+    "japanese": "わがヴィガーしょうてんの / けいえいじょうたいを / おしえてやるだよ  / ",
+    "english": "Let me show you / how Vigor's shop / is doing! / ",
+    "notes": "Shop status display"
+  },
+  {
+    "resource": 45,
+    "message": 20,
+    "japanese": "われらがヴィガー商店を / ステキに地装するか？  / ",
+    "english": "Shall we renovate / Vigor's shop? /   / ",
+    "notes": "Shop renovation prompt"
+  },
+  {
+    "resource": 45,
+    "message": 21,
+    "japanese": "だれのもちものを / 売ってくれるだよ？ /   / ",
+    "english": "Whose items / shall we sell? /   / ",
+    "notes": "Select party member to sell from"
+  },
+  {
+    "resource": 45,
+    "message": 22,
+    "japanese": "何を売ってくれるだよ？ /   /   / ",
+    "english": "What'll ya sell? /   /   / ",
+    "notes": "Item selection for selling"
+  },
+  {
+    "resource": 45,
+    "message": 23,
+    "japanese": "それは使われちまってて / 外せねえだよう。 / あきらめろ  / ",
+    "english": "That's equipped / and can't come off. / Give it up! / ",
+    "notes": "Cannot sell cursed equipped item"
+  },
+  {
+    "resource": 45,
+    "message": 24,
+    "japanese": "装備してるけども / ええのかよう？ /   / ",
+    "english": "It's equipped. / Sell it anyway? /   / ",
+    "notes": "Confirm selling equipped item"
+  },
+  {
+    "resource": 45,
+    "message": 25,
+    "japanese": "ほで、 / はよ売ってくれよう  /   / ",
+    "english": "Well then, / sell it quick! /   / ",
+    "notes": "Urging to sell"
+  },
+  {
+    "resource": 45,
+    "message": 26,
+    "japanese": "オメー、書持ちすぎだから / 持ちきれない分はオダへの / チップとしていただく  / ",
+    "english": "Too much gold! / Anything over the / limit is my tip! / ",
+    "notes": "Gold overflow - excess taken as tip"
+  },
+  {
+    "resource": 45,
+    "message": 27,
+    "japanese": "おーおー、オメぇ、 / 呪呪の品士持ってるべ  / それよこすだよ  / ",
+    "english": "Oho, you've got / cursed stuff! / Hand it over! / ",
+    "notes": "Player has cursed items"
+  },
+  {
+    "resource": 45,
+    "message": 28,
+    "japanese": "どのオーダーをうけるだよ？  /   /   / ",
+    "english": "Which order / to take? /   / ",
+    "notes": "Order selection"
+  },
+  {
+    "resource": 45,
+    "message": 29,
+    "japanese": "どうするべか？ /   /   / ",
+    "english": "What'll ya do? /   /   / ",
+    "notes": "Action selection"
+  },
+  {
+    "resource": 45,
+    "message": 30,
+    "japanese": "どんどんオーダーを / こなして、店の評判を / グーンとあげてくで  / ",
+    "english": "Keep filling / orders to boost / the shop's fame! / ",
+    "notes": "Encouragement to do orders"
+  },
+  {
+    "resource": 45,
+    "message": 31,
+    "japanese": "しっかりやってくでよ  /   /   / ",
+    "english": "Do your best! /   /   / ",
+    "notes": "Encouragement"
+  },
+  {
+    "resource": 45,
+    "message": 32,
+    "japanese": "オメェがうけてる / オーダーはこんだけだ  /   / ",
+    "english": "Here are all / your orders. /   / ",
+    "notes": "Order list display"
+  },
+  {
+    "resource": 45,
+    "message": 33,
+    "japanese": "で、どうするんだべ？ /   /   / ",
+    "english": "So, what now? /   /   / ",
+    "notes": "Action prompt"
+  },
+  {
+    "resource": 45,
+    "message": 34,
+    "japanese": "店の評判おとすような / ことはカンベンして / くれだよな！ / ",
+    "english": "Don't do anything / that'll hurt the / shop's reputation! / ",
+    "notes": "Warning about canceling orders"
+  },
+  {
+    "resource": 45,
+    "message": 35,
+    "japanese": "アイテムがそろってねえど  /   / ",
+    "english": "Items not ready! /   / ",
+    "notes": "Missing items for order"
+  },
+  {
+    "resource": 45,
+    "message": 36,
+    "japanese": "アイテムの数が足りません /   /   / ",
+    "english": "Not enough items /   /   / ",
+    "notes": "Insufficient item count"
+  },
+  {
+    "resource": 45,
+    "message": 37,
+    "japanese": "オメェのソウコだ  /   /   / ",
+    "english": "Your warehouse. /   /   / ",
+    "notes": "Warehouse display"
+  },
+  {
+    "resource": 45,
+    "message": 38,
+    "japanese": "それをどうするんだべ？ /   /   / ",
+    "english": "What to do / with that? /   / ",
+    "notes": "Item action selection in warehouse"
+  },
+  {
+    "resource": 45,
+    "message": 39,
+    "japanese": "誰の持ち士を / あずけるだよ？ /   / ",
+    "english": "Whose stuff / to deposit? /   / ",
+    "notes": "Select member to deposit items from"
+  },
+  {
+    "resource": 45,
+    "message": 40,
+    "japanese": "どれをあずけるだよ？ /   /   / ",
+    "english": "Which to store? /   /   / ",
+    "notes": "Item deposit selection"
+  },
+  {
+    "resource": 45,
+    "message": 41,
+    "japanese": "誰のを回復するだよ？ /   /   / ",
+    "english": "Whose to / identify? /   / ",
+    "notes": "Identify item - select member"
+  },
+  {
+    "resource": 45,
+    "message": 42,
+    "japanese": "どれを回復するだよ？ /   /   / ",
+    "english": "Which to / identify? /   / ",
+    "notes": "Identify item selection"
+  },
+  {
+    "resource": 45,
+    "message": 43,
+    "japanese": "回復するだか？  /   /   / ",
+    "english": "Identify it? /   /   / ",
+    "notes": "Confirm identification"
+  },
+  {
+    "resource": 45,
+    "message": 44,
+    "japanese": "ほれ、多体がわかって / スッキリしたべ  /   / ",
+    "english": "There! Now you / know what it is! /   / ",
+    "notes": "Identification complete"
+  },
+  {
+    "resource": 45,
+    "message": 45,
+    "japanese": "使われてしまった / 不幸なやつは / どいつだべ？？ / ",
+    "english": "Who's the poor / soul with the / curse? / ",
+    "notes": "Curse removal - select member"
+  },
+  {
+    "resource": 45,
+    "message": 46,
+    "japanese": "どれの使いを / 殿けばいいんだべ？ /   / ",
+    "english": "Which curse / to remove? /   / ",
+    "notes": "Curse removal - select item"
+  },
+  {
+    "resource": 45,
+    "message": 47,
+    "japanese": "使いを殿いてほしいべ？ / 使われっぱなしは / つらいべ？ な？ / ",
+    "english": "Want the curse / removed? Being / cursed is rough! / ",
+    "notes": "Curse removal confirmation"
+  },
+  {
+    "resource": 45,
+    "message": 48,
+    "japanese": "ほれ、使いも殿けて / スッキリしたべ  /   / ",
+    "english": "There! Curse / removed! Feel / better now? / ",
+    "notes": "Curse removed successfully"
+  },
+  {
+    "resource": 45,
+    "message": 49,
+    "japanese": "おおお、オダときたら / 殿使のスーパースター / だな  / ",
+    "english": "Oho, I'm the / curse removal / superstar! / ",
+    "notes": "Oda boasting after removal"
+  },
+  {
+    "resource": 45,
+    "message": 50,
+    "japanese": "ほだ  / これがただいまの / ヴィガー商店情報だ  / ",
+    "english": "Right then! / Here's the shop / status report! / ",
+    "notes": "Shop info display"
+  },
+  {
+    "resource": 45,
+    "message": 51,
+    "japanese": "われらがヴィガー商店を / く宝に地装するか？ /   / ",
+    "english": "Renovate Vigor's / shop with gems? /   / ",
+    "notes": "Renovation with treasure"
+  },
+  {
+    "resource": 45,
+    "message": 52,
+    "japanese": "倉庫をでっかく / してやるだよ～  /   / ",
+    "english": "Expand the / warehouse! /   / ",
+    "notes": "Warehouse expansion"
+  },
+  {
+    "resource": 45,
+    "message": 53,
+    "japanese": "われらがヴィガー商店の / 支店を造るか  / そっかそっかー  / ",
+    "english": "Build a branch / of Vigor's shop? / Alright! / ",
+    "notes": "Branch store creation"
+  },
+  {
+    "resource": 45,
+    "message": 54,
+    "japanese": "支店をリニュアール / オープンさせるべか？ /   / ",
+    "english": "Reopen the / branch store? /   / ",
+    "notes": "Branch renewal"
+  },
+  {
+    "resource": 45,
+    "message": 55,
+    "japanese": "支店の引越しだべか  /   / ",
+    "english": "Move the branch? /   / ",
+    "notes": "Branch relocation"
+  },
+  {
+    "resource": 45,
+    "message": 56,
+    "japanese": "いま拡築したら、 / アイテム２０個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 20 items! / ",
+    "notes": "Warehouse capacity 20"
+  },
+  {
+    "resource": 45,
+    "message": 57,
+    "japanese": "いま拡築したら、 / アイテム３０個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 30 items! / ",
+    "notes": "Warehouse capacity 30"
+  },
+  {
+    "resource": 45,
+    "message": 58,
+    "japanese": "いま拡築したら、 / アイテム４０個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 40 items! / ",
+    "notes": "Warehouse capacity 40"
+  },
+  {
+    "resource": 45,
+    "message": 59,
+    "japanese": "いま拡築したら、 / アイテム５０個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 50 items! / ",
+    "notes": "Warehouse capacity 50"
+  },
+  {
+    "resource": 45,
+    "message": 60,
+    "japanese": "いま拡築したら、 / アイテム６０個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 60 items! / ",
+    "notes": "Warehouse capacity 60"
+  },
+  {
+    "resource": 45,
+    "message": 61,
+    "japanese": "いま拡築したら、 / アイテム７０個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 70 items! / ",
+    "notes": "Warehouse capacity 70"
+  },
+  {
+    "resource": 45,
+    "message": 62,
+    "japanese": "いま拡築したら、 / アイテム８０個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 80 items! / ",
+    "notes": "Warehouse capacity 80"
+  },
+  {
+    "resource": 45,
+    "message": 63,
+    "japanese": "いま拡築したら、 / アイテム９０個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 90 items! / ",
+    "notes": "Warehouse capacity 90"
+  },
+  {
+    "resource": 45,
+    "message": 64,
+    "japanese": "いま拡築したら、 / アイテム１００個まで / 置けるようになるど～  / ",
+    "english": "Expand now to / store up to / 100 items! / ",
+    "notes": "Warehouse capacity 100"
+  },
+  {
+    "resource": 45,
+    "message": 65,
+    "japanese": "ごりゃ、オメェ  / 書がたりねえだろ  /   / ",
+    "english": "Hey you! / Not enough gold! /   / ",
+    "notes": "Insufficient gold for expansion"
+  },
+  {
+    "resource": 45,
+    "message": 66,
+    "japanese": "どこにオープン / させるべか？  /   / ",
+    "english": "Where to open / the branch? /   / ",
+    "notes": "Branch location selection"
+  },
+  {
+    "resource": 45,
+    "message": 67,
+    "japanese": "あこがれの支店が / とうとうできるのか～  /   / ",
+    "english": "A branch store / at last! /   / ",
+    "notes": "Branch store created"
+  },
+  {
+    "resource": 45,
+    "message": 68,
+    "japanese": "いつでも買取できれば / 持ち士のかたづけが / ラクチンだよな  / ",
+    "english": "Buy anytime to / keep your stuff / organized! / ",
+    "notes": "Buy service branch feature"
+  },
+  {
+    "resource": 45,
+    "message": 69,
+    "japanese": "オメェの荷士をいつでも / 倉庫まで送ってやるだ  / 感謝しろよ～う  / ",
+    "english": "I'll ship your / stuff to storage / anytime! Thank me! / ",
+    "notes": "Delivery service branch feature"
+  },
+  {
+    "resource": 45,
+    "message": 70,
+    "japanese": "いろんなイベントをすれば / お客さまにも / あきられねえべよ  / ",
+    "english": "Hold events to / keep customers / coming back! / ",
+    "notes": "Event space branch feature"
+  },
+  {
+    "resource": 45,
+    "message": 71,
+    "japanese": "いつでも帰めたら / ボロボロになっても安心だ  / レベルはあがんねえけど  / ",
+    "english": "A rest stop means / safety even when / beat up! No exp tho / ",
+    "notes": "Rest stop feature - heals but no exp"
+  },
+  {
+    "resource": 45,
+    "message": 72,
+    "japanese": "支店がどんどん / ゴージャスになるだな  /   / ",
+    "english": "The branch is / getting fancier! /   / ",
+    "notes": "Branch upgrade comment"
+  },
+  {
+    "resource": 45,
+    "message": 73,
+    "japanese": "どこに物転させるべ？ /   /   / ",
+    "english": "Where to move it? /   /   / ",
+    "notes": "Branch relocation selection"
+  },
+  {
+    "resource": 45,
+    "message": 74,
+    "japanese": "物転して / 客足がのびると / ええだなあ  / ",
+    "english": "Moving might / bring in more / customers! / ",
+    "notes": "Relocation benefit"
+  },
+  {
+    "resource": 45,
+    "message": 75,
+    "japanese": "どこを探索させるべ？ /   /   / ",
+    "english": "Where to explore? /   /   / ",
+    "notes": "Exploration destination"
+  },
+  {
+    "resource": 45,
+    "message": 76,
+    "japanese": "探索に向かわせて / ええだか？ /   / ",
+    "english": "Send them to / explore? /   / ",
+    "notes": "Confirm exploration"
+  },
+  {
+    "resource": 45,
+    "message": 77,
+    "japanese": "は い / ",
+    "english": "Yes / ",
+    "notes": "Confirmation"
+  },
+  {
+    "resource": 45,
+    "message": 78,
+    "japanese": "いいえ / ",
+    "english": "No / ",
+    "notes": "Decline"
+  },
+  {
+    "resource": 45,
+    "message": 79,
+    "japanese": "納品 / ",
+    "english": "Deliver / ",
+    "notes": "Deliver order menu option"
+  },
+  {
+    "resource": 45,
+    "message": 80,
+    "japanese": "引受 / ",
+    "english": "Accept / ",
+    "notes": "Accept order menu option"
+  },
+  {
+    "resource": 45,
+    "message": 81,
+    "japanese": "やめておく / ",
+    "english": "Cancel / ",
+    "notes": "Cancel menu option"
+  },
+  {
+    "resource": 45,
+    "message": 82,
+    "japanese": "納品し、このオーダーを / 退了しますか？ / ",
+    "english": "Deliver and / complete order? / ",
+    "notes": "Confirm order completion"
+  },
+  {
+    "resource": 45,
+    "message": 83,
+    "japanese": "このオーダーを / 引き受けますか？ / ",
+    "english": "Accept this / order? / ",
+    "notes": "Accept order confirmation"
+  },
+  {
+    "resource": 45,
+    "message": 84,
+    "japanese": "仲間にこのオーダーを / 紹棄しますか？ / ",
+    "english": "Share this order / with allies? / ",
+    "notes": "Share/introduce order to allies"
+  },
+  {
+    "resource": 45,
+    "message": 85,
+    "japanese": "出す / ",
+    "english": "Take out / ",
+    "notes": "Withdraw from warehouse"
+  },
+  {
+    "resource": 45,
+    "message": 86,
+    "japanese": "買い取り / ",
+    "english": "Buy / ",
+    "notes": "Buy/purchase option"
+  },
+  {
+    "resource": 45,
+    "message": 87,
+    "japanese": "潜び替え / ",
+    "english": "Swap / ",
+    "notes": "Swap item"
+  },
+  {
+    "resource": 45,
+    "message": 88,
+    "japanese": "持てる / ",
+    "english": "Hold / ",
+    "notes": "Give to party member"
+  },
+  {
+    "resource": 45,
+    "message": 89,
+    "japanese": "回復しますか？ / ",
+    "english": "Identify? / ",
+    "notes": "Identify confirmation"
+  },
+  {
+    "resource": 45,
+    "message": 90,
+    "japanese": "殿使しますか？ / ",
+    "english": "Remove curse? / ",
+    "notes": "Curse removal confirmation"
+  },
+  {
+    "resource": 45,
+    "message": 91,
+    "japanese": "使いが殿かれ抜け落った  / ",
+    "english": "Curse removed! / ",
+    "notes": "Curse removed and item dropped"
+  },
+  {
+    "resource": 45,
+    "message": 92,
+    "japanese": "使いが殿けたが崩れなかった  / ",
+    "english": "Curse removed, / item intact! / ",
+    "notes": "Curse removed, item survived"
+  },
+  {
+    "resource": 45,
+    "message": 93,
+    "japanese": "倉庫の拡築 / ",
+    "english": "Expand warehouse / ",
+    "notes": "Menu option - warehouse expansion"
+  },
+  {
+    "resource": 45,
+    "message": 94,
+    "japanese": "支店の新増 / ",
+    "english": "New branch / ",
+    "notes": "Menu option - new branch"
+  },
+  {
+    "resource": 45,
+    "message": 95,
+    "japanese": "支店の業種変更 / ",
+    "english": "Change services / ",
+    "notes": "Menu option - change branch type"
+  },
+  {
+    "resource": 45,
+    "message": 96,
+    "japanese": "支店の物転 / ",
+    "english": "Move branch / ",
+    "notes": "Menu option - relocate branch"
+  },
+  {
+    "resource": 45,
+    "message": 97,
+    "japanese": "倉庫を拡築しますか？ / ",
+    "english": "Expand warehouse? / ",
+    "notes": "Confirm warehouse expansion"
+  },
+  {
+    "resource": 45,
+    "message": 98,
+    "japanese": "支店を新増しますか？ / ",
+    "english": "Open new branch? / ",
+    "notes": "Confirm new branch"
+  },
+  {
+    "resource": 45,
+    "message": 99,
+    "japanese": "業種を追加しますか？ / ",
+    "english": "Add a service? / ",
+    "notes": "Confirm add service type"
+  },
+  {
+    "resource": 45,
+    "message": 100,
+    "japanese": "物転しますか？ / ",
+    "english": "Relocate? / ",
+    "notes": "Confirm relocation"
+  },
+  {
+    "resource": 45,
+    "message": 101,
+    "japanese": "雇息しますか？ / ",
+    "english": "Hire worker? / ",
+    "notes": "Confirm hiring"
+  },
+  {
+    "resource": 45,
+    "message": 102,
+    "japanese": "は / ",
+    "english": "  / ",
+    "notes": "Spacer"
+  },
+  {
+    "resource": 45,
+    "message": 103,
+    "japanese": "所持書が不足しています / ",
+    "english": "Not enough gold / ",
+    "notes": "Insufficient gold"
+  },
+  {
+    "resource": 45,
+    "message": 104,
+    "japanese": "回復しました / ",
+    "english": "Identified! / ",
+    "notes": "Identification complete"
+  },
+  {
+    "resource": 45,
+    "message": 105,
+    "japanese": "％ / ",
+    "english": "% / ",
+    "notes": "Percent sign"
+  },
+  {
+    "resource": 45,
+    "message": 106,
+    "japanese": "倉庫 / ",
+    "english": "Warehouse / ",
+    "notes": "Warehouse label"
+  },
+  {
+    "resource": 45,
+    "message": 107,
+    "japanese": "売却しますか？ / ",
+    "english": "Sell it? / ",
+    "notes": "Confirm sell"
+  },
+  {
+    "resource": 45,
+    "message": 108,
+    "japanese": "売却しました / ",
+    "english": "Sold! / ",
+    "notes": "Item sold"
+  },
+  {
+    "resource": 45,
+    "message": 109,
+    "japanese": "ありがとだ  / ",
+    "english": "Thanks! / ",
+    "notes": "Thank you"
+  },
+  {
+    "resource": 45,
+    "message": 110,
+    "japanese": "装備していますが / 売却しますか？ / ",
+    "english": "It's equipped. / Sell anyway? / ",
+    "notes": "Confirm sell equipped item"
+  },
+  {
+    "resource": 45,
+    "message": 111,
+    "japanese": "回復 / ",
+    "english": "Identify / ",
+    "notes": "Identify menu label"
+  },
+  {
+    "resource": 45,
+    "message": 112,
+    "japanese": "使いで外すことができません / ",
+    "english": "Cannot unequip cursed item / ",
+    "notes": "Cannot remove cursed equipment"
+  },
+  {
+    "resource": 45,
+    "message": 113,
+    "japanese": "それはしょうたいが / よぐわかんねーから / １０gでしか買わねえ  / ",
+    "english": "Can't tell what / that is, so I'll / only pay 10g! / ",
+    "notes": "Unidentified item low buyback price"
+  },
+  {
+    "resource": 45,
+    "message": 114,
+    "japanese": "装備を外しますが / よろしいですか？ / ",
+    "english": "Unequip it? / Are you sure? / ",
+    "notes": "Confirm unequip"
+  },
+  {
+    "resource": 45,
+    "message": 115,
+    "japanese": "所持品がいっぱいです / ",
+    "english": "Inventory is full / ",
+    "notes": "Inventory full"
+  },
+  {
+    "resource": 45,
+    "message": 116,
+    "japanese": "納品 / ",
+    "english": "Deliver / ",
+    "notes": "Delivery label"
+  },
+  {
+    "resource": 45,
+    "message": 117,
+    "japanese": "紹棄 / ",
+    "english": "Discard / ",
+    "notes": "Discard/abandon order"
+  },
+  {
+    "resource": 45,
+    "message": 118,
+    "japanese": "何もしない / ",
+    "english": "Do nothing / ",
+    "notes": "Do nothing option"
+  },
+  {
+    "resource": 45,
+    "message": 119,
+    "japanese": "所持品 / ",
+    "english": "Items / ",
+    "notes": "Inventory label"
+  },
+  {
+    "resource": 45,
+    "message": 120,
+    "japanese": "依頼人： / ",
+    "english": "Client: / ",
+    "notes": "Order client label"
+  },
+  {
+    "resource": 45,
+    "message": 121,
+    "japanese": "報酬： / ",
+    "english": "Reward: / ",
+    "notes": "Order reward label"
+  },
+  {
+    "resource": 45,
+    "message": 122,
+    "japanese": "期日： / ",
+    "english": "Due: / ",
+    "notes": "Order due date label"
+  },
+  {
+    "resource": 45,
+    "message": 123,
+    "japanese": "あと / ",
+    "english": "  / ",
+    "notes": "Remaining (prefix for days)"
+  },
+  {
+    "resource": 45,
+    "message": 124,
+    "japanese": "日 / ",
+    "english": " days / ",
+    "notes": "Days suffix"
+  },
+  {
+    "resource": 45,
+    "message": 125,
+    "japanese": "商店レベルが足りません / ",
+    "english": "Shop level too low / ",
+    "notes": "Shop level requirement not met"
+  },
+  {
+    "resource": 45,
+    "message": 126,
+    "japanese": "倉庫にアイテムがありません / ",
+    "english": "Warehouse is empty / ",
+    "notes": "No items in warehouse"
+  },
+  {
+    "resource": 45,
+    "message": 127,
+    "japanese": "ニューイヤーバーゲン中 / ",
+    "english": "New Year sale! / ",
+    "notes": "Event: New Year Bargain"
+  },
+  {
+    "resource": 45,
+    "message": 128,
+    "japanese": "ふゆのクリアランス中 / ",
+    "english": "Winter clearance! / ",
+    "notes": "Event: Winter Clearance"
+  },
+  {
+    "resource": 45,
+    "message": 129,
+    "japanese": "フレッシュマンセール中 / ",
+    "english": "Freshman sale! / ",
+    "notes": "Event: Freshman Sale"
+  },
+  {
+    "resource": 45,
+    "message": 130,
+    "japanese": "サマーバーゲン中 / ",
+    "english": "Summer bargain! / ",
+    "notes": "Event: Summer Bargain"
+  },
+  {
+    "resource": 45,
+    "message": 131,
+    "japanese": "なつのホラースペシャル中 / ",
+    "english": "Summer horror fest! / ",
+    "notes": "Event: Summer Horror Special"
+  },
+  {
+    "resource": 45,
+    "message": 132,
+    "japanese": "さい期大売出し中 / ",
+    "english": "Final big sale! / ",
+    "notes": "Event: End of Season Sale"
+  },
+  {
+    "resource": 45,
+    "message": 133,
+    "japanese": "冒書事チャレンジフェア中 / ",
+    "english": "Adventure fair! / ",
+    "notes": "Event: Adventure Challenge Fair"
+  },
+  {
+    "resource": 45,
+    "message": 134,
+    "japanese": "買取解除中 / ",
+    "english": "Buying lifted / ",
+    "notes": "Buy restriction lifted"
+  },
+  {
+    "resource": 45,
+    "message": 135,
+    "japanese": "冒書事息品買取解除中 / ",
+    "english": "Adv. goods buy ok / ",
+    "notes": "Adventure goods buy restriction lifted"
+  },
+  {
+    "resource": 45,
+    "message": 136,
+    "japanese": "使い装備品買取解除中 / ",
+    "english": "Cursed gear buy ok / ",
+    "notes": "Cursed equipment buy restriction lifted"
+  },
+  {
+    "resource": 45,
+    "message": 137,
+    "japanese": "装備品買取解除中 / ",
+    "english": "Gear buying ok / ",
+    "notes": "Equipment buy restriction lifted"
+  },
+  {
+    "resource": 45,
+    "message": 138,
+    "japanese": "自回復品買取解除中 / ",
+    "english": "Healing buy ok / ",
+    "notes": "Healing item buy restriction lifted"
+  },
+  {
+    "resource": 45,
+    "message": 139,
+    "japanese": "アイテム買取解除中 / ",
+    "english": "Item buying ok / ",
+    "notes": "Item buy restriction lifted"
+  },
+  {
+    "resource": 45,
+    "message": 140,
+    "japanese": "引き受けるオーダーがありません / ",
+    "english": "No orders available / ",
+    "notes": "No orders to accept"
+  },
+  {
+    "resource": 45,
+    "message": 141,
+    "japanese": "オーダーを引き受けていません / ",
+    "english": "No orders accepted / ",
+    "notes": "No active orders"
+  },
+  {
+    "resource": 45,
+    "message": 142,
+    "japanese": "b１ 支店 / ",
+    "english": "b1 branch / ",
+    "notes": "Branch 1 label"
+  },
+  {
+    "resource": 45,
+    "message": 143,
+    "japanese": "b２ 支店 / ",
+    "english": "b2 branch / ",
+    "notes": "Branch 2 label"
+  },
+  {
+    "resource": 45,
+    "message": 144,
+    "japanese": "b３ 支店 / ",
+    "english": "b3 branch / ",
+    "notes": "Branch 3 label"
+  },
+  {
+    "resource": 45,
+    "message": 145,
+    "japanese": "b４ 支店 / ",
+    "english": "b4 branch / ",
+    "notes": "Branch 4 label"
+  },
+  {
+    "resource": 45,
+    "message": 146,
+    "japanese": "b５ 支店 / ",
+    "english": "b5 branch / ",
+    "notes": "Branch 5 label"
+  },
+  {
+    "resource": 45,
+    "message": 147,
+    "japanese": "b６ 支店 / ",
+    "english": "b6 branch / ",
+    "notes": "Branch 6 label"
+  },
+  {
+    "resource": 45,
+    "message": 148,
+    "japanese": "b７ 支店 / ",
+    "english": "b7 branch / ",
+    "notes": "Branch 7 label"
+  },
+  {
+    "resource": 45,
+    "message": 149,
+    "japanese": "b８ 支店 / ",
+    "english": "b8 branch / ",
+    "notes": "Branch 8 label"
+  },
+  {
+    "resource": 45,
+    "message": 150,
+    "japanese": "b９ 支店 / ",
+    "english": "b9 branch / ",
+    "notes": "Branch 9 label"
+  },
+  {
+    "resource": 45,
+    "message": 151,
+    "japanese": "b１０ 支店 / ",
+    "english": "b10 branch / ",
+    "notes": "Branch 10 label"
+  },
+  {
+    "resource": 45,
+    "message": 152,
+    "japanese": "地装メニュー / ",
+    "english": "Renovation menu / ",
+    "notes": "Renovation menu label"
+  },
+  {
+    "resource": 45,
+    "message": 153,
+    "japanese": "増置先リスト / ",
+    "english": "Location list / ",
+    "notes": "Location list for branch placement"
+  },
+  {
+    "resource": 45,
+    "message": 154,
+    "japanese": "業種リスト / ",
+    "english": "Service list / ",
+    "notes": "Service type list"
+  },
+  {
+    "resource": 45,
+    "message": 155,
+    "japanese": "物転先リスト / ",
+    "english": "Move to list / ",
+    "notes": "Relocation destination list"
+  },
+  {
+    "resource": 45,
+    "message": 156,
+    "japanese": "ほれ、 / ギャラを受け取るだよ  /   / ",
+    "english": "Here, take / your pay! /   / ",
+    "notes": "Order completion reward"
+  },
+  {
+    "resource": 45,
+    "message": 157,
+    "japanese": "おそかったから、 / バッキンしといたべ  /   / ",
+    "english": "You were late, / so I docked / your pay! / ",
+    "notes": "Late penalty on order"
+  },
+  {
+    "resource": 45,
+    "message": 158,
+    "japanese": "ないようがイマイチだから、 / ちょっとギャラも / すくなくなったべ  / ",
+    "english": "Quality was so-so / so the pay is / a bit less. / ",
+    "notes": "Mediocre quality penalty"
+  },
+  {
+    "resource": 45,
+    "message": 159,
+    "japanese": "ないようがよかったから、 / ボーナスつけといたべ  /   / ",
+    "english": "Good quality! / Here's a bonus / for ya! / ",
+    "notes": "Quality bonus on order"
+  },
+  {
+    "resource": 45,
+    "message": 160,
+    "japanese": "を / ",
+    "english": "  / ",
+    "notes": "Particle spacer"
+  },
+  {
+    "resource": 45,
+    "message": 161,
+    "japanese": "受け取った  / ",
+    "english": " received! / ",
+    "notes": "Item/gold received suffix"
+  },
+  {
+    "resource": 45,
+    "message": 162,
+    "japanese": "どれを納品するだよ？ /   /   / ",
+    "english": "Which to deliver? /   /   / ",
+    "notes": "Select item to deliver"
+  },
+  {
+    "resource": 45,
+    "message": 163,
+    "japanese": "納品しますか？ / ",
+    "english": "Deliver it? / ",
+    "notes": "Confirm delivery"
+  },
+  {
+    "resource": 45,
+    "message": 164,
+    "japanese": "買取業種を追加 / ",
+    "english": "Add buying / ",
+    "notes": "Add buy service to branch"
+  },
+  {
+    "resource": 45,
+    "message": 165,
+    "japanese": "配送業種を追加 / ",
+    "english": "Add delivery / ",
+    "notes": "Add delivery service to branch"
+  },
+  {
+    "resource": 45,
+    "message": 166,
+    "japanese": "イベント場を増置 / ",
+    "english": "Add event space / ",
+    "notes": "Add event space to branch"
+  },
+  {
+    "resource": 45,
+    "message": 167,
+    "japanese": "帰けい所を増置 / ",
+    "english": "Add rest stop / ",
+    "notes": "Add rest area to branch"
+  },
+  {
+    "resource": 45,
+    "message": 168,
+    "japanese": "今は地装できません / ",
+    "english": "Can't renovate now / ",
+    "notes": "Renovation unavailable"
+  },
+  {
+    "resource": 45,
+    "message": 169,
+    "japanese": "オメェ、そんなにまとめて / うけてばっかりいねえで / とっととあつめてこい  / ",
+    "english": "Stop hoarding / orders and go / collect stuff! / ",
+    "notes": "Too many orders accepted"
+  },
+  {
+    "resource": 45,
+    "message": 170,
+    "japanese": "これ以上受けられません / ",
+    "english": "Can't take more / ",
+    "notes": "Order limit reached"
+  },
+  {
+    "resource": 45,
+    "message": 171,
+    "japanese": "b１f / ",
+    "english": "b1f / ",
+    "notes": "Floor label b1f"
+  },
+  {
+    "resource": 45,
+    "message": 172,
+    "japanese": "b２f / ",
+    "english": "b2f / ",
+    "notes": "Floor label b2f"
+  },
+  {
+    "resource": 45,
+    "message": 173,
+    "japanese": "b３f / ",
+    "english": "b3f / ",
+    "notes": "Floor label b3f"
+  },
+  {
+    "resource": 45,
+    "message": 174,
+    "japanese": "b４f / ",
+    "english": "b4f / ",
+    "notes": "Floor label b4f"
+  },
+  {
+    "resource": 45,
+    "message": 175,
+    "japanese": "b５f / ",
+    "english": "b5f / ",
+    "notes": "Floor label b5f"
+  },
+  {
+    "resource": 45,
+    "message": 176,
+    "japanese": "b６f / ",
+    "english": "b6f / ",
+    "notes": "Floor label b6f"
+  },
+  {
+    "resource": 45,
+    "message": 177,
+    "japanese": "b７f / ",
+    "english": "b7f / ",
+    "notes": "Floor label b7f"
+  },
+  {
+    "resource": 45,
+    "message": 178,
+    "japanese": "b８f / ",
+    "english": "b8f / ",
+    "notes": "Floor label b8f"
+  },
+  {
+    "resource": 45,
+    "message": 179,
+    "japanese": "b９f / ",
+    "english": "b9f / ",
+    "notes": "Floor label b9f"
+  },
+  {
+    "resource": 45,
+    "message": 180,
+    "japanese": "b１０f / ",
+    "english": "b10f / ",
+    "notes": "Floor label b10f"
+  },
+  {
+    "resource": 45,
+    "message": 181,
+    "japanese": "探索隊呪 / ",
+    "english": "Search party / ",
+    "notes": "Search party label"
+  },
+  {
+    "resource": 45,
+    "message": 182,
+    "japanese": "探索スキル / ",
+    "english": "Search skill / ",
+    "notes": "Search skill label"
+  },
+  {
+    "resource": 45,
+    "message": 183,
+    "japanese": "生戻果 / ",
+    "english": "Revival / ",
+    "notes": "Revival/return result label"
+  },
+  {
+    "resource": 45,
+    "message": 184,
+    "japanese": "トラスト / ",
+    "english": "Trust / ",
+    "notes": "Trust label (already English loanword)"
+  },
+  {
+    "resource": 45,
+    "message": 186,
+    "japanese": "今は雇えません / ",
+    "english": "Can't hire now / ",
+    "notes": "Cannot hire at this time"
+  },
+  {
+    "resource": 45,
+    "message": 187,
+    "japanese": "あいつら、いま / 大ゲンカしてるから / しばらく雇えないだよ / ",
+    "english": "They're in a big / fight right now. / Can't hire them! / ",
+    "notes": "Workers fighting, unavailable"
+  },
+  {
+    "resource": 45,
+    "message": 188,
+    "japanese": "現員、探索中です / ",
+    "english": "Currently exploring / ",
+    "notes": "Worker out exploring"
+  },
+  {
+    "resource": 45,
+    "message": 189,
+    "japanese": "まだ、アルバイトにいってる / まっさいちゅうだど  /   / ",
+    "english": "Still out on / their part-time / job! / ",
+    "notes": "Worker still on assignment"
+  },
+  {
+    "resource": 45,
+    "message": 190,
+    "japanese": "作入数を決めてください / ",
+    "english": "Set the quantity / ",
+    "notes": "Set quantity prompt"
+  },
+  {
+    "resource": 45,
+    "message": 191,
+    "japanese": "作入しますか？ / ",
+    "english": "Purchase? / ",
+    "notes": "Confirm purchase"
+  },
+  {
+    "resource": 45,
+    "message": 192,
+    "japanese": "配送しますか？ / ",
+    "english": "Ship to storage? / ",
+    "notes": "Confirm delivery to warehouse"
+  },
+  {
+    "resource": 45,
+    "message": 193,
+    "japanese": "装備を外して / 配送しますか？ / ",
+    "english": "Unequip and / ship to storage? / ",
+    "notes": "Unequip and send to warehouse"
+  },
+  {
+    "resource": 45,
+    "message": 194,
+    "japanese": "倉庫がいっぱいです / ",
+    "english": "Warehouse full / ",
+    "notes": "Warehouse at capacity"
+  },
+  {
+    "resource": 45,
+    "message": 195,
+    "japanese": "帰んでいきますか？ / ",
+    "english": "Head back? / ",
+    "notes": "Return/rest confirmation"
+  },
+  {
+    "resource": 45,
+    "message": 196,
+    "japanese": "仲間に持てますか？ / ",
+    "english": "Give to ally? / ",
+    "notes": "Give item to party member"
+  },
+  {
+    "resource": 45,
+    "message": 197,
+    "japanese": "何も置いていません / ",
+    "english": "Nothing stored / ",
+    "notes": "Empty warehouse/storage"
+  }
+]
