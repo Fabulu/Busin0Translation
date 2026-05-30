@@ -61,7 +61,8 @@ for i in range(10):
 # Load fix chunks -- these OVERRIDE earlier entries for the same (resource, message)
 fix_files = ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json',
              'chunk_r36_translated.json', 'chunk_r37_r48_r49_translated.json',
-             'chunk_r40_r42_translated.json', 'chunk_r43_r45_translated.json']
+             'chunk_r40_r42_translated.json', 'chunk_r43_r45_translated.json',
+             'chunk_r34_fix.json']
 for fix_name in fix_files:
     fp = f'data/translate_chunks/{fix_name}'
     if os.path.exists(fp):
@@ -350,6 +351,17 @@ def inject_resource(res_idx, msg_trans):
     stream_end = payload_end
     ffff_groups = parse_ffff_groups(raw, stream_start, stream_end)
 
+    # Also parse FFFF groups in extra data (beyond payload) for resources like R34
+    # that store most of their messages in the extra region.
+    extra_ffff_groups = []
+    if extra_data and len(extra_data) > 2:
+        extra_ffff_groups = parse_ffff_groups(bytearray(extra_data), 0, len(extra_data))
+
+    # Check if any translations target the extra data region
+    payload_group_count = len(ffff_groups)
+    extra_replaced = 0
+    has_extra_trans = any(gi >= payload_group_count for gi in msg_trans)
+
     # Rebuild the glyph stream, replacing translated FFFF groups
     replaced = 0
     new_stream = bytearray()
@@ -365,6 +377,22 @@ def inject_resource(res_idx, msg_trans):
             new_stream += raw[gs:ge]
         # Always terminate group with FFFF
         new_stream += struct.pack('>H', 0xFFFF)
+
+    # If there are translations for the extra data region, rebuild it too
+    if has_extra_trans and extra_ffff_groups:
+        extra_data_buf = bytearray(extra_data)
+        new_extra = bytearray()
+        for egi, (egs, ege) in enumerate(extra_ffff_groups):
+            global_idx = payload_group_count + egi
+            if global_idx in msg_trans:
+                for g in msg_trans[global_idx]:
+                    new_extra += struct.pack('>H', g)
+                extra_replaced += 1
+            else:
+                new_extra += extra_data_buf[egs:ege]
+            new_extra += struct.pack('>H', 0xFFFF)
+        extra_data = bytes(new_extra)
+        replaced += extra_replaced
 
     # Rebuild offset table if present
     if has_offset_table:
@@ -416,11 +444,13 @@ def inject_resource(res_idx, msg_trans):
     open(out_path, 'wb').write(block)
 
     old_sc = len(raw) // SECTOR
-    return (rfn, f'replaced {replaced}/{len(ffff_groups)} groups, '
+    total_groups = len(ffff_groups) + len(extra_ffff_groups)
+    extra_info = f', extra_replaced={extra_replaced}' if extra_replaced else ''
+    return (rfn, f'replaced {replaced}/{total_groups} groups, '
                  f'{old_sc}->{sc} sectors, '
                  f'payload {h_payload_size}->{new_payload_size}, '
                  f'offset_table={"rebuilt" if has_offset_table else "none"}, '
-                 f'extra_data={len(extra_data)}')
+                 f'extra_data={len(extra_data)}{extra_info}')
 
 
 modified = 0
