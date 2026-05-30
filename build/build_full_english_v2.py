@@ -130,7 +130,7 @@ def clean_and_encode(english_text):
             continue
         # Encode this line segment; encode_text handles word-wrapping within
         # the segment, adding its own FFFE + FFD2 for page breaks if needed.
-        line_glyphs = encode_text(part, max_chars_per_line=18, max_lines_per_page=3)
+        line_glyphs = encode_text(part, max_chars_per_line=20, max_lines_per_page=3)
         glyphs.extend(line_glyphs)
 
     return glyphs
