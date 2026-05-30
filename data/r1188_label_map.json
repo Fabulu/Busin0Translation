@@ -1,0 +1,226 @@
+{
+  "16625baf9feaeafb": {
+    "japanese_text": "性別",
+    "english_text": "Gender",
+    "dump_size": [
+      48,
+      20
+    ],
+    "category": "tab",
+    "pcsx2_dump": "16625baf9feaeafb-3cb39bf7659ef15f-r48x20-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Name entry: gender selection tab",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "19a39fbc8a08d7ec": {
+    "japanese_text": "記号",
+    "english_text": "Sym",
+    "dump_size": [
+      48,
+      20
+    ],
+    "category": "tab",
+    "pcsx2_dump": "19a39fbc8a08d7ec-3cb39bf7659ef15f-r48x20-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Name entry: symbol input tab",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "1f839869fab251d": {
+    "japanese_text": "カナ",
+    "english_text": "Kana",
+    "dump_size": [
+      48,
+      20
+    ],
+    "category": "tab",
+    "pcsx2_dump": "1f839869fab251d-3cb39bf7659ef15f-r48x20-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Name entry: katakana input tab",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "6f1fb24fad5cd1a": {
+    "japanese_text": "英数",
+    "english_text": "ABC",
+    "dump_size": [
+      48,
+      20
+    ],
+    "category": "tab",
+    "pcsx2_dump": "6f1fb24fad5cd1a-3cb39bf7659ef15f-r48x20-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Name entry: alphanumeric input tab",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "88ff8b577084a2a8": {
+    "japanese_text": "職業",
+    "english_text": "Class",
+    "dump_size": [
+      48,
+      20
+    ],
+    "category": "tab",
+    "pcsx2_dump": "88ff8b577084a2a8-3cb39bf7659ef15f-r48x20-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Chargen sidebar: class label",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "9677cb23da53ff88": {
+    "japanese_text": "かな",
+    "english_text": "Hira",
+    "dump_size": [
+      48,
+      20
+    ],
+    "category": "tab",
+    "pcsx2_dump": "9677cb23da53ff88-3cb39bf7659ef15f-r48x20-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Name entry: hiragana input tab",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "9bec87b4031a7172": {
+    "japanese_text": "種族",
+    "english_text": "Race",
+    "dump_size": [
+      48,
+      20
+    ],
+    "category": "tab",
+    "pcsx2_dump": "9bec87b4031a7172-3cb39bf7659ef15f-r48x20-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Chargen sidebar: race label",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "c89b469f7a152a6": {
+    "japanese_text": "属性",
+    "english_text": "Align",
+    "dump_size": [
+      48,
+      20
+    ],
+    "category": "tab",
+    "pcsx2_dump": "c89b469f7a152a6-3cb39bf7659ef15f-r48x20-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Chargen sidebar: alignment label",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "280ea82c1c476a98": {
+    "japanese_text": "力",
+    "english_text": "STR",
+    "dump_size": [
+      64,
+      16
+    ],
+    "category": "stat",
+    "pcsx2_dump": "280ea82c1c476a98-3cb39bf7659ef15f-r64x16-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Stat label: Strength (single kanji)",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "4841ef9a2dc4981": {
+    "japanese_text": "幸運度",
+    "english_text": "LCK",
+    "dump_size": [
+      64,
+      16
+    ],
+    "category": "stat",
+    "pcsx2_dump": "4841ef9a2dc4981-3cb39bf7659ef15f-r64x16-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Stat label: Luck",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "5d0c6327e20384e7": {
+    "japanese_text": "敏捷度",
+    "english_text": "AGI",
+    "dump_size": [
+      64,
+      16
+    ],
+    "category": "stat",
+    "pcsx2_dump": "5d0c6327e20384e7-3cb39bf7659ef15f-r64x16-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Stat label: Agility",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "aa43f966ad69195e": {
+    "japanese_text": "生命力",
+    "english_text": "VIT",
+    "dump_size": [
+      64,
+      16
+    ],
+    "category": "stat",
+    "pcsx2_dump": "aa43f966ad69195e-3cb39bf7659ef15f-r64x16-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Stat label: Vitality/HP",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "bb20512b10c3128b": {
+    "japanese_text": "信仰心",
+    "english_text": "PIE",
+    "dump_size": [
+      64,
+      16
+    ],
+    "category": "stat",
+    "pcsx2_dump": "bb20512b10c3128b-3cb39bf7659ef15f-r64x16-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Stat label: Piety/Faith",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "d455234204274c43": {
+    "japanese_text": "知恵",
+    "english_text": "IQ",
+    "dump_size": [
+      64,
+      16
+    ],
+    "category": "stat",
+    "pcsx2_dump": "d455234204274c43-3cb39bf7659ef15f-r64x16-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Stat label: Intelligence/Wisdom",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "f2013a64642252e3": {
+    "japanese_text": "HP/MAX",
+    "english_text": "HP/MAX",
+    "dump_size": [
+      64,
+      16
+    ],
+    "category": "stat",
+    "pcsx2_dump": "f2013a64642252e3-3cb39bf7659ef15f-r64x16-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "HP/MAX label (already Latin, no translation needed)",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  },
+  "d09a04bdfaf715bc": {
+    "japanese_text": "決定",
+    "english_text": "OK",
+    "dump_size": [
+      40,
+      24
+    ],
+    "category": "button",
+    "pcsx2_dump": "d09a04bdfaf715bc-3cb39bf7659ef15f-r40x24-00002214.png",
+    "clut_hash": "3cb39bf7659ef15f",
+    "gs_page": "0x2214",
+    "notes": "Confirm/OK button",
+    "atlas_match": "FAILED - deswizzle incorrect (see r1188_template_match.md)"
+  }
+}
