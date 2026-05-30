@@ -56,6 +56,26 @@ def enc(ch):
         return table[ch.lower()]
     return 31
 
+def word_wrap(text, max_chars=18):
+    """Wrap text to fit within max_chars per line.
+
+    Preserves existing ' / ' line breaks.  For segments that exceed
+    max_chars, inserts ' / ' at the last space before the limit.
+    """
+    segments = text.split(' / ')
+    wrapped = []
+    for seg in segments:
+        while len(seg) > max_chars:
+            # find last space at or before max_chars
+            brk = seg.rfind(' ', 0, max_chars + 1)
+            if brk <= 0:
+                # no space found — force break at max_chars
+                brk = max_chars
+            wrapped.append(seg[:brk])
+            seg = seg[brk:].lstrip(' ')
+        wrapped.append(seg)
+    return ' / '.join(wrapped)
+
 for r_id in [34, 35, 36, 37, 40, 41, 42, 43, 44, 45, 48, 49, 2124, 2654]:
     tc_map = {34: '20', 35: '02', 2654: '44'}
     tc = tc_map.get(r_id, '01')
@@ -86,6 +106,7 @@ for r_id in [34, 35, 36, 37, 40, 41, 42, 43, 44, 45, 48, 49, 2124, 2654]:
                 p += 2
             else:
                 break
+        en = word_wrap(en)
         gls = []
         for pi, pt in enumerate(en.split(' / ')):
             if pi > 0:
@@ -177,11 +198,19 @@ for r_id in sorted(type02_resources):
     # Encode English text to glyph lists
     encoded_trans = {}
     for mi, en_text in msg_trans.items():
+        en_text = word_wrap(en_text)
         glyphs = []
         parts = en_text.split(' / ')
+        line_count = 0
         for pi, part in enumerate(parts):
             if pi > 0:
-                glyphs.append(0xFFFE)
+                line_count += 1
+                if line_count >= 3:
+                    # Insert page break every 3 lines (wait for input, clear, continue)
+                    glyphs.append(0xFFD2)
+                    line_count = 0
+                else:
+                    glyphs.append(0xFFFE)
             for ch in part:
                 glyphs.append(enc(ch))
         encoded_trans[mi] = glyphs
