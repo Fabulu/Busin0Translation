@@ -362,16 +362,29 @@ def main():
         print()
 
     if args.test_r1188:
+        # Try .bin first (packdata_resources), fall back to .raw
+        bin_path = os.path.join(BASE, "extracted", "packdata_resources", "1188_type01.bin")
         raw_path = os.path.join(BASE, "extracted", "packdata_raw", "1188_type01.raw")
         out_path = os.path.join(TEX_DIR, "R1188_psmt4_deswizzled.png")
         print("Processing R1188 (1024x1024 PSMT4, name entry font)...")
-        # R1188: 528384 bytes. 1024*1024/2 = 524288 pixel bytes.
-        # Overhead: 4096 = 2048 header + 2048 CLUT
-        pixels_lin, palette, pixels_raw = process_raw_psmt4(
-            raw_path, 1024, 1024, out_path, dbw_ct32=1024,
-            header_size=2048, clut_size=2048)
-        if args.roundtrip:
-            roundtrip_test(pixels_lin, 1024, 1024, pixels_raw, dbw_ct32=1024)
+        # R1188 bin: 527360 bytes = 3072 (0xC00) GIF header + 524288 pixel bytes
+        # TEX0: TBP0=0, TBW=16, PSM=PSMT4(20), 1024x1024
+        # CRITICAL: dbw_ct32=512 (NOT 1024!) -- empirically verified against
+        # 21/31 PCSX2 texture dumps with exact roundtrip PASS.
+        # No CLUT block at end of file (CLUT stored in separate VRAM region).
+        if os.path.exists(bin_path):
+            pixels_lin, palette, pixels_raw = process_raw_psmt4(
+                bin_path, 1024, 1024, out_path, dbw_ct32=512,
+                header_size=0xC00, clut_size=0)
+            if args.roundtrip:
+                roundtrip_test(pixels_lin, 1024, 1024, pixels_raw, dbw_ct32=512)
+        else:
+            # .raw has 16-byte outer container before .bin data
+            pixels_lin, palette, pixels_raw = process_raw_psmt4(
+                raw_path, 1024, 1024, out_path, dbw_ct32=512,
+                header_size=0xC10, clut_size=0)
+            if args.roundtrip:
+                roundtrip_test(pixels_lin, 1024, 1024, pixels_raw, dbw_ct32=512)
         print()
 
     if args.input:
