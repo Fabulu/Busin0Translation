@@ -76,7 +76,7 @@ def word_wrap(text, max_chars=18):
         wrapped.append(seg)
     return ' / '.join(wrapped)
 
-for r_id in [34, 35, 36, 37, 40, 41, 42, 43, 44, 45, 48, 49, 2124, 2654]:
+for r_id in [34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 48, 49, 2124, 2654]:
     tc_map = {34: '20', 35: '02', 2654: '44'}
     tc = tc_map.get(r_id, '01')
     orig = bytearray(open(f'extracted/packdata_raw/{r_id:04d}_type{tc}.raw', 'rb').read())
