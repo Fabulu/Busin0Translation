@@ -11,6 +11,12 @@ Patches applied:
 import os
 import struct
 import sys
+import io
+
+try:
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+except Exception:
+    pass
 
 SRC = os.path.join(os.path.dirname(__file__), "..", "extracted", "SLPM_653.78")
 DST = os.path.join(os.path.dirname(__file__), "SLPM_653.78_patched")

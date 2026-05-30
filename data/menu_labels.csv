@@ -10,34 +10,34 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 8,0x3C31C0,699,700,広場,town_hub - plaza,plaza,tile_pair
 9,0x3C31F8,701,702,刻印,town_hub - seal/mark,seal,abbrev
 10,0x3C3230,703,704,予定,guild - available/schedule,ready,tile_pair
-11,0x3C3268,705,706,現員,guild - current members,party,tile_pair
-12,0x3C32A0,707,708,選択,guild - select,select,tile_pair
+11,0x3C3268,705,706,登,banner - 登(register),reg,abbrev
+12,0x3C32A0,707,708,録,banner - 録(record),.,abbrev
 13,0x3C32D8,709,710,必要,guild - required,needed,tile_pair
 14,0x3C3310,711,712,値段,guild - cost/price,cost,abbrev
 15,0x3C3348,713,714,名前,guild - name,name,abbrev
 16,0x3C3380,715,716,高低,guild - level sort,level,tile_pair
 17,0x3C33B8,717,718,誕生,guild - create char,create,tile_pair
-18,0x3C33F0,719,720,幸運,guild - luck/fortune,luck,abbrev
-19,0x3C3428,721,722,獲得,guild - obtain/acquire,obtain,tile_pair
+18,0x3C33F0,719,720,新,banner - 新(new),new,abbrev
+19,0x3C3428,721,722,規,banner - 規(rule),  ,abbrev
 20,0x3C3460,723,724,結果,guild - result/release,result,tile_pair
 21,0x3C3498,725,726,神殿,guild - temple/refuge,temple,tile_pair
 22,0x3C34D0,727,728,聖入,church - enter holy land,enter,tile_pair
 23,0x3C3508,729,730,冒険振,guild - assign adventure,assign,tile_pair
-24,0x3C3540,731,732,転職,char_mgmt - class change,reclass,tile_pair
+24,0x3C3540,731,732,職,chargen_sidebar - 職(occupation),job,abbrev
 25,0x3C3578,733,734,教授,char_mgmt - instruct,teach,tile_pair
 26,0x3C35B0,735,736,削除,char_mgmt - delete,delete,tile_pair
 27,0x3C35E8,737,738,決定,char_mgmt - confirm,ok,abbrev
 28,0x3C3620,739,740,部隊,char_mgmt - squad/base,squad,tile_pair
 29,0x3C3658,741,742,本隊,char_mgmt - main party,party,tile_pair
 30,0x3C3690,743,744,名前,char_mgmt - name/brand,name,abbrev
-31,0x3C36C8,745,746,探索,char_mgmt - search,search,tile_pair
-32,0x3C3700,747,748,操作,char_mgmt - handle/operate,handle,tile_pair
-33,0x3C3738,749,750,種族,char_mgmt - race,race,abbrev
-34,0x3C3770,751,752,器用,char_mgmt - dexterity,dex,abbrev
-35,0x3C37A8,753,754,条件,char_mgmt - conditions,cond,abbrev
-36,0x3C37E0,755,756,性格,char_mgmt - alignment,align,tile_pair
-37,0x3C3818,757,758,職業,char_mgmt - class/job,class,tile_pair
-38,0x3C3850,759,760,性別,char_mgmt - gender,gender,tile_pair
+31,0x3C36C8,745,746,性,chargen_sidebar - 性(nature/sex),sex,abbrev
+32,0x3C3700,747,748,別,chargen_sidebar - 別(separate),  ,abbrev
+33,0x3C3738,749,750,種,chargen_sidebar - 種族(race),race,abbrev
+34,0x3C3770,751,752,族,chargen_sidebar - 族(clan),  ,abbrev
+35,0x3C37A8,753,754,属,chargen_sidebar - 属(belong),ali,abbrev
+36,0x3C37E0,755,756,格,chargen_sidebar - 格(personality),pers,abbrev
+37,0x3C3818,757,758,業,chargen_sidebar - 業(work),  ,abbrev
+38,0x3C3850,759,760,性別,chargen_sidebar - gender,gender,tile_pair
 39,0x3C3888,761,762,正義,char_mgmt - good alignment,good,abbrev
 40,0x3C38C0,763,764,休息,char_mgmt - rest,rest,abbrev
 41,0x3C38F8,765,766,年齢,status - age,age,abbrev

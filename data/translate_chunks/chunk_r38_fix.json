@@ -1005,89 +1005,65 @@
     "resource": 38,
     "message": 25,
     "japanese": "",
-    "english": "lv.6 / "
+    "english": "male / "
   },
   {
     "resource": 38,
     "message": 26,
     "japanese": "",
-    "english": "lv.7 / "
-  },
-  {
-    "resource": 38,
-    "message": 27,
-    "japanese": "",
-    "english": "male / "
-  },
-  {
-    "resource": 38,
-    "message": 28,
-    "japanese": "",
     "english": "female / "
   },
   {
     "resource": 38,
-    "message": 29,
-    "japanese": "",
-    "english": "io / "
-  },
-  {
-    "resource": 38,
-    "message": 30,
-    "japanese": "",
-    "english": "europa / "
-  },
-  {
-    "resource": 38,
-    "message": 150,
+    "message": 148,
     "japanese": "",
     "english": "good \"g\" / "
   },
   {
     "resource": 38,
-    "message": 151,
+    "message": 149,
     "japanese": "",
     "english": "neutral \"n\" / "
   },
   {
     "resource": 38,
-    "message": 152,
+    "message": 150,
     "japanese": "",
     "english": "evil \"e\" / "
   },
   {
     "resource": 38,
-    "message": 153,
+    "message": 151,
     "japanese": "",
     "english": "good / "
   },
   {
     "resource": 38,
-    "message": 154,
+    "message": 152,
     "japanese": "",
     "english": "neutral / "
   },
   {
     "resource": 38,
-    "message": 155,
+    "message": 153,
     "japanese": "",
     "english": "evil / "
   },
   {
     "resource": 38,
-    "message": 156,
+    "message": 154,
     "japanese": "",
     "english": "g / "
   },
   {
     "resource": 38,
-    "message": 157,
+    "message": 155,
     "japanese": "",
     "english": "n / "
   },
   {
     "resource": 38,
-    "message": 158,
+    "message": 156,
     "japanese": "",
     "english": "e / "
   }
