@@ -51,7 +51,7 @@
     "resource": 39,
     "message": 75,
     "japanese": "獲得系属が取なる武器は / 両鎧進にできません / ",
-    "english": "Weapons of different / element can't dual wield / "
+    "english": "Weapons of different / element can't dual / wield /"
   },
   {
     "resource": 39,
@@ -213,13 +213,13 @@
     "resource": 40,
     "message": 14,
     "japanese": "前回の転職受から３０日■過 / していないため、転職を許可できません。 / ",
-    "english": "30 days have not passed / since last class change. / "
+    "english": "30 days have not / passed since last / class change. /"
   },
   {
     "resource": 40,
     "message": 15,
     "japanese": "冒険者登録から名前を削除します。 / 削除内は両度と元に帰せません。 / ",
-    "english": "Delete from registry. / This cannot be undone. / "
+    "english": "Delete from / registry. This / cannot be undone. /"
   },
   {
     "resource": 40,
@@ -387,7 +387,7 @@
     "resource": 40,
     "message": 43,
     "japanese": "使われている壁は転職できません。 / 使いの装備を殿いてください。 / ",
-    "english": "Cannot change class / while gear is in use. / "
+    "english": "Cannot change class / while gear is in / use. /"
   },
   {
     "resource": 40,
@@ -399,7 +399,7 @@
     "resource": 40,
     "message": 45,
     "japanese": "能力値と条果があわないため / 転職できません。 / ",
-    "english": "Stats and alignment / don't match. No change. / "
+    "english": "Stats and alignment / don't match. No / change. /"
   },
   {
     "resource": 40,
@@ -447,7 +447,7 @@
     "resource": 40,
     "message": 53,
     "japanese": "冒険者登録より召喚された方です。 / ",
-    "english": "Summoned via registry. / "
+    "english": "Summoned via / registry. /"
   },
   {
     "resource": 40,
@@ -471,13 +471,13 @@
     "resource": 41,
     "message": 1,
     "japanese": "ここはサレム教会。 / ！何用な方が / 一体どんな消息で？ / ",
-    "english": "This is Salem Church. / What business brings / you here? / "
+    "english": "Salem Church. What / business brings you / here? /"
   },
   {
     "resource": 41,
     "message": 2,
     "japanese": "サレム教会へようこそ。 / おや、■手の助けが / 必要なようですな。 / ",
-    "english": "Welcome to Salem Church. / It seems you need / divine aid. / "
+    "english": "Welcome to Salem / Church. It seems you / need divine aid. /"
   },
   {
     "resource": 41,
@@ -495,7 +495,7 @@
     "resource": 41,
     "message": 5,
     "japanese": "十足な■価金も息払せず / 神のお力にすがろうとは！ / 悔教者め、立ち去るがよい  / ",
-    "english": "You dare seek God's / power without offering! / Begone, heretic! / "
+    "english": "No offering, no / divine power! / Begone, heretic! /"
   },
   {
     "resource": 41,
@@ -603,7 +603,7 @@
     "resource": 42,
     "message": 6,
     "japanese": "ごゆっくりできましたか？ / よき休■は■日への活力。 / またいらしてくださいね。 / ",
-    "english": "Did you rest well? / Good rest fuels the / days ahead. Visit again. / "
+    "english": "Rest well? Good rest / fuels tomorrow. / Visit again. /"
   },
   {
     "resource": 42,

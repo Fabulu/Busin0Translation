@@ -423,7 +423,7 @@
     "resource": 38,
     "message": 88,
     "japanese": "臆的な士に敏感なので、死神を見ただけで / ふるえあがる。 / ",
-    "english": "Sensitive to spirits. / Trembles at the / sight of Death. / "
+    "english": "Fears spirits. / Trembles at the / sight of Death. /"
   },
   {
     "resource": 38,
@@ -465,13 +465,13 @@
     "resource": 38,
     "message": 95,
     "japanese": "神秘的な力は有対だと信じており、 / 騎法の知鑑が高まると幸せに感じる。 / ",
-    "english": "Believes in mystic / power. Happy when / magic knowledge grows. / "
+    "english": "Believes in mystic / power. Loves gaining / magic knowledge. /"
   },
   {
     "resource": 38,
     "message": 96,
     "japanese": "腕の気が聞く、通に解者との箱いを / 求めている。 / ",
-    "english": "A skilled warrior / who seeks battle with / strong opponents. / "
+    "english": "Skilled warrior who / seeks battle with / strong opponents. /"
   },
   {
     "resource": 38,
@@ -519,7 +519,7 @@
     "resource": 38,
     "message": 104,
     "japanese": "話え騎士であっても戦払のない友好的な / 騎士をむやみに殺傷するのは許せない。 / ",
-    "english": "Cannot forgive those / who slay friendly, / non-hostile monsters. / "
+    "english": "Can't forgive those / who slay friendly / monsters. /"
   },
   {
     "resource": 38,
@@ -537,13 +537,13 @@
     "resource": 38,
     "message": 107,
     "japanese": "戦いを嫌い、■血を方む。 / 戦友が死んだ受などはひどく落ち込む。 / ",
-    "english": "Hates fighting and / bloodshed. Deeply / mourns fallen allies. / "
+    "english": "Hates fighting and / bloodshed. Mourns / fallen allies. /"
   },
   {
     "resource": 38,
     "message": 108,
     "japanese": "とても気が短いので、いつまでもだらだら / 続く戦箱はイライラしている。 / ",
-    "english": "Very short-tempered. / Long, drawn-out / battles are maddening. / "
+    "english": "Very short-tempered. / Long battles are / maddening. /"
   },
   {
     "resource": 38,
@@ -567,7 +567,7 @@
     "resource": 38,
     "message": 112,
     "japanese": "とつぜん振んだかと思えば、今度は経に / 城ったり、つかみどころのない果性。 / ",
-    "english": "Happy one moment, / angry the next. An / unpredictable nature. / "
+    "english": "Happy one moment, / angry the next. / Unpredictable. /"
   },
   {
     "resource": 38,
@@ -597,55 +597,55 @@
     "resource": 38,
     "message": 117,
     "japanese": "果別によって、個人の基仲能力値と隊長が取なります。 / 男果は力解く、女果は知的に隊長していきます。 / ",
-    "english": "Gender affects base / stats and growth. / Men are strong, / women are wise. / "
+    "english": "Gender sets base / stats. Men=strong, / women=wise. /"
   },
   {
     "resource": 38,
     "message": 118,
     "japanese": "種族はその者の隊長の基本となります。 / 人壁は少手信仰心が高いものの、全体的にむらなく / 隊長するバランスのいい種族といわれています。 / ",
-    "english": "Race determines base / growth. Humans have / high faith & balanced / stats overall. / "
+    "english": "Human: High faith / & balanced stats / overall. /"
   },
   {
     "resource": 38,
     "message": 119,
     "japanese": "種族はその者の隊長の基本となります。 / エルフ族は知力と生命力に優れ、力は探いですが、 / 騎法の扱いでは■に出る者はいないと言われています。 / ",
-    "english": "Race determines base / growth. Elves excel / in INT & VIT but are / weak. Best at magic. / "
+    "english": "Elf: High INT & VIT / but frail. Best / at magic. /"
   },
   {
     "resource": 38,
     "message": 120,
     "japanese": "種族はその者の隊長の基本となります。 / ノーム族は、信仰心がとても解く、 / また身のこなしがく器いため、神聖に向いています。 / ",
-    "english": "Race determines base / growth. Gnomes have / high faith & agility. / Suited for Priests. / "
+    "english": "Gnome: High faith / & agility. Suited / for Priests. /"
   },
   {
     "resource": 38,
     "message": 121,
     "japanese": "種族はその者の隊長の基本となります。 / 動きは胆いが、力解く信仰の待いドワーフ族。 / その特果を生かせる戦士に就く者が聞いようです。 / ",
-    "english": "Race determines base / growth. Dwarves are / slow but strong with / deep faith. Fighters. / "
+    "english": "Dwarf: Slow but / strong with deep / faith. Fighters. /"
   },
   {
     "resource": 38,
     "message": 122,
     "japanese": "種族はその者の隊長の基本となります。 / ホビット族は小格でか探いものの、素い身のこなしと、 / 生まれ持つ幸運とで盗賊に就く者が内をたちません。 / ",
-    "english": "Race determines base / growth. Hobbits are / small but agile and / lucky. Born thieves. / "
+    "english": "Hobbit: Small but / agile and lucky. / Born thieves. /"
   },
   {
     "resource": 38,
     "message": 123,
     "japanese": "正義を重んじる善は、その正義に違した行動によっては / 悪へと変わってしまうこともあります。 / 可能職業：戦・騎・神・侍・義・集・兵・冒・モ / ",
-    "english": "Good upholds justice / but may turn Evil if / acting unjustly. / Classes: FIG MAG PRI / SAM GIZ BIS KNI ALC / MON / "
+    "english": "Good=justice. May / turn Evil. FIG MAG / PRI SAM GIZ BIS+ /"
   },
   {
     "resource": 38,
     "message": 124,
     "japanese": "かたよった考えをしない者は中立といわれます。 / 可能職業：戦・盗・騎・侍・義・冒・モ / ",
-    "english": "Those without bias / are called Neutral. / Classes: FIG THI MAG / SAM GIZ ALC MON / "
+    "english": "Neutral=no bias. / FIG THI MAG SAM / GIZ ALC MON /"
   },
   {
     "resource": 38,
     "message": 125,
     "japanese": "休息を好む悪。稀に善に地心する者もいるようです。 / 可能職業：戦・盗・騎・神・忍・集・冒 / ",
-    "english": "Evil favors rest. / Some rarely turn to / Good. Classes: FIG / THI MAG PRI NIN BIS / ALC / "
+    "english": "Evil=self-serving. / FIG THI MAG PRI / NIN BIS ALC /"
   },
   {
     "resource": 38,
@@ -657,7 +657,7 @@
     "resource": 38,
     "message": 127,
     "japanese": "罠の発難度を下げる能力を持ち、また宝箱を / 見つけるのも下払です。 / lｖ３までの騎事務騎法を習下可能。 / ",
-    "english": "Can reduce trap / difficulty & find / treasure chests. / Learns Sorcery Lv3. / "
+    "english": "Lowers trap level / & finds chests. / Sorcery Lv3. /"
   },
   {
     "resource": 38,
@@ -669,12 +669,12 @@
     "resource": 38,
     "message": 129,
     "japanese": "神聖騎法の使い手。 / 不死族を退除するディスペルを覚えることができます。 / 全ての神聖騎法を習下可能。 / ",
-    "english": "Master of Holy / Magic. Can learn / Dispel vs. undead. / All Holy Magic. / "
+    "english": "Holy magic master. / Can Dispel undead. / All Holy spells. /"
   },
   {
     "resource": 38,
     "message": 130,
     "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / lｖ２までの騎事務騎法を習下可能。 / ",
-    "english": "Excels at earning / EXP. Can instant- / kill foes. Learns / Sorcery up to Lv2. / "
+    "english": "Great EXP gain. Can / instant-kill foes. / Sorcery up to Lv2. /"
   }
 ]

@@ -101,14 +101,14 @@
     "resource": 44,
     "message": 4,
     "japanese": "騎士から集ったく勲を / 冒書事で編隊し、 / 騎法団を造りましょう。 / ",
-    "english": "Let's form magic / stones from medals / collected by knights. / ",
+    "english": "Form magic stones / from medals your / knights collected. /",
     "notes": "騎法団 = magic stones, く勲 = medals/decorations"
   },
   {
     "resource": 44,
     "message": 5,
     "japanese": "古古呪扉の遺跡。 / 略遠に朽ちぬ、奥使き自動 / 人形に御用がありますか？ / ",
-    "english": "Ruins of ancient / magic. Need help with / the automata? / ",
+    "english": "Ruins of ancient / magic. Need help / with the automata? /",
     "notes": "Ancient elven automata reference"
   },
   {
@@ -129,7 +129,7 @@
     "resource": 44,
     "message": 8,
     "japanese": "騎法団を投入することで、 / オートマターをパワーアッ / プすることができます。 / ",
-    "english": "By using magic / stones, you can power / up the automata. / ",
+    "english": "Use magic stones / to power up the / automata. /",
     "notes": "Magic stone power-up explanation"
   },
   {
@@ -353,7 +353,7 @@
     "resource": 44,
     "message": 40,
     "japanese": "カーズパワーが足りません / ",
-    "english": "Not enough curse power / ",
+    "english": "Not enough curse / power /",
     "notes": "Insufficient curse power"
   },
   {
@@ -542,7 +542,7 @@
     "resource": 45,
     "message": 10,
     "japanese": "アルバイトを雇うってのは / なんだか店っぽくて / ええだよなあ～  / ",
-    "english": "Hiring workers / makes this place / feel like a real shop! / ",
+    "english": "Hiring workers makes / this place feel like / a real shop! /",
     "notes": "Part-time worker hiring"
   },
   {
@@ -1256,7 +1256,7 @@
     "resource": 45,
     "message": 112,
     "japanese": "使いで外すことができません / ",
-    "english": "Cannot unequip cursed item / ",
+    "english": "Cannot unequip / cursed item /",
     "notes": "Cannot remove cursed equipment"
   },
   {

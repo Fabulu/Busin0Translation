@@ -3,7 +3,7 @@
     "resource": 45,
     "message": 36,
     "japanese": "オメェのソウコだ  /   /   / ",
-    "english": "This is yer /storage. /  / "
+    "english": "This is yer / /storage. /"
   },
   {
     "resource": 45,
@@ -15,7 +15,7 @@
     "resource": 45,
     "message": 38,
     "japanese": "誰の持ち士を / あずけるだよ？ /   / ",
-    "english": "Whose items /d'ya wanna store? /  / "
+    "english": "Whose items /d'ya / wanna store? /"
   },
   {
     "resource": 45,
@@ -27,13 +27,13 @@
     "resource": 45,
     "message": 40,
     "japanese": "誰のを回復するだよ？ /   /   / ",
-    "english": "Whose item to /identify? /  / "
+    "english": "Whose item to / /identify? /"
   },
   {
     "resource": 45,
     "message": 41,
     "japanese": "どれを回復するだよ？ /   /   / ",
-    "english": "Which one to /identify? /  / "
+    "english": "Which one to / /identify? /"
   },
   {
     "resource": 45,
@@ -45,175 +45,175 @@
     "resource": 45,
     "message": 43,
     "japanese": "ほれ、多体がわかって / スッキリしたべ  /   / ",
-    "english": "There! Now ya know /what it is. /Feels good, eh? / "
+    "english": "There! Now ya know / /what it is. /Feels / good, eh? /"
   },
   {
     "resource": 45,
     "message": 44,
     "japanese": "使われてしまった / 不幸なやつは / どいつだべ？？ / ",
-    "english": "Who's the poor /soul that got /cursed?? / "
+    "english": "Who's the poor /soul / that got /cursed?? /"
   },
   {
     "resource": 45,
     "message": 45,
     "japanese": "どれの使いを / 殿けばいいんだべ？ /   / ",
-    "english": "Which curse /should I remove? /  / "
+    "english": "Which curse /should / I remove? /"
   },
   {
     "resource": 45,
     "message": 46,
     "japanese": "使いを殿いてほしいべ？ / 使われっぱなしは / つらいべ？ な？ / ",
-    "english": "Want it uncursed? /Bein' cursed all /the time hurts, eh? / "
+    "english": "Want it uncursed? / Bein' cursed all / the time hurts! /"
   },
   {
     "resource": 45,
     "message": 47,
     "japanese": "ほれ、使いも殿けて / スッキリしたべ  /   / ",
-    "english": "There! Curse is /gone now. /Feels good, eh? / "
+    "english": "There! Curse is / /gone now. /Feels / good, eh? /"
   },
   {
     "resource": 45,
     "message": 48,
     "japanese": "おおお、オダときたら / 殿使のスーパースター / だな  / ",
-    "english": "Ohhh, I'm the /uncursin' superstar /around here! / "
+    "english": "Ohhh, I'm the / /uncursin' superstar / /around here! /"
   },
   {
     "resource": 45,
     "message": 49,
     "japanese": "ほだ  / これがただいまの / ヴィガー商店情報だ  / ",
-    "english": "Right then. /Here's the latest /Vigger Shop info. / "
+    "english": "Right then. /Here's / the latest /Vigger / Shop info. /"
   },
   {
     "resource": 45,
     "message": 50,
     "japanese": "われらがヴィガー商店を / く宝に地装するか？  /   / ",
-    "english": "Wanna invest in /our Vigger Shop? /  / "
+    "english": "Wanna invest in /our / Vigger Shop? /"
   },
   {
     "resource": 45,
     "message": 51,
     "japanese": "倉庫をでっかく / してやるだよ～  /   / ",
-    "english": "I'll make yer /storage bigger~! /  / "
+    "english": "I'll make yer / /storage bigger~! /"
   },
   {
     "resource": 45,
     "message": 52,
     "japanese": "われらがヴィガー商店の / 支店を造るか  / そっかそっかー  / ",
-    "english": "Build a branch /of our Vigger Shop? /I see, I see~! / "
+    "english": "Build a branch /of / our Vigger Shop? /I / see, I see~! /"
   },
   {
     "resource": 45,
     "message": 53,
     "japanese": "支店をリニュアール / オープンさせるべか？ /   / ",
-    "english": "Renovate and /reopen the branch? /  / "
+    "english": "Renovate and /reopen / the branch? /"
   },
   {
     "resource": 45,
     "message": 54,
     "japanese": "支店の引越しだべか  /   / ",
-    "english": "Relocate the /branch store? / "
+    "english": "Relocate the /branch / store? /"
   },
   {
     "resource": 45,
     "message": 55,
     "japanese": "いま拡築したら、 / アイテム２０個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 20 items~! / "
+    "english": "Expand now and /you / can store up /to 20 / items~! /"
   },
   {
     "resource": 45,
     "message": 56,
     "japanese": "いま拡築したら、 / アイテム３０個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 30 items~! / "
+    "english": "Expand now and /you / can store up /to 30 / items~! /"
   },
   {
     "resource": 45,
     "message": 57,
     "japanese": "いま拡築したら、 / アイテム４０個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 40 items~! / "
+    "english": "Expand now and /you / can store up /to 40 / items~! /"
   },
   {
     "resource": 45,
     "message": 58,
     "japanese": "いま拡築したら、 / アイテム５０個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 50 items~! / "
+    "english": "Expand now and /you / can store up /to 50 / items~! /"
   },
   {
     "resource": 45,
     "message": 59,
     "japanese": "いま拡築したら、 / アイテム６０個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 60 items~! / "
+    "english": "Expand now and /you / can store up /to 60 / items~! /"
   },
   {
     "resource": 45,
     "message": 60,
     "japanese": "いま拡築したら、 / アイテム７０個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 70 items~! / "
+    "english": "Expand now and /you / can store up /to 70 / items~! /"
   },
   {
     "resource": 45,
     "message": 61,
     "japanese": "いま拡築したら、 / アイテム８０個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 80 items~! / "
+    "english": "Expand now and /you / can store up /to 80 / items~! /"
   },
   {
     "resource": 45,
     "message": 62,
     "japanese": "いま拡築したら、 / アイテム９０個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 90 items~! / "
+    "english": "Expand now and /you / can store up /to 90 / items~! /"
   },
   {
     "resource": 45,
     "message": 63,
     "japanese": "いま拡築したら、 / アイテム１００個まで / 置けるようになるど～  / ",
-    "english": "Expand now and /you can store up /to 100 items~! / "
+    "english": "Expand now and /you / can store up /to 100 / items~! /"
   },
   {
     "resource": 45,
     "message": 64,
     "japanese": "ごりゃ、オメェ  / 金がたりねえだろ  /   / ",
-    "english": "Hey, you! /Ya don't have /enough gold! / "
+    "english": "Hey, you! /Ya don't / have /enough gold! /"
   },
   {
     "resource": 45,
     "message": 65,
     "japanese": "どこにオープン / させるべか？  /   / ",
-    "english": "Where should we /open it? /  / "
+    "english": "Where should we / /open it? /"
   },
   {
     "resource": 45,
     "message": 66,
     "japanese": "あこがれの支店が / とうとうできるのか～  /   / ",
-    "english": "Our dream branch /is finally here~! /  / "
+    "english": "Our dream branch /is / finally here~! /"
   },
   {
     "resource": 45,
     "message": 67,
     "japanese": "いつでも買取できれば / 持ち士のかたづけが / ラクチンだよな  / ",
-    "english": "If we can always /buy stuff, managin' /inventory's easy! / "
+    "english": "If we can always / /buy stuff, managin' / /inventory's easy! /"
   },
   {
     "resource": 45,
     "message": 68,
     "japanese": "オメェの荷士をいつでも / 倉庫まで送ってやるだ  / 感謝しろよ～う  / ",
-    "english": "I'll send yer /stuff to storage /anytime! Thank me! / "
+    "english": "I'll send yer /stuff / to storage /anytime! / Thank me! /"
   },
   {
     "resource": 45,
     "message": 69,
     "japanese": "いろんなイベントをすれば / お客さまにも / あきられねえべよ  / ",
-    "english": "Hold various /events and clients /won't get bored! / "
+    "english": "Hold various /events / and clients /won't / get bored! /"
   },
   {
     "resource": 45,
     "message": 70,
     "japanese": "いつでも休めたら / ボロボロになっても安心だ  / レベルはあがんねえけど  / ",
-    "english": "Rest anytime, /even when beat up! /No levels tho. / "
+    "english": "Rest anytime, /even / when beat up! /No / levels tho. /"
   },
   {
     "resource": 45,
     "message": 71,
     "japanese": "支店がどんどん / ゴージャスになるだな  /   / ",
-    "english": "The branch keeps /gettin' fancier! /  / "
+    "english": "The branch keeps / /gettin' fancier! /"
   },
   {
     "resource": 45,
@@ -225,7 +225,7 @@
     "resource": 45,
     "message": 73,
     "japanese": "物転して / 客足がのびると / ええだなあ  / ",
-    "english": "Hope relocatin' /brings in more /customers! / "
+    "english": "Hope relocatin' / /brings in more / /customers! /"
   },
   {
     "resource": 45,
@@ -237,7 +237,7 @@
     "resource": 45,
     "message": 75,
     "japanese": "探索に向かわせて / ええだか？ /   / ",
-    "english": "Send 'em out /to explore? /  / "
+    "english": "Send 'em out /to / explore? /"
   },
   {
     "resource": 45,
@@ -273,7 +273,7 @@
     "resource": 45,
     "message": 81,
     "japanese": "納品し、このオーダーを / 退了しますか？ / ",
-    "english": "Deliver and /complete order? / "
+    "english": "Deliver and / /complete order? /"
   },
   {
     "resource": 45,
@@ -285,7 +285,7 @@
     "resource": 45,
     "message": 83,
     "japanese": "仲間にこのオーダーを / 紹棄しますか？ / ",
-    "english": "Introduce this /order to allies? / "
+    "english": "Introduce this / /order to allies? /"
   },
   {
     "resource": 45,
@@ -333,7 +333,7 @@
     "resource": 45,
     "message": 91,
     "japanese": "使いが殿けたが崩れなかった  / ",
-    "english": "Curse broken but /item survived! / "
+    "english": "Curse broken but / /item survived! /"
   },
   {
     "resource": 45,
@@ -429,7 +429,7 @@
     "resource": 45,
     "message": 109,
     "japanese": "装備していますが / 売却しますか？ / ",
-    "english": "It's equipped. /Sell anyway? / "
+    "english": "It's equipped. /Sell / anyway? /"
   },
   {
     "resource": 45,
@@ -441,19 +441,19 @@
     "resource": 45,
     "message": 111,
     "japanese": "使いで外すことができません / ",
-    "english": "Can't remove /due to curse! / "
+    "english": "Can't remove /due to / curse! /"
   },
   {
     "resource": 45,
     "message": 112,
     "japanese": "それはしょうたいが / よぐわかんねーから / １０gでしか買わねえ  / ",
-    "english": "Dunno what this /is, so I'll only /pay 10g for it. / "
+    "english": "Dunno what this /is, / so I'll only /pay / 10g for it. /"
   },
   {
     "resource": 45,
     "message": 113,
     "japanese": "装備を外しますが / よろしいですか？ / ",
-    "english": "Unequip it. /Is that okay? / "
+    "english": "Unequip it. /Is that / okay? /"
   },
   {
     "resource": 45,
@@ -519,7 +519,7 @@
     "resource": 45,
     "message": 125,
     "japanese": "倉庫にアイテムがありません / ",
-    "english": "No items in /storage. / "
+    "english": "No items in / /storage. /"
   },
   {
     "resource": 45,
@@ -573,37 +573,37 @@
     "resource": 45,
     "message": 134,
     "japanese": "冒金事息品買取解除中 / ",
-    "english": "Adv. Goods /Buyback Lifted! / "
+    "english": "Adv. Goods /Buyback / Lifted! /"
   },
   {
     "resource": 45,
     "message": 135,
     "japanese": "使い装備品買取解除中 / ",
-    "english": "Cursed Equip /Buyback Lifted! / "
+    "english": "Cursed Equip / /Buyback Lifted! /"
   },
   {
     "resource": 45,
     "message": 136,
     "japanese": "装備品買取解除中 / ",
-    "english": "Equip Buyback /Lifted! / "
+    "english": "Equip Buyback / /Lifted! /"
   },
   {
     "resource": 45,
     "message": 137,
     "japanese": "自回復品買取解除中 / ",
-    "english": "Recovery Item /Buyback Lifted! / "
+    "english": "Recovery Item / /Buyback Lifted! /"
   },
   {
     "resource": 45,
     "message": 138,
     "japanese": "アイテム買取解除中 / ",
-    "english": "Item Buyback /Lifted! / "
+    "english": "Item Buyback / /Lifted! /"
   },
   {
     "resource": 45,
     "message": 139,
     "japanese": "引き受けるオーダーがありません / ",
-    "english": "No orders to /accept. / "
+    "english": "No orders to / /accept. /"
   },
   {
     "resource": 45,

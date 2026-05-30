@@ -3,7 +3,7 @@
     "resource": 37,
     "message": 2,
     "japanese": "名前を入力してください。「男名・女名＝名前を自動で入力」",
-    "english": "enter a name. / m name, f name: auto-fill / "
+    "english": "enter a name. m / name, f name: auto- / fill /"
   },
   {
     "resource": 37,
@@ -33,7 +33,7 @@
     "resource": 37,
     "message": 7,
     "japanese": "能力値を振り分けてください。",
-    "english": "allocate stat points. / "
+    "english": "allocate stat / points. /"
   },
   {
     "resource": 37,
@@ -730,7 +730,7 @@
     "resource": 49,
     "message": 1,
     "japanese": "(r49 msg 1)",
-    "english": "nothing unusual here. / "
+    "english": "nothing unusual / here. /"
   },
   {
     "resource": 49,
@@ -748,13 +748,13 @@
     "resource": 49,
     "message": 4,
     "japanese": "(r49 msg 4)",
-    "english": "the switch is off. / the switch was turned on. / "
+    "english": "the switch is off. / the switch was / turned on. /"
   },
   {
     "resource": 49,
     "message": 5,
     "japanese": "(r49 msg 5)",
-    "english": "the switch is on. / the switch was turned off. / "
+    "english": "the switch is on. / the switch was / turned off. /"
   },
   {
     "resource": 49,
@@ -1096,13 +1096,13 @@
     "resource": 49,
     "message": 62,
     "japanese": "(r49 msg 62)",
-    "english": "climb up the ladder? / confirm: o  cancel: x / "
+    "english": "climb up the ladder? / confirm: o  cancel: / x /"
   },
   {
     "resource": 49,
     "message": 63,
     "japanese": "(r49 msg 63)",
-    "english": "climb down ladder? / confirm: o  cancel: x / "
+    "english": "climb down ladder? / confirm: o  cancel: / x /"
   },
   {
     "resource": 49,
@@ -1138,7 +1138,7 @@
     "resource": 49,
     "message": 69,
     "japanese": "(r49 msg 69)",
-    "english": "used the key. / the rusty key crumbled. / "
+    "english": "used the key. the / rusty key crumbled. /"
   },
   {
     "resource": 49,

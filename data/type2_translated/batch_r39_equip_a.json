@@ -1497,7 +1497,7 @@
     "resource": 39,
     "msg_index": 346,
     "japanese": "オレっチとジャンケン勤勉で５連勤すれば\nいいものをやろう だが勉ければ[0x03dc]リープ \n追加[0x021e]は１回につき打れた祠１個 \n[0x0340]に自信のあるヤツは迷宮b２、ろうやが\nたくさんある階にある小部屋に集編",
-    "english": "Beat me at 5 rounds of Rock-Paper-Scissors\nand I'll give you something good! But if you\nlose, you get Ripu'd! Fee: 1 medal per loss.\nConfident in your luck? Come to B2F, the\nsmall room on the floor with lots of cells."
+    "english": "Beat me at 5 rounds / of Rock-Paper- / Scissors for loot! /"
   },
   {
     "resource": 39,
@@ -1701,7 +1701,7 @@
     "resource": 39,
     "msg_index": 380,
     "japanese": "ジャンケンマン",
-    "english": "Rock-Paper-Scissors Man"
+    "english": "Rock-Paper-Scissors / Man /"
   },
   {
     "resource": 39,
@@ -1839,6 +1839,6 @@
     "resource": 39,
     "msg_index": 403,
     "japanese": "ジャンケンマンをねらう影が！",
-    "english": "A shadow is targeting Rock-Paper-Scissors Man!"
+    "english": "A shadow is / targeting Rock- / Paper-Scissors Man! /"
   }
 ]

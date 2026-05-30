@@ -3,67 +3,67 @@
     "resource": 38,
     "message": 131,
     "japanese": "騎士を気有させることができる武器、鎧を装備できます。 / lｖ５までの騎事務騎法を習下可能。 / ",
-    "english": "Can equip weapons / and armor for knights. / Learns Sorceries / up to Lv5. / "
+    "english": "Knight gear usable. / Learns Sorcery / up to Lv5. /"
   },
   {
     "resource": 38,
     "message": 132,
     "japanese": "自回復品を回復する能力を備えており、 / 不死族を退除するディスペルを覚えることができます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "Has the ability to / restore HP. / Can learn Dispel / to banish undead. / Learns Sorceries and / Holy Magic up to Lv6. / "
+    "english": "Restores HP. Dispel / vs undead. Sorc & / Holy Magic Lv6. /"
   },
   {
     "resource": 38,
     "message": 133,
     "japanese": "ポールアックス系の武器を装備できます。 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
-    "english": "Can equip poleaxe / type weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / "
+    "english": "Poleaxe weapons. / Dispel vs undead. / Holy Magic Lv5. /"
   },
   {
     "resource": 38,
     "message": 134,
     "japanese": "冒金事を扱うことができる。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "Can handle alchemy. / Learns Sorceries and / Holy Magic up to Lv4. / "
+    "english": "Handles alchemy. / Sorc & Holy Magic / up to Lv4. /"
   },
   {
     "resource": 38,
     "message": 135,
     "japanese": "長法の装備が可能で、トラップ発難度を下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ３までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "Can equip longbows. / Lowers trap difficulty / and can steal items. / Learns Sorceries and / Holy Magic up to Lv3. / "
+    "english": "Longbow user. Lowers / traps, steals items / Sorc+Holy Lv3. /"
   },
   {
     "resource": 38,
     "message": 136,
     "japanese": "スタッフやナックル系の武器を装備でき、 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
-    "english": "Can equip staffs / and knuckle weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / "
+    "english": "Staffs & knuckles. / Dispel vs undead. / Holy Magic Lv5. /"
   },
   {
     "resource": 38,
     "message": 137,
     "japanese": "聖なるオーラでパーティのhpを少しずつ回復する / ことができ、ディスペルを覚えることもできます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "Holy aura slowly / restores party HP. / Can also learn Dispel. / Learns Sorceries and / Holy Magic up to Lv6. / "
+    "english": "Holy aura heals HP. / Can learn Dispel. / Sorc+Holy Lv6. /"
   },
   {
     "resource": 38,
     "message": 138,
     "japanese": "使われている装備の、その使いの消呪を / 打ち除すことができます。 / lｖ６までの騎事務騎法を習下可能。 / ",
-    "english": "Can remove curses / from equipped items. / Learns Sorceries / up to Lv6. / "
+    "english": "Removes curses from / equipped items. / Sorcery Lv6. /"
   },
   {
     "resource": 38,
     "message": 139,
     "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / さらにダークゾーンを見るなどの能力も備えています。 / lｖ５までの騎事務騎法を習下可能。 / ",
-    "english": "Excels at gaining EXP / and instant death atk. / Can also see through / dark fog zones. / Learns Sorceries / up to Lv5. / "
+    "english": "Great EXP & insta- / kill. Sees in fog. / Sorcery Lv5. /"
   },
   {
     "resource": 38,
     "message": 140,
     "japanese": "唱手武器と防の同受装備や、同じ獲得系属の武器両種を / 同受に装備できる両鎧進の能力を持っています。 / lｖ６までの騎事務騎法を習下可能。 / ",
-    "english": "Can dual wield / weapons of the same / type simultaneously. / Learns Sorceries / up to Lv6. / "
+    "english": "Dual wields same / weapon type. Learns / Sorcery Lv6. /"
   },
   {
     "resource": 38,
     "message": 141,
     "japanese": "長法の装備が可能で、トラップ発難度を大きく下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "Can equip longbows. / Greatly lowers trap / difficulty. Can steal / items from enemies. / Learns Sorceries and / Holy Magic up to Lv4. / "
+    "english": "Longbow. Best trap / skill. Steals items / Sorc+Holy Lv4. /"
   },
   {
     "resource": 38,
@@ -75,13 +75,13 @@
     "resource": 38,
     "message": 143,
     "japanese": "騎事務騎法の威力、俺性に影響します。 / ",
-    "english": "Affects Sorcery power / and resistance. / "
+    "english": "Affects Sorcery / power and / resistance. /"
   },
   {
     "resource": 38,
     "message": 144,
     "japanese": "神聖騎法の威力、俺性に影響します。 / ",
-    "english": "Affects Holy Magic / power and resistance. / "
+    "english": "Affects Holy Magic / power and / resistance. /"
   },
   {
     "resource": 38,
@@ -99,7 +99,7 @@
     "resource": 38,
     "message": 147,
     "japanese": "ブレスに対する俺性や、クリティカルヒットの結果 / などに影響します。 / ",
-    "english": "Affects breath resist / and critical hit / chance. / "
+    "english": "Affects breath / resist and critical / hit chance. /"
   },
   {
     "resource": 38,

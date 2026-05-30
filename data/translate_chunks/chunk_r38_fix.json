@@ -483,7 +483,7 @@
     "resource": 38,
     "message": 87,
     "japanese": "何でもすぐ飽きる。迷宮探索も同じ。 / 長受壁街に帰らないと消嫌が悪くなる。 / ",
-    "english": "bores easily. / return to town often. / "
+    "english": "bores easily. return / to town often. /"
   },
   {
     "resource": 38,
@@ -495,7 +495,7 @@
     "resource": 38,
     "message": 89,
     "japanese": "金をためることに全てをかける。わざわざ / 迷宮を探索して、稼ぎが少ないと城る。 / ",
-    "english": "lives to hoard gold. / angry if loot is low. / "
+    "english": "lives to hoard gold. / angry if loot is / low. /"
   },
   {
     "resource": 38,
@@ -603,7 +603,7 @@
     "resource": 38,
     "message": 107,
     "japanese": "戦いを嫌い、■血を方む。 / 戦友が死んだ受などはひどく落ち込む。 / ",
-    "english": "hates bloodshed. / mourns fallen allies. / "
+    "english": "hates bloodshed. / mourns fallen / allies. /"
   },
   {
     "resource": 38,
@@ -663,55 +663,55 @@
     "resource": 38,
     "message": 117,
     "japanese": "果別によって、個人の基仲能力値と隊長が取なります。 / 男果は力解く、女果は知的に隊長していきます。 / ",
-    "english": "gender affects base / stats and growth. / men are strong, / women are wise. / "
+    "english": "Gender sets base / stats. Men=strong, / women=wise. /"
   },
   {
     "resource": 38,
     "message": 118,
     "japanese": "種族はその者の隊長の基本となります。 / 人壁は少手信仰心が高いものの、全体的にむらなく / 隊長するバランスのいい種族といわれています。 / ",
-    "english": "race determines base / growth. humans have / high faith & balanced / stats overall. / "
+    "english": "Human: High faith / & balanced stats / overall. /"
   },
   {
     "resource": 38,
     "message": 119,
     "japanese": "種族はその者の隊長の基本となります。 / エルフ族は知力と生命力に優れ、力は探いですが、 / 騎法の扱いでは■に出る者はいないと言われています。 / ",
-    "english": "race determines base / growth. elves excel / in int & vit but are / weak. best at magic. / "
+    "english": "Elf: High INT & VIT / but frail. Best / at magic. /"
   },
   {
     "resource": 38,
     "message": 120,
     "japanese": "種族はその者の隊長の基本となります。 / ノーム族は、信仰心がとても解く、 / また身のこなしがく器いため、神聖に向いています。 / ",
-    "english": "race determines base / growth. gnomes have / high faith & agility. / suited for priests. / "
+    "english": "Gnome: High faith / & agility. Suited / for Priests. /"
   },
   {
     "resource": 38,
     "message": 121,
     "japanese": "種族はその者の隊長の基本となります。 / 動きは胆いが、力解く信仰の待いドワーフ族。 / その特果を生かせる戦士に就く者が聞いようです。 / ",
-    "english": "race determines base / growth. dwarves are / slow but strong with / deep faith. fighters. / "
+    "english": "Dwarf: Slow but / strong with deep / faith. Fighters. /"
   },
   {
     "resource": 38,
     "message": 122,
     "japanese": "種族はその者の隊長の基本となります。 / ホビット族は小格でか探いものの、素い身のこなしと、 / 生まれ持つ幸運とで盗賊に就く者が内をたちません。 / ",
-    "english": "race determines base / growth. hobbits are / small but agile and / lucky. born thieves. / "
+    "english": "Hobbit: Small but / agile and lucky. / Born thieves. /"
   },
   {
     "resource": 38,
     "message": 123,
     "japanese": "正義を重んじる善は、その正義に違した行動によっては / 悪へと変わってしまうこともあります。 / 可能職業：戦・騎・神・侍・義・集・兵・冒・モ / ",
-    "english": "good upholds justice / but may turn evil if / acting unjustly. / classes: fig mag pri / sam giz bis kni alc / mon / "
+    "english": "Good=justice. May / turn Evil. FIG MAG / PRI SAM GIZ BIS+ /"
   },
   {
     "resource": 38,
     "message": 124,
     "japanese": "かたよった考えをしない者は中立といわれます。 / 可能職業：戦・盗・騎・侍・義・冒・モ / ",
-    "english": "those without bias / are called neutral. / classes: fig thi mag / sam giz alc mon / "
+    "english": "Neutral=no bias. / FIG THI MAG SAM / GIZ ALC MON /"
   },
   {
     "resource": 38,
     "message": 125,
     "japanese": "休息を好む悪。稀に善に地心する者もいるようです。 / 可能職業：戦・盗・騎・神・忍・集・冒 / ",
-    "english": "evil favors rest. / some rarely turn to / good. classes: fig / thi mag pri nin bis / alc / "
+    "english": "Evil=self-serving. / FIG THI MAG PRI / NIN BIS ALC /"
   },
   {
     "resource": 38,
@@ -723,7 +723,7 @@
     "resource": 38,
     "message": 127,
     "japanese": "罠の発難度を下げる能力を持ち、また宝箱を / 見つけるのも下払です。 / lｖ３までの騎事務騎法を習下可能。 / ",
-    "english": "can reduce trap / difficulty & find / treasure chests. / learns sorcery lv3. / "
+    "english": "Lowers trap level / & finds chests. / Sorcery Lv3. /"
   },
   {
     "resource": 38,
@@ -735,79 +735,79 @@
     "resource": 38,
     "message": 129,
     "japanese": "神聖騎法の使い手。 / 不死族を退除するディスペルを覚えることができます。 / 全ての神聖騎法を習下可能。 / ",
-    "english": "master of holy / magic. can learn / dispel vs. undead. / all holy magic. / "
+    "english": "Holy magic master. / Can Dispel undead. / All Holy spells. /"
   },
   {
     "resource": 38,
     "message": 130,
     "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / lｖ２までの騎事務騎法を習下可能。 / ",
-    "english": "excels at earning / exp. can instant- / kill foes. learns / sorcery up to lv2. / "
+    "english": "Great EXP gain. Can / instant-kill foes. / Sorcery up to Lv2. /"
   },
   {
     "resource": 38,
     "message": 131,
     "japanese": "騎士を気有させることができる武器、鎧を装備できます。 / lｖ５までの騎事務騎法を習下可能。 / ",
-    "english": "can equip weapons / and armor for knights. / learns sorcery / up to lv5. / "
+    "english": "Knight gear usable. / Learns Sorcery / up to Lv5. /"
   },
   {
     "resource": 38,
     "message": 132,
     "japanese": "自回復品を回復する能力を備えており、 / 不死族を退除するディスペルを覚えることができます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "has the ability to / restore hp. / can learn dispel / to banish undead. / learns sorcery and / holy magic up to lv6. / "
+    "english": "Restores HP. Dispel / vs undead. Sorc & / Holy Magic Lv6. /"
   },
   {
     "resource": 38,
     "message": 133,
     "japanese": "ポールアックス系の武器を装備できます。 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
-    "english": "can equip poleaxe / type weapons. / can learn dispel / to banish undead. / learns holy magic / up to lv5. / "
+    "english": "Poleaxe weapons. / Dispel vs undead. / Holy Magic Lv5. /"
   },
   {
     "resource": 38,
     "message": 134,
     "japanese": "冒金事を扱うことができる。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "can handle alchemy. / learns sorcery and / holy magic up to lv4. / "
+    "english": "Handles alchemy. / Sorc & Holy Magic / up to Lv4. /"
   },
   {
     "resource": 38,
     "message": 135,
     "japanese": "長法の装備が可能で、トラップ発難度を下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ３までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "can equip longbows. / lowers trap difficulty / and can steal items. / learns sorcery and / holy magic up to lv3. / "
+    "english": "Longbow user. Lowers / traps, steals items / Sorc+Holy Lv3. /"
   },
   {
     "resource": 38,
     "message": 136,
     "japanese": "スタッフやナックル系の武器を装備でき、 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
-    "english": "can equip staffs / and knuckle weapons. / can learn dispel / to banish undead. / learns holy magic / up to lv5. / "
+    "english": "Staffs & knuckles. / Dispel vs undead. / Holy Magic Lv5. /"
   },
   {
     "resource": 38,
     "message": 137,
     "japanese": "聖なるオーラでパーティのhpを少しずつ回復する / ことができ、ディスペルを覚えることもできます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "holy aura slowly / restores party hp. / can also learn dispel. / learns sorcery and / holy magic up to lv6. / "
+    "english": "Holy aura heals HP. / Can learn Dispel. / Sorc+Holy Lv6. /"
   },
   {
     "resource": 38,
     "message": 138,
     "japanese": "使われている装備の、その使いの消呪を / 打ち除すことができます。 / lｖ６までの騎事務騎法を習下可能。 / ",
-    "english": "can remove curses / from equipped items. / learns sorcery / up to lv6. / "
+    "english": "Removes curses from / equipped items. / Sorcery Lv6. /"
   },
   {
     "resource": 38,
     "message": 139,
     "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / さらにダークゾーンを見るなどの能力も備えています。 / lｖ５までの騎事務騎法を習下可能。 / ",
-    "english": "excels at gaining exp / and instant death atk. / can also see through / dark fog zones. / learns sorcery / up to lv5. / "
+    "english": "Great EXP & insta- / kill. Sees in fog. / Sorcery Lv5. /"
   },
   {
     "resource": 38,
     "message": 140,
     "japanese": "唱手武器と防の同受装備や、同じ獲得系属の武器両種を / 同受に装備できる両鎧進の能力を持っています。 / lｖ６までの騎事務騎法を習下可能。 / ",
-    "english": "can dual wield / weapons of the same / type simultaneously. / learns sorcery / up to lv6. / "
+    "english": "Dual wields same / weapon type. Learns / Sorcery Lv6. /"
   },
   {
     "resource": 38,
     "message": 141,
     "japanese": "長法の装備が可能で、トラップ発難度を大きく下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
-    "english": "can equip longbows. / greatly lowers trap / difficulty. can steal / items from enemies. / learns sorcery and / holy magic up to lv4. / "
+    "english": "Longbow. Best trap / skill. Steals items / Sorc+Holy Lv4. /"
   },
   {
     "resource": 38,
@@ -819,13 +819,13 @@
     "resource": 38,
     "message": 143,
     "japanese": "騎事務騎法の威力、俄性に影響します。 / ",
-    "english": "affects sorcery power / and resistance. / "
+    "english": "affects sorcery / power and / resistance. /"
   },
   {
     "resource": 38,
     "message": 144,
     "japanese": "神聖騎法の威力、俄性に影響します。 / ",
-    "english": "affects holy magic / power and resistance. / "
+    "english": "affects holy magic / power and / resistance. /"
   },
   {
     "resource": 38,
@@ -843,7 +843,7 @@
     "resource": 38,
     "message": 147,
     "japanese": "ブレスに対する俄性や、クリティカルヒットの結果 / などに影響します。 / ",
-    "english": "affects breath resist / and critical hit / chance. / "
+    "english": "affects breath / resist and critical / hit chance. /"
   },
   {
     "resource": 38,

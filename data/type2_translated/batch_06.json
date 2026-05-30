@@ -2049,7 +2049,7 @@
     "resource": 1208,
     "msg_index": 355,
     "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
-    "english": "0123456789-0123456789- / \"Hey there, member / number !\""
+    "english": "Hey there, / member number ! /"
   },
   {
     "resource": 1208,
@@ -2565,7 +2565,7 @@
     "resource": 1208,
     "msg_index": 445,
     "japanese": "[02A1]主の場柵秘魔主の場柵秘[053F][055A]の場柵秘を棄しこんだ。",
-    "english": "You poured the / recovery/magic/stamina / potion into the fountain."
+    "english": "You poured the / potion into the / fountain. /"
   },
   {
     "resource": 1208,
@@ -5415,7 +5415,7 @@
     "resource": 1209,
     "msg_index": 29,
     "japanese": "やぁ～っと、見ぃつけたっ[0271]響[01BC]～～～～～～～～～～[0271]サキュバス響[01BC]～～～～～[0271]",
-    "english": "Hey there, I finally found you... Big Sister............. Big Succubus Sister........."
+    "english": "Hey, I finally / found you... / Big Sister........ /"
   },
   {
     "resource": 1209,
@@ -5469,7 +5469,7 @@
     "resource": 1209,
     "msg_index": 38,
     "japanese": "いやああああああああ ",
-    "english": "Nooooooooooooooooo!"
+    "english": "Nooooooooooooooooo! /"
   },
   {
     "resource": 1209,
@@ -7371,7 +7371,7 @@
     "resource": 1209,
     "msg_index": 366,
     "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
-    "english": "0123456789-0000000123456789- Oh, member number! Welcome aboard!"
+    "english": "Oh, member number! / Welcome aboard! /"
   },
   {
     "resource": 1209,
@@ -7425,19 +7425,19 @@
     "resource": 1209,
     "msg_index": 376,
     "japanese": "１ポイントいただきます それでは、ナンバー[05FB]選スターーートオォォォォォ ",
-    "english": "I'll take 1 point! Well then, let the Member Number Lottery begiiiiiiiiiiiiiiin!"
+    "english": "1 point! Let the / Member Number / Lottery begin! /"
   },
   {
     "resource": 1209,
     "msg_index": 377,
     "japanese": "３ポイントいただきます それでは、ナンバー[05FB]選スターーートオォォォォォ ",
-    "english": "I'll take 3 points! Well then, let the Member Number Lottery begiiiiiiiiiiiiiiin!"
+    "english": "3 points! Let the / Member Number / Lottery begin! /"
   },
   {
     "resource": 1209,
     "msg_index": 378,
     "japanese": "５ポイントいただきます それでは、ナンバー[05FB]選スターーートオォォォォォ ",
-    "english": "I'll take 5 points! Well then, let the Member Number Lottery begiiiiiiiiiiiiiiin!"
+    "english": "5 points! Let the / Member Number / Lottery begin! /"
   },
   {
     "resource": 1209,
@@ -7461,7 +7461,7 @@
     "resource": 1209,
     "msg_index": 383,
     "japanese": "おおあた～～～りいいいいいいぃ ",
-    "english": "Oh my goodnessssssssssss!"
+    "english": "Oh my / goodnessssssssssss! /"
   },
   {
     "resource": 1209,
@@ -7569,7 +7569,7 @@
     "resource": 1209,
     "msg_index": 401,
     "japanese": "０００００００１２３４５６７８９−[05FB]選中・・・",
-    "english": "000000001234567890- Drawing..."
+    "english": "000000001234567890- / Drawing... /"
   },
   {
     "resource": 1209,

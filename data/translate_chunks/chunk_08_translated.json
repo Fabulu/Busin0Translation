@@ -21,31 +21,31 @@
     "resource": 48,
     "message": 37,
     "japanese": "町のリサイクル店 / ",
-    "english": "Neighborhood\nRecycling Shop / "
+    "english": "Neighborhood / Recycling Shop /"
   },
   {
     "resource": 48,
     "message": 38,
     "japanese": "街の不法投棄場 / ",
-    "english": "Neighborhood\nDumping Ground / "
+    "english": "Neighborhood Dumping / Ground /"
   },
   {
     "resource": 48,
     "message": 39,
     "japanese": "街のしょ理場 / ",
-    "english": "Neighborhood\nDisposal Site / "
+    "english": "Neighborhood / Disposal Site /"
   },
   {
     "resource": 48,
     "message": 40,
     "japanese": "街のゴミ焼却場 / ",
-    "english": "Neighborhood Waste\nIncineration / "
+    "english": "Neighborhood Waste / Incineration /"
   },
   {
     "resource": 48,
     "message": 41,
     "japanese": "街のゴミ持て場 / ",
-    "english": "Neighborhood\nGarbage Dump / "
+    "english": "Neighborhood Garbage / Dump /"
   },
   {
     "resource": 48,
@@ -81,31 +81,31 @@
     "resource": 48,
     "message": 47,
     "japanese": "街のリサイクル店 / ",
-    "english": "Neighborhood\nRecycling Shop / "
+    "english": "Neighborhood / Recycling Shop /"
   },
   {
     "resource": 48,
     "message": 48,
     "japanese": "器の不法投棄場 / ",
-    "english": "Settlement\nDumping Ground / "
+    "english": "Settlement Dumping / Ground /"
   },
   {
     "resource": 48,
     "message": 49,
     "japanese": "器のしょ理場 / ",
-    "english": "Settlement\nDisposal Site / "
+    "english": "Settlement Disposal / Site /"
   },
   {
     "resource": 48,
     "message": 50,
     "japanese": "器のゴミ焼却場 / ",
-    "english": "Settlement Waste\nIncineration / "
+    "english": "Settlement Waste / Incineration /"
   },
   {
     "resource": 48,
     "message": 51,
     "japanese": "器のゴミ持て場 / ",
-    "english": "Settlement\nGarbage Dump / "
+    "english": "Settlement Garbage / Dump /"
   },
   {
     "resource": 48,
@@ -147,13 +147,13 @@
     "resource": 48,
     "message": 58,
     "japanese": "器のリサイクル店 / ",
-    "english": "Settlement\nRecycling Shop / "
+    "english": "Settlement Recycling / Shop /"
   },
   {
     "resource": 48,
     "message": 59,
     "japanese": "都の不法投棄場 / ",
-    "english": "Illegal\nDumping Ground / "
+    "english": "Illegal Dumping / Ground /"
   },
   {
     "resource": 48,
@@ -165,13 +165,13 @@
     "resource": 48,
     "message": 61,
     "japanese": "都のゴミ焼却場 / ",
-    "english": "Waste\nIncineration Plant / "
+    "english": "Waste Incineration / Plant /"
   },
   {
     "resource": 48,
     "message": 62,
     "japanese": "都のゴミ持て場 / ",
-    "english": "Oversized\nGarbage Dump / "
+    "english": "Oversized Garbage / Dump /"
   },
   {
     "resource": 48,
@@ -195,31 +195,31 @@
     "resource": 48,
     "message": 66,
     "japanese": "都のリサイクル店 / ",
-    "english": "Neighborhood\nRecycling Shop / "
+    "english": "Neighborhood / Recycling Shop /"
   },
   {
     "resource": 48,
     "message": 67,
     "japanese": "戦の不法投棄場 / ",
-    "english": "Settlement\nDumping Ground / "
+    "english": "Settlement Dumping / Ground /"
   },
   {
     "resource": 48,
     "message": 68,
     "japanese": "戦のしょ理場 / ",
-    "english": "Settlement\nDisposal Site / "
+    "english": "Settlement Disposal / Site /"
   },
   {
     "resource": 48,
     "message": 69,
     "japanese": "戦のゴミ焼却場 / ",
-    "english": "Settlement Waste\nIncineration / "
+    "english": "Settlement Waste / Incineration /"
   },
   {
     "resource": 48,
     "message": 70,
     "japanese": "戦のゴミ持て場 / ",
-    "english": "Settlement\nGarbage Dump / "
+    "english": "Settlement Garbage / Dump /"
   },
   {
     "resource": 48,
@@ -255,13 +255,13 @@
     "resource": 48,
     "message": 76,
     "japanese": "戦のリサイクル店 / ",
-    "english": "Settlement\nRecycling Shop / "
+    "english": "Settlement Recycling / Shop /"
   },
   {
     "resource": 48,
     "message": 77,
     "japanese": "大りくの不法投棄場 / ",
-    "english": "Illegal\nDumping Ground / "
+    "english": "Illegal Dumping / Ground /"
   },
   {
     "resource": 48,
@@ -273,13 +273,13 @@
     "resource": 48,
     "message": 79,
     "japanese": "大りくのゴミ焼却場 / ",
-    "english": "Waste\nIncineration Plant / "
+    "english": "Waste Incineration / Plant /"
   },
   {
     "resource": 48,
     "message": 80,
     "japanese": "大りくのゴミ持て場 / ",
-    "english": "Oversized\nGarbage Dump / "
+    "english": "Oversized Garbage / Dump /"
   },
   {
     "resource": 48,
@@ -303,7 +303,7 @@
     "resource": 48,
     "message": 84,
     "japanese": "街のみやげ屋 / ",
-    "english": "Trashed Up\nVacant Lots / "
+    "english": "Trashed Up Vacant / Lots /"
   },
   {
     "resource": 48,
@@ -327,13 +327,13 @@
     "resource": 48,
     "message": 88,
     "japanese": "低級リサイクル店 / ",
-    "english": "Neighborhood\nRecycling Shop / "
+    "english": "Neighborhood / Recycling Shop /"
   },
   {
     "resource": 48,
     "message": 89,
     "japanese": "世界の不法投棄場 / ",
-    "english": "Illegal\nDumping Ground / "
+    "english": "Illegal Dumping / Ground /"
   },
   {
     "resource": 48,
@@ -345,19 +345,19 @@
     "resource": 48,
     "message": 91,
     "japanese": "世界のゴミ焼却場 / ",
-    "english": "Waste\nIncineration Plant / "
+    "english": "Waste Incineration / Plant /"
   },
   {
     "resource": 48,
     "message": 92,
     "japanese": "世界のゴミ持て場 / ",
-    "english": "Oversized\nGarbage Dump / "
+    "english": "Oversized Garbage / Dump /"
   },
   {
     "resource": 48,
     "message": 93,
     "japanese": "器のみやげ屋 / ",
-    "english": "Trashed Up\nVacant Lots / "
+    "english": "Trashed Up Vacant / Lots /"
   },
   {
     "resource": 48,
@@ -381,13 +381,13 @@
     "resource": 48,
     "message": 97,
     "japanese": "世界のリサイクル店 / ",
-    "english": "Neighborhood\nRecycling Shop / "
+    "english": "Neighborhood / Recycling Shop /"
   },
   {
     "resource": 48,
     "message": 98,
     "japanese": "地下の不法投棄場 / ",
-    "english": "Illegal\nDumping Ground / "
+    "english": "Illegal Dumping / Ground /"
   },
   {
     "resource": 48,
@@ -399,19 +399,19 @@
     "resource": 48,
     "message": 100,
     "japanese": "地下のゴミ焼却場 / ",
-    "english": "Waste\nIncineration Plant / "
+    "english": "Waste Incineration / Plant /"
   },
   {
     "resource": 48,
     "message": 101,
     "japanese": "地下のゴミ持て場 / ",
-    "english": "Oversized\nGarbage Dump / "
+    "english": "Oversized Garbage / Dump /"
   },
   {
     "resource": 48,
     "message": 102,
     "japanese": "戦のみやげ屋 / ",
-    "english": "Trashed Up\nVacant Lots / "
+    "english": "Trashed Up Vacant / Lots /"
   },
   {
     "resource": 48,
@@ -435,7 +435,7 @@
     "resource": 48,
     "message": 106,
     "japanese": "地下のリサイクル店 / ",
-    "english": "Neighborhood\nRecycling Shop / "
+    "english": "Neighborhood / Recycling Shop /"
   },
   {
     "resource": 49,
@@ -447,25 +447,25 @@
     "resource": 49,
     "message": 1,
     "japanese": "こちらからは開きそうにない / ",
-    "english": "Can't open from\nthis side. / "
+    "english": "Can't open from this / side. /"
   },
   {
     "resource": 49,
     "message": 2,
     "japanese": "もろくて崩れそうなカベだ / ",
-    "english": "A fragile,\ncrumbling wall. / "
+    "english": "A fragile, crumbling / wall. /"
   },
   {
     "resource": 49,
     "message": 3,
     "japanese": "スイッチがoffになっている。 / スイッチをonにした  / ",
-    "english": "The switch is off. / Turned the\nswitch on. / "
+    "english": "The switch is off. / Turned the switch / on. /"
   },
   {
     "resource": 49,
     "message": 4,
     "japanese": "スイッチがonになっている。 / スイッチをoffにした  / ",
-    "english": "The switch is on. / Turned the\nswitch off. / "
+    "english": "The switch is on. / Turned the switch / off. /"
   },
   {
     "resource": 49,
@@ -477,67 +477,67 @@
     "resource": 49,
     "message": 6,
     "japanese": "団がつまれたトロッコがある / ",
-    "english": "A loaded mine\ncart is here. / "
+    "english": "A loaded mine cart / is here. /"
   },
   {
     "resource": 49,
     "message": 7,
     "japanese": "ハシが上がっていて通れない / ",
-    "english": "The bridge is\nraised. No way\nacross. / "
+    "english": "The bridge is / raised. No way / across. /"
   },
   {
     "resource": 49,
     "message": 8,
     "japanese": "大きな岩で道がふさがれている / ",
-    "english": "A large boulder\nblocks the path. / "
+    "english": "A large boulder / blocks the path. /"
   },
   {
     "resource": 49,
     "message": 9,
     "japanese": "荷登が道をふさいでいる / ",
-    "english": "Cargo blocks\nthe way. / "
+    "english": "Cargo blocks the / way. /"
   },
   {
     "resource": 49,
     "message": 10,
     "japanese": "崩れた荷登が持てられている / ",
-    "english": "Collapsed cargo\nlies scattered. / "
+    "english": "Collapsed cargo lies / scattered. /"
   },
   {
     "resource": 49,
     "message": 11,
     "japanese": "古びたタルが放置されている / ",
-    "english": "An old barrel\nleft abandoned. / "
+    "english": "An old barrel left / abandoned. /"
   },
   {
     "resource": 49,
     "message": 12,
     "japanese": "目の前にがい骨が転がっている / ",
-    "english": "A skeleton lies\nbefore you. / "
+    "english": "A skeleton lies / before you. /"
   },
   {
     "resource": 49,
     "message": 13,
     "japanese": "足元にがい骨が転がっている / ",
-    "english": "A skeleton lies\nat your feet. / "
+    "english": "A skeleton lies at / your feet. /"
   },
   {
     "resource": 49,
     "message": 14,
     "japanese": "がい骨がもたれかかっている / ",
-    "english": "A skeleton leans\nagainst the wall. / "
+    "english": "A skeleton leans / against the wall. /"
   },
   {
     "resource": 49,
     "message": 15,
     "japanese": "女神の団像が飾られている / ",
-    "english": "A goddess statue\nis displayed. / "
+    "english": "A goddess statue is / displayed. /"
   },
   {
     "resource": 49,
     "message": 16,
     "japanese": "半部の欠けた団像が飾られている / ",
-    "english": "A half-broken\nstatue is here. / "
+    "english": "A half-broken statue / is here. /"
   },
   {
     "resource": 49,
@@ -549,103 +549,103 @@
     "resource": 49,
     "message": 18,
     "japanese": "壁がくずれている / ",
-    "english": "The wall has\ncrumbled. / "
+    "english": "The wall has / crumbled. /"
   },
   {
     "resource": 49,
     "message": 19,
     "japanese": "くずれた壁で道がふさがれている / ",
-    "english": "Rubble blocks\nthe path. / "
+    "english": "Rubble blocks the / path. /"
   },
   {
     "resource": 49,
     "message": 20,
     "japanese": "崩れた人形が持てられている / ",
-    "english": "A broken doll\nlies discarded. / "
+    "english": "A broken doll lies / discarded. /"
   },
   {
     "resource": 49,
     "message": 21,
     "japanese": "巨大な像がつるされている / ",
-    "english": "A huge statue\nhangs suspended. / "
+    "english": "A huge statue hangs / suspended. /"
   },
   {
     "resource": 49,
     "message": 22,
     "japanese": "巨大な像がつるされている / ",
-    "english": "A huge statue\nhangs suspended. / "
+    "english": "A huge statue hangs / suspended. /"
   },
   {
     "resource": 49,
     "message": 23,
     "japanese": "騎法像が置かれている / ",
-    "english": "An equestrian\nstatue is here. / "
+    "english": "An equestrian statue / is here. /"
   },
   {
     "resource": 49,
     "message": 24,
     "japanese": "壁で道がふさがれている / ",
-    "english": "A wall blocks\nthe path. / "
+    "english": "A wall blocks the / path. /"
   },
   {
     "resource": 49,
     "message": 25,
     "japanese": "変わった形の壁がある / ",
-    "english": "An oddly shaped\nwall is here. / "
+    "english": "An oddly shaped wall / is here. /"
   },
   {
     "resource": 49,
     "message": 26,
     "japanese": "柵に何らかの装置がしかけられている / ",
-    "english": "Some device is\nset on the fence. / "
+    "english": "Some device is set / on the fence. /"
   },
   {
     "resource": 49,
     "message": 27,
     "japanese": "わき水がたまっている / ",
-    "english": "Spring water has\npooled here. / "
+    "english": "Spring water has / pooled here. /"
   },
   {
     "resource": 49,
     "message": 28,
     "japanese": "階段の先が行きどまりで上れない / ",
-    "english": "Dead end above.\nCan't go up. / "
+    "english": "Dead end above. / Can't go up. /"
   },
   {
     "resource": 49,
     "message": 29,
     "japanese": "階段がある / ",
-    "english": "There are stairs\nhere. / "
+    "english": "There are stairs / here. /"
   },
   {
     "resource": 49,
     "message": 30,
     "japanese": "階段を動かすための装置がある / ",
-    "english": "A device to move\nthe stairs. / "
+    "english": "A device to move the / stairs. /"
   },
   {
     "resource": 49,
     "message": 31,
     "japanese": "大きなはかがたっている / ",
-    "english": "A large grave\nstands here. / "
+    "english": "A large grave stands / here. /"
   },
   {
     "resource": 49,
     "message": 32,
     "japanese": "はかのとなりに何かの装置がある / ",
-    "english": "A device next to\nthe grave. / "
+    "english": "A device next to the / grave. /"
   },
   {
     "resource": 49,
     "message": 33,
     "japanese": "とび込めそうなほどに / 大きな穴が開いている / ",
-    "english": "A hole big\nenough to jump\ninto. / "
+    "english": "A hole big enough to / jump into. /"
   },
   {
     "resource": 49,
     "message": 34,
     "japanese": "宝箱を開けますか？ / ",
-    "english": "Open the\ntreasure chest? / "
+    "english": "Open the treasure / chest? /"
   },
   {
     "resource": 49,
@@ -663,7 +663,7 @@
     "resource": 49,
     "message": 37,
     "japanese": "宝箱をあきらめました / ",
-    "english": "Left the chest\nalone. / "
+    "english": "Left the chest / alone. /"
   },
   {
     "resource": 49,

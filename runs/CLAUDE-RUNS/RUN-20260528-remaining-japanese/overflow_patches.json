@@ -1,0 +1,2723 @@
+[
+  {
+    "file": "chunk_00_translated.json",
+    "dir": "translate_chunks",
+    "resource": 34,
+    "msg_index": 18,
+    "original": "Saint's Hair Ornament / ",
+    "rewrite": "Saint's Hair / Ornament /",
+    "auto": true
+  },
+  {
+    "file": "chunk_00_translated.json",
+    "dir": "translate_chunks",
+    "resource": 34,
+    "msg_index": 21,
+    "original": "Witch's Hair Ornament / ",
+    "rewrite": "Witch's Hair / Ornament /",
+    "auto": true
+  },
+  {
+    "file": "chunk_00_translated.json",
+    "dir": "translate_chunks",
+    "resource": 34,
+    "msg_index": 27,
+    "original": "Useless Orc Wristband / ",
+    "rewrite": "Useless Orc / Wristband /",
+    "auto": true
+  },
+  {
+    "file": "chunk_01_translated.json",
+    "dir": "translate_chunks",
+    "resource": 37,
+    "msg_index": 1,
+    "original": "Enter your name. / [M name/F name: Auto-fill] / ",
+    "rewrite": "Enter your name. [M / name/F name: Auto- / fill] /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 88,
+    "original": "Sensitive to spirits. / Trembles at the / sight of Death. / ",
+    "rewrite": "Fears spirits. / Trembles at the / sight of Death. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 95,
+    "original": "Believes in mystic / power. Happy when / magic knowledge grows. / ",
+    "rewrite": "Believes in mystic / power. Loves gaining / magic knowledge. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 96,
+    "original": "A skilled warrior / who seeks battle with / strong opponents. / ",
+    "rewrite": "Skilled warrior who / seeks battle with / strong opponents. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 104,
+    "original": "Cannot forgive those / who slay friendly, / non-hostile monsters. / ",
+    "rewrite": "Can't forgive those / who slay friendly / monsters. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 107,
+    "original": "Hates fighting and / bloodshed. Deeply / mourns fallen allies. / ",
+    "rewrite": "Hates fighting and / bloodshed. Mourns / fallen allies. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 108,
+    "original": "Very short-tempered. / Long, drawn-out / battles are maddening. / ",
+    "rewrite": "Very short-tempered. / Long battles are / maddening. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 112,
+    "original": "Happy one moment, / angry the next. An / unpredictable nature. / ",
+    "rewrite": "Happy one moment, / angry the next. / Unpredictable. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 117,
+    "original": "Gender affects base / stats and growth. / Men are strong, / women are wise. / ",
+    "rewrite": "Gender sets base / stats. Men=strong, / women=wise. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 118,
+    "original": "Race determines base / growth. Humans have / high faith & balanced / stats overall. / ",
+    "rewrite": "Human: High faith / & balanced stats / overall. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 119,
+    "original": "Race determines base / growth. Elves excel / in INT & VIT but are / weak. Best at magic. / ",
+    "rewrite": "Elf: High INT & VIT / but frail. Best / at magic. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 120,
+    "original": "Race determines base / growth. Gnomes have / high faith & agility. / Suited for Priests. / ",
+    "rewrite": "Gnome: High faith / & agility. Suited / for Priests. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 121,
+    "original": "Race determines base / growth. Dwarves are / slow but strong with / deep faith. Fighters. / ",
+    "rewrite": "Dwarf: Slow but / strong with deep / faith. Fighters. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 122,
+    "original": "Race determines base / growth. Hobbits are / small but agile and / lucky. Born thieves. / ",
+    "rewrite": "Hobbit: Small but / agile and lucky. / Born thieves. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 123,
+    "original": "Good upholds justice / but may turn Evil if / acting unjustly. / Classes: FIG MAG PRI / SAM GIZ BIS KNI ALC / MON / ",
+    "rewrite": "Good=justice. May / turn Evil. FIG MAG / PRI SAM GIZ BIS+ /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 124,
+    "original": "Those without bias / are called Neutral. / Classes: FIG THI MAG / SAM GIZ ALC MON / ",
+    "rewrite": "Neutral=no bias. / FIG THI MAG SAM / GIZ ALC MON /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 125,
+    "original": "Evil favors rest. / Some rarely turn to / Good. Classes: FIG / THI MAG PRI NIN BIS / ALC / ",
+    "rewrite": "Evil=self-serving. / FIG THI MAG PRI / NIN BIS ALC /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 127,
+    "original": "Can reduce trap / difficulty & find / treasure chests. / Learns Sorcery Lv3. / ",
+    "rewrite": "Lowers trap level / & finds chests. / Sorcery Lv3. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 129,
+    "original": "Master of Holy / Magic. Can learn / Dispel vs. undead. / All Holy Magic. / ",
+    "rewrite": "Holy magic master. / Can Dispel undead. / All Holy spells. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_02_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 130,
+    "original": "Excels at earning / EXP. Can instant- / kill foes. Learns / Sorcery up to Lv2. / ",
+    "rewrite": "Great EXP gain. Can / instant-kill foes. / Sorcery up to Lv2. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 131,
+    "original": "Can equip weapons / and armor for knights. / Learns Sorceries / up to Lv5. / ",
+    "rewrite": "Knight gear usable. / Learns Sorcery / up to Lv5. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 132,
+    "original": "Has the ability to / restore HP. / Can learn Dispel / to banish undead. / Learns Sorceries and / Holy Magic up to Lv6. / ",
+    "rewrite": "Restores HP. Dispel / vs undead. Sorc & / Holy Magic Lv6. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 133,
+    "original": "Can equip poleaxe / type weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / ",
+    "rewrite": "Poleaxe weapons. / Dispel vs undead. / Holy Magic Lv5. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 134,
+    "original": "Can handle alchemy. / Learns Sorceries and / Holy Magic up to Lv4. / ",
+    "rewrite": "Handles alchemy. / Sorc & Holy Magic / up to Lv4. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 135,
+    "original": "Can equip longbows. / Lowers trap difficulty / and can steal items. / Learns Sorceries and / Holy Magic up to Lv3. / ",
+    "rewrite": "Longbow user. Lowers / traps, steals items / Sorc+Holy Lv3. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 136,
+    "original": "Can equip staffs / and knuckle weapons. / Can learn Dispel / to banish undead. / Learns Holy Magic / up to Lv5. / ",
+    "rewrite": "Staffs & knuckles. / Dispel vs undead. / Holy Magic Lv5. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 137,
+    "original": "Holy aura slowly / restores party HP. / Can also learn Dispel. / Learns Sorceries and / Holy Magic up to Lv6. / ",
+    "rewrite": "Holy aura heals HP. / Can learn Dispel. / Sorc+Holy Lv6. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 138,
+    "original": "Can remove curses / from equipped items. / Learns Sorceries / up to Lv6. / ",
+    "rewrite": "Removes curses from / equipped items. / Sorcery Lv6. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 139,
+    "original": "Excels at gaining EXP / and instant death atk. / Can also see through / dark fog zones. / Learns Sorceries / up to Lv5. / ",
+    "rewrite": "Great EXP & insta- / kill. Sees in fog. / Sorcery Lv5. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 140,
+    "original": "Can dual wield / weapons of the same / type simultaneously. / Learns Sorceries / up to Lv6. / ",
+    "rewrite": "Dual wields same / weapon type. Learns / Sorcery Lv6. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 141,
+    "original": "Can equip longbows. / Greatly lowers trap / difficulty. Can steal / items from enemies. / Learns Sorceries and / Holy Magic up to Lv4. / ",
+    "rewrite": "Longbow. Best trap / skill. Steals items / Sorc+Holy Lv4. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 143,
+    "original": "Affects Sorcery power / and resistance. / ",
+    "rewrite": "Affects Sorcery / power and / resistance. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 144,
+    "original": "Affects Holy Magic / power and resistance. / ",
+    "rewrite": "Affects Holy Magic / power and / resistance. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_03_translated.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 147,
+    "original": "Affects breath resist / and critical hit / chance. / ",
+    "rewrite": "Affects breath / resist and critical / hit chance. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 39,
+    "msg_index": 75,
+    "original": "Weapons of different / element can't dual wield / ",
+    "rewrite": "Weapons of different / element can't dual / wield /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 14,
+    "original": "30 days have not passed / since last class change. / ",
+    "rewrite": "30 days have not / passed since last / class change. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 15,
+    "original": "Delete from registry. / This cannot be undone. / ",
+    "rewrite": "Delete from / registry. This / cannot be undone. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 43,
+    "original": "Cannot change class / while gear is in use. / ",
+    "rewrite": "Cannot change class / while gear is in / use. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 45,
+    "original": "Stats and alignment / don't match. No change. / ",
+    "rewrite": "Stats and alignment / don't match. No / change. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 53,
+    "original": "Summoned via registry. / ",
+    "rewrite": "Summoned via / registry. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 1,
+    "original": "This is Salem Church. / What business brings / you here? / ",
+    "rewrite": "Salem Church. What / business brings you / here? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 2,
+    "original": "Welcome to Salem Church. / It seems you need / divine aid. / ",
+    "rewrite": "Welcome to Salem / Church. It seems you / need divine aid. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 5,
+    "original": "You dare seek God's / power without offering! / Begone, heretic! / ",
+    "rewrite": "No offering, no / divine power! / Begone, heretic! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_04_translated.json",
+    "dir": "translate_chunks",
+    "resource": 42,
+    "msg_index": 6,
+    "original": "Did you rest well? / Good rest fuels the / days ahead. Visit again. / ",
+    "rewrite": "Rest well? Good rest / fuels tomorrow. / Visit again. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 36,
+    "original": "This is yer /storage. /  / ",
+    "rewrite": "This is yer / /storage. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 38,
+    "original": "Whose items /d'ya wanna store? /  / ",
+    "rewrite": "Whose items /d'ya / wanna store? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 40,
+    "original": "Whose item to /identify? /  / ",
+    "rewrite": "Whose item to / /identify? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 41,
+    "original": "Which one to /identify? /  / ",
+    "rewrite": "Which one to / /identify? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 43,
+    "original": "There! Now ya know /what it is. /Feels good, eh? / ",
+    "rewrite": "There! Now ya know / /what it is. /Feels / good, eh? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 44,
+    "original": "Who's the poor /soul that got /cursed?? / ",
+    "rewrite": "Who's the poor /soul / that got /cursed?? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 45,
+    "original": "Which curse /should I remove? /  / ",
+    "rewrite": "Which curse /should / I remove? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 46,
+    "original": "Want it uncursed? /Bein' cursed all /the time hurts, eh? / ",
+    "rewrite": "Want it uncursed? / Bein' cursed all / the time hurts! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 47,
+    "original": "There! Curse is /gone now. /Feels good, eh? / ",
+    "rewrite": "There! Curse is / /gone now. /Feels / good, eh? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 48,
+    "original": "Ohhh, I'm the /uncursin' superstar /around here! / ",
+    "rewrite": "Ohhh, I'm the / /uncursin' superstar / /around here! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 49,
+    "original": "Right then. /Here's the latest /Vigger Shop info. / ",
+    "rewrite": "Right then. /Here's / the latest /Vigger / Shop info. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 50,
+    "original": "Wanna invest in /our Vigger Shop? /  / ",
+    "rewrite": "Wanna invest in /our / Vigger Shop? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 51,
+    "original": "I'll make yer /storage bigger~! /  / ",
+    "rewrite": "I'll make yer / /storage bigger~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 52,
+    "original": "Build a branch /of our Vigger Shop? /I see, I see~! / ",
+    "rewrite": "Build a branch /of / our Vigger Shop? /I / see, I see~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 53,
+    "original": "Renovate and /reopen the branch? /  / ",
+    "rewrite": "Renovate and /reopen / the branch? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 54,
+    "original": "Relocate the /branch store? / ",
+    "rewrite": "Relocate the /branch / store? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 55,
+    "original": "Expand now and /you can store up /to 20 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 20 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 56,
+    "original": "Expand now and /you can store up /to 30 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 30 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 57,
+    "original": "Expand now and /you can store up /to 40 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 40 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 58,
+    "original": "Expand now and /you can store up /to 50 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 50 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 59,
+    "original": "Expand now and /you can store up /to 60 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 60 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 60,
+    "original": "Expand now and /you can store up /to 70 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 70 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 61,
+    "original": "Expand now and /you can store up /to 80 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 80 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 62,
+    "original": "Expand now and /you can store up /to 90 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 90 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 63,
+    "original": "Expand now and /you can store up /to 100 items~! / ",
+    "rewrite": "Expand now and /you / can store up /to 100 / items~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 64,
+    "original": "Hey, you! /Ya don't have /enough gold! / ",
+    "rewrite": "Hey, you! /Ya don't / have /enough gold! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 65,
+    "original": "Where should we /open it? /  / ",
+    "rewrite": "Where should we / /open it? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 66,
+    "original": "Our dream branch /is finally here~! /  / ",
+    "rewrite": "Our dream branch /is / finally here~! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 67,
+    "original": "If we can always /buy stuff, managin' /inventory's easy! / ",
+    "rewrite": "If we can always / /buy stuff, managin' / /inventory's easy! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 68,
+    "original": "I'll send yer /stuff to storage /anytime! Thank me! / ",
+    "rewrite": "I'll send yer /stuff / to storage /anytime! / Thank me! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 69,
+    "original": "Hold various /events and clients /won't get bored! / ",
+    "rewrite": "Hold various /events / and clients /won't / get bored! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 70,
+    "original": "Rest anytime, /even when beat up! /No levels tho. / ",
+    "rewrite": "Rest anytime, /even / when beat up! /No / levels tho. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 71,
+    "original": "The branch keeps /gettin' fancier! /  / ",
+    "rewrite": "The branch keeps / /gettin' fancier! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 73,
+    "original": "Hope relocatin' /brings in more /customers! / ",
+    "rewrite": "Hope relocatin' / /brings in more / /customers! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 75,
+    "original": "Send 'em out /to explore? /  / ",
+    "rewrite": "Send 'em out /to / explore? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 81,
+    "original": "Deliver and /complete order? / ",
+    "rewrite": "Deliver and / /complete order? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 83,
+    "original": "Introduce this /order to allies? / ",
+    "rewrite": "Introduce this / /order to allies? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 91,
+    "original": "Curse broken but /item survived! / ",
+    "rewrite": "Curse broken but / /item survived! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 109,
+    "original": "It's equipped. /Sell anyway? / ",
+    "rewrite": "It's equipped. /Sell / anyway? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 111,
+    "original": "Can't remove /due to curse! / ",
+    "rewrite": "Can't remove /due to / curse! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 112,
+    "original": "Dunno what this /is, so I'll only /pay 10g for it. / ",
+    "rewrite": "Dunno what this /is, / so I'll only /pay / 10g for it. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 113,
+    "original": "Unequip it. /Is that okay? / ",
+    "rewrite": "Unequip it. /Is that / okay? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 125,
+    "original": "No items in /storage. / ",
+    "rewrite": "No items in / /storage. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 134,
+    "original": "Adv. Goods /Buyback Lifted! / ",
+    "rewrite": "Adv. Goods /Buyback / Lifted! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 135,
+    "original": "Cursed Equip /Buyback Lifted! / ",
+    "rewrite": "Cursed Equip / /Buyback Lifted! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 136,
+    "original": "Equip Buyback /Lifted! / ",
+    "rewrite": "Equip Buyback / /Lifted! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 137,
+    "original": "Recovery Item /Buyback Lifted! / ",
+    "rewrite": "Recovery Item / /Buyback Lifted! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 138,
+    "original": "Item Buyback /Lifted! / ",
+    "rewrite": "Item Buyback / /Lifted! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_06_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 139,
+    "original": "No orders to /accept. / ",
+    "rewrite": "No orders to / /accept. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 46,
+    "msg_index": 1,
+    "original": "A bulletin board / has been set up for / the citizens of / Duhan to exchange /   / opinions. To leave / a message, fill out / the form and drop / it in the box. / ",
+    "rewrite": "Bulletin board for / Duhan citizens to / share opinions. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 46,
+    "msg_index": 2,
+    "original": "This is Miri, who / posted the request / for the Kreta / stone. Never mind. /   / Someone else gave / it to me already. / Request canceled. / Thanks! / ",
+    "rewrite": "Miri here. Never / mind the Kreta / stone request. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 46,
+    "msg_index": 3,
+    "original": "You know the / Self-Seraph Shop / in the labyrinth? / They sell a strange /   / key there. What / does it unlock? / Has anyone bought / one yet? / ",
+    "rewrite": "Self-Seraph Shop / sells a strange key / What's it unlock? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 46,
+    "msg_index": 4,
+    "original": "The Vigger Shop / is looking for / part-time workers! /   / This is posted on / the board, not as / a request, so / everyone can see. / ",
+    "rewrite": "Vigger Shop seeks / part-time workers! / All are welcome! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 46,
+    "msg_index": 5,
+    "original": "The Vigger Shop / has lots of orcs / working there. Do / they accept orcs / as part-timers too? / ",
+    "rewrite": "Vigger Shop has / many orcs. Do they / hire orc workers? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 46,
+    "msg_index": 6,
+    "original": "A friendly orc who / fits in with the / town is welcome! /   / We have 3 orcs / already. Same race, / they'll get along / just fine! / ",
+    "rewrite": "Friendly orcs are / welcome! We have 3 / already. Join us! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 46,
+    "msg_index": 7,
+    "original": "I went exploring / on the 4th floor, / got haunted by the / Grim Reaper, got /   / lost... it was a / disaster. But I / stumbled into a / room where a Hobbit /   / and an Imp lived. / Odd folks, but they / gave me a cure. / Nice people! / ",
+    "rewrite": "Got lost on 4F, met / a Hobbit & Imp who / gave me a cure. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 47,
+    "msg_index": 5,
+    "original": "Surprised the monsters! / ",
+    "rewrite": "Surprised the / monsters! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_07_translated.json",
+    "dir": "translate_chunks",
+    "resource": 47,
+    "msg_index": 7,
+    "original": "Ambushed by monsters! / ",
+    "rewrite": "Ambushed by / monsters! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 37,
+    "original": "Neighborhood\nRecycling Shop / ",
+    "rewrite": "Neighborhood / Recycling Shop /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 38,
+    "original": "Neighborhood\nDumping Ground / ",
+    "rewrite": "Neighborhood Dumping / Ground /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 39,
+    "original": "Neighborhood\nDisposal Site / ",
+    "rewrite": "Neighborhood / Disposal Site /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 40,
+    "original": "Neighborhood Waste\nIncineration / ",
+    "rewrite": "Neighborhood Waste / Incineration /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 41,
+    "original": "Neighborhood\nGarbage Dump / ",
+    "rewrite": "Neighborhood Garbage / Dump /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 47,
+    "original": "Neighborhood\nRecycling Shop / ",
+    "rewrite": "Neighborhood / Recycling Shop /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 48,
+    "original": "Settlement\nDumping Ground / ",
+    "rewrite": "Settlement Dumping / Ground /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 49,
+    "original": "Settlement\nDisposal Site / ",
+    "rewrite": "Settlement Disposal / Site /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 50,
+    "original": "Settlement Waste\nIncineration / ",
+    "rewrite": "Settlement Waste / Incineration /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 51,
+    "original": "Settlement\nGarbage Dump / ",
+    "rewrite": "Settlement Garbage / Dump /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 58,
+    "original": "Settlement\nRecycling Shop / ",
+    "rewrite": "Settlement Recycling / Shop /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 59,
+    "original": "Illegal\nDumping Ground / ",
+    "rewrite": "Illegal Dumping / Ground /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 61,
+    "original": "Waste\nIncineration Plant / ",
+    "rewrite": "Waste Incineration / Plant /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 62,
+    "original": "Oversized\nGarbage Dump / ",
+    "rewrite": "Oversized Garbage / Dump /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 66,
+    "original": "Neighborhood\nRecycling Shop / ",
+    "rewrite": "Neighborhood / Recycling Shop /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 67,
+    "original": "Settlement\nDumping Ground / ",
+    "rewrite": "Settlement Dumping / Ground /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 68,
+    "original": "Settlement\nDisposal Site / ",
+    "rewrite": "Settlement Disposal / Site /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 69,
+    "original": "Settlement Waste\nIncineration / ",
+    "rewrite": "Settlement Waste / Incineration /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 70,
+    "original": "Settlement\nGarbage Dump / ",
+    "rewrite": "Settlement Garbage / Dump /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 76,
+    "original": "Settlement\nRecycling Shop / ",
+    "rewrite": "Settlement Recycling / Shop /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 77,
+    "original": "Illegal\nDumping Ground / ",
+    "rewrite": "Illegal Dumping / Ground /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 79,
+    "original": "Waste\nIncineration Plant / ",
+    "rewrite": "Waste Incineration / Plant /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 80,
+    "original": "Oversized\nGarbage Dump / ",
+    "rewrite": "Oversized Garbage / Dump /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 84,
+    "original": "Trashed Up\nVacant Lots / ",
+    "rewrite": "Trashed Up Vacant / Lots /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 88,
+    "original": "Neighborhood\nRecycling Shop / ",
+    "rewrite": "Neighborhood / Recycling Shop /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 89,
+    "original": "Illegal\nDumping Ground / ",
+    "rewrite": "Illegal Dumping / Ground /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 91,
+    "original": "Waste\nIncineration Plant / ",
+    "rewrite": "Waste Incineration / Plant /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 92,
+    "original": "Oversized\nGarbage Dump / ",
+    "rewrite": "Oversized Garbage / Dump /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 93,
+    "original": "Trashed Up\nVacant Lots / ",
+    "rewrite": "Trashed Up Vacant / Lots /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 97,
+    "original": "Neighborhood\nRecycling Shop / ",
+    "rewrite": "Neighborhood / Recycling Shop /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 98,
+    "original": "Illegal\nDumping Ground / ",
+    "rewrite": "Illegal Dumping / Ground /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 100,
+    "original": "Waste\nIncineration Plant / ",
+    "rewrite": "Waste Incineration / Plant /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 101,
+    "original": "Oversized\nGarbage Dump / ",
+    "rewrite": "Oversized Garbage / Dump /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 102,
+    "original": "Trashed Up\nVacant Lots / ",
+    "rewrite": "Trashed Up Vacant / Lots /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 48,
+    "msg_index": 106,
+    "original": "Neighborhood\nRecycling Shop / ",
+    "rewrite": "Neighborhood / Recycling Shop /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 1,
+    "original": "Can't open from\nthis side. / ",
+    "rewrite": "Can't open from this / side. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 2,
+    "original": "A fragile,\ncrumbling wall. / ",
+    "rewrite": "A fragile, crumbling / wall. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 3,
+    "original": "The switch is off. / Turned the\nswitch on. / ",
+    "rewrite": "The switch is off. / Turned the switch / on. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 4,
+    "original": "The switch is on. / Turned the\nswitch off. / ",
+    "rewrite": "The switch is on. / Turned the switch / off. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 6,
+    "original": "A loaded mine\ncart is here. / ",
+    "rewrite": "A loaded mine cart / is here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 7,
+    "original": "The bridge is\nraised. No way\nacross. / ",
+    "rewrite": "The bridge is / raised. No way / across. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 8,
+    "original": "A large boulder\nblocks the path. / ",
+    "rewrite": "A large boulder / blocks the path. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 9,
+    "original": "Cargo blocks\nthe way. / ",
+    "rewrite": "Cargo blocks the / way. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 10,
+    "original": "Collapsed cargo\nlies scattered. / ",
+    "rewrite": "Collapsed cargo lies / scattered. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 11,
+    "original": "An old barrel\nleft abandoned. / ",
+    "rewrite": "An old barrel left / abandoned. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 12,
+    "original": "A skeleton lies\nbefore you. / ",
+    "rewrite": "A skeleton lies / before you. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 13,
+    "original": "A skeleton lies\nat your feet. / ",
+    "rewrite": "A skeleton lies at / your feet. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 14,
+    "original": "A skeleton leans\nagainst the wall. / ",
+    "rewrite": "A skeleton leans / against the wall. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 15,
+    "original": "A goddess statue\nis displayed. / ",
+    "rewrite": "A goddess statue is / displayed. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 16,
+    "original": "A half-broken\nstatue is here. / ",
+    "rewrite": "A half-broken statue / is here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 18,
+    "original": "The wall has\ncrumbled. / ",
+    "rewrite": "The wall has / crumbled. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 19,
+    "original": "Rubble blocks\nthe path. / ",
+    "rewrite": "Rubble blocks the / path. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 20,
+    "original": "A broken doll\nlies discarded. / ",
+    "rewrite": "A broken doll lies / discarded. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 21,
+    "original": "A huge statue\nhangs suspended. / ",
+    "rewrite": "A huge statue hangs / suspended. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 22,
+    "original": "A huge statue\nhangs suspended. / ",
+    "rewrite": "A huge statue hangs / suspended. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 23,
+    "original": "An equestrian\nstatue is here. / ",
+    "rewrite": "An equestrian statue / is here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 24,
+    "original": "A wall blocks\nthe path. / ",
+    "rewrite": "A wall blocks the / path. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 25,
+    "original": "An oddly shaped\nwall is here. / ",
+    "rewrite": "An oddly shaped wall / is here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 26,
+    "original": "Some device is\nset on the fence. / ",
+    "rewrite": "Some device is set / on the fence. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 27,
+    "original": "Spring water has\npooled here. / ",
+    "rewrite": "Spring water has / pooled here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 28,
+    "original": "Dead end above.\nCan't go up. / ",
+    "rewrite": "Dead end above. / Can't go up. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 29,
+    "original": "There are stairs\nhere. / ",
+    "rewrite": "There are stairs / here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 30,
+    "original": "A device to move\nthe stairs. / ",
+    "rewrite": "A device to move the / stairs. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 31,
+    "original": "A large grave\nstands here. / ",
+    "rewrite": "A large grave stands / here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 32,
+    "original": "A device next to\nthe grave. / ",
+    "rewrite": "A device next to the / grave. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 33,
+    "original": "A hole big\nenough to jump\ninto. / ",
+    "rewrite": "A hole big enough to / jump into. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 34,
+    "original": "Open the\ntreasure chest? / ",
+    "rewrite": "Open the treasure / chest? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_08_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 37,
+    "original": "Left the chest\nalone. / ",
+    "rewrite": "Left the chest / alone. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 62,
+    "original": "Climb down the ladder? / ",
+    "rewrite": "Climb down the / ladder? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 67,
+    "original": "Debris blocks the way. / ",
+    "rewrite": "Debris blocks the / way. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 77,
+    "original": "Flames block the way. / ",
+    "rewrite": "Flames block the / way. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 78,
+    "original": "Stairs in the distance. / ",
+    "rewrite": "Stairs in the / distance. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 86,
+    "original": "An adventurer's corpse / lies by the rubble. / ",
+    "rewrite": "An adventurer's / corpse lies by the / rubble. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 92,
+    "original": "The air feels / especially heavy here. / ",
+    "rewrite": "The air feels / especially heavy / here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 93,
+    "original": "There is a water jug. / ",
+    "rewrite": "There is a water / jug. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 1,
+    "original": "2 front row members / time their strikes on / 1 enemy together, / dealing heavy damage. / ",
+    "rewrite": "2 front row strike / 1 enemy together / for heavy damage. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 2,
+    "original": "Channel back row / magic into front row / weapons to attack. / Hits limited to 1, / but greatly improves / hit rate vs high / evasion enemies. / ",
+    "rewrite": "Back magic boosts / front weapons. 1 hit / but high accuracy. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 3,
+    "original": "Back row magic stuns / the enemy, letting the / front row attack. / Hits limited to 1, / but effective against / high evasion foes. / ",
+    "rewrite": "Back magic stuns foe / for front attack. / 1 hit, high acc. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 4,
+    "original": "Back row magic lifts / front row into the / air to jump attack at / turn's end. Hits are / limited to 1, but can / bypass enemy DEF. / ",
+    "rewrite": "Back magic lifts / front for jump atk. / 1 hit, no DEF. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 5,
+    "original": "2 adjacent front row / members strike both / enemy front and back / rows in sync. Hits / limited to 1, but / always connects. / ",
+    "rewrite": "2 front hit both / enemy rows in sync. / 1 hit, no miss. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 6,
+    "original": "2 back row cross their / magic to seal enemy / movement, then 2 / front row strike / together. Effective / vs high EVA/HP foes. / ",
+    "rewrite": "2 back seal foe, / 2 front strike. vs / high EVA/HP foes. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 7,
+    "original": "All front row take a / defensive stance, / boosting EVA and DEF. / Blocks status effects / and enemy RUSH. / ",
+    "rewrite": "All front defend. / Boosts EVA & DEF. / Blocks status+RUSH /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 8,
+    "original": "2 back row activate / magic to create a / barrier. Reduces / magic damage and / boosts RES rate. / ",
+    "rewrite": "2 back cast barrier. / Cuts magic damage, / boosts RES rate. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 9,
+    "original": "All back row activate / magic to cover the / field with a strong / barrier. Neither side / can cast spells / this turn. / ",
+    "rewrite": "All back cast strong / barrier. No spells / from either side. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 10,
+    "original": "All back row create / mirror images for the / party. Images vanish / when hit, but / protect the real / body from damage. / ",
+    "rewrite": "All back make decoy / images. Images take / hits for party. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 11,
+    "original": "All party members / scatter to reduce / breath and magic / damage. However, / normal attack damage / taken increases. / ",
+    "rewrite": "Party scatters to / cut breath+magic dmg / Phys dmg rises. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 12,
+    "original": "All party members / take evasive stance, / greatly boosting EVA / and DEF vs physical / attacks. Breath and / magic damage up. / ",
+    "rewrite": "Party evades. Big / EVA/DEF boost, but / magic dmg goes up. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 13,
+    "original": "When a guarded front / row member is hit, / back row intercepts / with ranged attacks. / Triggers each time / the target is hit. / ",
+    "rewrite": "When front is hit, / back counters with / ranged attacks. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 14,
+    "original": "Before allies attack, / all back row fire / ranged shots to boost / hit rate. / ",
+    "rewrite": "All back fire first / to boost front row / hit rate. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 15,
+    "original": "When an enemy tries / to cast a spell, back / row attacks to cancel / it. Limited uses / per turn. / ",
+    "rewrite": "Back attacks to / cancel enemy spells. / Limited per turn. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 16,
+    "original": "When an enemy tries / to use breath, back / row attacks to cancel / it. Limited uses / per turn. / ",
+    "rewrite": "Back attacks to / cancel enemy breath / Limited per turn. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 17,
+    "original": "When a guarded back / row member is hit, / front row takes the / blow instead. Also / blocks enemy ranged / attacks. / ",
+    "rewrite": "Front takes hits for / guarded back row. / Blocks ranged too. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 18,
+    "original": "Decoy retreats when / attacked, others / flank and intercept / enemy coordinated / attacks. Limited / uses per turn. / ",
+    "rewrite": "Decoy retreats, / others flank to / stop enemy combos. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 19,
+    "original": "3 back row activate / magic to expand spell / range. Also lowers / enemy spell resist / and boosts spell / power. / ",
+    "rewrite": "3 back expand spell / range. Lowers foe / resist+boosts pow. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 20,
+    "original": "All back row channel / magic to dispel. / Cures party's Mute / status, and breaks / enemy Magic Shell / and Anti-Magic Shell. / ",
+    "rewrite": "All back dispel. / Cures Mute, breaks / foe magic shells. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 21,
+    "original": "2 adjacent back row / members cast the same / spell in small doses / to speed up casting. / Faster than breaking / Anti-Magic Shell. / ",
+    "rewrite": "2 back cast same / spell in doses for / faster casting. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 22,
+    "original": "Back row enchants an / ally's weapon with / magic. If the attack / hits, it bypasses / enemy spell resist / and Magic Shell. / ",
+    "rewrite": "Back enchants wpn. / Hit bypasses foe / resist & Mag Shell /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 23,
+    "original": "2 back row cast the / same spell together / to greatly boost its / power. / ",
+    "rewrite": "2 back cast same / spell together for / big power boost. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 24,
+    "original": "3 front row attack 1 / enemy in sequence, / each hit dealing more / damage than the last. / The 3rd strike deals / the most damage. / ",
+    "rewrite": "3 front hit 1 foe / in sequence. Each / hit does more dmg. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 25,
+    "original": "1 front row acts as / decoy. After being / attacked, the other / 2 sneak behind the / enemy to strike. / Hit rate and damage / greatly increased. / ",
+    "rewrite": "1 front decoys, / 2 sneak behind foe. / High acc & dmg. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 26,
+    "original": "An evolved version of / Stun Smash. 1 member / lifts the enemy into / the air with full / force, then strikes / as they fall for / heavy damage. / ",
+    "rewrite": "Lift foe into air / then strike as they / fall. Big damage. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 27,
+    "original": "All party members / attack all enemies. / Cannot be evaded / unless blocked by / Front Guard. / ",
+    "rewrite": "All attack all foes. / Can't dodge unless / Front Guard active /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 28,
+    "original": "2 front row feint / while 1 aims for the / enemy's weak point. / All hits limited to / 1, but 3rd member's / crit rate is greatly / increased. / ",
+    "rewrite": "2 front feint, 1 / aims weak point. / Crit rate way up. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 29,
+    "original": "2 members form a Holy / Symbol and perform a / powerful Dispel. / Very effective / against the undead. / ",
+    "rewrite": "2 form Holy Symbol / for powerful Dispel / Strong vs undead. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 30,
+    "original": "1 back row opens a / Warp Gate. 3 front / row jump through and / attack from above at / turn's end. Bypasses / enemy DEF. Airborne / allies can't be hit. / ",
+    "rewrite": "1 back warps 3 front / to atk from above. / Ignores DEF. Safe /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 31,
+    "original": "An evolved Slay Crash / from a Monk's bond. / 2 members charge / through the enemy, / dealing damage on / the way through. Can / also hit undead. / ",
+    "rewrite": "2 charge through / foe for damage. / Hits undead too. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_09_translated.json",
+    "dir": "translate_chunks",
+    "resource": 2654,
+    "msg_index": 32,
+    "original": "An evolved W-Slash / from a bond. 2 front / row swing weapons to / create a sonic wave / that can also damage / enemies behind the / target. / ",
+    "rewrite": "2 front swing to / make a sonic wave / hits foes behind. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_extra.json",
+    "dir": "translate_chunks",
+    "resource": 37,
+    "msg_index": 19,
+    "original": "ABCDEFGHIJ / KLMNOPQRST / UVWXYZ.,!? / abcdefghij / klmnopqrst / uvwxyz -'  /           /           /           /           / ",
+    "rewrite": "ABCDEFGHIJ / KLMNOPQRST / UVWXYZ.,!? / abcdefghij / klmnopqrst / uvwxyz -'  /           /           /           /           / ",
+    "auto": true,
+    "note": "keyboard grid - no rewrite needed"
+  },
+  {
+    "file": "chunk_r37_extra.json",
+    "dir": "translate_chunks",
+    "resource": 37,
+    "msg_index": 20,
+    "original": "abcdefghij / klmnopqrst / uvwxyz.,!? / ABCDEFGHIJ / KLMNOPQRST / UVWXYZ -'  /           /           /           /           / ",
+    "rewrite": "abcdefghij / klmnopqrst / uvwxyz.,!? / ABCDEFGHIJ / KLMNOPQRST / UVWXYZ -'  /           /           /           /           / ",
+    "auto": true,
+    "note": "keyboard grid - no rewrite needed"
+  },
+  {
+    "file": "chunk_r37_extra.json",
+    "dir": "translate_chunks",
+    "resource": 37,
+    "msg_index": 21,
+    "original": "1234567890 / +=#$&@*^~! / <>(){}[]|_ / :;,.?!'\"-%  /           /           /           /           /           /           / ",
+    "rewrite": "1234567890 / +=#$&@*^~! / <>(){}[]|_ / :;,.?!'\"-%  /           /           /           /           /           /           / ",
+    "auto": true,
+    "note": "keyboard grid - no rewrite needed"
+  },
+  {
+    "file": "chunk_r37_extra.json",
+    "dir": "translate_chunks",
+    "resource": 37,
+    "msg_index": 124,
+    "original": "Press O or X button / to confirm your choices. / ",
+    "rewrite": "Press O or X button / to confirm your / choices. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_r48_r49_translated.json",
+    "dir": "translate_chunks",
+    "resource": 37,
+    "msg_index": 2,
+    "original": "enter a name. / m name, f name: auto-fill / ",
+    "rewrite": "enter a name. m / name, f name: auto- / fill /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_r48_r49_translated.json",
+    "dir": "translate_chunks",
+    "resource": 37,
+    "msg_index": 7,
+    "original": "allocate stat points. / ",
+    "rewrite": "allocate stat / points. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_r48_r49_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 1,
+    "original": "nothing unusual here. / ",
+    "rewrite": "nothing unusual / here. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_r48_r49_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 4,
+    "original": "the switch is off. / the switch was turned on. / ",
+    "rewrite": "the switch is off. / the switch was / turned on. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_r48_r49_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 5,
+    "original": "the switch is on. / the switch was turned off. / ",
+    "rewrite": "the switch is on. / the switch was / turned off. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_r48_r49_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 62,
+    "original": "climb up the ladder? / confirm: o  cancel: x / ",
+    "rewrite": "climb up the ladder? / confirm: o  cancel: / x /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_r48_r49_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 63,
+    "original": "climb down ladder? / confirm: o  cancel: x / ",
+    "rewrite": "climb down ladder? / confirm: o  cancel: / x /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r37_r48_r49_translated.json",
+    "dir": "translate_chunks",
+    "resource": 49,
+    "msg_index": 69,
+    "original": "used the key. / the rusty key crumbled. / ",
+    "rewrite": "used the key. the / rusty key crumbled. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 87,
+    "original": "bores easily. / return to town often. / ",
+    "rewrite": "bores easily. return / to town often. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 89,
+    "original": "lives to hoard gold. / angry if loot is low. / ",
+    "rewrite": "lives to hoard gold. / angry if loot is / low. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 107,
+    "original": "hates bloodshed. / mourns fallen allies. / ",
+    "rewrite": "hates bloodshed. / mourns fallen / allies. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 117,
+    "original": "gender affects base / stats and growth. / men are strong, / women are wise. / ",
+    "rewrite": "Gender sets base / stats. Men=strong, / women=wise. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 118,
+    "original": "race determines base / growth. humans have / high faith & balanced / stats overall. / ",
+    "rewrite": "Human: High faith / & balanced stats / overall. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 119,
+    "original": "race determines base / growth. elves excel / in int & vit but are / weak. best at magic. / ",
+    "rewrite": "Elf: High INT & VIT / but frail. Best / at magic. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 120,
+    "original": "race determines base / growth. gnomes have / high faith & agility. / suited for priests. / ",
+    "rewrite": "Gnome: High faith / & agility. Suited / for Priests. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 121,
+    "original": "race determines base / growth. dwarves are / slow but strong with / deep faith. fighters. / ",
+    "rewrite": "Dwarf: Slow but / strong with deep / faith. Fighters. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 122,
+    "original": "race determines base / growth. hobbits are / small but agile and / lucky. born thieves. / ",
+    "rewrite": "Hobbit: Small but / agile and lucky. / Born thieves. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 123,
+    "original": "good upholds justice / but may turn evil if / acting unjustly. / classes: fig mag pri / sam giz bis kni alc / mon / ",
+    "rewrite": "Good=justice. May / turn Evil. FIG MAG / PRI SAM GIZ BIS+ /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 124,
+    "original": "those without bias / are called neutral. / classes: fig thi mag / sam giz alc mon / ",
+    "rewrite": "Neutral=no bias. / FIG THI MAG SAM / GIZ ALC MON /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 125,
+    "original": "evil favors rest. / some rarely turn to / good. classes: fig / thi mag pri nin bis / alc / ",
+    "rewrite": "Evil=self-serving. / FIG THI MAG PRI / NIN BIS ALC /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 127,
+    "original": "can reduce trap / difficulty & find / treasure chests. / learns sorcery lv3. / ",
+    "rewrite": "Lowers trap level / & finds chests. / Sorcery Lv3. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 129,
+    "original": "master of holy / magic. can learn / dispel vs. undead. / all holy magic. / ",
+    "rewrite": "Holy magic master. / Can Dispel undead. / All Holy spells. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 130,
+    "original": "excels at earning / exp. can instant- / kill foes. learns / sorcery up to lv2. / ",
+    "rewrite": "Great EXP gain. Can / instant-kill foes. / Sorcery up to Lv2. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 131,
+    "original": "can equip weapons / and armor for knights. / learns sorcery / up to lv5. / ",
+    "rewrite": "Knight gear usable. / Learns Sorcery / up to Lv5. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 132,
+    "original": "has the ability to / restore hp. / can learn dispel / to banish undead. / learns sorcery and / holy magic up to lv6. / ",
+    "rewrite": "Restores HP. Dispel / vs undead. Sorc & / Holy Magic Lv6. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 133,
+    "original": "can equip poleaxe / type weapons. / can learn dispel / to banish undead. / learns holy magic / up to lv5. / ",
+    "rewrite": "Poleaxe weapons. / Dispel vs undead. / Holy Magic Lv5. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 134,
+    "original": "can handle alchemy. / learns sorcery and / holy magic up to lv4. / ",
+    "rewrite": "Handles alchemy. / Sorc & Holy Magic / up to Lv4. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 135,
+    "original": "can equip longbows. / lowers trap difficulty / and can steal items. / learns sorcery and / holy magic up to lv3. / ",
+    "rewrite": "Longbow user. Lowers / traps, steals items / Sorc+Holy Lv3. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 136,
+    "original": "can equip staffs / and knuckle weapons. / can learn dispel / to banish undead. / learns holy magic / up to lv5. / ",
+    "rewrite": "Staffs & knuckles. / Dispel vs undead. / Holy Magic Lv5. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 137,
+    "original": "holy aura slowly / restores party hp. / can also learn dispel. / learns sorcery and / holy magic up to lv6. / ",
+    "rewrite": "Holy aura heals HP. / Can learn Dispel. / Sorc+Holy Lv6. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 138,
+    "original": "can remove curses / from equipped items. / learns sorcery / up to lv6. / ",
+    "rewrite": "Removes curses from / equipped items. / Sorcery Lv6. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 139,
+    "original": "excels at gaining exp / and instant death atk. / can also see through / dark fog zones. / learns sorcery / up to lv5. / ",
+    "rewrite": "Great EXP & insta- / kill. Sees in fog. / Sorcery Lv5. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 140,
+    "original": "can dual wield / weapons of the same / type simultaneously. / learns sorcery / up to lv6. / ",
+    "rewrite": "Dual wields same / weapon type. Learns / Sorcery Lv6. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 141,
+    "original": "can equip longbows. / greatly lowers trap / difficulty. can steal / items from enemies. / learns sorcery and / holy magic up to lv4. / ",
+    "rewrite": "Longbow. Best trap / skill. Steals items / Sorc+Holy Lv4. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 143,
+    "original": "affects sorcery power / and resistance. / ",
+    "rewrite": "affects sorcery / power and / resistance. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 144,
+    "original": "affects holy magic / power and resistance. / ",
+    "rewrite": "affects holy magic / power and / resistance. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r38_fix.json",
+    "dir": "translate_chunks",
+    "resource": 38,
+    "msg_index": 147,
+    "original": "affects breath resist / and critical hit / chance. / ",
+    "rewrite": "affects breath / resist and critical / hit chance. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 15,
+    "original": "30 days have not passed / since the last class change.",
+    "rewrite": "30 days have not / passed since the / last class change. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 16,
+    "original": "delete from registry. / this cannot be undone.",
+    "rewrite": "delete from / registry. this / cannot be undone. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 22,
+    "original": "the leader cannot leave the party.",
+    "rewrite": "the leader cannot / leave the party. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 25,
+    "original": "same class as current / is selected.",
+    "rewrite": "same class as / current is selected. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 39,
+    "original": "sort by highest level.",
+    "rewrite": "sort by highest / level. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 40,
+    "original": "sort by lowest level.",
+    "rewrite": "sort by lowest / level. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 42,
+    "original": "select a class to change to.",
+    "rewrite": "select a class to / change to. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 43,
+    "original": "all equipment will be removed.",
+    "rewrite": "all equipment will / be removed. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 44,
+    "original": "cannot change class while / equipment is in use. unequip first.",
+    "rewrite": "Can't change class / with gear on. / Unequip first. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 45,
+    "original": "press l1 or r1 to / skip to final result.",
+    "rewrite": "press l1 or r1 to / skip to final / result. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 46,
+    "original": "stats and alignment do not / match. cannot change class.",
+    "rewrite": "stats and alignment / do not match. cannot / change class. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 47,
+    "original": "leader cannot move. / cannot remove members.",
+    "rewrite": "leader cannot move. / cannot remove / members. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 53,
+    "original": "this is the party leader.",
+    "rewrite": "this is the party / leader. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 54,
+    "original": "recruited from the registry.",
+    "rewrite": "recruited from the / registry. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 40,
+    "msg_index": 57,
+    "original": "automata without a heart have / no trust or party rank.",
+    "rewrite": "automata without a / heart have no trust / or party rank. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 2,
+    "original": "this is the church of salem. / what business do you / have here?",
+    "rewrite": "Salem Church. What / business do you / have here? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 3,
+    "original": "welcome to the church / of salem. it seems you / need our help.",
+    "rewrite": "Welcome to Salem / Church. Looks like / you need our help. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 5,
+    "original": "then we shall accept / the offering the church / requires.",
+    "rewrite": "then we shall accept / the offering the / church requires. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 6,
+    "original": "you dare beg for divine / aid without a proper tithe! / begone, heretic! ",
+    "rewrite": "No tithe, no divine / aid! Begone, / heretic! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 7,
+    "original": "without an offering / to the gods, you shall / surely be punished.",
+    "rewrite": "Without offering / to the gods, you / will be punished. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 8,
+    "original": "without an offering / to the gods, you shall / surely be punished.",
+    "rewrite": "Without offering / to the gods, you / will be punished. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 9,
+    "original": "without an offering / to the gods, you shall / surely be punished.",
+    "rewrite": "Without offering / to the gods, you / will be punished. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 10,
+    "original": "without an offering / to the gods, you shall / surely be punished.",
+    "rewrite": "Without offering / to the gods, you / will be punished. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 11,
+    "original": "without an offering / to the gods, you shall / surely be punished.",
+    "rewrite": "Without offering / to the gods, you / will be punished. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 12,
+    "original": "without an offering / to the gods, you shall / surely be punished.",
+    "rewrite": "Without offering / to the gods, you / will be punished. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 13,
+    "original": "without an offering / to the gods, you shall / surely be punished.",
+    "rewrite": "Without offering / to the gods, you / will be punished. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 41,
+    "msg_index": 14,
+    "original": "whenever you need / our help, bring an / offering and come see us.",
+    "rewrite": "Need our help? Bring / an offering and / come see us. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 42,
+    "msg_index": 2,
+    "original": "welcome to the inn. / a place to rest your / body and gain strength.",
+    "rewrite": "Welcome to the inn. / Rest your body and / gain strength. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 42,
+    "msg_index": 7,
+    "original": "did you rest well? / good rest brings strength / for tomorrow. come again.",
+    "rewrite": "Rest well? Good rest / brings strength. / Come again. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r40_r42_translated.json",
+    "dir": "translate_chunks",
+    "resource": 42,
+    "msg_index": 13,
+    "original": "a potential ability awakened ",
+    "rewrite": "a potential ability / awakened /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r43_r45_translated.json",
+    "dir": "translate_chunks",
+    "resource": 44,
+    "msg_index": 4,
+    "original": "Let's form magic / stones from medals / collected by knights. / ",
+    "rewrite": "Form magic stones / from medals your / knights collected. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r43_r45_translated.json",
+    "dir": "translate_chunks",
+    "resource": 44,
+    "msg_index": 5,
+    "original": "Ruins of ancient / magic. Need help with / the automata? / ",
+    "rewrite": "Ruins of ancient / magic. Need help / with the automata? /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r43_r45_translated.json",
+    "dir": "translate_chunks",
+    "resource": 44,
+    "msg_index": 8,
+    "original": "By using magic / stones, you can power / up the automata. / ",
+    "rewrite": "Use magic stones / to power up the / automata. /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r43_r45_translated.json",
+    "dir": "translate_chunks",
+    "resource": 44,
+    "msg_index": 40,
+    "original": "Not enough curse power / ",
+    "rewrite": "Not enough curse / power /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r43_r45_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 10,
+    "original": "Hiring workers / makes this place / feel like a real shop! / ",
+    "rewrite": "Hiring workers makes / this place feel like / a real shop! /",
+    "auto": true
+  },
+  {
+    "file": "chunk_r43_r45_translated.json",
+    "dir": "translate_chunks",
+    "resource": 45,
+    "msg_index": 112,
+    "original": "Cannot unequip cursed item / ",
+    "rewrite": "Cannot unequip / cursed item /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1208,
+    "msg_index": 355,
+    "original": "0123456789-0123456789- / \"Hey there, member / number !\"",
+    "rewrite": "Hey there, / member number ! /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1208,
+    "msg_index": 445,
+    "original": "You poured the / recovery/magic/stamina / potion into the fountain.",
+    "rewrite": "You poured the / potion into the / fountain. /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1209,
+    "msg_index": 29,
+    "original": "Hey there, I finally found you... Big Sister............. Big Succubus Sister.........",
+    "rewrite": "Hey, I finally / found you... / Big Sister........ /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1209,
+    "msg_index": 38,
+    "original": "Nooooooooooooooooo!",
+    "rewrite": "Nooooooooooooooooo! /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1209,
+    "msg_index": 366,
+    "original": "0123456789-0000000123456789- Oh, member number! Welcome aboard!",
+    "rewrite": "Oh, member number! / Welcome aboard! /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1209,
+    "msg_index": 376,
+    "original": "I'll take 1 point! Well then, let the Member Number Lottery begiiiiiiiiiiiiiiin!",
+    "rewrite": "1 point! Let the / Member Number / Lottery begin! /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1209,
+    "msg_index": 377,
+    "original": "I'll take 3 points! Well then, let the Member Number Lottery begiiiiiiiiiiiiiiin!",
+    "rewrite": "3 points! Let the / Member Number / Lottery begin! /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1209,
+    "msg_index": 378,
+    "original": "I'll take 5 points! Well then, let the Member Number Lottery begiiiiiiiiiiiiiiin!",
+    "rewrite": "5 points! Let the / Member Number / Lottery begin! /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1209,
+    "msg_index": 383,
+    "original": "Oh my goodnessssssssssss!",
+    "rewrite": "Oh my / goodnessssssssssss! /",
+    "auto": true
+  },
+  {
+    "file": "batch_06.json",
+    "dir": "type2_translated",
+    "resource": 1209,
+    "msg_index": 401,
+    "original": "000000001234567890- Drawing...",
+    "rewrite": "000000001234567890- / Drawing... /",
+    "auto": true
+  },
+  {
+    "file": "batch_r39_equip_a.json",
+    "dir": "type2_translated",
+    "resource": 39,
+    "msg_index": 346,
+    "original": "Beat me at 5 rounds of Rock-Paper-Scissors\nand I'll give you something good! But if you\nlose, you get Ripu'd! Fee: 1 medal per loss.\nConfident in your luck? Come to B2F, the\nsmall room on the floor with lots of cells.",
+    "rewrite": "Beat me at 5 rounds / of Rock-Paper- / Scissors for loot! /",
+    "auto": true
+  },
+  {
+    "file": "batch_r39_equip_a.json",
+    "dir": "type2_translated",
+    "resource": 39,
+    "msg_index": 380,
+    "original": "Rock-Paper-Scissors Man",
+    "rewrite": "Rock-Paper-Scissors / Man /",
+    "auto": true
+  },
+  {
+    "file": "batch_r39_equip_a.json",
+    "dir": "type2_translated",
+    "resource": 39,
+    "msg_index": 403,
+    "original": "A shadow is targeting Rock-Paper-Scissors Man!",
+    "rewrite": "A shadow is / targeting Rock- / Paper-Scissors Man! /",
+    "auto": true
+  }
+]

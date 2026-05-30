@@ -94,7 +94,7 @@
     "resource": 34,
     "message": 18,
     "japanese": "聖女の■飾り / ",
-    "english": "Saint's Hair Ornament / ",
+    "english": "Saint's Hair / Ornament /",
     "notes": "聖女 = saint/holy maiden; guide confirms Saint's Hair Ornament"
   },
   {
@@ -115,7 +115,7 @@
     "resource": 34,
     "message": 21,
     "japanese": "騎女の■飾り / ",
-    "english": "Witch's Hair Ornament / ",
+    "english": "Witch's Hair / Ornament /",
     "notes": "騎女 likely decoding of 魔女 (witch); guide has Witch's Hair Ornament"
   },
   {
@@ -157,7 +157,7 @@
     "resource": 34,
     "message": 27,
     "japanese": "だめオークのリスト / ",
-    "english": "Useless Orc Wristband / ",
+    "english": "Useless Orc / Wristband /",
     "notes": "だめ = useless/no good; guide confirms"
   },
   {

@@ -261,43 +261,43 @@
     "resource": 46,
     "message": 1,
     "japanese": "この度、ドゥーハン器民のみなさまが / 気素に払見交更を行えるよう、 / [SPEAKER:王戦掲鉄板]を増置することになりました。 /   / 掲鉄板にメッセージを残したい方は / ■息の息■に記入の上、 / ボックスに投かんしてください。 / ",
-    "english": "A bulletin board / has been set up for / the citizens of / Duhan to exchange /   / opinions. To leave / a message, fill out / the form and drop / it in the box. / "
+    "english": "Bulletin board for / Duhan citizens to / share opinions. /"
   },
   {
     "resource": 46,
     "message": 2,
     "japanese": "■イクレタの騎法団長方ゴ] / っていう依頼を出してたミリィですけど、 / もうあれはいいです。 /   / 騎法団をくれる人が異で見つかって / その人にもらいました  / だから依頼はとりやめです。 / ありがとうございました  / ",
-    "english": "This is Miri, who / posted the request / for the Kreta / stone. Never mind. /   / Someone else gave / it to me already. / Request canceled. / Thanks! / "
+    "english": "Miri here. Never / mind the Kreta / stone request. /"
   },
   {
     "resource": 46,
     "message": 3,
     "japanese": "[SPEAKER:セルフショップ]ってあるだろ、迷宮に。 / なんか変な[SPEAKER:カギ]が売ってるんだけど / あやしい！どこのカギなんだろう？ /   / 誰か買った費いないのか？ / ",
-    "english": "You know the / Self-Seraph Shop / in the labyrinth? / They sell a strange /   / key there. What / does it unlock? / Has anyone bought / one yet? / "
+    "english": "Self-Seraph Shop / sells a strange key / What's it unlock? /"
   },
   {
     "resource": 46,
     "message": 4,
     "japanese": "ヴィガー商店では、すみこみで / はたらける[SPEAKER:アルバイト]をさがしてます  /   / 冒険者にかぎらず色んな人に / 見てもらいたいので、依頼ではなく / 掲鉄板でお知らせしています  / ",
-    "english": "The Vigger Shop / is looking for / part-time workers! /   / This is posted on / the board, not as / a request, so / everyone can see. / "
+    "english": "Vigger Shop seeks / part-time workers! / All are welcome! /"
   },
   {
     "resource": 46,
     "message": 5,
     "japanese": "ヴィガーしょうてんでわ / オークがいっぱい、はただいてる / みたいですだが、アルバイドでも / やっぱりオークでもいいんですだべか？ / ",
-    "english": "The Vigger Shop / has lots of orcs / working there. Do / they accept orcs / as part-timers too? / "
+    "english": "Vigger Shop has / many orcs. Do they / hire orc workers? /"
   },
   {
     "resource": 46,
     "message": 6,
     "japanese": "街と人壁になじめる心並しい / オークでしたらいいですよ  /   / うちでは３びきのオークがいますし / 同じ種族同士、たのしく仲良く / やっていけると思います  / ",
-    "english": "A friendly orc who / fits in with the / town is welcome! /   / We have 3 orcs / already. Same race, / they'll get along / just fine! / "
+    "english": "Friendly orcs are / welcome! We have 3 / already. Join us! /"
   },
   {
     "resource": 46,
     "message": 7,
     "japanese": "この前、[SPEAKER:４階]の探索に出かけてさ、 / 死神にとりつかれるわ、道にも迷うわで / さんざんな受、ぐうぜん入った部屋に / [SPEAKER:ホビット]と[SPEAKER:インプ]がすみついてたんだ。 /   / 街にいられない理的でもあるのかな。 / あんなところにすみつくとは / 変わったヤツだと思ったんだけど、 / 気前よく[SPEAKER:解臆の■]をくれてイイ費だったよ。 / ",
-    "english": "I went exploring / on the 4th floor, / got haunted by the / Grim Reaper, got /   / lost... it was a / disaster. But I / stumbled into a / room where a Hobbit /   / and an Imp lived. / Odd folks, but they / gave me a cure. / Nice people! / "
+    "english": "Got lost on 4F, met / a Hobbit & Imp who / gave me a cure. /"
   },
   {
     "resource": 47,
@@ -327,7 +327,7 @@
     "resource": 47,
     "message": 5,
     "japanese": "モンスターの不払をついた   / ",
-    "english": "Surprised the monsters! / "
+    "english": "Surprised the / monsters! /"
   },
   {
     "resource": 47,
@@ -339,7 +339,7 @@
     "resource": 47,
     "message": 7,
     "japanese": "モンスターに悔内をとられた   / ",
-    "english": "Ambushed by monsters! / "
+    "english": "Ambushed by / monsters! /"
   },
   {
     "resource": 47,
