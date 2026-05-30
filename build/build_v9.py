@@ -13,7 +13,7 @@ print("=" * 60)
 
 # ===== STEP 1: Run v2 pipeline for type-1 resources =====
 print("\n=== Step 1: Type-1 injection (v2 pipeline) ===")
-os.system('PYTHONIOENCODING=utf-8 python build/build_full_english_v2.py > /dev/null 2>&1')
+os.system('python build/build_full_english_v2.py')
 print("  v2 pipeline complete")
 
 # Remove unsafe type-03/06 resources that v2 pipeline incorrectly patches
@@ -76,7 +76,7 @@ def word_wrap(text, max_chars=18):
         wrapped.append(seg)
     return ' / '.join(wrapped)
 
-for r_id in [34, 35, 36, 37, 40, 41, 42, 43, 44, 45, 48, 49, 2124, 2654]:
+for r_id in [35, 2654]:  # Only flat-format resources; type-01/20 handled by v2 pipeline
     tc_map = {34: '20', 35: '02', 2654: '44'}
     tc = tc_map.get(r_id, '01')
     orig = bytearray(open(f'extracted/packdata_raw/{r_id:04d}_type{tc}.raw', 'rb').read())
@@ -131,18 +131,19 @@ for r_id in [34, 35, 36, 37, 40, 41, 42, 43, 44, 45, 48, 49, 2124, 2654]:
 
 # ===== STEP 3: R39 custom type-15 injection =====
 print("\n=== Step 3: R39 type-15 injection ===")
-os.system('rm -f build/packdata_resources/0039_type15.raw')
-os.system('PYTHONIOENCODING=utf-8 python build/inject_r39_v2.py 2>/dev/null')
+if os.path.exists('build/packdata_resources/0039_type15.raw'):
+    os.remove('build/packdata_resources/0039_type15.raw')
+os.system('python build/inject_r39_v2.py')
 print("  R39 injected")
 
 # ===== STEP 3.5: R46/R47 type-03 injection =====
 print("\n=== Step 3.5: R46/R47 type-03 injection ===")
-os.system('PYTHONIOENCODING=utf-8 python build/inject_r46_r47.py 2>/dev/null')
+os.system('python build/inject_r46_r47.py')
 print("  R46/R47 injected")
 
 # ===== STEP 3.6: R1188 name entry tab labels =====
 print("\n=== Step 3.6: R1188 tab labels ===")
-os.system('PYTHONIOENCODING=utf-8 python tools/patch_r1188_direct.py 2>/dev/null')
+os.system('python tools/patch_r1188_direct.py')
 print("  R1188 patched (direct pixel edit + PCSX2 replacements)")
 
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
@@ -254,7 +255,7 @@ print(f"  {file_count} files in build/packdata_resources")
 
 # ===== STEP 7: Rebuild PACKDATA =====
 print("\n=== Step 7: Rebuild PACKDATA.DIG ===")
-os.system('PYTHONIOENCODING=utf-8 python build/rebuild_packdata.py')
+os.system('python build/rebuild_packdata.py')
 
 # ===== STEP 8: Build ISO =====
 print("\n=== Step 8: Build ISO ===")
@@ -286,7 +287,7 @@ with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
 
 # ===== STEP 8.4: Patch EXE =====
 print("\n=== Step 8.4: Patch EXE ===")
-os.system('PYTHONIOENCODING=utf-8 python build/patch_exe.py')
+os.system('python build/patch_exe.py')
 
 # ===== STEP 8.5: Patch EXE into ISO =====
 print("\n=== Step 8.5: Patch EXE ===")

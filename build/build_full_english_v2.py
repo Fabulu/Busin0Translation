@@ -59,7 +59,9 @@ for i in range(10):
         print(f'  {fp}: {len(chunk)} entries')
 
 # Load fix chunks -- these OVERRIDE earlier entries for the same (resource, message)
-fix_files = ['chunk_r38_fix.json', 'chunk_r43_fix.json']
+fix_files = ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json',
+             'chunk_r36_translated.json', 'chunk_r37_r48_r49_translated.json',
+             'chunk_r40_r42_translated.json', 'chunk_r43_r45_translated.json']
 for fix_name in fix_files:
     fp = f'data/translate_chunks/{fix_name}'
     if os.path.exists(fp):

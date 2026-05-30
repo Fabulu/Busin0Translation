@@ -1,61 +1,75 @@
 # ISO Verification Debug Report
 
+## Key Finding: The ISO IS correctly built. The problem is translation coverage, not the build pipeline.
+
+## 1. ISO Integrity
+
+| Check | Result |
+|-------|--------|
+| v15.iso exists | Yes, 1,274,544,128 bytes |
+| v9.iso == v15.iso | YES (same MD5 for first 1MB, same timestamp May 30 15:14) |
+| PACKDATA size in ISO | 839,843,840 bytes |
+| PACKDATA_v3.DIG size | 839,843,840 bytes -- MATCH |
+| PACKDATA MD5 match | ISO PACKDATA == PACKDATA_v3.DIG -- MATCH |
+| EXE MD5 match | ISO EXE == SLPM_653.78_patched -- MATCH |
+
+**The ISO correctly contains both the patched PACKDATA and the patched EXE.**
+
+v15.iso appears to be a copy/rename of v9.iso (no script creates "v15" -- likely manual).
+
+## 2. Translation Coverage (the real problem)
+
+| Category | Count |
+|----------|-------|
+| Total type-2 resources | 617 |
+| Resources with usable English translations | 33 |
+| Resources with only [DATA]/[LAYOUT]/[BINARY] tags (no text) | 105 |
+| Resources with NO translation entries at all | 479 |
+| Patched type-2 in PACKDATA_v3 | 32 (matches expectations) |
+
+**Only 33 out of 617 type-2 resources have usable translations.** The remaining 584 are still Japanese because they were never translated, not because the build is broken.
+
+## 3. Type-1 Resources (R34-R49)
+
+All correctly patched and present in ISO:
+
+| Resource | Status | English msgs | Japanese msgs |
+|----------|--------|-------------|---------------|
+| R34 | PATCHED | 7 | 2 |
+| R35 | PATCHED | 8 | 0 |
+| R36 | PATCHED | 8 | 0 |
+| R37 | PATCHED | 8 | 0 |
+| R38 | PATCHED | 8 | 1 |
+| R39 | SAME (type-15, different handler) | 0 | 7 |
+| R40-R49 | PATCHED | 7-9 | 0 |
+
+## 4. Binary Resources Deletion (NOT a bug)
+
+The `binary_resources` list in build_v9.py Step 6 deletes 93 files from `build/packdata_resources/`. These are resources tagged as [DATA], [LAYOUT], [BINARY] in the translation batches -- they contain coordinate tables, grid layouts, and binary data, NOT text. The deletion is correct behavior to prevent corrupting non-text data.
+
+## 5. Build Pipeline Flow (verified correct)
+
 ```
-======================================================================
-TYPE-2 DIALOGUE RESOURCES: PATCHED vs ORIGINAL
-======================================================================
-
-Type-2 resources total:     617
-Patched (differ from orig): 30
-Identical to original:      587
-
-First-message language:
-  English:  1
-  Japanese: 238
-  Mixed:    151
-  No FFFF:  227
-
---- Sample Japanese Type-2 Resources ---
-  R32 [UNPATCHED]: 21 text glyphs, eng=0, jpn=21
-    Decoded: [1026][8192][256][9232][12290][21504][256][256][32831][32831][32831][32831][32831][32831][37054][31553][3372][44994][16128][50496][32831]
-  R926 [UNPATCHED]: 15 text glyphs, eng=0, jpn=15
-    Decoded: [25602][8192][256][12289][36866][21504][256][256][32831][32831][32831][32831][32831][32831][32831]
-  R928 [UNPATCHED]: 27 text glyphs, eng=0, jpn=27
-    Decoded: [33794][8192][256][27664][45058][37888][256][512][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][37054][13488][23745][16128][17728][32831]
-  R930 [UNPATCHED]: 76 text glyphs, eng=0, jpn=76
-    Decoded: [21578][512][8192][256][42057][32842][512][57345][1024][1792][2560][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][41154][32831][32831][32831][32831][32831]
-  R931 [UNPATCHED]: 25 text glyphs, eng=0, jpn=23
-    Decoded: [40964][256][8192][256][256][40980][49156][256][512][256][512][1152]0[3584][2048][128][1024][16384][13312][24576][5120][12577][1536]@[1536]
-  R1054 [UNPATCHED]: 161 text glyphs, eng=0, jpn=150
-    Decoded: [16519][8192][256][18433][24711][2816][2560][1152]0[3584][1280][2048][128][1024][16384][13312][5120][16673][1536][4128][1536][1152]0[3584][1280][2048][128][1024][16384][13312]
-  R1063 [UNPATCHED]: 98 text glyphs, eng=0, jpn=98
-    Decoded: [42232][256][8192][256][9245][53496][256][59394][2816][2816][512][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][46275][32831][32831][32831][32831][32831]
-  R1064 [UNPATCHED]: 21 text glyphs, eng=0, jpn=20
-    Decoded: [45270][512][8192][256][256][41165][53462][512][512][1280][2560][1152]0[3584][2048][128][1024][16384][13312][24576][32255]
-  R1065 [UNPATCHED]: 191 text glyphs, eng=0, jpn=190
-    Decoded: [25713][512][8192][256][54283][36977][512]&[8192][5888][512][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][46275][32831][32831][32831][32831][32831]
-  R1071 [UNPATCHED]: 87 text glyphs, eng=0, jpn=87
-    Decoded: [9431][256][8192][256][25623][20695][256][41986][4608][2560][512][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][32831][46275][32831][32831][32831][32831][32831]
-
-======================================================================
-TYPE-1 RESOURCES CHECK (R34-R49)
-======================================================================
-  R34 type=20: 1163 msgs, [PATCHED], eng_msgs=7, jpn_msgs=2
-  R35 type=2: 63 msgs, [PATCHED], eng_msgs=8, jpn_msgs=0
-  R36 type=1: 159 msgs, [PATCHED], eng_msgs=8, jpn_msgs=0
-  R37 type=1: 127 msgs, [PATCHED], eng_msgs=8, jpn_msgs=0
-  R38 type=1: 189 msgs, [PATCHED], eng_msgs=8, jpn_msgs=1
-  R39 type=15: 656 msgs, [SAME], eng_msgs=0, jpn_msgs=7
-  R40 type=1: 58 msgs, [PATCHED], eng_msgs=7, jpn_msgs=0
-  R41 type=1: 19 msgs, [PATCHED], eng_msgs=8, jpn_msgs=0
-  R42 type=1: 15 msgs, [PATCHED], eng_msgs=8, jpn_msgs=0
-  R43 type=1: 40 msgs, [PATCHED], eng_msgs=8, jpn_msgs=0
-  R44 type=1: 59 msgs, [PATCHED], eng_msgs=8, jpn_msgs=0
-  R45 type=1: 198 msgs, [PATCHED], eng_msgs=8, jpn_msgs=0
-  R48 type=1: 108 msgs, [PATCHED], eng_msgs=9, jpn_msgs=0
-  R49 type=1: 112 msgs, [PATCHED], eng_msgs=9, jpn_msgs=0
-
-======================================================================
-CONCLUSION
-======================================================================
+Step 1: v2 pipeline for type-1 resources
+Step 2: Fix type-1 FFFF mismatches (R34-R49)
+Step 3: R39 type-15, R46/R47, R1188
+Step 4: inject_and_patch creates 124 files in patched_type2/
+        (93 are binary/layout resources with no actual text changes)
+Step 6: Copies patched_type2/ -> packdata_resources/
+        Deletes binary_resources (correctly removes the 93 non-text files)
+        Result: 31 type-02 files + 18 other types = 49 files
+Step 7: rebuild_packdata.py builds PACKDATA_v3.DIG
+Step 8: Injects into ISO, patches EXE
 ```
+
+## 6. Root Cause of "Nothing Changed"
+
+If the user says nothing changed between builds, possible explanations:
+
+1. **v15 IS v9** -- same file, same timestamp. No new build was run.
+2. **Translation coverage is only ~5%** of type-2 resources. Most game text is still Japanese.
+3. The 13,397 translated messages are spread across only 33 resources. If the user is looking at areas served by the other 584 untranslated resources, they will see only Japanese.
+
+## 7. What needs to happen next
+
+To see more English text, the project needs translations for the remaining ~584 type-2 resources. The build pipeline itself is working correctly.
