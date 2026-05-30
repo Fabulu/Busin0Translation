@@ -145,24 +145,6 @@
   },
   {
     "resource": 38,
-    "message": 24,
-    "japanese": "lｖ７ / ",
-    "english": "lv7 / "
-  },
-  {
-    "resource": 38,
-    "message": 29,
-    "japanese": "人壁 / ",
-    "english": "human / "
-  },
-  {
-    "resource": 38,
-    "message": 30,
-    "japanese": "エルフ / ",
-    "english": "elf / "
-  },
-  {
-    "resource": 38,
     "message": 31,
     "japanese": "ノーム / ",
     "english": "gnome / "
@@ -847,36 +829,6 @@
   },
   {
     "resource": 38,
-    "message": 148,
-    "japanese": "善「g」 / ",
-    "english": "good \"g\" / "
-  },
-  {
-    "resource": 38,
-    "message": 149,
-    "japanese": "中立「n」 / ",
-    "english": "good \"g\" / "
-  },
-  {
-    "resource": 38,
-    "message": 159,
-    "japanese": "hooligan / ",
-    "english": "hooligan / "
-  },
-  {
-    "resource": 38,
-    "message": 160,
-    "japanese": "evil / ",
-    "english": "evil / "
-  },
-  {
-    "resource": 38,
-    "message": 161,
-    "japanese": "venom fang / ",
-    "english": "venom fang / "
-  },
-  {
-    "resource": 38,
     "message": 162,
     "japanese": "villain / ",
     "english": "villain / "
@@ -1072,6 +1024,18 @@
     "message": 28,
     "japanese": "",
     "english": "female / "
+  },
+  {
+    "resource": 38,
+    "message": 29,
+    "japanese": "",
+    "english": "io / "
+  },
+  {
+    "resource": 38,
+    "message": 30,
+    "japanese": "",
+    "english": "europa / "
   },
   {
     "resource": 38,

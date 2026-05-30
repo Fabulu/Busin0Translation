@@ -525,13 +525,13 @@
     "resource": 37,
     "message": 1,
     "japanese": "名前を入力してください。 / 「男名・女名■名前を自動で入力」 / ",
-    "english": "Enter your name. [M / name/F name: Auto- / fill] /"
+    "english": "enter your name. / "
   },
   {
     "resource": 37,
     "message": 2,
     "japanese": "果別を選んでください。 / ",
-    "english": "Choose your gender. / "
+    "english": "choose your gender. / "
   },
   {
     "resource": 37,

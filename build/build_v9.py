@@ -199,7 +199,7 @@ for r_id in sorted(type02_resources):
     # Encode English text to glyph lists
     encoded_trans = {}
     for mi, en_text in msg_trans.items():
-        en_text = word_wrap(en_text)
+        # word_wrap removed — translations already have proper " / " breaks
         glyphs = []
         parts = en_text.split(' / ')
         line_count = 0
