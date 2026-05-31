@@ -1,0 +1,429 @@
+{
+  "力": {
+    "role": "STR",
+    "glyph_id": 323,
+    "all_glyph_ids": [
+      323,
+      346,
+      503,
+      565
+    ],
+    "x": 192,
+    "y": 360,
+    "w": 24,
+    "h": 24,
+    "tight_x": 192,
+    "tight_y": 361,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 425
+  },
+  "知": {
+    "role": "INT1",
+    "glyph_id": 535,
+    "all_glyph_ids": [
+      535,
+      1185
+    ],
+    "x": 240,
+    "y": 600,
+    "w": 24,
+    "h": 24,
+    "tight_x": 240,
+    "tight_y": 601,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 403
+  },
+  "恵": {
+    "role": "INT2",
+    "glyph_id": 639,
+    "all_glyph_ids": [
+      639,
+      717
+    ],
+    "x": 216,
+    "y": 720,
+    "w": 24,
+    "h": 24,
+    "tight_x": 216,
+    "tight_y": 721,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 399
+  },
+  "信": {
+    "role": "FTH1",
+    "glyph_id": 308,
+    "all_glyph_ids": [
+      308,
+      363,
+      1078
+    ],
+    "x": 336,
+    "y": 336,
+    "w": 24,
+    "h": 24,
+    "tight_x": 336,
+    "tight_y": 337,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 400
+  },
+  "仰": {
+    "role": "FTH2",
+    "glyph_id": 354,
+    "all_glyph_ids": [
+      354,
+      1514
+    ],
+    "x": 432,
+    "y": 384,
+    "w": 24,
+    "h": 24,
+    "tight_x": 432,
+    "tight_y": 385,
+    "tight_w": 24,
+    "tight_h": 22,
+    "pixel_count": 340
+  },
+  "心": {
+    "role": "FTH3",
+    "glyph_id": 320,
+    "all_glyph_ids": [
+      320,
+      458
+    ],
+    "x": 120,
+    "y": 360,
+    "w": 24,
+    "h": 24,
+    "tight_x": 120,
+    "tight_y": 361,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 352
+  },
+  "生": {
+    "role": "VIT1",
+    "glyph_id": 445,
+    "all_glyph_ids": [
+      445,
+      718
+    ],
+    "x": 96,
+    "y": 504,
+    "w": 24,
+    "h": 24,
+    "tight_x": 96,
+    "tight_y": 505,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 375
+  },
+  "命": {
+    "role": "VIT2",
+    "glyph_id": 696,
+    "all_glyph_ids": [
+      696
+    ],
+    "x": 72,
+    "y": 792,
+    "w": 24,
+    "h": 24,
+    "tight_x": 72,
+    "tight_y": 794,
+    "tight_w": 24,
+    "tight_h": 22,
+    "pixel_count": 415
+  },
+  "敏": {
+    "role": "AGI1",
+    "glyph_id": 582,
+    "all_glyph_ids": [
+      582
+    ],
+    "x": 360,
+    "y": 648,
+    "w": 24,
+    "h": 24,
+    "tight_x": 360,
+    "tight_y": 649,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 425
+  },
+  "捷": {
+    "role": "AGI2",
+    "glyph_id": 719,
+    "all_glyph_ids": [
+      719
+    ],
+    "x": 120,
+    "y": 816,
+    "w": 24,
+    "h": 24,
+    "tight_x": 120,
+    "tight_y": 817,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 422
+  },
+  "度": {
+    "role": "shared_degree",
+    "glyph_id": 378,
+    "all_glyph_ids": [
+      378,
+      590
+    ],
+    "x": 0,
+    "y": 432,
+    "w": 24,
+    "h": 24,
+    "tight_x": 0,
+    "tight_y": 434,
+    "tight_w": 24,
+    "tight_h": 22,
+    "pixel_count": 341
+  },
+  "幸": {
+    "role": "LCK1",
+    "glyph_id": 460,
+    "all_glyph_ids": [
+      460,
+      720
+    ],
+    "x": 456,
+    "y": 504,
+    "w": 24,
+    "h": 24,
+    "tight_x": 456,
+    "tight_y": 505,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 385
+  },
+  "運": {
+    "role": "LCK2",
+    "glyph_id": 721,
+    "all_glyph_ids": [
+      721
+    ],
+    "x": 168,
+    "y": 816,
+    "w": 24,
+    "h": 24,
+    "tight_x": 168,
+    "tight_y": 817,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 336
+  },
+  "性": {
+    "role": "shared_nature",
+    "glyph_id": 511,
+    "all_glyph_ids": [
+      511,
+      516,
+      785
+    ],
+    "x": 168,
+    "y": 576,
+    "w": 24,
+    "h": 24,
+    "tight_x": 168,
+    "tight_y": 577,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 438
+  },
+  "別": {
+    "role": "gender",
+    "glyph_id": 512,
+    "all_glyph_ids": [
+      512
+    ],
+    "x": 192,
+    "y": 576,
+    "w": 24,
+    "h": 24,
+    "tight_x": 192,
+    "tight_y": 577,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 399
+  },
+  "種": {
+    "role": "race1",
+    "glyph_id": 513,
+    "all_glyph_ids": [
+      513,
+      967
+    ],
+    "x": 216,
+    "y": 576,
+    "w": 24,
+    "h": 24,
+    "tight_x": 216,
+    "tight_y": 577,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 425
+  },
+  "族": {
+    "role": "race2",
+    "glyph_id": 514,
+    "all_glyph_ids": [
+      514
+    ],
+    "x": 240,
+    "y": 576,
+    "w": 24,
+    "h": 24,
+    "tight_x": 240,
+    "tight_y": 577,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 410
+  },
+  "属": {
+    "role": "align",
+    "glyph_id": 515,
+    "all_glyph_ids": [
+      515,
+      593
+    ],
+    "x": 264,
+    "y": 576,
+    "w": 24,
+    "h": 24,
+    "tight_x": 264,
+    "tight_y": 577,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 379
+  },
+  "職": {
+    "role": "class1",
+    "glyph_id": 504,
+    "all_glyph_ids": [
+      504
+    ],
+    "x": 0,
+    "y": 576,
+    "w": 24,
+    "h": 24,
+    "tight_x": 0,
+    "tight_y": 577,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 377
+  },
+  "業": {
+    "role": "class2",
+    "glyph_id": 517,
+    "all_glyph_ids": [
+      517
+    ],
+    "x": 312,
+    "y": 576,
+    "w": 24,
+    "h": 24,
+    "tight_x": 312,
+    "tight_y": 577,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 395
+  },
+  "新": {
+    "role": "new1",
+    "glyph_id": 498,
+    "all_glyph_ids": [
+      498
+    ],
+    "x": 360,
+    "y": 552,
+    "w": 24,
+    "h": 24,
+    "tight_x": 360,
+    "tight_y": 553,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 395
+  },
+  "規": {
+    "role": "new2",
+    "note": "NOT IN msg_glyph_map - rendered via EXE banner struct (R1272 tile IDs 721-722)",
+    "glyph_id": null,
+    "all_glyph_ids": [],
+    "x": null,
+    "y": null,
+    "w": null,
+    "h": null
+  },
+  "登": {
+    "role": "reg1",
+    "glyph_id": 491,
+    "all_glyph_ids": [
+      491
+    ],
+    "x": 192,
+    "y": 552,
+    "w": 24,
+    "h": 24,
+    "tight_x": 192,
+    "tight_y": 553,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 358
+  },
+  "録": {
+    "role": "reg2",
+    "glyph_id": 492,
+    "all_glyph_ids": [
+      492
+    ],
+    "x": 216,
+    "y": 552,
+    "w": 24,
+    "h": 24,
+    "tight_x": 216,
+    "tight_y": 553,
+    "tight_w": 24,
+    "tight_h": 23,
+    "pixel_count": 439
+  },
+  "男": {
+    "role": "male",
+    "glyph_id": 518,
+    "all_glyph_ids": [
+      518
+    ],
+    "x": 336,
+    "y": 576,
+    "w": 24,
+    "h": 24,
+    "tight_x": 336,
+    "tight_y": 577,
+    "tight_w": 24,
+    "tight_h": 22,
+    "pixel_count": 377
+  },
+  "女": {
+    "role": "female",
+    "glyph_id": 349,
+    "all_glyph_ids": [
+      349,
+      418
+    ],
+    "x": 312,
+    "y": 384,
+    "w": 24,
+    "h": 24,
+    "tight_x": 312,
+    "tight_y": 384,
+    "tight_w": 24,
+    "tight_h": 24,
+    "pixel_count": 408
+  }
+}

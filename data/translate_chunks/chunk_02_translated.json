@@ -417,67 +417,67 @@
     "resource": 38,
     "message": 87,
     "japanese": "何でもすぐ飽きる。迷宮探索も同じ。 / 長受壁街に帰らないと消嫌が悪くなる。 / ",
-    "english": "Gets bored easily. / Must return to town / often or mood drops. / "
+    "english": "Bores easily. Must / go back or sulks. / "
   },
   {
     "resource": 38,
     "message": 88,
     "japanese": "臆的な士に敏感なので、死神を見ただけで / ふるえあがる。 / ",
-    "english": "Fears spirits. / Trembles at the / sight of Death. /"
+    "english": "Fears spirits. / Trembles at Death. / "
   },
   {
     "resource": 38,
     "message": 89,
     "japanese": "金をためることに全てをかける。わざわざ / 迷宮を探索して、稼ぎが少ないと城る。 / ",
-    "english": "Lives to hoard gold. / Gets angry if loot / is too scarce. / "
+    "english": "Lives to hoard gold. / Mad if loot is low. / "
   },
   {
     "resource": 38,
     "message": 90,
     "japanese": "人ごみや大人数での行動は苦手。 / 少人数でひっそり行動する方が落ち着く。 / ",
-    "english": "Dislikes crowds and / large groups. Calmer / in small parties. / "
+    "english": "Hates large groups. / Calm in small ones. / "
   },
   {
     "resource": 38,
     "message": 91,
     "japanese": "いつも大同の者との交進を方む。 / 少人数の大しいパーティは嫌い。 / ",
-    "english": "Enjoys socializing / in large groups. / Hates small parties. / "
+    "english": "Loves big groups. / Hates small parties. / "
   },
   {
     "resource": 38,
     "message": 92,
     "japanese": "宝士に目がない。 / アイテム収集が人生のテーマ。 / ",
-    "english": "Can't resist loot. / Item collecting is / their life's goal. / "
+    "english": "Can't resist loot. / Collecting is life. / "
   },
   {
     "resource": 38,
     "message": 93,
     "japanese": "使理のある冒険・戦箱をする者とは / 欠け編えないと思っている。 / ",
-    "english": "Believes reckless / adventurers can't / be trusted. / "
+    "english": "Distrusts reckless / adventurers deeply. / "
   },
   {
     "resource": 38,
     "message": 94,
     "japanese": "騎士の生態に解い関心を持っている。 / 騎士を見つけて調べるのが大好き。 / ",
-    "english": "Deeply interested in / monster biology. / Loves to study them. / "
+    "english": "Loves studying / monster biology. / "
   },
   {
     "resource": 38,
     "message": 95,
     "japanese": "神秘的な力は有対だと信じており、 / 騎法の知鑑が高まると幸せに感じる。 / ",
-    "english": "Believes in mystic / power. Loves gaining / magic knowledge. /"
+    "english": "Believes in mystic / power. Loves magic. / "
   },
   {
     "resource": 38,
     "message": 96,
     "japanese": "腕の気が聞く、通に解者との箱いを / 求めている。 / ",
-    "english": "Skilled warrior who / seeks battle with / strong opponents. /"
+    "english": "Skilled warrior who / seeks strong foes. / "
   },
   {
     "resource": 38,
     "message": 97,
     "japanese": "冒険者が、冒険に出なければ払用がないと / 思っている。冒険できないとつらい。 / ",
-    "english": "An adventurer must / adventure. Staying / idle is unbearable. / "
+    "english": "Must adventure. / Hates sitting idle. / "
   },
   {
     "resource": 38,
@@ -489,25 +489,25 @@
     "resource": 38,
     "message": 99,
     "japanese": "トラップ殿解にムキになる。隊失すると / 消嫌がいいが成功するとひどく落ちこむ。 / ",
-    "english": "Obsessed with traps. / Happy on success, / crushed on failure. / "
+    "english": "Obsessed with traps. / Crushed on failure. / "
   },
   {
     "resource": 38,
     "message": 100,
     "japanese": "気が探く、長く迷宮にいると不安になる。 / 不死族はこの世から除えてほしい。 / ",
-    "english": "Anxious in dungeons / too long. Wishes the / undead would vanish. / "
+    "english": "Anxious in dungeons. / Wishes undead gone. / "
   },
   {
     "resource": 38,
     "message": 101,
     "japanese": "リサイクル言神を大切にしている。 / まだ使える士を持てるなどもってのほか。 / ",
-    "english": "Values recycling. / Hates discarding / usable items. / "
+    "english": "Values recycling. / Hates wasting items. / "
   },
   {
     "resource": 38,
     "message": 102,
     "japanese": "乙女の高い絆があれば、 / つらい箱いでも余計な男はいらない。 / ",
-    "english": "With maiden bonds, / no need for men / even in hard fights. / "
+    "english": "Maiden bonds endure / even the worst odds. / "
   },
   {
     "resource": 38,
@@ -519,79 +519,79 @@
     "resource": 38,
     "message": 104,
     "japanese": "話え騎士であっても戦払のない友好的な / 騎士をむやみに殺傷するのは許せない。 / ",
-    "english": "Can't forgive those / who slay friendly / monsters. /"
+    "english": "Can't forgive those / who slay kind foes. / "
   },
   {
     "resource": 38,
     "message": 105,
     "japanese": "騎士をかたっぱしから殺すのが生きがい。 / 逃げるなどといった除卑的な行動を嫌う。 / ",
-    "english": "Lives to slay every / monster. Despises / cowardly retreat. / "
+    "english": "Lives to slay all. / Hates cowardly flee. / "
   },
   {
     "resource": 38,
     "message": 106,
     "japanese": "パーティとしての行動を重んじる。自分が / 単独で何かをするような魔鉄は嫌い。 / ",
-    "english": "Values party action. / Dislikes doing / things solo. / "
+    "english": "Values teamwork. / Dislikes going solo. / "
   },
   {
     "resource": 38,
     "message": 107,
     "japanese": "戦いを嫌い、■血を方む。 / 戦友が死んだ受などはひどく落ち込む。 / ",
-    "english": "Hates fighting and / bloodshed. Mourns / fallen allies. /"
+    "english": "Hates bloodshed. / Mourns lost allies. / "
   },
   {
     "resource": 38,
     "message": 108,
     "japanese": "とても気が短いので、いつまでもだらだら / 続く戦箱はイライラしている。 / ",
-    "english": "Very short-tempered. / Long battles are / maddening. /"
+    "english": "Very short-tempered. / Long fights enrage. / "
   },
   {
     "resource": 38,
     "message": 109,
     "japanese": "生まれつき商人気質があり、商売などに / 解い関心をもっている。 / ",
-    "english": "Born with a merchant / spirit. Deeply into / business and trade. / "
+    "english": "Born merchant soul. / Loves trade deeply. / "
   },
   {
     "resource": 38,
     "message": 110,
     "japanese": "取果に解い関心を持っている。 / 同果ばかりのパーティに御用がない。 / ",
-    "english": "Keen interest in the / opposite sex. Bored / by same-sex parties. / "
+    "english": "Keen on other sex. / Bored by same-sex. / "
   },
   {
     "resource": 38,
     "message": 111,
     "japanese": "自分はこの世でいちばん美しいと信じる。 / 美しい自分が傷ついたりするとショック。 / ",
-    "english": "Believes they are / the most beautiful. / Shocked when harmed. / "
+    "english": "Believes they are / the most beautiful. / "
   },
   {
     "resource": 38,
     "message": 112,
     "japanese": "とつぜん振んだかと思えば、今度は経に / 城ったり、つかみどころのない果性。 / ",
-    "english": "Happy one moment, / angry the next. / Unpredictable. /"
+    "english": "Happy then angry. / Unpredictable mood. / "
   },
   {
     "resource": 38,
     "message": 113,
     "japanese": "自分が苦しい立場であればあるほど振ぶ。 / 体の取通ををされるのはかえってつらい。 / ",
-    "english": "Thrives in hardship. / Being healed or / helped feels worse. / "
+    "english": "Thrives in hardship. / Healing feels worse. / "
   },
   {
     "resource": 38,
     "message": 114,
     "japanese": "同種族の者に対する仲壁払鑑が解い。 / 異種族との交進を全く方まない。 / ",
-    "english": "Deep bond with own / race. Wants nothing / to do with others. / "
+    "english": "Deep bond with own / race. Shuns others. / "
   },
   {
     "resource": 38,
     "message": 115,
     "japanese": "何も考えていない。何でもいい。誰かが / 振べば一緒に振ぶ、城れば一緒に城る。 / ",
-    "english": "Thinks of nothing. / If others are happy, / they're happy too. / "
+    "english": "Thinks of nothing. / Happy if others are. / "
   },
   {
     "resource": 38,
     "message": 116,
     "japanese": "何でも持っているものは著消活息すべき。 / 宝のもちぐされは許せない。 / ",
-    "english": "Use everything you / own. Hoarding loot / is unforgivable. / "
+    "english": "Use everything you / own. Never hoard. / "
   },
   {
     "resource": 38,

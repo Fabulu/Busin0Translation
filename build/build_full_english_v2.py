@@ -193,6 +193,17 @@ out_name = os.path.basename(raw_1272)
 open(f'build/packdata_resources/{out_name}', 'wb').write(new_1272)
 print(f'  Font atlas -> {out_name} ({len(new_1272)} bytes, {sc} sectors)')
 
+# ---------------------------------------------------------------------------
+# STEP 3b -- Patch R1188 kanji atlas (name-entry labels + stat labels)
+# ---------------------------------------------------------------------------
+print()
+print('STEP 3b: Patching R1188 kanji atlas ...')
+# First: name-entry tab labels (Kana/Hira/ABC/Sym/OK etc.)
+os.system('python tools/patch_r1188_direct.py')
+# Second: stat labels (STR/INT/PIE/VIT/AGI/LCK) -- stacks on top of direct patch
+os.system('python tools/patch_r1188_stats.py')
+print('  R1188 patched (tab labels + stat labels)')
+
 
 # ---------------------------------------------------------------------------
 # STEP 4 -- Inject translations into MSG resources

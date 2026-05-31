@@ -141,10 +141,10 @@ print("\n=== Step 3.5: R46/R47 type-03 injection ===")
 os.system('python build/inject_r46_r47.py')
 print("  R46/R47 injected")
 
-# ===== STEP 3.6: R1188 name entry tab labels =====
-print("\n=== Step 3.6: R1188 tab labels ===")
-os.system('python tools/patch_r1188_direct.py')
-print("  R1188 patched (direct pixel edit + PCSX2 replacements)")
+# ===== STEP 3.6: R1188 comprehensive name-entry screen patch =====
+print("\n=== Step 3.6: R1188 comprehensive patch ===")
+os.system('python tools/patch_r1188_comprehensive.py')
+print("  R1188 patched (kana, stat/sidebar/tab labels, banner, PCSX2 replacements)")
 
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")

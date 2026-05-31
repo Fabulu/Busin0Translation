@@ -217,6 +217,36 @@ BOTTOM_LABELS = [
     (1009, 1020, 902, 965, "Luck",     "Luck"),
 ]
 
+# ---------------------------------------------------------------------------
+# Sidebar kanji cells  (y0, y1, x0, x1, jp_char, en_replacement)
+#
+# These are the individual kanji used in chargen sidebar labels:
+#   性別 (gender), 種族 (race), 属性 (alignment), 職業 (class), 性格 (personality)
+#
+# Positions verified by visual inspection of R1188_CORRECT_dbw512.png.
+# Grid: rows 6-41 at 24px height, cols at x = 0,17,41,65,89,113,...
+# NOTE: 別 and 業 are NOT in the left-half kanji grid (x=0-495).
+#       They exist in the right half or alternate atlas region.
+#       Only the 6 kanji found in the left-half grid are patched here.
+# NOTE: 性 is shared by gender (性別), alignment (属性), and personality (性格).
+#       A single abbreviation must serve all three contexts.
+# ---------------------------------------------------------------------------
+SIDEBAR_KANJI_CELLS = [
+    # (y0, y1, x0, x1, jp_char, en_replacement)
+    # 性 = row 19, col 20 -> used in 性別/属性/性格 -> "sx" (sex/nature)
+    (456, 480, 473, 495, "sei",   "sx"),
+    # 種 = row 18, col 9 -> used in 種族 (race) -> "ra"
+    (432, 456, 209, 231, "shu",   "ra"),
+    # 族 = row 18, col 10 -> used in 種族 (race) -> "ce"
+    (432, 456, 233, 255, "zoku",  "ce"),
+    # 属 = row 37, col 5 -> used in 属性 (alignment) -> "al"
+    (888, 912, 113, 135, "zoku2", "al"),
+    # 職 = row 15, col 9 -> used in 職業 (class) -> "cl"
+    (360, 384, 209, 231, "shoku", "cl"),
+    # 格 = row 22, col 3 -> used in 性格 (personality) -> "pe"
+    (528, 552, 65,  87,  "kaku",  "pe"),
+]
+
 # Combine all cell tables
 ALL_KANA_CELLS = (
     HIRAGANA_ROW2 + HIRAGANA_ROW3 +
@@ -403,6 +433,11 @@ def main():
     edits2 = patch_bottom_labels(linear, font_size=9)
     print(f"           {edits2} pixel edits")
 
+    # -- Phase 3: sidebar kanji cells --
+    print(f"  Phase 3: overwriting {len(SIDEBAR_KANJI_CELLS)} sidebar kanji ...")
+    edits3 = patch_cells(linear, SIDEBAR_KANJI_CELLS, font_size=14)
+    print(f"           {edits3} pixel edits")
+
     # -- Debug images --
     os.makedirs(DEBUG_DIR, exist_ok=True)
 
@@ -413,6 +448,10 @@ def main():
     bottom_debug = os.path.join(DEBUG_DIR, "R1188_patched_bottom.png")
     save_debug_image(linear, bottom_debug, y_range=(1005, 1024))
     print(f"  Debug   : {bottom_debug}")
+
+    sidebar_debug = os.path.join(DEBUG_DIR, "R1188_patched_sidebar_kanji.png")
+    save_debug_image(linear, sidebar_debug, y_range=(350, 920))
+    print(f"  Debug   : {sidebar_debug}")
 
     full_debug = os.path.join(DEBUG_DIR, "R1188_patched_full.png")
     save_debug_image(linear, full_debug)
