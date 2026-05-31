@@ -52,7 +52,7 @@
     "resource": 43,
     "message": 34,
     "japanese": "を受け取った  / ",
-    "english": " received! / ",
+    "english": "Received!! / ",
     "notes": "Item received message suffix"
   },
   {
@@ -416,63 +416,63 @@
     "resource": 44,
     "message": 49,
     "japanese": "mhpが / ",
-    "english": "mhp / ",
+    "english": "MHP / ",
     "notes": "Stat label prefix"
   },
   {
     "resource": 44,
     "message": 50,
     "japanese": "力が / ",
-    "english": "str / ",
+    "english": "STR / ",
     "notes": "Stat label prefix"
   },
   {
     "resource": 44,
     "message": 51,
     "japanese": "知恵が / ",
-    "english": "int / ",
+    "english": "INT / ",
     "notes": "Stat label prefix"
   },
   {
     "resource": 44,
     "message": 52,
     "japanese": "信仰心が / ",
-    "english": "fth / ",
+    "english": "FTH / ",
     "notes": "Stat label prefix"
   },
   {
     "resource": 44,
     "message": 53,
     "japanese": "生命力が / ",
-    "english": "vit / ",
+    "english": "VIT / ",
     "notes": "Stat label prefix"
   },
   {
     "resource": 44,
     "message": 54,
     "japanese": "敏捷度が / ",
-    "english": "agi / ",
+    "english": "AGI / ",
     "notes": "Stat label prefix"
   },
   {
     "resource": 44,
     "message": 55,
     "japanese": "幸運度が / ",
-    "english": "lck / ",
+    "english": "LCK / ",
     "notes": "Stat label prefix"
   },
   {
     "resource": 44,
     "message": 56,
     "japanese": "up / ",
-    "english": "up / ",
+    "english": "Up / ",
     "notes": "Stat up suffix (already English)"
   },
   {
     "resource": 44,
     "message": 57,
     "japanese": "pt / ",
-    "english": "pt / ",
+    "english": "Pt / ",
     "notes": "Point suffix (already English)"
   },
   {
@@ -1340,7 +1340,7 @@
     "resource": 45,
     "message": 124,
     "japanese": "日 / ",
-    "english": " days / ",
+    "english": "Days / ",
     "notes": "Days suffix"
   },
   {
@@ -1466,70 +1466,70 @@
     "resource": 45,
     "message": 142,
     "japanese": "b１ 支店 / ",
-    "english": "b1 branch / ",
+    "english": "B1 Branch / ",
     "notes": "Branch 1 label"
   },
   {
     "resource": 45,
     "message": 143,
     "japanese": "b２ 支店 / ",
-    "english": "b2 branch / ",
+    "english": "B2 Branch / ",
     "notes": "Branch 2 label"
   },
   {
     "resource": 45,
     "message": 144,
     "japanese": "b３ 支店 / ",
-    "english": "b3 branch / ",
+    "english": "B3 Branch / ",
     "notes": "Branch 3 label"
   },
   {
     "resource": 45,
     "message": 145,
     "japanese": "b４ 支店 / ",
-    "english": "b4 branch / ",
+    "english": "B4 Branch / ",
     "notes": "Branch 4 label"
   },
   {
     "resource": 45,
     "message": 146,
     "japanese": "b５ 支店 / ",
-    "english": "b5 branch / ",
+    "english": "B5 Branch / ",
     "notes": "Branch 5 label"
   },
   {
     "resource": 45,
     "message": 147,
     "japanese": "b６ 支店 / ",
-    "english": "b6 branch / ",
+    "english": "B6 Branch / ",
     "notes": "Branch 6 label"
   },
   {
     "resource": 45,
     "message": 148,
     "japanese": "b７ 支店 / ",
-    "english": "b7 branch / ",
+    "english": "B7 Branch / ",
     "notes": "Branch 7 label"
   },
   {
     "resource": 45,
     "message": 149,
     "japanese": "b８ 支店 / ",
-    "english": "b8 branch / ",
+    "english": "B8 Branch / ",
     "notes": "Branch 8 label"
   },
   {
     "resource": 45,
     "message": 150,
     "japanese": "b９ 支店 / ",
-    "english": "b9 branch / ",
+    "english": "B9 Branch / ",
     "notes": "Branch 9 label"
   },
   {
     "resource": 45,
     "message": 151,
     "japanese": "b１０ 支店 / ",
-    "english": "b10 branch / ",
+    "english": "B10 Branch / ",
     "notes": "Branch 10 label"
   },
   {
@@ -1599,7 +1599,7 @@
     "resource": 45,
     "message": 161,
     "japanese": "受け取った  / ",
-    "english": " received! / ",
+    "english": "Received! / ",
     "notes": "Item/gold received suffix"
   },
   {
@@ -1669,70 +1669,70 @@
     "resource": 45,
     "message": 171,
     "japanese": "b１f / ",
-    "english": "b1f / ",
+    "english": "B1F / ",
     "notes": "Floor label b1f"
   },
   {
     "resource": 45,
     "message": 172,
     "japanese": "b２f / ",
-    "english": "b2f / ",
+    "english": "B2F / ",
     "notes": "Floor label b2f"
   },
   {
     "resource": 45,
     "message": 173,
     "japanese": "b３f / ",
-    "english": "b3f / ",
+    "english": "B3F / ",
     "notes": "Floor label b3f"
   },
   {
     "resource": 45,
     "message": 174,
     "japanese": "b４f / ",
-    "english": "b4f / ",
+    "english": "B4F / ",
     "notes": "Floor label b4f"
   },
   {
     "resource": 45,
     "message": 175,
     "japanese": "b５f / ",
-    "english": "b5f / ",
+    "english": "B5F / ",
     "notes": "Floor label b5f"
   },
   {
     "resource": 45,
     "message": 176,
     "japanese": "b６f / ",
-    "english": "b6f / ",
+    "english": "B6F / ",
     "notes": "Floor label b6f"
   },
   {
     "resource": 45,
     "message": 177,
     "japanese": "b７f / ",
-    "english": "b7f / ",
+    "english": "B7F / ",
     "notes": "Floor label b7f"
   },
   {
     "resource": 45,
     "message": 178,
     "japanese": "b８f / ",
-    "english": "b8f / ",
+    "english": "B8F / ",
     "notes": "Floor label b8f"
   },
   {
     "resource": 45,
     "message": 179,
     "japanese": "b９f / ",
-    "english": "b9f / ",
+    "english": "B9F / ",
     "notes": "Floor label b9f"
   },
   {
     "resource": 45,
     "message": 180,
     "japanese": "b１０f / ",
-    "english": "b10f / ",
+    "english": "B10F / ",
     "notes": "Floor label b10f"
   },
   {

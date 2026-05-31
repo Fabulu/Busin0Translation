@@ -92,6 +92,35 @@ def render_tile(text: str, font) -> list:
     return list(img.getdata())
 
 
+def render_symbol_tile(symbol: str) -> list:
+    """Render a special symbol (♂ or ♀) as a 12x12 pixel-art tile.
+
+    Uses PIL drawing primitives for clean rendering at small size.
+    Returns list of 144 ints (0-255), where 255=white text, 0=black bg.
+    """
+    img = Image.new("L", (CELL_W, CELL_H), 0)
+    d = ImageDraw.Draw(img)
+
+    if symbol == "\u2642":  # Mars / Male (♂)
+        # Circle at lower-left, arrow pointing upper-right
+        d.ellipse([1, 4, 7, 10], outline=255, width=1)
+        d.line([(6, 5), (10, 1)], fill=255, width=1)
+        d.line([(7, 1), (10, 1)], fill=255, width=1)
+        d.line([(10, 1), (10, 4)], fill=255, width=1)
+    elif symbol == "\u2640":  # Venus / Female (♀)
+        # Circle at top, cross below
+        d.ellipse([2, 1, 9, 7], outline=255, width=1)
+        d.line([(5, 7), (5, 11)], fill=255, width=1)
+        d.line([(6, 7), (6, 11)], fill=255, width=1)
+        d.line([(3, 9), (8, 9)], fill=255, width=1)
+    else:
+        # Fallback: try font rendering
+        font = find_font()
+        d.text((1, 1), symbol, fill=255, font=font)
+
+    return list(img.getdata())
+
+
 def load_menu_tiles() -> dict:
     """Load CSV and render all menu tiles.
 
@@ -110,6 +139,14 @@ def load_menu_tiles() -> dict:
             glyph_id_1 = int(row["glyph_id_1"])
             glyph_id_2 = int(row["glyph_id_2"])
             english = row["english"].strip()
+
+            if strategy == "symbol":
+                # Custom symbol rendering (e.g., ♂, ♀)
+                tiles[glyph_id_1] = render_symbol_tile(english)
+                # glyph_id_2 = 0 means no second tile needed
+                if glyph_id_2 != 0:
+                    tiles[glyph_id_2] = render_tile("", font)
+                continue
 
             tile1_text, tile2_text = split_label(english, strategy)
             tiles[glyph_id_1] = render_tile(tile1_text, font)

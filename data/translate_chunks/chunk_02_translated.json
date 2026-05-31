@@ -3,7 +3,7 @@
     "resource": 38,
     "message": 12,
     "japanese": "条果 / ",
-    "english": "Alignment / "
+    "english": "Align / "
   },
   {
     "resource": 38,
@@ -27,13 +27,13 @@
     "resource": 38,
     "message": 16,
     "japanese": "神聖騎法 / ",
-    "english": "Holy Magic / "
+    "english": "Divine / "
   },
   {
     "resource": 38,
     "message": 17,
     "japanese": "能力値 / ",
-    "english": "Attributes / "
+    "english": "Stats / "
   },
   {
     "resource": 38,
@@ -123,7 +123,7 @@
     "resource": 38,
     "message": 34,
     "japanese": "オートマター / ",
-    "english": "Automata / "
+    "english": "Automa / "
   },
   {
     "resource": 38,
@@ -171,7 +171,7 @@
     "resource": 38,
     "message": 45,
     "japanese": "冒金事務 / ",
-    "english": "Alchemist / "
+    "english": "Alchem / "
   },
   {
     "resource": 38,
@@ -195,7 +195,7 @@
     "resource": 38,
     "message": 49,
     "japanese": "暗兵士 / ",
-    "english": "Dark Knight / "
+    "english": "DrkKnt / "
   },
   {
     "resource": 38,
@@ -213,19 +213,19 @@
     "resource": 38,
     "message": 52,
     "japanese": "美盗 / ",
-    "english": "High Thief / "
+    "english": "HiThif / "
   },
   {
     "resource": 38,
     "message": 53,
     "japanese": "飽き果 / ",
-    "english": "Omnitsu / "
+    "english": "Fickle / "
   },
   {
     "resource": 38,
     "message": 55,
     "japanese": "れ全費 / ",
-    "english": "Wasteful / "
+    "english": "Miser / "
   },
   {
     "resource": 38,
@@ -237,79 +237,79 @@
     "resource": 38,
     "message": 57,
     "japanese": "社交的 / ",
-    "english": "Sociable / "
+    "english": "Social / "
   },
   {
     "resource": 38,
     "message": 58,
     "japanese": "収集家 / ",
-    "english": "Collector / "
+    "english": "Collct / "
   },
   {
     "resource": 38,
     "message": 59,
     "japanese": "慎重 / ",
-    "english": "Cautious / "
+    "english": "Wary / "
   },
   {
     "resource": 38,
     "message": 60,
     "japanese": "与蓄家 / ",
-    "english": "Hoarder / "
+    "english": "Nature / "
   },
   {
     "resource": 38,
     "message": 61,
     "japanese": "知的 / ",
-    "english": "Intellectual / "
+    "english": "Smart / "
   },
   {
     "resource": 38,
     "message": 62,
     "japanese": "好戦的 / ",
-    "english": "Belligerent / "
+    "english": "Aggro / "
   },
   {
     "resource": 38,
     "message": 63,
     "japanese": "冒険家 / ",
-    "english": "Adventurous / "
+    "english": "Advent / "
   },
   {
     "resource": 38,
     "message": 64,
     "japanese": "迷信家 / ",
-    "english": "Superstitious / "
+    "english": "Sensit / "
   },
   {
     "resource": 38,
     "message": 65,
     "japanese": "勤勉務 / ",
-    "english": "Studious / "
+    "english": "Traper / "
   },
   {
     "resource": 38,
     "message": 66,
     "japanese": "効向け / ",
-    "english": "Pusillanimous / "
+    "english": "Timid / "
   },
   {
     "resource": 38,
     "message": 67,
     "japanese": "エコロジスト / ",
-    "english": "Ecologist / "
+    "english": "Ecolog / "
   },
   {
     "resource": 38,
     "message": 68,
     "japanese": "乙女心 / ",
-    "english": "Maiden Heart / "
+    "english": "Maiden / "
   },
   {
     "resource": 38,
     "message": 69,
     "japanese": "重腕漢 / ",
-    "english": "Hot-Blooded / "
+    "english": "Fervor / "
   },
   {
     "resource": 38,
@@ -321,43 +321,43 @@
     "resource": 38,
     "message": 71,
     "japanese": "勤ち気 / ",
-    "english": "Determined / "
+    "english": "Slayer / "
   },
   {
     "resource": 38,
     "message": 72,
     "japanese": "協力的 / ",
-    "english": "Cooperative / "
+    "english": "Helper / "
   },
   {
     "resource": 38,
     "message": 73,
     "japanese": "友愛 / ",
-    "english": "Fraternal / "
+    "english": "Pacfst / "
   },
   {
     "resource": 38,
     "message": 74,
     "japanese": "短気 / ",
-    "english": "Short-Tempered / "
+    "english": "Cranky / "
   },
   {
     "resource": 38,
     "message": 75,
     "japanese": "エコノミスト / ",
-    "english": "Economist / "
+    "english": "Econom / "
   },
   {
     "resource": 38,
     "message": 76,
     "japanese": "好色 / ",
-    "english": "Lustful / "
+    "english": "Lusty / "
   },
   {
     "resource": 38,
     "message": 77,
     "japanese": "ナルシスト / ",
-    "english": "Narcissist / "
+    "english": "Narcis / "
   },
   {
     "resource": 38,
@@ -375,43 +375,43 @@
     "resource": 38,
     "message": 80,
     "japanese": "種族愛 / ",
-    "english": "Tribal Love / "
+    "english": "Tribal / "
   },
   {
     "resource": 38,
     "message": 81,
     "japanese": "大胆 / ",
-    "english": "Bold / "
+    "english": "Simple / "
   },
   {
     "resource": 38,
     "message": 82,
     "japanese": "除味家 / ",
-    "english": "Stupid / "
+    "english": "Frugal / "
   },
   {
     "resource": 38,
     "message": 83,
     "japanese": "獲得力 / ",
-    "english": "Attack / "
+    "english": "ATK / "
   },
   {
     "resource": 38,
     "message": 84,
     "japanese": "命中果 / ",
-    "english": "Accuracy / "
+    "english": "ACC / "
   },
   {
     "resource": 38,
     "message": 85,
     "japanese": "解消力 / ",
-    "english": "Defense / "
+    "english": "DEF / "
   },
   {
     "resource": 38,
     "message": 86,
     "japanese": "回避果 / ",
-    "english": "Evasion / "
+    "english": "EVA / "
   },
   {
     "resource": 38,

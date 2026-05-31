@@ -10,15 +10,15 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 8,0x3C31C0,699,700,広場,town_hub - plaza,plaza,tile_pair
 9,0x3C31F8,701,702,刻印,town_hub - seal/mark,seal,abbrev
 10,0x3C3230,703,704,予定,guild - available/schedule,ready,tile_pair
-11,0x3C3268,705,706,登,banner - 登(register),reg,abbrev
-12,0x3C32A0,707,708,録,banner - 録(record),.,abbrev
+11,0x3C3268,705,706,登,banner - 登(register) EXE-patched,reg,skip
+12,0x3C32A0,707,708,録,banner - 録(record) EXE-patched,.,skip
 13,0x3C32D8,709,710,必要,guild - required,needed,tile_pair
 14,0x3C3310,711,712,値段,guild - cost/price,cost,abbrev
 15,0x3C3348,713,714,名前,guild - name,name,abbrev
 16,0x3C3380,715,716,高低,guild - level sort,level,tile_pair
 17,0x3C33B8,717,718,誕生,guild - create char,create,tile_pair
-18,0x3C33F0,719,720,新,banner - 新(new),new,abbrev
-19,0x3C3428,721,722,規,banner - 規(rule),  ,abbrev
+18,0x3C33F0,719,720,新,banner - 新(new) EXE-patched,new,skip
+19,0x3C3428,721,722,規,banner - 規(rule) EXE-patched,  ,skip
 20,0x3C3460,723,724,結果,guild - result/release,result,tile_pair
 21,0x3C3498,725,726,神殿,guild - temple/refuge,temple,tile_pair
 22,0x3C34D0,727,728,聖入,church - enter holy land,enter,tile_pair
@@ -105,6 +105,39 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 103,0x3C4688,861,862,草花,system - herbs,herbs,tile_pair
 104,0x3C46C0,863,864,花園,system - garden,garden,tile_pair
 105,0x3C46F8,865,866,挨拶,system - greeting,greet,tile_pair
+106,0x3C4730,867,868,助連,personality - assist/cooperate,assist,tile_pair
+107,0x3C4768,869,870,携法,party - co-op method,co-op,tile_pair
+108,0x3C47A0,871,872,売礼,guild - sell/thanks,sell,abbrev
+109,0x3C47D8,873,874,置願,guild - place request,setup,tile_pair
+110,0x3C4810,875,876,旗錠,guild - quest flag,quest,tile_pair
+111,0x3C4848,877,878,札募,guild - notice/recruit,enlist,tile_pair
+112,0x3C4880,879,880,更何,guild - update/renew,update,tile_pair
+113,0x3C48B8,881,882,用雑,guild - use/misc,misc,abbrev
+114,0x3C48F0,883,884,教会,guild - church,church,tile_pair
+115,0x3C4928,885,886,寺修,guild - temple/repair,temple,tile_pair
+116,0x3C4B20,887,888,階奉,dungeon - floor/level,floor,tile_pair
+117,0x3C4B58,889,890,達越,dungeon - rank up/surpass,rank up,tile_pair
+118,0x3C4B90,891,892,療頼,church - heal request,cure,abbrev
+119,0x3C4BC8,893,894,潜級,status - hidden rank,rank,abbrev
+120,0x3C4C38,895,896,早好,affinity - like/prefer,like,abbrev
+121,0x3C4C70,897,898,嫌杯,affinity - dislike,hate,abbrev
+122,0x3C4CA8,902,903,受葉,quest - accept,accept,tile_pair
+123,0x3C4CE0,904,905,商売,shop - commerce/sell,trade,tile_pair
+124,0x3C4D18,906,907,練平,training - train/level,train,tile_pair
+125,0x3C4D50,908,909,残念,system - regret/sorry,sorry,tile_pair
+126,0x3C4D88,910,911,景整,display - arrange/sort,sort,abbrev
+127,0x3C4DC0,912,913,表調,display - check/tune,check,tile_pair
+128,0x3C4DF8,914,915,集遺,collection - gather relics,relics,tile_pair
+129,0x3C5098,916,917,跡略,dungeon - ruins/traces,ruins,tile_pair
+130,0x3C50D0,918,919,遠朽,dungeon - far/decay,ancient,tile_pair
+131,0x3C5108,920,921,待忠,inventory - wait/loyal,loyal,tile_pair
+132,0x3C5178,922,0,実,system - real/actual,real,abbrev
+133,0x3C51B0,923,0,戦,system - battle,war,abbrev
+134,0x3C51E8,924,0,?,system - unknown,?,abbrev
+135,0x3C5220,925,0,報,system - report,info,abbrev
+136,0x3C5258,926,927,酬続,system - reward/continue,reward,tile_pair
+137,0x3C5290,928,929,設作,system - settings/create,config,tile_pair
+138,0x3C52C8,930,931,取退,system - take/retreat,quit,abbrev
 stat_346,0x000000,346,0,,stat_label (shared:VIT3),,abbrev
 stat_535,0x000000,535,0,,stat_label,in,abbrev
 stat_717,0x000000,717,0,,stat_label,t,abbrev
@@ -118,6 +151,9 @@ stat_719,0x000000,719,0,,stat_label,i,abbrev
 stat_590,0x000000,590,0,,stat_label,,abbrev
 stat_720,0x000000,720,0,,stat_label,lc,abbrev
 stat_721,0x000000,721,0,,stat_label,k,abbrev
+gender_male,0x000000,518,0,男,gender value - male,♂,symbol
+gender_female,0x000000,349,0,女,gender value - female,♀,symbol
+gender_female2,0x000000,418,0,女,gender value - female (alt),♀,symbol
 stat_511,0x000000,511,0,,stat_label (shared:gender+align+pers),,abbrev
 stat_512,0x000000,512,0,,stat_label,sex,abbrev
 stat_515,0x000000,515,0,,stat_label,algn,abbrev

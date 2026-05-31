@@ -9,13 +9,13 @@
     "resource": 37,
     "message": 13,
     "japanese": "かな / ",
-    "english": "kana / "
+    "english": "Kana / "
   },
   {
     "resource": 37,
     "message": 14,
     "japanese": "[736]数 / ",
-    "english": "sym / "
+    "english": "Sym / "
   },
   {
     "resource": 37,
@@ -654,7 +654,7 @@
     "resource": 37,
     "message": 124,
     "japanese": "○ボタンか×ボタンをおすと / 最終確認へ移ります。 / ",
-    "english": "press o or x to / confirm. / "
+    "english": "Press O or X to / confirm. / "
   },
   {
     "resource": 37,

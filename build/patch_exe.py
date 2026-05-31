@@ -172,6 +172,47 @@ def main():
     else:
         print(f"  WARN 0x{name2_offset:06X}: name 2 mismatch, got {list(name2_data)}")
 
+    # ─── PATCH 4: Banner Glyph IDs (新規登録 -> "New Reg.") ─────────────
+    # The chargen banner "新規登録" is rendered using 4 EXE menu struct
+    # records that reference R1272 font tile glyph IDs.  Each record has
+    # a pair of glyph IDs (left/right 12x12 tiles composing one kanji).
+    # We replace these with ASCII letter glyph IDs so the font atlas can
+    # keep the original kanji tiles for stat label usage (avoids collision
+    # with stat_719/720/721 entries in menu_labels.csv).
+    #
+    # Display order: 新(Ne) 規(w ) 登(Re) 録(g.) -> "New Reg."
+
+    print("\n--- Patch 4: Banner Glyph IDs (新規登録 -> New Reg.) ---")
+    banner_patches = [
+        # (record_offset, old_g1, old_g2, new_g1, new_g2, label)
+        (0x3C33F0, 719, 720, 46, 69, "新 -> Ne"),   # N=46, e=69
+        (0x3C3428, 721, 722, 87,  0, "規 -> w_"),   # w=87, space=0
+        (0x3C3268, 705, 706, 50, 69, "登 -> Re"),   # R=50, e=69
+        (0x3C32A0, 707, 708, 71, 14, "録 -> g."),   # g=71, .=14
+    ]
+
+    for rec_off, old_g1, old_g2, new_g1, new_g2, label in banner_patches:
+        changes = 0
+        # Scan all u16 positions in the 56-byte record
+        for i in range(0, 56, 2):
+            val = struct.unpack_from("<H", data, rec_off + i)[0]
+            if val == old_g1:
+                struct.pack_into("<H", data, rec_off + i, new_g1)
+                changes += 1
+            elif val == old_g2:
+                struct.pack_into("<H", data, rec_off + i, new_g2)
+                changes += 1
+        if changes > 0:
+            print(f"  OK   0x{rec_off:06X}: {label} ({changes} u16 values patched)")
+            patched_count += 1
+        else:
+            # Check if already patched
+            check_val = struct.unpack_from("<H", data, rec_off + 26)[0]
+            if check_val == new_g1:
+                print(f"  SKIP 0x{rec_off:06X}: {label} (already patched)")
+            else:
+                print(f"  WARN 0x{rec_off:06X}: {label} (expected g1={old_g1}, got {check_val})")
+
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     open(dst, "wb").write(data)

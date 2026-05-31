@@ -95,16 +95,18 @@ def clean_and_encode(english_text):
     """
     Clean a translation string and encode it to a glyph stream.
 
-    The translation chunks use " / " to represent 0xFFFE line-break tokens.
-    Every FFFF group in the original binary ends with a trailing FFFE before
-    the FFFF terminator, so the text always ends with " / " -- this is NOT
-    an artifact but a real FFFE token that must be preserved.
+    The translation chunks use " / " as a line-break delimiter.  Translations
+    often end with a trailing " / " which would produce an extra trailing FFFE.
+    That extra FFFE acts as a phantom blank line and can overflow fixed-size
+    textboxes (e.g. R38 chargen descriptions are limited to 3 lines).  We strip
+    trailing empty segments after splitting so the FFFE count matches the actual
+    number of content lines.
 
     Algorithm:
     1. Split on " / " to get line segments.
-    2. For each segment, encode via encode_text() (which handles word-wrapping).
-    3. Insert FFFE tokens between segments.
-    4. Trailing empty segments produce a trailing FFFE (matching the original).
+    2. Strip trailing empty segments (prevents phantom blank lines).
+    3. For each segment, encode via encode_text() (which handles word-wrapping).
+    4. Insert FFFE tokens between segments.
 
     Returns a list of uint16 glyph values (including 0xFFFE line breaks).
     """
@@ -120,6 +122,10 @@ def clean_and_encode(english_text):
         text = text + ' '
 
     parts = text.split(' / ')
+
+    # Strip trailing empty segments to avoid phantom blank lines / FFFE overflow
+    while parts and not parts[-1].strip():
+        parts.pop()
 
     glyphs = []
     for pi, part in enumerate(parts):
@@ -591,6 +597,40 @@ else:
 
         print(f'  ISO written: {OUTPUT_ISO}')
         print(f'  Size: {os.path.getsize(OUTPUT_ISO):,} bytes')
+
+        # --- Patch EXE into ISO ---
+        print()
+        print('STEP 6b: Patching EXE ...')
+        os.system('python build/patch_exe.py')
+        exe_path = 'build/SLPM_653.78_patched'
+        if os.path.exists(exe_path):
+            exe_data = open(exe_path, 'rb').read()
+            # Find SLPM EXE extent in root directory
+            exe_extent = None
+            pos2 = 0
+            while pos2 < len(root_data):
+                rec_len2 = root_data[pos2]
+                if rec_len2 == 0:
+                    break
+                name_len2 = root_data[pos2 + 32]
+                name2 = root_data[pos2 + 33: pos2 + 33 + name_len2]
+                if b'SLPM' in name2:
+                    exe_extent = struct.unpack_from('<I', root_data, pos2 + 2)[0]
+                    # Update file size in directory record (both LE and BE)
+                    with open(OUTPUT_ISO, 'r+b') as iso_f:
+                        iso_f.seek(root_extent * SECTOR + pos2 + 10)
+                        iso_f.write(struct.pack('<I', len(exe_data)))
+                        iso_f.write(struct.pack('>I', len(exe_data)))
+                        # Write patched EXE data
+                        iso_f.seek(exe_extent * SECTOR)
+                        iso_f.write(exe_data)
+                    print(f'  EXE patched: {len(exe_data):,} bytes at LBA {exe_extent}')
+                    break
+                pos2 += rec_len2
+            if exe_extent is None:
+                print(f'  WARNING: Could not find SLPM EXE in ISO directory')
+        else:
+            print(f'  No patched EXE found, skipping')
 
 # ---------------------------------------------------------------------------
 # Summary

@@ -9,7 +9,7 @@
     "resource": 36,
     "message": 71,
     "japanese": "lv１０メイジ / ",
-    "english": "lv10 Mage / "
+    "english": "Lv10 Mage / "
   },
   {
     "resource": 36,
@@ -27,19 +27,19 @@
     "resource": 36,
     "message": 74,
     "japanese": "lv３プリースト / ",
-    "english": "lv3 Priest / "
+    "english": "Lv3 Priest / "
   },
   {
     "resource": 36,
     "message": 75,
     "japanese": "lv５プリーステス / ",
-    "english": "lv5 Priestess / "
+    "english": "Lv5 Priestess / "
   },
   {
     "resource": 36,
     "message": 76,
     "japanese": "lv８プリースト / ",
-    "english": "lv8 Priest / "
+    "english": "Lv8 Priest / "
   },
   {
     "resource": 36,
@@ -63,13 +63,13 @@
     "resource": 36,
     "message": 80,
     "japanese": "lv８ビショップ / ",
-    "english": "lv8 Bishop / "
+    "english": "Lv8 Bishop / "
   },
   {
     "resource": 36,
     "message": 81,
     "japanese": "lv１０ビショップ / ",
-    "english": "lv10 Bishop / "
+    "english": "Lv10 Bishop / "
   },
   {
     "resource": 36,
@@ -207,19 +207,19 @@
     "resource": 36,
     "message": 105,
     "japanese": "lv３ニンジャ / ",
-    "english": "lv3 Ninja / "
+    "english": "Lv3 Ninja / "
   },
   {
     "resource": 36,
     "message": 106,
     "japanese": "lv６ニンジャ / ",
-    "english": "lv6 Ninja / "
+    "english": "Lv6 Ninja / "
   },
   {
     "resource": 36,
     "message": 107,
     "japanese": "lv８ニンジャ / ",
-    "english": "lv8 Ninja / "
+    "english": "Lv8 Ninja / "
   },
   {
     "resource": 36,
@@ -255,7 +255,7 @@
     "resource": 36,
     "message": 113,
     "japanese": "lv１０シーフ / ",
-    "english": "lv10 Thief / "
+    "english": "Lv10 Thief / "
   },
   {
     "resource": 36,
@@ -273,7 +273,7 @@
     "resource": 36,
     "message": 116,
     "japanese": "lv４シーフb / ",
-    "english": "lv4 Thief b / "
+    "english": "Lv4 Thief b / "
   },
   {
     "resource": 36,
@@ -291,7 +291,7 @@
     "resource": 36,
     "message": 119,
     "japanese": "lv１０シーフ / ",
-    "english": "lv10 Thief / "
+    "english": "Lv10 Thief / "
   },
   {
     "resource": 36,
@@ -303,19 +303,19 @@
     "resource": 36,
     "message": 121,
     "japanese": "lv３ニンジャb / ",
-    "english": "lv3 Ninja b / "
+    "english": "Lv3 Ninja b / "
   },
   {
     "resource": 36,
     "message": 122,
     "japanese": "lv６ニンジャb / ",
-    "english": "lv6 Ninja b / "
+    "english": "Lv6 Ninja b / "
   },
   {
     "resource": 36,
     "message": 123,
     "japanese": "lv８ニンジャb / ",
-    "english": "lv8 Ninja b / "
+    "english": "Lv8 Ninja b / "
   },
   {
     "resource": 36,
@@ -525,13 +525,13 @@
     "resource": 37,
     "message": 1,
     "japanese": "名前を入力してください。 / 「男名・女名■名前を自動で入力」 / ",
-    "english": "enter your name. / "
+    "english": "Enter Your Name. / "
   },
   {
     "resource": 37,
     "message": 2,
     "japanese": "果別を選んでください。 / ",
-    "english": "choose your gender. / "
+    "english": "Choose Your Gender. / "
   },
   {
     "resource": 37,
@@ -585,7 +585,7 @@
     "resource": 37,
     "message": 12,
     "japanese": "かな / ",
-    "english": "kana / "
+    "english": "Kana / "
   },
   {
     "resource": 37,

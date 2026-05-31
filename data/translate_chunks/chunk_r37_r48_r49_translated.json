@@ -3,79 +3,79 @@
     "resource": 37,
     "message": 2,
     "japanese": "名前を入力してください。「男名・女名＝名前を自動で入力」",
-    "english": "choose your gender. / "
+    "english": "Enter your name. / "
   },
   {
     "resource": 37,
     "message": 3,
     "japanese": "性別を選んでください。",
-    "english": "select gender. / "
+    "english": "Select gender. / "
   },
   {
     "resource": 37,
     "message": 4,
     "japanese": "種族を選んでください。",
-    "english": "select a race. / "
+    "english": "Select a race. / "
   },
   {
     "resource": 37,
     "message": 5,
     "japanese": "属性を選んでください。",
-    "english": "select alignment. / "
+    "english": "Select alignment. / "
   },
   {
     "resource": 37,
     "message": 6,
     "japanese": "職業を選んでください。",
-    "english": "select a class. / "
+    "english": "Select a class. / "
   },
   {
     "resource": 37,
     "message": 7,
     "japanese": "能力値を振り分けてください。",
-    "english": "allocate stat / points. /"
+    "english": "Allocate stat / points. /"
   },
   {
     "resource": 37,
     "message": 9,
     "japanese": "bonus point",
-    "english": "bonus point / "
+    "english": "Bonus Point / "
   },
   {
     "resource": 37,
     "message": 10,
     "japanese": "はい",
-    "english": "yes / "
+    "english": "Yes / "
   },
   {
     "resource": 37,
     "message": 11,
     "japanese": "いいえ",
-    "english": "no / "
+    "english": "No / "
   },
   {
     "resource": 37,
     "message": 12,
     "japanese": "カナ",
-    "english": "kana / "
+    "english": "Kana / "
   },
   {
     "resource": 37,
     "message": 15,
     "japanese": "記述",
-    "english": "abc / "
+    "english": "ABC / "
   },
   {
     "resource": 37,
     "message": 16,
     "japanese": "自動",
-    "english": "auto / "
+    "english": "Auto / "
   },
   {
     "resource": 37,
     "message": 17,
     "japanese": "決定",
-    "english": "ok / "
+    "english": "OK / "
   },
   {
     "resource": 37,
@@ -88,1308 +88,1308 @@
     "resource": 48,
     "message": 1,
     "japanese": "(r48 msg 1)",
-    "english": "none / "
+    "english": "None / "
   },
   {
     "resource": 48,
     "message": 2,
     "japanese": "(r48 msg 2)",
-    "english": "illegal dump site / "
+    "english": "Illegal Dump Site / "
   },
   {
     "resource": 48,
     "message": 3,
     "japanese": "(r48 msg 3)",
-    "english": "disposal plant / "
+    "english": "Disposal Plant / "
   },
   {
     "resource": 48,
     "message": 4,
     "japanese": "(r48 msg 4)",
-    "english": "waste incinerator / "
+    "english": "Waste Incinerator / "
   },
   {
     "resource": 48,
     "message": 5,
     "japanese": "(r48 msg 5)",
-    "english": "garbage dump / "
+    "english": "Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 6,
     "japanese": "(r48 msg 6)",
-    "english": "oversized garbage / "
+    "english": "Oversized Garbage / "
   },
   {
     "resource": 48,
     "message": 7,
     "japanese": "(r48 msg 7)",
-    "english": "knockoff store / "
+    "english": "Knockoff Store / "
   },
   {
     "resource": 48,
     "message": 8,
     "japanese": "(r48 msg 8)",
-    "english": "run-down shop / "
+    "english": "Run-Down Shop / "
   },
   {
     "resource": 48,
     "message": 9,
     "japanese": "(r48 msg 9)",
-    "english": "ramshackle shack / "
+    "english": "Ramshackle Shack / "
   },
   {
     "resource": 48,
     "message": 10,
     "japanese": "(r48 msg 10)",
-    "english": "shed / "
+    "english": "Shed / "
   },
   {
     "resource": 48,
     "message": 11,
     "japanese": "(r48 msg 11)",
-    "english": "private home / "
+    "english": "Private Home / "
   },
   {
     "resource": 48,
     "message": 12,
     "japanese": "(r48 msg 12)",
-    "english": "mansion / "
+    "english": "Mansion / "
   },
   {
     "resource": 48,
     "message": 13,
     "japanese": "(r48 msg 13)",
-    "english": "shop / "
+    "english": "Shop / "
   },
   {
     "resource": 48,
     "message": 14,
     "japanese": "(r48 msg 14)",
-    "english": "recycling shop / "
+    "english": "Recycling Shop / "
   },
   {
     "resource": 48,
     "message": 15,
     "japanese": "(r48 msg 15)",
-    "english": "local dump site / "
+    "english": "Local Dump Site / "
   },
   {
     "resource": 48,
     "message": 16,
     "japanese": "(r48 msg 16)",
-    "english": "local disposal / "
+    "english": "Local Disposal / "
   },
   {
     "resource": 48,
     "message": 17,
     "japanese": "(r48 msg 17)",
-    "english": "local incinerator / "
+    "english": "Local Incinerator / "
   },
   {
     "resource": 48,
     "message": 18,
     "japanese": "(r48 msg 18)",
-    "english": "local garbage dump / "
+    "english": "Local Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 19,
     "japanese": "(r48 msg 19)",
-    "english": "huge garbage dump / "
+    "english": "Huge Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 20,
     "japanese": "(r48 msg 20)",
-    "english": "clip joint / "
+    "english": "Clip Joint / "
   },
   {
     "resource": 48,
     "message": 21,
     "japanese": "(r48 msg 21)",
-    "english": "shanty / "
+    "english": "Shanty / "
   },
   {
     "resource": 48,
     "message": 22,
     "japanese": "(r48 msg 22)",
-    "english": "residence / "
+    "english": "Residence / "
   },
   {
     "resource": 48,
     "message": 23,
     "japanese": "(r48 msg 23)",
-    "english": "pawn shop / "
+    "english": "Pawn Shop / "
   },
   {
     "resource": 48,
     "message": 24,
     "japanese": "(r48 msg 24)",
-    "english": "store / "
+    "english": "Store / "
   },
   {
     "resource": 48,
     "message": 25,
     "japanese": "(r48 msg 25)",
-    "english": "cheap store / "
+    "english": "Cheap Store / "
   },
   {
     "resource": 48,
     "message": 26,
     "japanese": "(r48 msg 26)",
-    "english": "local recycler / "
+    "english": "Local Recycler / "
   },
   {
     "resource": 48,
     "message": 27,
     "japanese": "(r48 msg 27)",
-    "english": "town dump site / "
+    "english": "Town Dump Site / "
   },
   {
     "resource": 48,
     "message": 28,
     "japanese": "(r48 msg 28)",
-    "english": "town disposal / "
+    "english": "Town Disposal / "
   },
   {
     "resource": 48,
     "message": 29,
     "japanese": "(r48 msg 29)",
-    "english": "town incinerator / "
+    "english": "Town Incinerator / "
   },
   {
     "resource": 48,
     "message": 30,
     "japanese": "(r48 msg 30)",
-    "english": "town garbage dump / "
+    "english": "Town Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 31,
     "japanese": "(r48 msg 31)",
-    "english": "illegal building / "
+    "english": "Illegal Building / "
   },
   {
     "resource": 48,
     "message": 32,
     "japanese": "(r48 msg 32)",
-    "english": "crooked shop / "
+    "english": "Crooked Shop / "
   },
   {
     "resource": 48,
     "message": 33,
     "japanese": "(r48 msg 33)",
-    "english": "common store / "
+    "english": "Common Store / "
   },
   {
     "resource": 48,
     "message": 34,
     "japanese": "(r48 msg 34)",
-    "english": "ruins / "
+    "english": "Ruins / "
   },
   {
     "resource": 48,
     "message": 35,
     "japanese": "(r48 msg 35)",
-    "english": "nameless store / "
+    "english": "Nameless Store / "
   },
   {
     "resource": 48,
     "message": 36,
     "japanese": "(r48 msg 36)",
-    "english": "discount store / "
+    "english": "Discount Store / "
   },
   {
     "resource": 48,
     "message": 37,
     "japanese": "(r48 msg 37)",
-    "english": "general store / "
+    "english": "General Store / "
   },
   {
     "resource": 48,
     "message": 38,
     "japanese": "(r48 msg 38)",
-    "english": "town recycler / "
+    "english": "Town Recycler / "
   },
   {
     "resource": 48,
     "message": 39,
     "japanese": "(r48 msg 39)",
-    "english": "city dump site / "
+    "english": "City Dump Site / "
   },
   {
     "resource": 48,
     "message": 40,
     "japanese": "(r48 msg 40)",
-    "english": "city disposal / "
+    "english": "City Disposal / "
   },
   {
     "resource": 48,
     "message": 41,
     "japanese": "(r48 msg 41)",
-    "english": "city incinerator / "
+    "english": "City Incinerator / "
   },
   {
     "resource": 48,
     "message": 42,
     "japanese": "(r48 msg 42)",
-    "english": "city garbage dump / "
+    "english": "City Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 43,
     "japanese": "(r48 msg 43)",
-    "english": "crooked market / "
+    "english": "Crooked Market / "
   },
   {
     "resource": 48,
     "message": 44,
     "japanese": "(r48 msg 44)",
-    "english": "clip joint shop / "
+    "english": "Clip Joint Shop / "
   },
   {
     "resource": 48,
     "message": 45,
     "japanese": "(r48 msg 45)",
-    "english": "shack / "
+    "english": "Shack / "
   },
   {
     "resource": 48,
     "message": 46,
     "japanese": "(r48 msg 46)",
-    "english": "regular store / "
+    "english": "Regular Store / "
   },
   {
     "resource": 48,
     "message": 47,
     "japanese": "(r48 msg 47)",
-    "english": "famous store / "
+    "english": "Famous Store / "
   },
   {
     "resource": 48,
     "message": 48,
     "japanese": "(r48 msg 48)",
-    "english": "city recycler / "
+    "english": "City Recycler / "
   },
   {
     "resource": 48,
     "message": 49,
     "japanese": "(r48 msg 49)",
-    "english": "country dump site / "
+    "english": "Country Dump Site / "
   },
   {
     "resource": 48,
     "message": 50,
     "japanese": "(r48 msg 50)",
-    "english": "country disposal / "
+    "english": "Country Disposal / "
   },
   {
     "resource": 48,
     "message": 51,
     "japanese": "(r48 msg 51)",
-    "english": "country incinerator / "
+    "english": "Country Incinerator / "
   },
   {
     "resource": 48,
     "message": 52,
     "japanese": "(r48 msg 52)",
-    "english": "country dump / "
+    "english": "Country Dump / "
   },
   {
     "resource": 48,
     "message": 53,
     "japanese": "(r48 msg 53)",
-    "english": "ripoff dept store / "
+    "english": "Ripoff Dept Store / "
   },
   {
     "resource": 48,
     "message": 54,
     "japanese": "(r48 msg 54)",
-    "english": "specialty store / "
+    "english": "Specialty Store / "
   },
   {
     "resource": 48,
     "message": 55,
     "japanese": "(r48 msg 55)",
-    "english": "trusted store / "
+    "english": "Trusted Store / "
   },
   {
     "resource": 48,
     "message": 56,
     "japanese": "(r48 msg 56)",
-    "english": "specialty shop / "
+    "english": "Specialty Shop / "
   },
   {
     "resource": 48,
     "message": 57,
     "japanese": "(r48 msg 57)",
-    "english": "supermarket / "
+    "english": "Supermarket / "
   },
   {
     "resource": 48,
     "message": 58,
     "japanese": "(r48 msg 58)",
-    "english": "budget market / "
+    "english": "Budget Market / "
   },
   {
     "resource": 48,
     "message": 59,
     "japanese": "(r48 msg 59)",
-    "english": "country recycler / "
+    "english": "Country Recycler / "
   },
   {
     "resource": 48,
     "message": 60,
     "japanese": "(r48 msg 60)",
-    "english": "capital dump site / "
+    "english": "Capital Dump Site / "
   },
   {
     "resource": 48,
     "message": 61,
     "japanese": "(r48 msg 61)",
-    "english": "capital disposal / "
+    "english": "Capital Disposal / "
   },
   {
     "resource": 48,
     "message": 62,
     "japanese": "(r48 msg 62)",
-    "english": "capital incinerator / "
+    "english": "Capital Incinerator / "
   },
   {
     "resource": 48,
     "message": 63,
     "japanese": "(r48 msg 63)",
-    "english": "capital dump / "
+    "english": "Capital Dump / "
   },
   {
     "resource": 48,
     "message": 64,
     "japanese": "(r48 msg 64)",
-    "english": "thief market / "
+    "english": "Thief Market / "
   },
   {
     "resource": 48,
     "message": 65,
     "japanese": "(r48 msg 65)",
-    "english": "well-known store / "
+    "english": "Well-Known Store / "
   },
   {
     "resource": 48,
     "message": 66,
     "japanese": "(r48 msg 66)",
-    "english": "famous specialty / "
+    "english": "Famous Specialty / "
   },
   {
     "resource": 48,
     "message": 67,
     "japanese": "(r48 msg 67)",
-    "english": "capital recycler / "
+    "english": "Capital Recycler / "
   },
   {
     "resource": 48,
     "message": 68,
     "japanese": "(r48 msg 68)",
-    "english": "cont. dump site / "
+    "english": "Cont. Dump Site / "
   },
   {
     "resource": 48,
     "message": 69,
     "japanese": "(r48 msg 69)",
-    "english": "cont. disposal / "
+    "english": "Cont. Disposal / "
   },
   {
     "resource": 48,
     "message": 70,
     "japanese": "(r48 msg 70)",
-    "english": "cont. incinerator / "
+    "english": "Cont. Incinerator / "
   },
   {
     "resource": 48,
     "message": 71,
     "japanese": "(r48 msg 71)",
-    "english": "cont. garbage dump / "
+    "english": "Cont. Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 72,
     "japanese": "(r48 msg 72)",
-    "english": "pride of the store / "
+    "english": "Pride of the Store / "
   },
   {
     "resource": 48,
     "message": 73,
     "japanese": "(r48 msg 73)",
-    "english": "town office / "
+    "english": "Town Office / "
   },
   {
     "resource": 48,
     "message": 74,
     "japanese": "(r48 msg 74)",
-    "english": "major specialty / "
+    "english": "Major Specialty / "
   },
   {
     "resource": 48,
     "message": 75,
     "japanese": "(r48 msg 75)",
-    "english": "city office / "
+    "english": "City Office / "
   },
   {
     "resource": 48,
     "message": 76,
     "japanese": "(r48 msg 76)",
-    "english": "department store / "
+    "english": "Department Store / "
   },
   {
     "resource": 48,
     "message": 77,
     "japanese": "(r48 msg 77)",
-    "english": "cont. recycler / "
+    "english": "Cont. Recycler / "
   },
   {
     "resource": 48,
     "message": 78,
     "japanese": "(r48 msg 78)",
-    "english": "world dump site / "
+    "english": "World Dump Site / "
   },
   {
     "resource": 48,
     "message": 79,
     "japanese": "(r48 msg 79)",
-    "english": "world disposal / "
+    "english": "World Disposal / "
   },
   {
     "resource": 48,
     "message": 80,
     "japanese": "(r48 msg 80)",
-    "english": "world incinerator / "
+    "english": "World Incinerator / "
   },
   {
     "resource": 48,
     "message": 81,
     "japanese": "(r48 msg 81)",
-    "english": "world garbage dump / "
+    "english": "World Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 82,
     "japanese": "(r48 msg 82)",
-    "english": "crooked dept store / "
+    "english": "Crooked Dept Store / "
   },
   {
     "resource": 48,
     "message": 83,
     "japanese": "(r48 msg 83)",
-    "english": "hidden gem store / "
+    "english": "Hidden Gem Store / "
   },
   {
     "resource": 48,
     "message": 84,
     "japanese": "(r48 msg 84)",
-    "english": "well-stocked store / "
+    "english": "Well-Stocked Store / "
   },
   {
     "resource": 48,
     "message": 85,
     "japanese": "(r48 msg 85)",
-    "english": "city souvenir shop / "
+    "english": "City Souvenir Shop / "
   },
   {
     "resource": 48,
     "message": 86,
     "japanese": "(r48 msg 86)",
-    "english": "city attraction / "
+    "english": "City Attraction / "
   },
   {
     "resource": 48,
     "message": 87,
     "japanese": "(r48 msg 87)",
-    "english": "cont. office / "
+    "english": "Cont. Office / "
   },
   {
     "resource": 48,
     "message": 88,
     "japanese": "(r48 msg 88)",
-    "english": "budget dept store / "
+    "english": "Budget Dept Store / "
   },
   {
     "resource": 48,
     "message": 89,
     "japanese": "(r48 msg 89)",
-    "english": "budget recycler / "
+    "english": "Budget Recycler / "
   },
   {
     "resource": 48,
     "message": 90,
     "japanese": "(r48 msg 90)",
-    "english": "global dump site / "
+    "english": "Global Dump Site / "
   },
   {
     "resource": 48,
     "message": 91,
     "japanese": "(r48 msg 91)",
-    "english": "global disposal / "
+    "english": "Global Disposal / "
   },
   {
     "resource": 48,
     "message": 92,
     "japanese": "(r48 msg 92)",
-    "english": "global incinerator / "
+    "english": "Global Incinerator / "
   },
   {
     "resource": 48,
     "message": 93,
     "japanese": "(r48 msg 93)",
-    "english": "global garbage dump / "
+    "english": "Global Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 94,
     "japanese": "(r48 msg 94)",
-    "english": "country souvenirs / "
+    "english": "Country Souvenirs / "
   },
   {
     "resource": 48,
     "message": 95,
     "japanese": "(r48 msg 95)",
-    "english": "country attraction / "
+    "english": "Country Attraction / "
   },
   {
     "resource": 48,
     "message": 96,
     "japanese": "(r48 msg 96)",
-    "english": "global office / "
+    "english": "Global Office / "
   },
   {
     "resource": 48,
     "message": 97,
     "japanese": "(r48 msg 97)",
-    "english": "famous dept store / "
+    "english": "Famous Dept Store / "
   },
   {
     "resource": 48,
     "message": 98,
     "japanese": "(r48 msg 98)",
-    "english": "global recycler / "
+    "english": "Global Recycler / "
   },
   {
     "resource": 48,
     "message": 99,
     "japanese": "(r48 msg 99)",
-    "english": "u.g. dump site / "
+    "english": "U.g. Dump Site / "
   },
   {
     "resource": 48,
     "message": 100,
     "japanese": "(r48 msg 100)",
-    "english": "u.g. disposal / "
+    "english": "U.g. Disposal / "
   },
   {
     "resource": 48,
     "message": 101,
     "japanese": "(r48 msg 101)",
-    "english": "u.g. incinerator / "
+    "english": "U.g. Incinerator / "
   },
   {
     "resource": 48,
     "message": 102,
     "japanese": "(r48 msg 102)",
-    "english": "u.g. garbage dump / "
+    "english": "U.g. Garbage Dump / "
   },
   {
     "resource": 48,
     "message": 103,
     "japanese": "(r48 msg 103)",
-    "english": "cont. souvenirs / "
+    "english": "Cont. Souvenirs / "
   },
   {
     "resource": 48,
     "message": 104,
     "japanese": "(r48 msg 104)",
-    "english": "cont. attraction / "
+    "english": "Cont. Attraction / "
   },
   {
     "resource": 48,
     "message": 105,
     "japanese": "(r48 msg 105)",
-    "english": "u.g. office / "
+    "english": "U.g. Office / "
   },
   {
     "resource": 48,
     "message": 106,
     "japanese": "(r48 msg 106)",
-    "english": "world heritage / "
+    "english": "World Heritage / "
   },
   {
     "resource": 48,
     "message": 107,
     "japanese": "(r48 msg 107)",
-    "english": "u.g. recycler / "
+    "english": "U.g. Recycler / "
   },
   {
     "resource": 49,
     "message": 1,
     "japanese": "(r49 msg 1)",
-    "english": "nothing unusual / here. /"
+    "english": "Nothing unusual / here. /"
   },
   {
     "resource": 49,
     "message": 2,
     "japanese": "(r49 msg 2)",
-    "english": "it won't open from / this side. / "
+    "english": "It won't open from / this side. / "
   },
   {
     "resource": 49,
     "message": 3,
     "japanese": "(r49 msg 3)",
-    "english": "a crumbling wall. / "
+    "english": "A crumbling wall. / "
   },
   {
     "resource": 49,
     "message": 4,
     "japanese": "(r49 msg 4)",
-    "english": "the switch is off. / the switch was / turned on. /"
+    "english": "The switch is off. / the switch was / turned on. /"
   },
   {
     "resource": 49,
     "message": 5,
     "japanese": "(r49 msg 5)",
-    "english": "the switch is on. / the switch was / turned off. /"
+    "english": "The switch is on. / the switch was / turned off. /"
   },
   {
     "resource": 49,
     "message": 6,
     "japanese": "(r49 msg 6)",
-    "english": "it is locked. / "
+    "english": "It is locked. / "
   },
   {
     "resource": 49,
     "message": 7,
     "japanese": "(r49 msg 7)",
-    "english": "a cart loaded / with cargo. / "
+    "english": "A cart loaded / with cargo. / "
   },
   {
     "resource": 49,
     "message": 8,
     "japanese": "(r49 msg 8)",
-    "english": "the bridge is raised / and impassable. / "
+    "english": "The bridge is raised / and impassable. / "
   },
   {
     "resource": 49,
     "message": 9,
     "japanese": "(r49 msg 9)",
-    "english": "a large rock blocks / the path. / "
+    "english": "A large rock blocks / the path. / "
   },
   {
     "resource": 49,
     "message": 10,
     "japanese": "(r49 msg 10)",
-    "english": "luggage blocks / the way. / "
+    "english": "Luggage blocks / the way. / "
   },
   {
     "resource": 49,
     "message": 11,
     "japanese": "(r49 msg 11)",
-    "english": "collapsed luggage / is scattered about. / "
+    "english": "Collapsed luggage / is scattered about. / "
   },
   {
     "resource": 49,
     "message": 12,
     "japanese": "(r49 msg 12)",
-    "english": "old barrels left / abandoned here. / "
+    "english": "Old barrels left / abandoned here. / "
   },
   {
     "resource": 49,
     "message": 13,
     "japanese": "(r49 msg 13)",
-    "english": "a skeleton lies / on the ground ahead. / "
+    "english": "A skeleton lies / on the ground ahead. / "
   },
   {
     "resource": 49,
     "message": 14,
     "japanese": "(r49 msg 14)",
-    "english": "a skeleton lies / at your feet. / "
+    "english": "A skeleton lies / at your feet. / "
   },
   {
     "resource": 49,
     "message": 15,
     "japanese": "(r49 msg 15)",
-    "english": "a skeleton is / leaning on the wall. / "
+    "english": "A skeleton is / leaning on the wall. / "
   },
   {
     "resource": 49,
     "message": 16,
     "japanese": "(r49 msg 16)",
-    "english": "a goddess statue / is displayed here. / "
+    "english": "A goddess statue / is displayed here. / "
   },
   {
     "resource": 49,
     "message": 17,
     "japanese": "(r49 msg 17)",
-    "english": "a half-broken statue / is displayed here. / "
+    "english": "A half-broken statue / is displayed here. / "
   },
   {
     "resource": 49,
     "message": 18,
     "japanese": "(r49 msg 18)",
-    "english": "barrels are placed / here. / "
+    "english": "Barrels are placed / here. / "
   },
   {
     "resource": 49,
     "message": 19,
     "japanese": "(r49 msg 19)",
-    "english": "the wall has / crumbled. / "
+    "english": "The wall has / crumbled. / "
   },
   {
     "resource": 49,
     "message": 20,
     "japanese": "(r49 msg 20)",
-    "english": "rubble blocks / the path. / "
+    "english": "Rubble blocks / the path. / "
   },
   {
     "resource": 49,
     "message": 21,
     "japanese": "(r49 msg 21)",
-    "english": "a broken figure / is scattered about. / "
+    "english": "A broken figure / is scattered about. / "
   },
   {
     "resource": 49,
     "message": 22,
     "japanese": "(r49 msg 22)",
-    "english": "a huge statue / hangs overhead. / "
+    "english": "A huge statue / hangs overhead. / "
   },
   {
     "resource": 49,
     "message": 23,
     "japanese": "(r49 msg 23)",
-    "english": "a huge statue / hangs overhead. / "
+    "english": "A huge statue / hangs overhead. / "
   },
   {
     "resource": 49,
     "message": 24,
     "japanese": "(r49 msg 24)",
-    "english": "an equestrian statue / is placed here. / "
+    "english": "An equestrian statue / is placed here. / "
   },
   {
     "resource": 49,
     "message": 25,
     "japanese": "(r49 msg 25)",
-    "english": "the wall blocks / the path. / "
+    "english": "The wall blocks / the path. / "
   },
   {
     "resource": 49,
     "message": 26,
     "japanese": "(r49 msg 26)",
-    "english": "an oddly shaped / wall is here. / "
+    "english": "An oddly shaped / wall is here. / "
   },
   {
     "resource": 49,
     "message": 27,
     "japanese": "(r49 msg 27)",
-    "english": "some device is / set on the fence. / "
+    "english": "Some device is / set on the fence. / "
   },
   {
     "resource": 49,
     "message": 28,
     "japanese": "(r49 msg 28)",
-    "english": "spring water has / pooled here. / "
+    "english": "Spring water has / pooled here. / "
   },
   {
     "resource": 49,
     "message": 29,
     "japanese": "(r49 msg 29)",
-    "english": "the stairs ahead / are a dead end. / "
+    "english": "The stairs ahead / are a dead end. / "
   },
   {
     "resource": 49,
     "message": 30,
     "japanese": "(r49 msg 30)",
-    "english": "there are stairs. / "
+    "english": "There are stairs. / "
   },
   {
     "resource": 49,
     "message": 31,
     "japanese": "(r49 msg 31)",
-    "english": "a device to move / the stairs is here. / "
+    "english": "A device to move / the stairs is here. / "
   },
   {
     "resource": 49,
     "message": 32,
     "japanese": "(r49 msg 32)",
-    "english": "a large tombstone / stands here. / "
+    "english": "A large tombstone / stands here. / "
   },
   {
     "resource": 49,
     "message": 33,
     "japanese": "(r49 msg 33)",
-    "english": "a device is next / to the tombstone. / "
+    "english": "A device is next / to the tombstone. / "
   },
   {
     "resource": 49,
     "message": 34,
     "japanese": "(r49 msg 34)",
-    "english": "a hole large enough / to jump into. / "
+    "english": "A hole large enough / to jump into. / "
   },
   {
     "resource": 49,
     "message": 35,
     "japanese": "(r49 msg 35)",
-    "english": "open the chest? / "
+    "english": "Open the chest? / "
   },
   {
     "resource": 49,
     "message": 36,
     "japanese": "(r49 msg 36)",
-    "english": "the chest was empty. / "
+    "english": "The chest was empty. / "
   },
   {
     "resource": 49,
     "message": 37,
     "japanese": "(r49 msg 37)",
-    "english": "inventory is full. / drop something? / "
+    "english": "Inventory is full. / drop something? / "
   },
   {
     "resource": 49,
     "message": 38,
     "japanese": "(r49 msg 38)",
-    "english": "gave up the chest. / "
+    "english": "Gave up the chest. / "
   },
   {
     "resource": 49,
     "message": 39,
     "japanese": "(r49 msg 39)",
-    "english": " trap is set. / "
+    "english": "Trap is set. / "
   },
   {
     "resource": 49,
     "message": 40,
     "japanese": "(r49 msg 40)",
-    "english": "take the item? / "
+    "english": "Take the item? / "
   },
   {
     "resource": 49,
     "message": 41,
     "japanese": "(r49 msg 41)",
-    "english": "spear / "
+    "english": "Spear / "
   },
   {
     "resource": 49,
     "message": 42,
     "japanese": "(r49 msg 42)",
-    "english": "dark fog / "
+    "english": "Dark Fog / "
   },
   {
     "resource": 49,
     "message": 43,
     "japanese": "(r49 msg 43)",
-    "english": "crossbow / "
+    "english": "Crossbow / "
   },
   {
     "resource": 49,
     "message": 44,
     "japanese": "(r49 msg 44)",
-    "english": "roof fall / "
+    "english": "Roof Fall / "
   },
   {
     "resource": 49,
     "message": 45,
     "japanese": "(r49 msg 45)",
-    "english": "mp drain / "
+    "english": "MP Drain / "
   },
   {
     "resource": 49,
     "message": 46,
     "japanese": "(r49 msg 46)",
-    "english": "poison gas / "
+    "english": "Poison Gas / "
   },
   {
     "resource": 49,
     "message": 47,
     "japanese": "(r49 msg 47)",
-    "english": "alarm / "
+    "english": "Alarm / "
   },
   {
     "resource": 49,
     "message": 48,
     "japanese": "(r49 msg 48)",
-    "english": "stone gas / "
+    "english": "Stone Gas / "
   },
   {
     "resource": 49,
     "message": 49,
     "japanese": "(r49 msg 49)",
-    "english": "teleporter / "
+    "english": "Teleporter / "
   },
   {
     "resource": 49,
     "message": 50,
     "japanese": "(r49 msg 50)",
-    "english": "b / "
+    "english": "B / "
   },
   {
     "resource": 49,
     "message": 51,
     "japanese": "(r49 msg 51)",
-    "english": "f / "
+    "english": "F / "
   },
   {
     "resource": 49,
     "message": 52,
     "japanese": "(r49 msg 52)",
-    "english": "gave up the item. / "
+    "english": "Gave up the item. / "
   },
   {
     "resource": 49,
     "message": 53,
     "japanese": "(r49 msg 53)",
-    "english": "the chest is already / open. / "
+    "english": "The chest is already / open. / "
   },
   {
     "resource": 49,
     "message": 54,
     "japanese": "(r49 msg 54)",
-    "english": "move via ladder? / cancel: x button / "
+    "english": "Move via ladder? / cancel: x button / "
   },
   {
     "resource": 49,
     "message": 55,
     "japanese": "(r49 msg 55)",
-    "english": "floor above / "
+    "english": "Floor Above / "
   },
   {
     "resource": 49,
     "message": 56,
     "japanese": "(r49 msg 56)",
-    "english": "floor below / "
+    "english": "Floor Below / "
   },
   {
     "resource": 49,
     "message": 57,
     "japanese": "(r49 msg 57)",
-    "english": "go up the stairs? / "
+    "english": "Go up the stairs? / "
   },
   {
     "resource": 49,
     "message": 58,
     "japanese": "(r49 msg 58)",
-    "english": "go down the stairs? / "
+    "english": "Go down the stairs? / "
   },
   {
     "resource": 49,
     "message": 59,
     "japanese": "(r49 msg 59)",
-    "english": "warp to the floor / above? / "
+    "english": "Warp to the floor / above? / "
   },
   {
     "resource": 49,
     "message": 60,
     "japanese": "(r49 msg 60)",
-    "english": "warp to the floor / below? / "
+    "english": "Warp to the floor / below? / "
   },
   {
     "resource": 49,
     "message": 61,
     "japanese": "(r49 msg 61)",
-    "english": "used the key. / "
+    "english": "Used the key. / "
   },
   {
     "resource": 49,
     "message": 62,
     "japanese": "(r49 msg 62)",
-    "english": "climb up the ladder? / confirm: o  cancel: / x /"
+    "english": "Climb up the ladder? / confirm: o  cancel: / x /"
   },
   {
     "resource": 49,
     "message": 63,
     "japanese": "(r49 msg 63)",
-    "english": "climb down ladder? / confirm: o  cancel: / x /"
+    "english": "Climb down ladder? / confirm: o  cancel: / x /"
   },
   {
     "resource": 49,
     "message": 64,
     "japanese": "(r49 msg 64)",
-    "english": "yes / "
+    "english": "Yes / "
   },
   {
     "resource": 49,
     "message": 65,
     "japanese": "(r49 msg 65)",
-    "english": "no / "
+    "english": "No / "
   },
   {
     "resource": 49,
     "message": 66,
     "japanese": "(r49 msg 66)",
-    "english": "cancel / "
+    "english": "Cancel / "
   },
   {
     "resource": 49,
     "message": 67,
     "japanese": "(r49 msg 67)",
-    "english": "return to town? / "
+    "english": "Return to town? / "
   },
   {
     "resource": 49,
     "message": 68,
     "japanese": "(r49 msg 68)",
-    "english": "luggage blocks / the path completely. / "
+    "english": "Luggage blocks / the path completely. / "
   },
   {
     "resource": 49,
     "message": 69,
     "japanese": "(r49 msg 69)",
-    "english": "used the key. / the key crumbled. /"
+    "english": "Used the key. / the key crumbled. /"
   },
   {
     "resource": 49,
     "message": 70,
     "japanese": "(r49 msg 70)",
-    "english": "warp to b1? / "
+    "english": "Warp to b1? / "
   },
   {
     "resource": 49,
     "message": 71,
     "japanese": "(r49 msg 71)",
-    "english": "warp to b4? / "
+    "english": "Warp to b4? / "
   },
   {
     "resource": 49,
     "message": 72,
     "japanese": "(r49 msg 72)",
-    "english": "warp to b5? / "
+    "english": "Warp to b5? / "
   },
   {
     "resource": 49,
     "message": 73,
     "japanese": "(r49 msg 73)",
-    "english": "warp to b10? / "
+    "english": "Warp to b10? / "
   },
   {
     "resource": 49,
     "message": 74,
     "japanese": "(r49 msg 74)",
-    "english": "enter the warp zone? / "
+    "english": "Enter the warp zone? / "
   },
   {
     "resource": 49,
     "message": 75,
     "japanese": "(r49 msg 75)",
-    "english": "move to b3? / "
+    "english": "Move to b3? / "
   },
   {
     "resource": 49,
     "message": 76,
     "japanese": "(r49 msg 76)",
-    "english": "move to b5? / "
+    "english": "Move to b5? / "
   },
   {
     "resource": 49,
     "message": 77,
     "japanese": "(r49 msg 77)",
-    "english": "there is a hole you / could jump down. / "
+    "english": "There is a hole you / could jump down. / "
   },
   {
     "resource": 49,
     "message": 78,
     "japanese": "(r49 msg 78)",
-    "english": "flames block / the path. / "
+    "english": "Flames block / the path. / "
   },
   {
     "resource": 49,
     "message": 79,
     "japanese": "(r49 msg 79)",
-    "english": "stairs visible / in the distance. / "
+    "english": "Stairs visible / in the distance. / "
   },
   {
     "resource": 49,
     "message": 80,
     "japanese": "(r49 msg 80)",
-    "english": "there is a fountain. / "
+    "english": "There is a fountain. / "
   },
   {
     "resource": 49,
     "message": 81,
     "japanese": "(r49 msg 81)",
-    "english": "flames are blazing. / jumping down seems / dangerous. / "
+    "english": "Flames are blazing. / jumping down seems / dangerous. / "
   },
   {
     "resource": 49,
     "message": 82,
     "japanese": "(r49 msg 82)",
-    "english": "stairs are visible / in the water. / "
+    "english": "Stairs are visible / in the water. / "
   },
   {
     "resource": 49,
     "message": 83,
     "japanese": "(r49 msg 83)",
-    "english": "a strange statue! / "
+    "english": "A strange statue! / "
   },
   {
     "resource": 49,
     "message": 84,
     "japanese": "(r49 msg 84)",
-    "english": "a strange statue / blocks the path. / "
+    "english": "A strange statue / blocks the path. / "
   },
   {
     "resource": 49,
     "message": 85,
     "japanese": "(r49 msg 85)",
-    "english": "something visible / beneath the statue. / "
+    "english": "Something visible / beneath the statue. / "
   },
   {
     "resource": 49,
     "message": 86,
     "japanese": "(r49 msg 86)",
-    "english": "a mysterious statue / blocks the path. / "
+    "english": "A mysterious statue / blocks the path. / "
   },
   {
     "resource": 49,
     "message": 87,
     "japanese": "(r49 msg 87)",
-    "english": "among the rubble, / a dead adventurer. / "
+    "english": "Among the rubble, / a dead adventurer. / "
   },
   {
     "resource": 49,
     "message": 88,
     "japanese": "(r49 msg 88)",
-    "english": "a strange slave-like / statue is here. / "
+    "english": "A strange slave-like / statue is here. / "
   },
   {
     "resource": 49,
     "message": 89,
     "japanese": "(r49 msg 89)",
-    "english": "fine equipment is / on display. / "
+    "english": "Fine equipment is / on display. / "
   },
   {
     "resource": 49,
     "message": 90,
     "japanese": "(r49 msg 90)",
-    "english": "too heavy to open. / "
+    "english": "Too heavy to open. / "
   },
   {
     "resource": 49,
     "message": 91,
     "japanese": "(r49 msg 91)",
-    "english": "a corpse lies here. / "
+    "english": "A corpse lies here. / "
   },
   {
     "resource": 49,
     "message": 92,
     "japanese": "(r49 msg 92)",
-    "english": "a skeleton lies / scattered about. / "
+    "english": "A skeleton lies / scattered about. / "
   },
   {
     "resource": 49,
     "message": 93,
     "japanese": "(r49 msg 93)",
-    "english": "this spot feels / especially heavy. / "
+    "english": "This spot feels / especially heavy. / "
   },
   {
     "resource": 49,
     "message": 94,
     "japanese": "(r49 msg 94)",
-    "english": "a water jug / is here. / "
+    "english": "A water jug / is here. / "
   },
   {
     "resource": 49,
     "message": 95,
     "japanese": "(r49 msg 95)",
-    "english": "a beautiful shrine / is enshrined here. / "
+    "english": "A beautiful shrine / is enshrined here. / "
   },
   {
     "resource": 49,
     "message": 96,
     "japanese": "(r49 msg 96)",
-    "english": "a huge goddess / statue is here. / "
+    "english": "A huge goddess / statue is here. / "
   },
   {
     "resource": 49,
     "message": 97,
     "japanese": "(r49 msg 97)",
-    "english": "the broken floor / below is shining. / "
+    "english": "The broken floor / below is shining. / "
   },
   {
     "resource": 49,
     "message": 98,
     "japanese": "(r49 msg 98)",
-    "english": "warp to b8? / "
+    "english": "Warp to b8? / "
   },
   {
     "resource": 49,
     "message": 99,
     "japanese": "(r49 msg 99)",
-    "english": "warp to b6? / "
+    "english": "Warp to b6? / "
   },
   {
     "resource": 49,
     "message": 100,
     "japanese": "(r49 msg 100)",
-    "english": "warp to b3? / "
+    "english": "Warp to b3? / "
   },
   {
     "resource": 49,
     "message": 101,
     "japanese": "(r49 msg 101)",
-    "english": "a small bag has / fallen here. / "
+    "english": "A small bag has / fallen here. / "
   },
   {
     "resource": 49,
     "message": 102,
     "japanese": "(r49 msg 102)",
-    "english": "a gold lock is / on the door. / "
+    "english": "A gold lock is / on the door. / "
   },
   {
     "resource": 49,
     "message": 103,
     "japanese": "(r49 msg 103)",
-    "english": "a silver lock is / on the door. / "
+    "english": "A silver lock is / on the door. / "
   },
   {
     "resource": 49,
     "message": 104,
     "japanese": "(r49 msg 104)",
-    "english": "a rusty lock is / on the door. / "
+    "english": "A rusty lock is / on the door. / "
   },
   {
     "resource": 49,
     "message": 105,
     "japanese": "(r49 msg 105)",
-    "english": "a large water jug / is displayed. / "
+    "english": "A large water jug / is displayed. / "
   },
   {
     "resource": 49,
     "message": 106,
     "japanese": "(r49 msg 106)",
-    "english": "the gate is raised / and impassable. / "
+    "english": "The gate is raised / and impassable. / "
   },
   {
     "resource": 49,
     "message": 107,
     "japanese": "(r49 msg 107)",
-    "english": "an automaton / is lurking here. / "
+    "english": "An automaton / is lurking here. / "
   },
   {
     "resource": 49,
     "message": 108,
     "japanese": "(r49 msg 108)",
-    "english": "the statue is / chipped and worn. / "
+    "english": "The statue is / chipped and worn. / "
   },
   {
     "resource": 49,
     "message": 109,
     "japanese": "(r49 msg 109)",
-    "english": "a knight face / statue is here. / "
+    "english": "A knight face / statue is here. / "
   },
   {
     "resource": 49,
     "message": 110,
     "japanese": "(r49 msg 110)",
-    "english": "a gold plate / is floating. / "
+    "english": "A gold plate / is floating. / "
   },
   {
     "resource": 49,
     "message": 111,
     "japanese": "(r49 msg 111)",
-    "english": "a beautiful altar / is here. / "
+    "english": "A beautiful altar / is here. / "
   }
 ]
