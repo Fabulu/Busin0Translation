@@ -1,5 +1,11 @@
 # Busin 0: Wizardry Alternative Neo - English Fan Translation
 
+## CRITICAL TESTING INSTRUCTIONS
+
+**NEVER load save states from an older ISO build.** PCSX2 save states (.p2s) contain the FULL 32MB EE RAM including all loaded game resources. Loading a save state from v22 will show v22's data regardless of which ISO is mounted. **Always boot FRESH from the title screen** when testing a new ISO.
+
+**Verify the ISO before testing:** `python verify_iso.py build/BUSIN0_EN_vNN.iso`
+
 ## CRITICAL BUILD INSTRUCTIONS
 
 **ALWAYS rebuild AND copy the ISO in ONE command to avoid stale ISOs:**
