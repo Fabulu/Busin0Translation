@@ -57,21 +57,15 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 55,0x3C3C08,793,794,発動,battle - cast spell,cast,abbrev
 56,0x3C3C40,795,796,罠,battle - trap,trap,abbrev
 57,0x3C3C78,797,798,離脱,battle - flee/escape,flee,abbrev
-58,0x3C3CB0,65535,65535,[empty],dungeon - separator,,skip
 59,0x3C3CE8,799,800,入替,dungeon - swap/reorder,swap,abbrev
-60,0x3C3D20,65535,65535,[empty],dungeon - separator,,skip
 61,0x3C3D58,801,802,記録,dungeon - log/record,log,abbrev
 62,0x3C3D90,803,804,全般,dungeon - general,general,tile_pair
-63,0x3C3DC8,65535,65535,[empty],dungeon - separator,,skip
 64,0x3C3E00,805,806,迷宮,dungeon - labyrinth,maze,abbrev
 65,0x3C3E38,807,808,深傷,dungeon - wound,wound,tile_pair
-66,0x3C3E70,65535,65535,[empty],dungeon - separator,,skip
 67,0x3C3EA8,809,810,限界,dungeon - limit,limit,tile_pair
 68,0x3C3EE0,811,812,勇気,dungeon - morale,morale,tile_pair
-69,0x3C3F18,65535,65535,[empty],item_equip - separator,,skip
 70,0x3C3F50,813,814,嘆願,item_equip - petition,plea,abbrev
 71,0x3C3F88,815,816,環境,item_equip - environment,environ,tile_pair
-72,0x3C3FC0,65535,65535,[empty],item_equip - separator,,skip
 73,0x3C3FF8,817,818,危険,item_equip - danger,danger,tile_pair
 74,0x3C4030,819,820,刻印,item_equip - engrave,engrave,tile_pair
 75,0x3C4068,821,822,防護,church - protect,protect,tile_pair
@@ -79,8 +73,6 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 77,0x3C40D8,825,826,治療,church - healing,heal,abbrev
 78,0x3C4110,827,828,禁止,system - forbid/silence,silence,tile_pair
 79,0x3C4148,829,830,加入,system - join/voice,join,abbrev
-80,0x3C4180,65535,65535,[empty],service - separator,,skip
-81,0x3C41B8,65535,65535,[empty],service - separator,,skip
 82,0x3C41F0,831,832,所持,service - owned/possess,owned,tile_pair
 83,0x3C4228,833,834,治療,service - restore/heal,restore,tile_pair
 84,0x3C4260,835,836,救出,service - rescue,rescue,tile_pair
@@ -88,20 +80,14 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 86,0x3C42D0,839,840,詠唱,party - chant/cast,chant,tile_pair
 87,0x3C4308,841,842,宿屋,inn - inn submenu,inn,abbrev
 88,0x3C4340,843,844,宿泊,inn - lodging,lodge,tile_pair
-89,0x3C4378,65535,65535,[empty],cost - separator,,skip
-90,0x3C43B0,65535,65535,[empty],church - separator,,skip
 91,0x3C43E8,845,846,空室,inn/gender - vacancy/room,room,abbrev
-92,0x3C4420,65535,65535,[empty],battle - separator,,skip
-93,0x3C4458,65535,65535,[empty],battle - separator,,skip
 94,0x3C4490,847,848,杖棒,adventure - staff/weapon,staff,tile_pair
 95,0x3C44C8,849,850,恐怖,status_effect - fear,fear,abbrev
 96,0x3C4500,851,852,創造,crafting - craft/create,craft,tile_pair
 97,0x3C4538,853,854,勲章,guild - medal,medal,tile_pair
 98,0x3C4570,855,856,更新,inn - update/leave,update,tile_pair
 99,0x3C45A8,857,858,突然,labyrinth - sudden event,event,tile_pair
-100,0x3C45E0,65535,65535,[empty],system - separator,,skip
 101,0x3C4618,859,860,逃走,system - escape,escape,tile_pair
-102,0x3C4650,65535,65535,[empty],system - separator,,skip
 103,0x3C4688,861,862,草花,system - herbs,herbs,tile_pair
 104,0x3C46C0,863,864,花園,system - garden,garden,tile_pair
 105,0x3C46F8,865,866,挨拶,system - greeting,greet,tile_pair
@@ -113,31 +99,6 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 111,0x3C4848,877,878,札募,guild - notice/recruit,enlist,tile_pair
 112,0x3C4880,879,880,更何,guild - update/renew,update,tile_pair
 113,0x3C48B8,881,882,用雑,guild - use/misc,misc,abbrev
-114,0x3C48F0,883,884,教会,guild - church,church,tile_pair
-115,0x3C4928,885,886,寺修,guild - temple/repair,temple,tile_pair
-116,0x3C4B20,887,888,階奉,dungeon - floor/level,floor,tile_pair
-117,0x3C4B58,889,890,達越,dungeon - rank up/surpass,rank up,tile_pair
-118,0x3C4B90,891,892,療頼,church - heal request,cure,abbrev
-119,0x3C4BC8,893,894,潜級,status - hidden rank,rank,abbrev
-120,0x3C4C38,895,896,早好,affinity - like/prefer,like,abbrev
-121,0x3C4C70,897,898,嫌杯,affinity - dislike,hate,abbrev
-122,0x3C4CA8,902,903,受葉,quest - accept,accept,tile_pair
-123,0x3C4CE0,904,905,商売,shop - commerce/sell,trade,tile_pair
-124,0x3C4D18,906,907,練平,training - train/level,train,tile_pair
-125,0x3C4D50,908,909,残念,system - regret/sorry,sorry,tile_pair
-126,0x3C4D88,910,911,景整,display - arrange/sort,sort,abbrev
-127,0x3C4DC0,912,913,表調,display - check/tune,check,tile_pair
-128,0x3C4DF8,914,915,集遺,collection - gather relics,relics,tile_pair
-129,0x3C5098,916,917,跡略,dungeon - ruins/traces,ruins,tile_pair
-130,0x3C50D0,918,919,遠朽,dungeon - far/decay,ancient,tile_pair
-131,0x3C5108,920,921,待忠,inventory - wait/loyal,loyal,tile_pair
-132,0x3C5178,922,0,実,system - real/actual,real,abbrev
-133,0x3C51B0,923,0,戦,system - battle,war,abbrev
-134,0x3C51E8,924,0,?,system - unknown,?,abbrev
-135,0x3C5220,925,0,報,system - report,info,abbrev
-136,0x3C5258,926,927,酬続,system - reward/continue,reward,tile_pair
-137,0x3C5290,928,929,設作,system - settings/create,config,tile_pair
-138,0x3C52C8,930,931,取退,system - take/retreat,quit,abbrev
 stat_346,0x000000,346,0,,stat_label (shared:VIT3),str,abbrev
 stat_535,0x000000,535,0,,stat_label,in,abbrev
 stat_717,0x000000,717,0,,stat_label,t,abbrev

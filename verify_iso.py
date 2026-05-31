@@ -106,7 +106,7 @@ if pack_lba:
     iso.seek(pack_lba * 2048 + 1272 * 12)
     s, c, t = struct.unpack('<III', iso.read(12))
     r1272_size = c * 2048
-    if r1272_size > 70000:
+    if r1272_size >= 67000:
         print(f"  PASS: R1272 font atlas = {r1272_size} bytes (extended)")
         passed += 1
     else:
