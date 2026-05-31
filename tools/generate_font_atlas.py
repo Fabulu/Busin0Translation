@@ -19,7 +19,7 @@ os.makedirs("build", exist_ok=True)
 # Load original header (192 bytes) and palette (last 64 bytes)
 orig = open(ORIGINAL, "rb").read()
 header = bytearray(orig[:192])
-palette = orig[192:256]  # last 64 bytes
+palette = orig[-64:]  # real palette at END of file (grayscale RGBA ramp)
 print(f"Original: {len(orig)} bytes, header={len(header)}, palette={len(palette)}")
 
 # Patch TEX0 TH field if atlas extends beyond 512 pixels
