@@ -105,7 +105,7 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 103,0x3C4688,861,862,草花,system - herbs,herbs,tile_pair
 104,0x3C46C0,863,864,花園,system - garden,garden,tile_pair
 105,0x3C46F8,865,866,挨拶,system - greeting,greet,tile_pair
-stat_346,0x000000,346,0,,stat_label,str,abbrev
+stat_346,0x000000,346,0,,stat_label (shared:VIT3),,abbrev
 stat_535,0x000000,535,0,,stat_label,in,abbrev
 stat_717,0x000000,717,0,,stat_label,t,abbrev
 stat_308,0x000000,308,0,,stat_label,f,abbrev
@@ -118,6 +118,7 @@ stat_719,0x000000,719,0,,stat_label,i,abbrev
 stat_590,0x000000,590,0,,stat_label,,abbrev
 stat_720,0x000000,720,0,,stat_label,lc,abbrev
 stat_721,0x000000,721,0,,stat_label,k,abbrev
-stat_511,0x000000,511,0,,stat_label,ge,abbrev
-stat_512,0x000000,512,0,,stat_label,nd,abbrev
-stat_515,0x000000,515,0,,stat_label,al,abbrev
+stat_511,0x000000,511,0,,stat_label (shared:gender+align+pers),,abbrev
+stat_512,0x000000,512,0,,stat_label,sex,abbrev
+stat_515,0x000000,515,0,,stat_label,algn,abbrev
+stat_516,0x000000,516,0,,stat_label,pers,abbrev
