@@ -1,5 +1,8 @@
 import sys, io, os, json, struct
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Import psmt4_deswizzle first -- it wraps sys.stdout with UTF-8 TextIOWrapper,
+# which is what we want anyway, so no need to wrap again afterward.
+from psmt4_deswizzle import swizzle_psmt4
 from PIL import Image, ImageFont, ImageDraw
 
 # Config
@@ -106,21 +109,26 @@ except Exception as e:
 atlas.save(OUTPUT_PNG)
 print(f"Preview saved: {OUTPUT_PNG}")
 
-# Convert to game's 4bpp format
+# Convert to game's 4bpp format (PSMT4-swizzled for PS2 GS VRAM upload)
 # Game format: 15 = transparent (background), 0 = fully opaque
 # Our atlas: 0 = background (black), 255 = character (white)
 # So invert and quantize to 4 bits
+#
+# CRITICAL: The game uploads this data to GS VRAM using PSMCT32 transfers and
+# reads it back as PSMT4. The on-disc format must be PSMT4-swizzled, NOT linear.
+# We build a linear 1-byte-per-pixel array, then call swizzle_psmt4() to produce
+# the correct PSMCT32 upload format.
 
-# The atlas is stored as pages of 128x128 at 128px width (linear, no swizzle)
-# Each page: 128x128 pixels = 8192 4bpp bytes
-# For 256x540: full pages cover 256x512 (8 pages), plus 28 extra rows in pages 8-9
-# We allocate enough bytes for ceil(540/128)=5 page-rows x 2 columns = 10 pages
-FULL_PAGE_ROWS = (ATLAS_H + 127) // 128  # ceil(540/128) = 5
-TOTAL_PAGES = FULL_PAGE_ROWS * 2          # 10 pages
-pixel_data_size = TOTAL_PAGES * 128 * 128 // 2  # 10 * 8192 = 81920 bytes at 4bpp
-pixel_data = bytearray(pixel_data_size)
+# The texture dimensions for swizzle must be page-aligned (128x128 pages)
+SWIZZLE_W = ATLAS_W   # 256 (already 2 pages wide)
+SWIZZLE_H = ((ATLAS_H + 127) // 128) * 128  # round up to page boundary
 
-# Process each pixel
+# Build linear pixel array (1 byte per pixel, values 0-15)
+linear_pixels = bytearray(SWIZZLE_W * SWIZZLE_H)
+# Fill with transparent (15)
+for i in range(len(linear_pixels)):
+    linear_pixels[i] = 15
+
 atlas_pixels = list(atlas.getdata())
 for y in range(ATLAS_H):
     for x in range(ATLAS_W):
@@ -130,30 +138,19 @@ for y in range(ATLAS_H):
         # Convert: 255 (white/character) -> 0 (opaque), 0 (black/bg) -> 15 (transparent)
         game_val = 15 - min(val * 15 // 255, 15)
 
-        # Calculate position in the linear 128-wide page layout
-        # Pages are 128x128, arranged 2 columns x N rows
-        page_col = x // 128
-        page_row = y // 128
-        page_idx = page_row * 2 + page_col
-        local_x = x % 128
-        local_y = y % 128
+        linear_pixels[y * SWIZZLE_W + x] = game_val
 
-        # Linear position within the page
-        pixel_offset = page_idx * 128 * 128 + local_y * 128 + local_x
+# Swizzle to PSMT4/PSMCT32 upload format (this is what the game expects on disc)
+print(f"Swizzling {SWIZZLE_W}x{SWIZZLE_H} linear pixels to PSMT4 format...")
+pixel_data = swizzle_psmt4(linear_pixels, SWIZZLE_W, SWIZZLE_H,
+                           bw_psmt4=SWIZZLE_W, dbw_ct32=SWIZZLE_W)
+print(f"Swizzled pixel data: {len(pixel_data)} bytes")
 
-        # Pack as 4bpp (2 pixels per byte, low nibble = first pixel)
-        byte_offset = pixel_offset // 2
-        if byte_offset < len(pixel_data):
-            if pixel_offset % 2 == 0:
-                pixel_data[byte_offset] = (pixel_data[byte_offset] & 0xF0) | (game_val & 0x0F)
-            else:
-                pixel_data[byte_offset] = (pixel_data[byte_offset] & 0x0F) | ((game_val & 0x0F) << 4)
-
-# Trim trailing empty pages -- only keep data up to last non-empty byte
-# But ensure we keep at least the original 65536 bytes for compatibility
+# Ensure we keep at least the original 65536 bytes for compatibility
 min_size = 65536  # original 256x512 size
-actual_size = max(min_size, pixel_data_size)
-# Pad pixel_data to actual_size if needed (already >= min_size)
+actual_size = max(min_size, len(pixel_data))
+if len(pixel_data) < actual_size:
+    pixel_data = pixel_data + bytearray(actual_size - len(pixel_data))
 
 # Assemble: header + pixel data + palette
 output = header + bytes(pixel_data[:actual_size]) + palette
