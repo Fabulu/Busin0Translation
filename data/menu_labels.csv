@@ -138,7 +138,7 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 136,0x3C5258,926,927,酬続,system - reward/continue,reward,tile_pair
 137,0x3C5290,928,929,設作,system - settings/create,config,tile_pair
 138,0x3C52C8,930,931,取退,system - take/retreat,quit,abbrev
-stat_346,0x000000,346,0,,stat_label (shared:VIT3),,abbrev
+stat_346,0x000000,346,0,,stat_label (shared:VIT3),str,abbrev
 stat_535,0x000000,535,0,,stat_label,in,abbrev
 stat_717,0x000000,717,0,,stat_label,t,abbrev
 stat_308,0x000000,308,0,,stat_label,f,abbrev
@@ -148,13 +148,13 @@ stat_718,0x000000,718,0,,stat_label,vi,abbrev
 stat_696,0x000000,696,0,,stat_label,t,abbrev
 stat_582,0x000000,582,0,,stat_label,ag,abbrev
 stat_719,0x000000,719,0,,stat_label,i,abbrev
-stat_590,0x000000,590,0,,stat_label,,abbrev
+stat_590,0x000000,590,0,,stat_label,deg,abbrev
 stat_720,0x000000,720,0,,stat_label,lc,abbrev
 stat_721,0x000000,721,0,,stat_label,k,abbrev
 gender_male,0x000000,518,0,男,gender value - male,♂,symbol
 gender_female,0x000000,349,0,女,gender value - female,♀,symbol
 gender_female2,0x000000,418,0,女,gender value - female (alt),♀,symbol
-stat_511,0x000000,511,0,,stat_label (shared:gender+align+pers),,abbrev
+stat_511,0x000000,511,0,,stat_label (shared:gender+align+pers),sex,abbrev
 stat_512,0x000000,512,0,,stat_label,sex,abbrev
 stat_515,0x000000,515,0,,stat_label,algn,abbrev
 stat_516,0x000000,516,0,,stat_label,pers,abbrev
