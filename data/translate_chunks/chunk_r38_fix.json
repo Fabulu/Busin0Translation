@@ -1,993 +1,999 @@
 [
   {
     "resource": 38,
-    "message": 0,
+    "message": -1,
     "japanese": "hp / ",
     "english": "hp / "
   },
   {
     "resource": 38,
-    "message": 1,
+    "message": 0,
     "japanese": "hp／mhp / ",
     "english": "hp/mhp / "
   },
   {
     "resource": 38,
-    "message": 2,
+    "message": 1,
     "japanese": "力 / ",
     "english": "str / "
   },
   {
     "resource": 38,
-    "message": 3,
+    "message": 2,
     "japanese": "知恵 / ",
     "english": "int / "
   },
   {
     "resource": 38,
-    "message": 4,
+    "message": 3,
     "japanese": "信仰心 / ",
     "english": "fth / "
   },
   {
     "resource": 38,
-    "message": 5,
+    "message": 4,
     "japanese": "生命力 / ",
     "english": "vit / "
   },
   {
     "resource": 38,
-    "message": 6,
+    "message": 5,
     "japanese": "敏捷度 / ",
     "english": "agi / "
   },
   {
     "resource": 38,
-    "message": 7,
+    "message": 6,
     "japanese": "幸運度 / ",
     "english": "lck / "
   },
   {
     "resource": 38,
-    "message": 8,
+    "message": 7,
     "japanese": "名前 / ",
     "english": "name / "
   },
   {
     "resource": 38,
-    "message": 9,
+    "message": 8,
     "japanese": "レベル / ",
     "english": "level / "
   },
   {
     "resource": 38,
-    "message": 10,
+    "message": 9,
     "japanese": "種族 / ",
     "english": "race / "
   },
   {
     "resource": 38,
-    "message": 11,
+    "message": 10,
     "japanese": "果別 / ",
     "english": "gender / "
   },
   {
     "resource": 38,
-    "message": 12,
+    "message": 11,
     "japanese": "条果 / ",
     "english": "alignment / "
   },
   {
     "resource": 38,
-    "message": 13,
+    "message": 12,
     "japanese": "職業 / ",
     "english": "class / "
   },
   {
     "resource": 38,
-    "message": 14,
+    "message": 13,
     "japanese": "果性 / ",
     "english": "personality / "
   },
   {
     "resource": 38,
-    "message": 15,
+    "message": 14,
     "japanese": "騎事務騎法 / ",
     "english": "sorcery / "
   },
   {
     "resource": 38,
-    "message": 16,
+    "message": 15,
     "japanese": "神聖騎法 / ",
     "english": "holy magic / "
   },
   {
     "resource": 38,
-    "message": 17,
+    "message": 16,
     "japanese": "能力値 / ",
     "english": "attributes / "
   },
   {
     "resource": 38,
-    "message": 18,
+    "message": 17,
     "japanese": "lｖ１ / ",
     "english": "lv1 / "
   },
   {
     "resource": 38,
-    "message": 19,
+    "message": 18,
     "japanese": "lｖ２ / ",
     "english": "lv2 / "
   },
   {
     "resource": 38,
-    "message": 20,
+    "message": 19,
     "japanese": "lｖ３ / ",
     "english": "lv3 / "
   },
   {
     "resource": 38,
-    "message": 21,
+    "message": 20,
     "japanese": "lｖ４ / ",
     "english": "lv4 / "
   },
   {
     "resource": 38,
-    "message": 22,
+    "message": 21,
     "japanese": "lｖ５ / ",
     "english": "lv5 / "
   },
   {
     "resource": 38,
-    "message": 23,
+    "message": 22,
     "japanese": "lｖ６ / ",
     "english": "lv6 / "
   },
   {
     "resource": 38,
-    "message": 31,
+    "message": 30,
     "japanese": "ノーム / ",
     "english": "gnome / "
   },
   {
     "resource": 38,
-    "message": 32,
+    "message": 31,
     "japanese": "ドワーフ / ",
     "english": "dwarf / "
   },
   {
     "resource": 38,
-    "message": 33,
+    "message": 32,
     "japanese": "ホビット / ",
     "english": "hobbit / "
   },
   {
     "resource": 38,
-    "message": 34,
+    "message": 33,
     "japanese": "オートマター / ",
     "english": "automata / "
   },
   {
     "resource": 38,
-    "message": 37,
+    "message": 36,
     "japanese": "戦士 / ",
     "english": "fighter / "
   },
   {
     "resource": 38,
-    "message": 38,
+    "message": 37,
     "japanese": "盗賊 / ",
     "english": "thief / "
   },
   {
     "resource": 38,
-    "message": 39,
+    "message": 38,
     "japanese": "騎事務 / ",
     "english": "mage / "
   },
   {
     "resource": 38,
-    "message": 40,
+    "message": 39,
     "japanese": "神聖 / ",
     "english": "priest / "
   },
   {
     "resource": 38,
-    "message": 41,
+    "message": 40,
     "japanese": "忍者 / ",
     "english": "ninja / "
   },
   {
     "resource": 38,
-    "message": 43,
+    "message": 42,
     "japanese": "集教 / ",
     "english": "bishop / "
   },
   {
     "resource": 38,
-    "message": 44,
+    "message": 43,
     "japanese": "兵士 / ",
     "english": "samurai / "
   },
   {
     "resource": 38,
-    "message": 45,
+    "message": 44,
     "japanese": "冒金事務 / ",
     "english": "alchemist / "
   },
   {
     "resource": 38,
-    "message": 46,
+    "message": 45,
     "japanese": "義賊 / ",
     "english": "gizoku / "
   },
   {
     "resource": 38,
-    "message": 47,
+    "message": 46,
     "japanese": "モンク / ",
     "english": "monk / "
   },
   {
     "resource": 38,
-    "message": 48,
+    "message": 47,
     "japanese": "聖兵士 / ",
     "english": "paladin / "
   },
   {
     "resource": 38,
-    "message": 49,
+    "message": 48,
     "japanese": "暗兵士 / ",
     "english": "dark knight / "
   },
   {
     "resource": 38,
-    "message": 50,
+    "message": 49,
     "japanese": "将後 / ",
     "english": "shogun / "
   },
   {
     "resource": 38,
-    "message": 51,
+    "message": 50,
     "japanese": "教授 / ",
     "english": "knight / "
   },
   {
     "resource": 38,
-    "message": 52,
+    "message": 51,
     "japanese": "美盗 / ",
     "english": "high thief / "
   },
   {
     "resource": 38,
-    "message": 53,
+    "message": 52,
     "japanese": "飽き果 / ",
     "english": "omnitsu / "
   },
   {
     "resource": 38,
-    "message": 54,
+    "message": 53,
     "japanese": "■武 / ",
     "english": "militant / "
   },
   {
     "resource": 38,
-    "message": 55,
+    "message": 54,
     "japanese": "れ全費 / ",
     "english": "wasteful / "
   },
   {
     "resource": 38,
-    "message": 56,
+    "message": 55,
     "japanese": "孤独 / ",
     "english": "lonely / "
   },
   {
     "resource": 38,
-    "message": 57,
+    "message": 56,
     "japanese": "社交的 / ",
     "english": "sociable / "
   },
   {
     "resource": 38,
-    "message": 58,
+    "message": 57,
     "japanese": "収集家 / ",
     "english": "collector / "
   },
   {
     "resource": 38,
-    "message": 59,
+    "message": 58,
     "japanese": "慎重 / ",
     "english": "cautious / "
   },
   {
     "resource": 38,
-    "message": 60,
+    "message": 59,
     "japanese": "与蓄家 / ",
     "english": "hoarder / "
   },
   {
     "resource": 38,
-    "message": 61,
+    "message": 60,
     "japanese": "知的 / ",
     "english": "intellectual / "
   },
   {
     "resource": 38,
-    "message": 62,
+    "message": 61,
     "japanese": "好戦的 / ",
     "english": "belligerent / "
   },
   {
     "resource": 38,
-    "message": 63,
+    "message": 62,
     "japanese": "冒険家 / ",
     "english": "adventurous / "
   },
   {
     "resource": 38,
-    "message": 64,
+    "message": 63,
     "japanese": "迷信家 / ",
     "english": "superstitious / "
   },
   {
     "resource": 38,
-    "message": 65,
+    "message": 64,
     "japanese": "勤勉務 / ",
     "english": "studious / "
   },
   {
     "resource": 38,
-    "message": 66,
+    "message": 65,
     "japanese": "効向け / ",
     "english": "pusillanimous / "
   },
   {
     "resource": 38,
-    "message": 67,
+    "message": 66,
     "japanese": "エコロジスト / ",
     "english": "ecologist / "
   },
   {
     "resource": 38,
-    "message": 68,
+    "message": 67,
     "japanese": "乙女心 / ",
     "english": "maiden heart / "
   },
   {
     "resource": 38,
-    "message": 69,
+    "message": 68,
     "japanese": "重腕漢 / ",
     "english": "hot-blooded / "
   },
   {
     "resource": 38,
-    "message": 70,
+    "message": 69,
     "japanese": "多義感 / ",
     "english": "just / "
   },
   {
     "resource": 38,
-    "message": 71,
+    "message": 70,
     "japanese": "勤ち気 / ",
     "english": "determined / "
   },
   {
     "resource": 38,
-    "message": 72,
+    "message": 71,
     "japanese": "協力的 / ",
     "english": "cooperative / "
   },
   {
     "resource": 38,
-    "message": 73,
+    "message": 72,
     "japanese": "友愛 / ",
     "english": "fraternal / "
   },
   {
     "resource": 38,
-    "message": 74,
+    "message": 73,
     "japanese": "短気 / ",
     "english": "short-tempered / "
   },
   {
     "resource": 38,
-    "message": 75,
+    "message": 74,
     "japanese": "エコノミスト / ",
     "english": "economist / "
   },
   {
     "resource": 38,
-    "message": 76,
+    "message": 75,
     "japanese": "好色 / ",
     "english": "lustful / "
   },
   {
     "resource": 38,
-    "message": 77,
+    "message": 76,
     "japanese": "ナルシスト / ",
     "english": "narcissist / "
   },
   {
     "resource": 38,
-    "message": 78,
+    "message": 77,
     "japanese": "気分屋 / ",
     "english": "moody / "
   },
   {
     "resource": 38,
-    "message": 79,
+    "message": 78,
     "japanese": "自己的 / ",
     "english": "sadist / "
   },
   {
     "resource": 38,
-    "message": 80,
+    "message": 79,
     "japanese": "種族愛 / ",
     "english": "tribal love / "
   },
   {
     "resource": 38,
-    "message": 81,
+    "message": 80,
     "japanese": "大胆 / ",
     "english": "bold / "
   },
   {
     "resource": 38,
-    "message": 82,
+    "message": 81,
     "japanese": "除味家 / ",
     "english": "hobbyist / "
   },
   {
     "resource": 38,
-    "message": 83,
+    "message": 82,
     "japanese": "獲得力 / ",
     "english": "attack / "
   },
   {
     "resource": 38,
-    "message": 84,
+    "message": 83,
     "japanese": "命中果 / ",
     "english": "accuracy / "
   },
   {
     "resource": 38,
-    "message": 85,
+    "message": 84,
     "japanese": "解消力 / ",
     "english": "defense / "
   },
   {
     "resource": 38,
-    "message": 86,
+    "message": 85,
     "japanese": "回避果 / ",
     "english": "evasion / "
   },
   {
     "resource": 38,
-    "message": 87,
+    "message": 86,
     "japanese": "何でもすぐ飽きる。迷宮探索も同じ。 / 長受壁街に帰らないと消嫌が悪くなる。 / ",
     "english": "bores easily. return / to town often. /"
   },
   {
     "resource": 38,
-    "message": 88,
+    "message": 87,
     "japanese": "臆的な士に敏感なので、死神を見ただけで / ふるえあがる。 / ",
     "english": "senses spirits. / trembles at death. / "
   },
   {
     "resource": 38,
-    "message": 89,
+    "message": 88,
     "japanese": "金をためることに全てをかける。わざわざ / 迷宮を探索して、稼ぎが少ないと城る。 / ",
     "english": "lives to hoard gold. / angry if loot is / low. /"
   },
   {
     "resource": 38,
-    "message": 90,
+    "message": 89,
     "japanese": "人ごみや大人数での行動は苦手。 / 少人数でひっそり行動する方が落ち着く。 / ",
     "english": "dislikes crowds. / calmer in few. / "
   },
   {
     "resource": 38,
-    "message": 91,
+    "message": 90,
     "japanese": "いつも大同の者との交進を方む。 / 少人数の大しいパーティは嫌い。 / ",
     "english": "loves big groups. / hates small parties. / "
   },
   {
     "resource": 38,
-    "message": 92,
+    "message": 91,
     "japanese": "宝士に目がない。 / アイテム収集が人生のテーマ。 / ",
     "english": "can't resist loot. / lives to collect. / "
   },
   {
     "resource": 38,
-    "message": 93,
+    "message": 92,
     "japanese": "使理のある冒険・戦箱をする者とは / 欠け編えないと思っている。 / ",
     "english": "distrusts reckless / adventurers. / "
   },
   {
     "resource": 38,
-    "message": 94,
+    "message": 93,
     "japanese": "騎士の生態に解い関心を持っている。 / 騎士を見つけて調べるのが大好き。 / ",
     "english": "fascinated by / monster biology. / "
   },
   {
     "resource": 38,
-    "message": 95,
+    "message": 94,
     "japanese": "神秘的な力は有対だと信じており、 / 騎法の知鑑が高まると幸せに感じる。 / ",
     "english": "believes in mystic / power. loves magic. / "
   },
   {
     "resource": 38,
-    "message": 96,
+    "message": 95,
     "japanese": "腕の気が聞く、通に解者との箱いを / 求めている。 / ",
     "english": "skilled warrior. / seeks strong foes. / "
   },
   {
     "resource": 38,
-    "message": 97,
+    "message": 96,
     "japanese": "冒険者が、冒険に出なければ払用がないと / 思っている。冒険できないとつらい。 / ",
     "english": "must adventure. / idleness is agony. / "
   },
   {
     "resource": 38,
-    "message": 98,
+    "message": 97,
     "japanese": "突然の出来頼に対して敏感に違応する。 / ",
     "english": "reacts keenly to / sudden events. / "
   },
   {
     "resource": 38,
-    "message": 99,
+    "message": 98,
     "japanese": "トラップ殿解にムキになる。隊失すると / 消嫌がいいが成功するとひどく落ちこむ。 / ",
     "english": "obsessed with traps. / crushed by success. / "
   },
   {
     "resource": 38,
-    "message": 100,
+    "message": 99,
     "japanese": "気が探く、長く迷宮にいると不安になる。 / 不死族はこの世から除えてほしい。 / ",
     "english": "anxious in dungeons. / dreads the undead. / "
   },
   {
     "resource": 38,
-    "message": 101,
+    "message": 100,
     "japanese": "リサイクル言神を大切にしている。 / まだ使える士を持てるなどもってのほか。 / ",
     "english": "values recycling. / hates wasting items. / "
   },
   {
     "resource": 38,
-    "message": 102,
+    "message": 101,
     "japanese": "乙女の高い絆があれば、 / つらい箱いでも余計な男はいらない。 / ",
     "english": "strong maiden bonds. / no need for men. / "
   },
   {
     "resource": 38,
-    "message": 103,
+    "message": 102,
     "japanese": "箱いの世界に女は使息と考えている。 / ",
     "english": "believes women have / no place in battle. / "
   },
   {
     "resource": 38,
-    "message": 104,
+    "message": 103,
     "japanese": "話え騎士であっても戦払のない友好的な / 騎士をむやみに殺傷するのは許せない。 / ",
     "english": "won't forgive those / who slay tame foes. / "
   },
   {
     "resource": 38,
-    "message": 105,
+    "message": 104,
     "japanese": "騎士をかたっぱしから殺すのが生きがい。 / 逃げるなどといった除卑的な行動を嫌う。 / ",
     "english": "lives to slay all. / despises retreat. / "
   },
   {
     "resource": 38,
-    "message": 106,
+    "message": 105,
     "japanese": "パーティとしての行動を重んじる。自分が / 単独で何かをするような魔鉄は嫌い。 / ",
     "english": "values teamwork. / hates going solo. / "
   },
   {
     "resource": 38,
-    "message": 107,
+    "message": 106,
     "japanese": "戦いを嫌い、■血を方む。 / 戦友が死んだ受などはひどく落ち込む。 / ",
     "english": "hates bloodshed. / mourns fallen / allies. /"
   },
   {
     "resource": 38,
-    "message": 108,
+    "message": 107,
     "japanese": "とても気が短いので、いつまでもだらだら / 続く戦箱はイライラしている。 / ",
     "english": "short-tempered. / long fights enrage. / "
   },
   {
     "resource": 38,
-    "message": 109,
+    "message": 108,
     "japanese": "生まれつき商人気質があり、商売などに / 解い関心をもっている。 / ",
     "english": "born merchant. / loves trade. / "
   },
   {
     "resource": 38,
-    "message": 110,
+    "message": 109,
     "japanese": "取果に解い関心を持っている。 / 同果ばかりのパーティに御用がない。 / ",
     "english": "likes opposite sex. / bored by same sex. / "
   },
   {
     "resource": 38,
-    "message": 111,
+    "message": 110,
     "japanese": "自分はこの世でいちばん美しいと信じる。 / 美しい自分が傷ついたりするとショック。 / ",
     "english": "vain narcissist. / shocked when harmed. / "
   },
   {
     "resource": 38,
-    "message": 112,
+    "message": 111,
     "japanese": "とつぜん振んだかと思えば、今度は経に / 城ったり、つかみどころのない果性。 / ",
     "english": "happy then angry. / unpredictable mood. / "
   },
   {
     "resource": 38,
-    "message": 113,
+    "message": 112,
     "japanese": "自分が苦しい立場であればあるほど振ぶ。 / 体の取通ををされるのはかえってつらい。 / ",
     "english": "thrives in hardship. / hates being helped. / "
   },
   {
     "resource": 38,
-    "message": 114,
+    "message": 113,
     "japanese": "同種族の者に対する仲壁払鑑が解い。 / 異種族との交進を全く方まない。 / ",
     "english": "bonds with own race. / shuns other races. / "
   },
   {
     "resource": 38,
-    "message": 115,
+    "message": 114,
     "japanese": "何も考えていない。何でもいい。誰かが / 振べば一緒に振ぶ、城れば一緒に城る。 / ",
     "english": "empty-headed. / happy if others are. / "
   },
   {
     "resource": 38,
-    "message": 116,
+    "message": 115,
     "japanese": "何でも持っているものは著消活息すべき。 / 宝のもちぐされは許せない。 / ",
     "english": "use everything. / hoarding is a sin. / "
   },
   {
     "resource": 38,
-    "message": 117,
+    "message": 116,
     "japanese": "果別によって、個人の基仲能力値と隊長が取なります。 / 男果は力解く、女果は知的に隊長していきます。 / ",
     "english": "Gender sets base / stats. Men=strong, / women=wise. /"
   },
   {
     "resource": 38,
-    "message": 118,
+    "message": 117,
     "japanese": "種族はその者の隊長の基本となります。 / 人壁は少手信仰心が高いものの、全体的にむらなく / 隊長するバランスのいい種族といわれています。 / ",
     "english": "Human: High faith / & balanced stats / overall. /"
   },
   {
     "resource": 38,
-    "message": 119,
+    "message": 118,
     "japanese": "種族はその者の隊長の基本となります。 / エルフ族は知力と生命力に優れ、力は探いですが、 / 騎法の扱いでは■に出る者はいないと言われています。 / ",
     "english": "Elf: High INT & VIT / but frail. Best / at magic. /"
   },
   {
     "resource": 38,
-    "message": 120,
+    "message": 119,
     "japanese": "種族はその者の隊長の基本となります。 / ノーム族は、信仰心がとても解く、 / また身のこなしがく器いため、神聖に向いています。 / ",
     "english": "Gnome: High faith / & agility. Suited / for Priests. /"
   },
   {
     "resource": 38,
-    "message": 121,
+    "message": 120,
     "japanese": "種族はその者の隊長の基本となります。 / 動きは胆いが、力解く信仰の待いドワーフ族。 / その特果を生かせる戦士に就く者が聞いようです。 / ",
     "english": "Dwarf: Slow but / strong with deep / faith. Fighters. /"
   },
   {
     "resource": 38,
-    "message": 122,
+    "message": 121,
     "japanese": "種族はその者の隊長の基本となります。 / ホビット族は小格でか探いものの、素い身のこなしと、 / 生まれ持つ幸運とで盗賊に就く者が内をたちません。 / ",
     "english": "Hobbit: Small but / agile and lucky. / Born thieves. /"
   },
   {
     "resource": 38,
-    "message": 123,
+    "message": 122,
     "japanese": "正義を重んじる善は、その正義に違した行動によっては / 悪へと変わってしまうこともあります。 / 可能職業：戦・騎・神・侍・義・集・兵・冒・モ / ",
     "english": "Good=justice. May / turn Evil. FIG MAG / PRI SAM GIZ BIS+ /"
   },
   {
     "resource": 38,
-    "message": 124,
+    "message": 123,
     "japanese": "かたよった考えをしない者は中立といわれます。 / 可能職業：戦・盗・騎・侍・義・冒・モ / ",
     "english": "Neutral=no bias. / FIG THI MAG SAM / GIZ ALC MON /"
   },
   {
     "resource": 38,
-    "message": 125,
+    "message": 124,
     "japanese": "休息を好む悪。稀に善に地心する者もいるようです。 / 可能職業：戦・盗・騎・神・忍・集・冒 / ",
     "english": "Evil=self-serving. / FIG THI MAG PRI / NIN BIS ALC /"
   },
   {
     "resource": 38,
-    "message": 126,
+    "message": 125,
     "japanese": "武闘のエキスパート。 / 騎法は習下できません。 / ",
     "english": "combat expert. / cannot learn any / magic spells. / "
   },
   {
     "resource": 38,
-    "message": 127,
+    "message": 126,
     "japanese": "罠の発難度を下げる能力を持ち、また宝箱を / 見つけるのも下払です。 / lｖ３までの騎事務騎法を習下可能。 / ",
     "english": "Lowers trap level / & finds chests. / Sorcery Lv3. /"
   },
   {
     "resource": 38,
-    "message": 128,
+    "message": 127,
     "japanese": "騎事務騎法の使い手。 / 全ての騎事務騎法を習下可能。 / ",
     "english": "master of sorcery. / can learn all / sorcery spells. / "
   },
   {
     "resource": 38,
-    "message": 129,
+    "message": 128,
     "japanese": "神聖騎法の使い手。 / 不死族を退除するディスペルを覚えることができます。 / 全ての神聖騎法を習下可能。 / ",
     "english": "Holy magic master. / Can Dispel undead. / All Holy spells. /"
   },
   {
     "resource": 38,
-    "message": 130,
+    "message": 129,
     "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / lｖ２までの騎事務騎法を習下可能。 / ",
     "english": "Great EXP gain. Can / instant-kill foes. / Sorcery up to Lv2. /"
   },
   {
     "resource": 38,
-    "message": 131,
+    "message": 130,
     "japanese": "騎士を気有させることができる武器、鎧を装備できます。 / lｖ５までの騎事務騎法を習下可能。 / ",
     "english": "Knight gear usable. / Learns Sorcery / up to Lv5. /"
   },
   {
     "resource": 38,
-    "message": 132,
+    "message": 131,
     "japanese": "自回復品を回復する能力を備えており、 / 不死族を退除するディスペルを覚えることができます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
     "english": "Restores HP. Dispel / vs undead. Sorc & / Holy Magic Lv6. /"
   },
   {
     "resource": 38,
-    "message": 133,
+    "message": 132,
     "japanese": "ポールアックス系の武器を装備できます。 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
     "english": "Poleaxe weapons. / Dispel vs undead. / Holy Magic Lv5. /"
   },
   {
     "resource": 38,
-    "message": 134,
+    "message": 133,
     "japanese": "冒金事を扱うことができる。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
     "english": "Handles alchemy. / Sorc & Holy Magic / up to Lv4. /"
   },
   {
     "resource": 38,
-    "message": 135,
+    "message": 134,
     "japanese": "長法の装備が可能で、トラップ発難度を下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ３までの騎事務騎法・神聖騎法を習下可能。 / ",
     "english": "Longbow user. Lowers / traps, steals items / Sorc+Holy Lv3. /"
   },
   {
     "resource": 38,
-    "message": 136,
+    "message": 135,
     "japanese": "スタッフやナックル系の武器を装備でき、 / 不死族を退除するディスペルを覚えることができます。 / lｖ５までの神聖騎法を習下可能。 / ",
     "english": "Staffs & knuckles. / Dispel vs undead. / Holy Magic Lv5. /"
   },
   {
     "resource": 38,
-    "message": 137,
+    "message": 136,
     "japanese": "聖なるオーラでパーティのhpを少しずつ回復する / ことができ、ディスペルを覚えることもできます。 / lｖ６までの騎事務騎法・神聖騎法を習下可能。 / ",
     "english": "Holy aura heals HP. / Can learn Dispel. / Sorc+Holy Lv6. /"
   },
   {
     "resource": 38,
-    "message": 138,
+    "message": 137,
     "japanese": "使われている装備の、その使いの消呪を / 打ち除すことができます。 / lｖ６までの騎事務騎法を習下可能。 / ",
     "english": "Removes curses from / equipped items. / Sorcery Lv6. /"
   },
   {
     "resource": 38,
-    "message": 139,
+    "message": 138,
     "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / さらにダークゾーンを見るなどの能力も備えています。 / lｖ５までの騎事務騎法を習下可能。 / ",
     "english": "Great EXP & insta- / kill. Sees in fog. / Sorcery Lv5. /"
   },
   {
     "resource": 38,
-    "message": 140,
+    "message": 139,
     "japanese": "唱手武器と防の同受装備や、同じ獲得系属の武器両種を / 同受に装備できる両鎧進の能力を持っています。 / lｖ６までの騎事務騎法を習下可能。 / ",
     "english": "Dual wields same / weapon type. Learns / Sorcery Lv6. /"
   },
   {
     "resource": 38,
-    "message": 141,
+    "message": 140,
     "japanese": "長法の装備が可能で、トラップ発難度を大きく下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / ",
     "english": "Longbow. Best trap / skill. Steals items / Sorc+Holy Lv4. /"
   },
   {
     "resource": 38,
-    "message": 142,
+    "message": 141,
     "japanese": "武器で獲得した受のダメージに影響します。 / ",
     "english": "affects damage dealt / with weapons. / "
   },
   {
     "resource": 38,
-    "message": 143,
+    "message": 142,
     "japanese": "騎事務騎法の威力、俄性に影響します。 / ",
     "english": "affects sorcery / power and / resistance. /"
   },
   {
     "resource": 38,
-    "message": 144,
+    "message": 143,
     "japanese": "神聖騎法の威力、俄性に影響します。 / ",
     "english": "affects holy magic / power and / resistance. /"
   },
   {
     "resource": 38,
-    "message": 145,
+    "message": 144,
     "japanese": "hpの低さや、ステータス取通に対する俄性、 / 復活の結果に影響します。 / ",
     "english": "affects max hp, / status resistance, / and revival success. / "
   },
   {
     "resource": 38,
-    "message": 146,
+    "message": 145,
     "japanese": "戦箱受に行動する前番に影響します。 / ",
     "english": "affects turn order / in battle. / "
   },
   {
     "resource": 38,
-    "message": 147,
+    "message": 146,
     "japanese": "ブレスに対する俄性や、クリティカルヒットの結果 / などに影響します。 / ",
     "english": "affects breath / resist and critical / hit chance. /"
   },
   {
     "resource": 38,
-    "message": 162,
+    "message": 161,
     "japanese": "villain / ",
     "english": "villain / "
   },
   {
     "resource": 38,
-    "message": 163,
+    "message": 162,
     "japanese": "gangster / ",
     "english": "gangster / "
   },
   {
     "resource": 38,
-    "message": 164,
+    "message": 163,
     "japanese": "clurelty / ",
     "english": "cruelty / "
   },
   {
     "resource": 38,
-    "message": 165,
+    "message": 164,
     "japanese": "vicious / ",
     "english": "vicious / "
   },
   {
     "resource": 38,
-    "message": 166,
+    "message": 165,
     "japanese": "dengerous / ",
     "english": "dangerous / "
   },
   {
     "resource": 38,
-    "message": 167,
+    "message": 166,
     "japanese": "curiosity / ",
     "english": "curiosity / "
   },
   {
     "resource": 38,
-    "message": 168,
+    "message": 167,
     "japanese": "commoner / ",
     "english": "commoner / "
   },
   {
     "resource": 38,
-    "message": 169,
+    "message": 168,
     "japanese": "adventurer / ",
     "english": "adventurer / "
   },
   {
     "resource": 38,
-    "message": 170,
+    "message": 169,
     "japanese": "guard / ",
     "english": "guard / "
   },
   {
     "resource": 38,
-    "message": 171,
+    "message": 170,
     "japanese": "boldness / ",
     "english": "boldness / "
   },
   {
     "resource": 38,
-    "message": 172,
+    "message": 171,
     "japanese": "bravery / ",
     "english": "bravery / "
   },
   {
     "resource": 38,
-    "message": 173,
+    "message": 172,
     "japanese": "famous / ",
     "english": "famous / "
   },
   {
     "resource": 38,
-    "message": 174,
+    "message": 173,
     "japanese": "veteran / ",
     "english": "veteran / "
   },
   {
     "resource": 38,
-    "message": 175,
+    "message": 174,
     "japanese": "conqueror / ",
     "english": "conqueror / "
   },
   {
     "resource": 38,
-    "message": 176,
+    "message": 175,
     "japanese": "hero / ",
     "english": "hero / "
   },
   {
     "resource": 38,
-    "message": 177,
+    "message": 176,
     "japanese": "queen guard / ",
     "english": "queen guard / "
   },
   {
     "resource": 38,
-    "message": 178,
+    "message": 177,
     "japanese": "commoner / ",
     "english": "commoner / "
   },
   {
     "resource": 38,
-    "message": 179,
+    "message": 178,
     "japanese": "honest person / ",
     "english": "honest person / "
   },
   {
     "resource": 38,
-    "message": 180,
+    "message": 179,
     "japanese": "kind / ",
     "english": "kind / "
   },
   {
     "resource": 38,
-    "message": 181,
+    "message": 180,
     "japanese": "reliable / ",
     "english": "reliable / "
   },
   {
     "resource": 38,
-    "message": 182,
+    "message": 181,
     "japanese": "great heart / ",
     "english": "great heart / "
   },
   {
     "resource": 38,
-    "message": 183,
+    "message": 182,
     "japanese": "fairness / ",
     "english": "fairness / "
   },
   {
     "resource": 38,
-    "message": 184,
+    "message": 183,
     "japanese": "norble / ",
     "english": "noble / "
   },
   {
     "resource": 38,
-    "message": 185,
+    "message": 184,
     "japanese": "achievement / ",
     "english": "achievement / "
   },
   {
     "resource": 38,
-    "message": 186,
+    "message": 185,
     "japanese": "sage / ",
     "english": "sage / "
   },
   {
     "resource": 38,
-    "message": 187,
+    "message": 186,
     "japanese": "god hand / ",
     "english": "god hand / "
   },
   {
     "resource": 38,
-    "message": 42,
+    "message": 41,
     "japanese": "ninja",
     "english": "ninja / "
+  },
+  {
+    "resource": 38,
+    "message": 34,
+    "japanese": "  / ",
+    "english": "  / "
   },
   {
     "resource": 38,
@@ -997,73 +1003,67 @@
   },
   {
     "resource": 38,
-    "message": 36,
-    "japanese": "  / ",
-    "english": "  / "
-  },
-  {
-    "resource": 38,
-    "message": 25,
+    "message": 24,
     "japanese": "",
     "english": "male / "
   },
   {
     "resource": 38,
-    "message": 26,
+    "message": 25,
     "japanese": "",
     "english": "female / "
   },
   {
     "resource": 38,
-    "message": 148,
+    "message": 147,
     "japanese": "",
     "english": "good \"g\" / "
   },
   {
     "resource": 38,
-    "message": 149,
+    "message": 148,
     "japanese": "",
     "english": "neutral \"n\" / "
   },
   {
     "resource": 38,
-    "message": 150,
+    "message": 149,
     "japanese": "",
     "english": "evil \"e\" / "
   },
   {
     "resource": 38,
-    "message": 151,
+    "message": 150,
     "japanese": "",
     "english": "good / "
   },
   {
     "resource": 38,
-    "message": 152,
+    "message": 151,
     "japanese": "",
     "english": "neutral / "
   },
   {
     "resource": 38,
-    "message": 153,
+    "message": 152,
     "japanese": "",
     "english": "evil / "
   },
   {
     "resource": 38,
-    "message": 154,
+    "message": 153,
     "japanese": "",
     "english": "g / "
   },
   {
     "resource": 38,
-    "message": 155,
+    "message": 154,
     "japanese": "",
     "english": "n / "
   },
   {
     "resource": 38,
-    "message": 156,
+    "message": 155,
     "japanese": "",
     "english": "e / "
   }
