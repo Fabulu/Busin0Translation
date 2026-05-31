@@ -1,0 +1,78 @@
+Loaded C:\Programmieren\wizardrytranslation\extracted\SLPM_653.78 (4185776 bytes)
+
+--- Patch 1: Save Slot Names ---
+  OK   0x3FC720: -> 'BUSIN 0'
+  OK   0x3FC750: -> 'BUSIN 0 Data 1'
+  OK   0x3FC770: -> 'BUSIN 0 Data 2'
+  OK   0x3FC790: -> 'BUSIN 0 Data 3'
+  OK   0x3F9370: -> 'BUSIN 0 Suspend'
+  OK   0x3F9678: -> 'BUSIN 0'
+
+--- Patch 2: Player-Visible Strings ---
+  OK   0x3F8240: -> 'Continue loading!\n'
+  OK   0x3F8260: -> 'No one can equip it.\n'
+
+--- Patch 3: NPC Names ---
+  OK   0x3C93B0: エミーリア -> 'Emilia' (6 glyphs + 2 pad)
+  OK   0x3C93C0: リュート -> 'Lute' (4 glyphs + 4 pad)
+
+--- Patch 4: Banner Glyph IDs (新規登録 -> New Reg.) ---
+  OK   0x3C33F0: 新 -> Ne (5 u16 values patched)
+  OK   0x3C3428: 規 -> w_ (5 u16 values patched)
+  OK   0x3C3268: 登 -> Re (6 u16 values patched)
+  OK   0x3C32A0: 録 -> g. (6 u16 values patched)
+
+=== Summary: 14 patches applied ===
+Written to C:\Programmieren\wizardrytranslation\build\SLPM_653.78_patched (4185776 bytes)
+============================================================
+  BUILD FULL ENGLISH PATCH  v2  (fixed pipeline)
+============================================================
+
+STEP 1: Loading translation chunks ...
+  data/translate_chunks/chunk_00_translated.json: 113 entries
+  data/translate_chunks/chunk_01_translated.json: 113 entries
+  data/translate_chunks/chunk_02_translated.json: 113 entries
+  data/translate_chunks/chunk_03_translated.json: 113 entries
+  data/translate_chunks/chunk_04_translated.json: 113 entries
+  data/translate_chunks/chunk_05_translated.json: 113 entries
+  data/translate_chunks/chunk_06_translated.json: 113 entries
+  data/translate_chunks/chunk_07_translated.json: 113 entries
+  data/translate_chunks/chunk_08_translated.json: 113 entries
+  data/translate_chunks/chunk_09_translated.json: 112 entries
+  data/translate_chunks/chunk_r38_fix.json: 12 entries (OVERRIDE)
+  data/translate_chunks/chunk_r43_fix.json: 26 entries (OVERRIDE)
+  data/translate_chunks/chunk_r37_extra.json: 111 entries (OVERRIDE)
+  data/translate_chunks/chunk_r36_translated.json: 158 entries (OVERRIDE)
+  data/translate_chunks/chunk_r37_r48_r49_translated.json: 232 entries (OVERRIDE)
+  data/translate_chunks/chunk_r40_r42_translated.json: 85 entries (OVERRIDE)
+  data/translate_chunks/chunk_r43_r45_translated.json: 264 entries (OVERRIDE)
+  data/translate_chunks/chunk_r34_fix.json: 564 entries (OVERRIDE)
+  Total raw entries: 2581
+  Unique (resource, message) pairs: 1842
+
+STEP 2: Cleaning and encoding translations ...
+  Encoded 1834 messages for 20 resources
+  Skipped 1 identity translations, 0 errors
+
+STEP 3: Injecting font atlas ...
+  Font atlas -> 1272_type01.raw (83968 bytes, 41 sectors)
+
+STEP 4: Injecting translations into MSG resources ...
+  R0034 (0034_type20.raw): replaced 587/1164 groups, 34->38 sectors, payload 972->1442, offset_table=rebuilt, extra_data=75744, extra_replaced=557
+  R0035 (0035_type02.raw): replaced 19/64 groups, 2->3 sectors, payload 524->626, offset_table=rebuilt, extra_data=3556
+  R0036 (0036_type01.raw): replaced 156/159 groups, 2->3 sectors, payload 3390->4064, offset_table=rebuilt, extra_data=690
+  R0037 (0037_type01.raw): replaced 126/127 groups, 2->2 sectors, payload 2908->2638, offset_table=rebuilt, extra_data=14, extra_replaced=1
+  R0038 (0038_type01.raw): replaced 186/189 groups, 4->5 sectors, payload 7512->8652, offset_table=rebuilt, extra_data=664
+  R0039 (0039_type15.raw): replaced 84/657 groups, 13->14 sectors, payload 2462->3058, offset_table=rebuilt, extra_data=24146
+  R0040 (0040_type01.raw): replaced 57/58 groups, 2->2 sectors, payload 2034->2968, offset_table=rebuilt, extra_data=108, extra_replaced=1
+  R0041 (0041_type01.raw): replaced 18/19 groups, 1->1 sectors, payload 1000->1514, offset_table=rebuilt, extra_data=32, extra_replaced=1
+  R0042 (0042_type01.raw): replaced 14/15 groups, 1->1 sectors, payload 614->978, offset_table=rebuilt, extra_data=26, extra_replaced=1
+  R0043 (0043_type01.raw): replaced 36/40 groups, 1->2 sectors, payload 1416->1748, offset_table=rebuilt, extra_data=616
+  R0044 (0044_type01.raw): replaced 58/59 groups, 2->2 sectors, payload 2306->3028, offset_table=rebuilt, extra_data=28, extra_replaced=1
+  R0045 (0045_type01.raw): replaced 194/198 groups, 4->5 sectors, payload 6950->9036, offset_table=rebuilt, extra_data=30, extra_replaced=1
+  R0046 (0046_type03.raw): replaced 7/243 groups, 11->11 sectors, payload 18740->18168, offset_table=rebuilt, extra_data=3772
+  R0047 (0047_type03.raw): replaced 29/130 groups, 2->3 sectors, payload 1962->2114, offset_table=rebuilt, extra_data=2118
+  R0048 (0048_type01.raw): replaced 108/108 groups, 2->2 sectors, payload 2186->3642, offset_table=rebuilt, extra_data=28, extra_replaced=1
+  R0049 (0049_type01.raw): replaced 112/112 groups, 2->3 sectors, payload 3458->5942, offset_table=rebuilt, extra_data=54, extra_replaced=1
+  R1053 (1053_type03.raw): replaced 4/168 groups, 19->20 sectors, payload 35200->35298, offset_table=none, extra_data=3696
+  R1908 (1908_type06.raw): replaced 3/14253 g
