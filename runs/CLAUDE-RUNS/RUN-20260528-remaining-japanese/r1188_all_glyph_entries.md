@@ -151,13 +151,34 @@ CLUT variant pages 0x1A-0x24 contain IDENTICAL (U,V,W) values but with different
 
 ---
 
-## 6. CRITICAL: Individual Character Entries Do NOT Exist for Tab Labels
+## 6. CRITICAL: Each Tab Label Is ONE Atomic Sprite
 
-Pages 0x0B (199 entries) and 0x0C (107 entries) contain individual character glyphs -- but they are for the keyboard grid display, NOT for tab labels. Their glyph IDs (0x0B00-0x0BC6, 0x0C00-0x0C6A) are different from the tab label IDs (0x1900-0x190C).
+### Table 2E Structure (file 0x3C9DA0)
 
-**Each tab label is ONE glyph ID rendering ONE sprite.** The sprite is a pre-composed multi-character bitmap in the atlas (e.g., the Japanese text "katakana" = 2 kanji rendered as a single 48x20 bitmap region).
+Table 2E stores one uint32 glyph ID per UI slot (4-byte stride, 0xFFFFFFFF = empty):
+
+| Slot | Offset | Glyph ID | UI Element |
+|------|--------|----------|------------|
+| 0 | +0x000 | 0x1900 | Kana tab |
+| 1 | +0x004 | 0x1901 | Hira tab |
+| 2 | +0x008 | 0x1902 | ABC tab |
+| 3 | +0x00C | 0x1903 | Sym tab |
+| 4 | +0x010 | 0x1904 | 5th tab |
+| 5-18 | +0x014-0x04B | 0xFFFFFFFF | (empty) |
+| 19 | +0x04C | 0x1905 | OK button |
+| 20 | +0x050 | 0x1906 | Male Name |
+| 21 | +0x054 | 0x1907 | Female Name |
+| 22 | +0x058 | 0x1908 | Delete |
+| 23 | +0x05C | 0x1909 | Clear |
+| 30 | +0x078 | 0x190A | Extra 1 |
+| 31 | +0x07C | 0x190B | Extra 2 |
+| 33 | +0x084 | 0x190C | Extra 3 |
+
+**Each tab has exactly ONE glyph ID.** The rendering code calls `render_bitmap_glyph` once per tab, drawing ONE sprite. That sprite is a pre-composed multi-character bitmap in the atlas (e.g., "katakana" = 2 kanji at ~48x20 pixels within a single W=100 sprite region).
 
 There are NO individual A, B, C character entries in group 0x19 that could be composed into English tab labels. Each tab is an atomic sprite.
+
+Pages 0x0B (199 entries) and 0x0C (107 entries) contain individual character glyphs for the keyboard grid display, but their glyph IDs (0x0B00-0x0BC6, 0x0C00-0x0C6A) are different from the tab label IDs and cannot be substituted via Table 2E.
 
 ---
 
@@ -233,3 +254,57 @@ Different pages start at different base VRAM block addresses:
 - Page 0x19: 0xB430 (46128 blocks)
 
 These offsets correspond to different TBP0 base addresses, selecting which part of the R1188 VRAM upload to read from.
+
+---
+
+## 10. Definitive Answer: How to Display English Tab Labels
+
+### Each tab label IS an atomic pre-composed sprite
+
+Table 2E holds ONE glyph ID per tab. `render_bitmap_glyph` draws ONE sprite per call. Each sprite is approximately 48x20 pixels containing the complete Japanese label (e.g., the two katakana characters for "Kana" in a single sprite).
+
+The (U, V) cell coordinates + the b4:b5 VRAM block address determine which region of the R1188 atlas the sprite reads from. Each label has its own dedicated region.
+
+### Translation Approaches (ranked by feasibility)
+
+#### Approach 1: Edit R1188 atlas pixels at swizzled label positions (RECOMMENDED)
+
+Each label sprite reads from a specific area of the R1188 atlas. To translate:
+
+1. Determine the exact pixel area in the 1024x1024 deswizzled atlas that maps to each label's TBW=4 read coordinates
+2. Replace the Japanese label pixels with English text (e.g., "Kana", "Hira", "ABC", "Sym")
+3. Re-swizzle and rebuild the atlas
+
+The label regions in the TBW=4 atlas were visualized in `r1188_tbw4_all_tabs_v60_72_4x.png` -- these show the actual pixel data the GS reads for V=60-72. The mapping between TBW=4 coordinates and TBW=16 (1024px) pixel positions requires computing the PS2 PSMT4 block/page swizzle tables.
+
+#### Approach 2: Render English into unused atlas area + patch cell data
+
+1. Find unused rows in the R1188 atlas (bottom rows beyond the kanji grid)
+2. Render English label sprites ("Kana", "Hira", etc.) at those positions
+3. Patch the cell data entries at file 0x3D9B90 (U, V, and b4:b5) to point to the new positions
+4. Must also patch CLUT variant pages 0x1A-0x24 at their respective cell data offsets
+
+This requires understanding the exact relationship between (U, V, b4:b5) and pixel position.
+
+#### Approach 3: PCSX2 texture replacement (for testing only)
+
+Replace the captured textures via content hashes. Already has hashes identified:
+- `1f839869fab251d` -> "Kana" (48x20)
+- `9677cb23da53ff88` -> "Hira" (48x20)
+- `6f1fb24fad5cd1a` -> "ABC" (48x20)
+- `19a39fbc8a08d7ec` -> "Sym" (48x20)
+- `d09a04bdfaf715bc` -> "OK" (40x24)
+
+Works only in PCSX2 with texture replacement enabled. Not applicable to hardware.
+
+### Key File Offsets for Patching
+
+| What | File Offset | Size | Notes |
+|------|-------------|------|-------|
+| Table 2E (glyph IDs) | 0x3C9DA0 | ~168B | uint32 glyph IDs, 0xFFFFFFFF = empty |
+| Page 0x19 cell data | 0x3D9B90 | 104B | 13 x 8-byte entries |
+| Page 0x1A cell data | 0x3D9C00 | 104B | CLUT variant 1 |
+| Page 0x1B cell data | 0x3D9C70 | 104B | CLUT variant 2 |
+| Page 0x1C cell data | 0x3D9CE0 | 104B | CLUT variant 3 |
+| Page 0x1D cell data | 0x3D9D50 | 104B | CLUT variant 4 |
+| R1188 pixel data start | R1188 + 0xC00 | 524,288B | PSMT4 1024x1024 |
