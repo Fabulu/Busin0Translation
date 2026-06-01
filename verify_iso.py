@@ -77,8 +77,8 @@ if pack_lba:
     for check_gi, expected, label in [
         (2, 'str', 'STR stat'),
         (3, 'int', 'INT stat'),
-        (25, '[518]', 'Male (Mars)'),
-        (26, '[349]', 'Female (Venus)'),
+        (25, 'M', 'Male (M)'),
+        (26, 'F', 'Female (F)'),
         (29, 'human', 'Human race'),
         (34, 'automa', 'Automata race'),
     ]:

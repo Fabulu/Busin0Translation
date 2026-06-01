@@ -6,6 +6,8 @@ Patches applied:
   1. Save slot names       (Table 2G)  – fullwidth SJIS → ASCII
   2. Player-visible strings (Table 2L) – SJIS → ASCII
   3. NPC names              (Table 2F) – LE uint16 glyph IDs
+  4. Banner glyph IDs       (bytes 24-47) – kanji pair tiles → ASCII
+  5. Banner byte-50 glyph   (byte 50)     – third glyph ref per record
 """
 
 import os
@@ -212,6 +214,33 @@ def main():
                 print(f"  SKIP 0x{rec_off:06X}: {label} (already patched)")
             else:
                 print(f"  WARN 0x{rec_off:06X}: {label} (expected g1={old_g1}, got {check_val})")
+
+    # ─── PATCH 5: Banner byte-50 glyph IDs (新規登録 -> "new ") ─────────
+    # Each banner record has a THIRD glyph reference at byte 50 (offset +50
+    # from record start).  Patch 4 handled bytes 24-47; this patch fixes
+    # the remaining glyph at byte 50 so the full banner reads correctly.
+    #
+    # Display order: 新(n) 規(e) 登(w) 録( ) -> "new "
+
+    print("\n--- Patch 5: Banner byte-50 glyph IDs ---")
+    banner_byte50_patches = [
+        # (abs_offset, expected_old, new_glyph, label)
+        (0x3C3422, 498, 46, "rec 0x3C33F0 byte50: glyph 498 -> 46 (n)"),
+        (0x3C345A, 499, 37, "rec 0x3C3428 byte50: glyph 499 -> 37 (e)"),
+        (0x3C329A, 491, 55, "rec 0x3C3268 byte50: glyph 491 -> 55 (w)"),
+        (0x3C32D2, 492,  0, "rec 0x3C32A0 byte50: glyph 492 ->  0 (space)"),
+    ]
+
+    for abs_off, old_val, new_val, label in banner_byte50_patches:
+        cur = struct.unpack_from("<H", data, abs_off)[0]
+        if cur == old_val:
+            struct.pack_into("<H", data, abs_off, new_val)
+            print(f"  OK   0x{abs_off:06X}: {label}")
+            patched_count += 1
+        elif cur == new_val:
+            print(f"  SKIP 0x{abs_off:06X}: {label} (already patched)")
+        else:
+            print(f"  WARN 0x{abs_off:06X}: {label} (expected {old_val}, got {cur})")
 
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)
