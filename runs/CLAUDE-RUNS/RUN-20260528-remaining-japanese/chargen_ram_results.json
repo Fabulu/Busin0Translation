@@ -1,0 +1,711 @@
+[
+  {
+    "idx": 28,
+    "type": "type02",
+    "size": 18432,
+    "ram_addresses": [
+      "0x00DCB6C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 29,
+    "type": "type02",
+    "size": 266240,
+    "ram_addresses": [
+      "0x00ED3240"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 30,
+    "type": "type02",
+    "size": 825344,
+    "ram_addresses": [
+      "0x00F14280"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 31,
+    "type": "type02",
+    "size": 321536,
+    "ram_addresses": [
+      "0x00FDDAC0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 32,
+    "type": "type02",
+    "size": 6144,
+    "ram_addresses": [
+      "0x00DC7100"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 33,
+    "type": "type01",
+    "size": 4096,
+    "ram_addresses": [
+      "0x00DC8940"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 39,
+    "type": "type15",
+    "size": 26624,
+    "ram_addresses": [
+      "0x00E29900"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 47,
+    "type": "type03",
+    "size": 4096,
+    "ram_addresses": [
+      "0x0109AD40"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 922,
+    "type": "type02",
+    "size": 18432,
+    "ram_addresses": [
+      "0x00DCB6C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 923,
+    "type": "type02",
+    "size": 266240,
+    "ram_addresses": [
+      "0x00ED3240"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 924,
+    "type": "type02",
+    "size": 825344,
+    "ram_addresses": [
+      "0x00F14280"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 925,
+    "type": "type02",
+    "size": 321536,
+    "ram_addresses": [
+      "0x00FDDAC0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1054,
+    "type": "type02",
+    "size": 36864,
+    "ram_addresses": [
+      "0x00DD4700",
+      "0x0109BD80"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1156,
+    "type": "type02",
+    "size": 28672,
+    "ram_addresses": [
+      "0x010C7E40"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1157,
+    "type": "type02",
+    "size": 26624,
+    "ram_addresses": [
+      "0x010CEE80"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1158,
+    "type": "type02",
+    "size": 24576,
+    "ram_addresses": [
+      "0x010D56C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1159,
+    "type": "type02",
+    "size": 28672,
+    "ram_addresses": [
+      "0x010DB700"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1160,
+    "type": "type19",
+    "size": 256000,
+    "ram_addresses": [
+      "0x010E2740"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1161,
+    "type": "type01",
+    "size": 73728,
+    "ram_addresses": [
+      "0x010A4DC0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1175,
+    "type": "type104",
+    "size": 69632,
+    "ram_addresses": [
+      "0x010B6E00"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1191,
+    "type": "type03",
+    "size": 4096,
+    "ram_addresses": [
+      "0x00DC3E80"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1358,
+    "type": "type02",
+    "size": 34816,
+    "ram_addresses": [
+      "0x00E79180"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1359,
+    "type": "type02",
+    "size": 36864,
+    "ram_addresses": [
+      "0x00DD4700",
+      "0x0109BD80"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1360,
+    "type": "type02",
+    "size": 36864,
+    "ram_addresses": [
+      "0x00DDD740"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1361,
+    "type": "type02",
+    "size": 36864,
+    "ram_addresses": [
+      "0x00DE6780"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1362,
+    "type": "type02",
+    "size": 36864,
+    "ram_addresses": [
+      "0x00DEF7C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1363,
+    "type": "type02",
+    "size": 40960,
+    "ram_addresses": [
+      "0x00DF8800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1364,
+    "type": "type04",
+    "size": 71680,
+    "ram_addresses": [
+      "0x00E02840"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1368,
+    "type": "type62",
+    "size": 299008,
+    "ram_addresses": [
+      "0x00E30140"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1892,
+    "type": "type20",
+    "size": 8192,
+    "ram_addresses": [
+      "0x00DC1700"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1897,
+    "type": "type06",
+    "size": 8192,
+    "ram_addresses": [
+      "0x010727C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1898,
+    "type": "type06",
+    "size": 8192,
+    "ram_addresses": [
+      "0x010727C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1899,
+    "type": "type06",
+    "size": 8192,
+    "ram_addresses": [
+      "0x010727C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1910,
+    "type": "type02",
+    "size": 36864,
+    "ram_addresses": [
+      "0x00DB6E80"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 1951,
+    "type": "type02",
+    "size": 337920,
+    "ram_addresses": [
+      "0x012B2DC0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2087,
+    "type": "type01",
+    "size": 3956736,
+    "ram_addresses": [
+      "0x00DB8C90",
+      "0x00E76D4B",
+      "0x010AE993",
+      "0x0112633E"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2088,
+    "type": "type01",
+    "size": 5134336,
+    "ram_addresses": [
+      "0x00DB8C90",
+      "0x00E76D4B",
+      "0x010AE993",
+      "0x0112633E"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2089,
+    "type": "type01",
+    "size": 6567936,
+    "ram_addresses": [
+      "0x00DB8C90",
+      "0x00E76D4B",
+      "0x010AE993",
+      "0x0112633E"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2096,
+    "type": "type01",
+    "size": 14161920,
+    "ram_addresses": [
+      "0x00DB8C90",
+      "0x00E76D4B",
+      "0x010AE993",
+      "0x0112633E"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2097,
+    "type": "type01",
+    "size": 13418496,
+    "ram_addresses": [
+      "0x00DB8C90",
+      "0x00E76D4B",
+      "0x010AE993",
+      "0x0112633E"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2098,
+    "type": "type05",
+    "size": 301056,
+    "ram_addresses": [
+      "0x00D6D540"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2123,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2138,
+    "type": "type29",
+    "size": 1542144,
+    "ram_addresses": [
+      "0x01135C80"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2139,
+    "type": "type15",
+    "size": 6144,
+    "ram_addresses": [
+      "0x012AE4C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2155,
+    "type": "type10",
+    "size": 274432,
+    "ram_addresses": [
+      "0x0102C300"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2157,
+    "type": "type17",
+    "size": 53248,
+    "ram_addresses": [
+      "0x00E819C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2159,
+    "type": "type32",
+    "size": 280576,
+    "ram_addresses": [
+      "0x00E8EA00"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2552,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2558,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2562,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2563,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2564,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2565,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2566,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2568,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2569,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2580,
+    "type": "type03",
+    "size": 20480,
+    "ram_addresses": [
+      "0x01094240"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2586,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2587,
+    "type": "type02",
+    "size": 18432,
+    "ram_addresses": [
+      "0x01075040"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2588,
+    "type": "type02",
+    "size": 32768,
+    "ram_addresses": [
+      "0x01079880"
+    ],
+    "is_patched": true,
+    "ram_match": "RAM=NEITHER"
+  },
+  {
+    "idx": 2589,
+    "type": "type02",
+    "size": 34816,
+    "ram_addresses": [
+      "0x010818C0"
+    ],
+    "is_patched": true,
+    "ram_match": "RAM=NEITHER"
+  },
+  {
+    "idx": 2592,
+    "type": "type04",
+    "size": 18432,
+    "ram_addresses": [
+      "0x01092200"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2601,
+    "type": "type05",
+    "size": 4096,
+    "ram_addresses": [
+      "0x0108A100"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2603,
+    "type": "type02",
+    "size": 6144,
+    "ram_addresses": [
+      "0x0108B140"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2604,
+    "type": "type02",
+    "size": 6144,
+    "ram_addresses": [
+      "0x010909C0"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2606,
+    "type": "type04",
+    "size": 8192,
+    "ram_addresses": [
+      "0x01092200"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2608,
+    "type": "type02",
+    "size": 16384,
+    "ram_addresses": [
+      "0x0108C980"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  },
+  {
+    "idx": 2638,
+    "type": "type01",
+    "size": 2048,
+    "ram_addresses": [
+      "0x01071F00",
+      "0x01074800"
+    ],
+    "is_patched": false,
+    "ram_match": ""
+  }
+]
