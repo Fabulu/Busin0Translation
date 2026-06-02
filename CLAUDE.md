@@ -1,5 +1,9 @@
 # Busin 0: Wizardry Alternative Neo - English Fan Translation
 
+## ABSOLUTE RULE: REAL PS2 COMPATIBILITY
+
+**ALL fixes MUST work on real PS2 hardware.** PCSX2 texture replacement is an investigation tool ONLY — NEVER propose it as a solution. The user has stated this repeatedly. Every translation must modify the actual ISO data (PACKDATA resources, EXE patches, font atlases). If a fix only works in PCSX2, it is NOT a fix.
+
 ## CRITICAL TESTING INSTRUCTIONS
 
 **NEVER load save states from an older ISO build.** PCSX2 save states (.p2s) contain the FULL 32MB EE RAM including all loaded game resources. Loading a save state from v22 will show v22's data regardless of which ISO is mounted. **Always boot FRESH from the title screen** when testing a new ISO.
