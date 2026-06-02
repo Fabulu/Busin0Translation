@@ -52,7 +52,7 @@ print(f"Parsed {len(messages)} FFFF-delimited messages in glyph stream")
 assert len(messages) == 97, f"Expected 97 messages, got {len(messages)}"
 
 # ---------------------------------------------------------------------------
-# 3. Load translations (message indices are 1-based in the JSON files)
+# 3. Load translations (message indices match slot positions directly)
 # ---------------------------------------------------------------------------
 translations = {}
 for ci in range(10):
@@ -107,7 +107,7 @@ replaced = 0
 truncated = 0
 
 for slot_idx, (slot_start, slot_end) in enumerate(messages):
-    msg_id = slot_idx + 1  # translations are 1-indexed
+    msg_id = slot_idx  # JSON 'message' field matches slot index directly
     if msg_id not in translations:
         continue
 

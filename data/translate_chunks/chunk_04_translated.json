@@ -3,79 +3,79 @@
     "resource": 39,
     "message": 67,
     "japanese": "生命力が / ",
-    "english": "Vitality / "
+    "english": "VIT"
   },
   {
     "resource": 39,
     "message": 68,
     "japanese": "敏捷度が / ",
-    "english": "Agility / "
+    "english": "AGI"
   },
   {
     "resource": 39,
     "message": 69,
     "japanese": "幸運度が / ",
-    "english": "Luck / "
+    "english": "LCK"
   },
   {
     "resource": 39,
     "message": 70,
     "japanese": "up / ",
-    "english": "Up / "
+    "english": "Up"
   },
   {
     "resource": 39,
     "message": 71,
     "japanese": "pt / ",
-    "english": "Pt / "
+    "english": "Pt"
   },
   {
     "resource": 39,
     "message": 72,
     "japanese": "とつけかえますか？ / ",
-    "english": "Swap equipment? / "
+    "english": "Swp equip?"
   },
   {
     "resource": 39,
     "message": 73,
     "japanese": "防の使いでつけかえられません / ",
-    "english": "Cannot swap armor. / "
+    "english": "Cant swap armr"
   },
   {
     "resource": 39,
     "message": 74,
     "japanese": "武器の使いでつけかえられません / ",
-    "english": "Cannot swap weapon. / "
+    "english": "Cant swap weapn"
   },
   {
     "resource": 39,
     "message": 75,
     "japanese": "獲得系属が取なる武器は / 両鎧進にできません / ",
-    "english": "Weapons of different / element can't dual / wield /"
+    "english": "Diff elem / no 2h wld"
   },
   {
     "resource": 39,
     "message": 76,
     "japanese": "入手アイテム / ",
-    "english": "Items Obtained / "
+    "english": "Got Itm"
   },
   {
     "resource": 39,
     "message": 77,
     "japanese": "終了 / ",
-    "english": "Done / "
+    "english": "End"
   },
   {
     "resource": 39,
     "message": 78,
     "japanese": "アイテムを整理してください / ",
-    "english": "Manage your items. / "
+    "english": "Manage items."
   },
   {
     "resource": 39,
     "message": 79,
     "japanese": "入れ替えるキャラを選択してください / ",
-    "english": "Select a character. / "
+    "english": "Select a char."
   },
   {
     "resource": 39,
@@ -87,55 +87,55 @@
     "resource": 39,
     "message": 81,
     "japanese": "アイテム整理を終了します / ",
-    "english": "Finish organizing. / "
+    "english": "Finish org."
   },
   {
     "resource": 39,
     "message": 82,
     "japanese": "誰に使息しますか？ / ",
-    "english": "Use on whom? / "
+    "english": "On whom?"
   },
   {
     "resource": 39,
     "message": 83,
     "japanese": "わたすアイテムを選んでください / ",
-    "english": "Choose item to give. / "
+    "english": "Choose to give."
   },
   {
     "resource": 39,
     "message": 84,
     "japanese": "これでよろしいですか？ / ",
-    "english": "Is this OK? / "
+    "english": "Is this OK?"
   },
   {
     "resource": 39,
     "message": 85,
     "japanese": "必要な数を選んでいません / ",
-    "english": "Not enough selected. / "
+    "english": "Not enuf sel."
   },
   {
     "resource": 39,
     "message": 86,
     "japanese": "モンスターたちの気配が除えた！！ / ",
-    "english": "The monsters fled!! / "
+    "english": "Monsters fled!!"
   },
   {
     "resource": 39,
     "message": 87,
     "japanese": "が騎法で宝箱を見ています / ",
-    "english": " inspects the chest / "
+    "english": "inspcts chest"
   },
   {
     "resource": 39,
     "message": 88,
     "japanese": "宝箱の数 / ",
-    "english": "Treasure Chests / "
+    "english": "Chest"
   },
   {
     "resource": 39,
     "message": 89,
     "japanese": "宝箱の残り数 / ",
-    "english": "Chests Remaining / "
+    "english": "Remain"
   },
   {
     "resource": 40,

@@ -388,6 +388,11 @@ def inject_resource(res_idx, msg_trans):
             # (which already contains FFFE line breaks from clean_and_encode)
             for g in msg_trans[gi]:
                 new_stream += struct.pack('>H', g)
+            # Ensure trailing FFFE before FFFF -- the original format requires
+            # every group to end with FFFE FFFF. clean_and_encode() strips
+            # trailing FFFE, so we must restore it here.
+            if not msg_trans[gi] or msg_trans[gi][-1] != 0xFFFE:
+                new_stream += struct.pack('>H', 0xFFFE)
             replaced += 1
         else:
             # Keep original group content (including internal FFFE markers)
@@ -404,6 +409,9 @@ def inject_resource(res_idx, msg_trans):
             if global_idx in msg_trans:
                 for g in msg_trans[global_idx]:
                     new_extra += struct.pack('>H', g)
+                # Ensure trailing FFFE before FFFF (same invariant as payload groups)
+                if not msg_trans[global_idx] or msg_trans[global_idx][-1] != 0xFFFE:
+                    new_extra += struct.pack('>H', 0xFFFE)
                 extra_replaced += 1
             else:
                 new_extra += extra_data_buf[egs:ege]
@@ -463,10 +471,15 @@ def inject_resource(res_idx, msg_trans):
     old_sc = len(raw) // SECTOR
     total_groups = len(ffff_groups) + len(extra_ffff_groups)
     extra_info = f', extra_replaced={extra_replaced}' if extra_replaced else ''
+    ot_info = 'none'
+    if has_offset_table:
+        ot_info = f'rebuilt (orig={ot_msg_count}, new={new_msg_count})'
+        if ot_msg_count != new_msg_count:
+            ot_info += ' *** COUNT CHANGED ***'
     return (rfn, f'replaced {replaced}/{total_groups} groups, '
                  f'{old_sc}->{sc} sectors, '
                  f'payload {h_payload_size}->{new_payload_size}, '
-                 f'offset_table={"rebuilt" if has_offset_table else "none"}, '
+                 f'offset_table={ot_info}, '
                  f'extra_data={len(extra_data)}{extra_info}')
 
 

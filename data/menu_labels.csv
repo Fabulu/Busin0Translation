@@ -119,3 +119,7 @@ stat_511,0x000000,511,0,,stat_label (shared:gender+align+pers),sex,abbrev
 stat_512,0x000000,512,0,,stat_label,sex,abbrev
 stat_515,0x000000,515,0,,stat_label,algn,abbrev
 stat_516,0x000000,516,0,,stat_label,pers,abbrev
+stat_504,0x000000,504,0,,stat_label (chargen sidebar class byte50),job,abbrev
+stat_513,0x000000,513,0,,stat_label (chargen sidebar race byte50),race,abbrev
+stat_514,0x000000,514,0,,stat_label (chargen sidebar race byte50-2),  ,abbrev
+stat_517,0x000000,517,0,,stat_label (chargen sidebar class byte50-2),  ,abbrev

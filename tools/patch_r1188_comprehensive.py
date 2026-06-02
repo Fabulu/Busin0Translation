@@ -42,7 +42,7 @@ import numpy as np
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE, "tools"))
 
-from psmt4_deswizzle import deswizzle_psmt4, swizzle_psmt4
+from psmt4_deswizzle import deswizzle_psmt4, swizzle_psmt4, _psmt4_nibble_addr, _psmct32_word_addr
 
 # ---------------------------------------------------------------------------
 # Paths & constants
@@ -59,6 +59,47 @@ TEX_W       = 1024
 TEX_H       = 1024
 DBW_CT32    = 512
 BW_PSMT4    = 1024
+ATLAS_TBP   = 0x2840   # GS TBP0 where R1188 is uploaded (256-byte blocks)
+VRAM_BLOCK_UNIT = 64   # VRAM_block values are in 64-byte units (= TBP/4 * 256)
+GLYPH_TBW   = 128     # PSMT4 TBW for glyph reads (any value >= 128 works for small coords)
+
+# ---------------------------------------------------------------------------
+# Stat label glyph cells (System B: Cell Data Page Table)
+#
+# Stat labels are composed of 1-3 kanji glyphs from R1188, rendered via
+# VRAM block addresses.  We patch each kanji's pixel data in-place.
+#
+# Format: (label, english_char, u_cell, v_cell, vram_block)
+#
+# Shared glyphs:
+#   力 (glyph 346): STR (sole char) and VIT (3rd char) -> renders 'T'
+#   度 (glyph 590): AGI (3rd char) and LCK (3rd char)  -> renders 'I'
+#
+# Compromise: STR shows as 'T', LCK shows as 'LCI' due to shared glyphs.
+# ---------------------------------------------------------------------------
+STAT_GLYPHS = [
+    # STR = 力 (shared with VIT-3)
+    ("STR",   "T",  1, 60, 0xA450),
+    # INT = 知 + 恵
+    ("INT-1", "I",  1, 66, 0xA270),
+    ("INT-2", "Q",  0, 84, 0xA480),
+    # PIE = 信 + 仰 + 心
+    ("PIE-1", "P",  0, 62, 0xA328),
+    ("PIE-2", "I",  1, 67, 0xA490),
+    ("PIE-3", "E",  0, 64, 0xA380),
+    # VIT = 生 + 命 + 力(shared)
+    ("VIT-1", "V",  0, 85, 0xA7E8),
+    ("VIT-2", "I",  4, 70, 0xA758),
+    # AGI = 敏 + 速 + 度(shared)
+    ("AGI-1", "A",  0, 74, 0xA3D0),
+    ("AGI-2", "G",  0, 86, 0xA7F0),
+    ("AGI-3", "I",  0, 82, 0xA410),
+    # LCK = 幸 + 運 + 度(shared)
+    ("LCK-1", "L",  0, 87, 0xA7F8),
+    ("LCK-2", "C",  0, 88, 0xA800),
+]
+STAT_GLYPH_W = 20
+STAT_GLYPH_H = 20
 
 # ---------------------------------------------------------------------------
 # PCSX2 texture replacement hashes
@@ -481,6 +522,156 @@ def create_pcsx2_replacements():
 
 
 # ---------------------------------------------------------------------------
+# Phase 4: Stat label kanji -> English via VRAM simulation
+#
+# The stat label glyphs are read by the game at VRAM addresses that differ
+# from the atlas upload TBP. The PSMT4 swizzle with different TBP causes
+# each glyph's 20x20 pixels to map to scattered positions in the deswizzled
+# atlas. Therefore we CANNOT patch in deswizzled atlas space.
+#
+# Instead, we work in VRAM space:
+# 1. Upload host data to VRAM using PSMCT32 addressing
+# 2. Clear and write English letters using PSMT4 addressing at each glyph's TBP
+# 3. Download from VRAM back to host data using PSMCT32 addressing
+# ---------------------------------------------------------------------------
+
+VRAM_SIZE = 4 * 1024 * 1024  # PS2 GS VRAM = 4MB
+
+
+def render_letter_indices(letter, width, height, font_size=16):
+    """Render a single letter as a 2D list of PSMT4 palette indices (0-15)."""
+    img = Image.new("L", (width, height), 0)
+    draw = ImageDraw.Draw(img)
+    font = get_font(font_size)
+
+    bbox = draw.textbbox((0, 0), letter, font=font)
+    tw = bbox[2] - bbox[0]
+    th = bbox[3] - bbox[1]
+
+    while tw > width - 1 and font_size > 8:
+        font_size -= 1
+        font = get_font(font_size)
+        bbox = draw.textbbox((0, 0), letter, font=font)
+        tw = bbox[2] - bbox[0]
+        th = bbox[3] - bbox[1]
+
+    x = (width - tw) // 2 - bbox[0]
+    y = (height - th) // 2 - bbox[1]
+    draw.text((x, y), letter, fill=255, font=font)
+
+    pixels = img.load()
+    result = []
+    for py in range(height):
+        row = []
+        for px in range(width):
+            v = pixels[px, py]
+            idx = round(v * 15 / 255)
+            row.append(idx)
+        result.append(row)
+    return result
+
+
+def _vram_upload(vram, host_data, tbp_blocks, upload_w):
+    """Upload host data to VRAM using PSMCT32 addressing."""
+    base = tbp_blocks * 256
+    upload_h = len(host_data) // (upload_w * 4)
+    for y in range(upload_h):
+        for x in range(upload_w):
+            off = (y * upload_w + x) * 4
+            if off + 4 > len(host_data):
+                return
+            wa = _psmct32_word_addr(x, y, upload_w)
+            vb = base + wa * 4
+            if vb + 4 <= len(vram):
+                vram[vb:vb+4] = host_data[off:off+4]
+
+
+def _vram_download(vram, tbp_blocks, upload_w, data_size):
+    """Read host data back from VRAM using PSMCT32 addressing."""
+    base = tbp_blocks * 256
+    upload_h = data_size // (upload_w * 4)
+    out = bytearray(data_size)
+    for y in range(upload_h):
+        for x in range(upload_w):
+            wa = _psmct32_word_addr(x, y, upload_w)
+            vb = base + wa * 4
+            off = (y * upload_w + x) * 4
+            if vb + 4 <= len(vram) and off + 4 <= data_size:
+                out[off:off+4] = vram[vb:vb+4]
+    return out
+
+
+def _read_psmt4(vram, tbp_byte, u, v, tbw):
+    """Read a single PSMT4 pixel from VRAM."""
+    nib = _psmt4_nibble_addr(u, v, tbw)
+    ba = tbp_byte + nib // 2
+    if ba >= len(vram):
+        return 0
+    bv = vram[ba]
+    return (bv >> 4) & 0xF if nib & 1 else bv & 0xF
+
+
+def _write_psmt4(vram, tbp_byte, u, v, tbw, value):
+    """Write a single PSMT4 pixel to VRAM."""
+    nib = _psmt4_nibble_addr(u, v, tbw)
+    ba = tbp_byte + nib // 2
+    if ba >= len(vram):
+        return
+    bv = vram[ba]
+    if nib & 1:
+        vram[ba] = (bv & 0x0F) | ((value & 0xF) << 4)
+    else:
+        vram[ba] = (bv & 0xF0) | (value & 0xF)
+
+
+def patch_stat_labels_vram(host_data):
+    """Patch stat label kanji glyphs in VRAM space.
+
+    Uploads host data to VRAM, modifies glyph pixels using PSMT4 addressing
+    at each glyph's TBP, then downloads back to host format.
+
+    Returns (patched_host_data, total_edits).
+    """
+    vram = bytearray(VRAM_SIZE)
+    _vram_upload(vram, host_data, ATLAS_TBP, DBW_CT32)
+
+    total_edits = 0
+
+    for label, eng_char, u, v, vram_block in STAT_GLYPHS:
+        tbp_byte = vram_block * VRAM_BLOCK_UNIT
+
+        # Count original non-zero pixels (for logging)
+        orig_nz = 0
+        for dy in range(STAT_GLYPH_H):
+            for dx in range(STAT_GLYPH_W):
+                if _read_psmt4(vram, tbp_byte, u + dx, v + dy, GLYPH_TBW) > 0:
+                    orig_nz += 1
+
+        # Clear the glyph area
+        for dy in range(STAT_GLYPH_H):
+            for dx in range(STAT_GLYPH_W):
+                _write_psmt4(vram, tbp_byte, u + dx, v + dy, GLYPH_TBW, 0)
+
+        # Render and write English letter
+        letter = render_letter_indices(eng_char, STAT_GLYPH_W, STAT_GLYPH_H)
+        edits = 0
+        for dy in range(STAT_GLYPH_H):
+            for dx in range(STAT_GLYPH_W):
+                val = letter[dy][dx]
+                if val > 0:
+                    _write_psmt4(vram, tbp_byte, u + dx, v + dy, GLYPH_TBW, val)
+                    edits += 1
+
+        total_edits += edits
+        print(f"    {label:7s}: '{eng_char}' VRAM=0x{vram_block:04X}, "
+              f"cleared={orig_nz}, written={edits}")
+
+    # Download patched host data
+    patched = _vram_download(vram, ATLAS_TBP, DBW_CT32, len(host_data))
+    return patched, total_edits
+
+
+# ---------------------------------------------------------------------------
 # Debug visualisation
 # ---------------------------------------------------------------------------
 
@@ -507,7 +698,7 @@ def save_debug_image(linear, path, y_range=None, zoom=2):
 def main():
     print("=" * 60)
     print("  R1188 Comprehensive Patcher")
-    print("  (stat labels, sidebar, gender, banner, tabs, kana)")
+    print("  (kana cells, bottom labels, PCSX2 replacements)")
     print("=" * 60)
     print()
 
@@ -550,7 +741,7 @@ def main():
     pcsx2_count = create_pcsx2_replacements()
     print(f"           {pcsx2_count} replacement files in {REPLACE_DIR}")
 
-    # ---- Debug images ----
+    # ---- Debug images (after Phase 1 & 2, before Phase 4) ----
     os.makedirs(DEBUG_DIR, exist_ok=True)
 
     kana_debug = os.path.join(DEBUG_DIR, "R1188_patched_kana_rows.png")
@@ -565,12 +756,12 @@ def main():
     save_debug_image(linear, full_debug, zoom=1)
     print(f"  Debug    : {full_debug}")
 
-    # ---- Re-swizzle ----
+    # ---- Re-swizzle (Phase 1+2 patches) ----
     print("\n  Re-swizzling to PSMCT32 upload format ...")
     reswizzled = swizzle_psmt4(linear, TEX_W, TEX_H,
                                 bw_psmt4=BW_PSMT4, dbw_ct32=DBW_CT32)
 
-    # ---- Round-trip verification ----
+    # ---- Round-trip verification (Phase 1+2) ----
     re_lin = deswizzle_psmt4(reswizzled, TEX_W, TEX_H,
                               bw_psmt4=BW_PSMT4, dbw_ct32=DBW_CT32)
     mismatches = sum(1 for a, b in zip(linear, re_lin) if a != b)
@@ -578,6 +769,13 @@ def main():
         print("  Round-trip verification: PASS")
     else:
         print(f"  Round-trip verification: FAIL ({mismatches} mismatches)")
+
+    # ---- Phase 4: Stat label kanji -> English via VRAM simulation ----
+    print(f"\n  Phase 4: Patching {len(STAT_GLYPHS)} stat label kanji glyphs ...")
+    print("           Using VRAM simulation (PSMCT32 upload -> PSMT4 edit -> PSMCT32 download)")
+    reswizzled, edits4 = patch_stat_labels_vram(reswizzled)
+    print(f"           {edits4} pixel edits")
+    print("           Results: STR->T, INT->IQ, PIE->PIE, VIT->VIT, AGI->AGI, LCK->LCI")
 
     # ---- Write output ----
     # Use the original raw file layout (16-byte container + GIF header)
@@ -604,7 +802,8 @@ def main():
     print(f"    Kana cells overwritten:     {len(ALL_KANA_CELLS)}")
     print(f"    Bottom-row labels:          {len(BOTTOM_LABELS_DEDUP)}")
     print(f"    PCSX2 replacement PNGs:     {pcsx2_count}")
-    print(f"    Total pixel edits:          {edits1 + edits2}")
+    print(f"    Stat label glyphs:          {len(STAT_GLYPHS)}")
+    print(f"    Total pixel edits:          {edits1 + edits2 + edits4}")
     print(f"    Round-trip:                 {'PASS' if mismatches == 0 else 'FAIL'}")
     print(f"{'=' * 60}")
     print("\nDone!")

@@ -151,6 +151,11 @@ print("\n=== Step 3.6: R1188 comprehensive patch ===")
 os.system('python tools/patch_r1188_comprehensive.py')
 print("  R1188 patched (kana, stat/sidebar/tab labels, banner, PCSX2 replacements)")
 
+# ===== STEP 3.7: R1188 stat label bw=256 patch =====
+print("\n=== Step 3.7: R1188 stat labels (bw=256) ===")
+os.system('python tools/patch_r1188_bw256.py')
+print("  R1188 stat labels patched (bw=256)")
+
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
 

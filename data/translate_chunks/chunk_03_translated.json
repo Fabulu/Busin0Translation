@@ -315,43 +315,43 @@
     "resource": 39,
     "message": 1,
     "japanese": "使う / ",
-    "english": "Use / "
+    "english": "Use"
   },
   {
     "resource": 39,
     "message": 2,
     "japanese": "装備 / ",
-    "english": "Equip / "
+    "english": "Eqp"
   },
   {
     "resource": 39,
     "message": 3,
     "japanese": "外す / ",
-    "english": "Unequip / "
+    "english": "Rmv"
   },
   {
     "resource": 39,
     "message": 4,
     "japanese": "sp殿放 / ",
-    "english": "SP Release / "
+    "english": "SPRel"
   },
   {
     "resource": 39,
     "message": 5,
     "japanese": "入れ替え / ",
-    "english": "Swap / "
+    "english": "Swap"
   },
   {
     "resource": 39,
     "message": 6,
     "japanese": "持てる / ",
-    "english": "Give / "
+    "english": "Give"
   },
   {
     "resource": 39,
     "message": 7,
     "japanese": "回復 / ",
-    "english": "Recover / "
+    "english": "Rcv"
   },
   {
     "resource": 39,
@@ -363,7 +363,7 @@
     "resource": 39,
     "message": 9,
     "japanese": "はい / ",
-    "english": "Yes / "
+    "english": "Yes"
   },
   {
     "resource": 39,
@@ -375,306 +375,306 @@
     "resource": 39,
     "message": 11,
     "japanese": "使いで外すことができません / ",
-    "english": "Cannot unequip / due to curse / "
+    "english": "Cant rmv / curse"
   },
   {
     "resource": 39,
     "message": 12,
     "japanese": "は使われていた  / ",
-    "english": " was cursed  / "
+    "english": "cursed"
   },
   {
     "resource": 39,
     "message": 13,
     "japanese": "仲間に持てますか？ / ",
-    "english": "Give to ally? / "
+    "english": "Give ally?"
   },
   {
     "resource": 39,
     "message": 14,
     "japanese": "は崩れた  / ",
-    "english": " crumbled  / "
+    "english": "broke"
   },
   {
     "resource": 39,
     "message": 15,
     "japanese": "が回復しています / ",
-    "english": " is recovering / "
+    "english": "recoverng"
   },
   {
     "resource": 39,
     "message": 16,
     "japanese": "回復しました / ",
-    "english": "Recovered / "
+    "english": "Recovrd"
   },
   {
     "resource": 39,
     "message": 17,
     "japanese": "は / 使いで恐怖に十たされた  / ",
-    "english": " was / filled with fear  / "
+    "english": "was / fear-struck"
   },
   {
     "resource": 39,
     "message": 18,
     "japanese": "ここでは使えません / ",
-    "english": "Can't use here / "
+    "english": "No use hre"
   },
   {
     "resource": 39,
     "message": 19,
     "japanese": "を習下した  / ",
-    "english": " was learned  / "
+    "english": "learned"
   },
   {
     "resource": 39,
     "message": 20,
     "japanese": "が解除された  / ",
-    "english": " was removed  / "
+    "english": "removed"
   },
   {
     "resource": 39,
     "message": 21,
     "japanese": "mpが足りません / ",
-    "english": "Not enough MP / "
+    "english": "Low MP"
   },
   {
     "resource": 39,
     "message": 22,
     "japanese": "apがオーバーしています / ",
-    "english": "AP is exceeded / "
+    "english": "AP exceeded"
   },
   {
     "resource": 39,
     "message": 23,
     "japanese": "アレイドアクションの部隊を終えます / ",
-    "english": "End Allied Action / setup / "
+    "english": "End AA / setup"
   },
   {
     "resource": 39,
     "message": 24,
     "japanese": "必要なapが足りません / ",
-    "english": "Not enough AP / "
+    "english": "Not enuf AP"
   },
   {
     "resource": 39,
     "message": 25,
     "japanese": "装備できません / ",
-    "english": "Cannot equip / "
+    "english": "Cant eqp"
   },
   {
     "resource": 39,
     "message": 26,
     "japanese": "スペシャルパワーがありません / ",
-    "english": "No Special Power / "
+    "english": "No Special Pwr"
   },
   {
     "resource": 39,
     "message": 27,
     "japanese": "装備を外しますがよろしいですか？ / ",
-    "english": "Unequip item. OK? / "
+    "english": "Unequip item OK?"
   },
   {
     "resource": 39,
     "message": 28,
     "japanese": "回復できる者がいません / ",
-    "english": "No one to heal / "
+    "english": "No one heal"
   },
   {
     "resource": 39,
     "message": 29,
     "japanese": "入れ替える士がありません / ",
-    "english": "Nothing to swap / "
+    "english": "Nothing2swap"
   },
   {
     "resource": 39,
     "message": 30,
     "japanese": "このアイテムは使えません / ",
-    "english": "Can't use item / "
+    "english": "Cant use item"
   },
   {
     "resource": 39,
     "message": 31,
     "japanese": "つけかえることができません / ",
-    "english": "Cannot re-equip / "
+    "english": "Cant re-equip"
   },
   {
     "resource": 39,
     "message": 32,
     "japanese": "何も持っていません / ",
-    "english": "No items held / "
+    "english": "No items"
   },
   {
     "resource": 39,
     "message": 33,
     "japanese": "編隊しますか？ / ",
-    "english": "Change formation? / "
+    "english": "Chg frm?"
   },
   {
     "resource": 39,
     "message": 39,
     "japanese": "習下可能 / ",
-    "english": "Can Learn / "
+    "english": "Learn"
   },
   {
     "resource": 39,
     "message": 40,
     "japanese": "習下不可 / ",
-    "english": "Cannot Learn / "
+    "english": "Cant"
   },
   {
     "resource": 39,
     "message": 41,
     "japanese": "解除可能 / ",
-    "english": "Can Remove / "
+    "english": "Remov"
   },
   {
     "resource": 39,
     "message": 42,
     "japanese": "解除不可 / ",
-    "english": "Cannot Remove / "
+    "english": "CantR"
   },
   {
     "resource": 39,
     "message": 43,
     "japanese": "master / ",
-    "english": "Master / "
+    "english": "Master"
   },
   {
     "resource": 39,
     "message": 44,
     "japanese": "編隊に成功しました / ",
-    "english": "Formation set / "
+    "english": "Form. set"
   },
   {
     "resource": 39,
     "message": 45,
     "japanese": "アイテムを入れ替えました / ",
-    "english": "Items swapped / "
+    "english": "Items swappd"
   },
   {
     "resource": 39,
     "message": 46,
     "japanese": "誰が編隊を行いますか？ / ",
-    "english": "Who will form up? / "
+    "english": "Who forms?"
   },
   {
     "resource": 39,
     "message": 47,
     "japanese": "組み編わせを選んでください / ",
-    "english": "Choose combination / "
+    "english": "Choose combo"
   },
   {
     "resource": 39,
     "message": 48,
     "japanese": "編隊しました / ",
-    "english": "Formation changed / "
+    "english": "Form OK"
   },
   {
     "resource": 39,
     "message": 49,
     "japanese": "今すぐ使息しますか？ / ",
-    "english": "Use it now? / "
+    "english": "Use it now?"
   },
   {
     "resource": 39,
     "message": 50,
     "japanese": "編隊く勲が足りません / ",
-    "english": "Not enough merit / for formation / "
+    "english": "Low merit"
   },
   {
     "resource": 39,
     "message": 51,
     "japanese": "どのオートマターを解除しますか？ / ",
-    "english": "Which Automata / to remove? / "
+    "english": "Rmv Automata?"
   },
   {
     "resource": 39,
     "message": 52,
     "japanese": "騎法団と投入数を決めてください / ",
-    "english": "Set spell school / and amount / "
+    "english": "Set school / +amt"
   },
   {
     "resource": 39,
     "message": 53,
     "japanese": "変更する騎法団が０に / なっています。 / ",
-    "english": "Spell school to / change is at 0. / "
+    "english": "School / chg is at 0."
   },
   {
     "resource": 39,
     "message": 54,
     "japanese": "騎法団の変更を行いますか？ / ",
-    "english": "Change spell school? / "
+    "english": "Chg spell sch?"
   },
   {
     "resource": 39,
     "message": 55,
     "japanese": "どちらとつけかえますか？ / ",
-    "english": "Swap with which? / "
+    "english": "Swap w which?"
   },
   {
     "resource": 39,
     "message": 56,
     "japanese": " mhpに変更 / ",
-    "english": " Change to MHP / "
+    "english": ">MHP"
   },
   {
     "resource": 39,
     "message": 57,
     "japanese": " 力に変更 / ",
-    "english": " Change to STR / "
+    "english": ">STR"
   },
   {
     "resource": 39,
     "message": 58,
     "japanese": " 知恵に変更 / ",
-    "english": " Change to INT / "
+    "english": ">INT"
   },
   {
     "resource": 39,
     "message": 59,
     "japanese": " 信仰心に変更 / ",
-    "english": " Change to FTH / "
+    "english": ">FTH"
   },
   {
     "resource": 39,
     "message": 60,
     "japanese": " 生命力に変更 / ",
-    "english": " Change to VIG / "
+    "english": ">VIT"
   },
   {
     "resource": 39,
     "message": 61,
     "japanese": " 敏捷度に変更 / ",
-    "english": " Change to AGI / "
+    "english": ">AGI"
   },
   {
     "resource": 39,
     "message": 62,
     "japanese": " 幸運度に変更 / ",
-    "english": " Change to LCK / "
+    "english": ">LCK"
   },
   {
     "resource": 39,
     "message": 63,
     "japanese": "mhpが / ",
-    "english": "MHP / "
+    "english": "MHP"
   },
   {
     "resource": 39,
     "message": 64,
     "japanese": "力が / ",
-    "english": "STR / "
+    "english": "STR"
   },
   {
     "resource": 39,
     "message": 65,
     "japanese": "知恵が / ",
-    "english": "INT / "
+    "english": "INT"
   },
   {
     "resource": 39,
     "message": 66,
     "japanese": "信仰心が / ",
-    "english": "FTH / "
+    "english": "FTH"
   }
 ]

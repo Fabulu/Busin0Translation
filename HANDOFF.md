@@ -1,8 +1,32 @@
 # Agent Handoff: Busin 0 English Fan Translation
 
-## Date: 2026-06-01
-## Current Build: v33 (commit 09ac4c8)
-## Context Window: Exhausted after 20+ waves of investigation
+## Date: 2026-06-02 (updated)
+## Current Build: v33 (commit 088367b)
+## Context Window: Exhausted after extensive PACKDATA/TOC investigation
+
+---
+
+## CHARGEN KANJI MYSTERY — SOLVED (2026-06-02)
+
+### Root Cause
+R2100 (type-04, 139KB, PACKDATA sectors 17-84) and R1370 (type-04, 82KB, sectors 85-124) are embedded in the PACKDATA header gap. rebuild_packdata.py copies them VERBATIM from the original Japanese disc and NEVER modifies them. These resources provide essential data for the chargen/name entry screen.
+
+### Evidence
+- Zeroing both R2100+R1370 → name entry screen blacks out
+- TOC nuke (zeroing all 125 header sectors) → entire game blacks out
+- Zeroing individual resources at TOC sector offsets → no effect (those resources are fine)
+- R1188 at TOC[1188] XOR → no crash, no change (R1188 may not be the font atlas we thought)
+
+### Fix Path
+1. Isolate which resource (R2100 vs R1370) provides the chargen font data
+2. Analyze its type-04 format
+3. Modify it with English text/font data
+4. Update rebuild_packdata.py to include modified R2100/R1370 instead of copying original
+
+### What Works (confirmed)
+- Dialogue text via R1272 + R38/R39 glyph streams ✓
+- EXE patches (save slots, NPC names, banner) ✓
+- PCSX2 texture replacement for chargen labels ✓ (emulator-only)
 
 ---
 
@@ -142,10 +166,38 @@ Files confirmed correct (no shift needed):
 ### Analysis Reports
 - `runs/CLAUDE-RUNS/RUN-20260528-remaining-japanese/` — 100+ analysis reports
 
+## 2026-06-01 SESSION FINDINGS (CRITICAL)
+
+### TOC Nuke Test: BLACK SCREEN
+Zeroed the entire PACKDATA TOC (first 23,072 bytes) in the built ISO. Result: **BLACK SCREEN** on boot. This proves PCSX2 reads from the correct location in the ISO file and the TOC is essential. The game cannot function without it.
+
+### Individual Resource Zeroing: NO VISIBLE EFFECT
+Despite the TOC nuke proving correct byte offsets, zeroing individual resources (R1188, R1272, etc.) at their TOC-indicated offsets produces no visible change. The bytes ARE at the correct positions (verified), yet the game renders everything normally.
+
+### PACKDATA Header Has 221KB Secondary Structure
+`rebuild_packdata.py` copies a 221KB block verbatim from the original PACKDATA header. This secondary structure (beyond the TOC) is copied as-is without modification. **Next investigation: this secondary structure may contain embedded resource data or alternate pointers that the game actually reads.**
+
+### R1188 XOR Test: Definitive Dead Resource
+XOR-flipped the entire 528KB of R1188 at TOC[1188]. Result: **no crash, no visual change, nothing.** The game does not read TOC[1188] at all. All prior R1188 pixel patching work targeted a dead resource.
+
+### All Working Translations Confirmed
+Dialogue, R38 sidebar labels, EXE patches -- all confirmed present and functional in the built ISO. The build pipeline produces correct output.
+
+### PCSX2 Texture Replacement Works for Chargen
+Texture replacement at the GS level successfully shows English stat labels. This is emulator-only (not an in-ISO solution) but confirms the rendering path uses R1272 glyphs.
+
+### PACKDATA Overflow Bug
+PACKDATA overflows into BSN2_0.DSI by 90 sectors, causing audio corruption. The rebuilt PACKDATA is larger than the original due to variable-size type-2 resources growing from translation. This needs a fix (shrink resources or relocate BSN2_0.DSI).
+
+---
+
 ## SUGGESTED NEXT APPROACHES
 
+### 0. PACKDATA secondary structure analysis (HIGHEST PRIORITY)
+The 221KB secondary structure in the PACKDATA header is copied verbatim by rebuild_packdata.py. It may contain embedded resource data, alternate offset tables, or cached copies of font/texture data. Analyze its format: does it contain pointers? Does it duplicate TOC entries? Does it embed small resources inline? If the game reads font data from THIS structure rather than the TOC-indexed resources, that explains why individual resource zeroing has no effect.
+
 ### 1. Brute-force resource elimination
-Systematically wipe EVERY resource in PACKDATA (one at a time or in groups) until the stat labels disappear. There are 2,883 resources — but you can skip type-02 (dialogue), type-03/04/05/06 (3D data), and focus on type-01 resources we haven't tested.
+Systematically wipe EVERY resource in PACKDATA (one at a time or in groups) until the stat labels disappear. There are 2,883 resources -- but you can skip type-02 (dialogue), type-03/04/05/06 (3D data), and focus on type-01 resources we haven't tested.
 
 ### 2. GS VRAM capture during rendering
 Use PCSX2's GS debugger to capture the EXACT GS state (TEX0 register with TBP0) at the moment stat labels render. TBP0 tells you which VRAM page the kanji texture is at. Cross-reference with resource upload addresses to find the source resource.

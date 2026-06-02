@@ -242,6 +242,24 @@ def main():
         else:
             print(f"  WARN 0x{abs_off:06X}: {label} (expected {old_val}, got {cur})")
 
+    # ─── PATCH 6: NOP the RenderAllTiles call in chargen ─────────────
+    # System 2 draws kanji font tiles ON TOP of System 1's English text,
+    # hiding the translated stat labels. NOP the single JAL 0x30B840 call
+    # at VA 0x2F2568 (file offset 0x1F25E8) to disable the kanji overlay.
+    # This is the ONLY call to RenderAllTiles in the entire EXE.
+    print("\n--- Patch 6: NOP chargen RenderAllTiles (System 2 kanji overlay) ---")
+    ren_off = 0x1F25E8
+    expected_jal = struct.pack("<I", 0x0C0C2E10)  # JAL 0x30B840
+    actual = data[ren_off:ren_off+4]
+    if actual == expected_jal:
+        struct.pack_into("<I", data, ren_off, 0x00000000)  # NOP
+        print(f"  OK   0x{ren_off:06X}: JAL 0x30B840 -> NOP")
+        patched_count += 1
+    elif actual == b'\x00\x00\x00\x00':
+        print(f"  SKIP 0x{ren_off:06X}: already NOP'd")
+    else:
+        print(f"  WARN 0x{ren_off:06X}: expected JAL 0x30B840 ({expected_jal.hex()}), got {actual.hex()}")
+
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     open(dst, "wb").write(data)
