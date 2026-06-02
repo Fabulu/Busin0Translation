@@ -15,9 +15,32 @@ orig_size = os.path.getsize('extracted/PACKDATA.DIG')
 
 with open('build/PACKDATA_v3.DIG', 'wb') as out:
     out.write(hdr)
+    patched = 0
+
+    # Patch R2100 in header (sectors 17-84, 68 sectors = 139,264 bytes)
+    r2100_path = 'build/packdata_resources/2100_type04.raw'
+    if os.path.exists(r2100_path):
+        r2100_data = open(r2100_path, 'rb').read()
+        assert len(r2100_data) <= 68 * SECTOR, f'R2100 too large: {len(r2100_data)} > {68*SECTOR}'
+        r2100_data += b'\x00' * (68 * SECTOR - len(r2100_data))
+        out.seek(17 * SECTOR)
+        out.write(r2100_data)
+        patched += 1
+        print(f'  Patched R2100 in header ({len(r2100_data)} bytes)')
+
+    # Patch R1370 in header (sectors 85-124, 40 sectors = 81,920 bytes)
+    r1370_path = 'build/packdata_resources/1370_type04.raw'
+    if os.path.exists(r1370_path):
+        r1370_data = open(r1370_path, 'rb').read()
+        assert len(r1370_data) <= 40 * SECTOR, f'R1370 too large: {len(r1370_data)} > {40*SECTOR}'
+        r1370_data += b'\x00' * (40 * SECTOR - len(r1370_data))
+        out.seek(85 * SECTOR)
+        out.write(r1370_data)
+        patched += 1
+        print(f'  Patched R1370 in header ({len(r1370_data)} bytes)')
+
     cs = 125
     ntoc = []
-    patched = 0
 
     for entry in manifest:
         idx = entry['index']

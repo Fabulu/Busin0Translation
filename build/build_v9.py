@@ -156,6 +156,10 @@ print("\n=== Step 3.7: R1188 stat labels (bw=256) ===")
 os.system('python tools/patch_r1188_bw256.py')
 print("  R1188 stat labels patched (bw=256)")
 
+# ===== STEP 3.8: R2100 chargen font atlas patch =====
+print("\n=== Step 3.8: R2100 chargen font atlas ===")
+os.system('python tools/patch_r2100.py')
+
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
 
