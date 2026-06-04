@@ -9,13 +9,13 @@
     "resource": 38,
     "message": 25,
     "japanese": "男",
-    "english": "M / "
+    "english": "♂ / "
   },
   {
     "resource": 38,
     "message": 26,
     "japanese": "女",
-    "english": "F / "
+    "english": "♀ / "
   },
   {
     "resource": 38,
@@ -45,13 +45,13 @@
     "resource": 38,
     "message": 151,
     "japanese": "善",
-    "english": "Good / "
+    "english": "G / "
   },
   {
     "resource": 38,
     "message": 153,
     "japanese": "悪",
-    "english": "Evil / "
+    "english": "E / "
   },
   {
     "resource": 38,

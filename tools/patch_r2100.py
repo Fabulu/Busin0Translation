@@ -17,6 +17,7 @@ Resource-level layout:
   - padding to sector boundary (139,264 bytes total = 68 sectors)
 """
 
+import math
 import struct
 import sys
 import os
@@ -67,6 +68,81 @@ BW_PSMT4 = 256
 #   生命      -> Vit (生=Vit, 命=blank)
 #   敏捷度    -> Agi (敏=Agi, 捷=blank, 度=blank)
 #   幸運      -> Lck (幸=Lck, 運=blank)
+
+# ── Gender symbol replacement map ──
+# ♂ and ♀ symbols rendered into R2100 kanji cells.
+# Placed in sub-block 2, row 10 (unused cells far from any keyboard/stat glyphs)
+# to avoid VRAM conflicts when the game uploads different sub-blocks.
+# Old positions (sub 2 row 0 col 6 = glyph 518, sub 1 row 5 col 13 = glyph 349)
+# shared VRAM space with keyboard ASCII cells, causing F and M to disappear.
+GENDER_PATCHES = {
+    # ♂ (Mars/male): sub-block 2, row 10, col 0 — glyph ID 672
+    (2, 10, 0): "male",
+    # ♀ (Venus/female): sub-block 2, row 10, col 1 — glyph ID 673
+    (2, 10, 1): "female",
+}
+
+
+def render_gender_symbol(symbol_name):
+    """Render ♂ or ♀ symbol procedurally into a 16x16 cell.
+
+    Returns list of 256 pixel values: 0=opaque (ink), 15=transparent (bg).
+    Draws anti-alias-free 1-bit shapes suitable for PSMT4 on real PS2 hardware.
+    """
+    # Start with all-transparent
+    pixels = [15] * (CELL_W * CELL_H)
+
+    def put(x, y):
+        if 0 <= x < CELL_W and 0 <= y < CELL_H:
+            pixels[y * CELL_W + x] = 0
+
+    if symbol_name == "male":
+        # ♂ Mars symbol: circle center (6,9), radius 4, arrow to upper-right
+        # Circle (r=4, center 6,9) using midpoint algorithm
+        cx, cy, r = 6, 9, 4
+        # Draw circle outline
+        for angle_step in range(360):
+            rad = math.radians(angle_step)
+            rx = round(cx + r * math.cos(rad))
+            ry = round(cy + r * math.sin(rad))
+            put(rx, ry)
+
+        # Arrow shaft: from circle edge (~upper-right at 45 deg) to corner area
+        # Circle edge at 45 deg: (6+2.8, 9-2.8) ~ (9, 6)
+        # Arrow tip at (13, 2)
+        # Shaft from (9,6) to (13,2)
+        for i in range(9):
+            t = i / 8
+            ax = round(9 + (13 - 9) * t)
+            ay = round(6 + (2 - 6) * t)
+            put(ax, ay)
+
+        # Arrowhead
+        # Tip at (13,2), barbs
+        put(13, 2)
+        put(12, 2); put(11, 2)  # horizontal barb left
+        put(13, 3); put(13, 4)  # vertical barb down
+
+    elif symbol_name == "female":
+        # ♀ Venus symbol: circle center (7,5), radius 4, cross below
+        cx, cy, r = 7, 5, 4
+        # Draw circle outline
+        for angle_step in range(360):
+            rad = math.radians(angle_step)
+            rx = round(cx + r * math.cos(rad))
+            ry = round(cy + r * math.sin(rad))
+            put(rx, ry)
+
+        # Vertical stem: from bottom of circle (7,9) down to (7,14)
+        for y in range(9, 15):
+            put(7, y)
+
+        # Horizontal crossbar at y=12
+        for x in range(5, 10):
+            put(x, 12)
+
+    return pixels
+
 
 STAT_PATCHES = {
     # Sub-block 1: STR and PIE components
@@ -202,12 +278,13 @@ def main():
         assert len(pixel_raw) == PIXEL_SIZE
         assert len(tail) == TAIL_SIZE
 
-        # Check if this sub-block has any patches
+        # Check if this sub-block has any patches (stat text or gender symbols)
         sub_patches = {(r, c): txt for (sb, r, c), txt in STAT_PATCHES.items() if sb == blk}
-        if not sub_patches:
+        sub_gender = {(r, c): sym for (sb, r, c), sym in GENDER_PATCHES.items() if sb == blk}
+        if not sub_patches and not sub_gender:
             continue
 
-        print(f"\n  Sub-block {blk}: {len(sub_patches)} patches")
+        print(f"\n  Sub-block {blk}: {len(sub_patches)} stat patches, {len(sub_gender)} gender patches")
 
         # Deswizzle
         linear = bytearray(deswizzle_psmt4(
@@ -215,7 +292,7 @@ def main():
             bw_psmt4=BW_PSMT4, dbw_ct32=DBW_CT32
         ))
 
-        # Apply patches
+        # Apply stat text patches
         for (row, col), text in sub_patches.items():
             label = f"({row},{col})"
             if text:
@@ -224,6 +301,15 @@ def main():
             else:
                 cell_data = [15] * (CELL_W * CELL_H)  # transparent
                 print(f"    Patch {label}: blank")
+            patch_cell(linear, row, col, cell_data)
+            patches_applied += 1
+
+        # Apply gender symbol patches
+        for (row, col), sym_name in sub_gender.items():
+            label = f"({row},{col})"
+            cell_data = render_gender_symbol(sym_name)
+            sym_char = "♂" if sym_name == "male" else "♀"
+            print(f"    Patch {label}: render '{sym_char}' ({sym_name})")
             patch_cell(linear, row, col, cell_data)
             patches_applied += 1
 

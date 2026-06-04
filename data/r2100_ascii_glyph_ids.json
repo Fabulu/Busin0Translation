@@ -1,0 +1,40 @@
+{
+  "description": "R2100 sub-block 0 ASCII letter glyph IDs for chargen stat labels",
+  "source": "r2100_glyph_map.json + EXE cell data page table at 0x3DB180",
+  "page": 0,
+  "formula": "glyph_id = (page << 8) | cell_index = cell_index (for page 0)",
+  "cell_index_formula": "cell_index = ASCII_code - 32",
+  "note_I": "Cell 41 (letter I) has pixel data in R2100 but its EXE cell entry at page 0 is ZEROED (all 8 bytes = 0x00). Must patch EXE cell entry before glyph ID 41 will render. All other letters have valid cell entries.",
+  "glyph_ids": {
+    "A": 33,
+    "C": 35,
+    "E": 37,
+    "G": 39,
+    "H": 40,
+    "I": 41,
+    "K": 43,
+    "L": 44,
+    "N": 46,
+    "P": 48,
+    "R": 50,
+    "S": 51,
+    "T": 52,
+    "V": 54
+  },
+  "exe_cell_data": {
+    "A_33": {"U": 1, "V": 60, "W": 100, "flag": 0, "vram": "0xA240", "gs": "0x004F"},
+    "C_35": {"U": 1, "V": 62, "W": 100, "flag": 0, "vram": "0xA250", "gs": "0x004F"},
+    "E_37": {"U": 1, "V": 64, "W": 100, "flag": 1, "vram": "0xA260", "gs": "0x004F"},
+    "G_39": {"U": 1, "V": 66, "W": 100, "flag": 0, "vram": "0xA270", "gs": "0x004F"},
+    "H_40": {"U": 1, "V": 67, "W": 100, "flag": 0, "vram": "0xA278", "gs": "0x004F"},
+    "I_41": {"U": 0, "V": 0, "W": 0, "flag": 0, "vram": "0x0000", "gs": "0x0000", "STATUS": "ZEROED - NEEDS FIX"},
+    "K_43": {"U": 0, "V": 61, "W": 100, "flag": 0, "vram": "0xA288", "gs": "0x004F"},
+    "L_44": {"U": 0, "V": 62, "W": 100, "flag": 0, "vram": "0xA290", "gs": "0x004F"},
+    "N_46": {"U": 0, "V": 60, "W": 100, "flag": 0, "vram": "0xA2A0", "gs": "0x004F"},
+    "P_48": {"U": 0, "V": 62, "W": 100, "flag": 0, "vram": "0xA2B0", "gs": "0x004F"},
+    "R_50": {"U": 0, "V": 64, "W": 100, "flag": 1, "vram": "0xA2C0", "gs": "0x004F"},
+    "S_51": {"U": 0, "V": 65, "W": 100, "flag": 0, "vram": "0xA2C8", "gs": "0x004F"},
+    "T_52": {"U": 0, "V": 60, "W": 100, "flag": 0, "vram": "0xA2D0", "gs": "0x004F"},
+    "V_54": {"U": 0, "V": 60, "W": 100, "flag": 0, "vram": "0xA2E0", "gs": "0x004F"}
+  }
+}

@@ -11,7 +11,7 @@ Categories of labels patched:
   - Stat labels:   Strength, IQ, Piety, Vitality, Agility, Luck
   - Sidebar labels: Gender, Class, Race, Align
   - Tab labels:    Kana, Hira, ABC, Sym
-  - Gender symbols: M.Name, F.Name
+  - Gender name buttons: M, F
   - Banner text:   New Character
   - Buttons:       OK, Delete, Clear
 
@@ -128,12 +128,13 @@ PCSX2_TITLE_120x24 = {
 }
 
 PCSX2_STAT_LABELS_64x16 = {
-    '280ea82c1c476a98': 'Luck',      # 幸運度
-    '4841ef9a2dc4981':  'Agility',   # 敏捷度
-    '5d0c6327e20384e7': 'Vitality',  # 生命力
-    'aa43f966ad69195e': 'Piety',     # 信仰心
-    'bb20512b10c3128b': 'IQ',        # 知恵
-    'f2013a64642252e3': 'Strength',  # 力
+    'f2013a64642252e3': 'HP',         # 最大HP (was misidentified as 力)
+    '280ea82c1c476a98': 'Str',        # 力
+    'd455234204274c43': 'Int',        # 知恵 (was missing)
+    'bb20512b10c3128b': 'Pie',        # 信仰心
+    'aa43f966ad69195e': 'Vit',        # 生命力
+    '5d0c6327e20384e7': 'Agi',        # 敏捷度
+    '4841ef9a2dc4981':  'Lck',        # 幸運度
 }
 
 # ---------------------------------------------------------------------------
@@ -295,8 +296,8 @@ BOTTOM_LABELS = [
     # Buttons
     (1009, 1020, 200, 239, "btn:ok",        "OK"),
     # Gender name labels
-    (1009, 1020, 242, 289, "lbl:mname",     "M.Name"),
-    (1009, 1020, 292, 339, "lbl:fname",     "F.Name"),
+    (1009, 1020, 242, 289, "lbl:mname",     "M"),
+    (1009, 1020, 292, 339, "lbl:fname",     "F"),
     # Action buttons
     (1009, 1020, 342, 389, "btn:delete",    "Delete"),
     (1009, 1020, 392, 439, "btn:clear",     "Clear"),

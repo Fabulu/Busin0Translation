@@ -160,6 +160,10 @@ print("  R1188 stat labels patched (bw=256)")
 print("\n=== Step 3.8: R2100 chargen font atlas ===")
 os.system('python tools/patch_r2100.py')
 
+# ===== STEP 3.9: R2138 unified patcher (all sub-resources) =====
+print("\n=== Step 3.9: R2138 unified patcher (sub0/4/6/7/25/26/27) ===")
+os.system('python tools/patch_r2138.py')
+
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
 

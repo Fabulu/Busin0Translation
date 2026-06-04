@@ -112,9 +112,9 @@ stat_719,0x000000,719,0,,stat_label,i,abbrev
 stat_590,0x000000,590,0,,stat_label,deg,abbrev
 stat_720,0x000000,720,0,,stat_label,lc,abbrev
 stat_721,0x000000,721,0,,stat_label,k,abbrev
-gender_male,0x000000,518,0,男,gender value - male,♂,symbol
-gender_female,0x000000,349,0,女,gender value - female,♀,symbol
-gender_female2,0x000000,418,0,女,gender value - female (alt),♀,symbol
+gender_male,0x000000,672,0,男,gender value - male,♂,symbol
+gender_female,0x000000,673,0,女,gender value - female,♀,symbol
+gender_female2,0x000000,673,0,女,gender value - female (alt),♀,symbol
 stat_511,0x000000,511,0,,stat_label (shared:gender+align+pers),sex,abbrev
 stat_512,0x000000,512,0,,stat_label,sex,abbrev
 stat_515,0x000000,515,0,,stat_label,algn,abbrev

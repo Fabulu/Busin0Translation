@@ -1,0 +1,133 @@
+EXE FONT DATA INVESTIGATION - 2026-06-01
+=========================================
+
+OBJECTIVE: Find where stat label kanji come from in the EXE binary
+EXE: extracted/SLPM_653.78 (4,185,776 bytes)
+
+=== ELF STRUCTURE ===
+- Only ONE LOAD segment: file 0x80, VA 0x100000, 0x3FDC80 bytes
+- No hidden secondary data segments
+- Section headers at 0x3FDD70 (8 sections)
+
+=== REGION 0x3B3200-0x3B4400 (4,608 bytes) ===
+VERDICT: NOT font data. Ascending value lookup table.
+- Pattern: 61 00 61 00 62 00 63 00 64 00 (ascending u16 values)
+- 256 unique byte values - smooth gradient, not glyph pixels
+- Rendered as 64-wide 8bpp: shows smooth ramp, no characters
+
+=== REGION 0x3F6100-0x3F7400 (4,864 bytes) ===
+VERDICT: NOT font data. ASCII debug strings.
+- Content: "Get Effect Common Data Opa : no Error : ID=%d"
+- Plain ASCII text with null padding
+
+=== REGION 0x3E0100-0x3E5200 (20,736 bytes) ===
+VERDICT: NOT font data. Padded data table with embedded strings.
+- 75% FF (padding), with scattered pointers and ASCII strings
+- Contains: "Shop Arbeit Star" and similar game strings
+
+=== 8KB ASCII BITMAP at 0x3D6C10 (8,192 bytes) ===
+VERDICT: THE KEY FINDING. Contains 256 characters:
+- Format: 1bpp monochrome, 128 pixels wide, 512 tall
+- Layout: 8 columns x 32 rows of 16x16 cells = 256 cells total
+- Cells 0-127: ASCII characters (Latin letters, digits, symbols)
+- Cells 128-255: JAPANESE CHARACTERS (kanji, katakana)
+  - These are dense complex glyphs (200+ pixels per cell)
+  - These ARE the stat label kanji (力, 体, 知, 信, etc.)
+- GS transfer header at 0x3D6B10 (precedes the pixel data)
+
+User reported "no effect" when patching this - this needs re-investigation.
+Possible explanations:
+  1. Save state was loaded instead of fresh boot (most likely)
+  2. The patch wasn't written to the correct ISO location
+  3. There are TWO copies of this data loaded into VRAM
+
+=== R1272 PIXEL DATA IN EXE ===
+VERDICT: NOT present. Zero 16-byte pattern matches.
+- Searched 5,346 distinctive patterns from original R1272
+- Zero matches in the entire EXE
+- R1272 font data is ONLY in PACKDATA
+
+=== R2100 PIXEL DATA IN EXE ===
+VERDICT: NOT present. Only GS header constants match.
+- 8 matches, all the same GS register constant at EXE 0x3D6A30
+- No actual pixel data from R2100 found in EXE
+
+=== BSN2_0.DSI ===
+VERDICT: No R1272-like font headers found.
+- 60.2 MB file searched for R1272 header signature
+- Zero matches
+
+=== MENU STRUCT RECORDS (0x3C3000-0x3C5300) ===
+- 160 records of 56 bytes each
+- Glyph ID fields at byte offsets 26, 30, 34, 38, 42, 46 (pairs, 32-bit aligned)
+- Third glyph reference at byte offset 50
+- Records reference R1272 glyph tiles (683-903 for menu labels)
+- Some byte-50 values ARE stat glyph IDs:
+  Record 24 (0x3C3540): byte50=504 (job)
+  Record 31 (0x3C36C8): byte50=511 (sex)
+  Record 32 (0x3C3700): byte50=512 (sex2)
+  Record 33 (0x3C3738): byte50=513 (race)
+  Record 34 (0x3C3770): byte50=514 (race2)
+  Record 35 (0x3C37A8): byte50=515 (algn)
+  Record 36 (0x3C37E0): byte50=516 (pers)
+  Record 37 (0x3C3818): byte50=517 (class2)
+  Record 59 (0x3C3CE8): byte50=535 (INT)
+  Record 130 (0x3C4C70): byte50=582 (AGI)
+  Record 138 (0x3C4E30): byte50=590
+
+=== ENGLISH GLYPH TABLE GAPS ===
+All stat glyph positions (346, 308, 320, 354, 504, 511-517, 535, 582, 590,
+696, 717-721) are EMPTY in english_glyph_table.json.
+generate_font_atlas.py creates these as transparent (value 15) in the atlas.
+The game should render them as invisible when using R1272.
+
+=== KEY ADDITIONAL FINDING: GLYPH TABLE AT 0x3C8A00-0x3C8F00 ===
+There is a glyph ID table (u16 values with u16 flags, stride 4) at 0x3C8A80-0x3C8F00.
+This appears to be a rendering-order glyph mapping used by the chargen/status system.
+Contains glyph IDs across the full R1272 range (86-866+) organized in groups of 6
+columns, each column separated by 57 (matching R1272 atlas geometry).
+
+=== CRITICAL CONCLUSIONS ===
+
+1. The EXE contains EXACTLY ONE font bitmap: 8KB at 0x3D6C10
+   - Format: 1bpp monochrome, 128 pixels wide, 512 pixels tall
+   - Layout: 8 columns x 32 rows of 16x16 pixel cells = 256 cells total
+   - Cells 0-127: Standard ASCII characters
+   - Cells 128-255: JAPANESE CHARACTERS (kanji, katakana for UI)
+   - GS transfer header at 0x3D6B10-0x3D6C0F (256 bytes)
+
+2. This is a SECOND, INDEPENDENT font system:
+   - System 1: R1272 PSMT4 atlas (12x12 cells, 4bpp, from PACKDATA)
+     Used for: menu labels, dialogue text, name entry
+   - System 2: EXE 1bpp bitmap (16x16 cells, 1bpp, embedded in EXE)
+     Used for: stat labels, debug text, system messages
+   - The stat labels (力, 体, 知, 信, etc.) come from System 2
+
+3. The "no effect" when patching may be because:
+   a. MOST LIKELY: save state was loaded instead of fresh boot
+   b. The GS header at 0x3D6B10 might need updating too
+   c. The stat label rendering code reads from a cached VRAM copy
+   d. The patch wasn't applied correctly to the ISO
+
+4. TO FIX stat labels:
+   - Replace Japanese glyphs (cells 128-255) in 8KB bitmap at EXE 0x3D6C10
+   - Each cell is 16x16 pixels, 1bpp (2 bytes per row, 32 bytes per cell)
+   - Must identify which cell index maps to which stat label
+   - Must test with FRESH BOOT from title screen, never a save state
+
+5. CONFIRMED: NO font pixel data from R1272 or R2100 exists in the EXE.
+   The only font bitmap is the 8KB block at 0x3D6C10.
+
+=== DEBUG IMAGES SAVED ===
+runs/CLAUDE-RUNS/ :
+- r1272_original_linear.png - Original R1272 without deswizzle
+- r1272_original_deswizzled.png - Original R1272 deswizzled
+- exe_ascii_bitmap_inverted.png - Full 8KB bitmap (128x512, 1bpp)
+- exe_bitmap_japanese_cells_labeled.png - Cells 128-255 labeled (KEY IMAGE)
+- exe_bitmap_ascii_cells_labeled.png - Cells 0-127 labeled
+- exe_ascii_bitmap_all_256_cells_4x.png - All 256 cells at 4x zoom
+
+runs/CLAUDE-RUNS/RUN-20260601-exe-font-search/ :
+- japanese_cells_128_255_hires.png - High-res Japanese cells with indices
+- cell_NNN.png - Individual cell renders (128-255)
+- findings.txt - This file

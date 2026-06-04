@@ -1,0 +1,200 @@
+PACKDATA.DIG Secondary Structure Analysis
+==========================================
+Date: 2026-06-01
+Region: File offsets 0x8740 (34,624) to 0x3E800 (256,000)
+Total size: 221,376 bytes (216.2 KB)
+Non-zero bytes: 181,169 (81.8%)
+
+Overview
+--------
+The PACKDATA.DIG "secondary structure" occupies the space between the end of
+the TOC (2,164 entries * 16 bytes = 34,624 bytes) and byte 256,000. It contains
+a set of pre-built GS (Graphics Synthesizer) texture upload packets -- complete
+PSMT8H font atlas textures with associated CLUT (Color Look-Up Table) palettes,
+GIF tag setup chains, slot descriptor tables, and pointer tables.
+
+This is NOT raw pixel data stored for later use. It is a fully-formed DMA packet
+chain ready to be sent to the PS2 EE->GIF->GS path. The game can upload these
+textures to GS VRAM directly from this header without any additional processing.
+
+
+Overall Layout
+--------------
+Offset      File Addr   Size       Content
+------      ---------   ----       -------
+0x0000      0x008740    192 B      Zero padding
+0x00C0      0x008800     64 B      Global mini-TOC (4 entries)
+0x0100      0x008840   ~800 B      Block 0: GS packet chain (10 packets)
+0x0430      0x008B70    420 B      Block 0: Slot descriptor table (11 slots)
+0x05D0      0x008D10   ~33 KB     Block 0: PSMT8H pixel data (256x256)
+0x8780      0x010EC0    192 B      Block 1: CLUT palette (48 RGBA entries)
+0x8840      0x010F80   ~800 B      Block 1: GS packet chain (10 packets)
+0x8B70      0x0112B0    420 B      Block 1: Slot descriptor table
+0x8D10      0x011450   ~33 KB     Block 1: PSMT8H pixel data
+0x10EC0     0x019600    192 B      Block 2: CLUT palette
+0x10F80     0x0196C0   ~800 B      Block 2: GS packet chain (10 packets)
+0x11250     0x019990    420 B      Block 2: Slot descriptor table
+0x113F0     0x019B30   ~33 KB     Block 2: PSMT8H pixel data
+0x19600     0x021D40    192 B      Block 3: CLUT palette
+0x196C0     0x021E00   ~800 B      Block 3: GS packet chain (10 packets)
+0x19990     0x022030    420 B      Block 3: Slot descriptor table
+0x19B30     0x022270   ~34 KB     Block 3: PSMT8H pixel data
+0x21D40     0x02A480    192 B      Block 4: CLUT palette
+0x21E00     0x02A540    720 B      Block 4: Zero padding + sub-TOC (4 entries)
+0x22100     0x02A840   2560 B      Block 4: GS packet chain (32 packets)
+0x22B10     0x02B250   ~1.5 KB    Block 4: Slot descriptor table (33 slots)
+0x22F00     0x02B640   ~35 KB     Block 4: PSMT8H pixel data
+0x2ADA0     0x03?         ?        Block 5: CLUT + sub-TOC
+0x2B7B0     0x033EF0   2560 B      Block 5: GS packet chain (32 packets)
+0x2C1B0     0x034FF0   ~1.5 KB    Block 5: Slot descriptor table (29+ slots)
+0x2C600     0x034D40   ~40 KB     Block 5: PSMT8H pixel data (to end)
+
+
+Global Mini-TOC (4 entries at 0x00C0)
+-------------------------------------
+Each entry is 16 bytes: [index:u32] [base:u32=0x8740] [offset:u32] [pad:u32=0]
+
+  Entry 0: offset=0x0040    -> Block 0 starts at file 0x8780
+  Entry 1: offset=0x8780    -> Block 1 starts at file 0x10EC0
+  Entry 2: offset=0x10EC0   -> Block 2 starts at file 0x19600
+  Entry 3: offset=0x19600   -> Block 3 starts at file 0x21D40
+
+All offsets are relative to base (0x8740). Each block is 0x8740 (34,624) bytes.
+Blocks 4-5 are NOT in this mini-TOC and extend beyond the 4-block boundary.
+
+
+CLUT Palette Structure (192 bytes per block)
+---------------------------------------------
+Each CLUT has 48 RGBA entries (48 * 4 = 192 bytes), organized as 3 color groups
+with 16 alpha gradient levels each:
+
+  Color 1: #FF8F33 (warm orange/gold) - alpha 124 down to 0
+  Color 2: #140D04 (dark brown/black) - alpha 124 down to 0
+  Color 3: #690011 (dark crimson red)  - alpha 124 down to 0
+
+The alpha values differ slightly between blocks (different gradient curves).
+Block 0 has NO separate CLUT -- it is embedded in the GS packet chain.
+These are likely used for the game's UI text rendering with colored outlines.
+
+
+GS Packet Chain (80 bytes per packet)
+--------------------------------------
+Each packet is 5 quadwords (80 bytes = 5 * 16). The chain forms a GIF A+D
+(Address+Data) packet that writes 4 GS registers:
+
+  Register 0x08 (CLAMP_1):   Clamping mode = 0x05 (repeat)
+  Register 0x34 (MIPTBP1_1): Mipmap base pointer config
+  Register 0x14 (TEX1_1):    Texture function (all zeros = default)
+  Register 0x06 (TEX0_1):    Texture parameters:
+    TBP0  = 0      (texture base pointer in GS VRAM)
+    TBW   = 4      (buffer width in 64-pixel units = 256 pixels)
+    PSM   = PSMT8H (8-bit indexed, high nibble, pixel format 0x14 = 20)
+    TW    = 8      (texture width = 2^8 = 256 pixels)
+    TH    = 8      (texture height = 2^8 = 256 pixels)
+    TCC   = 1      (texture color component = RGBA)
+    CBP   = 0      (CLUT buffer pointer)
+    CLD   = 1      (CLUT load mode = load)
+
+  NOTE: R1272 uses PSM=PSMT8H and 256x512. The secondary uses 256x256 (TH=8).
+  The secondary textures are HALF the height of R1272.
+
+Blocks 0-3 use TEX0_1 = 0x2000000621410000 (CBP=0)
+Blocks 4-5 use TEX0_1 = 0x2010000621410000 (slightly different upper bits)
+
+Blocks 0-3 have 10 identical GS packets each (pre-header: 0x0A, 0x0B).
+Blocks 4-5 have 32 identical GS packets each (pre-header: 0x20, 0x21/0x1D).
+The pre-header format is: [packet_count:u32] [slot_count_or_extra:u32] [pad:u64]
+
+
+Slot Descriptor Table
+---------------------
+After the GS packets, each block has a slot descriptor table. Each slot is a
+14-byte record (not 16-byte aligned, packed continuously):
+
+  Bytes 0-1:  Slot index (u16, sequential 0x00-0x0A for Block 0, 0x00-0x20 for Block 4)
+  Bytes 2-3:  Flags (0x01, 0x01)
+  Bytes 4-7:  Padding (0x00000000)
+  Bytes 8-9:  U dimension? (0x01, 0x00)
+  Bytes 10-11: V dimension? (0x01, 0x00)
+  Bytes 12-13: Separator (0x00, 0x00)
+  ... followed by FFFF FFFF FFFF marker
+
+After the slot table, a pointer sub-table follows:
+  Header: [flags] [zero] [value=0xC8/0x210] [dimensions]
+  Entries: [offset:u32] [zero:u32] [GS_addr:u32] [stride:u32]
+  GS addresses increment by 0x30 (48) per entry, consistent with GS VRAM page layout.
+
+Block 0: 11 slots (indices 0x00-0x0A), 10 pointer entries (GS addrs 0x80B8-0x8268)
+Block 4: 33 slots (indices 0x00-0x20), pointer entries at GS addrs 0x8200+
+
+
+Pixel Data Analysis
+-------------------
+The pixel data uses PSMT8H format (8-bit per pixel, stored in the high nibble
+of a 32-bit PSMCT32 framebuffer). For a 256x256 texture at PSMT8H, the pixel
+data requires 256*256 = 65,536 pixels, stored at 1 byte/pixel = 65,536 bytes
+maximum. However, the actual stored pixel data per block is only ~33-35 KB,
+suggesting partial textures or that only used rows are stored.
+
+Pixel value distribution (Block 0 pixel region):
+  Dominant nibble: 0xF (79.2% of all nibbles) = background/empty
+  This is consistent with a sparse font glyph atlas where most pixels are transparent.
+  The remaining ~21% of nibbles contain glyph stroke data.
+
+Full nibble distribution shows smooth anti-aliased glyphs with values 0-15
+representing varying opacity levels.
+
+
+Comparison with R1272 (Main Font Atlas)
+---------------------------------------
+R1272 (resource 1272, type-01, 65,792 bytes total):
+  - 192-byte header (sub-header + GIF A+D setup)
+  - 65,536 bytes PSMT8H pixel data (256x512)
+  - TEX0_1: TBP0=0 TBW=4 PSM=PSMT8H 256x512 CLD=1
+
+Secondary structure Block 0:
+  - Same GS register sequence (CLAMP_1, MIPTBP1_1, TEX1_1, TEX0_1)
+  - Same PSM (PSMT8H), same TBW (4), same TBP0 (0)
+  - BUT different TH: 256 vs 512 (half height)
+  - Pixel data NOT identical to R1272 (53% byte match, different glyph positions)
+  - Block 0 has more 0xF background (79%) vs R1272 (77%)
+
+The secondary structure textures are RELATED to but NOT copies of R1272. They are
+independent 256x256 PSMT8H font atlases, likely containing the SAME glyphs but
+arranged differently or at different sizes. The CLUT palettes (orange/brown/red)
+suggest these are specifically for colored UI text rendering (menus, labels, etc.)
+as opposed to R1272's plain dialogue text.
+
+
+Summary: 6 Texture Blocks
+--------------------------
+  Block 0: 10 slots, 256x256 PSMT8H, no CLUT, ~33 KB pixel data
+  Block 1: 10 slots, 256x256 PSMT8H, 48-entry CLUT (orange/brown/red), ~33 KB
+  Block 2: 10 slots, 256x256 PSMT8H, 48-entry CLUT, ~33 KB
+  Block 3: 10 slots, 256x256 PSMT8H, 48-entry CLUT, ~34 KB
+  Block 4: 32 slots, 256x256 PSMT8H, 48-entry CLUT (different TEX0), ~35 KB
+  Block 5: 32 slots, 256x256 PSMT8H, sub-TOC + CLUT (different TEX0), ~40 KB
+
+Total texture data: ~208 KB across 6 blocks
+Total slot count: 10+10+10+10+32+32 = 104 texture slots
+
+These are pre-built GS upload packets for UI/menu font textures. The game uses
+multiple color-variant font atlases (controlled by different CLUT palettes) for
+rendering menu labels, stat displays, and other UI text with colored outlines.
+
+The blocks with 10 slots (0-3) likely correspond to different UI contexts
+(e.g., in-battle menu, town menu, character screen, etc.), while the blocks
+with 32 slots (4-5) may handle the larger character sets needed for kanji/kana
+text in UI overlays.
+
+
+Translation Relevance
+---------------------
+For the English fan translation, these secondary structure textures should NOT
+need modification IF the game dynamically renders text using R1272's font atlas.
+However, if any UI labels are pre-rendered as sprites in these textures, they
+would need to be regenerated. The presence of 104 slots suggests these may be
+used for cached glyph rendering rather than pre-baked sprite text.
+
+The CLUT palettes define the color scheme for UI text rendering. These do not
+need modification for translation purposes.

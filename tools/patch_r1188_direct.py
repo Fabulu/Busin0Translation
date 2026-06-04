@@ -13,7 +13,7 @@ Two-pronged approach:
 Tab labels replaced:
   48x20: カナ->Kana, かな->Hira, 英数->ABC, 記号->Sym
   40x24: 決定->OK
-  48x20: 男名->M.Name, 女名->F.Name
+  48x20: 男名->M, 女名->F
   120x24: 新規登録->New Character
 
 R1188 layout:
@@ -89,8 +89,8 @@ STAT_LABELS_64x16 = {
 #   x=96:   "ABC"    (48x12)
 #   x=144:  "Sym"    (48x12)
 #   x=192:  "OK"     (40x12)
-#   x=232:  "M.Name" (48x12)
-#   x=280:  "F.Name" (48x12)
+#   x=232:  "M" (48x12)
+#   x=280:  "F" (48x12)
 #   x=328:  "Delete" (48x12)
 #   x=376:  "Clear"  (48x12)
 # Row 2 (y=1013):
@@ -103,8 +103,8 @@ ATLAS_LABELS = [
     (100, 1009, 48, 11, "ABC"),
     (150, 1009, 48, 11, "Sym"),
     (200, 1009, 40, 11, "OK"),
-    (242, 1009, 48, 11, "M.Name"),
-    (292, 1009, 48, 11, "F.Name"),
+    (242, 1009, 48, 11, "M"),
+    (292, 1009, 48, 11, "F"),
     (342, 1009, 48, 11, "Delete"),
     (392, 1009, 48, 11, "Clear"),
     # Row 2 (y=1011): title text (non-overlapping, starts after row 1 height)
