@@ -260,6 +260,26 @@ def main():
     else:
         print(f"  WARN 0x{ren_off:06X}: expected JAL 0x30B840 ({expected_jal.hex()}), got {actual.hex()}")
 
+    # ─── PATCH 7: Chargen gender glyph IDs (男/女 -> ♂/♀) ──────────────
+    # The chargen parameter table has hardcoded glyph IDs for gender display.
+    # Original: 353 (male kanji) and 349 (female kanji) rendered via System B.
+    # Patch to use 672 (♂) and 673 (♀) which have correct bitmaps in R2100.
+    print("\n--- Patch 7: Chargen gender glyphs (353->672, 349->673) ---")
+    gender_patches = [
+        (0x3C289E, 353, 672, "male: 353 -> 672 (♂)"),
+        (0x3C28E6, 349, 673, "female: 349 -> 673 (♀)"),
+    ]
+    for off, old_val, new_val, label in gender_patches:
+        cur = struct.unpack_from("<H", data, off)[0]
+        if cur == old_val:
+            struct.pack_into("<H", data, off, new_val)
+            print(f"  OK   0x{off:06X}: {label}")
+            patched_count += 1
+        elif cur == new_val:
+            print(f"  SKIP 0x{off:06X}: {label} (already patched)")
+        else:
+            print(f"  WARN 0x{off:06X}: {label} (expected {old_val}, got {cur})")
+
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     open(dst, "wb").write(data)
