@@ -483,6 +483,72 @@ def inject_resource(res_idx, msg_trans):
                  f'extra_data={len(extra_data)}{extra_info}')
 
 
+def fixup_r37_inplace(raw_path, translations):
+    """Build R37 by patching the ORIGINAL binary in-place.
+
+    The game reads keyboard data from FIXED byte offsets in R37, NOT the offset
+    table. The v2 pipeline's rebuild changes message sizes, shifting keyboard
+    groups to wrong positions. Fix: start from original R37, replace each
+    message's content in-place (truncate/pad to fit original size).
+    """
+    # Read ORIGINAL R37 from PACKDATA.DIG
+    with open('extracted/PACKDATA.DIG', 'rb') as f:
+        toc = f.read(2883 * 12)
+        r37_so, r37_sc, _ = struct.unpack_from('<III', toc, 37 * 12)
+        f.seek(r37_so * SECTOR)
+        orig = bytearray(f.read(r37_sc * SECTOR))
+
+    # Parse structure: 16-byte sub-header + offset table + glyph stream
+    msg_count = struct.unpack_from('>H', orig, 16)[0]
+    ot_start = 20  # first offset entry
+
+    # Find each FFFF group's byte range
+    groups = []
+    for gi in range(msg_count):
+        off = struct.unpack_from('>H', orig, ot_start + gi * 4)[0]
+        start = 16 + off
+        # Find the FFFF terminator
+        pos = start
+        while pos < len(orig) - 1:
+            if struct.unpack_from('>H', orig, pos)[0] == 0xFFFF:
+                break
+            pos += 2
+        groups.append((start, pos))  # (data_start, ffff_pos)
+
+    replaced = 0
+    for gi, glyphs in translations.items():
+        if gi >= len(groups):
+            continue
+        data_start, ffff_pos = groups[gi]
+        orig_data_size = ffff_pos - data_start  # bytes of glyph data (before FFFF)
+
+        # Encode new glyphs as BE u16
+        new_data = bytearray()
+        for g in glyphs:
+            new_data += struct.pack('>H', g)
+        # Ensure trailing FFFE
+        if not glyphs or glyphs[-1] != 0xFFFE:
+            new_data += struct.pack('>H', 0xFFFE)
+
+        if len(new_data) <= orig_data_size:
+            # Fits: write + zero-pad remainder
+            orig[data_start:data_start + len(new_data)] = new_data
+            for i in range(data_start + len(new_data), ffff_pos):
+                orig[i] = 0
+            replaced += 1
+        else:
+            # Truncate to fit (lose trailing content)
+            orig[data_start:ffff_pos] = new_data[:orig_data_size]
+            replaced += 1
+
+    # Write
+    out_sc = math.ceil(len(orig) / SECTOR)
+    orig += b'\x00' * (out_sc * SECTOR - len(orig))
+    open(raw_path, 'wb').write(orig)
+    print(f'  R37 in-place patch: {replaced}/{len(translations)} messages, {len(orig)} bytes')
+    print(f'  Keyboard groups preserved at original byte offsets')
+
+
 modified = 0
 for res_idx in sorted(encoded_by_res.keys()):
     msg_trans = encoded_by_res[res_idx]
@@ -494,6 +560,25 @@ for res_idx in sorted(encoded_by_res.keys()):
         print(f'  R{res_idx:04d}: SKIPPED -- {status}')
 
 print(f'  Modified {modified} resources')
+
+# R37 special handling: patch original binary in-place instead of rebuilding.
+# TWO critical constraints discovered through bisection testing:
+# 1. The game reads keyboard data from FIXED byte offsets (not the offset table),
+#    so the v2 pipeline's rebuild (which shifts message positions) breaks rendering.
+# 2. The game builds a global font metrics table from ALL R37 groups. Name groups
+#    (21-125) containing English F(38)/M(45) overwrite the keyboard's metrics for
+#    those glyphs, making them invisible. Fix: only translate groups 0-20 (labels +
+#    keyboards), leave 21+ (default names) as original Japanese.
+r37_path = 'build/packdata_resources/0037_type01.raw'
+if 37 in encoded_by_res:
+    # Only translate groups 0-20 (labels + keyboards). Groups 21+ are default
+    # names whose uppercase English glyphs (F=38, M=45) pollute the keyboard
+    # font metrics table, making F and M invisible. Japanese names are acceptable
+    # until a proper fix is found (the user types their own name anyway).
+    r37_labels_only = {m: g for m, g in encoded_by_res[37].items() if m <= 20}
+    skipped = len(encoded_by_res[37]) - len(r37_labels_only)
+    print(f'\n  R37: In-place patching groups 0-20 only ({len(r37_labels_only)} msgs, skipping {skipped} name msgs)...')
+    fixup_r37_inplace(r37_path, r37_labels_only)
 
 # ---------------------------------------------------------------------------
 # STEP 5 -- Rebuild PACKDATA.DIG

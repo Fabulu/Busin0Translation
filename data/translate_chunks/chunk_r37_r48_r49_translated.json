@@ -78,13 +78,6 @@
     "english": "OK / "
   },
   {
-    "resource": 37,
-    "message": 17,
-    "japanese": "hiragana keyboard",
-    "english": "abcdefghij / klmnopqrst / uvwxyz.,!? / abcdefghij / klmnopqrst / uvwxyz -'  /           /           /           /           / ",
-    "note": "Hiragana keyboard - replaced with Latin alphabet"
-  },
-  {
     "resource": 48,
     "message": 0,
     "japanese": "(r48 msg 1)",
