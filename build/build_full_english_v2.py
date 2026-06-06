@@ -559,7 +559,7 @@ def fixup_r37_inplace(raw_path, translations):
         # font metrics pollution. Uppercase A-Z (33-58) → 95-120. The chargen
         # atlas (R2100) and font metrics (R1369) are patched to support 95-120
         # with duplicate A-Z bitmaps and metrics.
-        if gi >= 21:
+        if gi >= 21 and gi != 123:
             remapped = []
             did_remap = False
             for g in glyphs:
@@ -609,11 +609,63 @@ def fixup_r37_inplace(raw_path, translations):
             orig[data_start:ffff_pos] = new_data[:orig_data_size]
             replaced += 1
 
+    # --- Second pass: relocate truncated instruction groups 0-16 to free space ---
+    # Find the last non-zero byte to determine where free space starts
+    resource_size = 4096  # 2 sectors
+    free_ptr = resource_size
+    while free_ptr > 0 and orig[free_ptr - 1] == 0:
+        free_ptr -= 1
+    # Align free_ptr to next 2-byte boundary
+    if free_ptr % 2 != 0:
+        free_ptr += 1
+
+    relocated = 0
+    for gi in range(min(17, len(groups))):
+        if gi not in translations:
+            continue
+        glyphs = translations[gi]
+        data_start, ffff_pos = groups[gi]
+        orig_data_size = ffff_pos - data_start
+
+        # Encode new glyphs as BE u16
+        new_data = bytearray()
+        for g in glyphs:
+            new_data += struct.pack('>H', g)
+        # Ensure trailing FFFE
+        if not glyphs or glyphs[-1] != 0xFFFE:
+            new_data += struct.pack('>H', 0xFFFE)
+
+        if len(new_data) <= orig_data_size:
+            continue  # Already fits in-place, no relocation needed
+
+        # Need relocation: new_data + FFFF terminator
+        needed = len(new_data) + 2  # +2 for FFFF terminator
+        if free_ptr + needed > resource_size:
+            print(f'  WARNING: R37 group {gi} relocation failed — no space '
+                  f'(need {needed} bytes, have {resource_size - free_ptr})')
+            continue
+
+        # Write full content at free_ptr
+        orig[free_ptr:free_ptr + len(new_data)] = new_data
+        struct.pack_into('>H', orig, free_ptr + len(new_data), 0xFFFF)
+
+        # Update offset table: payload-relative offset (relative to byte 16)
+        new_offset = free_ptr - 16
+        struct.pack_into('>H', orig, ot_start + gi * 4, new_offset)
+
+        print(f'  R37 group {gi}: relocated to 0x{free_ptr:04X} '
+              f'(offset 0x{new_offset:04X}, {len(new_data)} bytes data)')
+
+        free_ptr += needed
+        relocated += 1
+
     # Write
     out_sc = math.ceil(len(orig) / SECTOR)
     orig += b'\x00' * (out_sc * SECTOR - len(orig))
     open(raw_path, 'wb').write(orig)
     print(f'  R37 in-place patch: {replaced}/{len(translations)} messages, {len(orig)} bytes')
+    if relocated:
+        print(f'  R37 relocated {relocated} overflowing instruction groups to free space')
     print(f'  Keyboard groups preserved at original byte offsets')
     if remapped_names:
         print(f'  Remapped uppercase A-Z (33-58 -> 95-120) in {remapped_names} name groups')
