@@ -490,6 +490,13 @@ def fixup_r37_inplace(raw_path, translations):
     table. The v2 pipeline's rebuild changes message sizes, shifting keyboard
     groups to wrong positions. Fix: start from original R37, replace each
     message's content in-place (truncate/pad to fit original size).
+
+    CRITICAL: Keyboard groups 17-20 contain special marker glyphs at the END of
+    each group: 0x0206 (male name button) and 0x015D (female name button). These
+    markers occupy rows 7-9 of the 10-row keyboard grid. When the English
+    replacement is shorter than the Japanese original, we must PRESERVE the
+    original trailing bytes (which contain these markers) rather than zero-pad.
+    Zero-padding destroys the markers, breaking random name generation buttons.
     """
     # Read ORIGINAL R37 from PACKDATA.DIG
     with open('extracted/PACKDATA.DIG', 'rb') as f:
@@ -515,8 +522,48 @@ def fixup_r37_inplace(raw_path, translations):
             pos += 2
         groups.append((start, pos))  # (data_start, ffff_pos)
 
+    # Keyboard groups (17-20): replace 0x0206/0x015D markers with 0x01FF
+    # (page 1, index 255 — out of bounds = invisible). The original markers
+    # render as visible 男/女 kanji (cell data sprites). Zero (0x0000) breaks
+    # name buttons because page-0 glyphs fail the grid validity check.
+    # Page-1 glyphs pass validity, and an out-of-bounds index renders nothing.
+    # The ♂/♀ symbols come from the Layer 1 background sprite.
+    KEYBOARD_GROUPS = {17, 18, 19, 20}
+    INVISIBLE_MARKER = 0x01FF  # page 1, index 255 — passes validity, renders blank
+    groups_with_markers = set()
+    marker_positions = {}
+    for gi in KEYBOARD_GROUPS:
+        if gi >= len(groups):
+            continue
+        data_start, ffff_pos = groups[gi]
+        positions = []
+        for pos in range(data_start, ffff_pos, 2):
+            g = struct.unpack_from('>H', orig, pos)[0]
+            if g in (0x0206, 0x015D):
+                positions.append(pos)
+        if positions:
+            groups_with_markers.add(gi)
+            marker_positions[gi] = positions
+
     replaced = 0
+    remapped_names = 0
     for gi, glyphs in translations.items():
+        # Remap uppercase glyph IDs in name groups (21+) to avoid keyboard
+        # font metrics pollution. Uppercase A-Z (33-58) → 95-120. The chargen
+        # atlas (R2100) and font metrics (R1369) are patched to support 95-120
+        # with duplicate A-Z bitmaps and metrics.
+        if gi >= 21:
+            remapped = []
+            did_remap = False
+            for g in glyphs:
+                if 33 <= g <= 58:  # uppercase A-Z
+                    remapped.append(g - 33 + 95)  # remap to 95-120
+                    did_remap = True
+                else:
+                    remapped.append(g)
+            glyphs = remapped
+            if did_remap:
+                remapped_names += 1
         if gi >= len(groups):
             continue
         data_start, ffff_pos = groups[gi]
@@ -531,10 +578,17 @@ def fixup_r37_inplace(raw_path, translations):
             new_data += struct.pack('>H', 0xFFFE)
 
         if len(new_data) <= orig_data_size:
-            # Fits: write + zero-pad remainder
+            # Fits: write new data at the start of the group
             orig[data_start:data_start + len(new_data)] = new_data
+
+            # Zero-pad the remainder, then write invisible markers for keyboards
             for i in range(data_start + len(new_data), ffff_pos):
                 orig[i] = 0
+            if gi in groups_with_markers:
+                for pos in marker_positions[gi]:
+                    if pos >= data_start + len(new_data):
+                        struct.pack_into('>H', orig, pos, INVISIBLE_MARKER)
+
             replaced += 1
         else:
             # Truncate to fit (lose trailing content)
@@ -547,6 +601,8 @@ def fixup_r37_inplace(raw_path, translations):
     open(raw_path, 'wb').write(orig)
     print(f'  R37 in-place patch: {replaced}/{len(translations)} messages, {len(orig)} bytes')
     print(f'  Keyboard groups preserved at original byte offsets')
+    if remapped_names:
+        print(f'  Remapped uppercase A-Z (33-58 -> 95-120) in {remapped_names} name groups')
 
 
 modified = 0
@@ -562,23 +618,18 @@ for res_idx in sorted(encoded_by_res.keys()):
 print(f'  Modified {modified} resources')
 
 # R37 special handling: patch original binary in-place instead of rebuilding.
-# TWO critical constraints discovered through bisection testing:
-# 1. The game reads keyboard data from FIXED byte offsets (not the offset table),
-#    so the v2 pipeline's rebuild (which shifts message positions) breaks rendering.
-# 2. The game builds a global font metrics table from ALL R37 groups. Name groups
-#    (21-125) containing English F(38)/M(45) overwrite the keyboard's metrics for
-#    those glyphs, making them invisible. Fix: only translate groups 0-20 (labels +
-#    keyboards), leave 21+ (default names) as original Japanese.
+# The game reads keyboard data from FIXED byte offsets in R37, NOT the offset
+# table. The v2 pipeline's rebuild shifts message positions, breaking keyboard
+# rendering. Fix: start from original R37, patch in-place.
+#
+# Font metrics pollution (F/M invisible) is fixed by EXE Patch 9 which forces
+# non-zero metrics for glyphs F(38) and M(45) in the keyboard atlas builder.
+# All groups can now be safely translated with original glyph IDs.
 r37_path = 'build/packdata_resources/0037_type01.raw'
 if 37 in encoded_by_res:
-    # Only translate groups 0-20 (labels + keyboards). Groups 21+ are default
-    # names whose uppercase English glyphs (F=38, M=45) pollute the keyboard
-    # font metrics table, making F and M invisible. Japanese names are acceptable
-    # until a proper fix is found (the user types their own name anyway).
-    r37_labels_only = {m: g for m, g in encoded_by_res[37].items() if m <= 20}
-    skipped = len(encoded_by_res[37]) - len(r37_labels_only)
-    print(f'\n  R37: In-place patching groups 0-20 only ({len(r37_labels_only)} msgs, skipping {skipped} name msgs)...')
-    fixup_r37_inplace(r37_path, r37_labels_only)
+    r37_all = encoded_by_res[37]
+    print(f'\n  R37: In-place patching ALL {len(r37_all)} groups (EXE Patch 9 prevents F/M pollution)...')
+    fixup_r37_inplace(r37_path, r37_all)
 
 # ---------------------------------------------------------------------------
 # STEP 5 -- Rebuild PACKDATA.DIG

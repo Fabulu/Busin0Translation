@@ -278,10 +278,11 @@ def main():
         assert len(pixel_raw) == PIXEL_SIZE
         assert len(tail) == TAIL_SIZE
 
-        # Check if this sub-block has any patches (stat text or gender symbols)
+        # Check if this sub-block has any patches (stat text, gender, or uppercase dup)
         sub_patches = {(r, c): txt for (sb, r, c), txt in STAT_PATCHES.items() if sb == blk}
         sub_gender = {(r, c): sym for (sb, r, c), sym in GENDER_PATCHES.items() if sb == blk}
-        if not sub_patches and not sub_gender:
+        needs_uppercase_dup = (blk == 0)
+        if not sub_patches and not sub_gender and not needs_uppercase_dup:
             continue
 
         print(f"\n  Sub-block {blk}: {len(sub_patches)} stat patches, {len(sub_gender)} gender patches")
@@ -312,6 +313,33 @@ def main():
             print(f"    Patch {label}: render '{sym_char}' ({sym_name})")
             patch_cell(linear, row, col, cell_data)
             patches_applied += 1
+
+        # Duplicate uppercase A-Z from cells 33-58 to 95-120 (sub-block 0 only).
+        # R37 name groups use remapped glyph IDs 95-120 to avoid keyboard font
+        # metrics pollution. The chargen atlas needs matching bitmaps.
+        # SKIP cell 110 (i=15, letter P): the padding glyph maps to cell 110,
+        # so overwriting it with "P" causes "P" to appear in empty name slots.
+        # Keeping cell 110's original Japanese content keeps padding invisible.
+        if needs_uppercase_dup:
+            dup_count = 0
+            for i in range(26):
+                if i == 15:  # cell 110 = 95+15 — padding glyph, do not overwrite
+                    continue
+                src_id = 33 + i
+                dst_id = 95 + i
+                src_row, src_col = src_id // COLS, src_id % COLS
+                dst_row, dst_col = dst_id // COLS, dst_id % COLS
+                # Read source cell
+                cell_data = []
+                x0 = src_col * CELL_W
+                y0 = src_row * CELL_H
+                for dy in range(CELL_H):
+                    for dx in range(CELL_W):
+                        cell_data.append(linear[(y0 + dy) * TEX_W + (x0 + dx)])
+                # Write to destination
+                patch_cell(linear, dst_row, dst_col, cell_data)
+                dup_count += 1
+            print(f"    Duplicated {dup_count} uppercase cells (33-58 -> 95-120, skipping cell 110/padding)")
 
         # Save preview
         preview = Image.new("L", (TEX_W, TEX_H))

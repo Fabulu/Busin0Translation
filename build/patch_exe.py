@@ -8,6 +8,10 @@ Patches applied:
   3. NPC names              (Table 2F) – LE uint16 glyph IDs
   4. Banner glyph IDs       (bytes 24-47) – kanji pair tiles → ASCII
   5. Banner byte-50 glyph   (byte 50)     – third glyph ref per record
+  6. NOP chargen RenderAllTiles            – hide kanji overlay
+  7. Chargen gender glyphs                 – 男/女 → ♂/♀
+  8. Font widths for name uppercase 95-120 – copy from 33-58
+  9. Keyboard F/M metrics fix              – force non-zero for glyphs 38,45,70,77
 """
 
 import os
@@ -279,6 +283,70 @@ def main():
             print(f"  SKIP 0x{off:06X}: {label} (already patched)")
         else:
             print(f"  WARN 0x{off:06X}: {label} (expected {old_val}, got {cur})")
+
+    # ─── PATCH 8: Font widths for duplicate uppercase at 95-120 ──────
+    # R37 name groups use remapped glyph IDs 95-120 for uppercase A-Z
+    # (avoiding keyboard metrics pollution at 33-58). Copy the font widths
+    # from positions 33-58 to 95-120 so names render with correct spacing.
+    WIDTH_TABLES = [0x3DDC48, 0x3DDD48, 0x3DDE48, 0x3DDF48]
+    print("\n--- Patch 8: Font widths for name uppercase (95-120) ---")
+    for tbl in WIDTH_TABLES:
+        for i in range(26):
+            src_off = tbl + 33 + i   # original A-Z width
+            dst_off = tbl + 95 + i   # duplicate slot width
+            data[dst_off] = data[src_off]
+        print(f"  OK   0x{tbl:06X}: copied widths 33-58 -> 95-120")
+        patched_count += 1
+
+    # ─── PATCH 9: Keyboard F/M metrics fix ─────────────────────────────
+    # The keyboard atlas builder at VA 0x463680 has an unrolled loop that
+    # calls JAL 0x3A2D10 for each glyph to fetch font metrics (width).
+    # For glyphs F(38), M(45), f(70), m(77), the R37 name group data
+    # pollutes the font metrics table, returning 0 width, which causes
+    # these keys to render as invisible/collapsed on the chargen keyboard.
+    #
+    # Fix: Replace each JAL+delay-slot with ADDIU v0,zero,1 + NOP.
+    # This forces a non-zero width (1) so the glyph renders normally.
+    # The SH v0 instruction after each block stores the result correctly.
+    #
+    # Pattern per glyph (28-byte blocks starting at file 0x36376C):
+    #   ADDIU a3, zero, <glyph_id>   (untouched)
+    #   JAL 0x3A2D10  -> ADDIU v0, zero, 1  (0x24020001)
+    #   DADDU t0,s3,zero -> NOP              (0x00000000)
+    #   SH v0, <off>(s4)                     (untouched)
+
+    print("\n--- Patch 9: Keyboard F/M metrics fix (glyphs 38,45,70,77) ---")
+    kbd_fm_patches = [
+        # (jal_file_offset, glyph_id, label)
+        (0x363B78, 38, "F(38)"),
+        (0x363C3C, 45, "M(45)"),
+        (0x363EF8, 70, "f(70)"),
+        (0x363FBC, 77, "m(77)"),
+    ]
+
+    expected_jal_bytes = struct.pack("<I", 0x0C0E8B44)   # JAL 0x3A2D10
+    expected_daddu     = struct.pack("<I", 0x0260402D)   # DADDU t0, s3, zero
+    new_addiu_v0       = struct.pack("<I", 0x24020001)   # ADDIU v0, zero, 1
+    new_nop            = struct.pack("<I", 0x00000000)   # NOP
+
+    for jal_off, glyph_id, label in kbd_fm_patches:
+        actual_jal   = data[jal_off:jal_off + 4]
+        actual_daddu = data[jal_off + 4:jal_off + 8]
+
+        if actual_jal == expected_jal_bytes and actual_daddu == expected_daddu:
+            # Verify the ADDIU a3 before has the correct glyph ID
+            addiu_a3 = struct.unpack_from("<I", data, jal_off - 4)[0]
+            if (addiu_a3 >> 16) != 0x2407 or (addiu_a3 & 0xFFFF) != glyph_id:
+                print(f"  WARN 0x{jal_off:06X}: {label} ADDIU a3 mismatch (0x{addiu_a3:08X}), skipping")
+                continue
+            data[jal_off:jal_off + 4] = new_addiu_v0
+            data[jal_off + 4:jal_off + 8] = new_nop
+            print(f"  OK   0x{jal_off:06X}: {label} JAL+DADDU -> ADDIU v0,1 + NOP")
+            patched_count += 1
+        elif actual_jal == new_addiu_v0 and actual_daddu == new_nop:
+            print(f"  SKIP 0x{jal_off:06X}: {label} (already patched)")
+        else:
+            print(f"  WARN 0x{jal_off:06X}: {label} unexpected bytes ({actual_jal.hex()} {actual_daddu.hex()})")
 
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)

@@ -79,6 +79,34 @@ for slot, char in slot_to_char.items():
     except:
         pass
 
+# ---- DUPLICATE UPPERCASE A-Z AT SLOTS 95-120 ----
+# R37 name groups (21-125) use remapped glyph IDs 95-120 for uppercase letters
+# to avoid polluting the keyboard font metrics table (which uses 33-58).
+# Render identical uppercase bitmaps at both 33-58 and 95-120.
+dup_count = 0
+for i in range(26):
+    src_slot = 33 + i   # original A-Z
+    dst_slot = 95 + i   # duplicate for names
+    char = chr(ord('A') + i)
+    col = dst_slot % COLS
+    row = dst_slot // COLS
+    x = col * CELL_W
+    y = row * CELL_H
+    if x + CELL_W > ATLAS_W or y + CELL_H > ATLAS_H:
+        continue
+    try:
+        bbox = font.getbbox(char)
+        if bbox:
+            cw = bbox[2] - bbox[0]
+            ch = bbox[3] - bbox[1]
+            ox = x + max(0, (CELL_W - cw) // 2) - bbox[0]
+            oy = y + max(0, (CELL_H - ch) // 2) - bbox[1]
+            draw.text((ox, oy), char, fill=255, font=font)
+            dup_count += 1
+    except:
+        pass
+print(f"  Duplicated {dup_count} uppercase glyphs at slots 95-120")
+
 # ---- MENU TILE INJECTION ----
 # Render English menu labels into glyph slots 683-931
 try:
