@@ -348,6 +348,26 @@ def main():
         else:
             print(f"  WARN 0x{jal_off:06X}: {label} unexpected bytes ({actual_jal.hex()} {actual_daddu.hex()})")
 
+    # ─── PATCH 10: Page-0 cursor validity for keyboard name buttons ───
+    # The keyboard grid validity check at VA 0x494300 uses a page table
+    # at VA 0x4DB100 (file 0x3DB180) to determine if a cell's glyph is a
+    # valid cursor target. Page 0 (glyphs 0x0000-0x00FF) maps to sub_index
+    # 9 which fails the type==5 check, making space cells unreachable.
+    # Change page 0's sub_index from 9 to 0 so zero-padded keyboard cells
+    # (where name gen buttons were) become reachable by the cursor.
+    # Name gen is triggered by grid position (function pointer table),
+    # not by glyph value, so space cells at button positions still work.
+    print("\n--- Patch 10: Page-0 cursor validity ---")
+    page0_off = 0x3DB180  # page table byte for page 0
+    if data[page0_off] == 9:
+        data[page0_off] = 0
+        print(f"  OK   0x{page0_off:06X}: page 0 sub_index 9 -> 0")
+        patched_count += 1
+    elif data[page0_off] == 0:
+        print(f"  SKIP 0x{page0_off:06X}: already patched")
+    else:
+        print(f"  WARN 0x{page0_off:06X}: expected 9, got {data[page0_off]}")
+
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     open(dst, "wb").write(data)

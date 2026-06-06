@@ -323,7 +323,10 @@ def main():
         if needs_uppercase_dup:
             dup_count = 0
             for i in range(26):
-                if i == 15:  # cell 110 = 95+15 — padding glyph, do not overwrite
+                # SKIP cell 110 (i=15, letter P): the padding glyph maps to cell 110,
+                # so overwriting it with "P" causes "P" to appear in empty name slots.
+                # Keeping cell 110's original Japanese content keeps padding invisible.
+                if i == 15:
                     continue
                 src_id = 33 + i
                 dst_id = 95 + i
@@ -339,7 +342,7 @@ def main():
                 # Write to destination
                 patch_cell(linear, dst_row, dst_col, cell_data)
                 dup_count += 1
-            print(f"    Duplicated {dup_count} uppercase cells (33-58 -> 95-120, skipping cell 110/padding)")
+            print(f"    Duplicated {dup_count} uppercase cells (33-58 -> 95-120, skipping cell 110/P)")
 
         # Save preview
         preview = Image.new("L", (TEX_W, TEX_H))

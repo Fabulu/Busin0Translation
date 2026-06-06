@@ -528,22 +528,29 @@ def fixup_r37_inplace(raw_path, translations):
     # name buttons because page-0 glyphs fail the grid validity check.
     # Page-1 glyphs pass validity, and an out-of-bounds index renders nothing.
     # The ♂/♀ symbols come from the Layer 1 background sprite.
+    #
+    # Also record FFFE row-separator positions. The English content only fills
+    # rows 0-5 (6 FFFEs). Rows 6-9 are in the zero-padded gap and need their
+    # FFFE separators restored so the 10×10 grid structure is intact. Without
+    # these FFFEs the cursor can't navigate from the male marker row to the
+    # female marker row.
     KEYBOARD_GROUPS = {17, 18, 19, 20}
-    INVISIBLE_MARKER = 0x01FF  # page 1, index 255 — passes validity, renders blank
-    groups_with_markers = set()
-    marker_positions = {}
+    # Markers are zero-padded (0x0000 = space = invisible). EXE Patch 10
+    # changes the page validity table so page-0 glyphs pass the cursor
+    # check, allowing the cursor to reach zero-padded button positions.
+    # The name generation function is triggered by grid position (function
+    # pointer table), not by glyph value.
+    fffe_positions = {}  # gi -> [byte positions of FFFE separators]
     for gi in KEYBOARD_GROUPS:
         if gi >= len(groups):
             continue
         data_start, ffff_pos = groups[gi]
-        positions = []
+        f_positions = []
         for pos in range(data_start, ffff_pos, 2):
-            g = struct.unpack_from('>H', orig, pos)[0]
-            if g in (0x0206, 0x015D):
-                positions.append(pos)
-        if positions:
-            groups_with_markers.add(gi)
-            marker_positions[gi] = positions
+            if struct.unpack_from('>H', orig, pos)[0] == 0xFFFE:
+                f_positions.append(pos)
+        if f_positions:
+            fffe_positions[gi] = f_positions
 
     replaced = 0
     remapped_names = 0
@@ -573,21 +580,28 @@ def fixup_r37_inplace(raw_path, translations):
         new_data = bytearray()
         for g in glyphs:
             new_data += struct.pack('>H', g)
-        # Ensure trailing FFFE
-        if not glyphs or glyphs[-1] != 0xFFFE:
-            new_data += struct.pack('>H', 0xFFFE)
+        # Ensure trailing FFFE for instruction text groups (0-16) only.
+        # Keyboard groups (17-20): original FFFEs in the gap provide row structure.
+        # Name groups (21+): FFFE wastes 2 bytes, causing truncation of ~30 names
+        # ("Eddie"→"Eddi") and a trailing 0x0000 glyph that renders as Japanese.
+        if gi <= 16:
+            if not glyphs or glyphs[-1] != 0xFFFE:
+                new_data += struct.pack('>H', 0xFFFE)
 
         if len(new_data) <= orig_data_size:
             # Fits: write new data at the start of the group
             orig[data_start:data_start + len(new_data)] = new_data
 
-            # Zero-pad the remainder, then write invisible markers for keyboards
+            # Zero-pad the remainder, then restore FFFE row separators
             for i in range(data_start + len(new_data), ffff_pos):
                 orig[i] = 0
-            if gi in groups_with_markers:
-                for pos in marker_positions[gi]:
+            # Restore FFFE row separators that fell in the zero-padded gap.
+            # Without these, the keyboard grid loses row boundaries and the
+            # cursor can't navigate between marker rows (male/female).
+            if gi in fffe_positions:
+                for pos in fffe_positions[gi]:
                     if pos >= data_start + len(new_data):
-                        struct.pack_into('>H', orig, pos, INVISIBLE_MARKER)
+                        struct.pack_into('>H', orig, pos, 0xFFFE)
 
             replaced += 1
         else:
