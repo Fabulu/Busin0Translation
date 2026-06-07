@@ -303,6 +303,89 @@ with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
             break
         pos += rec_len
 
+# ===== STEP 8.2: Fix PACKDATA overflow into BSN2_0.DSI =====
+# If our PACKDATA grew past the original end, shift all subsequent files
+# forward to prevent overwriting BSN2_0.DSI (audio) and other files.
+print("\n=== Step 8.2: Check PACKDATA overflow ===")
+with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
+    iso.seek(16 * SECTOR)
+    pvd = iso.read(SECTOR)
+    root_lba = struct.unpack_from('<I', pvd, 158)[0]
+    root_size = struct.unpack_from('<I', pvd, 166)[0]
+    iso.seek(root_lba * SECTOR)
+    root_dir = bytearray(iso.read(root_size))
+
+    # Parse all directory entries
+    dir_entries = []
+    pos = 0
+    while pos < len(root_dir):
+        rec_len = root_dir[pos]
+        if rec_len == 0:
+            break
+        name_len = root_dir[pos + 32]
+        name = root_dir[pos + 33:pos + 33 + name_len].decode('ascii', errors='replace')
+        lba = struct.unpack_from('<I', root_dir, pos + 2)[0]
+        size = struct.unpack_from('<I', root_dir, pos + 10)[0]
+        dir_entries.append((pos, name, lba, size))
+        pos += rec_len
+
+    # Find PACKDATA end and first file after it
+    pack_entry = [e for e in dir_entries if 'PACKDATA' in e[1]]
+    if pack_entry:
+        _, _, pack_lba, pack_size = pack_entry[0]
+        pack_end_lba = pack_lba + math.ceil(pack_size / SECTOR)
+
+        # Find all files after PACKDATA's START (they could be within the
+        # overflow zone). Use pack_lba, not pack_end_lba, to catch files
+        # that started right after the ORIGINAL (smaller) PACKDATA.
+        after_pack = sorted(
+            [e for e in dir_entries if e[2] > pack_lba and 'PACKDATA' not in e[1]],
+            key=lambda e: e[2]
+        )
+
+        if after_pack:
+            first_after_lba = after_pack[0][2]
+            if pack_end_lba > first_after_lba:
+                shift = pack_end_lba - first_after_lba
+                print(f"  PACKDATA overflow: {shift} sectors into subsequent files")
+                print(f"  Shifting {len(after_pack)} files forward by {shift} sectors...")
+
+                # Shift files in REVERSE order (last first) to avoid overwriting
+                for dir_off, name, old_lba, fsize in reversed(after_pack):
+                    new_lba = old_lba + shift
+                    sec_count = math.ceil(fsize / SECTOR)
+                    # Read file data from old position
+                    iso.seek(old_lba * SECTOR)
+                    fdata = iso.read(sec_count * SECTOR)
+                    # Write to new position
+                    iso.seek(new_lba * SECTOR)
+                    iso.write(fdata)
+                    # Update directory entry LBA (both LE and BE)
+                    struct.pack_into('<I', root_dir, dir_off + 2, new_lba)
+                    struct.pack_into('>I', root_dir, dir_off + 6, new_lba)
+
+                # Write updated directory
+                iso.seek(root_lba * SECTOR)
+                iso.write(root_dir)
+
+                # Extend ISO to accommodate shifted content
+                iso.seek(0, 2)
+                current_size = iso.tell()
+                needed = (after_pack[-1][2] + shift + math.ceil(after_pack[-1][3] / SECTOR)) * SECTOR
+                if needed > current_size:
+                    iso.seek(needed - 1)
+                    iso.write(b'\x00')
+
+                # Also update PVD volume space size if needed
+                new_vol_sectors = math.ceil(needed / SECTOR)
+                iso.seek(16 * SECTOR + 80)
+                iso.write(struct.pack('<I', new_vol_sectors))
+                iso.write(struct.pack('>I', new_vol_sectors))
+
+                print(f"  Done. ISO extended by {shift * SECTOR:,} bytes")
+            else:
+                print(f"  No overflow (PACKDATA ends at {pack_end_lba}, next file at {first_after_lba})")
+
 # ===== STEP 8.4: Patch EXE =====
 print("\n=== Step 8.4: Patch EXE ===")
 os.system('python build/patch_exe.py')
