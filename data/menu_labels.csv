@@ -99,6 +99,41 @@ id,exe_offset,glyph_id_1,glyph_id_2,japanese,context,english,strategy
 111,0x3C4848,877,878,札募,guild - notice/recruit,enlist,tile_pair
 112,0x3C4880,879,880,更何,guild - update/renew,update,tile_pair
 113,0x3C48B8,881,882,用雑,guild - use/misc,misc,abbrev
+114,0x3C48F0,883,0,教,church - church/teach submenu,ch,abbrev
+115,0x3C4928,885,0,寺,church - temple submenu,tmp,abbrev
+116,0x3C4B20,887,0,階,dungeon - floor/level,flr,abbrev
+117,0x3C4B58,889,0,達,dungeon - attain/reached,lvl,abbrev
+118,0x3C4B90,891,0,療,church - healing submenu,hel,abbrev
+119,0x3C4BC8,893,0,潜,dungeon - dive/delve,div,abbrev
+120,0x3C4C38,895,0,早,party - quick/early,qck,abbrev
+121,0x3C4C70,897,0,嫌,preference - dislike (agi),hat,abbrev
+122,0x3C4CA8,902,0,受,quest - receive/accept,rcv,abbrev
+123,0x3C4CE0,904,0,商,shop - merchant,shp,abbrev
+124,0x3C4D18,906,0,練,guild - train/practice,trn,abbrev
+125,0x3C4D50,908,0,残,status - remaining,rem,abbrev
+126,0x3C4D88,910,0,景,dungeon - scenery/view,viw,abbrev
+127,0x3C4DC0,912,0,表,system - display/list,lst,abbrev
+128,0x3C4DF8,914,0,集,quest - gather/collect,gth,abbrev
+129,0x3C4E30,902,0,受,quest - receive (degree),rcv,abbrev
+130,0x3C4E68,897,0,嫌,preference - dislike (result),hat,abbrev
+131,0x3C4EA0,897,0,嫌,preference - dislike (same),hat,abbrev
+132,0x3C4ED8,897,0,嫌,preference - dislike (attr),hat,abbrev
+133,0x3C4F10,897,0,嫌,preference - dislike (action),hat,abbrev
+134,0x3C4F48,908,0,残,status - remaining (effect),rem,abbrev
+135,0x3C4F80,908,0,残,status - remaining (few),rem,abbrev
+136,0x3C4FB8,908,0,残,status - remaining (count),rem,abbrev
+137,0x3C4FF0,908,0,残,status - remaining (equip),rem,abbrev
+138,0x3C5098,916,0,跡,dungeon - ruins/trace,rns,abbrev
+139,0x3C50D0,918,0,遠,dungeon - far/distant,far,abbrev
+140,0x3C5108,920,0,待,party - wait,wai,abbrev
+141,0x3C5140,910,0,景,dungeon - scenery (dup),viw,abbrev
+142,0x3C5178,922,65535,実,battle - actual/real,act,abbrev
+143,0x3C51B0,923,65535,戦,battle - battle/war,war,abbrev
+144,0x3C51E8,924,65535,,battle - unknown (g924),  ,skip
+145,0x3C5220,925,65535,報,reward - report,rpt,abbrev
+146,0x3C5258,926,0,酬,reward - compensation,rwd,abbrev
+147,0x3C5290,928,0,設,system - setup/config,set,abbrev
+148,0x3C52C8,930,0,取,system - take/obtain,get,abbrev
 stat_346,0x000000,346,0,,stat_label (shared:VIT3),str,abbrev
 stat_535,0x000000,535,0,,stat_label,in,abbrev
 stat_717,0x000000,717,0,,stat_label,t,abbrev
