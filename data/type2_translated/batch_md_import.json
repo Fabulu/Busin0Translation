@@ -2608,5 +2608,77 @@
     "message": 0,
     "japanese": "ダミ}テキスト!",
     "english": "Dummy text!"
+  },
+  {
+    "resource": 1196,
+    "message": 828,
+    "japanese": "どうぞ_",
+    "english": "Please."
+  },
+  {
+    "resource": 1196,
+    "message": 841,
+    "japanese": "どうぞ_",
+    "english": "Please."
+  },
+  {
+    "resource": 1199,
+    "message": 213,
+    "japanese": "クレタ",
+    "english": "Creta"
+  },
+  {
+    "resource": 1203,
+    "message": 535,
+    "japanese": "じゃっ!",
+    "english": "Right then!"
+  },
+  {
+    "resource": 1203,
+    "message": 661,
+    "japanese": "お見事!",
+    "english": "Well done!"
+  },
+  {
+    "resource": 1203,
+    "message": 739,
+    "japanese": "インゴ!",
+    "english": "Ingo!"
+  },
+  {
+    "resource": 1205,
+    "message": 202,
+    "japanese": "まいど!",
+    "english": "Welcome!"
+  },
+  {
+    "resource": 1205,
+    "message": 205,
+    "japanese": "まいど!",
+    "english": "Welcome!"
+  },
+  {
+    "resource": 1205,
+    "message": 208,
+    "japanese": "まいど!",
+    "english": "Welcome!"
+  },
+  {
+    "resource": 1208,
+    "message": 454,
+    "japanese": "死者が[0x054C]った!",
+    "english": "The dead arise!"
+  },
+  {
+    "resource": 1353,
+    "message": 295,
+    "japanese": "じゃあ|",
+    "english": "Well then,"
+  },
+  {
+    "resource": 1353,
+    "message": 299,
+    "japanese": "じゃあ|",
+    "english": "Well then,"
   }
 ]
