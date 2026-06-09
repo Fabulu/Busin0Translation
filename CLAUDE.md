@@ -71,11 +71,11 @@ The type-2 extraction (`tools/extract_untranslated_type2.py`) filtered aggressiv
 ### R1272 Menu Font Tiles (62 tiles, positions 106-159)
 The R1272 atlas has 33 menu button labels still rendered as Japanese kanji at glyph positions 106-159. These are pixel art in the font atlas, NOT text — they must be rendered as English abbreviations into the atlas bitmap via `data/menu_labels.csv` and `tools/render_menu_tiles.py`. Current coverage: positions 683-866 (stat labels, equipment types). Missing tiles include: shop/sell/buy, church/temple, assist/co-op, and other menu button labels. See `data/menu_labels.csv` for the format.
 
-### EXE SJIS Strings (~686 remaining)
-Only 8 of 4,255 SJIS string runs in the EXE are patched. ~150+ are debug/printf strings (not player-visible). ~5 remain in the UI region at 0x3F8000+ that may be edge-case player-visible. Most are harmless but a thorough audit has not been done.
+### EXE SJIS Strings — COMPLETE
+All player-visible SJIS strings are patched (8 patches). The remaining ~686 SJIS runs are all debug-only (printf format strings, engine error messages). Full audit done 2026-06-09.
 
-### Other Pixel-Art Text
-- **R1188 tab labels**: The name entry screen tabs (カナ/かな/記述/数) are composed from individual glyph cells in the R1188 atlas. Currently showing "Kana/Hira/ABC/Sym" via R37 glyph streams but the tab header sprites themselves may still show Japanese.
+### R1188 Tab Labels — COMPLETE
+Tab labels (Kana/Hira/ABC/Sym/OK) render through R2138 sub7, NOT R1188. Already fully English via patch_r2138.py. Confirmed in screenshots 2026-06-06.
 - **Equipment type icons**: Weapon/armor type labels (剣/斧/杖 etc.) are pre-rendered sprites in an unidentified PACKDATA resource.
 - **Dungeon compass**: N/S/E/W directional labels — location unknown.
 - **Ending narration**: End-game text — resource location unidentified.
