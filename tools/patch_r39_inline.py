@@ -154,22 +154,83 @@ REPLACEMENTS.update(NPC_NAMES)
 
 # --- Equipment categories (records 453-469) ---
 EQUIP_CATEGORIES = {
-    453: "Accsry",       # アクセサリー (6 slots)
-    458: "Item",         # アイテム (4 slots)
-    462: "AutoShop",     # オートマタショップ (9 slots)
+    # --- Equipment category labels (records 443-469) ---
+    443: "Wp",           # 武器 (2 slots) - Weapon
+    444: "RcvW",         # 回復武器 (4 slots) - Recovery Weapon
+    445: "SRcvW",        # 自回復武器 (5 slots) - Self-Recovery Weapon
+    446: "PasW",         # 通通武器 (4 slots) - Passive Weapon
+    447: "CrstW",        # 使いの武器 (5 slots) - Cursed Weapon
+    448: "Ar",           # 解闘 (2 slots) - Armor
+    449: "RcvA",         # 回復解闘 (4 slots) - Recovery Armor
+    450: "SRcvA",        # 自回復解闘 (5 slots) - Self-Recovery Armor
+    451: "PasA",         # 通通解闘 (4 slots) - Passive Armor
+    452: "CrstA",        # 使いの解闘 (5 slots) - Cursed Armor
+    453: "Accsry",       # アクセサリー (6 slots) - Accessory
+    454: "RcvAccs",      # 回復アクセサリー (8 slots) - Recovery Accessory
+    455: "SRcvAcsr",     # 自回復アクセサリー (9 slots) - Self-Recovery Acc
+    456: "PasAccsr",     # 通通アクセサリー (8 slots) - Passive Accessory
+    457: "CrstAccs",     # 使いのアクセサリー (9 slots) - Cursed Accessory
+    458: "Item",         # アイテム (4 slots) - Item
+    459: "Sch",          # 騎法団 (3 slots) - Spell School
+    460: "CmboSchl",     # 騎事持騎法騎法団 (8 slots) - Combo School
+    461: "HlySch",       # 神聖騎法騎法団 (7 slots) - Holy School
+    462: "AutoShop",     # オートマタショップ (9 slots) - Automata Shop
+    463: "RcvCp",        # 回復チップ (5 slots) - Recovery Chip
+    464: "SRcvCp",       # 自回復チップ (6 slots) - Self-Recovery Chip
+    465: "Eqp",          # 装備品 (3 slots) - Equipment
+    466: "RcvEq",        # 回復装備品 (5 slots) - Recovery Equipment
+    467: "SRcvEq",       # 自回復装備品 (6 slots) - Self-Recovery Equipment
+    468: "PasEq",        # 通通装備品 (5 slots) - Passive Equipment
+    469: "CrstEq",       # 使いの装備品 (6 slots) - Cursed Equipment
+    # --- Weapon type names (records 470-486) ---
     470: "Dgr",          # ダガー (3 slots) - Dagger
-    471: "ShrtSwd",      # ショートソード (7 slots)
-    472: "LngSwd",       # ロングソード (6 slots)
-    473: "GrtSwrd",      # グレートソード (7 slots)
+    471: "ShrtSwd",      # ショートソード (7 slots) - Short Sword
+    472: "LngSwd",       # ロングソード (6 slots) - Long Sword
+    473: "GrtSwrd",      # グレートソード (7 slots) - Great Sword
+    474: "K",            # 刀 (1 slot) - Katana
+    475: "W",            # 杖 (1 slot) - Wand
+    476: "HAx",          # 手斧 (3 slots) - Handaxe
+    477: "GAx",          # 大斧 (3 slots) - Greataxe
+    478: "Srk",          # 手裏剣 (3 slots) - Shuriken
     479: "Mac",          # メイス (3 slots) - Mace
     480: "Flal",         # フレイル (4 slots) - Flail
-    481: "ThrowDgr",     # スローイングダガー (9 slots)
+    481: "ThrowDgr",     # スローイングダガー (9 slots) - Throwing Dagger
     482: "XBow",         # クロスボウ (5 slots) - Crossbow
     483: "LBow",         # ロングボウ (5 slots) - Longbow
-    485: "PoleAxe",      # ポールアックス (7 slots)
+    484: "C",            # 棍棒 (1 slot) - Cudgel
+    485: "PoleAxe",      # ポールアックス (7 slots) - Poleaxe
     486: "Glov",         # グローブ (4 slots) - Glove
+    # --- Unidentified weapon types (records 487-496) ---
+    487: "?SK",          # ?短刀 (3 slots) - ?Short Katana
+    488: "?S",           # ?手裏剣 (2 slots) - ?Shuriken
+    489: "?K",           # ?刀 (2 slots) - ?Katana
+    490: "?W",           # ?杖 (2 slots) - ?Wand
+    491: "?A",           # ?斧 (2 slots) - ?Axe
+    492: "?Wp",          # ?武器 (3 slots) - ?Weapon
+    493: "?Mac",         # ?メイス (4 slots) - ?Mace
+    494: "?Flal",        # ?フレイル (5 slots) - ?Flail
+    495: "?M",           # ?法 (2 slots) - ?Magic
+    496: "?C",           # ?棒 (2 slots) - ?Cudgel
+    # --- Armor/accessory type names (records 497-510) ---
+    497: "H",            # 兜 (1 slot) - Helmet
+    498: "S",            # 小盾 (1 slot) - Small Shield
+    499: "S",            # 盾 (1 slot) - Shield
+    500: "Gt",           # 小手 (2 slots) - Gauntlets
+    501: "?H",           # ?兜 (2 slots) - ?Helmet
+    502: "?S",           # ?小盾 (2 slots) - ?Small Shield
+    503: "?S",           # ?盾 (2 slots) - ?Shield
+    504: "?Gt",          # ?小手 (3 slots) - ?Gauntlets
+    505: "MS",           # 魔石 (2 slots) - Magic Stone
+    506: "Am",           # 罰野 (2 slots) - Amulet
+    507: "Orn",          # 依飾り (3 slots) - Ornament
+    508: "Gm",           # 宝石 (2 slots) - Gem
     509: "Bot",          # ブーツ (3 slots) - Boots
     510: "Clk",          # マント (3 slots) - Cloak
+    # --- Unidentified accessory types (records 511-514) ---
+    511: "?MS",          # ?魔石 (3 slots) - ?Magic Stone
+    512: "?Am",          # ?罰野 (3 slots) - ?Amulet
+    513: "?Orn",         # ?依飾り (4 slots) - ?Ornament
+    514: "?Gm",          # ?宝石 (3 slots) - ?Gem
 }
 REPLACEMENTS.update(EQUIP_CATEGORIES)
 

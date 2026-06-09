@@ -246,11 +246,86 @@ for r_id in sorted(type02_resources):
 
 print(f"  Patched {total_patched} resources, {total_encoded} messages")
 
-# ===== STEP 5: R1193 manual fixed-size =====
-print("\n=== Step 5: R1193 manual inject ===")
-if os.path.exists('build/packdata_resources/1193_type02.raw'):
-    shutil.copy('build/packdata_resources/1193_type02.raw', 'build/patched_type2/1193_type02.raw')
-    print("  R1193 preserved")
+# ===== STEP 5: R1193 intro narration injection =====
+# R1193 has trailing data after its last FFFF terminator that inject_and_patch would drop.
+# We handle it here: inject English into FFFF groups, preserve trailing data intact.
+print("\n=== Step 5: R1193 intro narration ===")
+if 1193 in all_trans and os.path.exists('extracted/packdata_raw/1193_type02.raw'):
+    raw = bytearray(open('extracted/packdata_raw/1193_type02.raw', 'rb').read())
+    orig_bytes = bytes(raw)
+
+    sec2_size = struct.unpack_from('<I', raw, 0x14)[0]
+    sec2_offset = struct.unpack_from('<I', raw, 0x18)[0]
+    sec2_end = sec2_offset + sec2_size
+    sec2_data = raw[sec2_offset:sec2_end]
+    n_words = len(sec2_data) // 2
+    words_s2 = [struct.unpack_from('>H', sec2_data, i * 2)[0] for i in range(n_words)]
+
+    # Parse FFFF-delimited groups AND capture trailing data
+    groups_1193 = []
+    start_1193 = 0
+    last_ffff_pos = -1
+    for i_w, w in enumerate(words_s2):
+        if w == 0xFFFF:
+            groups_1193.append(words_s2[start_1193:i_w])
+            start_1193 = i_w + 1
+            last_ffff_pos = i_w
+    trailing_data = words_s2[start_1193:] if start_1193 < n_words else []
+
+    # Encode and inject English translations into groups
+    msg_trans_1193 = all_trans[1193]
+    replaced_1193 = 0
+    for mi, en_text in msg_trans_1193.items():
+        glyphs = []
+        parts = en_text.split(' / ')
+        line_count = 0
+        for pi, part in enumerate(parts):
+            if pi > 0:
+                line_count += 1
+                if line_count >= 3:
+                    glyphs.append(0xFFD2)
+                    line_count = 0
+                else:
+                    glyphs.append(0xFFFE)
+            for ch in part:
+                glyphs.append(enc(ch))
+        if mi < len(groups_1193):
+            groups_1193[mi] = glyphs
+            replaced_1193 += 1
+
+    # Rebuild Section 2: groups + FFFF terminators + trailing data (unchanged)
+    new_sec2 = bytearray()
+    for group in groups_1193:
+        for g in group:
+            new_sec2 += struct.pack('>H', g)
+        new_sec2 += struct.pack('>H', 0xFFFF)
+    for t in trailing_data:
+        new_sec2 += struct.pack('>H', t)
+
+    new_sec2_size = len(new_sec2)
+
+    # Build injected file
+    section1 = bytearray(raw[:sec2_offset])
+    struct.pack_into('<I', section1, 0x14, new_sec2_size)
+    after_sec2 = raw[sec2_end:]
+    injected = bytes(section1) + bytes(new_sec2) + bytes(after_sec2)
+
+    # Patch Section 1 offsets
+    from patch_section1_offsets import patch_section1
+    result_1193 = patch_section1(orig_bytes, injected)
+
+    # Pad to sector boundary
+    sc = math.ceil(len(result_1193) / SECTOR)
+    if len(result_1193) < sc * SECTOR:
+        result_1193 = result_1193 + b'\x00' * (sc * SECTOR - len(result_1193))
+
+    open('build/patched_type2/1193_type02.raw', 'wb').write(result_1193)
+    print(f"  R1193 injected: {replaced_1193} messages, sec2 {sec2_size}->{new_sec2_size} bytes")
+else:
+    # Fallback: copy existing file
+    if os.path.exists('build/packdata_resources/1193_type02.raw'):
+        shutil.copy('build/packdata_resources/1193_type02.raw', 'build/patched_type2/1193_type02.raw')
+        print("  R1193 preserved (no translation found)")
 
 # ===== STEP 6: Merge and clean =====
 print("\n=== Step 6: Merge resources ===")
