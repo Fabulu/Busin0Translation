@@ -293,7 +293,19 @@ if 1193 in all_trans and os.path.exists('extracted/packdata_raw/1193_type02.raw'
             groups_1193[mi] = glyphs
             replaced_1193 += 1
 
-    # Rebuild Section 2: groups + FFFF terminators + trailing data (unchanged)
+    # Also translate trailing data (the unabridged narration the game actually displays)
+    if trailing_data and 0 in msg_trans_1193:
+        en_text = msg_trans_1193[0]
+        trailing_glyphs = []
+        for ch in en_text.replace(' / ', '\n'):
+            if ch == '\n':
+                trailing_glyphs.append(0xFFFE)
+            else:
+                trailing_glyphs.append(enc(ch))
+        trailing_data = trailing_glyphs
+        print(f"  Trailing data also translated: {len(trailing_glyphs)} glyphs")
+
+    # Rebuild Section 2: groups + FFFF terminators + trailing data
     new_sec2 = bytearray()
     for group in groups_1193:
         for g in group:
