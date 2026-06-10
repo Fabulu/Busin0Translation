@@ -6,10 +6,10 @@ from psmt4_deswizzle import swizzle_psmt4
 from PIL import Image, ImageFont, ImageDraw
 
 # Config
-ATLAS_W, ATLAS_H = 256, 512  # MUST stay 512 — game rejects extended atlas
+ATLAS_W, ATLAS_H = 256, 576  # Extended from 512 to fit glyph IDs 883-930+
 CELL_W, CELL_H = 12, 12
 COLS = 21
-ROWS = ATLAS_H // CELL_H  # 45 rows -> 945 cells (IDs 0-944), covers up to glyph 931
+ROWS = ATLAS_H // CELL_H  # 48 rows -> 1008 cells (IDs 0-1007)
 ORIGINAL = "extracted/packdata_resources/1272_type01.bin"
 OUTPUT_BIN = "build/english_font_atlas.bin"
 OUTPUT_PNG = "build/english_font_atlas_preview.png"
