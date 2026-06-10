@@ -323,6 +323,10 @@ def main():
         if needs_uppercase_dup:
             dup_count = 0
             for i in range(26):
+                # SKIP cell 110 (i=15, letter P): including it causes P to appear
+                # in every empty name slot. Root cause still unknown — do NOT remove.
+                if i == 15:
+                    continue
                 src_id = 33 + i
                 dst_id = 95 + i
                 src_row, src_col = src_id // COLS, src_id % COLS
@@ -337,7 +341,7 @@ def main():
                 # Write to destination
                 patch_cell(linear, dst_row, dst_col, cell_data)
                 dup_count += 1
-            print(f"    Duplicated {dup_count} uppercase cells (33-58 -> 95-120)")
+            print(f"    Duplicated {dup_count} uppercase cells (33-58 -> 95-120, skipping cell 110/P)")
 
         # Save preview
         preview = Image.new("L", (TEX_W, TEX_H))

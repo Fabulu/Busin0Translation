@@ -6,10 +6,10 @@ from psmt4_deswizzle import swizzle_psmt4
 from PIL import Image, ImageFont, ImageDraw
 
 # Config
-ATLAS_W, ATLAS_H = 256, 576  # Extended from 512 to fit glyph IDs 883-930+
+ATLAS_W, ATLAS_H = 256, 512  # DO NOT extend — game crashes with taller atlas
 CELL_W, CELL_H = 12, 12
 COLS = 21
-ROWS = ATLAS_H // CELL_H  # 48 rows -> 1008 cells (IDs 0-1007)
+ROWS = ATLAS_H // CELL_H  # 42 rows -> 882 cells (IDs 0-881). Tiles 882+ won't fit.
 ORIGINAL = "extracted/packdata_resources/1272_type01.bin"
 OUTPUT_BIN = "build/english_font_atlas.bin"
 OUTPUT_PNG = "build/english_font_atlas_preview.png"
