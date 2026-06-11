@@ -313,6 +313,20 @@ def patch_section1(orig_data, patched_data):
             new_count = remap_glyph_count(old_off, old_count, old_groups, new_groups)
 
             if new_off != old_off or new_count != old_count:
+                if new_off > 0xFFFF:
+                    print(
+                        "  WARNING: DISPLAY_TEXT at S1+0x%04x: remapped offset %d overflows u16 "
+                        "(old=%d). Opcode left unchanged to avoid corruption."
+                        % (i * 2, new_off, old_off)
+                    )
+                    continue
+                if new_count > 0xFFFF:
+                    print(
+                        "  WARNING: DISPLAY_TEXT at S1+0x%04x: remapped count %d overflows u16 "
+                        "(old=%d). Opcode left unchanged to avoid corruption."
+                        % (i * 2, new_count, old_count)
+                    )
+                    continue
                 words[i + 2] = new_off & 0xFFFF
                 words[i + 4] = new_count & 0xFFFF
                 patched_count += 1
@@ -329,6 +343,18 @@ def patch_section1(orig_data, patched_data):
             if old_idx < old_sec2_words and param != 121:
                 new_idx = remap_glyph_offset(old_idx, old_groups, new_groups)
                 if new_idx != old_idx:
+                    if new_idx > 0xFFFF:
+                        print(
+                            "  WARNING: %s at S1+0x%04x: remapped glyph_idx %d overflows u16 "
+                            "(old=%d). Opcode left unchanged to avoid corruption."
+                            % (
+                                "SET_NAME_REF" if words[i] == 0x000C else "CLEAR_NAME_REF",
+                                i * 2,
+                                new_idx,
+                                old_idx,
+                            )
+                        )
+                        continue
                     words[i + 2] = new_idx & 0xFFFF
                     patched_count += 1
 

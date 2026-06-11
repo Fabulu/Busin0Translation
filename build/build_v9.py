@@ -241,6 +241,24 @@ for r_id in sorted(type02_resources):
                 glyphs.append(enc(ch))
         encoded_trans[mi] = glyphs
 
+    # R1203: Section 2 overflow guard.
+    # The English translation grows Section 2 from 50,231 to ~76,054 words, exceeding
+    # the u16 limit of 65,535.  The total must account for ALL groups (translated +
+    # original), because every group still occupies space even if untranslated.
+    # Binary search shows cap=1069 is the highest group index where the full Section 2
+    # stays within 65,535 words (cumulative: 65,527).  Groups 1070-1632 (555 translated
+    # messages) are left in their original Japanese to avoid the overflow.
+    R1203_MAX_GROUP = 1069  # last group index that keeps total Section 2 <= 65535 words
+    if r_id == 1203:
+        before = len(encoded_trans)
+        encoded_trans = {mi: g for mi, g in encoded_trans.items() if mi <= R1203_MAX_GROUP}
+        dropped = before - len(encoded_trans)
+        if dropped:
+            print(
+                "  R1203: capped at group %d — dropped %d overflow translations (groups %d-%d)"
+                % (R1203_MAX_GROUP, dropped, R1203_MAX_GROUP + 1, max(msg_trans))
+            )
+
     result = inject_and_patch(
         r_id, encoded_trans,
         'extracted/packdata_raw',
