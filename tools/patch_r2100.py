@@ -314,21 +314,22 @@ def main():
             patch_cell(linear, row, col, cell_data)
             patches_applied += 1
 
-        # Duplicate uppercase A-Z from cells 33-58 to 95-120 (sub-block 0 only).
-        # R37 name groups use remapped glyph IDs 95-120 to avoid keyboard font
+        # Duplicate uppercase A-Z from cells 33-58 to 121-146 (sub-block 0 only).
+        # R37 name groups use remapped glyph IDs 121-146 to avoid keyboard font
         # metrics pollution. The chargen atlas needs matching bitmaps.
-        # SKIP cell 110 (i=15, letter P): the padding glyph maps to cell 110,
-        # so overwriting it with "P" causes "P" to appear in empty name slots.
-        # Keeping cell 110's original Japanese content keeps padding invisible.
+        #
+        # MOVED from 95-120 to 121-146: slots 95-115 shared columns with lowercase
+        # letters j-~ (slots 74-94), causing the game's ~4-row cell overread to pick
+        # up duplicate glyph content as subscript/overbar artifacts on r, y, V.
+        # Slots 121-146 have no occupied neighbors above or below in any column.
+        #
+        # The old i==15 (cell 110 / P) skip is no longer needed: new dup P lands at
+        # slot 136 which is far from the padding-glyph cell 110 (now empty/original).
         if needs_uppercase_dup:
             dup_count = 0
             for i in range(26):
-                # SKIP cell 110 (i=15, letter P): including it causes P to appear
-                # in every empty name slot. Root cause still unknown — do NOT remove.
-                if i == 15:
-                    continue
                 src_id = 33 + i
-                dst_id = 95 + i
+                dst_id = 121 + i
                 src_row, src_col = src_id // COLS, src_id % COLS
                 dst_row, dst_col = dst_id // COLS, dst_id % COLS
                 # Read source cell
@@ -341,7 +342,7 @@ def main():
                 # Write to destination
                 patch_cell(linear, dst_row, dst_col, cell_data)
                 dup_count += 1
-            print(f"    Duplicated {dup_count} uppercase cells (33-58 -> 95-120, skipping cell 110/P)")
+            print(f"    Duplicated {dup_count} uppercase cells (33-58 -> 121-146)")
 
         # Save preview
         preview = Image.new("L", (TEX_W, TEX_H))

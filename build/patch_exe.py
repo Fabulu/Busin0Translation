@@ -10,7 +10,7 @@ Patches applied:
   5. Banner byte-50 glyph   (byte 50)     – third glyph ref per record
   6. NOP chargen RenderAllTiles            – hide kanji overlay
   7. Chargen gender glyphs                 – 男/女 → ♂/♀
-  8. Font widths for name uppercase 95-120 – copy from 33-58
+  8. Font widths for name uppercase 121-146 – copy from 33-58
   9. Keyboard F/M metrics fix              – force non-zero for glyphs 38,45,70,77
 """
 
@@ -284,18 +284,20 @@ def main():
         else:
             print(f"  WARN 0x{off:06X}: {label} (expected {old_val}, got {cur})")
 
-    # ─── PATCH 8: Font widths for duplicate uppercase at 95-120 ──────
-    # R37 name groups use remapped glyph IDs 95-120 for uppercase A-Z
+    # ─── PATCH 8: Font widths for duplicate uppercase at 121-146 ─────
+    # R37 name groups use remapped glyph IDs 121-146 for uppercase A-Z
     # (avoiding keyboard metrics pollution at 33-58). Copy the font widths
-    # from positions 33-58 to 95-120 so names render with correct spacing.
+    # from positions 33-58 to 121-146 so names render with correct spacing.
+    # (Moved from 95-120: those slots shared columns with lowercase j-~, causing
+    # ~4-row cell overread artifacts: subscript marks on r/y, overbar on V.)
     WIDTH_TABLES = [0x3DDC48, 0x3DDD48, 0x3DDE48, 0x3DDF48]
-    print("\n--- Patch 8: Font widths for name uppercase (95-120) ---")
+    print("\n--- Patch 8: Font widths for name uppercase (121-146) ---")
     for tbl in WIDTH_TABLES:
         for i in range(26):
-            src_off = tbl + 33 + i   # original A-Z width
-            dst_off = tbl + 95 + i   # duplicate slot width
+            src_off = tbl + 33 + i    # original A-Z width
+            dst_off = tbl + 121 + i   # duplicate slot width
             data[dst_off] = data[src_off]
-        print(f"  OK   0x{tbl:06X}: copied widths 33-58 -> 95-120")
+        print(f"  OK   0x{tbl:06X}: copied widths 33-58 -> 121-146")
         patched_count += 1
 
     # ─── PATCH 9: Keyboard F/M metrics fix ─────────────────────────────

@@ -288,19 +288,27 @@ def patch_section1(orig_data, patched_data):
 
     # Scan for opcodes using PATTERN MATCHING rather than sequential walking.
     # Sequential walking fails because Section 1 contains data regions (zero padding,
-    # 0xFFFF values, etc.) that aren't valid opcodes. Walking by unknown-opcode=1
-    # causes desynchronization, making the walker miss real opcodes.
+    # 0xFFFF values, etc.) that aren't valid opcodes.
     #
-    # Pattern matching is safe here because:
-    #   - DISPLAY_TEXT has a distinctive 5-word pattern: 0004 0000 xxxx 0000 xxxx
-    #   - SET_NAME_REF/CLEAR_NAME_REF: 000C/000D followed by param and glyph_idx
-    #   - False positives are filtered by checking if the glyph offset/index
-    #     falls within the old Section 2 bounds.
+    # CRITICAL: Multi-word opcodes (0x0006=7 words, 0x0016=6 words, 0x0017=5 words)
+    # can contain parameter values that accidentally match DISPLAY_TEXT or SET_NAME_REF
+    # patterns. To prevent false positives, we pre-scan to identify word positions
+    # that fall inside known multi-word opcode bodies and exclude them from matching.
+    MULTI_WORD_OPCODES = {0x0006: 7, 0x0016: 6, 0x0017: 5, 0x0012: 4, 0x001A: 3}
+    body_positions = set()
+    for i in range(n_words):
+        if words[i] in MULTI_WORD_OPCODES:
+            length = MULTI_WORD_OPCODES[words[i]]
+            for j in range(1, length):
+                if i + j < n_words:
+                    body_positions.add(i + j)
 
     patched_count = 0
 
     # Pass 1: DISPLAY_TEXT (0x0004) -- pattern: 0004 0000 GOFF 0000 GCNT
     for i in range(n_words - 4):
+        if i in body_positions:
+            continue
         if (
             words[i] == 0x0004
             and words[i + 1] == 0x0000
@@ -333,6 +341,8 @@ def patch_section1(orig_data, patched_data):
 
     # Pass 2: SET_NAME_REF (0x000C) and CLEAR_NAME_REF (0x000D)
     for i in range(n_words - 2):
+        if i in body_positions:
+            continue
         if words[i] in (0x000C, 0x000D):
             param = words[i + 1]
             old_idx = words[i + 2]

@@ -556,15 +556,17 @@ def fixup_r37_inplace(raw_path, translations):
     remapped_names = 0
     for gi, glyphs in translations.items():
         # Remap uppercase glyph IDs in name groups (21+) to avoid keyboard
-        # font metrics pollution. Uppercase A-Z (33-58) → 95-120. The chargen
-        # atlas (R2100) and font metrics (R1369) are patched to support 95-120
+        # font metrics pollution. Uppercase A-Z (33-58) → 121-146. The chargen
+        # atlas (R2100) and font metrics (R1369) are patched to support 121-146
         # with duplicate A-Z bitmaps and metrics.
+        # (Moved from 95-120: those slots shared columns with lowercase j-~,
+        # causing game cell-overread artifacts on r, y, V in dialogue text.)
         if gi >= 21 and gi != 123:
             remapped = []
             did_remap = False
             for g in glyphs:
                 if 33 <= g <= 58:  # uppercase A-Z
-                    remapped.append(g - 33 + 95)  # remap to 95-120
+                    remapped.append(g - 33 + 121)  # remap to 121-146
                     did_remap = True
                 else:
                     remapped.append(g)
@@ -668,7 +670,7 @@ def fixup_r37_inplace(raw_path, translations):
         print(f'  R37 relocated {relocated} overflowing instruction groups to free space')
     print(f'  Keyboard groups preserved at original byte offsets')
     if remapped_names:
-        print(f'  Remapped uppercase A-Z (33-58 -> 95-120) in {remapped_names} name groups')
+        print(f'  Remapped uppercase A-Z (33-58 -> 121-146) in {remapped_names} name groups')
 
 
 modified = 0
@@ -679,7 +681,7 @@ modified = 0
 # Resources with non-text binary data that happens to contain 0xFFFF patterns.
 # The v2 pipeline would misinterpret these as text group terminators and inject
 # translations over VIF/DMA commands, causing VIF FIFO crashes.
-SKIP_V2_PIPELINE = {34, 2124}
+SKIP_V2_PIPELINE = {34, 46, 47, 2124}
 
 for res_idx in sorted(encoded_by_res.keys()):
     if res_idx in SKIP_V2_PIPELINE:
