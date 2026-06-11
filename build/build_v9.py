@@ -148,6 +148,11 @@ print("\n=== Step 3.1: R39 inline Japanese patch ===")
 os.system('python tools/patch_r39_inline.py')
 print("  R39 inline labels patched")
 
+# ===== STEP 3.2: R39 quest UI labels and quest titles =====
+print("\n=== Step 3.2: R39 quest labels and titles ===")
+os.system('python build/inject_r39_quest.py')
+print("  R39 quest labels injected")
+
 # ===== STEP 3.5: R46/R47 type-03 injection =====
 print("\n=== Step 3.5: R46/R47 type-03 injection ===")
 os.system('python build/inject_r46_r47.py')
