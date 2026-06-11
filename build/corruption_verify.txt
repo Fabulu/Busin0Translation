@@ -1,0 +1,31 @@
+=== R1188 glyph corruption check (32x32 cell grid) ===
+  Glyph   1: pos=(32,0) orig=190 patched=190 lost=0
+  Glyph   2: pos=(64,0) orig=246 patched=246 lost=0
+  Glyph  10: pos=(320,0) orig=252 patched=252 lost=0
+  Glyph  20: pos=(640,0) orig=428 patched=428 lost=0
+  Glyph  30: pos=(960,0) orig=229 patched=229 lost=0
+  Glyph  33: pos=(32,32) orig=472 patched=472 lost=0
+  Glyph  37: pos=(160,32) orig=369 patched=144 lost=225 DAMAGED(225 lost)
+  Glyph  38: pos=(192,32) orig=471 patched=309 lost=171 <-- F DAMAGED(171 lost)
+  Glyph  39: pos=(224,32) orig=258 patched=120 lost=138 DAMAGED(138 lost)
+  Glyph  44: pos=(384,32) orig=427 patched=260 lost=176 DAMAGED(176 lost)
+  Glyph  45: pos=(416,32) orig=294 patched=200 lost=105 <-- M DAMAGED(105 lost)
+  Glyph  46: pos=(448,32) orig=330 patched=87 lost=270 DAMAGED(270 lost)
+  Glyph  50: pos=(576,32) orig=386 patched=386 lost=0
+  Glyph  56: pos=(768,32) orig=360 patched=289 lost=115 DAMAGED(115 lost)
+
+=== If 32x32 cells: glyphs 32-63 damage comparison ===
+  Glyph  37: orig=369 lost=225 (60%)
+  Glyph  38: orig=471 lost=171 (36%) <-- F
+  Glyph  39: orig=258 lost=138 (53%)
+  Glyph  40: orig=372 lost=217 (58%)
+  Glyph  41: orig=482 lost=245 (50%)
+  Glyph  42: orig=357 lost=122 (34%)
+  Glyph  43: orig=377 lost=171 (45%)
+  Glyph  44: orig=427 lost=176 (41%)
+  Glyph  45: orig=294 lost=105 (35%) <-- M
+  Glyph  46: orig=330 lost=270 (81%)
+  Glyph  47: orig=238 lost=115 (48%)
+  Glyph  51: orig=345 lost=22 (6%)
+  Glyph  56: orig=360 lost=115 (31%)
+  Glyph  60: orig=332 lost=95 (28%)

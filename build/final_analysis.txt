@@ -1,0 +1,37 @@
+=== Checking if F/M cells are fully empty in patched R1188 ===
+
+  Cell size 16x16 (64 columns):
+    Glyph  33 (A): (528,0) nonzero=6
+    Glyph  37 (E): (592,0) nonzero=142
+    Glyph  38 (F): (608,0) nonzero=137 <-- F
+    Glyph  39 (G): (624,0) nonzero=84
+    Glyph  44 (L): (704,0) nonzero=71
+    Glyph  45 (M): (720,0) nonzero=7 <-- M
+    Glyph  46 (N): (736,0) nonzero=92
+
+  Cell size 20x20 (51 columns):
+    Glyph  33 (A): (660,0) nonzero=191
+    Glyph  37 (E): (740,0) nonzero=115
+    Glyph  38 (F): (760,0) nonzero=144 <-- F
+    Glyph  39 (G): (780,0) nonzero=110
+    Glyph  44 (L): (880,0) nonzero=107
+    Glyph  45 (M): (900,0) nonzero=153 <-- M
+    Glyph  46 (N): (920,0) nonzero=106
+
+  Cell size 24x24 (42 columns):
+    Glyph  33 (A): (792,0) nonzero=44
+    Glyph  37 (E): (888,0) nonzero=144
+    Glyph  38 (F): (912,0) nonzero=170 <-- F
+    Glyph  39 (G): (936,0) nonzero=126
+    Glyph  44 (L): (48,24) nonzero=139
+    Glyph  45 (M): (72,24) nonzero=148 <-- M
+    Glyph  46 (N): (96,24) nonzero=132
+
+  Cell size 32x32 (32 columns):
+    Glyph  33 (A): (32,32) nonzero=472
+    Glyph  37 (E): (160,32) nonzero=144
+    Glyph  38 (F): (192,32) nonzero=309 <-- F
+    Glyph  39 (G): (224,32) nonzero=120
+    Glyph  44 (L): (384,32) nonzero=260
+    Glyph  45 (M): (416,32) nonzero=200 <-- M
+    Glyph  46 (N): (448,32) nonzero=87

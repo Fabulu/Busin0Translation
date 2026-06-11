@@ -75,7 +75,7 @@
     "758": {"char": "\u5185", "confidence": "MEDIUM", "evidence": "R46 MSG91/144: \u30d1\u30fc\u30c6\u30a3\u306e\u5185\u5bb9\u3067 (with the party's contents) - variant of 767"},
     "790": {"char": "\u7d76", "confidence": "HIGH", "evidence": "R46 MSG37: \u6c17\u7d76\u3055\u305b\u3089\u308c\u308b\u3068 (if made to faint)"},
     "793": {"char": "\u5854", "confidence": "LOW", "evidence": "R46 MSG16/27: \u30ab\u30eb\u30de\u30f3\u306e\u5de8\u56e3\u5854 context"},
-    "801": {"char": "\u8a18", "confidence": "HIGH", "evidence": "R46 MSG28/47: \u30b7\u30e0\u30be\u30f3\u306e\u65e5\u8a18\u306b\u306f (in Simson's diary)"},
+    "801": {"char": "\u8a18", "confidence": "HIGH", "evidence": "R46 MSG28/47: \u30b7\u30e0\u30be\u30f3\u306e\u65e5\u8a18\u306b\u306f (in Simzon's diary)"},
     "830": {"char": "\u58f0", "confidence": "MEDIUM", "evidence": "R46 MSG38: \u30d0\u30f3\u30b7\u30fc\u3055\u3093\u306e\u58f0\u306b (Banshee's voice)"},
     "966": {"char": "\u6c11", "confidence": "HIGH", "evidence": "R46 MSG1,80: \u5e02\u6c11\u306e\u307f\u306a\u3055\u307e (citizens)"},
     "1002": {"char": "\u5012", "confidence": "HIGH", "evidence": "R46 MSG71/118: \u30a6\u30a7\u30d6\u30b9\u30bf\u30fc\u3092\u5012\u3057\u305f\u30e4\u30c4\u304c (the one who defeated Webster)"},
@@ -95,7 +95,7 @@
   },
   "r46_key_findings": {
     "citizens": "697+966 = \u5e02\u6c11 (citizens of Duhan)",
-    "diary": "801=\u8a18, as in \u30b7\u30e0\u30be\u30f3\u306e\u65e5\u8a18(Simson's diary)",
+    "diary": "801=\u8a18, as in \u30b7\u30e0\u30be\u30f3\u306e\u65e5\u8a18(Simzon's diary)",
     "survival": "536=\u5b58, as in \u738b\u5973\u3055\u307e\u751f\u5b58(princess's survival)",
     "likes_torture": "560=\u597d, as in \u30b4\u30fc\u30e2\u30f3\u304c\u597d\u304d(likes torture/Gomon)",
     "defeat": "1002=\u5012, as in \u30a6\u30a7\u30d6\u30b9\u30bf\u30fc\u3092\u5012\u3057\u305f(defeated Webster)",

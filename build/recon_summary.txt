@@ -1,0 +1,81 @@
+
+=== RECON SUMMARY: EXE Cell Data Table Investigation ===
+=== Why glyph IDs 38 (F) and 45 (M) don't render on keyboard ===
+
+1. KEYBOARD PAGE TABLES FOUND (0x3C5550-0x3C6C00)
+   - 10 keyboard pages at pointer table 0x3C6A60 (VA 0x4C6A60)
+   - Page 5 (file 0x3C58B0) = ABC page, 56 entries, desc_idx=10
+   - Each entry: (flag:u16, gA:u16, dA:u16, gB:u16, dB:u16) = 10 bytes
+   - Entries for F(gA=38) and M(gA=45) are BYTE-IDENTICAL to neighbors
+   - NO anomaly in the table data
+
+2. EXE PATCHES DO NOT TOUCH KEYBOARD REGION
+   - Patches 1-6 modify offsets outside 0x3C5550-0x3C6C00
+   - Diff between original and patched EXE: ZERO bytes changed in keyboard region
+   - Patch 4 old values (705-722) don't exist in keyboard tables
+   - Patch 6 (NOP RenderAllTiles at 0x1F25E8) is the ONLY call site
+
+3. R1272 ATLAS IS IRRELEVANT TO KEYBOARD
+   - Original R1272 has JAPANESE chars at slots 33-58 (virtually empty for English)
+   - Yet original game renders English A-Z on keyboard ABC page
+   - Therefore keyboard uses R1188, NOT R1272, for ABC page glyphs
+   - Our R1272 replacement atlas has valid F/M content but it doesn't matter
+
+4. R1188 ATLAS CORRUPTION DISCOVERED (patch_r1188_comprehensive.py)
+   - Deswizzle->modify->reswizzle round-trip is LOSSY
+   - 24,778 pixel diffs between original and patched R1188
+   - Rows 32-235 affected (21,509 orig pixels zeroed out)
+   - Keyboard glyphs live in these rows
+   - BUT: F and M cells still have significant nonzero content
+   - Corruption damages ALL glyphs in rows 32+, not just F and M
+
+5. GLYPH MAPPING TABLE (0x3C6AA0)
+   - Maps keyboard internal codes (0x0000-0x003E) to cell indices
+   - 63 entries, table ends with (0,0)
+   - Does NOT contain keyboard glyph codes for the ABC page directly
+
+6. NO FILTER/BITMASK/SKIP-LIST FOUND FOR IDs 38/45
+   - No bitmask where bits 38 and 45 are both 0
+   - No paired skip-list entries
+   - Many MIPS instructions reference 38 and 45 but for generic purposes
+
+=== KEY FINDINGS ===
+
+A. The EXE cell data tables are CLEAN - entries for F/M are identical to neighbors.
+   THIS IS NOT AN EXE TABLE PROBLEM.
+
+B. R1188 atlas has a LOSSY swizzle round-trip in patch_r1188_comprehensive.py
+   that damages keyboard glyph pixels in rows 32-235. While this doesn't fully
+   zero out F/M cells, it DOES corrupt them significantly. This could interact
+   with the rendering engine (e.g., if the renderer checks pixel sum or has a
+   minimum opacity threshold for draw call emission).
+
+C. The problem is NOT in R1272 atlas (keyboard doesn't use it).
+
+=== NEXT STEPS ===
+
+1. FIX THE R1188 ROUND-TRIP: The deswizzle/reswizzle in patch_r1188_comprehensive.py
+   is damaging upper-row glyph content. The patcher should:
+   - Either modify only the swizzled (host) data directly without full round-trip
+   - Or fix the deswizzle/swizzle functions to be lossless
+   - Or use VRAM simulation for ALL modifications (like Phase 4 does for stat labels)
+
+2. VERIFY CELL SIZE: Need to determine the actual cell size used by desc_idx=10
+   for the keyboard. Try 20x20 (the stat glyph size) and check if F/M specific
+   cells are more severely damaged.
+
+3. DEBUGGER VERIFICATION: Set a breakpoint in the keyboard rendering code and
+   trace what happens when it processes glyph IDs 38 and 45 vs 37 and 46.
+   Check if the game's renderer detects the corrupted pixels and skips the draw.
+
+=== FILES EXAMINED ===
+  extracted/SLPM_653.78           - Original EXE (4,185,776 bytes)
+  build/SLPM_653.78_patched       - Patched EXE
+  build/patch_exe.py              - EXE patcher (6 patches)
+  tools/patch_r1188_comprehensive.py - R1188 comprehensive patcher
+  tools/patch_r1188_bw256.py      - R1188 stat label bw=256 patcher
+  tools/patch_r1188_direct.py     - R1188 direct pixel patcher (older)
+  tools/generate_font_atlas.py    - R1272 font atlas generator
+  build/english_font_atlas.bin    - Generated R1272 atlas
+  extracted/packdata_resources/1188_type01.bin - Original R1188
+  build/packdata_resources/1188_type01.raw    - Patched R1188

@@ -1,27 +1,19 @@
-"""
-Disassemble the keyboard rendering functions that contain slti comparisons against 45.
-Focus on VA 0x46DE60-0x46E200.
-"""
+"""Disassemble the actual cell rendering loop at VA 0x3A2EF0."""
 import struct
 
 EXE_PATH = r"C:\Programmieren\wizardrytranslation\extracted\SLPM_653.78"
 VA_BASE = 0x0FFF80
 
-def fo2va(fo):
-    return fo + VA_BASE
-
-def va2fo(va):
-    return va - VA_BASE
+def fo2va(fo): return fo + VA_BASE
+def va2fo(va): return va - VA_BASE
 
 with open(EXE_PATH, "rb") as f:
     exe = f.read()
 
-REG = [
-    "zero","at","v0","v1","a0","a1","a2","a3",
-    "t0","t1","t2","t3","t4","t5","t6","t7",
-    "s0","s1","s2","s3","s4","s5","s6","s7",
-    "t8","t9","k0","k1","gp","sp","s8","ra"
-]
+REG = ["zero","at","v0","v1","a0","a1","a2","a3",
+       "t0","t1","t2","t3","t4","t5","t6","t7",
+       "s0","s1","s2","s3","s4","s5","s6","s7",
+       "t8","t9","k0","k1","gp","sp","s8","ra"]
 
 def disasm(instr, pc_va):
     op = (instr >> 26) & 0x3F
@@ -33,32 +25,27 @@ def disasm(instr, pc_va):
     imm = instr & 0xFFFF
     imm_s = imm - 0x10000 if imm & 0x8000 else imm
     target = (instr & 0x03FFFFFF) << 2 | (pc_va & 0xF0000000)
-
     if instr == 0: return "nop"
     if op == 0:
         if funct == 0x2d: return f"daddu ${REG[rd]}, ${REG[rs]}, ${REG[rt]}"
         if funct == 0x08: return f"jr ${REG[rs]}"
         if funct == 0x09: return f"jalr ${REG[rd]}, ${REG[rs]}"
-        r_ops = {0x20:"add",0x21:"addu",0x22:"sub",0x23:"subu",0x24:"and",0x25:"or",0x26:"xor",0x27:"nor",0x2A:"slt",0x2B:"sltu",0x00:"sll",0x02:"srl",0x03:"sra",0x04:"sllv",0x06:"srlv",0x10:"mfhi",0x12:"mflo",0x18:"mult",0x19:"multu",0x1A:"div",0x1B:"divu",0x3C:"dsll32",0x3F:"dsra32"}
-        if funct in (0x00,0x02,0x03,0x3C,0x3F):
-            return f"{r_ops.get(funct,'?')} ${REG[rd]}, ${REG[rt]}, {sa}"
+        r_ops = {0x20:"add",0x21:"addu",0x22:"sub",0x23:"subu",0x24:"and",0x25:"or",0x26:"xor",0x2A:"slt",0x2B:"sltu",0x00:"sll",0x02:"srl",0x03:"sra",0x10:"mfhi",0x12:"mflo",0x18:"mult",0x19:"multu",0x1A:"div",0x1B:"divu",0x3C:"dsll32",0x3F:"dsra32"}
+        if funct in (0x00,0x02,0x03,0x3C,0x3F): return f"{r_ops.get(funct,'?')} ${REG[rd]}, ${REG[rt]}, {sa}"
         if funct in (0x10,0x12): return f"{r_ops[funct]} ${REG[rd]}"
         if funct in (0x18,0x19,0x1A,0x1B): return f"{r_ops[funct]} ${REG[rs]}, ${REG[rt]}"
         if funct in r_ops: return f"{r_ops[funct]} ${REG[rd]}, ${REG[rs]}, ${REG[rt]}"
         return f"special funct={funct:#04x}"
     if op == 1:
         bt = pc_va + 4 + imm_s * 4
-        sub_ops = {0:"bltz",1:"bgez",16:"bltzal",17:"bgezal"}
-        return f"{sub_ops.get(rt,'regimm')} ${REG[rs]}, {bt:#08x}"
+        return {0:"bltz",1:"bgez"}.get(rt,"regimm") + f" ${REG[rs]}, {bt:#08x}"
     if op == 2: return f"j {target:#08x}"
     if op == 3: return f"jal {target:#08x}"
     if op == 4:
         bt = pc_va + 4 + imm_s * 4
         if rs==0 and rt==0: return f"b {bt:#08x}"
         return f"beq ${REG[rs]}, ${REG[rt]}, {bt:#08x}"
-    if op == 5:
-        bt = pc_va + 4 + imm_s * 4
-        return f"bne ${REG[rs]}, ${REG[rt]}, {bt:#08x}"
+    if op == 5: return f"bne ${REG[rs]}, ${REG[rt]}, {pc_va+4+imm_s*4:#08x}"
     if op == 6: return f"blez ${REG[rs]}, {pc_va+4+imm_s*4:#08x}"
     if op == 7: return f"bgtz ${REG[rs]}, {pc_va+4+imm_s*4:#08x}"
     if op == 9:
@@ -68,6 +55,7 @@ def disasm(instr, pc_va):
     if op == 11: return f"sltiu ${REG[rt]}, ${REG[rs]}, {imm_s}"
     if op == 12: return f"andi ${REG[rt]}, ${REG[rs]}, {imm:#06x}"
     if op == 13: return f"ori ${REG[rt]}, ${REG[rs]}, {imm:#06x}"
+    if op == 14: return f"xori ${REG[rt]}, ${REG[rs]}, {imm:#06x}"
     if op == 15: return f"lui ${REG[rt]}, {imm:#06x}"
     load_ops = {32:"lb",33:"lh",35:"lw",36:"lbu",37:"lhu"}
     if op in load_ops: return f"{load_ops[op]} ${REG[rt]}, {imm_s}(${REG[rs]})"
@@ -77,61 +65,42 @@ def disasm(instr, pc_va):
     if op == 63: return f"sd ${REG[rt]}, {imm_s}(${REG[rs]})"
     if op == 31: return f"sq ${REG[rt]}, {imm_s}(${REG[rs]})"
     if op == 30: return f"lq ${REG[rt]}, {imm_s}(${REG[rs]})"
+    if op == 25: return f"daddiu ${REG[rt]}, ${REG[rs]}, {imm_s}"
     return f"op={op:#04x} raw={instr:#010x}"
 
-# Disassemble the area with slti 45 comparisons
+# Disassemble 0x3A2EF0 through 0x3A3260 (the full rendering function)
 print("=" * 90)
-print("DISASSEMBLY: VA 0x46DE50-0x46E1A0 (functions with slti $reg, $reg, 45)")
+print("FUNCTION AT VA 0x3A2EF0 (actual per-cell rendering)")
 print("=" * 90)
 
-START = va2fo(0x46DE50)
-END = va2fo(0x46E1A0)
+START = va2fo(0x3A2EF0)
+END = va2fo(0x3A3260)
 
 for off in range(START, END, 4):
     va = fo2va(off)
     instr = struct.unpack_from("<I", exe, off)[0]
     text = disasm(instr, va)
     marker = ""
-    if "slti" in text and ", 45" in text: marker = "  *** CMP 45 ***"
-    elif "slti" in text and ", 30" in text: marker = "  *** CMP 30 ***"
-    elif "jr $ra" in text: marker = "  --- RET ---"
-    elif text.startswith("jal"): marker = f"  --- CALL ---"
+    if "jr $ra" in text: marker = " --- RET ---"
+    elif text.startswith("jal"): marker = " --- CALL ---"
     print(f"  {va:#08x}: {text}{marker}")
 
-# Also disassemble one of the main render functions: VA 0x46D2E0 area
+# Also disassemble 0x3A2D90 - the pointer lookup
 print()
 print("=" * 90)
-print("DISASSEMBLY: VA 0x46D2E0-0x46D440 (render function)")
+print("FUNCTION AT VA 0x3A2D90 (pointer lookup)")
 print("=" * 90)
 
-START2 = va2fo(0x46D2E0)
-END2 = va2fo(0x46D440)
-
-for off in range(START2, END2, 4):
+START = va2fo(0x3A2D90)
+for off in range(START, START + 0x160, 4):
     va = fo2va(off)
     instr = struct.unpack_from("<I", exe, off)[0]
     text = disasm(instr, va)
     marker = ""
-    if "jr $ra" in text: marker = "  --- RET ---"
-    elif text.startswith("jal"): marker = f"  --- CALL ---"
+    if "jr $ra" in text: marker = " --- RET ---"
+    elif text.startswith("jal"): marker = " --- CALL ---"
     print(f"  {va:#08x}: {text}{marker}")
-
-# Now look at who calls the rendering functions
-# The function at 0x46D2E0 is likely the main one
-# Let me check 0x4536A0 - it's called before 0x46c7F0
-print()
-print("=" * 90)
-print("DISASSEMBLY: VA 0x453400-0x4536D0 (setup/init functions)")
-print("=" * 90)
-
-START3 = va2fo(0x453400)
-END3 = va2fo(0x4536D0)
-
-for off in range(START3, END3, 4):
-    va = fo2va(off)
-    instr = struct.unpack_from("<I", exe, off)[0]
-    text = disasm(instr, va)
-    marker = ""
-    if "jr $ra" in text: marker = "  --- RET ---"
-    elif text.startswith("jal"): marker = f"  --- CALL ---"
-    print(f"  {va:#08x}: {text}{marker}")
+    if "jr $ra" in text:
+        off2 = off + 4
+        print(f"  {fo2va(off2):#08x}: {disasm(struct.unpack_from('<I', exe, off2)[0], fo2va(off2))}")
+        break

@@ -1,0 +1,86 @@
+[
+  {
+    "resource": 38,
+    "message": 2,
+    "japanese": "力",
+    "english": "STR / "
+  },
+  {
+    "resource": 38,
+    "message": 25,
+    "japanese": "男",
+    "english": "♂ / "
+  },
+  {
+    "resource": 38,
+    "message": 26,
+    "japanese": "女",
+    "english": "♀ / "
+  },
+  {
+    "resource": 38,
+    "message": 35,
+    "japanese": " ",
+    "english": "  / "
+  },
+  {
+    "resource": 38,
+    "message": 36,
+    "japanese": " ",
+    "english": "  / "
+  },
+  {
+    "resource": 38,
+    "message": 42,
+    "japanese": "侍",
+    "english": "Samurai / "
+  },
+  {
+    "resource": 38,
+    "message": 54,
+    "japanese": "武",
+    "english": "Coward / "
+  },
+  {
+    "resource": 38,
+    "message": 149,
+    "japanese": "中立「n」",
+    "english": "Neutral / "
+  },
+  {
+    "resource": 38,
+    "message": 151,
+    "japanese": "善",
+    "english": "Good / "
+  },
+  {
+    "resource": 38,
+    "message": 152,
+    "japanese": "中立",
+    "english": "Neut. / "
+  },
+  {
+    "resource": 38,
+    "message": 153,
+    "japanese": "悪",
+    "english": "Evil / "
+  },
+  {
+    "resource": 38,
+    "message": 154,
+    "japanese": "g",
+    "english": "G / "
+  },
+  {
+    "resource": 38,
+    "message": 155,
+    "japanese": "n",
+    "english": "N / "
+  },
+  {
+    "resource": 38,
+    "message": 156,
+    "japanese": "e",
+    "english": "E / "
+  }
+]
