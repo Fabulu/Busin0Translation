@@ -676,7 +676,10 @@ modified = 0
 # inject_resource() misinterprets this as a standard sub-header, causing
 # sub 0's expanded payload to overflow into sub 1 -> data corruption.
 # R34 is handled in Step 2 of build_v9.py instead.
-SKIP_V2_PIPELINE = {34}
+# Resources with non-text binary data that happens to contain 0xFFFF patterns.
+# The v2 pipeline would misinterpret these as text group terminators and inject
+# translations over VIF/DMA commands, causing VIF FIFO crashes.
+SKIP_V2_PIPELINE = {34, 2124}
 
 for res_idx in sorted(encoded_by_res.keys()):
     if res_idx in SKIP_V2_PIPELINE:
