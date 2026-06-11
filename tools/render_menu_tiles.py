@@ -24,16 +24,11 @@ CSV_PATH = os.path.join(BASE, "data", "menu_labels.csv")
 
 
 def find_font():
-    """Find a narrow proportional font for 12x12 cells.
-
-    Calibri 7pt fits 3 chars per 12px tile (vs Consolas 9pt = 2 chars).
-    This allows 6-char labels across tile pairs (e.g. tavern, church).
-    """
+    """Find a narrow font suitable for 12x12 cells."""
     candidates = [
-        ("C:/Windows/Fonts/calibri.ttf", 7),
-        ("C:/Windows/Fonts/tahoma.ttf", 7),
-        ("C:/Windows/Fonts/segoeui.ttf", 7),
-        ("C:/Windows/Fonts/arial.ttf", 7),
+        ("C:/Windows/Fonts/consola.ttf", 9),
+        ("C:/Windows/Fonts/arial.ttf", 9),
+        ("C:/Windows/Fonts/cour.ttf", 9),
     ]
     for path, size in candidates:
         if os.path.exists(path):
@@ -45,7 +40,7 @@ def split_label(english: str, strategy: str) -> tuple:
     """Split an English label into (tile1_text, tile2_text).
 
     For 'abbrev' labels (<= 4 chars), the whole word goes on tile 1.
-    For 'tile_pair' labels, split at 3 chars (max per tile with Calibri 7pt).
+    For 'tile_pair' labels, the word is split roughly in half.
     """
     if strategy == "skip":
         return ("", "")
@@ -56,8 +51,15 @@ def split_label(english: str, strategy: str) -> tuple:
     if strategy == "abbrev" or len(english) <= 3:
         return (english, "")
 
-    # Split at 3 chars — each tile fits 3 chars with Calibri 7pt
-    return (english[:3], english[3:])
+    # Split at midpoint
+    mid = len(english) // 2
+    best = mid
+    for offset in range(0, min(3, mid)):
+        for candidate in [mid + offset, mid - offset]:
+            if 0 < candidate < len(english):
+                best = candidate
+                break
+    return (english[:best], english[best:])
 
 
 def render_tile(text: str, font) -> list:

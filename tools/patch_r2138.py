@@ -80,25 +80,9 @@ SUB_DEFS.append({
 })
 
 # ── Sub 4: Status screen / chargen dual-language atlas ──
-# 512x256 PSMT4. Left half = English cursive status labels (already English).
-# Right half = Japanese chargen labels. Only 転職条件 (Job Change Requirements)
-# at (186,177) needs translation. Previous attempt at wrong coords (210,120)
-# caused artifacts — correct location confirmed via deswizzle analysis.
-SUB_DEFS.append({
-    "name": "sub4_status_tabs",
-    "sub_index": 4,
-    "offset": 0x4B490,
-    "pixel_off": 0x900,
-    "pixel_size": 65536,
-    "tex_w": 512, "tex_h": 256,
-    "bw_psmt4": 512, "dbw_ct32": 256,
-    "bg_index": 0, "ink_index": 15,
-    "font_size": 11,
-    "labels": [
-        (186, 177, 64, 17, "Class Req"),
-    ],
-    "clear_only": [],
-})
+# REMOVED: 512x256 PSMT4 dual-language atlas. Patching caused VIF FIFO crash.
+# Only Japanese text is 転職条件 (Job Change Requirements) — not worth the risk.
+# SUB_DEFS.append({...})  # sub4 intentionally skipped — causes VIF crash
 
 # ── Sub 6: Guild Roster ──
 SUB_DEFS.append({
