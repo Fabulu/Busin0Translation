@@ -422,6 +422,11 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
             groups.append(words[start:i])
             start = i + 1
 
+    # Preserve trailing data after last FFFF terminator.
+    # Resources like R989, R1034 have massive scene/dungeon script data
+    # (60-77KB) after their last FFFF. Dropping this causes crashes.
+    trailing_words = words[start:] if start < n_words else []
+
     if not groups:
         return (None, "no FFFF groups in Section 2")
 
@@ -448,6 +453,9 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
         for g in group:
             new_sec2 += struct.pack(">H", g)
         new_sec2 += struct.pack(">H", 0xFFFF)
+    # Append trailing data preserved from after the last FFFF
+    for t in trailing_words:
+        new_sec2 += struct.pack(">H", t)
 
     new_sec2_size = len(new_sec2)
 
