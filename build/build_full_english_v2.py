@@ -672,7 +672,16 @@ def fixup_r37_inplace(raw_path, translations):
 
 
 modified = 0
+# R34 (type-20) has a multi-sub header (20 entries x 16 bytes = 320 bytes).
+# inject_resource() misinterprets this as a standard sub-header, causing
+# sub 0's expanded payload to overflow into sub 1 -> data corruption.
+# R34 is handled in Step 2 of build_v9.py instead.
+SKIP_V2_PIPELINE = {34}
+
 for res_idx in sorted(encoded_by_res.keys()):
+    if res_idx in SKIP_V2_PIPELINE:
+        print(f'  R{res_idx:04d}: SKIPPED -- multi-sub header, handled in Step 2')
+        continue
     msg_trans = encoded_by_res[res_idx]
     rfn, status = inject_resource(res_idx, msg_trans)
     if rfn:

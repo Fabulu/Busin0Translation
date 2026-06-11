@@ -76,17 +76,17 @@ def word_wrap(text, max_chars=18):
         wrapped.append(seg)
     return ' / '.join(wrapped)
 
-for r_id in [35, 2654]:  # Only flat-format resources; type-01/20 handled by v2 pipeline
+for r_id in [34, 35, 2654]:  # Flat-format resources with in-place translation
     tc_map = {34: '20', 35: '02', 2654: '44'}
     tc = tc_map.get(r_id, '01')
     orig = bytearray(open(f'extracted/packdata_raw/{r_id:04d}_type{tc}.raw', 'rb').read())
     rt = {m: e for (r, m), e in translations.items() if r == r_id}
-    # R2654 (type-44) has a multi-section header before the glyph data.
-    # The glyph data offset is stored at header byte 8 (LE u32).
+    # R2654 (type-44) and R34 (type-20) have multi-section headers before
+    # the glyph data. The glyph data offset is stored at header byte 8 (LE u32).
     # Scanning for FFFF from byte 0 would treat the header as group 0,
     # and writing translations there corrupts the header -> VIF FIFO crash.
     data_start = 0
-    if r_id == 2654:
+    if r_id in (34, 2654):
         data_start = struct.unpack_from('<I', orig, 8)[0]
     fp = [i for i in range(data_start, len(orig) - 1, 2) if struct.unpack_from('>H', orig, i)[0] == 0xFFFF]
     groups = []
