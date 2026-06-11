@@ -437,19 +437,27 @@ with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
                 print(f"  PACKDATA overflow: {shift} sectors into subsequent files")
                 print(f"  Shifting {len(after_pack)} files forward by {shift} sectors...")
 
+                # Read relocated files from the ORIGINAL ISO, not the working copy.
+                # PACKDATA was written into the working ISO in Step 8, overwriting
+                # the first N sectors of BSN2_0.DSI. Reading from the working ISO
+                # would copy PACKDATA garbage into the relocated BSN2_0.DSI.
+                orig_iso = open('Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso', 'rb')
+
                 # Shift files in REVERSE order (last first) to avoid overwriting
                 for dir_off, name, old_lba, fsize in reversed(after_pack):
                     new_lba = old_lba + shift
                     sec_count = math.ceil(fsize / SECTOR)
-                    # Read file data from old position
-                    iso.seek(old_lba * SECTOR)
-                    fdata = iso.read(sec_count * SECTOR)
+                    # Read file data from ORIGINAL ISO (not working copy)
+                    orig_iso.seek(old_lba * SECTOR)
+                    fdata = orig_iso.read(sec_count * SECTOR)
                     # Write to new position
                     iso.seek(new_lba * SECTOR)
                     iso.write(fdata)
                     # Update directory entry LBA (both LE and BE)
                     struct.pack_into('<I', root_dir, dir_off + 2, new_lba)
                     struct.pack_into('>I', root_dir, dir_off + 6, new_lba)
+
+                orig_iso.close()
 
                 # Write updated directory
                 iso.seek(root_lba * SECTOR)
