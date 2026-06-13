@@ -1,0 +1,34 @@
+{
+  "resource": "R1370",
+  "raw": "extracted/packdata_raw/1370_type04.raw",
+  "out": "build/packdata_resources/1370_type04.raw",
+  "size": 81920,
+  "sheet": "T1 (trust-medallion / party-rank kanji)",
+  "verified": {
+    "pixel_off": 3808,
+    "tex_w": 256,
+    "tex_h": 256,
+    "bw_psmt4": 256,
+    "dbw_ct32": 128,
+    "vram_pages": [339, 340, 341, 342],
+    "method": "exact 256-byte host-run byte-match vs normaldungeonscreen GS.bin VRAM pages 339-342 (block-linear deswizzle, reverse_match.py method)",
+    "note": "Hypothesised base 11872/12128 was wrong (page-column ambiguity). Section-0 flush-to-end find_pixel_base() == 3808 confirmed. Section-1 blob @42304 -> pages 344-347 = T2 month/medallion sheet (DO NOT TOUCH)."
+  },
+  "do_not_touch": {
+    "section1_blob": [42304, 75072],
+    "note": "T2 sheet: JANUARY-DECEMBER month strips, date digits, arrows, medallion ring, class badges (already English). Also top-of-T1 decorative borders / number ramps / 'Leader' text / class badge block (y>=216) are left pristine."
+  },
+  "patch_window": [3808, 36576],
+  "kanji_cells": [
+    {"kanji": "絆", "english": "Bond",     "col": 0, "row": 0, "x": 4,   "y": 120, "w": 42, "h": 44},
+    {"kanji": "誓", "english": "Pledge",   "col": 1, "row": 0, "x": 52,  "y": 120, "w": 41, "h": 44},
+    {"kanji": "信", "english": "Trust",    "col": 2, "row": 0, "x": 98,  "y": 120, "w": 42, "h": 44},
+    {"kanji": "友", "english": "Friends",  "col": 3, "row": 0, "x": 146, "y": 120, "w": 43, "h": 44},
+    {"kanji": "情", "english": "Sympathy", "col": 4, "row": 0, "x": 194, "y": 120, "w": 42, "h": 44},
+    {"kanji": "義", "english": "Duty",     "col": 0, "row": 1, "x": 4,   "y": 168, "w": 42, "h": 44},
+    {"kanji": "盟", "english": "Alliance", "col": 1, "row": 1, "x": 52,  "y": 168, "w": 41, "h": 44},
+    {"kanji": "疑", "english": "Doubt",    "col": 2, "row": 1, "x": 98,  "y": 168, "w": 42, "h": 44},
+    {"kanji": "憎", "english": "Hate",     "col": 3, "row": 1, "x": 146, "y": 168, "w": 43, "h": 44},
+    {"kanji": "不", "english": "Broken",   "col": 4, "row": 1, "x": 194, "y": 168, "w": 42, "h": 44}
+  ]
+}

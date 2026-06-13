@@ -87,7 +87,7 @@ trans_map = {}
 for entry in all_entries:
     res = entry.get("resource")
     msg = entry.get("msg_index")
-    eng = entry.get("english", "").strip()
+    eng = (entry.get("english") or "").strip()
     if res is None or msg is None or not eng:
         continue
     trans_map[(int(res), int(msg))] = entry
@@ -141,8 +141,8 @@ errors = 0
 skipped = 0
 
 for (res, msg), entry in trans_map.items():
-    eng = entry.get("english", "").strip()
-    jpn = entry.get("japanese", "").strip()
+    eng = (entry.get("english") or "").strip()
+    jpn = (entry.get("japanese") or "").strip()
 
     # Skip identity translations
     if eng == jpn:

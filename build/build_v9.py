@@ -38,7 +38,7 @@ for i in range(10):
                 translations[k] = en
     except:
         pass
-for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json', 'chunk_r40_r42_translated.json', 'chunk_r36_translated.json', 'chunk_r37_r48_r49_translated.json', 'chunk_r43_r45_translated.json']:
+for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json', 'chunk_r40_r42_translated.json', 'chunk_r36_translated.json', 'chunk_r37_r48_r49_translated.json', 'chunk_r43_r45_translated.json', 'chunk_r35_menus_fix.json']:
     try:
         d = json.load(open(f'data/translate_chunks/{fix}', encoding='utf-8'))
         for e in d:
@@ -76,7 +76,7 @@ def word_wrap(text, max_chars=18):
         wrapped.append(seg)
     return ' / '.join(wrapped)
 
-for r_id in [34, 35, 2654]:  # Flat-format resources with in-place translation
+for r_id in [34, 35, 2654]:  # In-place translation (NONE are truly flat: each needs its own data_start)
     tc_map = {34: '20', 35: '02', 2654: '44'}
     tc = tc_map.get(r_id, '01')
     orig = bytearray(open(f'extracted/packdata_raw/{r_id:04d}_type{tc}.raw', 'rb').read())
@@ -88,6 +88,16 @@ for r_id in [34, 35, 2654]:  # Flat-format resources with in-place translation
     data_start = 0
     if r_id in (34, 2654):
         data_start = struct.unpack_from('<I', orig, 8)[0]
+    elif r_id == 35:
+        # R35 is NOT flat: it has a 0x20-byte type-02-style header (sec2_off
+        # LE u32 = 0x230 at +0x18) followed at 0x20 by a 25-entry offset table
+        # (BE u16 count 0x0019 + ascending BE u32s 0x68, 0x6E, ...) ending at
+        # 0x86, where the first FFFF sits. Scanning from byte 0 made "group 0"
+        # = header + offset table, and message 1 ('Save') was written over it
+        # (the v85 QA bug: header destroyed, table zeroed). Text starts right
+        # after the table. Layout + mapping verified empirically:
+        # build/recon_v85/qa/r35_alignment_check.py
+        data_start = 0x22 + 4 * struct.unpack_from('>H', orig, 0x20)[0]  # 0x86
     fp = [i for i in range(data_start, len(orig) - 1, 2) if struct.unpack_from('>H', orig, i)[0] == 0xFFFF]
     groups = []
     prev = data_start
@@ -97,7 +107,30 @@ for r_id in [34, 35, 2654]:  # Flat-format resources with in-place translation
     out = bytearray(orig)
     rep = 0
     for gi, (g_s, g_e) in enumerate(groups):
-        mi = gi + 1
+        if r_id == 34:
+            # R34: group 0 is a STRUCTURAL TABLE (word[0]=49 count followed by
+            # 49 ascending u16 values, zero-interleaved), NOT text — never write it.
+            # Group 1 is empty; item-name text starts at group 2 = message 1.
+            # Alignment verified empirically (build/recon_v85/font-artifacts/
+            # r34_alignment_check.py): decoded Japanese of group gi matches the
+            # chunk 'japanese' of message gi-1 for 24/25 entries exactly
+            # (the 25th differs by one ambiguous glyph-map entry only).
+            if gi == 0:
+                continue
+            mi = gi - 1
+        elif r_id == 35:
+            # R35: group 0 (scanned from data_start=0x86) is an EMPTY pre-text
+            # group (lone FFFF at 0x86) — never write it. Text group gi maps
+            # to message gi - 1. Alignment verified empirically
+            # (build/recon_v85/qa/r35_alignment_check.py): decoded Japanese of
+            # group gi matches the chunk 'japanese' of message gi-1 for 16/19
+            # entries exactly (the other 3 differ only by '■' placeholder
+            # glyphs in the chunk Japanese, not by alignment).
+            if gi == 0:
+                continue
+            mi = gi - 1
+        else:
+            mi = gi + 1
         if mi not in rt:
             continue
         en = rt[mi]
@@ -129,6 +162,19 @@ for r_id in [34, 35, 2654]:  # Flat-format resources with in-place translation
             nc = nc[:ocs]
         out[g_s:g_e - 2] = nc
         rep += 1
+    if r_id == 34:
+        # Guard: the structural table group (group 0) must be byte-identical
+        # to the original — a corrupted table breaks R34 item lookups.
+        t_s, t_e = groups[0]
+        assert bytes(out[t_s:t_e]) == bytes(orig[t_s:t_e]), \
+            "R34 structural table (group 0) was modified — aborting build"
+    if r_id == 35:
+        # Guard: header + offset table + empty group 0 (bytes 0 .. first text
+        # group start, 0x88) must be byte-identical to the original — writing
+        # there is exactly the v85 'Save'-over-header corruption.
+        first_text = groups[1][0] if len(groups) > 1 else data_start
+        assert bytes(out[:first_text]) == bytes(orig[:first_text]), \
+            "R35 header/offset table (bytes 0..first text group) was modified — aborting build"
     pd = (SECTOR - len(out) % SECTOR) % SECTOR
     out += b'\x00' * pd
     open(f'build/packdata_resources/{r_id:04d}_type{tc}.raw', 'wb').write(out)
@@ -158,15 +204,26 @@ print("\n=== Step 3.5: R46/R47 type-03 injection ===")
 os.system('python build/inject_r46_r47.py')
 print("  R46/R47 injected")
 
-# ===== STEP 3.6: R1188 comprehensive name-entry screen patch =====
-print("\n=== Step 3.6: R1188 comprehensive patch ===")
-os.system('python tools/patch_r1188_comprehensive.py')
-print("  R1188 patched (kana, stat/sidebar/tab labels, banner, PCSX2 replacements)")
-
-# ===== STEP 3.7: R1188 stat label bw=256 patch =====
-print("\n=== Step 3.7: R1188 stat labels (bw=256) ===")
-os.system('python tools/patch_r1188_bw256.py')
-print("  R1188 stat labels patched (bw=256)")
+# ===== STEP 3.6/3.7: R1188 patches DISABLED (BUG-3) =====
+# R1188 is the LIVE dialogue/narration font: a 1024x1024 PSMT4 atlas of 24x24
+# serif glyph cells DMA'd verbatim from disc to VRAM 0x3000 (proven via GS dump
+# 20260612061701). The patchers below wrote 'name entry labels'/kana cells with
+# layout assumptions off by 1008 bytes, scattering writes into ~150 live glyph
+# cells (ASCII U,V,Z,[,r,x,y,z,~ and most kana) — the cause of the r/y/V glyph
+# artifacts (BUG-3). The labels they wrote were never consumed: the companion
+# EXE patch was never implemented, and tab labels already render English via
+# R2138 sub7 (tools/patch_r2138.py, Step 3.9). R1188 must ship pristine.
+print("\n=== Step 3.6/3.7: R1188 patches DISABLED (BUG-3: live dialogue font) ===")
+# os.system('python tools/patch_r1188_comprehensive.py')
+# os.system('python tools/patch_r1188_bw256.py')
+# Delete any stale patched override so rebuild_packdata.py falls back to the
+# pristine extracted/packdata_raw/1188_type01.raw.
+_r1188_override = 'build/packdata_resources/1188_type01.raw'
+if os.path.exists(_r1188_override):
+    os.remove(_r1188_override)
+    print("  Removed stale R1188 override — pristine 1188_type01.raw will be used")
+else:
+    print("  No R1188 override present — pristine 1188_type01.raw will be used")
 
 # ===== STEP 3.8: R2100 chargen font atlas patch =====
 print("\n=== Step 3.8: R2100 chargen font atlas ===")
@@ -220,6 +277,15 @@ type02_resources.discard(1193)
 print(f"  Type-02 dialogue resources: {len(type02_resources)}")
 
 os.makedirs('build/patched_type2', exist_ok=True)
+
+# Purge stale artifacts from previous builds: the Section-1 patcher SKIPS
+# resources whose Section 1 fails to walk, so a leftover *.raw from an older
+# (corrupted) run would otherwise survive and be merged in Step 6.
+_stale = glob.glob('build/patched_type2/*.raw')
+for _f in _stale:
+    os.remove(_f)
+print(f"  Purged {len(_stale)} stale files from build/patched_type2")
+
 total_patched = 0
 total_encoded = 0
 
@@ -273,89 +339,25 @@ for r_id in sorted(type02_resources):
     if result[0]:
         total_patched += 1
         total_encoded += len(encoded_trans)
+        print(f"  R{r_id}: {result[1]}")
+    else:
+        print(f"  R{r_id}: SKIPPED -- {result[1]}")
 
 print(f"  Patched {total_patched} resources, {total_encoded} messages")
 
 # ===== STEP 5: R1193 intro narration injection =====
-# R1193 has trailing data after its last FFFF terminator that inject_and_patch would drop.
-# We handle it here: inject English into FFFF groups, preserve trailing data intact.
+# R1193's boot prologue (BUG-10) lives in a TRAILING block after the last FFFF
+# group terminator, drawn line-by-line by 23 Section-1 0x14 records.
+# tools/patch_r1193_narration.py injects the FFFF-group translations via
+# inject_and_patch (group-0 narration islands preserved, patch_section1 runs
+# inside), rebuilds the trailing block as 23 English lines (pages 4/3/2/4/1/
+# 3/2/3/1, <= 23 glyphs each) and rewrites each 0x14 record's WORD_OFF/
+# GLYPH_CNT exactly. Writes build/patched_type2/1193_type02.raw.
 print("\n=== Step 5: R1193 intro narration ===")
 if 1193 in all_trans and os.path.exists('extracted/packdata_raw/1193_type02.raw'):
-    raw = bytearray(open('extracted/packdata_raw/1193_type02.raw', 'rb').read())
-    orig_bytes = bytes(raw)
-
-    sec2_size = struct.unpack_from('<I', raw, 0x14)[0]
-    sec2_offset = struct.unpack_from('<I', raw, 0x18)[0]
-    sec2_end = sec2_offset + sec2_size
-    sec2_data = raw[sec2_offset:sec2_end]
-    n_words = len(sec2_data) // 2
-    words_s2 = [struct.unpack_from('>H', sec2_data, i * 2)[0] for i in range(n_words)]
-
-    # Parse FFFF-delimited groups AND capture trailing data
-    groups_1193 = []
-    start_1193 = 0
-    last_ffff_pos = -1
-    for i_w, w in enumerate(words_s2):
-        if w == 0xFFFF:
-            groups_1193.append(words_s2[start_1193:i_w])
-            start_1193 = i_w + 1
-            last_ffff_pos = i_w
-    trailing_data = words_s2[start_1193:] if start_1193 < n_words else []
-
-    # Encode and inject English translations into groups
-    msg_trans_1193 = all_trans[1193]
-    replaced_1193 = 0
-    for mi, en_text in msg_trans_1193.items():
-        glyphs = []
-        parts = en_text.split(' / ')
-        line_count = 0
-        for pi, part in enumerate(parts):
-            if pi > 0:
-                line_count += 1
-                if line_count >= 3:
-                    glyphs.append(0xFFD2)
-                    line_count = 0
-                else:
-                    glyphs.append(0xFFFE)
-            for ch in part:
-                glyphs.append(enc(ch))
-        if mi < len(groups_1193):
-            groups_1193[mi] = glyphs
-            replaced_1193 += 1
-
-    # NOTE: Trailing data translation DISABLED. Growing section 1 from 702->1716
-    # bytes may be causing VIF FIFO crashes. The intro text system is not yet
-    # understood well enough to safely patch. Keep trailing data as original Japanese.
-    # TODO: Investigate intro text rendering before re-enabling.
-
-    # Rebuild Section 2: groups + FFFF terminators + trailing data
-    new_sec2 = bytearray()
-    for group in groups_1193:
-        for g in group:
-            new_sec2 += struct.pack('>H', g)
-        new_sec2 += struct.pack('>H', 0xFFFF)
-    for t in trailing_data:
-        new_sec2 += struct.pack('>H', t)
-
-    new_sec2_size = len(new_sec2)
-
-    # Build injected file
-    section1 = bytearray(raw[:sec2_offset])
-    struct.pack_into('<I', section1, 0x14, new_sec2_size)
-    after_sec2 = raw[sec2_end:]
-    injected = bytes(section1) + bytes(new_sec2) + bytes(after_sec2)
-
-    # Patch Section 1 offsets
-    from patch_section1_offsets import patch_section1
-    result_1193 = patch_section1(orig_bytes, injected)
-
-    # Pad to sector boundary
-    sc = math.ceil(len(result_1193) / SECTOR)
-    if len(result_1193) < sc * SECTOR:
-        result_1193 = result_1193 + b'\x00' * (sc * SECTOR - len(result_1193))
-
-    open('build/patched_type2/1193_type02.raw', 'wb').write(result_1193)
-    print(f"  R1193 injected: {replaced_1193} messages, sec2 {sec2_size}->{new_sec2_size} bytes")
+    from patch_r1193_narration import build_r1193
+    build_r1193('extracted/packdata_raw/1193_type02.raw', all_trans[1193],
+                'build/patched_type2')
 else:
     # Fallback: copy existing file
     if os.path.exists('build/packdata_resources/1193_type02.raw'):
@@ -366,6 +368,20 @@ else:
 print("\n=== Step 6: Merge resources ===")
 for f in os.listdir('build/patched_type2'):
     shutil.copy(f'build/patched_type2/{f}', f'build/packdata_resources/{f}')
+
+# Skip-fallback: any type-02 resource the Section-1 patcher SKIPPED this run
+# has no file in build/patched_type2 — remove any stale override in
+# build/packdata_resources so rebuild_packdata falls back to the pristine raw.
+# (Only ids from type02_resources + 1193. R35 is EXCLUDED: although it has
+# type_code 2 and appears in type02_resources, build/packdata_resources/
+# 0035_type02.raw is written by Step 2 each run and must never be deleted here.)
+for _rid in sorted((type02_resources | {1193}) - {35}):
+    _name = f'{_rid:04d}_type02.raw'
+    if not os.path.exists(f'build/patched_type2/{_name}'):
+        _stale_out = f'build/packdata_resources/{_name}'
+        if os.path.exists(_stale_out):
+            os.remove(_stale_out)
+            print(f"  R{_rid} skipped this run — removed stale override {_name} (ships pristine)")
 
 binary_resources = [677,690,712,715,726,741,750,757,769,780,785,787,793,795,797,799,
     801,803,816,837,839,852,860,862,864,866,868,870,871,873,875,877,879,881,883,885,
@@ -380,6 +396,41 @@ for r in binary_resources:
 
 file_count = len(os.listdir('build/packdata_resources'))
 print(f"  {file_count} files in build/packdata_resources")
+
+# ===== Step 6.5: v86 pre-rendered UI strips + item DB =====
+# Runs AFTER Step 6's stale-override purge and binary_resources deletion loop,
+# and BEFORE Step 7's PACKDATA rebuild. This placement is CRITICAL and safe:
+#   - The Step 6 binary_resources loop deletes 2141/2144 (and other *_type02.raw
+#     names) BEFORE this block, so facility/strip outputs written here survive to
+#     Step 7. If this block ran before that loop, 2141_type02/2144_type02 would be
+#     deleted out from under us.
+#   - Several outputs here use *_type02.raw names (1359/1360/1361/1362/1363/1365/
+#     1367/1910/1054). Even though some of those ids may appear in type02_resources
+#     or binary_resources, BOTH the Step 6 stale-override purge and the
+#     binary_resources deletion loop have already run by this point — nothing
+#     between here and Step 7 deletes any *.raw — so these outputs ship intact.
+#   - inject_r34_db.py reads build/packdata_resources/2654_type44.raw (Step 2's
+#     output, carrying co-op sub0 translations) as its R2654 base and overwrites
+#     0034_type20.raw + 2654_type44.raw. Neither the stale-override purge nor the
+#     binary_resources loop touch those names (both operate on *_type02.raw only;
+#     R2654 is type44, R0034 is type20), so the Step 2 base survives to here.
+print("\n=== Step 6.5: v86 pre-rendered UI strips + item DB ===")
+for script in [
+    'tools/patch_r2124.py',
+    'tools/patch_r1365.py',
+    'tools/patch_battle_strips.py',
+    'tools/patch_camp_strips.py',
+    'tools/patch_facility_strips.py',
+    'tools/patch_r2147.py',
+    'tools/patch_r1370.py',
+    'tools/patch_r2880.py',
+    'tools/patch_r2881_ending.py',
+    'build/inject_r34_db.py',
+]:
+    rc = os.system(f'python {script}')
+    if rc != 0:
+        print(f'FATAL: v86 patcher failed: {script}')
+        sys.exit(1)
 
 # ===== STEP 7: Rebuild PACKDATA =====
 print("\n=== Step 7: Rebuild PACKDATA.DIG ===")

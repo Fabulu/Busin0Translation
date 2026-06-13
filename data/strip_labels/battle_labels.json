@@ -1,0 +1,133 @@
+{
+  "_comment": "v86 battle/AA strip labels. Keyed by resource, then rect index in the resource's UV rect table (see build/recon_v86/strip-family-offsets/manifest.json). Consumed by tools/patch_battle_strips.py. Optional per-rect keys: font (start size for fit), mode='freeform' (render via patch_strip with per-rect sampled ink, render_label auto-shrink down to 7px), optional=true (may be skipped for legibility), skip=true (do not patch; keep original pixels), covered_by=N (rect shares pixels with patched rect N; no separate patch).",
+  "R1054": {
+    "file": "extracted/packdata_raw/1054_type02.raw",
+    "out": "1054_type02.raw",
+    "pixel_off": 1312,
+    "rect_table_off": 34656,
+    "labels": {
+      "0":  {"jp": "アレイドアクション", "en": "Allied Action"},
+      "1":  {"jp": "前後列交代", "en": "Swap Rows"},
+      "2":  {"jp": "一斉逃走", "en": "Flee All"},
+      "3":  {"jp": "各自行動", "en": "Act Freely"},
+      "4":  {"jp": "攻撃", "en": "Attack"},
+      "5":  {"jp": "身を守る", "en": "Defend"},
+      "6":  {"jp": "魔法", "en": "Magic"},
+      "7":  {"jp": "魔術師魔法", "en": "Mage Magic"},
+      "8":  {"jp": "僧侶魔法", "en": "Prs. Magic"},
+      "9":  {"jp": "アイテム", "en": "Item"},
+      "10": {"jp": "ディスペル", "en": "Dispel"},
+      "11": {"jp": "位置交代", "en": "Swap Position"},
+      "12": {"jp": "逃げる", "en": "Flee"},
+      "13": {"jp": "全体行動", "en": "Party Action"},
+      "14": {"jp": "盗む", "en": "Steal"},
+      "15": {"jp": "ＡＡ編成", "en": "AA Setup"}
+    }
+  },
+  "R1360": {
+    "file": "extracted/packdata_raw/1360_type02.raw",
+    "out": "1360_type02.raw",
+    "pixel_off": 1312,
+    "rect_table_off": 34656,
+    "labels": {
+      "0": {"jp": "ＡＡセット", "en": "AA Set"},
+      "1": {"jp": "全て外す", "en": "Remove All"},
+      "2": {"jp": "元に戻す", "en": "Undo"},
+      "3": {"jp": "終了", "en": "Done"},
+      "4": {"jp": "攻撃系アレイド", "en": "Attack AA"},
+      "5": {"jp": "防御系アレイド", "en": "Defense AA"},
+      "6": {"jp": "援護系アレイド", "en": "Support AA"},
+      "7": {"jp": "魔法系アレイド", "en": "Magic AA"}
+    }
+  },
+  "R1361": {
+    "file": "extracted/packdata_raw/1361_type02.raw",
+    "out": "1361_type02.raw",
+    "pixel_off": 1312,
+    "rect_table_off": 34656,
+    "labels": {
+      "0":  {"jp": "Ｗスラッシュ", "en": "W Slash"},
+      "1":  {"jp": "スタンスマッシュ", "en": "Stun Smash"},
+      "2":  {"jp": "ホールドアタック", "en": "Hold Attack"},
+      "3":  {"jp": "Ｓ・Ｊアタック", "en": "S.J Attack"},
+      "4":  {"jp": "スレイクラッシュ", "en": "Slay Crush"},
+      "5":  {"jp": "クロスケージキル", "en": "Cross Cage Kill"},
+      "6":  {"jp": "フロントガード", "en": "Front Guard"},
+      "7":  {"jp": "マジックシェル", "en": "Magic Shell"},
+      "8":  {"jp": "アンチマジックシェル", "en": "Anti-Magic Shell"},
+      "9":  {"jp": "ミラーイメージ", "en": "Mirror Image"},
+      "10": {"jp": "散開隊形", "en": "Spread Out"},
+      "11": {"jp": "密集隊形", "en": "Close Ranks"},
+      "12": {"jp": "牽制射撃", "en": "Covering Shot"},
+      "13": {"jp": "援護射撃", "en": "Support Fire"},
+      "14": {"jp": "マジックキャンセル", "en": "Magic Cancel"},
+      "15": {"jp": "ブレスキャンセル", "en": "Breath Cancel"},
+      "16": {"jp": "バックカバー", "en": "Back Cover"},
+      "17": {"jp": "インターセプト", "en": "Intercept"},
+      "18": {"jp": "呪文集中陣", "en": "Spell Focus"},
+      "19": {"jp": "ブレイクサイレンス", "en": "Break Silence"}
+    }
+  },
+  "R1362": {
+    "file": "extracted/packdata_raw/1362_type02.raw",
+    "out": "1362_type02.raw",
+    "pixel_off": 1312,
+    "rect_table_off": 34656,
+    "labels": {
+      "0":  {"jp": "魔法速射", "en": "Rapid Cast"},
+      "1":  {"jp": "マジックウエポン", "en": "Magic Weapon"},
+      "2":  {"jp": "魔法協力", "en": "Magic Assist"},
+      "3":  {"jp": "集中攻撃", "en": "Focus Attack"},
+      "4":  {"jp": "バックアタック", "en": "Back Attack"},
+      "5":  {"jp": "ゲイルスラッシュ", "en": "Gale Slash"},
+      "6":  {"jp": "ラッシュ", "en": "Rush"},
+      "7":  {"jp": "立体殺法", "en": "Aerial Assault"},
+      "8":  {"jp": "セイクリッドクロス", "en": "Sacred Cross"},
+      "9":  {"jp": "ワープアタック", "en": "Warp Attack"},
+      "10": {"jp": "ソウルクラッシュ", "en": "Soul Crush"},
+      "11": {"jp": "ソニックソード", "en": "Sonic Sword"},
+      "12": {"jp": "範囲攻撃", "en": "Area Attack"},
+      "13": {"jp": "フェイクアタック", "en": "Fake Attack"},
+      "14": {"jp": "居合斬月陣", "en": "Moon Iai Slash"},
+      "15": {"jp": "ナイトメアクエイク", "en": "Nightmare Quake"},
+      "16": {"jp": "ウィークスマッシュ", "en": "Weak Smash"},
+      "17": {"jp": "ダブルブレス", "en": "Double Breath"}
+    }
+  },
+  "R1363": {
+    "file": "extracted/packdata_raw/1363_type02.raw",
+    "out": "1363_type02.raw",
+    "pixel_off": 3808,
+    "rect_table_off": 38560,
+    "labels": {
+      "71": {"jp": "詳細", "en": "Detail"},
+      "72": {"jp": "セット", "en": "Set"},
+      "75": {"jp": "解除", "en": "Remove"},
+      "73": {"jp": "ＡＰ選択", "en": "AP Select"},
+      "41": {"jp": "ＡＰ選択 ×", "en": "AP Select", "covered_by": 73},
+      "80": {"jp": "戻る", "en": "Back"},
+      "82": {"jp": "キャッチ", "en": "Catch"},
+      "60": {"jp": "熟練度", "en": "Skill", "font": 18},
+      "21": {"jp": "絆", "en": "Bond", "font": 8, "mode": "freeform", "optional": true},
+      "22": {"jp": "誓", "en": "Oath", "font": 8, "mode": "freeform", "optional": true},
+      "23": {"jp": "信", "en": "Trst", "font": 8, "mode": "freeform", "optional": true},
+      "24": {"jp": "友", "en": "Frnd", "font": 8, "mode": "freeform", "optional": true},
+      "25": {"jp": "情", "en": "Symp", "font": 8, "mode": "freeform", "optional": true},
+      "26": {"jp": "義", "en": "Duty", "font": 8, "mode": "freeform", "optional": true},
+      "27": {"jp": "盟", "en": "Ally", "font": 8, "mode": "freeform", "optional": true},
+      "28": {"jp": "疑", "en": "Dbt", "font": 8, "mode": "freeform", "optional": true},
+      "29": {"jp": "憎", "en": "Hate", "font": 8, "mode": "freeform", "optional": true}
+    }
+  },
+  "R1364": {
+    "file": "extracted/packdata_raw/1364_type04.raw",
+    "out": "1364_type04.raw",
+    "pixel_off": 1920,
+    "rect_table_off": 35456,
+    "labels": {
+      "28": {"jp": "必要", "en": "Req."},
+      "29": {"jp": "前衛", "en": "Front"},
+      "30": {"jp": "後衛", "en": "Back"}
+    }
+  }
+}

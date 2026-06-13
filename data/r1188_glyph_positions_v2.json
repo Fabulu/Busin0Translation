@@ -282,9 +282,9 @@
     "nonzero": 1332,
     "note": "Patch via: _write_psmt4(vram, vram_blk*64, U+dx, V+dy, 128, val)"
   },
-  "tab_M.Name": {
+  "tab_M": {
     "glyph_id": 6406,
-    "label": "M.Name",
+    "label": "M",
     "japanese": "男名",
     "cell_u": 0,
     "cell_v": 66,
@@ -297,9 +297,9 @@
     "nonzero": 1339,
     "note": "Patch via: _write_psmt4(vram, vram_blk*64, U+dx, V+dy, 128, val)"
   },
-  "tab_F.Name": {
+  "tab_F": {
     "glyph_id": 6407,
-    "label": "F.Name",
+    "label": "F",
     "japanese": "女名",
     "cell_u": 0,
     "cell_v": 67,

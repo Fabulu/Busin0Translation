@@ -74,10 +74,10 @@ R46_SUB0 = {
     15: "been to jankenman? / cant win! lose and / he warps you back / with ripu! now i / go there when i / wanna go home.",
     16: "i tried too. his / luck is insane! / but his voice / wavers each time / he says janken. / it changes. his / hands follow a / pattern. study!",
     17: "air in karmans / labyrinth is odd. / its dangerous. / lets share tips / with each other.",
-    18: "ill start! if in / danger use escape / or return scrolls. / keep em stocked! / ripu is best but / that tablet is / special!",
+    18: "i'll start! if in / danger use escape / or return scrolls. / keep em stocked! / ripu is best but / that tablet is / special!",
     19: "im a mage. my / combo should work / but ripu wont. / keeps making thief / eye. oh i see! / special means / mutation! only / guild gear can / trigger them!",
     20: "nice tip! know / the level up sign? / when exp is full / bottom panel will / flash! if so go / back and rest at / the inn!",
-    21: "ill never forget / those days. oriana / in town, cheering, / streamers in sky. / duhan was pure / joy. but now the / princess and hope / are gone. fare / well.",
+    21: "i'll never forget / those days. oriana / in town, cheering, / streamers in sky. / duhan was pure / joy. but now the / princess and hope / are gone. fare / well.",
     22: "saw her that day / too. damn! cant / forgive! beat / the witch!",
     23: "we watched her from / birth. she was the / child of all duhan! / the witch took her! / cant be forgiven!",
     24: "what is aurora like / shes called witch / so female right?",
@@ -101,8 +101,8 @@ R46_SUB0 = {
     42: "its a nice shop. / orders handled / well, good stock. / orc staff are fun / to watch. try it!",
     43: "its ok. orders / handled fine, items / decent. handy shop / in duhan. worth a / visit.",
     44: "that shop is bad. / they take orders / but dont finish. / only junk for sale. / shady types only. / orcs fought out / front last time!",
-    45: "thanks for replies! / nice shop! pamela / glad! can they find / a rare map? ill / visit!",
-    46: "thanks for replies! / seems worth a look. / maybe ill go!",
+    45: "thanks for replies! / nice shop! pamela / glad! can they find / a rare map? i'll / visit!",
+    46: "thanks for replies! / seems worth a look. / maybe i'll go!",
     47: "oh no pamela is / sad! orcs werent / nice! junk items / no thx! was gonna / order but nah!",
     48: "simsons squad had / us hopeful! they / were gallant! no / hero like that / for a while!",
     49: "on b2f rumor says / the witch eats / monsters! orcs are / in a panic!",
@@ -140,16 +140,16 @@ R46_SUB0 = {
     81: "from citizens to / adventurers i / offer info for / all needs! tips / and dungeon hints / ready! come to / venoan bookstore!",
     82: "saw an evil group / in the dungeon! / a hooded man led / tough warriors. / evil aligned!",
     83: "dark knight / macbain leads the / feared warband of / san-goth. came to / duhan! whats / their goal? not / witch hunting!",
-    84: "if they come to / my bakery ill / kick em out!",
+    84: "if they come to / my bakery i'll / kick em out!",
     85: "bringing crooks / to hunt the witch? / what are soldiers / thinking?!",
-    86: "info shop closed / for now. ill get / more hot news and / return someday! / thanks!",
+    86: "info shop closed / for now. i'll get / more hot news and / return someday! / thanks!",
     87: "damn it! who stole / the request we took / you thieves!!!",
     88: "some requests have / deadlines. you / failed so another / party did it.",
-    89: "you loudmouth! come / out and say it to / my face! ill end / you!!",
+    89: "you loudmouth! come / out and say it to / my face! i'll end / you!!",
     90: "this tranmell, the / leader? poor party / members.",
     91: "this labyrinth is / too tough! complex / layout, monsters / wont stop! tips?",
     92: "im a mage. when we / explore we use the / thru spell to skip / fights and learn / terrain first. so / escape routes are / clear if needed.",
-    93: "i heard thru cant / be made normally! / no one in my party / has it. give me / that tablet and / ill do any job!",
+    93: "i heard thru cant / be made normally! / no one in my party / has it. give me / that tablet and / i'll do any job!",
     94: "jankenman what a / joke! rare bracelet / he says. its just / a common appraise / bracelet! want / this junk? come / get it. not free / though!",
     95: "im in a room on / b4f. want it? / search around the / bumpy path past / the rocks.",
     96: "i have a favor to / ask. anyone? im / in a room on b4f / near the bumpy / path. reward / included!",
@@ -533,7 +533,61 @@ R47_SUB2[18] = "buffs dispelled!!"  # 19 cap, 17 ok
 # ============================================================================
 # Processing functions
 # ============================================================================
-def process_resource(r_id, raw_path, out_path, sub_translations):
+def build_symmetric_payload(glyphs, cap):
+    """Symmetric per-line padding for R46 (bulletin board) — BUG-8 fix.
+
+    The board renderer horizontally centers each post on the WIDEST line,
+    counting every non-FFFE word (incl. 0x0000 blanks) as one full-width
+    cell. The old behavior dumped ALL spare slot capacity as trailing
+    0x0000 after the last glyph, inflating the last line's width and
+    shifting the centered block left (clipping the first chars of every
+    line off the board).
+
+    Instead: split into lines at 0xFFFE, give every line p leading 0x0000
+    (p = max(0, ceil((E - sum_slack) / (2*n))), clamped so the leading
+    pads never overdraw the spare budget), then distribute the remaining
+    spare one word at a time as trailing 0x0000 onto the currently
+    shortest line. This equalizes line widths toward Mtext + p and caps
+    the max width at Mtext + 2p, keeping the text block visually centered.
+    Total word count always equals `cap` exactly; FFFE count is preserved.
+    """
+    lines = [[]]
+    for g in glyphs:
+        if g == 0xFFFE:
+            lines.append([])
+        else:
+            lines[-1].append(g)
+    n = len(lines)
+    E = cap - len(glyphs)
+    if E <= 0:
+        return list(glyphs)
+    M = max(len(l) for l in lines)
+    sum_slack = sum(M - len(l) for l in lines)
+    d = E - sum_slack
+    p = 0
+    if d > 0:
+        # ceil(d / (2n)), clamped so n*p never exceeds the spare beyond slack
+        p = min(-(-d // (2 * n)), d // n)
+        p = max(0, p)
+    widths = [p + len(l) for l in lines]
+    extra = [0] * n
+    budget = E - n * p
+    for _ in range(budget):
+        i = min(range(n), key=lambda k: widths[k])
+        extra[i] += 1
+        widths[i] += 1
+    payload = []
+    for i, l in enumerate(lines):
+        if i > 0:
+            payload.append(0xFFFE)
+        payload.extend([0x0000] * p)
+        payload.extend(l)
+        payload.extend([0x0000] * extra[i])
+    assert len(payload) == cap, f"payload {len(payload)} != cap {cap}"
+    assert payload[-1] != 0xFFFE, "dangling FFFE at payload end"
+    return payload
+
+def process_resource(r_id, raw_path, out_path, sub_translations, symmetric_pad=False):
     raw = bytearray(open(raw_path, 'rb').read())
     out = bytearray(raw)
     print(f"\nR{r_id}: {len(raw)} bytes")
@@ -591,18 +645,25 @@ def process_resource(r_id, raw_path, out_path, sub_translations):
                 print(f"  TRUNC sub{si}[{msg_idx}]: {len(en_glyphs)+ctrl_count}>{slot_capacity} "
                       f"'{en_text[:30]}'")
                 en_glyphs = en_glyphs[:slot_capacity - ctrl_count]
+                # Truncation may leave a dangling line separator at the end
+                while en_glyphs and en_glyphs[-1] == 0xFFFE:
+                    en_glyphs.pop()
                 truncated += 1
+
+            payload_cap = slot_capacity - ctrl_count
+            if symmetric_pad:
+                payload = build_symmetric_payload(en_glyphs, payload_cap)
+            else:
+                payload = list(en_glyphs) + [0x0000] * (payload_cap - len(en_glyphs))
 
             write_pos = abs_start
             for b in range(0, len(ctrl_bytes), 2):
                 struct.pack_into('>H', out, write_pos, struct.unpack('>H', ctrl_bytes[b:b+2])[0])
                 write_pos += 2
-            for g in en_glyphs:
+            for g in payload:
                 struct.pack_into('>H', out, write_pos, g)
                 write_pos += 2
-            while write_pos < abs_end:
-                struct.pack_into('>H', out, write_pos, 0x0000)
-                write_pos += 2
+            assert write_pos == abs_end, f"slot fill mismatch sub{si}[{msg_idx}]"
             replaced += 1
 
         print(f"  Sub{si}: {replaced} replaced ({truncated} truncated)")
@@ -722,7 +783,8 @@ r46_rep, r46_trunc = process_resource(
     46,
     'extracted/packdata_raw/0046_type03.raw',
     'build/packdata_resources/0046_type03.raw',
-    {0: r46_sub0_full, 1: R46_SUB1, 2: r46_sub2_full}
+    {0: r46_sub0_full, 1: R46_SUB1, 2: r46_sub2_full},
+    symmetric_pad=True  # BUG-8: board renderer centers on widest line
 )
 
 # Process R47

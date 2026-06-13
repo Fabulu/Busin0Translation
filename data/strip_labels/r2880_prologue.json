@@ -1,0 +1,44 @@
+{
+  "_comment": "R2880 sub7 — pre-rendered opening prologue narration page (512x512 PSMT4, pixel blob at file offset 1962944, 131072 bytes, bg index 15, ink index 0). JP transcribed from build/recon_v86/sheet-sweep/r2880s7_img0_512x512_p14_gray.png. English follows the official guide prologue (data/guide_full_text.txt lines 164-178) with names/phrasing matched to the v85 in-engine narration (tools/patch_r1193_narration.py): Kingdom of Duhan, Battle of Banquo, San-Goth, Venoa, 'Ortrud, later known as the Holy King', 'For thirty long years', 'Twenty years passed...'.",
+  "texture": {
+    "file": "extracted/packdata_raw/2880_type11.raw",
+    "pixel_off": 1962944,
+    "pixel_size": 131072,
+    "tex_w": 512,
+    "tex_h": 512,
+    "bw_psmt4": 512,
+    "dbw_ct32": 256,
+    "bg_index": 15,
+    "ink_index": 0
+  },
+  "layout": {
+    "left_x": 4,
+    "line_tops": [1, 25, 49, 73, 97, 121, 145, 169, 194, 218, 241, 265, 290, 313, 337, 361, 385, 409],
+    "band_height": 23,
+    "clear_region": [0, 0, 512, 434],
+    "font_size": 18,
+    "max_line_width": 504,
+    "_caps_comment": "PER-LINE cap = original JP line ink width (px). The MOVIE samples each subtitle line through a FIXED per-line UV window equal to the original JP ink width, so any English line wider than its cap is right-clipped at sample time. patch_r2880.py uses lines[i].cap (NOT max_line_width) as the per-line max_w in the shrink-to-fit loop and hard-asserts width <= cap. Caps from build/recon_v86/scenebug/cinematic/FINDINGS_per_line_caps.json (JP widths probe6 + engine UV widths GS dumps 105138/105205/105228).",
+    "line_caps": [378, 301, 221, 452, 423, 198, 211, 294, 223, 283, 318, 294, 191, 318, 462, 295, 478, 164]
+  },
+  "lines": [
+    {"jp": "かつて　三十年もの長きにわたって", "en": "Long ago, for thirty long years,", "cap": 378},
+    {"jp": "ドゥーハン王国を血と恐怖に", "en": "a war plunged the Kingdom of Duhan", "cap": 301},
+    {"jp": "陥れた戦乱があった。", "en": "into blood and terror.", "cap": 221},
+    {"jp": "王国の人口を　三分の二までに減少させた", "en": "The devastating war that cut the", "cap": 452},
+    {"jp": "その悲惨な戦争は　バンクォーの戦役と", "en": "kingdom's people to two-thirds would", "cap": 423},
+    {"jp": "人々に記憶される。", "en": "be the Battle of Banquo.", "cap": 198, "_reword": "i=5 JP line is short (cap 198); 'would be remembered as the Battle of Banquo.' (en_w 402) cannot fit even at 12px, so the clause was redistributed across lines i=3/i=4/i=5 (caps 452/423/198) preserving meaning + Battle of Banquo wording."},
+    {"jp": "死霊に取り憑かれた", "en": "Seized by a death spirit,", "cap": 211, "_reword": "i=6 'Possessed by a death spirit,' (en_w 242) fit only at 15px; 'Seized by' shortens it to fit at full 18px (w205<=211). 'death spirit' / 'Seized' preserves the 死霊に取り憑かれた meaning."},
+    {"jp": "サンゴート王が獣人を率い、", "en": "the San-Goth king led his beastmen", "cap": 294},
+    {"jp": "攻め入ってきたのが、", "en": "forth to attack —", "cap": 223},
+    {"jp": "そもそもの発端であったが、", "en": "that was how it all began,", "cap": 283},
+    {"jp": "戦火はベノア全土に広がった。", "en": "but war soon engulfed all of Venoa.", "cap": 318},
+    {"jp": "一人の英雄が現れなければ、", "en": "Had one hero not appeared,", "cap": 294},
+    {"jp": "ドゥーハン王国は、", "en": "the Kingdom of Duhan", "cap": 191},
+    {"jp": "地上から消えていたであろう。", "en": "would have vanished from the earth.", "cap": 318},
+    {"jp": "後に聖王と呼ばれる　オルトルードである。", "en": "He was Ortrud, later known as the Holy King.", "cap": 462},
+    {"jp": "彼はサンゴートを打ち破り、", "en": "He defeated San-Goth and restored", "cap": 295},
+    {"jp": "ドゥーハン王国に　平和と希望を取り戻した。", "en": "peace and hope to the Kingdom of Duhan.", "cap": 478},
+    {"jp": "それから二十年", "en": "Twenty years passed...", "cap": 164}
+  ]
+}

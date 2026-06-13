@@ -1,0 +1,40 @@
+{
+  "_comment": "R2147 (tavern submenu sheet + quest/bulletin button-hint strip) English re-render labels for tools/patch_r2147.py. Windows verified GS-dump byte-exact: 256x256 PSMT4, deswizzle dbw_ct32=128, bg=0 ink=15. Coordinates derived from build/recon_v86 decodes (see patch_r2147.py header). R2155 mirrors window 2 byte-for-byte at +0x9920.",
+  "tex_w": 256,
+  "tex_h": 256,
+  "dbw_ct32": 128,
+  "bg_index": 0,
+  "ink_index": 15,
+  "windows": [
+    {
+      "pixel_off": 1376,
+      "_off_hex": "0x560",
+      "name": "tavern_submenu_sheet",
+      "_layout": "9 vertically-stacked menu-item bands, 24px pitch from y=2, centered ~x64, ~128px budget. Each label clears the full band then renders centered English.",
+      "labels": [
+        [0, 1, 128, 22, "Go Outside", 13],
+        [0, 25, 128, 22, "Message Board", 12],
+        [0, 49, 128, 22, "Requests", 13],
+        [0, 73, 128, 22, "Personal Deeds", 12],
+        [0, 97, 128, 22, "Trap Game", 13],
+        [0, 120, 128, 23, "Bar Luna Light", 12],
+        [0, 145, 128, 22, "Practice", 13],
+        [0, 169, 128, 22, "Game", 13],
+        [0, 193, 128, 22, "Prize Exchange", 12]
+      ]
+    },
+    {
+      "pixel_off": 73760,
+      "_off_hex": "0x12020",
+      "name": "bulletin_hint_strip",
+      "_layout": "Bulletin-board sheet. Two button-help rows below the 'Bulletin Board' ribbon. Row1 y40-55: 'L1·R1/切替    次頁'. Row2 y56-71: '○/決定 ×/戻る 切り替え'. The ○ (x74-86) and × (x139-149) icon glyphs are PRESERVED — only the JP text spans are cleared/rendered. Everything else (ribbon, REQUEST LIST, NEW, digits, 1p-10p, marble decoration) untouched.",
+      "labels": [
+        [73, 40, 105, 16, "L1/R1 Switch", 12, "left"],
+        [178, 40, 70, 16, "Next Page", 11, "left"],
+        [88, 56, 50, 16, "OK", 12, "left"],
+        [150, 56, 41, 16, "Back", 12, "left"],
+        [197, 56, 51, 16, "Switch", 11, "left"]
+      ]
+    }
+  ]
+}

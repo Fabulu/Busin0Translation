@@ -1,0 +1,1968 @@
+{
+ "_meta": {
+  "exe": "SLPM_653.78 (file offset = vaddr - 0xFFF80)",
+  "dispatcher_va": "0x002F3230",
+  "dispatcher_file": "0x1F32B0",
+  "run_loop_va": "0x002F3330",
+  "handler_table_va": "0x004C9360",
+  "handler_table_file": "0x3C93E0",
+  "n_opcodes": 193,
+  "opcode_read": "BE u16 via 2x lbu (byte stream, NOT word-aligned: odd opcode lengths exist)",
+  "sec1_base_global_va": "0x00564ED0",
+  "sec2_base_global_va": "0x00564ED4",
+  "getters": {
+   "GetSec1Base": "0x002ED810",
+   "GetSec2Base": "0x002ED820"
+  },
+  "read_helpers": {
+   "0x002F2E00": "u8",
+   "0x002F2E20": "s16 BE",
+   "0x002F2E60": "u16 BE",
+   "0x002F2EA0": "u32 BE",
+   "0x002F2F00": "u32 BE"
+  },
+  "ctx_struct": "+0x00 pc(byte ptr), +0x08 call stack[16] u32, +0x294 stack depth (max 16)",
+  "jump_targets": "BYTE offsets relative to Section-1 base (resource offset 0x20); may be odd",
+  "validation": "42 scene-script resources walk with 0 invalid opcodes (incl R1193, R1196, R1197)"
+ },
+ "opcodes": {
+  "0x00": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F3680",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "NOP (continue)"
+  },
+  "0x01": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F3680",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "NOP"
+  },
+  "0x02": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F3680",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "NOP"
+  },
+  "0x03": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u32"
+   ],
+   "handler_va": "0x002F3690",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "op + u16 + u32"
+  },
+  "0x04": {
+   "bytes": 10,
+   "operands": [
+    "u32",
+    "u32"
+   ],
+   "handler_va": "0x002F3700",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "DISPLAY_TEXT: u32 a, u32 b (passed to 0x305A60 with sec2 semantics)"
+  },
+  "0x05": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F3680",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "NOP"
+  },
+  "0x06": {
+   "bytes": 14,
+   "operands": [
+    "u16",
+    "u16",
+    "u32",
+    "u32"
+   ],
+   "handler_va": "0x002F37E0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "COND JUMP: u16 var, u16 cmp(0x8000=flag), u32 mask, u32 target(byte off, sec1-rel)"
+  },
+  "0x07": {
+   "bytes": 14,
+   "operands": [
+    "u16",
+    "u16",
+    "u32",
+    "u32"
+   ],
+   "handler_va": "0x002F37E0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "COND JUMP (same handler as 0x06)"
+  },
+  "0x08": {
+   "bytes": 6,
+   "operands": [
+    "u32"
+   ],
+   "handler_va": "0x002F3B60",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "JUMP: pc = sec1_base + u32 (byte offset). NO fallthrough"
+  },
+  "0x09": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F3680",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": "NOP"
+  },
+  "0x0A": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F3680",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "NOP"
+  },
+  "0x0B": {
+   "bytes": 6,
+   "operands": [
+    "u32"
+   ],
+   "handler_va": "0x002F3B60",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "JUMP (same handler as 0x08)"
+  },
+  "0x0C": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F3BB0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "SET_NAME_REF: u32 (hi16=param, lo16=glyph idx)"
+  },
+  "0x0D": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F3C00",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "CLEAR_NAME_REF: u32"
+  },
+  "0x0E": {
+   "bytes": 7,
+   "operands": [
+    "u8",
+    "u8",
+    "u8",
+    "u16"
+   ],
+   "handler_va": "0x002F3C50",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x0F": {
+   "bytes": 7,
+   "operands": [
+    "u8",
+    "u8",
+    "u8",
+    "u16"
+   ],
+   "handler_va": "0x002F3CF0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x10": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F3D90",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x11": {
+   "bytes": 6,
+   "operands": [
+    "u32"
+   ],
+   "handler_va": "0x002F3DC0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "JUMP: pc = sec1_base + u32. NO fallthrough"
+  },
+  "0x12": {
+   "bytes": 6,
+   "operands": [
+    "u32"
+   ],
+   "handler_va": "0x002F3E10",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": "GOSUB: push pc (ctx stack, max 16), pc = sec1_base + u32"
+  },
+  "0x13": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F3EB0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x14": {
+   "bytes": 14,
+   "operands": [
+    "u16",
+    "s16",
+    "u32",
+    "u32"
+   ],
+   "handler_va": "0x002F3F00",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x15": {
+   "bytes": 9,
+   "operands": [
+    "u16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002F3FF0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x16": {
+   "bytes": 16,
+   "operands": [
+    "u16",
+    "u32",
+    "u8",
+    "u16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002F4090",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x17": {
+   "bytes": 50,
+   "operands": [
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F4260",
+   "confidence": "high (hand-verified fixed loop + corpus walk)",
+   "note": "fixed loop: 8 x (3 x s16); unused slots = FFFF"
+  },
+  "0x18": {
+   "bytes": 50,
+   "operands": [
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F4300",
+   "confidence": "high (hand-verified fixed loop + corpus walk)",
+   "note": "fixed loop: 8 x (3 x s16); unused slots = FFFF"
+  },
+  "0x19": {
+   "bytes": 22,
+   "operands": [
+    "u16",
+    "u16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F43A0",
+   "confidence": "high (hand-verified fixed loop + corpus walk)",
+   "note": "u16,u16 then fixed loop 8 x s16"
+  },
+  "0x1A": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F4450",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x1B": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "s16"
+   ],
+   "handler_va": "0x002F44C0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x1C": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "s16"
+   ],
+   "handler_va": "0x002F4580",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x1D": {
+   "bytes": 12,
+   "operands": [
+    "u16",
+    "u16",
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F4600",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x1E": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F46B0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x1F": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F46C0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x20": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F46E0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x21": {
+   "bytes": 10,
+   "operands": [
+    "u16",
+    "u32",
+    "s16"
+   ],
+   "handler_va": "0x002F4700",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x22": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F4A20",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x23": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "s16"
+   ],
+   "handler_va": "0x002F4A40",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x24": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F4B10",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x25": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F4B50",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x26": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F4B90",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x27": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F4D70",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x28": {
+   "bytes": 20,
+   "operands": [
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F4DC0",
+   "confidence": "high (hand-verified fixed loop + corpus walk)",
+   "note": "s16 then fixed loop 8 x s16"
+  },
+  "0x29": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F4F90",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x2A": {
+   "bytes": 9,
+   "operands": [
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002F4FC0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x2B": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F5300",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x2C": {
+   "bytes": 14,
+   "operands": [
+    "u16",
+    "u8",
+    "u16",
+    "u16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002F6B70",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x2D": {
+   "bytes": 7,
+   "operands": [
+    "u16",
+    "u8",
+    "u16"
+   ],
+   "handler_va": "0x002F7BC0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x2E": {
+   "bytes": 20,
+   "operands": [
+    "u16",
+    "u16",
+    "u16",
+    "u32",
+    "u32",
+    "u32"
+   ],
+   "handler_va": "0x002F7DB0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x2F": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F7EB0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x30": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "s16"
+   ],
+   "handler_va": "0x002F8070",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x31": {
+   "bytes": 9,
+   "operands": [
+    "u16",
+    "u8",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F83D0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x32": {
+   "bytes": 11,
+   "operands": [
+    "u16",
+    "u8",
+    "u16",
+    "u16",
+    "s16"
+   ],
+   "handler_va": "0x002F8560",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x33": {
+   "bytes": 20,
+   "operands": [
+    "u16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F87A0",
+   "confidence": "high (hand-verified fixed loop + corpus walk)",
+   "note": "u16 then fixed loop 8 x s16"
+  },
+  "0x34": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F8890",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x35": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F88D0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x36": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F8920",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x37": {
+   "bytes": 37,
+   "operands": [
+    "u16",
+    "u8",
+    "u32",
+    "u32",
+    "u32",
+    "u32",
+    "u32",
+    "u32",
+    "u32",
+    "u32"
+   ],
+   "handler_va": "0x002F89B0",
+   "confidence": "high (hand-verified fixed loop + corpus walk)",
+   "note": "u16,u8 then fixed loop 8 x u32 (ODD length)"
+  },
+  "0x38": {
+   "bytes": 37,
+   "operands": [
+    "u16",
+    "u8",
+    "u32",
+    "u32",
+    "u32",
+    "u32",
+    "u32",
+    "u32",
+    "u32",
+    "u32"
+   ],
+   "handler_va": "0x002F8AB0",
+   "confidence": "high (hand-verified fixed loop + corpus walk)",
+   "note": "u16,u8 then fixed loop 8 x u32 (ODD length)"
+  },
+  "0x39": {
+   "bytes": 7,
+   "operands": [
+    "u16",
+    "u8",
+    "u16"
+   ],
+   "handler_va": "0x002F8BB0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x3A": {
+   "bytes": 7,
+   "operands": [
+    "u16",
+    "u8",
+    "u16"
+   ],
+   "handler_va": "0x002F8D60",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x3B": {
+   "bytes": 7,
+   "operands": [
+    "u16",
+    "u8",
+    "u16"
+   ],
+   "handler_va": "0x002F8E60",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x3C": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F8F60",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x3D": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F8F90",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x3E": {
+   "bytes": 6,
+   "operands": [
+    "u32"
+   ],
+   "handler_va": "0x002F8FD0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x3F": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F9010",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x40": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F90E0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x41": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002F9110",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x42": {
+   "bytes": 20,
+   "operands": [
+    "u16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F9160",
+   "confidence": "high (hand-verified fixed loop + corpus walk)",
+   "note": "u16 then fixed loop 8 x s16"
+  },
+  "0x43": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F92B0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x44": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F92F0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x45": {
+   "bytes": 10,
+   "operands": [
+    "u16",
+    "u16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F9320",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x46": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9430",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x47": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9490",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x48": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F94E0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x49": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9540",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x4A": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F95A0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x4B": {
+   "bytes": 12,
+   "operands": [
+    "u16",
+    "u16",
+    "s16",
+    "s16",
+    "s16"
+   ],
+   "handler_va": "0x002F9610",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x4C": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F96B0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x4D": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002F9710",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x4E": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9770",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x4F": {
+   "bytes": 9,
+   "operands": [
+    "u8",
+    "u8",
+    "u8",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9810",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x50": {
+   "bytes": 10,
+   "operands": [
+    "u16",
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F98B0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x51": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9950",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x52": {
+   "bytes": 12,
+   "operands": [
+    "u16",
+    "u32",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F99D0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x53": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9A70",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x54": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9AF0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x55": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9B60",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x56": {
+   "bytes": 10,
+   "operands": [
+    "u16",
+    "u32",
+    "u16"
+   ],
+   "handler_va": "0x002F9BE0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x57": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9C60",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x58": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9CD0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x59": {
+   "bytes": 10,
+   "operands": [
+    "u16",
+    "u32",
+    "u16"
+   ],
+   "handler_va": "0x002F9D50",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x5A": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9DD0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x5B": {
+   "bytes": 10,
+   "operands": [
+    "u16",
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9E40",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x5C": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9EE0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x5D": {
+   "bytes": 10,
+   "operands": [
+    "u16",
+    "u16",
+    "u32"
+   ],
+   "handler_va": "0x002F9F50",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x5E": {
+   "bytes": 12,
+   "operands": [
+    "u16",
+    "u16",
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002F9FD0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x5F": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FA090",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x60": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FA0C0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x61": {
+   "bytes": 20,
+   "operands": [
+    "u16",
+    "u16",
+    "u16",
+    "s16",
+    "s16",
+    "u16",
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FA100",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x62": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FA4C0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x63": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FA520",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x64": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FA610",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x65": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FA6D0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x66": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FA740",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x67": {
+   "bytes": 11,
+   "operands": [
+    "u16",
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002FA7F0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x68": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FAD60",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x69": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FAE20",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x6A": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FAE50",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x6B": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FAF20",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x6C": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FAF30",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x6D": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FAF90",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x6E": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FB040",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x6F": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FB0E0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x70": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB180",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x71": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB230",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x72": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB2E0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x73": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB3A0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x74": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB460",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x75": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB520",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x76": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB590",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x77": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB600",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x78": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FB660",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x79": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FB6D0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x7A": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FB740",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x7B": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FB780",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x7C": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FB790",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x7D": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FB7C0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x7E": {
+   "bytes": 9,
+   "operands": [
+    "u16",
+    "u16",
+    "u8",
+    "u16"
+   ],
+   "handler_va": "0x002FB800",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x7F": {
+   "bytes": 11,
+   "operands": [
+    "u16",
+    "u16",
+    "u8",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FB8B0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x80": {
+   "bytes": 13,
+   "operands": [
+    "u16",
+    "u16",
+    "u8",
+    "u32",
+    "u16"
+   ],
+   "handler_va": "0x002FB980",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x81": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FBA50",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x82": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FBAD0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x83": {
+   "bytes": 9,
+   "operands": [
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002FBB00",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x84": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FBCD0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x85": {
+   "bytes": 9,
+   "operands": [
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002FBD00",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x86": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FBE90",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x87": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "s16"
+   ],
+   "handler_va": "0x002FBEC0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x88": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "s16"
+   ],
+   "handler_va": "0x002FC0E0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x89": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FC320",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x8A": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FC350",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x8B": {
+   "bytes": 9,
+   "operands": [
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002FC380",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x8C": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC510",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x8D": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FC550",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x8E": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FC5A0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x8F": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC5D0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x90": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FC620",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x91": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC670",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x92": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC6A0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x93": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC700",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x94": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FC730",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x95": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FC740",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x96": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FC770",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x97": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC7C0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x98": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC800",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x99": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC830",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x9A": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FC8B0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x9B": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FC8E0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x9C": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FC910",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x9D": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FC940",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0x9E": {
+   "bytes": 10,
+   "operands": [
+    "u16",
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FC970",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0x9F": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FCA20",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xA0": {
+   "bytes": 9,
+   "operands": [
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002FCA50",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xA1": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FCB80",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xA2": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FCBB0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xA3": {
+   "bytes": 9,
+   "operands": [
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002FCBE0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xA4": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FCF50",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xA5": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FCF80",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xA6": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FCF90",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xA7": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FCFD0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xA8": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FD000",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xA9": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FD030",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xAA": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FD060",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xAB": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FD090",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xAC": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FD110",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xAD": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FD180",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xAE": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FD1B0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xAF": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FD1E0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xB0": {
+   "bytes": 9,
+   "operands": [
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002FD210",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xB1": {
+   "bytes": 5,
+   "operands": [
+    "u16",
+    "u8"
+   ],
+   "handler_va": "0x002FD580",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xB2": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FD610",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xB3": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FD660",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xB4": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FD6C0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xB5": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FD750",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xB6": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FD7B0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xB7": {
+   "bytes": 9,
+   "operands": [
+    "s16",
+    "u32",
+    "u8"
+   ],
+   "handler_va": "0x002FD800",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xB8": {
+   "bytes": 8,
+   "operands": [
+    "u16",
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FDB70",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xB9": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FDBD0",
+   "confidence": "medium (static disassembly only; never seen in walked corpus)",
+   "note": ""
+  },
+  "0xBA": {
+   "bytes": 5,
+   "operands": [
+    "u16",
+    "u8"
+   ],
+   "handler_va": "0x002FDC10",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xBB": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FDC80",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xBC": {
+   "bytes": 5,
+   "operands": [
+    "u16",
+    "u8"
+   ],
+   "handler_va": "0x002FDD20",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xBD": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FDDC0",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xBE": {
+   "bytes": 2,
+   "operands": [],
+   "handler_va": "0x002FDE10",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xBF": {
+   "bytes": 4,
+   "operands": [
+    "u16"
+   ],
+   "handler_va": "0x002FDE50",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  },
+  "0xC0": {
+   "bytes": 6,
+   "operands": [
+    "u16",
+    "u16"
+   ],
+   "handler_va": "0x002FDE80",
+   "confidence": "high (static + corpus-walk validated)",
+   "note": ""
+  }
+ }
+}

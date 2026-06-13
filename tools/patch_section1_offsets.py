@@ -4,24 +4,50 @@ patch_section1_offsets.py -- Patch Section 1 glyph offsets after variable-size S
 ==================================================================================================
 
 When English translations are injected into Section 2 of type-02 resources, messages
-can grow or shrink. Section 1 contains event script opcodes that reference Section 2
-by word offset (glyph index). After injection, these offsets become stale and must be
-updated to match the new Section 2 layout.
+can grow or shrink.  Section 1 contains the scene-script opcode stream that references
+Section 2 by word offset (glyph index).  After injection, these offsets become stale
+and must be updated to match the new Section 2 layout.
 
-Opcodes that reference Section 2:
-  0x0004  DISPLAY_TEXT:    0004 0000 GLYPH_OFF 0000 GLYPH_COUNT  (5 words)
-  0x000C  SET_NAME_REF:    000C PARAM GLYPH_IDX                  (3 words)
-  0x000D  CLEAR_NAME_REF:  000D PARAM GLYPH_IDX                  (3 words)
+Section 1 is a BYTE-addressed big-endian-u16 opcode stream interpreted by the
+dispatcher at VA 0x2F3230 (193-entry handler table; several opcodes have ODD byte
+lengths).  It is therefore disassembled with tools/sec1_disasm.py -- a BFS walk
+from pc=0 following all jump/gosub/conditional targets -- and ONLY the operands of
+WALKED instructions are patched.  Word-grid pattern matching (used through v84) can
+never work on this stream and corrupted scenes; it has been removed entirely.
 
-Strategy:
-  1. Parse ORIGINAL Section 2 into FFFF-delimited groups, recording each group's
-     word-start offset.
-  2. Parse NEW (injected) Section 2 the same way.
-  3. Build a word-level remapping: for each word position in the old Section 2,
-     find which group it belongs to and its offset within that group, then compute
-     the corresponding position in the new Section 2.
-  4. Scan Section 1 for the three opcodes above and remap their glyph offsets/counts.
-  5. Rewrite the patched file with updated Section 1 + new Section 2.
+Patched opcodes (byte lengths include the 2-byte opcode; all operands BE):
+  0x04 DISPLAY_TEXT  (10 bytes): u32 glyph word offset @pc+2, u32 word count @pc+6.
+       For cnt>0 the span ALWAYS ends exactly on a group's 0xFFFF terminator.
+       Mid-group starts skip a name-label prefix at the head of the group.
+  0x0C SET_NAME_REF / 0x0D CLEAR_NAME_REF (6 bytes): u16 param @pc+2, u16 idx @pc+4.
+       NEVER remapped.  `idx` is NOT a Section-2 glyph offset -- it is a
+       speaker/portrait CHANNEL BIT index (0..511).  EXE handler 0x2F3BB0 calls
+       0x302020(param,idx,set=1), which does table[param][idx>>5] |= 1<<(idx&31)
+       (param in [0,12] selects a 512-bit flag register at 0x565090/0x5650D0/
+       0x565110/...).  The per-frame portrait-emit branch reads those flags, so
+       remapping idx corrupts the speaker->portrait lookup and drops the portrait
+       BITBLT (the v86 R1251 portrait regression).  These operands are preserved
+       byte-for-byte.
+  0x14 NAME/LABEL REF (14 bytes): u16 param @pc+2, s16 @pc+4 (always 0xFFFF),
+       u32 NAME_OFF @pc+6 (absolute sec2 word index), u32 NAME_CNT @pc+10.
+       Draws character-name labels / floating narration.  Names are plain glyph
+       prefixes (<0xFB00) at the head of dialogue groups (sometimes stacked), or
+       slices of label-table groups, or point into the trailing (non-group)
+       region after the last 0xFFFF.
+
+Jump targets (0x06/0x07/0x08/0x0B/0x11/0x12) are BYTE offsets relative to the
+Section-1 base (file offset 0x20) and are NOT affected by Section-2 resizing --
+they are never modified.
+
+Name-island preservation (BUG-2):
+  inject_and_patch() walks the original Section 1 and buckets 0x14 records by
+  target group.  When a translated group's 0x14 slices form a clean prefix
+  partition with dialogue after it, the group is rebuilt as
+  [English name label(s)][encoded English dialogue]; labels are translated via
+  data/name_labels.json (decoded through data/msg_glyph_map.json) and kept as
+  the original JP glyphs verbatim when not in the dictionary.  Groups whose
+  slices are NOT a clean prefix (label tables) are left untranslated so all
+  slice offsets stay valid.
 
 Usage:
     python tools/patch_section1_offsets.py <original.raw> <patched.raw> [output.raw]
@@ -29,25 +55,89 @@ Usage:
     If output.raw is omitted, the patched file is overwritten in-place.
 
     Can also be called as a library:
-        from patch_section1_offsets import patch_section1
-        result = patch_section1(original_bytes, patched_bytes)
+        from patch_section1_offsets import patch_section1, inject_and_patch
 """
 
 import sys
 import os
 import struct
+import json
 import math
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sec1_disasm import walk, extract_records
+
 SECTOR = 2048
+HEADER_SIZE = 0x20
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# -- lazily-loaded shared tables ------------------------------------------------
+_GLYPH_MAP = None       # glyph index (str) -> JP char
+_NAME_LABELS = None     # JP name string -> English
+_ENG_TABLE = None       # ASCII char -> glyph index
+_ENG_REV = None         # glyph index -> ASCII char (reverse of _ENG_TABLE)
 
 
+def _load_tables():
+    global _GLYPH_MAP, _NAME_LABELS, _ENG_TABLE, _ENG_REV
+    if _GLYPH_MAP is None:
+        _GLYPH_MAP = json.load(
+            open(os.path.join(_ROOT, "data", "msg_glyph_map.json"), encoding="utf-8")
+        )
+    if _NAME_LABELS is None:
+        try:
+            d = json.load(
+                open(os.path.join(_ROOT, "data", "name_labels.json"), encoding="utf-8")
+            )
+            _NAME_LABELS = {k: v for k, v in d.items() if not k.startswith("_")}
+        except OSError:
+            _NAME_LABELS = {}
+    if _ENG_TABLE is None:
+        _ENG_TABLE = json.load(
+            open(os.path.join(_ROOT, "data", "english_glyph_table.json"), encoding="utf-8")
+        )
+    if _ENG_REV is None:
+        # First-wins reverse map so the canonical char per glyph is stable.
+        _ENG_REV = {}
+        for ch, g in _ENG_TABLE.items():
+            _ENG_REV.setdefault(g, ch)
+
+
+def _enc_char(ch):
+    """English char -> glyph index (same fallback rule as the build pipeline)."""
+    if ch in _ENG_TABLE:
+        return _ENG_TABLE[ch]
+    if ch.lower() in _ENG_TABLE:
+        return _ENG_TABLE[ch.lower()]
+    return 31
+
+
+def _decode_jp(glyphs):
+    """Decode a plain glyph slice to a JP string, or None if not decodable."""
+    out = []
+    for g in glyphs:
+        if g >= 0xFB00:
+            return None  # control code -- not a plain name
+        ch = _GLYPH_MAP.get(str(g))
+        if ch is None:
+            return None
+        out.append(ch)
+    return "".join(out)
+
+
+# ===============================================================================
+# Section 2 group parsing
+# ===============================================================================
 def parse_sec2_group_offsets(sec2_data):
     """
     Parse Section 2 into FFFF-delimited groups and return their word-start offsets.
 
-    Returns list of (group_start_word, group_end_word) tuples.
-    group_end_word is the index of the FFFF terminator itself.
-    The actual group content is words[group_start_word:group_end_word].
+    Returns (groups, trailing_start_word):
+      groups         -- list of (group_start_word, group_end_word); group_end_word
+                        is the index of the FFFF terminator itself.  The group
+                        content is words[group_start_word:group_end_word].
+      trailing_start -- word index of the first trailing (non-group) word after
+                        the last FFFF (== total word count when there is none).
     """
     n_words = len(sec2_data) // 2
     groups = []
@@ -57,182 +147,91 @@ def parse_sec2_group_offsets(sec2_data):
         if w == 0xFFFF:
             groups.append((start, i))
             start = i + 1
-    # Trailing data after last FFFF (shouldn't happen in well-formed data, but handle it)
-    if start < n_words:
-        groups.append((start, n_words))
-    return groups
+    return groups, start
 
 
-def build_word_remap(old_groups, new_groups):
+def _find_group(groups, word_offset):
+    """Binary-search the group whose [start..FFFF] range contains word_offset."""
+    lo, hi = 0, len(groups) - 1
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        gs, ge = groups[mid]
+        if word_offset < gs:
+            hi = mid - 1
+        elif word_offset > ge:
+            lo = mid + 1
+        else:
+            return mid
+    return None
+
+
+# ===============================================================================
+# 0x14 label bucketing
+# ===============================================================================
+def _bucket_labels(label_recs, old_groups, old_trailing_start):
     """
-    Build a mapping from old word offset -> new word offset.
+    Bucket walked 0x14 records by target group.
 
-    For each word position in the old Section 2, we find:
-      - Which group it belongs to (by index)
-      - Its offset within that group
-    Then map to the corresponding position in the new Section 2's same group.
-
-    For FFFF terminators: the old FFFF at old_groups[i][1] maps to new_groups[i][1].
-
-    Returns a dict {old_word_offset: new_word_offset}.
-    Also returns a function for count remapping within a group span.
+    Returns (per_group, trailing_recs):
+      per_group     -- {group_index: sorted unique [(rel_off, cnt), ...]}
+      trailing_recs -- list of records whose NAME_OFF >= old_trailing_start
     """
-    remap = {}
-    n_groups = min(len(old_groups), len(new_groups))
-
-    for gi in range(n_groups):
-        old_start, old_end = old_groups[gi]
-        new_start, new_end = new_groups[gi]
-        old_len = old_end - old_start
-        new_len = new_end - new_start
-
-        # Map each word within the group
-        for offset_in_group in range(old_len):
-            old_pos = old_start + offset_in_group
-            if offset_in_group < new_len:
-                # Direct mapping: same offset within group
-                remap[old_pos] = new_start + offset_in_group
-            else:
-                # Old group was longer; map to end of new group
-                remap[old_pos] = new_end
-
-        # Map the FFFF terminator
-        remap[old_end] = new_end
-
-    return remap
+    per_group = {}
+    trailing = []
+    for r in label_recs:
+        if r["off"] >= old_trailing_start:
+            trailing.append(r)
+            continue
+        gi = _find_group(old_groups, r["off"])
+        if gi is None:
+            trailing.append(r)
+            continue
+        gs, _ = old_groups[gi]
+        per_group.setdefault(gi, set()).add((r["off"] - gs, r["cnt"]))
+    return {gi: sorted(s) for gi, s in per_group.items()}, trailing
 
 
-def find_group_for_offset(groups, word_offset):
-    """Find which group index a word offset falls in (or at its FFFF terminator)."""
-    for gi, (gs, ge) in enumerate(groups):
-        if gs <= word_offset <= ge:  # <= ge to include the FFFF position
-            return gi, word_offset - gs
-    return None, None
-
-
-def remap_glyph_offset(old_offset, old_groups, new_groups, is_display_text=False):
+def _clean_prefix_len(slices):
     """
-    Remap a single glyph offset from old Section 2 to new Section 2.
-
-    Handles offsets that fall at group starts, mid-group, or at FFFF terminators.
-
-    For DISPLAY_TEXT mid-group starts (is_display_text=True):
-      The skipped prefix was original-language text that no longer exists after
-      injection. We remap to the new group's start so the full translated text
-      is shown.
-
-    For SET_NAME_REF / CLEAR_NAME_REF (is_display_text=False):
-      We preserve the word-level offset within the group, since name references
-      point to specific glyph positions that are preserved by the injector's
-      control-code splitting.
+    If the (rel_off, cnt) slices form a clean prefix partition starting at 0
+    (slice k starts at the sum of previous slice counts), return the total
+    prefix length.  Otherwise return None.
     """
-    gi, offset_in_group = find_group_for_offset(old_groups, old_offset)
-    if gi is None:
-        # Offset is outside all groups (sentinel value like 11264) -- leave unchanged
-        return old_offset
-
-    if gi >= len(new_groups):
-        return old_offset
-
-    old_start, old_end = old_groups[gi]
-    new_start, new_end = new_groups[gi]
-    old_len = old_end - old_start
-    new_len = new_end - new_start
-
-    if offset_in_group == old_len:
-        # This is the FFFF terminator position
-        return new_end
-
-    if is_display_text and offset_in_group > 0:
-        # Mid-group DISPLAY_TEXT start: the skipped prefix was original text
-        # that has been replaced by injection. Remap to show the full new group.
-        return new_start
-
-    if offset_in_group < new_len:
-        return new_start + offset_in_group
-    else:
-        # Offset was deep in old group, but new group is shorter
-        return new_start + new_len - 1 if new_len > 0 else new_start
+    if not slices or slices[0][0] != 0:
+        return None
+    pos = 0
+    for so, sc in slices:
+        if so != pos or sc <= 0:
+            return None
+        pos = so + sc
+    return pos
 
 
-def remap_glyph_count(old_offset, old_count, old_groups, new_groups):
+# ===============================================================================
+# Section 1 patcher
+# ===============================================================================
+def patch_section1(orig_data, patched_data, name_plan=None, res_name="?"):
     """
-    Remap a DISPLAY_TEXT glyph count.
+    Patch Section 1 glyph offsets in patched_data to match its (potentially
+    resized) Section 2, using orig_data as the reference for old offsets.
 
-    DISPLAY_TEXT references words[offset .. offset+count-1].  The exclusive end
-    (offset + count) always lands on the word immediately AFTER a FFFF terminator
-    (i.e., the start of the next group, or the end of Section 2).
+    The ORIGINAL Section 1 is disassembled (BFS walk) and ONLY operand bytes of
+    walked 0x04 / 0x0C / 0x0D / 0x14 instructions are rewritten.  Jump targets
+    are byte offsets into Section 1 and are never modified.
 
-    To remap: find the structural end-point in the old layout, locate the same
-    structural point in the new layout, then new_count = new_end - new_start.
+    name_plan (optional, produced by inject_and_patch): {group_index: {
+        'old_slices': [(rel_off, cnt), ...],   # 0x14 prefix slices, old layout
+        'new_slices': [(rel_off, cnt), ...],   # same slices in the new layout
+        'old_prefix_len': int, 'new_prefix_len': int}}
+      For groups without an entry the group content is assumed unchanged
+      (identity in-group mapping).
 
-    Multi-group spans are supported: off=23 cnt=118 covers groups 1-3 inclusive
-    (including the FFFF terminators between them).
+    Returns the fully patched file as bytes.  Raises ValueError on any
+    structural violation (a corrupted file must never be shipped).
     """
-    if old_count == 0:
-        return 0
-
-    old_end = old_offset + old_count  # exclusive end in old section
-
-    # Find which group the start offset falls in
-    gi_start, _ = find_group_for_offset(old_groups, old_offset)
-    if gi_start is None:
-        return old_count  # sentinel, leave unchanged
-
-    # The exclusive end (old_end) should be:
-    #   - The start of the next group after the last spanned group, OR
-    #   - Beyond the last group (end of Section 2)
-    # Find the last group whose FFFF terminator is covered by the span:
-    # old_end - 1 is the last word in the span. If it's a FFFF, it's a group terminator.
-    gi_last, off_in_last = find_group_for_offset(old_groups, old_end - 1)
-    if gi_last is None:
-        return old_count
-
-    # The exclusive end in the new layout is right after the FFFF of gi_last
-    # which is new_groups[gi_last][1] + 1 (the FFFF is at new_groups[gi_last][1],
-    # so the word after it is at position new_groups[gi_last][1] + 1)
-    if gi_last >= len(new_groups):
-        return old_count
-
-    new_start = remap_glyph_offset(old_offset, old_groups, new_groups, is_display_text=True)
-
-    # new_end = position after the FFFF terminator of the last group
-    new_end = new_groups[gi_last][1] + 1
-
-    new_count = new_end - new_start
-    return max(new_count, 0)
-
-
-# -- Opcode length table (words including the opcode itself) --
-OPCODE_LENGTHS = {
-    0x0003: 3,
-    0x0004: 5,
-    0x0006: 7,
-    0x0007: 7,
-    0x0008: 3,
-    0x000B: 3,
-    0x000C: 3,
-    0x000D: 3,
-    0x0010: 2,
-    0x0012: 3,
-    0x0016: 6,
-    0x0017: 5,
-    0x001A: 3,
-    0x002B: 2,
-}
-
-
-def patch_section1(orig_data, patched_data):
-    """
-    Patch Section 1 glyph offsets in patched_data to match its (potentially resized)
-    Section 2, using orig_data as the reference for old offsets.
-
-    Returns the fully patched file as bytes.
-    """
-    if len(orig_data) < 0x1C or len(patched_data) < 0x1C:
+    if len(orig_data) < HEADER_SIZE or len(patched_data) < HEADER_SIZE:
         raise ValueError("Files too small to be type-02 resources")
 
-    # Parse headers
     orig_sec2_size = struct.unpack_from("<I", orig_data, 0x14)[0]
     orig_sec2_off = struct.unpack_from("<I", orig_data, 0x18)[0]
     pat_sec2_size = struct.unpack_from("<I", patched_data, 0x14)[0]
@@ -244,147 +243,252 @@ def patch_section1(orig_data, patched_data):
             "Section 1 must be preserved byte-for-byte before this step"
             % (orig_sec2_off, pat_sec2_off)
         )
-
     sec2_off = orig_sec2_off
-    header_size = 28  # 0x1C
 
-    # Extract sections
+    orig_sec1 = bytes(orig_data[HEADER_SIZE:sec2_off])
+    pat_sec1 = bytes(patched_data[HEADER_SIZE:sec2_off])
+    if orig_sec1 != pat_sec1:
+        raise ValueError(
+            "R%s: Section 1 of patched file differs from original BEFORE offset "
+            "patching -- refusing to continue" % res_name
+        )
+
     orig_sec2 = orig_data[sec2_off : sec2_off + orig_sec2_size]
     new_sec2 = patched_data[sec2_off : sec2_off + pat_sec2_size]
 
-    # Parse groups
-    old_groups = parse_sec2_group_offsets(orig_sec2)
-    new_groups = parse_sec2_group_offsets(new_sec2)
-
+    old_groups, old_trailing_start = parse_sec2_group_offsets(orig_sec2)
+    new_groups, new_trailing_start = parse_sec2_group_offsets(new_sec2)
     if len(old_groups) != len(new_groups):
-        print(
-            "  WARNING: Group count changed (%d -> %d). "
-            "Offset patching may be unreliable."
-            % (len(old_groups), len(new_groups))
+        raise ValueError(
+            "R%s: group count changed (%d -> %d) -- injection must preserve "
+            "the group structure" % (res_name, len(old_groups), len(new_groups))
         )
+    trailing_delta = new_trailing_start - old_trailing_start
 
-    # Check if anything actually changed
-    if orig_sec2_size == pat_sec2_size and orig_sec2 == new_sec2:
-        print("  Section 2 unchanged, no patching needed.")
-        return patched_data
+    old_n_words = len(orig_sec2) // 2
+    new_n_words = len(new_sec2) // 2
+    new_words = [
+        struct.unpack_from(">H", new_sec2, i * 2)[0] for i in range(new_n_words)
+    ]
+    old_words = [
+        struct.unpack_from(">H", orig_sec2, i * 2)[0] for i in range(old_n_words)
+    ]
+
+    # Disassemble the ORIGINAL Section 1
+    ok, instrs = walk(orig_sec1)
+    if not ok:
+        raise ValueError(
+            "R%s: Section 1 walk failed -- cannot safely patch offsets" % res_name
+        )
+    recs = extract_records(orig_sec1, instrs)
+
+    if name_plan is None:
+        # Standalone use: derive a conservative plan.  For groups whose content
+        # is unchanged the identity mapping is always correct; for changed
+        # groups, keep the prefix mapping only if the old prefix glyphs are
+        # still verbatim at the head of the new group.
+        name_plan = {}
+        per_group, _ = _bucket_labels(recs["label"], old_groups, old_trailing_start)
+        for gi, slices in per_group.items():
+            plen = _clean_prefix_len(slices)
+            if plen is None:
+                continue
+            ogs, oge = old_groups[gi]
+            ngs, nge = new_groups[gi]
+            if (
+                old_words[ogs:oge] != new_words[ngs:nge]
+                and (nge - ngs < plen
+                     or old_words[ogs : ogs + plen] != new_words[ngs : ngs + plen])
+            ):
+                continue  # prefix not preserved -- no plan for this group
+            name_plan[gi] = {
+                "old_slices": slices,
+                "new_slices": slices,
+                "old_prefix_len": plen,
+                "new_prefix_len": plen,
+            }
+
+    sec1_bytes = bytearray(pat_sec1)
+    n_disp = n_disp_remapped = n_name = n_label = 0
+
+    def group_changed(gi):
+        ogs, oge = old_groups[gi]
+        ngs, nge = new_groups[gi]
+        return old_words[ogs:oge] != new_words[ngs:nge]
+
+    def map_rel_offset(gi, rel):
+        """Map a group-relative word offset old -> new (start / slice boundaries)."""
+        ogs, oge = old_groups[gi]
+        ngs, nge = new_groups[gi]
+        old_len = oge - ogs
+        new_len = nge - ngs
+        if rel == 0:
+            return 0
+        if rel == old_len:
+            return new_len  # FFFF terminator position
+        plan = name_plan.get(gi)
+        if plan is not None:
+            # boundary map: cumulative slice sums old -> new
+            opos = npos = 0
+            if rel == opos:
+                return npos
+            for (oso, osc), (nso, nsc) in zip(plan["old_slices"], plan["new_slices"]):
+                opos = oso + osc
+                npos = nso + nsc
+                if rel == opos:
+                    return npos
+        if not group_changed(gi):
+            return rel
+        if plan is not None:
+            # changed group, offset not on a slice boundary: land after the prefix
+            print(
+                "  WARNING: R%s group %d: mid-group offset rel=%d not on a label "
+                "boundary; mapping past the new prefix" % (res_name, gi, rel)
+            )
+            return plan["new_prefix_len"]
+        # changed group with no label plan: show the full new group
+        print(
+            "  WARNING: R%s group %d: mid-group offset rel=%d in changed group "
+            "without label plan; mapping to group start" % (res_name, gi, rel)
+        )
+        return 0
+
+    # --- (a) 0x04 DISPLAY_TEXT --------------------------------------------------
+    for r in recs["display"]:
+        pc, old_off, old_cnt = r["pc"], r["off"], r["cnt"]
+        n_disp += 1
+        if old_cnt == 0:
+            continue  # leave the instruction completely untouched
+        if old_off >= old_n_words:
+            continue  # sentinel offset outside Section 2 -- leave untouched
+        if old_off >= old_trailing_start:
+            # span in the trailing (non-group) region: shift by the delta
+            new_off, new_cnt = old_off + trailing_delta, old_cnt
+            struct.pack_into(">I", sec1_bytes, pc + 2, new_off)
+            struct.pack_into(">I", sec1_bytes, pc + 6, new_cnt)
+            n_disp_remapped += 1
+            continue
+        old_end = old_off + old_cnt  # exclusive
+        gi_start = _find_group(old_groups, old_off)
+        gi_last = _find_group(old_groups, old_end - 1)
+        if gi_start is None or gi_last is None or old_end > old_n_words:
+            raise ValueError(
+                "R%s: DISPLAY_TEXT at S1+0x%X: span %d..%d outside Section 2 "
+                "group structure" % (res_name, pc, old_off, old_end)
+            )
+        if old_words[old_end - 1] != 0xFFFF:
+            print(
+                "  WARNING: R%s DISPLAY_TEXT at S1+0x%X: original span does not "
+                "end on FFFF (word=0x%04X); remapping structurally"
+                % (res_name, pc, old_words[old_end - 1])
+            )
+        rel = old_off - old_groups[gi_start][0]
+        new_off = new_groups[gi_start][0] + map_rel_offset(gi_start, rel)
+        new_end = new_groups[gi_last][1] + 1  # right after the FFFF of the last group
+        new_cnt = new_end - new_off
+        if new_cnt <= 0 or new_end > new_n_words or new_words[new_end - 1] != 0xFFFF:
+            raise ValueError(
+                "R%s: DISPLAY_TEXT at S1+0x%X: remapped span off=%d cnt=%d does "
+                "not end on FFFF -- refusing to ship a violation"
+                % (res_name, pc, new_off, new_cnt)
+            )
+        struct.pack_into(">I", sec1_bytes, pc + 2, new_off)
+        struct.pack_into(">I", sec1_bytes, pc + 6, new_cnt)
+        n_disp_remapped += 1
+
+    # --- (b) 0x14 NAME/LABEL REF --------------------------------------------------
+    for r in recs["label"]:
+        pc, old_off, old_cnt = r["pc"], r["off"], r["cnt"]
+        if old_off >= old_n_words:
+            continue  # sentinel offset outside Section 2 -- leave untouched
+        if old_off >= old_trailing_start:
+            # trailing-region narration: shift by the delta, keep cnt
+            struct.pack_into(">I", sec1_bytes, pc + 6, old_off + trailing_delta)
+            n_label += 1
+            continue
+        gi = _find_group(old_groups, old_off)
+        if gi is None:
+            raise ValueError(
+                "R%s: 0x14 at S1+0x%X: NAME_OFF %d outside groups and trailing "
+                "region" % (res_name, pc, old_off)
+            )
+        ogs, oge = old_groups[gi]
+        ngs, nge = new_groups[gi]
+        rel = old_off - ogs
+        plan = name_plan.get(gi)
+        new_rel, new_cnt = None, old_cnt
+        if plan is not None:
+            for (oso, osc), (nso, nsc) in zip(plan["old_slices"], plan["new_slices"]):
+                if oso == rel and osc == old_cnt:
+                    new_rel, new_cnt = nso, nsc
+                    break
+        if new_rel is None:
+            if group_changed(gi):
+                # no slice match in a changed group: clamp inside the new group
+                new_len = nge - ngs
+                new_rel = min(rel, max(new_len - 1, 0))
+                new_cnt = max(min(old_cnt, new_len - new_rel), 0)
+                print(
+                    "  WARNING: R%s 0x14 at S1+0x%X: slice (rel=%d,cnt=%d) has no "
+                    "plan entry in changed group %d; clamped to (rel=%d,cnt=%d)"
+                    % (res_name, pc, rel, old_cnt, gi, new_rel, new_cnt)
+                )
+            else:
+                new_rel, new_cnt = rel, old_cnt  # unchanged group: identity
+        struct.pack_into(">I", sec1_bytes, pc + 6, ngs + new_rel)
+        struct.pack_into(">I", sec1_bytes, pc + 10, new_cnt)
+        n_label += 1
+
+    # --- (c) 0x0C SET_NAME_REF / 0x0D CLEAR_NAME_REF ------------------------------
+    # The `idx` operand of 0x0C/0x0D is NOT a Section-2 glyph word offset -- it is
+    # a SPEAKER / PORTRAIT CHANNEL BIT INDEX (0..511) and must be PRESERVED.
+    #
+    # EXE proof (pristine SLPM_653.78, VA->file = vaddr-0x100000+0x80):
+    #   0x0C handler @ VA 0x2F3BB0 reads u16 `param` then u16 `idx`, then calls
+    #   0x302020(param, idx, set=1); 0x0D handler @ VA 0x2F3C00 calls 0x302180
+    #   (the matching CLEAR).  In 0x302020:
+    #       v1 = sext16(param); if (v1 < 0 || v1 >= 13) return;   # param in [0,12]
+    #       a0 = idx & 0xFFFF;  if (idx >= 512) return;           # idx is 0..511
+    #       table = {0:0x565110, 1:0x5650D0, 2:0x565090, ...}[param]
+    #       table[idx >> 5] |= (1 << (idx & 31))                  # SET bit `idx`
+    #   i.e. param selects a 512-bit flag/channel register; idx is the BIT to set
+    #   or clear.  The per-frame portrait-emit branch reads these channel flags,
+    #   so remapping idx (treating it as a glyph offset) corrupts the
+    #   speaker->portrait lookup and the portrait stops drawing (v86 regression --
+    #   R1251 BITBLT vanished).  v83's incomplete patcher happened to leave the
+    #   gating records alone, which is the only reason the portrait survived there.
+    #
+    # Corpus confirmation: across all 617 type-02 resources, every one of the
+    # 3199 0x0C/0x0D records has param in {0,1,2} and idx < 512 -- never a value
+    # that could be a Section-2 word offset.  param==121 (the old, mistaken
+    # discriminator) NEVER occurs.  Therefore NONE of these idx values are
+    # remapped; they are left byte-for-byte identical to the original JP stream.
+    #
+    # n_name is reported as 0 (none remapped); the records are intentionally
+    # preserved.
+    n_name = 0
 
     print(
-        "  Section 2: %d -> %d bytes (%+d), %d -> %d groups"
+        "  Section 2: %d -> %d bytes (%+d), %d groups; Section 1: %d walked instrs, "
+        "%d/%d DISPLAY_TEXT remapped, %d 0x14 labels, %d name refs"
         % (
             orig_sec2_size,
             pat_sec2_size,
             pat_sec2_size - orig_sec2_size,
             len(old_groups),
-            len(new_groups),
+            len(instrs),
+            n_disp_remapped,
+            n_disp,
+            n_label,
+            n_name,
         )
     )
 
-    # Parse Section 1 as big-endian uint16 words
-    sec1_bytes = bytearray(patched_data[header_size:sec2_off])
-    n_words = len(sec1_bytes) // 2
-    words = [struct.unpack_from(">H", sec1_bytes, i * 2)[0] for i in range(n_words)]
-
-    old_sec2_words = orig_sec2_size // 2
-
-    # Scan for opcodes using PATTERN MATCHING rather than sequential walking.
-    # Sequential walking fails because Section 1 contains data regions (zero padding,
-    # 0xFFFF values, etc.) that aren't valid opcodes.
-    #
-    # CRITICAL: Multi-word opcodes (0x0006=7 words, 0x0016=6 words, 0x0017=5 words)
-    # can contain parameter values that accidentally match DISPLAY_TEXT or SET_NAME_REF
-    # patterns. To prevent false positives, we pre-scan to identify word positions
-    # that fall inside known multi-word opcode bodies and exclude them from matching.
-    MULTI_WORD_OPCODES = {0x0006: 7, 0x0016: 6, 0x0017: 5, 0x0012: 4, 0x001A: 3}
-    body_positions = set()
-    for i in range(n_words):
-        if words[i] in MULTI_WORD_OPCODES:
-            length = MULTI_WORD_OPCODES[words[i]]
-            for j in range(1, length):
-                if i + j < n_words:
-                    body_positions.add(i + j)
-
-    patched_count = 0
-
-    # Pass 1: DISPLAY_TEXT (0x0004) -- pattern: 0004 0000 GOFF 0000 GCNT
-    for i in range(n_words - 4):
-        if i in body_positions:
-            continue
-        if (
-            words[i] == 0x0004
-            and words[i + 1] == 0x0000
-            and words[i + 3] == 0x0000
-        ):
-            old_off = words[i + 2]
-            old_count = words[i + 4]
-
-            new_off = remap_glyph_offset(old_off, old_groups, new_groups, is_display_text=True)
-            new_count = remap_glyph_count(old_off, old_count, old_groups, new_groups)
-
-            if new_off != old_off or new_count != old_count:
-                if new_off > 0xFFFF:
-                    print(
-                        "  WARNING: DISPLAY_TEXT at S1+0x%04x: remapped offset %d overflows u16 "
-                        "(old=%d). Opcode left unchanged to avoid corruption."
-                        % (i * 2, new_off, old_off)
-                    )
-                    continue
-                if new_count > 0xFFFF:
-                    print(
-                        "  WARNING: DISPLAY_TEXT at S1+0x%04x: remapped count %d overflows u16 "
-                        "(old=%d). Opcode left unchanged to avoid corruption."
-                        % (i * 2, new_count, old_count)
-                    )
-                    continue
-                words[i + 2] = new_off & 0xFFFF
-                words[i + 4] = new_count & 0xFFFF
-                patched_count += 1
-
-    # Pass 2: SET_NAME_REF (0x000C) and CLEAR_NAME_REF (0x000D)
-    for i in range(n_words - 2):
-        if i in body_positions:
-            continue
-        if words[i] in (0x000C, 0x000D):
-            param = words[i + 1]
-            old_idx = words[i + 2]
-
-            # Only remap if the glyph_idx is a valid Section 2 reference.
-            # Known param types that reference Section 2: 0, 2, 6
-            # param=121 with small values is NOT a Section 2 reference.
-            if old_idx < old_sec2_words and param != 121:
-                new_idx = remap_glyph_offset(old_idx, old_groups, new_groups)
-                if new_idx != old_idx:
-                    if new_idx > 0xFFFF:
-                        print(
-                            "  WARNING: %s at S1+0x%04x: remapped glyph_idx %d overflows u16 "
-                            "(old=%d). Opcode left unchanged to avoid corruption."
-                            % (
-                                "SET_NAME_REF" if words[i] == 0x000C else "CLEAR_NAME_REF",
-                                i * 2,
-                                new_idx,
-                                old_idx,
-                            )
-                        )
-                        continue
-                    words[i + 2] = new_idx & 0xFFFF
-                    patched_count += 1
-
-    print("  Patched %d opcode references in Section 1" % patched_count)
-
-    # Write patched words back to section 1 bytes
-    for wi in range(n_words):
-        struct.pack_into(">H", sec1_bytes, wi * 2, words[wi])
-
     # Reassemble: header (with updated sec2_size) + patched Section 1 + new Section 2
-    header = bytearray(patched_data[:header_size])
-    # sec2_size should already be correct in patched_data, but ensure it
+    header = bytearray(patched_data[:HEADER_SIZE])
     struct.pack_into("<I", header, 0x14, pat_sec2_size)
-
-    # Everything after sec2 in the patched file (padding, etc.)
     after_sec2 = patched_data[sec2_off + pat_sec2_size :]
-
-    block = bytes(header) + bytes(sec1_bytes) + bytes(new_sec2) + after_sec2
-
-    return block
+    return bytes(header) + bytes(sec1_bytes) + bytes(new_sec2) + bytes(after_sec2)
 
 
 def patch_file(orig_path, patched_path, output_path=None):
@@ -401,9 +505,8 @@ def patch_file(orig_path, patched_path, output_path=None):
     orig_data = open(orig_path, "rb").read()
     patched_data = open(patched_path, "rb").read()
 
-    result = patch_section1(orig_data, patched_data)
+    result = patch_section1(orig_data, patched_data, res_name=os.path.basename(orig_path))
 
-    # Pad to sector boundary
     sc = math.ceil(len(result) / SECTOR)
     if len(result) < sc * SECTOR:
         result = result + b"\x00" * (sc * SECTOR - len(result))
@@ -412,41 +515,59 @@ def patch_file(orig_path, patched_path, output_path=None):
     return output_path
 
 
+# ===============================================================================
+# Injection pipeline
+# ===============================================================================
 def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
     """
-    Full pipeline: inject translations with variable-size, then patch Section 1 offsets.
-
-    This is the proper replacement for fixed-size injection.
+    Full pipeline: inject translations with variable-size, then patch Section 1
+    offsets via the byte-stream disassembler.
 
     res_idx:          resource number (e.g., 1198)
     msg_translations: dict {msg_index: [glyph_list]}
     raw_dir:          directory with original *_type02.raw files
     out_dir:          output directory for patched files
 
+    Name-island preservation: 0x14 NAME/LABEL prefixes at the head of translated
+    groups are rebuilt as English labels (data/name_labels.json) or kept as the
+    original JP glyphs, and a name plan is handed to patch_section1 so the 0x14
+    records and mid-group DISPLAY_TEXT starts are remapped correctly.
+
+    If the Section-1 walk fails, NOTHING is written and the resource stays
+    pristine.
+
     Returns (output_filename, status_string) or (None, error_string).
     """
-    # We import inject_resource logic inline to avoid circular dependencies
+    _load_tables()
+
     raw_path = os.path.join(raw_dir, "{:04d}_type02.raw".format(res_idx))
     if not os.path.isfile(raw_path):
         return (None, "no _type02.raw found")
 
     raw = bytearray(open(raw_path, "rb").read())
-    orig_bytes = bytes(raw)  # save original for offset patching
+    orig_bytes = bytes(raw)
 
-    if len(raw) < 0x1C:
+    if len(raw) < HEADER_SIZE:
         return (None, "file too small")
 
     sec2_size = struct.unpack_from("<I", raw, 0x14)[0]
     sec2_offset = struct.unpack_from("<I", raw, 0x18)[0]
 
-    if sec2_offset == 0 or sec2_offset >= len(raw):
+    if sec2_offset < HEADER_SIZE or sec2_offset >= len(raw):
         return (None, "invalid sec2_offset=0x{:x}".format(sec2_offset))
     if sec2_size < 4:
         return (None, "sec2_size too small")
 
     sec2_end = sec2_offset + sec2_size
 
-    # Parse Section 2 groups
+    # --- Walk the original Section 1 first; bail out if it cannot be walked ---
+    sec1 = bytes(raw[HEADER_SIZE:sec2_offset])
+    ok, instrs = walk(sec1)
+    if not ok:
+        return (None, "sec1 walk failed -- skipped, resource left pristine")
+    recs = extract_records(sec1, instrs)
+
+    # --- Parse Section 2 groups -------------------------------------------------
     sec2_data = raw[sec2_offset:sec2_end]
     n_words = len(sec2_data) // 2
     words = [struct.unpack_from(">H", sec2_data, i * 2)[0] for i in range(n_words)]
@@ -457,18 +578,30 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
         if words[i] == 0xFFFF:
             groups.append(words[start:i])
             start = i + 1
-
-    # Preserve trailing data after last FFFF terminator.
-    # Resources like R989, R1034 have massive scene/dungeon script data
-    # (60-77KB) after their last FFFF. Dropping this causes crashes.
+    # Preserve trailing data after the last FFFF terminator (e.g. R989, R1034
+    # scene/dungeon script data, R1193 narration).  Dropping it causes crashes.
     trailing_words = words[start:] if start < n_words else []
 
     if not groups:
         return (None, "no FFFF groups in Section 2")
 
-    # Replace translated messages (variable-size -- no padding!)
+    # Word ranges for label bucketing
+    old_group_ranges = []
+    pos = 0
+    for g in groups:
+        old_group_ranges.append((pos, pos + len(g)))
+        pos += len(g) + 1
+    old_trailing_start = pos
+
+    per_group_labels, _trailing_labels = _bucket_labels(
+        recs["label"], old_group_ranges, old_trailing_start
+    )
+
+    # --- Replace translated messages (variable-size, name-island aware) ----------
     replaced = 0
-    for msg_idx, eng_glyphs in msg_translations.items():
+    skipped_label_tables = 0
+    name_plan = {}
+    for msg_idx, eng_glyphs in sorted(msg_translations.items()):
         if msg_idx < 0 or msg_idx >= len(groups):
             print(
                 "    WARNING: R%d msg_index %d out of range (0..%d)"
@@ -477,19 +610,67 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
             continue
 
         original_group = groups[msg_idx]
+        slices = per_group_labels.get(msg_idx)
 
-        # Split into leading controls, text, trailing controls
-        leading, _old_text, trailing = _split_control_and_text(original_group)
-        groups[msg_idx] = leading + eng_glyphs + trailing
+        if slices:
+            prefix_len = _clean_prefix_len(slices)
+            if prefix_len is None or prefix_len >= len(original_group):
+                # Label-table group (or prefix covers the whole group): leave
+                # the original glyphs verbatim so every slice stays valid.
+                print(
+                    "    NOTE: R%d group %d: 0x14 slices %s are not a clean "
+                    "dialogue prefix -- translation skipped, group kept verbatim"
+                    % (res_idx, msg_idx, slices[:6])
+                )
+                skipped_label_tables += 1
+                continue
+
+            # Rebuild: [label slice 0][...slice k][English dialogue]
+            new_slice_glyphs = []
+            new_slices = []
+            npos = 0
+            active_label_en = None  # English string of the FIRST/active speaker
+            for si, (so, sc) in enumerate(slices):
+                old_slice = original_group[so : so + sc]
+                jp = _decode_jp(old_slice)
+                en = _NAME_LABELS.get(jp) if jp is not None else None
+                if si == 0 and en is not None:
+                    active_label_en = en
+                if en is not None:
+                    glyphs = [_enc_char(c) for c in en]
+                else:
+                    glyphs = list(old_slice)  # keep original JP label verbatim
+                new_slices.append((npos, len(glyphs)))
+                new_slice_glyphs.extend(glyphs)
+                npos += len(glyphs)
+
+            # Strip a redundant "<label>: " speaker prefix that the batch JSON
+            # dialogue often duplicates from the 0x14 name-label box header
+            # (v85 MINOR-1).  Only the first/active speaker label is matched, and
+            # only the dialogue body is shortened -- the label glyphs above are
+            # untouched, so new_slices / new_prefix_len stay valid.
+            eng_glyphs = _strip_redundant_speaker_prefix(eng_glyphs, active_label_en)
+
+            remainder = original_group[prefix_len:]
+            leading, _old_text, trailing = _split_control_and_text(remainder)
+            groups[msg_idx] = new_slice_glyphs + leading + eng_glyphs + trailing
+            name_plan[msg_idx] = {
+                "old_slices": slices,
+                "new_slices": new_slices,
+                "old_prefix_len": prefix_len,
+                "new_prefix_len": npos,
+            }
+        else:
+            leading, _old_text, trailing = _split_control_and_text(original_group)
+            groups[msg_idx] = leading + eng_glyphs + trailing
         replaced += 1
 
-    # Rebuild Section 2
+    # --- Rebuild Section 2 --------------------------------------------------------
     new_sec2 = bytearray()
     for group in groups:
         for g in group:
             new_sec2 += struct.pack(">H", g)
         new_sec2 += struct.pack(">H", 0xFFFF)
-    # Append trailing data preserved from after the last FFFF
     for t in trailing_words:
         new_sec2 += struct.pack(">H", t)
 
@@ -498,12 +679,13 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
     # Build injected file (Section 1 unchanged, new Section 2)
     section1 = bytearray(raw[:sec2_offset])
     struct.pack_into("<I", section1, 0x14, new_sec2_size)
-
     after_sec2 = raw[sec2_end:]
     injected = bytes(section1) + bytes(new_sec2) + bytes(after_sec2)
 
-    # Now patch Section 1 offsets
-    result = patch_section1(orig_bytes, injected)
+    # Patch Section 1 offsets (walk-based, with the name-island plan)
+    result = patch_section1(
+        orig_bytes, injected, name_plan=name_plan, res_name=str(res_idx)
+    )
 
     # Pad to sector boundary
     sc = math.ceil(len(result) / SECTOR)
@@ -517,16 +699,95 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
 
     size_delta = new_sec2_size - sec2_size
     old_sc = len(raw) // SECTOR if len(raw) >= SECTOR else 1
-    status = "replaced %d/%d, sec2 %d->%d (%+d bytes), %d->%d sectors, OFFSETS PATCHED" % (
-        replaced,
-        len(groups),
-        sec2_size,
-        new_sec2_size,
-        size_delta,
-        old_sc,
-        sc,
+    status = (
+        "replaced %d/%d (%d name-prefix groups, %d label tables kept verbatim), "
+        "sec2 %d->%d (%+d bytes), %d->%d sectors, OFFSETS PATCHED (walked)"
+        % (
+            replaced,
+            len(groups),
+            len(name_plan),
+            skipped_label_tables,
+            sec2_size,
+            new_sec2_size,
+            size_delta,
+            old_sc,
+            sc,
+        )
     )
     return (out_name, status)
+
+
+def _strip_redundant_speaker_prefix(eng_glyphs, label_en):
+    """
+    Strip a leading redundant "<label>:<sp>" speaker prefix from an already-
+    encoded English dialogue glyph sequence.
+
+    The dialogue text from the batch JSON frequently begins with the speaker's
+    name followed by a colon (e.g. "Sister: I've been...") which duplicates the
+    0x14 name-label box header.  When the active label is known, that prefix is
+    redundant and must be removed so the name renders only once.
+
+    Matching (case-insensitive, glyph level):
+        <label glyphs> [space]* ':' [space]*
+    Only the EXACT leading run is removed, and only when label_en is non-empty
+    and eng_glyphs actually starts with it.  Anything else changes nothing.
+
+    Returns the (possibly shortened) glyph list.
+    """
+    if not label_en or not eng_glyphs:
+        return eng_glyphs
+
+    _load_tables()
+    colon = _ENG_TABLE.get(":")
+    space = _ENG_TABLE.get(" ")
+    if colon is None:
+        return eng_glyphs
+
+    # Encode the label the same way the dialogue was encoded, then compare
+    # case-insensitively at the glyph level (encoding already folds case via
+    # the lower() fallback, but glyph indices differ for cased letters that
+    # exist in both forms, so compare on the decoded-lower form instead).
+    def _lower_key(glyphs):
+        # Map glyph -> its source char (best effort) by reverse lookup, then
+        # lowercase.  Falls back to the raw glyph index when unmapped.
+        out = []
+        for g in glyphs:
+            ch = _ENG_REV.get(g)
+            out.append(ch.lower() if ch is not None else g)
+        return out
+
+    label_glyphs = [_enc_char(c) for c in label_en]
+    n = len(label_glyphs)
+    if n == 0 or len(eng_glyphs) < n:
+        return eng_glyphs
+
+    if _lower_key(eng_glyphs[:n]) != _lower_key(label_glyphs):
+        return eng_glyphs  # dialogue does not start with the label
+
+    pos = n
+    # optional spaces before the colon
+    while pos < len(eng_glyphs) and space is not None and eng_glyphs[pos] == space:
+        pos += 1
+    if pos >= len(eng_glyphs) or eng_glyphs[pos] != colon:
+        return eng_glyphs  # no ':' after the label -- not the redundant prefix
+    pos += 1
+    # Consume any separators after the colon: spaces AND line/page-break
+    # controls.  The batch text often wrote the prefix as "<name>: / text"
+    # where the " / " encodes to a 0xFFFE line break; once the redundant name
+    # is removed, that break is redundant too -- leaving it would make the
+    # DISPLAY_TEXT start point at a 0xFFFE terminator instead of real content.
+    while pos < len(eng_glyphs) and (
+        eng_glyphs[pos] == space
+        or eng_glyphs[pos] == 0xFFFE
+        or eng_glyphs[pos] == 0xFFD2
+    ):
+        pos += 1
+
+    # Never strip the entire body away (would create an empty dialogue group).
+    if pos >= len(eng_glyphs):
+        return eng_glyphs
+
+    return eng_glyphs[pos:]
 
 
 def _split_control_and_text(group):
@@ -556,72 +817,67 @@ def _split_control_and_text(group):
 # ---------------------------------------------------------------------------
 def verify_patched(orig_path, patched_path):
     """
-    Verify that a patched file's Section 1 references are consistent with its Section 2.
-    Returns list of issues found.
+    Verify a patched file by RE-WALKING its Section 1 with the disassembler and
+    checking that every walked Section-2 reference is consistent with the new
+    Section 2.  Returns (issues, text_ops, name_ops).
     """
-    orig = open(orig_path, "rb").read()
     patched = open(patched_path, "rb").read()
 
     sec2_size = struct.unpack_from("<I", patched, 0x14)[0]
     sec2_off = struct.unpack_from("<I", patched, 0x18)[0]
     sec2 = patched[sec2_off : sec2_off + sec2_size]
     sec2_words = sec2_size // 2
+    words = [struct.unpack_from(">H", sec2, i * 2)[0] for i in range(sec2_words)]
 
-    # Parse groups in patched section 2
-    groups = parse_sec2_group_offsets(sec2)
-
-    # Parse Section 1
-    s1 = patched[28:sec2_off]
-    n = len(s1) // 2
-    words = [struct.unpack_from(">H", s1, i * 2)[0] for i in range(n)]
-
+    s1 = patched[HEADER_SIZE:sec2_off]
     issues = []
-    text_ops = 0
-    name_ops = 0
 
-    # Pattern-based scanning (same approach as the patcher)
-    for i in range(n - 4):
-        if words[i] == 0x0004 and words[i + 1] == 0 and words[i + 3] == 0:
-            goff = words[i + 2]
-            glen = words[i + 4]
-            text_ops += 1
+    ok, instrs = walk(s1)
+    if not ok:
+        issues.append("Section 1 walk FAILED on the patched file")
+    recs = extract_records(s1, instrs)
 
-            if glen == 0:
-                continue
+    text_ops = len(recs["display"])
+    name_ops = len(recs["name_ref"]) + len(recs["label"])
 
-            if goff >= sec2_words:
-                if goff < 0x4000:
-                    issues.append(
-                        "DISPLAY_TEXT at S1+0x%04x: offset %d beyond Section 2 (%d words)"
-                        % (i * 2, goff, sec2_words)
-                    )
-            else:
-                end = goff + glen
-                if end > sec2_words:
-                    issues.append(
-                        "DISPLAY_TEXT at S1+0x%04x: range %d..%d exceeds Section 2 (%d words)"
-                        % (i * 2, goff, end, sec2_words)
-                    )
-                else:
-                    last_word = struct.unpack_from(">H", sec2, (end - 1) * 2)[0]
-                    if last_word != 0xFFFF:
-                        issues.append(
-                            "DISPLAY_TEXT at S1+0x%04x: off=%d cnt=%d does not end at FFFF "
-                            "(word[end-1]=0x%04x)"
-                            % (i * 2, goff, glen, last_word)
-                        )
+    for r in recs["display"]:
+        if r["cnt"] == 0:
+            continue
+        end = r["off"] + r["cnt"]
+        if end > sec2_words:
+            issues.append(
+                "DISPLAY_TEXT at S1+0x%X: range %d..%d exceeds Section 2 (%d words)"
+                % (r["pc"], r["off"], end, sec2_words)
+            )
+        elif words[end - 1] != 0xFFFF:
+            issues.append(
+                "DISPLAY_TEXT at S1+0x%X: off=%d cnt=%d does not end at FFFF "
+                "(word[end-1]=0x%04X)" % (r["pc"], r["off"], r["cnt"], words[end - 1])
+            )
 
-    for i in range(n - 2):
-        if words[i] in (0x000C, 0x000D):
-            param = words[i + 1]
-            gidx = words[i + 2]
-            name_ops += 1
+    for r in recs["label"]:
+        if r["off"] + r["cnt"] > sec2_words:
+            issues.append(
+                "0x14 at S1+0x%X: off=%d cnt=%d exceeds Section 2 (%d words)"
+                % (r["pc"], r["off"], r["cnt"], sec2_words)
+            )
 
-            if param != 121 and gidx >= sec2_words and gidx < 0x4000:
-                issues.append(
-                    "%s at S1+0x%04x: glyph_idx %d beyond Section 2 (%d words)"
-                    % ("SET_NAME" if words[i] == 0x000C else "CLR_NAME", i * 2, gidx, sec2_words)
+    # 0x0C/0x0D `idx` is a speaker/portrait CHANNEL BIT index (0..511), not a
+    # Section-2 glyph offset (see the patch loop above), so it has no Section-2
+    # bound to validate.  The EXE only accepts param in [0,12] and idx in
+    # [0,511]; flag anything outside that as a structural anomaly instead.
+    for r in recs["name_ref"]:
+        if not (0 <= r["param"] <= 12) or r["idx"] >= 512:
+            issues.append(
+                "%s at S1+0x%X: channel record param=%d idx=%d outside the "
+                "EXE-accepted range (param 0..12, idx 0..511)"
+                % (
+                    "SET_NAME" if r["op"] == 0x0C else "CLR_NAME",
+                    r["pc"],
+                    r["param"],
+                    r["idx"],
                 )
+            )
 
     return issues, text_ops, name_ops
 
@@ -639,11 +895,7 @@ def main():
         base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         os.chdir(base)
 
-        # We need to do a variable-size injection first, then patch offsets
-        sys.path.insert(0, "tools")
         from encode_english_text import encode_text
-
-        import json
 
         raw_dir = "extracted/packdata_raw"
         out_dir = "build/patched_type2"
@@ -656,7 +908,6 @@ def main():
         entries = json.load(open(trans_file, encoding="utf-8"))
         print("Loaded %d translation entries for R1198" % len(entries))
 
-        # Encode translations
         def clean_and_encode(text):
             text = text.strip()
             if not text:
@@ -693,8 +944,7 @@ def main():
         print("Encoded %d messages" % len(msg_trans))
         print()
 
-        # Inject and patch
-        print("Injecting with VARIABLE-SIZE and patching offsets...")
+        print("Injecting with VARIABLE-SIZE and patching offsets (walk-based)...")
         out_name, status = inject_and_patch(1198, msg_trans, raw_dir, out_dir)
         if out_name:
             print("  SUCCESS: %s -> %s" % (out_name, status))
@@ -702,15 +952,14 @@ def main():
             print("  FAILED:", status)
             sys.exit(1)
 
-        # Verify
         print()
-        print("Verifying patched file...")
+        print("Verifying patched file (re-walk)...")
         orig_path = os.path.join(raw_dir, "1198_type02.raw")
         patched_path = os.path.join(out_dir, "1198_type02.raw")
         issues, text_ops, name_ops = verify_patched(orig_path, patched_path)
 
-        print("  DISPLAY_TEXT opcodes: %d" % text_ops)
-        print("  Name ref opcodes: %d" % name_ops)
+        print("  DISPLAY_TEXT opcodes (walked): %d" % text_ops)
+        print("  Name/label ref opcodes (walked): %d" % name_ops)
         if issues:
             print("  ISSUES FOUND:")
             for issue in issues:
@@ -718,43 +967,35 @@ def main():
         else:
             print("  ALL REFERENCES VALID")
 
-        # Show detailed diff
+        # Show detailed diff of walked instructions
         print()
-        print("Offset mapping details:")
+        print("Offset mapping details (walked instructions):")
         orig = open(orig_path, "rb").read()
         patched = open(patched_path, "rb").read()
+        o_sec2_off = struct.unpack_from("<I", orig, 0x18)[0]
+        o_s1 = orig[HEADER_SIZE:o_sec2_off]
+        p_s1 = patched[HEADER_SIZE:o_sec2_off]
+        _, o_instrs = walk(o_s1)
+        o_recs = extract_records(o_s1, o_instrs)
+        p_recs = extract_records(p_s1, o_instrs)
+        shown = 0
+        for o_r, p_r in zip(o_recs["display"], p_recs["display"]):
+            if (o_r["off"], o_r["cnt"]) != (p_r["off"], p_r["cnt"]) and shown < 40:
+                print(
+                    "  S1+0x%05X  DISP off=%d cnt=%d -> off=%d cnt=%d"
+                    % (o_r["pc"], o_r["off"], o_r["cnt"], p_r["off"], p_r["cnt"])
+                )
+                shown += 1
+        for o_r, p_r in zip(o_recs["label"], p_recs["label"]):
+            if (o_r["off"], o_r["cnt"]) != (p_r["off"], p_r["cnt"]) and shown < 60:
+                print(
+                    "  S1+0x%05X  0x14 off=%d cnt=%d -> off=%d cnt=%d"
+                    % (o_r["pc"], o_r["off"], o_r["cnt"], p_r["off"], p_r["cnt"])
+                )
+                shown += 1
+
         o_s2size = struct.unpack_from("<I", orig, 0x14)[0]
         p_s2size = struct.unpack_from("<I", patched, 0x14)[0]
-        sec2_off = struct.unpack_from("<I", orig, 0x18)[0]
-
-        o_s1 = orig[28:sec2_off]
-        p_s1 = patched[28:sec2_off]
-        o_words = [struct.unpack_from(">H", o_s1, j * 2)[0] for j in range(len(o_s1) // 2)]
-        p_words = [struct.unpack_from(">H", p_s1, j * 2)[0] for j in range(len(p_s1) // 2)]
-
-        print("  %-8s %-20s %-20s" % ("S1 off", "Original", "Patched"))
-        print("  " + "-" * 50)
-        # Pattern-based diff display
-        for j in range(len(o_words) - 4):
-            if o_words[j] == 0x0004 and o_words[j + 1] == 0 and o_words[j + 3] == 0:
-                o_off, o_cnt = o_words[j + 2], o_words[j + 4]
-                p_off, p_cnt = p_words[j + 2], p_words[j + 4]
-                if o_off != p_off or o_cnt != p_cnt:
-                    print(
-                        "  0x%04x   DISP off=%d cnt=%d    -> off=%d cnt=%d"
-                        % (j * 2, o_off, o_cnt, p_off, p_cnt)
-                    )
-        for j in range(len(o_words) - 2):
-            if o_words[j] in (0x000C, 0x000D):
-                o_idx = o_words[j + 2]
-                p_idx = p_words[j + 2]
-                if o_idx != p_idx:
-                    name = "SET_NAME" if o_words[j] == 0x000C else "CLR_NAME"
-                    print(
-                        "  0x%04x   %s idx=%d       -> idx=%d"
-                        % (j * 2, name, o_idx, p_idx)
-                    )
-
         print()
         print("Original sec2: %d bytes, Patched sec2: %d bytes" % (o_s2size, p_s2size))
         print("Section 1 changed: %s" % (o_s1 != p_s1))
@@ -764,7 +1005,7 @@ def main():
         patched_path = sys.argv[2]
         output_path = sys.argv[3] if len(sys.argv) > 3 else patched_path
 
-        print("Patching Section 1 offsets:")
+        print("Patching Section 1 offsets (walk-based):")
         print("  Original: %s" % orig_path)
         print("  Patched:  %s" % patched_path)
         print("  Output:   %s" % output_path)
@@ -772,9 +1013,9 @@ def main():
         patch_file(orig_path, patched_path, output_path)
 
         print()
-        print("Verifying...")
+        print("Verifying (re-walk)...")
         issues, text_ops, name_ops = verify_patched(orig_path, output_path)
-        print("  DISPLAY_TEXT: %d, Name refs: %d" % (text_ops, name_ops))
+        print("  DISPLAY_TEXT: %d, Name/label refs: %d" % (text_ops, name_ops))
         if issues:
             for issue in issues:
                 print("  ISSUE: %s" % issue)

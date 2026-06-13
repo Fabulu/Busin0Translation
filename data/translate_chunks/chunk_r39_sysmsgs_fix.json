@@ -1,0 +1,51 @@
+[
+  {
+    "resource": 39,
+    "message": 90,
+    "japanese": "呪いが解かれ抜け落ちた！",
+    "english": "Curse lifted!",
+    "note": "slot capacity 13 glyphs; English is 13 chars"
+  },
+  {
+    "resource": 39,
+    "message": 91,
+    "japanese": "対宝箱トラップのシールドをはりました",
+    "english": "Trap shield active!",
+    "note": "slot capacity 19 glyphs; English is 19 chars"
+  },
+  {
+    "resource": 39,
+    "message": 92,
+    "japanese": "スタミナが回復・解除されました！",
+    "english": "Stamina restored!",
+    "note": "slot capacity 17 glyphs; English is 17 chars"
+  },
+  {
+    "resource": 39,
+    "message": 93,
+    "japanese": "パーティ全員の体がうき上がった！",
+    "english": "The party floats!",
+    "note": "slot capacity 17 glyphs; English is 17 chars"
+  },
+  {
+    "resource": 39,
+    "message": 94,
+    "japanese": "街に帰りますか？",
+    "english": "To town?",
+    "note": "slot capacity 9 glyphs; English is 8 chars"
+  },
+  {
+    "resource": 39,
+    "message": 95,
+    "japanese": "このフロアのスタートブロックに帰りますか？",
+    "english": "Return to floor start?",
+    "note": "slot capacity 22 glyphs; English is 22 chars"
+  },
+  {
+    "resource": 39,
+    "message": 96,
+    "japanese": "魔法を使うプレイヤーを選択してください",
+    "english": "Select spell caster",
+    "note": "slot capacity 20 glyphs; English is 19 chars"
+  }
+]

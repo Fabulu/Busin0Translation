@@ -1,0 +1,236 @@
+[
+  {
+    "resource": 35,
+    "message": 2,
+    "japanese": "中貴",
+    "english": "End"
+  },
+  {
+    "resource": 35,
+    "message": 14,
+    "japanese": "メッセージ降鉄主度",
+    "english": "Msg Speed"
+  },
+  {
+    "resource": 35,
+    "message": 20,
+    "japanese": "頼 難",
+    "english": "Min"
+  },
+  {
+    "resource": 35,
+    "message": 21,
+    "japanese": "短 費",
+    "english": "Shrt"
+  },
+  {
+    "resource": 35,
+    "message": 24,
+    "japanese": "ゲームを終了し、タイトルに帰りますか？",
+    "english": "Quit to title?"
+  },
+  {
+    "resource": 35,
+    "message": 27,
+    "japanese": "セーブしますか？",
+    "english": "Save?"
+  },
+  {
+    "resource": 35,
+    "message": 28,
+    "japanese": "は い",
+    "english": "Yes"
+  },
+  {
+    "resource": 35,
+    "message": 29,
+    "japanese": "いいえ",
+    "english": "No"
+  },
+  {
+    "resource": 35,
+    "message": 30,
+    "japanese": "セーブするデータの選択",
+    "english": "Select save"
+  },
+  {
+    "resource": 35,
+    "message": 31,
+    "japanese": "上書きしますが / よろしいですか？",
+    "english": "Overwrite save?"
+  },
+  {
+    "resource": 35,
+    "message": 32,
+    "japanese": "データをセーブしています / 間限を切ったり、メモリーカード「ps２」を / 向き穏ししないでください。",
+    "english": "Saving... / Do not power off or / remove memory card."
+  },
+  {
+    "resource": 35,
+    "message": 33,
+    "japanese": "セーブしました。",
+    "english": "Saved."
+  },
+  {
+    "resource": 35,
+    "message": 34,
+    "japanese": "メモリーカードスロット１のメモリーカード「ps２」が / フォーマットされていません。 フォーマットしますか？",
+    "english": "Memory card (PS2) in slot 1 is / unformatted. Format it?"
+  },
+  {
+    "resource": 35,
+    "message": 35,
+    "japanese": "フォーマット中です",
+    "english": "Formatting"
+  },
+  {
+    "resource": 35,
+    "message": 36,
+    "japanese": "フォーマットが退了しました。",
+    "english": "Formatted."
+  },
+  {
+    "resource": 35,
+    "message": 37,
+    "japanese": "空き王専が不足しています。 / busin０のデータを怪代するには / １か所につき２９５kb以上必要です。",
+    "english": "Not enough free space. / Saving needs 295 KB/slot."
+  },
+  {
+    "resource": 35,
+    "message": 38,
+    "japanese": "セーブに成功しました。",
+    "english": "Save OK."
+  },
+  {
+    "resource": 35,
+    "message": 39,
+    "japanese": "メモリーカードスロット１ チェック中",
+    "english": "Checking slot 1..."
+  },
+  {
+    "resource": 35,
+    "message": 40,
+    "japanese": "ゲームを中貴しますか？ / 中貴データのセーブを行うと / 自動的にタイトル看座へ帰ります。",
+    "english": "Save and quit? / Saving returns / you to title."
+  },
+  {
+    "resource": 35,
+    "message": 41,
+    "japanese": "ロードするデータの選択",
+    "english": "Select load"
+  },
+  {
+    "resource": 35,
+    "message": 42,
+    "japanese": "データをロードしますか？",
+    "english": "Load data?"
+  },
+  {
+    "resource": 35,
+    "message": 43,
+    "japanese": "busin０のデータがありません。",
+    "english": "No Busin 0 data."
+  },
+  {
+    "resource": 35,
+    "message": 44,
+    "japanese": "データをロードしています / 間限を切ったり、メモリーカード「ps２」を / 向き穏ししないでください。",
+    "english": "Loading... / Do not power off or / remove memory card."
+  },
+  {
+    "resource": 35,
+    "message": 45,
+    "japanese": "データをロードしました。",
+    "english": "Loaded."
+  },
+  {
+    "resource": 35,
+    "message": 46,
+    "japanese": "ロードに成功しました。",
+    "english": "Load OK."
+  },
+  {
+    "resource": 35,
+    "message": 47,
+    "japanese": "ゲームを力開しますか？ / 中貴データをロードすると、 / 中貴データは自動的に除去されます。",
+    "english": "Resume game? / Loading deletes / suspend data."
+  },
+  {
+    "resource": 35,
+    "message": 48,
+    "japanese": "メモリーカード「ps２」が / メモリーカードスロット１に穏されていません。",
+    "english": "No memory card (PS2) / in slot 1."
+  },
+  {
+    "resource": 35,
+    "message": 49,
+    "japanese": "なし",
+    "english": "No"
+  },
+  {
+    "resource": 35,
+    "message": 50,
+    "japanese": "キャンセル",
+    "english": "Cancel"
+  },
+  {
+    "resource": 35,
+    "message": 51,
+    "japanese": "キャンセル",
+    "english": "Cancel"
+  },
+  {
+    "resource": 35,
+    "message": 52,
+    "japanese": "メモリーカードスロット１のメモリーカード「ps２」 / が穏し替えられています。 / このまま中貴セーブを行いますか？",
+    "english": "Memory card in slot 1 / was swapped. / Suspend save anyway?"
+  },
+  {
+    "resource": 35,
+    "message": 53,
+    "japanese": "空き王専が不足しています。 / busin０を中貴セーブするには / ５５０kb以上必要です。",
+    "english": "Not enough space. / Suspend save needs 550 KB."
+  },
+  {
+    "resource": 35,
+    "message": 54,
+    "japanese": "メモリーカードスロット１にメモリーカード「ps２」が / 穏されていません。busin０のデータをセーブする / には１か所につき２９５kb以上、中貴セーブも使息する / 場編はさらに５５０kb以上の編８４５kb以上の空き / 王専のあるメモリーカード「ps２」が必要です。 / このままゲームを開錠しますか？",
+    "english": "No memory card in slot 1. Saving needs / 295 KB per slot; a suspend save needs / 550 KB more (845 KB total) free. / Start the game anyway?"
+  },
+  {
+    "resource": 35,
+    "message": 55,
+    "japanese": "メモリーカードスロット１に穏されている / メモリーカード「ps２」の空き王専が不足しています。 / busin０のデータをセーブするには１か所につき / ２９５kb以上、中貴セーブも使息する場編はさらに / ５５０kb以上の編８４５kb以上の空き王専が必要 / です。このままゲームを開錠しますか？",
+    "english": "Memory card in slot 1 lacks free / space. Saving needs 295 KB per slot; a / suspend save needs 550 KB more (845 KB / total). Start the game anyway?"
+  },
+  {
+    "resource": 35,
+    "message": 56,
+    "japanese": "メモリーカードスロット１のメモリーカード「ps２」 / が穏し替えられています。 / このままセーブを行いますか？",
+    "english": "Memory card (PS2) in slot 1 / was swapped. / Save anyway?"
+  },
+  {
+    "resource": 35,
+    "message": 57,
+    "japanese": "ゲームのクリアデータを / セーブしますか？",
+    "english": "Save clear data?"
+  },
+  {
+    "resource": 35,
+    "message": 58,
+    "japanese": "セーブをしない場編、クリア情報が / 怪代されませんが仲間によろしいですか？",
+    "english": "Skip saving? / Clear data lost. OK?"
+  },
+  {
+    "resource": 35,
+    "message": 60,
+    "japanese": "busin０の中貴セーブデータを / 上書きしますがよろしいですか？",
+    "english": "Overwrite Busin 0 / suspend save?"
+  },
+  {
+    "resource": 35,
+    "message": 61,
+    "japanese": "busin０の / 中貴セーブデータがありません。",
+    "english": "No Busin 0 suspend save."
+  }
+]

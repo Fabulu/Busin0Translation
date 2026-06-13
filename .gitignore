@@ -51,3 +51,10 @@ build/test123.txt
 # popup-tent (framework, not project code)
 popup-tent/
 popup-tent.zip
+
+# Recon/investigation scratch (PNGs, GS dumps, extracted raws) — regeneratable
+build/recon_v85/
+build/recon_v86/
+build/recon_v87/
+build/packdata_resources_backup/
+build/packdata_resources_backup_testbuild/

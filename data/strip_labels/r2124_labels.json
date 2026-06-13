@@ -1,0 +1,24 @@
+{
+  "comment": "R2124 town-hub location banner strip labels. rect = [x,y,w,h] in the decoded 256x256 PSMT4 texture. text_x_offset = left-align x offset inside rect (right column glyphs start 16px into the cell, matching the original JP layout). English from build/recon_v86/glossary/canonical_labels.json.",
+  "texture": {"width": 256, "height": 256, "resource": "R2124"},
+  "labels": [
+    {"name": "L0_inn",       "jp": "冒険者の宿屋",   "english": "Adventurer's Inn",   "rect": [0, 0, 128, 24],    "text_x_offset": 2},
+    {"name": "L1_temple",    "jp": "サレム寺院",     "english": "Church of Salem",    "rect": [0, 24, 128, 24],   "text_x_offset": 2},
+    {"name": "L2_alchguild", "jp": "錬金術ギルド",   "english": "Alchemy Guild",      "rect": [0, 48, 128, 24],   "text_x_offset": 2},
+    {"name": "L3_shop",      "jp": "ヴィガー商店",   "english": "Vigger Shop",        "rect": [0, 72, 128, 24],   "text_x_offset": 2},
+    {"name": "L4_tavern",    "jp": "酒場 LUNALIGHT", "english": "Bar Luna Light",     "rect": [0, 96, 128, 24],   "text_x_offset": 2},
+    {"name": "L5_advguild",  "jp": "冒険者ギルド",   "english": "Adventurer's Guild", "rect": [0, 120, 128, 24],  "text_x_offset": 2},
+    {"name": "L6_karman",    "jp": "カルマンの迷宮", "english": "Karman's Labyrinth", "rect": [0, 144, 128, 24],  "text_x_offset": 2},
+    {"name": "L7_tower",     "jp": "テバイードの塔", "english": "Tower of Tebayd",    "rect": [0, 168, 128, 24],  "text_x_offset": 2},
+    {"name": "R0_townhall",  "jp": "市庁舎前",       "english": "Town Hall Plaza",    "rect": [128, 0, 128, 24],  "text_x_offset": 16},
+    {"name": "R1_faubourg",  "jp": "フォブール地区", "english": "Faubourg District",  "rect": [128, 24, 128, 24], "text_x_offset": 16},
+    {"name": "R2_porola",    "jp": "ボローラ地区",   "english": "Porola District",    "rect": [128, 48, 128, 24], "text_x_offset": 16},
+    {"name": "R3_vare",      "jp": "ヴァレー地区",   "english": "Vare District",      "rect": [128, 72, 128, 24], "text_x_offset": 16},
+    {"name": "R4_castle",    "jp": "ドゥーハン城",   "english": "Duhan Castle",       "rect": [128, 96, 128, 24], "text_x_offset": 16}
+  ],
+  "do_not_touch": [
+    {"name": "NEW_badge",    "rect": [144, 128, 48, 16]},
+    {"name": "banner_gauge", "rect": [0, 192, 160, 32]},
+    {"name": "rows_224_255", "rect": [0, 224, 256, 32]}
+  ]
+}

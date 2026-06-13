@@ -73,6 +73,22 @@ for ci in range(10):
 
 print(f"Loaded {len(translations)} R39 translations")
 
+# Additive fix file: system prompts G90-G96 (v86). NEVER overrides chunk_00-09.
+fix_path = 'data/translate_chunks/chunk_r39_sysmsgs_fix.json'
+if os.path.exists(fix_path):
+    added = 0
+    for entry in json.load(open(fix_path, encoding='utf-8')):
+        if entry.get('resource') != 39:
+            continue
+        msg_idx = entry.get('message', entry.get('msg_index'))
+        if msg_idx is None or msg_idx in translations:
+            continue  # originals are authoritative — additive only
+        en = (entry.get('english') or '').strip()
+        if en:
+            translations[msg_idx] = en
+            added += 1
+    print(f"Loaded {added} additional R39 sysmsg translations from {fix_path}")
+
 # ---------------------------------------------------------------------------
 # 4. Load glyph table
 # ---------------------------------------------------------------------------

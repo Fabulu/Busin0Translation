@@ -1,0 +1,172 @@
+{
+  "_comment": "Facility menu pre-rendered kanji strips (v86). Coordinates are linear (deswizzled) pixel boxes in a 256x256 PSMT4 texture. Each sheet block lists its pixel-blob file offset (formula-derived flush-to-end base, verified vs build/recon_v86 evidence PNGs) and per-label boxes [x,y,w,h]. polarity: 'dark_bg' = ink high index on black (clear+render); 'parchment' = dark ink on bright parchment (in-paint texture then draw dark ink).",
+
+  "2141_type02": {
+    "size": 69632,
+    "sheets": [
+      {
+        "name": "R2141 sub0 (temple menu)",
+        "offset": 1312,
+        "polarity": "dark_bg",
+        "font_size": 12,
+        "col_center": 63,
+        "col_halfwidth": 56,
+        "labels": [
+          {"box": [14, 5, 100, 17],  "text": "Go Outside"},
+          {"box": [14, 28, 100, 18], "text": "Cure Poison"},
+          {"box": [14, 52, 100, 18], "text": "Cure Paralysis"},
+          {"box": [14, 77, 100, 16], "text": "Cure Petrify"},
+          {"box": [14, 100, 100, 18],"text": "Cure Fear"},
+          {"box": [14, 124, 100, 18],"text": "Raise Dead"},
+          {"box": [14, 148, 100, 17],"text": "Restore Ashes"},
+          {"box": [14, 172, 100, 18],"text": "Exorcism"},
+          {"box": [14, 196, 100, 17],"text": "Church of Salem"}
+        ]
+      },
+      {
+        "name": "R2141 aux (donation/everyone). EXP/NEXT EXP/Level Up!! already English -- untouched.",
+        "offset": 36384,
+        "polarity": "dark_bg",
+        "font_size": 12,
+        "labels": [
+          {"box": [156, 174, 58, 18], "text": "Donation"},
+          {"box": [146, 199, 52, 18], "text": "Everyone"},
+          {"box": [134, 231, 50, 18], "text": "Everyone"},
+          {"box": [188, 231, 52, 18], "text": "Everyone"}
+        ]
+      }
+    ]
+  },
+
+  "2144_type02": {
+    "size": 69632,
+    "sheets": [
+      {
+        "name": "R2144 sub0 (inn menu)",
+        "offset": 1312,
+        "polarity": "dark_bg",
+        "font_size": 12,
+        "col_center": 63,
+        "col_halfwidth": 56,
+        "labels": [
+          {"box": [14, 3, 100, 17],  "text": "Go Outside"},
+          {"box": [14, 28, 100, 16], "text": "Stay"},
+          {"box": [14, 51, 100, 18], "text": "Adventurer's Inn"}
+        ]
+      },
+      {
+        "name": "R2144 aux Level-Up sheet. base 36400 (formula; 36384 renders misaligned). Press button / Level Up!! already English -- untouched.",
+        "offset": 36400,
+        "polarity": "dark_bg",
+        "font_size": 11,
+        "labels": [
+          {"box": [2, 31, 64, 17], "text": "Room Fee", "align": "left"}
+        ]
+      }
+    ]
+  },
+
+  "2150_type05": {
+    "size": 147456,
+    "sheets": [
+      {
+        "name": "R2150 sub0 (Vigger shop, two columns)",
+        "offset": 1360,
+        "polarity": "dark_bg",
+        "font_size": 12,
+        "labels": [
+          {"box": [8, 3, 112, 17],   "text": "Go Outside"},
+          {"box": [8, 27, 112, 18],  "text": "Vigger Shop"},
+          {"box": [8, 50, 112, 17],  "text": "Sell"},
+          {"box": [8, 76, 112, 15],  "text": "Order"},
+          {"box": [8, 99, 112, 18],  "text": "Take Order"},
+          {"box": [8, 123, 112, 17], "text": "Check Orders"},
+          {"box": [8, 148, 112, 16], "text": "Deliver"},
+          {"box": [8, 171, 112, 17], "text": "Identify"},
+          {"box": [8, 196, 112, 16], "text": "Uncurse"},
+          {"box": [136, 3, 112, 18],  "text": "Manage Shop"},
+          {"box": [136, 27, 112, 18], "text": "Shop Info"},
+          {"box": [136, 51, 112, 18], "text": "Storage"},
+          {"box": [136, 75, 112, 18], "text": "Manage Storage"},
+          {"box": [136, 99, 112, 18], "text": "Store Items"},
+          {"box": [136, 123, 112, 17],"text": "Redecorate"},
+          {"box": [136, 148, 112, 16],"text": "Part-time Job"},
+          {"box": [136, 171, 112, 18],"text": "Sales"}
+        ]
+      },
+      {
+        "name": "R2150 s1 (economy labels, black bg)",
+        "offset": 36384,
+        "polarity": "dark_bg",
+        "font_size": 12,
+        "labels": [
+          {"box": [0, 117, 40, 18],   "text": "Wages"},
+          {"box": [78, 117, 84, 18],  "text": "Uncurse Fee"},
+          {"box": [157, 117, 84, 18], "text": "Identify Fee"},
+          {"box": [0, 144, 84, 15],   "text": "Sell Price"},
+          {"box": [0, 169, 84, 14],   "text": "Shop Level"},
+          {"box": [78, 169, 56, 14],  "text": "Fame"},
+          {"box": [134, 169, 42, 14], "text": "Align"},
+          {"box": [0, 190, 64, 18],   "text": "Title"},
+          {"box": [54, 190, 66, 18],  "text": "Sales"},
+          {"box": [128, 190, 38, 18], "text": "Branch"},
+          {"box": [167, 190, 38, 18], "text": "Cost"},
+          {"box": [0, 216, 84, 16],   "text": "Buy Price"},
+          {"box": [88, 216, 84, 16],  "text": "Room Fee"}
+        ]
+      },
+      {
+        "name": "R2150 s2 (parchment, baked labels). In-paint kanji areas with sampled parchment then draw dark ink.",
+        "offset": 71008,
+        "polarity": "parchment",
+        "font_size": 13,
+        "labels": [
+          {"box": [12, 3, 102, 21],  "text": "Shop Level", "align": "left"},
+          {"box": [12, 31, 80, 17],  "text": "Fame", "align": "left"},
+          {"box": [12, 55, 74, 17],  "text": "Align", "align": "left"},
+          {"box": [12, 79, 80, 17],  "text": "Title", "align": "left"},
+          {"box": [12, 102, 92, 19], "text": "Sales", "align": "left"},
+          {"box": [12, 151, 64, 18], "text": "Branch", "align": "left"}
+        ]
+      },
+      {
+        "name": "R2150 s3 (guild stats parchment + plain-white duplicate). Upper = parchment in-paint; lower = dark-bg clear+render.",
+        "offset": 105616,
+        "polarity": "mixed",
+        "font_size": 13,
+        "labels": [
+          {"box": [12, 22, 100, 18], "text": "Survey Skill", "align": "left", "polarity": "parchment"},
+          {"box": [12, 46, 80, 17],  "text": "Survival Rate", "align": "left", "polarity": "parchment"},
+          {"box": [12, 70, 90, 18],  "text": "Trust", "align": "left", "polarity": "parchment"},
+          {"box": [8, 142, 106, 14], "text": "Survey Skill", "align": "left", "polarity": "dark_bg"},
+          {"box": [8, 156, 70, 20],  "text": "Survival Rate", "align": "left", "polarity": "dark_bg"},
+          {"box": [8, 182, 80, 18],  "text": "Trust", "align": "left", "polarity": "dark_bg"}
+        ]
+      }
+    ]
+  },
+
+  "2153_type05": {
+    "size": 147456,
+    "_note": "sub0 patched here; s1/s2/s3 are byte-identical to R2150 and are copied from the patched R2150 windows by the patcher (asserted equal).",
+    "sheets": [
+      {
+        "name": "R2153 sub0 (branch shop menu)",
+        "offset": 1360,
+        "polarity": "dark_bg",
+        "font_size": 12,
+        "col_center": 63,
+        "col_halfwidth": 56,
+        "labels": [
+          {"box": [14, 3, 100, 17],  "text": "Go Outside"},
+          {"box": [14, 28, 100, 18], "text": "Branch"},
+          {"box": [14, 52, 100, 17], "text": "Buy"},
+          {"box": [14, 76, 100, 17], "text": "Sell"},
+          {"box": [14, 101, 100, 16],"text": "Delivery"},
+          {"box": [14, 124, 100, 17],"text": "Events"},
+          {"box": [14, 148, 100, 18],"text": "Rest Area"}
+        ]
+      }
+    ]
+  }
+}
