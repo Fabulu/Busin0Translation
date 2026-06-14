@@ -236,7 +236,80 @@ os.system('python tools/patch_r2138.py')
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
 
-from patch_section1_offsets import inject_and_patch
+from patch_section1_offsets import inject_and_patch, group_choice_markers, HEADER_SIZE
+
+# Type-2 word-wrap width.  The BOXED dialogue frame fits ~20 cells (JP shipped
+# 18-19 glyphs/line); centered NARRATION is authored at <=16.  v91 used 16 which
+# wrapped boxed dialogue FAR too early (e.g. "That's why / you're / looking for")
+# blowing 3-line dialogue up to 5 short lines that overflow the box.  Width 19
+# matches the boxed frame (1-cell safety margin under ~20) AND is byte-identical
+# for narration (its authored lines are already <=16, so _wrap_line is a no-op
+# there).  This is the regression fix for v89 overflow (the loop previously never
+# word-wrapped, so ~2604 lines clipped).  Do NOT exceed 19 without re-checking
+# the len-18/19 tokens and the centered-narration space-advance.
+TYPE2_WRAP_WIDTH = 19
+
+
+def _wrap_line(seg, max_chars):
+    """Hard-wrap one ' / '-free segment into a list of <=max_chars lines.
+
+    Breaks at spaces; only force-breaks mid-token when a single token alone
+    exceeds max_chars (mirrors the Step-2 word_wrap helper)."""
+    out = []
+    while len(seg) > max_chars:
+        brk = seg.rfind(' ', 0, max_chars + 1)
+        if brk <= 0:
+            brk = max_chars  # single oversize token -> force break
+        out.append(seg[:brk])
+        seg = seg[brk:].lstrip(' ')
+    out.append(seg)
+    return out
+
+
+def wrap_type2_text(text, max_chars=TYPE2_WRAP_WIDTH):
+    """Word-wrap a type-2 english string, PRESERVING its ' // ' page breaks and
+    ' / ' line breaks and inserting additional ' / ' breaks only where a line
+    segment exceeds max_chars.  Choice groups must NOT be passed here."""
+    pages = []
+    for page in text.split(' // '):
+        lines = []
+        for seg in page.split(' / '):
+            lines.extend(_wrap_line(seg, max_chars))
+        pages.append(' / '.join(lines))
+    return ' // '.join(pages)
+
+
+def load_pristine_choice_groups(res_idx, raw_dir='extracted/packdata_raw'):
+    """Return the set of group indices in the pristine type-02 resource whose
+    FFFF-group carries a choice marker (0xFFC0..0xFFCF).  These message indices
+    must be encoded WITHOUT word-wrapping so encode_choice_group's segment->option
+    mapping stays intact.  Returns an empty set if the raw is missing/unparsable."""
+    path = f'{raw_dir}/{res_idx:04d}_type02.raw'
+    if not os.path.isfile(path):
+        return set()
+    try:
+        raw = open(path, 'rb').read()
+        if len(raw) < HEADER_SIZE:
+            return set()
+        sec2_size = struct.unpack_from('<I', raw, 0x14)[0]
+        sec2_off = struct.unpack_from('<I', raw, 0x18)[0]
+        if sec2_off < HEADER_SIZE or sec2_off >= len(raw) or sec2_size < 4:
+            return set()
+        sec2 = raw[sec2_off:sec2_off + sec2_size]
+        n_words = len(sec2) // 2
+        words = [struct.unpack_from('>H', sec2, i * 2)[0] for i in range(n_words)]
+        choice = set()
+        gi = 0
+        start = 0
+        for i in range(n_words):
+            if words[i] == 0xFFFF:
+                if group_choice_markers(words[start:i]):
+                    choice.add(gi)
+                gi += 1
+                start = i + 1
+        return choice
+    except Exception:
+        return set()
 
 # Load ALL type-2 translations
 all_trans = {}
@@ -292,34 +365,52 @@ total_encoded = 0
 for r_id in sorted(type02_resources):
     msg_trans = all_trans[r_id]
 
+    # Choice groups (pristine FFC0..FFCF) must skip word-wrapping so the
+    # downstream encode_choice_group segment->option mapping stays byte-exact.
+    choice_groups = load_pristine_choice_groups(r_id)
+
     # Encode English text to glyph lists
     encoded_trans = {}
     for mi, en_text in msg_trans.items():
-        # word_wrap removed — translations already have proper " / " breaks
+        # Word-wrap dialogue/narration so no on-screen line exceeds the frame
+        # width (the v89 overflow fix).  Choice-group questions+options are
+        # passed through unchanged — wrapping them would corrupt the option
+        # segmentation in encode_choice_group.
+        if mi not in choice_groups:
+            en_text = wrap_type2_text(en_text)
+        # Translations carry explicit breaks: " // " = page break (0xFFD2),
+        # " / " = line break (0xFFFE).  We emit 0xFFD2 ONLY for an authored
+        # " // " — NEVER auto-insert one.  The centered-narration renderer
+        # (e.g. the R1196 intro) does NOT paginate on a mid-message 0xFFD2; it
+        # draws the following text inline, which caused the v90 fat-gap /
+        # over-wide / both-edge-clip regression (groups 569/575/577).  Pristine
+        # JP narration groups use only 0xFFFE; a genuinely long boxed message
+        # that needs a real page break must author " // " in the JSON.
+        # Word-count-neutral vs the old auto-page-break (every " / " boundary
+        # still emits exactly one u16 word), so the R1203 cap below is unchanged.
         glyphs = []
-        parts = en_text.split(' / ')
-        line_count = 0
-        for pi, part in enumerate(parts):
-            if pi > 0:
-                line_count += 1
-                if line_count >= 3:
-                    # Insert page break every 3 lines (wait for input, clear, continue)
-                    glyphs.append(0xFFD2)
-                    line_count = 0
-                else:
-                    glyphs.append(0xFFFE)
-            for ch in part:
-                glyphs.append(enc(ch))
+        for page_i, page in enumerate(en_text.split(' // ')):
+            if page_i > 0:
+                glyphs.append(0xFFD2)  # explicit page break from " // "
+            for pi, part in enumerate(page.split(' / ')):
+                if pi > 0:
+                    glyphs.append(0xFFFE)  # line break from " / "
+                for ch in part:
+                    glyphs.append(enc(ch))
         encoded_trans[mi] = glyphs
 
     # R1203: Section 2 overflow guard.
-    # The English translation grows Section 2 from 50,231 to ~76,054 words, exceeding
-    # the u16 limit of 65,535.  The total must account for ALL groups (translated +
-    # original), because every group still occupies space even if untranslated.
-    # Binary search shows cap=1069 is the highest group index where the full Section 2
-    # stays within 65,535 words (cumulative: 65,527).  Groups 1070-1632 (555 translated
-    # messages) are left in their original Japanese to avoid the overflow.
-    R1203_MAX_GROUP = 1069  # last group index that keeps total Section 2 <= 65535 words
+    # The English translation grows Section 2 past the u16 limit of 65,535 words.
+    # The total must account for ALL groups (translated + original), because every
+    # group still occupies space even if untranslated.
+    # The v89 word-wrap fix ADDS 0xFFFE/0xFFD2 break words to every wrapped line,
+    # so the cap had to be re-derived under the new encoding: an EMPIRICAL inject
+    # (build/recon_v89/phase2/r1203_cap.py — binary-searching the REAL injected
+    # Section-2 word count, which includes name-island English label expansion)
+    # shows cap=1016 is now the highest group index keeping the full Section 2
+    # within 65,535 words (injected total: 65,532; group 1017 overflows to 65,556).
+    # The pre-wrap cap of 1069 produced 66,406 words and overflowed.
+    R1203_MAX_GROUP = 1016  # last group index that keeps injected Section 2 <= 65535 words
     if r_id == 1203:
         before = len(encoded_trans)
         encoded_trans = {mi: g for mi, g in encoded_trans.items() if mi <= R1203_MAX_GROUP}
@@ -425,7 +516,10 @@ for script in [
     'tools/patch_r1370.py',
     'tools/patch_r2880.py',
     'tools/patch_r2881_ending.py',
+    'tools/patch_r2882_grave.py',
     'build/inject_r34_db.py',
+    'tools/patch_r2654_names.py',  # romanize party-bar roster names (AFTER inject_r34_db, reads its R2654 output)
+    'tools/patch_r1892_names.py',  # romanize the REAL party-bar name source R1892 (LE roster; R2654 is off the bar's path)
 ]:
     rc = os.system(f'python {script}')
     if rc != 0:

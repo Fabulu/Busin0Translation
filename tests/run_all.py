@@ -21,6 +21,9 @@ import _helpers
 MODULES = [
     "test_sec1_disasm",
     "test_patch_section1",
+    "test_choice_groups",
+    "test_line_width",
+    "test_no_auto_pagebreak",
     "test_pipeline_rules",
     "test_r46_board",
     "test_r39_quests",

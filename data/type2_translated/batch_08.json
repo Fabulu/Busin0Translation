@@ -27,7 +27,7 @@
     "resource": 1212,
     "msg_index": 5,
     "japanese": "レバーはonになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "Lever is ON. / Operate? Yes / No"
+    "english": "Lever is ON. / Operate it? // Yes / No"
   },
   {
     "resource": 1212,
@@ -39,7 +39,7 @@
     "resource": 1212,
     "msg_index": 7,
     "japanese": "レバーはoffになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "Lever is OFF. / Operate? Yes / No"
+    "english": "Lever is OFF. / Operate it? // Yes / No"
   },
   {
     "resource": 1212,
@@ -51,7 +51,7 @@
     "resource": 1212,
     "msg_index": 9,
     "japanese": "レバーはonになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "Lever is ON. / Operate? Yes / No"
+    "english": "Lever is ON. / Operate it? // Yes / No"
   },
   {
     "resource": 1212,
@@ -63,7 +63,7 @@
     "resource": 1212,
     "msg_index": 11,
     "japanese": "レバーはoffになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "Lever is OFF. / Operate? Yes / No"
+    "english": "Lever is OFF. / Operate it? // Yes / No"
   },
   {
     "resource": 1212,
@@ -285,7 +285,7 @@
     "resource": 1212,
     "msg_index": 51,
     "japanese": "ヨッペンを退嫌にしますか？は いいいえ",
-    "english": "Make Yoppen a / companion? Yes / No"
+    "english": "Make Yoppen a / companion? // Yes / No"
   },
   {
     "resource": 1212,
@@ -831,7 +831,7 @@
     "resource": 1212,
     "msg_index": 142,
     "japanese": "どうしますか？向全を受ける  今すぐ入会する 何もしないでおく",
-    "english": "Explanation / Join / Nothing"
+    "english": "What will you do? // Explanation / Join now / Do nothing"
   },
   {
     "resource": 1212,
@@ -1821,19 +1821,19 @@
     "resource": 1212,
     "msg_index": 314,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "1pt draw / Explain / Skip"
+    "english": "What will you do? // Use 1pt / Hear details / Don't draw"
   },
   {
     "resource": 1212,
     "msg_index": 315,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "1/3pt draw / Explain / Skip"
+    "english": "What will you do? // Use 1pt / Use 3pt / Hear details / Don't draw"
   },
   {
     "resource": 1212,
     "msg_index": 316,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]５ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "1/3/5pt draw / Explain / Skip"
+    "english": "What will you do? // Use 1pt / Use 3pt / Use 5pt / Hear details / Don't draw"
   },
   {
     "resource": 1212,
@@ -2337,7 +2337,7 @@
     "resource": 1212,
     "msg_index": 403,
     "japanese": "メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   ",
-    "english": "Buy Dungeon Medal / Buy Special Medal / Equip / Nothing"
+    "english": "Medal Shop Menu // Buy Dungeon Medal / Buy Special Medal / Equip Medal / Nothing"
   },
   {
     "resource": 1212,
@@ -2445,7 +2445,7 @@
     "resource": 1212,
     "msg_index": 424,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special? / (1000g) Yes / No"
+    "english": "Buy Special Medal? / (1000g) // Yes / No"
   },
   {
     "resource": 1212,
@@ -2877,7 +2877,7 @@
     "resource": 1212,
     "msg_index": 499,
     "japanese": "[0444]を開けてみますか？は いいいえ",
-    "english": "Open? Yes / No"
+    "english": "Open the chest? // Yes / No"
   },
   {
     "resource": 1212,
@@ -2925,7 +2925,7 @@
     "resource": 1212,
     "msg_index": 507,
     "japanese": "[0444]を開けてみますか？は いいいえ",
-    "english": "Open? Yes / No"
+    "english": "Open the chest? // Yes / No"
   },
   {
     "resource": 1212,

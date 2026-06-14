@@ -108,35 +108,183 @@ print()
 print("STEP 2: Encoding English text ...")
 
 
+# Control words used in the glyph stream
+LINE_BREAK = 0xFFFE   # ' / '  -> line break within a page
+PAGE_BREAK = 0xFFD2   # ' // ' -> page break (advance to next text page)
+
+# Safety hard-wrap fallback. The authored ' / ' breaks carry the real wrapping;
+# this only kicks in if an individual segment is wider than the narrowest frame
+# (centered narration ~16 glyphs). Segments already <= this are NOT re-wrapped.
+WRAP_FALLBACK = 16
+
+
+def _encode_segment(segment):
+    """Encode a single (already line-broken) text segment, hard-wrapping only
+    if it exceeds WRAP_FALLBACK glyphs."""
+    segment = segment.strip()
+    if not segment:
+        return []
+    return encode_text(segment, max_chars_per_line=WRAP_FALLBACK, max_lines_per_page=3)
+
+
 def clean_and_encode(english_text):
-    """Encode English translation to glyph stream. Uses ' / ' for FFFE line breaks."""
+    """Encode an English translation to a glyph stream.
+
+    Delimiter convention (applied in order):
+      ' // ' -> page break (0xFFD2)
+      ' / '  -> line break (0xFFFE)
+
+    Each resulting segment is hard-wrapped only if it exceeds WRAP_FALLBACK.
+    """
     text = english_text.strip()
     if not text:
         return []
 
-    # Normalize trailing " /" to " / " for clean split
-    if text.endswith(" /"):
+    # Normalize a trailing " /" (no final space) to " / " for a clean split.
+    # (Do not disturb a trailing " //".)
+    if text.endswith(" /") and not text.endswith(" //"):
         text = text + " "
 
-    # If text contains explicit line-break markers, respect them
-    if " / " in text:
-        parts = text.split(" / ")
-        glyphs = []
+    glyphs = []
+    # Split on PAGE breaks first, then LINE breaks within each page.
+    pages = text.split(" // ")
+    for page_i, page in enumerate(pages):
+        page = page.strip()
+        if page_i > 0:
+            glyphs.append(PAGE_BREAK)  # page break between pages
+        if not page:
+            continue
+
+        # Normalize trailing " /" within this page too.
+        if page.endswith(" /"):
+            page = page + " "
+
+        parts = page.split(" / ")
         for pi, part in enumerate(parts):
             part = part.strip()
             if pi > 0:
-                glyphs.append(0xFFFE)  # line break between parts
+                glyphs.append(LINE_BREAK)  # line break between parts
             if not part:
                 continue
-            line_glyphs = encode_text(part, max_chars_per_line=18, max_lines_per_page=3)
-            glyphs.extend(line_glyphs)
-        return glyphs
+            glyphs.extend(_encode_segment(part))
+
+    return glyphs
+
+
+# ---------------------------------------------------------------------------
+# Choice-group (FFC0/FFC1/FFC2...) support
+# ---------------------------------------------------------------------------
+CHOICE_MIN = 0xFFC0
+CHOICE_MAX = 0xFFCF  # FFC0..FFCF reserved for option markers
+
+
+def _is_choice_marker(w):
+    return CHOICE_MIN <= w <= CHOICE_MAX
+
+
+def group_choice_markers(group):
+    """Return the ordered list of choice-marker words (FFC0, FFC1, ...) present
+    in a FFFF-group, in stream order. Empty if this is not a choice group."""
+    return [w for w in group if _is_choice_marker(w)]
+
+
+def split_choice_group(group):
+    """Split a choice FFFF-group into:
+        leading_ctrls, question_words, [(marker, option_words), ...]
+    The question is everything before the first marker; each marker owns the
+    text words up to the next marker (or end of group).
+    """
+    # Leading contiguous controls (>= 0xFB00) at the very start.
+    lead_end = 0
+    for i, g in enumerate(group):
+        if g < 0xFB00:
+            lead_end = i
+            break
     else:
-        # No explicit breaks -- let encode_text handle word wrapping
-        return encode_text(text, max_chars_per_line=18, max_lines_per_page=3)
+        lead_end = len(group)
+    leading = list(group[:lead_end])
+    body = group[lead_end:]
+
+    # First marker position within body.
+    first_marker = None
+    for i, g in enumerate(body):
+        if _is_choice_marker(g):
+            first_marker = i
+            break
+    if first_marker is None:
+        return (leading, list(body), [])
+
+    question = list(body[:first_marker])
+    options = []
+    i = first_marker
+    n = len(body)
+    while i < n:
+        marker = body[i]
+        j = i + 1
+        while j < n and not _is_choice_marker(body[j]):
+            j += 1
+        options.append((marker, list(body[i + 1:j])))
+        i = j
+    return (leading, question, options)
 
 
-encoded_by_res = {}  # resource -> { msg_index: [glyphs] }
+def encode_choice_group(original_group, english_text):
+    """Rebuild a choice group, preserving the original marker sequence and
+    substituting English for the question and each option segment.
+
+    The English convention: split on ' / ' (and ' // '). The LAST N segments
+    (N = number of markers) are the options, one per marker. Everything before
+    them is the question (its internal ' / '/' // ' become FFFE/FFD2 breaks).
+
+    Returns (new_group, None) on success, or (None, reason) to keep original.
+    """
+    leading, _question_old, options_old = split_choice_group(original_group)
+    markers = [m for (m, _txt) in options_old]
+    n_markers = len(markers)
+    if n_markers == 0:
+        return (None, "no choice markers in original group")
+
+    # Split English into segments on the ' / ' delimiter family. Use a sentinel
+    # so ' // ' page breaks survive into the question encoding.
+    text = english_text.strip()
+    if text.endswith(" /") and not text.endswith(" //"):
+        text = text + " "
+    # Tokenize on ' / ' but remember which gaps were ' // ' (page breaks).
+    # Simplest robust approach: split on ' / ' (page breaks ' // ' contain ' / '
+    # so they split too, leaving an empty piece we re-join as a page marker).
+    raw_parts = text.split(" / ")
+    # Reconstruct: a ' // ' produced an empty segment between two parts; mark it.
+    segments = []  # list of (kind, text) where kind in {"text"}
+    # We rebuild question text with explicit delimiters preserved, then let
+    # clean_and_encode handle question wrapping. For options we take plain text.
+    parts = [p.strip() for p in raw_parts]
+
+    if len(parts) < n_markers + 1:
+        return (None,
+                "english has {} ' / ' segments, need >= {} (question + {} options)".format(
+                    len(parts), n_markers + 1, n_markers))
+
+    option_texts = parts[-n_markers:]
+    question_parts = parts[:-n_markers]
+
+    # Re-join question parts with ' / ' and encode through clean_and_encode so
+    # that any ' // ' page breaks the author put in the question are honored.
+    question_str = " / ".join(p for p in question_parts if p != "")
+    question_glyphs = clean_and_encode(question_str) if question_str else []
+
+    new_group = list(leading) + list(question_glyphs)
+    for idx, marker in enumerate(markers):
+        opt_glyphs = _encode_segment(option_texts[idx])
+        new_group.append(marker)
+        new_group.extend(opt_glyphs)
+    return (new_group, None)
+
+
+# Map: resource -> { msg_index: english_text }. We store the raw English string
+# (not pre-encoded glyphs) so inject_resource() can parse choice groups against
+# their original FFC0/FFC1 markers. We still run clean_and_encode here as a
+# validation pass (to surface encode errors / skip empties).
+encoded_by_res = {}  # resource -> { msg_index: english_text }
 errors = 0
 skipped = 0
 
@@ -150,9 +298,9 @@ for (res, msg), entry in trans_map.items():
         continue
 
     try:
-        glyphs = clean_and_encode(eng)
+        glyphs = clean_and_encode(eng)  # validation only
         if glyphs:
-            encoded_by_res.setdefault(res, {})[msg] = glyphs
+            encoded_by_res.setdefault(res, {})[msg] = eng
     except Exception as e:
         errors += 1
         if errors <= 10:
@@ -276,9 +424,11 @@ def inject_resource(res_idx, msg_translations):
     if not groups:
         return (None, "no FFFF groups found in Section 2")
 
-    # Replace translated messages
+    # Replace translated messages. msg_translations maps msg_idx -> english text
+    # (raw string) so that choice groups can be parsed against their markers.
     replaced = 0
-    for msg_idx, eng_glyphs in msg_translations.items():
+    choices = 0
+    for msg_idx, eng_text in msg_translations.items():
         if msg_idx < 0 or msg_idx >= len(groups):
             print("    WARNING: R{} msg_index {} out of range (0..{}), skipping".format(
                 res_idx, msg_idx, len(groups) - 1))
@@ -286,10 +436,25 @@ def inject_resource(res_idx, msg_translations):
 
         original_group = groups[msg_idx]
 
-        # Split into leading controls, text, trailing controls
-        leading, _old_text, trailing = split_control_and_text(original_group)
+        # CHOICE-AWARE PATH: if the ORIGINAL group carries option markers
+        # (FFC0/FFC1/FFC2...), preserve them and substitute English per segment.
+        if group_choice_markers(original_group):
+            new_group, reason = encode_choice_group(original_group, eng_text)
+            if new_group is None:
+                print("    WARNING: R{} msg{} choice group kept untranslated -- {}".format(
+                    res_idx, msg_idx, reason))
+                continue
+            groups[msg_idx] = new_group
+            replaced += 1
+            choices += 1
+            continue
 
-        # Build new group: leading controls + English text + trailing controls
+        # PLAIN PATH: encode the English then splice between leading/trailing
+        # controls, preserving the original control framing.
+        eng_glyphs = clean_and_encode(eng_text)
+        if not eng_glyphs:
+            continue
+        leading, _old_text, trailing = split_control_and_text(original_group)
         new_group = leading + eng_glyphs + trailing
         groups[msg_idx] = new_group
         replaced += 1
@@ -326,10 +491,12 @@ def inject_resource(res_idx, msg_translations):
 
     status_parts = [
         "replaced {}/{}".format(replaced, len(groups)),
+        "({} choice groups)".format(choices) if choices else None,
         "sec2 {}->{}".format(sec2_size, new_sec2_size),
         "({:+d} bytes)".format(size_delta),
         "{}->{} sectors".format(old_sc, sc),
     ]
+    status_parts = [p for p in status_parts if p]
     return (out_name, " ".join(status_parts))
 
 

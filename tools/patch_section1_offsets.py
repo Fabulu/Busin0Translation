@@ -612,6 +612,27 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
         original_group = groups[msg_idx]
         slices = per_group_labels.get(msg_idx)
 
+        # CHOICE-AWARE PATH: if the ORIGINAL group carries option markers
+        # (FFC0/FFC1/FFC2...), preserve them and substitute English per segment.
+        # This takes precedence over name-island handling: a group that is BOTH
+        # a choice and a name-island is treated as a choice (the markers must be
+        # preserved verbatim or every option renders as flat, unselectable
+        # text).  No name_plan entry is created for the group, so patch_section1
+        # falls back to its in-group remapping for any 0x14/0x04 that points at
+        # it (choice groups are normally plain dialogue/menu groups, not name
+        # islands, so this is the safe default).
+        if group_choice_markers(original_group):
+            new_group, reason = encode_choice_group(original_group, eng_glyphs)
+            if new_group is None:
+                print(
+                    "    WARNING: R%d group %d choice group kept untranslated -- %s"
+                    % (res_idx, msg_idx, reason)
+                )
+                continue
+            groups[msg_idx] = new_group
+            replaced += 1
+            continue
+
         if slices:
             prefix_len = _clean_prefix_len(slices)
             if prefix_len is None or prefix_len >= len(original_group):
@@ -653,6 +674,7 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
 
             remainder = original_group[prefix_len:]
             leading, _old_text, trailing = _split_control_and_text(remainder)
+            leading = _strip_leading_var_insert(leading)
             groups[msg_idx] = new_slice_glyphs + leading + eng_glyphs + trailing
             name_plan[msg_idx] = {
                 "old_slices": slices,
@@ -662,6 +684,7 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
             }
         else:
             leading, _old_text, trailing = _split_control_and_text(original_group)
+            leading = _strip_leading_var_insert(leading)
             groups[msg_idx] = leading + eng_glyphs + trailing
         replaced += 1
 
@@ -790,6 +813,32 @@ def _strip_redundant_speaker_prefix(eng_glyphs, label_en):
     return eng_glyphs[pos:]
 
 
+# Variable / number-insertion controls (0xFFF0..0xFFF6).  At runtime FFF0 inserts
+# a bound variable -- in the R1197 narration groups it is the protagonist/party
+# name that originally preceded the JP particle (e.g. "<NAME> went up beside the
+# female knight...").  The decoded JP text used for translation deliberately drops
+# this control, and the English translations fold the subject into the prose
+# ("You went up...", "You handed him...").  Re-emitting the leading FFF0 in front
+# of the English body leaves an UNBOUND variable that renders as a stray glyph
+# placeholder ("AAA") before the narration.  When such a control sits at the very
+# head of a group's leading-control run (with no matching opener inside the group),
+# it is dropped during English injection.  Trailing controls, line/page breaks,
+# choice markers and FF-range openers are NOT touched.
+VAR_INSERT_MIN = 0xFFF0
+VAR_INSERT_MAX = 0xFFF6
+
+
+def _strip_leading_var_insert(leading):
+    """Drop a leading variable/number-insertion control (0xFFF0..0xFFF6) from a
+    group's leading-control run.  Only a run at the very head is removed; any
+    other controls (FF-range color openers, breaks) are preserved verbatim so the
+    color/skeleton state stays intact."""
+    i = 0
+    while i < len(leading) and VAR_INSERT_MIN <= leading[i] <= VAR_INSERT_MAX:
+        i += 1
+    return leading[i:]
+
+
 def _split_control_and_text(group):
     """Split a group into leading controls, text, trailing controls."""
     if not group:
@@ -810,6 +859,198 @@ def _split_control_and_text(group):
             break
 
     return (list(group[:lead_end]), list(group[lead_end:trail_start]), list(group[trail_start:]))
+
+
+# ===============================================================================
+# Choice-group (FFC0/FFC1/FFC2...) support
+# ===============================================================================
+# The game marks selectable choice options with in-stream control words
+# 0xFFC0 (option 1), 0xFFC1 (option 2), 0xFFC2 ... sitting in the MIDDLE of a
+# FFFF-group, each immediately preceding its option text.  Example (R1197
+# group 63, a Yes/No question):
+#     <question glyphs> FFFE FFFE FFC0 <はい> FFFE FFC1 <いいえ>
+# The plain leading/trailing control split discards these mid-group markers,
+# rendering every choice as flat unselectable text.  encode_choice_group()
+# preserves the EXACT original marker words/order and substitutes the injected
+# English per segment.  Logic ported from tools/inject_type2_dialogue.py (which
+# the build does NOT use), adapted to operate on a pre-encoded glyph list rather
+# than a raw English string.
+CHOICE_MIN = 0xFFC0
+CHOICE_MAX = 0xFFCF  # FFC0..FFCF reserved for option markers
+LINE_BREAK = 0xFFFE
+PAGE_BREAK = 0xFFD2
+
+
+def _is_choice_marker(w):
+    return CHOICE_MIN <= w <= CHOICE_MAX
+
+
+def group_choice_markers(group):
+    """Ordered list of choice-marker words (FFC0, FFC1, ...) in stream order.
+    Empty if this is not a choice group."""
+    return [w for w in group if _is_choice_marker(w)]
+
+
+def split_choice_group(group):
+    """Split a choice FFFF-group into (leading_ctrls, question_words, options)
+    where options is [(marker, option_words), ...].  Mirrors
+    inject_type2_dialogue.split_choice_group():
+      * leading = contiguous controls (>= 0xFB00) at the very start
+      * question = everything between the leading controls and the first marker
+      * each marker owns the words up to the next marker (or end of group)
+    """
+    lead_end = 0
+    for i, g in enumerate(group):
+        if g < 0xFB00:
+            lead_end = i
+            break
+    else:
+        lead_end = len(group)
+    leading = list(group[:lead_end])
+    body = list(group[lead_end:])
+
+    first_marker = None
+    for i, g in enumerate(body):
+        if _is_choice_marker(g):
+            first_marker = i
+            break
+    if first_marker is None:
+        return (leading, list(body), [])
+
+    question = list(body[:first_marker])
+    options = []
+    i = first_marker
+    n = len(body)
+    while i < n:
+        marker = body[i]
+        j = i + 1
+        while j < n and not _is_choice_marker(body[j]):
+            j += 1
+        options.append((marker, list(body[i + 1:j])))
+        i = j
+    return (leading, question, options)
+
+
+def encode_choice_group(original_group, eng_glyphs):
+    """Rebuild a choice group, preserving the original marker sequence and
+    substituting the injected English for the question and each option.
+
+    The English glyph list (already encoded by build_v9 Step 4) uses 0xFFFE as
+    the segment separator (and 0xFFD2 for page breaks within the question).  By
+    the data contract, the LAST N 0xFFFE-separated segments are the N options
+    (one per marker, in order); everything before them is the question (its
+    internal 0xFFFE / 0xFFD2 breaks are preserved).
+
+    Returns (new_group, None) on success, or (None, reason) to keep the original
+    group untranslated.
+    """
+    leading, question_old, options_old = split_choice_group(original_group)
+    markers = [m for (m, _txt) in options_old]
+    n_markers = len(markers)
+    if n_markers == 0:
+        return (None, "no choice markers in original group")
+
+    def _ctrl_tail(words):
+        """Return (body_without_tail, trailing_ctrl_run).  The trailing control
+        run is the maximal suffix of words w >= 0xFB00 -- these are the FFFE /
+        FFFE-FFFE line-advance separators that originally preceded the NEXT
+        marker (split_choice_group hands them to the PREVIOUS segment)."""
+        k = len(words)
+        while k > 0 and words[k - 1] >= 0xFB00:
+            k -= 1
+        return (list(words[:k]), list(words[k:]))
+
+    # Capture the original control skeleton: the trailing control run of the
+    # question and of every option body EXCEPT the last (the last option's tail,
+    # if any, would be trailing slack after the final marker -- not a separator).
+    _q_body_old, q_tail = _ctrl_tail(question_old)
+    opt_bodies_old = []
+    opt_tails = []
+    for k, (_m, body) in enumerate(options_old):
+        if k < n_markers - 1:
+            b, t = _ctrl_tail(body)
+        else:
+            # Last option: keep its body verbatim (no following marker to feed).
+            b, t = list(body), []
+        opt_bodies_old.append(b)
+        opt_tails.append(t)
+
+    # ------------------------------------------------------------------
+    # PORTRAIT-OPTION MODE: every original option body consists SOLELY of control
+    # words >= 0xFB00 (e.g. the FFF1..FFF6 portrait selectors of the
+    # fortune-reading N=6 groups), so there is no option STRING to substitute.
+    # Here the English provides ONLY the question.  Re-emit each marker with its
+    # ORIGINAL body verbatim and the captured separators.  Detected BEFORE the
+    # segment-count guard so it does NOT require >= n_markers+1 segments.
+    # NOTE: tested against the FULL original bodies (not the tail-stripped ones)
+    # so the last option -- whose tail we intentionally keep verbatim -- is also
+    # recognised as control-only.
+    # ------------------------------------------------------------------
+    portrait_mode = all(
+        all(w >= 0xFB00 for w in body) for (_m, body) in options_old
+    )
+
+    # Split the incoming English glyph list on ANY break control (0xFFFE line
+    # break OR 0xFFD2 page break).  build_v9 Step 4 auto-promotes every 3rd line
+    # break to a 0xFFD2 page break, so a choice's option separators can arrive as
+    # FFD2 rather than FFFE; treating both as separators keeps the last-N-segments
+    # = options contract robust regardless of where the auto page break lands.
+    segments = []
+    cur = []
+    for g in eng_glyphs:
+        if g == LINE_BREAK or g == PAGE_BREAK:
+            segments.append(cur)
+            cur = []
+        else:
+            cur.append(g)
+    segments.append(cur)
+
+    def _join_question(question_segs):
+        """Join question segments with 0xFFFE, trimming dangling breaks.  The
+        captured q_tail supplies the separator before the first marker, so we do
+        NOT leave a trailing break here (avoids doubling the break)."""
+        qg = []
+        for si, seg in enumerate(question_segs):
+            if si > 0:
+                qg.append(LINE_BREAK)
+            qg.extend(seg)
+        while qg and qg[-1] == LINE_BREAK:
+            qg.pop()
+        while qg and qg[0] == LINE_BREAK:
+            qg.pop(0)
+        return qg
+
+    if portrait_mode:
+        # ALL English segments are the question; markers + original bodies stay.
+        question_glyphs = _join_question(segments)
+        new_group = list(leading) + list(question_glyphs) + list(q_tail)
+        for idx, marker in enumerate(markers):
+            new_group.append(marker)
+            new_group.extend(opt_bodies_old[idx])
+            new_group.extend(opt_tails[idx])
+    else:
+        if len(segments) < n_markers + 1:
+            return (None,
+                    "english has %d 0xFFFE segments, need >= %d "
+                    "(question + %d options)"
+                    % (len(segments), n_markers + 1, n_markers))
+
+        option_segs = segments[-n_markers:]
+        question_segs = segments[:-n_markers]
+        question_glyphs = _join_question(question_segs)
+
+        # Re-insert the captured original control run BEFORE each marker: the
+        # question's tail before FFC0, option k's tail before FFC(k+1).
+        new_group = list(leading) + list(question_glyphs) + list(q_tail)
+        for idx, marker in enumerate(markers):
+            new_group.append(marker)
+            new_group.extend(option_segs[idx])
+            new_group.extend(opt_tails[idx])
+
+    # Tripwire: the marker set/order MUST be byte-identical to the original.
+    if [w for w in new_group if _is_choice_marker(w)] != markers:
+        return (None, "marker-set-mismatch")
+    return (new_group, None)
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+{
+  "_comment": "R2882 sub7 — pre-rendered GRAVE/tombstone cutscene narration page (256x256 PSMT4, pixel blob at file offset 644368, 32768 bytes, inverted ramp bg index 15 / ink index 0). A 7-line CENTERED poetic narration (no UV-window split — every line is one centered run, verified text-only on uniform bg). English follows the JP poem 人の子が魔に対峙する代償 / それは命の灯火 / だから / 私が生まれたのに / 眠りなさい / 永遠に開けることのない / 闇の中で…, sized 18px bold to fit the 256px page (all lines <=248px, measured via tools/strip_patcher.load_font). Patched by tools/patch_r2882_grave.py (centered clone of patch_r2880.py).",
+  "texture": {
+    "file": "extracted/packdata_raw/2882_type09.raw",
+    "pixel_off": 644368,
+    "pixel_size": 32768,
+    "tex_w": 256,
+    "tex_h": 256,
+    "bw_psmt4": 256,
+    "dbw_ct32": 128,
+    "bg_index": 15,
+    "ink_index": 0
+  },
+  "layout": {
+    "line_tops": [4, 36, 72, 100, 133, 163, 196],
+    "band_height": 23,
+    "clear_region": [0, 0, 256, 224],
+    "font_size": 18,
+    "max_line_width": 248
+  },
+  "lines": [
+    {"jp": "人の子が魔に対峙する代償", "en": "Man's price to face the dark"},
+    {"jp": "それは命の灯火", "en": "is the flame of his own life."},
+    {"jp": "だから", "en": "And so,"},
+    {"jp": "私が生まれたのに", "en": "though I was given life,"},
+    {"jp": "眠りなさい", "en": "now sleep,"},
+    {"jp": "永遠に開けることのない", "en": "in the dark that never opens,"},
+    {"jp": "闇の中で…", "en": "for all eternity..."}
+  ]
+}

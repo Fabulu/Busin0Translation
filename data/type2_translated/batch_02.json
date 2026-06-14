@@ -783,7 +783,7 @@
     "resource": 1199,
     "msg_index": 137,
     "japanese": "一兜[0487][042C]を見たいですか？見たい  見たくない",
-    "english": "Wanna see the / spectacle? / Yes    No"
+    "english": "Wanna see the spectacle? / Yes / No"
   },
   {
     "resource": 1199,
@@ -855,7 +855,7 @@
     "resource": 1199,
     "msg_index": 149,
     "japanese": "振[0487]を渡しますか？１００g渡す ５００g渡す １０００g渡す渡さない   ",
-    "english": "Give money? / 100g  500g / 1000g  No"
+    "english": "Give money? / 100g / 500g / 1000g / No"
   },
   {
     "resource": 1199,
@@ -2247,7 +2247,7 @@
     "resource": 1200,
     "msg_index": 137,
     "japanese": "フーケ開[0343]を高びますか？は いいいえ",
-    "english": "Fouquet: Call the / priest? / Yes    No"
+    "english": "Fouquet: Call the priest? / Yes / No"
   },
   {
     "resource": 1200,
@@ -2271,7 +2271,7 @@
     "resource": 1200,
     "msg_index": 141,
     "japanese": "[056B][046D]はよろしいですか？は いいいえ",
-    "english": "Are you ready? / Yes    No"
+    "english": "Are you ready? / Yes / No"
   },
   {
     "resource": 1200,
@@ -2427,7 +2427,7 @@
     "resource": 1200,
     "msg_index": 169,
     "japanese": "開[0343]は何も言わず種っている。     ただ[0170]瓶へリーダーを運くよう     力で気し悔している。         a[000E][0170]瓶に瓶らせる          b[000E][0170]瓶に[0464]かせる          c[000E][0170]瓶の忍に御らせる        ",
-    "english": "The priest waits / silently, pointing / to the bed. / a: Lay on the bed / b: Seat on the bed / c: Lean against bed"
+    "english": "The priest waits silently, pointing to the bed. // Lay on the bed / Sit on the bed / Lean against the bed"
   },
   {
     "resource": 1200,
@@ -3195,7 +3195,7 @@
     "resource": 1201,
     "msg_index": 46,
     "japanese": "コンデを退嫌にして能しいと言っている申し出を受ける[0474]る     ",
-    "english": "She wants Konde / as your companion. / Accept    Decline"
+    "english": "She wants Konde as your companion. / Accept / Decline"
   },
   {
     "resource": 1201,
@@ -3657,7 +3657,7 @@
     "resource": 1201,
     "msg_index": 124,
     "japanese": "近正チケット持っていますが度いますか？は いいいえ",
-    "english": "Use Lodging Ticket? / Yes    No"
+    "english": "Use Lodging Ticket? / Yes / No"
   },
   {
     "resource": 1201,
@@ -4311,7 +4311,7 @@
     "resource": 1202,
     "msg_index": 64,
     "japanese": "なまえを、おしえてください！[018A]銀る  [018A]銀らない",
-    "english": "Please tell me / your name! / Tell    Don't tell"
+    "english": "Please tell me your name! / Tell / Don't tell"
   },
   {
     "resource": 1202,
@@ -4365,7 +4365,7 @@
     "resource": 1202,
     "msg_index": 75,
     "japanese": "ごしょくぎょうは！？役える 役えない",
-    "english": "What's your job? / Tell    Don't tell"
+    "english": "What's your job? / Tell / Don't tell"
   },
   {
     "resource": 1202,
@@ -4413,7 +4413,7 @@
     "resource": 1202,
     "msg_index": 85,
     "japanese": "ここで、はたらこうとおもったりゆうはなんですか！？[0190]器を言う  [0190]器を言わない",
-    "english": "Why do you want / to work here? / Tell    Don't tell"
+    "english": "Why do you want to work here? / Tell / Don't tell"
   },
   {
     "resource": 1202,

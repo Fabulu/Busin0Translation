@@ -109,21 +109,21 @@ def _enc_char(ch):
 
 def encode_group_text(en_text):
     """
-    Encode a ' / '-separated dialogue translation exactly like build_v9 Step 4/5:
-    ' / ' -> 0xFFFE line break, with 0xFFD2 (page break) every 3rd break.
+    Encode a ' / '-separated dialogue translation exactly like build_v9 Step 4:
+    ' / ' -> 0xFFFE line break, ' // ' -> 0xFFD2 page break.  NEVER auto-insert
+    a 0xFFD2 — the centered-narration renderer does not paginate on a mid-message
+    page break (it draws the following text inline, the v90 fat-gap regression);
+    pristine narration groups use only 0xFFFE.  Author ' // ' for a real break.
     """
     glyphs = []
-    line_count = 0
-    for pi, part in enumerate(en_text.split(" / ")):
-        if pi > 0:
-            line_count += 1
-            if line_count >= 3:
-                glyphs.append(0xFFD2)
-                line_count = 0
-            else:
-                glyphs.append(0xFFFE)
-        for ch in part:
-            glyphs.append(_enc_char(ch))
+    for page_i, page in enumerate(en_text.split(" // ")):
+        if page_i > 0:
+            glyphs.append(0xFFD2)  # explicit page break from " // "
+        for pi, part in enumerate(page.split(" / ")):
+            if pi > 0:
+                glyphs.append(0xFFFE)  # line break from " / "
+            for ch in part:
+                glyphs.append(_enc_char(ch))
     return glyphs
 
 

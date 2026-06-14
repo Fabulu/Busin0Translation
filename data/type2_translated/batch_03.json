@@ -1191,19 +1191,19 @@
     "resource": 1203,
     "msg_index": 205,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "Options: 1 pt / Explanation / Don't draw"
+    "english": "How will you draw? / 1 point / Explanation / Don't draw"
   },
   {
     "resource": 1203,
     "msg_index": 206,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "Options: 1 pt / 3 pts / Explanation / Don't draw"
+    "english": "How will you draw? / 1 point / 3 points / Explanation / Don't draw"
   },
   {
     "resource": 1203,
     "msg_index": 207,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]５ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "Options: 1 pt / 3 pts / 5 pts / Explanation / Don't draw"
+    "english": "How will you draw? / 1 point / 3 points / 5 points / Explanation / Don't draw"
   },
   {
     "resource": 1203,

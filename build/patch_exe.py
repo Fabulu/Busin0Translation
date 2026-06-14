@@ -246,23 +246,43 @@ def main():
         else:
             print(f"  WARN 0x{abs_off:06X}: {label} (expected {old_val}, got {cur})")
 
-    # ─── PATCH 6: NOP the RenderAllTiles call in chargen ─────────────
-    # System 2 draws kanji font tiles ON TOP of System 1's English text,
-    # hiding the translated stat labels. NOP the single JAL 0x30B840 call
-    # at VA 0x2F2568 (file offset 0x1F25E8) to disable the kanji overlay.
-    # This is the ONLY call to RenderAllTiles in the entire EXE.
-    print("\n--- Patch 6: NOP chargen RenderAllTiles (System 2 kanji overlay) ---")
-    ren_off = 0x1F25E8
-    expected_jal = struct.pack("<I", 0x0C0C2E10)  # JAL 0x30B840
-    actual = data[ren_off:ren_off+4]
-    if actual == expected_jal:
-        struct.pack_into("<I", data, ren_off, 0x00000000)  # NOP
-        print(f"  OK   0x{ren_off:06X}: JAL 0x30B840 -> NOP")
-        patched_count += 1
-    elif actual == b'\x00\x00\x00\x00':
-        print(f"  SKIP 0x{ren_off:06X}: already NOP'd")
+    # ─── PATCH 6: Mode-gated RenderAllTiles trampoline ────────────────
+    # (chargen kanji hidden, PORTRAITS PRESERVED)
+    # RenderAllTiles (VA 0x30B840) is the universal System-2 tile renderer: it
+    # draws BOTH the chargen kanji overlay AND every scene/dialogue PORTRAIT, via
+    # the shared per-frame dispatcher 0x2F2490 (screen mode 5=chargen / 7=scene /
+    # 8=dungeon-combat).  The OLD blanket NOP of its ONLY call (JAL 0x30B840 @
+    # VA 0x2F2568 / file 0x1F25E8) hid the kanji but COLLATERALLY KILLED ALL
+    # PORTRAITS (user-confirmed: reverting the NOP restores them).  Instead we
+    # route the call through a trampoline in the code cave at VA 0x4B0DD0 (file
+    # 0x3B0E50; 6688 zero bytes, no inbound refs) that reads the master screen-
+    # mode global gp-0x62d8 (RAM 0x4FED18; the EXE itself compares it to ==8 at
+    # VA 0x2F2270) and SKIPS RenderAllTiles ONLY when mode==5 (every chargen
+    # sub-screen), tail-calling it via `j` (preserving $ra) for every other
+    # frame.  Net: chargen kanji still hidden; portraits render everywhere else.
+    # Trampoline (VA 0x4B0DD0): lbu $v0,-0x62d8($gp); addiu $at,$zero,5;
+    #   beq $v0,$at,0x4B0DE8; nop; j 0x30B840; nop; jr $ra; nop.
+    print("\n--- Patch 6: Mode-gated RenderAllTiles trampoline (portraits + clean chargen) ---")
+    SITE = 0x1F25E8                       # JAL 0x30B840 (VA 0x2F2568)
+    CAVE = 0x3B0E50                       # code cave (VA 0x4B0DD0)
+    JAL_RAT = struct.pack("<I", 0x0C0C2E10)   # original JAL 0x30B840
+    JAL_CAVE = 0x0C12C374                      # JAL 0x4B0DD0 (to trampoline)
+    NOP4 = b"\x00\x00\x00\x00"
+    TRAMP = bytes.fromhex(
+        "289d8293" "05000124" "03004110" "00000000"
+        "102e0c08" "00000000" "0800e003" "00000000")
+    site = bytes(data[SITE:SITE + 4])
+    cave = bytes(data[CAVE:CAVE + len(TRAMP)])
+    if site not in (JAL_RAT, NOP4, struct.pack("<I", JAL_CAVE)):
+        print(f"  WARN 0x{SITE:06X}: expected JAL 0x30B840 / NOP / JAL-cave, got {site.hex()}")
+    elif cave != b"\x00" * len(TRAMP) and cave != TRAMP:
+        print(f"  WARN 0x{CAVE:06X}: code cave not zero/trampoline ({cave[:8].hex()}...) — Patch 6 SKIPPED")
     else:
-        print(f"  WARN 0x{ren_off:06X}: expected JAL 0x30B840 ({expected_jal.hex()}), got {actual.hex()}")
+        data[CAVE:CAVE + len(TRAMP)] = TRAMP
+        struct.pack_into("<I", data, SITE, JAL_CAVE)
+        print(f"  OK   0x{CAVE:06X}: 32-byte mode-gate trampoline (skip RenderAllTiles iff mode==5)")
+        print(f"  OK   0x{SITE:06X}: JAL 0x30B840 -> JAL 0x4B0DD0 (trampoline)")
+        patched_count += 1
 
     # ─── PATCH 7: Chargen gender glyph IDs (男/女 -> ♂/♀) ──────────────
     # The chargen parameter table has hardcoded glyph IDs for gender display.
@@ -369,6 +389,26 @@ def main():
         print(f"  SKIP 0x{page0_off:06X}: already patched")
     else:
         print(f"  WARN 0x{page0_off:06X}: expected 9, got {data[page0_off]}")
+
+    # ─── PATCH 11: Dialogue line-pitch smoosh (24px -> 18px) ───────────
+    # The boxed-dialogue text renderer advances the per-line Y cursor by a
+    # hardcoded 24px: `addiu $v0,$v0,0x18` at VA 0x3079DC (file 0x207A5C).
+    # English wraps to more lines than the JP original, so at 24px a 4th line
+    # clips and a 5th overflows the fixed ~103px box. Tighten the pitch to
+    # 18px so 4 lines fit comfortably (the user's "smoosh it a little"). This
+    # is the DIALOGUE pitch ONLY -- do NOT touch the narration/menu pitch
+    # constants at 0x2087F0 / 0x208D30 / 0x209824.
+    print("\n--- Patch 11: Dialogue line-pitch smoosh (24 -> 18 px) ---")
+    pitch_off = 0x207A5C
+    pitch_word = struct.unpack_from("<I", data, pitch_off)[0]
+    if pitch_word == 0x24420018:  # addiu v0,v0,0x18
+        data[pitch_off] = 0x12     # 0x18 -> 0x12 (low byte of the immediate)
+        print(f"  OK   0x{pitch_off:06X}: addiu v0,v0,24 -> 18")
+        patched_count += 1
+    elif pitch_word == 0x24420012:
+        print(f"  SKIP 0x{pitch_off:06X}: already smooshed")
+    else:
+        print(f"  WARN 0x{pitch_off:06X}: expected 0x24420018, got 0x{pitch_word:08X}")
 
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)

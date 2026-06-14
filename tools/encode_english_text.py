@@ -4,8 +4,15 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 # Load glyph table
 table = json.load(open("data/english_glyph_table.json", encoding="utf-8"))
 
-def encode_text(english_text, max_chars_per_line=18, max_lines_per_page=3):
-    """Encode English text to BE uint16 glyph stream with word wrapping."""
+def encode_text(english_text, max_chars_per_line=16, max_lines_per_page=3):
+    """Encode English text to BE uint16 glyph stream with word wrapping.
+
+    max_chars_per_line is a SAFETY HARD-WRAP fallback. The default of 16 fits
+    the narrowest (centered-narration) frame. Callers that have authored
+    explicit ' / ' breaks should pass each pre-broken segment in separately so
+    that segments already within the fallback are NOT force-rewrapped; only a
+    segment that genuinely exceeds the fallback is hard-wrapped here.
+    """
     words = english_text.replace("\n", " ").split()
     
     glyphs = []

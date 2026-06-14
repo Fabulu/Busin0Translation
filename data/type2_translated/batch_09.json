@@ -27,7 +27,7 @@
     "resource": 1353,
     "msg_index": 5,
     "japanese": "レバーはonになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "Lever is ON. / Operate? Yes / No"
+    "english": "Lever is ON. Operate it? // Yes / No"
   },
   {
     "resource": 1353,
@@ -39,7 +39,7 @@
     "resource": 1353,
     "msg_index": 7,
     "japanese": "レバーはoffになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "Lever is OFF. / Operate? Yes / No"
+    "english": "Lever is OFF. Operate it? // Yes / No"
   },
   {
     "resource": 1353,
@@ -51,7 +51,7 @@
     "resource": 1353,
     "msg_index": 9,
     "japanese": "レバーはonになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "Lever is ON. / Operate? Yes / No"
+    "english": "Lever is ON. Operate it? // Yes / No"
   },
   {
     "resource": 1353,
@@ -63,7 +63,7 @@
     "resource": 1353,
     "msg_index": 11,
     "japanese": "レバーはoffになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "Lever is OFF. / Operate? Yes / No"
+    "english": "Lever is OFF. Operate it? // Yes / No"
   },
   {
     "resource": 1353,
@@ -285,7 +285,7 @@
     "resource": 1353,
     "msg_index": 51,
     "japanese": "ヨッペンを退嫌にしますか？は いいいえ",
-    "english": "Make Yoppen a / companion? Yes / No"
+    "english": "Make Yoppen a companion? // Yes / No"
   },
   {
     "resource": 1353,
@@ -825,7 +825,7 @@
     "resource": 1353,
     "msg_index": 142,
     "japanese": "どうしますか？向全を受ける  今すぐ入会する 何もしないでおく",
-    "english": "Explanation / Join / Nothing"
+    "english": "What will you do? / Hear the explanation / Join now / Do nothing"
   },
   {
     "resource": 1353,
@@ -1167,7 +1167,7 @@
     "resource": 1353,
     "msg_index": 204,
     "japanese": "過を働ってもらいますか？",
-    "english": "Whose fortune?"
+    "english": "Whose fortune shall I read?"
   },
   {
     "resource": 1353,
@@ -1803,19 +1803,19 @@
     "resource": 1353,
     "msg_index": 313,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "1pt draw / Explain / Skip"
+    "english": "How will you draw? / Draw 1 point / Hear the explanation / Don't draw"
   },
   {
     "resource": 1353,
     "msg_index": 314,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "1/3pt draw / Explain / Skip"
+    "english": "How will you draw? / Draw 1 point / Draw 3 points / Hear the explanation / Don't draw"
   },
   {
     "resource": 1353,
     "msg_index": 315,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]５ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "1/3/5pt draw / Explain / Skip"
+    "english": "How will you draw? / Draw 1 point / Draw 3 points / Draw 5 points / Hear the explanation / Don't draw"
   },
   {
     "resource": 1353,
@@ -2325,7 +2325,7 @@
     "resource": 1353,
     "msg_index": 403,
     "japanese": "メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   ",
-    "english": "Buy Dungeon Medal / Buy Special Medal / Equip / Nothing"
+    "english": "Medal Shop Menu / Buy Dungeon Medal / Buy Special Medal / Exchange Medal / Do nothing"
   },
   {
     "resource": 1353,
@@ -2433,7 +2433,7 @@
     "resource": 1353,
     "msg_index": 424,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special? / (1000g) Yes / No"
+    "english": "Buy Special? (1000g) // Yes / No"
   },
   {
     "resource": 1353,
@@ -2829,7 +2829,7 @@
     "resource": 1353,
     "msg_index": 493,
     "japanese": "[0444]を開けてみますか？は いいいえ",
-    "english": "Open? Yes / No"
+    "english": "Open the bag? // Yes / No"
   },
   {
     "resource": 1353,
@@ -2877,7 +2877,7 @@
     "resource": 1353,
     "msg_index": 501,
     "japanese": "[0444]を開けてみますか？は いいいえ",
-    "english": "Open? Yes / No"
+    "english": "Open the bag? // Yes / No"
   },
   {
     "resource": 1353,
@@ -3783,7 +3783,7 @@
     "resource": 1354,
     "msg_index": 0,
     "japanese": "[01E8]嫌へと通されたは、ウェブスター卿に出上えられた。",
-    "english": "You were led to / the audience hall / and greeted by / Lord Webster."
+    "english": "You were led to / the audience / hall and greeted / by Lord Webster."
   },
   {
     "resource": 1354,
@@ -3825,7 +3825,7 @@
     "resource": 1354,
     "msg_index": 7,
     "japanese": "ウェブスター卿がを息王のところに[0455]長しようとしたその時、",
-    "english": "Just as Webster / was about to lead / you to the king--"
+    "english": "Just as Webster / was about to / lead you to the / king--"
   },
   {
     "resource": 1354,
@@ -3837,25 +3837,25 @@
     "resource": 1354,
     "msg_index": 9,
     "japanese": "イはるか[0460]奉美両、セポイの王はこう言ったゴ",
-    "english": "\"500 years ago, / the King of Sepoi / said this:\""
+    "english": "\"500 years ago, / the King of / Sepoi said / this:\""
   },
   {
     "resource": 1354,
     "msg_index": 10,
     "japanese": "イ値色の生きている嫌に[05B6]今へと男を[03D6]り、用兜[0416]を立[03CF]に入れるとゴ",
-    "english": "\"He would send his / army east and take / a continent in / his lifetime.\""
+    "english": "\"He would send / his army east / and take a / continent in his // lifetime.\""
   },
   {
     "resource": 1354,
     "msg_index": 11,
     "japanese": "イ探かに[01DD]築だったであろう。その罰の美に[04A2][05B7]もの男帰が変されていなければなゴ",
-    "english": "\"It would have been / possible, if not / for the hundred / thousand dead.\""
+    "english": "\"It would have / been possible, / if not for the / hundred thousand // dead.\""
   },
   {
     "resource": 1354,
     "msg_index": 12,
     "japanese": "[01C5]交いマントに腕を持んだ[04FC]者が、男帰の持限を後り該って多づいてきている。",
-    "english": "An old man in a / filthy cloak came / closer, shaking off / the knights."
+    "english": "An old man in a / filthy cloak / came closer, / shaking off the // knights."
   },
   {
     "resource": 1354,
@@ -3885,7 +3885,7 @@
     "resource": 1354,
     "msg_index": 17,
     "japanese": "イかまわぬ、通してやれ ゴ",
-    "english": "\"Let him through.\""
+    "english": "\"Let him / through.\""
   },
   {
     "resource": 1354,
@@ -4107,7 +4107,7 @@
     "resource": 1354,
     "msg_index": 54,
     "japanese": "魔運解ウェズベルと息王のやりとりを回めていたウェブスター卿が、いぶかしい[0390][016A]を呪かべ多復ってきた。",
-    "english": "Webster, who had / watched the / exchange, approached / with a puzzled / look."
+    "english": "Webster, who had / watched the / exchange, / approached with // a puzzled look."
   },
   {
     "resource": 1354,
@@ -4143,7 +4143,7 @@
     "resource": 1354,
     "msg_index": 60,
     "japanese": "オルトルード息王はから気[03C4]を受け取り、それが王女の気[03C4]だと探索した。",
-    "english": "King Ortrud took / the ring from you / and confirmed it / was the princess'."
+    "english": "King Ortrud took / the ring from / you and / confirmed it was // the princess'."
   },
   {
     "resource": 1354,
@@ -4461,7 +4461,7 @@
     "resource": 1354,
     "msg_index": 115,
     "japanese": "[0362]着きの者がの両に、まばゆく険る剣[0600]を差し出した。",
-    "english": "An attendant held / out a shining / crossbow."
+    "english": "An attendant / held out a / shining / crossbow."
   },
   {
     "resource": 1354,
@@ -4677,13 +4677,13 @@
     "resource": 1354,
     "msg_index": 152,
     "japanese": "城の中へと入ったは、会衛足のような剣部りの街所へと通された。",
-    "english": "Inside the castle, / you were led to / a room resembling / a study."
+    "english": "Inside the / castle, you were / led to a room / resembling a // study."
   },
   {
     "resource": 1354,
     "msg_index": 153,
     "japanese": "力入れの行き十いた街所であるが、捷入には謝はなく、タペストリーもテーブルクロスも辺い取りっ[0141]のない住情な街所である。",
-    "english": "Well-furnished, / but practical-- / no decorations, / plain tapestries / and tablecloths."
+    "english": "Well-furnished, / but practical-- / no decorations, / plain tapestries // and tablecloths."
   },
   {
     "resource": 1354,
@@ -4695,13 +4695,13 @@
     "resource": 1354,
     "msg_index": 155,
     "japanese": "ベルグラーノは書増の却と扱いビロードの間さな持みを、テーブルの外に[0175]いた。",
-    "english": "Belgradno laid a / velvet pouch and / documents on / the table."
+    "english": "Belgradno laid a / velvet pouch and / documents on the / table."
   },
   {
     "resource": 1354,
     "msg_index": 156,
     "japanese": "扱いビロードの中腕は大全だが、書増は息王態が[01D7]された[03FE][03FD]書や[0268][0197]書などであった。",
-    "english": "The velvet was / expensive, but / the documents / bore the royal / seal--contracts / and reports."
+    "english": "The velvet was / expensive, but / the documents / bore the royal // seal--contracts / and reports."
   },
   {
     "resource": 1354,
@@ -4761,7 +4761,7 @@
     "resource": 1354,
     "msg_index": 166,
     "japanese": "転が抜れたのは、追美両のあの地、オリアーナ王女とウェブスター卿の[0429]民[042C][0432]だった。",
-    "english": "It was six months / ago, at Princess / Oriana and Lord / Webster's / engagement."
+    "english": "It was six / months ago, at / Princess Oriana / and Lord // Webster's / engagement."
   },
   {
     "resource": 1354,
@@ -4773,7 +4773,7 @@
     "resource": 1354,
     "msg_index": 168,
     "japanese": "扱くきらめく[041F]を持った[0438]が、オルトルード息王の両に級み出た。",
-    "english": "A woman with / dark, shining eyes / approached King / Ortrud."
+    "english": "A woman with / dark, shining / eyes approached / King Ortrud."
   },
   {
     "resource": 1354,
@@ -4791,19 +4791,19 @@
     "resource": 1354,
     "msg_index": 171,
     "japanese": "過もがその下るべき[018A]を知っていた。大[028E]の[01BA]を持ち、脱唱の王集を[0408][0437]に[0424]れた魔女の[018A]両だった。",
-    "english": "Everyone knew / that fearsome / name. The witch / who brought many / kingdoms to ruin."
+    "english": "Everyone knew / that fearsome / name. The witch / who brought many // kingdoms to / ruin."
   },
   {
     "resource": 1354,
     "msg_index": 172,
     "japanese": "イ何しに帰たとは[03C3]たいお言[0387]！！ゴイお両の板くを過が強むゴイ[0436]忍、あの時の民却をお[01C7]れに？[036A]いを聞いていただければ、余はすぐにでも待ち防りますゴ",
-    "english": "\"What brings you?\" / \"Everyone awaits.\" / \"Your Majesty, / remember your / promise?\""
+    "english": "\"What brings / you?\" \"Everyone / awaits.\" \"Your / Majesty, // remember your / promise?\""
   },
   {
     "resource": 1354,
     "msg_index": 173,
     "japanese": "イ！言え、なにが強みだゴイ申し外げます、余の強みはこの息、ドゥーハン王息を暗強いたしますゴ",
-    "english": "\"Speak! What do / you want?\" / \"This kingdom, / Duhan itself.\""
+    "english": "\"Speak! What do / you want?\" \"This / kingdom, Duhan / itself.\""
   },
   {
     "resource": 1354,
@@ -4815,13 +4815,13 @@
     "resource": 1354,
     "msg_index": 175,
     "japanese": "イこのドゥーハンが能しいだと？ゴイええゴイ何[01BC]、[0141]は探かか？ゴイ余は役目を言っているだけですゴ",
-    "english": "\"You want Duhan?\" / \"Yes.\" / \"Insane?\" / \"I speak my heart.\""
+    "english": "\"You want / Duhan?\" \"Yes.\" / \"Insane?\" \"I / speak my heart.\""
   },
   {
     "resource": 1354,
     "msg_index": 176,
     "japanese": "あわただしく男帰達が多づいてきた。",
-    "english": "Soldiers rushed / toward the witch."
+    "english": "Soldiers rushed / toward the / witch."
   },
   {
     "resource": 1354,
@@ -4833,13 +4833,13 @@
     "resource": 1354,
     "msg_index": 178,
     "japanese": "イこれが、[0362][02EC]え？ゴイそう思ってくれて敏余だゴ",
-    "english": "\"Is that your / answer?\" / \"Think as you / wish.\""
+    "english": "\"Is that your / answer?\" \"Think / as you wish.\""
   },
   {
     "resource": 1354,
     "msg_index": 179,
     "japanese": "イいいわ、なら[0408]びのをを王みなさい。雇言してあげる、あなたの腕[02A1]は待ち[0435]れ、殿忍は[03C3]たき[0423]となるゴ",
-    "english": "\"Then walk the / path of ruin. / Your body shall / wither, you shall / be a wreck.\""
+    "english": "\"Then walk the / path of ruin. / Your body shall / wither, you // shall be a / wreck.\""
   },
   {
     "resource": 1354,
@@ -4851,7 +4851,7 @@
     "resource": 1354,
     "msg_index": 181,
     "japanese": "それからしばらくしてからである、王集に地神の[042A]いが[042E]ったのは。者神は[0422]し合った、あの魔女が[041A]いをかけたのだと。",
-    "english": "Soon after, / disasters plagued / the royal line. / The witch had / cursed the king."
+    "english": "Soon after, / disasters / plagued the / royal line. The // witch had cursed / the king."
   },
   {
     "resource": 1354,
@@ -4881,7 +4881,7 @@
     "resource": 1354,
     "msg_index": 186,
     "japanese": "討伐隊に参加するは いいいえ",
-    "english": "Join the strike / force? Yes / No"
+    "english": "Join the strike force? // Yes / No"
   },
   {
     "resource": 1354,
@@ -4923,7 +4923,7 @@
     "resource": 1354,
     "msg_index": 193,
     "japanese": "討伐隊に参加するは いいいえ",
-    "english": "Join the strike / force? Yes / No"
+    "english": "Join the strike force? // Yes / No"
   },
   {
     "resource": 1354,
@@ -5043,7 +5043,7 @@
     "resource": 1354,
     "msg_index": 214,
     "japanese": "器の中から[0437]棒のようなひとつの[0453]が呪かび外がった。高者街隊の長ゼルであった。",
-    "english": "A figure emerged / from the shadows-- / Zel, head of the / ninja unit."
+    "english": "A figure emerged / from the / shadows-- Zel, / head of the // ninja unit."
   },
   {
     "resource": 1354,
@@ -5085,7 +5085,7 @@
     "resource": 1354,
     "msg_index": 222,
     "japanese": "ゼルはそう言って短く野[0368]をしたが、その[03C3]たい[0390][016A]からはいかなる感[016A]も獲み取れない。",
-    "english": "Zel gave a brief / nod, but his / cold expression / revealed nothing."
+    "english": "Zel gave a brief / nod, but his / cold expression / revealed // nothing."
   },
   {
     "resource": 1354,
@@ -5139,13 +5139,13 @@
     "resource": 1354,
     "msg_index": 232,
     "japanese": "応発の違が鑑く取れ込め、関[0141]を[0283]んだ器が盗を番っていた。",
-    "english": "Heavy fog hung / low, and the / town was shrouded / in silence."
+    "english": "Heavy fog hung / low, and the / town was / shrouded in // silence."
   },
   {
     "resource": 1354,
     "msg_index": 233,
     "japanese": "を行く者の良も見えない。属すら功きを限め、物系一つなく、盗用[02A1]がしんと鎧まり大っている。",
-    "english": "Not a soul in / sight. Even the / wind had stopped. / The town was / deathly still."
+    "english": "Not a soul in / sight. Even the / wind had / stopped. The // town was deathly / still."
   },
   {
     "resource": 1354,
@@ -5181,7 +5181,7 @@
     "resource": 1354,
     "msg_index": 239,
     "japanese": "集の[04FA]はボサボサ、[036E]は暗神安れ、[04B0]休った野は[0532][0440]が合わず、顔は[0425][0402]でこわばっている。",
-    "english": "Hair unkempt, / clothes filthy, / eyes unfocused, / face twisted / in terror."
+    "english": "Hair unkempt, / clothes filthy, / eyes unfocused, / face twisted in // terror."
   },
   {
     "resource": 1354,
@@ -5211,7 +5211,7 @@
     "resource": 1354,
     "msg_index": 244,
     "japanese": "与は[01C5]ら多いを呪かべ、をにらみつけた。",
-    "english": "The man forced / a grin and / glared at you."
+    "english": "The man forced a / grin and glared / at you."
   },
   {
     "resource": 1354,
@@ -5283,13 +5283,13 @@
     "resource": 1354,
     "msg_index": 256,
     "japanese": "ヒステリックな多い声が盗中に経き渡る。",
-    "english": "His hysterical / laughter echoed / through the town."
+    "english": "His hysterical / laughter echoed / through the / town."
   },
   {
     "resource": 1354,
     "msg_index": 257,
     "japanese": "与はひざを怖り、[04B5]をかかえながら多っていた。",
-    "english": "The man knelt, / clutching his / stomach, laughing."
+    "english": "The man knelt, / clutching his / stomach, / laughing."
   },
   {
     "resource": 1354,
@@ -5409,13 +5409,13 @@
     "resource": 1354,
     "msg_index": 278,
     "japanese": "応発の違が鑑く取れ込め、関[0141]を[0283]んだ器が盗を番っていた。",
-    "english": "Heavy fog hung / low, and the / town was shrouded / in silence."
+    "english": "Heavy fog hung / low, and the / town was / shrouded in // silence."
   },
   {
     "resource": 1354,
     "msg_index": 279,
     "japanese": "を行く者の良も見えない。属すら功きを限め、物系一つなく、盗用[02A1]がしんと鎧まり大っている。",
-    "english": "Not a soul in / sight. Even the / wind had stopped. / The town was / deathly still."
+    "english": "Not a soul in / sight. Even the / wind had / stopped. The // town was deathly / still."
   },
   {
     "resource": 1354,
@@ -5439,13 +5439,13 @@
     "resource": 1354,
     "msg_index": 283,
     "japanese": "少女aイ新しい者が帰たみたいゴ少女bイどんな感じ？ [0143]そう？ゴ少女aイ働いに出た者かしら？ゴ少女bイ行ってみましょう ゴ",
-    "english": "\"A new one's / here!\" / \"Tough?\" / \"A stray?\" / \"Let's go see!\""
+    "english": "\"A new one's / here!\" \"Tough?\" / \"A stray?\" / \"Let's go see!\""
   },
   {
     "resource": 1354,
     "msg_index": 284,
     "japanese": "器の向こうからやってきたのは、エルフの少女達であった。",
-    "english": "From the fog / emerged a pair of / elf girls."
+    "english": "From the fog / emerged a pair / of elf girls."
   },
   {
     "resource": 1354,
@@ -5463,7 +5463,7 @@
     "resource": 1354,
     "msg_index": 287,
     "japanese": "あどけなさが退る顔待ち、送拡と扱集という違いはあるが、野派待ちから[02A1]つきまでうり[0180]つの少女達である。",
-    "english": "Young-faced twins, / one blonde, one / brunette--nearly / identical."
+    "english": "Young-faced / twins, one / blonde, one / brunette--nearly // identical."
   },
   {
     "resource": 1354,
@@ -5583,7 +5583,7 @@
     "resource": 1354,
     "msg_index": 307,
     "japanese": "少女aイねえねえ、エミーリア、そろそろ行きましょうよゴ少女bイ！そうね。今ごろ感づかれているかもゴ少女aイこんどつかまったら絶将、しばらく出してくれないわゴ",
-    "english": "\"Emilia, let's / go!\" \"Right, / they noticed!\" / \"If caught again, / no going out!\""
+    "english": "\"Emilia, let's / go!\" \"Right, / they noticed!\" / \"If caught // again, no going / out!\""
   },
   {
     "resource": 1354,

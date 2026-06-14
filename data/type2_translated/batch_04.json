@@ -1071,7 +1071,7 @@
     "resource": 1204,
     "msg_index": 188,
     "japanese": "ケ～ン！グー チョキパー ",
-    "english": "Shoot! / Rock Paper / Scissors!"
+    "english": "Rock, Paper, / Scissors! / Rock / Scissors / Paper"
   },
   {
     "resource": 1204,
@@ -4545,7 +4545,7 @@
     "resource": 1204,
     "msg_index": 783,
     "japanese": "メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   ",
-    "english": "Medal Shop: / Buy Tavern / Medals / Buy Combat / Medals / Buy-back / Medals / Do nothing"
+    "english": "Medal Shop: / Buy Tavern Med. / Buy Combat Med. / Sell Tavern Med. / Do nothing"
   },
   {
     "resource": 1204,
@@ -6759,7 +6759,7 @@
     "resource": 1205,
     "msg_index": 166,
     "japanese": "[052F]の宮街を持っている[0190]器？スケディムを忘したから落ちていたのを投った ",
-    "english": "How did you get / the steel head? / I defeated / the Skedim. / I picked it up / off the floor."
+    "english": "How did you get / the steel head? / Defeated Skedim / Found on floor"
   },
   {
     "resource": 1205,
@@ -6939,7 +6939,7 @@
     "resource": 1205,
     "msg_index": 200,
     "japanese": "[001C]商品リスト[001E]だめオークのダガー ３０００gだめオークの[05EE]   ３０００gだめオークのリスト ３０００g[05AB]入をやめる         ",
-    "english": "[001C]Item List[001E] / Lame Orc Dagger / 3000g / Lame Orc Armor / 3000g / Lame Orc Wrist / 3000g / Cancel"
+    "english": "Item List / Lame Orc Dagger 3000g / Lame Orc Armor 3000g / Lame Orc Wrist 3000g / Cancel"
   },
   {
     "resource": 1205,
@@ -9585,7 +9585,7 @@
     "resource": 1205,
     "msg_index": 658,
     "japanese": "メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   ",
-    "english": "Medal Shop / Menu: / Buy Bar Medal / Buy Battle / Medal / Equip Bar / Medal / Do nothing"
+    "english": "Medal Shop Menu: / Buy Bar Medals / Buy Combat Medals / Sell Bar Medals / Do nothing"
   },
   {
     "resource": 1205,

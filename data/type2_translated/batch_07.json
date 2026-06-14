@@ -21,7 +21,7 @@
     "resource": 1210,
     "msg_index": 3,
     "japanese": "レバーを[05D7]以しますか？は いいいえ",
-    "english": "Operate the lever? / Yes  No"
+    "english": "Operate the lever? / Yes / No"
   },
   {
     "resource": 1210,
@@ -33,7 +33,7 @@
     "resource": 1210,
     "msg_index": 6,
     "japanese": "レバーを[05D7]以しますか？は いいいえ",
-    "english": "Operate the lever? / Yes  No"
+    "english": "Operate the lever? / Yes / No"
   },
   {
     "resource": 1210,
@@ -45,7 +45,7 @@
     "resource": 1210,
     "msg_index": 9,
     "japanese": "レバーを[05D7]以しますか？は いいいえ",
-    "english": "Operate the lever? / Yes  No"
+    "english": "Operate the lever? / Yes / No"
   },
   {
     "resource": 1210,
@@ -141,7 +141,7 @@
     "resource": 1210,
     "msg_index": 28,
     "japanese": "イムプの質を聞きますか？は いいいえ",
-    "english": "Listen to / the Imp's request? / Yes  No"
+    "english": "Listen to // the Imp's request? / Yes / No"
   },
   {
     "resource": 1210,
@@ -405,7 +405,7 @@
     "resource": 1210,
     "msg_index": 72,
     "japanese": "メダルを渡しますか？渡す  渡さない",
-    "english": "Hand over the / Medals? / Hand over / Don't hand over"
+    "english": "Hand over // the Medals? / Hand over / Don't hand over"
   },
   {
     "resource": 1210,
@@ -1473,7 +1473,7 @@
     "resource": 1210,
     "msg_index": 255,
     "japanese": "入会しますか？「入会[03CD]毒 ５０００g」は いいいえ",
-    "english": "Sign up? / 'Fee: 5000g' / Yes  No"
+    "english": "Sign up? // 'Fee: 5000g' / Yes / No"
   },
   {
     "resource": 1210,
@@ -1677,7 +1677,7 @@
     "resource": 1210,
     "msg_index": 292,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Have your fortune / read? 'Fee: / 2000g per person' / Yes  No"
+    "english": "Have your fortune read? // 'Fee: 2000g per person' / Yes / No"
   },
   {
     "resource": 1210,
@@ -2379,19 +2379,19 @@
     "resource": 1210,
     "msg_index": 412,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "What will you do? / 'Cost: Points' / 1 pt draw / Info / Don't draw"
+    "english": "What will you do? // 'Cost: pts' / 1 pt draw / Info / Don't draw"
   },
   {
     "resource": 1210,
     "msg_index": 413,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "What will you do? / 'Cost: Points' / 1 pt / 3 pt / Info / Don't draw"
+    "english": "What will you do? // 'Cost: pts' / 1 pt / 3 pt / Info / Don't draw"
   },
   {
     "resource": 1210,
     "msg_index": 414,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]５ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "What will you do? / 'Cost: Points' / 1 pt / 3 pt / 5 pt / Info / Don't draw"
+    "english": "What will you do? // 'Cost: pts' / 1 pt / 3 pt / 5 pt / Info / Don't draw"
   },
   {
     "resource": 1210,
@@ -2529,7 +2529,7 @@
     "resource": 1210,
     "msg_index": 438,
     "japanese": "もう一度、[05FB]選しますか？は いいいえ",
-    "english": "Draw again? / Yes  No"
+    "english": "Draw again? / Yes / No"
   },
   {
     "resource": 1210,
@@ -2943,7 +2943,7 @@
     "resource": 1210,
     "msg_index": 509,
     "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-    "english": "Buy Dungeon Medal? / '5 for 1000g' / Yes  No"
+    "english": "Buy Dungeon Medal? // '5 for 1000g' / Yes / No"
   },
   {
     "resource": 1210,
@@ -3021,7 +3021,7 @@
     "resource": 1210,
     "msg_index": 525,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special Medal? / '1 for 1000g' / Yes  No"
+    "english": "Buy Special Medal? // '1 for 1000g' / Yes / No"
   },
   {
     "resource": 1210,
@@ -3111,7 +3111,7 @@
     "resource": 1210,
     "msg_index": 543,
     "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
-    "english": "Have Automata / examined? / 'Fee: 1000g' / Yes  No"
+    "english": "Have Automata examined? // 'Fee: 1000g' / Yes / No"
   },
   {
     "resource": 1210,
@@ -5103,7 +5103,7 @@
     "resource": 1211,
     "msg_index": 100,
     "japanese": "入会しますか？「入会[03CD]毒 ５０００g」は いいいえ",
-    "english": "Sign up? / 'Fee: 5000g' / Yes  No"
+    "english": "Sign up? // 'Fee: 5000g' / Yes / No"
   },
   {
     "resource": 1211,
@@ -5307,7 +5307,7 @@
     "resource": 1211,
     "msg_index": 137,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Have your fortune / read? 'Fee: / 2000g per person' / Yes  No"
+    "english": "Have your fortune read? // 'Fee: 2000g per person' / Yes / No"
   },
   {
     "resource": 1211,
@@ -6009,19 +6009,19 @@
     "resource": 1211,
     "msg_index": 257,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "What will you do? / 'Cost: Points' / 1 pt draw / Info / Don't draw"
+    "english": "What will you do? // 'Cost: pts' / 1 pt draw / Info / Don't draw"
   },
   {
     "resource": 1211,
     "msg_index": 258,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "What will you do? / 'Cost: Points' / 1 pt / 3 pt / Info / Don't draw"
+    "english": "What will you do? // 'Cost: pts' / 1 pt / 3 pt / Info / Don't draw"
   },
   {
     "resource": 1211,
     "msg_index": 259,
     "japanese": "どうしますか？「抜器：ポイント」１ポイント消[03CD]３ポイント消[03CD]５ポイント消[03CD]向全を聞く  [05FB]選しない  ",
-    "english": "What will you do? / 'Cost: Points' / 1 pt / 3 pt / 5 pt / Info / Don't draw"
+    "english": "What will you do? // 'Cost: pts' / 1 pt / 3 pt / 5 pt / Info / Don't draw"
   },
   {
     "resource": 1211,
@@ -6159,7 +6159,7 @@
     "resource": 1211,
     "msg_index": 283,
     "japanese": "もう一度、[05FB]選しますか？は いいいえ",
-    "english": "Draw again? / Yes  No"
+    "english": "Draw again? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6345,7 +6345,7 @@
     "resource": 1211,
     "msg_index": 315,
     "japanese": "[0444]をとってみますか？は いいいえ",
-    "english": "Take the package? / Yes  No"
+    "english": "Take the package? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6543,7 +6543,7 @@
     "resource": 1211,
     "msg_index": 349,
     "japanese": "レバーはoffになっている。レバーを[05D7]以しますか？は いいいえ",
-    "english": "The lever is off. / Operate lever? / Yes  No"
+    "english": "The lever is off. // Operate lever? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6615,7 +6615,7 @@
     "resource": 1211,
     "msg_index": 362,
     "japanese": "個[01E3]帰の鎧を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Holy / Knight's armor? / Yes  No"
+    "english": "Collect the Holy // Knight's armor? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6639,7 +6639,7 @@
     "resource": 1211,
     "msg_index": 366,
     "japanese": "個[01E3]帰の力[04F8]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Holy / Knight's gauntlet? / Yes  No"
+    "english": "Collect the Holy // Knight's gauntlet? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6663,7 +6663,7 @@
     "resource": 1211,
     "msg_index": 370,
     "japanese": "個[01E3]帰の[06E0]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Holy / Knight's helm? / Yes  No"
+    "english": "Collect the Holy // Knight's helm? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6687,7 +6687,7 @@
     "resource": 1211,
     "msg_index": 374,
     "japanese": "個[01E3]帰の[01E0]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Holy / Knight's boots? / Yes  No"
+    "english": "Collect the Holy // Knight's boots? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6711,7 +6711,7 @@
     "resource": 1211,
     "msg_index": 378,
     "japanese": "個[01E3]帰の[05EE]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Holy / Knight's shield? / Yes  No"
+    "english": "Collect the Holy // Knight's shield? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6735,7 +6735,7 @@
     "resource": 1211,
     "msg_index": 382,
     "japanese": "個[01E3]帰の間力を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Holy / Knight's sword? / Yes  No"
+    "english": "Collect the Holy // Knight's sword? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6759,7 +6759,7 @@
     "resource": 1211,
     "msg_index": 386,
     "japanese": "個王の[047D][049E]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Holy / King's gauntlet? / Yes  No"
+    "english": "Collect the Holy // King's gauntlet? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6849,7 +6849,7 @@
     "resource": 1211,
     "msg_index": 401,
     "japanese": "[0496]王の戦[04F8]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Mad / King's war axe? / Yes  No"
+    "english": "Collect the Mad // King's war axe? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6873,7 +6873,7 @@
     "resource": 1211,
     "msg_index": 405,
     "japanese": "[0496]王の[06E0]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Mad / King's helm? / Yes  No"
+    "english": "Collect the Mad // King's helm? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6897,7 +6897,7 @@
     "resource": 1211,
     "msg_index": 409,
     "japanese": "[0496]王の[01E0]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Mad / King's boots? / Yes  No"
+    "english": "Collect the Mad // King's boots? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6921,7 +6921,7 @@
     "resource": 1211,
     "msg_index": 413,
     "japanese": "[0496]王の[05EE]を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Mad / King's shield? / Yes  No"
+    "english": "Collect the Mad // King's shield? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6945,7 +6945,7 @@
     "resource": 1211,
     "msg_index": 417,
     "japanese": "[0496]王の間力を[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Mad / King's sword? / Yes  No"
+    "english": "Collect the Mad // King's sword? / Yes / No"
   },
   {
     "resource": 1211,
@@ -6969,7 +6969,7 @@
     "resource": 1211,
     "msg_index": 421,
     "japanese": "[0496]王のマントを[0574][03D0]しますか？は いいいえ",
-    "english": "Collect the Mad / King's mantle? / Yes  No"
+    "english": "Collect the Mad // King's mantle? / Yes / No"
   },
   {
     "resource": 1211,
@@ -7059,7 +7059,7 @@
     "resource": 1211,
     "msg_index": 436,
     "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-    "english": "Buy Dungeon Medal? / '5 for 1000g' / Yes  No"
+    "english": "Buy Dungeon Medal? // '5 for 1000g' / Yes / No"
   },
   {
     "resource": 1211,
@@ -7137,7 +7137,7 @@
     "resource": 1211,
     "msg_index": 452,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special Medal? / '1 for 1000g' / Yes  No"
+    "english": "Buy Special Medal? // '1 for 1000g' / Yes / No"
   },
   {
     "resource": 1211,
@@ -7227,7 +7227,7 @@
     "resource": 1211,
     "msg_index": 470,
     "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
-    "english": "Have Automata / examined? / 'Fee: 1000g' / Yes  No"
+    "english": "Have Automata examined? // 'Fee: 1000g' / Yes / No"
   },
   {
     "resource": 1211,

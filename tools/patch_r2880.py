@@ -106,54 +106,72 @@ def main():
         for x in range(cx, cx + cw):
             linear[y * TEX_W + x] = BG
 
-    # ── typeset English ───────────────────────────────────────────────
-    # PER-LINE CAP discipline (BUG-D(b)): the MOVIE samples each subtitle line
-    # through a FIXED per-line UV window equal to the ORIGINAL JP ink width, so
-    # every English line must fit ITS OWN cap (ln["cap"]) — a single global
-    # max_line_width would let a short-JP line (e.g. i=5, cap 198) over-render
-    # and be right-clipped at sample time. The shrink-to-fit loop uses the
-    # per-line cap as max_w and a hard assert fails the build if any line still
-    # overflows (re-word the line in r2880_prologue.json to fix).
+    # ── typeset English (PER-WINDOW SLOT model) ───────────────────────
+    # The cinematic samples each subtitle ROW through 1-3 FIXED UV-X windows
+    # (texelX ranges); 5 rows are SPLIT into two windows with a 24px BLANK
+    # dead-zone between them.  We draw each line's seg[k] left-aligned INSIDE
+    # window[k] (at window.x0 + left_pad) and HARD-ASSERT its ink width fits the
+    # window, so no ink ever lands in a dead-zone (the v92 mid-word-drop bug).
+    # The clear step above already blanked the whole region, so dead-zones stay
+    # bg=15 as long as we never draw into them.
     base_size = lay["font_size"]
-    global_max_w = lay["max_line_width"]   # texture-width safety bound only
-    line_caps = lay.get("line_caps")
-    left_x = lay["left_x"]
+    left_pad = lay.get("left_pad", 2)
     band_h = lay["band_height"]
+    n_seg = 0
     for i, (top, ln) in enumerate(zip(line_tops, lines)):
-        text = ln["en"]
-        # per-line cap: prefer ln["cap"], fall back to layout.line_caps[i].
-        cap = ln.get("cap")
-        if cap is None and line_caps is not None:
-            cap = line_caps[i]
-        assert cap is not None, f"line {i} has no per-line cap: '{text}'"
-        max_w = min(cap, global_max_w)
-        size = base_size
-        font = load_font(size, bold=True)
-        while font.getbbox(text)[2] - font.getbbox(text)[0] > max_w and size > 12:
-            size -= 1
-            font = load_font(size, bold=True)
-        bbox = font.getbbox(text)
-        tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
-        # HARD FAIL if the line still overflows its per-line cap — the cinematic
-        # would right-clip it. Re-word (shorten / redistribute) the line.
-        assert tw <= cap, (
-            f"line {i} width {tw}px > cap {cap}px even at {size}px: '{text}' "
-            f"— re-word in data/strip_labels/r2880_prologue.json")
-        cell = Image.new("L", (TEX_W, band_h), 0)
-        draw = ImageDraw.Draw(cell)
-        # vertically center the glyph box in the 23px band, left-aligned
-        draw.text((left_x - bbox[0], (band_h - th) // 2 - bbox[1]),
-                  text, fill=255, font=font)
-        idx = quantize(cell)
-        for dy in range(band_h):
-            row = (top + dy) * TEX_W
-            for dx in range(TEX_W):
-                v = idx[dy * TEX_W + dx]
-                if v != BG:
-                    linear[row + dx] = v
-        flag = "" if tw <= cap else "  !! OVER"
-        print(f"  i={i:2} y={top:3} size={size:2} w={tw:3}px "
-              f"cap={cap:3}px{flag}  '{text}'")
+        windows = ln["windows"]
+        segs = ln["segs"]
+        assert len(windows) == len(segs), \
+            f"line {i}: {len(windows)} windows vs {len(segs)} segs"
+        for (x0, x1), text in zip(windows, segs):
+            win_w = x1 - x0
+            cap = win_w - left_pad           # usable ink width inside the window
+            font = load_font(base_size, bold=True)
+            bbox = font.getbbox(text)
+            tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]
+            # HARD FAIL if the segment overflows its window — the cinematic would
+            # clip it or spill into the dead-zone. Re-word/re-split in the JSON.
+            assert tw <= cap, (
+                f"line {i} window [{x0},{x1}] seg width {tw}px > {cap}px: "
+                f"'{text}' — re-word/re-split in r2880_prologue.json")
+            cell = Image.new("L", (TEX_W, band_h), 0)
+            draw = ImageDraw.Draw(cell)
+            # CENTER the ink within the window: the cinematic stretches each UV
+            # window to its own centered on-screen rect, so a short segment
+            # left-aligned at x0 appears left-of-center on screen (the v93 line-0
+            # glitch). Centering within [x0,x1] places it centered on screen.
+            # Never less than left_pad, so ink stays inside the window/off edges.
+            ox = x0 + max(left_pad, (win_w - tw) // 2) - bbox[0]
+            draw.text((ox, (band_h - th) // 2 - bbox[1]), text, fill=255,
+                      font=font)
+            idx = quantize(cell)
+            for dy in range(band_h):
+                row = (top + dy) * TEX_W
+                for dx in range(TEX_W):
+                    v = idx[dy * TEX_W + dx]
+                    if v != BG:
+                        linear[row + dx] = v
+            n_seg += 1
+            print(f"  i={i:2} y={top:3} win[{x0:3},{x1:3}] w={tw:3}px "
+                  f"cap={cap:3}px  '{text}'")
+    print(f"  typeset {n_seg} window segments across {len(lines)} rows")
+
+    # ── verify dead-zones are blank ────────────────────────────────────
+    # Between adjacent windows of a split row there is a 24px texel band the
+    # cinematic never samples; any ink there is dropped on screen. Confirm none.
+    for i, (top, ln) in enumerate(zip(line_tops, lines)):
+        windows = ln["windows"]
+        for k in range(len(windows) - 1):
+            gx0, gx1 = windows[k][1], windows[k + 1][0]
+            if gx1 <= gx0:
+                continue
+            for dy in range(band_h):
+                row = (top + dy) * TEX_W
+                bad = [x for x in range(gx0, gx1) if linear[row + x] != BG]
+                assert not bad, (
+                    f"line {i} dead-zone [{gx0},{gx1}) has ink at y={top+dy} "
+                    f"x={bad[:5]} — a segment overflowed its window")
+    print("  dead-zones verified blank")
 
     after_png = save_gray(linear, os.path.join(OUT_DIR, "r2880s7_after.png"))
     crop_png = save_gray(linear, os.path.join(OUT_DIR, "r2880s7_after_2x_top.png"),
