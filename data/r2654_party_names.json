@@ -8,7 +8,11 @@
     "katakana_base": "name_val 193-238 (untouched entries keep their original katakana runs)"
   },
   "_render_font": "R2100 (2100_type04.raw) page 0, tbp=0x2840, PSMT4 256x256 CT32 -- ASCII at glyph 0-94, katakana at 97+. Confirmed via build/recon_v86/gs-vram-atlas atlas.json/summary.txt + page-0 atlas PNG.",
-  "_premade_party": ["Vera (entry 7)", "Konde (entry 16)", "Erika (entry 10)"],
+  "_premade_party": [
+    "Vera (entry 7)",
+    "Konde (entry 16)",
+    "Erika (entry 10)"
+  ],
   "_premade_party_note": "Of the requested premade party (Ia/Vera/Konde/Basco/Erika/Freesia), only Vera, Konde, Erika exist in this R2654 sub-7 roster. 'Ia' (name_values [194,193]) is a guild/player slot stored elsewhere in R2654 (e.g. 0x2bafc) and already renders romanized in-game. 'Basco' and 'Freesia' have no entry in this table (entry 44 = Scone, not Basco; no Freesia entry). The full resolvable NPC roster is romanized below for party-bar/roster consistency.",
   "entries": {
     "Aurora": "Aurora",
@@ -33,6 +37,10 @@
     "Oriana": "Oriana",
     "Romi": "Romi",
     "Jill": "Jill",
-    "Scone": "Scone"
+    "Scone": "Scone",
+    "Basco": "Basco",
+    "Eban": "Eban",
+    "Freesia": "Freesia",
+    "Bartels": "Bartels"
   }
 }

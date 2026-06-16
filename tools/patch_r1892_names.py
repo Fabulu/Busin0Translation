@@ -43,7 +43,14 @@ REC_BASE = 0x140
 REC_STRIDE = 0x130
 NAME_OFF = 2               # u16 id, then the name field
 FFFF = 0xFFFF
-ASCII_NV_OFFSET = 95       # name_val = ascii_gid + 95  (R2100 page-0 ASCII cell)
+# R1892 name fields are RAW R2100 page-0 glyph CELL indices, copied VERBATIM into
+# the active-party struct (RAM 0x55DD20) the bar renders — NOT the R2654 name_value
+# codec.  R2100 page-0 is a standard ASCII layout: cell = char - 32 (space=0,
+# A=33..Z=58, a=65..z=90), which == english_glyph_table values.  Proven by the
+# on-screen leader 'BABA' = cells [34,33,34,33] and the R2100 atlas. So the encode
+# is IDENTITY (no +95): writing ascii_gid+95 pushed every letter into the katakana
+# cell region (V 54->149) and rendered garbage. Offset is now 0.
+ASCII_NV_OFFSET = 0
 
 # name-value -> katakana (identical grid to patch_r2654_names.py)
 KATA = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲ"
@@ -85,12 +92,11 @@ def main():
             return glyph_table[ch.lower()]
         return 31  # '?'
 
-    if os.path.exists(BUILD):
-        raw = bytearray(open(BUILD, 'rb').read())
-        src = 'build/packdata_resources/1892_type20.raw'
-    else:
-        raw = bytearray(open(PRISTINE, 'rb').read())
-        src = 'extracted/packdata_raw/1892_type20.raw (PRISTINE)'
+    # ALWAYS read the PRISTINE base: R1892 is only ever touched by this script, and
+    # an already-romanized build copy would fail the katakana->English match (its
+    # ASCII runs decode to 〓 garbage), making re-runs non-idempotent / skip names.
+    raw = bytearray(open(PRISTINE, 'rb').read())
+    src = 'extracted/packdata_raw/1892_type20.raw (PRISTINE)'
     orig_len = len(raw)
     print(f'R1892 base input: {src} ({orig_len} bytes)')
 

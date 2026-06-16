@@ -1050,6 +1050,26 @@ def encode_choice_group(original_group, eng_glyphs):
     # Tripwire: the marker set/order MUST be byte-identical to the original.
     if [w for w in new_group if _is_choice_marker(w)] != markers:
         return (None, "marker-set-mismatch")
+
+    # Tripwire 2: marker-line collision.  Verified via EXE disassembly (FFFE
+    # handler 0x304740 increments a line index s1 per 0xFFFE, capped at 0x1f;
+    # FFC0/FFC1 arms 0x304948/0x304978 flag the CURRENT line selectable; the
+    # selection read loop 0x303AF8 scans for the FIRST flagged line positionally).
+    # Yes/No selection therefore depends ONLY on each marker landing on a DISTINCT
+    # display line — the question-internal 0xFFFE COUNT is cosmetic (vertical
+    # layout) and intentionally NOT pinned to pristine.  The ONLY FFFE condition
+    # that can break selection is two markers aliasing onto one line; guard it so
+    # any future translation that does so fails the build loudly.
+    _s1 = 0
+    _mlines = []
+    for _w in new_group:
+        if _w == LINE_BREAK:
+            if (_s1 & 0xFF) < 0x1F:
+                _s1 = (_s1 + 1) & 0xFF
+        elif _is_choice_marker(_w):
+            _mlines.append(_s1 & 0xFF)
+    if len(set(_mlines)) != len(_mlines):
+        return (None, "marker-line-collision")
     return (new_group, None)
 
 

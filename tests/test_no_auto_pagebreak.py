@@ -126,6 +126,10 @@ def _offenders():
             visible = [w for w in group if w < CONTROL_FLOOR]
             if not visible or any(w > ENGLISH_GLYPH_HI for w in visible):
                 continue
+            # v97: auto-pagination was REVERTED (0xFFD2 is a color code, not a page
+            # break).  So NO injected group may gain a 0xFFD2 beyond its authored
+            # " // " — this gate is back to guarding ALL groups (narration AND
+            # dialogue) against a spurious 0xFFD2.
             checked += 1
             # The bug's page break is always INTERIOR (text on both sides).
             # inject_and_patch preserves the pristine group's leading/trailing

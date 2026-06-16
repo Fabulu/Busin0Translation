@@ -19,6 +19,10 @@ import struct
 import sys
 import io
 
+# single source of truth for proportional glyph metrics (advance + left-shift tables)
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))
+import glyph_metrics
+
 try:
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 except Exception:
@@ -390,25 +394,256 @@ def main():
     else:
         print(f"  WARN 0x{page0_off:06X}: expected 9, got {data[page0_off]}")
 
-    # ─── PATCH 11: Dialogue line-pitch smoosh (24px -> 18px) ───────────
-    # The boxed-dialogue text renderer advances the per-line Y cursor by a
-    # hardcoded 24px: `addiu $v0,$v0,0x18` at VA 0x3079DC (file 0x207A5C).
-    # English wraps to more lines than the JP original, so at 24px a 4th line
-    # clips and a 5th overflows the fixed ~103px box. Tighten the pitch to
-    # 18px so 4 lines fit comfortably (the user's "smoosh it a little"). This
-    # is the DIALOGUE pitch ONLY -- do NOT touch the narration/menu pitch
-    # constants at 0x2087F0 / 0x208D30 / 0x209824.
-    print("\n--- Patch 11: Dialogue line-pitch smoosh (24 -> 18 px) ---")
+    # ─── PATCH 11: Dialogue line-pitch (DEAD lever — superseded by Patch 12) ─
+    # This patches the INTEGER pitch path `addiu $v0,$v0,0x18` at VA 0x3079DC.
+    # GS-draw-stream tracing (Wave 1) proved this path is BYPASSED for live
+    # dialogue: 0x3079D0 `bne metric,100` takes the FLOAT path (0x3079EC) unless
+    # the runtime font_metric == 100, and it never is (~101-104), so the boxed
+    # dialogue stayed 24px across 156 dumps even with this applied.  Harmless but
+    # INERT — the real pitch lever is Patch 12 (the 0.24 float at 0x3076FC).
+    print("\n--- Patch 11: Dialogue line-pitch INTEGER path (inert; see Patch 12) ---")
     pitch_off = 0x207A5C
     pitch_word = struct.unpack_from("<I", data, pitch_off)[0]
     if pitch_word == 0x24420018:  # addiu v0,v0,0x18
         data[pitch_off] = 0x12     # 0x18 -> 0x12 (low byte of the immediate)
-        print(f"  OK   0x{pitch_off:06X}: addiu v0,v0,24 -> 18")
+        print(f"  OK   0x{pitch_off:06X}: addiu v0,v0,24 -> 18 (inert path)")
         patched_count += 1
     elif pitch_word == 0x24420012:
-        print(f"  SKIP 0x{pitch_off:06X}: already smooshed")
+        print(f"  SKIP 0x{pitch_off:06X}: already 0x12")
     else:
         print(f"  WARN 0x{pitch_off:06X}: expected 0x24420018, got 0x{pitch_word:08X}")
+
+    # ─── PATCH 12: Dialogue line-pitch FLOAT lever (24px -> 18px) ───────
+    # The REAL boxed-dialogue per-line Y pitch is int(0.24 * font_metric), where
+    # 0.24 is the float 0x3E75C28F assembled at VA 0x3076F8 (lui 0x3E75) + VA
+    # 0x3076FC (ori 0xC28F), multiplied at 0x307714 and applied on the LIVE float
+    # path at 0x3079EC (cvt.w.s $f20).  This path is what actually runs (Patch 11
+    # is bypassed).  GS-draw-stream RE (Wave 1, func 0x307510, R1188 sprites at
+    # TBP0=0x3000) measured 24px pitch in 156 dumps; the box frame is fixed
+    # y=363..473 (~110px), so 24px fits only ~4 lines and lines 5+ draw off-box
+    # and are lost.  Lowering 0.24 -> 0.18 makes the pitch int(0.18*~101)=18px so
+    # ~6 lines fit.  Patch ONLY the low 2 bytes of the ori (the float mantissa);
+    # X-advance/UV is an INDEPENDENT 0.24 at 0x30614C (the wide-letter-spacing
+    # lever — NOT touched here).  NOTE: render-confirm with a fresh-boot GS dump
+    # (expect ~18px) — the value 0.18 is render-plausible but not yet on-screen.
+    print("\n--- Patch 12: Dialogue line-pitch FLOAT 0.24 -> 0.18 (fit ~6 lines) ---")
+    fpitch_off = 0x20777C  # VA 0x3076FC: ori $v0,$v0,0xC28F  (0.24 float low half)
+    fpitch_word = struct.unpack_from("<I", data, fpitch_off)[0]
+    if fpitch_word == 0x3442C28F:                       # ori 0xC28F -> 0.24
+        struct.pack_into("<I", data, fpitch_off, 0x344251EC)  # ori 0x51EC -> 0.18
+        print(f"  OK   0x{fpitch_off:06X}: pitch float 0.24 -> 0.18")
+        patched_count += 1
+    elif fpitch_word == 0x344251EC:
+        print(f"  SKIP 0x{fpitch_off:06X}: already 0.18")
+    else:
+        print(f"  WARN 0x{fpitch_off:06X}: expected 0x3442C28F, got 0x{fpitch_word:08X}")
+
+    # ─── PATCH 13: Narration glyph advance 24px -> 18px + re-centering ──
+    # The narration renderer (func 0x307da0, R1188 sprites at GS TBP0=0x3000)
+    # advances every glyph by a fixed 24px on the default-metric (==100) INTEGER
+    # path at VA 0x3097A4 `addiu v0,v0,0x18`.  Narration takes this integer path
+    # (GS-dump-PROVEN: patching 0x3097A4 to 0x12 measured 18.0px per-glyph steps in
+    # the user's Shift+F8 dumps 20260615173931/173938).  Lowering 0x18->0x12 makes
+    # letters 18px (the user's chosen width).  But the line is CENTERED via a
+    # glyph-COUNT formula: line-origin desc+0x3c = 224 - count*24 (the (c*2+c)<<3
+    # idiom at VA 0x305988), consumed as x0 = (desc+0x3c)/2 + 167 = 279 - count*12.
+    # At 24px that centers; at 18px the text would shift LEFT by count*3 unless the
+    # count*24 term is reduced to count*18 in LOCKSTEP.  count*18 = ((c<<3)+c)<<1,
+    # so the two-shift idiom changes: first sll sa 1->3, last sll sa 3->1, at BOTH
+    # centering sites (desc+0x3c @0x305988/0x305990 and desc+0x3e @0x3059F8/0x305A00).
+    # Result: x0 = (224 - count*18)/2 + 167 = 279 - count*9, re-centered for 18px.
+    # The 0.18f at 0x3097B8 covers the float (wide-glyph metric!=100) path for
+    # consistency.  Space-glyph narrowing is a SEPARATE diagnostic (not baked here).
+    print("\n--- Patch 13: Narration advance 24->18px + re-center (count*24->*18) ---")
+    narr = [
+        (0x209824, 0x24420018, 0x24420012, "advance int 24->18 (0x3097A4)"),
+        (0x209838, 0x3443C28F, 0x344351EC, "advance float 0.24->0.18 (0x3097B8)"),
+        (0x205A08, 0x00052040, 0x000520C0, "center A sll 1->3 (0x305988)"),
+        (0x205A10, 0x000420C0, 0x00042040, "center A sll 3->1 (0x305990)"),
+        (0x205A78, 0x00052040, 0x000520C0, "center B sll 1->3 (0x3059F8)"),
+        (0x205A80, 0x000420C0, 0x00042040, "center B sll 3->1 (0x305A00)"),
+    ]
+    for off, exp, new, desc in narr:
+        word = struct.unpack_from("<I", data, off)[0]
+        if word == exp:
+            struct.pack_into("<I", data, off, new)
+            print(f"  OK   0x{off:06X}: {desc}")
+            patched_count += 1
+        elif word == new:
+            print(f"  SKIP 0x{off:06X}: already patched ({desc})")
+        else:
+            print(f"  WARN 0x{off:06X}: expected 0x{exp:08X}, got 0x{word:08X} ({desc})")
+
+    # ─── PATCH 14: PROPORTIONAL narration spacing (advance LUT + draw-shift) ──
+    # Replaces the old monospace space-only cave.  Each glyph advances by its OWN
+    # ink width (tools/glyph_metrics.ADV = clamp(ink_width+3,6,23), space=9) AND is
+    # drawn shifted left by its own left-bearing (glyph_metrics.LEFTSHIFT = ink_left)
+    # so the ink starts at the pen -> UNIFORM 3px inter-letter gaps, no f/t collisions
+    # (GS-dump + screenshot CONFIRMED in build/apply_prop_diag2.py / propdiag2, user-
+    # approved).  Two trampolines, both in the 744B verified-clean rodata pad by the
+    # interpreter handler table (never written across 30 scenes):
+    #   STAGE 1 advance LUT cave @VA 0x4C7540 + 256B ADV table @0x4C7564; hook 0x3097A0
+    #     (lui t0,0x4C; andi v1,s1,0xFF; addu t0; lbu v1,ADV[g]; penX += v1).
+    #   STAGE 2 draw-shift cave @VA 0x4C7670 + 256B LEFTSHIFT table @0x4C7690; hook
+    #     0x309750 (subtract LEFTSHIFT[g] from penX r7 before the draw-X add).
+    # Tables come from tools/glyph_metrics.py — the SINGLE source the build wrap +
+    # centering + tests all read, so they can never desync.  Plus the 3B per-line
+    # re-center x24->x18 (0x308364/0x30836C) that Patch 13 missed.
+    # KNOWN LIMITATION (Stage 3, see data/text_restructure_roadmap.md): line
+    # centering still reserves count*18 (Patch 13), so lines drift ~11-34px with
+    # proportional widths; summed-width centering is the remaining piece.
+    print("\n--- Patch 14: PROPORTIONAL narration spacing (advance LUT + draw-shift) ---")
+    P14_HOOK1, P14_CAVE1, P14_TBL1 = 0x209820, 0x3C75C0, 0x3C75E4   # VA 0x3097A0 / 0x4C7540 / 0x4C7564
+    P14_HOOK2, P14_CAVE2, P14_TBL2 = 0x2097D0, 0x3C76F0, 0x3C7710   # VA 0x309750 / 0x4C7670 / 0x4C7690
+    adv_cave = [0x3C08004C, 0x322300FF, 0x01034021, 0x91037564,
+                0x87A201CE, 0x00431021, 0xA7A201CE, 0x080C25F8, 0x00000000]
+    shift_cave = [0x3C01004C, 0x00310821, 0x90217690, 0x00E13823,
+                  0x00EC6021, 0x080C25D6, 0x00000000]
+    h1 = struct.unpack_from("<I", data, P14_HOOK1)[0]
+    h2 = struct.unpack_from("<I", data, P14_HOOK2)[0]
+    if struct.unpack_from("<I", data, P14_CAVE1)[0] == adv_cave[0] and h1 == 0x08131D50:
+        print("  SKIP: proportional caves already installed")
+    elif h1 == 0x87A201CE and h2 == 0x00EC6021:
+        # Stage 1 — advance LUT
+        for i, w in enumerate(adv_cave):
+            struct.pack_into("<I", data, P14_CAVE1 + i * 4, w)
+        data[P14_TBL1:P14_TBL1 + 256] = glyph_metrics.adv_table_256()
+        struct.pack_into("<I", data, P14_HOOK1, 0x08131D50)      # j 0x4C7540
+        struct.pack_into("<I", data, P14_HOOK1 + 4, 0x00000000)  # nop (delay slot)
+        # Stage 2 — draw-shift
+        for i, w in enumerate(shift_cave):
+            struct.pack_into("<I", data, P14_CAVE2 + i * 4, w)
+        data[P14_TBL2:P14_TBL2 + 256] = glyph_metrics.leftshift_table_256()
+        struct.pack_into("<I", data, P14_HOOK2, 0x08131D9C)      # j 0x4C7670 (delay slot 0x309754 runs once)
+        # 3B — per-line re-center x24 -> x18 (the site Patch 13 missed)
+        for off, exp, new in [(0x2083E4, 0x00062040, 0x000620C0), (0x2083EC, 0x000420C0, 0x00042040)]:
+            if struct.unpack_from("<I", data, off)[0] == exp:
+                struct.pack_into("<I", data, off, new)
+        print(f"  OK   advance LUT @0x4C7540 + draw-shift @0x4C7670 (avg {sum(glyph_metrics.ADV)/95:.1f}px); 3B re-center")
+        patched_count += 1
+    else:
+        print(f"  WARN proportional caves not applied: hook1=0x{h1:08X} hook2=0x{h2:08X}")
+
+    # ─── PATCH 15: REVERTED (was the inert modal-latch gate, v102) ────────
+    # v102 trampolined the modal's else-branch (VA 0x3A0890) to skip 3 latch
+    # stores (gp-0x66F0/-0x66F4/-0x66F8 = RAM 0x4FE900/0x4FE8FC/0x4FE8F8) while
+    # a request chooser is live.  RAM-proven WRONG (ramdumps/wearestillfucked.p2s):
+    # the chooser's cancel/confirm input does NOT come from those latches — it reads
+    # the per-pad EDGE struct at [gp-0x6438]->0x56D520+0x1C (a different address;
+    # 0x4FE904=2 even when the latches are 0).  The latch-skip changed nothing and
+    # the game still softlocked.  We therefore LEAVE the modal's 3 stores intact
+    # (stock behaviour — modal ctx+0x22 bit0 is 0 in ALL saves incl. working ones).
+    # If a prior build installed the v102 hook, restore the original stores so the
+    # modal ships pristine.  The real fix is PATCH 16 below.
+    print("\n--- Patch 15: REVERTED (inert modal-latch gate; restore modal pristine) ---")
+    SL_HOOK = 0x2A0910     # VA 0x3A0890  sh zero,-0x66F0(gp)
+    SL_DELAY = 0x2A0914    # VA 0x3A0894  sh zero,-0x66F4(gp)
+    SL_CAVE = 0x3D6650     # VA 0x4D65D0  (the old 40-byte cave)
+    SL_J_CAVE = 0x08135974  # j 0x4D65D0
+    slh = struct.unpack_from("<I", data, SL_HOOK)[0]
+    if slh == SL_J_CAVE:
+        # undo: restore the 3 original modal stores and clear the old cave
+        struct.pack_into("<I", data, SL_HOOK,  0xA7809910)  # sh zero,-0x66F0(gp)
+        struct.pack_into("<I", data, SL_DELAY, 0xA780990C)  # sh zero,-0x66F4(gp)
+        for i in range(10):
+            struct.pack_into("<I", data, SL_CAVE + i * 4, 0x00000000)
+        print(f"  OK   0x{SL_HOOK:06X}: restored modal stores; cleared old 0x4D65D0 cave")
+    elif slh == 0xA7809910:
+        print(f"  SKIP 0x{SL_HOOK:06X}: modal already pristine (no v102 hook present)")
+    else:
+        print(f"  WARN 0x{SL_HOOK:06X}: unexpected modal hook=0x{slh:08X} -- left as-is")
+
+    # ─── PATCH 16: Tavern Request-list softlock — chooser stuck-in-state1 watchdog
+    # ROOT CAUSE (disasm + RAM proven across request/requests3/4/5/requestbroken):
+    #   The request chooser task (fn 0x158E00, ctx 0x011EDEC0, sub-ctx s3=ctx+0x04
+    #   =0x011EDE40) gets STUCK forever in dispatch state 1 (sub-ctx+0x08 == 1).
+    #   In state 1 it reads its cancel/confirm edge from the per-pad input struct
+    #   [gp-0x6438]->0x56D520, then [0x56D520+0x1C] & 0x40 (cancel ->state6 teardown)
+    #   / & 0x20 (confirm ->state2).  That edge never arrives, so it never reaches
+    #   state6, never sets its completion bit (ctx+0x08 |= 0x40 @VA 0x1595D0), so the
+    #   parent (fn 0x13CA50 @0x13CAD0..0x13CAE8: lbu 8(handle); if &0x40 -> sw zero,
+    #   0x1C(parent)) never releases parent-ctx 0x01137880 +0x1C, and the chooser/
+    #   modal nodes live forever -> input dead -> softlock.  (Proven across all 5
+    #   saves: chooser sub-ctx+0x08==1, ctx+0x08==0, parent+0x1C==0x011EDEC0.)
+    #   The v102 latch theory was wrong (see reverted PATCH 15).
+    # FIX (option c — input-INDEPENDENT teardown, the only path not relying on the
+    #   unknown reason the edge is starved): hook the chooser's OWN state-1 body at
+    #   VA 0x158F48 (the cancel-edge read; single entry, no internal branch targets,
+    #   nothing branches in — verified).  The cave:
+    #     1. reads the edge word once;
+    #     2. if cancel (&0x40)         -> force sub-ctx+0x08 = 6 (stock teardown);
+    #     3. else if ANY edge bit set  -> reset watchdog, j 0x158F68 (stock confirm/
+    #        navigation path — normal play is byte-for-byte unchanged);
+    #     4. else (no input this frame)-> ++watchdog; if it reaches 300 frames (~5 s)
+    #        of CONTINUOUS dead input while stuck in state1 -> force sub-ctx+0x08 = 6.
+    #   Driving state 6 makes the STOCK chooser run state6 (set ctx+0x08 bit0x40,
+    #   advance to state7) and state7 (scheduler unlink 0x14CEC0/0x14E470); the parent
+    #   then releases its handle at 0x13CAE8 and the native exit restores fn=0x13BA00.
+    #   No scheduler is poked directly.  The watchdog resets on ANY input edge, so it
+    #   ONLY fires on a genuine input-dead softlock — never during active browsing.
+    #   Scoped intrinsically to fn 0x158E00 / sub-ctx 0x011EDE40 (s3): ZERO blast
+    #   radius on any other menu/scene.  Watchdog counter lives in a dedicated EXE
+    #   pad word (0x4CAAA0) I own — no game struct touched.
+    # VERIFY: frozen-state sim (request/requests3/4/5/requestbroken.p2s) collapses the
+    #   task list to the working topology — chooser fn 0x158E00 GONE from the list,
+    #   parent 0x01137880 +0x1C == 0 — in every linked-node save.
+    # CAVE @ VA 0x4CAA30 (file 0x3CAAB0), 0x5C bytes; counter @ 0x4CAAA0 — both
+    #   verified zero in the EXE and across ramdumps/*.p2s.  Off all other caves
+    #   (0x4B0DD0 patch6, 0x4C7540 space, 0x4D65D0 old patch15).
+    print("\n--- Patch 16: Request chooser stuck-state1 watchdog (cave @ 0x4CAA30) ---")
+    RC_HOOK  = 0x058FC8    # VA 0x158F48  lw v1,-25656(gp)
+    RC_ORIG  = 0x8F839BC8  # original instruction
+    RC_DELAY = 0x058FCC    # VA 0x158F4C  lw v1,0x1C(v1)  (the j's delay slot)
+    RC_DELAY_ORIG = 0x8C63001C
+    RC_CAVE  = 0x3CAAB0    # VA 0x4CAA30
+    RC_J     = 0x08132A8C  # j 0x4CAA30  (0x4CAA30>>2 = 0x132A8C)
+    rc_cave_words = [
+        0x8F839BC8,   # 0x4CAA30  lw   v1, -25656(gp)   ; v1 = ptr 0x56D520
+        0x8C63001C,   # 0x4CAA34  lw   v1, 0x1C(v1)     ; v1 = edge word
+        0x3C04004C,   # 0x4CAA38  lui  a0, 0x4C
+        0x3484AAA0,   # 0x4CAA3C  ori  a0, a0, 0xAAA0   ; a0 = &watchdog (0x4CAAA0)
+        0x30650040,   # 0x4CAA40  andi a1, v1, 0x40     ; cancel bit
+        0x14A00009,   # 0x4CAA44  bne  a1, zero, 0x4CAA6C ; cancel -> teardown
+        0x00000000,   # 0x4CAA48  nop
+        0x1460000E,   # 0x4CAA4C  bne  v1, zero, 0x4CAA88 ; any input -> reset & rejoin
+        0x00000000,   # 0x4CAA50  nop
+        0x8C820000,   # 0x4CAA54  lw   v0, 0(a0)        ; watchdog (dead-input frame)
+        0x24420001,   # 0x4CAA58  addiu v0, v0, 1
+        0xAC820000,   # 0x4CAA5C  sw   v0, 0(a0)
+        0x2C41012C,   # 0x4CAA60  sltiu at, v0, 300     ; <300 frames?
+        0x14200006,   # 0x4CAA64  bne  at, zero, 0x4CAA80 ; under thresh -> LOOP (no reset!)
+        0x00000000,   # 0x4CAA68  nop
+        0x24030006,   # 0x4CAA6C  addiu v1, zero, 6     ; TEARDOWN: state6
+        0xA6630008,   # 0x4CAA70  sh   v1, 8(s3)        ; sub-ctx+0x08 = 6
+        0xAC800000,   # 0x4CAA74  sw   zero, 0(a0)      ; reset watchdog
+        0x0805657E,   # 0x4CAA78  j    0x1595F8         ; chooser epilogue
+        0x00000000,   # 0x4CAA7C  nop
+        0x080563DA,   # 0x4CAA80  LOOP: j 0x158F68      ; stay in state1 (counter intact)
+        0x00000000,   # 0x4CAA84  nop
+        0xAC800000,   # 0x4CAA88  ALIVE: sw zero, 0(a0) ; input present -> reset watchdog
+        0x080563DA,   # 0x4CAA8C  j    0x158F68         ; stock confirm/navigation path
+        0x00000000,   # 0x4CAA90  nop
+    ]
+    rch = struct.unpack_from("<I", data, RC_HOOK)[0]
+    rc_cave_now = data[RC_CAVE:RC_CAVE + len(rc_cave_words) * 4]
+    rc_free = all(b == 0 for b in rc_cave_now)
+    rc_done = struct.unpack_from("<I", data, RC_CAVE)[0] == rc_cave_words[0] and \
+              struct.unpack_from("<I", data, RC_CAVE + 4)[0] == rc_cave_words[1]
+    if rch == RC_J and rc_done:
+        print(f"  SKIP 0x{RC_HOOK:06X}: chooser watchdog already installed")
+    elif rch == RC_ORIG and (rc_free or rc_done):
+        for i, w in enumerate(rc_cave_words):
+            struct.pack_into("<I", data, RC_CAVE + i * 4, w)
+        # NOP the j's delay slot (VA 0x158F4C `lw r3,28(r3)`): r3 is GARBAGE here
+        # (clobbered by jal 0x1589D0 at 0x158F40), so the leftover load would fault.
+        # The cave re-does both loads (ptr + edge) correctly.
+        struct.pack_into("<I", data, RC_DELAY, 0x00000000)
+        struct.pack_into("<I", data, RC_HOOK, RC_J)   # hook -> j 0x4CAA30 (last)
+        print(f"  OK   0x{RC_CAVE:06X}: {len(rc_cave_words)*4}-byte chooser stuck-state1 watchdog")
+        print(f"  OK   0x{RC_HOOK:06X}: lw v1,-25656(gp) -> j 0x4CAA30 ; delay slot -> nop")
+        patched_count += 1
+    else:
+        print(f"  WARN 0x{RC_HOOK:06X}: hook=0x{rch:08X} free={rc_free} -- Patch 16 SKIPPED")
 
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)

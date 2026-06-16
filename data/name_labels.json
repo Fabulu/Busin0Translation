@@ -1,6 +1,11 @@
 {
   "_comment": "JP name-label string -> English. Keys are the DECODED form of 0x14 NAME/LABEL glyph slices via data/msg_glyph_map.json. Labels not found here are kept as original JP glyphs verbatim (safe fallback). Belgrano spelling is CANONICAL.",
   "シスター": "Sister",
+  "アイリス": "Iris",
+  "バスコー": "Basco",
+  "エバン": "Eban",
+  "フリージア": "Freesia",
+  "バルテルス": "Bartels",
   "オーク": "Orc",
   "ジン": "Gin",
   "ラング": "Lang",

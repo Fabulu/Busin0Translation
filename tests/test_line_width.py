@@ -99,11 +99,13 @@ from patch_section1_offsets import (  # noqa: E402
 # Thresholds / classification constants
 # ---------------------------------------------------------------------------
 # Hard ceiling on visible glyphs per on-screen line.  build_v9 wraps type-2 text
-# at TYPE2_WRAP_WIDTH (19: the boxed-dialogue frame fits ~20 cells; narration is
-# authored <=16).  A uniform <=19 gate is the hard upper bound that catches the
-# gross v89 clips while never tripping on a legitimately wrapped line.  Keep this
-# in sync with build/build_v9.py's TYPE2_WRAP_WIDTH.
-MAX_GLYPHS = 19
+# at TYPE2_WRAP_WIDTH (20: the boxed-dialogue frame fits ~20 cells; narration is
+# authored <=16).  Patch-12 (patch_exe.py) sets the per-glyph dialogue X-advance
+# to 18px, so 20 glyphs fit within the boxed frame — width 20 packs dialogue
+# tighter to reduce vertical overflow.  A uniform <=20 gate is the hard upper
+# bound that catches the gross v89 clips while never tripping on a legitimately
+# wrapped line.  Keep this in sync with build/build_v9.py's TYPE2_WRAP_WIDTH.
+MAX_GLYPHS = 20
 
 # Visible-glyph boundary: every control/formatting/marker word (0xFBxx..0xFFxx,
 # incl. choice 0xFFCx, line break 0xFFFE, page break 0xFFD2, terminator 0xFFFF)

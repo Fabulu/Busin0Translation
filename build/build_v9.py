@@ -237,6 +237,7 @@ os.system('python tools/patch_r2138.py')
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
 
 from patch_section1_offsets import inject_and_patch, group_choice_markers, HEADER_SIZE
+from dialogue_classifier import build_dialogue_map
 
 # Type-2 word-wrap width.  The BOXED dialogue frame fits ~20 cells (JP shipped
 # 18-19 glyphs/line); centered NARRATION is authored at <=16.  v91 used 16 which
@@ -245,9 +246,13 @@ from patch_section1_offsets import inject_and_patch, group_choice_markers, HEADE
 # matches the boxed frame (1-cell safety margin under ~20) AND is byte-identical
 # for narration (its authored lines are already <=16, so _wrap_line is a no-op
 # there).  This is the regression fix for v89 overflow (the loop previously never
-# word-wrapped, so ~2604 lines clipped).  Do NOT exceed 19 without re-checking
-# the len-18/19 tokens and the centered-narration space-advance.
-TYPE2_WRAP_WIDTH = 19
+# word-wrapped, so ~2604 lines clipped).  Width 20 (v98): Patch-12 (patch_exe.py)
+# set the per-glyph dialogue X-advance to 18px, so more characters fit per line —
+# width 20 packs boxed dialogue tighter (fewer wrapped lines -> less vertical
+# overflow) while staying within the ~20-cell boxed frame.  Do NOT exceed 20
+# without freshly re-measuring the box width and the centered-narration
+# space-advance (25 was rejected as too aggressive).
+TYPE2_WRAP_WIDTH = 20
 
 
 def _wrap_line(seg, max_chars):
@@ -277,6 +282,38 @@ def wrap_type2_text(text, max_chars=TYPE2_WRAP_WIDTH):
             lines.extend(_wrap_line(seg, max_chars))
         pages.append(' / '.join(lines))
     return ' // '.join(pages)
+
+
+def reflow_dialogue(text, width):
+    """Re-flow a BOXED-DIALOGUE string to fewer lines (v98 vertical-overflow fix).
+
+    Per ' // ' page, COLLAPSE the premature single-line ' / ' breaks (the JP
+    author wrapped at the narrow JP cell pitch) back into one flat string, then
+    re-wrap at `width` using the SAME greedy wrapper wrap_type2_text uses
+    (_wrap_line).  ' // ' page boundaries are PRESERVED.  This relies on the
+    18px Patch-12 X-advance to fit more glyphs per line, so collapsing + re-
+    wrapping yields <= the original number of ' / ' breaks per page (verified).
+
+    DIALOGUE-ONLY: the caller gates this behind build_dialogue_map so narration
+    (and choice/structural groups) are never reflowed."""
+    pages = []
+    for page in text.split(' // '):
+        flat = ' '.join(s.strip() for s in page.split(' / ') if s.strip())
+        pages.append(' / '.join(_wrap_line(flat, width)))
+    return ' // '.join(pages)
+
+
+# NOTE (v97): the v96 boxed-dialogue auto-pagination was REVERTED.  It inserted a
+# 0xFFD2 ' // ' "page break" every BOX_CAPACITY lines — but 0xFFD2 is NOT a page
+# break in this engine: it is an inline TEXT-COLOR control code (the 0xFFD0-0xFFD9
+# family, handlers 0x303370-0x303430; 0xFFD2 = set color-state 3).  The boxed
+# renderer's draw loop (VA 0x307510 @0x307904) skips every word >= 0x8000 and the
+# layout pass (0x302DB0) records a line ONLY on 0xFFFE — so the injected 0xFFD2
+# did nothing for layout (dialogue still overflowed) AND silently changed text
+# color, and a stray 0xFFD2/0xFFFE in the flat R1197 menu-label group softlocked
+# the request menu.  The engine paginates ONLY by splitting content across
+# separate scene-script groups (a future group-split, not an in-stream word).
+# Auto-pagination is therefore removed; long dialogue is left as v91 produced it.
 
 
 def load_pristine_choice_groups(res_idx, raw_dir='extracted/packdata_raw'):
@@ -311,6 +348,14 @@ def load_pristine_choice_groups(res_idx, raw_dir='extracted/packdata_raw'):
     except Exception:
         return set()
 
+# Structural FLAT-RUN groups that must SHIP PRISTINE (NOT translated): their
+# labels are addressed by an offset table / menu dispatch and have ZERO in-stream
+# 0xFFFE separators, so wrapping or breaking them desyncs the dispatch.  R1197
+# msg_index 1 is the Bar Luna Light request-menu label list — our breaks caused
+# the request-menu SOFTLOCK (render-verified: requestbroken__ee.bin).  Until a
+# proper offset-table-aware menu-label injector exists, ship these pristine.
+SKIP_STRUCTURAL_GROUPS = {(1197, 1)}
+
 # Load ALL type-2 translations
 all_trans = {}
 for fn in sorted(glob.glob('data/type2_translated/batch_*.json')):
@@ -319,6 +364,8 @@ for fn in sorted(glob.glob('data/type2_translated/batch_*.json')):
         for e in d:
             r = e['resource']
             mi = e['msg_index']
+            if (r, mi) in SKIP_STRUCTURAL_GROUPS:
+                continue
             en = e.get('english', '')
             if not en:
                 continue
@@ -369,6 +416,13 @@ for r_id in sorted(type02_resources):
     # downstream encode_choice_group segment->option mapping stays byte-exact.
     choice_groups = load_pristine_choice_groups(r_id)
 
+    # Boxed-dialogue groups (v98): only these may be REFLOWED (collapse premature
+    # ' / ' breaks then re-wrap) to reduce vertical overflow.  build_dialogue_map
+    # errs toward NARRATION (zero narration->dialogue false positives), so any
+    # group NOT in this set is byte-identical to before (reflow skipped).  An
+    # unwalkable Section 1 yields an empty set -> nothing reflowed (ships as v97).
+    dialogue_groups = build_dialogue_map(r_id)
+
     # Encode English text to glyph lists
     encoded_trans = {}
     for mi, en_text in msg_trans.items():
@@ -377,26 +431,28 @@ for r_id in sorted(type02_resources):
         # passed through unchanged — wrapping them would corrupt the option
         # segmentation in encode_choice_group.
         if mi not in choice_groups:
+            # Reflow ONLY boxed dialogue (collapse premature ' / ' breaks within
+            # each ' // ' page, then re-wrap at the wider width) — fewer lines =>
+            # less vertical overflow.  Narration is NOT in dialogue_groups, so it
+            # passes straight to wrap_type2_text byte-identically to v97.
+            if mi in dialogue_groups:
+                en_text = reflow_dialogue(en_text, TYPE2_WRAP_WIDTH)
             en_text = wrap_type2_text(en_text)
-        # Translations carry explicit breaks: " // " = page break (0xFFD2),
-        # " / " = line break (0xFFFE).  We emit 0xFFD2 ONLY for an authored
-        # " // " — NEVER auto-insert one.  The centered-narration renderer
-        # (e.g. the R1196 intro) does NOT paginate on a mid-message 0xFFD2; it
-        # draws the following text inline, which caused the v90 fat-gap /
-        # over-wide / both-edge-clip regression (groups 569/575/577).  Pristine
-        # JP narration groups use only 0xFFFE; a genuinely long boxed message
-        # that needs a real page break must author " // " in the JSON.
-        # Word-count-neutral vs the old auto-page-break (every " / " boundary
-        # still emits exactly one u16 word), so the R1203 cap below is unchanged.
+        # Translations use " / " and " // " as LINE breaks -> 0xFFFE.  We NEVER
+        # emit 0xFFD2: it is NOT a page break in this engine (it is an inline
+        # text-COLOR control code, 0xFFD0-0xFFD9 family — see the v97 note above),
+        # so a " // " is treated identically to a " / " (a line break).  This
+        # means long dialogue still overflows the box (true pagination needs a
+        # scene-script group split, deferred), but it never corrupts text color
+        # or softlocks a menu.  Both break types are one u16 word, so the R1203
+        # cap below is unchanged.
         glyphs = []
-        for page_i, page in enumerate(en_text.split(' // ')):
-            if page_i > 0:
-                glyphs.append(0xFFD2)  # explicit page break from " // "
-            for pi, part in enumerate(page.split(' / ')):
-                if pi > 0:
-                    glyphs.append(0xFFFE)  # line break from " / "
-                for ch in part:
-                    glyphs.append(enc(ch))
+        parts = [seg for page in en_text.split(' // ') for seg in page.split(' / ')]
+        for pi, part in enumerate(parts):
+            if pi > 0:
+                glyphs.append(0xFFFE)  # line break (from " / " or " // ")
+            for ch in part:
+                glyphs.append(enc(ch))
         encoded_trans[mi] = glyphs
 
     # R1203: Section 2 overflow guard.
