@@ -582,6 +582,15 @@ for script in [
         print(f'FATAL: v86 patcher failed: {script}')
         sys.exit(1)
 
+# --- DIAGNOSTIC: ship R39 PRISTINE to test the request-menu regression hypothesis ---
+# When build/R39_PRISTINE.flag exists, drop our patched R39 so rebuild_packdata
+# falls back to extracted/packdata_raw/0039_type15.raw (the original).  Isolates
+# whether our R39 quest injection (risky offset-table rebuild) breaks the request menu.
+if os.path.exists('build/R39_PRISTINE.flag'):
+    if os.path.exists('build/packdata_resources/0039_type15.raw'):
+        os.remove('build/packdata_resources/0039_type15.raw')
+    print("  [DIAG] R39_PRISTINE.flag set -> R39 ships PRISTINE (original quest data)")
+
 # ===== STEP 7: Rebuild PACKDATA =====
 print("\n=== Step 7: Rebuild PACKDATA.DIG ===")
 os.system('python build/rebuild_packdata.py')

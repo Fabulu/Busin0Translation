@@ -629,7 +629,14 @@ def main():
     rc_free = all(b == 0 for b in rc_cave_now)
     rc_done = struct.unpack_from("<I", data, RC_CAVE)[0] == rc_cave_words[0] and \
               struct.unpack_from("<I", data, RC_CAVE + 4)[0] == rc_cave_words[1]
-    if rch == RC_J and rc_done:
+    # OBSOLETE — permanently disabled. The request-list "softlock" was a SYMPTOM of our own
+    # R39 corruption (the quest section-table at bytes 0..240 was not remapped when the
+    # resource grew), now fixed at the data level in build/inject_r39_quest.py (block 10b).
+    # The watchdog is no longer needed AND it force-closed the menu after ~300 idle frames,
+    # so it is never installed. Cave words / hook constants kept above for reference only.
+    if True:
+        print("  Patch 16: OBSOLETE (request freeze root-fixed in R39) -> NOT installed")
+    elif rch == RC_J and rc_done:
         print(f"  SKIP 0x{RC_HOOK:06X}: chooser watchdog already installed")
     elif rch == RC_ORIG and (rc_free or rc_done):
         for i, w in enumerate(rc_cave_words):
@@ -644,6 +651,91 @@ def main():
         patched_count += 1
     else:
         print(f"  WARN 0x{RC_HOOK:06X}: hook=0x{rch:08X} free={rc_free} -- Patch 16 SKIPPED")
+
+    # ─── Patch 18: ONE-SHOT hub-pane rebuild on request->hub return (cave @ 0x4C7860) ─
+    # ROOT (workflow wnbqrvw5c, disasm + 146-save verified): after the Requests chooser
+    #   tears down, the parent submenu-host fn 0x13CA50 releases its child handle but the
+    #   hub script is never re-pumped, so the hub pane stays un-rebuilt (ctx render fields
+    #   +0xA0/+0xAC handles stale, +0xB0=3, +0x290 bit2=0).  A NORMAL submenu (message
+    #   board) exit rebuilds via opcode 0x1A -> {jal 0x2F1B10 rewind; jal 0x2F3330 pump},
+    #   which the request exit skips.
+    # WHY THIS SUCCEEDS where Patch 17/18-prior FAILED: those hooked the PER-FRAME shared
+    #   handler 0x2F2490 and polled ctx state -> fired mid-construction (black screen, then
+    #   tavern-entry softlock).  THIS hooks the parent-release store at 0x13CAE8 INSIDE fn
+    #   0x13CA50, which has ZERO jal/j callers (runs only as a scheduler node) and is
+    #   ABSENT from the scheduler during construction (firsttavern/narration/chargen run
+    #   under 0x13BA00/0x2F2490, NOT 0x13CA50 — verified).  The store is reached one-shot
+    #   (child+0x1c!=0 @0x13CAB4 AND child+0x8&0x40 @0x13CAD8) and clears the handle, so it
+    #   cannot re-fire.  EVENT-DRIVEN, not a per-frame poll.
+    # GUARDS (146-save verified to fire on EXACTLY the 7 broken/request saves, skip all
+    #   else): hub-ctx from global [0x4FEDBC] (gp-0x6234); A: ctx+0x00==0x011C3D20 (hub
+    #   script base); B: ctx+0x290 & 4 == 0 (pane NOT shown).  0x13CA50 is a GENERIC submenu
+    #   host so it also runs on message-board exit — GUARD B is MANDATORY: it skips a healthy
+    #   hub (+0x290=4) so we never re-pump and leak GS handles (leftmessageboard/tavern104
+    #   skip cleanly).  Then run ONLY the existing-node build body {0x2F1B10; 0x2F3330} (NOT
+    #   0x2F2AE0/0x496310 -> would dup the node; NOT 0x2F2880 -> GOLD never runs it).
+    # CAVE @ VA 0x4C7860 (file 0x3C78E0), 27 words (0x6C B), ends 0x4C78CC — zero in pristine
+    #   EXE; firsttavern.p2s (pre-patch) shows it zero in RAM too (NOT runtime-written); off
+    #   Patch14(0x4C7540-0x4C7790)/Patch16(0x4CAA30).  Live {flag,ptr} data sits at
+    #   0x4C7828-0x4C785C (before the cave) — do NOT extend backward.
+    print("\n--- Patch 18: ONE-SHOT hub-pane rebuild on request->hub return (cave @ 0x4C7860) ---")
+    ON_HOOK = 0x03CB68    # VA 0x13CAE8  sw zero,0x1c(s1)  (parent releases child handle)
+    ON_ORIG = 0xAE20001C
+    ON_CAVE = 0x3C78E0    # VA 0x4C7860
+    ON_J    = 0x08131E18  # j 0x4C7860
+    on_cave_words = [
+        0xAE20001C,   # 0x4C7860  sw   zero, 0x1c(s1)    ; displaced original (release handle)
+        0x8F849DCC,   # 0x4C7864  lw   a0, -0x6234(gp)   ; a0 = hub-ctx global [0x4FEDBC]
+        0x10800016,   # 0x4C7868  beq  a0, zero, 0x4C78C4 ; no menu -> SKIP
+        0x00000000,   # 0x4C786C  nop
+        0x8C820000,   # 0x4C7870  lw   v0, 0x0(a0)       ; script cursor
+        0x3C03011C,   # 0x4C7874  lui  v1, 0x011C
+        0x34633D20,   # 0x4C7878  ori  v1, v1, 0x3D20    ; v1 = 0x011C3D20 (hub script base)
+        0x14430011,   # 0x4C787C  bne  v0, v1, 0x4C78C4  ; GUARD A: not the hub -> SKIP
+        0x00000000,   # 0x4C7880  nop
+        0x8C820290,   # 0x4C7884  lw   v0, 0x290(a0)     ; pane bitfield
+        0x30420004,   # 0x4C7888  andi v0, v0, 0x4
+        0x1440000D,   # 0x4C788C  bne  v0, zero, 0x4C78C4 ; GUARD B: pane already shown -> SKIP
+        0x00000000,   # 0x4C7890  nop
+        0x27BDFFE0,   # 0x4C7894  addiu sp, sp, -0x20
+        0xAFBF0010,   # 0x4C7898  sw   ra, 0x10(sp)
+        0xAFA40014,   # 0x4C789C  sw   a0, 0x14(sp)      ; preserve hub ctx across jal
+        0x0C0BC6C4,   # 0x4C78A0  jal  0x2F1B10          ; rewind cursor to base
+        0x00000000,   # 0x4C78A4  nop
+        0x8FA40014,   # 0x4C78A8  lw   a0, 0x14(sp)      ; a0 = hub ctx
+        0x0C0BCCCC,   # 0x4C78AC  jal  0x2F3330          ; pump -> realloc +A0/+AC, +B0=4, +290|=4
+        0x00000000,   # 0x4C78B0  nop
+        0x8FBF0010,   # 0x4C78B4  lw   ra, 0x10(sp)
+        0x27BD0020,   # 0x4C78B8  addiu sp, sp, 0x20
+        0x0804F2BC,   # 0x4C78BC  j    0x13CAF0          ; return (rebuilt path)
+        0x00000000,   # 0x4C78C0  nop
+        0x0804F2BC,   # 0x4C78C4  SKIP: j 0x13CAF0       ; return (guard-skip path)
+        0x00000000,   # 0x4C78C8  nop
+    ]
+    onh = struct.unpack_from("<I", data, ON_HOOK)[0]
+    on_cave_now = data[ON_CAVE:ON_CAVE + len(on_cave_words) * 4]
+    on_free = all(b == 0 for b in on_cave_now)
+    on_done = struct.unpack_from("<I", data, ON_CAVE)[0] == on_cave_words[0] and \
+              struct.unpack_from("<I", data, ON_CAVE + 4)[0] == on_cave_words[1]
+    # OBSOLETE — permanently disabled. Patch 18 tried to rebuild the hub menu after the
+    # request exit, but the menu-gone was itself a downstream symptom of the R39 freeze (now
+    # root-fixed in inject_r39_quest.py). The hook at 0x13CAE8 also never actually fires
+    # (the parent bit-0x40 handshake is never set on the request path), so it was inert.
+    # Never installed; cave words kept above for reference only.
+    if True:
+        print("  Patch 18: OBSOLETE (request freeze root-fixed in R39; hook was inert) -> NOT installed")
+    elif onh == ON_J and on_done:
+        print(f"  SKIP 0x{ON_HOOK:06X}: one-shot hub rebuild already installed")
+    elif onh == ON_ORIG and (on_free or on_done):
+        for i, w in enumerate(on_cave_words):
+            struct.pack_into("<I", data, ON_CAVE + i * 4, w)
+        for k in range(len(on_cave_words), 24):
+            struct.pack_into("<I", data, ON_CAVE + k * 4, 0)
+        struct.pack_into("<I", data, ON_HOOK, ON_J)
+        print(f"  OK   0x{ON_CAVE:06X}: one-shot rebuild cave")
+        patched_count += 1
+    else:
+        print(f"  WARN 0x{ON_HOOK:06X}: hook=0x{onh:08X} free={on_free} -- Patch 18 SKIPPED")
 
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)

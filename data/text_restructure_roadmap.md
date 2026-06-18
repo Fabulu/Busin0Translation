@@ -56,3 +56,102 @@ desync. So Stage 0 first, always.
 - R1193 per-record glyph ceiling (the 23-record 0x14 layout max addressable glyphs/record).
 - New R1203_MAX_GROUP after px-wrap.
 - Net PACKDATA size delta (latent BSN2_0.DSI overflow may shrink/grow/cross a boundary).
+
+## Playtest-observed issues to fix in this restructure (added 2026-06-18)
+Evidence saves live in ramdumps/ (and build/) — boot FRESH to reproduce.
+- **Overflow WITHOUT wrap, top-right element** — `anotheroverflow.ps2`. A text box (top-right of
+  screen) renders past its right edge and never wraps. Its render path is NOT covered by the
+  build wrap helpers (Step 2a list) — find which box/resource it is and route it through `wrap_px`.
+- **Too-early text wrap** — text wraps well before the box right edge (wasted line width). The
+  current wrap budget is too conservative for the proportional metrics; this is the flip side of
+  Step 2a (DIALOGUE_BOX_PX=324 interim is a guess). Must measure the real box right-edge clip
+  (Open decision #1) and widen the budget so lines fill the box.
+- **Chargen text boxes need the spacing fix** — full executable plan in
+  **`data/chargen_spacing_backlog.md`** (6-agent analysis wvc2fwiw6, 2026-06-18).
+  CORRECTION to earlier assumption: chargen prose text is NOT a different font system. The prompt
+  bars (R37 MSG) and description/personality boxes (R38 MSG) render through the SAME R1188 24x24
+  atlas as narration, via a sibling sub-path (Path 1) of the SAME renderer func 0x307DA0 — so the
+  fix REUSES tools/glyph_metrics.py + data/r1188_ascii_metrics.json unchanged (gid==char-32).
+  Path 1 uses pen 0x1cc(sp) (narration uses 0x1ce(sp)), so a Path-1 cave can't disturb the shipped
+  narration fix. ONE Path-1 cave at the advance site VA 0x308040 (addiu v0,v0,0x18 fixed 24px) covers
+  ALL chargen boxes; ship Stage-1 advance + Stage-3 centering (count*12 @0x307FBC/0x307FC4) TOGETHER
+  or every line drifts. R2100/R2138 only supply the pre-rendered stat/keyboard/tab labels that
+  coexist on-screen (Family C, separate pixel-strip track). GATE: a live .gs.zst + single-step of
+  0x307DA0 on ramdumps/space2.p2s must confirm Path 1 + the gid register BEFORE cutting the cave.
+
+## Request menu (R39) remaining polish (added 2026-06-18) — freeze + content FIXED, two cosmetic items left
+The request-menu FREEZE is fixed (section-table remap) and v115 fixed the offset BASE so all quest
+content (titles/descriptions/clients/labels) resolves to correct English. Two cosmetic issues remain:
+
+### BUG A — 12-cell title/label field clip (needs a decision)
+The single-line request TITLE/LABEL field is drawn by `draw_clamp12` @ VA 0x3A3300: HARD cap 12 cells
+(`slti r1,r3,0x0d` @0x3A3370; `addiu r23,r0,0x0c` @0x3A337C) + RIGHT-ANCHOR (shows the TAIL). So
+"Treasure of the Ancient Royal Palace" (offset correct) displays as "t Royal Palace". Physical field
+width ~15-18 cells before colliding with the R1 page/scroll glyph. EXE cap-raise needs 2 more traces
+(the un-located right-anchor pre-advance + box geometry) and STILL can't fit 36-char titles -> recon
+recommends OPTION A: shorten the 33 quest titles to <=12 cells (data edit in
+data/type2_translated/batch_r39_equip_b.json, groups G443-476). Proposed short forms exist in workflow
+wd76rp3we synthesis (e.g. "Treasure of the Ancient Royal Palace"->"Royal Hoard"). LOSSY — needs user
+sign-off on wording. Full text stays legible in the uncapped description body (draw_stream 0x3A2EF0).
+
+### 民 kanji on some detail labels — DUAL-PURPOSE TABLE corruption (intricate; pre-existing since v84)
+ROOT (verified against pristine R39): the four R39 quest offset tables are DUAL-PURPOSE. G411 and G442
+embed a SHARED KANJI GLYPH DICTIONARY in their interiors, and 13 cross-table slots point INTO it:
+  - G381 (client) slots 55,57,59,61,63,65 -> G411 interior (g5,g10,g26,g31,g37,g43)
+  - G411 (uilabel) slots 54,56,58,60,62,64,66 -> G442 interior (g11,g25,g29,g37,g42,g48,g56)
+  - G442 dictionary GLYPHS live at slots [40:71] (pristine values 540,566,584... = 口重全聞突誰功能獲焼...)
+inject_r39_quest.py's offset rebuild (new_target=new_gs for ALL slots) does TWO wrong things:
+  (1) collapses the 13 cross-table pointers to g0 (value -> 966=民 / 786) -> the "民 民 民" run;
+  (2) REMAPS the dictionary-glyph slots (G442 [40:71]) as if they were offsets -> destroys the kanji
+      (pristine 口重全聞... -> garbage 頼合...).
+THE FIX (careful, not yet done): in build/inject_r39_quest.py rebuild loop, classify slots:
+  - target = content group -> new_gs (current, correct);
+  - target = inside an offset table (gi in TABLE_GROUPS, the dictionary) -> preserve glyph ORDINAL:
+    new_target = new_group_starts[gi] + glyph_idx*2 (re-point at the dict glyph's new position);
+  - the dictionary-GLYPH slots themselves (glyph ids, not offsets) -> PRESERVE VERBATIM (do not rebuild).
+The hard part: distinguishing dictionary-glyph slots from real offsets by value alone is impossible
+(a glyph id 540 also resolves as an offset to a content group). Need to HARDCODE the dict regions
+(G442 [40:71], G411's dict slots) from the verified pristine map above, or detect via "value resolves
+mid-group / not to a group start". Cosmetic + pre-existing (v114 had it too) -> deferred, not urgent.
+
+## Translation QA: NAME CONSISTENCY audit (backlog, added 2026-06-18, user)
+A character/place is romanized DIFFERENTLY in different places, and the dialogue body can disagree
+with the character's actual NAME slot. Confirmed example: Japanese **ライマン** appears as "Layman"
+in some dialogue and "Rainman" in others (name slot vs dialogue text disagree). ライマン (Raiman) is
+genuinely ambiguous romanization — a canonical form must be DECIDED then applied everywhere.
+TASK: scour ALL dialogue + name data for name-spelling discrepancies and reconcile to ONE canonical
+form per name.
+APPROACH (scriptable audit):
+1. Build the canonical name list from data/glossary.json (225 entries, has "name" fields) + the EXE
+   NPC name table (patch_exe.py Patch 3, Table 2F) — map each Japanese name (e.g. ライマン) -> its
+   ONE intended English spelling. Decide canonical where ambiguous (Layman vs Rainman -> pick one).
+2. For each canonical Japanese name, grep ALL translation sources — data/type2_translated/batch_*.json,
+   data/translate_chunks/chunk_*_translated.json, R39 client names, R46/R47 bulletin, strip_labels —
+   for every English variant currently used, and flag mismatches.
+3. Produce a discrepancy report (japanese | canonical | variants-found | files) and a fix worklist;
+   apply the canonical spelling everywhere.
+4. Special care: names rendered via glyph-id streams (NPC name table, R39 clients) vs ASCII text —
+   both must match. Cross-ref data/guide_crossref_inferences.json (has the ライマン decoded contexts).
+This is a polish-pass task; can be a dedicated name-audit workflow.
+
+## CONFIRMED playtest priorities (2026-06-18, user) — the high-value wins now that spacing is solved
+These are no longer "maybe" — they are confirmed visual problems to fix. The narrow/proportional
+spacing reclaimed BOTH horizontal and vertical room; spend it:
+1. **Dialogue + narration must USE the reclaimed HORIZONTAL space** — the wrap budget is still too
+   conservative, so lines break early and waste width. We have the room now. Raise the wrap budget
+   (Step 2a DIALOGUE_BOX_PX, Step 1b NARR_BOX_PX) after measuring the true box right-edge clip
+   (Open decision #1). This is the "too-early wrap" item, now a confirmed priority.
+2. **Narration ALIGNMENT is broken** ("fucked") — confirmed in-game, not just the known ~11-34px
+   centering drift. The Stage-3 summed-width centering (replace PATCH 13 count*18 reserve with a
+   SUM(ADV) reserve so origin = center - sum/2) is REQUIRED, not optional. Roadmap step 1a.
+3. **Dialogue vertical overflow — TARGET = 3 lines per box.** Clarified by user: the dialogue box
+   comfortably fits ~3 lines; 4 lines already spill OVER the box edge (still legible, but wrong).
+   So the goal is NOT to cram more lines in — it is to wrap WIDER so dialogues need only 3 lines.
+   PRIMARY lever: spend the reclaimed HORIZONTAL space (priority 1) — a higher px-wrap budget puts
+   more chars per line → 3 lines instead of 4+. SECONDARY: dialogues that STILL exceed 3 lines after
+   wider wrap need authored ' // ' page-splits (never auto 0xFFD2). Do NOT pursue a line-pitch
+   tightening to fit 4-5 lines — box capacity is ~3 comfortable lines; aim for 3. (a) measure box
+   vertical capacity to confirm 3-line target (Open decision #2, y~363..473); (b) tune
+   DIALOGUE_BOX_PX so typical dialogue lands in 3 lines; (c) worklist the dialogues that still need
+   ' // ' splits. Goal: no dialogue spills past the box edge; 3 lines is the design target.
+

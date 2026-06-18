@@ -350,6 +350,73 @@ R46_SUB2[87] = "who?!"              # 10 cap, 5 ok
 R46_SUB2[93] = "but thru"           # 8 cap, 8 ok
 
 # ============================================================================
+# BUG-B fix: bulletin-board source text was authored ALL LOWERCASE. The board
+# title renders capitalized (separate source) but every POST body/name/title
+# above is lowercase. Recapitalize the FINAL effective R46 values (after all
+# overrides) to proper sentence case + proper nouns.
+#
+# CRITICAL: this is purely a per-letter case change (a/A are distinct glyphs
+# but BOTH single-width — verified against english_glyph_table.json), so glyph
+# COUNT is preserved exactly. Line breaks (' / '), control codes, and slot
+# capacities used by build_symmetric_payload are therefore untouched. Applied
+# ONLY to R46 (bulletin board); R47 combat/UI labels are left as-is.
+# ============================================================================
+import re as _re_recap
+
+_RECAP_PROPER = {
+    "duhan": "Duhan", "oriana": "Oriana", "vigger": "Vigger", "venoan": "Venoan",
+    "venoa": "Venoa", "karman": "Karman", "karmans": "Karmans", "seraph": "Seraph",
+    "kreta": "Kreta", "ripu": "Ripu", "jankenman": "Jankenman", "janken": "Janken",
+    "turgot": "Turgot", "gido": "Gido", "miri": "Miri", "pamela": "Pamela",
+    "aurora": "Aurora", "simson": "Simson", "simsons": "Simsons", "bergran": "Bergran",
+    "narcia": "Narcia", "webster": "Webster", "macbain": "Macbain", "popo": "Popo",
+    "tranmell": "Tranmell", "porora": "Porora", "bogey": "Bogey", "banshee": "Banshee",
+    "banshees": "Banshees", "orc": "Orc", "orcs": "Orcs", "hobbit": "Hobbit",
+    "imp": "Imp", "pixie": "Pixie", "pixies": "Pixies", "elf": "Elf", "elves": "Elves",
+    "automata": "Automata", "gerard": "Gerard", "thru": "Thru", "princess": "Princess",
+    "witch": "Witch", "san": "San", "goth": "Goth",
+}
+_RECAP_I_FORMS = {"i", "im", "ill", "id", "ive", "i'm", "i'll", "i'd", "i've"}
+
+def _recap_fix_i(tok):
+    return ("I" + tok[1:]) if tok.lower() in _RECAP_I_FORMS else tok
+
+def _recap_word(tok, prev_hyphen, next_hyphen):
+    low = tok.lower()
+    if low in ("san", "goth"):  # only proper inside the hyphenated San-Goth
+        return _RECAP_PROPER[low] if (prev_hyphen or next_hyphen) else tok
+    return _RECAP_PROPER.get(low, tok)
+
+def recapitalize_post(text):
+    """Sentence-case + proper-noun capitalization. Length-preserving (case-only)."""
+    out = []
+    toks = _re_recap.findall(r"[A-Za-z']+|[^A-Za-z']+", text)
+    sentence_start = True
+    for i, tok in enumerate(toks):
+        if _re_recap.match(r"^[A-Za-z']+$", tok):
+            ph = i > 0 and toks[i - 1].endswith('-')
+            nh = i + 1 < len(toks) and toks[i + 1].startswith('-')
+            w = _recap_word(_recap_fix_i(tok), ph, nh)
+            if sentence_start and w[0].islower():
+                w = w[0].upper() + w[1:]
+            out.append(w)
+            sentence_start = False
+        else:
+            out.append(tok)
+            if _re_recap.search(r"[.!?]", tok):
+                sentence_start = True   # new sentence after . ! ?
+            elif _re_recap.search(r"[0-9]", tok):
+                sentence_start = False  # digits begin sentence content (e.g. "600 years")
+    return "".join(out)
+
+for _recap_d in (R46_SUB0, R46_SUB1, R46_SUB2):
+    for _recap_k in list(_recap_d):
+        _recap_new = recapitalize_post(_recap_d[_recap_k])
+        assert len(_recap_new) == len(_recap_d[_recap_k]), \
+            f"recap changed length for {_recap_k!r}: {_recap_d[_recap_k]!r} -> {_recap_new!r}"
+        _recap_d[_recap_k] = _recap_new
+
+# ============================================================================
 # R47 SUB0: Combat text
 # Capacities: msg2=6 msg3=13 msg4=5 msg5=5 msg6=15 msg7=20 msg8=16
 # msg9=18 msg10=13 msg11=13 msg12=11 msg13=5 msg14=6 msg15=8 msg16=16

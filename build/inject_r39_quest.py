@@ -133,9 +133,37 @@ assert group_starts[382] == 19976, f"G382 expected at 19976, got {group_starts[3
 assert group_starts[412] == 20556, f"G412 expected at 20556, got {group_starts[412]}"
 assert group_starts[443] == 21196, f"G443 expected at 21196, got {group_starts[443]}"
 
-# Offset tables: group index -> base (byte immediately after the table's FFFF)
+# Offset tables: group index -> base.
+#
+# RECON 4 GROUND TRUTH (verified by decoding the pristine JP resource, which renders
+# correctly in-game): each table is a flat list of BE-u16 (value,0) pairs. The table
+# BASE is NOT the byte after the table's FFFF terminator — it is the byte address of
+# the table's FIRST NON-ZERO slot. That first non-zero value is the table's internal
+# HEADER/COUNT (34/29/30/34) and points back into the table itself (self-referential);
+# it is NOT a content pointer and must be preserved verbatim. Every SUBSEQUENT non-zero
+# slot is `base + value` = the START byte (glyph 0) of one content group, mapped 1:1 and
+# sequentially to consecutive content groups (G347.., G382.., G412.., G443..).
+#
+# The OLD `base = group_starts[t] + len*2 + 2` (after-FFFF) anchor was ~124-140 bytes
+# too late, so base+value landed ~70 glyphs PAST each group start -> mid-string titles,
+# kanji from the wrong group, garbled options. Verified: with the correct base, all
+# 34/29/30/34 non-header slots resolve EXACTLY to group starts and decode full English.
 TABLE_GROUPS = [346, 381, 411, 442]
+
+def first_nonzero_index(vals):
+    for i, v in enumerate(vals):
+        if v != 0:
+            return i
+    raise AssertionError("table has no non-zero slot")
+
+table_first_nz = {t: first_nonzero_index(groups[t]) for t in TABLE_GROUPS}
+# header/count slot = the first non-zero slot (value 34/29/30/34 = entry COUNT, self-referential,
+# NOT a content offset) -> preserved verbatim via header_slot skip below.
+# BASE = byte after the table's FFFF terminator (the after-FFFF anchor). PROVEN correct by
+# ground-truth: pristine G442 slot8(168) + base 21196 = 21364 = G451 g3 = 戦の秘宝 (the real JP
+# title). The first-non-zero base (21056) lands on G445 (a DIFFERENT quest) — REJECTED.
 table_bases = {t: group_starts[t] + len(groups[t]) * 2 + 2 for t in TABLE_GROUPS}
+assert table_first_nz == {346: 4, 381: 7, 411: 6, 442: 2}, table_first_nz
 assert table_bases[346] == 14652 and table_bases[381] == 19976
 assert table_bases[411] == 20556 and table_bases[442] == 21196
 
@@ -145,13 +173,17 @@ print("Structure assertions passed.")
 # 5. Build semantic maps for the four offset tables (G346/G381/G411/G442)
 # ---------------------------------------------------------------------------
 
-def build_offset_semantics(table_raw_values, base, groups, group_starts):
+def build_offset_semantics(table_raw_values, base, groups, group_starts, header_slot):
     """
     For each non-zero value in table_raw_values, find which group+glyph_idx it points to.
     Returns list of (slot_index, orig_offset, group_idx, glyph_idx).
+    The header_slot (first non-zero = the self-referential count) is SKIPPED so it is
+    preserved verbatim and never remapped as a content offset.
     """
     semantics = []
     for slot_i, v in enumerate(table_raw_values):
+        if slot_i == header_slot:
+            continue  # header/count slot: preserve verbatim, not a content pointer
         if v != 0 and v != 0xFFFF and v != 0xFFFE:
             target = base + v
             found = False
@@ -171,7 +203,8 @@ table_raw = {}        # table group -> list of original uint16 slot values
 table_semantics = {}  # table group -> [(slot_i, orig_v, group_idx, glyph_idx), ...]
 for t in TABLE_GROUPS:
     table_raw[t] = list(groups[t])
-    table_semantics[t] = build_offset_semantics(table_raw[t], table_bases[t], groups, group_starts)
+    table_semantics[t] = build_offset_semantics(
+        table_raw[t], table_bases[t], groups, group_starts, table_first_nz[t])
     print(f"G{t}: {len(table_semantics[t])} non-zero offset entries")
 
 # ---------------------------------------------------------------------------
@@ -187,6 +220,20 @@ for t in TABLE_GROUPS:
 
 TRANSLATE_GROUPS = set(range(412, 477))  # G412-G476 inclusive
 TRANSLATE_GROUPS.discard(442)  # G442 is an offset table, not plain text
+
+# Party-rank / event notification bar messages (directly index-addressed, NOT
+# pointed at by any of the four offset tables G346/G381/G411/G442 — verified the
+# tables only reach group 479). These render in the thin black notification bar
+# in the tavern. Only STATIC strings (no [FF01]/[FFF0]/[FF00] runtime value-splice
+# markers in the Japanese) are safe to inject here; messages that splice dynamic
+# values (647/649/651 [Disabled], 652/653 [Allied Points], 654 [AA]) are EXCLUDED
+# because their authored English carries literal [Disabled]/[AA] placeholders that
+# would render as garbage and break the runtime substitution.
+#   G650 "パーティランクが発生しました" -> "A party rank has been established!"
+#        (the regression the user saw: title renders English but the bar stayed JP)
+STATIC_NOTIFY_GROUPS = {650}
+TRANSLATE_GROUPS |= STATIC_NOTIFY_GROUPS
+
 ALIGNED_GROUPS = set(range(348, 381)) | set(range(383, 411))
 
 new_groups = {i: list(groups[i]) for i in range(len(groups))}  # copy all
@@ -240,7 +287,12 @@ print(f"Old end: {old_total} bytes, New end: {new_file_len} bytes (delta: {new_f
 # ---------------------------------------------------------------------------
 
 for t in TABLE_GROUPS:
-    new_base = new_group_starts[t] + group_byte_size(t)
+    # CORRECT base = the GROWN after-FFFF anchor (byte right after the table's FFFF),
+    # matching the renderer (ground-truth proven: pristine after-FFFF base + slot value lands
+    # on the real JP title; first-non-zero base lands on the wrong quest). new_offset is
+    # computed against THIS base so the renderer (which uses the same after-FFFF base) reads
+    # the English group's glyph 0.
+    new_base = new_group_starts[t] + len(groups[t]) * 2 + 2
     print(f"G{t} base: old={table_bases[t]}, new={new_base} (delta={new_base - table_bases[t]:+d})")
 
     new_vals = list(table_raw[t])  # copy (slot count unchanged)
@@ -249,7 +301,13 @@ for t in TABLE_GROUPS:
         if gi < 0:
             continue
         new_gs = new_group_starts[gi]
-        new_target = new_gs + glyph_idx * 2
+        # Each non-header slot is a 1:1 sequential pointer to a content group's START
+        # (glyph 0) — pristine resolves base+value to Gxxx g0 for every slot (verified
+        # 34/29/30/34 with zero misses). Point at the group start; with the now-correct
+        # base (first-non-zero-slot byte addr) this lands exactly on glyph 0 in the
+        # grown English stream. The earlier garble (mid-string title, 民 kanji, clipped
+        # options) was ENTIRELY a wrong-base bug, not an ordinal/target-choice bug.
+        new_target = new_gs            # group start (glyph 0)
         new_offset = new_target - new_base
         if new_offset < 0:
             print(f"  WARNING: G{t} slot[{slot_i}]: negative offset {new_offset}")
@@ -281,6 +339,79 @@ for gi in range(REBUILD_FIRST_GROUP, len(groups)):
     out += struct.pack('>H', 0xFFFF)
 
 assert len(out) == new_file_len, f"Size mismatch: {len(out)} vs {new_file_len}"
+
+# ---------------------------------------------------------------------------
+# 10b. CRITICAL: Remap the 15-entry top-level section table (bytes 0..240).
+#
+# Each record is a 16-byte LE struct [group_idx, size, file_offset, 0] giving the
+# ABSOLUTE byte (offset, length) of one on-disk sub-section. The runtime loader
+# (fn 0x492700 -> writes gp-0x6804 at 0x30D328) parses these descriptors to build
+# the in-memory request CELL ARRAY that the tavern request chooser (0x158E00 /
+# opener 0x159620) reads. Records 6..14 cover the quest block at/after byte 14504,
+# which we just GREW. If their offset/size are left at the pristine values they now
+# point at the WRONG bytes -> the loader derives a bogus record count (H1) -> the
+# chooser's count loop 0x313A40 walks OOB -> HARD FREEZE (the request-menu softlock
+# we previously masked with the PATCH-16 watchdog).
+#
+# Fix: remap every record whose offset >= 14504 through old->new byte positions.
+# Records before 14504 are in the untouched prefix and stay byte-identical.
+# ---------------------------------------------------------------------------
+SECTION_TABLE_RECORDS = 15          # bytes 0..240, 16 bytes each
+SECTION_TABLE_END = SECTION_TABLE_RECORDS * 16
+
+# old byte position of the end of the FFFF stream (last group end), and its new
+# position, used for the constant tail-shift of any descriptor past the stream.
+_last = len(groups) - 1
+old_stream_end = group_starts[_last] + len(groups[_last]) * 2 + 2
+new_stream_end = new_file_len
+tail_delta = new_stream_end - old_stream_end
+
+def old_to_new_byte(b):
+    """Map an absolute byte position in pristine R39 to its position in the rebuilt
+    (grown) file. Positions in the untouched prefix are identity; positions inside
+    the rebuilt FFFF stream are mapped group-relative (preserving the in-group byte
+    offset, clamped to the new group size); positions at/after the stream end shift
+    by the constant tail delta."""
+    if b < original_prefix_end:
+        return b
+    if b >= old_stream_end:
+        return b + tail_delta
+    for gi in range(REBUILD_FIRST_GROUP, len(groups)):
+        gs = group_starts[gi]
+        old_sz = len(groups[gi]) * 2 + 2
+        if gs <= b < gs + old_sz:
+            in_off = b - gs
+            new_sz = group_byte_size(gi)
+            return new_group_starts[gi] + min(in_off, new_sz)
+    return b + tail_delta
+
+# IDEMPOTENCY: always remap from the PRISTINE section table, never from the input
+# file's first 240 bytes. inject_r39_v2 / patch_r39_inline keep this table byte-
+# identical to pristine, but if this script is re-run on its own grown output the
+# trimmed prefix would carry an already-remapped table -> double remap. Reading the
+# pristine descriptors guarantees a single, correct remap every run.
+pristine_section_table = bytearray(open(orig_path, 'rb').read()[:SECTION_TABLE_END])
+
+remapped = 0
+for i in range(SECTION_TABLE_RECORDS):
+    idx, size, off, z = struct.unpack_from('<4I', pristine_section_table, i * 16)
+    if off >= original_prefix_end:
+        new_off = old_to_new_byte(off)
+        new_end = old_to_new_byte(off + size)
+        new_size = new_end - new_off
+        assert new_size >= 0, f"section rec[{i}] negative size {new_size}"
+        assert new_off + new_size <= len(out) + (SECTOR - 1), \
+            f"section rec[{i}] out of bounds: {new_off}+{new_size}"
+        struct.pack_into('<4I', out, i * 16, idx, new_size, new_off, z)
+        remapped += 1
+        print(f"  section rec[{i}]: off {off}->{new_off}, size {size}->{new_size}")
+    else:
+        # Stable record (in the untouched prefix): write pristine verbatim.
+        struct.pack_into('<4I', out, i * 16, idx, size, off, z)
+print(f"Remapped {remapped} top-level section-table records (grow-shifted).")
+
+# Sanity: stable descriptors (records 0..5, off < 14504) must be byte-identical to pristine.
+assert out[:6 * 16] == pristine_section_table[:6 * 16], "stable section records 0..5 changed!"
 
 # Pad to sector boundary
 sectors = math.ceil(len(out) / SECTOR)

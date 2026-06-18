@@ -20,7 +20,7 @@
           {"box": [14, 124, 100, 18],"text": "Raise Dead"},
           {"box": [14, 148, 100, 17],"text": "Restore Ashes"},
           {"box": [14, 172, 100, 18],"text": "Exorcism"},
-          {"box": [14, 196, 100, 17],"text": "Church of Salem"}
+          {"box": [14, 196, 100, 17],"text": "Salem Church"}
         ]
       },
       {
@@ -30,9 +30,9 @@
         "font_size": 12,
         "labels": [
           {"box": [156, 174, 58, 18], "text": "Donation"},
-          {"box": [146, 199, 52, 18], "text": "Everyone"},
-          {"box": [134, 231, 50, 18], "text": "Everyone"},
-          {"box": [188, 231, 52, 18], "text": "Everyone"}
+          {"box": [146, 199, 52, 18], "text": "All"},
+          {"box": [134, 231, 50, 18], "text": "All"},
+          {"box": [188, 231, 52, 18], "text": "All"}
         ]
       }
     ]
@@ -136,10 +136,10 @@
         "font_size": 13,
         "labels": [
           {"box": [12, 22, 100, 18], "text": "Survey Skill", "align": "left", "polarity": "parchment"},
-          {"box": [12, 46, 80, 17],  "text": "Survival Rate", "align": "left", "polarity": "parchment"},
+          {"box": [12, 46, 80, 17],  "text": "Surv. Rate", "align": "left", "polarity": "parchment"},
           {"box": [12, 70, 90, 18],  "text": "Trust", "align": "left", "polarity": "parchment"},
           {"box": [8, 142, 106, 14], "text": "Survey Skill", "align": "left", "polarity": "dark_bg"},
-          {"box": [8, 156, 70, 20],  "text": "Survival Rate", "align": "left", "polarity": "dark_bg"},
+          {"box": [8, 156, 70, 20],  "text": "Surv. Rate", "align": "left", "polarity": "dark_bg"},
           {"box": [8, 182, 80, 18],  "text": "Trust", "align": "left", "polarity": "dark_bg"}
         ]
       }

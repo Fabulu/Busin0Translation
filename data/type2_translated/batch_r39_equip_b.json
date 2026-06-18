@@ -189,13 +189,13 @@
     "resource": 39,
     "msg_index": 444,
     "japanese": "サレム教会[0390]教活動[FFFE]",
-    "english": "Salem Church Missionary Work"
+    "english": "Salem Work"
   },
   {
     "resource": 39,
     "msg_index": 445,
     "japanese": "社員ボシュウ [FFFE]",
-    "english": "Recruiting Employees"
+    "english": "Recruiting"
   },
   {
     "resource": 39,
@@ -207,31 +207,31 @@
     "resource": 39,
     "msg_index": 447,
     "japanese": "クレタの騎法団長方[FFFE]",
-    "english": "Kreta Spell Book Wanted"
+    "english": "Kreta Book"
   },
   {
     "resource": 39,
     "msg_index": 448,
     "japanese": "集え、ジャンケン小神 [FFFE]",
-    "english": "Gather, Janken Masters!"
+    "english": "Janken Mstr"
   },
   {
     "resource": 39,
     "msg_index": 449,
     "japanese": "冒険者[0362]助書[FFFE]",
-    "english": "Adventurer Support Plan"
+    "english": "Adv Support"
   },
   {
     "resource": 39,
     "msg_index": 450,
     "japanese": "ピッピちゃんを頼む[FFFE]",
-    "english": "Please Take Care of Pippi"
+    "english": "Mind Pippi"
   },
   {
     "resource": 39,
     "msg_index": 451,
     "japanese": "古古王戦の秘宝[FFFE]",
-    "english": "Treasure of the Ancient Royal Palace"
+    "english": "Royal Hoard"
   },
   {
     "resource": 39,
@@ -243,19 +243,19 @@
     "resource": 39,
     "msg_index": 453,
     "japanese": "オレにメダルをくれ[FFFE]",
-    "english": "Give Me Medals"
+    "english": "Give Medals"
   },
   {
     "resource": 39,
     "msg_index": 454,
     "japanese": "サキュバスファンの集い[FFFE]",
-    "english": "Succubus Fan Gathering"
+    "english": "Succubus Fan"
   },
   {
     "resource": 39,
     "msg_index": 455,
     "japanese": "[0387]地をおゆずりします[FFFE]",
-    "english": "Land For Sale"
+    "english": "Land 4 Sale"
   },
   {
     "resource": 39,
@@ -267,121 +267,121 @@
     "resource": 39,
     "msg_index": 457,
     "japanese": "インゴのカギがほしい[FFFE]",
-    "english": "Want Ingo's Key"
+    "english": "Ingo's Key"
   },
   {
     "resource": 39,
     "msg_index": 458,
     "japanese": "インゴのカギがほしければ！[FFFE]",
-    "english": "If You Want Ingo's Key!"
+    "english": "Ingo's Key!"
   },
   {
     "resource": 39,
     "msg_index": 459,
     "japanese": "クンナルを探してほしい[FFFE]",
-    "english": "Search for Kunnal"
+    "english": "Find Kunnal"
   },
   {
     "resource": 39,
     "msg_index": 460,
     "japanese": "トラップゲームコンテスト[FFFE]",
-    "english": "Trap Game Contest"
+    "english": "Trap Contest"
   },
   {
     "resource": 39,
     "msg_index": 461,
     "japanese": "サキュバスをつかまえて[FFFE]",
-    "english": "Capture the Succubus"
+    "english": "Catch Succu"
   },
   {
     "resource": 39,
     "msg_index": 462,
     "japanese": "迷宮アンケート[FFFE]",
-    "english": "Labyrinth Survey"
+    "english": "Maze Survey"
   },
   {
     "resource": 39,
     "msg_index": 463,
     "japanese": "冒書事持パーティに入れて [FFFE]",
-    "english": "Let Me Join a Party!"
+    "english": "Join Party!"
   },
   {
     "resource": 39,
     "msg_index": 464,
     "japanese": "体をさがして！[FFFE]",
-    "english": "Find My Body!"
+    "english": "Find Body!"
   },
   {
     "resource": 39,
     "msg_index": 465,
     "japanese": "忘れ士をひろってきて[FFFE]",
-    "english": "Retrieve My Lost Item"
+    "english": "Lost Item"
   },
   {
     "resource": 39,
     "msg_index": 466,
     "japanese": "カルマンガイド人手配 [FFFE]",
-    "english": "Karman Guide Wanted"
+    "english": "Karman Guide"
   },
   {
     "resource": 39,
     "msg_index": 467,
     "japanese": "一進の鎧、求む[FFFE]",
-    "english": "Seeking Fine Armor"
+    "english": "Fine Armor"
   },
   {
     "resource": 39,
     "msg_index": 468,
     "japanese": "鎧をきたえてほしい[FFFE]",
-    "english": "Please Temper My Armor"
+    "english": "Temper Armor"
   },
   {
     "resource": 39,
     "msg_index": 469,
     "japanese": "一進の戦いが見たい[FFFE]",
-    "english": "I Want to See a Great Battle"
+    "english": "Great Battle"
   },
   {
     "resource": 39,
     "msg_index": 470,
     "japanese": "回復の層[026F][0268][FFFE]",
-    "english": "Healing Spring Research"
+    "english": "Spring Res."
   },
   {
     "resource": 39,
     "msg_index": 471,
     "japanese": "回復の層[026F][0268][0061][FFFE]",
-    "english": "Healing Spring Research 2"
+    "english": "Spring Res 2"
   },
   {
     "resource": 39,
     "msg_index": 472,
     "japanese": "回復の層[026F][0268][0062][FFFE]",
-    "english": "Healing Spring Research 3"
+    "english": "Spring Res 3"
   },
   {
     "resource": 39,
     "msg_index": 473,
     "japanese": "開神に[03D6]かれた人にあいたい[FFFE]",
-    "english": "I Want to Meet Someone Possessed"
+    "english": "Possessed"
   },
   {
     "resource": 39,
     "msg_index": 474,
     "japanese": "子分を探してきておくれ[FFFE]",
-    "english": "Find My Subordinate"
+    "english": "Find Aide"
   },
   {
     "resource": 39,
     "msg_index": 475,
     "japanese": "わるいヤツをこらしめてくで[FFFE]",
-    "english": "Punish the Bad Guy"
+    "english": "Punish Thug"
   },
   {
     "resource": 39,
     "msg_index": 476,
     "japanese": "水瓶の壁へ連れてっておくれ[FFFE]",
-    "english": "Take Me to the Water Jar Room"
+    "english": "Water Jar Rm"
   },
   {
     "resource": 39,
