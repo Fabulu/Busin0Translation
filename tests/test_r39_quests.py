@@ -77,8 +77,16 @@ def _load(which):
 
 def _table_semantics(groups, starts, t):
     """For each slot of offset table t: None (zero/sentinel) or the
-    (group index, glyph ordinal) the offset points at."""
-    base = starts[t] + len(groups[t]) * 2 + 2  # byte after the table's FFFF
+    (group index, glyph ordinal) the offset points at.
+
+    BASE = byte address of the table's FIRST NON-ZERO slot (the renderer's base,
+    proven by P5 ground truth -- see tests/test_r39_title_table.py and
+    inject_r39_quest.py).  The old `starts[t] + len*2 + 2` after-FFFF anchor was
+    the DEBUNKED base that produced the "rt" title fragment; using it here made
+    this semantics check compare against a wrong model (stale false-positive).
+    """
+    fnz = next((i for i, v in enumerate(groups[t]) if v != 0), 0)
+    base = starts[t] + fnz * 2  # firstNZ slot byte address == renderer base
     sem = []
     for v in groups[t]:
         if v in (0, 0xFFFE, 0xFFFF):

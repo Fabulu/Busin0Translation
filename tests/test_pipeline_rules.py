@@ -18,6 +18,7 @@ Locks in the v85 pipeline decisions so they cannot silently regress:
     Step 2 in-place injection byte-identical (the v85 'Save'-over-header bug).
 """
 
+import glob
 import os
 import re
 import sys
@@ -27,6 +28,7 @@ from _helpers import (
     BUILD_V9,
     PACKDATA_RES_DIR,
     RAW_DIR,
+    ROOT,
     SEC1_PATCHER,
     Skip,
     main_exit,
@@ -37,6 +39,11 @@ from _helpers import (
 def _source(path):
     require_file(path, "pipeline source")
     return open(path, encoding="utf-8").read()
+
+
+def _strip_inline_comments(src):
+    """Drop the trailing '#...' from every line so doc comments cannot trip a scan."""
+    return "\n".join(line.split("#", 1)[0] for line in src.splitlines())
 
 
 def _active_lines(src):
@@ -142,6 +149,44 @@ def test_r35_header_intact_in_build_output():
     )
 
 
+def test_metrics_single_source():
+    """Every width-bearing build step must read tools/glyph_metrics.py -- the
+    single source of truth for per-glyph advance/left-shift.  A step that
+    recomputes widths inline silently desyncs the shipped EXE cave tables from
+    the wrap/centering budget (this project's #1 bug).  This asserts the POSITIVE
+    (the import is present); the NEGATIVE inline-recompute scan lives in
+    test_glyph_metrics_sync.test_g2_no_inline_width_recompute -- keep them split
+    so the two guards never drift."""
+    patch_exe = os.path.join(os.path.dirname(BUILD_V9), "patch_exe.py")
+    src = _source(patch_exe)
+    assert "import glyph_metrics" in src, (
+        "build/patch_exe.py no longer imports glyph_metrics -- the EXE "
+        "proportional-spacing caves (advance LUT + draw-shift, Patch 14) would "
+        "compute widths from an inline copy, silently desyncing from the build "
+        "wrap + centering + test gates (the #1 desync bug)"
+    )
+    # A build step is forbidden from writing a raw 256-byte advance literal
+    # (bytearray([0x12]) * 256) unless it sources the table from glyph_metrics.
+    # That literal is the diagnostic-only pattern; in a shipping step it MUST come
+    # from glyph_metrics.adv_table_256().  Diagnostics are whitelisted (they
+    # intentionally inline tables for A/B bring-up before Stage-0 promotion).
+    # TODO(P2/Stage-0): when apply_prop_diag2.py's caves are promoted into
+    #   patch_exe.py, DELETE the diagnostics and drop this whitelist.
+    DIAG_WHITELIST = {"apply_prop_diag.py", "apply_prop_diag2.py"}
+    raw_adv = re.compile(r"bytearray\(\s*\[\s*0x12\s*\]\s*\)\s*\*\s*256")
+    for path in sorted(glob.glob(os.path.join(ROOT, "build", "*.py"))):
+        base = os.path.basename(path)
+        if base in DIAG_WHITELIST:
+            continue
+        code = _strip_inline_comments(_source(path))
+        if raw_adv.search(code):
+            assert "glyph_metrics" in _source(path), (
+                "%s writes a raw 256-byte advance table without importing "
+                "glyph_metrics -- promote it to glyph_metrics.adv_table_256() "
+                "or whitelist it as a diagnostic" % base
+            )
+
+
 TESTS = [
     test_r1188_patchers_disabled,
     test_no_pattern_matching_in_sec1_patcher,
@@ -149,6 +194,7 @@ TESTS = [
     test_patched_type2_purge_present,
     test_r1188_override_absent_in_build_output,
     test_r35_header_intact_in_build_output,
+    test_metrics_single_source,
 ]
 
 if __name__ == "__main__":

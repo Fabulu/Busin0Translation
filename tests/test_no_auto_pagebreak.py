@@ -63,9 +63,12 @@ CONTROL_FLOOR = 0xFB00
 ENGLISH_GLYPH_HI = 94
 
 # Narration groups the user reported broken -- listed only to enrich the failure
-# message; the general oracle below already covers them (their source has no
-# " // " so expected == 0).
-KNOWN_NARRATION = {1196: (569, 575, 577, 616)}
+# message; the general oracle below already covers EVERY group (their source has
+# no " // " so expected == 0).  Extended with the thing4-7-referenced R1196
+# narration islands (568/570/615) that P1's narration reflow (build_v9 wrap_px at
+# NARRATION_BOX_PX, build_narration_map) now re-wraps: confirmed members of
+# build_narration_map(1196), so the no-0xFFD2 gate must cover them explicitly.
+KNOWN_NARRATION = {1196: (568, 569, 570, 575, 577, 615, 616)}
 
 
 def _load_translations():

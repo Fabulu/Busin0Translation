@@ -67,11 +67,13 @@ un-wrapped state.  A fresh build with the wrap fix makes it pass.
 
 import glob
 import os
+import re
 import struct
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _helpers import (
+    BUILD_V9,
     PATCHED_TYPE2_DIR,
     PackData,
     ROOT,
@@ -104,8 +106,20 @@ from patch_section1_offsets import (  # noqa: E402
 # to 18px, so 20 glyphs fit within the boxed frame — width 20 packs dialogue
 # tighter to reduce vertical overflow.  A uniform <=20 gate is the hard upper
 # bound that catches the gross v89 clips while never tripping on a legitimately
-# wrapped line.  Keep this in sync with build/build_v9.py's TYPE2_WRAP_WIDTH.
-MAX_GLYPHS = 20
+# wrapped line.
+#
+# SINGLE SOURCE OF TRUTH: read TYPE2_WRAP_WIDTH straight from the build source so
+# the gate width can NEVER drift from what the build actually wraps to.  No import
+# (build_v9.py runs a full ISO build at import time -- os.chdir + os.system, no
+# __main__ guard); extract the module-level constant from source text instead.
+def _build_v9_wrap_width():
+    src = open(BUILD_V9, encoding="utf-8").read()
+    m = re.search(r"^TYPE2_WRAP_WIDTH\s*=\s*(\d+)", src, re.M)
+    assert m, "build_v9.py: TYPE2_WRAP_WIDTH constant not found"
+    return int(m.group(1))
+
+
+MAX_GLYPHS = _build_v9_wrap_width()
 
 # Visible-glyph boundary: every control/formatting/marker word (0xFBxx..0xFFxx,
 # incl. choice 0xFFCx, line break 0xFFFE, page break 0xFFD2, terminator 0xFFFF)
@@ -117,6 +131,101 @@ CONTROL_FLOOR = 0xFB00
 # INJECTED-ENGLISH line iff all its visible glyphs are <= this -- only those are
 # gated.  Lines with any higher (Japanese) glyph are untranslated and exempt.
 ENGLISH_GLYPH_HI = 94
+
+# T4 pixel ceiling.  Two DISJOINT gates, one per wrap path (see _line_offenders):
+#   * DIALOGUE groups are px-wrapped by build_v9.wrap_px at DIALOGUE_BOX_PX and gated
+#     by px<=DIALOGUE_BOX_PX ONLY — they have no char limit, so a correct px-wrap can
+#     pack >20 narrow glyphs into the budget (gating those by char-20 would false-fail).
+#   * NON-dialogue (narration/structural) groups still use the char-count
+#     wrap_type2_text(<=MAX_GLYPHS) and are gated by the char-20 ceiling — the
+#     original v89-regression surface.
+# Pixel widths come EXCLUSIVELY from the shared SoT glyph_metrics.px_width (NEVER a
+# recompute).  Glyph IDs are already the ADV-table index, so we feed an identity enc.
+import glyph_metrics  # noqa: E402  (tools/ already on sys.path above)
+
+
+# Budget SoT read.  build_v9.wrap_px re-wraps DIALOGUE-classified groups at
+# DIALOGUE_BOX_PX and NARRATION-classified groups at NARRATION_BOX_PX (not the
+# char-20 ceiling), so those groups legitimately pack >20 narrow glyphs into the
+# budget.  Read BOTH STRAIGHT FROM the build source (no stale literal) so the gate
+# budgets can never drift from what the build actually wraps to (same SoT read as
+# MAX_GLYPHS above).  When P3 raised DIALOGUE_BOX_PX 324 -> 372, this gate tracks it
+# automatically.
+def _build_v9_box_px(name):
+    src = open(BUILD_V9, encoding="utf-8").read()
+    m = re.search(r"^%s\s*=\s*(\d+)" % name, src, re.M)
+    assert m, "build_v9.py: %s constant not found" % name
+    return int(m.group(1))
+
+
+DIALOGUE_BOX_PX = _build_v9_box_px("DIALOGUE_BOX_PX")
+NARRATION_BOX_PX = _build_v9_box_px("NARRATION_BOX_PX")
+
+
+def _build_v9_pair_set(name):
+    """Parse a `NAME = {(r, m), ...}` (resource, msg_index) set literal straight
+    from build_v9.py source (NOT imported -- build_v9 runs a full ISO build at
+    import time).  Mirrors the build's own DIALOGUE_FORCE / DIALOGUE_WRAP_EXCLUDE
+    so this gate classifies each group by EXACTLY the wrap path the build used."""
+    src = open(BUILD_V9, encoding="utf-8").read()
+    m = re.search(r"^%s\s*=\s*\{(.*?)\}" % name, src, re.M | re.S)
+    if not m:
+        return set()
+    return set(
+        (int(a), int(b))
+        for a, b in re.findall(r"\(\s*(\d+)\s*,\s*(\d+)\s*\)", m.group(1))
+    )
+
+
+# DIALOGUE_FORCE: classifier-mis-routed boxed-dialogue groups the build re-routes
+# into the 480px DIALOGUE wrap (build_v9 line `if mi in dialogue_groups or
+# (r_id, mi) in DIALOGUE_FORCE`).  This gate must treat them as DIALOGUE, not
+# NARRATION, or it false-fails on the correct 480px wrap.
+DIALOGUE_FORCE = _build_v9_pair_set("DIALOGUE_FORCE")
+# DIALOGUE_WRAP_EXCLUDE: groups the build ships with authored ' / ' breaks intact
+# (bypasses BOTH px-wrap paths).  Their authored lines are not px-wrapped, so the
+# px ceilings do not apply -- gate them by the char-20 structural ceiling only.
+DIALOGUE_WRAP_EXCLUDE = _build_v9_pair_set("DIALOGUE_WRAP_EXCLUDE")
+
+
+def _id_enc(g):
+    """Identity enc for glyph IDs: the visible-glyph stream is already a list of
+    ADV-table indices (gid = char-32), so px_width needs no mapping."""
+    return g
+
+
+# Space glyph id (gid = char-32, ' ' -> 0): a line with no space glyph is a
+# single unwrappable token, exempt from the px ceiling (wrap_px emits it alone).
+_SPACE_GID = 0
+
+# Per-path gates (each is the SAME map build_v9.wrap_px is gated on):
+#   * DIALOGUE groups (build_dialogue_map) are px-wrapped at DIALOGUE_BOX_PX.
+#   * NARRATION groups (build_narration_map, P1) are px-wrapped at NARRATION_BOX_PX.
+#   * everything else (structural/menu/list) flows through the char-20
+#     wrap_type2_text and is gated at the char-20 ceiling (the v89 surface).
+# Memoize per resource (each walks Section 1 once).
+from dialogue_classifier import build_dialogue_map, build_narration_map  # noqa: E402
+
+_DMAP_CACHE = {}
+_NMAP_CACHE = {}
+
+
+def _dialogue_map(res):
+    if res not in _DMAP_CACHE:
+        try:
+            _DMAP_CACHE[res] = build_dialogue_map(res)
+        except Exception:
+            _DMAP_CACHE[res] = set()  # unwalkable -> no px gate, char-20 still gates
+    return _DMAP_CACHE[res]
+
+
+def _narration_map(res):
+    if res not in _NMAP_CACHE:
+        try:
+            _NMAP_CACHE[res] = build_narration_map(res)
+        except Exception:
+            _NMAP_CACHE[res] = set()  # unwalkable -> no px gate, char-20 still gates
+    return _NMAP_CACHE[res]
 
 # Section-2 break / marker words.
 LINE_BREAK = 0xFFFE
@@ -215,8 +324,10 @@ def _name_island_prefix_lens(parsed):
 
 def _line_offenders(parsed, res):
     """
-    Yield (res, group_index, width, decoded_text) for every injected-English
-    line in this parsed type-02 blob whose visible width exceeds MAX_GLYPHS.
+    Yield (res, group_index, width, px, decoded_text) for every injected-English
+    line in this parsed type-02 blob that exceeds the gate for ITS wrap path:
+    DIALOGUE px>DIALOGUE_BOX_PX (324), NARRATION px>NARRATION_BOX_PX (300, P1), or
+    structural width>MAX_GLYPHS glyphs (char-20).
 
     group_offsets drops the trailing region for us.  Choice groups are skipped
     whole.  For a name-island group (see _name_island_prefix_lens) the runtime
@@ -226,20 +337,48 @@ def _line_offenders(parsed, res):
     words = parsed["words"]
     groups, _trailing = group_offsets(words)
     name_prefix = _name_island_prefix_lens(parsed)
+    # Three disjoint gates, one per build_v9 wrap path:
+    #   * DIALOGUE-classified groups  -> px <= DIALOGUE_BOX_PX  (324)
+    #   * NARRATION-classified groups -> px <= NARRATION_BOX_PX (300, P1)
+    #   * everything else (structural/menu/list) -> char-20 ceiling (v89 surface)
+    # Both classifiers err toward their own kind and are DISJOINT, so a group is in
+    # at most one px-gate; gating a px-wrapped group by the char-20 FLOOR would
+    # false-fail on a correct wrap (>20 narrow glyphs fit within the px budget).
+    dmap = _dialogue_map(res)
+    nmap = _narration_map(res)
     for gi, (gs, ge) in enumerate(groups):
         group = words[gs:ge]
         if _is_choice_group(group):
             continue  # choice option layout is exempt
+        # Mirror build_v9's wrap routing EXACTLY:
+        #   * DIALOGUE_WRAP_EXCLUDE -> authored breaks, no px-wrap (char-20 only)
+        #   * DIALOGUE_FORCE -> forced into the 480px DIALOGUE wrap
+        #   * else dmap -> DIALOGUE, nmap -> NARRATION
+        if (res, gi) in DIALOGUE_WRAP_EXCLUDE:
+            gate_dialogue = False
+            gate_narration = False
+        elif (res, gi) in DIALOGUE_FORCE:
+            gate_dialogue = True
+            gate_narration = False
+        else:
+            gate_dialogue = gi in dmap
+            gate_narration = gi in nmap
         prefix_len = name_prefix.get(gi, 0)
         for li, line in enumerate(_split_lines(group)):
             visible = [w for w in line if w < CONTROL_FLOOR]
+            # Drop the invisible trailing-space pad (gid 0) the narration LEFT-ALIGN
+            # adds to equalise glyph count -- it is blank on screen and never widens
+            # the visible line, so it must not count toward the per-line glyph ceiling.
+            while visible and visible[-1] == _SPACE_GID:
+                visible.pop()
+            if not visible:
+                continue
             # Discount the name-label prefix from the FIRST line of a name-island
             # group: those leading <0xFB00 glyphs render in the 0x14 NAME box, not
             # on this dialogue line.  Only the first line carries the prefix (the
             # label has no 0xFFFE), so li>0 and every other group are untouched.
-            width = len(visible)
-            if li == 0 and prefix_len:
-                width = max(0, width - prefix_len)
+            vis_after = visible[prefix_len:] if (li == 0 and prefix_len) else visible
+            width = len(vis_after)
             if width == 0:
                 continue
             # Gate ONLY injected-English lines (all visible glyphs ASCII).  The
@@ -248,16 +387,41 @@ def _line_offenders(parsed, res):
             # the full `visible` set is the correct classifier.
             if any(w > ENGLISH_GLYPH_HI for w in visible):
                 continue
-            if width > MAX_GLYPHS:
-                yield (res, gi, width, decode_glyphs(line).strip())
+            # Each line is gated by EXACTLY the rule build_v9 used to produce it:
+            #
+            #  * DIALOGUE-classified groups are px-wrapped by build_v9.wrap_px at
+            #    the 324px budget — they have NO char limit, so a line legitimately
+            #    packs >20 narrow glyphs (i/l/'/space) into <=324px.  Gated by
+            #    px<=DIALOGUE_BOX_PX ONLY.
+            #  * NARRATION-classified groups (P1) are px-wrapped at NARRATION_BOX_PX
+            #    (300) — likewise no char limit; gated by px<=NARRATION_BOX_PX ONLY.
+            #  * everything else (structural/menu/list) still flows through the
+            #    char-count wrap_type2_text(<=20) and is gated by the char-20
+            #    ceiling — the original v89-regression surface, unchanged.
+            #
+            # Every path exempts a single unwrappable token (no internal space glyph,
+            # e.g. a "0000000123456789-" placeholder): wrap_px / _wrap_line emit it
+            # alone rather than split mid-token, so gating it would be a false fail.
+            # px width comes EXCLUSIVELY from the shared SoT glyph_metrics.px_width.
+            px = glyph_metrics.px_width(vis_after, _id_enc)
+            wrappable = _SPACE_GID in vis_after
+            if gate_dialogue:
+                over = px > DIALOGUE_BOX_PX and wrappable
+            elif gate_narration:
+                over = px > NARRATION_BOX_PX and wrappable
+            else:
+                over = width > MAX_GLYPHS and wrappable
+            if over:
+                yield (res, gi, width, px, decode_glyphs(line).strip())
 
 
 def _format_offenders(offenders, limit=12):
-    offenders = sorted(offenders, key=lambda o: o[2], reverse=True)
+    # Rank by pixel overflow first (the tighter gate), then glyph count.
+    offenders = sorted(offenders, key=lambda o: (o[3], o[2]), reverse=True)
     head = offenders[:limit]
     return "; ".join(
-        "R%d g%d w=%d %r" % (res, gi, w, txt[:48])
-        for (res, gi, w, txt) in head
+        "R%d g%d w=%d px=%d %r" % (res, gi, w, px, txt[:48])
+        for (res, gi, w, px, txt) in head
     )
 
 
@@ -288,9 +452,9 @@ def test_tier2_patched_type2_line_width():
     if checked == 0:
         raise Skip("no parseable type-02 resources in build/patched_type2")
     assert not offenders, (
-        "%d injected-English line(s) exceed %d glyphs (v89 word-wrap regression). "
-        "Worst: %s"
-        % (len(offenders), MAX_GLYPHS, _format_offenders(offenders))
+        "%d injected-English line(s) exceed %d glyphs or the %dpx dialogue "
+        "ceiling (v89 word-wrap regression / T4 px-overflow). Worst: %s"
+        % (len(offenders), MAX_GLYPHS, DIALOGUE_BOX_PX, _format_offenders(offenders))
     )
 
 
@@ -361,9 +525,10 @@ def test_tier3_iso_line_width():
     if checked == 0:
         raise Skip("no type-02 resources resolved from the ISO")
     assert not offenders, (
-        "%d injected-English line(s) exceed %d glyphs in the ISO PACKDATA "
-        "(v89 word-wrap regression on the real-PS2 path). Worst: %s"
-        % (len(offenders), MAX_GLYPHS, _format_offenders(offenders))
+        "%d injected-English line(s) exceed %d glyphs or the %dpx dialogue "
+        "ceiling in the ISO PACKDATA (v89 word-wrap regression / T4 px-overflow "
+        "on the real-PS2 path). Worst: %s"
+        % (len(offenders), MAX_GLYPHS, DIALOGUE_BOX_PX, _format_offenders(offenders))
     )
 
 

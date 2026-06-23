@@ -8,6 +8,8 @@
 
 **NEVER load save states from an older ISO build.** PCSX2 save states (.p2s) contain the FULL 32MB EE RAM including all loaded game resources. Loading a save state from v22 will show v22's data regardless of which ISO is mounted. **Always boot FRESH from the title screen** when testing a new ISO.
 
+**ONLY analyze RECENT save states — sort `.p2s`/`.ps2` by modification date and use the newest (today's / the current build's) unless the user specifically says otherwise.** Because each save embeds the full 32MB EE RAM from when it was captured, a stale save shows OLD resources/EXE regardless of the mounted ISO, and will silently send a recon down a false path (e.g. a "regression" that is really pre-fix data). Before trusting any save for debugging, confirm it matches the build under test (e.g. read a known patched EXE byte in its `eeMemory.bin`). When the user hands over a batch of saves, `find ramdumps build -name '*.p2s' -newermt '<today>'` first and ignore everything older.
+
 **Verify the ISO before testing:** `python verify_iso.py build/BUSIN0_EN_vNN.iso`
 
 ## CRITICAL BUILD INSTRUCTIONS

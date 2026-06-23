@@ -1035,7 +1035,7 @@
     "resource": 1353,
     "msg_index": 179,
     "japanese": "？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？",
-    "english": "Romy: Welcome! / Fortune?"
+    "english": "Romi: Welcome! / Fortune?"
   },
   {
     "resource": 1353,
@@ -1101,7 +1101,7 @@
     "resource": 1353,
     "msg_index": 192,
     "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
-    "english": "I'm Romy, ghost. / 2000g for reading."
+    "english": "I'm Romi, ghost. / 2000g for reading."
   },
   {
     "resource": 1353,
@@ -1161,7 +1161,7 @@
     "resource": 1353,
     "msg_index": 203,
     "japanese": "ローミはそう言い退してまた良を消してしまった。",
-    "english": "Romy vanished."
+    "english": "Romi vanished."
   },
   {
     "resource": 1353,
@@ -1695,7 +1695,7 @@
     "resource": 1353,
     "msg_index": 292,
     "japanese": "ローミの良が一[04C4]消えかかった。",
-    "english": "Romy flickered."
+    "english": "Romi flickered."
   },
   {
     "resource": 1353,
@@ -1731,7 +1731,7 @@
     "resource": 1353,
     "msg_index": 300,
     "japanese": "ローミは良を消してしまった。",
-    "english": "Romy vanished."
+    "english": "Romi vanished."
   },
   {
     "resource": 1353,
@@ -2163,7 +2163,7 @@
     "resource": 1353,
     "msg_index": 375,
     "japanese": "ローミは[02F2]しそうに[0444]のひもをとき、中から門い宝剣を取り出した。",
-    "english": "Romy pulled out / a shining sword."
+    "english": "Romi pulled out / a shining sword."
   },
   {
     "resource": 1353,
@@ -2253,7 +2253,7 @@
     "resource": 1353,
     "msg_index": 391,
     "japanese": "そう言ってローミは、宝[03CE]から集取りを取り出し、こちらによこした。",
-    "english": "Romy gave ring."
+    "english": "Romi gave ring."
   },
   {
     "resource": 1353,
@@ -2931,19 +2931,19 @@
     "resource": 1353,
     "msg_index": 510,
     "japanese": "騎騎者はテュルゴーだった。",
-    "english": "It was Turgo."
+    "english": "It was Turgot."
   },
   {
     "resource": 1353,
     "msg_index": 511,
     "japanese": "テュルゴーは[069A]のふちにしがみつきぶら忍がっていた。",
-    "english": "Turgo clung to / the edge."
+    "english": "Turgot clung to / the edge."
   },
   {
     "resource": 1353,
     "msg_index": 512,
     "japanese": "はテュルゴーを[069A]の中から祠き外げた。",
-    "english": "Pulled Turgo out."
+    "english": "Pulled Turgot out."
   },
   {
     "resource": 1353,
@@ -3021,7 +3021,7 @@
     "resource": 1353,
     "msg_index": 525,
     "japanese": "なあテュルゴーよ、よく聞け ",
-    "english": "Listen, Turgo."
+    "english": "Listen, Turgot."
   },
   {
     "resource": 1353,
@@ -3159,7 +3159,7 @@
     "resource": 1353,
     "msg_index": 548,
     "japanese": "テュルゴーは種ったまま何も言わない。",
-    "english": "Turgo was silent."
+    "english": "Turgot was silent."
   },
   {
     "resource": 1353,
@@ -3255,13 +3255,13 @@
     "resource": 1353,
     "msg_index": 564,
     "japanese": "テュルゴーは[03DE]長の装を択てて漢いかけて言った。",
-    "english": "Turgo ran after / captain."
+    "english": "Turgot ran after / captain."
   },
   {
     "resource": 1353,
     "msg_index": 565,
     "japanese": "テュルゴーが騎騎者[0170]街に庫落されました。",
-    "english": "Turgo registered."
+    "english": "Turgot registered."
   },
   {
     "resource": 1353,
@@ -3891,7 +3891,7 @@
     "resource": 1354,
     "msg_index": 18,
     "japanese": "イ兜魔運解ウェズベルだ。彼を[05B3]限できる者などこの[032A]にはおらぬゴ",
-    "english": "\"It is the great / mage Wezbell. No / one here could / restrain him.\""
+    "english": "\"It is the great / mage Wesbell. No / one here could / restrain him.\""
   },
   {
     "resource": 1354,
@@ -3933,7 +3933,7 @@
     "resource": 1354,
     "msg_index": 25,
     "japanese": "オルトルードなぜ兜魔運解ウェズベルの必えが、この余にわかるというのだ？",
-    "english": "Ortrud: How would / I know what the / great mage Wezbell / ponders?"
+    "english": "Ortrud: How would / I know what the / great mage Wesbell / ponders?"
   },
   {
     "resource": 1354,
@@ -3951,7 +3951,7 @@
     "resource": 1354,
     "msg_index": 28,
     "japanese": "兜魔運解ウェズベルよ、かつての王息の[05B2][04A4]を日に出し、余に何が言いたいのだ？",
-    "english": "What do you wish / to tell me, great / mage Wezbell?"
+    "english": "What do you wish / to tell me, great / mage Wesbell?"
   },
   {
     "resource": 1354,
@@ -3993,7 +3993,7 @@
     "resource": 1354,
     "msg_index": 35,
     "japanese": "[05AC]すな、ウェズベル。それでなくともくれは[03DF]低みなのだ。",
-    "english": "Don't intimidate / me, Wezbell. We / have enough / problems already."
+    "english": "Don't intimidate / me, Wesbell. We / have enough / problems already."
   },
   {
     "resource": 1354,
@@ -4053,7 +4053,7 @@
     "resource": 1354,
     "msg_index": 45,
     "japanese": "ウェズベル、[01D1]かけはもうよい。お両はなにが言いたい？",
-    "english": "Wezbell, no more / riddles. What are / you implying?"
+    "english": "Wesbell, no more / riddles. What are / you implying?"
   },
   {
     "resource": 1354,
@@ -4263,7 +4263,7 @@
     "resource": 1354,
     "msg_index": 81,
     "japanese": "[01E3]帰前長のベルグラーノから報[0197]があったよ。",
-    "english": "Captain Belgradno / sent a report."
+    "english": "Captain Belgrano / sent a report."
   },
   {
     "resource": 1354,
@@ -4689,13 +4689,13 @@
     "resource": 1354,
     "msg_index": 154,
     "japanese": "ベルグラーノ待たせたな。まあ、武にしてくれ。",
-    "english": "Belgradno: Sorry / to keep you. / Please, sit."
+    "english": "Belgrano: Sorry / to keep you. / Please, sit."
   },
   {
     "resource": 1354,
     "msg_index": 155,
     "japanese": "ベルグラーノは書増の却と扱いビロードの間さな持みを、テーブルの外に[0175]いた。",
-    "english": "Belgradno laid a / velvet pouch and / documents on the / table."
+    "english": "Belgrano laid a / velvet pouch and / documents on the / table."
   },
   {
     "resource": 1354,
@@ -4857,7 +4857,7 @@
     "resource": 1354,
     "msg_index": 182,
     "japanese": "ベルグラーノ彼神は一[01E9]も早く転を忘し、このドゥーハンにかけられた[041A]いを倒かねばならん。",
-    "english": "Belgradno: We / must defeat her / and lift the / curse on Duhan."
+    "english": "Belgrano: We / must defeat her / and lift the / curse on Duhan."
   },
   {
     "resource": 1354,
@@ -4911,7 +4911,7 @@
     "resource": 1354,
     "msg_index": 191,
     "japanese": "ベルグラーノどうだ？ 討伐隊に参加する[0141]になってくれたか？",
-    "english": "Belgradno: So? / Ready to join / the strike force?"
+    "english": "Belgrano: So? / Ready to join / the strike force?"
   },
   {
     "resource": 1354,
@@ -4947,7 +4947,7 @@
     "resource": 1354,
     "msg_index": 197,
     "japanese": "ベルグラーノは、息王の態が入った[03FE][03FD]書を見せ、報女というものが、どれほどのものであるかを知らせた。",
-    "english": "Belgradno showed / you the royal / contract and the / reward's scale."
+    "english": "Belgrano showed / you the royal / contract and the / reward's scale."
   },
   {
     "resource": 1354,
@@ -4971,7 +4971,7 @@
     "resource": 1354,
     "msg_index": 201,
     "japanese": "ベルグラーノは扱いビロードに持まれたものをに力渡した。",
-    "english": "Belgradno handed / you the velvet / pouch."
+    "english": "Belgrano handed / you the velvet / pouch."
   },
   {
     "resource": 1354,

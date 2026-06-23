@@ -489,7 +489,7 @@
     "resource": 1199,
     "msg_index": 87,
     "japanese": "エルフの与放兜魔運解ウェズベル。",
-    "english": "Elf woman: Grand / Sorcerer Wezbel."
+    "english": "Elf woman: Grand / Sorcerer Wesbell."
   },
   {
     "resource": 1199,
@@ -531,7 +531,7 @@
     "resource": 1199,
     "msg_index": 94,
     "japanese": "彼女を[01BE][0160]にそう高んだのは、彼、魔運解ウェズベルだ。",
-    "english": "He was the first to / call her by that / name: Sorcerer Wezbel."
+    "english": "He was the first to / call her by that / name: Sorcerer Wesbell."
   },
   {
     "resource": 1199,
@@ -579,7 +579,7 @@
     "resource": 1199,
     "msg_index": 102,
     "japanese": "ピクシーメラーニエ跡美優臆美ギルドは編地、唱くの美者でにぎわっており、出入りする者が装を絶たない。",
-    "english": "Pixie Melarnie: / The Alchemist Guild / bustles with visitors."
+    "english": "Pixie Melanie: / The Alchemist Guild / bustles with visitors."
   },
   {
     "resource": 1199,
@@ -609,7 +609,7 @@
     "resource": 1199,
     "msg_index": 107,
     "japanese": "ピクシーイそんな[0141]持ち向いものどうやって持ってくんの ゴ跡美イえぇぇ！そ！そんな！魔法剣合封毒の議著はか、[041B]値ご毒客いただくと！そういう携まりですので！ゴピクシーイキィィィィ  もういい アンタなんかに頼まない [01AB]るわよ  メラーニエ ゴ少女イ・・・・・・・・・ゴ",
-    "english": "Pixie: How do I get / those?! Clerk: You / must bring them! / Pixie: Grr! Forget / it! Let's go, / Melarnie! Girl: ..."
+    "english": "Pixie: How do I get / those?! Clerk: You / must bring them! / Pixie: Grr! Forget / it! Let's go, / Melanie! Girl: ..."
   },
   {
     "resource": 1199,
@@ -639,13 +639,13 @@
     "resource": 1199,
     "msg_index": 113,
     "japanese": "メラーニエ アンタもちょっとくらいなんか言いなさいよ ",
-    "english": "Melarnie, say / something too!"
+    "english": "Melanie, say / something too!"
   },
   {
     "resource": 1199,
     "msg_index": 114,
     "japanese": "メラーニエと高ばれた少女が大声そうな[041F]で見つめる。",
-    "english": "The girl called / Melarnie gazed / with worried eyes."
+    "english": "The girl called / Melanie gazed / with worried eyes."
   },
   {
     "resource": 1199,
@@ -675,7 +675,7 @@
     "resource": 1199,
     "msg_index": 119,
     "japanese": "ほらほら、メラーニエ 義に出るんだからはやく[0269]を開けてちょうだい ",
-    "english": "Come on, Melarnie! / We're going out, / open the door!"
+    "english": "Come on, Melanie! / We're going out, / open the door!"
   },
   {
     "resource": 1199,
@@ -735,7 +735,7 @@
     "resource": 1199,
     "msg_index": 129,
     "japanese": "メラーニエミリィクンナル優臆美ギルドに入ると、メラーニエとミリィが板れていた。",
-    "english": "Melarnie, Milly, / Kunnal: At the / Alchemist Guild."
+    "english": "Melanie, Milly, / Kunnar: At the / Alchemist Guild."
   },
   {
     "resource": 1199,
@@ -747,7 +747,7 @@
     "resource": 1199,
     "msg_index": 131,
     "japanese": "メラーニエはミリィのいる今向に召出を功かしていた。",
-    "english": "Melarnie was / watching Milly / intently."
+    "english": "Melanie was / watching Milly / intently."
   },
   {
     "resource": 1199,
@@ -1077,7 +1077,7 @@
     "resource": 1199,
     "msg_index": 188,
     "japanese": "名成の忠には、既にメラーニエともう一者優臆美ギルドの[0412]買社であるエルフの跡美がいた。",
-    "english": "Upstairs, Melarnie / and an elf clerk / from the guild waited."
+    "english": "Upstairs, Melanie / and an elf clerk / from the guild waited."
   },
   {
     "resource": 1199,
@@ -1089,7 +1089,7 @@
     "resource": 1199,
     "msg_index": 190,
     "japanese": "兜魔美解メラーニエ、[0160]めての魔法[04C3]得の[0487][042C] ",
-    "english": "Grand Sorcerer / Melarnie's first / magic acquisition!"
+    "english": "Grand Sorcerer / Melanie's first / magic acquisition!"
   },
   {
     "resource": 1199,
@@ -1101,25 +1101,25 @@
     "resource": 1199,
     "msg_index": 192,
     "japanese": "ではまず、振[04C1]をお[036A]いします。優臆美ギルド[04BF]了[02BF]１美７[04BA][04C0]、クンナル[001D]アルトハイムさん ",
-    "english": "First, introductions! / Alchemist Guild / Member #17, Kunnal!"
+    "english": "First, introductions! / Alchemist Guild / Member #17, Kunnar!"
   },
   {
     "resource": 1199,
     "msg_index": 193,
     "japanese": "クンナルというのは、ギルドの[0412]買社である跡美のことらしい。",
-    "english": "Kunnal was the elf / clerk working at / the guild."
+    "english": "Kunnar was the elf / clerk working at / the guild."
   },
   {
     "resource": 1199,
     "msg_index": 194,
     "japanese": "ミリィはクンナルに家帯新の騎物を渡し、それを獲み外げるよう気悔した。",
-    "english": "Milly handed Kunnal / a scroll and told / her to read it."
+    "english": "Milly handed Kunnar / a scroll and told / her to read it."
   },
   {
     "resource": 1199,
     "msg_index": 195,
     "japanese": "クンナルはうろたえながら騎物を[01E8]げ、それを獲み外げた。",
-    "english": "Kunnal nervously / took the scroll / and began to read."
+    "english": "Kunnar nervously / took the scroll / and began to read."
   },
   {
     "resource": 1199,
@@ -1143,19 +1143,19 @@
     "resource": 1199,
     "msg_index": 200,
     "japanese": "では、罰はいよいよ兜魔美解メラーニエが[0160]めて魔法を[04C3]得してみせます ",
-    "english": "Now, Grand Sorcerer / Melarnie will learn / her first spell!"
+    "english": "Now, Grand Sorcerer / Melanie will learn / her first spell!"
   },
   {
     "resource": 1199,
     "msg_index": 201,
     "japanese": "ほら、メラーニエ 魔法剣を度うのよ ",
-    "english": "Come on, Melarnie! / Use the magic / stone!"
+    "english": "Come on, Melanie! / Use the magic / stone!"
   },
   {
     "resource": 1199,
     "msg_index": 203,
     "japanese": "話に高ばれて少し岩いたメラーニエは、択てて腕のいる中[04BC]へ上功した。",
-    "english": "Startled by her / name, Melarnie / hurried to the stage."
+    "english": "Startled by her / name, Melanie / hurried to the stage."
   },
   {
     "resource": 1199,
@@ -1185,7 +1185,7 @@
     "resource": 1199,
     "msg_index": 209,
     "japanese": "協しそうに[0450]しく[04BD]き込むメラーニエの重中をミリィが主いっぱいさする。",
-    "english": "Milly rubbed / Melarnie's back as / she painfully gulped."
+    "english": "Milly rubbed / Melanie's back as / she painfully gulped."
   },
   {
     "resource": 1199,
@@ -1197,13 +1197,13 @@
     "resource": 1199,
     "msg_index": 211,
     "japanese": "さあ、メラーニエ 魔法を[04CB]えてごらんなさい ",
-    "english": "Now, Melarnie! / Try casting / the spell!"
+    "english": "Now, Melanie! / Try casting / the spell!"
   },
   {
     "resource": 1199,
     "msg_index": 212,
     "japanese": "メラーニエはゆっくりと魔法を口にする！。",
-    "english": "Melarnie slowly / cast the spell."
+    "english": "Melanie slowly / cast the spell."
   },
   {
     "resource": 1199,
@@ -1215,13 +1215,13 @@
     "resource": 1199,
     "msg_index": 215,
     "japanese": "キャーーーーー やったわね、メラーニエ かわいい謝の[04C8]が出たじゃない ",
-    "english": "Yaaay! You did it, / Melarnie! A cute / light appeared!"
+    "english": "Yaaay! You did it, / Melanie! A cute / light appeared!"
   },
   {
     "resource": 1199,
     "msg_index": 216,
     "japanese": "メラーニエは何も[02EC]えない。",
-    "english": "Melarnie said / nothing."
+    "english": "Melanie said / nothing."
   },
   {
     "resource": 1199,
@@ -1239,7 +1239,7 @@
     "resource": 1199,
     "msg_index": 219,
     "japanese": "兜魔美解メラーニエの[01BF]大すべき[04CC]生の[04C4]嫌を ",
-    "english": "Grand Sorcerer / Melarnie's amazing / first achievement!"
+    "english": "Grand Sorcerer / Melanie's amazing / first achievement!"
   },
   {
     "resource": 1199,
@@ -1251,7 +1251,7 @@
     "resource": 1199,
     "msg_index": 221,
     "japanese": "メラーニエは魔法を[04CB]える時魔外に[0425][0402]した[01BC]所で力加を難わせている。",
-    "english": "Melarnie was still / shaking from the / effort of casting."
+    "english": "Melanie was still / shaking from the / effort of casting."
   },
   {
     "resource": 1199,
@@ -1275,7 +1275,7 @@
     "resource": 1199,
     "msg_index": 225,
     "japanese": "兜魔美解メラーニエの[0470]り難いお言[0387]でした ",
-    "english": "Those were Grand / Sorcerer Melarnie's / heartfelt words!"
+    "english": "Those were Grand / Sorcerer Melanie's / heartfelt words!"
   },
   {
     "resource": 1199,
@@ -1329,13 +1329,13 @@
     "resource": 1199,
     "msg_index": 234,
     "japanese": "ミリィはメラーニエを祠き支れて優臆美ギルドを出て行った。",
-    "english": "Milly left the / Alchemist Guild / with Melarnie."
+    "english": "Milly left the / Alchemist Guild / with Melanie."
   },
   {
     "resource": 1199,
     "msg_index": 235,
     "japanese": "装に退されたクンナルが兜きな声で[03D1]り言をつぶやく！。",
-    "english": "Kunnal, left behind, / muttered under / her breath."
+    "english": "Kunnar, left behind, / muttered under / her breath."
   },
   {
     "resource": 1199,
@@ -1359,7 +1359,7 @@
     "resource": 1199,
     "msg_index": 239,
     "japanese": "メラーニエちゃん！。",
-    "english": "Melarnie!"
+    "english": "Melanie!"
   },
   {
     "resource": 1199,
@@ -1395,7 +1395,7 @@
     "resource": 1199,
     "msg_index": 245,
     "japanese": "クンナルはぶつぶつ言いながら名成を外っていった。",
-    "english": "Kunnal went down / the stairs, still / muttering."
+    "english": "Kunnar went down / the stairs, still / muttering."
   },
   {
     "resource": 1199,
@@ -3519,7 +3519,7 @@
     "resource": 1201,
     "msg_index": 100,
     "japanese": "ドワーフの戦帰さてさて[0180][04A2]美ぶりにドゥーハンに帰てはみたが、まさかこんな[04E9][0141][0411]い盗になっているとはな。",
-    "english": "Dwarf warrior: / Well, well! Haven't / been to Duhan in / ages. Didn't think / it'd be this / run-down!"
+    "english": "Dwarf warrior: Well, well! Haven't been to Duhan in ages. // Didn't think it'd be this run-down!"
   },
   {
     "resource": 1201,
@@ -3537,7 +3537,7 @@
     "resource": 1201,
     "msg_index": 103,
     "japanese": "何でも知与な泊[0141]にかかったって聞いたから、見期いに帰たんだが、俺よりも[045A]集な稀[0338]が、泊[0141]とはな。",
-    "english": "I heard he's / gravely ill, so / I came to see him. / Didn't think the / guy tougher than / me would get sick."
+    "english": "I heard he's gravely ill, so I came to see him. // Didn't think the guy tougher than me would get sick."
   },
   {
     "resource": 1201,
@@ -3567,13 +3567,13 @@
     "resource": 1201,
     "msg_index": 108,
     "japanese": "俺はグノーメ[04F1]のベルタンという者だ。ここの息王オルトルードとは置い着き合いでな、いわば戦[046F]ってやつだ。",
-    "english": "I'm Beltan of / the Gnome tribe. / I go way back with / King Ortrud here. / You could say / we're war buddies."
+    "english": "I'm Bertin of / the Gnome tribe. / I go way back with / King Ortrud here. / You could say / we're war buddies."
   },
   {
     "resource": 1201,
     "msg_index": 109,
     "japanese": "ベルタン転とはその装、客見が合わんようになってな！。まあそれで俺は汝[04A0]に祠っ込んでいたんだが。",
-    "english": "Beltan: After that, / we had a falling / out. So I holed / up back home."
+    "english": "Bertin: After that, / we had a falling / out. So I holed / up back home."
   },
   {
     "resource": 1201,
@@ -3603,13 +3603,13 @@
     "resource": 1201,
     "msg_index": 115,
     "japanese": "ちょうど彼とすれ違いで入ってきた焼属の与が、ベルタンの良を見て、岩いた[01BC]所で多づいてきた。",
-    "english": "Just then, a noble / man who had just / entered spotted / Beltan in surprise."
+    "english": "Just then, a noble / man who had just / entered spotted / Bertin in surprise."
   },
   {
     "resource": 1201,
     "msg_index": 116,
     "japanese": "焼属の与あれは見嫌違えることない！。鉄囮王ベルタン[001D]オウディウスだ。",
-    "english": "Noble man: / Unmistakable! / It's Iron Axe / King Beltan Audius!"
+    "english": "Noble man: / Unmistakable! / It's Iron Axe / King Bertin Audius!"
   },
   {
     "resource": 1201,
@@ -3651,7 +3651,7 @@
     "resource": 1201,
     "msg_index": 123,
     "japanese": "[01A1]ほどのベルタンに魔けず[0519]らずの替[04D9]な多い声を外げながら、与はロビーの受着に向かって行った。",
-    "english": "With a booming / laugh rivaling / Beltan's, the man / headed for the / front desk."
+    "english": "With a booming / laugh rivaling / Bertin's, the man / headed for the / front desk."
   },
   {
     "resource": 1201,
@@ -3939,7 +3939,7 @@
     "resource": 1202,
     "msg_index": 1,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Investigate. / Curiosity? / Topics 1-10 / Shadow Check / Lab anger / God's grace? / Cursed Allayed 1-8 / Request completed."
+    "english": "Investigate. Curiosity? Topics 1-10 Shadow Check Lab anger God's grace? // Cursed Allayed 1-8 Request completed."
   },
   {
     "resource": 1202,
@@ -4371,7 +4371,7 @@
     "resource": 1202,
     "msg_index": 76,
     "japanese": "戦帰せんし魔美解まじゅつし[02E0]決とうぞく求手そうりょ[01E3]帰きし開役しきょう高者にんじゃ焼さむらい優臆美解れんきんじゅつしモンクモンク探決ぎぞく個[01E3]帰せいきし扱[01E3]帰くろきし紹基おんみつ[02E4]本しょうぐん[033A][02E0]かいとうそこまで一[0141]に質すと、モッチと[018A]銀ったオークはハッと何かに[0141]づいた[01BC]所で話に質をやめた。",
-    "english": "Fighter, Mage, / Thief, Priest, / Knight, Bishop, / Ninja, Samurai, / Alchemist, Monk, / Rogue, Crusader. / Mott suddenly / realized something."
+    "english": "Fighter, Mage, Thief, Priest, Knight, Bishop, // Ninja, Samurai, Alchemist, Monk, Rogue, Crusader. // Mott suddenly realized something."
   },
   {
     "resource": 1202,
@@ -5205,7 +5205,7 @@
     "resource": 1202,
     "msg_index": 229,
     "japanese": "重中を[01D7]して店の義へ出そうとするルーシーをとめ、ライマンにもらった書増を見せた。",
-    "english": "You stopped Lucy / from rushing out / and showed her / the documents / from Layman."
+    "english": "You stopped Lucy / from rushing out / and showed her / the documents / from Raiman."
   },
   {
     "resource": 1202,
@@ -5259,7 +5259,7 @@
     "resource": 1202,
     "msg_index": 238,
     "japanese": "ライマンから受けた依頼のこと、そして[0403]乙を[042F]ってもらったことを向全した。",
-    "english": "You reported about / the request from / Layman and that / you obtained the / land deed."
+    "english": "You reported about / the request from / Raiman and that / you obtained the / land deed."
   },
   {
     "resource": 1202,

@@ -7,7 +7,7 @@ summed-width centering, and the test gates — MUST import from here.  If any of
 them recomputes widths independently they silently desync (this project's #1
 failure mode).
 
-Source: build/recon_v86/r1188_ascii_metrics.json — a 95-element list, gid 0..94,
+Source: data/r1188_ascii_metrics.json (byte-identical recon copy) — a 95-element list, gid 0..94,
 each {gid, char, ink_left, ink_right, ink_width}, measured from the LIVE R1188
 font in GS-dump VRAM (TBP0=0x3000) and verified by re-rendering 'A'/'a'.
 

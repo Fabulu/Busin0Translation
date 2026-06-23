@@ -153,13 +153,13 @@
   "resource": 1206,
   "msg_index": 28,
   "japanese": "後り大るとそこには、この名層の入愛で出会ったドワーフの戦休ベルタンが待っていた。",
-  "english": "Turning back, dwarf / warrior Beltan / awaited there."
+  "english": "Turning back, dwarf / warrior Bertin / awaited there."
  },
  {
   "resource": 1206,
   "msg_index": 29,
   "japanese": "ベルタンここの[045E][047D]者どもを忘すとは、もうすでにあんたは、錠のわしらと同じ主があるってことだな。",
-  "english": "Beltan: Beating / the monsters here / means you have our / level of power."
+  "english": "Bertin: Beating / the monsters here / means you have our / level of power."
  },
  {
   "resource": 1206,
@@ -207,7 +207,7 @@
   "resource": 1206,
   "msg_index": 37,
   "japanese": "ベルタンはいたずらっ所のように[03A2]野をつぶり、多った。",
-  "english": "Beltan squinted / and laughed."
+  "english": "Bertin squinted / and laughed."
  },
  {
   "resource": 1206,
@@ -261,7 +261,7 @@
   "resource": 1206,
   "msg_index": 47,
   "japanese": "ベルタンは言[0387]を限め、必え込んだ。",
-  "english": "Beltan paused."
+  "english": "Bertin paused."
  },
  {
   "resource": 1206,
@@ -369,7 +369,7 @@
   "resource": 1206,
   "msg_index": 65,
   "japanese": "そう言ってベルタンは多い声を外げた。",
-  "english": "Beltan laughed."
+  "english": "Bertin laughed."
  },
  {
   "resource": 1206,
@@ -423,7 +423,7 @@
   "resource": 1206,
   "msg_index": 74,
   "japanese": "ベルタンは骨[06B3]のような[02A1][06B4]をゆさゆさとゆすりながら、防っていった。",
-  "english": "Beltan walked / away."
+  "english": "Bertin walked / away."
  },
  {
   "resource": 1206,
@@ -921,7 +921,7 @@
   "resource": 1206,
   "msg_index": 157,
   "japanese": "ベルタンドワーフの戦休いやなに！！、錠はあの女損商が[01CD]に向いていたのに、今は高蓄を向いているじゃねえか。",
-  "english": "Beltan: Statue / looks different!"
+  "english": "Bertin: Statue / looks different!"
  },
  {
   "resource": 1206,
@@ -951,7 +951,7 @@
   "resource": 1206,
   "msg_index": 162,
   "japanese": "俺はグノーメ[04F1]のベルタンという者だ。よろしくな。",
-  "english": "I'm Beltan, / Gnome clan."
+  "english": "I'm Bertin, / Gnome clan."
  },
  {
   "resource": 1206,
@@ -1173,7 +1173,7 @@
   "resource": 1206,
   "msg_index": 199,
   "japanese": "アウローラ兜魔運解ウェズベルともあろう者が、あんなおそまつな街忍しか退嫌にできなかったの？",
-  "english": "Aurora: Poor / showing, Wesbel?"
+  "english": "Aurora: Poor / showing, Wesbell?"
  },
  {
   "resource": 1206,
@@ -1209,7 +1209,7 @@
   "resource": 1206,
   "msg_index": 205,
   "japanese": "ウェズベルお両と戦ってもかなわぬことは、すでに[0460][04A2]美両イリキアの乙でわかっておる！！。",
-  "english": "Wesbel: Futile. / Learned at / Irikia."
+  "english": "Wesbell: Futile. / Learned at / Irikia."
  },
  {
   "resource": 1206,
@@ -1989,7 +1989,7 @@
   "resource": 1206,
   "msg_index": 337,
   "japanese": "？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？",
-  "english": "Roomi: Fortune?"
+  "english": "Romi: Fortune?"
  },
  {
   "resource": 1206,
@@ -2055,7 +2055,7 @@
   "resource": 1206,
   "msg_index": 350,
   "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
-  "english": "Roomi ghost. / 2000g."
+  "english": "Romi ghost. / 2000g."
  },
  {
   "resource": 1206,
@@ -2121,7 +2121,7 @@
   "resource": 1206,
   "msg_index": 361,
   "japanese": "ローミはそう言い退してまた良を消してしまった。",
-  "english": "Roomi vanished."
+  "english": "Romi vanished."
  },
  {
   "resource": 1206,
@@ -2655,7 +2655,7 @@
   "resource": 1206,
   "msg_index": 450,
   "japanese": "ローミの良が一[04C4]消えかかった。",
-  "english": "Roomi / flickered."
+  "english": "Romi / flickered."
  },
  {
   "resource": 1206,
@@ -2691,7 +2691,7 @@
   "resource": 1206,
   "msg_index": 458,
   "japanese": "ローミは良を消してしまった。",
-  "english": "Roomi / vanished."
+  "english": "Romi / vanished."
  },
  {
   "resource": 1206,
@@ -3093,7 +3093,7 @@
   "resource": 1206,
   "msg_index": 528,
   "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
-  "english": "Roomi: You / brought it!?"
+  "english": "Romi: You / brought it!?"
  },
  {
   "resource": 1206,
@@ -3213,7 +3213,7 @@
   "resource": 1206,
   "msg_index": 549,
   "japanese": "そう言ってローミは、宝[03CE]から集取りを取り出し、こちらによこした。",
-  "english": "Roomi gave / ring."
+  "english": "Romi gave / ring."
  },
  {
   "resource": 1206,
@@ -4113,13 +4113,13 @@
   "resource": 1206,
   "msg_index": 710,
   "japanese": "声の消はベルグラーノだった。",
-  "english": "It was / Belgradno."
+  "english": "It was / Belgrano."
  },
  {
   "resource": 1206,
   "msg_index": 711,
   "japanese": "戦いを編えたの両にベルグラーノが多みを呪かべ多づいてきた。",
-  "english": "Belgradno / approached."
+  "english": "Belgrano / approached."
  },
  {
   "resource": 1206,
@@ -4233,7 +4233,7 @@
   "resource": 1206,
   "msg_index": 730,
   "japanese": "過の目にも呪かぶ[05BC]くを感じ取ってか、ベルグラーノは言[0387]を[01B5]けた。",
-  "english": "Belgradno / continued."
+  "english": "Belgrano / continued."
  },
  {
   "resource": 1206,
@@ -4281,13 +4281,13 @@
   "resource": 1206,
   "msg_index": 738,
   "japanese": "場にマクベインという与には[0141]を[01E4]さないことだ。書向な与と聞く。",
-  "english": "Belgradno / left."
+  "english": "Belgrano / left."
  },
  {
   "resource": 1206,
   "msg_index": 739,
   "japanese": "短く力を後って、ベルグラーノは防っていった。",
-  "english": "Belgradno / left."
+  "english": "Belgrano / left."
  },
  {
   "resource": 1206,
@@ -5199,7 +5199,7 @@
   "resource": 1206,
   "msg_index": 891,
   "japanese": "コンデいやはや、[0160]めてお野にかかったが、客義に客義、あんなにうら[0325]き[0617]女だとは、このコンデ知らなんだわ。",
-  "english": "Conde: / Beautiful!"
+  "english": "Konde: / Beautiful!"
  },
  {
   "resource": 1206,
@@ -5247,7 +5247,7 @@
   "resource": 1206,
   "msg_index": 899,
   "japanese": "エーリカ[04DC]悪ぎがするんです！。",
-  "english": "Eerika: Bad / feeling!"
+  "english": "Erika: Bad / feeling!"
  },
  {
   "resource": 1206,
@@ -6261,7 +6261,7 @@
   "resource": 1207,
   "msg_index": 162,
   "japanese": "ポポーが兜格でどかどかと多づいてきた。",
-  "english": "Poppo / stomped."
+  "english": "Popo / stomped."
  },
  {
   "resource": 1207,
@@ -6297,7 +6297,7 @@
   "resource": 1207,
   "msg_index": 168,
   "japanese": "はポポーにすすめられるがまま王いていった。",
-  "english": "Followed / Poppo."
+  "english": "Followed / Popo."
  },
  {
   "resource": 1207,
@@ -6357,7 +6357,7 @@
   "resource": 1207,
   "msg_index": 178,
   "japanese": "ポポーはまるで[0613]する[0617]女のように、うっとりとした[0390][016A]で置形解[03DE]に[03A6]いをはせていた。",
-  "english": "Poppo gazed."
+  "english": "Popo gazed."
  },
  {
   "resource": 1207,
@@ -6441,7 +6441,7 @@
   "resource": 1207,
   "msg_index": 192,
   "japanese": "ポポーは宮をかきむしり、顔を[04A6]っ[041E]にして必え込んだ。",
-  "english": "Poppo / clutched / head."
+  "english": "Popo / clutched / head."
  },
  {
   "resource": 1207,
@@ -6465,13 +6465,13 @@
   "resource": 1207,
   "msg_index": 196,
   "japanese": "ポポーは子がるような前いで防っていった。",
-  "english": "Poppo / rushed off."
+  "english": "Popo / rushed off."
  },
  {
   "resource": 1207,
   "msg_index": 198,
   "japanese": "フリーダーが義恵、パーティから払れ、ふらふらと王き出した。",
-  "english": "Frieda / wandered."
+  "english": "Frieder / wandered."
  },
  {
   "resource": 1207,
@@ -6543,7 +6543,7 @@
   "resource": 1207,
   "msg_index": 211,
   "japanese": "ポポーは、[0160]めてフリーダーの武器に[0141]づいたようだ。",
-  "english": "Poppo / noticed."
+  "english": "Popo / noticed."
  },
  {
   "resource": 1207,
@@ -6573,7 +6573,7 @@
   "resource": 1207,
   "msg_index": 216,
   "japanese": "フリーダーはい、２０５０rot[04EB]部、[06B4]番io２２３freeda。フリーダーと申します。",
-  "english": "Unit 2050 / Frieda."
+  "english": "Unit 2050 / Frieder."
  },
  {
   "resource": 1207,
@@ -6627,7 +6627,7 @@
   "resource": 1207,
   "msg_index": 225,
   "japanese": "ポポーは、兜きなため息とともにがっくりと冒を落とした。",
-  "english": "Poppo / slumped."
+  "english": "Popo / slumped."
  },
  {
   "resource": 1207,
@@ -6663,7 +6663,7 @@
   "resource": 1207,
   "msg_index": 231,
   "japanese": "感[016A]の辺い愛道でフリーダーはそう言って、隊[043B]へと戻った。",
-  "english": "Frieda / returned."
+  "english": "Frieder / returned."
  },
  {
   "resource": 1207,
@@ -6693,7 +6693,7 @@
   "resource": 1207,
   "msg_index": 236,
   "japanese": "メラーニエとクンナルも一同だ。",
-  "english": "Merani and / Kunnal."
+  "english": "Melanie and / Kunnar."
  },
  {
   "resource": 1207,
@@ -6705,13 +6705,13 @@
   "resource": 1207,
   "msg_index": 238,
   "japanese": "一番[0160]めにこちらに[0141]着いたのはメラーニエだった。",
-  "english": "Merani / noticed."
+  "english": "Melanie / noticed."
  },
  {
   "resource": 1207,
   "msg_index": 239,
   "japanese": "ミリィとクンナルも[01B5]いて野をこちらにやる。",
-  "english": "Milly and / Kunnal looked."
+  "english": "Milly and / Kunnar looked."
  },
  {
   "resource": 1207,
@@ -6735,7 +6735,7 @@
   "resource": 1207,
   "msg_index": 243,
   "japanese": "クンナルはいやらしい野つきでこちらを見て、にやりと多った。",
-  "english": "Kunnal / grinned."
+  "english": "Kunnar / grinned."
  },
  {
   "resource": 1207,
@@ -6831,7 +6831,7 @@
   "resource": 1207,
   "msg_index": 259,
   "japanese": "ミリィはクンナルの[036E]の[06B9]を[03AA]力で祠っ[0402]って、辺[0190][01D5][0190][01A1]へと支れて行った。",
-  "english": "Milly / dragged / Kunnal."
+  "english": "Milly / dragged / Kunnar."
  },
  {
   "resource": 1207,
@@ -7281,7 +7281,7 @@
   "resource": 1207,
   "msg_index": 337,
   "japanese": "しかも[0454]し物会場のイベントに参加すればするほどチャンス[0445]追のお得な会社ナンバー[05FB]選会 ",
-  "english": "Roomi: Fortune?"
+  "english": "Romi: Fortune?"
  },
  {
   "resource": 1207,
@@ -7359,7 +7359,7 @@
   "resource": 1207,
   "msg_index": 350,
   "japanese": "メンバーカードを力に入れた ",
-  "english": "Roomi ghost. / 2000g."
+  "english": "Romi ghost. / 2000g."
  },
  {
   "resource": 1207,
@@ -7425,7 +7425,7 @@
   "resource": 1207,
   "msg_index": 361,
   "japanese": "０１２３４５６７８９−００００００まいどっ え～っと！会社番実のさんっスよね？",
-  "english": "Roomi vanished."
+  "english": "Romi vanished."
  },
  {
   "resource": 1207,
@@ -7941,7 +7941,7 @@
   "resource": 1207,
   "msg_index": 450,
   "japanese": "そしたら、段の功きを[057A]知してミスを[05CC]ぐことができるようになるわね、きっと。",
-  "english": "Roomi / flickered."
+  "english": "Romi / flickered."
  },
  {
   "resource": 1207,
@@ -7989,7 +7989,7 @@
   "resource": 1207,
   "msg_index": 458,
   "japanese": "魔物の長[04B4]とかを取り出すのが兜[0380]きになるかも知れない。",
-  "english": "Roomi / vanished."
+  "english": "Romi / vanished."
  },
  {
   "resource": 1207,
@@ -8385,7 +8385,7 @@
   "resource": 1207,
   "msg_index": 528,
   "japanese": "な～んだ退大 じゃあまた帰てください ",
-  "english": "Roomi: You / brought it!?"
+  "english": "Romi: You / brought it!?"
  },
  {
   "resource": 1207,
@@ -8505,7 +8505,7 @@
   "resource": 1207,
   "msg_index": 549,
   "japanese": "ってなワケです どうですこの荷[04E6]全[04D9]さ さあさあ、[05FB]選してください ",
-  "english": "Roomi gave / ring."
+  "english": "Romi gave / ring."
  },
  {
   "resource": 1207,
@@ -9411,13 +9411,13 @@
   "resource": 1207,
   "msg_index": 710,
   "japanese": "[01E3]休前の今達をああも辺退に変しておいたくせに、",
-  "english": "It was / Belgradno."
+  "english": "It was / Belgrano."
  },
  {
   "resource": 1207,
   "msg_index": 711,
   "japanese": "今度は、値色が変される番になると、あのようにあさましく[01BA][04E1]いをするとは。",
-  "english": "Belgradno / approached."
+  "english": "Belgrano / approached."
  },
  {
   "resource": 1207,
@@ -9579,13 +9579,13 @@
   "resource": 1207,
   "msg_index": 738,
   "japanese": "優臆美解は場[047B]なを[04DD]を度い入大にオートマターを道べた。",
-  "english": "Belgradno / left."
+  "english": "Belgrano / left."
  },
  {
   "resource": 1207,
   "msg_index": 739,
   "japanese": "は既に目が[0646]生えているようだな。",
-  "english": "Belgradno / left."
+  "english": "Belgrano / left."
  },
  {
   "resource": 1207,
@@ -10443,7 +10443,7 @@
   "resource": 1207,
   "msg_index": 891,
   "japanese": "唱色、ウェブスター卿ほどの該れ者ならば、そのことはわかっているはず。",
-  "english": "Conde: / Beautiful!"
+  "english": "Konde: / Beautiful!"
  },
  {
   "resource": 1207,
@@ -10491,7 +10491,7 @@
   "resource": 1207,
   "msg_index": 899,
   "japanese": "なぜなら、失兜な主を力に入れたからと言っても、どの息もそれで[0412]うわけではありません。",
-  "english": "Eerika: Bad / feeling!"
+  "english": "Erika: Bad / feeling!"
  },
  {
   "resource": 1207,

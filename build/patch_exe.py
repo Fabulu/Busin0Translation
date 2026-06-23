@@ -524,6 +524,432 @@ def main():
     else:
         print(f"  WARN proportional caves not applied: hook1=0x{h1:08X} hook2=0x{h2:08X}")
 
+    # ─── PATCH 19: CHARGEN Path-1 proportional spacing (advance LUT + draw-shift + summed centering)
+    # The chargen prompt (R37) and description/personality (R38) glyph streams render through
+    # Path 1 of the universal R1188 renderer func 0x307DA0 (data/chargen_spacing_backlog.md) —
+    # NOT a separate R2100/R2138 font system.  Path 1 uses a FIXED 24px monospace pen
+    # (`addiu v0,v0,0x18` @VA 0x308040) and a glyph-COUNT centering reserve (count*12 @VA
+    # 0x307FBC..0x307FD4), giving the wide-monospace look seen in thing1-3/space1-6.  gid ==
+    # char-32 CONFIRMED LIVE (thing2 eeMemory: "Select gender." u16-BE @0x12BD0AC are char-32
+    # gids), the SAME index as glyph_metrics.ADV / build_v9 enc() / the Patch-14 resident tables.
+    #
+    # Three coordinated caves, all reading Patch-14's RESIDENT tables (no recomputed widths —
+    # the #1-failure-mode gate):  ADV @VA 0x4C7564 (lbu 0x7564(0x4C0000)), LEFTSHIFT @VA
+    # 0x4C7690 (lbu 0x7690(0x4C0000)).  Chargen pen is 0x1cc(sp) (narration uses 0x1ce(sp)) —
+    # kept distinct so NO narration regression.  Caves live in the Patch-15-cleared rodata pad
+    # 0x4D6600.. (file 0x3D6680; the run 0x4D65CE..0x4D6720 minus Patch-15's 0x4D65D0+0x28).
+    # This pad is OFF the Patch-14 (0x4C7540-0x4C7790), Patch-20 (0x4C7860/0x4CAA30 NS caves),
+    # Patch-6/16/18 caves — verified zero before each write.
+    #
+    #   STAGE 1 advance LUT  — hook 0x308040 (orig addiu v0,v0,0x18) -> j cave1; delay slot
+    #     (orig sh v0,0x1cc(sp) @0x308044) -> nop.  cave1 @0x4D6600: re-read gid via lh
+    #     v1,0x40(s1) (s1 NOT bumped until 0x308054, AFTER the advance); andi 0xFF; ADV[gid]
+    #     from 0x7564(0x4C0000); pen(0x1cc(sp)) += ADV; store; j 0x308048 (past the orig store).
+    #   STAGE 2 draw-shift (Option A, penX only — never hook inside shared draw 0x305E30) —
+    #     hook 0x308018 (orig lh v1,0x1cc(sp)) -> j cave2; cave2 @0x4D6660: reload penX; gid via
+    #     lh 0x40(s1); LEFTSHIFT[gid] from 0x7690(0x4C0000); penX(v1) -= LEFTSHIFT; j 0x30801C.
+    #     Uses $at/$t9 ONLY ($t0 is LIVE here: set @0x308010, consumed @0x30802C).  Delay slot
+    #     0x30801C (move a0,s5) is idempotent — left in place (runs once as delay, once on return).
+    #   STAGE 3 summed-width centering — hook 0x307FBC (orig sll a0,a1,1, head of the count*12
+    #     reserve) -> j cave3; displaced delay slot 0x307FC0 (orig addu a0,a0,a1) -> nop.  cave3
+    #     @0x4D66A0: walk the line glyph array at s3+0x40 (LE i16 stride 2, -1 sentinel via bltz,
+    #     EXACTLY the original count loop 0x307F54-0x307F84), SUM += ADV[gid]; sra SUM,1;
+    #     pen(0x1cc(sp)) -= SUM/2; store; j 0x307FD8 (the existing store/continue target).  SUM
+    #     accumulates in $t0 (DEAD here) — $v1 (=count) MUST be preserved: it flows to 0x307FE4.
+    # Stage 1+3 ship TOGETHER (advance-without-centering = the documented drift bug); Stage 2 is
+    # independent polish.  GATE: only install if Patch 14 installed its resident ADV table
+    # (checked via the Patch-14 hook word @0x209820 == 0x08131D50).  file_off = VA - 0xFFF80.
+    print("\n--- Patch 19: CHARGEN Path-1 proportional (advance LUT + draw-shift + summed centering) ---")
+    P19_GATE = struct.unpack_from("<I", data, 0x209820)[0]   # Patch-14 HOOK1 (j 0x4C7540)
+    # v122 RECON (chargenspaces.p2s, fresh, gp-0x62d8==5 CONFIRMED): the glyph cell at
+    # lh 0x40(s1) is (char-32) << 8 — memory bytes [0x00, char-32], char-32 in the HIGH
+    # byte of the LE halfword.  PROVEN: "Lives to hoard gold." @0xE148B2 decodes as cells
+    # 0x2C00('L') 0x4900('i') ... (lo byte always 0x00, hi byte = char-32).  The v120 caves
+    # `andi 0xFF` read the ZERO low byte -> gid=0 -> every glyph squashed to ADV[0]=9 (the
+    # "wide/unformatted" look).  FIX: char-32 = cell >> 8 (srl 8), index resident ADV @0x7564.
+    # ADV LUT confirmed live: ADV[' ']=9, ADV['M'-32=0x2D]=23.  Line-break cell 0xFEFF and
+    # terminator 0xFFFF both have hi byte >=0x60 -> excluded from the width sum (cave3 sltiu).
+    # SCOPE: all three stages gated on the screen-mode global lw $at,-0x62d8($gp) == 5 (chargen).
+    # chargenspaces=5, mostbroken(request)=7, town/narration=7 -> request/narration/dialogue
+    # take the STOCK fallback (24px advance / count*12 reserve), byte-for-byte the v121 behavior.
+    # NO BLAST RADIUS: the only behavioral change is inside `if mode==5`.
+    #
+    # cave1 (advance) @ VA 0x4D6600 / file 0x3D6680  -> j 0x308048
+    p19_cave1 = [
+        0x8F819D28,  # lw   $at, -0x62d8($gp)    ; at = screen mode (RAM 0x4FED18)
+        0x86230040,  # lh   $v1, 0x40($s1)       ; cell (s1 not yet bumped); = (char-32)<<8
+        0x24080005,  # li   $t0, 5
+        0x14280008,  # bne  $at, $t0, STOCK(0x4D6630) ; mode!=5 -> stock 24px
+        0x00031A02,  # srl  $v1, $v1, 8          ; (delay) char-32 = HIGH byte
+        0x3C08004C,  # lui  $t0, 0x4C            ; t0 = 0x4C0000 (resident ADV @+0x7564)
+        0x01034021,  # addu $t0, $t0, $v1
+        0x91087564,  # lbu  $t0, 0x7564($t0)     ; ADV[char-32]
+        0x87A201CC,  # lh   $v0, 0x1cc($sp)      ; pen
+        0x00481021,  # addu $v0, $v0, $t0        ; pen += ADV
+        0x10000003,  # b    STORE(0x4D6638)
+        0x00000000,  # nop
+        0x87A201CC,  # STOCK: lh $v0, 0x1cc($sp)
+        0x24420018,  # addiu $v0, $v0, 0x18      ; stock 24px monospace (request/narration)
+        0xA7A201CC,  # STORE: sh $v0, 0x1cc($sp)
+        0x080C2012,  # j    0x308048             ; past the original store
+        0x00000000,  # nop
+    ]
+    # cave2 (draw-shift, left-bearing) @ VA 0x4D6660 / file 0x3D66E0  -> j 0x30801C
+    p19_cave2 = [
+        0x8F999D28,  # lw   $t9, -0x62d8($gp)    ; t9 = screen mode (t0 is LIVE here)
+        0x87A301CC,  # lh   $v1, 0x1cc($sp)      ; penX (displaced hook instruction)
+        0x24180005,  # li   $t8, 5
+        0x17380006,  # bne  $t9, $t8, DONE(0x4D6688) ; mode!=5 -> no shift
+        0x86390040,  # lh   $t9, 0x40($s1)       ; (delay) cell
+        0x0019CA02,  # srl  $t9, $t9, 8          ; char-32 = HIGH byte
+        0x3C01004C,  # lui  $at, 0x4C            ; at = 0x4C0000 (resident LEFTSHIFT @+0x7690)
+        0x00390821,  # addu $at, $at, $t9
+        0x90217690,  # lbu  $at, 0x7690($at)     ; LEFTSHIFT[char-32]
+        0x00611823,  # subu $v1, $v1, $at        ; penX -= LEFTSHIFT (draw-X only)
+        0x080C2007,  # DONE: j 0x30801C
+        0x00000000,  # nop
+    ]
+    # cave3 (summed-width centering) @ VA 0x4D66A0 / file 0x3D6720  -> j 0x307FD8
+    p19_cave3 = [
+        0x8F899D28,  # lw   $t1, -0x62d8($gp)    ; t1 = screen mode
+        0x240A0005,  # li   $t2, 5
+        0x152A0014,  # bne  $t1, $t2, STOCK(0x4D66FC) ; mode!=5 -> stock count*12
+        0x87A201CC,  # lh   $v0, 0x1cc($sp)      ; (delay) pen (=0 at line start)
+        0x26660040,  # addiu $a2, $s3, 0x40      ; a2 = &glyph[0]
+        0x00004021,  # move  $t0, $zero          ; t0 = SUM
+        0x3C04004C,  # lui   $a0, 0x4C           ; a0 = 0x4C0000 (resident ADV @+0x7564)
+        0x84C50000,  # LOOP: lh $a1, 0($a2)      ; a1 = cell (signed)
+        0x240BFFFF,  # li    $t3, -1
+        0x10AB0009,  # beq   $a1, $t3, DONE(0x4D66EC) ; 0xFFFF terminator (matches draw loop)
+        0x00053A02,  # srl   $a3, $a1, 8         ; (delay) char-32 / break-code
+        0x2CE10060,  # sltiu $at, $a3, 0x60      ; at=1 iff real glyph (<0x60); 0xFE break => 0
+        0x10200003,  # beq   $at, $zero, SKIP(0x4D66E0) ; skip 0xFEFF line-break cell
+        0x00873821,  # addu  $a3, $a0, $a3       ; (delay)
+        0x90E77564,  # lbu   $a3, 0x7564($a3)    ; ADV[char-32]
+        0x01074021,  # addu  $t0, $t0, $a3       ; SUM += ADV
+        0x24C60002,  # SKIP: addiu $a2, $a2, 2
+        0x1000FFF5,  # b     LOOP(0x4D66BC)
+        0x00000000,  # nop  (delay)
+        0x00084043,  # DONE: sra $t0, $t0, 1     ; SUM/2
+        0x00481023,  # subu  $v0, $v0, $t0       ; pen -= SUM/2 (center origin)
+        0x10000005,  # b     WRITE(0x4D670C)
+        0x00000000,  # nop
+        0x00052040,  # STOCK: sll $a0, $a1, 1    ; original count*12 reserve
+        0x00852021,  # addu  $a0, $a0, $a1
+        0x00042080,  # sll   $a0, $a0, 2         ; a0 = a1*12
+        0x00441023,  # subu  $v0, $v0, $a0
+        0xA7A201CC,  # WRITE: sh $v0, 0x1cc($sp)
+        0x080C1FF6,  # j     0x307FD8            ; existing store/continue target
+        0x00000000,  # nop
+    ]
+    P19_H1, P19_C1, P19_J1 = 0x2080C0, 0x3D6680, 0x08135980  # VA 0x308040 / cave1 0x4D6600
+    P19_H2, P19_C2, P19_J2 = 0x208098, 0x3D66E0, 0x08135998  # VA 0x308018 / cave2 0x4D6660
+    P19_H3, P19_C3, P19_J3 = 0x20803C, 0x3D6720, 0x081359A8  # VA 0x307FBC / cave3 0x4D66A0
+    # v122: RE-ENABLED.  The v120 revert reasons are both resolved:
+    #  (1) "andi 0xFF -> gid=0" -> caves now read the HIGH byte (srl 8); chargenspaces.p2s
+    #      confirms cells are (char-32)<<8, so srl 8 yields the correct glyph index.
+    #  (2) "no request/chargen discriminator" -> all three stages now gate on the screen-mode
+    #      global lw $at,-0x62d8($gp) == 5 (chargen).  mostbroken(request)=7 -> stock fallback.
+    if P19_GATE != 0x08131D50:
+        print(f"  WARN Patch 14 not installed (hook=0x{P19_GATE:08X}) -> Patch 19 SKIPPED")
+    else:
+        h1 = struct.unpack_from("<I", data, P19_H1)[0]
+        h2 = struct.unpack_from("<I", data, P19_H2)[0]
+        h3 = struct.unpack_from("<I", data, P19_H3)[0]
+        c1_free = all(b == 0 for b in data[P19_C1:P19_C1 + len(p19_cave1) * 4])
+        c2_free = all(b == 0 for b in data[P19_C2:P19_C2 + len(p19_cave2) * 4])
+        c3_free = all(b == 0 for b in data[P19_C3:P19_C3 + len(p19_cave3) * 4])
+        c1_done = struct.unpack_from("<I", data, P19_C1)[0] == p19_cave1[0]
+        already = (h1 == P19_J1 and h2 == P19_J2 and c1_done)  # Stage 3 intentionally unhooked
+        # STAGE 3 INTENTIONALLY NOT HOOKED (v122 draw-math recon).  The draw-X is
+        #   draw_X = penX(0x1cc) + box_origin(lh 0x3e(s3)) + s7,   where s7 = count*12
+        #   (computed from $v1=count @0x307FE4..0x307FF0).  The ORIGINAL centering block
+        #   (0x307FBC..0x307FD4) sets 0x1cc = 0 - count*12, so the two count*12 terms
+        #   CANCEL: draw_X = box_origin + penX_advance.  With Stage 1 supplying a
+        #   PROPORTIONAL penX advance, the text is already LEFT-ANCHORED at box_origin
+        #   with correct per-glyph spacing — exactly the chargenspaces.p2s fix (the boxes
+        #   were "too wide" purely from the 24px monospace advance, NOT mis-centering).
+        #   Re-routing 0x1cc to -SUM/2 would leave the s7=count*12 term UNCANCELLED and
+        #   shove the text right by count*12 - SUM/2 (a regression).  So Stage 3 stays
+        #   pristine (stock count*12 reserve cancels s7); p19_cave3 is retained above for
+        #   reference only.  Stage 1 + Stage 2 are the shipped fix.
+        if already:
+            print("  SKIP: chargen proportional caves already installed")
+        elif (h1 == 0x24420018 and h2 == 0x87A301CC
+              and (c1_free or c1_done) and c2_free):
+            # Stage 1 — advance LUT cave + trampoline (also nop the displaced store @0x308044)
+            for i, w in enumerate(p19_cave1):
+                struct.pack_into("<I", data, P19_C1 + i * 4, w)
+            struct.pack_into("<I", data, P19_H1, P19_J1)          # j cave1
+            struct.pack_into("<I", data, P19_H1 + 4, 0x00000000)  # delay slot (was sh) -> nop
+            # Stage 2 — draw-shift cave + trampoline (delay slot 0x30801C left: idempotent move)
+            for i, w in enumerate(p19_cave2):
+                struct.pack_into("<I", data, P19_C2 + i * 4, w)
+            struct.pack_into("<I", data, P19_H2, P19_J2)          # j cave2
+            print(f"  OK   Stage 1 advance LUT  @0x4D6600 (hook 0x308040, gate mode==5, ADV 0x7564, srl-8)")
+            print(f"  OK   Stage 2 draw-shift   @0x4D6660 (hook 0x308018, gate mode==5, LEFTSHIFT 0x7690)")
+            print(f"  ---  Stage 3 NOT hooked: stock count*12 cancels s7 -> left-anchored proportional")
+            patched_count += 1
+        else:
+            print(f"  WARN Patch 19 not applied: h1=0x{h1:08X} h2=0x{h2:08X} "
+                  f"c1_free={c1_free} c2_free={c2_free}")
+
+    # ─── PATCH 20: NARRATION FIXED LEFT-MARGIN origin (replaces summed-width centering) ──
+    # USER PREFERENCE (aheavyfog.p2s / noonewasinsight.p2s screenshots): narration must be
+    # LEFT-ALIGNED with a CONSTANT left x for every line — NOT centered/right-anchored.
+    # The old centering (Patch 13 count*18 reserve, and the v120 summed-width caves that
+    # this block formerly installed) computed  desc+0x3c = BASE - line_width, so a WIDER
+    # line started FURTHER LEFT and the right side of the box went unused (PROVEN in
+    # aheavyfog: line left-edges measured 50/43/35 game-px for the 15/16/17-char lines,
+    # i.e. left = window_x + 224 - count*18 — exact count*18 match).  The brief calls this
+    # "summed-width CENTERING mis-aligns: every line shifts further left, right unused."
+    #
+    # FIX = make desc+0x3c / desc+0x3e a CONSTANT (independent of glyph count/width) so
+    # every line shares the SAME left origin.  The renderer draws each glyph at
+    # X = window_x + desc+0x3c + penX (penX starts 0 per line @0x30810C, +ADV per glyph),
+    # so a constant desc+0x3c == a fixed left margin.  We patch the centering arithmetic
+    # IN PLACE at the two store sites (NO cave needed):
+    #   NS_A (desc+0x3c, horizontal origin — PROVEN horizontal by the screenshot count*18
+    #     spread): VA 0x305980 `li $v1,0xE0` -> `li $v1,LEFT_A`; VA 0x305994
+    #     `subu $v1,$v1,$a0` (the count*18 reserve) -> nop.  Result: sh $v1=LEFT_A,0x3c(s5).
+    #   NS_B (desc+0x3e, the paired secondary origin): VA 0x3059F0 `li $v1,0xC0` ->
+    #     `li $v1,LEFT_B`; VA 0x305A04 `subu $v1,$v1,$a0` -> nop.
+    # LEFT_A/LEFT_B keep the original BASE delta (224-192 = 32) so the engine's two
+    # anchors stay in their stock geometric relationship, just pinned to a fixed left.
+    #   LEFT_A = -56 -> game_x ≈ 40 (window_x≈96 from aheavyfog anchor; clean left margin).
+    #   LEFT_B = -88 (= LEFT_A - 32, preserving the original 0xE0/0xC0 delta).
+    # INTERIM KNOB: text too far LEFT -> raise LEFT_A (e.g. -56 -> -46); too far RIGHT ->
+    # lower (e.g. -56 -> -66).  Keep LEFT_B = LEFT_A - 32.
+    #
+    # SCOPE (NO BLAST RADIUS — verified by disasm):
+    #   * These two stores fire ONLY on the alignment==3 path: gated by `bne s5+0xa6,0`
+    #     (@0x305914 -> skip both) AND `bne s4+0x2a6,3` (@0x305978 -> skip 0x3c) /
+    #     `bne s4+0x2a7,3` (@0x3059E8 -> skip 0x3e).  Non-narration text (align!=3) NEVER
+    #     reaches these stores, so its origin is untouched.
+    #   * The REQUEST MENU does NOT use this dispatcher at all: the request title/list and
+    #     "REQUEST LIST" header render via draw_clamp12 @0x3A3300 (callers 0x155B60 /
+    #     0x15CDF4 / 0x15CE4C / 0x15D778 / 0x15DBA8 — the tavern/request menu funcs), which
+    #     is a SEPARATE renderer with ZERO calls into the 0x303C60 dispatcher that owns
+    #     0x305988/0x3059F8.  Confirmed: NO `jal 0x303C60` exists anywhere; the dispatcher
+    #     is reached only as a scheduler/handler node for the narration/message surface.
+    #     => This patch CANNOT touch the request menu (the v120 "r t" break is Patch 19's
+    #     chargen path 0x307DA0/0x308040, a different surface — out of B4's scope).
+    #   * This SUPERSEDES Patch 13's count-shift edits (0x305988/0x305990/0x3059F8/0x305A00)
+    #     — those sll's still run but their result $a0 is discarded once the subu is nop'd.
+    # NO Patch-14 gate needed (no resident-table read here); installs unconditionally.
+    #
+    # DEAD-PER-RAM (2026-06-20 fresh-save recon): these four sites are on the
+    # alignment==3 (mode-3) path of func 0x303C60.  Live narration descriptor
+    # 0x565150[0]=0x1137AC0 has desc+0x2a6==0 / desc+0x2a7==0 / desc+0x2a8==0 =>
+    # ALIGN-MODE 0, which routes through the X-dispatcher count*12 block @0x308308
+    # (the PATCH 23 site), NOT this mode-3 path.  Patch 20's installed bytes
+    # (li v1,-56 / nop) are therefore on a DEAD path for narration — ZERO runtime
+    # effect.  They are LEFT IN PLACE (harmless, idempotent re-run) rather than
+    # reverted, to avoid a spurious WARN; the load-bearing left-align is Patch 23.
+    print("\n--- Patch 20: NARRATION fixed LEFT-MARGIN origin (DEAD-per-RAM mode-3 path; left as-is) ---")
+    LEFT_A = -56            # desc+0x3c constant -> game_x ≈ 40 (left margin)
+    LEFT_B = LEFT_A - 32    # desc+0x3e constant -> preserve original 0xE0-0xC0 = 32 delta
+    li_a = 0x24030000 | (LEFT_A & 0xFFFF)   # li $v1, LEFT_A
+    li_b = 0x24030000 | (LEFT_B & 0xFFFF)   # li $v1, LEFT_B
+    NOP = 0x00000000
+    SUBU = 0x00641823       # subu $v1,$v1,$a0  (the count*K reserve to kill)
+    p20_sites = [
+        # (file_off, expected_orig, new_word, desc)
+        (0x205A00, 0x240300E0, li_a, "NS_A li v1,0xE0 -> li v1,%d (0x305980)" % LEFT_A),
+        (0x205A14, SUBU,       NOP,  "NS_A subu (count*18 reserve) -> nop (0x305994)"),
+        (0x205A70, 0x240300C0, li_b, "NS_B li v1,0xC0 -> li v1,%d (0x3059F0)" % LEFT_B),
+        (0x205A84, SUBU,       NOP,  "NS_B subu (count*18 reserve) -> nop (0x305A04)"),
+    ]
+    for off, exp, new, desc in p20_sites:
+        word = struct.unpack_from("<I", data, off)[0]
+        if word == new:
+            print(f"  SKIP 0x{off:06X}: already patched ({desc})")
+        elif word == exp:
+            struct.pack_into("<I", data, off, new)
+            print(f"  OK   0x{off:06X}: {desc}")
+            patched_count += 1
+        else:
+            print(f"  WARN 0x{off:06X}: expected 0x{exp:08X}, got 0x{word:08X} ({desc})")
+
+    # ─── Patch 21: REVERTED (mode-2 origin @0x308378 — DEAD for narration) ─
+    # v121 set this site to `move $a0,$a1` (0x00A02021) on the ASSUMPTION that live
+    # narration drew via the alignment-dispatcher MODE-2 branch (lbu desc+0x2a7 == 2).
+    # FRESH-SAVE RECON DISPROVES THAT (2026-06-20, heavyfog2/leftfield/mostbroken
+    # eeMemory + GS): the live narration descriptor 0x565150[0]=0x1137AC0 has
+    # desc+0x2a7(ALIGN)==0, so the X-dispatcher at 0x3082E4 (`bne a1,1`) jumps to the
+    # align!=1 count*12 block @0x308308 and NEVER reaches the mode-2 check (0x308338
+    # `bne a1,2`) or 0x308378.  => Patch 21 is PROVEN DEAD for narration, and its
+    # `move a0,a1` ALSO had a false premise (a1 != box-left: leftfield wrote OFF the
+    # LEFT edge).  The real left-align fix is PATCH 23 below at 0x308328.
+    # REVERT: ship 0x308378 PRISTINE (0x00A42021 = addu a0,a1,a0).  This block writes
+    # the ORIGINAL word over any stale 0x00A02021 a prior build left behind.
+    print("\n--- Patch 21: REVERTED (restore mode-2 origin @0x308378 pristine; dead for narration) ---")
+    P21_OFF = 0x2083F8        # VA 0x308378
+    P21_ORIG = 0x00A42021     # addu $a0,$a1,$a0  (pristine: base + slack)
+    P21_STALE = 0x00A02021    # move $a0,$a1      (the v121 dead edit to undo)
+    p21 = struct.unpack_from("<I", data, P21_OFF)[0]
+    if p21 == P21_ORIG:
+        print(f"  SKIP 0x{P21_OFF:06X}: already pristine (0x{P21_ORIG:08X})")
+    elif p21 == P21_STALE:
+        struct.pack_into("<I", data, P21_OFF, P21_ORIG)
+        print(f"  OK   0x{P21_OFF:06X}: restored move a0,a1 -> addu a0,a1,a0 (pristine, Patch 21 reverted)")
+        patched_count += 1
+    else:
+        print(f"  WARN 0x{P21_OFF:06X}: expected 0x{P21_ORIG:08X} or 0x{P21_STALE:08X}, got 0x{p21:08X} -- left as-is")
+
+    # ─── PATCH 22: REQUEST body overflow — path-B reserve count*24 -> count*18 ──
+    # ROOT CAUSE (live-RAM proven, ramdumps/mostbroken.p2s + stillrt.p2s):
+    #   The tavern request DESCRIPTION body renders through the universal R1188
+    #   renderer's Block-2 (pen sp+0x1ce), reached via the align-mode dispatcher's
+    #   v1==2 branch (addiu v0,zero,2; bne v1,v0 @0x308928).  Block-2 self-centers
+    #   each line: origin = box_base + (box_width - reserve)/2, where the reserve
+    #   idiom @0x30896C-0x308974 computes count*24 (sll1/addu/sll3 = a0*24) while
+    #   the SHARED per-glyph advance is the Patch-14 proportional LUT (avg ~18px,
+    #   from tools/glyph_metrics.py).  reserve(24) > advance(18) ⇒ the centering
+    #   reserves a span ~33% too wide ⇒ origin lands too far LEFT and the line runs
+    #   past the RIGHT edge (the both-edges overflow + garbled 'nce/laume/accept'
+    #   columns in mostbroken).  The body is plain text — only 0xFFFE/0xFFFF codes,
+    #   NO 0xFFD0-D7 tabs (live-decoded @0xE37880) — so the old tab-ladder theory
+    #   is refuted, and mostbroken's narration array @0x565150 is empty so the body
+    #   is NOT on the slot-0 narration path.
+    # FIX (mirrors Patch-14's confirmed mode-2 0x308364/0x30836C count*24->18, same
+    #   algebraic transform, v0/a0 register pair instead of a0/a2):
+    #   (a) reserve idiom -> a0*18 via ((a0<<3)+a0)<<1:
+    #       0x30896C  sll v0,a0,1  (0x00041040) -> sll v0,a0,3  (0x000410C0)
+    #       0x308970  addu v0,v0,a0 (0x00441021) UNCHANGED
+    #       0x308974  sll v0,v0,3  (0x000210C0) -> sll v0,v0,1  (0x00021040)
+    #       (NOTE: P1's proposed 0x000420C0 at 0x30896C was a BUG — it decodes
+    #        sll a0,a0,3, clobbering a0 that the next addu needs; correct rd=v0
+    #        encoding is 0x000410C0.  RECON-corrected, live-decode verified.)
+    #   (b) Block-2 default-metric per-glyph advance 24 -> 18 at BOTH pen-0x1ce
+    #       sites so a default-metric glyph steps 18 to match the reserve:
+    #       0x308CB0  addiu v0,v0,0x18 -> addiu v0,v0,0x12
+    #       0x308D7C  addiu v0,v0,0x18 -> addiu v0,v0,0x12  (sibling v1==7 branch)
+    # SCOPING (live-confirmed disjoint from narration — no regression):
+    #   Path-B is pen sp+0x1ce, entered only via the align v1==2 branch.  Live
+    #   narration (heavyfog2/leftfield) has desc@0x1137AC0 +0x2a8==0 -> the OTHER
+    #   path (origin 0x308328, pen 0x1cc) and its advance is Block-3 @0x3097A4
+    #   (Patch-14 LUT hook @0x3097A0) — DISJOINT file offsets.  Boxed dialogue is
+    #   func 0x307510; chargen is Block-A pen-0x1cc @0x308040.  screen-mode gp-0x62d8
+    #   ==7 for BOTH narration and request, so it is NOT a usable gate — the align-
+    #   byte routing (v1==2 vs the 0x2a8==0 narration path) is the discriminator.
+    #   18px target = avg of the resident Patch-14 ADV LUT (tools/glyph_metrics.py).
+    print("\n--- Patch 22: REQUEST body reserve count*24->*18 + Block-2 advance 24->18 ---")
+    p22_sites = [
+        # (file_off, old_word, new_word, desc)
+        (0x2089EC, 0x00041040, 0x000410C0, "reserve idiom head sll v0,a0,1 -> sll v0,a0,3 (0x30896C)"),
+        (0x2089F4, 0x000210C0, 0x00021040, "reserve idiom tail sll v0,v0,3 -> sll v0,v0,1 (0x308974)"),
+        (0x208D30, 0x24420018, 0x24420012, "Block-2 advance 24->18 (0x308CB0)"),
+        (0x208DFC, 0x24420018, 0x24420012, "Block-2 advance 24->18 sibling (0x308D7C)"),
+    ]
+    for off, old, new, desc in p22_sites:
+        word = struct.unpack_from("<I", data, off)[0]
+        if word == old:
+            struct.pack_into("<I", data, off, new)
+            print(f"  OK   0x{off:06X}: {desc}")
+            patched_count += 1
+        elif word == new:
+            print(f"  SKIP 0x{off:06X}: already patched ({desc})")
+        else:
+            print(f"  WARN 0x{off:06X}: expected 0x{old:08X}, got 0x{word:08X} ({desc})")
+    # 0x308970 addu v0,v0,a0 (0x00441021) is intentionally NOT touched — it is the
+    # middle term of the *18 idiom and is identical in the *24 and *18 forms.
+
+    # ─── PATCH 23: NARRATION true LEFT-FLUSH at box origin (X-dispatcher 0x308328) ─
+    # ROOT CAUSE (2026-06-20 fresh-save recon: heavyfog2/leftfield/mostbroken
+    #   eeMemory.bin VA==offset + GS.bin, custom MIPS-LE decoder):
+    #   Live narration descriptor 0x565150[0]=0x1137AC0 has boxX(desc+0x3c)==0 and
+    #   ALIGN(desc+0x2a7)==0.  The X-dispatcher in func 0x307DA0:
+    #     0x3082DC  lbu  a1,0x2a7(a0)   ; a1 = align = 0
+    #     0x3082E0  addiu a0,zero,1
+    #     0x3082E4  bne  a1,a0,0x308308 ; 0!=1 -> align!=1 block (count*12 reserve)
+    #     0x308310  lh   a0,0x1cc(sp)   ; pen
+    #     0x308314  sll  a1,a2,1
+    #     0x308318  addu a1,a1,a2
+    #     0x30831C  sll  a1,a1,2        ; a1 = count(a2)*12
+    #     0x308328  subu a0,a0,a1       ; pen = pen - count*12   <-- THE SITE (live 0x00852023)
+    #     0x30832C  beq  zero,zero,0x308380
+    #     0x308330  sh   a0,0x1cc(sp)   ; store pen
+    #   With boxX==0 and pen = -(count*12), wide narration lines get a NEGATIVE penX
+    #   and clip off the LEFT edge (leftfield's 24-char "No one was in sight. Not"),
+    #   while the right side of the box goes unused.  This is centering, not left-align.
+    # FIX: replace `subu a0,a0,a1` (0x00852023) with `li a0,8` (0x24040008 =
+    #   addiu a0,zero,8).  This DISCARDS the count*12 centering reserve and stores a
+    #   CONSTANT pen=8, so every narration line left-flushes at boxX+8 (==8px since
+    #   boxX==0) with glyphs flowing rightward — true left-align using the full width.
+    # SCOPING (live-confirmed disjoint — no blast radius):
+    #   0x308328 stores pen sp+0x1cc and is reached ONLY by the align!=1 branch.
+    #   * Live narration (align==0) HITS it -> desired left-flush.
+    #   * Request body (mostbroken: 0x565150[0]==0, empty narration array) uses the
+    #     mode-2 pen sp+0x1ce path (Patch 22) -> DOES NOT hit 0x308328.
+    #   * Boxed dialogue (func 0x307510) and chargen (Block-A advance 0x308040,
+    #     gated mode==5) DO NOT use this dispatcher's centering.
+    #   Caveat (de-risked per brief): any incidental other align==0 town text on this
+    #   path also becomes left-flush — a net improvement matching the left-align intent.
+    # VERIFY: after build, word@0x308328 (file 0x2083A8) == 0x24040008.
+    print("\n--- Patch 23: NARRATION true LEFT-FLUSH (X-dispatcher count*12 reserve @0x308328 -> li a0,8) ---")
+    P23_OFF = 0x2083A8        # VA 0x308328
+    P23_ORIG = 0x00852023     # subu $a0,$a0,$a1  (count*12 centering reserve)
+    P23_NEW = 0x24040008      # li $a0,8          (constant left inset; on-disk LE 08 00 04 24)
+    p23 = struct.unpack_from("<I", data, P23_OFF)[0]
+    if p23 == P23_NEW:
+        print(f"  SKIP 0x{P23_OFF:06X}: narration already left-flush (li a0,8)")
+    elif p23 == P23_ORIG:
+        struct.pack_into("<I", data, P23_OFF, P23_NEW)
+        print(f"  OK   0x{P23_OFF:06X}: subu a0,a0,a1 -> li a0,8 (narration left-flush at boxX+8)")
+        patched_count += 1
+    else:
+        print(f"  WARN 0x{P23_OFF:06X}: expected 0x{P23_ORIG:08X}, got 0x{p23:08X} -- Patch 23 SKIPPED")
+
+    # ─── PATCH 24: NARRATION boxX=+96 via the draw-X load (narration-only) ──
+    # Narration (the fog/intro CENTER-anchored text drawn by fn 0x3060b0) is left-
+    # aligned BUILD-side by padding every line to equal glyph count (build_v9.
+    # pad_narration_left_align), but the aligned block then sits off the LEFT edge
+    # because the narration descriptor's boxX (desc+0x3c) stays 0 -- a live data-write
+    # breakpoint on 0x1137AFC proved it is only ever memset-zeroed, never set, so
+    # there is no descriptor-setup store to retarget (the earlier cave attempt missed).
+    # The user dialled boxX=+0x60 (96) live and it positions the aligned block cleanly.
+    # The narration draw reads boxX per glyph at VA 0x30973c (lh t2,0x3c(s0)) and that
+    # load lives in the NARRATION-ONLY branch (the jal 0x3060b0 draw, distinct from
+    # dialogue's 0x307510); t2 then flows into the glyph X (addu t2,t2,t0 -> addu
+    # t4,t4,t2).  Replace the load with `li t2,96` so every narration glyph uses
+    # boxX=+96, WITHOUT touching the shared descriptor setup or any other render path.
+    # NOTE: the 0x3060b0 draw path (and this 0x30973c boxX load) is SHARED by
+    # narration AND boxed dialogue (e.g. R1196 g577 "Shady Man") -- an unconditional
+    # `li t2,96` shoved dialogue +324px off the RIGHT (oops.p2s).  So GATE on
+    # boxX==0: only narration has boxX 0 (memset default, never set); dialogue uses
+    # -228, request uses count*12-184.  Cave: reload boxX, and only if it is 0
+    # override t2 with 96; otherwise leave the real boxX so dialogue/request are
+    # byte-identical.  Hook's delay slot (0x309740 lh v1,0x3e(s0)) still runs; the
+    # cave rejoins at 0x309744.
+    print("\n--- Patch 24: NARRATION boxX=+96 via draw-X load @0x30973c (gated boxX==0) ---")
+    P24_OFF = 0x2097BC          # VA 0x30973c (lh t2,0x3c(s0) = read boxX)
+    P24_ORIG = 0x860A003C       # lh   t2,0x3c(s0)
+    P24_HOOK = 0x08132A8C       # j 0x4CAA30  (cave; Patch-16 freed pad)
+    P24_CAVE_OFF = 0x3CAAB0     # VA 0x4CAA30
+    P24_CAVE = [
+        0x860A003C,  # lh    t2,0x3c(s0)        ; reload boxX
+        0x15400002,  # bne   t2,zero,0x4CAA40   ; boxX!=0 (dialogue/request) -> keep
+        0x00000000,  # nop                       ; (delay slot)
+        0x240A0060,  # addiu t2,zero,96          ; boxX==0 (narration) -> t2=96
+        0x080C25D1,  # j     0x309744            ; rejoin (after the delay-slot insn)
+        0x00000000,  # nop                       ; (delay slot)
+    ]
+    p24 = struct.unpack_from("<I", data, P24_OFF)[0]
+    if p24 == P24_HOOK:
+        print(f"  SKIP 0x{P24_OFF:06X}: narration boxX gate already installed")
+    elif p24 == P24_ORIG:
+        if any(struct.unpack_from("<I", data, P24_CAVE_OFF + i * 4)[0] for i in range(len(P24_CAVE))):
+            print(f"  WARN cave 0x4CAA30 not free -- Patch 24 SKIPPED")
+        else:
+            struct.pack_into("<I", data, P24_OFF, P24_HOOK)
+            for i, w in enumerate(P24_CAVE):
+                struct.pack_into("<I", data, P24_CAVE_OFF + i * 4, w)
+            print(f"  OK   0x{P24_OFF:06X}: lh t2,0x3c(s0) -> j cave; cave sets boxX=96 only if boxX==0")
+            patched_count += 1
+    else:
+        print(f"  WARN 0x{P24_OFF:06X}: expected 0x{P24_ORIG:08X}, got 0x{p24:08X} -- Patch 24 SKIPPED")
+
     # ─── PATCH 15: REVERTED (was the inert modal-latch gate, v102) ────────
     # v102 trampolined the modal's else-branch (VA 0x3A0890) to skip 3 latch
     # stores (gp-0x66F0/-0x66F4/-0x66F8 = RAM 0x4FE900/0x4FE8FC/0x4FE8F8) while

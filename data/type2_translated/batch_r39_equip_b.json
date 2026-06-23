@@ -51,7 +51,7 @@
     "resource": 39,
     "msg_index": 420,
     "japanese": "[03E9]編開錠日[FFFE]",
-    "english": "Estimated Deadline"
+    "english": "Deadline"
   },
   {
     "resource": 39,
@@ -279,7 +279,7 @@
     "resource": 39,
     "msg_index": 459,
     "japanese": "クンナルを探してほしい[FFFE]",
-    "english": "Find Kunnal"
+    "english": "Find Kunnar"
   },
   {
     "resource": 39,
@@ -681,13 +681,13 @@
     "resource": 39,
     "msg_index": 529,
     "japanese": "クンナル[FFFE]",
-    "english": "Kunnal"
+    "english": "Kunnar"
   },
   {
     "resource": 39,
     "msg_index": 530,
     "japanese": "メラーニエ[FFFE]",
-    "english": "Melaanie"
+    "english": "Melanie"
   },
   {
     "resource": 39,

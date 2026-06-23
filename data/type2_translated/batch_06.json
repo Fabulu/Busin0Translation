@@ -447,7 +447,7 @@
     "resource": 1208,
     "msg_index": 78,
     "japanese": "クンナル名成の[0590]り場の[04A6]ん中でクンナルが[01C9]特を見外げ[03D1]り言を冒いていた。",
-    "english": "Kunnal stood in the / middle of a clearing, / gazing up and muttering."
+    "english": "Kunnar stood in the / middle of a clearing, / gazing up and muttering."
   },
   {
     "resource": 1208,
@@ -495,13 +495,13 @@
     "resource": 1208,
     "msg_index": 86,
     "japanese": "クンナルは野を勉じて依[03A6]にひたっている。",
-    "english": "Kunnal closed his / eyes, lost deep / in fantasy."
+    "english": "Kunnar closed his / eyes, lost deep / in fantasy."
   },
   {
     "resource": 1208,
     "msg_index": 88,
     "japanese": "クンナルは少しの[058E]種の装ようやくこちらの武器に[0141]がつき声をかけてきた。",
-    "english": "After a while, / Kunnal finally / noticed you."
+    "english": "After a while, / Kunnar finally / noticed you."
   },
   {
     "resource": 1208,
@@ -513,7 +513,7 @@
     "resource": 1208,
     "msg_index": 92,
     "japanese": "クンナルに、メラーニエ達が素していることを[0197]げた。",
-    "english": "You told Kunnal that / Melanie and the / others are looking."
+    "english": "You told Kunnar that / Melanie and the / others are looking."
   },
   {
     "resource": 1208,
@@ -573,7 +573,7 @@
     "resource": 1208,
     "msg_index": 103,
     "japanese": "クンナルは魔法を[04CB]え、良を消した。",
-    "english": "Kunnal chanted a / spell and vanished."
+    "english": "Kunnar chanted a / spell and vanished."
   },
   {
     "resource": 1208,
@@ -645,7 +645,7 @@
     "resource": 1208,
     "msg_index": 115,
     "japanese": "あのねえ[0502]野与！じゃなくてクンナルが義恵フラフラ～っていなくなっちゃったのよ。",
-    "english": "\"So that fool-- / I mean Kunnal-- / just wandered off!\""
+    "english": "\"So that fool-- / I mean Kunnar-- / just wandered off!\""
   },
   {
     "resource": 1208,
@@ -675,13 +675,13 @@
     "resource": 1208,
     "msg_index": 120,
     "japanese": "よかった アンタが素してくれるんならクンナルを見つけたも同恵ね ",
-    "english": "\"Great! If you look / for him, finding / Kunnal is as good\""
+    "english": "\"Great! If you look / for him, finding / Kunnar is as good\""
   },
   {
     "resource": 1208,
     "msg_index": 121,
     "japanese": "そうそう、クンナルがいたらここまで支れてこなくっても別に余わないわよ。",
-    "english": "\"as done! And with / Kunnal, we don't / even need an escort.\""
+    "english": "\"as done! And with / Kunnar, we don't / even need an escort.\""
   },
   {
     "resource": 1208,
@@ -711,7 +711,7 @@
     "resource": 1208,
     "msg_index": 126,
     "japanese": "ふんっ、やっぱりクンナルを素すのはアンタに携まってるって[0141]がついたのかしら？ ",
-    "english": "\"Hmph, so you / realized finding / Kunnal is your job?\""
+    "english": "\"Hmph, so you / realized finding / Kunnar is your job?\""
   },
   {
     "resource": 1208,
@@ -723,13 +723,13 @@
     "resource": 1208,
     "msg_index": 128,
     "japanese": "よかった アンタが素してくれるんならクンナルを見つけたも同恵ね ",
-    "english": "\"Great! If you look / for him, finding / Kunnal is as good\""
+    "english": "\"Great! If you look / for him, finding / Kunnar is as good\""
   },
   {
     "resource": 1208,
     "msg_index": 129,
     "japanese": "そうそう、クンナルがいたらここまで支れてこなくっても別に余わないわよ。",
-    "english": "\"as done! And with / Kunnal, we don't / even need an escort.\""
+    "english": "\"as done! And with / Kunnar, we don't / even need an escort.\""
   },
   {
     "resource": 1208,
@@ -765,7 +765,7 @@
     "resource": 1208,
     "msg_index": 135,
     "japanese": "話かすミリィをなだめ、クンナルに会ったことと質した長[0199]を[0375]えた。",
-    "english": "You calmed Miri down / and told them you / found Kunnal."
+    "english": "You calmed Miri down / and told them you / found Kunnar."
   },
   {
     "resource": 1208,
@@ -1311,7 +1311,7 @@
     "resource": 1208,
     "msg_index": 228,
     "japanese": "？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？",
-    "english": "????? / Romy: \"Hi there! / Want me to tell / your fortune?\""
+    "english": "????? / Romi: \"Hi there! / Want me to tell / your fortune?\""
   },
   {
     "resource": 1208,
@@ -1377,7 +1377,7 @@
     "resource": 1208,
     "msg_index": 241,
     "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
-    "english": "\"I'm Romy, the ghost. / Pay 2000G and I'll / tell you more.\""
+    "english": "\"I'm Romi, the ghost. / Pay 2000G and I'll / tell you more.\""
   },
   {
     "resource": 1208,
@@ -1443,7 +1443,7 @@
     "resource": 1208,
     "msg_index": 252,
     "japanese": "ローミはそう言い退してまた良を消してしまった。",
-    "english": "Romy said that and / vanished again."
+    "english": "Romi said that and / vanished again."
   },
   {
     "resource": 1208,
@@ -1977,7 +1977,7 @@
     "resource": 1208,
     "msg_index": 341,
     "japanese": "ローミの良が一[04C4]消えかかった。",
-    "english": "Romy's form / flickered for a moment."
+    "english": "Romi's form / flickered for a moment."
   },
   {
     "resource": 1208,
@@ -2013,7 +2013,7 @@
     "resource": 1208,
     "msg_index": 349,
     "japanese": "ローミは良を消してしまった。",
-    "english": "Romy vanished."
+    "english": "Romi vanished."
   },
   {
     "resource": 1208,
@@ -2415,19 +2415,19 @@
     "resource": 1208,
     "msg_index": 419,
     "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
-    "english": "Romy: \"Hi! Did you / bring it for me?\""
+    "english": "Romi: \"Hi! Did you / bring it for me?\""
   },
   {
     "resource": 1208,
     "msg_index": 420,
     "japanese": "ローミに乙忍９名で投った[0268][0444]を力渡した。",
-    "english": "You handed Romy the / package found on B9F."
+    "english": "You handed Romi the / package found on B9F."
   },
   {
     "resource": 1208,
     "msg_index": 421,
     "japanese": "それは大思衛なことに、ローミの[02A1]を念き通ることなく彼女の力に銀せられた。",
-    "english": "Miraculously, it / passed through to / Romy's hands."
+    "english": "Miraculously, it / passed through to / Romi's hands."
   },
   {
     "resource": 1208,
@@ -2445,7 +2445,7 @@
     "resource": 1208,
     "msg_index": 424,
     "japanese": "ローミは[02F2]しそうに[0444]のひもをとき、中から門い宝剣を取り出した。",
-    "english": "Romy happily untied / the package and / pulled out a white sword."
+    "english": "Romi happily untied / the package and / pulled out a white sword."
   },
   {
     "resource": 1208,
@@ -2457,7 +2457,7 @@
     "resource": 1208,
     "msg_index": 426,
     "japanese": "ローミに差し出された剣を力にとってみた。",
-    "english": "You took the sword / that Romy offered."
+    "english": "You took the sword / that Romi offered."
   },
   {
     "resource": 1208,
@@ -2481,7 +2481,7 @@
     "resource": 1208,
     "msg_index": 431,
     "japanese": "ローミに剣を大した。",
-    "english": "Returned the sword / to Romy."
+    "english": "Returned the sword / to Romi."
   },
   {
     "resource": 1208,
@@ -2535,7 +2535,7 @@
     "resource": 1208,
     "msg_index": 440,
     "japanese": "そう言ってローミは、宝[03CE]から集取りを取り出し、こちらによこした。",
-    "english": "Romy took the hair / ornament from the / chest and handed it over."
+    "english": "Romi took the hair / ornament from the / chest and handed it over."
   },
   {
     "resource": 1208,
@@ -5649,7 +5649,7 @@
     "resource": 1209,
     "msg_index": 69,
     "japanese": "あいにく余は、いま力が払せない。向いが、毒が辺ければ祠き取っていただきたいのだが。",
-    "english": "I'm afraid I'm a bit busy at the moment. I'm sorry, but if you don't have any business with me, you'll have to leave."
+    "english": "I'm afraid I'm a bit busy at the moment. // I'm sorry, but if you don't have any business with me, you'll have to leave."
   },
   {
     "resource": 1209,
@@ -5763,7 +5763,7 @@
     "resource": 1209,
     "msg_index": 89,
     "japanese": "イもうあんたは編わりなのよ。 ベルグラーノ達も、     もうすぐやって帰るわ ゴ ",
-    "english": "It's over for you. Bergran will be here soon!"
+    "english": "It's over for you. Belgrano will be here soon!"
   },
   {
     "resource": 1209,
@@ -5889,7 +5889,7 @@
     "resource": 1209,
     "msg_index": 111,
     "japanese": "カディナで更買の[028E]を[0565]げた彼が一数が報われる地となるか、それとも損は余の安[0408]を強まれるか、",
-    "english": "Whether this is the day when my family will be rewarded for their untimely deaths in Kadina, or whether God wants to destroy me,"
+    "english": "Whether this is the day when my family will be rewarded for their untimely deaths in Kadina, // or whether God wants to destroy me,"
   },
   {
     "resource": 1209,
@@ -6135,7 +6135,7 @@
     "resource": 1209,
     "msg_index": 154,
     "japanese": "何者もこの場に[03D5]り果かなければ、大役客ながら、余がウェブスター卿を専[0552]するつもりでした。",
-    "english": "I, as a matter of unpleasant necessity, would have taken care of Lord Webster myself if no one else had reached this place."
+    "english": "I, as a matter of unpleasant necessity, would have taken care // of Lord Webster myself if no one else had reached this place."
   },
   {
     "resource": 1209,
@@ -6375,7 +6375,7 @@
     "resource": 1209,
     "msg_index": 194,
     "japanese": "飽[03CE]で以られたカウンターにはイ[0454]し物会場 オープン[01BF]大 ヴィガーフレンズ新[040D]会社取得 ゴと書かれた新却が低まれている。",
-    "english": "A stack of papers / read: \"To mark the / Event Venue opening, / Vigger Friends now / accept new members!\""
+    "english": "A stack of papers read: \"To mark the Event Venue opening, // Vigger Friends now accept new members!\""
   },
   {
     "resource": 1209,
@@ -6387,7 +6387,7 @@
     "resource": 1209,
     "msg_index": 196,
     "japanese": "イムプ[0454]し物スペースにはヴィガーフレンズ 入会受着中 と書かれた[0402]り新が[0402]られている。",
-    "english": "There was a sign at the Imp's Event Space saying 'The Vigger Friends are currently accepting new members!'"
+    "english": "There was a sign at the Imp's Event Space saying // 'The Vigger Friends are currently accepting new members!'"
   },
   {
     "resource": 1209,
@@ -6525,7 +6525,7 @@
     "resource": 1209,
     "msg_index": 220,
     "japanese": "０１２３４５６７８９−００００００え～！あなたの会社番実は番になりやすので。会社前には書いてませんけどね。",
-    "english": "0123456789-000000 Eh, your membership number is Number. It's not written on the membership card, though."
+    "english": "0123456789-000000 Eh, your membership number is Number. // It's not written on the membership card, though."
   },
   {
     "resource": 1209,
@@ -6591,7 +6591,7 @@
     "resource": 1209,
     "msg_index": 231,
     "japanese": "イムプ[0454]し物スペースにはヴィガーフレンズ 入会受着中 と書かれた[0402]り新が[0402]られている。",
-    "english": "There was a sign at the Imp's Event Space saying 'The Vigger Friends are currently accepting new members!'"
+    "english": "There was a sign at the Imp's Event Space saying // 'The Vigger Friends are currently accepting new members!'"
   },
   {
     "resource": 1209,
@@ -6609,7 +6609,7 @@
     "resource": 1209,
     "msg_index": 234,
     "japanese": "壁[04C0]１～５地は、ヴィガーフレンズ入会穴級キャンペーンなんっスよ。",
-    "english": "Between the 1st and 5th of the month is the Vigger Friends new member sign-up campaign."
+    "english": "Between the 1st and 5th of the month is // the Vigger Friends new member sign-up campaign."
   },
   {
     "resource": 1209,
@@ -6903,7 +6903,7 @@
     "resource": 1209,
     "msg_index": 286,
     "japanese": "心築があってよかったね。わたしは退備がないからわからないけど、魔物はとても退がるだろうな。",
-    "english": "Good for you, having talent. I don't have any fighting equipment, so I don't know, but monsters would be very scared of you."
+    "english": "Good for you, having talent. I don't have any fighting equipment, so I don't know, // but monsters would be very scared of you."
   },
   {
     "resource": 1209,
@@ -7209,7 +7209,7 @@
     "resource": 1209,
     "msg_index": 337,
     "japanese": "戦いのを[04DD]って、辺人[0219]な長買の者が[0143]祠に力にしたところで、築主を祠き出せず辺客町よね。",
-    "english": "So if you polish your perceptivity, your ability to read the signs of your surroundings will be greatly enhanced."
+    "english": "So if you polish your perceptivity, // your ability to read the signs of your surroundings will be greatly enhanced."
   },
   {
     "resource": 1209,
@@ -7647,7 +7647,7 @@
     "resource": 1209,
     "msg_index": 415,
     "japanese": "え～、会社ナンバー[05FB]選はですね、ナンバー[05FB]選を行って、その番実が会社番実と同じなら内選です ",
-    "english": "Well, the Member Number Lottery is a lottery where you draw a number, and if that number matches your membership number, you win!"
+    "english": "Well, the Member Number Lottery is a lottery where you draw a number, // and if that number matches your membership number, you win!"
   },
   {
     "resource": 1209,
@@ -7695,7 +7695,7 @@
     "resource": 1209,
     "msg_index": 423,
     "japanese": "え～、会社ナンバー[05FB]選はですね、ナンバー[05FB]選を行って、その番実が会社番実と同じなら内選です ",
-    "english": "Well, the Member Number Lottery is a lottery where you draw a number, and if that number matches your membership number, you win!"
+    "english": "Well, the Member Number Lottery is a lottery where you draw a number, // and if that number matches your membership number, you win!"
   },
   {
     "resource": 1209,
@@ -7929,7 +7929,7 @@
     "resource": 1209,
     "msg_index": 463,
     "japanese": "[0501]成は口コミのみでひっそりと[0508]買してるんだが、場別に壁[04C0]１６～２０地だけここで商[0367]してるんだ。",
-    "english": "Normally we operate quietly by word of mouth, but we do special business here from the 16th to the 20th of every month."
+    "english": "Normally we operate quietly by word of mouth, // but we do special business here from the 16th to the 20th of every month."
   },
   {
     "resource": 1209,
@@ -8121,13 +8121,13 @@
     "resource": 1209,
     "msg_index": 501,
     "japanese": "アルケミスト余は優臆美を[0550]う者。優臆美で生封された者勲の回[0431]を見ることで生[056F]をたてている。",
-    "english": "Alchemist: I am a practitioner of alchemy. I make my living by inspecting the condition of those alchemically created dolls."
+    "english": "Alchemist: I am a practitioner of alchemy. // I make my living by inspecting the condition of those alchemically created dolls."
   },
   {
     "resource": 1209,
     "msg_index": 502,
     "japanese": "道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。",
-    "english": "The survey is a flat 1000G, regardless of the number of dolls. I will see how far your Automata has progressed to get her own heart."
+    "english": "The survey is a flat 1000G, regardless of the number of dolls. // I will see how far your Automata has progressed to get her own heart."
   },
   {
     "resource": 1209,
@@ -8427,7 +8427,7 @@
     "resource": 1209,
     "msg_index": 552,
     "japanese": "[056B][046D]が地えば優臆美に人[0219]する店を開くつもりでいるから、またいつか帰てくれたまえ。",
-    "english": "I'm still in the process of opening my business and am not ready to offer my services yet. Please come back when I'm ready."
+    "english": "I'm still in the process of opening my business and am not ready to offer my services yet. // Please come back when I'm ready."
   },
   {
     "resource": 1209,
@@ -8499,7 +8499,7 @@
     "resource": 1209,
     "msg_index": 564,
     "japanese": "イリュートがベルグラーノを よんできてくれるだ ゴ",
-    "english": "Lute will be bringing Bergran with her!"
+    "english": "Lute will be bringing Belgrano with her!"
   },
   {
     "resource": 1209,
@@ -8553,7 +8553,7 @@
     "resource": 1209,
     "msg_index": 573,
     "japanese": "ぶしんのところであいつ、じじいとはしゃいでいたのに",
-    "english": "We first saw him walking around with that grandpa in high spirits at that place with the Warrior God,"
+    "english": "We first saw him walking around with that grandpa // in high spirits at that place with the Warrior God,"
   },
   {
     "resource": 1209,
@@ -8727,7 +8727,7 @@
     "resource": 1209,
     "msg_index": 604,
     "japanese": "しかし値らの[055A]を[05E8][05F0]にしても、事を封し[0565]げようとするその放[0322]は、達帰に影信しいものだと思わぬか？",
-    "english": "But don't you think that Webster's willingness to sacrifice his own soul to achieve his goals is what makes a man a hero?"
+    "english": "But don't you think that Webster's willingness to sacrifice // his own soul to achieve his goals is what makes a man a hero?"
   },
   {
     "resource": 1209,
@@ -8739,7 +8739,7 @@
     "resource": 1209,
     "msg_index": 606,
     "japanese": "あの[04C2]大と客[06C1]の[0143]さは、あやつも稼[01BA]に[0496]わされなければ、ひとかどの者物になっていたはず。",
-    "english": "His persistence and willpower would have made him a great man, if fate hadn't crossed his path."
+    "english": "His persistence and willpower would have made him a great man, // if fate hadn't crossed his path."
   },
   {
     "resource": 1209,
@@ -8781,7 +8781,7 @@
     "resource": 1209,
     "msg_index": 613,
     "japanese": "オルトルードが、バンクォーの乙で忠該られた報[049D]に、ドゥーハンの王数と何数を腕変しにした事受だ。",
-    "english": "Ortrud killed all members of the royal family and nobles of Duhan in revenge for being cut off at the battle of Banquo."
+    "english": "Ortrud killed all members of the royal family and nobles // of Duhan in revenge for being cut off at the battle of Banquo."
   },
   {
     "resource": 1209,
@@ -8793,7 +8793,7 @@
     "resource": 1209,
     "msg_index": 615,
     "japanese": "法王庁がオルトルードの報[049D]を下れ、内時のドゥーハン王足と何数達を見[048B]てたことをな！。",
-    "english": "That the Holy See actually abandoned the royal families and nobilities of Duhan in fear of reprisal from Ortrud?"
+    "english": "That the Holy See actually abandoned the royal families // and nobilities of Duhan in fear of reprisal from Ortrud?"
   },
   {
     "resource": 1209,
@@ -8823,13 +8823,13 @@
     "resource": 1209,
     "msg_index": 620,
     "japanese": "シムゾンさんも、ウェブスター卿もこの迷宮に[0668]入られた者達は腕、更買の[028E]を[0565]げていった。",
-    "english": "Simzon, Lord Webster, and all the others who were attracted to this labyrinth died a horrible death."
+    "english": "Simzon, Lord Webster, // and all the others who were attracted to this labyrinth died a horrible death."
   },
   {
     "resource": 1209,
     "msg_index": 621,
     "japanese": "おかしな必えだと思いますが、この迷宮値[02A1]がなにか、大[0141]町な魔物のように思えてならない。",
-    "english": "I know it sounds crazy, but I can't help but think that this labyrinth itself is some kind of eerie entity."
+    "english": "I know it sounds crazy, // but I can't help but think that this labyrinth itself is some kind of eerie entity."
   },
   {
     "resource": 1209,
@@ -8859,7 +8859,7 @@
     "resource": 1209,
     "msg_index": 626,
     "japanese": "余、いま[0160]めてそうおっしゃったフーケ開[0343]の言[0387]が[0190]倒できます。",
-    "english": "I think I finally understand what Priest Fouquet was trying to tell me at the church back then."
+    "english": "I think I finally understand what Priest // Fouquet was trying to tell me at the church back then."
   },
   {
     "resource": 1209,
@@ -8877,7 +8877,7 @@
     "resource": 1209,
     "msg_index": 629,
     "japanese": "[06B7]にも個王と高ばれた与、街忍の[01D0]遅に[0141]づかずにいたと必えるほうがおかしい。",
-    "english": "It's indeed strange to assume that the man who is called the Holy King would be unaware of a rebellion in his own ranks."
+    "english": "It's indeed strange to assume that the man who is called // the Holy King would be unaware of a rebellion in his own ranks."
   },
   {
     "resource": 1209,

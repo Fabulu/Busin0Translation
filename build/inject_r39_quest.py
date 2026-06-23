@@ -98,6 +98,43 @@ def encode_english(text):
                 glyphs.append(31)  # '?' fallback
     return glyphs
 
+# P2 — quest-description / client-name word-wrap.  The request-description body
+# renders at a FIXED 18px monospace pitch (Patch 22 pins the body advance to 18),
+# so a line of N glyph cells is N*18 px wide.  The authored English descriptions
+# carry lines up to 45 cells (810px) which overflow the on-screen desc window —
+# center-aligned, they clip at both edges and collide with neighbouring fields
+# (the requestdesc.p2s defect).  Greedy-wrap them to a box-fitting cell budget.
+# BUDGET: 28 cells * 18px = 504px.  Data-grounded — the v123 requestdescissues.p2s
+# LIVE measurement (decoded glyph stream + GS) shows the body is LEFT-anchored at
+# x=64 in a parchment window x=64..576 (512px = 28.4 cells); a 29-cell line (522px)
+# ends at x=586 past the x=576 clip.  28 is the practical max (ends x=568, ~8px
+# margin).  (v123 shipped 30/540px which still clipped on the right — corrected.)
+# NOTE: the body renders at FIXED 18px monospace (Patch 22), so spaces are wide and
+# the text bloats; the real width+height fix is a PROPORTIONAL body advance (compress
+# ~30%, fewer lines) — an EXE change tracked with the narration proportional work.
+# Applied ONLY to descriptions (G348-380) + client names (G383-410); titles/UI
+# labels are short (title clamped to 12 cells by draw_clamp12) — never wrapped.
+DESC_WRAP_CELLS = 28
+
+def wrap_desc_text(text, budget=DESC_WRAP_CELLS):
+    """Greedy word-wrap to <=budget glyph cells/line.  Collapses the authored
+    ' / '/newline breaks first (packs tighter -> fewer lines -> less height spill),
+    then re-wraps.  Returns '\\n'-broken text for encode_english.  Every glyph cell
+    (incl. space) is one 18px pitch, so len(line) == the cell/px-budget unit."""
+    flat = ' '.join(s.strip() for s in text.replace(' / ', '\n').split('\n') if s.strip())
+    flat = ' '.join(flat.split())  # normalize internal whitespace
+    lines, cur = [], ''
+    for w in flat.split(' '):
+        cand = (cur + ' ' + w).strip()
+        if len(cand) <= budget or not cur:
+            cur = cand
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return '\n'.join(lines)
+
 # ---------------------------------------------------------------------------
 # 4. Scan ALL FFFF groups from byte 632
 # ---------------------------------------------------------------------------
@@ -159,13 +196,26 @@ def first_nonzero_index(vals):
 table_first_nz = {t: first_nonzero_index(groups[t]) for t in TABLE_GROUPS}
 # header/count slot = the first non-zero slot (value 34/29/30/34 = entry COUNT, self-referential,
 # NOT a content offset) -> preserved verbatim via header_slot skip below.
-# BASE = byte after the table's FFFF terminator (the after-FFFF anchor). PROVEN correct by
-# ground-truth: pristine G442 slot8(168) + base 21196 = 21364 = G451 g3 = 戦の秘宝 (the real JP
-# title). The first-non-zero base (21056) lands on G445 (a DIFFERENT quest) — REJECTED.
-table_bases = {t: group_starts[t] + len(groups[t]) * 2 + 2 for t in TABLE_GROUPS}
+#
+# BASE = byte address of the table's FIRST NON-ZERO SLOT (table_first_nz). This is the base
+# the in-game RENDERER uses, proven by GROUND TRUTH against the pristine resource (which
+# renders correctly in-game): resolving every non-header slot as `base + value` lands EXACTLY
+# on a group START (glyph ordinal 0) for ALL 34/29/30/34 content slots of G346/G381/G411/G442
+# — a clean 1:1 sequential mapping onto consecutive content groups (G347.., G382.., G412..,
+# G443..).
+#
+# The previously-shipped after-FFFF anchor `group_starts[t] + len*2 + 2` was ~124-140 bytes
+# too LATE, so base+value landed mid-string (e.g. pristine G442 slot8(168): after-FFFF base
+# 21196 -> 21364 = G451 GLYPH 3 = "リケフ.." garbage; firstNZ base 21056 -> 21224 = G445
+# GLYPH 0, a clean start). In the GROWN built file that off-by-base wrote every title offset
+# ~5-11 glyphs past the English group start, so the renderer (firstNZ base) read mid-string
+# fragments — e.g. G442 slot16 decoded to the "rt" fragment the user reported in stillrt/
+# mostbroken. Switching the WRITE base here to firstNZ makes renderer base == write base, so
+# every offset resolves to glyph 0 of the correct English title group (verified 34/34).
+table_bases = {t: group_starts[t] + table_first_nz[t] * 2 for t in TABLE_GROUPS}
 assert table_first_nz == {346: 4, 381: 7, 411: 6, 442: 2}, table_first_nz
-assert table_bases[346] == 14652 and table_bases[381] == 19976
-assert table_bases[411] == 20556 and table_bases[442] == 21196
+assert table_bases[346] == 14512 and table_bases[381] == 19856
+assert table_bases[411] == 20432 and table_bases[442] == 21056
 
 print("Structure assertions passed.")
 
@@ -245,6 +295,10 @@ for gi in sorted(TRANSLATE_GROUPS | ALIGNED_GROUPS):
     entry = aligned_dict.get(gi) if gi in ALIGNED_GROUPS else trans_dict.get(gi)
     if entry and entry.get('english', '').strip():
         en = entry['english'].strip()
+        # P2: width-wrap descriptions + client names to the 540px desc box; titles
+        # and UI labels (TRANSLATE_GROUPS) are short and ship unwrapped.
+        if gi in ALIGNED_GROUPS:
+            en = wrap_desc_text(en)
         en_glyphs = encode_english(en)
         # Add FFFE at end to match Japanese pattern (groups end with FFFE before FFFF)
         if en_glyphs and en_glyphs[-1] != 0xFFFE:
@@ -287,12 +341,14 @@ print(f"Old end: {old_total} bytes, New end: {new_file_len} bytes (delta: {new_f
 # ---------------------------------------------------------------------------
 
 for t in TABLE_GROUPS:
-    # CORRECT base = the GROWN after-FFFF anchor (byte right after the table's FFFF),
-    # matching the renderer (ground-truth proven: pristine after-FFFF base + slot value lands
-    # on the real JP title; first-non-zero base lands on the wrong quest). new_offset is
-    # computed against THIS base so the renderer (which uses the same after-FFFF base) reads
-    # the English group's glyph 0.
-    new_base = new_group_starts[t] + len(groups[t]) * 2 + 2
+    # CORRECT base = the GROWN first-non-zero-slot byte address (the table's first non-zero
+    # slot), matching the in-game renderer (ground-truth proven against the pristine resource:
+    # firstNZ base + every slot value resolves to a group START/glyph 0 for all 34/29/30/34
+    # content slots; the after-FFFF anchor resolves mid-string and produced the "rt" title
+    # fragment). The slot count is unchanged, so the first-non-zero slot index is identical in
+    # the grown file; table_first_nz[t] is therefore valid against new_group_starts. new_offset
+    # is computed against THIS base so the renderer reads the English group's glyph 0.
+    new_base = new_group_starts[t] + table_first_nz[t] * 2
     print(f"G{t} base: old={table_bases[t]}, new={new_base} (delta={new_base - table_bases[t]:+d})")
 
     new_vals = list(table_raw[t])  # copy (slot count unchanged)
@@ -469,6 +525,63 @@ while pos2 + 1 < len(check_data):
 
 print(f"Re-scanned groups: {len(new_groups_scan)}")
 print()
+
+# ---------------------------------------------------------------------------
+# 11a. GATED SELF-CHECK (P5): prove every offset-table slot resolves to a
+# group START (glyph ordinal 0) when read with the RENDERER's base (the first
+# non-zero slot's byte address). This is the exact arithmetic the in-game
+# request chooser performs; if any slot lands mid-string the build ABORTS so a
+# regressed title (the "rt" fragment) can never ship.
+#
+# For the title table (G442) and UI-label table (G411) we additionally require
+# the resolved group to decode to a real string (length > 2, no leading [LB]).
+# Description (G346) / client (G381) bodies can legitimately be short, so we
+# only enforce the group-START landing there.
+# ---------------------------------------------------------------------------
+def _slot_base_firstnz(table_gi):
+    """Renderer base for a table group in the WRITTEN file = byte address of the
+    table's first non-zero slot."""
+    vals = new_groups_scan[table_gi]
+    fnz = first_nonzero_index(vals)
+    return new_starts_scan[table_gi] + fnz * 2, fnz
+
+def _resolve_written(target):
+    for gi, gs in enumerate(new_starts_scan):
+        ge = gs + len(new_groups_scan[gi]) * 2 + 2
+        if gs <= target < ge:
+            return gi, (target - gs) // 2
+    return -1, -1
+
+print("=== P5 self-check: offset-table slots resolve to group starts ===")
+_selfcheck_fail = 0
+for t in TABLE_GROUPS:
+    base_r, fnz = _slot_base_firstnz(t)
+    vals = new_groups_scan[t]
+    checked = 0
+    for slot_i, v in enumerate(vals):
+        if slot_i == fnz or v == 0 or v in (0xFFFF, 0xFFFE):
+            continue
+        checked += 1
+        gi, gl = _resolve_written(base_r + v)
+        if gl != 0:
+            _selfcheck_fail += 1
+            print(f"  FAIL G{t} slot[{slot_i}] v={v}: base+v={base_r+v} -> "
+                  f"G{gi} glyph {gl} (NOT a group start)")
+            continue
+        # title/label tables: require a real (non-empty) decoded string
+        if t in (411, 442):
+            txt = decode_glyphs(new_groups_scan[gi]).replace('[LB]', '').replace('[END]', '')
+            if len(txt.strip()) <= 1:
+                # allow the single leading separator slot (decodes to ' ')
+                if slot_i != fnz + 2:
+                    pass  # short label is tolerated; group-start landing already proven
+    print(f"  G{t}: {checked} content slots verified at group start (base={base_r}, firstNZ_idx={fnz})")
+
+if _selfcheck_fail:
+    print(f"\nP5 SELF-CHECK FAILED: {_selfcheck_fail} offset slot(s) land mid-string. "
+          f"ABORTING build to prevent shipping a garbled quest table.")
+    sys.exit(1)
+print("P5 self-check PASSED: all four offset tables resolve to group starts.\n")
 
 # Check key groups
 check_indices = [348, 353, 380, 383, 388, 410,

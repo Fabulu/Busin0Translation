@@ -6,6 +6,9 @@ Runs tools/patch_r1193_narration.build_r1193 against the pristine extract
 into a tempfile directory (never build/patched_type2) and asserts:
   * exactly 23 trailing 0x14 line records, page structure 4/3/2/4/1/3/2/3/1,
   * every line <= 23 glyphs, all glyph ids < 0xFB00 (control-code free),
+  * ADVISORY (WARN-only, never fails): each line's glyph_metrics.px_width is
+    reported against the interim NARR_BOX_PX ceiling so a future px conversion of
+    patch_r1193_narration.py is forced through the shared metrics module,
   * every line decodes to non-empty text; the prologue reads as English,
   * deterministic: two runs produce byte-identical output,
   * sec2_size header field == actual Section 2 length (only zero padding
@@ -14,6 +17,7 @@ into a tempfile directory (never build/patched_type2) and asserts:
 """
 
 import os
+import re
 import shutil
 import struct
 import sys
@@ -21,6 +25,7 @@ import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _helpers import (
+    BUILD_V9,
     DATA_DIR,
     HEADER_SIZE,
     RAW_DIR,
@@ -33,8 +38,40 @@ from _helpers import (
     require_file,
 )
 
+# Pixel-width source of truth.  tests/_helpers put TOOLS_DIR on sys.path, so the
+# ONE shared metrics module is importable here.  The new advisory px ceiling MUST
+# measure widths through glyph_metrics.px_width and NEVER recompute them — that
+# silent desync is this project's #1 bug (see tools/glyph_metrics.py docstring).
+import glyph_metrics  # noqa: E402
+
 EXPECTED_PAGES = [4, 3, 2, 4, 1, 3, 2, 3, 1]
 MAX_LINE_GLYPHS = 23
+
+# Advisory narration-box right-edge in pixels.  SINGLE SOURCE OF TRUTH: read it
+# STRAIGHT FROM build_v9's NARRATION_BOX_PX constant (the same value the build's
+# narration px-wrap uses) so the prologue advisory can NEVER drift from the build
+# (the #1 desync mode).  No import (build_v9.py runs a full ISO build at import
+# time -- os.chdir + os.system, no __main__ guard); extract the module-level
+# constant from source text instead (same SoT read as test_line_width).
+#
+# This check NEVER fails (ADVISORY/WARN ONLY): it reports current offenders
+# without asserting, so it can never false-fail.  When patch_r1193_narration.py is
+# later converted from the fixed 23-glyph count budget to a real px budget, it will
+# be forced through glyph_metrics.px_width and this advisory becomes the lock.
+# The HARD renderer budget (MAX_LINE_GLYPHS=23, the 23-record / page-structure
+# asserts) is a FIXED renderer constraint and is intentionally NOT sourced here.
+def _build_v9_narration_box_px():
+    src = open(BUILD_V9, encoding="utf-8").read()
+    m = re.search(r"^NARRATION_BOX_PX\s*=\s*(\d+)", src, re.M)
+    assert m, "build_v9.py: NARRATION_BOX_PX constant not found"
+    return int(m.group(1))
+
+
+NARR_BOX_PX = _build_v9_narration_box_px()
+
+# The narration glyph stream is already a list of ADV-table indices (gid = char-
+# 32), so px_width takes an identity enc — same convention as test_line_width.
+_ID_ENC = lambda g: g  # noqa: E731
 
 _BUILT = None  # cache: (pristine_bytes, output_bytes, records)
 
@@ -153,6 +190,47 @@ def test_line_constraints_and_decode():
     assert real >= 18, "only %d/23 lines carry text" % real
 
 
+def test_px_ceiling_advisory():
+    """
+    ADVISORY-ONLY px ceiling for the 23 narration line records.
+
+    This check NEVER fails: it measures each of the 23 trailing lines through the
+    shared glyph_metrics.px_width SoT and reports those wider than the interim
+    NARR_BOX_PX (300px), but does NOT assert on them.  The real narration-box
+    right edge is still un-measured (P3/P4 live-gated), so a hard px gate here
+    would false-fail on the current count-budgeted text.  Its purpose is to (a)
+    surface the current offenders and (b) force any FUTURE px conversion of
+    patch_r1193_narration.py through glyph_metrics — never an inline recompute.
+
+    The hard 23-record / <=23-glyph-per-line / page-structure guarantees are
+    asserted by the other tests in this module and are intentionally untouched.
+    """
+    _pristine, out, _o2, _f1, records = _build()
+    p, rows = _read_output_records(out, records)
+    words = p["words"]
+    # px_width over glyph IDs directly (identity enc) — single SoT, no recompute.
+    assert len(rows) == 23, "advisory px check expects 23 line records, got %d" % len(rows)
+    offenders = []
+    for pc, _idx, off, cnt in rows:
+        gl = words[off : off + cnt]
+        px = glyph_metrics.px_width(gl, _ID_ENC)
+        if px > NARR_BOX_PX:
+            offenders.append((pc, cnt, px, decode_glyphs(gl).strip()))
+    # ADVISORY: report, never fail.  When NARR_BOX_PX is replaced by the
+    # GS-measured box edge and the text is px-wrapped, this list should empty out.
+    if offenders:
+        offenders.sort(key=lambda o: o[2], reverse=True)
+        print(
+            "  [px-advisory] %d/23 narration lines exceed the interim %dpx box "
+            "(WARN-only until the real box right edge is GS-measured):"
+            % (len(offenders), NARR_BOX_PX)
+        )
+        for pc, cnt, px, txt in offenders:
+            print("    S1+0x%04X cnt=%2d px=%3d  |%s|" % (pc, cnt, px, txt))
+    else:
+        print("  [px-advisory] all 23 narration lines within %dpx" % NARR_BOX_PX)
+
+
 def test_deterministic():
     _pristine, out1, out2, file1, _records = _build()
     assert out1 == out2, "two build_r1193 runs differ -- builder is not deterministic"
@@ -188,6 +266,7 @@ def test_output_walks_cleanly():
 TESTS = [
     test_exactly_23_records_with_page_structure,
     test_line_constraints_and_decode,
+    test_px_ceiling_advisory,
     test_deterministic,
     test_header_and_padding,
     test_output_walks_cleanly,

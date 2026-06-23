@@ -203,8 +203,11 @@ def test_built_r46_msg21_typo_fixed():
     glyphs = [struct.unpack_from(">H", built, off + j)[0] for j in range(s, e, 2)]
     text = decode_glyphs([g for g in glyphs if g < 0xFB00], linebreak=" ")
     norm = " ".join(text.split())
-    assert "i'll never forget" in norm, (
-        "BUG-9 regressed: sub0 msg 21 decodes to %r (expected \"i'll never "
+    # BUG-9 = the "ill" -> "i'll" apostrophe fix. The bulletin posts were later
+    # recapitalized (sentence case), so this asserts the apostrophe fix
+    # case-INSENSITIVELY ("I'll" is the intended capitalized form).
+    assert "i'll never forget" in norm.lower(), (
+        "BUG-9 regressed: sub0 msg 21 decodes to %r (expected \"I'll never "
         "forget ...\")" % norm[:60]
     )
 

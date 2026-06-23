@@ -567,7 +567,7 @@
     "resource": 1210,
     "msg_index": 101,
     "japanese": "彼を受け入れよお両の[04F6]は彼が腕[02A1]となりお両の[04B0]は彼が[02A1]長をめぐる間さきものは[01CC]いなり兜いなるものの一街となり[04FD][0452]に生き[01B5]けるだろう[0485]き[0141]をもよおすような[05A1][0141]が話[044E]に[0143]まっていく。",
-    "english": "Accept him / his blood shall / be thy body / his flesh thy / sustenance / the followers / shall be one / with the great / one forevermore."
+    "english": "Accept him his blood shall be thy body his flesh thy // sustenance the followers shall be one with the great one forevermore."
   },
   {
     "resource": 1210,
@@ -633,7 +633,7 @@
     "resource": 1210,
     "msg_index": 112,
     "japanese": "[04B0]と[04D1]びは[05F5]くものの[0380]物、それを[020B]えている[014B]り、転らが[0594]れることはないから。",
-    "english": "Pain and suffering / are offerings to / the dark ones; / as long as they / are given, they / shall not awaken."
+    "english": "Pain and suffering are offerings to the dark ones; // as long as they are given, they shall not awaken."
   },
   {
     "resource": 1210,
@@ -3519,7 +3519,7 @@
     "resource": 1210,
     "msg_index": 611,
     "japanese": "さあ彼のもとに得うのだ考かれる者は[01CC]いなり彼の[04B0]と[04F6]となって[04FD][047A]の[01F3][02B1]を得るだろうランゴバルトおお、腕の者聞いたか！。",
-    "english": "Go to him / the followers / shall be blessed / with his flesh / and gain eternal / joy. / Langobalt: Did / you hear that!?"
+    "english": "Go to him the followers shall be blessed with his flesh and gain eternal joy. // Langobalt: Did you hear that!?"
   },
   {
     "resource": 1210,
@@ -4341,7 +4341,7 @@
     "resource": 1210,
     "msg_index": 756,
     "japanese": "コンデいやはや、まさかこの余が、あの[0375]向の魔損マジキムを忘すとは、いったい過が雇[03A6]したであろう。",
-    "english": "Conde: Well well, / who'd have thought / I would slay the / demon Majikim!"
+    "english": "Konde: Well well, / who'd have thought / I would slay the / demon Majikim!"
   },
   {
     "resource": 1210,
@@ -4353,7 +4353,7 @@
     "resource": 1210,
     "msg_index": 758,
     "japanese": "そして[06E2]者は、この余の[0575]買を療め[050E]え、魔装コンデは[01CC]せに過ごしたと行きたいとこだが！、",
-    "english": "And the reader / shall praise the / great mage Conde / who lived happily / -- or so I'd / like to say,"
+    "english": "And the reader / shall praise the / great mage Konde / who lived happily / -- or so I'd / like to say,"
   },
   {
     "resource": 1210,
@@ -4389,7 +4389,7 @@
     "resource": 1210,
     "msg_index": 764,
     "japanese": "エーリカ階が[0297]くなってきましたね！。",
-    "english": "Erica: The / darkness grows / stronger!"
+    "english": "Erika: The / darkness grows / stronger!"
   },
   {
     "resource": 1210,
@@ -4683,55 +4683,55 @@
     "resource": 1211,
     "msg_index": 29,
     "japanese": "ドワーフの戦帰ベルタンが者野も[0141]にせずにおいおいと年き出した。",
-    "english": "The dwarf Beltan / began crying / openly."
+    "english": "The dwarf Bertin / began crying / openly."
   },
   {
     "resource": 1211,
     "msg_index": 30,
     "japanese": "ベルタンイ力両はいつだってそうなんだよ！ゴ",
-    "english": "Beltan: You / always do this!"
+    "english": "Bertin: You / always do this!"
   },
   {
     "resource": 1211,
     "msg_index": 31,
     "japanese": "ベルタンイいつも種って行功しやがるんだゴ",
-    "english": "Beltan: You / always go off / on your own!"
+    "english": "Bertin: You / always go off / on your own!"
   },
   {
     "resource": 1211,
     "msg_index": 32,
     "japanese": "ベルタンイ俺達は、退嫌だろ？なんでいつも力両だけ[0457]物を重魔い込むんだゴ",
-    "english": "Beltan: We're / comrades! Why / take on / everything / alone!?"
+    "english": "Bertin: We're / comrades! Why / take on / everything / alone!?"
   },
   {
     "resource": 1211,
     "msg_index": 33,
     "japanese": "ベルタンイやい、なんとか言ったらどうだ！ゴ",
-    "english": "Beltan: Say / something!"
+    "english": "Bertin: Say / something!"
   },
   {
     "resource": 1211,
     "msg_index": 34,
     "japanese": "ベルタンイあんなひでえ戦いを生き退ったんじゃねえかゴ",
-    "english": "Beltan: We / survived that / terrible battle / together!"
+    "english": "Bertin: We / survived that / terrible battle / together!"
   },
   {
     "resource": 1211,
     "msg_index": 35,
     "japanese": "ベルタンイ俺達は[01CC]せにならなきゃいけねえんだよゴ",
-    "english": "Beltan: We're / supposed to / be happy!"
+    "english": "Bertin: We're / supposed to / be happy!"
   },
   {
     "resource": 1211,
     "msg_index": 36,
     "japanese": "ベルタンイわかっているのかよ、なんで種って[028E]ぬんだゴ",
-    "english": "Beltan: You knew / you'd die! Why / go alone!?"
+    "english": "Bertin: You knew / you'd die! Why / go alone!?"
   },
   {
     "resource": 1211,
     "msg_index": 37,
     "japanese": "オルトルードの[0437][0423]の両で年き[04D4]れているベルタンにゼルが穴した。",
-    "english": "Zel spoke to / Beltan, weeping / by Ortrud's / remains."
+    "english": "Zel spoke to / Bertin, weeping / by Ortrud's / remains."
   },
   {
     "resource": 1211,
@@ -4761,13 +4761,13 @@
     "resource": 1211,
     "msg_index": 42,
     "japanese": "ベルタンあんたが[0632]をとってくれたんだな、ありがとうよ！。",
-    "english": "Beltan: You took / revenge for him. / Thank you!"
+    "english": "Bertin: You took / revenge for him. / Thank you!"
   },
   {
     "resource": 1211,
     "msg_index": 43,
     "japanese": "ベルタンは[0549]で顔をくしゃくしゃにしながら、力を[0143]く石り[061B]めてきた。",
-    "english": "Beltan, tears / streaming, gripped / your hand / tightly."
+    "english": "Bertin, tears / streaming, gripped / your hand / tightly."
   },
   {
     "resource": 1211,
@@ -4785,13 +4785,13 @@
     "resource": 1211,
     "msg_index": 46,
     "japanese": "ゼルとベルタンは、オルトルードの[0437][0423]とともに盗に[01AB]っていった。",
-    "english": "Zel and Beltan / departed with / Ortrud's remains."
+    "english": "Zel and Bertin / departed with / Ortrud's remains."
   },
   {
     "resource": 1211,
     "msg_index": 47,
     "japanese": "ベルタンが騎騎者[0170]街に庫落されました。",
-    "english": "Beltan has been / added to the / Guild roster!"
+    "english": "Bertin has been / added to the / Guild roster!"
   },
   {
     "resource": 1211,
@@ -7929,7 +7929,7 @@
     "resource": 1211,
     "msg_index": 588,
     "japanese": "[051C]復なる[028E]を受け入れよ協退も法しみもない[03C3]たき階の中で辺地の[06DC]がお両の板れを待っているマクベイン迷宮の奥[01AE]で[0577]ち[03EB]て、[0423]と[03F0]したマクベインの[028E]棒が良を抜した。",
-    "english": "Accept sweet / death. No pain / or suffering in / the silent dark. / The abyss / awaits you. / Macbain Labyrinth"
+    "english": "Accept sweet death. No pain or suffering in the silent dark. // The abyss awaits you. Macbain Labyrinth"
   },
   {
     "resource": 1211,
@@ -8061,7 +8061,7 @@
     "resource": 1211,
     "msg_index": 610,
     "japanese": "コンデ余は、器りし地のオルトルードを見たことがある。",
-    "english": "Conde: I once / saw Ortrud in / his prime."
+    "english": "Konde: I once / saw Ortrud in / his prime."
   },
   {
     "resource": 1211,
@@ -8115,7 +8115,7 @@
     "resource": 1211,
     "msg_index": 619,
     "japanese": "エーリカ彼のように者のために[04AE]くした者が、[01CC]せを得られないとしたら、",
-    "english": "Erica: If one / who sacrificed / so much cannot / find happiness,"
+    "english": "Erika: If one / who sacrificed / so much cannot / find happiness,"
   },
   {
     "resource": 1211,

@@ -237,7 +237,8 @@ os.system('python tools/patch_r2138.py')
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
 
 from patch_section1_offsets import inject_and_patch, group_choice_markers, HEADER_SIZE
-from dialogue_classifier import build_dialogue_map
+from dialogue_classifier import build_dialogue_map, build_narration_map
+import glyph_metrics  # SoT for per-glyph widths. NEVER recompute.
 
 # Type-2 word-wrap width.  The BOXED dialogue frame fits ~20 cells (JP shipped
 # 18-19 glyphs/line); centered NARRATION is authored at <=16.  v91 used 16 which
@@ -253,6 +254,41 @@ from dialogue_classifier import build_dialogue_map
 # without freshly re-measuring the box width and the centered-narration
 # space-advance (25 was rejected as too aggressive).
 TYPE2_WRAP_WIDTH = 20
+
+# P3 box-budget raise (thing8-10 measurement).  The GS-mapped dialogue text-clip
+# right edge in the thing8-10 dumps is ~376px; minus a ~4px safety margin = 372px.
+# (The prior 324px ceiling — "handles requests for" = 324px at x=[51,375],
+# data/spacing_baseline.md — was over-conservative: it left ~52px of the box
+# unfilled, so long dialogue still ran >3 lines.)  372px cuts the share of
+# dialogue groups wrapping >3 lines roughly in half (~4.0% -> ~2.0% of 2152
+# BUDGET pinned by LIVE PLAYTEST (2026-06-22), overriding the earlier 588px recon
+# estimate: barkeepfull g904 "I will be blunt. I cannot take on" = 454px rendered
+# PERFECT/full-width, while lines at 470-473px ("but I'll strive...", "I must know.
+# What befell Simzon's") spilled past the right edge (dialoguetoomuch / stillfucked).
+# So the true box interior is ~455-465px.  456 keeps the 454px reference on one line
+# and re-wraps the 470px+ overflows.  (Was 480 — too generous, the rare-overflow bug.)
+DIALOGUE_BOX_PX = 456
+
+# Narration budget — the box's usable width.
+NARRATION_BOX_PX = 360
+
+
+def pad_narration_left_align(text):
+    """LEFT-ALIGN centered narration WITHOUT an EXE change, by exploiting the
+    engine's own per-line CENTER-anchor (origin = boxCenter - glyphCount*12/2,
+    count-based — confirmed from the boxX setters at EXE 0x305cd4 / 0x305c9c and
+    the indent.ps2 fog capture).  If every line in a page has the SAME glyph count,
+    they all centre identically -> their left edges line up -> the block reads as
+    left-aligned.  So pad each line with TRAILING SPACES (0x0000 cells, blank but
+    counted) up to the longest line on its page.  Pure data; the on-screen text is
+    unchanged, only the invisible trailing pad differs.  (Still needs the small
+    boxX reposition so the now-left-aligned block sits on-screen.)"""
+    out_pages = []
+    for page in text.split(' // '):
+        lines = page.split(' / ')
+        width = max(len(l) for l in lines)
+        out_pages.append(' / '.join(l + ' ' * (width - len(l)) for l in lines))
+    return ' // '.join(out_pages)
 
 
 def _wrap_line(seg, max_chars):
@@ -301,6 +337,98 @@ def reflow_dialogue(text, width):
         flat = ' '.join(s.strip() for s in page.split(' / ') if s.strip())
         pages.append(' / '.join(_wrap_line(flat, width)))
     return ' // '.join(pages)
+
+
+def _wrap_line_px(seg, box_px):
+    """Greedy word-wrap one ' / '-free segment into a list of lines, each with
+    glyph_metrics.px_width <= box_px (T4 px-budget wrap).
+
+    Widths come EXCLUSIVELY from the shared SoT glyph_metrics.px_width(seg, enc)
+    using build_v9's own enc (char-32 family) — NEVER a local recompute.  A single
+    oversize token (already wider than box_px on its own) is emitted on its own
+    line rather than split mid-token: far better than the v89 100-glyph run, and
+    real translations rarely contain such a token."""
+    words = seg.split(' ')
+    lines, cur = [], ''
+    for w in words:
+        cand = w if not cur else cur + ' ' + w
+        if cur and glyph_metrics.px_width(cand, enc) > box_px:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = cand
+    if cur:
+        lines.append(cur)
+    return lines or ['']
+
+
+def wrap_px(text, box_px=DIALOGUE_BOX_PX, collapse=True):
+    """Pixel-budget re-wrap a BOXED-DIALOGUE string (T4).  Replaces the char-count
+    reflow_dialogue + wrap_type2_text on the dialogue path: per ' // ' page,
+    COLLAPSE the premature ' / ' breaks (the JP author wrapped at the narrow JP
+    cell pitch) into one flat string, then re-wrap at `box_px` pixels.  ' // '
+    page boundaries are PRESERVED.
+
+    Break-agnostic: only ' / ' (line) / ' // ' (page) markers in and out — the
+    downstream encoder turns each into a single 0xFFFE word and NEVER emits
+    0xFFD2 (the v97 colour-code rule).  DIALOGUE-ONLY: the caller gates this behind
+    build_dialogue_map so narration/choice/structural groups are untouched."""
+    if collapse:
+        # Collapse ACROSS ' // ' too (v97: ' // ' is a line-break 0xFFFE, NOT a page
+        # break), so a short tail after a ' // ' (e.g. the orphaned 'it."') is not
+        # stranded on its own line.  Flatten the WHOLE string, then re-wrap at box_px.
+        flat = ' '.join(s.strip() for s in text.replace(' // ', ' / ').split(' / ') if s.strip())
+        return ' / '.join(_wrap_line_px(flat, box_px))
+    # collapse=False: preserve ' // ' page boundaries, only re-wrap within each ' / '.
+    pages = []
+    for page in text.split(' // '):
+        lines = []
+        for seg in page.split(' / '):
+            lines.extend(_wrap_line_px(seg, box_px))
+        pages.append(' / '.join(lines))
+    return ' // '.join(pages)
+
+
+# R1203 Section-2 hard limit: the per-group word offsets are u16, so the whole
+# Section 2 must stay within 65,535 words.
+R1203_S2_LIMIT = 65535
+
+
+def derive_r1203_cap(encoded_trans, raw_dir, out_dir):
+    """RE-DERIVE the highest R1203 group index whose REAL injected Section-2 word
+    count stays <= R1203_S2_LIMIT, under the CURRENT (already px-encoded,
+    0xFFFE-only) encoding.
+
+    No stale constant: the cap is found by binary-searching the actual
+    inject_and_patch output (header 0x14 = Section-2 BYTES; //2 = words), which
+    is authoritative because it includes name-island English-label expansion.
+    The pre-v97 recon helper (verify_wrap.encode_msg) is deliberately NOT reused —
+    it emits 0xFFD2 — so the encoded dict handed in here (built by the build loop)
+    is the only input.
+
+    Returns the cap group index (an integer key from encoded_trans)."""
+    keys = sorted(encoded_trans)
+    if not keys:
+        return 0
+
+    def words_at(cap):
+        capped = {mi: g for mi, g in encoded_trans.items() if mi <= cap}
+        res = inject_and_patch(1203, capped, raw_dir, out_dir)
+        if res[0] is None:
+            return None
+        out = open(os.path.join(out_dir, res[0]), 'rb').read()
+        return struct.unpack_from('<I', out, 0x14)[0] // 2
+
+    lo, hi, best = 0, len(keys) - 1, keys[0]
+    while lo <= hi:
+        mid = (lo + hi) // 2
+        w = words_at(keys[mid])
+        if w is not None and w <= R1203_S2_LIMIT:
+            best = keys[mid]
+            lo = mid + 1
+        else:
+            hi = mid - 1
+    return best
 
 
 # NOTE (v97): the v96 boxed-dialogue auto-pagination was REVERTED.  It inserted a
@@ -355,6 +483,37 @@ def load_pristine_choice_groups(res_idx, raw_dir='extracted/packdata_raw'):
 # the request-menu SOFTLOCK (render-verified: requestbroken__ee.bin).  Until a
 # proper offset-table-aware menu-label injector exists, ship these pristine.
 SKIP_STRUCTURAL_GROUPS = {(1197, 1)}
+
+# DIALOGUE-WRAP EXCLUSIONS (P3 false-positive guard).  These 6 (resource,
+# msg_index) groups are CLASSIFIER false-positives: build_dialogue_map flags them
+# as boxed dialogue, but they are intentional ' / '/literal-newline LISTS whose
+# line structure is load-bearing — collapsing + re-wrapping them (wrap_px) would
+# flatten the list into a paragraph and risk an R1197-class menu/structure
+# corruption (softlock).  They must bypass BOTH wrap_px paths (dialogue AND
+# narration) and ship with their authored break structure intact:
+#   R1194 g0   — the ending crawl (multi-line authored passage)
+#   R1196 g810 — a literal-newline menu list
+#   R1200 g64  — short-segment list
+#   R1212 g1   — short-segment list
+#   R1213 g1   — short-segment list
+#   R1353 g1   — short-segment list
+# Unlike SKIP_STRUCTURAL_GROUPS these are still TRANSLATED (they keep their
+# English + authored ' / ' breaks) — they are only excluded from the px re-wrap.
+DIALOGUE_WRAP_EXCLUDE = {(1194, 0), (1196, 810), (1200, 64),
+                         (1212, 1), (1213, 1), (1353, 1)}
+
+# BOX-MODE MECHANISM (2026-06-20): render mode is now read DIRECTLY from the
+# engine's own rule in tools/dialogue_classifier.py — every 0x04 DISPLAY block is
+# preceded (control-flow order) by a 0x12 GOSUB to a mode-config helper whose first
+# 0x63 align opcode carries the mode (op0==0 DIALOGUE, >=1 NARRATION), grounded in
+# the EXE write 0x2FA520 -> ctx+0x2a7 -> renderer branch 0x307E48.  Validated 19/19
+# on ground truth incl. the cutscene cases (barkeep g4 inherited nameplate; the
+# g7/g13/g926/g575 narration interludes that share a dialogue window — which defeat
+# every heuristic).  build_dialogue_map / build_narration_map are now an exact
+# partition of every covered group, so the old manual DIALOGUE_FORCE override is
+# GONE — the classifier reproduces the box mode for all ~8455 dialogue / ~4289
+# narration groups corpus-wide with no hand-curation (data/dialogue_force.json is
+# obsolete).  Only 4 long dialogue groups (R1209) need an authored ' // ' page split.
 
 # Load ALL type-2 translations
 all_trans = {}
@@ -423,6 +582,14 @@ for r_id in sorted(type02_resources):
     # unwalkable Section 1 yields an empty set -> nothing reflowed (ships as v97).
     dialogue_groups = build_dialogue_map(r_id)
 
+    # Bare-DISPLAY centered-narration groups (P1): the INVERSE of the dialogue
+    # classifier — a single 0x04 DISPLAY block NOT headed by a 0x14 name-island.
+    # These are re-wrapped at NARRATION_BOX_PX (collapse=True) to widen the far-
+    # too-narrow JP-pitch line breaks.  Structural/menu/list groups are NOT bare
+    # single-DISPLAY groups, so they are excluded and ship byte-identical to v97.
+    # Unwalkable Section 1 -> empty set (ship pristine).
+    narration_groups = build_narration_map(r_id)
+
     # Encode English text to glyph lists
     encoded_trans = {}
     for mi, en_text in msg_trans.items():
@@ -430,14 +597,32 @@ for r_id in sorted(type02_resources):
         # width (the v89 overflow fix).  Choice-group questions+options are
         # passed through unchanged — wrapping them would corrupt the option
         # segmentation in encode_choice_group.
-        if mi not in choice_groups:
-            # Reflow ONLY boxed dialogue (collapse premature ' / ' breaks within
-            # each ' // ' page, then re-wrap at the wider width) — fewer lines =>
-            # less vertical overflow.  Narration is NOT in dialogue_groups, so it
-            # passes straight to wrap_type2_text byte-identically to v97.
+        if (r_id, mi) in DIALOGUE_WRAP_EXCLUDE:
+            # P3 false-positive guard: classifier mis-flags these as dialogue but
+            # they are intentional ' / '/literal-newline LISTS.  Bypass BOTH wrap_px
+            # paths AND the char-wrapper so their authored break structure ships
+            # byte-identical (the encoded glyph list is unchanged from pristine).
+            pass
+        elif mi not in choice_groups:
+            # Wrap ONLY boxed dialogue at the GS-measured 372px pixel budget (P3):
+            # collapse premature ' / ' breaks within each ' // ' page, then re-wrap
+            # to <=372px lines via the shared glyph_metrics px widths.  This packs
+            # more glyphs/line than the char-20 path (=> fewer 0xFFFE => less
+            # vertical overflow AND a smaller Section 2).  Narration/structural
+            # groups are NOT in dialogue_groups, so they pass straight to
+            # wrap_type2_text byte-identically to v97 — the gate is dialogue-only.
             if mi in dialogue_groups:
-                en_text = reflow_dialogue(en_text, TYPE2_WRAP_WIDTH)
-            en_text = wrap_type2_text(en_text)
+                # Engine-classified BOXED DIALOGUE (the 0x63-helper rule): wrap at
+                # the wide 480px box, collapsing premature ' / ' breaks.
+                en_text = wrap_px(en_text, DIALOGUE_BOX_PX)
+            elif mi in narration_groups:
+                en_text = wrap_px(en_text, NARRATION_BOX_PX, collapse=True)
+                # LEFT-ALIGN: pad every line to equal glyph count so the engine's
+                # count-based per-line centering (lc array @desc+0x40, recomputed each
+                # frame from the text) aligns all left edges.  Trailing pad is blank.
+                en_text = pad_narration_left_align(en_text)
+            else:
+                en_text = wrap_type2_text(en_text)
         # Translations use " / " and " // " as LINE breaks -> 0xFFFE.  We NEVER
         # emit 0xFFD2: it is NOT a page break in this engine (it is an inline
         # text-COLOR control code, 0xFFD0-0xFFD9 family — see the v97 note above),
@@ -459,23 +644,23 @@ for r_id in sorted(type02_resources):
     # The English translation grows Section 2 past the u16 limit of 65,535 words.
     # The total must account for ALL groups (translated + original), because every
     # group still occupies space even if untranslated.
-    # The v89 word-wrap fix ADDS 0xFFFE/0xFFD2 break words to every wrapped line,
-    # so the cap had to be re-derived under the new encoding: an EMPIRICAL inject
-    # (build/recon_v89/phase2/r1203_cap.py — binary-searching the REAL injected
-    # Section-2 word count, which includes name-island English label expansion)
-    # shows cap=1016 is now the highest group index keeping the full Section 2
-    # within 65,535 words (injected total: 65,532; group 1017 overflows to 65,556).
-    # The pre-wrap cap of 1069 produced 66,406 words and overflowed.
-    R1203_MAX_GROUP = 1016  # last group index that keeps injected Section 2 <= 65535 words
+    # The cap is RE-DERIVED dynamically from the REAL injected Section-2 word count
+    # of the ALREADY-px-encoded, 0xFFFE-only dict (derive_r1203_cap) — NO stale
+    # constant.  The T4 px-wrap packs more glyphs per line => fewer 0xFFFE => a
+    # SMALLER Section 2 => the cap can only rise vs the old char-wrap literal
+    # (1016).  encoded_trans already reflects the px-wrap because the encoding loop
+    # above ran wrap_px before this block.
     if r_id == 1203:
+        _tmp = 'build/_r1203_cap_tmp'
+        os.makedirs(_tmp, exist_ok=True)
+        R1203_MAX_GROUP = derive_r1203_cap(
+            encoded_trans, 'extracted/packdata_raw', _tmp)
         before = len(encoded_trans)
         encoded_trans = {mi: g for mi, g in encoded_trans.items() if mi <= R1203_MAX_GROUP}
-        dropped = before - len(encoded_trans)
-        if dropped:
-            print(
-                "  R1203: capped at group %d — dropped %d overflow translations (groups %d-%d)"
-                % (R1203_MAX_GROUP, dropped, R1203_MAX_GROUP + 1, max(msg_trans))
-            )
+        print(
+            "  R1203: re-derived cap group %d (px-wrap), dropped %d overflow translations"
+            % (R1203_MAX_GROUP, before - len(encoded_trans))
+        )
 
     result = inject_and_patch(
         r_id, encoded_trans,
@@ -665,8 +850,10 @@ with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
 
         if after_pack:
             first_after_lba = after_pack[0][2]
+            shift_applied = 0  # set in BOTH branches; asserted after the if/else
             if pack_end_lba > first_after_lba:
                 shift = pack_end_lba - first_after_lba
+                shift_applied = shift
                 print(f"  PACKDATA overflow: {shift} sectors into subsequent files")
                 print(f"  Shifting {len(after_pack)} files forward by {shift} sectors...")
 
@@ -713,6 +900,38 @@ with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
                 print(f"  Done. ISO extended by {shift * SECTOR:,} bytes")
             else:
                 print(f"  No overflow (PACKDATA ends at {pack_end_lba}, next file at {first_after_lba})")
+
+            # ----- STEP 8.2 build-gate assert (real-PS2 audio safety) -----
+            # The self-heal above is the ONLY thing standing between a broken
+            # directory parse and silently corrupted BSN2_0.DSI audio. If the
+            # parse ever breaks and Step 8.2 no-op's while PACKDATA actually
+            # overflowed, we MUST fail the build rather than ship corrupt audio.
+            # NEVER assert overflow==0 -- Step 8.2 self-heals, so that is normal.
+            overflowed = pack_end_lba > first_after_lba
+            assert (not overflowed) or shift_applied > 0, (
+                "Step 8.2: PACKDATA overflowed (%d sectors) but no shift was "
+                "applied -- self-heal silently no-op'd; BSN2_0.DSI audio would "
+                "be corrupted on real PS2 hardware"
+                % (pack_end_lba - first_after_lba)
+            )
+            if overflowed and shift_applied > 0:
+                # Re-read the relocated first 'after PACKDATA' file (BSN2_0.DSI
+                # in practice) at its NEW position and prove it is real file
+                # content, not the PACKDATA bytes that Step 8 wrote over its
+                # ORIGINAL sectors. The relocated first sector must differ from
+                # PACKDATA's first sector (global `d`).
+                _, _reloc_name, _reloc_old_lba, _ = after_pack[0]
+                _reloc_new_lba = _reloc_old_lba + shift_applied
+                iso.seek(_reloc_new_lba * SECTOR)
+                _reloc_first = iso.read(SECTOR)
+                assert _reloc_first != d[:SECTOR], (
+                    "Step 8.2: relocated %s first sector at LBA %d == PACKDATA "
+                    "first sector -- self-heal copied PACKDATA garbage instead "
+                    "of original audio; real-PS2 audio would be corrupted"
+                    % (_reloc_name, _reloc_new_lba)
+                )
+                print(f"  [gate] Step 8.2 verified: {_reloc_name} relocated to "
+                      f"LBA {_reloc_new_lba}, first sector is original content")
 
 # ===== STEP 8.4: Patch EXE =====
 print("\n=== Step 8.4: Patch EXE ===")

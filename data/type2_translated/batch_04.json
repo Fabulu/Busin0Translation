@@ -87,7 +87,7 @@
     "resource": 1204,
     "msg_index": 18,
     "japanese": "さあ、帰て[028E]ぬのは下くないのよタスケテアハハ、みんな[028E]ぬの失兜に[066F]れ外がったシムゾンの[04B5]がパンッと[0520]いた系とともに安[0670]し、",
-    "english": "Come now, dying / isn't so bad. / Help me! Ahaha, / everyone dies. / Simzon's body / burst open and / collapsed."
+    "english": "Come now, dying isn't so bad. Help me! // Ahaha, everyone dies. Simzon's body burst open and collapsed."
   },
   {
     "resource": 1204,
@@ -123,7 +123,7 @@
     "resource": 1204,
     "msg_index": 24,
     "japanese": "あなたも、いらっしゃいもう協しまなくていいのよさあ、いらっしゃい何もかも編わるんだから早く武になってさあ、余のもとに扱い[04D8]が得合していくにつれ、[0159]向な[03A6]大が話[0450]に[052B]度を追し、[0665]言を[01A0]びたものに新わっていく。",
-    "english": "Come, you too. / No more suffering. / Everything changes. / Come to me. / As more worms / gathered, the mass / grew and its tone / turned commanding."
+    "english": "Come, you too. No more suffering. Everything changes. Come to me. // As more worms gathered, the mass grew and its tone turned commanding."
   },
   {
     "resource": 1204,
@@ -303,7 +303,7 @@
     "resource": 1204,
     "msg_index": 55,
     "japanese": "ウーリ[047A]しぶりに盗に戻ってみると、ベルグラーノがすごい勲影で段討ちするって[04D1]んでいてね。",
-    "english": "Wouri: After / returning to the / city, Belgradno / was furiously / declaring he'd / hunt them down."
+    "english": "Wouri: After / returning to the / city, Belgrano / was furiously / declaring he'd / hunt them down."
   },
   {
     "resource": 1204,
@@ -345,7 +345,7 @@
     "resource": 1204,
     "msg_index": 62,
     "japanese": "イ彼らがベルグラーノの 街忍達だなゴ    ",
-    "english": "So they were / Belgradno's / soldiers."
+    "english": "So they were / Belgrano's / soldiers."
   },
   {
     "resource": 1204,
@@ -1689,25 +1689,25 @@
     "resource": 1204,
     "msg_index": 293,
     "japanese": "ベルグラーノイくそっ、いったい何者の一買なんだ ゴ",
-    "english": "Belgradno: / Damn it, whose / doing is this?!"
+    "english": "Belgrano: / Damn it, whose / doing is this?!"
   },
   {
     "resource": 1204,
     "msg_index": 294,
     "japanese": "ベルグラーノと[01E3]帰前の者が、向こうからやってきた。",
-    "english": "Belgradno and / his soldiers / approached."
+    "english": "Belgrano and / his soldiers / approached."
   },
   {
     "resource": 1204,
     "msg_index": 295,
     "japanese": "ベルグラーノイあれも魔女の一買だというのか ゴ[01E3]帰前社イ隊長少し落ち果いてくださいゴベルグラーノイ落ち果けるものか あれほどの者達が何もできず、変されたのだぞゴ",
-    "english": "Belgradno: Was / this the witch? / Soldier: Please / calm down, sir. / Belgradno: How / can I be calm? / They were killed / without a fight!"
+    "english": "Belgrano: Was / this the witch? / Soldier: Please / calm down, sir. / Belgrano: How / can I be calm? / They were killed / without a fight!"
   },
   {
     "resource": 1204,
     "msg_index": 296,
     "japanese": "ベルグラーノ探か汝は新しい討伐隊のだったな。",
-    "english": "Belgradno: Ah, / you're the new / strike force / member."
+    "english": "Belgrano: Ah, / you're the new / strike force / member."
   },
   {
     "resource": 1204,
@@ -1743,7 +1743,7 @@
     "resource": 1204,
     "msg_index": 302,
     "japanese": "品りのあまりベルグラーノは、言[0387]をつまらせた。",
-    "english": "Overwhelmed, / Belgradno / choked on his / words."
+    "english": "Overwhelmed, / Belgrano / choked on his / words."
   },
   {
     "resource": 1204,
@@ -1773,7 +1773,7 @@
     "resource": 1204,
     "msg_index": 307,
     "japanese": "待ち防ろうとしたベルグラーノが王を限め、戻ってきた。",
-    "english": "Belgradno, / about to leave, / stopped and / came back."
+    "english": "Belgrano, / about to leave, / stopped and / came back."
   },
   {
     "resource": 1204,
@@ -6171,7 +6171,7 @@
     "resource": 1205,
     "msg_index": 67,
     "japanese": "お両達は、そこで何をしている？お両達も余を忘すとかいう討伐隊の者か？マジでびっくりしたぜ！。",
-    "english": "\"What are you / doing there? Are / you with the / strike force / tasked to / defeat me?\" / We were shocked!"
+    "english": "\"What are you doing there? // Are you with the strike force tasked to defeat me?\" We were shocked!"
   },
   {
     "resource": 1205,
@@ -6351,7 +6351,7 @@
     "resource": 1205,
     "msg_index": 98,
     "japanese": "損神がいるというなら良を見せるがいい主辺きお両の時形が編わり階の[032A][0635]の[0269]が開かれた余は[0555]でよう[0577]ち行く者達にレクイエムを騎騎者過一者として、魔女にかすり[0327]一つ、つけられなかった。",
-    "english": "If you believe in / Gods, show them / your face. Your / powerless days end / now. The door to / darkness opens. / A requiem for / those who fall."
+    "english": "If you believe in Gods, show them your face. Your powerless days end now. // The door to darkness opens. A requiem for those who fall."
   },
   {
     "resource": 1205,
@@ -7041,7 +7041,7 @@
     "resource": 1205,
     "msg_index": 222,
     "japanese": "[0514]だに鎧と魔法でどうにかできると必えている[05A2]物どもでは、[05F5]くものは忘せんよ。",
-    "english": "Those fools who / still think they / can handle it / with swords and / magic cannot / defeat the / Writhing Demons."
+    "english": "Those fools who still think they can handle it // with swords and magic cannot defeat the Writhing Demons."
   },
   {
     "resource": 1205,
@@ -7683,13 +7683,13 @@
     "resource": 1205,
     "msg_index": 330,
     "japanese": "リュートエミーリアオークオークfイあんた達、いったいどうするつもりよ ゴオークgイ何度も言うけどね、あの気[03C4]はほんとうに兜事なものなのよ ゴオークaイおめえたち、しらねえからえらそうにいうだ ゴ",
-    "english": "Orc F: \"What are / you gonna do?\" / Orc G: \"That / shield is really / important!\" / Orc A: \"You don't / know nothing!\""
+    "english": "Orc F: \"What are you gonna do?\" // Orc G: \"That shield is really important!\" Orc A: \"You don't know nothing!\""
   },
   {
     "resource": 1205,
     "msg_index": 331,
     "japanese": "オークbイせいじゅうってあのまものは、えれえつええだど ゴオークaイんだ、オダたちのみにもなってみろ ゴオークbイひめをまもりながらたたかってたんだど ゴ",
-    "english": "Orc B: \"That beast / is hella strong!\" / Orc A: \"Try being / in our shoes!\" / Orc B: \"We had to / fight while / guarding the / princess!\""
+    "english": "Orc B: \"That beast is hella strong!\" Orc A: \"Try being in our shoes!\" // Orc B: \"We had to fight while guarding the princess!\""
   },
   {
     "resource": 1205,
@@ -7977,7 +7977,7 @@
     "resource": 1205,
     "msg_index": 380,
     "japanese": "飽[03CE]で以られたカウンターにはイ[0454]し物会場 オープン[01BF]大 ヴィガーフレンズ新[040D]会社取得 ゴと書かれた新却が低まれている。",
-    "english": "A banner at / the counter / read: \"Lost & / Found Open! / Vigger Friends / new member / recruitment!\""
+    "english": "A banner at the counter read: \"Lost & Found Open! // Vigger Friends new member recruitment!\""
   },
   {
     "resource": 1205,
@@ -9765,13 +9765,13 @@
     "resource": 1205,
     "msg_index": 694,
     "japanese": "アルケミスト余は優臆美を[0550]う者。優臆美で生封された者勲の回[0431]を見ることで生[056F]をたてている。",
-    "english": "Alchemist: / I read / companion / dolls using / alchemy. / I make a / living / observing the / cycle of / soulless / dolls."
+    "english": "Alchemist: I read companion dolls using alchemy. // I make a living observing the cycle of soulless dolls."
   },
   {
     "resource": 1205,
     "msg_index": 695,
     "japanese": "道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。",
-    "english": "The appraisal / fee is 1000g / per body, / regardless of / your standing. / Let me see how / much spirit / resides in / your doll."
+    "english": "The appraisal fee is 1000g per body, regardless of your standing. // Let me see how much spirit resides in your doll."
   },
   {
     "resource": 1205,
@@ -10425,7 +10425,7 @@
     "resource": 1205,
     "msg_index": 806,
     "japanese": "ミリィメラーニエクンナル落とし[069A]を落ちた[01A1]にはメラーニエと一同にいるピクシーのミリィがいた。",
-    "english": "Miri / Melanie / Kunnal: / Beyond the / trap door, / Miri the / Pixie was with / Melanie."
+    "english": "Miri / Melanie / Kunnar: / Beyond the / trap door, / Miri the / Pixie was with / Melanie."
   },
   {
     "resource": 1205,
@@ -10557,7 +10557,7 @@
     "resource": 1205,
     "msg_index": 829,
     "japanese": " その時、野の両の[0269]を開けてクンナルが通独に入ってきた。",
-    "english": "Just then, / Kunnal entered / through the / door behind."
+    "english": "Just then, / Kunnar entered / through the / door behind."
   },
   {
     "resource": 1205,
@@ -10641,13 +10641,13 @@
     "resource": 1205,
     "msg_index": 844,
     "japanese": "にえきらない[0431]度をとっているクンナルを携目させようと、ミリィはなにか[05D1]いたようだ。",
-    "english": "Miri noticed / Kunnal's / hesitation / and seemed to / have an idea."
+    "english": "Miri noticed / Kunnar's / hesitation / and seemed to / have an idea."
   },
   {
     "resource": 1205,
     "msg_index": 845,
     "japanese": "ミリィがメラーニエに[033C][032D]ちすると顔を[04A6]っ[041E]にしたが、そのまま消え入りそうな声でクンナルに質した。",
-    "english": "Miri whispered / to Melanie, / who turned / bright red, / then spoke to / Kunnal softly."
+    "english": "Miri whispered / to Melanie, / who turned / bright red, / then spoke to / Kunnar softly."
   },
   {
     "resource": 1205,
@@ -10665,7 +10665,7 @@
     "resource": 1205,
     "msg_index": 848,
     "japanese": "メラーニエの一言でクンナルは携目したようだ。",
-    "english": "Melanie's / words made / Kunnal decide / instantly."
+    "english": "Melanie's / words made / Kunnar decide / instantly."
   },
   {
     "resource": 1205,
@@ -10689,7 +10689,7 @@
     "resource": 1205,
     "msg_index": 852,
     "japanese": "メラーニエは申し[0559]なさそうにクンナルを外野づかいで見つめる。",
-    "english": "Melanie looked / at Kunnal / apologetically."
+    "english": "Melanie looked / at Kunnar / apologetically."
   },
   {
     "resource": 1205,
@@ -10701,7 +10701,7 @@
     "resource": 1205,
     "msg_index": 854,
     "japanese": "クンナルの言[0387]を聞いてメラーニエは持っていた兜きな[0457]物の[0444]を乙蓄に[0175]いた。",
-    "english": "Melanie placed / her large / luggage bag / on Kunnal's / back."
+    "english": "Melanie placed / her large / luggage bag / on Kunnar's / back."
   },
   {
     "resource": 1205,
@@ -10713,13 +10713,13 @@
     "resource": 1205,
     "msg_index": 857,
     "japanese": "ミリィとメラーニエはクンナルの入ってきた[0269]を開け、出て行った。",
-    "english": "Miri and / Melanie / left through / the door / Kunnal entered."
+    "english": "Miri and / Melanie / left through / the door / Kunnar entered."
   },
   {
     "resource": 1205,
     "msg_index": 858,
     "japanese": "一者取り退されたクンナルはメラーニエの[0457]物を持とうとした。",
-    "english": "Left behind, / Kunnal tried / to lift / Melanie's bag."
+    "english": "Left behind, / Kunnar tried / to lift / Melanie's bag."
   },
   {
     "resource": 1205,
@@ -10743,7 +10743,7 @@
     "resource": 1205,
     "msg_index": 862,
     "japanese": "クンナルは[0457]物の[0444]をひきずりながら、装を漢った。",
-    "english": "Kunnal / dragged the / bag and chased / after them."
+    "english": "Kunnar / dragged the / bag and chased / after them."
   },
   {
     "resource": 1205,
@@ -10827,7 +10827,7 @@
     "resource": 1205,
     "msg_index": 877,
     "japanese": "コンデはぁ～、[0141]が闘い！。",
-    "english": "Conde: / Haaah... / My heart / feels heavy."
+    "english": "Konde: / Haaah... / My heart / feels heavy."
   },
   {
     "resource": 1205,
@@ -10869,7 +10869,7 @@
     "resource": 1205,
     "msg_index": 884,
     "japanese": "内時、ベノアでも[018A][01A8]い魔運解達を地唱く[04AF]えていた彼が王息が、あの魔女一者に[03F1][0408]させられたのだ。",
-    "english": "At the time, / even the / strongest / sorcerers of / Venoa were / overwhelmed. / That kingdom / fell to this / one witch."
+    "english": "At the time, even the strongest sorcerers of Venoa were overwhelmed. // That kingdom fell to this one witch."
   },
   {
     "resource": 1205,
@@ -10971,7 +10971,7 @@
     "resource": 1205,
     "msg_index": 901,
     "japanese": "余が聞かされていたのは、アレイドという新戦美を会得した[01E3]帰前の[05AC][04D6]だった。",
-    "english": "What I'd heard / about was a / new battle / technique / called Alleid / being / developed by / the military."
+    "english": "What I'd heard about was a new battle // technique called Alleid being developed by the military."
   },
   {
     "resource": 1205,

@@ -39,7 +39,7 @@
     "resource": 1347,
     "msg_index": 6,
     "japanese": "だいきょうきょうきちちゅうきちだいきちおまえさんの、きょうのうんせいは / ・・・・・じゃ。",
-    "english": "Great Misfortune - Misfortune - Good Luck - Fair Luck - Great Luck: Your fortune for today is / .....so it is."
+    "english": "Great Misfortune - Misfortune - Good Luck - Fair Luck - Great Luck: // Your fortune for today is .....so it is."
   },
   {
     "resource": 1347,
@@ -387,7 +387,7 @@
     "resource": 1352,
     "msg_index": 9,
     "japanese": "メラーニエクンナルこれは、ボカシバージョン３です。 / メッセージの忍に「ここの忍」 / フィルタをかけています。",
-    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 3. / A local filter is applied / to the message text."
+    "english": "[DEBUG] Melanie/Ekunnal: This is blur version 3. // A local filter is applied to the message text."
   },
   {
     "resource": 1352,
@@ -423,7 +423,7 @@
     "resource": 1352,
     "msg_index": 15,
     "japanese": "メラーニエクンナルこれは、ボカシバージョン６です。 / メッセージの忍に「ここの忍」 / フィルタをかけています。",
-    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 6. / A local filter is applied / to the message text."
+    "english": "[DEBUG] Melanie/Ekunnal: This is blur version 6. // A local filter is applied to the message text."
   },
   {
     "resource": 1352,
@@ -441,7 +441,7 @@
     "resource": 1352,
     "msg_index": 18,
     "japanese": "メラーニエクンナルこれは、ボカシバージョン７です。 / メッセージの忍に「ここの忍」 / フィルタをかけています。",
-    "english": "[DEBUG] Melanie/Ekunnal: This is / blur version 7. / A local filter is applied / to the message text."
+    "english": "[DEBUG] Melanie/Ekunnal: This is blur version 7. // A local filter is applied to the message text."
   },
   {
     "resource": 1352,
@@ -501,7 +501,7 @@
     "resource": 1355,
     "msg_index": 7,
     "japanese": "[01E3]帰前小のつもりか苦らぬが、 / 小度帰ても、[02EC]えは効じだ。",
-    "english": "Knight: I don't know / what you're thinking, but / no matter how many times / you come, the answer / is the same."
+    "english": "Knight: I don't know what you're thinking, // but no matter how many times you come, the answer is the same."
   },
   {
     "resource": 1355,
@@ -765,7 +765,7 @@
     "resource": 1355,
     "msg_index": 51,
     "japanese": "不はそういった者動を唱く賊てきた。 / 迷宮の奥[01AE]で[0423]となった者動は、 / [018A]療や宝を有め、[028E]んでいった。",
-    "english": "Aoi: I've seen many / such people. Fame and / treasure they may have found, / but they all perished / in the depths of / the labyrinth."
+    "english": "Aoi: I've seen many such people. Fame and treasure they may have found, // but they all perished in the depths of the labyrinth."
   },
   {
     "resource": 1355,
