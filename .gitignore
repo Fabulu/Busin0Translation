@@ -77,3 +77,6 @@ build/_battle_recon/
 build/debug_*/
 # Per-recon RAM dumps + screenshots under run dirs
 **/subagents/
+# agent diagnostic scratch
+scratch_*.py
+scratchpad_previews/

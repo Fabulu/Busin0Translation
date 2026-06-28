@@ -80,9 +80,53 @@ SUB_DEFS.append({
 })
 
 # ── Sub 4: Status screen / chargen dual-language atlas ──
-# REMOVED: 512x256 PSMT4 dual-language atlas. Patching caused VIF FIFO crash.
-# Only Japanese text is 転職条件 (Job Change Requirements) — not worth the risk.
-# SUB_DEFS.append({...})  # sub4 intentionally skipped — causes VIF crash
+# 512x256 PSMT4 atlas. The vast majority is ALREADY-ENGLISH cursive status
+# labels (Status / Equipment & Item / Name / Spells / Parameter / Personality /
+# Gender / Class ...) plus a digit strip "0123456789". The ONLY Japanese text
+# is the 4-kanji label 0x8EBE 0x90 (tenshoku-jouken = "Class Change
+# Requirements"), the header on the class-change screen.
+#
+# RE-ENABLED (was disabled under a misattributed "VIF crash"). The actual M1 VIF
+# FIFO crash (KNOWN_ISSUES.md) was caused by 93 binary type-02 resources, NOT by
+# this type-29 pixel atlas; sub4 was reverted as collateral in the blanket v80
+# revert. This patch is provably upload-safe:
+#   * Round-trip is byte-lossless at 512x256 / bw=512 / dbw=256 (the coherent
+#     deswizzle proves these params match the game's VRAM layout). Enforced by
+#     "strict_roundtrip" below — a wrong geometry aborts the build.
+#   * Only pixel-data bytes change (offset+pixel_off .. +pixel_size); the 0x900
+#     GIF/transfer header (TBP/TBW/PSM/CLUT/TRXREG) is OUTSIDE the patched range
+#     and is verified untouched by the global integrity check. So the GS upload
+#     geometry is identical to pristine -> no VIF FIFO overflow.
+#   * The label rect is bounded by the empty gap after digit "9" (x<=165) on the
+#     left and the right-half element (x>=253) on the right, so neither the digit
+#     strip nor the cursive English labels are disturbed.
+# Glyph segmentation (pristine): digit "9" = x169..181, then a clean empty gap
+# at x182..185, then the 4 kanji 転職条件 = x186..248, then empty x249..252,
+# then the right-half cursive element at x>=253. So the label box is x186..248
+# (the gap on both sides is the safety margin that keeps the digit strip and the
+# cursive labels untouched). Text row is y177..193.
+SUB_DEFS.append({
+    "name": "sub4_classchange_header",
+    "sub_index": 4,
+    "offset": 0x4B490,
+    "pixel_off": 0x900,
+    "pixel_size": 65536,
+    "tex_w": 512, "tex_h": 256,
+    "bw_psmt4": 512, "dbw_ct32": 256,
+    "bg_index": 0, "ink_index": 15,
+    "font_size": 11,
+    "strict_roundtrip": True,  # GUARD: abort if pristine RT is not lossless
+    # GUARD: every edited pixel must stay inside the kanji box, and the digit
+    # strip (x<=181) and right-half cursive element (x>=253) must stay pristine.
+    # A mis-placed rect or wrong deswizzle width fails the build here.
+    "change_box": (186, 176, 248, 194),
+    "protect_cols": [(0, 181), (253, 511)],
+    "labels": [
+        # tenshoku-jouken -> "Class Reqs" (in-place re-ink, dims/format unchanged)
+        (186, 176, 63, 18, "Class Reqs"),
+    ],
+    "clear_only": [],
+})
 
 # ── Sub 6: Guild Roster ──
 SUB_DEFS.append({
@@ -426,10 +470,20 @@ def patch_sub(r2138, sub_def):
     overlay = sub_def.get("overlay", False)
 
     abs_pixel_offset = offset + pixel_off
+    strict_rt = sub_def.get("strict_roundtrip", False)
     print(f"\n--- {name} (sub {sub_def['sub_index']}) ---")
     print(f"  Pixel data: {pixel_size} bytes at 0x{abs_pixel_offset:X}")
     print(f"  Texture: {tex_w}x{tex_h}, bw={bw}, dbw={dbw}")
     print(f"  Palette: bg={bg_idx}, ink={ink_idx}")
+
+    # GUARD: geometry invariants — a wrong geometry would scramble the GS
+    # upload and crash the VIF FIFO, so fail the build instead of shipping it.
+    assert pixel_size == tex_w * tex_h // 2, (
+        f"{name}: pixel_size {pixel_size} != tex_w*tex_h//2 "
+        f"({tex_w}*{tex_h}//2={tex_w * tex_h // 2}) — PSMT4 invariant broken")
+    assert abs_pixel_offset + pixel_size <= len(r2138), (
+        f"{name}: pixel region 0x{abs_pixel_offset:X}+{pixel_size} overflows "
+        f"resource ({len(r2138)} bytes)")
 
     # Extract pixel data
     pixel_data = bytes(r2138[abs_pixel_offset:abs_pixel_offset + pixel_size])
@@ -444,6 +498,9 @@ def patch_sub(r2138, sub_def):
     assert len(linear) == expected_linear, \
         f"Deswizzled size mismatch: {len(linear)} != {expected_linear}"
 
+    # Snapshot pristine deswizzled pixels for the change-box guard (below)
+    linear_pristine = bytes(linear)
+
     # Verify round-trip
     reswizzled_check = swizzle_psmt4(
         linear, tex_w, tex_h, bw_psmt4=bw, dbw_ct32=dbw
@@ -452,6 +509,14 @@ def patch_sub(r2138, sub_def):
         print("  Round-trip: PASS")
     else:
         mismatches = sum(1 for a, b in zip(reswizzled_check, pixel_data) if a != b)
+        if strict_rt:
+            # GUARD: non-lossless round-trip means the deswizzle params do NOT
+            # match the resource's true VRAM layout. Writing the re-swizzled
+            # block back would corrupt the GS upload -> VIF FIFO crash. Abort.
+            print(f"  Round-trip: FAIL - {mismatches} mismatches (strict)")
+            sys.exit(f"ABORT: {name} pristine round-trip not lossless "
+                     f"({mismatches} byte mismatches) — geometry is wrong, "
+                     f"refusing to ship a VIF-crash patch")
         print(f"  Round-trip: WARNING - {mismatches} mismatches (proceeding)")
 
     # Load font
@@ -523,6 +588,36 @@ def patch_sub(r2138, sub_def):
         print(f"  [{x},{y} {w}x{h}] {tag}{extra}")
 
     print(f"  Labels patched: {count}")
+
+    # GUARD: change-box containment. For in-place re-ink subs (e.g. sub4, whose
+    # label sits between an already-correct digit strip and already-English
+    # cursive labels), assert every changed pixel falls inside the declared safe
+    # box and that any "protect_cols" ranges are byte-identical to pristine. This
+    # catches a mis-placed rect (e.g. clipping a neighbouring glyph) or a wrong
+    # deswizzle width (which scatters edits across the buffer) BEFORE shipping.
+    change_box = sub_def.get("change_box")        # (x0, y0, x1, y1) inclusive
+    protect_cols = sub_def.get("protect_cols", [])  # [(xlo, xhi), ...] keep clean
+    if change_box is not None:
+        cx0, cy0, cx1, cy1 = change_box
+        bad_outside = 0
+        bad_protected = 0
+        for i in range(len(linear)):
+            if linear[i] == linear_pristine[i]:
+                continue
+            px, py = i % tex_w, i // tex_w
+            if not (cx0 <= px <= cx1 and cy0 <= py <= cy1):
+                bad_outside += 1
+            for plo, phi in protect_cols:
+                if plo <= px <= phi:
+                    bad_protected += 1
+                    break
+        if bad_outside or bad_protected:
+            sys.exit(
+                f"ABORT: {name} change-box guard failed — "
+                f"{bad_outside} changed pixels outside {change_box}, "
+                f"{bad_protected} changed pixels in protected columns "
+                f"{protect_cols}. Refusing to ship a mis-placed/garbled patch.")
+        print(f"  Change-box guard: PASS (all edits within {change_box})")
 
     # Save preview
     preview_path = os.path.join(PREVIEW_DIR, f"r2138_{name}_preview.png")

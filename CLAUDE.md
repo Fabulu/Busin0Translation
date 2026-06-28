@@ -82,21 +82,23 @@ python tools/generate_font_atlas.py && python build/build_v9.py && cp build/BUSI
 ### Type-2 Resources (~587 unscanned)
 The type-2 extraction (`tools/extract_untranslated_type2.py`) filtered aggressively — min 5 glyphs, 50% glyph map coverage, 3+ consecutive katakana/kanji. This skipped ~587 of ~617 type-2 resources. Many are genuinely binary (dungeon maps, scene data), but some may contain sparse dialogue (1-3 short messages among binary data). A less aggressive scan is needed to find remaining text. Resources R680-R911 (dungeon scripts) are the most likely to have hidden dialogue.
 
-### Town-Hub Buttons & Status Labels (BUG-4/BUG-5, open)
-The old "R1272 menu font tiles" theory is DEAD — nothing renders from the R1272 atlas (see Font Atlases). The verified sources of the remaining Japanese UI text:
-- **Town-hub buttons**: pre-rendered kanji strips in **R2136** (~offset 16544) and **R2124** (~offsets 2016/21792)
-- **Tavern submenu**: a runtime-composed strip
-- **Status labels**: **R1365**
-Translating these requires in-place pixel re-rendering of the pre-rendered strips — NOT atlas tiles.
+### Pre-rendered / pixel-strip UI — ~99% DONE (verified Jun28, workflow w20ihqhjy)
+**The old "BUG-4/BUG-5 town-hub buttons + status labels still JP" claim is FALSIFIED.** Verified TRANSLATED + shipping English in v150 (each *.raw DIFFs pristine): town-hub buttons (R2124), tavern submenu (R2147), status labels (R1365), chargen stat-block/sidebar (R2138), ALL facility submenus (Inn R2144, Temple R2141, shops R2150/R2153, town menu/Adv-Guild/Alchemy/Level-Up R2138 sub0/6/26/25/27), battle command chrome (R1054), AA-setup menus + ~50 technique names (R1360-R1364), camp/field menu + L1/R1 cycler (R1359), System/SELECT menu (R1910/R1367), save/load slot names (EXE SJIS). **Ending narration is IDENTIFIED + translated** (R2881 sub7); intro/prologue (R2880/R1193) + grave cutscene (R2882) too. (R2881/R2882 on-screen render unverified — no ending GS dump yet.)
+
+**Genuinely remaining (verified):**
+- **R2138 sub4 = class-change "Job Change Requirements" header** — the ONLY untranslated pre-rendered strip. patch_r2138.py leaves sub4 OFF because patching it trips a VIF/GS-upload crash. (Fix in progress Jun28: in-place pixel re-ink keeping transfer geometry == pristine.)
+- **In-battle spell/ability CAST description line** — MSG/type-2 text, NOT a strip (separate from the R39-block2 magic-MENU descriptions which ARE translated). Being verified Jun28 (may be a stale pre-v149 screenshot vs a real separate resource).
+- **Type-2 Resources (~587 unscanned)** — see above; possible sparse hidden dialogue (R680-R911 likeliest).
+
+**Probably NONEXISTENT (no evidence in any screenshot; Busin 0 is a hand-mapping crawler):** dungeon compass (N/S/E/W), automap/floor HUD. Do not chase without a user-confirmed sighting.
+
+**Unverified (need a capture to confirm JP vs EN):** equipment type icons (剣/斧/杖 — no patcher/screenshot), equip-slot header labels, title boot menu (New Game/Continue), credits/staff roll (likely a burnt-in FMV stream outside PACKDATA).
 
 ### EXE SJIS Strings — COMPLETE
 All player-visible SJIS strings are patched (8 patches). The remaining ~686 SJIS runs are all debug-only (printf format strings, engine error messages). Full audit done 2026-06-09.
 
 ### R1188 Tab Labels — COMPLETE
 Tab labels (Kana/Hira/ABC/Sym/OK) render through R2138 sub7, NOT R1188. Already fully English via patch_r2138.py. Confirmed in screenshots 2026-06-06.
-- **Equipment type icons**: Weapon/armor type labels (剣/斧/杖 etc.) are pre-rendered sprites in an unidentified PACKDATA resource.
-- **Dungeon compass**: N/S/E/W directional labels — location unknown.
-- **Ending narration**: End-game text — resource location unidentified.
 
 ### PACKDATA Overflow Warning
 The rebuilt PACKDATA.DIG is ~190KB larger than the original, overflowing into BSN2_0.DSI (audio data) by ~90 sectors. This may corrupt audio on real PS2 hardware. Needs investigation — either shrink PACKDATA or relocate BSN2_0.DSI in the ISO.
