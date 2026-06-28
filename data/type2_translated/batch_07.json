@@ -1677,7 +1677,7 @@
     "resource": 1210,
     "msg_index": 292,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Have your fortune read? // 'Fee: 2000g per person' / Yes / No"
+    "english": "Read your fortune? // '2000g each' / Yes / No"
   },
   {
     "resource": 1210,
@@ -5307,7 +5307,7 @@
     "resource": 1211,
     "msg_index": 137,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Have your fortune read? // 'Fee: 2000g per person' / Yes / No"
+    "english": "Read your fortune? // '2000g each' / Yes / No"
   },
   {
     "resource": 1211,

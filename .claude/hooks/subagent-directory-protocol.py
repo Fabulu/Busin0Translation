@@ -16,7 +16,8 @@ You are a subagent. Your work products go in YOUR directory, not the main conver
 **Directory Assignment:**
 - If your prompt specifies a working directory path → Use it exactly
 - If NO directory specified → Create one: `subagents/YYYYMMDD-HHMM-<task-slug>/`
-  (Get timestamp via `python -c "import datetime; print(datetime.datetime.now().strftime('%Y%m%d-%H%M'))"` command)
+  (Get timestamp via PowerShell `Get-Date -Format 'yyyyMMdd-HHmm'`,
+  or bash `date +%Y%m%d-%H%M`)
 
 **Required Deliverable:**
 Create `FINDINGS.md` in your directory with this structure:
@@ -57,7 +58,8 @@ PROMPT_FIELDS = ["prompt", "description", "task", "instructions", "message"]
 
 def main():
     try:
-        input_data = json.load(sys.stdin)
+        # Decode utf-8-sig so a stray BOM (Windows) is stripped before JSON parse.
+        input_data = json.loads(sys.stdin.buffer.read().decode("utf-8-sig"))
         tool_input = input_data.get("tool_input", {})
 
         # Find and modify the prompt field (append after existing content)

@@ -38,7 +38,7 @@
     "resource": 34,
     "message": 14,
     "japanese": "二さ報紹の罰野 / ",
-    "english": "Holy Symbol Ring / ",
+    "english": "Holy Ring / ",
     "notes": "consecrated ring"
   },
   {
@@ -136,49 +136,49 @@
     "resource": 34,
     "message": 43,
     "japanese": "飲王のマント / ",
-    "english": "Demon King Cloak / ",
+    "english": "D.King Cloak / ",
     "notes": "vampire lord cloak"
   },
   {
     "resource": 34,
     "message": 44,
     "japanese": "ハボリウム禁[924] / ",
-    "english": "Haborym Leg Chip / ",
+    "english": "Haborym Leg / ",
     "notes": "demon name + leg chip"
   },
   {
     "resource": 34,
     "message": 45,
     "japanese": "シャクス禁[924] / ",
-    "english": "Shax Leg Chip / ",
+    "english": "Shax Leg / ",
     "notes": "demon name + leg chip"
   },
   {
     "resource": 34,
     "message": 46,
     "japanese": "ゴモリ禁[924] / ",
-    "english": "Gomory Leg Chip / ",
+    "english": "Gomory Leg / ",
     "notes": "demon name + leg chip"
   },
   {
     "resource": 34,
     "message": 47,
     "japanese": "フォラス禁[924] / ",
-    "english": "Foras Leg Chip / ",
+    "english": "Foras Leg / ",
     "notes": "demon name + leg chip"
   },
   {
     "resource": 34,
     "message": 48,
     "japanese": "デカラビア禁[924] / ",
-    "english": "Decarabia Leg Chip / ",
+    "english": "Decarabia Leg / ",
     "notes": "demon name + leg chip"
   },
   {
     "resource": 34,
     "message": 49,
     "japanese": "フルフル禁[924] / ",
-    "english": "Furfur Leg Chip / ",
+    "english": "Furfur Leg / ",
     "notes": "demon name + leg chip"
   },
   {
@@ -255,70 +255,70 @@
     "resource": 34,
     "message": 112,
     "japanese": "レザーアーマー / ",
-    "english": "Leather Armor / ",
+    "english": "Hide Armor / ",
     "notes": "leather armor"
   },
   {
     "resource": 34,
     "message": 113,
     "japanese": "マグスの向宮 / ",
-    "english": "Magus Hide Armor / ",
+    "english": "Magus Hide / ",
     "notes": "magus leather armor"
   },
   {
     "resource": 34,
     "message": 114,
     "japanese": "装飾の向宮 / ",
-    "english": "Ornate Hide Armor / ",
+    "english": "Ornate Hide / ",
     "notes": "decorative leather armor"
   },
   {
     "resource": 34,
     "message": 115,
     "japanese": "怪人の向宮 / ",
-    "english": "Phantom Hide Armor / ",
+    "english": "Phantom Hide / ",
     "notes": "phantom leather armor"
   },
   {
     "resource": 34,
     "message": 116,
     "japanese": "言神の向宮 / ",
-    "english": "Spirit Hide Armor / ",
+    "english": "Spirit Hide / ",
     "notes": "spirit/elemental leather"
   },
   {
     "resource": 34,
     "message": 117,
     "japanese": "信仰の向宮 / ",
-    "english": "Faith Hide Armor / ",
+    "english": "Faith Hide / ",
     "notes": "faith leather armor"
   },
   {
     "resource": 34,
     "message": 118,
     "japanese": "差上の向宮 / ",
-    "english": "Supreme Hide Armor / ",
+    "english": "Supreme Hide / ",
     "notes": "supreme leather armor"
   },
   {
     "resource": 34,
     "message": 119,
     "japanese": "ハヤテの向宮 / ",
-    "english": "Hayate Hide Armor / ",
+    "english": "Hayate Hide / ",
     "notes": "swift wind leather"
   },
   {
     "resource": 34,
     "message": 120,
     "japanese": "回奥の向宮 / ",
-    "english": "Vengeful Hide Armor / ",
+    "english": "Vengeful Hide / ",
     "notes": "vengeful spirit leather"
   },
   {
     "resource": 34,
     "message": 121,
     "japanese": "迷切りの向宮 / ",
-    "english": "Betrayer Hide Armor / ",
+    "english": "Traitor Hide / ",
     "notes": "betrayal leather"
   },
   {
@@ -332,7 +332,7 @@
     "resource": 34,
     "message": 123,
     "japanese": "紹店の向宮 / ",
-    "english": "Ruined Hide Armor / ",
+    "english": "Ruined Hide / ",
     "notes": "damaged leather"
   },
   {
@@ -346,77 +346,77 @@
     "resource": 34,
     "message": 125,
     "japanese": "マグスの行かたびら / ",
-    "english": "Magus Chain Mail / ",
+    "english": "Magus Mail / ",
     "notes": "magus chain mail"
   },
   {
     "resource": 34,
     "message": 126,
     "japanese": "然向の行かたびら / ",
-    "english": "Dragon Chain Mail / ",
+    "english": "Dragon Mail / ",
     "notes": "dragon hide chain"
   },
   {
     "resource": 34,
     "message": 127,
     "japanese": "表最の行かたびら / ",
-    "english": "Blessed Chain Mail / ",
+    "english": "Blessed Mail / ",
     "notes": "blessed chain mail"
   },
   {
     "resource": 34,
     "message": 128,
     "japanese": "忍びの行かたびら / ",
-    "english": "Ninja Chain Mail / ",
+    "english": "Ninja Mail / ",
     "notes": "ninja chain mail"
   },
   {
     "resource": 34,
     "message": 129,
     "japanese": "看気の行かたびら / ",
-    "english": "Frost Chain Mail / ",
+    "english": "Frost Mail / ",
     "notes": "frost chain mail"
   },
   {
     "resource": 34,
     "message": 130,
     "japanese": "エルフの行かたびら / ",
-    "english": "Elf Chain Mail / ",
+    "english": "Elf Mail / ",
     "notes": "elf chain mail"
   },
   {
     "resource": 34,
     "message": 131,
     "japanese": "悪の行かたびら / ",
-    "english": "Evil Chain Mail / ",
+    "english": "Evil Mail / ",
     "notes": "evil chain mail"
   },
   {
     "resource": 34,
     "message": 132,
     "japanese": "使いの行かたびら / ",
-    "english": "Cursed Chain Mail / ",
+    "english": "Cursed Mail / ",
     "notes": "cursed chain mail"
   },
   {
     "resource": 34,
     "message": 133,
     "japanese": "さびた行かたびら / ",
-    "english": "Rusty Chain Mail / ",
+    "english": "Rusty Mail / ",
     "notes": "rusty chain mail"
   },
   {
     "resource": 34,
     "message": 134,
     "japanese": "女落の行かたびら / ",
-    "english": "Fallen Chain Mail / ",
+    "english": "Fallen Mail / ",
     "notes": "fallen woman chain"
   },
   {
     "resource": 34,
     "message": 135,
     "japanese": "多者の行かたびら / ",
-    "english": "Ghost Chain Mail / ",
+    "english": "Ghost Mail / ",
     "notes": "ghost chain mail"
   },
   {
@@ -430,70 +430,70 @@
     "resource": 34,
     "message": 137,
     "japanese": "装飾の魔あて / ",
-    "english": "Ornate Breastplate / ",
+    "english": "Ornate Plate / ",
     "notes": "decorative breastplate"
   },
   {
     "resource": 34,
     "message": 138,
     "japanese": "神秘の魔あて / ",
-    "english": "Mystic Breastplate / ",
+    "english": "Mystic Plate / ",
     "notes": "mystic breastplate"
   },
   {
     "resource": 34,
     "message": 139,
     "japanese": "[364]騎の魔あて / ",
-    "english": "Warding Breastplate / ",
+    "english": "Ward Plate / ",
     "notes": "magic warding breastplate"
   },
   {
     "resource": 34,
     "message": 140,
     "japanese": "士奥の魔あて / ",
-    "english": "Warrior Breastplate / ",
+    "english": "Warrior Plate / ",
     "notes": "warrior spirit breastplate"
   },
   {
     "resource": 34,
     "message": 141,
     "japanese": "罰りの魔あて / ",
-    "english": "Punisher Breastplate / ",
+    "english": "Punish Plate / ",
     "notes": "punishment breastplate"
   },
   {
     "resource": 34,
     "message": 142,
     "japanese": "石忘の魔あて / ",
-    "english": "Petrify Breastplate / ",
+    "english": "Stone Plate / ",
     "notes": "stone/petrify breastplate"
   },
   {
     "resource": 34,
     "message": 143,
     "japanese": "多者の魔あて / ",
-    "english": "Ghost Breastplate / ",
+    "english": "Ghost Plate / ",
     "notes": "ghost breastplate"
   },
   {
     "resource": 34,
     "message": 144,
     "japanese": "悔神の魔あて / ",
-    "english": "Penance Breastplate / ",
+    "english": "Penance Plate / ",
     "notes": "penance breastplate"
   },
   {
     "resource": 34,
     "message": 145,
     "japanese": "落ち武者の宮 / ",
-    "english": "Fallen Warrior Mail / ",
+    "english": "Fallen Plate / ",
     "notes": "fallen warrior armor"
   },
   {
     "resource": 34,
     "message": 146,
     "japanese": "外道の魔あて / ",
-    "english": "Heretic Breastplate / ",
+    "english": "Heretic Plate / ",
     "notes": "heretic breastplate"
   },
   {
@@ -549,7 +549,7 @@
     "resource": 34,
     "message": 154,
     "japanese": "告回の大宮 / ",
-    "english": "Divine Great Armor / ",
+    "english": "Divine Armor / ",
     "notes": "divine great armor"
   },
   {
@@ -570,7 +570,7 @@
     "resource": 34,
     "message": 157,
     "japanese": "聖兵士の宮 / ",
-    "english": "Holy Knight Armor / ",
+    "english": "Holy S. Armor / ",
     "notes": "holy knight armor"
   },
   {
@@ -584,7 +584,7 @@
     "resource": 34,
     "message": 159,
     "japanese": "崩れかけの宮 / ",
-    "english": "Crumbling Armor / ",
+    "english": "Worn Armor / ",
     "notes": "crumbling armor"
   },
   {
@@ -598,7 +598,7 @@
     "resource": 34,
     "message": 161,
     "japanese": "飲王の宮 / ",
-    "english": "Demon King Armor / ",
+    "english": "D.King Armor / ",
     "notes": "vampire lord armor"
   },
   {
@@ -626,7 +626,7 @@
     "resource": 34,
     "message": 165,
     "japanese": "転物の辺 / ",
-    "english": "Teleport Helm / ",
+    "english": "Warp Helm / ",
     "notes": "teleport helm"
   },
   {
@@ -661,14 +661,14 @@
     "resource": 34,
     "message": 170,
     "japanese": "聖兵士の辺 / ",
-    "english": "Holy Knight Helm / ",
+    "english": "Holy S. Helm / ",
     "notes": "holy knight helm"
   },
   {
     "resource": 34,
     "message": 171,
     "japanese": "声の辺 / ",
-    "english": "Whispering Helm / ",
+    "english": "Whisper Helm / ",
     "notes": "voice helm"
   },
   {
@@ -682,7 +682,7 @@
     "resource": 34,
     "message": 173,
     "japanese": "飲王の辺 / ",
-    "english": "Demon King Helm / ",
+    "english": "D.King Helm / ",
     "notes": "vampire lord helm"
   },
   {
@@ -808,7 +808,7 @@
     "resource": 34,
     "message": 191,
     "japanese": "聖兵士の防 / ",
-    "english": "Holy Knight Shield / ",
+    "english": "Holy S. Shld / ",
     "notes": "holy knight shield"
   },
   {
@@ -836,7 +836,7 @@
     "resource": 34,
     "message": 195,
     "japanese": "飲王の防 / ",
-    "english": "Demon King Shield / ",
+    "english": "D.King Shld / ",
     "notes": "vampire lord shield"
   },
   {
@@ -850,175 +850,175 @@
     "resource": 34,
     "message": 197,
     "japanese": "辺の小手 / ",
-    "english": "Iron Gauntlets / ",
+    "english": "Iron Gaunts / ",
     "notes": "iron gauntlets"
   },
   {
     "resource": 34,
     "message": 198,
     "japanese": "銀の小手 / ",
-    "english": "Silver Gauntlets / ",
+    "english": "Silver Gaunts / ",
     "notes": "silver gauntlets"
   },
   {
     "resource": 34,
     "message": 199,
     "japanese": "騎神の小手 / ",
-    "english": "Magic Gauntlets / ",
+    "english": "Magic Gaunts / ",
     "notes": "magic god gauntlets"
   },
   {
     "resource": 34,
     "message": 200,
     "japanese": "力の小手 / ",
-    "english": "Power Gauntlets / ",
+    "english": "Power Gaunts / ",
     "notes": "power gauntlets"
   },
   {
     "resource": 34,
     "message": 201,
     "japanese": "直言の小手 / ",
-    "english": "Angel Gauntlets / ",
+    "english": "Angel Gaunts / ",
     "notes": "angel gauntlets"
   },
   {
     "resource": 34,
     "message": 202,
     "japanese": "悪の小手 / ",
-    "english": "Evil Gauntlets / ",
+    "english": "Evil Gaunts / ",
     "notes": "evil gauntlets"
   },
   {
     "resource": 34,
     "message": 203,
     "japanese": "聖兵士の小手 / ",
-    "english": "Holy Knight Gauntlets / ",
+    "english": "Holy S. Gaunts / ",
     "notes": "holy knight gauntlets"
   },
   {
     "resource": 34,
     "message": 204,
     "japanese": "くたびれた小手 / ",
-    "english": "Worn Gauntlets / ",
+    "english": "Worn Gaunts / ",
     "notes": "worn out gauntlets"
   },
   {
     "resource": 34,
     "message": 205,
     "japanese": "悪心の小手 / ",
-    "english": "Wicked Gauntlets / ",
+    "english": "Wicked Gaunts / ",
     "notes": "wicked heart gauntlets"
   },
   {
     "resource": 34,
     "message": 206,
     "japanese": "飲王の小手 / ",
-    "english": "Demon King Gauntlets / ",
+    "english": "D.King Gaunts / ",
     "notes": "vampire lord gauntlets"
   },
   {
     "resource": 34,
     "message": 207,
     "japanese": "エリゴル団[924] / ",
-    "english": "Eligor Body Chip / ",
+    "english": "Eligor Body / ",
     "notes": "demon name + body chip"
   },
   {
     "resource": 34,
     "message": 208,
     "japanese": "マルバス団[924] / ",
-    "english": "Marbas Body Chip / ",
+    "english": "Marbas Body / ",
     "notes": "demon name + body chip"
   },
   {
     "resource": 34,
     "message": 209,
     "japanese": "アガレス団[924] / ",
-    "english": "Agares Body Chip / ",
+    "english": "Agares Body / ",
     "notes": "demon name + body chip"
   },
   {
     "resource": 34,
     "message": 210,
     "japanese": "ベレト団[924] / ",
-    "english": "Beleth Body Chip / ",
+    "english": "Beleth Body / ",
     "notes": "demon name + body chip"
   },
   {
     "resource": 34,
     "message": 211,
     "japanese": "ボティス団[924] / ",
-    "english": "Botis Body Chip / ",
+    "english": "Botis Body / ",
     "notes": "demon name + body chip"
   },
   {
     "resource": 34,
     "message": 212,
     "japanese": "ゼパル団[924] / ",
-    "english": "Zepar Body Chip / ",
+    "english": "Zepar Body / ",
     "notes": "demon name + body chip"
   },
   {
     "resource": 34,
     "message": 213,
     "japanese": "オロバス団[924] / ",
-    "english": "Orobas Body Chip / ",
+    "english": "Orobas Body / ",
     "notes": "demon name + body chip"
   },
   {
     "resource": 34,
     "message": 214,
     "japanese": "アンドラス団[924] / ",
-    "english": "Andras Body Chip / ",
+    "english": "Andras Body / ",
     "notes": "demon name + body chip"
   },
   {
     "resource": 34,
     "message": 215,
     "japanese": "キメリエス袋[924] / ",
-    "english": "Cimejes Arm Chip / ",
+    "english": "Cimejes Arm / ",
     "notes": "demon name + arm chip"
   },
   {
     "resource": 34,
     "message": 216,
     "japanese": "サブナク袋[924] / ",
-    "english": "Sabnock Arm Chip / ",
+    "english": "Sabnock Arm / ",
     "notes": "demon name + arm chip"
   },
   {
     "resource": 34,
     "message": 217,
     "japanese": "ブーネ袋[924] / ",
-    "english": "Bune Arm Chip / ",
+    "english": "Bune Arm / ",
     "notes": "demon name + arm chip"
   },
   {
     "resource": 34,
     "message": 218,
     "japanese": "オリアス袋[924] / ",
-    "english": "Orias Arm Chip / ",
+    "english": "Orias Arm / ",
     "notes": "demon name + arm chip"
   },
   {
     "resource": 34,
     "message": 219,
     "japanese": "カイム袋[924] / ",
-    "english": "Caim Arm Chip / ",
+    "english": "Caim Arm / ",
     "notes": "demon name + arm chip"
   },
   {
     "resource": 34,
     "message": 220,
     "japanese": "バルバトス袋[924] / ",
-    "english": "Barbatos Arm Chip / ",
+    "english": "Barbatos Arm / ",
     "notes": "demon name + arm chip"
   },
   {
     "resource": 34,
     "message": 221,
     "japanese": "フォカロル袋[924] / ",
-    "english": "Focalor Arm Chip / ",
+    "english": "Focalor Arm / ",
     "notes": "demon name + arm chip"
   },
   {
@@ -1032,42 +1032,42 @@
     "resource": 34,
     "message": 223,
     "japanese": "イボス黙[924] / ",
-    "english": "Ipos Brain Chip / ",
+    "english": "Ipos Brain / ",
     "notes": "demon name + brain chip"
   },
   {
     "resource": 34,
     "message": 224,
     "japanese": "ガープ黙[924] / ",
-    "english": "Gaap Brain Chip / ",
+    "english": "Gaap Brain / ",
     "notes": "demon name + brain chip"
   },
   {
     "resource": 34,
     "message": 225,
     "japanese": "レライエ黙[924] / ",
-    "english": "Leraje Brain Chip / ",
+    "english": "Leraje Brain / ",
     "notes": "demon name + brain chip"
   },
   {
     "resource": 34,
     "message": 226,
     "japanese": "ラウム黙[924] / ",
-    "english": "Raum Brain Chip / ",
+    "english": "Raum Brain / ",
     "notes": "demon name + brain chip"
   },
   {
     "resource": 34,
     "message": 227,
     "japanese": "ウアル黙[924] / ",
-    "english": "Uvall Brain Chip / ",
+    "english": "Uvall Brain / ",
     "notes": "demon name + brain chip"
   },
   {
     "resource": 34,
     "message": 228,
     "japanese": "ムルムル黙[924] / ",
-    "english": "Murmur Brain Chip / ",
+    "english": "Murmur Brain / ",
     "notes": "demon name + brain chip"
   },
   {
@@ -1165,28 +1165,28 @@
     "resource": 34,
     "message": 373,
     "japanese": "マグスの小祠 / ",
-    "english": "Magus Short Sword / ",
+    "english": "Magus S.Sword / ",
     "notes": "magus short sword"
   },
   {
     "resource": 34,
     "message": 374,
     "japanese": "入違の小祠 / ",
-    "english": "Mithril Short Sword / ",
+    "english": "Mithril S.Swd / ",
     "notes": "mithril short sword"
   },
   {
     "resource": 34,
     "message": 375,
     "japanese": "言臆の小祠 / ",
-    "english": "Spirit Short Sword / ",
+    "english": "Spirit S.Swd / ",
     "notes": "spirit short sword"
   },
   {
     "resource": 34,
     "message": 376,
     "japanese": "古古の小祠 / ",
-    "english": "Ancient Short Sword / ",
+    "english": "Ancient S.Swd / ",
     "notes": "ancient short sword"
   },
   {
@@ -1200,35 +1200,35 @@
     "resource": 34,
     "message": 378,
     "japanese": "アルカナの小祠 / ",
-    "english": "Arcana Short Sword / ",
+    "english": "Arcana S.Swd / ",
     "notes": "arcana short sword"
   },
   {
     "resource": 34,
     "message": 379,
     "japanese": "悪の小祠 / ",
-    "english": "Evil Short Sword / ",
+    "english": "Evil S.Sword / ",
     "notes": "evil short sword"
   },
   {
     "resource": 34,
     "message": 380,
     "japanese": "帰奥の小祠 / ",
-    "english": "Restless Short Sword / ",
+    "english": "Restless S.Swd / ",
     "notes": "restless spirit short sword"
   },
   {
     "resource": 34,
     "message": 381,
     "japanese": "邪骨の小祠 / ",
-    "english": "Bone Short Sword / ",
+    "english": "Bone S.Sword / ",
     "notes": "evil bone short sword"
   },
   {
     "resource": 34,
     "message": 382,
     "japanese": "続使の小祠 / ",
-    "english": "Unending Short Sword / ",
+    "english": "Endless S.Swd / ",
     "notes": "persistent curse short sword"
   },
   {
@@ -1263,14 +1263,14 @@
     "resource": 34,
     "message": 387,
     "japanese": "然骨の祠 / ",
-    "english": "Dragon Bone Sword / ",
+    "english": "Dragonbone Swd / ",
     "notes": "dragon bone sword"
   },
   {
     "resource": 34,
     "message": 388,
     "japanese": "神主の祠 / ",
-    "english": "Divine Lord Sword / ",
+    "english": "Priest Sword / ",
     "notes": "divine lord sword"
   },
   {
@@ -1284,14 +1284,14 @@
     "resource": 34,
     "message": 390,
     "japanese": "取空より現れし祠 / ",
-    "english": "Ethereal Sword / ",
+    "english": "Ether Sword / ",
     "notes": "sword from beyond"
   },
   {
     "resource": 34,
     "message": 391,
     "japanese": "聖兵士の祠 / ",
-    "english": "Holy Knight Sword / ",
+    "english": "Holy S. Sword / ",
     "notes": "holy knight sword"
   },
   {
@@ -1305,14 +1305,14 @@
     "resource": 34,
     "message": 393,
     "japanese": "度の初憶の祠 / ",
-    "english": "First Memory Sword / ",
+    "english": "First Mem Swd / ",
     "notes": "first memory sword"
   },
   {
     "resource": 34,
     "message": 394,
     "japanese": "開臆の祠 / ",
-    "english": "Death Spirit Sword / ",
+    "english": "Death Sp Swd / ",
     "notes": "death spirit sword"
   },
   {
@@ -1333,7 +1333,7 @@
     "resource": 34,
     "message": 397,
     "japanese": "マグスの大祠 / ",
-    "english": "Magus Great Sword / ",
+    "english": "Magus Gt Sword / ",
     "notes": "magus great sword"
   },
   {
@@ -1347,7 +1347,7 @@
     "resource": 34,
     "message": 399,
     "japanese": "情場りの大祠 / ",
-    "english": "Fury Great Sword / ",
+    "english": "Fury Gt Sword / ",
     "notes": "passionate great sword"
   },
   {
@@ -1382,28 +1382,28 @@
     "resource": 34,
     "message": 404,
     "japanese": "重い大祠 / ",
-    "english": "Heavy Great Sword / ",
+    "english": "Heavy Gt Sword / ",
     "notes": "heavy great sword"
   },
   {
     "resource": 34,
     "message": 405,
     "japanese": "開[427]幸行鎧 / ",
-    "english": "Death Pilgrim Blade / ",
+    "english": "Pilgrim Blade / ",
     "notes": "death pilgrim blade"
   },
   {
     "resource": 34,
     "message": 406,
     "japanese": "[333]騎の大祠 / ",
-    "english": "Full Moon Sword / ",
+    "english": "Full Moon Swd / ",
     "notes": "full moon great sword"
   },
   {
     "resource": 34,
     "message": 407,
     "japanese": "騎人の大祠 / ",
-    "english": "Demon Great Sword / ",
+    "english": "Demon Gt Sword / ",
     "notes": "demon great sword"
   },
   {
@@ -1501,7 +1501,7 @@
     "resource": 34,
     "message": 421,
     "japanese": "遠感の動 / ",
-    "english": "Divination Staff / ",
+    "english": "Divine Staff / ",
     "notes": "divination staff"
   },
   {
@@ -1515,7 +1515,7 @@
     "resource": 34,
     "message": 423,
     "japanese": "をしの動 / ",
-    "english": "Recovery Staff / ",
+    "english": "Restore Staff / ",
     "notes": "recovery staff"
   },
   {
@@ -1557,7 +1557,7 @@
     "resource": 34,
     "message": 429,
     "japanese": "崩れかけの動 / ",
-    "english": "Crumbling Staff / ",
+    "english": "Decay Staff / ",
     "notes": "crumbling staff"
   },
   {
@@ -1585,14 +1585,14 @@
     "resource": 34,
     "message": 433,
     "japanese": "名算の手攻 / ",
-    "english": "Master Hand Axe / ",
+    "english": "Master H.Axe / ",
     "notes": "master hand axe"
   },
   {
     "resource": 34,
     "message": 434,
     "japanese": "場得の手攻 / ",
-    "english": "Thunder Hand Axe / ",
+    "english": "Thunder H.Axe / ",
     "notes": "thunder hand axe"
   },
   {
@@ -1606,35 +1606,35 @@
     "resource": 34,
     "message": 436,
     "japanese": "[390]光の手攻 / ",
-    "english": "Flash Hand Axe / ",
+    "english": "Flash H.Axe / ",
     "notes": "flash/light hand axe"
   },
   {
     "resource": 34,
     "message": 437,
     "japanese": "聖兵士の手攻 / ",
-    "english": "Holy Knight Axe / ",
+    "english": "Holy S. H.Axe / ",
     "notes": "holy knight hand axe"
   },
   {
     "resource": 34,
     "message": 438,
     "japanese": "使いの手攻 / ",
-    "english": "Cursed Hand Axe / ",
+    "english": "Cursed H.Axe / ",
     "notes": "cursed hand axe"
   },
   {
     "resource": 34,
     "message": 439,
     "japanese": "腕噂られた手攻 / ",
-    "english": "Blood-Stained Axe / ",
+    "english": "Bloody H.Axe / ",
     "notes": "blood-stained hand axe"
   },
   {
     "resource": 34,
     "message": 440,
     "japanese": "回奥の手攻 / ",
-    "english": "Vengeful Hand Axe / ",
+    "english": "Vengeful H.Axe / ",
     "notes": "vengeful hand axe"
   },
   {
@@ -1655,35 +1655,35 @@
     "resource": 34,
     "message": 443,
     "japanese": "切り信きの戦攻 / ",
-    "english": "Slayer Battle Axe / ",
+    "english": "Slayer Btl Axe / ",
     "notes": "slayer battle axe"
   },
   {
     "resource": 34,
     "message": 444,
     "japanese": "騎法祠士の戦攻 / ",
-    "english": "Arcane Battle Axe / ",
+    "english": "Arcane Btl Axe / ",
     "notes": "arcane swordsman battle axe"
   },
   {
     "resource": 34,
     "message": 445,
     "japanese": "れ罰者の戦攻 / ",
-    "english": "Avenger Battle Axe / ",
+    "english": "Avenger Btl Axe / ",
     "notes": "avenger battle axe"
   },
   {
     "resource": 34,
     "message": 446,
     "japanese": "ドワーフの戦攻 / ",
-    "english": "Dwarf Battle Axe / ",
+    "english": "Dwarf Btl Axe / ",
     "notes": "dwarf battle axe"
   },
   {
     "resource": 34,
     "message": 447,
     "japanese": "騎人の戦攻 / ",
-    "english": "Demon Battle Axe / ",
+    "english": "Demon Btl Axe / ",
     "notes": "demon battle axe"
   },
   {
@@ -1697,14 +1697,14 @@
     "resource": 34,
     "message": 449,
     "japanese": "回奥の戦攻 / ",
-    "english": "Vengeful Battle Axe / ",
+    "english": "Vengeful Btl Axe / ",
     "notes": "vengeful battle axe"
   },
   {
     "resource": 34,
     "message": 450,
     "japanese": "多者の戦攻 / ",
-    "english": "Ghost Battle Axe / ",
+    "english": "Ghost Btl Axe / ",
     "notes": "ghost battle axe"
   },
   {
@@ -1865,7 +1865,7 @@
     "resource": 34,
     "message": 473,
     "japanese": "見えざるフレイル / ",
-    "english": "Invisible Flail / ",
+    "english": "Unseen Flail / ",
     "notes": "invisible flail"
   },
   {
@@ -1879,21 +1879,21 @@
     "resource": 34,
     "message": 475,
     "japanese": "崩れかけのフレイル / ",
-    "english": "Crumbling Flail / ",
+    "english": "Decay Flail / ",
     "notes": "crumbling flail"
   },
   {
     "resource": 34,
     "message": 476,
     "japanese": "腕通めのフレイル / ",
-    "english": "Blood-Soaked Flail / ",
+    "english": "Bloody Flail / ",
     "notes": "blood-soaked flail"
   },
   {
     "resource": 34,
     "message": 477,
     "japanese": "束悪のフレイル / ",
-    "english": "Pure Evil Flail / ",
+    "english": "Evil Flail / ",
     "notes": "pure evil flail"
   },
   {
@@ -1907,7 +1907,7 @@
     "resource": 34,
     "message": 479,
     "japanese": "手投げナイフ / ",
-    "english": "Throwing Knife / ",
+    "english": "Throw Knife / ",
     "notes": "throwing knife"
   },
   {
@@ -1928,7 +1928,7 @@
     "resource": 34,
     "message": 482,
     "japanese": "頼切りのナイフ / ",
-    "english": "Wind Cutter Knife / ",
+    "english": "Wind Knife / ",
     "notes": "wind cutting knife"
   },
   {
@@ -2026,7 +2026,7 @@
     "resource": 34,
     "message": 496,
     "japanese": "短光の大法 / ",
-    "english": "Flash Great Bow / ",
+    "english": "Flash Gt Bow / ",
     "notes": "flash great bow"
   },
   {
@@ -2040,7 +2040,7 @@
     "resource": 34,
     "message": 498,
     "japanese": "迷切りの大法 / ",
-    "english": "Betrayer Great Bow / ",
+    "english": "Betrayer Gt Bow / ",
     "notes": "betrayer great bow"
   },
   {
@@ -2054,42 +2054,42 @@
     "resource": 34,
     "message": 500,
     "japanese": "教上[480] / ",
-    "english": "Bishop Pole Arm / ",
+    "english": "Bishop P.Arm / ",
     "notes": "bishop pole arm"
   },
   {
     "resource": 34,
     "message": 501,
     "japanese": "書[482][480] / ",
-    "english": "Gold Pole Arm / ",
+    "english": "Gold P.Arm / ",
     "notes": "gold pole arm"
   },
   {
     "resource": 34,
     "message": 502,
     "japanese": "後[380][480] / ",
-    "english": "Guardian Pole Arm / ",
+    "english": "Guardian P.Arm / ",
     "notes": "guardian pole arm"
   },
   {
     "resource": 34,
     "message": 503,
     "japanese": "武聖[364]騎[480] / ",
-    "english": "Holy Warrior Polearm / ",
+    "english": "Holy War P.Arm / ",
     "notes": "holy warrior pole arm"
   },
   {
     "resource": 34,
     "message": 504,
     "japanese": "無[484][480] / ",
-    "english": "Void Pole Arm / ",
+    "english": "Void P.Arm / ",
     "notes": "void pole arm"
   },
   {
     "resource": 34,
     "message": 505,
     "japanese": "教地騎王[480] / ",
-    "english": "King's Pole Arm / ",
+    "english": "King's P.Arm / ",
     "notes": "king's pole arm"
   },
   {
@@ -2194,84 +2194,84 @@
     "resource": 34,
     "message": 520,
     "japanese": "バラム手[924] / ",
-    "english": "Balam Hand Chip / ",
+    "english": "Balam Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 521,
     "japanese": "モラクス手[924] / ",
-    "english": "Morax Hand Chip / ",
+    "english": "Morax Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 522,
     "japanese": "セーレ手[924] / ",
-    "english": "Seere Hand Chip / ",
+    "english": "Seere Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 523,
     "japanese": "ブエル手[924] / ",
-    "english": "Buer Hand Chip / ",
+    "english": "Buer Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 524,
     "japanese": "ウィネ手[924] / ",
-    "english": "Vine Hand Chip / ",
+    "english": "Vine Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 525,
     "japanese": "グシオン手[924] / ",
-    "english": "Gusion Hand Chip / ",
+    "english": "Gusion Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 526,
     "japanese": "アスモダイ手[924] / ",
-    "english": "Asmodai Hand Chip / ",
+    "english": "Asmodai Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 527,
     "japanese": "ガミュギン手[924] / ",
-    "english": "Gamigin Hand Chip / ",
+    "english": "Gamigin Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 528,
     "japanese": "フラウロス手[924] / ",
-    "english": "Flauros Hand Chip / ",
+    "english": "Flauros Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 529,
     "japanese": "ベリアル手[924] / ",
-    "english": "Belial Hand Chip / ",
+    "english": "Belial Hand / ",
     "notes": "demon name + hand chip"
   },
   {
     "resource": 34,
     "message": 704,
     "japanese": "封傷の穏 / ",
-    "english": "Healing Potion / ",
+    "english": "Heal Potion / ",
     "notes": "healing potion"
   },
   {
     "resource": 34,
     "message": 705,
     "japanese": "治をの穏 / ",
-    "english": "Full Heal Potion / ",
+    "english": "Full Heal Pot / ",
     "notes": "complete healing potion"
   },
   {
@@ -2285,7 +2285,7 @@
     "resource": 34,
     "message": 707,
     "japanese": "殿毒の穏 / ",
-    "english": "Antidote Potion / ",
+    "english": "Antidote Pot / ",
     "notes": "antidote potion"
   },
   {
@@ -2299,7 +2299,7 @@
     "resource": 34,
     "message": 709,
     "japanese": "殿使の穏 / ",
-    "english": "Uncurse Potion / ",
+    "english": "Uncurse Pot / ",
     "notes": "uncurse potion"
   },
   {
@@ -2313,28 +2313,28 @@
     "resource": 34,
     "message": 711,
     "japanese": "物送の穏 / ",
-    "english": "Teleport Potion / ",
+    "english": "Teleport Pot / ",
     "notes": "teleport potion"
   },
   {
     "resource": 34,
     "message": 712,
     "japanese": "帰戻の穏 / ",
-    "english": "Town Return Potion / ",
+    "english": "Town Ret. Pot / ",
     "notes": "return to town potion"
   },
   {
     "resource": 34,
     "message": 713,
     "japanese": "戻奥の穏 / ",
-    "english": "Resurrection Potion / ",
+    "english": "Resurrect Pot / ",
     "notes": "resurrection potion"
   },
   {
     "resource": 34,
     "message": 714,
     "japanese": "解臆の穏 / ",
-    "english": "Exorcism Potion / ",
+    "english": "Exorcism Pot / ",
     "notes": "exorcism potion"
   },
   {
@@ -2418,7 +2418,7 @@
     "resource": 34,
     "message": 726,
     "japanese": "兵士の宝救 / ",
-    "english": "Knight Soul / ",
+    "english": "Soldier Soul / ",
     "notes": "knight class change item"
   },
   {
@@ -2453,14 +2453,14 @@
     "resource": 34,
     "message": 731,
     "japanese": "聖兵士の宝救 / ",
-    "english": "Holy Knight Soul / ",
+    "english": "Holy S. Soul / ",
     "notes": "holy knight class change item"
   },
   {
     "resource": 34,
     "message": 732,
     "japanese": "暗兵士の宝救 / ",
-    "english": "Dark Knight Soul / ",
+    "english": "Dark S. Soul / ",
     "notes": "dark knight class change item"
   },
   {
@@ -2481,413 +2481,413 @@
     "resource": 34,
     "message": 735,
     "japanese": "美盗の宝救 / ",
-    "english": "Phantom Thief Soul / ",
+    "english": "Phantom Soul / ",
     "notes": "phantom thief class change item"
   },
   {
     "resource": 34,
     "message": 736,
     "japanese": "リフレクトの穏 / ",
-    "english": "Reflect Potion / ",
+    "english": "Reflect Pot / ",
     "notes": "reflect potion"
   },
   {
     "resource": 34,
     "message": 737,
     "japanese": "メガデスの穏 / ",
-    "english": "Megadeath Potion / ",
+    "english": "Megadeath Pot / ",
     "notes": "megadeath potion"
   },
   {
     "resource": 34,
     "message": 788,
     "japanese": "クレタの団 / ",
-    "english": "Scroll of Kureta / ",
+    "english": "Scr.Kureta / ",
     "notes": "fire spell scroll"
   },
   {
     "resource": 34,
     "message": 789,
     "japanese": "クルドの団 / ",
-    "english": "Scroll of Kurudo / ",
+    "english": "Scr.Kurudo / ",
     "notes": "thunder spell scroll"
   },
   {
     "resource": 34,
     "message": 790,
     "japanese": "ティールの団 / ",
-    "english": "Scroll of Teel / ",
+    "english": "Scr.Teel / ",
     "notes": "ice spell scroll"
   },
   {
     "resource": 34,
     "message": 791,
     "japanese": "アナライズの団 / ",
-    "english": "Scroll of Analyze / ",
+    "english": "Scr.Analyze / ",
     "notes": "analyze spell scroll"
   },
   {
     "resource": 34,
     "message": 792,
     "japanese": "ウィークの団 / ",
-    "english": "Scroll of Weak / ",
+    "english": "Scr.Weak / ",
     "notes": "weak spell scroll"
   },
   {
     "resource": 34,
     "message": 793,
     "japanese": "ディレイの団 / ",
-    "english": "Scroll of Delay / ",
+    "english": "Scr.Delay / ",
     "notes": "delay spell scroll"
   },
   {
     "resource": 34,
     "message": 794,
     "japanese": "デプスの団 / ",
-    "english": "Scroll of Depth / ",
+    "english": "Scr.Depth / ",
     "notes": "depth spell scroll"
   },
   {
     "resource": 34,
     "message": 795,
     "japanese": "フィブルの団 / ",
-    "english": "Scroll of Feeble / ",
+    "english": "Scr.Feeble / ",
     "notes": "feeble spell scroll"
   },
   {
     "resource": 34,
     "message": 796,
     "japanese": "シュラードの団 / ",
-    "english": "Scroll of Shrade / ",
+    "english": "Scr.Shrade / ",
     "notes": "death spell scroll"
   },
   {
     "resource": 34,
     "message": 797,
     "japanese": "スプリームの団 / ",
-    "english": "Scroll of Supreme / ",
+    "english": "Scr.Supreme / ",
     "notes": "supreme spell scroll"
   },
   {
     "resource": 34,
     "message": 798,
     "japanese": "サロメの団 / ",
-    "english": "Scroll of Salome / ",
+    "english": "Scr.Salome / ",
     "notes": "salome spell scroll"
   },
   {
     "resource": 34,
     "message": 799,
     "japanese": "エスケープの団 / ",
-    "english": "Scroll of Escape / ",
+    "english": "Scr.Escape / ",
     "notes": "escape spell scroll"
   },
   {
     "resource": 34,
     "message": 800,
     "japanese": "ザクレタの団 / ",
-    "english": "Scroll of Zakureta / ",
+    "english": "Scr.Zakureta / ",
     "notes": "fire group spell"
   },
   {
     "resource": 34,
     "message": 801,
     "japanese": "ザクルドの団 / ",
-    "english": "Scroll of Zakurudo / ",
+    "english": "Scr.Zakurudo / ",
     "notes": "thunder group spell"
   },
   {
     "resource": 34,
     "message": 802,
     "japanese": "ザティールの団 / ",
-    "english": "Scroll of Zateel / ",
+    "english": "Scr.Zateel / ",
     "notes": "ice group spell"
   },
   {
     "resource": 34,
     "message": 803,
     "japanese": "スルーの団 / ",
-    "english": "Scroll of Thru / ",
+    "english": "Scr.Thru / ",
     "notes": "thru spell scroll"
   },
   {
     "resource": 34,
     "message": 804,
     "japanese": "ザラードの団 / ",
-    "english": "Scroll of Zarado / ",
+    "english": "Scr.Zarado / ",
     "notes": "death group spell"
   },
   {
     "resource": 34,
     "message": 805,
     "japanese": "ドレインの団 / ",
-    "english": "Scroll of Drain / ",
+    "english": "Scr.Drain / ",
     "notes": "drain spell scroll"
   },
   {
     "resource": 34,
     "message": 806,
     "japanese": "リピールの団 / ",
-    "english": "Scroll of Repeal / ",
+    "english": "Scr.Repeal / ",
     "notes": "repeal spell scroll"
   },
   {
     "resource": 34,
     "message": 807,
     "japanese": "カニバルの団 / ",
-    "english": "Scroll of Cannibal / ",
+    "english": "Scr.Cannibal / ",
     "notes": "cannibal spell scroll"
   },
   {
     "resource": 34,
     "message": 808,
     "japanese": "ジャクレタの団 / ",
-    "english": "Scroll of Jakureta / ",
+    "english": "Scr.Jakureta / ",
     "notes": "fire all spell"
   },
   {
     "resource": 34,
     "message": 809,
     "japanese": "ジャクルドの団 / ",
-    "english": "Scroll of Jakurudo / ",
+    "english": "Scr.Jakurudo / ",
     "notes": "thunder all spell"
   },
   {
     "resource": 34,
     "message": 810,
     "japanese": "ジャティルの団 / ",
-    "english": "Scroll of Jateel / ",
+    "english": "Scr.Jateel / ",
     "notes": "ice all spell"
   },
   {
     "resource": 34,
     "message": 811,
     "japanese": "レイトの団 / ",
-    "english": "Scroll of Late / ",
+    "english": "Scr.Late / ",
     "notes": "late spell scroll"
   },
   {
     "resource": 34,
     "message": 812,
     "japanese": "ジャラードの団 / ",
-    "english": "Scroll of Jarado / ",
+    "english": "Scr.Jarado / ",
     "notes": "death all spell"
   },
   {
     "resource": 34,
     "message": 813,
     "japanese": "ヴァルハラの団 / ",
-    "english": "Scroll of Valhalla / ",
+    "english": "Scr.Valhalla / ",
     "notes": "valhalla spell scroll"
   },
   {
     "resource": 34,
     "message": 814,
     "japanese": "リフレクトの団 / ",
-    "english": "Scroll of Reflect / ",
+    "english": "Scr.Reflect / ",
     "notes": "reflect spell scroll"
   },
   {
     "resource": 34,
     "message": 815,
     "japanese": "メガデスの団 / ",
-    "english": "Scroll of Megadeath / ",
+    "english": "Scr.Megadeath / ",
     "notes": "megadeath spell scroll"
   },
   {
     "resource": 34,
     "message": 816,
     "japanese": "フィールの団 / ",
-    "english": "Scroll of Heal / ",
+    "english": "Scr.Heal / ",
     "notes": "heal spell scroll"
   },
   {
     "resource": 34,
     "message": 817,
     "japanese": "リープの団 / ",
-    "english": "Scroll of Leap / ",
+    "english": "Scr.Leap / ",
     "notes": "leap spell scroll"
   },
   {
     "resource": 34,
     "message": 818,
     "japanese": "バレッツの団 / ",
-    "english": "Scroll of Barrets / ",
+    "english": "Scr.Barrets / ",
     "notes": "barrets spell scroll"
   },
   {
     "resource": 34,
     "message": 819,
     "japanese": "シーフアイの団 / ",
-    "english": "Scroll of Thief Eye / ",
+    "english": "Scr.ThiefEye / ",
     "notes": "thief eye spell scroll"
   },
   {
     "resource": 34,
     "message": 820,
     "japanese": "ヤイバの団 / ",
-    "english": "Scroll of Yaiba / ",
+    "english": "Scr.Yaiba / ",
     "notes": "yaiba spell scroll"
   },
   {
     "resource": 34,
     "message": 821,
     "japanese": "コートの団 / ",
-    "english": "Scroll of Coat / ",
+    "english": "Scr.Coat / ",
     "notes": "coat spell scroll"
   },
   {
     "resource": 34,
     "message": 822,
     "japanese": "ブレスの団 / ",
-    "english": "Scroll of Bless / ",
+    "english": "Scr.Bless / ",
     "notes": "bless spell scroll"
   },
   {
     "resource": 34,
     "message": 823,
     "japanese": "プロテクトの団 / ",
-    "english": "Scroll of Protect / ",
+    "english": "Scr.Protect / ",
     "notes": "protect spell scroll"
   },
   {
     "resource": 34,
     "message": 824,
     "japanese": "アモークの団 / ",
-    "english": "Scroll of Amok / ",
+    "english": "Scr.Amok / ",
     "notes": "amok spell scroll"
   },
   {
     "resource": 34,
     "message": 825,
     "japanese": "フィールズの団 / ",
-    "english": "Scroll of Heals / ",
+    "english": "Scr.Heals / ",
     "notes": "group heal spell scroll"
   },
   {
     "resource": 34,
     "message": 826,
     "japanese": "ポイズンの団 / ",
-    "english": "Scroll of Poison / ",
+    "english": "Scr.Poison / ",
     "notes": "poison spell scroll"
   },
   {
     "resource": 34,
     "message": 827,
     "japanese": "ストレインの団 / ",
-    "english": "Scroll of Strain / ",
+    "english": "Scr.Strain / ",
     "notes": "strain spell scroll"
   },
   {
     "resource": 34,
     "message": 828,
     "japanese": "ポイズケアの団 / ",
-    "english": "Scroll of Poiscure / ",
+    "english": "Scr.Poiscure / ",
     "notes": "poison cure spell scroll"
   },
   {
     "resource": 34,
     "message": 829,
     "japanese": "パラズケアの団 / ",
-    "english": "Scroll of Paracure / ",
+    "english": "Scr.Paracure / ",
     "notes": "paralysis cure spell scroll"
   },
   {
     "resource": 34,
     "message": 830,
     "japanese": "フィアケアの団 / ",
-    "english": "Scroll of Fearcure / ",
+    "english": "Scr.Fearcure / ",
     "notes": "fear cure spell scroll"
   },
   {
     "resource": 34,
     "message": 831,
     "japanese": "バイタルの団 / ",
-    "english": "Scroll of Vital / ",
+    "english": "Scr.Vital / ",
     "notes": "vital spell scroll"
   },
   {
     "resource": 34,
     "message": 832,
     "japanese": "カーカスの団 / ",
-    "english": "Scroll of Carcass / ",
+    "english": "Scr.Carcass / ",
     "notes": "carcass spell scroll"
   },
   {
     "resource": 34,
     "message": 833,
     "japanese": "ウィルの団 / ",
-    "english": "Scroll of Will / ",
+    "english": "Scr.Will / ",
     "notes": "will spell scroll"
   },
   {
     "resource": 34,
     "message": 834,
     "japanese": "リュミルの団 / ",
-    "english": "Scroll of Lumil / ",
+    "english": "Scr.Lumil / ",
     "notes": "lumil spell scroll"
   },
   {
     "resource": 34,
     "message": 835,
     "japanese": "アンデッドの団 / ",
-    "english": "Scroll of Undead / ",
+    "english": "Scr.Undead / ",
     "notes": "undead spell scroll"
   },
   {
     "resource": 34,
     "message": 836,
     "japanese": "トランスの団 / ",
-    "english": "Scroll of Trans / ",
+    "english": "Scr.Trans / ",
     "notes": "trans spell scroll"
   },
   {
     "resource": 34,
     "message": 837,
     "japanese": "リカバーの団 / ",
-    "english": "Scroll of Recover / ",
+    "english": "Scr.Recover / ",
     "notes": "recover spell scroll"
   },
   {
     "resource": 34,
     "message": 838,
     "japanese": "アンカーズの団 / ",
-    "english": "Scroll of Anchors / ",
+    "english": "Scr.Anchors / ",
     "notes": "anchors spell scroll"
   },
   {
     "resource": 34,
     "message": 839,
     "japanese": "フロートの団 / ",
-    "english": "Scroll of Float / ",
+    "english": "Scr.Float / ",
     "notes": "float spell scroll"
   },
   {
     "resource": 34,
     "message": 840,
     "japanese": "スティグマの団 / ",
-    "english": "Scroll of Stigma / ",
+    "english": "Scr.Stigma / ",
     "notes": "stigma spell scroll"
   },
   {
     "resource": 34,
     "message": 841,
     "japanese": "ラフィールの団 / ",
-    "english": "Scroll of Raheal / ",
+    "english": "Scr.Raheal / ",
     "notes": "group heal spell scroll"
   },
   {
     "resource": 34,
     "message": 842,
     "japanese": "オフセットの団 / ",
-    "english": "Scroll of Offset / ",
+    "english": "Scr.Offset / ",
     "notes": "offset spell scroll"
   },
   {
     "resource": 34,
     "message": 843,
     "japanese": "リヴァイヴの団 / ",
-    "english": "Scroll of Revive / ",
+    "english": "Scr.Revive / ",
     "notes": "revive spell scroll"
   },
   {
@@ -3713,7 +3713,7 @@
     "resource": 34,
     "message": 1123,
     "japanese": "スローイングダガー / ",
-    "english": "Throwing Dagger / ",
+    "english": "Throw Dagger / ",
     "notes": "equipment category: throwing daggers"
   },
   {

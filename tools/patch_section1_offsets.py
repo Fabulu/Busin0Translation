@@ -518,7 +518,21 @@ def patch_file(orig_path, patched_path, output_path=None):
 # ===============================================================================
 # Injection pipeline
 # ===============================================================================
-def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
+def _strip_trailing_color_controls(trailing):
+    """Drop trailing COLOUR-state control words (0xFFD0-0xFFD9) from a group's
+    trailing-control list.  A colour-SET sitting right before the FFFF group
+    terminator governs NO following glyph (there is none), so removing it is
+    visually inert -- but if it is left in place after a left-align-padded
+    narration body it lands on the LAST line and inflates ONLY that line's
+    engine-counted length (the per-line centring lc array @desc+0x40), breaking
+    the equal-count left-align (R1198 g24).  Only the 0xFFD0-0xFFD9 colour family
+    is removed; any other trailing control (FFFE line-breaks, FB02, FFE0, FFC*
+    choice markers, ...) is preserved verbatim."""
+    return [w for w in trailing if not (0xFFD0 <= w <= 0xFFD9)]
+
+
+def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir,
+                     strip_trailing_color_groups=None):
     """
     Full pipeline: inject translations with variable-size, then patch Section 1
     offsets via the byte-stream disassembler.
@@ -527,6 +541,13 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
     msg_translations: dict {msg_index: [glyph_list]}
     raw_dir:          directory with original *_type02.raw files
     out_dir:          output directory for patched files
+    strip_trailing_color_groups:
+                      optional set of msg_indices that received the narration
+                      left-align pad; for these, a trailing colour-control word
+                      (0xFFD0-0xFFD9) is dropped so it does not inflate the last
+                      padded line's engine-counted length (see
+                      _strip_trailing_color_controls).  Other groups are
+                      untouched.
 
     Name-island preservation: 0x14 NAME/LABEL prefixes at the head of translated
     groups are rebuilt as English labels (data/name_labels.json) or kept as the
@@ -539,6 +560,7 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
     Returns (output_filename, status_string) or (None, error_string).
     """
     _load_tables()
+    strip_color = strip_trailing_color_groups or set()
 
     raw_path = os.path.join(raw_dir, "{:04d}_type02.raw".format(res_idx))
     if not os.path.isfile(raw_path):
@@ -675,6 +697,8 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
             remainder = original_group[prefix_len:]
             leading, _old_text, trailing = _split_control_and_text(remainder)
             leading = _strip_leading_var_insert(leading)
+            if msg_idx in strip_color:
+                trailing = _strip_trailing_color_controls(trailing)
             groups[msg_idx] = new_slice_glyphs + leading + eng_glyphs + trailing
             name_plan[msg_idx] = {
                 "old_slices": slices,
@@ -685,6 +709,8 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir):
         else:
             leading, _old_text, trailing = _split_control_and_text(original_group)
             leading = _strip_leading_var_insert(leading)
+            if msg_idx in strip_color:
+                trailing = _strip_trailing_color_controls(trailing)
             groups[msg_idx] = leading + eng_glyphs + trailing
         replaced += 1
 
@@ -898,10 +924,18 @@ def split_choice_group(group):
       * leading = contiguous controls (>= 0xFB00) at the very start
       * question = everything between the leading controls and the first marker
       * each marker owns the words up to the next marker (or end of group)
+
+    NOTE: a leading control run must STOP at the first choice marker.  Choice
+    markers (0xFFC0..0xFFCF) are themselves >= 0xFB00, so a group whose VERY
+    FIRST word is a marker (e.g. R1347 g5: M0 G8 FFFE M1 ...) would otherwise
+    have its M0 swallowed into `leading`, dropping it from the options list and
+    making encode_choice_group's marker-set tripwire fail (marker-set-mismatch).
+    Excluding markers from the leading run fixes those marker-first groups while
+    leaving genuine leading FFFE/colour controls untouched.
     """
     lead_end = 0
     for i, g in enumerate(group):
-        if g < 0xFB00:
+        if g < 0xFB00 or _is_choice_marker(g):
             lead_end = i
             break
     else:

@@ -78,6 +78,9 @@ from _helpers import (  # noqa: E402  (path insert first)
 
 import glyph_metrics  # noqa: E402  (TOOLS_DIR put on sys.path by _helpers)
 
+sys.path.insert(0, os.path.join(ROOT, "build"))
+import _reloc_v147_design as RELOC  # noqa: E402  (v147 relocated P14 gate marker)
+
 # ---------------------------------------------------------------------------
 # Patch 20 wiring constants -- mirror build/patch_exe.py exactly.  Kept here as
 # the single place a future Patch-20 retune updates the gate too.
@@ -93,14 +96,15 @@ def _fo(va):
 
 HOOK_A_FO = _fo(0x305988)   # 0x205A08  the sll Patch-20 NS_A trampolines
 HOOK_B_FO = _fo(0x3059F8)   # 0x205A78  the sll Patch-20 NS_B trampolines
-CAVE_A_FO = _fo(0x4C7860)   # 0x3C78E0  NS_A cave (Patch-18 freed pad)
-CAVE_B_FO = _fo(0x4CAA30)   # 0x3CAAB0  NS_B cave (Patch-16 freed pad)
+CAVE_A_FO = _fo(0x4C7860)   # 0x3C78E0  old NS_A / Patch-18 pad (must ship zero)
+OLD_CAVE_B_FO = _fo(0x4CAA30)   # old Patch-16/Patch-24 pad (must ship zero post-v148)
+P24_CAVE_FO = _fo(RELOC.P24_VA)   # v148 RELOCATED Patch-24 cave (was 0x4CAA30)
 P14_HOOK1_FO = _fo(0x3097A0)  # 0x209820  Patch-14 resident-table gate word
 ADV_TBL_FO = _fo(0x4C7564)  # 0x3C75E4  the resident ADV table Patch 14 installs
 
-J_A_WORD = 0x08131E18  # j 0x4C7860
-J_B_WORD = 0x08132A8C  # j 0x4CAA30
-P14_GATE_WORD = 0x08131D50  # j 0x4C7540 (Patch 14 hook -> table present)
+J_A_WORD = 0x08131E18  # j 0x4C7860 (old, abandoned Patch-20 NS_A target)
+J_B_WORD = 0x08132A8C  # j 0x4CAA30 (old, abandoned Patch-20 NS_B target)
+P14_GATE_WORD = RELOC.NEW_GATE_MARKER  # j relocated P14 cave1 (Patch 14 hook -> table present, v147)
 J_RET_A = 0x080C1667  # j 0x30599C  (cave A returns into flow)
 J_RET_B = 0x080C1683  # j 0x305A0C  (cave B returns into flow)
 
@@ -147,9 +151,10 @@ def test_patch20_present_and_gated_on_patch14():
         "build/patch_exe.py has no Patch 20 -- the narration summed-width "
         "centering cave (P2) is missing"
     )
-    # Gate: Patch 20 checks the Patch-14 hook word (0x08131D50) before installing.
-    assert "0x08131D50" in src, (
-        "Patch 20 must gate on the Patch-14 resident-table hook word 0x08131D50 "
+    # Gate: Patch 20 checks the Patch-14 hook word before installing.  v147 routes
+    # that gate through RELOC.NEW_GATE_MARKER (the relocated P14-hook1 j-word).
+    assert "NEW_GATE_MARKER" in src, (
+        "Patch 20 must gate on the Patch-14 resident-table hook word (NEW_GATE_MARKER) "
         "(so the cave's lbu 0x7564 table is guaranteed present) -- gate missing"
     )
     # The cave's table read literal must be the resident ADV table @0x4C7564.
@@ -281,18 +286,20 @@ def test_tier2_patch20_superseded_caves_not_installed():
     assert all(b == 0 for b in data[CAVE_A_FO:CAVE_A_FO + 16 * 4]), (
         "NS_A 0x4C7860 cave pad is NOT all-zero -- abandoned Patch-20 cave installed"
     )
-    # NS_B (0x4CAA30) is REUSED by PATCH 24: narration boxX=+96, GATED on boxX==0 so
-    # the shared 0x3060b0 draw path keeps dialogue's -228 / request's value untouched
-    # (the unconditional li t2,96 shoved dialogue off-screen -- oops.p2s).  The draw-X
-    # load 0x30973c trampolines here; verify the exact gated cave + clean tail.
+    # v148: PATCH 24 (narration boxX=+96, GATED on boxX==0) was EVACUATED out of the old
+    # in-arena 0x4CAA30 pad to RELOC.P24_VA below the arena.  Verify the exact gated cave at
+    # its NEW home, that the old 0x4CAA30 pad now ships ALL-ZERO, and the new cave's tail is
+    # clean.  (The boxX==0 gate keeps the shared 0x3060b0 draw path's dialogue -228 / request
+    # value untouched -- the unconditional li t2,96 shoved dialogue off-screen, oops.p2s.)
     P24_CAVE = [0x860A003C, 0x15400002, 0x00000000, 0x240A0060, 0x080C25D1, 0x00000000]
-    got = [_w(data, CAVE_B_FO + i * 4) for i in range(len(P24_CAVE))]
+    got = [_w(data, P24_CAVE_FO + i * 4) for i in range(len(P24_CAVE))]
     assert got == P24_CAVE, (
-        "NS_B 0x4CAA30 does not hold the Patch-24 gated boxX cave -- got %s"
-        % [hex(x) for x in got]
+        "relocated Patch-24 cave @VA 0x%06X does not hold the gated boxX cave -- got %s"
+        % (RELOC.P24_VA, [hex(x) for x in got])
     )
-    assert all(b == 0 for b in data[CAVE_B_FO + len(P24_CAVE) * 4:CAVE_B_FO + 16 * 4]), (
-        "stale bytes after the Patch-24 cave in the 0x4CAA30 pad"
+    # The OLD 0x4CAA30 pad must now be pristine-zero (no stale in-arena cave left behind).
+    assert all(b == 0 for b in data[OLD_CAVE_B_FO:OLD_CAVE_B_FO + 16 * 4]), (
+        "old 0x4CAA30 pad is NOT all-zero after v148 Patch-24 evacuation"
     )
 
 
@@ -347,7 +354,7 @@ def test_tier2_pads_were_pristine_zero():
     works on real PS2)."""
     require_file(PRISTINE_EXE, "pristine-pad zero check")
     pristine = open(PRISTINE_EXE, "rb").read()
-    for label, cave in (("NS_A 0x4C7860", CAVE_A_FO), ("NS_B 0x4CAA30", CAVE_B_FO)):
+    for label, cave in (("NS_A 0x4C7860", CAVE_A_FO), ("NS_B 0x4CAA30", OLD_CAVE_B_FO)):
         chunk = pristine[cave:cave + 16 * 4]
         assert all(b == 0 for b in chunk), (
             "%s pad is NOT all-zero in the pristine EXE -- Patch 20 would overwrite "

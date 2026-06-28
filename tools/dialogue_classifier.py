@@ -92,10 +92,15 @@ def _helper_mode(sec1, tgt, depth=0):
     return None
 
 
-def _classify(res_idx, raw_dir=None):
+def _classify(res_idx, raw_dir=None, _collect_narr_nameplate=None):
     """Return {group_index: 'D'|'N'} for every group covered by a walked 0x04
     block in resource `res_idx`, using the 0x63-helper rule.  Empty dict on any
-    failure / non-type-02 / binary Section 1 (ship pristine)."""
+    failure / non-type-02 / binary Section 1 (ship pristine).
+
+    If `_collect_narr_nameplate` is a set, it is filled with the group indices
+    that WOULD be tagged mode-N but are dropped ONLY by the line-159 name-island
+    skip (so callers can route those through the narration left-align pad without
+    perturbing the 19/19-validated D/N partition this function returns)."""
     raw_dir = raw_dir or os.path.join(BASE, "extracted", "packdata_raw")
     path = os.path.join(raw_dir, f"{res_idx:04d}_type02.raw")
     if not os.path.isfile(path):
@@ -157,7 +162,12 @@ def _classify(res_idx, raw_dir=None):
         for gi, (gs, ge) in enumerate(groups):
             if not (ge < off or gs >= end):
                 if gi in name_groups and mode == "N":
-                    continue                    # nameplate in narration -> default
+                    # nameplate in narration -> default char-wrap (dropped from the
+                    # D/N partition).  Record it so a pad-only caller can still
+                    # left-align the narration body without changing this partition.
+                    if _collect_narr_nameplate is not None:
+                        _collect_narr_nameplate.add(gi)
+                    continue
                 out[gi] = mode                  # last covering block (pc order) wins
     return out
 
@@ -172,6 +182,73 @@ def build_narration_map(res_idx, raw_dir=None):
     """Groups the engine renders as CENTERED NARRATION.  Exact complement of
     build_dialogue_map over the covered groups.  Empty set on walk failure."""
     return {gi for gi, m in _classify(res_idx, raw_dir).items() if m == "N"}
+
+
+# Minimum body-glyph span for a name-island narration group to be considered a
+# real flowing-narration body (vs a pure speaker nameplate).  R1197 g2's body is
+# 74 glyphs vs a 4-glyph label prefix; genuine nameplates (e.g. R1197 g59
+# "Pixie Melanie / Miri Barkeep:") are short.  Matches the N3/N4 tightened
+# predicate: the label must be a minor prefix of a substantial body.
+_NARR_PAD_MIN_BODY = 20
+
+
+def build_narration_pad_map(res_idx, raw_dir=None):
+    """Return {group_index: 'N'} for the mode-N groups that _classify WOULD tag
+    narration EXCEPT they are dropped by the line-159 name-island skip — i.e. the
+    centered-narration bodies that carry a small 0x14 label island at their head
+    and therefore never reach build_narration_map (and so escape the build's
+    left-align pad).  This is a PAD-ONLY map: callers route these through the same
+    wrap_px(collapse)+pad_narration_left_align as build_narration_map, but the
+    underlying D/N partition (build_dialogue_map / build_narration_map) is
+    UNCHANGED, so the 19/19 ground-truth self-test stays green.
+
+    To avoid padding a genuine speaker nameplate (where the label spans ~the whole
+    group), a group qualifies only when its non-label body glyph span is at least
+    _NARR_PAD_MIN_BODY cells (the label is a minor prefix of a substantial body)."""
+    raw_dir = raw_dir or os.path.join(BASE, "extracted", "packdata_raw")
+    path = os.path.join(raw_dir, f"{res_idx:04d}_type02.raw")
+    if not os.path.isfile(path):
+        return {}
+
+    narr_nameplate = set()
+    _classify(res_idx, raw_dir, _collect_narr_nameplate=narr_nameplate)
+    if not narr_nameplate:
+        return {}
+
+    # Re-parse to measure per-group body span (group glyph cells minus the cells
+    # consumed by 0x14 label islands that fall inside it).
+    try:
+        raw = open(path, "rb").read()
+        sec2_off = struct.unpack_from("<I", raw, 0x18)[0]
+        sec2_size = struct.unpack_from("<I", raw, 0x14)[0]
+        sec1 = raw[0x20:sec2_off]
+        sec2 = raw[sec2_off:sec2_off + sec2_size]
+        groups, _trailing = parse_sec2_group_offsets(sec2)
+        ok, instrs = walk(sec1)
+        if not ok:
+            return {}
+        recs = extract_records(sec1, instrs)
+    except Exception:
+        return {}
+
+    # Sum label-island glyph counts per group.
+    label_cells = {}
+    for L in recs["label"]:
+        off = L["off"]
+        cnt = L.get("cnt", 0)
+        for gi, (gs, ge) in enumerate(groups):
+            if gs <= off <= ge:
+                label_cells[gi] = label_cells.get(gi, 0) + cnt
+                break
+
+    out = {}
+    for gi in narr_nameplate:
+        gs, ge = groups[gi]
+        group_span = (ge - gs) + 1
+        body_span = group_span - label_cells.get(gi, 0)
+        if body_span >= _NARR_PAD_MIN_BODY:
+            out[gi] = "N"
+    return out
 
 
 if __name__ == "__main__":

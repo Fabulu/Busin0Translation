@@ -194,15 +194,32 @@ open(f'build/packdata_resources/{out_name}', 'wb').write(new_1272)
 print(f'  Font atlas -> {out_name} ({len(new_1272)} bytes, {sc} sectors)')
 
 # ---------------------------------------------------------------------------
-# STEP 3b -- Patch R1188 kanji atlas (name-entry labels + stat labels)
+# STEP 3b -- R1188 kanji atlas patchers DISABLED (BUG-3: live dialogue font)
 # ---------------------------------------------------------------------------
+# R1188 is the LIVE dialogue/narration font (1024x1024 PSMT4 serif atlas DMA'd
+# verbatim to VRAM 0x3000).  patch_r1188_direct.py / patch_r1188_stats.py (the
+# predecessors of the already-disabled patch_r1188_comprehensive/_bw256) render
+# "tab/stat labels" into what they BELIEVE are unused bottom rows (y=1009-1020),
+# but their layout is off by ~1008 bytes and the writes scatter into ~865 bytes
+# of LIVE glyph cells (atlas pixel-rows ~900-1014, glyph-cell-rows 37-42) -- the
+# r/y/V glyph artifacts (BUG-3).  The labels they wrote were NEVER consumed (the
+# companion EXE UV-redirect patch was never implemented; tab labels already
+# render English via R2138 sub7, Step 3.9).  These calls leaked a non-pristine
+# 1188_type01.raw override into Step-1's build/PACKDATA.DIG (only the build_v9
+# Step 3.6/3.7 delete, which runs LATER, kept the FINAL PACKDATA_v3.DIG pristine
+# -- a fragile coincidence).  R1188 MUST ship pristine; these stay disabled.
 print()
-print('STEP 3b: Patching R1188 kanji atlas ...')
-# First: name-entry tab labels (Kana/Hira/ABC/Sym/OK etc.)
-os.system('python tools/patch_r1188_direct.py')
-# Second: stat labels (STR/INT/PIE/VIT/AGI/LCK) -- stacks on top of direct patch
-os.system('python tools/patch_r1188_stats.py')
-print('  R1188 patched (tab labels + stat labels)')
+print('STEP 3b: R1188 atlas patchers DISABLED (BUG-3: live dialogue font)')
+# os.system('python tools/patch_r1188_direct.py')   # DISABLED (BUG-3)
+# os.system('python tools/patch_r1188_stats.py')     # DISABLED (BUG-3)
+# Belt-and-suspenders: delete any stale R1188 override left by an earlier run so
+# this script's build/PACKDATA.DIG (Step 5 below) also falls back to the pristine
+# extracted/packdata_raw/1188_type01.raw.  build_v9.py Step 3.6/3.7 repeats this
+# before the FINAL rebuild_packdata, and rebuild_packdata now asserts pristine.
+_r1188_override = 'build/packdata_resources/1188_type01.raw'
+if os.path.exists(_r1188_override):
+    os.remove(_r1188_override)
+    print('  Removed stale R1188 override -- pristine 1188_type01.raw will be used')
 
 
 # ---------------------------------------------------------------------------

@@ -106,6 +106,9 @@ from _helpers import (  # noqa: E402  (path insert first)
 
 import glyph_metrics  # noqa: E402  (TOOLS_DIR put on sys.path by _helpers)
 
+sys.path.insert(0, os.path.join(ROOT, "build"))
+import _reloc_v147_design as RELOC  # noqa: E402  (v147 relocated P14 gate marker)
+
 PATCH_EXE = os.path.join(ROOT, "build", "patch_exe.py")
 PATCHED_EXE = os.path.join(ROOT, "build", "SLPM_653.78_patched")
 PRISTINE_EXE = os.path.join(ROOT, "extracted", "SLPM_653.78")
@@ -146,7 +149,7 @@ P14_MODE2_FOS = (_fo(0x308364), _fo(0x30836C))  # 0x2083E4, 0x2083EC
 # Narration per-glyph advance = the resident Patch-14 ADV LUT (Block-3 hook).
 ADV_TBL_FO = _fo(0x4C7564)    # 0x3C75E4
 P14_HOOK_FO = _fo(0x3097A0)   # 0x209820  Patch-14 resident-table hook word
-P14_GATE_WORD = 0x08131D50    # j 0x4C7540 (Patch 14 hook -> resident ADV table present)
+P14_GATE_WORD = RELOC.NEW_GATE_MARKER    # j relocated P14 cave1 (Patch 14 hook -> ADV table present, v147)
 
 # Narration pen slot is 0x1cc(sp); request path-B is the DISTINCT 0x1ce(sp).
 NARRATION_PEN_IMM = 0x1CC

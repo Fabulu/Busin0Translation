@@ -38,7 +38,7 @@ for i in range(10):
                 translations[k] = en
     except:
         pass
-for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json', 'chunk_r40_r42_translated.json', 'chunk_r36_translated.json', 'chunk_r37_r48_r49_translated.json', 'chunk_r43_r45_translated.json', 'chunk_r35_menus_fix.json']:
+for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json', 'chunk_r40_r42_translated.json', 'chunk_r36_translated.json', 'chunk_r37_r48_r49_translated.json', 'chunk_r43_r45_translated.json', 'chunk_r35_menus_fix.json', 'chunk_r2654_library_fix.json']:
     try:
         d = json.load(open(f'data/translate_chunks/{fix}', encoding='utf-8'))
         for e in d:
@@ -156,10 +156,23 @@ for r_id in [34, 35, 2654]:  # In-place translation (NONE are truly flat: each n
         nc = ctrls
         for g in gls:
             nc += struct.pack('>H', g)
+        padded = len(nc) < ocs
         while len(nc) < ocs:
             nc += struct.pack('>H', 0)
         if len(nc) > ocs:
             nc = nc[:ocs]
+        # R2654 structural invariant (tests/test_v86_strips.test_R2654_structural):
+        # every Format-A sub's string payload must end FFFE FFFF. The FFFF
+        # terminator at out[g_e-2:g_e] is untouched; when our English is shorter
+        # than the original budget the tail is 0x0000-padded, which would strand
+        # the group ending as '0000 FFFF' (breaks the sub-final group of sub 29,
+        # which is where the Library body records 1888-1894 live). Restoring a
+        # trailing FFFE (line break) before the terminator matches the pristine
+        # format — every original group ends in a line break — and is visually
+        # harmless (a trailing blank line). Scoped to r_id==2654 only; R34/R35
+        # have their own byte-identity guards below and must NOT be touched.
+        if r_id == 2654 and padded and len(nc) >= 2:
+            nc[-2:] = struct.pack('>H', 0xFFFE)
         out[g_s:g_e - 2] = nc
         rep += 1
     if r_id == 34:
@@ -186,18 +199,38 @@ for r_id in [34, 35, 2654]:  # In-place translation (NONE are truly flat: each n
 print("\n=== Step 3: R39 type-15 injection ===")
 if os.path.exists('build/packdata_resources/0039_type15.raw'):
     os.remove('build/packdata_resources/0039_type15.raw')
-os.system('python build/inject_r39_v2.py')
+rc = os.system('python build/inject_r39_v2.py')
+if rc != 0:
+    print('FATAL: R39 injection failed: build/inject_r39_v2.py')
+    sys.exit(1)
 print("  R39 injected")
 
 # ===== STEP 3.1: R39 inline Japanese glyph patching =====
 print("\n=== Step 3.1: R39 inline Japanese patch ===")
-os.system('python tools/patch_r39_inline.py')
+rc = os.system('python tools/patch_r39_inline.py')
+if rc != 0:
+    print('FATAL: R39 inline patch failed: tools/patch_r39_inline.py')
+    sys.exit(1)
 print("  R39 inline labels patched")
 
 # ===== STEP 3.2: R39 quest UI labels and quest titles =====
 print("\n=== Step 3.2: R39 quest labels and titles ===")
-os.system('python build/inject_r39_quest.py')
+rc = os.system('python build/inject_r39_quest.py')
+if rc != 0:
+    print('FATAL: R39 quest injection failed: build/inject_r39_quest.py')
+    sys.exit(1)
 print("  R39 quest labels injected")
+
+# ===== STEP 3.3: R39 block-2 spell descriptions =====
+# Size-changing block-2 rebuild (spell descriptions, off 3648). Runs AFTER the quest
+# step so it composes with block0/quest edits; has its own PRISTINE-DIFF GATE asserting
+# every byte outside block2 is unchanged. g55/56/57 ship pristine JP (no source text).
+print("\n=== Step 3.3: R39 block-2 spell descriptions ===")
+rc = os.system('python tools/patch_r39_spell_desc.py')
+if rc != 0:
+    print('FATAL: R39 spell-desc injection failed: tools/patch_r39_spell_desc.py')
+    sys.exit(1)
+print("  R39 spell descriptions injected")
 
 # ===== STEP 3.5: R46/R47 type-03 injection =====
 print("\n=== Step 3.5: R46/R47 type-03 injection ===")
@@ -237,7 +270,8 @@ os.system('python tools/patch_r2138.py')
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
 
 from patch_section1_offsets import inject_and_patch, group_choice_markers, HEADER_SIZE
-from dialogue_classifier import build_dialogue_map, build_narration_map
+from dialogue_classifier import (
+    build_dialogue_map, build_narration_map, build_narration_pad_map)
 import glyph_metrics  # SoT for per-glyph widths. NEVER recompute.
 
 # Type-2 word-wrap width.  The BOXED dialogue frame fits ~20 cells (JP shipped
@@ -389,9 +423,22 @@ def wrap_px(text, box_px=DIALOGUE_BOX_PX, collapse=True):
     return ' // '.join(pages)
 
 
-# R1203 Section-2 hard limit: the per-group word offsets are u16, so the whole
-# Section 2 must stay within 65,535 words.
-R1203_S2_LIMIT = 65535
+# R1203 Section-2 ceiling (v142): the old 65,535-word cap was a SELF-IMPOSED
+# u16 myth.  VERIFIED in tools/sec1_disasm.py: Section 1 references Section 2
+# ONLY via u32 word offsets/counts -- opcode 0x04 off=beu32@+2 cnt=beu32@+6,
+# opcode 0x14 off=beu32@+6 cnt=beu32@+10 (extract_records, lines 152-167); the
+# patcher writes them back as ">I" (patch_section1, struct.pack_into ">I" at
+# pc+2/+6/+10) and the header sec2-size at 0x14 is "<I" (32-bit).  The only u16
+# fields are the 0x0C/0x0D name_ref *group indices* (idx@+4), which count FFFF
+# groups (max 1632) -- NOT word offsets.  Pristine R1203 already references word
+# offset 50204 (76% of the old cap), and a full inject of all 1580 translations
+# lands at 77,065 words -- all offsets stay u32-clean.  The REAL ceiling is u32
+# (4,294,967,295 words).  Lifting this admits the ~718 previously-dropped
+# dungeon groups (incl. the NPC menu g1115 + dialogue 1116-1144).
+# derive_r1203_cap() below is retained ONLY as a safety clamp against the u32
+# ceiling -- with this limit it never trims a real group.
+# To REVERT to the conservative cap, set this back to 65535.
+R1203_S2_LIMIT = 0xFFFFFFFF  # u32 word ceiling (was 65535 -- the u16 myth)
 
 
 def derive_r1203_cap(encoded_trans, raw_dir, out_dir):
@@ -502,6 +549,18 @@ SKIP_STRUCTURAL_GROUPS = {(1197, 1)}
 DIALOGUE_WRAP_EXCLUDE = {(1194, 0), (1196, 810), (1200, 64),
                          (1212, 1), (1213, 1), (1353, 1)}
 
+# NARRATION-PAD EXCLUSIONS (W1-NARR).  build_narration_pad_map() exposes the
+# mode-N name-island narration bodies that the classifier drops at line 159 so
+# they can receive the left-align pad (the tavern-intro R1197 g2 class).  Its
+# body-span predicate already rejects nameplate-dense menu lists (e.g. R1203 g1
+# / R1204 g14 / R1210 g1, the "Explore / Master? / Storage 1-10 ..." list groups
+# whose every line is its own 0x14 label record).  These extra (resource,
+# msg_index) groups are menu/list structures that the engine composes from
+# per-line cells and MUST ship pristine (padding them risks the R1197-class
+# request-menu softlock).  They are excluded from the pad-only branch as a
+# belt-and-suspenders guard on top of the body-span predicate.
+NARR_PAD_EXCLUDE = {(1197, 1), (1212, 1), (1213, 1), (1353, 1)}
+
 # BOX-MODE MECHANISM (2026-06-20): render mode is now read DIRECTLY from the
 # engine's own rule in tools/dialogue_classifier.py — every 0x04 DISPLAY block is
 # preceded (control-flow order) by a 0x12 GOSUB to a mode-config helper whose first
@@ -590,8 +649,32 @@ for r_id in sorted(type02_resources):
     # Unwalkable Section 1 -> empty set (ship pristine).
     narration_groups = build_narration_map(r_id)
 
+    # Name-island narration bodies (W1-NARR): mode-N groups that carry a small
+    # 0x14 label island at their head and are therefore DROPPED from
+    # build_narration_map by the classifier's line-159 nameplate skip.  Without
+    # this they fall to the un-padded wrap_type2_text else-branch and render
+    # center-anchored/ragged (the tavern-intro R1197 g2 bug).  build_narration_pad_map
+    # returns only the groups whose non-label body span is substantial (so dense
+    # menu/list groups like R1203 g1 are NOT included); we route these through the
+    # IDENTICAL wrap_px(collapse)+pad path as the narration branch.  The D/N
+    # partition is unchanged, so the classifier's 19/19 ground truth is preserved.
+    narration_pad_groups = build_narration_pad_map(r_id)
+
     # Encode English text to glyph lists
     encoded_trans = {}
+    # msg_indices that received pad_narration_left_align (equal-count trailing pad).
+    # The engine left-aligns these ONLY when every line carries the SAME counted
+    # length.  inject_and_patch re-attaches the pristine group's trailing control
+    # words AFTER our text -- and a trailing COLOUR-state code (0xFFD0-0xFFD9) lands
+    # on the last line, inflating ONLY that line's engine-counted length (descriptor
+    # lc array @desc+0x40) above the padded glyph count, so the last line re-centres
+    # narrower and the block reads ragged/centered (R1198 g24 "...go to the
+    # labyrinth?": live lc=[25,28]).  We hand these indices to inject_and_patch so it
+    # DROPS a trailing colour-control on exactly these groups (a colour-SET right
+    # before the FFFF terminator governs no following glyph, so removing it is
+    # visually inert).  Dialogue groups are NEVER in this set, so their trailing
+    # controls (all 0xFFE0, never 0xFFD0-9) are untouched.
+    leftalign_pad_groups = set()
     for mi, en_text in msg_trans.items():
         # Word-wrap dialogue/narration so no on-screen line exceeds the frame
         # width (the v89 overflow fix).  Choice-group questions+options are
@@ -621,6 +704,16 @@ for r_id in sorted(type02_resources):
                 # count-based per-line centering (lc array @desc+0x40, recomputed each
                 # frame from the text) aligns all left edges.  Trailing pad is blank.
                 en_text = pad_narration_left_align(en_text)
+                leftalign_pad_groups.add(mi)
+            elif mi in narration_pad_groups and (r_id, mi) not in NARR_PAD_EXCLUDE:
+                # W1-NARR: name-island narration body dropped from build_narration_map
+                # by the classifier's nameplate skip.  Route it through the IDENTICAL
+                # path as the narration branch so its left edges align (the engine
+                # draws the 0x14 name-island as a SEPARATE nameplate, so padding the
+                # body lines does not disturb it).
+                en_text = wrap_px(en_text, NARRATION_BOX_PX, collapse=True)
+                en_text = pad_narration_left_align(en_text)
+                leftalign_pad_groups.add(mi)
             else:
                 en_text = wrap_type2_text(en_text)
         # Translations use " / " and " // " as LINE breaks -> 0xFFFE.  We NEVER
@@ -665,7 +758,8 @@ for r_id in sorted(type02_resources):
     result = inject_and_patch(
         r_id, encoded_trans,
         'extracted/packdata_raw',
-        'build/patched_type2'
+        'build/patched_type2',
+        strip_trailing_color_groups=leftalign_pad_groups
     )
 
     if result[0]:
@@ -700,6 +794,92 @@ else:
 print("\n=== Step 6: Merge resources ===")
 for f in os.listdir('build/patched_type2'):
     shutil.copy(f'build/patched_type2/{f}', f'build/packdata_resources/{f}')
+
+
+def _scan_jp_residue(all_trans, raw_dir='extracted/packdata_raw',
+                     out_dir='build/patched_type2'):
+    """Post-inject JP-RESIDUE guard (v142).
+
+    For every type-02 resource that has at least one non-empty batch
+    translation, compare each FFFF-group's Section-2 bytes in the PATCHED output
+    against the PRISTINE raw.  Any group that (a) still byte-matches pristine JP
+    while (b) having a non-empty translation in all_trans is REPORTED as residue
+    -- it shipped Japanese despite a translation existing.  This catches both the
+    R1203 word-cap drops and any choice/structural group the encoder bailed on.
+
+    This is a LOUD WARNING, NOT a hard build failure: other capped/structural
+    groups may legitimately remain pristine for now, and we want the FULL residue
+    scope visible in one report rather than stopping at the first one.
+
+    Returns the list of (res, group) residue tuples."""
+    def _groups(data):
+        if len(data) < 0x20:
+            return None
+        sec2_size = struct.unpack_from('<I', data, 0x14)[0]
+        sec2_off = struct.unpack_from('<I', data, 0x18)[0]
+        if sec2_off < 0x20 or sec2_off + sec2_size > len(data):
+            return None
+        sec2 = data[sec2_off:sec2_off + sec2_size]
+        groups = []
+        start = 0
+        i = 0
+        n = len(sec2)
+        # split on big-endian 0xFFFF group terminators (word-aligned)
+        while i + 1 < n:
+            if sec2[i] == 0xFF and sec2[i + 1] == 0xFF:
+                groups.append(sec2[start:i])
+                start = i + 2
+                i += 2
+            else:
+                i += 2
+        return groups
+
+    residue = []
+    for r in sorted(all_trans):
+        # only type-02 resources we actually inject through Step 4 produce a
+        # patched_type2 output; resources patched elsewhere (or shipped pristine)
+        # have no out file -> skip (their text path is not the Section-2 inject).
+        out_path = os.path.join(out_dir, f'{r:04d}_type02.raw')
+        raw_path = os.path.join(raw_dir, f'{r:04d}_type02.raw')
+        if not (os.path.isfile(out_path) and os.path.isfile(raw_path)):
+            continue
+        try:
+            og = _groups(open(out_path, 'rb').read())
+            pg = _groups(open(raw_path, 'rb').read())
+        except Exception:
+            continue
+        if og is None or pg is None:
+            continue
+        for mi, en in all_trans[r].items():
+            if not en or not isinstance(mi, int):
+                continue
+            if mi >= len(og) or mi >= len(pg):
+                continue
+            if og[mi] == pg[mi]:
+                residue.append((r, mi))
+    return residue
+
+
+print("\n=== Step 6.1: JP-residue guard (v142) ===")
+_residue = _scan_jp_residue(all_trans)
+if _residue:
+    # group by resource for a compact report
+    _by_res = {}
+    for r, mi in _residue:
+        _by_res.setdefault(r, []).append(mi)
+    print("  WARNING: %d translated group(s) still ship PRISTINE JAPANESE:"
+          % len(_residue))
+    for r in sorted(_by_res):
+        gl = sorted(_by_res[r])
+        if len(gl) <= 20:
+            _gs = ','.join(str(g) for g in gl)
+        else:
+            _gs = '%s,...,%s (%d groups)' % (
+                ','.join(str(g) for g in gl[:10]),
+                gl[-1], len(gl))
+        print("    R%d: groups %s" % (r, _gs))
+else:
+    print("  OK: no JP residue -- every translated group differs from pristine.")
 
 # Skip-fallback: any type-02 resource the Section-1 patcher SKIPPED this run
 # has no file in build/patched_type2 — remove any stale override in
@@ -846,6 +1026,19 @@ with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
         after_pack = sorted(
             [e for e in dir_entries if e[2] > pack_lba and 'PACKDATA' not in e[1]],
             key=lambda e: e[2]
+        )
+
+        # ----- non-empty relocation list (anti-clobber tripwire) -----
+        # The self-heal below ONLY runs inside `if after_pack:`. If the directory
+        # parse ever returns an EMPTY list (parse bug / changed layout), the
+        # entire shift is skipped silently while PACKDATA still overflows
+        # BSN2_0.DSI -- a clobbered ISO ships with corrupt audio on real PS2.
+        # There is ALWAYS at least BSN2_0.DSI after PACKDATA, so an empty list
+        # here means the parse broke: fail the build loudly instead.
+        assert after_pack, (
+            "Step 8.2: no files found after PACKDATA.DIG -- the root-directory "
+            "parse returned an empty relocation list; the overflow self-heal "
+            "would silently no-op and ship a clobbered BSN2_0.DSI. Aborting."
         )
 
         if after_pack:

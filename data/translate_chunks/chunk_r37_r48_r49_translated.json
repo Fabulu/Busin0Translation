@@ -1089,13 +1089,13 @@
     "resource": 49,
     "message": 61,
     "japanese": "(r49 msg 62)",
-    "english": "Climb up the ladder? / confirm: o  cancel: / x /"
+    "english": "Climb up? / O: Yes  X: No"
   },
   {
     "resource": 49,
     "message": 62,
     "japanese": "(r49 msg 63)",
-    "english": "Climb down ladder? / confirm: o  cancel: / x /"
+    "english": "Climb down? / O: Yes  X: No"
   },
   {
     "resource": 49,

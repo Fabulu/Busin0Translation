@@ -186,6 +186,11 @@ DIALOGUE_FORCE = _build_v9_pair_set("DIALOGUE_FORCE")
 # (bypasses BOTH px-wrap paths).  Their authored lines are not px-wrapped, so the
 # px ceilings do not apply -- gate them by the char-20 structural ceiling only.
 DIALOGUE_WRAP_EXCLUDE = _build_v9_pair_set("DIALOGUE_WRAP_EXCLUDE")
+# NARR_PAD_EXCLUDE: menu/list groups the build keeps OUT of the narration pad path
+# (they ship via the char-20 wrap_type2_text else-branch, not the 360px narration
+# px-wrap).  Mirror it so those stay char-20-gated while the genuine pad-map
+# narration bodies get the narration px gate.
+NARR_PAD_EXCLUDE = _build_v9_pair_set("NARR_PAD_EXCLUDE")
 
 
 def _id_enc(g):
@@ -204,10 +209,15 @@ _SPACE_GID = 0
 #   * everything else (structural/menu/list) flows through the char-20
 #     wrap_type2_text and is gated at the char-20 ceiling (the v89 surface).
 # Memoize per resource (each walks Section 1 once).
-from dialogue_classifier import build_dialogue_map, build_narration_map  # noqa: E402
+from dialogue_classifier import (  # noqa: E402
+    build_dialogue_map,
+    build_narration_map,
+    build_narration_pad_map,
+)
 
 _DMAP_CACHE = {}
 _NMAP_CACHE = {}
+_PMAP_CACHE = {}
 
 
 def _dialogue_map(res):
@@ -226,6 +236,20 @@ def _narration_map(res):
         except Exception:
             _NMAP_CACHE[res] = set()  # unwalkable -> no px gate, char-20 still gates
     return _NMAP_CACHE[res]
+
+
+def _narration_pad_map(res):
+    """Groups the build re-routes through the narration LEFT-ALIGN pad path
+    (build_narration_pad_map: mode-N name-island bodies the classifier dropped).
+    build_v9 wraps these via wrap_px(NARRATION_BOX_PX), so this gate must measure
+    them against the 360px narration budget -- NOT the char-20 structural ceiling --
+    exactly as it does for build_narration_map.  Mirrors build_v9's pad branch."""
+    if res not in _PMAP_CACHE:
+        try:
+            _PMAP_CACHE[res] = set(build_narration_pad_map(res))
+        except Exception:
+            _PMAP_CACHE[res] = set()  # unwalkable -> no px gate, char-20 still gates
+    return _PMAP_CACHE[res]
 
 # Section-2 break / marker words.
 LINE_BREAK = 0xFFFE
@@ -346,6 +370,7 @@ def _line_offenders(parsed, res):
     # false-fail on a correct wrap (>20 narrow glyphs fit within the px budget).
     dmap = _dialogue_map(res)
     nmap = _narration_map(res)
+    pmap = _narration_pad_map(res)
     for gi, (gs, ge) in enumerate(groups):
         group = words[gs:ge]
         if _is_choice_group(group):
@@ -362,7 +387,12 @@ def _line_offenders(parsed, res):
             gate_narration = False
         else:
             gate_dialogue = gi in dmap
-            gate_narration = gi in nmap
+            # build_narration_map groups AND the narration pad-map bodies (minus the
+            # menu/list NARR_PAD_EXCLUDE set) are wrapped at NARRATION_BOX_PX by the
+            # build, so both get the 360px narration gate, not the char-20 ceiling.
+            gate_narration = gi in nmap or (
+                gi in pmap and (res, gi) not in NARR_PAD_EXCLUDE
+            )
         prefix_len = name_prefix.get(gi, 0)
         for li, line in enumerate(_split_lines(group)):
             visible = [w for w in line if w < CONTROL_FLOOR]

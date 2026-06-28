@@ -58,3 +58,22 @@ build/recon_v86/
 build/recon_v87/
 build/packdata_resources_backup/
 build/packdata_resources_backup_testbuild/
+
+# Claude agent run directories (local only — contents never committed)
+runs/
+!runs/.gitkeep
+
+# Log files
+*.log
+
+# --- session cleanup: scratch/captures that must not be committed ---
+# PCSX2 save states / captures (regenerable, large)
+*.p2s
+*.ps2
+# Recon / investigation scratch (large, regenerable)
+build/recon_choices/
+build/_probe/
+build/_battle_recon/
+build/debug_*/
+# Per-recon RAM dumps + screenshots under run dirs
+**/subagents/

@@ -129,13 +129,13 @@
     "resource": 39,
     "message": 88,
     "japanese": "宝箱の数 / ",
-    "english": "Chest"
+    "english": "Box / "
   },
   {
     "resource": 39,
     "message": 89,
     "japanese": "宝箱の残り数 / ",
-    "english": "Remain"
+    "english": "Remain / "
   },
   {
     "resource": 40,

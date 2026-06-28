@@ -417,109 +417,115 @@ for _recap_d in (R46_SUB0, R46_SUB1, R46_SUB2):
         _recap_d[_recap_k] = _recap_new
 
 # ============================================================================
-# R47 SUB0: Combat text
-# Capacities: msg2=6 msg3=13 msg4=5 msg5=5 msg6=15 msg7=20 msg8=16
-# msg9=18 msg10=13 msg11=13 msg12=11 msg13=5 msg14=6 msg15=8 msg16=16
-# msg17=9 msg18=6 msg19=8 msg20=6 msg21=7 msg22=12 msg23=18 msg24=6
-# msg25=18 msg26=13 msg27=15 msg28=3 msg29=13 msg30=13 msg31=8 msg32=8
-# msg33=8 msg34=8 msg35=8 msg36=8 msg37=8 msg38=8 msg39=8 msg40=8
-# msg41=8 msg42=6 msg43=6 msg44=6 msg45=6 msg46=6 msg47=6 msg48=6
-# msg49=6 msg50=6 msg51=6 msg52=6 msg53=8 msg54=3 msg55=15 msg56=14
-# msg57=15 msg58=12 msg59=14 msg60=13 msg61=11 msg62=9 msg63=6 msg64=5
-# msg65=18 msg66=14 msg67=15 msg68=19 msg69=22 msg70=18 msg71=9
-# msg72=27 msg73=11 msg74=6
+# R47 SUB0: Combat text  --  REALIGNED 2026-06-28 (release-blocker fix)
+#
+# The previous dict was SCRAMBLED: nearly every key wrote text belonging to a
+# DIFFERENT group. Most fatally, the friendly-monster CHOICE cluster (groups
+# 2-11: the "Decide Response" title, "Friendly monster!!" prompt, Fight/Leave
+# options and flee-result lines) was overwritten with ability/scan labels
+# (Dispel/Steal/Swap/...), destroying the spare/recruit mechanic for every
+# friendly encounter. The ability labels actually live at groups 18-21 and the
+# scan/stat labels at 31-52. This dict is now keyed 1:1 to the PRISTINE
+# FFFF-delimited groups of extracted/packdata_raw/0047_type03.raw, every entry
+# decoded from the pristine glyph stream (data/msg_glyph_map.json).
+#
+# Group budgets (cells incl. the trailing 0xFFFE separator; English glyph
+# count must be <= budget -- enforced by validate() + the R47 guard below):
+#   g2=6  g3=13 g4=5  g5=5  g6=15 g7=20 g8=16 g9=18 g10=13 g11=13
+#   g12=11 g13=5 g14=6 g15=8 g16=16 g17=9 g18=6 g19=8 g20=6 g21=7
+#   g22=12 g23=18 g24=6 g25=18 g26=13 g27=15 g28=3 g29=13 g30=13
+#   g31=8 g32=8 g33=8 g34=8 g35=8 g36=8 g37=8 g38=8 g39=8 g40=8 g41=8
+#   g42=6 g43=6 g44=6 g45=6 g46=6 g47=6 g48=6 g49=6 g50=6 g51=6 g52=6
+#   g53=8 g54=3 g55=15 g56=14 g57=15 g58=12 g59=14 g60=13 g61=11 g62=9
+#   g63=6 g64=5 g65=18 g66=14 g67=15 g68=19 g69=22 g70=18 g71=9 g72=27
+#   g73=11 g74=6
+#
+# Groups intentionally SHIPPED PRISTINE (JP) -- could not be confidently
+# decoded (glyph-map quirk) so a working JP label beats garbled English:
+#   g52 (前罰系aa  -- 4th AA category, kanji unresolved)
+#   g64 (一偉逃街  -- unresolved; near the void/banish AA cluster)
 # ============================================================================
 R47_SUB0 = {
-    2: "dispel",              # 6 cap, 6 ok
-    3: "steal",               # 13 cap, 5 ok
-    4: "swap",                # 5 cap, 4 ok (formation change -> too long)
-    5: "empty!",              # 5 cap, 6 -> too long. "none!"=5
-    6: "items full!",         # 15 cap, 11 ok
-    7: "is terrified!",       # 20 cap, 13 ok (kept shorter)
-    8: "stumbled!!",          # 16 cap, 10 ok (but check: this is msg8 with 16 cap)
-    9: "fled in terror!",     # 18 cap, 15 ok
-    10: "allies chased!",     # 13 cap, 14 -> too long. "allies ran!"=11
-    11: "g.",                 # 13 cap, 2 ok
-    12: "too big!",           # 11 cap, 8 ok
-    13: "can't throw!",      # 5 cap -> too long. "big!"=4
-    14: "hp/mhp",             # 6 cap, 6 ok
-    15: "level",              # 8 cap, 5 ok
-    16: "hit level",          # 16 cap, 9 ok (but 16 cap? let me check... msg16=16 cap. "hit level"=9 ok)
-    17: "attack",             # 9 cap, 6 ok
-    18: "evade",              # 6 cap, 5 ok
-    19: "defense",            # 8 cap, 7 ok
-    20: "agility",            # 6 cap -> 7 chars, too long. "agil"=4
-    21: "fire rs",            # 7 cap, 7 ok
-    22: "thunder rs",         # 12 cap, 10 ok (lightning too long)
-    23: "ice resist",         # 18 cap, 10 ok
-    24: "annul",              # 6 cap, 5 ok (spell annul ability -> too long)
-    25: "normal",             # 18 cap, 6 ok (but this is msg25 with 18 cap)
-    26: "a bit strong",       # 13 cap, 12 ok
-    27: "strong",             # 15 cap, 6 ok
-    28: "v.strong",           # 3 cap -> 8 chars, way too long. "hi"=2
-    29: "a bit weak",         # 13 cap, 10 ok
-    30: "weak",               # 13 cap, 4 ok
-    31: "very weak",          # 8 cap, 9 -> too long. "v. weak"=7
-    32: "atk aa",             # 8 cap, 6 ok
-    33: "def aa",             # 8 cap, 6 ok
-    34: "mag aa",             # 8 cap, 6 ok
-    35: "spc aa",             # 8 cap, 6 ok
-    36: "found!",             # 8 cap, 6 ok
-    37: "h.",                 # 8 cap, 2 ok
-    38: "begone!",            # 8 cap, 7 ok (incantation: shapeless return)
-    39: "be gone!",           # 8 cap, 8 ok (cursed forms)
-    40: "gather!",            # 8 cap, 7 ok (gather in power)
-    41: "shine!",             # 8 cap, 6 ok (be a light)
-    42: "shield!",            # 6 cap, 7 -> too long. "guard!"=6
-    43: "focus!",             # 6 cap, 6 ok
-    44: "return!",            # 6 cap, 7 -> too long. "come!"=5
-    45: "bless!",             # 6 cap, 6 ok
-    46: "f/b sw",             # 6 cap, 6 ok (front/back swap abbreviated)
-    47: "flee",               # 6 cap, 4 ok
-    48: "void!",              # 6 cap, 5 ok (banished to void)
-    49: "seal!",              # 6 cap, 5 ok (sealed spells)
-    50: "break!",             # 6 cap, 6 ok (party power dispelled)
-    51: "heal!",              # 6 cap, 5 ok (all hp mp restored)
-    52: "boost!",             # 6 cap, 6 ok (evasion defense up)
-    53: "atk up!",            # 8 cap, 7 ok
-    54: "up!",                # 3 cap, 3 ok (the dead have risen)
-    55: "mp max! bonus!",     # 15 cap, 14 ok
-    56: "out of range!",      # 14 cap, 13 ok
-    57: "?????",              # 15 cap, 5 ok
-    58: "check",              # 12 cap, 5 ok
-    59: "formidable foe!",    # 14 cap -> "formidable foe!"=15. too long. "tough monster!"=14
-    60: "fight",              # 13 cap, 5 ok
-    61: "leave",              # 11 cap, 5 ok
-    62: "surprised!",         # 9 cap, 10 -> too long. "ambush!"=7
-    63: "ambush!",            # 6 cap -> 7. "atk!!"=5
-    64: "jump!",              # 5 cap, 5 ok
-    65: "fled!",              # 18 cap, 5 ok
-    66: "escaped!",           # 14 cap, 8 ok
-    67: "got away!",          # 15 cap, 9 ok
-    68: "open treasure?",     # 19 cap, 14 ok
-    69: "open chest",         # 22 cap, 10 ok
-    70: "retry",              # 18 cap, 5 ok
-    71: "result",             # 9 cap, 6 ok
-    72: "new aa created!!",   # 27 cap, 16 ok
-    73: "opening...",         # 11 cap, 10 ok
-    74: "fight",              # 6 cap -> already in as msg60, but this is msg74 (dup). 5 ok
+    # --- Friendly-monster CHOICE cluster (release-blocker: groups 2-11) ---
+    2:  "React?",            # g2  対応の決定  (choice menu title)
+    3:  "Friendly!!",        # g3  友好的なモンスターだ!!  (encounter prompt)
+    4:  "Fight",             # g4  戦う        (choice 1)
+    5:  "Leave",             # g5  立ち去る    (choice 2)
+    6:  "Caught napping!",   # g6  (モンスターの)油断をついた
+    7:  "It suddenly attacks",  # g7  モンスターは突然おそいかかってきた
+    8:  "We're off guard!",  # g8  モンスターに(油断)をとられた
+    9:  "Flees in terror!",  # g9  ...は恐怖にかられて逃げ出そうとする
+    10: "Fled away!!",       # g10 ...が逃げ出してしまった!!
+    11: "Escaped!",          # g11 ...は逃げ出すのに成功した
+    # --- Treasure box (already correct in old dict) ---
+    12: "Open box?",         # g12 (宝)箱を開錠しますか?
+    13: "Open",              # g13 (宝)箱開錠
+    14: "Retry",             # g14 やりなおす
+    15: "Box res.",          # g15 (宝)箱開錠の結果
+    16: "New AA created!!",  # g16 新たなAAを生み出しました
+    17: "Opening",           # g17 (宝)箱を開錠します
+    # --- Friendly-action / ability labels (the real Dispel/Steal home) ---
+    18: "Gain",              # g18 獲得
+    19: "Dispel",            # g19 ディスペル
+    20: "Steal",             # g20 盗む
+    21: "Swap",              # g21 (隊列)交代
+    22: "Nothing!",          # g22 何も持っていなかった
+    23: "Can't steal:full!", # g23 アイテムがいっぱいで盗めなかった
+    24: "Stole!",            # g24 ...を盗んだ
+    25: "Flees in terror!",  # g25 ...は恐怖にかられて逃げだそうとする
+    26: "But stumbled!",     # g26 しかしこけてしまった
+    27: "Allies chased!!",   # g27 仲間たちも(敵)を追いかけた!!
+    28: "G.",                # g28 g.  (gold marker)
+    29: "Too big!",          # g29 大きすぎて回りこめない
+    30: "Too big!",          # g30 大きすぎてとばせない
+    # --- Monster-scan stat / resistance labels ---
+    31: "HP/MaxHP",          # g31 hp／(最)大hp
+    32: "Level",             # g32 レベル
+    33: "Hit Lv",            # g33 命中レベル
+    34: "Gain Pow",          # g34 獲得力
+    35: "Evade",             # g35 回避力
+    36: "Dispel",            # g36 解消力
+    37: "Agility",           # g37 敏捷度
+    38: "Fire Res",          # g38 炎(効性)
+    39: "Thnd Res",          # g39 (雷)気効性
+    40: "Ice Res",           # g40 (冷気)効性
+    41: "Nullify",           # g41 (使呪消除)能力
+    42: "Normal",            # g42 ふつう
+    43: "Bit Hi",            # g43 すこし強い
+    44: "High",              # g44 強い
+    45: "V.High",            # g45 とても強い
+    46: "Bit Lo",            # g46 すこし弱い
+    47: "Low",               # g47 弱い
+    48: "V.Low",             # g48 とても弱い
+    49: "GainAA",            # g49 獲得系aa
+    50: "DispAA",            # g50 解消系aa
+    51: "SkilAA",            # g51 騎法系aa
+    # 52 SHIPPED PRISTINE (前罰系aa -- 4th AA category, unresolved)
+    53: "Found!",            # g53 ...を発見しました
+    54: "H.",                # g54 h.
+    # --- Spell incantations (flavor lines) ---
+    55: "Return to rest!",   # g55 (無)形の者よあるべき場所へ戻れ
+    56: "Be sealed!",        # g56 (無)形の使呪(形)にするを許さず
+    57: "Gather to us!",     # g57 われらが(騎)力(の)もとに(集)まれ
+    58: "Be my light!",      # g58 われの力を(しの)光となれ
+    59: "Unseen shield!",    # g59 われらをつつめ見えざる(盾)よ
+    60: "Unseen power!",     # g60 われらに宿れ見えざる(理)よ
+    61: "Come back!",        # g61 (元)よわれらの(元)に戻れ
+    62: "Bless us!",         # g62 (我)らの道に幸あれ
+    63: "F/B Sw",            # g63 前(列)(後列)交代
+    # 64 SHIPPED PRISTINE (一偉逃街 -- unresolved)
+    # --- AA / party-buff result messages ---
+    65: "Sent to void!!",    # g65 モンスターを(虚)空間に送りこんだ!!
+    66: "Sealed magic!",     # g66 モンスターの(騎法)を封じた
+    67: "Buffs removed!",    # g67 パーティの(騎)力が解除された
+    68: "All HP/MP restored!",  # g68 パーティ全員のhp・mpが回復した
+    69: "Evade & Dispel up!",   # g69 パーティ全員の回避力・解消力がアップした
+    70: "Party Gain up!",    # g70 パーティ全員の獲得力がアップした
+    71: "Revived!",          # g71 (死)者が復活した
+    72: "MP max! EXP & Gold up!",  # g72 mpが(最)限となり、(配下)expとgoldがアップした
+    73: "Too far!",          # g73 (獲得)がとどかない
+    74: "?????",             # g74 ?????
 }
-
-# Fix remaining issues
-R47_SUB0[5] = "none!"              # 5 cap, 5 ok
-R47_SUB0[10] = "allies ran!"       # 13 cap, 11 ok
-R47_SUB0[13] = "big!!"             # 5 cap, 4 ok (but exclamation mark takes a slot)
-# Actually "big!!" = 5 chars = 5 glyphs, cap is 5, perfect
-R47_SUB0[20] = "agil."             # 6 cap, 5 ok
-R47_SUB0[28] = "hi"                # 3 cap, 2 ok ("very strong" but only 3 slots)
-# Better: just "+++" or "v.s" for very strong
-R47_SUB0[28] = "+++"               # 3 cap, 3 ok
-R47_SUB0[31] = "v.weak"            # 8 cap, 6 ok
-R47_SUB0[42] = "ward!"             # 6 cap, 5 ok
-R47_SUB0[44] = "back!"             # 6 cap, 5 ok
-R47_SUB0[59] = "tough monster!"    # 14 cap, 14 ok
-R47_SUB0[62] = "surprise!"         # 9 cap, 9 ok
-R47_SUB0[63] = "ambsh!"            # 6 cap, 6 ok
 
 # ============================================================================
 # R47 SUB1: Battle UI
@@ -529,34 +535,34 @@ R47_SUB0[63] = "ambsh!"            # 6 cap, 6 ok
 # msg24=22 msg25=16
 # ============================================================================
 R47_SUB1 = {
-    2: "select allied action (aa)",     # 30 cap, 25 ok
-    3: "select action",                 # 12 cap, 13 -> too long. "your action"=11
-    4: "reset aa. skip this turn",      # 27 cap, 24 ok
-    5: "swap front and back",           # 18 cap, 19 -> "swap front/back"=15
-    6: "flee. may succeed",             # 23 cap, 17 ok (but needs ' / ' for line break? no, this is single display)
-    7: "toggle effect cut",             # 23 cap, 18 ok
-    8: "pick swap target",              # 17 cap, 15 ok
-    9: "pick target",                   # 13 cap, 11 ok
-    10: "pick spell caster",            # 18 cap, 17 ok
-    11: "pick gate opener",             # 20 cap, 16 ok
-    12: "pick the decoy",               # 15 cap, 14 ok
-    13: "target",                       # 6 cap, 6 ok
-    14: "front",                        # 5 cap, 5 ok
-    15: "back",                         # 5 cap, 4 ok
-    16: "pick 2 for swap",              # 16 cap, 15 ok
-    17: "pick 2 to capture",            # 18 cap, 17 ok
-    18: "pick 2 to attack",             # 16 cap, 16 ok
-    19: "pick attacker",                # 15 cap, 13 ok
-    20: "swap target",                  # 11 cap, 11 ok
-    21: "race",                         # 6 cap, 4 ok
-    22: "low trust aut needs leader",   # 32 cap, 26 ok -> "low trust: must be w/leader"
-    23: "low trust aut won't join",     # 31 cap, 24 ok
-    24: "cancel selected aa",           # 22 cap, 18 ok
+    2: "Select Allied Action (AA)",     # 30 cap, 25 ok
+    3: "Select Action",                 # 12 cap, 13 -> too long. "your action"=11
+    4: "Reset AA. Skip This Turn",      # 27 cap, 24 ok
+    5: "Swap Front And Back",           # 18 cap, 19 -> "swap front/back"=15
+    6: "Flee. May Succeed",             # 23 cap, 17 ok (but needs ' / ' for line break? no, this is single display)
+    7: "Toggle Effect Cut",             # 23 cap, 18 ok
+    8: "Pick Swap Target",              # 17 cap, 15 ok
+    9: "Pick Target",                   # 13 cap, 11 ok
+    10: "Pick Spell Caster",            # 18 cap, 17 ok
+    11: "Pick Gate Opener",             # 20 cap, 16 ok
+    12: "Pick The Decoy",               # 15 cap, 14 ok
+    13: "Target",                       # 6 cap, 6 ok
+    14: "Front",                        # 5 cap, 5 ok
+    15: "Back",                         # 5 cap, 4 ok
+    16: "Pick 2 For Swap",              # 16 cap, 15 ok
+    17: "Pick 2 To Capture",            # 18 cap, 17 ok
+    18: "Pick 2 To Attack",             # 16 cap, 16 ok
+    19: "Pick Attacker",                # 15 cap, 13 ok
+    20: "Swap Target",                  # 11 cap, 11 ok
+    21: "Race",                         # 6 cap, 4 ok
+    22: "Low Trust Aut Needs Leader",   # 32 cap, 26 ok -> "low trust: must be w/leader"
+    23: "Low Trust Aut Won't Join",     # 31 cap, 24 ok
+    24: "Cancel Selected AA",           # 22 cap, 18 ok
 }
 
 # Fix msg3 and msg5
-R47_SUB1[3] = "your action"         # 12 cap, 11 ok
-R47_SUB1[5] = "swap front/back"     # 18 cap, 15 ok
+R47_SUB1[3] = "Your Action"         # 12 cap, 11 ok
+R47_SUB1[5] = "Swap Front/Back"     # 18 cap, 15 ok
 
 # ============================================================================
 # R47 SUB2: Special abilities
@@ -566,36 +572,36 @@ R47_SUB1[5] = "swap front/back"     # 18 cap, 15 ok
 # msg26=6 msg27=4
 # ============================================================================
 R47_SUB2 = {
-    2: "fire brt",             # 8 cap, 8 ok (breath abbreviated)
-    3: "cold brt",             # 8 cap, 8 ok
-    4: "thndr bt",             # 8 cap, 8 ok (thunder breath)
-    5: "poisn bt",             # 8 cap, 8 ok (poison breath)
-    6: "gaze",                 # 4 cap, 4 ok
-    7: "roar",                 # 4 cap, 4 ok
-    8: "forgot a spell!!",     # 16 cap, 16 ok
-    9: "summon",               # 9 cap, 6 ok
-    10: "call",                # 6 cap, 4 ok
-    11: "called!",             # 9 cap, 7 ok
-    12: "ally came!",          # 9 cap, 10 -> "ally came"=9
-    13: "none came",           # 10 cap, 9 ok
-    14: "bash",                # 4 cap, 4 ok (knock back)
-    15: "agony",               # 5 cap, 5 ok
-    16: "dbl actn",            # 9 cap, 8 ok
-    17: "dark",                # 4 cap, 4 ok
-    18: "all buffs removed!!",  # 19 cap, 20 -> too long. "buffs dispelled!!"=17
-    19: "dmn jump",            # 9 cap, 8 ok
-    20: "dmn dive",            # 8 cap, 8 ok
-    21: "dmn whip",            # 9 cap, 8 ok
-    22: "cannibl",             # 7 cap, 7 ok
-    23: "k.back",              # 7 cap, 6 ok
-    24: "dmn beam",            # 9 cap, 8 ok
-    25: "mirror",              # 9 cap, 6 ok
-    26: "countr",              # 6 cap, 6 ok
+    2: "Fire Brt",             # 8 cap, 8 ok (breath abbreviated)
+    3: "Cold Brt",             # 8 cap, 8 ok
+    4: "Thndr Bt",             # 8 cap, 8 ok (thunder breath)
+    5: "Poisn Bt",             # 8 cap, 8 ok (poison breath)
+    6: "Gaze",                 # 4 cap, 4 ok
+    7: "Roar",                 # 4 cap, 4 ok
+    8: "Forgot a spell!!",     # 16 cap, 16 ok
+    9: "Summon",               # 9 cap, 6 ok
+    10: "Call",                # 6 cap, 4 ok
+    11: "Called!",             # 9 cap, 7 ok
+    12: "Ally came!",          # 9 cap, 10 -> "ally came"=9
+    13: "None came",           # 10 cap, 9 ok
+    14: "Bash",                # 4 cap, 4 ok (knock back)
+    15: "Agony",               # 5 cap, 5 ok
+    16: "Dbl Actn",            # 9 cap, 8 ok
+    17: "Dark",                # 4 cap, 4 ok
+    18: "All buffs removed!!",  # 19 cap, 20 -> too long. "buffs dispelled!!"=17
+    19: "Dmn Jump",            # 9 cap, 8 ok
+    20: "Dmn Dive",            # 8 cap, 8 ok
+    21: "Dmn Whip",            # 9 cap, 8 ok
+    22: "Cannibl",             # 7 cap, 7 ok
+    23: "K.Back",              # 7 cap, 6 ok
+    24: "Dmn Beam",            # 9 cap, 8 ok
+    25: "Mirror",              # 9 cap, 6 ok
+    26: "Countr",              # 6 cap, 6 ok
 }
 
 # Fix msg12 and msg18
-R47_SUB2[12] = "ally came"          # 9 cap, 9 ok
-R47_SUB2[18] = "buffs dispelled!!"  # 19 cap, 17 ok
+R47_SUB2[12] = "Ally came"          # 9 cap, 9 ok
+R47_SUB2[18] = "Buffs dispelled!!"  # 19 cap, 17 ok
 
 # ============================================================================
 # Processing functions
@@ -823,6 +829,67 @@ def validate(name, trans, raw_path, sub_idx):
             errors += 1
     return errors
 
+# ----------------------------------------------------------------------------
+# BUILD GUARD (release-blocker safety net, 2026-06-28)
+#
+# Two checks so a future misalignment fails the build LOUDLY instead of
+# silently clobbering the friendly-monster mechanic again:
+#   (A) groups_for() decodes the pristine FFFF groups of a sub-resource.
+#   (B) assert_r47_friendly_signature() proves the pristine R47 sub0 still
+#       carries the 対応の決定 / 戦う / 立ち去る / ディスペル / 盗む signature at
+#       the groups our dict expects -- i.e. our keys are aimed at the right
+#       targets. Glyph values are taken VERBATIM from the pristine raw so the
+#       check is byte-exact, not glyph-map dependent.
+#   (C) the cell-budget validate() below is now a HARD assert (was a warning):
+#       every injected group's English glyph count must be <= its pristine
+#       cell budget for ALL of R46+R47.
+# ----------------------------------------------------------------------------
+def groups_for(raw, sub_idx):
+    sub_off = struct.unpack_from('<I', raw, sub_idx * 16 + 8)[0]
+    sub_size = struct.unpack_from('<I', raw, sub_idx * 16 + 4)[0]
+    ffff_pos = [j for j in range(0, sub_size, 2)
+                if struct.unpack_from('>H', raw, sub_off + j)[0] == 0xFFFF]
+    msgs = []
+    prev = 0
+    for fp in ffff_pos:
+        s, e = prev, fp
+        vals = [struct.unpack_from('>H', raw, sub_off + s + k)[0]
+                for k in range(0, e - s, 2)]
+        msgs.append(vals)
+        prev = fp + 2
+    return msgs
+
+# Expected pristine glyph signatures (verbatim from pristine 0047 sub0).
+# Each entry: group index -> list of (cell_index, expected_u16).
+_R47_FRIENDLY_SIG = {
+    2:  [(0, 0x0176), (1, 0x027D), (2, 0x0088), (3, 0x02E1), (4, 0x01AC)],  # 対応の決定
+    4:  [(0, 0x011E), (1, 0x0000), (2, 0x0000), (3, 0x0072)],               # 戦__う
+    5:  [(0, 0x0154), (1, 0x0080), (2, 0x0358), (3, 0x0098)],               # 立ち去る
+    19: [(1, 0x00FC), (2, 0x010C), (3, 0x00CD), (4, 0x0106), (5, 0x00E9)],  # ディスペル
+    20: [(1, 0x013B), (3, 0x0090)],                                         # 盗む
+}
+
+def assert_r47_friendly_signature(raw_path):
+    raw = open(raw_path, 'rb').read()
+    groups = groups_for(raw, 0)
+    for gi, sig in _R47_FRIENDLY_SIG.items():
+        assert gi < len(groups), (
+            f"R47 GUARD: pristine sub0 has only {len(groups)} groups, "
+            f"expected group {gi} -- resource layout changed!")
+        g = groups[gi]
+        for ci, exp in sig:
+            assert ci < len(g) and g[ci] == exp, (
+                f"R47 GUARD: pristine sub0 group {gi} cell {ci} = "
+                f"{g[ci] if ci < len(g) else 'OOB':#06x}, expected {exp:#06x}. "
+                f"The friendly-monster choice cluster is NOT where R47_SUB0 "
+                f"expects it -- dict is misaligned, ABORTING to avoid "
+                f"clobbering the spare/recruit mechanic.")
+    print("  R47 friendly-choice signature OK "
+          "(title/Fight/Leave at g2,4,5; Dispel/Steal at g19,20)")
+
+print("\nGuard: checking pristine R47 friendly-choice signature...")
+assert_r47_friendly_signature('extracted/packdata_raw/0047_type03.raw')
+
 print("\nValidating translations...")
 errs = 0
 errs += validate("r46s0", R46_SUB0, 'extracted/packdata_raw/0046_type03.raw', 0)
@@ -831,10 +898,11 @@ errs += validate("r46s2", R46_SUB2, 'extracted/packdata_raw/0046_type03.raw', 2)
 errs += validate("r47s0", R47_SUB0, 'extracted/packdata_raw/0047_type03.raw', 0)
 errs += validate("r47s1", R47_SUB1, 'extracted/packdata_raw/0047_type03.raw', 1)
 errs += validate("r47s2", R47_SUB2, 'extracted/packdata_raw/0047_type03.raw', 2)
-if errs:
-    print(f"\n{errs} ERRORS found! Fix before proceeding.")
-else:
-    print("All translations fit!")
+# HARD cell-budget guard: never ship an over-budget (truncated) group again.
+assert errs == 0, (f"\n{errs} cell-budget ERRORS found (English > pristine "
+                   f"group budget)! Fix the offending dict entries above "
+                   f"before building -- truncation is no longer silent.")
+print("All translations fit!")
 
 # Detect duplicates
 r46_sub0_full = detect_dups('extracted/packdata_raw/0046_type03.raw', 0, R46_SUB0)

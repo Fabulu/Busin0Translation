@@ -15,7 +15,7 @@
     "resource": 43,
     "message": 8,
     "japanese": "おっ  / ゲームをしていくか？ /   / ",
-    "english": "Oh! / Wanna play a game? /   / "
+    "english": "Oh! / Care for a game? /"
   },
   {
     "resource": 43,
@@ -57,7 +57,7 @@
     "resource": 43,
     "message": 15,
     "japanese": "おいおい、金が足りねえと / ゲームはできねえぜ。 /   / ",
-    "english": "Hey, you can't / play without gold. /   / "
+    "english": "Hey, no gold, / no game. /"
   },
   {
     "resource": 43,
@@ -135,7 +135,7 @@
     "resource": 44,
     "message": 2,
     "japanese": "お待ちしておりましたよ。 / オートマターの調子は / どうですか？ / ",
-    "english": "I've been waiting. / How is the Automata / doing? / "
+    "english": "I've been waiting. / How's the / Automata doing? /"
   },
   {
     "resource": 44,
@@ -171,7 +171,7 @@
     "resource": 44,
     "message": 8,
     "japanese": "武器や解闘を加算してオー / トマター■息の■■体チッ / プを造ることができます。 / ",
-    "english": "Combine weapons / and armor to create / Automata chips. / "
+    "english": "Combine weapons / and armor into / Automata chips. /"
   },
   {
     "resource": 44,

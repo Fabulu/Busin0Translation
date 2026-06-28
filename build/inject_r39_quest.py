@@ -99,22 +99,36 @@ def encode_english(text):
     return glyphs
 
 # P2 — quest-description / client-name word-wrap.  The request-description body
-# renders at a FIXED 18px monospace pitch (Patch 22 pins the body advance to 18),
-# so a line of N glyph cells is N*18 px wide.  The authored English descriptions
-# carry lines up to 45 cells (810px) which overflow the on-screen desc window —
-# center-aligned, they clip at both edges and collide with neighbouring fields
-# (the requestdesc.p2s defect).  Greedy-wrap them to a box-fitting cell budget.
-# BUDGET: 28 cells * 18px = 504px.  Data-grounded — the v123 requestdescissues.p2s
-# LIVE measurement (decoded glyph stream + GS) shows the body is LEFT-anchored at
-# x=64 in a parchment window x=64..576 (512px = 28.4 cells); a 29-cell line (522px)
-# ends at x=586 past the x=576 clip.  28 is the practical max (ends x=568, ~8px
-# margin).  (v123 shipped 30/540px which still clipped on the right — corrected.)
-# NOTE: the body renders at FIXED 18px monospace (Patch 22), so spaces are wide and
-# the text bloats; the real width+height fix is a PROPORTIONAL body advance (compress
-# ~30%, fewer lines) — an EXE change tracked with the narration proportional work.
+# is COUNT-ANCHORED, NOT left-anchored.  reconB3 read the live origin math from the
+# newest save (requestissue.p2s) at the universal renderer's align==2 branch
+# (func 0x307DA0), VA 0x308934-0x308988:
+#     line_origin_px = (box_width - count) * 18
+# where:
+#   - count     = the line's glyph-cell count (desc+0x40[line], 'lh a0,0x40(a0)'
+#                 @0x308958), and
+#   - box_width = desc+0x18 (a CELL COUNT, not pixels; 'lw a0,0x18(s0)' @0x308384,
+#                 stored sp+0x140 @0x30839c, re-read 'lw v0,0x140(sp)' @0x308964),
+#                 multiplied by 18px (Patch 22 pinned the body advance to 18).
+# Pen sp+0x1ce resets to 0 each newline; the per-line origin centers/right-anchors
+# the line inside box_width.  CONSEQUENCE: a line whose count EXCEEDS box_width gets
+# a NEGATIVE origin, so it overflows the LEFT edge while its tail overflows the RIGHT
+# — exactly the "looks centered / clips both edges" requestissue.p2s symptom.  The
+# old "left-anchored x=64..576 / 28-cell" model above was WRONG and is deleted.
+#
+# JP DESIGN BUDGET (the real box): across the pristine descriptions G348-G380 the JP
+# text never exceeds 5 lines or 21 cells/line (G350/G351 = 21), so box_width is
+# ~20-22 cells and the box height is 5 rows at 24px pitch (120px).  We therefore wrap
+# to 20 cells (<= the JP max of 21, keeping (box_width - count) >= 0 so no line gets a
+# negative origin / both-edge clip).  20*5 = 100 English cells is LESS than the
+# verbose English needs, so the ~60 descriptions/client names must also be editorially
+# condensed (handled separately in data/r39_quest_text_aligned.json — NOT this file).
+# NOTE: the TRUE box_width cell capacity still needs a LIVE read at 0x308964
+# ('lw v0,0x140(sp)') on a fresh requestissue boot — static analysis narrows it to
+# 18-21 cells; 20 is the conservative JP-grounded choice.  If the live read proves
+# box_width is 18-19, lower this constant accordingly.
 # Applied ONLY to descriptions (G348-380) + client names (G383-410); titles/UI
 # labels are short (title clamped to 12 cells by draw_clamp12) — never wrapped.
-DESC_WRAP_CELLS = 28
+DESC_WRAP_CELLS = 20
 
 def wrap_desc_text(text, budget=DESC_WRAP_CELLS):
     """Greedy word-wrap to <=budget glyph cells/line.  Collapses the authored
@@ -309,6 +323,36 @@ for gi in sorted(TRANSLATE_GROUPS | ALIGNED_GROUPS):
         kept_original += 1
 
 print(f"Translated: {translated} groups, kept original: {kept_original} groups")
+
+# ---------------------------------------------------------------------------
+# 6b. CLIENT-NAME CELL-CAP ASSERT (W1-REQ)
+#
+# The request "Client" VALUE draws COUNT-ANCHORED (origin walks LEFT as the glyph
+# count grows; see reconW3 / recon2-W3-request-client). A client name longer than
+# ~8 cells slides left UNDER the fixed "Client" label and collides horizontally
+# (the v132 "Ma[Client] Duhan" bug). Cap every client-name group (G383-G410) at
+# <=8 glyph cells so a future over-long name FAILS THE BUILD instead of colliding
+# live. EVENT-notification sentences (G400/G404/G406/G410 etc.) that render in the
+# thin black bar — NOT the Client field — are EXEMPT: they legitimately exceed 8
+# cells. They are detected by their authored English ending in '.' or '!'.
+CLIENT_NAME_GROUPS = set(range(383, 411))
+CLIENT_NAME_CELL_CAP = 8
+for gi in sorted(CLIENT_NAME_GROUPS):
+    entry = aligned_dict.get(gi)
+    en = (entry.get('english', '').strip() if entry else '')
+    if not en:
+        continue
+    # Skip notification-bar EVENT sentences (drawn in the bar, not the Client field).
+    if en.rstrip().endswith(('.', '!')):
+        continue
+    # Count rendered glyph cells (exclude the trailing FFFE/FFFF terminators).
+    cells = [g for g in new_groups[gi] if g not in (0xFFFE, 0xFFFF)]
+    assert len(cells) <= CLIENT_NAME_CELL_CAP, (
+        f"R39 client-name G{gi} '{en}' encodes to {len(cells)} cells "
+        f"(> {CLIENT_NAME_CELL_CAP}); it will collide with the fixed 'Client' label. "
+        f"Shorten it in data/r39_quest_text_aligned.json to <= {CLIENT_NAME_CELL_CAP} cells."
+    )
+print(f"Client-name cell-cap assert PASSED (all G383-G410 non-event names <= {CLIENT_NAME_CELL_CAP} cells).")
 
 # ---------------------------------------------------------------------------
 # 7. Compute new byte positions for all groups from G346 onwards

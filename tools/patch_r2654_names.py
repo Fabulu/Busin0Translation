@@ -61,6 +61,12 @@ KATA = "アイウエオカキクケコサシスセソタチツテトナニヌネ
 KATA_EXTRA = {
     93: 'ー', 238: 'ン', 254: 'バ', 245: 'ジ', 252: 'デ', 270: 'ェ', 273: 'ヴ',
     246: 'ズ', 247: 'ゼ', 248: 'ゾ', 249: 'ダ', 253: 'ド', 272: 'ッ',
+    # voiced (dakuten base 239: ga gi gu ge go .. ba bi bu be bo) +
+    # handakuten (base 259: pa pi pu pe po) + small kana (base 264:
+    # sya syu syo sa si su se so stsu). Names like ベルグラーノ/ヨッペン/
+    # ミリィ/サミュエル decode to 〓 without these and fall back to katakana.
+    239: 'ガ', 241: 'グ', 243: 'ゴ', 256: 'ブ', 257: 'ベ', 262: 'ペ',
+    268: 'ィ', 265: 'ュ',
 }
 
 

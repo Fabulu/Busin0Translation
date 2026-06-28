@@ -41,7 +41,8 @@ For each task that will be delegated to a subagent, specify:
 
 def main():
     try:
-        input_data = json.load(sys.stdin)
+        # Decode utf-8-sig so a stray BOM (Windows) is stripped before JSON parse.
+        input_data = json.loads(sys.stdin.buffer.read().decode("utf-8-sig"))
         tool_input = input_data.get("tool_input", {})
 
         # EnterPlanMode doesn't have a prompt field to modify,

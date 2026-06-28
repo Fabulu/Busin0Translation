@@ -98,7 +98,34 @@ def encode_english(text):
     """Encode English text to a list of BE uint16 glyph IDs.
     ' / ' in text becomes 0xFFFE (line break).
     Each ASCII char maps via glyph_table (essentially ord(ch) - 0x20).
+
+    TRAILING line-break (R39-scoped fix): the pristine R39 prompt/option groups
+    (e.g. G88/G89 "Chest"/"Remain", G8/G10 "Is this OK?"/"No") END in a single
+    0xFFFE line-break, and the chest magic-detection box height is sized from that
+    trailing-0xFFFE count (EXE 0x38DA80 -> jal 0x3A3A10). The authored English
+    encodes this break as a TRAILING ' / ' marker. BUT the caller .strip()s the
+    string at load time (translations[...] = en.strip()), collapsing a trailing
+    ' / ' down to a bare trailing '/' that split(' / ') no longer sees -> it was
+    wrongly encoded as a LITERAL slash glyph 0x000F (the stray-slash bug) AND no
+    trailing 0xFFFE was emitted (so the box could not grow). We therefore peel a
+    trailing '/'-marker here and emit a REAL trailing 0xFFFE instead of a literal
+    slash. Mid-string ' / ' breaks are unchanged. This logic lives ONLY in this
+    R39 encoder; build_full_english_v2.clean_and_encode (R38 chargen 3-line boxes,
+    which rely on their existing trailing-empty strip) is deliberately untouched.
     """
+    # An authored trailing ' / ' survives the caller's .strip() as a bare trailing
+    # '/' (or, defensively, ' / ' if some path skipped the strip). Peel it off and
+    # remember to append one trailing 0xFFFE line-break after encoding the body.
+    trailing_break = False
+    stripped = text.rstrip()
+    if stripped.endswith(' /'):            # ' word /' (un-stripped trailing ' / ')
+        text = stripped[:-2]
+        trailing_break = True
+    elif stripped.endswith('/') and not stripped.endswith('//'):
+        # ' word/' — the collapsed form the caller's .strip() produces from ' / '.
+        text = stripped[:-1]
+        trailing_break = True
+
     parts = text.split(' / ')
     glyphs = []
     for pi, part in enumerate(parts):
@@ -113,6 +140,8 @@ def encode_english(text):
                 glyphs.append(0)  # space
             else:
                 glyphs.append(31)  # '?' fallback
+    if trailing_break:
+        glyphs.append(0xFFFE)
     return glyphs
 
 # ---------------------------------------------------------------------------
@@ -133,9 +162,21 @@ for slot_idx, (slot_start, slot_end) in enumerate(messages):
     slot_capacity = (slot_end - slot_start) // 2  # number of glyph slots available
 
     if len(en_glyphs) > slot_capacity:
-        print(f"  WARNING: msg[{msg_id}] truncated: {len(en_glyphs)} glyphs -> {slot_capacity} slots "
-              f"('{en_text[:40]}...')")
-        en_glyphs = en_glyphs[:slot_capacity]
+        # PRESERVE A TRAILING 0xFFFE THROUGH TRUNCATION. The fixed-size slot
+        # (e.g. msg88 "Chest" cap=5, "Chest"+FFFE=6) may be one cell too small to
+        # hold both the full text AND the trailing line-break. The line-break is
+        # what the chest box-height sizer counts (EXE 0x38DA80), so it MUST survive
+        # — we drop a body glyph instead of the terminator (truncates "Chest"->
+        # "Ches" but the box still grows). Naive en_glyphs[:cap] would drop the FFFE.
+        keep_trailing_break = en_glyphs and en_glyphs[-1] == 0xFFFE
+        if keep_trailing_break:
+            body = en_glyphs[:-1][:slot_capacity - 1]
+            en_glyphs = body + [0xFFFE]
+        else:
+            en_glyphs = en_glyphs[:slot_capacity]
+        print(f"  WARNING: msg[{msg_id}] truncated -> {len(en_glyphs)} slots "
+              f"(cap {slot_capacity}, trailing-LB kept={keep_trailing_break}) "
+              f"('{en_text[:40]}')")
         truncated += 1
 
     # Write English glyphs into the slot
@@ -167,6 +208,29 @@ assert ffff_count == 97, f"FFFF count changed! Expected 97, got {ffff_count}"
 assert out[:GLYPH_STREAM_START] == raw[:GLYPH_STREAM_START], "Pre-stream bytes changed!"
 assert out[GLYPH_STREAM_END:] == raw[GLYPH_STREAM_END:], "Post-stream bytes changed!"
 print("Sanity checks passed: OT and sequential sections are untouched")
+
+# ---------------------------------------------------------------------------
+# 6b. STRAY-SLASH ASSERT (mirrors tests/test_r39_client_cap.py style):
+# No translated R39 group may END in a literal slash glyph 0x000F. A trailing
+# 0x000F is the fingerprint of the stray-slash bug — an authored trailing ' / '
+# line-break marker that the caller's .strip() collapsed to a bare '/' and that
+# was then encoded as a literal slash glyph instead of a 0xFFFE line-break. With
+# the encoder fix above, every authored trailing-'/' is converted to 0xFFFE, so a
+# trailing 0x000F here means the fix regressed. (A literal slash is fine MID-group
+# — only a TRAILING one is the bug, since legitimate text never ends in '/'.)
+SLASH_GLYPH = int(glyph_table.get('/', 0x0F))
+for slot_idx, (slot_start, slot_end) in enumerate(messages):
+    if slot_idx not in translations:
+        continue
+    cells = [struct.unpack_from('>H', out, p)[0] for p in range(slot_start, slot_end, 2)]
+    content = [g for g in cells if g != 0x0000]  # ignore trailing null padding
+    if content and content[-1] == SLASH_GLYPH:
+        raise AssertionError(
+            f"R39 msg[{slot_idx}] ('{translations[slot_idx][:40]}') ends in a literal "
+            f"slash glyph 0x{SLASH_GLYPH:04X} — the stray-slash bug from a trailing "
+            f"' / ' marker that should have become a 0xFFFE line-break. The encoder's "
+            f"trailing-'/' -> 0xFFFE conversion regressed.")
+print("Stray-slash assert passed: no translated R39 group ends in a literal slash glyph.")
 
 # ---------------------------------------------------------------------------
 # 7. Pad to sector boundary and write

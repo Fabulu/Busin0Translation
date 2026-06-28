@@ -1,5 +1,28 @@
 ## Chargen + fixed-pitch text spacing fix (backlog, added 2026-06-18)
 
+> ### STATUS UPDATE 2026-06-23 (v122) — Patch 19 is the SHIPPED chargen proportional path. DO NOT re-design / re-cut it.
+>
+> The "implementation approach" / "ordered checklist" below was the ORIGINAL plan. As of v122 it is **already implemented and installed** as **Patch 19** in `build/patch_exe.py`, verified byte-for-byte against `build/SLPM_653.78_patched`. Treat §4/§7 as historical design notes, not open work. The single remaining open work is on-screen live-debugger confirmation (see "OPEN live-debugger gates" at the end of this header).
+>
+> **What Patch 19 actually ships** (gate = chargen screen-mode global RAM `0x4FED18` == 5, i.e. `lw at,-0x62d8(gp); li t0,5; bne`):
+> - **Stage 1 — advance LUT.** Hook `addiu v0,v0,0x18` @ VA `0x308040` (file `0x2080c0`) → `j 0x4D6600` (cave1). Pristine word `0x24420018` → patched `0x08135980` (verified). The delay slot `sh v0,0x1cc(sp)` @ `0x308044` (file `0x2080c4`), pristine `0xa7a201cc`, is nop'd → `0x00000000` (verified). Cave1 @ VA `0x4D6600` (file `0x3d6680`): reads screen-mode (`lw at,-0x62d8(gp)`, first word `0x8f819d28` verified), re-reads the cell `lh ?,0x40(s1)`, extracts `gid = cell >> 8` (`srl 8` — chargen cells are `(char-32)<<8` so the gid is in the HIGH byte; this is NOT the narration `andi 0xFF` path), indexes the resident Patch-14 ADV table @ VA `0x4C7564` (file `0x3c75e4`; `ADV[space]=9`, `ADV['M' gid 0x2D]=23` verified), and accumulates `pen += ADV[gid]`; `mode != 5` falls through to the stock 24px advance (byte-identical, zero blast radius).
+> - **Stage 2 — draw-shift.** Hook the penX read `lh v1,0x1cc(sp)` @ VA `0x308018` (file `0x208098`) → `j 0x4D6660` (cave2). Pristine word `0x87a301cc` → patched `0x08135998` (verified). Cave2 first word `0x8f999d28` (mode-gated, verified).
+> - **Stage 3 — centering re-route: intentionally NOT hooked** (`0x307FBC`/`0x307FC4` left pristine). See the corrected math in §3: the `count*12` reserve cancels `s7 = count*12`, so the proportional `sp+0x1cc` pen alone yields left-anchored proportional text. Re-routing centering here would re-introduce an uncancelled `count*12` shift.
+>
+> **MUST NOT do (regression traps):**
+> - Do **NOT** retarget Patch 19 to the **`s7`** stride (the handoff `HANDOFF_box_request_formatting.md` §4 "Fix direction" and the old `SAVE_chargen.txt` recon say to). That premise is STALE — see the corrected math in §1/§3. `s7 = count*12` is a per-line CONSTANT that CANCELS the `-count*12` reserve; `sp+0x1cc` is NOT a dead pen — it is read at VA `0x308018` and summed into draw-X at VA `0x308034` (`addu t0,v1,v0`, word `0x00624021`, verified pristine in BOTH EXEs). A second/s7 retarget would DOUBLE-apply the advance and shove chargen text right by `count*12 - ΣADV/2`.
+> - Do **NOT** widen/remove the `mode==5` gate — narration/dialogue/request run mode 7 through the SAME shared renderer `0x307DA0` and would regress (an ungated change once shoved boxed dialogue +324px).
+> - Do **NOT** recompute glyph widths — `tools/glyph_metrics.py` (regenerated into the resident tables by Patch 14, re-read by Patch 19) is the single source of truth; recomputing is the documented #1 desync failure.
+>
+> **OPEN live-debugger gates (the only remaining Issue-A work — needsLiveDebugger):**
+> 1. **Variable-vs-flat on-screen stride.** No post-Patch-19 chargen GS dump exists. On a FRESH chargen boot of the current build, measure the per-glyph X stride and confirm it is VARIABLE (`ADV[space]=9px`, `ADV['M']=23px`) and not flat 12/24px. Save states give final-VRAM/RAM only, not the mid-draw register X passed to the GS — this needs an execute breakpoint on `0x308040`→cave1 or a fresh `.gs.zst`.
+> 2. **STATUS / input-box mode==5 coverage.** Confirm RAM `0x4FED18` reads 5 on the STATUS screen and the name/stat INPUT boxes — not only on the New-Character prompt screen. If a sub-screen runs a different mode it falls through to stock 24px (still wide) and Patch 19 only covers New-Character.
+> 3. **Stat labels are a SEPARATE compositor.** The stat-abbrev labels Str/Int/Pie/Vit/Agi/Lck (and the sidebar LABELS Sex/Race/Align/Class) are pre-rendered **R2138 sub7** PSMT4 sprites (`tools/patch_r2138.py`, build Step 3.9) — NOT Block-1 glyph-advance text. They have no per-glyph monospace defect and the Patch-19 cave is structurally incapable of touching them; only the sidebar/personality VALUES (R37 prompt / R38 description) are glyph-advance. Do NOT expect "one patch fixes all chargen text"; assuming so risks a false "Patch 19 failed" conclusion if the R2138 bitmaps look off.
+>
+> **Build-side follow-up (do AFTER live stride is confirmed variable):** the R37 prompt / R38 description source-text wrap budgets must be re-derived from **proportional ADV widths** (`tools/glyph_metrics.py`), NOT from a 24px-cell count. R37/R38 text lives in chunk files owned by other pipelines and the on-screen stride is still unconfirmed, so this is a documentation note only here.
+>
+> `file_off = VA - 0xFFF80` (== `VA - 0x100000 + 0x80`); verified above against `extracted/SLPM_653.78` (pristine) and `build/SLPM_653.78_patched`.
+
 ### 1. Problem + evidence
 
 The character-creation (chargen) screens and several other dynamic-text boxes render with a **fixed ~24px monospace pen advance**, producing wide inter-letter gaps and oversized word-spaces. The narration/dialogue path already got the proportional fix (Patch 13/14 in `build/patch_exe.py`), but the chargen prompt/description boxes were **not** covered because they use a *different code path inside the same renderer function*.
@@ -51,16 +74,20 @@ All affected elements flow through the R1188 glyph-advance path (func `0x307DA0`
 
 **Universal dynamic-text renderer:** func `0x307DA0` (file `0x2080C0`, spans to `0x309870`). Invoked indirectly (no `jal` callers; reached via computed jump). Contains multiple sub-paths selected by `ctx+0x290 & (4|8)` and modifier byte `0x160(sp)`; centering gated by `ctx+0x2a8==1`. All four monospace `addiu v0,v0,0x18` sites (`0x308040`, `0x308CB0`, `0x308D7C`, `0x3097A4`) live inside it.
 
-**Chargen = Path 1:**
-- Grid loop `0x307FE0`–`0x308064` — a true **32×32 grid** (`slti s0,0x20` @ `0x308050`, `slti s2,0x20` @ `0x30805C`).
-- **PRIMARY ADVANCE LEVER:** VA `0x308040` (file `0x2080C0`) `addiu v0,v0,0x18` — the fixed 24px pen step. Pen stored at `0x1cc(sp)` via `sh v0,0x1cc(sp)` @ `0x308044`.
-- Glyph id re-readable at the advance site via `lh g,0x40(s1)` (s1 NOT yet bumped — `addiu s1,s1,0x2` happens at `0x308054`).
-- **Draw primitive:** `0x305E30` (file `0x205EB0`), called via `jal` @ `0x308030`. Draw-X is computed *inside* `0x305E30`; penX is passed via `0x1cc(sp)` and combined at `0x308034` `addu t0,v1,v0` (v1 = penX). This is unlike narration's standalone `addu t4,a3,t4` @ `0x309750`.
-- **Centering (count×12):** `0x307FB8`–`0x307FD4`, specifically `0x307FBC` (file `0x20803C`) + `0x307FC4` (file `0x208044`). These compute `count*12` and MUST change in lockstep with any advance change.
+**Chargen = Path 1 (Block-1, `jal 0x305E30` @ `0x308030`):**
+- Grid loop `0x307FE0`–`0x308064`.
+- **PRIMARY ADVANCE LEVER:** VA `0x308040` (file `0x2080C0`), pristine `addiu v0,v0,0x18` (`0x24420018`) — the stock 24px pen step. Pen stored at `0x1cc(sp)` via `sh v0,0x1cc(sp)` @ `0x308044` (`0xa7a201cc`). **SHIPPED:** Patch 19 Stage-1 replaces `0x308040` with `j 0x4D6600` (`0x08135980`) and nops the `0x308044` store, making this a proportional `pen += ADV[gid]` step under the `mode==5` gate.
+- Glyph id re-readable at the advance site via `lh g,0x40(s1)`; chargen cells are `(char-32)<<8` (gid in HIGH byte) so the cave extracts gid with `srl 8`, NOT `andi 0xFF`.
+- **Draw primitive:** `0x305E30` (file `0x205EB0`), called via `jal` @ `0x308030`. **CORRECTED:** the chargen `sp+0x1cc` pen is NOT dead — draw-X is built at VA `0x308034` `addu t0,v1,v0` (`0x00624021`, pristine in BOTH the stock and patched EXE), where `v1` = penX read at VA `0x308018` `lh v1,0x1cc(sp)` (`0x87a301cc`, file `0x208098`) and `v0` = `box_origin(lh 0x3e(s3) @ 0x308010, 0x8668003e) + s7`. So `draw-X = penX(sp+0x1cc) + box_origin + s7`. Patch 19 Stage-2 hooks the `0x308018` read (`→ 0x08135998`, `j 0x4D6660`) to apply LEFTSHIFT to that live pen. The prior "Patch 19 writes a dead `sp+0x1cc` the chargen path never reads" claim is FALSE.
+- **`s7` is `count*12`, a per-line CONSTANT — NOT `index*12` per glyph.** It is computed ONCE before the loop: `0x307FE4 sll v0,v1,1` (`0x00031040`) + `0x307FEC addu v0,v0,v1` (`0x00431021`) + `0x307FF0 sll s7,v0,2` (`0x0002b880`), from `v1` = the line glyph count. It is added into draw-X via `0x30802C addu v0,t0,s7` (`0x01171021`).
+- **Centering (count×12) — leave PRISTINE.** `0x307FB8`–`0x307FD4` set the per-line reserve `penX = -count*12`. Because `s7 = +count*12` and the reserve is `-count*12`, the two **CANCEL**, leaving `draw-X = box_origin + Σ ADV[gid]` (left-anchored proportional). This is why Stage 3 (re-route centering) is **intentionally NOT hooked** — touching `0x307FBC`/`0x307FC4` without changing s7 in lockstep re-introduces an uncancelled `count*12` shift.
 
 Path 1 uses pen `0x1cc(sp)`; narration/dialogue (Path 2/3, already fixed) uses pen `0x1ce(sp)` — so a Path-1 cave cannot disturb the shipped narration fix.
 
-### 4. Implementation approach
+### 4. Implementation approach  (HISTORICAL — this plan SHIPPED as Patch 19 in v122; see STATUS UPDATE header)
+
+> The design below was the original plan and is now IMPLEMENTED. Stage 1 (advance LUT) ships as the `0x308040` → `j 0x4D6600` cave; Stage 2 (draw-shift) ships as the `0x308018` → `j 0x4D6660` cave; Stage 3 (centering re-route) was deliberately DROPPED because the `count*12` reserve cancels `s7` (see §3). Do not re-cut these caves.
+
 
 **Metrics source — REUSE, do NOT measure or recompute.** The chargen prompt (R37) and description (R38) glyphs are the same R1188 atlas as narration with `gid == char-32`, so `data/r1188_ascii_metrics.json` + `tools/glyph_metrics.py` apply **unchanged**:
 - `ADV[g] = 9 if g==0 (space) or ink_width==0, else clamp(ink_width+3, 6, 23)` (GAP=3)
@@ -105,7 +132,9 @@ All dynamic glyph-stream text flows through func `0x307DA0` and draws from R1188
 - **LOW — cave-region cleanliness.** Re-verify the `0x4C9360` pad is untouched across a *chargen* scene specifically.
 - **Open question (overlap warning):** `0x303C60`/`0x305980`/`0x308DFC` were named by the 2026-05-28 recon as chargen layout funcs AND by the v97 narration recon as narration-centering funcs. Stage 0 must disambiguate which funcs the LIVE chargen draw uses before patching, or a chargen change could regress narration.
 
-### 7. Ordered checklist (executable later)
+### 7. Ordered checklist  (HISTORICAL — steps 1-5 SHIPPED as Patch 19 in v122)
+
+> Steps 1-5 (metrics reuse, Stage-1 advance cave, centering decision, Stage-2 draw-shift, space validation) are DONE in Patch 19. Step 0 (live confirm), step 6 (wrap re-flow), and the regression-gate items remain OPEN — see the "OPEN live-debugger gates" in the STATUS UPDATE header. Kept verbatim below for the design rationale only.
 
 - [ ] **0. Live confirm (GATE — do before cutting any cave).** Load `ramdumps/space2.p2s` (eeMemory: VA==offset) and capture a `.gs.zst` (Shift+F8) of the same frame.
   - [ ] (a) Single-step / trace-break func `0x307DA0`; confirm **Path 1** draws BOTH the R37 prompt ("Select gender.") and the R38 description ("Gender sets base stats…").

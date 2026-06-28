@@ -9,7 +9,7 @@
     "resource": 40,
     "message": 2,
     "japanese": "広のパーティ刻息の / 冒険者登録を開いてやろう /  ",
-    "english": "Let me open the / adventurer registry /  "
+    "english": "Opening the / adventurer / registry. /"
   },
   {
     "resource": 40,
@@ -21,7 +21,7 @@
     "resource": 40,
     "message": 5,
     "japanese": "−新兵召喚−",
-    "english": "-new recruit-"
+    "english": "Recruit"
   },
   {
     "resource": 40,
@@ -33,31 +33,31 @@
     "resource": 40,
     "message": 7,
     "japanese": "転職",
-    "english": "Change Class"
+    "english": "Reclass"
   },
   {
     "resource": 40,
     "message": 8,
     "japanese": "地名",
-    "english": "Change Name"
+    "english": "Rename"
   },
   {
     "resource": 40,
     "message": 9,
     "japanese": "召喚削除",
-    "english": "Delete Member"
+    "english": "Delete"
   },
   {
     "resource": 40,
     "message": 10,
     "japanese": "パーティ追加",
-    "english": "Add to Party"
+    "english": "Add"
   },
   {
     "resource": 40,
     "message": 11,
     "japanese": "パーティ離脱",
-    "english": "Withdraw"
+    "english": "Leave"
   },
   {
     "resource": 40,
@@ -99,7 +99,7 @@
     "resource": 40,
     "message": 18,
     "japanese": "冒険に追加中の方は、 / まずパーティから外してください。",
-    "english": "Remove them from the / party first."
+    "english": "Remove them from / the party first."
   },
   {
     "resource": 40,
@@ -177,31 +177,31 @@
     "resource": 40,
     "message": 31,
     "japanese": "パーティ並先",
-    "english": "Party Order"
+    "english": "By Party"
   },
   {
     "resource": 40,
     "message": 32,
     "japanese": "５０名前",
-    "english": "Alphabetical"
+    "english": "By Name"
   },
   {
     "resource": 40,
     "message": 33,
     "japanese": "高レベル前",
-    "english": "Highest Level"
+    "english": "Hi Level"
   },
   {
     "resource": 40,
     "message": 34,
     "japanese": "低レベル前",
-    "english": "Lowest Level"
+    "english": "Lo Level"
   },
   {
     "resource": 40,
     "message": 35,
     "japanese": "職業前",
-    "english": "Occupation"
+    "english": "By Class"
   },
   {
     "resource": 40,
@@ -333,13 +333,13 @@
     "resource": 41,
     "message": 1,
     "japanese": "ここはサレム教会。 / ！何用な方が / 一体どんな消息で？",
-    "english": "Salem Church. What / business do you / have here? /"
+    "english": "Salem Church. / What is your / business here? /"
   },
   {
     "resource": 41,
     "message": 2,
     "japanese": "サレム教会へようこそ。 / おや、寺手の助けが / 必要なようですな。",
-    "english": "Welcome to Salem / Church. Looks like / you need our help. /"
+    "english": "Welcome to Salem / Church. You seem / to need help. /"
   },
   {
     "resource": 41,
@@ -351,7 +351,7 @@
     "resource": 41,
     "message": 4,
     "japanese": "では、寺がサレム教会に / 必要なだけの修階を / いただきましょうか。",
-    "english": "Then we shall accept / the offering the / church requires. /"
+    "english": "Then we accept / the offering the / church asks. /"
   },
   {
     "resource": 41,
@@ -405,7 +405,7 @@
     "resource": 41,
     "message": 13,
     "japanese": "寺手の助けが必要になれば / いつでも修階を息払して / お越しくだされ。",
-    "english": "Need our help? Bring / an offering and / come see us. /"
+    "english": "Need help? Bring / an offering / and come back. /"
   },
   {
     "resource": 41,
@@ -435,19 +435,19 @@
     "resource": 42,
     "message": 1,
     "japanese": "冒険者の宿へようこそ。 / ここは心身を帰め、 / また新たな力を下る場所。",
-    "english": "Welcome to the inn. / Rest your body and / gain strength. /"
+    "english": "Welcome to the inn. / Rest here to / regain strength. /"
   },
   {
     "resource": 42,
     "message": 2,
     "japanese": "冒険者の宿へようこそ。 / おや、レベルアップ / される方がおられますね。",
-    "english": "Welcome to the inn. / it seems someone is / ready to level up."
+    "english": "Welcome to the inn. / Someone here is / ready to level up."
   },
   {
     "resource": 42,
     "message": 3,
     "japanese": "宿泊されるのですか。 / お部屋は空いているので / ご安心ください。",
-    "english": "Staying the night? / rooms are available, / so do not worry."
+    "english": "Staying the night? / Rooms are open, / so rest easy."
   },
   {
     "resource": 42,

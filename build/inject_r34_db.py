@@ -105,12 +105,70 @@ def words_of(seg):
 
 
 # ----------------------------------------------------------------------------
+# Width-based word-wrap for long DESCRIPTION entries (BUG: item descriptions
+# render as one flat line that runs off the right edge because they carry no
+# internal line breaks).  The box renderer (VA 0x3A2EF0) honors 0xFFFE as a
+# line break (X reset + Y advance) but auto-wraps nothing and has no horizontal
+# clip, so an unbroken ~110-glyph run runs off-screen.
+#
+# Gate (which entries are DESCRIPTIONS, not NAMES):
+#   R34 is a set of paired tables — every even/short sub is a NAME table
+#   (avglen ~7-17, maxlen <=21, single-token inventory-list slot) and every
+#   odd/long sub is the matching DESCRIPTION table (avglen 43-113, maxlen 200).
+#   The description subs are {1, 3, 5, 7, 11, 13}.  sub9 (spell books) ALSO
+#   carries descriptions but already ships authored ' / ' breaks and is encoded
+#   by encode_sub9 — it never reaches encode_plain's wrap path.
+#   Verified: ZERO non-description, non-sub9 entries exceed 21 glyphs, so names
+#   are never long enough to be wrapped by accident.
+#
+# We only wrap when ALL of:
+#   - the sub is in DESCRIPTION_SUBS,
+#   - the english carries NO authored ' / ' marker (those 56 already fit at
+#     <=22 glyphs/line — leave them exactly as today), and
+#   - the english is > NAME_MAX_GLYPHS (safety belt: skips e.g. the lone
+#     13-char "A spell book." which is already one line).
+# Mirrors build/inject_r39_quest.py:wrap_desc_text (greedy, one glyph cell per
+# char incl. space).  Width 18 is conservative: below the proven <=22 ceiling
+# and below the R39 box's 20, accounting for Patch 27's proportional box.
+# ----------------------------------------------------------------------------
+DESCRIPTION_SUBS = {1, 3, 5, 7, 11, 13}
+DESC_WRAP_CELLS = 18
+NAME_MAX_GLYPHS = 16
+
+
+def wrap_desc_text(text, budget=DESC_WRAP_CELLS):
+    """Greedy word-wrap to <=budget glyph cells/line.  Returns the line list."""
+    flat = ' '.join(text.split())   # normalize internal whitespace
+    lines, cur = [], ''
+    for w in flat.split(' '):
+        cand = (cur + ' ' + w).strip()
+        if len(cand) <= budget or not cur:
+            cur = cand
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+# ----------------------------------------------------------------------------
 # String encoder
 # ----------------------------------------------------------------------------
-def encode_plain(english):
-    """Non-sub9: <segments joined by FFFE> + FFFE FFFF."""
+def encode_plain(english, sub=None):
+    """Non-sub9: <segments joined by FFFE> + FFFE FFFF.
+
+    For long DESCRIPTION entries with no authored ' / ' break, apply width-based
+    word-wrap (segments joined by FFFE) so the line no longer runs off-screen.
+    NAME entries and already-broken descriptions are encoded verbatim.
+    """
+    if (sub in DESCRIPTION_SUBS
+            and ' / ' not in english
+            and len(english) > NAME_MAX_GLYPHS):
+        segs = wrap_desc_text(english)
+    else:
+        segs = english.split(' / ')
     words = []
-    segs = english.split(' / ')
     for si, seg in enumerate(segs):
         if si:
             words.append(FFFE)
@@ -160,7 +218,7 @@ def encode_entry(aligned_entry, orig_seg, is_sub9):
     if is_sub9 and aligned_entry.get('preserve_prefix'):
         words = encode_sub9(english, words_of(orig_seg))
     else:
-        words = encode_plain(english)
+        words = encode_plain(english, sub=aligned_entry['sub'])
     return b''.join(struct.pack('>H', w) for w in words)
 
 
@@ -462,6 +520,21 @@ def pristine_entry_bytes(raw, hdr, sub, idx):
     return ents[idx]
 
 
+def content_eq(got, exp):
+    """Content-equivalence ignoring wrap break positions.
+
+    Description entries are now width-wrapped, so the decoder reconstructs the
+    inserted FFFE as ' / '.  We assert no glyph was lost/added/reordered by
+    collapsing both forms' ' / ' breaks and whitespace to a single space.
+    For non-wrapped entries this reduces to the original exact check.
+    """
+    def norm(s):
+        return ' '.join(s.replace(' / ', ' ').split())
+    if got == exp:
+        return True
+    return norm(got) == norm(exp)
+
+
 mismatches = 0
 placeholders = 0
 for e in aligned:
@@ -480,7 +553,7 @@ for e in aligned:
             placeholders += 1
         continue
     got = dec34[(sub, idx)]
-    if got != exp:
+    if not content_eq(got, exp):
         mismatches += 1
         if mismatches <= 20:
             print(f'  MISMATCH R34 sub{sub} item{idx}: exp={exp!r} got={got!r}')
@@ -510,7 +583,7 @@ for r34_sub, r2654_sub in R34_TO_R2654.items():
             continue
         checked += 1
         got = dec2654[(r2654_sub, idx)]
-        if got != e['english']:
+        if not content_eq(got, e['english']):
             mm2 += 1
             if mm2 <= 20:
                 print(f'  MISMATCH R2654 sub{r2654_sub} item{idx}: '

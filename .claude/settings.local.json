@@ -65,5 +65,35 @@
       "Bash(cp runs/exe_constants_found.md runs/exe_reverse_engineering.md KNOWN_ISSUES.md TODO.md runs/CLAUDE-RUNS/RUN-20260528-exe-reverse/)",
       "Bash(mkdir -p runs/CLAUDE-RUNS/RUN-20260528-vwf-and-textures)"
     ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python C:/programmieren/wizardrytranslation/.claude/hooks/force-general-purpose-agent.py"
+          },
+          {
+            "type": "command",
+            "command": "python C:/programmieren/wizardrytranslation/.claude/hooks/subagent-context.py"
+          },
+          {
+            "type": "command",
+            "command": "python C:/programmieren/wizardrytranslation/.claude/hooks/subagent-directory-protocol.py"
+          }
+        ]
+      },
+      {
+        "matcher": "EnterPlanMode",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python C:/programmieren/wizardrytranslation/.claude/hooks/plan-mode-reminder.py"
+          }
+        ]
+      }
+    ]
   }
 }

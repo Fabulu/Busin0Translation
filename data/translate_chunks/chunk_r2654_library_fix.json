@@ -1,0 +1,74 @@
+[
+  {
+    "resource": 2654,
+    "message": 1888,
+    "japanese": "(Item Compendium body)",
+    "english": "Records the effects of every item: arms, armor, accessories, cures, magic stones and tools. Adventurers get a blank one free; alchemy fills it in."
+  },
+  {
+    "resource": 2654,
+    "message": 1889,
+    "japanese": "(Person Register body)",
+    "english": "Given to Doohan adventurers. Magic and alchemy record the abilities of monsters you defeat. Fighting a foe often unlocks deeper analysis."
+  },
+  {
+    "resource": 2654,
+    "message": 1890,
+    "japanese": "(Glossary body)",
+    "english": "Lore on the Alleido and the Alleido Stone, said to seal its power. Take it to certain people to expand it."
+  },
+  {
+    "resource": 2654,
+    "message": 1891,
+    "japanese": "(Guide body)",
+    "english": "Lists arms and items at Doohan's shop and goods you sell back. Magic keeps it updated."
+  },
+  {
+    "resource": 2654,
+    "message": 1892,
+    "japanese": "(short body)",
+    "english": "A ledger of aid at sign-up."
+  },
+  {
+    "resource": 2654,
+    "message": 1893,
+    "japanese": "(Book List body)",
+    "english": "A guide for Doohan newcomers and merchants: shops, services, registration and adventurer etiquette. Kept current by the Benoan guild."
+  },
+  {
+    "resource": 2654,
+    "message": 1894,
+    "japanese": "(labyrinth greeting body)",
+    "english": "A greeting from someone met below."
+  },
+  {
+    "resource": 2654,
+    "message": 1881,
+    "japanese": "アイテム図鑑 (category row + subtitle)",
+    "english": "Items"
+  },
+  {
+    "resource": 2654,
+    "message": 1882,
+    "japanese": "魔物図鑑 (category row)",
+    "english": "Mons"
+  },
+  {
+    "resource": 2654,
+    "message": 1883,
+    "japanese": "用語図鑑 (category row)",
+    "english": "Lore"
+  },
+  {
+    "resource": 2654,
+    "message": 1884,
+    "japanese": "商品図鑑 (category row)",
+    "english": "Shop"
+  },
+  {
+    "resource": 2654,
+    "message": 1885,
+    "japanese": "登録台帳 (category row)",
+    "english": "Aid"
+  }
+]

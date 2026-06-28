@@ -1,63 +1,61 @@
-# init-run.ps1 — Initialize a new Claude Code run directory
-#
-# Usage: .\init-run.ps1 <slug>
-# Example: .\init-run.ps1 fix-auth-bug
-#   Creates: RUN-YYYYMMDD-HHMM-fix-auth-bug/ with TASK_LOG.md and SPEC_v1.md
-#
-# Templates sourced from: docs/coding_agents/claude_run_templates/
+<#
+.SYNOPSIS
+    init-run.ps1 — Initialize a new Claude Code run directory (Windows/PowerShell port of init-run.sh)
 
+.DESCRIPTION
+    Creates runs/CLAUDE-RUNS/RUN-YYYYMMDD-HHMM-<slug>/ with TASK_LOG.md and SPEC_v1.md,
+    substituting {{RUN_ID}}, {{SLUG}}, {{TIMESTAMP}}, {{DESCRIPTION}} from the templates in
+    docs/coding_agents/claude_run_templates/.
+
+.EXAMPLE
+    .\init-run.ps1 fix-auth-bug
+#>
+[CmdletBinding()]
 param(
-    [Parameter(Mandatory=$true, Position=0)]
+    [Parameter(Mandatory = $true, Position = 0, HelpMessage = "Short slug for the run, e.g. fix-auth-bug")]
     [string]$Slug
 )
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = 'Stop'
 
-$ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$RepoRoot = (Resolve-Path "$ScriptDir\..\..").Path
+$ScriptDir   = $PSScriptRoot
+$RepoRoot    = (Resolve-Path (Join-Path $ScriptDir "..\..")).Path
 $TemplateDir = Join-Path $RepoRoot "docs\coding_agents\claude_run_templates"
 
-$RunId = Get-Date -Format "yyyyMMdd-HHmm"
-$Timestamp = "$(Get-Date -Format 'yyyy-MM-dd HH:mm') EST"
-$Description = "[Describe objective here]"
+$RunId       = Get-Date -Format 'yyyyMMdd-HHmm'
+$Timestamp   = (Get-Date -Format 'yyyy-MM-dd HH:mm') + ' EST'
+$Description = '[Describe objective here]'
 
 $RunDir = Join-Path $ScriptDir "RUN-$RunId-$Slug"
 
 if (Test-Path $RunDir) {
-    Write-Error "ERROR: Directory already exists: $RunDir"
+    Write-Error "Directory already exists: $RunDir"
     exit 1
 }
 
-New-Item -ItemType Directory -Path $RunDir | Out-Null
+New-Item -ItemType Directory -Force -Path $RunDir | Out-Null
 
-# Generate TASK_LOG.md from template
-$TaskLogTemplate = Join-Path $TemplateDir "TASK_LOG\TASK_LOG.md"
-if (Test-Path $TaskLogTemplate) {
-    (Get-Content $TaskLogTemplate -Raw) `
-        -replace '\{\{RUN_ID\}\}', $RunId `
-        -replace '\{\{SLUG\}\}', $Slug `
-        -replace '\{\{TIMESTAMP\}\}', $Timestamp `
-        -replace '\{\{DESCRIPTION\}\}', $Description |
-        Set-Content (Join-Path $RunDir "TASK_LOG.md") -NoNewline
-} else {
-    Write-Warning "TASK_LOG template not found at $TaskLogTemplate"
+function Expand-Template {
+    param([string]$Source, [string]$Destination)
+
+    if (-not (Test-Path $Source)) {
+        Write-Warning "Template not found at $Source"
+        return
+    }
+    $content = Get-Content -Raw -Path $Source
+    $content = $content.Replace('{{RUN_ID}}',     $RunId)
+    $content = $content.Replace('{{SLUG}}',        $Slug)
+    $content = $content.Replace('{{TIMESTAMP}}',   $Timestamp)
+    $content = $content.Replace('{{DESCRIPTION}}', $Description)
+    # Write UTF-8 without BOM so downstream tools read it cleanly
+    [System.IO.File]::WriteAllText($Destination, $content, (New-Object System.Text.UTF8Encoding($false)))
 }
 
-# Generate SPEC_v1.md from template
-$SpecTemplate = Join-Path $TemplateDir "SPEC\SPEC_v1.md"
-if (Test-Path $SpecTemplate) {
-    (Get-Content $SpecTemplate -Raw) `
-        -replace '\{\{RUN_ID\}\}', $RunId `
-        -replace '\{\{SLUG\}\}', $Slug `
-        -replace '\{\{TIMESTAMP\}\}', $Timestamp `
-        -replace '\{\{DESCRIPTION\}\}', $Description |
-        Set-Content (Join-Path $RunDir "SPEC_v1.md") -NoNewline
-} else {
-    Write-Warning "SPEC template not found at $SpecTemplate"
-}
+Expand-Template -Source (Join-Path $TemplateDir "TASK_LOG\TASK_LOG.md") -Destination (Join-Path $RunDir "TASK_LOG.md")
+Expand-Template -Source (Join-Path $TemplateDir "SPEC\SPEC_v1.md")       -Destination (Join-Path $RunDir "SPEC_v1.md")
 
-Write-Host "Created: $RunDir"
-Write-Host "   TASK_LOG.md"
-Write-Host "   SPEC_v1.md"
-Write-Host ""
-Write-Host "Run ID: RUN-$RunId"
+Write-Output "Created: $RunDir"
+Write-Output "   TASK_LOG.md"
+Write-Output "   SPEC_v1.md"
+Write-Output ""
+Write-Output "Run ID: RUN-$RunId"

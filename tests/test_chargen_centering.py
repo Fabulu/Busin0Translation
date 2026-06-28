@@ -104,6 +104,9 @@ from _helpers import (  # noqa: E402  (path insert first)
 
 import glyph_metrics  # noqa: E402  (TOOLS_DIR put on sys.path by _helpers)
 
+sys.path.insert(0, os.path.join(ROOT, "build"))
+import _reloc_v147_design as RELOC  # noqa: E402  (v147 relocated P14 gate marker)
+
 # ---------------------------------------------------------------------------
 # Patch 19 wiring constants -- mirror build/patch_exe.py exactly.  Kept here as
 # the single place a future Patch-19 retune updates the gate too.
@@ -122,17 +125,17 @@ def _fo(va):
 HOOK1_FO = _fo(0x308040)   # 0x2080C0  advance:   addiu v0,v0,0x18 (0x24420018)
 HOOK2_FO = _fo(0x308018)   # 0x208098  draw-shift: lh v1,0x1cc(sp) (0x87A301CC)
 HOOK3_FO = _fo(0x307FBC)   # 0x20803C  centering head -- Stage 3 NOT hooked (PRISTINE)
-# Cave bodies (in the freed Patch-15-cleared rodata pad 0x4D6600..)
-CAVE1_FO = _fo(0x4D6600)   # 0x3D6680  Stage 1 advance LUT (17 words)
-CAVE2_FO = _fo(0x4D6660)   # 0x3D66E0  Stage 2 draw-shift  (12 words)
+# Cave bodies -- v148 RELOCATED below the EE battle-heap arena (was 0x4D6600/0x4D6660).
+CAVE1_FO = _fo(RELOC.P19C1_VA)   # Stage 1 advance LUT (17 words)
+CAVE2_FO = _fo(RELOC.P19C2_VA)   # Stage 2 draw-shift  (12 words)
 # Resident tables Patch 14 installs (the caves READ these -- never recompute)
 ADV_TBL_FO = _fo(0x4C7564)   # 0x3C75E4
 LSH_TBL_FO = _fo(0x4C7690)   # 0x3C7710
 P14_HOOK1_FO = _fo(0x3097A0)  # 0x209820  Patch-14 resident-table gate word
 
-# Trampoline j-words Patch 19 writes at each hook
-J1_WORD = 0x08135980  # j 0x4D6600  (advance cave)
-J2_WORD = 0x08135998  # j 0x4D6660  (draw-shift cave)
+# Trampoline j-words Patch 19 writes at each hook (v148 relocated targets)
+J1_WORD = RELOC.P19C1_HOOK_JWORD  # j RELOC.P19C1_VA (advance cave)
+J2_WORD = RELOC.P19C2_HOOK_JWORD  # j RELOC.P19C2_VA (draw-shift cave)
 
 # Original (pristine) hook words.  Hook1/Hook2 are trampolined; Hook3 STAYS this.
 ORIG_H1 = 0x24420018  # addiu v0,v0,0x18   (advance)
@@ -214,10 +217,12 @@ def test_patch19_present_after_patch14_and_gated():
         "Patch 19 must be ordered AFTER Patch 14 (it reads Patch 14's resident "
         "ADV/LEFTSHIFT tables); found Patch 14 @%d, Patch 19 @%d" % (i14, i19)
     )
-    # Gate: Patch 19 checks the Patch-14 hook word (0x08131D50) before installing.
-    assert "0x08131D50" in src, (
-        "Patch 19 must gate on the Patch-14 resident-table hook word 0x08131D50 "
-        "(so the caves' lbu 0x7564/0x7690 tables are guaranteed present)"
+    # Gate: Patch 19 checks the Patch-14 hook word before installing.  v147 routes
+    # that gate through RELOC.NEW_GATE_MARKER (the relocated P14-hook1 j-word) so the
+    # source references the marker symbolically rather than the old literal 0x08131D50.
+    assert "NEW_GATE_MARKER" in src, (
+        "Patch 19 must gate on the Patch-14 resident-table hook word "
+        "(RELOC.NEW_GATE_MARKER) so the caves' lbu 0x7564/0x7690 tables are present"
     )
     # The caves' table-read literals must be the resident ADV/LEFTSHIFT tables.
     assert "0x7564" in src, (
@@ -228,9 +233,11 @@ def test_patch19_present_after_patch14_and_gated():
         "Patch 19 draw-shift cave must read the resident LEFTSHIFT table at "
         "0x...7690 (the Patch-14 table) -- the LEFTSHIFT literal is gone"
     )
-    # Patch 19 must reuse a freed/cleared pad off the Patch-14/Patch-20 caves.
-    assert "0x4D6600" in src, (
-        "Patch 19 caves must live in the freed/cleared rodata pad at 0x4D6600.."
+    # v148: Patch 19 caves are RELOCATED below the arena via the RELOC single-source map
+    # (RELOC.P19C1_VA / RELOC.P19C2_VA), NOT the old in-arena literal 0x4D6600.
+    assert "P19C1_VA" in src and "P19C2_VA" in src, (
+        "Patch 19 caves must reference the relocated bases RELOC.P19C1_VA / RELOC.P19C2_VA "
+        "(v148 battle-arena evacuation), not the old in-arena 0x4D6600/0x4D6660 literals"
     )
     # Chargen pen must be 0x1cc(sp) -- distinct from narration 0x1ce(sp).
     assert "0x1cc(sp)" in src or "0x1cc($sp)" in src or "0x1cc" in src, (
@@ -351,13 +358,13 @@ def test_tier2_gate_and_hooks_installed():
     resident tables exist), Stage-1 + Stage-2 trampoline to their caves, AND Stage 3
     (centering @0x307FBC) is PRISTINE -- v122 ships only the two-stage layout."""
     data = _patched()
-    assert _w(data, P14_HOOK1_FO) == 0x08131D50, (
-        "Patch-14 hook word @file 0x%X = 0x%08X != 0x08131D50 -- the resident tables "
-        "the Patch-19 caves read are NOT installed, so Patch 19 must not be either"
-        % (P14_HOOK1_FO, _w(data, P14_HOOK1_FO))
+    assert _w(data, P14_HOOK1_FO) == RELOC.NEW_GATE_MARKER, (
+        "Patch-14 hook word @file 0x%X = 0x%08X != 0x%08X (relocated marker) -- the "
+        "resident tables the Patch-19 caves read are NOT installed, so Patch 19 must "
+        "not be either" % (P14_HOOK1_FO, _w(data, P14_HOOK1_FO), RELOC.NEW_GATE_MARKER)
     )
     assert _w(data, HOOK1_FO) == J1_WORD, (
-        "Stage-1 hook @0x308040 = 0x%08X, expected j 0x4D6600 (0x%08X) -- advance "
+        "Stage-1 hook @0x308040 = 0x%08X, expected j relocated cave1 (0x%08X) -- advance "
         "LUT cave not trampolined" % (_w(data, HOOK1_FO), J1_WORD)
     )
     assert _w(data, HOOK1_FO + 4) == NOP, (
@@ -365,7 +372,7 @@ def test_tier2_gate_and_hooks_installed():
         % _w(data, HOOK1_FO + 4)
     )
     assert _w(data, HOOK2_FO) == J2_WORD, (
-        "Stage-2 hook @0x308018 = 0x%08X, expected j 0x4D6660 (0x%08X) -- draw-shift "
+        "Stage-2 hook @0x308018 = 0x%08X, expected j relocated cave2 (0x%08X) -- draw-shift "
         "cave not trampolined" % (_w(data, HOOK2_FO), J2_WORD)
     )
     # Stage 3 is INTENTIONALLY NOT hooked -- the centering head + next word must be

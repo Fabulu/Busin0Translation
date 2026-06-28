@@ -94,7 +94,7 @@
     "resource": 44,
     "message": 2,
     "japanese": "お待ちしておりましたよ。 / オートマターの調子は / どうですか？ / ",
-    "english": "I've been waiting. / How is the automata / doing? / ",
+    "english": "I've been waiting. / How's your / automata? / ",
     "notes": "Greeting when player has automata"
   },
   {
@@ -150,14 +150,14 @@
     "resource": 44,
     "message": 10,
     "japanese": "宝からの報酬獲得に対する / 解消力、獲得系騎法に対す / る効性をアップさせます。 / ",
-    "english": "Boosts defense / against attacks and / magic resistance. / ",
+    "english": "Boosts defense / and magic / resistance. / ",
     "notes": "Armor chip description"
   },
   {
     "resource": 44,
     "message": 11,
     "japanese": "宝を獲得する力や回数に影 / 響します。身に階けていれ / ば内方獲得も可能です。 / ",
-    "english": "Affects attack / power and hit count. / Enables combos. / ",
+    "english": "Boosts attack / and hit count. / Adds combos. / ",
     "notes": "Offensive chip"
   },
   {
@@ -542,7 +542,7 @@
     "resource": 45,
     "message": 9,
     "japanese": "アルバイトを雇うってのは / なんだか店っぽくて / ええだよなあ～  / ",
-    "english": "Hiring workers makes / this place feel like / a real shop! /",
+    "english": "Hiring workers / makes this feel / like a real shop! /",
     "notes": "Part-time worker hiring"
   },
   {
@@ -969,7 +969,7 @@
     "resource": 45,
     "message": 70,
     "japanese": "いつでも帰めたら / ボロボロになっても安心だ  / レベルはあがんねえけど  / ",
-    "english": "A rest stop means / safety even when / beat up! No exp tho / ",
+    "english": "A rest stop keeps / you safe when hurt-- / but no exp. /",
     "notes": "Rest stop feature - heals but no exp"
   },
   {

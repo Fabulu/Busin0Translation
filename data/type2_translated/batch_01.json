@@ -2901,7 +2901,7 @@
     "resource": 1196,
     "msg_index": 494,
     "japanese": "どちらを退嫌にしますか？リュート エミーリア",
-    "english": "Which one will you choose? // Lute / Emilia"
+    "english": "Choose which? // Lute / Emilia"
   },
   {
     "resource": 1196,
@@ -5325,7 +5325,7 @@
     "resource": 1196,
     "msg_index": 915,
     "japanese": "リディを退嫌にしますか？は いいいえ",
-    "english": "Will you take Lidi as a companion? // Yes / No"
+    "english": "Add Lidi to the party? // Yes / No"
   },
   {
     "resource": 1196,
@@ -5931,7 +5931,7 @@
     "resource": 1197,
     "msg_index": 63,
     "japanese": "クレタの剣を渡しますか？は いいいえ",
-    "english": "Hand over the Kreta stone? // Yes / No"
+    "english": "Give the Kreta stone? // Yes / No"
   },
   {
     "resource": 1197,

@@ -17,7 +17,7 @@
     "resource": 34,
     "message": 3,
     "japanese": "騎事務の魔石 / ",
-    "english": "Knight's Stone / ",
+    "english": "Knight Stone / ",
     "notes": "騎事務 likely decoding artifact for 騎士 (knight)"
   },
   {
@@ -31,14 +31,14 @@
     "resource": 34,
     "message": 5,
     "japanese": "■落の魔石 / ",
-    "english": "Corruption Stone / ",
+    "english": "Fallen Stone / ",
     "notes": "■ likely 堕 making 堕落 = corruption/fall"
   },
   {
     "resource": 34,
     "message": 6,
     "japanese": "使いの魔石 / ",
-    "english": "Messenger Stone / ",
+    "english": "Envoy Stone / ",
     "notes": "使い = messenger/familiar"
   },
   {
@@ -52,126 +52,126 @@
     "resource": 34,
     "message": 8,
     "japanese": "飾りの罰■ / ",
-    "english": "Decorative Talisman / ",
+    "english": "Decor Charm / ",
     "notes": "罰■ = likely お守り variant; guide confirms Decorative Talisman"
   },
   {
     "resource": 34,
     "message": 12,
     "japanese": "騎戦の罰■ / ",
-    "english": "Warrior Talisman / ",
+    "english": "War Charm / ",
     "notes": "騎戦 = warrior/knight-battle; guide has Talisman of the Warrior"
   },
   {
     "resource": 34,
     "message": 13,
     "japanese": "聖王の罰■ / ",
-    "english": "Holy King Talisman / ",
+    "english": "HolyKng Charm / ",
     "notes": "聖王 = Holy King; guide has Talisman of the Holy King"
   },
   {
     "resource": 34,
     "message": 15,
     "japanese": "使いの罰■ / ",
-    "english": "Cursed Talisman / ",
+    "english": "Cursed Charm / ",
     "notes": "使い here may refer to cursed/messenger variant; guide has Cursed Talisman"
   },
   {
     "resource": 34,
     "message": 16,
     "japanese": "ラピスの■飾り / ",
-    "english": "Lapis Hair Ornament / ",
+    "english": "Lapis Hairpin / ",
     "notes": "■ likely 髪; guide confirms Lapis Hair Ornament"
   },
   {
     "resource": 34,
     "message": 17,
     "japanese": "エルフの■飾り / ",
-    "english": "Elf Hair Ornament / ",
+    "english": "Elf Hairpin / ",
     "notes": "Guide has Elven Hair Ornament"
   },
   {
     "resource": 34,
     "message": 18,
     "japanese": "聖女の■飾り / ",
-    "english": "Saint's Hair / Ornament /",
+    "english": "Saint Hairpin / ",
     "notes": "聖女 = saint/holy maiden; guide confirms Saint's Hair Ornament"
   },
   {
     "resource": 34,
     "message": 19,
     "japanese": "銀の■飾り / ",
-    "english": "Silver Hair Ornament / ",
+    "english": "Silver Hairpin / ",
     "notes": "銀 = silver; guide confirms Silver Hair Ornament"
   },
   {
     "resource": 34,
     "message": 20,
     "japanese": "水の■飾り / ",
-    "english": "Water Hair Ornament / ",
+    "english": "Water Hairpin / ",
     "notes": "水 = water; guide confirms Water Hair Ornament"
   },
   {
     "resource": 34,
     "message": 21,
     "japanese": "騎女の■飾り / ",
-    "english": "Witch's Hair / Ornament /",
+    "english": "Witch Hairpin / ",
     "notes": "騎女 likely decoding of 魔女 (witch); guide has Witch's Hair Ornament"
   },
   {
     "resource": 34,
     "message": 22,
     "japanese": "使いの■飾り / ",
-    "english": "Cursed Hair Ornament / ",
+    "english": "Cursed Hairpin / ",
     "notes": "Guide has Cursed Hair Ornament as an accessory"
   },
   {
     "resource": 34,
     "message": 23,
     "japanese": "オークのリスト / ",
-    "english": "Orc Wristband / ",
+    "english": "Orc Band / ",
     "notes": "リスト = wrist(band); guide confirms Orc Wristband"
   },
   {
     "resource": 34,
     "message": 24,
     "japanese": "オーガパワーリスト / ",
-    "english": "Ogre Power Wristband / ",
+    "english": "OgrePwr Band / ",
     "notes": "Guide confirms Ogre Power Wristband"
   },
   {
     "resource": 34,
     "message": 25,
     "japanese": "盗賊のリスト / ",
-    "english": "Thief's Wristband / ",
+    "english": "Thief Band / ",
     "notes": "盗賊 = thief; guide confirms Thief's Wristband"
   },
   {
     "resource": 34,
     "message": 26,
     "japanese": "兵士のリスト / ",
-    "english": "Knight's Wristband / ",
+    "english": "Soldier Band / ",
     "notes": "兵士 = soldier but guide has Knight's Wristband in same slot"
   },
   {
     "resource": 34,
     "message": 27,
     "japanese": "だめオークのリスト / ",
-    "english": "Useless Orc / Wristband /",
+    "english": "BadOrc Band / ",
     "notes": "だめ = useless/no good; guide confirms"
   },
   {
     "resource": 34,
     "message": 28,
     "japanese": "力ぬけるリスト / ",
-    "english": "Exhausting Wristband / ",
+    "english": "Drain Band / ",
     "notes": "力ぬける = strength-draining; guide has Exhausting Wristband"
   },
   {
     "resource": 34,
     "message": 29,
     "japanese": "スピードブーツ / ",
-    "english": "Boots of Speed / ",
+    "english": "Speed Boots / ",
     "notes": "Guide has Boots of Speed / Speed Boots"
   },
   {

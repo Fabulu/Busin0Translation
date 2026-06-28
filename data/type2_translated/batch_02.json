@@ -3195,7 +3195,7 @@
     "resource": 1201,
     "msg_index": 46,
     "japanese": "コンデを退嫌にして能しいと言っている申し出を受ける[0474]る     ",
-    "english": "She wants Konde as your companion. / Accept / Decline"
+    "english": "Take Konde along? / Accept / Decline"
   },
   {
     "resource": 1201,
@@ -4197,7 +4197,7 @@
     "resource": 1202,
     "msg_index": 45,
     "japanese": "よ！よよ、よーこそ  よーこそ ビガーしょうてんへよーこそ ",
-    "english": "W-W-Welcome! / Welcome to the / Vigger Shop!"
+    "english": "W-Welcome! / Welcome to / Vigger Shop!"
   },
   {
     "resource": 1202,
@@ -4311,7 +4311,7 @@
     "resource": 1202,
     "msg_index": 64,
     "japanese": "なまえを、おしえてください！[018A]銀る  [018A]銀らない",
-    "english": "Please tell me your name! / Tell / Don't tell"
+    "english": "Your name? / Tell / Don't tell"
   },
   {
     "resource": 1202,
@@ -4413,7 +4413,7 @@
     "resource": 1202,
     "msg_index": 85,
     "japanese": "ここで、はたらこうとおもったりゆうはなんですか！？[0190]器を言う  [0190]器を言わない",
-    "english": "Why do you want to work here? / Tell / Don't tell"
+    "english": "Why work here? / Tell / Don't tell"
   },
   {
     "resource": 1202,

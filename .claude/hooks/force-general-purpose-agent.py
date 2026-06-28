@@ -38,7 +38,8 @@ REWRITE_TYPES = {
 
 def main():
     try:
-        input_data = json.load(sys.stdin)
+        # Decode utf-8-sig so a stray BOM (Windows) is stripped before JSON parse.
+        input_data = json.loads(sys.stdin.buffer.read().decode("utf-8-sig"))
         tool_input = input_data.get("tool_input", {})
 
         original_type = tool_input.get("subagent_type", "")

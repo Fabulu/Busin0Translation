@@ -1539,7 +1539,7 @@
     "resource": 39,
     "msg_index": 353,
     "japanese": "この依頼を受けてくださった方に\n報酬として、とちをおゆずりします。\n依頼[0x0319]王は受けてくださった方にのみ\nおはなしします。\n兵士団の方はごえんりょねがいます。",
-    "english": "As a reward for accepting this request,\nI will transfer a piece of land to you.\nDetails will only be shared with those\nwho accept.\nKnight Order members, please refrain."
+    "english": "As a reward for accepting this request,\nI will transfer a piece of land to you.\nDetails will only be shared with those\nwho accept.\nSoldier Corps members, please refrain."
   },
   {
     "resource": 39,
@@ -1581,7 +1581,7 @@
     "resource": 39,
     "msg_index": 360,
     "japanese": "兵士団では、[0x03c3][0x03ca]内に加入されている\n冒険者のレベルチェックを行っております。\nどのくらい迷宮・冒険についてよく\n知っているかといったテストです。\n御用がある方はまず依頼を受けてください。",
-    "english": "The Knight Order is conducting level checks\non registered adventurers.\nThis is a test of how well you know\nthe labyrinth and adventuring.\nInterested parties, accept the request first."
+    "english": "The Soldier Corps is conducting level checks\non registered adventurers.\nThis is a test of how well you know\nthe labyrinth and adventuring.\nInterested parties, accept the request first."
   },
   {
     "resource": 39,
@@ -1809,7 +1809,7 @@
     "resource": 39,
     "msg_index": 398,
     "japanese": "兵士団",
-    "english": "Knight Order"
+    "english": "Soldier Corps"
   },
   {
     "resource": 39,

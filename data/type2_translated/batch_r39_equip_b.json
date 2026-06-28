@@ -843,13 +843,13 @@
     "resource": 39,
     "msg_index": 557,
     "japanese": "騎事持騎法騎法団[FFFE]",
-    "english": "Arcane Spell Book"
+    "english": "Arc SpellBk"
   },
   {
     "resource": 39,
     "msg_index": 558,
     "japanese": "神聖騎法騎法団[FFFE]",
-    "english": "Holy Spell Book"
+    "english": "Holy SpellBk"
   },
   {
     "resource": 39,
@@ -969,7 +969,7 @@
     "resource": 39,
     "msg_index": 578,
     "japanese": "スローイングダガー[FFFE]",
-    "english": "Throwing Knives"
+    "english": "Throw Knives"
   },
   {
     "resource": 39,
@@ -1245,127 +1245,127 @@
     "resource": 39,
     "msg_index": 624,
     "japanese": "lv１騎法団[FFFE]",
-    "english": "Lv1 Spell Book"
+    "english": "Lv1 SpellBk"
   },
   {
     "resource": 39,
     "msg_index": 625,
     "japanese": "lv２騎法団[FFFE]",
-    "english": "Lv2 Spell Book"
+    "english": "Lv2 SpellBk"
   },
   {
     "resource": 39,
     "msg_index": 626,
     "japanese": "lv３騎法団[FFFE]",
-    "english": "Lv3 Spell Book"
+    "english": "Lv3 SpellBk"
   },
   {
     "resource": 39,
     "msg_index": 627,
     "japanese": "lv４騎法団[FFFE]",
-    "english": "Lv4 Spell Book"
+    "english": "Lv4 SpellBk"
   },
   {
     "resource": 39,
     "msg_index": 628,
     "japanese": "lv５騎法団[FFFE]",
-    "english": "Lv5 Spell Book"
+    "english": "Lv5 SpellBk"
   },
   {
     "resource": 39,
     "msg_index": 629,
     "japanese": "lv６騎法団[FFFE]",
-    "english": "Lv6 Spell Book"
+    "english": "Lv6 SpellBk"
   },
   {
     "resource": 39,
     "msg_index": 630,
     "japanese": "lv７騎法団[FFFE]",
-    "english": "Lv7 Spell Book"
+    "english": "Lv7 SpellBk"
   },
   {
     "resource": 39,
     "msg_index": 631,
     "japanese": "lv１騎事持騎法団[FFFE]",
-    "english": "Lv1 Arcane Spell Book"
+    "english": "Lv1 ArcSpBk"
   },
   {
     "resource": 39,
     "msg_index": 632,
     "japanese": "lv２騎事持騎法団[FFFE]",
-    "english": "Lv2 Arcane Spell Book"
+    "english": "Lv2 ArcSpBk"
   },
   {
     "resource": 39,
     "msg_index": 633,
     "japanese": "lv３騎事持騎法団[FFFE]",
-    "english": "Lv3 Arcane Spell Book"
+    "english": "Lv3 ArcSpBk"
   },
   {
     "resource": 39,
     "msg_index": 634,
     "japanese": "lv４騎事持騎法団[FFFE]",
-    "english": "Lv4 Arcane Spell Book"
+    "english": "Lv4 ArcSpBk"
   },
   {
     "resource": 39,
     "msg_index": 635,
     "japanese": "lv５騎事持騎法団[FFFE]",
-    "english": "Lv5 Arcane Spell Book"
+    "english": "Lv5 ArcSpBk"
   },
   {
     "resource": 39,
     "msg_index": 636,
     "japanese": "lv６騎事持騎法団[FFFE]",
-    "english": "Lv6 Arcane Spell Book"
+    "english": "Lv6 ArcSpBk"
   },
   {
     "resource": 39,
     "msg_index": 637,
     "japanese": "lv７騎事持騎法団[FFFE]",
-    "english": "Lv7 Arcane Spell Book"
+    "english": "Lv7 ArcSpBk"
   },
   {
     "resource": 39,
     "msg_index": 638,
     "japanese": "lv１騎事持騎法団[FFFE]",
-    "english": "Lv1 Holy Spell Book"
+    "english": "Lv1 HolySpBk"
   },
   {
     "resource": 39,
     "msg_index": 639,
     "japanese": "lv２騎事持騎法団[FFFE]",
-    "english": "Lv2 Holy Spell Book"
+    "english": "Lv2 HolySpBk"
   },
   {
     "resource": 39,
     "msg_index": 640,
     "japanese": "lv３騎事持騎法団[FFFE]",
-    "english": "Lv3 Holy Spell Book"
+    "english": "Lv3 HolySpBk"
   },
   {
     "resource": 39,
     "msg_index": 641,
     "japanese": "lv４騎事持騎法団[FFFE]",
-    "english": "Lv4 Holy Spell Book"
+    "english": "Lv4 HolySpBk"
   },
   {
     "resource": 39,
     "msg_index": 642,
     "japanese": "lv５騎事持騎法団[FFFE]",
-    "english": "Lv5 Holy Spell Book"
+    "english": "Lv5 HolySpBk"
   },
   {
     "resource": 39,
     "msg_index": 643,
     "japanese": "lv６騎事持騎法団[FFFE]",
-    "english": "Lv6 Holy Spell Book"
+    "english": "Lv6 HolySpBk"
   },
   {
     "resource": 39,
     "msg_index": 644,
     "japanese": "lv７騎事持騎法団[FFFE]",
-    "english": "Lv7 Holy Spell Book"
+    "english": "Lv7 HolySpBk"
   },
   {
     "resource": 39,

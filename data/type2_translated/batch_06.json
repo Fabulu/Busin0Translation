@@ -1305,7 +1305,7 @@
     "resource": 1208,
     "msg_index": 227,
     "japanese": "[0454]し物の[0455]長が書かれたボードにはイ心築働い、[045D][04C9]中です。      しばらくたってから帰てくださいゴと書かれている。",
-    "english": "A board reads: / \"Currently very busy. / Please come back later.\""
+    "english": "A board reads: / \"Very busy now. / Come back later.\""
   },
   {
     "resource": 1208,
@@ -1383,7 +1383,7 @@
     "resource": 1208,
     "msg_index": 242,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Have your fortune told? // \"Fee: 2000G each\" // Yes / No"
+    "english": "Read your fortune? // \"2000G each\" // Yes / No"
   },
   {
     "resource": 1208,
@@ -1989,7 +1989,7 @@
     "resource": 1208,
     "msg_index": 343,
     "japanese": "ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね。",
-    "english": "\"I need to rest. / Come back later if / you want more readings.\""
+    "english": "\"I must rest. / Come again later / for more readings.\""
   },
   {
     "resource": 1208,
@@ -3867,7 +3867,7 @@
     "resource": 1208,
     "msg_index": 672,
     "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
-    "english": "Have Automata examined? // \"Fee: 1000G\" // Yes / No"
+    "english": "Examine Automata? // \"1000G\" // Yes / No"
   },
   {
     "resource": 1208,
@@ -4155,7 +4155,7 @@
     "resource": 1208,
     "msg_index": 720,
     "japanese": "[056B][046D]が地えば優臆美に人[0219]する店を開くつもりでいるから、またいつか帰てくれたまえ。",
-    "english": "Once the preparations / are done, I'll open an / alchemy shop. Come again."
+    "english": "When ready I'll open / an alchemy shop. / Come again."
   },
   {
     "resource": 1208,
@@ -4239,7 +4239,7 @@
     "resource": 1208,
     "msg_index": 734,
     "japanese": "力を[04A7]しますか？力を[04A7]す  力を[04A7]さない",
-    "english": "Will you lend your strength? // Help / Don't help"
+    "english": "Lend your strength? // Help / Don't"
   },
   {
     "resource": 1208,
@@ -4791,7 +4791,7 @@
     "resource": 1208,
     "msg_index": 826,
     "japanese": "ですが、[0436]忍から！！。",
-    "english": "But, Captain!"
+    "english": "But, Simzon!"
   },
   {
     "resource": 1208,
@@ -6741,7 +6741,7 @@
     "resource": 1209,
     "msg_index": 259,
     "japanese": "どうもありがとう 過を働って能しい？",
-    "english": "Thank you very much. Whose fortune do you want me to read?"
+    "english": "Thank you! Whose fortune shall I read?"
   },
   {
     "resource": 1209,
@@ -6753,7 +6753,7 @@
     "resource": 1209,
     "msg_index": 261,
     "japanese": "じゃあ過を働って能しい？",
-    "english": "So whose fortune do you want me to read?"
+    "english": "Whose fortune shall I read?"
   },
   {
     "resource": 1209,

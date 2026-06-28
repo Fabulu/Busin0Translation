@@ -61,6 +61,25 @@ def leftshift_table_256():
     return bytes(t)
 
 
+def adv_table_95():
+    """95-byte advance table (gid 0..94 only) for the RELOCATED battle-safe cave.
+
+    The relocated P14/P27 caves carry their own ASCII guard (gid>=95 -> default
+    ADV 18), so this table needs only the 95 real ASCII slots — the old 256-byte
+    0x12 tail is reproduced by the guard, byte-for-byte.
+    """
+    return bytes((a & 0xFF) for a in ADV)
+
+
+def leftshift_table_95():
+    """95-byte left-shift table (gid 0..94 only) for the RELOCATED draw-shift cave.
+
+    The relocated cave guards gid>=95 -> default LEFTSHIFT 0 (subtract nothing),
+    matching the old 256-byte table's zero tail exactly.
+    """
+    return bytes((s & 0xFF) for s in LEFTSHIFT)
+
+
 def px_width(s, enc):
     """Pixel width of a single-line string. enc(ch)->glyph id (char-32 family)."""
     return sum(ADV[enc(c)] if 0 <= enc(c) < 95 else 18 for c in s)

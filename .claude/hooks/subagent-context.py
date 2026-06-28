@@ -35,7 +35,8 @@ PROMPT_FIELDS = ['prompt', 'description', 'task', 'instructions', 'message']
 
 def main():
     try:
-        input_data = json.load(sys.stdin)
+        # Decode utf-8-sig so a stray BOM (Windows) is stripped before JSON parse.
+        input_data = json.loads(sys.stdin.buffer.read().decode('utf-8-sig'))
         tool_input = input_data.get('tool_input', {})
 
         # Find and modify the prompt field
@@ -47,9 +48,12 @@ def main():
                 break
 
         if not modified:
-            # Log schema for discovery if no known field found
-            log_path = os.path.join(tempfile.gettempdir(), 'task-schema-discovery.json')
-            with open(log_path, 'a') as f:
+            # Log schema for discovery if no known field found.
+            # Use the platform temp dir so this works on Windows (no /tmp).
+            discovery_path = os.path.join(
+                tempfile.gettempdir(), 'task-schema-discovery.json'
+            )
+            with open(discovery_path, 'a', encoding='utf-8') as f:
                 f.write(json.dumps(input_data, indent=2) + '\n---\n')
 
         output = {

@@ -23,6 +23,18 @@ import io
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "tools"))
 import glyph_metrics
 
+# v147 BATTLE-FIX: single source for the RELOCATED battle-traversed caves+tables.
+# The original Patch-27 / Patch-14 caves and their ADV/LEFTSHIFT tables sat in the
+# EE battle-heap arena (0x4B0E00..0x4FDE30); during battle the heap stomped that RAM
+# and the box renderer's `j 0x4C7xxx` hook jumped into garbage -> no monsters / abort.
+# _reloc_v147_design.py moves ONLY those battle-traversed pieces to verified-safe
+# code-segment padding (below 0x4B0DCF), keeping the proportional-text LOGIC
+# byte-faithful.  The inert/non-battle readers (P19/P25/P26) KEEP the canonical
+# tables at 0x4C7564/0x4C7690 (still written by Patch 14), which are intact in
+# chargen/request mode (never battle).
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import _reloc_v147_design as RELOC
+
 try:
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 except Exception:
@@ -31,6 +43,44 @@ except Exception:
 SRC = os.path.join(os.path.dirname(__file__), "..", "extracted", "SLPM_653.78")
 DST = os.path.join(os.path.dirname(__file__), "SLPM_653.78_patched")
 EXPECTED_SIZE = 4_185_776
+
+# ─── CHARGEN_DIAG (default OFF) ────────────────────────────────────────────
+# When True, build/patch_exe.py installs ONLY a pure read+store DIAGNOSTIC cave
+# at the chargen Block-1 draw site (VA 0x308040) instead of the production
+# Patch-19 proportional caves, and writes the disambiguating register values to
+# a fixed scratch RAM word (RAM 0x4CAAA0) that the user reads from a save's
+# eeMemory.bin.  Production builds (CHARGEN_DIAG False) are BYTE-IDENTICAL to the
+# current chargen region — the Patch-19 production caves install exactly as before.
+# Toggle via the env var CHARGEN_DIAG=1 (no source edit needed for a debug build),
+# or flip the default below.  See the W1-CHAR CHANGELOG + diag README for the
+# decision table (scratch layout: gp, gate(gp), s5, penX, s3, s1, s3+0x290,
+# s3+0x2a8, s1+0x290, s1+0x2a8, fire-counter, mode(absolute)).
+CHARGEN_DIAG = (os.environ.get("CHARGEN_DIAG", "0") == "1")
+
+# FIRE_DIAG (default OFF): box-renderer fire-counter diagnostic.  Hooks the ENTRY
+# of every candidate box-text renderer + emitter (draw_clamp12 0x3A3300, blit
+# 0x3A2E10, gsemit 0x483E10, 0x307510, caller family 0x15CBC0/0x1552B0/0x165C60,
+# GIF builder 0x3B8820, narration 0x307DA0, old chargen 0x305E30) with a pure
+# read+store trampoline that bumps a counter in scratch RAM 0x4DE060, then re-execs
+# the displaced 2-word prologue and rejoins entry+8 -> ZERO behaviour change.  A
+# fresh chargen-Status capture + request-list capture, read back at eeMemory 0x4DE060,
+# names which renderer draws each box surface (r6-09 design; bug-fixed: 2-word
+# displaced + nop delay slot like CHARGEN_DIAG, and k0/k1 scratch regs so $t9/$gp are
+# never disturbed).  Toggle: FIRE_DIAG=1.  OFF => byte-identical production build.
+FIRE_DIAG = (os.environ.get("FIRE_DIAG", "0") == "1")
+
+# ─── DISABLE_P27_P14 (default OFF) ─────────────────────────────────────────
+# BATTLE-ROOT-CAUSE CONFIRM build only.  When DISABLE_P27_P14=1, the Patch 27
+# hook (VA 0x3A31A0 -> j 0x4C7410) and the Patch 14 hooks (VA 0x3097A0 ->
+# j 0x4C7540 / VA 0x309750 -> j 0x4C7670) are NOT written -- those sites stay
+# PRISTINE -- so NOTHING in the EXE jumps into the runtime game-managed heap band
+# at 0x4C7370-0x4C7700.  Because Patch 19/24/25/26 all gate on the Patch-14 marker
+# (file 0x209820 == 0x08131D50), disabling Patch 14 also auto-skips those (no extra
+# jumps into 0x4C7xxx).  This reverts box/narration/chargen text to STOCK monospace
+# but lets the battle arena bind run uncorrupted -- the CONFIRM test for the cave
+# placement hypothesis.  Default (env unset) => Patch 27 + 14 applied as normal;
+# the production build is BYTE-IDENTICAL to before this gate existed.
+DISABLE_P27_P14 = (os.environ.get("DISABLE_P27_P14", "0") == "1")
 
 def encode_glyph_ids(text):
     """Encode ASCII text as LE uint16 glyph IDs (glyph_id = ord(c) - 0x20)."""
@@ -266,26 +316,44 @@ def main():
     # frame.  Net: chargen kanji still hidden; portraits render everywhere else.
     # Trampoline (VA 0x4B0DD0): lbu $v0,-0x62d8($gp); addiu $at,$zero,5;
     #   beq $v0,$at,0x4B0DE8; nop; j 0x30B840; nop; jr $ra; nop.
-    print("\n--- Patch 6: Mode-gated RenderAllTiles trampoline (portraits + clean chargen) ---")
+    print("\n--- Patch 6: Mode-gated RenderAllTiles trampoline (portraits + clean chargen) [v148 RELOCATED] ---")
     SITE = 0x1F25E8                       # JAL 0x30B840 (VA 0x2F2568)
-    CAVE = 0x3B0E50                       # code cave (VA 0x4B0DD0)
+    # v148 BATTLE-ARENA EVACUATION: the old trampoline @VA 0x4B0DD0 sat in the run that
+    # ends exactly at the arena (0x4B0E00) -- a false-safe placement.  It is RELOCATED to
+    # verified-zero .text padding @VA RELOC.P6_VA (0x4B0D4C).  The trampoline's internal
+    # `beq` is PC-relative (invariant under relocation) and `j 0x30B840` is absolute
+    # (unchanged), so the 8 words ship BYTE-IDENTICAL; only the cave base + the JAL hook's
+    # target change.  This ALSO restores Patch 6 to live: the old JAL-cave guard checked the
+    # stale 0x0C12C374 (the previous base) while the build had already moved on, leaving the
+    # gate effectively inert; the correct relocated JAL re-arms the mode==5 chargen-kanji-skip
+    # + portrait gating.
+    CAVE = RELOC.fo(RELOC.P6_VA)          # code cave (VA RELOC.P6_VA = 0x4B0D4C)
     JAL_RAT = struct.pack("<I", 0x0C0C2E10)   # original JAL 0x30B840
-    JAL_CAVE = 0x0C12C374                      # JAL 0x4B0DD0 (to trampoline)
+    JAL_OLD_CAVE = 0x0C12C374                 # legacy JAL 0x4B0DD0 (stale base -> migrate)
+    JAL_CAVE = 0x0C000000 | (RELOC.P6_VA >> 2)  # JAL RELOC.P6_VA (relocated trampoline)
     NOP4 = b"\x00\x00\x00\x00"
     TRAMP = bytes.fromhex(
         "289d8293" "05000124" "03004110" "00000000"
         "102e0c08" "00000000" "0800e003" "00000000")
     site = bytes(data[SITE:SITE + 4])
     cave = bytes(data[CAVE:CAVE + len(TRAMP)])
-    if site not in (JAL_RAT, NOP4, struct.pack("<I", JAL_CAVE)):
+    if os.environ.get("DISABLE_PATCH6") == "1":
+        # Battle-isolation test build only: leave the JAL site STOCK
+        # (0x0C0C2E10) and the cave unwritten so Patch 6 can be isolated.
+        # Default behavior (env var unset) is UNCHANGED — Patch 6 applies.
+        print("  SKIP Patch 6 DISABLED via DISABLE_PATCH6=1 (battle-isolation test)")
+    elif site not in (JAL_RAT, NOP4,
+                      struct.pack("<I", JAL_CAVE), struct.pack("<I", JAL_OLD_CAVE)):
         print(f"  WARN 0x{SITE:06X}: expected JAL 0x30B840 / NOP / JAL-cave, got {site.hex()}")
     elif cave != b"\x00" * len(TRAMP) and cave != TRAMP:
         print(f"  WARN 0x{CAVE:06X}: code cave not zero/trampoline ({cave[:8].hex()}...) — Patch 6 SKIPPED")
     else:
+        RELOC.assert_install_safe(RELOC.P6_VA, len(TRAMP), "Patch 6 trampoline")
         data[CAVE:CAVE + len(TRAMP)] = TRAMP
         struct.pack_into("<I", data, SITE, JAL_CAVE)
-        print(f"  OK   0x{CAVE:06X}: 32-byte mode-gate trampoline (skip RenderAllTiles iff mode==5)")
-        print(f"  OK   0x{SITE:06X}: JAL 0x30B840 -> JAL 0x4B0DD0 (trampoline)")
+        print(f"  OK   0x{CAVE:06X}: 32-byte mode-gate trampoline @VA 0x{RELOC.P6_VA:06X} "
+              f"(skip RenderAllTiles iff mode==5)")
+        print(f"  OK   0x{SITE:06X}: JAL 0x30B840 -> JAL 0x{RELOC.P6_VA:06X} (relocated trampoline)")
         patched_count += 1
 
     # ─── PATCH 7: Chargen gender glyph IDs (男/女 -> ♂/♀) ──────────────
@@ -492,34 +560,58 @@ def main():
     # KNOWN LIMITATION (Stage 3, see data/text_restructure_roadmap.md): line
     # centering still reserves count*18 (Patch 13), so lines drift ~11-34px with
     # proportional widths; summed-width centering is the remaining piece.
-    print("\n--- Patch 14: PROPORTIONAL narration spacing (advance LUT + draw-shift) ---")
-    P14_HOOK1, P14_CAVE1, P14_TBL1 = 0x209820, 0x3C75C0, 0x3C75E4   # VA 0x3097A0 / 0x4C7540 / 0x4C7564
-    P14_HOOK2, P14_CAVE2, P14_TBL2 = 0x2097D0, 0x3C76F0, 0x3C7710   # VA 0x309750 / 0x4C7670 / 0x4C7690
-    adv_cave = [0x3C08004C, 0x322300FF, 0x01034021, 0x91037564,
-                0x87A201CE, 0x00431021, 0xA7A201CE, 0x080C25F8, 0x00000000]
-    shift_cave = [0x3C01004C, 0x00310821, 0x90217690, 0x00E13823,
-                  0x00EC6021, 0x080C25D6, 0x00000000]
+    print("\n--- Patch 14: PROPORTIONAL narration spacing (advance LUT + draw-shift) [v148 RELOCATED below arena] ---")
+    # v148 BATTLE-ARENA EVACUATION: although Patch-14's caves were proven never-stomped
+    # in-arena, the audit relocates them out anyway so NOTHING ships in the arena and the
+    # guardrail can forbid the arena outright.  cave1 0x4C7540 -> RELOC.P14C1_VA (0x4B049C),
+    # cave2 0x4C7670 -> RELOC.P14C2_VA (0x4B047C), both verified-zero .text padding.  The
+    # caves' words are BYTE-IDENTICAL (absolute `j` rejoins + table reads are unchanged); only
+    # the cave base + the two hook j-targets (= the gate marker @0x209820) change.  The
+    # canonical 256-byte ADV/LSH tables STAY at 0x4C7564 / 0x4C7690 (whitelisted resident
+    # rodata, read by the caves AND the chargen/request readers P19/25/26).  NOTHING is
+    # written into the PsII libgraph SDK data block at 0x4AF2E0..0x4AF400.
+    P14_HOOK1 = 0x209820   # VA 0x3097A0  (advance hook; the gate marker word)
+    P14_HOOK2 = 0x2097D0   # VA 0x309750  (draw-shift hook)
+    P14_TBL1  = 0x3C75E4   # file off VA 0x4C7564 (canonical 256B ADV)
+    P14_TBL2  = 0x3C7710   # file off VA 0x4C7690 (canonical 256B LEFTSHIFT)
+    NEW_H1 = RELOC.P14_HOOK1_JWORD   # j RELOC.P14C1_VA (0x4B049C) -- gate marker
+    NEW_H2 = RELOC.P14_HOOK2_JWORD   # j RELOC.P14C2_VA (0x4B047C)
+    p14c1 = RELOC.P14C1_WORDS        # relocated cave1 words (byte-identical)
+    p14c2 = RELOC.P14C2_WORDS        # relocated cave2 words (byte-identical)
+    f_c1  = RELOC.fo(RELOC.P14C1_VA) # file off VA RELOC.P14C1_VA
+    f_c2  = RELOC.fo(RELOC.P14C2_VA) # file off VA RELOC.P14C2_VA
     h1 = struct.unpack_from("<I", data, P14_HOOK1)[0]
     h2 = struct.unpack_from("<I", data, P14_HOOK2)[0]
-    if struct.unpack_from("<I", data, P14_CAVE1)[0] == adv_cave[0] and h1 == 0x08131D50:
-        print("  SKIP: proportional caves already installed")
+    if DISABLE_P27_P14:
+        # CONFIRM build: leave 0x3097A0 / 0x309750 PRISTINE (no j into a cave).
+        # Patch 19/24/25/26 auto-skip (their gate marker @0x209820 stays 0x87A201CE).
+        print("  SKIP Patch 14 DISABLED via DISABLE_P27_P14=1 (battle-root-cause CONFIRM build)")
+    elif h1 == NEW_H1 and struct.unpack_from("<I", data, f_c1)[0] == p14c1[0]:
+        print("  SKIP: in-arena proportional caves already installed")
     elif h1 == 0x87A201CE and h2 == 0x00EC6021:
-        # Stage 1 — advance LUT
-        for i, w in enumerate(adv_cave):
-            struct.pack_into("<I", data, P14_CAVE1 + i * 4, w)
+        RELOC.assert_install_safe(RELOC.P14C1_VA, len(p14c1) * 4, "Patch 14 cave1")
+        RELOC.assert_install_safe(RELOC.P14C2_VA, len(p14c2) * 4, "Patch 14 cave2")
+        # ---- canonical 256B tables (whitelisted resident rodata; caves + P19/25/26 read) ----
+        RELOC.assert_install_safe(0x4C7564, 256, "Patch 14 ADV table", allow_canonical_table=True)
+        RELOC.assert_install_safe(0x4C7690, 256, "Patch 14 LSH table", allow_canonical_table=True)
         data[P14_TBL1:P14_TBL1 + 256] = glyph_metrics.adv_table_256()
-        struct.pack_into("<I", data, P14_HOOK1, 0x08131D50)      # j 0x4C7540
-        struct.pack_into("<I", data, P14_HOOK1 + 4, 0x00000000)  # nop (delay slot)
-        # Stage 2 — draw-shift
-        for i, w in enumerate(shift_cave):
-            struct.pack_into("<I", data, P14_CAVE2 + i * 4, w)
         data[P14_TBL2:P14_TBL2 + 256] = glyph_metrics.leftshift_table_256()
-        struct.pack_into("<I", data, P14_HOOK2, 0x08131D9C)      # j 0x4C7670 (delay slot 0x309754 runs once)
+        # ---- Stage-1 advance cave (relocated @RELOC.P14C1_VA) ----
+        for i, w in enumerate(p14c1):
+            struct.pack_into("<I", data, f_c1 + i * 4, w)
+        struct.pack_into("<I", data, P14_HOOK1, NEW_H1)          # j P14C1_VA (gate marker)
+        struct.pack_into("<I", data, P14_HOOK1 + 4, 0x00000000)  # nop (delay slot)
+        # ---- Stage-2 draw-shift cave (relocated @RELOC.P14C2_VA) ----
+        for i, w in enumerate(p14c2):
+            struct.pack_into("<I", data, f_c2 + i * 4, w)
+        struct.pack_into("<I", data, P14_HOOK2, NEW_H2)          # j 0x4C7670 (delay slot 0x309754 runs once)
         # 3B — per-line re-center x24 -> x18 (the site Patch 13 missed)
         for off, exp, new in [(0x2083E4, 0x00062040, 0x000620C0), (0x2083EC, 0x000420C0, 0x00042040)]:
             if struct.unpack_from("<I", data, off)[0] == exp:
                 struct.pack_into("<I", data, off, new)
-        print(f"  OK   advance LUT @0x4C7540 + draw-shift @0x4C7670 (avg {sum(glyph_metrics.ADV)/95:.1f}px); 3B re-center")
+        print(f"  OK   advance LUT @0x{RELOC.P14C1_VA:06X} + draw-shift @0x{RELOC.P14C2_VA:06X} "
+              f"(RELOCATED below arena; avg {sum(glyph_metrics.ADV)/95:.1f}px); "
+              f"canonical 256B tables @0x4C7564/0x4C7690; gate marker @0x209820=0x{NEW_H1:08X}")
         patched_count += 1
     else:
         print(f"  WARN proportional caves not applied: hook1=0x{h1:08X} hook2=0x{h2:08X}")
@@ -559,8 +651,126 @@ def main():
     # Stage 1+3 ship TOGETHER (advance-without-centering = the documented drift bug); Stage 2 is
     # independent polish.  GATE: only install if Patch 14 installed its resident ADV table
     # (checked via the Patch-14 hook word @0x209820 == 0x08131D50).  file_off = VA - 0xFFF80.
+    # ─── CHARGEN_DIAG: pure read+store instrumentation (replaces Patch 19 when ON) ──
+    # The chargen Block-1 draw site (jal 0x305E30 @VA 0x308030; per-glyph advance
+    # store @VA 0x308040 `addiu v0,v0,0x18` then `sh v0,0x1cc(sp)` @0x308044) is
+    # CHARGEN-EXCLUSIVE — jal 0x305E30 appears EXACTLY ONCE EXE-wide (recon-proven),
+    # so a hook here NEVER fires on narration/request/dialogue/town surfaces.  No
+    # mode gate is needed for surface isolation; surface isolation is structural.
+    #
+    # The cave is a PURE read+store: it clobbers ONLY $at/$t8/$t9 (verified DEAD at
+    # this site — the chargen loop 0x307F30..0x308058 and its tail use only
+    # v0/v1/t0/a0/a1/a2/a3/s0/s1/s2/s3/s5/sp; no $at/$t8/$t9 read across the hook),
+    # re-does the stock 24px advance+store byte-identically, then j 0x308048 (past
+    # the displaced store).  So the shared renderer 0x307DA0 / blitter 0x305E30
+    # behave EXACTLY as in the current monospace build — narration (Patch 14/24) and
+    # request (Patch 22) take their normal paths untouched (this hook is the only
+    # change, and it is on a chargen-only instruction).
+    #
+    # SCRATCH @ RAM 0x4CAAA0 (file 0x3CAB20; 74 verified-zero bytes; off all caves).
+    #   The user reads these dwords from the save's eeMemory.bin (RAM addr == file
+    #   offset for the EXE image; the scratch IS EXE-resident data so eeMemory[
+    #   0x4CAAA0 ..] holds the last-drawn-glyph capture):
+    #     +0x00 gp        : the renderer's LIVE $gp at draw time          (W2 test)
+    #     +0x04 gate(gp)  : mem[$gp-0x62d8] as the renderer's $gp resolves (W2 test)
+    #     +0x08 s5        : live draw-X candidate (return of 0x305E30)     (W4 test)
+    #     +0x0C penX      : sp+0x1cc (the pen Patch 19 wrote)              (W4 test)
+    #     +0x10 s3        : descriptor candidate (box_origin lh 0x3e(s3))
+    #     +0x14 s1        : current glyph-cell pointer
+    #     +0x18 s3+0x290  : Block-1 enable bitfield (bit 0x100)            (R1 test)
+    #     +0x1C s3+0x2a8  : count-reserve gate (==1?)                      (R1 test)
+    #     +0x20 s1+0x290  : per-task-literal field via the cell-ptr base
+    #     +0x24 s1+0x2a8  : per-task-literal field via the cell-ptr base
+    #     +0x28 counter   : ++ each glyph draw (proves the cave FIRED at all)
+    #     +0x2C mode(abs) : mem[0x4FED18] read by ABSOLUTE addr (gp-independent;
+    #                       compare vs +0x04 — if +0x04 != +0x2C the renderer's $gp
+    #                       does NOT resolve the mode global => W2 confirmed).
+    # DECISION TABLE (planner reads scratch from a fresh chargen save):
+    #   * +0x00 gp != 0x504FF0  OR  +0x04 gate != 5  (while +0x2C mode == 5)
+    #         -> W2 CONFIRMED (gp-relative gate fails) -> next-round fix = replace
+    #            the gp gate with a descriptor-field gate (e.g. s3+0x290 & 0x100).
+    #   * +0x00/+0x04 correct (gp==0x504FF0, gate==5) but +0x08 s5 advances by a
+    #     CONSTANT across glyphs while +0x0C penX varies
+    #         -> W4 CONFIRMED (draw-X is s5; sp+0x1cc dead) -> fix = retarget the
+    #            advance into 0x305E30's returned s5.
+    #   * +0x28 counter == 0 in a chargen save -> the draw site was never reached
+    #     for the captured frame (text drew via a different path; re-capture mid-draw
+    #     or escalate to live debugger BP on 0x305E30).
+    DIAG_HOOK   = 0x2080C0   # VA 0x308040  addiu v0,v0,0x18  (pristine stride store head)
+    DIAG_HOOK_ORIG = 0x24420018
+    DIAG_DELAY  = 0x2080C4   # VA 0x308044  sh v0,0x1cc(sp)   -> nop
+    DIAG_DELAY_ORIG = 0xA7A201CC
+    DIAG_CAVE   = 0x3C7810   # VA 0x4C7790 (file 0x3C7810; after Patch-14 LEFTSHIFT tbl)
+    DIAG_J_TO_CAVE = 0x08000000 | (0x4C7790 >> 2)   # j 0x4C7790
+    DIAG_SCRATCH = 0x4CAAA0  # RAM addr the user dumps from eeMemory.bin
+    diag_cave = [
+        0x3C19004C,  # 0x4C7790  lui   t9, 0x4C            ; t9 = hi(scratch)
+        0x3739AAA0,  # 0x4C7794  ori   t9, t9, 0xAAA0      ; t9 = &scratch (0x4CAAA0)
+        0xAF3C0000,  # 0x4C7798  sw    gp, 0(t9)           ; +0x00 = live $gp
+        0x8F819D28,  # 0x4C779C  lw    at, -0x62d8(gp)     ; gate as renderer's gp resolves it
+        0xAF210004,  # 0x4C77A0  sw    at, 4(t9)           ; +0x04 = mem[$gp-0x62d8]
+        0xAF350008,  # 0x4C77A4  sw    s5, 8(t9)           ; +0x08 = s5 (draw-X candidate)
+        0x87A101CC,  # 0x4C77A8  lh    at, 0x1cc(sp)       ; original penX (pre stock advance)
+        0xAF21000C,  # 0x4C77AC  sw    at, 12(t9)          ; +0x0C = penX (sp+0x1cc)
+        0xAF330010,  # 0x4C77B0  sw    s3, 16(t9)          ; +0x10 = s3 (descriptor candidate)
+        0xAF310014,  # 0x4C77B4  sw    s1, 20(t9)          ; +0x14 = s1 (cell ptr)
+        0x8E610290,  # 0x4C77B8  lw    at, 0x290(s3)       ; Block-1 enable bitfield (s3 base)
+        0xAF210018,  # 0x4C77BC  sw    at, 24(t9)          ; +0x18 = mem[s3+0x290]
+        0x926102A8,  # 0x4C77C0  lbu   at, 0x2a8(s3)       ; count-reserve gate (s3 base)
+        0xAF21001C,  # 0x4C77C4  sw    at, 28(t9)          ; +0x1C = mem[s3+0x2a8]
+        0x8E210290,  # 0x4C77C8  lw    at, 0x290(s1)       ; per-task-literal (s1 base)
+        0xAF210020,  # 0x4C77CC  sw    at, 32(t9)          ; +0x20 = mem[s1+0x290]
+        0x922102A8,  # 0x4C77D0  lbu   at, 0x2a8(s1)       ; per-task-literal (s1 base)
+        0xAF210024,  # 0x4C77D4  sw    at, 36(t9)          ; +0x24 = mem[s1+0x2a8]
+        0x8F210028,  # 0x4C77D8  lw    at, 40(t9)          ; fire counter
+        0x24210001,  # 0x4C77DC  addiu at, at, 1
+        0xAF210028,  # 0x4C77E0  sw    at, 40(t9)          ; +0x28 = ++counter
+        0x3C180050,  # 0x4C77E4  lui   t8, 0x50            ; t8 = 0x500000
+        0x8F01ED18,  # 0x4C77E8  lw    at, -0x12E8(t8)     ; mode @0x4FED18 (ABSOLUTE, gp-free)
+        0xAF21002C,  # 0x4C77EC  sw    at, 44(t9)          ; +0x2C = mode(absolute)
+        0x87A201CC,  # 0x4C77F0  lh    v0, 0x1cc(sp)       ; --- stock advance (byte-identical) ---
+        0x24420018,  # 0x4C77F4  addiu v0, v0, 0x18        ; stock 24px monospace
+        0xA7A201CC,  # 0x4C77F8  sh    v0, 0x1cc(sp)       ; stock store (was the nop'd delay slot)
+        0x080C2012,  # 0x4C77FC  j     0x308048            ; rejoin past the original store
+        0x00000000,  # 0x4C7800  nop  (delay)
+    ]
     print("\n--- Patch 19: CHARGEN Path-1 proportional (advance LUT + draw-shift + summed centering) ---")
-    P19_GATE = struct.unpack_from("<I", data, 0x209820)[0]   # Patch-14 HOOK1 (j 0x4C7540)
+    if CHARGEN_DIAG:
+        print("  ** CHARGEN_DIAG ON ** -> install ONLY the read+store diagnostic cave; "
+              "Patch 19 production caves SKIPPED")
+        h = struct.unpack_from("<I", data, DIAG_HOOK)[0]
+        d = struct.unpack_from("<I", data, DIAG_DELAY)[0]
+        cave_free = all(b == 0 for b in data[DIAG_CAVE:DIAG_CAVE + len(diag_cave) * 4])
+        cave_done = struct.unpack_from("<I", data, DIAG_CAVE)[0] == diag_cave[0]
+        # VERIFY hook-site instruction BEFORE patching (struct.unpack_from of the
+        # known stride store head + its delay slot).
+        if h == DIAG_J_TO_CAVE and cave_done:
+            print(f"  SKIP 0x{DIAG_HOOK:06X}: diagnostic cave already installed")
+        elif h == DIAG_HOOK_ORIG and d == DIAG_DELAY_ORIG and (cave_free or cave_done):
+            for i, w in enumerate(diag_cave):
+                struct.pack_into("<I", data, DIAG_CAVE + i * 4, w)
+            struct.pack_into("<I", data, DIAG_HOOK, DIAG_J_TO_CAVE)   # j 0x4C7790
+            struct.pack_into("<I", data, DIAG_DELAY, 0x00000000)      # delay slot -> nop
+            # VERIFY cave bytes AFTER assembling (struct.unpack_from round-trip).
+            for i, w in enumerate(diag_cave):
+                got = struct.unpack_from("<I", data, DIAG_CAVE + i * 4)[0]
+                assert got == w, f"diag cave verify FAIL @word {i}: {got:#010x} != {w:#010x}"
+            assert struct.unpack_from("<I", data, DIAG_HOOK)[0] == DIAG_J_TO_CAVE
+            assert struct.unpack_from("<I", data, DIAG_DELAY)[0] == 0
+            print(f"  OK   0x{DIAG_HOOK:06X}: addiu v0,v0,0x18 -> j 0x4C7790 (diag cave); delay -> nop")
+            print(f"  OK   0x{DIAG_CAVE:06X}: {len(diag_cave)*4}-byte read+store cave -> scratch @0x{DIAG_SCRATCH:06X}")
+            print(f"  ---  scratch layout: +0 gp / +4 gate(gp) / +8 s5 / +0xC penX / +0x10 s3 / "
+                  f"+0x14 s1 / +0x18 s3+290 / +0x1C s3+2a8 / +0x20 s1+290 / +0x24 s1+2a8 / "
+                  f"+0x28 counter / +0x2C mode(abs)")
+            patched_count += 1
+        else:
+            print(f"  WARN diag NOT applied: hook=0x{h:08X} delay=0x{d:08X} "
+                  f"cave_free={cave_free} cave_done={cave_done} -- Patch 19 region left as-is")
+        # IMPORTANT: when DIAG is ON we do NOT run the production Patch-19 install
+        # below (its hooks 0x308040/0x308018 would collide with the diag hook).
+        P19_GATE = None
+    else:
+        P19_GATE = struct.unpack_from("<I", data, 0x209820)[0]   # Patch-14 HOOK1 (j 0x4C7540)
     # v122 RECON (chargenspaces.p2s, fresh, gp-0x62d8==5 CONFIRMED): the glyph cell at
     # lh 0x40(s1) is (char-32) << 8 — memory bytes [0x00, char-32], char-32 in the HIGH
     # byte of the LE halfword.  PROVEN: "Lives to hoard gold." @0xE148B2 decodes as cells
@@ -609,56 +819,34 @@ def main():
         0x080C2007,  # DONE: j 0x30801C
         0x00000000,  # nop
     ]
-    # cave3 (summed-width centering) @ VA 0x4D66A0 / file 0x3D6720  -> j 0x307FD8
-    p19_cave3 = [
-        0x8F899D28,  # lw   $t1, -0x62d8($gp)    ; t1 = screen mode
-        0x240A0005,  # li   $t2, 5
-        0x152A0014,  # bne  $t1, $t2, STOCK(0x4D66FC) ; mode!=5 -> stock count*12
-        0x87A201CC,  # lh   $v0, 0x1cc($sp)      ; (delay) pen (=0 at line start)
-        0x26660040,  # addiu $a2, $s3, 0x40      ; a2 = &glyph[0]
-        0x00004021,  # move  $t0, $zero          ; t0 = SUM
-        0x3C04004C,  # lui   $a0, 0x4C           ; a0 = 0x4C0000 (resident ADV @+0x7564)
-        0x84C50000,  # LOOP: lh $a1, 0($a2)      ; a1 = cell (signed)
-        0x240BFFFF,  # li    $t3, -1
-        0x10AB0009,  # beq   $a1, $t3, DONE(0x4D66EC) ; 0xFFFF terminator (matches draw loop)
-        0x00053A02,  # srl   $a3, $a1, 8         ; (delay) char-32 / break-code
-        0x2CE10060,  # sltiu $at, $a3, 0x60      ; at=1 iff real glyph (<0x60); 0xFE break => 0
-        0x10200003,  # beq   $at, $zero, SKIP(0x4D66E0) ; skip 0xFEFF line-break cell
-        0x00873821,  # addu  $a3, $a0, $a3       ; (delay)
-        0x90E77564,  # lbu   $a3, 0x7564($a3)    ; ADV[char-32]
-        0x01074021,  # addu  $t0, $t0, $a3       ; SUM += ADV
-        0x24C60002,  # SKIP: addiu $a2, $a2, 2
-        0x1000FFF5,  # b     LOOP(0x4D66BC)
-        0x00000000,  # nop  (delay)
-        0x00084043,  # DONE: sra $t0, $t0, 1     ; SUM/2
-        0x00481023,  # subu  $v0, $v0, $t0       ; pen -= SUM/2 (center origin)
-        0x10000005,  # b     WRITE(0x4D670C)
-        0x00000000,  # nop
-        0x00052040,  # STOCK: sll $a0, $a1, 1    ; original count*12 reserve
-        0x00852021,  # addu  $a0, $a0, $a1
-        0x00042080,  # sll   $a0, $a0, 2         ; a0 = a1*12
-        0x00441023,  # subu  $v0, $v0, $a0
-        0xA7A201CC,  # WRITE: sh $v0, 0x1cc($sp)
-        0x080C1FF6,  # j     0x307FD8            ; existing store/continue target
-        0x00000000,  # nop
-    ]
-    P19_H1, P19_C1, P19_J1 = 0x2080C0, 0x3D6680, 0x08135980  # VA 0x308040 / cave1 0x4D6600
-    P19_H2, P19_C2, P19_J2 = 0x208098, 0x3D66E0, 0x08135998  # VA 0x308018 / cave2 0x4D6660
-    P19_H3, P19_C3, P19_J3 = 0x20803C, 0x3D6720, 0x081359A8  # VA 0x307FBC / cave3 0x4D66A0
+    # v148 P2 CLEANUP: the Stage-3 summed-width-centering cave (formerly p19_cave3 @VA
+    # 0x4D66A0) was NEVER hooked (stock count*12 reserve cancels s7 -> already left-anchored;
+    # see the rationale below).  Its dead word-list + constants P19_H3/C3/J3 are DELETED in
+    # v148 -- they were footguns (an in-arena placement that nothing referenced).
+    # v148 BATTLE-ARENA EVACUATION: cave1 0x4D6600 -> RELOC.P19C1_VA (0x4AB5A8),
+    # cave2 0x4D6660 -> RELOC.P19C2_VA (0x4AFA70), both verified-zero .text padding.
+    # The cave words are BYTE-IDENTICAL (internal branches are PC-relative -> invariant;
+    # `j 0x308048`/`j 0x30801C` rejoins + ADV/LSH table reads are absolute -> unchanged);
+    # only the cave base + each hook's j-immediate change.  (Stage-3 cave3 @0x4D66A0 was
+    # NEVER hooked -- its dead constants P19_H3/C3/J3 are removed in v148.)
+    P19_H1, P19_C1, P19_J1 = 0x2080C0, RELOC.fo(RELOC.P19C1_VA), RELOC.P19C1_HOOK_JWORD  # VA 0x308040 / cave1
+    P19_H2, P19_C2, P19_J2 = 0x208098, RELOC.fo(RELOC.P19C2_VA), RELOC.P19C2_HOOK_JWORD  # VA 0x308018 / cave2
     # v122: RE-ENABLED.  The v120 revert reasons are both resolved:
     #  (1) "andi 0xFF -> gid=0" -> caves now read the HIGH byte (srl 8); chargenspaces.p2s
     #      confirms cells are (char-32)<<8, so srl 8 yields the correct glyph index.
     #  (2) "no request/chargen discriminator" -> all three stages now gate on the screen-mode
     #      global lw $at,-0x62d8($gp) == 5 (chargen).  mostbroken(request)=7 -> stock fallback.
-    if P19_GATE != 0x08131D50:
+    if CHARGEN_DIAG:
+        # DIAG path already installed above; production Patch-19 caves are intentionally
+        # NOT installed (they would collide with the diagnostic hook at 0x308040).
+        pass
+    elif P19_GATE != RELOC.NEW_GATE_MARKER:
         print(f"  WARN Patch 14 not installed (hook=0x{P19_GATE:08X}) -> Patch 19 SKIPPED")
     else:
         h1 = struct.unpack_from("<I", data, P19_H1)[0]
         h2 = struct.unpack_from("<I", data, P19_H2)[0]
-        h3 = struct.unpack_from("<I", data, P19_H3)[0]
         c1_free = all(b == 0 for b in data[P19_C1:P19_C1 + len(p19_cave1) * 4])
         c2_free = all(b == 0 for b in data[P19_C2:P19_C2 + len(p19_cave2) * 4])
-        c3_free = all(b == 0 for b in data[P19_C3:P19_C3 + len(p19_cave3) * 4])
         c1_done = struct.unpack_from("<I", data, P19_C1)[0] == p19_cave1[0]
         already = (h1 == P19_J1 and h2 == P19_J2 and c1_done)  # Stage 3 intentionally unhooked
         # STAGE 3 INTENTIONALLY NOT HOOKED (v122 draw-math recon).  The draw-X is
@@ -671,12 +859,14 @@ def main():
         #   were "too wide" purely from the 24px monospace advance, NOT mis-centering).
         #   Re-routing 0x1cc to -SUM/2 would leave the s7=count*12 term UNCANCELLED and
         #   shove the text right by count*12 - SUM/2 (a regression).  So Stage 3 stays
-        #   pristine (stock count*12 reserve cancels s7); p19_cave3 is retained above for
-        #   reference only.  Stage 1 + Stage 2 are the shipped fix.
+        #   pristine (stock count*12 reserve cancels s7); the dead Stage-3 cave was DELETED
+        #   in v148 (P2 cleanup).  Stage 1 + Stage 2 are the shipped fix.
         if already:
             print("  SKIP: chargen proportional caves already installed")
         elif (h1 == 0x24420018 and h2 == 0x87A301CC
               and (c1_free or c1_done) and c2_free):
+            RELOC.assert_install_safe(RELOC.P19C1_VA, len(p19_cave1) * 4, "Patch 19 cave1")
+            RELOC.assert_install_safe(RELOC.P19C2_VA, len(p19_cave2) * 4, "Patch 19 cave2")
             # Stage 1 — advance LUT cave + trampoline (also nop the displaced store @0x308044)
             for i, w in enumerate(p19_cave1):
                 struct.pack_into("<I", data, P19_C1 + i * 4, w)
@@ -686,13 +876,337 @@ def main():
             for i, w in enumerate(p19_cave2):
                 struct.pack_into("<I", data, P19_C2 + i * 4, w)
             struct.pack_into("<I", data, P19_H2, P19_J2)          # j cave2
-            print(f"  OK   Stage 1 advance LUT  @0x4D6600 (hook 0x308040, gate mode==5, ADV 0x7564, srl-8)")
-            print(f"  OK   Stage 2 draw-shift   @0x4D6660 (hook 0x308018, gate mode==5, LEFTSHIFT 0x7690)")
+            print(f"  OK   Stage 1 advance LUT  @0x{RELOC.P19C1_VA:06X} (hook 0x308040, gate mode==5, ADV 0x7564, srl-8)")
+            print(f"  OK   Stage 2 draw-shift   @0x{RELOC.P19C2_VA:06X} (hook 0x308018, gate mode==5, LEFTSHIFT 0x7690)")
             print(f"  ---  Stage 3 NOT hooked: stock count*12 cancels s7 -> left-anchored proportional")
             patched_count += 1
         else:
             print(f"  WARN Patch 19 not applied: h1=0x{h1:08X} h2=0x{h2:08X} "
                   f"c1_free={c1_free} c2_free={c2_free}")
+
+    # ─── PATCH 26: CHARGEN body text PROPORTIONAL (the REAL renderer, func 0x307510) ──
+    # Patch 19 was LIVE-PROVEN INERT: it hooks the dead `jal 0x305E30` Block-1 path
+    # (CHARGEN_DIAG cave recorded fire-counter==0 while mode 0x4FED18==5; see memory
+    # project_chargen_drawpath_falsified).  recon3+recon4 traced the ACTUAL chargen text
+    # renderer to func 0x307510 (Loop A: 0x307DA0 line-walk -> 0x307510 glyph blit ->
+    # 0x3060B0 sprite emit).  Its per-glyph advance is MONOSPACE, branch-selected by the
+    # caller's font SIZE arg [sp+0xE0]==[sp+0x178] at the 0x3079D0 bne (==100 integer
+    # 0x3079DC / !=100 float 0x3079E8 -- BOTH constant strides, neither proportional).
+    #
+    # FIX = ONE hook + ONE cave that advances the cursor by the resident Patch-14 ADV
+    # width (table @0x4C7564) per glyph, gated to chargen (mem[0x4FED18]==5).  The hook
+    # sits at 0x3079CC, ONE instr BEFORE the size bne, so it covers BOTH branches (the
+    # integer-vs-float question is MOOT).  mode!=5 falls through to a byte-identical STOCK
+    # -> ZERO blast radius on the ~10 other size-100 callers (town/shop menus, name-entry,
+    # status).  Loop A is a plain L->R cursor walk with NO centering reserve, so
+    # proportional advance cannot mis-center.
+    #
+    # Two corrections vs recon4-R4's draft cave (both load-bearing):
+    #  (1) v1 PRESERVED: v1 holds the literal 100 (set @0x3079BC, inside the loop) that the
+    #      0x3079D0 `bne v0,v1` needs.  The draft clobbered v1 with the gate constant, which
+    #      would have made the STOCK `bne v0,5` -> broke size-select for every non-chargen
+    #      caller.  The gate constant lives in a0 (dead here) instead; v1 is untouched on
+    #      the STOCK path (chargen path may clobber it -- re-set @0x3079BC next glyph).
+    #  (2) ABSOLUTE mode read (lui 0x50 / lw -0x12E8) instead of gp-relative, removing the
+    #      unconfirmed $gp-resolves-the-mode-global risk (the round-2 W2 hypothesis).
+    #
+    # gid recovery (no live glyph reg at the advance): re-run the loop fetch -- s7 indexes a
+    # BE-u16 glyph-id table at s1 and only ++ at the tail 0x307A10 (AFTER the advance), so
+    # 0(s7) still points at the CURRENT glyph.  ASCII guard sltiu<95 -> kanji over-index
+    # falls to STOCK (stock mono stride for that glyph).
+    #
+    # CAVE VA 0x4C7790 is SHARED with the CHARGEN_DIAG cave -> Patch 26 installs only in
+    # PRODUCTION (not CHARGEN_DIAG).  Gated on Patch-14 installed (0x209820==0x08131D50,
+    # the resident ADV table).  Stat abbrevs Str/Int/... + Sex/Race/Align/Class/tabs/OK are
+    # R2138 sub7 pre-rendered SPRITES (different compositor) -- EXPECTED to stay unchanged;
+    # Patch 26 fixes the chargen BODY text only.  Request text is a SEPARATE path (Loop B /
+    # Patch-25) -- NOT touched here.  (All cross-refs to other patches are hyphenated on
+    # purpose: the Patch-25 scope test isolates its block with a find() on the spaced
+    # banner string, so an un-hyphenated mention here would hijack that anchor.)
+    # v148 BATTLE-ARENA EVACUATION: the production cave moves 0x4C7790 -> RELOC.P26_VA
+    # (0x4B0414), verified-zero .text padding.  The cave's two internal branches to STOCK
+    # are PC-relative (invariant) and the `j 0x307A00`/`j 0x3079D0` rejoins + the ADV table
+    # read are absolute (unchanged), so the 26 words ship BYTE-IDENTICAL; only the cave base
+    # + the hook's j-immediate change.  (The CHARGEN_DIAG debug cave still uses 0x4C7790 --
+    # it is mutually exclusive with production Patch 26 and out of the battle-path arena.)
+    print("\n--- Patch 26: CHARGEN body text PROPORTIONAL (real renderer 0x307510 Loop A) [v148 RELOCATED] ---")
+    P26_HOOK = 0x207A4C            # VA 0x3079CC, pristine 0x8FA200E0 (lw v0,0xe0(sp))
+    P26_CAVE = RELOC.fo(RELOC.P26_VA)   # VA RELOC.P26_VA (0x4B0414)
+    P26_J_TO_CAVE = RELOC.P26_HOOK_JWORD  # j RELOC.P26_VA
+    P26_CAVE_WORDS = [
+        0x3C010050,  # lui   at,0x50
+        0x8C21ED18,  # lw    at,-0x12E8(at)   ; at = mem[0x4FED18] (mode, abs)
+        0x24040005,  # addiu a0,zero,5
+        0x14240014,  # bne   at,a0,+0x14      ; mode!=5 -> STOCK (PC-rel, invariant)
+        0x00000000,  # 0x4C77A0  nop
+        0x96E20000,  # 0x4C77A4  lhu   v0,0(s7)         ; current glyph INDEX
+        0x00021040,  # 0x4C77A8  sll   v0,v0,1
+        0x02221021,  # 0x4C77AC  addu  v0,s1,v0
+        0x90430000,  # 0x4C77B0  lbu   v1,0(v0)
+        0x90440001,  # 0x4C77B4  lbu   a0,1(v0)
+        0x00031A00,  # 0x4C77B8  sll   v1,v1,8
+        0x00641025,  # 0x4C77BC  or    v0,v1,a0         ; BE-u16 glyph id
+        0x3042FFFF,  # 0x4C77C0  andi  v0,v0,0xffff
+        0x2C41005F,  # 0x4C77C4  sltiu at,v0,95         ; ASCII guard
+        0x10200009,  # 0x4C77C8  beqz  at,0x4C77F0      ; gid>=95 -> STOCK
+        0x00000000,  # 0x4C77CC  nop
+        0x86430000,  # 0x4C77D0  lh    v1,0(s2)         ; cursor X
+        0x3C01004C,  # 0x4C77D4  lui   at,0x4C
+        0x00220821,  # 0x4C77D8  addu  at,at,v0
+        0x90217564,  # 0x4C77DC  lbu   at,0x7564(at)    ; ADV[gid]
+        0x00611821,  # 0x4C77E0  addu  v1,v1,at         ; cursor += ADV
+        0xA6430000,  # 0x4C77E4  sh    v1,0(s2)
+        0x080C1E80,  # 0x4C77E8  j     0x307A00         ; loop tail (proportional done)
+        0x00000000,  # 0x4C77EC  nop
+        0x080C1E74,  # 0x4C77F0  j     0x3079D0         ; STOCK: original size-select bne
+        0x8FA200E0,  # 0x4C77F4  lw    v0,0xe0(sp)      ; (delay) displaced hook insn; v1 intact
+    ]
+    P26_GATE = struct.unpack_from("<I", data, 0x209820)[0]   # Patch-14 hook (j 0x4C7540)
+    if CHARGEN_DIAG:
+        print("  ** CHARGEN_DIAG ON ** -> Patch 26 SKIPPED (diag owns cave 0x4C7790)")
+    elif P26_GATE != RELOC.NEW_GATE_MARKER:
+        print(f"  WARN Patch 14 not installed (hook=0x{P26_GATE:08X}) -> Patch 26 SKIPPED")
+    else:
+        hook_now = struct.unpack_from("<I", data, P26_HOOK)[0]
+        cave_free = all(
+            struct.unpack_from("<I", data, P26_CAVE + i * 4)[0] == 0
+            for i in range(len(P26_CAVE_WORDS))
+        )
+        if hook_now == 0x8FA200E0 and cave_free:
+            RELOC.assert_install_safe(RELOC.P26_VA, len(P26_CAVE_WORDS) * 4, "Patch 26 cave")
+            for i, w in enumerate(P26_CAVE_WORDS):
+                struct.pack_into("<I", data, P26_CAVE + i * 4, w)
+            struct.pack_into("<I", data, P26_HOOK, P26_J_TO_CAVE)   # j RELOC.P26_VA
+            assert struct.unpack_from("<I", data, P26_HOOK)[0] == P26_J_TO_CAVE
+            assert struct.unpack_from("<I", data, P26_CAVE)[0] == 0x3C010050
+            patched_count += 1
+            print(f"  OK   0x3079CC -> j 0x{RELOC.P26_VA:06X}; 26-word ADV cave (abs mode==5 gate, "
+                  "ADV 0x7564, v1-preserving STOCK); chargen body now proportional")
+        else:
+            print(f"  WARN Patch 26 not applied: hook=0x{hook_now:08X} cave_free={cave_free}")
+
+    # ─── FIRE_DIAG: box-renderer fire-counter (env FIRE_DIAG=1; pure read+store) ──────
+    if FIRE_DIAG:
+        print("\n--- FIRE_DIAG: box-renderer fire-counter (FIRE_DIAG=1) ---")
+        FD_SCRATCH = 0x4DE060   # VA; eeMemory offset == VA; verified zero pristine+patched
+        FD_CAVE = 0x4C7410      # VA; RUNTIME-RESIDENT free run (180B) beside the proven-live
+                                # Patch-14 cave.  The old 0x4B0E00 is in a churn band the game
+                                # OVERWRITES at runtime (live-confirmed) -> trampolines destroyed
+                                # -> counters never incremented / high-freq hooks crashed.
+        # $t8 (ptr) + $t0 (mode base) + $at (value): all DEAD at a function entry AND
+        # PRESERVED across interrupts (the EE int handler saves/restores GPRs).  Do NOT
+        # use $k0/$k1 here -- the int handler uses them as its own scratch and does NOT
+        # preserve them, so a VBlank/DMA interrupt landing inside a high-frequency hook
+        # (0x483E10/0x3B8820 fire 1000s/frame) corrupts the scratch ptr -> garbage store
+        # -> black-screen crash.  And NOT $t9 -- it carries the PIC entry addr for .cpload.
+        AT, A0, A1, RP, RM, SP, RA = 1, 4, 5, 24, 8, 29, 31
+
+        def _efo(va):
+            return va - 0x100000 + 0x80
+
+        def _j(va):
+            return 0x08000000 | ((va >> 2) & 0x03FFFFFF)
+
+        def _lui(rt, imm):
+            return (0x0F << 26) | (rt << 16) | (imm & 0xFFFF)
+
+        def _ori(rt, rs, imm):
+            return (0x0D << 26) | (rs << 21) | (rt << 16) | (imm & 0xFFFF)
+
+        def _itype(op, rt, base, off):
+            return (op << 26) | (base << 21) | (rt << 16) | (off & 0xFFFF)
+
+        def _lw(rt, base, off):
+            return _itype(0x23, rt, base, off)
+
+        def _sw(rt, base, off):
+            return _itype(0x2B, rt, base, off)
+
+        def _lh(rt, base, off):
+            return _itype(0x21, rt, base, off)
+
+        def _sh(rt, base, off):
+            return _itype(0x29, rt, base, off)
+
+        def _addiu(rt, rs, imm):
+            return _itype(0x09, rt, rs, imm)
+
+        SCR_HI, SCR_LO = FD_SCRATCH >> 16, FD_SCRATCH & 0xFFFF
+        # (entry VA, counter slot, capture-args?)
+        FD_HOOKS = [
+            (0x3A3300, 0x00, True),    # draw_clamp12 (THE crux) + capture a0/a1/pitch/track/mode
+            (0x3A2E10, 0x14, False),   # glyph-blit
+            (0x483E10, 0x18, False),   # gsemit (universal sprite emit)
+            (0x307510, 0x1C, False),   # the "eliminated" chargen sub-formatter
+            (0x15CBC0, 0x20, False),   # request field drawer
+            (0x1552B0, 0x24, False),   # menu list
+            (0x165C60, 0x28, False),   # menu panel
+            (0x3B8820, 0x2C, False),   # GIF builder
+            (0x307DA0, 0x30, False),   # narration/dialogue host (control)
+            (0x305E30, 0x34, False),   # old Block-1 chargen blit (control)
+        ]
+
+        # FIRE_SET=min -> install ONLY the menu-level renderers as SIMPLE counters (no
+        # [sp] arg-capture).  Excludes the high-frequency engine emitters (blit 0x3A2E10,
+        # gsemit 0x483E10, GIF builder 0x3B8820) + the dialogue host 0x307DA0 -- those fire
+        # 1000s/frame in the DMA/render path and a detour there can disturb timing / black-
+        # screen on boot.  The kept set still answers the only question that matters: which
+        # renderer draws the box text (clamp12 0x3A3300 vs 0x307510 vs neither) and via
+        # which caller (0x15CBC0/0x1552B0/0x165C60).  Default ("all") installs everything.
+        FIRE_SET = os.environ.get("FIRE_SET", "all")
+        if FIRE_SET == "min":
+            _keep = {0x3A3300, 0x3A2E10, 0x483E10, 0x15CBC0}
+            # 0x3A2E10 (glyph-blit) is reached by jalr from the text WALKER -> capture $ra
+            # (the walker's return addr) + a0/a1 to NAME the indirect-dispatched renderer.
+            FD_HOOKS = [
+                (va, slot, ("ra" if va == 0x3A2E10 else None))
+                for (va, slot, cap) in FD_HOOKS if va in _keep
+            ]
+            print(f"  (FIRE_SET=min: {len(FD_HOOKS)} menu-level hooks, simple counters only)")
+
+        def _is_branch(x):  # reject PC-relative words from being relocated into the cave
+            op = x >> 26
+            if op in (0x02, 0x03, 0x01) or 0x04 <= op <= 0x07 or 0x14 <= op <= 0x17:
+                return True
+            if op == 0 and (x & 0x3F) in (0x08, 0x09):  # jr/jalr
+                return True
+            if op == 0x11 and ((x >> 21) & 0x1F) == 0x08:  # bc1
+                return True
+            return False
+
+        tramp = FD_CAVE
+        installs = []
+        fd_ok = True
+        for (va, slot, cap) in FD_HOOKS:
+            e = _efo(va)
+            w0 = struct.unpack_from("<I", data, e)[0]
+            w1 = struct.unpack_from("<I", data, e + 4)[0]
+            if (w0 & 0xFFFF0000) != 0x27BD0000:
+                print(f"  WARN {va:#08x}: entry w0=0x{w0:08X} is not addiu sp,sp -> FIRE_DIAG ABORTED")
+                fd_ok = False
+                break
+            if _is_branch(w1):
+                print(f"  WARN {va:#08x}: entry+4 w1=0x{w1:08X} is PC-relative (cannot relocate) -> ABORTED")
+                fd_ok = False
+                break
+            words = [
+                _lui(RP, SCR_HI), _ori(RP, RP, SCR_LO),
+                _lw(AT, RP, slot), _addiu(AT, AT, 1), _sw(AT, RP, slot),
+            ]
+            if cap == "ra":
+                # Name the indirect-dispatched walker: $ra at the blit entry = the call site
+                # INSIDE the walker (instruction after its jal/jalr 0x3A2E10).  Plus the last
+                # glyph args.  ra/a0/a1 are live-at-entry and sp-independent -> capture as-is.
+                words += [
+                    _sw(RA, RP, 0x40),   # caller return addr (the WALKER)  <== KEY
+                    _sw(A0, RP, 0x44),   # arg0
+                    _sw(A1, RP, 0x48),   # arg1
+                ]
+            elif cap:
+                words += [
+                    _sw(A0, RP, 0x04), _sw(A1, RP, 0x08),        # flags, count (read before sp moves)
+                    _lh(AT, SP, 0x00), _sh(AT, RP, 0x0C),        # pitch  ([sp+0x110] post-prologue == [sp+0] here)
+                    _lh(AT, SP, 0x10), _sh(AT, RP, 0x0E),        # track  ([sp+0x120] == [sp+0x10] here)
+                    _lui(RM, 0x50), _lw(AT, RM, 0xED18), _sw(AT, RP, 0x10),  # mode @0x4FED18 (absolute)
+                ]
+            words += [w0, w1, _j(va + 8), 0x00000000]   # re-exec displaced 2-word prologue, rejoin entry+8
+            tfo = _efo(tramp)
+            if any(struct.unpack_from("<I", data, tfo + i * 4)[0] != 0 for i in range(len(words))):
+                print(f"  WARN cave @0x{tramp:X} not all-zero for {va:#08x} -> ABORTED")
+                fd_ok = False
+                break
+            for i, wd in enumerate(words):
+                struct.pack_into("<I", data, tfo + i * 4, wd)
+            struct.pack_into("<I", data, e, _j(tramp))       # entry  -> j tramp
+            struct.pack_into("<I", data, e + 4, 0x00000000)  # delay  -> nop (2nd insn moved into cave)
+            installs.append((va, tramp, len(words)))
+            tramp += len(words) * 4
+        if fd_ok:
+            # scratch ships zero in the EXE image (verified) and accumulates at runtime.
+            patched_count += 1
+            print(f"  OK   {len(installs)} entry hooks -> trampolines 0x4B0E00..0x{tramp:X}; "
+                  f"counters @0x4DE060 (k0/k1, 2-word displaced + nop slot, j entry+8)")
+            for va, t, n in installs:
+                print(f"       0x{va:06X} -> j 0x{t:X}  ({n} words)")
+
+    # ─── PATCH 27: BOX-TEXT PROPORTIONAL spacing (the REAL renderer, func 0x3A2EF0) ─────
+    # THE fix.  After the whole hunt, the FIRE_DIAG $ra-capture proved chargen Status text
+    # AND the tavern request body/labels are drawn by func 0x3A2EF0 (a char-32 glyph-stream
+    # renderer just before draw_clamp12) -- NOT 0x305E30/0x307510/0x308xxx/draw_clamp12
+    # (all live-proven dead/0 for this text).  Its per-glyph X cursor s1 advances by a
+    # CONSTANT monospace pitch [sp+0xD0] at 0x3A31A0-0x3A31B4 (glyph X = baseX[sp+0xE0]+s1;
+    # s1 reset to 0 on 0xFFFE linebreak).  Proportional = advance by ADV[gid] instead.
+    #
+    # Hook 0x3A31A0 (the pitch load) -> cave; gid recovered via lbu v1,-1(s2) (s2 already
+    # bumped +2; gid is char-32 <95 so the hi byte is 0 -> index the resident Patch-14 ADV
+    # table @0x4C7564 DIRECTLY, no +0x20).  Left-anchored renderer -> advance-only fix, no
+    # centering coupling.  GATE: 0x3A2EF0 is NOT text-exclusive (its wrapper 0x3A3260 has
+    # ~250 callers), so gate on mode mem[0x4FED18]: ==5 (chargen) OR ==7 (request) ->
+    # proportional, else byte-identical STOCK (re-does the original pitch path).  NOTE mode 7
+    # is shared by request + town menus -> some town menus may also go proportional; flagged
+    # for playtest.  Cave @0x4C7410 (resident, verified live; the FIRE_DIAG cave reuses it ->
+    # Patch 27 installs only in PRODUCTION, not FIRE_DIAG).  Gated on Patch-14 installed.
+    if DISABLE_P27_P14:
+        # CONFIRM build: leave 0x3A31A0 / 0x3A31A4 PRISTINE -- no j into a relocated cave.
+        print("\n--- Patch 27: SKIPPED via DISABLE_P27_P14=1 (battle-root-cause CONFIRM build) ---")
+    elif not FIRE_DIAG:
+        print("\n--- Patch 27: BOX-TEXT proportional (real renderer 0x3A2EF0, mode 5/7 gated) [v147 RELOCATED] ---")
+        P27_HOOK = 0x2A3220      # VA 0x3A31A0, pristine 0x8FA300D0 (lw v1,0xD0(sp) = pitch)
+        P27_DELAY = 0x2A3224     # VA 0x3A31A4, pristine 0x00031C3C (dsll32) -> nop
+        # v147 BATTLE-FIX (SIMPLIFIED): the cave is RELOCATED out of the heap arena (was VA
+        # 0x4C7410, which SOME battle phases heap-stomp -> `j 0x4C7410` jumped into garbage ->
+        # no monsters/abort; PROVEN: word0 0x3C030050 -> 0x3C010050 in battlebreak/fightsoftlock
+        # dumps).  New home = RELOC.P27_VA in verified-safe code-segment padding (pad after a
+        # `jr ra` epilogue, zero in pristine + every live dump).  The cave is BYTE-FAITHFUL to
+        # the production 0x4C7410 cave -- it reads the CANONICAL 256-byte ADV table directly
+        # (lbu 0x7564(0x4C0000), intact across all dumps).  NO table relocation, NO ASCII guard,
+        # NO 95-byte shrink.  Mode gate via $v1 (chargen==5 / request==7) -> battle takes the
+        # register-faithful STOCK path.  Only the cave base + its hook's j-target changed.
+        P27_CAVE = RELOC.fo(RELOC.P27_VA)
+        P27_J_TO_CAVE = RELOC.P27_HOOK_JWORD   # j RELOC.P27_VA
+        P27_CAVE_WORDS = RELOC.P27_WORDS
+        P27_GATE = struct.unpack_from("<I", data, 0x209820)[0]   # Patch-14 marker (relocated)
+        if P27_GATE != RELOC.NEW_GATE_MARKER:
+            print(f"  WARN Patch 14 not installed (hook=0x{P27_GATE:08X}) -> Patch 27 SKIPPED")
+        else:
+            hook_now = struct.unpack_from("<I", data, P27_HOOK)[0]
+            cave_free = all(
+                struct.unpack_from("<I", data, P27_CAVE + i * 4)[0] == 0
+                for i in range(len(P27_CAVE_WORDS))
+            )
+            if hook_now == 0x8FA300D0 and cave_free:
+                RELOC.assert_install_safe(RELOC.P27_VA, len(P27_CAVE_WORDS) * 4, "Patch 27 cave")
+                for i, wd in enumerate(P27_CAVE_WORDS):
+                    struct.pack_into("<I", data, P27_CAVE + i * 4, wd)
+                struct.pack_into("<I", data, P27_HOOK, P27_J_TO_CAVE)     # j RELOC.P27_VA
+                struct.pack_into("<I", data, P27_DELAY, 0x00000000)       # delay -> nop
+                assert struct.unpack_from("<I", data, P27_HOOK)[0] == P27_J_TO_CAVE
+                assert struct.unpack_from("<I", data, P27_CAVE)[0] == P27_CAVE_WORDS[0]
+                patched_count += 1
+                print(f"  OK   0x3A31A0 -> j 0x{RELOC.P27_VA:06X} (RELOCATED below arena); "
+                      f"{len(P27_CAVE_WORDS)}-word cave (gid lbu -1(s2), canonical ADV @0x{RELOC.ADV_VA:06X}, "
+                      "mode==5/7 gate via $v1 -> battle-safe STOCK path); chargen + request box text proportional")
+            else:
+                print(f"  WARN Patch 27 not applied: hook=0x{hook_now:08X} cave_free={cave_free}")
+
+    # ─── PATCH 28: CHARGEN race-list nudge-left (use the empty parchment margin) ─────────
+    # On the race-select screen the 6-row race list (Human/Elf/Gnome/Dwarf/Hobbit/+) reads its
+    # per-row origin from coord table 0x4D0270 (X=16, Y=16..96).  After Patch 27 the proportional
+    # wide-letter names ("Human" m=23px) push further right and "Hobbit" spills off the panel into
+    # the portrait, while there is ~54px of empty parchment to the LEFT.  Shift the 6 race rows'
+    # X from +16 to -8 (24px left) into that margin.  Group-2 (classes @0x4D0290) + group-3 (stats
+    # @0x4D02C0) are SEPARATE rows and untouched.  Pure data edit; reversible.
+    print("\n--- Patch 28: chargen race-list nudge-left (coord table 0x4D0270, -24px) ---")
+    P28_TBL = 0x3D02F0       # file off of VA 0x4D0270 (race rows)
+    p28_ok = all(struct.unpack_from("<H", data, P28_TBL + i * 4)[0] == 16 for i in range(6))
+    if p28_ok:
+        for i in range(6):
+            struct.pack_into("<h", data, P28_TBL + i * 4, -8)   # X: 16 -> -8 (24px left)
+        patched_count += 1
+        print("  OK   6 race rows X 16 -> -8 (list shifts 24px left into the margin)")
+    else:
+        rows = [struct.unpack_from("<H", data, P28_TBL + i * 4)[0] for i in range(6)]
+        print(f"  WARN race coord rows not all X=16 ({rows}) -> Patch 28 SKIPPED")
 
     # ─── PATCH 20: NARRATION FIXED LEFT-MARGIN origin (replaces summed-width centering) ──
     # USER PREFERENCE (aheavyfog.p2s / noonewasinsight.p2s screenshots): narration must be
@@ -922,14 +1436,18 @@ def main():
     # override t2 with 96; otherwise leave the real boxX so dialogue/request are
     # byte-identical.  Hook's delay slot (0x309740 lh v1,0x3e(s0)) still runs; the
     # cave rejoins at 0x309744.
-    print("\n--- Patch 24: NARRATION boxX=+96 via draw-X load @0x30973c (gated boxX==0) ---")
+    # v148 BATTLE-ARENA EVACUATION: the cave moves 0x4CAA30 -> RELOC.P24_VA (0x4AFA58),
+    # verified-zero .text padding.  The cave's `bne` is PC-relative (invariant) and
+    # `j 0x309744` is absolute (unchanged), so the 6 words ship BYTE-IDENTICAL; only the
+    # cave base + the hook's j-immediate change.
+    print("\n--- Patch 24: NARRATION boxX=+96 via draw-X load @0x30973c (gated boxX==0) [v148 RELOCATED] ---")
     P24_OFF = 0x2097BC          # VA 0x30973c (lh t2,0x3c(s0) = read boxX)
     P24_ORIG = 0x860A003C       # lh   t2,0x3c(s0)
-    P24_HOOK = 0x08132A8C       # j 0x4CAA30  (cave; Patch-16 freed pad)
-    P24_CAVE_OFF = 0x3CAAB0     # VA 0x4CAA30
+    P24_HOOK = RELOC.P24_HOOK_JWORD  # j RELOC.P24_VA (0x4AFA58)
+    P24_CAVE_OFF = RELOC.fo(RELOC.P24_VA)   # VA RELOC.P24_VA
     P24_CAVE = [
         0x860A003C,  # lh    t2,0x3c(s0)        ; reload boxX
-        0x15400002,  # bne   t2,zero,0x4CAA40   ; boxX!=0 (dialogue/request) -> keep
+        0x15400002,  # bne   t2,zero,+2         ; boxX!=0 (dialogue/request) -> keep (PC-rel)
         0x00000000,  # nop                       ; (delay slot)
         0x240A0060,  # addiu t2,zero,96          ; boxX==0 (narration) -> t2=96
         0x080C25D1,  # j     0x309744            ; rejoin (after the delay-slot insn)
@@ -940,15 +1458,137 @@ def main():
         print(f"  SKIP 0x{P24_OFF:06X}: narration boxX gate already installed")
     elif p24 == P24_ORIG:
         if any(struct.unpack_from("<I", data, P24_CAVE_OFF + i * 4)[0] for i in range(len(P24_CAVE))):
-            print(f"  WARN cave 0x4CAA30 not free -- Patch 24 SKIPPED")
+            print(f"  WARN cave 0x{RELOC.P24_VA:06X} not free -- Patch 24 SKIPPED")
         else:
+            RELOC.assert_install_safe(RELOC.P24_VA, len(P24_CAVE) * 4, "Patch 24 cave")
             struct.pack_into("<I", data, P24_OFF, P24_HOOK)
             for i, w in enumerate(P24_CAVE):
                 struct.pack_into("<I", data, P24_CAVE_OFF + i * 4, w)
-            print(f"  OK   0x{P24_OFF:06X}: lh t2,0x3c(s0) -> j cave; cave sets boxX=96 only if boxX==0")
+            print(f"  OK   0x{P24_OFF:06X}: lh t2,0x3c(s0) -> j 0x{RELOC.P24_VA:06X}; "
+                  f"cave sets boxX=96 only if boxX==0")
             patched_count += 1
     else:
         print(f"  WARN 0x{P24_OFF:06X}: expected 0x{P24_ORIG:08X}, got 0x{p24:08X} -- Patch 24 SKIPPED")
+
+    # ─── PATCH 25: REQUEST body PROPORTIONAL advance (mirror Patch 14) + Option-B fixed margin ─
+    # GOAL (Issue B horizontal overflow): the tavern request DESCRIPTION body renders through
+    #   the universal R1188 renderer's Block-2 (pen sp+0x1ce), reached via the align-mode
+    #   dispatcher's v1==2 branch (addiu v0,zero,2; bne v1,v0 @0x308928).  Patch 22 already
+    #   pinned the Block-2 DEFAULT-metric advance to a flat 18px monospace (addiu v0,v0,0x18
+    #   -> 0x12 @0x308CB0) and converted the centering reserve to count*18 (@0x30896C/0x308974).
+    #   Patch 25 replaces the flat 18px step with the SAME per-glyph proportional advance the
+    #   narration body uses (Patch 14's resident ADV table @VA 0x4C7564, gid = cell>>8), so the
+    #   verbose English compresses ~17-20% horizontally (avg ADV ~17.4px, real-text ~14.7px vs
+    #   18px mono) and stops over-running the parchment.
+    #
+    # HOOK (structural gate — instruction address, no runtime flag needed):
+    #   VA 0x308CAC (file 0x208D2C, pristine 0x87A201CE = lh v0,0x1ce(sp)) is the head of the
+    #   Block-2 DEFAULT-metric advance.  It is reached ONLY by the align v1==2 Block-2 branch
+    #   (request body).  Narration's identical default advance is the SEPARATE site 0x3097A4
+    #   (already Patch-14-hooked @0x3097A0); dialogue is func 0x307510; chargen is 0x308040
+    #   (pen sp+0x1cc).  So hooking 0x308CAC affects ONLY the request body — no blast radius.
+    #   Hook -> j 0x4CAA48 (cave); the delay slot 0x308CB0 (Patch-22's addiu v0,v0,0x12) is
+    #   nop'd (the cave reloads pen, so the displaced/skipped step is harmless either way).
+    #
+    # CAVE @ VA 0x4CAA48 (file 0x3CAAC8), 10 words / 40 B — the verified-zero pad immediately
+    #   AFTER Patch-24's cave (0x4CAA30..0x4CAA48) and BEFORE the (never-installed, obsolete)
+    #   Patch-16 watchdog region.  cave reads the current glyph cell at 2(s5) (s5 is NOT bumped
+    #   until 0x308CD8, so 2(s5) still holds the current cell — same trick as Patch 19's re-read),
+    #   derives gid = cell>>8 (cells are (char-32)<<8, hi byte = gid), looks up ADV[gid] from the
+    #   RESIDENT Patch-14 table @0x4C7564, adds it to pen sp+0x1ce, stores, and rejoins
+    #   j 0x308CD8 (0x080C2336 — the s5 bump / next-glyph target both default & COP2 paths reach).
+    #   Scratch regs: at/t8/t9 ONLY (v0 = pen, overwritten downstream); s5/v1 preserved.
+    #
+    # OPTION B (fixed left margin, align==2 only): a proportional advance WITHOUT also fixing the
+    #   count*18 centering reserve re-introduces the Patch-19 Stage-3 drift (reserve assumes
+    #   count*18 but glyphs now step ADV != 18).  Mirroring Patch 20's Option B, we pin the line
+    #   origin to a FIXED left margin by neutralizing the count term at VA 0x308968
+    #   (subu a0,v0,a0  ->  move a0,zero), so the reserve idiom @0x30896C..0x308974 computes
+    #   0*18 = 0 and origin = box_base (count-independent).  0x308968 is on the align v1==2
+    #   Block-2 path ONLY (same structural gate as Patch 22), so this is align==2-scoped with no
+    #   runtime flag — narration (pen 0x1cc / 0x308328) and dialogue/chargen never reach it.
+    #
+    # GATE: install ONLY if the Patch-14 resident ADV table is present — the marker word
+    #   file 0x209820 (VA 0x3097A0) == 0x08131D50 (Patch-14's j 0x4C7540).  WARN-and-skip on
+    #   mismatch (the cave's ADV lookup would read garbage otherwise).
+    #
+    # !!! LIVE CONTINGENCY (OFF BY DEFAULT — flip PATCH25_ENABLE only after a live confirm) !!!
+    #   reconB4 says the body takes the DEFAULT (sp+0x110==100) advance path and is
+    #   left-anchorable -> Option B (fixed margin) is correct.  But reconB3 measured the body
+    #   as COUNT-ANCHORED / centered (origin = box_base + (box_width-count)*18) from the live
+    #   requestissue.p2s RAM, which CONTRADICTS left-anchorability.  This conflict can ONLY be
+    #   settled with the live PCSX2 EE debugger (break 0x4CAA48 to confirm the hook fires per
+    #   glyph on the DEFAULT path; break 0x308964 to read box_width; confirm the body is
+    #   left-anchorable, not centered).  If the body is CENTERED, Option B is WRONG and Option A
+    #   (summed-ADV re-center) is required instead.  Because that confirmation is not yet
+    #   available (cannot drive the live debugger here), Patch 25 ships DISABLED so it cannot
+    #   regress the current Patch-22 18px-mono behaviour.  Set PATCH25_ENABLE = True ONLY after
+    #   the live confirm.  file_off = VA - 0x100000 + 0x80.
+    PATCH25_ENABLE = False   # <-- flip to True ONLY after live-debugger confirms DEFAULT path + left-anchor
+    print("\n--- Patch 25: REQUEST body proportional advance @0x308CAC + Option-B fixed margin (align==2) ---")
+    P25_HOOK   = 0x208D2C        # VA 0x308CAC  lh v0,0x1ce(sp)  (Block-2 default advance head)
+    P25_HOOK_ORIG = 0x87A201CE   # pristine displaced instruction
+    P25_HOOK_J = 0x08132A92      # j 0x4CAA48 (cave)
+    P25_DELAY  = 0x208D30        # VA 0x308CB0  (Patch-22 addiu v0,v0,0x12 / pristine 0x18) -> nop
+    P25_CAVE   = 0x3CAAC8        # VA 0x4CAA48 (40-byte cave, verified zero, after Patch-24 cave)
+    P25_MARGIN_OFF  = 0x2089E8   # VA 0x308968  subu a0,v0,a0 (count reserve) -> move a0,zero
+    P25_MARGIN_ORIG = 0x00442023 # subu $a0,$v0,$a0
+    P25_MARGIN_NEW  = 0x00002021 # move $a0,$zero  (a0=0 -> reserve = 0*18 = 0 -> origin = box_base)
+    P25_GATE_OFF    = 0x209820   # VA 0x3097A0  Patch-14 marker
+    P25_GATE_VAL    = RELOC.NEW_GATE_MARKER # j relocated P14 cave1 (Patch-14 installed, v147)
+    p25_cave = [
+        0x96A20002,  # 0x4CAA48  lhu  v0, 2(s5)        ; v0 = current glyph cell (s5 not yet bumped)
+        0x0002C202,  # 0x4CAA4C  srl  t8, v0, 8        ; t8 = gid = cell>>8 (hi byte = char-32)
+        0x3C01004C,  # 0x4CAA50  lui  at, 0x4C         ; at = 0x4C0000 (resident ADV @+0x7564)
+        0x00380821,  # 0x4CAA54  addu at, at, t8       ; at = 0x4C0000 + gid
+        0x90397564,  # 0x4CAA58  lbu  t9, 0x7564(at)   ; t9 = ADV[gid]
+        0x87A201CE,  # 0x4CAA5C  lh   v0, 0x1ce(sp)    ; v0 = pen (displaced hook insn)
+        0x00591021,  # 0x4CAA60  addu v0, v0, t9       ; pen += ADV
+        0xA7A201CE,  # 0x4CAA64  sh   v0, 0x1ce(sp)    ; store pen
+        0x080C2336,  # 0x4CAA68  j    0x308CD8         ; rejoin (s5 bump / next glyph)
+        0x00000000,  # 0x4CAA6C  nop  (delay slot)
+    ]
+    if not PATCH25_ENABLE:
+        # OFF-by-default: verify the install preconditions still hold (so a future enable is a
+        # one-line flip), then leave the EXE byte-identical to the Patch-22 18px-mono behaviour.
+        h25 = struct.unpack_from("<I", data, P25_HOOK)[0]
+        gate = struct.unpack_from("<I", data, P25_GATE_OFF)[0]
+        cave_free = all(b == 0 for b in data[P25_CAVE:P25_CAVE + len(p25_cave) * 4])
+        margin = struct.unpack_from("<I", data, P25_MARGIN_OFF)[0]
+        print(f"  DISABLED (PATCH25_ENABLE=False, awaiting live confirm DEFAULT-path + left-anchor)")
+        print(f"  precheck: hook@0x{P25_HOOK:06X}=0x{h25:08X} (want 0x{P25_HOOK_ORIG:08X}); "
+              f"marker@0x{P25_GATE_OFF:06X}=0x{gate:08X} (want 0x{P25_GATE_VAL:08X})")
+        print(f"  precheck: cave@0x4CAA48 free={cave_free}; reserve@0x308968=0x{margin:08X} "
+              f"(want 0x{P25_MARGIN_ORIG:08X})")
+    else:
+        h25 = struct.unpack_from("<I", data, P25_HOOK)[0]
+        gate = struct.unpack_from("<I", data, P25_GATE_OFF)[0]
+        cave_free = all(b == 0 for b in data[P25_CAVE:P25_CAVE + len(p25_cave) * 4])
+        cave_done = struct.unpack_from("<I", data, P25_CAVE)[0] == p25_cave[0]
+        margin = struct.unpack_from("<I", data, P25_MARGIN_OFF)[0]
+        if gate != P25_GATE_VAL:
+            print(f"  WARN Patch 14 not installed (marker 0x{gate:08X}) -> Patch 25 SKIPPED")
+        elif h25 == P25_HOOK_J and cave_done:
+            print(f"  SKIP 0x{P25_HOOK:06X}: request-body proportional advance already installed")
+        elif h25 == P25_HOOK_ORIG and (cave_free or cave_done):
+            # advance cave + trampoline (nop the displaced/Patch-22 advance delay slot)
+            for i, w in enumerate(p25_cave):
+                struct.pack_into("<I", data, P25_CAVE + i * 4, w)
+            struct.pack_into("<I", data, P25_HOOK, P25_HOOK_J)      # j 0x4CAA48
+            struct.pack_into("<I", data, P25_DELAY, 0x00000000)     # delay slot -> nop
+            # Option B: pin line origin to fixed left margin (align==2 only)
+            if margin == P25_MARGIN_NEW:
+                pass  # already neutralized
+            elif margin == P25_MARGIN_ORIG:
+                struct.pack_into("<I", data, P25_MARGIN_OFF, P25_MARGIN_NEW)
+            else:
+                print(f"  WARN 0x{P25_MARGIN_OFF:06X}: reserve idiom 0x{margin:08X} unexpected -- margin left as-is")
+            print(f"  OK   0x{P25_CAVE:06X}: request-body proportional ADV cave (gid=cell>>8, ADV@0x4C7564)")
+            print(f"  OK   0x{P25_HOOK:06X}: lh v0,0x1ce(sp) -> j 0x4CAA48; delay slot -> nop")
+            print(f"  OK   0x{P25_MARGIN_OFF:06X}: subu a0,v0,a0 -> move a0,zero (Option B fixed left margin)")
+            patched_count += 1
+        else:
+            print(f"  WARN 0x{P25_HOOK:06X}: hook=0x{h25:08X} cave_free={cave_free} -- Patch 25 SKIPPED")
 
     # ─── PATCH 15: REVERTED (was the inert modal-latch gate, v102) ────────
     # v102 trampolined the modal's else-branch (VA 0x3A0890) to skip 3 latch
@@ -979,189 +1619,29 @@ def main():
     else:
         print(f"  WARN 0x{SL_HOOK:06X}: unexpected modal hook=0x{slh:08X} -- left as-is")
 
-    # ─── PATCH 16: Tavern Request-list softlock — chooser stuck-in-state1 watchdog
-    # ROOT CAUSE (disasm + RAM proven across request/requests3/4/5/requestbroken):
-    #   The request chooser task (fn 0x158E00, ctx 0x011EDEC0, sub-ctx s3=ctx+0x04
-    #   =0x011EDE40) gets STUCK forever in dispatch state 1 (sub-ctx+0x08 == 1).
-    #   In state 1 it reads its cancel/confirm edge from the per-pad input struct
-    #   [gp-0x6438]->0x56D520, then [0x56D520+0x1C] & 0x40 (cancel ->state6 teardown)
-    #   / & 0x20 (confirm ->state2).  That edge never arrives, so it never reaches
-    #   state6, never sets its completion bit (ctx+0x08 |= 0x40 @VA 0x1595D0), so the
-    #   parent (fn 0x13CA50 @0x13CAD0..0x13CAE8: lbu 8(handle); if &0x40 -> sw zero,
-    #   0x1C(parent)) never releases parent-ctx 0x01137880 +0x1C, and the chooser/
-    #   modal nodes live forever -> input dead -> softlock.  (Proven across all 5
-    #   saves: chooser sub-ctx+0x08==1, ctx+0x08==0, parent+0x1C==0x011EDEC0.)
-    #   The v102 latch theory was wrong (see reverted PATCH 15).
-    # FIX (option c — input-INDEPENDENT teardown, the only path not relying on the
-    #   unknown reason the edge is starved): hook the chooser's OWN state-1 body at
-    #   VA 0x158F48 (the cancel-edge read; single entry, no internal branch targets,
-    #   nothing branches in — verified).  The cave:
-    #     1. reads the edge word once;
-    #     2. if cancel (&0x40)         -> force sub-ctx+0x08 = 6 (stock teardown);
-    #     3. else if ANY edge bit set  -> reset watchdog, j 0x158F68 (stock confirm/
-    #        navigation path — normal play is byte-for-byte unchanged);
-    #     4. else (no input this frame)-> ++watchdog; if it reaches 300 frames (~5 s)
-    #        of CONTINUOUS dead input while stuck in state1 -> force sub-ctx+0x08 = 6.
-    #   Driving state 6 makes the STOCK chooser run state6 (set ctx+0x08 bit0x40,
-    #   advance to state7) and state7 (scheduler unlink 0x14CEC0/0x14E470); the parent
-    #   then releases its handle at 0x13CAE8 and the native exit restores fn=0x13BA00.
-    #   No scheduler is poked directly.  The watchdog resets on ANY input edge, so it
-    #   ONLY fires on a genuine input-dead softlock — never during active browsing.
-    #   Scoped intrinsically to fn 0x158E00 / sub-ctx 0x011EDE40 (s3): ZERO blast
-    #   radius on any other menu/scene.  Watchdog counter lives in a dedicated EXE
-    #   pad word (0x4CAAA0) I own — no game struct touched.
-    # VERIFY: frozen-state sim (request/requests3/4/5/requestbroken.p2s) collapses the
-    #   task list to the working topology — chooser fn 0x158E00 GONE from the list,
-    #   parent 0x01137880 +0x1C == 0 — in every linked-node save.
-    # CAVE @ VA 0x4CAA30 (file 0x3CAAB0), 0x5C bytes; counter @ 0x4CAAA0 — both
-    #   verified zero in the EXE and across ramdumps/*.p2s.  Off all other caves
-    #   (0x4B0DD0 patch6, 0x4C7540 space, 0x4D65D0 old patch15).
-    print("\n--- Patch 16: Request chooser stuck-state1 watchdog (cave @ 0x4CAA30) ---")
-    RC_HOOK  = 0x058FC8    # VA 0x158F48  lw v1,-25656(gp)
-    RC_ORIG  = 0x8F839BC8  # original instruction
-    RC_DELAY = 0x058FCC    # VA 0x158F4C  lw v1,0x1C(v1)  (the j's delay slot)
-    RC_DELAY_ORIG = 0x8C63001C
-    RC_CAVE  = 0x3CAAB0    # VA 0x4CAA30
-    RC_J     = 0x08132A8C  # j 0x4CAA30  (0x4CAA30>>2 = 0x132A8C)
-    rc_cave_words = [
-        0x8F839BC8,   # 0x4CAA30  lw   v1, -25656(gp)   ; v1 = ptr 0x56D520
-        0x8C63001C,   # 0x4CAA34  lw   v1, 0x1C(v1)     ; v1 = edge word
-        0x3C04004C,   # 0x4CAA38  lui  a0, 0x4C
-        0x3484AAA0,   # 0x4CAA3C  ori  a0, a0, 0xAAA0   ; a0 = &watchdog (0x4CAAA0)
-        0x30650040,   # 0x4CAA40  andi a1, v1, 0x40     ; cancel bit
-        0x14A00009,   # 0x4CAA44  bne  a1, zero, 0x4CAA6C ; cancel -> teardown
-        0x00000000,   # 0x4CAA48  nop
-        0x1460000E,   # 0x4CAA4C  bne  v1, zero, 0x4CAA88 ; any input -> reset & rejoin
-        0x00000000,   # 0x4CAA50  nop
-        0x8C820000,   # 0x4CAA54  lw   v0, 0(a0)        ; watchdog (dead-input frame)
-        0x24420001,   # 0x4CAA58  addiu v0, v0, 1
-        0xAC820000,   # 0x4CAA5C  sw   v0, 0(a0)
-        0x2C41012C,   # 0x4CAA60  sltiu at, v0, 300     ; <300 frames?
-        0x14200006,   # 0x4CAA64  bne  at, zero, 0x4CAA80 ; under thresh -> LOOP (no reset!)
-        0x00000000,   # 0x4CAA68  nop
-        0x24030006,   # 0x4CAA6C  addiu v1, zero, 6     ; TEARDOWN: state6
-        0xA6630008,   # 0x4CAA70  sh   v1, 8(s3)        ; sub-ctx+0x08 = 6
-        0xAC800000,   # 0x4CAA74  sw   zero, 0(a0)      ; reset watchdog
-        0x0805657E,   # 0x4CAA78  j    0x1595F8         ; chooser epilogue
-        0x00000000,   # 0x4CAA7C  nop
-        0x080563DA,   # 0x4CAA80  LOOP: j 0x158F68      ; stay in state1 (counter intact)
-        0x00000000,   # 0x4CAA84  nop
-        0xAC800000,   # 0x4CAA88  ALIVE: sw zero, 0(a0) ; input present -> reset watchdog
-        0x080563DA,   # 0x4CAA8C  j    0x158F68         ; stock confirm/navigation path
-        0x00000000,   # 0x4CAA90  nop
-    ]
-    rch = struct.unpack_from("<I", data, RC_HOOK)[0]
-    rc_cave_now = data[RC_CAVE:RC_CAVE + len(rc_cave_words) * 4]
-    rc_free = all(b == 0 for b in rc_cave_now)
-    rc_done = struct.unpack_from("<I", data, RC_CAVE)[0] == rc_cave_words[0] and \
-              struct.unpack_from("<I", data, RC_CAVE + 4)[0] == rc_cave_words[1]
-    # OBSOLETE — permanently disabled. The request-list "softlock" was a SYMPTOM of our own
-    # R39 corruption (the quest section-table at bytes 0..240 was not remapped when the
-    # resource grew), now fixed at the data level in build/inject_r39_quest.py (block 10b).
-    # The watchdog is no longer needed AND it force-closed the menu after ~300 idle frames,
-    # so it is never installed. Cave words / hook constants kept above for reference only.
-    if True:
-        print("  Patch 16: OBSOLETE (request freeze root-fixed in R39) -> NOT installed")
-    elif rch == RC_J and rc_done:
-        print(f"  SKIP 0x{RC_HOOK:06X}: chooser watchdog already installed")
-    elif rch == RC_ORIG and (rc_free or rc_done):
-        for i, w in enumerate(rc_cave_words):
-            struct.pack_into("<I", data, RC_CAVE + i * 4, w)
-        # NOP the j's delay slot (VA 0x158F4C `lw r3,28(r3)`): r3 is GARBAGE here
-        # (clobbered by jal 0x1589D0 at 0x158F40), so the leftover load would fault.
-        # The cave re-does both loads (ptr + edge) correctly.
-        struct.pack_into("<I", data, RC_DELAY, 0x00000000)
-        struct.pack_into("<I", data, RC_HOOK, RC_J)   # hook -> j 0x4CAA30 (last)
-        print(f"  OK   0x{RC_CAVE:06X}: {len(rc_cave_words)*4}-byte chooser stuck-state1 watchdog")
-        print(f"  OK   0x{RC_HOOK:06X}: lw v1,-25656(gp) -> j 0x4CAA30 ; delay slot -> nop")
-        patched_count += 1
-    else:
-        print(f"  WARN 0x{RC_HOOK:06X}: hook=0x{rch:08X} free={rc_free} -- Patch 16 SKIPPED")
+    # ─── PATCH 16: DELETED (v148 P2 cleanup) ──────────────────────────────
+    # Was a tavern request-list "softlock" watchdog (cave @0x4CAA30 + counter @0x4CAAA0,
+    # hook @VA 0x158F48).  PERMANENTLY OBSOLETE: that freeze was a SYMPTOM of our own R39
+    # quest section-table corruption, root-fixed at the data level in
+    # build/inject_r39_quest.py (block 10b).  The watchdog was NEVER installed (`if True`
+    # short-circuit) AND it force-closed the menu after ~300 idle frames -- a footgun.
+    # v148 DELETES all its dead constants + cave words (RC_HOOK/RC_CAVE/rc_cave_words/etc.).
+    # NOTE: 0x4CAA30 (the old watchdog pad) is now wholly FREE -- Patch 24's cave evacuated
+    # OUT of it to RELOC.P24_VA (0x4AFA58) in dead .text padding below the arena.
+    print("\n--- Patch 16: DELETED (request freeze root-fixed in R39; dead constants removed v148) ---")
 
-    # ─── Patch 18: ONE-SHOT hub-pane rebuild on request->hub return (cave @ 0x4C7860) ─
-    # ROOT (workflow wnbqrvw5c, disasm + 146-save verified): after the Requests chooser
-    #   tears down, the parent submenu-host fn 0x13CA50 releases its child handle but the
-    #   hub script is never re-pumped, so the hub pane stays un-rebuilt (ctx render fields
-    #   +0xA0/+0xAC handles stale, +0xB0=3, +0x290 bit2=0).  A NORMAL submenu (message
-    #   board) exit rebuilds via opcode 0x1A -> {jal 0x2F1B10 rewind; jal 0x2F3330 pump},
-    #   which the request exit skips.
-    # WHY THIS SUCCEEDS where Patch 17/18-prior FAILED: those hooked the PER-FRAME shared
-    #   handler 0x2F2490 and polled ctx state -> fired mid-construction (black screen, then
-    #   tavern-entry softlock).  THIS hooks the parent-release store at 0x13CAE8 INSIDE fn
-    #   0x13CA50, which has ZERO jal/j callers (runs only as a scheduler node) and is
-    #   ABSENT from the scheduler during construction (firsttavern/narration/chargen run
-    #   under 0x13BA00/0x2F2490, NOT 0x13CA50 — verified).  The store is reached one-shot
-    #   (child+0x1c!=0 @0x13CAB4 AND child+0x8&0x40 @0x13CAD8) and clears the handle, so it
-    #   cannot re-fire.  EVENT-DRIVEN, not a per-frame poll.
-    # GUARDS (146-save verified to fire on EXACTLY the 7 broken/request saves, skip all
-    #   else): hub-ctx from global [0x4FEDBC] (gp-0x6234); A: ctx+0x00==0x011C3D20 (hub
-    #   script base); B: ctx+0x290 & 4 == 0 (pane NOT shown).  0x13CA50 is a GENERIC submenu
-    #   host so it also runs on message-board exit — GUARD B is MANDATORY: it skips a healthy
-    #   hub (+0x290=4) so we never re-pump and leak GS handles (leftmessageboard/tavern104
-    #   skip cleanly).  Then run ONLY the existing-node build body {0x2F1B10; 0x2F3330} (NOT
-    #   0x2F2AE0/0x496310 -> would dup the node; NOT 0x2F2880 -> GOLD never runs it).
-    # CAVE @ VA 0x4C7860 (file 0x3C78E0), 27 words (0x6C B), ends 0x4C78CC — zero in pristine
-    #   EXE; firsttavern.p2s (pre-patch) shows it zero in RAM too (NOT runtime-written); off
-    #   Patch14(0x4C7540-0x4C7790)/Patch16(0x4CAA30).  Live {flag,ptr} data sits at
-    #   0x4C7828-0x4C785C (before the cave) — do NOT extend backward.
-    print("\n--- Patch 18: ONE-SHOT hub-pane rebuild on request->hub return (cave @ 0x4C7860) ---")
-    ON_HOOK = 0x03CB68    # VA 0x13CAE8  sw zero,0x1c(s1)  (parent releases child handle)
-    ON_ORIG = 0xAE20001C
-    ON_CAVE = 0x3C78E0    # VA 0x4C7860
-    ON_J    = 0x08131E18  # j 0x4C7860
-    on_cave_words = [
-        0xAE20001C,   # 0x4C7860  sw   zero, 0x1c(s1)    ; displaced original (release handle)
-        0x8F849DCC,   # 0x4C7864  lw   a0, -0x6234(gp)   ; a0 = hub-ctx global [0x4FEDBC]
-        0x10800016,   # 0x4C7868  beq  a0, zero, 0x4C78C4 ; no menu -> SKIP
-        0x00000000,   # 0x4C786C  nop
-        0x8C820000,   # 0x4C7870  lw   v0, 0x0(a0)       ; script cursor
-        0x3C03011C,   # 0x4C7874  lui  v1, 0x011C
-        0x34633D20,   # 0x4C7878  ori  v1, v1, 0x3D20    ; v1 = 0x011C3D20 (hub script base)
-        0x14430011,   # 0x4C787C  bne  v0, v1, 0x4C78C4  ; GUARD A: not the hub -> SKIP
-        0x00000000,   # 0x4C7880  nop
-        0x8C820290,   # 0x4C7884  lw   v0, 0x290(a0)     ; pane bitfield
-        0x30420004,   # 0x4C7888  andi v0, v0, 0x4
-        0x1440000D,   # 0x4C788C  bne  v0, zero, 0x4C78C4 ; GUARD B: pane already shown -> SKIP
-        0x00000000,   # 0x4C7890  nop
-        0x27BDFFE0,   # 0x4C7894  addiu sp, sp, -0x20
-        0xAFBF0010,   # 0x4C7898  sw   ra, 0x10(sp)
-        0xAFA40014,   # 0x4C789C  sw   a0, 0x14(sp)      ; preserve hub ctx across jal
-        0x0C0BC6C4,   # 0x4C78A0  jal  0x2F1B10          ; rewind cursor to base
-        0x00000000,   # 0x4C78A4  nop
-        0x8FA40014,   # 0x4C78A8  lw   a0, 0x14(sp)      ; a0 = hub ctx
-        0x0C0BCCCC,   # 0x4C78AC  jal  0x2F3330          ; pump -> realloc +A0/+AC, +B0=4, +290|=4
-        0x00000000,   # 0x4C78B0  nop
-        0x8FBF0010,   # 0x4C78B4  lw   ra, 0x10(sp)
-        0x27BD0020,   # 0x4C78B8  addiu sp, sp, 0x20
-        0x0804F2BC,   # 0x4C78BC  j    0x13CAF0          ; return (rebuilt path)
-        0x00000000,   # 0x4C78C0  nop
-        0x0804F2BC,   # 0x4C78C4  SKIP: j 0x13CAF0       ; return (guard-skip path)
-        0x00000000,   # 0x4C78C8  nop
-    ]
-    onh = struct.unpack_from("<I", data, ON_HOOK)[0]
-    on_cave_now = data[ON_CAVE:ON_CAVE + len(on_cave_words) * 4]
-    on_free = all(b == 0 for b in on_cave_now)
-    on_done = struct.unpack_from("<I", data, ON_CAVE)[0] == on_cave_words[0] and \
-              struct.unpack_from("<I", data, ON_CAVE + 4)[0] == on_cave_words[1]
-    # OBSOLETE — permanently disabled. Patch 18 tried to rebuild the hub menu after the
-    # request exit, but the menu-gone was itself a downstream symptom of the R39 freeze (now
-    # root-fixed in inject_r39_quest.py). The hook at 0x13CAE8 also never actually fires
-    # (the parent bit-0x40 handshake is never set on the request path), so it was inert.
-    # Never installed; cave words kept above for reference only.
-    if True:
-        print("  Patch 18: OBSOLETE (request freeze root-fixed in R39; hook was inert) -> NOT installed")
-    elif onh == ON_J and on_done:
-        print(f"  SKIP 0x{ON_HOOK:06X}: one-shot hub rebuild already installed")
-    elif onh == ON_ORIG and (on_free or on_done):
-        for i, w in enumerate(on_cave_words):
-            struct.pack_into("<I", data, ON_CAVE + i * 4, w)
-        for k in range(len(on_cave_words), 24):
-            struct.pack_into("<I", data, ON_CAVE + k * 4, 0)
-        struct.pack_into("<I", data, ON_HOOK, ON_J)
-        print(f"  OK   0x{ON_CAVE:06X}: one-shot rebuild cave")
-        patched_count += 1
-    else:
-        print(f"  WARN 0x{ON_HOOK:06X}: hook=0x{onh:08X} free={on_free} -- Patch 18 SKIPPED")
+    # ─── Patch 18: DELETED (v148 P2 cleanup) ──────────────────────────────
+    # Was a one-shot hub-pane rebuild (cave @0x4C7860, hook @VA 0x13CAE8) for the
+    # request->hub return.  PERMANENTLY OBSOLETE: the missing hub pane was a downstream
+    # symptom of the R39 quest-table freeze, root-fixed in build/inject_r39_quest.py; and
+    # the hook never actually fired (the parent bit-0x40 handshake is never set on the
+    # request path), so it was inert.  It was NEVER installed (`if True` short-circuit).
+    # v148 DELETES all its dead constants + cave words (ON_HOOK/ON_CAVE/on_cave_words/etc.).
+    # CORRECTION of the old comment: the 0x4C7860 pad is NOT "NOT runtime-written" -- it sits
+    # ABOVE the arena boundary (0x4C7860 >= 0x4B0E00), i.e. INSIDE the EE battle-heap arena,
+    # so the game CAN write it at runtime.  That is exactly why nothing may be cave-installed
+    # there; the v148 guardrail (RELOC.assert_install_safe) now forbids any such placement.
+    print("\n--- Patch 18: DELETED (request freeze root-fixed in R39; dead constants removed v148) ---")
 
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)

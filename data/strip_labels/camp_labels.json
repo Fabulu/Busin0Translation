@@ -3,53 +3,164 @@
   "R1359": {
     "_resource": "1359_type02.raw camp/pause menu strip, 256x256 PSMT4, pixels @1312, rect table @34656 (16 x 128x24), GS-byte-verified",
     "labels": {
-      "0":  {"jp": "アイテム",     "en": "Items"},
-      "1":  {"jp": "魔法",         "en": "Magic"},
-      "2":  {"jp": "ステータス",   "en": "Status"},
-      "3":  {"jp": "隊列",         "en": "Formation"},
-      "4":  {"jp": "ＡＡ編成",     "en": "AA Setup"},
-      "5":  {"jp": "依頼",         "en": "Requests"},
-      "6":  {"jp": "錬金術",       "en": "Alchemy"},
-      "7":  {"jp": "オートマター", "en": "Automata"},
-      "8":  {"jp": "魔法石合成",   "en": "Stone Fusion"},
-      "9":  {"jp": "キャンプ",     "en": "Camp"},
-      "10": {"jp": "魔術師魔法",   "en": "Mage Magic"},
-      "11": {"jp": "僧侶魔法",     "en": "Prs. Magic"},
-      "12": {"jp": "貴重品",       "en": "Key Items"},
-      "13": {"jp": "合成素材",     "en": "Materials"},
-      "14": {"jp": "鑑定",         "en": "Identify"},
-      "15": {"jp": "ＡＡ編成",     "en": "AA Setup"}
+      "0": {
+        "jp": "アイテム",
+        "en": "Items"
+      },
+      "1": {
+        "jp": "魔法",
+        "en": "Magic"
+      },
+      "2": {
+        "jp": "ステータス",
+        "en": "Status"
+      },
+      "3": {
+        "jp": "隊列",
+        "en": "Formation"
+      },
+      "4": {
+        "jp": "ＡＡ編成",
+        "en": "AA Setup"
+      },
+      "5": {
+        "jp": "依頼",
+        "en": "Requests"
+      },
+      "6": {
+        "jp": "錬金術",
+        "en": "Alchemy"
+      },
+      "7": {
+        "jp": "オートマター",
+        "en": "Automata"
+      },
+      "8": {
+        "jp": "魔法石合成",
+        "en": "Stone Fusion"
+      },
+      "9": {
+        "jp": "キャンプ",
+        "en": "Camp"
+      },
+      "10": {
+        "jp": "魔術師魔法",
+        "en": "Mage Magic"
+      },
+      "11": {
+        "jp": "僧侶魔法",
+        "en": "Prs. Magic"
+      },
+      "12": {
+        "jp": "貴重品",
+        "en": "Key Items"
+      },
+      "13": {
+        "jp": "合成素材",
+        "en": "Materials"
+      },
+      "14": {
+        "jp": "鑑定",
+        "en": "Identify"
+      },
+      "15": {
+        "jp": "ＡＡ編成",
+        "en": "AA Setup"
+      }
     }
   },
   "R1367": {
     "_resource": "1367_type02.raw quest-result/camp misc strip, 256x256 PSMT4, pixels @1904, rect table @35632 (45 rects), GS-byte-verified. Only the Japanese label rects below are patched; digits, 'Press O Button', PM, L1R1 and icons stay untouched.",
     "labels": {
-      "18": {"jp": "結果",               "en": "Results"},
-      "19": {"jp": "所持品",             "en": "Items Held"},
-      "20": {"jp": "依頼人",             "en": "Client"},
-      "21": {"jp": "報酬",               "en": "Reward"},
-      "22": {"jp": "期日",               "en": "Due Date"},
-      "23": {"jp": "倉庫",               "en": "Storage"},
-      "24": {"jp": "全員",               "en": "All"},
-      "25": {"jp": "前後列交代",         "en": "Swap Rows"},
-      "26": {"jp": "競合日",             "en": "Conf. Day"},
-      "32": {"jp": "切替",               "en": "Sw."},
-      "34": {"jp": "Ｌ２／切替 Ｒ２／閉", "en": "L2/Sw R2/Cls"},
-      "35": {"jp": "切替",               "en": "Swap"},
-      "36": {"jp": "Ｒ２移動",           "en": "R2 Mv"},
-      "43": {"jp": "Ｌ３",               "en": "L3"},
-      "44": {"jp": "リセット",           "en": "Reset"}
+      "18": {
+        "jp": "結果",
+        "en": "Results"
+      },
+      "19": {
+        "jp": "所持品",
+        "en": "Items"
+      },
+      "20": {
+        "jp": "依頼人",
+        "en": "Client"
+      },
+      "21": {
+        "jp": "報酬",
+        "en": "Reward"
+      },
+      "22": {
+        "jp": "期日",
+        "en": "Due"
+      },
+      "23": {
+        "jp": "倉庫",
+        "en": "Storage"
+      },
+      "24": {
+        "jp": "全員",
+        "en": "All"
+      },
+      "25": {
+        "jp": "前後列交代",
+        "en": "Swap Rows"
+      },
+      "26": {
+        "jp": "競合日",
+        "en": "Conf. Day"
+      },
+      "32": {
+        "jp": "切替",
+        "en": "Sw."
+      },
+      "34": {
+        "jp": "Ｌ２／切替 Ｒ２／閉",
+        "en": "L2 Sw R2 X"
+      },
+      "35": {
+        "jp": "切替",
+        "en": "Swap"
+      },
+      "36": {
+        "jp": "Ｒ２移動",
+        "en": "R2 Mv"
+      },
+      "43": {
+        "jp": "Ｌ３",
+        "en": "L3"
+      },
+      "44": {
+        "jp": "リセット",
+        "en": "Reset"
+      }
     }
   },
   "R1910": {
     "_resource": "1910_type02.raw system menu banner strip, 256x256 PSMT4, pixels @1840, rect table @35312 (6 x 192x40 banners). Render-verified only — patch_camp_strips.py re-validates structure + banner alignment and SKIPS the whole resource (exit 0, SKIPPED line) if anything is off. Banners are art+text composites: only the dark glyph ink (idx<=9) inside the central plaque box (x 44..170, y rel 8..32) is erased and in-painted with the median of surrounding bright banner texture (idx>=10); the left/right scrollwork ornaments (x<44, x>=170) stay pixel-identical. English is then alpha-blended in dark ink onto the cleaned plaque. EXIT (rect 4) is already English and untouched.",
     "labels": {
-      "0": {"jp": "セーブ",         "en": "Save"},
-      "1": {"jp": "ロード",         "en": "Load"},
-      "2": {"jp": "オプション",     "en": "Options"},
-      "3": {"jp": "タイトルに戻る", "en": "Return to Title"},
-      "4": {"jp": "EXIT",           "en": null},
-      "5": {"jp": "中断セーブ",     "en": "Save & Quit"}
+      "0": {
+        "jp": "セーブ",
+        "en": "Save"
+      },
+      "1": {
+        "jp": "ロード",
+        "en": "Load"
+      },
+      "2": {
+        "jp": "オプション",
+        "en": "Options"
+      },
+      "3": {
+        "jp": "タイトルに戻る",
+        "en": "Return to Title"
+      },
+      "4": {
+        "jp": "EXIT",
+        "en": null
+      },
+      "5": {
+        "jp": "中断セーブ",
+        "en": "Save & Quit"
+      }
     }
   }
 }

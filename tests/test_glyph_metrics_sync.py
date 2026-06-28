@@ -34,14 +34,30 @@ from _helpers import (  # noqa: E402  (path insert first)
 
 import glyph_metrics  # noqa: E402  (TOOLS_DIR put on sys.path by _helpers)
 
-# ── Patch 14 wiring constants (build/patch_exe.py L496-497) ──────────────────
+sys.path.insert(0, os.path.join(ROOT, "build"))
+import _reloc_v147_design as RELOC  # noqa: E402  (relocation single-source)
+
+# ── Patch 14 wiring constants ────────────────────────────────────────────────
+# v147 BATTLE-FIX (SIMPLIFIED): ONLY Patch-27's box-text cave is battle-stompable
+# (proven: word0 0x3C030050 -> 0x3C010050 in battlebreak/fightsoftlock dumps), so it
+# alone is RELOCATED out of the EE battle-heap arena to verified-safe code-segment
+# padding (RELOC.P27_VA).  Patch-14's caves are PROVEN never-stomped (intact across all
+# battle dumps) and ship at their PRODUCTION in-arena addresses 0x4C7540 / 0x4C7670;
+# the gate marker @0x209820 stays the production value 0x08131D50.  The canonical 256B
+# ADV/LSH tables stay at 0x4C7564 / 0x4C7690 and are read by the in-arena caves AND the
+# chargen/request readers (P19/P25/P26).  NO table is relocated into the PsII libgraph
+# SDK data block at 0x4AF2E0..0x4AF400 (the prior v147 did, smearing the final GS-write
+# descriptor word -> the title-screen hang -- guarded below).
 PATCHED_EXE = os.path.join(ROOT, "build", "SLPM_653.78_patched")
-P14_TBL1 = 0x3C75E4   # advance LUT table, 256B   (VA 0x4C7564)
-P14_TBL2 = 0x3C7710   # left-shift table, 256B    (VA 0x4C7690)
-P14_HOOK1 = 0x209820  # j 0x4C7540 -> word 0x08131D50  (VA 0x3097A0)
-P14_HOOK2 = 0x2097D0  # j 0x4C7670 -> word 0x08131D9C  (VA 0x309750)
-P14_HOOK1_WORD = 0x08131D50
-P14_HOOK2_WORD = 0x08131D9C
+P14_TBL1 = 0x3C75E4   # canonical advance LUT, 256B  (VA 0x4C7564)
+P14_TBL2 = 0x3C7710   # canonical left-shift,  256B  (VA 0x4C7690)
+P14_HOOK1 = 0x209820  # VA 0x3097A0  -> j 0x4C7540 (production gate marker 0x08131D50)
+P14_HOOK2 = 0x2097D0  # VA 0x309750  -> j 0x4C7670 (production 0x08131D9C)
+P14_HOOK1_WORD = RELOC.P14_HOOK1_JWORD
+P14_HOOK2_WORD = RELOC.P14_HOOK2_JWORD
+ARENA_LO, ARENA_HI = RELOC.ARENA_LO, RELOC.ARENA_HI
+# The PsII libgraph SDK data block that the prior (over-engineered) v147 corrupted.
+LIBGRAPH_LO, LIBGRAPH_HI = 0x4AF2E0, 0x4AF400
 
 
 def test_g1_built_exe_tables_match_metrics():
@@ -53,31 +69,121 @@ def test_g1_built_exe_tables_match_metrics():
     with open(PATCHED_EXE, "rb") as fh:
         data = fh.read()
 
+    # canonical 256B tables (in-arena caves AND chargen/request readers index these)
     want_adv = glyph_metrics.adv_table_256()
     want_lsh = glyph_metrics.leftshift_table_256()
     got_adv = data[P14_TBL1:P14_TBL1 + 256]
     got_lsh = data[P14_TBL2:P14_TBL2 + 256]
     assert got_adv == want_adv, (
-        "patched EXE advance LUT @file 0x%X != glyph_metrics.adv_table_256() "
+        "patched EXE canonical advance LUT @file 0x%X != glyph_metrics.adv_table_256() "
         "(Patch 14 desynced from the metrics module)" % P14_TBL1
     )
     assert got_lsh == want_lsh, (
-        "patched EXE left-shift table @file 0x%X != "
+        "patched EXE canonical left-shift table @file 0x%X != "
         "glyph_metrics.leftshift_table_256()" % P14_TBL2
+    )
+    # The relocated ADV/LSH constants point AT the canonical tables (NO separate copy).
+    assert RELOC.ADV_VA == 0x4C7564 and RELOC.LSH_VA == 0x4C7690, (
+        "RELOC.ADV_VA/LSH_VA must be the canonical in-arena tables (0x4C7564/0x4C7690); "
+        "got 0x%06X/0x%06X -- a relocated table copy is the title-hang bug" % (RELOC.ADV_VA, RELOC.LSH_VA)
     )
 
     h1 = struct.unpack_from("<I", data, P14_HOOK1)[0]
     h2 = struct.unpack_from("<I", data, P14_HOOK2)[0]
     assert h1 == P14_HOOK1_WORD, (
-        "patched EXE hook1 @file 0x%X = 0x%08X, expected j 0x4C7540 (0x%08X) -- "
+        "patched EXE hook1 @file 0x%X = 0x%08X, expected j in-arena cave1 (0x%08X) -- "
         "Stage 1 advance-LUT trampoline not installed"
         % (P14_HOOK1, h1, P14_HOOK1_WORD)
     )
     assert h2 == P14_HOOK2_WORD, (
-        "patched EXE hook2 @file 0x%X = 0x%08X, expected j 0x4C7670 (0x%08X) -- "
+        "patched EXE hook2 @file 0x%X = 0x%08X, expected j in-arena cave2 (0x%08X) -- "
         "Stage 2 draw-shift trampoline not installed"
         % (P14_HOOK2, h2, P14_HOOK2_WORD)
     )
+
+
+def test_g1b_relocated_caves_below_arena():
+    """BATTLE-ARENA EVACUATION GATE (v148): EVERY EXE cave -- P27 AND the rest -- lies
+    BELOW the EE battle-heap arena (VA < 0x4B0DCF) and its hook j's there.  A cave-safety
+    audit found several caves in/abutting the arena (the false-safe trap that broke battle
+    once), so v148 relocates them ALL into dead .text padding.  The canonical ADV/LSH tables
+    stay at 0x4C7564/0x4C7690 (whitelisted resident rodata).  Also guards the title-hang
+    regression: nothing is written into the PsII libgraph SDK data block."""
+    if not os.path.isfile(PATCHED_EXE):
+        raise Skip("build/SLPM_653.78_patched missing")
+    with open(PATCHED_EXE, "rb") as fh:
+        data = fh.read()
+
+    SAFE_HI = RELOC.ARENA_SAFE_HI  # 0x4B0DCF
+
+    # 1) EVERY relocated cave (P27 + the v148 CAVE_RELOC map) lies below the safe boundary.
+    p27_end = RELOC.P27_VA + len(RELOC.P27_WORDS) * 4
+    assert p27_end <= SAFE_HI, (
+        "P27 cave VA 0x%06X..0x%06X spills into/over the arena (>= 0x%06X)"
+        % (RELOC.P27_VA, p27_end, SAFE_HI)
+    )
+    for label, (old_va, new_va, size) in RELOC.CAVE_RELOC.items():
+        assert new_va + size <= SAFE_HI, (
+            "%s cave VA 0x%06X..0x%06X is in/over the battle-heap arena (>= 0x%06X)"
+            % (label, new_va, new_va + size, SAFE_HI)
+        )
+    # The canonical tables ARE in-arena (read-only resident rodata, whitelisted -- not code).
+    assert RELOC.ADV_VA in RELOC.CANONICAL_TABLE_VAS and RELOC.LSH_VA in RELOC.CANONICAL_TABLE_VAS
+
+    # 2) The relocated P27 cave words byte-match the design module.
+    f = RELOC.fo(RELOC.P27_VA)
+    got = [struct.unpack_from("<I", data, f + i * 4)[0] for i in range(len(RELOC.P27_WORDS))]
+    assert got == list(RELOC.P27_WORDS), "relocated P27 cave words != design module"
+    # The relocated P27 cave reads the CANONICAL ADV table (lbu 0x7564), not a reloc copy.
+    assert any((w >> 26) == 0x24 and (w & 0xFFFF) == 0x7564 for w in RELOC.P27_WORDS), (
+        "relocated P27 cave must read canonical ADV @0x7564(0x4C0000)"
+    )
+
+    # 3) The P27 hook AND the P14 hooks (= the gate marker) j into the RELOCATED caves below
+    #    the arena.  All j-targets must be below the arena.
+    p27_hook = struct.unpack_from("<I", data, 0x2A3220)[0]
+    assert p27_hook == RELOC.P27_HOOK_JWORD, (
+        "P27 hook 0x3A31A0 = 0x%08X, expected j relocated cave 0x%08X" % (p27_hook, RELOC.P27_HOOK_JWORD)
+    )
+    for nm, off, want in [
+        ("P27 hook 0x3A31A0", 0x2A3220, RELOC.P27_HOOK_JWORD),
+        ("P14 hook1/gate 0x3097A0", 0x209820, RELOC.P14_HOOK1_JWORD),
+        ("P14 hook2 0x309750", 0x2097D0, RELOC.P14_HOOK2_JWORD),
+    ]:
+        w = struct.unpack_from("<I", data, off)[0]
+        assert w == want, "%s = 0x%08X, expected j relocated cave 0x%08X" % (nm, w, want)
+        assert ((w & 0x3FFFFFF) << 2) < SAFE_HI, "%s j-target is in the arena!" % nm
+    assert RELOC.NEW_GATE_MARKER == RELOC.P14_HOOK1_JWORD, (
+        "gate marker must be j relocated P14 cave1 (0x%08X), got 0x%08X"
+        % (RELOC.P14_HOOK1_JWORD, RELOC.NEW_GATE_MARKER)
+    )
+
+    # 4) The OLD battle-stompable cave sites are pristine-zero (no stompable code left).
+    for old_va, size in [(0x4C7410, 84),                       # old P27
+                         (0x4C7540, 36), (0x4C7670, 28),       # old P14 c1/c2
+                         (0x4C7790, 104), (0x4CAA30, 24),      # old P26 / P24
+                         (0x4D6600, 68), (0x4D6660, 48),       # old P19 c1/c2
+                         (0x4B0DD0, 32)]:                      # old P6
+        fz = RELOC.fo(old_va)
+        assert all(b == 0 for b in data[fz:fz + size]), (
+            "old cave site 0x%06X is NOT zero -- stompable code left in the arena" % old_va
+        )
+
+    # 5) TITLE-HANG REGRESSION GUARD: the PsII libgraph SDK data block stays PRISTINE.
+    #    The over-engineered v147 relocated the ADV table to 0x4AF336, smearing the high
+    #    2 bytes of the final libgraph GS-write descriptor word (0x4AF334=0x000002FF) ->
+    #    the title screen rendered then hung.  Nothing may be written here.
+    import os as _os
+    pris_path = _os.path.join(ROOT, "extracted", "SLPM_653.78")
+    if _os.path.isfile(pris_path):
+        with open(pris_path, "rb") as pfh:
+            pris = pfh.read()
+        flo, fhi = RELOC.fo(LIBGRAPH_LO), RELOC.fo(LIBGRAPH_HI)
+        assert data[flo:fhi] == pris[flo:fhi], (
+            "PsII libgraph SDK data block 0x%06X..0x%06X is NOT pristine -- a relocated "
+            "table/cave landed on live GS/DMA descriptor data (the v147 title-hang bug)"
+            % (LIBGRAPH_LO, LIBGRAPH_HI)
+        )
 
 
 # ── G2: forbid inline width recompute outside glyph_metrics ──────────────────
@@ -141,6 +247,7 @@ def test_g3_metrics_self_consistent():
 
 TESTS = [
     test_g1_built_exe_tables_match_metrics,
+    test_g1b_relocated_caves_below_arena,
     test_g2_no_inline_width_recompute,
     test_g3_metrics_self_consistent,
 ]

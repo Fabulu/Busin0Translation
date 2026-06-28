@@ -54,22 +54,57 @@ def _active_lines(src):
             yield i, line
 
 
+# Every R1188 atlas patcher is BUG-3 (off-by-~1008 layout corrupts ~150 live
+# dialogue-font glyph cells -- the r/y/V artifacts). ALL of them must stay
+# disabled, and in EVERY build script that runs in the pipeline -- not just
+# build_v9.py. build_full_english_v2.py (Step 1) called patch_r1188_direct /
+# patch_r1188_stats, leaking a non-pristine 1188 override into its PACKDATA.DIG.
+_R1188_PATCHERS = (
+    "patch_r1188_direct",
+    "patch_r1188_stats",
+    "patch_r1188_comprehensive",
+    "patch_r1188_bw256",
+)
+# All pipeline source files that could re-enable an R1188 patcher.
+_R1188_GUARDED_SOURCES = (
+    BUILD_V9,
+    os.path.join(os.path.dirname(BUILD_V9), "build_full_english_v2.py"),
+)
+
+
 def test_r1188_patchers_disabled():
-    src = _source(BUILD_V9)
     offenders = []
-    for lineno, line in _active_lines(src):
-        # Strip any trailing comment, then look for the forbidden calls in code
-        code = line.split("#", 1)[0]
-        if "patch_r1188_comprehensive" in code or "patch_r1188_bw256" in code:
-            offenders.append("line %d: %s" % (lineno, line.strip()))
+    for path in _R1188_GUARDED_SOURCES:
+        src = _source(path)
+        base = os.path.basename(path)
+        for lineno, line in _active_lines(src):
+            # Strip any trailing comment, then look for forbidden calls in code.
+            code = line.split("#", 1)[0]
+            for name in _R1188_PATCHERS:
+                if name in code:
+                    offenders.append("%s line %d: %s" % (base, lineno, line.strip()))
     assert not offenders, (
-        "build_v9.py re-enables the R1188 patchers (BUG-3: they corrupt ~150 "
-        "live dialogue-font glyph cells): %s" % "; ".join(offenders)
+        "a build script re-enables an R1188 atlas patcher (BUG-3: they corrupt "
+        "~150 live dialogue-font glyph cells): %s" % "; ".join(offenders)
     )
     # The pipeline must also actively remove any stale 1188 override.
+    src = _source(BUILD_V9)
     assert "1188_type01.raw" in src, (
         "build_v9.py no longer references 1188_type01.raw -- the stale-override "
         "deletion (pristine fallback) appears to be gone"
+    )
+
+
+def test_rebuild_packdata_r1188_gate():
+    """rebuild_packdata.py must keep its R1188 PRISTINE GATE: the FINAL PACKDATA
+    rebuild has to fail loudly if R1188 isn't byte-identical to the pristine raw,
+    so a stale/leaked override can never silently ship the corrupt dialogue font
+    (BUG-3). This is the last line of defense after the static patcher guard."""
+    rebuild = os.path.join(os.path.dirname(BUILD_V9), "rebuild_packdata.py")
+    src = _source(rebuild)
+    assert "idx == 1188" in src and "FATAL: R1188 is NOT pristine" in src, (
+        "rebuild_packdata.py lost its R1188 pristine gate -- a leaked R1188 "
+        "override could silently ship the corrupted live dialogue font (BUG-3)"
     )
 
 
@@ -189,6 +224,7 @@ def test_metrics_single_source():
 
 TESTS = [
     test_r1188_patchers_disabled,
+    test_rebuild_packdata_r1188_gate,
     test_no_pattern_matching_in_sec1_patcher,
     test_r34_mapping_rule,
     test_patched_type2_purge_present,

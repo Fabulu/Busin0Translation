@@ -63,6 +63,24 @@ with open('build/PACKDATA_v3.DIG', 'wb') as out:
             cc = glob.glob(f'extracted/packdata_raw/{idx:04d}_type*.raw')
             d = open(cc[0], 'rb').read() if cc else b'\x00' * SECTOR
 
+        # R1188 PRISTINE GATE (BUG-3): R1188 is the LIVE dialogue/narration font
+        # and MUST ship byte-identical to the pristine extracted raw. The old
+        # patch_r1188_* patchers corrupt ~150 live glyph cells (r/y/V artifacts).
+        # If ANY override leaks in (a stale build/packdata_resources/1188_*.raw,
+        # or a re-enabled patcher), fail the build LOUDLY here rather than ship a
+        # corrupt dialogue font. Compare against the pristine raw (the FINAL word
+        # on what R1188 must be); padding to a sector is allowed.
+        if idx == 1188:
+            _prist = open('extracted/packdata_raw/1188_type01.raw', 'rb').read()
+            if d[:len(_prist)] != _prist or any(b != 0 for b in d[len(_prist):]):
+                raise SystemExit(
+                    'FATAL: R1188 is NOT pristine before PACKDATA rebuild -- a '
+                    'stale override or re-enabled patch_r1188_* corrupted the '
+                    'live dialogue font (BUG-3). Source: %s. Remove the override '
+                    'and keep the R1188 patchers DISABLED.'
+                    % (mp if os.path.exists(mp) else rp)
+                )
+
         sc = math.ceil(len(d) / SECTOR)
         if len(d) < sc * SECTOR:
             d += b'\x00' * (sc * SECTOR - len(d))

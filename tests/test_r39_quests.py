@@ -5,7 +5,8 @@ test_r39_quests.py -- TIER 2: R39 quest text injection (BUG-7).
 Checks the built build/packdata_resources/0039_type15.raw:
   * G353 (quest description shown in the v83 screenshot) decodes to English
     mentioning the 500G stipend,
-  * G388 (client) decodes to 'Mayor of Duhan',
+  * G388 (client) decodes to 'Duhan' (round-2: shortened from 'Mayor of Duhan'
+    to clear the fixed 'Client' label -- see tests/test_r39_client_cap.py),
   * ALL non-zero slots of the four offset tables (G346/G381/G411/G442)
     resolve to the same (group index, glyph ordinal) as in the pristine
     extracted/packdata_raw/0039_type15.raw -- the table-remap correctness
@@ -115,13 +116,19 @@ def test_g353_description_english():
     assert "[" not in text, "G353 contains non-English glyphs: %r" % text[:80]
 
 
-def test_g388_client_mayor_of_duhan():
+def test_g388_client_duhan():
+    # ROUND-2 (W1-REQ): G388 was shortened "Mayor of Duhan" -> "Duhan" to stop the
+    # count-anchored client value walking LEFT under the fixed "Client" label (the
+    # v132 "Ma[Client] Duhan" horizontal collision, almostrequest.p2s).  "Duhan"
+    # also matches the castle name used in the quest title/description.  The
+    # <=8-cell client-name budget is gated in detail by tests/test_r39_client_cap.py.
     _data, groups, _starts = _load("built")
     assert len(groups) > 388, "only %d groups in built R39" % len(groups)
     text = decode_glyphs(groups[388], linebreak="\n")
     norm = text.replace("\n", " ").strip()
-    assert norm == "Mayor of Duhan", (
-        "G388 client name is %r, expected 'Mayor of Duhan'" % norm
+    assert norm == "Duhan", (
+        "G388 client name is %r, expected 'Duhan' (round-2 cap that fixes the "
+        "'Ma[Client] Duhan' horizontal collision)" % norm
     )
 
 
@@ -161,7 +168,7 @@ def test_group_count_and_size_budget():
 
 TESTS = [
     test_g353_description_english,
-    test_g388_client_mayor_of_duhan,
+    test_g388_client_duhan,
     test_offset_tables_preserve_semantics,
     test_group_count_and_size_budget,
 ]
