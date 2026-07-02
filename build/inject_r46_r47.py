@@ -447,83 +447,88 @@ for _recap_d in (R46_SUB0, R46_SUB1, R46_SUB2):
 # ============================================================================
 R47_SUB0 = {
     # --- Friendly-monster CHOICE cluster (release-blocker: groups 2-11) ---
-    2:  "React?",            # g2  対応の決定  (choice menu title)
+    2:  "React",             # g2  対応の決定  (v160: cap-1 for trailing FFFE)  (choice menu title)
     3:  "Friendly!!",        # g3  友好的なモンスターだ!!  (encounter prompt)
-    4:  "Fight",             # g4  戦う        (choice 1)
-    5:  "Leave",             # g5  立ち去る    (choice 2)
-    6:  "Caught napping!",   # g6  (モンスターの)油断をついた
+    4:  "Kill",              # g4  戦う        (choice 1) (v160: cap-1)
+    5:  "Pass",              # g5  立ち去る    (choice 2) (v160: cap-1)
+    6:  "Caught napping",    # g6 (v160: cap-1)  (モンスターの)油断をついた
     7:  "It suddenly attacks",  # g7  モンスターは突然おそいかかってきた
-    8:  "We're off guard!",  # g8  モンスターに(油断)をとられた
+    8:  "We're off guard",   # g8 (v160: cap-1)  モンスターに(油断)をとられた
     9:  "Flees in terror!",  # g9  ...は恐怖にかられて逃げ出そうとする
     10: "Fled away!!",       # g10 ...が逃げ出してしまった!!
     11: "Escaped!",          # g11 ...は逃げ出すのに成功した
-    # --- Treasure box (already correct in old dict) ---
-    12: "Open box?",         # g12 (宝)箱を開錠しますか?
-    13: "Open",              # g13 (宝)箱開錠
-    14: "Retry",             # g14 やりなおす
-    15: "Box res.",          # g15 (宝)箱開錠の結果
-    16: "New AA created!!",  # g16 新たなAAを生み出しました
-    17: "Opening",           # g17 (宝)箱を開錠します
+    # --- Battle order-confirmation + turn flow (v159 FIX: the old "treasure box"
+    # readings came from poisoned msg_glyph_map entries — glyph 608 is 闘 not 箱,
+    # 876 is 始 not 錠, 722/350 are 攻/撃 not 獲/得.  The real JP is 戦闘開始
+    # "commence battle"; these pills are the per-turn order-confirm prompt
+    # (proven via weirdasfuckdialogueatendofcombatturn.p2s + R34 prose anchors;
+    # see runs/CLAUDE-RUNS/AUDIT-20260702-full-project.md). ---
+    12: "Start turn",        # g12 戦闘を開始しますか? (v160: cap-1)
+    13: "Go!!",              # g13 戦闘開始 (v160: cap-1; 4 cells)
+    14: "Redo",              # g14 やりなおす
+    15: "Results",           # g15 戦闘開始の結果 (initiative-roll header) (v160: cap-1)
+    16: "New AA created!",   # g16 新たなAAを生み出しました (v160: cap-1)
+    17: "Engaging",          # g17 戦闘を開始します (v160: cap-1)
     # --- Friendly-action / ability labels (the real Dispel/Steal home) ---
-    18: "Gain",              # g18 獲得
+    18: "Atk",               # g18 攻撃 (per-attack pill; was "Gain" from 獲得 mis-decode; v160: cap-1)
     19: "Dispel",            # g19 ディスペル
     20: "Steal",             # g20 盗む
     21: "Swap",              # g21 (隊列)交代
     22: "Nothing!",          # g22 何も持っていなかった
     23: "Can't steal:full!", # g23 アイテムがいっぱいで盗めなかった
-    24: "Stole!",            # g24 ...を盗んだ
+    24: "Stole",             # g24 (v160: cap-1) ...を盗んだ
     25: "Flees in terror!",  # g25 ...は恐怖にかられて逃げだそうとする
-    26: "But stumbled!",     # g26 しかしこけてしまった
-    27: "Allies chased!!",   # g27 仲間たちも(敵)を追いかけた!!
+    26: "But stumbled",      # g26 (v160: cap-1) しかしこけてしまった
+    27: "Allies chased!",    # g27 (v160: cap-1) 仲間たちも(敵)を追いかけた!!
     28: "G.",                # g28 g.  (gold marker)
     29: "Too big!",          # g29 大きすぎて回りこめない
     30: "Too big!",          # g30 大きすぎてとばせない
     # --- Monster-scan stat / resistance labels ---
-    31: "HP/MaxHP",          # g31 hp／(最)大hp
+    31: "HP/Max",            # g31 (v160: cap-1) hp／(最)大hp
     32: "Level",             # g32 レベル
     33: "Hit Lv",            # g33 命中レベル
-    34: "Gain Pow",          # g34 獲得力
+    34: "Atk Pow",           # g34 攻撃力 (v159: was "Gain Pow" from 獲得 mis-decode)
     35: "Evade",             # g35 回避力
     36: "Dispel",            # g36 解消力
     37: "Agility",           # g37 敏捷度
-    38: "Fire Res",          # g38 炎(効性)
-    39: "Thnd Res",          # g39 (雷)気効性
+    38: "FireRes",           # g38 (v160: cap-1) 炎(効性)
+    39: "ThndRes",           # g39 (v160: cap-1) (雷)気効性
     40: "Ice Res",           # g40 (冷気)効性
     41: "Nullify",           # g41 (使呪消除)能力
-    42: "Normal",            # g42 ふつう
-    43: "Bit Hi",            # g43 すこし強い
+    42: "Norm.",             # g42 (v160: cap-1) ふつう
+    43: "BitHi",             # g43 (v160: cap-1) すこし強い
     44: "High",              # g44 強い
-    45: "V.High",            # g45 とても強い
-    46: "Bit Lo",            # g46 すこし弱い
+    45: "V.Hi",              # g45 (v160: cap-1) とても強い
+    46: "BitLo",             # g46 (v160: cap-1) すこし弱い
     47: "Low",               # g47 弱い
     48: "V.Low",             # g48 とても弱い
-    49: "GainAA",            # g49 獲得系aa
-    50: "DispAA",            # g50 解消系aa
-    51: "SkilAA",            # g51 騎法系aa
+    49: "AtkAA",             # g49 攻撃系aa (v160: cap-1) (v159: was "GainAA" from 獲得 mis-decode)
+    50: "DspAA",             # g50 解消系aa (v160: cap-1)
+    51: "MagAA",             # g51 魔法系aa (v159: 騎法 was a mis-decode of 魔法 — g66 already treats it as magic)
     # 52 SHIPPED PRISTINE (前罰系aa -- 4th AA category, unresolved)
     53: "Found!",            # g53 ...を発見しました
     54: "H.",                # g54 h.
     # --- Spell incantations (flavor lines) ---
-    55: "Return to rest!",   # g55 (無)形の者よあるべき場所へ戻れ
+    55: "Return to rest",    # g55 (v160: cap-1) (無)形の者よあるべき場所へ戻れ
     56: "Be sealed!",        # g56 (無)形の使呪(形)にするを許さず
     57: "Gather to us!",     # g57 われらが(騎)力(の)もとに(集)まれ
-    58: "Be my light!",      # g58 われの力を(しの)光となれ
-    59: "Unseen shield!",    # g59 われらをつつめ見えざる(盾)よ
-    60: "Unseen power!",     # g60 われらに宿れ見えざる(理)よ
+    58: "Be my light",       # g58 (v160: cap-1) われの力を(しの)光となれ
+    59: "Unseen shield",     # g59 (v160: cap-1) われらをつつめ見えざる(盾)よ
+    60: "Unseen power",      # g60 (v160: cap-1) われらに宿れ見えざる(理)よ
     61: "Come back!",        # g61 (元)よわれらの(元)に戻れ
-    62: "Bless us!",         # g62 (我)らの道に幸あれ
-    63: "F/B Sw",            # g63 前(列)(後列)交代
+    62: "Bless us",          # g62 (v160: cap-1) (我)らの道に幸あれ
+    63: "FB Sw",             # g63 (v160: cap-1) 前(列)(後列)交代
     # 64 SHIPPED PRISTINE (一偉逃街 -- unresolved)
     # --- AA / party-buff result messages ---
     65: "Sent to void!!",    # g65 モンスターを(虚)空間に送りこんだ!!
     66: "Sealed magic!",     # g66 モンスターの(騎法)を封じた
     67: "Buffs removed!",    # g67 パーティの(騎)力が解除された
-    68: "All HP/MP restored!",  # g68 パーティ全員のhp・mpが回復した
+    68: "All HP/MP restored",   # g68 (v160: cap-1) パーティ全員のhp・mpが回復した
     69: "Evade & Dispel up!",   # g69 パーティ全員の回避力・解消力がアップした
-    70: "Party Gain up!",    # g70 パーティ全員の獲得力がアップした
+    70: "Party Atk up!",     # g70 パーティ全員の攻撃力がアップした (v159: 獲得→攻撃)
     71: "Revived!",          # g71 (死)者が復活した
     72: "MP max! EXP & Gold up!",  # g72 mpが(最)限となり、(配下)expとgoldがアップした
-    73: "Too far!",          # g73 (獲得)がとどかない
+    73: "Too far!",          # g73 攻撃がとどかない ("attack can't reach" — text still fits)
     74: "?????",             # g74 ?????
 }
 
@@ -546,14 +551,14 @@ R47_SUB1 = {
     10: "Pick Spell Caster",            # 18 cap, 17 ok
     11: "Pick Gate Opener",             # 20 cap, 16 ok
     12: "Pick The Decoy",               # 15 cap, 14 ok
-    13: "Target",                       # 6 cap, 6 ok
-    14: "Front",                        # 5 cap, 5 ok
+    13: "Aim",                          # 6 cap (v160: cap-1 for FFFE -> 5; 3 ok)
+    14: "Frnt",                         # 5 cap (v160: cap-1 -> 4)
     15: "Back",                         # 5 cap, 4 ok
     16: "Pick 2 For Swap",              # 16 cap, 15 ok
     17: "Pick 2 To Capture",            # 18 cap, 17 ok
-    18: "Pick 2 To Attack",             # 16 cap, 16 ok
+    18: "Pick 2 To Atk",                # 16 cap (v160: cap-1 -> 15; 13 ok)
     19: "Pick Attacker",                # 15 cap, 13 ok
-    20: "Swap Target",                  # 11 cap, 11 ok
+    20: "New Target",                   # 11 cap (v160: cap-1 -> 10)
     21: "Race",                         # 6 cap, 4 ok
     22: "Low Trust Aut Needs Leader",   # 32 cap, 26 ok -> "low trust: must be w/leader"
     23: "Low Trust Aut Won't Join",     # 31 cap, 24 ok
@@ -572,36 +577,36 @@ R47_SUB1[5] = "Swap Front/Back"     # 18 cap, 15 ok
 # msg26=6 msg27=4
 # ============================================================================
 R47_SUB2 = {
-    2: "Fire Brt",             # 8 cap, 8 ok (breath abbreviated)
-    3: "Cold Brt",             # 8 cap, 8 ok
-    4: "Thndr Bt",             # 8 cap, 8 ok (thunder breath)
-    5: "Poisn Bt",             # 8 cap, 8 ok (poison breath)
-    6: "Gaze",                 # 4 cap, 4 ok
-    7: "Roar",                 # 4 cap, 4 ok
-    8: "Forgot a spell!!",     # 16 cap, 16 ok
+    2: "FireBrt",              # 8 cap (v160: cap-1 -> 7; breath abbreviated)
+    3: "ColdBrt",              # 8 cap (v160: cap-1 -> 7)
+    4: "ThndBrt",              # 8 cap (v160: cap-1 -> 7; thunder breath)
+    5: "PsnBrth",              # 8 cap (v160: cap-1 -> 7; poison breath)
+    6: "Eye",                  # 4 cap (v160: cap-1 -> 3; gaze attack)
+    7: "Cry",                  # 4 cap (v160: cap-1 -> 3; roar)
+    8: "Forgot a spell!",      # 16 cap (v160: cap-1 -> 15)
     9: "Summon",               # 9 cap, 6 ok
     10: "Call",                # 6 cap, 4 ok
     11: "Called!",             # 9 cap, 7 ok
     12: "Ally came!",          # 9 cap, 10 -> "ally came"=9
     13: "None came",           # 10 cap, 9 ok
-    14: "Bash",                # 4 cap, 4 ok (knock back)
-    15: "Agony",               # 5 cap, 5 ok
+    14: "Hit",                 # 4 cap (v160: cap-1 -> 3; bash/knock back)
+    15: "Pain",                # 5 cap (v160: cap-1 -> 4; agony)
     16: "Dbl Actn",            # 9 cap, 8 ok
-    17: "Dark",                # 4 cap, 4 ok
+    17: "Drk",                 # 4 cap (v160: cap-1 -> 3; dark attack)
     18: "All buffs removed!!",  # 19 cap, 20 -> too long. "buffs dispelled!!"=17
     19: "Dmn Jump",            # 9 cap, 8 ok
-    20: "Dmn Dive",            # 8 cap, 8 ok
+    20: "DmnDive",             # 8 cap (v160: cap-1 -> 7)
     21: "Dmn Whip",            # 9 cap, 8 ok
-    22: "Cannibl",             # 7 cap, 7 ok
+    22: "Canibl",              # 7 cap (v160: cap-1 -> 6; cannibalize)
     23: "K.Back",              # 7 cap, 6 ok
     24: "Dmn Beam",            # 9 cap, 8 ok
     25: "Mirror",              # 9 cap, 6 ok
-    26: "Countr",              # 6 cap, 6 ok
+    26: "Cntr",                # 6 cap (v160: cap-1 -> 5; counter)
 }
 
 # Fix msg12 and msg18
-R47_SUB2[12] = "Ally came"          # 9 cap, 9 ok
-R47_SUB2[18] = "Buffs dispelled!!"  # 19 cap, 17 ok
+R47_SUB2[12] = "New ally"           # 9 cap (v160: cap-1 -> 8)
+R47_SUB2[18] = "Buffs dispelled!!"  # 19 cap (v160: cap-1 -> 18; 17 ok)
 
 # ============================================================================
 # Processing functions
@@ -724,10 +729,34 @@ def process_resource(r_id, raw_path, out_path, sub_translations, symmetric_pad=F
                 truncated += 1
 
             payload_cap = slot_capacity - ctrl_count
+            # --- R47 trailing-0xFFFE preservation (v160, RELEASE default) ----
+            # Every pristine R47 group ends with a 0xFFFE line terminator that
+            # this injector used to overwrite with 0x0000 padding.  That missing
+            # terminator was the long-standing battle title-pill bug: the text
+            # rendered one full line BELOW its pill (target.ps2 /
+            # targetnotinbox.p2s).  LIVE A/B PROVEN 2026-07-02: the v159
+            # R47_FFFE_EXPERIMENT diagnostic ISO (terminator restored, strings
+            # crudely truncated) put every pill's text back INSIDE the pill.
+            # v160 makes preservation the default for R47; all R47_SUB* strings
+            # are authored to fit cap-1 so nothing truncates.  R46 is untouched
+            # (different renderer, posts were always correct).
+            keep_fffe = (r_id == 47
+                         and struct.unpack_from('>H', raw, abs_end - 2)[0] == 0xFFFE)
+            if keep_fffe:
+                payload_cap -= 1
+                if len(en_glyphs) > payload_cap:
+                    print(f"  TRUNC(fffe) sub{si}[{msg_idx}]: {len(en_glyphs)}>{payload_cap} "
+                          f"'{en_text[:30]}' — author a shorter string!")
+                    en_glyphs = list(en_glyphs)[:payload_cap]
+                    while en_glyphs and en_glyphs[-1] == 0xFFFE:
+                        en_glyphs.pop()
+                    truncated += 1
             if symmetric_pad:
                 payload = build_symmetric_payload(en_glyphs, payload_cap)
             else:
                 payload = list(en_glyphs) + [0x0000] * (payload_cap - len(en_glyphs))
+            if keep_fffe:
+                payload.append(0xFFFE)
 
             write_pos = abs_start
             for b in range(0, len(ctrl_bytes), 2):

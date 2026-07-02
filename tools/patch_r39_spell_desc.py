@@ -56,7 +56,9 @@ BUILD_PATH    = 'build/packdata_resources/0039_type15.raw'
 PRISTINE_PATH = 'extracted/packdata_raw/0039_type15.raw'
 JSON_PATH     = 'data/r39_spell_descriptions.json'
 
-PRISTINE_JP_RECORDS = (55, 56, 57)  # ship pristine JP (no real source text)
+PRISTINE_JP_RECORDS = (55, 56, 57)  # legacy default ONLY — the v159 JSON overrides with []
+# (v159: g55/56/57 = Stigma/Raheal/Offset DO have real content; the old 'no real
+# source' claim was an artifact of the misaligned pre-v159 enumeration)
 
 
 # ---------------------------------------------------------------------------
@@ -73,7 +75,8 @@ PRISTINE_JP_RECORDS = (55, 56, 57)  # ship pristine JP (no real source text)
 # REVERT SWITCH: flip USE_ENGLISH_ATLAS = False to fall back to the OLD lowercase
 # spell-font encoder (reverse of msg_glyph_map, .lower() + DROP_CHARS) if a live
 # test ever shows garble. One-line flip; everything else (offset-table rebuild,
-# pristine-diff gate, g55/56/57 pristine) is unchanged.
+# pristine-diff gate) is unchanged.  (v159: the JSON's _pristine_jp_records=[] means
+# ALL records incl. g55/56/57 are translated.)
 # ---------------------------------------------------------------------------
 USE_ENGLISH_ATLAS = True
 
@@ -260,7 +263,7 @@ print(f"offset-table format OK: 1 header(count={HEADER_COUNT}) + 57 block-relati
       f"start offsets, (value,0x0000) pair-stride")
 
 # ---------------------------------------------------------------------------
-# 5. Re-encode g3..g58 (records[2..57]); keep g1/g2 + pristine g55/56/57 verbatim
+# 5. Re-encode g3..g58 (records[2..57]); keep g1/g2 + any json_pristine records verbatim
 # ---------------------------------------------------------------------------
 new_records = [list(r) for r in records]  # start from pristine (verbatim copies)
 encoded = 0

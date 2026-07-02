@@ -64,50 +64,50 @@ SPELL_NAMES = {
     # Slot count = number of Japanese katakana chars (1 glyph each)
     # English must fit in that many characters
     2:  "Crt",          # クレタ (3 slots) - Creta
-    3:  "Crd",          # クルド (3 slots) - Crud
+    3:  "Kld",          # クルド (3 slots) - official US "Kuld" (v160 name audit)
     4:  "Teal",         # ティール (4 slots)
     5:  "Anlyz",        # アナライズ (5 slots) - Analyze
     6:  "Weak",         # ウィーク (4 slots)
     7:  "Dlay",         # ディレイ (4 slots) - Delay
     8:  "Dpt",          # デプス (3 slots) - Depth
     9:  "Febl",         # フィブル (4 slots) - Feeble
-    10: "Shrad",        # シュラード (5 slots) - Shrad
-    11: "Suprm",        # スプリーム (5 slots) - Supreme
+    10: "Shlrd",        # シュラード (5 slots) - official US "Shulard" (v160)
+    11: "Splem",        # スプリーム (5 slots) - official US "Spleem" (sleep; was mis-romanized "Supreme") (v160)
     12: "Slm",          # サロメ (3 slots) - Salome
     13: "Escpe",        # エスケープ (5 slots) - Escape
     14: "ZCrt",         # ザクレタ (4 slots)
-    15: "ZCrd",         # ザクルド (4 slots)
+    15: "ZKld",         # ザクルド (4 slots) - official "Zakuld" (v160)
     16: "ZTeal",        # ザティール (5 slots)
     17: "Tru",          # スルー (3 slots) - Thru
     18: "ZLrd",         # ザラード (4 slots)
-    19: "Drn",          # ドレイン (4 slots) - Drain
-    20: "Rpl",          # リピール (4 slots) - Repel
+    19: "Dran",         # ドレイン (4 slots) - Drain (v160: use full 4-cell budget)
+    20: "Repl",         # リピール (4 slots) - Repeal (annuls chest traps; NOT "Repel") (v160)
     21: "Canb",         # カニバル (4 slots) - Cannibal
     22: "JCret",        # ジャクレタ (5 slots)
-    23: "JCrud",        # ジャクルド (5 slots)
+    23: "JKuld",        # ジャクルド (5 slots) - official "Jakuld" (v160)
     24: "JTeal",        # ジャティル (5 slots)
     25: "Lat",          # レイト (3 slots) - Late
     26: "JLord",        # ジャラード (5 slots)
     27: "Valhl",        # ヴァルハラ (5 slots) - Valhalla
     28: "Rflct",        # リフレクト (5 slots) - Reflect
-    29: "MDth",         # メガデス (4 slots) - MegaDeath
-    30: "Feel",         # フィール (4 slots) - Feel
-    31: "Rap",          # リープ (3 slots) - Reap
-    32: "Valt",         # バレォツ (4 slots) - Valet
-    33: "CFire",        # シーファイ (5 slots) - CeaseFire
+    29: "Mega",         # メガデス (4 slots) - official "Megadeth" (v160: readable 4-char slice)
+    30: "Feal",         # フィール (4 slots) - official US "Feal" (heal; kana is fi not hi) (v160)
+    31: "Lea",          # リープ (3 slots) - official US "Leap" (town warp; old "Rap"/Reap was WRONG) (v160)
+    32: "Brts",         # バレッツ (4 slots) - official US "Barrets" (holy dmg; old kana misread バレォツ/"Valet" was WRONG) (v160)
+    33: "T.Eye",        # シーフアイ (5 slots) - Thief Eye (v159: was "CFire"/CeaseFire misread; desc = counts chests/traps)
     34: "Yba",          # ヤイバ (3 slots) - Yaiba
     35: "Cot",          # コート (3 slots) - Coat
     36: "Bls",          # ブレス (3 slots) - Bless
     37: "Prtct",        # プロテクト (5 slots) - Protect
     38: "Amok",         # アモーク (4 slots) - Amok
-    39: "Feels",        # フィールズ (5 slots) - Feels
+    39: "Feals",        # フィールズ (5 slots) - official "Fealds" row-heal; Feal root + s (v160)
     40: "Pois",         # ポイズン (4 slots) - Poison
     41: "Stran",        # ストレイン (5 slots) - Strain
     42: "PCure",        # ポイズケア (5 slots) - Poison Cure
     43: "ParaC",        # パラズケア (5 slots) - Paralyze Cure
     44: "FearC",        # フィアケア (5 slots) - Fear Cure
     45: "Vitl",         # バイタル (4 slots) - Vital
-    46: "Crcs",         # カーカス (4 slots) - Carcass
+    46: "Carc",         # カーカス (4 slots) - official "Carcass" (v160: readable truncation)
     47: "Wil",          # ウィル (3 slots) - Will
     48: "Luml",         # リュミル (4 slots) - Lumil
     49: "Undad",        # アンデッド (5 slots) - Undead
@@ -116,9 +116,9 @@ SPELL_NAMES = {
     52: "UCurs",        # アンカーズ (5 slots) - Uncurse
     53: "Flot",         # フロート (4 slots) - Float
     54: "Stigm",        # スティグマ (5 slots) - Stigma
-    55: "RFeel",        # ラフィール (5 slots) - Re-Feel
+    55: "LFeal",        # ラフィール (5 slots) - official US "Lafeal" (heal all; La- prefix, not Re-) (v160)
     56: "Offst",        # オフセット (5 slots) - Offset
-    57: "Reviv",        # リヴィヴ (5 slots) - Revive
+    57: "Reviv",        # リヴァイヴ (5 slots) - Revive (v160: kana in comment corrected)
 }
 REPLACEMENTS.update(SPELL_NAMES)
 
