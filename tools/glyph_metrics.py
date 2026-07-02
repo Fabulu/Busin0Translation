@@ -28,6 +28,19 @@ GAP = 3
 _BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _METRICS = os.path.join(_BASE, 'data', 'r1188_ascii_metrics.json')
 
+# ── SECOND FONT (v158): R2100 sub0 — the UPRIGHT 16x16-cell UI serif ─────────
+# The chargen/request renderers (0x307510 / 0x3A2EF0, Patches 26/27/29/31) draw
+# the R2100 sub0 ASCII glyphs (upright serif, 16px cells, cell = char-0x20 in a
+# 16-column grid), NOT the oblique 24px R1188 font.  Feeding them the R1188
+# tables was the root cause of the game-wide "Ge nde r" per-letter unevenness
+# (see memory project_chargen_font_r2100_rootcause).  ADV2/LEFTSHIFT2 below are
+# the same formulas scaled to the 16px font, sourced from
+# data/r2100_ascii_metrics.json (measured offline from the PRISTINE R2100 sub0
+# pixels in PACKDATA — R2100 deswizzles cleanly at 256x256 dbw_ct32=128).
+GAP2 = 2                      # inter-letter ink gap for the 16px font (R1188=3 @24px)
+SPACE_ADV2 = 6                # space advance for the 16px font (R1188=9 @24px)
+_METRICS2 = os.path.join(_BASE, 'data', 'r2100_ascii_metrics.json')
+
 
 def _load():
     m = json.load(open(_METRICS, encoding='utf-8'))
@@ -41,8 +54,26 @@ def _load():
     return adv, lsh
 
 
+def _load2():
+    m = json.load(open(_METRICS2, encoding='utf-8'))
+    adv, lsh = [], []
+    for g in range(95):
+        e = m[g]
+        iw = e['ink_width']
+        il = e.get('ink_left', 0)
+        adv.append(SPACE_ADV2 if (g == 0 or iw == 0) else max(4, min(15, iw + GAP2)))
+        lsh.append(max(0, il))
+    return adv, lsh
+
+
 ADV, LEFTSHIFT = _load()
 assert len(ADV) == 95 and ADV[0] == 9
+
+ADV2, LEFTSHIFT2 = _load2()
+assert len(ADV2) == 95 and ADV2[0] == SPACE_ADV2
+# Space (and any empty glyph) must never draw-shift; several cave designs also
+# rely on LEFTSHIFT2[0] == 0.
+assert LEFTSHIFT2[0] == 0 and LEFTSHIFT[0] == 0
 
 
 def adv_table_256():
@@ -80,6 +111,36 @@ def leftshift_table_95():
     return bytes((s & 0xFF) for s in LEFTSHIFT)
 
 
+def adv2_table_256():
+    """256-byte R2100 advance table (ADV2 @VA 0x4B1000, Patches 26/27).
+
+    idx 0..94 = ADV2; the 95..255 tail stays 0x12 — byte-identical to the
+    canonical table's tail, so non-ASCII glyphs (kanji low-byte reads through
+    P27's unguarded `lbu -1(s2)`) keep the exact pre-v158 advance behaviour.
+    """
+    t = bytearray([0x12]) * 256
+    for i, a in enumerate(ADV2):
+        t[i] = a & 0xFF
+    return bytes(t)
+
+
+def leftshift2_table_256():
+    """256-byte R2100 left-shift table (LSH2 @VA 0x4B1100, Patches 29/31).
+
+    idx 0..94 = LEFTSHIFT2; tail 95..255 = 0 (non-ASCII subtracts nothing),
+    matching the canonical table's zero tail.
+    """
+    t = bytearray(256)
+    for i, s in enumerate(LEFTSHIFT2):
+        t[i] = s & 0xFF
+    return bytes(t)
+
+
+def px_width2(s, enc):
+    """Pixel width of a single-line string in the R2100 (chargen/request) font."""
+    return sum(ADV2[enc(c)] if 0 <= enc(c) < 95 else 0x12 for c in s)
+
+
 def px_width(s, enc):
     """Pixel width of a single-line string. enc(ch)->glyph id (char-32 family)."""
     return sum(ADV[enc(c)] if 0 <= enc(c) < 95 else 18 for c in s)
@@ -94,3 +155,9 @@ if __name__ == '__main__':
     print(' ', LEFTSHIFT)
     print(f"sample: space adv={ADV[0]} | 'i'(73) adv={ADV[73]} lsh={LEFTSHIFT[73]} | "
           f"'m'(77) adv={ADV[77]} lsh={LEFTSHIFT[77]} | 'f'(70) adv={ADV[70]} lsh={LEFTSHIFT[70]}")
+    print(f'ADV2 (R2100 16px font, gid 0..94), avg {sum(ADV2)/95:.1f}px:')
+    print(' ', ADV2)
+    print(f'LEFTSHIFT2 (gid 0..94):')
+    print(' ', LEFTSHIFT2)
+    print(f"sample2: space adv={ADV2[0]} | 'e'(69) adv={ADV2[69]} lsh={LEFTSHIFT2[69]} | "
+          f"'f'(70) adv={ADV2[70]} lsh={LEFTSHIFT2[70]} | 'W'(55) adv={ADV2[55]} lsh={LEFTSHIFT2[55]}")

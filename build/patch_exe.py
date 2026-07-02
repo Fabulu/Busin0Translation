@@ -29,9 +29,11 @@ import glyph_metrics
 # and the box renderer's `j 0x4C7xxx` hook jumped into garbage -> no monsters / abort.
 # _reloc_v147_design.py moves ONLY those battle-traversed pieces to verified-safe
 # code-segment padding (below 0x4B0DCF), keeping the proportional-text LOGIC
-# byte-faithful.  The inert/non-battle readers (P19/P25/P26) KEEP the canonical
+# byte-faithful.  The inert/non-battle readers (P19/P25) KEEP the canonical
 # tables at 0x4C7564/0x4C7690 (still written by Patch 14), which are intact in
-# chargen/request mode (never battle).
+# chargen/request mode (never battle).  v158: P26/P27/P29/P31 read the R2100
+# tables ADV2/LSH2 @0x4B1000/0x4B1100 instead (right-font fix; see the R2100
+# metric-tables block).
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import _reloc_v147_design as RELOC
 
@@ -616,6 +618,46 @@ def main():
     else:
         print(f"  WARN proportional caves not applied: hook1=0x{h1:08X} hook2=0x{h2:08X}")
 
+    # ─── R2100 METRIC TABLES (v158) — consumed by Patches 26/27/29/31 ──────────────────
+    # ROOT CAUSE (memory project_chargen_font_r2100_rootcause): the chargen/request
+    # renderers 0x307510 / 0x3A2EF0 draw the R2100 sub0 UPRIGHT 16px font, NOT the oblique
+    # 24px R1188 font.  Feeding them the canonical R1188 tables produced the game-wide
+    # "Ge nde r" per-letter unevenness (R2100 'e' is ink_left 4 / width 7, but the R1188
+    # table said LSH 9 / ADV 16 -> 5px over-shift + 6px over-advance after every 'e').
+    # Fix: bake the R2100-derived tables (glyph_metrics.ADV2/LEFTSHIFT2, GAP2=2, clamp
+    # 4..15, space 6) at RELOC.ADV2_VA/LSH2_VA and point the four chargen/request caves
+    # at them.  The canonical tables stay untouched for narration/dialogue (Patch 14).
+    # PLACEMENT: 0x4B1000/0x4B1100 sit in the 4081B hole 0x4B0E97..0x4B1E88 that is zero
+    # in the pristine EXE AND all 27 live RAM dumps incl. 10 battle dumps (same evidence
+    # class as the canonical whitelist); data-only, read only in modes 5/7 (never battle).
+    print("\n--- R2100 metric tables (v158): ADV2 + LSH2 for the chargen/request UI font ---")
+    T2_ADV_FO = RELOC.fo(RELOC.ADV2_VA)   # file off VA 0x4B1000
+    T2_LSH_FO = RELOC.fo(RELOC.LSH2_VA)   # file off VA 0x4B1100
+    if DISABLE_P27_P14:
+        print("  SKIP R2100 tables (DISABLE_P27_P14=1 CONFIRM build; consumers are skipped too)")
+    else:
+        t2_free = (all(b == 0 for b in data[T2_ADV_FO:T2_ADV_FO + 256])
+                   and all(b == 0 for b in data[T2_LSH_FO:T2_LSH_FO + 256]))
+        if not t2_free:
+            # HARD FAIL, not a WARN: Patches 26/27/29/31 gate only on the Patch-14
+            # marker, so if the tables were silently skipped the caves would read
+            # garbage advances/shifts.  A non-zero region here means another patch
+            # claimed 0x4B1000..0x4B1200 -- that collision must be resolved, never
+            # shipped.
+            raise AssertionError(
+                "R2100 table regions @0x4B1000/0x4B1100 are not zero -- another patch "
+                "claimed the hole; Patches 26/27/29/31 would read garbage. Resolve the "
+                "collision (see _reloc_v147_design ADV2_VA/LSH2_VA)."
+            )
+        else:
+            RELOC.assert_install_safe(RELOC.ADV2_VA, 256, "R2100 ADV2 table", allow_canonical_table=True)
+            RELOC.assert_install_safe(RELOC.LSH2_VA, 256, "R2100 LSH2 table", allow_canonical_table=True)
+            data[T2_ADV_FO:T2_ADV_FO + 256] = glyph_metrics.adv2_table_256()
+            data[T2_LSH_FO:T2_LSH_FO + 256] = glyph_metrics.leftshift2_table_256()
+            patched_count += 1
+            print(f"  OK   ADV2 @0x{RELOC.ADV2_VA:06X} (avg {sum(glyph_metrics.ADV2)/95:.1f}px, tail 0x12) + "
+                  f"LSH2 @0x{RELOC.LSH2_VA:06X} (tail 0) — R2100 upright 16px font metrics")
+
     # ─── PATCH 19: CHARGEN Path-1 proportional spacing (advance LUT + draw-shift + summed centering)
     # The chargen prompt (R37) and description/personality (R38) glyph streams render through
     # Path 1 of the universal R1188 renderer func 0x307DA0 (data/chargen_spacing_backlog.md) —
@@ -893,8 +935,10 @@ def main():
     # caller's font SIZE arg [sp+0xE0]==[sp+0x178] at the 0x3079D0 bne (==100 integer
     # 0x3079DC / !=100 float 0x3079E8 -- BOTH constant strides, neither proportional).
     #
-    # FIX = ONE hook + ONE cave that advances the cursor by the resident Patch-14 ADV
-    # width (table @0x4C7564) per glyph, gated to chargen (mem[0x4FED18]==5).  The hook
+    # FIX = ONE hook + ONE cave that advances the cursor by the per-glyph ADV width,
+    # gated to chargen (mem[0x4FED18]==5).  v158: the table is the R2100 ADV2
+    # @RELOC.ADV2_VA (this renderer draws the R2100 upright 16px font, NOT R1188 —
+    # see the R2100-tables block above).  The hook
     # sits at 0x3079CC, ONE instr BEFORE the size bne, so it covers BOTH branches (the
     # integer-vs-float question is MOOT).  mode!=5 falls through to a byte-identical STOCK
     # -> ZERO blast radius on the ~10 other size-100 callers (town/shop menus, name-entry,
@@ -951,9 +995,9 @@ def main():
         0x10200009,  # 0x4C77C8  beqz  at,0x4C77F0      ; gid>=95 -> STOCK
         0x00000000,  # 0x4C77CC  nop
         0x86430000,  # 0x4C77D0  lh    v1,0(s2)         ; cursor X
-        0x3C01004C,  # 0x4C77D4  lui   at,0x4C
+        0x3C01004B,  # 0x4C77D4  lui   at,0x4B          ; v158: R2100 ADV2 table base
         0x00220821,  # 0x4C77D8  addu  at,at,v0
-        0x90217564,  # 0x4C77DC  lbu   at,0x7564(at)    ; ADV[gid]
+        0x90211000,  # 0x4C77DC  lbu   at,0x1000(at)    ; ADV2[gid] (R2100 upright font)
         0x00611821,  # 0x4C77E0  addu  v1,v1,at         ; cursor += ADV
         0xA6430000,  # 0x4C77E4  sh    v1,0(s2)
         0x080C1E80,  # 0x4C77E8  j     0x307A00         ; loop tail (proportional done)
@@ -981,7 +1025,7 @@ def main():
             assert struct.unpack_from("<I", data, P26_CAVE)[0] == 0x3C010050
             patched_count += 1
             print(f"  OK   0x3079CC -> j 0x{RELOC.P26_VA:06X}; 26-word ADV cave (abs mode==5 gate, "
-                  "ADV 0x7564, v1-preserving STOCK); chargen body now proportional")
+                  f"R2100 ADV2 @0x{RELOC.ADV2_VA:06X}, v1-preserving STOCK); chargen body now proportional")
         else:
             print(f"  WARN Patch 26 not applied: hook=0x{hook_now:08X} cave_free={cave_free}")
 
@@ -1184,29 +1228,213 @@ def main():
                 assert struct.unpack_from("<I", data, P27_CAVE)[0] == P27_CAVE_WORDS[0]
                 patched_count += 1
                 print(f"  OK   0x3A31A0 -> j 0x{RELOC.P27_VA:06X} (RELOCATED below arena); "
-                      f"{len(P27_CAVE_WORDS)}-word cave (gid lbu -1(s2), canonical ADV @0x{RELOC.ADV_VA:06X}, "
+                      f"{len(P27_CAVE_WORDS)}-word cave (gid lbu -1(s2), R2100 ADV2 @0x{RELOC.ADV2_VA:06X}, "
                       "mode==5/7 gate via $v1 -> battle-safe STOCK path); chargen + request box text proportional")
             else:
                 print(f"  WARN Patch 27 not applied: hook=0x{hook_now:08X} cave_free={cave_free}")
 
-    # ─── PATCH 28: CHARGEN race-list nudge-left (use the empty parchment margin) ─────────
-    # On the race-select screen the 6-row race list (Human/Elf/Gnome/Dwarf/Hobbit/+) reads its
-    # per-row origin from coord table 0x4D0270 (X=16, Y=16..96).  After Patch 27 the proportional
-    # wide-letter names ("Human" m=23px) push further right and "Hobbit" spills off the panel into
-    # the portrait, while there is ~54px of empty parchment to the LEFT.  Shift the 6 race rows'
-    # X from +16 to -8 (24px left) into that margin.  Group-2 (classes @0x4D0290) + group-3 (stats
-    # @0x4D02C0) are SEPARATE rows and untouched.  Pure data edit; reversible.
-    print("\n--- Patch 28: chargen race-list nudge-left (coord table 0x4D0270, -24px) ---")
-    P28_TBL = 0x3D02F0       # file off of VA 0x4D0270 (race rows)
-    p28_ok = all(struct.unpack_from("<H", data, P28_TBL + i * 4)[0] == 16 for i in range(6))
-    if p28_ok:
-        for i in range(6):
-            struct.pack_into("<h", data, P28_TBL + i * 4, -8)   # X: 16 -> -8 (24px left)
-        patched_count += 1
-        print("  OK   6 race rows X 16 -> -8 (list shifts 24px left into the margin)")
+    # ─── PATCH 29: BOX-TEXT first-letter-gap fix — LEFTSHIFT draw-shift (renderer 0x3A2EF0) ──
+    # Patch 27 gave renderer 0x3A2EF0 proportional ADVANCE but NOT the companion left-bearing
+    # draw-shift (LSH) that the narration renderer already has (Patch 14 cave2).  So box ink
+    # lands at baseX+pen+ink_left(gid) and the gap balloons after a low-bearing leading capital
+    # ("A....llocate").  Patch 29 mirrors Patch 14 cave2 for BOTH glyph draw-X sites in 0x3A2EF0
+    # (0x3A30F4 path A, 0x3A3170 path B — both pristine `addu v1,v0,v1`), hooking each with a
+    # `jal` into ONE shared subroutine (ra is free in the 0x3A2EF0 loop: saved 0x3A2EF8, restored
+    # only at exit 0x3A31D8).  The sub reloads baseX (sp+0xE0; v0 is clobbered by the jal delay
+    # slot lbu v0,off(sp)), recovers gid via `lbu -1(s2)` (same as Patch 27), reads LEFTSHIFT2[gid]
+    # from the R2100 table @0x4B1100 (v158: this renderer draws the R2100 upright font), and
+    # subtracts it from draw-X.  MODE-GATE on 0x4FED18 in {5,7}: for battle (mode 8) and the ~250
+    # other callers the sub returns the byte-identical STOCK draw-X (baseX+pen).  Because no
+    # contiguous >=52B safe .text hole remains below the arena, the sub is SPLIT across two
+    # verified-zero pads — frag1 @0x4B0C48 (40B) + frag2 @0x4B0BC8 (16B) — both < 0x4B0DCF and
+    # clear of the libgraph block; see _reloc_v147_design build_p29().  Gated on Patch 14 (LSH
+    # table resident) and skipped in the DISABLE_P27_P14 / FIRE_DIAG diagnostic builds.
+    if DISABLE_P27_P14:
+        print("\n--- Patch 29: SKIPPED via DISABLE_P27_P14=1 (battle-root-cause CONFIRM build) ---")
+    elif FIRE_DIAG:
+        print("\n--- Patch 29: SKIPPED (FIRE_DIAG diagnostic build) ---")
     else:
-        rows = [struct.unpack_from("<H", data, P28_TBL + i * 4)[0] for i in range(6)]
-        print(f"  WARN race coord rows not all X=16 ({rows}) -> Patch 28 SKIPPED")
+        print("\n--- Patch 29: BOX-TEXT first-letter-gap LSH (renderer 0x3A2EF0, mode 5/7 gated) ---")
+        P29_HOOK1_FO = RELOC.fo(RELOC.P29_HOOK1)   # file 0x2A3174 (VA 0x3A30F4)
+        P29_HOOK2_FO = RELOC.fo(RELOC.P29_HOOK2)   # file 0x2A31F0 (VA 0x3A3170)
+        P29_F1_FO    = RELOC.fo(RELOC.P29_F1_VA)
+        P29_F2_FO    = RELOC.fo(RELOC.P29_F2_VA)
+        P29_JW       = RELOC.P29_HOOK_JWORD        # jal 0x4B0C48
+        gate = struct.unpack_from("<I", data, 0x209820)[0]   # Patch-14 marker (LSH table resident)
+        h1 = struct.unpack_from("<I", data, P29_HOOK1_FO)[0]
+        h2 = struct.unpack_from("<I", data, P29_HOOK2_FO)[0]
+        if gate != RELOC.NEW_GATE_MARKER:
+            print(f"  WARN Patch 14 not installed (marker=0x{gate:08X}) -> Patch 29 SKIPPED (no LSH table)")
+        elif h1 == P29_JW and h2 == P29_JW:
+            print("  SKIP Patch 29 already installed (both sites jal cave)")
+        elif h1 == RELOC.P29_ORIG_SITE and h2 == RELOC.P29_ORIG_SITE:
+            f1_free = all(struct.unpack_from("<I", data, P29_F1_FO + i * 4)[0] == 0
+                          for i in range(len(RELOC.P29_F1_WORDS)))
+            f2_free = all(struct.unpack_from("<I", data, P29_F2_FO + i * 4)[0] == 0
+                          for i in range(len(RELOC.P29_F2_WORDS)))
+            if not (f1_free and f2_free):
+                print(f"  WARN Patch 29 cave pads not zero (f1={f1_free} f2={f2_free}) -> SKIPPED")
+            else:
+                RELOC.assert_install_safe(RELOC.P29_F1_VA, len(RELOC.P29_F1_WORDS) * 4, "Patch 29 frag1")
+                RELOC.assert_install_safe(RELOC.P29_F2_VA, len(RELOC.P29_F2_WORDS) * 4, "Patch 29 frag2")
+                for i, wd in enumerate(RELOC.P29_F1_WORDS):
+                    struct.pack_into("<I", data, P29_F1_FO + i * 4, wd)
+                for i, wd in enumerate(RELOC.P29_F2_WORDS):
+                    struct.pack_into("<I", data, P29_F2_FO + i * 4, wd)
+                struct.pack_into("<I", data, P29_HOOK1_FO, P29_JW)   # jal cave (delay slot 0x3A30F8 left as-is)
+                struct.pack_into("<I", data, P29_HOOK2_FO, P29_JW)   # jal cave (delay slot 0x3A3174 left as-is)
+                assert struct.unpack_from("<I", data, P29_HOOK1_FO)[0] == P29_JW
+                assert struct.unpack_from("<I", data, P29_HOOK2_FO)[0] == P29_JW
+                assert struct.unpack_from("<I", data, P29_F1_FO)[0] == RELOC.P29_F1_WORDS[0]
+                patched_count += 1
+                print(f"  OK   0x3A30F4 + 0x3A3170 -> jal 0x{RELOC.P29_F1_VA:06X} (2 hooks); "
+                      f"frag1 {len(RELOC.P29_F1_WORDS)}w @0x{RELOC.P29_F1_VA:06X} + frag2 "
+                      f"{len(RELOC.P29_F2_WORDS)}w @0x{RELOC.P29_F2_VA:06X} "
+                      f"(gid lbu -1(s2), R2100 LSH2 @0x{RELOC.LSH2_VA:06X}, mode==5/7 gate -> battle-safe STOCK)")
+        else:
+            print(f"  WARN Patch 29 sites not pristine: h1=0x{h1:08X} h2=0x{h2:08X} -> SKIPPED")
+
+    # ─── PATCH 31: CHARGEN DESCRIPTION-box first-letter-gap LSH (renderer 0x307510) ─────────
+    # Patch 26 gave the LIVE chargen body/description renderer func 0x307510 (line-walk
+    # 0x307DA0 -> glyph blit 0x307510 -> emit 0x3060B0) a proportional ADVANCE (hook
+    # @0x3079CC, gated mem[0x4FED18]==5) but NOT the companion left-bearing draw-shift, so
+    # the race/alignment DESCRIPTION boxes render with uneven "random spaces".  Patch 31 is
+    # the 0x307510 analogue of Patch 29 (which did this for the OTHER renderer 0x3A2EF0):
+    # it subtracts LEFTSHIFT2[gid] (R2100 table @0x4B1100, v158 -- this renderer draws the
+    # R2100 upright font) from the draw-X, mode-gated ==5 exactly like Patch 26 so ADV+LSH stay
+    # in lockstep and every other surface (town/menus at other modes, battle) is byte-
+    # identical (subu 0).  Single draw-X site 0x307974 (`lh t2,0(s2)`, the penX read that
+    # flows to `addu t2,t2,t0` draw-X @0x307980); hook -> j frag1, the pristine delay slot
+    # 0x307978 (`lh t1,0(v0)`) is left as the j delay slot.  gid = the ACTUAL drawn glyph,
+    # stored `sd v0,0x10(sp)` @0x307960 (recovered via lhu 0x10(sp); == Patch 26's advanced
+    # gid on the desc text), ASCII-guarded (sltiu<95 + movz -> gid>=95 subtracts nothing).
+    # Sub is BRANCHLESS + split across two verified-zero post-`jr ra` .text pads below the
+    # arena: frag1 @0x4AFA00 (40B) + frag2 @0x4AB5EC (20B); see _reloc build_p31().  Gated on
+    # Patch 14 (LSH table resident) and skipped in the DISABLE_P27_P14 / FIRE_DIAG builds.
+    if DISABLE_P27_P14:
+        print("\n--- Patch 31: SKIPPED via DISABLE_P27_P14=1 (battle-root-cause CONFIRM build) ---")
+    elif FIRE_DIAG:
+        print("\n--- Patch 31: SKIPPED (FIRE_DIAG diagnostic build) ---")
+    else:
+        print("\n--- Patch 31: CHARGEN desc-box LSH (renderer 0x307510, mode 5 gated) ---")
+        P31_HOOK_FO = RELOC.fo(RELOC.P31_HOOK)     # file 0x2079F4 (VA 0x307974)
+        P31_F1_FO   = RELOC.fo(RELOC.P31_F1_VA)
+        P31_F2_FO   = RELOC.fo(RELOC.P31_F2_VA)
+        P31_JW      = RELOC.P31_HOOK_JWORD         # j 0x4AFA00
+        gate = struct.unpack_from("<I", data, 0x209820)[0]   # Patch-14 marker (LSH table resident)
+        h = struct.unpack_from("<I", data, P31_HOOK_FO)[0]
+        if gate != RELOC.NEW_GATE_MARKER:
+            print(f"  WARN Patch 14 not installed (marker=0x{gate:08X}) -> Patch 31 SKIPPED (no LSH table)")
+        elif h == P31_JW:
+            print("  SKIP Patch 31 already installed (draw-X site j cave)")
+        elif h == RELOC.P31_ORIG_SITE:
+            f1_free = all(struct.unpack_from("<I", data, P31_F1_FO + i * 4)[0] == 0
+                          for i in range(len(RELOC.P31_F1_WORDS)))
+            f2_free = all(struct.unpack_from("<I", data, P31_F2_FO + i * 4)[0] == 0
+                          for i in range(len(RELOC.P31_F2_WORDS)))
+            if not (f1_free and f2_free):
+                print(f"  WARN Patch 31 cave pads not zero (f1={f1_free} f2={f2_free}) -> SKIPPED")
+            else:
+                RELOC.assert_install_safe(RELOC.P31_F1_VA, len(RELOC.P31_F1_WORDS) * 4, "Patch 31 frag1")
+                RELOC.assert_install_safe(RELOC.P31_F2_VA, len(RELOC.P31_F2_WORDS) * 4, "Patch 31 frag2")
+                for i, wd in enumerate(RELOC.P31_F1_WORDS):
+                    struct.pack_into("<I", data, P31_F1_FO + i * 4, wd)
+                for i, wd in enumerate(RELOC.P31_F2_WORDS):
+                    struct.pack_into("<I", data, P31_F2_FO + i * 4, wd)
+                struct.pack_into("<I", data, P31_HOOK_FO, P31_JW)   # j cave (delay slot 0x307978 left as-is)
+                assert struct.unpack_from("<I", data, P31_HOOK_FO)[0] == P31_JW
+                assert struct.unpack_from("<I", data, P31_F1_FO)[0] == RELOC.P31_F1_WORDS[0]
+                assert struct.unpack_from("<I", data, P31_F2_FO)[0] == RELOC.P31_F2_WORDS[0]
+                patched_count += 1
+                print(f"  OK   0x307974 -> j 0x{RELOC.P31_F1_VA:06X}; frag1 {len(RELOC.P31_F1_WORDS)}w "
+                      f"@0x{RELOC.P31_F1_VA:06X} + frag2 {len(RELOC.P31_F2_WORDS)}w @0x{RELOC.P31_F2_VA:06X} "
+                      f"(gid lhu 0x10(sp), R2100 LSH2 @0x{RELOC.LSH2_VA:06X}, mode==5 gate -> stock draw-X elsewhere)")
+        else:
+            print(f"  WARN Patch 31 site not pristine: h=0x{h:08X} -> SKIPPED")
+
+    # ─── PATCH 28: CHARGEN race-list nudge-left (REAL lever — race-NAME pen origin) ─────────
+    # The race-select name list (Human/Elf/Gnome/Dwarf/Hobbit/+) overflows the parchment RIGHT edge
+    # after Patch 27's proportional widening.  LIVE-TRACED (PCSX2 run-until-return walk-up of the
+    # draw chain 0x3A3260<-0x319D8C<-0x142A60<-0x144A90<-0x14BED0): the name column's horizontal
+    # PEN ORIGIN is an immediate in the race-select list renderer 0x14BED0 --
+    #   VA 0x14C070 (file 0x4C0F0):  addiu v0,zero,-104   (word 0x2402FF98)
+    # sets pen-X = -104 (rel. to the box origin); the per-char loop advances it by glyph widths.
+    # The OLD edit to coord table 0x4D0270 (X 16->-28) was DEAD: that table positions the OFF-SCREEN
+    # marker icons at X=-232, NOT the names (proven live -- the -28 loaded in RAM but the names never
+    # moved a pixel).  0x4D0270 is now left PRISTINE.  Make the origin more negative to shift names
+    # left.  BATTLE-SAFE: 0x14BED0 is chargen-only (exactly 2 callers, both the chargen menu module;
+    # reads race field 0x49e; mode-gated 0x4FED18==5) and this is a plain in-place .text immediate at
+    # VA 0x14C070 << 0x4B0DCF -- no cave, arena/battle rules N/A.  Only the low-16 immediate changes.
+    # PATCH 28: chargen race-NAME column left-nudge -- the REAL lever, LIVE-TRACED (finally).
+    # A MEMORY-READ breakpoint on the live "Human" glyph data (RAM 0x00E144D4, verified all 6 race
+    # names) + a run-until-return walk-up of the GENUINE race-name draw chain
+    #   renderer 0x3A2EF0 <- wrapper 0x3A3260 <- site-B 0x4913AC <- 0x142410 <- func 0x149820
+    # landed on the origin.  0x149820 (dispatched indirectly by the chargen list renderer 0x14BED0)
+    # sets the two column X origins that flow to 0x142410:
+    #   0x1498A0: addiu t2,zero,-216  = MARKER column (off-screen)
+    #   0x1498A8: addiu t3,zero,-104  = NAME column   <-- this one
+    # (matches the independently-found "names at -104, markers at -232".)  Shift the -104 more
+    # negative to pull the race names left off the parchment right edge.  The three prior candidates
+    # were all FALSIFIED -- 0x4D0270 (off-screen markers), 0x14C070 (the Sex info-banner, moved the
+    # banner not the names), and t0=17 (a2, wrong param) -- because none was anchored on an actual
+    # race-name glyph; this one is.  SAFETY: 0x149820 has 0 direct callers (indirect jalr from the
+    # chargen module only) -> chargen-dispatched; plain in-place .text immediate at VA 0x1498A8 <<
+    # 0x4B0DCF (no cave, arena rules N/A).  CONFIRM ON BOOT that ONLY the race names move; tune
+    # P28_NEW if it over/under-shoots.
+    # UPDATE (v156): the REAL X lever was finally traced byte-for-byte. baseX (sp+0xE0) <- t2=-216.
+    # v154 proved the sibling 0x1498A8 (t3=-104) is the Y axis (box moved UP, names unchanged); its
+    # neighbour t2=-216 is the X. 0x142410 is dispatched to 3 handlers (0x149710/0x149820/0x149DE0) by
+    # item selection state, EACH carrying the same t2=-216, so ALL THREE shift together:
+    #   VA 0x149788 (file 0x49808), 0x1498A0 (file 0x49920), 0x149E5C (file 0x49EDC) = addiu t2,zero,-216
+    # baseX = sext16(t2)+28; more negative = further left. Chargen-only (dispatch table 0x4B6180 +
+    # 0x142410's 3 callers live only in the 0x14Cxxx chargen module -> the shared renderer stays
+    # byte-identical for battle/town). Plain in-place .text immediates (all << 0x4B0DCF), no cave.
+    # The five earlier candidates (0x4D0270, 0x14C070, t0=17, 0x1498A8 Y-axis) stay PRISTINE. Tune P28_NEW.
+    print("\n--- Patch 28: chargen race-NAME column nudge-left (3x addiu t2,zero,-216) ---")
+    P28_SITES = (0x49808, 0x49920, 0x49EDC)   # file offs of VA 0x149788 / 0x1498A0 / 0x149E5C
+    # v158: REVERTED TO STOCK (-216).  The right-edge overflow Patch 28 compensated for
+    # (-241 in v156, -260 overshoot in v157) was caused by the WRONG-FONT advance bloat:
+    # the name lists flow through 0x3A2EF0 (P27), which applied R1188 ADV (avg 17.4px) to
+    # the R2100 16px font ("H u m a n" ~97px).  With the R2100 ADV2 tables (avg 10.4px)
+    # "Human" is ~56px and fits at the stock origin, so the nudge is no longer needed.
+    # Set P28_NEW more negative again ONLY if a fresh capture still shows right-edge
+    # clipping.  word = 0x240A0000 | (P28_NEW & 0xFFFF).
+    P28_NEW = -216                            # STOCK. tune here if a capture shows clipping
+    if not all(struct.unpack_from("<I", data, s)[0] == 0x240AFF28 for s in P28_SITES):  # addiu t2,zero,-216
+        vals = [f"0x{struct.unpack_from('<I', data, s)[0]:08X}" for s in P28_SITES]
+        print(f"  WARN race-name X sites not all pristine ({vals}) -> Patch 28 SKIPPED")
+    elif P28_NEW == -216:
+        print("  SKIP race-name column X stays STOCK -216 (v158: R2100 ADV2 tables removed the overflow)")
+    else:
+        for s in P28_SITES:
+            struct.pack_into("<h", data, s, P28_NEW)   # rewrite low-16 immediate only
+        patched_count += 1
+        print(f"  OK   race-name column X -216 -> {P28_NEW} ({-216 - P28_NEW}px left) x3 handlers")
+
+    # ─── PATCH 30: CHARGEN SIDEBAR value-column left-shift (in-place .text immediate) ──
+    # The chargen SIDEBAR VALUE fields (Sex / Race:Human / Align:Good / Class:Fight)
+    # overflow their boxes on the RIGHT on ALL chargen screens.  They share ONE base-X
+    # immediate, traced end-to-end to the renderer baseX:
+    #   VA 0x14C0A0 (file 0x4C120)  addiu t3,zero,72  (word 0x240B0048) -- the shared
+    #   value-column base X, the t3 arg to `jal 0x144A90` @0x14C09C (chargen module
+    #   0x14BED0; the value graph 0x144A90/0x142A60 has ONLY chargen-module callers).
+    # Change 72 -> 44 (word 0x240B002C, ~28px left).  Plain in-place .text immediate at
+    # VA 0x14C0A0 << 0x4B0DCF -- chargen-only, no cave, no mode-gate (structural surface
+    # isolation).  Do NOT touch 0x14C070 (the Sex info-banner v0=-104) or 0x14C0A0's
+    # NEIGHBOURS.  Gate strictly on the pristine word 0x240B0048.
+    print("\n--- Patch 30: chargen sidebar value-column left-shift (72 -> 44) ---")
+    P30_OFF = 0x4C120                         # file off of VA 0x14C0A0
+    P30_PRISTINE = 0x240B0048                 # addiu t3,zero,72
+    P30_NEW = 0x240B002C                      # addiu t3,zero,44  (~28px left)
+    cur30 = struct.unpack_from("<I", data, P30_OFF)[0]
+    if cur30 == P30_PRISTINE:
+        struct.pack_into("<I", data, P30_OFF, P30_NEW)
+        print(f"  OK   0x14C0A0: sidebar value-column base X 72 -> 44 (28px left)")
+        patched_count += 1
+    elif cur30 == P30_NEW:
+        print(f"  SKIP 0x14C0A0: already 44 (0x{P30_NEW:08X})")
+    else:
+        print(f"  WARN 0x14C0A0 = 0x{cur30:08X}, expected pristine 0x{P30_PRISTINE:08X} -> Patch 30 SKIPPED")
 
     # ─── PATCH 20: NARRATION FIXED LEFT-MARGIN origin (replaces summed-width centering) ──
     # USER PREFERENCE (aheavyfog.p2s / noonewasinsight.p2s screenshots): narration must be
@@ -1524,6 +1752,10 @@ def main():
     #   available (cannot drive the live debugger here), Patch 25 ships DISABLED so it cannot
     #   regress the current Patch-22 18px-mono behaviour.  Set PATCH25_ENABLE = True ONLY after
     #   the live confirm.  file_off = VA - 0x100000 + 0x80.
+    # v158 NOTE: if this is ever enabled, first decide the table -- the request-desc
+    # body renders in the R2100 upright font (requestissue.p2s), so the cave's
+    # lbu 0x7564 (canonical R1188 ADV) likely needs to become the R2100 ADV2 read
+    # (lui 0x4B / lbu 0x1000, RELOC.ADV2_VA) like Patches 26/27 in v158.
     PATCH25_ENABLE = False   # <-- flip to True ONLY after live-debugger confirms DEFAULT path + left-anchor
     print("\n--- Patch 25: REQUEST body proportional advance @0x308CAC + Option-B fixed margin (align==2) ---")
     P25_HOOK   = 0x208D2C        # VA 0x308CAC  lh v0,0x1ce(sp)  (Block-2 default advance head)

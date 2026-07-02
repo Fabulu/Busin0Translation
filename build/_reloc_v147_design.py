@@ -66,6 +66,10 @@ def bne(rs, rt, tgt, pc):return (0x05 << 26) | (_R(rs) << 21) | (_R(rt) << 16) |
 def beqz(rs, tgt, pc):   return beq(rs, 'zero', tgt, pc)
 def b(tgt, pc):          return beq('zero', 'zero', tgt, pc)
 def j(va):               return (0x02 << 26) | ((va >> 2) & 0x3ffffff)
+def jal(va):             return (0x03 << 26) | ((va >> 2) & 0x3ffffff)
+def jr(rs):              return (_R(rs) << 21) | 0x08
+def movn(rd, rs, rt):    return (_R(rs) << 21) | (_R(rt) << 16) | (_R(rd) << 11) | 0x0b
+def movz(rd, rs, rt):    return (_R(rs) << 21) | (_R(rt) << 16) | (_R(rd) << 11) | 0x0a
 def nop():               return 0
 
 # ------------------------------------------------------------------ addresses
@@ -91,6 +95,26 @@ P14C2_VA = 0x4C7670          # Patch-14 draw-shift cave  (production in-arena)
 ADV_VA   = 0x4C7564          # canonical ADV table  (production in-arena)
 LSH_VA   = 0x4C7690          # canonical LEFTSHIFT table (production in-arena)
 
+# ── v158: R2100 metric tables (chargen/request UI font) ─────────────────────
+# ROOT CAUSE (memory project_chargen_font_r2100_rootcause): the chargen/request
+# renderers 0x307510 / 0x3A2EF0 draw the R2100 sub0 UPRIGHT 16px font, NOT the
+# oblique 24px R1188 font the canonical tables were measured from.  Feeding them
+# the R1188 tables produced the game-wide "Ge nde r" per-letter unevenness.
+# Patches 26/27/29/31 therefore read these R2100-derived tables instead
+# (glyph_metrics.ADV2/LEFTSHIFT2); the canonical R1188 tables stay untouched for
+# narration/dialogue (P14) and battle-adjacent paths.
+#
+# PLACEMENT EVIDENCE: 0x4B1000..0x4B1200 sits inside the 4081-byte hole
+# 0x4B0E97..0x4B1E88 that is ZERO in the pristine EXE AND in all 27 available
+# live RAM dumps, including 10 battle dumps spanning every observed battle phase
+# (emptybattle / fightsoftlock / fightpartyassault / battlecameraspin /
+# superoddcrashfight / fight1 / fight2 / ...) -- the same evidence class that
+# whitelisted the canonical in-arena tables.  These are READ-ONLY DATA consumed
+# only when mode 0x4FED18 is 5 or 7 (never battle); a hypothetical stomp cannot
+# crash anything (worst case: cosmetic spacing until reboot, never observed).
+ADV2_VA  = 0x4B1000          # R2100 advance table, 256B (idx 0..94 ADV2, tail 0x12)
+LSH2_VA  = 0x4B1100          # R2100 left-shift table, 256B (idx 0..94 LSH2, tail 0)
+
 ARENA_LO, ARENA_HI = 0x4B0E00, 0x4FDE30
 
 # Rejoin target for the P27 cave (UNCHANGED -- points back into the renderer)
@@ -101,15 +125,19 @@ def jword(va):  return j(va)
 def fo(va):     return va - 0x100000 + 0x80
 
 
-# ------------------------------------------------------------------ P27 cave (RELOCATED, canonical table)
-# BYTE-FAITHFUL to the production cave that lived @0x4C7410 (recovered from the v144
-# battle dump).  ONLY the base address (0x4C7410 -> P27_VA) and the internal `b` target
-# change; the table read stays `lbu v1,0x7564(0x4C0000)` (canonical ADV, no relocation,
-# no ASCII guard -- the 256-byte table covers gid 0..255 natively):
+# ------------------------------------------------------------------ P27 cave (RELOCATED, R2100 table)
+# Structurally BYTE-FAITHFUL to the production cave that lived @0x4C7410 (recovered
+# from the v144 battle dump); the base address (0x4C7410 -> P27_VA), the internal `b`
+# target, and (v158) the TABLE READ change.  v158: the 0x3A2EF0 renderer draws the
+# R2100 sub0 UPRIGHT 16px font in BOTH gated modes (5 chargen / 7 request -- verified
+# from live screenshots), so the PROP arm reads ADV2 @0x4B1000 (lui 0x4B / lbu 0x1000)
+# instead of the canonical R1188 ADV (which stays for narration/dialogue).  Still no
+# ASCII guard -- the 256-byte ADV2 table covers gid 0..255 natively (tail 0x12,
+# byte-identical fallback to the canonical tail):
 #   lui v1,0x50 ; lw v1,-0x12E8(v1)  (mode) ; addiu v1,v1,-5 ; beqz v1->PROP ;
 #   addiu v1,v1,-2 (ds) ; beqz v1->PROP ; nop ;
 #   STOCK: lw v1,0xD0(sp) ; dsll32 v1,16 ; dsra32 v1,16 ; b APPLY ; nop ;
-#   PROP : lbu v1,-1(s2) ; lui at,0x4C ; addu at,at,v1 ; lbu v1,0x7564(at) ;
+#   PROP : lbu v1,-1(s2) ; lui at,0x4B ; addu at,at,v1 ; lbu v1,0x1000(at) ;
 #   APPLY: addu v1,s1,v1 ; dsll32 s1,16 ; dsra32 s1,16 ; j 0x3A31B8 ; nop
 def build_p27():
     base = P27_VA
@@ -128,12 +156,12 @@ def build_p27():
     w.append(dsra32('v1', 'v1', 16))          # 9
     i_bs = 10; w.append(0)                     # 10 b APPLY        (patch)
     w.append(nop())                           # 11 (ds)
-    # PROP arm (chargen/request -> proportional advance from the CANONICAL ADV table)
+    # PROP arm (chargen/request -> proportional advance from the R2100 ADV2 table)
     i_prop = len(w)
     w.append(lbu('v1', -1, 's2'))             # 12 lbu v1,-1(s2)   ; gid (char-32, <95)
-    w.append(lui('at', 0x4C))                 # 13 lui at,0x4C      ; canonical table base
+    w.append(lui('at', 0x4B))                 # 13 lui at,0x4B      ; ADV2 table base
     w.append(addu('at', 'at', 'v1'))          # 14 addu at,at,v1
-    w.append(lbu('v1', 0x7564, 'at'))         # 15 lbu v1,0x7564(at) ; ADV[gid] (canonical)
+    w.append(lbu('v1', 0x1000, 'at'))         # 15 lbu v1,0x1000(at) ; ADV2[gid] (R2100)
     # APPLY
     i_apply = len(w)
     w.append(addu('v1', 's1', 'v1'))          # 16 addu v1,s1,v1
@@ -236,9 +264,14 @@ LIBGRAPH_LO, LIBGRAPH_HI = 0x4AF2E0, 0x4AF400   # PsII libgraph SDK data -- NEVE
 
 # Whitelist of intentional canonical TABLE installs (read-only data the caves index).
 # These are resident rodata holes, proven intact across all dumps; they are NOT caves.
-CANONICAL_TABLE_VAS = {ADV_VA, LSH_VA}   # 0x4C7564, 0x4C7690
+# v158 adds the R2100 tables (ADV2/LSH2 @0x4B1000/0x4B1100 -- zero across all 27 live
+# dumps incl. 10 battle dumps; data-only, read only in modes 5/7, never battle).
+CANONICAL_TABLE_VAS = {ADV_VA, LSH_VA, ADV2_VA, LSH2_VA}
 
 # old VA -> new VA for every relocated cave (caves only; tables stay canonical).
+# P29 (v155) is NOT a relocation -- it is a NEW cave, split across two verified-zero
+# dead .text pads (old_va == new_va); listed here so the safety/overlap self-check +
+# tests/test_glyph_metrics_sync.py cover it automatically.
 CAVE_RELOC = {
     "P6":    (0x4B0DD0, 0x4B0D4C, 32),    # RenderAllTiles trampoline
     "P14c1": (0x4C7540, 0x4B049C, 36),    # narration advance-LUT cave
@@ -247,6 +280,14 @@ CAVE_RELOC = {
     "P24":   (0x4CAA30, 0x4AFA58, 24),    # narration boxX=+96 cave
     "P19c2": (0x4D6660, 0x4AFA70, 48),    # chargen draw-shift cave
     "P19c1": (0x4D6600, 0x4AB5A8, 68),    # chargen advance-LUT cave
+    "P29f1": (0x4B0C48, 0x4B0C48, 40),    # box-text LSH draw-shift, fragment 1 (10 words)
+    "P29f2": (0x4B0BC8, 0x4B0BC8, 16),    # box-text LSH draw-shift, fragment 2 ( 4 words)
+    # P31 (v157) is a NEW cave (not a relocation): the chargen DESCRIPTION-box LSH
+    # draw-shift for renderer 0x307510 (the Patch-26 body-text path).  Split across
+    # two verified-zero post-`jr ra` .text pads (old_va == new_va); registered here so
+    # the overlap/safety self-check + tests cover it automatically.
+    "P31f1": (0x4AFA00, 0x4AFA00, 40),    # 0x307510 desc LSH, fragment 1 (10 words; post-epilogue pad)
+    "P31f2": (0x4AB5EC, 0x4AB5EC, 20),    # 0x307510 desc LSH, fragment 2 ( 5 words; tail of P27/P19c1 pad)
 }
 
 # Convenience accessors (new VA + new j-hook word) for patch_exe.py.
@@ -268,6 +309,150 @@ P26_HOOK_JWORD   = jword(P26_VA)     # j 0x4B0414
 P24_HOOK_JWORD   = jword(P24_VA)     # j 0x4AFA58
 P19C1_HOOK_JWORD = jword(P19C1_VA)   # j 0x4AB5A8
 P19C2_HOOK_JWORD = jword(P19C2_VA)   # j 0x4AFA70
+
+
+# ============================================================================
+# PATCH 29 (v155): BOX-TEXT first-letter-gap fix -- LEFTSHIFT draw-shift for the
+# shared chargen/request renderer func 0x3A2EF0.
+# ============================================================================
+# Patch 27 gave this renderer proportional ADVANCE (pen grows by ADV[gid]) but NOT
+# the companion LEFT-BEARING draw-shift (LSH), which the narration renderer already
+# has (Patch 14 cave2: subu LEFTSHIFT[gid] @0x4C7690 from the pen before the draw-X
+# add).  So box ink lands at baseX + pen + ink_left(gid) and the gap balloons after a
+# low-bearing leading capital ("A....llocate").  This patch mirrors Patch 14 cave2 for
+# the TWO glyph draw-X sites in 0x3A2EF0:
+#   0x3A30F4  addu v1,v0,v1   (path A, mem[sp+0x140]!=0)   ; v1=draw-X, v0=baseX, v1(in)=pen
+#   0x3A3170  addu v1,v0,v1   (path B, mem[sp+0x140]==0)
+# Both are HOOKED to `jal` ONE shared subroutine.  ra is free inside the 0x3A2EF0 loop
+# (saved 0x3A2EF8 sd ra,192(sp); restored ONLY at exit 0x3A31D8 ld ra,192(sp)), so a
+# jal-based shared sub is safe.  The jal delay slot at each site is the pristine
+# `lbu v0,off(sp)` (0x3A30F8 / 0x3A3174) -- it runs before the sub and CLOBBERS v0
+# (=baseX), so the sub RELOADS baseX from sp+0xE0 (matching Patch 27's reload-from-stack
+# style).  It returns to site+8 (the dsll32 t0,v1,16 that sign-extends draw-X into t0).
+#
+# gid recovery: at the draw sites s2 already points PAST the current big-endian u16
+# glyph (bumped +2 @0x3A2F6C / 0x3A31C8), so `lbu -1(s2)` = the low byte = gid (char-32,
+# <95) -- the SAME recovery Patch 27 uses at these sites.  v158: LSH read from the
+# R2100 table LSH2 @0x4B1100 (lui 0x4B + lbu 0x1100 -- this renderer draws the R2100
+# upright font in modes 5/7, not R1188; see the v158 table block above).
+#
+# MODE GATE on 0x4FED18 in {5,7} (chargen/request) -- battle (mode 8) and the ~250 other
+# callers stay byte-identical.  Instead of Patch-27's double-beqz the gate is compacted to
+# `(mode-5) & 0xFFFD == 0` (true iff mode in {5,7}: 5->0, 7->2, both clear bit1 -> 0) and
+# a `movn t9,zero,at` that ZEROES the shift amount when not gated -> the subu subtracts 0
+# -> the STOCK draw-X (baseX+pen) is returned byte-for-byte.  This compaction is REQUIRED:
+# no contiguous >=52B safe .text hole remains below the arena, so the sub is SPLIT across
+# two verified-zero pads (0x4B0C48/40B and 0x4B0BC8/16B) and the movn form removes the
+# second branch that would not have fit.  Behaviour for every non-{5,7} mode is identical
+# to the original addu.
+#
+# frag1 @0x4B0C48 (10 words); the internal `j P29_F2_VA` at 0x4B0C68 has its delay slot at
+#   0x4B0C6C (still inside the pad), so nothing executes the live data at 0x4B0C70.
+# frag2 @0x4B0BC8 (4 words); the `jr ra` at 0x4B0BD0 has its delay slot at 0x4B0BD4 (still
+#   inside the pad), so the live EE exception handler at 0x4B0BE0 is never run as a slot.
+P29_HOOK1     = 0x3A30F4          # site A  (file 0x2A3174)
+P29_HOOK2     = 0x3A3170          # site B  (file 0x2A31F0)
+P29_ORIG_SITE = 0x00431821       # addu v1,v0,v1 (pristine at BOTH sites)
+P29_F1_VA     = 0x4B0C48          # fragment 1 pad (40B zero; below arena, clear of libgraph)
+P29_F2_VA     = 0x4B0BC8          # fragment 2 pad (24B zero; we use 16B)
+
+def build_p29():
+    """Two word lists (frag1, frag2) for the split box-text LSH draw-shift sub."""
+    frag1 = [
+        lw('at', 0xE0, 'sp'),        # 0x4B0C48  reload baseX (v0 clobbered by jal delay slot)
+        addu('v1', 'at', 'v1'),      # 0x4B0C4C  v1 = baseX + pen   (STOCK draw-X)
+        lbu('at', -1, 's2'),         # 0x4B0C50  at = gid (low byte of BE u16; char-32 <95)
+        lui('t9', 0x4B),             # 0x4B0C54  R2100 LSH2 table base 0x4B0000 (v158)
+        addu('t9', 't9', 'at'),      # 0x4B0C58  t9 = 0x4B0000 + gid
+        lbu('t9', 0x1100, 't9'),     # 0x4B0C5C  t9 = LEFTSHIFT2[gid] (0 for space/non-ASCII)
+        lui('at', 0x50),             # 0x4B0C60  mode read (absolute, matches Patch 27)
+        lw('at', -0x12E8, 'at'),     # 0x4B0C64  at = mode (RAM 0x4FED18)
+        j(P29_F2_VA),                # 0x4B0C68  -> frag2 (delay slot below stays in-pad)
+        addiu('at', 'at', -5),       # 0x4B0C6C  (ds) at = mode - 5
+    ]
+    frag2 = [
+        andi('at', 'at', 0xFFFD),    # 0x4B0BC8  0 iff mode in {5,7}
+        movn('t9', 'zero', 'at'),    # 0x4B0BCC  not gated (at!=0) -> t9 = 0 (subtract nothing)
+        jr('ra'),                    # 0x4B0BD0  return to site+8
+        subu('v1', 'v1', 't9'),      # 0x4B0BD4  (ds) draw-X -= (LSH or 0)
+    ]
+    return frag1, frag2
+
+P29_F1_WORDS, P29_F2_WORDS = build_p29()
+P29_HOOK_JWORD = jal(P29_F1_VA)      # jal 0x4B0C48 (installed at BOTH draw sites)
+
+
+# ============================================================================
+# PATCH 31 (v157): CHARGEN DESCRIPTION-box first-letter-gap fix -- LEFTSHIFT
+# draw-shift for the chargen body/description renderer func 0x307510.
+# ============================================================================
+# Patch 26 gave renderer 0x307510 (the LIVE chargen body-text path: line-walk
+# 0x307DA0 -> glyph blit 0x307510 -> sprite emit 0x3060B0) a proportional ADVANCE
+# (pen s2 grows by ADV[gid], hook @0x3079CC, gated mem[0x4FED18]==5) but NOT the
+# companion left-bearing draw-shift (LSH).  So the race/alignment DESCRIPTION boxes
+# render UNEVENLY: each glyph's ink lands at penX + glyphX_base + ink_left(gid), so a
+# low-bearing leading capital opens a "random space".  This mirrors the Patch-29 fix
+# (which gave the OTHER renderer 0x3A2EF0 its LSH companion to Patch 27's ADVANCE).
+#
+# THE LIVE DRAW-X (statically traced, see the mipsdis of 0x307510):
+#   0x307974  lh   t2,0(s2)     ; t2 = penX (the cursor Patch 26 advances)
+#   0x307980  addu t2,t2,t0     ; draw-X = penX + glyphX_base   (t0 = lh 8(v1))
+#   ...       addu v0,v0,t2 ; sll t1,v0,4  -> the X<<4 passed to emit 0x3060B0.
+# All additive, so subtracting LSH from the LOADED penX t2 (at the read, 0x307974)
+# subtracts it from the final draw-X WITHOUT touching the stored pen at s2 (Patch 26's
+# advance is preserved) -- exactly the Patch-14-cave2 / Patch-29 draw-shift technique.
+# There is a SINGLE draw-X site here (unlike 0x3A2EF0's two paths), so ONE hook.
+#
+# gid recovery: the glyph id being drawn was stored `sd v0,0x10(sp)` @0x307960 (v0 =
+# masked 0..0x7FFF; only <0x8000 reaches the draw) 14 insns before the hook and is not
+# re-written until after the emit.  So `lhu t8,0x10(sp)` recovers the ACTUAL drawn gid
+# in ONE instruction -- the same glyph Patch 26 advanced (on the desc-box text Patch 26
+# already renders proportional, so its s7[0] ADV gid == this stored gid; using the
+# stored value keeps ADV/LSH in exact lockstep AND is robust on every fetch path).  The
+# table read is bounded by `andi 0xFF` (LSH table @0x4C7690 is 256B; tail 95..255 = 0)
+# and the real ASCII guard is `sltiu at,gid,95` + movz (gid>=95 -> shift 0), so a
+# non-ASCII glyph subtracts nothing.  MODE GATE == 5 ONLY (matching Patch 26 -- 0x307510
+# also draws town/menu text at other modes; those keep the stock monospace ADV, so LSH
+# must stay 0 there too): `addiu at,mode,-5` + movn t9,zero,at zeroes the shift unless
+# mode==5.  Both non-gated cases return the byte-identical stock draw-X (subu t2,t2,0).
+#
+# The sub is BRANCHLESS (movz/movn) and split across two verified-zero post-`jr ra`
+# .text pads below the arena: frag1 @0x4AFA00 (40B, the pad after the 0x4AF9FC epilogue)
+# and frag2 @0x4AB5EC (20B, the free tail of the P27/P19c1 post-epilogue run).  Both are
+# < 0x4B0DCF and clear of the libgraph block; see build_p31().  v158: reads the R2100
+# table LSH2 @0x4B1100 (the 0x307510 chargen path draws the R2100 upright font).
+P31_HOOK      = 0x307974          # lh t2,0(s2) draw-X pen read (file 0x2079F4)
+P31_ORIG_SITE = 0x864A0000        # lh t2,0(s2) (pristine at the hook)
+P31_F1_VA     = 0x4AFA00          # fragment 1 pad (40B zero; post-epilogue, below arena)
+P31_F2_VA     = 0x4AB5EC          # fragment 2 pad (20B zero; tail of P27/P19c1 run)
+
+
+def build_p31():
+    """Two word lists (frag1, frag2) for the split chargen-desc LSH draw-shift sub."""
+    frag1 = [
+        lh('t2', 0, 's2'),           # 0x4AFA00  reload penX (the displaced hook insn)
+        lhu('t8', 0x10, 'sp'),       # 0x4AFA04  gid = stored drawn glyph (0..0x7FFF)
+        andi('at', 't8', 0xFF),      # 0x4AFA08  bounded LSH2 table index (0..255) -> safe read
+        lui('t9', 0x4B),             # 0x4AFA0C  R2100 LSH2 table base 0x4B0000 (v158)
+        addu('t9', 't9', 'at'),      # 0x4AFA10  t9 = 0x4B0000 + (gid & 0xFF)
+        lbu('t9', 0x1100, 't9'),     # 0x4AFA14  t9 = LEFTSHIFT2[gid&0xFF] (0 for 95..255)
+        sltiu('at', 't8', 95),       # 0x4AFA18  at = (gid < 95) ? 1 : 0   (real ASCII guard)
+        movz('t9', 'zero', 'at'),    # 0x4AFA1C  gid>=95 -> shift = 0
+        j(P31_F2_VA),                # 0x4AFA20  -> frag2 (delay slot below stays in-pad)
+        lui('at', 0x50),             # 0x4AFA24  (ds) mode read base (absolute, matches Patch 26)
+    ]
+    frag2 = [
+        lw('at', -0x12E8, 'at'),     # 0x4AB5EC  at = mode (RAM 0x4FED18)
+        addiu('at', 'at', -5),       # 0x4AB5F0  0 iff mode == 5 (chargen)
+        movn('t9', 'zero', 'at'),    # 0x4AB5F4  mode!=5 -> shift = 0 (stock draw-X)
+        j(0x30797C),                 # 0x4AB5F8  return to the draw block (past hook+delay)
+        subu('t2', 't2', 't9'),      # 0x4AB5FC  (ds) draw-X penX -= (LSH or 0)
+    ]
+    return frag1, frag2
+
+
+P31_F1_WORDS, P31_F2_WORDS = build_p31()
+P31_HOOK_JWORD = j(P31_F1_VA)        # j 0x4AFA00 (installed at the single draw-X site)
 
 
 def assert_install_safe(va, size, label, allow_canonical_table=False):
@@ -322,6 +507,12 @@ def _selfcheck():
             print("  FAIL OVERLAP %s vs %s" % (spans[i - 1][2], spans[i][2])); ok = False
     # ADV/LSH tables stay canonical (whitelisted, NOT relocated).
     print("  ADV/LSH tables canonical @0x%06X / 0x%06X (whitelisted, NOT relocated)" % (ADV_VA, LSH_VA))
+    # v158 R2100 tables: adjacent 256B blocks, no overlap with each other or any cave,
+    # inside the 27-dump-verified zero hole 0x4B0E97..0x4B1E88.
+    if not (0x4B0E97 <= ADV2_VA and ADV2_VA + 256 == LSH2_VA and LSH2_VA + 256 <= 0x4B1E88):
+        print("  FAIL R2100 table placement 0x%06X/0x%06X outside the verified hole" % (ADV2_VA, LSH2_VA)); ok = False
+    else:
+        print("  R2100 tables ADV2 @0x%06X / LSH2 @0x%06X (verified-zero hole, modes 5/7 data)" % (ADV2_VA, LSH2_VA))
     # Gate marker now points at the relocated Patch-14 cave1.
     if NEW_GATE_MARKER != jword(P14C1_VA):
         print("  FAIL gate marker 0x%08X != j 0x%06X" % (NEW_GATE_MARKER, P14C1_VA)); ok = False
@@ -336,10 +527,12 @@ def _selfcheck():
         print("  guardrail assert_install_safe: all relocated caves PASS")
     except AssertionError as e:
         print("  FAIL guardrail: %s" % e); ok = False
-    # The relocated cave reads the CANONICAL table (lui 0x4C + lbu 0x7564), NOT a reloc table.
-    has_canon = any((w >> 26) == 0x24 and (w & 0xffff) == 0x7564 for w in P27_WORDS)
-    print("  P27 cave reads canonical ADV @0x7564(0x4C0000): %s" % ("YES" if has_canon else "NO -- FAIL"))
-    if not has_canon: ok = False
+    # v158: the cave reads the R2100 ADV2 table (lui 0x4B + lbu 0x1000).
+    has_adv2 = any((w >> 26) == 0x24 and (w & 0xffff) == (ADV2_VA & 0xFFFF) for w in P27_WORDS) \
+        and any((w >> 26) == 0x0f and (w & 0xffff) == (ADV2_VA >> 16) for w in P27_WORDS)
+    print("  P27 cave reads R2100 ADV2 @0x%X(0x%X0000): %s"
+          % (ADV2_VA & 0xFFFF, ADV2_VA >> 16, "YES" if has_adv2 else "NO -- FAIL"))
+    if not has_adv2: ok = False
     # No relocated piece may touch the PsII libgraph SDK data block (0x4AF2E0..0x4AF400).
     if 0x4AF2E0 <= P27_VA < 0x4AF400 or 0x4AF2E0 <= end - 1 < 0x4AF400:
         print("  FAIL P27 cave overlaps the PsII libgraph block!"); ok = False

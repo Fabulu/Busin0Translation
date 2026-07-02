@@ -51,6 +51,9 @@ import _reloc_v147_design as RELOC  # noqa: E402  (relocation single-source)
 PATCHED_EXE = os.path.join(ROOT, "build", "SLPM_653.78_patched")
 P14_TBL1 = 0x3C75E4   # canonical advance LUT, 256B  (VA 0x4C7564)
 P14_TBL2 = 0x3C7710   # canonical left-shift,  256B  (VA 0x4C7690)
+# v158 R2100 tables (chargen/request UI font — consumed by Patches 26/27/29/31)
+ADV2_FO = RELOC.fo(RELOC.ADV2_VA)   # file off VA 0x4B1000
+LSH2_FO = RELOC.fo(RELOC.LSH2_VA)   # file off VA 0x4B1100
 P14_HOOK1 = 0x209820  # VA 0x3097A0  -> j 0x4C7540 (production gate marker 0x08131D50)
 P14_HOOK2 = 0x2097D0  # VA 0x309750  -> j 0x4C7670 (production 0x08131D9C)
 P14_HOOK1_WORD = RELOC.P14_HOOK1_JWORD
@@ -86,6 +89,23 @@ def test_g1_built_exe_tables_match_metrics():
     assert RELOC.ADV_VA == 0x4C7564 and RELOC.LSH_VA == 0x4C7690, (
         "RELOC.ADV_VA/LSH_VA must be the canonical in-arena tables (0x4C7564/0x4C7690); "
         "got 0x%06X/0x%06X -- a relocated table copy is the title-hang bug" % (RELOC.ADV_VA, RELOC.LSH_VA)
+    )
+
+    # v158: the R2100 tables (chargen/request UI font) are byte-identical to
+    # glyph_metrics.adv2_table_256()/leftshift2_table_256() at 0x4B1000/0x4B1100.
+    assert RELOC.ADV2_VA == 0x4B1000 and RELOC.LSH2_VA == 0x4B1100, (
+        "RELOC.ADV2_VA/LSH2_VA moved (0x%06X/0x%06X) -- they must stay in the "
+        "27-dump-verified zero hole 0x4B0E97..0x4B1E88" % (RELOC.ADV2_VA, RELOC.LSH2_VA)
+    )
+    got_adv2 = data[ADV2_FO:ADV2_FO + 256]
+    got_lsh2 = data[LSH2_FO:LSH2_FO + 256]
+    assert got_adv2 == glyph_metrics.adv2_table_256(), (
+        "patched EXE R2100 ADV2 table @file 0x%X != glyph_metrics.adv2_table_256() "
+        "(the chargen/request caves would desync)" % ADV2_FO
+    )
+    assert got_lsh2 == glyph_metrics.leftshift2_table_256(), (
+        "patched EXE R2100 LSH2 table @file 0x%X != glyph_metrics.leftshift2_table_256()"
+        % LSH2_FO
     )
 
     h1 = struct.unpack_from("<I", data, P14_HOOK1)[0]
@@ -134,9 +154,15 @@ def test_g1b_relocated_caves_below_arena():
     f = RELOC.fo(RELOC.P27_VA)
     got = [struct.unpack_from("<I", data, f + i * 4)[0] for i in range(len(RELOC.P27_WORDS))]
     assert got == list(RELOC.P27_WORDS), "relocated P27 cave words != design module"
-    # The relocated P27 cave reads the CANONICAL ADV table (lbu 0x7564), not a reloc copy.
-    assert any((w >> 26) == 0x24 and (w & 0xFFFF) == 0x7564 for w in RELOC.P27_WORDS), (
-        "relocated P27 cave must read canonical ADV @0x7564(0x4C0000)"
+    # v158: the P27 cave reads the R2100 ADV2 table (lui 0x4B + lbu 0x1000) — the
+    # 0x3A2EF0 renderer draws the R2100 upright font in modes 5/7, NOT R1188.
+    assert any((w >> 26) == 0x24 and (w & 0xFFFF) == (RELOC.ADV2_VA & 0xFFFF)
+               for w in RELOC.P27_WORDS), (
+        "relocated P27 cave must read R2100 ADV2 @0x%X" % (RELOC.ADV2_VA & 0xFFFF)
+    )
+    assert any((w >> 26) == 0x0F and (w & 0xFFFF) == (RELOC.ADV2_VA >> 16)
+               for w in RELOC.P27_WORDS), (
+        "relocated P27 cave must lui the R2100 ADV2 table base 0x%X0000" % (RELOC.ADV2_VA >> 16)
     )
 
     # 3) The P27 hook AND the P14 hooks (= the gate marker) j into the RELOCATED caves below
@@ -243,6 +269,20 @@ def test_g3_metrics_self_consistent():
         "px_width('A') = %d != ADV[33] = %d -- enc family mismatch"
         % (glyph_metrics.px_width("A", enc), adv[33])
     )
+    # v158: the R2100 (16px font) tables are self-consistent too.
+    adv2 = glyph_metrics.ADV2
+    lsh2 = glyph_metrics.LEFTSHIFT2
+    assert len(adv2) == 95 and len(lsh2) == 95
+    assert adv2[0] == glyph_metrics.SPACE_ADV2, (
+        "ADV2[0] (space) must be SPACE_ADV2 (%d), got %d"
+        % (glyph_metrics.SPACE_ADV2, adv2[0])
+    )
+    assert lsh2[0] == 0, "LEFTSHIFT2[0] (space) must be 0"
+    for g in range(1, 95):
+        assert 4 <= adv2[g] <= 15, (
+            "ADV2[%d] = %d outside the 16px-font clamp window [4,15]" % (g, adv2[g])
+        )
+        assert 0 <= lsh2[g] <= 15, "LEFTSHIFT2[%d] = %d outside a 16px cell" % (g, lsh2[g])
 
 
 TESTS = [
