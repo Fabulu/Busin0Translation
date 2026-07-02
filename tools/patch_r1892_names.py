@@ -52,17 +52,37 @@ FFFF = 0xFFFF
 # cell region (V 54->149) and rendered garbage. Offset is now 0.
 ASCII_NV_OFFSET = 0
 
+# R1892-ONLY short forms for names that cannot fit the record name field.
+# The field is a HARD 16 bytes (record+2 .. record+18): every pristine record
+# has its FFFF terminator + FF padding end exactly at record+18, and the bytes
+# at record+18 onward are LIVE per-record stat data (differ per record, e.g.
+# rec15 Belgrano = 00 00 0b 00 09 12 0e 00 ...), so the field CANNOT grow.
+# 16 bytes = 7 chars + FFFF terminator max.  "Belgrano" needs (8+1)*2 = 18
+# bytes -> shortened to "Belgran" (exactly 16 bytes) HERE ONLY; R2654 sub 7 is
+# rebuilt with a fresh offset table and keeps the canonical "Belgrano".
+FIELD_SHORT_NAMES = {
+    'Belgrano': 'Belgran',
+}
+
 # name-value -> katakana (identical grid to patch_r2654_names.py)
 KATA = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲ"
+# COMPLETE grid 2026-07-02: name-values 193-273 are numerically IDENTICAL to
+# data/msg_glyph_map.json glyph ids 193-273 (proven: the 0x14 nameplate labels
+# decode the same katakana names through the same indices).  The old partial
+# table broke Weil (R1892 rec17 = [273,267,194,233] = ヴァイル; ァ=267 was
+# missing so the name decoded to 〓 and never matched name_labels).
 KATA_EXTRA = {
-    93: 'ー', 238: 'ン', 254: 'バ', 245: 'ジ', 252: 'デ', 270: 'ェ', 273: 'ヴ',
-    246: 'ズ', 247: 'ゼ', 248: 'ゾ', 249: 'ダ', 253: 'ド', 272: 'ッ',
-    # voiced (dakuten base 239: ga gi gu ge go .. ba bi bu be bo) +
-    # handakuten (base 259: pa pi pu pe po) + small kana (base 264:
-    # sya syu syo sa si su se so stsu). Names like ベルグラーノ/ヨッペン/
-    # ミリィ/サミュエル decode to 〓 without these and fall back to katakana.
-    239: 'ガ', 241: 'グ', 243: 'ゴ', 256: 'ブ', 257: 'ベ', 262: 'ペ',
-    268: 'ィ', 265: 'ュ',
+    93: 'ー', 238: 'ン',
+    # dakuten rows (239-258)
+    239: 'ガ', 240: 'ギ', 241: 'グ', 242: 'ゲ', 243: 'ゴ',
+    244: 'ザ', 245: 'ジ', 246: 'ズ', 247: 'ゼ', 248: 'ゾ',
+    249: 'ダ', 250: 'ヂ', 251: 'ヅ', 252: 'デ', 253: 'ド',
+    254: 'バ', 255: 'ビ', 256: 'ブ', 257: 'ベ', 258: 'ボ',
+    # handakuten row (259-263)
+    259: 'パ', 260: 'ピ', 261: 'プ', 262: 'ペ', 263: 'ポ',
+    # small kana (264-272) + ヴ (273)
+    264: 'ャ', 265: 'ュ', 266: 'ョ', 267: 'ァ', 268: 'ィ',
+    269: 'ゥ', 270: 'ェ', 271: 'ォ', 272: 'ッ', 273: 'ヴ',
 }
 
 
@@ -128,6 +148,12 @@ def main():
             continue  # no confident mapping -> keep katakana
         span = name_field_span(raw, name_off)          # bytes available
         need = (len(eng) + 1) * 2                       # name-vals + FFFF
+        if need > span and eng in FIELD_SHORT_NAMES:
+            short = FIELD_SHORT_NAMES[eng]
+            print(f'  SHORTEN rec{i:2d} {kana}: {eng} ({need}B) -> {short} '
+                  f'(field is a hard {span}B)')
+            eng = short
+            need = (len(eng) + 1) * 2
         if need > span:
             print(f'  SKIP rec{i:2d} {kana} -> {eng}: needs {need}B > {span}B field')
             continue

@@ -244,6 +244,13 @@ POISON_FIXES = {
     "876": "始",  # shi  (begin)   -- was 錠 jou  (lock)
     "722": "攻",  # kou  (attack)  -- was 獲 kaku (seize)
     "350": "撃",  # geki (strike)  -- was 得 toku (gain)
+    # v161 additions (names workstream): proven by the live 騎士団長 nameplate
+    # (fuckingthisguyman.p2s) + the R1193 intro-narration slice for 404, and a
+    # corpus-wide before/after key audit (5 name_labels keys re-derived).
+    "483": "騎",  # ki   (knight)  -- was 無 mu   (nothing)
+    "494": "士",  # shi  (warrior) -- was 帰 ki   (return)
+    "510": "団",  # dan  (group)   -- was 前 mae  (front)
+    "404": "長",  # chou (leader)  -- was 像 zou  (statue)
 }
 
 

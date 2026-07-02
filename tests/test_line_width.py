@@ -318,14 +318,14 @@ def _name_island_prefix_lens(parsed):
     try:
         sd = get_disasm()  # raises Skip when the opcode table is absent
     except Skip:
-        return {}
+        return {}, set()
     sec1 = parsed["sec1"]
     ok, instrs = sd.walk(sec1)
     if not ok:
-        return {}  # un-walkable Section 1 -- no name-island exemption, gate fully
+        return {}, set()  # un-walkable Section 1 -- no exemptions, gate fully
     recs = sd.extract_records(sec1, instrs)
     if not recs["label"]:
-        return {}
+        return {}, set()
 
     # parse_sec2_group_offsets wants the raw Section-2 BYTES; rebuild them from
     # the parsed BE-u16 word tuple so we re-use the patcher's own group splitter.
@@ -334,16 +334,40 @@ def _name_island_prefix_lens(parsed):
     per_group, _trailing = _bucket_labels(recs["label"], groups, trailing_start)
 
     prefixes = {}
+    label_tables = set()
     for gi, slices in per_group.items():
         plen = _clean_prefix_len(slices)
-        if plen is None:
-            continue
         gs, ge = groups[gi]
+        if plen is None:
+            # Slices do not form a clean prefix partition: the group is a pure
+            # 0x14 LABEL TABLE (stacked label cells). v161: label tables are no
+            # longer always kept verbatim JP -- name_labels.json now translates
+            # them (quest-log topics, class lists), so their English glyphs
+            # would otherwise gate as one giant "line". Every slice is drawn as
+            # its own 0x14 cell at runtime, never as a wrapped dialogue line;
+            # per-label width is bounded by the <=24-cell name_labels authoring
+            # rule. Exempt the whole group.
+            label_tables.add(gi)
+            continue
+        # MENU-COMPOSITION TABLE (v161): >=3 stacked 0x14 cells tiling
+        # contiguously from word 0 (the quest-log 23-topic tables, class
+        # lists, stacked potion labels). The engine composes these menus
+        # cell-by-cell from the 0x14 records -- neither the cells nor the
+        # trailing summary body render as a px-wrapped dialogue line, so the
+        # raw glyph stream must not be gated as one. Per-cell width is bounded
+        # by the <=24-cell name_labels authoring rule; the quest-log family
+        # additionally carries a mandatory fresh-boot menu test (softlock
+        # history -- see name_labels.json _comment_quest_log).
+        if len(slices) >= 3 and slices[0][0] == 0 and plen is not None:
+            label_tables.add(gi)
+            continue
         # Strictly inside the group => genuine dialogue name-island prefix.
-        # plen >= group length => label table (kept verbatim) -- do NOT exempt.
         if 0 < plen < (ge - gs):
             prefixes[gi] = plen
-    return prefixes
+        elif plen >= (ge - gs):
+            # Prefix covers the entire group => label table too (see above).
+            label_tables.add(gi)
+    return prefixes, label_tables
 
 
 def _line_offenders(parsed, res):
@@ -360,7 +384,7 @@ def _line_offenders(parsed, res):
     """
     words = parsed["words"]
     groups, _trailing = group_offsets(words)
-    name_prefix = _name_island_prefix_lens(parsed)
+    name_prefix, label_tables = _name_island_prefix_lens(parsed)
     # Three disjoint gates, one per build_v9 wrap path:
     #   * DIALOGUE-classified groups  -> px <= DIALOGUE_BOX_PX  (324)
     #   * NARRATION-classified groups -> px <= NARRATION_BOX_PX (300, P1)
@@ -375,6 +399,11 @@ def _line_offenders(parsed, res):
         group = words[gs:ge]
         if _is_choice_group(group):
             continue  # choice option layout is exempt
+        if gi in label_tables:
+            # Pure 0x14 label table: each cell is drawn individually by its own
+            # 0x14 record, never as a wrapped dialogue line (v161 -- see
+            # _name_island_prefix_lens docstring).
+            continue
         # Mirror build_v9's wrap routing EXACTLY:
         #   * DIALOGUE_WRAP_EXCLUDE -> authored breaks, no px-wrap (char-20 only)
         #   * DIALOGUE_FORCE -> forced into the 480px DIALOGUE wrap

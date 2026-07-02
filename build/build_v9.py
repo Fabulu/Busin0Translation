@@ -224,13 +224,28 @@ print("  R39 quest labels injected")
 # ===== STEP 3.3: R39 block-2 spell descriptions =====
 # Size-changing block-2 rebuild (spell descriptions, off 3648). Runs AFTER the quest
 # step so it composes with block0/quest edits; has its own PRISTINE-DIFF GATE asserting
-# every byte outside block2 is unchanged. g55/56/57 ship pristine JP (no source text).
+# every byte outside block2 is unchanged. v159: ALL 56 records translated incl.
+# g55/56/57 (Stigma/Raheal/Offset — the old "no source text" claim was an artifact
+# of the misaligned pre-v159 enumeration).
 print("\n=== Step 3.3: R39 block-2 spell descriptions ===")
 rc = os.system('python tools/patch_r39_spell_desc.py')
 if rc != 0:
     print('FATAL: R39 spell-desc injection failed: tools/patch_r39_spell_desc.py')
     sys.exit(1)
 print("  R39 spell descriptions injected")
+
+# ===== STEP 3.4: R39 AA names/descriptions/UI (blocks 3/4/5) =====
+# v161: size-changing rebuild of block 3 (AA/technique names g11+, from the shipped
+# R1361/R1362 strip names verbatim), block 4 (37 AA descriptions + 45 party
+# requirements) and block 5 (AA-setup UI messages). Same gated pattern as Step 3.3
+# (count-header offset-table rebuild, pristine-diff gate, header-driven offsets so
+# it composes after the block-2 growth). Data: data/r39_aa_descriptions.json.
+print("\n=== Step 3.4: R39 AA names/descriptions ===")
+rc = os.system('python tools/patch_r39_aa.py')
+if rc != 0:
+    print('FATAL: R39 AA injection failed: tools/patch_r39_aa.py')
+    sys.exit(1)
+print("  R39 AA text injected")
 
 # ===== STEP 3.5: R46/R47 type-03 injection =====
 print("\n=== Step 3.5: R46/R47 type-03 injection ===")
@@ -789,6 +804,26 @@ else:
     if os.path.exists('build/packdata_resources/1193_type02.raw'):
         shutil.copy('build/packdata_resources/1193_type02.raw', 'build/patched_type2/1193_type02.raw')
         print("  R1193 preserved (no translation found)")
+
+# ===== STEP 5c: R1194 ending narration + R1193 short-prologue variant =====
+# v161: R1194's ENDING narration is drawn by 42 Section-1 0x14 line records that
+# the Step-4 name-island preservation kept as verbatim JP (the 0x04 body was
+# English, the line records were not). tools/patch_r1194_narration.py rebuilds
+# group 0 as [42 EN lines][EN tail][FFFF], rewrites every record's WORD_OFF/
+# GLYPH_CNT, and re-points the 0x04 at the tail — same gate battery as the
+# R1193 patcher. fix_r1193_short_prologue() additionally covers R1193's second,
+# 10-record "short prologue" variant (walk-proven reachable) by appending its
+# English lines at the END of Section 2 (zero existing offsets move).
+print("\n=== Step 5c: R1194 ending narration ===")
+if 1194 in all_trans and os.path.exists('extracted/packdata_raw/1194_type02.raw'):
+    from patch_r1194_narration import build_r1194, fix_r1193_short_prologue
+    build_r1194('extracted/packdata_raw/1194_type02.raw', all_trans[1194],
+                'build/patched_type2')
+    if os.path.exists('build/patched_type2/1193_type02.raw'):
+        fix_r1193_short_prologue('build/patched_type2')
+    print("  R1194 ending narration + R1193 short-prologue injected")
+else:
+    print("  R1194 SKIPPED (no translation/pristine found)")
 
 # ===== STEP 6: Merge and clean =====
 print("\n=== Step 6: Merge resources ===")

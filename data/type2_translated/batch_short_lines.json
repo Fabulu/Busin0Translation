@@ -1,0 +1,256 @@
+[
+ {
+  "resource": 1197,
+  "msg_index": 122,
+  "japanese": "[ピィ!]",
+  "english": "Pii!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 131,
+  "japanese": "[ピィ! ピィ!]",
+  "english": "Pii! Pii!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 142,
+  "japanese": "[ピィ!|ピィ!]",
+  "english": "Pii! ...Pii!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 148,
+  "japanese": "[ピィ!|ピィ!]",
+  "english": "Pii! ...Pii!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 151,
+  "japanese": "[ピィ|]",
+  "english": "Pii..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 507,
+  "japanese": "では^[04AA]せた_",
+  "english": "Then, I leave it / to you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 526,
+  "japanese": "では^[04AA]せた_",
+  "english": "Then, I leave it / to you."
+ },
+ {
+  "resource": 1199,
+  "msg_index": 166,
+  "japanese": "|[01E4]せない!",
+  "english": "...Unforgivable!"
+ },
+ {
+  "resource": 1202,
+  "msg_index": 123,
+  "japanese": " / むう|",
+  "english": " / Hmmm..."
+ },
+ {
+  "resource": 1202,
+  "msg_index": 124,
+  "japanese": " / むう|",
+  "english": " / Hmmm..."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 74,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 657,
+  "japanese": "[罰っ!]",
+  "english": "Next!",
+  "_note": "Fudo's sparring match: reading garbled kanji as 次 (elsewhere in corpus this glyph reads as 'next'); battle shout before 'the last one!'. ~85% confident."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 737,
+  "japanese": "報|報|",
+  "english": "A key... a key...",
+  "_note": "Garbled glyph = 鍵 (confirmed by neighbors: locked door handle, 'if this lock opened...', then Lidi shouts 'Ingo!' who holds the key)."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 795,
+  "japanese": "更去!",
+  "english": "Idiot!",
+  "_note": "更去 = 馬鹿 (established: batch_01 '更去げた質'='Absurd!', batch_03 '更去な必え'='don't even think'). Jill snapping at Raiman's flippant remark, then glares at him."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 845,
+  "japanese": "|リ}プ_",
+  "english": "...Leap.",
+  "_note": "Teleport incantation: next group = 'the mage cast the spell and vanished'. Consistent with batch_04 (1204,210) 'Leeeeeep!!!'."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 186,
+  "japanese": "ジャ~ン",
+  "english": "Shoooot!",
+  "_note": "Stretched rock-paper-scissors chant between (1204,185) 'Rock, Paper, / Scissors!' and the throw. ~80% on rendering choice."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 187,
+  "japanese": "ジャ~ン",
+  "english": "Shoooot!",
+  "_note": "Same chant beat as (1204,186)."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 211,
+  "japanese": "|ホッ|_",
+  "english": "...Phew..."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 252,
+  "japanese": "|ホッ|_",
+  "english": "...Phew..."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 432,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 714,
+  "japanese": "|リ}プ_",
+  "english": "...Leap."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 753,
+  "japanese": "|リ}プ_",
+  "english": "...Leap."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 908,
+  "japanese": "[リィ}プ!]",
+  "english": "Leeeap!",
+  "_note": "Thief woman shouting the teleport spell as she escapes with the bracelet; consistent with 'Leeeeeep!!!' in batch_04."
+ },
+ {
+  "resource": 1205,
+  "msg_index": 428,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1205,
+  "msg_index": 836,
+  "japanese": "あっ!!!",
+  "english": "Ah!!!"
+ },
+ {
+  "resource": 1205,
+  "msg_index": 856,
+  "japanese": "えぇ|_",
+  "english": "Y-yeah...",
+  "_note": "Reluctant assent (Melanie/Kunnal) to Miri's 'let's get moving!'."
+ },
+ {
+  "resource": 1206,
+  "msg_index": 340,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 370,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 600,
+  "japanese": "では!",
+  "english": "Farewell!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 650,
+  "japanese": " / ボカ}ン!",
+  "english": " / KA-BOOM!"
+ },
+ {
+  "resource": 1208,
+  "msg_index": 231,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1208,
+  "msg_index": 494,
+  "japanese": "|リ}プ_",
+  "english": "...Leap."
+ },
+ {
+  "resource": 1208,
+  "msg_index": 532,
+  "japanese": "|リ}プ_",
+  "english": "...Leap."
+ },
+ {
+  "resource": 1209,
+  "msg_index": 242,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1210,
+  "msg_index": 24,
+  "japanese": "あっ!",
+  "english": "Ah!"
+ },
+ {
+  "resource": 1210,
+  "msg_index": 281,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1211,
+  "msg_index": 126,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 34,
+  "japanese": "汝が|?",
+  "english": "You...?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 183,
+  "japanese": "ねえ|_",
+  "english": "Hey..."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 34,
+  "japanese": "汝が|?",
+  "english": "You...?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 182,
+  "japanese": "ねえ|",
+  "english": "Hey..."
+ }
+]

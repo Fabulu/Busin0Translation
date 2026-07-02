@@ -58,15 +58,25 @@ KATA_BASE = 193               # name_val 193..237 = katakana grid pos 0..44
 # katakana grid pos 0..44 -> unicode (matches data/xref_party.json grid)
 KATA = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲ"
 # extended name-value -> kana char (for matching name_labels keys)
+# COMPLETE grid 2026-07-02: name-values 193-273 are numerically IDENTICAL to
+# data/msg_glyph_map.json glyph ids 193-273 (proven: the 0x14 nameplate labels
+# decode the same katakana names through the same indices -- e.g. ギヨーム=[240,..],
+# ポポー=[263,263,93], キャスタ=[199,264,..], ヴァイル=[273,267,..], ピピン=[260,260,238]).
+# The old partial table broke Weil (ァ=267 missing), Guillaume (ギ=240),
+# Casta (ャ=264), Popo (ポ=263), Pipin (ピ=260): their names decoded to 〓 and
+# never matched name_labels, so they shipped katakana.
 KATA_EXTRA = {
-    93: 'ー', 238: 'ン', 254: 'バ', 245: 'ジ', 252: 'デ', 270: 'ェ', 273: 'ヴ',
-    246: 'ズ', 247: 'ゼ', 248: 'ゾ', 249: 'ダ', 253: 'ド', 272: 'ッ',
-    # voiced (dakuten base 239: ga gi gu ge go .. ba bi bu be bo) +
-    # handakuten (base 259: pa pi pu pe po) + small kana (base 264:
-    # sya syu syo sa si su se so stsu). Names like ベルグラーノ/ヨッペン/
-    # ミリィ/サミュエル decode to 〓 without these and fall back to katakana.
-    239: 'ガ', 241: 'グ', 243: 'ゴ', 256: 'ブ', 257: 'ベ', 262: 'ペ',
-    268: 'ィ', 265: 'ュ',
+    93: 'ー', 238: 'ン',
+    # dakuten rows (239-258)
+    239: 'ガ', 240: 'ギ', 241: 'グ', 242: 'ゲ', 243: 'ゴ',
+    244: 'ザ', 245: 'ジ', 246: 'ズ', 247: 'ゼ', 248: 'ゾ',
+    249: 'ダ', 250: 'ヂ', 251: 'ヅ', 252: 'デ', 253: 'ド',
+    254: 'バ', 255: 'ビ', 256: 'ブ', 257: 'ベ', 258: 'ボ',
+    # handakuten row (259-263)
+    259: 'パ', 260: 'ピ', 261: 'プ', 262: 'ペ', 263: 'ポ',
+    # small kana (264-272) + ヴ (273)
+    264: 'ャ', 265: 'ュ', 266: 'ョ', 267: 'ァ', 268: 'ィ',
+    269: 'ゥ', 270: 'ェ', 271: 'ォ', 272: 'ッ', 273: 'ヴ',
 }
 
 

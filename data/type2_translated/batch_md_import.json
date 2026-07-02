@@ -1,2684 +1,2396 @@
 [
   {
-    "resource": 1352,
-    "message": 0,
-    "japanese": "( è¿°&:! \" å™¨C#",
-    "english": "[DEBUG] Melanie/Ekunnal: This is the / normal version so far."
-  },
-  {
-    "resource": 1352,
-    "message": 1,
-    "japanese": "( è¿°&:! ! è¿°C\"",
-    "english": "[DEBUG] Filter & depth / blur are set to ON."
-  },
-  {
-    "resource": 1352,
-    "message": 2,
-    "japanese": "C\"",
-    "english": "[DEBUG] Changed char / settings to hide / background chars."
-  },
-  {
-    "resource": 1352,
-    "message": 3,
-    "japanese": ":_&:! # [0340]C#",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 1."
-  },
-  {
-    "resource": 1352,
-    "message": 4,
-    "japanese": "( ä¼š&:! \" ç„¶C\"",
-    "english": "[DEBUG] Depth blur ON. / Depth filter off."
-  },
-  {
-    "resource": 1352,
-    "message": 5,
-    "japanese": "( ä¼š&:!   ä¼šC#",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 6,
-    "japanese": "C#",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 2."
-  },
-  {
-    "resource": 1352,
-    "message": 7,
-    "japanese": ":_&:! # å¾…C\"",
-    "english": "[DEBUG] Depth blur ON. / Depth filter also ON."
-  },
-  {
-    "resource": 1352,
-    "message": 8,
-    "japanese": "C\"",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 9,
-    "japanese": "( æ°‘&:! ! æƒ…C#",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 3. / Local filter applied / to message text."
-  },
-  {
-    "resource": 1352,
-    "message": 10,
-    "japanese": "( æ°‘&:!   æ°‘C\"",
-    "english": "[DEBUG] Depth blur ON. / Depth filter off."
-  },
-  {
-    "resource": 1352,
-    "message": 11,
-    "japanese": ":_&:!   æŸµC#",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 12,
-    "japanese": "( è¡—&:! \" é›£C#",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 5."
-  },
-  {
-    "resource": 1352,
-    "message": 13,
-    "japanese": "C#",
-    "english": "[DEBUG] Depth blur ON. / Depth filter also ON."
-  },
-  {
-    "resource": 1352,
-    "message": 14,
-    "japanese": "( è¡—&:! ! è¡—C\"",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 15,
-    "japanese": ":C\"",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 6. / Local filter applied / to message text."
-  },
-  {
-    "resource": 1352,
-    "message": 16,
-    "japanese": "C\"",
-    "english": "[DEBUG] Depth blur ON. / Depth filter off."
-  },
-  {
-    "resource": 1352,
-    "message": 17,
-    "japanese": "C  :2 ã‚€[006C]\\0\\[006A]Vc 9c!:4",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 18,
-    "japanese": "%4!",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 7. / Local filter applied / to message text."
-  },
-  {
-    "resource": 1352,
-    "message": 19,
-    "japanese": "% $e",
-    "english": "[DEBUG] Depth blur ON. / Depth filter off."
-  },
-  {
-    "resource": 1352,
-    "message": 59,
-    "japanese": "f !f!!ã· !ã·!![006B]h ã¡\\h!ã¡\\0\\ãº!2 [0068]$ è“„ M[0062] ãº ã·  g \"[0060] 2 \\$ å‚™ @2 nã· !ã‚€ !ã‚€!\"ã·! 2 \\$ æ¥ 82 nh  \\h! \\[006C]\\0\\d d!2 ã‚:                                                                                                                                                                                                            ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ã“ã‚Œã¾ã§ã®ãƒŽ}ãƒžãƒ« / ãƒ}ã‚¸ãƒ§ãƒ³ã§ã™_",
-    "english": "[DEBUG] Mel/Ekunnal: / Normal ver. so far."
-  },
-  {
-    "resource": 1352,
-    "message": 60,
-    "japanese": "ãƒ•ã‚£ãƒ«ã‚¿ã¨é‡å…‰ãƒœã‚«ã‚·ã‚’ONã« / ã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Filter & depth / blur are set to ON."
-  },
-  {
-    "resource": 1352,
-    "message": 61,
-    "japanese": "ã‚­ãƒ£ãƒ©ã®ç³»ç›´ã‚’æ–¹ãˆã¦ / ä¼šè³ªã‚­ãƒ£ãƒ©ã‚’[05BD]æ½œã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Changed char / settings to hide / background chars."
-  },
-  {
-    "resource": 1352,
-    "message": 62,
-    "japanese": "ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³1ã§ã™_",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 1."
-  },
-  {
-    "resource": 1352,
-    "message": 63,
-    "japanese": "é‡å…‰ãƒœã‚«ã‚·ã‚’ONã«ã—ã¦ã„ã¾ã™_ / é‡å…‰ãƒ•ã‚£ãƒ«ã‚¿ã¯ã‹ã‘ã¦ã„ã¾ã›ã‚“_",
-    "english": "[DEBUG] Depth blur ON. / Depth filter off."
-  },
-  {
-    "resource": 1352,
-    "message": 64,
-    "japanese": "ã‚­ãƒ£ãƒ©ã‚’ãƒœã‚«ã‚·ã¦ / ä¼šè³ªã‚­ãƒ£ãƒ©ã‚’[05BD]æ½œã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 65,
-    "japanese": "ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³2ã§ã™_",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 2."
-  },
-  {
-    "resource": 1352,
-    "message": 66,
-    "japanese": "é‡å…‰ãƒœã‚«ã‚·ã‚’ONã«ã—ã¦ã„ã¾ã™_ / é‡å…‰ãƒ•ã‚£ãƒ«ã‚¿ã‚‚ONã«ã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Depth blur ON. / Depth filter also ON."
-  },
-  {
-    "resource": 1352,
-    "message": 67,
-    "japanese": "ã‚­ãƒ£ãƒ©ã‚’ãƒœã‚«ã‚·ã¦ / ä¼šè³ªã‚­ãƒ£ãƒ©ã‚’[05BD]æ½œã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 68,
-    "japanese": "ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³3ã§ã™_ / ãƒ¡ãƒƒã‚»}ã‚¸ã®å¿ã«(ã“ã“ã®å¿) / ãƒ•ã‚£ãƒ«ã‚¿ã‚’ã‹ã‘ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 3. / Local filter applied / to message text."
-  },
-  {
-    "resource": 1352,
-    "message": 69,
-    "japanese": "é‡å…‰ãƒœã‚«ã‚·ã‚’ONã«ã—ã¦ã„ã¾ã™_ / é‡å…‰ãƒ•ã‚£ãƒ«ã‚¿ã¯ã‹ã‘ã¦ã„ã¾ã›ã‚“_",
-    "english": "[DEBUG] Depth blur ON. / Depth filter off."
-  },
-  {
-    "resource": 1352,
-    "message": 70,
-    "japanese": "ã‚­ãƒ£ãƒ©ã‚’ãƒœã‚«ã‚·ã¦ / ä¼šè³ªã‚­ãƒ£ãƒ©ã‚’[05BD]æ½œã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 71,
-    "japanese": "ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³5ã§ã™_",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 5."
-  },
-  {
-    "resource": 1352,
-    "message": 72,
-    "japanese": "é‡å…‰ãƒœã‚«ã‚·ã‚’ONã«ã—ã¦ã„ã¾ã™_ / é‡å…‰ãƒ•ã‚£ãƒ«ã‚¿ã‚‚ONã«ã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Depth blur ON. / Depth filter also ON."
-  },
-  {
-    "resource": 1352,
-    "message": 73,
-    "japanese": "ã‚­ãƒ£ãƒ©ã‚’ãƒœã‚«ã‚·ã¦ / ä¼šè³ªã‚­ãƒ£ãƒ©ã‚’[05BD]æ½œã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 74,
-    "japanese": "ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³6ã§ã™_ / ãƒ¡ãƒƒã‚»}ã‚¸ã®å¿ã«(ã“ã“ã®å¿) / ãƒ•ã‚£ãƒ«ã‚¿ã‚’ã‹ã‘ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 6. / Local filter applied / to message text."
-  },
-  {
-    "resource": 1352,
-    "message": 75,
-    "japanese": "é‡å…‰ãƒœã‚«ã‚·ã‚’ONã«ã—ã¦ã„ã¾ã™_ / é‡å…‰ãƒ•ã‚£ãƒ«ã‚¿ã¯ã‹ã‘ã¦ã„ã¾ã›ã‚“_",
-    "english": "[DEBUG] Depth blur ON. / Depth filter off."
-  },
-  {
-    "resource": 1352,
-    "message": 76,
-    "japanese": "ã‚­ãƒ£ãƒ©ã‚’ãƒœã‚«ã‚·ã¦ / ä¼šè³ªã‚­ãƒ£ãƒ©ã‚’[05BD]æ½œã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
-    "resource": 1352,
-    "message": 77,
-    "japanese": "ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³7ã§ã™_ / ãƒ¡ãƒƒã‚»}ã‚¸ã®å¿ã«(ã“ã“ã®å¿) / ãƒ•ã‚£ãƒ«ã‚¿ã‚’ã‹ã‘ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Mel/Ekunnal: / blur version 7. / Local filter applied / to message text."
-  },
-  {
-    "resource": 1352,
-    "message": 78,
-    "japanese": "é‡å…‰ãƒœã‚«ã‚·ã‚’ONã«ã—ã¦ã„ã¾ã™_ / é‡å…‰ãƒ•ã‚£ãƒ«ã‚¿ã¯ã‹ã‘ã¦ã„ã¾ã›ã‚“_",
-    "english": "[DEBUG] Depth blur ON. / Depth filter off."
-  },
-  {
-    "resource": 1352,
-    "message": 79,
-    "japanese": "ã‚­ãƒ£ãƒ©ã‚’ãƒœã‚«ã‚·ã¦ / ä¼šè³ªã‚­ãƒ£ãƒ©ã‚’[05BD]æ½œã—ã¦ã„ã¾ã™_",
-    "english": "[DEBUG] Chars blurred / to hide background."
-  },
-  {
     "resource": 1196,
-    "message": 43,
+    "msg_index": 43,
     "japanese": "行のも見てってよ_",
     "english": "Check these out too."
   },
   {
     "resource": 1196,
-    "message": 45,
+    "msg_index": 45,
     "japanese": "行のも見てってよ_",
     "english": "Check these out too."
   },
   {
     "resource": 1196,
-    "message": 47,
+    "msg_index": 47,
     "japanese": "行のも見てってよ_",
     "english": "Check these out too."
   },
   {
     "resource": 1196,
-    "message": 49,
+    "msg_index": 49,
     "japanese": "行のも見てってよ_",
     "english": "Check these out too."
   },
   {
     "resource": 1196,
-    "message": 81,
+    "msg_index": 81,
     "japanese": "まあ^聞くがいい_",
     "english": "Well, listen up."
   },
   {
     "resource": 1196,
-    "message": 204,
+    "msg_index": 204,
     "japanese": "いまの声は||_",
     "english": "That voice just now."
   },
   {
     "resource": 1196,
-    "message": 212,
+    "msg_index": 212,
     "japanese": "どうか^ご辺事で_",
     "english": "Please, be safe."
   },
   {
     "resource": 1196,
-    "message": 293,
+    "msg_index": 293,
     "japanese": "心待しているぞ_",
     "english": "I await you."
   },
   {
     "resource": 1196,
-    "message": 310,
+    "msg_index": 310,
     "japanese": "ふむ^危とな||_",
     "english": "Hm, dangerous..."
   },
   {
     "resource": 1196,
-    "message": 331,
+    "msg_index": 331,
     "japanese": "臆のためか||_",
     "english": "For my sake...?"
   },
   {
     "resource": 1196,
-    "message": 430,
+    "msg_index": 430,
     "japanese": "だからお願い!",
     "english": "So please!"
   },
   {
     "resource": 1196,
-    "message": 507,
+    "msg_index": 507,
     "japanese": "[待っていたよ]",
     "english": "[I've been waiting.]"
   },
   {
     "resource": 1196,
-    "message": 511,
+    "msg_index": 511,
     "japanese": "余は更去だった|_",
     "english": "I was already gone."
   },
   {
     "resource": 1196,
-    "message": 523,
-    "japanese": "信忍の遺言である!",
-    "english": "These are Shinobu's / last words!"
-  },
-  {
-    "resource": 1196,
-    "message": 542,
-    "japanese": "箱い可をしている_",
+    "msg_index": 542,
+    "japanese": "闘い可をしている_",
     "english": "The box is open."
   },
   {
     "resource": 1196,
-    "message": 551,
-    "japanese": "は気酷を見せた_",
+    "msg_index": 551,
+    "japanese": "は / 気酷を見せた_",
     "english": "showed a grim face."
   },
   {
     "resource": 1196,
-    "message": 599,
-    "japanese": "[シムゾンさん!]",
-    "english": "[Simzon!]"
-  },
-  {
-    "resource": 1196,
-    "message": 675,
-    "japanese": "[シムゾンさん!]",
-    "english": "[Simzon!]"
-  },
-  {
-    "resource": 1196,
-    "message": 737,
+    "msg_index": 737,
     "japanese": "はうなずいた_",
     "english": "nodded."
   },
   {
     "resource": 1196,
-    "message": 746,
+    "msg_index": 746,
     "japanese": "そういうこと_",
     "english": "That's what I mean."
   },
   {
     "resource": 1196,
-    "message": 758,
-    "japanese": "ふむ^なるほど|_",
-    "english": "Hm, I see."
-  },
-  {
-    "resource": 1196,
-    "message": 789,
+    "msg_index": 789,
     "japanese": "それを持っていて_",
     "english": "Keep that with you."
   },
   {
     "resource": 1196,
-    "message": 806,
+    "msg_index": 806,
     "japanese": "は誰を横に後った_",
     "english": "looked away."
   },
   {
     "resource": 1196,
-    "message": 853,
+    "msg_index": 828,
+    "japanese": "どうぞ_",
+    "english": "Please."
+  },
+  {
+    "resource": 1196,
+    "msg_index": 841,
+    "japanese": "どうぞ_",
+    "english": "Please."
+  },
+  {
+    "resource": 1196,
+    "msg_index": 853,
     "japanese": "名成の今からだ_",
     "english": "From the darkness."
   },
   {
     "resource": 1196,
-    "message": 857,
+    "msg_index": 857,
     "japanese": "[いたあ~|]",
     "english": "[Oww~!]"
   },
   {
     "resource": 1196,
-    "message": 885,
+    "msg_index": 885,
     "japanese": "よろしくね}!",
     "english": "Nice to meet you!"
   },
   {
     "resource": 1196,
-    "message": 891,
+    "msg_index": 891,
     "japanese": "よろしくね}!",
     "english": "Nice to meet you!"
   },
   {
     "resource": 1196,
-    "message": 901,
+    "msg_index": 901,
     "japanese": "はい^これね!",
     "english": "Here you go!"
   },
   {
     "resource": 1197,
-    "message": 90,
+    "msg_index": 90,
     "japanese": "あっ^そうだった!",
     "english": "Oh, right!"
   },
   {
     "resource": 1197,
-    "message": 97,
+    "msg_index": 97,
     "japanese": "ほんと兜新だわ|_",
     "english": "What a relief."
   },
   {
     "resource": 1197,
-    "message": 120,
+    "msg_index": 120,
     "japanese": "この所なんだよ!",
     "english": "This is the place!"
   },
   {
     "resource": 1197,
-    "message": 125,
+    "msg_index": 125,
     "japanese": "かわいいだろう~[0x0271]",
     "english": "Cute, isn't it~?"
   },
   {
     "resource": 1197,
-    "message": 156,
+    "msg_index": 156,
     "japanese": "|なにぃ!?",
     "english": "Wh-what!?"
   },
   {
     "resource": 1197,
-    "message": 183,
+    "msg_index": 183,
     "japanese": "じゃ^語ろっか!",
     "english": "Then let's talk!"
   },
   {
     "resource": 1197,
-    "message": 221,
+    "msg_index": 221,
     "japanese": "ではね~!",
     "english": "See you~!"
   },
   {
     "resource": 1197,
-    "message": 226,
+    "msg_index": 226,
     "japanese": "はい^これ_",
     "english": "Here, take this."
   },
   {
     "resource": 1197,
-    "message": 264,
+    "msg_index": 264,
     "japanese": "それでですね|_",
     "english": "And then..."
   },
   {
     "resource": 1197,
-    "message": 314,
+    "msg_index": 314,
     "japanese": "[0x06B0]解を力に入れた!",
     "english": "Got the [0x06B0] key!"
   },
   {
     "resource": 1197,
-    "message": 335,
+    "msg_index": 335,
     "japanese": "|そうみたいね|_",
     "english": "Looks that way."
   },
   {
     "resource": 1197,
-    "message": 344,
+    "msg_index": 344,
     "japanese": "よ|よろしくね|_",
     "english": "N-nice to meet you."
   },
   {
     "resource": 1197,
-    "message": 362,
+    "msg_index": 362,
     "japanese": "う^うん|!",
     "english": "Y-yeah!"
   },
   {
     "resource": 1197,
-    "message": 369,
+    "msg_index": 369,
     "japanese": "よ|よろしくね|_",
     "english": "N-nice to meet you."
   },
   {
     "resource": 1197,
-    "message": 386,
+    "msg_index": 386,
     "japanese": "敏余^丁いところ_",
     "english": "Just in time."
   },
   {
     "resource": 1197,
-    "message": 426,
+    "msg_index": 426,
     "japanese": "頼になるでしょ?",
     "english": "It'll help, right?"
   },
   {
     "resource": 1197,
-    "message": 503,
+    "msg_index": 503,
     "japanese": "では^また_",
     "english": "Well, see you."
   },
   {
     "resource": 1197,
-    "message": 541,
+    "msg_index": 541,
     "japanese": "かたじけない_",
     "english": "Much obliged."
   },
   {
     "resource": 1197,
-    "message": 544,
+    "msg_index": 544,
     "japanese": "では^汝[0x05DE]する_",
     "english": "Then I shall guide."
   },
   {
     "resource": 1197,
-    "message": 561,
+    "msg_index": 561,
     "japanese": "だが^しかし!",
     "english": "However!"
   },
   {
     "resource": 1197,
-    "message": 687,
+    "msg_index": 687,
     "japanese": "を力に入れた!",
     "english": "Obtained it!"
   },
   {
     "resource": 1197,
-    "message": 754,
+    "msg_index": 754,
     "japanese": "を力に入れた!",
     "english": "Obtained it!"
   },
   {
     "resource": 1197,
-    "message": 775,
+    "msg_index": 775,
     "japanese": "じゃあな!",
     "english": "See ya!"
   },
   {
     "resource": 1197,
-    "message": 798,
+    "msg_index": 798,
     "japanese": "じゃあな!",
     "english": "See ya!"
   },
   {
     "resource": 1197,
-    "message": 919,
-    "japanese": "たったの数地嫌だ_",
-    "english": "Just a few minutes."
-  },
-  {
-    "resource": 1197,
-    "message": 1093,
+    "msg_index": 1093,
     "japanese": "時嫌が[0x04EC]しい|_",
     "english": "Time is precious."
   },
   {
     "resource": 1199,
-    "message": 1,
+    "msg_index": 1,
     "japanese": "に目がめばえた_",
     "english": "awakened within."
   },
   {
     "resource": 1199,
-    "message": 2,
+    "msg_index": 2,
     "japanese": "に目がめばえた_",
     "english": "awakened within."
   },
   {
     "resource": 1199,
-    "message": 3,
+    "msg_index": 3,
     "japanese": "に目がめばえた_",
     "english": "awakened within."
   },
   {
     "resource": 1199,
-    "message": 4,
+    "msg_index": 4,
     "japanese": "に目がめばえた_",
     "english": "awakened within."
   },
   {
     "resource": 1199,
-    "message": 5,
+    "msg_index": 5,
     "japanese": "に目がめばえた_",
     "english": "awakened within."
   },
   {
     "resource": 1199,
-    "message": 6,
+    "msg_index": 6,
     "japanese": "に目がめばえた_",
     "english": "awakened within."
   },
   {
     "resource": 1199,
-    "message": 110,
+    "msg_index": 110,
     "japanese": "キャアッ!",
     "english": "Eek!"
   },
   {
     "resource": 1199,
-    "message": 181,
+    "msg_index": 181,
     "japanese": "あら^くれるの?",
     "english": "Oh, you'll give it / to me?"
   },
   {
     "resource": 1199,
-    "message": 198,
+    "msg_index": 198,
     "japanese": "よろしい!",
     "english": "Very well!"
   },
   {
     "resource": 1199,
-    "message": 202,
+    "msg_index": 202,
     "japanese": "えっ|はっ^はい!",
     "english": "Eh? Ah, yes!"
   },
   {
     "resource": 1199,
-    "message": 206,
+    "msg_index": 206,
     "japanese": "う^うん|_",
     "english": "Y-yeah."
   },
   {
+    "resource": 1199,
+    "msg_index": 213,
+    "japanese": "クレタ",
+    "english": "Creta"
+  },
+  {
     "resource": 1200,
-    "message": 16,
+    "msg_index": 16,
     "japanese": "そんじゃ^またな_",
     "english": "Well then, see ya."
   },
   {
     "resource": 1200,
-    "message": 97,
+    "msg_index": 97,
     "japanese": "さらにもう一つ_",
     "english": "One more thing."
   },
   {
     "resource": 1200,
-    "message": 120,
+    "msg_index": 120,
     "japanese": "さんですね?",
     "english": "That's you, right?"
   },
   {
     "resource": 1200,
-    "message": 127,
+    "msg_index": 127,
     "japanese": "フ}ケ[さん]",
     "english": "Fu}ke [sir]"
   },
   {
     "resource": 1200,
-    "message": 158,
+    "msg_index": 158,
     "japanese": "|ごほん!",
     "english": "Ahem!"
   },
   {
     "resource": 1200,
-    "message": 167,
+    "msg_index": 167,
     "japanese": "~華護なる復込[0x0561]~",
     "english": "~Grand Reincarnation~"
   },
   {
     "resource": 1200,
-    "message": 228,
+    "msg_index": 228,
     "japanese": "G力に入れた!",
     "english": "Obtained G!"
   },
   {
     "resource": 1201,
-    "message": 112,
+    "msg_index": 112,
     "japanese": "まず^嫌違いねえ!",
     "english": "No mistake!"
   },
   {
     "resource": 1201,
-    "message": 170,
-    "japanese": "長員を力に入れた!",
+    "msg_index": 170,
+    "japanese": " /  / 長員を力に入れた!",
     "english": "Got the member list!"
   },
   {
     "resource": 1202,
-    "message": 44,
+    "msg_index": 44,
     "japanese": "オ}クだ_",
     "english": "It's an Orc."
   },
   {
     "resource": 1202,
-    "message": 70,
-    "japanese": " あっ^そっか!",
+    "msg_index": 70,
+    "japanese": "  / あっ^そっか!",
     "english": "Oh, right!"
   },
   {
     "resource": 1202,
-    "message": 80,
-    "japanese": "{{{やさしい!",
+    "msg_index": 80,
+    "japanese": " / {{{やさしい!",
     "english": "So kind!"
   },
   {
     "resource": 1202,
-    "message": 82,
-    "japanese": "{{{キビシィ!",
+    "msg_index": 82,
+    "japanese": " / {{{キビシィ!",
     "english": "So harsh!"
   },
   {
     "resource": 1202,
-    "message": 91,
+    "msg_index": 91,
     "japanese": "さらばだよ!",
     "english": "Farewell!"
   },
   {
     "resource": 1202,
-    "message": 93,
+    "msg_index": 93,
     "japanese": "値色はだと言った_",
     "english": "said it was the price"
   },
   {
     "resource": 1202,
-    "message": 111,
+    "msg_index": 111,
     "japanese": "値色はだと言った_",
     "english": "said it was the price"
   },
   {
     "resource": 1202,
-    "message": 132,
-    "japanese": "そっかあ~!",
+    "msg_index": 132,
+    "japanese": " / そっかあ~!",
     "english": "I see~!"
   },
   {
     "resource": 1202,
-    "message": 159,
-    "japanese": "{{{{{{{あ!",
+    "msg_index": 159,
+    "japanese": " / {{{{{{{あ!",
     "english": "Ah!"
   },
   {
     "resource": 1202,
-    "message": 216,
+    "msg_index": 216,
     "japanese": "そうだっ!",
     "english": "That's right!"
   },
   {
     "resource": 1202,
-    "message": 239,
+    "msg_index": 239,
     "japanese": "うそ^やったあ!",
     "english": "No way, hooray!"
   },
   {
     "resource": 1202,
-    "message": 251,
+    "msg_index": 251,
     "japanese": "[ほいだよ~]",
     "english": "[Here you go~]"
   },
   {
     "resource": 1203,
-    "message": 36,
+    "msg_index": 36,
     "japanese": "え}^ゴホン!",
     "english": "Er, ahem!"
   },
   {
     "resource": 1203,
-    "message": 68,
+    "msg_index": 68,
     "japanese": "またよろしくっス!",
     "english": "Thanks again!"
   },
   {
     "resource": 1203,
-    "message": 75,
+    "msg_index": 75,
     "japanese": "ねえ||_",
     "english": "Hey..."
   },
   {
     "resource": 1203,
-    "message": 187,
+    "msg_index": 187,
     "japanese": "じゃあ|_",
     "english": "Well then..."
   },
   {
     "resource": 1203,
-    "message": 191,
+    "msg_index": 191,
     "japanese": "じゃあ|_",
     "english": "Well then..."
   },
   {
     "resource": 1203,
-    "message": 200,
+    "msg_index": 200,
     "japanese": "ん~ポイント!",
     "english": "Hm~ Points!"
   },
   {
     "resource": 1203,
-    "message": 211,
+    "msg_index": 211,
     "japanese": "抽選中{{{",
     "english": "Drawing..."
   },
   {
     "resource": 1203,
-    "message": 245,
+    "msg_index": 245,
     "japanese": "意ピンピンっスよ!",
     "english": "I'm full of energy!"
   },
   {
     "resource": 1203,
-    "message": 273,
+    "msg_index": 273,
     "japanese": "だいじょうぶ?",
     "english": "Are you okay?"
   },
   {
     "resource": 1203,
-    "message": 298,
+    "msg_index": 298,
     "japanese": "まいどあり!",
     "english": "Thanks!"
   },
   {
     "resource": 1203,
-    "message": 300,
+    "msg_index": 300,
     "japanese": "まいどあり!",
     "english": "Thanks!"
   },
   {
     "resource": 1203,
-    "message": 303,
+    "msg_index": 303,
     "japanese": "まだ何か毒かい?",
     "english": "Want anything else?"
   },
   {
     "resource": 1203,
-    "message": 314,
+    "msg_index": 314,
     "japanese": "まいどあり!",
     "english": "Thanks!"
   },
   {
     "resource": 1203,
-    "message": 316,
+    "msg_index": 316,
     "japanese": "まいどあり!",
     "english": "Thanks!"
   },
   {
     "resource": 1203,
-    "message": 319,
+    "msg_index": 319,
     "japanese": "まだ何か毒かい?",
     "english": "Want anything else?"
   },
   {
     "resource": 1203,
-    "message": 393,
+    "msg_index": 393,
     "japanese": "[ちょっと!]",
     "english": "[Hey!]"
   },
   {
     "resource": 1203,
-    "message": 398,
+    "msg_index": 398,
     "japanese": "[ちょっと!]",
     "english": "[Hey!]"
   },
   {
     "resource": 1203,
-    "message": 406,
+    "msg_index": 406,
     "japanese": "[はっ|はい|]",
     "english": "[Y-yes!]"
   },
   {
     "resource": 1203,
-    "message": 497,
+    "msg_index": 497,
     "japanese": "レバ}を功かした_",
     "english": "Pulled the lever."
   },
   {
     "resource": 1203,
-    "message": 515,
+    "msg_index": 515,
     "japanese": "おねがいだよう|!",
     "english": "Please!"
   },
   {
     "resource": 1203,
-    "message": 552,
-    "japanese": "|ありがとう_",
-    "english": "Thank you."
-  },
-  {
-    "resource": 1203,
-    "message": 580,
-    "japanese": "と彼銀った_",
-    "english": "he said."
-  },
-  {
-    "resource": 1203,
-    "message": 591,
-    "japanese": "そうですか!",
-    "english": "Is that so!"
-  },
-  {
-    "resource": 1203,
-    "message": 613,
-    "japanese": "できる|と_",
-    "english": "You can."
-  },
-  {
-    "resource": 1203,
-    "message": 614,
-    "japanese": "できない|と_",
-    "english": "You cannot."
-  },
-  {
-    "resource": 1203,
-    "message": 634,
-    "japanese": "ジル[待って!]",
-    "english": "Jill: [Wait!]"
-  },
-  {
-    "resource": 1203,
-    "message": 654,
-    "japanese": "よくぞ参られた_",
-    "english": "You have come well."
-  },
-  {
-    "resource": 1203,
-    "message": 658,
-    "japanese": "[最装だっ!]",
-    "english": "[It's the best!]"
-  },
-  {
-    "resource": 1203,
-    "message": 684,
-    "japanese": "よくぞ参られた_",
-    "english": "You have come well."
-  },
-  {
-    "resource": 1203,
-    "message": 734,
-    "japanese": "でもほら^見てよ_",
-    "english": "But look here."
-  },
-  {
-    "resource": 1203,
-    "message": 809,
-    "japanese": "[何をしておる]",
-    "english": "[What are you doing?]"
-  },
-  {
-    "resource": 1203,
-    "message": 861,
-    "japanese": "魔主が命たされた!",
-    "english": "The demon lord / was defeated!"
-  },
-  {
-    "resource": 1203,
-    "message": 881,
-    "japanese": "[イデッ!]",
-    "english": "[Ow!]"
-  },
-  {
-    "resource": 1203,
-    "message": 887,
-    "japanese": "どけ^キサマ!",
-    "english": "Move, you!"
-  },
-  {
-    "resource": 1203,
-    "message": 997,
-    "japanese": "さすがさん!",
-    "english": "That's just like you!"
-  },
-  {
-    "resource": 1203,
-    "message": 1043,
-    "japanese": "知っているだろ?",
-    "english": "You know, right?"
-  },
-  {
-    "resource": 1203,
-    "message": 1050,
-    "japanese": "||マ^マジかよ_",
-    "english": "N-no way..."
-  },
-  {
-    "resource": 1203,
-    "message": 1093,
-    "japanese": "あっそうそう!",
-    "english": "Oh, right!"
-  },
-  {
-    "resource": 1203,
-    "message": 1100,
-    "japanese": "マジ^むかついた!",
-    "english": "That really ticked / me off!"
-  },
-  {
-    "resource": 1203,
-    "message": 1107,
-    "japanese": "そんじゃ^アバヨ!",
-    "english": "Well then, bye!"
-  },
-  {
-    "resource": 1203,
-    "message": 1197,
-    "japanese": "[ひどいことを]",
-    "english": "[How cruel.]"
-  },
-  {
-    "resource": 1203,
-    "message": 1215,
-    "japanese": "汝は知っていたか?",
-    "english": "Did you know?"
-  },
-  {
-    "resource": 1203,
-    "message": 1461,
-    "japanese": "ば^ばかな||_",
-    "english": "I-impossible..."
-  },
-  {
-    "resource": 1203,
-    "message": 1530,
-    "japanese": "では住稼を戻る_",
-    "english": "Then return home."
-  },
-  {
-    "resource": 1203,
-    "message": 1615,
-    "japanese": "そんじゃ^またね!",
-    "english": "Well then, see you!"
-  },
-  {
-    "resource": 1204,
-    "message": 3,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1204,
-    "message": 6,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1204,
-    "message": 10,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1204,
-    "message": 13,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1204,
-    "message": 39,
-    "japanese": "大客に系が限んだ_",
-    "english": "A loud sound rang."
-  },
-  {
-    "resource": 1204,
-    "message": 96,
-    "japanese": "は誰を横に後った_",
-    "english": "Who will you bring?"
-  },
-  {
-    "resource": 1204,
-    "message": 135,
-    "japanese": "あ^どうも~_",
-    "english": "Ah, hello..."
-  },
-  {
-    "resource": 1204,
-    "message": 148,
-    "japanese": "|そうか|_",
-    "english": "I see..."
-  },
-  {
-    "resource": 1204,
-    "message": 394,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1204,
-    "message": 426,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1204,
-    "message": 433,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1204,
-    "message": 545,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1204,
-    "message": 549,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1204,
-    "message": 558,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1204,
-    "message": 569,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1204,
-    "message": 603,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1204,
-    "message": 631,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1204,
-    "message": 668,
-    "japanese": "魔主が命たされた!",
-    "english": "The demon lord fell!"
-  },
-  {
-    "resource": 1204,
-    "message": 674,
-    "japanese": "[待ちたまえ]",
-    "english": "Wait."
-  },
-  {
-    "resource": 1204,
-    "message": 789,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1204,
-    "message": 791,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1204,
-    "message": 794,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1204,
-    "message": 805,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1204,
-    "message": 807,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1204,
-    "message": 810,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1204,
-    "message": 896,
-    "japanese": "声は限んだ_",
-    "english": "The voice faded."
-  },
-  {
-    "resource": 1204,
-    "message": 959,
-    "japanese": "[シムゾン!!]",
-    "english": "Simzon!!"
-  },
-  {
-    "resource": 1204,
-    "message": 963,
-    "japanese": "[げ^義をめ|]",
-    "english": "G-get away..."
-  },
-  {
-    "resource": 1205,
-    "message": 15,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1205,
-    "message": 24,
-    "japanese": "んん? おやおや?",
-    "english": "Hm? Well now?"
-  },
-  {
-    "resource": 1205,
-    "message": 91,
-    "japanese": "||一瞬だったよ_",
-    "english": "Over in an instant."
-  },
-  {
-    "resource": 1205,
-    "message": 167,
-    "japanese": "マ^マジかヨ||_",
-    "english": "Y-you serious...?"
-  },
-  {
-    "resource": 1205,
-    "message": 176,
-    "japanese": "ではサラバ!",
-    "english": "Farewell!"
-  },
-  {
-    "resource": 1205,
-    "message": 186,
-    "japanese": "ではサラバ!",
-    "english": "Farewell!"
-  },
-  {
-    "resource": 1205,
-    "message": 193,
-    "japanese": "ああ^幸せ||_",
-    "english": "Ah, bliss..."
-  },
-  {
-    "resource": 1205,
-    "message": 214,
-    "japanese": "さっさと^カエレ!",
-    "english": "Get out already!"
-  },
-  {
-    "resource": 1205,
-    "message": 215,
-    "japanese": "なんだい?",
-    "english": "What is it?"
-  },
-  {
-    "resource": 1205,
-    "message": 256,
-    "japanese": "わかったであろう_",
-    "english": "Now you understand."
-  },
-  {
-    "resource": 1205,
-    "message": 341,
-    "japanese": "お願い^容けて~!",
-    "english": "Please, help me!"
-  },
-  {
-    "resource": 1205,
-    "message": 390,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1205,
-    "message": 422,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1205,
-    "message": 429,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1205,
-    "message": 541,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1205,
-    "message": 545,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1205,
-    "message": 554,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1205,
-    "message": 565,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1205,
-    "message": 599,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1205,
-    "message": 627,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1205,
-    "message": 664,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1205,
-    "message": 666,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1205,
-    "message": 669,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1205,
-    "message": 680,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1205,
-    "message": 682,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1205,
-    "message": 685,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1205,
-    "message": 756,
-    "japanese": "女が叫んでいる_",
-    "english": "A woman is screaming"
-  },
-  {
-    "resource": 1205,
-    "message": 769,
-    "japanese": "ぁ|ぅ|ぅん|_",
-    "english": "Ah... ugh..."
-  },
-  {
-    "resource": 1205,
-    "message": 807,
-    "japanese": "やっと帰た}}}!",
-    "english": "Finally back!"
-  },
-  {
-    "resource": 1205,
-    "message": 868,
-    "japanese": "女の声が聞こえる_",
-    "english": "A woman's voice echoes"
-  },
-  {
-    "resource": 1206,
-    "message": 3,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1206,
-    "message": 14,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1206,
-    "message": 25,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1206,
-    "message": 46,
-    "japanese": "いや^待てよ||_",
-    "english": "No, wait..."
-  },
-  {
-    "resource": 1206,
-    "message": 302,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1206,
-    "message": 334,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1206,
-    "message": 341,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1206,
-    "message": 453,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1206,
-    "message": 457,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1206,
-    "message": 466,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1206,
-    "message": 477,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1206,
-    "message": 511,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1206,
-    "message": 539,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1206,
-    "message": 557,
-    "japanese": "囲を泉[0x067F]につけた_",
-    "english": "Placed the ring / in the spring."
-  },
-  {
-    "resource": 1206,
-    "message": 575,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1206,
-    "message": 577,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1206,
-    "message": 580,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1206,
-    "message": 591,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1206,
-    "message": 593,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1206,
-    "message": 596,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1206,
-    "message": 675,
-    "japanese": "お願い^容けて~!",
-    "english": "Please, help me!"
-  },
-  {
-    "resource": 1206,
-    "message": 693,
-    "japanese": "リュ}トです!!",
-    "english": "I am Ryut!!"
-  },
-  {
-    "resource": 1206,
-    "message": 694,
-    "japanese": "エミ}リアよ!!",
-    "english": "I am Emilia!!"
-  },
-  {
-    "resource": 1206,
-    "message": 696,
-    "japanese": "そうよ^そうよ!",
-    "english": "Yes, that is right!"
-  },
-  {
-    "resource": 1206,
-    "message": 911,
-    "japanese": "まさかな|_",
-    "english": "No way..."
-  },
-  {
-    "resource": 1207,
-    "message": 7,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1207,
-    "message": 10,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1207,
-    "message": 13,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1207,
-    "message": 16,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1207,
-    "message": 20,
-    "japanese": "スイッチを[0x01D7]した_",
-    "english": "Pressed the switch."
-  },
-  {
-    "resource": 1207,
-    "message": 74,
-    "japanese": "[|退大でしたな]",
-    "english": "Most unfortunate."
-  },
-  {
-    "resource": 1207,
-    "message": 152,
-    "japanese": "[すごいわね||]",
-    "english": "Impressive..."
-  },
-  {
-    "resource": 1207,
-    "message": 197,
-    "japanese": "[余は|余は||]",
-    "english": "I... I..."
-  },
-  {
-    "resource": 1207,
-    "message": 210,
-    "japanese": "|あ^あんた過よ?",
-    "english": "Oh, it is you?"
-  },
-  {
-    "resource": 1207,
-    "message": 275,
-    "japanese": "言わば者部生物だ_",
-    "english": "In other words, / an artificial being."
-  },
-  {
-    "resource": 1207,
-    "message": 281,
-    "japanese": "だが^辺理だな_",
-    "english": "But that makes sense"
-  },
-  {
-    "resource": 1207,
-    "message": 332,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1207,
-    "message": 364,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1207,
-    "message": 371,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1207,
-    "message": 483,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1207,
-    "message": 487,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1207,
-    "message": 496,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1207,
-    "message": 507,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1207,
-    "message": 541,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1207,
-    "message": 569,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1207,
-    "message": 589,
-    "japanese": "ふむう|_",
-    "english": "Hmm..."
-  },
-  {
-    "resource": 1207,
-    "message": 615,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1207,
-    "message": 617,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1207,
-    "message": 620,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1207,
-    "message": 631,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1207,
-    "message": 633,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1207,
-    "message": 636,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1207,
-    "message": 795,
-    "japanese": "[おや?]",
-    "english": "Hm?"
-  },
-  {
-    "resource": 1207,
-    "message": 798,
-    "japanese": "[なにぃ!?]",
-    "english": "What?!"
-  },
-  {
-    "resource": 1207,
-    "message": 800,
-    "japanese": "ウッヒッヒッヒ_",
-    "english": "U-heh-heh-heh."
-  },
-  {
-    "resource": 1207,
-    "message": 801,
-    "japanese": "グッシッシッシ_",
-    "english": "Gu-shi-shi-shi."
-  },
-  {
-    "resource": 1207,
-    "message": 804,
-    "japanese": "イエス^サ}!",
-    "english": "Yes, sir!"
-  },
-  {
-    "resource": 1207,
-    "message": 805,
-    "japanese": "ち^ちくしょう|",
-    "english": "D-damn it..."
-  },
-  {
-    "resource": 1207,
-    "message": 835,
-    "japanese": "[待て^アオイ]",
-    "english": "Wait, Aoi."
-  },
-  {
-    "resource": 1207,
-    "message": 859,
-    "japanese": "[待て^アオイ!]",
-    "english": "Wait, Aoi!"
-  },
-  {
-    "resource": 1207,
-    "message": 870,
-    "japanese": "[過だ?!]",
-    "english": "Who is there?!"
-  },
-  {
-    "resource": 1208,
-    "message": 15,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1208,
-    "message": 25,
-    "japanese": "[やめなさい!]",
-    "english": "Stop!"
-  },
-  {
-    "resource": 1208,
-    "message": 32,
-    "japanese": "お[0x01E4]し忍さい_",
-    "english": "Be quiet."
-  },
-  {
-    "resource": 1208,
-    "message": 58,
-    "japanese": "||崩ったものだ_",
-    "english": "It is broken."
-  },
-  {
-    "resource": 1208,
-    "message": 87,
-    "japanese": "[議段だなあ|]",
-    "english": "Incredible..."
-  },
-  {
-    "resource": 1208,
-    "message": 89,
-    "japanese": "あ^いたの_",
-    "english": "Oh, there you are."
-  },
-  {
-    "resource": 1208,
-    "message": 91,
-    "japanese": "|で^何か毒?",
-    "english": "So, need something?"
-  },
-  {
-    "resource": 1208,
-    "message": 102,
-    "japanese": "じゃあ^よろしく_",
-    "english": "I'm counting on you."
-  },
-  {
-    "resource": 1208,
-    "message": 193,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1208,
-    "message": 225,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1208,
-    "message": 232,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1208,
-    "message": 344,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1208,
-    "message": 348,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1208,
-    "message": 357,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1208,
-    "message": 368,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1208,
-    "message": 402,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1208,
-    "message": 430,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1208,
-    "message": 460,
-    "japanese": "[待ちたまえ]",
-    "english": "Wait."
-  },
-  {
-    "resource": 1208,
-    "message": 639,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1208,
-    "message": 641,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1208,
-    "message": 644,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1208,
-    "message": 655,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1208,
-    "message": 657,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1208,
-    "message": 660,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1208,
-    "message": 837,
-    "japanese": "[待て^アオイ]",
-    "english": "Wait, Aoi."
-  },
-  {
-    "resource": 1208,
-    "message": 860,
-    "japanese": "[待て^アオイ!]",
-    "english": "Wait, Aoi!"
-  },
-  {
-    "resource": 1209,
-    "message": 3,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1209,
-    "message": 6,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1209,
-    "message": 9,
-    "japanese": "[しぃっ|!]",
-    "english": "Shh!"
-  },
-  {
-    "resource": 1209,
-    "message": 56,
-    "japanese": "ちょっと_",
-    "english": "Wait."
-  },
-  {
-    "resource": 1209,
-    "message": 80,
-    "japanese": "この余を見たまえ_",
-    "english": "Look at me."
-  },
-  {
-    "resource": 1209,
-    "message": 97,
-    "japanese": "おかしなものだよ_",
-    "english": "How strange."
-  },
-  {
-    "resource": 1209,
-    "message": 127,
-    "japanese": "[王女表!!]",
-    "english": "Princess!!"
-  },
-  {
-    "resource": 1209,
-    "message": 143,
-    "japanese": "うそばかり!",
-    "english": "Lies!"
-  },
-  {
-    "resource": 1209,
-    "message": 204,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1209,
-    "message": 236,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1209,
-    "message": 243,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1209,
-    "message": 355,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1209,
-    "message": 359,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1209,
-    "message": 368,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1209,
-    "message": 379,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1209,
-    "message": 413,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1209,
-    "message": 446,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1209,
-    "message": 471,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1209,
-    "message": 473,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1209,
-    "message": 476,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1209,
-    "message": 487,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1209,
-    "message": 489,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1209,
-    "message": 492,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1209,
-    "message": 586,
-    "japanese": "[頼をつけて||]",
-    "english": "Be careful..."
-  },
-  {
-    "resource": 1209,
-    "message": 589,
-    "japanese": "あなたは感じない?",
-    "english": "Do you not feel it?"
-  },
-  {
-    "resource": 1210,
-    "message": 4,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1210,
-    "message": 7,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1210,
-    "message": 10,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1210,
-    "message": 11,
-    "japanese": "イムプ[ぎゃっ!]",
-    "english": "Imp: Gah!"
-  },
-  {
-    "resource": 1210,
-    "message": 77,
-    "japanese": "マジかよ|_",
-    "english": "Seriously...?"
-  },
-  {
-    "resource": 1210,
-    "message": 84,
-    "japanese": "じゃあなっ!",
-    "english": "See ya!"
-  },
-  {
-    "resource": 1210,
-    "message": 153,
-    "japanese": "そして余は||^",
-    "english": "And then I..."
-  },
-  {
-    "resource": 1210,
-    "message": 175,
-    "japanese": "ほんと^蓄送い与_",
-    "english": "What a nuisance."
-  },
-  {
-    "resource": 1210,
-    "message": 243,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1210,
-    "message": 275,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1210,
-    "message": 282,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1210,
-    "message": 394,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1210,
-    "message": 398,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1210,
-    "message": 407,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1210,
-    "message": 418,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1210,
-    "message": 452,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1210,
-    "message": 480,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1210,
-    "message": 510,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1210,
-    "message": 512,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1210,
-    "message": 515,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1210,
-    "message": 526,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1210,
-    "message": 528,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1210,
-    "message": 531,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1210,
-    "message": 613,
-    "japanese": "話げ^話ぐのじゃ!",
-    "english": "Speak! Tell me!"
-  },
-  {
-    "resource": 1210,
-    "message": 624,
-    "japanese": "何表^頼は探かか?",
-    "english": "What? Found something"
-  },
-  {
-    "resource": 1210,
-    "message": 634,
-    "japanese": "損? 損とな?",
-    "english": "A loss? What loss?"
-  },
-  {
-    "resource": 1210,
-    "message": 653,
-    "japanese": "[あら^退大||]",
-    "english": "Oh, too bad..."
-  },
-  {
-    "resource": 1210,
-    "message": 717,
-    "japanese": "[ピィッ!!]",
-    "english": "Pii!!"
-  },
-  {
-    "resource": 1211,
-    "message": 25,
-    "japanese": "[遅かったか||]",
-    "english": "Too late..."
-  },
-  {
-    "resource": 1211,
-    "message": 88,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1211,
-    "message": 120,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1211,
-    "message": 127,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1211,
-    "message": 239,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1211,
-    "message": 243,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1211,
-    "message": 252,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1211,
-    "message": 263,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1211,
-    "message": 297,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1211,
-    "message": 332,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1211,
-    "message": 350,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1211,
-    "message": 437,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1211,
-    "message": 439,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1211,
-    "message": 442,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1211,
-    "message": 453,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1211,
-    "message": 455,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1211,
-    "message": 458,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1211,
-    "message": 553,
-    "japanese": "そうじゃなくて?",
-    "english": "That is not it?"
-  },
-  {
-    "resource": 1212,
-    "message": 4,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1212,
-    "message": 15,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1212,
-    "message": 50,
-    "japanese": "ねえ^だめかな}?",
-    "english": "Hey, is that no good"
-  },
-  {
-    "resource": 1212,
-    "message": 145,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1212,
-    "message": 177,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1212,
-    "message": 184,
-    "japanese": "ねえ||_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1212,
-    "message": 296,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1212,
-    "message": 300,
-    "japanese": "じゃあ|_",
-    "english": "Well then..."
-  },
-  {
-    "resource": 1212,
-    "message": 309,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1212,
-    "message": 320,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1212,
-    "message": 354,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1212,
-    "message": 382,
-    "japanese": "だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1212,
-    "message": 409,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1212,
-    "message": 411,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1212,
-    "message": 414,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1212,
-    "message": 425,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1212,
-    "message": 427,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1212,
-    "message": 430,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1212,
-    "message": 717,
-    "japanese": "じゃあな^あばよ!",
-    "english": "See ya, bye!"
-  },
-  {
-    "resource": 1213,
-    "message": 28,
-    "japanese": "では参ろうか_",
-    "english": "Shall we go?"
-  },
-  {
-    "resource": 1353,
-    "message": 4,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1353,
-    "message": 15,
-    "japanese": "レバ}を功かした_",
-    "english": "Operated the lever."
-  },
-  {
-    "resource": 1353,
-    "message": 50,
-    "japanese": "ねえ^だめかな}?",
-    "english": "Hey, is that no good"
-  },
-  {
-    "resource": 1353,
-    "message": 101,
-    "japanese": "頼いを[0x0565]げるため|",
-    "english": "To grant the wish..."
-  },
-  {
-    "resource": 1353,
-    "message": 145,
-    "japanese": "え}^ゴホン!",
-    "english": "Ahem!"
-  },
-  {
-    "resource": 1353,
-    "message": 177,
-    "japanese": "またよろしくっス!",
-    "english": "Come again!"
-  },
-  {
-    "resource": 1353,
-    "message": 183,
-    "japanese": "ねえ|^|_",
-    "english": "Hey..."
-  },
-  {
-    "resource": 1353,
-    "message": 202,
-    "japanese": "|いいもん|別に|",
-    "english": "Fine then, whatever."
-  },
-  {
-    "resource": 1353,
-    "message": 308,
-    "japanese": "ん~ポイント!",
-    "english": "Mm~ Point!"
-  },
-  {
-    "resource": 1353,
-    "message": 319,
-    "japanese": "抽選中{{{",
-    "english": "Drawing..."
-  },
-  {
-    "resource": 1353,
-    "message": 353,
-    "japanese": "意ピンピンっスよ!",
-    "english": "I am full of energy!"
-  },
-  {
-    "resource": 1353,
-    "message": 381,
-    "japanese": "^だいじょうぶ?",
-    "english": "Are you okay?"
-  },
-  {
-    "resource": 1353,
-    "message": 409,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1353,
-    "message": 411,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1353,
-    "message": 414,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1353,
-    "message": 425,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1353,
-    "message": 427,
-    "japanese": "まいどあり!",
-    "english": "Thanks!"
-  },
-  {
-    "resource": 1353,
-    "message": 430,
-    "japanese": "まだ何か毒かい?",
-    "english": "Need anything else?"
-  },
-  {
-    "resource": 1354,
-    "message": 77,
-    "japanese": "心待しているぞ_",
-    "english": "I look forward to it"
-  },
-  {
-    "resource": 1354,
-    "message": 102,
-    "japanese": "ふむ^危とな||_",
-    "english": "Hm, dangerous..."
-  },
-  {
-    "resource": 1354,
-    "message": 123,
-    "japanese": "臆のためか||_",
-    "english": "For the funds, then."
-  },
-  {
-    "resource": 1354,
-    "message": 203,
-    "japanese": "それを渡しておく_",
-    "english": "I'll hand that over."
-  },
-  {
-    "resource": 1354,
-    "message": 217,
-    "japanese": "箱い可をしている_",
-    "english": "He has nimble hands."
-  },
-  {
-    "resource": 1354,
-    "message": 226,
-    "japanese": "は気酷を見せた_",
-    "english": "He showed a stern look"
-  },
-  {
-    "resource": 1354,
-    "message": 262,
-    "japanese": "[シムゾンさん!]",
-    "english": "Simzon!"
-  },
-  {
-    "resource": 1356,
-    "message": 0,
-    "japanese": "ダミ}テキスト!",
-    "english": "Dummy text!"
-  },
-  {
-    "resource": 1357,
-    "message": 0,
-    "japanese": "ダミ}テキスト!",
-    "english": "Dummy text!"
-  },
-  {
-    "resource": 1196,
-    "message": 828,
-    "japanese": "どうぞ_",
-    "english": "Please."
-  },
-  {
-    "resource": 1196,
-    "message": 841,
-    "japanese": "どうぞ_",
-    "english": "Please."
-  },
-  {
-    "resource": 1199,
-    "message": 213,
-    "japanese": "クレタ",
-    "english": "Creta"
-  },
-  {
-    "resource": 1203,
-    "message": 535,
+    "msg_index": 535,
     "japanese": "じゃっ!",
     "english": "Right then!"
   },
   {
     "resource": 1203,
-    "message": 661,
+    "msg_index": 552,
+    "japanese": "|ありがとう_",
+    "english": "Thank you."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 580,
+    "japanese": "と彼銀った_",
+    "english": "he said."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 591,
+    "japanese": "そうですか!",
+    "english": "Is that so!"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 613,
+    "japanese": "できる|と_",
+    "english": "You can."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 614,
+    "japanese": "できない|と_",
+    "english": "You cannot."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 634,
+    "japanese": "ジル[待って!]",
+    "english": "Jill: [Wait!]"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 654,
+    "japanese": "よくぞ参られた_",
+    "english": "You have come well."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 658,
+    "japanese": "[最装だっ!]",
+    "english": "[It's the best!]"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 661,
     "japanese": "お見事!",
     "english": "Well done!"
   },
   {
     "resource": 1203,
-    "message": 739,
+    "msg_index": 684,
+    "japanese": "よくぞ参られた_",
+    "english": "You have come well."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 734,
+    "japanese": "でもほら^見てよ_",
+    "english": "But look here."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 739,
     "japanese": "インゴ!",
     "english": "Ingo!"
   },
   {
+    "resource": 1203,
+    "msg_index": 809,
+    "japanese": "[何をしておる]",
+    "english": "[What are you doing?]"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 861,
+    "japanese": "魔主が命たされた!",
+    "english": "The demon lord / was defeated!"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 881,
+    "japanese": "[イデッ!]",
+    "english": "[Ow!]"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 887,
+    "japanese": "どけ^キサマ!",
+    "english": "Move, you!"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 997,
+    "japanese": "さすがさん!",
+    "english": "That's just like you!"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1043,
+    "japanese": "知っているだろ?",
+    "english": "You know, right?"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1050,
+    "japanese": "||マ^マジかよ_",
+    "english": "N-no way..."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1093,
+    "japanese": "あっそうそう!",
+    "english": "Oh, right!"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1100,
+    "japanese": "マジ^むかついた!",
+    "english": "That really ticked / me off!"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1107,
+    "japanese": "そんじゃ^アバヨ!",
+    "english": "Well then, bye!"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1197,
+    "japanese": "[ひどいことを]",
+    "english": "[How cruel.]"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1215,
+    "japanese": "汝は知っていたか?",
+    "english": "Did you know?"
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1461,
+    "japanese": "ば^ばかな||_",
+    "english": "I-impossible..."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1530,
+    "japanese": "では住稼を戻る_",
+    "english": "Then return home."
+  },
+  {
+    "resource": 1203,
+    "msg_index": 1615,
+    "japanese": "そんじゃ^またね!",
+    "english": "Well then, see you!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 3,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 6,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 10,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 13,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 39,
+    "japanese": "大客に系が限んだ_",
+    "english": "A loud sound rang."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 96,
+    "japanese": "は / 誰を横に後った_",
+    "english": "Who will you bring?"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 135,
+    "japanese": "あ^どうも~_",
+    "english": "Ah, hello..."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 148,
+    "japanese": "|そうか|_",
+    "english": "I see..."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 394,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 426,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 433,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 545,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 549,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 558,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 569,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 603,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 631,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 668,
+    "japanese": "魔主が命たされた!",
+    "english": "The demon lord fell!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 674,
+    "japanese": "[待ちたまえ]",
+    "english": "Wait."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 789,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 791,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 794,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 805,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 807,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 810,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 896,
+    "japanese": "声は限んだ_",
+    "english": "The voice faded."
+  },
+  {
+    "resource": 1204,
+    "msg_index": 959,
+    "japanese": "[シムゾン!!]",
+    "english": "Simzon!!"
+  },
+  {
+    "resource": 1204,
+    "msg_index": 963,
+    "japanese": "[げ^義をめ|]",
+    "english": "G-get away..."
+  },
+  {
     "resource": 1205,
-    "message": 202,
+    "msg_index": 15,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 24,
+    "japanese": "んん? おやおや?",
+    "english": "Hm? Well now?"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 91,
+    "japanese": "||一瞬だったよ_",
+    "english": "Over in an instant."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 167,
+    "japanese": "マ^マジかヨ||_",
+    "english": "Y-you serious...?"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 176,
+    "japanese": "ではサラバ!",
+    "english": "Farewell!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 186,
+    "japanese": "ではサラバ!",
+    "english": "Farewell!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 193,
+    "japanese": "ああ^幸せ||_",
+    "english": "Ah, bliss..."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 202,
     "japanese": "まいど!",
     "english": "Welcome!"
   },
   {
     "resource": 1205,
-    "message": 205,
+    "msg_index": 205,
     "japanese": "まいど!",
     "english": "Welcome!"
   },
   {
     "resource": 1205,
-    "message": 208,
+    "msg_index": 208,
     "japanese": "まいど!",
     "english": "Welcome!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 214,
+    "japanese": "さっさと^カエレ!",
+    "english": "Get out already!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 215,
+    "japanese": "なんだい?",
+    "english": "What is it?"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 256,
+    "japanese": "わかったであろう_",
+    "english": "Now you understand."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 341,
+    "japanese": "お願い^容けて~!",
+    "english": "Please, help me!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 390,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 422,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 429,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 541,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 545,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 554,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 565,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 599,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 627,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 664,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 666,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 669,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 680,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 682,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 685,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 756,
+    "japanese": "女が叫んでいる_",
+    "english": "A woman is screaming"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 769,
+    "japanese": "ぁ|ぅ|ぅん|_",
+    "english": "Ah... ugh..."
+  },
+  {
+    "resource": 1205,
+    "msg_index": 807,
+    "japanese": "やっと帰た}}}!",
+    "english": "Finally back!"
+  },
+  {
+    "resource": 1205,
+    "msg_index": 868,
+    "japanese": "女の声が聞こえる_",
+    "english": "A woman's voice echoes"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 3,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 14,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 25,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 46,
+    "japanese": "いや^待てよ||_",
+    "english": "No, wait..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 302,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 334,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 341,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 453,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 457,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 466,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 477,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 511,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 539,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 557,
+    "japanese": "囲を泉[0x067F]につけた_",
+    "english": "Placed the ring / in the spring."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 575,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 577,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 580,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 591,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 593,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 596,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 675,
+    "japanese": "お願い^容けて~!",
+    "english": "Please, help me!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 693,
+    "japanese": "リュ}トです!!",
+    "english": "I am Ryut!!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 694,
+    "japanese": "エミ}リアよ!!",
+    "english": "I am Emilia!!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 696,
+    "japanese": "そうよ^そうよ!",
+    "english": "Yes, that is right!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 911,
+    "japanese": "まさかな|_",
+    "english": "No way..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 7,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 10,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 13,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 16,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 20,
+    "japanese": "スイッチを[0x01D7]した_",
+    "english": "Pressed the switch."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 74,
+    "japanese": "[|退大でしたな]",
+    "english": "Most unfortunate."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 152,
+    "japanese": "[すごいわね||]",
+    "english": "Impressive..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 197,
+    "japanese": "[余は|余は||]",
+    "english": "I... I..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 210,
+    "japanese": "|あ^あんた過よ?",
+    "english": "Oh, it is you?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 275,
+    "japanese": "言わば者部生物だ_",
+    "english": "In other words, / an artificial being."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 281,
+    "japanese": "だが^辺理だな_",
+    "english": "But that makes sense"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 332,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 364,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 371,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 483,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 487,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 496,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 507,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 541,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 569,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 589,
+    "japanese": "ふむう|_",
+    "english": "Hmm..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 615,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 617,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 620,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 631,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 633,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 636,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 795,
+    "japanese": "[おや?]",
+    "english": "Hm?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 798,
+    "japanese": "[なにぃ!?]",
+    "english": "What?!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 800,
+    "japanese": "ウッヒッヒッヒ_",
+    "english": "U-heh-heh-heh."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 801,
+    "japanese": "グッシッシッシ_",
+    "english": "Gu-shi-shi-shi."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 804,
+    "japanese": "イエス^サ}!",
+    "english": "Yes, sir!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 805,
+    "japanese": "ち^ちくしょう|",
+    "english": "D-damn it..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 835,
+    "japanese": "[待て^アオイ]",
+    "english": "Wait, Aoi."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 859,
+    "japanese": "[待て^アオイ!]",
+    "english": "Wait, Aoi!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 870,
+    "japanese": "[過だ?!]",
+    "english": "Who is there?!"
   },
   {
     "resource": 1208,
-    "message": 454,
+    "msg_index": 15,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 25,
+    "japanese": "[やめなさい!]",
+    "english": "Stop!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 32,
+    "japanese": "お[0x01E4]し忍さい_",
+    "english": "Be quiet."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 58,
+    "japanese": "||崩ったものだ_",
+    "english": "It is broken."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 87,
+    "japanese": "[議段だなあ|]",
+    "english": "Incredible..."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 89,
+    "japanese": "あ^いたの_",
+    "english": "Oh, there you are."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 91,
+    "japanese": "|で^何か毒?",
+    "english": "So, need something?"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 102,
+    "japanese": "じゃあ^よろしく_",
+    "english": "I'm counting on you."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 193,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 225,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 232,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 344,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 348,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 357,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 368,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 402,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 430,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 454,
     "japanese": "死者が[0x054C]った!",
     "english": "The dead arise!"
   },
   {
+    "resource": 1208,
+    "msg_index": 460,
+    "japanese": "[待ちたまえ]",
+    "english": "Wait."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 639,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 641,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 644,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 655,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 657,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 660,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1208,
+    "msg_index": 837,
+    "japanese": "[待て^アオイ]",
+    "english": "Wait, Aoi."
+  },
+  {
+    "resource": 1208,
+    "msg_index": 860,
+    "japanese": "[待て^アオイ!]",
+    "english": "Wait, Aoi!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 3,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 6,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 9,
+    "japanese": "[しぃっ|!]",
+    "english": "Shh!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 56,
+    "japanese": "ちょっと_",
+    "english": "Wait."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 80,
+    "japanese": "この余を見たまえ_",
+    "english": "Look at me."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 97,
+    "japanese": "おかしなものだよ_",
+    "english": "How strange."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 127,
+    "japanese": "[王女表!!]",
+    "english": "Princess!!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 143,
+    "japanese": "うそばかり!",
+    "english": "Lies!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 204,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 236,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 243,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 355,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 359,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 368,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 379,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 413,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 446,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 471,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 473,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 476,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 487,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 489,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 492,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1209,
+    "msg_index": 586,
+    "japanese": "[頼をつけて||]",
+    "english": "Be careful..."
+  },
+  {
+    "resource": 1209,
+    "msg_index": 589,
+    "japanese": "あなたは感じない?",
+    "english": "Do you not feel it?"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 4,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 7,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 10,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 11,
+    "japanese": "イムプ[ぎゃっ!]",
+    "english": "Imp: Gah!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 77,
+    "japanese": "マジかよ|_",
+    "english": "Seriously...?"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 84,
+    "japanese": "じゃあなっ!",
+    "english": "See ya!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 153,
+    "japanese": "そして余は||^",
+    "english": "And then I..."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 175,
+    "japanese": "ほんと^蓄送い与_",
+    "english": "What a nuisance."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 243,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 275,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 282,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 394,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 398,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 407,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 418,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 452,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 480,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 510,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 512,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 515,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 526,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 528,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 531,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 613,
+    "japanese": "話げ^話ぐのじゃ!",
+    "english": "Speak! Tell me!"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 624,
+    "japanese": "何表^頼は探かか?",
+    "english": "What? Found something"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 634,
+    "japanese": "損? 損とな?",
+    "english": "A loss? What loss?"
+  },
+  {
+    "resource": 1210,
+    "msg_index": 653,
+    "japanese": "[あら^退大||]",
+    "english": "Oh, too bad..."
+  },
+  {
+    "resource": 1210,
+    "msg_index": 717,
+    "japanese": "[ピィッ!!]",
+    "english": "Pii!!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 25,
+    "japanese": "[遅かったか||]",
+    "english": "Too late..."
+  },
+  {
+    "resource": 1211,
+    "msg_index": 88,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 120,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 127,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1211,
+    "msg_index": 239,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1211,
+    "msg_index": 243,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1211,
+    "msg_index": 252,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 263,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1211,
+    "msg_index": 297,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 332,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 350,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1211,
+    "msg_index": 437,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 439,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 442,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 453,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 455,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 458,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1211,
+    "msg_index": 553,
+    "japanese": "そうじゃなくて?",
+    "english": "That is not it?"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 4,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1212,
+    "msg_index": 15,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1212,
+    "msg_index": 50,
+    "japanese": "ねえ^だめかな}?",
+    "english": "Hey, is that no good"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 145,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 177,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 184,
+    "japanese": "ねえ||_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1212,
+    "msg_index": 296,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1212,
+    "msg_index": 300,
+    "japanese": "じゃあ|_",
+    "english": "Well then..."
+  },
+  {
+    "resource": 1212,
+    "msg_index": 309,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 320,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1212,
+    "msg_index": 354,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 382,
+    "japanese": "だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 409,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 411,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 414,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 425,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 427,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 430,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1212,
+    "msg_index": 717,
+    "japanese": "じゃあな^あばよ!",
+    "english": "See ya, bye!"
+  },
+  {
     "resource": 1353,
-    "message": 295,
+    "msg_index": 4,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1353,
+    "msg_index": 15,
+    "japanese": "レバ}を功かした_",
+    "english": "Operated the lever."
+  },
+  {
+    "resource": 1353,
+    "msg_index": 50,
+    "japanese": "ねえ^だめかな}?",
+    "english": "Hey, is that no good"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 101,
+    "japanese": "頼いを[0x0565]げるため|",
+    "english": "To grant the wish..."
+  },
+  {
+    "resource": 1353,
+    "msg_index": 145,
+    "japanese": "え}^ゴホン!",
+    "english": "Ahem!"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 177,
+    "japanese": "またよろしくっス!",
+    "english": "Come again!"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 183,
+    "japanese": "ねえ|^|_",
+    "english": "Hey..."
+  },
+  {
+    "resource": 1353,
+    "msg_index": 202,
+    "japanese": "|いいもん|別に|",
+    "english": "Fine then, whatever."
+  },
+  {
+    "resource": 1353,
+    "msg_index": 295,
     "japanese": "じゃあ|",
     "english": "Well then,"
   },
   {
     "resource": 1353,
-    "message": 299,
+    "msg_index": 299,
     "japanese": "じゃあ|",
     "english": "Well then,"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 308,
+    "japanese": "ん~ポイント!",
+    "english": "Mm~ Point!"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 319,
+    "japanese": "抽選中{{{",
+    "english": "Drawing..."
+  },
+  {
+    "resource": 1353,
+    "msg_index": 353,
+    "japanese": "意ピンピンっスよ!",
+    "english": "I am full of energy!"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 381,
+    "japanese": "^だいじょうぶ?",
+    "english": "Are you okay?"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 409,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 411,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 414,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 425,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 427,
+    "japanese": "まいどあり!",
+    "english": "Thanks!"
+  },
+  {
+    "resource": 1353,
+    "msg_index": 430,
+    "japanese": "まだ何か毒かい?",
+    "english": "Need anything else?"
+  },
+  {
+    "resource": 1354,
+    "msg_index": 77,
+    "japanese": "心待しているぞ_",
+    "english": "I look forward to it"
+  },
+  {
+    "resource": 1354,
+    "msg_index": 102,
+    "japanese": "ふむ^危とな||_",
+    "english": "Hm, dangerous..."
+  },
+  {
+    "resource": 1354,
+    "msg_index": 123,
+    "japanese": "臆のためか||_",
+    "english": "For the funds, then."
+  },
+  {
+    "resource": 1354,
+    "msg_index": 203,
+    "japanese": "それを渡しておく_",
+    "english": "I'll hand that over."
+  },
+  {
+    "resource": 1354,
+    "msg_index": 217,
+    "japanese": "闘い可をしている_",
+    "english": "He has nimble hands."
+  },
+  {
+    "resource": 1354,
+    "msg_index": 226,
+    "japanese": "は / 気酷を見せた_",
+    "english": "He showed a stern look"
+  },
+  {
+    "resource": 1356,
+    "msg_index": 0,
+    "japanese": "ダミ}テキスト!",
+    "english": "Dummy text!"
+  },
+  {
+    "resource": 1357,
+    "msg_index": 0,
+    "japanese": "ダミ}テキスト!",
+    "english": "Dummy text!"
   }
 ]

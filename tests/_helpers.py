@@ -488,11 +488,31 @@ def start_correctness_issues(pristine_bytes, patched_bytes, name):
             # Mid-group (name-island) start: must stay strictly inside the SAME
             # new group and point at real content, never a terminator.
             if not (ngs <= new_off < nge):
-                issues.append(
-                    "%s: 0x04 S1+0x%X: pristine mid-group start rel=%d (group "
-                    "%d) but patched start=%d outside new group [%d,%d)"
-                    % (name, pc, rel, gi, new_off, ngs, nge)
-                )
+                # CONTENT-EQUIVALENCE ESCAPE (v161): a relocation is legitimate
+                # iff the patched span displays BYTE-IDENTICAL words to what the
+                # pristine span displayed — the exact same thing reaches the
+                # screen, just stored elsewhere.  Concrete case:
+                # patch_r1194_narration.fix_r1193_short_prologue re-points
+                # R1193's short-prologue 0x04 (S1+0x5BF) from a key-wait span
+                # duplicated inside group 0 to group 1's identical key-wait
+                # span (group 0 was rebuilt as English islands and no longer
+                # contains the duplicate).  Any relocation showing DIFFERENT
+                # content still fails hard.
+                p_span = tuple(p_words[off:off + pr["cnt"]])
+                n_span = tuple(n_words[new_off:new_off + nr["cnt"]])
+                if p_span and p_span == n_span:
+                    print(
+                        "  [start-note] %s: 0x04 S1+0x%X: mid-group start "
+                        "relocated %d->%d but displays pristine-identical "
+                        "content (%d words) -- content-equivalent, allowed"
+                        % (name, pc, off, new_off, len(p_span))
+                    )
+                else:
+                    issues.append(
+                        "%s: 0x04 S1+0x%X: pristine mid-group start rel=%d (group "
+                        "%d) but patched start=%d outside new group [%d,%d)"
+                        % (name, pc, rel, gi, new_off, ngs, nge)
+                    )
             elif new_off >= n_n or n_words[new_off] in _NON_CONTENT_STARTS:
                 # A mid-group start landing on a line/page-break (0xFFFE/0xFFD2)
                 # is a non-fatal WARNING, not a hard failure: the engine

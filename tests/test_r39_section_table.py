@@ -102,20 +102,23 @@ def test_frozen_records_byte_identical():
         "R39 section-table records 0..1 differ from pristine -- request-menu "
         "freeze root (chooser prefix corrupted)"
     )
-    # Sanity: record 2 (spell-description block) is the one that grows; recs 3..5 shift
-    # forward by exactly that delta (data is verbatim at the shifted offset).
+    # Sanity (v161): records 2..5 are ALL legitimately rebuilt now -- rec2 by
+    # patch_r39_spell_desc (Step 3.3) and recs 3/4/5 (AA names/descriptions/UI)
+    # by patch_r39_aa (Step 3.4). Each may GROW (never shrink), and every
+    # record's offset must be forward-shifted by exactly the CUMULATIVE growth
+    # of the rebuilt blocks before it -- an un-remapped grow (the documented
+    # request-menu-freeze class) still fails.
     bd_recs = _records(bd)
     pd_recs = _records(pd)
-    delta = bd_recs[2][1] - pd_recs[2][1]   # rec2 size growth (>= 0)
-    assert delta >= 0, "rec2 (spell descriptions) shrank unexpectedly"
-    for i in range(3, FROZEN_RECORDS_EXTENDED):
-        # size unchanged, offset forward by the rec2 growth delta
-        assert bd_recs[i][1] == pd_recs[i][1], (
-            "rec%d size changed -- spell-desc remap altered a non-spell block" % i
+    cum_delta = 0
+    for i in range(2, FROZEN_RECORDS_EXTENDED):
+        assert bd_recs[i][2] == pd_recs[i][2] + cum_delta, (
+            "rec%d offset not forward-shifted by the cumulative growth (%d) of "
+            "the rebuilt blocks before it -- bad remap (freeze class)" % (i, cum_delta)
         )
-        assert bd_recs[i][2] == pd_recs[i][2] + delta, (
-            "rec%d offset not forward-shifted by the rec2 growth -- bad spell-desc remap" % i
-        )
+        grow = bd_recs[i][1] - pd_recs[i][1]
+        assert grow >= 0, "rec%d shrank unexpectedly (%d bytes)" % (i, grow)
+        cum_delta += grow
 
 
 def test_records_in_bounds():
