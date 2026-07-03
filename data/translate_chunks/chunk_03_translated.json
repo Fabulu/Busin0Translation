@@ -3,7 +3,7 @@
     "resource": 38,
     "message": 131,
     "japanese": "騎士を気有させることができる武器、鎧を装備できます。 / lｖ５までの騎事務騎法を習下可能。 / ",
-    "english": "Knight gear usable. / Learns Sorcery / up to Lv5. /"
+    "english": "Equips gear that / stuns monsters. / Sorcery up to Lv5. /"
   },
   {
     "resource": 38,
@@ -45,19 +45,19 @@
     "resource": 38,
     "message": 138,
     "japanese": "使われている装備の、その使いの消呪を / 打ち除すことができます。 / lｖ６までの騎事務騎法を習下可能。 / ",
-    "english": "Removes curses from / equipped items. / Sorcery Lv6. /"
+    "english": "Can wield cursed / gear, negating its / curse. Sorcery Lv6. /"
   },
   {
     "resource": 38,
     "message": 139,
     "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / さらにダークゾーンを見るなどの能力も備えています。 / lｖ５までの騎事務騎法を習下可能。 / ",
-    "english": "Great EXP & insta- / kill. Sees in fog. / Sorcery Lv5. /"
+    "english": "Vital-spot instant / kills. Sees in dark / zones. Sorcery Lv5. /"
   },
   {
     "resource": 38,
     "message": 140,
     "japanese": "唱手武器と防の同受装備や、同じ獲得系属の武器両種を / 同受に装備できる両鎧進の能力を持っています。 / lｖ６までの騎事務騎法を習下可能。 / ",
-    "english": "Dual wields same / weapon type. Learns / Sorcery Lv6. /"
+    "english": "Wields 2H weapon / with shield or dual / wields. Sorcery Lv6. /"
   },
   {
     "resource": 38,

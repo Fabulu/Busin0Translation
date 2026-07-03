@@ -15,7 +15,7 @@
     "resource": 38,
     "message": 14,
     "japanese": "果性 / ",
-    "english": "Gender / "
+    "english": "Personality / "
   },
   {
     "resource": 38,
@@ -123,13 +123,13 @@
     "resource": 38,
     "message": 34,
     "japanese": "オートマター / ",
-    "english": "Automa / "
+    "english": "Automata / "
   },
   {
     "resource": 38,
     "message": 37,
     "japanese": "戦士 / ",
-    "english": "Fight / "
+    "english": "Fighter / "
   },
   {
     "resource": 38,
@@ -165,13 +165,13 @@
     "resource": 38,
     "message": 44,
     "japanese": "兵士 / ",
-    "english": "Samurai / "
+    "english": "Knight / "
   },
   {
     "resource": 38,
     "message": 45,
     "japanese": "冒金事務 / ",
-    "english": "Alchem / "
+    "english": "Alchemist / "
   },
   {
     "resource": 38,
@@ -195,25 +195,25 @@
     "resource": 38,
     "message": 49,
     "japanese": "暗兵士 / ",
-    "english": "DrkKnt / "
+    "english": "Dark Knight / "
   },
   {
     "resource": 38,
     "message": 50,
     "japanese": "将後 / ",
-    "english": "Shogun / "
+    "english": "Onmitsu / "
   },
   {
     "resource": 38,
     "message": 51,
     "japanese": "教授 / ",
-    "english": "Knight / "
+    "english": "Shogun / "
   },
   {
     "resource": 38,
     "message": 52,
     "japanese": "美盗 / ",
-    "english": "HiThif / "
+    "english": "High Thief / "
   },
   {
     "resource": 38,
@@ -237,13 +237,13 @@
     "resource": 38,
     "message": 57,
     "japanese": "社交的 / ",
-    "english": "Social / "
+    "english": "Sociable / "
   },
   {
     "resource": 38,
     "message": 58,
     "japanese": "収集家 / ",
-    "english": "Collct / "
+    "english": "Collector / "
   },
   {
     "resource": 38,
@@ -255,7 +255,7 @@
     "resource": 38,
     "message": 60,
     "japanese": "与蓄家 / ",
-    "english": "Nature / "
+    "english": "Studious / "
   },
   {
     "resource": 38,
@@ -267,25 +267,25 @@
     "resource": 38,
     "message": 62,
     "japanese": "好戦的 / ",
-    "english": "Aggro / "
+    "english": "Belligerent / "
   },
   {
     "resource": 38,
     "message": 63,
     "japanese": "冒険家 / ",
-    "english": "Advent / "
+    "english": "Adventurous / "
   },
   {
     "resource": 38,
     "message": 64,
     "japanese": "迷信家 / ",
-    "english": "Sensit / "
+    "english": "Sensitive / "
   },
   {
     "resource": 38,
     "message": 65,
     "japanese": "勤勉務 / ",
-    "english": "Traper / "
+    "english": "Trapper / "
   },
   {
     "resource": 38,
@@ -297,7 +297,7 @@
     "resource": 38,
     "message": 67,
     "japanese": "エコロジスト / ",
-    "english": "Ecolog / "
+    "english": "Ecologist / "
   },
   {
     "resource": 38,
@@ -309,7 +309,7 @@
     "resource": 38,
     "message": 69,
     "japanese": "重腕漢 / ",
-    "english": "Fervor / "
+    "english": "Hot-Blooded / "
   },
   {
     "resource": 38,
@@ -327,13 +327,13 @@
     "resource": 38,
     "message": 72,
     "japanese": "協力的 / ",
-    "english": "Helper / "
+    "english": "Cooperative / "
   },
   {
     "resource": 38,
     "message": 73,
     "japanese": "友愛 / ",
-    "english": "Peace / "
+    "english": "Fraternal / "
   },
   {
     "resource": 38,
@@ -345,19 +345,19 @@
     "resource": 38,
     "message": 75,
     "japanese": "エコノミスト / ",
-    "english": "Econom / "
+    "english": "Economist / "
   },
   {
     "resource": 38,
     "message": 76,
     "japanese": "好色 / ",
-    "english": "Lusty / "
+    "english": "Lustful / "
   },
   {
     "resource": 38,
     "message": 77,
     "japanese": "ナルシスト / ",
-    "english": "Narcis / "
+    "english": "Narcissist / "
   },
   {
     "resource": 38,
@@ -369,7 +369,7 @@
     "resource": 38,
     "message": 79,
     "japanese": "自己的 / ",
-    "english": "Sadist / "
+    "english": "Masochist / "
   },
   {
     "resource": 38,
@@ -387,7 +387,7 @@
     "resource": 38,
     "message": 82,
     "japanese": "除味家 / ",
-    "english": "Frugal / "
+    "english": "Wasteful / "
   },
   {
     "resource": 38,
@@ -525,7 +525,7 @@
     "resource": 38,
     "message": 105,
     "japanese": "騎士をかたっぱしから殺すのが生きがい。 / 逃げるなどといった除卑的な行動を嫌う。 / ",
-    "english": "Lives to slay all. / Hates cowardly flee. / "
+    "english": "Lives to slay all. / Scorns fleeing. / "
   },
   {
     "resource": 38,
@@ -555,7 +555,7 @@
     "resource": 38,
     "message": 110,
     "japanese": "取果に解い関心を持っている。 / 同果ばかりのパーティに御用がない。 / ",
-    "english": "Keen on other sex. / Bored by same-sex. / "
+    "english": "Keen on opposite / sex. Bored by own. / "
   },
   {
     "resource": 38,
@@ -573,7 +573,7 @@
     "resource": 38,
     "message": 113,
     "japanese": "自分が苦しい立場であればあるほど振ぶ。 / 体の取通ををされるのはかえってつらい。 / ",
-    "english": "Thrives in hardship. / Healing feels worse. / "
+    "english": "Thrives in hardship. / Hates being healed. / "
   },
   {
     "resource": 38,
@@ -609,7 +609,7 @@
     "resource": 38,
     "message": 119,
     "japanese": "種族はその者の隊長の基本となります。 / エルフ族は知力と生命力に優れ、力は探いですが、 / 騎法の扱いでは■に出る者はいないと言われています。 / ",
-    "english": "Elf: High INT & VIT / but frail. Best / at magic. /"
+    "english": "Elf: High INT & VIT / but low STR. Best / at magic. /"
   },
   {
     "resource": 38,
@@ -633,7 +633,7 @@
     "resource": 38,
     "message": 123,
     "japanese": "正義を重んじる善は、その正義に違した行動によっては / 悪へと変わってしまうこともあります。 / 可能職業：戦・騎・神・侍・義・集・兵・冒・モ / ",
-    "english": "Good=justice. May / turn Evil. FIG MAG / PRI SAM GIZ BIS+ /"
+    "english": "Good may turn Evil. / FIG MAG PRI SAM GIZ / BIS KNI ALC MON /"
   },
   {
     "resource": 38,
@@ -675,6 +675,6 @@
     "resource": 38,
     "message": 130,
     "japanese": "経所獲得に長けており、一得で依とめる能力を持ちます。 / lｖ２までの騎事務騎法を習下可能。 / ",
-    "english": "Great EXP gain. Can / instant-kill foes. / Sorcery up to Lv2. /"
+    "english": "Strikes vital spots / for instant kills. / Sorcery up to Lv2. /"
   }
 ]
