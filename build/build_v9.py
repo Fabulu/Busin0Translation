@@ -989,6 +989,7 @@ for script in [
     'tools/patch_r2654_names.py',  # romanize party-bar roster names (AFTER inject_r34_db, reads its R2654 output)
     'tools/patch_r2654_library.py',  # v163: variable-length LIBRARY name subs (monster/spell/AA names; AFTER the two above -- composes on their R2654 output)
     'tools/patch_r1892_names.py',  # romanize the REAL party-bar name source R1892 (LE roster; R2654 is off the bar's path)
+    'tools/patch_r2655_library_strips.py',  # v165: library banner/tab/footer pixel strips (independent of R2654 order)
 ]:
     rc = os.system(f'python {script}')
     if rc != 0:

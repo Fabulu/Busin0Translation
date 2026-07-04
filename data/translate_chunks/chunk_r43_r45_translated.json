@@ -486,15 +486,15 @@
     "resource": 45,
     "message": 1,
     "japanese": "ヴィガーしょうてんに / ようこそ    / ",
-    "english": "Welcome to / Vigor's shop! /   / ",
-    "notes": "Vigor shop greeting"
+    "english": "Welcome to / Vigger's shop! /   / ",
+    "notes": "Vigger shop greeting"
   },
   {
     "resource": 45,
     "message": 2,
     "japanese": "ほれ  / バリバリはたらくだよ  /   / ",
     "english": "C'mon! / Let's get to work! /   / ",
-    "notes": "Vigor motivational greeting"
+    "notes": "Vigger motivational greeting"
   },
   {
     "resource": 45,
@@ -515,7 +515,7 @@
     "message": 5,
     "japanese": "そうこは / オダがバッチリ / そうこばんしてるだよ～ / ",
     "english": "The warehouse / is under my / watchful eye! / ",
-    "notes": "Warehouse/storage management. オダ = Oda (Vigor's assistant)"
+    "notes": "Warehouse/storage management. オダ = Oda (Vigger's assistant)"
   },
   {
     "resource": 45,
@@ -535,7 +535,7 @@
     "resource": 45,
     "message": 8,
     "japanese": "ヴィガー商店の / カンリもしてくでよ  /   / ",
-    "english": "I manage Vigor's / shop too! /   / ",
+    "english": "I manage Vigger's / shop too! /   / ",
     "notes": "Shop management"
   },
   {
@@ -605,14 +605,14 @@
     "resource": 45,
     "message": 18,
     "japanese": "わがヴィガーしょうてんの / けいえいじょうたいを / おしえてやるだよ  / ",
-    "english": "Let me show you / how Vigor's shop / is doing! / ",
+    "english": "Let me show you / how Vigger's shop / is doing! / ",
     "notes": "Shop status display"
   },
   {
     "resource": 45,
     "message": 19,
     "japanese": "われらがヴィガー商店を / ステキに地装するか？  / ",
-    "english": "Shall we renovate / Vigor's shop? /   / ",
+    "english": "Shall we renovate / Vigger's shop? /   / ",
     "notes": "Shop renovation prompt"
   },
   {
@@ -829,7 +829,7 @@
     "resource": 45,
     "message": 50,
     "japanese": "われらがヴィガー商店を / く宝に地装するか？ /   / ",
-    "english": "Renovate Vigor's / shop with gems? /   / ",
+    "english": "Renovate Vigger's / shop with gems? /   / ",
     "notes": "Renovation with treasure"
   },
   {
@@ -843,7 +843,7 @@
     "resource": 45,
     "message": 52,
     "japanese": "われらがヴィガー商店の / 支店を造るか  / そっかそっかー  / ",
-    "english": "Build a branch / of Vigor's shop? / Alright! / ",
+    "english": "Build a branch / of Vigger's shop? / Alright! / ",
     "notes": "Branch store creation"
   },
   {

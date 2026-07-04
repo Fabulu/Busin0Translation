@@ -232,7 +232,7 @@
   "8": "Feeble",
   "9": "Shulard",
   "10": "Spleem",
-  "11": "Sarome",
+  "11": "Salome",
   "12": "Escape",
   "13": "Zakreta",
   "14": "Zakuld",
@@ -371,7 +371,9 @@
   "87": "Items",
   "88": "Magic Stones",
   "89": "Materials",
-  "90": "Key Items"
+  "90": "Key Items",
+  "2": "Mutation Limit",
+  "50": "Step Counter"
  },
  "42": {
   "2": "Type",
@@ -454,7 +456,14 @@
   "89": "Thief",
   "90": "Boss",
   "103": "Null",
-  "104": "Effective"
+  "104": "Effective",
+  "47": "Piping",
+  "48": "Death's Call",
+  "51": "Spits Thread",
+  "55": "Black Breath",
+  "58": "Eats Allies",
+  "65": "Tornado",
+  "91": "Halls of Tebaid"
  },
  "2": {
   "1": "Introduction",
@@ -542,7 +551,7 @@
   "7": " Alchemy Guild",
   "8": " Adventurer's Inn",
   "9": " Salem Temple",
-  "10": " Vigor General Store",
+  "10": " Vigger General Store",
   "11": " Fountain Square",
   "12": " Polora District",
   "13": " Vallee District",
@@ -612,7 +621,7 @@
   "1": "Alleid",
   "2": "Alleid Stone",
   "3": "Rescue Squad",
-  "4": "Vigor Friends",
+  "4": "Vigger Friends",
   "5": "The Writhing Ones",
   "6": "Automata",
   "7": "Talent Reading",
@@ -637,7 +646,8 @@
   "27": "Demons of San-Lazare",
   "28": "Karman's Labyrinth",
   "29": "Halls of Tebaid",
-  "30": "Happy Orc"
+  "30": "Happy Orc",
+  "23": "Duhan Prison"
  },
  "30": {
   "1": "About This Paper",

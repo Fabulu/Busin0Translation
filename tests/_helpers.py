@@ -48,10 +48,14 @@ N_RESOURCES = 2883  # PACKDATA.DIG TOC entry count
 
 # Tracked PACKDATA overflow budget (sectors). The rebuilt PACKDATA.DIG overflows
 # past its original end into BSN2_0.DSI; build_v9.py Step 8.2 self-heals by
-# name-path relocation. As of v118 the overflow is ~198 sectors -- 256 gives a
-# margin. test_packdata_overflow asserts the shift stays <= this budget; if a
-# future change blows past it, investigate before bumping (PACKDATA is growing).
-PACKDATA_OVERFLOW_BUDGET_SECTORS = 256
+# name-path relocation (dynamic shift, ISO extended, PVD updated; relocated
+# files MD5-gated by verify_iso). History: ~198 sectors at v118, 237 at v160,
+# 258 at v165 -- the v163-v165 LIBRARY waves legitimately grew R2654 from 90 to
+# 113 sectors (+~1000 translated strings) plus hub-batch growth. Investigated
+# and bumped 256 -> 320 on 2026-07-04 (v165): the relocation machinery is
+# uncapped and gated; this budget exists purely as a growth tripwire. If it
+# trips again, account for the delta before bumping.
+PACKDATA_OVERFLOW_BUDGET_SECTORS = 320
 
 if TOOLS_DIR not in sys.path:
     sys.path.insert(0, TOOLS_DIR)
