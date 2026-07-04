@@ -18,6 +18,7 @@ tempfile directories.
 """
 
 import json
+import glob
 import os
 import struct
 import sys
@@ -122,9 +123,20 @@ def require_dir(path, why):
 
 
 def default_iso_path():
-    return os.environ.get(
-        "BUSIN_ISO", os.path.join(ROOT, "build", "BUSIN0_EN_v85.iso")
-    )
+    """BUSIN_ISO env override, else the NEWEST build/BUSIN0_EN_v*.iso.
+
+    v163 fix (audit C2): this used to default to the long-deleted v85 ISO,
+    which silently disabled the ENTIRE ISO test tier for ~70 builds (all the
+    R1188-pristine / binary-VIF / audio-overflow gates showed as 'skipped' in
+    every green run). Newest-mtime glob mirrors test_line_width._newest_iso.
+    """
+    env = os.environ.get("BUSIN_ISO")
+    if env:
+        return env
+    cands = glob.glob(os.path.join(ROOT, "build", "BUSIN0_EN_v*.iso"))
+    if cands:
+        return max(cands, key=os.path.getmtime)
+    return os.path.join(ROOT, "build", "BUSIN0_EN_v85.iso")  # legacy fallback (absent -> Skip)
 
 
 # ===========================================================================

@@ -13,7 +13,10 @@ print("=" * 60)
 
 # ===== STEP 1: Run v2 pipeline for type-1 resources =====
 print("\n=== Step 1: Type-1 injection (v2 pipeline) ===")
-os.system('python build/build_full_english_v2.py')
+rc = os.system('python build/build_full_english_v2.py')
+if rc != 0:
+    print('FATAL: Step 1 (build_full_english_v2.py) failed -- stale packdata_resources would ship')
+    sys.exit(1)
 print("  v2 pipeline complete")
 
 # Remove unsafe type-03/06 resources that v2 pipeline incorrectly patches
@@ -249,7 +252,10 @@ print("  R39 AA text injected")
 
 # ===== STEP 3.5: R46/R47 type-03 injection =====
 print("\n=== Step 3.5: R46/R47 type-03 injection ===")
-os.system('python build/inject_r46_r47.py')
+rc = os.system('python build/inject_r46_r47.py')
+if rc != 0:
+    print('FATAL: Step 3.5 (inject_r46_r47.py) failed')
+    sys.exit(1)
 print("  R46/R47 injected")
 
 # ===== STEP 3.6/3.7: R1188 patches DISABLED (BUG-3) =====
@@ -275,11 +281,17 @@ else:
 
 # ===== STEP 3.8: R2100 chargen font atlas patch =====
 print("\n=== Step 3.8: R2100 chargen font atlas ===")
-os.system('python tools/patch_r2100.py')
+rc = os.system('python tools/patch_r2100.py')
+if rc != 0:
+    print('FATAL: Step 3.8 (patch_r2100.py) failed')
+    sys.exit(1)
 
 # ===== STEP 3.9: R2138 unified patcher (all sub-resources) =====
 print("\n=== Step 3.9: R2138 unified patcher (sub0/4/6/7/25/26/27) ===")
-os.system('python tools/patch_r2138.py')
+rc = os.system('python tools/patch_r2138.py')
+if rc != 0:
+    print('FATAL: Step 3.9 (patch_r2138.py) failed')
+    sys.exit(1)
 
 # ===== STEP 4: Variable-size type-2 injection + Section 1 patching =====
 print("\n=== Step 4: Variable-size type-2 + Section 1 patching ===")
@@ -993,7 +1005,10 @@ if os.path.exists('build/R39_PRISTINE.flag'):
 
 # ===== STEP 7: Rebuild PACKDATA =====
 print("\n=== Step 7: Rebuild PACKDATA.DIG ===")
-os.system('python build/rebuild_packdata.py')
+rc = os.system('python build/rebuild_packdata.py')
+if rc != 0:
+    print('FATAL: Step 7 (rebuild_packdata.py) failed -- a truncated PACKDATA.DIG must never ship')
+    sys.exit(1)
 
 # ===== STEP 8: Build ISO =====
 print("\n=== Step 8: Build ISO ===")
@@ -1163,7 +1178,10 @@ with open('build/BUSIN0_EN_v9.iso', 'r+b') as iso:
 
 # ===== STEP 8.4: Patch EXE =====
 print("\n=== Step 8.4: Patch EXE ===")
-os.system('python build/patch_exe.py')
+rc = os.system('python build/patch_exe.py')
+if rc != 0:
+    print('FATAL: Step 8.4 (patch_exe.py) failed -- refusing to embed a stale/unpatched EXE')
+    sys.exit(1)
 
 # ===== STEP 8.5: Patch EXE into ISO =====
 print("\n=== Step 8.5: Patch EXE ===")

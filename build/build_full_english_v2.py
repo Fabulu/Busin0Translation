@@ -804,10 +804,26 @@ elif fs > orig_size:
 # STEP 6 -- Build ISO via direct binary replacement
 # ---------------------------------------------------------------------------
 print()
+# v163 (audit finding A5): this standalone ISO has NO Step-8.2 overflow
+# relocation -- PACKDATA overruns BSN2_0.DSI (audio) in it. It exists only for
+# quick pipeline debugging and is a ship-the-wrong-file trap (it also wastes a
+# 1.2 GB copy per build). Skipped unless explicitly requested; the REAL ISO is
+# built by build_v9.py Step 8 with relocation + gates.
+if os.environ.get('BUILD_STANDALONE_ISO') != '1':
+    print('STEP 6: standalone ISO build SKIPPED (set BUILD_STANDALONE_ISO=1 to force;')
+    print('        build/BUSIN0_EN.iso is NOT relocation-safe and must never ship)')
+    print()
+    print('=' * 60)
+    print(f'  BUILD COMPLETE (packdata resources + PACKDATA.DIG only)')
+    print(f'  {total_encoded} messages encoded across {len(encoded_by_res)} resources')
+    print(f'  {modified} resource files modified')
+    print(f'  PACKDATA.DIG: build/PACKDATA.DIG')
+    print('=' * 60)
+    sys.exit(0)
 print('STEP 6: Building ISO ...')
 
 ISO_PATH = 'Busin 0 - Wizardry Alternative Neo (Japan) (v2.01).iso'
-OUTPUT_ISO = 'build/BUSIN0_EN.iso'
+OUTPUT_ISO = 'build/BUSIN0_EN.iso.DO_NOT_SHIP'
 
 if not os.path.exists(ISO_PATH):
     print(f'  ERROR: Source ISO not found: {ISO_PATH}')
