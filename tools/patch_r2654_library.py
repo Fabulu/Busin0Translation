@@ -78,12 +78,26 @@ R2100_MODIFIED = {121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132,
 #   sub 1  entry 1 = W SLASH kana        sub 28 entry 1 = BUBBLY SLIME kana
 #   sub 41 entry 1 = CRETA kana          sub 43 entry 4 = "nashi" (None)
 # ---------------------------------------------------------------------------
-PRISTINE_COUNTS = {1: 38, 28: 154, 41: 57, 43: 10}
+PRISTINE_COUNTS = {1: 38, 28: 154, 41: 57, 43: 10,
+                   # v164 wave-4 subs (counts from pristine Format-A headers)
+                   2: 38, 4: 18, 6: 21, 9: 43, 14: 31, 25: 31,
+                   30: 26, 32: 9, 40: 91, 42: 105}
 PRISTINE_SIGNATURES = {
     (1, 1): bytes.fromhex('003700cd00e7011000cc0109fffeffff'),
     (28, 1): bytes.fromhex('00fe010000e8005d00cd00e700c200e1fffeffff'),
     (41, 1): bytes.fromhex('00c800ea00d0fffeffff'),
     (43, 4): bytes.fromhex('0084007bfffeffff'),
+    # v164 wave-4 signatures (first non-blank pristine entry per sub)
+    (2, 1): bytes.fromhex('008900a400910085003ffffeffff'),
+    (4, 1): bytes.fromhex('033a031900dc010b00c200e900830089fffeffff'),
+    (6, 1): bytes.fromhex('00c600e900df00ee008801db02e4fffeffff'),
+    (9, 1): bytes.fromhex('03a001fa00850070007f00bf0082fffeffff'),
+    (14, 1): bytes.fromhex('01320133010000ea00cd00ea011000d4fffeffff'),
+    (25, 1): bytes.fromhex('00c100ea00c200fdfffeffff'),
+    (30, 1): bytes.fromhex('0293026c02ca0085008100710082fffeffff'),
+    (32, 1): bytes.fromhex('031402d4027a009703c300850082fffeffff'),
+    (40, 1): bytes.fromhex('00c6005d00f6010300ec005dfffeffff'),
+    (42, 1): bytes.fromhex('002c0036fffeffff'),
 }
 
 table = json.load(open(GLYPH_TABLE, encoding='utf-8'))
