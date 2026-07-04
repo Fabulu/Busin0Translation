@@ -33,6 +33,25 @@ every unlisted sub / unlisted entry byte-identically.
 Standalone dry-run:
     python tools/patch_r2654_library.py --in <base.raw> --out <patched.raw>
 
+Wave-6 (2026-07-04): CONTROL-WORD TOKEN SYNTAX for the sub-6 bookshelf
+blurbs (k11-k14), modeled on tools/patch_r39_aa.py's {HL}/{/HL} encoder:
+
+    {FF06} {FF03} {FF01} {FFF0}   literal control words.  Renderer evidence
+        (tools/summary_analysis.py, renderer 0x3A2EF0): 0xFF00-0xFF08 set the
+        text COLOUR (FF01 = the R39 block-10/14 highlight, FF06 = blurb body
+        colour, FF03 = book-title colour), 0xFFF0 restores the default.
+    {ICON:106}                    raw glyph id 106 = the button icon drawn in
+        the pristine "[icon] Button: Read" trailer -- PRESERVED as-is.
+    ' / '                         line break (FFFE), as everywhere else.
+
+  Discipline: tokens never span a line break -- an {FF01} highlight must be
+  closed by {FFF0} on the SAME line (pristine trailer shape); a bare {FFF0}
+  is a colour reset and may stand alone (pristine k14 body shape).  The
+  TOKEN-PRESERVATION gate in self_verify asserts, per listed entry, that the
+  encoded control-word MULTISET, the FFFE line count, and (for token entries)
+  the icon-glyph multiset all equal the PRISTINE entry's -- we translate the
+  text BETWEEN tokens, we never invent or drop tokens.
+
 Gates (patch_r39_aa / patch_r39_spell_desc style -- every one is fatal):
   * PRISTINE-STRUCTURE guard: expected entry counts + signature entry bytes
     per listed sub against extracted/packdata_raw/2654_type44.raw (misaligned
@@ -42,6 +61,8 @@ Gates (patch_r39_aa / patch_r39_spell_desc style -- every one is fatal):
   * Self-verify: rebuilt subs decode back to the requested English, unlisted
     entries byte-identical, unlisted subs byte-identical, descriptor table
     consistent, sector aligned, no R2100-modified glyph id.
+  * TOKEN-PRESERVATION gate: per listed entry, control-word multiset ==
+    pristine, FFFE count == pristine, token-entry icons == pristine.
   * IDEMPOTENCE: re-running the transform on its own output is byte-identical.
 """
 import argparse
@@ -112,16 +133,81 @@ def enc(ch):
     return 31  # '?'
 
 
+# ---------------------------------------------------------------------------
+# Wave-6 control-word token syntax (patch_r39_aa.py HL_TOKENS style).
+# CTRL_TOKENS are literal 0xFFxx words; ICON_IDS are raw glyph ids that may be
+# emitted verbatim via {ICON:n} and are round-tripped by decode_ascii.
+# ---------------------------------------------------------------------------
+CTRL_TOKENS = {'{FF06}': 0xFF06, '{FF03}': 0xFF03,
+               '{FF01}': 0xFF01, '{FFF0}': 0xFFF0}
+ICON_IDS = {106}                       # button icon in the sub-6 blurb trailer
+MAX_BLURB_CELLS = 18                   # widest shipped English body line (sub 5/33)
+
+
+def has_tokens(english):
+    """True if a translation uses the wave-6 multi-line/token syntax."""
+    return ' / ' in english or '{' in english
+
+
+def encode_segment_tokens(seg, english):
+    """One line (may carry {FFxx}/{ICON:n} tokens) -> (words, visible_cells).
+
+    Enforces the pristine highlight discipline: an {FF01} opened on a line
+    must be closed by {FFF0} on the SAME line (never across FFFE); a bare
+    {FFF0} is a colour reset and is allowed anywhere.
+    """
+    words, visible, pos, hl_open = [], 0, 0, False
+    while pos < len(seg):
+        if seg[pos] == '{':
+            for tok, code in CTRL_TOKENS.items():
+                if seg.startswith(tok, pos):
+                    if code == 0xFF01:
+                        assert not hl_open, f'nested {{FF01}} in {english!r}'
+                        hl_open = True
+                    elif code == 0xFFF0:
+                        hl_open = False        # closes a highlight or resets colour
+                    words.append(code)
+                    pos += len(tok)
+                    break
+            else:
+                if seg.startswith('{ICON:', pos):
+                    end = seg.index('}', pos)
+                    gid = int(seg[pos + 6:end])
+                    assert gid in ICON_IDS, \
+                        f'{{ICON:{gid}}} not in ICON_IDS {sorted(ICON_IDS)} ({english!r})'
+                    words.append(gid)
+                    visible += 1
+                    pos = end + 1
+                else:
+                    raise AssertionError(f'stray brace / unknown token at {seg[pos:]!r} '
+                                         f'in {english!r}')
+        else:
+            words.append(enc(seg[pos]))
+            visible += 1
+            pos += 1
+    assert not hl_open, f'{{FF01}} not closed by {{FFF0}} on the same line: {english!r}'
+    return words, visible
+
+
 def encode_english(english):
-    """English -> Format-A entry bytes: glyphs (+FFFE per ' / ') + FFFE FFFF."""
+    """English -> Format-A entry bytes: glyphs (+FFFE per ' / ') + FFFE FFFF.
+
+    Lines may carry the wave-6 {FFxx}/{ICON:n} tokens; token entries are
+    width-guarded to MAX_BLURB_CELLS visible cells per line.
+    """
     assert english != '', 'empty english string'
     assert all(ord(c) < 128 for c in english), f'non-ASCII english: {english!r}'
+    tokened = has_tokens(english)
     words = []
     for si, seg in enumerate(english.split(' / ')):
         if si:
             words.append(FFFE)
-        for ch in seg:
-            words.append(enc(ch))
+        seg_words, visible = encode_segment_tokens(seg, english)
+        if tokened:
+            assert visible <= MAX_BLURB_CELLS, (
+                f'line {si + 1} is {visible} visible cells '
+                f'(max {MAX_BLURB_CELLS}): {seg!r}')
+        words += seg_words
     words.append(FFFE)
     words.append(FFFF)
     for w in words:
@@ -254,9 +340,18 @@ def transform(base, names):
     return bytes(pad_to_sector(out)), rebuilt
 
 
+def entry_words(seg):
+    """Entry bytes -> list of BE u16 words (terminator FFFF included)."""
+    return [struct.unpack_from('>H', seg, p)[0] for p in range(0, len(seg) - 1, 2)]
+
+
 def decode_ascii(seg):
-    """Decode a rebuilt entry back to English (' / ' for FFFE separators)."""
-    words = [struct.unpack_from('>H', seg, p)[0] for p in range(0, len(seg) - 1, 2)]
+    """Decode a rebuilt entry back to English (' / ' for FFFE separators).
+
+    Exact inverse of encode_english for the wave-6 token syntax: control
+    words come back as {FFxx}, icon glyphs as {ICON:n}.
+    """
+    words = entry_words(seg)
     inv = {v: k for k, v in table.items() if v <= 94}
     out = []
     for w in words:
@@ -264,6 +359,10 @@ def decode_ascii(seg):
             break
         if w == FFFE:
             out.append(' / ')
+        elif 0xFF00 <= w < FFFE:
+            out.append(f'{{{w:04X}}}')
+        elif w in ICON_IDS:
+            out.append(f'{{ICON:{w}}}')
         elif w in inv:
             out.append(inv[w])
         else:
@@ -318,8 +417,49 @@ def self_verify(base, out, names, rebuilt):
             else:
                 assert seg == ents_base[k], \
                     f'sub{sub} entry{k}: unlisted entry bytes changed'
-    print('  self-verify OK: descriptors consistent, untouched subs identical, '
-          'all listed entries decode to English, unlisted entries preserved')
+
+    # ---- TOKEN-PRESERVATION gate (wave 6) vs the PRISTINE extract ----------
+    # For every TOKEN-SYNTAX entry: control-word multiset, FFFE line count and
+    # icon-glyph multiset must equal the pristine entry's -- we translate the
+    # text BETWEEN tokens, tokens are never invented or dropped.  (Plain name
+    # entries are exempt: wave 3/4 deliberately replaced e.g. the sub-2 k12
+    # 0xFFF1 player-name token with the word "You"; a plain encode can emit
+    # no control word at all, asserted below.)
+    pristine = open(PRISTINE, 'rb').read()
+    hdr_p = {h['sub']: h for h in read_header(pristine)}
+    n_tok = 0
+    for sub, ent_map in sorted(names.items()):
+        h = next(x for x in hdr_o if x['sub'] == sub)
+        ents_out = parse_sub(out, h['off'], h['size'], f'out sub{sub}')
+        ph = hdr_p[sub]
+        ents_pri = parse_sub(pristine, ph['off'], ph['size'], f'pristine sub{sub}')
+        assert len(ents_out) == len(ents_pri), f'sub{sub}: count differs from pristine'
+        for k in ent_map:
+            ow = entry_words(ents_out[k])
+            octl = sorted(w for w in ow if 0xFF00 <= w < FFFE)
+            if not has_tokens(ent_map[k]):
+                assert octl == [], (
+                    f'TOKEN GATE sub{sub} entry{k}: plain entry emitted '
+                    f'control words {[hex(w) for w in octl]}')
+                continue
+            n_tok += 1
+            pw = entry_words(ents_pri[k])
+            pctl = sorted(w for w in pw if 0xFF00 <= w < FFFE)
+            assert octl == pctl, (
+                f'TOKEN GATE sub{sub} entry{k}: control multiset '
+                f'{[hex(w) for w in octl]} != pristine {[hex(w) for w in pctl]}')
+            assert ow.count(FFFE) == pw.count(FFFE), (
+                f'TOKEN GATE sub{sub} entry{k}: FFFE line count '
+                f'{ow.count(FFFE)} != pristine {pw.count(FFFE)}')
+            oico = sorted(w for w in ow if w in ICON_IDS)
+            pico = sorted(w for w in pw if w in ICON_IDS)
+            assert oico == pico, (
+                f'TOKEN GATE sub{sub} entry{k}: icon multiset {oico} '
+                f'!= pristine {pico}')
+    print(f'  self-verify OK: descriptors consistent, untouched subs identical, '
+          f'all listed entries decode to English, unlisted entries preserved; '
+          f'token gate OK ({n_tok} token entries, control/line/icon multisets '
+          f'== pristine)')
 
 
 def main():

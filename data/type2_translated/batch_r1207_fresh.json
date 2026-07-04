@@ -1,0 +1,3387 @@
+[
+ {
+  "resource": 1207,
+  "msg_index": 292,
+  "japanese": "ル}シ}ヴィガ}商店の立店へ / 初めて図れた_",
+  "english": "You've come to Lucy's / Vigger Shop branch for / the first time."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 293,
+  "japanese": "何もなかった迷宮の一街所に / それなりの長調が宝され / 商店らしくなっていた_",
+  "english": "A once-empty corner of / the labyrinth has been / fitted out properly - / it looks like a real / shop now."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 294,
+  "japanese": "カウンタ}には店社として / [0x05A5]われたらしき魔物がいる_",
+  "english": "Behind the counter is / a monster that seems / to have been hired / as a clerk."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 295,
+  "japanese": "そしてその魔物と / ル}シ}が会質していた_",
+  "english": "And Lucy was there, / chatting with that / monster."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 296,
+  "japanese": "ル}シ}はこちらに頼着き / 力を後った装^カウンタ}を / 出てこちらへやってきた_",
+  "english": "Lucy noticed you and / waved, then came out / from behind the / counter to meet you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 297,
+  "japanese": "表所を見にきてくれたの? / アタシもなんだ_",
+  "english": "Lucy: Came to see the / shop? Me too, actually."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 298,
+  "japanese": "たった一つの立店だからね_ / わざわざ騎騎者庫落して^ / 親[0x061E]を[0x05A5]ってここまで帰たの_",
+  "english": "It's our one and only / branch store! I even / registered as an / adventurer and hired / an escort to get here."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 299,
+  "japanese": "兜新だったけれど^ / 見に帰た下[0x0663]はあったわ_ / なんだか感功しちゃった|_",
+  "english": "It was quite a trip, / but worth coming to / see. I'm actually / kind of moved..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 300,
+  "japanese": "ここまで店を兜きくできたのは / アンタのおかげだよね_ / ほんと^感絡してるわ!",
+  "english": "We could only grow the / shop this big thanks / to you. Really, I'm / grateful!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 301,
+  "japanese": "だからもっともっと兜きく / するために^じゃんじゃん / 買い物してってよね!",
+  "english": "So to help us grow / even bigger, keep / shopping up a storm!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 303,
+  "japanese": "だれか立店の秘みたいなのを / 発全してくれないかしら|_",
+  "english": "Now if only someone / would invent something / like a potion for / opening shops...",
+  "_note": "JP '立店の秘' unclear (glyph-page suspect); read as Lucy musing about a potion/trick for opening branch shops, matching her teleport potion in m305."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 304,
+  "japanese": "じゃあね^立店だけじゃなくって / 役店の今にも顔出してよ!",
+  "english": "See you! And don't / just visit the branch - / drop by the main / store too!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 305,
+  "japanese": "ル}シ}は力を後った装^ / バッグの中から秘の瓶を / 取り出し^一頼に飲み[0x0664]した_",
+  "english": "Lucy waved, took a / small bottle from her / bag, and downed it in / one gulp."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 306,
+  "japanese": "そして^野の両から良を消した_",
+  "english": "And she vanished from / sight."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 307,
+  "japanese": "ヴィガ}フレンズのポイントが / 3加算されました_",
+  "english": "3 Vigger Friends / points added."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 308,
+  "japanese": "パ}ティのHP{MPが用竜した!",
+  "english": "The party's HP/MP / was restored!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 309,
+  "japanese": "ヴィガ}フレンズのポイントが / 3加算されました_",
+  "english": "3 Vigger Friends / points added."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 310,
+  "japanese": "しばらくぼんやりしていると / だんだんとウトウトしてきた_",
+  "english": "As you rested idly, / you slowly began / to doze off..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 311,
+  "japanese": "怪れる客識と召誉の中に / 魔物の剣称が見える_",
+  "english": "Through fading / consciousness you see / the shadows of / monsters."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 312,
+  "japanese": "夢か抜者か賢断する嫌もなく / 魔物の剣称が仕い納かってきた!",
+  "english": "Dream or reality? No / time to tell - the / monstrous shadows / attacked!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 313,
+  "japanese": "オ}ク戦いが編わり^誇恵としていると / 立店の店社が択てて / 力け復ってきた_",
+  "english": "The battle over, you / stood dazed as the / shop clerk came / rushing back."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 314,
+  "japanese": "うおおおおおお / おめえさん^ぶじだったか?",
+  "english": "Whooooooa! / Ya okay, friend?!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 315,
+  "japanese": "オダたちのみせわ^ときたま / ああしておっかねえマモノに / おそわれちまうだよ|_",
+  "english": "Our shop sometimes / gets attacked by / scary monsters like / that..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 316,
+  "japanese": "おめえさん^おきなかっだから / おめえさんをおきざりにして / オダたちヒナンしてたべ|_",
+  "english": "Ya wouldn't wake up, / so we left ya behind / and hid..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 317,
+  "japanese": "いや~^ぶじでよがっだ! / さあさあ^もっかいゆっくり / きゅうけいしてくで!",
+  "english": "Phew, glad ya safe! / C'mon, c'mon, have / another nice long / rest!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 318,
+  "japanese": "でもあぶねえから^うとうと / するでねえど!",
+  "english": "But it's dangerous, / so no more dozin' / off!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 319,
+  "japanese": "パ}ティのHP{MPが用竜した!",
+  "english": "The party's HP/MP / was restored!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 320,
+  "japanese": "イムプ店長の一血に飽袋を低み外げて / 一該られたスペ}スが以られていた_",
+  "english": "In one corner of the / shop, a space had been / partitioned off with / stacked treasure bags."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 321,
+  "japanese": "入り口横の飽袋には^ / [盗し物会場]と書かれた / プレ}トが打ち着けられている_",
+  "english": "On a treasure bag by / the entrance hangs a / plate reading / 'Event Space'."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 322,
+  "japanese": "飽袋で以られたカウンタ}には /  / [盗し物会場 オ}プン記大 /  ヴィガ}フレンズ新教会社取撃!] /  / と書かれた新却が低まれている_",
+  "english": "The bag-built counter / bears a sign: / 'Event Space Grand / Opening! Vigger Friends / member drive!'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 323,
+  "japanese": "スペ}ス両に瓶っているイムプが / こちらに頼着き^質し納けてきた_",
+  "english": "The Imp sitting in the / space noticed you and / called out."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 324,
+  "japanese": "イムプ盗し物スペ}スには / ヴィガ}フレンズ 入会受着中! / と書かれた帰り新が帰られている_",
+  "english": "The Event Space sign / read: 'Vigger Friends / Sign-Up Available!'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 325,
+  "japanese": "スペ}ス両に瓶っている / イムプが質し納けてきた_",
+  "english": "The Imp sitting in / the space called / out to you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 326,
+  "japanese": "はは~ん|^さてはお落さん / このヴィガ}フレンズに / 城町[0x05FA]神でしょう!",
+  "english": "Heh heh... I bet / you're dyin' to know / about Vigger Friends, / eh?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 327,
+  "japanese": "[0x04F2]ずかしがることはねえッス_ / こんな議段な[0x05AA]対に / 城町を持たないわけがない!",
+  "english": "No need to be shy! / No way you're not / curious about such / a great deal!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 328,
+  "japanese": "どうですか^ヴィガ}フレンズの / システム向全をしやしょうか? / それともすぐに入会ッスか?",
+  "english": "So how about it - / wanna hear how Vigger / Friends works? Or / sign up right away?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 330,
+  "japanese": "そうっスか^いいっスか! / それじゃあシステムの向全を / させてもらうっス!",
+  "english": "Really? Great! Then / lemme explain the / system!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 331,
+  "japanese": "あ^取れ棄しで聞いてて / 用恵オッケ}っスよ! / 入会時に新を渡しやすんで_",
+  "english": "Oh, half-listening is / totally fine! You get / the pamphlet when / you join anyway."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 333,
+  "japanese": "ではただいまより向全しやす!",
+  "english": "And now, the / explanation!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 335,
+  "japanese": "入会臆と会費を払って入会した / お落さんには^なんとビックリ / 会社だけの表神なサ}ビスが!",
+  "english": "Pay the sign-up fee / and dues, and members / get amazing / members-only perks!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 336,
+  "japanese": "盗し物会場では^ヴィガ}フレンズ / 会社限期イベントなんてのが / あったりするわけですよこれが!",
+  "english": "The Event Space runs / members-only events, / for one!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 337,
+  "japanese": "しかも盗し物会場のイベントに / 参加すればするほどチャンス[0x0445]追の / お得な会社ナンバ}抽選会!",
+  "english": "And the more events / you join, the better / your odds in the / member number lottery!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 338,
+  "japanese": "これはもう^入るっきゃないっしょ? / オレも内恵^会社っスよ! / 内たり両のバリバリっす!",
+  "english": "You just GOTTA join, / right? I'm a member / myself, obviously! / Winning left and / right!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 339,
+  "japanese": "そうっスか^入会っスか! / では^入会臆+会費5000Gと / 申込書に彼両をお願いしやす!",
+  "english": "Joining? Sweet! Then / I'll need the 5000G / sign-up fee and your / name on this form!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 342,
+  "japanese": "|そうっスか^いいっスか| / 遠慮しなくてもいいのに|_",
+  "english": "...Oh. Passing, huh... / No need to be shy, / y'know..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 343,
+  "japanese": "罰は絶将に入会してって / くださいよ^アネゴ!",
+  "english": "Next time you gotta / join for sure, sis!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 345,
+  "japanese": "はいはいはい^では入会臆を / いただきやしょうか!",
+  "english": "Right right right! / Then let's have that / sign-up fee!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 346,
+  "japanese": "5000G立払った_",
+  "english": "Paid 5000G."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 347,
+  "japanese": "探かに[0x05D3][0x05FC]しやした! / では^ヴィガ}フレンズ会社前を / お渡ししやす_",
+  "english": "Received! Here is / your Vigger Friends / member card."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 348,
+  "japanese": "0123456789-000000え~|あなたの会社番実は / 番になりやすので_ / 会社前には書いてませんけどね_",
+  "english": "0123456789-000000 / Uh, your member / number is. It's not / written on the card / though!",
+  "_note": "Leading digit run preserved verbatim (runtime number glyph prefix, canon precedent batch_03 r1203 m52). Number is inserted at runtime after 'is'."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 349,
+  "japanese": "ありがとうございやしたっ!",
+  "english": "Thank you very much!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 350,
+  "japanese": "メンバ}カ}ドを力に入れた!",
+  "english": "Got a Member Card!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 351,
+  "japanese": "はいはいはい^では入会臆を / いただきやしょうか!",
+  "english": "Right right right! / Then let's have that / sign-up fee!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 352,
+  "japanese": "|って^えええええっ?! / 持ってないっすか^5000G|_ / 同少キツいっすよ^お落さ~ん!",
+  "english": "...Wait, WHAAAT?! / You don't have 5000G?! / That's rough, / customer..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 353,
+  "japanese": "一今ないなあ|_ / 今度帰た時は5000G^ / 禁を[0x0510]えて持ってきてくださいよ!",
+  "english": "Nothin' for it... / Next time, bring the / full 5000G with you, / okay?!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 354,
+  "japanese": "それまで入会はお[0x043F]けっス!",
+  "english": "Till then, membership / is on hold!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 355,
+  "japanese": "|そうっスか^いいっスか| / 遠慮しなくてもいいのに|_",
+  "english": "...Oh. Passing, huh... / No need to be shy, / y'know..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 356,
+  "japanese": "罰は絶将に入会してって / くださいよ^アニキ!",
+  "english": "Next time you gotta / join for sure, bro!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 357,
+  "japanese": "|そうっスか^いいっスか| / 遠慮しなくてもいいのに|_",
+  "english": "...Oh. Passing, huh... / No need to be shy, / y'know..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 358,
+  "japanese": "罰は絶将に入会してって / くださいよ^アネゴ!",
+  "english": "Next time you gotta / join for sure, sis!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 359,
+  "japanese": "イムプ盗し物スペ}スには / ヴィガ}フレンズ 入会受着中! / と書かれた帰り新が帰られている_",
+  "english": "The Event Space sign / read: 'Vigger Friends / Sign-Up Available!'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 360,
+  "japanese": "スペ}ス両に瓶っている / イムプが質し納けてきた_",
+  "english": "The Imp sitting in / the space called / out to you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 361,
+  "japanese": "0123456789-000000まいどっ! / え~っと|会社番実の / さんっスよね?",
+  "english": "0123456789-000000 / Welcome back! Member / number, right?",
+  "_note": "Digit prefix preserved verbatim (canon precedent batch_03 r1203 m65)."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 362,
+  "japanese": "壁冒1~5地は^ヴィガ}フレンズ / 入会穴級キャンペ}ンなんっスよ_",
+  "english": "The 1st through 5th / of each month is the / Vigger Friends / enrollment campaign!",
+  "_note": "JP 壁冒N地 rendered as days of the month: vendor slots 1-5/6-15/16-20/26-30 plus 'month-end 5 days' (m490) prove a monthly calendar. Sister batches said 'Ranks'/'Floors' - divergence intentional."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 363,
+  "japanese": "だから^今はイベント / やってないっス_",
+  "english": "So no events running / right now."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 365,
+  "japanese": "盗し物の案長が書かれたボ}ドには / [心築働い^閉店中です_      /  しばらくたってから帰てください] / と書かれている_",
+  "english": "The event board / reads: 'Potential / Readings - closed. / Please come back / later.'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 366,
+  "japanese": "盗し物の案長が書かれたボ}ドには / [心築働い^閉店中です_      /  しばらくたってから帰てください] / と書かれている_",
+  "english": "The event board / reads: 'Potential / Readings - closed. / Please come back / later.'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 367,
+  "japanese": "?????ロ}ミおにいちゃんおねえちゃんいらっしゃい_ / 働ってあげようか?",
+  "english": "?????Romi: Hey, big / bro, big sis! Welcome! / Want me to read your / fortune?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 368,
+  "japanese": "盗し物の案長が書かれたボ}ドには / [あなたに呪められた主^      /        働ってさしあげます] / と書かれている_",
+  "english": "The event board / reads: 'Your hidden / potential... I shall / reveal it for you.'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 369,
+  "japanese": "だが^盗し物カウンタ}に / 過の良もない_",
+  "english": "But there is no one / at the Event Space / counter."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 372,
+  "japanese": "何統からか高び声がする_",
+  "english": "A voice calls out / from somewhere."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 373,
+  "japanese": "辺りを見回してみたものの / 声の消らしき者はいない_",
+  "english": "You look around, but / see no one who could / be the caller."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 374,
+  "japanese": "教び盗し物カウンタ}に / 野をやると^うっすらと者称の / ようなものが呪かんできた_",
+  "english": "Looking back at the / counter, a faint, / person-like shape / slowly appears."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 375,
+  "japanese": "かわいそうね_ / リ}ダ}なのに|なんにもない|_",
+  "english": "Poor thing. You're / the leader, but... / there's nothing / there..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 376,
+  "japanese": "望むなら^わたしじゃなくって / 稼後を望んでね_",
+  "english": "If you're gonna / resent someone, / resent your parents, / not me.",
+  "_note": "JP '稼後を望んでね' with 望む=恨む; target of the resentment uncertain (read as 'parents' - innate-talent joke). Glyph-page suspect."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 377,
+  "japanese": "よかったね_ / 御器築主^芽生えてるんだ_",
+  "english": "Good for you! / A special ability / has sprouted in you!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 378,
+  "japanese": "よかったね_ / 今はまだなんにもないけど / きっと紹れた心築が開花する|_",
+  "english": "Good for you. Nothing / yet, but surely a / hidden potential / will bloom...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 379,
+  "japanese": "生きている嫌に芽生えたらいいね_",
+  "english": "Hope it blooms while / you're still alive!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 380,
+  "japanese": "わたし^おばけのロ}ミ_ / 2000G払ってくれたら^ / もっと同しく働ってあげる_",
+  "english": "I'm Romi, a ghost. / Pay 2000G and I'll / tell you more."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 382,
+  "japanese": "じゃあお臆^カウンタ}に居いてね_ / わたし^意が念き通るから / 受け取れないの_",
+  "english": "Then put the money on / the counter, 'kay? / Things pass right / through me, so I / can't take it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 383,
+  "japanese": "暗持臆が加りず^払えなかった_",
+  "english": "Not enough money / to pay."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 384,
+  "japanese": "|だめ^まけてあげないよ_",
+  "english": "...Nope. No / discounts."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 385,
+  "japanese": "お臆持ってないんだったら^ / お臆持ってきてね_ / 2000Gだからね_",
+  "english": "If you've got no / money, go get some! / It's 2000G, / remember!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 386,
+  "japanese": "2000G立払った!",
+  "english": "Paid 2000G!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 387,
+  "japanese": "どうもありがとう! / 過を働って能しい?",
+  "english": "Thank you! Who / should I read?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 388,
+  "japanese": "どうもありがとう! / ヴィガ}フレンズのポイントも / 4ポイントあげる_",
+  "english": "Thank you! I'll throw / in 4 Vigger Friends / points too."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 389,
+  "japanese": "じゃあ過を働って能しい?",
+  "english": "So, who should / I read?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 390,
+  "japanese": "|いいもん|別に|_",
+  "english": "...Fine. Whatever..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 391,
+  "japanese": "ロ}ミはそう言い退して / また良を消してしまった_",
+  "english": "With those words, / Romi vanished again."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 393,
+  "japanese": "さんの心築は / もうとっくに開花してるわ_",
+  "english": "Your potential / has already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 394,
+  "japanese": "さんの中に / 呪められている心築|",
+  "english": "The potential / hidden within / you!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 395,
+  "japanese": "さんの心築は / もうとっくに開花してるわ_",
+  "english": "Your potential / has already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 396,
+  "japanese": "さんの中に / 呪められている心築|",
+  "english": "The potential / hidden within / you!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 397,
+  "japanese": "さんの心築は / もうとっくに開花してるわ_",
+  "english": "Your potential / has already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 398,
+  "japanese": "さんの中に / 呪められている心築|",
+  "english": "The potential / hidden within / you!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 399,
+  "japanese": "さんの心築は / もうとっくに開花してるわ_",
+  "english": "Your potential / has already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 400,
+  "japanese": "さんの中に / 呪められている心築|",
+  "english": "The potential / hidden within / you!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 401,
+  "japanese": "さんの心築は / もうとっくに開花してるわ_",
+  "english": "Your potential / has already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 402,
+  "japanese": "さんの中に / 呪められている心築|",
+  "english": "The potential / hidden within / you!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 403,
+  "japanese": "さんの心築は / もうとっくに開花してるわ_",
+  "english": "Your potential / has already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 404,
+  "japanese": "さんの中に / 呪められている心築|",
+  "english": "The potential / hidden within / you!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 405,
+  "japanese": "心築があってよかったね_ / 魔法をたくさん度えるって / なんだか[0x0483]そうで議段だな_",
+  "english": "Good to have a / potential. Learning / lots of spells seems / so clever and / wonderful!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 406,
+  "japanese": "心築があってよかったね_ / でも求手魔法が得客なんだったら / 制所で傷く今が向いてるかもね_",
+  "english": "Good to have a / potential. But if / healing magic's your / gift, support from / the back row!",
+  "_note": "JP 求手魔法 ambiguous (canon r1203 m110 read it as attack spells / front line). Read as healing magic per 求手=回復 pattern."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 407,
+  "japanese": "心築があってよかったね_ / ドラゴンを武神と忘しちゃうなんて / とっても力いんだね_",
+  "english": "Good to have a / potential. Making / allies of dragons - / you must be really / strong!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 408,
+  "japanese": "心築があってよかったね_ / 向魔を忘すのが得客だなんて^ / 向魔にとってはあなたが向魔よね_",
+  "english": "Good to have a / potential. So good at / slaying demons that / to demons, YOU'RE / the demon!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 409,
+  "japanese": "心築があってよかったね_ / |あの|わたしのは見威してね^ / 変さないでね|もう死んでるけど|_",
+  "english": "Good to have a / potential. ...Um, / please skip me, / and don't exorcise / me! I'm already dead!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 410,
+  "japanese": "心築があってよかったね_ / でもなんだか稀[0x0647]で呪いな| / わたしのこと^いじめないでね_",
+  "english": "Good to have a / potential. But it's / kind of eerie... / Don't bully me, / okay?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 411,
+  "japanese": "心築があってよかったね_ / 攻仕を[0x0648]けてばっかりいないで / 値色もちゃんと攻仕してね_",
+  "english": "Good to have a / potential. Don't just / block all the time - / remember to attack / too!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 412,
+  "japanese": "心築があってよかったね_ / すごいな^わたしの意と高隊将ね_",
+  "english": "Good to have a / potential. Wow - / just like me, / huh!",
+  "_note": "JP 'わたしの意と高隊将ね' unclear; canon r1203 m116 read 'same body type as me'. Kept vague."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 413,
+  "japanese": "心築があってよかったね_ / ミスは後取りっていうし^ミスが / 少ないのはとってもいいことね_",
+  "english": "Good to have a / potential. Fewer / mistakes is a / really good thing, / they say!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 414,
+  "japanese": "心築があってよかったね_ / わたしは退備がないからわからない / けど^魔物はとても退がるだろうな_",
+  "english": "Good to have a / potential. I don't / wear gear, so I dunno / - but monsters must / be terrified!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 415,
+  "japanese": "心築があってよかったね_ / アイテム見つけるのが得客なんだ| / |今度なにかちょうだい!",
+  "english": "Good to have a / potential. You're / good at finding / items! Gimme / something sometime!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 416,
+  "japanese": "心築があってよかったね_ / |わっ|わたしを倒[0x0649]したって^ / 優臆美の議著なんて出ないからね_",
+  "english": "Good to have a / potential. B-but / beating me won't / drop any alchemy / treasure!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 417,
+  "japanese": "御器築主13はカット!",
+  "english": "Special ability 13 - / cut!",
+  "_note": "Literal dev string: JP 御器築主13はカット! ('special ability 13 was cut'). Likely unused/debug text for a removed talent."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 418,
+  "japanese": "心築があってよかったね_ / でも者頼者って者頼があるだけで / 者主があるかっていうと着与よね|_",
+  "english": "Good to have a / potential. But being / popular doesn't mean / being capable, / does it..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 419,
+  "japanese": "心築があってよかったね_ / 段から威げるのが得客だからって / 威げてばかりじゃ力くなれないよ_",
+  "english": "Good to have a / potential. But if you / only ever run from / enemies, you'll never / get stronger!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 420,
+  "japanese": "心築があってよかったね_ / なんでも住[0x048F]にしちゃうなんて力祠| / わたしを後り回さないでね_",
+  "english": "Good to have a / potential. Freezing / anything you like - / scary! Don't swing / me around!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 421,
+  "japanese": "心築があってよかったね_ / なんでも繋処にしちゃうんだ| / でもわたしを[0x05EE]にするのは辺理よね_",
+  "english": "Good to have a / potential. Turning / things to stone... / but doing that to me / would be pointless!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 422,
+  "japanese": "心築があってよかったね_ / すごい魔主ね^ユグルタの魔法[0x04DA]所で / 役解になれるんじゃないかなあ_",
+  "english": "Good to have a / potential. Amazing / magic! You could be / a master at Jugurtha's / magic school."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 423,
+  "japanese": "心築があってよかったね_ / 値色で泊頼を穏しちゃうなんて / 約束を通り過ぎて^暗然ね_",
+  "english": "Good to have a / potential. Healing / allies with a look - / that's beyond skill. / It's a wonder!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 424,
+  "japanese": "心築があってよかったね_ / 繋処の築主をひきだすなんて / [0x0572]動な心築だと思うわ_",
+  "english": "Good to have a / potential. Drawing / out the power of / stone is a rare / gift, I think."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 425,
+  "japanese": "|ない| / なにも|見えない|_",
+  "english": "...Nothing. / I see... nothing..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 426,
+  "japanese": "{{{{{{{{{{{{{{{",
+  "english": "..............."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 427,
+  "japanese": "頼の危だけど^落ち込まないで_ / 国の中の兜追は[0x064A]者なの_",
+  "english": "Sorry, hon. But don't / be sad - most of the / world is ordinary / too."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 428,
+  "japanese": "だって^腕に心築があれば^ / それが普通|つまり[0x064A]者に / なっちゃうでしょ_",
+  "english": "I mean, if everyone / had a potential, it'd / just be normal - / nothing special at / all, right?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 429,
+  "japanese": "心築がある者なんて^ / ごく一街しか武器しないのよ_",
+  "english": "Those with a / potential are / extremely rare."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 430,
+  "japanese": "普通は普通なのであって^ / 携して[0x0519]っているわけでは / ないんだから^法しまないでね_",
+  "english": "Ordinary is just / ordinary - it doesn't / mean lesser. So / don't be sad, okay?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 431,
+  "japanese": "|あなたは^[0x045A]帰って / 発んな知識を[0x064B]えていくのが / 心築を開花させる報となりそう_",
+  "english": "...For you, reading / lots and gaining / knowledge may be the / path to unlocking a / potential."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 432,
+  "japanese": "あなたの心築は^知[0x059B]が短くてこそ / 込かせるものだと思うから^ / お[0x064C]力するのが一番いいわ_",
+  "english": "Your potential blooms / through deep / knowledge, I think - / so studying is the / best thing for you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 433,
+  "japanese": "|あなたに呪められた心築は^ / 信仰目と丁い[0x064D]がりがある_",
+  "english": "...The potential / hidden in you is / strongly tied to / your faith."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 434,
+  "japanese": "もっと力い信仰目を持って / 生きていれば^きっとそのうち / いいことが顔こると思うの_",
+  "english": "Live with stronger / faith, and surely / good things will / come your way."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 435,
+  "japanese": "意倉の差に下れることなく^ / 失兜な魔物にも員越に / 待ち向かうことが頼目ね_",
+  "english": "The key is to face / even huge monsters / bravely, without / fearing the / difference in size."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 436,
+  "japanese": "今は後を落とすことがあるかも / 知れないけど^それはそれで / いい員験じゃないかなあ_",
+  "english": "You might lose your / life now and then, / but hey - that's / good experience / too!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 437,
+  "japanese": "そのうち^下れるどころか / 値らすすんで失兜な魔物に / 向かうようになるかも_",
+  "english": "Soon, far from / fearing them, you / might charge at huge / monsters all on / your own!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 438,
+  "japanese": "向魔の外をいく向魔みたいな / 目が終っているわ_",
+  "english": "A talent sleeps in / you - like a demon / that out-demons / the demons!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 439,
+  "japanese": "その目が野備めたら| / 向魔にとっては岩暗宿な / 武器になるでしょうね_",
+  "english": "When it awakens... / you'll be real / trouble for the / demons, I'd say."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 440,
+  "japanese": "棒宿な者|死者|大死腕の者を / 呪がらないことね_",
+  "english": "Just don't fear the / dead or the / undying."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 441,
+  "japanese": "兜集遺よ^そのうち呪いどころか / 兜好きになると思うわ_",
+  "english": "Don't worry - soon, / far from fearing / them, you'll / probably love them!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 442,
+  "japanese": "稼功損員がいいみたい_",
+  "english": "Seems you've got / great reflexes."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 443,
+  "japanese": "魔法とかそういうのより^ / もっと可の主を鍛えると / 心築を発[0x01E2]できそうだわ_",
+  "english": "Rather than magic, / train your body - / that should unlock / your potential."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 444,
+  "japanese": "今までは議早すぎて見えなかった / 段の功きなんかが^ある地義恵 / スロ}モ}ションに感じそう_",
+  "english": "Enemy moves too fast / to see now may one / day suddenly feel / like slow motion!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 445,
+  "japanese": "あなたは元神^功意召主が / すぐれていると思うから / あとはそれを鍛えることね_",
+  "english": "Your eyes are / naturally quick - / all that's left is / to train them."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 446,
+  "japanese": "力い生後主を持ってる_",
+  "english": "You have a strong / life force."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 447,
+  "japanese": "先件を鍛えれば^ものすごく / 力[0x064E]な件意を力に入れることが / できるんじゃないかな_",
+  "english": "Train your body and / you could gain an / incredibly tough / physique."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 448,
+  "japanese": "直見の冒が険ってる_ / それに撃中主も短いみたいね_",
+  "english": "Your instincts are / sharp, and your / focus seems high / too."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 449,
+  "japanese": "もっともっと直を攻む主が / 野備めていくと思うわ_",
+  "english": "Your power to read / enemies will keep / awakening more and / more."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 450,
+  "japanese": "そしたら^段の功きを険知して / ミスを繋ぐことができるように / なるわね^きっと_",
+  "english": "Then you'll sense / enemy moves and / avoid mistakes - / I'm sure of it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 451,
+  "japanese": "何かの場[0x0349]をつかんだりするのが / 得客そうね_",
+  "english": "You seem good at / finding things like / weak points."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 452,
+  "japanese": "だから^その心築が野備めれば / 段の話暗を険知して^議早く / しとめることができると思うよ_",
+  "english": "So when that / potential wakes, / you'll spot weak / spots and finish / fights fast."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 454,
+  "japanese": "普通の者なら頼着かず見過ごして / しまうものとかを^願[0x01D9]く見つけ / られるようになる頼がする_",
+  "english": "You'll come to spot / things most people / would walk right / past without / noticing."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 455,
+  "japanese": "あなたの放倉は知らないけど^ / 鍵奥とか^得客だと思うの_",
+  "english": "I don't know your / trade, but I bet / you'd be good at / research."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 456,
+  "japanese": "やったことがなくったって^ / やってみるとうまくいくかも_",
+  "english": "Even things you've / never tried might / go well if you / just try!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 458,
+  "japanese": "魔物の長[0x04B4]とかを取り出すのが / 兜好きになるかも知れない_",
+  "english": "You might come to / LOVE extracting / monster innards, / y'know."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 459,
+  "japanese": "御器築主13はカット!",
+  "english": "Special ability 13 - / cut!",
+  "_note": "Literal dev string: JP 御器築主13はカット! ('special ability 13 was cut'). Likely unused/debug text for a removed talent."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 460,
+  "japanese": "あなたって^なんていうか / ム}ドメ}カ}宿な武器になる / 並来頼があると思うの_",
+  "english": "You've got the / makings of a real / mood-maker, I / think."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 461,
+  "japanese": "たとえどんなに[0x0650]かでも / なんだか体めない|みたいな_",
+  "english": "Like, no matter how / silly you act, / somehow no one can / hate you..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 462,
+  "japanese": "まあ^者頼者っていうのも / 一依の心築といえば心築ね_ / 数われ者より用恵いいじゃない_",
+  "english": "Well, presence is a / talent too. Better / than being ignored!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 463,
+  "japanese": "あなたはとても感受放が力いわ_",
+  "english": "You're very / sensitive - deeply / attuned."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 464,
+  "japanese": "だから^その感放を[0x0513]けば / [0x042D]来の頼手を攻む主が / ものすごく短まると思う_",
+  "english": "Polish that sense / and your power to / read what's around / you will grow / immensely."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 465,
+  "japanese": "戦いのを処って^辺人間な長買の / 者が力祠に力にしたところで^築主を / 祠き出せず辺客町よね_",
+  "english": "Normally, a weapon / that doesn't match / you won't show its / true power, no / matter who swings it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 467,
+  "japanese": "今はまだ心築が終っているから辺理 / だけど^そのうち力祠に後り回しても / 場放を祠き出せると思うわ_",
+  "english": "It's impossible now / while your potential / sleeps, but soon even / wild swings will draw / out its true power."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 468,
+  "japanese": "腕に着けるものって^辺人間な長買の / 者が力祠につけたところで^築主を / 祠き出せず辺客町よね_",
+  "english": "Normally, gear that / doesn't match the / wearer won't show / its true power / either."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 469,
+  "japanese": "だから普通は長買にあわない物なんて / 調備しないけれど^あなたの場合は / ちょっと違うみたい_",
+  "english": "So usually no one / equips ill-fitting / gear - but you seem / to be the exception."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 470,
+  "japanese": "今はまだ心築が終っているから辺理 / だけど^そのうち力祠に腕につけても / 場放を祠き出せると思うわ_",
+  "english": "It's impossible now / while your potential / sleeps, but soon / you'll draw out any / item's power."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 471,
+  "japanese": "あなたの意の奥笑に^ / とっても力い魔主を感じるの_",
+  "english": "Deep inside you, I / feel a very strong / magic."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 472,
+  "japanese": "あなたは天心タイプだから / 今は[0x0651]に[0x0652]主をしない今がいいかも_",
+  "english": "You're a late / bloomer - maybe / don't force the / training for now."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 473,
+  "japanese": "いつか心築が芽生えてから / 魔主を短めていくと^ / すごいスピ}ドで封長すると思う_",
+  "english": "Once your potential / blooms, build your / magic - it'll grow / at amazing speed."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 474,
+  "japanese": "あなたは意長の[0x063F][0x0653]が者一[0x0445] / 力くなる[0x05EB]向があるわ_",
+  "english": "Your body's natural / healing tends to / grow far stronger / than most people's."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 475,
+  "japanese": "そのうち^泊頼になっても / 声っておけば穏るなんていう / ことになるかもしれない_",
+  "english": "Someday even illness / might just heal on / its own if you / leave it be."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 476,
+  "japanese": "まあ^最初から泊頼になんて / ならないのが一番いいんだけど_",
+  "english": "Though never getting / sick at all would / be best, of / course."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 478,
+  "japanese": "なんというか^行の者よりも / 物の覚いがいいっていうのかな|?",
+  "english": "How do I put it... / you handle things / better than other / people do...?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 479,
+  "japanese": "とにかく^それは心築が / 芽生えたらすぐに頼着くんじゃ / ないかしら_",
+  "english": "You'll notice it / as soon as your / potential awakens, / I'd say."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 480,
+  "japanese": "ロ}ミの良が一瞬消えかかった_",
+  "english": "Romi's form / flickered for a / moment."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 481,
+  "japanese": "ああ|疲れちゃった_",
+  "english": "Aah... I'm worn / out."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 482,
+  "japanese": "ちょっと閉店するから^ / 行の者も働ってほしければ / しばらくたってから帰てね_",
+  "english": "I'm closing up for a / bit. If the others / want readings too, / come back later, / 'kay?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 484,
+  "japanese": "ふう|ちょっと疲れちゃった_ / 働いってね^けっこう[0x044F]損主を / 度っちゃうんだ_",
+  "english": "Phew... I'm a little / tired. Fortune- / telling really eats / up your spirit, / y'know."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 485,
+  "japanese": "わたし^件意がないから / 作無にひどいんだと思う_ / だから一者ずつしか働えないの_",
+  "english": "Having no body makes / it extra draining, I / think. That's why I / can only read one / person at a time."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 486,
+  "japanese": "ちょっと閉店するから^ / 行の者も働ってほしければ / しばらくたってから帰てね_",
+  "english": "I'm closing up for a / bit. If the others / want readings too, / come back later, / 'kay?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 488,
+  "japanese": "ロ}ミは良を消してしまった_",
+  "english": "Romi vanished."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 489,
+  "japanese": "イムプはいはい^いらっしゃい!",
+  "english": "Imp: Hi hi! / Welcome!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 490,
+  "japanese": "壁冒26地~30地の冒[0x0552]5地嫌は / ヴィガ}フレンズ会社限期 / 会社ナンバ}抽選兜会!!!",
+  "english": "The month-end five / days, the 26th to the / 30th - it's the / members-only Member / Number Lottery!!!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 491,
+  "japanese": "あれ~^会社じゃないっしょ? / ナンバ}抽選は会社限期っス! / 城町があるなら迷わず入会!",
+  "english": "Huh? You're not a / member, are ya? The / lottery's members- / only! Interested? / Then join up!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 492,
+  "japanese": "ヴィガ}フレンズ新教入会は / 壁冒1地~5地の嫌だけ / この盗し物カウンタ}で受着中!",
+  "english": "New Vigger Friends / sign-ups run the 1st / to the 5th of each / month, right at this / Event Space counter!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 493,
+  "japanese": "[0x0564]更^帰てくださいよ!",
+  "english": "Be sure to come / back!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 494,
+  "japanese": "0123456789-0000000123456789-おっ^会社ナンバ}さん! / ようこそいらっしゃい!",
+  "english": "0123456789-0000000123456789- / Oh! It's Member / Number! Welcome, / welcome!",
+  "_note": "JP prefix is a double digit strip '0123456789-0000000123456789-'; preserved as-is in final JSON build (see generator) for runtime number rendering."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 495,
+  "japanese": "え~ちょいとお待ちを_ / お落さんのフレンドポイントを / 道べますので_",
+  "english": "Just a moment - / lemme check your / Friend Points."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 497,
+  "japanese": "ありゃりゃ|ポイント用恵 / たまってないっすね~_",
+  "english": "Uh-oh... you've got / no points saved / up~"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 498,
+  "japanese": "ナンバ}抽選は最鑑でも / ポイントが1ポイント魔外ないと / 参加できないっス_",
+  "english": "You need at least 1 / point to enter the / number lottery."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 499,
+  "japanese": "もっと低[0x0597]宿に盗し物に参加して / ポイント撃めてくださいよ!!",
+  "english": "Join more events and / save up those / points!!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 500,
+  "japanese": "ういっス^バッチリっスね! / じゃあ^どうしやしょう?",
+  "english": "Yes! You're all set! / So, whaddaya wanna / do?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 504,
+  "japanese": "1ポイントいただきます! / それでは^ナンバ}抽選 / スタ}}}トオォォォォォ!",
+  "english": "That's 1 point! / Aaand the number / lottery / staaaarts... NOW!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 505,
+  "japanese": "3ポイントいただきます! / それでは^ナンバ}抽選 / スタ}}}トオォォォォォ!",
+  "english": "That's 3 points! / Aaand the number / lottery / staaaarts... NOW!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 506,
+  "japanese": "5ポイントいただきます! / それでは^ナンバ}抽選 / スタ}}}トオォォォォォ!",
+  "english": "That's 5 points! / Aaand the number / lottery / staaaarts... NOW!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 508,
+  "japanese": "ジャ~ン! / 番で~っす!",
+  "english": "Ta-daaah! / The number is...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 509,
+  "japanese": "お落さんの会社ナンバ}は| / 番!",
+  "english": "And your member / number is... !",
+  "_note": "Winning number is engine-inserted; sentence intentionally left open before '!'."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 510,
+  "japanese": "{{{{{{{{{{{{{{{",
+  "english": "..............."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 512,
+  "japanese": "イムプは^新を受かく刻んで / 以った新[0x04FE]吹を宮外に / ふりまいて振ってくれた_",
+  "english": "The Imp celebrated / by showering you with / confetti made from / shredded paper!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 513,
+  "japanese": "いや~^やるっスね! / 兜内たりだしたのはお落さんが / なんとはじめて!!",
+  "english": "Wow, incredible! / You're the FIRST / customer ever to / hit the jackpot!!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 514,
+  "japanese": "というワケでとっておきの賞品| / 思大ビッチリ識別ブレスレット~！",
+  "english": "So here's the grand / prize... the memory- / packed Appraisal / Bracelet~!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 515,
+  "japanese": " /  /  / 識別ブレスレットを力に入れた!",
+  "english": " /  /  / Got the Appraisal / Bracelet!",
+  "_note": "Item name 識別ブレスレット rendered 'Appraisal Bracelet'; verify against item DB if it exists there."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 516,
+  "japanese": "ブレスレットに込められた思大から^ / 新しい戦美(アレイド)を / 力に入れた_",
+  "english": "From the memories / in the bracelet, / learned a new / Alaid!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 517,
+  "japanese": "ワ}プアタックを力に入れた_",
+  "english": "Learned Warp / Attack!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 518,
+  "japanese": "ちなみに罰回からの内選賞品は / 剣の封骨{魔法のワインに / 新自っスから!",
+  "english": "Oh, and from next / time the winning / prize changes to the / phantom vintage - / Magic Wine!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 519,
+  "japanese": "いや~^すごいっスね|_ / こう何度も兜内たりされちゃ^ / 商売あがったりっス|_",
+  "english": "Man, unbelievable... / Keep hittin' the / jackpot like this and / I'll go outta / business..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 520,
+  "japanese": "でもまあこれもサ}ビス! / 剣の封骨{魔法のワインを / [0x059A]し外がれ~!",
+  "english": "But hey, service is / service! Enjoy the / phantom vintage, / Magic Wine~!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 521,
+  "japanese": "魔法のワインを力に入れた!",
+  "english": "Got the Magic / Wine!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 522,
+  "japanese": "魔主ビンビンっスよ!",
+  "english": "Your magic'll be / buzzin'!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 523,
+  "japanese": "お落さん^もうポイント / 退ってないっすね_",
+  "english": "Looks like you're / all outta points, / customer."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 524,
+  "japanese": "またポイントじゃんじゃん / [0x06BC]めて帰てくださいっ!",
+  "english": "Stock up on lots / more points and / come back!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 525,
+  "japanese": "お落さん^まだポイント / 退ってるんすね_",
+  "english": "Oh, you've still / got points left!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 526,
+  "japanese": "じゃあついでにもう一回 / チャレンジします?",
+  "english": "Wanna give it / another go while / you're at it?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 528,
+  "japanese": "な~んだ退大! / じゃあまた帰てください!",
+  "english": "Aww, that's a shame! / Come again!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 529,
+  "japanese": "0000000123456789-抽選中{{{",
+  "english": "0000000123456789- / Drawing...",
+  "_note": "Digit prefix preserved verbatim; JP tail was a middot run rendered as '...'."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 530,
+  "japanese": "ジャ~ン! / 番で~っす!",
+  "english": "Ta-daaah! / The number is...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 531,
+  "japanese": "お落さんの会社ナンバ}は| / 番!",
+  "english": "And your member / number is... !"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 532,
+  "japanese": "{{{{{{{{{{{{{{{",
+  "english": "..............."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 533,
+  "japanese": "はっずぅ~れ~えええええぇい!",
+  "english": "Iiiit's a / miiiiiss!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 534,
+  "japanese": "や~^退大でしたね! / 退大だから退大賞!",
+  "english": "Ahh, too bad! And / for your bad luck - / a consolation / prize!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 535,
+  "japanese": "ジャ~ン! / 番で~っす!",
+  "english": "Ta-daaah! / The number is...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 536,
+  "japanese": "お落さんの会社ナンバ}は| / 番!",
+  "english": "And your member / number is... !"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 537,
+  "japanese": "{{{{{{{{{{{{{{{",
+  "english": "..............."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 538,
+  "japanese": "はっずぅ~れ~えええええぇい!",
+  "english": "Iiiit's a / miiiiiss!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 540,
+  "japanese": "竜薬の秘を力に入れた!",
+  "english": "Got an Energy / Tonic!",
+  "_note": "Item 竜薬の秘 (glyph-noisy) = restorative potion, matches kept m541 'I am full of energy!'. Name unverified against item DB."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 542,
+  "japanese": "向全っすか^了倒です!",
+  "english": "An explanation? / You got it!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 543,
+  "japanese": "え~^会社ナンバ}抽選はですね^ / ナンバ}抽選を行って^その番実が / 会社番実と同じなら内選です!",
+  "english": "The number lottery / works like this: / draw a number, and / if it matches your / member number - WIN!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 544,
+  "japanese": "内選すれば替華光品_ / なんと識別ブレスレット! / 思大もビッチリこびりついてます!",
+  "english": "Win, and the deluxe / prize is the / Appraisal Bracelet! / Packed full of / memories, too!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 545,
+  "japanese": "ただし^ブレスレットは1個しか / ないので内選者が出た時[0x0440]で / 行の光品にチェンジっス_",
+  "english": "But there's only ONE / bracelet - once / somebody wins it, / the prize changes to / something else!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 546,
+  "japanese": "義れれば参加賞{竜薬の秘_ / ん~^義れても替華っス! / 意主用竜でビンビンっス!",
+  "english": "Lose, and you still / get an Energy Tonic! / Even losing is / deluxe! Perks you / right up!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 547,
+  "japanese": "ちなみに1回の抽選につき / 1{3{5ポイントのうちどれだけ / 度うかを選べるっすよ_",
+  "english": "Each draw, you / choose to spend 1, / 3, or 5 points."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 548,
+  "japanese": "度うポイントが短いほど^ / 内選探報もぐ~んとアップ!",
+  "english": "The more points you / spend, the higher / your chance to / win!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 549,
+  "japanese": "ってなワケです! / どうですこの荷段全竜さ! / さあさあ^抽選してください!",
+  "english": "And that's the / deal! Generous, / right?! C'mon, / c'mon, try a draw!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 550,
+  "japanese": "向全っすか^了倒です!",
+  "english": "An explanation? / You got it!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 551,
+  "japanese": "え~^会社ナンバ}抽選はですね^ / ナンバ}抽選を行って^その番実が / 会社番実と同じなら内選です!",
+  "english": "The number lottery / works like this: / draw a number, and / if it matches your / member number - WIN!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 552,
+  "japanese": "内選すれば替華光品_ / なんと剣の封骨^魔法のワイン! / 魔主がみなぎるっス!",
+  "english": "Win, and the deluxe / prize is the phantom / vintage, Magic Wine! / Overflowing with / magic power!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 553,
+  "japanese": "義れれば参加賞{竜薬の秘_ / ん~^義れても替華っス! / 意主用竜でビンビンっス!",
+  "english": "Lose, and you still / get an Energy Tonic! / Even losing is / deluxe! Perks you / right up!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 554,
+  "japanese": "ちなみに1回の抽選につき / 1{3{5ポイントのうちどれだけ / 度うかを選べるっすよ_",
+  "english": "Each draw, you / choose to spend 1, / 3, or 5 points."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 555,
+  "japanese": "度うポイントが短いほど^ / 内選探報もぐ~んとアップ!",
+  "english": "The more points you / spend, the higher / your chance to / win!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 556,
+  "japanese": "ってなワケです! / どうですこの荷段全竜さ! / さあさあ^抽選してください!",
+  "english": "And that's the / deal! Generous, / right?! C'mon, / c'mon, try a draw!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 558,
+  "japanese": "ロ}ミおにいちゃんおねえちゃんあっ|持ってきてくれたの?",
+  "english": "Romi: Big bro, big / sis! Oh...! You / brought it for me?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 559,
+  "japanese": "ロ}ミに乙忍9名で投った / 看鞄を力渡した_",
+  "english": "You handed Romi the / leather bag found / on B9."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 560,
+  "japanese": "それは大思衛なことに^ / ロ}ミの意を念き通ることなく / 彼女の力に銀せられた_",
+  "english": "Strangely, it did not / pass through Romi's / body - it settled / gently into her / hands."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 561,
+  "japanese": "わたしのだ|_ / どうもありがとう!",
+  "english": "It's mine...! / Thank you so much!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 562,
+  "japanese": "これはね^お父さんとお[0x06CD]さんの / 思い出の品なんだって_ / お内りにって^もらったの_",
+  "english": "This is a keepsake / of Papa and Mama, / you see. They gave / it to me... as a / charm."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 563,
+  "japanese": "ロ}ミは楽しそうに / 鞄のひもをとき^中から / 門い宝剣を取り出した_",
+  "english": "Romi happily untied / the bag's cord and / drew out a short / gem sword."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 564,
+  "japanese": "へへ|療護な剣でしょ_",
+  "english": "Heehee... pretty / sword, isn't it?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 565,
+  "japanese": "ロ}ミに差し出された剣を / 力にとってみた_",
+  "english": "You took the sword / Romi held out to / you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 566,
+  "japanese": "剣に力れた途自^捷かい客識が / 宮の中に棄れ込んできた|_",
+  "english": "The moment you / touched it, a warm / feeling flowed / into you...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 567,
+  "japanese": "門い宝剣に込められた思大から^ / 新しい戦美(アレイド)を / 力に入れた_",
+  "english": "From the memories / in the gem sword, / learned a new / Alaid!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 568,
+  "japanese": "ブレイクサイレンスを力に入れた_",
+  "english": "Learned Break / Silence!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 570,
+  "japanese": "ロ}ミに剣を大した_",
+  "english": "You returned the / sword to Romi."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 571,
+  "japanese": "そうだ|お礼しなくっちゃ!",
+  "english": "Oh, right! I have / to thank you!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 572,
+  "japanese": "あのね^カウンタ}の外の宝袋を / 開けてみてちょうだい_",
+  "english": "Listen - open the / treasure bag just / outside the / counter, okay?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 573,
+  "japanese": "ロ}ミに言われたとおり^ / 盗し物カウンタ}の外にある / 間さな宝袋を開けてみた_",
+  "english": "As Romi said, you / opened the small / treasure bag outside / the Event Space / counter."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 574,
+  "japanese": "なかには何闘なベイクド拡で以られた / 療護な集取りが入っていた_",
+  "english": "Inside was a lovely / necklace made of / precious baked / coral."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 576,
+  "japanese": "生きてた達お[0x06CD]さんがいつも / つけてて^あこがれてたんだ~_",
+  "english": "When I was alive, / Mama always wore / one. I always / dreamed of having / it~"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 578,
+  "japanese": "わたし^買ったのはいいけれど / つけられないから^あげる_",
+  "english": "I finally bought / one, but I can't / wear it now... so / it's yours."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 579,
+  "japanese": "そう言ってロ}ミは^宝袋から / 集取りを取り出し^ / こちらによこした_",
+  "english": "With that, Romi took / the necklace from / the bag and held / it out to you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 581,
+  "japanese": "拡の集取りを力に入れた!",
+  "english": "Got the Coral / Necklace!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 582,
+  "japanese": " /  / 鎧の[0x0186]のところに / 識別ブレスレットが / はめられていた_",
+  "english": " /  / An Appraisal / Bracelet was fitted / on the armor's arm."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 583,
+  "japanese": "ブレスレットに込められた思大から^ / は / 新しい戦美(アレイド)を / 力に入れた_",
+  "english": "From the memories / in the bracelet, / learned a new / Alaid!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 584,
+  "japanese": "バックカバ}を力に入れた_",
+  "english": "Learned Back / Cover!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 585,
+  "japanese": "ライマンジル住損の街所に帰た_",
+  "english": "Laiman & Jill: You / arrived at the place / of the Seal.",
+  "_note": "住損 = 'the Seal' per shipped canon (batch_06 r1208 m559/570). Guide-tour finale location."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 586,
+  "japanese": "ライマン達は^その抜者町の / ない険光に[0x0447]用に目を / [0x0523]われ[0x0668]入っている_",
+  "english": "Laiman and the others / stood utterly / spellbound by the / unreal sight before / them."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 587,
+  "japanese": "しばらくしてやっとジルが / 言葉を発した_",
+  "english": "After a long moment, / Jill finally found / her words."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 588,
+  "japanese": "なんと言っていいのやら|_",
+  "english": "I hardly know what / to say..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 590,
+  "japanese": "こんなもの^今のこの時形に / つくろうとしても[0x0535]笑できっこ / ないでしょうな_",
+  "english": "No one could build / such a thing in this / day and age, that / much is certain."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 592,
+  "japanese": "この国誉の思全は / 級拠しているのか^ / それとも[0x04A4]拠しているのか|?",
+  "english": "Is this world's / civilization / advancing... or / regressing...?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 594,
+  "japanese": "とっても帯件な質だわ_",
+  "english": "What a terribly / ironic tale.",
+  "_note": "JP 帯件な質 glyph-noisy; read as 'ironic' bridging kept m593 'Too advanced, caused their fall!'."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 595,
+  "japanese": "きっと損表がお品りになって / 者増からこういう下ろしい知識を / 取り外げてしまったんだわ_",
+  "english": "Surely God grew / angry and took this / terrible knowledge / away from mankind."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 597,
+  "japanese": "そうね^ここで最装だし^ / 迷宮素査ももう武色に / 武しませてもらったわね_",
+  "english": "Yes... this is the / last stop, and we've / enjoyed quite enough / dungeon touring."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 598,
+  "japanese": "一[0x046C]者にはあまりにも / 刺動が力すぎたわ|_",
+  "english": "A little too much / excitement for / ordinary folk / like us..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 599,
+  "japanese": "どうも長い嫌お国質になりました_ / ガイドさん^装は彼神はあらかじめ / 立[0x050A]された[0x01AB]還の秘で戻ります_",
+  "english": "Thank you for / everything, guide. / We'll return with / the homeward potions / we were issued."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 601,
+  "japanese": "ライマン達は短く一礼をし^ / 二者ほぼ同時に[0x01AB]還の秘を / 飲んで良を消した_",
+  "english": "Laiman and Jill gave / a short bow, drank / their potions almost / in unison, and / vanished."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 602,
+  "japanese": "今はガイドの依頼中なので / 忍へ行くことはできない_",
+  "english": "You cannot go below / during the guide / request."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 603,
+  "japanese": "オ}ガおう^いらっしゃい_ / メダル所へようこそ!",
+  "english": "Ogre: Hey, welcome / to the Medal / Exchange!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 604,
+  "japanese": "さあ^なんにするんだ?",
+  "english": "So, what'll / it be?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 605,
+  "japanese": "おう^いらっしゃい_ / メダル所へようこそ!",
+  "english": "Hey, welcome to / the Medal / Exchange!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 606,
+  "japanese": "うちはメダルショップ_ / 長依メダルの[0x0512]売{倒着を / やってる店だ_",
+  "english": "We're a medal shop - / we sell and buy all / kinds of medals."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 607,
+  "japanese": "普成は口コミのみでひっそりと営買 / してるんだが^場別に壁冒16~20地 / だけここで商売してるんだ_",
+  "english": "Normally we run / quiet, word-of-mouth / only - but the 16th / to the 20th each / month, we're here!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 608,
+  "japanese": "さあ^なんにするんだ?",
+  "english": "So, what'll / it be?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 610,
+  "japanese": "おっと^すまねえなあ_ / 倒着は取り待ての解合外^ / 将[0x04E8]を魔物に限期してるんだ_",
+  "english": "Oh - sorry 'bout / that. Collection / bein' what it is, I / only buy medals from / monsters."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 611,
+  "japanese": "能しかったら買ってくれ! / さあ^どうするどうする?",
+  "english": "Buy somethin', will / ya! So how about / it, how about it?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 612,
+  "japanese": "そうかい! / じゃあまた帰てくれよな!",
+  "english": "That so? Then come / again, ya hear!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 613,
+  "japanese": "骨場のメダルは5枚で1000Gだ_ / 買っていくのか?",
+  "english": "Arena medals are 5 / for 1000G. / Buying?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 616,
+  "japanese": "ヴィガ}フレンズポイントも / 2ポイントやるからよ!",
+  "english": "Plus 2 Vigger / Friends points!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 618,
+  "japanese": "形臆1000Gを立払った_",
+  "english": "Paid 1000G."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 619,
+  "japanese": "骨場のメダルを5枚力に入れた!",
+  "english": "Got 5 Arena / Medals!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 621,
+  "japanese": "おいおいおい^崩るよ~! / あんた臆持ってないじゃん!",
+  "english": "Hey hey hey, gimme a / break~! You don't / have the money!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 622,
+  "japanese": "いっとくけど1Gもまけてやらねえぜ! / 長該ろうなんて更去な必えは / 捨てるんだな!",
+  "english": "And I'm tellin' ya, / not 1G off! Forget / any funny ideas / about haggling!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 623,
+  "japanese": "|で^まだ何か毒かい?",
+  "english": "...So, anything / else?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 624,
+  "japanese": "|あっそう_ / (ったく^この冷やかしやがって / 備えてやがれこのくそガキめ!)",
+  "english": "...Oh, is that so. / (Damn window- / shopper... you'll / get yours, ya / little brat!)"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 625,
+  "japanese": "|で^まだ何か毒かい?",
+  "english": "...So, anything / else?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 626,
+  "japanese": "え~|はいはい^打扱のメダルね|_",
+  "english": "Ehh... right-o, / dealer medals, / yeah...?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 627,
+  "japanese": "|あっ^すまんかった! / 今ちょうど器[0x0443]該らしてるよ!",
+  "english": "...Ah, my bad! / We're fresh outta / stock right now!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 628,
+  "japanese": "骨場のメダルだったらあるぜ! / どうだい^買ってくれよ!",
+  "english": "Arena medals I got! / How 'bout it - / buy some!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 629,
+  "japanese": "打扱のメダルは1枚限期で / 1000Gだが買っていくのか?",
+  "english": "Dealer medals are / limited to 1 each, / 1000G. Buying?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 632,
+  "japanese": "ヴィガ}フレンズポイントも / 2ポイントやるからよ!",
+  "english": "Plus 2 Vigger / Friends points!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 634,
+  "japanese": "形臆1000Gを立払った_",
+  "english": "Paid 1000G."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 635,
+  "japanese": "打扱のメダルを力に入れた!",
+  "english": "Got a Dealer / Medal!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 637,
+  "japanese": "おいおいおい^崩るよ~! / あんた臆持ってないじゃん!",
+  "english": "Hey hey hey, gimme a / break~! You don't / have the money!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 638,
+  "japanese": "いっとくけど1Gもまけてやらねえぜ! / 長該ろうなんて更去な必えは / 捨てるんだな!",
+  "english": "And I'm tellin' ya, / not 1G off! Forget / any funny ideas / about haggling!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 639,
+  "japanese": "|で^まだ何か毒かい?",
+  "english": "...So, anything / else?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 640,
+  "japanese": "|あっそう_ / (ったく^この冷やかしやがって / 備えてやがれこのくそガキめ!)",
+  "english": "...Oh, is that so. / (Damn window- / shopper... you'll / get yours, ya / little brat!)"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 641,
+  "japanese": "|で^まだ何か毒かい?",
+  "english": "...So, anything / else?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 642,
+  "japanese": "え~|はいはい^打扱のメダルね|_",
+  "english": "Ehh... right-o, / dealer medals, / yeah...?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 643,
+  "japanese": "|あっ^すまんかった! / 今ちょうど器[0x0443]該らしてるよ!",
+  "english": "...Ah, my bad! / We're fresh outta / stock right now!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 644,
+  "japanese": "骨場のメダルだったらあるぜ! / どうだい^買ってくれよ!",
+  "english": "Arena medals I got! / How 'bout it - / buy some!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 645,
+  "japanese": "ヴィガ}商店の立店を / 迷宮B5に開勇噂築になりました_",
+  "english": "A Vigger Shop branch / has opened on / Labyrinth B5!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 646,
+  "japanese": "オ}クキャスタ[うっうっ|えぐっ|]",
+  "english": "Orc Casta: Uhh... / *sob*... *hic*..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 647,
+  "japanese": "扉を開けると^中では / 一己のオ}クが瓶り込み / 年きじゃくっていた_",
+  "english": "Opening the door, / you find a lone Orc / slumped down, / sobbing his eyes / out."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 648,
+  "japanese": "おだ|おだ^ちょうさしてた / だけなんだよう_ / だのに^だのに^しどいべ|_",
+  "english": "Me... me was just / lookin' around... / But, but... it was / so mean...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 649,
+  "japanese": "オ}ガみたいなでっけえ / にんげんが^オダのことみつけて / でっけえオノかまえで|かまえで|_",
+  "english": "A huuuge human like / an Ogre found me, / and raised a huuuge / axe... an axe...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 651,
+  "japanese": "ボカ}ンて^あたまをボカ}ンと / なぐられただよう|_ / おおおおおうおうおうおう!!!",
+  "english": "KA-BONK! Hit me / right on the head, / KA-BONK...! / Waaaaahhhhh!!!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 652,
+  "japanese": "オ}クは年きやまない_",
+  "english": "The Orc will not / stop crying."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 653,
+  "japanese": "おねがいだよ|あんなわるい / ぼうけんしゃは^こらしめでくで! / たのむうううううう!",
+  "english": "Please...! Teach / that bad adventurer / a lesson! / Pleeeease!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 654,
+  "japanese": "オダがアイテムあつめるのに / へんなカオがかざってあるとこに / いったとき^いただよ!",
+  "english": "He was there when me / went collectin' / items, where the / weird face is / hangin' up!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 655,
+  "japanese": "きたのにしのはじっこの / でっけえへやだよ!!",
+  "english": "The big room at the / northwest corner!!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 656,
+  "japanese": "へんなカオをベタベタさわってるから / へんなヤツだ}とおもって^みてたら / [なにみてんだ!]ておこっただ!",
+  "english": "He kept pattin' the / weird face, so me / watched, thinkin' / 'weird guy' - then he / yelled 'Whatcha / lookin' at?!'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 657,
+  "japanese": "んで^んで^オダごめんなさいっで / ちゃんとあやまっだのに|_ / あやまっだのにいいぃぃぃ!!!",
+  "english": "And, and me said / sorry! Me apologized / all proper...! / Apologiiiized!!!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 658,
+  "japanese": "オ}クは自に動しく年き叫ぶ_",
+  "english": "The Orc bawled / louder still."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 659,
+  "japanese": "あいつ^あのへんてこなカオが / すっげくおきにいりみたいだから / きっとあそこにまたくるだよ!",
+  "english": "That guy really / loves that funny / face, so he's sure / to come back / there!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 660,
+  "japanese": "だから^あそこでまちぶせしてれば / かたきうちできるだよ!",
+  "english": "So if ya wait in / ambush there, ya / can avenge me!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 661,
+  "japanese": "おだ^あいつがこのよから / いなくなるまで^おっかなくて / もうそとをあるけねえだ|_",
+  "english": "Me's too scared to / walk outside till / that guy's gone from / this world..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 662,
+  "japanese": "だから^おめえがあいつを / やっつけてくでるまで^ここに / かくれてるだよ|_",
+  "english": "So me's hidin' here / till ya beat him / up..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 663,
+  "japanese": "ここでひろった^カッチョいい / ブ}ツもオメェにやるからよう|_",
+  "english": "Me'll even give ya / these coooool boots / me found here..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 664,
+  "japanese": "オ}クは影新わらず^ / 年きじゃくっていた_",
+  "english": "The Orc was still / sobbing away."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 665,
+  "japanese": "またおまえか|_ / なんだよ^おまえはオダのこころを / いじめるつもりかよ|_",
+  "english": "You again...? What, / ya wanna bully me's / heart some more...?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 666,
+  "japanese": "やめてくでよ|_ / オダをこれいじょう^ / きずつけねえでくでよう|_",
+  "english": "Stop it... Don't / hurt me no / more..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 667,
+  "japanese": "ううう^たのむよう|_ / おめえならかたきうちしてくでるって / しんじてるだよ|どうなんだよう!",
+  "english": "Uuu, please... Me / believes ya'll / avenge me... Well? / Will ya?!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 668,
+  "japanese": "オ}クは影新わらず^ / 年きつづけている|_",
+  "english": "The Orc was still / crying away..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 669,
+  "japanese": "[あいつにみつかったら / やばいで^あんまり / はいってくるなよう|]",
+  "english": "'If he finds ya it's / real bad, so quit / comin' in here so / much...'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 670,
+  "japanese": "うおお^かたきうちしてくでるか! / おだ|おだ|うれしいだ! / ぜひともおねがいするだよ|!",
+  "english": "Whoa! Ya'll avenge / me?! Me... me's so / happy! Please, / please do it...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 671,
+  "japanese": "ううう|おだはここで / ぶるぶるふるえてまってるから^ / かたきうちよろしくたのむだ!",
+  "english": "Uuu... me'll wait / here shiverin', so / get that revenge / for me!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 672,
+  "japanese": "ひどいだ|ひどすぎだ|_ / おだはこんなにかなしんでるのに / おめえもあいつのみかただ|_",
+  "english": "So mean... too / mean...! Me's / grievin' and ya / side with HIM..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 673,
+  "japanese": "ううう|おだはここで / ぶるぶるふるえてるんだから^ / でてってくで|_",
+  "english": "Uuu... me's here / shiverin', so get / out...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 674,
+  "japanese": "オ}クに漢い出された_",
+  "english": "The Orc threw / you out."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 676,
+  "japanese": "商のある街所でそれらしき戦帰に / 会ったこと^そしてその戦帰との / 戦いに仰ったことを聞かせた_",
+  "english": "You told him about / meeting such a / warrior by the / statue - and winning / the fight."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 677,
+  "japanese": "それを聞いたオ}クの野には / また涙があふれてきた_",
+  "english": "Hearing that, tears / welled up in the / Orc's eyes again."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 678,
+  "japanese": "ほ|ほんとだか|! / ほんとに^あのわるいやつを / こらしめてくれただか|!",
+  "english": "R-really...?! Ya / really taught that / bad guy a / lesson...?!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 679,
+  "japanese": "おめえ|いいやつだなあ! / オダ^カンド}のあまり^ / またなみだがでてきちまった|_",
+  "english": "Yer... yer a good / one! Me's so moved, / the tears're comin' / again..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 680,
+  "japanese": "これでオダは^あんしんして / ばぁこのまってるところに / かえれるってワケだな_",
+  "english": "Now me can go back / to where Baago's / waitin', no / worries."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 681,
+  "japanese": "おだ^キャスタっていうだ! / ワケあってにっくきライバルの / ばぁことまよいこんでるだ|_",
+  "english": "Me's called Casta! / Long story, but me / got stuck in here / with me's hated / rival Baago...",
+  "_note": "Casta mispronounces Vago as ばぁこ ('Baago'); corrected by himself in m682. Kept the mispronunciation."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 682,
+  "japanese": "あっ^ヴァ}ゴだったべか_ / どっちでもいいとおもうんだが^ / アイツうるさいからなあ|_",
+  "english": "Oh - was it Vago? / Me thinks either's / fine, but that one / gets real loud / about it..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 683,
+  "japanese": "キャスタはヴァ}ゴの品った顔を / 戦[0x0526]て^力を途野でつりあげた_",
+  "english": "Casta mimicked / Vago's angry face, / tugging his eyes up / with his fingers."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 684,
+  "japanese": "さがしてたものもみつけたし^ / とっととかえるだよ!",
+  "english": "Me found what me / was lookin' for, so / me's headin' home!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 685,
+  "japanese": "オダ^ちか4かいにいるだ_ / じめんから^みちがボコボコでてくる / あたりのへやが^ひみつきちだ!",
+  "english": "Me's on B4! The room / near where paths pop / up outta the ground / - that's the secret / base!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 686,
+  "japanese": "オダたち^いつまでいるかわかんねえ / けども|ヒマだったら / あそびにきてくでよなっ!",
+  "english": "Dunno how long we's / stayin', but come / hang out if yer / free!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 687,
+  "japanese": "ヴァ}ゴの品った顔を戦[0x0526]て^力で / 途野をつりあげてみせるキャスタに / ヴァ}ゴが素していることを寺えた_",
+  "english": "As Casta mimicked / Vago's angry face, / you told him Vago / was searching for / him."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 688,
+  "japanese": "  / なにい~~~~~~~~~?!",
+  "english": "  / WHAAAAAAAAT?!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 689,
+  "japanese": "そ|そうだったのか}|_ / オメ}^ばぁこにたのまれて / オダのことさがしてただか|!",
+  "english": "S-so that's it...! / Ya was lookin' for / me 'cause Baago / asked ya...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 690,
+  "japanese": "ひとにたのむほどさがしてるって / ことは|ひええ^ばぁこのやつ^ / チョ}おこってるんだろうべな|_",
+  "english": "If she's askin' / strangers for / help... yikes, Baago / must be SUUUPER / mad..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 691,
+  "japanese": "いけねえ^オダ^さきにもどるだよ_ / おめぇもばぁこにおれいをもらう / やくそくしてるんだろう?",
+  "english": "Uh-oh, me better / head back first. Ya / got a reward / promised from Baago / too, right?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 692,
+  "japanese": "だったら^またちか4かいの / ひみつきちにきてくでよな!",
+  "english": "Then come by the / secret base on B4 / again!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 695,
+  "japanese": "ヴィガ}商店の立店を / 迷宮B5に開勇噂築になりました_",
+  "english": "A Vigger Shop branch / has opened on / Labyrinth B5!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 697,
+  "japanese": "だが主の差は^ / 予恵としているようだ_",
+  "english": "But the outcome / seems already / decided."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 698,
+  "japanese": "後[0x04E1]いをする / 知与な倉好の者達を / 取り来むようにして^ / [0x04A5]力な戦帰達が^ / 一今宿な変戮を行っていた_",
+  "english": "Burly warriors had / ringed in strangely / dressed men begging / for their lives - / a one-sided / slaughter."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 699,
+  "japanese": "そのうちの一者が威げ出してきた_",
+  "english": "One of them broke / and ran."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 700,
+  "japanese": "少し払れた場暗で / 戦帰達に気悔を撃っていた / リ}ダ}倉の与が^ / 議早く重装に[0x05E1]り^ / 会後宿な一仕を伝えた_",
+  "english": "The leader directing / the warriors from a / distance swiftly / circled behind him / and dealt the final / blow."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 701,
+  "japanese": "とどめを刺したナイフを / 力にしながら / フ}ドの与は天を仰ぎ^ / 冒いた_",
+  "english": "Knife still in hand / from the killing / blow, the hooded man / looked skyward and / murmured."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 702,
+  "japanese": "フ}ドの与|更然に退大だ_ / これほど汝強したことは久しくない_",
+  "english": "Hooded Man: ...Truly / a shame. It has been / long since I was / this disappointed."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 703,
+  "japanese": "者の客[0x06C1]というものの巨さを^ / 慎めて退感せざるを得ませんね_",
+  "english": "One cannot help but / feel anew, sir, how / deep the weakness / of men runs.",
+  "_note": "JP 者の客[06C1] (unverified glyph) read as human frailty/karma; aide's polite register."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 704,
+  "japanese": "探かにいかなる力者であっても^ / 死を嫌多にした時には役放を見せて / しまうもの_",
+  "english": "Indeed. However / strong a man may be, / he shows his true / nature when death / stands before him."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 705,
+  "japanese": "それを[0x04ED]めるほど余は[0x0650]かではない_",
+  "english": "I am not so foolish / as to blame them / for that."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 706,
+  "japanese": "だが^汝は知っていたかね?",
+  "english": "But did you / know?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 707,
+  "japanese": "ここに忘れている者は^ / 邪向なる法に[0x0668]せられ^ / 値ら向鬼のをを王んだ優臆美解ども_",
+  "english": "These men lying here / are alchemists who, / seduced by wicked / arts, chose the / demon's path / themselves."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 708,
+  "japanese": "言わば^向を封すために生きてきた / 者達なのです_",
+  "english": "Men who lived, one / might say, to work / evil."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 709,
+  "japanese": "それをあきらめが向いにもほどがある_",
+  "english": "And yet - such / unseemly clinging / to life."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 710,
+  "japanese": "騎帰団の今達をああも辺退に変して / おいたくせに^",
+  "english": "After butchering the / knights of the Order / so mercilessly,"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 711,
+  "japanese": "今度は^値色が変される番になると^ / あのようにあさましく後[0x04E1]いを / するとは_",
+  "english": "...they grovel so / shamelessly the / moment their own / turn comes to die."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 712,
+  "japanese": "退大だ^役内に退大で一今がない_",
+  "english": "A shame. Truly, an / utter shame."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 713,
+  "japanese": "永遠なる後に[0x0668]せられた者同帰^ / もっと語り合えるものだと思っていたが^ / あれでは^ダメだ|_",
+  "english": "I had hoped that we, / fellow men enthralled / by eternity, might / talk at length. But / that... will not / do..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 714,
+  "japanese": "フ}ドの与は / 誰を柄切に後って / 汝客のため息をついた_",
+  "english": "The hooded man shook / his head and sighed / in disappointment."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 715,
+  "japanese": "彼らでは^兜いなる呪儀の扉を嘆くこと / もできません_",
+  "english": "Men like them could / never so much as / knock at the door of / the great / mysteries."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 716,
+  "japanese": "やはり何事もそうですが^ / 向事を傷くにも心築と[0x0473]言が必要という / ことでしょうな_",
+  "english": "As with all things, / it seems - even / evil work takes / talent and gift."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 717,
+  "japanese": "戦帰お宮^転ら打扱の書を持っていやせんぜ_ / どうしやす?",
+  "english": "Warrior: Boss, they / ain't carryin' the / book. What now?",
+  "_note": "打扱の書 'the book' - exact JP title glyph-uncertain (same glyphs as 'dealer' in medal scene); kept generic 'the book'."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 718,
+  "japanese": "口を[0x0598]らそうにも用社変しちまったし^ / [0x0447]用にお力外げ回態ですぜ|_",
+  "english": "Can't make 'em talk / now we've gone and / killed 'em all... / we're flat outta / moves here..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 719,
+  "japanese": "なんてことですか|_",
+  "english": "What have you / done..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 720,
+  "japanese": "[0x0634]みそを度いなさい^せっかく損表から / いただいた[0x0634]みそを_",
+  "english": "Use the brains God / gave you, man. The / good brains."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 721,
+  "japanese": "彼らが持っていないということは^ / すなわち過かに力渡したことに行ならない / のでは?",
+  "english": "If they do not have / it, then it can only / mean they passed it / to someone. No?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 722,
+  "japanese": "[0x01E1]荷な消防法ですよ_",
+  "english": "Simple process of / elimination."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 723,
+  "japanese": "いま打扱の書は^ / 優臆美解どもと[0x0420][0x014D]のあった者の力に / あるはずです_",
+  "english": "The book must now / rest in the hands of / someone who had / dealings with these / alchemists."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 724,
+  "japanese": "そんじゃあ^ / やっぱりウェブスタ}の稀祈が|_",
+  "english": "Then... it's gotta / be that Webster / bastard..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 725,
+  "japanese": "一今ありませんね_ / 法王庁と事を余えるのは / 動口な力成ではありませんが^",
+  "english": "No helping it, then. / Crossing the Papacy / is hardly the wise / course, but..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 726,
+  "japanese": "さあ^話ぎましょう_ / どうやら時は待ってくれなさそうです_",
+  "english": "Come, let us make / haste. Time, it / seems, will not / wait for us."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 727,
+  "japanese": "アルケミスト余は優臆美を覚う者_ / 優臆美で生封された者勲の回態を / 見ることで生無をたてている_",
+  "english": "Alchemist: I am a / student of alchemy. / I make my living / reading dolls / wrought by the art."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 728,
+  "japanese": "道登は意地に限らず一[0x0515]1000G_ / 目を持たぬ者勲にどれ幸の目のかけらが / [0x064B]低されているかを見てやろう_",
+  "english": "The fee is 1000G per / doll. I shall see / how many soul- / fragments lie stored / in a doll not yet / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 729,
+  "japanese": "どうだね? / 汝の値功者勲が今どれぐらいの / 封長過幸にあるか道べてやろうか?",
+  "english": "Well then - shall I / examine how far / your Automaton has / progressed?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 731,
+  "japanese": "余は優臆美を覚う者_ / 優臆美で生封された者勲の回態を / 見ることで生無をたてている_",
+  "english": "I am a student of / alchemy. I make my / living reading dolls / wrought by the art."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 732,
+  "japanese": "汝は見たところ^値功者勲を支れては / いないようだな|_",
+  "english": "Hm. By the look of / it, you travel with / no Automaton..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 733,
+  "japanese": "余は壁冒6~15地の嫌ここにいる_ / 目を持たない者勲を支れている / ときは^ここへ持ってくるといい_",
+  "english": "I am here from the / 6th to the 15th each / month. Bring any / unawakened doll you / carry to me."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 734,
+  "japanese": "図期料1000Gを払った!",
+  "english": "Paid the 1000G / examination fee!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 735,
+  "japanese": "汝はヴィガ}フレンズ会社だね_ / 2ポイント加算しておこう_",
+  "english": "You're a Vigger / Friends member. / 2 points added."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 736,
+  "japanese": "では^図期してあげよう_",
+  "english": "Then let us begin / the examination."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 737,
+  "japanese": "いいだろう_ / では^図期してあげよう_",
+  "english": "Very well. Then let / us begin the / examination."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 738,
+  "japanese": "優臆美解は場[0x047B]なを処を度い / 入大にオ}トマタ}を道べた_",
+  "english": "The alchemist / examined the / Automaton carefully / with peculiar / instruments."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 739,
+  "japanese": "は既に目が / 芽生えているようだな_",
+  "english": "This one has / already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 740,
+  "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
+  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "_note": "Digit prefix preserved for runtime number rendering."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 741,
+  "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
+  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 742,
+  "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
+  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
+  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 743,
+  "japanese": "鍵奥によると^者勲に目が芽生える達 / には1188000の員験が近る / と言われているので参必にしなさい_",
+  "english": "Research holds a / doll needs 1188000 / experience for its / bud to sprout. Keep / that in mind."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 744,
+  "japanese": "は既に目が / 芽生えているようだな_",
+  "english": "This one has / already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 745,
+  "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
+  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "_note": "Digit prefix preserved for runtime number rendering."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 746,
+  "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
+  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 747,
+  "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
+  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
+  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 748,
+  "japanese": "鍵奥によると^者勲に目が芽生える達 / には1188000の員験が近る / と言われているので参必にしなさい_",
+  "english": "Research holds a / doll needs 1188000 / experience for its / bud to sprout. Keep / that in mind."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 749,
+  "japanese": "は既に目が / 芽生えているようだな_",
+  "english": "This one has / already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 750,
+  "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
+  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "_note": "Digit prefix preserved for runtime number rendering."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 751,
+  "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
+  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 752,
+  "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
+  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
+  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 753,
+  "japanese": "鍵奥によると^者勲に目が芽生える達 / には1188000の員験が近る / と言われているので参必にしなさい_",
+  "english": "Research holds a / doll needs 1188000 / experience for its / bud to sprout. Keep / that in mind."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 754,
+  "japanese": "は既に目が / 芽生えているようだな_",
+  "english": "This one has / already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 755,
+  "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
+  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "_note": "Digit prefix preserved for runtime number rendering."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 756,
+  "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
+  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 757,
+  "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
+  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
+  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 758,
+  "japanese": "鍵奥によると^者勲に目が芽生える達 / には1188000の員験が近る / と言われているので参必にしなさい_",
+  "english": "Research holds a / doll needs 1188000 / experience for its / bud to sprout. Keep / that in mind."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 759,
+  "japanese": "は既に目が / 芽生えているようだな_",
+  "english": "This one has / already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 760,
+  "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
+  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "_note": "Digit prefix preserved for runtime number rendering."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 761,
+  "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
+  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 762,
+  "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
+  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
+  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 763,
+  "japanese": "鍵奥によると^者勲に目が芽生える達 / には1188000の員験が近る / と言われているので参必にしなさい_",
+  "english": "Research holds a / doll needs 1188000 / experience for its / bud to sprout. Keep / that in mind."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 764,
+  "japanese": "は既に目が / 芽生えているようだな_",
+  "english": "This one has / already / awakened."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 765,
+  "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
+  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "_note": "Digit prefix preserved for runtime number rendering."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 766,
+  "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
+  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 767,
+  "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
+  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
+  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 768,
+  "japanese": "鍵奥によると^者勲に目が芽生える達 / には1188000の員験が近る / と言われているので参必にしなさい_",
+  "english": "Research holds a / doll needs 1188000 / experience for its / bud to sprout. Keep / that in mind."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 769,
+  "japanese": "優臆美解は図期を編え^一息ついた_",
+  "english": "The alchemist / finished the reading / and drew a breath."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 770,
+  "japanese": "どうだ^命加したかね? / また図期して能しくなったら / ここへ帰るといいだろう_",
+  "english": "Well - satisfied? / Come again whenever / you wish another / examination."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 771,
+  "japanese": "暗持臆が加りなかった|_",
+  "english": "Not enough money / on hand...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 772,
+  "japanese": "なんだ^臆が加りないのか_ / 余も慈[0x06BE]事買をやっているわけでは / ないので^それではみてやれんな_",
+  "english": "What, short of / coin? I run no / charity - without / the fee, no / reading."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 773,
+  "japanese": "臆に作[0x05DC]ができれば^ / また帰るといい_",
+  "english": "When your purse / recovers, come / again."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 774,
+  "japanese": "そうか^必要ないか_ / 探かに行の者の目をのぞくなど / 忍国質なことではある_",
+  "english": "I see - no need, / then. True, peering / into another's soul- / bud is a boorish / business."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 775,
+  "japanese": "城町があれば^また帰るといい_",
+  "english": "If you're ever / curious, come / again."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 776,
+  "japanese": "余は優臆美を覚う者_ / 今は^置形エルフ王息の遺[0x04E4]について / 鍵奥をしている_",
+  "english": "I am a student of / alchemy. At present / I research the ruins / of the ancient Elven / dynasty."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 777,
+  "japanese": "今はまだ準備が出帰ておらず^ / 開店閉買回態だ_",
+  "english": "My preparations are / not yet complete - / open for business / in name only, I'm / afraid."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 778,
+  "japanese": "準備が地えば優臆美に人間する / 店を開くつもりでいるから^ / またいつか帰てくれたまえ_",
+  "english": "Once ready, I mean / to open a shop of / the alchemic arts - / so do come again / someday."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 779,
+  "japanese": "[ここです オロガド] / と書かれている_",
+  "english": "It reads: / 'This is the place. / - Orogado'",
+  "_note": "オロガド 'Orogado' = signature on the fake-request sign (the Ogre Lord's alias); no prior canon spelling found."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 780,
+  "japanese": "[ここです オロガド] / と書かれている_",
+  "english": "It reads: / 'This is the place. / - Orogado'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 781,
+  "japanese": "どうやらここが^ / 骨場で受けた依頼の場暗らしい_",
+  "english": "This seems to be the / place from that / request."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 782,
+  "japanese": "[0x042D]りを見回してみたが^ / 者称は見あたらない_",
+  "english": "You look around, but / there is no one in / sight."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 783,
+  "japanese": "[帰てくれたんですね!]",
+  "english": "'You came...!'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 784,
+  "japanese": "話に装ろから声をかけられ^ / 岩いて後り向いた_",
+  "english": "A voice from behind / - you spin around, / startled."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 785,
+  "japanese": "オ}ガロ}ドち^ちくしょう|",
+  "english": "Ogre Lord: D-damn / you...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 786,
+  "japanese": "俺表の^[ここで待ってるだけで / カモがネギしょってやってきて / ウハウハ以戦]が|_",
+  "english": "My perfect 'just / wait here and dinner / delivers itself' / scheme...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 787,
+  "japanese": "オ}ガロ}ドは退大そうに忘れた_",
+  "english": "The Ogre Lord fell, / looking bitterly / disappointed."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 788,
+  "japanese": "オ}ガロ}ドのかたわらに / [0x04F8]が落ちている_",
+  "english": "An axe lies beside / the Ogre Lord."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 789,
+  "japanese": " /  / バトルアックスを力に入れた|_",
+  "english": " /  / Got a Battle / Axe...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 790,
+  "japanese": "現決骨場で受けた依頼の / 場暗にやって帰た_",
+  "english": "You arrived at the / place named in the / request."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 791,
+  "japanese": "街所に入ると^奥で現決の[0x04A8]れが / オ}ガ達の死意を[0x0621]っていた_",
+  "english": "Inside, a pack of / bandits was picking / over the Ogres' / corpses in the / back."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 792,
+  "japanese": "[なんだ^コイツら / ろくなもん持ってやしねぇ_ / しけてやがるぜ]",
+  "english": "'Tch. These guys / ain't got nothin' / good on 'em. What / a lousy haul.'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 793,
+  "japanese": "[ちっ^あてが義れたな]",
+  "english": "'Tch. So much for / that plan.'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 794,
+  "japanese": "[まあ^見るからに座しいあんな依頼に / 祠っかかるバカ^そうはいねぇ|]",
+  "english": "'Well, ain't many / fools who'd bite on / such an obviously / shady request...'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 796,
+  "japanese": "現決の一者が^ / こちらに頼づいたらしい_",
+  "english": "One of the bandits / seems to have / noticed you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 797,
+  "japanese": "[た^隊長! バカ発見!]",
+  "english": "'C-Captain! Fool / spotted!'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 799,
+  "japanese": "ガラの向そうな現決達が / 忍品に多いながら多づいて帰た_",
+  "english": "The rough-looking / bandits closed in, / snickering / crudely."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 802,
+  "japanese": "|依頼を見てやって帰た / イイコちゃんか~い?",
+  "english": "...So YOU'RE the / good little kids who / saw the request and / came a-runnin'?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 803,
+  "japanese": "ついでだ! / おめえら^こいつもやっちまうぞ!",
+  "english": "While we're at it - / boys, let's do this / lot too!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 806,
+  "japanese": "俺表の^ / [[0x0621]遺の動で兜域け /  宮いい俺表モテモテ以戦]が|_",
+  "english": "My 'loot the loot, / get rich, ladies / love dashing me' / scheme...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 807,
+  "japanese": "現決は退大そうに忘れた_",
+  "english": "The bandit fell, / looking bitterly / disappointed."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 808,
+  "japanese": "現決のかたわらに[0x0600]が落ちている_",
+  "english": "Something lies / beside the bandit."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 809,
+  "japanese": " /  / ねがいの[0x0600]を力に入れた!",
+  "english": " /  / Got the Wishing / Stone!",
+  "_note": "ねがいの[0x0600] - object glyph unresolved; 'Wishing Stone' inferred. Verify against item DB."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 810,
+  "japanese": "アルバイト商店でアルバイトをしている / オ}クに出会った_",
+  "english": "You ran into the Orc / who works part-time / at the shop."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 811,
+  "japanese": "オ}クも顔を備えていたらしく / 楽しそうに多復ってきた_",
+  "english": "The Orc seemed to / remember your face, / and beamed right / back."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 812,
+  "japanese": "どっ^どうもです~~~ / オダのことわかりますだか? / えっと|アルバイトしてますだ!",
+  "english": "H-hello there~~~ / Do ya remember me? / Um... me's workin' / part-time!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 813,
+  "japanese": "うれしいだ~もしかして / オダたちがしんぱいで / ようす^みにきてくでたですか?",
+  "english": "So happy~ Did ya / come to check up / on us? That's / real nice!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 814,
+  "japanese": "オダたちがんばりますだよ! / でわっ^せんぱいも / がんばってくだせえ!",
+  "english": "We'll do our best! / Well then - senpai, / you do your best / too!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 815,
+  "japanese": "オ}クは楽しそうに / 素査以買に戻った_",
+  "english": "The Orc happily / went back to / work."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 816,
+  "japanese": "アルバイトの信頼度が5外がった!",
+  "english": "Part-timer trust / went up by 5!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 817,
+  "japanese": " /  /  / 野の両の商を持むまゆに / 知与なアイテムがひっかかっていた_",
+  "english": " /  /  / A strange item was / caught in the cocoon / wrapping the statue / before you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 818,
+  "japanese": "イグのプリズムを力に入れた_",
+  "english": "Got Ig's Prism!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 819,
+  "japanese": "[かつて[0x054F]められていた損も^  /  こうしていまは勢骸になり^  /  迷宮の奥笑で朽ち員てている]",
+  "english": "'A god once / worshipped, now a / mere husk, rotting / in the labyrinth's / depths.'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 820,
+  "japanese": "[損など^どこにもいやしない]",
+  "english": "'There are no gods. / Not anywhere.'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 821,
+  "japanese": "焼の住処に腕を持んだ女放が / 遠い冒差しをして^ / 失損の商を回めていた_",
+  "english": "A woman who had / stepped into the / lair gazed with / distant eyes at the / fallen god's / statue.",
+  "_note": "焼属の女放 (Aoi's epithet) glyph-uncertain; rendered simply 'a woman' per canon precedent (batch_06 dodges it too)."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 822,
+  "japanese": "アオイ焼属の女放もし損が役内にいるのなら|^",
+  "english": "Aoi: If gods truly / existed..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 823,
+  "japanese": "余がここにいることもなく^ / 今もあの[0x06E2]で[0x05F3]らしているはず_",
+  "english": "...I would not be / here. I would still / be living in that / village."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 824,
+  "japanese": "かつて余は間さな[0x06E2]で / 損の言葉を寺えるシスタ}だった_",
+  "english": "Once, I was a / sister in a small / village, carrying / the words of God."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 825,
+  "japanese": "損の言葉といっても^ / 携して兜げさなものじゃない_",
+  "english": "Not that His words / were anything / grand."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 826,
+  "japanese": "系しさや繁強といった^ / 幸せに生きていくために過もが持つ / 間さな戻りのようなもの_",
+  "english": "Just the small / lights everyone / needs to live / happily - kindness, / patience... things / like that."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 827,
+  "japanese": "何しろ役会に撃まってくる[0x06E2]者は^ / 臆[0x05FF]を見たことのない者もいるほど / 段[0x04EA]な者達だった_",
+  "english": "The villagers who / gathered at church / were so poor, some / had never even seen / a gold coin."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 828,
+  "japanese": "彼らは刻しいけど段[0x04EA]で[0x04AD]後に / 生きていた|_",
+  "english": "They were poor, but / honest - they lived / earnestly..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 829,
+  "japanese": "今でも彼らの顔をすべて思い出せる_ / もうこの国に選ないとは信じられ / ないほど[0x04B1]全に|_",
+  "english": "Even now I remember / every face. So / vividly I cannot / believe they are / gone from this / world..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 830,
+  "japanese": "焼属の女放は^ / ふと彼に大り^ / 翼りすぎたことを装[0x048A]した_",
+  "english": "The woman came back / to herself, / regretting having / said too much."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 831,
+  "japanese": "[アオイさん! /  そんなところに //  /  いらしたんですか?]",
+  "english": "'Miss Aoi! So this / is where you / were?'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 832,
+  "japanese": "騎帰団の者が向こうで / 焼属の女放を高んでいた_",
+  "english": "A member of the / Order was calling / her from across / the way."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 833,
+  "japanese": "|ごめんなさい^ / つまらないことを質してしまって_",
+  "english": "...Forgive me. I've / bored you with / idle talk."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 834,
+  "japanese": "焼属の女放が / 待ち防ろうとしたとき^ / 義恵ヴェ}ラが高び限めた_",
+  "english": "As Aoi was about / to leave, Vera / suddenly stopped / her."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 836,
+  "japanese": "[|なぜ何表が   /  生きているんだ]",
+  "english": "'...Why are you / still alive?'"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 837,
+  "japanese": "ヴェ}ラの声は^ / 功雑と品りで難えている_",
+  "english": "Vera's voice / trembled with / agitation and / anger."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 838,
+  "japanese": "アオイは王を限め^ / ゆっくりと後り向いた_",
+  "english": "Aoi stopped walking / and slowly turned / around."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 839,
+  "japanese": "ヴェ}ラアオイなぜ^何表だけが生きている!",
+  "english": "Vera: Aoi, why are / you the only one / still alive?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 840,
+  "japanese": "ヴェ}ラは / 品りに[0x0518]える[0x041F]を向け^ / 今にも斬りかからんばかりの / 前いで[0x06BD]め復った_",
+  "english": "Vera's eyes blazed / with anger, ready / to strike her down / at any moment."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 841,
+  "japanese": "向全しろ!! / 行の退嫌はどうした!?",
+  "english": "Explain yourself!! / What happened to / the rest of the / squad?!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 842,
+  "japanese": "なぜ何表だけ生き退っているんだ!",
+  "english": "Why are you the / only one who / survived?!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 843,
+  "japanese": "アオイは野を[0x04AB]せたまま^ / 何も言わない_",
+  "english": "Aoi kept her eyes / down and said / nothing."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 844,
+  "japanese": "何表^何も答えられないのか^ / やはり^シムゾンを忠該ったのか|_",
+  "english": "You won't answer? / Did you betray / Simzon after / all...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 845,
+  "japanese": "これを見るといいわ_",
+  "english": "You should read / this."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 846,
+  "japanese": " /  /  / アオイは / 一羽の力記を差し出した_",
+  "english": " /  /  / Aoi offered / her a journal."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 847,
+  "japanese": "シムゾンの力記を力に入れた_",
+  "english": "Got Simzon's / journal."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 848,
+  "japanese": "ライブラリ}:書物リストに / シムゾンの力記が庫落されました_",
+  "english": "Library: Simzon's / journal has been / registered."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 849,
+  "japanese": "第8名層でそれを見つけた_",
+  "english": "I found it on the / eighth level."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 850,
+  "japanese": "もし余が彼を忠該ったのなら^ / そこに^そう書かれているはず_",
+  "english": "If I had betrayed / him, it would be / written there."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 851,
+  "japanese": "余は死ぬわけにはいかない^ / だから彼と行功を別にしただけ_",
+  "english": "I cannot afford to / die. So I parted / ways with him. / Nothing more."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 852,
+  "japanese": "ただそれだけの質よ_",
+  "english": "That is the whole / of it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 853,
+  "japanese": "余には彼療もお臆も必要ない_",
+  "english": "I need neither / honor nor money."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 854,
+  "japanese": "余の願いはただ一つ^ / ある与の後を断つ^ / そのためだけに生きている_",
+  "english": "I have but one wish / - to end a certain / man's life. I live / for that alone."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 855,
+  "japanese": "シムゾンは^それをわかってくれた_",
+  "english": "Simzon understood / that."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 856,
+  "japanese": "もしお両が斬りたいと言うのなら^ / 好きにすればいい_",
+  "english": "If you wish to cut / me down, do as you / please."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 857,
+  "japanese": "騎帰団に内られているのにも^ / もうあきたから_",
+  "english": "I have grown tired / of being kept by / the Order anyway."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 858,
+  "japanese": "アオイはそう言って^ / 辺繋備な重を向け^ / 待ち防っていった_",
+  "english": "Aoi then turned and / walked away, / defenseless."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 860,
+  "japanese": "ヴェ}ラは一瞬^ / 漢いかけようとしたが^ / あきらめ^待ち限まった_",
+  "english": "Vera tried to / follow her, but / gave up and / stopped."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 861,
+  "japanese": "あいつには^[0x0632]があるって^ / 始シムゾンから聞いたことがある_",
+  "english": "I heard from Simzon / that she is on a / vendetta."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 862,
+  "japanese": "その[0x0632]を素すため緒息を[0x0687]り王いて / いるんだって_",
+  "english": "They say she / wanders the lands / in search of her / mark."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 863,
+  "japanese": "シムゾンは^退嫌の中でもあいつを / 一番信毒していた_",
+  "english": "Simzon trusted her / the most out of / all his / companions."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 864,
+  "japanese": "者斬りって高ばれる変し所だけど^ / 役内は配かい目を持った転だって_",
+  "english": "They call her the / Manslayer - but he / said that beneath / it, she has a warm / heart."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 865,
+  "japanese": "だからあいつのせいじゃないと^ / 目ではわかるんだけど|^",
+  "english": "So my head knows / it wasn't her / fault, but..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 866,
+  "japanese": "もしかしたらシムゾンは / 死ななくてよかったんじゃないか^",
+  "english": "...maybe Simzon / didn't have to / die -"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 867,
+  "japanese": "そう思っているんだよ^今でも|_",
+  "english": "I still think that. / Even now..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 868,
+  "japanese": "ヴェ}ラは冒を落とし^ / 隊歓へと戻っていった_",
+  "english": "Vera slumped her / shoulders and / returned to the / ranks."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 869,
+  "japanese": "騎騎者広嫌の[0x0685]にまつられている / 大頼町な商を^戦帰属の与が / [0x0529]目に道べている_",
+  "english": "A warrior-looking / man is intently / studying the odd / statue enshrined in / the adventurers' / plaza."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 871,
+  "japanese": "加系に隊信して^与は声を帰り外げ / こちらを後り向いた_",
+  "english": "Startled, the man / raised his voice / and spun to face / you."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 872,
+  "japanese": "|なんだ^何表_ / 一意何のようだ|?",
+  "english": "...What do you / want? What business / have you here...?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 873,
+  "japanese": "報のかかった街所で年いていた / オ}クの質をしてみた_",
+  "english": "You brought up the / Orc who was crying / in the locked / room."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 874,
+  "japanese": "質を聞いた戦帰は^ / 更去にするかのように / 派で多ってみせた_",
+  "english": "Hearing you out, / the warrior snorted / in contempt."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 875,
+  "japanese": "|で^何表はそのオ}クの / 段討ちにのこのこやってきた^ / というわけか|フッ|_",
+  "english": "...So you've come / trotting along to / avenge that Orc, / have you... / Heh..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 876,
+  "japanese": "更去か! / 魔物のオ}クを[0x04A4]穏するのは騎騎者 / として内恵の行功ではないか_",
+  "english": "Absurd! Slaying a / monster Orc is only / natural conduct / for an / adventurer!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 877,
+  "japanese": "魔物の冒を持つ向しき騎騎者も / 魔物同恵^こらしめてやらねば / ならないなあ|?",
+  "english": "And a wicked / adventurer who / sides with monsters / is no better than / one - needs a / lesson too, eh...?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 878,
+  "japanese": "戦帰は腕を余え^ / 戦闘態前を地えた!",
+  "english": "The warrior readied / his weapon for / battle!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 879,
+  "japanese": "騎騎者くっ|更去な! / おのれ^備えていろ|_",
+  "english": "Adventurer: Kh... / Curse you...! Just / you wait...!"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 880,
+  "japanese": "戦帰は捨て看[0x048C]を[0x0485]き^ / 間休りで防って行った_",
+  "english": "Spitting that / parting line, the / warrior scurried / off."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 881,
+  "japanese": "ヴェ}ラあやつは頼が力れているのか? / あの出帰そこないの失損をどうしよ / うと言うのだ?",
+  "english": "Vera: Has he lost / his mind? What does / he mean to do with / that botched, / fallen god?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 882,
+  "japanese": "探かにあの失損の復込に封[0x0428]すれば^ / 数紙の本に己段することは嫌違いない_",
+  "english": "True - revive that / fallen god, and / immense power would / surely be theirs."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 883,
+  "japanese": "だが^あんな[0x051A][0x051A]しいものを操れる / のかどうか座しいものだ_",
+  "english": "But whether they / can control / something so / sinister - that I / doubt."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 884,
+  "japanese": "あやつはドゥ}ハンのためと言って / いたが^復込させてみたら^",
+  "english": "He claims it is for / Duhan's sake, but / say they revive / it, and..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 885,
+  "japanese": "おやおや^また新たな段が出抜した^ / ということにならねばよいがな_",
+  "english": "...let us hope we / don't simply find a / brand-new enemy on / our hands."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 886,
+  "japanese": "しかしそれにしても^ / オルトル}ドは^街忍が何を[0x05AA]んで / いるのか知らぬとは^情けない質だな_",
+  "english": "Still - for Ortlud / not to know what / his own vassal / schemes... a sorry / state of affairs."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 887,
+  "japanese": "コンデオグを復込させようとは^ / とんでもないことを必えたものだ_",
+  "english": "Reviving Condeog... / what a monstrous / thing to / attempt.",
+  "_note": "コンデオグ rendered 'Condeog' (Og's full/formal name?); no prior canon spelling found - flag for terminology review."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 888,
+  "japanese": "置思書では^かつてイリキアの / 魔運解達も同じようにオグの復込を / 売みたとされておる_",
+  "english": "The old texts say / the mages of Irikia / once attempted to / revive Og the same / way."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 889,
+  "japanese": "だが^彼らは[0x0483]全にもその無対を / 捨てたのだ_",
+  "english": "But they wisely / abandoned that / ambition."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 890,
+  "japanese": "なぜなら^オグの復込には生者の魂が / 必要ということに頼づいたからだ^ / それも何奉^何[0x0497]という魂がな_",
+  "english": "For they realized / Og's revival / demands living / souls - thousands, / tens of thousands / of them."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 891,
+  "japanese": "唱色^ウェブスタ}卿ほどの該れ者 / ならば^そのことはわかっているはず_",
+  "english": "A man as sharp as / Lord Webster must / surely know / this."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 892,
+  "japanese": "あやつ^何かに取り憑かれでもしたか?",
+  "english": "Has something taken / hold of him, I / wonder?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 893,
+  "japanese": "さてさて^ドゥ}ハンはまたしても / 兜きな[0x042A][0x065C]を重魔い込むことに / なったわけだ_",
+  "english": "Well, well... so / Duhan has taken yet / another great peril / to its bosom."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 894,
+  "japanese": "エ}リカ余^情けなく思います_",
+  "english": "Erika: I am / ashamed."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 895,
+  "japanese": "ランゴバルト[0x06C3]習[0x06C4]と言えば^ / ハリスでも彼両を知らない者がいない / ほどの挨今です_",
+  "english": "Archbishop Langobalt / is a man whose name / everyone in Harris / knows.",
+  "_note": "[06C3]習[06C4] title glyphs unverified; 'Archbishop' inferred from the R1207 m49 scene (Webster and the Archbishop). Flag if Langobalt's title differs elsewhere."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 896,
+  "japanese": "その挨今がなぜ^あのような[0x0650]かな / 行いをなさるのでしょう|_",
+  "english": "Why would such a / man commit so / foolish an / act...?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 897,
+  "japanese": "余はあまり[0x04DA]がないので^ / 同しいことはわかりませんが^",
+  "english": "I have little / learning, so I do / not understand the / details, but..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 898,
+  "japanese": "彼らが言っていたオグというものが / 復込すれば^必ずやベノアに新たな / 戦遅が顔こると思います_",
+  "english": "...if this 'Og' / they spoke of is / revived, war will / surely come to / Venoa again."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 899,
+  "japanese": "なぜなら^失兜な主を力に入れたからと / 言っても^どの息もそれで奪うわけでは / ありません_",
+  "english": "Overwhelming power / or no, the other / nations will not / simply yield to / it."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 900,
+  "japanese": "きっと鎧には鎧で将[0x0690]するはず^ / そうなれば^録も辺い唱くの者達の / 血が棄されることになる_",
+  "english": "They will answer / force with force - / and the blood of / countless innocents / will flow."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 901,
+  "japanese": "彼らほどの[0x0483]全な者なら^ / そのことに頼づかないはずはないと / 思うのですが|^",
+  "english": "Men as wise as they / could not fail to / see that... or so / I want to / think..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 902,
+  "japanese": "邪な稀目が彼らの野を見えなくさせ / ているとしたら^法しいことです_",
+  "english": "If wicked desire / has blinded them... / then it is a sad / thing indeed."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 903,
+  "japanese": "イ}リス岩いたな^まさか法王庁と力を果ん / でいたとはな|_",
+  "english": "Iris: Astonishing... / To think he had / joined hands with / the Papacy..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 904,
+  "japanese": "魔両からウェブスタ}卿の行功には^ / [0x06B6]隊を感じさせるものがあるという / [0x0422]があったが^",
+  "english": "There were long / rumors that Lord / Webster's conduct / smelled of / treachery, but..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 905,
+  "japanese": "追美両の王女との[0x0429]民によって^ / その目手も取り性し協堂に編わった_",
+  "english": "...his match with / the princess put / those doubts to / rest as so much / needless worry.",
+  "_note": "追美両の王女との[0429]民 glyph-uncertain; read as a betrothal/alliance with the princess that dispelled suspicion (fits m906)."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 906,
+  "japanese": "なぜなら^種っていても王[0x04D5]が / 値色の[0x061F]に子がってくる転が^ / [0x06B6]隊を顔こすこともないだろう_",
+  "english": "After all, a man / who need only wait / for the throne to / fall into his lap / has no cause for / treason."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 907,
+  "japanese": "いったい転は^何を[0x05AA]んでいる?",
+  "english": "What in the world / is he plotting?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 908,
+  "japanese": "まさか^二数美両の扱騎帰ウィリアム / のように^国誉を[0x06A5]べようなどと / 更去げた依頼に取り憑かれているのか?",
+  "english": "Don't tell me he's / gripped by the same / mad ambition as / General William two / centuries past - to / rule the world?"
+ },
+ {
+  "resource": 1207,
+  "msg_index": 909,
+  "japanese": "ササンの息に将して^ / 個戦を顔こしたくてうずうずしている / 法王庁が一枚[0x04DB]んでいることから^",
+  "english": "The Papacy, itching / for its holy war / against Sasan, has / a hand in this - / and knowing / that..."
+ },
+ {
+  "resource": 1207,
+  "msg_index": 910,
+  "japanese": "あながちその[0x0624][0x0471]が^嫌違いとは言え / ぬのが呪いな|_",
+  "english": "...the frightening / thing is that the / idea cannot be / dismissed / outright..."
+ }
+]

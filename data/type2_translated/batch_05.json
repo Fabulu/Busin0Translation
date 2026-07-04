@@ -4531,165 +4531,159 @@
  },
  {
   "resource": 1206,
-  "msg_index": 780,
-  "japanese": "ま、ワケあってあたしゃ内色ここを功くことはないからさ。",
-  "english": "Rewards / ready!"
- },
- {
-  "resource": 1206,
   "msg_index": 781,
   "japanese": "その[0141]になったらまた帰ておくれ。報女だって毒客してあるんだから、頼みくらい聞いておくれよ。",
-  "english": "Finally / willing!"
+  "english": "Rewards / ready!"
  },
  {
   "resource": 1206,
   "msg_index": 782,
   "japanese": "そうかい、そうかい は～、やっぱいるもんだねえ！。こんなのを能しがる新わり者。",
-  "english": "Showed / bracelet."
+  "english": "Finally / willing!"
  },
  {
   "resource": 1206,
   "msg_index": 783,
   "japanese": "ヴァーゴは[04B0]のこびりついた識別ブレスレットを宮外にかかげ、[0372]らして見せた。",
-  "english": "Present / boring~"
+  "english": "Showed / bracelet."
  },
  {
   "resource": 1206,
   "msg_index": 784,
   "japanese": "錠ってのはどこまでも大[0572]なもんだねえ～。",
-  "english": "Got Alaid / info."
+  "english": "Present / boring~"
  },
  {
   "resource": 1206,
   "msg_index": 785,
   "japanese": "あたしがこれを力にした時、アレイドの力法についての[01BF][01C0]が宮の中に入ってきたんだよ。",
-  "english": "Useless / common Alaid."
+  "english": "Got Alaid / info."
  },
  {
   "resource": 1206,
   "msg_index": 786,
   "japanese": "でもさ、こんなアレイドメジャー中のメジャーだからね。知ってるあたしには辺客町。",
-  "english": "Sad way to / learn!"
+  "english": "Useless / common Alaid."
  },
  {
   "resource": 1206,
   "msg_index": 787,
   "japanese": "あんた達、こ～んな今法でしかアレイドを備えられないなんて[0141]の[0331]だねえ ",
-  "english": "Guild teaches / for gold!"
+  "english": "Sad way to / learn!"
  },
  {
   "resource": 1206,
   "msg_index": 788,
   "japanese": "あたしの[032A][03F2]じゃ、アレイドなんてギルドで臆さえ払えば備えられるものなんだよ。",
-  "english": "Trash to me."
+  "english": "Guild teaches / for gold!"
  },
  {
   "resource": 1206,
   "msg_index": 789,
   "japanese": "ま、[0409]はこんなブレスレットあたしにとっちゃクズ同恵なのさ。ウジのわいた[04F6]の今がまだマシ。",
-  "english": "Hear my / request!"
+  "english": "Trash to me."
  },
  {
   "resource": 1206,
   "msg_index": 790,
   "japanese": "能しいなら、あげようじゃないか。けど、あたしも頼みたいことがあってね、頼みを聞いておくれよ。",
-  "english": "Vago / explained."
+  "english": "Hear my / request!"
  },
  {
   "resource": 1206,
   "msg_index": 791,
   "japanese": "ヴァーゴはこちらに大事を有めず、一今宿に頼みの長[0199]を向全し専めた。",
-  "english": "Partner Orc / missing."
+  "english": "Vago / explained."
  },
  {
   "resource": 1206,
   "msg_index": 792,
   "japanese": "者はね、所色のオークが行今知れずになっちまったんだ。",
-  "english": "From the / future!"
+  "english": "Partner Orc / missing."
  },
  {
   "resource": 1206,
   "msg_index": 793,
   "japanese": "信じるかどうかは別にしてあたしゃ者は、[0514]帰から欠ばされてきちまったのさ！。",
-  "english": "..."
+  "english": "From the / future!"
  },
  {
   "resource": 1206,
   "msg_index": 794,
   "japanese": "・・・・・・・・・・・・・・・。",
-  "english": "Think I'm / crazy?"
+  "english": "..."
  },
  {
   "resource": 1206,
   "msg_index": 795,
   "japanese": "今、宮がイカれてると思わなかっただろうねえ？",
-  "english": "It's truth."
+  "english": "Think I'm / crazy?"
  },
  {
   "resource": 1206,
   "msg_index": 796,
   "japanese": "まあ、あんたなんかに[0190]倒してもらわなくったっていいんだ。とにかくこれは[04A6]者。",
-  "english": "Poor loot."
+  "english": "It's truth."
  },
  {
   "resource": 1206,
   "msg_index": 797,
   "japanese": "でもさ、こんなとこ、魔物を忘しても[03C8]けはしけてるし、ざっと見たとこすごいお宝も[058B]ってなさそうだし。",
-  "english": "Wanna go / home!"
+  "english": "Poor loot."
  },
  {
   "resource": 1206,
   "msg_index": 798,
   "japanese": "あたしゃとっとと[01AB]りたいワケなんだよ、友の[032A][03F2]に。",
-  "english": "Pig hasn't / returned."
+  "english": "Wanna go / home!"
  },
  {
   "resource": 1206,
   "msg_index": 799,
   "japanese": "それで、[01AB]る力成を所色と力色けして素してるってわけ。それがあのブタ、[01AB]ってこないのさ。",
-  "english": "Didn't flee."
+  "english": "Pig hasn't / returned."
  },
  {
   "resource": 1206,
   "msg_index": 800,
   "japanese": "アイツもまさかここに[04FD]杯したいなんてことはないだろうから、威げたわけじゃないと思うんだよ。",
-  "english": "Can't find!"
+  "english": "Didn't flee."
  },
  {
   "resource": 1206,
   "msg_index": 801,
   "japanese": "あたしも素してはいるんだけど見つけられなくてね！。",
-  "english": "Crying from / locked room."
+  "english": "Can't find!"
  },
  {
   "resource": 1206,
   "msg_index": 802,
   "japanese": "ただ乙忍５名にある、さびついた報のかかった街所の中から新な年き声が聞こえてくるんだ。",
-  "english": "Sounds like / him. No key."
+  "english": "Crying from / locked room."
  },
  {
   "resource": 1206,
   "msg_index": 803,
   "japanese": "どうも、アイツの声のような[0141]がしてならないんだけど、あいにくカギがなくってね。",
-  "english": "Find key / and check."
+  "english": "Sounds like / him. No key."
  },
  {
   "resource": 1206,
   "msg_index": 804,
   "japanese": "そこで、あの[0269]を死けられるような報を力に入れて、アイツがいないかどうか見てほしいんだ。",
-  "english": "No deadline!"
+  "english": "Find key / and check."
  },
  {
   "resource": 1206,
   "msg_index": 805,
   "japanese": "あたしゃ骨場のせっかちな依頼者みたく、心[014B]がどうのこうのとは言わないからさ、頼むよ。",
-  "english": "You'll help!"
+  "english": "No deadline!"
  },
  {
   "resource": 1206,
   "msg_index": 806,
   "japanese": "そうかい、やってくれるかい じゃあ頼んだよ ",
-  "english": "Let me / explain!"
+  "english": "You'll help!"
  },
  {
   "resource": 1206,
@@ -4725,139 +4719,139 @@
   "resource": 1206,
   "msg_index": 812,
   "japanese": "まあ、値信がついたらまたおいで。内色ここにいるんだからさ。",
-  "english": "Hear / request?"
+  "english": "Come back!"
  },
  {
   "resource": 1206,
   "msg_index": 813,
   "japanese": "そうかい、そうかい 聞いてくれるってのかい そりゃあ容かるよ ",
-  "english": "Yes  No"
+  "english": "Great!"
  },
  {
   "resource": 1206,
   "msg_index": 814,
   "japanese": "ヴァーゴは少し[045C]んで見せた装、すぐまた辺[0390][016A]になって頼みの長[0199]を質しはじめた。",
-  "english": "Why come!?"
+  "english": "Vago / explained."
  },
  {
   "resource": 1206,
   "msg_index": 815,
   "japanese": "者はね、所色のオークが行今知れずになっちまったんだ。",
-  "english": "Purpose!"
+  "english": "Partner Orc / missing."
  },
  {
   "resource": 1206,
   "msg_index": 816,
   "japanese": "信じるかどうかは別にしてあたしゃ者は、[0514]帰から欠ばされてきちまったのさ！。",
-  "english": "Busy!"
+  "english": "From the / future!"
  },
  {
   "resource": 1206,
   "msg_index": 817,
   "japanese": "・・・・・・・・・・・・・・・。",
-  "english": "Request?"
+  "english": "..."
  },
  {
   "resource": 1206,
   "msg_index": 818,
   "japanese": "今、宮がイカれてると思わなかっただろうねえ？",
-  "english": "Great!"
+  "english": "Think I'm / crazy?"
  },
  {
   "resource": 1206,
   "msg_index": 819,
   "japanese": "まあ、あんたなんかに[0190]倒してもらわなくったっていいんだ。とにかくこれは[04A6]者。",
-  "english": "Blasted!"
+  "english": "It's truth."
  },
  {
   "resource": 1206,
   "msg_index": 820,
   "japanese": "でもさ、こんなとこ、魔物を忘しても[03C8]けはしけてるし、ざっと見たとこすごいお宝も[058B]ってなさそうだし。",
-  "english": "Tell him."
+  "english": "Poor loot."
  },
  {
   "resource": 1206,
   "msg_index": 821,
   "japanese": "あたしゃとっとと[01AB]りたいワケなんだよ、友の[032A][03F2]に。",
-  "english": "Pig Casta!"
+  "english": "Wanna go / home!"
  },
  {
   "resource": 1206,
   "msg_index": 822,
   "japanese": "それで、[01AB]る力成を所色と力色けして素してるってわけ。それがあのブタ、[01AB]ってこないのさ。",
-  "english": "Why come!?"
+  "english": "Pig hasn't / returned."
  },
  {
   "resource": 1206,
   "msg_index": 823,
   "japanese": "アイツもまさかここに[04FD]杯したいなんてことはないだろうから、威げたわけじゃないと思うんだよ。",
-  "english": "Nothing."
+  "english": "Didn't flee."
  },
  {
   "resource": 1206,
   "msg_index": 824,
   "japanese": "あたしも素してはいるんだけど見つけられなくてね！。",
-  "english": "Purpose!"
+  "english": "Can't find!"
  },
  {
   "resource": 1206,
   "msg_index": 825,
   "japanese": "ただ乙忍５名にある、さびついた報のかかった街所の中から新な年き声が聞こえてくるんだ。",
-  "english": "Busy!"
+  "english": "Crying from / locked room."
  },
  {
   "resource": 1206,
   "msg_index": 826,
   "japanese": "どうも、アイツの声のような[0141]がしてならないんだけど、あいにくカギがなくってね。",
-  "english": "Explain!"
+  "english": "Sounds like / him. No key."
  },
  {
   "resource": 1206,
   "msg_index": 827,
   "japanese": "そこで、あの[0269]を死けられるような報を力に入れて、アイツがいないかどうか見てほしいんだ。",
-  "english": "Blasted!"
+  "english": "Find key / and check."
  },
  {
   "resource": 1206,
   "msg_index": 828,
   "japanese": "報女は、いくつか毒客してるんだ。用街はやれないけれど、編わった時に[0380]きなものを選ばしてやるよ。",
-  "english": "Tell him."
+  "english": "Rewards / later!"
  },
  {
   "resource": 1206,
   "msg_index": 829,
   "japanese": "なにがあるのかは呪基にしてあるほうが武しみだろう？だから呪基だよ ",
-  "english": "Rewards / later!"
+  "english": "Secret!"
  },
  {
   "resource": 1206,
   "msg_index": 830,
   "japanese": "あたしゃ骨場のせっかちな依頼者みたく、心[014B]がどうのこうのとは言わないからさ、頼むよ。",
-  "english": "Secret!"
+  "english": "No deadline!"
  },
  {
   "resource": 1206,
   "msg_index": 831,
   "japanese": "そうかい、やってくれるかい じゃあ頼んだよ ",
-  "english": "No deadline!"
+  "english": "Explain!"
  },
  {
   "resource": 1206,
   "msg_index": 832,
   "japanese": "[0269]の力両には、でっかい対まで[04D4]れてあったんだけど、それはあたしのメガデスで[03F1]しておいたからさ。",
-  "english": "Explain!"
+  "english": "Blasted!"
  },
  {
   "resource": 1206,
   "msg_index": 833,
   "japanese": "アイツを見つけたら、ここまで帰るように[0375]えておくれ。場暗はわかってるはずさ。",
-  "english": "Blasted!"
+  "english": "Tell him."
  },
  {
   "resource": 1206,
   "msg_index": 834,
   "japanese": "そうそう、ブタの[018A]両はキャスタっていうんだよ。備えておいておくれよ。",
-  "english": "Tell him."
+  "english": "Pig Casta!"
  },
  {
   "resource": 1206,
