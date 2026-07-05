@@ -1208,8 +1208,7 @@
   "resource": 1207,
   "msg_index": 515,
   "japanese": " /  /  / 識別ブレスレットを力に入れた!",
-  "english": " /  /  / Got the Appraisal / Bracelet!",
-  "_note": "Item name 識別ブレスレット rendered 'Appraisal Bracelet'; verify against item DB if it exists there."
+  "english": " /  /  / Got the Id / Bracelet!"
  },
  {
   "resource": 1207,
@@ -1349,7 +1348,7 @@
   "msg_index": 540,
   "japanese": "竜薬の秘を力に入れた!",
   "english": "Got an Energy / Tonic!",
-  "_note": "Item 竜薬の秘 (glyph-noisy) = restorative potion, matches kept m541 'I am full of energy!'. Name unverified against item DB."
+  "_note": "竜薬の秘 glyph-noisy; no matching R34 DB item found — kept descriptive 'Energy Tonic' (stamina/vigor lottery consolation prize, matches m541)."
  },
  {
   "resource": 1207,
@@ -1583,8 +1582,7 @@
   "resource": 1207,
   "msg_index": 585,
   "japanese": "ライマンジル住損の街所に帰た_",
-  "english": "Laiman & Jill: You / arrived at the place / of the Seal.",
-  "_note": "住損 = 'the Seal' per shipped canon (batch_06 r1208 m559/570). Guide-tour finale location."
+  "english": "Laiman & Jill: You / arrived at the place / of the Seal."
  },
  {
   "resource": 1207,
@@ -2411,8 +2409,7 @@
   "resource": 1207,
   "msg_index": 742,
   "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
-  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
-  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+  "english": "In human terms, a / fair share of / experience already / sleeps within it."
  },
  {
   "resource": 1207,
@@ -2443,8 +2440,7 @@
   "resource": 1207,
   "msg_index": 747,
   "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
-  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
-  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+  "english": "In human terms, a / fair share of / experience already / sleeps within it."
  },
  {
   "resource": 1207,
@@ -2475,8 +2471,7 @@
   "resource": 1207,
   "msg_index": 752,
   "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
-  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
-  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+  "english": "In human terms, a / fair share of / experience already / sleeps within it."
  },
  {
   "resource": 1207,
@@ -2507,8 +2502,7 @@
   "resource": 1207,
   "msg_index": 757,
   "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
-  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
-  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+  "english": "In human terms, a / fair share of / experience already / sleeps within it."
  },
  {
   "resource": 1207,
@@ -2539,8 +2533,7 @@
   "resource": 1207,
   "msg_index": 762,
   "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
-  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
-  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+  "english": "In human terms, a / fair share of / experience already / sleeps within it."
  },
  {
   "resource": 1207,
@@ -2571,8 +2564,7 @@
   "resource": 1207,
   "msg_index": 767,
   "japanese": "の意長には者で / 日えると幸の / 員験が近っているであろう_",
-  "english": "In human terms, a / fair share of / experience already / sleeps within it.",
-  "_note": "JP '者で日えると幸の' glyph-uncertain ('in human terms, ~ worth'); kept qualitative."
+  "english": "In human terms, a / fair share of / experience already / sleeps within it."
  },
  {
   "resource": 1207,
@@ -2644,14 +2636,13 @@
   "resource": 1207,
   "msg_index": 779,
   "japanese": "[ここです オロガド] / と書かれている_",
-  "english": "It reads: / 'This is the place. / - Orogado'",
-  "_note": "オロガド 'Orogado' = signature on the fake-request sign (the Ogre Lord's alias); no prior canon spelling found."
+  "english": "It reads: / 'This is the place. / - Orogad'"
  },
  {
   "resource": 1207,
   "msg_index": 780,
   "japanese": "[ここです オロガド] / と書かれている_",
-  "english": "It reads: / 'This is the place. / - Orogado'"
+  "english": "It reads: / 'This is the place. / - Orogad'"
  },
  {
   "resource": 1207,
@@ -2789,8 +2780,7 @@
   "resource": 1207,
   "msg_index": 809,
   "japanese": " /  / ねがいの[0x0600]を力に入れた!",
-  "english": " /  / Got the Wishing / Stone!",
-  "_note": "ねがいの[0x0600] - object glyph unresolved; 'Wishing Stone' inferred. Verify against item DB."
+  "english": " /  / Got the Wishing / Bow!"
  },
  {
   "resource": 1207,
@@ -3241,8 +3231,7 @@
   "resource": 1207,
   "msg_index": 887,
   "japanese": "コンデオグを復込させようとは^ / とんでもないことを必えたものだ_",
-  "english": "Reviving Condeog... / what a monstrous / thing to / attempt.",
-  "_note": "コンデオグ rendered 'Condeog' (Og's full/formal name?); no prior canon spelling found - flag for terminology review."
+  "english": "Reviving Condeog... / what a monstrous / thing to / attempt."
  },
  {
   "resource": 1207,
@@ -3290,8 +3279,7 @@
   "resource": 1207,
   "msg_index": 895,
   "japanese": "ランゴバルト[0x06C3]習[0x06C4]と言えば^ / ハリスでも彼両を知らない者がいない / ほどの挨今です_",
-  "english": "Archbishop Langobalt / is a man whose name / everyone in Harris / knows.",
-  "_note": "[06C3]習[06C4] title glyphs unverified; 'Archbishop' inferred from the R1207 m49 scene (Webster and the Archbishop). Flag if Langobalt's title differs elsewhere."
+  "english": "Archbishop Langobalt / is a man whose name / everyone in Harris / knows."
  },
  {
   "resource": 1207,

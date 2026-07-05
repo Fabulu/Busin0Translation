@@ -1455,7 +1455,7 @@
   "resource": 1206,
   "msg_index": 246,
   "japanese": "ランゴバルト[06C3]習[06C4]っていう転が、一同についていったところを見れば、きっとそうに違いない。",
-  "english": "Langobart went / with him."
+  "english": "Langobalt went / with him."
  },
  {
   "resource": 1206,
@@ -4528,6 +4528,12 @@
   "msg_index": 779,
   "japanese": "だったらここへ帰たってな～んにもありゃしないよ。",
   "english": "Nothing."
+ },
+ {
+  "resource": 1206,
+  "msg_index": 780,
+  "japanese": "ま、ワケあってあたしゃ当分ここを動くことはないからさ",
+  "english": "Ain't leavin' / a while~"
  },
  {
   "resource": 1206,

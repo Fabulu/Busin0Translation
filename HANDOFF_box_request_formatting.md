@@ -1,3 +1,16 @@
+# ⛔ SUPERSEDED / FALSIFIED — DO NOT FOLLOW §1/§4/§5 (banner added 2026-07-05)
+
+**The chargen spacing root cause and fix direction in this doc are WRONG. The chargen renderers do NOT draw the R1188 font — they draw the R2100 sub0 upright 16px font. The spacing shipped FIXED in v158.**
+
+1. **§1 "Universal R1188 glyph renderer … SHARED across chargen, narration, boxed dialogue, request" — FALSIFIED FOR CHARGEN/REQUEST.** R1188 is the narration/dialogue font only. Chargen prompts/descriptions and the request body draw the **R2100 sub0 upright 16px font** via `0x307510` (chargen body) and `0x3A2EF0` (Status/request box). This wrong-font identity is the root cause the whole doc missed.
+2. **§4 ISSUE A (chargen wide spacing) — SHIPPED FIXED in v158** (commit `44e77d1`). One part of §4 was *correct*: **Patch 19 writes the dead `sp+0x1cc` pen and is inert** (re-confirmed by v133 live diag — fire-counter 0 while mode==5). But the proposed FIX (retarget Patch 19 to the `s7` stride, indexing the **R1188** `0x4C7564` ADV table) is FALSIFIED — it uses the wrong font's metrics. The real fix: R2100-derived `ADV2`/`LSH2` tables at VA `0x4B1000`/`0x4B1100` (`tools/glyph_metrics.py`, GAP2=2, space=6, clamp 4..15) feeding **Patches 26/27/29/31**, gated to chargen (mode==5) / request (mode==7).
+3. **§5 ISSUE B (request overflow/collision) — the SPACING half shipped FIXED in v158** (Patch 27/29 make the request body proportional via the R2100 tables, mode-7 gated). The editorial half (rewriting ~60 quest descriptions shorter, `data/r39_quest_text_aligned.json`) is a separate content task; treat the "make the 18px-mono body proportional by hooking Patch-14/R1188" recipe as obsolete — that landed via the R2100 caves, not R1188.
+4. **§2 (box-mode classifier DONE) and §3 (narration left-align DONE) remain ACCURATE** — those are R1188/narration work and were never falsified.
+
+**Current truth:** `CLAUDE.md` + `runs/CLAUDE-RUNS/AUDIT-20260702-full-project.md` (finding H3, which names §1/§4/§5 superseded) + memory `project_chargen_font_r2100_rootcause.md`.
+
+---
+
 # Handoff — Box/Chargen Spacing & Request-Description Formatting
 
 Written 2026-06-23, after the **Talking Ox** milestone (v130). Narration and the

@@ -21,12 +21,14 @@ desync. So Stage 0 first, always.
   wrap must still yield the same PAGE_LINES count per page.
 
 ## Ordered steps
-0a. **Single metrics module** — NEW `tools/glyph_metrics.py`: ADV[], LEFTSHIFT[], `px_width(s, enc)`.
+0a. ✅ **DONE** — **Single metrics module** — NEW `tools/glyph_metrics.py`: ADV[], LEFTSHIFT[], `px_width(s, enc)`.
     Feeds build wrap + EXE cave tables + centering + tests. (pure extraction, no behavior change)
-0b. **Bake proportional into patch_exe.py** — promote the 2 caves from apply_prop_diag2.py:
+    [Shipped: `tools/glyph_metrics.py` exists and is the single source; v158 added the R2100 `ADV2`/`LEFTSHIFT2` companion tables for the chargen/request 16px font.]
+0b. ✅ **DONE** — **Bake proportional into patch_exe.py** — promote the 2 caves from apply_prop_diag2.py:
     Stage-1 ADV cave @0x4C7540 + table @0x4C7564; Stage-2 draw-shift cave @0x4C7670 hooking
     0x309750 + LEFTSHIFT table @0x4C7690. Tables generated from glyph_metrics. REPLACES monospace
     PATCH 14. (currently proportional lives ONLY in the diagnostic, not the shipped EXE)
+    [Shipped as Patch 14 in `build/patch_exe.py`: proportional narration is live in the EXE; downstream chargen/request patches (26/27/29/31) gate on the Patch-14 marker.]
 1a. **Centering Stage-3** — replace PATCH 13 count*18 reserve (0x305988/90, 0x3059F8/A00, the
     (c<<3)+c idiom) with a cave that reserves SUM(ADV) per line so origin = center - sum/2.
     Layout pre-pass glyph id live in a1 @0x302E88; origin 0x305980-0x305998; per-line 0x308364/0x30836C;
@@ -66,9 +68,22 @@ Evidence saves live in ramdumps/ (and build/) — boot FRESH to reproduce.
   current wrap budget is too conservative for the proportional metrics; this is the flip side of
   Step 2a (DIALOGUE_BOX_PX=324 interim is a guess). Must measure the real box right-edge clip
   (Open decision #1) and widen the budget so lines fill the box.
-- **Chargen text boxes need the spacing fix** — full executable plan in
-  **`data/chargen_spacing_backlog.md`** (6-agent analysis wvc2fwiw6, 2026-06-18).
-  CORRECTION to earlier assumption: chargen prose text is NOT a different font system. The prompt
+- **Chargen text boxes need the spacing fix** — ✅ **SHIPPED FIXED in v158** (commit `44e77d1`).
+  ⛔ **WRONG-WAY "CORRECTION" BELOW — DO NOT FOLLOW (flagged 2026-07-05).** The 2026-06-18 note that
+  follows reversed the truth. It claimed:
+  > "CORRECTION to earlier assumption: chargen prose text is NOT a different font system … render through the SAME R1188 24x24 atlas as narration … the fix REUSES … data/r1188_ascii_metrics.json unchanged (gid==char-32)."
+  **That is BACKWARDS.** The **earlier assumption was RIGHT**: chargen prose IS a different font system.
+  v133 live diag proved the Path-1 `0x308040` plan (→ Patch 19) hooks a **DEAD path**, and v158 proved
+  the real chargen/request renderers (`0x307510`, `0x3A2EF0`) draw the **R2100 sub0 upright 16px font,
+  NOT the R1188 24px atlas.** The fix therefore did NOT reuse `data/r1188_ascii_metrics.json`; it used
+  **`data/r2100_ascii_metrics.json`** via new `tools/glyph_metrics.py` `ADV2`/`LEFTSHIFT2` tables
+  (GAP2=2, space=6, clamp 4..15) baked at VA `0x4B1000`/`0x4B1100` and fed to Patches 26/27/29/31,
+  mode-gated (chargen==5 / request==7). R1188 ships PRISTINE — its metrics were accurate all along.
+  See `CLAUDE.md`, `runs/CLAUDE-RUNS/AUDIT-20260702-full-project.md` (H3), memory
+  `project_chargen_font_r2100_rootcause.md`. Original (falsified) note preserved for history:
+  full executable plan was in **`data/chargen_spacing_backlog.md`** — now itself SUPERSEDED-bannered —
+  (6-agent analysis wvc2fwiw6, 2026-06-18).
+  ~~CORRECTION to earlier assumption: chargen prose text is NOT a different font system. The prompt
   bars (R37 MSG) and description/personality boxes (R38 MSG) render through the SAME R1188 24x24
   atlas as narration, via a sibling sub-path (Path 1) of the SAME renderer func 0x307DA0 — so the
   fix REUSES tools/glyph_metrics.py + data/r1188_ascii_metrics.json unchanged (gid==char-32).
@@ -77,7 +92,7 @@ Evidence saves live in ramdumps/ (and build/) — boot FRESH to reproduce.
   ALL chargen boxes; ship Stage-1 advance + Stage-3 centering (count*12 @0x307FBC/0x307FC4) TOGETHER
   or every line drifts. R2100/R2138 only supply the pre-rendered stat/keyboard/tab labels that
   coexist on-screen (Family C, separate pixel-strip track). GATE: a live .gs.zst + single-step of
-  0x307DA0 on ramdumps/space2.p2s must confirm Path 1 + the gid register BEFORE cutting the cave.
+  0x307DA0 on ramdumps/space2.p2s must confirm Path 1 + the gid register BEFORE cutting the cave.~~
 
 ## Request menu (R39) remaining polish (added 2026-06-18) — freeze + content FIXED, two cosmetic items left
 The request-menu FREEZE is fixed (section-table remap) and v115 fixed the offset BASE so all quest

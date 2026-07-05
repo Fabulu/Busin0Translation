@@ -35,6 +35,28 @@ while pos < len(root_dir):
 
 passed = 0
 failed = 0
+by_design = 0
+
+# ---------------------------------------------------------------------------
+# KNOWN-BY-DESIGN allowlist
+# ---------------------------------------------------------------------------
+# A GOOD build renders the character-sex labels via dedicated gender-glyph TILES
+# (glyph ids 672 / 673), NOT the ASCII letters 'M' / 'F'. So R38 GRP 25 ("Male")
+# and GRP 26 ("Female") ALWAYS decode as [672]/[673] on a correctly-patched ISO
+# and can never satisfy the 'M'/'F' ASCII substring check below. Historically
+# they printed a scary "FAIL" on every good build (and dragged the summary into
+# "SOME CHECKS FAILED"). They are moved here so they report as a distinct
+# PASS-class -- "OK (by design: gender glyph tiles)" -- instead of FAIL. Their
+# expected by-design decode is the gender tile; anything ELSE would still be a
+# genuine failure (see the not-by-design branch below), so detection is NOT
+# weakened. Keyed by R38 group index.
+KNOWN_BY_DESIGN = {
+    25: "gender glyph tiles",   # "Male"  -> renders as tile [672], not ASCII 'M'
+    26: "gender glyph tiles",   # "Female"-> renders as tile [673], not ASCII 'F'
+}
+# The exact by-design token each allowlisted group is expected to decode to on a
+# good build (so an UNEXPECTED value still trips a real FAIL).
+BY_DESIGN_TOKEN = {25: "[672]", 26: "[673]"}
 
 # Test 1: PACKDATA size
 if pack_size and pack_size > 800_000_000:
@@ -86,7 +108,17 @@ if pack_lba:
         if expected.lower() in actual.lower():
             print(f"  PASS: R38 GRP {check_gi} ({label}) = '{actual}'")
             passed += 1
+        elif check_gi in KNOWN_BY_DESIGN and BY_DESIGN_TOKEN.get(check_gi, '') in actual:
+            # By-design: this label renders as a gender glyph TILE, never ASCII.
+            # Seeing the expected tile is the correct, good-build state.
+            reason = KNOWN_BY_DESIGN[check_gi]
+            print(f"  OK (by design: {reason}): R38 GRP {check_gi} ({label}) = "
+                  f"'{actual}' (renders as gender glyph tile, not ASCII "
+                  f"'{expected}')")
+            by_design += 1
         else:
+            # Either a normal check, or an allowlisted check whose value is NOT
+            # even the expected by-design tile -> that is a GENUINE failure.
             print(f"  FAIL: R38 GRP {check_gi} ({label}) = '{actual}' (expected '{expected}')")
             failed += 1
 
@@ -325,10 +357,18 @@ else:
 iso.seek(0)
 h = hashlib.md5(iso.read(1024*1024)).hexdigest()
 print(f"\n  ISO hash (first 1MB): {h}")
-print(f"\n  Results: {passed} PASS, {failed} FAIL")
+bd_note = f", {by_design} OK-by-design" if by_design else ""
+print(f"\n  Results: {passed} PASS, {failed} FAIL{bd_note}")
 if failed == 0:
-    print("  ALL CHECKS PASSED - ISO is correctly patched")
+    if by_design:
+        print(f"  ALL CHECKS PASSED - ISO is correctly patched "
+              f"({by_design} known-by-design gender-glyph-tile check(s) "
+              f"reported as OK-by-design, not FAIL)")
+    else:
+        print("  ALL CHECKS PASSED - ISO is correctly patched")
 else:
+    # Only GENUINE failures reach here -- the by-design gender-glyph-tile checks
+    # are counted separately and never trip this trailer on a good build.
     print("  SOME CHECKS FAILED - ISO may be stale or corrupt")
 
 # The relocation-integrity gate is the real-PS2 safety tripwire and is the ONLY
