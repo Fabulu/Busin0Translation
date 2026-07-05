@@ -1,3 +1,14 @@
+# ⛔ SUPERSEDED / FALSIFIED — DO NOT FOLLOW THIS DOCUMENT (banner added 2026-07-05)
+
+**Two of this file's load-bearing claims are proven WRONG. It is kept only as history.**
+
+1. **Patch 19 hooks a DEAD PATH.** v133 live diagnostics proved chargen Status/prompt text does NOT draw via the `0x308040`/`0x308018` path this document patches (fire-counter = 0 while the chargen mode global read 5). The entire "Patch 19 is the SHIPPED chargen proportional path" status header below is void. See memory `project_chargen_drawpath_falsified`.
+2. **The "R2100-font theory DISPROVEN by disassembly" claim (§1) was itself wrong — the R2100 theory was CORRECT.** The chargen/request renderers (`0x307510`, `0x3A2EF0`) draw the **R2100 sub0 upright 16px font**, not the R1188 24px serif whose metrics were being fed to them. That wrong-font metric mismatch was the root cause of the game-wide "Ge nde r" spacing, and it shipped FIXED in **v158** (commit 44e77d1): R2100-measured ADV2/LSH2 tables at VA `0x4B1000`/`0x4B1100`, read by Patches 26/27/29/31; Patch 28 reverted to stock. R1188's own metrics JSON was accurate all along (0/95 diff vs live VRAM).
+
+**Current truth:** `CLAUDE.md` + `runs/CLAUDE-RUNS/AUDIT-20260702-full-project.md` (finding H3). Original text below, unchanged, for history.
+
+---
+
 ## Chargen + fixed-pitch text spacing fix (backlog, added 2026-06-18)
 
 > ### STATUS UPDATE 2026-06-23 (v122) — Patch 19 is the SHIPPED chargen proportional path. DO NOT re-design / re-cut it.

@@ -31,17 +31,25 @@ python tools/generate_font_atlas.py && python build/build_v9.py && cp build/BUSI
 3. **Step 3**: R39 equipment injection (inject_r39_v2.py)
 4. **Step 3.1**: R39 inline Japanese patch (tools/patch_r39_inline.py)
 5. **Step 3.2**: R39 quest UI labels + quest titles (build/inject_r39_quest.py)
-6. **Step 3.5**: R46/R47 bulletin board (build/inject_r46_r47.py). The renderer centers each post on the widest line counting 0x0000 pads as full cells — R46 injection therefore uses symmetric per-line padding.
-7. **Step 3.6/3.7**: **DISABLED in v85** — the old R1188 patchers (patch_r1188_comprehensive.py / patch_r1188_bw256.py; formerly patch_r1188_direct.py) used a layout off by 1008 bytes and corrupted ~150 live glyph cells of the dialogue font (BUG-3: the r/y/V glyph artifacts). R1188 must ship PRISTINE; the build deletes any stale R1188 override.
-8. **Step 3.8**: R2100 chargen font atlas (tools/patch_r2100.py)
-9. **Step 3.9**: R2138 unified patcher (tools/patch_r2138.py — sub0/4/6/7/25/26/27)
-10. **Step 4**: Type-2 variable-size injection + Section 1 opcode patching (tools/patch_section1_offsets.py using the tools/sec1_disasm.py BFS disassembler). Resources whose Section 1 fails the BFS walk (e.g. R989/R990/R1034 — binary Section 1) are SKIPPED by inject_and_patch and ship pristine.
-11. **Step 5**: R1193 intro narration (tools/patch_r1193_narration.py) — trailing block after the last FFFF, drawn by 23 opcode-0x14 line records
-12. **Step 6**: Merge patched_type2 into packdata_resources
-13. **Step 7**: Rebuild PACKDATA (rebuild_packdata.py)
-14. **Step 8**: Build ISO (copy original, overwrite PACKDATA + directory size)
-15. **Step 8.4**: Patch EXE (patch_exe.py)
-16. **Step 8.5**: Write patched EXE into ISO
+6. **Step 3.3**: R39 block-2 spell descriptions (tools/patch_r39_spell_desc.py) — size-changing block-2 rebuild, pristine-diff gate on every byte outside block 2. All 56 records (v159).
+7. **Step 3.4**: R39 AA names/descriptions/UI, blocks 3/4/5 (tools/patch_r39_aa.py) — same gated pattern; header-driven offsets so it composes after the block-2 growth (v161).
+8. **Step 3.5**: R46/R47 bulletin board (build/inject_r46_r47.py). The renderer centers each post on the widest line counting 0x0000 pads as full cells — R46 injection therefore uses symmetric per-line padding.
+9. **Step 3.6/3.7**: **DISABLED in v85** — the old R1188 patchers (patch_r1188_comprehensive.py / patch_r1188_bw256.py; formerly patch_r1188_direct.py) used a layout off by 1008 bytes and corrupted ~150 live glyph cells of the dialogue font (BUG-3: the r/y/V glyph artifacts). R1188 must ship PRISTINE; the build deletes any stale R1188 override.
+10. **Step 3.8**: R2100 chargen font atlas (tools/patch_r2100.py)
+11. **Step 3.9**: R2138 unified patcher (tools/patch_r2138.py — sub0/4/6/7/25/26/27). sub4 ("Class Reqs" class-change header) is **RE-ENABLED**: strict in-place pixel re-ink, lossless-roundtrip + change-box containment guards, transfer geometry identical to pristine. The old "sub4 OFF / VIF crash" claim is OBSOLETE (the crash was 93 binary type-02s, not this atlas).
+12. **Step 4**: Type-2 variable-size injection + Section 1 opcode patching (tools/patch_section1_offsets.py using the tools/sec1_disasm.py BFS disassembler). Resources whose Section 1 fails the BFS walk (e.g. R989/R990/R1034 — binary Section 1) are SKIPPED by inject_and_patch and ship pristine.
+13. **Step 5**: R1193 intro narration (tools/patch_r1193_narration.py) — trailing block after the last FFFF, drawn by 23 opcode-0x14 line records
+14. **Step 5c**: R1194 ending narration + R1193 short-prologue variant (tools/patch_r1194_narration.py) — rebuilds R1194 group 0's 42 opcode-0x14 line records ([42 EN lines][EN tail][FFFF]); the R1193 10-record short prologue appends its EN lines at Section-2 end so zero existing offsets move (v161).
+15. **Step 6**: Merge patched_type2 into packdata_resources
+16. **Step 6.1**: JP-residue guard (v142) — reports any translated group whose built bytes are still identical to pristine JP (i.e. a translation that silently failed to land)
+17. **Step 6.5**: Pre-rendered UI strips + item DB + names/library: patch_r2124 / r1365 / battle_strips / camp_strips / facility_strips / r2147 / r1370 / r2880 / r2881_ending / r2882_grave, inject_r34_db, then patch_r2654_names → patch_r2654_library → patch_r1892_names (ORDER MATTERS — they compose on the same R2654 output), plus patch_r2655_library_strips (library banners/tabs/footer, v165). Runs AFTER Step 6's stale-override purge and BEFORE Step 7 — this placement is load-bearing (see the comment block in build_v9.py).
+18. **Step 7**: Rebuild PACKDATA (rebuild_packdata.py)
+19. **Step 8**: Build ISO (copy original, overwrite PACKDATA + directory size)
+20. **Step 8.2**: PACKDATA overflow self-heal + gate (see "PACKDATA Overflow" below)
+21. **Step 8.4**: Patch EXE (patch_exe.py)
+22. **Step 8.5**: Write patched EXE into ISO
+
+Steps 1, 3–3.5, 3.8, 3.9, 7 and 8.4 are exit-code gated: a failed child process aborts the build (v163 hardening — a failed rebuild_packdata or patch_exe can no longer silently ship stale output).
 
 ## Key Architecture
 
@@ -77,31 +85,23 @@ python tools/generate_font_atlas.py && python build/build_v9.py && cp build/BUSI
 - Jump targets are Section-1-relative and NEVER need remapping.
 - Section-1 patching is done by the BFS disassembler `tools/sec1_disasm.py` + `tools/patch_section1_offsets.py`. **Pattern matching must NEVER be reintroduced.**
 
-## Remaining Untranslated Content
+### Glyph decode discipline (per-resource glyph pages)
+Glyph IDs are **per-resource page slots**, NOT global codepoints — the same u16 id renders DIFFERENT characters in different resources. `msg_glyph_map`-style decodes are cross-resource APPROXIMATIONS: useful as search hints, never as proof (e.g. the R1198 nameplate decoding as 無帰前像 that was actually 騎士団長 "Knight Commander"). When identifying or patching text, anchor SEMANTICALLY inside the target resource (neighboring known strings, offset-table structure, in-resource glyph equations) — never via font-atlas cell positions or a borrowed glyph map.
 
-### Type-2 Resources (~587 unscanned)
-The type-2 extraction (`tools/extract_untranslated_type2.py`) filtered aggressively — min 5 glyphs, 50% glyph map coverage, 3+ consecutive katakana/kanji. This skipped ~587 of ~617 type-2 resources. Many are genuinely binary (dungeon maps, scene data), but some may contain sparse dialogue (1-3 short messages among binary data). A less aggressive scan is needed to find remaining text. Resources R680-R911 (dungeon scripts) are the most likely to have hidden dialogue.
+## Translation Status (post-v166 — public beta, effectively complete)
 
-### Pre-rendered / pixel-strip UI — ~99% DONE (verified Jun28, workflow w20ihqhjy)
-**The old "BUG-4/BUG-5 town-hub buttons + status labels still JP" claim is FALSIFIED.** Verified TRANSLATED + shipping English in v150 (each *.raw DIFFs pristine): town-hub buttons (R2124), tavern submenu (R2147), status labels (R1365), chargen stat-block/sidebar (R2138), ALL facility submenus (Inn R2144, Temple R2141, shops R2150/R2153, town menu/Adv-Guild/Alchemy/Level-Up R2138 sub0/6/26/25/27), battle command chrome (R1054), AA-setup menus + ~50 technique names (R1360-R1364), camp/field menu + L1/R1 cycler (R1359), System/SELECT menu (R1910/R1367), save/load slot names (EXE SJIS). **Ending narration is IDENTIFIED + translated** (R2881 sub7); intro/prologue (R2880/R1193) + grave cutscene (R2882) too. (R2881/R2882 on-screen render unverified — no ending GS dump yet.)
+Translated and shipping: all dialogue/narration (R1207 at 912/912 after the v166 fresh-translation wave; R1206 four-segment misalignment repaired), the **entire in-game library — 100%** (R2654 texts/names/blurbs incl. control-token syntax with a token-preservation gate; R2655 banner/tab/footer strips), **R39 complete** (equipment, quests, spell descriptions, AA names/descriptions/UI — the old "in-battle CAST description" open item shipped via Steps 3.3/3.4 in v159–v163), all pre-rendered UI strips (town hub, facilities, battle/camp chrome, status, chargen sidebar — and R2138 sub4 "Class Reqs", RE-ENABLED, see Step 3.9), rosters + nameplates, EXE SJIS (all player-visible strings; remaining ~686 runs are debug-only), intro + ending narration.
 
-**Genuinely remaining (verified):**
-- **R2138 sub4 = class-change "Job Change Requirements" header** — the ONLY untranslated pre-rendered strip. patch_r2138.py leaves sub4 OFF because patching it trips a VIF/GS-upload crash. (Fix in progress Jun28: in-place pixel re-ink keeping transfer geometry == pristine.)
-- **In-battle spell/ability CAST description line** — MSG/type-2 text, NOT a strip (separate from the R39-block2 magic-MENU descriptions which ARE translated). Being verified Jun28 (may be a stale pre-v149 screenshot vs a real separate resource).
-- **Type-2 Resources (~587 unscanned)** — see above; possible sparse hidden dialogue (R680-R911 likeliest).
+**Remaining (small pool):**
+- **Equipment type icons** (剣/斧/杖 category glyphs; identified as R2156 — id from the Jul-2 recon, not independently re-verified) — CAPTURE-GATED: no screenshot yet confirms JP vs EN. Do not patch blind.
+- **Credits / staff roll** — likely a burnt-in FMV stream outside PACKDATA. Capture-gated.
+- **Ending render verification** — R2881 sub7 / R2882 / R1194 ending narration are translated, but no ending GS dump or screenshot confirms the on-screen render yet.
+- **Minor cosmetic offsets** (beta reports welcome): battle "Target" label, L1/R1 bottom-bar hints, treasure-drop name placement.
 
-**Probably NONEXISTENT (no evidence in any screenshot; Busin 0 is a hand-mapping crawler):** dungeon compass (N/S/E/W), automap/floor HUD. Do not chase without a user-confirmed sighting.
+**Laid to rest — do NOT re-chase:** the "~587 unscanned type-2 resources" fear (Jul-2 audit: loose rescan of all 617 → R680–R911 is binary noise; the only real loss was the md_import batch, recovered in the v161 wave); dungeon compass / automap HUD (nonexistent — hand-mapping crawler); title boot menu (natively English); R1188 tab labels (render via R2138 sub7, English since v8x).
 
-**Unverified (need a capture to confirm JP vs EN):** equipment type icons (剣/斧/杖 — no patcher/screenshot), equip-slot header labels, title boot menu (New Game/Continue), credits/staff roll (likely a burnt-in FMV stream outside PACKDATA).
-
-### EXE SJIS Strings — COMPLETE
-All player-visible SJIS strings are patched (8 patches). The remaining ~686 SJIS runs are all debug-only (printf format strings, engine error messages). Full audit done 2026-06-09.
-
-### R1188 Tab Labels — COMPLETE
-Tab labels (Kana/Hira/ABC/Sym/OK) render through R2138 sub7, NOT R1188. Already fully English via patch_r2138.py. Confirmed in screenshots 2026-06-06.
-
-### PACKDATA Overflow Warning
-The rebuilt PACKDATA.DIG is ~190KB larger than the original, overflowing into BSN2_0.DSI (audio data) by ~90 sectors. This may corrupt audio on real PS2 hardware. Needs investigation — either shrink PACKDATA or relocate BSN2_0.DSI in the ISO.
+### PACKDATA Overflow — SELF-HEALED by Step 8.2 (do not re-chase)
+The rebuilt PACKDATA.DIG outgrows its original slot and would overrun the next file (BSN2_0.DSI, audio). Step 8.2 self-heals at ISO build time: it parses the root directory by name, relocates the following file upward by the needed shift (dynamic — not a fixed offset; ISO extended, PVD volume size updated), and a build-gate assert verifies the relocated file's first sector no longer collides with PACKDATA's end. verify_iso MD5-checks the relocated file. **Overflow is NORMAL, not corruption — never assert overflow==0.** Growth tripwire: `tests/_helpers.py PACKDATA_OVERFLOW_BUDGET_SECTORS = 320` (raised from 256 on 2026-07-04 after the v163–v165 library waves legitimately grew R2654). The relocation machinery is uncapped; the budget exists purely so unexplained growth trips a test — if it trips, account for the delta before bumping.
 
 ## Target Disc
 - **SLPM-65378** (original release, NOT Atlus Best Collection SLPM-65876)

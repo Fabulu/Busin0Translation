@@ -55,6 +55,8 @@ MODULES = [
     "test_chargen_centering",
     "test_chargen_diag_guard",
     "test_name_consistency",
+    "test_exe_sjis_strings",
+    "test_reloc_caves_installed",
 ]
 
 
