@@ -55,7 +55,8 @@ def test_d1_hook_is_j_to_frag1_at_drawx_site():
     jw = RELOC.P31_HOOK_JWORD
     assert _op(jw) == 0x02, "Patch 31 hook must be a `j` (op 2)"
     assert ((jw & 0x3FFFFFF) << 2) == RELOC.P31_F1_VA, "j target != frag1 VA"
-    assert RELOC.P31_F1_VA == 0x4AFA00 and RELOC.P31_F2_VA == 0x4AB5EC
+    # v170: frag2 evicted from the P27/P19c1 run (P27 grew) to the tail-of-P6 pad 0x4B0D6C.
+    assert RELOC.P31_F1_VA == 0x4AFA00 and RELOC.P31_F2_VA == 0x4B0D6C
 
 
 def test_d2_frag1_sources_lsh_from_r2100_table():
@@ -64,7 +65,9 @@ def test_d2_frag1_sources_lsh_from_r2100_table():
     the R2100 upright 16px font, NOT the oblique R1188 font the canonical
     table @0x4C7690 was measured from (the "Ge nde r" root cause)."""
     f1 = RELOC.P31_F1_WORDS
-    assert RELOC.LSH2_VA == 0x4B1100 and RELOC.LSH_VA == 0x4C7690
+    # v170: LSH2 relocated to the FREE200 dead libgraph pad (0x4AF338..0x4AF400), 95B.
+    assert (RELOC.ADV2_VA + 95 <= RELOC.LSH2_VA and RELOC.LSH2_VA + 95 <= 0x4AF400
+            and RELOC.LSH_VA == 0x4C7690)
     assert any(_op(w) == 0x0F and _imm(w) == (RELOC.LSH2_VA >> 16) for w in f1), (
         "frag1 must lui the R2100 LSH2 table base 0x%X0000" % (RELOC.LSH2_VA >> 16)
     )

@@ -85,7 +85,7 @@ def nop():               return 0
 #   ADV  @VA 0x4C7564  (lbu 0x7564(0x4C0000))   -- intact across all dumps
 #   LSH  @VA 0x4C7690  (lbu 0x7690(0x4C0000))   -- intact across all dumps
 # The relocated P27 cave reads the canonical ADV table DIRECTLY, exactly like production.
-P27_VA   = 0x4AB554          # relocated Patch-27 box-text cave (20 words / 80B)
+P27_VA   = 0x4AB554          # relocated Patch-27 box-text cave (v170: 23 words / 92B, guarded)
 
 # Patch-14 caves are NOT relocated -- they ship at the production in-arena addresses,
 # which are never heap-stomped (proven).  We still EXPORT their word lists + VAs so
@@ -104,16 +104,27 @@ LSH_VA   = 0x4C7690          # canonical LEFTSHIFT table (production in-arena)
 # (glyph_metrics.ADV2/LEFTSHIFT2); the canonical R1188 tables stay untouched for
 # narration/dialogue (P14) and battle-adjacent paths.
 #
-# PLACEMENT EVIDENCE: 0x4B1000..0x4B1200 sits inside the 4081-byte hole
-# 0x4B0E97..0x4B1E88 that is ZERO in the pristine EXE AND in all 27 available
-# live RAM dumps, including 10 battle dumps spanning every observed battle phase
-# (emptybattle / fightsoftlock / fightpartyassault / battlecameraspin /
-# superoddcrashfight / fight1 / fight2 / ...) -- the same evidence class that
-# whitelisted the canonical in-arena tables.  These are READ-ONLY DATA consumed
-# only when mode 0x4FED18 is 5 or 7 (never battle); a hypothetical stomp cannot
-# crash anything (worst case: cosmetic spacing until reboot, never observed).
-ADV2_VA  = 0x4B1000          # R2100 advance table, 256B (idx 0..94 ADV2, tail 0x12)
-LSH2_VA  = 0x4B1100          # R2100 left-shift table, 256B (idx 0..94 LSH2, tail 0)
+# PLACEMENT (v170): the tables move OUT of the battle arena entirely.  v158/v169
+# parked them in the 4081-byte hole 0x4B0E97..0x4B1E88 (0x4B1000, later 0x4B1C88),
+# but that hole is INSIDE the arena-start DMA sweep and could feed table bytes into
+# the battle render pipeline.  v170 relocates ADV2/LSH2 (95B each) BELOW the arena
+# into the dead libgraph trailing pad 0x4AF338..0x4AF400 (200B), which is ALLZERO in
+# the pristine EXE AND in all 5 live dumps incl. 3 battle dumps (highest nonzero byte
+# in 0x4AF2E0..0x4AF400 is 0x4AF335 everywhere -- the final GS-write descriptor word
+# FF 02 00 00 @0x4AF334, ending 0x4AF337).  Starting at the word-aligned 0x4AF338
+# never touches that descriptor (the exact v147 title-hang cause).  READ-ONLY DATA
+# consumed only when mode 0x4FED18 is 5 or 7 (never battle); the tables are 95B and
+# each consumer (P26/P27/P29/P31) carries a gid>=95 guard reproducing the old 256B
+# tail (ADV2 -> 0x12, LSH2 -> 0) so the shrink is behaviourally byte-identical.
+ADV2_VA  = 0x4AF338          # R2100 advance table, 95B; v170 moved OUT of the battle arena entirely
+                             # into the dump-verified-zero libgraph trailing pad (0x4AF338..0x4AF400,
+                             # 200B) below the arena.  CATEGORICALLY SAFE: never written -- zero in
+                             # pristine AND all 5 live dumps incl. 3 battle dumps.  Starts at 0x4AF338
+                             # (word-aligned, ONE word above the final libgraph descriptor word
+                             # 0x4AF334=0x000002FF), so it never smears the descriptor (the exact
+                             # v147 title-hang cause).  Read as lbu v,0xF338(0x4A0000+gid).
+LSH2_VA  = 0x4AF398          # R2100 left-shift table, 95B; v170 contiguous after ADV2 (0x4AF338+0x60),
+                             # ends 0x4AF3F7 with 9B spare to the pad end 0x4AF400.  Read lbu 0xF398.
 
 ARENA_LO, ARENA_HI = 0x4B0E00, 0x4FDE30
 
@@ -125,55 +136,76 @@ def jword(va):  return j(va)
 def fo(va):     return va - 0x100000 + 0x80
 
 
-# ------------------------------------------------------------------ P27 cave (RELOCATED, R2100 table)
-# Structurally BYTE-FAITHFUL to the production cave that lived @0x4C7410 (recovered
-# from the v144 battle dump); the base address (0x4C7410 -> P27_VA), the internal `b`
-# target, and (v158) the TABLE READ change.  v158: the 0x3A2EF0 renderer draws the
-# R2100 sub0 UPRIGHT 16px font in BOTH gated modes (5 chargen / 7 request -- verified
-# from live screenshots), so the PROP arm reads ADV2 @0x4B1000 (lui 0x4B / lbu 0x1000)
-# instead of the canonical R1188 ADV (which stays for narration/dialogue).  Still no
-# ASCII guard -- the 256-byte ADV2 table covers gid 0..255 natively (tail 0x12,
-# byte-identical fallback to the canonical tail):
-#   lui v1,0x50 ; lw v1,-0x12E8(v1)  (mode) ; addiu v1,v1,-5 ; beqz v1->PROP ;
-#   addiu v1,v1,-2 (ds) ; beqz v1->PROP ; nop ;
-#   STOCK: lw v1,0xD0(sp) ; dsll32 v1,16 ; dsra32 v1,16 ; b APPLY ; nop ;
-#   PROP : lbu v1,-1(s2) ; lui at,0x4B ; addu at,at,v1 ; lbu v1,0x1000(at) ;
-#   APPLY: addu v1,s1,v1 ; dsll32 s1,16 ; dsra32 s1,16 ; j 0x3A31B8 ; nop
+# ------------------------------------------------------------------ P27 cave (RELOCATED, R2100 table, GUARDED)
+# v170 REWRITE (23 words / 92B, in place @0x4AB554): the 0x3A2EF0 box renderer draws the
+# R2100 sub0 UPRIGHT 16px font in BOTH gated modes (5 chargen / 7 request), so the PROP
+# arm reads the RELOCATED 95-byte ADV2 table @ADV2_VA=0x4AF338 (lui 0x4A / lbu 0xF338).
+# Because ADV2 is now only 95 bytes (moved out of the arena into the dead libgraph pad),
+# this cave ADDS a gid>=95 ASCII GUARD that reproduces the old 256-byte tail default 0x12
+# (sltiu k1,v1,95 ; movz v1,at(=0x12),k1 -> gid>=95 keeps 0x12), replacing the compact
+# double-beqz {5,7} gate with a single `(mode-5)&0xFFFD==0 ? PROP : STOCK`.
+#   0  lui   v1,0x50           ; mode base
+#   1  lw    v1,-0x12E8(v1)    ; mode (RAM 0x4FED18)
+#   2  addiu v1,v1,-5          ; mode-5
+#   3  andi  v1,v1,0xFFFD      ; 0 iff mode in {5,7}
+#   4  bnez  v1,STOCK          ; not gated -> stock
+#   5  nop (ds)
+#   PROP:
+#   6  lbu   v1,-1(s2)         ; gid
+#   7  sltiu k1,v1,95          ; SCRATCH k1 (R1) -- (gid<95)?1:0
+#   8  lui   at,0x4A           ; ADV2 base (0x4A0000; table @0x4AF338)
+#   9  addu  at,at,v1
+#   10 lbu   v1,0xF338(at)     ; ADV2[gid]
+#   11 addiu at,zero,0x12      ; kanji-tail default
+#   12 movz  v1,at,k1          ; gid>=95 -> 0x12
+#   APPLY:
+#   13 addu  v1,s1,v1
+#   14 dsll32 s1,v1,16
+#   15 dsra32 s1,s1,16
+#   16 j     0x3A31B8
+#   17 nop (ds)
+#   STOCK:
+#   18 lw    v1,0xD0(sp)       ; original pitch (register-faithful)
+#   19 dsll32 v1,v1,16
+#   20 dsra32 v1,v1,16
+#   21 b     APPLY
+#   22 nop (ds, in-cave)
 def build_p27():
     base = P27_VA
-    w = []
     def at(i): return base + i * 4
+    w = []
     w.append(lui('v1', 0x50))                 # 0  lui v1,0x50
     w.append(lw('v1', -0x12E8, 'v1'))         # 1  lw v1,-0x12E8(v1)  ; mode (RAM 0x4FED18)
-    w.append(addiu('v1', 'v1', -5))           # 2  addiu v1,v1,-5   ; ==5 chargen?
-    i_b1 = 3; w.append(0)                      # 3  beqz v1,PROP   (patch)
-    w.append(addiu('v1', 'v1', -2))           # 4  (ds) addiu v1,v1,-2  ; ==7 request?
-    i_b2 = 5; w.append(0)                      # 5  beqz v1,PROP   (patch)
-    w.append(nop())                           # 6  (ds) nop
-    # STOCK arm (mode != 5 and != 7 -> original monospace pitch path, register-faithful)
-    w.append(lw('v1', 0xD0, 'sp'))            # 7  lw v1,0xD0(sp)   ; original pitch
-    w.append(dsll32('v1', 'v1', 16))          # 8
-    w.append(dsra32('v1', 'v1', 16))          # 9
-    i_bs = 10; w.append(0)                     # 10 b APPLY        (patch)
-    w.append(nop())                           # 11 (ds)
-    # PROP arm (chargen/request -> proportional advance from the R2100 ADV2 table)
-    i_prop = len(w)
-    w.append(lbu('v1', -1, 's2'))             # 12 lbu v1,-1(s2)   ; gid (char-32, <95)
-    w.append(lui('at', 0x4B))                 # 13 lui at,0x4B      ; ADV2 table base
-    w.append(addu('at', 'at', 'v1'))          # 14 addu at,at,v1
-    w.append(lbu('v1', 0x1000, 'at'))         # 15 lbu v1,0x1000(at) ; ADV2[gid] (R2100)
+    w.append(addiu('v1', 'v1', -5))           # 2  addiu v1,v1,-5     ; mode-5
+    w.append(andi('v1', 'v1', 0xFFFD))        # 3  andi v1,v1,0xFFFD  ; 0 iff mode in {5,7}
+    i_bnez = 4; w.append(0)                    # 4  bnez v1,STOCK   (patch)
+    w.append(nop())                           # 5  (ds) nop
+    # PROP arm (mode in {5,7}) -> proportional advance from the RELOCATED R2100 ADV2 table,
+    # with a gid>=95 guard that reproduces the old 0x12 tail.
+    w.append(lbu('v1', -1, 's2'))             # 6  lbu v1,-1(s2)      ; gid (char-32)
+    w.append(sltiu('k1', 'v1', 95))           # 7  sltiu k1,v1,95     ; SCRATCH k1 (R1)
+    w.append(lui('at', 0x4A))                 # 8  lui at,0x4A        ; ADV2 base (0x4A0000)
+    w.append(addu('at', 'at', 'v1'))          # 9  addu at,at,v1
+    w.append(lbu('v1', 0xF338, 'at'))         # 10 lbu v1,0xF338(at)  ; ADV2[gid] @0x4AF338
+    w.append(addiu('at', 'zero', 0x12))       # 11 addiu at,zero,0x12 ; kanji-tail default
+    w.append(movz('v1', 'at', 'k1'))          # 12 movz v1,at,k1      ; gid>=95 -> 0x12
     # APPLY
     i_apply = len(w)
-    w.append(addu('v1', 's1', 'v1'))          # 16 addu v1,s1,v1
-    w.append(dsll32('s1', 'v1', 16))          # 17
-    w.append(dsra32('s1', 's1', 16))          # 18
-    w.append(j(P27_REJOIN))                   # 19 j 0x3A31B8
-    w.append(nop())                           # 20 (ds)  (only emitted if a branch needs it; see below)
-    # NOTE: the production cave was 20 words (indices 0..19); the trailing nop above keeps
-    # the delay slot of the final `j`.  Patch the placeholders:
-    w[i_b1] = beqz('v1', at(i_prop), at(i_b1))
-    w[i_b2] = beqz('v1', at(i_prop), at(i_b2))
-    w[i_bs] = b(at(i_apply), at(i_bs))
+    w.append(addu('v1', 's1', 'v1'))          # 13 addu v1,s1,v1
+    w.append(dsll32('s1', 'v1', 16))          # 14
+    w.append(dsra32('s1', 's1', 16))          # 15
+    w.append(j(P27_REJOIN))                   # 16 j 0x3A31B8
+    w.append(nop())                           # 17 (ds)
+    # STOCK arm (mode not in {5,7}) -> original monospace pitch path (register-faithful)
+    i_stock = len(w)
+    w.append(lw('v1', 0xD0, 'sp'))            # 18 lw v1,0xD0(sp)     ; original pitch
+    w.append(dsll32('v1', 'v1', 16))          # 19
+    w.append(dsra32('v1', 'v1', 16))          # 20
+    i_bstk = len(w); w.append(0)               # 21 b APPLY        (patch)
+    w.append(nop())                           # 22 (ds, in-cave)
+    # patch the placeholder branches (PC-relative -> invariant under relocation)
+    w[i_bnez] = bne('v1', 'zero', at(i_stock), at(i_bnez))  # bnez v1,STOCK
+    w[i_bstk] = b(at(i_apply), at(i_bstk))                  # b APPLY
     return w
 
 
@@ -260,12 +292,23 @@ NEW_GATE_MARKER  = P14_HOOK1_JWORD
 # The gate marker @0x209820 therefore CHANGES from the production 0x08131D50 to
 # j 0x4B049C; dependent patches 19/24/25/26 gate on RELOC.NEW_GATE_MARKER (updated below).
 ARENA_SAFE_HI = 0x4B0DCF      # VA must be < this to be in dead .text padding
-LIBGRAPH_LO, LIBGRAPH_HI = 0x4AF2E0, 0x4AF400   # PsII libgraph SDK data -- NEVER touch
+# LIBGRAPH block narrowed v170: 0x4AF400 -> 0x4AF338.  EVIDENCE (pristine + 5 live
+# dumps: flyingenemy / pixie / stuckdfight / confirmed / eeMemory, incl. 3 battle
+# dumps): the HIGHEST NONZERO byte in 0x4AF2E0..0x4AF400 is VA 0x4AF335 in ALL of
+# them -- the final libgraph GS-write descriptor word is FF 02 00 00 @0x4AF334
+# (ends 0x4AF337).  0x4AF336..0x4AF400 (202B) is ALLZERO in every dump.  So the
+# proven live-descriptor block ends at 0x4AF338 (word-aligned), and 0x4AF338..0x4AF400
+# is safe read-only-data pad -- the ADV2/LSH2 tables now live there.  Narrowing HI to
+# 0x4AF338 lets assert_install_safe accept 0x4AF338 while still rejecting any encroach
+# BELOW it onto the descriptor word 0x4AF334 (the v147 title-hang trap).
+LIBGRAPH_LO, LIBGRAPH_HI = 0x4AF2E0, 0x4AF338   # PsII libgraph SDK data -- NEVER touch (v170: HI narrowed)
 
 # Whitelist of intentional canonical TABLE installs (read-only data the caves index).
 # These are resident rodata holes, proven intact across all dumps; they are NOT caves.
-# v158 adds the R2100 tables (ADV2/LSH2 @0x4B1000/0x4B1100 -- zero across all 27 live
-# dumps incl. 10 battle dumps; data-only, read only in modes 5/7, never battle).
+# v170: the R2100 tables (ADV2/LSH2 @0x4AF338/0x4AF398, 95B each) live in the
+# dump-verified-zero libgraph trailing pad below the arena (0x4AF338..0x4AF400 is
+# ALLZERO in pristine + all 5 live dumps incl. 3 battle dumps); data-only, read only in
+# modes 5/7, never battle.  (v158 originally placed them in-arena @0x4B1000/0x4B1100.)
 CANONICAL_TABLE_VAS = {ADV_VA, LSH_VA, ADV2_VA, LSH2_VA}
 
 # old VA -> new VA for every relocated cave (caves only; tables stay canonical).
@@ -279,15 +322,16 @@ CAVE_RELOC = {
     "P26":   (0x4C7790, 0x4B0414, 104),   # chargen body-text cave
     "P24":   (0x4CAA30, 0x4AFA58, 24),    # narration boxX=+96 cave
     "P19c2": (0x4D6660, 0x4AFA70, 48),    # chargen draw-shift cave
-    "P19c1": (0x4D6600, 0x4AB5A8, 68),    # chargen advance-LUT cave
+    "P19c1": (0x4D6600, 0x4AB5B0, 68),    # chargen advance-LUT cave (v170: +8B in-run to make P27 room)
     "P29f1": (0x4B0C48, 0x4B0C48, 40),    # box-text LSH draw-shift, fragment 1 (10 words)
-    "P29f2": (0x4B0BC8, 0x4B0BC8, 16),    # box-text LSH draw-shift, fragment 2 ( 4 words)
+    "P29f2": (0x4B0BC8, 0x4B0BC8, 24),    # box-text LSH draw-shift, fragment 2 (6 words; v170 +gid guard)
     # P31 (v157) is a NEW cave (not a relocation): the chargen DESCRIPTION-box LSH
     # draw-shift for renderer 0x307510 (the Patch-26 body-text path).  Split across
     # two verified-zero post-`jr ra` .text pads (old_va == new_va); registered here so
     # the overlap/safety self-check + tests cover it automatically.
     "P31f1": (0x4AFA00, 0x4AFA00, 40),    # 0x307510 desc LSH, fragment 1 (10 words; post-epilogue pad)
-    "P31f2": (0x4AB5EC, 0x4AB5EC, 20),    # 0x307510 desc LSH, fragment 2 ( 5 words; tail of P27/P19c1 pad)
+    "P31f2": (0x4AB5EC, 0x4B0D6C, 20),    # 0x307510 desc LSH, fragment 2 (5 words; v170 evicted from the
+                                          # P27/P19c1 run -> the 20B tail-of-P6 pad @0x4B0D6C)
 }
 
 # Convenience accessors (new VA + new j-hook word) for patch_exe.py.
@@ -348,23 +392,27 @@ P19C2_HOOK_JWORD = jword(P19C2_VA)   # j 0x4AFA70
 #
 # frag1 @0x4B0C48 (10 words); the internal `j P29_F2_VA` at 0x4B0C68 has its delay slot at
 #   0x4B0C6C (still inside the pad), so nothing executes the live data at 0x4B0C70.
-# frag2 @0x4B0BC8 (4 words); the `jr ra` at 0x4B0BD0 has its delay slot at 0x4B0BD4 (still
-#   inside the pad), so the live EE exception handler at 0x4B0BE0 is never run as a slot.
+# frag2 @0x4B0BC8 (v170: 6 words, fills the 24B pad exactly); the `jr ra` at 0x4B0BD8 has its
+#   delay slot at 0x4B0BDC (still inside the pad), so the live EE exception handler at 0x4B0BE0
+#   is never run as a slot.
 P29_HOOK1     = 0x3A30F4          # site A  (file 0x2A3174)
 P29_HOOK2     = 0x3A3170          # site B  (file 0x2A31F0)
 P29_ORIG_SITE = 0x00431821       # addu v1,v0,v1 (pristine at BOTH sites)
 P29_F1_VA     = 0x4B0C48          # fragment 1 pad (40B zero; below arena, clear of libgraph)
-P29_F2_VA     = 0x4B0BC8          # fragment 2 pad (24B zero; we use 16B)
+P29_F2_VA     = 0x4B0BC8          # fragment 2 pad (24B zero; v170 uses all 24B = 6 words)
 
 def build_p29():
     """Two word lists (frag1, frag2) for the split box-text LSH draw-shift sub."""
+    # v170: gid is carried in SCRATCH k1 (R1) so the gid>=95 ASCII guard can fold into
+    # frag2's 8 free bytes (the RELOCATED R2100 LSH2 table @LSH2_VA=0x4AF398 is only 95B,
+    # so a non-ASCII gid must be guarded to subtract 0 rather than over-index the table).
     frag1 = [
         lw('at', 0xE0, 'sp'),        # 0x4B0C48  reload baseX (v0 clobbered by jal delay slot)
         addu('v1', 'at', 'v1'),      # 0x4B0C4C  v1 = baseX + pen   (STOCK draw-X)
-        lbu('at', -1, 's2'),         # 0x4B0C50  at = gid (low byte of BE u16; char-32 <95)
-        lui('t9', 0x4B),             # 0x4B0C54  R2100 LSH2 table base 0x4B0000 (v158)
-        addu('t9', 't9', 'at'),      # 0x4B0C58  t9 = 0x4B0000 + gid
-        lbu('t9', 0x1100, 't9'),     # 0x4B0C5C  t9 = LEFTSHIFT2[gid] (0 for space/non-ASCII)
+        lbu('k1', -1, 's2'),         # 0x4B0C50  k1 = gid (low byte of BE u16; char-32)  [R1 scratch]
+        lui('t9', 0x4A),             # 0x4B0C54  R2100 LSH2 table base 0x4A0000 (v170 reloc)
+        addu('t9', 't9', 'k1'),      # 0x4B0C58  t9 = 0x4A0000 + gid
+        lbu('t9', 0xF398, 't9'),     # 0x4B0C5C  t9 = LEFTSHIFT2[gid] @0x4AF398 (0 for space)
         lui('at', 0x50),             # 0x4B0C60  mode read (absolute, matches Patch 27)
         lw('at', -0x12E8, 'at'),     # 0x4B0C64  at = mode (RAM 0x4FED18)
         j(P29_F2_VA),                # 0x4B0C68  -> frag2 (delay slot below stays in-pad)
@@ -373,8 +421,10 @@ def build_p29():
     frag2 = [
         andi('at', 'at', 0xFFFD),    # 0x4B0BC8  0 iff mode in {5,7}
         movn('t9', 'zero', 'at'),    # 0x4B0BCC  not gated (at!=0) -> t9 = 0 (subtract nothing)
-        jr('ra'),                    # 0x4B0BD0  return to site+8
-        subu('v1', 'v1', 't9'),      # 0x4B0BD4  (ds) draw-X -= (LSH or 0)
+        sltiu('at', 'k1', 95),       # 0x4B0BD0  at = (gid < 95) ? 1 : 0   (ASCII guard)
+        movz('t9', 'zero', 'at'),    # 0x4B0BD4  gid>=95 (at==0) -> t9 = 0
+        jr('ra'),                    # 0x4B0BD8  return to site+8
+        subu('v1', 'v1', 't9'),      # 0x4B0BDC  (ds) draw-X -= (LSH or 0)
     ]
     return frag1, frag2
 
@@ -424,7 +474,8 @@ P29_HOOK_JWORD = jal(P29_F1_VA)      # jal 0x4B0C48 (installed at BOTH draw site
 P31_HOOK      = 0x307974          # lh t2,0(s2) draw-X pen read (file 0x2079F4)
 P31_ORIG_SITE = 0x864A0000        # lh t2,0(s2) (pristine at the hook)
 P31_F1_VA     = 0x4AFA00          # fragment 1 pad (40B zero; post-epilogue, below arena)
-P31_F2_VA     = 0x4AB5EC          # fragment 2 pad (20B zero; tail of P27/P19c1 run)
+P31_F2_VA     = 0x4B0D6C          # fragment 2 pad (20B zero; v170 moved to the tail-of-P6 pad,
+                                  # evicted from the P27/P19c1 run to make room for the grown P27)
 
 
 def build_p31():
@@ -432,10 +483,10 @@ def build_p31():
     frag1 = [
         lh('t2', 0, 's2'),           # 0x4AFA00  reload penX (the displaced hook insn)
         lhu('t8', 0x10, 'sp'),       # 0x4AFA04  gid = stored drawn glyph (0..0x7FFF)
-        andi('at', 't8', 0xFF),      # 0x4AFA08  bounded LSH2 table index (0..255) -> safe read
-        lui('t9', 0x4B),             # 0x4AFA0C  R2100 LSH2 table base 0x4B0000 (v158)
-        addu('t9', 't9', 'at'),      # 0x4AFA10  t9 = 0x4B0000 + (gid & 0xFF)
-        lbu('t9', 0x1100, 't9'),     # 0x4AFA14  t9 = LEFTSHIFT2[gid&0xFF] (0 for 95..255)
+        andi('at', 't8', 0xFF),      # 0x4AFA08  bounded index (0..255); sltiu<95 guard below
+        lui('t9', 0x4A),             # 0x4AFA0C  R2100 LSH2 table base 0x4A0000 (v170 reloc)
+        addu('t9', 't9', 'at'),      # 0x4AFA10  t9 = 0x4A0000 + (gid & 0xFF)
+        lbu('t9', 0xF398, 't9'),     # 0x4AFA14  t9 = LEFTSHIFT2[gid&0xFF] @0x4AF398 (guard -> 0 for >=95)
         sltiu('at', 't8', 95),       # 0x4AFA18  at = (gid < 95) ? 1 : 0   (real ASCII guard)
         movz('t9', 'zero', 'at'),    # 0x4AFA1C  gid>=95 -> shift = 0
         j(P31_F2_VA),                # 0x4AFA20  -> frag2 (delay slot below stays in-pad)
@@ -507,12 +558,14 @@ def _selfcheck():
             print("  FAIL OVERLAP %s vs %s" % (spans[i - 1][2], spans[i][2])); ok = False
     # ADV/LSH tables stay canonical (whitelisted, NOT relocated).
     print("  ADV/LSH tables canonical @0x%06X / 0x%06X (whitelisted, NOT relocated)" % (ADV_VA, LSH_VA))
-    # v158 R2100 tables: adjacent 256B blocks, no overlap with each other or any cave,
-    # inside the 27-dump-verified zero hole 0x4B0E97..0x4B1E88.
-    if not (0x4B0E97 <= ADV2_VA and ADV2_VA + 256 == LSH2_VA and LSH2_VA + 256 <= 0x4B1E88):
-        print("  FAIL R2100 table placement 0x%06X/0x%06X outside the verified hole" % (ADV2_VA, LSH2_VA)); ok = False
+    # v170 R2100 tables: two adjacent 95B blocks in the dump-verified-zero libgraph
+    # trailing pad FREE200 (0x4AF338..0x4AF400, 200B), below the arena.
+    if not (ADV2_VA + 95 <= LSH2_VA and LSH2_VA + 95 <= 0x4AF400):
+        print("  FAIL R2100 table placement 0x%06X/0x%06X outside FREE200 (0x4AF338..0x4AF400)"
+              % (ADV2_VA, LSH2_VA)); ok = False
     else:
-        print("  R2100 tables ADV2 @0x%06X / LSH2 @0x%06X (verified-zero hole, modes 5/7 data)" % (ADV2_VA, LSH2_VA))
+        print("  R2100 tables ADV2 @0x%06X / LSH2 @0x%06X (95B each, FREE200 dead pad, modes 5/7 data)"
+              % (ADV2_VA, LSH2_VA))
     # Gate marker now points at the relocated Patch-14 cave1.
     if NEW_GATE_MARKER != jword(P14C1_VA):
         print("  FAIL gate marker 0x%08X != j 0x%06X" % (NEW_GATE_MARKER, P14C1_VA)); ok = False

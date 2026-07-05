@@ -65,11 +65,18 @@ import json
 import math
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from sec1_disasm import walk, extract_records
+from sec1_disasm import walk, extract_records, LENB
 
 SECTOR = 2048
 HEADER_SIZE = 0x20
 _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# The unwalked-island DISPLAY_TEXT sweep (patch_section1 pass a2) is ON by
+# default and MUST stay on for shipping builds -- it repoints choice/narration
+# display opcodes that live in code islands the BFS walk cannot reach.  The
+# toggle exists ONLY so regression tests can capture a sweep-off baseline to
+# prove the sweep touches exclusively unwalked opcodes.
+ISLAND_SWEEP_ENABLED = True
 
 # -- lazily-loaded shared tables ------------------------------------------------
 _GLYPH_MAP = None       # glyph index (str) -> JP char
@@ -395,6 +402,85 @@ def patch_section1(orig_data, patched_data, name_plan=None, res_name="?"):
         struct.pack_into(">I", sec1_bytes, pc + 2, new_off)
         struct.pack_into(">I", sec1_bytes, pc + 6, new_cnt)
         n_disp_remapped += 1
+
+    # --- (a2) UNWALKED 0x04 DISPLAY_TEXT: group-anchored linear sweep ------------
+    # The BFS walk from pc=0 only reaches instructions on statically-followable
+    # control flow.  Some scene "events" live in Section-1 code ISLANDS entered
+    # ONLY by runtime/indirect dispatch (no static edge from pc=0), so their
+    # DISPLAY_TEXT opcodes are never walked -- and, before this sweep, never
+    # repatched.  When injection GROWS Section 2 their stale (pristine) offsets
+    # then point at the WRONG, shifted group: a choice renders as a flat
+    # continue-arrow (issue #9: R1200/R1204/R1208/R1210), narration shows the
+    # wrong group's text (much of the scattered/wrong-text corpus).
+    #
+    # This is NOT the banned word-grid pattern matching.  A candidate 0x0004 is
+    # accepted ONLY when BOTH endpoints of its span land EXACTLY on group
+    # boundaries in the pristine Section 2: its offset is EXACTLY a group-start
+    # AND its span ends EXACTLY on a group's 0xFFFF terminator (the START group's
+    # terminator for a single-group display, or a LATER group's for a legit
+    # multi-group narration run -- the walked pass remaps those the same way, via
+    # gi_start..gi_last).  A coincidental 0x0004 in binary Section-1 data
+    # satisfying BOTH boundary hits is astronomically improbable; anything
+    # failing the gate is left byte-for-byte untouched.
+    #
+    # ONE degenerate false-positive class is excluded explicitly: a MULTI-group
+    # span starting at group 0 (offset 0).  Binary regions are full of
+    # `00 04 00 00 00 00 ...`, so offset 0 (== group 0's start) is a common
+    # accidental match; a real event-island narration run never starts at the
+    # resource's first group.  Single-group offset-0 displays stay allowed
+    # (safe: group 0 starts at word 0 in both layouts).
+    #
+    # Walked pcs are skipped (handled above).  When Section 2 did not grow,
+    # new==old and every write is a no-op.
+    old_start_to_gi = {gs: gi for gi, (gs, _ge) in enumerate(old_groups)}
+    old_term_to_gi = {ge: gi for gi, (_gs, ge) in enumerate(old_groups)}
+    walked_pcs = set(instrs)
+    n_disp_sweep = 0            # unwalked opcodes remapped by the sweep
+    n_disp_sweep_reject = 0     # near-misses (valid group-start, gate failed)
+    sweep_hits = []
+    sec1_len = len(orig_sec1)
+    i = 0
+    while ISLAND_SWEEP_ENABLED and i <= sec1_len - 10:
+        if struct.unpack_from(">H", orig_sec1, i)[0] != 0x0004 or i in walked_pcs:
+            i += 1
+            continue
+        old_off = struct.unpack_from(">I", orig_sec1, i + 2)[0]
+        old_cnt = struct.unpack_from(">I", orig_sec1, i + 6)[0]
+        sgi = old_start_to_gi.get(old_off)
+        egi = old_term_to_gi.get(old_off + old_cnt - 1) if old_cnt > 0 else None
+        # STRICT gate: offset on a group-start AND span end on a group terminator
+        # at or after the start group.
+        if sgi is None or egi is None or egi < sgi:
+            if sgi is not None and old_cnt > 0:
+                n_disp_sweep_reject += 1  # group-start but end not a terminator
+            i += 1
+            continue
+        if egi > sgi and old_off == 0:
+            # Degenerate binary false positive (multi-group span from group 0).
+            n_disp_sweep_reject += 1
+            i += 1
+            continue
+        new_off = new_groups[sgi][0]
+        new_end = new_groups[egi][1] + 1   # right after the egi FFFF terminator
+        new_cnt = new_end - new_off
+        # HARD ASSERT: the remapped span MUST end exactly on 0xFFFF.
+        if (new_cnt <= 0 or new_end > new_n_words
+                or new_words[new_end - 1] != 0xFFFF):
+            raise ValueError(
+                "R%s: unwalked DISPLAY_TEXT at S1+0x%X: remapped span off=%d "
+                "cnt=%d does not end on FFFF -- refusing to ship a violation"
+                % (res_name, i, new_off, new_cnt))
+        if (new_off, new_cnt) != (old_off, old_cnt):
+            struct.pack_into(">I", sec1_bytes, i + 2, new_off)
+            struct.pack_into(">I", sec1_bytes, i + 6, new_cnt)
+            n_disp_sweep += 1
+            sweep_hits.append((i, sgi, egi, old_off, new_off))
+        i += LENB[0x04]  # advance past a confirmed opcode's operands
+    if n_disp_sweep or n_disp_sweep_reject:
+        print(
+            "  Section 1: unwalked-island sweep remapped %d DISPLAY_TEXT "
+            "(%d near-misses rejected by the group/terminator gate)"
+            % (n_disp_sweep, n_disp_sweep_reject))
 
     # --- (b) 0x14 NAME/LABEL REF --------------------------------------------------
     for r in recs["label"]:

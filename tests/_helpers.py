@@ -588,6 +588,39 @@ def sec1_regression_check(pristine, patched, name="?"):
     if len(ps1) != len(ns1):
         issues.append("%s: Section 1 length changed" % name)
         return issues
+    # Also permit the UNWALKED-island 0x04 DISPLAY_TEXT operands that
+    # patch_section1_offsets.py's pass a2 legitimately remaps (the issue-#9 /
+    # scattered-text fix): an unwalked 0x0004 whose PRISTINE offset lands exactly
+    # on a group-start AND whose span ends exactly on a group terminator (>= the
+    # start group), excluding the multi-group-from-0 degenerate class. This
+    # mirrors the patcher's boundary gate EXACTLY, so a diff that is outside the
+    # walked ranges AND outside a legit island operand is still flagged as
+    # v84-class corruption. The FFFF-end correctness of each remap is
+    # independently enforced by the patcher's own build-time HARD ASSERT.
+    pwords = pp["words"]
+    gstart_to_gi, gterm_to_gi = {}, {}
+    _gi, _gs = 0, 0
+    for _wi, _w in enumerate(pwords):
+        if _w == 0xFFFF:
+            gstart_to_gi[_gs] = _gi
+            gterm_to_gi[_wi] = _gi
+            _gi += 1
+            _gs = _wi + 1
+    _walked = set(instrs)
+    _i = 0
+    while _i <= len(ps1) - 10:
+        if struct.unpack_from(">H", ps1, _i)[0] != 0x0004 or _i in _walked:
+            _i += 1
+            continue
+        _off = struct.unpack_from(">I", ps1, _i + 2)[0]
+        _cnt = struct.unpack_from(">I", ps1, _i + 6)[0]
+        _sgi = gstart_to_gi.get(_off)
+        _egi = gterm_to_gi.get(_off + _cnt - 1) if _cnt > 0 else None
+        if _sgi is None or _egi is None or _egi < _sgi or (_egi > _sgi and _off == 0):
+            _i += 1
+            continue
+        allowed.update(range(_i + 2, _i + 10))
+        _i += 10
     stray = [i for i in range(len(ps1)) if ps1[i] != ns1[i] and i not in allowed]
     if stray:
         issues.append(

@@ -22,6 +22,7 @@ MODULES = [
     "test_sec1_disasm",
     "test_patch_section1",
     "test_choice_groups",
+    "test_stale_display_offsets",
     "test_line_width",
     "test_dialogue_rewrap",
     "test_narration_wrap",

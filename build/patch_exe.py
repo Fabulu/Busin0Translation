@@ -32,8 +32,9 @@ import glyph_metrics
 # byte-faithful.  The inert/non-battle readers (P19/P25) KEEP the canonical
 # tables at 0x4C7564/0x4C7690 (still written by Patch 14), which are intact in
 # chargen/request mode (never battle).  v158: P26/P27/P29/P31 read the R2100
-# tables ADV2/LSH2 @0x4B1000/0x4B1100 instead (right-font fix; see the R2100
-# metric-tables block).
+# tables ADV2/LSH2 instead (right-font fix; see the R2100 metric-tables block).
+# v170: those R2100 tables moved OUT of the arena to the dump-verified-zero
+# libgraph trailing pad @0x4AF338/0x4AF398 (95B each, gid>=95 guarded in-cave).
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import _reloc_v147_design as RELOC
 
@@ -618,45 +619,48 @@ def main():
     else:
         print(f"  WARN proportional caves not applied: hook1=0x{h1:08X} hook2=0x{h2:08X}")
 
-    # ─── R2100 METRIC TABLES (v158) — consumed by Patches 26/27/29/31 ──────────────────
+    # ─── R2100 METRIC TABLES (v158; v170 RELOCATED to dead .text) — consumed by Patches 26/27/29/31 ──
     # ROOT CAUSE (memory project_chargen_font_r2100_rootcause): the chargen/request
     # renderers 0x307510 / 0x3A2EF0 draw the R2100 sub0 UPRIGHT 16px font, NOT the oblique
     # 24px R1188 font.  Feeding them the canonical R1188 tables produced the game-wide
     # "Ge nde r" per-letter unevenness (R2100 'e' is ink_left 4 / width 7, but the R1188
     # table said LSH 9 / ADV 16 -> 5px over-shift + 6px over-advance after every 'e').
     # Fix: bake the R2100-derived tables (glyph_metrics.ADV2/LEFTSHIFT2, GAP2=2, clamp
-    # 4..15, space 6) at RELOC.ADV2_VA/LSH2_VA and point the four chargen/request caves
-    # at them.  The canonical tables stay untouched for narration/dialogue (Patch 14).
-    # PLACEMENT: 0x4B1000/0x4B1100 sit in the 4081B hole 0x4B0E97..0x4B1E88 that is zero
-    # in the pristine EXE AND all 27 live RAM dumps incl. 10 battle dumps (same evidence
-    # class as the canonical whitelist); data-only, read only in modes 5/7 (never battle).
-    print("\n--- R2100 metric tables (v158): ADV2 + LSH2 for the chargen/request UI font ---")
-    T2_ADV_FO = RELOC.fo(RELOC.ADV2_VA)   # file off VA 0x4B1000
-    T2_LSH_FO = RELOC.fo(RELOC.LSH2_VA)   # file off VA 0x4B1100
+    # 4..15, space 6) and point the four chargen/request caves at them.
+    # v170 PLACEMENT: the tables move OUT of the battle arena entirely into the
+    # dump-verified-zero libgraph trailing pad (RELOC.ADV2_VA=0x4AF338 / LSH2_VA=0x4AF398,
+    # 95B each) below the arena (0x4AF336..0x4AF400 is ALLZERO in pristine + all 5 live
+    # dumps incl. 3 battle dumps).  Only 95 real ASCII slots ship — Patches 26/27/29/31
+    # each carry a gid>=95 ASCII guard that reproduces the old 256-byte tail (ADV2 -> 0x12,
+    # LSH2 -> 0), so the shrink is behaviourally byte-identical.  Data-only, read only in
+    # modes 5/7 (never battle).  The canonical R1188 tables stay untouched (Patch 14).
+    print("\n--- R2100 metric tables (v170): ADV2 + LSH2 (95B, dead .text) for the chargen/request UI font ---")
+    T2_ADV_FO = RELOC.fo(RELOC.ADV2_VA)   # file off VA 0x4AF338
+    T2_LSH_FO = RELOC.fo(RELOC.LSH2_VA)   # file off VA 0x4AF398
     if DISABLE_P27_P14:
         print("  SKIP R2100 tables (DISABLE_P27_P14=1 CONFIRM build; consumers are skipped too)")
     else:
-        t2_free = (all(b == 0 for b in data[T2_ADV_FO:T2_ADV_FO + 256])
-                   and all(b == 0 for b in data[T2_LSH_FO:T2_LSH_FO + 256]))
+        t2_free = (all(b == 0 for b in data[T2_ADV_FO:T2_ADV_FO + 95])
+                   and all(b == 0 for b in data[T2_LSH_FO:T2_LSH_FO + 95]))
         if not t2_free:
             # HARD FAIL, not a WARN: Patches 26/27/29/31 gate only on the Patch-14
             # marker, so if the tables were silently skipped the caves would read
-            # garbage advances/shifts.  A non-zero region here means another patch
-            # claimed 0x4B1000..0x4B1200 -- that collision must be resolved, never
+            # garbage advances/shifts.  A non-zero region here means the libgraph pad
+            # is not the proven-zero shape -- that collision must be resolved, never
             # shipped.
             raise AssertionError(
-                "R2100 table regions @0x4B1000/0x4B1100 are not zero -- another patch "
-                "claimed the hole; Patches 26/27/29/31 would read garbage. Resolve the "
-                "collision (see _reloc_v147_design ADV2_VA/LSH2_VA)."
+                "R2100 table regions @0x4AF338/0x4AF398 are not zero -- the libgraph "
+                "trailing pad is not pristine; Patches 26/27/29/31 would read garbage. "
+                "Resolve the collision (see _reloc_v147_design ADV2_VA/LSH2_VA)."
             )
         else:
-            RELOC.assert_install_safe(RELOC.ADV2_VA, 256, "R2100 ADV2 table", allow_canonical_table=True)
-            RELOC.assert_install_safe(RELOC.LSH2_VA, 256, "R2100 LSH2 table", allow_canonical_table=True)
-            data[T2_ADV_FO:T2_ADV_FO + 256] = glyph_metrics.adv2_table_256()
-            data[T2_LSH_FO:T2_LSH_FO + 256] = glyph_metrics.leftshift2_table_256()
+            RELOC.assert_install_safe(RELOC.ADV2_VA, 95, "R2100 ADV2 table", allow_canonical_table=True)
+            RELOC.assert_install_safe(RELOC.LSH2_VA, 95, "R2100 LSH2 table", allow_canonical_table=True)
+            data[T2_ADV_FO:T2_ADV_FO + 95] = glyph_metrics.adv2_table_95()
+            data[T2_LSH_FO:T2_LSH_FO + 95] = glyph_metrics.leftshift2_table_95()
             patched_count += 1
-            print(f"  OK   ADV2 @0x{RELOC.ADV2_VA:06X} (avg {sum(glyph_metrics.ADV2)/95:.1f}px, tail 0x12) + "
-                  f"LSH2 @0x{RELOC.LSH2_VA:06X} (tail 0) — R2100 upright 16px font metrics")
+            print(f"  OK   ADV2 @0x{RELOC.ADV2_VA:06X} (95B, avg {sum(glyph_metrics.ADV2)/95:.1f}px) + "
+                  f"LSH2 @0x{RELOC.LSH2_VA:06X} (95B) — R2100 upright 16px font metrics, dead .text")
 
     # ─── PATCH 19: CHARGEN Path-1 proportional spacing (advance LUT + draw-shift + summed centering)
     # The chargen prompt (R37) and description/personality (R38) glyph streams render through
@@ -995,9 +999,9 @@ def main():
         0x10200009,  # 0x4C77C8  beqz  at,0x4C77F0      ; gid>=95 -> STOCK
         0x00000000,  # 0x4C77CC  nop
         0x86430000,  # 0x4C77D0  lh    v1,0(s2)         ; cursor X
-        0x3C01004B,  # 0x4C77D4  lui   at,0x4B          ; v158: R2100 ADV2 table base
+        0x3C01004A,  # 0x4C77D4  lui   at,0x4A          ; v170: RELOCATED R2100 ADV2 base 0x4A0000
         0x00220821,  # 0x4C77D8  addu  at,at,v0
-        0x90211000,  # 0x4C77DC  lbu   at,0x1000(at)    ; ADV2[gid] (R2100 upright font)
+        0x9021F338,  # 0x4C77DC  lbu   at,0xF338(at)    ; ADV2[gid] @0x4AF338 (R2100 upright font, dead-.text)
         0x00611821,  # 0x4C77E0  addu  v1,v1,at         ; cursor += ADV
         0xA6430000,  # 0x4C77E4  sh    v1,0(s2)
         0x080C1E80,  # 0x4C77E8  j     0x307A00         ; loop tail (proportional done)

@@ -52,15 +52,18 @@ PATCHED_EXE = os.path.join(ROOT, "build", "SLPM_653.78_patched")
 P14_TBL1 = 0x3C75E4   # canonical advance LUT, 256B  (VA 0x4C7564)
 P14_TBL2 = 0x3C7710   # canonical left-shift,  256B  (VA 0x4C7690)
 # v158 R2100 tables (chargen/request UI font — consumed by Patches 26/27/29/31)
-ADV2_FO = RELOC.fo(RELOC.ADV2_VA)   # file off VA 0x4B1000
-LSH2_FO = RELOC.fo(RELOC.LSH2_VA)   # file off VA 0x4B1100
+# v170: relocated to the dead libgraph trailing pad, 95B each.
+ADV2_FO = RELOC.fo(RELOC.ADV2_VA)   # file off VA 0x4AF338
+LSH2_FO = RELOC.fo(RELOC.LSH2_VA)   # file off VA 0x4AF398
 P14_HOOK1 = 0x209820  # VA 0x3097A0  -> j 0x4C7540 (production gate marker 0x08131D50)
 P14_HOOK2 = 0x2097D0  # VA 0x309750  -> j 0x4C7670 (production 0x08131D9C)
 P14_HOOK1_WORD = RELOC.P14_HOOK1_JWORD
 P14_HOOK2_WORD = RELOC.P14_HOOK2_JWORD
 ARENA_LO, ARENA_HI = RELOC.ARENA_LO, RELOC.ARENA_HI
 # The PsII libgraph SDK data block that the prior (over-engineered) v147 corrupted.
-LIBGRAPH_LO, LIBGRAPH_HI = 0x4AF2E0, 0x4AF400
+# v170 narrowed HI 0x4AF400 -> 0x4AF338 (proven descriptor end); 0x4AF338..0x4AF400
+# now holds the relocated R2100 tables, so only 0x4AF2E0..0x4AF338 must stay pristine.
+LIBGRAPH_LO, LIBGRAPH_HI = 0x4AF2E0, 0x4AF338
 
 
 def test_g1_built_exe_tables_match_metrics():
@@ -91,20 +94,23 @@ def test_g1_built_exe_tables_match_metrics():
         "got 0x%06X/0x%06X -- a relocated table copy is the title-hang bug" % (RELOC.ADV_VA, RELOC.LSH_VA)
     )
 
-    # v158: the R2100 tables (chargen/request UI font) are byte-identical to
-    # glyph_metrics.adv2_table_256()/leftshift2_table_256() at 0x4B1000/0x4B1100.
-    assert RELOC.ADV2_VA == 0x4B1000 and RELOC.LSH2_VA == 0x4B1100, (
+    # v170: the R2100 tables (chargen/request UI font) are 95B each, byte-identical to
+    # glyph_metrics.adv2_table_95()/leftshift2_table_95(), in the FREE200 dead libgraph
+    # pad (0x4AF338..0x4AF400): ADV2+95<=LSH2 and LSH2+95<=0x4AF400.
+    assert (RELOC.ADV2_VA + 95 <= RELOC.LSH2_VA
+            and RELOC.LSH2_VA + 95 <= 0x4AF400), (
         "RELOC.ADV2_VA/LSH2_VA moved (0x%06X/0x%06X) -- they must stay in the "
-        "27-dump-verified zero hole 0x4B0E97..0x4B1E88" % (RELOC.ADV2_VA, RELOC.LSH2_VA)
+        "dump-verified FREE200 pad 0x4AF338..0x4AF400 (ADV2+95<=LSH2, LSH2+95<=0x4AF400)"
+        % (RELOC.ADV2_VA, RELOC.LSH2_VA)
     )
-    got_adv2 = data[ADV2_FO:ADV2_FO + 256]
-    got_lsh2 = data[LSH2_FO:LSH2_FO + 256]
-    assert got_adv2 == glyph_metrics.adv2_table_256(), (
-        "patched EXE R2100 ADV2 table @file 0x%X != glyph_metrics.adv2_table_256() "
+    got_adv2 = data[ADV2_FO:ADV2_FO + 95]
+    got_lsh2 = data[LSH2_FO:LSH2_FO + 95]
+    assert got_adv2 == glyph_metrics.adv2_table_95(), (
+        "patched EXE R2100 ADV2 table @file 0x%X != glyph_metrics.adv2_table_95() "
         "(the chargen/request caves would desync)" % ADV2_FO
     )
-    assert got_lsh2 == glyph_metrics.leftshift2_table_256(), (
-        "patched EXE R2100 LSH2 table @file 0x%X != glyph_metrics.leftshift2_table_256()"
+    assert got_lsh2 == glyph_metrics.leftshift2_table_95(), (
+        "patched EXE R2100 LSH2 table @file 0x%X != glyph_metrics.leftshift2_table_95()"
         % LSH2_FO
     )
 
@@ -283,6 +289,16 @@ def test_g3_metrics_self_consistent():
             "ADV2[%d] = %d outside the 16px-font clamp window [4,15]" % (g, adv2[g])
         )
         assert 0 <= lsh2[g] <= 15, "LEFTSHIFT2[%d] = %d outside a 16px cell" % (g, lsh2[g])
+    # v170: the RELOCATED tables are 95 bytes (gid 0..94 only) -- the 95..255 tail is
+    # reproduced by each cave's gid>=95 guard (ADV2 tail default 0x12, LSH2 tail 0).
+    a95 = glyph_metrics.adv2_table_95()
+    l95 = glyph_metrics.leftshift2_table_95()
+    assert len(a95) == 95 and len(l95) == 95, (
+        "adv2/leftshift2_table_95() must be 95 bytes, got %d/%d" % (len(a95), len(l95))
+    )
+    assert bytes(adv2) == a95 and bytes(lsh2) == l95, (
+        "the 95B tables must equal the raw ADV2/LEFTSHIFT2 gid 0..94 slots"
+    )
 
 
 TESTS = [

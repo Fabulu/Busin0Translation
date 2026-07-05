@@ -5,8 +5,9 @@ test_r2100_metrics_source.py -- lock the R2100 metrics JSON to its GROUND TRUTH.
 v158 fixed the game-wide "Ge nde r" per-letter unevenness by discovering that
 the chargen/request renderers (0x307510 / 0x3A2EF0, Patches 26/27/29/31) draw
 the R2100 sub0 UPRIGHT 16px font, NOT the oblique 24px R1188 font -- and by
-replacing the wrong R1188 tables with new ones (ADV2 @0x4B1000 / LSH2 @0x4B1100)
-derived from data/r2100_ascii_metrics.json.
+replacing the wrong R1188 tables with new ones (ADV2/LSH2, v170 relocated to the
+dead libgraph pad @0x4AF338 / 0x4AF398, 95B each) derived from
+data/r2100_ascii_metrics.json.
 
 The existing gates (test_glyph_metrics_sync, test_chargen_lsh_patch29/31) pin
 the EXE bytes against tools/glyph_metrics.py, but NOTHING pinned the metrics

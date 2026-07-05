@@ -597,19 +597,19 @@
     "resource": 38,
     "message": 117,
     "japanese": "果別によって、個人の基仲能力値と隊長が取なります。 / 男果は力解く、女果は知的に隊長していきます。 / ",
-    "english": "Gender sets base / stats. Men=strong, / women=wise. /"
+    "english": "Gender sets base / stats. Men=strong, / women=hardy. /"
   },
   {
     "resource": 38,
     "message": 118,
     "japanese": "種族はその者の隊長の基本となります。 / 人壁は少手信仰心が高いものの、全体的にむらなく / 隊長するバランスのいい種族といわれています。 / ",
-    "english": "Human: High faith / & balanced stats / overall. /"
+    "english": "Human: Low faith / & balanced stats / overall. /"
   },
   {
     "resource": 38,
     "message": 119,
     "japanese": "種族はその者の隊長の基本となります。 / エルフ族は知力と生命力に優れ、力は探いですが、 / 騎法の扱いでは■に出る者はいないと言われています。 / ",
-    "english": "Elf: High INT & VIT / but low STR. Best / at magic. /"
+    "english": "Elf: High Int & / Faith, low STR / & VIT. /"
   },
   {
     "resource": 38,

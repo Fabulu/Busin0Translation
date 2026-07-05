@@ -80,8 +80,8 @@
     "resource": 43,
     "message": 37,
     "japanese": "所持品がいっぱいです / ",
-    "english": "Inventory is full / ",
-    "notes": "Inventory full"
+    "english": "No completed requests / ",
+    "notes": "Personal Deeds empty-list message (was 'Inventory is full'; the empty completed-requests screen references this group). Prize-receipt inventory-full is a separate message (R43 msg 22 'Sort your stuff'). See wave9 report."
   },
   {
     "resource": 44,
