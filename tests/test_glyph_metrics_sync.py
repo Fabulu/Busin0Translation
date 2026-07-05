@@ -160,7 +160,7 @@ def test_g1b_relocated_caves_below_arena():
     f = RELOC.fo(RELOC.P27_VA)
     got = [struct.unpack_from("<I", data, f + i * 4)[0] for i in range(len(RELOC.P27_WORDS))]
     assert got == list(RELOC.P27_WORDS), "relocated P27 cave words != design module"
-    # v158: the P27 cave reads the R2100 ADV2 table (lui 0x4B + lbu 0x1000) — the
+    # the P27 cave reads the R2100 ADV2 table (lui 0x4A + lbu 0xF338, ADV2_VA=0x4AF338) — the
     # 0x3A2EF0 renderer draws the R2100 upright font in modes 5/7, NOT R1188.
     assert any((w >> 26) == 0x24 and (w & 0xFFFF) == (RELOC.ADV2_VA & 0xFFFF)
                for w in RELOC.P27_WORDS), (

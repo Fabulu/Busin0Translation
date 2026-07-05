@@ -7,8 +7,8 @@ Patch 26 gave the LIVE chargen body/description renderer func 0x307510 (line-wal
 0x307DA0 -> glyph blit 0x307510 -> emit 0x3060B0) a proportional ADVANCE (hook
 @0x3079CC, gated mem[0x4FED18]==5) but NOT the companion left-bearing draw-shift.
 Patch 31 is the 0x307510 analogue of Patch 29: it subtracts LEFTSHIFT2[gid] (the
-R2100 table @0x4B1100 -- v158: this renderer draws the R2100 upright 16px font,
-NOT R1188) from the SINGLE draw-X site 0x307974 (`lh t2,0(s2)`, the penX read
+R2100 LSH2 table @RELOC.LSH2_VA=0x4AF398 -- v170 dead-.text; this renderer draws
+the R2100 upright 16px font, NOT R1188) from the SINGLE draw-X site 0x307974 (`lh t2,0(s2)`, the penX read
 feeding `addu t2,t2,t0` @0x307980), mode-gated ==5 so ADV+LSH stay in lockstep and
 every other surface is byte-identical (subu 0).  gid = the ACTUAL drawn glyph,
 stored `sd v0,0x10(sp)` @0x307960 (recovered `lhu 0x10(sp)`), ASCII-guarded
@@ -17,7 +17,7 @@ stored `sd v0,0x10(sp)` @0x307960 (recovered `lhu 0x10(sp)`), ASCII-guarded
 
 This module pins:
   D (static, always): the design in build/_reloc_v147_design.py -- the hook is `j`
-     frag1; frag1 sources LSH2 from lbu 0x1100(0x4B0000) and recovers gid via
+     frag1; frag1 sources LSH2 from lbu 0xF398(0x4A0000) (LSH2_VA=0x4AF398) and recovers gid via
      lhu 0x10(sp); frag2 reads mode via the same absolute path Patch 26 uses
      (lw -0x12E8), folds to ==5, and returns `j 0x30797C` with `subu t2,t2,t9` in
      the delay slot; both fragments live below the arena with no overlap.
@@ -60,8 +60,8 @@ def test_d1_hook_is_j_to_frag1_at_drawx_site():
 
 
 def test_d2_frag1_sources_lsh_from_r2100_table():
-    """v158: frag1 READS LEFTSHIFT from the R2100 LSH2 table @0x4B1100
-    (lui t9,0x4B ; ... ; lbu t9,0x1100(t9)) — the 0x307510 chargen path draws
+    """frag1 READS LEFTSHIFT from the R2100 LSH2 table @LSH2_VA=0x4AF398
+    (v170 dead-.text; lui t9,0x4A ; ... ; lbu t9,0xF398(t9)) — the 0x307510 chargen path draws
     the R2100 upright 16px font, NOT the oblique R1188 font the canonical
     table @0x4C7690 was measured from (the "Ge nde r" root cause)."""
     f1 = RELOC.P31_F1_WORDS

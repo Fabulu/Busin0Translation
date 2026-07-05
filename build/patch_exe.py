@@ -1246,7 +1246,8 @@ def main():
     # `jal` into ONE shared subroutine (ra is free in the 0x3A2EF0 loop: saved 0x3A2EF8, restored
     # only at exit 0x3A31D8).  The sub reloads baseX (sp+0xE0; v0 is clobbered by the jal delay
     # slot lbu v0,off(sp)), recovers gid via `lbu -1(s2)` (same as Patch 27), reads LEFTSHIFT2[gid]
-    # from the R2100 table @0x4B1100 (v158: this renderer draws the R2100 upright font), and
+    # from the R2100 LSH2 table @RELOC.LSH2_VA=0x4AF398 (v170 dead-.text; this renderer draws the
+    # R2100 upright font), and
     # subtracts it from draw-X.  MODE-GATE on 0x4FED18 in {5,7}: for battle (mode 8) and the ~250
     # other callers the sub returns the byte-identical STOCK draw-X (baseX+pen).  Because no
     # contiguous >=52B safe .text hole remains below the arena, the sub is SPLIT across two
@@ -1304,8 +1305,8 @@ def main():
     # @0x3079CC, gated mem[0x4FED18]==5) but NOT the companion left-bearing draw-shift, so
     # the race/alignment DESCRIPTION boxes render with uneven "random spaces".  Patch 31 is
     # the 0x307510 analogue of Patch 29 (which did this for the OTHER renderer 0x3A2EF0):
-    # it subtracts LEFTSHIFT2[gid] (R2100 table @0x4B1100, v158 -- this renderer draws the
-    # R2100 upright font) from the draw-X, mode-gated ==5 exactly like Patch 26 so ADV+LSH stay
+    # it subtracts LEFTSHIFT2[gid] (R2100 LSH2 table @RELOC.LSH2_VA=0x4AF398, v170 dead-.text --
+    # this renderer draws the R2100 upright font) from the draw-X, mode-gated ==5 exactly like Patch 26 so ADV+LSH stay
     # in lockstep and every other surface (town/menus at other modes, battle) is byte-
     # identical (subu 0).  Single draw-X site 0x307974 (`lh t2,0(s2)`, the penX read that
     # flows to `addu t2,t2,t0` draw-X @0x307980); hook -> j frag1, the pristine delay slot
@@ -1759,7 +1760,7 @@ def main():
     # v158 NOTE: if this is ever enabled, first decide the table -- the request-desc
     # body renders in the R2100 upright font (requestissue.p2s), so the cave's
     # lbu 0x7564 (canonical R1188 ADV) likely needs to become the R2100 ADV2 read
-    # (lui 0x4B / lbu 0x1000, RELOC.ADV2_VA) like Patches 26/27 in v158.
+    # (lui 0x4A / lbu 0xF338, RELOC.ADV2_VA=0x4AF338) like Patches 26/27.
     PATCH25_ENABLE = False   # <-- flip to True ONLY after live-debugger confirms DEFAULT path + left-anchor
     print("\n--- Patch 25: REQUEST body proportional advance @0x308CAC + Option-B fixed margin (align==2) ---")
     P25_HOOK   = 0x208D2C        # VA 0x308CAC  lh v0,0x1ce(sp)  (Block-2 default advance head)

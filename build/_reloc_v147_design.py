@@ -376,9 +376,9 @@ P19C2_HOOK_JWORD = jword(P19C2_VA)   # j 0x4AFA70
 #
 # gid recovery: at the draw sites s2 already points PAST the current big-endian u16
 # glyph (bumped +2 @0x3A2F6C / 0x3A31C8), so `lbu -1(s2)` = the low byte = gid (char-32,
-# <95) -- the SAME recovery Patch 27 uses at these sites.  v158: LSH read from the
-# R2100 table LSH2 @0x4B1100 (lui 0x4B + lbu 0x1100 -- this renderer draws the R2100
-# upright font in modes 5/7, not R1188; see the v158 table block above).
+# <95) -- the SAME recovery Patch 27 uses at these sites.  LSH read from the
+# R2100 table LSH2 @LSH2_VA=0x4AF398 (v170 dead-.text; lui 0x4A + lbu 0xF398 -- this
+# renderer draws the R2100 upright font in modes 5/7, not R1188; see the table block above).
 #
 # MODE GATE on 0x4FED18 in {5,7} (chargen/request) -- battle (mode 8) and the ~250 other
 # callers stay byte-identical.  Instead of Patch-27's double-beqz the gate is compacted to
@@ -469,8 +469,8 @@ P29_HOOK_JWORD = jal(P29_F1_VA)      # jal 0x4B0C48 (installed at BOTH draw site
 # The sub is BRANCHLESS (movz/movn) and split across two verified-zero post-`jr ra`
 # .text pads below the arena: frag1 @0x4AFA00 (40B, the pad after the 0x4AF9FC epilogue)
 # and frag2 @0x4AB5EC (20B, the free tail of the P27/P19c1 post-epilogue run).  Both are
-# < 0x4B0DCF and clear of the libgraph block; see build_p31().  v158: reads the R2100
-# table LSH2 @0x4B1100 (the 0x307510 chargen path draws the R2100 upright font).
+# < 0x4B0DCF and clear of the libgraph block; see build_p31().  Reads the R2100
+# table LSH2 @LSH2_VA=0x4AF398 (v170 dead-.text; the 0x307510 chargen path draws the R2100 upright font).
 P31_HOOK      = 0x307974          # lh t2,0(s2) draw-X pen read (file 0x2079F4)
 P31_ORIG_SITE = 0x864A0000        # lh t2,0(s2) (pristine at the hook)
 P31_F1_VA     = 0x4AFA00          # fragment 1 pad (40B zero; post-epilogue, below arena)
@@ -580,7 +580,7 @@ def _selfcheck():
         print("  guardrail assert_install_safe: all relocated caves PASS")
     except AssertionError as e:
         print("  FAIL guardrail: %s" % e); ok = False
-    # v158: the cave reads the R2100 ADV2 table (lui 0x4B + lbu 0x1000).
+    # the cave reads the R2100 ADV2 table (lui 0x4A + lbu 0xF338, ADV2_VA=0x4AF338).
     has_adv2 = any((w >> 26) == 0x24 and (w & 0xffff) == (ADV2_VA & 0xFFFF) for w in P27_WORDS) \
         and any((w >> 26) == 0x0f and (w & 0xffff) == (ADV2_VA >> 16) for w in P27_WORDS)
     print("  P27 cave reads R2100 ADV2 @0x%X(0x%X0000): %s"

@@ -7,13 +7,14 @@ ADVANCE but omitted the companion left-bearing draw-shift (LSH), so box ink land
 at baseX + pen + ink_left(gid) and a huge gap opens after a low-bearing leading
 capital ("A....llocate").  Patch 29 mirrors Patch 14 cave2 for BOTH glyph draw-X
 sites in 0x3A2EF0 (0x3A30F4 / 0x3A3170), hooking each with a `jal` into ONE shared
-subroutine that subtracts LEFTSHIFT2[gid] from the R2100 table @0x4B1100 (v158:
-this renderer draws the R2100 upright 16px font in modes 5/7, NOT R1188),
+subroutine that subtracts LEFTSHIFT2[gid] from the R2100 LSH2 table
+@RELOC.LSH2_VA=0x4AF398 (v170 dead-.text; this renderer draws the R2100 upright
+16px font in modes 5/7, NOT R1188),
 mode-gated on 0x4FED18 in {5,7} (battle mode 8 stays byte-identical).
 
 This module pins:
   D (static, always): the design in build/_reloc_v147_design.py -- both hooks are
-     `jal` the frag1 cave; frag1 sources LSH2 from lbu 0x1100(0x4B0000) and reads
+     `jal` the frag1 cave; frag1 sources LSH2 from lbu 0xF398(0x4A0000) (LSH2_VA=0x4AF398) and reads
      the mode via the SAME absolute path as Patch 27 (lui 0x50 / lw -0x12E8);
      frag2 gates via movn and returns with jr ra + subu; both fragments live
      below the arena with no overlap.
@@ -56,8 +57,8 @@ def test_d1_hooks_are_jal_to_frag1():
 
 
 def test_d2_frag1_sources_lsh_from_r2100_table():
-    """v158: frag1 must READ LEFTSHIFT from the R2100 LSH2 table @0x4B1100
-    (lui t9,0x4B ; ... ; lbu t9,0x1100(t9)) — the 0x3A2EF0 renderer draws the
+    """frag1 must READ LEFTSHIFT from the R2100 LSH2 table @LSH2_VA=0x4AF398
+    (v170 dead-.text; lui t9,0x4A ; ... ; lbu t9,0xF398(t9)) — the 0x3A2EF0 renderer draws the
     R2100 upright 16px font in modes 5/7, NOT the oblique R1188 font the
     canonical table @0x4C7690 was measured from (the "Ge nde r" root cause)."""
     f1 = RELOC.P29_F1_WORDS
