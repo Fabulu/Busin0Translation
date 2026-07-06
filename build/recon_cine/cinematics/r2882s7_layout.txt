@@ -1,0 +1,10 @@
+roundtrip PASS
+palette hist top: [(15, 58532), (0, 2270), (2, 510), (14, 488), (4, 474), (1, 417)]
+text bands (y0,y1): [(4, 28), (36, 58), (72, 88), (100, 122), (133, 153), (163, 187), (196, 219)]
+  band y4-28: x11-248 centerX~129
+  band y36-58: x64-194 centerX~129
+  band y72-88: x104-151 centerX~127
+  band y100-122: x53-202 centerX~127
+  band y133-153: x82-173 centerX~127
+  band y163-187: x26-231 centerX~128
+  band y196-219: x87-184 centerX~135

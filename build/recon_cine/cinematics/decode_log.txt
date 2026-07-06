@@ -1,0 +1,24 @@
+=== R2879: 2093056B, 7 sections
+  r2879s1: A=29 B=34 payload=file+12912 tex=512x512 psm=0x14 imgs=[(128, 128), (256, 128), (128, 64), (256, 128), (256, 128)]
+  r2879s4: A=3 B=6 payload=file+512112 tex=512x512 psm=0x13 imgs=[(256, 256), (256, 256), (256, 256)]
+  r2879s6: A=3 B=6 payload=file+1302496 tex=512x512 psm=0x13 imgs=[(256, 256), (256, 256), (256, 256)]
+=== R2880: 2113536B, 11 sections
+  r2880s1: A=3 B=6 payload=file+1632 tex=512x512 psm=0x13 imgs=[(256, 256), (256, 256), (256, 256)]
+  r2880s3: A=3 B=6 payload=file+792064 tex=512x512 psm=0x13 imgs=[(256, 256), (256, 256), (256, 256)]
+  r2880s5: A=9 B=14 payload=file+1597184 tex=512x512 psm=0x13 imgs=[(256, 256), (64, 64), (64, 32), (64, 32), (128, 64), (128, 64)]
+  r2880s7: A=9 B=10 payload=file+1962944 tex=512x512 psm=0x14 imgs=[(256, 128)]
+  r2880s10: A=1 B=2 payload=file+2104640 tex=128x128 psm=0x14 imgs=[(64, 32)]
+=== R2881: 2316288B, 15 sections
+  r2881s1: A=3 B=6 payload=file+2304 tex=512x512 psm=0x13 imgs=[(256, 256), (256, 256), (256, 256)]
+  r2881s3: A=3 B=6 payload=file+796720 tex=512x512 psm=0x13 imgs=[(256, 256), (64, 64), (256, 256)]
+  r2881s5: A=5 B=10 payload=file+1342064 tex=512x512 psm=0x13 imgs=[(256, 256), (256, 256), (64, 64), (64, 64), (256, 64)]
+  r2881s7: A=10 B=14 payload=file+1978608 tex=512x512 psm=0x14 imgs=[(256, 128), (256, 128), (64, 32), (32, 32), (128, 64)]
+  r2881s10: A=1 B=2 payload=file+2301712 tex=128x128 psm=0x14 imgs=[(64, 32)]
+  r2881s12: A=2 B=4 payload=file+2313344 tex=32x32 psm=0x14 imgs=[]
+  r2881s14: A=1 B=2 payload=file+2315296 tex=16x16 psm=0x14 imgs=[]
+=== R2882: 681984B, 9 sections
+  r2882s1: A=1 B=2 payload=file+832 tex=512x512 psm=0x13 imgs=[(256, 256)]
+  r2882s3: A=1 B=2 payload=file+265840 tex=512x512 psm=0x14 imgs=[(192, 96)]
+  r2882s5: A=2 B=3 payload=file+345952 tex=512x512 psm=0x13 imgs=[(128, 64), (256, 256)]
+  r2882s7: A=1 B=2 payload=file+644368 tex=256x256 psm=0x14 imgs=[(128, 64)]
+wrote decode_cine.json, 19 sheets

@@ -1,0 +1,448 @@
+FILE=data/translate_chunks/chunk_00_translated.json IDX=2 RES=34 MI=3 HIT=['knight']
+  JP: 騎事務の魔石 / 
+  EN: Knight's Stone / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=9 RES=34 MI=13 HIT=['king']
+  JP: 聖王の罰■ / 
+  EN: Holy King Talisman / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=16 RES=34 MI=21 HIT=['witch']
+  JP: 騎女の■飾り / 
+  EN: Witch's Hair / Ornament /
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=20 RES=34 MI=25 HIT=['thief']
+  JP: 盗賊のリスト / 
+  EN: Thief's Wristband / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=21 RES=34 MI=26 HIT=['knight']
+  JP: 兵士のリスト / 
+  EN: Knight's Wristband / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=69 RES=36 MI=26 HIT=['lord']
+  JP: オーガロード / 
+  EN: Ogre Lord / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=79 RES=36 MI=36 HIT=['lord']
+  JP: ヴァンパイアロード / 
+  EN: Vampire Lord / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=86 RES=36 MI=43 HIT=['lord']
+  JP: レイバーロード / 
+  EN: Reaver Lord / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=89 RES=36 MI=46 HIT=['priest', 'priestess']
+  JP: プリーステス / 
+  EN: Priestess / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=92 RES=36 MI=49 HIT=['priest']
+  JP: lv１プリースト / 
+  EN: Lv1 Priest / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=95 RES=36 MI=52 HIT=['bishop']
+  JP: lv１ビショップ / 
+  EN: Lv1 Bishop / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=103 RES=36 MI=60 HIT=['thief']
+  JP: lv４シーフa / 
+  EN: Lv4 Thief A / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=104 RES=36 MI=61 HIT=['master', 'thief']
+  JP: マスターシーフa / 
+  EN: Master Thief A / 
+
+FILE=data/translate_chunks/chunk_00_translated.json IDX=105 RES=36 MI=62 HIT=['thief']
+  JP: ファントムシーフa / 
+  EN: Phantom Thief A / 
+
+FILE=data/translate_chunks/chunk_05_translated.json IDX=40 RES=44 MI=20 HIT=['king']
+  JP: 編隊を続けますか？ /   /   / 
+  EN: Continue making? /   /   / 
+
+FILE=data/translate_chunks/chunk_05_translated.json IDX=88 RES=45 MI=11 HIT=['king']
+  JP: オーダーをうけるか？  / それはとっても / いいことだ  / 
+  EN: Taking orders? / That's really / great! / 
+
+FILE=data/translate_chunks/chunk_05_translated.json IDX=104 RES=45 MI=27 HIT=['king']
+  JP: どのオーダーをうけるだよ？  /   /   / 
+  EN: Which order / ya taking? /   / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=15 RES=34 MI=39 HIT=['bishop']
+  JP: 集教頼マント / 
+  EN: Bishop Cloak / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=19 RES=34 MI=43 HIT=['king']
+  JP: 飲王のマント / 
+  EN: Demon King Cloak / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=73 RES=34 MI=149 HIT=['master']
+  JP: 名算の宮 / 
+  EN: Master Armor / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=75 RES=34 MI=151 HIT=['knight']
+  JP: ナイトメイル / 
+  EN: Knight Mail / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=81 RES=34 MI=157 HIT=['knight']
+  JP: 聖兵士の宮 / 
+  EN: Holy Knight Armor / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=85 RES=34 MI=161 HIT=['king']
+  JP: 飲王の宮 / 
+  EN: Demon King Armor / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=94 RES=34 MI=170 HIT=['knight']
+  JP: 聖兵士の辺 / 
+  EN: Holy Knight Helm / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=97 RES=34 MI=173 HIT=['king']
+  JP: 飲王の辺 / 
+  EN: Demon King Helm / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=115 RES=34 MI=191 HIT=['knight']
+  JP: 聖兵士の防 / 
+  EN: Holy Knight Shield / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=119 RES=34 MI=195 HIT=['king']
+  JP: 飲王の防 / 
+  EN: Demon King Shield / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=127 RES=34 MI=203 HIT=['knight']
+  JP: 聖兵士の小手 / 
+  EN: Holy Knight Gauntlets / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=130 RES=34 MI=206 HIT=['king']
+  JP: 飲王の小手 / 
+  EN: Demon King Gauntlets / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=155 RES=34 MI=362 HIT=['master']
+  JP: 名算のダガー / 
+  EN: Master Dagger / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=159 RES=34 MI=366 HIT=['thief']
+  JP: 盗賊の短鎧 / 
+  EN: Thief's Knife / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=181 RES=34 MI=388 HIT=['lord']
+  JP: 神主の祠 / 
+  EN: Divine Lord Sword / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=184 RES=34 MI=391 HIT=['knight']
+  JP: 聖兵士の祠 / 
+  EN: Holy Knight Sword / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=202 RES=34 MI=409 HIT=['master']
+  JP: 名算の鎧 / 
+  EN: Master Katana / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=226 RES=34 MI=433 HIT=['master']
+  JP: 名算の手攻 / 
+  EN: Master Hand Axe / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=230 RES=34 MI=437 HIT=['knight']
+  JP: 聖兵士の手攻 / 
+  EN: Holy Knight Axe / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=244 RES=34 MI=451 HIT=['king']
+  JP: 飲王の戦攻 / 
+  EN: Demon King Axe / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=254 RES=34 MI=461 HIT=['king']
+  JP: 抜きのメイス / 
+  EN: Striking Mace / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=283 RES=34 MI=490 HIT=['thief']
+  JP: 盗賊の団法 / 
+  EN: Thief's Bow / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=293 RES=34 MI=500 HIT=['bishop']
+  JP: 教上[480] / 
+  EN: Bishop Pole Arm / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=295 RES=34 MI=502 HIT=['guard']
+  JP: 後[380][480] / 
+  EN: Guardian Pole Arm / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=298 RES=34 MI=505 HIT=['king']
+  JP: 教地騎王[480] / 
+  EN: King's Pole Arm / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=336 RES=34 MI=717 HIT=['priest']
+  JP: 神聖のカクテル / 
+  EN: Priest Cocktail / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=337 RES=34 MI=718 HIT=['priest']
+  JP: 神聖のワイン / 
+  EN: Priest Wine / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=340 RES=34 MI=721 HIT=['thief']
+  JP: 盗賊の宝救 / 
+  EN: Thief Soul / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=342 RES=34 MI=723 HIT=['priest']
+  JP: 神聖の宝救 / 
+  EN: Priest Soul / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=345 RES=34 MI=726 HIT=['knight']
+  JP: 兵士の宝救 / 
+  EN: Knight Soul / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=346 RES=34 MI=727 HIT=['bishop']
+  JP: 集教の宝救 / 
+  EN: Bishop Soul / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=348 RES=34 MI=729 HIT=['monk']
+  JP: モンクの宝救 / 
+  EN: Monk Soul / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=350 RES=34 MI=731 HIT=['knight']
+  JP: 聖兵士の宝救 / 
+  EN: Holy Knight Soul / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=351 RES=34 MI=732 HIT=['knight']
+  JP: 暗兵士の宝救 / 
+  EN: Dark Knight Soul / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=354 RES=34 MI=735 HIT=['thief']
+  JP: 美盗の宝救 / 
+  EN: Phantom Thief Soul / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=388 RES=34 MI=819 HIT=['thief']
+  JP: シーフアイの団 / 
+  EN: Scroll of Thief Eye / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=446 RES=34 MI=937 HIT=['thief']
+  JP: 盗賊の腕 / 
+  EN: Thief Skin / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=448 RES=34 MI=939 HIT=['priest']
+  JP: 神聖の依 / 
+  EN: Priest Hair / 
+
+FILE=data/translate_chunks/chunk_r34_fix.json IDX=451 RES=34 MI=942 HIT=['bishop']
+  JP: 集教の[832]石 / 
+  EN: Bishop Gem / 
+
+FILE=data/translate_chunks/chunk_r43_r45_translated.json IDX=14 RES=44 MI=3 HIT=['knight']
+  JP: 騎士から集ったく勲を / 冒書事で編隊し、 / 騎法団を造りましょう。 / 
+  EN: Form magic stones / from medals your / knights collected. /
+
+FILE=data/translate_chunks/chunk_r43_r45_translated.json IDX=31 RES=44 MI=20 HIT=['king']
+  JP: 編隊を続けますか？ /   /   / 
+  EN: Continue making / more? /   / 
+
+FILE=data/translate_chunks/chunk_r43_r45_translated.json IDX=79 RES=45 MI=11 HIT=['king']
+  JP: オーダーをうけるか？  / それはとっても / いいことだ  / 
+  EN: Taking an order? / That's great! /   / 
+
+FILE=data/type2_translated/batch_05.json IDX=29 RES=1206 MI=32 HIT=['guard']
+  JP: だから魔物どもは個乙として、ここを[045E][047D]者しとるってわけだ。
+  EN: That's why monsters / guard here.
+
+FILE=data/type2_translated/batch_05.json IDX=45 RES=1206 MI=49 HIT=['lord']
+  JP: ドゥーハン[01E3]休前がアレイドを[0447]封させたかなんか、そんな[0422]だ！！。
+  EN: Duhan lord sealed / the Alaid!?
+
+FILE=data/type2_translated/batch_05.json IDX=63 RES=1206 MI=67 HIT=['lord']
+  JP: 内時辺段を[040F]ったサンゴートの扱[01E3]休を忘せたんだからな。
+  EN: we beat High Lord / Sangort.
+
+FILE=data/type2_translated/batch_05.json IDX=86 RES=1206 MI=90 HIT=['servant']
+  JP: さしずめ[04CF]はわがまま[067E]にわざと後り回される、持[0199]主ある王所ってとこかな。
+  EN: Loyal servant, / left behind!
+
+FILE=data/type2_translated/batch_05.json IDX=95 RES=1206 MI=99 HIT=['servant']
+  JP: さしずめ[04CF]はわがまま[067E]にわざと後り回される、持[0199]主ある王所ってとこかな。
+  EN: Loyal servant, / left behind!
+
+FILE=data/type2_translated/batch_05.json IDX=116 RES=1206 MI=120 HIT=['master']
+  JP: ここはインゴ[0622]何の呪基[0490]乙だ。[0141]声く入ってくるんじゃねえ 
+  EN: Master Ingo's / lair! Get out!
+
+FILE=data/type2_translated/batch_05.json IDX=119 RES=1206 MI=123 HIT=['master']
+  JP: ！ふ～ん、テメェはそれでインゴ[0622]何に毒があるってワケだな。
+  EN: Business with / Master Ingo.
+
+FILE=data/type2_translated/batch_05.json IDX=123 RES=1206 MI=127 HIT=['master']
+  JP: 言いつけがなかったらテメェなど漢い大してやるが、[0622]何の気悔だから一今ない！。
+  EN: Master's orders!
+
+FILE=data/type2_translated/batch_05.json IDX=126 RES=1206 MI=130 HIT=['thief']
+  JP: そうか、じゃあ[0622]何の言うとおり間者の蓄を持ってくるこったな。
+  EN: Get the Thief's / Mask.
+
+FILE=data/type2_translated/batch_05.json IDX=127 RES=1206 MI=131 HIT=['master']
+  JP: そしたら[0622]何から[043F]かってる報と[014D]炎してやるよ 
+  EN: I'll trade for / Master's goods!
+
+FILE=data/type2_translated/batch_05.json IDX=133 RES=1206 MI=137 HIT=['thief']
+  JP: そうか、じゃあ[0622]何の言うとおり間者の蓄を持ってくるこったな。
+  EN: Get the Thief's / Mask.
+
+FILE=data/type2_translated/batch_05.json IDX=142 RES=1206 MI=146 HIT=['master']
+  JP: これも[0622]何の言いつけだからな、[0470]り難く受け取りやがれ 
+  EN: Master's orders. / Take it!
+
+FILE=data/type2_translated/batch_05.json IDX=166 RES=1206 MI=170 HIT=['lord']
+  JP: あいつも王[01BC]なんかになっちまって協[0337]したと思うぜ。
+  EN: He became lord.
+
+FILE=data/type2_translated/batch_05.json IDX=171 RES=1206 MI=175 HIT=['king']
+  JP: どうも内時のドゥーハン王と何数が、バンクォーの乙で俺達を忠該ったらしいんだが！。
+  EN: Old king / betrayed us.
+
+FILE=data/type2_translated/batch_05.json IDX=205 RES=1206 MI=209 HIT=['sir']
+  JP: ウェズベル！わしは知りたいのじゃ。お両が、何を強んでいるのかを。
+  EN: What do you / desire!?
+
+FILE=data/type2_translated/batch_05.json IDX=217 RES=1206 MI=221 HIT=['sir']
+  JP: さあ、役えてくれぬか？お両は何を強み、何を素している？
+  EN: What do you / desire!?
+
+FILE=data/type2_translated/batch_05.json IDX=241 RES=1206 MI=245 HIT=['guard']
+  JP: どうやらあの[01BC]所じゃ、個[0528]の[04CE]態を倒く[01E4][01DD]を息王が、出したみたいだな。
+  EN: Guardian / investigation / ordered.
+
+FILE=data/type2_translated/batch_05.json IDX=243 RES=1206 MI=247 HIT=['lord']
+  JP: しかしここの息王はバカか？
+  EN: Town lord an / idiot?
+
+FILE=data/type2_translated/batch_05.json IDX=246 RES=1206 MI=250 HIT=['guard']
+  JP: [01E1]荷に言えば、損の[018A]をもって個[0528]を[059A][053F]させる魔運解。
+  EN: Uses divine / power for / guardians.
+
+FILE=data/type2_translated/batch_05.json IDX=264 RES=1206 MI=268 HIT=['clerk']
+  JP: オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+  EN: Shop clerk / rushes over.
+
+FILE=data/type2_translated/batch_05.json IDX=310 RES=1206 MI=315 HIT=['king']
+  JP: はいはいはい、では入会臆をいただきやしょうか 
+  EN: Taking fee!
+
+FILE=data/type2_translated/batch_05.json IDX=316 RES=1206 MI=321 HIT=['king']
+  JP: はいはいはい、では入会臆をいただきやしょうか 
+  EN: Taking fee!
+
+FILE=data/type2_translated/batch_05.json IDX=455 RES=1206 MI=465 HIT=['king']
+  JP: え～ちょいとお待ちを。お落さんのフレンドポイントを道べますので。
+  EN: Checking / Points!
+
+FILE=data/type2_translated/batch_05.json IDX=703 RES=1206 MI=728 HIT=['lord']
+  JP: 日えそれが、[01E3]休前の役色に重くことになったとしても。
+  EN: Even defying / the lord.
+
+FILE=data/type2_translated/batch_05.json IDX=870 RES=1206 MI=895 HIT=['sir']
+  JP: ウェズベルも言っていたが、何を有めておるのかがわかれば、
+  EN: Learn her / desire,
+
+FILE=data/type2_translated/batch_05.json IDX=872 RES=1206 MI=897 HIT=['sir']
+  JP: 戦いに仰ちたければ、段の[01BE]も能する物を素し出すといい。
+  EN: Find enemy / desire.
+
+FILE=data/type2_translated/batch_05.json IDX=882 RES=1206 MI=907 HIT=['sir']
+  JP: ウェズベルが言っていたように、あやつの強みとは何だ？
+  EN: What desire?
+
+FILE=data/type2_translated/batch_05.json IDX=901 RES=1207 MI=17 HIT=['witch']
+  JP: スイッチは[0447]用に[01D7]し込まれて[0427]期されている。
+  EN: Switch embedded / locked.
+
+FILE=data/type2_translated/batch_05.json IDX=902 RES=1207 MI=18 HIT=['witch']
+  JP: よく見るとスイッチのようなものがついている。
+  EN: A switch here.
+
+FILE=data/type2_translated/batch_05.json IDX=903 RES=1207 MI=19 HIT=['witch']
+  JP: スイッチを[01D7]してみますか？は いいいえ
+  EN: Try the switch? / Yes / No
+
+FILE=data/type2_translated/batch_05.json IDX=908 RES=1207 MI=25 HIT=['soldier']
+  JP: ５名層に都り待ったは、優臆美解達の一[04A8]と、その[04A6]ん中に待つウェブスター卿の良が野に[04D7]った。
+  EN: Floor 5: soldiers / and Webster.
+
+FILE=data/type2_translated/batch_05.json IDX=909 RES=1207 MI=26 HIT=['guard']
+  JP: イ[01E3]休前は見つけ罰第専[0552]せよゴ
+  EN: Find guard! Kill / on sight!
+
+FILE=data/type2_translated/batch_05.json IDX=920 RES=1207 MI=37 HIT=['guard']
+  JP: さて、これから余は[058B]れる失損を[04A1]らせに向かうとするよ。
+  EN: Awaken the / guardian.
+
+FILE=data/type2_translated/batch_05.json IDX=924 RES=1207 MI=41 HIT=['knight']
+  JP: [0496]戦休と[040B][018A]をとるドラクル[01E3]休前を報いる、扱[01E3]休サンゴート王！。
+  EN: Sangort rivals / knights!
+
+FILE=data/type2_translated/batch_05.json IDX=932 RES=1207 MI=49 HIT=['bishop']
+  JP: イランゴバルト[06C3]習[06C4]殿、そろそろ質してくれる[0141]になってくれましたかな？ゴ
+  EN: Talk yet, / Archbishop?
+
+FILE=data/type2_translated/batch_05.json IDX=947 RES=1207 MI=64 HIT=['bishop']
+  JP: [06C3]習[06C4]は、[0327]愛を[01D7]さえ、彼らから威れるように、装ずさりした。
+  EN: Archbishop / backed away.
+
+FILE=data/type2_translated/batch_05.json IDX=954 RES=1207 MI=71 HIT=['bishop']
+  JP: [06C3]習[06C4]が[0682]ぐような加取りで休り出した。
+  EN: Archbishop / ran.
+
+FILE=data/type2_translated/batch_05.json IDX=964 RES=1207 MI=82 HIT=['guard']
+  JP: ランゴバルトすまんな、今は住損の道登中じゃ。
+  EN: Investigating / guardian.
+
+FILE=data/type2_translated/batch_05.json IDX=966 RES=1207 MI=84 HIT=['priest']
+  JP: 街所に入ったの両に、[040B][01BC]な良をした魔物と[04FC]開役が義器抜れた。
+  EN: Monster and / priest inside.
+
+FILE=data/type2_translated/batch_05.json IDX=995 RES=1207 MI=113 HIT=['lord']
+  JP: もちろん[0436]忍の[01E4][01DD]もきちんと取ってあるのでな。
+  EN: Lord's / permission.
+
+FILE=data/type2_translated/batch_05.json IDX=1006 RES=1207 MI=124 HIT=['lord']
+  JP: もう一つ、ヴァンパイアロードのような大[028E]王ということも必えられるが、その必えも[049B]義できた。
+  EN: Vampire Lord / ruled out.
+
+FILE=data/type2_translated/batch_05.json IDX=1007 RES=1207 MI=125 HIT=['lord']
+  JP: 大[028E]王はゾンビなどと違って、知放も感[016A]もあるが、[0501]通の[032A][03F2]では武器することすら大[01DD]築なのだ。
+  EN: Undead lords / can't exist / normally.
+
+FILE=data/type2_translated/batch_05.json IDX=1058 RES=1207 MI=177 HIT=['guard']
+  JP: 置形の男[048F]、住損が[0408]ぼしたとも義器依より都り[04F3]いだ[05D1]険によって[0408]んだとも言われるけど。
+  EN: Guardian or / catastrophe?
+
+FILE=data/type2_translated/batch_05.json IDX=1106 RES=1207 MI=227 HIT=['master']
+  JP: フリーダーマスターとディアラントの杯掲魔義、すべてを攻[048E]の将[04E8]にする[01BA]孤です。
+  EN: Master / directive.
+
+FILE=data/type2_translated/batch_05.json IDX=1121 RES=1207 MI=242 HIT=['guard']
+  JP: 置形のエルフが部りだした男[048F]、住損によって[01C9][0657]が忍るんだ！なんてね。
+  EN: Guardian! / ...Kidding.
+
+FILE=data/type2_translated/batch_05.json IDX=1140 RES=1207 MI=261 HIT=['guard']
+  JP: あれが住損だよ、[055A]辺き者部生物、置形エルフ王息の呪美の一つだ。
+  EN: The guardian!
+
+FILE=data/type2_translated/batch_05.json IDX=1192 RES=1207 MI=315 HIT=['king']
+  JP: オダたちのみせわ、ときたまああしておっかねえマモノにおそわれちまうだよ！。
+  EN: Taking fee!
+
+FILE=data/type2_translated/batch_05.json IDX=1198 RES=1207 MI=321 HIT=['king']
+  JP: 入り愛[01CD]の飽[03CE]には、イ[0454]し物会場ゴと金かれたプレートが[032D]ち着けられている。
+  EN: Taking fee!
+
+FILE=data/type2_translated/batch_05.json IDX=1338 RES=1207 MI=465 HIT=['king']
+  JP: 戦いのを[04DD]って、辺人[0219]な長買の者が[0143]祠に力にしたところで、築主を祠き出せず辺客町よね。
+  EN: Checking / Points!
+
+FILE=data/type2_translated/batch_05.json IDX=1586 RES=1207 MI=728 HIT=['lord']
+  JP: 道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。
+  EN: Even defying / the lord.
+
+FILE=data/type2_translated/batch_05.json IDX=1744 RES=1207 MI=895 HIT=['sir']
+  JP: ランゴバルト[06C3]習[06C4]と言えば、ハリスでも[018A]両を知らない者がいないほどの[0362]今です。
+  EN: Learn her / desire,
+
+FILE=data/type2_translated/batch_05.json IDX=1746 RES=1207 MI=897 HIT=['sir']
+  JP: 余はあまり[04DA]がないので、同しいことはわかりませんが、
+  EN: Find enemy / desire.
+
+FILE=data/type2_translated/batch_05.json IDX=1756 RES=1207 MI=907 HIT=['sir']
+  JP: いったい転は、何を[05AA]んでいる？
+  EN: What desire?
+

@@ -1,0 +1,825 @@
+FILE=data/translate_chunks/chunk_04_translated.json KEY=41:1
+JPHITS=church
+JP=ここはサレム教会。 / ！何用な方が / 一体どんな消息で？ / 
+EN=Salem Church. What / business brings you / here? /
+---
+FILE=data/translate_chunks/chunk_04_translated.json KEY=41:2
+JPHITS=church
+JP=サレム教会へようこそ。 / おや、■手の助けが / 必要なようですな。 / 
+EN=Welcome to Salem / Church. It seems you / need divine aid. /
+---
+FILE=data/translate_chunks/chunk_04_translated.json KEY=41:4
+JPHITS=church
+JP=では、■がサレム教会に / 必要なだけの■価を / いただきましょうか。 / 
+EN=Then let us receive / the offering due to / Salem Church. / 
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=49:108
+JPHITS=knight
+JP=騎士の顔の像がある / 
+EN=A statue of a / knight's face. / 
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:2
+JPHITS=king
+JP=後衛の魔王を、前衛の武器に信して攻 / 手するaa。攻手回くは１回に制限さ / れるが、秘計■敏の持いモンスターを / 秘計させる景が元■るaa。 / 
+EN=Back magic boosts / front weapons. 1 hit / but high accuracy. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:3
+JPHITS=king
+JP=後衛の魔王で、理の果きを険街とめ、 / そのスキに前衛が攻手するaa。 / 攻手回くは１回に制限されるが、回避 / 王の覚いモンスターを攻手するのに / 有宮。 / 
+EN=Back magic stuns foe / for front attack. / 1 hit, high acc. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:4
+JPHITS=king
+JP=後衛の魔王で前衛を新動に上げ、前衛 / がターンの身後に許■を■■攻手する / aa。攻手回くは１回に制限されるが / モンスターの■解王を険限年持宮化す / ることができる。 / 
+EN=Back magic lifts / front for jump atk. / 1 hit, no DEF. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:6
+JPHITS=king
+JP=後衛２鉄が、魔王をクロスさせて理の / 果きを骨じ、前に値きずり元したとこ / ろを前衛２鉄が同持に攻手するaa。 / 回避王・hpの覚い理に有宮な箱期攻 / 手。 / 
+EN=2 back seal foe, / 2 front strike. vs / high EVA/HP foes. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:7
+JPHITS=king
+JP=前衛全員が■罰して■解■■を取り、 / 回避王・■解王を覚める。理の攻手に / よる秘計・備仰・■・ed・adをも / ■ぎ、さらに理のイラッシュゴを / ブロックできる。 / 
+EN=All front defend. / Boosts EVA & DEF. / Blocks status+RUSH /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:8
+JPHITS=king
+JP=後衛２鉄が魔王を罰動させて魔法のバ / リアをはるaa。 / 魔法によるダメージをダウンさせ、レ / ジスト■■払を覚めることができる。 / 
+EN=2 back cast barrier. / Cuts magic damage, / boosts RES rate. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:9
+JPHITS=king
+JP=後衛全員が魔王を罰動させ、気度 / フィールド全鎧を強王な魔法バリアで / おおうaa。そのターンは、理味方と / もに聖飾による魔法を険紹効果させる / ことができない。 / 
+EN=All back cast strong / barrier. No spells / from either side. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:10
+JPHITS=king
+JP=後衛全員が魔王を罰動させ、パーティ / 全員の協誰を用りだすaa。協誰は、 / ダメージを受けると消えてしまうが、 / 攻手の許■になった長騎、■鎧は険紹 / ダメージを受けずにすむ。 / 
+EN=All back make decoy / images. Images take / hits for party. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:12
+JPHITS=king
+JP=パーティ全員が■罰悪■を取り、通常 / 攻手に対する回避王・■解王を大きく / アップさせるaa。代わりにブレス・ / 魔法によるダメージがアップしてしま / う。 / 
+EN=Party evades. Big / EVA/DEF boost, but / magic dmg goes up. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:19
+JPHITS=king
+JP=後衛３鉄が魔王を罰動し、魔法の宮力 / エリアをひろげるaa。また、理の聖 / 飾持宮化■王をダウンさせ、魔法の宮 / 力もアップさせることができる。 / 
+EN=3 back expand spell / range. Lowers foe / resist+boosts pow. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:20
+JPHITS=king
+JP=後衛全員で魔王を罰動し、■の魔法宮 / 力を投集するaa。味方全員のイ骨 / 魔ゴを回■させ、また理のイマジック / シェルゴイアンチマジックシェルゴを / 投集することができる。 / 
+EN=All back dispel. / Cures Mute, breaks / foe magic shells. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:22
+JPHITS=king
+JP=後衛が、魔法を味方の武器に信らせ、 / その武器で味方が攻手するaa。攻手 / が聞動すれば、理の聖飾持宮化■王・ / マジックシェルを持泊し、魔法を効果 / させることができる。 / 
+EN=Back enchants wpn. / Hit bypasses foe / resist & Mag Shell /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:26
+JPHITS=king
+JP=罰動攻手が、心賊の■団によって進化 / したもの。 / １鉄許が全王で理を新動に器き上げ、 / ■■動および理の大ち上がりぎわに攻 / 手し、大きなダメージを与える。 / 
+EN=Lift foe into air / then strike as they / fall. Big damage. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:29
+JPHITS=king
+JP=前後衛の２鉄でホーリーシンボルを紹 / り、強王なディスペルを削うaa。 / 加■■に対して、計大な宮力がある。 / 
+EN=2 form Holy Symbol / for powerful Dispel / Strong vs undead. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:30
+JPHITS=king
+JP=後衛の１鉄が魔王でワープゲートを用 / り、前衛３鉄が器来、ターンの身後に / 上新のゲートから■■攻手を削う。 / 理の■解王を持泊できる。 / 新動にいる■は攻手許■とならない。 / 
+EN=1 back warps 3 front / to atk from above. / Ignores DEF. Safe /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:31
+JPHITS=king
+JP=スレイクラッシュが、モンクの■団に / よって進化したもの。 / ２鉄が秘王をこめて理■をかけ■け、 / そして■る。削きと人りでダメージを / 与え、かつ加■■を違すことも能■。 / 
+EN=2 charge through / foe for damage. / Hits undead too. /
+---
+FILE=data/translate_chunks/chunk_r40_r42_translated.json KEY=41:1
+JPHITS=church
+JP=ここはサレム教会。 / ！何用な方が / 一体どんな消息で？
+EN=Salem Church. What / business do you / have here? /
+---
+FILE=data/translate_chunks/chunk_r40_r42_translated.json KEY=41:2
+JPHITS=church
+JP=サレム教会へようこそ。 / おや、寺手の助けが / 必要なようですな。
+EN=Welcome to Salem / Church. Looks like / you need our help. /
+---
+FILE=data/translate_chunks/chunk_r40_r42_translated.json KEY=41:4
+JPHITS=church
+JP=では、寺がサレム教会に / 必要なだけの修階を / いただきましょうか。
+EN=Then we shall accept / the offering the / church requires. /
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:11
+JPHITS=monster
+JP=カウンターには店社として[05A5]われたらしき魔物がいる。
+EN=At the counter was / a monster hired / as a clerk.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:12
+JPHITS=monster
+JP=そしてその魔物とルーシーが会質していた。
+EN=And Lucy was / talking with that / monster.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:118
+JPHITS=monster
+JP=心築があってよかったね。わたしは退備がないからわからないけど、魔物はとても退がるだろうな。
+EN=Good to have a / potential. I have / no gear, but you'd / scare monsters.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:139
+JPHITS=monster
+JP=[02A1]倉の差に下れることなく、失兜な魔物にも[03EB]越に待ち向かうことが[0451]目ね。
+EN=Face even the / mightiest foes / with courage.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:141
+JPHITS=monster
+JP=そのうち、下れるどころか値らすすんで失兜な魔物に向かうようになるかも。
+EN=Soon you'll charge / at strong foes / willingly.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:162
+JPHITS=monster
+JP=魔物の長[04B4]とかを取り出すのが兜[0380]きになるかも知れない。
+EN=You may love / harvesting monster / parts someday.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:293
+JPHITS=monster
+JP=おっと、すまねえなあ。[04A7]着は取り待ての解合外、将[04E8]を魔物に[014B]期してるんだ。
+EN=Oh sorry, for / exchanges, the / craftsman is / out hunting.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:342
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=Go to the Alchemy / Guild and see / Guillaume.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:347
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=Go to the Alchemy / Guild and see / Guillaume.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:352
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=Go to the Alchemy / Guild and see / Guillaume.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:357
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=Go to the Alchemy / Guild and see / Guillaume.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:362
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=Go to the Alchemy / Guild and see / Guillaume.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:367
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=Go to the Alchemy / Guild and see / Guillaume.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:377
+JPHITS=king
+JP=余は優臆美を[0550]う者。今は、置形エルフ王息の[01DA][04E4]について[0494][0495]をしている。
+EN=I study beauty. / Currently I'm / researching the / ancient Elf king.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:384
+JPHITS=monster
+JP=[01C5]れる客識と召[03F2]の中に魔物の[0578][0453]が見える。
+EN=In your fading / consciousness, you / saw monster shapes.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:385
+JPHITS=monster
+JP=[046E]か抜者か[0489][0474]する嫌もなく魔物の[0578][0453]が[042E]い納かってきた 
+EN=No time to tell / friend from foe as / the shapes closed in.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:498
+JPHITS=king
+JP=力両の通独から、一己のオークが冒を落として王いてきた。
+EN=An orc came / walking dejectedly / from the passage.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:501
+JPHITS=king
+JP=オークはそのままこっちに向かって王いてきた。
+EN=The orc walked / straight toward / you.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:506
+JPHITS=king
+JP=オークはそう言って、彼が王いてきた今向の待い通独を気差した。
+EN=The orc pointed / toward the dark / passage it came / from.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:543
+JPHITS=monster
+JP=な～んてことはさておき、さっそく魔物[056A][0509]見ちゃっかな 
+EN=Anyway, let's / check out the / monster book!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:544
+JPHITS=monster
+JP=ヨッペンは魔物[056A][0509]を取り外げ、兜話ぎでサキュバスの[0618]野を開くと[0529]目に獲みはじめた。
+EN=Yoppen grabbed / the monster book / and eagerly / opened to Succubus.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:548
+JPHITS=monster
+JP=ヨッペンは魔物[056A][0509]に[046E]中になっている。
+EN=Yoppen is absorbed / in the monster / book.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:569
+JPHITS=king
+JP=与はこちらの[0269]から義へ出るために王いてきた。
+EN=He was walking / toward the exit.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:599
+JPHITS=king
+JP=ドゥーハン息王の[018A]両を言ってください。
+EN=Please state the / name of the King / of Duhan.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:600
+JPHITS=king
+JP=ドゥーハン息王の[018A]は？オトルロードオルトルードオルルトードやめる   
+EN=Duhan's King? / Otolroad / Ortrud / Olrultoad / Cancel
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:601
+JPHITS=king
+JP=オトルロードオルトルードオルルトードはい、王ですか。
+EN=Otolroad / Ortrud / Olrultoad / Yes, that is / your answer.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:623
+JPHITS=king
+JP=個王の[047D][049E]を受け取った 
+EN=Received the / King's Amulet.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:678
+JPHITS=guild
+JP=よって、これより騎騎者ギルドへ[0407]き[02E4]本を新たな長として高[042C]に申[0642]しようと思う。
+EN=I shall go to / the Guild and / formally register / as your student.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:679
+JPHITS=guild
+JP=何今も住帰をを[0597]めたいのならば[0564]更、装ほど騎騎者ギルドへ加を稼んでいただきたい。
+EN=If you wish to / continue training, / come to the / Adventurer's Guild.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:683
+JPHITS=guild
+JP=騎騎者ギルドで[02E4]本に子長[01DD]築になりました。
+EN=Fudo registered / as your disciple / at the Guild.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:709
+JPHITS=monster
+JP=[0269]の向こうに街所がありましてね、魔物はそこにすみついています。
+EN=Behind the door / is a room with / monsters living / in it.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:714
+JPHITS=monster
+JP=余はあなたが魔物を[04A4][0346]してくださるまでの嫌、ここで待っていますから。
+EN=I'll wait here / until you clear / the monsters.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:719
+JPHITS=monster
+JP=影新わらず顔の[041E]いライマンに魔物を討伐したと報[0197]した。
+EN=You reported the / monster slaying / to the pale-faced / Raiman.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:720
+JPHITS=monster
+JP=おお、そうですか [0269]の向こうから聞こえた法[0277]は魔物のものだったんでしょうね。
+EN=Oh, I see. The / sounds from beyond / the wall must have / been monsters.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:867
+JPHITS=monster
+JP=魔物イむむむむむむむ おかしい、大[01DD]倒だ ゴ
+EN=Monster: Mmm... / Something is / wrong. Very wrong.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:868
+JPHITS=monster
+JP=魔物が、[0159]向な並来[0141]の[0269]の今を[04A6]鎧に見つめながら、ぶつぶつと冒いている。
+EN=The monster / stared intently / at a normal- / looking door, / muttering.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:869
+JPHITS=monster
+JP=どうやら、この魔物にはその[0269]が見えていないらしい。
+EN=Apparently, / this monster / couldn't see the / door at all.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:870
+JPHITS=monster
+JP=魔物が何のへんてつもない壁を[04A6]鎧に見つめながら、ぶつぶつと冒いている。
+EN=The monster / stared at a / plain wall, / muttering.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:871
+JPHITS=monster
+JP=魔物が、[0159]向な並来[0141]の[0269]の今を[04A6]鎧に見つめながら、ぶつぶつと冒いている。
+EN=The monster / stared intently / at a normal- / looking door, / muttering.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:872
+JPHITS=monster
+JP=どうやら、この魔物にはその[0269]が見えていないらしい。
+EN=Apparently, / this monster / couldn't see the / door at all.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:878
+JPHITS=monster
+JP=魔物は少し装ずさりすると、[0269]に向かって主いっぱい[02A1]内たりをした。
+EN=The monster / backed up and / threw itself at / the door with / all its might.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:879
+JPHITS=monster
+JP=魔物は少し装ずさりすると、壁に向かって主いっぱい[02A1]内たりをした。
+EN=The monster / backed up and / threw itself at / the wall with / all its might.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:880
+JPHITS=monster
+JP=魔物は少し装ずさりすると、[0269]に向かって主いっぱい[02A1]内たりをした。
+EN=The monster / backed up and / threw itself at / the door with / all its might.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:882
+JPHITS=monster
+JP=だが、その[02A1]がすり[04B9]けるといったことはなく、魔物は[01D0]功で乙蓄に忘れこんだ。
+EN=But its body / didn't pass / through, and it / crashed to the / ground.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:883
+JPHITS=monster
+JP=しばらくして、魔物は退そうに[02A1]についた[0403]をはらいながら[0150]び顔き外がった。
+EN=After a while, / the monster got / up, brushing off / dirt, annoyed.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:888
+JPHITS=monster
+JP=魔物は用[044E]主で休り防った！。
+EN=The monster ran / off at full / speed!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:892
+JPHITS=king
+JP=王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。
+EN=Royal Guard, / 7th Division, / Samuel Everson / reporting.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:897
+JPHITS=king
+JP=[018A]療ある王息[01E3]帰前に暗[062C]する余は、[028E]など下れはしませんが、
+EN=As a proud member / of the Royal / Guard, I'm not / afraid, but...
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:899
+JPHITS=monster
+JP=アウローラというのは、魔物果みに[0159]向な目の持ち消だというのが、余の態[04E8]です。
+EN=In my opinion, / Aurora has an / abnormally evil / nature.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:991
+JPHITS=king
+JP=王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。
+EN=Royal Guard, / 7th Division, / Samuel Everson / reporting.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1003
+JPHITS=monster
+JP=よくあんな下ろしい魔物を忘せるものだと思います。
+EN=I can't believe / they defeated / such a terrifying / monster.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1010
+JPHITS=king
+JP=デーモンと戦ったにも人わらず、何もなかったような感じで、大り[04B0]一つない[0339][0336]な倉[0380]で、王いてくるんですよ。
+EN=Despite fighting / a Demon, she / walked over / calmly without / a single wound.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1040
+JPHITS=king
+JP=難攻大落の城であろうと、鉄壁をほこる法王庁の宝物殿の中であろうとなんのその、
+EN=No fortress too / strong, no vault / too secure for / me to crack.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1096
+JPHITS=king
+JP=インゴイだから、そもそもなんで、    この俺[01BC]がお所ちゃま得めて、    カルチャースクールをしなきゃ    ならねえんだよ ゴ 男帰イそんなこと余に言われても    崩るんですがゴインゴイはぁ～、法王の中闘判も    [02E0]んだことある俺[01BC]がだぜ！。    ベルグラーノに会ったら    言っておけ ゴ
+EN=Ingo: Why do I / have to babysit / newbies?! / Soldier: That's not / my problem... / Ingo: I've even / read the Pope's / judgment! Tell / Belgrano!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1111
+JPHITS=king
+JP=の良に[0141]づき、択てて役を勉じて、王み復ってきた。
+EN=They noticed you, / panicked, shut / the book and / walked over.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1112
+JPHITS=king
+JP=[01E3]帰前汝[0368]しました 王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。
+EN=Guard: Reporting! / Royal Guard, 7th / Division, Samuel / Everson.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1132
+JPHITS=monster
+JP=魔物の中には、住[048F]で攻[048E]しても[028E]なないものが武器します。
+EN=Some monsters / can't be harmed / by regular / weapons.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1144
+JPHITS=guild;monster
+JP=魔法剣は、魔物が落とす議著を、優臆美ギルドに持っていけば以封してくれます。
+EN=Monsters drop / special reagents / that the Alchemy / Guild can use to / make scrolls.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1150
+JPHITS=monster
+JP=魔物の中には、支[0492]攻[048E]というかコンビネーション宿な攻[048E]を度毒するやつらがいるみたいです。
+EN=Some monsters / use coordinated / attacks, like / combination / techniques.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1151
+JPHITS=monster
+JP=うまく言えませんが、[0412]帰の魔物が１[02A1]１[02A1]、攻[048E]や魔法をしかけてくる増の戦美ではなく、
+EN=Instead of / attacking one / by one, they / work together.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1164
+JPHITS=monster
+JP=攻の[04A6]ん中で騎騎者の一前が魔物達と戦っていた。
+EN=In the middle / of the corridor, / adventurers / were fighting / monsters.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1165
+JPHITS=monster
+JP=騎騎者達は[04AD][01BA]に戦っているが、乙外と依からという魔物達の[0180]闘の攻[048E]によって、協戦を[0143]いられている。
+EN=They fought / bravely, but the / two-pronged / monster attack / overwhelmed them.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1169
+JPHITS=monster
+JP=[0327]ついた女戦帰上[03D6]隊が！魔物の[04A8]れに！！[042E]われているのです！。
+EN=Wounded fighter: / The rescue squad / is under attack / by monsters!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1174
+JPHITS=monster
+JP=退嫌の法[0277]に後り向いた彼女の重装へと、魔物がせまってきていた。
+EN=A monster was / closing in on / the woman behind / you.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1175
+JPHITS=monster
+JP=は彼女を義き欠ばすようにして喚に[04AB]せさせ、魔物の[04F3]客を値色へと向けた。
+EN=You pushed her / aside and turned / to face the / monster yourself.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1176
+JPHITS=monster
+JP=魔物は野納け、[042E]いかかってきた。
+EN=The monster / charged at you!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1233
+JPHITS=monster
+JP=は、魔物が上[03D6]隊を[042E]っていたこと。
+EN=You explained that / monsters had / attacked the / Guard members.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1242
+JPHITS=king
+JP=彼神は一度、息王に報[0197]をするため、盗へと戻るが、
+EN=They will return / to report to / the King, but...
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1276
+JPHITS=king
+JP=[041B]息の王がこぞって彼らを[059A][04AF]えようとしたことからもその[0470]築さがうかがい知れます。
+EN=Every king in / the land tried / to recruit them. / That shows their / fame.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1281
+JPHITS=king
+JP=見るも辺退な良で迷宮をさ迷い王いているではないですか。
+EN=Wandering the / labyrinth in / a pitiful / state.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1299
+JPHITS=king
+JP=！なんでこんな物果て[038B][0141]で王けるのよ。
+EN=Why do you run / so recklessly / in a dangerous / place like this?!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1321
+JPHITS=king
+JP=王き出したオークの一己が、あわてて戻ってきた。
+EN=One of the orcs / rushed back.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1360
+JPHITS=king
+JP=宮のいかれた者どもを得め、戦場を[0687]り王く空男隊の宮だが、
+EN=He commands a / band of lunatics / who roam / battlefields.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1381
+JPHITS=king
+JP=なぜドゥーハン王は、ならず者達を稀声しにしているのだ？
+EN=Why is the King / of Duhan / pardoning / criminals?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1383
+JPHITS=monster
+JP=この迷宮では、必ずしも段は魔物ばかりじゃない。
+EN=In this maze, the / enemies aren't / always monsters.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1386
+JPHITS=king
+JP=これまでの[05E8][05F0]が唱すぎて、者力大加で崩った息王が[01E4][01DD]したらしいが！、
+EN=Supposedly, the / overwhelmed King / granted amnesty / to bolster / manpower.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1389
+JPHITS=king
+JP=そもそもドゥーハン王の大[01DD]倒な行功は、これだけではないのだがな、
+EN=And the King's / reckless actions / don't stop there.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1402
+JPHITS=monster
+JP=魔物どもが持っている得前戦美、アレイドのことを。
+EN=About the / coordinated / combat technique / monsters use, / called Alleid.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1405
+JPHITS=monster
+JP=探かに、これまで魔物でしか度えないとされていたが、ここ地美、あらゆる戦場で[0422]が棄れた。
+EN=It was thought / to be monster- / only, but lately / reports have / come from every / battlefield.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1410
+JPHITS=king
+JP=過もがその高[02A1]を知りたがり、[041B]息の王は彼らを[059A][04AF]えるべく、必[028E]でその行今を漢った。
+EN=Everyone wants / to know how, and / kings would pay / anything to / recruit them.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1417
+JPHITS=monster
+JP=魔物が辺増の[0143]さを[040F]るのは、携してその戦[049C]主や生[01BA]主だけが、[0190]器ではない。
+EN=Monsters aren't / feared just for / their power or / endurance.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1465
+JPHITS=king
+JP=ベノアの[038B][040A]は、個王オルトルードと[01E3]帰前が[01A9]器であってこそ、[0599]たれているのだ。
+EN=Venoa's peace / depends on King / Ortrud and the / Order working / together.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1477
+JPHITS=king
+JP=が質を聞いていたことを知ると騎しい顔つきで王み復ってきた。
+EN=When he realized / you'd overheard, / he approached / with a pained look.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1480
+JPHITS=king
+JP=掲を内れずしてなんのための王集、戦わずして、なんのための[01E3]帰前だ。
+EN=What good is the / kingdom if we / won't fight? What / good are knights?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1487
+JPHITS=king
+JP=騎騎者が冒を落とし、とぼとぼと王いていた。
+EN=An adventurer / walked along, / head down.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1499
+JPHITS=king
+JP=もし余が法王ならば、用ベノアの個長者をかき得め、あんなもの[0408]変してやるのだが！。
+EN=If I were Pope, / I'd gather every / exorcist and / wipe them out!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1504
+JPHITS=king
+JP=ここだけの質だが、余はある息の王からアレイドの道登を頼まれている。
+EN=Just between us, / a certain king / asked me to / research Alleid.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1510
+JPHITS=monster
+JP=アレイドとは、魔物でしか[0550]えないとされてきた支[0492]攻[048E]。
+EN=Alleid is the / coordinated / attack that only / monsters were / thought to use.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1546
+JPHITS=monster
+JP=タルの向こうに魔物が紹れているのを[049A]見した。
+EN=You discovered / a monster hiding / behind the / barrel.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1555
+JPHITS=monster
+JP=魔物は冒を落とし、兜きなため息をついた。
+EN=The monster hung / its head and / sighed deeply.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1558
+JPHITS=monster
+JP=は、オークのパンツを取り出して、魔物に見せた。
+EN=You showed the orc / pants to the / monster.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1561
+JPHITS=monster
+JP=は、オークのパンツを、魔物に力渡した。
+EN=You handed the / orc pants to the / monster.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1570
+JPHITS=monster
+JP=は、魔物の[0141]に入る物を持っていなかった。
+EN=You didn't have / what the monster / wanted.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1574
+JPHITS=monster
+JP=魔物にリープをとなえられた！ 
+EN=The monster cast / Leap on you!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1582
+JPHITS=king
+JP=かの[0470][018A]なサンゴート王、扱[01E3]帰バルナードが持っていたっていう[0422]の魔鎧なのよ 
+EN=The legendary / cursed armor / that San-Goth's / General Barnard / supposedly had!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1594
+JPHITS=king
+JP=ここの王[01BC]、オルトルードに忘されるまでの嫌のことだけど。
+EN=Until Ortrud, / the King of / Duhan, defeated / him.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1599
+JPHITS=king
+JP=ここの王[01BC]、オルトルードに忘されるまでの嫌のことだけど。
+EN=Until Ortrud, / the King of / Duhan, defeated / him.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1601
+JPHITS=king
+JP=ポポーは、[0323]切に王き回りながら、冒き専めた。
+EN=Popo paced / frantically, / muttering.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:37
+JPHITS=monster
+JP=[04CF]はなんだかわからないけど魔物に[042E]われないから[038B][0141]だけど、[0501]通は辺[0190]だよね。
+EN=Monsters don't / attack me. Lucky!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:40
+JPHITS=king;princess
+JP=一今ないのかな！[067E]も王[01BC]や王女に向い事しちゃったわけだし！。
+EN=Maybe there's hope!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:48
+JPHITS=monster
+JP=[04CF]、この迷宮に入ってから魔物と戦ったことないんだ。
+EN=Haven't fought / anything here.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:49
+JPHITS=monster
+JP=汝といたら、魔物にいっぱい会えそうだし、[067E]はいないけど[04CF]、魔物がとっても[0380]きなんだ。
+EN=With you I'd meet / monsters! Love 'em!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:53
+JPHITS=guild
+JP=[04CF]、今から早[044E]盗に戻って騎騎者ギルドで力[01B5]きするよ。
+EN=I'll register at / the Guild!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:57
+JPHITS=monster
+JP=一今ないや、[04CF]あきらめるよ。もう迷宮に御るのはやめて、盗で魔物の[0494][0495]でもするよ。
+EN=I'll give up / the labyrinth.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:59
+JPHITS=king
+JP=ヨッペンは[028F]しそうに冒を落として王いて行った！。
+EN=Yoppen walked / away sadly.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:62
+JPHITS=king
+JP=ある者はその主をもって用[032A][03F2]を[06A5]べる王となり、
+EN=Some became kings.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:75
+JPHITS=king
+JP=下呪の王が[04A1]り、階のものどもが生きとし生けるものを回らい[04AE]くすため[04A1]ってくる。
+EN=The nether king / returns.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:109
+JPHITS=monster
+JP=[01C5]れる客識と召[03F2]の中に魔物の[0578][0453]が見える。
+EN=Monster shadows!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:110
+JPHITS=monster
+JP=[046E]か抜者か[0489][0474]する嫌もなく魔物の[0578][0453]が[042E]い納かってきた 
+EN=Monsters attack!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:120
+JPHITS=monster
+JP=カウンターには店社として[05A5]われたらしき魔物がいる。
+EN=Monster at counter.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:121
+JPHITS=monster
+JP=そしてその魔物とルーシーが会質していた。
+EN=Lucy was chatting.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:227
+JPHITS=monster
+JP=心築があってよかったね。わたしは退備がないからわからないけど、魔物はとても退がるだろうな。
+EN=Good potential! / Monsters fear you.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:248
+JPHITS=monster
+JP=[02A1]倉の差に下れることなく、失兜な魔物にも[03EB]越に待ち向かうことが[0451]目ね。
+EN=Face foes bravely.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:250
+JPHITS=monster
+JP=そのうち、下れるどころか値らすすんで失兜な魔物に向かうようになるかも。
+EN=You'll seek strong / foes.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:271
+JPHITS=monster
+JP=魔物の長[04B4]とかを取り出すのが兜[0380]きになるかも知れない。
+EN=Love extracting / materials!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:396
+JPHITS=king
+JP=[0496]王の間力を力に入れた 
+EN=Got Ogre King's / Dagger.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:404
+JPHITS=monster
+JP=おっと、すまねえなあ。[04A7]着は取り待ての解合外、将[04E8]を魔物に[014B]期してるんだ。
+EN=Equipping via / monster trade.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:453
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=See Guillaume.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:458
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=See Guillaume.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:463
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=See Guillaume.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:468
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=See Guillaume.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:473
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=See Guillaume.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:478
+JPHITS=guild
+JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN=See Guillaume.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:488
+JPHITS=king
+JP=余は優臆美を[0550]う者。今は、置形エルフ王息の[01DA][04E4]について[0494][0495]をしている。
+EN=Researching elf / relics.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:502
+JPHITS=monster
+JP=[040C]の[01E8]がった街所の中にはいつの嫌にか魔物の良があった！ 
+EN=Monsters appeared!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:503
+JPHITS=monster
+JP=魔物との戦いが編わると、足長の[040C]もなくなっていた。
+EN=Smoke cleared.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:514
+JPHITS=monster
+JP=イ頼むよ、魔物でも魔女でも 過でもいいからよ ゴ
+EN="Anyone, help!"
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:567
+JPHITS=guild
+JP=俺は一加[01A1]に盗に戻って、騎騎者ギルドで庫落をすませておくからよ。
+EN=I'll register.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:589
+JPHITS=king
+JP=地[0497]という美[04C0]を生き、脱唱の王息の[0408][0437]に待ち会ってきたと。
+EN=Lived 1000 years, / saw kingdoms fall.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:609
+JPHITS=king
+JP=俺は値色の[06B7]向を探かめるため、もう一度、第５層の置形王息[03DA]に行ってみる。
+EN=Returning to F5.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:616
+JPHITS=king
+JP=その[01BC]所を見つめていると[0180]者ともこちらに[0141]着いたらしく王み復ってきた。
+EN=They noticed you.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:722
+JPHITS=master
+JP=何もかも消えていく復しい[06D6]果み系しい者神[028E][02A1] [028E][02A1][0474][0552]魔の[04D1]び声[05F5]くもの段を力[06A2]せよたくさんの者の[04B0][05F5]くものが名べた[0419]に持まれる者年いている所[0285]みんな[0518]えていった[05D1]険が都ってきた[0419]の[05D4]マスターはどこ？みんな[028E]んでしまったここは何[0413]？もう過もいない余はなぜ生きている？[05F5]くものを変すためムルムル[04FA]的を力に入れた
+EN=Everything fades / Death / Demon cries / Crawlers / Screams / All gone / Why do I live? / To slay crawlers. / Got Murmur Core.
+---
+FILE=data/type2_translated/batch_dungeon_a.json KEY=35:12
+JPHITS=king
+JP=空き王専が不足しています。busin０のデータを[020A]代するには１か所につき２９５kb以上必要です。
+EN=Not enough free space. / Busin 0 data requires / at least 295KB per slot.
+---
+FILE=data/type2_translated/batch_dungeon_a.json KEY=35:28
+JPHITS=king
+JP=空き王専が不足しています。busin０を中[0283]セーブするには５５０kb以上必要です。
+EN=Not enough free space. / Suspend save requires / at least 550KB.
+---
+FILE=data/type2_translated/batch_dungeon_a.json KEY=35:30
+JPHITS=king
+JP=メモリーカードスロット１に[022F]されているメモリーカード「ps２」の空き王専が不足しています。busin０のデータをセーブするには１か所につき２９５kb以上、中[0283]セーブも使息する場編はさらに５５０kb以上の編[026F]８４５kb以上の空き王専が必要です。このままゲームを開錠しますか？
+EN=Memory card in slot 1 / lacks free space. / Save needs 295KB, / suspend save needs / 550KB more (845KB). / Continue without saving?
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1209:127
+JPHITS=king;princess
+JP=[王女表!!]
+EN=Princess!!
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:444
+JPHITS=church
+JP=サレム教会[0390]教活動[FFFE]
+EN=Salem Work
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:451
+JPHITS=king
+JP=古古王戦の秘宝[FFFE]
+EN=Royal Hoard
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:513
+JPHITS=thief
+JP=盗賊の目[FFFE]
+EN=Thief Eye
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:534
+JPHITS=guild
+JP=冒書事ギルド[FFFE]
+EN=Mage Guild
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:535
+JPHITS=guild
+JP=冒険者ギルド[FFFE]
+EN=Adventurer's Guild
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:537
+JPHITS=soldier
+JP=兵士団[FFFE]
+EN=Soldier Corps
+---

@@ -1,0 +1,3 @@
+m8: 'Is this OK? / ' glyphs=12 cap=14 OK endsFFFE=True
+m9: 'Yes' glyphs=3 cap=3 OK endsFFFE=False
+m10: 'No / ' glyphs=3 cap=4 OK endsFFFE=True

@@ -1,0 +1,3813 @@
+=== R680 flen=135168 real_runs=4
+  @w41279 g=11 rep=0.55 kana=3 kanji=2 fb=0
+      # ma pa #  bu
+  @w41511 g=7 rep=0.71 kana=4 kanji=0 fb=0
+     rize gu ha 
+  @w44887 g=6 rep=0.83 kana=3 kanji=3 fb=0
+     #bu#bu#be
+  @w44951 g=6 rep=0.83 kana=2 kanji=3 fb=0
+     #bu#bu# 
+=== R681 flen=2269184 real_runs=50
+  @w5845 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w8905 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w16121 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w19013 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w22504 g=6 rep=1.00 kana=2 kanji=3 fb=0
+     # bu#pi#
+  @w25730 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w26977 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33512 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     # ~bebo##
+  @w33564 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w34797 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w40981 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w43975 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bu#pa###
+  @w44142 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w47573 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w48685 g=8 rep=0.75 kana=2 kanji=4 fb=0
+       bebo####
+  @w48794 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w50641 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w53922 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w54947 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w63420 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w63506 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w65069 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w70389 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w75773 g=19 rep=0.53 kana=2 kanji=5 fb=0
+     ###        be chi##  ~
+  @w77919 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w87183 g=8 rep=0.88 kana=3 kanji=4 fb=0
+     #_bu##bu #
+  @w94661 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w98785 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w100609 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w104339 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bebo####
+  @w109395 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       #pi#be
+  @w115413 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w117393 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w118327 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w122100 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w122178 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w123431 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w126463 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w132919 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w133274 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #  bebo###
+  @w135323 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w150261 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w157791 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bepa##
+  @w157978 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w159127 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w164431 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w166109 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w170029 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w174628 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w174691 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+=== R683 flen=700416 real_runs=47
+  @w3849 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w4308 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w7788 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w8300 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w9093 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w9221 g=11 rep=0.64 kana=2 kanji=2 fb=0
+        be chi##  ~
+  @w10378 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w11839 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w13370 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      ###bea
+  @w14907 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17673 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w20361 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w23990 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  be##be##
+  @w25804 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #  bebo###
+  @w25860 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w27021 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w27804 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w29257 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w29412 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w30018 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w31313 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w36089 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w43565 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w47755 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w53977 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w55245 g=11 rep=0.64 kana=2 kanji=2 fb=0
+        be chi##  ~
+  @w56991 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w59805 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w62353 g=7 rep=0.71 kana=3 kanji=3 fb=0
+      bubobo###
+  @w62834 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w65375 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w84356 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w86211 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w88605 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w91001 g=7 rep=0.86 kana=2 kanji=3 fb=0
+      bebo### 
+  @w100020 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w101227 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w104455 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w106113 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w111559 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w113279 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w113324 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w114346 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w115609 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w116759 g=8 rep=1.00 kana=2 kanji=4 fb=0
+      ~bebo####
+  @w117044 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w118612 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+=== R684 flen=120832 real_runs=4
+  @w31281 g=7 rep=1.00 kana=4 kanji=3 fb=0
+     pu#pe##ebe
+  @w31409 g=7 rep=1.00 kana=6 kanji=1 fb=0
+     yaeyo#puibo
+  @w49672 g=8 rep=0.50 kana=6 kanji=0 fb=0
+     bubububu be bo
+  @w50944 g=13 rep=0.77 kana=2 kanji=11 fb=0
+     #yo######po####
+=== R685 flen=1042432 real_runs=27
+  @w2731 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+  @w3310 g=6 rep=0.67 kana=2 kanji=0 fb=0
+     buo~   
+  @w4052 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w5210 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w6530 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w8371 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w13975 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w19893 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21859 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w24187 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w27115 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w29389 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w29796 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w30302 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w30348 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w31501 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33346 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w34193 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w36047 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w37413 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w39130 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w40421 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w49340 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w49846 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w49898 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w50821 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w314573 g=6 rep=0.83 kana=3 kanji=0 fb=0
+      nad chigi
+=== R686 flen=106496 real_runs=1
+  @w46263 g=7 rep=1.00 kana=2 kanji=4 fb=0
+     ##ya#u#~
+=== R687 flen=1085440 real_runs=97
+  @w4616 g=10 rep=0.50 kana=2 kanji=2 fb=0
+     bu  #    bi#
+  @w5659 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w6113 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w6545 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w8039 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w8242 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w10211 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21105 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w22197 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bu#pa###
+  @w25227 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w25259 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      e#pa###
+  @w28469 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w32009 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w37130 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w37940 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w39677 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w41396 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w41474 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w42677 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w47395 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w49297 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w53977 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w60839 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w60930 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w62331 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w66877 g=8 rep=0.88 kana=3 kanji=4 fb=0
+     #_bu##bu #
+  @w67517 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bu#pa##
+  @w68093 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w68212 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w70027 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w76595 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w77686 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w79082 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w80158 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w81554 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w82426 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w84228 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w84282 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w86253 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w91998 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w92082 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w93878 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w93938 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w95195 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w96618 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w97386 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w98100 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w98632 g=14 rep=0.64 kana=6 kanji=8 fb=0
+     bebubu####be##pa#pa#
+  @w98756 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w99280 g=14 rep=0.79 kana=5 kanji=9 fb=0
+     bebubu####pi##pa###
+  @w99404 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w99936 g=12 rep=0.75 kana=5 kanji=7 fb=0
+     bebubu####bu##bo#
+  @w100060 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w100584 g=14 rep=0.86 kana=5 kanji=9 fb=0
+     bebubu####pi##bo###
+  @w102063 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w102553 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w102985 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w104981 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w107164 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w108275 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w109220 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w110209 g=7 rep=0.71 kana=2 kanji=2 fb=0
+       bebo## 
+  @w110268 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w111126 g=6 rep=0.67 kana=3 kanji=1 fb=0
+     #  bebobo
+  @w111180 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w112632 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w112684 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w113845 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w115260 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w116835 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w117020 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w117873 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w117956 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w120002 g=10 rep=0.80 kana=4 kanji=4 fb=0
+     #  bebo#bepa##
+  @w120052 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w120509 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w122657 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w125105 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w126490 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w126548 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w127005 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w127124 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w129170 g=10 rep=0.80 kana=4 kanji=4 fb=0
+     #  bebo#bepa##
+  @w129220 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w130074 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w131637 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w132901 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w132956 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w134380 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w134436 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w135597 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w135940 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w136798 g=6 rep=0.67 kana=3 kanji=1 fb=0
+     #  bebobo
+  @w136852 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w137841 g=10 rep=0.70 kana=4 kanji=4 fb=0
+       bebo#be###e
+  @w137900 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w139011 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R688 flen=131072 real_runs=3
+  @w30984 g=8 rep=1.00 kana=2 kanji=6 fb=0
+     #pi####bu#
+  @w36559 g=8 rep=0.75 kana=4 kanji=4 fb=0
+     #bo#bo#bo#pa
+  @w62952 g=16 rep=0.50 kana=3 kanji=11 fb=0
+       be#bechi##########
+=== R689 flen=923648 real_runs=33
+  @w3650 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w4628 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w5564 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w6364 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w7499 g=10 rep=0.80 kana=4 kanji=4 fb=0
+       bebo####bepu
+  @w10563 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w14274 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w14338 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w14789 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w14842 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w16051 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w16289 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w17059 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17140 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w18178 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #  bebo###
+  @w18234 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w18826 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w20089 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w21090 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w22069 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w28604 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w30989 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33362 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w33813 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w35436 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w35508 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w37067 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w37479 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w37692 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w39297 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w39866 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w40827 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w42746 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+=== R691 flen=970752 real_runs=26
+  @w3153 g=9 rep=0.67 kana=3 kanji=4 fb=0
+       bubobo####
+  @w4089 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w4917 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17044 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w17491 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w20057 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w23789 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w30243 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w32019 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w39137 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bepa###
+  @w47241 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w47338 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w48035 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w53640 g=7 rep=0.86 kana=2 kanji=3 fb=0
+     #  bebo##
+  @w53698 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w55038 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w57205 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w62687 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w66291 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w67562 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w69229 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w80633 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w80738 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w82505 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w97733 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w100383 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R693 flen=743424 real_runs=25
+  @w3287 g=7 rep=0.86 kana=4 kanji=1 fb=0
+       bebo#pabu
+  @w3348 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w4051 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w4164 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w5275 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w6932 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w8127 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w8380 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w9415 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w10917 g=8 rep=1.00 kana=2 kanji=4 fb=0
+     ~chi## ##ba
+  @w11116 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w11509 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w11564 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w12690 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w13937 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17948 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w18526 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w18668 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w20055 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w22861 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w40484 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w40906 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w44756 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w46469 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w52845 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bu#pa###
+=== R694 flen=51200 real_runs=11
+  @w3704 g=12 rep=0.67 kana=2 kanji=10 fb=0
+     be#be#########
+  @w11395 g=6 rep=1.00 kana=2 kanji=3 fb=0
+     ##be# ki
+  @w14002 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     ##ya#pa#
+  @w15480 g=12 rep=0.67 kana=2 kanji=10 fb=0
+     be#be#########
+  @w19526 g=10 rep=0.70 kana=4 kanji=4 fb=0
+     pu #be#be#be# 
+  @w20233 g=7 rep=0.57 kana=2 kanji=1 fb=0
+      # ge no 
+  @w20717 g=18 rep=0.61 kana=4 kanji=10 fb=0
+      bu   bu#be#be########
+  @w21271 g=21 rep=0.76 kana=3 kanji=14 fb=0
+     yo pi pu # #############
+  @w21395 g=10 rep=0.80 kana=3 kanji=5 fb=0
+     #]#[#bo#bo#pa
+  @w21441 g=15 rep=0.87 kana=6 kanji=8 fb=0
+     pe#pi#pi#pa#i#ya#[##
+  @w23032 g=8 rep=0.50 kana=2 kanji=1 fb=0
+        bo bo #
+=== R695 flen=479232 real_runs=47
+  @w888 g=6 rep=0.67 kana=3 kanji=2 fb=0
+     #_bu.#_
+  @w2798 g=6 rep=0.50 kana=4 kanji=0 fb=0
+     bu  bubobo
+  @w2844 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w4165 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w4575 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w5437 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w5666 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w6487 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w6580 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w7448 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w7500 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w8004 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w9255 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w10913 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w12458 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w13709 g=10 rep=0.80 kana=4 kanji=4 fb=0
+       bebo####bepu
+  @w15429 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w15546 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w17325 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w18106 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w19183 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w19244 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w20089 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w20268 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w21561 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w22106 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w22694 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w22746 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w23986 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w25555 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w25770 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w27627 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w30641 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w30724 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w32651 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w35250 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w37334 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w41106 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w43337 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w46721 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w46989 g=11 rep=0.64 kana=2 kanji=2 fb=0
+        be chi##  ~
+  @w47908 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w49597 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w52185 g=8 rep=0.88 kana=3 kanji=4 fb=0
+     #_bu##bu #
+  @w53308 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w54665 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w57829 g=6 rep=0.83 kana=2 kanji=3 fb=0
+     #~#ge#mu
+=== R697 flen=706560 real_runs=63
+  @w3548 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w4094 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w4140 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w4655 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w6197 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w7914 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w9044 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #  bebo###
+  @w10315 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w12508 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w13023 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w13140 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w13421 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w13505 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w14023 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w15607 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w16946 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w18078 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w19121 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21962 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w23103 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w23826 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w24405 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w25058 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w25637 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w26290 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w26869 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w26932 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w28075 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w28388 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w28998 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w29044 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w29679 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w30132 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w30767 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w30828 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w31135 g=9 rep=0.67 kana=3 kanji=4 fb=0
+       bubobo####
+  @w31194 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w32211 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w33010 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w33589 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w34242 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w34821 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w35474 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w36053 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w36140 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w38071 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w41244 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w42607 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w44395 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w48313 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w49827 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+  @w52739 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w57151 g=7 rep=1.00 kana=2 kanji=3 fb=0
+      fbebo###
+  @w57220 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w58042 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w58090 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w58571 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w58658 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w59439 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w60485 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w65209 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w66931 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w67899 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+=== R698 flen=124928 real_runs=15
+  @w7664 g=6 rep=0.67 kana=3 kanji=0 fb=0
+     hi mi i 
+  @w7792 g=6 rep=0.67 kana=3 kanji=0 fb=0
+     ya yu ri 
+  @w8083 g=14 rep=0.93 kana=2 kanji=8 fb=0
+     #~#####s# ya ya#
+  @w31520 g=10 rep=1.00 kana=2 kanji=8 fb=0
+     i######be##
+  @w31695 g=11 rep=0.64 kana=5 kanji=6 fb=0
+     iyo###pe#i#pe#
+  @w31707 g=8 rep=0.88 kana=3 kanji=5 fb=0
+     #e####pio
+  @w31716 g=7 rep=0.86 kana=3 kanji=2 fb=0
+     #bee e#~
+  @w31724 g=10 rep=0.80 kana=4 kanji=5 fb=0
+     ope~po#####bu
+  @w31735 g=9 rep=0.56 kana=2 kanji=6 fb=0
+      #####bu#bu
+  @w31824 g=10 rep=0.80 kana=4 kanji=6 fb=0
+     ###pu#pebepu##
+  @w31835 g=23 rep=0.57 kana=14 kanji=8 fb=0
+     pi#pi#pepi##papabu#pabobupi#bo#bu#pag
+  @w31859 g=8 rep=0.62 kana=3 kanji=3 fb=0
+     #~#~b~#~
+  @w31888 g=17 rep=0.59 kana=13 kanji=2 fb=0
+     oiyaepo~ya~yuoyu#i~e#~
+  @w31910 g=17 rep=0.71 kana=12 kanji=4 fb=0
+     #~#o#i#yu~peiyuyuyaepoo
+  @w31945 g=8 rep=0.50 kana=8 kanji=0 fb=0
+     yupeyuyuyuiyape
+=== R699 flen=1058816 real_runs=53
+  @w4155 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w4242 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w5080 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w6670 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w6730 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w7845 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w9363 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w10322 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w11707 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w12405 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w13761 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w15964 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w17690 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w19431 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w20066 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w20497 g=9 rep=0.78 kana=3 kanji=4 fb=0
+       bubobo####
+  @w20513 g=7 rep=0.86 kana=2 kanji=4 fb=0
+      #pabo###
+  @w20570 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w21051 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21116 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w21441 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21498 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w22799 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w23977 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w28260 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w28831 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w28970 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w29423 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w29490 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w30139 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w31222 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w31282 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w31694 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w34044 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w34116 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w35811 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w38316 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w39601 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w41663 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w42548 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w43771 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w47888 g=7 rep=0.86 kana=2 kanji=3 fb=0
+     #  bebo##
+  @w50292 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w50364 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w51884 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w53283 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w53519 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w53539 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w53868 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w55124 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w55141 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w55204 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w55755 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R701 flen=958464 real_runs=27
+  @w4090 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w4140 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w5520 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w7831 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w8481 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w9835 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w12641 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w29050 g=6 rep=1.00 kana=2 kanji=2 fb=0
+     # dbebo#
+  @w30797 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bepa##
+  @w32746 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w34436 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w36057 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w53799 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w55965 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w81649 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w82783 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w84087 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w101810 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     bu  be##
+  @w106419 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w109114 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w110938 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w111004 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w112093 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w117225 g=7 rep=1.00 kana=2 kanji=4 fb=0
+     # bebo###
+  @w122204 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w282736 g=8 rep=0.50 kana=2 kanji=0 fb=0
+      chimu]    
+  @w365592 g=8 rep=0.50 kana=2 kanji=1 fb=0
+      chimu#    
+=== R703 flen=571392 real_runs=19
+  @w1965 g=11 rep=0.64 kana=2 kanji=2 fb=0
+        be chi##  ~
+  @w2345 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w3845 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w4781 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bebo###
+  @w10870 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w12139 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w14244 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w15431 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17355 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w30570 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w31761 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33083 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w34481 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w34644 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w39003 g=7 rep=0.86 kana=2 kanji=4 fb=0
+      bu##be##
+  @w40385 g=7 rep=1.00 kana=3 kanji=2 fb=0
+      bo# pa#bu
+  @w41267 g=7 rep=0.86 kana=2 kanji=4 fb=0
+      be##bu##
+  @w42619 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w43683 g=7 rep=1.00 kana=2 kanji=4 fb=0
+     be###pi# 
+=== R704 flen=169984 real_runs=23
+  @w5033 g=12 rep=0.50 kana=8 kanji=4 fb=0
+     bu#be#pabuyobu#bu#bu
+  @w18232 g=8 rep=0.50 kana=8 kanji=0 fb=0
+     pibebobebubebube
+  @w18489 g=16 rep=0.69 kana=8 kanji=5 fb=0
+     bu#bu#bu betbumbu#buya##
+  @w18749 g=12 rep=0.67 kana=6 kanji=1 fb=0
+     bu# upeubombombupu
+  @w20296 g=6 rep=1.00 kana=4 kanji=2 fb=0
+     pipa#bu#be
+  @w47739 g=8 rep=0.62 kana=4 kanji=4 fb=0
+     ya#ya##be#be
+  @w48000 g=8 rep=0.50 kana=5 kanji=2 fb=0
+     bupabupabu# #
+  @w48256 g=8 rep=0.50 kana=3 kanji=1 fb=0
+      pa pa pa #
+  @w49024 g=6 rep=0.50 kana=2 kanji=1 fb=0
+      u u #
+  @w59608 g=8 rep=0.62 kana=2 kanji=1 fb=0
+     # pe pa   
+  @w59760 g=8 rep=0.62 kana=2 kanji=1 fb=0
+        pa po #
+  @w59867 g=7 rep=0.57 kana=2 kanji=1 fb=0
+      # bu e 
+  @w60382 g=6 rep=0.83 kana=3 kanji=3 fb=0
+     #puya#pe#
+  @w60518 g=14 rep=0.57 kana=2 kanji=5 fb=0
+      ## # # # pu pa 
+  @w60643 g=9 rep=0.89 kana=2 kanji=4 fb=0
+     ~##bu## po 
+  @w61160 g=6 rep=0.67 kana=2 kanji=1 fb=0
+     # _ a 
+  @w61794 g=6 rep=1.00 kana=2 kanji=3 fb=0
+     #pibu# #
+  @w61913 g=7 rep=0.57 kana=2 kanji=2 fb=0
+      # # bubu
+  @w61927 g=8 rep=0.50 kana=2 kanji=1 fb=0
+     #bu bu    
+  @w62043 g=7 rep=0.71 kana=4 kanji=1 fb=0
+      # bubuobu
+  @w62168 g=7 rep=0.86 kana=3 kanji=1 fb=0
+     # ~ ibe[
+  @w62296 g=8 rep=0.62 kana=6 kanji=2 fb=0
+     #bo#boeboyabo
+  @w79921 g=12 rep=0.50 kana=8 kanji=4 fb=0
+     bu#be#pabuyobu#bu#bu
+=== R705 flen=557056 real_runs=19
+  @w1965 g=11 rep=0.64 kana=2 kanji=2 fb=0
+        be chi##  ~
+  @w2345 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w3845 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w4781 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bebo###
+  @w10870 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w12139 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w14244 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w15431 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17355 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w30570 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w31761 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33083 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w34481 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w34644 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w39003 g=7 rep=0.86 kana=2 kanji=4 fb=0
+      bu##be##
+  @w40385 g=7 rep=1.00 kana=3 kanji=2 fb=0
+      bo# pa#bu
+  @w41267 g=7 rep=0.86 kana=2 kanji=4 fb=0
+      be##bu##
+  @w42619 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w43683 g=7 rep=1.00 kana=2 kanji=4 fb=0
+     be###pi# 
+=== R706 flen=169984 real_runs=29
+  @w5038 g=7 rep=0.57 kana=4 kanji=1 fb=0
+     bupobubu # 
+  @w18491 g=9 rep=0.56 kana=2 kanji=2 fb=0
+      # be # te 
+  @w20307 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #bo#  bu
+  @w29553 g=7 rep=0.71 kana=2 kanji=5 fb=0
+     ###bo#bo#
+  @w48256 g=8 rep=0.62 kana=2 kanji=6 fb=0
+     be#####bo#
+  @w48504 g=11 rep=0.64 kana=5 kanji=6 fb=0
+     be#be#bo#bo#be##
+  @w48760 g=13 rep=0.54 kana=7 kanji=6 fb=0
+     be#be#bo#bo#be#be#be
+  @w49024 g=8 rep=0.62 kana=4 kanji=4 fb=0
+     bo#bo#pi#pi#
+  @w59879 g=8 rep=0.50 kana=4 kanji=0 fb=0
+      bebe  bebo 
+  @w59997 g=7 rep=0.71 kana=2 kanji=3 fb=0
+     be# #be# 
+  @w60016 g=8 rep=0.62 kana=2 kanji=3 fb=0
+     be  #be# #
+  @w60120 g=8 rep=0.75 kana=3 kanji=5 fb=0
+     #be###bepu#
+  @w60248 g=8 rep=0.75 kana=2 kanji=6 fb=0
+     ####po#pa#
+  @w60381 g=27 rep=0.56 kana=12 kanji=15 fb=0
+     ya######pu#pa##be#be#be#be#be#be#bepabe
+  @w60643 g=13 rep=0.54 kana=5 kanji=8 fb=0
+     ######be#be#bepube
+  @w60776 g=8 rep=0.62 kana=5 kanji=3 fb=0
+     #be#be#bepube
+  @w60909 g=11 rep=0.55 kana=8 kanji=3 fb=0
+     be#be#be#beyobepobe
+  @w61039 g=9 rep=0.56 kana=6 kanji=3 fb=0
+     be#be#be#bepobe
+  @w61161 g=7 rep=0.57 kana=6 kanji=1 fb=0
+     be#beibeyube
+  @w61289 g=7 rep=0.57 kana=5 kanji=2 fb=0
+     be#be#beyabe
+  @w61423 g=9 rep=0.56 kana=7 kanji=2 fb=0
+     be#be#beyabepube
+  @w61551 g=9 rep=0.56 kana=7 kanji=2 fb=0
+     be#be#bepobepabe
+  @w61672 g=8 rep=0.62 kana=7 kanji=1 fb=0
+     #bepubepabebobe
+  @w61800 g=8 rep=0.50 kana=7 kanji=1 fb=0
+     #bepabebobebebe
+  @w62168 g=8 rep=0.88 kana=2 kanji=6 fb=0
+     #pa####yo#
+  @w65607 g=6 rep=0.67 kana=3 kanji=3 fb=0
+     #be#be#be
+  @w65740 g=7 rep=0.86 kana=2 kanji=5 fb=0
+     ####bo#pa
+  @w65872 g=8 rep=0.88 kana=3 kanji=5 fb=0
+     ##bo#be#pa#
+  @w79926 g=7 rep=0.57 kana=4 kanji=1 fb=0
+     bupobubu # 
+=== R707 flen=618496 real_runs=20
+  @w1965 g=11 rep=0.64 kana=2 kanji=2 fb=0
+        be chi##  ~
+  @w2345 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w3845 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w4781 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bebo###
+  @w10870 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w12139 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w14244 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w15431 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17355 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w30570 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w31761 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33083 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w34481 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w34644 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w39003 g=7 rep=0.86 kana=2 kanji=4 fb=0
+      bu##be##
+  @w40385 g=7 rep=1.00 kana=3 kanji=2 fb=0
+      bo# pa#bu
+  @w41267 g=7 rep=0.86 kana=2 kanji=4 fb=0
+      be##bu##
+  @w42619 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w43683 g=7 rep=1.00 kana=2 kanji=4 fb=0
+     be###pi# 
+  @w164980 g=8 rep=0.50 kana=2 kanji=0 fb=0
+      chi~~    
+=== R708 flen=172032 real_runs=32
+  @w5039 g=8 rep=0.62 kana=5 kanji=3 fb=0
+     ##bu#bububobu
+  @w17961 g=7 rep=1.00 kana=4 kanji=3 fb=0
+     ya#_bu#be#
+  @w18217 g=7 rep=0.86 kana=3 kanji=4 fb=0
+     ya#_##bu#
+  @w18509 g=16 rep=0.50 kana=9 kanji=4 fb=0
+      e bepabepabepepa#be#be##
+  @w18767 g=16 rep=0.56 kana=7 kanji=7 fb=0
+     bo # #be#papebe#be#bo##
+  @w19543 g=9 rep=0.78 kana=4 kanji=4 fb=0
+     bekopaebe####
+  @w19801 g=8 rep=0.62 kana=4 kanji=3 fb=0
+     pa~bebobe###
+  @w20048 g=8 rep=1.00 kana=4 kanji=1 fb=0
+     ~ pubebobu# 
+  @w20059 g=6 rep=0.67 kana=2 kanji=1 fb=0
+     bu#bu   
+  @w20315 g=6 rep=0.67 kana=3 kanji=1 fb=0
+     bu#bu bu 
+  @w25969 g=15 rep=0.60 kana=7 kanji=8 fb=0
+     a##be#be#pa#pa#be#be#
+  @w29811 g=13 rep=0.62 kana=3 kanji=10 fb=0
+     #####a#pe###pa#
+  @w45670 g=16 rep=0.56 kana=5 kanji=8 fb=0
+     bepe#be~be~#]######pe
+  @w45928 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     #bo#bo##~#
+  @w59744 g=8 rep=0.75 kana=3 kanji=2 fb=0
+     # # pu pabu
+  @w59768 g=8 rep=0.62 kana=2 kanji=2 fb=0
+      bo pu # #
+  @w60007 g=7 rep=0.57 kana=2 kanji=1 fb=0
+      # yu pe 
+  @w60128 g=8 rep=0.75 kana=3 kanji=2 fb=0
+     # # pobupu 
+  @w60256 g=8 rep=0.75 kana=3 kanji=5 fb=0
+     #bu##pe#pu#
+  @w60396 g=18 rep=0.56 kana=4 kanji=7 fb=0
+     pu#pa## # # # # pi pi 
+  @w60528 g=14 rep=0.64 kana=2 kanji=5 fb=0
+     # # # # # pu pi 
+  @w60781 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #### # pebu
+  @w60919 g=7 rep=0.71 kana=2 kanji=2 fb=0
+      # # pobu
+  @w61168 g=8 rep=0.75 kana=3 kanji=2 fb=0
+     # # yobupo 
+  @w61296 g=8 rep=0.75 kana=2 kanji=2 fb=0
+     # # ]bupo 
+  @w61922 g=7 rep=1.00 kana=3 kanji=4 fb=0
+     #bo#pa##i
+  @w62051 g=8 rep=1.00 kana=2 kanji=4 fb=0
+      #bo##i#[
+  @w62176 g=6 rep=0.83 kana=3 kanji=3 fb=0
+     #bo##ubo
+  @w65487 g=6 rep=0.83 kana=2 kanji=4 fb=0
+     #bu###be
+  @w65615 g=6 rep=0.83 kana=2 kanji=4 fb=0
+     ###be#be
+  @w65880 g=8 rep=0.62 kana=4 kanji=4 fb=0
+     pa#bo#bo#pa#
+  @w80439 g=8 rep=0.62 kana=5 kanji=3 fb=0
+     ##bu#bububobu
+=== R709 flen=1521664 real_runs=30
+  @w3762 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w4767 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w6583 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w8986 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w9855 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w12337 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w12396 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w15788 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w21767 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w32487 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w49631 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w53101 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w63415 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bepa###
+  @w64391 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w111751 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w116241 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w124235 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w128777 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w131778 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w133107 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w136871 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w167211 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w169779 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w169882 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w172255 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w178653 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w179260 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w180631 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w192019 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w199510 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+=== R711 flen=847872 real_runs=64
+  @w2794 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w4069 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w6436 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w7290 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w7338 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w8234 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w8276 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w9130 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w9172 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w10026 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w10068 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w10922 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w10964 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w11818 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w11860 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w13018 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w13068 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w14226 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w14276 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w15434 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w15484 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w16338 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w16380 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w17234 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w17276 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w18434 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w18490 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w19690 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w19740 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w20898 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w20948 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w21802 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w21844 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w22698 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w22746 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w23642 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w23684 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w24538 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w24580 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w25434 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w25476 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w26330 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w26372 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w27226 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w27268 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w27819 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w29273 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w43557 g=8 rep=1.00 kana=2 kanji=5 fb=0
+     #_bu### #
+  @w48845 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w49501 g=7 rep=0.86 kana=4 kanji=1 fb=0
+       bebo#pabu
+  @w50074 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w51141 g=8 rep=0.75 kana=2 kanji=4 fb=0
+       bebo####
+  @w51314 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w54305 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w55795 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     bepi####
+  @w58883 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bebo####
+  @w68359 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w68395 g=8 rep=0.88 kana=3 kanji=4 fb=0
+     #_bu##bu #
+  @w75945 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w81375 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w81538 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w84185 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w88587 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bebo####
+  @w107641 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R713 flen=1452032 real_runs=67
+  @w4740 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w5753 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w5954 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w6911 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w13549 g=10 rep=0.80 kana=4 kanji=4 fb=0
+       bebo####bepu
+  @w15453 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w23779 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w27564 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     bu  #pa#
+  @w27612 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w28543 g=6 rep=0.67 kana=2 kanji=1 fb=0
+       bebo# 
+  @w36439 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w38751 g=7 rep=0.71 kana=2 kanji=3 fb=0
+       bobo###
+  @w38939 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+  @w39868 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w41863 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w44191 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w44395 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+  @w45266 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w46753 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w46828 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w47377 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w47484 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w48457 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w48562 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w49351 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w49450 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w50155 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w52363 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w52689 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w54973 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w57869 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w57887 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w69493 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w70764 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w71339 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w71410 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w72199 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w72292 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w72867 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w72938 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w73643 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w76004 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w77747 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w80291 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w84617 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w84836 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w85609 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w86611 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w98236 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w98437 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w98986 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w100611 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w103591 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w106873 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #_bu##  #
+  @w107282 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w109017 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w110737 g=15 rep=0.53 kana=2 kanji=3 fb=0
+     #      be chi##  ~
+  @w111801 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w114897 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w117139 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w119741 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w122573 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w127157 g=6 rep=1.00 kana=2 kanji=2 fb=0
+      mbebo##
+  @w131565 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w134127 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w134579 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w135649 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+=== R714 flen=124928 real_runs=3
+  @w17519 g=9 rep=0.67 kana=5 kanji=3 fb=0
+      #pe#pe#peope
+  @w17639 g=8 rep=0.62 kana=4 kanji=2 fb=0
+      bu be#be#bu
+  @w54791 g=23 rep=0.52 kana=2 kanji=11 fb=0
+     ##bu# # # # # # bo  # # #
+=== R716 flen=100352 real_runs=3
+  @w15032 g=6 rep=0.67 kana=2 kanji=1 fb=0
+     # he fu 
+  @w23680 g=6 rep=0.83 kana=2 kanji=3 fb=0
+     #]#ubo#
+  @w23744 g=7 rep=0.86 kana=3 kanji=4 fb=0
+     #a##pu#po
+=== R717 flen=1519616 real_runs=65
+  @w6159 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w7700 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w8991 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w13459 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w13986 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w15299 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w22105 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w25247 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w26865 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w29826 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w31169 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w31711 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w39103 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w39946 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w41023 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w41195 g=7 rep=0.71 kana=2 kanji=3 fb=0
+     #bu ##bu 
+  @w42429 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w44522 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w44927 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w47055 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w52785 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w57433 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w80189 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w82543 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w97329 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w100364 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w100412 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w100951 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w101114 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w102775 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w112546 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w113191 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w113292 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w113735 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w113828 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w114335 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w114436 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w115047 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w115164 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w115703 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w115812 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w116255 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w116348 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w116959 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w117076 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w117583 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w117690 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w118747 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w126490 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w127039 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w128483 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w133972 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w135259 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w145563 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w148454 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w150710 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     #bepi###
+  @w150822 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w150874 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w152249 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w154295 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w156535 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w157378 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w158831 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w161461 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w165539 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R718 flen=133120 real_runs=6
+  @w39927 g=8 rep=1.00 kana=2 kanji=6 fb=0
+     ###pa#bu##
+  @w40059 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     po #####bu
+  @w40192 g=8 rep=0.75 kana=4 kanji=1 fb=0
+     bupa yu a #
+  @w40320 g=6 rep=0.67 kana=4 kanji=0 fb=0
+      pobei i
+  @w46488 g=8 rep=0.62 kana=4 kanji=0 fb=0
+     ta mi ro go 
+  @w46552 g=8 rep=0.62 kana=3 kanji=1 fb=0
+     # ta ni ga 
+=== R721 flen=2117632 real_runs=53
+  @w6583 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w9524 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w10991 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w13485 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w13507 g=7 rep=0.71 kana=2 kanji=3 fb=0
+     #bu ##bu 
+  @w13595 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w13698 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w15275 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21507 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21588 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w23167 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w24777 g=8 rep=0.88 kana=2 kanji=3 fb=0
+     ~chi#bu ## 
+  @w29852 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w30915 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33916 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w34257 g=6 rep=0.67 kana=2 kanji=1 fb=0
+       bebo# 
+  @w34264 g=9 rep=1.00 kana=3 kanji=5 fb=0
+     #be# #pa##pu
+  @w34330 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w35357 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w45019 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w45839 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w45924 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w46875 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w47082 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w48219 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w48404 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w48994 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w49709 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w50297 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w56525 g=10 rep=0.80 kana=4 kanji=4 fb=0
+       bebo####be_
+  @w56620 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w58481 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w60015 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w63841 g=8 rep=0.88 kana=3 kanji=4 fb=0
+     #_bu##bu #
+  @w64457 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w66929 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w69349 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w71987 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w79215 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #_bu##  #
+  @w81297 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w85657 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w88057 g=7 rep=1.00 kana=2 kanji=3 fb=0
+      bu bo###
+  @w93899 g=7 rep=0.71 kana=2 kanji=2 fb=0
+      bebo##  
+  @w98539 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w99994 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w101563 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w106642 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w108439 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w110531 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w111633 g=8 rep=0.88 kana=2 kanji=3 fb=0
+     ~chi#bu ## 
+  @w113851 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w120730 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w122995 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R723 flen=1564672 real_runs=61
+  @w6103 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w12857 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w39845 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w41548 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w43389 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w44863 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w52451 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w55291 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w76717 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w83291 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bu#pa###
+  @w87671 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w97101 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w101560 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w108181 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w109325 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w111213 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w111282 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w112490 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w113669 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w126489 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      #pi#pa##
+  @w139442 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w142665 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w148585 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w149306 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w150268 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w150316 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w151231 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w151469 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w151540 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w153020 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w154349 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w156136 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w156180 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w156914 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w156970 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w157891 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w158044 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w161787 g=8 rep=1.00 kana=2 kanji=4 fb=0
+      be####bu 
+  @w165242 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w166618 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w168431 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w172093 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w173508 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w174169 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w174891 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w176290 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w177883 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w181248 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w183368 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w184832 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w186553 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w186714 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w187635 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w187770 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w188263 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w188324 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w189058 g=8 rep=0.88 kana=3 kanji=3 fb=0
+     #  bebo##pi
+  @w189444 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w190860 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w191148 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w191651 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R724 flen=120832 real_runs=5
+  @w16873 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ]#poo#~#
+  @w17456 g=6 rep=0.50 kana=3 kanji=0 fb=0
+     pi pa pa 
+  @w17655 g=11 rep=0.64 kana=2 kanji=4 fb=0
+      # # bo be ##
+  @w29857 g=7 rep=0.86 kana=3 kanji=4 fb=0
+     bo#be#be##
+  @w38544 g=9 rep=0.89 kana=4 kanji=5 fb=0
+     #pu#ya#ya##po
+=== R725 flen=931840 real_runs=41
+  @w4525 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w9797 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w18347 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w20193 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w34511 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w34656 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  #bebo
+  @w35901 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w43260 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w44919 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w47299 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w53935 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w55799 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w64425 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w67568 g=12 rep=0.75 kana=4 kanji=5 fb=0
+     #  bebo####bebu 
+  @w68589 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w71140 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w72195 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w74553 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w74732 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w75537 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w77553 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w78555 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w81959 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w83131 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w83694 g=7 rep=0.86 kana=3 kanji=2 fb=0
+     # #o bu~
+  @w83834 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w84867 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w88037 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w90863 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bu#pa##
+  @w104559 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w107540 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w109063 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w112101 g=8 rep=1.00 kana=3 kanji=3 fb=0
+     ~chi#bu ##ba
+  @w112144 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ##pi~#be~
+  @w112196 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w112707 g=9 rep=0.89 kana=4 kanji=3 fb=0
+     ###beii ~u
+  @w112796 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w114811 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w125557 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w126955 g=6 rep=1.00 kana=2 kanji=2 fb=0
+      lbebo##
+  @w127098 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+=== R727 flen=970752 real_runs=26
+  @w3153 g=9 rep=0.67 kana=3 kanji=4 fb=0
+       bubobo####
+  @w4089 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w4917 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17044 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w17491 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w20057 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w23789 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w30243 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w32019 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w39137 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bepa###
+  @w47241 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w47338 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w48035 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w53640 g=7 rep=0.86 kana=2 kanji=3 fb=0
+     #  bebo##
+  @w53698 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w55038 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w57205 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w62687 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w66291 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w67562 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w69229 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w80633 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w80738 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w82505 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w97733 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w100383 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R729 flen=2658304 real_runs=76
+  @w5203 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+  @w6490 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w7771 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w19085 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w19188 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w21679 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w24145 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w30103 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w32477 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w38225 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w44589 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #_bu##  #
+  @w53271 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w56456 g=8 rep=0.88 kana=3 kanji=3 fb=0
+     #  bebo##pi
+  @w56538 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w58781 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w61217 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w61917 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w66225 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w72039 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     ###bepi#
+  @w72081 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w72188 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w74289 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w76057 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w89045 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w90403 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w99309 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w100796 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w102403 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w104515 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bebo####
+  @w114211 g=8 rep=1.00 kana=2 kanji=5 fb=0
+     #_bu### #
+  @w115027 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w117111 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w127423 g=6 rep=1.00 kana=2 kanji=2 fb=0
+      abebo##
+  @w135357 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w136183 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w138003 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w139443 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w150961 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w152605 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w154347 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bebo####
+  @w157070 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bebo###
+  @w159759 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bebo###
+  @w162075 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w165441 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w175210 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w175266 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w176505 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w177948 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w178002 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w179213 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w182348 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w183337 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w186191 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #_ ##bu #
+  @w192739 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w192932 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w195341 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w215259 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w224128 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w226439 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w227213 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w231879 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w234665 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w237066 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w244717 g=9 rep=0.67 kana=2 kanji=3 fb=0
+       bebo###  
+  @w248265 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w248410 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w249395 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w250261 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w252715 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w252753 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w256349 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     bebo####
+  @w256783 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     bebo####
+  @w259265 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w261393 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w264898 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w266525 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+=== R730 flen=149504 real_runs=12
+  @w10465 g=10 rep=0.50 kana=5 kanji=5 fb=0
+     #bupe##bu#bubu#
+  @w10485 g=10 rep=0.60 kana=4 kanji=6 fb=0
+     bu#bu###bu##pa
+  @w10547 g=9 rep=0.56 kana=3 kanji=1 fb=0
+      bu # se a 
+  @w10623 g=11 rep=0.64 kana=3 kanji=1 fb=0
+       ]bu~bu~bu# ~
+  @w10687 g=9 rep=0.67 kana=4 kanji=4 fb=0
+      bu#bu#bu#be#
+  @w29232 g=21 rep=0.67 kana=6 kanji=15 fb=0
+     #bo#pa##bu####bo#bu#be#####
+  @w29256 g=8 rep=0.75 kana=2 kanji=6 fb=0
+     be#pa#####
+  @w29384 g=8 rep=0.88 kana=4 kanji=4 fb=0
+     pe#pu#po#pu#
+  @w42609 g=7 rep=0.86 kana=5 kanji=2 fb=0
+     bo#bepibu#bu
+  @w70111 g=14 rep=1.00 kana=2 kanji=12 fb=0
+     ##e#u#########
+  @w70628 g=12 rep=0.83 kana=5 kanji=4 fb=0
+      se ta chibu#be###
+  @w73696 g=16 rep=0.62 kana=7 kanji=3 fb=0
+      su su se ta chi shibe###
+=== R731 flen=1611776 real_runs=65
+  @w6035 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w6300 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w7591 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w12059 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w12586 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w13899 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w20705 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w23847 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w25465 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w28426 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w29769 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w30311 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w37703 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w38546 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w39623 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w39795 g=7 rep=0.71 kana=2 kanji=3 fb=0
+     #bu ##bu 
+  @w41029 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w43122 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w43527 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w45655 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w51385 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w56033 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w78789 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w81143 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w95929 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w98964 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w99012 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w99551 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w99714 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w101375 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w111146 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w111791 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w111892 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w112335 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w112428 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w112935 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w113036 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w113647 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w113764 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w114303 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w114412 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w114855 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w114948 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w115559 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w115676 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w116183 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w116290 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w117347 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w125090 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w125639 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w127083 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w132572 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w133859 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w144163 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w147054 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w149310 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     #bepi###
+  @w149422 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w149474 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w150849 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w152895 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w155135 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w155978 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w157431 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w160061 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w164139 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R732 flen=133120 real_runs=16
+  @w9690 g=6 rep=0.67 kana=2 kanji=1 fb=0
+     sa # ki 
+  @w46488 g=8 rep=0.50 kana=4 kanji=0 fb=0
+     te o o chi 
+  @w46553 g=7 rep=0.57 kana=3 kanji=0 fb=0
+      te o ku 
+  @w49112 g=8 rep=0.62 kana=5 kanji=3 fb=0
+     #be#be#be_be
+  @w49496 g=8 rep=0.62 kana=7 kanji=1 fb=0
+     #be_beyobepube
+  @w49624 g=8 rep=0.62 kana=6 kanji=2 fb=0
+     #be#beyobe_be
+  @w50137 g=7 rep=0.71 kana=5 kanji=2 fb=0
+     bo#be#be_be
+  @w50648 g=8 rep=0.62 kana=7 kanji=1 fb=0
+     #be_beyobebobe
+  @w50781 g=12 rep=0.67 kana=6 kanji=6 fb=0
+     be#be#bo#be#be#be#
+  @w50913 g=7 rep=1.00 kana=4 kanji=3 fb=0
+     pu#bo#yo#be
+  @w51032 g=8 rep=0.62 kana=6 kanji=2 fb=0
+     _be_#yo#pube
+  @w51160 g=8 rep=0.62 kana=6 kanji=2 fb=0
+     #be#be_bepube
+  @w51299 g=6 rep=0.67 kana=3 kanji=3 fb=0
+     be#be#bo#
+  @w51544 g=8 rep=0.50 kana=7 kanji=1 fb=0
+     #be_beyobeyobe
+  @w51672 g=8 rep=0.62 kana=6 kanji=2 fb=0
+     #be#be_bepube
+  @w51683 g=6 rep=0.67 kana=3 kanji=3 fb=0
+     be#be#be#
+=== R733 flen=1617920 real_runs=65
+  @w6133 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w9020 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w10311 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w14779 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w15306 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w16619 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w23425 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w26567 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w28185 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w31146 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w32489 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33031 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w40423 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w41266 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w42343 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w42515 g=7 rep=0.71 kana=2 kanji=3 fb=0
+     #bu ##bu 
+  @w43749 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w45842 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w46247 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w48375 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w54105 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w58753 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w81509 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w83863 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w98649 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w101684 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w101732 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w102271 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w102434 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w104095 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w113866 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w114511 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w114612 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w115055 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w115148 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w115655 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w115756 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w116367 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w116484 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w117023 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w117132 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w117575 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w117668 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w118279 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w118396 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w118903 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w119010 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w120067 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w127810 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w128359 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w129803 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w135292 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w136579 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w146883 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w149774 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w152030 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     #bepi###
+  @w152142 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w152194 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w153569 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w155615 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w157855 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w158698 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w160151 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w162781 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w166859 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R734 flen=157696 real_runs=5
+  @w9561 g=7 rep=0.57 kana=3 kanji=0 fb=0
+      su ya gu 
+  @w9689 g=7 rep=0.57 kana=3 kanji=0 fb=0
+      te gu a 
+  @w19623 g=17 rep=1.00 kana=3 kanji=11 fb=0
+     h##a#_#pu##po~#####
+  @w58776 g=8 rep=0.50 kana=4 kanji=0 fb=0
+     tsu tsu shi re 
+  @w58841 g=7 rep=0.57 kana=3 kanji=0 fb=0
+      nu ta so 
+=== R735 flen=1523712 real_runs=43
+  @w3434 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w4001 g=9 rep=0.67 kana=3 kanji=4 fb=0
+       bubobo####
+  @w5718 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w6482 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w8163 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w11327 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w16855 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w19085 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w19146 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w20256 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w20362 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w22679 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w22861 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #_bu##  #
+  @w41793 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w49541 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w51083 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w52935 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w58037 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w58138 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w60265 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w67926 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w68010 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w70121 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w78695 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w81318 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w81396 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w82895 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w88790 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bebo###
+  @w90203 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w91593 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w97140 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w98103 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w101025 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bu#pa###
+  @w103265 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w115194 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w116584 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w116642 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w117855 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w121036 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w122931 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w124012 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w125275 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w133493 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bepa##
+=== R737 flen=1314816 real_runs=43
+  @w568 g=6 rep=0.67 kana=4 kanji=1 fb=0
+      _#_bu_
+  @w3508 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w5387 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w6721 g=7 rep=1.00 kana=2 kanji=3 fb=0
+      dbe###pe
+  @w7465 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w19315 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w20897 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w29545 g=8 rep=0.88 kana=3 kanji=4 fb=0
+     #_bu##bu #
+  @w32496 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w34509 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w35786 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w37651 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w46531 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w51325 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w65147 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w83695 g=6 rep=0.67 kana=2 kanji=1 fb=0
+       bepi# 
+  @w89081 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w91792 g=6 rep=1.00 kana=2 kanji=3 fb=0
+     # bu#pa#
+  @w91844 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w97210 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w98245 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w99402 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w100319 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w101787 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w107846 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w108473 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w109565 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w109729 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w111187 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w113802 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w114838 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w117831 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w120083 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+  @w122381 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w122868 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w124711 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w126153 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #_bu##  #
+  @w129028 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w129993 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w130260 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w130999 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w254711 g=9 rep=0.56 kana=2 kanji=1 fb=0
+     o chimu#    
+  @w517193 g=9 rep=0.56 kana=2 kanji=1 fb=0
+     o chimu#    
+=== R738 flen=122880 real_runs=13
+  @w6185 g=6 rep=0.67 kana=3 kanji=0 fb=0
+      yo zo wo
+  @w26976 g=8 rep=0.62 kana=2 kanji=2 fb=0
+     # # be bu 
+  @w40863 g=10 rep=0.90 kana=4 kanji=6 fb=0
+     be#i####~#pa
+  @w40891 g=18 rep=0.72 kana=5 kanji=13 fb=0
+     ~####yu#po###pabe#####
+  @w41035 g=6 rep=0.67 kana=3 kanji=3 fb=0
+     po#pa#pa#
+  @w44589 g=20 rep=0.70 kana=12 kanji=8 fb=0
+     hi#nohinemineho#hi#mi#mi#he#mi##
+  @w54687 g=19 rep=0.58 kana=12 kanji=7 fb=0
+     bebebebebobepibepe###be#be#be##
+  @w54716 g=7 rep=0.57 kana=4 kanji=3 fb=0
+     be#be#be#be
+  @w54962 g=6 rep=0.67 kana=3 kanji=3 fb=0
+     be#be#be#
+  @w54969 g=7 rep=0.57 kana=4 kanji=3 fb=0
+     be#be#be#be
+  @w55001 g=7 rep=0.57 kana=5 kanji=2 fb=0
+     be#be#beube
+  @w57913 g=6 rep=1.00 kana=3 kanji=3 fb=0
+     piya#bo##
+  @w58169 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     ##be#ya#
+=== R739 flen=2105344 real_runs=66
+  @w8307 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w10412 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w11103 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17691 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21731 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w26548 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w28291 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w41133 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w41314 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w42747 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w51449 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w63281 g=10 rep=0.80 kana=2 kanji=6 fb=0
+       bebo######
+  @w64561 g=10 rep=0.80 kana=2 kanji=6 fb=0
+       bebo######
+  @w64698 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w66365 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w83099 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #_bu##  #
+  @w85501 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w88642 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w90505 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w104475 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w106957 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w106977 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w109189 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w118868 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w120625 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w122548 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w123805 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w127321 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w132121 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w138061 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w141709 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w141988 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w143401 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w161567 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w162713 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w163993 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w164887 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w180527 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w181275 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w181778 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w182561 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w186217 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w190731 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w193115 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w195395 g=7 rep=0.86 kana=4 kanji=1 fb=0
+       bebo#pabu
+  @w195491 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w195556 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w196695 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w196932 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w197937 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w198140 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w199279 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w199516 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w200521 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w200708 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w201720 g=6 rep=0.67 kana=3 kanji=3 fb=0
+     #bebebe##
+  @w201916 g=6 rep=0.50 kana=4 kanji=0 fb=0
+     bu  bebebe
+  @w201964 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w203146 g=6 rep=0.50 kana=4 kanji=0 fb=0
+     bu  bebebe
+  @w204982 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w205061 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w205132 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w206143 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w206356 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w207548 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w208553 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R745 flen=1275904 real_runs=34
+  @w5305 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w8577 g=10 rep=0.70 kana=2 kanji=3 fb=0
+     ~chi#bu ##   
+  @w9162 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w10665 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w11647 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w11983 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      #pobo###
+  @w12066 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w13128 g=8 rep=0.88 kana=4 kanji=2 fb=0
+     #  bebo#pabu
+  @w13186 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w15247 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w23209 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w23338 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w24519 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w41549 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w52697 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w62397 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w62514 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w64163 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w66521 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w69895 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w72738 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w76207 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w90667 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w112797 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w114213 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w121923 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w126709 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w130009 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w138923 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w140587 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w141402 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w145307 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w146507 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w358440 g=8 rep=0.50 kana=2 kanji=1 fb=0
+      chia#    
+=== R749 flen=1368064 real_runs=41
+  @w3091 g=13 rep=0.54 kana=2 kanji=2 fb=0
+          be chi##  ~
+  @w9149 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w13797 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w24323 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w26185 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w27395 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w33364 g=11 rep=0.82 kana=3 kanji=6 fb=0
+     #  bebo#be####
+  @w33645 g=8 rep=0.88 kana=2 kanji=4 fb=0
+     #_ ##bu #
+  @w38226 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w39693 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w49963 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bu#pa###
+  @w66453 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w68149 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w70652 g=6 rep=1.00 kana=2 kanji=2 fb=0
+     bu  be##
+  @w70706 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w71861 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w72034 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w73627 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w78743 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w80353 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w88581 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w89897 g=9 rep=0.78 kana=3 kanji=4 fb=0
+       bubobo####
+  @w90202 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w90276 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w92273 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w95663 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bebo###
+  @w102572 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w103305 g=9 rep=0.78 kana=3 kanji=4 fb=0
+       bubobo####
+  @w103428 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w104161 g=9 rep=0.78 kana=3 kanji=4 fb=0
+       bubobo####
+  @w107211 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w116900 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w118097 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w118769 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w118916 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w120113 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w120785 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w120932 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w432068 g=6 rep=0.67 kana=2 kanji=2 fb=0
+     #chi  #chi
+  @w463530 g=6 rep=0.50 kana=2 kanji=1 fb=0
+     #  chi chi
+  @w475010 g=6 rep=0.67 kana=2 kanji=2 fb=0
+      chi# #chi
+=== R751 flen=1292288 real_runs=32
+  @w3228 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w4333 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w5476 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w7403 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w11879 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w20793 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w24089 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w26803 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bepa###
+  @w29177 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bepa###
+  @w32401 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w36699 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w57727 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w62541 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w66951 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w80097 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w80513 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w82161 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w82300 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w82940 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w84043 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w89427 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w97129 g=11 rep=0.73 kana=3 kanji=5 fb=0
+       bebo### ##be
+  @w97932 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w100413 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w102902 g=7 rep=1.00 kana=2 kanji=3 fb=0
+       o#pa##
+  @w103236 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w105250 g=8 rep=0.88 kana=3 kanji=3 fb=0
+     #  bebo##pi
+  @w106721 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w109031 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w110255 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w112149 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w115741 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+=== R752 flen=96256 real_runs=7
+  @w11271 g=8 rep=0.62 kana=4 kanji=4 fb=0
+     #be#bo#be#bo
+  @w11399 g=17 rep=0.53 kana=12 kanji=5 fb=0
+     #bobobobebobopo#pupupu#pa#pa#
+  @w12423 g=10 rep=0.80 kana=5 kanji=3 fb=0
+     ~po#ya#ya#i~ya
+  @w13831 g=7 rep=1.00 kana=4 kanji=1 fb=0
+     #hibushia~ 
+  @w13840 g=11 rep=0.91 kana=3 kanji=4 fb=0
+      #~ya#kimu##  
+  @w46105 g=7 rep=0.57 kana=2 kanji=1 fb=0
+      o yo # 
+  @w46232 g=6 rep=0.67 kana=2 kanji=1 fb=0
+     yo be # 
+=== R753 flen=1468416 real_runs=56
+  @w4842 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w4884 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w5703 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w6588 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w7501 g=10 rep=0.80 kana=4 kanji=4 fb=0
+       bebo####bepu
+  @w11887 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w17167 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      bebo###
+  @w19236 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w19316 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w20917 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w24760 g=7 rep=0.86 kana=2 kanji=3 fb=0
+     #  bebo##
+  @w24818 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w26056 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w26114 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w27503 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w27906 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w29189 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w35342 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #pi bo# 
+  @w36730 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w38615 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w45786 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w46975 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w53473 g=9 rep=1.00 kana=2 kanji=5 fb=0
+      bu#pa#### 
+  @w58041 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w64291 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w65530 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w67263 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w68865 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w74985 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w78311 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w79842 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w81079 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w81378 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w82887 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w87683 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w87903 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w90081 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w97108 g=6 rep=0.83 kana=2 kanji=2 fb=0
+     #  bebo#
+  @w97162 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w98365 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w99068 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w101215 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w103191 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w103444 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w105907 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w110395 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w112396 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w114686 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w116519 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w116748 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w118671 g=9 rep=0.78 kana=2 kanji=4 fb=0
+       bebo#### 
+  @w123348 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w123641 g=8 rep=0.75 kana=4 kanji=2 fb=0
+       bubobo##pi
+  @w123692 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w123904 g=6 rep=0.67 kana=3 kanji=0 fb=0
+     bu  bubo 
+  @w123948 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+=== R754 flen=129024 real_runs=62
+  @w36376 g=8 rep=0.50 kana=3 kanji=0 fb=0
+        o bi du
+  @w36440 g=8 rep=0.50 kana=3 kanji=0 fb=0
+        ge ba za
+  @w36632 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      bi zo fu ne
+  @w36696 g=8 rep=0.50 kana=4 kanji=0 fb=0
+      ba zo ne ne
+  @w36888 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      wa yo ka so
+  @w36952 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      mu mo shi chi
+  @w37144 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      mo ka u so
+  @w37208 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      ne pu i u
+  @w38664 g=8 rep=0.62 kana=3 kanji=0 fb=0
+      he do yu ,
+  @w38728 g=7 rep=0.57 kana=3 kanji=0 fb=0
+      zo ze bi 
+  @w39038 g=12 rep=0.67 kana=7 kanji=1 fb=0
+     be# ooderahe tsu  
+  @w39104 g=6 rep=1.00 kana=5 kanji=0 fb=0
+      zaoshizona
+  @w39224 g=9 rep=0.56 kana=6 kanji=2 fb=0
+     be#be#be_be_ 
+  @w39288 g=9 rep=0.67 kana=6 kanji=2 fb=0
+     be#be_beibe# 
+  @w39416 g=6 rep=0.50 kana=5 kanji=1 fb=0
+     #pibebebebe
+  @w39479 g=10 rep=1.00 kana=2 kanji=7 fb=0
+     #bo#_##### 
+  @w39721 g=7 rep=0.57 kana=4 kanji=3 fb=0
+     #be#be#bebe
+  @w39729 g=7 rep=0.71 kana=2 kanji=5 fb=0
+     ####bebe#
+  @w39786 g=13 rep=0.62 kana=6 kanji=7 fb=0
+     be#be#be##i##be#be
+  @w39840 g=9 rep=0.89 kana=3 kanji=6 fb=0
+     ##po###pi#pi
+  @w39864 g=6 rep=0.83 kana=2 kanji=4 fb=0
+     ###be#be
+  @w39904 g=6 rep=0.83 kana=2 kanji=4 fb=0
+     ##pipo##
+  @w39911 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     #pi###be
+  @w39968 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     yu#bo###
+  @w40010 g=6 rep=0.67 kana=3 kanji=0 fb=0
+      di n -
+  @w40044 g=7 rep=0.57 kana=5 kanji=2 fb=0
+     bo#bebebe#be
+  @w40114 g=9 rep=0.56 kana=6 kanji=3 fb=0
+     _be_be#be##be
+  @w40216 g=8 rep=0.50 kana=4 kanji=0 fb=0
+      re re wa gi
+  @w53520 g=6 rep=0.83 kana=4 kanji=1 fb=0
+     me#tobu~bu
+  @w53530 g=7 rep=0.71 kana=3 kanji=1 fb=0
+     zbu~bu#bu~
+  @w54080 g=9 rep=0.56 kana=5 kanji=2 fb=0
+     # bebububu #be
+  @w54094 g=7 rep=0.57 kana=3 kanji=0 fb=0
+     be  bu bu 
+  @w54139 g=14 rep=0.50 kana=5 kanji=7 fb=0
+     #####bebebu#be# be 
+  @w54211 g=6 rep=0.83 kana=3 kanji=3 fb=0
+     #po##pobe
+  @w58552 g=8 rep=0.50 kana=3 kanji=0 fb=0
+        o bi du
+  @w58616 g=8 rep=0.50 kana=3 kanji=0 fb=0
+        ge ba za
+  @w58808 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      bi zo fu ne
+  @w58872 g=8 rep=0.50 kana=4 kanji=0 fb=0
+      ba zo ne ne
+  @w59064 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      wa yo ka so
+  @w59128 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      mu mo shi chi
+  @w59320 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      mo ka u so
+  @w59384 g=8 rep=0.62 kana=4 kanji=0 fb=0
+      ne pu i u
+  @w60840 g=8 rep=0.62 kana=3 kanji=0 fb=0
+      he do yu ,
+  @w60904 g=7 rep=0.57 kana=3 kanji=0 fb=0
+      zo ze bi 
+  @w61214 g=12 rep=0.67 kana=7 kanji=1 fb=0
+     be# ooderahe tsu  
+  @w61280 g=6 rep=1.00 kana=5 kanji=0 fb=0
+      zaoshizona
+  @w61400 g=9 rep=0.56 kana=6 kanji=2 fb=0
+     be#be#be_be_ 
+  @w61464 g=9 rep=0.67 kana=6 kanji=2 fb=0
+     be#be_beibe# 
+  @w61592 g=6 rep=0.50 kana=5 kanji=1 fb=0
+     #pibebebebe
+  @w61655 g=10 rep=1.00 kana=2 kanji=7 fb=0
+     #bo#_##### 
+  @w61897 g=7 rep=0.57 kana=4 kanji=3 fb=0
+     #be#be#bebe
+  @w61905 g=7 rep=0.71 kana=2 kanji=5 fb=0
+     ####bebe#
+  @w61962 g=13 rep=0.62 kana=6 kanji=7 fb=0
+     be#be#be##i##be#be
+  @w62016 g=9 rep=0.89 kana=3 kanji=6 fb=0
+     ##po###pi#pi
+  @w62040 g=6 rep=0.83 kana=2 kanji=4 fb=0
+     ###be#be
+  @w62080 g=6 rep=0.83 kana=2 kanji=4 fb=0
+     ##pipo##
+  @w62087 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     #pi###be
+  @w62144 g=6 rep=1.00 kana=2 kanji=4 fb=0
+     yu#bo###
+  @w62186 g=6 rep=0.67 kana=3 kanji=0 fb=0
+      di n -
+  @w62220 g=7 rep=0.57 kana=5 kanji=2 fb=0
+     bo#bebebe#be
+  @w62290 g=9 rep=0.56 kana=6 kanji=3 fb=0
+     _be_be#be##be
+  @w62392 g=8 rep=0.50 kana=4 kanji=0 fb=0
+      re re wa gi
+=== R755 flen=1896448 real_runs=42
+  @w5763 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w10135 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w13655 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w15286 g=7 rep=0.86 kana=2 kanji=3 fb=0
+     #  bebo##
+  @w15730 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w16979 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w17433 g=7 rep=1.00 kana=3 kanji=3 fb=0
+      buyabo###
+  @w17524 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w18725 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21655 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w22756 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w26303 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w27340 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w29203 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w37143 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w41283 g=8 rep=1.00 kana=2 kanji=5 fb=0
+     #_bu### #
+  @w41538 g=7 rep=0.86 kana=2 kanji=3 fb=0
+     #  bebo##
+  @w41626 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w43181 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w60783 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bepa###
+  @w60882 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w62751 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w63015 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w67107 g=13 rep=0.62 kana=2 kanji=3 fb=0
+     #    be chi##  ~
+  @w68559 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w72135 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w79799 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w81759 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w83361 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w87669 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w89347 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w91673 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w96759 g=9 rep=0.67 kana=3 kanji=4 fb=0
+       bubobo####
+  @w99629 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w99732 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w101921 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w111449 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w113870 g=6 rep=0.83 kana=3 kanji=1 fb=0
+     bu  bebo#
+  @w113988 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w114893 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w122812 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w124405 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+=== R756 flen=124928 real_runs=9
+  @w4992 g=6 rep=0.83 kana=2 kanji=4 fb=0
+     #chi###chi
+  @w6689 g=16 rep=0.69 kana=5 kanji=11 fb=0
+     #pa#pa#pa#pa#po######
+  @w8749 g=20 rep=0.60 kana=7 kanji=9 fb=0
+     ~~~~#o#~o#po~~#~#####
+  @w16848 g=9 rep=0.56 kana=2 kanji=2 fb=0
+     #  be be #p
+  @w17776 g=8 rep=0.50 kana=3 kanji=1 fb=0
+     # bo bu bu 
+  @w25104 g=7 rep=1.00 kana=3 kanji=4 fb=0
+     #ae_###
+  @w29370 g=10 rep=0.70 kana=5 kanji=0 fb=0
+     e.bi.waz.e.ne
+  @w29391 g=20 rep=0.60 kana=20 kanji=0 fb=0
+     kochiyochiyotoyohomomonorutowochirukoesee
+  @w29418 g=22 rep=0.59 kana=3 kanji=10 fb=0
+     zazwanmut#z#.xt#######t#n
+=== R759 flen=1122304 real_runs=65
+  @w920 g=6 rep=0.67 kana=4 kanji=0 fb=0
+     bu_ _bu.
+  @w5343 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w8025 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w8148 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w9193 g=10 rep=0.80 kana=2 kanji=5 fb=0
+       bebo### ##
+  @w10252 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w11375 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w11788 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w12543 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w13476 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w18317 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w18404 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w19132 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w20329 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w21244 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w21913 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w22348 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w23447 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w26801 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w27276 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w28491 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w29943 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w30501 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w32731 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w35653 g=9 rep=0.89 kana=2 kanji=7 fb=0
+     ##bu###bu##
+  @w37511 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bebo####
+  @w46397 g=6 rep=0.83 kana=2 kanji=2 fb=0
+       bebo##
+  @w47281 g=8 rep=0.88 kana=2 kanji=5 fb=0
+     ##bu##bu #
+  @w57447 g=7 rep=1.00 kana=2 kanji=4 fb=0
+      bu#pa###
+  @w59801 g=9 rep=0.89 kana=2 kanji=6 fb=0
+     ##bu##bu ##
+  @w67303 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w68733 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w72322 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w73723 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w78985 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w82075 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w82146 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w83309 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w89083 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w89148 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w90421 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w95311 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w102229 g=7 rep=0.86 kana=2 kanji=3 fb=0
+       bebo###
+  @w102640 g=9 rep=0.89 kana=2 kanji=5 fb=0
+     #  bebo####
+  @w102698 g=14 rep=0.50 kana=2 kanji=2 fb=0
+           be chi##  ~
+  @w103847 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w108127 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w114951 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w115428 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w116471 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w117789 g=7 rep=1.00 kana=2 kanji=3 fb=0
+     ~chi#bu ##
+  @w128187 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w129548 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w131060 g=6 rep=0.50 kana=2 kanji=0 fb=0
+        chi _
+  @w131456 g=6 rep=1.00 kana=3 kanji=2 fb=0
+     pa##bebu 
+  @w131480 g=6 rep=1.00 kana=2 kanji=3 fb=0
+     ##pa#bo 
+  @w132721 g=6 rep=1.00 kana=2 kanji=3 fb=0
+      pa#pi##
+  @w132956 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w133509 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w133596 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w134201 g=8 rep=0.62 kana=3 kanji=3 fb=0
+       bubobo###
+  @w134308 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w135545 g=8 rep=0.88 kana=2 kanji=4 fb=0
+       bebo####
+  @w136756 g=12 rep=0.58 kana=2 kanji=2 fb=0
+         be chi##  ~
+  @w137781 g=7 rep=0.86 kana=4 kanji=1 fb=0
+       bebo#pabu
+=== R760 flen=143360 real_runs=28
+  @w22145 g=7 rep=0.71 kana=7 kanji=0 fb=0
+     ipiyupitapiha
+  @w22273 g=7 rep=0.86 kana=7 kanji=0 fb=0
+     seyuupimupigi
+  @w22410 g=7 rep=0.86 kana=6 kanji=1 fb=0
+     pikopimu#zewo
+  @w22538 g=7 rep=0.86 kana=7 kanji=0 fb=0
+     pipibutareyure
+  @w22657 g=7 rep=0.86 kana=6 kanji=0 fb=0
+     pabukidisedie
+  @w22785 g=6 rep=0.67 kana=4 kanji=0 fb=0
+      diydisedi
+  @w22921 g=8 rep=0.75 kana=6 kanji=0 fb=0
+      zehazeuze~ko
+  @w23049 g=8 rep=0.88 kana=6 kanji=0 fb=0
+      zepudimuzeeyo
+  @w23169 g=7 rep=0.57 kana=3 kanji=0 fb=0
+      ze~ze~ze 
+  @w23297 g=6 rep=0.67 kana=3 kanji=0 fb=0
+      ge ze ze
+  @w23813 g=9 rep=0.56 kana=3 kanji=1 fb=0
+      ha yu o # 
+  @w24960 g=6 rep=0.67 kana=2 kanji=1 fb=0
+     yo go # 
+  @w25472 g=6 rep=0.50 kana=2 kanji=0 fb=0
+     gi gi ~ 
+  @w25600 g=6 rep=0.67 kana=3 kanji=0 fb=0
+     u o - 
+  @w25733 g=9 rep=0.56 kana=2 kanji=2 fb=0
+      # yo ji # 
+  @w38977 g=12 rep=0.50 kana=8 kanji=4 fb=0
+     bobebebe#be#yo#be#be
+  @w39113 g=8 rep=0.62 kana=5 kanji=3 fb=0
+     bobebebe#be##
+  @w39241 g=8 rep=0.62 kana=5 kanji=3 fb=0
+     bobebebe#be##
+  @w39361 g=12 rep=0.50 kana=9 kanji=3 fb=0
+     bobebobe#be#yo#bebobe
+  @w39489 g=12 rep=0.50 kana=6 kanji=6 fb=0
+     #be#be#be#yo#be#be
+  @w39624 g=8 rep=0.62 kana=5 kanji=3 fb=0
+     #bobebobe#be#
+  @w39752 g=8 rep=0.62 kana=5 kanji=3 fb=0
+     #bobebobe#be#
+  @w40384 g=13 rep=0.62 kana=6 kanji=7 fb=0
+     ##be#bo#bo#pa#be#be
+  @w40512 g=13 rep=0.62 kana=6 kanji=7 fb=0
+     ##be#be#bo#yo#be#be
+  @w40649 g=7 rep=0.57 kana=3 kanji=4 fb=0
+     #bo#bo#bo#
+  @w40776 g=7 rep=0.57 kana=3 kanji=4 fb=0
+     ##bo#bo#bo
+  @w40897 g=12 rep=0.58 kana=3 kanji=9 fb=0
+     #bo#bo#bo######
+  @w42312 g=8 rep=0.75 kana=2 kanji=6 fb=0
+     ##u#u###

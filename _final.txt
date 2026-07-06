@@ -1,0 +1,11 @@
+JSON OK: data/translate_chunks/chunk_03_translated.json
+JSON OK: data/translate_chunks/chunk_r2654_library_fix.json
+JSON OK: data/msg_glyph_map.json
+JSON OK: data/name_labels.json
+PY OK: build/inject_r46_r47.py
+Fix2 key12 dict 'Open box?': True
+Fix2 key13 dict 'Open': True
+Fix2 key14 'Retry': True
+Fix2 key15 'Box res.': True
+Fix2 override R47_SUB0[13]='Open': True
+Fix2 old override 'big!!' gone: True

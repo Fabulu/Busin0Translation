@@ -1,0 +1,444 @@
+{
+ "680": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 77,
+  "fb": 3,
+  "ngroups": 154,
+  "samples": []
+ },
+ "681": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 56,
+  "fb": 321,
+  "ngroups": 83,
+  "samples": []
+ },
+ "683": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 33,
+  "fb": 55,
+  "ngroups": 49,
+  "samples": []
+ },
+ "684": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 31,
+  "fb": 1,
+  "ngroups": 64,
+  "samples": []
+ },
+ "685": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 13,
+  "fb": 112,
+  "ngroups": 15,
+  "samples": []
+ },
+ "686": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 49,
+  "fb": 0,
+  "ngroups": 98,
+  "samples": []
+ },
+ "687": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 66,
+  "fb": 141,
+  "ngroups": 71,
+  "samples": []
+ },
+ "688": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 63,
+  "fb": 0,
+  "ngroups": 127,
+  "samples": []
+ },
+ "689": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 77,
+  "fb": 95,
+  "ngroups": 104,
+  "samples": []
+ },
+ "691": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 83,
+  "fb": 141,
+  "ngroups": 108,
+  "samples": []
+ },
+ "693": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 59,
+  "fb": 69,
+  "ngroups": 85,
+  "samples": []
+ },
+ "694": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 43,
+  "fb": 1,
+  "ngroups": 88,
+  "samples": []
+ },
+ "695": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 8,
+  "fb": 31,
+  "ngroups": 10,
+  "samples": []
+ },
+ "697": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 22,
+  "fb": 80,
+  "ngroups": 25,
+  "samples": []
+ },
+ "698": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 53,
+  "fb": 0,
+  "ngroups": 106,
+  "samples": []
+ },
+ "699": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 10,
+  "fb": 80,
+  "ngroups": 11,
+  "samples": []
+ },
+ "701": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 83,
+  "fb": 118,
+  "ngroups": 93,
+  "samples": []
+ },
+ "703": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 47,
+  "fb": 67,
+  "ngroups": 87,
+  "samples": []
+ },
+ "704": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 28,
+  "fb": 0,
+  "ngroups": 83,
+  "samples": []
+ },
+ "705": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 42,
+  "fb": 64,
+  "ngroups": 65,
+  "samples": []
+ },
+ "706": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 28,
+  "fb": 0,
+  "ngroups": 181,
+  "samples": []
+ },
+ "707": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 52,
+  "fb": 80,
+  "ngroups": 101,
+  "samples": []
+ },
+ "708": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 29,
+  "fb": 0,
+  "ngroups": 84,
+  "samples": []
+ },
+ "709": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 74,
+  "fb": 221,
+  "ngroups": 92,
+  "samples": []
+ },
+ "711": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 15,
+  "fb": 95,
+  "ngroups": 22,
+  "samples": []
+ },
+ "713": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 43,
+  "fb": 267,
+  "ngroups": 45,
+  "samples": []
+ },
+ "714": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 37,
+  "fb": 1,
+  "ngroups": 74,
+  "samples": []
+ },
+ "716": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 43,
+  "fb": 0,
+  "ngroups": 88,
+  "samples": []
+ },
+ "717": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 48,
+  "fb": 197,
+  "ngroups": 57,
+  "samples": []
+ },
+ "718": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 53,
+  "fb": 2,
+  "ngroups": 106,
+  "samples": []
+ },
+ "721": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 34,
+  "fb": 346,
+  "ngroups": 40,
+  "samples": []
+ },
+ "723": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 59,
+  "fb": 269,
+  "ngroups": 87,
+  "samples": []
+ },
+ "724": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 44,
+  "fb": 0,
+  "ngroups": 89,
+  "samples": []
+ },
+ "725": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 39,
+  "fb": 142,
+  "ngroups": 90,
+  "samples": []
+ },
+ "727": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 83,
+  "fb": 141,
+  "ngroups": 108,
+  "samples": []
+ },
+ "729": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 65,
+  "fb": 357,
+  "ngroups": 83,
+  "samples": []
+ },
+ "730": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 67,
+  "fb": 1,
+  "ngroups": 149,
+  "samples": []
+ },
+ "731": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 51,
+  "fb": 243,
+  "ngroups": 67,
+  "samples": []
+ },
+ "732": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 55,
+  "fb": 0,
+  "ngroups": 109,
+  "samples": []
+ },
+ "733": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 51,
+  "fb": 244,
+  "ngroups": 67,
+  "samples": []
+ },
+ "734": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 54,
+  "fb": 4,
+  "ngroups": 107,
+  "samples": []
+ },
+ "735": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 117,
+  "fb": 295,
+  "ngroups": 158,
+  "samples": []
+ },
+ "737": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 35,
+  "fb": 155,
+  "ngroups": 39,
+  "samples": []
+ },
+ "738": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 40,
+  "fb": 2,
+  "ngroups": 145,
+  "samples": []
+ },
+ "739": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 62,
+  "fb": 272,
+  "ngroups": 71,
+  "samples": []
+ },
+ "745": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 48,
+  "fb": 170,
+  "ngroups": 58,
+  "samples": []
+ },
+ "749": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 54,
+  "fb": 138,
+  "ngroups": 62,
+  "samples": []
+ },
+ "751": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 11,
+  "fb": 238,
+  "ngroups": 13,
+  "samples": []
+ },
+ "752": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 29,
+  "fb": 4,
+  "ngroups": 321,
+  "samples": []
+ },
+ "753": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 75,
+  "fb": 206,
+  "ngroups": 142,
+  "samples": []
+ },
+ "754": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 39,
+  "fb": 10,
+  "ngroups": 80,
+  "samples": []
+ },
+ "755": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 72,
+  "fb": 342,
+  "ngroups": 101,
+  "samples": []
+ },
+ "756": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 45,
+  "fb": 0,
+  "ngroups": 308,
+  "samples": []
+ },
+ "759": {
+  "kind": "binary",
+  "dialogue": 0,
+  "textgroups": 29,
+  "fb": 124,
+  "ngroups": 32,
+  "samples": []
+ },
+ "760": {
+  "kind": "mixed",
+  "dialogue": 1,
+  "textgroups": 31,
+  "fb": 1,
+  "ngroups": 64,
+  "samples": [
+   "#be  ..  . ...   . ...   . ...                                                            "
+  ]
+ }
+}

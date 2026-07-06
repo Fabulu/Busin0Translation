@@ -1,0 +1,188 @@
+188	msg=395	g=15	EN=|Dispel Sword / |	notes=dispel magic sword
+189	msg=396	g=14	EN=|Great Sword / |	notes=great sword
+190	msg=397	g=20	EN=|Magus Great Sword / |	notes=magus great sword
+191	msg=398	g=15	EN=|Ghost Killer / |	notes=ghost killer
+192	msg=399	g=19	EN=|Fury Great Sword / |	notes=passionate great sword
+193	msg=400	g=14	EN=|Flame Sword / |	notes=flame sword
+194	msg=401	g=16	EN=|Ice God Sword / |	notes=ice god sword
+195	msg=402	g=13	EN=|Neck Crush / |	notes=neck crush
+196	msg=403	g=15	EN=|Demon Buster / |	notes=demon buster
+197	msg=404	g=20	EN=|Heavy Great Sword / |	notes=heavy great sword
+198	msg=405	g=22	EN=|Death Pilgrim Blade / |	notes=death pilgrim blade
+199	msg=406	g=18	EN=|Full Moon Sword / |	notes=full moon great sword
+200	msg=407	g=20	EN=|Demon Great Sword / |	notes=demon great sword
+201	msg=408	g=9	EN=|Katana / |	notes=basic katana
+202	msg=409	g=16	EN=|Master Katana / |	notes=master katana
+203	msg=410	g=11	EN=|Naginata / |	notes=naginata
+204	msg=411	g=10	EN=|Nodachi / |	notes=nodachi/long katana
+205	msg=412	g=10	EN=|Kodachi / |	notes=kodachi/short katana
+206	msg=413	g=9	EN=|Odachi / |	notes=odachi
+207	msg=414	g=11	EN=|Masamune / |	notes=masamune
+208	msg=415	g=11	EN=|Muramasa / |	notes=muramasa
+209	msg=416	g=11	EN=|Kusanagi / |	notes=kusanagi
+210	msg=417	g=17	EN=|Singing Katana / |	notes=singing katana
+211	msg=418	g=17	EN=|Weeping Katana / |	notes=weeping katana
+212	msg=419	g=16	EN=|Cursed Katana / |	notes=cursed katana
+213	msg=420	g=16	EN=|Healing Staff / |	notes=healing staff
+214	msg=421	g=19	EN=|Divination Staff / |	notes=divination staff
+215	msg=422	g=16	EN=|Binding Staff / |	notes=binding staff
+216	msg=423	g=17	EN=|Recovery Staff / |	notes=recovery staff
+217	msg=424	g=16	EN=|Inferno Staff / |	notes=great fire staff
+218	msg=425	g=14	EN=|Frost Staff / |	notes=small frost staff
+219	msg=426	g=14	EN=|Death Staff / |	notes=death/destruction staff
+220	msg=427	g=15	EN=|Sage's Staff / |	notes=sage staff
+221	msg=428	g=15	EN=|Cursed Staff / |	notes=cursed staff
+222	msg=429	g=18	EN=|Crumbling Staff / |	notes=crumbling staff
+223	msg=430	g=11	EN=|Hand Axe / |	notes=hand axe
+224	msg=431	g=12	EN=|Heavy Axe / |	notes=heavy axe
+225	msg=432	g=13	EN=|Silver Axe / |	notes=silver axe
+226	msg=433	g=18	EN=|Master Hand Axe / |	notes=master hand axe
+227	msg=434	g=19	EN=|Thunder Hand Axe / |	notes=thunder hand axe
+228	msg=435	g=10	EN=|Ice Axe / |	notes=ice axe
+229	msg=436	g=17	EN=|Flash Hand Axe / |	notes=flash/light hand axe
+230	msg=437	g=19	EN=|Holy Soldier Axe / |	notes=holy knight hand axe
+231	msg=438	g=18	EN=|Cursed Hand Axe / |	notes=cursed hand axe
+232	msg=439	g=20	EN=|Blood-Stained Axe / |	notes=blood-stained hand axe
+233	msg=440	g=20	EN=|Vengeful Hand Axe / |	notes=vengeful hand axe
+234	msg=441	g=13	EN=|Battle Axe / |	notes=battle axe
+235	msg=442	g=12	EN=|Great Axe / |	notes=great axe
+236	msg=443	g=20	EN=|Slayer Battle Axe / |	notes=slayer battle axe
+237	msg=444	g=20	EN=|Arcane Battle Axe / |	notes=arcane swordsman battle axe
+238	msg=445	g=21	EN=|Avenger Battle Axe / |	notes=avenger battle axe
+239	msg=446	g=19	EN=|Dwarf Battle Axe / |	notes=dwarf battle axe
+240	msg=447	g=19	EN=|Demon Battle Axe / |	notes=demon battle axe
+241	msg=448	g=16	EN=|Faithless Axe / |	notes=faithless battle axe
+242	msg=449	g=22	EN=|Vengeful Battle Axe / |	notes=vengeful battle axe
+243	msg=450	g=19	EN=|Ghost Battle Axe / |	notes=ghost battle axe
+244	msg=451	g=17	EN=|Demon King Axe / |	notes=vampire lord battle axe
+245	msg=452	g=11	EN=|Shuriken / |	notes=shuriken/throwing star
+246	msg=453	g=18	EN=|Poison Shuriken / |	notes=poison shuriken
+247	msg=454	g=18	EN=|Shadow Shuriken / |	notes=shadow shuriken
+248	msg=455	g=17	EN=|Ninja Shuriken / |	notes=ninja shuriken
+249	msg=456	g=18	EN=|Grudge Shuriken / |	notes=grudge shuriken
+250	msg=457	g=18	EN=|Cursed Shuriken / |	notes=cursed shuriken
+251	msg=458	g=7	EN=|Mace / |	notes=basic mace
+252	msg=459	g=15	EN=|Morning Star / |	notes=morning star
+253	msg=460	g=13	EN=|Faith Mace / |	notes=faith mace
+254	msg=461	g=16	EN=|Striking Mace / |	notes=striking mace
+255	msg=462	g=13	EN=|Flame Mace / |	notes=flame mace
+256	msg=463	g=14	EN=|Prayer Mace / |	notes=prayer mace
+257	msg=464	g=12	EN=|Holy Mace / |	notes=holy mace
+258	msg=465	g=17	EN=|Faithless Mace / |	notes=faithless mace
+259	msg=466	g=14	EN=|Mighty Mace / |	notes=powerful mace
+260	msg=467	g=15	EN=|Tainted Mace / |	notes=tainted mace
+261	msg=468	g=8	EN=|Flail / |	notes=basic flail
+262	msg=469	g=14	EN=|Power Flail / |	notes=power flail
+263	msg=470	g=14	EN=|Magus Flail / |	notes=magus flail
+264	msg=471	g=14	EN=|Dwarf Flail / |	notes=dwarf flail
+265	msg=472	g=13	EN=|Stun Flail / |	notes=stun flail
+266	msg=473	g=18	EN=|Invisible Flail / |	notes=invisible flail
+267	msg=474	g=15	EN=|Prince Flail / |	notes=prince flail
+268	msg=475	g=18	EN=|Crumbling Flail / |	notes=crumbling flail
+269	msg=476	g=21	EN=|Blood-Soaked Flail / |	notes=blood-soaked flail
+270	msg=477	g=18	EN=|Pure Evil Flail / |	notes=pure evil flail
+271	msg=478	g=14	EN=|Soul Buster / |	notes=soul buster
+272	msg=479	g=17	EN=|Throwing Knife / |	notes=throwing knife
+273	msg=480	g=14	EN=|Bird Killer / |	notes=bird killer
+274	msg=481	g=17	EN=|Scorpion Knife / |	notes=scorpion knife
+275	msg=482	g=20	EN=|Wind Cutter Knife / |	notes=wind cutting knife
+276	msg=483	g=14	EN=|Shade Knife / |	notes=shade knife
+277	msg=484	g=15	EN=|Clumsy Knife / |	notes=clumsy knife
+278	msg=485	g=14	EN=|Agony Knife / |	notes=agony knife
+279	msg=486	g=13	EN=|Dark Knife / |	notes=darkness knife
+280	msg=487	g=11	EN=|Crossbow / |	notes=crossbow
+281	msg=488	g=12	EN=|Magic Bow / |	notes=magic bow
+282	msg=489	g=14	EN=|Wishing Bow / |	notes=wishing bow
+283	msg=490	g=14	EN=|Thief's Bow / |	notes=thief bow
+284	msg=491	g=10	EN=|Elf Bow / |	notes=elf bow
+285	msg=492	g=13	EN=|Killer Bow / |	notes=killer bow
+286	msg=493	g=13	EN=|Fallen Bow / |	notes=fallen bow
+287	msg=494	g=11	EN=|Long Bow / |	notes=long bow
+288	msg=495	g=12	EN=|Great Bow / |	notes=great bow
+289	msg=496	g=18	EN=|Flash Great Bow / |	notes=flash great bow
+290	msg=497	g=13	EN=|Yoichi Bow / |	notes=yoichi bow (legendary)
+291	msg=498	g=21	EN=|Betrayer Great Bow / |	notes=betrayer great bow
+292	msg=499	g=11	EN=|Pole Arm / |	notes=basic polearm
+293	msg=500	g=18	EN=|Bishop Pole Arm / |	notes=bishop pole arm
+294	msg=501	g=16	EN=|Gold Pole Arm / |	notes=gold pole arm
+295	msg=502	g=20	EN=|Guardian Pole Arm / |	notes=guardian pole arm
+296	msg=503	g=23	EN=|Holy Warrior Polearm / |	notes=holy warrior pole arm
+297	msg=504	g=16	EN=|Void Pole Arm / |	notes=void pole arm
+298	msg=505	g=18	EN=|King's Pole Arm / |	notes=king's pole arm
+299	msg=506	g=10	EN=|Halberd / |	notes=halberd
+300	msg=507	g=14	EN=|Armor Crush / |	notes=armor crush
+301	msg=508	g=14	EN=|Rune Glaive / |	notes=rune glaive
+302	msg=509	g=13	EN=|Arc Glaive / |	notes=arc glaive
+303	msg=510	g=11	EN=|Crusader / |	notes=crusader
+304	msg=511	g=15	EN=|Curse Glaive / |	notes=curse glaive
+305	msg=512	g=16	EN=|Asura's Light / |	notes=asura's light
+306	msg=513	g=15	EN=|Iron Knuckle / |	notes=iron knuckle
+307	msg=514	g=12	EN=|Bagh Nakh / |	notes=bagh nakh (tiger claws)
+308	msg=515	g=13	EN=|Beast Claw / |	notes=beast claw
+309	msg=516	g=17	EN=|Dragon Knuckle / |	notes=dragon knuckle
+310	msg=517	g=18	EN=|Blessed Knuckle / |	notes=blessed knuckle
+311	msg=518	g=14	EN=|Garian Claw / |	notes=garian claw
+312	msg=519	g=14	EN=|Dark Murder / |	notes=dark murder
+313	msg=520	g=18	EN=|Balam Hand Chip / |	notes=demon name + hand chip
+314	msg=521	g=18	EN=|Morax Hand Chip / |	notes=demon name + hand chip
+315	msg=522	g=18	EN=|Seere Hand Chip / |	notes=demon name + hand chip
+316	msg=523	g=17	EN=|Buer Hand Chip / |	notes=demon name + hand chip
+317	msg=524	g=17	EN=|Vine Hand Chip / |	notes=demon name + hand chip
+318	msg=525	g=19	EN=|Gusion Hand Chip / |	notes=demon name + hand chip
+319	msg=526	g=20	EN=|Asmodai Hand Chip / |	notes=demon name + hand chip
+320	msg=527	g=20	EN=|Gamigin Hand Chip / |	notes=demon name + hand chip
+321	msg=528	g=20	EN=|Flauros Hand Chip / |	notes=demon name + hand chip
+322	msg=529	g=19	EN=|Belial Hand Chip / |	notes=demon name + hand chip
+323	msg=704	g=17	EN=|Healing Potion / |	notes=healing potion
+324	msg=705	g=19	EN=|Full Heal Potion / |	notes=complete healing potion
+325	msg=706	g=16	EN=|Revive Potion / |	notes=revival potion
+326	msg=707	g=18	EN=|Antidote Potion / |	notes=antidote potion
+327	msg=708	g=17	EN=|Paralysis Cure / |	notes=paralysis cure potion
+328	msg=709	g=17	EN=|Uncurse Potion / |	notes=uncurse potion
+329	msg=710	g=16	EN=|Return Potion / |	notes=return to stairs potion
+330	msg=711	g=18	EN=|Teleport Potion / |	notes=teleport potion
+331	msg=712	g=21	EN=|Town Return Potion / |	notes=return to town potion
+332	msg=713	g=22	EN=|Resurrection Potion / |	notes=resurrection potion
+333	msg=714	g=18	EN=|Exorcism Potion / |	notes=exorcism potion
+334	msg=715	g=16	EN=|Mage Cocktail / |	notes=mage cocktail
+335	msg=716	g=12	EN=|Mage Wine / |	notes=mage wine
+336	msg=717	g=18	EN=|Priest Cocktail / |	notes=priest cocktail
+337	msg=718	g=14	EN=|Priest Wine / |	notes=priest wine
+338	msg=719	g=13	EN=|Magic Wine / |	notes=magic wine
+339	msg=720	g=15	EN=|Fighter Soul / |	notes=fighter class change item
+340	msg=721	g=13	EN=|Thief Soul / |	notes=thief class change item
+341	msg=722	g=12	EN=|Mage Soul / |	notes=mage class change item
+342	msg=723	g=14	EN=|Priest Soul / |	notes=priest class change item
+343	msg=724	g=13	EN=|Ninja Soul / |	notes=ninja class change item
+344	msg=725	g=15	EN=|Samurai Soul / |	notes=samurai class change item
+345	msg=726	g=15	EN=|Soldier Soul / |	notes=knight class change item
+346	msg=727	g=14	EN=|Bishop Soul / |	notes=bishop class change item
+347	msg=728	g=17	EN=|Alchemist Soul / |	notes=alchemist class change item
+348	msg=729	g=12	EN=|Monk Soul / |	notes=monk class change item
+349	msg=730	g=14	EN=|Ranger Soul / |	notes=ranger class change item
+350	msg=731	g=20	EN=|Holy Soldier Soul / |	notes=holy knight class change item
+351	msg=732	g=20	EN=|Dark Soldier Soul / |	notes=dark knight class change item
+352	msg=733	g=17	EN=|Commander Soul / |	notes=commander class change item
+353	msg=734	g=17	EN=|Professor Soul / |	notes=professor class change item
+354	msg=735	g=21	EN=|Phantom Thief Soul / |	notes=phantom thief class change item
+355	msg=736	g=17	EN=|Reflect Potion / |	notes=reflect potion
+356	msg=737	g=19	EN=|Megadeath Potion / |	notes=megadeath potion
+357	msg=788	g=19	EN=|Scroll of Kureta / |	notes=fire spell scroll
+358	msg=789	g=19	EN=|Scroll of Kurudo / |	notes=thunder spell scroll
+359	msg=790	g=17	EN=|Scroll of Teel / |	notes=ice spell scroll
+360	msg=791	g=20	EN=|Scroll of Analyze / |	notes=analyze spell scroll
+361	msg=792	g=17	EN=|Scroll of Weak / |	notes=weak spell scroll
+362	msg=793	g=18	EN=|Scroll of Delay / |	notes=delay spell scroll
+363	msg=794	g=18	EN=|Scroll of Depth / |	notes=depth spell scroll
+364	msg=795	g=19	EN=|Scroll of Feeble / |	notes=feeble spell scroll
+365	msg=796	g=19	EN=|Scroll of Shrade / |	notes=death spell scroll
+366	msg=797	g=20	EN=|Scroll of Supreme / |	notes=supreme spell scroll
+367	msg=798	g=19	EN=|Scroll of Salome / |	notes=salome spell scroll
+368	msg=799	g=19	EN=|Scroll of Escape / |	notes=escape spell scroll
+369	msg=800	g=21	EN=|Scroll of Zakureta / |	notes=fire group spell
+370	msg=801	g=21	EN=|Scroll of Zakurudo / |	notes=thunder group spell
+371	msg=802	g=19	EN=|Scroll of Zateel / |	notes=ice group spell
+372	msg=803	g=17	EN=|Scroll of Thru / |	notes=thru spell scroll
+373	msg=804	g=19	EN=|Scroll of Zarado / |	notes=death group spell
+374	msg=805	g=18	EN=|Scroll of Drain / |	notes=drain spell scroll
+375	msg=806	g=19	EN=|Scroll of Repeal / |	notes=repeal spell scroll

@@ -1,0 +1,17 @@
+== Busin0 LIBRARY / Item Compendium (アイテム図鑑) — JP source map ==
+
+TITLE (UL, ornate, pre-rendered strip): ライブラリー  [Library]
+SUBTITLE (UR, red banner strip):        アイテム図鑑  [Item Compendium]
+
+CATEGORY MENU (left, 5 rows, each + yellow NEW tag) — PRE-RENDERED STRIPS (not glyph stream):
+  cat0  アイテム図鑑   Item Compendium    glyphids ar/i/te/mu/zu/kan
+  cat1  人物名鑑       Character Directory
+  cat2  用語辞典       Glossary
+  cat3  冒険の手引き   Adventurer's Guide
+  cat4  書物リスト     Book List
+
+FOOTER (help): R2+↑↓:早送り  [R2+Up/Down: Fast-forward]
+
+BODY/CONTENT TEXT (right panel) -> R2654 (2654_type44.raw) msg-glyph BE-u16 groups.
+R2654 sub10 (off 0xA8F0 sz 0x3972, 47 FFFF groups) = 冒険の手引き Adventurer's Guide body.
+Sample (compendium item-intro group): 武器・扉番・アクセサリーから魔法腕… これら全てはアイテムという名前で…

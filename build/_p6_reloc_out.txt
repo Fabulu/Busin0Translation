@@ -1,0 +1,17 @@
+=== 0x4B0DD0 region: stock EXE FILE vs LIVE stock RAM ===
+ VA 0x4b0dd0: EXEfile=00000000  liveRAM=02000000
+ VA 0x4b0dd8: EXEfile=00000000  liveRAM=01000000
+
+=== Candidate safe .text padding (must be ZERO in live stock RAM) ===
+ VA 0x4ab554: EXEfile_64_zero=True  liveRAM_64_zero=True
+ VA 0x4ab560: EXEfile_64_zero=True  liveRAM_64_zero=True
+ VA 0x4ab580: EXEfile_64_zero=True  liveRAM_64_zero=True
+ VA 0x4ab600: EXEfile_64_zero=False  liveRAM_64_zero=False
+
+=== Searching .text for >=64B run zero in BOTH file and live RAM ===
+  safe-zero run at 0x4ab560
+  safe-zero run at 0x4ab5a0
+  safe-zero run at 0x4af340
+  safe-zero run at 0x4af380
+  safe-zero run at 0x4af3c0
+  safe-zero run at 0x4afa60

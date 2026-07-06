@@ -1,0 +1,1436 @@
+[
+ {
+  "resource": 1196,
+  "message": 59,
+  "lines": 9,
+  "text": "Girl A: They won't / give us a sword!\nGirl B: The guide / says they're at / the Guild!\nGirl A: You need / a permit!\nGirl B: Then ask!"
+ },
+ {
+  "resource": 1196,
+  "message": 61,
+  "lines": 8,
+  "text": "Girl A: That's why / we're thinking!\nGirl B: I have / no ideas!\nGirl A: Ha! I do! / The tavern!\nGirl B: The guide?"
+ },
+ {
+  "resource": 1196,
+  "message": 63,
+  "lines": 8,
+  "text": "Girl A: Trust me! / The tavern's full of / adventurers!\nGirl B: Let's try!\nGirl A: To the tavern!\nGirl B: Let's go!"
+ },
+ {
+  "resource": 1196,
+  "message": 66,
+  "lines": 8,
+  "text": "Girl A: It's so / pretty! I want to / keep it!\nGirl B: No! We'll have / plenty of swords!\nGirl A: Let me try!\nGirl B: ..............."
+ },
+ {
+  "resource": 1196,
+  "message": 60,
+  "lines": 7,
+  "text": "Girl A: Why blame me? / You just sit there!\nGirl B: I didn't say / that! But without / a magic sword..."
+ },
+ {
+  "resource": 1196,
+  "message": 62,
+  "lines": 7,
+  "text": "Girl A: No, a quest! / Q-U-E-S-T!\nGirl B: A quest!?\nGirl A: Request / a magic sword!\nGirl B: Would that work?"
+ },
+ {
+  "resource": 1196,
+  "message": 68,
+  "lines": 7,
+  "text": "Girl B: Let's go to / the Guild!\nGirl A: Again?\nGirl B: Of course! / You'll go many times!\nGirl A: I guess!"
+ },
+ {
+  "resource": 1196,
+  "message": 67,
+  "lines": 6,
+  "text": "Girl B: Wait!\nGirl A: Huh?\nGirl B: Not here! / This is special!\nGirl A: Special, huh!"
+ },
+ {
+  "resource": 1196,
+  "message": 69,
+  "lines": 5,
+  "text": "Girl B: Presentation / matters! That place / is perfect!\nGirl A: Right! Let's go!"
+ },
+ {
+  "resource": 1197,
+  "message": 932,
+  "lines": 5,
+  "text": "Vera: I am still / a green knight, / but I'll strive / not to be a / burden."
+ },
+ {
+  "resource": 1199,
+  "message": 89,
+  "lines": 5,
+  "text": "His magic knowledge / grew with time. Even / kings sought his counsel."
+ },
+ {
+  "resource": 1201,
+  "message": 100,
+  "lines": 6,
+  "text": "Dwarf warrior: / Well, well! Haven't / been to Duhan in / ages. Didn't think / it'd be this / run-down!"
+ },
+ {
+  "resource": 1201,
+  "message": 103,
+  "lines": 6,
+  "text": "I heard he's / gravely ill, so / I came to see him. / Didn't think the / guy tougher than / me would get sick."
+ },
+ {
+  "resource": 1201,
+  "message": 111,
+  "lines": 6,
+  "text": "Well, I brought / plenty of his / favorite herbs / from back home. / That should cure / any illness."
+ },
+ {
+  "resource": 1201,
+  "message": 4,
+  "lines": 5,
+  "text": "And sleep can / sometimes make an / adventurer grow / overnight, they say."
+ },
+ {
+  "resource": 1201,
+  "message": 150,
+  "lines": 5,
+  "text": "Clerk: I'm sorry, / our guest has / instructed us not / to let anyone / through."
+ },
+ {
+  "resource": 1202,
+  "message": 76,
+  "lines": 8,
+  "text": "Fighter, Mage, / Thief, Priest, / Knight, Bishop, / Ninja, Samurai, / Alchemist, Monk, / Rogue, Crusader. / Mott suddenly / realized something."
+ },
+ {
+  "resource": 1202,
+  "message": 2,
+  "lines": 6,
+  "text": "Orc: Opening the / heavy iron door, / the shop was / filled with piles / of goods -- or was / it junk?"
+ },
+ {
+  "resource": 1202,
+  "message": 187,
+  "lines": 6,
+  "text": "Lucy, Orc Notch: / Inside the shop, / besides the orc, / was a girl who / had been selling / at the bazaar."
+ },
+ {
+  "resource": 1202,
+  "message": 236,
+  "lines": 5,
+  "text": "Lucy: Upon / entering the shop, / Lucy called to / you while chatting / with Notch."
+ },
+ {
+  "resource": 1203,
+  "message": 597,
+  "lines": 6,
+  "text": "Haraherino / Heriglano / Belgradno / Percrano / Captain! Yes, / thank you."
+ },
+ {
+  "resource": 1203,
+  "message": 1275,
+  "lines": 6,
+  "text": "The legendary / knight order / that won great / glory in the / Battle of / Banquo."
+ },
+ {
+  "resource": 1203,
+  "message": 26,
+  "lines": 5,
+  "text": "A sign on the / counter reads: / Lost & Found Open / Vigger Friends / New Members."
+ },
+ {
+  "resource": 1203,
+  "message": 403,
+  "lines": 5,
+  "text": "Lidi: You're the / leader, right? / I'm Lidi / Wallenstein of / Venoan Bookstore."
+ },
+ {
+  "resource": 1203,
+  "message": 601,
+  "lines": 5,
+  "text": "Otolroad / Ortrud / Olrultoad / Yes, that is / your answer."
+ },
+ {
+  "resource": 1203,
+  "message": 648,
+  "lines": 5,
+  "text": "Inside Fudo's / room, Fudo sat / cross-legged in / the center, / meditating."
+ },
+ {
+  "resource": 1203,
+  "message": 902,
+  "lines": 5,
+  "text": "Guard alert: / The survivor / rescue is not / going well. / We apologize."
+ },
+ {
+  "resource": 1203,
+  "message": 910,
+  "lines": 5,
+  "text": "They donned armor / with pride, ready / to forge their / own path in this / labyrinth."
+ },
+ {
+  "resource": 1203,
+  "message": 950,
+  "lines": 5,
+  "text": "Webster: I'm sure / we'll need your / help often. / Pleased to meet you."
+ },
+ {
+  "resource": 1203,
+  "message": 1031,
+  "lines": 5,
+  "text": "Later, some / half-baked clerk / will take my / place. That's what / I heard."
+ },
+ {
+  "resource": 1203,
+  "message": 1276,
+  "lines": 5,
+  "text": "Every king in / the land tried / to recruit them. / That shows their / fame."
+ },
+ {
+  "resource": 1203,
+  "message": 1277,
+  "lines": 5,
+  "text": "But now those / great knights have / become silent / corpses, lost in / the deep dark."
+ },
+ {
+  "resource": 1203,
+  "message": 1280,
+  "lines": 5,
+  "text": "And look at / Simzon, once / the finest / commander. Now / reduced to that."
+ },
+ {
+  "resource": 1203,
+  "message": 1385,
+  "lines": 5,
+  "text": "Rumor has it / that infamous / outlaws and / knight orders / are in here."
+ },
+ {
+  "resource": 1203,
+  "message": 1386,
+  "lines": 5,
+  "text": "Supposedly, the / overwhelmed King / granted amnesty / to bolster / manpower."
+ },
+ {
+  "resource": 1203,
+  "message": 1387,
+  "lines": 5,
+  "text": "But think about / it. In the real / world, these are / people who'd be / executed."
+ },
+ {
+  "resource": 1203,
+  "message": 1396,
+  "lines": 5,
+  "text": "I heard from a / reliable source / that the Duhan / Guard developed / a new technique."
+ },
+ {
+  "resource": 1203,
+  "message": 1430,
+  "lines": 5,
+  "text": "Adventurer: I / don't know what's / going on in / there, but it / reeks of undead."
+ },
+ {
+  "resource": 1203,
+  "message": 1432,
+  "lines": 5,
+  "text": "Some say that / sight awaits / those who delve / too deep, but / that's nonsense."
+ },
+ {
+  "resource": 1203,
+  "message": 1491,
+  "lines": 5,
+  "text": "But the Guard / security was / tight, and I / lost track of / you."
+ },
+ {
+  "resource": 1203,
+  "message": 1497,
+  "lines": 5,
+  "text": "This is / embarrassing, / but I really / can't stand / zombies."
+ },
+ {
+  "resource": 1203,
+  "message": 1498,
+  "lines": 5,
+  "text": "Just a glimpse / of those / horrible things / gives me / goosebumps!"
+ },
+ {
+  "resource": 1203,
+  "message": 1617,
+  "lines": 5,
+  "text": "Kunnal: Just as / you turned the / corner, Kunnal / came up from / behind."
+ },
+ {
+  "resource": 1203,
+  "message": 1618,
+  "lines": 5,
+  "text": "He was deep in / thought, mumbling / to himself, / not noticing / you at all."
+ },
+ {
+  "resource": 1204,
+  "message": 295,
+  "lines": 8,
+  "text": "Belgradno: Was / this the witch? / Soldier: Please / calm down, sir. / Belgradno: How / can I be calm? / They were killed / without a fight!"
+ },
+ {
+  "resource": 1204,
+  "message": 384,
+  "lines": 7,
+  "text": "The counter sign / read: 'Event / Space Grand / Opening! Vigger / Friends / membership / required.'"
+ },
+ {
+  "resource": 1204,
+  "message": 55,
+  "lines": 6,
+  "text": "Wouri: After / returning to the / city, Belgradno / was furiously / declaring he'd / hunt them down."
+ },
+ {
+  "resource": 1204,
+  "message": 973,
+  "lines": 6,
+  "text": "No matter what / hardships await / I swear on / Simzon's soul / to overcome / them!"
+ },
+ {
+  "resource": 1204,
+  "message": 975,
+  "lines": 6,
+  "text": "Death isn't / rare at my age / yet facing / that creature / made me shake / like a child!"
+ },
+ {
+  "resource": 1204,
+  "message": 301,
+  "lines": 5,
+  "text": "But such a / cruel killing / I've never seen / even on a / battlefield."
+ },
+ {
+  "resource": 1204,
+  "message": 314,
+  "lines": 5,
+  "text": "Ingo: Adventurer / while I was / chatting, / something / weird happened!"
+ },
+ {
+  "resource": 1204,
+  "message": 382,
+  "lines": 5,
+  "text": "Next to the Imp, / behind a / curtain, was / a prepared / space."
+ },
+ {
+  "resource": 1204,
+  "message": 385,
+  "lines": 5,
+  "text": "The Imp by the / space noticed / you and / started / talking."
+ },
+ {
+  "resource": 1204,
+  "message": 386,
+  "lines": 5,
+  "text": "The Event Space / sign read: / 'Vigger Friends / Sign-Up / Available.'"
+ },
+ {
+  "resource": 1204,
+  "message": 421,
+  "lines": 5,
+  "text": "The Event Space / sign read: / 'Vigger Friends / Sign-Up / Available.'"
+ },
+ {
+  "resource": 1204,
+  "message": 646,
+  "lines": 5,
+  "text": "Raiman, Jill, / and 2 others / pressed close / to a large / door."
+ },
+ {
+  "resource": 1204,
+  "message": 820,
+  "lines": 5,
+  "text": "Readings: 1000G / flat. Let me / see how much / eye-power lies / within."
+ },
+ {
+  "resource": 1204,
+  "message": 974,
+  "lines": 5,
+  "text": "Konde: That was / terrifying! / I'm ashamed / but can't stop / trembling!"
+ },
+ {
+  "resource": 1204,
+  "message": 994,
+  "lines": 5,
+  "text": "If released / into the world, / not just Duhan / but all Venoa / would perish!"
+ },
+ {
+  "resource": 1205,
+  "message": 694,
+  "lines": 11,
+  "text": "Alchemist: / I read / companion / dolls using / alchemy. / I make a / living / observing the / cycle of / soulless / dolls."
+ },
+ {
+  "resource": 1205,
+  "message": 334,
+  "lines": 9,
+  "text": "Orc F: \"Why do / we have to pull / up our pants / in unison / every battle?\" / Orc G: \"Isn't / that weird? / That's why you / drop things!\""
+ },
+ {
+  "resource": 1205,
+  "message": 695,
+  "lines": 9,
+  "text": "The appraisal / fee is 1000g / per body, / regardless of / your standing. / Let me see how / much spirit / resides in / your doll."
+ },
+ {
+  "resource": 1205,
+  "message": 884,
+  "lines": 9,
+  "text": "At the time, / even the / strongest / sorcerers of / Venoa were / overwhelmed. / That kingdom / fell to this / one witch."
+ },
+ {
+  "resource": 1205,
+  "message": 331,
+  "lines": 8,
+  "text": "Orc B: \"That beast / is hella strong!\" / Orc A: \"Try being / in our shoes!\" / Orc B: \"We had to / fight while / guarding the / princess!\""
+ },
+ {
+  "resource": 1205,
+  "message": 806,
+  "lines": 8,
+  "text": "Miri / Melanie / Kunnal: / Beyond the / trap door, / Miri the / Pixie was with / Melanie."
+ },
+ {
+  "resource": 1205,
+  "message": 901,
+  "lines": 8,
+  "text": "What I'd heard / about was a / new battle / technique / called Alleid / being / developed by / the military."
+ },
+ {
+  "resource": 1205,
+  "message": 217,
+  "lines": 7,
+  "text": "Adventurer: / I hear the 2nd / floor has been / in chaos. / The Writhing / Demons have / emerged."
+ },
+ {
+  "resource": 1205,
+  "message": 222,
+  "lines": 7,
+  "text": "Those fools who / still think they / can handle it / with swords and / magic cannot / defeat the / Writhing Demons."
+ },
+ {
+  "resource": 1205,
+  "message": 273,
+  "lines": 7,
+  "text": "Webster: No / matter how / many times / I come here, / I never get / used to this / labyrinth."
+ },
+ {
+  "resource": 1205,
+  "message": 330,
+  "lines": 7,
+  "text": "Orc F: \"What are / you gonna do?\" / Orc G: \"That / shield is really / important!\" / Orc A: \"You don't / know nothing!\""
+ },
+ {
+  "resource": 1205,
+  "message": 380,
+  "lines": 7,
+  "text": "A banner at / the counter / read: \"Lost & / Found Open! / Vigger Friends / new member / recruitment!\""
+ },
+ {
+  "resource": 1205,
+  "message": 548,
+  "lines": 7,
+  "text": "Floors 26-30, / 5-day period / is the Vigger / Friends / member-only / lucky number / draw!"
+ },
+ {
+  "resource": 1205,
+  "message": 871,
+  "lines": 7,
+  "text": "I'd heard she / was an / overwhelming / magic user, / but this is / beyond / imagination."
+ },
+ {
+  "resource": 1205,
+  "message": 900,
+  "lines": 7,
+  "text": "I came to / investigate / reports that / King Ortrud of / Duhan might / be planning / an invasion."
+ },
+ {
+  "resource": 1205,
+  "message": 902,
+  "lines": 7,
+  "text": "But after / entering this / labyrinth, I / realized such / concerns are / trivially / small."
+ },
+ {
+  "resource": 1205,
+  "message": 64,
+  "lines": 6,
+  "text": "\"Are you sure / you're okay? / What could / attack us from / a place like / this?\""
+ },
+ {
+  "resource": 1205,
+  "message": 108,
+  "lines": 6,
+  "text": "Turgot: / Well, see ya. / I'll thank you / properly when / I get back / to the city."
+ },
+ {
+  "resource": 1205,
+  "message": 112,
+  "lines": 6,
+  "text": "Leprechaun: / Items designed / to make orcs / weep with misery. / Handcrafted / with care."
+ },
+ {
+  "resource": 1205,
+  "message": 191,
+  "lines": 6,
+  "text": "Yours truly / controls the / market! Every / shop is filled / with miserable / orc items!"
+ },
+ {
+  "resource": 1205,
+  "message": 220,
+  "lines": 6,
+  "text": "It's written / in every / encyclopedia. / Their emergence / should have been / anticipated."
+ },
+ {
+  "resource": 1205,
+  "message": 232,
+  "lines": 6,
+  "text": "Vile: To clear / the name of my / father, who was / killed at the / Battle of / Banquo."
+ },
+ {
+  "resource": 1205,
+  "message": 241,
+  "lines": 6,
+  "text": "while my father, / who fought the / Writhing Demons, / was treated as / a criminal / and died."
+ },
+ {
+  "resource": 1205,
+  "message": 274,
+  "lines": 6,
+  "text": "Once you enter, / even someone / like me gets / tormented by / nightmares for / days."
+ },
+ {
+  "resource": 1205,
+  "message": 356,
+  "lines": 6,
+  "text": "Orc: After the / battle ended, / the branch / shop clerk / came running / back."
+ },
+ {
+  "resource": 1205,
+  "message": 783,
+  "lines": 6,
+  "text": "\"You'll regret / this forever! / Your life just / took a wrong / turn because / of this!\""
+ },
+ {
+  "resource": 1205,
+  "message": 784,
+  "lines": 6,
+  "text": "\"If you won't / help then just / go away! I / don't even / want to talk / to you!\""
+ },
+ {
+  "resource": 1205,
+  "message": 792,
+  "lines": 6,
+  "text": "\"What, you / again? What / do you want? / If you're just / browsing, get / lost!\""
+ },
+ {
+  "resource": 1205,
+  "message": 803,
+  "lines": 6,
+  "text": "\"I won't / waste my / beautiful / voice on / someone like / you! Goodbye!\""
+ },
+ {
+  "resource": 1205,
+  "message": 879,
+  "lines": 6,
+  "text": "but the / witch Aurora's / terror is / exactly as / the rumors / say."
+ },
+ {
+  "resource": 1205,
+  "message": 880,
+  "lines": 6,
+  "text": "If my friends / could see / this scene, / they'd know / how reckless / they've been!"
+ },
+ {
+  "resource": 1205,
+  "message": 882,
+  "lines": 6,
+  "text": "That she is / the cursed / witch who / destroyed the / Kingdom of / Irikia."
+ },
+ {
+  "resource": 1205,
+  "message": 891,
+  "lines": 6,
+  "text": "Then, over her / long life, / even the / worst villain / should develop / some good."
+ },
+ {
+  "resource": 1205,
+  "message": 893,
+  "lines": 6,
+  "text": "Even the / worst people / eventually / do good deeds / during their / long lives."
+ },
+ {
+  "resource": 1205,
+  "message": 894,
+  "lines": 6,
+  "text": "Because no / one can live / free from / the warmth / and kindness / of others."
+ },
+ {
+  "resource": 1205,
+  "message": 895,
+  "lines": 6,
+  "text": "Yet she has / lived alone / for ages, / bringing only / destruction / and chaos."
+ },
+ {
+  "resource": 1205,
+  "message": 903,
+  "lines": 6,
+  "text": "A crisis / threatening / not just one / nation but / all of Venoa / lurks here."
+ },
+ {
+  "resource": 1205,
+  "message": 75,
+  "lines": 5,
+  "text": "Aurora: / After all, it is / comfortable for / me to be called / by that name."
+ },
+ {
+  "resource": 1205,
+  "message": 187,
+  "lines": 5,
+  "text": "Leprechaun: / Welcome to the / Labyrinth / Recycling Shop / \"Happy Orc\"!"
+ },
+ {
+  "resource": 1205,
+  "message": 188,
+  "lines": 5,
+  "text": "Items that look / useless, in the / hands of yours / truly, become / amazing!"
+ },
+ {
+  "resource": 1205,
+  "message": 218,
+  "lines": 5,
+  "text": "Hmph, panicking / only now? How / foolish can / Duhan's soldiers / be?"
+ },
+ {
+  "resource": 1205,
+  "message": 221,
+  "lines": 5,
+  "text": "Well, Duhan's / soldiers / couldn't do / anything about / it anyway."
+ },
+ {
+  "resource": 1205,
+  "message": 240,
+  "lines": 5,
+  "text": "Vile: I'm / furious that / Ortrud, who was / merely lucky, / became Holy King,"
+ },
+ {
+  "resource": 1205,
+  "message": 293,
+  "lines": 5,
+  "text": "Zel: If you / find something, / don't rush to / find us and / waste time."
+ },
+ {
+  "resource": 1205,
+  "message": 378,
+  "lines": 5,
+  "text": "Next to the / Imp manager, / a partitioned / space had been / created."
+ },
+ {
+  "resource": 1205,
+  "message": 382,
+  "lines": 5,
+  "text": "Imp: The Lost / & Found space / has a sign: / \"Vigger Friends / Now Recruiting!\""
+ },
+ {
+  "resource": 1205,
+  "message": 417,
+  "lines": 5,
+  "text": "Imp: The Lost / & Found space / has a sign: / \"Vigger Friends / Now Recruiting!\""
+ },
+ {
+  "resource": 1205,
+  "message": 652,
+  "lines": 5,
+  "text": "Ogre: Hey, / welcome! / Welcome to / the Medal / Shop!"
+ },
+ {
+  "resource": 1205,
+  "message": 746,
+  "lines": 5,
+  "text": "Part-timer: / You met an orc / working part- / time at the / shop."
+ },
+ {
+  "resource": 1205,
+  "message": 758,
+  "lines": 5,
+  "text": "Melanie: / Melanie was / waiting alone / behind a door / in a passage."
+ },
+ {
+  "resource": 1205,
+  "message": 759,
+  "lines": 5,
+  "text": "She hadn't / noticed you yet / and was arguing / with a voice / behind the door."
+ },
+ {
+  "resource": 1205,
+  "message": 770,
+  "lines": 5,
+  "text": "\"Oh great! / Finally my / knight in / shining armor / is here!\""
+ },
+ {
+  "resource": 1205,
+  "message": 774,
+  "lines": 5,
+  "text": "\"It seems / locked, so / there might be / a switch to / open it!\""
+ },
+ {
+  "resource": 1205,
+  "message": 782,
+  "lines": 5,
+  "text": "\"What?! You're / just going to / watch me / suffer?! / What nerve!\""
+ },
+ {
+  "resource": 1205,
+  "message": 787,
+  "lines": 5,
+  "text": "Melanie: / Behind the / door, Melanie / was still / flustered."
+ },
+ {
+  "resource": 1205,
+  "message": 793,
+  "lines": 5,
+  "text": "\"Or what, you / regret turning / us down and / came crawling / back?\""
+ },
+ {
+  "resource": 1205,
+  "message": 794,
+  "lines": 5,
+  "text": "\"Well, I / suppose I / could give you / another / chance.\""
+ },
+ {
+  "resource": 1205,
+  "message": 881,
+  "lines": 5,
+  "text": "Indeed, I have / heard about / Aurora from / my father and / grandfather."
+ },
+ {
+  "resource": 1205,
+  "message": 886,
+  "lines": 5,
+  "text": "The key to / survival here / is avoiding / her at all / costs."
+ },
+ {
+  "resource": 1205,
+  "message": 888,
+  "lines": 5,
+  "text": "To possess the / power of a / god, yet use / it only for / such cruelty."
+ },
+ {
+  "resource": 1205,
+  "message": 896,
+  "lines": 5,
+  "text": "Am I / overthinking / it, to sense / some reason / behind it?"
+ },
+ {
+  "resource": 1205,
+  "message": 897,
+  "lines": 5,
+  "text": "Iris: The / witch Aurora / and the / Writhing / Demons!"
+ },
+ {
+  "resource": 1205,
+  "message": 898,
+  "lines": 5,
+  "text": "No one could / have imagined / such a crisis / unfolding / here."
+ },
+ {
+  "resource": 1208,
+  "message": 108,
+  "lines": 8,
+  "text": "Girl A: \"Wandering / alone here is / insane! I refuse!\" / Girl B: \"Then what?\" / Girl A: \"Let's post / a request in town / for help.\""
+ },
+ {
+  "resource": 1208,
+  "message": 106,
+  "lines": 7,
+  "text": "Girl A: \"That fool / is hopeless.\" / Girl B: \"You kept / calling him a fool, / so he ran off!\" / Girl A: \"I only / told the truth!\""
+ },
+ {
+  "resource": 1208,
+  "message": 107,
+  "lines": 7,
+  "text": "Girl B: \"Fools have / their uses! He had / endurance.\" / Girl A: \"True. He / carried our stuff / so we never had / to go back.\""
+ },
+ {
+  "resource": 1208,
+  "message": 43,
+  "lines": 6,
+  "text": "\"Even if I am killed, / I wish to fulfill my / duty as a princess.\""
+ },
+ {
+  "resource": 1208,
+  "message": 78,
+  "lines": 5,
+  "text": "Kunnal stood in the / middle of a clearing, / gazing up and muttering."
+ },
+ {
+  "resource": 1208,
+  "message": 159,
+  "lines": 5,
+  "text": "Orc: After the battle, / the branch shop owner / came running over."
+ },
+ {
+  "resource": 1208,
+  "message": 183,
+  "lines": 5,
+  "text": "A sign on the / counter reads: / \"Lost & Found OPEN! / Vigger Friends / new member signup!\""
+ },
+ {
+  "resource": 1208,
+  "message": 562,
+  "lines": 5,
+  "text": "\"that's the way of the / world, but Ortrud is / truly pitiful,\""
+ },
+ {
+  "resource": 1208,
+  "message": 565,
+  "lines": 5,
+  "text": "\"The grudges of those / killed while seizing / the throne have\""
+ },
+ {
+  "resource": 1208,
+  "message": 602,
+  "lines": 5,
+  "text": "\"that's the way of the / world, but Ortrud is / truly pitiful,\""
+ },
+ {
+  "resource": 1208,
+  "message": 605,
+  "lines": 5,
+  "text": "\"The grudges of those / killed while seizing / the throne have\""
+ },
+ {
+  "resource": 1208,
+  "message": 670,
+  "lines": 5,
+  "text": "\"The fee is 1000G / regardless of level. / Let me see how much\""
+ },
+ {
+  "resource": 1208,
+  "message": 722,
+  "lines": 5,
+  "text": "The Orc seemed to / remember you too and / came running happily."
+ },
+ {
+  "resource": 1208,
+  "message": 743,
+  "lines": 5,
+  "text": "Aoi: Mac Bain, Mac Bain / Loudun. I will never / forget this name."
+ },
+ {
+  "resource": 1208,
+  "message": 745,
+  "lines": 5,
+  "text": "You plundered the / village! You killed all / the innocent villagers."
+ },
+ {
+  "resource": 1208,
+  "message": 761,
+  "lines": 5,
+  "text": "Mac Bain: It is true / that we have done wrong / in many places."
+ },
+ {
+  "resource": 1208,
+  "message": 764,
+  "lines": 5,
+  "text": "Ever since I've been / stuck in this wretched / body, I have been"
+ },
+ {
+  "resource": 1208,
+  "message": 872,
+  "lines": 5,
+  "text": "Surely Webster didn't / hide her in the / labyrinth out of spite?"
+ },
+ {
+  "resource": 1208,
+  "message": 873,
+  "lines": 5,
+  "text": "In that meeting / with the elder, they / said Webster held the"
+ },
+ {
+  "resource": 1208,
+  "message": 876,
+  "lines": 5,
+  "text": "If it was a joint / effort with the king, / the princess would be"
+ },
+ {
+  "resource": 1209,
+  "message": 501,
+  "lines": 8,
+  "text": "Alchemist: I am a practitioner of alchemy. I make my living by inspecting the condition of those alchemically created dolls."
+ },
+ {
+  "resource": 1209,
+  "message": 502,
+  "lines": 8,
+  "text": "The survey is a flat 1000G, regardless of the number of dolls. I will see how far your Automata has progressed to get her own heart."
+ },
+ {
+  "resource": 1209,
+  "message": 69,
+  "lines": 7,
+  "text": "I'm afraid I'm a bit busy at the moment. I'm sorry, but if you don't have any business with me, you'll have to leave."
+ },
+ {
+  "resource": 1209,
+  "message": 194,
+  "lines": 7,
+  "text": "A stack of papers / read: \"To mark the / Event Venue opening, / Vigger Friends now / accept new members!\""
+ },
+ {
+  "resource": 1209,
+  "message": 604,
+  "lines": 7,
+  "text": "But don't you think that Webster's willingness to sacrifice his own soul to achieve his goals is what makes a man a hero?"
+ },
+ {
+  "resource": 1209,
+  "message": 613,
+  "lines": 7,
+  "text": "Ortrud killed all members of the royal family and nobles of Duhan in revenge for being cut off at the battle of Banquo."
+ },
+ {
+  "resource": 1209,
+  "message": 615,
+  "lines": 7,
+  "text": "That the Holy See actually abandoned the royal families and nobilities of Duhan in fear of reprisal from Ortrud?"
+ },
+ {
+  "resource": 1209,
+  "message": 629,
+  "lines": 7,
+  "text": "It's indeed strange to assume that the man who is called the Holy King would be unaware of a rebellion in his own ranks."
+ },
+ {
+  "resource": 1209,
+  "message": 26,
+  "lines": 6,
+  "text": "You forcibly subdued the Succubus, who was desperately and violently resisting."
+ },
+ {
+  "resource": 1209,
+  "message": 196,
+  "lines": 6,
+  "text": "There was a sign at the Imp's Event Space saying 'The Vigger Friends are currently accepting new members!'"
+ },
+ {
+  "resource": 1209,
+  "message": 231,
+  "lines": 6,
+  "text": "There was a sign at the Imp's Event Space saying 'The Vigger Friends are currently accepting new members!'"
+ },
+ {
+  "resource": 1209,
+  "message": 503,
+  "lines": 6,
+  "text": "What do you think? Let's find out how far along your Automata is in its development, shall we?"
+ },
+ {
+  "resource": 1209,
+  "message": 573,
+  "lines": 6,
+  "text": "We first saw him walking around with that grandpa in high spirits at that place with the Warrior God,"
+ },
+ {
+  "resource": 1209,
+  "message": 606,
+  "lines": 6,
+  "text": "His persistence and willpower would have made him a great man, if fate hadn't crossed his path."
+ },
+ {
+  "resource": 1209,
+  "message": 620,
+  "lines": 6,
+  "text": "Simzon, Lord Webster, and all the others who were attracted to this labyrinth died a horrible death."
+ },
+ {
+  "resource": 1209,
+  "message": 621,
+  "lines": 6,
+  "text": "I know it sounds crazy, but I can't help but think that this labyrinth itself is some kind of eerie entity."
+ },
+ {
+  "resource": 1209,
+  "message": 626,
+  "lines": 6,
+  "text": "I think I finally understand what Priest Fouquet was trying to tell me at the church back then."
+ },
+ {
+  "resource": 1209,
+  "message": 628,
+  "lines": 6,
+  "text": "Remember when earlier, the man called Cell said that the King was aware of everything?"
+ },
+ {
+  "resource": 1209,
+  "message": 54,
+  "lines": 5,
+  "text": "In Yoppen's room, Yoppen was silently staring at the Succubus, who was still sleeping."
+ },
+ {
+  "resource": 1209,
+  "message": 134,
+  "lines": 5,
+  "text": "Emilia: Fortunately, she's only sleeping because she's extremely tired."
+ },
+ {
+  "resource": 1209,
+  "message": 142,
+  "lines": 5,
+  "text": "I've been watching over Her Highness with my ninjas under the orders of His Majesty Ortrud."
+ },
+ {
+  "resource": 1209,
+  "message": 192,
+  "lines": 5,
+  "text": "There was a space divided by a pile of wood in one corner of the store."
+ },
+ {
+  "resource": 1209,
+  "message": 193,
+  "lines": 5,
+  "text": "The words 'Event Space' were written on a plaque that was affixed at the entrance."
+ },
+ {
+  "resource": 1209,
+  "message": 562,
+  "lines": 5,
+  "text": "If anything happens to the princess, it will be all my fault! I might as well die too!!"
+ },
+ {
+  "resource": 1209,
+  "message": 572,
+  "lines": 5,
+  "text": "If you don't hurry up and rescue the princess, everything will go wrong!"
+ },
+ {
+  "resource": 1209,
+  "message": 588,
+  "lines": 5,
+  "text": "Emilia: You'll find Lord Webster and the alchemists in the room over there."
+ },
+ {
+  "resource": 1209,
+  "message": 616,
+  "lines": 5,
+  "text": "If he had known about it, would he still have allied himself with the Holy See?"
+ },
+ {
+  "resource": 1209,
+  "message": 624,
+  "lines": 5,
+  "text": "But there is no other place in the world as full of death as this labyrinth."
+ },
+ {
+  "resource": 1209,
+  "message": 631,
+  "lines": 5,
+  "text": "If they had been too uncareful, their heads could have been all on a spike by now."
+ },
+ {
+  "resource": 1209,
+  "message": 632,
+  "lines": 5,
+  "text": "Were they actually waiting all this time for Lord Webster to turn tail?"
+ },
+ {
+  "resource": 1209,
+  "message": 633,
+  "lines": 5,
+  "text": "If that was actually the case, then they were kind of prick-teasing him."
+ },
+ {
+  "resource": 1210,
+  "message": 169,
+  "lines": 6,
+  "text": "Even if we fail, / someone will / surely slay the / dark ones and / bring peace / to Venoa."
+ },
+ {
+  "resource": 1210,
+  "message": 173,
+  "lines": 6,
+  "text": "You must be what / Ortrud called / the Guardian -- / protector of / the people from / the dark ones."
+ },
+ {
+  "resource": 1210,
+  "message": 192,
+  "lines": 6,
+  "text": "The trap to slay / the dark ones / should have used / all the energy. / I too should / have shut down."
+ },
+ {
+  "resource": 1210,
+  "message": 758,
+  "lines": 6,
+  "text": "And the reader / shall praise the / great mage Conde / who lived happily / -- or so I'd / like to say,"
+ },
+ {
+  "resource": 1210,
+  "message": 91,
+  "lines": 5,
+  "text": "What sins have / we committed / that the gods / must endure such / trials?"
+ },
+ {
+  "resource": 1210,
+  "message": 158,
+  "lines": 5,
+  "text": "Aurora: Living / long enough, one / may encounter / such rare / meetings."
+ },
+ {
+  "resource": 1210,
+  "message": 159,
+  "lines": 5,
+  "text": "When the dark ones / stir again, / ancient warriors / who fought them / rise once more,"
+ },
+ {
+  "resource": 1210,
+  "message": 163,
+  "lines": 5,
+  "text": "The dark ones will / emerge again, / tormenting all / life and ruining / the land."
+ },
+ {
+  "resource": 1210,
+  "message": 164,
+  "lines": 5,
+  "text": "Just as death / reaches everyone, / they can never / truly be / destroyed."
+ },
+ {
+  "resource": 1210,
+  "message": 167,
+  "lines": 5,
+  "text": "After a terrible / battle at Banquo / where corpses / piled high, / he told me:"
+ },
+ {
+  "resource": 1210,
+  "message": 168,
+  "lines": 5,
+  "text": "All will be fine. / No matter how / dark it gets, / someday we will / prevail."
+ },
+ {
+  "resource": 1210,
+  "message": 172,
+  "lines": 5,
+  "text": "And Ortrud kept / his promise, / raising a warrior / to slay the / dark ones."
+ },
+ {
+  "resource": 1210,
+  "message": 193,
+  "lines": 5,
+  "text": "In the endlessly / long time since, / I have asked / myself that / countless times."
+ },
+ {
+  "resource": 1210,
+  "message": 231,
+  "lines": 5,
+  "text": "Next to Imp's / booth, a space / sectioned off by / crates had been / created."
+ },
+ {
+  "resource": 1210,
+  "message": 233,
+  "lines": 5,
+  "text": "A sign read: / 'Event Hall Open! / Vigger Friends / New Members / Welcome!'"
+ },
+ {
+  "resource": 1210,
+  "message": 603,
+  "lines": 5,
+  "text": "He drew me from / despair and gave / me purpose with / his merciful / hand!"
+ },
+ {
+  "resource": 1210,
+  "message": 620,
+  "lines": 5,
+  "text": "Monsters have / been appearing / everywhere, / attacking / people."
+ },
+ {
+  "resource": 1210,
+  "message": 691,
+  "lines": 5,
+  "text": "Aurora: Brave / soldiers of / San-Goth bear / the danger / of darkness."
+ },
+ {
+  "resource": 1210,
+  "message": 692,
+  "lines": 5,
+  "text": "One by one, dark / flames flicker / and die, offering / lives as light / to the dark lord."
+ },
+ {
+  "resource": 1210,
+  "message": 694,
+  "lines": 5,
+  "text": "A being that / feeds on life / and grows via / suffering is / being unleashed."
+ },
+ {
+  "resource": 1210,
+  "message": 765,
+  "lines": 5,
+  "text": "Walking through / the labyrinth / feels like / sinking into / an abyss."
+ },
+ {
+  "resource": 1210,
+  "message": 766,
+  "lines": 5,
+  "text": "Monsters emerge, / yet God's true / face is still / nowhere to be / seen."
+ },
+ {
+  "resource": 1210,
+  "message": 767,
+  "lines": 5,
+  "text": "For me now, only / my comrades' / faith is the one / light in the / darkness."
+ },
+ {
+  "resource": 1210,
+  "message": 774,
+  "lines": 5,
+  "text": "Aurora met Ortrud / at Banquo. She / saved his life in / exchange for / a promise."
+ },
+ {
+  "resource": 1211,
+  "message": 559,
+  "lines": 7,
+  "text": "I never / imagined this / promised land / would also hold / my most / cherished / memories."
+ },
+ {
+  "resource": 1211,
+  "message": 618,
+  "lines": 7,
+  "text": "As long as / Ortrud is in / Duhan, even if / the Demon King / allied with / the world, we / would not fear."
+ },
+ {
+  "resource": 1211,
+  "message": 558,
+  "lines": 6,
+  "text": "Nowhere else / possesses magic / strong enough to / forge weapons / against the / dark ones."
+ },
+ {
+  "resource": 1211,
+  "message": 603,
+  "lines": 6,
+  "text": "That was exactly / like the tales / of the great / King Ortrud / I heard as / a child."
+ },
+ {
+  "resource": 1211,
+  "message": 605,
+  "lines": 6,
+  "text": "overcoming all / hardship, / fighting against / overwhelming / evil -- Venoa's / light."
+ },
+ {
+  "resource": 1211,
+  "message": 606,
+  "lines": 6,
+  "text": "I feel as though / I've been taught / the true / meaning of / being a / warrior."
+ },
+ {
+  "resource": 1211,
+  "message": 622,
+  "lines": 6,
+  "text": "What purpose do / we, God's / servants, have / if we cannot / serve those / people's eyes?"
+ },
+ {
+  "resource": 1211,
+  "message": 8,
+  "lines": 5,
+  "text": "Aurora: Ortrud / is dead. He fell / where we can / never meet or / weep again."
+ },
+ {
+  "resource": 1211,
+  "message": 12,
+  "lines": 5,
+  "text": "If death isn't / the end, then / perhaps his / actions make / some sense."
+ },
+ {
+  "resource": 1211,
+  "message": 32,
+  "lines": 5,
+  "text": "Beltan: We're / comrades! Why / take on / everything / alone!?"
+ },
+ {
+  "resource": 1211,
+  "message": 76,
+  "lines": 5,
+  "text": "Next to Imp's / booth, a space / sectioned off by / crates had been / created."
+ },
+ {
+  "resource": 1211,
+  "message": 78,
+  "lines": 5,
+  "text": "A sign read: / 'Event Hall Open! / Vigger Friends / New Members / Welcome!'"
+ },
+ {
+  "resource": 1211,
+  "message": 532,
+  "lines": 5,
+  "text": "Your arrival / means that you / must have slain / the dark one / Majikim."
+ },
+ {
+  "resource": 1211,
+  "message": 533,
+  "lines": 5,
+  "text": "Impressive. When / I saw those / creatures at / Banquo, I felt / only despair."
+ },
+ {
+  "resource": 1211,
+  "message": 552,
+  "lines": 5,
+  "text": "Aurora: If you / had heeded my / words, you could / have lived on / happily."
+ },
+ {
+  "resource": 1211,
+  "message": 557,
+  "lines": 5,
+  "text": "For me, this is / the promised / land I searched / for across / countless years."
+ },
+ {
+  "resource": 1211,
+  "message": 607,
+  "lines": 5,
+  "text": "Can one rise / and fight for / others even / when broken and / facing death?"
+ },
+ {
+  "resource": 1211,
+  "message": 609,
+  "lines": 5,
+  "text": "I still have far / to go! Someday, / I hope to face / death with such / courage!"
+ },
+ {
+  "resource": 1211,
+  "message": 611,
+  "lines": 5,
+  "text": "After the battle / in Gilten, I / watched him / return with his / comrades."
+ },
+ {
+  "resource": 1211,
+  "message": 613,
+  "lines": 5,
+  "text": "But if his / people perished / and the peace he / fought for was / all a lie!"
+ },
+ {
+  "resource": 1211,
+  "message": 615,
+  "lines": 5,
+  "text": "Yet he kept / searching for a / way to slay / the dark ones / all this time!"
+ },
+ {
+  "resource": 1211,
+  "message": 621,
+  "lines": 5,
+  "text": "Surely someone / is watching. Even / if no one sees, / God knows what / we do."
+ },
+ {
+  "resource": 1211,
+  "message": 627,
+  "lines": 5,
+  "text": "If Ortrud knew / about the dark / ones, why didn't / he tell / everyone?"
+ },
+ {
+  "resource": 1211,
+  "message": 628,
+  "lines": 5,
+  "text": "If the nation / united, couldn't / they have found / a way to / defeat them?"
+ },
+ {
+  "resource": 1211,
+  "message": 631,
+  "lines": 5,
+  "text": "some would / surely try to / use this as / a chance to / wage war."
+ },
+ {
+  "resource": 1211,
+  "message": 632,
+  "lines": 5,
+  "text": "Thinking about / it, people / are just as / formidable as / the dark ones."
+ },
+ {
+  "resource": 1211,
+  "message": 633,
+  "lines": 5,
+  "text": "Bearing this / burden alone / for 25 years / must have been / heartbreaking."
+ },
+ {
+  "resource": 1349,
+  "message": 4,
+  "lines": 6,
+  "text": "When the orc battle ended / and you caught your breath, / the shopkeeper came rushing back."
+ },
+ {
+  "resource": 1352,
+  "message": 9,
+  "lines": 8,
+  "text": "[DEBUG] Melanie/Ekunnal: This is / blur version 3. / A local filter is applied / to the message text."
+ },
+ {
+  "resource": 1352,
+  "message": 15,
+  "lines": 8,
+  "text": "[DEBUG] Melanie/Ekunnal: This is / blur version 6. / A local filter is applied / to the message text."
+ },
+ {
+  "resource": 1352,
+  "message": 18,
+  "lines": 8,
+  "text": "[DEBUG] Melanie/Ekunnal: This is / blur version 7. / A local filter is applied / to the message text."
+ },
+ {
+  "resource": 1352,
+  "message": 0,
+  "lines": 5,
+  "text": "[DEBUG] Melanie/Ekunnal: This is the / normal version so far."
+ },
+ {
+  "resource": 1354,
+  "message": 20,
+  "lines": 5,
+  "text": "The Rune Knights / of Gilten brought / 7 nations under / their rule in / just 2 years."
+ },
+ {
+  "resource": 1354,
+  "message": 83,
+  "lines": 5,
+  "text": "I am Lord / Webster, Ferry / Leffort. Grand / chancellor of / this kingdom."
+ },
+ {
+  "resource": 1354,
+  "message": 86,
+  "lines": 5,
+  "text": "Webster: Come, / this way. King / Ortrud awaits. / Tell him about / the strike force."
+ },
+ {
+  "resource": 1354,
+  "message": 92,
+  "lines": 5,
+  "text": "We must face the / enemy united. / Such incidents / cannot be / ignored."
+ },
+ {
+  "resource": 1354,
+  "message": 215,
+  "lines": 5,
+  "text": "Zel: I received / word that you / encountered / bandits on the / 3rd floor."
+ },
+ {
+  "resource": 1355,
+  "message": 7,
+  "lines": 9,
+  "text": "Knight: I don't know / what you're thinking, but / no matter how many times / you come, the answer / is the same."
+ },
+ {
+  "resource": 1355,
+  "message": 3,
+  "lines": 7,
+  "text": "Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted."
+ },
+ {
+  "resource": 1355,
+  "message": 10,
+  "lines": 7,
+  "text": "Knight: I hate to repeat / myself, but I cannot let / anyone without clearance / pass through."
+ },
+ {
+  "resource": 1355,
+  "message": 4,
+  "lines": 6,
+  "text": "Knight: Or do you have / something that permits / entry into the labyrinth?"
+ },
+ {
+  "resource": 1355,
+  "message": 8,
+  "lines": 5,
+  "text": "Knight: I cannot let / anyone without clearance / pass through."
+ }
+]

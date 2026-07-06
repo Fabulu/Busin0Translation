@@ -1,0 +1,888 @@
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:74 | EN_HITS=priest
+ JP=lv３プリースト / 
+ EN=Lv3 Priest / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:75 | EN_HITS=priest
+ JP=lv５プリーステス / 
+ EN=Lv5 Priestess / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:76 | EN_HITS=priest
+ JP=lv８プリースト / 
+ EN=Lv8 Priest / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:77 | EN_HITS=priest
+ JP=ハイプリースト / 
+ EN=High Priest / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:78 | EN_HITS=priest
+ JP=マスタープリーステス / 
+ EN=Master Priestess / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:79 | EN_HITS=priest
+ JP=アークプリースト / 
+ EN=Archpriest / 
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:46 | EN_HITS=priest
+ JP=プリーステス
+ EN=Priestess
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:49 | EN_HITS=priest
+ JP=lv１プリースト
+ EN=Lv1 Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:74 | EN_HITS=priest
+ JP=lv３プリースト
+ EN=Lv3 Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:75 | EN_HITS=priest
+ JP=lv５プリーステス
+ EN=Lv5 Priestess
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:76 | EN_HITS=priest
+ JP=lv８プリースト
+ EN=Lv8 Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:77 | EN_HITS=priest
+ JP=ハイプリースト
+ EN=High Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:78 | EN_HITS=priest
+ JP=マスタープリーステス
+ EN=Master Priestess
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:79 | EN_HITS=priest
+ JP=アークプリースト
+ EN=Arch Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:112 | EN_HITS=god
+ JP= 開 神 
+ EN=Open God
+
+FILE=data/type2_translated/batch_02.json KEY=1199:0 | EN_HITS=god
+ JP=階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+ EN=The Medal filled with / the power of valor / returned to the gods.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:12 | EN_HITS=god
+ JP=もし彼神が、アレイドを力度して戦う[0495][0597]の戦帰を力に入れなければ、
+ EN=If the gods cannot / obtain warriors made / by uniting Allayed,
+
+FILE=data/type2_translated/batch_02.json KEY=1199:18 | EN_HITS=god
+ JP=そのくれを彼神は、[028E]者の思大を[04CE]じ込める剣によって、倒携しようとしたのだ。
+ EN=The gods tried to / overcome this with a / sword sealing souls.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:39 | EN_HITS=god
+ JP=ついに[049D]元できた。置形の呪[0487]、オートマターが彼神の両に良を抜したのだ。
+ EN=At last, complete. / The cursed Automata / stands before the gods.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:100 | EN_HITS=holy
+ JP=そう言って、エルフの与放は[0417]町[0297]げに着多んだ。
+ EN=So saying, the elf / woman smiled / with melancholy.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:104 | EN_HITS=clerk
+ JP=かなり[0417][0418]した[01BC]所のピクシーがギルドの人[0219]者らしき跡美を高び限めて、一今宿に質し専めた。
+ EN=A rather agitated / pixie called the / clerk and began talking.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:105 | EN_HITS=clerk
+ JP=ピクシーイねえ、ちょっとちょっと クレタが備えられる魔法剣がほしいんだけど ゴ跡美イえ！ク、クレタ！ですか！ゴピクシーイそう、クレタ [0419]の[041A]思のクレタよ ここで以れるんでしょ ゴ
+ EN=Pixie: Hey, hey! / I want a magic stone / with Kreta! / Clerk: K-Kreta?! / Pixie: Yeah, Kreta. / The light Kreta.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:106 | EN_HITS=clerk
+ JP=跡美イで！でで！でしたら、あの！合封に必[0409]な議著はお持ちいただけましたか？ゴピクシーイ合封？ 議著？？何よ、何がいるってのよ ゴ跡美イクレタでしたら！その！向魔の血を２つとか！ゴ
+ EN=Clerk: Do you have / the materials? / Pixie: Materials? / What do I need? / Clerk: For Kreta, / two demon bloods!
+
+FILE=data/type2_translated/batch_02.json KEY=1199:107 | EN_HITS=clerk
+ JP=ピクシーイそんな[0141]持ち向いものどうやって持ってくんの ゴ跡美イえぇぇ！そ！そんな！魔法剣合封毒の議著はか、[041B]値ご毒客いただくと！そういう携まりですので！ゴピクシーイキィィィィ  もういい アンタなんかに頼まない [01AB]るわよ  メラーニエ ゴ少女イ・・・・・・・・・ゴ
+ EN=Pixie: How do I get / those?! Clerk: You / must bring them! / Pixie: Grr! Forget / it! Let's go, / Melanie! Girl: ...
+
+FILE=data/type2_translated/batch_02.json KEY=1199:108 | EN_HITS=clerk
+ JP=信将していた跡美にたんかを該ったピクシーが、[041C]の[01BC]な勲影で欠んできた。
+ EN=The pixie who had / snapped at the clerk / flew over angrily.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:122 | EN_HITS=clerk
+ JP=すぐさま、ピクシーを品らせた跡美が入り口までやってきた。
+ EN=The clerk came to / the counter after / dealing with pixie.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:128 | EN_HITS=clerk
+ JP=跡美は質しかけるかのように[03D1]り言をつぶやいて、また元いた場暗へ戻った。
+ EN=The clerk muttered / complaints, then / returned to her desk.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:188 | EN_HITS=clerk
+ JP=名成の忠には、既にメラーニエともう一者優臆美ギルドの[0412]買社であるエルフの跡美がいた。
+ EN=Upstairs, Melanie / and an elf clerk / from the guild waited.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:193 | EN_HITS=clerk
+ JP=クンナルというのは、ギルドの[0412]買社である跡美のことらしい。
+ EN=Kunnar was the elf / clerk working at / the guild.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:0 | EN_HITS=god
+ JP=階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+ EN=The Medal filled with / the power of valor / returned to the gods.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:1 | EN_HITS=temple
+ JP=テュルゴー制[033F]の奥から話いで休ってくる与の良があった。
+ EN=From the depths of / Thurgo's temple came / a familiar figure.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:19 | EN_HITS=pray
+ JP=者神は野に見えない棒宿な主を感じ取るべく、ひざまずき一目に戻りを部げていた。
+ EN=The people knelt, / praying to sense / an invisible force.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:21 | EN_HITS=priest,temple
+ JP=義恵、制[033F]の鎧[028F]を安る開[0343]の[04D1]び声が聞こえてきた。
+ EN=Suddenly, a / priest's loud cry / echoed through / the temple.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:24 | EN_HITS=priest
+ JP=開[0343]らしき与が彼女を漢いかけて帰ている。
+ EN=A priest was / chasing after her.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:25 | EN_HITS=priest
+ JP=ちょうどの両で、開[0343]は彼女に漢いついた。
+ EN=Right here, the / priest caught up / to her.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:26 | EN_HITS=priest
+ JP=開[0343]なぜ、あなたはそのような仰力な[04A6][0526]をなさるのですか 
+ EN=Priest: Why do / you commit such / a reckless act?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:28 | EN_HITS=god
+ JP=そんな辺[05EC]法な行功を損がお[01E4]しになるとお思いですか。
+ EN=Do you think God / would approve of / such unlawful acts?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:29 | EN_HITS=priest
+ JP=開[0343]は品りのせいで、顔は然ざめ今にも逃忘しそうである。
+ EN=The priest's face / was pale with anger, / about to collapse.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:30 | EN_HITS=priest
+ JP=シスター開[0343][01BC]にご[0190]倒いただけないのは、法しいことです！。
+ EN=Sister: It pains / me that the priest / will not understand!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:31 | EN_HITS=altar,pray
+ JP=シスターはそう言って、戻りを部げる者神に召出を上した。
+ EN=The sister prayed / before the altar / and turned her gaze.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:32 | EN_HITS=temple
+ JP=者神の中に時怖、[033A]彼をした者の良が見える。
+ EN=In the temple, / you could see the / faces of believers.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:33 | EN_HITS=temple
+ JP=行の盗でも制[033F]は泊者に将してさまざまな[0346][034F]を宝すが、ここでは騎騎者属の[0340]者が唱いのが場[0349]であった。
+ EN=The temple offers / various services, / but those in need / of healing are many.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:37 | EN_HITS=priest
+ JP=開[0343][01BC]もあのシムゾンさんの事をご武知のはずです。
+ EN=Priest, surely you / know of that man / Simzon.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:44 | EN_HITS=pray
+ JP=あなたの役野は、[036D]うことであって戦うことではないはずです。
+ EN=Your role is to / pray, not to fight.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:45 | EN_HITS=temple
+ JP=いまあなたを必[0409]としているのは、携して本隊や騎騎者ではありません。この制[033F]にいる者神なのです。
+ EN=Those who need you / now are not the / troops but the people / in this temple.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:46 | EN_HITS=priest
+ JP=シスターはうつむき、開[0343]の言[0387]に[033C]を[05EB]けていたが、
+ EN=The sister bowed / her head, listening / to the priest's words.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:49 | EN_HITS=temple,holy
+ JP=彼神制[033F]の武器[0190]器はただ一つ、すべての向しき物から者神を内る[05EE]でなければならないと。
+ EN=The one weapon of / the holy temple / must shield the people / from all evil.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:51 | EN_HITS=priest
+ JP=開[0343][01BC]がおっしゃることはわかります。
+ EN=Priest, I / understand what / you are saying.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:53 | EN_HITS=god
+ JP=あの迷宮は、損の声すら十かない階に持まれています。
+ EN=That labyrinth is / shrouded in darkness / where God's voice / cannot reach.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:54 | EN_HITS=god
+ JP=損の[05F2]であるならそれを知りながら、見[048B]てるわけにはいきません。
+ EN=As a servant of / God, I cannot / simply look away.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:58 | EN_HITS=god
+ JP=騎騎者の今よ。余が嫌違っているのでしょうか。
+ EN=O people of God, / am I the one who / is mistaken?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:62 | EN_HITS=pray
+ JP=！しかし、もうこうなっては、彼女の信[05EA]が迷宮で汝わぬよう戻るしかありません。
+ EN=But now I can only / pray that her faith / will not be lost.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:63 | EN_HITS=priest
+ JP=開[0343]は冒を落とし、さびしげな[0390][016A]を呪かべながら、[0343][036B]の今へ王いていった。
+ EN=The priest lowered / his head and walked / sadly back to / his chambers.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:64 | EN_HITS=god
+ JP=くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。
+ EN=Investigate. / Curiosity? / Topics 1-10 / Shadow Check / Lab anger / God's grace? / Cursed Allayed 1-8 / Request completed.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:65 | EN_HITS=priest
+ JP=開[0343]フーケイおやおやおや、お待ちしておりましたよゴ
+ EN=Priest Fouquet: / Oh my, I've been / expecting you.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:66 | EN_HITS=priest,temple
+ JP=制[033F]に入るや[054B]や、[0343][036B]で書き物をしていた開[0343]が力を限めて多づいてきた。
+ EN=Upon entering / the temple, the / priest at his desk / came to greet you.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:67 | EN_HITS=temple
+ JP=骨場の者から支[0442]がありました。何今が彼がサレム制[033F]の力[0375]いをしたいという今でしょう？
+ EN=I received word / from the tavern. / You wish to help / Salem Temple, yes?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:69 | EN_HITS=priest
+ JP=余が開[0343]のフーケと申します。魔装、お見知りおきを。
+ EN=I am Priest / Fouquet. Pleased / to make your / acquaintance.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:71 | EN_HITS=temple
+ JP=あなたは彼が制[033F]で[0346][034F]や[054C]生を行った員験がおありかな？
+ EN=Have you ever had / any treatment or / healing done at / a temple before?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:76 | EN_HITS=temple
+ JP=そのせいで、[054F]め[0343]られるべき彼がサレム制[033F]が、あまりにもぞんざいに[0550]われている。
+ EN=Because of this, / Salem Temple, / which should be / revered, is treated / with contempt.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:86 | EN_HITS=priest
+ JP=[0343][036B][01CD]のパイプオルガンが法しい[0554][0515]を[0555]で専める。その系発にあわせて、求手は[0556]いの許を許う。開[0343]は[0437][0423]の宮外に力をかざし、間さく戻りの[041A]思を[04CB]えはじめた。そして難倒な[041A]思の言[0387]を議早く、しかし[0339][0336]な[049A]系で脱度となく[0421]り大す。退嫌は野を勉じ、[049D]込を[036A]う言[0387]を冒く。
+ EN=A pipe organ plays / a sad melody. The / choir sings a hymn / of requiem. The / priest places his / hand above the body / and begins chanting.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:87 | EN_HITS=priest
+ JP=しばらくすると、開[0343]のかざす力の[038B]から、損神しい険のオーラがうっすらと抜れはじめた。険は少しずつ、ゆっくりと[0437][0423]へと上っていく。険が[0437][0423]用[02A1]を持み込み界き専めたその時、[0557]のようだった力がほんのり捷かくなり[0558]かながらも退嫌の力を石り大した。
+ EN=A divine aura / emerges from the / priest's hand and / slowly descends / into the body. As / warmth returns, the / companion grips / the hand tighter.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:91 | EN_HITS=temple
+ JP=これぞ、制[033F]で[054C]生を売みる[055E][055F]町と言えましょう。
+ EN=This is the ideal / way to perform / resurrection / at a temple.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:111 | EN_HITS=temple
+ JP=骨場の者から支[0442]がありました。何今が彼がサレム制[033F]の力[0375]いをしたいという今でしょう？
+ EN=I received word / from the tavern. / You wish to help / Salem Temple, yes?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:112 | EN_HITS=priest
+ JP=余が開[0343]のフーケと申します。魔装、お見知りおきを。
+ EN=I am Priest / Fouquet. Pleased / to make your / acquaintance.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:117 | EN_HITS=priest
+ JP=開[0343]は少し習数を向くしたのか辺[0390][016A]のまま重を向けて[0343][036B]へと戻って行った。
+ EN=The priest turned / away expressionless / and returned to / his desk.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:119 | EN_HITS=priest
+ JP=制[033F]を防ろうとした時、開[0343]に高び限められた。
+ EN=As you were about / to leave, the priest / called out.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:126 | EN_HITS=temple
+ JP=そのせいで、[054F]め[0343]られるべき彼がサレム制[033F]が、あまりにもぞんざいに[0550]われている。
+ EN=Because of this, / Salem Temple, / which should be / revered, is treated / with contempt.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:128 | EN_HITS=priest
+ JP=こちらに[0141]がついた開[0343]に高びかけられた。
+ EN=The priest noticed / you and called out.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:135 | EN_HITS=temple
+ JP=そのせいで、[054F]め[0343]られるべき彼がサレム制[033F]が、あまりにもぞんざいに[0550]われている。
+ EN=Because of this, / Salem Temple, / which should be / revered, is treated / with contempt.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:136 | EN_HITS=temple
+ JP=フーケフーケ制[033F]からの依頼を[0565]行するための[03DB]受は地っている。
+ EN=Fouquet: The / preparations for / Fouquet's temple / quest are ready.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:137 | EN_HITS=priest
+ JP=フーケ開[0343]を高びますか？は いいいえ
+ EN=Fouquet: Call the priest? / Yes / No
+
+FILE=data/type2_translated/batch_02.json KEY=1200:138 | EN_HITS=priest
+ JP=野待たないようにフーケ開[0343]を短く力考きした。
+ EN=You gave the / priest a subtle / signal to not keep / him waiting.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:139 | EN_HITS=priest,temple
+ JP=合[056A]に[0141]着いた開[0343]もまた、なるべく者野につかないように制[033F]の壁つたいに記をかがめて間休りでやってきた。
+ EN=The priest, having / noticed the signal, / crept along the / temple wall to / meet you quietly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:143 | EN_HITS=temple
+ JP=では余が今から、制[033F]にいる一[046C][03DE]掲の[04F3]客をひきつけます。
+ EN=Now I'll draw / the attention of / the public inside / the temple.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:146 | EN_HITS=temple
+ JP=なるべく早くお[036A]いしますよ。彼がサレム制[033F]の[0514]帰がかかっているのですから。
+ EN=Please hurry. The / reputation of / Salem Temple is / at stake.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:149 | EN_HITS=priest,temple
+ JP=開[0343]は義恵、制[033F]の義にも聞こえるかのような兜声をあげた。
+ EN=The priest cried / out loudly, as if / the whole temple / could hear.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:150 | EN_HITS=temple
+ JP=制[033F]長にいた者は岩いてこちらに[04F3]野する。
+ EN=Everyone in the / temple turned to / look.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:151 | EN_HITS=temple
+ JP=そればかりか制[033F]着多にいた人[0219]の辺い者までもが、何事かと制[033F]長に[01D7]し復せた。
+ EN=Even those outside / the temple rushed / in to see what / was happening.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:153 | EN_HITS=priest
+ JP=一[04C4]のうちに、開[0343]を来む者[056E]ができた。
+ EN=In an instant, / a crowd formed / around the priest.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:156 | EN_HITS=temple
+ JP=そこで、わらにもすがる思いで彼がサレム制[033F]へ力け込まれたというわけなのです 
+ EN=In desperation, / they have come to / Salem Temple for / salvation!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:162 | EN_HITS=temple
+ JP=そうなってはもう彼が制[033F]でも[054C]生は大[01DD]築。
+ EN=Then not even / Salem Temple / could help.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:164 | EN_HITS=temple
+ JP=さあ、[0405]める騎騎者よ。あなた値腕の力で、彼が制[033F]へ[054C]生のためのお[0268]宝をしてください。
+ EN=Come, suffering / adventurer. Offer / your gold to Salem / Temple for the / resurrection.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:168 | EN_HITS=priest
+ JP=開[0343]は何も言わず種っている。ただ[0170]瓶へリーダーを運くよう力で気し悔している。
+ EN=The priest waits / silently, pointing / to the bed to / lay the leader.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:169 | EN_HITS=priest
+ JP=開[0343]は何も言わず種っている。     ただ[0170]瓶へリーダーを運くよう     力で気し悔している。         a[000E][0170]瓶に瓶らせる          b[000E][0170]瓶に[0464]かせる          c[000E][0170]瓶の忍に御らせる        
+ EN=The priest waits silently, pointing to the bed. // Lay on the bed / Sit on the bed / Lean against the bed
+
+FILE=data/type2_translated/batch_02.json KEY=1200:171 | EN_HITS=priest
+ JP=イリーダーは[028E]んでいるのですから生きている時と同じようにはいきませんよ！ゴ開[0343]は協神しい口道で質しながらリーダーの力を果み合わせ、[0339][0336]に[02A1]前を地えた。
+ EN='A corpse doesn't / move like a living / person!' The priest / positioned the / hands and adjusted / the body properly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:174 | EN_HITS=priest
+ JP=イこれこれ、リーダーの[028E]で[0141]が功子しているのはわかるが、もう少し、しっかりしなさい。[054C]生の[0487][042C]を行うのですよゴ開[0343]の力を[0588]り、リーダーの[028E][02A1]を慎めて[0170]瓶の外へ[0464]かせた。開[0343]のフォローに[03D0]得したのか者神も[0587][0489]をやめ、また整れみの[0390][016A]を呪かべた。
+ EN='Now now, I know / the leader's death / upsets you, but / please compose / yourself.' The priest / helped you move / the body properly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:175 | EN_HITS=priest,pray
+ JP=イ彼神一[046C][03DE]掲は、この今のように[01BA]をかけて[0514]知の場暗へ[03D4]む達[0141]ある騎騎者がいるからこそ、よりよい生込[0589][058A]を分けるのですゴ開[0343]はリーダーの顔に送い[0268]をかけて、野を勉じ[03AA]力を合わせた。そしてそのまま、[0553][03A6]を[01B5]けている。その時、開[0343]の[03A2]加がコツンと[0170]瓶の酬を[032E]き、[033D]系にかきけされそうな間さな系を[049A]した。
+ EN="Brave adventurers / risk their lives / so we may live / in peace." The / priest laid a cloth / over the face and / began to pray.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:178 | EN_HITS=priest
+ JP=開[0343]の合[056A]にあわせて、[0170]瓶の[04A6]ん中で[058B]る[0437][0423]を少し自の今へ復せて、[0170]瓶へ庫りあお向けになり、野を勉じた。
+ EN=Following the / priest's signal, you / shifted the body / slightly and lay / beside it, face up / with eyes closed.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:180 | EN_HITS=priest,temple
+ JP=・・・・・・・・・・・・・・・・・・・・制[033F]長は鎧まり大っている。すぐ多くで開[0343]や唱くの杯掲が見ているはずなのに、何の系も過の声も聞こえない。このまま[058E]種が[01B5]いても一今がないので野を開けてみた。
+ EN=Silence filled the / temple. Though the / priest and crowd / watched, no sound / could be heard. / You opened your / eyes after waiting.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:181 | EN_HITS=priest,pray
+ JP=腕、法しいような[0141]まずいような[03CB][033D]な[0390][016A]で見つめていた。開[0343]はまだ[0553][03A6]を[01B5]けているため、抜回を[0190]倒していないようだ。罰の[0562][0542]に[046D]えて、おとなしく[0170]瓶を都りリーダーの良前を高した装、元神待っていた場暗へ戻った。
+ EN=Everyone stared / with mixed feelings. / The priest was / still praying. You / quietly stepped / down and returned / to your place.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:182 | EN_HITS=temple
+ JP=より[0297]い法しみを[0390]抜するため、[01CD]たわるリーダーにしがみつき兜声で年き[04D1]んだ。一目大遅にリーダーの[028E][02A1]を[0372]さぶり、[04B5]の[01AE]から[04D1]ぶ声は制[033F]用[02A1]に経き渡った。あまりの声の兜きさに見ている者は[0446][0141]にとられている。
+ EN=To express deeper / grief, you clung / to the body and / wailed loudly, / shaking it. Your / cries echoed / through the temple.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:185 | EN_HITS=priest
+ JP=イ！そろそろ[0487][042C]を専めましょうゴ[0553][03A6]をしていた開[0343]は鎧かに野を開けると、リーダーの顔を番う[0268]を取り[049B]いた。そして多くにいた女求手に間声で質しかけ何かを気悔した。女求手は[0343][036B]の今まで行き、[042D]りの求手達に自に気悔を[0197]げた。
+ EN='Let us begin.' / The priest opened / his eyes and / removed the cloth. / He whispered to / the choir, who / began to play.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:186 | EN_HITS=priest,pray
+ JP=開[0343]の気悔があってから嫌もなく、[0343][036B][01CD]のパイプオルガンが法しい[0554][0515]を[0555]で専めた。その系発にあわせて、求手は[0556]いの許を許う。選合わせた見物落達も一[058F]に[0553][03A6]を専めた。
+ EN=Soon after the / priest's signal, the / pipe organ played / a sorrowful melody / as the crowd joined / in prayer.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:187 | EN_HITS=priest,holy
+ JP=開[0343]は[0437][0423]の宮外に力をかざし、間さく戻りの[041A]思を[04CB]えはじめた。そして難倒な[041A]思の言[0387]を議早く、しかし[0339][0336]な[049A]系で脱度となく[0421]り大す。
+ EN=The priest placed / his hand above the / body and began / chanting the holy / words softly but / with precision.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:188 | EN_HITS=priest,pray
+ JP=開[0343]は[0437][0423]の宮外に力をかざし、    間さく戻りの[041A]思を[04CB]えはじめた。   そして難倒な[041A]思の言[0387]を       議早く、しかし[0339][0336]な[049A]系で      脱度となく[0421]り大す。         a[000E]戻りの言[0387]を[04CB]える        b[000E]戻りの許を[0529][04CB]する        c[000E]戻りのダンスを[0590]る        
+ EN=The priest placed / his hand above the / body and began / chanting. / a: Chant the prayer / b: Sing an original / c: Dance a prayer
+
+FILE=data/type2_translated/batch_02.json KEY=1200:189 | EN_HITS=pray,holy
+ JP=[0553][03A6]中の見物落達は[0510]って同じ思店を打[04CB]している。その長[0199]は、[055A]の[049D]込を[036A]う戻りの言[0387]であった。見物落と同じように、[0553][03A6]して戻りの言[0387]を目をこめて口ずさんだ。
+ EN=The praying crowd / was reciting the / same prayer. You / joined them, / chanting the holy / words sincerely.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:193 | EN_HITS=pray
+ JP=[054C]生を[036A]う系武とともに[0590]るダンス。リーダーとの[0150]会を[036A]う目が生み出した[0529]い[0590]りで、リーダーへの[03A6]いの[0297]さを[0143]道した。[0553][03A6]していた杯掲達は[0141][03CF]で[0141]着いたのか、野を見開いてくいいるように[0590]る良を見つめている。！だが、その召出は[03C3]ややかだった。
+ EN=A dance of prayer / for resurrection. / The crowd watched / in stunned silence, / but their reaction / was warm.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:194 | EN_HITS=priest,pray
+ JP=やがて、求手の[0562][0555]している戻りの[0593]が編わりにさしかかろうとしたので、リーダーの力をしっかりと石り種って[0553][03A6]した。復しいオルガンの系と鑑くてよく通る開[0343]の声が、宮の中でこだまする。用ての系が限んだのは、客識が[01C5]れ専めた時であった。
+ EN=As the organ's / melody neared its / end, you gripped / the leader's hand / and prayed. The / priest's voice echoed / as consciousness / faded.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:195 | EN_HITS=priest
+ JP=野を開くと、開[0343]のかざす力の[038B]から損神しい険のオーラがうっすらと抜れ専めていた。
+ EN=Opening your eyes, / a divine golden / aura was emerging / from the priest's / hands.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:198 | EN_HITS=priest
+ JP=開[0343]の[054C]生[0487][042C]により、は辺事、[054C]った。
+ EN=Through the priest's / ceremony, [name] / was safely revived.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:199 | EN_HITS=priest
+ JP=開[0343]の[054C]生[0487][042C]により、        辺事、[049D]込することができた。     a[000E]退嫌の力をはらいのける      b[000E][028E]んでいるふりをする       c[000E]退嫌の力を石る          
+ EN=Through the priest's / ceremony, you were / safely resurrected. / a: Push companion away / b: Pretend to be dead / c: Hold companion's hand
+
+FILE=data/type2_translated/batch_02.json KEY=1200:202 | EN_HITS=priest
+ JP=品りを[0596]にする見物落の[01BC]所に開[0343]は択ててフォローを専めた。イ違うんです  [0474]じて違う 彼は息を[04FE]き大したばかりで[0141]が功子しているのです [028E]ぬ嫌[023A]の[01BF][01C0]が[054C]ったのです ゴそう言って開[0343]は、[03AA]力を取り兜声で[04D1]び専めた。イ汝はもう生き大ったんだ なにも呪がることはないんだよ さあ、ゆっくり顔きたまえ！ゴ
+ EN='It's not like / that! They just / woke up confused!' / The priest cried / out: 'You're alive / now! Nothing to / fear! Wake up!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:203 | EN_HITS=priest
+ JP=品りを[0596]にする見物落の[01BC]所に開[0343]は択ててフォローを専めた。イ違うんです  [0474]じて違う 彼女は息を[04FE]き大したばかりで[0141]が功子しているのです [028E]ぬ嫌[023A]の[01BF][01C0]が[054C]ったのです ゴそう言って開[0343]は、[03AA]力を取り兜声で[04D1]び専めた。イ汝はもう生き大ったんだ なにも呪がることはないんだよ さあ、ゆっくり顔きたまえ！ゴ
+ EN='It's not like / that! She just / woke up confused!' / The priest cried / out: 'You're alive / now! Nothing to / fear! Wake up!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:205 | EN_HITS=temple
+ JP=イちょっと、ちょっと！汝[0499]しちゃったんじゃない！？ゴイでも[028E]者の[054C]生に汝[0499]したら[0567]になってしまうはずじゃ！ゴイそこはほら、魔法とか秘と制[033F]の違いってやつじゃない？ゴイ！きっと、生き大るべき武器じゃなかったってことだよ！そんなことよりも、こういう場合はお[0268]宝の大臆できるのかな！ゴ
+ EN='Did it fail?!' / 'But failed revivals / turn to ash!' / 'Temples are / different from / magic?' 'Can we / get a refund?!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:207 | EN_HITS=priest
+ JP=開[0343]はそう言うと、値色の力を[041D]へあててみた。[02A1]の配もりから、[049D]込を探信した開[0343]は元の落ち果いた口道に戻り、[0150]び口を開いた。イご目[03CF]なく、ちゃんと[02A1]配も戻っています。さん。さあ顔きて！ゴ
+ EN=The priest checked / your pulse and / confirmed success, / then calmly said: / 'The pulse has / returned. [name], / please wake up!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:216 | EN_HITS=temple
+ JP=イわざわざ制[033F]まで帰て、こんな[01A8]い臆払うほどの[01DC]長、どう必えてもねえなゴイ制[033F]なんて[0471]義だけど、魔法や秘だって[044A][02A1]ないわゴイこんなにひどいパーティもある客町仲しいね！ゴイもう一回、[028E]にやがれ ゴ
+ EN='Coming all the / way here for this? / Not worth it!' / 'Temples are just / for show.' 'What a / terrible party!' / 'Go die again!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:217 | EN_HITS=temple
+ JP=見物落達は腕、[05E5][05E6]して制[033F]を出て行ってしまった。
+ EN=The onlookers / left the temple / in disgust.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:218 | EN_HITS=priest
+ JP=見物落達が[0447]用に場暗を払れてから、開[0343]がまた多づいてきた。
+ EN=After the crowd / had fully left, / the priest / approached again.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:220 | EN_HITS=temple
+ JP=いやあ、[05E1][04A6]の[0562][0542]でした あなた今のおかげで、彼が制[033F]のイメージもよくなったようです 
+ EN=Wonderful acting! / Thanks to you, / Salem Temple's / image has improved!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:221 | EN_HITS=temple
+ JP=しばらくすれば、泊に忘れ制[033F]にかけこむ[03DE]掲が話追するに違いないでしょう 
+ EN=Soon, the sick and / injured will come / rushing to the / temple, no doubt!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:223 | EN_HITS=priest,holy
+ JP=開[0343]は報女のマントと一同にお臆の入った[0444]をよこした。
+ EN=The priest handed / over a Holy Mantle / and a pouch of / gold.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:227 | EN_HITS=priest
+ JP=０１２３４５６７８９−開役属マントを力に入れた 
+ EN=0123456789- / Received a / Priestess Mantle.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:235 | EN_HITS=priest
+ JP=開[0343]はしぶしぶ、力に持っていた報女のマントを差し出した。
+ EN=The priest handed / over the reward / mantle grudgingly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:236 | EN_HITS=temple
+ JP=彼が制[033F]に板れる者が追えなければ、それは探者にあなた今のせいですからね。
+ EN=If fewer people / come to Salem / Temple, it will be / your fault.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:238 | EN_HITS=temple
+ JP=そして、録を[0360]うつもりで彼が制[033F]にいっそう加を稼ぶべきなのです 
+ EN=And you should / devote more effort / to Salem Temple / to make amends!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:240 | EN_HITS=priest
+ JP=０１２３４５６７８９−開役属マントを力に入れた 
+ EN=0123456789- / Received a / Priestess Mantle.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:243 | EN_HITS=temple
+ JP=一[02A1]あなた今は何なのですか 彼が制[033F]をおとしめようとするいかがわしい[05E3]役の者か？ 
+ EN=What exactly are / you people?! Shady / agents trying to / ruin Salem Temple?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:246 | EN_HITS=temple
+ JP=彼が制[033F]、そして余はあなた今に一生色の[05E4]を[05C6]りたくられたのです 
+ EN=Salem Temple and / I have been scarred / for life because / of you!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:247 | EN_HITS=god
+ JP=ああ！損よ！これは、あなた[01BC]による売練なのですか！
+ EN=Oh God! Is this / your trial for us?!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:248 | EN_HITS=priest
+ JP=開[0343]は[03AA]力を果み、[01C9]に向かってつぶやいている。
+ EN=The priest clasped / his hands, muttering / toward the heavens.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:249 | EN_HITS=priest
+ JP=しばらく見つめていると、召出に[0141]着いた開[0343]が兜声でどなった。
+ EN=After staring / for a while, the / priest shouted.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:250 | EN_HITS=temple
+ JP=！いつまでいるんですか とっとと待ち防るがいい 彼が個乙をこれ魔外交すな 
+ EN=How long will you / stay?! Get out! / Never set foot / in this temple again!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:251 | EN_HITS=priest
+ JP=開[0343]に漢い出された！。
+ EN=You were thrown out / by the priest!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:0 | EN_HITS=god
+ JP=階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+ EN=The Medal filled with / the power of valor / returned to the gods.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:19 | EN_HITS=priest,pray
+ JP=コンデ[01BC]を[0549]ながらに[03D6]り出し、何度も何度も、[0381]の辺事を戻ってくださった開[0343][01BC]をお[01C7]れですか？
+ EN=Do you not / remember the priest / who prayed for / your safe return / with tears?
+
+FILE=data/type2_translated/batch_02.json KEY=1201:95 | EN_HITS=clerk
+ JP=近所に入ってみると、受着カウンターをはさんで、ドワーフの戦帰と受着のエルフの[0438]が、言い調っている険[01E5]が欠び込んできた。
+ EN=At the front desk, / a dwarf warrior / and the elf clerk / were in a heated / argument.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:96 | EN_HITS=clerk
+ JP=受着イですからお落[01BC]、ダメですってゴ戦帰イだから何でダメなんだ？ゴ受着イそんな兜きな[04F8]を持って   盗うろついたりしちゃ、   男隊さんに[0462]られます ゴ戦帰イな～にが男隊さんだ。   そんな間さいこと[0141]にするなゴ
+ EN=Clerk: Sir, I said / you can't! / Warrior: Why not?! / Clerk: You can't / walk around with / such a huge axe! / Warrior: What's / the big deal?
+
+FILE=data/type2_translated/batch_02.json KEY=1201:97 | EN_HITS=clerk
+ JP=戦帰イオルトルード息王は男隊達に   とって[04F9][0420]にあたるよな。   そうすれば、さしずめ俺は   [04F7][04F9]さんみたいなものだゴ受着イ！はあ、そうなんですかゴ戦帰イその[04F7][04F9]さんが[047A]しぶりに   [04FB]びに帰ているのに、   所[0285]が品る辺[0368]はしなかろうゴ
+ EN=Warrior: Ortrud's / soldiers are like / grandchildren! / Clerk: I see... / Warrior: Grandpa / came to visit, so / no complaints!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:98 | EN_HITS=clerk
+ JP=受着イなんかわからないですけど、   [0462]られたって余の[04ED][04AA]じゃない   ですからねゴ戦帰イガハハハ、兜集遺兜集遺ゴ
+ EN=Clerk: I don't get / it, but if you / get caught it's / not my fault! / Warrior: Gahaha! / Fair enough!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:125 | EN_HITS=clerk
+ JP=近正チケットをフロントの者に見せた
+ EN=Showed the Lodging / Ticket to the / front desk clerk.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:134 | EN_HITS=clerk
+ JP=店社イフドウ[001D]ゲンパク[01BC]ですね？少神お待ちくださいませ！ゴ
+ EN=Clerk: Mr. Fudou / Genpaku? Please / wait a moment.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:150 | EN_HITS=clerk
+ JP=店社イ申し[0559]ございません。お落[01BC]より、焼は通すなと[05EA]せつかっております！ゴ
+ EN=Clerk: I'm sorry, / our guest has / instructed us not / to let anyone / through.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:153 | EN_HITS=clerk
+ JP=店社イフドウ[001D]ゲンパク[01BC]ですね？少神お待ちくださいませ！ゴ
+ EN=Clerk: Mr. Fudou / Genpaku? Please / wait a moment.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:0 | EN_HITS=god
+ JP=階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+ EN=The Medal filled with / the power of valor / returned to the gods.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:1 | EN_HITS=god
+ JP=くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。
+ EN=Investigate. Curiosity? Topics 1-10 Shadow Check Lab anger God's grace? // Cursed Allayed 1-8 Request completed.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:76 | EN_HITS=priest,monk
+ JP=戦帰せんし魔美解まじゅつし[02E0]決とうぞく求手そうりょ[01E3]帰きし開役しきょう高者にんじゃ焼さむらい優臆美解れんきんじゅつしモンクモンク探決ぎぞく個[01E3]帰せいきし扱[01E3]帰くろきし紹基おんみつ[02E4]本しょうぐん[033A][02E0]かいとうそこまで一[0141]に質すと、モッチと[018A]銀ったオークはハッと何かに[0141]づいた[01BC]所で話に質をやめた。
+ EN=Fighter, Mage, Thief, Priest, Knight, Bishop, // Ninja, Samurai, Alchemist, Monk, Rogue, Crusader. // Mott suddenly realized something.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:0 | EN_HITS=god
+ JP=階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+ EN=The Medal that sealed / the demon's power / was offered to the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:1 | EN_HITS=god
+ JP=くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。
+ EN=Explore / Ability? / Misc1-10 / ShadowChk / Appraise / Gods? / Alleid1-8 / Request done.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:89 | EN_HITS=pray
+ JP=[055A]ですら[0435]名してしまうような造まじい階の[05A1][0141]の中、[0327]つき[04B0]みどろになった[06C3]習[06C4]がひざまずき、一目大遅に戻りを部げていた。
+ EN=Amid terrible / dark energy, a / battered cleric / knelt in prayer.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:91 | EN_HITS=god
+ JP=どのような録を種したせいで、彼神はこのような売練に[06BF]わねばならないのでしょう？
+ EN=What sins have / we committed / that the gods / must endure such / trials?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:93 | EN_HITS=pray
+ JP=脱度となく[0421]り大された戦遅！、
+ EN=Countless prayers / offered!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:97 | EN_HITS=god
+ JP=掲は過もが損の[0362]目の出抜を信じたのです。
+ EN=the people believed / in the god's / true radiance.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:102 | EN_HITS=god
+ JP=[06C3]習[06C4]はそこで[0160]めて、値色の野にするものが損などではないことに[0141]づいた。
+ EN=The cleric then / realized what / he beheld was / no god at all.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:104 | EN_HITS=god
+ JP=イ損よ！なぜ彼神を！！！ 見[048B]てたもうたか！！ゴ
+ EN=My god! Why!!! / Have you forsaken / them!!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:113 | EN_HITS=god
+ JP=お両のように損を忘そうという者もいるにはいたわ。
+ EN=There were those / like you who tried / to slay the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:150 | EN_HITS=god
+ JP=イ損神の[058B]りを備ますものが、 まだ退っていますゴ
+ EN=The one who can / stop the gods' / wrath still / remains.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:165 | EN_HITS=god
+ JP=それが損の[05C2][0190]なんじゃないかしら？
+ EN=Perhaps that is / the gods' will?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:197 | EN_HITS=god
+ JP=[0297][0452]なる[01D1]を倒き全かせるのが損ならば、そのようなものはいない。
+ EN=If a god who / could move all / creation existed, / it does not.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:209 | EN_HITS=clerk
+ JP=オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+ EN=The battle ended. / The branch store / clerk came / rushing back.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:218 | EN_HITS=clerk
+ JP=カウンターには店社として[05A5]われたらしき魔物がいる。
+ EN=At the counter / was a monster / hired as a clerk.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:600 | EN_HITS=god
+ JP=ランゴバルト話げ、話ぐのじゃ！損がその[0362]良を抜される時が多い。
+ EN=Langobalt: Flee! / God is about / to reveal his / true face!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:601 | EN_HITS=god
+ JP=いと[01A8]き[036D]い消にして彼らの消がこのランゴバルトに[0480]りかけてこられた。
+ EN=In his most noble / voice, God spoke / to Langobalt.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:606 | EN_HITS=pray,bless,god
+ JP=[01CC]いなるかな、損はなんじらの[0159]向なる[055A]ですらお[036D]いになられる。
+ EN=Blessed are you, / for God answered / even your humble / prayers!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:607 | EN_HITS=god
+ JP=損は民却された、すべての録はあらい棄され、損の王息に上え入れられると。
+ EN=God has promised: / all sins shall / be washed away / and accepted / into his kingdom!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:611 | EN_HITS=bless
+ JP=さあ彼のもとに得うのだ考かれる者は[01CC]いなり彼の[04B0]と[04F6]となって[04FD][047A]の[01F3][02B1]を得るだろうランゴバルトおお、腕の者聞いたか！。
+ EN=Go to him the followers shall be blessed with his flesh and gain eternal joy. // Langobalt: Did you hear that!?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:612 | EN_HITS=god
+ JP=！損が、損がお[02EC]えになられた。
+ EN=God... God has / spoken to us!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:627 | EN_HITS=holy
+ JP=さっさと法王庁に戻り、値らの級[04A4]について、[0655]全を売みるべきではないのか？
+ EN=Return to the / Holy See and / report on your / actions!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:630 | EN_HITS=god
+ JP=[0327]を魔い[01CD]たわるこの余のかたわらに待ち、損はこう申された。
+ EN=Wounded, God stood / beside me and / spoke:
+
+FILE=data/type2_translated/batch_07.json KEY=1210:632 | EN_HITS=god
+ JP=損の[049D]込を[059D]げることは、[06AB][0545]に落ちても[01E4]されぬ暗買。
+ EN=To defy God's / prophecy is / unforgivable!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:633 | EN_HITS=god
+ JP=このランゴバルト、[01BA]をかけても消の[049D]込を見十ける暗武であります。
+ EN=This Langobalt / will see God's / prophecy through, / even at the cost / of his life!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:644 | EN_HITS=god
+ JP=イ損の[0362][018A]にて[0197]げる。    個[0528]よ、その個なる鎧にて  [0159]なる者どもを一[06C7]せよ ゴ
+ EN=By God's name I / command: Monsters, / with thy armor, / purge the impure!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:646 | EN_HITS=god
+ JP=ふん、これが何[01BC]の[02EC]えか？
+ EN=Hmph, is this / your god's / answer?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:680 | EN_HITS=god
+ JP=探か、損が[049D]込するなどとほざいておったな。
+ EN=Indeed, he was / babbling about / God's prophecy.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:681 | EN_HITS=holy,god
+ JP=法王庁でも一属新わった与だから、損だの知[03DA]などを持ち出すのは壁度のことだが、
+ EN=At the Holy See / he was an / eccentric, so / talk of gods is / nothing new,
+
+FILE=data/type2_translated/batch_07.json KEY=1210:685 | EN_HITS=god
+ JP=あやつの言う損と何らかの人[0219]があるやもしれぬな！。
+ EN=It may be related / to what he calls / his god!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:751 | EN_HITS=god
+ JP=損の見えざる力に運かれ、彼神は得い、乙にはびこる向を討つため、ここにやって帰た。
+ EN=Guided by God's / unseen hand, you / came to fight / the evil here.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:766 | EN_HITS=god
+ JP=乙[0545]からあのような魔物が良を抜すのに、損の[0362]良は[0514]だどこにも見えない。
+ EN=Monsters emerge, / yet God's true / face is still / nowhere to be / seen.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:771 | EN_HITS=god
+ JP=余にとって、騎騎者さんや[02E0]決さんのほうが、損のをを悔してくれている。
+ EN=To me, adventurers / and comrades show / God's will far / more clearly!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:772 | EN_HITS=priest
+ JP=余、もし生き退ることができたら、ハリスで選[058B]りをしている法王[01BC]をぶん[0612]ってやるつもりです。
+ EN=If I survive, / I'm punching that / pompous high / priest in Haris!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:0 | EN_HITS=god
+ JP=階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+ EN=The Medal that sealed / the demon's power / was offered to the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:1 | EN_HITS=god
+ JP=くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。
+ EN=Explore / Ability? / Misc1-10 / ShadowChk / Appraise / Gods? / Alleid1-8 / Request done.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:7 | EN_HITS=god
+ JP=イいま一者の達者が 損のもとに[01AB]っていったゴ
+ EN=Another warrior / has gone to join / the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:54 | EN_HITS=clerk
+ JP=オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+ EN=The battle ended. / The branch store / clerk came / rushing back.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:63 | EN_HITS=clerk
+ JP=カウンターには店社として[05A5]われたらしき魔物がいる。
+ EN=At the counter / was a monster / hired as a clerk.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:351 | EN_HITS=god
+ JP=女損の剣商に[01E9]まれていた思[021E]はいつの嫌にか消えてしまっていた。
+ EN=The will once / sealed in the / goddess sword / has faded away.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:352 | EN_HITS=god
+ JP=よく見ると、女損の剣商の忍追腕には思[021E]が[01E9]まれていた。
+ EN=Looking closely, / the goddess / sword's inner / side still holds / sealed memories.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:353 | EN_HITS=holy
+ JP=ー個なる[05B1]つの損[048F]を[03D0]める        [01E3]帰、個なる[055A]を近すー
+ EN=Gather the 5 / sacred relics / and the knight / shall receive / holy power.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:355 | EN_HITS=god
+ JP=魔法[05EF]の険は女損商に[01D0][04E5]し言[0387]を呪かび外がらせている。
+ EN=The circle's / light synced with / the goddess / sword, forming / words.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:357 | EN_HITS=holy
+ JP=個なる[05B1]つの損[048F]を[03D0]めた[01E3]帰、そなたに個なる[055A]をさずけよう
+ EN=Having gathered / the 5 sacred / relics, holy / power is / bestowed upon / the knight.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:360 | EN_HITS=holy
+ JP=個[01E3]帰の[055A]が近った 
+ EN=Obtained the / Holy Knight's / power!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:361 | EN_HITS=holy
+ JP=騎騎者ギルドで個[01E3]帰への子長が[01DD]築になりました。
+ EN=Holy Knight class / is now available / at the Guild!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:362 | EN_HITS=holy
+ JP=個[01E3]帰の鎧を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's armor? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:363 | EN_HITS=holy
+ JP=個[01E3]帰の鎧を[0574][03D0]した 
+ EN=Collected Holy / Knight's armor!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:366 | EN_HITS=holy
+ JP=個[01E3]帰の力[04F8]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's gauntlet? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:367 | EN_HITS=holy
+ JP=個[01E3]帰の力[04F8]を[0574][03D0]した 
+ EN=Collected Holy / Knight's gauntlet!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:370 | EN_HITS=holy
+ JP=個[01E3]帰の[06E0]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's helm? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:371 | EN_HITS=holy
+ JP=個[01E3]帰の[06E0]を[0574][03D0]した 
+ EN=Collected Holy / Knight's helm!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:374 | EN_HITS=holy
+ JP=個[01E3]帰の[01E0]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's boots? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:375 | EN_HITS=holy
+ JP=個[01E3]帰の[01E0]を[0574][03D0]した 
+ EN=Collected Holy / Knight's boots!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:378 | EN_HITS=holy
+ JP=個[01E3]帰の[05EE]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's shield? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:379 | EN_HITS=holy
+ JP=個[01E3]帰の[05EE]を[0574][03D0]した 
+ EN=Collected Holy / Knight's shield!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:382 | EN_HITS=holy
+ JP=個[01E3]帰の間力を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's sword? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:383 | EN_HITS=holy
+ JP=個[01E3]帰の間力を[0574][03D0]した 
+ EN=Collected Holy / Knight's sword!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:386 | EN_HITS=holy
+ JP=個王の[047D][049E]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // King's gauntlet? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:387 | EN_HITS=holy
+ JP=個王の[047D][049E]を[0574][03D0]した 
+ EN=Collected Holy / King's gauntlet!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:390 | EN_HITS=god
+ JP=女損の剣商に[01E9]まれていた思[021E]はいつの嫌にか消えてしまっていた。
+ EN=The will once / sealed in the / goddess sword / has faded away.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:391 | EN_HITS=god
+ JP=よく見ると、女損の剣商の忍追腕には思[021E]が[01E9]まれていた。
+ EN=Looking closely, / the goddess / sword's inner / side still holds / sealed memories.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:392 | EN_HITS=holy
+ JP=ー戦いに[0496]いし王の[061C]つの宝を     [03D0]めし[01E3]帰、[0159]向なる[055A]を近すー
+ EN=Gather the 4 / ancient king's / treasures and / the knight shall / receive holy / power.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:394 | EN_HITS=god
+ JP=魔法[05EF]の険は女損商に[01D0][04E5]し言[0387]を呪かび外がらせている。
+ EN=The circle's / light synced with / the goddess / sword, forming / words.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:396 | EN_HITS=holy
+ JP=[0496]いし王の[061C]つの損[048F]を[03D0]めた[01E3]帰、そなたに[0159]向なる[055A]をさずけよう
+ EN=Having gathered / the ancient / king's treasures, / holy power is / bestowed.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:592 | EN_HITS=god
+ JP=生こそ損のたわむれなのだよ。
+ EN=Life itself is / but a game / of the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:594 | EN_HITS=god
+ JP=[05E8][05F0]者の[04D1]び声が経き渡る中、余は損にくうた。
+ EN=Amid the cries / of victims, / I questioned / the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:596 | EN_HITS=god
+ JP=損が部りしとされる生[01BA]を余は安[03F1]し、そして新たに[01BA]を[04FE]き込んだ。
+ EN=I destroyed the / lives the gods / cherish, and / breathed new / life into them.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:597 | EN_HITS=god
+ JP=そして[0141]づいたのだよ損など、どこにも選ないとね。
+ EN=And I realized: / there are no / gods anywhere.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:621 | EN_HITS=god
+ JP=きっと過かが見ていてくれている、過かが見ていないとしても損は必ず値色の行いを知っておられる。
+ EN=Surely someone / is watching. Even / if no one sees, / God knows what / we do.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:622 | EN_HITS=god
+ JP=余達、損の[05F2]は、そういった者神の目の声に信えなければ、何の[01DC]長があるでしょう？
+ EN=What purpose do / we, God's / servants, have / if we cannot / serve those / people's eyes?
+
+FILE=data/type2_translated/batch_intro_narration.json KEY=1193:99 | EN_HITS=holy
+ JP=かつて三十年もの長きにわたってドゥーハン王国を血と恐怖に陥れた戦争があった。王国の人口を２／３までに減少させたその悲惨な戦いはバンクォーの戦いと人々に記憶される。死霊に取り憑かれたサンゴート王が獣人を率い、攻め入ってきたのが、そもそもの発端であったが戦火はベノア全土に広がった。一人の英雄が現れなければ、ドゥーハン王国は、地上から消えていたであろう。後に聖王と呼ばれるオルトルードである。彼はサンゴートを打ち破り、ドゥーハン王国に平和と繁栄を取り戻した。それから二十年
+ EN=For thirty long years, / a war plunged the / Kingdom of Duhan / into blood and terror. // The devastating / conflict, which cut / the kingdom's people / to two-thirds, // would be remembered / as the Battle / of Banquo. // It was the king of / San-Goth, possessed / by a death spirit, / who led his beastmen / forth to attack -- // that was how it / all began. // The fires of war / spread across / all of Venoa. // Had one hero not / appeared, the Kingdom / of Duhan would have / vanished from the / face of the earth. // He was Ortrud, / later known as / the Holy King. // He defeated San-Goth / and restored peace / and prosperity to / the Kingdom of Duhan. // Twenty years / have since passed...
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:132 | EN_HITS=bless
+ JP=ブレス
+ EN=Bless
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:182 | EN_HITS=holy
+ JP=宝全体に使条果ダメージを与える
+ EN=Deals holy damage to all enemies.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:185 | EN_HITS=holy
+ JP=宝１体に使条果ダメージを与える
+ EN=Deals holy damage to a single enemy.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:191 | EN_HITS=holy
+ JP=宝１容に使条果ダメージを与える
+ EN=Deals holy damage to an enemy group.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:207 | EN_HITS=holy
+ JP=宝全体に使条果ダメージを与える
+ EN=Deals holy damage to all enemies.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:279 | EN_HITS=holy
+ JP=前内[0x0367]の２人でホーリーシンボルを切り、解力なディスペ 
+ルを行う。不開族に対して、有大な消呪がある。
+ EN=A front and back row member trace a holy
+symbol and perform a powerful Dispel.
+Extremely effective against undead.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:281 | EN_HITS=monk
+ JP=スレイクラッシュが、モンクの追加によって変除したもの。
+２人が気力をこめて宝像をかけ向け、そして帰る。行きと 
+帰りでダメージを与え、かつ不開族を倒すことができる。
+ EN=Evolved Slay Crash with a Monk.
+Two members charge through the enemy with
+spirit energy, dealing damage on the charge
+and return, and can destroy undead.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:342 | EN_HITS=church
+ JP=[0x0375]がサレム教会の著り発用を
+世にひろく知らしめるという、立派な
+依頼をまかせてあげてもかまいませんよ。
+ EN=I don't mind entrusting you with the noble
+task of spreading the healing power of the
+Church of Salem throughout the world.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:362 | EN_HITS=priest,church
+ JP=わたしの体をさがしてください。
+わたしはずっとむかし、ひとりで
+あやしいきょうかいにしのびこんだとき
+こわいかおのしきょうさまに
+ころされてしまいました。
+ EN=Please find my body.
+A long time ago, I snuck into
+a suspicious church all by myself.
+A scary-faced priest
+killed me.
+

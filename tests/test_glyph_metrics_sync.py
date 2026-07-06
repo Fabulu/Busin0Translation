@@ -51,19 +51,19 @@ import _reloc_v147_design as RELOC  # noqa: E402  (relocation single-source)
 PATCHED_EXE = os.path.join(ROOT, "build", "SLPM_653.78_patched")
 P14_TBL1 = 0x3C75E4   # canonical advance LUT, 256B  (VA 0x4C7564)
 P14_TBL2 = 0x3C7710   # canonical left-shift,  256B  (VA 0x4C7690)
-# v158 R2100 tables (chargen/request UI font — consumed by Patches 26/27/29/31)
-# v170: relocated to the dead libgraph trailing pad, 95B each.
-ADV2_FO = RELOC.fo(RELOC.ADV2_VA)   # file off VA 0x4AF338
-LSH2_FO = RELOC.fo(RELOC.LSH2_VA)   # file off VA 0x4AF398
+# v173 FINAL BATTLE-FIX: the v158 R2100 tables are DROPPED (they softlocked battle at
+# EVERY arena placement).  ADV2_VA/LSH2_VA now ALIAS the canonical R1188 tables
+# (0x4C7564/0x4C7690), and the OLD arena-start hole 0x4B1000/0x4B1100 ships PRISTINE-ZERO
+# (== the battle fix).  Pin those two regions zero.
+ARENA_ADV2_FO = RELOC.fo(0x4B1000)   # old R2100 ADV2 slot -- must ship zero
+ARENA_LSH2_FO = RELOC.fo(0x4B1100)   # old R2100 LSH2 slot -- must ship zero
 P14_HOOK1 = 0x209820  # VA 0x3097A0  -> j 0x4C7540 (production gate marker 0x08131D50)
 P14_HOOK2 = 0x2097D0  # VA 0x309750  -> j 0x4C7670 (production 0x08131D9C)
 P14_HOOK1_WORD = RELOC.P14_HOOK1_JWORD
 P14_HOOK2_WORD = RELOC.P14_HOOK2_JWORD
 ARENA_LO, ARENA_HI = RELOC.ARENA_LO, RELOC.ARENA_HI
 # The PsII libgraph SDK data block that the prior (over-engineered) v147 corrupted.
-# v170 narrowed HI 0x4AF400 -> 0x4AF338 (proven descriptor end); 0x4AF338..0x4AF400
-# now holds the relocated R2100 tables, so only 0x4AF2E0..0x4AF338 must stay pristine.
-LIBGRAPH_LO, LIBGRAPH_HI = 0x4AF2E0, 0x4AF338
+LIBGRAPH_LO, LIBGRAPH_HI = 0x4AF2E0, 0x4AF400
 
 
 def test_g1_built_exe_tables_match_metrics():
@@ -94,24 +94,21 @@ def test_g1_built_exe_tables_match_metrics():
         "got 0x%06X/0x%06X -- a relocated table copy is the title-hang bug" % (RELOC.ADV_VA, RELOC.LSH_VA)
     )
 
-    # v170: the R2100 tables (chargen/request UI font) are 95B each, byte-identical to
-    # glyph_metrics.adv2_table_95()/leftshift2_table_95(), in the FREE200 dead libgraph
-    # pad (0x4AF338..0x4AF400): ADV2+95<=LSH2 and LSH2+95<=0x4AF400.
-    assert (RELOC.ADV2_VA + 95 <= RELOC.LSH2_VA
-            and RELOC.LSH2_VA + 95 <= 0x4AF400), (
-        "RELOC.ADV2_VA/LSH2_VA moved (0x%06X/0x%06X) -- they must stay in the "
-        "dump-verified FREE200 pad 0x4AF338..0x4AF400 (ADV2+95<=LSH2, LSH2+95<=0x4AF400)"
-        % (RELOC.ADV2_VA, RELOC.LSH2_VA)
+    # v173 FINAL BATTLE-FIX: the R2100 tables are DROPPED (they softlocked battle at every
+    # arena placement).  ADV2_VA/LSH2_VA ALIAS the canonical R1188 tables, the chargen/request
+    # caves read the canonical ADV/LSH, and the OLD arena-start hole 0x4B1000/0x4B1100 must
+    # ship PRISTINE-ZERO (== the battle fix).
+    assert RELOC.ADV2_VA == RELOC.ADV_VA == 0x4C7564 and RELOC.LSH2_VA == RELOC.LSH_VA == 0x4C7690, (
+        "v173: RELOC.ADV2_VA/LSH2_VA must ALIAS the canonical tables (0x4C7564/0x4C7690); "
+        "got 0x%06X/0x%06X -- an in-arena R2100 table softlocked battle" % (RELOC.ADV2_VA, RELOC.LSH2_VA)
     )
-    got_adv2 = data[ADV2_FO:ADV2_FO + 95]
-    got_lsh2 = data[LSH2_FO:LSH2_FO + 95]
-    assert got_adv2 == glyph_metrics.adv2_table_95(), (
-        "patched EXE R2100 ADV2 table @file 0x%X != glyph_metrics.adv2_table_95() "
-        "(the chargen/request caves would desync)" % ADV2_FO
+    assert data[ARENA_ADV2_FO:ARENA_ADV2_FO + 256] == b"\x00" * 256, (
+        "arena-start hole 0x4B1000 is NOT zero in the built EXE -- an in-arena R2100 table "
+        "shipped (the battle-softlock regression the v173 fix removes)"
     )
-    assert got_lsh2 == glyph_metrics.leftshift2_table_95(), (
-        "patched EXE R2100 LSH2 table @file 0x%X != glyph_metrics.leftshift2_table_95()"
-        % LSH2_FO
+    assert data[ARENA_LSH2_FO:ARENA_LSH2_FO + 256] == b"\x00" * 256, (
+        "arena-start hole 0x4B1100 is NOT zero in the built EXE -- an in-arena R2100 table "
+        "shipped (the battle-softlock regression the v173 fix removes)"
     )
 
     h1 = struct.unpack_from("<I", data, P14_HOOK1)[0]
@@ -160,15 +157,16 @@ def test_g1b_relocated_caves_below_arena():
     f = RELOC.fo(RELOC.P27_VA)
     got = [struct.unpack_from("<I", data, f + i * 4)[0] for i in range(len(RELOC.P27_WORDS))]
     assert got == list(RELOC.P27_WORDS), "relocated P27 cave words != design module"
-    # the P27 cave reads the R2100 ADV2 table (lui 0x4A + lbu 0xF338, ADV2_VA=0x4AF338) — the
-    # 0x3A2EF0 renderer draws the R2100 upright font in modes 5/7, NOT R1188.
+    # v173: the P27 cave reads the CANONICAL ADV table (lui 0x4C + lbu 0x7564) -- the R2100
+    # in-arena table was DROPPED (it softlocked battle); ADV2_VA now aliases ADV_VA=0x4C7564.
+    assert RELOC.ADV2_VA == 0x4C7564
     assert any((w >> 26) == 0x24 and (w & 0xFFFF) == (RELOC.ADV2_VA & 0xFFFF)
                for w in RELOC.P27_WORDS), (
-        "relocated P27 cave must read R2100 ADV2 @0x%X" % (RELOC.ADV2_VA & 0xFFFF)
+        "relocated P27 cave must read canonical ADV @0x%X" % (RELOC.ADV2_VA & 0xFFFF)
     )
     assert any((w >> 26) == 0x0F and (w & 0xFFFF) == (RELOC.ADV2_VA >> 16)
                for w in RELOC.P27_WORDS), (
-        "relocated P27 cave must lui the R2100 ADV2 table base 0x%X0000" % (RELOC.ADV2_VA >> 16)
+        "relocated P27 cave must lui the canonical ADV table base 0x%X0000" % (RELOC.ADV2_VA >> 16)
     )
 
     # 3) The P27 hook AND the P14 hooks (= the gate marker) j into the RELOCATED caves below
@@ -191,9 +189,13 @@ def test_g1b_relocated_caves_below_arena():
     )
 
     # 4) The OLD battle-stompable cave sites are pristine-zero (no stompable code left).
+    #    v158 NOTE: the old P26 cave slot 0x4C7790 (104B, relocated to 0x4B0414 in v148) is
+    #    pristine-zero AGAIN -- v158 puts LSH2 back in the arena-start hole (0x4B1100), NOT
+    #    here (the RANK-2 deep placement was reverted after it caused the battle softlock).
     for old_va, size in [(0x4C7410, 84),                       # old P27
                          (0x4C7540, 36), (0x4C7670, 28),       # old P14 c1/c2
-                         (0x4C7790, 104), (0x4CAA30, 24),      # old P26 / P24
+                         (0x4C7790, 104),                       # old P26 (LSH2 now at 0x4B1100)
+                         (0x4CAA30, 24),                       # old P24
                          (0x4D6600, 68), (0x4D6660, 48),       # old P19 c1/c2
                          (0x4B0DD0, 32)]:                      # old P6
         fz = RELOC.fo(old_va)
@@ -289,16 +291,6 @@ def test_g3_metrics_self_consistent():
             "ADV2[%d] = %d outside the 16px-font clamp window [4,15]" % (g, adv2[g])
         )
         assert 0 <= lsh2[g] <= 15, "LEFTSHIFT2[%d] = %d outside a 16px cell" % (g, lsh2[g])
-    # v170: the RELOCATED tables are 95 bytes (gid 0..94 only) -- the 95..255 tail is
-    # reproduced by each cave's gid>=95 guard (ADV2 tail default 0x12, LSH2 tail 0).
-    a95 = glyph_metrics.adv2_table_95()
-    l95 = glyph_metrics.leftshift2_table_95()
-    assert len(a95) == 95 and len(l95) == 95, (
-        "adv2/leftshift2_table_95() must be 95 bytes, got %d/%d" % (len(a95), len(l95))
-    )
-    assert bytes(adv2) == a95 and bytes(lsh2) == l95, (
-        "the 95B tables must equal the raw ADV2/LEFTSHIFT2 gid 0..94 slots"
-    )
 
 
 TESTS = [

@@ -1,0 +1,604 @@
+[
+ {
+  "resource": 761,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "41 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 762,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R762 run all-kanji no-grammar",
+  "notes": "17 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 763,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "90 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 765,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "43 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 766,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R766 run all-kanji no-grammar",
+  "notes": "1181 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 767,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "40 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 768,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R768 run all-kanji no-grammar",
+  "notes": "40 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 770,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R770 run all-kanji no-grammar",
+  "notes": "25 FFFF-groups; 9 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 771,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "50 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 772,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R772 run all-kanji no-grammar",
+  "notes": "504 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 773,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "116 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 774,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R774 run all-kanji no-grammar",
+  "notes": "27 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 775,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "23 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 776,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R776 run all-kanji no-grammar",
+  "notes": "41 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 777,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "86 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 778,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R778 run all-kanji no-grammar",
+  "notes": "9 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 779,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 781,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R781 run all-kanji no-grammar",
+  "notes": "212 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 782,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R782 run all-kanji no-grammar",
+  "notes": "18 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 783,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R783 run all-kanji no-grammar",
+  "notes": "127 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 788,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R788 run all-kanji no-grammar",
+  "notes": "7 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 800,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R800 run all-kanji no-grammar",
+  "notes": "9 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 802,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R802 run all-kanji no-grammar",
+  "notes": "9 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 804,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R804 run all-kanji no-grammar",
+  "notes": "9 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 805,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "116 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 806,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R806 run all-kanji no-grammar",
+  "notes": "247 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 807,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "116 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 808,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R808 run all-kanji no-grammar",
+  "notes": "249 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 809,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "116 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 810,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R810 run all-kanji no-grammar",
+  "notes": "244 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 811,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "116 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 812,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R812 run all-kanji no-grammar",
+  "notes": "248 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 813,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "43 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 814,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1180 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 815,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "50 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 817,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "37 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 818,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1179 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 819,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "50 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 820,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R820 run all-kanji no-grammar",
+  "notes": "503 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 821,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "86 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 822,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 823,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "86 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 824,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 825,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "86 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 826,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R826 run all-kanji no-grammar",
+  "notes": "9 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 827,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "81 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 829,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "81 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 831,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "24 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 832,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R832 run all-kanji no-grammar",
+  "notes": "41 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 833,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "24 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 834,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R834 run all-kanji no-grammar",
+  "notes": "39 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 835,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "24 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 836,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R836 run all-kanji no-grammar",
+  "notes": "46 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 841,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R841 run all-kanji no-grammar",
+  "notes": "36 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 842,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R842 run all-kanji no-grammar",
+  "notes": "80 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 843,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "69 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 845,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "30 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 846,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R846 run all-kanji no-grammar",
+  "notes": "7 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 847,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R847 run all-kanji no-grammar",
+  "notes": "3 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 849,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "23 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 851,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "23 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 853,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "13 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 854,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R854 run all-kanji no-grammar",
+  "notes": "17 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 855,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "92 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 856,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R856 run all-kanji no-grammar",
+  "notes": "702 FFFF-groups; 4 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 857,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "83 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 858,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R858 run all-kanji no-grammar",
+  "notes": "23 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 859,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 861,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 863,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 865,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 867,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 869,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "41 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 887,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "93 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 888,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R888 run all-kanji no-grammar",
+  "notes": "9 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 890,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R890 run all-kanji no-grammar",
+  "notes": "9 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 897,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R897 run all-kanji no-grammar",
+  "notes": "399 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 898,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R898 run all-kanji no-grammar",
+  "notes": "110 FFFF-groups; 2 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 902,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "26 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 903,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "26 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 906,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R906 run all-kanji no-grammar",
+  "notes": "61 FFFF-groups; 5 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 907,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "10 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 908,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "9 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 909,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R909 run all-kanji no-grammar",
+  "notes": "25 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ },
+ {
+  "resource": 910,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "66 FFFF-groups; no glyph-mappable text regions = pure binary (map/event/geometry)"
+ },
+ {
+  "resource": 911,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "kanji-salad e.g. R911 run all-kanji no-grammar",
+  "notes": "17 FFFF-groups; 1 had glyph-mappable regions but all decode to random kanji/kana salad (no kana particles, no grammar, [XXXX]-interleaved) = vertex/coord/color binary, not text"
+ }
+]

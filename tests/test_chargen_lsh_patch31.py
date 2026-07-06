@@ -6,9 +6,9 @@ gap LSH fix), NEW in v157.
 Patch 26 gave the LIVE chargen body/description renderer func 0x307510 (line-walk
 0x307DA0 -> glyph blit 0x307510 -> emit 0x3060B0) a proportional ADVANCE (hook
 @0x3079CC, gated mem[0x4FED18]==5) but NOT the companion left-bearing draw-shift.
-Patch 31 is the 0x307510 analogue of Patch 29: it subtracts LEFTSHIFT2[gid] (the
-R2100 LSH2 table @RELOC.LSH2_VA=0x4AF398 -- v170 dead-.text; this renderer draws
-the R2100 upright 16px font, NOT R1188) from the SINGLE draw-X site 0x307974 (`lh t2,0(s2)`, the penX read
+Patch 31 is the 0x307510 analogue of Patch 29: it subtracts LEFTSHIFT[gid] (the
+CANONICAL R1188 table @0x4C7690 -- v173 FINAL BATTLE-FIX: the v158 R2100 in-arena table
+@0x4B1100 was DROPPED, it softlocked battle) from the SINGLE draw-X site 0x307974 (`lh t2,0(s2)`, the penX read
 feeding `addu t2,t2,t0` @0x307980), mode-gated ==5 so ADV+LSH stay in lockstep and
 every other surface is byte-identical (subu 0).  gid = the ACTUAL drawn glyph,
 stored `sd v0,0x10(sp)` @0x307960 (recovered `lhu 0x10(sp)`), ASCII-guarded
@@ -17,7 +17,7 @@ stored `sd v0,0x10(sp)` @0x307960 (recovered `lhu 0x10(sp)`), ASCII-guarded
 
 This module pins:
   D (static, always): the design in build/_reloc_v147_design.py -- the hook is `j`
-     frag1; frag1 sources LSH2 from lbu 0xF398(0x4A0000) (LSH2_VA=0x4AF398) and recovers gid via
+     frag1; frag1 sources LSH2 from lbu 0x1100(0x4B0000) and recovers gid via
      lhu 0x10(sp); frag2 reads mode via the same absolute path Patch 26 uses
      (lw -0x12E8), folds to ==5, and returns `j 0x30797C` with `subu t2,t2,t9` in
      the delay slot; both fragments live below the arena with no overlap.
@@ -55,28 +55,29 @@ def test_d1_hook_is_j_to_frag1_at_drawx_site():
     jw = RELOC.P31_HOOK_JWORD
     assert _op(jw) == 0x02, "Patch 31 hook must be a `j` (op 2)"
     assert ((jw & 0x3FFFFFF) << 2) == RELOC.P31_F1_VA, "j target != frag1 VA"
-    # v170: frag2 evicted from the P27/P19c1 run (P27 grew) to the tail-of-P6 pad 0x4B0D6C.
-    assert RELOC.P31_F1_VA == 0x4AFA00 and RELOC.P31_F2_VA == 0x4B0D6C
+    assert RELOC.P31_F1_VA == 0x4AFA00 and RELOC.P31_F2_VA == 0x4AB5EC
 
 
-def test_d2_frag1_sources_lsh_from_r2100_table():
-    """frag1 READS LEFTSHIFT from the R2100 LSH2 table @LSH2_VA=0x4AF398
-    (v170 dead-.text; lui t9,0x4A ; ... ; lbu t9,0xF398(t9)) — the 0x307510 chargen path draws
-    the R2100 upright 16px font, NOT the oblique R1188 font the canonical
-    table @0x4C7690 was measured from (the "Ge nde r" root cause)."""
+def test_d2_frag1_sources_lsh_from_canonical_table():
+    """v173 FINAL BATTLE-FIX: frag1 READS LEFTSHIFT from the CANONICAL R1188 LSH table
+    @0x4C7690 (lui t9,0x4C ; ... ; lbu t9,0x7690(t9)).  The v158 R2100 in-arena table
+    (0x4B1100) was DROPPED -- it softlocked battle at every arena placement -- so LSH2_VA
+    now ALIASES the canonical LSH_VA and NOTHING is read from the arena."""
     f1 = RELOC.P31_F1_WORDS
-    # v170: LSH2 relocated to the FREE200 dead libgraph pad (0x4AF338..0x4AF400), 95B.
-    assert (RELOC.ADV2_VA + 95 <= RELOC.LSH2_VA and RELOC.LSH2_VA + 95 <= 0x4AF400
-            and RELOC.LSH_VA == 0x4C7690)
+    assert RELOC.LSH2_VA == RELOC.LSH_VA == 0x4C7690
     assert any(_op(w) == 0x0F and _imm(w) == (RELOC.LSH2_VA >> 16) for w in f1), (
-        "frag1 must lui the R2100 LSH2 table base 0x%X0000" % (RELOC.LSH2_VA >> 16)
+        "frag1 must lui the canonical LSH table base 0x%X0000" % (RELOC.LSH2_VA >> 16)
     )
     assert any(_op(w) == 0x24 and _imm(w) == (RELOC.LSH2_VA & 0xFFFF) for w in f1), (
-        "frag1 must lbu LEFTSHIFT2[gid] at 0x%X == RELOC.LSH2_VA" % (RELOC.LSH2_VA & 0xFFFF)
+        "frag1 must lbu LEFTSHIFT[gid] at 0x%X == RELOC.LSH2_VA" % (RELOC.LSH2_VA & 0xFFFF)
     )
-    # TEETH: the R1188 canonical LSH must no longer be read here (wrong font).
-    assert not any(_op(w) == 0x24 and _imm(w) == 0x7690 for w in f1), (
-        "frag1 still reads the canonical R1188 LSH @0x7690 -- wrong font (v158 regression)"
+    # TEETH: the OLD in-arena R2100 read (lui 0x4B / lbu 0x1100) must be GONE -- that is the
+    # exact placement that softlocked battle.
+    assert not any(_op(w) == 0x24 and _imm(w) == 0x1100 for w in f1), (
+        "frag1 still reads the in-arena R2100 LSH2 @0x1100 -- the battle-softlock regression"
+    )
+    assert not any(_op(w) == 0x0F and _imm(w) == 0x4B for w in f1), (
+        "frag1 still lui's the arena base 0x4B -- the battle-softlock regression"
     )
 
 
@@ -202,7 +203,7 @@ def test_b3_built_cave_reads_lsh_and_gates():
 
 TESTS = [
     test_d1_hook_is_j_to_frag1_at_drawx_site,
-    test_d2_frag1_sources_lsh_from_r2100_table,
+    test_d2_frag1_sources_lsh_from_canonical_table,
     test_d3_gid_recovered_and_ascii_guarded,
     test_d4_mode_gate_matches_patch26_read_and_folds_to_5,
     test_d5_frag2_returns_and_subtracts_drawx,

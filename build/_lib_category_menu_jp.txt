@@ -1,0 +1,12 @@
+Library (ライブラリー) category menu - LEFT list. 5 entries, top to bottom.
+
+id              jp          msg_glyph_ids(hex)   gloss
+cat0_compendium アイテム図鑑  c1 3b d3 e1 509 2a5  Item Compendium  (currently selected/highlighted)
+cat1_characters 人物名鑑      13f 19c 13a 2a5      Character Directory (Who's Who)
+cat2_glossary   用語辞典      29e 480 ?? ??        Glossary (Terminology Dictionary)
+cat3_guide      冒険の手引き  1e6 1e7 88 114 385 76 Adventurer's Handbook (Adventure Guide)
+cat4_books      書物リスト    1a3 19c e8 cd d4     Book List
+
+Each row has a yellow "NEW" tag to the right of the label.
+Glyph ids above are msg_glyph_map ids (from the sibling title-subagent decode + this decode);
+they are NOT found contiguously in RAM or PACKDATA -> labels are NOT a live BE-u16 glyph stream.

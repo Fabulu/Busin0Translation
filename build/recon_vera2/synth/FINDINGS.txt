@@ -1,0 +1,37 @@
+VERA PARTY-BAR ROMANIZATION — SYNTHESIZED FIX (byte-verified)
+
+SOURCE (join-time): R1892 (1892_type20.raw), 25 records, REC_BASE=0x140 stride 0x130,
+  name field at rec+2, terminated 0xFFFF, FF-padded. 16-byte name field.
+CODEC: RAW R2100 page-0 glyph indices (NOT name_val+95). glyph = english_glyph_table[char]
+  (A=33, a=65, space=0). Premade names stored as 193-base gojuon/katakana raw glyph cells.
+PROOF the bar reads this verbatim:
+  - Active-party struct A @0x55DD20 stride 0x1F0, name@+2.
+  - A slots 1..5 name fields == R1892 recs 0..4 name fields BYTE-FOR-BYTE (verbatim copy, no conversion).
+  - A slot0 BABA = [34,33,34,33] = RAW glyph B=34,A=33 -> renders "BABA". Proves RAW-glyph codec (no -95).
+  - R2100 page-0 atlas (TBP=0x2840) contains uppercase+lowercase ASCII -> "Vera" renders.
+
+THE BUG: tools/patch_r1892_names.py encodes ASCII as name_val=glyph+95 (line 126).
+  Vera @0xBF2 became [149,164,177,160] = R2100 KATAKANA cells -> renders katakana garbage,
+  NOT "Vera". That is the shipped v96 build state and exactly the user-reported bug.
+
+THE FIX: rewrite R1892 names as RAW glyph indices (drop the +95). Exact byte patches (file offsets):
+  rec9  Vera    @0xBF2  <- 36 00 45 00 52 00 41 00 ff ff   glyphs[54,69,82,65]
+  rec10 Erika   @0xD22  <- 25 00 52 00 49 00 4b 00 41 00 ff ff
+  rec11 Konde   @0xE52  <- 2b 00 4f 00 4e 00 44 00 45 00 ff ff
+  rec6  Frieder @0x862  <- 26 00 52 00 49 00 45 00 44 00 45 00 52 00 ff ff
+  rec7  Melanie @0x992  <- 2d 00 45 00 4c 00 41 00 4e 00 49 00 45 00 ff ff
+  rec13 Turgot  @0x10B2 <- 34 00 55 00 52 00 47 00 4f 00 54 00 ff ff
+  (+ recs 0/1/2/3/4 Iris/Basco/Evan/Freesia/Baltels, 12 Iris, 14 Aoi, 18 Uli, 19 Melanie if mapped)
+  All fit the 16-byte field; file size stays 8192 (verified).
+
+FRESH-GAME: array A is loaded from R1892 at party-load (verbatim), not a one-time bake.
+  Patching the PACKDATA resource reaches a fresh game's bar.
+
+PATCHER FIX (one line): tools/patch_r1892_names.py line 126 change
+   struct.pack_into('<H', new, p, ascii_gid(ch) + ASCII_NV_OFFSET)
+to
+   struct.pack_into('<H', new, p, ascii_gid(ch))
+and drop the +95 in the self-verify decode (lines 159-160). Keep matching gated by name_labels/allowed.
+
+NOTE: rec0 Iris kana=あいりす(hiragana) is NOT in name_labels (only katakana ヴェーラ etc. are);
+  add the recruit-pool kana labels if those premades should also romanize.

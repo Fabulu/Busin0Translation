@@ -1,0 +1,5302 @@
+[
+ {
+  "res": 1197,
+  "gi": 4,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A face I haven't / seen before. First / time looking for / a request here?"
+ },
+ {
+  "res": 1197,
+  "gi": 9,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Keep notes of work / instructions from / clients. It's good / to stay organized."
+ },
+ {
+  "res": 1197,
+  "gi": 10,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Some requests have / deadlines, some / need reapplying. / Keep that in mind."
+ },
+ {
+  "res": 1197,
+  "gi": 30,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "As instructed, / you returned the / Entry Sheet / given when you // took the job"
+ },
+ {
+  "res": 1197,
+  "gi": 96,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "She has to learn / magic, register / as an adventurer / and everything!"
+ },
+ {
+  "res": 1197,
+  "gi": 170,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Can't handle a / simple request? / The adventurers / today are weak!"
+ },
+ {
+  "res": 1197,
+  "gi": 212,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Plus I can visit / Karman's Labyrinth / the top monster- / watching spot!"
+ },
+ {
+  "res": 1197,
+  "gi": 491,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I seek to master / swordsmanship / with a blade from / the finest smith."
+ },
+ {
+  "res": 1197,
+  "gi": 591,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Go to the 1st / floor and climb / the largest / staircase on the / middle level."
+ },
+ {
+  "res": 1197,
+  "gi": 657,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The problem isn't / failing to add / the medicine but / that the water / is now "
+ },
+ {
+  "res": 1197,
+  "gi": 658,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "We must warn / people on the / message board / before something / terrible happe"
+ },
+ {
+  "res": 1197,
+  "gi": 668,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You told Lang / you dissolved / the medicine in / the waterway. He // listened /"
+ },
+ {
+  "res": 1197,
+  "gi": 674,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Despite your help / dissolving the / medicine, my / workload keeps / increasing."
+ },
+ {
+  "res": 1197,
+  "gi": 675,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Everyone acts more / recklessly now and / comes back with / worse injuries."
+ },
+ {
+  "res": 1197,
+  "gi": 676,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "So as written in / the request, / please go down / to the 2nd floor / this time."
+ },
+ {
+  "res": 1197,
+  "gi": 679,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Despite warning / about poison on / the message board / some people still / dran"
+ },
+ {
+  "res": 1197,
+  "gi": 680,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Really, if you're / an adventurer / you should use the / message board / for inf"
+ },
+ {
+  "res": 1197,
+  "gi": 699,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Fearkea, know it? / It cures the fear / affliction. Pretty / useful, right?"
+ },
+ {
+  "res": 1197,
+  "gi": 700,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Though personally / I wish young / adventurers would / be MORE cautious / and fe"
+ },
+ {
+  "res": 1197,
+  "gi": 720,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "I wish young / adventurers would / be more cautious / and fearful."
+ },
+ {
+  "res": 1197,
+  "gi": 729,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I must warn the / adventurers / before harm is / done. You be // careful too."
+ },
+ {
+  "res": 1197,
+  "gi": 732,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You told Lang / you dissolved / the medicine in / the fountain. He // listened /"
+ },
+ {
+  "res": 1197,
+  "gi": 901,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The shopkeeper, / clearing tables / by the door, / and the / knight's words / re"
+ },
+ {
+  "res": 1197,
+  "gi": 920,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "In the brief / while before I / returned, his / band was wiped / out, and Simzon"
+ },
+ {
+  "res": 1197,
+  "gi": 922,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Famed from the / battlefields of / the rebellion, / feared as / San-Lazare's / d"
+ },
+ {
+  "res": 1197,
+  "gi": 923,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "courted and / dreaded across / Venoa. I'd not / wish to see him / so broken."
+ },
+ {
+  "res": 1197,
+  "gi": 927,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I must know. What / destroyed his / band and stole / the light from / Simzon's e"
+ },
+ {
+  "res": 1197,
+  "gi": 929,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Take me with you / into the maze, / and grant me / the chance to / find the trut"
+ },
+ {
+  "res": 1199,
+  "gi": 57,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "By nature, the / ancient elves did not / wage war. Destruction / seems unthinkab"
+ },
+ {
+  "res": 1200,
+  "gi": 18,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The quiet sound of / a pipe organ and / a chorus reading / scriptures fills the "
+ },
+ {
+  "res": 1200,
+  "gi": 45,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Those who need you / now are not the / troops but the people / in this temple."
+ },
+ {
+  "res": 1200,
+  "gi": 47,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Her resolve was / firm, shown by the / trembling in her / slow-spoken words."
+ },
+ {
+  "res": 1200,
+  "gi": 53,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "That labyrinth is / shrouded in darkness / where God's voice / cannot reach."
+ },
+ {
+  "res": 1200,
+  "gi": 59,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The labyrinth's / darkness is endless. / Such deep darkness / can break any soul"
+ },
+ {
+  "res": 1200,
+  "gi": 61,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I fear this. In the / depths of darkness, / half-hearted faith / is worthless."
+ },
+ {
+  "res": 1200,
+  "gi": 74,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "That's not to say / I'm remembering / the faces of those / who came for help."
+ },
+ {
+  "res": 1200,
+  "gi": 75,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "In any case, / alchemy and magic / have advanced too / fast, and recovery / tech"
+ },
+ {
+  "res": 1200,
+  "gi": 76,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Because of this, / Salem Temple, / which should be / revered, is treated / with "
+ },
+ {
+  "res": 1200,
+  "gi": 79,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Treatment and / healing should not / be done hastily / with herbs or magic!"
+ },
+ {
+  "res": 1200,
+  "gi": 93,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "So I need a dead / leader and a / grieving companion / to play the roles."
+ },
+ {
+  "res": 1200,
+  "gi": 103,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I'll give you / a copy of the / scenario. Please / memorize it before / the perf"
+ },
+ {
+  "res": 1200,
+  "gi": 122,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Before explaining / the task from the / tavern, I need you / to hear this / seve"
+ },
+ {
+  "res": 1200,
+  "gi": 125,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Due to rapid / advances in alchemy / and magic, recovery / techniques suffer."
+ },
+ {
+  "res": 1200,
+  "gi": 126,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Because of this, / Salem Temple, / which should be / revered, is treated / with "
+ },
+ {
+  "res": 1201,
+  "gi": 5,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The waitress, who / had been tending / the shop, suddenly / stopped speaking."
+ },
+ {
+  "res": 1201,
+  "gi": 12,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Ahem. To venture / into the labyrinth / and save the people / from their sorrows"
+ },
+ {
+  "res": 1201,
+  "gi": 19,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Do you not / remember the priest / who prayed for / your safe return / with tear"
+ },
+ {
+  "res": 1201,
+  "gi": 21,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You said you would / reclaim your honor / and rebuild the / town she dreamed of."
+ },
+ {
+  "res": 1201,
+  "gi": 37,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "That's wonderful! / So you will explore / Karman's Labyrinth / with them, then?"
+ },
+ {
+  "res": 1201,
+  "gi": 48,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Master Konde, how / wonderful! Your / late wife must be / pleased as well."
+ },
+ {
+  "res": 1201,
+  "gi": 50,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Please consider / this your duty / to the late wife / who raised me / like famil"
+ },
+ {
+  "res": 1201,
+  "gi": 67,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Two girls who had / been watching from / the landing came / down the stairs."
+ },
+ {
+  "res": 1201,
+  "gi": 70,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Though still / innocent-faced, the / twins differed / only in hair -- / one blon"
+ },
+ {
+  "res": 1201,
+  "gi": 75,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The labyrinth, / monsters, the town / is being overrun, / and even the king / is"
+ },
+ {
+  "res": 1201,
+  "gi": 76,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It's all because / of the witch in / the labyrinth. But / nobody's found / her y"
+ },
+ {
+  "res": 1201,
+  "gi": 86,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A terrifying / prophecy! The town / will be engulfed / in light and / everyone w"
+ },
+ {
+  "res": 1201,
+  "gi": 95,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "At the front desk, / a dwarf warrior / and the elf clerk / were in a heated / ar"
+ },
+ {
+  "res": 1201,
+  "gi": 115,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Just then, a noble / man who had just / entered spotted / Bertin in surprise."
+ },
+ {
+  "res": 1201,
+  "gi": 123,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "With a booming / laugh rivaling / Bertin's, the man / headed for the / front des"
+ },
+ {
+  "res": 1201,
+  "gi": 126,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "'A Lodging Ticket, / I see. When you / check out, we will / refund the room / co"
+ },
+ {
+  "res": 1201,
+  "gi": 136,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Sorry to keep you / waiting. I was told / someone wished to / see me?"
+ },
+ {
+  "res": 1201,
+  "gi": 144,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "One who gains the / knowledge within / may become a / samurai -- a / wondrous ab"
+ },
+ {
+  "res": 1201,
+  "gi": 146,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Now then, I shall / set out on my / journey with this / sword. Farewell, / adven"
+ },
+ {
+  "res": 1201,
+  "gi": 155,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Sorry to keep you / waiting. I was told / someone wished to / see me?"
+ },
+ {
+  "res": 1201,
+  "gi": 162,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "This is a famed / blade only a / skilled samurai / can wield -- the / Nagamaki."
+ },
+ {
+  "res": 1202,
+  "gi": 7,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The orc chattered / excitedly, then / noticed the Entry / Sheet sticking out."
+ },
+ {
+  "res": 1202,
+  "gi": 8,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "An orc who had / been tending the / shop, upon seeing / the Entry Sheet, / rushe"
+ },
+ {
+  "res": 1202,
+  "gi": 37,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The room she led / you to was neat / and tidy, unlike / the run-down shop / it w"
+ },
+ {
+  "res": 1202,
+  "gi": 38,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "This room alone / was as spacious / as the shop, / showing the / wealth within."
+ },
+ {
+  "res": 1202,
+  "gi": 42,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The sound of / footsteps going / down the stairs / stopped, then / quickly came "
+ },
+ {
+  "res": 1202,
+  "gi": 47,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "At first glance / he looked the same, / but the voice was / different -- a / dif"
+ },
+ {
+  "res": 1202,
+  "gi": 51,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Found it! Here it / is! They said this / was important, / so I put it / somewher"
+ },
+ {
+  "res": 1202,
+  "gi": 53,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The orc stared / intently at the / memo and began / reading the messy / handwrit"
+ },
+ {
+  "res": 1202,
+  "gi": 54,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Next, do the / interview! Uhh, / hire whoever / answers properly! / That's the r"
+ },
+ {
+  "res": 1202,
+  "gi": 58,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Anyway, you're / human either way, / so no problem! / Let's start the / intervie"
+ },
+ {
+  "res": 1202,
+  "gi": 62,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If the boss says / non-humans can't / work here, then / she'll fire ya. / Simple"
+ },
+ {
+  "res": 1202,
+  "gi": 81,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Mott licked his / finger, wrote / 'K-I-N-D' on his / memo, mouthing / each lette"
+ },
+ {
+  "res": 1202,
+  "gi": 83,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Mott licked his / finger, wrote / 'H-A-R-S-H' on / his memo, mouthing / each let"
+ },
+ {
+  "res": 1202,
+  "gi": 116,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Maybe you have / some secret reason? / But asking would / be rude, huh?"
+ },
+ {
+  "res": 1202,
+  "gi": 137,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Yet Mott showed / a happy smile, / as if he'd been / hoping you / wouldn't answe"
+ },
+ {
+  "res": 1202,
+  "gi": 143,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I'll tell her / you have a very / important secret / reason for needing / to wor"
+ },
+ {
+  "res": 1202,
+  "gi": 164,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "We ran a campaign / a while ago where / you get free rooms / when you order."
+ },
+ {
+  "res": 1202,
+  "gi": 193,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Quite the eager / one, aren't you? / Well, nobody else / applied, so / you're hi"
+ },
+ {
+  "res": 1202,
+  "gi": 199,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It's a pain to / carry everything, / so store stuff / you want to keep / in the "
+ },
+ {
+  "res": 1202,
+  "gi": 201,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Even as a newbie, / you should know / the sales records / of the place / you wor"
+ },
+ {
+  "res": 1202,
+  "gi": 220,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The sheet Lucy / held was filled / with customer / names, items, / addresses, an"
+ },
+ {
+  "res": 1202,
+  "gi": 221,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Custom orders / sell better and / make customers / happier, after all."
+ },
+ {
+  "res": 1202,
+  "gi": 227,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Hey, Notch told me / something. You / know about the / government request / at t"
+ },
+ {
+  "res": 1202,
+  "gi": 229,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You stopped Lucy / from rushing out / and showed her / the documents / from Raim"
+ },
+ {
+  "res": 1202,
+  "gi": 230,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Lucy took them / suspiciously, but / after reading / quickly understood."
+ },
+ {
+  "res": 1202,
+  "gi": 238,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You reported about / the request from / Raiman and that / you obtained the / lan"
+ },
+ {
+  "res": 1202,
+  "gi": 267,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Part-timers will / go search Karman's / Labyrinth for / good stuff!"
+ },
+ {
+  "res": 1202,
+  "gi": 290,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "We registered as / adventurers too, / to go into the / labyrinth. We're / scared"
+ },
+ {
+  "res": 1202,
+  "gi": 291,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "We all worked / so hard together, / our party is / bound by strong / bonds now!"
+ },
+ {
+  "res": 1202,
+  "gi": 298,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "From the memories / in the bracelet, / you obtained the / battle art 'Allayed'."
+ },
+ {
+  "res": 1203,
+  "gi": 171,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Your skill is still / developing, but / soon you'll wield / anything well."
+ },
+ {
+  "res": 1203,
+  "gi": 174,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Your skill is still / developing, but / soon you'll draw out / any item's power."
+ },
+ {
+  "res": 1203,
+  "gi": 290,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Normally we do / word-of-mouth / only, but ranks / 16-20 we're open."
+ },
+ {
+  "res": 1203,
+  "gi": 292,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu / Buy Floor Medals / Buy Special Medals / Exchange Medals / Do N"
+ },
+ {
+  "res": 1203,
+  "gi": 344,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "According to lore, / 118800 EXP is / needed to awaken. / Use as reference."
+ },
+ {
+  "res": 1203,
+  "gi": 349,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "According to lore, / 118800 EXP is / needed to awaken. / Use as reference."
+ },
+ {
+  "res": 1203,
+  "gi": 354,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "According to lore, / 118800 EXP is / needed to awaken. / Use as reference."
+ },
+ {
+  "res": 1203,
+  "gi": 359,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "According to lore, / 118800 EXP is / needed to awaken. / Use as reference."
+ },
+ {
+  "res": 1203,
+  "gi": 364,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "According to lore, / 118800 EXP is / needed to awaken. / Use as reference."
+ },
+ {
+  "res": 1203,
+  "gi": 369,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "According to lore, / 118800 EXP is / needed to awaken. / Use as reference."
+ },
+ {
+  "res": 1203,
+  "gi": 377,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I study beauty. / Currently I'm / researching the / ancient Elf king."
+ },
+ {
+  "res": 1203,
+  "gi": 420,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "The labyrinth's / mysteries, an / adventurer's life, / an orc's view!"
+ },
+ {
+  "res": 1203,
+  "gi": 449,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Welcome. This is a / self-service shop. / No staff means / lower prices!"
+ },
+ {
+  "res": 1203,
+  "gi": 450,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Products are in / the back boxes. / Payment in the / front box. Please / pay. Al"
+ },
+ {
+  "res": 1203,
+  "gi": 544,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Yoppen grabbed / the monster book / and eagerly / opened to Succubus."
+ },
+ {
+  "res": 1203,
+  "gi": 587,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "We apologize. / Registration for / labyrinth survey / is now closed."
+ },
+ {
+  "res": 1203,
+  "gi": 596,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Commander's name? / Haraherino / Heriglano / Belgrano / Percrano / Cancel"
+ },
+ {
+  "res": 1203,
+  "gi": 621,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Those who answer / correctly receive / a special reward / from the Guard."
+ },
+ {
+  "res": 1203,
+  "gi": 720,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Oh, I see. The / sounds from beyond / the wall must have / been monsters."
+ },
+ {
+  "res": 1203,
+  "gi": 733,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "According to my / research, it's / near a corner / on floor 1. / A collapsed are"
+ },
+ {
+  "res": 1203,
+  "gi": 736,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Can't get out! / Darn it! If this / lock opened, the / exploration / would go gr"
+ },
+ {
+  "res": 1203,
+  "gi": 747,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Meanwhile, I'll / investigate the / weapons and / devices in this / magic circle"
+ },
+ {
+  "res": 1203,
+  "gi": 756,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Meanwhile, I'll / investigate the / weapons and / devices in this / magic circle"
+ },
+ {
+  "res": 1203,
+  "gi": 768,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I've been gathering / info from my / adventures and / decided to open / an info "
+ },
+ {
+  "res": 1203,
+  "gi": 779,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I've been gathering / info from my / adventures and / decided to open / an info "
+ },
+ {
+  "res": 1203,
+  "gi": 783,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "As she opened / the door, Lidi / remembered and / pulled out a list / from her b"
+ },
+ {
+  "res": 1203,
+  "gi": 864,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Behind the door, / the room was / filled with / strange air and / a musty smell."
+ },
+ {
+  "res": 1203,
+  "gi": 876,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I heard there's / treasure that'd / make even orcs / drool in a hidden / room of"
+ },
+ {
+  "res": 1203,
+  "gi": 877,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If you can pass / through the wall, / there must be a / hidden room! My / genius"
+ },
+ {
+  "res": 1203,
+  "gi": 901,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "As a proud Guard, / I will fight to / the last to / protect the city / from that"
+ },
+ {
+  "res": 1203,
+  "gi": 904,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "No, let them / through. They're / the new expedition / leader. Let them / pass."
+ },
+ {
+  "res": 1203,
+  "gi": 907,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "For some reason, / Belgrano looked / more haggard / than at the castle."
+ },
+ {
+  "res": 1203,
+  "gi": 982,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Because many / adventurers and / Guard soldiers / are in the / labyrinth."
+ },
+ {
+  "res": 1203,
+  "gi": 983,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If you're not / wearing it, you / could be attacked / and no one would / be blam"
+ },
+ {
+  "res": 1203,
+  "gi": 985,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "At the resting / area ahead, you / can learn about / treasure chests / and comba"
+ },
+ {
+  "res": 1203,
+  "gi": 1010,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Despite fighting / a Demon, she / walked over / calmly without / a single wound."
+ },
+ {
+  "res": 1203,
+  "gi": 1018,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "I've seen many / such people. Deep / in the maze, they / sought fame and / treas"
+ },
+ {
+  "res": 1203,
+  "gi": 1084,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Honestly, there's / not much theory. / But knowing is / better than not."
+ },
+ {
+  "res": 1203,
+  "gi": 1117,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "People think / priests only / heal, but they / actually excel / in combat too."
+ },
+ {
+  "res": 1203,
+  "gi": 1119,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "They can only / equip up to / short swords, / but can use / flails and maces / f"
+ },
+ {
+  "res": 1203,
+  "gi": 1120,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "With protectors / and small shields / equipped, they / can handle both / offense"
+ },
+ {
+  "res": 1203,
+  "gi": 1121,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I was a priest / and always the / healer, but that / wasn't because / of my clas"
+ },
+ {
+  "res": 1203,
+  "gi": 1127,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Powerful curses / can affect you / just by having / the item, even / without equ"
+ },
+ {
+  "res": 1203,
+  "gi": 1129,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I once equipped / a cursed belt / by mistake and / said terrible / things, losin"
+ },
+ {
+  "res": 1203,
+  "gi": 1143,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Before, we used / books, but since / they found how / to craft scrolls, / that's"
+ },
+ {
+  "res": 1203,
+  "gi": 1144,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Monsters drop / special reagents / that the Alchemy / Guild can use to / make sc"
+ },
+ {
+  "res": 1203,
+  "gi": 1145,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If you have an / alchemist in / your party, you / can craft on the / go without "
+ },
+ {
+  "res": 1203,
+  "gi": 1147,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Classes like / priest and mage / learn the same / spells but have / different po"
+ },
+ {
+  "res": 1203,
+  "gi": 1153,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "We're studying / these tactics / too, but team / coordination / is very hard."
+ },
+ {
+  "res": 1203,
+  "gi": 1155,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I learned a move / called W-Slash / from the captain / but can't pull / it off."
+ },
+ {
+  "res": 1203,
+  "gi": 1159,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "And even then, / a technique you / can't replicate / reliably is / useless!"
+ },
+ {
+  "res": 1203,
+  "gi": 1171,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Rescue squads / carry wounded / and fallen / adventurers / back to town."
+ },
+ {
+  "res": 1203,
+  "gi": 1181,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Wounds covered / her entire body, / and her clothes / were soaked / in blood."
+ },
+ {
+  "res": 1203,
+  "gi": 1185,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "With fading / consciousness, she / desperately / formed words."
+ },
+ {
+  "res": 1203,
+  "gi": 1267,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A feast indeed! / To wash away / his stained soul, / fight alongside / me withou"
+ },
+ {
+  "res": 1203,
+  "gi": 1343,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Parties already / exploring the / lower floors are / being reassigned."
+ },
+ {
+  "res": 1203,
+  "gi": 1362,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I heard they / were captured by / the Duhan Guard, / so I assumed / they were do"
+ },
+ {
+  "res": 1203,
+  "gi": 1365,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I don't know / anything about / amnesty, but / why would Ortrud / do such a thin"
+ },
+ {
+  "res": 1203,
+  "gi": 1375,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "But if he was / pardoned, his / gang must be / hiding somewhere / with their swo"
+ },
+ {
+  "res": 1203,
+  "gi": 1402,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "About the / coordinated / combat technique / monsters use, / called Alleid."
+ },
+ {
+  "res": 1203,
+  "gi": 1405,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It was thought / to be monster- / only, but lately / reports have / come from ev"
+ },
+ {
+  "res": 1203,
+  "gi": 1407,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "They enter the / battlefield in / formation, don / armor, and / march forth."
+ },
+ {
+  "res": 1203,
+  "gi": 1409,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Their movements / are so in sync, / it's like / watching a / single organism."
+ },
+ {
+  "res": 1203,
+  "gi": 1410,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Everyone wants / to know how, and / kings would pay / anything to / recruit them"
+ },
+ {
+  "res": 1203,
+  "gi": 1420,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Through team / coordination, / they try to / eliminate one / enemy at a time."
+ },
+ {
+  "res": 1203,
+  "gi": 1466,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If word gets out / they hired / outlaws, war / will break out / again on Venoa."
+ },
+ {
+  "res": 1203,
+  "gi": 1477,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "When he realized / you'd overheard, / he approached / with a pained look."
+ },
+ {
+  "res": 1203,
+  "gi": 1480,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What good is the / kingdom if we / won't fight? What / good are knights?"
+ },
+ {
+  "res": 1203,
+  "gi": 1509,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "As you may have / noticed, Alleid / could shift the / balance of power / in Veno"
+ },
+ {
+  "res": 1203,
+  "gi": 1510,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Alleid is the / coordinated / attack that only / monsters were / thought to use."
+ },
+ {
+  "res": 1203,
+  "gi": 1512,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The flawless / coordination / needed takes / an enormous / amount of time."
+ },
+ {
+  "res": 1203,
+  "gi": 1518,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "They're not just / recruiting / adventurers for / the witch hunt. / They have a "
+ },
+ {
+  "res": 1203,
+  "gi": 1579,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Look at this / room! Something / suspicious is / definitely / going on here."
+ },
+ {
+  "res": 1203,
+  "gi": 1582,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The legendary / cursed armor / that San-Goth's / General Barnard / supposedly ha"
+ },
+ {
+  "res": 1203,
+  "gi": 1583,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "It belonged to / the sorcerer / who once plunged / Venoa into / terror."
+ },
+ {
+  "res": 1203,
+  "gi": 1588,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If that's here, / then those people / performing the / ritual must / have summon"
+ },
+ {
+  "res": 1203,
+  "gi": 1589,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You know about / the death wand / that possessed / General William? / Right?"
+ },
+ {
+  "res": 1203,
+  "gi": 1592,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The death wand / gathers the / souls of the / living and / returns them to / the"
+ },
+ {
+  "res": 1203,
+  "gi": 1596,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A death wand / is a weapon / that harvests / souls. Elves call / it the staff of"
+ },
+ {
+  "res": 1203,
+  "gi": 1597,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "It was the / terrible weapon / that harvested / the souls of / Venoa's people / "
+ },
+ {
+  "res": 1203,
+  "gi": 1604,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Those killed by / them lose their / souls and are / completely / erased from / t"
+ },
+ {
+  "res": 1203,
+  "gi": 1627,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Poor Melanie, / separated from / her pixie / companion, all / alone in the / lab"
+ },
+ {
+  "res": 1204,
+  "gi": 20,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "From Simzon's body, / dark thick worms / crawled out one / after another."
+ },
+ {
+  "res": 1204,
+  "gi": 21,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The dark worms / wriggled like / living creatures / and coiled around / Simzon's"
+ },
+ {
+  "res": 1204,
+  "gi": 23,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It was clearly a / different being, / yet it tried to / make them submit / to it"
+ },
+ {
+  "res": 1204,
+  "gi": 43,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The figure let / out an insane / shriek and hurled / a knife, charging / straigh"
+ },
+ {
+  "res": 1204,
+  "gi": 44,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The attacks were / not that strong. / Swinging wildly, / the strikes hit / nothi"
+ },
+ {
+  "res": 1204,
+  "gi": 64,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Born as soldiers / having to perish / in a place like / this instead of / a batt"
+ },
+ {
+  "res": 1204,
+  "gi": 68,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The time when / life confronts / death is when / the strongest / emotions emerge"
+ },
+ {
+  "res": 1204,
+  "gi": 74,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It's one of the / ancient arts. / They became / sacrifices to / summon the / dar"
+ },
+ {
+  "res": 1204,
+  "gi": 77,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A noble warrior / with a strong / will and desire / for life would / be even mor"
+ },
+ {
+  "res": 1204,
+  "gi": 78,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "But I don't / understand!! If / those cowards / activated the / dark staff, for "
+ },
+ {
+  "res": 1204,
+  "gi": 79,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What do they / gain from it? / It only makes / the labyrinth / harder for them!"
+ },
+ {
+  "res": 1204,
+  "gi": 87,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Some tended the / wounded, others / carried supplies / all moving with / urgency"
+ },
+ {
+  "res": 1204,
+  "gi": 102,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "We both lost our / parents early / and have no / siblings, so I / looked up to /"
+ },
+ {
+  "res": 1204,
+  "gi": 260,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "As Janken Man / was about to / cast Leep, a / woman's furious / voice came from "
+ },
+ {
+  "res": 1204,
+  "gi": 265,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "He looked like / he'd been in a / fight; his face / was pale and / covered in / "
+ },
+ {
+  "res": 1204,
+  "gi": 279,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The man stood / unsteadily, his / face drained of / color like a / dead man."
+ },
+ {
+  "res": 1204,
+  "gi": 286,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The man's face / twitched, and he / waved his arms / as if warding / something o"
+ },
+ {
+  "res": 1204,
+  "gi": 318,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I've been here / many times and / it was safe. / What the heck / is going on?!"
+ },
+ {
+  "res": 1204,
+  "gi": 323,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Here, a fortune / telling charm / for safety. / Take it even / if you don't / wa"
+ },
+ {
+  "res": 1204,
+  "gi": 468,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Great potential! / If you're good / at attack / magic, physical / combat may / s"
+ },
+ {
+  "res": 1204,
+  "gi": 471,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Great potential! / But leave me / alone! Don't / kill me! I'm / already dead!"
+ },
+ {
+  "res": 1204,
+  "gi": 476,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Great potential! / I have no gear / so I don't / know, but / monsters must / fea"
+ },
+ {
+  "res": 1204,
+  "gi": 480,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Great potential! / But being a / know-it-all / doesn't mean / you're strong!"
+ },
+ {
+  "res": 1204,
+  "gi": 481,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Great potential! / Being good at / running away / won't make you / stronger!"
+ },
+ {
+  "res": 1204,
+  "gi": 483,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Great potential! / Making things / obey you? But / making ME / submit is / impos"
+ },
+ {
+  "res": 1204,
+  "gi": 494,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Your potential / works best with / high INT, so / studying is / the best path!"
+ },
+ {
+  "res": 1204,
+  "gi": 514,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "As your / potential / awakens, / you'll sense / weak points / and strike / swift"
+ },
+ {
+  "res": 1204,
+  "gi": 529,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Your potential / is dormant, but / you'll wield / mismatched gear / effectively!"
+ },
+ {
+  "res": 1204,
+  "gi": 532,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Your potential / is dormant, but / you'll wear any / accessory / effectively!"
+ },
+ {
+  "res": 1204,
+  "gi": 565,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What'll you do? / 'Cost: Points' / 1 Point / 3 Points / 5 Points / Explanation /"
+ },
+ {
+  "res": 1204,
+  "gi": 687,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "But wasting / potions on / foolish tasks / is wasteful. / I'll give you / one ch"
+ },
+ {
+  "res": 1204,
+  "gi": 692,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The wizard / pulled a bottle / from his pocket / and poured it / into the / spri"
+ },
+ {
+  "res": 1204,
+  "gi": 929,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The great lord / of the floor / from the / underworld / depths... you / fought T"
+ },
+ {
+  "res": 1204,
+  "gi": 934,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A terrifying / floor master / is gathering, / strong enough / to open a / portal"
+ },
+ {
+  "res": 1204,
+  "gi": 937,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The witch / Aurora lurked / here, possessed / the San-Goth / king, and / summone"
+ },
+ {
+  "res": 1205,
+  "gi": 41,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It looked as if / a huge force had / torn it apart. / The room was / in total ru"
+ },
+ {
+  "res": 1205,
+  "gi": 42,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Adventurer corpses / hung from the / walls, and blood / was splattered / everywh"
+ },
+ {
+  "res": 1205,
+  "gi": 79,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "One of my / companions was / a great admirer / of the king. He / drew his sword "
+ },
+ {
+  "res": 1205,
+  "gi": 81,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Don't tell me / this kingdom is / just mourning / its decaying / body?"
+ },
+ {
+  "res": 1205,
+  "gi": 90,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "One companion / suddenly slashed / at her. That was / the signal for / battle to"
+ },
+ {
+  "res": 1205,
+  "gi": 92,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I was blown away / by the blast and / buried in debris / and passed out. / That "
+ },
+ {
+  "res": 1205,
+  "gi": 97,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "At last, the / Dark Lord was / born. There are / only a few days / left until th"
+ },
+ {
+  "res": 1205,
+  "gi": 135,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "But when he / found it, he / felt relieved, / as if he'd seen / the crying faces"
+ },
+ {
+  "res": 1205,
+  "gi": 140,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Yours truly / could tell. / It appealed to / him. \"I'm not / dead yet, bring / m"
+ },
+ {
+  "res": 1205,
+  "gi": 141,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It had been / waiting in that / filthy pile of / junk for seven / thousand years"
+ },
+ {
+  "res": 1205,
+  "gi": 144,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If I'd brought / it home, I could / have made an / immortal / leprechaun doll,"
+ },
+ {
+  "res": 1205,
+  "gi": 149,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "That demon had / been watching / the area. To / kill anyone who / touched the / "
+ },
+ {
+  "res": 1205,
+  "gi": 152,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "When I finally / made it back to / floor 3, yours / truly dropped / the treasure"
+ },
+ {
+  "res": 1205,
+  "gi": 173,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "First one was / Guillaume- / senpai. His / knowledge / rivals a hundred / orcs."
+ },
+ {
+  "res": 1205,
+  "gi": 180,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "But you were / lucky. If you / hadn't been, / the Skedim would / have bitten / y"
+ },
+ {
+  "res": 1205,
+  "gi": 184,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Phew, I feel / better now. / I won't be / scolded by / Guillaume- / senpai. Well"
+ },
+ {
+  "res": 1205,
+  "gi": 200,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Item List / Lame Orc Dagger 3000g / Lame Orc Armor 3000g / Lame Orc Wrist 3000g "
+ },
+ {
+  "res": 1205,
+  "gi": 213,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What the hell! / If you're trying / to mess with / yours truly, / you'll pay for"
+ },
+ {
+  "res": 1205,
+  "gi": 225,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I heard that / an adventurer / drove off the / awakened / Writhing Demon. / Is t"
+ },
+ {
+  "res": 1205,
+  "gi": 229,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Even if not / completely, / there are only / three who can / exterminate / Writh"
+ },
+ {
+  "res": 1205,
+  "gi": 230,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Aoi the / Manslayer, / Uri the Heretic, / and myself. / But I need to / correct "
+ },
+ {
+  "res": 1205,
+  "gi": 231,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I am Vile / Doulier. I came / to Duhan from / San-Goth to / slay the / Writhing "
+ },
+ {
+  "res": 1205,
+  "gi": 244,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "No one believed / his words. They / blamed the / army's ruin / on his tactical /"
+ },
+ {
+  "res": 1205,
+  "gi": 245,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "But he was not / defeated by / Ortrud. He was / defeated by the / Writhing Demon"
+ },
+ {
+  "res": 1205,
+  "gi": 246,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "On that day at / Banquo, all / soldiers who / had gathered / turned against / Or"
+ },
+ {
+  "res": 1205,
+  "gi": 247,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "No matter how / skilled with a / sword, facing / two armies at / once, what coul"
+ },
+ {
+  "res": 1205,
+  "gi": 251,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The apex of / the dark family / and the / antagonist / of all living / beings."
+ },
+ {
+  "res": 1205,
+  "gi": 264,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "To defeat them, / you must borrow / the power of / ancient elven / civilization."
+ },
+ {
+  "res": 1205,
+  "gi": 267,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A Warrior God, / said to have / destroyed an / ancient elven / city in a / singl"
+ },
+ {
+  "res": 1205,
+  "gi": 281,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If someone is / besmirching her / name as a prank, / I cannot / overlook it."
+ },
+ {
+  "res": 1205,
+  "gi": 286,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "From behind / Lord Webster, / a man clad in / black appeared / without a sound."
+ },
+ {
+  "res": 1205,
+  "gi": 290,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If you find / any information / about the Lady, / please let / him know."
+ },
+ {
+  "res": 1205,
+  "gi": 312,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I've only seen / them once, so / I can't say / for sure, but / they sure / looke"
+ },
+ {
+  "res": 1205,
+  "gi": 316,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The only things / that happened / were seeing / orcs hurrying / with big bags,"
+ },
+ {
+  "res": 1205,
+  "gi": 333,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Looking closer, / two orcs were / surrounded by / the others, / who were / hurli"
+ },
+ {
+  "res": 1205,
+  "gi": 344,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Seeing you, / the orcs / realized they / were outmatched / and retreated, / cryi"
+ },
+ {
+  "res": 1205,
+  "gi": 354,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Between fading / consciousness / and dreams, / you see a / monster's / shadow."
+ },
+ {
+  "res": 1205,
+  "gi": 392,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Vigger Friends / is a club / where members / help build / the Vigger Shop / toge"
+ },
+ {
+  "res": 1205,
+  "gi": 395,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Plus, the more / events you / join, the more / chances for / the lucky / number "
+ },
+ {
+  "res": 1205,
+  "gi": 464,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! But if / attack magic / is your thing, / maybe the / fron"
+ },
+ {
+  "res": 1205,
+  "gi": 465,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! Slaying / dragons as a / god of war? / You must be / very"
+ },
+ {
+  "res": 1205,
+  "gi": 466,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! If / slaying evil / is your thing, / to evil you / are th"
+ },
+ {
+  "res": 1205,
+  "gi": 467,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! Hey! / Don't look for / mine! Don't / kill me! I'm / alre"
+ },
+ {
+  "res": 1205,
+  "gi": 472,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! I have / no gear so I / don't know, but / monsters must /"
+ },
+ {
+  "res": 1205,
+  "gi": 474,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! Hey! / Even if you / appraise me, / no rare loot / will d"
+ },
+ {
+  "res": 1205,
+  "gi": 476,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! But / having good / luck doesn't / mean you're / actually"
+ },
+ {
+  "res": 1205,
+  "gi": 477,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! Being / good at / running away / won't make you / stronge"
+ },
+ {
+  "res": 1205,
+  "gi": 478,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! You / can synthesize / anything? / Don't turn me / into a"
+ },
+ {
+  "res": 1205,
+  "gi": 480,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! Such / magic power! / You could be / a professor at / Ygg"
+ },
+ {
+  "res": 1205,
+  "gi": 481,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! Self- / healing? / That's beyond / lucky, that's / miracu"
+ },
+ {
+  "res": 1205,
+  "gi": 482,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good to have / talent! / Drawing out / armor's power? / That's a / rare talent!"
+ },
+ {
+  "res": 1205,
+  "gi": 501,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Rather than / magic, honing / physical / skills might / help develop / your tale"
+ },
+ {
+  "res": 1205,
+  "gi": 510,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "So once your / talent blooms, / you'll sense / weak points and / strike fast."
+ },
+ {
+  "res": 1205,
+  "gi": 523,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A weapon that / doesn't match / you can't draw / out its power, / even in the / "
+ },
+ {
+  "res": 1205,
+  "gi": 525,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Your talent / is dormant / now, but one / day you'll draw / power from / any wea"
+ },
+ {
+  "res": 1205,
+  "gi": 526,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Wrist gear / that doesn't / match can't / draw out its / power, even / in the ri"
+ },
+ {
+  "res": 1205,
+  "gi": 528,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Your talent / is dormant / now, but one / day you'll draw / power from / any wri"
+ },
+ {
+  "res": 1205,
+  "gi": 531,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Once your / talent blooms / and you boost / your magic, / you'll grow at / amazi"
+ },
+ {
+  "res": 1205,
+  "gi": 543,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I have no / body, so it's / especially / draining. / I can only do / one at a ti"
+ },
+ {
+  "res": 1205,
+  "gi": 550,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Vigger Friends / new member / sign-up is / floors 1-5 / only, at the / Lost & Fo"
+ },
+ {
+  "res": 1205,
+  "gi": 572,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Here's your / special prize! / An Identification / Bracelet with / full memories"
+ },
+ {
+  "res": 1205,
+  "gi": 625,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "From the / memories in / the holy sword, / you learned / a new Alleid / skill!"
+ },
+ {
+  "res": 1205,
+  "gi": 633,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I bought this / with money / I earned here. / Well, I had / the shop make / it s"
+ },
+ {
+  "res": 1205,
+  "gi": 648,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Hmm... And / those who died / were people / I worked with / at City Hall."
+ },
+ {
+  "res": 1205,
+  "gi": 651,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "We can't stay / here or we'll / get more / depressed! / Let's move on!"
+ },
+ {
+  "res": 1205,
+  "gi": 656,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Normally we / operate by / word of mouth, / but during / floors 16-20 / we're op"
+ },
+ {
+  "res": 1205,
+  "gi": 739,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Can't afford / it, huh? I'm / not running / a charity / here. Come back / when y"
+ },
+ {
+  "res": 1205,
+  "gi": 741,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Not interested? / Indeed, peering / into another's / soul is quite / an intimate"
+ },
+ {
+  "res": 1205,
+  "gi": 743,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I study / ancient elven / alchemy. / I'm currently / researching / ancient elven"
+ },
+ {
+  "res": 1205,
+  "gi": 745,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Once I'm done, / I plan to / open a shop / specializing / in alchemy. / Come aga"
+ },
+ {
+  "res": 1205,
+  "gi": 781,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "When you / declined, / Melanie's / expression / grew even more / distressed."
+ },
+ {
+  "res": 1205,
+  "gi": 826,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I hear / alchemists can / forge magic / swords without / the big / equipment."
+ },
+ {
+  "res": 1205,
+  "gi": 835,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Hmm, you don't / need to do / research when / the military / and knights / handl"
+ },
+ {
+  "res": 1205,
+  "gi": 840,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Then come / with us! / We need / magic sword / synthesis / during our / magic / "
+ },
+ {
+  "res": 1205,
+  "gi": 845,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Miri whispered / to Melanie, / who turned / bright red, / then spoke to / Kunnar"
+ },
+ {
+  "res": 1205,
+  "gi": 863,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Suddenly, the / communication / pouch given / by the elf / responded."
+ },
+ {
+  "res": 1206,
+  "gi": 569,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu / Buy arena medals / Buy dealer medals / Sell arena medals / Do "
+ },
+ {
+  "res": 1206,
+  "gi": 860,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Which will you take? / Ogre's Club / Vow's Chainmail / Half-Plate Boots"
+ },
+ {
+  "res": 1207,
+  "gi": 609,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu / Buy arena medals / Buy dealer medals / Sell arena medals / Do "
+ },
+ {
+  "res": 1208,
+  "gi": 363,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What will you do? // \"Cost: # points\" // 1 point / 3 points / Hear rules / Don't"
+ },
+ {
+  "res": 1208,
+  "gi": 364,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What will you do? // \"Cost: # points\" // 1 point / 3 points / 5 points / Hear ru"
+ },
+ {
+  "res": 1208,
+  "gi": 427,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The instant you / touched the sword, / a warm sensation / flooded your mind!"
+ },
+ {
+  "res": 1208,
+  "gi": 428,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "From the memories / within the white / sword, you learned / a new Alleid!"
+ },
+ {
+  "res": 1208,
+  "gi": 474,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The sorcerer took / out a bottle from / his pocket and poured / it into the foun"
+ },
+ {
+  "res": 1208,
+  "gi": 633,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu // Buy tavern medals / Buy battle medals / Trade tavern medals /"
+ },
+ {
+  "res": 1208,
+  "gi": 720,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Once the preparations / are done, I'll open an / alchemy shop. Come again."
+ },
+ {
+  "res": 1208,
+  "gi": 728,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A hair-raising / murderous energy swirled / as fierce shouts echoed."
+ },
+ {
+  "res": 1208,
+  "gi": 730,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It was a fierce battle, / but the woman was clearly / outmatched by their"
+ },
+ {
+  "res": 1209,
+  "gi": 0,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The medal obtained by defeating the floor master was offered to the gods."
+ },
+ {
+  "res": 1209,
+  "gi": 12,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Yoppen spoke to you in a quiet voice so as not to wake up the sleeping Succubus."
+ },
+ {
+  "res": 1209,
+  "gi": 15,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I was wondering how to wake her up, but now that you're here, I've got an idea!"
+ },
+ {
+  "res": 1209,
+  "gi": 18,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I know it sounds a bit rough, but please! If you catch her, I can talk to Big Si"
+ },
+ {
+  "res": 1209,
+  "gi": 20,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Because if there are too many people here, Big Sister might wake up, you know?"
+ },
+ {
+  "res": 1209,
+  "gi": 22,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Fufufu, please hurry up. If Big Sister wakes up, there's no point, so do it as s"
+ },
+ {
+  "res": 1209,
+  "gi": 31,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Big Sister, please think of me too. I'll stay at the nearby inn until Big Sister"
+ },
+ {
+  "res": 1209,
+  "gi": 32,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I refuse to breathe in the life energy of someone like you! You will only stain "
+ },
+ {
+  "res": 1209,
+  "gi": 33,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Seeing the Succubus disgusted by him, Yoppen had tears in his eyes."
+ },
+ {
+  "res": 1209,
+  "gi": 35,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Because you're disgusting! Get away from me! Get away from me!"
+ },
+ {
+  "res": 1209,
+  "gi": 37,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Yoppen, with tears streaming down his face, came closer to her, trying to touch "
+ },
+ {
+  "res": 1209,
+  "gi": 41,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The only sound left in the room was the sobbing sound of the stranded Yoppen."
+ },
+ {
+  "res": 1209,
+  "gi": 42,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Ugh... Eugh! After little sister Pixie, Big Sister left me alone too... Why...!!"
+ },
+ {
+  "res": 1209,
+  "gi": 45,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Ughhhhh... I see... I didn't know that... I guess you don't like me either..."
+ },
+ {
+  "res": 1209,
+  "gi": 46,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I don't need any words of comfort. Only a princess can soothe me now."
+ },
+ {
+  "res": 1209,
+  "gi": 47,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "That's right! Princess! I'm sure Princess Aurora will respond to my wishes!"
+ },
+ {
+  "res": 1209,
+  "gi": 50,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I don't mind it at all now, that the Pixie and Big Sister are hating on me."
+ },
+ {
+  "res": 1209,
+  "gi": 51,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Well, I'm going to go back to the city and start preparing for the real princess"
+ },
+ {
+  "res": 1209,
+  "gi": 57,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Just don't keep coming in and out of the door, it's too noisy. If Big Sister wak"
+ },
+ {
+  "res": 1209,
+  "gi": 65,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Don't do it. You'd be throwing your lives away. You're no match for them."
+ },
+ {
+  "res": 1209,
+  "gi": 75,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "One life will save many lives and bring permanent peace to Venoa."
+ },
+ {
+  "res": 1209,
+  "gi": 76,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If you can save the world with your sentimental feelings, so be it."
+ },
+ {
+  "res": 1209,
+  "gi": 84,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Would Ortrud, having learned of my betrayal, attack me with his Royal Knights?"
+ },
+ {
+  "res": 1209,
+  "gi": 98,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If I only had wanted to take the throne, I could have simply waited for the king"
+ },
+ {
+  "res": 1209,
+  "gi": 102,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Even though we finally have Her Highness, who will act as the divine body for th"
+ },
+ {
+  "res": 1209,
+  "gi": 103,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "we are yet left to rot in the depths of the labyrinth, halfway through."
+ },
+ {
+  "res": 1209,
+  "gi": 105,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "God did take everything from me once, and now he really is planning to do it aga"
+ },
+ {
+  "res": 1209,
+  "gi": 106,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Lord Webster's voice had a sombre sound, as if it were coming from a distant pas"
+ },
+ {
+  "res": 1209,
+  "gi": 108,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If I can bring Her Highness to the Warrior God, the world will be mine."
+ },
+ {
+  "res": 1209,
+  "gi": 110,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Of course, I will raise the price. Not only my life, but also my soul will be on"
+ },
+ {
+  "res": 1209,
+  "gi": 121,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It became chilling, dismal, and a cold malevolence surrounded you."
+ },
+ {
+  "res": 1209,
+  "gi": 126,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Countless wandering souls rose from the ashes with shouts of joy at their releas"
+ },
+ {
+  "res": 1209,
+  "gi": 144,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Lies! You were under Lord Webster's command, and you were looking for us, weren'"
+ },
+ {
+  "res": 1209,
+  "gi": 150,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "He knew that she was alive, and that you were hiding her in the depths of the la"
+ },
+ {
+  "res": 1209,
+  "gi": 152,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If you had been watching over us, you should have known that we were in big trou"
+ },
+ {
+  "res": 1209,
+  "gi": 158,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What are you talking about? What the hell does he want? Explain it to me."
+ },
+ {
+  "res": 1209,
+  "gi": 159,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "I am sure that His Majesty put a lot of thoughts into this, but I, as his servan"
+ },
+ {
+  "res": 1209,
+  "gi": 161,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Emilia and the princess returned to the city with the help of the Return Medicin"
+ },
+ {
+  "res": 1209,
+  "gi": 198,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Haha, I'm sure you are very interested in joining the Vigger Friends!"
+ },
+ {
+  "res": 1209,
+  "gi": 199,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "There's no need to be shy. How could you not be interested in such a great proje"
+ },
+ {
+  "res": 1209,
+  "gi": 207,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Customers who paid the admission fee to join are offered a variety of special se"
+ },
+ {
+  "res": 1209,
+  "gi": 208,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "These events will be held at the Event Space, and the more events you attend, th"
+ },
+ {
+  "res": 1209,
+  "gi": 219,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Yupp, I certainly got it! Now, let me give you the Vigger Friends membership car"
+ },
+ {
+  "res": 1209,
+  "gi": 225,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What a shame! Make sure you bring 5000G, no, even more than that, next time you "
+ },
+ {
+  "res": 1209,
+  "gi": 245,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You looked around, but there was no one who looked like the owner of the voice."
+ },
+ {
+  "res": 1209,
+  "gi": 247,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I feel sorry for you. Even though you're their leader, you don't possess IT."
+ },
+ {
+  "res": 1209,
+  "gi": 250,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good for you. You don't have anything now, but I'm sure a hidden talent will blo"
+ },
+ {
+  "res": 1209,
+  "gi": 252,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I'm Lomi the Ghost. If you pay me 2000G, I'll give you a more detailed reading."
+ },
+ {
+  "res": 1209,
+  "gi": 254,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Then put the gold on the counter. I can't take it because my body is ethereal."
+ },
+ {
+  "res": 1209,
+  "gi": 277,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Good for you, having talent. Being able to learn lots of magic sounds impressive"
+ },
+ {
+  "res": 1209,
+  "gi": 279,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good for you, having talent. Being brave enough to fight dragons is really stron"
+ },
+ {
+  "res": 1209,
+  "gi": 280,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Good for you, having talent. Being good at defeating demons makes you a demon to"
+ },
+ {
+  "res": 1209,
+  "gi": 282,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good for you, having talent. But you seem a bit scary! Don't bully me, okay?"
+ },
+ {
+  "res": 1209,
+  "gi": 283,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good for you, having talent. Don't just keep taking attacks, make sure you attac"
+ },
+ {
+  "res": 1209,
+  "gi": 284,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good for you, having talent. That's amazing, your body is the exact opposite of "
+ },
+ {
+  "res": 1209,
+  "gi": 287,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good for you, having talent. You're good at finding items!? Give me something so"
+ },
+ {
+  "res": 1209,
+  "gi": 288,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Good for you, having talent. Hey, even if you dissect me, you won't find any alc"
+ },
+ {
+  "res": 1209,
+  "gi": 295,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Good for you, having talent. Being able to protect yourself is beyond brave, it'"
+ },
+ {
+  "res": 1209,
+  "gi": 299,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It's unfortunate, but don't be depressed. Most people in this world are ordinary"
+ },
+ {
+  "res": 1209,
+  "gi": 303,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "The key to developing your talent will be to work hard and accumulate a lot of k"
+ },
+ {
+  "res": 1209,
+  "gi": 304,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Your talents can only be utilized if you have a high level of wisdom, so it's be"
+ },
+ {
+  "res": 1209,
+  "gi": 306,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If you live with a stronger faith, I'm sure good things will happen to you in ti"
+ },
+ {
+  "res": 1209,
+  "gi": 309,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "In the future, you might no longer be afraid of them, and are willing to face th"
+ },
+ {
+  "res": 1209,
+  "gi": 310,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "There's a demonic heart inside you that stands above dragons and demons."
+ },
+ {
+  "res": 1209,
+  "gi": 315,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "I think you need to work more on your arm strength than anything else for your t"
+ },
+ {
+  "res": 1209,
+  "gi": 316,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "One day, you'll be able to see the enemy's movements as if they were in slow mot"
+ },
+ {
+  "res": 1209,
+  "gi": 317,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I think you have excellent kinetic vision by nature, so all you need to do is tr"
+ },
+ {
+  "res": 1209,
+  "gi": 319,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "If you train your muscles even more, you can harden your body into something inc"
+ },
+ {
+  "res": 1209,
+  "gi": 321,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I'm sure you'll awaken your ability to see further and further into the future."
+ },
+ {
+  "res": 1209,
+  "gi": 322,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Then you'll be able to detect the enemy's movements and prevent mistakes, I'm su"
+ },
+ {
+  "res": 1209,
+  "gi": 323,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You seem to be good at grasping the characteristics of everything."
+ },
+ {
+  "res": 1209,
+  "gi": 326,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I feel like you can easily find things that normal people would overlook without"
+ },
+ {
+  "res": 1209,
+  "gi": 327,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I don't know much about your personality, but it seems you'd be good at research"
+ },
+ {
+  "res": 1209,
+  "gi": 328,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Even if you've never done it before, you might find you're naturally good at it."
+ },
+ {
+  "res": 1209,
+  "gi": 329,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "So all of a sudden, you might develop a perverted hobby like dissection."
+ },
+ {
+  "res": 1209,
+  "gi": 338,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Even the best tools of war are useless if an unrelated class uses them."
+ },
+ {
+  "res": 1209,
+  "gi": 341,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "but I'm sure you'll be able to bring out the best in yourself by forcefully wiel"
+ },
+ {
+  "res": 1209,
+  "gi": 345,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "but I'm sure you'll be able to bring out the best in yourself if you force yours"
+ },
+ {
+  "res": 1209,
+  "gi": 347,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You look like a genius, so it's probably best not to make any effort right now."
+ },
+ {
+  "res": 1209,
+  "gi": 349,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You seem to have a talent for drawing out the power of things rather than your o"
+ },
+ {
+  "res": 1209,
+  "gi": 350,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I guess you could say that you are better with things than other people...?"
+ },
+ {
+  "res": 1209,
+  "gi": 353,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Eventually, you may get sick for a while, but it will eventually go away again."
+ },
+ {
+  "res": 1209,
+  "gi": 358,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "so if you want to read someone else's fortune, please come back after a while. B"
+ },
+ {
+  "res": 1209,
+  "gi": 374,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What will you do? // \"Cost: # points\" // 1 point / 3 points / Hear rules / Don't"
+ },
+ {
+  "res": 1209,
+  "gi": 375,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What will you do? // \"Cost: # points\" // 1 point / 3 points / 5 points / Hear ru"
+ },
+ {
+  "res": 1209,
+  "gi": 388,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You learned the Alleid Warp Attack from the thoughts within the bracelet."
+ },
+ {
+  "res": 1209,
+  "gi": 390,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "By the way, from next time onwards, the prize will be a Bone of the Dead and Mag"
+ },
+ {
+  "res": 1209,
+  "gi": 392,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "But hey, it's all part of the service! Take the Bone of the Dead and Magical Win"
+ },
+ {
+  "res": 1209,
+  "gi": 421,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "That's why you have the points! It's really simple, isn't it? Now, please draw s"
+ },
+ {
+  "res": 1209,
+  "gi": 424,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "If you win, you get the Bone of the Dead and Magical Wine! Your magical power wi"
+ },
+ {
+  "res": 1209,
+  "gi": 428,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "That's why you have the points! It's really simple, isn't it? Now, please draw s"
+ },
+ {
+  "res": 1209,
+  "gi": 429,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "No lottery for you today? Then please visit us again when we are holding a lotte"
+ },
+ {
+  "res": 1209,
+  "gi": 432,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "An Identification Bracelet was lying in front of the eerie-looking statue."
+ },
+ {
+  "res": 1209,
+  "gi": 433,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You learned the Alleid Sweep Attack from the thoughts within the bracelet."
+ },
+ {
+  "res": 1209,
+  "gi": 439,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "This is a memento of my father and mother. They gave it to me as a good luck cha"
+ },
+ {
+  "res": 1209,
+  "gi": 444,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You learned the Alleid Silence Breaker from the thoughts within the old sacred s"
+ },
+ {
+  "res": 1209,
+  "gi": 450,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You did as Lomi told you and opened the little treasure box on the counter."
+ },
+ {
+  "res": 1209,
+  "gi": 451,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Inside the chest was a beautiful hair ornament made of precious baked silver."
+ },
+ {
+  "res": 1209,
+  "gi": 452,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I bought this with the gold I got from working here. I mean, I got one from this"
+ },
+ {
+  "res": 1209,
+  "gi": 453,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "When my mom was alive, she used to wear one like this all the time, and I adored"
+ },
+ {
+  "res": 1209,
+  "gi": 454,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Did you know that baked silver is extremely precious and hard to come by?"
+ },
+ {
+  "res": 1209,
+  "gi": 456,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Lomi took the hair ornament out of the treasure chest and handed it to you."
+ },
+ {
+  "res": 1209,
+  "gi": 465,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu // Buy tavern medals / Buy battle medals / Trade tavern medals /"
+ },
+ {
+  "res": 1209,
+  "gi": 478,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Just so you know, I won't give you even 1G off! Don't even think about trying to"
+ },
+ {
+  "res": 1209,
+  "gi": 494,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Just so you know, I won't give you even 1G off! Don't even think about trying to"
+ },
+ {
+  "res": 1209,
+  "gi": 513,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It seems that this Automata has already developed a heart of its own."
+ },
+ {
+  "res": 1209,
+  "gi": 516,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Expressed in numbers, this Automata has accumulated about this much experience."
+ },
+ {
+  "res": 1209,
+  "gi": 518,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It seems that this Automata has already developed a heart of its own."
+ },
+ {
+  "res": 1209,
+  "gi": 521,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Expressed in numbers, this Automata has accumulated about this much experience."
+ },
+ {
+  "res": 1209,
+  "gi": 523,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It seems that this Automata has already developed a heart of its own."
+ },
+ {
+  "res": 1209,
+  "gi": 526,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Expressed in numbers, this Automata has accumulated about this much experience."
+ },
+ {
+  "res": 1209,
+  "gi": 528,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It seems that this Automata has already developed a heart of its own."
+ },
+ {
+  "res": 1209,
+  "gi": 531,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Expressed in numbers, this Automata has accumulated about this much experience."
+ },
+ {
+  "res": 1209,
+  "gi": 533,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It seems that this Automata has already developed a heart of its own."
+ },
+ {
+  "res": 1209,
+  "gi": 536,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Expressed in numbers, this Automata has accumulated about this much experience."
+ },
+ {
+  "res": 1209,
+  "gi": 538,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It seems that this Automata has already developed a heart of its own."
+ },
+ {
+  "res": 1209,
+  "gi": 541,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Expressed in numbers, this Automata has accumulated about this much experience."
+ },
+ {
+  "res": 1209,
+  "gi": 544,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "How's that? Are you satisfied? If you ever want another appraisal, you can come "
+ },
+ {
+  "res": 1209,
+  "gi": 551,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "When I'm ready, this store should fulfill all your alchemy needs, so please come"
+ },
+ {
+  "res": 1209,
+  "gi": 556,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I'm so glad you came to see us! Were you worried? Don't worry, we'll do our best"
+ },
+ {
+  "res": 1209,
+  "gi": 562,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "If anything happens to the princess, it will be all my fault! I might as well di"
+ },
+ {
+  "res": 1209,
+  "gi": 566,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Near the elven girl, the orc was flustered, desperately trying to soothe her."
+ },
+ {
+  "res": 1209,
+  "gi": 575,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "So, so careless... Oh, it's all my fault... that the princess has been kidnapped"
+ },
+ {
+  "res": 1209,
+  "gi": 599,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Emilia, who had been following you from behind, tugged at your sleeve."
+ },
+ {
+  "res": 1210,
+  "gi": 44,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Then, looking a / bit embarrassed, / he scratched his / head and spoke."
+ },
+ {
+  "res": 1210,
+  "gi": 117,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "At Banquo he said / he would raise a / warrior who could / slay the dark / ones."
+ },
+ {
+  "res": 1210,
+  "gi": 118,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "That warrior / would become / Venoa's Guardian, / a shield for / the people."
+ },
+ {
+  "res": 1210,
+  "gi": 126,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "No matter how many / dark ones you / slay, if the / gate opens, they / flood the"
+ },
+ {
+  "res": 1210,
+  "gi": 128,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Two doors have / opened. One more / and I can summon / an even greater / dark on"
+ },
+ {
+  "res": 1210,
+  "gi": 139,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "As they wished, / they slaughtered / and devoured all / living things."
+ },
+ {
+  "res": 1210,
+  "gi": 142,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Diarant's people / used us Automata / and ogres to / fight back, but / it was to"
+ },
+ {
+  "res": 1210,
+  "gi": 151,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "One who will burn / those dark ones / to nothing with / the fires of / this worl"
+ },
+ {
+  "res": 1210,
+  "gi": 152,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I watched Master / draw his last / breath, then went / into the flames / to carr"
+ },
+ {
+  "res": 1210,
+  "gi": 179,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "No matter how many / dark ones you / slay, if the / gate opens, they / flood the"
+ },
+ {
+  "res": 1210,
+  "gi": 181,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Two doors have / opened. One more / and I can summon / an even greater / dark on"
+ },
+ {
+  "res": 1210,
+  "gi": 187,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The active ones / are all powered / by the life / force energy / I gave them."
+ },
+ {
+  "res": 1210,
+  "gi": 189,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You should have / shut down when / Master died. / Why do you still / function?"
+ },
+ {
+  "res": 1210,
+  "gi": 196,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Even after ages / of meeting those / called sages, / some mysteries / remain."
+ },
+ {
+  "res": 1210,
+  "gi": 199,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "In this ruined / world, no matter / how much time / passes, nothing / will emerg"
+ },
+ {
+  "res": 1210,
+  "gi": 200,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Death has no / meaning, nor does / life. Only the / fact that you / exist remain"
+ },
+ {
+  "res": 1210,
+  "gi": 317,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / If magic isn't / your thing, maybe / fighting suits / you better"
+ },
+ {
+  "res": 1210,
+  "gi": 320,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / Hey! Don't look at / mine! Don't kill / me! I'm already / dead t"
+ },
+ {
+  "res": 1210,
+  "gi": 330,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / Just because / you're good at / running doesn't / mean you shoul"
+ },
+ {
+  "res": 1210,
+  "gi": 331,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / Making things / explode is cool! / Don't swing me / around thoug"
+ },
+ {
+  "res": 1210,
+  "gi": 332,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / You turn things / to dust! But / turning me into / a shield? Mea"
+ },
+ {
+  "res": 1210,
+  "gi": 333,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / Such power! You / could teach at / Jugurtha's magic / academy!"
+ },
+ {
+  "res": 1210,
+  "gi": 376,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "An ordinary / person couldn't / draw out a / weapon's power / even with a / grea"
+ },
+ {
+  "res": 1210,
+  "gi": 377,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Normally people / don't use weapons / beyond their / level, but / you're differe"
+ },
+ {
+  "res": 1210,
+  "gi": 380,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Normally people / don't use gear / beyond their / level, but / you're different!"
+ },
+ {
+  "res": 1210,
+  "gi": 504,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu / Buy Dungeon Medal / Buy Special Medal / Attach Medal / Do Noth"
+ },
+ {
+  "res": 1210,
+  "gi": 556,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1210,
+  "gi": 561,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1210,
+  "gi": 566,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1210,
+  "gi": 571,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1210,
+  "gi": 576,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1210,
+  "gi": 581,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1210,
+  "gi": 633,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "This Langobalt / will see God's / prophecy through, / even at the cost / of his "
+ },
+ {
+  "res": 1210,
+  "gi": 642,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "On that signal, / they scattered / and began / chanting a / terrible spell."
+ },
+ {
+  "res": 1210,
+  "gi": 644,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "By God's name I / command: Monsters, / with thy armor, / purge the impure!"
+ },
+ {
+  "res": 1210,
+  "gi": 645,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "With flapping / wings, monsters / appeared and / began destroying / everything."
+ },
+ {
+  "res": 1211,
+  "gi": 23,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Even a wretched / creature has / such a beautiful / moment of birth!"
+ },
+ {
+  "res": 1211,
+  "gi": 44,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "On his behalf, / thank you. When / you need my / strength, just / say the word."
+ },
+ {
+  "res": 1211,
+  "gi": 162,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / If magic isn't / your thing, maybe / fighting suits / you better"
+ },
+ {
+  "res": 1211,
+  "gi": 165,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / Hey! Don't look at / mine! Don't kill / me! I'm already / dead t"
+ },
+ {
+  "res": 1211,
+  "gi": 175,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / Just because / you're good at / running doesn't / mean you shoul"
+ },
+ {
+  "res": 1211,
+  "gi": 176,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / Making things / explode is cool! / Don't swing me / around thoug"
+ },
+ {
+  "res": 1211,
+  "gi": 177,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / You turn things / to dust! But / turning me into / a shield? Mea"
+ },
+ {
+  "res": 1211,
+  "gi": 178,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Talent found! / Such power! You / could teach at / Jugurtha's magic / academy!"
+ },
+ {
+  "res": 1211,
+  "gi": 221,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "An ordinary / person couldn't / draw out a / weapon's power / even with a / grea"
+ },
+ {
+  "res": 1211,
+  "gi": 222,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Normally people / don't use weapons / beyond their / level, but / you're differe"
+ },
+ {
+  "res": 1211,
+  "gi": 225,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Normally people / don't use gear / beyond their / level, but / you're different!"
+ },
+ {
+  "res": 1211,
+  "gi": 352,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Looking closely, / the goddess / sword's inner / side still holds / sealed memor"
+ },
+ {
+  "res": 1211,
+  "gi": 353,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Gather the 5 / sacred relics / and the knight / shall receive / holy power."
+ },
+ {
+  "res": 1211,
+  "gi": 391,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Looking closely, / the goddess / sword's inner / side still holds / sealed memor"
+ },
+ {
+  "res": 1211,
+  "gi": 392,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Gather the 4 / ancient king's / treasures and / the knight shall / receive holy "
+ },
+ {
+  "res": 1211,
+  "gi": 431,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu / Buy Dungeon Medal / Buy Special Medal / Attach Medal / Do Noth"
+ },
+ {
+  "res": 1211,
+  "gi": 483,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1211,
+  "gi": 488,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1211,
+  "gi": 493,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1211,
+  "gi": 498,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1211,
+  "gi": 503,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1211,
+  "gi": 508,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / refere"
+ },
+ {
+  "res": 1211,
+  "gi": 539,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "For freedom, / peace, and a / land where all / could live -- / they fought / alo"
+ },
+ {
+  "res": 1211,
+  "gi": 541,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The dark ones / appeared, and / countless lives / were devoured / before anythin"
+ },
+ {
+  "res": 1211,
+  "gi": 542,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It was all / illusion. As / long as they / exist, no peace / or happiness / can "
+ },
+ {
+  "res": 1211,
+  "gi": 543,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Having survived, / the only reason / I desired this / peace was simply / because"
+ },
+ {
+  "res": 1211,
+  "gi": 561,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The people's / pain is embedded / in me. Even / if I went / elsewhere, they / wo"
+ },
+ {
+  "res": 1211,
+  "gi": 568,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "But you kept / your promise. You / found a warrior / who can slay / the dark one"
+ },
+ {
+  "res": 1211,
+  "gi": 579,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Some sacrifice / others to save / themselves, / while others / freely give / the"
+ },
+ {
+  "res": 1212,
+  "gi": 88,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Even if you forget / the silenced ones, / they will return / as long as you / re"
+ },
+ {
+  "res": 1212,
+  "gi": 221,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good you were / prepared. Forgetting / monsters makes you / the real monster."
+ },
+ {
+  "res": 1212,
+  "gi": 278,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Without battle / sense, even with / good gear, you / can't draw out / true power"
+ },
+ {
+  "res": 1212,
+  "gi": 280,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Preparation is / still lacking, but / soon you can draw / out spells even / in t"
+ },
+ {
+  "res": 1212,
+  "gi": 358,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Only 1 bracelet, / so if there are / multiple winners, / prize changes to / the "
+ },
+ {
+  "res": 1212,
+  "gi": 403,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu // Buy Dungeon Medal / Buy Special Medal / Equip Medal / Nothing"
+ },
+ {
+  "res": 1347,
+  "gi": 0,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Oh my, you're back again? / I'm so well-stocked that / you just can't forget me~"
+ },
+ {
+  "res": 1347,
+  "gi": 1,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Since you came all / the way back here, you're / going to buy something, right?"
+ },
+ {
+  "res": 1348,
+  "gi": 0,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "The medal earned from / defeating the floor master / was offered to the gods."
+ },
+ {
+  "res": 1349,
+  "gi": 3,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "With no time to draw / weapons or even hesitate, / the monster shadows attacked!"
+ },
+ {
+  "res": 1351,
+  "gi": 4,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "This is a memento of / my father and mother. / They gave it to me / as a good lu"
+ },
+ {
+  "res": 1351,
+  "gi": 9,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "From the memories sealed / in the red gemstone, you learned / a new Alleid: Sile"
+ },
+ {
+  "res": 1351,
+  "gi": 15,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You did as Lomi said / and opened the little / treasure chest on the counter."
+ },
+ {
+  "res": 1353,
+  "gi": 88,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Even if you forget / the dead, as long as / you remember them, / they'll return."
+ },
+ {
+  "res": 1353,
+  "gi": 220,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Good you have gear. / Forgetting demons / is your thing, but / to them, you're t"
+ },
+ {
+  "res": 1353,
+  "gi": 314,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "How will you draw? / Draw 1 point / Draw 3 points / Hear the explanation / Don't"
+ },
+ {
+  "res": 1353,
+  "gi": 315,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "How will you draw? / Draw 1 point / Draw 3 points / Draw 5 points / Hear the exp"
+ },
+ {
+  "res": 1353,
+  "gi": 403,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu / Buy Dungeon Medal / Buy Special Medal / Exchange Medal / Do no"
+ },
+ {
+  "res": 1353,
+  "gi": 604,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I came this deep, / but defeating / Aurora or saving / this land holds no / inte"
+ },
+ {
+  "res": 1354,
+  "gi": 41,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Why the man once / feared as the / Lion King, who led / war-torn Venoa / to peac"
+ },
+ {
+  "res": 1354,
+  "gi": 47,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "That the witch / obediently kills / my daughter, / curses my body, / and creates"
+ },
+ {
+  "res": 1354,
+  "gi": 53,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Very well. I'll / gather companions / and head into the / labyrinth myself."
+ },
+ {
+  "res": 1354,
+  "gi": 54,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Webster, who had / watched the / exchange, / approached with // a puzzled look."
+ },
+ {
+  "res": 1354,
+  "gi": 60,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "King Ortrud took / the ring from / you and / confirmed it was // the princess'."
+ },
+ {
+  "res": 1354,
+  "gi": 63,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "I don't know. But / this proves / someone hid Her / Highness' body / in the laby"
+ },
+ {
+  "res": 1354,
+  "gi": 103,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "An Order member / wouldn't need / poison; they have / many other ways."
+ },
+ {
+  "res": 1354,
+  "gi": 131,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A friend to watch / your back in / battle--no amount / of gold can buy / that."
+ },
+ {
+  "res": 1354,
+  "gi": 142,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A friend to watch / your back in / battle--no amount / of gold can buy / that."
+ },
+ {
+  "res": 1354,
+  "gi": 146,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "A friend to watch / your back in / battle--no amount / of gold can buy / that."
+ },
+ {
+  "res": 1354,
+  "gi": 153,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Well-furnished, / but practical-- / no decorations, / plain tapestries // and ta"
+ },
+ {
+  "res": 1354,
+  "gi": 162,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "What we ask is / that you enter / the labyrinth and / bring back the / witch's h"
+ },
+ {
+  "res": 1354,
+  "gi": 166,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "It was six / months ago, at / Princess Oriana / and Lord // Webster's / engageme"
+ },
+ {
+  "res": 1354,
+  "gi": 171,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Everyone knew / that fearsome / name. The witch / who brought many // kingdoms t"
+ },
+ {
+  "res": 1354,
+  "gi": 181,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Soon after, / disasters / plagued the / royal line. The // witch had cursed / th"
+ },
+ {
+  "res": 1354,
+  "gi": 233,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Not a soul in / sight. Even the / wind had / stopped. The // town was deathly / "
+ },
+ {
+  "res": 1354,
+  "gi": 279,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "Not a soul in / sight. Even the / wind had / stopped. The // town was deathly / "
+ },
+ {
+  "res": 1354,
+  "gi": 287,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 2,
+  "en": "Young-faced / twins, one / blonde, one / brunette--nearly // identical."
+ },
+ {
+  "res": 1354,
+  "gi": 293,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "They say the / witch in the / labyrinth is / behind it all, / but no one's / fou"
+ },
+ {
+  "res": 1355,
+  "gi": 1,
+  "headed": false,
+  "multi": true,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "From the crests on their / armor, you could tell they / were knights of the Orde"
+ },
+ {
+  "res": 1355,
+  "gi": 13,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 4,
+  "n480": 3,
+  "en": "You took off your / Identification Bracelet / and showed it to the knight."
+ },
+ {
+  "res": 1355,
+  "gi": 38,
+  "headed": false,
+  "multi": false,
+  "content_dlg": false,
+  "n360": 5,
+  "n480": 3,
+  "en": "Upon entering the labyrinth, / you could hear the boisterous / voices of knights"
+ }
+]

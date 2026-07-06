@@ -1,0 +1,118 @@
+==== data/type2_translated/batch_simzon_cinematic.json (3) ====
+RES=1196 MI=599
+JP: 『シムゾンさん！』
+EN: "Simzon!"
+
+RES=1196 MI=675
+JP: 『シムゾンさん！』
+EN: "Simzon!"
+
+RES=1354 MI=262
+JP: 『シムゾンさん！』
+EN: "Simzon!"
+
+==== data/translate_chunks/chunk_r43_fix.json (26) ====
+RES=43 MI=1
+JP: おうおう、 / あの依頼はどうなった？ /   / 
+EN: Hey there, / how'd that job go? /   / 
+
+RES=43 MI=2
+JP: よう、 / 一杯ひっかけてくかい？ /   / 
+EN: Yo, / want a drink? /   / 
+
+RES=43 MI=3
+JP: 掲鉄板を見るのか？ /   /   / 
+EN: Check the board? /   /   / 
+
+RES=43 MI=4
+JP: 何か依頼を / 引き受けてくれるのか？ /   / 
+EN: Gonna take on / a job? /   / 
+
+RES=43 MI=5
+JP: お前さんがこれまでに / こなした依頼を / 教えてやろう。 / 
+EN: Lemme show ya / the jobs you've / done so far. / 
+
+RES=43 MI=6
+JP: 気分転更に / ゲームでもしていけよ  /   / 
+EN: Take a break, / play a game! /   / 
+
+RES=43 MI=7
+JP: なんだ、 / もう帰るってのか？ /   / 
+EN: What, / leaving already? /   / 
+
+RES=43 MI=8
+JP: おっ  / ゲームをしていくか？ /   / 
+EN: Oh! / Wanna play a game? /   / 
+
+RES=43 MI=9
+JP: トホホ！、 / アンタにやられちゃ / 商売あがったりだぜ。 / 
+EN: Argh! / You're too good, / bad for business! / 
+
+RES=43 MI=10
+JP: 自信がないなら / 練習でもしてみな  /   / 
+EN: Not confident? / Try practicing! /   / 
+
+RES=43 MI=11
+JP: ゲームは１回５００gだぜ。 /   /   / 
+EN: It's 500g a game. /   /   / 
+
+RES=43 MI=12
+JP: ゲームで集めたメダルと / アイテムを交更するぜ。 /   / 
+EN: Trade medals for / items, yeah? /   / 
+
+RES=43 MI=13
+JP: ゲームで損したくなければ / しっかり練習しろよ  /   / 
+EN: Don't wanna lose? / Practice well! /   / 
+
+RES=43 MI=14
+JP: ゲームを錠めていいか？ /   /   / 
+EN: Quit the game? /   /   / 
+
+RES=43 MI=15
+JP: おいおい、金が足りねえと / ゲームはできねえぜ。 /   / 
+EN: Hey now, no gold / means no game! /   / 
+
+RES=43 MI=16
+JP: 残念だな、メダルは / なしだ  /   / 
+EN: Too bad, / no medals! /   / 
+
+RES=43 MI=17
+JP: ほら、メダルをやるよ  /   /   / 
+EN: Here, take these / medals! /   / 
+
+RES=43 MI=18
+JP: どの景品がほしいんだ？ /   /   / 
+EN: Which prize / d'ya want? /   / 
+
+RES=43 MI=19
+JP: その景品と / 交更したいのか？ /   / 
+EN: Trade for / that prize? /   / 
+
+RES=43 MI=20
+JP: 誰に持たせるんだい？ /   /   / 
+EN: Who gets it? /   /   / 
+
+RES=43 MI=21
+JP: ほらよ  /   /   / 
+EN: Here ya go! /   /   / 
+
+RES=43 MI=22
+JP: 持ち士を整理してから / 来てくれよ。 /   / 
+EN: Sort your stuff / then come back. /   / 
+
+RES=43 MI=23
+JP: は い / 
+EN: Yes / 
+
+RES=43 MI=24
+JP: いいえ / 
+EN: No / 
+
+RES=43 MI=25
+JP: 練習をはじめますか？ / 
+EN: Start practice? / 
+
+RES=43 MI=26
+JP: ゲームをはじめますか？ / 「１プレイ ５００g」 / 
+EN: Start the game? / [1 play: 500g] / 
+

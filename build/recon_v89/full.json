@@ -1,0 +1,956 @@
+{
+ "reports": [
+  {
+   "area": "cat1",
+   "summary": "Cataloged v89 screenshots slice 0-13 (0-based indices 0..13 = first 14 PNGs, timestamps 165751-170121). ALL 14 are the INTRO VIDEO / prologue narration — chargen does NOT appear in this slice. This directly confirms the user's verdict \"INTRO VIDEO: broken to all fuck, massive regression.\" Two distinct text blocks both render BROKEN: (A) idx0-9, the \"For thirty long years...\" block sourced from data/type2_translated/batch_intro_narration.json resource 1193 msg_index 99 — every line is CLIPPED at the right edge (\"the Kingdc\", \"into bloo\", \"would be remembe\", \"Possesse\", \"led hi\", \"forth t\", \"vanished from t\", \"later\"), and the source uses ' / ' line breaks + ' // ' page breaks; lines are too wide for the overlay box so each is truncated, and word-wrap splits words mid-word (\"kingdo\"+\"'s\", \"and\"+\"ho[pe]\"). (B) idx10-13, a SECOND block \"The city was deathly still...\" sourced from data/type2_translated/batch_01.json resource 1196 msg 570-573 — rendered in a wide letter-spaced italic font and clipped at BOTH left and right edges (\"ut...upo\", \"olate city...hin\", \"ou heard voices...fro\"), PLUS visible oversized internal gaps between words (\"saw    upon\", \"city    that\", \"voices    fro\", \"the    proud\") even though the JSON source has only single spaces. That oversized-space rendering is direct VERIFIED evidence of the user's \"spaces render like DOUBLE/TRIPLE/FIVE spaces\" root-cause hypothesis. The space glyph advance / per-line width is too large for both intro text engines, so lines overflow and get clipped off both edges. No portraits/dialogue/menus/chargen in this slice; idx1,9 are pure background frames with no text. SUGGEST architect investigate: (1) space-glyph advance width in the intro/cinematic text renderer (r1193 and r1196 paths), (2) the v88->v89 narration re-wrap-to-<=16-glyphs change which evidently produced lines still too wide for the actual overlay box, (3) the wide-spaced r1196 font path which appears unrelated to the <=16 re-wrap and may have its own per-char advance bug. The clipping is at the rendering width, not just the wrap count.",
+   "issues": [
+    {
+     "screen": "Intro video, dark-soldiers frame (idx0, ts20260613165751)",
+     "severity": "high",
+     "category": "intro-video",
+     "description": "VERIFIED. On-screen: 'Long ago, for thirty long years' / 'a war plunged the Kingdc' / 'into bloo'. Right-edge CLIPPING: 'Kingdc'(=Kingdom) and 'bloo'(=blood) cut off mid-word. Lines too wide for overlay.",
+     "root_cause": "Line render width exceeds intro overlay box; r1193 msg99 lines wrap to <=16 glyphs but rendered width still overruns right margin.",
+     "fix": "Reduce per-line glyph count and/or fix space-glyph advance for the r1193 cinematic text path.",
+     "regression_vs": "prior working build (user: 'massive regression')"
+    },
+    {
+     "screen": "Intro video, stormy-plain frame (idx1, ts165802)",
+     "severity": "low",
+     "category": "intro-video",
+     "description": "VERIFIED. Pure background frame, no text visible. No issue.",
+     "fix": "none"
+    },
+    {
+     "screen": "Intro video, cloudy frame (idx2, ts165805)",
+     "severity": "high",
+     "category": "intro-video",
+     "description": "VERIFIED. On-screen: 'the kingd:' — single line clipped at right edge (=the kingdom...). Right-edge clipping.",
+     "root_cause": "Same r1193 over-width line clipping.",
+     "fix": "Tighten wrap / fix space width for r1193 intro path."
+    },
+    {
+     "screen": "Intro video, cloudy frame (idx3, ts165810)",
+     "severity": "high",
+     "category": "intro-video",
+     "description": "VERIFIED. On-screen: 'the kingd:' / ''s people to two-thirds' / 'would be remembe'. Right-edge clipping ('remembe'=remembered) AND word split mid-word: 'kingdom' broken into 'kingdo'+''s' across lines.",
+     "root_cause": "r1193 msg99: wrap splits words mid-token and rendered lines exceed box width.",
+     "fix": "Fix word-wrap to not split mid-word; reduce line width."
+    },
+    {
+     "screen": "Intro video, map frame (idx4, ts165822)",
+     "severity": "high",
+     "category": "intro-video",
+     "description": "VERIFIED. On-screen: 'Possesse' / 'the San-Goth king led hi' / 'forth t' / 'that was how it :'. Four lines all clipped at right edge ('Possesse'=Possessed, 'led hi'=led his, 'forth t'=forth to).",
+     "root_cause": "r1193 over-width clipping across all lines.",
+     "fix": "As above."
+    },
+    {
+     "screen": "Intro video, map+fire frame (idx5, ts165836)",
+     "severity": "medium",
+     "category": "intro-video",
+     "description": "VERIFIED. On-screen: 'But war soon e...' partly obscured by fire graphic and low-positioned; legibility poor. Likely 'But war soon e[ngulfed]'.",
+     "root_cause": "Text overlaps video fire element / clipped; possibly same width issue plus vertical position.",
+     "fix": "Verify line fits; check positioning vs video frame."
+    },
+    {
+     "screen": "Intro video, map frame (idx6, ts165848)",
+     "severity": "high",
+     "category": "intro-video",
+     "description": "VERIFIED. On-screen: 'Had one hero not ap' / 'the Kir' / 'would have vanished from t'. Right-edge clipping ('ap'=appeared, 'Kir'=Kingdom, 'from t'=from the).",
+     "root_cause": "r1193 over-width clipping.",
+     "fix": "As above."
+    },
+    {
+     "screen": "Intro video, map frame (idx7, ts165855)",
+     "severity": "medium",
+     "category": "intro-video",
+     "description": "VERIFIED. On-screen: 'He was Ortrud, lat' (clipped, =later) / 'known as the Holy King.' (COMPLETE, fits). Mixed: short line OK, long line clipped.",
+     "root_cause": "r1193 width clipping only on the longer line — confirms width threshold issue.",
+     "fix": "As above."
+    },
+    {
+     "screen": "Intro video, knights frame (idx8, ts165910)",
+     "severity": "high",
+     "category": "intro-video",
+     "description": "VERIFIED. On-screen: 'He defeated San-Goth an' (clipped, =and) / 'peace and ho' (clipped, =hope, mid-word) / 'to the Kingdom of Duhan.' (COMPLETE). Word 'hope' split / clipped across lines.",
+     "root_cause": "r1193 width clipping + mid-word break.",
+     "fix": "As above."
+    },
+    {
+     "screen": "Intro video, dark-city frame (idx9, ts165921)",
+     "severity": "low",
+     "category": "intro-video",
+     "description": "VERIFIED. Pure background frame, no text. No issue.",
+     "fix": "none"
+    },
+    {
+     "screen": "Intro video, dark wharf, wide-spaced italic text (idx10, ts170106)",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "VERIFIED. On-screen (wide letter spacing): 'The city was' / 'deathly still.' / 'ut what you saw    upo'. Bottom line clipped on BOTH edges (left 'ut'=But, right 'upo'=upon) and shows an OVERSIZED gap between 'saw' and 'upo' though source has a single space. Source: batch_01.json resource 1196 msg 570 'The city was / deathly still. / But what you saw / upon'.",
+     "root_cause": "Resource 1196 cinematic text path renders the space glyph with excessive advance width (visible multi-space gap from single-space source) and oversized per-char spacing, overflowing both edges. This is the user's DOUBLE/TRIPLE/FIVE-spaces root cause, VERIFIED.",
+     "fix": "Fix space-glyph advance width in the r1196 intro/cinematic renderer; check per-char advance metrics for this italic font path.",
+     "regression_vs": "prior working build"
+    },
+    {
+     "screen": "Intro video, dark wharf, wide-spaced text (idx11, ts170110)",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "VERIFIED. On-screen: 'entering was not' (left-clipped, =[upon] entering) / 'the famed \"Jewel' / 'of Venoa,\" the    proud' (right-clipped 'proud'=proudly, oversized gap 'the    proud'). Source r1196 msg 571/572.",
+     "root_cause": "Same r1196 oversized space/char advance -> both-edge overflow.",
+     "fix": "As idx10."
+    },
+    {
+     "screen": "Intro video, dark wharf, wide-spaced text (idx12, ts170116)",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "VERIFIED. On-screen: 'capital. It was' / 'a dreary,' / 'olate city    that hin' (left-clipped 'olate'=[des]olate, right-clipped 'hin'=hinted, oversized gap 'city    that'). Source: batch_01.json r1196 msg 572 'capital. It was / a dreary, / desolate city / that hinted'.",
+     "root_cause": "r1196 oversized space/char advance -> both-edge overflow + internal gap.",
+     "fix": "As idx10."
+    },
+    {
+     "screen": "Intro video, dark wharf, wide-spaced text (idx13, ts170121)",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "VERIFIED. On-screen: 'at dark times.' / 'After a while,' / 'ou heard voices    fro' (left-clipped 'ou'=[y]ou, right-clipped 'fro'=from, oversized gap 'voices    fro'). Source: r1196 msg 573 'at dark times. / After a while, / you heard voices / from'.",
+     "root_cause": "r1196 oversized space/char advance -> both-edge overflow + internal gap.",
+     "fix": "As idx10."
+    },
+    {
+     "screen": "Intro narration data source (cross-ref, not a screenshot)",
+     "severity": "high",
+     "category": "intro-video",
+     "description": "HYPOTHESIS/cross-ref. Two source blocks identified: (A) data/type2_translated/batch_intro_narration.json resource 1193 msg_index 99 = the 'For thirty long years...' text (idx0-9), uses ' / ' line + ' // ' page breaks. (B) data/type2_translated/batch_01.json resource 1196 msg 570-573 = 'The city was deathly still...' (idx10-13), wide-spaced italic path. Both overflow. Architect should compare v89 vs last working build for the v88->v89 narration re-wrap-to-<=16-glyphs change and the Step4 ' // '->FFD2 / ' / '->FFFE encoding for these two resources.",
+     "root_cause": "Re-wrap produced lines whose RENDERED width still exceeds the intro overlay box; space-glyph advance likely too wide on both intro text paths.",
+     "fix": "Investigate space-glyph advance + actual box width for r1193 and r1196; re-wrap to fit rendered pixel width, not glyph count.",
+     "regression_vs": "prior working build"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "cat2",
+   "summary": "Cataloged v89 screenshots slice2, 0-based indices 14-27 (file is 1-based, so lines 15-28; timestamps 170145-170323). The slice is the prologue/intro sequence on the foggy dock: idx14-16 + idx20 are intro-video / centered narration text overlaid on the FMV background, and idx17-19, 21-27 are a \"Shady Man\" dialogue box. TWO dominant defects span the whole slice: (1) ALL text renders with extreme fixed-width letter-spacing — every glyph (not just spaces) is spaced far apart, which both clips intro-video lines at the left AND right screen edges and pushes dialogue lines wide / right-justifies trailing words; (2) EVERY \"Shady Man\" dialogue box is MISSING the character portrait (confirms user's \"portraits still missing in every dialogue\" / the 0x0C-0x0D channel fix did NOT work in-game). Maps directly to user verdict items: INTRO VIDEO broken/overflowing (idx14,15 clipped both edges), \"one screen of text broken\", \"missing portrait in every dialogue\", and the \"spaces look like double/triple/five spaces\" overflow root-cause. No untranslated Japanese, no garbled glyphs, no mode-leak, no broken choices, and no menu screens appear in THIS slice. The Shady Man dialogue text itself wraps reasonably (3 short lines per box) so wrapping logic is OK; the problem is purely per-glyph advance width on the intro/narration/dialogue render path. NOTE: the slice contains NO chargen, NO tavern buttons, NO party-bar, NO Barkeep — those user-verdict items must be in other slices.",
+   "issues": [
+    {
+     "screen": "intro-video (FMV narration overlay), idx14 / ts 170145",
+     "severity": "blocker",
+     "category": "spaces-overflow",
+     "description": "Centered intro narration overlaid on foggy-dock FMV. On-screen text (clipped): line1 '...the  fog.  \"Hey,' line2 'come  on.  Tell' line3 'e.  It  doesn't  matte' — first line clipped at LEFT edge (leading word cut), third line clipped at BOTH edges ('e.' is the tail of a word cut on the left, 'matte' cut on the right). Every glyph is spaced far apart (fixed wide advance); inter-word spaces look like 3-5 normal spaces.",
+     "root_cause": "HYPOTHESIS: intro-video/narration render path uses an oversized fixed glyph advance (or space glyph slot 0 + per-glyph padding) so lines exceed screen width and get clipped at both edges. Not a wrap-count problem (lines are short) — it is per-glyph horizontal advance.",
+     "fix": "Investigate the intro/FMV narration text encoder + render advance. Confirm whether v88->v89 narration re-wrap-to-16-glyphs (384 entries) or the new Step-4 ' / '->FFFE / ' // '->FFD2 split changed the per-glyph spacing on this path. Compare against v86/v87 intro rendering.",
+     "regression_vs": "v86/v87 per user ('massive regression vs last build')",
+     "screen_dup": ""
+    },
+    {
+     "screen": "intro-video (FMV narration overlay), idx15 / ts 170202",
+     "severity": "blocker",
+     "category": "spaces-overflow",
+     "description": "On-screen text (clipped): line1 'A  man' line2 'approached,' line3 'aggering  on    his    fee' — line3 is 'st]aggering on his fee[t]', clipped at LEFT ('aggering' missing 'st') and RIGHT ('fee' missing 't'); huge gaps between 'on  his  fee'. Same extreme fixed letter-spacing.",
+     "root_cause": "HYPOTHESIS: same oversized fixed glyph advance on intro/FMV narration path causing both-edge clipping.",
+     "fix": "Same as idx14 — fix narration glyph advance / spacing on intro path.",
+     "regression_vs": "v86/v87",
+     "screen_dup": ""
+    },
+    {
+     "screen": "intro-video (FMV narration overlay), idx16 / ts 170223",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "On-screen text: line1 'His  hair  a  mess,' line2 'clothes  filthy,' line3 'eyes  unfocused.' Fully legible (fits), but heavy fixed letter-spacing and wide inter-word gaps; a small symbol/icon at right of line3. Shows the same render path but with short-enough lines to avoid clipping.",
+     "root_cause": "Same wide per-glyph advance; this line just happens to fit.",
+     "fix": "Same spacing fix; this screen confirms it's the same path, not content-specific.",
+     "regression_vs": "",
+     "screen_dup": ""
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx17 / ts 170233",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Dialogue box, speaker label 'Shady Man'. Body: line1 'Hey  friend,  hehe  --' line2 'you  know  where' line3 'God  hides,  right?' Portrait slot at left of the speaker box is EMPTY — no character portrait rendered. Text legible, 3 lines, wrapping OK, but wide letter-spacing.",
+     "root_cause": "VERIFIED missing portrait (matches user 'every dialogue missing portrait'). HYPOTHESIS: the 0x0C/0x0D portrait-channel fix (idx-preserved) does not actually trigger portrait load at runtime — re-investigate the portrait channel opcode in the dialogue group.",
+     "fix": "Re-investigate portrait channel: dump the FFFF group for this Shady Man dialogue, confirm whether the 0x0C/0x0D portrait-select bytes survive the v89 choice-aware injector / FFFE skeleton restore. Compare a build where portraits worked (identify which build last showed portraits).",
+     "regression_vs": "unknown — user says fix was claimed but never worked",
+     "screen_dup": ""
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx18 / ts 170244",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Speaker 'Shady Man'. Body: line1 'something  soon.' line2 'Hehe,  I  know' line3 'you're  hunting  for'. Portrait slot EMPTY again. Wide letter-spacing; lines fit.",
+     "root_cause": "Same missing-portrait root cause as idx17.",
+     "fix": "Same as idx17.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx19 / ts 170247",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Speaker 'Shady Man'. Body: line1 'God's  hiding  place' line2 'too.  Better  find' line3 'Him  fast.' Portrait slot EMPTY. Legible; wide spacing.",
+     "root_cause": "Same missing-portrait root cause.",
+     "fix": "Same as idx17.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    },
+    {
+     "screen": "narration (centered, no speaker box), idx20 / ts 170252",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "Centered narration (no speaker box): line1 'The  man  glared' line2 'at  you  with  a' line3 'twisted  grin.' with a small symbol/icon at right of line3. Lines fit but very wide fixed letter-spacing and large inter-word gaps. Same render path as intro.",
+     "root_cause": "Same oversized per-glyph advance on the narration path. Confirms the spacing defect is in the shared narration/intro renderer, not only the FMV overlay.",
+     "fix": "Single fix to narration glyph advance should address idx14/15/16/20.",
+     "regression_vs": "v86/v87",
+     "screen_dup": "idx14"
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx21 / ts 170259",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Speaker 'Shady Man'. Body: line1 '\"Ahh,  I  see.  You' line2 'don't  know  about' line3 'what  happened.' Portrait slot EMPTY. Legible; wide spacing.",
+     "root_cause": "Same missing-portrait root cause.",
+     "fix": "Same as idx17.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx22 / ts 170303",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Speaker 'Shady Man'. Body: line1 'That's  why  you're' line2 'looking  for  God's' line3 'hiding  place.' Portrait slot EMPTY. Legible; wide spacing.",
+     "root_cause": "Same missing-portrait root cause.",
+     "fix": "Same as idx17.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx23 / ts 170307",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Speaker 'Shady Man'. Body: line1 'But  you  know  what?' line2 'I  saw  it!' Portrait slot EMPTY. Legible; wide spacing.",
+     "root_cause": "Same missing-portrait root cause.",
+     "fix": "Same as idx17.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx24 / ts 170311",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "Speaker 'Shady Man'. Body: line1 'Yeah,  they  were' line2 'there  alright,' line3 'hiding  in  the      dark' — 'dark' is shoved to the FAR RIGHT edge of the box with a large gap before it (widened space / right-justify artifact), nearly touching the right border. Portrait slot also EMPTY.",
+     "root_cause": "HYPOTHESIS: a doubled/widened space (or trailing FFFE line break inserting extra advance) before 'dark' pushes it to the edge — concrete example of the user's 'double/triple space' overflow root cause. Plus missing portrait.",
+     "fix": "Check the encoded bytes for this line in the relevant batch_0N.json / type2 group: look for multiple 0x00 (space slot) glyphs or a stray FFFE before 'dark'. Tie to the Step-4 ' / '->FFFE split possibly emitting an extra space.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx25 / ts 170316",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Speaker 'Shady Man'. Body: line1 'And  if  you  let' line2 'your  guard  down,' line3 'they  come  at  you.' Portrait slot EMPTY. Legible; wide spacing.",
+     "root_cause": "Same missing-portrait root cause.",
+     "fix": "Same as idx17.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx26 / ts 170320",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Speaker 'Shady Man'. Body: line1 'Hehe,  my  friends' line2 'got  chomped  right' line3 'from  the  start.' Portrait slot EMPTY. Legible; wide spacing.",
+     "root_cause": "Same missing-portrait root cause.",
+     "fix": "Same as idx17.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    },
+    {
+     "screen": "dialogue-box 'Shady Man', idx27 / ts 170323",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Speaker 'Shady Man'. Body: line1 'Munch,  chomp.' line2 'Munch,  chomp,' line3 'like  this.' Portrait slot EMPTY. Legible; wide spacing.",
+     "root_cause": "Same missing-portrait root cause.",
+     "fix": "Same as idx17.",
+     "regression_vs": "",
+     "screen_dup": "idx17"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "cat3",
+   "summary": "v89 slice3 (idx28-41 / ts170328-170447): all 14 frames are the INTRO VIDEO prologue over the dock/statue scene, alternating centered NARRATION OVERLAYS and framed SPEAKER BOXES (Shady Man, then Sister). Confirms the intro-video regression, the doubled/widened-space overflow (worst at idx33: clipped both edges with a split word, the likely broken screen the user saw; idx34 left-clips the->he), missing portraits in every speaker box (idx29/30/31/35/36/37 Shady Man, idx41 Sister) despite the 0x0C fix, and a stray red caduceus ornament glyph leaking onto narration at idx38 and idx40. No Japanese, no menu/tavern/chargen here. Screenshots VERIFIED; root causes HYPOTHESIS.",
+   "issues": [
+    {
+     "screen": "intro narration overlay idx28/ts170328",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "The man made exaggerated motions, (huge ~5-space gap) again and -- trails off right edge mid-sentence; spaces quintuple-width."
+    },
+    {
+     "screen": "intro speaker box Shady Man idx29/ts170350",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Label Shady Man, body No use, no use, no use! Frame strips present but NO portrait panel."
+    },
+    {
+     "screen": "intro speaker box Shady Man idx30/ts170352",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Shady Man: Some even fought while crying. No portrait."
+    },
+    {
+     "screen": "intro speaker box Shady Man idx31/ts170356",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Shady Man: Hehehehe, Ahahahahaha! No portrait."
+    },
+    {
+     "screen": "intro narration overlay idx32/ts170401",
+     "severity": "medium",
+     "category": "spaces-overflow",
+     "description": "His hysterical laughter echoed through the streets. Wide doubled spacing; nearly touches both edges but complete."
+    },
+    {
+     "screen": "intro narration overlay idx33/ts170406",
+     "severity": "blocker",
+     "category": "spaces-overflow",
+     "description": "CLIPPED both edges. Line1 The man fell to his knees, Line2 renders hing his head, laug -- should be ...laughing his head, laughing; leading laug off LEFT, trailing off RIGHT. Likely the broken screen the user flagged."
+    },
+    {
+     "screen": "intro narration overlay idx34/ts170410",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "So far gone he never noticed / he drool on his (gap) chin -- LEFT clipped: he drool should be the drool (t off-screen); triple/quad space before chin."
+    },
+    {
+     "screen": "intro speaker box Shady Man idx35/ts170416",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Shady Man: Ahahaha! Some fought desperately. No portrait; wide spacing."
+    },
+    {
+     "screen": "intro speaker box Shady Man idx36/ts170419",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Shady Man: everything they had! But nothing worked, nothing! No portrait (lowercase start = continuation, ok)."
+    },
+    {
+     "screen": "intro speaker box Shady Man idx37/ts170422",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Shady Man: Sure thing I tell you. Even God would be done for! No portrait; wide spacing."
+    },
+    {
+     "screen": "intro narration overlay idx38/ts170431",
+     "severity": "medium",
+     "category": "glyph",
+     "description": "Shows only Simzon! but stray red caduceus ORNAMENT glyph at right edge of centered narration -- speaker-box decoration leaking onto narration."
+    },
+    {
+     "screen": "intro narration overlay idx39/ts170434",
+     "severity": "medium",
+     "category": "spaces-overflow",
+     "description": "What are you doing out here? wide doubled spacing; fits but widened."
+    },
+    {
+     "screen": "intro narration overlay idx40/ts170437",
+     "severity": "high",
+     "category": "glyph",
+     "description": "A sister spotted you from afar and came running. Wide spacing plus stray red caduceus ornament glyph at right edge (same leak as idx38)."
+    },
+    {
+     "screen": "intro speaker box Sister idx41/ts170447",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Label Sister, body I've been looking everywhere for you! No portrait. Text/apostrophe fine -- start of Sister dialogue the user called content-perfect, but portrait absent."
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "cat4",
+   "summary": "Cataloged v89 slice 42-55 (0-based) = timestamps 170450,170458,170505,170509,170513,170518,170521,170524,170527,170530,170533,170535,170630,170707. Breakdown: TWELVE consecutive \"Sister\" church/intro dialogue+narration boxes (170450-170535) — text wraps cleanly and is grammatical (this is the \"Sister dialogue perfect\" the user praised), BUT EVERY dialogue box (the named \"Sister\" boxes) is MISSING the character portrait, confirming the user's verdict that the 0x0C/0x0D portrait-channel fix did NOT restore portraits in-game. The final TWO frames are the regressions: 170630 = bar-entry narration overflowing/clipped on BOTH left and right edges; 170707 = the \"Barkeep\" speaker box displaying NARRATION text (\"Vera's words carried the weight of true co...\") = MODE-LEAK plus right-edge overflow. No untranslated Japanese, no garbled glyphs, no menu/choice screens in this slice. Note: across all boxes glyph spacing is very loose/widened (letters visibly far apart), consistent with the user's \"spaces look like double/triple spaces\" overflow root-cause hypothesis — though within this slice the Sister boxes still fit, so wide-spacing only tips into overflow on the longer centered narration lines (170630/170707).",
+   "issues": [
+    {
+     "screen": "170450 dialogue-box (Sister, church/intro). Speaker label: \"Sister\". Body: \"Dressed so, you'll catch cold! Come, dinner is ready.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "Named dialogue box \"Sister\" renders correct English text but the character portrait area (left of the box) is EMPTY — no portrait sprite. Text fits within box.",
+     "root_cause": "VERIFIED missing portrait. HYPOTHESIS: the 0x0C/0x0D portrait-channel preservation fix did not actually re-emit the portrait index into the in-game render path; portrait still suppressed.",
+     "fix": "Re-investigate the 0x0C portrait-channel handling in the choice-aware injector / encode path; confirm the portrait idx byte survives into the final injected MSG stream and is read by the dialogue renderer."
+    },
+    {
+     "screen": "170458 narration (intro). Centered text: \"The man called Simzon obeyed and went to eat.\"",
+     "severity": "low",
+     "category": "intro-video",
+     "description": "Centered narration, three lines, fits within frame. No overflow, grammatical. SUCCESS (no portrait expected for narration).",
+     "root_cause": "n/a — clean render.",
+     "fix": "none"
+    },
+    {
+     "screen": "170505 dialogue-box (Sister). Label \"Sister\". Body: \"Please do not blame him. He fought for us all.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, text fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression as 170450.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170509 dialogue-box (Sister). Label \"Sister\". Body: \"He once led a sad band of sellswords, I am told.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170513 dialogue-box (Sister). Label \"Sister\". Body: \"But Karman's Labyrinth clouded his sight.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170518 dialogue-box (Sister). Label \"Sister\". Body: \"Now he wanders the streets, as if fleeing something.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170521 dialogue-box (Sister). Label \"Sister\". Body: \"What he saw, no one knows.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170524 dialogue-box (Sister). Label \"Sister\". Body: \"Yet it must have been dread enough to break him.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170527 dialogue-box (Sister). Label \"Sister\". Body: \"You seem to be an adventurer too.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170530 dialogue-box (Sister). Label \"Sister\". Body: \"A hard calling. You risk your life to gain anything.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170533 dialogue-box (Sister). Label \"Sister\". Body: \"May peace be with you. I will pray for you.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170535 dialogue-box (Sister). Label \"Sister\". Body: \"Well then, please take great care.\"",
+     "severity": "high",
+     "category": "portraits",
+     "description": "\"Sister\" box, correct English, fits. Portrait MISSING. This closes the Sister sequence — confirms user's \"Sister dialogue perfect BUT missing portrait\" verdict across the whole conversation.",
+     "root_cause": "Same portrait-channel regression.",
+     "fix": "See 170450."
+    },
+    {
+     "screen": "170630 narration (entering the bar). Centered text, 3 lines: line1 \"Since arriving\", line2 \"in Duhan, I have\", line3 reads \"ght worthy companio\" with left and right both cut off.",
+     "severity": "blocker",
+     "category": "spaces-overflow",
+     "description": "Bar-entry narration overflows the visible frame on BOTH horizontal edges. Line 3 is clipped at the START (\"...ought\" shows only \"ght\") and at the END (\"companions\" shows only \"companio\"). This is the user's \"ENTERING BAR: narrative text overflowing again\". The line is too long to fit the centered narration width.",
+     "root_cause": "VERIFIED horizontal overflow (both edges) on a centered narration line. HYPOTHESIS: per the v88->v89 narration re-wrap to <=16 glyphs (384 entries) + Step-4 ' / '->FFFE / auto-FFD2 logic, this line was not re-wrapped or wide glyph spacing pushed it past the centered render width; consistent with the project-wide widened-space root cause.",
+     "fix": "Re-wrap this bar-entry narration group to fit the centered width; audit whether the <=16-glyph re-wrap missed this entry, and check the space-glyph advance width (widened spaces inflate centered-line length)."
+    },
+    {
+     "screen": "170707 dialogue-box labeled \"Barkeep\". Label \"Barkeep\". Body (3 lines): \"Vera's words / carried the / weight of true co\" — right edge clipped after \"co\" (truncated \"co...\", e.g. \"conviction/courage\").",
+     "severity": "blocker",
+     "category": "mode-leak",
+     "description": "The \"Barkeep\" SPEAKER box is displaying NARRATION prose (\"Vera's words carried the weight of true co...\") rather than spoken dialogue — narration mis-attributed to the Barkeep speaker box. This is exactly the user's \"BARKEEP NARRATING\" mode-leak verdict. ALSO the body text overflows/clips at the right edge (\"true co\" cut off).",
+     "root_cause": "VERIFIED mode-leak (narration in a named speaker box) + VERIFIED right-edge overflow. HYPOTHESIS: the FFFE/FFD2/FFD2-skeleton restoration in encode_choice_group (v89 choice-aware injector) is leaking a narration segment into the preceding speaker's box, OR the speaker/narration mode flag (0xFFxx page/mode opcode) is being dropped during re-injection so the narration inherits the Barkeep speaker header. Overflow likely the same widened-space length inflation.",
+     "fix": "Trace the MSG group for this Barkeep tavern scene: verify the narration segment has its own mode/page opcode and is NOT concatenated under the Barkeep speaker header by the choice-aware injector. Separately, re-wrap the body to fit box width and audit space-glyph advance."
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "cat5",
+   "summary": "Cataloged v89 slice5 (0-based indices 56-69 = timestamps 170707-171306), 14 screenshots, all in the tavern/bar prologue area. EVERY screen is broken in one of two ways: (A) narration screens (full-screen centered text, no box) overflow horizontally and are CLIPPED at both left and right edges, with huge multi-space gaps mid-line — confirming the user's \"DOUBLE/TRIPLE/FIVE spaces\" root-cause; and (B) Barkeep speaker-box screens show NARRATION text mis-attributed to the Barkeep speaker (mode-leak: \"The cheers echoed through the tavern\", \"It was time to go.\", \"The labyrinth awaited.\", \"Vera's words carried the weight of true co[urage]\"). MULTIPLE distinct issues mapped to the user's verdict: (1) Mode-leak narration in Barkeep box — VERIFIED on 5 screens. (2) Overflow narration clipped both edges with widened/multi-spaces — VERIFIED on ~7 screens. (3) Out-of-place \"Dodge / Summon\" choice appearing in the bar BEFORE the Accept/Refuse join choice — VERIFIED (battle action labels leaked into a prologue choice). (4) UNTRANSLATED JAPANESE in a \"Lady Knight\" speaker box: \"たったの十日間だ。\" (=\"Just ten days.\") — VERIFIED. (5) Garbled leading glyphs \"AAAEven the way\" — VERIFIED (stray 'A' glyphs prepended). (6) Lowercase \"i\" that should be \"I\" + lowercase \"my\" after period, in Barkeep box \"i am the owner of this place. my name is gin barbus\" — VERIFIED. (7) Character portrait MISSING in every Barkeep/Lady Knight dialogue box — VERIFIED (no portrait sprite on any box). NO chargen or town/tavern-menu-button screens appear in this slice (all narration/dialogue/choice). The pervasive horizontal overflow + mid-line gaps strongly implicate the space glyph being too wide AND the narration re-wrap (<=16 glyphs / FFFE-FFD2 splitting in build_v9 Step 4) inserting extra space glyphs.",
+   "issues": [
+    {
+     "screen": "170707 (idx56) Barkeep speaker-box dialogue",
+     "severity": "high",
+     "category": "mode-leak",
+     "description": "Speaker box labeled 'Barkeep' but body text is third-person NARRATION: 'Vera's words / carried the / weight of true   co[urage]'. Right side clipped/overflowing ('co' cut off). Letters very widely spaced; line 3 has a large gap before 'co'.",
+     "root_cause": "Narration string injected into a dialogue/speaker resource group (FFFE skeleton) instead of a boxless narration group; mode/speaker-name not cleared.",
+     "fix": "Re-route this narration to a boxless narration group OR blank the speaker label; verify the choice-aware injector (encode_choice_group) is not assigning narration to speaker boxes.",
+     "regression_vs": "v87/v88 (user: 'thought we fixed that')"
+    },
+    {
+     "screen": "170735 (idx57) Barkeep speaker-box",
+     "severity": "medium",
+     "category": "spaces-overflow",
+     "description": "Box 'Barkeep': 'To the brave / adventurers!' followed by a glyph ornament. Heavy letter/word spacing but fits. This line reads like a toast (could be legit Barkeep speech).",
+     "root_cause": "Widened spacing consistent across all screens (space glyph width / extra spaces).",
+     "fix": "Audit space glyph advance width in R1272 and extra space glyphs in this group."
+    },
+    {
+     "screen": "170808 (idx58) Barkeep speaker-box",
+     "severity": "high",
+     "category": "mode-leak",
+     "description": "Box 'Barkeep' but body is NARRATION: 'The cheers / echoed through / the tavern.' This is the EXACT mis-attribution the user called out.",
+     "root_cause": "Narration assigned to Barkeep speaker box group.",
+     "fix": "Move narration out of speaker-box group / clear speaker name for narration entries.",
+     "regression_vs": "prior working build"
+    },
+    {
+     "screen": "170827 (idx59) Barkeep speaker-box",
+     "severity": "high",
+     "category": "mode-leak",
+     "description": "Box 'Barkeep' but body is NARRATION: 'It was time / to go.' + glyph ornament.",
+     "root_cause": "Same narration-in-speaker-box mis-attribution.",
+     "fix": "Same as 170808."
+    },
+    {
+     "screen": "170832 (idx60) Barkeep speaker-box",
+     "severity": "high",
+     "category": "mode-leak",
+     "description": "Box 'Barkeep' but body is NARRATION: 'The labyrinth / awaited.' + glyph ornament.",
+     "root_cause": "Same narration-in-speaker-box mis-attribution.",
+     "fix": "Same as 170808."
+    },
+    {
+     "screen": "170851 (idx61) Full-screen choice over bar bg",
+     "severity": "blocker",
+     "category": "choice",
+     "description": "Out-of-place choice. Narration line above clipped both edges: '[w]oman knight hangs her [head]'. Below it a selectable choice with cursor: 'Dodge / Summon' (cursor arrow on 'Dodge'). 'Dodge' and 'Summon' are BATTLE action labels and have no business in this tavern prologue scene — this is the misplaced choice the user asked about ('what was the choice before that with dodge summon?'). Appears BEFORE the Accept/Refuse join choice.",
+     "root_cause": "Wrong choice group injected here — likely a battle-menu / action choice group leaked into the prologue choice slot, OR the ~190 choice-data edits (batch_01-09) mis-indexed this group. Narration also overflows (clipped L+R).",
+     "fix": "Identify the correct prologue choice for this scene; the Dodge/Summon pair belongs to a battle action group. Re-check choice group mapping in batch_01-09.json and encode_choice_group restoration of the FFFE skeleton for this resource.",
+     "regression_vs": "v88->v89 choice-data edits"
+    },
+    {
+     "screen": "170931 (idx62) Full-screen narration over bar bg",
+     "severity": "high",
+     "category": "glyph",
+     "description": "Garbled leading glyphs: line 1 reads 'AAAEven the way' — three stray 'A' glyphs prepended before 'Even'. Lines: 'AAAEven the way / she stood / [th]e of years        of train[ing]'. Severe mid-line gap before 'of train' (multiple spaces) and clipped both edges.",
+     "root_cause": "Stray glyph bytes at start of string (likely an unconsumed control code 0x0C/0x0D 'portrait channel' decoding to printable 'A', or a mis-encoded FFxx control rendered as glyph). Combined with multi-space overflow.",
+     "fix": "Inspect this narration group's byte stream for leading control codes being rendered as glyph 0x41 ('A'); fix the control-code handling (possibly the 0x0C/0x0D portrait-channel change). Re-wrap to fit width.",
+     "regression_vs": "v88->v89 (0x0C/0x0D change + narration re-wrap)"
+    },
+    {
+     "screen": "170942 (idx63) Lady Knight speaker-box",
+     "severity": "blocker",
+     "category": "untranslated",
+     "description": "Speaker box labeled 'Lady Knight' with UNTRANSLATED JAPANESE body: 'たったの十日間だ。' (= 'Just ten days.' / 'It was only ten days.'). Speaker name IS translated ('Lady Knight') but the line is raw Japanese.",
+     "root_cause": "This dialogue group/message was not translated/injected (missing from translation chunks for this resource).",
+     "fix": "Add English translation for たったの十日間だ。 to the appropriate type-2 batch for this Lady Knight group and re-inject.",
+     "regression_vs": "n/a (gap, not necessarily regression)"
+    },
+    {
+     "screen": "171023 (idx64) Full-screen join choice over bar bg",
+     "severity": "high",
+     "category": "choice",
+     "description": "The Accept/Refuse join choice. Narration above clipped both edges: '[wo]man knight asks to joi[n]'. Choice with cursor: 'Accept / Refuse' (cursor on 'Accept'). The choice itself is correct/legible, but the prompt narration overflows (clipped L+R). NOTE: the misplaced Dodge/Summon choice (170851) appears BEFORE this, confirming ordering bug.",
+     "root_cause": "Choice prompt narration overflow (multi-space/width). Choice content correct.",
+     "fix": "Re-wrap/center the 'A woman knight asks to join' prompt to fit screen width."
+    },
+    {
+     "screen": "171116 (idx65) Full-screen narration over bar bg",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "Narration clipped both edges: 'At Gin's tavern / counter, / [wh]ere    [were] offered to    ad[venture]'. Large multi-space gaps mid-line (after 'ere' and before 'ad'). Both edges cut off.",
+     "root_cause": "Multi/extra space glyphs + over-width line; re-wrap inserted spaces / space glyph too wide.",
+     "fix": "Fix space width and remove extra spaces; re-wrap to <= screen width."
+    },
+    {
+     "screen": "171121 (idx66) Full-screen narration over bar bg",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "Narration clipped both edges: 'As you / approached the / [coun]ter, the      barkeep sp[oke]'. Very large gap (FIVE-ish spaces) before 'barkeep'. Both edges clipped.",
+     "root_cause": "Multiple/extra space glyphs mid-line — the 'FIVE spaces' case the user described. Over-width line.",
+     "fix": "Collapse multiple spaces to single; fix space glyph advance; re-wrap."
+    },
+    {
+     "screen": "171159 (idx67) Barkeep speaker-box",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "Box 'Barkeep' (legit speech): 'i am the owner of / this place. my / name is gin      barbus'. THREE issues: (a) leading 'i' lowercase, should be 'I'; (b) 'my' after period lowercase, should be 'My'; (c) large gap before 'barbus' and 'barbus' overflows to the right edge (extra spaces / over-width). Name 'gin barbus' also lowercase (proper noun -> 'Gin Barbus').",
+     "root_cause": "Source text not capitalized (sentence-start 'i'/'my' and proper noun 'gin barbus'); plus multi-space overflow.",
+     "fix": "Capitalize 'I', 'My', 'Gin Barbus'; remove extra spaces before 'barbus'; ensure line fits box width.",
+     "regression_vs": "n/a (text-content + spacing)"
+    },
+    {
+     "screen": "171222 (idx68) Full-screen narration over bar bg",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "Narration clipped both edges: 'Gin pulled out / thin wooden / [o]ld    official    papers'. Multi-space gaps on line 3 and both edges clipped.",
+     "root_cause": "Extra spaces / over-width line; re-wrap.",
+     "fix": "Remove extra spaces, re-wrap to fit."
+    },
+    {
+     "screen": "171237 (idx69) Full-screen narration over bar bg",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "Narration clipped both edges: 'Gin bluntly said / so and / [dis]appeared into    the ba[r]'. Gap before 'the ba'. Both edges clipped.",
+     "root_cause": "Extra spaces / over-width line; re-wrap.",
+     "fix": "Remove extra spaces, re-wrap to fit."
+    },
+    {
+     "screen": "ALL Barkeep/Lady Knight dialogue boxes in slice (170707,170735,170808,170827,170832,170942,171159)",
+     "severity": "high",
+     "category": "portraits",
+     "description": "NO character portrait sprite appears in ANY speaker-box dialogue in this slice. The Barkeep and Lady Knight boxes show only the speaker-name banner + text, with the portrait pane empty. Confirms user verdict: the 0x0C/0x0D 'portrait channel' fix did NOT restore portraits in-game.",
+     "root_cause": "Portrait channel (0x0C/0x0D control codes) still not triggering portrait sprite load/display; the v89 'idx preserved' change is insufficient.",
+     "fix": "Re-investigate portrait rendering path: confirm portrait sprite resource + the control code the engine reads to select it; the current channel fix does not cause the engine to draw the portrait.",
+     "regression_vs": "a build where portraits showed (per user, portraits previously visible)"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "spaces-overflow",
+   "summary": "ROOT-CAUSE OF THE SPACES/OVERFLOW BUG: The user's \"spaces render as DOUBLE/TRIPLE/FIVE spaces\" is a MISDIAGNOSIS of the symptom. VERIFIED: (a) the batch data contains only SINGLE spaces in dialogue/narration (only 22 of 14,136 english entries have multi-spaces, and those are intentional column alignment like \"Yes  No\" or shop price tables); (b) the R1188 dialogue/narration font atlas is BYTE-IDENTICAL across v86/v87/v89 (md5 1f6b404e05) so the space glyph width did NOT change; (c) the \"The cheers / echoed through / the tavern\" group is BYTE-IDENTICAL in v87 and v89 (raw words \"0034 0048 0045 0000 ...\" = single 0x0000 space glyphs) yet renders with wide gaps on screen. CONCLUSION: the wide inter-word gap is the LONG-STANDING proportional/centered rendering of R1188's space glyph (slot 0) — NOT a v89 regression and NOT extra space glyphs. The build_v9 Step 4 encoder does NOT inject extra spaces (split on ' / ' and ' // ' correctly strips delimiter spaces; per-char loop encodes only the single literal spaces present). THE ACTUAL OVERFLOW REGRESSION has two real, verified causes: (1) The game does NOT auto-wrap — it renders each ' / '-delimited line CENTERED and clips at the box edge. Dialogue/narration lines authored as long unbroken strings overflow. build_v9 Step 4 (type-02 path, lines 297-319) does NOT call word_wrap() — word_wrap is only applied to the type-01/R34/R35 path at line 149. 2,604 dialogue lines exceed 18 glyphs after ' / ' splitting (R1208:858, R1209:580, R1199:171, etc.), and the NEW v89 choice-attached narration lines (e.g. R1197 m916 \"The woman knight hangs her head.\" = 32 chars, one line) overflow. (2) The choice/portrait-aware injector PREPENDS a leading portrait control word (0xFFF0) to the question glyph stream — VERIFIED in R1197 g917: raw \"FFF0 0025 0056 0045 004E ... \" decodes to \"<CFFF0>Even the way<LF>she stood<LF>...\". At runtime the game renders the unrecognized 0xFFF0 as placeholder glyphs, which is the on-screen \"AAA\" prefix in the after-chargen overflow screenshot. The R2880 intro prologue (separate texture, md5 CHANGED v86->v87->v89) is an independent regression: the 18 English lines are long sentences split mid-sentence across fixed bands and the page is displayed zoomed/panned so right content clips (\"the kingdc\", \"would be remembe\", \"into bloo\").",
+   "issues": [
+    {
+     "screen": "All dialogue/narration boxes (tavern narration, 'The cheers echoed through the tavern', 'It was time to go', 'Vera's words carried the weight of true conviction')",
+     "severity": "medium",
+     "category": "spaces-overflow",
+     "description": "User reports spaces look like DOUBLE/TRIPLE/FIVE spaces. VERIFIED this is a MISDIAGNOSIS: decoded 'The cheers' group from v89 ISO = raw words 0034 0048 0045 0000 0043 0048 0045 0045 0052 0053 FFFE ('The'+single 0x0000 space+'cheers'+<LF>). Only ONE space glyph between words. Same group is BYTE-IDENTICAL in v87. The R1188 font atlas (md5 1f6b404e05) is byte-identical across v86/v87/v89.",
+     "root_cause": "VERIFIED: The wide inter-word gap is the inherent proportional/centered rendering of R1188's space glyph (slot 0, value 0x0000), which has a wide advance. This is NOT new in v89 and NOT caused by extra space glyphs in data or by the build encoder. Batch data has single spaces; only 22/14136 english entries contain multi-spaces and all are intentional alignment ('Yes  No', shop price columns).",
+     "fix": "Do NOT chase a 'multi-space' bug in data or build_v9 Step 4 — there is none. If the wide gap is undesirable, the only real fix is to narrow the SPACE glyph's render advance, which lives in the EXE font-metrics table (MEMORY cites 0x3A2D10) or R1188 per-glyph width — NOT in the text data. HYPOTHESIS: needs debugger confirmation of where R1188 glyph advances are read.",
+     "regression_vs": "Not a regression — wide space predates v86."
+    },
+    {
+     "screen": "Entering bar / Barkeep narration / 'The woman knight hangs her head' + Dodge/Summon choice",
+     "severity": "high",
+     "category": "spaces-overflow",
+     "description": "Narration lines overflow off both box edges. VERIFIED: R1197 m916 authored as 'The woman knight hangs her head. // Dodge / Summon' — the narration portion 'The woman knight hangs her head.' is a SINGLE 32-char line with NO ' / ' line breaks. Decoded from v89 ISO g916: 'The woman knight hangs her head.<LF><LF><CFFC0>Dodge<LF><CFFC1>Summon'. This group is NEW in v89 (did not exist with English in v87).",
+     "root_cause": "VERIFIED: The game does NOT auto-wrap text — it renders each ' / '-delimited segment CENTERED on one line and clips at the box edge. build_v9.py Step 4 (type-02 encoding loop, lines 297-319) splits ONLY on existing ' // ' and ' / ' and does NOT call word_wrap(). word_wrap() is defined (line 59) but is only invoked on the type-01/R34/R35 path at line 149, NEVER on type-02 dialogue. So any dialogue line authored without ' / ' breaks overflows. 2,604 dialogue lines exceed 18 glyphs after splitting (R1208:858, R1209:580, R1199:171, R1200:131, R1203:76).",
+     "fix": "In build_v9.py Step 4, apply per-line word-wrap to each ' / '/' // ' segment to <=~16-18 glyphs before encoding (call the existing word_wrap on each segment, or re-author the long lines with explicit ' / ' breaks). The narration re-wrap to <=16 (384 entries) did NOT cover the choice-attached narration lines or the R1208/R1209 bodies.",
+     "regression_vs": "The 'The woman knight' choice line is new in v89."
+    },
+    {
+     "screen": "Text after chargen — 'AAAEven the way / she stood / e of years   of train[ing]'",
+     "severity": "high",
+     "category": "glyph",
+     "description": "On-screen text shows a spurious 'AAA' prefix before 'Even the way' and overflows. VERIFIED: data is clean ('Even the way / she stood / spoke of years / of training.'). Decoded from v89 ISO R1197 g917 raw words: FFF0 0025 0056 0045 004E 0000 ... = '<CFFF0>Even the way<LF>she stood<LF>spoke of years<PG>of training.' There is NO 'AAA' in the data — the leading 0xFFF0 control word renders as the placeholder 'AAA' glyphs at runtime.",
+     "root_cause": "VERIFIED: The choice/portrait-aware injector (encode_choice_group / inject_and_patch in tools/patch_section1_offsets.py) PREPENDS a leading portrait/speaker control word (0xFFF0, sibling of the FFF1..FFF6 portrait selectors noted at line 952) to the QUESTION glyph stream. When the group is drawn as plain narration the game does not consume 0xFFF0 as a portrait selector here and renders placeholder glyphs ('AAA' = repeated glyph). This same leading-control preservation is the likely reason portraits are still missing AND why garbage appears.",
+     "fix": "In encode_choice_group / the leading-skeleton restore, do NOT emit the 0xFFF0 leading control word into the visible question text for groups rendered as narration, OR ensure 0xFFF0 is paired with a proper portrait-emit so it is consumed not drawn. HYPOTHESIS on exact handler — needs debugger trace of how 0xFFF0 is consumed vs the FFF1..FFF6 path.",
+     "regression_vs": "Introduced with the v88/v89 choice-aware injector + FFFE-skeleton restore."
+    },
+    {
+     "screen": "Intro video prologue — 'Long ago, for thirty long years / a war plunged the Kingdc[om] / into bloo[d]' and 'the kingd[om] / s people to two-thirds / would be remembe[red]'",
+     "severity": "high",
+     "category": "intro-video",
+     "description": "Intro narration overlay clips at the right edge, lines split mid-sentence. Text matches data/strip_labels/r2880_prologue.json lines exactly (e.g. 'The devastating war that cut' / 'the kingdom's people to two-thirds' / 'would be remembered as the Battle of Banquo.').",
+     "root_cause": "VERIFIED: R2880 texture md5 CHANGED across v86(a681f82116)/v87(e14be32171)/v89(670a06f7ce) — a real regression. The 18 English lines are long sentences (up to 44 chars) typeset CENTERED into the 512px page (patch_r2880.py shrink-to-fit to max_line_width=504). The rendered texture itself fits (max 402px, all centered), BUT the page is displayed during the intro video zoomed/panned so the right portion clips on screen. The 'v86 centered' revert did not fix the on-screen clipping because the underlying English lines are far longer than the compact Japanese full-width kana the layout was designed for.",
+     "fix": "Re-author r2880_prologue.json with SHORTER lines that fit the on-screen visible width (not just the 504px texture bound), and/or reduce font_size / use the per-line-cap left-align approach. Confirm the actual displayed viewport of R2880 during the intro (it appears narrower than 512px). HYPOTHESIS on exact viewport — needs in-engine measurement.",
+     "regression_vs": "R2880 differs from both v86 and v87; v86 was reported as the better look."
+    },
+    {
+     "screen": "Dodge/Summon choice appearing out of place (before the join choice)",
+     "severity": "medium",
+     "category": "choice",
+     "description": "VERIFIED: R1197 m916 is authored as 'The woman knight hangs her head. // Dodge / Summon' in data/type2_translated/batch_01.json. The ' // ' page-break + ' / ' makes the trailing 'Dodge'/'Summon' a 2-option choice attached to a narration line.",
+     "root_cause": "Data authoring: a Dodge/Summon choice was appended to a narration message that should not carry that choice, or it is mis-sequenced relative to the join choice. This is a content/data issue, not a build mechanism.",
+     "fix": "Audit batch_01.json R1197 choice authoring around m916; verify whether 'Dodge/Summon' belongs to this group or was mis-assigned. HYPOTHESIS on correct placement — needs cross-ref with the original JP group choice markers.",
+     "regression_vs": "New v89 choice edit."
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "portraits-v89",
+   "summary": "PORTRAIT RE-INVESTIGATION — CONCLUSION: The R1251 character portrait is NOT a v89 build regression. v89 uploads and draws the portrait byte-for-byte identically to v86. VERIFIED with VRAM ground truth: the v89 Barkeep dialogue dump 20260613134356 uploads R1251 (128x256 PSMCT32, src offset 0xA1) to dbp=0x3000 and draws it (896 PSMCT32 draws reading 0x3000), with a transfer/draw sequence IDENTICAL to the v86 dialogue dump 20260613104647. R1251/1250/1252/1253 are byte-identical JP-vs-v89 (md5 match). The reason some v89 screenshots show NO portrait is that the R1251 portrait is a large faded character FIGURE that animates/fades in and out per-moment within a dialogue — it is uploaded to 0x3000, drawn, then 0x3000 is reused by the 256x64 speaker-name-box and the 512x256 R1188 font atlas in the SAME frame. Whichever frame the user captured at a fade-out instant shows the name box but no figure. This EXACT dual behavior (some frames namebox-only, some frames namebox+portrait) is present identically in v86 (dumps 104313/104401 = namebox-only no portrait; 104647/104717 = namebox+portrait). So there is no regression: every artifact that could carry a portrait trigger is byte-clean (EXE, Section-1, R1251). The user's '0x0C/0x0D channel fix' targeted an UNRELATED concept ('portrait-mode' = control-only choice-option layout in encode_choice_group, build/recon_choices/w1/check_portrait_list.py), not the R1251 figure. There is no static trigger to fix; the figure's appearance is a runtime fade-animation phase. RECOMMENDATION: stop treating 'missing portrait' as a build bug. If the user genuinely wants the figure more visible, that is an engine animation/alpha behavior present in original JP too — not something our PACKDATA/EXE changes broke. The only decisive remaining test is an EE breakpoint on the R1251 BITBLT in original-JP vs v89 at the IDENTICAL in-game moment; but cross-build VRAM identity already makes a build regression extremely unlikely.",
+   "issues": [
+    {
+     "screen": "Tavern dialogue (Shady Man / Barkeep / Gin Barbus speaker boxes), v89 dumps 20260613134046-134255",
+     "severity": "low",
+     "category": "portraits",
+     "description": "User reports 'character portrait STILL MISSING in every dialogue'. VERIFIED via GS VRAM: in speaker-box frames (e.g. 20260613134123 'Shady Man: Munch, chomp...') there are 0 R1251 transfers; the only transfer to dbp=0x3000 at the portrait slot is a 256x64 dbw=4 texture = the speaker NAME BOX (the 'Barkeep'/'Shady Man' label strip), NOT the portrait. The 128x256 R1251 portrait is simply not uploaded on that captured frame.",
+     "root_cause": "NOT a build regression. The R1251 portrait is a large faded character FIGURE that fades in/out per-moment within a dialogue. It is uploaded to dbp=0x3000, drawn, then 0x3000 is immediately reused by the 256x64 name box and the 512x256 R1188 font atlas in the SAME frame. Captures taken during a fade-out / non-figure beat show only the name box. The very same v89 Barkeep scene at a different moment (dump 20260613134356, 'Barkeep: But together we can overcome them all.') DOES upload+draw R1251 (4 hits, 128x256). The behavior is per-frame animation, not per-dialogue.",
+     "fix": "No build fix needed/possible. The portrait figure renders identically to v86. If the user wants the figure to persist longer, that is engine fade-animation behavior inherited from original JP, not a PACKDATA/EXE-patchable target. Close as not-a-regression.",
+     "regression_vs": "none — identical to v86"
+    },
+    {
+     "screen": "VRAM cross-build proof (v89 dump 20260613134356 vs v86 dump 20260613104647, both namebox+portrait dialogue)",
+     "severity": "low",
+     "category": "regression",
+     "description": "VERIFIED: transfer sequences are byte-for-byte structurally identical. Both: [0-1] background streams, [2] R1251 PORTRAIT 64x544(=128x256px) @ dbp=0x3000 src offset 0xA1, [3-8] more bg, [9] 256x64 name box @ 0x3000, [13] 512x256 R1188 atlas @ 0x3000. Draw tallies also identical: tbp0=0x3000 psm=0 1024x1024 = 896 draws in BOTH (portrait region is sampled/drawn). R1251/1250/1252/1253 md5-identical JP vs v89.",
+     "root_cause": "The portrait upload+draw is engine-driven and unchanged by any v89 build step. The prior v86 recon (build/recon_v86/portraits2/full_result.json) already FALSIFIED the regression premise: portrait presence is per-frame animation, and the original 'JP-REF 20260611203408' dump was actually a v83 build dump, not the original JP ISO.",
+     "fix": "None. Confirms portrait is not broken by our builds.",
+     "regression_vs": "v86 (identical), v83 (identical)"
+    },
+    {
+     "screen": "recon_choices 0x0C/0x0D 'portrait channel' fix (build/recon_choices/w1/check_portrait_list.py, build/recon_choices/review/probe_portrait.py)",
+     "severity": "medium",
+     "category": "mode-leak",
+     "description": "The '0x0C/0x0D portrait channel fix (idx preserved)' that was claimed to restore portraits targets a DIFFERENT, unrelated concept. In encode_choice_group, 'portrait-mode' means a choice group whose every option BODY is control-only (>=0xFB00) — a UI layout flavor of the multiple-choice selector. It has NOTHING to do with the R1251 character figure. The Section-1 0x0C opcode is SET_NAME_REF whose idx is a Section-2 glyph offset (correctly remapped for grown text); its param channel is unchanged.",
+     "root_cause": "Naming collision: 'portrait' is overloaded. The fix addressed choice-layout integrity (legitimately, for the Vera-keep / Accept-Refuse choices), but was mislabeled as a character-portrait fix. That is why it 'did not restore portraits' — there was never anything to restore.",
+     "fix": "Do not pursue further 0x0C/0x0D edits for the character portrait. They are correctly serving choice-group encoding. The character figure needs no data fix.",
+     "regression_vs": "n/a"
+    },
+    {
+     "screen": "DECISIVE next step (only if user insists portrait is truly absent vs original JP)",
+     "severity": "low",
+     "category": "portraits",
+     "description": "We have NEVER captured the original-JP-ISO tavern dialogue at the identical moment — all true-JP-era dumps (Jun02-06) are chargen name-entry screens (per build/recon_v86/portraits2/full_result.json). So an absolute JP-vs-v89 same-moment comparison does not exist in the dump set.",
+     "root_cause": "Capture gap, not a data finding.",
+     "fix": "To settle definitively: (1) Boot original JP ISO (Busin 0 ... (Japan) (v2.01).iso) FRESH, reach the Gin Barbus tavern dialogue, Shift+F8 dump at the SAME line as v89 134123; OR (2) set a PCSX2 EE breakpoint on the BITBLT that uploads R1251 (128x256 PSMCT32 -> dbp=0x3000) and read the index/flag the caller uses to decide upload, then compare that runtime value JP vs v89. Given R1251 is byte-identical and the v89 VRAM sequence matches v86 exactly, a build regression is extremely unlikely; expect JP to show the same per-moment fade behavior.",
+     "regression_vs": "n/a"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "tavern-buttons",
+   "summary": "TAVERN BUTTONS REGRESSION — ROOT CAUSE: NOT A DATA REGRESSION. The R2147 tavern-menu strip (and every other menu strip) is BYTE-IDENTICAL between v87 (working) and v89, and the patched English version shipped correctly in v89. I extracted R2147 from the PACKDATA inside both build/BUSIN0_EN_v87.iso and build/BUSIN0_EN_v89.iso and they have identical MD5 (3bb11313fa6a75f015364dc19861b2e2), differing from pristine (4aec6a83), proving patch_r2147.py ran and the English atlas is in v89. Window 1 (submenu sheet with the buttons @0x560), window 2 (bulletin @0x12020), AND the never-touched display-list/upload-record region (0x000-0x55F) all match v87 bit-for-bit. A full 2883-resource PACKDATA diff v87->v89 shows only 22 resources changed — ALL type-2 dialogue/choice (R1196-R1212, R1347, R1353-R1355, R2880); ZERO menu strips changed. The patched EXE (menu draw path + glyph metrics) is byte-identical v87->v89 (53dbbcda). Overflow relocation is healthy: v89 PACKDATA grew +2 sectors vs v87, downstream files shifted +2 cleanly, v89 layout equals working v86 layout (BSN2_0.DSI at end_lba 426218, no boundary crossed). CONCLUSION: There is no data path by which v89 could have killed the tavern buttons. The captured v89 screenshot batch (165751-171306) ends in the tavern cutscene/interior and NEVER opens the tavern submenu — so the \"killed buttons\" report is UNCONFIRMED in evidence and most likely a transient/runtime artifact (e.g., loading a stale PCSX2 save state from an older ISO per CLAUDE.md warning, or a one-off VRAM upload glitch), NOT a build regression. RECOMMEND: re-test v89 booting FRESH from title (no save state), navigate into the tavern submenu, and capture that exact screen before treating this as a code bug. Other menu strips (town R2124, status R1365, battle R1054/R1360-64, camp/system R1359/R1367/R1910, facilities R2141/R2144/R2150/R2153, bulletin R2155, medallion R1370) are ALL byte-identical v87->v89 and carry NO regression risk from the v89 changes.",
+   "issues": [
+    {
+     "screen": "Tavern submenu (Requests/Message Board/Personal Deeds/Trap Game/Go Outside) — v87 working ref shot 20260613134551",
+     "severity": "high",
+     "category": "tavern-buttons",
+     "description": "USER REPORT: 'we killed all the tavern buttons, they worked in the last build.' In v87 (snap 20260613134551) the left vertical strip rendered English: 'Requests / Message Board / Personal Deeds / Trap Game / Go Outside' plus 'Bar Luna Light' title. v89 allegedly shows them killed (blank/Japanese). HOWEVER no v89 screenshot in the captured batch (165751-171306) actually shows the tavern submenu — the session ends at the tavern interior (20260613171306, 'Bar Luna Light' title still rendering English).",
+     "root_cause": "VERIFIED NOT A DATA REGRESSION. R2147 (tools/patch_r2147.py, build Step 6.5) is byte-identical v87 vs v89. Extracted from PACKDATA inside both ISOs: both MD5=3bb11313fa6a75f015364dc19861b2e2 (English-patched, differs from pristine 4aec6a83b92829436b77a266a270b381). Window1@0x560 (the button sheet, md5 83ac5435), Window2@0x12020 (md5 d3b47fcb), and display-list 0x000-0x55F (md5 a42ae242) ALL identical v87/v89. Full 2883-resource PACKDATA diff: only 22 type-2 dialogue/choice resources changed, ZERO menu strips. Patched EXE identical (53dbbcda7e09f64921a77186091d3f49). Overflow relocation healthy (+2 sectors, v89 layout == working v86). There is no mechanism by which v89 changed the tavern button rendering.",
+     "fix": "HYPOTHESIS (most likely): re-test is contaminated. Per CLAUDE.md, loading a PCSX2 save state (.p2s) from an older/broken ISO shows that ISO's VRAM regardless of mounted ISO. ACTION: boot v89 FRESH from title screen (verify_iso.py build/BUSIN0_EN_v89.iso first), walk into the tavern, OPEN the submenu, and capture that exact screen. If buttons are genuinely blank in a fresh boot, the cause is a runtime VRAM-upload glitch unrelated to R2147 data — escalate with a GS dump of the submenu frame (parser build/recon_v86/gs-vram-atlas/gs_atlas.py) so the actual uploaded texture page can be inspected. Do NOT modify patch_r2147.py — its output is correct.",
+     "regression_vs": "v87 (snap 20260613134551 showed working English buttons; R2147 data is identical in v89)"
+    },
+    {
+     "screen": "Other menu strips (town/status/battle/camp/facilities/bulletin/medallion)",
+     "severity": "low",
+     "category": "regression",
+     "description": "Audit of whether other menu strips share the alleged tavern-button regression.",
+     "root_cause": "VERIFIED CLEAN. Full PACKDATA diff v87->v89 confirms every menu strip is byte-identical: R2124 (town, md5 09b8ee9a), R1365 (status bar, 23c7b87b), R2155 (bulletin, 2f66443f), plus R2141/R2144/R2150/R2153/R1054/R1359/R1360-64/R1367/R1370/R1910 all unchanged. Only 22 type-2 dialogue/choice resources changed in v89 (R1196-R1212, R1347, R1353-R1355, R2880).",
+     "fix": "No action. These strips carry zero regression risk from v89 changes. If the tavern submenu is confirmed broken on a fresh boot, the same runtime/VRAM cause would NOT affect these (different upload paths), so test each independently."
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "intro-video",
+   "summary": "ROOT-CAUSE FOUND (VERIFIED by decoding all three ISOs + per-line UV-clip model matching screenshots exactly). The intro narration on screen is R2880 sub7 (the pre-rendered 512x512 prologue PAGE), NOT R1193. R1193 is BYTE-IDENTICAL across v86/v88/v89 (md5 72c3b20538) — the narration rewrap and Step-4 ' // ' change did NOT touch it and did NOT regress the intro. The regression is 100% in R2880 sub7: it changed from LEFT-ALIGNED + PER-LINE-CAP (committed HEAD, correct) to CENTERED + single-global-width (working tree, v88 & v89). R2880 is byte-identical v88==v89 (md5 7f354629d3ab); v86 differs (e7e0d034d219, left-aligned). The opening MOVIE samples each subtitle line through a FIXED per-line UV window whose width equals the ORIGINAL JP line ink width (caps measured from GS dumps, recorded in the committed r2880_prologue.json as layout.line_caps=[378,301,221,452,423,198,211,294,223,283,318,294,191,318,462,295,478,164]). Centering pushes English text outside these windows, so the right (and left) of each line is clipped at sample time. My UV-clip model predicts the on-screen clips EXACTLY: line1 'a war plunged the Kingdom of Duhan' -> shows 'a war plunged the Kingdc' (66% visible, window ends x=305 vs text reaches x=413); line2 'into blood and terror.' -> 'into bloo' (centered short line, 33% visible). 14 of 18 lines clip when centered (only the 4 widest JP-cap lines survive) = 'almost every single thing worse'. The committed per-line-cap LEFT-ALIGN layout fits ALL 18 lines within their UV windows (verified by re-running the typesetter against HEAD config). FIX: revert tools/patch_r2880.py + data/strip_labels/r2880_prologue.json to the committed (HEAD) per-line-cap LEFT-ALIGNED layout (git checkout HEAD -- those two files), then rebuild. The git working-tree diff IS the regression. R1193 needs no change. R2880 is patched in build_v9 Step 6.5 (tools/patch_r2880.py).",
+   "issues": [
+    {
+     "screen": "Intro opening movie — prologue narration (frames 20260613165751/165805/165810/165822/165836/165848/165855/165910)",
+     "severity": "blocker",
+     "category": "intro-video",
+     "description": "Nearly every line of the intro prologue narration is RIGHT-CLIPPED on screen. Transcribed: 'Long ago, for thirty long years' (ok) / 'a war plunged the Kingdc' (clip of 'Kingdom of Duhan') / 'into bloo' (clip of 'into blood and terror.'); later 'the kingd' / 's people to two-thirds' / 'would be rememb'; 'Possesse' / 'the San-Goth king led h' / 'forth t'; 'but war soon e'; 'Had one hero not ap' / 'the Kir' / 'would have vanished from t'; 'He was Ortrud, la' / 'known as the Holy King.' (ok); 'He defeated San-Goth an' / 'peace and ho' / 'to the Kingdom of Duhan.'. 14 of 18 lines clip. This is the source IMG=R2880 sub7 pre-rendered page (NOT R1193, NOT a true movie subtitle).",
+     "root_cause": "VERIFIED. R2880 sub7 (extracted/packdata_raw/2880_type11.raw, pixel blob at file offset 1962944, 512x512 PSMT4) regressed from LEFT-ALIGNED+PER-LINE-CAP to CENTERED. The opening movie samples each subtitle line through a FIXED per-line UV window = the ORIGINAL JP line ink width (caps recorded in committed r2880_prologue.json layout.line_caps). The 'v86 revert to centered' working-tree change centers every line against a single 504px global width, ignoring per-line caps, so each centered line spills past its narrow UV window and is clipped. UV-clip model reproduces every on-screen clip exactly (e.g. line1 window ends x=305 but centered text reaches x=413 -> 66% visible -> 'Kingdc'; line2 window ends x=225, centered text [166..345] -> 33% visible -> 'into bloo'). R2880 byte-identical v88==v89 (md5 7f354629d3ab), v86 left-aligned (md5 e7e0d034d219).",
+     "regression_vs": "v86 (left-aligned R2880, intro was correct). Broke at v88 (centering introduced), persists v89.",
+     "fix": "Revert BOTH files to committed HEAD: `git checkout HEAD -- tools/patch_r2880.py data/strip_labels/r2880_prologue.json` then rebuild (R2880 patched in build_v9 Step 6.5 via tools/patch_r2880.py). HEAD restores the per-line-cap LEFT-ALIGN typesetter (max_w=min(line cap, global) + left_x origin) AND the reworded lines engineered to fit the narrow caps (i=3/4/5 redistributed to 'The devastating war that cut the / kingdom's people to two-thirds would / be the Battle of Banquo.'; i=6 'Seized by a death spirit,'). VERIFIED: re-running the typesetter against HEAD config fits ALL 18 lines within their UV windows (every line OK, none overflow). The working-tree _v86_note's claim that 'only a couple lines run slightly wide' is false — 14/18 clip.",
+     "resource_group_file": "tools/patch_r2880.py, data/strip_labels/r2880_prologue.json; resource R2880 sub7 (2880_type11.raw, pixel_off 1962944, 512x512 PSMT4)"
+    },
+    {
+     "screen": "Intro narration — R1193 in-engine path (decoded, not the regression source)",
+     "severity": "low",
+     "category": "intro-video",
+     "description": "R1193 trailing narration block (23 0x14 line records, <=23 glyphs each) decodes cleanly and is BYTE-IDENTICAL across v86/v88/v89 (full resource md5 72c3b20538). Wording: 'For thirty long years,' / 'a war plunged the' / 'Kingdom of Duhan into' / 'blood and terror.' ... 'Twenty years passed...'. NOTE the R1193 wording lacks the 'Long ago' prefix and differs from the on-screen text, confirming the on-screen intro is rendered from R2880 sub7, not R1193.",
+     "root_cause": "N/A — R1193 did not change. The narration re-wrap to <=23 glyphs and build_v9 Step-4 ' // ' page-break change do NOT affect R1193 (injected in Step 5 with its own per-line 0x14 rewrite, no ' // ' logic). VERIFIED no regression.",
+     "regression_vs": "none (identical v86/v88/v89)",
+     "fix": "No action. Do NOT touch R1193 chasing the intro bug — it is a red herring. (Open question for architect: confirm whether R1193's trailing block is even drawn during this cutscene, since R2880 is the visible source; if R1193 is dead/unused here it could be left as-is.)",
+     "resource_group_file": "tools/patch_r1193_narration.py; resource R1193 (1193_type02.raw) trailing block, 23 0x14 records"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "area": "modeleak-choice-names",
+   "summary": "Investigated the four assigned R1197 (bar/Gin's-tavern scene) content issues for v89. KEY ROOT-CAUSE FINDING: the entire R1197 g900-936 \"Vera join\" sequence ships ENGLISH that is FABRICATED FILLER unrelated to the Japanese (e.g. JP g910 = ここまで言えばわかるだろう \"you understand now\" but EN = \"The cheers echoed through the tavern\"). This single mis-authored block explains (A) the barkeep/speaker-box mode-leak and (B) the out-of-place choices. (A) MODE-LEAK CONFIRMED: leak detector (re-run on current v89 data) flags exactly 1 HIGH leak project-wide, in R1197 at the Vera scene: g930(NARRATION)->g931(BOX) \"...knight asks to join you. Accept Refuse\" then \"thank you. i am vera almohad.\" Additionally the BOX display at pc=37325 covers g904-g912 which includes the narration line g910 \"The cheers echoed through the tavern\" — narration text packed into a BOX (speaker) display, exactly the user's \"Barkeep narrating\" complaint. (B) g916 \"Dodge/Summon\" VERDICT: g916 IS a genuine choice in the shipped raw (verified FFFE/FFC0/FFC1 choice skeleton in Section-2, identical structure to the real join-choice g930). It correctly plays BEFORE g930. It is NOT a spurious injector-created choice. The PROBLEM is its TRANSLATION: JP \"女騎士がうなだれている / [choice1] / [choice2]\" (the knight hangs her head; speak-to-her / call-out type options) was mistranslated as \"Dodge / Summon\", which is nonsensical battle vocabulary in a tavern dialogue. (C) 'i' CAPITALIZATION found exactly: R1197 g5 \"i am the owner of this place. my name is gin barbus.\" and R1197 g931 \"thank you. i am vera almohad.\" Both REGRESSED in v89 — the .master (prior build) had correct \"I am the owner of this place. My name is Gin Barbus.\" and \"Thank you. I am Vera el-Muwahhid.\" Only 2 user-visible lowercasing regressions exist (both batch_01.json). (D) PARTY-BAR NAMES: ISO-SIDE FIX IS FEASIBLE. Found a katakana NAME TABLE in resource R2654 (type-44) — vera's name_value encoding [273,270,93,231] BE-uint16 sits at offset 0x831A, each name terminated by FFFE FFFF. The table holds the full premade-party + NPC roster (decoded: aurora, aoi, irisu/Iris, vera, erika, emiria, ortrud, freesia, konde, simzon, jin/Gin, kunnal, raiman, melanie, miri...). R2654 is ALREADY a build-pipeline target (build_v9.py Step 2 in-place translation), so the table is patchable from the ISO. NOTE: also found a secondary untranslated-Japanese remnant — a \"Lady Knight\" speaker box rendering raw JP たったの十日間だ (\"It's only been ten days\") in screenshot 170942, plus FFD2 page-break glyphs leaking as visible \"ΛΛΛ\" characters in screenshot 170931.",
+   "issues": [
+    {
+     "screen": "R1197 bar/Vera-join scene (Gin's tavern), displays pc=37163-37817 covering groups g900-g936",
+     "severity": "blocker",
+     "category": "untranslated",
+     "description": "ROOT CAUSE of the whole bar-scene mess: the English shipped for R1197 g900-g936 is FABRICATED FILLER with ZERO relation to the Japanese source. Examples (EN vs actual JP meaning): g910 EN='The cheers / echoed through / the tavern.' but JP='ここまで言えばわかるだろう' (=you should understand by now); g905 EN=\"Vera's words carried the weight of true conviction\" but JP is about refusing a quest; g900 EN=\"I've been waiting for this moment\" vs JP about Simzon. The translator invented a generic 'heartwarming Vera joins the party' narrative that does not exist in the JP. This is why narration/dialogue/choices are all wrong here.",
+     "root_cause": "batch_01.json R1197 g900-936 was authored as creative filler, not a translation of the JP groups. Confirmed by comparing current batch_01.json to batch_01.json.master (master also had filler but DIFFERENT filler, so this block has never been a real translation).",
+     "fix": "Re-translate R1197 g900-936 from the actual Japanese (use guide/script cross-ref). At minimum align group boundaries so narration vs box vs the two choices match the JP scene flow.",
+     "regression_vs": "content was wrong in v86 too, but v89 changed it (added choice markers + re-wrap) making it newly visible/broken"
+    },
+    {
+     "screen": "R1197 BOX display pc=37325 (groups g904-g912) — speaker/Barkeep box",
+     "severity": "high",
+     "category": "mode-leak",
+     "description": "Narration line g910 'The cheers / echoed through / the tavern.' (and g907 'The other patrons raised their glasses', g908 'To the brave adventurers!') are packed inside a BOX-mode display (pc=37325, classified BOX via 0x4E frame opcode). This renders pure narration inside the windowed speaker box = the user's 'Barkeep narrating' complaint. Detector classifies this run as BOX while its content reads as centered narration.",
+     "root_cause": "Display pc=37325 spans 9 groups (g904-g912) of mixed narration in a BOX frame. The group->display assignment in the original script puts these narration groups in a box; the English filler then reads as a speaker uttering scene narration.",
+     "fix": "Either re-author so g910/g907/g908 narration sits in a NARRATION display, or (since English is filler anyway) re-translate so the box content is actual Barkeep speech. Verify against JP which groups are truly speech vs narration.",
+     "root_cause_verified": "VERIFIED via leak_detector engine build_display_list(1197)"
+    },
+    {
+     "screen": "R1197 g930->g931 boundary (Vera join offer)",
+     "severity": "high",
+     "category": "mode-leak",
+     "description": "THE ONLY HIGH leak project-wide (leak detector re-run on current v89 data: HIGH=1, all in R1197). NARRATION g930 ends '...knight asks to join you.  Accept Refuse' then BOX g931 begins mid-sentence-lowercase 'thank you. i am vera almohad.' On-screen (snap 171023) the choice 'Accept / Refuse' shows, then the box reply starts lowercase.",
+     "root_cause": "g931 begins lowercase ('thank you. i am...') so the detector flags a mid-sentence continuation across the NARRATION->BOX mode boundary; compounded by the g931 capitalization regression (see separate issue).",
+     "fix": "Capitalize g931 and ensure each display's groups are self-contained sentences.",
+     "regression_vs": "g931 text was 'Thank you. I am Vera el-Muwahhid.' in batch_01.json.master (prior build)"
+    },
+    {
+     "screen": "R1197 g916 choice display (pc=37443) — 'woman knight hangs her head' (snap 170851)",
+     "severity": "high",
+     "category": "choice",
+     "description": "g916 EN='The woman knight hangs her head. // Dodge / Summon'. VERDICT: g916 is a LEGITIMATE choice that correctly plays BEFORE the join choice g930 — it is NOT mis-sequenced or injector-fabricated. Verified the Section-2 raw for g916 carries the genuine choice skeleton <FFFE><FFFE><FFC0>...<FFFE><FFC1>... identical in structure to the real join-choice g930. The PROBLEM is the option TRANSLATION: JP '女騎士がうなだれている / [opt1] / [opt2]' (the knight hangs her head; the options are an interaction like 'Speak to her / Call out', NOT combat actions). 'Dodge / Summon' is nonsensical battle vocabulary mistranslated into a tavern dialogue choice. User correctly flagged it as 'out of place'.",
+     "root_cause": "Mistranslation of g916's two choice options as 'Dodge'/'Summon'. The choice itself is original-game-correct and correctly positioned before the join offer.",
+     "fix": "Re-translate g916 options from JP ('声をかける' speak-to-her etc.). Keep the // page-break and / option-separator so the FFFE/FFC0/FFC1 skeleton is restored. Do NOT delete the choice — it is real.",
+     "root_cause_verified": "VERIFIED: choice skeleton FFC0/FFC1 present in 1197_type02.raw Section-2"
+    },
+    {
+     "screen": "R1197 g5 Barkeep box (snap 171159) and g931 Vera box",
+     "severity": "high",
+     "category": "choice",
+     "description": "'i should be capitalized' located EXACTLY: (1) R1197 g5 = 'i am the owner of / this place. my / name is gin / barbus.' — lowercase 'i', 'my', and proper noun 'gin'. Visible on-screen as 'i am the owner of this place. my name is gin barbu[s]'. (2) R1197 g931 = 'thank you. i am / vera almohad.' — lowercase 'thank', 'i', 'vera'.",
+     "root_cause": "v89 REGRESSION: batch_01.json.master had correct casing 'I am the owner of this place. My name is Gin Barbus.' and 'Thank you. I am Vera el-Muwahhid.' Current batch_01.json lowercased both (also note name changed from 'Vera el-Muwahhid' to 'vera almohad'). Only 2 user-visible lowercasing regressions exist across all batches (both in batch_01.json R1197).",
+     "fix": "In data/type2_translated/batch_01.json restore g5='I am the owner of / this place. My / name is Gin / Barbus.' and g931='Thank you. I am / Vera el-Muwahhid.' (reconcile preferred romanization Vera el-Muwahhid vs vera almohad with translator).",
+     "regression_vs": "v86/prior — batch_01.json.master has the correct capitalized text"
+    },
+    {
+     "screen": "Party bar 'Bar Luna Light' party roster (snap 171306)",
+     "severity": "high",
+     "category": "names",
+     "description": "Party-member name renders in katakana ヴェーラ (Vera, level 27) in the party-bar roster; leader 'ia' shows romanized. SOURCE LOCATED AND ISO-SIDE FIX IS FEASIBLE: a katakana NAME TABLE lives in resource R2654 (type-44, 0x37000 bytes). Vera's name_value encoding [273,270,93,231] (BE-uint16) is at offset 0x831A, each name terminated by FFFE FFFF. Decoded neighbors confirm it is the full premade-party + NPC roster: aurora, aoi, irisu(Iris), vera, erika, emiria, ortrud, freesia, konde, simzon, jin(Gin), kunnal, raiman, melanie, miri, etc. Names use chargen name-value codes (193-237 = grid pos, glyph=val-95; 238=n; 93=long-vowel; 245+=dakuten). NOT in EXE (searched SLPM_653.78_v3: 0 hits for SJIS or name-value vera).",
+     "root_cause": "Premade party names are stored as katakana name-value arrays in PACKDATA R2654 (and copied into the EE-RAM character struct at 0x5601F2 at game start per data/xref_party.json). The party bar renders these katakana name-values through the chargen name font, so they appear in Japanese.",
+     "fix": "R2654 is ALREADY a build-pipeline target (build/build_v9.py Step 2 in-place translation, tc_map 2654:'44'). FEASIBLE PLAN: (a) overwrite each name entry in R2654 with the romanized spelling using ASCII glyph indices (the dialogue/name font already has Latin glyphs), OR (b) remap the katakana name-value slots to Latin glyphs in the chargen name atlas. Canonical: ヴェーラ=Vera, basuko=Basco, konde=Konde, erika=Erika, etc. (data/xref_party.json). Caveat: must confirm the party-bar renderer reads name-values through a font that has Latin glyphs at the target slots; the 273/270 (vu/small-e) extended slots are not yet in the confirmed glyph map and need atlas work.",
+     "root_cause_verified": "VERIFIED: vera BE-uint16 [273,270,93,231] found at R2654 offset 0x831A; table structure FFFE/FFFF-delimited confirmed"
+    },
+    {
+     "screen": "R1197 Lady Knight speaker box (snap 170942)",
+     "severity": "medium",
+     "category": "untranslated",
+     "description": "Secondary find (not in my 4 deliverables but in the same scene): a 'Lady Knight' speaker box renders RAW JAPANESE 'たったの十日間だ。' (=It's only been ten days). This group was never extracted/translated (no batch entry with that JP), so it falls through to the original Japanese at runtime.",
+     "root_cause": "Missing translation entry for this R1197 group; the extractor skipped it so the original JP ships.",
+     "fix": "Locate the group (near g914 'Lady Knight' box region) in 1197_type02.raw, add a translation entry to batch_01.json.",
+     "confidence": "medium"
+    },
+    {
+     "screen": "R1197 g917 narration (snap 170931)",
+     "severity": "medium",
+     "category": "glyph",
+     "description": "Secondary find: narration 'Even the way she stood spoke of years of training' renders with leftover 'ΛΛΛ' glyphs at the start (the FFD2 page-break control rendering as visible caret/lambda characters) and overflows both screen edges.",
+     "root_cause": "The auto-FFD2 page-break insertion (build_v9 Step 4, every 3 lines) emitted an FFD2 that renders as a visible ΛΛΛ glyph instead of an invisible page break, OR a literal '^' got into the text. Combined with wide-space overflow.",
+     "fix": "Audit the FFD2 encoding in Step 4 for g917-region; ensure page-break control codes are not being rendered as glyphs.",
+     "confidence": "medium"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "plan": {
+  "problem_inventory": [
+   "R2880 intro clip blocker working tree regression clips fourteen of eighteen lines validated by git diff HEAD",
+   "Type-2 overflow high word_wrap not called on the type-2 path in build_v9 Step 4 line 149 only type-01",
+   "Spaces low misdiagnosis font atlas byte identical data has single spaces only EXE font metrics could narrow",
+   "Leaked control word glyphs high AAA prefix on R1197 g917 plus caduceus leak onto narration",
+   "Barkeep mode-leak high narration packed into a box display g904 to g912 and fabricated filler in R1197",
+   "Dodge and Summon high a real choice with options mistranslated as battle vocabulary not the Japanese options",
+   "Capitalization high R1197 g5 and g931 lowercased versus the master batch file",
+   "Untranslated medium R1197 Lady Knight box renders raw Japanese at runtime",
+   "Party names high katakana roster stored in resource R2654 with Vera at offset 0x831A",
+   "Portraits missing low not a regression R1251 byte identical to v86 engine fade animation",
+   "Tavern buttons killed low unconfirmed R2147 byte identical across builds submenu never captured"
+  ],
+  "phases": [
+   {
+    "phase": 1,
+    "title": "Revert R2880 intro regression",
+    "rationale": "Working-tree regression flipped left-align to centered (VALIDATED git diff HEAD); biggest break, isolated, no shared-encoder risk.",
+    "problems": [
+     "R2880 sub7 clips 14 of 18 prologue lines"
+    ],
+    "approach": "git checkout HEAD on tools/patch_r2880.py and data/strip_labels/r2880_prologue.json, rebuild via Step 6.5; recon confirms HEAD fits all 18 UV line_caps and the displayed viewport vs 512px.",
+    "needs_user_dump": []
+   },
+   {
+    "phase": 2,
+    "title": "Add type-2 word-wrap to build_v9 Step 4",
+    "rationale": "Dominant overflow root cause; word_wrap only on type-01 line 149, type-2 loop 297-319 never wraps (2604 lines over 18 glyphs). Precedes content re-authoring.",
+    "problems": [
+     "type-2 narration and dialogue clip both edges",
+     "Barkeep box and choice prompts overflow"
+    ],
+    "approach": "word_wrap each segment in the Step 4 type-2 loop 305-318; do not wrap choice option segments (encode_choice_group relies on last-N segments); re-check Section-2 u16 totals.",
+    "needs_user_dump": []
+   },
+   {
+    "phase": 3,
+    "title": "Fix leaked control-word glyphs",
+    "rationale": "Leaked control word renders as AAA on g917; after Phase 2 since wrapping shifts break placement.",
+    "problems": [
+     "AAA prefix on R1197 g917",
+     "caduceus ornament leak"
+    ],
+    "approach": "Decode g917 bytes to pick 0xFFF0 vs auto page break, then stop emitting the leading control word into narration in encode_choice_group.",
+    "needs_user_dump": []
+   },
+   {
+    "phase": 4,
+    "title": "Fix R1197 mode-leak and Dodge-Summon",
+    "rationale": "Both from the mis-authored R1197 g900-936 block (only HIGH leak); g916 is a real choice so the fix is content.",
+    "problems": [
+     "narration in Barkeep box g904-g912",
+     "g916 options mistranslated"
+    ],
+    "approach": "Re-author batch_01.json R1197 from the JP; re-translate g916 keeping delimiters; keep narration out of boxes; build the display list to confirm BOX vs NARRATION.",
+    "needs_user_dump": []
+   },
+   {
+    "phase": 5,
+    "title": "Capitalization and untranslated remnant",
+    "rationale": "Pure content fixes after structure settles.",
+    "problems": [
+     "R1197 g5 and g931 lowercased vs master",
+     "Lady Knight raw JP"
+    ],
+    "approach": "Restore caps from batch_01.json.master, reconcile Vera romanization, add the Lady Knight entry in 1197_type02.raw; diff vs master for all casing regressions.",
+    "needs_user_dump": []
+   },
+   {
+    "phase": 6,
+    "title": "Romanize R2654 party names",
+    "rationale": "Isolated ISO-side polish; deferred since slots 273 270 may need atlas work.",
+    "problems": [
+     "party-bar roster renders katakana names"
+    ],
+    "approach": "Overwrite each R2654 name with ASCII glyph indices; confirm Latin glyphs at slots 273 270; verify FFFE/FFFF terminators and the EE-RAM copy to 0x5601F2.",
+    "needs_user_dump": []
+   },
+   {
+    "phase": 7,
+    "title": "Diagnose portraits and tavern-buttons",
+    "rationale": "Two VRAM recons show both byte-identical to working builds; likely non-regressions, gated on evidence.",
+    "problems": [
+     "portraits missing in dialogue",
+     "tavern buttons reportedly killed"
+    ],
+    "approach": "Fresh-boot retest, no save state; portraits EE breakpoint on R1251 BITBLT or same-moment JP capture; tavern submenu GS dump if blank; do not edit byte-correct patch_r2147.py.",
+    "needs_user_dump": [
+     "Fresh-boot open tavern submenu screenshot",
+     "submenu GS dump if blank",
+     "JP vs v89 R1251 BITBLT upload-flag capture"
+    ]
+   }
+  ],
+  "risks": [
+   "Phase 2 wrap could break the choice segment count encode_choice_group relies on; wrap only non-option segments.",
+   "Phase 2 wrap inflates Section-2 word counts, risking the R1203 u16 overflow cap.",
+   "Spaces narrowing is a trap; only EXE font-metrics, debugger-gated.",
+   "Phase 3 needs g917 bytes decoded first to pick 0xFFF0 vs auto page break.",
+   "Phases 4 and 5 need JP cross-ref since R1197 English is fabricated filler.",
+   "Phase 6 may lack Latin glyphs at slots 273 and 270.",
+   "Phase 7 do not edit byte-correct R2147; prior tests likely used a stale save state.",
+   "Build hygiene: one-command rebuild, fresh boot only.",
+   "PACKDATA growth risks BSN2_0.DSI overflow on real PS2 hardware."
+  ],
+  "plan_summary": "Order root causes first; portraits and tavern-buttons last as likely non-regressions needing a fresh-boot GS dump.</plan_summary>\n</invoke>\n"
+ }
+}

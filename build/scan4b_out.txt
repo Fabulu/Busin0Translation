@@ -1,0 +1,139 @@
+=== SCOPED (item keyword) ===
+batch_05.json                    R1206  m546    13  Mom wore one~
+batch_05.json                    R1207  m546    13  Mom wore one~
+chunk_r36_translated.json        R36    m139    15  Child of Ashira
+chunk_r36_translated.json        R36    m10     13  Boring Beetle
+chunk_r36_translated.json        R36    m96     13  Death Bringer
+batch_r39_equip_b.json           R39    m423    22  Cannot accept any more
+batch_r39_equip_b.json           R39    m631    21  Lv1 Arcane Spell Book
+batch_r39_equip_b.json           R39    m632    21  Lv2 Arcane Spell Book
+batch_r39_equip_b.json           R39    m633    21  Lv3 Arcane Spell Book
+batch_r39_equip_b.json           R39    m634    21  Lv4 Arcane Spell Book
+batch_r39_equip_b.json           R39    m635    21  Lv5 Arcane Spell Book
+batch_r39_equip_b.json           R39    m636    21  Lv6 Arcane Spell Book
+batch_r39_equip_b.json           R39    m637    21  Lv7 Arcane Spell Book
+batch_r39_equip_b.json           R39    m525    19  Vigor General Store
+batch_r39_equip_b.json           R39    m638    19  Lv1 Holy Spell Book
+batch_r39_equip_b.json           R39    m639    19  Lv2 Holy Spell Book
+batch_r39_equip_b.json           R39    m640    19  Lv3 Holy Spell Book
+batch_r39_equip_b.json           R39    m641    19  Lv4 Holy Spell Book
+batch_r39_equip_b.json           R39    m642    19  Lv5 Holy Spell Book
+batch_r39_equip_b.json           R39    m643    19  Lv6 Holy Spell Book
+batch_r39_equip_b.json           R39    m644    19  Lv7 Holy Spell Book
+batch_r39_equip_a.json           R39    m234    17  Magic Cooperation
+batch_r39_equip_b.json           R39    m557    17  Arcane Spell Book
+batch_r39_equip_b.json           R39    m561    16  Self-Repair Chip
+batch_r39_equip_b.json           R39    m437    15  Deadline Passed
+batch_r39_equip_b.json           R39    m558    15  Holy Spell Book
+batch_r39_equip_b.json           R39    m578    15  Throwing Knives
+batch_r39_equip_b.json           R39    m559    14  Automater Chip
+batch_r39_equip_b.json           R39    m624    14  Lv1 Spell Book
+batch_r39_equip_b.json           R39    m625    14  Lv2 Spell Book
+batch_r39_equip_b.json           R39    m626    14  Lv3 Spell Book
+batch_r39_equip_b.json           R39    m627    14  Lv4 Spell Book
+batch_r39_equip_b.json           R39    m628    14  Lv5 Spell Book
+batch_r39_equip_b.json           R39    m629    14  Lv6 Spell Book
+batch_r39_equip_b.json           R39    m630    14  Lv7 Spell Book
+
+=== UNSCOPED name-like >12 ===
+batch_md_import.json             R1202  m93     21  said it was the price
+batch_md_import.json             R1205  m868    22  A woman's voice echoes
+batch_md_import.json             R1205  m756    20  A woman is screaming
+batch_md_import.json             R1207  m281    20  But that makes sense
+batch_05.json                    R1207  m290    14  That monster--
+batch_06.json                    R1208  m278    19  Item list 13 is cut
+batch_md_import.json             R1210  m624    21  What? Found something
+batch_08.json                    R1212  m134    18  Sign: Lost & Found
+batch_09.json                    R1353  m134    18  Sign: Lost & Found
+batch_md_import.json             R1354  m226    22  He showed a stern look
+batch_md_import.json             R1354  m77     20  I look forward to it
+batch_dungeon_a.json             R35    m16     19  Select data to load
+batch_dungeon_a.json             R35    m5      16  Select save data
+chunk_r36_translated.json        R36    m125    17  The High Master B
+chunk_r36_translated.json        R36    m78     16  Master Priestess
+chunk_r36_translated.json        R36    m62     15  Phantom Thief a
+chunk_r36_translated.json        R36    m109    15  The High Master
+chunk_r36_translated.json        R36    m118    15  Phantom Thief B
+chunk_r36_translated.json        R36    m9      14  Rotting Corpse
+chunk_r36_translated.json        R36    m61     14  Master Thief a
+chunk_r36_translated.json        R36    m114    14  Master Thief B
+chunk_r36_translated.json        R36    m120    14  Master Thief C
+chunk_r36_translated.json        R36    m124    14  Master Ninja B
+chunk_r36_translated.json        R36    m13     13  Undead Kobold
+chunk_r36_translated.json        R36    m15     13  Huge Spider a
+chunk_r36_translated.json        R36    m16     13  Huge Spider B
+chunk_r36_translated.json        R36    m17     13  Giant Spinner
+chunk_r36_translated.json        R36    m28     13  Dragon Zombie
+chunk_r36_translated.json        R36    m33     13  Greater Demon
+chunk_r36_translated.json        R36    m45     13  Medusa Lizard
+chunk_r36_translated.json        R36    m58     13  Bushwhacker a
+chunk_r36_translated.json        R36    m75     13  Lv5 Priestess
+chunk_r36_translated.json        R36    m84     13  Copper Dragon
+chunk_r36_translated.json        R36    m87     13  Champ Samurai
+chunk_r36_translated.json        R36    m104    13  Spiral Beetle
+chunk_r36_translated.json        R36    m115    13  Bushwhacker B
+chunk_r36_translated.json        R36    m156    13  Mazikim Ghost
+batch_r39_equip_b.json           R39    m430    24  Request from Adventurers
+batch_r39_equip_b.json           R39    m431    24  Request from Dark Street
+batch_r39_equip_b.json           R39    m554    24  Unidentified Accessories
+batch_r39_equip_b.json           R39    m552    23  Self-Repair Accessories
+batch_r39_equip_b.json           R39    m566    22  Unidentified Equipment
+batch_r39_equip_b.json           R39    m429    21  Request from Citizens
+batch_r39_equip_b.json           R39    m503    21  Magic Mastery: Arcane
+batch_r39_equip_b.json           R39    m564    21  Self-Repair Equipment
+batch_r39_equip_b.json           R39    m544    20  Unidentified Weapons
+batch_r39_equip_a.json           R39    m235    19  Concentrated Attack
+batch_r39_equip_b.json           R39    m504    19  Magic Mastery: Holy
+batch_r39_equip_b.json           R39    m542    19  Self-Repair Weapons
+batch_r39_equip_a.json           R39    m230    18  Concentrated Spell
+batch_r39_equip_b.json           R39    m434    18  No active requests
+batch_r39_equip_b.json           R39    m535    18  Adventurer's Guild
+batch_r39_equip_b.json           R39    m549    18  Unidentified Armor
+batch_r39_equip_b.json           R39    m551    18  Repair Accessories
+batch_r39_equip_b.json           R39    m553    18  Cursed Accessories
+batch_r39_equip_a.json           R39    m239    17  Multi-Jump Attack
+batch_r39_equip_b.json           R39    m427    17  Request Abandoned
+batch_r39_equip_b.json           R39    m428    17  Request Completed
+batch_r39_equip_b.json           R39    m547    17  Self-Repair Armor
+batch_r39_equip_a.json           R39    m217    16  Cross-Gauge Kill
+batch_r39_equip_a.json           R39    m220    16  Anti-Magic Shell
+batch_r39_equip_a.json           R39    m223    16  Evasive Maneuver
+batch_r39_equip_a.json           R39    m232    16  Magic Rapid Fire
+batch_r39_equip_a.json           R39    m244    16  Elemental Attack
+batch_r39_equip_b.json           R39    m435    16  No active orders
+batch_r39_equip_b.json           R39    m439    16  Also In Progress
+batch_r39_equip_b.json           R39    m508    16  Inhuman Strength
+batch_r39_equip_b.json           R39    m563    16  Repair Equipment
+batch_r39_equip_b.json           R39    m565    16  Cursed Equipment
+chunk_04_translated.json         R39    m74     15  Cant swap weapn
+batch_r39_equip_a.json           R39    m222    15  Dense Formation
+batch_r39_equip_a.json           R39    m231    15  Silence Breaker
+batch_r39_equip_a.json           R39    m246    15  Zantsuki Iaijin
+batch_r39_equip_a.json           R39    m247    15  Nightmare Quake
+batch_r39_equip_a.json           R39    m396    15  Survey Deadline
+batch_r39_equip_b.json           R39    m421    15  From Acceptance
+batch_r39_equip_b.json           R39    m521    15  Status Recovery
+batch_r39_equip_b.json           R39    m536    15  Duhan Town Hall
+chunk_03_translated.json         R39    m26     14  No Special Pwr
+chunk_04_translated.json         R39    m73     14  Cant swap armr
+batch_r39_equip_a.json           R39    m381    14  Castle Steward
+batch_r39_equip_a.json           R39    m390    14  Merchant Guild
+batch_r39_equip_b.json           R39    m426    14  Request Failed
+batch_r39_equip_b.json           R39    m507    14  Vampire Hunter
+batch_r39_equip_b.json           R39    m511    14  Accuracy Sense
+batch_r39_equip_b.json           R39    m541    14  Repair Weapons
+batch_r39_equip_b.json           R39    m543    14  Cursed Weapons
+chunk_03_translated.json         R39    m30     13  Cant use item
+chunk_03_translated.json         R39    m31     13  Cant re-equip
+chunk_04_translated.json         R39    m87     13  inspcts chest
+batch_r39_equip_a.json           R39    m224    13  Restrict Shot
+batch_r39_equip_a.json           R39    m227    13  Breath Cancel
+batch_r39_equip_a.json           R39    m249    13  Double Breath
+batch_r39_equip_a.json           R39    m398    13  Soldier Corps
+batch_r39_equip_b.json           R39    m505    13  Dragon Hunter
+batch_r39_equip_b.json           R39    m514    13  Anatomy Sense
+batch_r39_equip_b.json           R39    m522    13  Defense Sense
+chunk_r40_r42_translated.json    R40    m9      13  Delete Member
+chunk_r40_r42_translated.json    R40    m33     13  Highest Level
+chunk_r40_r42_translated.json    R41    m17     15  Not Enough Gold
+chunk_r40_r42_translated.json    R42    m11     15  Not Enough Gold

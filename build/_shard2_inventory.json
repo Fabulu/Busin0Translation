@@ -1,0 +1,562 @@
+[
+ {
+  "resource": 27,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 28,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "CJK only in huge atlas/index groups (no message-sized dialogue group); 1 groups, 1 nonempty, 1 dialogue (sparse), totalCJK=268",
+  "sample": ""
+ },
+ {
+  "resource": 29,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "CJK only in huge atlas/index groups (no message-sized dialogue group); 3 groups, 3 nonempty, 3 dialogue, totalCJK=4178",
+  "sample": ""
+ },
+ {
+  "resource": 30,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "CJK only in huge atlas/index groups (no message-sized dialogue group); 4 groups, 4 nonempty, 4 dialogue, totalCJK=12403",
+  "sample": ""
+ },
+ {
+  "resource": 31,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "CJK only in huge atlas/index groups (no message-sized dialogue group); 5 groups, 5 nonempty, 5 dialogue, totalCJK=6913",
+  "sample": ""
+ },
+ {
+  "resource": 32,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "CJK only in huge atlas/index groups (no message-sized dialogue group); 1 groups, 1 nonempty, 1 dialogue (sparse), totalCJK=60",
+  "sample": ""
+ },
+ {
+  "resource": 51,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 134,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 136,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 145,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 151,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 155,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 156,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 165,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 167,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 183,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 231,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 240,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 241,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 245,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 307,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 308,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 311,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 314,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 315,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 319,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 322,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 325,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 326,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 332,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 333,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 338,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 342,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 393,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 402,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 403,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 408,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 412,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 413,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 415,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 416,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 420,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 422,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 427,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 428,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 434,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 435,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 439,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 442,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 443,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 444,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 445,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 447,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 449,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 453,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 457,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 465,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 467,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 471,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 473,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 474,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 500,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 502,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 503,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 507,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 508,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 509,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 512,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 514,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 515,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 530,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 531,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 558,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 584,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 588,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 599,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 600,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 603,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "1 groups, 1 nonempty, 0 dialogue, cjk_groups=0",
+  "sample": ""
+ },
+ {
+  "resource": 675,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "CJK only in huge atlas/index groups (no message-sized dialogue group); 23 groups, 23 nonempty, 12 dialogue, totalCJK=19321",
+  "sample": ""
+ },
+ {
+  "resource": 679,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "notes": "CJK only in huge atlas/index groups (no message-sized dialogue group); 16 groups, 16 nonempty, 9 dialogue, totalCJK=31019",
+  "sample": ""
+ }
+]

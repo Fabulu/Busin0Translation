@@ -1,0 +1,19 @@
+{
+ "save": "ramdumps requestdesc p2s",
+ "symptom": "5 desc lines render at distinct rows 24px apart no vertical overlap. Defect is horizontal lines too wide for box center-aligned clip both edges longest tail collides next field row",
+ "root_cause": "Build-side wrap bug not EXE or pitch. Renderer center-aligns each line at 18px mono. English longest line 40 glyphs equals 720px overflowing 640px screen. inject_r39_quest encode_english has no px wrap and no line cap so 40-char lines ship verbatim",
+ "evidence": [
+  "RAM 0xe378fe decodes 5 lines split by 0xFFFE",
+  "18px mono widths 720 540 648 612 486 vs 640 screen",
+  "vertical pitch 24px at VA 0x308770",
+  "0x1ce horiz pen 0x1cc vert pen per draw asm 0x308C38",
+  "JP G353 cells 18 11 18 16 13 English 40 is 1.6x"
+ ],
+ "affected_code": [
+  "inject_r39_quest encode_english lines 83 to 99 no wrap no cap",
+  "VA 0x308CB0 Patch22 advance 18px",
+  "VA 0x308770 vertical pitch 24px correct not bug"
+ ],
+ "fix_hypothesis": "Build-side fix wrap each R39 quest description and client name to box cell width before encoding using greedy word wrap emitting 0xFFFE per break target about 18 to 20 cells. Architect pin exact box width from a save with descriptor table populated and verify wrapped line count fits box height at 24px pitch since 5 lines may grow to 7 or 8. Do not touch 24px pitch or Patch22 advance",
+ "confidence": "high"
+}

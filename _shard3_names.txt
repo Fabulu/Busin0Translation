@@ -1,0 +1,389 @@
+data/translate_chunks/chunk_01_translated.json 70 | JP=アークメイジ / | EN=Archmage /
+data/translate_chunks/chunk_01_translated.json 71 | JP=lv１０メイジ / | EN=Lv10 Mage /
+data/translate_chunks/chunk_01_translated.json 72 | JP=ハイウィザード / | EN=High Wizard /
+data/translate_chunks/chunk_01_translated.json 73 | JP=ネクロマンサー / | EN=Necromancer /
+data/translate_chunks/chunk_01_translated.json 74 | JP=lv３プリースト / | EN=Lv3 Priest /
+data/translate_chunks/chunk_01_translated.json 75 | JP=lv５プリーステス / | EN=Lv5 Priestess /
+data/translate_chunks/chunk_01_translated.json 76 | JP=lv８プリースト / | EN=Lv8 Priest /
+data/translate_chunks/chunk_01_translated.json 77 | JP=ハイプリースト / | EN=High Priest /
+data/translate_chunks/chunk_01_translated.json 78 | JP=マスタープリーステス / | EN=Master Priestess /
+data/translate_chunks/chunk_01_translated.json 79 | JP=アークプリースト / | EN=Archpriest /
+data/translate_chunks/chunk_01_translated.json 80 | JP=lv８ビショップ / | EN=Lv8 Bishop /
+data/translate_chunks/chunk_01_translated.json 81 | JP=lv１０ビショップ / | EN=Lv10 Bishop /
+data/translate_chunks/chunk_01_translated.json 82 | JP=アークビショップ / | EN=Archbishop /
+data/translate_chunks/chunk_01_translated.json 83 | JP=ブルードラゴン / | EN=Blue Dragon /
+data/translate_chunks/chunk_01_translated.json 84 | JP=カッパードラゴン / | EN=Copper Dragon /
+data/translate_chunks/chunk_01_translated.json 85 | JP=マイナーダイミョウ / | EN=Minor Daimyo /
+data/translate_chunks/chunk_01_translated.json 86 | JP=メジャーダイミョウ / | EN=Major Daimyo /
+data/translate_chunks/chunk_01_translated.json 87 | JP=チャンプサムライ / | EN=Champ Samurai /
+data/translate_chunks/chunk_01_translated.json 88 | JP=ハタモト / | EN=Hatamoto /
+data/translate_chunks/chunk_01_translated.json 89 | JP=ショウグン / | EN=Shogun /
+data/translate_chunks/chunk_01_translated.json 90 | JP=ホワイトドラゴン / | EN=White Dragon /
+data/translate_chunks/chunk_01_translated.json 91 | JP=ゴールドドラゴン / | EN=Gold Dragon /
+data/translate_chunks/chunk_01_translated.json 92 | JP=スペルデーモン / | EN=Spell Demon /
+data/translate_chunks/chunk_01_translated.json 93 | JP=エルダーデーモン / | EN=Elder Demon /
+data/translate_chunks/chunk_01_translated.json 94 | JP=ゴースト / | EN=Ghost /
+data/translate_chunks/chunk_01_translated.json 95 | JP=ライフスティーラー / | EN=Life Stealer /
+data/translate_chunks/chunk_01_translated.json 96 | JP=デスブリンガー / | EN=Death Bringer /
+data/translate_chunks/chunk_01_translated.json 98 | JP=エンジェル / | EN=Angel /
+data/translate_chunks/chunk_01_translated.json 99 | JP=オークキング / | EN=Orc King /
+data/translate_chunks/chunk_01_translated.json 100 | JP=レッドスライム / | EN=Red Slime /
+data/translate_chunks/chunk_01_translated.json 101 | JP=シルバースライム / | EN=Silver Slime /
+data/translate_chunks/chunk_01_translated.json 102 | JP=フェアリー / | EN=Fairy /
+data/translate_chunks/chunk_01_translated.json 103 | JP=ストーンフライ / | EN=Stonefly /
+data/translate_chunks/chunk_01_translated.json 104 | JP=スパイラルビートル / | EN=Spiral Beetle /
+data/translate_chunks/chunk_01_translated.json 105 | JP=lv３ニンジャ / | EN=Lv3 Ninja /
+data/translate_chunks/chunk_01_translated.json 106 | JP=lv６ニンジャ / | EN=Lv6 Ninja /
+data/translate_chunks/chunk_01_translated.json 107 | JP=lv８ニンジャ / | EN=Lv8 Ninja /
+data/translate_chunks/chunk_01_translated.json 108 | JP=マスターニンジャ / | EN=Master Ninja /
+data/translate_chunks/chunk_01_translated.json 109 | JP=ザ・ハイマスター / | EN=The High Master /
+data/translate_chunks/chunk_01_translated.json 110 | JP=ハイニンジャ / | EN=High Ninja /
+data/translate_chunks/chunk_01_translated.json 111 | JP=フウマニンジャ / | EN=Fuma Ninja /
+data/translate_chunks/chunk_01_translated.json 112 | JP=死 神  / | EN=Reaper  /
+data/translate_chunks/chunk_01_translated.json 113 | JP=lv１０シーフ / | EN=Lv10 Thief /
+data/translate_chunks/chunk_01_translated.json 114 | JP=マスターシーフb / | EN=Master Thief b /
+data/translate_chunks/chunk_01_translated.json 115 | JP=ブッシュワッカーb / | EN=Bushwhacker b /
+data/translate_chunks/chunk_01_translated.json 116 | JP=lv４シーフb / | EN=Lv4 Thief b /
+data/translate_chunks/chunk_01_translated.json 117 | JP=マスターシーフb / | EN=Master Thief b /
+data/translate_chunks/chunk_01_translated.json 118 | JP=ファントムシーフb / | EN=Phantom Thief b /
+data/translate_chunks/chunk_01_translated.json 119 | JP=lv１０シーフ / | EN=Lv10 Thief /
+data/translate_chunks/chunk_01_translated.json 120 | JP=マスターシーフc / | EN=Master Thief c /
+data/translate_chunks/chunk_01_translated.json 121 | JP=lv３ニンジャb / | EN=Lv3 Ninja b /
+data/translate_chunks/chunk_01_translated.json 122 | JP=lv６ニンジャb / | EN=Lv6 Ninja b /
+data/translate_chunks/chunk_01_translated.json 123 | JP=lv８ニンジャb / | EN=Lv8 Ninja b /
+data/translate_chunks/chunk_01_translated.json 124 | JP=マスターニンジャb / | EN=Master Ninja b /
+data/translate_chunks/chunk_01_translated.json 125 | JP=ザ・ハイマスターb / | EN=The High Master b /
+data/translate_chunks/chunk_01_translated.json 126 | JP=ハイニンジャb / | EN=High Ninja b /
+data/translate_chunks/chunk_01_translated.json 127 | JP=フウマニンジャb / | EN=Fuma Ninja b /
+data/translate_chunks/chunk_01_translated.json 128 | JP=ダフネ / | EN=Daphne /
+data/translate_chunks/chunk_01_translated.json 129 | JP=サキュバス / | EN=Succubus /
+data/translate_chunks/chunk_01_translated.json 130 | JP=レプラコーン / | EN=Leprechaun /
+data/translate_chunks/chunk_01_translated.json 131 | JP=スレイプニル / | EN=Sleipnir /
+data/translate_chunks/chunk_01_translated.json 132 | JP=リッチ / | EN=Lich /
+data/translate_chunks/chunk_01_translated.json 133 | JP=ストラス / | EN=Stolas /
+data/translate_chunks/chunk_01_translated.json 134 | JP=ケンタウロス / | EN=Centaur /
+data/translate_chunks/chunk_01_translated.json 135 | JP=アシラ / | EN=Ashira /
+data/translate_chunks/chunk_01_translated.json 136 | JP=スケディム / | EN=Shedim /
+data/translate_chunks/chunk_01_translated.json 137 | JP=マジキム / | EN=Mazikim /
+data/translate_chunks/chunk_01_translated.json 138 | JP=イムプ / | EN=Imp /
+data/translate_chunks/chunk_01_translated.json 139 | JP=アシラの子 / | EN=Child of Ashira /
+data/translate_chunks/chunk_01_translated.json 140 | JP=強の壁  / | EN=Wall of Might /
+data/translate_chunks/chunk_01_translated.json 141 | JP=アウローラ / | EN=Aurora /
+data/translate_chunks/chunk_01_translated.json 142 | JP=オートマター / | EN=Automata /
+data/translate_chunks/chunk_01_translated.json 143 | JP=スケディム / | EN=Shedim /
+data/translate_chunks/chunk_01_translated.json 144 | JP=アシラ  / | EN=Ashira  /
+data/translate_chunks/chunk_01_translated.json 145 | JP=アシラ  / | EN=Ashira  /
+data/translate_chunks/chunk_01_translated.json 146 | JP=アシラ  / | EN=Ashira  /
+data/translate_chunks/chunk_01_translated.json 147 | JP=アシラ  / | EN=Ashira  /
+data/translate_chunks/chunk_01_translated.json 148 | JP=アシラの子 / | EN=Child of Ashira /
+data/translate_chunks/chunk_01_translated.json 149 | JP=アシラの子 / | EN=Child of Ashira /
+data/translate_chunks/chunk_01_translated.json 150 | JP=アシラの子 / | EN=Child of Ashira /
+data/translate_chunks/chunk_01_translated.json 151 | JP=アシラの子 / | EN=Child of Ashira /
+data/translate_chunks/chunk_01_translated.json 152 | JP=フレッシュゴーレム / | EN=Flesh Golem /
+data/translate_chunks/chunk_01_translated.json 153 | JP=フレッシュゴーレム / | EN=Flesh Golem /
+data/translate_chunks/chunk_01_translated.json 154 | JP=チキンオーガ / | EN=Chicken Ogre /
+data/translate_chunks/chunk_01_translated.json 155 | JP=スケディム・ゴースト / | EN=Shedim Ghost /
+data/translate_chunks/chunk_01_translated.json 156 | JP=マジキム・ゴースト / | EN=Mazikim Ghost /
+data/translate_chunks/chunk_01_translated.json 157 | JP=強の壁  / | EN=Wall of Might /
+data/translate_chunks/chunk_01_translated.json 1 | JP=名前を入力してください。 / 「男名・女名■名前を自動で入力」 / | EN=Enter Your Name. /
+data/translate_chunks/chunk_01_translated.json 2 | JP=果別を選んでください。 / | EN=Choose Your Gender. /
+data/translate_chunks/chunk_01_translated.json 3 | JP=種族を選んでください。 / | EN=Choose your race. /
+data/translate_chunks/chunk_01_translated.json 4 | JP=条果を選んでください。 / | EN=Choose alignment. /
+data/translate_chunks/chunk_01_translated.json 5 | JP=職業を選んでください。 / | EN=Choose your class. /
+data/translate_chunks/chunk_01_translated.json 6 | JP=能力値を振り分けてください。 / | EN=Distribute stats. /
+data/translate_chunks/chunk_01_translated.json 7 | JP=これでよろしいですか？ / | EN=Is this OK? /
+data/translate_chunks/chunk_01_translated.json 9 | JP=は い / | EN=Yes /
+data/translate_chunks/chunk_01_translated.json 10 | JP=いいえ / | EN=No /
+data/translate_chunks/chunk_01_translated.json 11 | JP=カナ / | EN=Kana /
+data/translate_chunks/chunk_01_translated.json 12 | JP=かな / | EN=Kana /
+data/translate_chunks/chunk_01_translated.json 15 | JP=自動 / | EN=Auto /
+data/translate_chunks/chunk_01_translated.json 16 | JP=決復 / | EN=Confirm /
+data/translate_chunks/chunk_01_translated.json 17 | JP=あいうえおがぎぐげご / かきくけこざじずぜぞ / さしすせそだぢづでど / たちつてとばびぶべぼ / なにぬねのぱぴぷぺぽ / はひふへほぁぃぅぇぉ / まみむめもっゃゅょ■ / や ゆ よー～    / らりるれろ男男男男男 / わ を ん女女女女女 / | EN=abcdefghij / klmnopqrst / uvwxyz.,!? / ABCDEFGHIJ / KLMNOPQRST / UVWXYZ -'  /           /           /           /           /
+data/translate_chunks/chunk_01_translated.json 18 | JP=アイウエオガギグゲゴ / カキクケコザジズゼゾ / サシスセソダヂヅデド / タチツテトバビブベボ / ナニヌネノパピプペポ / ハヒフヘホァィゥェォ / マミムメモッャュョヴ / ヤ ユ ヨー～    / ラリルレロ男男男男男 / ワ ヲ ン女女女女女 / | EN=ABCDEFGHIJ / KLMNOPQRST / UVWXYZ.,!? / abcdefghij / klmnopqrst / uvwxyz -'  /           /           /           /           /
+data/translate_chunks/chunk_01_translated.json 0 | JP=hp / | EN=HP /
+data/translate_chunks/chunk_01_translated.json 1 | JP=hp／mhp / | EN=HP/MHP /
+data/translate_chunks/chunk_01_translated.json 3 | JP=知恵 / | EN=INT /
+data/translate_chunks/chunk_01_translated.json 4 | JP=信仰心 / | EN=FTH /
+data/translate_chunks/chunk_01_translated.json 5 | JP=生命力 / | EN=VIT /
+data/translate_chunks/chunk_01_translated.json 6 | JP=敏捷度 / | EN=AGI /
+data/translate_chunks/chunk_01_translated.json 7 | JP=幸運度 / | EN=LCK /
+data/translate_chunks/chunk_01_translated.json 8 | JP=名前 / | EN=Name /
+data/translate_chunks/chunk_01_translated.json 9 | JP=レベル / | EN=Level /
+data/translate_chunks/chunk_01_translated.json 10 | JP=種族 / | EN=Race /
+data/translate_chunks/chunk_01_translated.json 11 | JP=果別 / | EN=Gender /
+data/translate_chunks/chunk_06_translated.json 36 | JP=オメェのソウコだ  /   /   / | EN=This is yer / /storage. /
+data/translate_chunks/chunk_06_translated.json 37 | JP=それをどうするんだべ？ /   /   / | EN=Whatcha wanna do? /  /  /
+data/translate_chunks/chunk_06_translated.json 38 | JP=誰の持ち士を / あずけるだよ？ /   / | EN=Whose items /d'ya / wanna store? /
+data/translate_chunks/chunk_06_translated.json 39 | JP=どれをあずけるだよ？ /   /   / | EN=Which one to /store? /  /
+data/translate_chunks/chunk_06_translated.json 40 | JP=誰のを回復するだよ？ /   /   / | EN=Whose item to / /identify? /
+data/translate_chunks/chunk_06_translated.json 41 | JP=どれを回復するだよ？ /   /   / | EN=Which one to / /identify? /
+data/translate_chunks/chunk_06_translated.json 42 | JP=回復するだか？  /   /   / | EN=Identify it? /  /  /
+data/translate_chunks/chunk_06_translated.json 43 | JP=ほれ、多体がわかって / スッキリしたべ  /   / | EN=There! Now ya know / /what it is. /Feels / good, eh? /
+data/translate_chunks/chunk_06_translated.json 44 | JP=使われてしまった / 不幸なやつは / どいつだべ？？ / | EN=Who's the poor /soul / that got /cursed?? /
+data/translate_chunks/chunk_06_translated.json 45 | JP=どれの使いを / 殿けばいいんだべ？ /   / | EN=Which curse /should / I remove? /
+data/translate_chunks/chunk_06_translated.json 46 | JP=使いを殿いてほしいべ？ / 使われっぱなしは / つらいべ？ な？ / | EN=Want it uncursed? / Bein' cursed all / the time hurts! /
+data/translate_chunks/chunk_06_translated.json 47 | JP=ほれ、使いも殿けて / スッキリしたべ  /   / | EN=There! Curse is / /gone now. /Feels / good, eh? /
+data/translate_chunks/chunk_06_translated.json 48 | JP=おおお、オダときたら / 殿使のスーパースター / だな  / | EN=Ohhh, I'm the / /uncursin' superstar / /around here! /
+data/translate_chunks/chunk_06_translated.json 49 | JP=ほだ  / これがただいまの / ヴィガー商店情報だ  / | EN=Right then. /Here's / the latest /Vigger / Shop info. /
+data/translate_chunks/chunk_06_translated.json 50 | JP=われらがヴィガー商店を / く宝に地装するか？  /   / | EN=Wanna invest in /our / Vigger Shop? /
+data/translate_chunks/chunk_06_translated.json 51 | JP=倉庫をでっかく / してやるだよ～  /   / | EN=I'll make yer / /storage bigger~! /
+data/translate_chunks/chunk_06_translated.json 52 | JP=われらがヴィガー商店の / 支店を造るか  / そっかそっかー  / | EN=Build a branch /of / our Vigger Shop? /I / see, I see~! /
+data/translate_chunks/chunk_06_translated.json 53 | JP=支店をリニュアール / オープンさせるべか？ /   / | EN=Renovate and /reopen / the branch? /
+data/translate_chunks/chunk_06_translated.json 54 | JP=支店の引越しだべか  /   / | EN=Relocate the /branch / store? /
+data/translate_chunks/chunk_06_translated.json 55 | JP=いま拡築したら、 / アイテム２０個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 20 / items~! /
+data/translate_chunks/chunk_06_translated.json 56 | JP=いま拡築したら、 / アイテム３０個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 30 / items~! /
+data/translate_chunks/chunk_06_translated.json 57 | JP=いま拡築したら、 / アイテム４０個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 40 / items~! /
+data/translate_chunks/chunk_06_translated.json 58 | JP=いま拡築したら、 / アイテム５０個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 50 / items~! /
+data/translate_chunks/chunk_06_translated.json 59 | JP=いま拡築したら、 / アイテム６０個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 60 / items~! /
+data/translate_chunks/chunk_06_translated.json 60 | JP=いま拡築したら、 / アイテム７０個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 70 / items~! /
+data/translate_chunks/chunk_06_translated.json 61 | JP=いま拡築したら、 / アイテム８０個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 80 / items~! /
+data/translate_chunks/chunk_06_translated.json 62 | JP=いま拡築したら、 / アイテム９０個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 90 / items~! /
+data/translate_chunks/chunk_06_translated.json 63 | JP=いま拡築したら、 / アイテム１００個まで / 置けるようになるど～  / | EN=Expand now and /you / can store up /to 100 / items~! /
+data/translate_chunks/chunk_06_translated.json 64 | JP=ごりゃ、オメェ  / 金がたりねえだろ  /   / | EN=Hey, you! /Ya don't / have /enough gold! /
+data/translate_chunks/chunk_06_translated.json 65 | JP=どこにオープン / させるべか？  /   / | EN=Where should we / /open it? /
+data/translate_chunks/chunk_06_translated.json 66 | JP=あこがれの支店が / とうとうできるのか～  /   / | EN=Our dream branch /is / finally here~! /
+data/translate_chunks/chunk_06_translated.json 67 | JP=いつでも買取できれば / 持ち士のかたづけが / ラクチンだよな  / | EN=If we can always / /buy stuff, managin' / /inventory's easy! /
+data/translate_chunks/chunk_06_translated.json 68 | JP=オメェの荷士をいつでも / 倉庫まで送ってやるだ  / 感謝しろよ～う  / | EN=I'll send yer /stuff / to storage /anytime! / Thank me! /
+data/translate_chunks/chunk_06_translated.json 69 | JP=いろんなイベントをすれば / お客さまにも / あきられねえべよ  / | EN=Hold various /events / and clients /won't / get bored! /
+data/translate_chunks/chunk_06_translated.json 70 | JP=いつでも休めたら / ボロボロになっても安心だ  / レベルはあがんねえけど  / | EN=Rest anytime, /even / when beat up! /No / levels tho. /
+data/translate_chunks/chunk_06_translated.json 71 | JP=支店がどんどん / ゴージャスになるだな  /   / | EN=The branch keeps / /gettin' fancier! /
+data/translate_chunks/chunk_06_translated.json 72 | JP=どこに物転させるべ？ /   /   / | EN=Where to /relocate? /  /
+data/translate_chunks/chunk_06_translated.json 73 | JP=物転して / 客足がのびると / ええだなあ  / | EN=Hope relocatin' / /brings in more / /customers! /
+data/translate_chunks/chunk_06_translated.json 74 | JP=どこを探索させるべ？ /   /   / | EN=Where to /explore? /  /
+data/translate_chunks/chunk_06_translated.json 75 | JP=探索に向かわせて / ええだか？ /   / | EN=Send 'em out /to / explore? /
+data/translate_chunks/chunk_06_translated.json 76 | JP=は い / | EN=Yes /
+data/translate_chunks/chunk_06_translated.json 77 | JP=いいえ / | EN=No /
+data/translate_chunks/chunk_06_translated.json 78 | JP=納品 / | EN=Deliver /
+data/translate_chunks/chunk_06_translated.json 79 | JP=引受 / | EN=Accept /
+data/translate_chunks/chunk_06_translated.json 80 | JP=やめておく / | EN=Cancel /
+data/translate_chunks/chunk_06_translated.json 81 | JP=納品し、このオーダーを / 退了しますか？ / | EN=Deliver and / /complete order? /
+data/translate_chunks/chunk_06_translated.json 82 | JP=このオーダーを / 引き受けますか？ / | EN=Accept this /order? /
+data/translate_chunks/chunk_06_translated.json 83 | JP=仲間にこのオーダーを / 紹棄しますか？ / | EN=Introduce this / /order to allies? /
+data/translate_chunks/chunk_06_translated.json 84 | JP=出す / | EN=Withdraw /
+data/translate_chunks/chunk_06_translated.json 85 | JP=買い取り / | EN=Buy /
+data/translate_chunks/chunk_06_translated.json 86 | JP=潜び替え / | EN=Swap /
+data/translate_chunks/chunk_06_translated.json 87 | JP=持てる / | EN=Carry /
+data/translate_chunks/chunk_06_translated.json 88 | JP=回復しますか？ / | EN=Identify? /
+data/translate_chunks/chunk_06_translated.json 89 | JP=殿使しますか？ / | EN=Uncurse? /
+data/translate_chunks/chunk_06_translated.json 90 | JP=使いが殿かれ抜け落った  / | EN=Curse removed! /
+data/translate_chunks/chunk_06_translated.json 91 | JP=使いが殿けたが崩れなかった  / | EN=Curse broken but / /item survived! /
+data/translate_chunks/chunk_06_translated.json 92 | JP=倉庫の拡築 / | EN=Expand Storage /
+data/translate_chunks/chunk_06_translated.json 93 | JP=支店の新増 / | EN=New Branch /
+data/translate_chunks/chunk_06_translated.json 94 | JP=支店の業種変更 / | EN=Change Services /
+data/translate_chunks/chunk_06_translated.json 95 | JP=支店の物転 / | EN=Relocate Branch /
+data/translate_chunks/chunk_06_translated.json 96 | JP=倉庫を拡築しますか？ / | EN=Expand storage? /
+data/translate_chunks/chunk_06_translated.json 97 | JP=支店を新増しますか？ / | EN=Open new branch? /
+data/translate_chunks/chunk_06_translated.json 98 | JP=業種を追加しますか？ / | EN=Add services? /
+data/translate_chunks/chunk_06_translated.json 99 | JP=物転しますか？ / | EN=Relocate? /
+data/translate_chunks/chunk_06_translated.json 100 | JP=雇息しますか？ / | EN=Hire? /
+data/translate_chunks/chunk_06_translated.json 102 | JP=所持金が不足しています / | EN=Not enough gold. /
+data/translate_chunks/chunk_06_translated.json 103 | JP=回復しました / | EN=Identified! /
+data/translate_chunks/chunk_06_translated.json 105 | JP=倉庫 / | EN=Storage /
+data/translate_chunks/chunk_06_translated.json 106 | JP=売却しますか？ / | EN=Sell? /
+data/translate_chunks/chunk_06_translated.json 107 | JP=売却しました / | EN=Sold! /
+data/translate_chunks/chunk_06_translated.json 108 | JP=ありがとだ  / | EN=Thanks! /
+data/translate_chunks/chunk_06_translated.json 109 | JP=装備していますが / 売却しますか？ / | EN=It's equipped. /Sell / anyway? /
+data/translate_chunks/chunk_06_translated.json 110 | JP=回復 / | EN=Identify /
+data/translate_chunks/chunk_06_translated.json 111 | JP=使いで外すことができません / | EN=Can't remove /due to / curse! /
+data/translate_chunks/chunk_06_translated.json 112 | JP=それはしょうたいが / よぐわかんねーから / １０gでしか買わねえ  / | EN=Dunno what this /is, / so I'll only /pay / 10g for it. /
+data/translate_chunks/chunk_06_translated.json 113 | JP=装備を外しますが / よろしいですか？ / | EN=Unequip it. /Is that / okay? /
+data/translate_chunks/chunk_06_translated.json 114 | JP=所持品がいっぱいです / | EN=Inventory full! /
+data/translate_chunks/chunk_06_translated.json 115 | JP=納品 / | EN=Deliver /
+data/translate_chunks/chunk_06_translated.json 116 | JP=紹棄 / | EN=Abandon /
+data/translate_chunks/chunk_06_translated.json 117 | JP=何もしない / | EN=Do Nothing /
+data/translate_chunks/chunk_06_translated.json 118 | JP=所持品 / | EN=Inventory /
+data/translate_chunks/chunk_06_translated.json 119 | JP=依頼人： / | EN=Client: /
+data/translate_chunks/chunk_06_translated.json 120 | JP=報酬： / | EN=Reward: /
+data/translate_chunks/chunk_06_translated.json 121 | JP=期日： / | EN=Deadline: /
+data/translate_chunks/chunk_06_translated.json 122 | JP=あと / | EN=Left: /
+data/translate_chunks/chunk_06_translated.json 124 | JP=商店レベルが足りません / | EN=Shop level too /low! /
+data/translate_chunks/chunk_06_translated.json 125 | JP=倉庫にアイテムがありません / | EN=No items in / /storage. /
+data/translate_chunks/chunk_06_translated.json 126 | JP=ニューイヤーバーゲン中 / | EN=New Year Sale! /
+data/translate_chunks/chunk_06_translated.json 127 | JP=ふゆのクリアランス中 / | EN=Winter Clearance! /
+data/translate_chunks/chunk_06_translated.json 128 | JP=フレッシュマンセール中 / | EN=Freshman Sale! /
+data/translate_chunks/chunk_06_translated.json 129 | JP=サマーバーゲン中 / | EN=Summer Bargain! /
+data/translate_chunks/chunk_06_translated.json 130 | JP=なつのホラースペシャル中 / | EN=Horror Special! /
+data/translate_chunks/chunk_06_translated.json 131 | JP=さい期大売出し中 / | EN=Grand Sale! /
+data/translate_chunks/chunk_06_translated.json 132 | JP=冒金事チャレンジフェア中 / | EN=Adventure Fair! /
+data/translate_chunks/chunk_06_translated.json 133 | JP=買取解除中 / | EN=Buyback Lifted! /
+data/translate_chunks/chunk_06_translated.json 134 | JP=冒金事息品買取解除中 / | EN=Adv. Goods /Buyback / Lifted! /
+data/translate_chunks/chunk_06_translated.json 135 | JP=使い装備品買取解除中 / | EN=Cursed Equip / /Buyback Lifted! /
+data/translate_chunks/chunk_06_translated.json 136 | JP=装備品買取解除中 / | EN=Equip Buyback / /Lifted! /
+data/translate_chunks/chunk_06_translated.json 137 | JP=自回復品買取解除中 / | EN=Recovery Item / /Buyback Lifted! /
+data/translate_chunks/chunk_06_translated.json 138 | JP=アイテム買取解除中 / | EN=Item Buyback / /Lifted! /
+data/translate_chunks/chunk_06_translated.json 139 | JP=引き受けるオーダーがありません / | EN=No orders to / /accept. /
+data/translate_chunks/chunk_06_translated.json 140 | JP=オーダーを引き受けていません / | EN=No orders /accepted. /
+data/translate_chunks/chunk_06_translated.json 141 | JP=b１ 支店 / | EN=B1 Branch /
+data/translate_chunks/chunk_06_translated.json 142 | JP=b２ 支店 / | EN=B2 Branch /
+data/translate_chunks/chunk_06_translated.json 143 | JP=b３ 支店 / | EN=B3 Branch /
+data/translate_chunks/chunk_06_translated.json 144 | JP=b４ 支店 / | EN=B4 Branch /
+data/translate_chunks/chunk_06_translated.json 145 | JP=b５ 支店 / | EN=B5 Branch /
+data/translate_chunks/chunk_06_translated.json 146 | JP=b６ 支店 / | EN=B6 Branch /
+data/translate_chunks/chunk_06_translated.json 147 | JP=b７ 支店 / | EN=B7 Branch /
+data/translate_chunks/chunk_06_translated.json 148 | JP=b８ 支店 / | EN=B8 Branch /
+data/translate_chunks/chunk_06_translated.json 149 | JP=b９ 支店 / | EN=B9 Branch /
+data/translate_chunks/chunk_06_translated.json 150 | JP=b１０ 支店 / | EN=B10 Branch /
+data/translate_chunks/chunk_06_translated.json 151 | JP=地装メニュー / | EN=Expansion Menu /
+data/translate_chunks/chunk_r36_translated.json 1 | JP=バブリースライム | EN=Bubbly Slime
+data/translate_chunks/chunk_r36_translated.json 2 | JP=ローグ | EN=Rogue
+data/translate_chunks/chunk_r36_translated.json 3 | JP=ゾンビ | EN=Zombie
+data/translate_chunks/chunk_r36_translated.json 4 | JP=ガスドラゴン | EN=Gas Dragon
+data/translate_chunks/chunk_r36_translated.json 5 | JP=オーガ | EN=Ogre
+data/translate_chunks/chunk_r36_translated.json 6 | JP=ピクシー | EN=Pixie
+data/translate_chunks/chunk_r36_translated.json 7 | JP=ボギーキャット | EN=Bogey Cat
+data/translate_chunks/chunk_r36_translated.json 8 | JP=ドラゴンフライ | EN=Dragon Fly
+data/translate_chunks/chunk_r36_translated.json 9 | JP=ロッティングコープス | EN=Rotting Corpse
+data/translate_chunks/chunk_r36_translated.json 10 | JP=ボーリングビートル | EN=Boring Beetle
+data/translate_chunks/chunk_r36_translated.json 11 | JP=オーク | EN=Orc
+data/translate_chunks/chunk_r36_translated.json 12 | JP=コボルド | EN=Kobold
+data/translate_chunks/chunk_r36_translated.json 13 | JP=アンデッドコボルド | EN=Undead Kobold
+data/translate_chunks/chunk_r36_translated.json 14 | JP=ジャイアントトード | EN=Giant Toad
+data/translate_chunks/chunk_r36_translated.json 15 | JP=ヒュージスパイダーa | EN=Huge Spider a
+data/translate_chunks/chunk_r36_translated.json 16 | JP=ヒュージスパイダーb | EN=Huge Spider B
+data/translate_chunks/chunk_r36_translated.json 17 | JP=ジャイアントスピナー | EN=Giant Spinner
+data/translate_chunks/chunk_r36_translated.json 18 | JP=ゲイズハウンド | EN=Gaze Hound
+data/translate_chunks/chunk_r36_translated.json 19 | JP=スピリット | EN=Spirit
+data/translate_chunks/chunk_r36_translated.json 20 | JP=ワイバーン | EN=Wyvern
+data/translate_chunks/chunk_r36_translated.json 21 | JP=シェイド | EN=Shade
+data/translate_chunks/chunk_r36_translated.json 22 | JP=アースジャイアント | EN=Earth Giant
+data/translate_chunks/chunk_r36_translated.json 23 | JP=ウィル・オ・ウィスプ | EN=Will-O-Wisp
+data/translate_chunks/chunk_r36_translated.json 24 | JP=ガーゴイル | EN=Gargoyle
+data/translate_chunks/chunk_r36_translated.json 25 | JP=キメラ | EN=Chimera
+data/translate_chunks/chunk_r36_translated.json 26 | JP=オーガロード | EN=Ogre Lord
+data/translate_chunks/chunk_r36_translated.json 27 | JP=ヴァンパイア | EN=Vampire
+data/translate_chunks/chunk_r36_translated.json 28 | JP=ドラゴンゾンビ | EN=Dragon Zombie
+data/translate_chunks/chunk_r36_translated.json 29 | JP=ファイアジャイアント | EN=Fire Giant
+data/translate_chunks/chunk_r36_translated.json 30 | JP=フロストジャイアント | EN=Frost Giant
+data/translate_chunks/chunk_r36_translated.json 31 | JP=ポイズンジャイアント | EN=Poison Giant
+data/translate_chunks/chunk_r36_translated.json 32 | JP=レッサーデーモン | EN=Lesser Demon
+data/translate_chunks/chunk_r36_translated.json 33 | JP=グレーターデーモン | EN=Greater Demon
+data/translate_chunks/chunk_r36_translated.json 34 | JP=ファイアドラゴン | EN=Fire Dragon
+data/translate_chunks/chunk_r36_translated.json 35 | JP=バイドパイパー | EN=Baid Piper
+data/translate_chunks/chunk_r36_translated.json 36 | JP=ヴァンパイアロード | EN=Vampire Lord
+data/translate_chunks/chunk_r36_translated.json 37 | JP=マイルフィック | EN=Maelific
+data/translate_chunks/chunk_r36_translated.json 38 | JP=バンシー | EN=Banshee
+data/translate_chunks/chunk_r36_translated.json 39 | JP=セラフ | EN=Seraph
+data/translate_chunks/chunk_r36_translated.json 40 | JP=アークエンジェル | EN=Archangel
+data/translate_chunks/chunk_r36_translated.json 41 | JP=デュラハン | EN=Dullahan
+data/translate_chunks/chunk_r36_translated.json 42 | JP=ケルベロス | EN=Cerberus
+data/translate_chunks/chunk_r36_translated.json 43 | JP=レイバーロード | EN=Labor Lord
+data/translate_chunks/chunk_r36_translated.json 44 | JP=ハーピー | EN=Harpy
+data/translate_chunks/chunk_r36_translated.json 45 | JP=メデューサリザード | EN=Medusa Lizard
+data/translate_chunks/chunk_r36_translated.json 46 | JP=プリーステス | EN=Priestess
+data/translate_chunks/chunk_r36_translated.json 47 | JP=ワーウルフ | EN=Werewolf
+data/translate_chunks/chunk_r36_translated.json 48 | JP=lv３ファイター | EN=Lv3 Fighter
+data/translate_chunks/chunk_r36_translated.json 49 | JP=lv１プリースト | EN=Lv1 Priest
+data/translate_chunks/chunk_r36_translated.json 50 | JP=lv１メイジ | EN=Lv1 Mage
+data/translate_chunks/chunk_r36_translated.json 51 | JP=lv３サムライ | EN=Lv3 Samurai
+data/translate_chunks/chunk_r36_translated.json 52 | JP=lv１ビショップ | EN=Lv1 Bishop
+data/translate_chunks/chunk_r36_translated.json 53 | JP=lv１ニンジャ | EN=Lv1 Ninja
+data/translate_chunks/chunk_r36_translated.json 54 | JP=ナインテール | EN=Nine Tails
+data/translate_chunks/chunk_r36_translated.json 55 | JP=インキュバス | EN=Incubus
+data/translate_chunks/chunk_r36_translated.json 56 | JP=フレッシュゴーレム | EN=Flesh Golem
+data/translate_chunks/chunk_r36_translated.json 57 | JP=ブシン | EN=Busin
+data/translate_chunks/chunk_r36_translated.json 58 | JP=ブッシュワッカーa | EN=Bushwhacker a
+data/translate_chunks/chunk_r36_translated.json 59 | JP=ハイウェイマン | EN=Highwayman
+data/translate_chunks/chunk_r36_translated.json 60 | JP=lv４シーフa | EN=Lv4 Thief a
+data/translate_chunks/chunk_r36_translated.json 61 | JP=マスターシーフa | EN=Master Thief a
+data/translate_chunks/chunk_r36_translated.json 62 | JP=ファントムシーフa | EN=Phantom Thief a
+data/translate_chunks/chunk_r36_translated.json 63 | JP=lv７ファイター | EN=Lv7 Fighter
+data/translate_chunks/chunk_r36_translated.json 64 | JP=lv８ファイター | EN=Lv8 Fighter
+data/translate_chunks/chunk_r36_translated.json 65 | JP=lv１０ファイター | EN=Lv10 Fighter
+data/translate_chunks/chunk_r36_translated.json 66 | JP=ソードマン | EN=Swordsman
+data/translate_chunks/chunk_r36_translated.json 67 | JP=バーサーカー | EN=Berserker
+data/translate_chunks/chunk_r36_translated.json 68 | JP=lv５メイジ | EN=Lv5 Mage
+data/translate_chunks/chunk_r36_translated.json 69 | JP=lv７メイジ | EN=Lv7 Mage
+data/translate_chunks/chunk_r36_translated.json 70 | JP=アークメイジ | EN=Archmage
+data/translate_chunks/chunk_r36_translated.json 71 | JP=lv１０メイジ | EN=Lv10 Mage
+data/translate_chunks/chunk_r36_translated.json 72 | JP=ハイウィザード | EN=High Wizard
+data/translate_chunks/chunk_r36_translated.json 73 | JP=ネクロマンサー | EN=Necromancer
+data/translate_chunks/chunk_r36_translated.json 74 | JP=lv３プリースト | EN=Lv3 Priest
+data/translate_chunks/chunk_r36_translated.json 75 | JP=lv５プリーステス | EN=Lv5 Priestess
+data/translate_chunks/chunk_r36_translated.json 76 | JP=lv８プリースト | EN=Lv8 Priest
+data/translate_chunks/chunk_r36_translated.json 77 | JP=ハイプリースト | EN=High Priest
+data/translate_chunks/chunk_r36_translated.json 78 | JP=マスタープリーステス | EN=Master Priestess
+data/translate_chunks/chunk_r36_translated.json 79 | JP=アークプリースト | EN=Arch Priest
+data/translate_chunks/chunk_r36_translated.json 80 | JP=lv８ビショップ | EN=Lv8 Bishop
+data/translate_chunks/chunk_r36_translated.json 81 | JP=lv１０ビショップ | EN=Lv10 Bishop
+data/translate_chunks/chunk_r36_translated.json 82 | JP=アークビショップ | EN=Archbishop
+data/translate_chunks/chunk_r36_translated.json 83 | JP=ブルードラゴン | EN=Blue Dragon
+data/translate_chunks/chunk_r36_translated.json 84 | JP=カッパードラゴン | EN=Copper Dragon
+data/translate_chunks/chunk_r36_translated.json 85 | JP=マイナーダイミョウ | EN=Minor Daimyo
+data/translate_chunks/chunk_r36_translated.json 86 | JP=メジャーダイミョウ | EN=Major Daimyo
+data/translate_chunks/chunk_r36_translated.json 87 | JP=チャンプサムライ | EN=Champ Samurai
+data/translate_chunks/chunk_r36_translated.json 88 | JP=ハタモト | EN=Hatamoto
+data/translate_chunks/chunk_r36_translated.json 89 | JP=ショウグン | EN=Shogun
+data/translate_chunks/chunk_r36_translated.json 90 | JP=ホワイトドラゴン | EN=White Dragon
+data/translate_chunks/chunk_r36_translated.json 91 | JP=ゴールドドラゴン | EN=Gold Dragon
+data/translate_chunks/chunk_r36_translated.json 92 | JP=スペルデーモン | EN=Spell Demon
+data/translate_chunks/chunk_r36_translated.json 93 | JP=エルダーデーモン | EN=Elder Demon
+data/translate_chunks/chunk_r36_translated.json 94 | JP=ゴースト | EN=Ghost
+data/translate_chunks/chunk_r36_translated.json 95 | JP=ライフスティーラー | EN=Life Stealer
+data/translate_chunks/chunk_r36_translated.json 96 | JP=デスブリンガー | EN=Death Bringer
+data/translate_chunks/chunk_r36_translated.json 98 | JP=エンジェル | EN=Angel
+data/translate_chunks/chunk_r36_translated.json 99 | JP=オークキング | EN=Orc King
+data/translate_chunks/chunk_r36_translated.json 100 | JP=レッドスライム | EN=Red Slime
+data/translate_chunks/chunk_r36_translated.json 101 | JP=シルバースライム | EN=Silver Slime
+data/translate_chunks/chunk_r36_translated.json 102 | JP=フェアリー | EN=Fairy
+data/translate_chunks/chunk_r36_translated.json 103 | JP=ストーンフライ | EN=Stone Fly
+data/translate_chunks/chunk_r36_translated.json 104 | JP=スパイラルビートル | EN=Spiral Beetle
+data/translate_chunks/chunk_r36_translated.json 105 | JP=lv３ニンジャ | EN=Lv3 Ninja
+data/translate_chunks/chunk_r36_translated.json 106 | JP=lv６ニンジャ | EN=Lv6 Ninja
+data/translate_chunks/chunk_r36_translated.json 107 | JP=lv８ニンジャ | EN=Lv8 Ninja
+data/translate_chunks/chunk_r36_translated.json 108 | JP=マスターニンジャ | EN=Master Ninja
+data/translate_chunks/chunk_r36_translated.json 109 | JP=ザ・ハイマスター | EN=The High Master
+data/translate_chunks/chunk_r36_translated.json 110 | JP=ハイニンジャ | EN=High Ninja
+data/translate_chunks/chunk_r36_translated.json 111 | JP=フウマニンジャ | EN=Fuma Ninja
+data/translate_chunks/chunk_r36_translated.json 112 | JP=開 神 | EN=Open God
+data/translate_chunks/chunk_r36_translated.json 113 | JP=lv１０シーフ | EN=Lv10 Thief
+data/translate_chunks/chunk_r36_translated.json 114 | JP=マスターシーフb | EN=Master Thief B
+data/translate_chunks/chunk_r36_translated.json 115 | JP=ブッシュワッカーb | EN=Bushwhacker B
+data/translate_chunks/chunk_r36_translated.json 116 | JP=lv４シーフb | EN=Lv4 Thief B
+data/translate_chunks/chunk_r36_translated.json 117 | JP=マスターシーフb | EN=Master Thief B
+data/translate_chunks/chunk_r36_translated.json 118 | JP=ファントムシーフb | EN=Phantom Thief B
+data/translate_chunks/chunk_r36_translated.json 119 | JP=lv１０シーフ | EN=Lv10 Thief
+data/translate_chunks/chunk_r36_translated.json 120 | JP=マスターシーフc | EN=Master Thief C
+data/translate_chunks/chunk_r36_translated.json 121 | JP=lv３ニンジャb | EN=Lv3 Ninja B
+data/translate_chunks/chunk_r36_translated.json 122 | JP=lv６ニンジャb | EN=Lv6 Ninja B
+data/translate_chunks/chunk_r36_translated.json 123 | JP=lv８ニンジャb | EN=Lv8 Ninja B
+data/translate_chunks/chunk_r36_translated.json 124 | JP=マスターニンジャb | EN=Master Ninja B
+data/translate_chunks/chunk_r36_translated.json 125 | JP=ザ・ハイマスターb | EN=The High Master B
+data/translate_chunks/chunk_r36_translated.json 126 | JP=ハイニンジャb | EN=High Ninja B
+data/translate_chunks/chunk_r36_translated.json 127 | JP=フウマニンジャb | EN=Fuma Ninja B
+data/translate_chunks/chunk_r36_translated.json 128 | JP=ダフネ | EN=Daphne
+data/translate_chunks/chunk_r36_translated.json 129 | JP=サキュバス | EN=Succubus
+data/translate_chunks/chunk_r36_translated.json 130 | JP=レプラコーン | EN=Leprechaun
+data/translate_chunks/chunk_r36_translated.json 131 | JP=スレイプニル | EN=Sleipnir
+data/translate_chunks/chunk_r36_translated.json 132 | JP=リッチ | EN=Lich
+data/translate_chunks/chunk_r36_translated.json 133 | JP=ストラス | EN=Stolas
+data/translate_chunks/chunk_r36_translated.json 134 | JP=ケンタウロス | EN=Centaur
+data/translate_chunks/chunk_r36_translated.json 135 | JP=アシラ | EN=Ashira
+data/translate_chunks/chunk_r36_translated.json 136 | JP=スケディム | EN=Shedim
+data/translate_chunks/chunk_r36_translated.json 137 | JP=マジキム | EN=Mazikim
+data/translate_chunks/chunk_r36_translated.json 138 | JP=イムプ | EN=Imp
+data/translate_chunks/chunk_r36_translated.json 139 | JP=アシラの子 | EN=Child of Ashira
+data/translate_chunks/chunk_r36_translated.json 140 | JP=強の壁 | EN=Strong Wall
+data/translate_chunks/chunk_r36_translated.json 141 | JP=アウローラ | EN=Aurora
+data/translate_chunks/chunk_r36_translated.json 142 | JP=オートマター | EN=Automaton
+data/translate_chunks/chunk_r36_translated.json 143 | JP=スケディム | EN=Shedim
+data/translate_chunks/chunk_r36_translated.json 144 | JP=アシラ | EN=Ashira
+data/translate_chunks/chunk_r36_translated.json 145 | JP=アシラ | EN=Ashira
+data/translate_chunks/chunk_r36_translated.json 146 | JP=アシラ | EN=Ashira
+data/translate_chunks/chunk_r36_translated.json 147 | JP=アシラ | EN=Ashira
+data/translate_chunks/chunk_r36_translated.json 148 | JP=アシラの子 | EN=Child of Ashira
+data/translate_chunks/chunk_r36_translated.json 149 | JP=アシラの子 | EN=Child of Ashira
+data/translate_chunks/chunk_r36_translated.json 150 | JP=アシラの子 | EN=Child of Ashira
+data/translate_chunks/chunk_r36_translated.json 151 | JP=アシラの子 | EN=Child of Ashira
+data/translate_chunks/chunk_r36_translated.json 152 | JP=フレッシュゴーレム | EN=Flesh Golem
+data/translate_chunks/chunk_r36_translated.json 153 | JP=フレッシュゴーレム | EN=Flesh Golem
+data/translate_chunks/chunk_r36_translated.json 154 | JP=チキンオーガ | EN=Chicken Ogre
+data/translate_chunks/chunk_r36_translated.json 155 | JP=スケディム・ゴースト | EN=Shedim Ghost
+data/translate_chunks/chunk_r36_translated.json 156 | JP=マジキム・ゴースト | EN=Mazikim Ghost
+data/translate_chunks/chunk_r36_translated.json 157 | JP=強の壁 | EN=Strong Wall
+data/translate_chunks/chunk_r39_sysmsgs_fix.json 90 | JP=呪いが解かれ抜け落ちた！ | EN=Curse lifted!
+data/translate_chunks/chunk_r39_sysmsgs_fix.json 91 | JP=対宝箱トラップのシールドをはりました | EN=Trap shield active!
+data/translate_chunks/chunk_r39_sysmsgs_fix.json 92 | JP=スタミナが回復・解除されました！ | EN=Stamina restored!
+data/translate_chunks/chunk_r39_sysmsgs_fix.json 93 | JP=パーティ全員の体がうき上がった！ | EN=The party floats!
+data/translate_chunks/chunk_r39_sysmsgs_fix.json 94 | JP=街に帰りますか？ | EN=To town?
+data/translate_chunks/chunk_r39_sysmsgs_fix.json 95 | JP=このフロアのスタートブロックに帰りますか？ | EN=Return to floor start?
+data/translate_chunks/chunk_r39_sysmsgs_fix.json 96 | JP=魔法を使うプレイヤーを選択してください | EN=Select spell caster

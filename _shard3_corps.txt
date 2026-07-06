@@ -1,0 +1,32 @@
+KEY=39:170 heishidan=False kishidan=False
+ JP=一復受壁、騎士が出現しなくなる
+ EN=Temporarily prevents random encounters.
+
+KEY=39:353 heishidan=True kishidan=False
+ JP=この依頼を受けてくださった方に
+報酬として、とちをおゆずりします。
+依頼[0x0319]王は受けてくださった方にのみ
+おはなしします。
+兵士団の方はごえんりょねがいます。
+ EN=As a reward for accepting this request,
+I will transfer a piece of land to you.
+Details will only be shared with those
+who accept.
+Knight Order members, please 
+
+KEY=39:360 heishidan=True kishidan=False
+ JP=兵士団では、[0x03c3][0x03ca]内に加入されている
+冒険者のレベルチェックを行っております。
+どのくらい迷宮・冒険についてよく
+知っているかといったテストです。
+御用がある方はまず依頼を受けてください。
+ EN=The Knight Order is conducting level checks
+on registered adventurers.
+This is a test of how well you know
+the labyrinth and adventuring.
+Interested parties, ac
+
+KEY=39:398 heishidan=True kishidan=False
+ JP=兵士団
+ EN=Knight Order
+

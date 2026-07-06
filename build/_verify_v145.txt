@@ -1,0 +1,34 @@
+Verifying: build/BUSIN0_EN_v145.iso
+  PASS: PACKDATA size = 840,144,896 bytes (801 MB)
+  PASS: R38 GRP 2 (STR stat) = 'STR/'
+  PASS: R38 GRP 3 (INT stat) = 'INT/'
+  FAIL: R38 GRP 25 (Male (M)) = '[672]/' (expected 'M')
+  FAIL: R38 GRP 26 (Female (F)) = '[673]/' (expected 'F')
+  PASS: R38 GRP 29 (Human race) = 'Human/'
+  PASS: R38 GRP 34 (Automata race) = 'Automa/'
+  PASS: EXE save slot = 'BUSIN 0'
+  PASS: R1272 font atlas = 67584 bytes (extended)
+
+=== Relocation-Integrity Gate ===
+  PASS: no file overlaps among 15 files
+  PASS: PACKDATA.DIG ends at LBA 426256 == next file 'BSN2_0.DSI' start
+  PASS: PVD vol_space 622562 sectors == actual ISO size
+  PASS: relocated 'BSN2_0.DSI' (LBA 426256, 30848 sectors) MD5==pristine
+  PASS: relocated 'IOPRP254.IMG' (LBA 457249, 130 sectors) MD5==pristine
+  PASS: relocated 'SYSTEM.CNF' (LBA 459423, 1 sectors) MD5==pristine
+  PASS: relocated 'TEMP1.LZH' (LBA 459424, 163138 sectors) MD5==pristine
+  PASS: relocated 'LIBSD.IRX' (LBA 457157, 14 sectors) MD5==pristine
+  PASS: relocated 'MCMAN.IRX' (LBA 457202, 47 sectors) MD5==pristine
+  PASS: relocated 'MCSERV.IRX' (LBA 457130, 4 sectors) MD5==pristine
+  PASS: relocated 'MODHSYN.IRX' (LBA 457172, 30 sectors) MD5==pristine
+  PASS: relocated 'MODMIDI.IRX' (LBA 457134, 11 sectors) MD5==pristine
+  PASS: relocated 'MODMSIN.IRX' (LBA 457171, 1 sectors) MD5==pristine
+  PASS: relocated 'MUS.IRX' (LBA 457145, 12 sectors) MD5==pristine
+  PASS: relocated 'PADMAN.IRX' (LBA 457104, 22 sectors) MD5==pristine
+  PASS: relocated 'SIO2MAN.IRX' (LBA 457126, 4 sectors) MD5==pristine
+  RELOCATION GATE: PASS (16 checks)
+
+  ISO hash (first 1MB): 7294ac1e0ecb9bd0efd6c6ae95efcafd
+
+  Results: 23 PASS, 2 FAIL
+  SOME CHECKS FAILED - ISO may be stale or corrupt

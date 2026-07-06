@@ -1,0 +1,882 @@
+{
+ "680": {
+  "kind": "mixed",
+  "dialogue": 2,
+  "big_runs": 77,
+  "total_mapped": 2032,
+  "fb_in_runs": 2,
+  "flen": 135168,
+  "samples": [
+   "  .bu. bu bu . .bu# . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . "
+  ]
+ },
+ "681": {
+  "kind": "mixed",
+  "dialogue": 4157,
+  "big_runs": 4157,
+  "total_mapped": 50439,
+  "fb_in_runs": 0,
+  "flen": 2269184,
+  "samples": [
+   "  . . . #        . . . . .       .       ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .    ",
+   " . . . .       "
+  ]
+ },
+ "683": {
+  "kind": "mixed",
+  "dialogue": 2029,
+  "big_runs": 2029,
+  "total_mapped": 28503,
+  "fb_in_runs": 0,
+  "flen": 700416,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . .        . . . . .       .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       . .     ",
+   " . . . .       . . . . ",
+   " . . . .       .  "
+  ]
+ },
+ "684": {
+  "kind": "mixed",
+  "dialogue": 91,
+  "big_runs": 91,
+  "total_mapped": 2677,
+  "fb_in_runs": 0,
+  "flen": 120832,
+  "samples": [
+   "  .bu. bu bu . pobu# . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ },
+ "685": {
+  "kind": "mixed",
+  "dialogue": 1,
+  "big_runs": 2132,
+  "total_mapped": 33075,
+  "fb_in_runs": 1,
+  "flen": 1042432,
+  "samples": [
+   "  .bu.   bu ",
+   "bu  . . . #        . . . . .       .       .       . . . . .       .       ",
+   " . . . . .       ",
+   " .       . . . . .       .   ",
+   " . . . .       ",
+   " . . . .       "
+  ]
+ },
+ "686": {
+  "kind": "mixed",
+  "dialogue": 81,
+  "big_runs": 81,
+  "total_mapped": 4838,
+  "fb_in_runs": 0,
+  "flen": 106496,
+  "samples": [
+   "  .bu. bu bu z .bu# . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ },
+ "687": {
+  "kind": "mixed",
+  "dialogue": 3359,
+  "big_runs": 3359,
+  "total_mapped": 56881,
+  "fb_in_runs": 0,
+  "flen": 1085440,
+  "samples": [
+   "  . . . #        . . . . .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .    ",
+   " . . . .       "
+  ]
+ },
+ "688": {
+  "kind": "mixed",
+  "dialogue": 90,
+  "big_runs": 90,
+  "total_mapped": 3506,
+  "fb_in_runs": 0,
+  "flen": 131072,
+  "samples": [
+   "  .bu. bu bu . .bu# . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ },
+ "689": {
+  "kind": "mixed",
+  "dialogue": 2370,
+  "big_runs": 2370,
+  "total_mapped": 32583,
+  "fb_in_runs": 0,
+  "flen": 923648,
+  "samples": [
+   "  .bu.   bu ",
+   "bu  . . . .        . . . . .       .       ",
+   " . . . .       ",
+   " . . . .       . ",
+   " . . . .       ",
+   " .       . . . . .       "
+  ]
+ },
+ "691": {
+  "kind": "mixed",
+  "dialogue": 2623,
+  "big_runs": 2623,
+  "total_mapped": 34923,
+  "fb_in_runs": 0,
+  "flen": 970752,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . #        . . . . .       ",
+   " .       . . . . .       .       .       . . . . .       .       .       . . . . .       .",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       . .     ",
+   " . . . .       . "
+  ]
+ },
+ "693": {
+  "kind": "mixed",
+  "dialogue": 2081,
+  "big_runs": 2081,
+  "total_mapped": 25021,
+  "fb_in_runs": 0,
+  "flen": 743424,
+  "samples": [
+   "  .bu.   bu ",
+   "bu  . . . .        . . . . .       .       ",
+   " . . . .       ",
+   " .       . . . . .       .       ",
+   " . . . .       ",
+   " .       . . . . .       .  "
+  ]
+ },
+ "694": {
+  "kind": "mixed",
+  "dialogue": 75,
+  "big_runs": 75,
+  "total_mapped": 3671,
+  "fb_in_runs": 0,
+  "flen": 51200,
+  "samples": [
+   "  . . bu bu . . # . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . "
+  ]
+ },
+ "695": {
+  "kind": "mixed",
+  "dialogue": 1522,
+  "big_runs": 1522,
+  "total_mapped": 30286,
+  "fb_in_runs": 0,
+  "flen": 479232,
+  "samples": [
+   "  .bu.   bu ",
+   "bu  # . . #        . . . . .       .       .       . . . . .       .       .       . . . .",
+   " . .       ",
+   " .       . . . . .       .       .       . . . . .       .       .       . . . . .       ",
+   " . . . .       .       .       . . . . .       . .     ",
+   " . . . .       . "
+  ]
+ },
+ "697": {
+  "kind": "mixed",
+  "dialogue": 2516,
+  "big_runs": 2516,
+  "total_mapped": 39151,
+  "fb_in_runs": 0,
+  "flen": 706560,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . #        . . . . .       .  ",
+   "   .       . . . . .       .       ",
+   " . . . .       .  ",
+   "   .       . . . . .       .  ",
+   " . . . .       .  "
+  ]
+ },
+ "698": {
+  "kind": "mixed",
+  "dialogue": 60,
+  "big_runs": 60,
+  "total_mapped": 2143,
+  "fb_in_runs": 0,
+  "flen": 124928,
+  "samples": [
+   "  .bu. bu bu g .bu# . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . "
+  ]
+ },
+ "699": {
+  "kind": "mixed",
+  "dialogue": 3228,
+  "big_runs": 3228,
+  "total_mapped": 39127,
+  "fb_in_runs": 0,
+  "flen": 1058816,
+  "samples": [
+   "  .bu.   bu ",
+   "bu  . . . #        . . . . .       .       .       . . . . .       .       ",
+   " . . . . .       ",
+   " .       . . . . .       .  ",
+   " .       . . . . .       ",
+   "# .       . . . . .       "
+  ]
+ },
+ "701": {
+  "kind": "mixed",
+  "dialogue": 2371,
+  "big_runs": 2371,
+  "total_mapped": 28593,
+  "fb_in_runs": 0,
+  "flen": 958464,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . # ",
+   "     . . . . .       ",
+   "     .       . . . . .       .       .       . . . . .       .       ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       "
+  ]
+ },
+ "703": {
+  "kind": "mixed",
+  "dialogue": 1588,
+  "big_runs": 1588,
+  "total_mapped": 21749,
+  "fb_in_runs": 0,
+  "flen": 571392,
+  "samples": [
+   "  .bu.   bu ",
+   "bu  . . . .        . . . . .       .       ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .    "
+  ]
+ },
+ "704": {
+  "kind": "mixed",
+  "dialogue": 100,
+  "big_runs": 100,
+  "total_mapped": 1467,
+  "fb_in_runs": 0,
+  "flen": 169984,
+  "samples": [
+   "  .#. bu bu . .## . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   .   .   ",
+   "   #  ~.       .   chi ",
+   "   . . / .    "
+  ]
+ },
+ "705": {
+  "kind": "mixed",
+  "dialogue": 1570,
+  "big_runs": 1570,
+  "total_mapped": 20836,
+  "fb_in_runs": 0,
+  "flen": 557056,
+  "samples": [
+   "  .bu.   bu ",
+   "bu  . . . .        . . . . .       .       ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .    "
+  ]
+ },
+ "706": {
+  "kind": "mixed",
+  "dialogue": 124,
+  "big_runs": 124,
+  "total_mapped": 1790,
+  "fb_in_runs": 0,
+  "flen": 169984,
+  "samples": [
+   "  .#. bu bu . .## . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   .   .   ",
+   "   #  ~.       .   chi ",
+   "   . . / .    "
+  ]
+ },
+ "707": {
+  "kind": "mixed",
+  "dialogue": 1632,
+  "big_runs": 1632,
+  "total_mapped": 21904,
+  "fb_in_runs": 0,
+  "flen": 618496,
+  "samples": [
+   "  .bu.   bu ",
+   "bu  . . . .        . . . . .       .       ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .    "
+  ]
+ },
+ "708": {
+  "kind": "mixed",
+  "dialogue": 121,
+  "big_runs": 121,
+  "total_mapped": 2400,
+  "fb_in_runs": 0,
+  "flen": 172032,
+  "samples": [
+   "  .#. bu bu . .## . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   .   .   ",
+   "   #  ~.       .   chi ",
+   "   . . / .    "
+  ]
+ },
+ "709": {
+  "kind": "mixed",
+  "dialogue": 2796,
+  "big_runs": 2796,
+  "total_mapped": 30203,
+  "fb_in_runs": 0,
+  "flen": 1521664,
+  "samples": [
+   "  . . . #        . . . . .       ",
+   " .       . . . . .       ",
+   " .       . . . . .       ",
+   "   .       . . . . .       ",
+   " .       . . . . .       ",
+   " .       . . . . .       "
+  ]
+ },
+ "711": {
+  "kind": "mixed",
+  "dialogue": 1758,
+  "big_runs": 1758,
+  "total_mapped": 23628,
+  "fb_in_runs": 0,
+  "flen": 847872,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . .        . . . . .       .  ",
+   " .       . . . . .       .  ",
+   " . . . .       ",
+   " . . . .       .  ",
+   " . . . .       "
+  ]
+ },
+ "713": {
+  "kind": "mixed",
+  "dialogue": 3665,
+  "big_runs": 3665,
+  "total_mapped": 50510,
+  "fb_in_runs": 0,
+  "flen": 1452032,
+  "samples": [
+   "  . . . #        . . . . .       .       .       . . . . .       .       .       . . . . .",
+   " .       . . . . .       .       .       . . . . .       .       .       . . . . .       .",
+   " .       . . . . .       .       .       . . . . .       ",
+   " .       . . . . .       .       .       . . . . .       .       .       . . . . .       .",
+   " .       . . . . .       ",
+   " .       . . . . .       .       .       . . . . .       .  "
+  ]
+ },
+ "714": {
+  "kind": "mixed",
+  "dialogue": 58,
+  "big_runs": 58,
+  "total_mapped": 1183,
+  "fb_in_runs": 0,
+  "flen": 124928,
+  "samples": [
+   "  .bu. bu bu . .bu# . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . "
+  ]
+ },
+ "716": {
+  "kind": "mixed",
+  "dialogue": 85,
+  "big_runs": 85,
+  "total_mapped": 3710,
+  "fb_in_runs": 0,
+  "flen": 100352,
+  "samples": [
+   "  .bu. bu bu . .bu# . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . "
+  ]
+ },
+ "717": {
+  "kind": "mixed",
+  "dialogue": 3418,
+  "big_runs": 3418,
+  "total_mapped": 43769,
+  "fb_in_runs": 0,
+  "flen": 1519616,
+  "samples": [
+   "  . . . #        . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .  ",
+   " . . . .       "
+  ]
+ },
+ "718": {
+  "kind": "mixed",
+  "dialogue": 92,
+  "big_runs": 92,
+  "total_mapped": 3741,
+  "fb_in_runs": 0,
+  "flen": 133120,
+  "samples": [
+   "  .bu. bu bu . .bu# . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . "
+  ]
+ },
+ "721": {
+  "kind": "mixed",
+  "dialogue": 1,
+  "big_runs": 4077,
+  "total_mapped": 51274,
+  "fb_in_runs": 1,
+  "flen": 2117632,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . #        . . . . .       .  ",
+   "   .       . . . . .       ",
+   "   .       . . . . .       ",
+   " .       . . . . .       ",
+   " .       . . . . .       "
+  ]
+ },
+ "723": {
+  "kind": "mixed",
+  "dialogue": 3458,
+  "big_runs": 3458,
+  "total_mapped": 59318,
+  "fb_in_runs": 0,
+  "flen": 1564672,
+  "samples": [
+   "  . . . .        . . . . .       .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       . .     .  ",
+   "   . . . . .       . .     ",
+   " . . . .       .       .       . . . . .       . .     ",
+   "# . . . .       "
+  ]
+ },
+ "724": {
+  "kind": "mixed",
+  "dialogue": 78,
+  "big_runs": 78,
+  "total_mapped": 1447,
+  "fb_in_runs": 0,
+  "flen": 120832,
+  "samples": [
+   "  .bu. bu bu . sabu# . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ },
+ "725": {
+  "kind": "mixed",
+  "dialogue": 1,
+  "big_runs": 2042,
+  "total_mapped": 25679,
+  "fb_in_runs": 1,
+  "flen": 931840,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . .        . . . . .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .    .#"
+  ]
+ },
+ "727": {
+  "kind": "mixed",
+  "dialogue": 2623,
+  "big_runs": 2623,
+  "total_mapped": 34923,
+  "fb_in_runs": 0,
+  "flen": 970752,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . #        . . . . .       ",
+   " .       . . . . .       .       .       . . . . .       .       .       . . . . .       .",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       . .     ",
+   " . . . .       . "
+  ]
+ },
+ "729": {
+  "kind": "mixed",
+  "dialogue": 2,
+  "big_runs": 4609,
+  "total_mapped": 68213,
+  "fb_in_runs": 2,
+  "flen": 2658304,
+  "samples": [
+   "  . . . #        . . . . .       .  ",
+   "   .       . . . . .       .       .       ",
+   " .       .    ",
+   " .       . . . . .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       "
+  ]
+ },
+ "730": {
+  "kind": "mixed",
+  "dialogue": 117,
+  "big_runs": 117,
+  "total_mapped": 1675,
+  "fb_in_runs": 0,
+  "flen": 149504,
+  "samples": [
+   "  .#. bu bu . .## . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . "
+  ]
+ },
+ "731": {
+  "kind": "mixed",
+  "dialogue": 3513,
+  "big_runs": 3513,
+  "total_mapped": 43892,
+  "fb_in_runs": 0,
+  "flen": 1611776,
+  "samples": [
+   "  . . . #        . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .  ",
+   " . . . .       "
+  ]
+ },
+ "732": {
+  "kind": "mixed",
+  "dialogue": 149,
+  "big_runs": 149,
+  "total_mapped": 5169,
+  "fb_in_runs": 0,
+  "flen": 133120,
+  "samples": [
+   "  .bu. bu bu . .bu# . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . "
+  ]
+ },
+ "733": {
+  "kind": "mixed",
+  "dialogue": 3513,
+  "big_runs": 3513,
+  "total_mapped": 44318,
+  "fb_in_runs": 0,
+  "flen": 1617920,
+  "samples": [
+   "  . . . #        . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .  ",
+   " . . . .       "
+  ]
+ },
+ "734": {
+  "kind": "mixed",
+  "dialogue": 2,
+  "big_runs": 108,
+  "total_mapped": 3909,
+  "fb_in_runs": 2,
+  "flen": 157696,
+  "samples": [
+   "  .#. bu bu . .## . .     #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . ",
+   "   #  ~.       .   . "
+  ]
+ },
+ "735": {
+  "kind": "mixed",
+  "dialogue": 2143,
+  "big_runs": 2143,
+  "total_mapped": 27627,
+  "fb_in_runs": 0,
+  "flen": 1523712,
+  "samples": [
+   "  . . . #        . . . . .       .       .       . . . . .       .#",
+   " .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .    ",
+   " . . . . .       "
+  ]
+ },
+ "737": {
+  "kind": "mixed",
+  "dialogue": 2680,
+  "big_runs": 2680,
+  "total_mapped": 42166,
+  "fb_in_runs": 0,
+  "flen": 1314816,
+  "samples": [
+   "  . . . .   ",
+   "   . . . . .       .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       . .     ",
+   " . . . .       . . . . ",
+   "#. . . . .       .       .       . . . . .       . .     .    "
+  ]
+ },
+ "738": {
+  "kind": "mixed",
+  "dialogue": 78,
+  "big_runs": 78,
+  "total_mapped": 2172,
+  "fb_in_runs": 0,
+  "flen": 122880,
+  "samples": [
+   "  .bu. bu bu . gibu# . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ },
+ "739": {
+  "kind": "mixed",
+  "dialogue": 1,
+  "big_runs": 4960,
+  "total_mapped": 67424,
+  "fb_in_runs": 1,
+  "flen": 2105344,
+  "samples": [
+   "  . . . #        . . . . .       .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . .       .       .    ",
+   " . . . .       "
+  ]
+ },
+ "745": {
+  "kind": "mixed",
+  "dialogue": 2,
+  "big_runs": 2624,
+  "total_mapped": 40771,
+  "fb_in_runs": 2,
+  "flen": 1275904,
+  "samples": [
+   "  . . . #        . . . . .       .       .       . . . . .       .       .       . . . . .",
+   " . . . .       .  ",
+   " . . . .       .       .       . . . . .       . .     ",
+   " . . . .       ",
+   " . . . .       .       .    .#",
+   " . . . .       "
+  ]
+ },
+ "749": {
+  "kind": "mixed",
+  "dialogue": 1,
+  "big_runs": 1881,
+  "total_mapped": 29376,
+  "fb_in_runs": 1,
+  "flen": 1368064,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . # ",
+   " . . . . .       .   chi chi .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       "
+  ]
+ },
+ "751": {
+  "kind": "mixed",
+  "dialogue": 2478,
+  "big_runs": 2478,
+  "total_mapped": 39633,
+  "fb_in_runs": 0,
+  "flen": 1292288,
+  "samples": [
+   "  .#.   bu ",
+   "me#  . . . .        . . . . .       .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .       .    "
+  ]
+ },
+ "752": {
+  "kind": "mixed",
+  "dialogue": 59,
+  "big_runs": 59,
+  "total_mapped": 1284,
+  "fb_in_runs": 0,
+  "flen": 96256,
+  "samples": [
+   "  .bu. bu bu . .bu# . .     #  ~.       .   . ",
+   "   .   .   ",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ },
+ "753": {
+  "kind": "mixed",
+  "dialogue": 3125,
+  "big_runs": 3125,
+  "total_mapped": 52171,
+  "fb_in_runs": 0,
+  "flen": 1468416,
+  "samples": [
+   "  .#.   bu ",
+   "#  . . . .        . . . . .       .       .  ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       ",
+   " . . . .       ",
+   " . . . .       .  "
+  ]
+ },
+ "754": {
+  "kind": "mixed",
+  "dialogue": 2,
+  "big_runs": 202,
+  "total_mapped": 4633,
+  "fb_in_runs": 2,
+  "flen": 129024,
+  "samples": [
+   "  .bu. bu bu . gibu# . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ },
+ "755": {
+  "kind": "mixed",
+  "dialogue": 3059,
+  "big_runs": 3059,
+  "total_mapped": 48619,
+  "fb_in_runs": 0,
+  "flen": 1896448,
+  "samples": [
+   "  . . . .        . . . . .       .       .       . . . . .       .    ",
+   " . . . .       ",
+   " . . . .       .       .       . . . . .       . .     ",
+   " . . . .       . . .   ",
+   " .       .       .       . . . . .       .#.     ",
+   " . . . .       "
+  ]
+ },
+ "756": {
+  "kind": "mixed",
+  "dialogue": 97,
+  "big_runs": 97,
+  "total_mapped": 2334,
+  "fb_in_runs": 0,
+  "flen": 124928,
+  "samples": [
+   "  .bu. bu bu . mabu# . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ },
+ "759": {
+  "kind": "mixed",
+  "dialogue": 3137,
+  "big_runs": 3137,
+  "total_mapped": 46014,
+  "fb_in_runs": 0,
+  "flen": 1122304,
+  "samples": [
+   "  . . . .        . . . . .       .       .       . . . . .       ",
+   " . . . .       .       ",
+   " . . . .       ",
+   " .       . . . . .       ",
+   " .       . . . . .       ",
+   " .       . . . . .       "
+  ]
+ },
+ "760": {
+  "kind": "mixed",
+  "dialogue": 110,
+  "big_runs": 110,
+  "total_mapped": 2962,
+  "fb_in_runs": 0,
+  "flen": 143360,
+  "samples": [
+   "  .#. bu bu . ~## . .     #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi",
+   "   #  ~.       .   . ",
+   "   . . / .   chi"
+  ]
+ }
+}

@@ -1,0 +1,69 @@
+=== data/type2_translated/batch_gap989.json ===
+RES=989 MI=-1
+  JP:
+  EN:[NO DIALOGUE] Dungeon map/event data resource
+RES=990 MI=-1
+  JP:
+  EN:[NO DIALOGUE] Dungeon map/event data resource
+RES=1034 MI=-1
+  JP:
+  EN:[NO DIALOGUE] Dungeon map/event data resource
+
+=== data/type2_translated/batch_r1168_1173.json ===
+RES=1168 MI=None
+  JP:
+  EN:
+RES=1169 MI=None
+  JP:
+  EN:
+RES=1170 MI=None
+  JP:
+  EN:
+RES=1171 MI=None
+  JP:
+  EN:
+RES=1172 MI=None
+  JP:
+  EN:
+RES=1173 MI=None
+  JP:
+  EN:
+
+=== data/translate_chunks/chunk_r38_fix.json ===
+RES=38 MI=2
+  JP:力
+  EN:STR / 
+RES=38 MI=25
+  JP:男
+  EN:♂ / 
+RES=38 MI=26
+  JP:女
+  EN:♀ / 
+RES=38 MI=35
+  JP: 
+  EN:  / 
+RES=38 MI=36
+  JP: 
+  EN:  / 
+RES=38 MI=42
+  JP:侍
+  EN:Samurai / 
+RES=38 MI=54
+  JP:武
+  EN:Coward / 
+RES=38 MI=151
+  JP:善
+  EN:Good / 
+RES=38 MI=153
+  JP:悪
+  EN:Evil / 
+RES=38 MI=154
+  JP:g
+  EN:G / 
+RES=38 MI=155
+  JP:n
+  EN:N / 
+RES=38 MI=156
+  JP:e
+  EN:E / 
+

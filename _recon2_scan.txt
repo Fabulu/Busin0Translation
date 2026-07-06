@@ -1,0 +1,12 @@
+entries with line breaks: 10629
+multi-line (>=2 drawn lines): 10629
+multi-line with UNEQUAL ink line lengths (ragged-center risk): 10322
+samples (res,msg,ink_counts):
+  (1196, 0, [16, 14, 16, 12])
+  (1196, 1, [16, 14, 15, 12])
+  (1196, 2, [11, 16, 12, 10])
+  (1196, 3, [14, 11, 16, 8])
+  (1196, 4, [18, 17, 16])
+  (1196, 5, [15, 17, 14, 7])
+  (1196, 6, [17, 12, 6])
+  (1196, 8, [16, 8])

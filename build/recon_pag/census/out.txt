@@ -1,0 +1,1220 @@
+  Warning: data/type2_translated\batch_md_import.json: 'msg_index'
+Type-02 resources scanned: 31   walk-failed: 4 [35, 989, 990, 1034]
+Total overflowing groups (any page >4 lines): 1497
+
+By class: {'UNKNOWN': 99, 'DIALOGUE': 319, 'NARRATION': 1079}
+  DIALOGUE (need fix): 319
+  NARRATION (must NOT touch): 1079
+  UNKNOWN: 99
+  of dialogue: JP group already has 0xFFD2: 1
+
+=== WORST OFFENDERS (top 25 by worst-page line count) ===
+  R1194 g0: pages=[64] worst=64 [DIALOGUE] jp_pb=False label_grp=True walk_ok=True
+  R1355 g41: pages=[24] worst=24 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1355 g42: pages=[21] worst=21 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1355 g54: pages=[18] worst=18 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1355 g39: pages=[14] worst=14 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1355 g53: pages=[14] worst=14 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1205 g694: pages=[11] worst=11 [DIALOGUE] jp_pb=False label_grp=True walk_ok=True
+  R1205 g698: pages=[10] worst=10 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R35 g29: pages=[9] worst=9 [UNKNOWN] jp_pb=False label_grp=False walk_ok=False
+  R1196 g59: pages=[9] worst=9 [NARRATION] jp_pb=True label_grp=False walk_ok=True
+  R1200 g88: pages=[9] worst=9 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1200 g194: pages=[9] worst=9 [UNKNOWN] jp_pb=False label_grp=False walk_ok=True
+  R1203 g1096: pages=[9] worst=9 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1205 g334: pages=[9] worst=9 [NARRATION] jp_pb=True label_grp=False walk_ok=True
+  R1205 g336: pages=[9] worst=9 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1205 g695: pages=[9] worst=9 [DIALOGUE] jp_pb=False label_grp=False walk_ok=True
+  R1205 g763: pages=[9] worst=9 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1205 g884: pages=[9] worst=9 [DIALOGUE] jp_pb=False label_grp=False walk_ok=True
+  R1210 g101: pages=[9] worst=9 [DIALOGUE] jp_pb=False label_grp=True walk_ok=True
+  R1212 g722: pages=[9] worst=9 [UNKNOWN] jp_pb=False label_grp=False walk_ok=True
+  R1355 g7: pages=[9] worst=9 [DIALOGUE] jp_pb=False label_grp=True walk_ok=True
+  R1355 g17: pages=[9] worst=9 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1355 g27: pages=[9] worst=9 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R1355 g51: pages=[9] worst=9 [NARRATION] jp_pb=False label_grp=False walk_ok=True
+  R35 g30: pages=[8] worst=8 [UNKNOWN] jp_pb=False label_grp=False walk_ok=False
+
+=== UNKNOWN / ambiguous groups (full list) ===
+  R35 g7: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=False EN='Saving data... / Do not turn off power / or remove memory card.'
+  R35 g9: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=False EN='Memory card (PS2) in / slot 1 is unformatted. / Format it?'
+  R35 g12: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=False EN='Not enough free space. / Busin 0 data requires / at least 295KB per sl'
+  R35 g19: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=False EN='Loading data... / Do not turn off power / or remove memory card.'
+  R35 g27: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=False EN='Memory card in slot 1 / has been swapped. / Suspend save anyway?'
+  R35 g28: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=False EN='Not enough free space. / Suspend save requires / at least 550KB.'
+  R35 g29: pages=[9] worst=9 jp_pb=False label_grp=False walk_ok=False EN='No memory card (PS2) / in slot 1. Saving / needs 295KB per slot. / Sus'
+  R35 g30: pages=[8] worst=8 jp_pb=False label_grp=False walk_ok=False EN='Memory card in slot 1 / lacks free space. / Save needs 295KB, / suspen'
+  R1200 g130: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Before explaining / the task from the / tavern, I need you / to hear t'
+  R1200 g135: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Because of this, / Salem Temple, / which should be / revered, is treat'
+  R1200 g139: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='The priest, having / noticed the signal, / crept along the / temple wa'
+  R1200 g140: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Ah, the actors are / here. You called me, / so the roles and / gold ar'
+  R1200 g145: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="Oh, not ready yet? / Well, if the / preparations aren't / done, it can"
+  R1200 g157: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='"If they\'re dead, / resurrection is / the only way." / "But it costs a'
+  R1200 g159: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Why did this / adventurer come / here instead of / using herbs or magi'
+  R1200 g161: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Herbs and magic / have side effects. / If resurrection / fails, the re'
+  R1200 g164: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Come, suffering / adventurer. Offer / your gold to Salem / Temple for '
+  R1200 g170: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='You gently laid / the body on the / bed, but it slipped / and hit the '
+  R1200 g171: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN="'A corpse doesn't / move like a living / person!' The priest / positio"
+  R1200 g172: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='You carefully / carried the body / and set it on the / bed. The audien'
+  R1200 g173: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN="You placed the / body on the bed's / footrest. The / audience was not "
+  R1200 g174: pages=[8] worst=8 jp_pb=False label_grp=False walk_ok=True EN="'Now now, I know / the leader's death / upsets you, but / please compo"
+  R1200 g175: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='"Brave adventurers / risk their lives / so we may live / in peace." Th'
+  R1200 g176: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="It wasn't stated / explicitly, but you / understood it was / the signa"
+  R1200 g178: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="Following the / priest's signal, you / shifted the body / slightly and"
+  R1200 g179: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='To express deeper / grief, you lay next / to the leader / as if sharin'
+  R1200 g180: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='Silence filled the / temple. Though the / priest and crowd / watched, '
+  R1200 g181: pages=[8] worst=8 jp_pb=False label_grp=False walk_ok=True EN='Everyone stared / with mixed feelings. / The priest was / still prayin'
+  R1200 g182: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='To express deeper / grief, you clung / to the body and / wailed loudly'
+  R1200 g183: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='"That\'s too much!" / "Too dependent on / the leader!" / "Sounds like a'
+  R1200 g184: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="Per the scenario, / you held the / leader's hand / and shed quiet / te"
+  R1200 g185: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="'Let us begin.' / The priest opened / his eyes and / removed the cloth"
+  R1200 g186: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="Soon after the / priest's signal, the / pipe organ played / a sorrowfu"
+  R1200 g187: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='The priest placed / his hand above the / body and began / chanting the'
+  R1200 g189: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='The praying crowd / was reciting the / same prayer. You / joined them,'
+  R1200 g190: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='Inspired by the / organ, you composed / an original song / for your le'
+  R1200 g191: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN="O Leader, / Leader please / we beg you / please come back / don't aban"
+  R1200 g192: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='Listening to the / organ, your body / began to move / to the rhythm, /'
+  R1200 g193: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='A dance of prayer / for resurrection. / The crowd watched / in stunned'
+  R1200 g194: pages=[9] worst=9 jp_pb=False label_grp=False walk_ok=True EN="As the organ's / melody neared its / end, you gripped / the leader's h"
+  R1200 g195: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Opening your eyes, / a divine golden / aura was emerging / from the pr'
+  R1200 g200: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='Upon waking, you / saw your companion / holding your hand. / You shook'
+  R1200 g201: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='"They died, got / resurrected, and / THAT\'s how they / act?!" "I\'d bea'
+  R1200 g202: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="'It's not like / that! They just / woke up confused!' / The priest cri"
+  R1200 g203: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="'It's not like / that! She just / woke up confused!' / The priest crie"
+  R1200 g204: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='Though conscious, / you pretended to / still be dead. The / crowd bega'
+  R1200 g205: pages=[8] worst=8 jp_pb=False label_grp=False walk_ok=True EN="'Did it fail?!' / 'But failed revivals / turn to ash!' / 'Temples are "
+  R1200 g206: pages=[8] worst=8 jp_pb=False label_grp=False walk_ok=True EN="Fouquet hurriedly / covered. 'No, this / is normal! Like / when you ha"
+  R1200 g207: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='The priest checked / your pulse and / confirmed success, / then calmly'
+  R1200 g208: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='Upon waking, you / felt your companion / holding your hand. / You gent'
+  R1200 g209: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='You slowly opened / your eyes. The / divine light was / blinding. You '
+  R1200 g210: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="Gradually your / vision cleared. / Your companion's / face was still /"
+  R1200 g212: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="'Lucky leader, / good companions!' / 'I want friends / like that!' / '"
+  R1200 g213: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='By the time you / rose, most onlookers / were already / leaving.'
+  R1200 g214: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="'Well, glad they / survived.' 'After / paying that much, / of course.'"
+  R1200 g216: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="'Coming all the / way here for this? / Not worth it!' / 'Temples are j"
+  R1200 g219: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Fouquet: His / expression was / gentle and his tone / soft as he thank'
+  R1200 g232: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="Since the acting / deviated from my / scenario, the / public's respons"
+  R1200 g233: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="Well, one must / accept the outcome. / I'm also to blame / for not tes"
+  R1200 g244: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='You completely / ignored my scenario / and ruined it / with your carel'
+  R1200 g250: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='How long will you / stay?! Get out! / Never set foot / in this temple '
+  R1203 g689: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Due to public / safety concerns, / adventurer entry / is prohibited. /'
+  R1204 g167: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Then show proof! / Hand over a / Cursed Armor / from a slain / orc!'
+  R1204 g168: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Then Janken Man / himself shall / grant you a / prize-filled / match!'
+  R1204 g373: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="It's our only / branch. I hired / an escort and / came all the / way h"
+  R1204 g377: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Well, heading / back. Getting / home with a / Return Scroll / is easy!'
+  R1205 g363: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Lucy: You / visited the / Vigger Shop / branch for the / first time.'
+  R1205 g364: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='What was once / an empty room / in the labyrinth / now looked like / a'
+  R1205 g367: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Lucy noticed / you and waved, / then came over / from behind / the cou'
+  R1205 g369: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="It's our only / branch, so I / hired a guard / and came all / the way "
+  R1205 g370: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="It was a big / deal, but it / was worth the / trip. I'm / quite moved!"
+  R1205 g371: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="We could grow / this shop so / much thanks / to you. I'm / truly grate"
+  R1205 g373: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='Well, I should / head back to / the city. / The return / medicine / ma'
+  R1205 g376: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Lucy waved, / pulled a / medicine vial / from her bag, / and drank it.'
+  R1208 g170: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Lucy noticed you, / stepped out from the / counter and walked over.'
+  R1208 g172: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='"It\'s our only branch / store. I hired an / adventurer to escort"'
+  R1208 g177: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='"I wish someone / would build a portal / for the branch store!"'
+  R1208 g798: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='A hair-raising / murderous energy swirled / as fierce shouts echoed.'
+  R1208 g800: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='It was a fierce battle, / but the woman was clearly / outmatched by th'
+  R1208 g801: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="One of the warrior's / blows glanced off / the woman's shoulder."
+  R1208 g807: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="The woman tried to / fight off the blades, / but couldn't hold out."
+  R1208 g817: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="Oh! Could it be / you're running errands / for that person again?"
+  R1208 g824: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='The woman in samurai / armor and an Order / member were fighting.'
+  R1208 g827: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='Aoi swiftly drew / her sword and struck / at the Order member.'
+  R1209 g168: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='In the haze between waking and dreaming, you could see the shadow of a'
+  R1209 g169: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN="Without time to judge whether it was a dream or reality, the monster's"
+  R1209 g170: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='After the battle with the orc, as you were catching your breath, the s'
+  R1209 g178: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN='What once had been just another room in the labyrinth was now decorate'
+  R1209 g183: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='This is my first store front. I even went to the trouble of registerin'
+  R1209 g185: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="It's thanks to you that we've been able to expand so much. I really ap"
+  R1209 g187: pages=[6] worst=6 jp_pb=False label_grp=False walk_ok=True EN="Well, I better return to the city now. It's much easier to go home bec"
+  R1209 g188: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='I wish someone would invent medicine that lets you teleport to store f'
+  R1209 g190: pages=[7] worst=7 jp_pb=False label_grp=False walk_ok=True EN='Lucy once again waved to you, then took a bottle of Return Medicine ou'
+  R1210 g226: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="Well, I'd better / head back. The / return trip is / easy with a / war"
+  R1210 g712: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='After slaying it, / Pippi came / running with / tears in her / eyes.'
+  R1210 g719: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='The stench of / blood. Bodies and / monster remains / were scattered /'
+  R1210 g739: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN='but if given one / more chance, I / want to land one / blow before I /'
+  R1211 g71: pages=[5] worst=5 jp_pb=False label_grp=False walk_ok=True EN="Well, I'd better / head back. The / return trip is / easy with a / war"
+  R1212 g722: pages=[9] worst=9 jp_pb=False label_grp=False walk_ok=True EN='Everything fades / Death / Demon cries / Crawlers / Screams / All gone'
+
+=== NARRATION overflowing groups (must NOT paginate) full list ===
+  R1355 g41: pages=[24] worst=24 jp_pb=False EN='Female: This time we went / to the sixth floor, but / there was no tra'
+  R1355 g42: pages=[21] worst=21 jp_pb=False EN="Soldier D: Was it Aurora? / Female: I don't think so. / It was somethi"
+  R1355 g54: pages=[18] worst=18 jp_pb=False EN='Aoi: My dream is to / sleep in a place where / no one will disturb me.'
+  R1355 g39: pages=[14] worst=14 jp_pb=False EN="Soldier A: Hey! / She has returned! / Soldier B: How are they? / She's"
+  R1355 g53: pages=[14] worst=14 jp_pb=False EN='Soldier C: Well then, / we will escort you / to the inn. / Aoi: On wat'
+  R1205 g698: pages=[10] worst=10 jp_pb=False EN='I read / companion / dolls using / alchemy. / I make a / living / obse'
+  R1196 g59: pages=[9] worst=9 jp_pb=True EN="Girl A: They won't / give us a sword!\nGirl B: The guide / says they're"
+  R1200 g88: pages=[9] worst=9 jp_pb=False EN='The adventurer / opens their eyes / to divine light. / Their companion'
+  R1203 g1096: pages=[9] worst=9 jp_pb=False EN="Ingo: Why do I / have to babysit / newbies?! / Soldier: That's not / m"
+  R1205 g334: pages=[9] worst=9 jp_pb=True EN='Orc F: "Why do / we have to pull / up our pants / in unison / every ba'
+  R1205 g336: pages=[9] worst=9 jp_pb=False EN='Orc F: "Hmm, / is that so. / But don\'t you / think it lacks / style?" '
+  R1205 g763: pages=[9] worst=9 jp_pb=False EN='Melanie: "S- / Stop it, / you\'re / embarrassing / me! People / will co'
+  R1355 g17: pages=[9] worst=9 jp_pb=False EN='Knight: Acts of valor / in the labyrinth are noted, / but never forget'
+  R1355 g27: pages=[9] worst=9 jp_pb=False EN='Knight: The King himself / watches over the work of / the adventurers.'
+  R1355 g51: pages=[9] worst=9 jp_pb=False EN="Aoi: I've seen many / such people. Fame and / treasure they may have f"
+  R1196 g61: pages=[8] worst=8 jp_pb=True EN="Girl A: That's why / we're thinking!\nGirl B: I have / no ideas!\nGirl A"
+  R1196 g63: pages=[8] worst=8 jp_pb=True EN="Girl A: Trust me! / The tavern's full of / adventurers!\nGirl B: Let's "
+  R1196 g66: pages=[8] worst=8 jp_pb=True EN="Girl A: It's so / pretty! I want to / keep it!\nGirl B: No! We'll have "
+  R1200 g86: pages=[8] worst=8 jp_pb=False EN='A pipe organ plays / a sad melody. The / choir sings a hymn / of requi'
+  R1200 g87: pages=[8] worst=8 jp_pb=False EN="A divine aura / emerges from the / priest's hand and / slowly descends"
+  R1201 g66: pages=[8] worst=8 jp_pb=False EN='Girl A: A new / person came! / Girl B: What are / they like? Nice? / G'
+  R1201 g96: pages=[8] worst=8 jp_pb=False EN="Clerk: Sir, I said / you can't! / Warrior: Why not?! / Clerk: You can'"
+  R1203 g1008: pages=[8] worst=8 jp_pb=False EN="Soldier A: She's / back! Unscathed! / Soldier B: How'd / it go? / Sold"
+  R1203 g1011: pages=[8] worst=8 jp_pb=False EN='Woman: Went to / floor 6, no sign / of Aurora. / Soldier C: No / leads'
+  R1203 g1022: pages=[8] worst=8 jp_pb=False EN="Aoi: My wish is / to sleep without / being disturbed. / Soldier C: We'"
+  R1203 g1095: pages=[8] worst=8 jp_pb=False EN="Soldier: Where to? / Ingo: I'm done! / Quota met! / Soldier: But the /"
+  R1204 g129: pages=[8] worst=8 jp_pb=False EN='Monster A: Please? / Monster B: Hmm... / Monster A: I need / it for Le'
+  R1204 g130: pages=[8] worst=8 jp_pb=False EN="Monster B: Fine, / I'll give you my / spare. / Monster A: Yay! / Monst"
+  R1204 g295: pages=[8] worst=8 jp_pb=True EN='Belgradno: Was / this the witch? / Soldier: Please / calm down, sir. /'
+  R1204 g332: pages=[8] worst=8 jp_pb=False EN='Orc B: How / should I know?! / Orc A: Will we / get eaten too? / Orc B'
+  R1205 g21: pages=[8] worst=8 jp_pb=False EN='Orc C: We smash / stuff up good~! / Orc A: Cool / city demo crew~! / O'
+  R1205 g85: pages=[8] worst=8 jp_pb=False EN='He was unafraid / of anything. / With his sword, / he vanquished / all'
+  R1205 g184: pages=[8] worst=8 jp_pb=False EN="Phew, I feel / better now. / I won't be / scolded by / Guillaume- / se"
+  R1205 g263: pages=[8] worst=8 jp_pb=False EN='The life force / of the Writhing / Demons is so / great that they / re'
+  R1205 g288: pages=[8] worst=8 jp_pb=False EN="Formerly known / as Duhan's / shadow corps, / once feared / by kings a"
+  R1205 g479: pages=[8] worst=8 jp_pb=False EN='Good to have / talent! You / can make / anything into / armor! But / m'
+  R1205 g710: pages=[8] worst=8 jp_pb=False EN='According to / records, a / doll needs / 1188000 / experience to / dev'
+  R1205 g715: pages=[8] worst=8 jp_pb=False EN='According to / records, a / doll needs / 1188000 / experience to / dev'
+  R1205 g720: pages=[8] worst=8 jp_pb=False EN='According to / records, a / doll needs / 1188000 / experience to / dev'
+  R1205 g725: pages=[8] worst=8 jp_pb=False EN='According to / records, a / doll needs / 1188000 / experience to / dev'
+  R1205 g730: pages=[8] worst=8 jp_pb=False EN='According to / records, a / doll needs / 1188000 / experience to / dev'
+  R1205 g735: pages=[8] worst=8 jp_pb=False EN='According to / records, a / doll needs / 1188000 / experience to / dev'
+  R1205 g743: pages=[8] worst=8 jp_pb=False EN="I study / ancient elven / alchemy. / I'm currently / researching / anc"
+  R1205 g840: pages=[8] worst=8 jp_pb=False EN='Then come / with us! / We need / magic sword / synthesis / during our '
+  R1208 g108: pages=[8] worst=8 jp_pb=True EN='Girl A: "Wandering / alone here is / insane! I refuse!" / Girl B: "The'
+  R1209 g100: pages=[8] worst=8 jp_pb=False EN='If I succeed in resurrecting the black spirit and bringing back the Wa'
+  R1209 g111: pages=[8] worst=8 jp_pb=False EN='Whether this is the day when my family will be rewarded for their unti'
+  R1209 g286: pages=[8] worst=8 jp_pb=False EN="Good for you, having talent. I don't have any fighting equipment, so I"
+  R1209 g415: pages=[8] worst=8 jp_pb=False EN='Well, the Member Number Lottery is a lottery where you draw a number, '
+  R1209 g423: pages=[8] worst=8 jp_pb=False EN='Well, the Member Number Lottery is a lottery where you draw a number, '
+  R1355 g0: pages=[8] worst=8 jp_pb=False EN='Passing through a corridor / thought to be carved from / ancient stone'
+  R1355 g18: pages=[8] worst=8 jp_pb=False EN='Knight: Any items obtained / in the labyrinth are / recognized as the '
+  R1355 g19: pages=[8] worst=8 jp_pb=False EN='Knight: Also, while slaying / monsters is the primary / mission, the u'
+  R1355 g22: pages=[8] worst=8 jp_pb=False EN='Knight: The reason is that / many adventurers, including / knights of '
+  R1196 g10: pages=[7] worst=7 jp_pb=False EN='  For all your items\n                Vigger Shop\n   30 years of truste'
+  R1196 g60: pages=[7] worst=7 jp_pb=True EN="Girl A: Why blame me? / You just sit there!\nGirl B: I didn't say / tha"
+  R1196 g62: pages=[7] worst=7 jp_pb=True EN='Girl A: No, a quest! / Q-U-E-S-T!\nGirl B: A quest!?\nGirl A: Request / '
+  R1196 g68: pages=[7] worst=7 jp_pb=True EN="Girl B: Let's go to / the Guild!\nGirl A: Again?\nGirl B: Of course! / Y"
+  R1199 g105: pages=[7] worst=7 jp_pb=False EN='Pixie: Hey, hey! / I want a magic stone / with Kreta! / Clerk: K-Kreta'
+  R1200 g85: pages=[7] worst=7 jp_pb=False EN='A bed holds a man. / He is the leader / of an adventuring / party. His'
+  R1201 g90: pages=[7] worst=7 jp_pb=False EN="Girl A: Hey, / Emilia, let's go! / Girl B: Yeah, they / might notice. "
+  R1201 g97: pages=[7] worst=7 jp_pb=False EN="Warrior: Ortrud's / soldiers are like / grandchildren! / Clerk: I see."
+  R1201 g163: pages=[7] worst=7 jp_pb=False EN='It is one of my / prized possessions. / But now that I / have this new'
+  R1203 g451: pages=[7] worst=7 jp_pb=False EN='Product List: / Healing Potion 300g / Return Potion 300g / Antidote 30'
+  R1203 g1012: pages=[7] worst=7 jp_pb=False EN='Soldier D: Aurora? / Woman: No, more / ancient than that. / Soldier D:'
+  R1203 g1108: pages=[7] worst=7 jp_pb=False EN="Soldier: Where to? / Ingo: I'm outta / here! / Soldier: Captain / will"
+  R1203 g1592: pages=[7] worst=7 jp_pb=False EN='The death wand / gathers the / souls of the / living and / returns the'
+  R1203 g1597: pages=[7] worst=7 jp_pb=False EN="It was the / terrible weapon / that harvested / the souls of / Venoa's"
+  R1203 g1611: pages=[7] worst=7 jp_pb=False EN="Normally you / can't see them / unless a death / wand possesses / you "
+  R1204 g45: pages=[7] worst=7 jp_pb=False EN='The blood-soaked / figure, realizing / it was outmatched / jumped back'
+  R1204 g102: pages=[7] worst=7 jp_pb=False EN='We both lost our / parents early / and have no / siblings, so I / look'
+  R1204 g331: pages=[7] worst=7 jp_pb=False EN='Orc A: Is it / true?! / Orc B: Go see! / Bones all over! / Orc C: Why '
+  R1204 g514: pages=[7] worst=7 jp_pb=False EN="As your / potential / awakens, / you'll sense / weak points / and stri"
+  R1204 g656: pages=[7] worst=7 jp_pb=False EN="Life: sometimes / look back. New / paths open. / That's life's / pitfa"
+  R1204 g687: pages=[7] worst=7 jp_pb=False EN="But wasting / potions on / foolish tasks / is wasteful. / I'll give yo"
+  R1204 g937: pages=[7] worst=7 jp_pb=False EN='The witch / Aurora lurked / here, possessed / the San-Goth / king, and'
+  R1205 g89: pages=[7] worst=7 jp_pb=False EN='Perhaps we / thought we had / a chance because / she was a woman, / or'
+  R1205 g125: pages=[7] worst=7 jp_pb=False EN='"If I give him / a fake, he\'ll / definitely find / out, but if I say /'
+  R1205 g138: pages=[7] worst=7 jp_pb=False EN='The moment I / stared at it, / it hit me. Now / yours truly / would fi'
+  R1205 g140: pages=[7] worst=7 jp_pb=False EN='Yours truly / could tell. / It appealed to / him. "I\'m not / dead yet,'
+  R1205 g229: pages=[7] worst=7 jp_pb=False EN='Even if not / completely, / there are only / three who can / extermina'
+  R1205 g230: pages=[7] worst=7 jp_pb=False EN='Aoi the / Manslayer, / Uri the Heretic, / and myself. / But I need to '
+  R1205 g333: pages=[7] worst=7 jp_pb=False EN='Looking closer, / two orcs were / surrounded by / the others, / who we'
+  R1205 g339: pages=[7] worst=7 jp_pb=False EN='Orc F: "Wh-What! / You\'re going to / use force?!" / Orc G: "E-Even / i'
+  R1205 g464: pages=[7] worst=7 jp_pb=False EN='Good to have / talent! But if / attack magic / is your thing, / maybe '
+  R1205 g466: pages=[7] worst=7 jp_pb=False EN='Good to have / talent! If / slaying evil / is your thing, / to evil yo'
+  R1205 g476: pages=[7] worst=7 jp_pb=False EN="Good to have / talent! But / having good / luck doesn't / mean you're "
+  R1205 g480: pages=[7] worst=7 jp_pb=False EN='Good to have / talent! Such / magic power! / You could be / a professo'
+  R1205 g522: pages=[7] worst=7 jp_pb=False EN='If you hone / that, your / ability to / read the / future will / great'
+  R1205 g526: pages=[7] worst=7 jp_pb=False EN="Wrist gear / that doesn't / match can't / draw out its / power, even /"
+  R1205 g542: pages=[7] worst=7 jp_pb=False EN="Phew! I'm a / bit tired. / Fortune / telling uses / a lot of / spiritu"
+  R1205 g550: pages=[7] worst=7 jp_pb=False EN='Vigger Friends / new member / sign-up is / floors 1-5 / only, at the /'
+  R1205 g656: pages=[7] worst=7 jp_pb=False EN='Normally we / operate by / word of mouth, / but during / floors 16-20 '
+  R1205 g739: pages=[7] worst=7 jp_pb=False EN="Can't afford / it, huh? I'm / not running / a charity / here. Come bac"
+  R1205 g745: pages=[7] worst=7 jp_pb=False EN="Once I'm done, / I plan to / open a shop / specializing / in alchemy. "
+  R1205 g760: pages=[7] worst=7 jp_pb=False EN='Voice: "Can\'t you / break this door?" / Melanie: "No way!" / Voice: "G'
+  R1205 g843: pages=[7] worst=7 jp_pb=False EN='... / "That means / Melanie and I / would be / holding hands / during '
+  R1208 g106: pages=[7] worst=7 jp_pb=True EN='Girl A: "That fool / is hopeless." / Girl B: "You kept / calling him a'
+  R1208 g107: pages=[7] worst=7 jp_pb=True EN='Girl B: "Fools have / their uses! He had / endurance." / Girl A: "True'
+  R1209 g39: pages=[7] worst=7 jp_pb=False EN="The Succubus' desperate cry conjured a strong magical force that made "
+  R1209 g93: pages=[7] worst=7 jp_pb=False EN='Twenty years ago, as a child, I lost everything when Ortrud killed my '
+  R1209 g113: pages=[7] worst=7 jp_pb=False EN='Lord Webster suddenly slashed his own wrists with his knife, dripping '
+  R1209 g119: pages=[7] worst=7 jp_pb=False EN='The cold, freezing mist was the grudge of countless possessed adventur'
+  R1209 g122: pages=[7] worst=7 jp_pb=False EN='The grudges of the dead swarmed together, shouting their resentment ag'
+  R1209 g154: pages=[7] worst=7 jp_pb=False EN='I, as a matter of unpleasant necessity, would have taken care of Lord '
+  R1209 g203: pages=[7] worst=7 jp_pb=False EN="Ah, you can listen to my explanation while you're shopping, since I wi"
+  R1209 g206: pages=[7] worst=7 jp_pb=False EN='We, the Vigger Friends, are a bunch of pals who want to make the Vigge'
+  R1209 g209: pages=[7] worst=7 jp_pb=False EN='Plus, the more events you attend at the Event Space, the higher the ch'
+  R1209 g211: pages=[7] worst=7 jp_pb=False EN="I see, so you're in! Then, please put your name on the application for"
+  R1209 g281: pages=[7] worst=7 jp_pb=False EN="Good for you, having talent. Oh, but please don't find mine and don't "
+  R1209 g285: pages=[7] worst=7 jp_pb=False EN='Good for you, having talent. They say a miss is a lesson learned, and '
+  R1209 g290: pages=[7] worst=7 jp_pb=False EN='Good for you, having talent. But just because you have the personality'
+  R1209 g292: pages=[7] worst=7 jp_pb=False EN='Good for you, having talent. Being able to use anything is amazing! Bu'
+  R1209 g294: pages=[7] worst=7 jp_pb=False EN='Good for you, having talent. What amazing magical power! You could bec'
+  R1209 g324: pages=[7] worst=7 jp_pb=False EN="So when your talent is awakened, you will be able to detect the enemy'"
+  R1209 g337: pages=[7] worst=7 jp_pb=False EN='So if you polish your perceptivity, your ability to read the signs of '
+  R1209 g384: pages=[7] worst=7 jp_pb=False EN='The imp congratulated you by sprinkling confetti made of finely choppe'
+  R1209 g416: pages=[7] worst=7 jp_pb=False EN='If you win, you will get the luxury prize: an Identification Bracelet!'
+  R1209 g417: pages=[7] worst=7 jp_pb=False EN='However, since there is only one bracelet available, we will replace i'
+  R1209 g418: pages=[7] worst=7 jp_pb=False EN='If you miss, you will get a participation prize: Recovery Medicine. It'
+  R1209 g425: pages=[7] worst=7 jp_pb=False EN='If you miss, you will get a participation prize: Recovery Medicine. It'
+  R1209 g463: pages=[7] worst=7 jp_pb=False EN='Normally we operate quietly by word of mouth, but we do special busine'
+  R1209 g505: pages=[7] worst=7 jp_pb=False EN='I am a practitioner of alchemy. I make my living by inspecting the con'
+  R1209 g507: pages=[7] worst=7 jp_pb=False EN="I'm here from the 6th to the 15th of every month. If you have a doll t"
+  R1209 g548: pages=[7] worst=7 jp_pb=False EN="I see, you'd rather not. It is a trivial thing after all to look into "
+  R1209 g549: pages=[7] worst=7 jp_pb=False EN="I am a practitioner of alchemy. Right now, I'm currently researching t"
+  R1209 g552: pages=[7] worst=7 jp_pb=False EN="I'm still in the process of opening my business and am not ready to of"
+  R1211 g544: pages=[7] worst=7 jp_pb=False EN='I have lived / solely to create / a warrior who / could fight the / da'
+  R1211 g547: pages=[7] worst=7 jp_pb=False EN='All for the sake / of creating one / supreme warrior. / I ignored evil'
+  R1211 g561: pages=[7] worst=7 jp_pb=False EN="The people's / pain is embedded / in me. Even / if I went / elsewhere,"
+  R1351 g4: pages=[7] worst=7 jp_pb=False EN='This is a memento of / my father and mother. / They gave it to me / as'
+  R1351 g9: pages=[7] worst=7 jp_pb=False EN='From the memories sealed / in the red gemstone, you learned / a new Al'
+  R1351 g17: pages=[7] worst=7 jp_pb=False EN='Lomi: I bought this with / the gold I earned here. / Well, I got one s'
+  R1355 g6: pages=[7] worst=7 jp_pb=False EN='Knight: Then go back / to the city at once. / This is dangerous; / no '
+  R1355 g11: pages=[7] worst=7 jp_pb=False EN="Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry i"
+  R1355 g15: pages=[7] worst=7 jp_pb=False EN="Knight: Very well then. / I'm sure you were briefed / by the captain, "
+  R1355 g20: pages=[7] worst=7 jp_pb=False EN='Knight: One more thing. / From now on, / the Identification Bracelet /'
+  R1355 g23: pages=[7] worst=7 jp_pb=False EN="Knight: If you don't have / the bracelet on you / in the labyrinth, yo"
+  R1355 g25: pages=[7] worst=7 jp_pb=False EN='Knight: In the rooms / just ahead, you can learn / the basics of treas'
+  R1355 g26: pages=[7] worst=7 jp_pb=False EN='Knight: If this is your / first time in a labyrinth / like this, it wo'
+  R1355 g33: pages=[7] worst=7 jp_pb=False EN="Knight: Ahahaha, is that so! / Well, my grandmother on / my mother's s"
+  R1196 g67: pages=[6] worst=6 jp_pb=True EN='Girl B: Wait!\nGirl A: Huh?\nGirl B: Not here! / This is special!\nGirl A'
+  R1196 g411: pages=[6] worst=6 jp_pb=False EN="Orc: Do it right!\nGirl A: We know!\nOrc: Don't forget!\nGirl B: We won't"
+  R1197 g901: pages=[6] worst=6 jp_pb=False EN="The shopkeeper, / clearing tables / by the door, / and the / knight's "
+  R1197 g920: pages=[6] worst=6 jp_pb=False EN='In the brief / while before I / returned, his / band was wiped / out, '
+  R1197 g922: pages=[6] worst=6 jp_pb=False EN='Famed from the / battlefields of / the rebellion, / feared as / San-La'
+  R1199 g30: pages=[6] worst=6 jp_pb=False EN='Without the labyrinth / and Frieder, it would / have been impossible.'
+  R1199 g57: pages=[6] worst=6 jp_pb=False EN='By nature, the / ancient elves did not / wage war. Destruction / seems'
+  R1199 g106: pages=[6] worst=6 jp_pb=False EN='Clerk: Do you have / the materials? / Pixie: Materials? / What do I ne'
+  R1199 g107: pages=[6] worst=6 jp_pb=False EN='Pixie: How do I get / those?! Clerk: You / must bring them! / Pixie: G'
+  R1201 g43: pages=[6] worst=6 jp_pb=False EN='Master Konde, / though he may seem / like this, is from / a venerable '
+  R1201 g70: pages=[6] worst=6 jp_pb=False EN='Though still / innocent-faced, the / twins differed / only in hair -- '
+  R1201 g98: pages=[6] worst=6 jp_pb=False EN="Clerk: I don't get / it, but if you / get caught it's / not my fault! "
+  R1201 g108: pages=[6] worst=6 jp_pb=False EN="I'm Beltan of / the Gnome tribe. / I go way back with / King Ortrud he"
+  R1202 g42: pages=[6] worst=6 jp_pb=False EN='The sound of / footsteps going / down the stairs / stopped, then / qui'
+  R1202 g220: pages=[6] worst=6 jp_pb=False EN='The sheet Lucy / held was filled / with customer / names, items, / add'
+  R1203 g1018: pages=[6] worst=6 jp_pb=False EN="I've seen many / such people. Deep / in the maze, they / sought fame a"
+  R1203 g1021: pages=[6] worst=6 jp_pb=False EN="Soldier C: I'll / escort you. / Aoi: Guards again? / The labyrinth / f"
+  R1203 g1119: pages=[6] worst=6 jp_pb=False EN='They can only / equip up to / short swords, / but can use / flails and'
+  R1203 g1120: pages=[6] worst=6 jp_pb=False EN='With protectors / and small shields / equipped, they / can handle both'
+  R1203 g1129: pages=[6] worst=6 jp_pb=False EN='I once equipped / a cursed belt / by mistake and / said terrible / thi'
+  R1203 g1145: pages=[6] worst=6 jp_pb=False EN='If you have an / alchemist in / your party, you / can craft on the / g'
+  R1203 g1147: pages=[6] worst=6 jp_pb=False EN='Classes like / priest and mage / learn the same / spells but have / di'
+  R1203 g1405: pages=[6] worst=6 jp_pb=False EN='It was thought / to be monster- / only, but lately / reports have / co'
+  R1203 g1518: pages=[6] worst=6 jp_pb=False EN="They're not just / recruiting / adventurers for / the witch hunt. / Th"
+  R1203 g1588: pages=[6] worst=6 jp_pb=False EN="If that's here, / then those people / performing the / ritual must / h"
+  R1203 g1596: pages=[6] worst=6 jp_pb=False EN='A death wand / is a weapon / that harvests / souls. Elves call / it th'
+  R1203 g1604: pages=[6] worst=6 jp_pb=False EN='Those killed by / them lose their / souls and are / completely / erase'
+  R1203 g1614: pages=[6] worst=6 jp_pb=False EN="I'll give you / one, so try / finding those / hidden traps / in the / "
+  R1203 g1627: pages=[6] worst=6 jp_pb=False EN='Poor Melanie, / separated from / her pixie / companion, all / alone in'
+  R1204 g74: pages=[6] worst=6 jp_pb=False EN="It's one of the / ancient arts. / They became / sacrifices to / summon"
+  R1204 g77: pages=[6] worst=6 jp_pb=False EN='A noble warrior / with a strong / will and desire / for life would / b'
+  R1204 g78: pages=[6] worst=6 jp_pb=False EN="But I don't / understand!! If / those cowards / activated the / dark s"
+  R1204 g131: pages=[6] worst=6 jp_pb=False EN='Monster B: The / usual spot. / Wait for me. / Monster A: / Okie dokie,'
+  R1204 g260: pages=[6] worst=6 jp_pb=False EN="As Janken Man / was about to / cast Leep, a / woman's furious / voice "
+  R1204 g265: pages=[6] worst=6 jp_pb=False EN="He looked like / he'd been in a / fight; his face / was pale and / cov"
+  R1204 g271: pages=[6] worst=6 jp_pb=False EN="Don't worry / about me. It's / not an injury. / It's like a / conditio"
+  R1204 g323: pages=[6] worst=6 jp_pb=False EN='Here, a fortune / telling charm / for safety. / Take it even / if you '
+  R1204 g468: pages=[6] worst=6 jp_pb=False EN="Great potential! / If you're good / at attack / magic, physical / comb"
+  R1204 g476: pages=[6] worst=6 jp_pb=False EN="Great potential! / I have no gear / so I don't / know, but / monsters "
+  R1204 g483: pages=[6] worst=6 jp_pb=False EN='Great potential! / Making things / obey you? But / making ME / submit '
+  R1204 g505: pages=[6] worst=6 jp_pb=False EN='Train physical / abilities / rather than / magic to / unlock your / po'
+  R1204 g515: pages=[6] worst=6 jp_pb=False EN='I sense / something / remarkable / in your / observant / nature.'
+  R1204 g526: pages=[6] worst=6 jp_pb=False EN='Hone that / sensitivity / and your / future sight / will greatly / imp'
+  R1204 g637: pages=[6] worst=6 jp_pb=False EN='I bought this / with money / earned here. / Well, special / ordered ju'
+  R1204 g692: pages=[6] worst=6 jp_pb=False EN='The wizard / pulled a bottle / from his pocket / and poured it / into '
+  R1204 g694: pages=[6] worst=6 jp_pb=False EN='Preparations / done. When a / tired / adventurer / rests here... / heh'
+  R1204 g912: pages=[6] worst=6 jp_pb=False EN='A mysterious / woman and / soldier were / discussing / with serious / '
+  R1204 g914: pages=[6] worst=6 jp_pb=False EN='The soldier / leaned in to / see what the / woman held / with dainty /'
+  R1204 g929: pages=[6] worst=6 jp_pb=False EN='The great lord / of the floor / from the / underworld / depths... you '
+  R1204 g934: pages=[6] worst=6 jp_pb=False EN='A terrifying / floor master / is gathering, / strong enough / to open '
+  R1204 g990: pages=[6] worst=6 jp_pb=False EN="I must become / stronger! / Without / strength, I / can't save / anyon"
+  R1205 g18: pages=[6] worst=6 jp_pb=False EN='Inside the room / the only / notable thing / was a scrap / heap to the'
+  R1205 g59: pages=[6] worst=6 jp_pb=False EN='"One of my / companions had / been attacked by / a demon, and we / wer'
+  R1205 g64: pages=[6] worst=6 jp_pb=True EN='"Are you sure / you\'re okay? / What could / attack us from / a place l'
+  R1205 g66: pages=[6] worst=6 jp_pb=False EN='It was at that / moment. Suddenly, / our Identification / Bracelets be'
+  R1205 g79: pages=[6] worst=6 jp_pb=False EN='One of my / companions was / a great admirer / of the king. He / drew '
+  R1205 g97: pages=[6] worst=6 jp_pb=False EN='At last, the / Dark Lord was / born. There are / only a few days / lef'
+  R1205 g130: pages=[6] worst=6 jp_pb=False EN='So, as senpai / said, I went to / floor 5 and / found some / interesti'
+  R1205 g135: pages=[6] worst=6 jp_pb=False EN="But when he / found it, he / felt relieved, / as if he'd seen / the cr"
+  R1205 g142: pages=[6] worst=6 jp_pb=False EN='Waiting for / someone as / wonderful as / yours truly / to find it. / '
+  R1205 g149: pages=[6] worst=6 jp_pb=False EN='That demon had / been watching / the area. To / kill anyone who / touc'
+  R1205 g173: pages=[6] worst=6 jp_pb=False EN='First one was / Guillaume- / senpai. His / knowledge / rivals a hundre'
+  R1205 g180: pages=[6] worst=6 jp_pb=False EN="But you were / lucky. If you / hadn't been, / the Skedim would / have "
+  R1205 g213: pages=[6] worst=6 jp_pb=False EN="What the hell! / If you're trying / to mess with / yours truly, / you'"
+  R1205 g225: pages=[6] worst=6 jp_pb=False EN='I heard that / an adventurer / drove off the / awakened / Writhing Dem'
+  R1205 g231: pages=[6] worst=6 jp_pb=False EN='I am Vile / Doulier. I came / to Duhan from / San-Goth to / slay the /'
+  R1205 g244: pages=[6] worst=6 jp_pb=False EN="No one believed / his words. They / blamed the / army's ruin / on his "
+  R1205 g246: pages=[6] worst=6 jp_pb=False EN='On that day at / Banquo, all / soldiers who / had gathered / turned ag'
+  R1205 g247: pages=[6] worst=6 jp_pb=False EN='No matter how / skilled with a / sword, facing / two armies at / once,'
+  R1205 g251: pages=[6] worst=6 jp_pb=False EN='The apex of / the dark family / and the / antagonist / of all living /'
+  R1205 g267: pages=[6] worst=6 jp_pb=False EN='A Warrior God, / said to have / destroyed an / ancient elven / city in'
+  R1205 g305: pages=[6] worst=6 jp_pb=False EN='"Phew, that was / close! Be / careful, those / guys are / seriously / '
+  R1205 g312: pages=[6] worst=6 jp_pb=False EN="I've only seen / them once, so / I can't say / for sure, but / they su"
+  R1205 g344: pages=[6] worst=6 jp_pb=False EN='Seeing you, / the orcs / realized they / were outmatched / and retreat'
+  R1205 g354: pages=[6] worst=6 jp_pb=False EN="Between fading / consciousness / and dreams, / you see a / monster's /"
+  R1205 g355: pages=[6] worst=6 jp_pb=False EN='Before you / could tell / friend from / foe, the / shadow / attacked!'
+  R1205 g392: pages=[6] worst=6 jp_pb=False EN='Vigger Friends / is a club / where members / help build / the Vigger S'
+  R1205 g395: pages=[6] worst=6 jp_pb=False EN='Plus, the more / events you / join, the more / chances for / the lucky'
+  R1205 g397: pages=[6] worst=6 jp_pb=False EN="Signing up? / That'll be / 5000g for the / fee plus your / name on the"
+  R1205 g436: pages=[6] worst=6 jp_pb=False EN='Good for you! / You have / nothing now, / but a great / talent will / '
+  R1205 g465: pages=[6] worst=6 jp_pb=False EN='Good to have / talent! Slaying / dragons as a / god of war? / You must'
+  R1205 g467: pages=[6] worst=6 jp_pb=False EN="Good to have / talent! Hey! / Don't look for / mine! Don't / kill me! "
+  R1205 g472: pages=[6] worst=6 jp_pb=False EN="Good to have / talent! I have / no gear so I / don't know, but / monst"
+  R1205 g474: pages=[6] worst=6 jp_pb=False EN='Good to have / talent! Hey! / Even if you / appraise me, / no rare loo'
+  R1205 g477: pages=[6] worst=6 jp_pb=False EN="Good to have / talent! Being / good at / running away / won't make you"
+  R1205 g478: pages=[6] worst=6 jp_pb=False EN="Good to have / talent! You / can synthesize / anything? / Don't turn m"
+  R1205 g481: pages=[6] worst=6 jp_pb=False EN="Good to have / talent! Self- / healing? / That's beyond / lucky, that'"
+  R1205 g482: pages=[6] worst=6 jp_pb=False EN="Good to have / talent! / Drawing out / armor's power? / That's a / rar"
+  R1205 g486: pages=[6] worst=6 jp_pb=False EN='Because / if everyone / had talent, / then that / would be / ordinary!'
+  R1205 g490: pages=[6] worst=6 jp_pb=False EN='Your talent / works best / with high / intellect, so / studying is / t'
+  R1205 g501: pages=[6] worst=6 jp_pb=False EN='Rather than / magic, honing / physical / skills might / help develop /'
+  R1205 g502: pages=[6] worst=6 jp_pb=False EN='Movements / that were too / fast to see / will suddenly / seem like sl'
+  R1205 g519: pages=[6] worst=6 jp_pb=False EN='Even in the / worst times, / something / about you / keeps spirits / u'
+  R1205 g523: pages=[6] worst=6 jp_pb=False EN="A weapon that / doesn't match / you can't draw / out its power, / even"
+  R1205 g524: pages=[6] worst=6 jp_pb=False EN="So normally / people don't / use mismatched / gear, but / you're / dif"
+  R1205 g525: pages=[6] worst=6 jp_pb=False EN="Your talent / is dormant / now, but one / day you'll draw / power from"
+  R1205 g527: pages=[6] worst=6 jp_pb=False EN="So normally / people don't / wear mismatched / gear, but / you're / di"
+  R1205 g528: pages=[6] worst=6 jp_pb=False EN="Your talent / is dormant / now, but one / day you'll draw / power from"
+  R1205 g531: pages=[6] worst=6 jp_pb=False EN="Once your / talent blooms / and you boost / your magic, / you'll grow "
+  R1205 g535: pages=[6] worst=6 jp_pb=False EN='You have a / talent for / drawing out / the power of / objects, not / '
+  R1205 g543: pages=[6] worst=6 jp_pb=False EN="I have no / body, so it's / especially / draining. / I can only do / o"
+  R1205 g602: pages=[6] worst=6 jp_pb=False EN='Win and you / get an / Identification / Bracelet! / Packed with / memo'
+  R1205 g604: pages=[6] worst=6 jp_pb=False EN='Lose and you / get a Recovery / Vial. Still / a great / consolation / '
+  R1205 g611: pages=[6] worst=6 jp_pb=False EN='Lose and you / get a Recovery / Vial. Still / a great / consolation / '
+  R1205 g624: pages=[6] worst=6 jp_pb=False EN='The moment / you held it, / a faint / consciousness / flowed into / yo'
+  R1205 g625: pages=[6] worst=6 jp_pb=False EN='From the / memories in / the holy sword, / you learned / a new Alleid '
+  R1205 g633: pages=[6] worst=6 jp_pb=False EN='I bought this / with money / I earned here. / Well, I had / the shop m'
+  R1205 g646: pages=[6] worst=6 jp_pb=False EN='How could / such a place / be turned into / this in an / instant... / '
+  R1205 g659: pages=[6] worst=6 jp_pb=False EN='Sorry, / equipment / service is / being handled / by our partner / mon'
+  R1205 g671: pages=[6] worst=6 jp_pb=False EN="I won't / discount even / 1g! Don't / even think / about / haggling!"
+  R1205 g687: pages=[6] worst=6 jp_pb=False EN="I won't / discount even / 1g! Don't / even think / about / haggling!"
+  R1205 g705: pages=[6] worst=6 jp_pb=False EN='The alchemist / carefully / examined the / Automata / using special / '
+  R1205 g741: pages=[6] worst=6 jp_pb=False EN="Not interested? / Indeed, peering / into another's / soul is quite / a"
+  R1205 g744: pages=[6] worst=6 jp_pb=False EN="I haven't / finished my / research yet. / Still in the / preparation /"
+  R1205 g781: pages=[6] worst=6 jp_pb=False EN="When you / declined, / Melanie's / expression / grew even more / distr"
+  R1205 g783: pages=[6] worst=6 jp_pb=False EN='"You\'ll regret / this forever! / Your life just / took a wrong / turn '
+  R1205 g784: pages=[6] worst=6 jp_pb=True EN='"If you won\'t / help then just / go away! I / don\'t even / want to tal'
+  R1205 g789: pages=[6] worst=6 jp_pb=False EN="Hearing / Melanie's / voice, an / immediate / reply came from / behind"
+  R1205 g792: pages=[6] worst=6 jp_pb=False EN='"What, you / again? What / do you want? / If you\'re just / browsing, g'
+  R1205 g803: pages=[6] worst=6 jp_pb=True EN='"I won\'t / waste my / beautiful / voice on / someone like / you! Goodb'
+  R1205 g814: pages=[6] worst=6 jp_pb=False EN='Pushed by / Miri, you / opened the / door and found / Melanie / waitin'
+  R1205 g817: pages=[6] worst=6 jp_pb=False EN='Melanie, give / them the / Through sword / we raised to / max rank / t'
+  R1205 g826: pages=[6] worst=6 jp_pb=False EN='I hear / alchemists can / forge magic / swords without / the big / equ'
+  R1205 g832: pages=[6] worst=6 jp_pb=False EN="Oh, the / Alchemy Guild / part-timer! / Haven't seen / you around / la"
+  R1205 g835: pages=[6] worst=6 jp_pb=False EN="Hmm, you don't / need to do / research when / the military / and knigh"
+  R1205 g838: pages=[6] worst=6 jp_pb=False EN="Hey hey, / you work at / the Alchemy / Guild? So / you're an / alchemi"
+  R1205 g842: pages=[6] worst=6 jp_pb=False EN='Hmm... / "Wait... the / magic training / is with / Melanie\'s / group!"'
+  R1205 g845: pages=[6] worst=6 jp_pb=False EN='Miri whispered / to Melanie, / who turned / bright red, / then spoke t'
+  R1205 g859: pages=[6] worst=6 jp_pb=False EN='Ugh! Heavy! / So heavy! / Melanie is / surprisingly / strong! Strong /'
+  R1205 g861: pages=[6] worst=6 jp_pb=False EN="This is / training for / my future / with Melanie! / I won't lose / to"
+  R1205 g873: pages=[6] worst=6 jp_pb=False EN='If we / encountered / her now, we / would end up / like those / corpse'
+  R1206 g26: pages=[6] worst=6 jp_pb=False EN='Perform rituals here. / Gear heals over time. /           Camp / Duhan'
+  R1208 g17: pages=[6] worst=6 jp_pb=False EN='When you crossed the / bridge earlier, there / were no signs of life,'
+  R1208 g51: pages=[6] worst=6 jp_pb=False EN='"your sacrifice? Those / who should be Duhan\'s / treasure die for me."'
+  R1208 g53: pages=[6] worst=6 jp_pb=False EN='"Don\'t worry about us. / The late king and you / treated us as people.'
+  R1208 g70: pages=[6] worst=6 jp_pb=False EN='"We\'re also preparing / to bring the princess / back to town safely."'
+  R1208 g292: pages=[6] worst=6 jp_pb=False EN='"You grow by reading / widely and absorbing / all sorts of knowledge."'
+  R1208 g301: pages=[6] worst=6 jp_pb=False EN='"A dangerous person! / Dead! Don\'t be afraid / of the big dead ones."'
+  R1208 g474: pages=[6] worst=6 jp_pb=False EN='The sorcerer took / out a bottle from / his pocket and poured / it int'
+  R1208 g714: pages=[6] worst=6 jp_pb=False EN="What, you don't have / enough money? I'm not / running a charity here."
+  R1208 g720: pages=[6] worst=6 jp_pb=False EN="Once the preparations / are done, I'll open an / alchemy shop. Come ag"
+  R1208 g749: pages=[6] worst=6 jp_pb=False EN='Her eyes glowed pale / with murderous intent / and tremendous fury.'
+  R1209 g14: pages=[6] worst=6 jp_pb=False EN="I couldn't find her at all, so I went for a break and suddenly there s"
+  R1209 g22: pages=[6] worst=6 jp_pb=False EN="Fufufu, please hurry up. If Big Sister wakes up, there's no point, so "
+  R1209 g28: pages=[6] worst=6 jp_pb=False EN='Seeing the Succubus subdued, Yoppen started to speak to the Succubus w'
+  R1209 g31: pages=[6] worst=6 jp_pb=False EN="Big Sister, please think of me too. I'll stay at the nearby inn until "
+  R1209 g57: pages=[6] worst=6 jp_pb=False EN="Just don't keep coming in and out of the door, it's too noisy. If Big "
+  R1209 g63: pages=[6] worst=6 jp_pb=False EN='In the dimly lit room, there was an altar-like structure in the back, '
+  R1209 g77: pages=[6] worst=6 jp_pb=False EN='But as always, the truth is ruthless. Do you think that a compassionat'
+  R1209 g81: pages=[6] worst=6 jp_pb=False EN='A criminal, as good as dead, has ruined your plans, and now this littl'
+  R1209 g98: pages=[6] worst=6 jp_pb=False EN='If I only had wanted to take the throne, I could have simply waited fo'
+  R1209 g99: pages=[6] worst=6 jp_pb=False EN='But I was enchanted by the dream of rescuing Duhan from the hands of t'
+  R1209 g102: pages=[6] worst=6 jp_pb=False EN='Even though we finally have Her Highness, who will act as the divine b'
+  R1209 g110: pages=[6] worst=6 jp_pb=False EN='Of course, I will raise the price. Not only my life, but also my soul '
+  R1209 g118: pages=[6] worst=6 jp_pb=False EN='An eerie white smoke-like miasma erupted from the book in his hand and'
+  R1209 g130: pages=[6] worst=6 jp_pb=False EN='Emilia tried to help the princess sit up, but the princess, in her daz'
+  R1209 g133: pages=[6] worst=6 jp_pb=False EN='Emilia stood up and took a closer look at the princess, making sure sh'
+  R1209 g144: pages=[6] worst=6 jp_pb=False EN="Lies! You were under Lord Webster's command, and you were looking for "
+  R1209 g146: pages=[6] worst=6 jp_pb=False EN='Whether it was to help Lord Webster or to protect Her Highness who was'
+  R1209 g157: pages=[6] worst=6 jp_pb=False EN='We were ordered to leave no stone unturned until the end, and let the '
+  R1209 g159: pages=[6] worst=6 jp_pb=False EN='I am sure that His Majesty put a lot of thoughts into this, but I, as '
+  R1209 g199: pages=[6] worst=6 jp_pb=False EN="There's no need to be shy. How could you not be interested in such a g"
+  R1209 g200: pages=[6] worst=6 jp_pb=False EN='How about it, shall I explain the Vigger Friends system to you? Or do '
+  R1209 g210: pages=[6] worst=6 jp_pb=False EN='So, do you want to get in too? I, of course, am a member of this club!'
+  R1209 g237: pages=[6] worst=6 jp_pb=False EN="The event schedule board read: 'Our talented worker is currently on a "
+  R1209 g238: pages=[6] worst=6 jp_pb=False EN="The event schedule board read: 'Our talented worker is currently on a "
+  R1209 g277: pages=[6] worst=6 jp_pb=False EN='Good for you, having talent. Being able to learn lots of magic sounds '
+  R1209 g278: pages=[6] worst=6 jp_pb=False EN="Good for you, having talent. If you're good at healing magic, you migh"
+  R1209 g280: pages=[6] worst=6 jp_pb=False EN='Good for you, having talent. Being good at defeating demons makes you '
+  R1209 g283: pages=[6] worst=6 jp_pb=False EN="Good for you, having talent. Don't just keep taking attacks, make sure"
+  R1209 g284: pages=[6] worst=6 jp_pb=False EN="Good for you, having talent. That's amazing, your body is the exact op"
+  R1209 g287: pages=[6] worst=6 jp_pb=False EN="Good for you, having talent. You're good at finding items!? Give me so"
+  R1209 g288: pages=[6] worst=6 jp_pb=False EN="Good for you, having talent. Hey, even if you dissect me, you won't fi"
+  R1209 g291: pages=[6] worst=6 jp_pb=False EN="Good for you, having talent. Just because you're good at running away "
+  R1209 g293: pages=[6] worst=6 jp_pb=False EN='Good for you, having talent. You can put on anything!? But it would be'
+  R1209 g295: pages=[6] worst=6 jp_pb=False EN='Good for you, having talent. Being able to protect yourself is beyond '
+  R1209 g296: pages=[6] worst=6 jp_pb=False EN='Good for you, having talent. Being able to draw out hidden power is a '
+  R1209 g300: pages=[6] worst=6 jp_pb=False EN='Because if everyone had talent, it would be the new normal! In other w'
+  R1209 g303: pages=[6] worst=6 jp_pb=False EN='The key to developing your talent will be to work hard and accumulate '
+  R1209 g307: pages=[6] worst=6 jp_pb=False EN="It's important to be brave enough to face giant monsters without being"
+  R1209 g315: pages=[6] worst=6 jp_pb=False EN='I think you need to work more on your arm strength than anything else '
+  R1209 g322: pages=[6] worst=6 jp_pb=False EN="Then you'll be able to detect the enemy's movements and prevent mistak"
+  R1209 g328: pages=[6] worst=6 jp_pb=False EN="Even if you've never done it before, you might find you're naturally g"
+  R1209 g339: pages=[6] worst=6 jp_pb=False EN="That's why people usually don't use things that don't match their clas"
+  R1209 g341: pages=[6] worst=6 jp_pb=False EN="but I'm sure you'll be able to bring out the best in yourself by force"
+  R1209 g343: pages=[6] worst=6 jp_pb=False EN="That's why people don't usually wear things that don't match their cla"
+  R1209 g345: pages=[6] worst=6 jp_pb=False EN="but I'm sure you'll be able to bring out the best in yourself if you f"
+  R1209 g348: pages=[6] worst=6 jp_pb=False EN='I think you will grow at a very fast pace if you enhance your magical '
+  R1209 g421: pages=[6] worst=6 jp_pb=False EN="That's why you have the points! It's really simple, isn't it? Now, ple"
+  R1209 g424: pages=[6] worst=6 jp_pb=False EN='If you win, you get the Bone of the Dead and Magical Wine! Your magica'
+  R1209 g428: pages=[6] worst=6 jp_pb=False EN="That's why you have the points! It's really simple, isn't it? Now, ple"
+  R1209 g466: pages=[6] worst=6 jp_pb=False EN='Oops, sorry about that. The loan option is limited to demons only who '
+  R1209 g516: pages=[6] worst=6 jp_pb=False EN='Expressed in numbers, this Automata has accumulated about this much ex'
+  R1209 g517: pages=[6] worst=6 jp_pb=False EN='My research shows / a doll needs about / 1,188,000 EXP to / gain its o'
+  R1209 g521: pages=[6] worst=6 jp_pb=False EN='Expressed in numbers, this Automata has accumulated about this much ex'
+  R1209 g522: pages=[6] worst=6 jp_pb=False EN='My research shows / a doll needs about / 1,188,000 EXP to / gain its o'
+  R1209 g526: pages=[6] worst=6 jp_pb=False EN='Expressed in numbers, this Automata has accumulated about this much ex'
+  R1209 g527: pages=[6] worst=6 jp_pb=False EN='My research shows / a doll needs about / 1,188,000 EXP to / gain its o'
+  R1209 g531: pages=[6] worst=6 jp_pb=False EN='Expressed in numbers, this Automata has accumulated about this much ex'
+  R1209 g532: pages=[6] worst=6 jp_pb=False EN='My research shows / a doll needs about / 1,188,000 EXP to / gain its o'
+  R1209 g536: pages=[6] worst=6 jp_pb=False EN='Expressed in numbers, this Automata has accumulated about this much ex'
+  R1209 g537: pages=[6] worst=6 jp_pb=False EN='My research shows / a doll needs about / 1,188,000 EXP to / gain its o'
+  R1209 g541: pages=[6] worst=6 jp_pb=False EN='Expressed in numbers, this Automata has accumulated about this much ex'
+  R1209 g542: pages=[6] worst=6 jp_pb=False EN='My research shows / a doll needs about / 1,188,000 EXP to / gain its o'
+  R1209 g546: pages=[6] worst=6 jp_pb=False EN="Oh, you don't have enough money. I'm not running a charity here, so I "
+  R1209 g551: pages=[6] worst=6 jp_pb=False EN="When I'm ready, this store should fulfill all your alchemy needs, so p"
+  R1210 g151: pages=[6] worst=6 jp_pb=False EN='One who will burn / those dark ones / to nothing with / the fires of /'
+  R1210 g152: pages=[6] worst=6 jp_pb=False EN='I watched Master / draw his last / breath, then went / into the flames'
+  R1210 g376: pages=[6] worst=6 jp_pb=False EN="An ordinary / person couldn't / draw out a / weapon's power / even wit"
+  R1210 g556: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1210 g561: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1210 g566: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1210 g571: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1210 g576: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1210 g581: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1211 g221: pages=[6] worst=6 jp_pb=False EN="An ordinary / person couldn't / draw out a / weapon's power / even wit"
+  R1211 g392: pages=[6] worst=6 jp_pb=False EN="Gather the 4 / ancient king's / treasures and / the knight shall / rec"
+  R1211 g483: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1211 g488: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1211 g493: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1211 g498: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1211 g503: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1211 g508: pages=[6] worst=6 jp_pb=False EN='Research says / Automata need / 1,188,000 EXP / to awaken a / soul. Fo'
+  R1211 g539: pages=[6] worst=6 jp_pb=False EN='For freedom, / peace, and a / land where all / could live -- / they fo'
+  R1211 g541: pages=[6] worst=6 jp_pb=False EN='The dark ones / appeared, and / countless lives / were devoured / befo'
+  R1211 g542: pages=[6] worst=6 jp_pb=False EN='It was all / illusion. As / long as they / exist, no peace / or happin'
+  R1211 g543: pages=[6] worst=6 jp_pb=False EN='Having survived, / the only reason / I desired this / peace was simply'
+  R1211 g579: pages=[6] worst=6 jp_pb=False EN='Some sacrifice / others to save / themselves, / while others / freely '
+  R1212 g88: pages=[6] worst=6 jp_pb=False EN='Even if you forget / the silenced ones, / they will return / as long a'
+  R1347 g0: pages=[6] worst=6 jp_pb=False EN="Oh my, you're back again? / I'm so well-stocked that / you just can't "
+  R1348 g0: pages=[6] worst=6 jp_pb=False EN='The medal earned from / defeating the floor master / was offered to th'
+  R1349 g3: pages=[6] worst=6 jp_pb=False EN='With no time to draw / weapons or even hesitate, / the monster shadows'
+  R1351 g8: pages=[6] worst=6 jp_pb=False EN='As soon as you touched / the stone, warm feelings / flowed into your m'
+  R1351 g15: pages=[6] worst=6 jp_pb=False EN='You did as Lomi said / and opened the little / treasure chest on the c'
+  R1351 g16: pages=[6] worst=6 jp_pb=False EN='Inside was a beautiful / hair ornament made of / precious baked silver'
+  R1354 g47: pages=[6] worst=6 jp_pb=False EN='That the witch / obediently kills / my daughter, / curses my body, / a'
+  R1354 g293: pages=[6] worst=6 jp_pb=False EN='They say the / witch in the / labyrinth is / behind it all, / but no o'
+  R1355 g1: pages=[6] worst=6 jp_pb=False EN='From the crests on their / armor, you could tell they / were knights o'
+  R1355 g21: pages=[6] worst=6 jp_pb=False EN='Knight: Do not put it / in your luggage bag. / Keep it on you / at all'
+  R1355 g29: pages=[6] worst=6 jp_pb=False EN="Knight: It's the first / time I've seen anyone / adventuring with an O"
+  R1355 g38: pages=[6] worst=6 jp_pb=False EN='Upon entering the labyrinth, / you could hear the boisterous / voices '
+  R1355 g40: pages=[6] worst=6 jp_pb=False EN='A woman clad in / samurai-looking armor / approached, conversing / wit'
+  R1355 g43: pages=[6] worst=6 jp_pb=False EN='The woman called Aoi / glanced at you as she / passed by, and stopped.'
+  R1355 g47: pages=[6] worst=6 jp_pb=False EN="Aoi: Reckless ambitions / reveal their true ugliness / only when it's "
+  R1355 g48: pages=[6] worst=6 jp_pb=False EN='Aoi: And by the time / you realize it, there is / no way to turn back.'
+  R1355 g50: pages=[6] worst=6 jp_pb=False EN='Aoi: The darkness of the / labyrinth grows as deep / as the size of yo'
+  R1196 g69: pages=[5] worst=5 jp_pb=True EN='Girl B: Presentation / matters! That place / is perfect!\nGirl A: Right'
+  R1197 g383: pages=[5] worst=5 jp_pb=False EN="I was tied up, / they cast some / spell, and I / don't remember / afte"
+  R1197 g591: pages=[5] worst=5 jp_pb=False EN='Go to the 1st / floor and climb / the largest / staircase on the / mid'
+  R1197 g657: pages=[5] worst=5 jp_pb=False EN="The problem isn't / failing to add / the medicine but / that the water"
+  R1197 g658: pages=[5] worst=5 jp_pb=False EN='We must warn / people on the / message board / before something / terr'
+  R1197 g674: pages=[5] worst=5 jp_pb=False EN='Despite your help / dissolving the / medicine, my / workload keeps / i'
+  R1197 g676: pages=[5] worst=5 jp_pb=False EN='So as written in / the request, / please go down / to the 2nd floor / '
+  R1197 g679: pages=[5] worst=5 jp_pb=False EN='Despite warning / about poison on / the message board / some people st'
+  R1197 g680: pages=[5] worst=5 jp_pb=False EN="Really, if you're / an adventurer / you should use the / message board"
+  R1197 g700: pages=[5] worst=5 jp_pb=False EN='Though personally / I wish young / adventurers would / be MORE cautiou'
+  R1197 g900: pages=[5] worst=5 jp_pb=False EN="I'll pay any / sum. Please look / into what made / Simzon end / up lik"
+  R1197 g923: pages=[5] worst=5 jp_pb=False EN="courted and / dreaded across / Venoa. I'd not / wish to see him / so b"
+  R1197 g924: pages=[5] worst=5 jp_pb=False EN='That those who / live by the blade / may one day / fall, I do not / di'
+  R1197 g927: pages=[5] worst=5 jp_pb=False EN='I must know. What / destroyed his / band and stole / the light from / '
+  R1197 g929: pages=[5] worst=5 jp_pb=False EN='Take me with you / into the maze, / and grant me / the chance to / fin'
+  R1197 g937: pages=[5] worst=5 jp_pb=False EN='Composing / herself, the / knight slipped / out of the / tavern.'
+  R1198 g10: pages=[5] worst=5 jp_pb=False EN='Adv. C: They got the / cushy jobs! / Adv. A: Hmph! Unfair!'
+  R1198 g30: pages=[5] worst=5 jp_pb=False EN='In the labyrinth, / preparation and calm / outweigh raw courage.'
+  R1199 g0: pages=[5] worst=5 jp_pb=False EN='The Medal filled with / the power of valor / returned to the gods.'
+  R1199 g8: pages=[5] worst=5 jp_pb=False EN='The one freed from / the long sleep was the / alchemist Guillaume.'
+  R1199 g16: pages=[5] worst=5 jp_pb=False EN='Can only be obtained / by a skilled party / who completes a quest.'
+  R1199 g17: pages=[5] worst=5 jp_pb=False EN='Even if one obtains / it, should the wearer / die, the power fades.'
+  R1199 g18: pages=[5] worst=5 jp_pb=False EN='The gods tried to / overcome this with a / sword sealing souls.'
+  R1199 g28: pages=[5] worst=5 jp_pb=False EN='It is impossible-- / beings that think on / their own with skill.'
+  R1199 g32: pages=[5] worst=5 jp_pb=False EN='Guillaume gazed at / the Automata waiting / in the deep chamber.'
+  R1199 g45: pages=[5] worst=5 jp_pb=False EN='The name they just / gave seems to be what / they were once called.'
+  R1199 g46: pages=[5] worst=5 jp_pb=False EN='I asked many things, / but sadly, it knows / nothing beyond that.'
+  R1199 g50: pages=[5] worst=5 jp_pb=False EN='But to my knowledge, / no magic or device / could do such damage.'
+  R1199 g66: pages=[5] worst=5 jp_pb=False EN='perhaps the ancients / had no concept of / spells or abilities.'
+  R1199 g72: pages=[5] worst=5 jp_pb=False EN='Focus on power, / or build for speed-- / the choice is yours.'
+  R1199 g143: pages=[5] worst=5 jp_pb=False EN="Gradually Milly's / smile became forced, / then turned to anger."
+  R1200 g0: pages=[5] worst=5 jp_pb=False EN='The Medal filled with / the power of valor / returned to the gods.'
+  R1200 g18: pages=[5] worst=5 jp_pb=False EN='The quiet sound of / a pipe organ and / a chorus reading / scriptures '
+  R1200 g45: pages=[5] worst=5 jp_pb=False EN='Those who need you / now are not the / troops but the people / in this'
+  R1200 g49: pages=[5] worst=5 jp_pb=False EN='The one weapon of / the holy temple / must shield the people / from al'
+  R1200 g53: pages=[5] worst=5 jp_pb=False EN="That labyrinth is / shrouded in darkness / where God's voice / cannot "
+  R1200 g59: pages=[5] worst=5 jp_pb=False EN="The labyrinth's / darkness is endless. / Such deep darkness / can brea"
+  R1200 g75: pages=[5] worst=5 jp_pb=False EN='In any case, / alchemy and magic / have advanced too / fast, and recov'
+  R1200 g76: pages=[5] worst=5 jp_pb=False EN='Because of this, / Salem Temple, / which should be / revered, is treat'
+  R1200 g79: pages=[5] worst=5 jp_pb=False EN='Treatment and / healing should not / be done hastily / with herbs or m'
+  R1200 g80: pages=[5] worst=5 jp_pb=False EN='Quick healing means / quick harm -- that is, / treating life / careles'
+  R1200 g96: pages=[5] worst=5 jp_pb=False EN='I hate to ask, / but I need someone / to die and be / brought back to '
+  R1200 g99: pages=[5] worst=5 jp_pb=False EN='So please act as / though you are truly / mourning your leader.'
+  R1200 g103: pages=[5] worst=5 jp_pb=False EN="I'll give you / a copy of the / scenario. Please / memorize it before "
+  R1200 g122: pages=[5] worst=5 jp_pb=False EN='Before explaining / the task from the / tavern, I need you / to hear t'
+  R1200 g126: pages=[5] worst=5 jp_pb=False EN='Because of this, / Salem Temple, / which should be / revered, is treat'
+  R1201 g0: pages=[5] worst=5 jp_pb=False EN='The Medal filled with / the power of valor / returned to the gods.'
+  R1201 g10: pages=[5] worst=5 jp_pb=False EN='Oh... is something / wrong? What has this / old fool done to / trouble'
+  R1201 g19: pages=[5] worst=5 jp_pb=False EN='Do you not / remember the priest / who prayed for / your safe return /'
+  R1201 g21: pages=[5] worst=5 jp_pb=False EN='You said you would / reclaim your honor / and rebuild the / town she d'
+  R1201 g50: pages=[5] worst=5 jp_pb=False EN='Please consider / this your duty / to the late wife / who raised me / '
+  R1201 g75: pages=[5] worst=5 jp_pb=False EN='The labyrinth, / monsters, the town / is being overrun, / and even the'
+  R1201 g76: pages=[5] worst=5 jp_pb=False EN="It's all because / of the witch in / the labyrinth. But / nobody's fou"
+  R1201 g86: pages=[5] worst=5 jp_pb=False EN='A terrifying / prophecy! The town / will be engulfed / in light and / '
+  R1201 g95: pages=[5] worst=5 jp_pb=False EN='At the front desk, / a dwarf warrior / and the elf clerk / were in a h'
+  R1201 g106: pages=[5] worst=5 jp_pb=False EN="The warrior / suddenly said / 'Oops!' and rubbed / his face sheepishly"
+  R1201 g123: pages=[5] worst=5 jp_pb=False EN="With a booming / laugh rivaling / Beltan's, the man / headed for the /"
+  R1201 g126: pages=[5] worst=5 jp_pb=False EN="'A Lodging Ticket, / I see. When you / check out, we will / refund the"
+  R1201 g144: pages=[5] worst=5 jp_pb=False EN='One who gains the / knowledge within / may become a / samurai -- a / w'
+  R1201 g146: pages=[5] worst=5 jp_pb=False EN='Now then, I shall / set out on my / journey with this / sword. Farewel'
+  R1201 g150: pages=[5] worst=5 jp_pb=True EN="Clerk: I'm sorry, / our guest has / instructed us not / to let anyone "
+  R1201 g157: pages=[5] worst=5 jp_pb=False EN='Th-This is...! / What beautiful / craftsmanship! / Exactly what I / so'
+  R1201 g162: pages=[5] worst=5 jp_pb=False EN='This is a famed / blade only a / skilled samurai / can wield -- the / '
+  R1201 g168: pages=[5] worst=5 jp_pb=False EN='Seeking further / glory, I shall / embark on an even / more perilous /'
+  R1202 g0: pages=[5] worst=5 jp_pb=False EN='The Medal filled with / the power of valor / returned to the gods.'
+  R1202 g8: pages=[5] worst=5 jp_pb=False EN='An orc who had / been tending the / shop, upon seeing / the Entry Shee'
+  R1202 g10: pages=[5] worst=5 jp_pb=False EN='The orc snatched / the Entry Sheet / from you and / examined it closel'
+  R1202 g37: pages=[5] worst=5 jp_pb=False EN='The room she led / you to was neat / and tidy, unlike / the run-down s'
+  R1202 g38: pages=[5] worst=5 jp_pb=False EN='This room alone / was as spacious / as the shop, / showing the / wealt'
+  R1202 g40: pages=[5] worst=5 jp_pb=False EN="I'll start the / interview now. / Let me go get / the interviewer. / W"
+  R1202 g47: pages=[5] worst=5 jp_pb=False EN='At first glance / he looked the same, / but the voice was / different '
+  R1202 g51: pages=[5] worst=5 jp_pb=False EN='Found it! Here it / is! They said this / was important, / so I put it '
+  R1202 g53: pages=[5] worst=5 jp_pb=False EN='The orc stared / intently at the / memo and began / reading the messy '
+  R1202 g54: pages=[5] worst=5 jp_pb=False EN='Next, do the / interview! Uhh, / hire whoever / answers properly! / Th'
+  R1202 g58: pages=[5] worst=5 jp_pb=False EN="Anyway, you're / human either way, / so no problem! / Let's start the "
+  R1202 g62: pages=[5] worst=5 jp_pb=False EN="If the boss says / non-humans can't / work here, then / she'll fire ya"
+  R1202 g81: pages=[5] worst=5 jp_pb=False EN="Mott licked his / finger, wrote / 'K-I-N-D' on his / memo, mouthing / "
+  R1202 g83: pages=[5] worst=5 jp_pb=False EN="Mott licked his / finger, wrote / 'H-A-R-S-H' on / his memo, mouthing "
+  R1202 g137: pages=[5] worst=5 jp_pb=False EN="Yet Mott showed / a happy smile, / as if he'd been / hoping you / woul"
+  R1202 g143: pages=[5] worst=5 jp_pb=False EN="I'll tell her / you have a very / important secret / reason for needin"
+  R1202 g155: pages=[5] worst=5 jp_pb=False EN="She'll check / with the tavern / and guild, then / give the final / re"
+  R1202 g193: pages=[5] worst=5 jp_pb=False EN="Quite the eager / one, aren't you? / Well, nobody else / applied, so /"
+  R1202 g199: pages=[5] worst=5 jp_pb=False EN="It's a pain to / carry everything, / so store stuff / you want to keep"
+  R1202 g201: pages=[5] worst=5 jp_pb=False EN='Even as a newbie, / you should know / the sales records / of the place'
+  R1202 g227: pages=[5] worst=5 jp_pb=False EN='Hey, Notch told me / something. You / know about the / government requ'
+  R1202 g229: pages=[5] worst=5 jp_pb=False EN='You stopped Lucy / from rushing out / and showed her / the documents /'
+  R1202 g234: pages=[5] worst=5 jp_pb=False EN='Lucy grabbed a / pen from the / counter and / filled in the / form on '
+  R1202 g238: pages=[5] worst=5 jp_pb=False EN='You reported about / the request from / Layman and that / you obtained'
+  R1202 g244: pages=[5] worst=5 jp_pb=False EN="I'll tell the / same carpenter / doing our / warehouse to / handle it."
+  R1202 g245: pages=[5] worst=5 jp_pb=False EN='Oh, and if you / find any good / spots in the / labyrinth, let / me kn'
+  R1202 g254: pages=[5] worst=5 jp_pb=False EN='Mott, who had / been at the / counter, came / out to greet / the visit'
+  R1202 g290: pages=[5] worst=5 jp_pb=False EN="We registered as / adventurers too, / to go into the / labyrinth. We'r"
+  R1202 g291: pages=[5] worst=5 jp_pb=False EN='We all worked / so hard together, / our party is / bound by strong / b'
+  R1202 g298: pages=[5] worst=5 jp_pb=False EN="From the memories / in the bracelet, / you obtained the / battle art '"
+  R1203 g109: pages=[5] worst=5 jp_pb=False EN='Good to have a / potential. Being / able to learn / many spells is nic'
+  R1203 g124: pages=[5] worst=5 jp_pb=False EN="Good to have a / potential. You / can freeze anything! / Don't spin me"
+  R1203 g127: pages=[5] worst=5 jp_pb=False EN='Good to have a / potential. You / heal allies just / by looking! Amazi'
+  R1203 g174: pages=[5] worst=5 jp_pb=False EN="Your skill is still / developing, but / soon you'll draw out / any ite"
+  R1203 g397: pages=[5] worst=5 jp_pb=False EN='Suddenly, an / unknown woman / grabbed your / shoulder from behind.'
+  R1203 g450: pages=[5] worst=5 jp_pb=False EN='Products are in / the back boxes. / Payment in the / front box. Please'
+  R1203 g491: pages=[5] worst=5 jp_pb=False EN='Notice: Self-Shop / is permanently / closed due to / theft. Thank you '
+  R1203 g644: pages=[5] worst=5 jp_pb=False EN="Indeed, I've been / here before but / not often. It's / impressive eac"
+  R1203 g675: pages=[5] worst=5 jp_pb=False EN="A weapon master's / treasure. Very / rare. Please cherish / it."
+  R1203 g733: pages=[5] worst=5 jp_pb=False EN="According to my / research, it's / near a corner / on floor 1. / A col"
+  R1203 g736: pages=[5] worst=5 jp_pb=False EN="Can't get out! / Darn it! If this / lock opened, the / exploration / w"
+  R1203 g747: pages=[5] worst=5 jp_pb=False EN="Meanwhile, I'll / investigate the / weapons and / devices in this / ma"
+  R1203 g756: pages=[5] worst=5 jp_pb=False EN="Meanwhile, I'll / investigate the / weapons and / devices in this / ma"
+  R1203 g768: pages=[5] worst=5 jp_pb=False EN="I've been gathering / info from my / adventures and / decided to open "
+  R1203 g772: pages=[5] worst=5 jp_pb=False EN="Just as she / disappeared, a / recipe list / she'd tossed fell / to th"
+  R1203 g779: pages=[5] worst=5 jp_pb=False EN="I've been gathering / info from my / adventures and / decided to open "
+  R1203 g783: pages=[5] worst=5 jp_pb=False EN='As she opened / the door, Lidi / remembered and / pulled out a list / '
+  R1203 g798: pages=[5] worst=5 jp_pb=False EN="Dear soldiers, / sorry! I broke a / wall practicing. / I'll fix it! / "
+  R1203 g864: pages=[5] worst=5 jp_pb=False EN='Behind the door, / the room was / filled with / strange air and / a mu'
+  R1203 g871: pages=[5] worst=5 jp_pb=False EN='The monster / stared intently / at a normal- / looking door, / mutteri'
+  R1203 g876: pages=[5] worst=5 jp_pb=False EN="I heard there's / treasure that'd / make even orcs / drool in a hidden"
+  R1203 g877: pages=[5] worst=5 jp_pb=False EN='If you can pass / through the wall, / there must be a / hidden room! M'
+  R1203 g878: pages=[5] worst=5 jp_pb=False EN='The monster / backed up and / threw itself at / the door with / all it'
+  R1203 g879: pages=[5] worst=5 jp_pb=False EN='The monster / backed up and / threw itself at / the wall with / all it'
+  R1203 g880: pages=[5] worst=5 jp_pb=False EN='The monster / backed up and / threw itself at / the door with / all it'
+  R1203 g882: pages=[5] worst=5 jp_pb=False EN="But its body / didn't pass / through, and it / crashed to the / ground"
+  R1203 g901: pages=[5] worst=5 jp_pb=False EN='As a proud Guard, / I will fight to / the last to / protect the city /'
+  R1203 g904: pages=[5] worst=5 jp_pb=False EN="No, let them / through. They're / the new expedition / leader. Let the"
+  R1203 g915: pages=[5] worst=5 jp_pb=False EN='You will now / descend to the / area where the / floor master / reside'
+  R1203 g982: pages=[5] worst=5 jp_pb=False EN='Because many / adventurers and / Guard soldiers / are in the / labyrin'
+  R1203 g983: pages=[5] worst=5 jp_pb=False EN="If you're not / wearing it, you / could be attacked / and no one would"
+  R1203 g985: pages=[5] worst=5 jp_pb=False EN='At the resting / area ahead, you / can learn about / treasure chests /'
+  R1203 g986: pages=[5] worst=5 jp_pb=False EN='If this is your / first time in / a labyrinth, it / would be wise / to'
+  R1203 g988: pages=[5] worst=5 jp_pb=False EN='Inside the maze, / you could hear / the Guard / soldiers busily / work'
+  R1203 g1010: pages=[5] worst=5 jp_pb=False EN='Despite fighting / a Demon, she / walked over / calmly without / a sin'
+  R1203 g1019: pages=[5] worst=5 jp_pb=False EN='Reckless / confidence only / reveals its true / cost when you / stumbl'
+  R1203 g1037: pages=[5] worst=5 jp_pb=False EN='The clerks here / are tough but / know nothing / about traps or / trea'
+  R1203 g1085: pages=[5] worst=5 jp_pb=False EN='You know what / traps are, right? / Basically snares / on chests and /'
+  R1203 g1090: pages=[5] worst=5 jp_pb=False EN='Thieves and gizoku / help, but / ultimately you / train your own hands'
+  R1203 g1097: pages=[5] worst=5 jp_pb=False EN="Ingo: Tell them / Ingo's done with / this nonsense and / went to find "
+  R1203 g1116: pages=[5] worst=5 jp_pb=False EN="I'd like to / explain the / Fighting Priest / I've been / studying."
+  R1203 g1117: pages=[5] worst=5 jp_pb=False EN='People think / priests only / heal, but they / actually excel / in com'
+  R1203 g1121: pages=[5] worst=5 jp_pb=False EN="I was a priest / and always the / healer, but that / wasn't because / "
+  R1203 g1125: pages=[5] worst=5 jp_pb=False EN='If you equip one / without checking / first, you could / be in big / t'
+  R1203 g1126: pages=[5] worst=5 jp_pb=False EN="You can't unequip / it, it drains HP, / weakens you -- / all sorts of "
+  R1203 g1127: pages=[5] worst=5 jp_pb=False EN='Powerful curses / can affect you / just by having / the item, even / w'
+  R1203 g1138: pages=[5] worst=5 jp_pb=False EN='I was testing a / new spell but it / failed and the / zombie just fell'
+  R1203 g1139: pages=[5] worst=5 jp_pb=False EN="That zombie / sleeping in the / corner could / wake up anytime. / I'm "
+  R1203 g1143: pages=[5] worst=5 jp_pb=False EN='Before, we used / books, but since / they found how / to craft scrolls'
+  R1203 g1144: pages=[5] worst=5 jp_pb=False EN='Monsters drop / special reagents / that the Alchemy / Guild can use to'
+  R1203 g1150: pages=[5] worst=5 jp_pb=False EN='Some monsters / use coordinated / attacks, like / combination / techni'
+  R1203 g1152: pages=[5] worst=5 jp_pb=False EN='Two charge at / once, or they / buff each other / as a team / strategy'
+  R1203 g1153: pages=[5] worst=5 jp_pb=False EN="We're studying / these tactics / too, but team / coordination / is ver"
+  R1203 g1154: pages=[5] worst=5 jp_pb=False EN="Even if someone / learns it, the / coordination / can't simply / be ta"
+  R1203 g1155: pages=[5] worst=5 jp_pb=False EN="I learned a move / called W-Slash / from the captain / but can't pull "
+  R1203 g1157: pages=[5] worst=5 jp_pb=False EN='A technique / requiring exact / coordination / is no true / technique '
+  R1203 g1159: pages=[5] worst=5 jp_pb=False EN="And even then, / a technique you / can't replicate / reliably is / use"
+  R1203 g1171: pages=[5] worst=5 jp_pb=False EN='Rescue squads / carry wounded / and fallen / adventurers / back to tow'
+  R1203 g1181: pages=[5] worst=5 jp_pb=False EN='Wounds covered / her entire body, / and her clothes / were soaked / in'
+  R1203 g1214: pages=[5] worst=5 jp_pb=False EN='An extremely / precious gem is / set in the center, / sealed by baked '
+  R1203 g1220: pages=[5] worst=5 jp_pb=False EN='Soldier: Captain! / Here! / Captain: Is / Regina safe? / Soldier: Unkn'
+  R1203 g1241: pages=[5] worst=5 jp_pb=False EN='Belgradno gave / orders to the / Guard and sent / them to the / castle'
+  R1203 g1253: pages=[5] worst=5 jp_pb=False EN='We need to / investigate this / area, so entry / is restricted / for n'
+  R1203 g1267: pages=[5] worst=5 jp_pb=False EN='A feast indeed! / To wash away / his stained soul, / fight alongside /'
+  R1203 g1362: pages=[5] worst=5 jp_pb=False EN='I heard they / were captured by / the Duhan Guard, / so I assumed / th'
+  R1203 g1365: pages=[5] worst=5 jp_pb=False EN="I don't know / anything about / amnesty, but / why would Ortrud / do s"
+  R1203 g1370: pages=[5] worst=5 jp_pb=False EN="He's the / unspeakably / vile leader of / the infamous / knight order."
+  R1203 g1375: pages=[5] worst=5 jp_pb=False EN='But if he was / pardoned, his / gang must be / hiding somewhere / with'
+  R1203 g1402: pages=[5] worst=5 jp_pb=False EN='About the / coordinated / combat technique / monsters use, / called Al'
+  R1203 g1407: pages=[5] worst=5 jp_pb=False EN='They enter the / battlefield in / formation, don / armor, and / march '
+  R1203 g1408: pages=[5] worst=5 jp_pb=False EN='Their fluid / coordinated / strikes produce / devastating / attacks.'
+  R1203 g1409: pages=[5] worst=5 jp_pb=False EN="Their movements / are so in sync, / it's like / watching a / single or"
+  R1203 g1410: pages=[5] worst=5 jp_pb=False EN='Everyone wants / to know how, and / kings would pay / anything to / re'
+  R1203 g1413: pages=[5] worst=5 jp_pb=False EN="Any nation that / obtained it / wouldn't share / it unless / starting "
+  R1203 g1420: pages=[5] worst=5 jp_pb=False EN='Through team / coordination, / they try to / eliminate one / enemy at '
+  R1203 g1424: pages=[5] worst=5 jp_pb=False EN='So most people / know about it / but give up on / it as a pipe / dream'
+  R1203 g1465: pages=[5] worst=5 jp_pb=False EN="Venoa's peace / depends on King / Ortrud and the / Order working / tog"
+  R1203 g1466: pages=[5] worst=5 jp_pb=False EN='If word gets out / they hired / outlaws, war / will break out / again '
+  R1203 g1509: pages=[5] worst=5 jp_pb=False EN='As you may have / noticed, Alleid / could shift the / balance of power'
+  R1203 g1510: pages=[5] worst=5 jp_pb=False EN='Alleid is the / coordinated / attack that only / monsters were / thoug'
+  R1203 g1512: pages=[5] worst=5 jp_pb=False EN='The flawless / coordination / needed takes / an enormous / amount of t'
+  R1203 g1513: pages=[5] worst=5 jp_pb=False EN='Even if you / master it, / passing it on / is also / extremely hard.'
+  R1203 g1514: pages=[5] worst=5 jp_pb=False EN='So most people / know about it / but give up on / it as a pipe / dream'
+  R1203 g1520: pages=[5] worst=5 jp_pb=False EN="I'll head back / to town to / prepare. Come / to the inn when / you're"
+  R1203 g1524: pages=[5] worst=5 jp_pb=False EN='Their ID / bracelets hold / the powerful / will of the / dying.'
+  R1203 g1525: pages=[5] worst=5 jp_pb=False EN='So finding those / bracelets is / the fastest way / to discover / Alle'
+  R1203 g1531: pages=[5] worst=5 jp_pb=False EN="Oh, if you're / interested in / Alleid, search / for dead / adventurer"
+  R1203 g1532: pages=[5] worst=5 jp_pb=False EN='Their ID / bracelets hold / the powerful / will of the / dying.'
+  R1203 g1534: pages=[5] worst=5 jp_pb=False EN='At the bottom / of the stairs, / you can see / dirty rags. / Pick them'
+  R1203 g1539: pages=[5] worst=5 jp_pb=False EN='Behind the / barrel, a / colorful place / is partially / visible.'
+  R1203 g1579: pages=[5] worst=5 jp_pb=False EN='Look at this / room! Something / suspicious is / definitely / going on'
+  R1203 g1582: pages=[5] worst=5 jp_pb=False EN="The legendary / cursed armor / that San-Goth's / General Barnard / sup"
+  R1203 g1583: pages=[5] worst=5 jp_pb=False EN='It belonged to / the sorcerer / who once plunged / Venoa into / terror'
+  R1203 g1585: pages=[5] worst=5 jp_pb=False EN="About a year / ago, it went / missing from / San-Goth's / treasure vau"
+  R1203 g1589: pages=[5] worst=5 jp_pb=False EN='You know about / the death wand / that possessed / General William? / '
+  R1203 g1598: pages=[5] worst=5 jp_pb=False EN='General William / gained power / over death / through its dark / curse'
+  R1203 g1612: pages=[5] worst=5 jp_pb=False EN='But with that / medal, you can / see them under / normal / conditions!'
+  R1203 g1622: pages=[5] worst=5 jp_pb=False EN='Cutting my pay / because the / research budget / is tight? / Unforgiva'
+  R1203 g1623: pages=[5] worst=5 jp_pb=False EN="Ah, never mind / that! It's been / a while since / I've been in / the "
+  R1204 g21: pages=[5] worst=5 jp_pb=False EN='The dark worms / wriggled like / living creatures / and coiled around '
+  R1204 g23: pages=[5] worst=5 jp_pb=False EN='It was clearly a / different being, / yet it tried to / make them subm'
+  R1204 g30: pages=[5] worst=5 jp_pb=False EN='In the damp / darkness, the / smell of rot and / sour stench / hung th'
+  R1204 g41: pages=[5] worst=5 jp_pb=False EN='The figure / noticed the / party and leapt / out from / the room.'
+  R1204 g43: pages=[5] worst=5 jp_pb=False EN='The figure let / out an insane / shriek and hurled / a knife, charging'
+  R1204 g44: pages=[5] worst=5 jp_pb=False EN='The attacks were / not that strong. / Swinging wildly, / the strikes h'
+  R1204 g64: pages=[5] worst=5 jp_pb=False EN='Born as soldiers / having to perish / in a place like / this instead o'
+  R1204 g68: pages=[5] worst=5 jp_pb=False EN='The time when / life confronts / death is when / the strongest / emoti'
+  R1204 g69: pages=[5] worst=5 jp_pb=False EN='They were / soldiers but / were hunted, and / became victims / of this'
+  R1204 g79: pages=[5] worst=5 jp_pb=False EN='What do they / gain from it? / It only makes / the labyrinth / harder '
+  R1204 g80: pages=[5] worst=5 jp_pb=False EN='The real culprit / may not be the / cowards, but / someone behind / th'
+  R1204 g81: pages=[5] worst=5 jp_pb=False EN="Well, I'm off. / Something more / interesting is / happening deeper / "
+  R1204 g87: pages=[5] worst=5 jp_pb=False EN='Some tended the / wounded, others / carried supplies / all moving with'
+  R1204 g88: pages=[5] worst=5 jp_pb=False EN='You called out / to a soldier and / reported the / quest from / Samuel'
+  R1204 g91: pages=[5] worst=5 jp_pb=False EN="You told Lutz / about Samuel's / request to / escort the / 15th squad."
+  R1204 g116: pages=[5] worst=5 jp_pb=False EN='Emerging from / the fog was / Simzon, the man / from the city / entran'
+  R1204 g117: pages=[5] worst=5 jp_pb=False EN="Simzon's face / was bloody and / his body / trembled / violently."
+  R1204 g145: pages=[5] worst=5 jp_pb=False EN="Best of 5! But / if you lose, / I'll give a / prize based on / your wi"
+  R1204 g225: pages=[5] worst=5 jp_pb=False EN='Some dead / adventurer was / clutching this / like it was / precious.'
+  R1204 g227: pages=[5] worst=5 jp_pb=False EN='Probably rare / too. But I only / care about orc / goods, so take / it'
+  R1204 g264: pages=[5] worst=5 jp_pb=False EN='Across the / bridge, a man / leaned against / the wall, as if / waitin'
+  R1204 g279: pages=[5] worst=5 jp_pb=False EN='The man stood / unsteadily, his / face drained of / color like a / dea'
+  R1204 g280: pages=[5] worst=5 jp_pb=False EN="If not for / orders, I'd / never come to / a creepy place / like this."
+  R1204 g281: pages=[5] worst=5 jp_pb=False EN='The stench of / death hangs in / the air no / matter where / I turn.'
+  R1204 g283: pages=[5] worst=5 jp_pb=False EN='But this is / different! This / is completely / different from / befor'
+  R1204 g286: pages=[5] worst=5 jp_pb=False EN="The man's face / twitched, and he / waved his arms / as if warding / s"
+  R1204 g303: pages=[5] worst=5 jp_pb=False EN='I will return / to the castle / and organize / a new strike / force.'
+  R1204 g316: pages=[5] worst=5 jp_pb=False EN='On the floor / just ahead, / orcs are / freaking out / about attacks.'
+  R1204 g318: pages=[5] worst=5 jp_pb=False EN="I've been here / many times and / it was safe. / What the heck / is go"
+  R1204 g389: pages=[5] worst=5 jp_pb=False EN="No need to be / shy! Who / wouldn't want / such a great / deal?"
+  R1204 g393: pages=[5] worst=5 jp_pb=False EN="Half-listen, / that's fine! / I'll give a / pamphlet when / you join."
+  R1204 g396: pages=[5] worst=5 jp_pb=False EN='Vigger Friends / is about / building up / Vigger Shop / together!'
+  R1204 g427: pages=[5] worst=5 jp_pb=False EN="The board reads: / 'Sorry, currently / preparing. / Come back / later."
+  R1204 g428: pages=[5] worst=5 jp_pb=False EN="The board reads: / 'Sorry, currently / preparing. / Come back / later."
+  R1204 g440: pages=[5] worst=5 jp_pb=False EN='How nice! / Nothing now, / but a great / talent will / surely awaken!'
+  R1204 g444: pages=[5] worst=5 jp_pb=False EN="Put money on / the counter. / I'm a ghost, / things pass / through me!"
+  R1204 g450: pages=[5] worst=5 jp_pb=False EN="Thank you! / I'll give you / 4 Vigger / Friends points / too."
+  R1204 g470: pages=[5] worst=5 jp_pb=False EN='Great potential! / Great at / killing demons / makes YOU the / real de'
+  R1204 g471: pages=[5] worst=5 jp_pb=False EN="Great potential! / But leave me / alone! Don't / kill me! I'm / alread"
+  R1204 g475: pages=[5] worst=5 jp_pb=False EN='Great potential! / They say misses / are fatal, / so few misses / is g'
+  R1204 g478: pages=[5] worst=5 jp_pb=False EN="Great potential! / Don't dissect / me though! No / rare drops from / g"
+  R1204 g480: pages=[5] worst=5 jp_pb=False EN="Great potential! / But being a / know-it-all / doesn't mean / you're s"
+  R1204 g481: pages=[5] worst=5 jp_pb=False EN="Great potential! / Being good at / running away / won't make you / str"
+  R1204 g482: pages=[5] worst=5 jp_pb=False EN="Great potential! / Turning things / to stone? Wow! / Don't use it / on"
+  R1204 g484: pages=[5] worst=5 jp_pb=False EN='Great potential! / Such magical / power! You / could teach at / Jugurt'
+  R1204 g486: pages=[5] worst=5 jp_pb=False EN="Great potential! / Drawing out / an item's true / power is / wondrous!"
+  R1204 g493: pages=[5] worst=5 jp_pb=False EN='Gaining / knowledge seems / key to / developing your / potential.'
+  R1204 g494: pages=[5] worst=5 jp_pb=False EN='Your potential / works best with / high INT, so / studying is / the be'
+  R1204 g499: pages=[5] worst=5 jp_pb=False EN="Eventually / you'll seek out / strong monsters / rather than / fear th"
+  R1204 g512: pages=[5] worst=5 jp_pb=False EN='Then you can / predict enemy / moves and / prevent / mistakes!'
+  R1204 g524: pages=[5] worst=5 jp_pb=False EN='Being a know- / it-all is a / talent too. / Better than / being hated!'
+  R1204 g527: pages=[5] worst=5 jp_pb=False EN="Even if a / novice grabs a / strong weapon, / they can't draw / out it"
+  R1204 g528: pages=[5] worst=5 jp_pb=False EN="Normally / people don't / use mismatched / gear, but / you're differen"
+  R1204 g529: pages=[5] worst=5 jp_pb=False EN="Your potential / is dormant, but / you'll wield / mismatched gear / ef"
+  R1204 g530: pages=[5] worst=5 jp_pb=False EN="Accessories are / useless on / those who can't / draw out their / pote"
+  R1204 g531: pages=[5] worst=5 jp_pb=False EN="People don't / equip beyond / their level, / but you're / different."
+  R1204 g532: pages=[5] worst=5 jp_pb=False EN="Your potential / is dormant, but / you'll wear any / accessory / effec"
+  R1204 g535: pages=[5] worst=5 jp_pb=False EN="Once potential / awakens and / you build magic / you'll grow / amazing"
+  R1204 g540: pages=[5] worst=5 jp_pb=False EN='Your affinity / with objects / seems better / than with / people!'
+  R1204 g553: pages=[5] worst=5 jp_pb=False EN='Not a member? / Lottery is / members-only! / Sign up if / interested!'
+  R1204 g625: pages=[5] worst=5 jp_pb=False EN='Romi unwrapped / the package and / pulled out a / white treasure / swo'
+  R1204 g638: pages=[5] worst=5 jp_pb=False EN='When mom was / alive, she / always wore one / and I admired / it so mu'
+  R1204 g649: pages=[5] worst=5 jp_pb=False EN='If places like / this were in / the city, Duhan / would be / livelier.'
+  R1204 g650: pages=[5] worst=5 jp_pb=False EN='Ordinarily / only brave / adventurers / visit from / elsewhere now.'
+  R1204 g654: pages=[5] worst=5 jp_pb=False EN="From the / bracelet's / memories, you / learned a new / Alleid."
+  R1204 g675: pages=[5] worst=5 jp_pb=False EN='From behind, / a cold voice / called out and / grabbed your / arm.'
+  R1204 g702: pages=[5] worst=5 jp_pb=False EN="Don't worry, / I talk big but / I'd never / stoop to / blackmail."
+  R1204 g703: pages=[5] worst=5 jp_pb=False EN="Farewell. If / you're feeling / adventurous, / check this / spring aga"
+  R1204 g707: pages=[5] worst=5 jp_pb=False EN="Adventurers are / hopeless. Be / smarter or / you'll regret / it later"
+  R1204 g737: pages=[5] worst=5 jp_pb=False EN='What a useless / thing. This is / how you deal / with such / items!'
+  R1204 g744: pages=[5] worst=5 jp_pb=False EN='Farewell. If / life gets you / down, drink / from this / spring. Heheh'
+  R1204 g766: pages=[5] worst=5 jp_pb=False EN='The wizard / finished, / tossed the / bottle, and / stood up.'
+  R1204 g773: pages=[5] worst=5 jp_pb=False EN='The spring is / dangerous. I / put stronger / poison in / this time!'
+  R1204 g825: pages=[5] worst=5 jp_pb=False EN="I'm here floors / 6-15. Bring an / eyeless being / when you have / one"
+  R1204 g835: pages=[5] worst=5 jp_pb=False EN='An Automata / needs 1188000 / EXP for the / eye. Keep that / in mind.'
+  R1204 g868: pages=[5] worst=5 jp_pb=False EN='I read the art. / Currently / researching / ancient elven / royal reli'
+  R1204 g907: pages=[5] worst=5 jp_pb=False EN="I'll examine / it at home. / Time to leave / this damp / place!"
+  R1204 g918: pages=[5] worst=5 jp_pb=False EN='Even this small / it can enter / your body and / eat you from / inside'
+  R1204 g940: pages=[5] worst=5 jp_pb=False EN='The Skedim you / fought is / normally / impossible to / encounter!'
+  R1204 g941: pages=[5] worst=5 jp_pb=False EN='They need a / great portal / to appear. I / call it a / demon gate.'
+  R1204 g942: pages=[5] worst=5 jp_pb=False EN='To summon / Skedim, an / equally great / portal is / needed.'
+  R1204 g945: pages=[5] worst=5 jp_pb=False EN='Only in a / sealed space / teeming with / monsters, death / and terror'
+  R1205 g19: pages=[5] worst=5 jp_pb=False EN='At the scrap / heap, monsters / were humming / tunes while / working.'
+  R1205 g34: pages=[5] worst=5 jp_pb=False EN="Labyrinth's / most stylish / handcrafted / items, super / sale!"
+  R1205 g37: pages=[5] worst=5 jp_pb=False EN="Labyrinth's / most stylish / handcrafted / items, super / sale!"
+  R1205 g41: pages=[5] worst=5 jp_pb=False EN='It looked as if / a huge force had / torn it apart. / The room was / i'
+  R1205 g42: pages=[5] worst=5 jp_pb=False EN='Adventurer corpses / hung from the / walls, and blood / was splattered'
+  R1205 g48: pages=[5] worst=5 jp_pb=False EN='You hurriedly / removed the / debris and found / a man lying / beneath'
+  R1205 g56: pages=[5] worst=5 jp_pb=False EN='"We were on an / investigation, / damn it! It was / the witch! She / a'
+  R1205 g60: pages=[5] worst=5 jp_pb=False EN='"I had a bad / premonition / and collapsed. / I was dizzy / and puking'
+  R1205 g77: pages=[5] worst=5 jp_pb=False EN='No matter how / long I waited, / no one came, / so I came to / see you'
+  R1205 g81: pages=[5] worst=5 jp_pb=False EN="Don't tell me / this kingdom is / just mourning / its decaying / body?"
+  R1205 g83: pages=[5] worst=5 jp_pb=False EN='Ignoring the / blade, Aurora / continued in / a reciting / tone.'
+  R1205 g87: pages=[5] worst=5 jp_pb=False EN='Oh, there is / nothing more / lamentable than / the fall of / a brave '
+  R1205 g90: pages=[5] worst=5 jp_pb=False EN='One companion / suddenly slashed / at her. That was / the signal for /'
+  R1205 g92: pages=[5] worst=5 jp_pb=False EN='I was blown away / by the blast and / buried in debris / and passed ou'
+  R1205 g117: pages=[5] worst=5 jp_pb=False EN="This demon / seemed to be / the one from / Guillaume's / request."
+  R1205 g120: pages=[5] worst=5 jp_pb=False EN='And he wants / you to get the / treasure of / Dialant from / yours tru'
+  R1205 g133: pages=[5] worst=5 jp_pb=False EN='It was when / yours truly / went to the / scrapyard on / the 5th floor'
+  R1205 g134: pages=[5] worst=5 jp_pb=False EN='He was in a / very bad mood / because of all / the worthless / junk th'
+  R1205 g136: pages=[5] worst=5 jp_pb=False EN="You'll be / surprised! / It was an / ominous steel / head!"
+  R1205 g141: pages=[5] worst=5 jp_pb=False EN='It had been / waiting in that / filthy pile of / junk for seven / thou'
+  R1205 g144: pages=[5] worst=5 jp_pb=False EN="If I'd brought / it home, I could / have made an / immortal / leprecha"
+  R1205 g152: pages=[5] worst=5 jp_pb=False EN='When I finally / made it back to / floor 3, yours / truly dropped / th'
+  R1205 g153: pages=[5] worst=5 jp_pb=False EN='I thought I / could pick it up, / but the Skedim / was right behind / '
+  R1205 g164: pages=[5] worst=5 jp_pb=False EN="That's the / Automata head / yours truly / should have / brought back!"
+  R1205 g172: pages=[5] worst=5 jp_pb=False EN="You've become / the second guy / I've ever given / a second glance / t"
+  R1205 g182: pages=[5] worst=5 jp_pb=False EN='But once they / return, all / living things / become nothing / but fod'
+  R1205 g183: pages=[5] worst=5 jp_pb=False EN="You'd better / use your / cleverness to / sneak around / undetected."
+  R1205 g195: pages=[5] worst=5 jp_pb=False EN="When yours / truly's in a / good mood, / only the finest / goods appea"
+  R1205 g243: pages=[5] worst=5 jp_pb=False EN='My father, / a survivor of / Banquo, died / of a broken / heart.'
+  R1205 g245: pages=[5] worst=5 jp_pb=False EN='But he was not / defeated by / Ortrud. He was / defeated by the / Writ'
+  R1205 g250: pages=[5] worst=5 jp_pb=False EN='They are the / most ancient / deities and / dark weapons / that seal l'
+  R1205 g252: pages=[5] worst=5 jp_pb=False EN="I don't know / why they / appeared at / Banquo back / then."
+  R1205 g253: pages=[5] worst=5 jp_pb=False EN='But the two / armies were / certainly / devoured by / them.'
+  R1205 g258: pages=[5] worst=5 jp_pb=False EN='He was just / a warlord who / survived by / chance at / Banquo.'
+  R1205 g259: pages=[5] worst=5 jp_pb=False EN='I will prove / it by defeating / the Writhing / Demons once / and for '
+  R1205 g264: pages=[5] worst=5 jp_pb=False EN='To defeat them, / you must borrow / the power of / ancient elven / civ'
+  R1205 g269: pages=[5] worst=5 jp_pb=False EN='From the / memories in the / bracelet, you / learned a new / Alleid sk'
+  R1205 g276: pages=[5] worst=5 jp_pb=False EN='Lord Webster / surveyed the / labyrinth and / wore a pained / expressi'
+  R1205 g279: pages=[5] worst=5 jp_pb=False EN='Someone claims / to have seen / the late Lady / Oriana in the / labyri'
+  R1205 g281: pages=[5] worst=5 jp_pb=False EN='If someone is / besmirching her / name as a prank, / I cannot / overlo'
+  R1205 g282: pages=[5] worst=5 jp_pb=False EN='Of course, you / have the / important duty / of defeating / the witch.'
+  R1205 g283: pages=[5] worst=5 jp_pb=False EN="I hate to say / 'while you're at / it,' but as you / explore the / lab"
+  R1205 g284: pages=[5] worst=5 jp_pb=False EN='if you find any / information / about this, / please let / him know.'
+  R1205 g286: pages=[5] worst=5 jp_pb=False EN='From behind / Lord Webster, / a man clad in / black appeared / without'
+  R1205 g287: pages=[5] worst=5 jp_pb=False EN='His name is Zel. / He is assigned / to the Royal / Intelligence / Serv'
+  R1205 g289: pages=[5] worst=5 jp_pb=False EN='He handles / intelligence / gathering and / tracking for / the crown.'
+  R1205 g290: pages=[5] worst=5 jp_pb=False EN='If you find / any information / about the Lady, / please let / him kno'
+  R1205 g291: pages=[5] worst=5 jp_pb=False EN='In this matter, / someone like / him is more / useful than / the milit'
+  R1205 g311: pages=[5] worst=5 jp_pb=False EN="And aren't / those guys / employed by the / Duhan royal / family?"
+  R1205 g315: pages=[5] worst=5 jp_pb=False EN="Ingo scratched / his head, / puzzled. / Something / didn't add up."
+  R1205 g316: pages=[5] worst=5 jp_pb=False EN='The only things / that happened / were seeing / orcs hurrying / with b'
+  R1205 g318: pages=[5] worst=5 jp_pb=False EN='and picking up / this thing in / a room beyond / the dead-end / door.'
+  R1205 g322: pages=[5] worst=5 jp_pb=False EN='I was even / going to trick / the Vigger Shop / orc into buying / the '
+  R1205 g323: pages=[5] worst=5 jp_pb=False EN="Well, it's / bad luck, so / take it as / thanks for / saving me."
+  R1205 g326: pages=[5] worst=5 jp_pb=False EN='Why would they / try to kill me, / the number one / Aurora / investiga'
+  R1205 g335: pages=[5] worst=5 jp_pb=False EN='Orc C: "Grr..." / Orc D: "It\'s / our policy!" / Orc E: "Yeah! / All or'
+  R1205 g337: pages=[5] worst=5 jp_pb=False EN='Orc Leader: / "That\'s it! / I\'ve had it! / Time for / punishment!"'
+  R1205 g338: pages=[5] worst=5 jp_pb=False EN='The orc group / slowly closed / in on the / two female / orcs.'
+  R1205 g340: pages=[5] worst=5 jp_pb=False EN='The two female / orcs backed up / and, spotting / you, rushed / over.'
+  R1205 g347: pages=[5] worst=5 jp_pb=False EN='"We always / have to wear / dad\'s old / hand-me-down / pants!"'
+  R1205 g353: pages=[5] worst=5 jp_pb=False EN='After spacing / out for a / while, you / started to / doze off.'
+  R1205 g385: pages=[5] worst=5 jp_pb=False EN="Don't be shy! / Who wouldn't be / interested in / such a great / deal!"
+  R1205 g389: pages=[5] worst=5 jp_pb=False EN="Feel free to / listen casually! / I'll give you / a pamphlet / when yo"
+  R1205 g393: pages=[5] worst=5 jp_pb=False EN='Members who / pay the fee get / amazing / exclusive / services!'
+  R1205 g423: pages=[5] worst=5 jp_pb=False EN='The event / board reads: / "Restocking. / Please come / back later."'
+  R1205 g424: pages=[5] worst=5 jp_pb=False EN='The event / board reads: / "Restocking. / Please come / back later."'
+  R1205 g438: pages=[5] worst=5 jp_pb=False EN="I'm Romi, / a ghost. / Pay 2000g and / I'll tell you / more."
+  R1205 g440: pages=[5] worst=5 jp_pb=False EN='Leave the / money on the / counter. My / hands go right / through thin'
+  R1205 g463: pages=[5] worst=5 jp_pb=False EN='Good to have / talent! Using / lots of magic / sounds fun and / amazin'
+  R1205 g468: pages=[5] worst=5 jp_pb=False EN="Good to have / talent! But you / look kinda / scary! Don't / bully me!"
+  R1205 g470: pages=[5] worst=5 jp_pb=False EN='Good to have / talent! Wow, / your body is / amazing, just / like mine'
+  R1205 g471: pages=[5] worst=5 jp_pb=False EN='Good to have / talent! A miss / can be fatal, / so low miss / rate is '
+  R1205 g473: pages=[5] worst=5 jp_pb=False EN='Good to have / talent! Good at / finding items! / Give me some / next '
+  R1205 g485: pages=[5] worst=5 jp_pb=False EN="Don't worry, / it's normal. / Most people / in the world / are ordinar"
+  R1205 g488: pages=[5] worst=5 jp_pb=False EN="Normal is / normal, it / doesn't mean / you're inferior. / Don't be sa"
+  R1205 g489: pages=[5] worst=5 jp_pb=False EN='Your talent / seems to grow / by learning / all kinds of / knowledge.'
+  R1205 g492: pages=[5] worst=5 jp_pb=False EN='If you live / with strong / faith, good / things will / surely come.'
+  R1205 g494: pages=[5] worst=5 jp_pb=False EN="You might lose / your life / sometimes, but / that's good / experience"
+  R1205 g496: pages=[5] worst=5 jp_pb=False EN='You have an / aura that / surpasses / even the evil / you fight.'
+  R1205 g497: pages=[5] worst=5 jp_pb=False EN='When that / awakens, evil / will have a / terrifying / new enemy.'
+  R1205 g498: pages=[5] worst=5 jp_pb=False EN="Don't be / intimidated by / great warriors / or the / undead!"
+  R1205 g503: pages=[5] worst=5 jp_pb=False EN='You have / natural / kinesthetic / ability. Just / hone it.'
+  R1205 g505: pages=[5] worst=5 jp_pb=False EN="If you train / your senses, / you'll gain / incredible / reflexes."
+  R1205 g508: pages=[5] worst=5 jp_pb=False EN="Then you'll be / able to sense / enemy moves / and avoid / mistakes."
+  R1205 g510: pages=[5] worst=5 jp_pb=False EN="So once your / talent blooms, / you'll sense / weak points and / strik"
+  R1205 g513: pages=[5] worst=5 jp_pb=False EN="I don't know / your class, but / I think you'd / be good at / thieving"
+  R1205 g516: pages=[5] worst=5 jp_pb=False EN='You might grow / to love / extracting / monster / materials.'
+  R1205 g520: pages=[5] worst=5 jp_pb=False EN='Well, charisma / is a kind of / talent too. / Better than / being hate'
+  R1205 g530: pages=[5] worst=5 jp_pb=False EN="You're the / cautious type, / so don't push / yourself too / hard for "
+  R1205 g532: pages=[5] worst=5 jp_pb=False EN="Your body / tends to heal / the best when / you're at your / worst."
+  R1205 g533: pages=[5] worst=5 jp_pb=False EN='Eventually / you might heal / just by / standing still / when injured.'
+  R1205 g534: pages=[5] worst=5 jp_pb=False EN="Of course, / it's best not / to get hurt / in the first / place."
+  R1205 g536: pages=[5] worst=5 jp_pb=False EN="How to put / it... you're / better with / things than / people."
+  R1205 g540: pages=[5] worst=5 jp_pb=False EN='I need to rest / a bit. Come / back later if / you want more / reading'
+  R1205 g544: pages=[5] worst=5 jp_pb=False EN='I need to rest / a bit. Come / back later if / you want more / reading'
+  R1205 g549: pages=[5] worst=5 jp_pb=False EN="Hey, you're / not a member! / The draw is / members-only! / Join us!"
+  R1205 g570: pages=[5] worst=5 jp_pb=False EN='The Imp / scattered / confetti / and danced / in celebration!'
+  R1205 g572: pages=[5] worst=5 jp_pb=False EN="Here's your / special prize! / An Identification / Bracelet with / ful"
+  R1205 g574: pages=[5] worst=5 jp_pb=False EN="From the / bracelet's / memories, you / learned a new / Alleid skill!"
+  R1205 g576: pages=[5] worst=5 jp_pb=False EN='By the way, / future grand / prizes will be / Dragon Fang / and Magic '
+  R1205 g578: pages=[5] worst=5 jp_pb=False EN="But hey, it's / all service! / Have a Dragon / Fang and / Magic Wine!"
+  R1205 g601: pages=[5] worst=5 jp_pb=False EN='The number / draw matches / your number / to the winning / number!'
+  R1205 g603: pages=[5] worst=5 jp_pb=False EN="But there's / only one / bracelet, so / after it's won, / prizes chang"
+  R1205 g609: pages=[5] worst=5 jp_pb=False EN='The number / draw matches / your number / to the winning / number!'
+  R1205 g610: pages=[5] worst=5 jp_pb=False EN='Win and you / get Dragon / Fang or Magic / Wine! Power / overflowing!'
+  R1205 g620: pages=[5] worst=5 jp_pb=False EN="It's a keepsake / from my mom / and dad. They / gave it to me / as a g"
+  R1205 g621: pages=[5] worst=5 jp_pb=False EN='Romi happily / untied the box / and pulled out / a gleaming / holy swo'
+  R1205 g631: pages=[5] worst=5 jp_pb=False EN='You opened the / small chest / behind the / Lost & Found / counter.'
+  R1205 g634: pages=[5] worst=5 jp_pb=False EN='When mom was / alive, she / always wore / one. I always / admired it.'
+  R1205 g648: pages=[5] worst=5 jp_pb=False EN='Hmm... And / those who died / were people / I worked with / at City Ha'
+  R1205 g649: pages=[5] worst=5 jp_pb=False EN='Raiman was / moved to tears / seeing the / bodies of his / colleagues.'
+  R1205 g650: pages=[5] worst=5 jp_pb=False EN='We must / remember them / so this tragedy / is never / repeated!'
+  R1205 g651: pages=[5] worst=5 jp_pb=False EN="We can't stay / here or we'll / get more / depressed! / Let's move on!"
+  R1205 g700: pages=[5] worst=5 jp_pb=False EN="I'm here / during floors / 6-15. Bring / your soulless / doll to me."
+  R1205 g737: pages=[5] worst=5 jp_pb=False EN='Satisfied? / Come back when / you need / another / appraisal.'
+  R1205 g761: pages=[5] worst=5 jp_pb=False EN='Someone on the / other side / pounded on / the door in / frustration.'
+  R1205 g768: pages=[5] worst=5 jp_pb=False EN="The voice / behind the / door noticed / Melanie's / reaction."
+  R1205 g770: pages=[5] worst=5 jp_pb=True EN='"Oh great! / Finally my / knight in / shining armor / is here!"'
+  R1205 g774: pages=[5] worst=5 jp_pb=True EN='"It seems / locked, so / there might be / a switch to / open it!"'
+  R1205 g777: pages=[5] worst=5 jp_pb=False EN='When you / agreed to help, / Melanie looked / a little / relieved.'
+  R1205 g778: pages=[5] worst=5 jp_pb=False EN='"As expected / of a true / hero! Now / hurry up and / save me!"'
+  R1205 g782: pages=[5] worst=5 jp_pb=False EN='"What?! You\'re / just going to / watch me / suffer?! / What nerve!"'
+  R1205 g793: pages=[5] worst=5 jp_pb=False EN='"Or what, you / regret turning / us down and / came crawling / back?"'
+  R1205 g794: pages=[5] worst=5 jp_pb=True EN='"Well, I / suppose I / could give you / another / chance."'
+  R1205 g795: pages=[5] worst=5 jp_pb=False EN='When you / agreed, / Melanie looked / slightly / relieved.'
+  R1205 g796: pages=[5] worst=5 jp_pb=False EN='"You should / have accepted / from the start! / Honestly, how / foolis'
+  R1205 g800: pages=[5] worst=5 jp_pb=False EN="When you / declined, / Melanie's / expression / grew worse."
+  R1205 g816: pages=[5] worst=5 jp_pb=False EN='What an / unexpected / ordeal that / turned out / to be.'
+  R1205 g823: pages=[5] worst=5 jp_pb=False EN="We've finally / gotten the / hang of / adventuring / and combat!"
+  R1205 g825: pages=[5] worst=5 jp_pb=False EN="Since we use / Through to / avoid enemies, / we don't get / hurt much."
+  R1205 g827: pages=[5] worst=5 jp_pb=False EN='If only we / had an / alchemist / to travel / with us!'
+  R1205 g834: pages=[5] worst=5 jp_pb=False EN="N-No! I'm on / a research / holiday, / studying the / labyrinth!"
+  R1205 g841: pages=[5] worst=5 jp_pb=False EN='Uh... / "Why do I have / to be bossed / around by this / pixie?"'
+  R1205 g844: pages=[5] worst=5 jp_pb=False EN="Miri noticed / Kunnal's / hesitation / and seemed to / have an idea."
+  R1205 g849: pages=[5] worst=5 jp_pb=False EN="Then it's / settled! / You're our / pack mule / from now on!"
+  R1205 g851: pages=[5] worst=5 jp_pb=False EN='Yep, for the / heavy bags! / Melanie, give / him your bag / to carry!'
+  R1205 g854: pages=[5] worst=5 jp_pb=False EN="Melanie placed / her large / luggage bag / on Kunnal's / back."
+  R1205 g857: pages=[5] worst=5 jp_pb=False EN='Miri and / Melanie / left through / the door / Kunnal entered.'
+  R1205 g863: pages=[5] worst=5 jp_pb=False EN='Suddenly, the / communication / pouch given / by the elf / responded.'
+  R1205 g874: pages=[5] worst=5 jp_pb=False EN='Those who / fell here must / have had some / anti-magic / defenses.'
+  R1205 g875: pages=[5] worst=5 jp_pb=False EN='Yet according / to Turgot, / they were all / wiped out / in an instant'
+  R1205 g876: pages=[5] worst=5 jp_pb=False EN='For now, we / must avoid / encountering / her at all / costs.'
+  R1206 g0: pages=[5] worst=5 jp_pb=False EN="The Medal that sealed / the demon's power / was offered to the gods."
+  R1208 g0: pages=[5] worst=5 jp_pb=False EN='The medal from defeating / the floor boss was / offered to the gods.'
+  R1208 g18: pages=[5] worst=5 jp_pb=False EN='but suddenly, a / black-clad figure drew / a blade from the shadows.'
+  R1208 g26: pages=[5] worst=5 jp_pb=False EN="From beyond the door, / a young woman's voice / could be heard."
+  R1208 g35: pages=[5] worst=5 jp_pb=False EN='"The first princess of / the Duhan royal family, / presumed dead."'
+  R1208 g45: pages=[5] worst=5 jp_pb=False EN='"Just a little more. / His faction will / crumble soon enough."'
+  R1208 g46: pages=[5] worst=5 jp_pb=False EN='"If you go out now, / all our efforts will / have been for nothing."'
+  R1208 g52: pages=[5] worst=5 jp_pb=False EN='"When I think of it, / the grief is enough / to tear my heart apart."'
+  R1208 g56: pages=[5] worst=5 jp_pb=False EN='"No, enough. If Lord / Webster wants my life, / I shall offer it."'
+  R1208 g59: pages=[5] worst=5 jp_pb=False EN='"Your Highness, / bad news! Lord Webster / is heading this way!"'
+  R1208 g63: pages=[5] worst=5 jp_pb=False EN='"Now that Webster\'s / schemes are exposed, / there\'s no reason to"'
+  R1208 g64: pages=[5] worst=5 jp_pb=False EN='"hide the princess in / this labyrinth. So / I came to escort her."'
+  R1208 g84: pages=[5] worst=5 jp_pb=False EN='"like the Elf King! / Along with the King\'s / powers, the magical"'
+  R1208 g90: pages=[5] worst=5 jp_pb=False EN='"My dream is great, / isn\'t it! You normal / folks can\'t even see"'
+  R1208 g95: pages=[5] worst=5 jp_pb=False EN='"What, they\'re there? / It\'s too far to go / back now, what a pain!"'
+  R1208 g97: pages=[5] worst=5 jp_pb=False EN='"This is exactly / like my dream. Deeper / in, there should be"'
+  R1208 g101: pages=[5] worst=5 jp_pb=False EN='"If you make Melanie / cry, you\'ll definitely / get her wrath!"'
+  R1208 g113: pages=[5] worst=5 jp_pb=False EN='"We were just wishing / for someone strong / like you to show up!"'
+  R1208 g157: pages=[5] worst=5 jp_pb=False EN='As your consciousness / fades, you see / monster silhouettes.'
+  R1208 g189: pages=[5] worst=5 jp_pb=False EN='"Want an explanation / of Vigger Friends? / Or sign up right away?"'
+  R1208 g192: pages=[5] worst=5 jp_pb=False EN='"Feel free to only / half-listen. I\'ll give / you a pamphlet too!"'
+  R1208 g196: pages=[5] worst=5 jp_pb=False EN='"Members who pay the / enrollment fee get / exclusive services!"'
+  R1208 g198: pages=[5] worst=5 jp_pb=False EN='"The more events you / join, the more chances / for a lucky number"'
+  R1208 g200: pages=[5] worst=5 jp_pb=False EN='"Signing up? That\'ll / be 5000G enrollment / fee plus your name!"'
+  R1208 g226: pages=[5] worst=5 jp_pb=False EN='A board reads: / "Currently very busy. / Please come back later."'
+  R1208 g227: pages=[5] worst=5 jp_pb=False EN='A board reads: / "Currently very busy. / Please come back later."'
+  R1208 g243: pages=[5] worst=5 jp_pb=False EN='"Put the money on / the counter. My hands / pass right through."'
+  R1208 g266: pages=[5] worst=5 jp_pb=False EN='Good that you have / talent. Learning many / spells sounds amazing.'
+  R1208 g269: pages=[5] worst=5 jp_pb=False EN='Good that you have / talent. Being good at / slaying demons makes'
+  R1208 g270: pages=[5] worst=5 jp_pb=False EN="Good that you have / talent. Please don't / reveal mine! I'm dead!"
+  R1208 g280: pages=[5] worst=5 jp_pb=False EN="Good that you have / talent. Just because / you're good at running"
+  R1208 g295: pages=[5] worst=5 jp_pb=False EN='"If you live with / stronger faith, good / things will surely come."'
+  R1208 g302: pages=[5] worst=5 jp_pb=False EN='"In time, they won\'t / be scary at all-- / you might even like it."'
+  R1208 g308: pages=[5] worst=5 jp_pb=False EN='"If trained further, / you could gain an / incredibly tough body."'
+  R1208 g315: pages=[5] worst=5 jp_pb=False EN='"You\'ll start noticing / things that ordinary / people would miss."'
+  R1208 g317: pages=[5] worst=5 jp_pb=False EN='"Even if you\'ve never / tried it, you might / be surprisingly good."'
+  R1208 g323: pages=[5] worst=5 jp_pb=False EN='"Well, being popular / is a talent too. / Better than being hated."'
+  R1208 g327: pages=[5] worst=5 jp_pb=False EN='"Normally you don\'t / use ill-fitting gear, / but you\'re different."'
+  R1208 g328: pages=[5] worst=5 jp_pb=False EN='"Your talent is still / dormant, but soon / you\'ll wield anything."'
+  R1208 g329: pages=[5] worst=5 jp_pb=False EN='"For things you wear, / an unrelated item / normally won\'t help."'
+  R1208 g333: pages=[5] worst=5 jp_pb=False EN='"You\'re the cautious / type, so don\'t push / yourself too hard yet."'
+  R1208 g338: pages=[5] worst=5 jp_pb=False EN='"Your talent is in / drawing out the power / of objects, not self."'
+  R1208 g339: pages=[5] worst=5 jp_pb=False EN='"How to put it... / you understand items / better than people."'
+  R1208 g340: pages=[5] worst=5 jp_pb=False EN='"Anyway, you\'ll / notice it as soon as / your talent blooms."'
+  R1208 g373: pages=[5] worst=5 jp_pb=False EN='The Imp warmly / celebrated by tossing / confetti into the air!'
+  R1208 g377: pages=[5] worst=5 jp_pb=False EN='From the memories / within the bracelet, / you learned a new Alleid!'
+  R1208 g404: pages=[5] worst=5 jp_pb=False EN='"The number lottery / draws a number. If it / matches your member"'
+  R1208 g405: pages=[5] worst=5 jp_pb=False EN='"number, you win! / Grand prize: Identify / Bracelet with memories!"'
+  R1208 g412: pages=[5] worst=5 jp_pb=False EN='"The number lottery / draws a number. If it / matches your member"'
+  R1208 g434: pages=[5] worst=5 jp_pb=False EN='You opened the small / chest below the / Lost & Found counter.'
+  R1208 g469: pages=[5] worst=5 jp_pb=False EN='"Now move aside. I\'ve / had my eye on this / fountain long before"'
+  R1208 g473: pages=[5] worst=5 jp_pb=False EN='"Hehehe, you\'ve / finally come to your / senses. Now then..."'
+  R1208 g479: pages=[5] worst=5 jp_pb=False EN='"Now then! Hand over / that bottle of yours / to me at once."'
+  R1208 g483: pages=[5] worst=5 jp_pb=False EN='"Farewell. Next time / we meet, you\'ll be / lying here! Heh heh."'
+  R1208 g506: pages=[5] worst=5 jp_pb=False EN='"Because the one / who puts medicine in / this fountain is me."'
+  R1208 g519: pages=[5] worst=5 jp_pb=False EN='The bottle shattered, / sending glass shards / flying everywhere.'
+  R1208 g520: pages=[5] worst=5 jp_pb=False EN='The medicine inside / quickly spread across / the floor and soaked in.'
+  R1208 g522: pages=[5] worst=5 jp_pb=False EN='"Regardless, medicine / was put in the / fountain. Your job\'s done."'
+  R1208 g540: pages=[5] worst=5 jp_pb=False EN='And nearby, an empty / bottle labeled / "poison" lay discarded.'
+  R1208 g544: pages=[5] worst=5 jp_pb=False EN='An Identify Bracelet / hung on the arm / of a strange statue.'
+  R1208 g545: pages=[5] worst=5 jp_pb=False EN='From the memories / within the bracelet, / you learned a new Alleid!'
+  R1208 g550: pages=[5] worst=5 jp_pb=False EN='From the upper floor, / a group of soldiers / clad in black appeared.'
+  R1208 g552: pages=[5] worst=5 jp_pb=False EN='Parting the soldiers, / a fierce-looking / female general appeared.'
+  R1208 g567: pages=[5] worst=5 jp_pb=False EN='"But what does / Webster intend to do / with that useless thing?"'
+  R1208 g572: pages=[5] worst=5 jp_pb=False EN='"Someone has already / completed the black / staff\'s ritual, and"'
+  R1208 g574: pages=[5] worst=5 jp_pb=False EN='"where would one find / a maiden who inherits / Diarant\'s blood?"'
+  R1208 g590: pages=[5] worst=5 jp_pb=False EN='From the upper floor, / a group of soldiers / clad in black appeared.'
+  R1208 g592: pages=[5] worst=5 jp_pb=False EN='Parting the soldiers, / a fierce-looking / female general appeared.'
+  R1208 g607: pages=[5] worst=5 jp_pb=False EN='"But what does / Webster intend to do / with that useless thing?"'
+  R1208 g612: pages=[5] worst=5 jp_pb=False EN='"Someone has already / completed the black / staff\'s ritual, and"'
+  R1208 g614: pages=[5] worst=5 jp_pb=False EN='"where would one find / a maiden who inherits / Diarant\'s blood?"'
+  R1208 g712: pages=[5] worst=5 jp_pb=False EN='How was it, did / you recover? Come back / again when you feel ill.'
+  R1208 g719: pages=[5] worst=5 jp_pb=False EN="The preparations / are not yet complete / and the shop isn't open."
+  R1208 g724: pages=[5] worst=5 jp_pb=False EN="I'm so happy~ Did you / come to check on / us? How nice of you!"
+  R1208 g728: pages=[5] worst=5 jp_pb=False EN='A hair-raising / murderous energy swirled / as fierce shouts echoed.'
+  R1208 g730: pages=[5] worst=5 jp_pb=False EN='It was a fierce battle, / but the woman was clearly / outmatched by th'
+  R1208 g731: pages=[5] worst=5 jp_pb=False EN="One of the warrior's / blows glanced off / the woman's shoulder."
+  R1208 g770: pages=[5] worst=5 jp_pb=False EN='And as a result, / I have been burdened / with this cursed task!'
+  R1208 g774: pages=[5] worst=5 jp_pb=False EN="If I don't get the / Book of Darkness soon, / I will disappear into"
+  R1208 g779: pages=[5] worst=5 jp_pb=False EN='You spotted a Bracelet / next to the collapsed / Mac Bain.'
+  R1208 g796: pages=[5] worst=5 jp_pb=False EN="The woman tried to / fight off the blades, / but couldn't hold out."
+  R1209 g0: pages=[5] worst=5 jp_pb=False EN='The medal obtained by defeating the floor master was offered to the go'
+  R1209 g10: pages=[5] worst=5 jp_pb=False EN='Shhhh, you have to open the door quietly or else Big Sister will wake '
+  R1209 g12: pages=[5] worst=5 jp_pb=False EN='Yoppen spoke to you in a quiet voice so as not to wake up the sleeping'
+  R1209 g15: pages=[5] worst=5 jp_pb=False EN="I was wondering how to wake her up, but now that you're here, I've got"
+  R1209 g18: pages=[5] worst=5 jp_pb=False EN='I know it sounds a bit rough, but please! If you catch her, I can talk'
+  R1209 g20: pages=[5] worst=5 jp_pb=False EN='Because if there are too many people here, Big Sister might wake up, y'
+  R1209 g32: pages=[5] worst=5 jp_pb=False EN='I refuse to breathe in the life energy of someone like you! You will o'
+  R1209 g37: pages=[5] worst=5 jp_pb=False EN='Yoppen, with tears streaming down his face, came closer to her, trying'
+  R1209 g41: pages=[5] worst=5 jp_pb=False EN='The only sound left in the room was the sobbing sound of the stranded '
+  R1209 g42: pages=[5] worst=5 jp_pb=False EN='Ugh... Eugh! After little sister Pixie, Big Sister left me alone too..'
+  R1209 g45: pages=[5] worst=5 jp_pb=False EN="Ughhhhh... I see... I didn't know that... I guess you don't like me ei"
+  R1209 g47: pages=[5] worst=5 jp_pb=False EN="That's right! Princess! I'm sure Princess Aurora will respond to my wi"
+  R1209 g50: pages=[5] worst=5 jp_pb=False EN="I don't mind it at all now, that the Pixie and Big Sister are hating o"
+  R1209 g51: pages=[5] worst=5 jp_pb=False EN="Well, I'm going to go back to the city and start preparing for the rea"
+  R1209 g64: pages=[5] worst=5 jp_pb=False EN='An alchemist, noticing the intruder, approached with a knife drawn.'
+  R1209 g84: pages=[5] worst=5 jp_pb=False EN='Would Ortrud, having learned of my betrayal, attack me with his Royal '
+  R1209 g92: pages=[5] worst=5 jp_pb=False EN='Let me enlighten you a little bit more before I say goodbye to this bo'
+  R1209 g105: pages=[5] worst=5 jp_pb=False EN='God did take everything from me once, and now he really is planning to'
+  R1209 g106: pages=[5] worst=5 jp_pb=False EN="Lord Webster's voice had a sombre sound, as if it were coming from a d"
+  R1209 g126: pages=[5] worst=5 jp_pb=False EN='Countless wandering souls rose from the ashes with shouts of joy at th'
+  R1209 g150: pages=[5] worst=5 jp_pb=False EN='He knew that she was alive, and that you were hiding her in the depths'
+  R1209 g152: pages=[5] worst=5 jp_pb=False EN='If you had been watching over us, you should have known that we were i'
+  R1209 g158: pages=[5] worst=5 jp_pb=False EN='What are you talking about? What the hell does he want? Explain it to '
+  R1209 g161: pages=[5] worst=5 jp_pb=False EN='Emilia and the princess returned to the city with the help of the Retu'
+  R1209 g207: pages=[5] worst=5 jp_pb=False EN='Customers who paid the admission fee to join are offered a variety of '
+  R1209 g208: pages=[5] worst=5 jp_pb=False EN='These events will be held at the Event Space, and the more events you '
+  R1209 g219: pages=[5] worst=5 jp_pb=False EN='Yupp, I certainly got it! Now, let me give you the Vigger Friends memb'
+  R1209 g225: pages=[5] worst=5 jp_pb=False EN='What a shame! Make sure you bring 5000G, no, even more than that, next'
+  R1209 g245: pages=[5] worst=5 jp_pb=False EN='You looked around, but there was no one who looked like the owner of t'
+  R1209 g247: pages=[5] worst=5 jp_pb=False EN="I feel sorry for you. Even though you're their leader, you don't posse"
+  R1209 g248: pages=[5] worst=5 jp_pb=False EN="If you're going to bear a grudge, don't curse me, curse your fate inst"
+  R1209 g250: pages=[5] worst=5 jp_pb=False EN="Good for you. You don't have anything now, but I'm sure a hidden talen"
+  R1209 g252: pages=[5] worst=5 jp_pb=False EN="I'm Lomi the Ghost. If you pay me 2000G, I'll give you a more detailed"
+  R1209 g254: pages=[5] worst=5 jp_pb=False EN="Then put the gold on the counter. I can't take it because my body is e"
+  R1209 g260: pages=[5] worst=5 jp_pb=False EN='Thank you very much. This will also net you 4 Vigger Friends Points.'
+  R1209 g279: pages=[5] worst=5 jp_pb=False EN='Good for you, having talent. Being brave enough to fight dragons is re'
+  R1209 g282: pages=[5] worst=5 jp_pb=False EN="Good for you, having talent. But you seem a bit scary! Don't bully me,"
+  R1209 g299: pages=[5] worst=5 jp_pb=False EN="It's unfortunate, but don't be depressed. Most people in this world ar"
+  R1209 g304: pages=[5] worst=5 jp_pb=False EN='Your talents can only be utilized if you have a high level of wisdom, '
+  R1209 g306: pages=[5] worst=5 jp_pb=False EN="If you live with a stronger faith, I'm sure good things will happen to"
+  R1209 g309: pages=[5] worst=5 jp_pb=False EN='In the future, you might no longer be afraid of them, and are willing '
+  R1209 g316: pages=[5] worst=5 jp_pb=False EN="One day, you'll be able to see the enemy's movements as if they were i"
+  R1209 g317: pages=[5] worst=5 jp_pb=False EN='I think you have excellent kinetic vision by nature, so all you need t'
+  R1209 g319: pages=[5] worst=5 jp_pb=False EN='If you train your muscles even more, you can harden your body into som'
+  R1209 g321: pages=[5] worst=5 jp_pb=False EN="I'm sure you'll awaken your ability to see further and further into th"
+  R1209 g326: pages=[5] worst=5 jp_pb=False EN='I feel like you can easily find things that normal people would overlo'
+  R1209 g327: pages=[5] worst=5 jp_pb=False EN="I don't know much about your personality, but it seems you'd be good a"
+  R1209 g342: pages=[5] worst=5 jp_pb=False EN="If you wear something that doesn't fit your class, it will be useless."
+  R1209 g347: pages=[5] worst=5 jp_pb=False EN="You look like a genius, so it's probably best not to make any effort r"
+  R1209 g349: pages=[5] worst=5 jp_pb=False EN='You seem to have a talent for drawing out the power of things rather t'
+  R1209 g350: pages=[5] worst=5 jp_pb=False EN='I guess you could say that you are better with things than other peopl'
+  R1209 g353: pages=[5] worst=5 jp_pb=False EN='Eventually, you may get sick for a while, but it will eventually go aw'
+  R1209 g358: pages=[5] worst=5 jp_pb=False EN="so if you want to read someone else's fortune, please come back after "
+  R1209 g386: pages=[5] worst=5 jp_pb=False EN="So, here's your special prize: A thought-filled Identification Bracele"
+  R1209 g388: pages=[5] worst=5 jp_pb=False EN='You learned the Alleid Warp Attack from the thoughts within the bracel'
+  R1209 g390: pages=[5] worst=5 jp_pb=False EN='By the way, from next time onwards, the prize will be a Bone of the De'
+  R1209 g392: pages=[5] worst=5 jp_pb=False EN="But hey, it's all part of the service! Take the Bone of the Dead and M"
+  R1209 g429: pages=[5] worst=5 jp_pb=False EN='No lottery for you today? Then please visit us again when we are holdi'
+  R1209 g430: pages=[5] worst=5 jp_pb=False EN='A Helmet of Fortitude was lying in front of the eerie-looking statue.'
+  R1209 g432: pages=[5] worst=5 jp_pb=False EN='An Identification Bracelet was lying in front of the eerie-looking sta'
+  R1209 g433: pages=[5] worst=5 jp_pb=False EN='You learned the Alleid Sweep Attack from the thoughts within the brace'
+  R1209 g439: pages=[5] worst=5 jp_pb=False EN='This is a memento of my father and mother. They gave it to me as a goo'
+  R1209 g443: pages=[5] worst=5 jp_pb=False EN='As soon as you touched the stone, warm feelings flowed into your mind!'
+  R1209 g444: pages=[5] worst=5 jp_pb=False EN='You learned the Alleid Silence Breaker from the thoughts within the ol'
+  R1209 g451: pages=[5] worst=5 jp_pb=False EN='Inside the chest was a beautiful hair ornament made of precious baked '
+  R1209 g452: pages=[5] worst=5 jp_pb=False EN='I bought this with the gold I got from working here. I mean, I got one'
+  R1209 g453: pages=[5] worst=5 jp_pb=False EN='When my mom was alive, she used to wear one like this all the time, an'
+  R1209 g454: pages=[5] worst=5 jp_pb=False EN='Did you know that baked silver is extremely precious and hard to come '
+  R1209 g478: pages=[5] worst=5 jp_pb=False EN="Just so you know, I won't give you even 1G off! Don't even think about"
+  R1209 g480: pages=[5] worst=5 jp_pb=False EN="Oh well. (Tch, this little brat is messing with me, I'll get them next"
+  R1209 g494: pages=[5] worst=5 jp_pb=False EN="Just so you know, I won't give you even 1G off! Don't even think about"
+  R1209 g496: pages=[5] worst=5 jp_pb=False EN="Oh well. (Tch, this little brat is messing with me, I'll get them next"
+  R1209 g544: pages=[5] worst=5 jp_pb=False EN="How's that? Are you satisfied? If you ever want another appraisal, you"
+  R1209 g556: pages=[5] worst=5 jp_pb=False EN="I'm so glad you came to see us! Were you worried? Don't worry, we'll d"
+  R1209 g562: pages=[5] worst=5 jp_pb=True EN='If anything happens to the princess, it will be all my fault! I might '
+  R1209 g566: pages=[5] worst=5 jp_pb=False EN='Near the elven girl, the orc was flustered, desperately trying to soot'
+  R1209 g575: pages=[5] worst=5 jp_pb=False EN="So, so careless... Oh, it's all my fault... that the princess has been"
+  R1210 g0: pages=[5] worst=5 jp_pb=False EN="The Medal that sealed / the demon's power / was offered to the gods."
+  R1210 g100: pages=[5] worst=5 jp_pb=False EN='A voice full of / fervor resonated, / and terrible / dark energy / int'
+  R1210 g117: pages=[5] worst=5 jp_pb=False EN='At Banquo he said / he would raise a / warrior who could / slay the da'
+  R1210 g118: pages=[5] worst=5 jp_pb=False EN="That warrior / would become / Venoa's Guardian, / a shield for / the p"
+  R1210 g126: pages=[5] worst=5 jp_pb=False EN='No matter how many / dark ones you / slay, if the / gate opens, they /'
+  R1210 g128: pages=[5] worst=5 jp_pb=False EN='Two doors have / opened. One more / and I can summon / an even greater'
+  R1210 g129: pages=[5] worst=5 jp_pb=False EN='One or two / Guardians are / no match for / the great power / of darkn'
+  R1210 g142: pages=[5] worst=5 jp_pb=False EN="Diarant's people / used us Automata / and ogres to / fight back, but /"
+  R1210 g179: pages=[5] worst=5 jp_pb=False EN='No matter how many / dark ones you / slay, if the / gate opens, they /'
+  R1210 g181: pages=[5] worst=5 jp_pb=False EN='Two doors have / opened. One more / and I can summon / an even greater'
+  R1210 g182: pages=[5] worst=5 jp_pb=False EN='One or two / Guardians are / no match for / the great power / of darkn'
+  R1210 g187: pages=[5] worst=5 jp_pb=False EN='The active ones / are all powered / by the life / force energy / I gav'
+  R1210 g189: pages=[5] worst=5 jp_pb=False EN='You should have / shut down when / Master died. / Why do you still / f'
+  R1210 g196: pages=[5] worst=5 jp_pb=False EN='Even after ages / of meeting those / called sages, / some mysteries / '
+  R1210 g199: pages=[5] worst=5 jp_pb=False EN='In this ruined / world, no matter / how much time / passes, nothing / '
+  R1210 g200: pages=[5] worst=5 jp_pb=False EN='Death has no / meaning, nor does / life. Only the / fact that you / ex'
+  R1210 g245: pages=[5] worst=5 jp_pb=False EN='Vigger Friends is / a club where we / build up the / Vigger Shop / tog'
+  R1210 g317: pages=[5] worst=5 jp_pb=False EN="Talent found! / If magic isn't / your thing, maybe / fighting suits / "
+  R1210 g320: pages=[5] worst=5 jp_pb=False EN="Talent found! / Hey! Don't look at / mine! Don't kill / me! I'm alread"
+  R1210 g324: pages=[5] worst=5 jp_pb=False EN='Talent found! / Mistakes are / part of life, / making few is / great!'
+  R1210 g330: pages=[5] worst=5 jp_pb=False EN="Talent found! / Just because / you're good at / running doesn't / mean"
+  R1210 g331: pages=[5] worst=5 jp_pb=False EN="Talent found! / Making things / explode is cool! / Don't swing me / ar"
+  R1210 g332: pages=[5] worst=5 jp_pb=False EN='Talent found! / You turn things / to dust! But / turning me into / a s'
+  R1210 g333: pages=[5] worst=5 jp_pb=False EN="Talent found! / Such power! You / could teach at / Jugurtha's magic / "
+  R1210 g354: pages=[5] worst=5 jp_pb=False EN='Rather than / magic, physical / training will / develop your / talent!'
+  R1210 g355: pages=[5] worst=5 jp_pb=False EN='Someday enemy / moves that were / too fast will / feel like slow / mot'
+  R1210 g375: pages=[5] worst=5 jp_pb=False EN='Hone that sense / and your ability / to read the / future will / grow '
+  R1210 g377: pages=[5] worst=5 jp_pb=False EN="Normally people / don't use weapons / beyond their / level, but / you'"
+  R1210 g378: pages=[5] worst=5 jp_pb=False EN="Still developing, / but soon you'll / unlock a / weapon's full / power"
+  R1210 g379: pages=[5] worst=5 jp_pb=False EN="For worn items / too, ordinary / people can't / draw out their / poten"
+  R1210 g380: pages=[5] worst=5 jp_pb=False EN="Normally people / don't use gear / beyond their / level, but / you're "
+  R1210 g402: pages=[5] worst=5 jp_pb=False EN='Hey, not a / member! Lottery / is members only! / Sign up if / interes'
+  R1210 g454: pages=[5] worst=5 jp_pb=False EN='The lottery: if / your drawn number / matches your / member number, / '
+  R1210 g462: pages=[5] worst=5 jp_pb=False EN='The lottery: if / your drawn number / matches your / member number, / '
+  R1210 g486: pages=[5] worst=5 jp_pb=False EN='I bought this / with money I / earned here. They / let me special- / o'
+  R1210 g607: pages=[5] worst=5 jp_pb=False EN='God has promised: / all sins shall / be washed away / and accepted / i'
+  R1210 g633: pages=[5] worst=5 jp_pb=False EN="This Langobalt / will see God's / prophecy through, / even at the cost"
+  R1210 g642: pages=[5] worst=5 jp_pb=False EN='On that signal, / they scattered / and began / chanting a / terrible s'
+  R1210 g645: pages=[5] worst=5 jp_pb=False EN='With flapping / wings, monsters / appeared and / began destroying / ev'
+  R1210 g681: pages=[5] worst=5 jp_pb=False EN='At the Holy See / he was an / eccentric, so / talk of gods is / nothin'
+  R1210 g747: pages=[5] worst=5 jp_pb=False EN="If Simzon had / delayed going / just a few days, / he'd have met / you"
+  R1210 g752: pages=[5] worst=5 jp_pb=False EN="It sounds like / a fairy tale, / but I want to / believe it's / fate."
+  R1211 g0: pages=[5] worst=5 jp_pb=False EN="The Medal that sealed / the demon's power / was offered to the gods."
+  R1211 g21: pages=[5] worst=5 jp_pb=False EN='A malicious will / brimming with / hostility was / trying to / manifes'
+  R1211 g32: pages=[5] worst=5 jp_pb=False EN="Beltan: We're / comrades! Why / take on / everything / alone!?"
+  R1211 g44: pages=[5] worst=5 jp_pb=False EN='On his behalf, / thank you. When / you need my / strength, just / say '
+  R1211 g90: pages=[5] worst=5 jp_pb=False EN='Vigger Friends is / a club where we / build up the / Vigger Shop / tog'
+  R1211 g162: pages=[5] worst=5 jp_pb=False EN="Talent found! / If magic isn't / your thing, maybe / fighting suits / "
+  R1211 g165: pages=[5] worst=5 jp_pb=False EN="Talent found! / Hey! Don't look at / mine! Don't kill / me! I'm alread"
+  R1211 g169: pages=[5] worst=5 jp_pb=False EN='Talent found! / Mistakes are / part of life, / making few is / great!'
+  R1211 g175: pages=[5] worst=5 jp_pb=False EN="Talent found! / Just because / you're good at / running doesn't / mean"
+  R1211 g176: pages=[5] worst=5 jp_pb=False EN="Talent found! / Making things / explode is cool! / Don't swing me / ar"
+  R1211 g177: pages=[5] worst=5 jp_pb=False EN='Talent found! / You turn things / to dust! But / turning me into / a s'
+  R1211 g178: pages=[5] worst=5 jp_pb=False EN="Talent found! / Such power! You / could teach at / Jugurtha's magic / "
+  R1211 g199: pages=[5] worst=5 jp_pb=False EN='Rather than / magic, physical / training will / develop your / talent!'
+  R1211 g200: pages=[5] worst=5 jp_pb=False EN='Someday enemy / moves that were / too fast will / feel like slow / mot'
+  R1211 g220: pages=[5] worst=5 jp_pb=False EN='Hone that sense / and your ability / to read the / future will / grow '
+  R1211 g222: pages=[5] worst=5 jp_pb=False EN="Normally people / don't use weapons / beyond their / level, but / you'"
+  R1211 g223: pages=[5] worst=5 jp_pb=False EN="Still developing, / but soon you'll / unlock a / weapon's full / power"
+  R1211 g224: pages=[5] worst=5 jp_pb=False EN="For worn items / too, ordinary / people can't / draw out their / poten"
+  R1211 g225: pages=[5] worst=5 jp_pb=False EN="Normally people / don't use gear / beyond their / level, but / you're "
+  R1211 g247: pages=[5] worst=5 jp_pb=False EN='Hey, not a / member! Lottery / is members only! / Sign up if / interes'
+  R1211 g299: pages=[5] worst=5 jp_pb=False EN='The lottery: if / your drawn number / matches your / member number, / '
+  R1211 g307: pages=[5] worst=5 jp_pb=False EN='The lottery: if / your drawn number / matches your / member number, / '
+  R1211 g338: pages=[5] worst=5 jp_pb=False EN='I bought this / with money I / earned here. They / let me special- / o'
+  R1211 g352: pages=[5] worst=5 jp_pb=False EN="Looking closely, / the goddess / sword's inner / side still holds / se"
+  R1211 g353: pages=[5] worst=5 jp_pb=False EN='Gather the 5 / sacred relics / and the knight / shall receive / holy p'
+  R1211 g355: pages=[5] worst=5 jp_pb=False EN="The circle's / light synced with / the goddess / sword, forming / word"
+  R1211 g359: pages=[5] worst=5 jp_pb=False EN='The light entered / your body, and / a faint / awareness / flowed in.'
+  R1211 g391: pages=[5] worst=5 jp_pb=False EN="Looking closely, / the goddess / sword's inner / side still holds / se"
+  R1211 g394: pages=[5] worst=5 jp_pb=False EN="The circle's / light synced with / the goddess / sword, forming / word"
+  R1211 g398: pages=[5] worst=5 jp_pb=False EN='The light entered / your body, and / a faint / awareness / flowed in.'
+  R1211 g546: pages=[5] worst=5 jp_pb=False EN='But to achieve / that, I have / sacrificed / those who need / not have'
+  R1211 g550: pages=[5] worst=5 jp_pb=False EN="As Ortrud turned / to leave, a / woman's voice / called from / somewhe"
+  R1211 g568: pages=[5] worst=5 jp_pb=False EN='But you kept / your promise. You / found a warrior / who can slay / th'
+  R1211 g573: pages=[5] worst=5 jp_pb=False EN="I'm a warrior / too. I want to / cross swords with / the dark ones / a"
+  R1211 g574: pages=[5] worst=5 jp_pb=False EN="Last time I / couldn't do a / thing, but now / maybe I can / land a bl"
+  R1212 g221: pages=[5] worst=5 jp_pb=False EN='Good you were / prepared. Forgetting / monsters makes you / the real m'
+  R1212 g278: pages=[5] worst=5 jp_pb=False EN="Without battle / sense, even with / good gear, you / can't draw out / "
+  R1212 g280: pages=[5] worst=5 jp_pb=False EN='Preparation is / still lacking, but / soon you can draw / out spells e'
+  R1212 g358: pages=[5] worst=5 jp_pb=False EN='Only 1 bracelet, / so if there are / multiple winners, / prize changes'
+  R1212 g610: pages=[5] worst=5 jp_pb=False EN="I made it here, / but I've no wish / to defeat Aurora / or to return /"
+  R1347 g1: pages=[5] worst=5 jp_pb=False EN="Since you came all / the way back here, you're / going to buy somethin"
+  R1349 g2: pages=[5] worst=5 jp_pb=False EN='Amidst the bustling / customers and servants, / monster shadows appear'
+  R1351 g5: pages=[5] worst=5 jp_pb=False EN='Lomi happily untied / the bag and pulled out / a red gemstone from ins'
+  R1351 g14: pages=[5] worst=5 jp_pb=False EN='Lomi: Hey, try opening / that treasure chest / on top of the counter.'
+  R1351 g18: pages=[5] worst=5 jp_pb=False EN='Lomi: When my mom was alive, / she always wore one, / and I adored it~'
+  R1351 g19: pages=[5] worst=5 jp_pb=False EN='Lomi: Did you know? / Baked silver is extremely / precious and hard to'
+  R1351 g20: pages=[5] worst=5 jp_pb=False EN="Lomi: I bought it, but / I can't wear it, / so I'm giving it to you."
+  R1351 g22: pages=[5] worst=5 jp_pb=False EN='Lomi: Well, be sure to / come back for more / fortune-telling. Bye-bye'
+  R1353 g88: pages=[5] worst=5 jp_pb=False EN="Even if you forget / the dead, as long as / you remember them, / they'"
+  R1353 g220: pages=[5] worst=5 jp_pb=False EN='Good you have gear. / Forgetting demons / is your thing, but / to them'
+  R1353 g440: pages=[5] worst=5 jp_pb=False EN="I read beauty's / records. I earn my / living reading the / fates of t"
+  R1353 g604: pages=[5] worst=5 jp_pb=False EN='I came this deep, / but defeating / Aurora or saving / this land holds'
+  R1354 g41: pages=[5] worst=5 jp_pb=False EN='Why the man once / feared as the / Lion King, who led / war-torn Venoa'
+  R1354 g63: pages=[5] worst=5 jp_pb=False EN="I don't know. But / this proves / someone hid Her / Highness' body / i"
+  R1354 g105: pages=[5] worst=5 jp_pb=False EN='Before the / monsters attacked, / the convoy had / contact with / some'
+  R1354 g113: pages=[5] worst=5 jp_pb=False EN="If only I were / free of this / curse, I'd go / investigate / myself!"
+  R1354 g124: pages=[5] worst=5 jp_pb=False EN='Once I had / nothing. Born to / a minor lord, I / could barely / affor'
+  R1354 g131: pages=[5] worst=5 jp_pb=False EN='A friend to watch / your back in / battle--no amount / of gold can buy'
+  R1354 g132: pages=[5] worst=5 jp_pb=False EN="They won't just / save your life. / They'll help you / achieve / every"
+  R1354 g135: pages=[5] worst=5 jp_pb=False EN='Once I had / nothing. Born to / a minor lord, I / could barely / affor'
+  R1354 g142: pages=[5] worst=5 jp_pb=False EN='A friend to watch / your back in / battle--no amount / of gold can buy'
+  R1354 g143: pages=[5] worst=5 jp_pb=False EN="They won't just / save your life. / They'll help you / achieve / every"
+  R1354 g146: pages=[5] worst=5 jp_pb=False EN='A friend to watch / your back in / battle--no amount / of gold can buy'
+  R1354 g147: pages=[5] worst=5 jp_pb=False EN="They won't just / save your life. / They'll help you / achieve / every"
+  R1354 g162: pages=[5] worst=5 jp_pb=False EN='What we ask is / that you enter / the labyrinth and / bring back the /'
+  R1354 g273: pages=[5] worst=5 jp_pb=False EN='But it must have / been terrible / enough to drive / a strong man / ma'
+  R1355 g12: pages=[5] worst=5 jp_pb=False EN='Knight: Or do you have / the credentials to enter / the labyrinth?'
+  R1355 g13: pages=[5] worst=5 jp_pb=False EN='You took off your / Identification Bracelet / and showed it to the kni'
+  R1355 g14: pages=[5] worst=5 jp_pb=False EN="Knight: I see. / So you've become a member / of the strike force as we"
+  R1355 g16: pages=[5] worst=5 jp_pb=False EN='Knight: All adventurers / are bound by the rules / of the Order.'
+  R1355 g28: pages=[5] worst=5 jp_pb=False EN="Knight: Oh, by the way, / you've got quite an unusual / team there."
+  R1355 g30: pages=[5] worst=5 jp_pb=False EN='Knight: Those Orcs behind / you are your companions, / right?'
+  R1355 g34: pages=[5] worst=5 jp_pb=False EN='Knight: On her side of / the family, there are about / 10 of them.'
+  R1355 g49: pages=[5] worst=5 jp_pb=False EN='Aoi: I may be scolded / for this, but let me / say it anyway.'
+  R1355 g52: pages=[5] worst=5 jp_pb=False EN='Aoi: Think first of / surviving. Fame and glory / will follow on their'
+
+full census -> build/recon_pag/census/census.json (1497 rows)

@@ -1,0 +1,16 @@
+TEXT? r2655s6 256x256 dbw128 off165936 bgfrac0.795 rows227 -> scan_r2655s6_256x256_dbw128_off165936.png
+TEXT? r2879s1 512x512 dbw256 off79472 bgfrac0.819 rows318 -> scan_r2879s1_512x512_dbw256_off79472.png
+TEXT? r2879s1 512x128 dbw128 off211120 bgfrac0.903 rows104 -> scan_r2879s1_512x128_dbw128_off211120.png
+TEXT? r2879s1 512x512 dbw256 off243952 bgfrac0.821 rows308 -> scan_r2879s1_512x512_dbw256_off243952.png
+TEXT? r2879s1 512x512 dbw256 off375600 bgfrac0.977 rows62 -> scan_r2879s1_512x512_dbw256_off375600.png
+TEXT? r2610s5 128x128 dbw64 off15504 bgfrac0.937 rows128 -> scan_r2610s5_128x128_dbw64_off15504.png
+TEXT? r2882s3 512x288 dbw192 off265840 bgfrac0.473 rows288 -> scan_r2882s3_512x288_dbw192_off265840.png
+TEXT? r2882s7 256x256 dbw128 off644368 bgfrac0.893 rows161 -> scan_r2882s7_256x256_dbw128_off644368.png
+TEXT? r2556s5 128x128 dbw64 off32912 bgfrac0.937 rows128 -> scan_r2556s5_128x128_dbw64_off32912.png
+TEXT? r2596s5 128x128 dbw64 off22256 bgfrac0.937 rows128 -> scan_r2596s5_128x128_dbw64_off22256.png
+TEXT? r2880s7 512x512 dbw256 off1962944 bgfrac0.881 rows411 -> scan_r2880s7_512x512_dbw256_off1962944.png
+TEXT? r2881s7 512x512 dbw256 off1978608 bgfrac0.566 rows497 -> scan_r2881s7_512x512_dbw256_off1978608.png
+TEXT? r2881s7 512x512 dbw256 off2109744 bgfrac0.553 rows482 -> scan_r2881s7_512x512_dbw256_off2109744.png
+TEXT? r2881s7 512x128 dbw128 off2254384 bgfrac0.894 rows114 -> scan_r2881s7_512x128_dbw128_off2254384.png
+
+Total candidate text pages: 14

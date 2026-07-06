@@ -1,0 +1,113 @@
+R2226 msgs=3206 short=2720 avgcov=0.66 size=119130
+R2224 msgs=3080 short=2574 avgcov=0.66 size=106810
+R2227 msgs=2960 short=2516 avgcov=0.66 size=113050
+R2229 msgs=2828 short=2385 avgcov=0.66 size=100730
+R2228 msgs=2766 short=2304 avgcov=0.65 size=97930
+R2225 msgs=2652 short=2185 avgcov=0.65 size=90970
+R2220 msgs=2247 short=1898 avgcov=0.64 size=79770
+R2221 msgs=2194 short=1886 avgcov=0.67 size=78090
+R2222 msgs=2040 short=1706 avgcov=0.64 size=71290
+R2223 msgs=2034 short=1687 avgcov=0.64 size=72730
+R2217 msgs=1297 short=759 avgcov=0.58 size=63770
+R2263 msgs= 894 short=667 avgcov=0.25 size=117780
+R2219 msgs=1036 short=649 avgcov=0.62 size=44170
+R2218 msgs= 829 short=488 avgcov=0.55 size=43050
+R2230 msgs= 402 short=339 avgcov=0.65 size=16810
+R2296 msgs= 367 short=285 avgcov=0.39 size=101524
+R1115 msgs= 308 short=231 avgcov=0.26 size=113140
+R2258 msgs= 299 short=155 avgcov=0.34 size=84356
+R1203 msgs= 284 short=153 avgcov=0.53 size=69445
+R2346 msgs= 299 short=152 avgcov=0.34 size=108052
+R1206 msgs= 237 short=146 avgcov=0.56 size=44916
+R1208 msgs= 244 short=145 avgcov=0.55 size=45509
+R1212 msgs= 222 short=145 avgcov=0.58 size=41438
+R1207 msgs= 246 short=139 avgcov=0.55 size=47358
+R2326 msgs= 168 short=130 avgcov=0.3 size=36388
+R1210 msgs= 209 short=129 avgcov=0.54 size=42370
+R1209 msgs= 194 short=127 avgcov=0.57 size=36322
+R1353 msgs= 189 short=124 avgcov=0.58 size=36764
+R1211 msgs= 192 short=121 avgcov=0.57 size=38807
+R1204 msgs= 211 short=120 avgcov=0.53 size=50677
+R2108 msgs= 889 short=119 avgcov=0.51 size=22752
+R1202 msgs= 164 short=116 avgcov=0.6 size=30462
+R1205 msgs= 198 short=109 avgcov=0.53 size=44613
+R1197 msgs= 211 short=106 avgcov=0.57 size=47135
+R2115 msgs= 820 short=103 avgcov=0.49 size=22752
+R2289 msgs= 103 short=101 avgcov=0.6 size=73920
+R1196 msgs= 214 short=100 avgcov=0.5 size=43986
+R2402 msgs= 268 short= 92 avgcov=0.32 size=34980
+R1107 msgs= 133 short= 88 avgcov=0.41 size=89220
+R2308 msgs= 169 short= 88 avgcov=0.36 size=22164
+R2107 msgs= 856 short= 86 avgcov=0.48 size=14560
+R2106 msgs= 810 short= 85 avgcov=0.51 size=14560
+R1200 msgs= 133 short= 83 avgcov=0.54 size=22486
+R2386 msgs= 118 short= 83 avgcov=0.32 size=44132
+R1213 msgs= 118 short= 82 avgcov=0.59 size=18400
+R2345 msgs= 155 short= 72 avgcov=0.28 size=32660
+R1147 msgs=  98 short= 67 avgcov=0.33 size=107652
+R 822 msgs=  64 short= 63 avgcov=0.54 size=118672
+R 690 msgs=  73 short= 57 avgcov=0.33 size=72384
+R 856 msgs=  87 short= 57 avgcov=0.27 size=72384
+R 780 msgs=  56 short= 55 avgcov=0.54 size=118176
+R 772 msgs=  97 short= 54 avgcov=0.27 size=103344
+R 700 msgs=  48 short= 47 avgcov=0.54 size=113584
+R1145 msgs=  78 short= 46 avgcov=0.36 size=94756
+R2367 msgs=  91 short= 44 avgcov=0.35 size=28788
+R 688 msgs=  46 short= 43 avgcov=0.52 size=111296
+R 722 msgs=  44 short= 43 avgcov=0.54 size=119488
+R 784 msgs=  44 short= 43 avgcov=0.54 size=107200
+R 686 msgs=  40 short= 39 avgcov=0.56 size=91568
+R 698 msgs=  40 short= 39 avgcov=0.55 size=113088
+R 744 msgs=  45 short= 39 avgcov=0.49 size=101312
+R 776 msgs=  40 short= 39 avgcov=0.55 size=107968
+R 832 msgs=  40 short= 39 avgcov=0.55 size=107968
+R 834 msgs=  40 short= 39 avgcov=0.55 size=107968
+R 836 msgs=  40 short= 39 avgcov=0.55 size=107968
+R 854 msgs=  40 short= 39 avgcov=0.56 size=99760
+R 716 msgs=  38 short= 35 avgcov=0.54 size=92592
+R1139 msgs=  49 short= 33 avgcov=0.27 size=35748
+R1363 msgs=  74 short= 33 avgcov=0.81 size=38528
+R2452 msgs=  51 short= 33 avgcov=0.36 size=35172
+R 694 msgs=  32 short= 31 avgcov=0.54 size=38096
+R 746 msgs=  34 short= 31 avgcov=0.52 size=108496
+R 858 msgs=  32 short= 31 avgcov=0.54 size=39504
+R1194 msgs=  47 short= 30 avgcov=0.65 size=6274
+R2365 msgs=  61 short= 28 avgcov=0.33 size=35700
+R2401 msgs=  54 short= 28 avgcov=0.34 size=68160
+R 692 msgs=  28 short= 27 avgcov=0.55 size=77536
+R 702 msgs=  36 short= 27 avgcov=0.43 size=91872
+R 728 msgs=  28 short= 27 avgcov=0.55 size=93920
+R 738 msgs=  28 short= 27 avgcov=0.57 size=106208
+R 754 msgs=  28 short= 27 avgcov=0.56 size=106208
+R 806 msgs=  52 short= 27 avgcov=0.28 size=84832
+R 888 msgs=  59 short= 27 avgcov=0.32 size=94944
+R 766 msgs=  53 short= 26 avgcov=0.26 size=112096
+R1352 msgs=  46 short= 26 avgcov=0.65 size=3268
+R 814 msgs=  51 short= 25 avgcov=0.27 size=112096
+R 808 msgs=  33 short= 24 avgcov=0.44 size=84832
+R 810 msgs=  35 short= 24 avgcov=0.41 size=84832
+R1193 msgs=  35 short= 24 avgcov=0.63 size=4800
+R 684 msgs=  25 short= 23 avgcov=0.54 size=112096
+R 724 msgs=  25 short= 23 avgcov=0.53 size=96736
+R 764 msgs=  24 short= 23 avgcov=0.56 size=112096
+R 774 msgs=  32 short= 23 avgcov=0.45 size=84832
+R 812 msgs=  26 short= 23 avgcov=0.55 size=84832
+R 890 msgs=  24 short= 23 avgcov=0.56 size=112096
+R 917 msgs=  33 short= 23 avgcov=0.42 size=99840
+R 907 msgs=  43 short= 21 avgcov=0.28 size=93424
+R1053 msgs=  67 short= 21 avgcov=0.44 size=35200
+R 726 msgs=  21 short= 19 avgcov=0.54 size=93424
+R 748 msgs=  20 short= 19 avgcov=0.56 size=93424
+R 768 msgs=  33 short= 19 avgcov=0.35 size=77040
+R 894 msgs=  22 short= 19 avgcov=0.51 size=85232
+R1354 msgs=  42 short= 19 avgcov=0.53 size=7100
+R2398 msgs=  27 short= 19 avgcov=0.21 size=15284
+R1910 msgs=  31 short= 17 avgcov=0.55 size=35280
+R 752 msgs=  30 short= 16 avgcov=0.33 size=75632
+R1177 msgs=  20 short= 16 avgcov=0.71 size=34960
+R1364 msgs=  20 short= 16 avgcov=0.78 size=35392
+R 710 msgs=  17 short= 15 avgcov=0.53 size=50160
+R 870 msgs=  38 short= 15 avgcov=0.23 size=116016
+R1367 msgs=  20 short= 15 avgcov=0.78 size=35600
+R2419 msgs=  16 short= 15 avgcov=0.64 size=2896
+R2548 msgs=  28 short= 15 avgcov=0.51 size=34880

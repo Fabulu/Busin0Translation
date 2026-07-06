@@ -1,0 +1,1547 @@
+FILE chunk_03_translated.json | res 38 msg 131
+  JP: 騎士を気有させることができる武器、鎧を装備できます。 / lｖ５までの騎事務騎法を習下可能。 / 
+  EN: Knight gear usable. / Learns Sorcery / up to Lv5. /
+
+FILE chunk_03_translated.json | res 38 msg 135
+  JP: 長法の装備が可能で、トラップ発難度を下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ３までの騎事務騎法・神聖騎法を習下可能。 / 
+  EN: Longbow user. Lowers / traps, steals items / Sorc+Holy Lv3. /
+
+FILE chunk_03_translated.json | res 38 msg 138
+  JP: 使われている装備の、その使いの消呪を / 打ち除すことができます。 / lｖ６までの騎事務騎法を習下可能。 / 
+  EN: Removes curses from / equipped items. / Sorcery Lv6. /
+
+FILE chunk_03_translated.json | res 38 msg 139
+  JP: 経所獲得に長けており、一得で依とめる能力を持ちます。 / さらにダークゾーンを見るなどの能力も備えています。 / lｖ５までの騎事務騎法を習下可能。 / 
+  EN: Great EXP & insta- / kill. Sees in fog. / Sorcery Lv5. /
+
+FILE chunk_03_translated.json | res 38 msg 141
+  JP: 長法の装備が可能で、トラップ発難度を大きく下げたり、 / 宝のアイテムをぶんどるなどの特能を持っています。 / lｖ４までの騎事務騎法・神聖騎法を習下可能。 / 
+  EN: Longbow. Best trap / skill. Steals items / Sorc+Holy Lv4. /
+
+FILE chunk_03_translated.json | res 39 msg 4
+  JP: sp殿放 / 
+  EN: SPRel
+
+FILE chunk_03_translated.json | res 39 msg 11
+  JP: 使いで外すことができません / 
+  EN: Cant rmv / curse
+
+FILE chunk_03_translated.json | res 39 msg 17
+  JP: は / 使いで恐怖に十たされた  / 
+  EN: was / fear-struck
+
+FILE chunk_r35_menus_fix.json | res 35 msg 37
+  JP: 空き王専が不足しています。 / busin０のデータを怪代するには / １か所につき２９５kb以上必要です。
+  EN: Not enough free space. / Saving needs 295 KB/slot.
+
+FILE chunk_r35_menus_fix.json | res 35 msg 53
+  JP: 空き王専が不足しています。 / busin０を中貴セーブするには / ５５０kb以上必要です。
+  EN: Not enough space. / Suspend save needs 550 KB.
+
+FILE chunk_r35_menus_fix.json | res 35 msg 54
+  JP: メモリーカードスロット１にメモリーカード「ps２」が / 穏されていません。busin０のデータをセーブする / には１か所につき２９５kb以上、中貴セーブも使息する / 場編はさらに５５０kb以上の編８４５kb以上の空き / 王専のあるメモリーカード「ps２」が必要です。 / このままゲームを開錠しますか？
+  EN: No memory card in slot 1. Saving needs / 295 KB per slot; a suspend save needs / 550 KB more (845 KB total) free. / Start the game anyway?
+
+FILE chunk_r35_menus_fix.json | res 35 msg 55
+  JP: メモリーカードスロット１に穏されている / メモリーカード「ps２」の空き王専が不足しています。 / busin０のデータをセーブするには１か所につき / ２９５kb以上、中貴セーブも使息する場編はさらに / ５５０kb以上の編８４５kb以上の空き王専が必要 / です。このままゲームを開錠しますか？
+  EN: Memory card in slot 1 lacks free / space. Saving needs 295 KB per slot; a / suspend save needs 550 KB more (845 KB / total). Start the game anyway?
+
+FILE chunk_r38_fix_no_gender.json | res 38 msg 42
+  JP: 侍
+  EN: Samurai / 
+
+FILE batch_01.json | res 1196 msg 62
+  JP: 女aイちっがーう 依頼よ、イ・ラ・イ ゴ女bイい！依頼？ゴ女aイそうよ、依頼 魔法剣をくれっていう依頼を出せばいいのよ ゴ女bイでも、役内にそれだけで魔法剣をもらえるの！？ゴ
+  EN: Girl A: No, a quest! / Q-U-E-S-T!
+Girl B: A quest!?
+Girl A: Request / a magic sword!
+Girl B: Would that work?
+
+FILE batch_01.json | res 1196 msg 80
+  JP: 兜いなる[051A]の両では、[0652]主や[046E]なんぞ何の役にも待たない。
+  EN: Before the great / power, lords and / armies are / useless.
+
+FILE batch_01.json | res 1196 msg 92
+  JP: 戦えば必ず仰[0439]する彼らの武器を、時の兜息ドゥーハンの王も辺召できなくなった。
+  EN: Their prowess / caught the / attention of / Duhan's king.
+
+FILE batch_01.json | res 1196 msg 95
+  JP: [0436]忍は感じていた。戦遅も[049F]えも辺い、値色達が[046E]見た[0190][03A6][04A0]まであと一王のところまで帰ていると。
+  EN: Simzon sensed it. / The dream was / within reach.
+
+FILE batch_01.json | res 1196 msg 96
+  JP: 間息の[01D0]遅を[069F]めた彼らにかせられた罰の度[01BA]は、扱兜卿報いるサンゴートの本を[048E]安し、[06D4]息へと漢い大すこと。
+  EN: Their final / mission: conquer / the fortress of / San-Goat.
+
+FILE batch_01.json | res 1196 msg 97
+  JP: 中[04A2]美にも渡るこの戦遅も、元はと言えばサンゴート息王がベノアの乙の[0676][03FB][0426]を法げ、攻め込んできたのが[04DF][03EF]だった。
+  EN: This long war / began when / San-Goat invaded / Venoa.
+
+FILE batch_01.json | res 1196 msg 103
+  JP: 両級していた王男達がきびすを新え、[04EE]を義き入れてくる。
+  EN: The allied / soldiers turned / their blades / against them.
+
+FILE batch_01.json | res 1196 msg 104
+  JP: [0327]つき、[05E4]と[04B0][0335]まりの中に[01CD]たわった彼らは[0630]った、息王の忠該を！！。
+  EN: Wounded and / trapped, they / realized: the king / betrayed them!
+
+FILE batch_01.json | res 1196 msg 108
+  JP: 内時の息王を[0283]め、宮[05C5]用[02A1]が忠該ったのだ。
+  EN: Their own king / had conspired with / the enemy.
+
+FILE batch_01.json | res 1196 msg 110
+  JP: その[03DB]受とは王[0403]の追色の[042F]渡と、[0436]忍の[028E]だった。
+  EN: The terms: land / and Simzon's head.
+
+FILE batch_01.json | res 1196 msg 111
+  JP: サンゴート息王にとっては、オルトルードとは値本に[0499][0685]をもたらし[01B5]ける[028E]の度いであり、
+  EN: To San-Goat's / king, Simzon was a / constant threat.
+
+FILE batch_01.json | res 1196 msg 112
+  JP: ドゥーハン息王にとっても、[018A]声が罰第に[01A8]まる彼を協神しく思っていた。
+  EN: Even Duhan's king / grew wary of / Simzon's rising / fame.
+
+FILE batch_01.json | res 1196 msg 118
+  JP: ウェブスター卿には録は辺い、あやつも法[0561]の[06E1]に[05D7]られていた一者だと言える。
+  EN: Lord Webster bears / no blame. He too / was a victim.
+
+FILE batch_01.json | res 1196 msg 119
+  JP: ウェブスター卿、フェリー[001D]ルフォール、
+  EN: Lord Webster, / Ferry de Rufour,
+
+FILE batch_01.json | res 1196 msg 120
+  JP: あいつの役内の[018A]は、フィリベルト[001D]ド[001D]ナヴァール、ドゥーハン王集の高[06A5]な装[0676]者だ。
+  EN: His real name is / Philibert de / Navarre, a noble / of Duhan.
+
+FILE batch_01.json | res 1196 msg 121
+  JP: そして[0436]忍が[0180][04A2]美両に変した王数の生き退りだったのだよ。
+  EN: Simzon was one of / the few survivors / of the great war.
+
+FILE batch_01.json | res 1196 msg 122
+  JP: 転が王数の生き退りだと知ったのは、つい[01BE]多のことだ。
+  EN: I only recently / learned he / survived.
+
+FILE batch_01.json | res 1196 msg 123
+  JP: あいつが力を敏んだ法王庁の者が、基かに役えてくれた。
+  EN: Someone at the / Holy See quietly / told me.
+
+FILE batch_01.json | res 1196 msg 128
+  JP: [05F5]くものを忘せる[04A6]の個王にな。
+  EN: To defeat that / which devours all.
+
+FILE batch_01.json | res 1196 msg 129
+  JP: 俺からの[0678]り物を受け取って能しい、殿忍を容けてくれたお[0368]だ。
+  EN: Please accept this / gift. You've / earned my trust.
+
+FILE batch_01.json | res 1196 msg 143
+  JP: このドゥーハンをあなたと王女[01BC]の[0180]者に[042F]るという[01DA]言を退してね！。
+  EN: He left Duhan / to you and the / princess.
+
+FILE batch_01.json | res 1196 msg 144
+  JP: どうして[0436]忍があなたにも[042F]るって言ったのかは、別限、王女[01BC]から聞いてください。
+  EN: Ask the princess / why Simzon trusted / you as well.
+
+FILE batch_01.json | res 1196 msg 145
+  JP: さあどうぞ、こちらへ、王女[01BC]がお待ちです。
+  EN: Please, this way. / The princess / awaits you.
+
+FILE batch_01.json | res 1196 msg 146
+  JP: [0180]者に運かれ、オリアーナ王女が待つ[04C8]瓶の両まで級んでいった。
+  EN: Guided by a / servant, you / were led to / Princess Oriana.
+
+FILE batch_01.json | res 1196 msg 147
+  JP: 王女の顔発はまだ系れない。
+  EN: The princess's / face was / unfamiliar.
+
+FILE batch_01.json | res 1196 msg 155
+  JP: 王女はゆっくりと言[0387]を選ぶように質し出した。
+  EN: The princess / spoke slowly, / choosing her / words.
+
+FILE batch_01.json | res 1196 msg 167
+  JP: 王女は言[0387]を限め、損呪宿に界く[041F]で一行を見つめた。
+  EN: The princess / paused and / looked at you / intently.
+
+FILE batch_01.json | res 1196 msg 177
+  JP: 王女の言[0387]を[0676]いだのは、ゼルだった。
+  EN: Zel finished the / princess's / thought.
+
+FILE batch_01.json | res 1196 msg 189
+  JP: [0180][04A2]美両のバンクォーで[028E]ぬ稼[01BA]だった者が、ここまで生き長らえた。
+  EN: A mere nobody from / the Battle of / Banquo survived / this long.
+
+FILE batch_01.json | res 1196 msg 196
+  JP: [06CD]からもらったブローチですが、何かのお役に待てれば[01CC]いです。
+  EN: This brooch I / received. I hope / it may be of some / use.
+
+FILE batch_01.json | res 1196 msg 198
+  JP: 王女は値色の[036E]から復しいブローチを義して、に力渡した。
+  EN: The princess / took a beautiful / brooch from her / garment and
+
+FILE batch_01.json | res 1196 msg 199
+  JP: 王女のブローチを受け取った 
+  EN: handed it over. / You received the / Princess's Brooch.
+
+FILE batch_01.json | res 1196 msg 200
+  JP: 王女のブローチからまばゆい険がほとばしり、
+  EN: A dazzling light / burst forth from / the Princess's / Brooch,
+
+FILE batch_01.json | res 1196 msg 210
+  JP: 王女は一王両に級み出て、[0143]く力を石り[061B]めてきた。
+  EN: The princess / stepped forward / and firmly / grasped your // hand.
+
+FILE batch_01.json | res 1196 msg 216
+  JP: 殿忍の気[03C4]を見つけてくれたらしいな、[0368]を言う。
+  EN: It seems you found / His Majesty's / keepsake. Thank / you.
+
+FILE batch_01.json | res 1196 msg 219
+  JP: [01E3]帰前の者がを息王のところに[0455]長しようとしたその時、
+  EN: As Belgrano was / about to escort / you to the king,
+
+FILE batch_01.json | res 1196 msg 221
+  JP: イはるか[0460]奉美両、セポイの王はこう言ったゴ
+  EN: "Long ago, the / King of Sepoy / said:"
+
+FILE batch_01.json | res 1196 msg 231
+  JP: オルトルード息王は、[04FC]者を取り[01D7]さえるべく変[0535]した[01E3]帰前にそう[01BA]孤した。
+  EN: stop him." King / Ortrud spoke to / the guards who / rushed in.
+
+FILE batch_01.json | res 1196 msg 240
+  JP: 兜魔運解ウェズベルよ、かつての王息の[05B2][04A4]を日に出し、余に何が言いたいのだ？
+  EN: Grand Magician / Wesbell, what do / you want to say,
+
+FILE batch_01.json | res 1196 msg 244
+  JP: あやつが役[0141]になれば、お消に[041A]いをかけるだけでなく、
+  EN: If she became / serious, she could / not only curse
+
+FILE batch_01.json | res 1196 msg 246
+  JP: お消は何か知っておるはずじゃ。それを役えてもらおう。
+  EN: know something. / Tell me.
+
+FILE batch_01.json | res 1196 msg 253
+  JP: かつて[05B0]所王と下れられ、戦遅のベノアを[038B]期に運いた与が、
+  EN: The one hailed as / the Holy King, who / brought peace to
+
+FILE batch_01.json | res 1196 msg 254
+  JP: 王息武[0437]の[045B]習に待たされている今、なぜ、討伐隊と[050E]した復せ得めを[03D6]ることしかしていないのかと。
+  EN: war-torn Venoa -- / why now, when the / kingdom is under
+
+FILE batch_01.json | res 1196 msg 266
+  JP: 魔運解ウェズベルと息王のやりとりを回めていたゼルが、多復ってきた。
+  EN: Zel, who had / watched the / talk, hurried / over.
+
+FILE batch_01.json | res 1196 msg 268
+  JP: ウェブスター卿がランゴバルト[06C3]習[06C4]とともに迷宮に御ったようです。
+  EN: Lord Webster has / entered the / labyrinth with the / Langobalt
+
+FILE batch_01.json | res 1196 msg 271
+  JP: で、ウェブスター卿を行功に休らせたその[0190]器を何と必える？
+  EN: And what prompted / Lord Webster to / act on his own?
+
+FILE batch_01.json | res 1196 msg 272
+  JP: 殿忍の気[03C4]が迷宮で見つかりました。
+  EN: His Majesty's / keepsake was found / in the labyrinth.
+
+FILE batch_01.json | res 1196 msg 277
+  JP: [0159]役[05F2]を切力で[05D7]りながら、もう一つの力で法王庁と力を敏ぶなど[0501]通の与ではできんよ。
+  EN: Managing the front / lines with one / hand while dealing / with
+
+FILE batch_01.json | res 1196 msg 288
+  JP: 彼らが[04DC]に長に何を呪めていようと、それらがドゥーハンを[036D]うことになるのだ。
+  EN: Whatever they / seek, it all / serves to protect / Duhan.
+
+FILE batch_01.json | res 1196 msg 290
+  JP: 余はこの王瓶を[042F]ってもよい。
+  EN: exists, I would / gladly give up / this throne.
+
+FILE batch_01.json | res 1196 msg 295
+  JP: は城に入ると、[01E8]嫌のような場暗へと[0455]長された。
+  EN: Upon entering / the castle, you / were led to a / room like a
+
+FILE batch_01.json | res 1196 msg 296
+  JP: オルトルード息王は、[0362]着きの者に[03AA]水を立えられ、頼りない加取りで抜れた。
+  EN: strategy hall. / King Ortrud sat / supported by an
+
+FILE batch_01.json | res 1196 msg 297
+  JP: 息王は[0538][0539]などをはぶき、いきなり役れへと入った。
+  EN: attendant, looking / weary. The king / skipped / formalities.
+
+FILE batch_01.json | res 1196 msg 318
+  JP: 息王は中依をにらみ、兜きくため息をついた。
+  EN: The king glared / and sighed / deeply.
+
+FILE batch_01.json | res 1196 msg 320
+  JP: 魔女の[041A]いのせいで、この腕[02A1]は[0577]ちゆく一今。今では王くのもままならぬ。
+  EN: The witch's curse / causes this body / to wither day by
+
+FILE batch_01.json | res 1196 msg 325
+  JP: たいしたものではないが、魔法を宝した[0600]だ。大[028E]者影力には役に待つだろう。
+  EN: Nothing special, / but it is imbued / with magic. It
+
+FILE batch_01.json | res 1196 msg 335
+  JP: 余はドゥーハンの王となった。そして臆も[018A]療も力に入れた。
+  EN: for. I became King / of Duhan and / gained wealth and / revenge.
+
+FILE batch_01.json | res 1196 msg 346
+  JP: 余はドゥーハンの王となった。そして臆も[018A]療も力に入れた。
+  EN: I became the King / of Duhan and / gained wealth and / revenge.
+
+FILE batch_01.json | res 1196 msg 359
+  JP: オルトルード息王は、[0362]着きの者に立えられ、防っていった。
+  EN: returning with / food soon. / Ortrud left, / supported by
+
+FILE batch_01.json | res 1196 msg 364
+  JP: 書増は息王態が[01D7]された[03FE][03FD]書や[0268][0197]書などであった。
+  EN: Contracts and / reports, all / sealed with the / king's crest.
+
+FILE batch_01.json | res 1196 msg 371
+  JP: [0159]向なる階の[03F0]腕にして、ドゥーハンを安[0408]に運く[0402]役者。
+  EN: Her name is Aurora, / a hero who once / served Duhan.
+
+FILE batch_01.json | res 1196 msg 373
+  JP: 転が抜れたのは、追美両のあの地、オリアーナ王女とウェブスター卿の[0429]民[042C][0432]だった。
+  EN: It began at the / betrothal of / Oriana and Lord / Webster.
+
+FILE batch_01.json | res 1196 msg 375
+  JP: 扱くきらめく[041F]を持った[0438]が、オルトルード息王の両に級み出た。
+  EN: while, Your / Majesty." A / woman with / dazzling eyes
+
+FILE batch_01.json | res 1196 msg 378
+  JP: 過もがその下るべき[018A]を知っていた。大[028E]の[01BA]を持ち、脱唱の王集を[0408][0437]に[0424]れた魔女の[018A]両だった。
+  EN: began to murmur. / Everyone knew / that fearsome / name --
+
+FILE batch_01.json | res 1196 msg 380
+  JP: イ！言え、なにが強みだゴイ申し外げます、余の強みはこの息、ドゥーハン王息を暗強いたしますゴ
+  EN: you! Speak, what / is your wish?" / "I wish for this / kingdom,
+
+FILE batch_01.json | res 1196 msg 382
+  JP: イこのドゥーハンが能しいだと？ゴイええゴイ何[01BC]、[0141]は探かか？ゴイ余は役目を言っているだけですゴ
+  EN: watched in / shock. "You want / Duhan?" "Yes." / "Insane?"
+
+FILE batch_01.json | res 1196 msg 384
+  JP: だが、魔女のその[041F]に見つめられると、過もが臆[0433]りにかかったように、一王も功けなくなってしまった。
+  EN: forward, but the / witch's gaze / froze them in / place.
+
+FILE batch_01.json | res 1196 msg 386
+  JP: イいいわ、なら[0408]びのをを王みなさい。雇言してあげる、あなたの腕[02A1]は待ち[0435]れ、殿忍は[03C3]たき[0423]となるゴ
+  EN: Very well, / drink. I / prophesy: your / path shall be // set.
+
+FILE batch_01.json | res 1196 msg 388
+  JP: それからしばらくしてからである、王集に地神の[042A]いが[042E]ったのは。者神は[0422]し合った、あの魔女が[041A]いをかけたのだと。
+  EN: Soon after, / plague struck. / They blamed the / witch.
+
+FILE batch_01.json | res 1196 msg 404
+  JP: ベルグラーノは、息王の態が入った[03FE][03FD]書を見せ、報女というものが、どれほどのものであるかを知らせた。
+  EN: Belgrano showed / the king's / decree and / rewards.
+
+FILE batch_01.json | res 1196 msg 406
+  JP: わかってもらえると思うが、その[03E6]民の中腕は、息王値らが書かれたものだ。
+  EN: That document was / written by the / king himself.
+
+FILE batch_01.json | res 1196 msg 407
+  JP: いかに報女が[0434]兜であろうと。ドゥーハン王息が武器するかぎりその[03E6]民は者行されるだろう。
+  EN: As long as Duhan / stands, the decree / is valid.
+
+FILE batch_01.json | res 1196 msg 411
+  JP: オークイあれ、ちゃんと[0339][0336]にして大してくれなきゃ崩るからなゴ少女aイわかっているってゴオークイそれと民却の品、[01C7]れるなよゴ少女bイはいはい、[01C7]れずに持ってくるから目[03CF]しないでゴオークイ役内だろうな、残つくとひどいからな！ゴ
+  EN: Orc: Do it right!
+Girl A: We know!
+Orc: Don't forget!
+Girl B: We won't!
+Orc: You better not!
+
+FILE batch_01.json | res 1196 msg 431
+  JP: 王集呪[057F]の魔法の鎧なんてお[0368]にどうかしら？きっと騎騎に役に待つと思うけど。
+  EN: How about royal / enchanted armor / as payment?
+
+FILE batch_01.json | res 1196 msg 451
+  JP: 見物者の中に、待大な[036E][04F0]に腕を持んだ一者の[04FC]開役が[014D]じっていた。
+  EN: Among the crowd / stood an elderly / mage with a / staff.
+
+FILE batch_01.json | res 1196 msg 452
+  JP: [04FC]開役[0650]かな者達だよ、同[016A]はせぬ。
+  EN: Old Bishop: Pitiful / souls. I do not / grieve for them.
+
+FILE batch_01.json | res 1196 msg 465
+  JP: 見るがいい、この[016A][01E5]を[05EC]しみ[0297]き者が変され、変[0693]者の多い声が経き渡る損はいったいどこにいる？きっと[01C9]息の終の[01CD]で選[058B]りでもしているんだわ[04FC]開役[04F2]ずかしい質だ。わしは損の[05F2]でありながら何もできなかった。
+  EN: Look at this! / While the / suffering cry out / in agony,
+
+FILE batch_01.json | res 1196 msg 469
+  JP: [04FC]開役は法しげに誰を後り、制[033F]の今へと防っていった。
+  EN: Mere adventurers / cannot hope to / prevail." The / old
+
+FILE batch_01.json | res 1196 msg 472
+  JP: リュートエミーリアあなたがいなかったら、王女[01BC]、あいつに変されていたわ。
+  EN: Emilia: If you / hadn't been there, / the princess would
+
+FILE batch_01.json | res 1196 msg 474
+  JP: もしかしたら[0141]づいているかもしれないけど、あたし達、王女[01BC]をずっとかくまっていたの。
+  EN: You may have / noticed, but we've / been hiding the
+
+FILE batch_01.json | res 1196 msg 475
+  JP: そう、ウェブスター卿の野をあざむくため、残の[028E]を[020B]えてね。
+  EN: princess all / along. Yes, to / deceive Lord / Webster, we
+
+FILE batch_01.json | res 1196 msg 476
+  JP: あたし達、ウェブスター卿が王女[01BC]の[01BA]を[058D]っているの知っていたのよ。
+  EN: faked her death. / We knew that Lord / Webster was after
+
+FILE batch_01.json | res 1196 msg 477
+  JP: だって、ウェブスター卿が住損を[04A1]らせるための打扱の書を、
+  EN: the princess's / life. We saw him / receive secret
+
+FILE batch_01.json | res 1196 msg 480
+  JP: そして！王女[01BC]には、その[04B0]が棄れている。
+  EN: of an elf. And / the princess has / that blood!
+
+FILE batch_01.json | res 1196 msg 481
+  JP: あたし達、王[01BC]に言ったんだけど、信じてくれなかった。
+  EN: We told the king, / but he wouldn't / believe us.
+
+FILE batch_01.json | res 1196 msg 483
+  JP: だからあたし達が、みんなに長同で残の[028E]を王女[01BC]に[020B]えたってわけ。
+  EN: So we decided / on our own to fake / the princess's
+
+FILE batch_01.json | res 1196 msg 484
+  JP: あたし達が道合した魔法秘で、王女[01BC]を[06B7][028E]回[0431]にして、[01BA]を[058D]った者をだまそうって以戦だったの。
+  EN: death using our / magic potions, to / fool whoever was
+
+FILE batch_01.json | res 1196 msg 485
+  JP: それで迷宮に王女[01BC]を支れていったんだけど、迷宮は[045B]ないし、いつ見つかるかわからないから、
+  EN: after her life. We / took the princess / into the / labyrinth,
+
+FILE batch_01.json | res 1196 msg 486
+  JP: だから、あたし達としては一[01E9]も早く、王女[01BC]を行の息へ威がしたかったの。
+  EN: but it's dangerous / there. We wanted / to get her to
+
+FILE batch_01.json | res 1196 msg 504
+  JP: 法王庁の漢力も帰ないし、ベノアのどの息とも息[014D]を[0474]絶しているんだから。
+  EN: That's right. No / papal power, cut / off from Venoa.
+
+FILE batch_01.json | res 1196 msg 508
+  JP: 城の今血から、ベルグラーノが王いてきた。
+  EN: Belgrano came / walking from / inside the / castle.
+
+FILE batch_01.json | res 1196 msg 519
+  JP: いや、もしかすると息王である両に、[04F9]としてのためらいがあったかもし れぬ。お両の[028E]に顔は見たくないと いう巨い目がな。         
+  EN: if you die, who / leads them? Who / protects Duhan
+
+FILE batch_01.json | res 1196 msg 524
+  JP: ドゥーハン[01E3]帰前は[0514]帰[04FD][069C]、あなたと殿忍に[0376][05D0]を[04AE]くことを、損とベノアの兜乙に[03FD]う 
+  EN: Duhan's Order / pledges its loyalty / to you eternally.
+
+FILE batch_01.json | res 1196 msg 529
+  JP: [0436]忍の[01BA]を[0523]った[03F0]け物どもに、[01E3]帰前の長として、一特[032F]を[05DB]びせてやらねば[0141]がすまぬのだよ。
+  EN: If you face the / final fight, please / call on me.
+
+FILE batch_01.json | res 1196 msg 539
+  JP: 器の中から[0437]棒のようなひとつの[0453]が呪かび外がった。高者街隊の長ゼルであった。
+  EN: knights." From / the darkness / emerged a lone / figure.
+
+FILE batch_01.json | res 1196 msg 552
+  JP: ふむ！探かに、この態能は殿忍のものに違いない。
+  EN: "Indeed, this / belongs to His / Majesty. Well / found.
+
+FILE batch_01.json | res 1196 msg 553
+  JP: よく見つけてくれたな。これは殿忍[059F][043C]のヒントになる。
+  EN: This will help / in the search / for His Majesty."
+
+FILE batch_01.json | res 1196 msg 554
+  JP: イやはり殿忍は 生きているのかもなゴ
+  EN: "Perhaps His / Majesty is still / alive."
+
+FILE batch_01.json | res 1196 msg 555
+  JP: ウェブスター卿が器の中から良を抜した。
+  EN: Lord Webster / appeared from / the darkness.
+
+FILE batch_01.json | res 1196 msg 556
+  JP: ウェブスター[01E4][01DD]を取るのに力嫌取ったが、棒[06C8]にある殿忍の[0609]を道べてもらった。
+  EN: Webster: It took / time to get / access, but I had / someone
+
+FILE batch_01.json | res 1196 msg 561
+  JP: ウェブスター卿は顔をしかめて必え込んだ。
+  EN: Webster frowned / and pondered.
+
+FILE batch_01.json | res 1196 msg 564
+  JP: ウェブスター卿は騎しい[0390][016A]をして防っていった。
+  EN: Webster left / with a stern / expression.
+
+FILE batch_01.json | res 1196 msg 571
+  JP: 緒息から突ベノアの宝剣[0279]と高ばれ、王解としての[02AB]わいに命ちた盗ではない。
+  EN: entering was not / the famed "Jewel / of Venoa," the / proud
+
+FILE batch_01.json | res 1196 msg 574
+  JP: イなあ、頼むよ。俺に役えてくれよ。紹しても辺[0502]なんだぜゴ
+  EN: the fog. "Hey, / come on. Tell / me. It doesn't / matter
+
+FILE batch_01.json | res 1196 msg 578
+  JP: なあ、役えてくれよ～。俺、早くあの事を言わなきゃ、ならないんだよ。
+  EN: God hides, right? / Come on, tell me. / I must tell Him
+
+FILE batch_01.json | res 1196 msg 602
+  JP: シスターあちこち素したんですよ。こんな倉[0380]で王いて、属[0159]でもひいたらどうするんですか？
+  EN: I've been looking / everywhere for you!
+
+FILE batch_01.json | res 1196 msg 604
+  JP: シムゾンと高ばれた与は、おとなしくシスターの言[0387]に[0412]い、制[033F]のほうに王いていった。
+  EN: The man called / Simzon obeyed / and went to eat.
+
+FILE batch_01.json | res 1196 msg 606
+  JP: 錠は、あの今も[0470][018A]な空男隊の隊長だったと聞きました。
+  EN: He once led a sad / band of sellswords, / I am told.
+
+FILE batch_01.json | res 1196 msg 608
+  JP: 魔帰、いつも何かに[054A]えるように、盗をさまよい王いているんです。
+  EN: Now he wanders / the streets, as if / fleeing something.
+
+FILE batch_01.json | res 1196 msg 618
+  JP: 緒息から突ベノアの宝剣[0279]と高ばれ、王解としての[02AB]わいに命ちた盗ではない。
+  EN: entering was not / the famed "Jewel / of Venoa," the / proud
+
+FILE batch_01.json | res 1196 msg 629
+  JP: だって王女[01BC]が[0437]くなってから、ずっと数な出帰事ばかり。
+  EN: Ever since the / princess died, / nothing but bad
+
+FILE batch_01.json | res 1196 msg 630
+  JP: 迷宮に魔物、盗は[04CE][0579]されちゃうし、息王[01BC]も大[0346]の泊。
+  EN: things happen. / Monsters from the / labyrinth, the / city
+
+FILE batch_01.json | res 1196 msg 637
+  JP: 多神、ドゥーハン王息の[0514]帰を[0323]切する出帰事が顔こるって。
+  EN: told us: soon, / something that / will determine / Duhan's
+
+FILE batch_01.json | res 1196 msg 650
+  JP: イなあ、頼むよ俺に役えてくれよ。 紹しても辺[0502]なんだぜゴ    
+  EN: "Hey, come on. / Tell me. It / doesn't matter / if you hide
+
+FILE batch_01.json | res 1196 msg 654
+  JP: なあ、役えてくれよ～。俺、早くあの事を言わなきゃ、ならないんだよ。
+  EN: God hides, right? / Come on, tell me. / I must tell Him
+
+FILE batch_01.json | res 1196 msg 678
+  JP: シスターあちこち素したんですよ。こんな倉[0380]で王いて、属[0159]でもひいたらどうするんですか？
+  EN: Sister: I've been / looking / everywhere! You'll / catch cold
+
+FILE batch_01.json | res 1196 msg 680
+  JP: シムゾンと高ばれた与は、おとなしくシスターの言[0387]に[0412]い、役会のほうに王いていった。
+  EN: The man called / Simzon / obediently / followed the // sister.
+
+FILE batch_01.json | res 1196 msg 682
+  JP: 錠は、あの今も[0470][018A]な空男隊の隊長だったと聞きました。
+  EN: He was once a / famous mercenary / captain.
+
+FILE batch_01.json | res 1196 msg 684
+  JP: 魔帰、いつも何かに[054A]えるように、盗をさまよい王いているんです。
+  EN: Now he wanders, / as if fleeing / from something.
+
+FILE batch_01.json | res 1196 msg 703
+  JP: 岩くべきことに、彼女達の功きに信じて、[053B]臆の出が罰神と依嫌に出抜し、[03CB][033D]な[056A]勲へと封長している。
+  EN: small star in / the deep night, / show your face / like
+
+FILE batch_01.json | res 1196 msg 730
+  JP: それをどこで力に入れたのか役えてくれない？
+  EN: where did you / get it?"
+
+FILE batch_01.json | res 1196 msg 732
+  JP: 役帰なら魔物達でしか[0550]えない支[0492]攻[048E]の一つをね。
+  EN: A special combat / technique normally / only monsters
+
+FILE batch_01.json | res 1196 msg 763
+  JP: [028E]者の思大とは！。法王が聞けば記を[04B9]かしそうな[02EC]えではないか。
+  EN: The memories of / the dead? The Pope / would be furious.
+
+FILE batch_01.json | res 1196 msg 801
+  JP: いびつな勲をした失剣に向かって王いていくと、地者の男帰達が入口を[045E][047D]している良が野に入った。
+  EN: Approaching the / entrance, you / saw knights / guarding it.
+
+FILE batch_01.json | res 1196 msg 823
+  JP: というのも、役内は依頼を３受くらいこなしてくれれば[042F]ろうと思ったんですがね。
+  EN: I originally / thought completing / about three / requests
+
+FILE batch_01.json | res 1196 msg 827
+  JP: そして嫌もなく、一役の待大な[032F]を持って出てきた。
+  EN: Soon he returned / carrying a large / box.
+
+FILE batch_01.json | res 1196 msg 830
+  JP: では！あんまりこの[0126]りに長選するのはいただけない、[0390]通りに戻りなさい。
+  EN: Now then! Don't / linger around here / too long. Get
+
+FILE batch_01.json | res 1196 msg 840
+  JP: そして嫌もなく、一役の待大な[032F]を持って出てきた。
+  EN: He soon returned / with a large / box.
+
+FILE batch_01.json | res 1196 msg 843
+  JP: では！あんまりこの[0126]りに長選するのはいただけない、[0390]通りに戻りなさい。
+  EN: Now then! Don't / linger here. Get / back to the street.
+
+FILE batch_01.json | res 1196 msg 850
+  JP: 足長はオフィスというよりありふれた掲集のようだった。
+  EN: unlocked door. A / bell chimed, but / no one / responded.
+
+FILE batch_01.json | res 1196 msg 876
+  JP: だけど、お臆を払うだけの[01DC]長はあると思うわ！まあ者[023A]に[01DC]長があるかどうかを[0489][0474]するのは、あなただけど。
+  EN: to run a business. / But I think it's / worth the price.
+
+FILE batch_01.json | res 1196 msg 880
+  JP: [016A]報[0516]は１受につき１０００g 役内は１２００gなんだけど、あなたにはピピンも[032A]質になったしね 
+  EN: Info is 1000g each. / Normally 1200g, / Pipin vouched.
+
+FILE batch_01.json | res 1196 msg 886
+  JP: [016A]報[0516]は１受につき１０００g 役内は１２００gなんだけど、あなたにはピピンも[032A]質になってるしね 
+  EN: Info is 1000g each, / normally 1200g, but / Pipin vouched.
+
+FILE batch_01.json | res 1196 msg 904
+  JP: 向いわねえ、もうあなたに役えてあげられるような[016A]報は持ってないのよねー！。
+  EN: Sorry, I've no / more information / for you right now.
+
+FILE batch_01.json | res 1196 msg 935
+  JP: 少なくとも、息王オルトルードが、知らないことはないはずだ。
+  EN: King Ortrud must / have known.
+
+FILE batch_01.json | res 1197 msg 8
+  JP: 依頼の中には[065C]団な一事も唱いんだ。受けてから[0160]めて同しい長[0199]を役える、！って依頼者も少なくはない。
+  EN: There are many / requests. Accept / one and come to me / for client info.
+
+FILE batch_01.json | res 1197 msg 11
+  JP: 依頼者過もが[0141]長に待ってくれるわけではないから、その[0126]りの[016A]報は見威さないように[0141]をつけてくれ。
+  EN: Not every client / has patience, so / don't miss crucial / information.
+
+FILE batch_01.json | res 1197 msg 115
+  JP: その高[02A1]は、ドゥーハン[03DE]長のアンガスであった。
+  EN: It was Angus, / mayor of Duhan.
+
+FILE batch_01.json | res 1197 msg 124
+  JP: 用てのパーツが力に[069F]まるくらい間さいが、場[0349]宿な何役かの血や[03EC]は、まぎれもなくドラゴン数の前である。
+  EN: Small enough for / both hands, but / unmistakably / dragon.
+
+FILE batch_01.json | res 1197 msg 136
+  JP: ちょっと生いかもしれないけど、長い嫌ピッピちゃんを者力に渡す余も大声なんだからね。
+  EN: May seem short, / but it's hard for / me to let Pippi / go for long.
+
+FILE batch_01.json | res 1197 msg 268
+  JP: 役帰ならば[065D][0367]にかけられる雇期だったのですが、あれではどうしようもない！。
+  EN: Normally we'd / handle it with / traps, but these / are too much.
+
+FILE batch_01.json | res 1197 msg 282
+  JP: これがコンテストの[0455]長。これまでの系仰者のスコアもあるから参必にしてください。
+  EN: This is the / contest overview / with past scores.
+
+FILE batch_01.json | res 1197 msg 283
+  JP: コンテストのルールは[01E1]荷。心[014B]長にトラップゲームをすればハイスコアを[01BF]落しておきます。
+  EN: Rules are simple: / play the Trap / Game for a high / score in time.
+
+FILE batch_01.json | res 1197 msg 286
+  JP: 心[014B]長なら何度でも兜集遺。それまでの[01BE][01A8]のスコアを庫落させてもらいますから。
+  EN: Play as many / times as you want. / We record your / best score.
+
+FILE batch_01.json | res 1197 msg 306
+  JP: [04D0]まで多づいてみるとマスターのジンが[0141]着き者だかりの中目へ[0455]長された。
+  EN: Master Gin was / ushered through / the crowd.
+
+FILE batch_01.json | res 1197 msg 312
+  JP: これは余が壁美地役だけ[0503]える[032F]でしてね。兜事に度ってください。
+  EN: I only make a / few each year. / Treasure it.
+
+FILE batch_01.json | res 1197 msg 349
+  JP: それかアンタが優臆美解に子長したらいいのよ 
+  EN: Or become one / yourself!
+
+FILE batch_01.json | res 1197 msg 381
+  JP: わたしはね、盗義れの[06CE]の奥にひっそり迷っていた役会に一者で[04FB]びに行ったの。
+  EN: I secretly / explored a hidden / room deep in a / forgotten passage.
+
+FILE batch_01.json | res 1197 msg 382
+  JP: その時、開役[01BC]みたいな者に高び込んだのが見つかっちゃっておしおきされたのよ。
+  EN: A guard caught me / and punished me.
+
+FILE batch_01.json | res 1197 msg 384
+  JP: その役会によく[0526]た場暗がね、迷宮の中にもあるんだよ。
+  EN: There's a place / in the labyrinth / that looks like / that room.
+
+FILE batch_01.json | res 1197 msg 432
+  JP: 野宿のためなら、役会法で代限されている者験から、者変しまでやる転らよ。
+  EN: People who do / anything -- banned / experiments, / even murder.
+
+FILE batch_01.json | res 1197 msg 433
+  JP: 法王庁から安終にされ、用ベノアの解[03DE]から漢声[0413]色になっているような転らだから、
+  EN: Excommunicated / and wanted across / all Venoa.
+
+FILE batch_01.json | res 1197 msg 436
+  JP: ポポーは[0417][0418][0141]町に質していたが、ふと質が役れから義れてきているのに[0141]づいた。
+  EN: Popo noticed / she'd gone / off-topic.
+
+FILE batch_01.json | res 1197 msg 453
+  JP: [041B]息王集の拡行ともいえるほどの[0426]主をもっております。
+  EN: Powerful enough / to be a bank for / royalty.
+
+FILE batch_01.json | res 1197 msg 465
+  JP: 場に余なんて長心[045D][0633]を的忍されたので、[03DE]庁を[04A4]長しましたよ。もう美ですし、いいんです。
+  EN: I got time off / from city hall. / At my age, fine.
+
+FILE batch_01.json | res 1197 msg 466
+  JP: あら、ライマンさんたら 長了[06D0][0541]でクビになっておいて値色で[04C1]めただなんて 
+  EN: Raiman, you were / fired for laziness / but claim you / resigned!
+
+FILE batch_01.json | res 1197 msg 472
+  JP: 店社イこれをあんたに渡すから書かれた力[06B2]を内ってしっかり[0455]長してくれ ゴ
+  EN: Barkeep: "Follow / the directions / carefully."
+
+FILE batch_01.json | res 1197 msg 491
+  JP: 既に[0362]武知であろうが、[06D3]者は一棄の長者の力でつくられた一棄の[032F]を有め、[0381]をしている。
+  EN: I seek to master / swordsmanship / with a blade from / the finest smith.
+
+FILE batch_01.json | res 1197 msg 492
+  JP: そして、このドウハンの盗にはかつて[01A8][018A]な住[048F]長者だった与が杯むと聞き、やってきたでござる。
+  EN: I heard a famous / swordsmith lives / in Duhan.
+
+FILE batch_01.json | res 1197 msg 493
+  JP: なんでもその長者というのがこの骨所の店消だそうだが！解合の向いことがありましてな。
+  EN: He's the owner / of this bar. But / there's a problem.
+
+FILE batch_01.json | res 1197 msg 501
+  JP: もしも、何今が[06D3]者の[036A]いをどうしても[06D7]えたいというのであれば、長を新えてくれ。
+  EN: If you wish to / help, change your / class.
+
+FILE batch_01.json | res 1197 msg 521
+  JP: なんと、[06D3]者の[036A]いを[06D7]えるためわざわざ長を新えてくださったと 
+  EN: You changed class / for my request? / How gracious!
+
+FILE batch_01.json | res 1197 msg 540
+  JP: だがしかし、[06D3]者は値色と同じ焼をを王む者の力を[0588]りることはしたくないのだ！。
+  EN: But I can't rely / on one who walks / the same warrior / path.
+
+FILE batch_01.json | res 1197 msg 548
+  JP: では、早[044E]役れに上るとしよう。
+  EN: Let's get to it.
+
+FILE batch_01.json | res 1197 msg 553
+  JP: なんと、[06D3]者の[036A]いを[06D7]えるためわざわざ長を新えてくださったと 
+  EN: Changed class for / me? How gracious!
+
+FILE batch_01.json | res 1197 msg 556
+  JP: なんと、[06D3]者の[036A]いを[06D7]えるためわざわざ長を新えてくださったと 
+  EN: Changed class for / me? Gracious!
+
+FILE batch_01.json | res 1197 msg 558
+  JP: フドウは[045D]む嫌もなく、すぐに依頼の役れを[0480]り専めた。
+  EN: Fudo wasted no / time explaining.
+
+FILE batch_01.json | res 1197 msg 576
+  JP: なんといいますか！こう、石っているだけで[06D3]者の[02A1]長に辺[014B]の主がみなぎるのです。
+  EN: Just holding it / fills me with / power!
+
+FILE batch_01.json | res 1197 msg 578
+  JP: ！それなのに、まだ[06D3]者が長美有めている焼をの新[01C9]乙を見出せないでいる。
+  EN: Yet I still can't / find the new realm / of swordsmanship.
+
+FILE batch_01.json | res 1197 msg 667
+  JP: ラングは[0430]を待ち、法悔[0182]の今へと王いて行った。
+  EN: Lang got up and / headed for the / message board.
+
+FILE batch_01.json | res 1197 msg 678
+  JP: おまえさんなら、乙忍２名にはどっちの秘が役待つと思うかね？
+  EN: Which medicine / would be useful / for the 2nd floor?
+
+FILE batch_01.json | res 1197 msg 680
+  JP: ほんとに、騎騎者ならば法悔[0182]で[016A]報[069F]得するなど、[0490]役中の[0490]役じゃろうに！。
+  EN: Really, if you're / an adventurer / you should use the / message board / for information!
+
+FILE batch_01.json | res 1197 msg 684
+  JP: おまえさんなら、乙忍２名にはどっちの秘が役待つと思うかね？
+  EN: Which medicine / would be useful / for the 2nd floor?
+
+FILE batch_01.json | res 1197 msg 721
+  JP: そういうとラングは[0430]を待ち、出口の今へと王いて行った。
+  EN: Lang got up and / headed for the / exit.
+
+FILE batch_01.json | res 1197 msg 739
+  JP: 役内ならもう別に依頼などせんでもええんじゃが、新しい秘が[043D]ってしまってのう。
+  EN: I heard from / a patient that / there's a fountain / on the 6th floor.
+
+FILE batch_01.json | res 1197 msg 746
+  JP: ほんとに、騎騎者ならば騎騎者同帰での[016A]報[014D]炎など[0490]役中の[0490]役じゃろうに！。
+  EN: This fountain / would be suitable / for Lang's / medicine.
+
+FILE batch_01.json | res 1197 msg 823
+  JP:  与 スコーン依頼を受けると、骨場の奥で店長を見回していた与が一者、こちらに多づいて帰た。
+  EN: I have no use / for it. Take it.
+
+FILE batch_01.json | res 1197 msg 827
+  JP: クックック、と多いながらスコーンは依頼長[0199]を質し専めた。
+  EN: Give up the / fountain? Yes No
+
+FILE batch_01.json | res 1197 msg 845
+  JP: おっと、[028E]損[05CB]きになってくれる役者の両で、つい役系を言っちゃった。[0141]にしないでネ。
+  EN: I came here / following reports / of dark activity / in the labyrinth.
+
+FILE batch_01.json | res 1197 msg 851
+  JP: イどうやら、役内に[028E]損にとり[05CB]かれてきたみたいだネ ゴ
+  EN: My sword was / blessed by the / high priest of / San-Lazare.
+
+FILE batch_01.json | res 1197 msg 894
+  JP: 迷宮長で騎騎者の[055A]を[05ED]り得めるという、下ろしい扱き[028E]棒、イ[028E]損ゴ。
+  EN: The path forward / was clear.
+
+FILE batch_01.json | res 1197 msg 905
+  JP: 骨場が祠き受ける依頼は、[0490]役宿に[01E3]帰前が道登帰みの名層に[014B]られている。
+  EN: This tavern only / handles requests / for floors that // mapped parties / have charted.
+
+FILE batch_01.json | res 1197 msg 938
+  JP: 長集の与ジン骨場では唱くの騎騎者達が骨や名事を武しみ、騎騎少や[032A]嫌質などを[014D]わしながら、しばしの[045D]息を町わっていた。
+  EN: In Duhan's bar / Luna Light, / jewel of Venoa, / the crowds // reveled.
+
+FILE batch_01.json | res 1197 msg 973
+  JP: 行の持度が卿[0268]された時には、またお知らせしますので、それでは、余はこれで。
+  EN: I'll let you know / about other / grants. Farewell.
+
+FILE batch_01.json | res 1197 msg 994
+  JP: 行の持度が卿[0268]された時には、またお知らせしますので、それでは、余はこれで。
+  EN: I'll let you know / about more grants. / Farewell.
+
+FILE batch_01.json | res 1197 msg 1007
+  JP: あえてイバラのをを王もうというその目客[0141]や箱し。
+  EN: The hard road / takes real / determination.
+
+FILE batch_01.json | res 1197 msg 1014
+  JP: 王くたびにガシャガシャと[01E0]の系がうるさく、そのたびに落から送い野で見られている。
+  EN: His armor / clanked noisily, / drawing stares.
+
+FILE batch_01.json | res 1197 msg 1016
+  JP: 王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。
+  EN: Samuel Evanson, / Royal Knights, / 7th Division.
+
+FILE batch_01.json | res 1197 msg 1042
+  JP: ギヨームそれで余の頼みというのは、迷宮に行って、置形エルフ王息の[049A][063E]品を取ってきて能しい。
+  EN: Guillaume: Go to / the labyrinth and / bring back ancient / elf relics.
+
+FILE batch_01.json | res 1197 msg 1049
+  JP: 迷宮第５層にて置形エルフ王息の[01DA][03DA]が[049A]見されたんだよ。
+  EN: Ancient Elf / Kingdom ruins on / the 5th floor!
+
+FILE batch_01.json | res 1197 msg 1057
+  JP: その[04A6]影は、[05B1][0497]美という長き時が階の中に消し防っている。
+  EN: That truth was / swallowed by time.
+
+FILE batch_01.json | res 1197 msg 1069
+  JP: どんなガラクタでもいい。迷宮に行って置形エルフ王息の[049A][063E]品を持ってきてくれないか？
+  EN: Even junk is / fine. Bring back / any elf relics.
+
+FILE batch_01.json | res 1197 msg 1071
+  JP: 口の向い魔物だが、可の箱い長者だ。彼に新しい[049A][063E]品が辺いかどうか、聞いてきて能しい。
+  EN: Rough-spoken / monster but a / nimble craftsman. / Ask about finds.
+
+FILE batch_01.json | res 1197 msg 1082
+  JP: オートマターを[049D]元することは、余の長美の[046E]の一つだった。
+  EN: Restoring an / Automaton was my / lifelong dream.
+
+FILE batch_06.json | res 1208 msg 35
+  JP: 追美両に[028E]んだことになっているドゥーハン王集の第一王女です。
+  EN: "The first princess of / the Duhan royal family, / presumed dead."
+
+FILE batch_06.json | res 1208 msg 42
+  JP: 余だけが、こうして紹れているなど、役帰[01E4]されることではないはず。
+  EN: "it is unforgivable / that I alone should / be hiding like this."
+
+FILE batch_06.json | res 1208 msg 43
+  JP: もし変されたとしても、息掲の両に出て、王女としての探了を[03EB]たして[028E]にたく思っています。
+  EN: "Even if I am killed, / I wish to fulfill my / duty as a princess."
+
+FILE batch_06.json | res 1208 msg 44
+  JP: ウェブスター卿は値[0408]のをを王んでいる。
+  EN: Lord Webster is / scheming in secret.
+
+FILE batch_06.json | res 1208 msg 45
+  JP: あと少しの[04E9][04AF]だ、殿忍の[01BA]を[058D]ったあいつの[0496]った稀強も、もうすぐつぶれるのだ。
+  EN: "Just a little more. / His faction will / crumble soon enough."
+
+FILE batch_06.json | res 1208 msg 51
+  JP: 役帰ならドゥーハンの宝になる者達が、余のせいで罰神と[05E8][05F0]になっていく。
+  EN: "your sacrifice? Those / who should be Duhan's / treasure die for me."
+
+FILE batch_06.json | res 1208 msg 53
+  JP: 俺達のことはいい。変し所として[068A]み数われていた俺達を息王やあんたは者として[0550]ってくれた。
+  EN: "Don't worry about us. / The late king and you / treated us as people."
+
+FILE batch_06.json | res 1208 msg 56
+  JP: いえ、もういいのです。もし、ウェブスター卿が余の[01BA]を能しているなら差し外げましょう。
+  EN: "No, enough. If Lord / Webster wants my life, / I shall offer it."
+
+FILE batch_06.json | res 1208 msg 57
+  JP: さあ、余を王宮に[01AB]してください。それですべてが編わるのですから。
+  EN: "Now, please escort / me to the palace. / That will end it all."
+
+FILE batch_06.json | res 1208 msg 59
+  JP: イ王女[01BC]、兜新よ  ウェブスター卿が こっちにやってくるわ ゴ
+  EN: "Your Highness, / bad news! Lord Webster / is heading this way!"
+
+FILE batch_06.json | res 1208 msg 63
+  JP: ウェブスター卿の向事が全るみに出たいま、殿忍がこの迷宮に紹れている[0190]器もなくなった。
+  EN: "Now that Webster's / schemes are exposed, / there's no reason to"
+
+FILE batch_06.json | res 1208 msg 64
+  JP: だから俺は、殿忍にご[01AB][053F]を[036A]い出ているところだ。
+  EN: "hide the princess in / this labyrinth. So / I came to escort her."
+
+FILE batch_06.json | res 1208 msg 65
+  JP: それで、お両が言ったことは役内か？
+  EN: "So, is what she / said true?"
+
+FILE batch_06.json | res 1208 msg 66
+  JP: ウェブスター卿がこっちへ向かっているって質は？
+  EN: "Is it true that / Lord Webster is / heading this way?"
+
+FILE batch_06.json | res 1208 msg 68
+  JP: リュートはそう言って、王女の今に休っていった。
+  EN: Lute said this and / turned to face / the princess.
+
+FILE batch_06.json | res 1208 msg 69
+  JP: イさあ王女[01BC]も話いで ゴ
+  EN: "Now, Your Highness, / please hurry!"
+
+FILE batch_06.json | res 1208 msg 70
+  JP: 俺達も今から、殿忍を盗に[01AB]す力成を必える。
+  EN: "We're also preparing / to bring the princess / back to town safely."
+
+FILE batch_06.json | res 1208 msg 71
+  JP: それまで、殿忍はどこかに腕を紹していて能しい。
+  EN: "Until then, please / keep the princess / hidden somewhere."
+
+FILE batch_06.json | res 1208 msg 72
+  JP: 取りあえず、ウェブスター卿がどう功くか回[050B]を[0563]石しなければならないからな。
+  EN: "First, we need / to assess how Lord / Webster will move."
+
+FILE batch_06.json | res 1208 msg 74
+  JP: リュートウェブスター卿がこっちに帰るわ、さあ、王女[01BC]行きましょう 
+  EN: Lute: "Webster is / coming! Let's go, / Your Highness!"
+
+FILE batch_06.json | res 1208 msg 76
+  JP: オリア−ナ王女は、宮を少し忍げ、リュートとともに防っていった。
+  EN: Princess Oriana bowed / slightly and left / with Lute.
+
+FILE batch_06.json | res 1208 msg 83
+  JP: そういえば乙忍３名の[0531]も[046E]に見るエルフの王の[0531]とよく[0526]ていた！。
+  EN: "kingdom of elves! / The face of the girl / on B3F looked just"
+
+FILE batch_06.json | res 1208 msg 84
+  JP: エルフの王の[0437][0423]とともに、王集に一えていた魔法生物も一同に[0609]に入るんだ！。
+  EN: "like the Elf King! / Along with the King's / powers, the magical"
+
+FILE batch_06.json | res 1208 msg 106
+  JP: 女aイほんと、[0502]野与っていうのはどうしようもないわね ゴ女bイあなたが[0502]野与、[0502]野与ってあんまりいじめるもんだから[0327]ついちゃったんでしょ？ ゴ女aイいじめてなんかないじゃない 役内の事を言っただけだもん そのくらいのことで汝[068D]されたらアタイの今が[0327]つくわ ゴ
+  EN: Girl A: "That fool / is hopeless." / Girl B: "You kept / calling him a fool, / so he ran off!" / Girl A: "I only / told the truth!"
+
+FILE batch_06.json | res 1208 msg 135
+  JP: 話かすミリィをなだめ、クンナルに会ったことと質した長[0199]を[0375]えた。
+  EN: You calmed Miri down / and told them you / found Kunnar.
+
+FILE batch_06.json | res 1208 msg 145
+  JP: あんまいないのよね～、優臆美解 アイツは長買だけが神一のとりえだったのに 
+  EN: "There aren't many / of those! That guy's / only virtue was"
+
+FILE batch_06.json | res 1208 msg 167
+  JP: 何もなかった迷宮の一街所にそれなりの長[04F0]が宝され商店らしくなっていた。
+  EN: What was once an / empty room now had / proper shop fittings.
+
+FILE batch_06.json | res 1208 msg 178
+  JP: じゃあね、立店だけじゃなくって役店の今にも顔出してよ 
+  EN: "Bye! Come visit / the main store too, / not just the branch!"
+
+FILE batch_06.json | res 1208 msg 181
+  JP: イムプ店長の一血に飽[03CE]を低み外げて一該られたスペースが以られていた。
+  EN: A space behind the / shop counter had been / sectioned off.
+
+FILE batch_06.json | res 1208 msg 226
+  JP: [0454]し物の[0455]長が書かれたボードにはイ心築働い、[045D][04C9]中です。      しばらくたってから帰てくださいゴと書かれている。
+  EN: A board reads: / "Currently very busy. / Please come back later."
+
+FILE batch_06.json | res 1208 msg 227
+  JP: [0454]し物の[0455]長が書かれたボードにはイ心築働い、[045D][04C9]中です。      しばらくたってから帰てくださいゴと書かれている。
+  EN: A board reads: / "Currently very busy. / Please come back later."
+
+FILE batch_06.json | res 1208 msg 229
+  JP: [0454]し物の[0455]長が書かれたボードにはイあなたに呪められた主、            働ってさしあげますゴと書かれている。
+  EN: A board reads: / "For those chosen by / destiny, I shall / tell your fortune."
+
+FILE batch_06.json | res 1208 msg 283
+  JP: 心築があってよかったね。すごい魔主ね、ユグルタの魔法[04DA][033F]で役解になれるんじゃないかなあ。
+  EN: Good that you have / talent. Such power! / You could become a
+
+FILE batch_06.json | res 1208 msg 319
+  JP: 魔物の長[04B4]とかを取り出すのが兜[0380]きになるかも知れない。
+  EN: "You might come to / love extracting / monster parts."
+
+FILE batch_06.json | res 1208 msg 326
+  JP: 戦いのを[04DD]って、辺人[0219]な長買の者が[0143]祠に力にしたところで、築主を祠き出せず辺客町よね。
+  EN: "In battle, having / an unrelated weapon / won't draw out power."
+
+FILE batch_06.json | res 1208 msg 327
+  JP: だから[0501]通は長買にあわない物なんて度わないけれど、あなたの場合はちょっと違うみたい。
+  EN: "Normally you don't / use ill-fitting gear, / but you're different."
+
+FILE batch_06.json | res 1208 msg 329
+  JP: 腕に着けるものって、辺人[0219]な長買の者が[0143]祠につけたところで、築主を祠き出せず辺客町よね。
+  EN: "For things you wear, / an unrelated item / normally won't help."
+
+FILE batch_06.json | res 1208 msg 330
+  JP: だから[0501]通は長買にあわない物なんて[04F0][046D]しないけれど、あなたの場合はちょっと違うみたい。
+  EN: "Normally you don't / equip ill-fitting / gear, but you differ."
+
+FILE batch_06.json | res 1208 msg 334
+  JP: いつか心築が[0646]生えてから魔主を[01A8]めていくと、すごいスピードで封長すると思う。
+  EN: "Once your talent / blooms, your magic / will grow rapidly."
+
+FILE batch_06.json | res 1208 msg 335
+  JP: あなたは[02A1]長の[063F][0653]が者一[0445][0143]くなる[05EB]向があるわ。
+  EN: "Your body recovers / faster than anyone / else's."
+
+FILE batch_06.json | res 1208 msg 557
+  JP: ヴァイルはの良を見つけ、[04D6]属[0611]神とマントをひるがえし、王み復ってきた。
+  EN: Vile spotted you / and strode over, / cape billowing.
+
+FILE batch_06.json | res 1208 msg 559
+  JP: ウェブスター卿が、住損を見つけて、まるで所[0285]のようにはしゃいでいた。
+  EN: "Lord Webster found / the Seal and was / prancing about like"
+
+FILE batch_06.json | res 1208 msg 561
+  JP: 王[04D5]を[0523]い取った者が、いつの地か値らも[0523]い取られるのは[032A]の[0169]とは言え、
+  EN: "He who stole the / throne will himself / be stolen from--"
+
+FILE batch_06.json | res 1208 msg 565
+  JP: 王[04D5]を[0427]めるため変した何数どもの[0694]大が[04A1]ってきたといったところだな。
+  EN: "The grudges of those / killed while seizing / the throne have"
+
+FILE batch_06.json | res 1208 msg 567
+  JP: しかし、ウェブスター卿、あのでき[0465]ないの[033A]物をどうしようと言うのだ？
+  EN: "But what does / Webster intend to do / with that useless thing?"
+
+FILE batch_06.json | res 1208 msg 575
+  JP: [05B1][0497]美という時の彼今に[0407]き、置形王息の掲を支れ戻ってくるか？
+  EN: "Go back through the / time-loop ritual / and bring back"
+
+FILE batch_06.json | res 1208 msg 579
+  JP: どうやらウェブスター卿は、所[0285]目を[01C7]れない[04E6][04EA]な今のようだ 
+  EN: "Lord Webster seems / unable to abandon / his childish ways."
+
+FILE batch_06.json | res 1208 msg 580
+  JP: 彼が息役会のしかめっつらのジジイどもにも、せんじて[0131]ませたいところだな 
+  EN: "I'd love to make / the stuffy old men / of the council drink"
+
+FILE batch_06.json | res 1208 msg 581
+  JP: そのヴァイルの長[03C4]向けの[049A]言に、男帰達から多い声が外がった。
+  EN: Vile's provocative / comment drew laughs / from the soldiers.
+
+FILE batch_06.json | res 1208 msg 584
+  JP: 力[0186]を[01CD]取りすることになるが、何卿に[0645]まれぬよう戻っているよ。
+  EN: "There will be / skirmishes, so be / on guard."
+
+FILE batch_06.json | res 1208 msg 597
+  JP: ヴァイルはの良を見つけ、[04D6]属[0611]神とマントをひるがえし、王み復ってきた。
+  EN: Vile spotted you / and strode over, / cape billowing.
+
+FILE batch_06.json | res 1208 msg 599
+  JP: ウェブスター卿が、住損を見つけて、まるで所[0285]のようにはしゃいでいた。
+  EN: "Lord Webster found / the Seal and was / prancing about like"
+
+FILE batch_06.json | res 1208 msg 601
+  JP: 王[04D5]を[0523]い取った者が、いつの地か値らも[0523]い取られるのは[032A]の[0169]とは言え、
+  EN: "He who stole the / throne will himself / be stolen from--"
+
+FILE batch_06.json | res 1208 msg 605
+  JP: 王[04D5]を[0427]めるため変した何数どもの[0694]大が[04A1]ってきたといったところだな。
+  EN: "The grudges of those / killed while seizing / the throne have"
+
+FILE batch_06.json | res 1208 msg 607
+  JP: しかし、ウェブスター卿、あのでき[0465]ないの[033A]物をどうしようと言うのだ？
+  EN: "But what does / Webster intend to do / with that useless thing?"
+
+FILE batch_06.json | res 1208 msg 615
+  JP: [05B1][0497]美という時の彼今に[0407]き、置形王息の掲を支れ戻ってくるか？
+  EN: "Go back through the / time-loop ritual / and bring back"
+
+FILE batch_06.json | res 1208 msg 619
+  JP: どうやらウェブスター卿は、所[0285]目を[01C7]れない[04E6][04EA]な今のようだ 
+  EN: "Lord Webster seems / unable to abandon / his childish ways."
+
+FILE batch_06.json | res 1208 msg 620
+  JP: 彼が息役会のしかめっつらのジジイどもにも、せんじて[0131]ませたいところだな 
+  EN: "I'd love to make / the stuffy old men / of the council drink"
+
+FILE batch_06.json | res 1208 msg 621
+  JP: そのヴァイルの長[03C4]向けの[049A]言に、男帰達から多い声が外がった。
+  EN: Vile's provocative / comment drew laughs / from the soldiers.
+
+FILE batch_06.json | res 1208 msg 624
+  JP: 力[0186]を[01CD]取りすることになるが、何卿に[0645]まれぬよう戻っているよ。
+  EN: "There will be / skirmishes, so be / on guard."
+
+FILE batch_06.json | res 1208 msg 646
+  JP: いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな 
+  EN: "I ain't giving / a single G discount! / Don't even try to"
+
+FILE batch_06.json | res 1208 msg 662
+  JP: いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな 
+  EN: "I ain't giving / a single G discount! / Don't even try to"
+
+FILE batch_06.json | res 1208 msg 671
+  JP: どうだね？汝の値功者勲が今どれぐらいの封長過幸にあるか道べてやろうか？
+  EN: "How about it? Want / me to check your / Automata's growth?"
+
+FILE batch_06.json | res 1208 msg 682
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- / 's body already / has enough experience.
+
+FILE batch_06.json | res 1208 msg 684
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: "'s body needs / a bit more experience / before awakening."
+
+FILE batch_06.json | res 1208 msg 687
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- / 's body already / has enough experience.
+
+FILE batch_06.json | res 1208 msg 689
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: "'s body needs / a bit more experience / before awakening."
+
+FILE batch_06.json | res 1208 msg 692
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- / 's body already / has enough experience.
+
+FILE batch_06.json | res 1208 msg 694
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: "'s body needs / a bit more experience / before awakening."
+
+FILE batch_06.json | res 1208 msg 697
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- / 's body already / has enough experience.
+
+FILE batch_06.json | res 1208 msg 699
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: "'s body needs / a bit more experience / before awakening."
+
+FILE batch_06.json | res 1208 msg 702
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- / 's body already / has enough experience.
+
+FILE batch_06.json | res 1208 msg 704
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: "'s body needs / a bit more experience / before awakening."
+
+FILE batch_06.json | res 1208 msg 707
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- / 's body already / has enough experience.
+
+FILE batch_06.json | res 1208 msg 709
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: "'s body needs / a bit more experience / before awakening."
+
+FILE batch_06.json | res 1208 msg 718
+  JP: 余は優臆美を[0550]う者。今は、置形エルフ王息の[01DA][04E4]について[0494][0495]をしている。
+  EN: I study alchemy. / Right now, I'm researching / the ancient Elven
+
+FILE batch_06.json | res 1208 msg 746
+  JP: しかも[068F][0690]する美を持たない[026F]い所[0285]達を、役会の中に[01D7]し込め、辺退な今法で変した。
+  EN: You forced young / children into the / church and killed them.
+
+FILE batch_06.json | res 1208 msg 764
+  JP: 場にこの腕[02A1]になり、絶強のふちを王むこととなってから、
+  EN: Ever since I've been / stuck in this wretched / body, I have been
+
+FILE batch_06.json | res 1208 msg 790
+  JP: ！[01BE]装ぐらいは値色で王かせて。
+  EN: Let me at least / walk by myself / one more time.
+
+FILE batch_06.json | res 1208 msg 812
+  JP: 与はこちらの[0269]から義へ出るために王いてきた。
+  EN: The man came this way / to exit through / the passage.
+
+FILE batch_06.json | res 1208 msg 840
+  JP: アオイは王を限め、ゆっくりと後り向いた。
+  EN: Aoi stopped walking / and slowly turned / around.
+
+FILE batch_06.json | res 1208 msg 863
+  JP: その[0632]を素すため緒息を[0687]り王いているんだって。
+  EN: She's been wandering / the world looking / for one man.
+
+FILE batch_06.json | res 1208 msg 865
+  JP: 者[0493]りって高ばれる変し所だけど、役内は配かい目を持った転だって。
+  EN: People call her / 'Manslayer,' but she / has a warm heart.
+
+FILE batch_06.json | res 1208 msg 870
+  JP: ヴェーラ岩いたな！、まさか王女が生きていたとはな。
+  EN: Vera: Surprising! / The princess was / alive after all!
+
+FILE batch_06.json | res 1208 msg 872
+  JP: まさか、ウェブスター卿との[0429]民が数で追美嫌あまりも迷宮に紹れていたわけでもあるまい。
+  EN: Surely Webster didn't / hide her in the / labyrinth out of spite?
+
+FILE batch_06.json | res 1208 msg 873
+  JP: あの高者との会質では、ウェブスター卿が王女の[01BA]を能していると言っていたが、
+  EN: In that meeting / with the elder, they / said Webster held the
+
+FILE batch_06.json | res 1208 msg 874
+  JP: 王女の[01BA]をなぜ転が[058D]う？
+  EN: Why would someone / hide the princess?
+
+FILE batch_06.json | res 1208 msg 875
+  JP: ドゥーハン王集は、行の息の宮[05C5]でよくある[0420]数同帰のいがみ合いも辺いはずだ。
+  EN: The Duhan royal / family shouldn't have / the usual power
+
+FILE batch_06.json | res 1208 msg 876
+  JP: [01DA][04E4]と王[04D5]を[058D]っての行功ならば、王女との敏[0429]ですべてが力に入る。
+  EN: If it was a joint / effort with the king, / the princess would be
+
+FILE batch_06.json | res 1208 msg 878
+  JP: コンデ[028E]から[04A1]る王女とは岩いた。
+  EN: Konde: Surprising / that the princess / was alive.
+
+FILE batch_06.json | res 1208 msg 880
+  JP: 向い[0676][06CD]に[01BA]を[058D]われた王女を、[0449][044F]達が魔法の[044C]で[058B]らせて容けるといった質だ。
+  EN: A princess whose / life was stolen was / kept alive by magic.
+
+FILE batch_06.json | res 1208 msg 881
+  JP: [0676][06CD]が男帰を支れてそこに帰てみると、[0609]を両にして年き[04D4]れる[0449][044F]と、王女の[0437][0423]がそこにあった。
+  EN: When he led his men / there, they found the / princess sleeping
+
+FILE batch_06.json | res 1208 msg 882
+  JP: [0676][06CD]は王女が[028E]んだものと思い、城へと[01AB]っていった。
+  EN:   thought the / princess had died / and returned to the castle.
+
+FILE batch_06.json | res 1208 msg 883
+  JP: しかし王女は[028E]んでいなかった。
+  EN: But the princess / was not dead.
+
+FILE batch_06.json | res 1208 msg 888
+  JP: ちょうど、さっき殿忍と一同にいたエルフの[0438]のようにな。
+  EN: Just like the Elf / who was with the / lord earlier.
+
+FILE batch_06.json | res 1208 msg 889
+  JP: エーリカ信じられません！、余、[0609]の中で[058B]る王女[01BC]を見たんです。
+  EN: Erika: Unbelievable! / I saw the princess / alive in there!
+
+FILE batch_06.json | res 1208 msg 890
+  JP: 余だけじゃありません、たくさんの者が、サレム制[033F]に声[0175]された王女[01BC]と別れを[014D]わしました。
+  EN: It wasn't just me. / Many people bid / farewell to the princess
+
+FILE batch_06.json | res 1208 msg 897
+  JP: 王女が生きていたこともそうだが、ウェブスター卿が高者街隊の者[0426]を石っているものと、余は思っていた。
+  EN: The princess being / alive is one thing, / but I thought Webster
+
+FILE batch_06.json | res 1208 msg 899
+  JP: [01E3]帰前を石るベルグラーノと、高者街隊を石るウェブスター卿という[0180]つの対で立えられていると。
+  EN: The Order is led / by Belgrano, and the / Royal Knights by
+
+FILE batch_06.json | res 1208 msg 902
+  JP: そもそも高者街隊は、両王の時形から武器したものだ。
+  EN: After all, the Royal / Knights were formed / from the king's own
+
+FILE batch_06.json | res 1208 msg 903
+  JP: オルトルードが[0551][04D5]して、両王の時の[01E3]帰前や空男隊が倒[02A1]や声[06A2]される中、
+  EN: When Ortrud acted, / and both the Order / and air corps were
+
+FILE batch_06.json | res 1208 msg 906
+  JP: ウェブスター卿が、何を[05AA]んでいるかわからないが、これで力持ちの遠が一枚[053E]ったことになるな。
+  EN: I don't know what / Webster is planning, / but this changes
+
+FILE batch_06.json | res 1209 msg 33
+  JP: 役[0141]で数がるサキュバスを見てヨッペンは野に[0549]をためている。
+  EN: Seeing the Succubus disgusted by him, Yoppen had tears in his eyes.
+
+FILE batch_06.json | res 1209 msg 51
+  JP: さて！じゃあ[04CF]は盗に戻って役倉宿に[067E]素しの[056B][046D]に取り納かるとするよ。
+  EN: Well, I'm going to go back to the city and start preparing for the real princess hunt.
+
+FILE batch_06.json | res 1209 msg 66
+  JP: 声の消はウェブスター卿だった。
+  EN: It was Lord Webster's voice.
+
+FILE batch_06.json | res 1209 msg 72
+  JP: イ王女[01BC]を大しなさい ゴ
+  EN: Give back the princess!
+
+FILE batch_06.json | res 1209 msg 95
+  JP: ドゥーハンの[0601]影になったのも、王女との敏[0429]を強んだのも、
+  EN: To become the Vizier of Duhan, to marry the princess,
+
+FILE batch_06.json | res 1209 msg 96
+  JP: そう、すべてはドゥーハン王集をこの力に取り戻すためだった。
+  EN: to take back the Duhan royal family into my hands.
+
+FILE batch_06.json | res 1209 msg 98
+  JP: 王瓶を[0523]うだけなら、息王の[028E]を待つだけでよかったのだ。
+  EN: If I only had wanted to take the throne, I could have simply waited for the king to die.
+
+FILE batch_06.json | res 1209 msg 99
+  JP: だが余は[0668]せられた。ドゥーハンを魔女の力から[036D]い、[04A6]の個王となるその[0272]今もない[046E]に。
+  EN: But I was enchanted by the dream of rescuing Duhan from the hands of the witch and becoming the true Holy King.
+
+FILE batch_06.json | res 1209 msg 102
+  JP: 住損の損[02A1]になり得る殿忍をやっと力に入れたにも人わらず、
+  EN: Even though we finally have Her Highness, who will act as the divine body for the Warrior God,
+
+FILE batch_06.json | res 1209 msg 104
+  JP: ウェブスター卿は、そう言って[01C9]を[05EA]いだ。
+  EN: So did Lord Webster say, and looked up to the sky.
+
+FILE batch_06.json | res 1209 msg 106
+  JP: ウェブスター卿の声は[0452]い過防から聞こえてくるようなうつろな経きがあった。
+  EN: Lord Webster's voice had a sombre sound, as if it were coming from a distant past.
+
+FILE batch_06.json | res 1209 msg 108
+  JP: もし余が住損のもとに殿忍を稼ぶことができれば[032A][03F2]は余の物になる。
+  EN: If I can bring Her Highness to the Warrior God, the world will be mine.
+
+FILE batch_06.json | res 1209 msg 113
+  JP: 義恵ウェブスター卿は、値らの力誰をナイフで該りつけ、扱険りする書物の[0390]新に、こぼれ落ちる[04B0]を取らした。
+  EN: Lord Webster suddenly slashed his own wrists with his knife, dripping spilled blood onto the cover of the shiny black book.
+
+FILE batch_06.json | res 1209 msg 114
+  JP: ウェブスター卿の顔は、[028E]者のように[04A6]っ送になっていく。
+  EN: Lord Webster's face went as white as that of a dead man.
+
+FILE batch_06.json | res 1209 msg 115
+  JP: イかつてサンゴート王に 取り[05CB]きし！ゴ
+  EN: Once possessed by the King of San-Goth...!
+
+FILE batch_06.json | res 1209 msg 118
+  JP: [040C]のような大[0141]町な送いもやが、力にした書物から[0580]出し、ウェブスター卿の[042D]来を持んだ。
+  EN: An eerie white smoke-like miasma erupted from the book in his hand and surrounded Lord Webster completely.
+
+FILE batch_06.json | res 1209 msg 122
+  JP: [028E]者の[0694]大が[04A8]れをなし、生なる者に将しての[0645]みの声を外げ、ウェブスター卿に[042E]いかかった。
+  EN: The grudges of the dead swarmed together, shouting their resentment against the living, and attacked Lord Webster.
+
+FILE batch_06.json | res 1209 msg 123
+  JP: ウェブスター卿は、[0474][0552]魔の[04D1]び声を外げた。
+  EN: Lord Webster let out a scream of desperation.
+
+FILE batch_06.json | res 1209 msg 124
+  JP: 見る見るうちにウェブスター卿の良は、[051A][051A]しい良に新[03F0]していった。
+  EN: His form changed into a hideous shape as you looked on.
+
+FILE batch_06.json | res 1209 msg 129
+  JP: 王女は喚に[01CD]たわっている。
+  EN: The princess was lying on the floor.
+
+FILE batch_06.json | res 1209 msg 130
+  JP: エミーリアに[04AF]き顔こされた王女は、もうろうとした客識の中で、うわごとのようになにごとか冒いていた。
+  EN: Emilia tried to help the princess sit up, but the princess, in her dazed state, was mumbling something.
+
+FILE batch_06.json | res 1209 msg 131
+  JP: イウェブスター卿を！ [04ED]めないで！ゴ  
+  EN: Lord Webster... don't blame him...!
+
+FILE batch_06.json | res 1209 msg 135
+  JP: あたし、王女[01BC]を支れて盗に戻るわ。
+  EN: I'm going to return with the Princess to the city.
+
+FILE batch_06.json | res 1209 msg 136
+  JP: ウェブスター卿がいなくなったから、もう戻っても兜集遺だと思う。
+  EN: It should be safe now, now that Lord Webster is no more.
+
+FILE batch_06.json | res 1209 msg 142
+  JP: オルトルード[0436]忍の[01BA]により、殿忍を[03CF]忍の高者とともに識ながら見内っておりました。
+  EN: I've been watching over Her Highness with my ninjas under the orders of His Majesty Ortrud.
+
+FILE batch_06.json | res 1209 msg 144
+  JP: お両がウェブスター卿の[01BA]孤で、余達を素していたこと知らないとでも思っているの。
+  EN: Lies! You were under Lord Webster's command, and you were looking for us, weren't you?
+
+FILE batch_06.json | res 1209 msg 146
+  JP: ウェブスター卿に[04A9]主するのも、迷宮にお紹れになっている殿忍をお内りするのも。
+  EN: Whether it was to help Lord Webster or to protect Her Highness who was hiding in the labyrinth.
+
+FILE batch_06.json | res 1209 msg 150
+  JP: 殿忍が生きていることも、そしてあなた今と[0569]に迷宮に紹れておられるということも。
+  EN: He knew that she was alive, and that you were hiding her in the depths of the labyrinth.
+
+FILE batch_06.json | res 1209 msg 154
+  JP: 何者もこの場に[03D5]り果かなければ、大役客ながら、余がウェブスター卿を専[0552]するつもりでした。
+  EN: I, as a matter of unpleasant necessity, would have taken care // of Lord Webster myself if no one else had reached this place.
+
+FILE batch_06.json | res 1209 msg 161
+  JP: エミーリアと王女は、[01AB][053F]の秘を度い盗に戻っていった。
+  EN: Emilia and the princess returned to the city with the help of the Return Medicine.
+
+FILE batch_06.json | res 1209 msg 178
+  JP: 何もなかった迷宮の一街所にそれなりの長[04F0]が宝され商店らしくなっていた。
+  EN: What once had been just another room in the labyrinth was now decorated to look like a store.
+
+FILE batch_06.json | res 1209 msg 189
+  JP: じゃあね、立店だけじゃなくって役店の今にも顔出してよ 
+  EN: Well, don't just visit the store front, come to the main shop too!
+
+FILE batch_06.json | res 1209 msg 192
+  JP: イムプ店長の一血に飽[03CE]を低み外げて一該られたスペースが以られていた。
+  EN: There was a space divided by a pile of wood in one corner of the store.
+
+FILE batch_06.json | res 1209 msg 237
+  JP: [0454]し物の[0455]長が書かれたボードにはイ心築働い、[045D][04C9]中です。      しばらくたってから帰てくださいゴと書かれている。
+  EN: The event schedule board read: 'Our talented worker is currently on a break. Please come back later.'
+
+FILE batch_06.json | res 1209 msg 238
+  JP: [0454]し物の[0455]長が書かれたボードにはイ心築働い、[045D][04C9]中です。      しばらくたってから帰てくださいゴと書かれている。
+  EN: The event schedule board read: 'Our talented worker is currently on a break. Please come back later.'
+
+FILE batch_06.json | res 1209 msg 240
+  JP: [0454]し物の[0455]長が書かれたボードにはイあなたに呪められた主、            働ってさしあげますゴと書かれている。
+  EN: The event schedule board read: 'I will tell you about your hidden power.'
+
+FILE batch_06.json | res 1209 msg 294
+  JP: 心築があってよかったね。すごい魔主ね、ユグルタの魔法[04DA][033F]で役解になれるんじゃないかなあ。
+  EN: Good for you, having talent. What amazing magical power! You could become a great mage at the Yugurta Magic Academy.
+
+FILE batch_06.json | res 1209 msg 330
+  JP: 魔物の長[04B4]とかを取り出すのが兜[0380]きになるかも知れない。
+  EN: You might even become fond of gutting demons.
+
+FILE batch_06.json | res 1209 msg 337
+  JP: 戦いのを[04DD]って、辺人[0219]な長買の者が[0143]祠に力にしたところで、築主を祠き出せず辺客町よね。
+  EN: So if you polish your perceptivity, // your ability to read the signs of your surroundings will be greatly enhanced.
+
+FILE batch_06.json | res 1209 msg 338
+  JP: だから[0501]通は長買にあわない物なんて度わないけれど、あなたの場合はちょっと違うみたい。
+  EN: Even the best tools of war are useless if an unrelated class uses them.
+
+FILE batch_06.json | res 1209 msg 340
+  JP: 腕に着けるものって、辺人[0219]な長買の者が[0143]祠につけたところで、築主を祠き出せず辺客町よね。
+  EN: You can't do it now because your talent is still dormant,
+
+FILE batch_06.json | res 1209 msg 341
+  JP: だから[0501]通は長買にあわない物なんて[04F0][046D]しないけれど、あなたの場合はちょっと違うみたい。
+  EN: but I'm sure you'll be able to bring out the best in yourself by forcefully wielding them.
+
+FILE batch_06.json | res 1209 msg 345
+  JP: いつか心築が[0646]生えてから魔主を[01A8]めていくと、すごいスピードで封長すると思う。
+  EN: but I'm sure you'll be able to bring out the best in yourself if you force yourself to wear it.
+
+FILE batch_06.json | res 1209 msg 346
+  JP: あなたは[02A1]長の[063F][0653]が者一[0445][0143]くなる[05EB]向があるわ。
+  EN: I can feel a very strong magical power deep inside of you.
+
+FILE batch_06.json | res 1209 msg 478
+  JP: いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな 
+  EN: Just so you know, I won't give you even 1G off! Don't even think about trying to cheat me!
+
+FILE batch_06.json | res 1209 msg 494
+  JP: いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな 
+  EN: Just so you know, I won't give you even 1G off! Don't even think about trying to cheat me!
+
+FILE batch_06.json | res 1209 msg 503
+  JP: どうだね？汝の値功者勲が今どれぐらいの封長過幸にあるか道べてやろうか？
+  EN: What do you think? Let's find out how far along your Automata is in its development, shall we?
+
+FILE batch_06.json | res 1209 msg 514
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- This Automata already has a decent amount of experience accumulated.
+
+FILE batch_06.json | res 1209 msg 516
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: Expressed in numbers, this Automata has accumulated about this much experience.
+
+FILE batch_06.json | res 1209 msg 519
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- This Automata already has a decent amount of experience accumulated.
+
+FILE batch_06.json | res 1209 msg 521
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: Expressed in numbers, this Automata has accumulated about this much experience.
+
+FILE batch_06.json | res 1209 msg 524
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- This Automata already has a decent amount of experience accumulated.
+
+FILE batch_06.json | res 1209 msg 526
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: Expressed in numbers, this Automata has accumulated about this much experience.
+
+FILE batch_06.json | res 1209 msg 529
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- This Automata already has a decent amount of experience accumulated.
+
+FILE batch_06.json | res 1209 msg 531
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: Expressed in numbers, this Automata has accumulated about this much experience.
+
+FILE batch_06.json | res 1209 msg 534
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- This Automata already has a decent amount of experience accumulated.
+
+FILE batch_06.json | res 1209 msg 536
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: Expressed in numbers, this Automata has accumulated about this much experience.
+
+FILE batch_06.json | res 1209 msg 539
+  JP: ０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。
+  EN: 0123456789- This Automata already has a decent amount of experience accumulated.
+
+FILE batch_06.json | res 1209 msg 541
+  JP: の[02A1]長には者で日えると幸の員験が近っているであろう。
+  EN: Expressed in numbers, this Automata has accumulated about this much experience.
+
+FILE batch_06.json | res 1209 msg 550
+  JP: 余は優臆美を[0550]う者。今は、置形エルフ王息の[01DA][04E4]について[0494][0495]をしている。
+  EN: I'm still in the process of opening my business and am not ready yet.
+
+FILE batch_06.json | res 1209 msg 562
+  JP: イもし王女[01BC]に何かあったら 用街、あたしのせいだわ！ あたしも[028E]ぬ！！ゴ
+  EN: If anything happens to the princess, it will be all my fault! I might as well die too!!
+
+FILE batch_06.json | res 1209 msg 575
+  JP: ヒ、ヒック！あ、あたしのせいで！王女[01BC]、さ、さらわれちゃった！。
+  EN: So, so careless... Oh, it's all my fault... that the princess has been kidnapped.
+
+FILE batch_06.json | res 1209 msg 576
+  JP: お、おねがい！主を[04A7]して！！一同に王女[01BC]を素して能しいの！。
+  EN: Oh, please! Lend us your strength! Please help us find the princess!
+
+FILE batch_06.json | res 1209 msg 579
+  JP: それじゃ、バーボ、あたしはと一同に王女[01BC]を素しに行くから
+  EN: Well then, Barbo, I'm going to go with them to find the princess.
+
+FILE batch_06.json | res 1209 msg 588
+  JP: エミーリアこの向こうの街所で、ウェブスター卿と優臆美解どもがいるわよ。
+  EN: Emilia: You'll find Lord Webster and the alchemists in the room over there.
+
+FILE batch_06.json | res 1209 msg 600
+  JP: エミーリア王女[01BC]の思大はまだこの名層から感じるわ。
+  EN: Emilia: I can still sense the princess' thoughts from this floor.
+
+FILE batch_06.json | res 1209 msg 613
+  JP: オルトルードが、バンクォーの乙で忠該られた報[049D]に、ドゥーハンの王数と何数を腕変しにした事受だ。
+  EN: Ortrud killed all members of the royal family and nobles // of Duhan in revenge for being cut off at the battle of Banquo.
+
+FILE batch_06.json | res 1209 msg 615
+  JP: 法王庁がオルトルードの報[049D]を下れ、内時のドゥーハン王足と何数達を見[048B]てたことをな！。
+  EN: That the Holy See actually abandoned the royal families // and nobilities of Duhan in fear of reprisal from Ortrud?
+
+FILE batch_06.json | res 1209 msg 616
+  JP: もし知っておったら、法王庁と力を敏んだりはしなかっただろうし、
+  EN: If he had known about it, would he still have allied himself with the Holy See?
+
+FILE batch_06.json | res 1209 msg 620
+  JP: シムゾンさんも、ウェブスター卿もこの迷宮に[0668]入られた者達は腕、更買の[028E]を[0565]げていった。
+  EN: Simzon, Lord Webster, // and all the others who were attracted to this labyrinth died a horrible death.
+
+FILE batch_06.json | res 1209 msg 627
+  JP: イーリスウェブスター卿は、はめられたのかもしれんな。
+  EN: Iris: There is a possibility that maybe Lord Webster was set up.
+
+FILE batch_06.json | res 1209 msg 628
+  JP: さっき、ゼルと言う与が、息王はすべて知っておられたと言っていたのを備えているか？
+  EN: Remember when earlier, the man called Cell said that the King was aware of everything?
+
+FILE batch_06.json | res 1209 msg 629
+  JP: [06B7]にも個王と高ばれた与、街忍の[01D0]遅に[0141]づかずにいたと必えるほうがおかしい。
+  EN: It's indeed strange to assume that the man who is called // the Holy King would be unaware of a rebellion in his own ranks.
+
+FILE batch_06.json | res 1209 msg 632
+  JP: それともウェブスター卿が[0328][0332]を出すのを、ずっと待っていたのか？
+  EN: Were they actually waiting all this time for Lord Webster to turn tail?
+
+FILE batch_intro.json | res 1193 msg 0
+  JP: かつて中[04A2]美もの像きにわたってベノアの乙を[04B0]と下呪に[0424]れた授覚があった。装にバンクォーの授教と高ばれるものである。サンゴートの王がドゥーハン息のをかかげ攻め入ってきたのが、そもそもの[049A]自であったが！
+  EN: For thirty years, / Duhan was plunged / into blood and / terror. This war / would be known as / the Battle of / Banquo. The king / of San-Goth, / possessed by the / spirit of death, / led his army to / attack Duhan!
+
+FILE batch_intro.json | res 1194 msg 0
+  JP: 辺地の[0694]棒に名い[04AE]くされ、[05F5]く物アシラは[040B]依の族今へ消え防った。迷宮で[028E]んだ戦動は、ドゥーハンの授[06B9]戦が[058B]る間[01A8]い[06BA]に[0629][06A1]された。オルトルードもまたその[01DA]言通り、棒[06B8]ではなくバンクォーの授[028E]戦と[0569]にその乙に[0629][06A1]された。者神はあの地を[04FD][0452]に[01BF][01C0]するだろう。依には新ふぶきが期い、盗には[038B][040A]の板れに[045C]ぶ算高の避が経き飾った。[041B]息の王就や見度の両で王女オリアーナは方女王として主[0143]く[03FE]言した。イ[041B]息や依就効帰が調い合い、[04B0]を棄す時形は防りましたゴイ彼神は[0569]通の段に向かって前敏しなければなりませんゴイこのベノアに杯むあらゆる戦の[038B][040A]のためにゴイそしてこれまでに棄された唱くの達戦動の[055A]に[03FD]いゴイ不は階の[06AE][062C]の王、[05F5]く物に将しての授いをいまここで[03FE]言しますゴイみなさんに[0165]団しましょうゴ士騎戦動は、[043B][0430]戦の中を級み除た。イ族らが方しきベノアの単ゴイ不を容け、[05F5]く物と授う見いなる内[047D]戦クイーンガード動ですゴ[05B7][06BB]の[05D9]力が[0277]り経く中、この険[01E5]は者神が[04FD][0452]に[0480]り[01B5]けるものとなった。それは復しき女王とクインガード動の物[0480]の専まりであった。この場はひとまず / 祠き外げる事にした。
+  EN: The Dark Lord / Ashira vanished / into the abyss. / The warriors were / sealed away as / the war of Duhan / drew to a close. / Ortrud too was / sealed with the / warriors of the / Battle of Banquo. / Fresh snow / blanketed the land / and peace came at / last. Princess / Oriana declared / herself queen. / "Gone are the days / nations shed blood / We must advance / against our common / enemy, for all / who live in Venoa, / and the brave who / have fallen. I / declare my oath / as guardian / against darkness. / Let me introduce / them to you." The / knights advanced / amid loud cheers. / "The swords of our / beloved Venoa! / The noble Queen's / Guard, who fight / the darkness!" / As confetti rained / down, this scene / became legend. / The tale of a fair / queen and her / Queen's Guard. / For now, we set / this tale aside.
+

@@ -1,0 +1,515 @@
+
+=== test_sec1_disasm ===
+  [PASS] test_walk_pristine_r1196
+  [PASS] test_walk_pristine_r1197
+  [PASS] test_walk_pristine_r1198
+  [PASS] test_walk_pristine_r1193
+  [PASS] test_ffff_invariant_pristine
+  [PASS] test_walk_garbage_fails_cleanly
+  [PASS] test_binary_type02_walks_fail
+
+=== test_patch_section1 ===
+  Section 2: 5874 -> 5742 bytes (-132), 88 groups; Section 1: 2610 walked instrs, 42/42 DISPLAY_TEXT remapped, 5 0x14 labels, 0 name refs
+  [PASS] test_inject_r1198_synthetic
+  [PASS] test_walk_failure_fallback_r989
+  Section 2: 61028 -> 61028 bytes (+0), 953 groups; Section 1: 7294 walked instrs, 405/405 DISPLAY_TEXT remapped, 116 0x14 labels, 0 name refs
+  [PASS] test_start_offset_correct
+  [start-warn] 1193_type02.raw: 0x04 S1+0x5BF: mid-group start=99 on a break (word=0xFFFE), pre-existing/benign
+  [start-warn] 1203_type02.raw: 0x04 S1+0xEA92: mid-group start=78402 on a break (word=0xFFFE), pre-existing/benign
+  [PASS] test_build_outputs_regression_gate
+
+=== test_choice_groups ===
+  [PASS] test_marker_set_preserved
+  [PASS] test_no_empty_injected_option
+  [PASS] test_section1_integrity
+  [PASS] test_marker_count_tripwire
+  R1196 g330  Q: 'Your reason? /  /'
+    [0] 'For wealth /'
+    [1] 'For revenge /'
+    [2] 'No reason'
+  R1197 g63  Q: 'Give the Kreta stone? /  /'
+    [0] 'Yes /'
+    [1] 'No'
+  R1203 g452  Q: '[FFE3]Product List:[FFE0] /'
+    [0] 'Healing Potion 300g /'
+    [1] 'Return Potion 300g /'
+    [2] 'Antidote 300g /'
+    [3] 'Rest Potion 300g /'
+    [4] 'Rusty Key 3000g /'
+    [5] 'Stop'
+  R1199 g149  Q: 'Give money? /  /'
+    [0] '100g /'
+    [1] '500g /'
+    [2] '1000g /'
+    [3] 'No'
+  R1354 g122  Q: 'Your purpose? /  /'
+    [0] 'For gold /'
+    [1] 'For glory /'
+    [2] 'No purpose'
+  [PASS] test_semantic_spotcheck
+  [SKIP] test_iso_choice_integrity -- ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build)
+
+=== test_line_width ===
+  [PASS] test_tier2_patched_type2_line_width
+  [PASS] test_tier3_iso_line_width
+
+=== test_dialogue_rewrap ===
+  [PASS] test_dialogue_box_px_is_canonical_budget
+  [PASS] test_every_wrapped_dialogue_line_within_box
+  [PASS] test_no_dialogue_group_over_4_lines_at_budget
+  [PASS] test_exclude_set_matches_expected
+  [PASS] test_each_guard_group_would_be_corrupted_by_wrap
+  [PASS] test_guard_branch_wired_before_wrap
+  [PASS] test_no_manual_force_override_remains
+  [PASS] test_classifier_reproduces_engine_ground_truth
+
+=== test_narration_wrap ===
+  [PASS] test_tier2_narration_px_budget
+  [PASS] test_tier3_iso_narration_px_budget
+  [PASS] test_narration_box_px_is_sane_and_within_proven_span
+  [PASS] test_narration_wrap_uses_shared_metrics
+  [PASS] test_narration_classifier_inverse_and_disjoint
+  [PASS] test_tier2_r1196_narration_collapsed
+
+=== test_narration_centering ===
+  [PASS] test_patch20_present_and_gated_on_patch14
+  [PASS] test_patch_exe_imports_glyph_metrics
+  [PASS] test_cave_sum_model_equals_glyph_metrics_width
+  [PASS] test_narration_box_px_matches_reservable_width
+  [PASS] test_tier2_patch20_superseded_caves_not_installed
+  [PASS] test_tier2_live_left_align_is_patch23_not_patch20
+  [PASS] test_tier2_cave_adv_table_is_glyph_metrics
+  [PASS] test_tier2_cave_sum_equals_live_table_sum
+  [PASS] test_tier2_pads_were_pristine_zero
+
+=== test_narration_left_align ===
+  [PASS] test_patch23_present_and_targets_correct_origin
+  [PASS] test_patch21_reverted_to_pristine_in_source
+  [PASS] test_patch23_new_word_is_li_a0_8
+  [PASS] test_narration_advance_is_glyph_metrics_not_recomputed
+  [PASS] test_left_flush_keeps_wide_line_on_screen
+  [PASS] test_pristine_subu_would_clip_left
+  [PASS] test_narration_box_px_budget_sane
+  [PASS] test_tier2_pristine_holds_subu_at_p23_site
+  [PASS] test_tier2_built_holds_li_a0_8_and_reverted_addu
+  [PASS] test_tier2_built_li_decodes_to_constant_8px_inset
+  [PASS] test_tier2_narration_adv_table_is_glyph_metrics
+  [PASS] test_tier2_scope_only_p23_changed_narration_origin
+  [PASS] test_tier2_no_unexpected_renderer_region_diffs
+  [PASS] test_tier2_patch20_sites_are_dead_path_only
+
+=== test_narration_pad_map ===
+  [PASS] test_pad_map_covers_tavern_intro_group
+  [PASS] test_pad_map_rejects_menu_list_group
+  [PASS] test_pad_map_disjoint_from_dn_partition
+  [PASS] test_pad_min_body_predicate_present
+  [PASS] test_classifier_ground_truth_still_19_of_19
+  [PASS] test_build_v9_imports_and_calls_pad_map
+  [PASS] test_build_v9_pad_branch_uses_narration_path
+  [PASS] test_pad_function_equalizes_line_counts
+
+=== test_request_body_reserve ===
+  [PASS] test_patch22_present_and_targets_correct_origins
+  [PASS] test_patch22_does_not_touch_idiom_middle_term
+  [PASS] test_reserve_idiom_model_yields_18_and_preserves_a0
+  [PASS] test_advance_literal_equals_glyph_metrics_target
+  [PASS] test_reserve_and_advance_multipliers_are_consistent
+  [PASS] test_box_px_budgets_sane
+  [PASS] test_tier2_pristine_holds_old_words
+  [PASS] test_tier2_built_holds_new_18px_words
+  [PASS] test_tier2_built_idiom_simulates_to_18_a0_preserved
+  [PASS] test_tier2_advance_equals_built_table_default_metric
+  [PASS] test_tier2_scope_no_other_renderer_sites_changed
+
+=== test_request_proportional_patch25 ===
+  [PASS] test_patch25_present_and_has_enable_flag
+  [PASS] test_patch25_cave_reads_resident_adv_table_no_inline_stride
+  [PASS] test_patch25_scope_no_other_renderer_sites
+  [PASS] test_tier2_disabled_leaves_request_body_at_patch22
+  [PASS] test_tier2_patch14_table_present_for_enable
+  [PASS] test_tier2_pristine_hook_was_default_advance
+
+=== test_r1203_cap ===
+  Section 2: 100462 -> 123442 bytes (+22980), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 138538 bytes (+38076), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 131474 bytes (+31012), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 127880 bytes (+27418), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 129612 bytes (+29150), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 130738 bytes (+30276), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 130968 bytes (+30506), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 131264 bytes (+30802), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 131174 bytes (+30712), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 131016 bytes (+30554), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 131098 bytes (+30636), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 131016 bytes (+30554), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  Section 2: 100462 -> 131098 bytes (+30636), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  R1203 re-derived cap = group 1017 (65508 words, next overflows)
+  [PASS] test_r1203_cap_under_65535  [PASS] test_R2124_size
+  [PASS] test_R2124_contain
+  [PASS] test_R2124_render
+  [PASS] test_R1365_size
+  [PASS] test_R1365_contain
+  [PASS] test_R1365_render
+  [PASS] test_R1054_size
+  [PASS] test_R1054_contain
+  [PASS] test_R1054_render
+  [PASS] test_R1360_size
+  [PASS] test_R1360_contain
+  [PASS] test_R1360_render
+  [PASS] test_R1361_size
+  [PASS] test_R1361_contain
+  [PASS] test_R1361_render
+  [PASS] test_R1362_size
+  [PASS] test_R1362_contain
+  [PASS] test_R1362_render
+  [PASS] test_R1363_size
+  [PASS] test_R1363_contain
+  [PASS] test_R1363_render
+  [PASS] test_R1364_size
+  [PASS] test_R1364_contain
+  [PASS] test_R1364_render
+  [PASS] test_R1359_size
+  [PASS] test_R1359_contain
+  [PASS] test_R1359_render
+  [PASS] test_R1367_size
+  [PASS] test_R1367_contain
+  [PASS] test_R1367_render
+  [PASS] test_R1910_size
+  [PASS] test_R1910_contain
+  [PASS] test_R1910_render
+  [PASS] test_R2141_size
+  [PASS] test_R2141_contain
+  [PASS] test_R2141_render
+  [PASS] test_R2144_size
+  [PASS] test_R2144_contain
+  [PASS] test_R2144_render
+  [PASS] test_R2150_size
+  [PASS] test_R2150_contain
+  [PASS] test_R2150_render
+  [PASS] test_R2153_size
+  [PASS] test_R2153_contain
+  [PASS] test_R2153_render
+  [PASS] test_R2147_size
+  [PASS] test_R2147_contain
+  [PASS] test_R2147_render
+  [PASS] test_R2155_size
+  [PASS] test_R2155_contain
+  [PASS] test_R2155_render
+  [PASS] test_R1370_size
+  [PASS] test_R1370_contain
+  [PASS] test_R1370_render
+  [PASS] test_R2880_size
+  [PASS] test_R2880_contain
+  [PASS] test_R2880_render
+  [PASS] test_R2881_size
+  [PASS] test_R2881_contain
+  [PASS] test_R2881_render
+  [PASS] test_R2155_hint_equals_R2147_window
+  [PASS] test_R2153_strips_equal_R2150
+  [PASS] test_R1188_not_repatched
+  [PASS] test_chargen_resources_shipped_patched
+  [PASS] test_R34_structural_and_glyphs
+    (R2654 ships at 225280 bytes / 110 sectors)
+  [PASS] test_R2654_structural_and_translations
+  [PASS] test_iso_R2124_matches_build
+  [PASS] test_iso_R1365_matches_build
+  [PASS] test_iso_R2147_matches_build
+  [PASS] test_iso_R34_matches_build
+  [PASS] test_iso_R1370_matches_build
+
+=== test_glyph_metrics_sync ===
+  [PASS] test_g1_built_exe_tables_match_metrics
+  [PASS] test_g2_no_inline_width_recompute
+  [PASS] test_g3_metrics_self_consistent
+
+=== test_chargen_cave_imports_metrics ===
+  [PASS] test_patch_exe_imports_glyph_metrics
+  [PASS] test_no_inline_advance_table_near_chargen_hook
+  [PASS] test_patch19_caves_index_shared_sot_tables
+
+=== test_chargen_centering ===
+  [PASS] test_patch19_present_after_patch14_and_gated
+  [PASS] test_patch19_source_encodes_bigendian_and_mode5_gate
+  [PASS] test_patch_exe_imports_glyph_metrics
+  [PASS] test_chargen_lines_fit_box_at_new_budget
+  [PASS] test_proportional_advance_never_exceeds_stock_no_overflow
+  [PASS] test_tier2_gate_and_hooks_installed
+  [PASS] test_tier2_caves_read_sot_tables_use_chargen_pen_and_gate_mode5
+  [PASS] test_tier2_resident_tables_are_glyph_metrics
+  [PASS] test_tier2_live_table_width_equals_glyph_metrics
+  [PASS] test_tier2_pads_were_pristine_zero
+  [PASS] test_tier2_hook_sites_were_original_path1_words
+  [PASS] test_tier2_request_narration_fallback_is_stock_advance
+
+=== test_chargen_diag_guard ===
+  [PASS] test_chargen_diag_defaults_off
+  [PASS] test_diag_and_production_are_mutually_exclusive
+  [PASS] test_production_exe_ships_proportional_not_dead_pen_or_diag
+  [PASS] test_production_hooks_were_pristine_stride_words
+  [PASS] test_diag_targets_are_separate_from_production
+
+=== test_name_consistency ===
+  [PASS] test_all_targets_present
+  [PASS] test_no_remaining_variants
+  [PASS] test_no_superstring_corruption
+  [PASS] test_canonical_present_where_expected
+  [PASS] test_audit_script_is_idempotent
+
+==============================================================================
+  v85 REGRESSION SUITE SUMMARY
+==============================================================================
+MODULE                 TEST                                         RESULT
+------------------------------------------------------------------------------
+test_sec1_disasm       test_walk_pristine_r1196                     PASS
+test_sec1_disasm       test_walk_pristine_r1197                     PASS
+test_sec1_disasm       test_walk_pristine_r1198                     PASS
+test_sec1_disasm       test_walk_pristine_r1193                     PASS
+test_sec1_disasm       test_ffff_invariant_pristine                 PASS
+test_sec1_disasm       test_walk_garbage_fails_cleanly              PASS
+test_sec1_disasm       test_binary_type02_walks_fail                PASS
+test_patch_section1    test_inject_r1198_synthetic                  PASS
+test_patch_section1    test_walk_failure_fallback_r989              PASS
+test_patch_section1    test_start_offset_correct                    PASS
+test_patch_section1    test_build_outputs_regression_gate           PASS
+test_choice_groups     test_marker_set_preserved                    PASS
+test_choice_groups     test_no_empty_injected_option                PASS
+test_choice_groups     test_section1_integrity                      PASS
+test_choice_groups     test_marker_count_tripwire                   PASS
+test_choice_groups     test_semantic_spotcheck                      PASS
+test_choice_groups     test_iso_choice_integrity                    SKIP
+                         -> ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build)
+test_line_width        test_tier2_patched_type2_line_width          PASS
+test_line_width        test_tier3_iso_line_width                    PASS
+test_dialogue_rewrap   test_dialogue_box_px_is_canonical_budget     PASS
+test_dialogue_rewrap   test_every_wrapped_dialogue_line_within_box  PASS
+test_dialogue_rewrap   test_no_dialogue_group_over_4_lines_at_budget PASS
+test_dialogue_rewrap   test_exclude_set_matches_expected            PASS
+test_dialogue_rewrap   test_each_guard_group_would_be_corrupted_by_wrap PASS
+test_dialogue_rewrap   test_guard_branch_wired_before_wrap          PASS
+test_dialogue_rewrap   test_no_manual_force_override_remains        PASS
+test_dialogue_rewrap   test_classifier_reproduces_engine_ground_truth PASS
+test_narration_wrap    test_tier2_narration_px_budget               PASS
+test_narration_wrap    test_tier3_iso_narration_px_budget           PASS
+test_narration_wrap    test_narration_box_px_is_sane_and_within_proven_span PASS
+test_narration_wrap    test_narration_wrap_uses_shared_metrics      PASS
+test_narration_wrap    test_narration_classifier_inverse_and_disjoint PASS
+test_narration_wrap    test_tier2_r1196_narration_collapsed         PASS
+test_narration_centering test_patch20_present_and_gated_on_patch14    PASS
+test_narration_centering test_patch_exe_imports_glyph_metrics         PASS
+test_narration_centering test_cave_sum_model_equals_glyph_metrics_width PASS
+test_narration_centering test_narration_box_px_matches_reservable_width PASS
+test_narration_centering test_tier2_patch20_superseded_caves_not_installed PASS
+test_narration_centering test_tier2_live_left_align_is_patch23_not_patch20 PASS
+test_narration_centering test_tier2_cave_adv_table_is_glyph_metrics   PASS
+test_narration_centering test_tier2_cave_sum_equals_live_table_sum    PASS
+test_narration_centering test_tier2_pads_were_pristine_zero           PASS
+test_narration_left_align test_patch23_present_and_targets_correct_origin PASS
+test_narration_left_align test_patch21_reverted_to_pristine_in_source  PASS
+test_narration_left_align test_patch23_new_word_is_li_a0_8             PASS
+test_narration_left_align test_narration_advance_is_glyph_metrics_not_recomputed PASS
+test_narration_left_align test_left_flush_keeps_wide_line_on_screen    PASS
+test_narration_left_align test_pristine_subu_would_clip_left           PASS
+test_narration_left_align test_narration_box_px_budget_sane            PASS
+test_narration_left_align test_tier2_pristine_holds_subu_at_p23_site   PASS
+test_narration_left_align test_tier2_built_holds_li_a0_8_and_reverted_addu PASS
+test_narration_left_align test_tier2_built_li_decodes_to_constant_8px_inset PASS
+test_narration_left_align test_tier2_narration_adv_table_is_glyph_metrics PASS
+test_narration_left_align test_tier2_scope_only_p23_changed_narration_origin PASS
+test_narration_left_align test_tier2_no_unexpected_renderer_region_diffs PASS
+test_narration_left_align test_tier2_patch20_sites_are_dead_path_only  PASS
+test_narration_pad_map test_pad_map_covers_tavern_intro_group       PASS
+test_narration_pad_map test_pad_map_rejects_menu_list_group         PASS
+test_narration_pad_map test_pad_map_disjoint_from_dn_partition      PASS
+test_narration_pad_map test_pad_min_body_predicate_present          PASS
+test_narration_pad_map test_classifier_ground_truth_still_19_of_19  PASS
+test_narration_pad_map test_build_v9_imports_and_calls_pad_map      PASS
+test_narration_pad_map test_build_v9_pad_branch_uses_narration_path PASS
+test_narration_pad_map test_pad_function_equalizes_line_counts      PASS
+test_request_body_reserve test_patch22_present_and_targets_correct_origins PASS
+test_request_body_reserve test_patch22_does_not_touch_idiom_middle_term PASS
+test_request_body_reserve test_reserve_idiom_model_yields_18_and_preserves_a0 PASS
+test_request_body_reserve test_advance_literal_equals_glyph_metrics_target PASS
+test_request_body_reserve test_reserve_and_advance_multipliers_are_consistent PASS
+test_request_body_reserve test_box_px_budgets_sane                     PASS
+test_request_body_reserve test_tier2_pristine_holds_old_words          PASS
+test_request_body_reserve test_tier2_built_holds_new_18px_words        PASS
+test_request_body_reserve test_tier2_built_idiom_simulates_to_18_a0_preserved PASS
+test_request_body_reserve test_tier2_advance_equals_built_table_default_metric PASS
+test_request_body_reserve test_tier2_scope_no_other_renderer_sites_changed PASS
+test_request_proportional_patch25 test_patch25_present_and_has_enable_flag     PASS
+test_request_proportional_patch25 test_patch25_cave_reads_resident_adv_table_no_inline_stride PASS
+test_request_proportional_patch25 test_patch25_scope_no_other_renderer_sites   PASS
+test_request_proportional_patch25 test_tier2_disabled_leaves_request_body_at_patch22 PASS
+test_request_proportional_patch25 test_tier2_patch14_table_present_for_enable  PASS
+test_request_proportional_patch25 test_tier2_pristine_hook_was_default_advance PASS
+test_r1203_cap         test_r1203_cap_under_65535                   PASS
+test_r1203_cap         test_build_uses_derived_cap                  PASS
+test_no_auto_pagebreak test_no_spurious_pagebreak                   PASS
+test_pipeline_rules    test_r1188_patchers_disabled                 PASS
+test_pipeline_rules    test_no_pattern_matching_in_sec1_patcher     PASS
+test_pipeline_rules    test_r34_mapping_rule                        PASS
+test_pipeline_rules    test_patched_type2_purge_present             PASS
+test_pipeline_rules    test_r1188_override_absent_in_build_output   PASS
+test_pipeline_rules    test_r35_header_intact_in_build_output       PASS
+test_pipeline_rules    test_metrics_single_source                   PASS
+test_r46_board         test_capacity_exactly_filled                 PASS
+test_r46_board         test_fffe_count_preserved                    PASS
+test_r46_board         test_no_dangling_fffe                        PASS
+test_r46_board         test_uniform_leading_pad                     PASS
+test_r46_board         test_exact_fit_passthrough                   PASS
+test_r46_board         test_built_r46_structure                     PASS
+test_r46_board         test_built_r46_msg21_typo_fixed              PASS
+test_r39_quests        test_g353_description_english                PASS
+test_r39_quests        test_g388_client_duhan                       PASS
+test_r39_quests        test_offset_tables_preserve_semantics        PASS
+test_r39_quests        test_group_count_and_size_budget             PASS
+test_r39_title_table   test_origin_constants_match_pristine         PASS
+test_r39_title_table   test_pristine_firstnz_base_resolves_all_to_group_start PASS
+test_r39_title_table   test_after_ffff_base_is_NOT_the_renderer_base PASS
+test_r39_title_table   test_inject_uses_firstnz_write_base_and_self_check PASS
+test_r39_title_table   test_zero_exe_edits_cave_scoping             PASS
+test_r39_title_table   test_built_firstnz_base_resolves_all_to_group_start PASS
+test_r39_title_table   test_built_title_row_is_full_english         PASS
+test_r39_title_table   test_built_matches_pristine_table_semantics_under_firstnz PASS
+test_r39_title_table   test_built_size_budget_and_group_count       PASS
+test_r39_section_table test_frozen_records_byte_identical           PASS
+test_r39_section_table test_records_in_bounds                       PASS
+test_r39_section_table test_records_forward_non_overlapping         PASS
+test_r39_section_table test_total_size_budget                       PASS
+test_r39_request_wrap  test_desc_wrap_cells_is_chosen_budget        PASS
+test_r39_request_wrap  test_wrap_helper_matches_source              PASS
+test_r39_request_wrap  test_no_description_line_exceeds_wrap_budget PASS
+test_r39_request_wrap  test_descriptions_fit_row_budget             PASS
+test_r39_request_wrap  test_aligned_entries_present                 PASS
+test_r39_client_cap    test_all_client_names_within_cell_budget     PASS
+test_r39_client_cap    test_capped_groups_have_expected_short_values PASS
+test_r39_client_cap    test_event_sentences_untouched               PASS
+test_r39_client_cap    test_inject_has_client_cell_cap_assert       PASS
+test_r39_client_cap    test_built_g388_is_duhan                     PASS
+test_r1193_narration   test_exactly_23_records_with_page_structure  PASS
+test_r1193_narration   test_line_constraints_and_decode             PASS
+test_r1193_narration   test_px_ceiling_advisory                     PASS
+test_r1193_narration   test_deterministic                           PASS
+test_r1193_narration   test_header_and_padding                      PASS
+test_r1193_narration   test_output_walks_cleanly                    PASS
+test_iso_level         test_r1188_font_pristine                     SKIP
+                         -> ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build v85)
+test_iso_level         test_r1196_walks_with_invariant              SKIP
+                         -> ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build v85)
+test_iso_level         test_chargen_resources_shipped_patched       SKIP
+                         -> ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build v85)
+test_iso_level         test_binary_resources_pristine               SKIP
+                         -> ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build v85)
+test_packdata_overflow test_no_residual_overflow_in_shipped_iso     SKIP
+                         -> ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build a release)
+test_packdata_overflow test_packdata_growth_within_budget           SKIP
+                         -> ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build a release)
+test_packdata_overflow test_bsn2_first_sector_not_packdata          SKIP
+                         -> ISO not found: C:\programmieren\wizardrytranslation\build\BUSIN0_EN_v85.iso (set BUSIN_ISO or build a release)
+test_v86_strips        test_R2124_size                              PASS
+test_v86_strips        test_R2124_contain                           PASS
+test_v86_strips        test_R2124_render                            PASS
+test_v86_strips        test_R1365_size                              PASS
+test_v86_strips        test_R1365_contain                           PASS
+test_v86_strips        test_R1365_render                            PASS
+test_v86_strips        test_R1054_size                              PASS
+test_v86_strips        test_R1054_contain                           PASS
+test_v86_strips        test_R1054_render                            PASS
+test_v86_strips        test_R1360_size                              PASS
+test_v86_strips        test_R1360_contain                           PASS
+test_v86_strips        test_R1360_render                            PASS
+test_v86_strips        test_R1361_size                              PASS
+test_v86_strips        test_R1361_contain                           PASS
+test_v86_strips        test_R1361_render                            PASS
+test_v86_strips        test_R1362_size                              PASS
+test_v86_strips        test_R1362_contain                           PASS
+test_v86_strips        test_R1362_render                            PASS
+test_v86_strips        test_R1363_size                              PASS
+test_v86_strips        test_R1363_contain                           PASS
+test_v86_strips        test_R1363_render                            PASS
+test_v86_strips        test_R1364_size                              PASS
+test_v86_strips        test_R1364_contain                           PASS
+test_v86_strips        test_R1364_render                            PASS
+test_v86_strips        test_R1359_size                              PASS
+test_v86_strips        test_R1359_contain                           PASS
+test_v86_strips        test_R1359_render                            PASS
+test_v86_strips        test_R1367_size                              PASS
+test_v86_strips        test_R1367_contain                           PASS
+test_v86_strips        test_R1367_render                            PASS
+test_v86_strips        test_R1910_size                              PASS
+test_v86_strips        test_R1910_contain                           PASS
+test_v86_strips        test_R1910_render                            PASS
+test_v86_strips        test_R2141_size                              PASS
+test_v86_strips        test_R2141_contain                           PASS
+test_v86_strips        test_R2141_render                            PASS
+test_v86_strips        test_R2144_size                              PASS
+test_v86_strips        test_R2144_contain                           PASS
+test_v86_strips        test_R2144_render                            PASS
+test_v86_strips        test_R2150_size                              PASS
+test_v86_strips        test_R2150_contain                           PASS
+test_v86_strips        test_R2150_render                            PASS
+test_v86_strips        test_R2153_size                              PASS
+test_v86_strips        test_R2153_contain                           PASS
+test_v86_strips        test_R2153_render                            PASS
+test_v86_strips        test_R2147_size                              PASS
+test_v86_strips        test_R2147_contain                           PASS
+test_v86_strips        test_R2147_render                            PASS
+test_v86_strips        test_R2155_size                              PASS
+test_v86_strips        test_R2155_contain                           PASS
+test_v86_strips        test_R2155_render                            PASS
+test_v86_strips        test_R1370_size                              PASS
+test_v86_strips        test_R1370_contain                           PASS
+test_v86_strips        test_R1370_render                            PASS
+test_v86_strips        test_R2880_size                              PASS
+test_v86_strips        test_R2880_contain                           PASS
+test_v86_strips        test_R2880_render                            PASS
+test_v86_strips        test_R2881_size                              PASS
+test_v86_strips        test_R2881_contain                           PASS
+test_v86_strips        test_R2881_render                            PASS
+test_v86_strips        test_R2155_hint_equals_R2147_window          PASS
+test_v86_strips        test_R2153_strips_equal_R2150                PASS
+test_v86_strips        test_R1188_not_repatched                     PASS
+test_v86_strips        test_chargen_resources_shipped_patched       PASS
+test_v86_strips        test_R34_structural_and_glyphs               PASS
+test_v86_strips        test_R2654_structural_and_translations       PASS
+test_v86_strips        test_iso_R2124_matches_build                 PASS
+test_v86_strips        test_iso_R1365_matches_build                 PASS
+test_v86_strips        test_iso_R2147_matches_build                 PASS
+test_v86_strips        test_iso_R34_matches_build                   PASS
+test_v86_strips        test_iso_R1370_matches_build                 PASS
+test_glyph_metrics_sync test_g1_built_exe_tables_match_metrics       PASS
+test_glyph_metrics_sync test_g2_no_inline_width_recompute            PASS
+test_glyph_metrics_sync test_g3_metrics_self_consistent              PASS
+test_chargen_cave_imports_metrics test_patch_exe_imports_glyph_metrics         PASS
+test_chargen_cave_imports_metrics test_no_inline_advance_table_near_chargen_hook PASS
+test_chargen_cave_imports_metrics test_patch19_caves_index_shared_sot_tables   PASS
+test_chargen_centering test_patch19_present_after_patch14_and_gated PASS
+test_chargen_centering test_patch19_source_encodes_bigendian_and_mode5_gate PASS
+test_chargen_centering test_patch_exe_imports_glyph_metrics         PASS
+test_chargen_centering test_chargen_lines_fit_box_at_new_budget     PASS
+test_chargen_centering test_proportional_advance_never_exceeds_stock_no_overflow PASS
+test_chargen_centering test_tier2_gate_and_hooks_installed          PASS
+test_chargen_centering test_tier2_caves_read_sot_tables_use_chargen_pen_and_gate_mode5 PASS
+test_chargen_centering test_tier2_resident_tables_are_glyph_metrics PASS
+test_chargen_centering test_tier2_live_table_width_equals_glyph_metrics PASS
+test_chargen_centering test_tier2_pads_were_pristine_zero           PASS
+test_chargen_centering test_tier2_hook_sites_were_original_path1_words PASS
+test_chargen_centering test_tier2_request_narration_fallback_is_stock_advance PASS
+test_chargen_diag_guard test_chargen_diag_defaults_off               PASS
+test_chargen_diag_guard test_diag_and_production_are_mutually_exclusive PASS
+test_chargen_diag_guard test_production_exe_ships_proportional_not_dead_pen_or_diag PASS
+test_chargen_diag_guard test_production_hooks_were_pristine_stride_words PASS
+test_chargen_diag_guard test_diag_targets_are_separate_from_production PASS
+test_name_consistency  test_all_targets_present                     PASS
+test_name_consistency  test_no_remaining_variants                   PASS
+test_name_consistency  test_no_superstring_corruption               PASS
+test_name_consistency  test_canonical_present_where_expected        PASS
+test_name_consistency  test_audit_script_is_idempotent              PASS
+------------------------------------------------------------------------------
+TOTAL: 229 passed, 8 skipped, 0 FAILED   (51.5s)
+
+RESULT: OK (some tiers skipped)

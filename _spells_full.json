@@ -1,0 +1,450 @@
+[
+ {
+  "id": "R34:s9:msg846",
+  "name": "Kreta",
+  "school": "Mage Magic",
+  "lv": "1",
+  "jp": "[FF07]魔術師魔法レベル1[FFF0] / 敵1体に炎属性ダメージを与える魔法 / クレタを習得する魔法書_ / ",
+  "en": "Mage Magic Lv1 / Deals fire damage to a single enemy. A spell book that teaches Kreta."
+ },
+ {
+  "id": "R34:s9:msg847",
+  "name": "Kurudo",
+  "school": "Mage Magic",
+  "lv": "3",
+  "jp": "[FF07]魔術師魔法レベル3[FFF0] / 敵1体に氷属性ダメージを与える魔法 / クルドを習得する魔法書_ / ",
+  "en": "Mage Magic Lv3 / Deals ice damage to a single enemy. A spell book that teaches Kurudo."
+ },
+ {
+  "id": "R34:s9:msg848",
+  "name": "Teal",
+  "school": "Mage Magic",
+  "lv": "1",
+  "jp": "[FF07]魔術師魔法レベル1[FFF0] / 敵1体に雷属性ダメージを与える魔法 / ティ}ルを習得する魔法書_ / ",
+  "en": "Mage Magic Lv1 / Deals lightning damage to a single enemy. A spell book that teaches Teal."
+ },
+ {
+  "id": "R34:s9:msg849",
+  "name": "Analyze",
+  "school": "Mage Magic",
+  "lv": "1",
+  "jp": "[FF07]魔術師魔法レベル1[FFF0] / 敵のステータス情報を調べる魔法 / アナライズを習得する魔法書_ / ",
+  "en": "Mage Magic Lv1 / Examines the status information of an enemy. A spell book that teaches Analyze."
+ },
+ {
+  "id": "R34:s9:msg850",
+  "name": "Weak",
+  "school": "Mage Magic",
+  "lv": "4",
+  "jp": "[FF07]魔術師魔法レベル4[FFF0] / 敵1体の攻撃力を低下させる魔法 / ウィ}クを習得する魔法書_ / ",
+  "en": "Mage Magic Lv4 / Reduces the attack power of a single enemy. A spell book that teaches Weak."
+ },
+ {
+  "id": "R34:s9:msg851",
+  "name": "Delay",
+  "school": "Mage Magic",
+  "lv": "5",
+  "jp": "[FF07]魔術師魔法レベル5[FFF0] / 敵1体の敏捷度を低下させる魔法 / ディレイを習得する魔法書_ / ",
+  "en": "Mage Magic Lv5 / Reduces the agility of a single enemy. A spell book that teaches Delay."
+ },
+ {
+  "id": "R34:s9:msg852",
+  "name": "Depth",
+  "school": "Holy Magic",
+  "lv": "3",
+  "jp": "[FF02]神官魔法レベル3[FFF0] / 敵1体の回避力を低下させる魔法 / デプスを習得する魔法書_ / ",
+  "en": "Priest Magic Lv3 / Reduces the evasion of a single enemy. A spell book that teaches Depth."
+ },
+ {
+  "id": "R34:s9:msg853",
+  "name": "Feeble",
+  "school": "Holy Magic",
+  "lv": "2",
+  "jp": "[FF02]神官魔法レベル2[FFF0] / 敵1体の防御力を低下させる魔法 / フィブルを習得する魔法書_ / ",
+  "en": "Priest Magic Lv2 / Reduces the defense of a single enemy. A spell book that teaches Feeble."
+ },
+ {
+  "id": "R34:s9:msg854",
+  "name": "Shroud",
+  "school": "Mage Magic",
+  "lv": "5",
+  "jp": "[FF07]魔術師魔法レベル5[FFF0] / 敵1体を即死させる魔法 / シュラ}ドを習得する魔法書_ / ",
+  "en": "Mage Magic Lv5 / Instantly kills a single enemy. A spell book that teaches Shroud."
+ },
+ {
+  "id": "R34:s9:msg855",
+  "name": "Spleem",
+  "school": "Mage Magic",
+  "lv": "1",
+  "jp": "[FF07]魔術師魔法レベル1[FFF0] / 敵1容を災らせる魔法 / スプリ}ムを習得する魔法書_ / ",
+  "en": "Mage Magic Lv1 / Puts a single enemy to sleep. A spell book that teaches Spleem."
+ },
+ {
+  "id": "R34:s9:msg856",
+  "name": "Salome",
+  "school": "Holy Magic",
+  "lv": "2",
+  "jp": "[FF02]神官魔法レベル2[FFF0] / 敵1容の魔法を封じる魔法 / サロメを習得する魔法書_ / ",
+  "en": "Priest Magic Lv2 / Seals a single enemy's magic. A spell book that teaches Salome."
+ },
+ {
+  "id": "R34:s9:msg857",
+  "name": "Escape",
+  "school": "Mage Magic",
+  "lv": "4",
+  "jp": "[FF07]魔術師魔法レベル4[FFF0] / 戦闘から離脱する魔法 / エスケ}プを習得する魔法書_ / ",
+  "en": "Mage Magic Lv4 / Flee from battle. A spell book that teaches Escape."
+ },
+ {
+  "id": "R34:s9:msg858",
+  "name": "Zakreta",
+  "school": "Mage Magic",
+  "lv": "3",
+  "jp": "[FF07]魔術師魔法レベル3[FFF0] / 敵1容に炎属性ダメージを与える魔法 / ザクレタを習得する魔法書_ / ",
+  "en": "Mage Magic Lv3 / Deals fire damage to an enemy group. A spell book that teaches Zakreta."
+ },
+ {
+  "id": "R34:s9:msg859",
+  "name": "Zakurudo",
+  "school": "Mage Magic",
+  "lv": "4",
+  "jp": "[FF07]魔術師魔法レベル4[FFF0] / 敵1容に氷属性ダメージを与える魔法 / ザクルドを習得する魔法書_ / ",
+  "en": "Mage Magic Lv4 / Deals ice damage to an enemy group. A spell book that teaches Zakurudo."
+ },
+ {
+  "id": "R34:s9:msg860",
+  "name": "Zateal",
+  "school": "Mage Magic",
+  "lv": "2",
+  "jp": "[FF07]魔術師魔法レベル2[FFF0] / 敵1容に雷属性ダメージを与える魔法 / ザティ}ルを習得する魔法書_ / ",
+  "en": "Mage Magic Lv2 / Deals lightning damage to an enemy group. A spell book that teaches Zateal."
+ },
+ {
+  "id": "R34:s9:msg861",
+  "name": "Through",
+  "school": "Mage Magic",
+  "lv": "2",
+  "jp": "[FF07]魔術師魔法レベル2[FFF0] / 一復受間^騎騎が思現しなくなる魔法 / スル}を習得する魔法書_ / ",
+  "en": "Mage Magic Lv2 / Temporarily prevents random encounters. A spell book that teaches Through."
+ },
+ {
+  "id": "R34:s9:msg862",
+  "name": "Zarado",
+  "school": "Mage Magic",
+  "lv": "6",
+  "jp": "[FF07]魔術師魔法レベル6[FFF0] / 敵1容を即死させる魔法 / ザラ}ドを習得する魔法書_ / ",
+  "en": "Mage Magic Lv6 / Instantly kills an enemy group. A spell book that teaches Zarado."
+ },
+ {
+  "id": "R34:s9:msg863",
+  "name": "Drain",
+  "school": "Mage Magic",
+  "lv": "6",
+  "jp": "[FF07]魔術師魔法レベル6[FFF0] / 敵1体のHPを吸収する魔法 / ドレインを習得する魔法書_ / ",
+  "en": "Mage Magic Lv6 / Absorbs HP from a single enemy. A spell book that teaches Drain."
+ },
+ {
+  "id": "R34:s9:msg864",
+  "name": "Ripu",
+  "school": "Holy Magic",
+  "lv": "4",
+  "jp": "[FF02]神官魔法レベル4[FFF0] / 敵箱にかけられた罠の効果を解ぐ魔法 / リピ}ルを習得する魔法書_ / ",
+  "en": "Priest Magic Lv4 / Disarms traps on treasure chests. A spell book that teaches Ripu."
+ },
+ {
+  "id": "R34:s9:msg865",
+  "name": "Cannibal",
+  "school": "Mage Magic",
+  "lv": "5",
+  "jp": "[FF07]魔術師魔法レベル5[FFF0] / 騎理獲得ダメージをはねかえす魔法 / カニバルを習得する魔法書_ / ",
+  "en": "Mage Magic Lv5 / Reflects physical damage taken back once. A spell book that teaches Cannibal."
+ },
+ {
+  "id": "R34:s9:msg866",
+  "name": "Jakreta",
+  "school": "Mage Magic",
+  "lv": "5",
+  "jp": "[FF07]魔術師魔法レベル5[FFF0] / 敵全体に炎属性ダメージを与える魔法 / ジャクレタを習得する魔法書_ / ",
+  "en": "Mage Magic Lv5 / Deals fire damage to all enemies. A spell book that teaches Jakreta."
+ },
+ {
+  "id": "R34:s9:msg867",
+  "name": "Jakurudo",
+  "school": "Mage Magic",
+  "lv": "6",
+  "jp": "[FF07]魔術師魔法レベル6[FFF0] / 敵全体に氷属性ダメージを与える魔法 / ジャクルドを習得する魔法書_ / ",
+  "en": "Mage Magic Lv6 / Deals ice damage to all enemies. A spell book that teaches Jakurudo."
+ },
+ {
+  "id": "R34:s9:msg868",
+  "name": "Jateel",
+  "school": "Mage Magic",
+  "lv": "4",
+  "jp": "[FF07]魔術師魔法レベル4[FFF0] / 敵全体に雷属性ダメージを与える魔法 / ジャティルを習得する魔法書_ / ",
+  "en": "Mage Magic Lv4 / Deals lightning damage to all enemies. A spell book that teaches Jateel."
+ },
+ {
+  "id": "R34:s9:msg869",
+  "name": "Late",
+  "school": "Mage Magic",
+  "lv": "7",
+  "jp": "[FF07]魔術師魔法レベル7[FFF0] / 敵1体に防御力を汝広して獲得する魔法 / レイトを習得する魔法書_ / ",
+  "en": "Mage Magic Lv7 / Attacks a single enemy using defense power. A spell book that teaches Late."
+ },
+ {
+  "id": "R34:s9:msg870",
+  "name": "Jarado",
+  "school": "Mage Magic",
+  "lv": "7",
+  "jp": "[FF07]魔術師魔法レベル7[FFF0] / 敵全体を即死させる魔法 / ジャラ}ドを習得する魔法書_ / ",
+  "en": "Mage Magic Lv7 / Instantly kills all enemies. A spell book that teaches Jarado."
+ },
+ {
+  "id": "R34:s9:msg871",
+  "name": "Valhalla",
+  "school": "Mage Magic",
+  "lv": "7",
+  "jp": "[FF07]魔術師魔法レベル7[FFF0] / レベルとひきかえに匹頭をおこす魔法 / ヴァルハラを習得する魔法書_ / ",
+  "en": "Mage Magic Lv7 / Sacrifices one level to cause a catastrophe. A spell book that teaches Valhalla."
+ },
+ {
+  "id": "R34:s9:msg872",
+  "name": "Reflect",
+  "school": "Mage Magic",
+  "lv": "6",
+  "jp": "[FF07]魔術師魔法レベル6[FFF0] / 受けた魔法をはねかえす魔法 / リフレクトを習得する魔法書_ / ",
+  "en": "Mage Magic Lv6 / Reflects magic back once. A spell book that teaches Reflect."
+ },
+ {
+  "id": "R34:s9:msg873",
+  "name": "Megadeath",
+  "school": "Mage Magic",
+  "lv": "7",
+  "jp": "[FF07]魔術師魔法レベル7[FFF0] / 敵全体に聖属性ダメージを与える魔法 / メガデスを習得する魔法書_ / ",
+  "en": "Mage Magic Lv7 / Deals holy damage to all enemies. A spell book that teaches Megadeath."
+ },
+ {
+  "id": "R34:s9:msg874",
+  "name": "Heal",
+  "school": "Holy Magic",
+  "lv": "1",
+  "jp": "[FF02]神官魔法レベル1[FFF0] / 味方1人のHPを回復する魔法 / フィ}ルを習得する魔法書_ / ",
+  "en": "Priest Magic Lv1 / Restores HP to a single ally. A spell book that teaches Heal."
+ },
+ {
+  "id": "R34:s9:msg875",
+  "name": "Leap",
+  "school": "Mage Magic",
+  "lv": "2",
+  "jp": "[FF07]魔術師魔法レベル2[FFF0] / 街に兆間物達する魔法 / リ}プを習得する魔法書_ / ",
+  "en": "Mage Magic Lv2 / Instantly warps back to town. A spell book that teaches Leap."
+ },
+ {
+  "id": "R34:s9:msg876",
+  "name": "Bullets",
+  "school": "Holy Magic",
+  "lv": "1",
+  "jp": "[FF02]神官魔法レベル1[FFF0] / 敵1体に聖属性ダメージを与える魔法 / バレッツを習得する魔法書_ / ",
+  "en": "Priest Magic Lv1 / Deals holy damage to a single enemy. A spell book that teaches Bullets."
+ },
+ {
+  "id": "R34:s9:msg877",
+  "name": "Thief Eye",
+  "school": "Holy Magic",
+  "lv": "1",
+  "jp": "[FF02]神官魔法レベル1[FFF0] / フロア華に残る敵箱の数を調べる魔法 / シ}フアイを習得する魔法書_ / ",
+  "en": "Priest Magic Lv1 / Checks the number of treasure chests remaining on the floor. A spell book that teaches Thief Eye."
+ },
+ {
+  "id": "R34:s9:msg878",
+  "name": "Yaiba",
+  "school": "Mage Magic",
+  "lv": "2",
+  "jp": "[FF07]魔術師魔法レベル2[FFF0] / 味方1人の攻撃力が上昇し / 不死系を獲得可能にする魔法 / ヤイバを習得する魔法書_ / ",
+  "en": "Mage Magic Lv2 / Increases one ally's hit rate and attack power, enabling hitting undead. A spell book that teaches Yaiba."
+ },
+ {
+  "id": "R34:s9:msg879",
+  "name": "Coat",
+  "school": "Mage Magic",
+  "lv": "3",
+  "jp": "[FF07]魔術師魔法レベル3[FFF0] / 味方1人の敏捷度が上昇する魔法 / コ}トを習得する魔法書_ / ",
+  "en": "Mage Magic Lv3 / Increases one ally's agility. A spell book that teaches Coat."
+ },
+ {
+  "id": "R34:s9:msg880",
+  "name": "Bless",
+  "school": "Holy Magic",
+  "lv": "2",
+  "jp": "[FF02]神官魔法レベル2[FFF0] / 味方1人の回避力が上昇する魔法 / ブレスを習得する魔法書_ / ",
+  "en": "Priest Magic Lv2 / Increases one ally's evasion. A spell book that teaches Bless."
+ },
+ {
+  "id": "R34:s9:msg881",
+  "name": "Protect",
+  "school": "Holy Magic",
+  "lv": "1",
+  "jp": "[FF02]神官魔法レベル1[FFF0] / 味方1人の防御力が上昇する魔法 / プロテクトを習得する魔法書_ / ",
+  "en": "Priest Magic Lv1 / Increases one ally's defense. A spell book that teaches Protect."
+ },
+ {
+  "id": "R34:s9:msg882",
+  "name": "Amok",
+  "school": "Holy Magic",
+  "lv": "4",
+  "jp": "[FF02]神官魔法レベル4[FFF0] / 敵1容に聖属性ダメージを与える魔法 / アモ}クを習得する魔法書_ / ",
+  "en": "Priest Magic Lv4 / Deals holy damage to an enemy group. A spell book that teaches Amok."
+ },
+ {
+  "id": "R34:s9:msg883",
+  "name": "Heals",
+  "school": "Holy Magic",
+  "lv": "4",
+  "jp": "[FF02]神官魔法レベル4[FFF0] / 味方1容のHPが回復する魔法 / フィ}ルズを習得する魔法書_ / ",
+  "en": "Priest Magic Lv4 / Restores HP to an ally group. A spell book that teaches Heals."
+ },
+ {
+  "id": "R34:s9:msg884",
+  "name": "Poison",
+  "school": "Holy Magic",
+  "lv": "5",
+  "jp": "[FF02]神官魔法レベル5[FFF0] / 敵1容に毒を与える魔法 / ポイズンを習得する魔法書_ / ",
+  "en": "Priest Magic Lv5 / Inflicts poison on an enemy group. A spell book that teaches Poison."
+ },
+ {
+  "id": "R34:s9:msg885",
+  "name": "Strain",
+  "school": "Holy Magic",
+  "lv": "3",
+  "jp": "[FF02]神官魔法レベル3[FFF0] / 敵1容を痺れさせて達けなくする魔法 / ストレインを習得する魔法書_ / ",
+  "en": "Priest Magic Lv3 / Magically paralyzes an enemy group, preventing them from moving. A spell book that teaches Strain."
+ },
+ {
+  "id": "R34:s9:msg886",
+  "name": "Poisonkea",
+  "school": "Holy Magic",
+  "lv": "2",
+  "jp": "[FF02]神官魔法レベル2[FFF0] / 味方1人の毒を回復する魔法 / ポイズケアを習得する魔法書_ / ",
+  "en": "Priest Magic Lv2 / Cures one ally's poison. A spell book that teaches Poisonkea."
+ },
+ {
+  "id": "R34:s9:msg887",
+  "name": "Parazukea",
+  "school": "Holy Magic",
+  "lv": "3",
+  "jp": "[FF02]神官魔法レベル3[FFF0] / 味方1人の勝制を回復する魔法 / パラズケアを習得する魔法書_ / ",
+  "en": "Priest Magic Lv3 / Cures one ally's paralysis. A spell book that teaches Parazukea."
+ },
+ {
+  "id": "R34:s9:msg888",
+  "name": "Fiakea",
+  "school": "Holy Magic",
+  "lv": "4",
+  "jp": "[FF02]神官魔法レベル4[FFF0] / 味方1人の恐怖を回復する魔法 / フィアケアを習得する魔法書_ / ",
+  "en": "Priest Magic Lv4 / Cures one ally's fear. A spell book that teaches Fiakea."
+ },
+ {
+  "id": "R34:s9:msg889",
+  "name": "Vital",
+  "school": "Holy Magic",
+  "lv": "6",
+  "jp": "[FF02]神官魔法レベル6[FFF0] / スタミナを全回復し^ / 一復期間出雲しなくする魔法 / バイタルを習得する魔法書_ / ",
+  "en": "Priest Magic Lv6 / Fully restores stamina and enables movement without encounters for a turn. A spell book that teaches Vital."
+ },
+ {
+  "id": "R34:s9:msg890",
+  "name": "Carcass",
+  "school": "Holy Magic",
+  "lv": "6",
+  "jp": "[FF02]神官魔法レベル6[FFF0] / 味方1人を一復結果で復活させる魔法 / カ}カスを習得する魔法書_ / ",
+  "en": "Priest Magic Lv6 / Revives one ally with partial HP. A spell book that teaches Carcass."
+ },
+ {
+  "id": "R34:s9:msg891",
+  "name": "Will",
+  "school": "Holy Magic",
+  "lv": "6",
+  "jp": "[FF02]神官魔法レベル6[FFF0] / 味方1人のHPとステータス取通を / 回復する魔法ウィルを習得する魔法書_ / ",
+  "en": "Priest Magic Lv6 / Restores one ally's HP and cures status ailments. A spell book that teaches Will."
+ },
+ {
+  "id": "R34:s9:msg892",
+  "name": "Lumiel",
+  "school": "Holy Magic",
+  "lv": "5",
+  "jp": "[FF02]神官魔法レベル5[FFF0] / ダ}クフォグを取り解く魔法 / リュミルを習得する魔法書_ / ",
+  "en": "Priest Magic Lv5 / Removes Dark Fog. A spell book that teaches Lumiel."
+ },
+ {
+  "id": "R34:s9:msg893",
+  "name": "Undead",
+  "school": "Holy Magic",
+  "lv": "7",
+  "jp": "[FF02]神官魔法レベル7[FFF0] / 不死系以外の敵グル}プに対して / ディスペルを著消にする魔法 / アンデッドを習得する魔法書_ / ",
+  "en": "Priest Magic Lv7 / Makes Dispel highly effective against non-undead enemy groups. A spell book that teaches Undead."
+ },
+ {
+  "id": "R34:s9:msg894",
+  "name": "Trance",
+  "school": "Holy Magic",
+  "lv": "3",
+  "jp": "[FF02]神官魔法レベル3[FFF0] / 今いるフロアの上り階段前に / 兆間物達する魔法 / トランスを習得する魔法書_ / ",
+  "en": "Priest Magic Lv3 / Warps to the stairs entrance on the current floor. A spell book that teaches Trance."
+ },
+ {
+  "id": "R34:s9:msg895",
+  "name": "Recover",
+  "school": "Holy Magic",
+  "lv": "5",
+  "jp": "[FF02]神官魔法レベル5[FFF0] / 敗タ}ン自達でHPが回復する魔法 / リカバ}を習得する魔法書_ / ",
+  "en": "Priest Magic Lv5 / Automatically restores a small amount of HP each turn. A spell book that teaches Recover."
+ },
+ {
+  "id": "R34:s9:msg896",
+  "name": "Anchors",
+  "school": "Holy Magic",
+  "lv": "6",
+  "jp": "[FF02]神官魔法レベル6[FFF0] / 汝いの装備を外す魔法 / アンカ}ズを習得する魔法書_ / ",
+  "en": "Priest Magic Lv6 / Restores a used equipped item. However, the caster may become frightened. A spell book that teaches Anchors."
+ },
+ {
+  "id": "R34:s9:msg897",
+  "name": "Float",
+  "school": "Mage Magic",
+  "lv": "3",
+  "jp": "[FF07]魔術師魔法レベル3[FFF0] / 一復期間^ダメージ柵を汝消にする魔法 / フロ}トを習得する魔法書_ / ",
+  "en": "Mage Magic Lv3 / Temporarily nullifies damage traps. A spell book that teaches Float."
+ },
+ {
+  "id": "R34:s9:msg898",
+  "name": "Stigma",
+  "school": "Holy Magic",
+  "lv": "7",
+  "jp": "[FF02]神官魔法レベル7[FFF0] / 敵全体に聖属性ダメージを与える魔法 / スティグマを習得する魔法書_ / ",
+  "en": "Priest Magic Lv7 / Deals holy damage to all enemies. A spell book that teaches Stigma."
+ },
+ {
+  "id": "R34:s9:msg899",
+  "name": "Raheal",
+  "school": "Holy Magic",
+  "lv": "5",
+  "jp": "[FF02]神官魔法レベル5[FFF0] / 味方全員のHPを回復する魔法 / ラフィ}ルを習得する魔法書_ / ",
+  "en": "Priest Magic Lv5 / Restores HP to all allies. A spell book that teaches Raheal."
+ },
+ {
+  "id": "R34:s9:msg900",
+  "name": "Offset",
+  "school": "Holy Magic",
+  "lv": "7",
+  "jp": "[FF02]神官魔法レベル7[FFF0] / 自らの命と引き更えに / 敵1体を即死させる魔法 / オフセットを習得する魔法書_ / ",
+  "en": "Priest Magic Lv7 / Sacrifices own life to instantly kill a single enemy. A spell book that teaches Offset."
+ },
+ {
+  "id": "R34:s9:msg901",
+  "name": "Revive",
+  "school": "Holy Magic",
+  "lv": "7",
+  "jp": "[FF02]神官魔法レベル7[FFF0] / 自らの命と引き更えに / 味方1人を復活させる魔法 / リヴァイヴを習得する魔法書_ / ",
+  "en": "Priest Magic Lv7 / Sacrifices own life to revive a single ally. A spell book that teaches Revive."
+ }
+]

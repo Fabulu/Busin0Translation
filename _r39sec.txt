@@ -1,0 +1,8 @@
+build len=30720 pristine len=26624
+rec0: SAME
+rec1: DIFF
+rec2: DIFF
+rec3: DIFF
+rec4: DIFF
+rec5: DIFF
+header[0:16] same=True

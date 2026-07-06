@@ -1,0 +1,28 @@
+CONTEXT:
+基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
+    "english": "Explore! Quest / Log? Treasure / 1-10 Shadow / Check Appraisal // Info"
+  },
+  {
+    "resource": 1197,
+    "msg_index": 2,
+    "japanese": "店消ジン骨場のカウンターの[052E]では、[03DE]掲が依頼した一事を騎騎者に[0165]団するサービスが行われている。",
+    "english": "At Gin's tavern / counter, / requests were / offered to // adventurers."
+  },
+  {
+    "resource": 1197,
+    "msg_index": 3,
+    "japanese": "そのカウンターに多づくと、店消の与が質し納けてきた。",
+    "english": "As you / appro
+
+SRC: At Gin's tavern / counter, / requests were / offered to // adventurers.
+
+PADDED: "At Gin's tavern / counter,        / requests were   / offered to      // adventurers."
+
+RENDER PARTS (each a drawn line) + glyph counts:
+  cnt=15  |At Gin's tavern|
+  cnt=15  |counter,       |
+  cnt=15  |requests were  |
+  cnt=15  |offered to     |
+  cnt=12  |adventurers.|
+
+RAM count_array(misaligned) = [15,8,13,10,12]

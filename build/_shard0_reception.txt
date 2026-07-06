@@ -1,0 +1,40 @@
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=68
+JP: 乙女心 / 
+EN: Maiden / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=102
+JP: 乙女の高い絆があれば、 / つらい箱いでも余計な男はいらない。 / 
+EN: Maiden bonds endure / even the worst odds. / 
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=662
+JP: ã‚¨ãƒ«ãƒ•ã®å°‘å¥³ãŒ^æˆ¦å ´ã«å‘ã‹ã†ç‚¹äººã® / ãŸã‚ã«è‡ªã‚‰ã®ä¾ã‚’ã‚‚ã£ã¦é€ ã£ãŸã¨ã•ã‚Œ / ã‚‹å”±æ‰‹æ¯å›£æ³•_å®ã‚’ç½ã‚‰ã›ã‚‹åŠ›ãŒ / ã“ã‚ã‚‰ã‚Œã¦ã„ã‚‹_å†…å®¹ç²å¾—å¯èƒ½_ /
+EN: Made by an elf / maid for a / warrior.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=68
+JP: ä¹™å¥³å¿ƒ /
+EN: Maiden /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=102
+JP: ä¹™å¥³ã®é«˜ã„çµ†ãŒã‚ã‚Œã°^ / ã¤ã‚‰ã„ç®±ã„ã§ã‚‚ä½™è¨ˆãªç”·ã¯ã„ã‚‰ãªã„_ /
+EN: Maiden bonds endure / even the worst odds. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=64
+JP: |ã“ã“ã«æ›¸ã„ã¦ã‚‹ã²ã¨ã£ã¦^ / å®Ÿã¯^è¿·å®®ã«å…¥ã£ã¦ãªã„ã²ã¨ã°ã‹ã‚Š / ã ã£ãŸã‚“ã˜ã‚ƒãªã„ã ã‚ã†ã­? /   / ã‚ãŸã—ã‚ƒãŸã ã®å¤§ç®—ã®ãŠã‹ã¿ã ã‹ã‚‰^ / ã‚‚ã¡ã‚ã‚“è¿·å®®ã«ãªã‚“ã‹^å…¥ã£ãŸã“ã¨ / ãªã„ã‘ã©ã­! /
+EN: Wait, are all the / people posting here / actually folks who / never enter the maze? / [PB] I'm just an innkeeper / so of course I've / never gone in! /
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=360
+JP: オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+EN: Orc: After the / battle, the / shop clerk came / running over.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=369
+JP: カウンターには店社として[05A5]われたらしき魔物がいる。
+EN: A monster was / hired as a / clerk at the / counter.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=356
+JP: オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+EN: Orc: After the / battle ended, / the branch / shop clerk / came running / back.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=365
+JP: カウンターには店社として[05A5]われたらしき魔物がいる。
+EN: A monster / hired as a / clerk stood at / the counter.
+

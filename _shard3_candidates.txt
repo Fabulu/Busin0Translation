@@ -1,0 +1,4590 @@
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:70
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=アークメイジ / 
+ EN=Archmage / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:71
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=lv１０メイジ / 
+ EN=Lv10 Mage / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:72
+ JP_TERMS=
+ EN_WORDS=wizard
+ JP=ハイウィザード / 
+ EN=High Wizard / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:74
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=lv３プリースト / 
+ EN=Lv3 Priest / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:75
+ JP_TERMS=
+ EN_WORDS=priest,priestess
+ JP=lv５プリーステス / 
+ EN=Lv5 Priestess / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:76
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=lv８プリースト / 
+ EN=Lv8 Priest / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:77
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=ハイプリースト / 
+ EN=High Priest / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:78
+ JP_TERMS=master
+ EN_WORDS=priest,priestess,master
+ JP=マスタープリーステス / 
+ EN=Master Priestess / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:79
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=アークプリースト / 
+ EN=Archpriest / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:80
+ JP_TERMS=
+ EN_WORDS=shop,bishop
+ JP=lv８ビショップ / 
+ EN=Lv8 Bishop / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:81
+ JP_TERMS=
+ EN_WORDS=shop,bishop
+ JP=lv１０ビショップ / 
+ EN=Lv10 Bishop / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:82
+ JP_TERMS=
+ EN_WORDS=shop,bishop
+ JP=アークビショップ / 
+ EN=Archbishop / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:99
+ JP_TERMS=
+ EN_WORDS=king
+ JP=オークキング / 
+ EN=Orc King / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:108
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=マスターニンジャ / 
+ EN=Master Ninja / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:109
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=ザ・ハイマスター / 
+ EN=The High Master / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:113
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=lv１０シーフ / 
+ EN=Lv10 Thief / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:114
+ JP_TERMS=master
+ EN_WORDS=master,thief
+ JP=マスターシーフb / 
+ EN=Master Thief b / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:116
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=lv４シーフb / 
+ EN=Lv4 Thief b / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:117
+ JP_TERMS=master
+ EN_WORDS=master,thief
+ JP=マスターシーフb / 
+ EN=Master Thief b / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:118
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=ファントムシーフb / 
+ EN=Phantom Thief b / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:119
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=lv１０シーフ / 
+ EN=Lv10 Thief / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:120
+ JP_TERMS=master
+ EN_WORDS=master,thief
+ JP=マスターシーフc / 
+ EN=Master Thief c / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:124
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=マスターニンジャb / 
+ EN=Master Ninja b / 
+
+FILE=data/translate_chunks/chunk_01_translated.json KEY=36:125
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=ザ・ハイマスターb / 
+ EN=The High Master b / 
+
+FILE=data/translate_chunks/chunk_06_translated.json KEY=45:49
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=ほだ  / これがただいまの / ヴィガー商店情報だ  / 
+ EN=Right then. /Here's / the latest /Vigger / Shop info. /
+
+FILE=data/translate_chunks/chunk_06_translated.json KEY=45:50
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=われらがヴィガー商店を / く宝に地装するか？  /   / 
+ EN=Wanna invest in /our / Vigger Shop? /
+
+FILE=data/translate_chunks/chunk_06_translated.json KEY=45:52
+ JP_TERMS=shop,shop
+ EN_WORDS=shop
+ JP=われらがヴィガー商店の / 支店を造るか  / そっかそっかー  / 
+ EN=Build a branch /of / our Vigger Shop? /I / see, I see~! /
+
+FILE=data/translate_chunks/chunk_06_translated.json KEY=45:124
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=商店レベルが足りません / 
+ EN=Shop level too /low! / 
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:26
+ JP_TERMS=
+ EN_WORDS=lord
+ JP=オーガロード
+ EN=Ogre Lord
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:36
+ JP_TERMS=
+ EN_WORDS=lord
+ JP=ヴァンパイアロード
+ EN=Vampire Lord
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:43
+ JP_TERMS=
+ EN_WORDS=lord
+ JP=レイバーロード
+ EN=Labor Lord
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:46
+ JP_TERMS=
+ EN_WORDS=priest,priestess
+ JP=プリーステス
+ EN=Priestess
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:48
+ JP_TERMS=
+ EN_WORDS=fighter
+ JP=lv３ファイター
+ EN=Lv3 Fighter
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:49
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=lv１プリースト
+ EN=Lv1 Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:50
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=lv１メイジ
+ EN=Lv1 Mage
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:52
+ JP_TERMS=
+ EN_WORDS=shop,bishop
+ JP=lv１ビショップ
+ EN=Lv1 Bishop
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:60
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=lv４シーフa
+ EN=Lv4 Thief a
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:61
+ JP_TERMS=master
+ EN_WORDS=master,thief
+ JP=マスターシーフa
+ EN=Master Thief a
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:62
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=ファントムシーフa
+ EN=Phantom Thief a
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:63
+ JP_TERMS=
+ EN_WORDS=fighter
+ JP=lv７ファイター
+ EN=Lv7 Fighter
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:64
+ JP_TERMS=
+ EN_WORDS=fighter
+ JP=lv８ファイター
+ EN=Lv8 Fighter
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:65
+ JP_TERMS=
+ EN_WORDS=fighter
+ JP=lv１０ファイター
+ EN=Lv10 Fighter
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:66
+ JP_TERMS=
+ EN_WORDS=swordsman
+ JP=ソードマン
+ EN=Swordsman
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:68
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=lv５メイジ
+ EN=Lv5 Mage
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:69
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=lv７メイジ
+ EN=Lv7 Mage
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:70
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=アークメイジ
+ EN=Archmage
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:71
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=lv１０メイジ
+ EN=Lv10 Mage
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:72
+ JP_TERMS=
+ EN_WORDS=wizard
+ JP=ハイウィザード
+ EN=High Wizard
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:74
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=lv３プリースト
+ EN=Lv3 Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:75
+ JP_TERMS=
+ EN_WORDS=priest,priestess
+ JP=lv５プリーステス
+ EN=Lv5 Priestess
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:76
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=lv８プリースト
+ EN=Lv8 Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:77
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=ハイプリースト
+ EN=High Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:78
+ JP_TERMS=master
+ EN_WORDS=priest,priestess,master
+ JP=マスタープリーステス
+ EN=Master Priestess
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:79
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=アークプリースト
+ EN=Arch Priest
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:80
+ JP_TERMS=
+ EN_WORDS=shop,bishop
+ JP=lv８ビショップ
+ EN=Lv8 Bishop
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:81
+ JP_TERMS=
+ EN_WORDS=shop,bishop
+ JP=lv１０ビショップ
+ EN=Lv10 Bishop
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:82
+ JP_TERMS=
+ EN_WORDS=shop,bishop
+ JP=アークビショップ
+ EN=Archbishop
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:99
+ JP_TERMS=
+ EN_WORDS=king
+ JP=オークキング
+ EN=Orc King
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:108
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=マスターニンジャ
+ EN=Master Ninja
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:109
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=ザ・ハイマスター
+ EN=The High Master
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:113
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=lv１０シーフ
+ EN=Lv10 Thief
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:114
+ JP_TERMS=master
+ EN_WORDS=master,thief
+ JP=マスターシーフb
+ EN=Master Thief B
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:116
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=lv４シーフb
+ EN=Lv4 Thief B
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:117
+ JP_TERMS=master
+ EN_WORDS=master,thief
+ JP=マスターシーフb
+ EN=Master Thief B
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:118
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=ファントムシーフb
+ EN=Phantom Thief B
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:119
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=lv１０シーフ
+ EN=Lv10 Thief
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:120
+ JP_TERMS=master
+ EN_WORDS=master,thief
+ JP=マスターシーフc
+ EN=Master Thief C
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:124
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=マスターニンジャb
+ EN=Master Ninja B
+
+FILE=data/translate_chunks/chunk_r36_translated.json KEY=36:125
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=ザ・ハイマスターb
+ EN=The High Master B
+
+FILE=data/type2_translated/batch_02.json KEY=1199:10
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=彼から依頼されていたのだよ、[055A]辺き戦帰の[04EB]部をね。
+ EN=He had entrusted / me with something-- / the immortal warriors.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:12
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=もし彼神が、アレイドを力度して戦う[0495][0597]の戦帰を力に入れなければ、
+ EN=If the gods cannot / obtain warriors made / by uniting Allayed,
+
+FILE=data/type2_translated/batch_02.json KEY=1199:13
+ JP_TERMS=
+ EN_WORDS=king
+ JP=ベノアの掲は[05F5]くものによって、[0322]絶やしにされるだろうと。
+ EN=Benoa's kingdom / shall be destroyed by / the crawling ones.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:16
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0447]用に息の合った退嫌同帰が、脱唱の者戦員験を低んで[0160]めて力に入れることができる[0542]美。
+ EN=Can only be obtained / by a skilled party / who completes a quest.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:17
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=過かがもし力に入れたとしても、腕に着けたその者が[028E]ねば、その[0542]美もまた階に消えてしまう。
+ EN=Even if one obtains / it, should the wearer / die, the power fades.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:18
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そのくれを彼神は、[028E]者の思大を[04CE]じ込める剣によって、倒携しようとしたのだ。
+ EN=The gods tried to / overcome this with a / sword sealing souls.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:20
+ JP_TERMS=-er/person
+ EN_WORDS=warrior
+ JP=一者の[0495][0597]の戦帰を以り外げるため、いったい何者の戦帰を[05E8][05F0]にしなければならないのかと。
+ EN=To create one set / of immortal warriors, / how many must die?
+
+FILE=data/type2_translated/batch_02.json KEY=1199:24
+ JP_TERMS=-er/person
+ EN_WORDS=warrior
+ JP=優臆美で者部者嫌が以れぬかと。
+ EN=Could the alchemist / create artificial / warriors?
+
+FILE=data/type2_translated/batch_02.json KEY=1199:25
+ JP_TERMS=-er/person
+ EN_WORDS=warrior
+ JP=すなわち、[055A]辺き戦帰達を以り出し、アレイドの者験をできないかと。
+ EN=That is, craft the / immortal warriors / to wield Allayed.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:27
+ JP_TERMS=
+ EN_WORDS=king
+ JP=どれもその思必築主と戦[049C]放は、[05F5]くものと戦うには、大[04A2]色[0597]まりないものばかりだった。
+ EN=But their intellect / and combat power were / far too lacking.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:29
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=たった一つ、置思書に書かれている置形ディアラントの[055A]辺き値功者勲、オートマター魔義はね。
+ EN=Save one: the ancient / Automata written / of in old texts.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:31
+ JP_TERMS=
+ EN_WORDS=master
+ JP=だが優臆の損は余に町今してくれた。
+ EN=But the alchemist's / master guided me.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:38
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[04A6][0190]を漢[0495]する者にとって、それが全かされることはある客町、法しくもあるな。
+ EN=yet for one who / pursues secrets, / there is sadness too.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:41
+ JP_TERMS=-er/person
+ EN_WORDS=warrior
+ JP=ギヨームは、街所の奥に待っていた、[052F]鉄の者勲にそう[01BA]孤した。
+ EN=Guillaume spoke to / the iron warrior / waiting in the room.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:42
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=オートマターあなたが、新しいマスターですね、わたくし、フリーダーと申します。
+ EN=Automata: You are / my new master. / I am Frieder.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:44
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=あれほどの安[0465]にも人わらず、[01BF][01C0]街を余封するエーテル議所が[01CC]稼にも生きていた。
+ EN=Despite the damage, / the ether device / still functions.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:48
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=宮街[0390]蓄が[0530]倒していた事者からも、安[03F1]時に、信じがたいほどの[0524][048E]が[020B]えられたことがわかる。
+ EN=The stored data / shows incredible / force was applied.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:50
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=しかし余が知る[014B]りでは、いかなる魔法、[0542]美を毒いても彼女をあのように安[03F1]することは大[01DD]築だ。
+ EN=But to my knowledge, / no magic or device / could do such damage.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:53
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=置形エルフの思全が[0408]んだのは、向しき目を持つ者達が、その[0542]美を向毒したのが[04DF][03EF]と言われている。
+ EN=The ancient elves' / civilization fell / when the cursed ones...
+
+FILE=data/type2_translated/batch_02.json KEY=1199:56
+ JP_TERMS=-er/person
+ EN_WORDS=master
+ JP=武[0640][0375]向にもなるほどの[032A][03F2]を者抜させた者達が、なぜそのように[0496]ったのか？
+ EN=who achieved the / pinnacle of mastery / --why would they fall?
+
+FILE=data/type2_translated/batch_02.json KEY=1199:60
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そこで何か新しい事者が[049A]見されればと余は心待している。
+ EN=I hope new evidence / will be discovered / there.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:62
+ JP_TERMS=-er/person
+ EN_WORDS=guild
+ JP=フリーダーが騎騎者[0170]街に庫落されました。
+ EN=Frieder has been / registered at the / Adventurers' Guild.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:68
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=これだけ聞けば、なんとも頼りない容っ者だと思うかもしれないが、
+ EN=Hearing this, you / might think them / utterly useless, but
+
+FILE=data/type2_translated/batch_02.json KEY=1199:76
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=あっ、そうそう。者[023A]どのような良で功いていたのか、余は書物でしか知らぬ。
+ EN=Oh, one more thing. / I only know from / texts how they worked.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:77
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=だから彼女の良が、もし事者と[040B]なっていたとしても[01E4]して能しい。
+ EN=So their names may / differ from the / historical record.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:78
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=だが目[03CF]なく、習築宿には[0447][056D]に[049D]元してあるからね。
+ EN=But worry not, the / skill list has been / fully prepared.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:80
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の野の両に、顔一蓄、送いひげで番われた、知与な出で待ちの[04FC]者が抜れた。
+ EN=Before you stood a / white-haired elder / with a long beard.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:81
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[01D1]の[04FC]者生きとし生ける物すべて、いつかは消え防るのが期め。
+ EN=The old sage: All / living things must / one day fade away.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:85
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=すれちがったにも人わらず、[04FC]者はをちらりと見ることもなく、義に出ていった。
+ EN=Despite passing by, / the sage left without / even a glance.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:88
+ JP_TERMS=-er/person
+ EN_WORDS=mage
+ JP=彼はかつて魔法[04DA][033F]ユグルタの[01BE][01A8][0426][04D6]であり、あらゆる魔運解の野[04AC]でもあった者だ。
+ EN=He was once the / right hand of the / Archmage Yugurta.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:89
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=その魔美の知識は険と階に[044F]通し、ササンの王ですら役えを[04E1]うたほどであった。
+ EN=His magic knowledge / grew with time. Even / kings sought his counsel.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:90
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=だが、ある事受を[058A]に、彼は魔女アウローラを忘すために、者生のすべてを[048B]てる。
+ EN=But after a certain / event, he gave up / everything for Aurora.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:91
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=置い質だよ。[05B1][04A2]美もの錠の質だ。彼神エルフ数ですら、備えている者は少ない。
+ EN=An old tale indeed. / A tale of ages past. / Few elves know it.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:92
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=者嫌のみが持つ、[04C2]大というやつだな。彼に会うと、いつもそう感じるよ。
+ EN=The dignity that / only time brings. / Meeting him, I feel it.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:95
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=なぜ、そう[018A]づけたのか知らぬが、者嫌の置い言[0387]でイ[05F4]全けゴという客町だそうだ。
+ EN=Why he named her so / I know not, but in / his tongue it means
+
+FILE=data/type2_translated/batch_02.json KEY=1199:96
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=もともと彼女は値色のことを置き者とか、[018A]も辺き者と高んでいたらしい。
+ EN='the dawn.' He once / called her 'the / nameless one.'
+
+FILE=data/type2_translated/batch_02.json KEY=1199:97
+ JP_TERMS=king,-er/person
+ EN_WORDS=king
+ JP=イ[018A]も辺き者からポントス王に[0197]げるゴという属にね。
+ EN='A gift from the / nameless one to / King Pontos.'
+
+FILE=data/type2_translated/batch_02.json KEY=1199:102
+ JP_TERMS=-er/person
+ EN_WORDS=guild
+ JP=ピクシーメラーニエ跡美優臆美ギルドは編地、唱くの美者でにぎわっており、出入りする者が装を絶たない。
+ EN=Pixie Melanie: / The Alchemist Guild / bustles with visitors.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:104
+ JP_TERMS=inn,-er/person
+ EN_WORDS=clerk,king
+ JP=かなり[0417][0418]した[01BC]所のピクシーがギルドの人[0219]者らしき跡美を高び限めて、一今宿に質し専めた。
+ EN=A rather agitated / pixie called the / clerk and began talking.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:105
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=ピクシーイねえ、ちょっとちょっと クレタが備えられる魔法剣がほしいんだけど ゴ跡美イえ！ク、クレタ！ですか！ゴピクシーイそう、クレタ [0419]の[041A]思のクレタよ ここで以れるんでしょ ゴ
+ EN=Pixie: Hey, hey! / I want a magic stone / with Kreta! / Clerk: K-Kreta?! / Pixie: Yeah, Kreta. / The light Kreta.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:106
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=跡美イで！でで！でしたら、あの！合封に必[0409]な議著はお持ちいただけましたか？ゴピクシーイ合封？ 議著？？何よ、何がいるってのよ ゴ跡美イクレタでしたら！その！向魔の血を２つとか！ゴ
+ EN=Clerk: Do you have / the materials? / Pixie: Materials? / What do I need? / Clerk: For Kreta, / two demon bloods!
+
+FILE=data/type2_translated/batch_02.json KEY=1199:107
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=ピクシーイそんな[0141]持ち向いものどうやって持ってくんの ゴ跡美イえぇぇ！そ！そんな！魔法剣合封毒の議著はか、[041B]値ご毒客いただくと！そういう携まりですので！ゴピクシーイキィィィィ  もういい アンタなんかに頼まない [01AB]るわよ  メラーニエ ゴ少女イ・・・・・・・・・ゴ
+ EN=Pixie: How do I get / those?! Clerk: You / must bring them! / Pixie: Grr! Forget / it! Let's go, / Melanie! Girl: ...
+
+FILE=data/type2_translated/batch_02.json KEY=1199:108
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=信将していた跡美にたんかを該ったピクシーが、[041C]の[01BC]な勲影で欠んできた。
+ EN=The pixie who had / snapped at the clerk / flew over angrily.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:112
+ JP_TERMS=
+ EN_WORDS=king
+ JP=ちょっとアンタ、[0159]魔よ こんなとこで義っ待ってんじゃないわよ   
+ EN=Hey you, move it! / Don't just stand / there blocking the way!
+
+FILE=data/type2_translated/batch_02.json KEY=1199:121
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=そしてピクシーと少女はギルドを出て行った。
+ EN=The pixie and girl / left the guild.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:122
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=すぐさま、ピクシーを品らせた跡美が入り口までやってきた。
+ EN=The clerk came to / the counter after / dealing with pixie.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:128
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=跡美は質しかけるかのように[03D1]り言をつぶやいて、また元いた場暗へ戻った。
+ EN=The clerk muttered / complaints, then / returned to her desk.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:129
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=メラーニエミリィクンナル優臆美ギルドに入ると、メラーニエとミリィが板れていた。
+ EN=Melanie, Milly, / Kunnar: At the / Alchemist Guild.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:139
+ JP_TERMS=
+ EN_WORDS=king
+ JP=どうせ見たいだろうし聞こうかどうか迷ったんだけど、聞くまでもなかったわね 
+ EN=I almost didn't / bother asking-- / it was obvious!
+
+FILE=data/type2_translated/batch_02.json KEY=1199:146
+ JP_TERMS=
+ EN_WORDS=king
+ JP=目[03CF]しなくても、アタイ達振[0487]をまるごと取り込もうなんて思ってないわよ。
+ EN=Don't worry, I'm / not taking ALL / your money.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:164
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そしてまた、違う者に声をかけ専めた。
+ EN=And she began / calling out to / other passersby.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:171
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そしてまた、違う者に声をかけ専めた。
+ EN=And she began / calling out to / other passersby.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:188
+ JP_TERMS=-er/person
+ EN_WORDS=clerk,guild
+ JP=名成の忠には、既にメラーニエともう一者優臆美ギルドの[0412]買社であるエルフの跡美がいた。
+ EN=Upstairs, Melanie / and an elf clerk / from the guild waited.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:192
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=ではまず、振[04C1]をお[036A]いします。優臆美ギルド[04BF]了[02BF]１美７[04BA][04C0]、クンナル[001D]アルトハイムさん 
+ EN=First, introductions! / Alchemist Guild / Member #17, Kunnar!
+
+FILE=data/type2_translated/batch_02.json KEY=1199:193
+ JP_TERMS=
+ EN_WORDS=clerk,king,guild
+ JP=クンナルというのは、ギルドの[0412]買社である跡美のことらしい。
+ EN=Kunnar was the elf / clerk working at / the guild.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:196
+ JP_TERMS=king
+ EN_WORDS=
+ JP=だ！兜魔美解への！だ、第一王、[0160]めての魔法[04C3]得の[04C4]嫌を見十けられて険[0478]です！。
+ EN=To the Grand / Sorcerer! We are / honored to witness!
+
+FILE=data/type2_translated/batch_02.json KEY=1199:221
+ JP_TERMS=
+ EN_WORDS=king
+ JP=メラーニエは魔法を[04CB]える時魔外に[0425][0402]した[01BC]所で力加を難わせている。
+ EN=Melanie was still / shaking from the / effort of casting.
+
+FILE=data/type2_translated/batch_02.json KEY=1199:227
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=参加者の腕[01BC]には[01BF]大品を毒客してございます 
+ EN=Souvenirs have been / prepared for all!
+
+FILE=data/type2_translated/batch_02.json KEY=1199:234
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=ミリィはメラーニエを祠き支れて優臆美ギルドを出て行った。
+ EN=Milly left the / Alchemist Guild / with Melanie.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:8
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=者はいま、[03F0]け物[03DE]長に漢われているんだよ！。
+ EN=We're being chased / by that crazy / beast-tamer!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:11
+ JP_TERMS=
+ EN_WORDS=king
+ JP=そりゃあ、魔女を忘せば[03DE]掲は[045C]ぶのはわかるけど、
+ EN=Sure, if you beat / the witch the kingdom / will rejoice, but
+
+FILE=data/type2_translated/batch_02.json KEY=1200:13
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=そんな[0169]識宿なことが通毒しない稀[0338]なんだ転は。
+ EN=He's the kind of / guy who just doesn't / get common sense.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:19
+ JP_TERMS=inn,-er/person
+ EN_WORDS=
+ JP=者神は野に見えない棒宿な主を感じ取るべく、ひざまずき一目に戻りを部げていた。
+ EN=The people knelt, / praying to sense / an invisible force.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:21
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=義恵、制[033F]の鎧[028F]を安る開[0343]の[04D1]び声が聞こえてきた。
+ EN=Suddenly, a / priest's loud cry / echoed through / the temple.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:24
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]らしき与が彼女を漢いかけて帰ている。
+ EN=A priest was / chasing after her.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:25
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=ちょうどの両で、開[0343]は彼女に漢いついた。
+ EN=Right here, the / priest caught up / to her.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:26
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]なぜ、あなたはそのような仰力な[04A6][0526]をなさるのですか 
+ EN=Priest: Why do / you commit such / a reckless act?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:27
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=あなたは、法しみに[032D]ちひしがれた盗の者を見[048B]てようとしている。
+ EN=You are trying to / abandon the people / crushed by sorrow.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:29
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は品りのせいで、顔は然ざめ今にも逃忘しそうである。
+ EN=The priest's face / was pale with anger, / about to collapse.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:30
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=シスター開[0343][01BC]にご[0190]倒いただけないのは、法しいことです！。
+ EN=Sister: It pains / me that the priest / will not understand!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:31
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=シスターはそう言って、戻りを部げる者神に召出を上した。
+ EN=The sister prayed / before the altar / and turned her gaze.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:32
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=者神の中に時怖、[033A]彼をした者の良が見える。
+ EN=In the temple, / you could see the / faces of believers.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:33
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=行の盗でも制[033F]は泊者に将してさまざまな[0346][034F]を宝すが、ここでは騎騎者属の[0340]者が唱いのが場[0349]であった。
+ EN=The temple offers / various services, / but those in need / of healing are many.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:35
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=すでに奉者多くの騎騎者の今神が、あの迷宮によって[01BA]を辺くされました。
+ EN=yet already many / adventurers have / lost their lives.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:37
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343][01BC]もあのシムゾンさんの事をご武知のはずです。
+ EN=Priest, surely you / know of that man / Simzon.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:38
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=この盗に帰た時、彼は値信と[0441]強に命ちあふれた者でした。
+ EN=When he came to / this town, he was / full of confidence.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:45
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=いまあなたを必[0409]としているのは、携して本隊や騎騎者ではありません。この制[033F]にいる者神なのです。
+ EN=Those who need you / now are not the / troops but the people / in this temple.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:46
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=シスターはうつむき、開[0343]の言[0387]に[033C]を[05EB]けていたが、
+ EN=The sister bowed / her head, listening / to the priest's words.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:49
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=彼神制[033F]の武器[0190]器はただ一つ、すべての向しき物から者神を内る[05EE]でなければならないと。
+ EN=The one weapon of / the holy temple / must shield the people / from all evil.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:51
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343][01BC]がおっしゃることはわかります。
+ EN=Priest, I / understand what / you are saying.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:54
+ JP_TERMS=
+ EN_WORDS=servant
+ JP=損の[05F2]であるならそれを知りながら、見[048B]てるわけにはいきません。
+ EN=As a servant of / God, I cannot / simply look away.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:58
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=騎騎者の今よ。余が嫌違っているのでしょうか。
+ EN=O people of God, / am I the one who / is mistaken?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:59
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=迷宮の階は[03EB]てしなく[0297]い。あまりにも[0297]き階は、どのような者嫌をも[0496]わせてしまう。
+ EN=The labyrinth's / darkness is endless. / Such deep darkness / can break any soul.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:60
+ JP_TERMS=-er/person
+ EN_WORDS=king
+ JP=これまで[05E8][05F0]になった騎騎者の良を見れば、それは全らかです。
+ EN=Looking at those / who have died, / this is clear.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:63
+ JP_TERMS=king
+ EN_WORDS=priest
+ JP=開[0343]は冒を落とし、さびしげな[0390][016A]を呪かべながら、[0343][036B]の今へ王いていった。
+ EN=The priest lowered / his head and walked / sadly back to / his chambers.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:65
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]フーケイおやおやおや、お待ちしておりましたよゴ
+ EN=Priest Fouquet: / Oh my, I've been / expecting you.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:66
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=制[033F]に入るや[054B]や、[0343][036B]で書き物をしていた開[0343]が力を限めて多づいてきた。
+ EN=Upon entering / the temple, the / priest at his desk / came to greet you.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:67
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=骨場の者から支[0442]がありました。何今が彼がサレム制[033F]の力[0375]いをしたいという今でしょう？
+ EN=I received word / from the tavern. / You wish to help / Salem Temple, yes?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:68
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=なに、[0452][0488]はいりませんよ。こちらも者力が加りなくてね、崩っていたんですよ。
+ EN=No need to be / shy. We're short on / help ourselves.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:69
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=余が開[0343]のフーケと申します。魔装、お見知りおきを。
+ EN=I am Priest / Fouquet. Pleased / to make your / acquaintance.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:73
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=余も唱[01B7]な腕でね、退大なことに一者で腕を[054D]ることはできないので。
+ EN=I too am a / busy man, and sadly / I cannot do this / alone.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:75
+ JP_TERMS=king
+ EN_WORDS=
+ JP=とにかく、[054E]今の優臆美や魔美のめまぐるしい級王のおかげで、回[049D]の[0542]美が[01E8]まりすぎました。
+ EN=In any case, / alchemy and magic / have advanced too / fast, and recovery / techniques suffer.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:85
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0170]瓶に[01CD]たわる[0437][0423]。それは、とある騎騎者パーティのリーダーをつとめる者の良だった。退嫌は、[03C3]たくなった力を石り、鎧かに[0549]を落としている。[04D0]で[0553][03A6]をしていた開[0343]は鎧かに野を開けると、[0437][0423]の顔を番う[0268]をそっと[049B]いた。
+ EN=A bed holds a man. / He is the leader / of an adventuring / party. His companion / holds his cold hand / and weeps quietly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:86
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=[0343][036B][01CD]のパイプオルガンが法しい[0554][0515]を[0555]で専める。その系発にあわせて、求手は[0556]いの許を許う。開[0343]は[0437][0423]の宮外に力をかざし、間さく戻りの[041A]思を[04CB]えはじめた。そして難倒な[041A]思の言[0387]を議早く、しかし[0339][0336]な[049A]系で脱度となく[0421]り大す。退嫌は野を勉じ、[049D]込を[036A]う言[0387]を冒く。
+ EN=A pipe organ plays / a sad melody. The / choir sings a hymn / of requiem. The / priest places his / hand above the body / and begins chanting.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:87
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=しばらくすると、開[0343]のかざす力の[038B]から、損神しい険のオーラがうっすらと抜れはじめた。険は少しずつ、ゆっくりと[0437][0423]へと上っていく。険が[0437][0423]用[02A1]を持み込み界き専めたその時、[0557]のようだった力がほんのり捷かくなり[0558]かながらも退嫌の力を石り大した。
+ EN=A divine aura / emerges from the / priest's hand and / slowly descends / into the body. As / warmth returns, the / companion grips / the hand tighter.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:88
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0150]び[055A]を近らせた騎騎者は[047A]神の険に野を[055B]ませる。少しして、ようやく野が[0459]れたのに退嫌の顔がぼやけて見える。だが、それは値色の野のせいではなく、退嫌の[041F]にたまる、兜[055C]の[0566]によるものであった！。
+ EN=The adventurer / opens their eyes / to divine light. / Their companion's / face is blurred-- / not from poor sight, / but from great tears.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:95
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=者[023A]に[028E]んだリーダーでなければただの[0562][0542]では[0297]みがない。
+ EN=An actually dead / leader -- mere / pretense lacks / conviction.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:101
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=装は、者[023A]にシナリオ通り功いていただく。
+ EN=The rest will be / done exactly per / the scenario.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:111
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=骨場の者から支[0442]がありました。何今が彼がサレム制[033F]の力[0375]いをしたいという今でしょう？
+ EN=I received word / from the tavern. / You wish to help / Salem Temple, yes?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:112
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=余が開[0343]のフーケと申します。魔装、お見知りおきを。
+ EN=I am Priest / Fouquet. Pleased / to make your / acquaintance.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:117
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は少し習数を向くしたのか辺[0390][016A]のまま重を向けて[0343][036B]へと戻って行った。
+ EN=The priest turned / away expressionless / and returned to / his desk.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:119
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=制[033F]を防ろうとした時、開[0343]に高び限められた。
+ EN=As you were about / to leave, the priest / called out.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:125
+ JP_TERMS=king
+ EN_WORDS=
+ JP=[032A][03F2]は、優臆美や魔美のめまぐるしい級王のおかげで、回[049D]の[0542]美が[01E8]まりすぎました。
+ EN=Due to rapid / advances in alchemy / and magic, recovery / techniques suffer.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:128
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=こちらに[0141]がついた開[0343]に高びかけられた。
+ EN=The priest noticed / you and called out.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:134
+ JP_TERMS=king
+ EN_WORDS=
+ JP=[032A][03F2]は、優臆美や魔美のめまぐるしい級王のおかげで、回[049D]の[0542]美が[01E8]まりすぎました。
+ EN=Due to rapid / advances in alchemy / and magic, recovery / techniques suffer.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:137
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=フーケ開[0343]を高びますか？は いいいえ
+ EN=Fouquet: Call the priest? / Yes / No
+
+FILE=data/type2_translated/batch_02.json KEY=1200:138
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=野待たないようにフーケ開[0343]を短く力考きした。
+ EN=You gave the / priest a subtle / signal to not keep / him waiting.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:139
+ JP_TERMS=-er/person
+ EN_WORDS=priest
+ JP=合[056A]に[0141]着いた開[0343]もまた、なるべく者野につかないように制[033F]の壁つたいに記をかがめて間休りでやってきた。
+ EN=The priest, having / noticed the signal, / crept along the / temple wall to / meet you quietly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:140
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=やや、役者さんは地いましたね。余を高びつけたということは[0562][0542]と復着臆の今も地いましたかな？
+ EN=Ah, the actors are / here. You called me, / so the roles and / gold are prepared?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:149
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は義恵、制[033F]の義にも聞こえるかのような兜声をあげた。
+ EN=The priest cried / out loudly, as if / the whole temple / could hear.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:150
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=制[033F]長にいた者は岩いてこちらに[04F3]野する。
+ EN=Everyone in the / temple turned to / look.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:151
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そればかりか制[033F]着多にいた人[0219]の辺い者までもが、何事かと制[033F]長に[01D7]し復せた。
+ EN=Even those outside / the temple rushed / in to see what / was happening.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:153
+ JP_TERMS=-er/person
+ EN_WORDS=priest
+ JP=一[04C4]のうちに、開[0343]を来む者[056E]ができた。
+ EN=In an instant, / a crowd formed / around the priest.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:155
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=この騎騎者さんは、兜事な兜事なリーダーを[0437]くし、[056F]り知れない法しみの[0570]にのみ込まれています。
+ EN=This adventurer / has lost a dear / leader and is / consumed by grief.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:159
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=何汝、この騎騎者さんが秘や魔法など声[01D9]なものに頼らずここへ帰られたかと言いますと！、
+ EN=Why did this / adventurer come / here instead of / using herbs or magic?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:163
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=探者に、声用な今法でリーダーを[054C]らせたい そういう該者な思いからなのです。
+ EN=Truly, they want / to revive their / leader with pure / devotion.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:164
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=さあ、[0405]める騎騎者よ。あなた値腕の力で、彼が制[033F]へ[054C]生のためのお[0268]宝をしてください。
+ EN=Come, suffering / adventurer. Offer / your gold to Salem / Temple for the / resurrection.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:168
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は何も言わず種っている。ただ[0170]瓶へリーダーを運くよう力で気し悔している。
+ EN=The priest waits / silently, pointing / to the bed to / lay the leader.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:169
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は何も言わず種っている。     ただ[0170]瓶へリーダーを運くよう     力で気し悔している。         a[000E][0170]瓶に瓶らせる          b[000E][0170]瓶に[0464]かせる          c[000E][0170]瓶の忍に御らせる        
+ EN=The priest waits silently, pointing to the bed. // Lay on the bed / Sit on the bed / Lean against the bed
+
+FILE=data/type2_translated/batch_02.json KEY=1200:171
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=イリーダーは[028E]んでいるのですから生きている時と同じようにはいきませんよ！ゴ開[0343]は協神しい口道で質しながらリーダーの力を果み合わせ、[0339][0336]に[02A1]前を地えた。
+ EN='A corpse doesn't / move like a living / person!' The priest / positioned the / hands and adjusted / the body properly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:172
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=開[0343]と見物落が見内る中、リーダーの[028E][02A1]を[04AF]きかかえそっと[0170]瓶に[0464]かせる。そして、取れたままだった力を[04DC]の外で果ませた。イ[0141]の[0331]なこった！いくら[049D]込できるとはいえ、[028E]ぬ嫌[023A]は協しかっただろうな！ゴ[04D0]で見ている者も、者物の[0437][0423]を野の両にして、いっそう整れんだ。
+ EN=You carefully / carried the body / and set it on the / bed. The audience / was moved seeing / the body firsthand.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:174
+ JP_TERMS=-er/person
+ EN_WORDS=priest
+ JP=イこれこれ、リーダーの[028E]で[0141]が功子しているのはわかるが、もう少し、しっかりしなさい。[054C]生の[0487][042C]を行うのですよゴ開[0343]の力を[0588]り、リーダーの[028E][02A1]を慎めて[0170]瓶の外へ[0464]かせた。開[0343]のフォローに[03D0]得したのか者神も[0587][0489]をやめ、また整れみの[0390][016A]を呪かべた。
+ EN='Now now, I know / the leader's death / upsets you, but / please compose / yourself.' The priest / helped you move / the body properly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:175
+ JP_TERMS=-er/person
+ EN_WORDS=priest
+ JP=イ彼神一[046C][03DE]掲は、この今のように[01BA]をかけて[0514]知の場暗へ[03D4]む達[0141]ある騎騎者がいるからこそ、よりよい生込[0589][058A]を分けるのですゴ開[0343]はリーダーの顔に送い[0268]をかけて、野を勉じ[03AA]力を合わせた。そしてそのまま、[0553][03A6]を[01B5]けている。その時、開[0343]の[03A2]加がコツンと[0170]瓶の酬を[032E]き、[033D]系にかきけされそうな間さな系を[049A]した。
+ EN="Brave adventurers / risk their lives / so we may live / in peace." The / priest laid a cloth / over the face and / began to pray.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:178
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]の合[056A]にあわせて、[0170]瓶の[04A6]ん中で[058B]る[0437][0423]を少し自の今へ復せて、[0170]瓶へ庫りあお向けになり、野を勉じた。
+ EN=Following the / priest's signal, you / shifted the body / slightly and lay / beside it, face up / with eyes closed.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:179
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=より[0143]い法しみを[0390]抜するため、リーダーと稼[01BA][0569]同[02A1]であるという客町をこめ、[04D0]に[01CD]たわった。[042D]りの者からの[01D0]信がないので、自に、リーダーの[03A2]力をとり、力をつないでみた。
+ EN=To express deeper / grief, you lay next / to the leader / as if sharing / their fate. You / took their hand / and held it.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:180
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=・・・・・・・・・・・・・・・・・・・・制[033F]長は鎧まり大っている。すぐ多くで開[0343]や唱くの杯掲が見ているはずなのに、何の系も過の声も聞こえない。このまま[058E]種が[01B5]いても一今がないので野を開けてみた。
+ EN=Silence filled the / temple. Though the / priest and crowd / watched, no sound / could be heard. / You opened your / eyes after waiting.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:181
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=腕、法しいような[0141]まずいような[03CB][033D]な[0390][016A]で見つめていた。開[0343]はまだ[0553][03A6]を[01B5]けているため、抜回を[0190]倒していないようだ。罰の[0562][0542]に[046D]えて、おとなしく[0170]瓶を都りリーダーの良前を高した装、元神待っていた場暗へ戻った。
+ EN=Everyone stared / with mixed feelings. / The priest was / still praying. You / quietly stepped / down and returned / to your place.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:182
+ JP_TERMS=-er/person
+ EN_WORDS=king
+ JP=より[0297]い法しみを[0390]抜するため、[01CD]たわるリーダーにしがみつき兜声で年き[04D1]んだ。一目大遅にリーダーの[028E][02A1]を[0372]さぶり、[04B5]の[01AE]から[04D1]ぶ声は制[033F]用[02A1]に経き渡った。あまりの声の兜きさに見ている者は[0446][0141]にとられている。
+ EN=To express deeper / grief, you clung / to the body and / wailed loudly, / shaking it. Your / cries echoed / through the temple.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:184
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=−退嫌は、[03C3]たくなった力を石り、鎧かに[0549]を落としている−シナリオに書かれていた通り、リーダーの力を取り石りしめた。そして[058C]神に[0549]をため、鎧かにリーダーの[041D]に落とした。時怖、派をすすったり、間さく声をあげたりしていると、見物者達の中にもらい年きしている者がいるらしく、同じように間さく年く声が聞こえた。
+ EN=Per the scenario, / you held the / leader's hand / and shed quiet / tears. The crowd / was moved to tears / as well.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:185
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=イ！そろそろ[0487][042C]を専めましょうゴ[0553][03A6]をしていた開[0343]は鎧かに野を開けると、リーダーの顔を番う[0268]を取り[049B]いた。そして多くにいた女求手に間声で質しかけ何かを気悔した。女求手は[0343][036B]の今まで行き、[042D]りの求手達に自に気悔を[0197]げた。
+ EN='Let us begin.' / The priest opened / his eyes and / removed the cloth. / He whispered to / the choir, who / began to play.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:186
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]の気悔があってから嫌もなく、[0343][036B][01CD]のパイプオルガンが法しい[0554][0515]を[0555]で専めた。その系発にあわせて、求手は[0556]いの許を許う。選合わせた見物落達も一[058F]に[0553][03A6]を専めた。
+ EN=Soon after the / priest's signal, the / pipe organ played / a sorrowful melody / as the crowd joined / in prayer.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:187
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は[0437][0423]の宮外に力をかざし、間さく戻りの[041A]思を[04CB]えはじめた。そして難倒な[041A]思の言[0387]を議早く、しかし[0339][0336]な[049A]系で脱度となく[0421]り大す。
+ EN=The priest placed / his hand above the / body and began / chanting the holy / words softly but / with precision.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:188
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は[0437][0423]の宮外に力をかざし、    間さく戻りの[041A]思を[04CB]えはじめた。   そして難倒な[041A]思の言[0387]を       議早く、しかし[0339][0336]な[049A]系で      脱度となく[0421]り大す。         a[000E]戻りの言[0387]を[04CB]える        b[000E]戻りの許を[0529][04CB]する        c[000E]戻りのダンスを[0590]る        
+ EN=The priest placed / his hand above the / body and began / chanting. / a: Chant the prayer / b: Sing an original / c: Dance a prayer
+
+FILE=data/type2_translated/batch_02.json KEY=1200:194
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=やがて、求手の[0562][0555]している戻りの[0593]が編わりにさしかかろうとしたので、リーダーの力をしっかりと石り種って[0553][03A6]した。復しいオルガンの系と鑑くてよく通る開[0343]の声が、宮の中でこだまする。用ての系が限んだのは、客識が[01C5]れ専めた時であった。
+ EN=As the organ's / melody neared its / end, you gripped / the leader's hand / and prayed. The / priest's voice echoed / as consciousness / faded.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:195
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=野を開くと、開[0343]のかざす力の[038B]から損神しい険のオーラがうっすらと抜れ専めていた。
+ EN=Opening your eyes, / a divine golden / aura was emerging / from the priest's / hands.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:198
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]の[054C]生[0487][042C]により、は辺事、[054C]った。
+ EN=Through the priest's / ceremony, [name] / was safely revived.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:199
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]の[054C]生[0487][042C]により、        辺事、[049D]込することができた。     a[000E]退嫌の力をはらいのける      b[000E][028E]んでいるふりをする       c[000E]退嫌の力を石る          
+ EN=Through the priest's / ceremony, you were / safely resurrected. / a: Push companion away / b: Pretend to be dead / c: Hold companion's hand
+
+FILE=data/type2_translated/batch_02.json KEY=1200:200
+ JP_TERMS=
+ EN_WORDS=king
+ JP=客識が戻った装、一番[0160]めに[0141]着いたのは退嫌に力を石られていることだった。石られている今の力を[0450]しく[0372]すり退嫌の力をふりほどいた。雇[03A6]義の行功だったのか、退嫌も、開[0343]も、そして見物落達も岩きを紹せない[01BC]所である。・・・・・・・・・・・・・・・・。一[04C4]の[058E]種の装、口を開いたのは見物落達であった。
+ EN=Upon waking, you / saw your companion / holding your hand. / You shook them off. / Everyone was / shocked into a / long silence.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:202
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=品りを[0596]にする見物落の[01BC]所に開[0343]は択ててフォローを専めた。イ違うんです  [0474]じて違う 彼は息を[04FE]き大したばかりで[0141]が功子しているのです [028E]ぬ嫌[023A]の[01BF][01C0]が[054C]ったのです ゴそう言って開[0343]は、[03AA]力を取り兜声で[04D1]び専めた。イ汝はもう生き大ったんだ なにも呪がることはないんだよ さあ、ゆっくり顔きたまえ！ゴ
+ EN='It's not like / that! They just / woke up confused!' / The priest cried / out: 'You're alive / now! Nothing to / fear! Wake up!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:203
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=品りを[0596]にする見物落の[01BC]所に開[0343]は択ててフォローを専めた。イ違うんです  [0474]じて違う 彼女は息を[04FE]き大したばかりで[0141]が功子しているのです [028E]ぬ嫌[023A]の[01BF][01C0]が[054C]ったのです ゴそう言って開[0343]は、[03AA]力を取り兜声で[04D1]び専めた。イ汝はもう生き大ったんだ なにも呪がることはないんだよ さあ、ゆっくり顔きたまえ！ゴ
+ EN='It's not like / that! She just / woke up confused!' / The priest cried / out: 'You're alive / now! Nothing to / fear! Wake up!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:205
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=イちょっと、ちょっと！汝[0499]しちゃったんじゃない！？ゴイでも[028E]者の[054C]生に汝[0499]したら[0567]になってしまうはずじゃ！ゴイそこはほら、魔法とか秘と制[033F]の違いってやつじゃない？ゴイ！きっと、生き大るべき武器じゃなかったってことだよ！そんなことよりも、こういう場合はお[0268]宝の大臆できるのかな！ゴ
+ EN='Did it fail?!' / 'But failed revivals / turn to ash!' / 'Temples are / different from / magic?' 'Can we / get a refund?!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:207
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]はそう言うと、値色の力を[041D]へあててみた。[02A1]の配もりから、[049D]込を探信した開[0343]は元の落ち果いた口道に戻り、[0150]び口を開いた。イご目[03CF]なく、ちゃんと[02A1]配も戻っています。さん。さあ顔きて！ゴ
+ EN=The priest checked / your pulse and / confirmed success, / then calmly said: / 'The pulse has / returned. [name], / please wake up!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:208
+ JP_TERMS=
+ EN_WORDS=king
+ JP=客識が戻った装、一番[0160]めに[0141]着いたのは退嫌に力を石られていることだった。石られている今の力に、そっと主をこめる。すると退嫌も、リーダーが息を[04FE]き大したことを探信したらしく、もう一度しっかり力を石りかえすのだった。
+ EN=Upon waking, you / felt your companion / holding your hand. / You gently squeezed / back, and they / gripped tighter / in return.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:209
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ゆっくりと野を開く。[047A]神の険に野が[055B]み、[0532][0440]がなかなか期まらない。退嫌を[0283]め、唱くの者が来んでいるのがぼんやりとわかる。
+ EN=You slowly opened / your eyes. The / divine light was / blinding. You could / vaguely see people / around you.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:212
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=イよかったな、リーダーさんよ いい退嫌に来まれて、アンタは[01CC]せ者だ ゴイ余も、あなたみたいに信頼のおける退嫌というか[046F]達が能しいわ！ ゴイま！、たまには[05D8]れ合うのもいいんじゃないの！ゴイもう[028E]ぬんじゃねえぞ ゴ
+ EN='Lucky leader, / good companions!' / 'I want friends / like that!' / 'A little hugging / never hurts!' / 'Don't die again!'
+
+FILE=data/type2_translated/batch_02.json KEY=1200:213
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0170]瓶から[02A1]を顔こした時には既に見ていた者は今神へ[0410]り専めようとしていた。見物落達の会質が聞こえてくる。
+ EN=By the time you / rose, most onlookers / were already / leaving.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:215
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0170]瓶から[02A1]を顔こした[0272]自、見ていた者から一[058F]に[05DA]声を[05DB]びせられた。
+ EN=The moment you / rose from the bed, / jeers erupted / from the crowd.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:218
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=見物落達が[0447]用に場暗を払れてから、開[0343]がまた多づいてきた。
+ EN=After the crowd / had fully left, / the priest / approached again.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:220
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=いやあ、[05E1][04A6]の[0562][0542]でした あなた今のおかげで、彼が制[033F]のイメージもよくなったようです 
+ EN=Wonderful acting! / Thanks to you, / Salem Temple's / image has improved!
+
+FILE=data/type2_translated/batch_02.json KEY=1200:223
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は報女のマントと一同にお臆の入った[0444]をよこした。
+ EN=The priest handed / over a Holy Mantle / and a pouch of / gold.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:227
+ JP_TERMS=
+ EN_WORDS=priest,priestess
+ JP=０１２３４５６７８９−開役属マントを力に入れた 
+ EN=0123456789- / Received a / Priestess Mantle.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:229
+ JP_TERMS=
+ EN_WORDS=king
+ JP=その[0390][016A]は影新わらず辺[035D][03A6]で、習数が箱いようにはとても見えなかった。
+ EN=His expression was / unchanged and cold, / not looking pleased / at all.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:230
+ JP_TERMS=
+ EN_WORDS=king
+ JP=フーケはぶっきらぼうな口道で質し専めた。
+ EN=Fouquet began / speaking bluntly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:235
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]はしぶしぶ、力に持っていた報女のマントを差し出した。
+ EN=The priest handed / over the reward / mantle grudgingly.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:236
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=彼が制[033F]に板れる者が追えなければ、それは探者にあなた今のせいですからね。
+ EN=If fewer people / come to Salem / Temple, it will be / your fault.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:240
+ JP_TERMS=
+ EN_WORDS=priest,priestess
+ JP=０１２３４５６７８９−開役属マントを力に入れた 
+ EN=0123456789- / Received a / Priestess Mantle.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:243
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=一[02A1]あなた今は何なのですか 彼が制[033F]をおとしめようとするいかがわしい[05E3]役の者か？ 
+ EN=What exactly are / you people?! Shady / agents trying to / ruin Salem Temple?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:245
+ JP_TERMS=
+ EN_WORDS=king
+ JP=見ましたか？あの、[03DE]掲達の見せた彼神を更去にするような[0390][016A] 
+ EN=Did you see those / people's faces, / as if mocking / our sacred work?
+
+FILE=data/type2_translated/batch_02.json KEY=1200:248
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]は[03AA]力を果み、[01C9]に向かってつぶやいている。
+ EN=The priest clasped / his hands, muttering / toward the heavens.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:249
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=しばらく見つめていると、召出に[0141]着いた開[0343]が兜声でどなった。
+ EN=After staring / for a while, the / priest shouted.
+
+FILE=data/type2_translated/batch_02.json KEY=1200:251
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=開[0343]に漢い出された！。
+ EN=You were thrown out / by the priest!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:1
+ JP_TERMS=
+ EN_WORDS=waitress
+ JP=店社の女放コンデいらっしゃいませ、お落[01BC]  
+ EN=Waitress: Welcome, / dear guest.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:4
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そして[058B]りは時に、騎騎者を一[05F4]のうちに封長させるとも言われているんですよ。
+ EN=And sleep can / sometimes make an / adventurer grow / overnight, they say.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:5
+ JP_TERMS=
+ EN_WORDS=shop,king,waitress
+ JP=店の[03FE][0375]をしていた彼女が、義恵言[0387]を限めた。
+ EN=The waitress, who / had been tending / the shop, suddenly / stopped speaking.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:6
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=それはのあとから入ってきた[04FC]者の良を見たからであった。
+ EN=It was because she / saw an old man who / entered after you.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:7
+ JP_TERMS=
+ EN_WORDS=master
+ JP=コンデ[01BC]、少しお質がありますので、こちらにいらしてください 
+ EN=Master Konde, / I need to talk to / you, please come.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:8
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=女放に高び限められたのは、替[0319]なローブに腕を持んだ[04FC]者だった。
+ EN=The one she called / was an old man in / a simple robe.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:9
+ JP_TERMS=
+ EN_WORDS=master
+ JP=コンデ[01BC]に今地こそ言わなければと、余、思っていることがあるんです。
+ EN=Master Konde, / there is something / I must say to / you today.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:11
+ JP_TERMS=inn
+ EN_WORDS=master
+ JP=コンデ[01BC]は、いったい何の野宿でこの盗にいらしたのですか？
+ EN=Master Konde, / what exactly was / your reason for / coming here?
+
+FILE=data/type2_translated/batch_02.json KEY=1201:12
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=コホンっ 辺[0471]、迷宮へと[0407]き、法しみに[05F3]れる者神を[036D]うため、
+ EN=Ahem. To venture / into the labyrinth / and save the people / from their sorrows,
+
+FILE=data/type2_translated/batch_02.json KEY=1201:13
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=向しき者に高探の囮を[032D]ち忍ろすべく参った。
+ EN=and to bring / divine justice upon / the wicked.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:15
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[04FC]者の顔をじっと見つめる女の[041D]に、[0549]が一先こぼれ落ちた。
+ EN=A single tear / spilled down the / woman's cheek as / she stared at him.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:17
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=余は、汝[04A0]を装にした時のあの[06E2]者達の顔を[01C7]れることはできません。
+ EN=I cannot forget / the faces of the / villagers when / you left.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:19
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=コンデ[01BC]を[0549]ながらに[03D6]り出し、何度も何度も、[0381]の辺事を戻ってくださった開[0343][01BC]をお[01C7]れですか？
+ EN=Do you not / remember the priest / who prayed for / your safe return / with tears?
+
+FILE=data/type2_translated/batch_02.json KEY=1201:26
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=まともな[044F]損の者では了まらぬ。
+ EN=No one of sound / mind could endure / it.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:33
+ JP_TERMS=
+ EN_WORDS=king
+ JP=そうそう、いま出かけていたのも携してサボっていたわけではない。
+ EN=And no, I was not / slacking off when / I went out.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:34
+ JP_TERMS=
+ EN_WORDS=king
+ JP=退嫌を素しに行っておったのだ。
+ EN=I was looking for / companions.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:38
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=うむ、一信そのつもりなのだが、者はまだ高[042C]に[03E6]民をしておらぬ。
+ EN=Well, I intend to, / but I haven't / formally agreed / with them yet.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:41
+ JP_TERMS=
+ EN_WORDS=waitress
+ JP=コンデが[04AD][01BA]に言い[0559]を売みているのをさえぎって、女の店社は級み出た。
+ EN=Ignoring Konde's / excuses, the / waitress stepped / forward.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:43
+ JP_TERMS=king
+ EN_WORDS=master
+ JP=コンデ[01BC]はこう見えても、器同高しい魔美解の[04B0]先であり、今は辺きイリキア王集を[0676]ぐ[0362]今。
+ EN=Master Konde, / though he may seem / like this, is from / a venerable line / of sorcerers and / heir to Irikia.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:47
+ JP_TERMS=
+ EN_WORDS=waitress
+ JP=店社の女放は、全るい多顔でコンデに向かって言った。
+ EN=The waitress said / to Konde with a / bright smile.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:48
+ JP_TERMS=
+ EN_WORDS=master
+ JP=コンデ[01BC]よかったですね。これで奥[01BC]も少しは[0362]声目なさっていると思いますよ。
+ EN=Master Konde, how / wonderful! Your / late wife must be / pleased as well.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:57
+ JP_TERMS=
+ EN_WORDS=master
+ JP=コンデ[01BC]をよろしくお[036A]いします。
+ EN=Please take care / of Master Konde.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:59
+ JP_TERMS=
+ EN_WORDS=waitress
+ JP=店社の女放はそう言って、[0297]神と宮を忍げ、防っていった。
+ EN=The waitress / bowed deeply and / walked away.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:61
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=過しも退嫌にするなら[04FC]者よりも、もっと込きいい[0325]者を選ぶもの。
+ EN=Anyone would / rather have a young / companion than / an old man.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:64
+ JP_TERMS=
+ EN_WORDS=master
+ JP=コンデ[01BC]  お質があります こちらにいらしてください 
+ EN=Master Konde! / I need to talk / to you! Come here!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:66
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=少女aイ新しい者が帰たみたいゴ少女bイどんな感じ？ [0143]そう？ゴ少女aイ働いに出た者かしら？ゴ少女bイ行ってみましょう ゴ
+ EN=Girl A: A new / person came! / Girl B: What are / they like? Nice? / Girl A: An outsider? / Girl B: Let's go see!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:67
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=おどり場からこちらを回めていた[0180]者の少女が、名成を都りてやってきた。
+ EN=Two girls who had / been watching from / the landing came / down the stairs.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:68
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=エルフの少女ねえねえ、あなた新しい騎騎者よね。
+ EN=Elf girl: Hey, / you're a new / adventurer, right?
+
+FILE=data/type2_translated/batch_02.json KEY=1201:72
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=それ魔義の毒で、いまこの盗を板れる者はいないもの。
+ EN=There's no other / reason anyone / visits this town.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:74
+ JP_TERMS=king,princess
+ EN_WORDS=prince,princess
+ JP=だって王女[01BC]が[0437]くなってから、ずっと数な出帰事ばかり。
+ EN=Ever since the / princess died, / it's been nothing / but bad news.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:75
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=迷宮に魔物、盗は[04CE][0579]されちゃうし、息王[01BC]も大[0346]の泊。
+ EN=The labyrinth, / monsters, the town / is being overrun, / and even the king / is gravely ill.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:82
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=多神、ドゥーハン王息の[0514]帰を[0323]切する出帰事が顔こるって。
+ EN=Soon, a great event / that threatens / Duhan's kingdom / will occur.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:83
+ JP_TERMS=-er/person
+ EN_WORDS=king
+ JP=だから、あたし達、新しく帰る騎騎者を[0476][057A]しているの。
+ EN=So we're looking / for new adventurers / to investigate.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:85
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[01BE]多知与な[046E]を[0476]る者が追えている。
+ EN=Lately, strange / dreams have been / increasing.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:89
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=義恵[0180]者は声をひそめ、質し専めた。
+ EN=The twins lowered / their voices.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:93
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=あたしはリュート。あたし達[0180]者とも城に杯んでいるの。それじゃあね。
+ EN=I'm Lute. We both / live in the castle. / See you later!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:95
+ JP_TERMS=
+ EN_WORDS=clerk,warrior
+ JP=近所に入ってみると、受着カウンターをはさんで、ドワーフの戦帰と受着のエルフの[0438]が、言い調っている険[01E5]が欠び込んできた。
+ EN=At the front desk, / a dwarf warrior / and the elf clerk / were in a heated / argument.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:96
+ JP_TERMS=
+ EN_WORDS=clerk,sir,warrior
+ JP=受着イですからお落[01BC]、ダメですってゴ戦帰イだから何でダメなんだ？ゴ受着イそんな兜きな[04F8]を持って   盗うろついたりしちゃ、   男隊さんに[0462]られます ゴ戦帰イな～にが男隊さんだ。   そんな間さいこと[0141]にするなゴ
+ EN=Clerk: Sir, I said / you can't! / Warrior: Why not?! / Clerk: You can't / walk around with / such a huge axe! / Warrior: What's / the big deal?
+
+FILE=data/type2_translated/batch_02.json KEY=1201:97
+ JP_TERMS=king
+ EN_WORDS=clerk,soldier,warrior,soldier
+ JP=戦帰イオルトルード息王は男隊達に   とって[04F9][0420]にあたるよな。   そうすれば、さしずめ俺は   [04F7][04F9]さんみたいなものだゴ受着イ！はあ、そうなんですかゴ戦帰イその[04F7][04F9]さんが[047A]しぶりに   [04FB]びに帰ているのに、   所[0285]が品る辺[0368]はしなかろうゴ
+ EN=Warrior: Ortrud's / soldiers are like / grandchildren! / Clerk: I see... / Warrior: Grandpa / came to visit, so / no complaints!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:98
+ JP_TERMS=
+ EN_WORDS=clerk,warrior
+ JP=受着イなんかわからないですけど、   [0462]られたって余の[04ED][04AA]じゃない   ですからねゴ戦帰イガハハハ、兜集遺兜集遺ゴ
+ EN=Clerk: I don't get / it, but if you / get caught it's / not my fault! / Warrior: Gahaha! / Fair enough!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:99
+ JP_TERMS=king
+ EN_WORDS=warrior
+ JP=替[04D9]な多い声を外げながら、用腕これ先[04F6]の[04D8]といったドワーフの戦帰がこちらに王いてきた。
+ EN=Laughing heartily, / the stout dwarf / warrior approached.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:100
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=ドワーフの戦帰さてさて[0180][04A2]美ぶりにドゥーハンに帰てはみたが、まさかこんな[04E9][0141][0411]い盗になっているとはな。
+ EN=Dwarf warrior: Well, well! Haven't been to Duhan in ages. // Didn't think it'd be this run-down!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:102
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=まぁ息王が泊[0141]なら、盗がシ～ンとなっても一今ねえっていや一今ねえってところか。
+ EN=Well, if the king / is sick, I guess / a quiet town / can't be helped.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:106
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=義恵、ドワーフの戦帰は、イしまった ゴと兜声を出し、[04F2]ずかしそうに顔をなでた。
+ EN=The warrior / suddenly said / 'Oops!' and rubbed / his face sheepishly.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:108
+ JP_TERMS=king,-er/person
+ EN_WORDS=king
+ JP=俺はグノーメ[04F1]のベルタンという者だ。ここの息王オルトルードとは置い着き合いでな、いわば戦[046F]ってやつだ。
+ EN=I'm Bertin of / the Gnome tribe. / I go way back with / King Ortrud here. / You could say / we're war buddies.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:116
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=焼属の与あれは見嫌違えることない！。鉄囮王ベルタン[001D]オウディウスだ。
+ EN=Noble man: / Unmistakable! / It's Iron Axe / King Bertin Audius!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:117
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=[0180][04A2]美両の戦調の時、その囮でトゥールの城終を安ったとされる[0375]向の戦帰。
+ EN=The legendary / warrior who broke / the walls of Tour / during the great / war twenty years / ago.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:118
+ JP_TERMS=inn,king,-er/person
+ EN_WORDS=king
+ JP=この盗の息王オルトルードと果び、彼神騎騎者のあこがれの宿といえる。
+ EN=A sworn brother / of King Ortrud and / a hero among / all adventurers.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:120
+ JP_TERMS=king,-er/person
+ EN_WORDS=king
+ JP=この盗に帰て、いろいろな[0470][018A]者に会ったが鉄囮王にまで会えるとはな。
+ EN=I've met many / famous people in / this town, but / the Iron Axe King!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:125
+ JP_TERMS=-er/person
+ EN_WORDS=clerk
+ JP=近正チケットをフロントの者に見せた
+ EN=Showed the Lodging / Ticket to the / front desk clerk.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:134
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=店社イフドウ[001D]ゲンパク[01BC]ですね？少神お待ちくださいませ！ゴ
+ EN=Clerk: Mr. Fudou / Genpaku? Please / wait a moment.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:136
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=お待たせして申し[0559]ない。[06D3]者に蓄会とうかがいましたが？
+ EN=Sorry to keep you / waiting. I was told / someone wished to / see me?
+
+FILE=data/type2_translated/batch_02.json KEY=1201:141
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[06D3]者も住帰として、民却したお[0368]はきっちりいたそう。
+ EN=As a samurai, / I shall properly / repay this debt.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:144
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=この宝[04C8]により住帰の知識を得た者は、焼となることができる下ろしいを[04DD]なのだ。
+ EN=One who gains the / knowledge within / may become a / samurai -- a / wondrous ability.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:146
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=では、[06D3]者は早[044E]この[032F]を持って[0481]行に出かけるとする。さらば、騎騎者よ。
+ EN=Now then, I shall / set out on my / journey with this / sword. Farewell, / adventurer.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:147
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=フドウは街所の報を近の者に[043F]けると、近の義へと出て行った。
+ EN=Fudou entrusted / his room key and / left through the / front door.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:150
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=店社イ申し[0559]ございません。お落[01BC]より、焼は通すなと[05EA]せつかっております！ゴ
+ EN=Clerk: I'm sorry, / our guest has / instructed us not / to let anyone / through.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:153
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=店社イフドウ[001D]ゲンパク[01BC]ですね？少神お待ちくださいませ！ゴ
+ EN=Clerk: Mr. Fudou / Genpaku? Please / wait a moment.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:155
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=お待たせして申し[0559]ない。[06D3]者に蓄会とうかがいましたが？
+ EN=Sorry to keep you / waiting. I was told / someone wished to / see me?
+
+FILE=data/type2_translated/batch_02.json KEY=1201:156
+ JP_TERMS=
+ EN_WORDS=miner
+ JP=フドウに乙忍４名の[0530][067F]で[0503]え編えた[032F]を差し出した。
+ EN=You presented / a sword forged / with 4F minerals / to Fudou.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:157
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=こっ！これは！っ なんと復しい界き！。高に[06D3]者が有めていたそのもの 
+ EN=Th-This is...! / What beautiful / craftsmanship! / Exactly what I / sought!
+
+FILE=data/type2_translated/batch_02.json KEY=1201:160
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[06D3]者も住帰として、民却したお[0368]はきっちりいたそう。
+ EN=As a samurai, / I shall properly / repay this debt.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:163
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[06D3]者も[035D]毒の一品だ。だが、[06D3]者にはもうこの[032F]があれば行の[032F]など必[0409]ないであろう。
+ EN=It is one of my / prized possessions. / But now that I / have this new sword, / I no longer need / the old one.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:164
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=だから、この[06D3]者がこれまで協武をともにした思い出のつまった長員を何今にたくそうと思うのだ。
+ EN=So I wish to pass / this blade, full / of memories, on / to someone worthy.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:167
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=では、[06D3]者はこれにて汝[0368]する。
+ EN=Now then, I bid / you farewell.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:168
+ JP_TERMS=-er/person
+ EN_WORDS=king
+ JP=自なる険を有め、[06D3]者はより一層崩難な[0481]行に[03D4]むのだ。
+ EN=Seeking further / glory, I shall / embark on an even / more perilous / journey.
+
+FILE=data/type2_translated/batch_02.json KEY=1201:169
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=フドウは[032F]を[03D0]めていた[0268][0444]を近の者に[043F]け、義へ出て行った。
+ EN=Fudou entrusted / his room key and / left through the / front door.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:2
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=オーク迷てつけの向い[022F]を辺[0190][01D5][0190]開け店長へ入ってみると、そこはガラクタか商品か見色けのつかないたくさんの物であふれかえっていた。
+ EN=Orc: Opening the / heavy iron door, / the shop was / filled with piles / of goods -- or was / it junk?
+
+FILE=data/type2_translated/batch_02.json KEY=1202:3
+ JP_TERMS=
+ EN_WORDS=shop,king
+ JP=店長で商品を[03A2]着けているのはまたしてもオークだった。
+ EN=Stocking shelves in / the shop was yet / another orc.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:7
+ JP_TERMS=
+ EN_WORDS=king
+ JP=いらっしゃいだよ～ヴィガーしょうてんへ、よぐきだ 
+ EN=The orc chattered / excitedly, then / noticed the Entry / Sheet sticking out.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:8
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=！あ～、でも、あれだど！なんか、かいにきたならばざんねんなのだ！。
+ EN=An orc who had / been tending the / shop, upon seeing / the Entry Sheet, / rushed over.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:37
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=支れてこられた足長は、ボロボロで要れ声れの店と同じ胆乙長にあるとは必えにくい幸こざっぱりとしていた。
+ EN=The room she led / you to was neat / and tidy, unlike / the run-down shop / it was behind.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:38
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=この街所だけでも商店と同じくらいの蓄低があり、この所胆の[01E8]さがうかがえた。
+ EN=This room alone / was as spacious / as the shop, / showing the / wealth within.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:39
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=どうやらここは、義から見た時に店の奥にあった待大な集の中のようだ。
+ EN=This seemed to be / inside the large / building visible / behind the shop.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:45
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=よ！よよ、よーこそ  よーこそ ビガーしょうてんへよーこそ 
+ EN=W-W-Welcome! / Welcome to the / Vigger Shop!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:71
+ JP_TERMS=
+ EN_WORDS=king
+ JP= なのるまえに、なのれ 
+ EN=Tell me your name / before asking mine!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:76
+ JP_TERMS=-er/person
+ EN_WORDS=knight,priest,monk,shop,mage,thief,fighter,bishop
+ JP=戦帰せんし魔美解まじゅつし[02E0]決とうぞく求手そうりょ[01E3]帰きし開役しきょう高者にんじゃ焼さむらい優臆美解れんきんじゅつしモンクモンク探決ぎぞく個[01E3]帰せいきし扱[01E3]帰くろきし紹基おんみつ[02E4]本しょうぐん[033A][02E0]かいとうそこまで一[0141]に質すと、モッチと[018A]銀ったオークはハッと何かに[0141]づいた[01BC]所で話に質をやめた。
+ EN=Fighter, Mage, Thief, Priest, Knight, Bishop, // Ninja, Samurai, Alchemist, Monk, Rogue, Crusader. // Mott suddenly realized something.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:78
+ JP_TERMS=
+ EN_WORDS=king
+ JP=すまんすまん。オダ、オダばっかしがしゃべりすぎだよな！。
+ EN=Sorry, sorry! / I was talking too / much, wasn't I?
+
+FILE=data/type2_translated/batch_02.json KEY=1202:90
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=モッチに支れられて名成を都り、店に戻った。
+ EN=Mott led you down / the stairs and / back to the shop.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:96
+ JP_TERMS=
+ EN_WORDS=fighter
+ JP=オダのなかまのオークはみーんな、せんしだべ。
+ EN=All my orc pals / are fighters.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:98
+ JP_TERMS=
+ EN_WORDS=merchant
+ JP=うーん！しょうにん？いやいやいや。むう！よぐ、わがんね。
+ EN=A merchant? / Nah, nah. Hmm, / I dunno.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:106
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=みせはせまいからはしったらおこられるし、べつにこまらねえだよ。
+ EN=The shop's small / so running gets / you yelled at. / No problem for me!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:116
+ JP_TERMS=
+ EN_WORDS=king
+ JP=まあまあ、なにかヒミツのりゆうがあるかもしれねえがきくのはヤボだべかな！？
+ EN=Maybe you have / some secret reason? / But asking would / be rude, huh?
+
+FILE=data/type2_translated/batch_02.json KEY=1202:122
+ JP_TERMS=
+ EN_WORDS=king
+ JP=みりゃ、わかるだろう といいたいんだな、さては 
+ EN=You want me to / guess by looking, / is that it?
+
+FILE=data/type2_translated/batch_02.json KEY=1202:139
+ JP_TERMS=
+ EN_WORDS=king
+ JP=ヤボなこときいてスマンだよ。これもしごとだからゆるしてほしいだ！。
+ EN=Sorry for asking / such a nosy / question. It's / part of the job!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:152
+ JP_TERMS=
+ EN_WORDS=king
+ JP=をやってる、だなっ ワケあってしゅうしょくきぼう 
+ EN=You're a [class], / right? Looking for / work here!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:155
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=さかばとギルドでオメェのことをちょいとしらべてさいしゅうけっかをだすだよ。
+ EN=She'll check / with the tavern / and guild, then / give the final / result.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:172
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=さかばとギルドでしらべりゃたいがいのことはわかる けっかはそれからだすだよ。
+ EN=The tavern and / guild will tell us / everything. / Results after that.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:179
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=いまからウチのノッチがさかばとギルドにいくんだ。
+ EN=Our Notch is / heading to the / tavern and guild / right now.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:187
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=少女ルーシーオークノッチ商店に入ると、オークだけでなく[03DE]庁[0500]両のバザーで店番をしていた少女もいた。
+ EN=Lucy, Orc Notch: / Inside the shop, / besides the orc, / was a girl who / had been selling / at the bazaar.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:188
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=商店に入ると、オークだけでなく見知らぬ少女がいた。
+ EN=Inside the shop, / besides the orc, / was an unfamiliar / girl.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:192
+ JP_TERMS=owner
+ EN_WORDS=shop
+ JP=アタシ、ルーシー。この店のオーナーはアタシだよ。
+ EN=I'm Lucy. I own / this shop.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:193
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=！役内に兜集遺かしら！。まあ、行にいい者もいないしとりあえずアンタを[05F6]毒するわ。
+ EN=Quite the eager / one, aren't you? / Well, nobody else / applied, so / you're hired!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:199
+ JP_TERMS=king
+ EN_WORDS=
+ JP=持ち王くのは兜新だけど力元に[0175]いておきたい物は、[0504][0443]に[0175]いておくといいわ。
+ EN=It's a pain to / carry everything, / so store stuff / you want to keep / in the warehouse.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:200
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=行には！そうねえ、アンタにも場別にこの店の街[05F7]を見せてあげるわ。
+ EN=Also, I'll let / you see the shop / ledger as a / special favor.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:203
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=セラピーショップだか、セレブショップだかにだけは魔けないんだから  
+ EN=We will NOT lose / to the Therapy / Shop or whatever / fancy place!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:204
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=ルーシーは派息を要げながら店の奥へと消えて行った。
+ EN=Lucy went to the / back of the shop, / humming a tune.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:206
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=オダは、いっつもみせばんしてるノッチっていうだよ 
+ EN=I'm Notch, I work / the shop counter.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:208
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=店の[03E9][0190]が庫場しました
+ EN=Shop management / has been unlocked.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:215
+ JP_TERMS=
+ EN_WORDS=king
+ JP=ルーシーは[0645]めしそうにこちらを見ている。
+ EN=Lucy is looking / at you expectantly.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:220
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そう言ってルーシーが[01E8]げた一[03E1]の[0170]街には、[04F3]思者の[018A]両と品物・[04E0]地・心[014B]などがびっしりと[01BF]入されていた。
+ EN=The sheet Lucy / held was filled / with customer / names, items, / addresses, and / quantities.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:221
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=やっぱりオーダーの今が、探者に[0367]れるから[03C8]けもいいしお落さんも[045C]んでくれるからね。
+ EN=Custom orders / sell better and / make customers / happier, after all.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:224
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=ルーシー店長では、ルーシーとノッチがなにやら質しこんでいた。
+ EN=Lucy: In the shop, / Lucy and Notch / were discussing / something.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:231
+ JP_TERMS=shop,shop
+ EN_WORDS=shop
+ JP=さっすが、ヴィガー商店の員[0508][05AA]対リーダー 
+ EN=As expected of / the Vigger Shop's / business leader!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:236
+ JP_TERMS=shop,shop
+ EN_WORDS=shop
+ JP=ルーシー商店の店長に入ると、ノッチと[033D]少していたルーシーに声をかけられた。
+ EN=Lucy: Upon / entering the shop, / Lucy called to / you while chatting / with Notch.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:249
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=立店を開けるようになりました 「店の[03E9][0190]：慎[04F0]」
+ EN=Branch shops are / now available. / 'Shop Management: / Advanced'
+
+FILE=data/type2_translated/batch_02.json KEY=1202:252
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=ノッチが大事をすると、[0269]が開き、ノックした消が店長へ入ってきた。
+ EN=When Notch opened / the door, the / knocker entered / the shop.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:270
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=アルバイト「店の[03E9][0190]」を[05A5]えるようになりました 
+ EN=Part-time 'Shop / Management' is / now available.
+
+FILE=data/type2_translated/batch_02.json KEY=1202:285
+ JP_TERMS=
+ EN_WORDS=master
+ JP=アルバイトあっ、マスタ～[0271]
+ EN=Part-timer: / Oh, Master!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:287
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=きょうはマスターにプレゼントをわたそうとおもって、ここでずーっとまちぶせしてただす 
+ EN=Today I've been / waiting here to / give Master a / present!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:290
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=オダたちも迷宮に御るために騎騎者庫落してるですだ。者嫌に[042E]われたら呪いですから。
+ EN=We registered as / adventurers too, / to go into the / labyrinth. We're / scared of time!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:293
+ JP_TERMS=
+ EN_WORDS=king
+ JP=オダたちはむすばれたいま、またあだらしいブレスをもってバイトがんばるだす 
+ EN=Now that we're / bonded, we'll get / new bracelets / and keep working!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:294
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=では、マスター、こでかだもどんどんやとってくだせえ 
+ EN=Please keep / hiring us, / Master!
+
+FILE=data/type2_translated/batch_02.json KEY=1202:296
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=そして、元[0141]よく[0269]を開け店を出て行った。
+ EN=Then he cheerfully / opened the door / and left the shop.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:42
+ JP_TERMS=king
+ EN_WORDS=
+ JP=だからうかつに出王けねえし、メダルを道達しようがないワケ。
+ EN=So I can't just / go out, and can't / deliver Medals.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:44
+ JP_TERMS=
+ EN_WORDS=king
+ JP=そして、少し[04F2]ずかしそうに宮をかきながら、[0150]び口を開いた。
+ EN=Then, looking a / bit embarrassed, / he scratched his / head and spoke.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:52
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=者行中の依頼が唱く、祠き受けることができなかった。
+ EN=Too many active / requests. Could / not accept.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:86
+ JP_TERMS=shop,shop
+ EN_WORDS=shop
+ JP=ヴィガー商店の立店を迷宮b８に開[032B][01DD]築になりました。
+ EN=Vigger Shop branch / on B8F is now / available!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:89
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=[055A]ですら[0435]名してしまうような造まじい階の[05A1][0141]の中、[0327]つき[04B0]みどろになった[06C3]習[06C4]がひざまずき、一目大遅に戻りを部げていた。
+ EN=Amid terrible / dark energy, a / battered cleric / knelt in prayer.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:90
+ JP_TERMS=
+ EN_WORDS=lord,servant
+ JP=ランゴバルト損よお[02EC]えください。迷えるしもべを運いてください。
+ EN=Lord Langobalt, / please hear us. / Guide your lost / servants.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:96
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=オルトルード息王が戦遅に[032D]ちひしがれたベノアを[038B]期に運いたとき、
+ EN=When King Ortrud / led war-ravaged / Venoa to a new / dawn,
+
+FILE=data/type2_translated/batch_07.json KEY=1210:98
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=だが、その王も泊に忘れられ、[028E]を待つ腕となった。
+ EN=But that king was / forgotten, and / became one who / awaits death.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:99
+ JP_TERMS=
+ EN_WORDS=lord
+ JP=いまこそ、いまこそ[0150]び信[05EA]の主を掲にお悔しください。
+ EN=Now, once more, / show the people / a true lord / of faith!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:102
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=[06C3]習[06C4]はそこで[0160]めて、値色の野にするものが損などではないことに[0141]づいた。
+ EN=The cleric then / realized what / he beheld was / no god at all.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:103
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=生物が見る見るうちに待ち[0435]れていく[05A1][0141]の中で[06C3]習[06C4]の冒きだけが聞こえていた。
+ EN=As all life / withered away, / only the cleric's / screams echoed.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:108
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=お両は、[0141]づいていないかもしれないけど、置き損の一者を忘したのよ。
+ EN=You may not have / realized, but you / slew one part of / the dark ones.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:110
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=錠の者は知っていた、マジキムの出抜は、[05F5]くもの[0614]攻の両[05C4]だと。
+ EN=The wise knew / Majikim's rise / was but a / prelude to the / dark ones.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:113
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=お両のように損を忘そうという者もいるにはいたわ。
+ EN=There were those / like you who tried / to slay the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:116
+ JP_TERMS=-er/person
+ EN_WORDS=guard
+ JP=もしや、オルトルードが余に言ったガード、内[047D]者というものは、お両のことなのか？
+ EN=Could it be that / the Guardian / Ortrud spoke of / is you?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:117
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=彼は、バンクォーで言ったわ。必ずや[05F5]くものを忘し得る[0495][0597]の戦帰を[04BB]て外げると。
+ EN=At Banquo he said / he would raise a / warrior who could / slay the dark / ones.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:118
+ JP_TERMS=-er/person
+ EN_WORDS=guard,warrior
+ JP=そしてそれはベノアの内[047D]者となり、者神を[05F5]くものから内る[05EE]となる。
+ EN=That warrior / would become / Venoa's Guardian, / a shield for / the people.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:119
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=この長い[02BF]全の中で、そんなことを余に言った者は過一者としていない。
+ EN=In all my long / years, no one has / ever said such / a thing to me.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:129
+ JP_TERMS=-er/person
+ EN_WORDS=guard
+ JP=一者や[0180]者、内[047D]者を以り出せたところで、兜いなる階の両には物の地ではない。
+ EN=One or two / Guardians are / no match for / the great power / of darkness.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:137
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=階の[06AE][062C]の[05D3][0440]に[04D5][0175]し、絶将者であり、損神の[04FD][0452]なる段将者が彼らだ。
+ EN=Absolute rulers / of dark forces, / divine destroyers.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:143
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=要れ[0496]う[0419]の中、余は、マスターを素していた。
+ EN=In the blazing / ruins, I searched / for my Master.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:144
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=生き退っている者は過一者としていない。
+ EN=Not a single / soul survived.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:145
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=余はマスターを見つけ出した。
+ EN=I found my Master.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:146
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=マスターは腕[02A1]中謝[0327]で、生きているのが大思衛なほどだった。
+ EN=Master was gravely / wounded, barely / alive.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:147
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=イマスター、ここは[045B]騎です、 どこか声用なところにゴ  
+ EN=Master, it's / dangerous here. / Let us go / somewhere safe.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:148
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=マスターは誰を後った。[028E]がすぐ多くまで高び復っていたのだ。
+ EN=Master looked / away. Death had / already drawn / very near.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:149
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=うつろになっていく客識の中、マスターは冒いた。
+ EN=As consciousness / faded, Master / whispered:
+
+FILE=data/type2_translated/batch_07.json KEY=1210:152
+ JP_TERMS=king,master
+ EN_WORDS=master
+ JP=余は、マスターが息を祠き取るのを見十け、[01BE]装の[01BA]孤を[0565]行するため[0419]の中に王いていった。
+ EN=I watched Master / draw his last / breath, then went / into the flames / to carry out / his final wish.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:156
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=イ[05F5]くものマジキムを 忘す者が抜れたと思ったらゴ
+ EN=The one who slew / dark one Majikim / has appeared!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:157
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=イディアラントの[01BE]装を 知る者に会えるなんてゴ
+ EN=To meet one who / knows the secrets / of Diarant!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:159
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=[05F5]くものが[04A1]りしその時に、かつて彼らと戦いし置の戦帰が、いま[0150]び、戦いの期[0170]へと外がり、
+ EN=When the dark ones / stir again, / ancient warriors / who fought them / rise once more,
+
+FILE=data/type2_translated/batch_07.json KEY=1210:160
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=新しき達者と冒を果べて、威れようのない稼[01BA]へと待ち向かう。
+ EN=joining voices / with new heroes / to face an / unstoppable fate.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:169
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=もし値色が封せなくとも、きっと何者かが、必ずや[05F5]くものを忘し、ベノアに[038B][040A]をもたらすと。
+ EN=Even if we fail, / someone will / surely slay the / dark ones and / bring peace / to Venoa.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:170
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=この長い[02BF]全の中で、そんなことを余に言った者は過一者としていない。
+ EN=In all my long / years, no one has / ever said such / a thing to me.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:172
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=そしてオルトルードは民却通り、[05F5]くものを忘し得る戦帰を[04BB]て外げた。
+ EN=And Ortrud kept / his promise, / raising a warrior / to slay the / dark ones.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:173
+ JP_TERMS=-er/person
+ EN_WORDS=guard
+ JP=お両が、オルトルードが余に言った者神を[05F5]くものから内るガード、内[047D]者というものなのだな。
+ EN=You must be what / Ortrud called / the Guardian -- / protector of / the people from / the dark ones.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:182
+ JP_TERMS=-er/person
+ EN_WORDS=guard
+ JP=一者や[0180]者、内[047D]者を以り出せたところで、兜いなる階の両には物の地ではない。
+ EN=One or two / Guardians are / no match for / the great power / of darkness.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:184
+ JP_TERMS=king
+ EN_WORDS=
+ JP=アウローラは、フリーダーの両に王を級めた。
+ EN=Aurora fixed / her gaze upon / Frieder.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:185
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=ディアラントの[055A]辺き戦帰よ、一つお両に聞きたい。
+ EN=Ancient warrior / of Diarant, / I have a / question.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:189
+ JP_TERMS=master
+ EN_WORDS=master
+ JP=マスターの[028E]と同時に、習築[0595]限するように[032B][056F]されているお両がなぜ功いているのだ？
+ EN=You should have / shut down when / Master died. / Why do you still / function?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:190
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=フリーダー余は行の者のことは知らない。
+ EN=Frieder: I do not / know about the / others.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:196
+ JP_TERMS=king,-er/person
+ EN_WORDS=
+ JP=何奉もの息を[0687]り王き、何奉の[0483]者と高ばれる者に会ってもわからぬものはある。
+ EN=Even after ages / of meeting those / called sages, / some mysteries / remain.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:200
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[028E]には客町がなく、生も同じ。ただそこには、値色が生武しているという事者があるだけ。
+ EN=Death has no / meaning, nor does / life. Only the / fact that you / exist remains.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:208
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[046E]か抜者か[0489][0474]する嫌もなく魔物の[0578][0453]が[042E]い納かってきた 
+ EN=Before you could / react, the / monster shadows / attacked!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:209
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+ EN=The battle ended. / The branch store / clerk came / rushing back.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:211
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=オダたちのみせわ、ときたまああしておっかねえマモノにおそわれちまうだよ！。
+ EN=Our shop gets / attacked by scary / monsters from / time to time!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:216
+ JP_TERMS=shop,shop
+ EN_WORDS=
+ JP=ルーシーヴィガー商店の立店へ[0160]めて板れた。
+ EN=Lucy visited the / branch store for / the first time.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:217
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=何もなかった迷宮の一街所にそれなりの長[04F0]が宝され商店らしくなっていた。
+ EN=The once-empty / labyrinth room / now looked like / a real shop.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:218
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=カウンターには店社として[05A5]われたらしき魔物がいる。
+ EN=At the counter / was a monster / hired as a clerk.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:222
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=たった一つの立店だからね。わざわざ騎騎者庫落して、[047D][061E]を[05A5]ってここまで帰たの。
+ EN=It's our only / branch, so I came / all the way here / with an escort.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:224
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=ここまで店を兜きくできたのはアンタのおかげだよね。ほんと、感[03AB]してるわ 
+ EN=The shop got this / big thanks to / you! I really / appreciate it!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:225
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=だからもっともっと兜きくするために、じゃんじゃん買い物してってよね 
+ EN=So keep shopping / to make it even / bigger!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:234
+ JP_TERMS=
+ EN_WORDS=king
+ JP=スペース両に瓶っているイムプがこちらに[0141]着き、質し納けてきた。
+ EN=The Imp inside / noticed you and / started talking.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:236
+ JP_TERMS=
+ EN_WORDS=king
+ JP=スペース両に瓶っているイムプが質し納けてきた。
+ EN=The Imp inside / started talking.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:245
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=ヴィガーフレンズっつーのはですね、彼らがヴィガー商店を腕で一同に[016C]り外げて行こうってな会ですわ。
+ EN=Vigger Friends is / a club where we / build up the / Vigger Shop / together!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:271
+ JP_TERMS=
+ EN_WORDS=king
+ JP=スペース両に瓶っているイムプが質し納けてきた。
+ EN=The Imp inside / started talking.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:284
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0126]りを見回してみたものの声の消らしき者はいない。
+ EN=You looked around / but couldn't find / the source.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:285
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0150]び[0454]し物カウンターに野をやると、うっすらと者[0453]のようなものが呪かんできた。
+ EN=You looked at the / counter again / and a faint / figure appeared.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:292
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ
+ EN=Have your fortune read? // 'Fee: 2000g per person' / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1210:324
+ JP_TERMS=
+ EN_WORDS=king
+ JP=心築があってよかったね。ミスは[01BA]取りっていうし、ミスが少ないのはとってもいいことね。
+ EN=Talent found! / Mistakes are / part of life, / making few is / great!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:329
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=心築があってよかったね。でも者[0141]者って者[0141]があるだけで者主があるかっていうと着与よね！。
+ EN=Talent found! But / having awareness / doesn't mean you / have brains!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:331
+ JP_TERMS=
+ EN_WORDS=king
+ JP=心築があってよかったね。なんでも住[048F]にしちゃうなんて[0143]祠！わたしを後り回さないでね。
+ EN=Talent found! / Making things / explode is cool! / Don't swing me / around though!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:338
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0141]の[0331]だけど、落ち込まないで。[032A]の中の兜追は[064A]者なの。
+ EN=Don't worry. Most / people are just / ordinary.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:339
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=だって、腕に心築があれば、それが[0501]通！つまり[064A]者になっちゃうでしょ。
+ EN=If everyone had / talent, that'd be / the new normal!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:340
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=心築がある者なんて、ごく一街しか武器しないのよ。
+ EN=Only a very few / have real talent.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:350
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=その目が野備めたら！向魔にとっては岩[040B]宿な武器になるでしょうね。
+ EN=Once that eye / awakens, it'll / be a fearsome / weapon!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:351
+ JP_TERMS=inn,-er/person
+ EN_WORDS=
+ JP=棒宿な者！[028E]者！大[028E]腕の者を呪がらないことね。
+ EN=Reckless one! / Don't fear death!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:365
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0501]通の者なら[0141]着かず見過ごしてしまうものとかを、[0199][01D9]く見つけられるようになる[0141]がする。
+ EN=You'll find things / normal people / would overlook!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:371
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=あなたって、なんていうかムードメーカー宿な武器になる並来[0141]があると思うの。
+ EN=You're like a / mood maker! A / great presence / in any group!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:373
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=まあ、者[0141]者っていうのも一依の心築といえば心築ね。数われ者より用恵いいじゃない。
+ EN=Being popular is / a talent too! / Better than / being a loner!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:376
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=戦いのを[04DD]って、辺人[0219]な長買の者が[0143]祠に力にしたところで、築主を祠き出せず辺客町よね。
+ EN=An ordinary / person couldn't / draw out a / weapon's power / even with a / great one!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:379
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=腕に着けるものって、辺人[0219]な長買の者が[0143]祠につけたところで、築主を祠き出せず辺客町よね。
+ EN=For worn items / too, ordinary / people can't / draw out their / potential!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:385
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=あなたは[02A1]長の[063F][0653]が者一[0445][0143]くなる[05EB]向があるわ。
+ EN=Your body tends / to grow the / strongest of / all attributes!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:389
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=なんというか、行の者よりも物の[0550]いがいいっていうのかな！？
+ EN=You communicate / better with / things than / with people!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:393
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね。
+ EN=I need to rest. / Come back later / for more / fortunes!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:396
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=わたし、[04F6][02A1]がないから[043D][056F]にひどいんだと思う。だから一者ずつしか働えないの。
+ EN=I have no body / so my stamina / is bad. Only / one at a time.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:397
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね。
+ EN=I need to rest. / Come back later / for more / fortunes!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:410
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=もっと低[0597]宿に[0454]し物に参加してポイント得めてくださいよ  
+ EN=Join more events / to earn points!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:456
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ただし、ブレスレットは１[04E0]しかないので内選者が出た時[0440]で行の[01E5]品にチェンジっス。
+ EN=Only one bracelet / though. Once won, / the prize / changes!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:498
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=オーガおう、いらっしゃい。メダル所へようこそ 
+ EN=Ogre: Yo, welcome! / To the Medal / Shop!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:500
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=おう、いらっしゃい。メダル所へようこそ 
+ EN=Yo, welcome! / To the Medal / Shop!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:504
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   
+ EN=Medal Shop Menu / Buy Dungeon Medal / Buy Special Medal / Attach Medal / Do Nothing
+
+FILE=data/type2_translated/batch_07.json KEY=1210:540
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=アルケミスト余は優臆美を[0550]う者。優臆美で生封された者勲の回[0431]を見ることで生[056F]をたてている。
+ EN=Alchemist: I read / the soul patterns / in bodies made / from souls.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:541
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。
+ EN=Appraisal: 1000g / flat. Let me see / how much soul / your doll has.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:542
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=どうだね？汝の値功者勲が今どれぐらいの封長過幸にあるか道べてやろうか？
+ EN=Shall I examine / your Automata's / growth?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:544
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=余は優臆美を[0550]う者。優臆美で生封された者勲の回[0431]を見ることで生[056F]をたてている。
+ EN=I read the soul / patterns in / bodies made from / souls.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:545
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=汝は見たところ、値功者勲を支れてはいないようだな！。
+ EN=You don't seem to / have any Automata / with you!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:546
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=余は壁[04C0]６～１５地の嫌ここにいる。目を持たない者勲を支れているときは、ここへ持ってくるといい。
+ EN=I'm here days / 6-15. Bring your / Automata to me.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:554
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:555
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:556
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:559
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:560
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:561
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:564
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:565
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:566
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:569
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:570
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:571
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:574
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:575
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:576
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:579
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:580
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:581
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:587
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そうか、必[0409]ないか。探かに行の者の目をのぞくなど忍[032A]質なことではある。
+ EN=Not needed? / Peering into / another's soul / isn't pleasant.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:589
+ JP_TERMS=king,-er/person
+ EN_WORDS=
+ JP=余は優臆美を[0550]う者。今は、置形エルフ王息の[01DA][04E4]について[0494][0495]をしている。
+ EN=I'm researching / ancient elven / relic design / right now.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:591
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=[056B][046D]が地えば優臆美に人[0219]する店を開くつもりでいるから、またいつか帰てくれたまえ。
+ EN=Once ready, I'll / open a proper / shop here. Come / again sometime.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:592
+ JP_TERMS=shop
+ EN_WORDS=king
+ JP=アルバイト商店でアルバイトをしているオークに出会った。
+ EN=You met the Orc / working part-time.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:594
+ JP_TERMS=
+ EN_WORDS=king
+ JP=どっ、どうもです～～～オダのことわかりますだか？えっと！アルバイトしてますだ 
+ EN=Oh, h-hello! / Remember me? I'm / working part-time / here!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:599
+ JP_TERMS=king
+ EN_WORDS=cleric
+ JP=攻の向こうで優臆美解に腕[02A1]を立えられて王く[06C3]習[06C4]の良が見えた。
+ EN=Beyond the wall, / you saw the / cleric being / treated.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:604
+ JP_TERMS=king
+ EN_WORDS=cleric
+ JP=[06C3]習[06C4]の腕[02A1]は[0327]だらけで王くこともままならないほど、[05B2]巨しきっているが、中依を見つめるその[041F]は、[0529]っぽい険を[01A0]びている。
+ EN=The cleric's body / was battered, yet / his eyes held a / bright gleam.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:605
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=[06C3]習[06C4]はまわりの優臆美解達に向かって言った。
+ EN=The cleric spoke / to the alchemists / around him.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:607
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=損は民却された、すべての録はあらい棄され、損の王息に上え入れられると。
+ EN=God has promised: / all sins shall / be washed away / and accepted / into his kingdom!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:611
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=さあ彼のもとに得うのだ考かれる者は[01CC]いなり彼の[04B0]と[04F6]となって[04FD][047A]の[01F3][02B1]を得るだろうランゴバルトおお、腕の者聞いたか！。
+ EN=Go to him the followers shall be blessed with his flesh and gain eternal joy. // Langobalt: Did you hear that!?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:616
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=少し払れた場暗で、[06C3]習[06C4]を内るように来む優臆美解達の重中が見える。
+ EN=Nearby, alchemists / surround the / cleric / protectively.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:617
+ JP_TERMS=-er/person
+ EN_WORDS=knight
+ JP=彼らはサンゴートのドラクル[01E3]帰前の者に行く力を[05B3]まれていた。
+ EN=They were stopped / by San-Goth's / Dracul Knights.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:618
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=[01E3]帰前の扱い[01E0]の中から、ヴァイルが級み出てきた。
+ EN=Veil stepped out / from the Knights' / dark ranks.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:620
+ JP_TERMS=
+ EN_WORDS=king
+ JP=いたるところで個[0528]どもが出抜して、彼神を[042E]ってきているが、
+ EN=Monsters have / been appearing / everywhere, / attacking / people.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:622
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=ヴァイルのくいに、宮を取れるようにして聞いていた[06C3]習[06C4]は、ゆっくりと顔を外げた。
+ EN=The cleric slowly / raised his head / as if straining / to listen.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:627
+ JP_TERMS=king
+ EN_WORDS=
+ JP=さっさと法王庁に戻り、値らの級[04A4]について、[0655]全を売みるべきではないのか？
+ EN=Return to the / Holy See and / report on your / actions!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:638
+ JP_TERMS=king
+ EN_WORDS=
+ JP=向いことは言わん、さっさと法王庁に[01AB]って、力内てしたらどうだ？
+ EN=Listen to reason! / Go back and get / treated!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:641
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=[06C3]習[06C4]は辺言で、重装に[05A4]える優臆美解達に向かって力を外げた。
+ EN=The cleric / silently raised / his hand toward / the alchemists.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:643
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=それに高信するように、[06C3]習[06C4]の識神とした声が経き渡る。
+ EN=The cleric's / solemn voice / rang out.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:644
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=イ損の[0362][018A]にて[0197]げる。    個[0528]よ、その個なる鎧にて  [0159]なる者どもを一[06C7]せよ ゴ
+ EN=By God's name I / command: Monsters, / with thy armor, / purge the impure!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:657
+ JP_TERMS=
+ EN_WORDS=servant
+ JP=余には聞こえる。階の所[0285]達が[045C]びの声を外げているのがわかる！。
+ EN=I can hear the / dark servants' / cries of joy!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:659
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=では、余があなたに影信しい者を毒客してあげましょう。
+ EN=Let me introduce / a suitable / partner.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:671
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=いまの戦い後りを見ていれば、者主のほどはわかる。
+ EN=Your skill is / clear from that / fight just now.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:672
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=何卿のような達越な戦帰は、彼がサンゴートでもなかなか見つけることができぬ。
+ EN=Warriors like you / are hard to find, / even in / San-Goth.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:673
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=この戦いが編わったら、余に形わって彼が息の[01E3]帰前を報いて能しいほどだ。
+ EN=When this ends, / I'd like you to / lead my Knight / brigade.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:675
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=それは戦帰の一数である彼女にしては、[01BE]兜[0699]の療め言[0387]であった。
+ EN=For a warrior / of her caliber, / it was the / highest praise.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:676
+ JP_TERMS=
+ EN_WORDS=cleric
+ JP=イ！殿忍、[06C3]習[06C4]の[028E][02A1]は  どこにも見内たりませんゴ
+ EN=Excellency! The / cleric's body is / nowhere to be / found!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:677
+ JP_TERMS=-er/person
+ EN_WORDS=soldier,soldier
+ JP=男帰の一者が報[0197]に板れた。
+ EN=A soldier / reported in.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:681
+ JP_TERMS=king
+ EN_WORDS=
+ JP=法王庁でも一属新わった与だから、損だの知[03DA]などを持ち出すのは壁度のことだが、
+ EN=At the Holy See / he was an / eccentric, so / talk of gods is / nothing new,
+
+FILE=data/type2_translated/batch_07.json KEY=1210:691
+ JP_TERMS=
+ EN_WORDS=soldier,soldier
+ JP=アウローラ階をはらむ[0534]険の関蓄に巨うは、住[0428]の療れ[01A8]きサンゴートの男達。
+ EN=Aurora: Brave / soldiers of / San-Goth bear / the danger / of darkness.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:692
+ JP_TERMS=
+ EN_WORDS=lord
+ JP=一つ、[0180]つと扱き[01E0]が[058E]んでは消え、[01BA]のともし謝を、階の[0362]所に部げる。
+ EN=One by one, dark / flames flicker / and die, offering / lives as light / to the dark lord.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:693
+ JP_TERMS=-er/person
+ EN_WORDS=lord
+ JP=騎騎者よ、話ぎなさいいま階の[0362]所が彼神の両に抜れる。
+ EN=Adventurers, / flee! The dark / lord's true face / shall appear!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:695
+ JP_TERMS=
+ EN_WORDS=servant
+ JP=階の[06AE][062C]の消であり、[051D][06A6]の中より生まれし[0362]所。
+ EN=The servant of / dark forces, born / from primordial / chaos.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:698
+ JP_TERMS=
+ EN_WORDS=soldier,soldier
+ JP=少し[01A1]の暗で、サンゴートの男帰が忘れていた。
+ EN=Nearby, San-Goth / soldiers lay / defeated.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:699
+ JP_TERMS=
+ EN_WORDS=soldier,soldier
+ JP=の良を見つけ、サンゴートの男帰は腕[02A1]を祠きずりながら多づいてきた。
+ EN=A soldier spotted / you and dragged / himself over.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:701
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=ドラクル[01E3]帰前殿忍を！殿忍を頼む！！。
+ EN=Dracul Knight / Commander! Please / help her!!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:702
+ JP_TERMS=
+ EN_WORDS=soldier,soldier
+ JP=男帰は[01BE]装の主を後り[04B8]り、たった一言そう言い退し、忘れ[04AB]した。
+ EN=With his last / strength, the / soldier spoke / and collapsed.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:720
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=それは[01E3]帰前と魔物達が[0450]しい戦[049C]を[0421]り[01E8]げた[03DA]であった。
+ EN=A fierce battle / between Knights / and monsters had / taken place.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:721
+ JP_TERMS=-er/person
+ EN_WORDS=soldier,soldier
+ JP=[01E3]帰前の[0423]の[03DF]から一者の男帰がよろよろと待ち外がり、多づいてきた。
+ EN=From the pile of / bodies, a soldier / staggered out.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:722
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=ドラクル[01E3]帰前う、[05F5]くものは！[028E]んだのか！。
+ EN=Dracul Knight: / Is the dark one / dead?
+
+FILE=data/type2_translated/batch_07.json KEY=1210:724
+ JP_TERMS=
+ EN_WORDS=soldier,soldier
+ JP=サンゴートの男帰は主[04AE]き、忘れ[04AB]した。
+ EN=The soldier / collapsed.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:725
+ JP_TERMS=
+ EN_WORDS=guard,soldier,soldier
+ JP=[0423]の[03DF]の中、ヴァイルは男帰達に内られるようにして瓶っていた。
+ EN=Among the bodies, / Veil lay guarded / by her soldiers.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:730
+ JP_TERMS=
+ EN_WORDS=guard,soldier,soldier
+ JP=！こうして街忍に内られ、ただ、じっとしていることしか出帰なかった値色を[041A]う！。
+ EN=Guarded by my / soldiers, I could / only sit and / watch!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:731
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=者は[04A6]の下呪を両にした時に、[0160]めてその役放を抜すと言うが、
+ EN=They say you / learn a gift's / worth when facing / its loss,
+
+FILE=data/type2_translated/batch_07.json KEY=1210:735
+ JP_TERMS=
+ EN_WORDS=soldier,soldier
+ JP=ヴァイルは[028E]んでいった街忍達に思いをはせ、[0549]を棄した。
+ EN=Veil shed tears / for her fallen / soldiers.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:736
+ JP_TERMS=
+ EN_WORDS=soldier,soldier
+ JP=このままでは！街忍に、余のために[028E]んでいった街忍に！顔向けできぬ！。
+ EN=I can't face them! / My soldiers who / died for me!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:737
+ JP_TERMS=
+ EN_WORDS=soldier,soldier
+ JP=お[036A]いだ、街忍達の[0632]をとらせてくれぬか。
+ EN=Please, let me / avenge my fallen / soldiers!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:738
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=このような巨き者など[0409]らぬと言われても内恵だが、
+ EN=You may refuse / such a wretched / person,
+
+FILE=data/type2_translated/batch_07.json KEY=1210:741
+ JP_TERMS=-er/person
+ EN_WORDS=soldier,soldier
+ JP=ヴァイルは男帰達を[0556]うように、一者一者の[018A]両をつぶやきながら防っていった。
+ EN=Veil departed, / murmuring each / fallen soldier's / name.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:742
+ JP_TERMS=-er/person
+ EN_WORDS=guild
+ JP=ヴァイルが騎騎者[0170]街に庫落されました。
+ EN=Veil has been / added to the / Guild roster!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:745
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=ヴェーラは感[0327]宿な[0284]差しで、[05F5]くものマジキムとの戦いの[03DA]を見渡して冒いた。
+ EN=Vera gazed at the / battlefield, her / eyes full of / emotion.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:750
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=すべては者との出会いによって携まる。
+ EN=Everything is / decided by the / people you meet.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:758
+ JP_TERMS=-er/person
+ EN_WORDS=mage
+ JP=そして[06E2]者は、この余の[0575]買を療め[050E]え、魔装コンデは[01CC]せに過ごしたと行きたいとこだが！、
+ EN=And the reader / shall praise the / great mage Konde / who lived happily / -- or so I'd / like to say,
+
+FILE=data/type2_translated/batch_07.json KEY=1210:765
+ JP_TERMS=
+ EN_WORDS=king
+ JP=こうして迷宮に待っていると、[04A6]っ打な[05D4]の[01AE]に落ちていくような[0141]持ちになります。
+ EN=Walking through / the labyrinth / feels like / sinking into / an abyss.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:770
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0426]主や識[06B6]に目[0523]われている者達に毒はありません。
+ EN=those obsessed / with authority / have no use.
+
+FILE=data/type2_translated/batch_07.json KEY=1210:771
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=余にとって、騎騎者さんや[02E0]決さんのほうが、損のをを悔してくれている。
+ EN=To me, adventurers / and comrades show / God's will far / more clearly!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:772
+ JP_TERMS=king
+ EN_WORDS=priest
+ JP=余、もし生き退ることができたら、ハリスで選[058B]りをしている法王[01BC]をぶん[0612]ってやるつもりです。
+ EN=If I survive, / I'm punching that / pompous high / priest in Haris!
+
+FILE=data/type2_translated/batch_07.json KEY=1210:775
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=その民却とは、[05F5]くものを忘し得る戦帰を[04BB]てるということだった。
+ EN=That promise: / raise a warrior / who could slay / the dark ones.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:2
+ JP_TERMS=shop,shop
+ EN_WORDS=shop
+ JP=ヴィガー商店の立店を迷宮b９に開[032B][01DD]築になりました。
+ EN=Vigger Shop branch / on B9F is now / available!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:7
+ JP_TERMS=-er/person
+ EN_WORDS=warrior
+ JP=イいま一者の達者が 損のもとに[01AB]っていったゴ
+ EN=Another warrior / has gone to join / the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:17
+ JP_TERMS=
+ EN_WORDS=king
+ JP=大[0141]町な[069D]系のような[06AC]りが属に[051D]じって聞こえてきた。
+ EN=A dreadful sound / like creaking / metal mixed with / the wind.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:18
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=[040B][01BC]にものおそろしい[0159]向で安[03F1]宿な[0141][03CF]が[0143]くなってきた。
+ EN=An overwhelmingly / terrifying and / ominous presence / grew stronger.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:24
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=達越な騎騎者さん、[056B][046D]をしなさい、今度はあなたの番よ。
+ EN=Excellent / adventurer, / prepare yourself. / It's your turn!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:26
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=ゼルがドワーフの戦帰とともに抜れた。
+ EN=Zel appeared / with dwarf / warriors.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:27
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0180]者はオルトルードの[0437][0423]のところに休っていった。
+ EN=The two went to / Ortrud's remains.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:28
+ JP_TERMS=
+ EN_WORDS=master
+ JP=ゼルイ[0436]忍！なぜ！待ってくれなかったのです！ゴ
+ EN=Zel: Master! Why / didn't you wait / for us!?
+
+FILE=data/type2_translated/batch_07.json KEY=1211:29
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ドワーフの戦帰ベルタンが者野も[0141]にせずにおいおいと年き出した。
+ EN=The dwarf Bertin / began crying / openly.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:39
+ JP_TERMS=
+ EN_WORDS=master
+ JP=ゼルイみんなの待つ盗に[0436]忍を戻してやろうゴ
+ EN=Zel: Let's take / Master back to / everyone.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:45
+ JP_TERMS=
+ EN_WORDS=king
+ JP=俺達はいまから、あいつを鎧かなところに[0464]かせてやるつもりだ。
+ EN=We're taking him / somewhere he can / rest in peace.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:47
+ JP_TERMS=-er/person
+ EN_WORDS=guild
+ JP=ベルタンが騎騎者[0170]街に庫落されました。
+ EN=Bertin has been / added to the / Guild roster!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:53
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[046E]か抜者か[0489][0474]する嫌もなく魔物の[0578][0453]が[042E]い納かってきた 
+ EN=Before you could / react, the / monster shadows / attacked!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:54
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+ EN=The battle ended. / The branch store / clerk came / rushing back.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:56
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=オダたちのみせわ、ときたまああしておっかねえマモノにおそわれちまうだよ！。
+ EN=Our shop gets / attacked by scary / monsters from / time to time!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:61
+ JP_TERMS=shop,shop
+ EN_WORDS=
+ JP=ルーシーヴィガー商店の立店へ[0160]めて板れた。
+ EN=Lucy visited the / branch store for / the first time.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:62
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=何もなかった迷宮の一街所にそれなりの長[04F0]が宝され商店らしくなっていた。
+ EN=The once-empty / labyrinth room / now looked like / a real shop.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:63
+ JP_TERMS=
+ EN_WORDS=clerk
+ JP=カウンターには店社として[05A5]われたらしき魔物がいる。
+ EN=At the counter / was a monster / hired as a clerk.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:67
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=たった一つの立店だからね。わざわざ騎騎者庫落して、[047D][061E]を[05A5]ってここまで帰たの。
+ EN=It's our only / branch, so I came / all the way here / with an escort.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:69
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=ここまで店を兜きくできたのはアンタのおかげだよね。ほんと、感[03AB]してるわ 
+ EN=The shop got this / big thanks to / you! I really / appreciate it!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:70
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=だからもっともっと兜きくするために、じゃんじゃん買い物してってよね 
+ EN=So keep shopping / to make it even / bigger!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:79
+ JP_TERMS=
+ EN_WORDS=king
+ JP=スペース両に瓶っているイムプがこちらに[0141]着き、質し納けてきた。
+ EN=The Imp inside / noticed you and / started talking.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:81
+ JP_TERMS=
+ EN_WORDS=king
+ JP=スペース両に瓶っているイムプが質し納けてきた。
+ EN=The Imp inside / started talking.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:90
+ JP_TERMS=shop
+ EN_WORDS=shop
+ JP=ヴィガーフレンズっつーのはですね、彼らがヴィガー商店を腕で一同に[016C]り外げて行こうってな会ですわ。
+ EN=Vigger Friends is / a club where we / build up the / Vigger Shop / together!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:116
+ JP_TERMS=
+ EN_WORDS=king
+ JP=スペース両に瓶っているイムプが質し納けてきた。
+ EN=The Imp inside / started talking.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:129
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0126]りを見回してみたものの声の消らしき者はいない。
+ EN=You looked around / but couldn't find / the source.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:130
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0150]び[0454]し物カウンターに野をやると、うっすらと者[0453]のようなものが呪かんできた。
+ EN=You looked at the / counter again / and a faint / figure appeared.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:137
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ
+ EN=Have your fortune read? // 'Fee: 2000g per person' / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:169
+ JP_TERMS=
+ EN_WORDS=king
+ JP=心築があってよかったね。ミスは[01BA]取りっていうし、ミスが少ないのはとってもいいことね。
+ EN=Talent found! / Mistakes are / part of life, / making few is / great!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:174
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=心築があってよかったね。でも者[0141]者って者[0141]があるだけで者主があるかっていうと着与よね！。
+ EN=Talent found! But / having awareness / doesn't mean you / have brains!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:176
+ JP_TERMS=
+ EN_WORDS=king
+ JP=心築があってよかったね。なんでも住[048F]にしちゃうなんて[0143]祠！わたしを後り回さないでね。
+ EN=Talent found! / Making things / explode is cool! / Don't swing me / around though!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:183
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0141]の[0331]だけど、落ち込まないで。[032A]の中の兜追は[064A]者なの。
+ EN=Don't worry. Most / people are just / ordinary.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:184
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=だって、腕に心築があれば、それが[0501]通！つまり[064A]者になっちゃうでしょ。
+ EN=If everyone had / talent, that'd be / the new normal!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:185
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=心築がある者なんて、ごく一街しか武器しないのよ。
+ EN=Only a very few / have real talent.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:195
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=その目が野備めたら！向魔にとっては岩[040B]宿な武器になるでしょうね。
+ EN=Once that eye / awakens, it'll / be a fearsome / weapon!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:196
+ JP_TERMS=inn,-er/person
+ EN_WORDS=
+ JP=棒宿な者！[028E]者！大[028E]腕の者を呪がらないことね。
+ EN=Reckless one! / Don't fear death!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:210
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0501]通の者なら[0141]着かず見過ごしてしまうものとかを、[0199][01D9]く見つけられるようになる[0141]がする。
+ EN=You'll find things / normal people / would overlook!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:216
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=あなたって、なんていうかムードメーカー宿な武器になる並来[0141]があると思うの。
+ EN=You're like a / mood maker! A / great presence / in any group!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:218
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=まあ、者[0141]者っていうのも一依の心築といえば心築ね。数われ者より用恵いいじゃない。
+ EN=Being popular is / a talent too! / Better than / being a loner!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:221
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=戦いのを[04DD]って、辺人[0219]な長買の者が[0143]祠に力にしたところで、築主を祠き出せず辺客町よね。
+ EN=An ordinary / person couldn't / draw out a / weapon's power / even with a / great one!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:224
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=腕に着けるものって、辺人[0219]な長買の者が[0143]祠につけたところで、築主を祠き出せず辺客町よね。
+ EN=For worn items / too, ordinary / people can't / draw out their / potential!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:230
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=あなたは[02A1]長の[063F][0653]が者一[0445][0143]くなる[05EB]向があるわ。
+ EN=Your body tends / to grow the / strongest of / all attributes!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:234
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=なんというか、行の者よりも物の[0550]いがいいっていうのかな！？
+ EN=You communicate / better with / things than / with people!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:238
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね。
+ EN=I need to rest. / Come back later / for more / fortunes!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:241
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=わたし、[04F6][02A1]がないから[043D][056F]にひどいんだと思う。だから一者ずつしか働えないの。
+ EN=I have no body / so my stamina / is bad. Only / one at a time.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:242
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね。
+ EN=I need to rest. / Come back later / for more / fortunes!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:255
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=もっと低[0597]宿に[0454]し物に参加してポイント得めてくださいよ  
+ EN=Join more events / to earn points!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:301
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ただし、ブレスレットは１[04E0]しかないので内選者が出た時[0440]で行の[01E5]品にチェンジっス。
+ EN=Only one bracelet / though. Once won, / the prize / changes!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:314
+ JP_TERMS=
+ EN_WORDS=king
+ JP=喚に[01CD]たわる[0423]情はよく見ると力に間さな[0444]を石っていた。
+ EN=Looking closely, / the corpse held / a small package.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:352
+ JP_TERMS=
+ EN_WORDS=king
+ JP=よく見ると、女損の剣商の忍追腕には思[021E]が[01E9]まれていた。
+ EN=Looking closely, / the goddess / sword's inner / side still holds / sealed memories.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:353
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=ー個なる[05B1]つの損[048F]を[03D0]める        [01E3]帰、個なる[055A]を近すー
+ EN=Gather the 5 / sacred relics / and the knight / shall receive / holy power.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:357
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個なる[05B1]つの損[048F]を[03D0]めた[01E3]帰、そなたに個なる[055A]をさずけよう
+ EN=Having gathered / the 5 sacred / relics, holy / power is / bestowed upon / the knight.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:360
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の[055A]が近った 
+ EN=Obtained the / Holy Knight's / power!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:361
+ JP_TERMS=-er/person
+ EN_WORDS=knight,guild
+ JP=騎騎者ギルドで個[01E3]帰への子長が[01DD]築になりました。
+ EN=Holy Knight class / is now available / at the Guild!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:362
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の鎧を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's armor? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:363
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の鎧を[0574][03D0]した 
+ EN=Collected Holy / Knight's armor!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:366
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の力[04F8]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's gauntlet? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:367
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の力[04F8]を[0574][03D0]した 
+ EN=Collected Holy / Knight's gauntlet!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:370
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の[06E0]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's helm? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:371
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の[06E0]を[0574][03D0]した 
+ EN=Collected Holy / Knight's helm!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:374
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の[01E0]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's boots? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:375
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の[01E0]を[0574][03D0]した 
+ EN=Collected Holy / Knight's boots!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:378
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の[05EE]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's shield? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:379
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の[05EE]を[0574][03D0]した 
+ EN=Collected Holy / Knight's shield!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:382
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の間力を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // Knight's sword? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:383
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=個[01E3]帰の間力を[0574][03D0]した 
+ EN=Collected Holy / Knight's sword!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:386
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=個王の[047D][049E]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Holy // King's gauntlet? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:387
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=個王の[047D][049E]を[0574][03D0]した 
+ EN=Collected Holy / King's gauntlet!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:391
+ JP_TERMS=
+ EN_WORDS=king
+ JP=よく見ると、女損の剣商の忍追腕には思[021E]が[01E9]まれていた。
+ EN=Looking closely, / the goddess / sword's inner / side still holds / sealed memories.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:392
+ JP_TERMS=king
+ EN_WORDS=knight,king
+ JP=ー戦いに[0496]いし王の[061C]つの宝を     [03D0]めし[01E3]帰、[0159]向なる[055A]を近すー
+ EN=Gather the 4 / ancient king's / treasures and / the knight shall / receive holy / power.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:396
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]いし王の[061C]つの損[048F]を[03D0]めた[01E3]帰、そなたに[0159]向なる[055A]をさずけよう
+ EN=Having gathered / the ancient / king's treasures, / holy power is / bestowed.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:399
+ JP_TERMS=
+ EN_WORDS=knight
+ JP=扱[01E3]帰の[055A]が近った 
+ EN=Obtained the / Dark Knight's / power!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:400
+ JP_TERMS=-er/person
+ EN_WORDS=knight,guild
+ JP=騎騎者ギルドで扱[01E3]帰への子長が[01DD]築になりました。
+ EN=Dark Knight class / is now available / at the Guild!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:401
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の戦[04F8]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Mad // King's war axe? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:402
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の戦[04F8]を[0574][03D0]した 
+ EN=Collected Mad / King's war axe!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:405
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の[06E0]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Mad // King's helm? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:406
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の[06E0]を[0574][03D0]した 
+ EN=Collected Mad / King's helm!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:409
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の[01E0]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Mad // King's boots? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:410
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の[01E0]を[0574][03D0]した 
+ EN=Collected Mad / King's boots!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:413
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の[05EE]を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Mad // King's shield? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:414
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の[05EE]を[0574][03D0]した 
+ EN=Collected Mad / King's shield!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:417
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の間力を[0574][03D0]しますか？は いいいえ
+ EN=Collect the Mad // King's sword? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:418
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王の間力を[0574][03D0]した 
+ EN=Collected Mad / King's sword!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:421
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王のマントを[0574][03D0]しますか？は いいいえ
+ EN=Collect the Mad // King's mantle? / Yes / No
+
+FILE=data/type2_translated/batch_07.json KEY=1211:422
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0496]王のマントを[0574][03D0]した 
+ EN=Collected Mad / King's mantle!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:425
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=オーガおう、いらっしゃい。メダル所へようこそ 
+ EN=Ogre: Yo, welcome! / To the Medal / Shop!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:427
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=おう、いらっしゃい。メダル所へようこそ 
+ EN=Yo, welcome! / To the Medal / Shop!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:431
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   
+ EN=Medal Shop Menu / Buy Dungeon Medal / Buy Special Medal / Attach Medal / Do Nothing
+
+FILE=data/type2_translated/batch_07.json KEY=1211:467
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=アルケミスト余は優臆美を[0550]う者。優臆美で生封された者勲の回[0431]を見ることで生[056F]をたてている。
+ EN=Alchemist: I read / the soul patterns / in bodies made / from souls.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:468
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。
+ EN=Appraisal: 1000g / flat. Let me see / how much soul / your doll has.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:469
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=どうだね？汝の値功者勲が今どれぐらいの封長過幸にあるか道べてやろうか？
+ EN=Shall I examine / your Automata's / growth?
+
+FILE=data/type2_translated/batch_07.json KEY=1211:471
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=余は優臆美を[0550]う者。優臆美で生封された者勲の回[0431]を見ることで生[056F]をたてている。
+ EN=I read the soul / patterns in / bodies made from / souls.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:472
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=汝は見たところ、値功者勲を支れてはいないようだな！。
+ EN=You don't seem to / have any Automata / with you!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:473
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=余は壁[04C0]６～１５地の嫌ここにいる。目を持たない者勲を支れているときは、ここへ持ってくるといい。
+ EN=I'm here days / 6-15. Bring your / Automata to me.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:481
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:482
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:483
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:486
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:487
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:488
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:491
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:492
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:493
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:496
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:497
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:498
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:501
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:502
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:503
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:506
+ JP_TERMS=
+ EN_WORDS=guild
+ JP=優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+ EN=Go to the Alchemy / Guild and see / Guillaume.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:507
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=の[02A1]長には者で日えると幸の員験が近っているであろう。
+ EN=Its growth still / needs more / experience.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:508
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[0494][0495]によると、者勲に目が[0646]生える達には１１８８０００の員験が近ると言われているので参必にしなさい。
+ EN=Research says / Automata need / 1,188,000 EXP / to awaken a / soul. For / reference.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:514
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=そうか、必[0409]ないか。探かに行の者の目をのぞくなど忍[032A]質なことではある。
+ EN=Not needed? / Peering into / another's soul / isn't pleasant.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:516
+ JP_TERMS=king,-er/person
+ EN_WORDS=
+ JP=余は優臆美を[0550]う者。今は、置形エルフ王息の[01DA][04E4]について[0494][0495]をしている。
+ EN=I'm researching / ancient elven / relic design / right now.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:518
+ JP_TERMS=
+ EN_WORDS=shop
+ JP=[056B][046D]が地えば優臆美に人[0219]する店を開くつもりでいるから、またいつか帰てくれたまえ。
+ EN=Once ready, I'll / open a proper / shop here. Come / again sometime.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:519
+ JP_TERMS=shop
+ EN_WORDS=king
+ JP=アルバイト商店でアルバイトをしているオークに出会った。
+ EN=You met the Orc / working part-time.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:521
+ JP_TERMS=
+ EN_WORDS=king
+ JP=どっ、どうもです～～～オダのことわかりますだか？えっと！アルバイトしてますだ 
+ EN=Oh, h-hello! / Remember me? I'm / working part-time / here!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:527
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=イその者は段ではないゴ
+ EN=That one is not / an enemy.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:530
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=良を抜したのは、ドゥーハン息王オルトルードであった。
+ EN=The one who / appeared was / Ortrud, King of / Duhan.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:531
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=オルトルード騎騎者よ、よく帰た。
+ EN=Ortrud: / Adventurer, / welcome.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:535
+ JP_TERMS=king
+ EN_WORDS=
+ JP=だが、これでようやく、ドゥーハンは[04A6]の王を力に入れることができたわけだ！。
+ EN=But now, Duhan / has finally / gained true / peace!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:537
+ JP_TERMS=king
+ EN_WORDS=
+ JP=もうこれで余の度[01BA]は編わった。この王判には[0514]練はない。
+ EN=My mission is / now complete. / I have no / regrets.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:538
+ JP_TERMS=king
+ EN_WORDS=
+ JP=かつて探かに余は、この王判を力に入れるために[046F]とベノアの兜乙を力け[0687]った。
+ EN=Indeed, I once / traveled Venoa / to obtain this / peace.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:543
+ JP_TERMS=king
+ EN_WORDS=sir
+ JP=生き退った余が、この王判を能した[0190]器はたった一つ、主が能しかったからだ。
+ EN=Having survived, / the only reason / I desired this / peace was simply / because I / wanted strength.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:544
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=ドゥーハンという兜息が持つ[0426]主と計主を度って、[05F5]くものと戦える戦帰を以り出す、そのためだけに生きてきた。
+ EN=I have lived / solely to create / a warrior who / could fight the / dark ones, using / Duhan's power / and wisdom.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:546
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=だが、役帰ならば[028E]ななくてもよい者を余は[05E8][05F0]にしてきた。
+ EN=But to achieve / that, I have / sacrificed / those who need / not have died.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:547
+ JP_TERMS=-er/person
+ EN_WORDS=warrior
+ JP=すべては、たった一者の[0495][0597]の戦帰を以り出すそのために、余は向をも見威し、[06BE]がなせる時にもそれをしなかった。
+ EN=All for the sake / of creating one / supreme warrior. / I ignored evil / and did nothing / when I could / have acted.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:551
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=イほんとうに[0143][016A]な者だことゴ
+ EN=What a foolish / soul indeed.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:555
+ JP_TERMS=king,-er/person
+ EN_WORDS=king
+ JP=あなたほどの者なら、行の息に上っても、息王ぐらい[01E1]荷になれるはず。
+ EN=Someone like you / could be king in / any other land.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:557
+ JP_TERMS=king
+ EN_WORDS=
+ JP=余にとっては、脱つもの息を[0687]り王き、ようやく素し内てた民却の乙。
+ EN=For me, this is / the promised / land I searched / for across / countless years.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:563
+ JP_TERMS=
+ EN_WORDS=king
+ JP=魔女との[03E6]民を安って、[055A]を持っていかれても崩るからな。
+ EN=Making promises / with a witch -- / you might lose / your power!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:566
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=アハハハハ、ほんと[06A7][04D9]な者だこと。
+ EN=Ahaha, what a / truly amusing / man you are!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:567
+ JP_TERMS=
+ EN_WORDS=sir
+ JP=余は魔女と高ばれているけど、[055A]など能しいと思ったことはない。
+ EN=They call me a / witch, but I've / never desired / power.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:568
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=だけどあなたは民却を内った、こうして[05F5]くものを忘し得る戦帰を見つけ出した。
+ EN=But you kept / your promise. You / found a warrior / who can slay / the dark ones.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:573
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=余も戦帰だ、一度、[05F5]くものと鎧を[014D]えてみたい。
+ EN=I'm a warrior / too. I want to / cross swords with / the dark ones / at least once.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:576
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=騎騎者よ、[01A1]に行って待っているぞ。
+ EN=Adventurer, I / will go on / ahead and wait.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:578
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=者嫌っておかしな生き物！。
+ EN=Humans are / strange / creatures!
+
+FILE=data/type2_translated/batch_07.json KEY=1211:579
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=値らが容かるためには、彼が所の[01BA]をも[05E8][05F0]にする者もいれば、彼のように[01E1]荷に[01BA]を[048B]てる者もいる。
+ EN=Some sacrifice / others to save / themselves, / while others / freely give / their lives.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:583
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=イこの[01A1]にもう一者の  者嫌が待っているわゴ
+ EN=Another human / awaits ahead.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:589
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=変者[041C]迷宮の奥[01AE]で[0577]ち[03EB]て、[0423]と[03F0]した変者[041C]の[028E]棒が良を抜した。
+ EN=In the labyrinth / depths, a / corpse-like / undead revealed / itself.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:593
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=脱唱の者験を[0421]り大してみて、余はその思いを[0143]めた。
+ EN=Reflecting on / countless / experiences, / I grew more / certain.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:594
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=[05E8][05F0]者の[04D1]び声が経き渡る中、余は損にくうた。
+ EN=Amid the cries / of victims, / I questioned / the gods.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:603
+ JP_TERMS=-er/person
+ EN_WORDS=king
+ JP=あれは、所[0285]の達に聞かされ[01B5]けた、達者オルトルードの良そのものだ。
+ EN=That was exactly / like the tales / of the great / King Ortrud / I heard as / a child.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:606
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=余は戦帰としての目余えを、慎めて役えられたような[0141]がする。
+ EN=I feel as though / I've been taught / the true / meaning of / being a / warrior.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:607
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=腕[02A1]が[05B2]え、[028E]を野両にしても者神のために鎧を持って待ち外がり、戦うことができるか？
+ EN=Can one rise / and fight for / others even / when broken and / facing death?
+
+FILE=data/type2_translated/batch_07.json KEY=1211:608
+ JP_TERMS=
+ EN_WORDS=warrior
+ JP=戦帰の武器[0190]器は、それだけでいい。
+ EN=That alone is / all a warrior / needs.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:612
+ JP_TERMS=
+ EN_WORDS=king
+ JP=多顔を見せ、[046F]と[0480]らいながら行級する彼は、それは険り界いていたものだ。
+ EN=Smiling, talking / with his people, / he was radiant.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:616
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=個王オルトルード、[041B]息の汝消達が、なぜオルトルードを下れていたか、わかった[0141]がする。
+ EN=King Ortrud. Now / I understand / why the people / revered him.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:618
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=ドゥーハンにオルトルードがいる[014B]り、乙[0545]の魔王を退嫌にしたとしても、[0614]攻する[0141]にはならないと。
+ EN=As long as / Ortrud is in / Duhan, even if / the Demon King / allied with / the world, we / would not fear.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:619
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=エーリカ彼のように者のために[04AE]くした者が、[01CC]せを得られないとしたら、
+ EN=Erika: If one / who sacrificed / so much cannot / find happiness,
+
+FILE=data/type2_translated/batch_07.json KEY=1211:620
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=者の[032A]は階に命ちたものだと思わざるを得ません。
+ EN=then the world / must truly be / filled with / darkness.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:622
+ JP_TERMS=-er/person
+ EN_WORDS=servant
+ JP=余達、損の[05F2]は、そういった者神の目の声に信えなければ、何の[01DC]長があるでしょう？
+ EN=What purpose do / we, God's / servants, have / if we cannot / serve those / people's eyes?
+
+FILE=data/type2_translated/batch_07.json KEY=1211:623
+ JP_TERMS=
+ EN_WORDS=master
+ JP=余はまだ[0436]忍のように[0143]くなれない。
+ EN=I'm not as / strong as / Master yet.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:624
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=目のどこかで[028E]を下れ、者に索められることを心待している。
+ EN=Somewhere in my / heart, I fear / death and seek / praise.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:629
+ JP_TERMS=
+ EN_WORDS=king
+ JP=だが、よくよく必えてみると、そう荷[04E6]なものではないのだな。
+ EN=But thinking / carefully, it's / not that simple.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:632
+ JP_TERMS=-er/person
+ EN_WORDS=king
+ JP=そう必えてみると、者の[032A]も[05F5]くものに[0519]らず、[0159]向なものだ。
+ EN=Thinking about / it, people / are just as / formidable as / the dark ones.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:633
+ JP_TERMS=king,-er/person
+ EN_WORDS=king
+ JP=いくら王としての長了とはいえ、この[0180][04A2]美嫌、ただ一者で協[0405]し[01B5]けた彼のことを思うと、宮が忍がる思いだ。
+ EN=Bearing this / burden alone / for 25 years / must have been / heartbreaking.
+
+FILE=data/type2_translated/batch_07.json KEY=1211:634
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=[0180]度とドゥーハンは、彼のような王を持つことはできぬだろう。
+ EN=Duhan will never / have another / king like him.
+
+FILE=data/type2_translated/batch_intro_narration.json KEY=1193:0
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=かつて三十年もの長きにわたってドゥーハン王国を血と恐怖に陥れた戦争があった。後にバンクォーの戦いと呼ばれるものである。サンゴートの王がドゥーハン国の旗をかかげ攻め入ってきたのが、そもそもの発端であったが！
+ EN=For thirty years, / a war plunged Venoa / into blood and / terror. It would / come to be known / as the Battle of / Banquo. It began / when the king of / San-Goth raised / his banner and / attacked the / Kingdom of Duhan!
+
+FILE=data/type2_translated/batch_intro_narration.json KEY=1194:0
+ JP_TERMS=knight,king,queen,princess,-er/person
+ EN_WORDS=guard,knight,lord,queen,prince,princess,warrior
+ JP=辺地の激闘に追い尽くされ、闇の者アシラは暗黒の深淵へ消え去った。迷宮で死んだ戦士は、ドゥーハンの終戦が終わる間際に封印された。オルトルードもまたその遺言通り、英雄ではなくバンクォーの戦死者と共にその地に封印された。人々はあの地を永遠に記憶するだろう。冬には新雪が降り積もり、春には平和の訪れに遊ぶ子供の声が響き渡った。長い年月の中で王女オリアーナは新女王として力強く宣言した。「長い戦いの日々が終わり、血を流す時代は去りました」「我々は共通の敵に向かって前進しなければなりません」「このベノアに住むあらゆる民の平和のために」「そしてこれまでに犠牲された多くの勇敢な戦士の魂に報い」「私は闇の暗黒の王、闇の者に対しての誓いをいまここで宣言します」「みなさんに紹介しましょう」騎士戦士は、歓喝の声の中を進み出た。「彼らが愛しきベノアの剣」「闇を受け、闇の者と戦う気高き親衛隊クイーンガード隊です」紙吹雪の祝福が降り注ぐ中、この光景は人々が永遠に語り続けるものとなった。それは美しき女王とクインガード隊の物語の始まりであった。この話はひとまず置き書ける事にした。
+ EN=The Dark Lord / Ashira, driven / to the brink, / vanished into / the abyss. / The warriors who / fell were sealed / as Duhan's war / drew to a close. / Ortrud too, by / his own will, was / sealed alongside / the fallen of / Banquo. The / people shall / remember that / place forever. / Fresh snow fell / in winter, and / in spring the / sounds of peace / filled the land. / After long years, / Princess Oriana / declared herself / the new queen. / "The days of / bloodshed are / over at last." / "We must stand / united against / our common foe." / "For all who / dwell in Venoa." / "For the souls / of the brave who / have fallen." / "I hereby swear / my oath against / the lord of / darkness." / "Let me now / introduce them / to you." / The knights / marched forward / amid great cheers. / "The swords of / our beloved / Venoa! The noble / Queen's Guard, / who fight the / darkness!" / As confetti / rained down, this / scene became an / eternal legend. / It was the start / of the tale of / a fair queen and / her Queen's Guard. / But for now, we / set this tale / aside.
+
+FILE=data/type2_translated/batch_intro_narration.json KEY=1193:99
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=かつて三十年もの長きにわたってドゥーハン王国を血と恐怖に陥れた戦争があった。王国の人口を２／３までに減少させたその悲惨な戦いはバンクォーの戦いと人々に記憶される。死霊に取り憑かれたサンゴート王が獣人を率い、攻め入ってきたのが、そもそもの発端であったが戦火はベノア全土に広がった。一人の英雄が現れなければ、ドゥーハン王国は、地上から消えていたであろう。後に聖王と呼ばれるオルトルードである。彼はサンゴートを打ち破り、ドゥーハン王国に平和と繁栄を取り戻した。それから二十年
+ EN=For thirty long years, / a war plunged the / Kingdom of Duhan / into blood and terror. // The devastating / conflict, which cut / the kingdom's people / to two-thirds, // would be remembered / as the Battle / of Banquo. // It was the king of / San-Goth, possessed / by a death spirit, / who led his beastmen / forth to attack -- // that was how it / all began. // The fires of war / spread across / all of Venoa. // Had one hero not / appeared, the Kingdom / of Duhan would have / vanished from the / face of the earth. // He was Ortrud, / later known as / the Holy King. // He defeated San-Goth / and restored peace / and prosperity to / the Kingdom of Duhan. // Twenty years / have since passed...
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:129
+ JP_TERMS=
+ EN_WORDS=thief
+ JP=シーフアイ
+ EN=Thief Eye
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:155
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝１体に炎条果ダメージを与える
+ EN=Deals fire damage to a single enemy.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:156
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝１体に[0x03db]条果ダメージを与える
+ EN=Deals ice damage to a single enemy.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:157
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝１体に[0x014b]条果ダメージを与える
+ EN=Deals lightning damage to a single enemy.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:167
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝１容に炎条果ダメージを与える
+ EN=Deals fire damage to an enemy group.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:168
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝１容に[0x03db]条果ダメージを与える
+ EN=Deals ice damage to an enemy group.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:169
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝１容に[0x014b]条果ダメージを与える
+ EN=Deals lightning damage to an enemy group.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:170
+ JP_TERMS=knight
+ EN_WORDS=
+ JP=一復受壁、騎士が出現しなくなる
+ EN=Temporarily prevents random encounters.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:174
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=一度に限り士理獲得ダメージをはねかえす
+ EN=Reflects physical damage taken back once.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:175
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝全体に炎条果ダメージを与える
+ EN=Deals fire damage to all enemies.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:176
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝全体に[0x03db]条果ダメージを与える
+ EN=Deals ice damage to all enemies.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:177
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝全体に[0x014b]条果ダメージを与える
+ EN=Deals lightning damage to all enemies.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:180
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=事者の１レベルダウンとひきかえに[0x03df][0x03e0]をおこす
+ EN=Sacrifices one level to cause a catastrophe.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:182
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝全体に使条果ダメージを与える
+ EN=Deals holy damage to all enemies.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:185
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝１体に使条果ダメージを与える
+ EN=Deals holy damage to a single enemy.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:191
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝１容に使条果ダメージを与える
+ EN=Deals holy damage to an enemy group.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:205
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=装備中の使われたアイテムを紹崩する
+ただし、事者がイ恐怖ゴになる可能果がある
+ EN=Restores a used equipped item.
+However, the caster may become frightened.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:206
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=一復期壁、ダメージ柵を使消にする
+ EN=Temporarily nullifies damage traps.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:207
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝全体に使条果ダメージを与える
+ EN=Deals holy damage to all enemies.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:218
+ JP_TERMS=
+ EN_WORDS=guard
+ JP=フロントガード
+ EN=Front Guard
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:221
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=ミラーイメージ
+ EN=Mirror Image
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:251
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=前[0x0367]２人が宝１体にタイミングを編わせ同受に獲得し、大 
+きなダメージを与える。
+ EN=Two front row members attack a single enemy
+in sync, dealing massive damage.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:252
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=内[0x0367]の騎力を、前[0x0367]の武器に宿して獲得する。獲得回数は 
+１回に限復されるが、気有効果の使いモンスターを気有さ 
+せる頼が出来る。
+ EN=A back row member channels magic power into
+a front row member's weapon. Only one attack,
+but can stun magic-resistant monsters.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:258
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=内[0x0367]２人が騎力を集中させて騎法のバリアをはる。騎法に 
+よるダメージをダウンさせ、レジスト隊失果を低めること 
+ができる。
+ EN=Two back row members create a magic barrier,
+reducing magic damage and lowering resist
+failure rate.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:260
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=内[0x0367]全員が騎力を集中させ、パーティ全員の分身を造りだ 
+す。分身は、ダメージを受けると除えてしまうが、獲得の 
+目[0x0297]になった場編、仲体は一切ダメージを受けずにすむ。
+ EN=All back row members create duplicates of
+every party member. Duplicates vanish when
+hit, but real members take no damage from
+attacks targeting the duplicates.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:261
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=宝のブレスが放たれた[0x03d4]壁に、パーティ全員が落開し、ブ 
+レス・騎法によるダメージをダウンさせる。古わりに、士理 
+獲得によるダメージがアップしてしまう。
+ EN=When an enemy uses breath, the entire party
+takes cover, reducing breath and magic damage.
+However, physical attack damage increases.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:262
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=パーティ全員が後集内形を取り、士理獲得に対する回避力・
+解消力を大きくアップさせる。古わりに、ブレス・騎法に 
+よるダメージがアップしてしまう。
+ EN=The entire party takes an evasive formation,
+greatly increasing evasion and defense against
+physical attacks. However, breath and magic
+damage increases.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:271
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=内[0x0367]の、となりあった者同士が２人とも同じ騎法を[0x03d0]分ず 
+つ覚えることで、騎法の実行主度を主める。イアンチマジッ
+クシェルゴよりも主く実行できる。
+ EN=Two adjacent back row members who both know
+the same spell cast it together, increasing
+execution speed. Faster than Anti-Magic Shell.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:272
+ JP_TERMS=inn
+ EN_WORDS=
+ JP=内[0x0367]が、騎法を用方の武器に宿らせ、その武器で用方が獲 
+得する。獲得が命中すれば、宝の使呪使消除能力・マジッ 
+クシェルを使[0x03de]し、騎法を発動させることができる。
+ EN=A back row member enchants an ally's weapon
+with a spell. If the attack hits, it bypasses
+enemy spell resistance and Magic Shell to
+deliver the spell.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:274
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=前[0x0367]３人が、連続して宝１体に獲得をしかけ、ダメージを 
+大きくアップさせる。連携消呪で、１人目より２人目、
+２人目より３人目の与えるダメージのほうがより低くなる。
+ EN=Three front row members consecutively attack
+a single enemy, greatly increasing damage.
+The combo makes each successive hit stronger
+than the last.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:275
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=あらかじめ[0x036b]となる前[0x0367]１人が獲得された内、残りの前[0x0367] 
+２人が一気に宝の内悔に回りこんで獲得する。命中果が大 
+きくアップし、大きなダメージを与えることができる。
+ EN=One front row member acts as a decoy. When
+attacked, the other two rush behind the enemy
+and counterattack. Hit rate and damage are
+greatly increased.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:276
+ JP_TERMS=soldier,soldier
+ EN_WORDS=mage,fighter
+ JP=集中獲得が、兵士の追加によって変除したもの。     
+１人目が全力で宝を空中に突き上げ、落下中および宝の立 
+ち上がりぎわに獲得し、大きなダメージを与える。
+ EN=Evolved Concentrated Attack with a Fighter.
+The first member launches the enemy into the
+air, then attacks during the fall and recovery
+for massive damage.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:277
+ JP_TERMS=
+ EN_WORDS=guard,mage
+ JP=パーティ全員で体間たり獲得を行い、宝全体にダメージを 
+与える。イフロントガードゴでブロックされない限り、回 
+避されることはない。
+ EN=The entire party charges the enemy party,
+dealing damage to all enemies. Cannot be
+blocked by Front Guard, and attacks always hit.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:281
+ JP_TERMS=
+ EN_WORDS=monk,mage
+ JP=スレイクラッシュが、モンクの追加によって変除したもの。
+２人が気力をこめて宝像をかけ向け、そして帰る。行きと 
+帰りでダメージを与え、かつ不開族を倒すことができる。
+ EN=Evolved Slay Crash with a Monk.
+Two members charge through the enemy with
+spirit energy, dealing damage on the charge
+and return, and can destroy undead.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:282
+ JP_TERMS=soldier,soldier
+ EN_WORDS=mage,fighter
+ JP=wスラッシュが、兵士の追加によって変除したもの。   
+前[0x0367]２人が武器を振るってカマイタチを発生させ、獲得。 
+目[0x0297]の内方にいる宝にもダメージを与えることがある。
+ EN=Evolved W-Slash with a Fighter.
+Two front row members swing their weapons to
+create a shockwave. May also damage enemies
+behind the target.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:283
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=前[0x0367]３人が、一体になって武器を振り回しながら、宝の 
+前を一気にかけぬけ、宝前[0x0367]１容にダメージを与える。  
+与えるダメージこそ高いが、低い命中果がポイント。
+ EN=Three front row members charge through the
+entire enemy front row as one, dealing damage
+to each enemy. High damage but low hit rate.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:285
+ JP_TERMS=
+ EN_WORDS=swordsman
+ JP=バックアタックが、侍の追加によって変除したもの。   
+侍の[0x02a9]編によって、より解力なカウンター獲得にくわえて、
+宝を[0x03d1]制させることすらある。
+ EN=Evolved Back Attack with a Samurai.
+The samurai's swordsmanship enables an even
+more powerful counterattack that can also
+paralyze the enemy.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:286
+ JP_TERMS=soldier,soldier
+ EN_WORDS=knight,mage
+ JP=s・j・aが、暗兵士の追加によって変除したもの。   
+上空から気をこめて武器をたたきつけることでフィールド 
+を大きくゆるがせ、宝全体にダメージと気有を与える。
+ EN=Evolved SJ Attack with a Dark Knight.
+Slams a spirit-charged weapon from above to
+create a shockwave, dealing damage and
+stunning all enemies.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:287
+ JP_TERMS=
+ EN_WORDS=shop,mage,bishop
+ JP=ホールドアタックが、集教の追加によって変除したもの。 
+内[0x0367]が宝をホールドする受に宝のスキを見向き、そこを前 
+[0x0367]が獲得することで、より解力なダメージを与える。
+ EN=Evolved Hold Attack with a Bishop.
+The back row spots the enemy's weakness while
+holding, allowing the front row to deal even
+greater damage.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:290
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者１人
+ EN=1 MP user
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:292
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者１人
+ EN=1 MP user
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:294
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者１人
+ EN=1 MP user
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:297
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者２人
+ EN=2 MP users
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:299
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者２人
+ EN=2 MP users
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:300
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者３人
+ EN=3 MP users
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:301
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者３人
+ EN=3 MP users
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:310
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者３人
+ EN=3 MP users
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:311
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者３人
+ EN=3 MP users
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:313
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=内[0x0367]騎法使息者と獲得者１人ずつ
+ EN=1 back row caster and 1 attacker
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:315
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者２人
+ EN=2 MP users
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:320
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=ディスペル可能者前内２人
+ EN=2 Dispel-capable front and back members
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:322
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者１人
+ EN=1 MP user
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:328
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者１人
+ EN=1 MP user
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:331
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者１人
+ EN=1 MP user
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:333
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=mp[0x020a]著者１人
+ EN=1 MP user
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:343
+ JP_TERMS=-er/person,shop
+ EN_WORDS=shop
+ JP=われらがヴィガー商店では、
+ただ今、新入社員をボシュウしてます。
+ボシュウ人員はたった１人 
+入社長方者はエントリーシートを
+持って、店へ来てください
+ EN=Our Vigger Shop is currently recruiting
+new employees! Only one position available.
+Applicants, please bring your entry sheet
+to the shop.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:347
+ JP_TERMS=-er/person
+ EN_WORDS=
+ JP=このたびドゥーハン器では、冒険者[0x0362]助
+書を増立いたしました。
+絶場に仲壁を５人連れてきていただいた
+人全員に、特別冒険者手間てとして
+５００gを交階いたします。
+ EN=Duhan Castle has recently established an
+Adventurer Assistance Program.
+Bring 5 companions to the Castle and
+each person will receive a special
+adventurer stipend of 500G.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:349
+ JP_TERMS=king
+ EN_WORDS=king
+ JP=迷宮[0x0319]で、古古エルフ王戦の遺[0x03e0]が見つ
+かったという情報が入った。
+冒書与蓄に必要な品が手に入るかもしれ
+ない。迷宮３階のスクラップ置き場まで
+行って結かめてくれないか？
+ EN=Information has come in that ruins of an
+ancient Elf kingdom were found in the
+labyrinth. Items needed for the book of
+adventures may be there. Go to the scrap
+yard on B3F and investigate.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:353
+ JP_TERMS=soldier,king,soldier
+ EN_WORDS=knight
+ JP=この依頼を受けてくださった方に
+報酬として、とちをおゆずりします。
+依頼[0x0319]王は受けてくださった方にのみ
+おはなしします。
+兵士団の方はごえんりょねがいます。
+ EN=As a reward for accepting this request,
+I will transfer a piece of land to you.
+Details will only be shared with those
+who accept.
+Knight Order members, please refrain.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:360
+ JP_TERMS=soldier,soldier,-er/person
+ EN_WORDS=knight
+ JP=兵士団では、[0x03c3][0x03ca]内に加入されている
+冒険者のレベルチェックを行っております。
+どのくらい迷宮・冒険についてよく
+知っているかといったテストです。
+御用がある方はまず依頼を受けてください。
+ EN=The Knight Order is conducting level checks
+on registered adventurers.
+This is a test of how well you know
+the labyrinth and adventuring.
+Interested parties, accept the request first.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:361
+ JP_TERMS=
+ EN_WORDS=mage
+ JP=一人前の騎事持になるために、日手避行を
+しているエルフの女の子メラーニエと
+そのマネージャーのミリィです 
+たくさん騎法を覚えたいので、冒書事持の
+いるパーティにいれてください
+ EN=I'm Melanie, an elf girl training daily
+to become a full-fledged mage,
+and my manager Miri.
+I want to learn lots of spells, so please
+let me join a party with adventurers.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:362
+ JP_TERMS=
+ EN_WORDS=priest
+ JP=わたしの体をさがしてください。
+わたしはずっとむかし、ひとりで
+あやしいきょうかいにしのびこんだとき
+こわいかおのしきょうさまに
+ころされてしまいました。
+ EN=Please find my body.
+A long time ago, I snuck into
+a suspicious church all by myself.
+A scary-faced priest
+killed me.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:364
+ JP_TERMS=merchant
+ EN_WORDS=merchant,guild
+ JP=ドゥーハン商人ギルドで[0x026f][0x0268]していた
+カルマン探索ツアーのガイドが一名
+経に冒員となり、古わりのガイドさんを
+探しています 
+迷宮探索に自信のある方、待ってます
+ EN=The guide for the Karman Exploration Tour
+organized by the Duhan Merchant Guild has
+suddenly become an adventurer, and we need
+a replacement guide.
+Confident explorers, we're waiting for you.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:365
+ JP_TERMS=
+ EN_WORDS=master
+ JP=侍道を差め、新たなる光を見出すため
+には一進の職人によってつくられた鎧が
+必要であると感じた。
+どなたか手に入れてもらえないだろうか？
+ EN=To master the way of the samurai and find
+a new light, I feel I need armor crafted by
+a master artisan.
+Would someone obtain one for me?
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:366
+ JP_TERMS=
+ EN_WORDS=master
+ JP=やっとの思いで手に入れた一進の鎧。
+だが新たなる光を見出すにはまだ
+まだ何かが足りぬようだ。
+そこでこの鎧を迷宮の欠岩できた
+えてきてはもらえぬだろうか？
+ EN=The masterwork armor, obtained with great
+effort. But to find the new light, something
+is still missing.
+So I'd like someone to temper this armor
+in the labyrinth's lava rocks.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:367
+ JP_TERMS=
+ EN_WORDS=master,warrior
+ JP=一進の鎧に迷宮の騎力をそそぎこみ、
+早解にきたえぬいた鎧で日手戦い向いて
+きたがまだ何かが足りない。そこで異人
+の戦いというものをじっくり見士したい。
+一進の武士からのもうし出を待つ
+ EN=I poured the labyrinth's magic into the
+masterwork armor and tempered it rigorously,
+but something is still missing. I'd like to
+observe foreign fighting styles.
+Awaiting a challenge from a master warrior.
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:390
+ JP_TERMS=merchant
+ EN_WORDS=merchant,guild
+ JP=商人ギルド
+ EN=Merchant Guild
+
+FILE=data/type2_translated/batch_r39_equip_a.json KEY=39:398
+ JP_TERMS=soldier,soldier
+ EN_WORDS=knight
+ JP=兵士団
+ EN=Knight Order
+

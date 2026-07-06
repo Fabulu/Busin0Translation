@@ -1,0 +1,64 @@
+chunk_00_translated.json RES=34 MI=25 [盗賊=thief]
+  JP:盗賊のリスト / 
+  EN:Thief's Wristband / 
+
+chunk_00_translated.json RES=34 MI=26 [兵士=soldier]
+  JP:兵士のリスト / 
+  EN:Knight's Wristband / 
+
+chunk_r34_fix.json RES=34 MI=157 [兵士=soldier]
+  JP:聖兵士の宮 / 
+  EN:Holy Knight Armor / 
+
+chunk_r34_fix.json RES=34 MI=170 [兵士=soldier]
+  JP:聖兵士の辺 / 
+  EN:Holy Knight Helm / 
+
+chunk_r34_fix.json RES=34 MI=191 [兵士=soldier]
+  JP:聖兵士の防 / 
+  EN:Holy Knight Shield / 
+
+chunk_r34_fix.json RES=34 MI=203 [兵士=soldier]
+  JP:聖兵士の小手 / 
+  EN:Holy Knight Gauntlets / 
+
+chunk_r34_fix.json RES=34 MI=366 [盗賊=thief]
+  JP:盗賊の短鎧 / 
+  EN:Thief's Knife / 
+
+chunk_r34_fix.json RES=34 MI=388 [神主=shinto-priest]
+  JP:神主の祠 / 
+  EN:Divine Lord Sword / 
+
+chunk_r34_fix.json RES=34 MI=391 [兵士=soldier]
+  JP:聖兵士の祠 / 
+  EN:Holy Knight Sword / 
+
+chunk_r34_fix.json RES=34 MI=437 [兵士=soldier]
+  JP:聖兵士の手攻 / 
+  EN:Holy Knight Axe / 
+
+chunk_r34_fix.json RES=34 MI=490 [盗賊=thief]
+  JP:盗賊の団法 / 
+  EN:Thief's Bow / 
+
+chunk_r34_fix.json RES=34 MI=721 [盗賊=thief]
+  JP:盗賊の宝救 / 
+  EN:Thief Soul / 
+
+chunk_r34_fix.json RES=34 MI=726 [兵士=soldier]
+  JP:兵士の宝救 / 
+  EN:Knight Soul / 
+
+chunk_r34_fix.json RES=34 MI=731 [兵士=soldier]
+  JP:聖兵士の宝救 / 
+  EN:Holy Knight Soul / 
+
+chunk_r34_fix.json RES=34 MI=732 [兵士=soldier]
+  JP:暗兵士の宝救 / 
+  EN:Dark Knight Soul / 
+
+chunk_r34_fix.json RES=34 MI=937 [盗賊=thief]
+  JP:盗賊の腕 / 
+  EN:Thief Skin / 
+

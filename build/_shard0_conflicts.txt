@@ -1,0 +1,400 @@
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=44
+JP_TERM=soldier  expects one of ['soldier', 'warrior']
+JP: 兵士 / 
+EN: Samurai / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=48
+JP_TERM=soldier  expects one of ['soldier', 'warrior']
+JP: 聖兵士 / 
+EN: Paladin / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=49
+JP_TERM=soldier  expects one of ['soldier', 'warrior']
+JP: 暗兵士 / 
+EN: DrkKnt / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=94
+JP_TERM=knight  expects one of ['knight']
+JP: 騎士の生態に解い関心を持っている。 / 騎士を見つけて調べるのが大好き。 / 
+EN: Loves studying / monster biology. / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=104
+JP_TERM=knight  expects one of ['knight']
+JP: 話え騎士であっても戦払のない友好的な / 騎士をむやみに殺傷するのは許せない。 / 
+EN: Can't forgive those / who slay kind foes. / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=105
+JP_TERM=knight  expects one of ['knight']
+JP: 騎士をかたっぱしから殺すのが生きがい。 / 逃げるなどといった除卑的な行動を嫌う。 / 
+EN: Lives to slay all. / Hates cowardly flee. / 
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=34
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: その[0514]だ[0520]ききらない[04B0][0335]まりに、この[04A3]変抜場が、[0521][0522]宿新しいものであることが感じ取れた。
+EN: The fresh blood / showed this / brutal scene was / very recent.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=45
+JP_TERM=king  expects one of ['king']
+JP: 大[0141]町な[04F0]却の者は、かなわないと思ったのか、[0180]、中王装ろに欠びのき、今度は[047F][0627]のようなものを[061F]から取り出し、[04FE]いた。
+EN: The blood-soaked / figure, realizing / it was outmatched / jumped back and / pulled out a / scroll and / chanted.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=69
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: 彼らは者嫌であるが汝に[058D]われ、[01E3]帰という個なる長にあるが汝にその[04AC]宿になったといえる。
+EN: They were / soldiers but / were hunted, and / became victims / of this place.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=105
+JP_TERM=king  expects one of ['king']
+JP: 余の[04F9]と彼の[04F9]は、同じように王息[01E3]帰前だったんですよ。
+EN: My parents and / his were both / famous soldiers.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=122
+JP_TERM=king  expects one of ['king']
+JP: 階の王だ！階の王が生まれた！！。
+EN: The floor master! / It has been / born!!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=123
+JP_TERM=king  expects one of ['king']
+JP: 高んでいる！階の王が俺を高んでいるんだ！！。
+EN: It's calling me! / The floor master / is calling me!!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=125
+JP_TERM=king  expects one of ['king']
+JP: もう協しまなくていいのよ何もかも編わるんだからシムゾンはその声に[0673]かれるようにふらふらと王いていった。
+EN: No more suffer- / ing. Everything / will change. / Simzon walked / toward the voice / in a daze.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=133
+JP_TERM=king  expects one of ['king']
+JP: その場に退った魔物は、こちらに向かって王いてくる。
+EN: The remaining / monster walked / toward you.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=262
+JP_TERM=king  expects one of ['king']
+JP: くっ！[0425]話事[0431][049A]生だ。キサマにリープしている[0633]はねえ、とっとと王いてカエレ 
+EN: Tch! Emergency! / No time for / Leep! Get out!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=307
+JP_TERM=king  expects one of ['king']
+JP: 待ち防ろうとしたベルグラーノが王を限め、戻ってきた。
+EN: Belgrano, / about to leave, / stopped and / came back.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=501
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: その目が野備めたら！向魔にとっては岩[040B]宿な武器になるでしょうね。
+EN: Once awakened, / they'll become / a terrifying / weapon!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=502
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: 棒宿な者！[028E]者！大[028E]腕の者を呪がらないことね。
+EN: Don't fear the / dangerous, the / dead, or the / fallen!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=522
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: あなたって、なんていうかムードメーカー宿な武器になる並来[0141]があると思うの。
+EN: You could be a / morale booster / for your party!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=561
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: もっと低[0597]宿に[0454]し物に参加してポイント得めてくださいよ  
+EN: Do more events / to earn points!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=656
+JP_TERM=king  expects one of ['king']
+JP: 者生、時には王んできたをを後り大ってみるのも向くない。新しいをが見えてくるから。それが者生の落とし[069A]。まっすぐ両に級み[01B5]けた[04CF]はもう者生に[04CD]れ[03EB]てました。    いだいになる戦帰 オトム
+EN: Life: sometimes / look back. New / paths open. / That's life's / pitfall. / -Otom, future / general
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=707
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: これだから騎騎者は崩る。もっと知宿にやっていかないと、[02A1]主が[05B2]えた時に装[048A]するよ。
+EN: Adventurers are / hopeless. Be / smarter or / you'll regret / it later.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=708
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: はあ、一今がないな。汝が値[049A]宿にそこをどいてくれないのなら、[04CF]がどかせてあげよう。
+EN: If you won't / move willingly, / I'll MAKE you!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=737
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: まったく、くだらん物を以りおる。こんなものはな、こうするのが一番柵[03EB]宿なのだよ 
+EN: What a useless / thing. This is / how you deal / with such / items!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=767
+JP_TERM=king  expects one of ['king']
+JP: 与はこちらの[0269]から義へ出るために王いてきた。
+EN: The man walked / this way from / the other side.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=868
+JP_TERM=king  expects one of ['king']
+JP: 余は優臆美を[0550]う者。今は、置形エルフ王息の[01DA][04E4]について[0494][0495]をしている。
+EN: I read the art. / Currently / researching / ancient elven / royal relics.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=891
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: イなに言ってんだ オレッチ[01BC]の[01C9]心宿な[0143]稼をイカサマよばわりとは汝[05DE]な ゴ
+EN: My natural / skill isn't / cheating! How / rude!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=919
+JP_TERM=king  expects one of ['king']
+JP: [01E3]帰前の者は腕[02A1]を[0143][0402]らせながら、ニ、中王[04A4]いた。
+EN: The soldier / stepped back, / trembling.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=56
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: 雇感宿中だよ、くそっ！。魔女だ、俺達魔女に[042E]われたんだよ。
+EN: "We were on an / investigation, / damn it! It was / the witch! She / attacked us!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=97
+JP_TERM=king  expects one of ['king']
+JP: ついに階の王が生まれた。編わりの地まで、あとわずかしかない。
+EN: At last, the / Dark Lord was / born. There are / only a few days / left until the / end of time.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=98
+JP_TERM=witch  expects one of ['witch', 'sorceress']
+JP: 損神がいるというなら良を見せるがいい主辺きお両の時形が編わり階の[032A][0635]の[0269]が開かれた余は[0555]でよう[0577]ち行く者達にレクイエムを騎騎者過一者として、魔女にかすり[0327]一つ、つけられなかった。
+EN: If you believe in Gods, show them your face. Your powerless days end now. // The door to darkness opens. A requiem for those who fall.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=99
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: あいつは[0322]役宿に違うんだ。
+EN: She's / fundamentally / different.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=236
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: 余の野宿はただ一つ。
+EN: I have only / one objective.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=283
+JP_TERM=witch  expects one of ['witch', 'sorceress']
+JP: ついでという言い今はしたくないが、魔女討伐で迷宮長を行く[023A]に、
+EN: I hate to say / 'while you're at / it,' but as you / explore the / labyrinth,
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=287
+JP_TERM=king  expects one of ['king']
+JP: 彼の[018A]はゼル。王息の高者街隊に暗[062C]している者だ。
+EN: His name is Zel. / He is assigned / to the Royal / Intelligence / Service.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=311
+JP_TERM=king  expects one of ['king']
+JP: しかもあの高者本前は、ドゥーハン王息が箱っている転らじゃねえの？
+EN: And aren't / those guys / employed by the / Duhan royal / family?
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=497
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: その目が野備めたら！向魔にとっては岩[040B]宿な武器になるでしょうね。
+EN: When that / awakens, evil / will have a / terrifying / new enemy.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=498
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: 棒宿な者！[028E]者！大[028E]腕の者を呪がらないことね。
+EN: Don't be / intimidated by / great warriors / or the / undead!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=518
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: あなたって、なんていうかムードメーカー宿な武器になる並来[0141]があると思うの。
+EN: You seem like / a natural / mood maker.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=557
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: もっと低[0597]宿に[0454]し物に参加してポイント得めてくださいよ  
+EN: Join more / events to earn / more points!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=743
+JP_TERM=king  expects one of ['king']
+JP: 余は優臆美を[0550]う者。今は、置形エルフ王息の[01DA][04E4]について[0494][0495]をしている。
+EN: I study / ancient elven / alchemy. / I'm currently / researching / ancient elven / royal / artifacts.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=783
+JP_TERM=king  expects one of ['king']
+JP: イあんた、一生装[048A]するわね。今地のあんたはこの選[0604]によって者生を一王進み嫌違えたわよ ゴ
+EN: "You'll regret / this forever! / Your life just / took a wrong / turn because / of this!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=871
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: [0468]絶宿な魔法度いとは聞いていたが、[0422]魔外の造まじさだな。
+EN: I'd heard she / was an / overwhelming / magic user, / but this is / beyond / imagination.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=40
+JP_TERM=king  expects one of ['king']
+JP: 一今ないのかな！[067E]も王[01BC]や王女に向い事しちゃったわけだし！。
+EN: Maybe there's hope!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=59
+JP_TERM=king  expects one of ['king']
+JP: ヨッペンは[028F]しそうに冒を落として王いて行った！。
+EN: Yoppen walked / away sadly.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=118
+JP_TERM=shop  expects one of ['shop', 'store']
+JP: ルーシーヴィガー商店の立店へ[0160]めて板れた。
+EN: Lucy visited the / branch.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=251
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: その目が野備めたら！向魔にとっては岩[040B]宿な武器になるでしょうね。
+EN: You'll terrify / demons.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=252
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: 棒宿な者！[028E]者！大[028E]腕の者を呪がらないことね。
+EN: Don't fear undead.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=272
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: あなたって、なんていうかムードメーカー宿な武器になる並来[0141]があると思うの。
+EN: Morale booster!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=311
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: もっと低[0597]宿に[0454]し物に参加してポイント得めてくださいよ  
+EN: Earn more points!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=485
+JP_TERM=shop  expects one of ['shop', 'store']
+JP: アルバイト商店でアルバイトをしているオークに出会った。
+EN: Met the orc.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=508
+JP_TERM=witch  expects one of ['witch', 'sorceress']
+JP: イ頼むよ、魔物でも魔女でも 過でもいいからよ ゴ
+EN: "Anyone, help!"
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=603
+JP_TERM=king  expects one of ['king']
+JP: 俺は値色の[06B7]向を探かめるため、もう一度、第５層の置形王息[03DA]に行ってみる。
+EN: Returning to F5.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=610
+JP_TERM=king  expects one of ['king']
+JP: その[01BC]所を見つめていると[0180]者ともこちらに[0141]着いたらしく王み復ってきた。
+EN: They noticed you.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=28
+JP_TERM=king  expects one of ['king']
+JP: 兜魔運解ウェズベルよ、かつての王息の[05B2][04A4]を日に出し、余に何が言いたいのだ？
+EN: What do you wish / to tell me, great / mage Wesbell?
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=42
+JP_TERM=king  expects one of ['king']
+JP: 王息武[0437]の[045B]習に待たされている今、なぜ、討伐隊と[050E]した復せ得めを[03D6]ることしかしていないのかと。
+EN: now only sends / huddled masses as / a strike force?
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=54
+JP_TERM=king  expects one of ['king']
+JP: 魔運解ウェズベルと息王のやりとりを回めていたウェブスター卿が、いぶかしい[0390][016A]を呪かべ多復ってきた。
+EN: Webster, who had / watched the / exchange, / approached with // a puzzled look.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=57
+JP_TERM=witch  expects one of ['witch', 'sorceress']
+JP: 魔女アウローラにすべてを[0523]われ、いまや[0437][0423]に[017C]しいがな！。
+EN: Aurora took / everything from / him. Now he is / but a shadow.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=74
+JP_TERM=king  expects one of ['king']
+JP: 余はこの王瓶を[042F]ってもよい。
+EN: I would give up / this throne.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=112
+JP_TERM=king  expects one of ['king']
+JP: 魔女の[041A]いのせいで、この腕[02A1]は[0577]ちゆく一今。今では王くのもままならぬ。
+EN: This body decays / from the witch's / curse. I can / barely walk.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=121
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: 臆のためか？ それとも[018A]療か？それとも野宿などなく戦うのか？
+EN: For gold? For / glory? Or do you / fight without / purpose?
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=122
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: 迷宮を御る野宿は？臆のため  [018A]療のため 野宿などない
+EN: Your purpose? / For gold / For glory / No purpose
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=149
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: ！ふふ、泊のせいか、少し感[0327]宿になりすぎたようだな。
+EN: Heh, this illness / makes me too / sentimental.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=156
+JP_TERM=king  expects one of ['king']
+JP: 扱いビロードの中腕は大全だが、書増は息王態が[01D7]された[03FE][03FD]書や[0268][0197]書などであった。
+EN: The velvet was / expensive, but / the documents / bore the royal // seal--contracts / and reports.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=166
+JP_TERM=king  expects one of ['king']
+JP: 転が抜れたのは、追美両のあの地、オリアーナ王女とウェブスター卿の[0429]民[042C][0432]だった。
+EN: It was six / months ago, at / Princess Oriana / and Lord // Webster's / engagement.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=177
+JP_TERM=king  expects one of ['king']
+JP: だが、魔女のその[041F]に見つめられると、過もが臆[0433]りにかかったように、一王も功けなくなってしまった。
+EN: But her gaze / froze them all. / No one could / move an inch.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=177
+JP_TERM=witch  expects one of ['witch', 'sorceress']
+JP: だが、魔女のその[041F]に見つめられると、過もが臆[0433]りにかかったように、一王も功けなくなってしまった。
+EN: But her gaze / froze them all. / No one could / move an inch.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=179
+JP_TERM=king  expects one of ['king']
+JP: イいいわ、なら[0408]びのをを王みなさい。雇言してあげる、あなたの腕[02A1]は待ち[0435]れ、殿忍は[03C3]たき[0423]となるゴ
+EN: "Then walk the / path of ruin. / Your body shall / wither, you // shall be a / wreck."
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=183
+JP_TERM=witch  expects one of ['witch', 'sorceress']
+JP: もし、汝が魔女アウローラの誰を持ってくることに封[0428]すれば、報女は思いのままだ。
+EN: If you bring / Aurora's head, / the reward is / yours to choose.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=197
+JP_TERM=king  expects one of ['king']
+JP: ベルグラーノは、息王の態が入った[03FE][03FD]書を見せ、報女というものが、どれほどのものであるかを知らせた。
+EN: Belgrano showed / you the royal / contract and the / reward's scale.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=200
+JP_TERM=king  expects one of ['king']
+JP: いかに報女が[0434]兜であろうと。ドゥーハン王息が武器するかぎりその[03E6]民は者行される。
+EN: As long as Duhan / stands, this / contract will be / honored.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=234
+JP_TERM=king  expects one of ['king']
+JP: 盗に入る力[01B5]きを帰ませたが野にしたのは、緒息から突ベノアの宝剣[0279]と高ばれ、王解としての[02AB]わいに命ちた盗ではない。
+EN: This was not the / proud jewel of / Venoa you'd / heard about.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=265
+JP_TERM=king  expects one of ['king']
+JP: シスターあちこち素したんですよ。こんな倉[0380]で王いて、属[0159]でもひいたらどうするんですか？
+EN: Sister: I looked / everywhere! / You'll catch cold / dressed like that!
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=267
+JP_TERM=king  expects one of ['king']
+JP: シムゾンと高ばれた与は、おとなしくシスターの言[0387]に[0412]い、役会のほうに王いていった。
+EN: The man called / Simzon followed / the nun to the / church.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=271
+JP_TERM=king  expects one of ['king']
+JP: 魔帰、いつも何かに[054A]えるように、盗をさまよい王いているんです。
+EN: Since then he's / wandered the / town, afraid of / something.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=280
+JP_TERM=king  expects one of ['king']
+JP: 盗に入る力[01B5]きを帰ませたが野にしたのは、多団緒息から突ベノアの宝剣[0279]と高ばれ、王解としての[02AB]わいに命ちた盗ではない。
+EN: This was not the / proud jewel of / Venoa you'd / heard about.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=291
+JP_TERM=king  expects one of ['king']
+JP: だって王女[01BC]が[0437]くなってから、ずっと数な出帰事ばかり。
+EN: Ever since the / princess died, / nothing but / bad news.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=299
+JP_TERM=king  expects one of ['king']
+JP: 多神、ドゥーハン王息の[0514]帰を[0323]切する出帰事が顔こるって。
+EN: Soon, something / will change / Duhan's fate.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=16
+JP_TERM=king  expects one of ['king']
+JP: 使動士騎戦は魔装、彼神王息[01E3]帰前の / [03E9][0190]忍に[0175]かれる。
+EN: Knight: All adventurers / are bound by the rules / of the Order.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=19
+JP_TERM=inn  expects one of ['inn', 'lodging']
+JP: また、半物どもを忘す野宿に[014B]るが、 / 単や[04EE]などの住[04DD]の度毒や半法の度 / 毒も索める。
+EN: Knight: Also, while slaying / monsters is the primary / mission, the use of poisons / and sorcery is also / permitted.
+

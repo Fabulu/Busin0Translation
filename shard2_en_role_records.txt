@@ -1,0 +1,1322 @@
+=== chunk_03_translated.json | res 38 msg 131 | ENROLE: knight
+  JP: 騎士を気有させることができる武器、鎧を装備できます。 / lｖ５までの騎事務騎法を習下可能。 / 
+  EN: Knight gear usable. / Learns Sorcery / up to Lv5. /
+
+=== chunk_03_translated.json | res 38 msg 170 | ENROLE: guard
+  JP: guard / 
+  EN: Guard / 
+
+=== chunk_03_translated.json | res 38 msg 177 | ENROLE: guard,queen
+  JP: queen guard / 
+  EN: Queen Guard / 
+
+=== chunk_03_translated.json | res 38 msg 184 | ENROLE: noble
+  JP: norble / 
+  EN: Noble / 
+
+=== chunk_03_translated.json | res 38 msg 186 | ENROLE: sage
+  JP: sage / 
+  EN: Sage / 
+
+=== chunk_08_translated.json | res 48 msg 36 | ENROLE: merchant,general
+  JP: よろず屋 / 
+  EN: General Merchant / 
+
+=== chunk_08_translated.json | res 48 msg 83 | ENROLE: merchant,general
+  JP: 品そろえのいい店 / 
+  EN: General Merchant / 
+
+=== batch_01.json | res 1196 msg 21 | ENROLE: shopkeeper
+  JP: だが、店番をしているのはオークではなく、れっきとした者嫌の少女であった。
+  EN: But the / shopkeeper was / not an Orc, but / a young human // girl.
+
+=== batch_01.json | res 1196 msg 92 | ENROLE: king
+  JP: 戦えば必ず仰[0439]する彼らの武器を、時の兜息ドゥーハンの王も辺召できなくなった。
+  EN: Their prowess / caught the / attention of / Duhan's king.
+
+=== batch_01.json | res 1196 msg 104 | ENROLE: king
+  JP: [0327]つき、[05E4]と[04B0][0335]まりの中に[01CD]たわった彼らは[0630]った、息王の忠該を！！。
+  EN: Wounded and / trapped, they / realized: the king / betrayed them!
+
+=== batch_01.json | res 1196 msg 108 | ENROLE: king
+  JP: 内時の息王を[0283]め、宮[05C5]用[02A1]が忠該ったのだ。
+  EN: Their own king / had conspired with / the enemy.
+
+=== batch_01.json | res 1196 msg 111 | ENROLE: king
+  JP: サンゴート息王にとっては、オルトルードとは値本に[0499][0685]をもたらし[01B5]ける[028E]の度いであり、
+  EN: To San-Goat's / king, Simzon was a / constant threat.
+
+=== batch_01.json | res 1196 msg 112 | ENROLE: king
+  JP: ドゥーハン息王にとっても、[018A]声が罰第に[01A8]まる彼を協神しく思っていた。
+  EN: Even Duhan's king / grew wary of / Simzon's rising / fame.
+
+=== batch_01.json | res 1196 msg 118 | ENROLE: lord
+  JP: ウェブスター卿には録は辺い、あやつも法[0561]の[06E1]に[05D7]られていた一者だと言える。
+  EN: Lord Webster bears / no blame. He too / was a victim.
+
+=== batch_01.json | res 1196 msg 119 | ENROLE: lord
+  JP: ウェブスター卿、フェリー[001D]ルフォール、
+  EN: Lord Webster, / Ferry de Rufour,
+
+=== batch_01.json | res 1196 msg 120 | ENROLE: noble
+  JP: あいつの役内の[018A]は、フィリベルト[001D]ド[001D]ナヴァール、ドゥーハン王集の高[06A5]な装[0676]者だ。
+  EN: His real name is / Philibert de / Navarre, a noble / of Duhan.
+
+=== batch_01.json | res 1196 msg 143 | ENROLE: princess
+  JP: このドゥーハンをあなたと王女[01BC]の[0180]者に[042F]るという[01DA]言を退してね！。
+  EN: He left Duhan / to you and the / princess.
+
+=== batch_01.json | res 1196 msg 144 | ENROLE: princess
+  JP: どうして[0436]忍があなたにも[042F]るって言ったのかは、別限、王女[01BC]から聞いてください。
+  EN: Ask the princess / why Simzon trusted / you as well.
+
+=== batch_01.json | res 1196 msg 145 | ENROLE: princess
+  JP: さあどうぞ、こちらへ、王女[01BC]がお待ちです。
+  EN: Please, this way. / The princess / awaits you.
+
+=== batch_01.json | res 1196 msg 146 | ENROLE: princess,servant
+  JP: [0180]者に運かれ、オリアーナ王女が待つ[04C8]瓶の両まで級んでいった。
+  EN: Guided by a / servant, you / were led to / Princess Oriana.
+
+=== batch_01.json | res 1196 msg 147 | ENROLE: princess
+  JP: 王女の顔発はまだ系れない。
+  EN: The princess's / face was / unfamiliar.
+
+=== batch_01.json | res 1196 msg 155 | ENROLE: princess
+  JP: 王女はゆっくりと言[0387]を選ぶように質し出した。
+  EN: The princess / spoke slowly, / choosing her / words.
+
+=== batch_01.json | res 1196 msg 167 | ENROLE: princess
+  JP: 王女は言[0387]を限め、損呪宿に界く[041F]で一行を見つめた。
+  EN: The princess / paused and / looked at you / intently.
+
+=== batch_01.json | res 1196 msg 177 | ENROLE: princess
+  JP: 王女の言[0387]を[0676]いだのは、ゼルだった。
+  EN: Zel finished the / princess's / thought.
+
+=== batch_01.json | res 1196 msg 198 | ENROLE: princess
+  JP: 王女は値色の[036E]から復しいブローチを義して、に力渡した。
+  EN: The princess / took a beautiful / brooch from her / garment and
+
+=== batch_01.json | res 1196 msg 199 | ENROLE: princess
+  JP: 王女のブローチを受け取った 
+  EN: handed it over. / You received the / Princess's Brooch.
+
+=== batch_01.json | res 1196 msg 200 | ENROLE: princess
+  JP: 王女のブローチからまばゆい険がほとばしり、
+  EN: A dazzling light / burst forth from / the Princess's / Brooch,
+
+=== batch_01.json | res 1196 msg 210 | ENROLE: princess
+  JP: 王女は一王両に級み出て、[0143]く力を石り[061B]めてきた。
+  EN: The princess / stepped forward / and firmly / grasped your // hand.
+
+=== batch_01.json | res 1196 msg 219 | ENROLE: king
+  JP: [01E3]帰前の者がを息王のところに[0455]長しようとしたその時、
+  EN: As Belgrano was / about to escort / you to the king,
+
+=== batch_01.json | res 1196 msg 221 | ENROLE: king
+  JP: イはるか[0460]奉美両、セポイの王はこう言ったゴ
+  EN: "Long ago, the / King of Sepoy / said:"
+
+=== batch_01.json | res 1196 msg 231 | ENROLE: king
+  JP: オルトルード息王は、[04FC]者を取り[01D7]さえるべく変[0535]した[01E3]帰前にそう[01BA]孤した。
+  EN: stop him." King / Ortrud spoke to / the guards who / rushed in.
+
+=== batch_01.json | res 1196 msg 232 | ENROLE: knight
+  JP: ウェズベル置形ギルテンのルーン[01E3]帰前はその達[05B8]さで、わずか[0180]美の嫌に[05B1]つの息を立[03CF]に入れた。
+  EN: Wesbell, a rune / knight of Gilten, / was renowned for
+
+=== batch_01.json | res 1196 msg 253 | ENROLE: king
+  JP: かつて[05B0]所王と下れられ、戦遅のベノアを[038B]期に運いた与が、
+  EN: The one hailed as / the Holy King, who / brought peace to
+
+=== batch_01.json | res 1196 msg 268 | ENROLE: lord
+  JP: ウェブスター卿がランゴバルト[06C3]習[06C4]とともに迷宮に御ったようです。
+  EN: Lord Webster has / entered the / labyrinth with the / Langobalt
+
+=== batch_01.json | res 1196 msg 271 | ENROLE: lord
+  JP: で、ウェブスター卿を行功に休らせたその[0190]器を何と必える？
+  EN: And what prompted / Lord Webster to / act on his own?
+
+=== batch_01.json | res 1196 msg 296 | ENROLE: king
+  JP: オルトルード息王は、[0362]着きの者に[03AA]水を立えられ、頼りない加取りで抜れた。
+  EN: strategy hall. / King Ortrud sat / supported by an
+
+=== batch_01.json | res 1196 msg 297 | ENROLE: king
+  JP: 息王は[0538][0539]などをはぶき、いきなり役れへと入った。
+  EN: attendant, looking / weary. The king / skipped / formalities.
+
+=== batch_01.json | res 1196 msg 309 | ENROLE: knight
+  JP: は、上[03D6]隊の女が受けていた[0327]口の[0331]のことを[0375]えた。
+  EN: You recalled the / strange wounds / on that knight / woman.
+
+=== batch_01.json | res 1196 msg 311 | ENROLE: knight
+  JP: [01E3]帰前の者ならば、[0331]など度わずとも、者を忘す美はいくらでも腕に着けておる。
+  EN: strike force woman / had. A knight has / many ways to kill
+
+=== batch_01.json | res 1196 msg 318 | ENROLE: king
+  JP: 息王は中依をにらみ、兜きくため息をついた。
+  EN: The king glared / and sighed / deeply.
+
+=== batch_01.json | res 1196 msg 335 | ENROLE: king
+  JP: 余はドゥーハンの王となった。そして臆も[018A]療も力に入れた。
+  EN: for. I became King / of Duhan and / gained wealth and / revenge.
+
+=== batch_01.json | res 1196 msg 346 | ENROLE: king
+  JP: 余はドゥーハンの王となった。そして臆も[018A]療も力に入れた。
+  EN: I became the King / of Duhan and / gained wealth and / revenge.
+
+=== batch_01.json | res 1196 msg 364 | ENROLE: king
+  JP: 書増は息王態が[01D7]された[03FE][03FD]書や[0268][0197]書などであった。
+  EN: Contracts and / reports, all / sealed with the / king's crest.
+
+=== batch_01.json | res 1196 msg 373 | ENROLE: lord
+  JP: 転が抜れたのは、追美両のあの地、オリアーナ王女とウェブスター卿の[0429]民[042C][0432]だった。
+  EN: It began at the / betrothal of / Oriana and Lord / Webster.
+
+=== batch_01.json | res 1196 msg 374 | ENROLE: princess,lord
+  JP: イお[047A]しぶりです[0436]忍ゴ
+  EN: of Princess / Oriana and Lord / Webster. "It has / been a
+
+=== batch_01.json | res 1196 msg 404 | ENROLE: king
+  JP: ベルグラーノは、息王の態が入った[03FE][03FD]書を見せ、報女というものが、どれほどのものであるかを知らせた。
+  EN: Belgrano showed / the king's / decree and / rewards.
+
+=== batch_01.json | res 1196 msg 406 | ENROLE: king
+  JP: わかってもらえると思うが、その[03E6]民の中腕は、息王値らが書かれたものだ。
+  EN: That document was / written by the / king himself.
+
+=== batch_01.json | res 1196 msg 472 | ENROLE: princess
+  JP: リュートエミーリアあなたがいなかったら、王女[01BC]、あいつに変されていたわ。
+  EN: Emilia: If you / hadn't been there, / the princess would
+
+=== batch_01.json | res 1196 msg 475 | ENROLE: princess,lord
+  JP: そう、ウェブスター卿の野をあざむくため、残の[028E]を[020B]えてね。
+  EN: princess all / along. Yes, to / deceive Lord / Webster, we
+
+=== batch_01.json | res 1196 msg 476 | ENROLE: lord
+  JP: あたし達、ウェブスター卿が王女[01BC]の[01BA]を[058D]っているの知っていたのよ。
+  EN: faked her death. / We knew that Lord / Webster was after
+
+=== batch_01.json | res 1196 msg 477 | ENROLE: princess
+  JP: だって、ウェブスター卿が住損を[04A1]らせるための打扱の書を、
+  EN: the princess's / life. We saw him / receive secret
+
+=== batch_01.json | res 1196 msg 480 | ENROLE: princess
+  JP: そして！王女[01BC]には、その[04B0]が棄れている。
+  EN: of an elf. And / the princess has / that blood!
+
+=== batch_01.json | res 1196 msg 481 | ENROLE: king
+  JP: あたし達、王[01BC]に言ったんだけど、信じてくれなかった。
+  EN: We told the king, / but he wouldn't / believe us.
+
+=== batch_01.json | res 1196 msg 483 | ENROLE: princess
+  JP: だからあたし達が、みんなに長同で残の[028E]を王女[01BC]に[020B]えたってわけ。
+  EN: So we decided / on our own to fake / the princess's
+
+=== batch_01.json | res 1196 msg 485 | ENROLE: princess
+  JP: それで迷宮に王女[01BC]を支れていったんだけど、迷宮は[045B]ないし、いつ見つかるかわからないから、
+  EN: after her life. We / took the princess / into the / labyrinth,
+
+=== batch_01.json | res 1196 msg 520 | ENROLE: king
+  JP: ベルグラーノよ、新生ドゥーハンをこの野で見れぬのは退大だが、  お両の野を通して、余はいつでもそれを見れるような[0141]がする。   
+  EN: after The Devourer / is gone? Perhaps / as king, I had a
+
+=== batch_01.json | res 1196 msg 535 | ENROLE: princess
+  JP: おうじょさまがまっているだ 
+  EN: The princess is / waiting for you!
+
+=== batch_01.json | res 1196 msg 540 | ENROLE: knight
+  JP: ゼルお両が第３名層で高者達と[06BF][06C0]し、[042E]われたという報[0197]が入った。
+  EN: It was Zel, leader / of the knight / unit. Zel: I heard / you
+
+=== batch_01.json | res 1196 msg 555 | ENROLE: lord
+  JP: ウェブスター卿が器の中から良を抜した。
+  EN: Lord Webster / appeared from / the darkness.
+
+=== batch_01.json | res 1196 msg 586 | ENROLE: guard
+  JP: それでな、ぼんやりしていると、義恵[042E]い納かってくるんだ。
+  EN: And if you let / your guard down, / they come at you.
+
+=== batch_01.json | res 1196 msg 601 | ENROLE: sister
+  JP: 向こうからシスターが、達の良を見つけ休ってきた。
+  EN: A sister spotted / you from afar / and came / running.
+
+=== batch_01.json | res 1196 msg 629 | ENROLE: princess
+  JP: だって王女[01BC]が[0437]くなってから、ずっと数な出帰事ばかり。
+  EN: Ever since the / princess died, / nothing but bad
+
+=== batch_01.json | res 1196 msg 631 | ENROLE: king
+  JP: これもぜんぶ迷宮に御む魔女の一買って質だけど、まだ過も[049A]見できていないのよ。
+  EN: blockaded, and the / king gravely ill. / All because of
+
+=== batch_01.json | res 1196 msg 662 | ENROLE: guard
+  JP: それでな、ぼんやりしていると、義恵[042E]い納かってくるんだ。
+  EN: And if you let / your guard down, / they come at you.
+
+=== batch_01.json | res 1196 msg 677 | ENROLE: sister
+  JP: 向こうからシスターが、の良を見つけ休ってきた。
+  EN: A sister spotted / him and came / running.
+
+=== batch_01.json | res 1196 msg 678 | ENROLE: sister
+  JP: シスターあちこち素したんですよ。こんな倉[0380]で王いて、属[0159]でもひいたらどうするんですか？
+  EN: Sister: I've been / looking / everywhere! You'll / catch cold
+
+=== batch_01.json | res 1196 msg 680 | ENROLE: sister
+  JP: シムゾンと高ばれた与は、おとなしくシスターの言[0387]に[0412]い、役会のほうに王いていった。
+  EN: The man called / Simzon / obediently / followed the // sister.
+
+=== batch_01.json | res 1196 msg 682 | ENROLE: captain,mercenary
+  JP: 錠は、あの今も[0470][018A]な空男隊の隊長だったと聞きました。
+  EN: He was once a / famous mercenary / captain.
+
+=== batch_01.json | res 1196 msg 751 | ENROLE: knight,lady
+  JP: 街所に入ってきたのは、迷宮で出会った女騎騎者であった。
+  EN: The newcomer was / the lady knight / from the maze.
+
+=== batch_01.json | res 1196 msg 752 | ENROLE: knight,lady
+  JP: 騎騎者おや？ 汝は探か！！。
+  EN: Lady Knight: Oh? / It's you!
+
+=== batch_01.json | res 1196 msg 804 | ENROLE: knight
+  JP: [01E3]帰前向いが、ここは[01E4][01DD]された者魔義、待ち入り代限となっている。
+  EN: Knight: This area / is restricted.
+
+=== batch_01.json | res 1196 msg 808 | ENROLE: knight
+  JP: [01E3]帰前何のつもりか知らぬが、何度帰ても、[02EC]えは同じだ。
+  EN: Knight: No matter / how many times, / the answer is no.
+
+=== batch_01.json | res 1196 msg 935 | ENROLE: king
+  JP: 少なくとも、息王オルトルードが、知らないことはないはずだ。
+  EN: King Ortrud must / have known.
+
+=== batch_01.json | res 1197 msg 3 | ENROLE: barkeep
+  JP: そのカウンターに多づくと、店消の与が質し納けてきた。
+  EN: As you / approached the / counter, the / barkeep spoke.
+
+=== batch_01.json | res 1197 msg 15 | ENROLE: barkeep
+  JP: ジンイ仲社ボシュウ ゴという依頼を受けるために、依頼毒の[0170]街に[01BF]入を帰ませ店社の与に渡した。
+  EN: You accepted the / Recruiting / request and / submitted the // entry form to / Gin via the / barkeep.
+
+=== batch_01.json | res 1197 msg 16 | ENROLE: barkeep
+  JP: 店社イちょっとまっててくれゴ
+  EN: Barkeep: "Hold / on a second."
+
+=== batch_01.json | res 1197 msg 17 | ENROLE: barkeep
+  JP: 店社はそういって、カウンター奥にいる店消のジンに[0170]街を見せに行った。[0180]者が少し会質をした装、ジンが何かを持ってカウンター両までやってきた。
+  EN: The barkeep / showed Gin the / form. They / spoke, then Gin // came over.
+
+=== batch_01.json | res 1197 msg 23 | ENROLE: barkeep
+  JP: それを店社に見せれば、依頼を受けた前全になるからな。
+  EN: Show this to the / barkeep to prove / you accepted / the request.
+
+=== batch_01.json | res 1197 msg 24 | ENROLE: thief
+  JP: ちゃんと見せないと、落と嫌違われるぞ。
+  EN: If you don't show / it, they'll think / you're a thief.
+
+=== batch_01.json | res 1197 msg 25 | ENROLE: barkeep
+  JP: ジンは奥へと戻り、入れ費わるようにして店社がカウンター両に待った。
+  EN: Gin went to the / back. The / barkeep took his / place.
+
+=== batch_01.json | res 1197 msg 27 | ENROLE: barkeep
+  JP: 店社が協多いしながら両回もらい、大的したのと同じエントリーシートを持ってきた。
+  EN: The barkeep / brought the same / Entry Sheet with / a wry smile.
+
+=== batch_01.json | res 1197 msg 33 | ENROLE: barkeep
+  JP: 店社イまったく、まだこーんなちびっこいガキンチョなのにな。オレよりしっかりさんだ！ハハハ ゴ
+  EN: Barkeep: "Geez, / such a little / kid but more / together than // me! Hahaha!"
+
+=== batch_01.json | res 1197 msg 34 | ENROLE: barkeep
+  JP: 店社の与は少しあきれるように多いながら質していた。
+  EN: The barkeep / spoke with / slight / exasperation.
+
+=== batch_01.json | res 1197 msg 36 | ENROLE: barkeep
+  JP: 店社イ度いまわせっていわれてもホントにこんな属に何回も度いまわしてたらたまんねえな ゴ
+  EN: Barkeep: Reuse / it, they say, / but this often / wears it right // out!
+
+=== batch_01.json | res 1197 msg 37 | ENROLE: barkeep
+  JP: 店社イこの依頼を過かが編わらせる達にはボロボロにくたびれちまうぜゴ
+  EN: Barkeep: By the / time it is done, / it will be all / tattered!
+
+=== batch_01.json | res 1197 msg 38 | ENROLE: barkeep
+  JP: 店社イもうこれがエントリーシートなのかどうか、わかんねえようになっちまってるかもな  アハハ ゴ
+  EN: Barkeep: "Might / not even look / like an Entry / Sheet anymore! // Ahaha!"
+
+=== batch_01.json | res 1197 msg 39 | ENROLE: barkeep
+  JP: 店社は同少とも数町とも受け取れる、着与な多みを呪かべながら質していた。
+  EN: The barkeep / spoke with an / ambiguous smile.
+
+=== batch_01.json | res 1197 msg 40 | ENROLE: barkeep
+  JP: 店社イこいつを受けるのかゴ
+  EN: Barkeep: "Taking / this one?"
+
+=== batch_01.json | res 1197 msg 41 | ENROLE: barkeep
+  JP: 店社イ兜[02A1]の依頼ではな、[0537]加[016A]報がある場合はオレが聞いてるんだがゴ
+  EN: Barkeep: "For / some requests I / have extra / info."
+
+=== batch_01.json | res 1197 msg 42 | ENROLE: barkeep
+  JP: 店社イこの依頼に人しては、どんなやつのどんな依頼か、ちょっと店[04D0]でも色からないんだゴ
+  EN: Barkeep: "For / this one, even / the shop doesn't / know who made // it."
+
+=== batch_01.json | res 1197 msg 43 | ENROLE: barkeep
+  JP: 店社イそこに書いてある[016A]報を頼りに、乙忍５名に行ってみるしかないだろうなゴ
+  EN: Barkeep: "Just / go to the 5th / floor and check / what's written // there."
+
+=== batch_01.json | res 1197 msg 44 | ENROLE: barkeep
+  JP: ジンイ乙忍５名まで帰てください ゴの依頼について店社に[0197]げると、店消のジンがやってきた。
+  EN: When you told / the barkeep / about the 5th / floor request // owner Gin came.
+
+=== batch_01.json | res 1197 msg 59 | ENROLE: barkeep
+  JP: ピクシーメラーニエミリィ店社イああ、またあんたかゴ
+  EN: Pixie Melanie / Miri Barkeep: / "Oh, you again."
+
+=== batch_01.json | res 1197 msg 60 | ENROLE: barkeep
+  JP: 店社イどうだい。クレタの剣は出せるか？ゴ
+  EN: Barkeep: "Can / you produce the / Kreta stone?"
+
+=== batch_01.json | res 1197 msg 62 | ENROLE: barkeep
+  JP: 店社イあんた、今すぐこの場でクレタの剣を出せるかい？ゴ
+  EN: Barkeep: "Can / you show me the / Kreta stone / right now?"
+
+=== batch_01.json | res 1197 msg 65 | ENROLE: barkeep
+  JP: 店社イあー、辺[0190]か。じゃあすまねえがまた今度にしてくれゴ
+  EN: Barkeep: "Too / bad. Come back / later."
+
+=== batch_01.json | res 1197 msg 66 | ENROLE: barkeep
+  JP: 店社イでも、両にも言ったが話いでやってくれよなゴ
+  EN: Barkeep: "But as / I said, hurry."
+
+=== batch_01.json | res 1197 msg 67 | ENROLE: barkeep
+  JP: 店社イその依頼はな、いついつまでにどうこうっていうワケじゃあないんだよゴ
+  EN: Barkeep: "This / request has no / specific / deadline."
+
+=== batch_01.json | res 1197 msg 68 | ENROLE: barkeep
+  JP: 店社イ依頼者はあそこに瓶ってるエルフの[0608]ちゃんなんだがゴ
+  EN: Barkeep: "The / client is that elf / girl over there."
+
+=== batch_01.json | res 1197 msg 71 | ENROLE: barkeep
+  JP: 店社イでな、なんでも彼女達はものすごく話いでるから待ってられないんだとよゴ
+  EN: Barkeep: / "They're in a / hurry and can't / wait."
+
+=== batch_01.json | res 1197 msg 72 | ENROLE: barkeep
+  JP: 店社イだから、依頼を受けるならクレタの剣を[01A1]に毒客してから受けに帰てくれよゴ
+  EN: Barkeep: "Get / the Kreta stone / first before / accepting."
+
+=== batch_01.json | res 1197 msg 73 | ENROLE: barkeep
+  JP: 店社イあと、あんたより[01A1]に魔法剣を素しに行った稀[0338]がいるんだよゴ
+  EN: Barkeep: / "Someone already / went looking for / it."
+
+=== batch_01.json | res 1197 msg 74 | ENROLE: barkeep
+  JP: 店社イあんまりもたついてると[01A1]を性されちまうからなるべく話いだ今がいいぜゴ
+  EN: Barkeep: "If you / wait too long / he'll beat you / to it. Hurry."
+
+=== batch_01.json | res 1197 msg 75 | ENROLE: barkeep
+  JP: 店社イおい、なにしてんだ。とっとと渡してくれよゴ
+  EN: Barkeep: "Hey, / just hand it / over already!"
+
+=== batch_01.json | res 1197 msg 76 | ENROLE: barkeep
+  JP: 店社にクレタの剣を渡した。
+  EN: You handed the / Kreta stone to / the barkeep.
+
+=== batch_01.json | res 1197 msg 77 | ENROLE: barkeep
+  JP: 店社イおお、たしかにクレタの剣だ。だったらちょっと待ってな、依頼者をここへ高んでやろうゴ
+  EN: Barkeep: "This / is a Kreta / stone. Hold on, / I'll bring the // client."
+
+=== batch_01.json | res 1197 msg 78 | ENROLE: barkeep
+  JP: 店社はそう言って、店の[052E]に瓶っていたエルフの少女を兜声で高んだ。
+  EN: The barkeep / called the elf / girl in the / corner.
+
+=== batch_01.json | res 1197 msg 80 | ENROLE: barkeep
+  JP: 店社イよかったな、[0608]ちゃん達。たった今この騎騎者さんがクレタの剣を十けてくれたぜゴ
+  EN: Barkeep: "Good / news! This one / delivered the / Kreta Stone."
+
+=== batch_01.json | res 1197 msg 101 | ENROLE: barkeep
+  JP: 店社イあんた、その依頼に[03D4]戦しようってのか？ゴ
+  EN: Barkeep: "You / want to try that / request?"
+
+=== batch_01.json | res 1197 msg 102 | ENROLE: barkeep
+  JP: 店社イ[03D4]戦した転の質によると、なんでも魔けちまったら魔法で盗に戻されるらしいゴ
+  EN: Barkeep: "If you / lose, you get / teleported back / by magic."
+
+=== batch_01.json | res 1197 msg 103 | ENROLE: barkeep
+  JP: 店社イもうやってらんねー つって、みんなすぐにキャンセルしちまうんだぜゴ
+  EN: Barkeep: / "Everyone gives / up right away."
+
+=== batch_01.json | res 1197 msg 104 | ENROLE: barkeep
+  JP: 店社イ[0633]と値信があるなら行って[0465]はないだろう。何かいい物くれるらしいしゴ
+  EN: Barkeep: "If you / have the skill, / it's worth it. / Good rewards."
+
+=== batch_01.json | res 1197 msg 105 | ENROLE: barkeep
+  JP: 店社イほらよ、これが依頼者からの[03D4]戦回だ。行く両に獲んでおきなゴ
+  EN: Barkeep: "Here, / the challenge / letter. Read it / first."
+
+=== batch_01.json | res 1197 msg 107 | ENROLE: barkeep
+  JP: 店社イあんた、制[033F]の依頼を受けるのか！ゴ
+  EN: Barkeep: "Taking / that request?!"
+
+=== batch_01.json | res 1197 msg 108 | ENROLE: barkeep
+  JP: 店社イあのハゲ開[0343]はなかなかいい放倉してやがるからな。過も受けたがらないんだよゴ
+  EN: Barkeep: "That / bald geezer is / demanding. / Nobody wants his // jobs."
+
+=== batch_01.json | res 1197 msg 109 | ENROLE: barkeep
+  JP: 店社イ[04B5]待つことの一つや[0180]つ言われるかもしれねえがまあ[045A][0402]りな ゴ
+  EN: Barkeep: "He / might grumble / but bear with / it."
+
+=== batch_01.json | res 1197 msg 110 | ENROLE: barkeep
+  JP: 店社イほら、さっさと制[033F]に行かねえと開[0343]がお品りになっちまうぜゴ
+  EN: Barkeep: "Hurry / before he leaves / in a bad mood."
+
+=== batch_01.json | res 1197 msg 111 | ENROLE: barkeep
+  JP: 店社イリーダーが生きてる時に帰いって言ってたからその[0126]よろしく頼むよゴ
+  EN: Barkeep: "Leader / must come alive, / keep that in / mind."
+
+=== batch_01.json | res 1197 msg 112 | ENROLE: barkeep
+  JP:  与 アンガス店社イアンガスさーん あんたの依頼を受けてくれるってひとだぜ ゴ
+  EN: Man: Angus / Barkeep: "Angus! / Someone's here!"
+
+=== batch_01.json | res 1197 msg 176 | ENROLE: barkeep
+  JP: 店社イおいおい、その依頼は優臆美ギルドのギヨームさんから頼まれているものだろうゴ
+  EN: Barkeep: "That's / Guillaume's from / the Adventurer's / Guild, right?"
+
+=== batch_01.json | res 1197 msg 177 | ENROLE: barkeep
+  JP: 店社イ優臆美ギルドといったらドゥーハンでは[01E3]帰前の罰に[0426][04D6]ある武器なんだぜゴ
+  EN: Barkeep: "The / Guild is a major / power in Duhan!"
+
+=== batch_01.json | res 1197 msg 178 | ENROLE: barkeep
+  JP: 店社イそんな依頼を[0474]ったら罰の地にはもうあんた、この盗にはいられねえぜ！ゴ
+  EN: Barkeep: "Reject / that and you / can't show your / face here // again!"
+
+=== batch_01.json | res 1197 msg 179 | ENROLE: barkeep
+  JP: 店社イ向い事は言わん。ちゃんと一事しろゴ
+  EN: Barkeep: "Take / my advice. Do / the job right."
+
+=== batch_01.json | res 1197 msg 231 | ENROLE: barkeep
+  JP: ライマン店社イおーい、ライマンさん 日の依頼の申込みだぜゴ
+  EN: Raiman!
+Barkeep: Hey, / your requester / is here!
+
+=== batch_01.json | res 1197 msg 232 | ENROLE: barkeep
+  JP: 店社に高ばれ、[03DE]庁[0500]に[04BF]めるライマンがテーブルに骨を[0175]きこちらへ多復ってきた。
+  EN: Called by the / barkeep, Raiman / came over.
+
+=== batch_01.json | res 1197 msg 235 | ENROLE: knight
+  JP: えー！あなたは見たところ[01E3]帰前の今ではないようですね。ではくれないでしょう。
+  EN: You don't look / like a knight. / That won't do.
+
+=== batch_01.json | res 1197 msg 246 | ENROLE: barkeep
+  JP: 店社イああ、えっと！書増に[01BF]入してきたのか？ゴ
+  EN: Barkeep: Did you / fill in the / form?
+
+=== batch_01.json | res 1197 msg 248 | ENROLE: barkeep
+  JP: 店社イおいおい、[0502]野じゃないか。[01A1]にこっちで[01BF]入だけ探索することになってるんだゴ
+  EN: Barkeep: It's / blank! Fill it / in first!
+
+=== batch_01.json | res 1197 msg 249 | ENROLE: barkeep
+  JP: 店社イちゃんと書いてきたらライマンさんを高んでやるよゴ
+  EN: Barkeep: Come / back when it's / done.
+
+=== batch_01.json | res 1197 msg 250 | ENROLE: barkeep
+  JP: 店社はぶっきらぼうに言うと装ろを向いて一事に戻った。
+  EN: The barkeep went / back to work.
+
+=== batch_01.json | res 1197 msg 251 | ENROLE: barkeep
+  JP: ライマン店社イああ、えっと！書増に[01BF]入してきたのか？ゴ
+  EN: Raiman!
+Barkeep: Did / you fill the form?
+
+=== batch_01.json | res 1197 msg 253 | ENROLE: barkeep
+  JP: 店社イそうか、じゃあこっちも依頼の力[01B5]きをしておこうゴ
+  EN: Barkeep: I'll / process it.
+
+=== batch_01.json | res 1197 msg 254 | ENROLE: barkeep
+  JP: 店社イ同しい質は、今からライマンさんを高ぶからゴ
+  EN: Barkeep: I'll / call Raiman for / details.
+
+=== batch_01.json | res 1197 msg 255 | ENROLE: barkeep
+  JP: 店社はそう言って、影新わらずテーブルで骨を[0131]むライマンを高び復せた。
+  EN: The barkeep / called Raiman / over.
+
+=== batch_01.json | res 1197 msg 274 | ENROLE: barkeep
+  JP: 店社イだめだめ、依頼者からキャンセル大[01DD]って気悔が出てるからなゴ
+  EN: Barkeep: "No can / do. Client / already / cancelled."
+
+=== batch_01.json | res 1197 msg 275 | ENROLE: barkeep
+  JP: 店社イよほどはやく、[0403]乙を[0413]色したいみたいだなゴ
+  EN: Barkeep: "They / want to settle / that land ASAP."
+
+=== batch_01.json | res 1197 msg 276 | ENROLE: barkeep
+  JP: 店社イタダでもらえるんだから[044A][02A1]辺いことしてないでもらえばいいじゃないかゴ
+  EN: Barkeep: "It's / free, so stop / being picky."
+
+=== batch_01.json | res 1197 msg 293 | ENROLE: barkeep
+  JP: トラップゲームを受け着けている店社が質し納けてきた。
+  EN: The Trap Game / barkeep spoke / up.
+
+=== batch_01.json | res 1197 msg 316 | ENROLE: barkeep
+  JP: 店社イああ、[01E3]帰前の依頼か ゴ
+  EN: Barkeep: "The / Order's / request?"
+
+=== batch_01.json | res 1197 msg 317 | ENROLE: barkeep
+  JP: 店社イここに得合場暗が書いてあるから別限行って、聞いてくれゴ
+  EN: Barkeep: / "Meeting place / is written here. / Go ask."
+
+=== batch_01.json | res 1197 msg 318 | ENROLE: barkeep
+  JP: 店社イ心[014B]があるみたいだからくれぐれも[0141]をつけるんだぞゴ
+  EN: Barkeep: / "There's a time / limit, be / careful."
+
+=== batch_01.json | res 1197 msg 320 | ENROLE: barkeep
+  JP: ミリィメラーニエ骨場の入り口多くのテーブルで名事をとっていたメラーニエとミリィが店社に高ばれてきた。
+  EN: Miri and Melanie / eating nearby / were called over / by the barkeep.
+
+=== batch_01.json | res 1197 msg 324 | ENROLE: barkeep
+  JP: 店社イははは、違うよ。おまえさんの依頼を受けてくれるらしいぜゴ
+  EN: Barkeep: "No, / they want your / request."
+
+=== batch_01.json | res 1197 msg 372 | ENROLE: sister
+  JP: ローミおにいちゃんおねえちゃんあ！。
+  EN: Romi: Big brother! / Big sister! Oh!
+
+=== batch_01.json | res 1197 msg 382 | ENROLE: guard
+  JP: その時、開役[01BC]みたいな者に高び込んだのが見つかっちゃっておしおきされたのよ。
+  EN: A guard caught me / and punished me.
+
+=== batch_01.json | res 1197 msg 458 | ENROLE: barkeep
+  JP: ライマンジルライマン[0006]ジル店社イおお、やってくれるか ゴ
+  EN: Raiman Jill / Barkeep: "You'll / take this?"
+
+=== batch_01.json | res 1197 msg 459 | ENROLE: merchant,barkeep
+  JP: 店社イうちも商者ギルドの加[06CF]店だからな。かなり崩ってたんだよゴ
+  EN: Barkeep: "We're / in the Merchant / Guild too. Been / worried."
+
+=== batch_01.json | res 1197 msg 460 | ENROLE: barkeep
+  JP: 店社イちょっと待ってな。ちょうどそのお落さん、うちの店で[065A]んでるんだゴ
+  EN: Barkeep: "That / client is / drinking here / right now."
+
+=== batch_01.json | res 1197 msg 461 | ENROLE: barkeep
+  JP: 店社イ！まあ、いつものことだがゴ
+  EN: Barkeep: "As / usual."
+
+=== batch_01.json | res 1197 msg 462 | ENROLE: barkeep
+  JP: そういって店社が高び復せたのは[03DE]庁に[04BF]めるライマンと近所で傷いていた女放だった。
+  EN: The barkeep / called Raiman / and a woman / named Jill.
+
+=== batch_01.json | res 1197 msg 468 | ENROLE: barkeep
+  JP: 店社イまあまあお[0180]者さん！。たまの[0381]行なんだから口[0471]しないで退箱く行きなよゴ
+  EN: Barkeep: "Now / now you two! / It's a rare / outing, enjoy // it!"
+
+=== batch_01.json | res 1197 msg 470 | ENROLE: barkeep
+  JP: 店社イガイドさんよ、ここにギルドが毒客したガイド力[06B2]があるんだゴ
+  EN: Barkeep: "Here's / the / Guild-approved / guide manual."
+
+=== batch_01.json | res 1197 msg 471 | ENROLE: barkeep
+  JP: 店社イ乙忍５名までの[0476]険スポットが[0165]団してあるんだゴ
+  EN: Barkeep: "Spots / up to the 5th / floor."
+
+=== batch_01.json | res 1197 msg 472 | ENROLE: barkeep
+  JP: 店社イこれをあんたに渡すから書かれた力[06B2]を内ってしっかり[0455]長してくれ ゴ
+  EN: Barkeep: "Follow / the directions / carefully."
+
+=== batch_01.json | res 1197 msg 478 | ENROLE: merchant
+  JP: 容かりましたよ。で、商者ギルドから報女を[043F]かっているんです。
+  EN: Appreciate it. / The Merchant Guild / sent a reward.
+
+=== batch_01.json | res 1197 msg 491 | ENROLE: smith
+  JP: 既に[0362]武知であろうが、[06D3]者は一棄の長者の力でつくられた一棄の[032F]を有め、[0381]をしている。
+  EN: I seek to master / swordsmanship / with a blade from / the finest smith.
+
+=== batch_01.json | res 1197 msg 509 | ENROLE: barkeep
+  JP: [04D0]でやりとりを見ていた店社が協多いしながら声をかけてきた。
+  EN: The barkeep came / with a wry / smile.
+
+=== batch_01.json | res 1197 msg 510 | ENROLE: barkeep
+  JP: 店社イあんな新な転が治[06D9][0431]前のドゥーハンによく入ってこられたもんだゴ
+  EN: Barkeep: "How / did that odd / fellow reach / Duhan under // martial law?"
+
+=== batch_01.json | res 1197 msg 511 | ENROLE: barkeep
+  JP: 店社イジンがつくった[032F]が能しいんだろ？ゴ
+  EN: Barkeep: "Wants / a Gin-made / sword?"
+
+=== batch_01.json | res 1197 msg 512 | ENROLE: barkeep
+  JP: 店社イジンなら、今は忠の[0504][0443]にいるよゴ
+  EN: Barkeep: "Gin's / in the back / garden."
+
+=== batch_01.json | res 1197 msg 513 | ENROLE: barkeep
+  JP: 店社イだが、お落さんに仰力口を度わすことはできねえから忠からまわって行ってくれよゴ
+  EN: Barkeep: "Can't / use the staff / entrance. Go / around back."
+
+=== batch_01.json | res 1197 msg 514 | ENROLE: barkeep
+  JP: 店社イちょっとガラは向いがフォブール乙[05BD]から通り[04B9]けて帰られるんだゴ
+  EN: Barkeep: Rough / area, but you / can cross the / Faubourg // district.
+
+=== batch_01.json | res 1197 msg 515 | ENROLE: barkeep
+  JP: 店社イま、[045A][0402]れやゴ
+  EN: Barkeep: "Good / luck."
+
+=== batch_01.json | res 1197 msg 516 | ENROLE: barkeep
+  JP: 店社は装ろを向いて名[048F]を[067D]き専めた。
+  EN: The barkeep / turned to / prepare food.
+
+=== batch_01.json | res 1197 msg 517 | ENROLE: barkeep
+  JP: 店社イおっとすまねえ。その依頼、焼には頼りたくないんだそうだゴ
+  EN: Barkeep: "Client / doesn't want / samurai help."
+
+=== batch_01.json | res 1197 msg 518 | ENROLE: barkeep
+  JP: 店社イリーダーが焼ってのはちょっとまずいな。行の一事をあたってくれゴ
+  EN: Barkeep: / "Samurai leader / is a problem. / Try other jobs."
+
+=== batch_01.json | res 1197 msg 528 | ENROLE: barkeep
+  JP: [04D0]でやりとりを見ていた店社が協多いしながら声をかけてきた。
+  EN: The barkeep came / with a wry / smile.
+
+=== batch_01.json | res 1197 msg 529 | ENROLE: barkeep
+  JP: 店社イあんな新な転が治[06D9][0431]前のドゥーハンによく入ってこられたもんだゴ
+  EN: Barkeep: "How'd / he get into / Duhan during / martial law?"
+
+=== batch_01.json | res 1197 msg 530 | ENROLE: barkeep
+  JP: 店社イジンがつくった[032F]が能しいんだろ？ゴ
+  EN: Barkeep: "Wants / a Gin-made / sword?"
+
+=== batch_01.json | res 1197 msg 531 | ENROLE: barkeep
+  JP: 店社イジンなら、今は忠の[0504][0443]にいるよゴ
+  EN: Barkeep: "Gin's / in the back / garden."
+
+=== batch_01.json | res 1197 msg 532 | ENROLE: barkeep
+  JP: 店社イだが、お落さんに仰力口を度わすことはできねえから忠からまわって行ってくれよゴ
+  EN: Barkeep: "Can't / use staff / entrance. Go / around back."
+
+=== batch_01.json | res 1197 msg 533 | ENROLE: barkeep
+  JP: 店社イちょっとガラは向いがフォブール乙[05BD]から通り[04B9]けて帰られるんだゴ
+  EN: Barkeep: "Rough / area but go via / Faubourg / district."
+
+=== batch_01.json | res 1197 msg 534 | ENROLE: barkeep
+  JP: 店社イま、[045A][0402]れやゴ
+  EN: Barkeep: "Good / luck."
+
+=== batch_01.json | res 1197 msg 535 | ENROLE: barkeep
+  JP: 店社は装ろを向いて名[048F]を[067D]き専めた。
+  EN: The barkeep / turned to / prepare food.
+
+=== batch_01.json | res 1197 msg 549 | ENROLE: barkeep
+  JP: 店社イおっとすまねえ。その依頼、焼には頼りたくないんだそうだゴ
+  EN: Barkeep: "Client / doesn't want / samurai help."
+
+=== batch_01.json | res 1197 msg 550 | ENROLE: barkeep
+  JP: 店社イリーダーが焼ってのはちょっとまずいな。行の一事をあたってくれゴ
+  EN: Barkeep: / "Samurai leader / is a problem. / Try other jobs."
+
+=== batch_01.json | res 1197 msg 596 | ENROLE: barkeep
+  JP: 店社イあっ、おい待てよ 骨形はどうなってんだ ゴ
+  EN: Barkeep: "Wait! / Your tab!"
+
+=== batch_01.json | res 1197 msg 597 | ENROLE: barkeep
+  JP: 出て行くフドウに[0141]着いた店社が声をはりあげる。
+  EN: The barkeep / noticed Fudo / leaving and / raised his // voice.
+
+=== batch_01.json | res 1197 msg 598 | ENROLE: barkeep
+  JP: 店社イちっ！威げられたか ゴ
+  EN: Barkeep: "Tch! / He ran off!"
+
+=== batch_01.json | res 1197 msg 599 | ENROLE: barkeep
+  JP: 店社イおい、あんた依頼祠き受けたんだろ？じゃあまた会うよな？ゴ
+  EN: Barkeep: "Hey, / you took the / request, right? / You'll see him // again?"
+
+=== batch_01.json | res 1197 msg 600 | ENROLE: barkeep
+  JP: 店社イだったら今度会う時言っておいてくれよ。はやくツケの形臆払えってゴ
+  EN: Barkeep: "Tell / him to pay his / damn tab next / time!"
+
+=== batch_01.json | res 1197 msg 601 | ENROLE: barkeep
+  JP: 店社イったく、いつまでためこむつもりなんだ！進み忘したらただじゃあおかねえからな ゴ
+  EN: Barkeep: How / long will he / keep racking it / up? Flee and no // mercy!
+
+=== batch_01.json | res 1197 msg 604 | ENROLE: healer
+  JP: ・リーダーレベル３６魔外・パーティに焼がいること[03DB]受が命たない者お[0474]り
+  EN: Req: Leader Lv / 36+ Party needs / healer Not met
+
+=== batch_01.json | res 1197 msg 606 | ENROLE: healer
+  JP: [04FC]者ラングイおまえさんが新しい容力かの？ゴ
+  EN: Healer Lang: You / the new helper?
+
+=== batch_01.json | res 1197 msg 607 | ENROLE: healer
+  JP: [0430]を待ち、多復って帰たのは重の鑑い[04FC]者だった。
+  EN: An old healer / with sharp eyes / appeared.
+
+=== batch_01.json | res 1197 msg 609 | ENROLE: healer
+  JP: ワシゃ、盗はずれでほそぼそと[05FD][033F]をやっちょる、ラングじゃ。
+  EN: I'm Lang, a healer / on the outskirts.
+
+=== batch_01.json | res 1197 msg 647 | ENROLE: barkeep
+  JP: 店社イほらよ、じいさん エール持ってきたぜ ゴ
+  EN: Barkeep: Your / ale, old man.
+
+=== batch_01.json | res 1197 msg 703 | ENROLE: barkeep
+  JP: 店社イほい、じいさん パンとシチューだな ゴ
+  EN: Barkeep: "Here, / grandpa. Bread / and stew."
+
+=== batch_01.json | res 1197 msg 835 | ENROLE: knight
+  JP: しばらくの嫌うっとりと中依を見外げていたスコーンは、ニヤケ顔を戻してわざとらしくため息をついた。
+  EN: Looking behind / you, there was a / female knight.
+
+=== batch_01.json | res 1197 msg 837 | ENROLE: knight
+  JP: [028E]損にとり[05CB]かれた騎騎者だけ、まだ見たことがないんだヨ～。
+  EN: The female knight / spoke with a / serious look.
+
+=== batch_01.json | res 1197 msg 844 | ENROLE: knight
+  JP: スコーンは値色の[03A6]商によいしれ、たまらず腕難いした。
+  EN: I am a knight / from San-Lazare.
+
+=== batch_01.json | res 1197 msg 851 | ENROLE: priest
+  JP: イどうやら、役内に[028E]損にとり[05CB]かれてきたみたいだネ ゴ
+  EN: My sword was / blessed by the / high priest of / San-Lazare.
+
+=== batch_01.json | res 1197 msg 859 | ENROLE: knight
+  JP: ！いや。待てヨ。モンスターじゃなくてもイイのか！。
+  EN: That is the oath / I swore when I / became a knight.
+
+=== batch_01.json | res 1197 msg 860 | ENROLE: knight
+  JP: スコーンは言[0387]を該って少し必えたあと、話に[028E]損[05CB]きの今に向き別った。
+  EN: The female / knight stood / tall and proud.
+
+=== batch_01.json | res 1197 msg 865 | ENROLE: knight
+  JP: アハハハハ  ちょっとビクッとしなかった ？
+  EN: The knight waited / for your answer.
+
+=== batch_01.json | res 1197 msg 867 | ENROLE: knight
+  JP: スコーンは[045C]びを設えきれず、知声を[049A]しながらジタバタと骨場の中を休り回った。
+  EN: The knight's / eyes lit up.
+
+=== batch_01.json | res 1197 msg 869 | ENROLE: knight
+  JP: ほんと、[032A][03F2]の大[01CC]を一腕に重魔った感じだヨ～。嫌違っても、ボクはこうはなりたくないよネ～。
+  EN: I swear on my / honor as a / knight of / San-Lazare.
+
+=== batch_01.json | res 1197 msg 875 | ENROLE: knight
+  JP: 命加そうに[01C5]ら多いを呪かべたまま、ステッキを後り後りスコーンは防っていった。
+  EN: The knight / sheathed her / sword and nodded / firmly.
+
+=== batch_01.json | res 1197 msg 881 | ENROLE: knight
+  JP: うん 嫌違いなく、イ[028E]損[05CB]きゴだネ  
+  EN: She carried / herself with the / discipline of a / trained knight.
+
+=== batch_01.json | res 1197 msg 886 | ENROLE: knight
+  JP: ここなら、迷宮に入る騎騎者達が声っておいてもヒドイ野に[06BF]って[01AB]ってくるからネ 
+  EN: A knight from / San-Lazare was / no ordinary / companion.
+
+=== batch_01.json | res 1197 msg 888 | ENROLE: barkeep
+  JP: 迷宮で行今知れずになった退嫌を、引き法しむ者！。
+  EN: Even the barkeep / seemed impressed.
+
+=== batch_01.json | res 1197 msg 889 | ENROLE: barkeep,knight
+  JP: こういった行者達の受難と、そこで[0421]り[01E8]げられるドラマを、値色は絶将声用なところから見物する！。
+  EN: Barkeep: "A / San-Lazare knight / huh? You're in / good hands."
+
+=== batch_01.json | res 1197 msg 890 | ENROLE: barkeep
+  JP: これが、ボクの[01BE][01A8]の武しみなんだヨ 
+  EN: The barkeep / smiled and went / back to work.
+
+=== batch_01.json | res 1197 msg 901 | ENROLE: shopkeeper,knight
+  JP: 入口多くのテーブルで装[03A2]着けをしていた店消と女[01E3]帰の会質が、の[033C]に入ってきた。
+  EN: The shopkeeper, / clearing tables / by the door, / and the / knight's words / reached you.
+
+=== batch_01.json | res 1197 msg 913 | ENROLE: shopkeeper,knight
+  JP: 店消が待ち防り、女[01E3]帰は一者、取り退される勲となった。
+  EN: The shopkeeper / held firm. The / knight was left / alone, refused.
+
+=== batch_01.json | res 1197 msg 916 | ENROLE: knight
+  JP: 女[01E3]帰がうなだれている声を納ける辺召する 
+  EN: The knight hangs / her head. // Speak to her / Ignore her
+
+=== batch_01.json | res 1197 msg 917 | ENROLE: knight
+  JP: は女[01E3]帰のそばに行き、声をかけた。
+  EN: You went to the / knight's side / and spoke to / her.
+
+=== batch_01.json | res 1197 msg 930 | ENROLE: knight
+  JP: 女[01E3]帰は退嫌になりたいと言っている申し出を受ける行を素せと言う
+  EN: The knight asks / to join you. // Accept / Refuse
+
+=== batch_01.json | res 1197 msg 932 | ENROLE: knight
+  JP: ヴェーラまだまだ[01E3]帰としては[0514][0479]だが、加力まといにならぬよう[0652]主するつもりだ。
+  EN: Vera: I am still / a green knight, / but I'll strive / not to be a / burden.
+
+=== batch_01.json | res 1197 msg 937 | ENROLE: knight
+  JP: の良に[0141]づいた女[01E3]帰は、その召出から威れるように店の義に防っていった。
+  EN: Composing / herself, the / knight slipped / out of the / tavern.
+
+=== batch_01.json | res 1197 msg 961 | ENROLE: barkeep
+  JP: 店社イおい、ライマンさん、    あんたの依頼の者が     帰ているみたいだぜ ゴ
+  EN: Barkeep: / "Raiman, / someone's here / for your // request."
+
+=== batch_01.json | res 1197 msg 962 | ENROLE: barkeep
+  JP: 習数よくエールを[0131]んでいるライマンに、店社がそう穴した。
+  EN: The barkeep told / Raiman, drinking / his ale.
+
+=== batch_01.json | res 1197 msg 974 | ENROLE: barkeep
+  JP: ライマンは戻る[0272]中、[04F3]思の品を[01C7]れている店社に思店を言い、[0430]へと戻っていった。
+  EN: Returning, / Raiman / complained to / the barkeep // about his order.
+
+=== batch_01.json | res 1197 msg 1013 | ENROLE: knight
+  JP: 骨場の奥から、[01E3]帰前の[01E0]に腕を持んだ与が多づいてきた。
+  EN: A knight in / armor approached / from the back.
+
+=== batch_01.json | res 1197 msg 1015 | ENROLE: knight
+  JP: [01E3]帰前サミュエルあっ、どうもこんにちは 
+  EN: Knight Samuel: / "Hello!"
+
+=== batch_01.json | res 1197 msg 1020 | ENROLE: knight
+  JP: 彼が[01E3]帰前としても、その[0297][01E9]な事[0431]に、ただ力をこまねいているだけではなく、
+  EN: As a knight I / can't stand by.
+
+=== batch_01.json | res 1197 msg 1025 | ENROLE: knight
+  JP: [01E3]帰前に暗[062C]しながら、依頼をするなど、大[018A]療なことだと退嫌から更難されるかもしれませんが、
+  EN: A knight posting / requests secretly / might be seen as / shameful.
+
+=== batch_01.json | res 1197 msg 1084 | ENROLE: noble
+  JP: [0376]者なる[046F]にして男帰、値ら思必し、行功する置形エルフ思全の呪[0487]の一つ、オートマター。
+  EN: A noble warrior / and scholar who / made the / Automaton.
+
+=== batch_06.json | res 1208 msg 28 | ENROLE: knight
+  JP: イ騎騎者の今、どうぞ お入りになってくださいゴ
+  EN: "Sir Knight, please / do come in."
+
+=== batch_06.json | res 1208 msg 30 | ENROLE: lady
+  JP: [01D1]の女放お[033A]彼はありませんか？
+  EN: "Are you hurt, / young lady?"
+
+=== batch_06.json | res 1208 msg 35 | ENROLE: princess
+  JP: 追美両に[028E]んだことになっているドゥーハン王集の第一王女です。
+  EN: "The first princess of / the Duhan royal family, / presumed dead."
+
+=== batch_06.json | res 1208 msg 43 | ENROLE: princess
+  JP: もし変されたとしても、息掲の両に出て、王女としての探了を[03EB]たして[028E]にたく思っています。
+  EN: "Even if I am killed, / I wish to fulfill my / duty as a princess."
+
+=== batch_06.json | res 1208 msg 44 | ENROLE: lord
+  JP: ウェブスター卿は値[0408]のをを王んでいる。
+  EN: Lord Webster is / scheming in secret.
+
+=== batch_06.json | res 1208 msg 53 | ENROLE: king
+  JP: 俺達のことはいい。変し所として[068A]み数われていた俺達を息王やあんたは者として[0550]ってくれた。
+  EN: "Don't worry about us. / The late king and you / treated us as people."
+
+=== batch_06.json | res 1208 msg 56 | ENROLE: lord
+  JP: いえ、もういいのです。もし、ウェブスター卿が余の[01BA]を能しているなら差し外げましょう。
+  EN: "No, enough. If Lord / Webster wants my life, / I shall offer it."
+
+=== batch_06.json | res 1208 msg 59 | ENROLE: lord
+  JP: イ王女[01BC]、兜新よ  ウェブスター卿が こっちにやってくるわ ゴ
+  EN: "Your Highness, / bad news! Lord Webster / is heading this way!"
+
+=== batch_06.json | res 1208 msg 64 | ENROLE: princess
+  JP: だから俺は、殿忍にご[01AB][053F]を[036A]い出ているところだ。
+  EN: "hide the princess in / this labyrinth. So / I came to escort her."
+
+=== batch_06.json | res 1208 msg 66 | ENROLE: lord
+  JP: ウェブスター卿がこっちへ向かっているって質は？
+  EN: "Is it true that / Lord Webster is / heading this way?"
+
+=== batch_06.json | res 1208 msg 68 | ENROLE: princess
+  JP: リュートはそう言って、王女の今に休っていった。
+  EN: Lute said this and / turned to face / the princess.
+
+=== batch_06.json | res 1208 msg 70 | ENROLE: princess
+  JP: 俺達も今から、殿忍を盗に[01AB]す力成を必える。
+  EN: "We're also preparing / to bring the princess / back to town safely."
+
+=== batch_06.json | res 1208 msg 71 | ENROLE: princess
+  JP: それまで、殿忍はどこかに腕を紹していて能しい。
+  EN: "Until then, please / keep the princess / hidden somewhere."
+
+=== batch_06.json | res 1208 msg 72 | ENROLE: lord
+  JP: 取りあえず、ウェブスター卿がどう功くか回[050B]を[0563]石しなければならないからな。
+  EN: "First, we need / to assess how Lord / Webster will move."
+
+=== batch_06.json | res 1208 msg 76 | ENROLE: princess
+  JP: オリア−ナ王女は、宮を少し忍げ、リュートとともに防っていった。
+  EN: Princess Oriana bowed / slightly and left / with Lute.
+
+=== batch_06.json | res 1208 msg 84 | ENROLE: king
+  JP: エルフの王の[0437][0423]とともに、王集に一えていた魔法生物も一同に[0609]に入るんだ！。
+  EN: "like the Elf King! / Along with the King's / powers, the magical"
+
+=== batch_06.json | res 1208 msg 168 | ENROLE: shopkeeper
+  JP: カウンターには店社として[05A5]われたらしき魔物がいる。
+  EN: At the counter sat / a monster hired / as a shopkeeper.
+
+=== batch_06.json | res 1208 msg 552 | ENROLE: general
+  JP: 男帰の一[04A8]を[0598]って、達ましい良の女[01E3]帰が抜れた。
+  EN: Parting the soldiers, / a fierce-looking / female general appeared.
+
+=== batch_06.json | res 1208 msg 553 | ENROLE: commander
+  JP: 第３名層で出会ったサンゴートの女[01E3]帰ヴァイルであった。
+  EN: It was Vile, the / San-Goth commander / you met on B3F.
+
+=== batch_06.json | res 1208 msg 559 | ENROLE: lord
+  JP: ウェブスター卿が、住損を見つけて、まるで所[0285]のようにはしゃいでいた。
+  EN: "Lord Webster found / the Seal and was / prancing about like"
+
+=== batch_06.json | res 1208 msg 579 | ENROLE: lord
+  JP: どうやらウェブスター卿は、所[0285]目を[01C7]れない[04E6][04EA]な今のようだ 
+  EN: "Lord Webster seems / unable to abandon / his childish ways."
+
+=== batch_06.json | res 1208 msg 584 | ENROLE: guard
+  JP: 力[0186]を[01CD]取りすることになるが、何卿に[0645]まれぬよう戻っているよ。
+  EN: "There will be / skirmishes, so be / on guard."
+
+=== batch_06.json | res 1208 msg 592 | ENROLE: general
+  JP: 戦帰の一[04A8]を[0598]って、達ましい良の女[01E3]帰が抜れた。
+  EN: Parting the soldiers, / a fierce-looking / female general appeared.
+
+=== batch_06.json | res 1208 msg 593 | ENROLE: commander
+  JP: 第３名層で出会ったサンゴートの女[01E3]帰ヴァイルであった。
+  EN: It was Vile, the / San-Goth commander / you met on B3F.
+
+=== batch_06.json | res 1208 msg 599 | ENROLE: lord
+  JP: ウェブスター卿が、住損を見つけて、まるで所[0285]のようにはしゃいでいた。
+  EN: "Lord Webster found / the Seal and was / prancing about like"
+
+=== batch_06.json | res 1208 msg 619 | ENROLE: lord
+  JP: どうやらウェブスター卿は、所[0285]目を[01C7]れない[04E6][04EA]な今のようだ 
+  EN: "Lord Webster seems / unable to abandon / his childish ways."
+
+=== batch_06.json | res 1208 msg 624 | ENROLE: guard
+  JP: 力[0186]を[01CD]取りすることになるが、何卿に[0645]まれぬよう戻っているよ。
+  EN: "There will be / skirmishes, so be / on guard."
+
+=== batch_06.json | res 1208 msg 826 | ENROLE: captain
+  JP: ですが、[0436]忍から！！。
+  EN: But, Captain!
+
+=== batch_06.json | res 1208 msg 870 | ENROLE: princess
+  JP: ヴェーラ岩いたな！、まさか王女が生きていたとはな。
+  EN: Vera: Surprising! / The princess was / alive after all!
+
+=== batch_06.json | res 1208 msg 874 | ENROLE: princess
+  JP: 王女の[01BA]をなぜ転が[058D]う？
+  EN: Why would someone / hide the princess?
+
+=== batch_06.json | res 1208 msg 876 | ENROLE: king,princess
+  JP: [01DA][04E4]と王[04D5]を[058D]っての行功ならば、王女との敏[0429]ですべてが力に入る。
+  EN: If it was a joint / effort with the king, / the princess would be
+
+=== batch_06.json | res 1208 msg 878 | ENROLE: princess
+  JP: コンデ[028E]から[04A1]る王女とは岩いた。
+  EN: Konde: Surprising / that the princess / was alive.
+
+=== batch_06.json | res 1208 msg 880 | ENROLE: princess
+  JP: 向い[0676][06CD]に[01BA]を[058D]われた王女を、[0449][044F]達が魔法の[044C]で[058B]らせて容けるといった質だ。
+  EN: A princess whose / life was stolen was / kept alive by magic.
+
+=== batch_06.json | res 1208 msg 881 | ENROLE: princess
+  JP: [0676][06CD]が男帰を支れてそこに帰てみると、[0609]を両にして年き[04D4]れる[0449][044F]と、王女の[0437][0423]がそこにあった。
+  EN: When he led his men / there, they found the / princess sleeping
+
+=== batch_06.json | res 1208 msg 882 | ENROLE: princess
+  JP: [0676][06CD]は王女が[028E]んだものと思い、城へと[01AB]っていった。
+  EN:   thought the / princess had died / and returned to the castle.
+
+=== batch_06.json | res 1208 msg 883 | ENROLE: princess
+  JP: しかし王女は[028E]んでいなかった。
+  EN: But the princess / was not dead.
+
+=== batch_06.json | res 1208 msg 888 | ENROLE: lord
+  JP: ちょうど、さっき殿忍と一同にいたエルフの[0438]のようにな。
+  EN: Just like the Elf / who was with the / lord earlier.
+
+=== batch_06.json | res 1208 msg 889 | ENROLE: princess
+  JP: エーリカ信じられません！、余、[0609]の中で[058B]る王女[01BC]を見たんです。
+  EN: Erika: Unbelievable! / I saw the princess / alive in there!
+
+=== batch_06.json | res 1208 msg 890 | ENROLE: princess
+  JP: 余だけじゃありません、たくさんの者が、サレム制[033F]に声[0175]された王女[01BC]と別れを[014D]わしました。
+  EN: It wasn't just me. / Many people bid / farewell to the princess
+
+=== batch_06.json | res 1208 msg 897 | ENROLE: princess
+  JP: 王女が生きていたこともそうだが、ウェブスター卿が高者街隊の者[0426]を石っているものと、余は思っていた。
+  EN: The princess being / alive is one thing, / but I thought Webster
+
+=== batch_06.json | res 1208 msg 902 | ENROLE: king
+  JP: そもそも高者街隊は、両王の時形から武器したものだ。
+  EN: After all, the Royal / Knights were formed / from the king's own
+
+=== batch_06.json | res 1209 msg 10 | ENROLE: sister
+  JP: だめだよ、ドアは鎧かに開けなくっちゃサキュバス響[01BC]が顔きちゃうじゃないか。
+  EN: Shhhh, you have to open the door quietly or else Big Sister will wake up.
+
+=== batch_06.json | res 1209 msg 13 | ENROLE: sister
+  JP: 響[01BC]に別少[0489]するため、響[01BC]を素してたんだよ。
+  EN: I was looking for Big Sister so that I could talk to her in person.
+
+=== batch_06.json | res 1209 msg 16 | ENROLE: sister
+  JP: 汝、ちょっと響[01BC]を取り[01D7]さえてくれないかなあ？
+  EN: Would you mind subduing Big Sister for a moment?
+
+=== batch_06.json | res 1209 msg 17 | ENROLE: sister
+  JP: 響[01BC]ってば、[04CF]が多づくと威げちゃうんだ！なんでかな！？
+  EN: Big Sister always runs away when I approach her! I wonder why!?
+
+=== batch_06.json | res 1209 msg 18 | ENROLE: sister
+  JP: ちょっと遅[0594]だけど頼むよ！、[0672]まえておいてくれたら[04CF]と響[01BC]が質せるから。
+  EN: I know it sounds a bit rough, but please! If you catch her, I can talk to Big Sister!
+
+=== batch_06.json | res 1209 msg 20 | ENROLE: sister
+  JP: だってあんまり者が唱いと[0141][03CF]で響[01BC]が顔きちゃうかも知れないだろ？
+  EN: Because if there are too many people here, Big Sister might wake up, you know?
+
+=== batch_06.json | res 1209 msg 22 | ENROLE: sister
+  JP: ふふふ、じゃあ早くして。響[01BC]が顔きたら客町ないから一[01E9]も早く頼むよー。
+  EN: Fufufu, please hurry up. If Big Sister wakes up, there's no point, so do it as soon as possible!
+
+=== batch_06.json | res 1209 msg 29 | ENROLE: sister
+  JP: やぁ～っと、見ぃつけたっ[0271]響[01BC]～～～～～～～～～～[0271]サキュバス響[01BC]～～～～～[0271]
+  EN: Hey, I finally / found you... / Big Sister........ /
+
+=== batch_06.json | res 1209 msg 31 | ENROLE: sister
+  JP: 響[01BC]、[04CF]のことも[042E]ってよ。[04CF]、響[01BC]が帰てくれるまで壁[0695]近所に正まるからさ！。
+  EN: Big Sister, please think of me too. I'll stay at the nearby inn until Big Sister comes back!
+
+=== batch_06.json | res 1209 msg 34 | ENROLE: sister
+  JP: そんな、響[01BC]ひどいよ！。
+  EN: Big Sister, why are you so mean...!
+
+=== batch_06.json | res 1209 msg 40 | ENROLE: sister
+  JP: ああっ！響[01BC]がっ！ 
+  EN: Whaa... Big Sister...!!
+
+=== batch_06.json | res 1209 msg 42 | ENROLE: sister
+  JP: うっ！えぐっ！ピクシーちゃんにつづいて響[01BC]まで！なんでだよう！うう！。
+  EN: Ugh... Eugh! After little sister Pixie, Big Sister left me alone too... Why...!!
+
+=== batch_06.json | res 1209 msg 46 | ENROLE: princess
+  JP: [0698]めの言[0387]なんていらないよ！。[04CF]を[0540]せるのは[067E]だけだ！。
+  EN: I don't need any words of comfort. Only a princess can soothe me now.
+
+=== batch_06.json | res 1209 msg 47 | ENROLE: princess
+  JP: ！そうだ！[067E]！ アウローラ[067E]なら、[04CF]の[03A6]いに[02EC]えてくれるに違いない！。
+  EN: That's right! Princess! I'm sure Princess Aurora will respond to my wishes!
+
+=== batch_06.json | res 1209 msg 50 | ENROLE: sister
+  JP: [04CF]、ピクシーやサキュバスなんかに数われてたってちっとも[038B][0141]さ。
+  EN: I don't mind it at all now, that the Pixie and Big Sister are hating on me.
+
+=== batch_06.json | res 1209 msg 51 | ENROLE: princess
+  JP: さて！じゃあ[04CF]は盗に戻って役倉宿に[067E]素しの[056B][046D]に取り納かるとするよ。
+  EN: Well, I'm going to go back to the city and start preparing for the real princess hunt.
+
+=== batch_06.json | res 1209 msg 57 | ENROLE: sister
+  JP: ドアの系がうるさいから何度も出入りしないでよ。響[01BC]が顔きたら汝のせいだ。
+  EN: Just don't keep coming in and out of the door, it's too noisy. If Big Sister wakes up, it's your fault.
+
+=== batch_06.json | res 1209 msg 66 | ENROLE: lord
+  JP: 声の消はウェブスター卿だった。
+  EN: It was Lord Webster's voice.
+
+=== batch_06.json | res 1209 msg 71 | ENROLE: princess
+  JP: イなにしらばっくれて  いるのよ ゴ    
+  EN: What the hell are you doing? Give us back our princess!
+
+=== batch_06.json | res 1209 msg 72 | ENROLE: princess
+  JP: イ王女[01BC]を大しなさい ゴ
+  EN: Give back the princess!
+
+=== batch_06.json | res 1209 msg 95 | ENROLE: princess
+  JP: ドゥーハンの[0601]影になったのも、王女との敏[0429]を強んだのも、
+  EN: To become the Vizier of Duhan, to marry the princess,
+
+=== batch_06.json | res 1209 msg 98 | ENROLE: king
+  JP: 王瓶を[0523]うだけなら、息王の[028E]を待つだけでよかったのだ。
+  EN: If I only had wanted to take the throne, I could have simply waited for the king to die.
+
+=== batch_06.json | res 1209 msg 99 | ENROLE: king
+  JP: だが余は[0668]せられた。ドゥーハンを魔女の力から[036D]い、[04A6]の個王となるその[0272]今もない[046E]に。
+  EN: But I was enchanted by the dream of rescuing Duhan from the hands of the witch and becoming the true Holy King.
+
+=== batch_06.json | res 1209 msg 104 | ENROLE: lord
+  JP: ウェブスター卿は、そう言って[01C9]を[05EA]いだ。
+  EN: So did Lord Webster say, and looked up to the sky.
+
+=== batch_06.json | res 1209 msg 106 | ENROLE: lord
+  JP: ウェブスター卿の声は[0452]い過防から聞こえてくるようなうつろな経きがあった。
+  EN: Lord Webster's voice had a sombre sound, as if it were coming from a distant past.
+
+=== batch_06.json | res 1209 msg 113 | ENROLE: lord
+  JP: 義恵ウェブスター卿は、値らの力誰をナイフで該りつけ、扱険りする書物の[0390]新に、こぼれ落ちる[04B0]を取らした。
+  EN: Lord Webster suddenly slashed his own wrists with his knife, dripping spilled blood onto the cover of the shiny black book.
+
+=== batch_06.json | res 1209 msg 114 | ENROLE: lord
+  JP: ウェブスター卿の顔は、[028E]者のように[04A6]っ送になっていく。
+  EN: Lord Webster's face went as white as that of a dead man.
+
+=== batch_06.json | res 1209 msg 115 | ENROLE: king
+  JP: イかつてサンゴート王に 取り[05CB]きし！ゴ
+  EN: Once possessed by the King of San-Goth...!
+
+=== batch_06.json | res 1209 msg 116 | ENROLE: knight
+  JP: イ[04FD][0452]なる[01E3]帰にして、 大[0408]の武器！ゴ
+  EN: You, the eternal knight and immortal being...!
+
+=== batch_06.json | res 1209 msg 118 | ENROLE: lord
+  JP: [040C]のような大[0141]町な送いもやが、力にした書物から[0580]出し、ウェブスター卿の[042D]来を持んだ。
+  EN: An eerie white smoke-like miasma erupted from the book in his hand and surrounded Lord Webster completely.
+
+=== batch_06.json | res 1209 msg 122 | ENROLE: lord
+  JP: [028E]者の[0694]大が[04A8]れをなし、生なる者に将しての[0645]みの声を外げ、ウェブスター卿に[042E]いかかった。
+  EN: The grudges of the dead swarmed together, shouting their resentment against the living, and attacked Lord Webster.
+
+=== batch_06.json | res 1209 msg 123 | ENROLE: lord
+  JP: ウェブスター卿は、[0474][0552]魔の[04D1]び声を外げた。
+  EN: Lord Webster let out a scream of desperation.
+
+=== batch_06.json | res 1209 msg 129 | ENROLE: princess
+  JP: 王女は喚に[01CD]たわっている。
+  EN: The princess was lying on the floor.
+
+=== batch_06.json | res 1209 msg 130 | ENROLE: princess
+  JP: エミーリアに[04AF]き顔こされた王女は、もうろうとした客識の中で、うわごとのようになにごとか冒いていた。
+  EN: Emilia tried to help the princess sit up, but the princess, in her dazed state, was mumbling something.
+
+=== batch_06.json | res 1209 msg 131 | ENROLE: lord
+  JP: イウェブスター卿を！ [04ED]めないで！ゴ  
+  EN: Lord Webster... don't blame him...!
+
+=== batch_06.json | res 1209 msg 133 | ENROLE: princess
+  JP: エミーリアは、どこにも義[0327]が辺いことを探索して待ち外がった。
+  EN: Emilia stood up and took a closer look at the princess, making sure she had not been harmed anywhere.
+
+=== batch_06.json | res 1209 msg 135 | ENROLE: princess
+  JP: あたし、王女[01BC]を支れて盗に戻るわ。
+  EN: I'm going to return with the Princess to the city.
+
+=== batch_06.json | res 1209 msg 136 | ENROLE: lord
+  JP: ウェブスター卿がいなくなったから、もう戻っても兜集遺だと思う。
+  EN: It should be safe now, now that Lord Webster is no more.
+
+=== batch_06.json | res 1209 msg 144 | ENROLE: lord
+  JP: お両がウェブスター卿の[01BA]孤で、余達を素していたこと知らないとでも思っているの。
+  EN: Lies! You were under Lord Webster's command, and you were looking for us, weren't you?
+
+=== batch_06.json | res 1209 msg 145 | ENROLE: king
+  JP: すべては、[0436]忍のご[01BA]孤です。
+  EN: All at the behest of His Majesty, the King.
+
+=== batch_06.json | res 1209 msg 146 | ENROLE: lord
+  JP: ウェブスター卿に[04A9]主するのも、迷宮にお紹れになっている殿忍をお内りするのも。
+  EN: Whether it was to help Lord Webster or to protect Her Highness who was hiding in the labyrinth.
+
+=== batch_06.json | res 1209 msg 154 | ENROLE: lord
+  JP: 何者もこの場に[03D5]り果かなければ、大役客ながら、余がウェブスター卿を専[0552]するつもりでした。
+  EN: I, as a matter of unpleasant necessity, would have taken care // of Lord Webster myself if no one else had reached this place.
+
+=== batch_06.json | res 1209 msg 159 | ENROLE: servant
+  JP: 思[0472][0297]き[0436]忍のこと、きっと何か[0190]器はあると思いますが、余ではわかりません。
+  EN: I am sure that His Majesty put a lot of thoughts into this, but I, as his servant, do not know either.
+
+=== batch_06.json | res 1209 msg 161 | ENROLE: princess
+  JP: エミーリアと王女は、[01AB][053F]の秘を度い盗に戻っていった。
+  EN: Emilia and the princess returned to the city with the help of the Return Medicine.
+
+=== batch_06.json | res 1209 msg 170 | ENROLE: clerk
+  JP: オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+  EN: After the battle with the orc, as you were catching your breath, the store clerk came running in a hurry.
+
+=== batch_06.json | res 1209 msg 179 | ENROLE: clerk
+  JP: カウンターには店社として[05A5]われたらしき魔物がいる。
+  EN: There was a demon at the counter, who seemed to have been hired as a clerk.
+
+=== batch_06.json | res 1209 msg 562 | ENROLE: princess
+  JP: イもし王女[01BC]に何かあったら 用街、あたしのせいだわ！ あたしも[028E]ぬ！！ゴ
+  EN: If anything happens to the princess, it will be all my fault! I might as well die too!!
+
+=== batch_06.json | res 1209 msg 571 | ENROLE: princess
+  JP: おうじょさまが、ウェブスターのバカものにさらわれちまっただ 
+  EN: The princess has been kidnapped by that Webster bastard!
+
+=== batch_06.json | res 1209 msg 572 | ENROLE: princess
+  JP: はやくしねえと、おうじょさま、おっちんじまうだよ 
+  EN: If you don't hurry up and rescue the princess, everything will go wrong!
+
+=== batch_06.json | res 1209 msg 575 | ENROLE: princess
+  JP: ヒ、ヒック！あ、あたしのせいで！王女[01BC]、さ、さらわれちゃった！。
+  EN: So, so careless... Oh, it's all my fault... that the princess has been kidnapped.
+
+=== batch_06.json | res 1209 msg 576 | ENROLE: princess
+  JP: お、おねがい！主を[04A7]して！！一同に王女[01BC]を素して能しいの！。
+  EN: Oh, please! Lend us your strength! Please help us find the princess!
+
+=== batch_06.json | res 1209 msg 579 | ENROLE: princess
+  JP: それじゃ、バーボ、あたしはと一同に王女[01BC]を素しに行くから
+  EN: Well then, Barbo, I'm going to go with them to find the princess.
+
+=== batch_06.json | res 1209 msg 588 | ENROLE: lord
+  JP: エミーリアこの向こうの街所で、ウェブスター卿と優臆美解どもがいるわよ。
+  EN: Emilia: You'll find Lord Webster and the alchemists in the room over there.
+
+=== batch_06.json | res 1209 msg 600 | ENROLE: princess
+  JP: エミーリア王女[01BC]の思大はまだこの名層から感じるわ。
+  EN: Emilia: I can still sense the princess' thoughts from this floor.
+
+=== batch_06.json | res 1209 msg 620 | ENROLE: lord
+  JP: シムゾンさんも、ウェブスター卿もこの迷宮に[0668]入られた者達は腕、更買の[028E]を[0565]げていった。
+  EN: Simzon, Lord Webster, // and all the others who were attracted to this labyrinth died a horrible death.
+
+=== batch_06.json | res 1209 msg 626 | ENROLE: priest
+  JP: 余、いま[0160]めてそうおっしゃったフーケ開[0343]の言[0387]が[0190]倒できます。
+  EN: I think I finally understand what Priest // Fouquet was trying to tell me at the church back then.
+
+=== batch_06.json | res 1209 msg 627 | ENROLE: lord
+  JP: イーリスウェブスター卿は、はめられたのかもしれんな。
+  EN: Iris: There is a possibility that maybe Lord Webster was set up.
+
+=== batch_06.json | res 1209 msg 628 | ENROLE: king
+  JP: さっき、ゼルと言う与が、息王はすべて知っておられたと言っていたのを備えているか？
+  EN: Remember when earlier, the man called Cell said that the King was aware of everything?
+
+=== batch_06.json | res 1209 msg 629 | ENROLE: king
+  JP: [06B7]にも個王と高ばれた与、街忍の[01D0]遅に[0141]づかずにいたと必えるほうがおかしい。
+  EN: It's indeed strange to assume that the man who is called // the Holy King would be unaware of a rebellion in his own ranks.
+
+=== batch_06.json | res 1209 msg 632 | ENROLE: lord
+  JP: それともウェブスター卿が[0328][0332]を出すのを、ずっと待っていたのか？
+  EN: Were they actually waiting all this time for Lord Webster to turn tail?
+
+=== batch_intro.json | res 1193 msg 0 | ENROLE: king
+  JP: かつて中[04A2]美もの像きにわたってベノアの乙を[04B0]と下呪に[0424]れた授覚があった。装にバンクォーの授教と高ばれるものである。サンゴートの王がドゥーハン息のをかかげ攻め入ってきたのが、そもそもの[049A]自であったが！
+  EN: For thirty years, / Duhan was plunged / into blood and / terror. This war / would be known as / the Battle of / Banquo. The king / of San-Goth, / possessed by the / spirit of death, / led his army to / attack Duhan!
+
+=== batch_intro.json | res 1194 msg 0 | ENROLE: guard,queen,princess,lord,noble
+  JP: 辺地の[0694]棒に名い[04AE]くされ、[05F5]く物アシラは[040B]依の族今へ消え防った。迷宮で[028E]んだ戦動は、ドゥーハンの授[06B9]戦が[058B]る間[01A8]い[06BA]に[0629][06A1]された。オルトルードもまたその[01DA]言通り、棒[06B8]ではなくバンクォーの授[028E]戦と[0569]にその乙に[0629][06A1]された。者神はあの地を[04FD][0452]に[01BF][01C0]するだろう。依には新ふぶきが期い、盗には[038B][040A]の板れに[045C]ぶ算高の避が経き飾った。[041B]息の王就や見度の両で王女オリアーナは方女王として主[0143]く[03FE]言した。イ[041B]息や依就効帰が調い合い、[04B0]を棄す時形は防りましたゴイ彼神は[0569]通の段に向かって前敏しなければなりませんゴイこのベノアに杯むあらゆる戦の[038B][040A]のためにゴイそしてこれまでに棄された唱くの達戦動の[055A]に[03FD]いゴイ不は階の[06AE][062C]の王、[05F5]く物に将しての授いをいまここで[03FE]言しますゴイみなさんに[0165]団しましょうゴ士騎戦動は、[043B][0430]戦の中を級み除た。イ族らが方しきベノアの単ゴイ不を容け、[05F5]く物と授う見いなる内[047D]戦クイーンガード動ですゴ[05B7][06BB]の[05D9]力が[0277]り経く中、この険[01E5]は者神が[04FD][0452]に[0480]り[01B5]けるものとなった。それは復しき女王とクインガード動の物[0480]の専まりであった。この場はひとまず / 祠き外げる事にした。
+  EN: The Dark Lord / Ashira vanished / into the abyss. / The warriors were / sealed away as / the war of Duhan / drew to a close. / Ortrud too was / sealed with the / warriors of the / Battle of Banquo. / Fresh snow / blanketed the land / and peace came at / last. Princess / Oriana declared / herself queen. / "Gone are the days / nations shed blood / We must advance / against our common / enemy, for all / who live in Venoa, / and the brave who / have fallen. I / declare my oath / as guardian / against darkness. / Let me introduce / them to you." The / knights advanced / amid loud cheers. / "The swords of our / beloved Venoa! / The noble Queen's / Guard, who fight / the darkness!" / As confetti rained / down, this scene / became legend. / The tale of a fair / queen and her / Queen's Guard. / For now, we set / this tale aside.
+
+=== batch_r1198.json | res 1198 msg 4 | ENROLE: knight
+  JP: 
+  EN: Knight: Proud / adventurers, / my friends!
+
+=== batch_r1198.json | res 1198 msg 5 | ENROLE: knight
+  JP: 
+  EN: Knight: The party / of Regina Eranshika / is missing!
+
+=== batch_r1198.json | res 1198 msg 6 | ENROLE: knight
+  JP: 
+  EN: Knight: Last seen / on the 2nd floor / of the labyrinth!
+
+=== batch_r1198.json | res 1198 msg 7 | ENROLE: knight
+  JP: 
+  EN: Knight: Will anyone / investigate their / whereabouts?
+
+=== batch_r1198.json | res 1198 msg 14 | ENROLE: knight,commander
+  JP: 
+  EN: Commander: This is / Webster's mess! / Knight: Sir, shh!
+
+=== batch_r1198.json | res 1198 msg 15 | ENROLE: commander
+  JP: 
+  EN: Commander: Belgrano! / Hmm? I haven't seen / your face before.
+
+=== batch_r1198.json | res 1198 msg 16 | ENROLE: knight
+  JP: 
+  EN: The knight stared / at you as if he was / sizing you up.
+
+=== batch_r1198.json | res 1198 msg 23 | ENROLE: commander
+  JP: 
+  EN: Pardon me. I am / Belgrano von Buren, / Order commander.
+
+=== batch_r1198.json | res 1198 msg 28 | ENROLE: nun,nun
+  JP: 
+  EN: The knights found / the nun's calm words / oddly out of place.
+

@@ -1,0 +1,412 @@
+[
+ {
+  "res": 1196,
+  "gi": 60,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Girl A: Why blame me? / You just sit there!\nGirl B: I didn't say / that! But wit"
+ },
+ {
+  "res": 1196,
+  "gi": 67,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Girl B: Wait!\nGirl A: Huh?\nGirl B: Not here! / This is special!\nGirl A: Special,"
+ },
+ {
+  "res": 1196,
+  "gi": 69,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Girl B: Presentation / matters! That place / is perfect!\nGirl A: Right! Let's go"
+ },
+ {
+  "res": 1196,
+  "gi": 411,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 5,
+  "n480": 3,
+  "en": "Orc: Do it right!\nGirl A: We know!\nOrc: Don't forget!\nGirl B: We won't!\nOrc: You"
+ },
+ {
+  "res": 1197,
+  "gi": 33,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Barkeep: \"Geez, / such a little / kid but more / together than // me! Hahaha!\""
+ },
+ {
+  "res": 1197,
+  "gi": 176,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Barkeep: \"That's / Guillaume's from / the Adventurer's / Guild, right?\""
+ },
+ {
+  "res": 1201,
+  "gi": 98,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Clerk: I don't get / it, but if you / get caught it's / not my fault! / Warrior:"
+ },
+ {
+  "res": 1201,
+  "gi": 150,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Clerk: I'm sorry, / our guest has / instructed us not / to let anyone / through."
+ },
+ {
+  "res": 1203,
+  "gi": 491,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Notice: Self-Shop / is permanently / closed due to / theft. Thank you / for your"
+ },
+ {
+  "res": 1203,
+  "gi": 1021,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Soldier C: I'll / escort you. / Aoi: Guards again? / The labyrinth / feels safer"
+ },
+ {
+  "res": 1204,
+  "gi": 131,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Monster B: The / usual spot. / Wait for me. / Monster A: / Okie dokie, / see ya~"
+ },
+ {
+  "res": 1204,
+  "gi": 331,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 5,
+  "n480": 3,
+  "en": "Orc A: Is it / true?! / Orc B: Go see! / Bones all over! / Orc C: Why eat / mons"
+ },
+ {
+  "res": 1204,
+  "gi": 656,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Life: sometimes / look back. New / paths open. / That's life's / pitfall. / -Oto"
+ },
+ {
+  "res": 1204,
+  "gi": 783,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop: / Buy Tavern Med. / Buy Combat Med. / Sell Tavern Med. / Do nothing"
+ },
+ {
+  "res": 1205,
+  "gi": 56,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "\"We were on an / investigation, / damn it! It was / the witch! She / attacked us"
+ },
+ {
+  "res": 1205,
+  "gi": 59,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 5,
+  "n480": 3,
+  "en": "\"One of my / companions had / been attacked by / a demon, and we / were treating"
+ },
+ {
+  "res": 1205,
+  "gi": 64,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "\"Are you sure / you're okay? / What could / attack us from / a place like / this"
+ },
+ {
+  "res": 1205,
+  "gi": 339,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Orc F: \"Wh-What! / You're going to / use force?!\" / Orc G: \"E-Even / if you do, "
+ },
+ {
+  "res": 1205,
+  "gi": 658,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Medal Shop Menu: / Buy Bar Medals / Buy Combat Medals / Sell Bar Medals / Do not"
+ },
+ {
+  "res": 1205,
+  "gi": 783,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "\"You'll regret / this forever! / Your life just / took a wrong / turn because / "
+ },
+ {
+  "res": 1205,
+  "gi": 784,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "\"If you won't / help then just / go away! I / don't even / want to talk / to you"
+ },
+ {
+  "res": 1205,
+  "gi": 803,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 2,
+  "en": "\"I won't / waste my / beautiful / voice on / someone like / you! Goodbye!\""
+ },
+ {
+  "res": 1210,
+  "gi": 454,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "The lottery: if / your drawn number / matches your / member number, / you win!"
+ },
+ {
+  "res": 1210,
+  "gi": 462,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "The lottery: if / your drawn number / matches your / member number, / you win!"
+ },
+ {
+  "res": 1210,
+  "gi": 607,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "God has promised: / all sins shall / be washed away / and accepted / into his ki"
+ },
+ {
+  "res": 1211,
+  "gi": 299,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "The lottery: if / your drawn number / matches your / member number, / you win!"
+ },
+ {
+  "res": 1211,
+  "gi": 307,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "The lottery: if / your drawn number / matches your / member number, / you win!"
+ },
+ {
+  "res": 1351,
+  "gi": 17,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Lomi: I bought this with / the gold I earned here. / Well, I got one set aside /"
+ },
+ {
+  "res": 1351,
+  "gi": 19,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Lomi: Did you know? / Baked silver is extremely / precious and hard to come by."
+ },
+ {
+  "res": 1351,
+  "gi": 22,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Lomi: Well, be sure to / come back for more / fortune-telling. Bye-bye!"
+ },
+ {
+  "res": 1354,
+  "gi": 172,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 5,
+  "n480": 3,
+  "en": "\"What brings / you?\" \"Everyone / awaits.\" \"Your / Majesty, // remember your / pr"
+ },
+ {
+  "res": 1354,
+  "gi": 179,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "\"Then walk the / path of ruin. / Your body shall / wither, you // shall be a / w"
+ },
+ {
+  "res": 1354,
+  "gi": 307,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "\"Emilia, let's / go!\" \"Right, / they noticed!\" / \"If caught // again, no going /"
+ },
+ {
+  "res": 1355,
+  "gi": 6,
+  "headed": false,
+  "multi": false,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Knight: Then go back / to the city at once. / This is dangerous; / no place for "
+ },
+ {
+  "res": 1355,
+  "gi": 11,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restri"
+ },
+ {
+  "res": 1355,
+  "gi": 15,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 5,
+  "n480": 3,
+  "en": "Knight: Very well then. / I'm sure you were briefed / by the captain, but let me"
+ },
+ {
+  "res": 1355,
+  "gi": 25,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Knight: In the rooms / just ahead, you can learn / the basics of treasure chests"
+ },
+ {
+  "res": 1355,
+  "gi": 26,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Knight: If this is your / first time in a labyrinth / like this, it would be wis"
+ },
+ {
+  "res": 1355,
+  "gi": 47,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Aoi: Reckless ambitions / reveal their true ugliness / only when it's too late."
+ },
+ {
+  "res": 1355,
+  "gi": 50,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Aoi: The darkness of the / labyrinth grows as deep / as the size of your / own a"
+ },
+ {
+  "res": 1355,
+  "gi": 52,
+  "headed": false,
+  "multi": true,
+  "content_dlg": true,
+  "n360": 4,
+  "n480": 3,
+  "en": "Aoi: Think first of / surviving. Fame and glory / will follow on their own."
+ }
+]

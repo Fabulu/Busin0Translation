@@ -1,0 +1,240 @@
+KEY=36:78 W=master
+ JP=マスタープリーステス / 
+ EN=Master Priestess / 
+
+KEY=36:108 W=master
+ JP=マスターニンジャ / 
+ EN=Master Ninja / 
+
+KEY=36:109 W=master
+ JP=ザ・ハイマスター / 
+ EN=The High Master / 
+
+KEY=36:114 W=master
+ JP=マスターシーフb / 
+ EN=Master Thief b / 
+
+KEY=36:117 W=master
+ JP=マスターシーフb / 
+ EN=Master Thief b / 
+
+KEY=36:120 W=master
+ JP=マスターシーフc / 
+ EN=Master Thief c / 
+
+KEY=36:124 W=master
+ JP=マスターニンジャb / 
+ EN=Master Ninja b / 
+
+KEY=36:125 W=master
+ JP=ザ・ハイマスターb / 
+ EN=The High Master b / 
+
+KEY=36:26 W=lord
+ JP=オーガロード
+ EN=Ogre Lord
+
+KEY=36:36 W=lord
+ JP=ヴァンパイアロード
+ EN=Vampire Lord
+
+KEY=36:43 W=lord
+ JP=レイバーロード
+ EN=Labor Lord
+
+KEY=36:61 W=master
+ JP=マスターシーフa
+ EN=Master Thief a
+
+KEY=36:78 W=master
+ JP=マスタープリーステス
+ EN=Master Priestess
+
+KEY=36:108 W=master
+ JP=マスターニンジャ
+ EN=Master Ninja
+
+KEY=36:109 W=master
+ JP=ザ・ハイマスター
+ EN=The High Master
+
+KEY=36:114 W=master
+ JP=マスターシーフb
+ EN=Master Thief B
+
+KEY=36:117 W=master
+ JP=マスターシーフb
+ EN=Master Thief B
+
+KEY=36:120 W=master
+ JP=マスターシーフc
+ EN=Master Thief C
+
+KEY=36:124 W=master
+ JP=マスターニンジャb
+ EN=Master Ninja B
+
+KEY=36:125 W=master
+ JP=ザ・ハイマスターb
+ EN=The High Master B
+
+KEY=1199:31 W=master
+ JP=だが優臆の損は余に町今してくれた。
+ EN=But the alchemist's / master guided me.
+
+KEY=1199:42 W=master
+ JP=オートマターあなたが、新しいマスターですね、わたくし、フリーダーと申します。
+ EN=Automata: You are / my new master. / I am Frieder.
+
+KEY=1199:56 W=master
+ JP=武[0640][0375]向にもなるほどの[032A][03F2]を者抜させた者達が、なぜそのように[0496]ったのか？
+ EN=who achieved the / pinnacle of mastery / --why would they fall?
+
+KEY=1201:7 W=master
+ JP=コンデ[01BC]、少しお質がありますので、こちらにいらしてください 
+ EN=Master Konde, / I need to talk to / you, please come.
+
+KEY=1201:9 W=master
+ JP=コンデ[01BC]に今地こそ言わなければと、余、思っていることがあるんです。
+ EN=Master Konde, / there is something / I must say to / you today.
+
+KEY=1201:11 W=master
+ JP=コンデ[01BC]は、いったい何の野宿でこの盗にいらしたのですか？
+ EN=Master Konde, / what exactly was / your reason for / coming here?
+
+KEY=1201:43 W=master
+ JP=コンデ[01BC]はこう見えても、器同高しい魔美解の[04B0]先であり、今は辺きイリキア王集を[0676]ぐ[0362]今。
+ EN=Master Konde, / though he may seem / like this, is from / a venerable line / of sorcerers and / heir to Irikia.
+
+KEY=1201:48 W=master
+ JP=コンデ[01BC]よかったですね。これで奥[01BC]も少しは[0362]声目なさっていると思いますよ。
+ EN=Master Konde, how / wonderful! Your / late wife must be / pleased as well.
+
+KEY=1201:57 W=master
+ JP=コンデ[01BC]をよろしくお[036A]いします。
+ EN=Please take care / of Master Konde.
+
+KEY=1201:64 W=master
+ JP=コンデ[01BC]  お質があります こちらにいらしてください 
+ EN=Master Konde! / I need to talk / to you! Come here!
+
+KEY=1202:57 W=boss
+ JP=ニンゲンいがいはダメなのかオーダーにきくのをわすれてただよ、デヘ！ 
+ EN=I dunno if / non-humans are / okay. Forgot to / ask the boss! Heh!
+
+KEY=1202:62 W=boss
+ JP=もしあとでオーダーが、ニンゲンじゃないからダメっていったら、オーダーがクビにしてくれるべ。
+ EN=If the boss says / non-humans can't / work here, then / she'll fire ya. / Simple!
+
+KEY=1202:110 W=boss
+ JP=オダがしんじているのはきょうだいとオーダーぐらいだ。
+ EN=The only things / I believe in are / my siblings and / the boss.
+
+KEY=1202:135 W=boss
+ JP=とりあえずオーダーにはちゃんとりゆうをはなしてぐれだって、ほうこくするだよ。
+ EN=I'll just report / to the boss that / you gave a proper / reason.
+
+KEY=1202:142 W=boss
+ JP=しんぱいむようだ オーダーにはオダからちゃんとせつめいしとくだ。
+ EN=Don't worry! / I'll explain / everything to / the boss.
+
+KEY=1202:150 W=boss
+ JP=まあ、あんしんしてくで。オーダーにはオダがてきとうにいっとくべ。
+ EN=Don't worry! / I'll tell the boss / something good.
+
+KEY=1202:285 W=master
+ JP=アルバイトあっ、マスタ～[0271]
+ EN=Part-timer: / Oh, Master!
+
+KEY=1202:287 W=master
+ JP=きょうはマスターにプレゼントをわたそうとおもって、ここでずーっとまちぶせしてただす 
+ EN=Today I've been / waiting here to / give Master a / present!
+
+KEY=1202:294 W=master
+ JP=では、マスター、こでかだもどんどんやとってくだせえ 
+ EN=Please keep / hiring us, / Master!
+
+KEY=1210:13 W=boss
+ JP=！って、なんだよ オーガのダンナじゃねえじゃん！ビックリさせんなよ 
+ EN=Hey, you're not / the Ogre boss! / Don't scare me / like that!
+
+KEY=1210:37 W=boss
+ JP=大す[0141]はあるんだけどさー、オーガの稀[0338]、せっかちでよ早く大せってうるせえんだ。
+ EN=I plan to pay / it back, but the / Ogre boss is / so impatient!
+
+KEY=1210:39 W=boss
+ JP=[01BE]多なんかマジギレしててさでっけえ[04F8]ふりまわしてオレ、漢いかけまわされてんの。
+ EN=The boss is / seriously mad, / chasing me with / a huge axe!
+
+KEY=1210:81 W=boss
+ JP=イヤッホゥ これをオーガの稀[0338]に大せば、オレの威[0437]生込もジ・エンドだ 
+ EN=Yahoo! Once I / give these to the / Ogre boss, my / hiding's over!
+
+KEY=1210:90 W=lord
+ JP=ランゴバルト損よお[02EC]えください。迷えるしもべを運いてください。
+ EN=Lord Langobalt, / please hear us. / Guide your lost / servants.
+
+KEY=1210:99 W=lord
+ JP=いまこそ、いまこそ[0150]び信[05EA]の主を掲にお悔しください。
+ EN=Now, once more, / show the people / a true lord / of faith!
+
+KEY=1210:143 W=master
+ JP=要れ[0496]う[0419]の中、余は、マスターを素していた。
+ EN=In the blazing / ruins, I searched / for my Master.
+
+KEY=1210:145 W=master
+ JP=余はマスターを見つけ出した。
+ EN=I found my Master.
+
+KEY=1210:146 W=master
+ JP=マスターは腕[02A1]中謝[0327]で、生きているのが大思衛なほどだった。
+ EN=Master was gravely / wounded, barely / alive.
+
+KEY=1210:147 W=master
+ JP=イマスター、ここは[045B]騎です、 どこか声用なところにゴ  
+ EN=Master, it's / dangerous here. / Let us go / somewhere safe.
+
+KEY=1210:148 W=master
+ JP=マスターは誰を後った。[028E]がすぐ多くまで高び復っていたのだ。
+ EN=Master looked / away. Death had / already drawn / very near.
+
+KEY=1210:149 W=master
+ JP=うつろになっていく客識の中、マスターは冒いた。
+ EN=As consciousness / faded, Master / whispered:
+
+KEY=1210:152 W=master
+ JP=余は、マスターが息を祠き取るのを見十け、[01BE]装の[01BA]孤を[0565]行するため[0419]の中に王いていった。
+ EN=I watched Master / draw his last / breath, then went / into the flames / to carry out / his final wish.
+
+KEY=1210:189 W=master
+ JP=マスターの[028E]と同時に、習築[0595]限するように[032B][056F]されているお両がなぜ功いているのだ？
+ EN=You should have / shut down when / Master died. / Why do you still / function?
+
+KEY=1210:692 W=lord
+ JP=一つ、[0180]つと扱き[01E0]が[058E]んでは消え、[01BA]のともし謝を、階の[0362]所に部げる。
+ EN=One by one, dark / flames flicker / and die, offering / lives as light / to the dark lord.
+
+KEY=1210:693 W=lord
+ JP=騎騎者よ、話ぎなさいいま階の[0362]所が彼神の両に抜れる。
+ EN=Adventurers, / flee! The dark / lord's true face / shall appear!
+
+KEY=1210:701 W=commander
+ JP=ドラクル[01E3]帰前殿忍を！殿忍を頼む！！。
+ EN=Dracul Knight / Commander! Please / help her!!
+
+KEY=1210:723 W=commander
+ JP=殿忍を！盗に！支れて！！。
+ EN=The Commander! / Take her to / the city!!
+
+KEY=1211:28 W=master
+ JP=ゼルイ[0436]忍！なぜ！待ってくれなかったのです！ゴ
+ EN=Zel: Master! Why / didn't you wait / for us!?
+
+KEY=1211:39 W=master
+ JP=ゼルイみんなの待つ盗に[0436]忍を戻してやろうゴ
+ EN=Zel: Let's take / Master back to / everyone.
+
+KEY=1211:623 W=master
+ JP=余はまだ[0436]忍のように[0143]くなれない。
+ EN=I'm not as / strong as / Master yet.
+

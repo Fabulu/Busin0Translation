@@ -63,7 +63,8 @@
       "Bash(rm -rf \"C:/Users/Fabian Trunz/OneDrive - Berner Fachhochschule/Dokumente/PCSX2/cache/\"*)",
       "Bash(mkdir -p runs/CLAUDE-RUNS/RUN-20260528-exe-reverse)",
       "Bash(cp runs/exe_constants_found.md runs/exe_reverse_engineering.md KNOWN_ISSUES.md TODO.md runs/CLAUDE-RUNS/RUN-20260528-exe-reverse/)",
-      "Bash(mkdir -p runs/CLAUDE-RUNS/RUN-20260528-vwf-and-textures)"
+      "Bash(mkdir -p runs/CLAUDE-RUNS/RUN-20260528-vwf-and-textures)",
+      "WebFetch(domain:shrines.rpgclassics.com)"
     ]
   },
   "hooks": {

@@ -1,0 +1,28 @@
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=44
+JP: 兵士 / 
+EN: Samurai / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=48
+JP: 聖兵士 / 
+EN: Paladin / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=49
+JP: 暗兵士 / 
+EN: DrkKnt / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=94
+JP: 騎士の生態に解い関心を持っている。 / 騎士を見つけて調べるのが大好き。 / 
+EN: Loves studying / monster biology. / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=104
+JP: 話え騎士であっても戦払のない友好的な / 騎士をむやみに殺傷するのは許せない。 / 
+EN: Can't forgive those / who slay kind foes. / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=105
+JP: 騎士をかたっぱしから殺すのが生きがい。 / 逃げるなどといった除卑的な行動を嫌う。 / 
+EN: Lives to slay all. / Hates cowardly flee. / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=109
+JP: 生まれつき商人気質があり、商売などに / 解い関心をもっている。 / 
+EN: Born merchant soul. / Loves trade deeply. / 
+

@@ -1,0 +1,57 @@
+idx0 msg845 ::   /  ||EN: 
+idx1 msg846 :: [FF07]騎事持騎法レベル1[FFF0] / 宝1体に炎帯性ダメ}ジを与える騎法 / クレタを習下する騎法団_ /  ||EN: Mage Magic Lv1 / Deals fire damage to a single enemy. A spell book that teaches Kreta.
+idx2 msg847 :: [FF07]騎事持騎法レベル3[FFF0] / 宝1体に禍帯性ダメ}ジを与える騎法 / クルドを習下する騎法団_ /  ||EN: Mage Magic Lv3 / Deals ice damage to a single enemy. A spell book that teaches Kurudo.
+idx3 msg848 :: [FF07]騎事持騎法レベル1[FFF0] / 宝1体に限帯性ダメ}ジを与える騎法 / ティ}ルを習下する騎法団_ /  ||EN: Mage Magic Lv1 / Deals lightning damage to a single enemy. A spell book that teaches Teal.
+idx4 msg849 :: [FF07]騎事持騎法レベル1[FFF0] / 宝のステ}タス情報を調べる騎法 / アナライズを習下する騎法団_ /  ||EN: Mage Magic Lv1 / Examines the status information of an enemy. A spell book that teaches Analyze.
+idx5 msg850 :: [FF07]騎事持騎法レベル4[FFF0] / 宝1体の獲得力を高下させる騎法 / ウィ}クを習下する騎法団_ /  ||EN: Mage Magic Lv4 / Reduces the attack power of a single enemy. A spell book that teaches Weak.
+idx6 msg851 :: [FF07]騎事持騎法レベル5[FFF0] / 宝1体の敏捷度を高下させる騎法 / ディレイを習下する騎法団_ /  ||EN: Mage Magic Lv5 / Reduces the agility of a single enemy. A spell book that teaches Delay.
+idx7 msg852 :: [FF02]神今騎法レベル3[FFF0] / 宝1体の回声力を高下させる騎法 / デプスを習下する騎法団_ /  ||EN: Priest Magic Lv3 / Reduces the evasion of a single enemy. A spell book that teaches Depth.
+idx8 msg853 :: [FF02]神今騎法レベル2[FFF0] / 宝1体の解消力を高下させる騎法 / フィブルを習下する騎法団_ /  ||EN: Priest Magic Lv2 / Reduces the defense of a single enemy. A spell book that teaches Feeble.
+idx9 msg854 :: [FF07]騎事持騎法レベル5[FFF0] / 宝1体を[0x03DC]開させる騎法 / シュラ}ドを習下する騎法団_ /  ||EN: Mage Magic Lv5 / Instantly kills a single enemy. A spell book that teaches Shroud.
+idx10 msg855 :: [FF07]騎事持騎法レベル1[FFF0] / 宝1容を災らせる騎法 / スプリ}ムを習下する騎法団_ /  ||EN: Mage Magic Lv1 / Puts a single enemy to sleep. A spell book that teaches Spleem.
+idx11 msg856 :: [FF02]神今騎法レベル2[FFF0] / 宝1容の騎法を封じる騎法 / サロメを習下する騎法団_ /  ||EN: Priest Magic Lv2 / Seals a single enemy's magic. A spell book that teaches Salome.
+idx12 msg857 :: [FF07]騎事持騎法レベル4[FFF0] / 者箱から離脱する騎法 / エスケ}プを習下する騎法団_ /  ||EN: Mage Magic Lv4 / Flee from battle. A spell book that teaches Escape.
+idx13 msg858 :: [FF07]騎事持騎法レベル3[FFF0] / 宝1容に炎帯性ダメ}ジを与える騎法 / ザクレタを習下する騎法団_ /  ||EN: Mage Magic Lv3 / Deals fire damage to an enemy group. A spell book that teaches Zakreta.
+idx14 msg859 :: [FF07]騎事持騎法レベル4[FFF0] / 宝1容に禍帯性ダメ}ジを与える騎法 / ザクルドを習下する騎法団_ /  ||EN: Mage Magic Lv4 / Deals ice damage to an enemy group. A spell book that teaches Zakurudo.
+idx15 msg860 :: [FF07]騎事持騎法レベル2[FFF0] / 宝1容に限帯性ダメ}ジを与える騎法 / ザティ}ルを習下する騎法団_ /  ||EN: Mage Magic Lv2 / Deals lightning damage to an enemy group. A spell book that teaches Zateal.
+idx16 msg861 :: [FF07]騎事持騎法レベル2[FFF0] / 一復受間^騎騎が思現しなくなる騎法 / スル}を習下する騎法団_ /  ||EN: Mage Magic Lv2 / Temporarily prevents random encounters. A spell book that teaches Through.
+idx17 msg862 :: [FF07]騎事持騎法レベル6[FFF0] / 宝1容を[0x03DC]開させる騎法 / ザラ}ドを習下する騎法団_ /  ||EN: Mage Magic Lv6 / Instantly kills an enemy group. A spell book that teaches Zarado.
+idx18 msg863 :: [FF07]騎事持騎法レベル6[FFF0] / 宝1体のHPを好所する騎法 / ドレインを習下する騎法団_ /  ||EN: Mage Magic Lv6 / Absorbs HP from a single enemy. A spell book that teaches Drain.
+idx19 msg864 :: [FF02]神今騎法レベル4[FFF0] / 宝箱にかけられた罠の発達を解ぐ騎法 / リピ}ルを習下する騎法団_ /  ||EN: Priest Magic Lv4 / Disarms traps on treasure chests. A spell book that teaches Ripu.
+idx20 msg865 :: [FF07]騎事持騎法レベル5[FFF0] / 騎理獲得ダメ}ジをはねかえす騎法 / カニバルを習下する騎法団_ /  ||EN: Mage Magic Lv5 / Reflects physical damage taken back once. A spell book that teaches Cannibal.
+idx21 msg866 :: [FF07]騎事持騎法レベル5[FFF0] / 宝全体に炎帯性ダメ}ジを与える騎法 / ジャクレタを習下する騎法団_ /  ||EN: Mage Magic Lv5 / Deals fire damage to all enemies. A spell book that teaches Jakreta.
+idx22 msg867 :: [FF07]騎事持騎法レベル6[FFF0] / 宝全体に禍帯性ダメ}ジを与える騎法 / ジャクルドを習下する騎法団_ /  ||EN: Mage Magic Lv6 / Deals ice damage to all enemies. A spell book that teaches Jakurudo.
+idx23 msg868 :: [FF07]騎事持騎法レベル4[FFF0] / 宝全体に限帯性ダメ}ジを与える騎法 / ジャティルを習下する騎法団_ /  ||EN: Mage Magic Lv4 / Deals lightning damage to all enemies. A spell book that teaches Jateel.
+idx24 msg869 :: [FF07]騎事持騎法レベル7[FFF0] / 宝1体に解消力を汝広して獲得する騎法 / レイトを習下する騎法団_ /  ||EN: Mage Magic Lv7 / Attacks a single enemy using defense power. A spell book that teaches Late.
+idx25 msg870 :: [FF07]騎事持騎法レベル7[FFF0] / 宝全体を[0x03DC]開させる騎法 / ジャラ}ドを習下する騎法団_ /  ||EN: Mage Magic Lv7 / Instantly kills all enemies. A spell book that teaches Jarado.
+idx26 msg871 :: [FF07]騎事持騎法レベル7[FFF0] / レベルとひきかえに匹頭をおこす騎法 / ヴァルハラを習下する騎法団_ /  ||EN: Mage Magic Lv7 / Sacrifices one level to cause a catastrophe. A spell book that teaches Valhalla.
+idx27 msg872 :: [FF07]騎事持騎法レベル6[FFF0] / 受けた騎法をはねかえす騎法 / リフレクトを習下する騎法団_ /  ||EN: Mage Magic Lv6 / Reflects magic back once. A spell book that teaches Reflect.
+idx28 msg873 :: [FF07]騎事持騎法レベル7[FFF0] / 宝全体に汝帯性ダメ}ジを与える騎法 / メガデスを習下する騎法団_ /  ||EN: Mage Magic Lv7 / Deals holy damage to all enemies. A spell book that teaches Megadeath.
+idx29 msg874 :: [FF02]神今騎法レベル1[FFF0] / 用新1人のHPを回復する騎法 / フィ}ルを習下する騎法団_ /  ||EN: Priest Magic Lv1 / Restores HP to a single ally. A spell book that teaches Heal.
+idx30 msg875 :: [FF07]騎事持騎法レベル2[FFF0] / 街に兆間物達する騎法 / リ}プを習下する騎法団_ /  ||EN: Mage Magic Lv2 / Instantly warps back to town. A spell book that teaches Leap.
+idx31 msg876 :: [FF02]神今騎法レベル1[FFF0] / 宝1体に汝帯性ダメ}ジを与える騎法 / バレッツを習下する騎法団_ /  ||EN: Priest Magic Lv1 / Deals holy damage to a single enemy. A spell book that teaches Bullets.
+idx32 msg877 :: [FF02]神今騎法レベル1[FFF0] / フロア華に残る宝箱の数を調べる騎法 / シ}フアイを習下する騎法団_ /  ||EN: Priest Magic Lv1 / Checks the number of treasure chests remaining on the floor. A spell book that teaches Thief Eye.
+idx33 msg878 :: [FF07]騎事持騎法レベル2[FFF0] / 用新1人の獲得力が上羽し / 余開彼を獲得可能にする騎法 / ヤイバを習下する騎法団_ /  ||EN: Mage Magic Lv2 / Increases one ally's hit rate and attack power, enabling hitting undead. A spell book that teaches Yaiba.
+idx34 msg879 :: [FF07]騎事持騎法レベル3[FFF0] / 用新1人の敏捷度が上羽する騎法 / コ}トを習下する騎法団_ /  ||EN: Mage Magic Lv3 / Increases one ally's agility. A spell book that teaches Coat.
+idx35 msg880 :: [FF02]神今騎法レベル2[FFF0] / 用新1人の回声力が上羽する騎法 / ブレスを習下する騎法団_ /  ||EN: Priest Magic Lv2 / Increases one ally's evasion. A spell book that teaches Bless.
+idx36 msg881 :: [FF02]神今騎法レベル1[FFF0] / 用新1人の解消力が上羽する騎法 / プロテクトを習下する騎法団_ /  ||EN: Priest Magic Lv1 / Increases one ally's defense. A spell book that teaches Protect.
+idx37 msg882 :: [FF02]神今騎法レベル4[FFF0] / 宝1容に汝帯性ダメ}ジを与える騎法 / アモ}クを習下する騎法団_ /  ||EN: Priest Magic Lv4 / Deals holy damage to an enemy group. A spell book that teaches Amok.
+idx38 msg883 :: [FF02]神今騎法レベル4[FFF0] / 用新1容のHPが回復する騎法 / フィ}ルズを習下する騎法団_ /  ||EN: Priest Magic Lv4 / Restores HP to an ally group. A spell book that teaches Heals.
+idx39 msg884 :: [FF02]神今騎法レベル5[FFF0] / 宝1容に毒を与える騎法 / ポイズンを習下する騎法団_ /  ||EN: Priest Magic Lv5 / Inflicts poison on an enemy group. A spell book that teaches Poison.
+idx40 msg885 :: [FF02]神今騎法レベル3[FFF0] / 宝1容を制れさせて達けなくする騎法 / ストレインを習下する騎法団_ /  ||EN: Priest Magic Lv3 / Magically paralyzes an enemy group, preventing them from moving. A spell book that teaches Strain.
+idx41 msg886 :: [FF02]神今騎法レベル2[FFF0] / 用新1人の毒を回復する騎法 / ポイズケアを習下する騎法団_ /  ||EN: Priest Magic Lv2 / Cures one ally's poison. A spell book that teaches Poisonkea.
+idx42 msg887 :: [FF02]神今騎法レベル3[FFF0] / 用新1人の勝制を回復する騎法 / パラズケアを習下する騎法団_ /  ||EN: Priest Magic Lv3 / Cures one ally's paralysis. A spell book that teaches Parazukea.
+idx43 msg888 :: [FF02]神今騎法レベル4[FFF0] / 用新1人の恐怖を回復する騎法 / フィアケアを習下する騎法団_ /  ||EN: Priest Magic Lv4 / Cures one ally's fear. A spell book that teaches Fiakea.
+idx44 msg889 :: [FF02]神今騎法レベル6[FFF0] / スタミナを全回復し^ / 一復期間出雲しなくする騎法 / バイタルを習下する騎法団_ /  ||EN: Priest Magic Lv6 / Fully restores stamina and enables movement without encounters for a turn. A spell book that teaches Vital.
+idx45 msg890 :: [FF02]神今騎法レベル6[FFF0] / 用新1人を一復結果で復活させる騎法 / カ}カスを習下する騎法団_ /  ||EN: Priest Magic Lv6 / Revives one ally with partial HP. A spell book that teaches Carcass.
+idx46 msg891 :: [FF02]神今騎法レベル6[FFF0] / 用新1人のHPとステ}タス取通を / 回復する騎法ウィルを習下する騎法団_ /  ||EN: Priest Magic Lv6 / Restores one ally's HP and cures status ailments. A spell book that teaches Will.
+idx47 msg892 :: [FF02]神今騎法レベル5[FFF0] / ダ}クフォグを取り解く騎法 / リュミルを習下する騎法団_ /  ||EN: Priest Magic Lv5 / Removes Dark Fog. A spell book that teaches Lumiel.
+idx48 msg893 :: [FF02]神今騎法レベル7[FFF0] / 余開彼以外の宝グル}プに対して / ディスペルを著消にする騎法 / アンデッドを習下する騎法団_ /  ||EN: Priest Magic Lv7 / Makes Dispel highly effective against non-undead enemy groups. A spell book that teaches Undead.
+idx49 msg894 :: [FF02]神今騎法レベル3[FFF0] / 今いるフロアの上り階段前に / 兆間物達する騎法 / トランスを習下する騎法団_ /  ||EN: Priest Magic Lv3 / Warps to the stairs entrance on the current floor. A spell book that teaches Trance.
+idx50 msg895 :: [FF02]神今騎法レベル5[FFF0] / 敗タ}ン自達でHPが回復する騎法 / リカバ}を習下する騎法団_ /  ||EN: Priest Magic Lv5 / Automatically restores a small amount of HP each turn. A spell book that teaches Recover.
+idx51 msg896 :: [FF02]神今騎法レベル6[FFF0] / 汝いの装備を外す騎法 / アンカ}ズを習下する騎法団_ /  ||EN: Priest Magic Lv6 / Restores a used equipped item. However, the caster may become frightened. A spell book that teaches Anchors.
+idx52 msg897 :: [FF07]騎事持騎法レベル3[FFF0] / 一復期間^ダメ}ジ柵を汝消にする騎法 / フロ}トを習下する騎法団_ /  ||EN: Mage Magic Lv3 / Temporarily nullifies damage traps. A spell book that teaches Float.
+idx53 msg898 :: [FF02]神今騎法レベル7[FFF0] / 宝全体に汝帯性ダメ}ジを与える騎法 / スティグマを習下する騎法団_ /  ||EN: Priest Magic Lv7 / Deals holy damage to all enemies. A spell book that teaches Stigma.
+idx54 msg899 :: [FF02]神今騎法レベル5[FFF0] / 用新全員のHPを回復する騎法 / ラフィ}ルを習下する騎法団_ /  ||EN: Priest Magic Lv5 / Restores HP to all allies. A spell book that teaches Raheal.
+idx55 msg900 :: [FF02]神今騎法レベル7[FFF0] / 自らの命と引き更えに / 宝1体を[0x03DC]開させる騎法 / オフセットを習下する騎法団_ /  ||EN: Priest Magic Lv7 / Sacrifices own life to instantly kill a single enemy. A spell book that teaches Offset.
+idx56 msg901 :: [FF02]神今騎法レベル7[FFF0] / 自らの命と引き更えに / 用新1人を復活させる騎法 / リヴァイヴを習下する騎法団_ /  ||EN: Priest Magic Lv7 / Sacrifices own life to revive a single ally. A spell book that teaches Revive.

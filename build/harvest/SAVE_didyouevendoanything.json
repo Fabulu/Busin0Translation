@@ -1,0 +1,25 @@
+{
+ "save": "ramdumps/didyouevendoanything.p2s (cross-validated against ramdumps/thefog.p2s)",
+ "symptom": "Narration text is clipped off the LEFT edge of the screen. In didyouevendoanything.p2s the longest line \"No one was in sight. Not\" loses its leading \"N\" (rendered leftmost pixel is at screenshot x=0). Shorter lines render fine: \"wind.\" appears centered at internal x~124. thefog.p2s is identical: \"A heavy fog had settled\" is clipped, \"streets.\" renders fine. The wider the line, the further off-left it starts.",
+ "root_cause": "Narration is PER-LINE CENTER-ANCHORED, not left-flushed. Each line's draw origin = box_center - line_width/2. The narration box width is desc[0x1c]=313, so box_center = 156.5 internal px (= screen center). For any line whose proportional width exceeds ~313px (or whose half-width exceeds the center), origin goes NEGATIVE and the first glyph is drawn off-screen to the left. This is a per-line ORIGIN bug, NOT a wrap/length bug. Patch 23 (li a0,8 @0x308328) only pinned the 0x1cc pen to constant 8 -- a contributor swamped by the center math -- so it neither removed the centering nor established a left margin; the measured center shows no +8 offset, consistent with the user's report that Patch 23 made it worse / did not fix it.",
+ "evidence": [
+  "didyouevendoanything narration decoded from descriptor 0x1137ac0, glyph stream ptr +0x04 = 0x011e0aa2 (BIG-ENDIAN cells, gid=char-32): 'No one was in sight. Not' / 'a sound, not even the' / 'wind.'",
+  "Resident proportional ADV table @0x4C7564 confirms Patch 14 active; per-line advance widths = 348 / 300 / 77 px, exact match to tools/glyph_metrics.py",
+  "Measured on-screen left positions (internal px = screenshot/2): L1~0 (clipped, true ~ -17.5), L2~4, L3~124",
+  "Center-anchor fit origin = C - adv*B: thefog gives B~0.49-0.50 and C~156-158, CLEAN across both on-screen lines (predicted L2=34.0 vs measured 34, L3=103.0 vs measured 103). C matches desc[0x1c]/2 = 313/2 = 156.5 EXACTLY",
+  "Off-left magnitude: didyouevendoanything L1 = 156.5 - 348/2 = -17.5 internal px (~35 screenshot px) -> ~76% of the 23px 'N' lost. thefog L1 = 156.5 - 337/2 = -12 internal px",
+  "All narration lines share ONE origin formula (origin = 156.5 - width/2), confirmed across both saves -> per-line origin bug, not a per-line wrap anomaly",
+  "Live patches verified in eeMemory: P23 0x308328=0x24040008 (li a0,8), P22 0x308CB0=0x24420012, P19 0x308040=0x08135980 (j 0x4D6600); screen-mode global 0x4FED18 = 7 (town/narration)",
+  "Renderer mechanics: glyph-count loop @0x3082A0-0x3082D4; align byte desc+0x2a7=0 -> align!=1 branch @0x308308; count*12 reserve @0x308314 discarded by P23 @0x308328; sp+0x130 = count*12 set @0x3083B4; narration draw-X assembled @0x309730-0x309774 (jal 0x3060B0); 0x1ce advance pen + Patch14 LEFTSHIFT cave @0x4C7670"
+ ],
+ "affected_code": [
+  "VA 0x308308-0x308330 = align!=1 narration centering block (file 0x208388-0x2083B0)",
+  "VA 0x3083A8-0x3083B4 = sp+0x130 = count*12 origin reserve (file 0x208428-0x208434)",
+  "VA 0x3082A0-0x3082D4 = per-line glyph-count loop feeding the centering",
+  "VA 0x309730-0x309774 = narration draw-X assembly (jal 0x3060B0)",
+  "build/patch_exe.py = Patch 23 (li a0,8 @0x308328, the wrong/swamped contributor)",
+  "build/build_v9.py:275 NARRATION_BOX_PX=360 (wrap budget; lines up to 348px still center off-screen on a 313px box)"
+ ],
+ "fix_hypothesis": "Make narration LEFT-FLUSH instead of center-anchored. The on-screen origin = box_center(156.5) - line_width/2; the architect must kill the -width/2 term and set origin to a fixed left margin (e.g. ~8px box-left). Patch 23's 0x1cc=8 is the wrong contributor -- the dominant centering enters via the count/width half-width subtraction that feeds the line origin (the glyph-count loop @0x3082A0 plus the align!=1 block @0x308308 and/or sp+0x130=count*12 @0x3083B4). Patch the narration origin computation to a constant left margin (remove the half-width subtraction) rather than nudging 0x1cc. Alternative if centering must be preserved for short lines: clamp origin = max(left_margin, box_center - width/2) so wide lines left-flush while short lines remain centered. Either way, since the render is now proportional (Patch 14) but the centering pre-measure historically used count*12 (monospace), the safest fix is to abandon centering for narration and left-flush, which also resolves the build-side wrap mismatch.",
+ "confidence": "high"
+}

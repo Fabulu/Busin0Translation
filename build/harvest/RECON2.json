@@ -1,0 +1,50 @@
+{
+ "area": "Build pipeline text shaping — wrap budgets, glyph metrics, dialogue/narration classification, and R39 quest title/description injection",
+ "findings": [
+  "WRAP BUDGETS (build/build_v9.py:270,275): DIALOGUE_BOX_PX=480, NARRATION_BOX_PX=360. Both are PROPORTIONAL pixel budgets fed to the SAME width function. There is no separate request-description budget here (R39 desc is wrapped in inject_r39_quest.py, which applies NO budget at all — see below).",
+  "SINGLE PX-WIDTH FUNCTION FOR ALL WRAP: _wrap_line_px (build_v9.py:326-346) greedily packs words until glyph_metrics.px_width(cand, enc) > box_px. wrap_px (349-373) flattens ' / '/' // ' breaks (collapse=True) then re-wraps. Dialogue AND narration both call this same function — only the box_px differs (480 vs 360). px_width uses build_v9's own enc(), which I verified returns the char-32 gid family (A=33,a=65,space=0,m=77) IDENTICAL to glyph_metrics' ADV index — so wrap widths and the renderer's ADV table are consistent, NO desync.",
+  "GLYPH METRICS (tools/glyph_metrics.py:39): ADV[g]=9 if g==0/iw==0 else clamp(ink_width+3,6,23). Measured avg ADV=17.44px/glyph; space=9, 'i'=12, 'm'=23. So 480px budget ~= 27.5 avg glyphs/line; 360px ~= 20.6 glyphs/line. THESE NUMBERS ARE ONLY CORRECT IF THE RENDERER DRAWS PROPORTIONALLY. The v122 playtest shows chargen/narration still render ~MONOSPACE-wide (Patch 19/14 not taking effect on those paths), so the wrap is packing ~27 glyphs assuming 17.4px each but the screen draws them at a wider fixed pitch -> lines run off the box. The wrap math is proportional; the actual render for narration/chargen is not.",
+  "DIALOGUE ROUTING (build_v9.py:589-612): per group, if (r,mi) in DIALOGUE_WRAP_EXCLUDE -> no wrap (authored breaks ship pristine); elif not a choice group: if mi in dialogue_groups OR (r,mi) in DIALOGUE_FORCE -> wrap_px(text,480); elif mi in narration_groups -> wrap_px(text,360,collapse=True); else -> wrap_type2_text (legacy char-count=20). Classification comes from tools/dialogue_classifier.py.",
+  "BARKEEP vs VERA (the user's dialogue verdict) ROOT CAUSE: build_dialogue_map(1197) classifies g905 (barkeep) = DIALOGUE -> wraps 480px = perfect full width (barkeepfull.p2s). g929 (Vera 'Take me with you into the maze') = mis-classified NARRATION (confirmed: dialogue=False, narration=True) because its 0x14 speaker name-island (group 932) sits AFTER its 0x04 body block, so the classifier's first/first-1 head test misses it. Without override it wraps at 360px -> forces a preventable 4th line. DIALOGUE_FORCE={(1197,929)} (build_v9.py:505) re-routes ONLY g929 to 480px. Any OTHER inline-speaker (body-before-name) dialogue group across the corpus is STILL mis-routed to narration 360px -> spurious 4th lines (e.g. nextbarkeep 'untouched/still bad'). A corpus-wide pass must enumerate all body-block-before-name groups and add them to DIALOGUE_FORCE (or fix the classifier head test without regressing R1196 g575 narration).",
+  "Vera line ('Take me with you into the maze') = 449px. At 480 dialogue budget it fits in 3 lines [458,451,138]; at 360 narration budget it splits to 4 lines [316,325,314,83] (per code comment build_v9.py:500-503). This is exactly the wrongly-forced 4th line in verafourth.p2s — a routing bug, not a width-formula bug.",
+  "REQUEST DESCRIPTION WRAP — THE OVERFLOW ROOT (build/inject_r39_quest.py:83-99, encode_english): descriptions G348-G380 and client names are encoded by encode_english which ONLY splits on ' / ' and literal '\\n' (' / ' -> newline -> 0xFFFE). IT APPLIES NO PX-WIDTH WRAP AND NO MAX-LINE CAP. The description text ships with exactly the authored line breaks from data/r39_quest_text_aligned.json (which preserve the original JP cell-pitch newlines). For the Adv Support quest (G353): 5 authored lines, longest = 587px proportional ('Duhan Castle has recently established an'). Across ALL aligned desc/client groups: MAX 5 lines, MAX line = 674px. The on-screen request box is far narrower, so descriptions overflow BOTH horizontally (lines >480-600px) and vertically (up to 5 lines with too-small line pitch) -> exactly the user's 'cut off + lines written on top of each other' (requestdesc.p2s). The build pipeline does nothing to constrain request-description geometry.",
+  "REQUEST TITLE SEMANTIC CHECK (advsupport.p2s): titles G443-G476 come from data/type2_translated/batch_r39_equip_b.json (msg_index==group). G449 EN='Adv Support'. Cross-referenced via the offset-table-linked description G353, whose JP is '冒険者挨助書 / 冒険者手間て' (Adventurer Assistance/Support Program, EN 'Adventurer Assistance Program ... special adventurer stipend of 500G'). So 'Adv Support' / 'AdvSupport' is a SEMANTICALLY FAITHFUL abbreviation of the original Japanese quest title. The shortened title is correct. (Title-group JP glyphs themselves are mostly unmapped kanji #xxxx codes, so verification was done via the matched description JP, which is decodable.)",
+  "R39 OFFSET-TABLE BASE (inject_r39_quest.py:151-181): the four offset tables G346/G381/G411/G442 use base = group_start + first_nonzero_index*2 (the FIRST-NON-ZERO slot byte address), NOT the after-FFFF anchor. Asserted table_first_nz=={346:4,381:7,411:6,442:2}. P5 self-check (lines 514-543) ABORTS the build if any content slot fails to resolve to a group START (glyph 0). This is the proven 34/34 mapping; title garble ('rt' fragment) was the old wrong-base bug, now fixed. Not a current failure source.",
+  "NARRATION wrap is ALSO proportional-budget (360px) but the renderer's mode-2 narration path draws off the LEFT edge (penX goes negative per the prompt's RAM facts). The build-side narration wrap at 360px assumes a left-flush box of usable width 360px; if the renderer's origin/penX is wrong, no wrap budget can compensate — that's a renderer/EXE-patch (P23/origin) issue, not a wrap issue. The wrap and the render disagree on both pitch (proportional vs monospace) AND origin (left margin)."
+ ],
+ "key_addresses": [
+  "build/build_v9.py:270 DIALOGUE_BOX_PX=480",
+  "build/build_v9.py:275 NARRATION_BOX_PX=360",
+  "build/build_v9.py:326 _wrap_line_px (shared px-budget greedy wrapper)",
+  "build/build_v9.py:349 wrap_px (collapse + rewrap, dialogue & narration)",
+  "build/build_v9.py:505 DIALOGUE_FORCE={(1197,929)}",
+  "build/build_v9.py:589-612 dialogue/narration/legacy routing decision",
+  "build/build_v9.py:603 wrap_px(en_text,480) dialogue branch",
+  "build/build_v9.py:610 wrap_px(en_text,360,collapse=True) narration branch",
+  "tools/glyph_metrics.py:39 ADV formula clamp(ink_width+3,6,23)",
+  "tools/glyph_metrics.py:64 px_width(s,enc)",
+  "tools/dialogue_classifier.py:36 build_dialogue_map",
+  "tools/dialogue_classifier.py:81 headed = first/first-1 in label_groups (the head test that misses body-before-name speakers)",
+  "tools/dialogue_classifier.py:92 build_narration_map (inverse)",
+  "build/inject_r39_quest.py:83-99 encode_english (NO px wrap, NO line cap — request desc overflow root)",
+  "build/inject_r39_quest.py:178 table_bases first-non-zero anchor",
+  "build/inject_r39_quest.py:514-543 P5 self-check (build abort on bad offset)"
+ ],
+ "relevant_files": [
+  "C:\\programmieren\\wizardrytranslation\\build\\build_v9.py",
+  "C:\\programmieren\\wizardrytranslation\\tools\\glyph_metrics.py",
+  "C:\\programmieren\\wizardrytranslation\\tools\\dialogue_classifier.py",
+  "C:\\programmieren\\wizardrytranslation\\build\\inject_r39_quest.py",
+  "C:\\programmieren\\wizardrytranslation\\data\\type2_translated\\batch_r39_equip_b.json",
+  "C:\\programmieren\\wizardrytranslation\\data\\r39_quest_text_aligned.json",
+  "C:\\programmieren\\wizardrytranslation\\extracted\\packdata_raw\\0039_type15.raw",
+  "C:\\programmieren\\wizardrytranslation\\data\\english_glyph_table.json"
+ ],
+ "open_questions": [
+  "What pixel pitch does the renderer ACTUALLY use for narration (mode-2) and chargen (Block1) text? The build wraps at proportional ADV (~17.4px avg) but the playtest shows wide/monospace render -> RECON 1/3 (renderer/EXE) must decode the live advance to reconcile the wrap budget with the real pitch. The wrap numbers in this report are only valid at true-proportional render scale.",
+  "The on-screen request-description box: exact usable width (px) and exact line count/pitch it allows. inject_r39_quest.py applies neither cap, so the safe geometry is unknown — needs a RAM/GS-dump measurement of the request-desc window (requestdesc.p2s) to know what to wrap to.",
+  "Corpus enumeration of body-block-before-name dialogue groups: how many groups beyond R1197 g929 are mis-routed to the 360px narration budget? DIALOGUE_FORCE currently has exactly ONE entry; a full classifier-replay scan (e.g. detect a 0x14 name-island within the block but AFTER first group) would list them for a corpus-wide DIALOGUE_FORCE or a classifier head-test fix that doesn't regress R1196 g575.",
+  "Whether the legacy wrap_type2_text (char-count=20) path (build_v9.py:612) is still hit by any visible groups — non-dialogue, non-narration type-2 groups fall through to it and wrap at a fixed 20-char width with no px awareness.",
+  "Title-group JP glyphs are unmapped kanji (#xxxx); only Adv Support (G449) was semantically confirmed via its linked description. A full 34-title semantic audit would need the JP kanji glyph map or the description-linkage for every title."
+ ]
+}

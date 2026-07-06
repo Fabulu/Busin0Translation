@@ -1,0 +1,1778 @@
+TOTAL candidates >12 name-like: 1769
+SCOPED (item-keyword) ones:
+chunk_md_import.json                     R46/m154  33  [FF04]Benoan Books Moving[FFF0] /
+chunk_md_import.json                     R46/m174  29  [FF04]Healing Spring![FFF0] /
+chunk_md_import.json                     R46/m237  26  [FF04]Take This Bracelet /
+chunk_md_import.json                     R39/m471  25  Healing Spring Research 2
+chunk_md_import.json                     R39/m472  25  Healing Spring Research 3
+chunk_md_import.json                     R46/m234  25  [FF04]Exploration Tips| /
+chunk_md_import.json                     R46/m223  24  [FF04]A Poison Spring! /
+chunk_md_import.json                     R39/m447  23  Kreta Spell Book Wanted
+chunk_md_import.json                     R39/m470  23  Healing Spring Research
+batch_11.json                            R1930/m78  23  [DATA] Map display data
+batch_11.json                            R1931/m78  23  [DATA] Map display data
+batch_11.json                            R1939/m176  23  [DATA] Map overlay data
+batch_11.json                            R1940/m176  23  [DATA] Map overlay data
+batch_11.json                            R1941/m82  23  [DATA] Map display data
+chunk_md_import.json                     R34/m141  22  Punisher Breastplate /
+chunk_md_import.json                     R35/m7  22  Controller Vibration /
+chunk_md_import.json                     R39/m423  22  Cannot accept any more
+chunk_md_import.json                     R39/m454  22  Succubus Fan Gathering
+batch_11.json                            R2651/m0  22  [MAP] Dungeon map data
+batch_11.json                            R2651/m9  22  [MAP] Dungeon map data
+batch_r39_equip_b.json                   R39/m423  22  Cannot accept any more
+chunk_r43_r45_translated.json            R45/m187  21  Currently exploring /
+chunk_r43_r45_translated.json            R45/m187  21  Currently exploring /
+chunk_md_import.json                     R34/m20  21  Water Hair Ornament /
+chunk_md_import.json                     R34/m120  21  Vengeful Hide Armor /
+chunk_md_import.json                     R34/m121  21  Betrayer Hide Armor /
+chunk_md_import.json                     R34/m139  21  Warding Breastplate /
+chunk_md_import.json                     R34/m140  21  Warrior Breastplate /
+chunk_md_import.json                     R34/m142  21  Petrify Breastplate /
+chunk_md_import.json                     R34/m144  21  Penance Breastplate /
+chunk_md_import.json                     R34/m146  21  Heretic Breastplate /
+chunk_md_import.json                     R34/m369  21  Blood-Stained Knife /
+chunk_md_import.json                     R34/m713  21  Resurrection Potion /
+chunk_md_import.json                     R34/m815  21  Scroll of Megadeath /
+chunk_md_import.json                     R34/m819  21  Scroll of Thief Eye /
+chunk_md_import.json                     R39/m631  21  Lv1 Arcane Spell Book
+chunk_md_import.json                     R39/m632  21  Lv2 Arcane Spell Book
+chunk_md_import.json                     R39/m633  21  Lv3 Arcane Spell Book
+chunk_md_import.json                     R39/m634  21  Lv4 Arcane Spell Book
+chunk_md_import.json                     R39/m635  21  Lv5 Arcane Spell Book
+chunk_md_import.json                     R39/m636  21  Lv6 Arcane Spell Book
+chunk_md_import.json                     R39/m637  21  Lv7 Arcane Spell Book
+chunk_md_import.json                     R45/m187  21  Currently exploring /
+batch_11.json                            R2653/m3161  21  [DATA] Map event data
+batch_11.json                            R2653/m3322  21  [DATA] Map event data
+batch_11.json                            R2653/m4373  21  [DATA] Map event data
+batch_11.json                            R2653/m4514  21  [DATA] Map event data
+batch_11.json                            R2653/m9364  21  [DATA] Map event data
+batch_11.json                            R2653/m9511  21  [DATA] Map event data
+batch_r39_equip_b.json                   R39/m631  21  Lv1 Arcane Spell Book
+batch_r39_equip_b.json                   R39/m632  21  Lv2 Arcane Spell Book
+batch_r39_equip_b.json                   R39/m633  21  Lv3 Arcane Spell Book
+batch_r39_equip_b.json                   R39/m634  21  Lv4 Arcane Spell Book
+batch_r39_equip_b.json                   R39/m635  21  Lv5 Arcane Spell Book
+batch_r39_equip_b.json                   R39/m636  21  Lv6 Arcane Spell Book
+batch_r39_equip_b.json                   R39/m637  21  Lv7 Arcane Spell Book
+chunk_r37_r48_r49_translated.json        R48/m71  20  Pride of the Store /
+chunk_r37_r48_r49_translated.json        R48/m81  20  Crooked Dept Store /
+chunk_r37_r48_r49_translated.json        R48/m83  20  Well-Stocked Store /
+chunk_r37_r48_r49_translated.json        R48/m71  20  Pride of the Store /
+chunk_r37_r48_r49_translated.json        R48/m81  20  Crooked Dept Store /
+chunk_r37_r48_r49_translated.json        R48/m83  20  Well-Stocked Store /
+chunk_md_import.json                     R34/m13  20  Holy King Talisman /
+chunk_md_import.json                     R34/m48  20  Decarabia Leg Chip /
+chunk_md_import.json                     R34/m115  20  Phantom Hide Armor /
+chunk_md_import.json                     R34/m118  20  Supreme Hide Armor /
+chunk_md_import.json                     R34/m137  20  Ornate Breastplate /
+chunk_md_import.json                     R34/m138  20  Mystic Breastplate /
+chunk_md_import.json                     R34/m375  20  Spirit Short Sword /
+chunk_md_import.json                     R34/m394  20  Death Spirit Sword /
+chunk_md_import.json                     R34/m476  20  Blood-Soaked Flail /
+chunk_md_import.json                     R34/m712  20  Town Return Potion /
+chunk_md_import.json                     R34/m735  20  Phantom Thief Soul /
+chunk_md_import.json                     R34/m800  20  Scroll of Zakureta /
+chunk_md_import.json                     R34/m801  20  Scroll of Zakurudo /
+chunk_md_import.json                     R34/m807  20  Scroll of Cannibal /
+chunk_md_import.json                     R34/m808  20  Scroll of Jakureta /
+chunk_md_import.json                     R34/m809  20  Scroll of Jakurudo /
+chunk_md_import.json                     R34/m813  20  Scroll of Valhalla /
+chunk_md_import.json                     R34/m828  20  Scroll of Poiscure /
+chunk_md_import.json                     R34/m829  20  Scroll of Paracure /
+chunk_md_import.json                     R34/m830  20  Scroll of Fearcure /
+chunk_md_import.json                     R48/m71  20  Pride of the Store /
+chunk_md_import.json                     R48/m81  20  Crooked Dept Store /
+chunk_md_import.json                     R48/m83  20  Well-Stocked Store /
+batch_10.json                            R852/m1  20  [DATA] Menu template
+batch_11.json                            R2588/m0  20  [DATA] Menu template
+batch_11.json                            R2589/m0  20  [DATA] Menu template
+chunk_07_translated.json                 R48/m32  19  Commonplace Store /
+chunk_08_translated.json                 R48/m45  19  Commonplace Store /
+chunk_r37_r48_r49_translated.json        R48/m52  19  Ripoff Dept Store /
+chunk_r37_r48_r49_translated.json        R48/m87  19  Budget Dept Store /
+chunk_r37_r48_r49_translated.json        R48/m96  19  Famous Dept Store /
+chunk_r43_r45_translated.json            R43/m34  19  Not enough medals /
+chunk_r43_r45_translated.json            R44/m37  19  Not enough medals /
+chunk_r37_r48_r49_translated.json        R48/m52  19  Ripoff Dept Store /
+chunk_r37_r48_r49_translated.json        R48/m87  19  Budget Dept Store /
+chunk_r37_r48_r49_translated.json        R48/m96  19  Famous Dept Store /
+chunk_r43_r45_translated.json            R43/m34  19  Not enough medals /
+chunk_r43_r45_translated.json            R44/m37  19  Not enough medals /
+chunk_md_import.json                     R34/m110  19  Blood-Soaked Robe /
+chunk_md_import.json                     R34/m114  19  Ornate Hide Armor /
+chunk_md_import.json                     R34/m116  19  Spirit Hide Armor /
+chunk_md_import.json                     R34/m119  19  Hayate Hide Armor /
+chunk_md_import.json                     R34/m123  19  Ruined Hide Armor /
+chunk_md_import.json                     R34/m143  19  Ghost Breastplate /
+chunk_md_import.json                     R34/m220  19  Barbatos Arm Chip /
+chunk_md_import.json                     R34/m225  19  Leraje Brain Chip /
+chunk_md_import.json                     R34/m228  19  Murmur Brain Chip /
+chunk_md_import.json                     R34/m387  19  Dragon Bone Sword /
+chunk_md_import.json                     R34/m439  19  Blood-Stained Axe /
+chunk_md_import.json                     R34/m526  19  Asmodai Hand Chip /
+chunk_md_import.json                     R34/m527  19  Gamigin Hand Chip /
+chunk_md_import.json                     R34/m528  19  Flauros Hand Chip /
+chunk_md_import.json                     R34/m791  19  Scroll of Analyze /
+chunk_md_import.json                     R34/m797  19  Scroll of Supreme /
+chunk_md_import.json                     R34/m814  19  Scroll of Reflect /
+chunk_md_import.json                     R34/m818  19  Scroll of Barrets /
+chunk_md_import.json                     R34/m823  19  Scroll of Protect /
+chunk_md_import.json                     R34/m832  19  Scroll of Carcass /
+chunk_md_import.json                     R34/m837  19  Scroll of Recover /
+chunk_md_import.json                     R34/m838  19  Scroll of Anchors /
+chunk_md_import.json                     R34/m924  19  Cursed Beast Fang /
+chunk_md_import.json                     R39/m525  19  Vigor General Store
+chunk_md_import.json                     R39/m638  19  Lv1 Holy Spell Book
+chunk_md_import.json                     R39/m639  19  Lv2 Holy Spell Book
+chunk_md_import.json                     R39/m640  19  Lv3 Holy Spell Book
+chunk_md_import.json                     R39/m641  19  Lv4 Holy Spell Book
+chunk_md_import.json                     R39/m642  19  Lv5 Holy Spell Book
+chunk_md_import.json                     R39/m643  19  Lv6 Holy Spell Book
+chunk_md_import.json                     R39/m644  19  Lv7 Holy Spell Book
+chunk_md_import.json                     R43/m34  19  Not enough medals /
+chunk_md_import.json                     R44/m37  19  Not enough medals /
+chunk_md_import.json                     R46/m170  19  Ancient Spellbook /
+chunk_md_import.json                     R48/m52  19  Ripoff Dept Store /
+chunk_md_import.json                     R48/m87  19  Budget Dept Store /
+chunk_md_import.json                     R48/m96  19  Famous Dept Store /
+batch_08.json                            R1212/m569  19  "No return scroll!"
+batch_09.json                            R1353/m563  19  "No return scroll!"
+batch_r39_equip_b.json                   R39/m525  19  Vigor General Store
+batch_r39_equip_b.json                   R39/m638  19  Lv1 Holy Spell Book
+batch_r39_equip_b.json                   R39/m639  19  Lv2 Holy Spell Book
+batch_r39_equip_b.json                   R39/m640  19  Lv3 Holy Spell Book
+batch_r39_equip_b.json                   R39/m641  19  Lv4 Holy Spell Book
+batch_r39_equip_b.json                   R39/m642  19  Lv5 Holy Spell Book
+batch_r39_equip_b.json                   R39/m643  19  Lv6 Holy Spell Book
+batch_r39_equip_b.json                   R39/m644  19  Lv7 Holy Spell Book
+chunk_r37_r48_r49_translated.json        R48/m64  18  Well-Known Store /
+chunk_r37_r48_r49_translated.json        R48/m75  18  Department Store /
+chunk_r37_r48_r49_translated.json        R48/m82  18  Hidden Gem Store /
+chunk_r37_r48_r49_translated.json        R48/m64  18  Well-Known Store /
+chunk_r37_r48_r49_translated.json        R48/m75  18  Department Store /
+chunk_r37_r48_r49_translated.json        R48/m82  18  Hidden Gem Store /
+chunk_md_import.json                     R34/m5  18  Corruption Stone /
+chunk_md_import.json                     R34/m12  18  Warrior Talisman /
+chunk_md_import.json                     R34/m14  18  Holy Symbol Ring /
+chunk_md_import.json                     R34/m44  18  Haborym Leg Chip /
+chunk_md_import.json                     R34/m113  18  Magus Hide Armor /
+chunk_md_import.json                     R34/m117  18  Faith Hide Armor /
+chunk_md_import.json                     R34/m177  18  Talisman Buckler /
+chunk_md_import.json                     R34/m207  18  Eligor Body Chip /
+chunk_md_import.json                     R34/m208  18  Marbas Body Chip /
+chunk_md_import.json                     R34/m209  18  Agares Body Chip /
+chunk_md_import.json                     R34/m210  18  Beleth Body Chip /
+chunk_md_import.json                     R34/m213  18  Orobas Body Chip /
+chunk_md_import.json                     R34/m214  18  Andras Body Chip /
+chunk_md_import.json                     R34/m215  18  Cimejes Arm Chip /
+chunk_md_import.json                     R34/m216  18  Sabnock Arm Chip /
+chunk_md_import.json                     R34/m221  18  Focalor Arm Chip /
+chunk_md_import.json                     R34/m227  18  Uvall Brain Chip /
+chunk_md_import.json                     R34/m381  18  Bone Short Sword /
+chunk_md_import.json                     R34/m421  18  Divination Staff /
+chunk_md_import.json                     R34/m525  18  Gusion Hand Chip /
+chunk_md_import.json                     R34/m529  18  Belial Hand Chip /
+chunk_md_import.json                     R34/m705  18  Full Heal Potion /
+chunk_md_import.json                     R34/m731  18  Holy Knight Soul /
+chunk_md_import.json                     R34/m732  18  Dark Knight Soul /
+chunk_md_import.json                     R34/m737  18  Megadeath Potion /
+chunk_md_import.json                     R34/m788  18  Scroll of Kureta /
+chunk_md_import.json                     R34/m789  18  Scroll of Kurudo /
+chunk_md_import.json                     R34/m795  18  Scroll of Feeble /
+chunk_md_import.json                     R34/m796  18  Scroll of Shrade /
+chunk_md_import.json                     R34/m798  18  Scroll of Salome /
+chunk_md_import.json                     R34/m799  18  Scroll of Escape /
+chunk_md_import.json                     R34/m802  18  Scroll of Zateel /
+chunk_md_import.json                     R34/m804  18  Scroll of Zarado /
+chunk_md_import.json                     R34/m806  18  Scroll of Repeal /
+chunk_md_import.json                     R34/m810  18  Scroll of Jateel /
+chunk_md_import.json                     R34/m812  18  Scroll of Jarado /
+chunk_md_import.json                     R34/m826  18  Scroll of Poison /
+chunk_md_import.json                     R34/m827  18  Scroll of Strain /
+chunk_md_import.json                     R34/m835  18  Scroll of Undead /
+chunk_md_import.json                     R34/m840  18  Scroll of Stigma /
+chunk_md_import.json                     R34/m841  18  Scroll of Raheal /
+chunk_md_import.json                     R34/m842  18  Scroll of Offset /
+chunk_md_import.json                     R34/m843  18  Scroll of Revive /
+chunk_md_import.json                     R34/m908  18  Dead Dragon Bone /
+chunk_md_import.json                     R48/m64  18  Well-Known Store /
+chunk_md_import.json                     R48/m75  18  Department Store /
+chunk_md_import.json                     R48/m82  18  Hidden Gem Store /
+chunk_01_translated.json                 R36/m139  17  Child of Ashira /
+chunk_01_translated.json                 R36/m148  17  Child of Ashira /
+chunk_01_translated.json                 R36/m149  17  Child of Ashira /
+chunk_01_translated.json                 R36/m150  17  Child of Ashira /
+chunk_01_translated.json                 R36/m151  17  Child of Ashira /
+chunk_r37_r48_r49_translated.json        R48/m53  17  Specialty Store /
+chunk_r43_r45_translated.json            R45/m169  17  Can't take more /
+chunk_r37_r48_r49_translated.json        R48/m53  17  Specialty Store /
+chunk_r43_r45_translated.json            R45/m169  17  Can't take more /
+chunk_md_import.json                     R34/m6  17  Messenger Stone /
+chunk_md_import.json                     R34/m15  17  Cursed Talisman /
+chunk_md_import.json                     R34/m46  17  Gomory Leg Chip /
+chunk_md_import.json                     R34/m49  17  Furfur Leg Chip /
+chunk_md_import.json                     R34/m122  17  Dead Man's Hide /
+chunk_md_import.json                     R34/m171  17  Whispering Helm /
+chunk_md_import.json                     R34/m211  17  Botis Body Chip /
+chunk_md_import.json                     R34/m212  17  Zepar Body Chip /
+chunk_md_import.json                     R34/m223  17  Ipos Brain Chip /
+chunk_md_import.json                     R34/m224  17  Gaap Brain Chip /
+chunk_md_import.json                     R34/m226  17  Raum Brain Chip /
+chunk_md_import.json                     R34/m429  17  Crumbling Staff /
+chunk_md_import.json                     R34/m496  17  Flash Great Bow /
+chunk_md_import.json                     R34/m520  17  Balam Hand Chip /
+chunk_md_import.json                     R34/m521  17  Morax Hand Chip /
+chunk_md_import.json                     R34/m522  17  Seere Hand Chip /
+chunk_md_import.json                     R34/m707  17  Antidote Potion /
+chunk_md_import.json                     R34/m711  17  Teleport Potion /
+chunk_md_import.json                     R34/m714  17  Exorcism Potion /
+chunk_md_import.json                     R34/m793  17  Scroll of Delay /
+chunk_md_import.json                     R34/m794  17  Scroll of Depth /
+chunk_md_import.json                     R34/m805  17  Scroll of Drain /
+chunk_md_import.json                     R34/m820  17  Scroll of Yaiba /
+chunk_md_import.json                     R34/m822  17  Scroll of Bless /
+chunk_md_import.json                     R34/m825  17  Scroll of Heals /
+chunk_md_import.json                     R34/m831  17  Scroll of Vital /
+chunk_md_import.json                     R34/m834  17  Scroll of Lumil /
+chunk_md_import.json                     R34/m836  17  Scroll of Trans /
+chunk_md_import.json                     R34/m839  17  Scroll of Float /
+chunk_md_import.json                     R34/m996  17  Dark Oath Medal /
+chunk_md_import.json                     R34/m1000  17  Raiman's Letter /
+chunk_md_import.json                     R34/m1001  17  Raiman's Letter /
+chunk_md_import.json                     R34/m1005  17  Old Magic Stone /
+chunk_md_import.json                     R34/m1123  17  Throwing Dagger /
+chunk_md_import.json                     R39/m234  17  Magic Cooperation
+chunk_md_import.json                     R39/m557  17  Arcane Spell Book
+chunk_md_import.json                     R45/m169  17  Can't take more /
+chunk_md_import.json                     R48/m53  17  Specialty Store /
+batch_r39_equip_a.json                   R39/m234  17  Magic Cooperation
+batch_r39_equip_b.json                   R39/m557  17  Arcane Spell Book
+chunk_05_translated.json                 R44/m40  16  Create a chip? /
+chunk_07_translated.json                 R48/m12  16  Nameless Store /
+chunk_08_translated.json                 R48/m35  16  Discount Store /
+chunk_08_translated.json                 R48/m54  16  Nameless Store /
+chunk_r37_r48_r49_translated.json        R48/m6  16  Knockoff Store /
+chunk_r37_r48_r49_translated.json        R48/m34  16  Nameless Store /
+chunk_r37_r48_r49_translated.json        R48/m35  16  Discount Store /
+chunk_r43_r45_translated.json            R43/m26  16  Medals:        /
+chunk_r43_r45_translated.json            R44/m40  16  Create a chip? /
+chunk_r43_r45_translated.json            R45/m196  16  Nothing stored /
+chunk_r37_r48_r49_translated.json        R48/m6  16  Knockoff Store /
+chunk_r37_r48_r49_translated.json        R48/m34  16  Nameless Store /
+chunk_r37_r48_r49_translated.json        R48/m35  16  Discount Store /
+chunk_r43_r45_translated.json            R43/m26  16  Medals:        /
+chunk_r43_r45_translated.json            R44/m40  16  Create a chip? /
+chunk_r43_r45_translated.json            R45/m196  16  Nothing stored /
+chunk_md_import.json                     R34/m3  16  Knight's Stone /
+chunk_md_import.json                     R34/m47  16  Foras Leg Chip /
+chunk_md_import.json                     R34/m181  16  Spirit Buckler /
+chunk_md_import.json                     R34/m218  16  Orias Arm Chip /
+chunk_md_import.json                     R34/m423  16  Recovery Staff /
+chunk_md_import.json                     R34/m436  16  Flash Hand Axe /
+chunk_md_import.json                     R34/m479  16  Throwing Knife /
+chunk_md_import.json                     R34/m523  16  Buer Hand Chip /
+chunk_md_import.json                     R34/m524  16  Vine Hand Chip /
+chunk_md_import.json                     R34/m703  16  Wound Seal Salve
+chunk_md_import.json                     R34/m704  16  Healing Potion /
+chunk_md_import.json                     R34/m708  16  Paralysis Cure /
+chunk_md_import.json                     R34/m709  16  Uncurse Potion /
+chunk_md_import.json                     R34/m728  16  Alchemist Soul /
+chunk_md_import.json                     R34/m733  16  Commander Soul /
+chunk_md_import.json                     R34/m734  16  Professor Soul /
+chunk_md_import.json                     R34/m736  16  Reflect Potion /
+chunk_md_import.json                     R34/m787  16  Scroll of Kureta
+chunk_md_import.json                     R34/m790  16  Scroll of Teel /
+chunk_md_import.json                     R34/m792  16  Scroll of Weak /
+chunk_md_import.json                     R34/m803  16  Scroll of Thru /
+chunk_md_import.json                     R34/m811  16  Scroll of Late /
+chunk_md_import.json                     R34/m816  16  Scroll of Heal /
+chunk_md_import.json                     R34/m817  16  Scroll of Leap /
+chunk_md_import.json                     R34/m821  16  Scroll of Coat /
+chunk_md_import.json                     R34/m824  16  Scroll of Amok /
+chunk_md_import.json                     R34/m833  16  Scroll of Will /
+chunk_md_import.json                     R34/m1007  16  Stamina Elixir /
+chunk_md_import.json                     R34/m1009  16  Revival Elixir /
+chunk_md_import.json                     R34/m1012  16  Orc Repel Bell /
+chunk_md_import.json                     R39/m561  16  Self-Repair Chip
+chunk_md_import.json                     R43/m26  16  Medals:        /
+chunk_md_import.json                     R44/m40  16  Create a chip? /
+chunk_md_import.json                     R45/m196  16  Nothing stored /
+chunk_md_import.json                     R48/m6  16  Knockoff Store /
+chunk_md_import.json                     R48/m34  16  Nameless Store /
+chunk_md_import.json                     R48/m35  16  Discount Store /
+batch_r39_equip_b.json                   R39/m561  16  Self-Repair Chip
+chunk_01_translated.json                 R36/m96  15  Death Bringer /
+chunk_08_translated.json                 R48/m53  15  No-Name Store /
+chunk_08_translated.json                 R48/m85  15  No-Name Store /
+chunk_08_translated.json                 R48/m94  15  No-Name Store /
+chunk_08_translated.json                 R48/m103  15  No-Name Store /
+chunk_r36_translated.json                R36/m139  15  Child of Ashira
+chunk_r36_translated.json                R36/m148  15  Child of Ashira
+chunk_r36_translated.json                R36/m149  15  Child of Ashira
+chunk_r36_translated.json                R36/m150  15  Child of Ashira
+chunk_r36_translated.json                R36/m151  15  Child of Ashira
+chunk_r37_r48_r49_translated.json        R48/m36  15  General Store /
+chunk_r37_r48_r49_translated.json        R48/m45  15  Regular Store /
+chunk_r37_r48_r49_translated.json        R48/m54  15  Trusted Store /
+chunk_r43_r45_translated.json            R43/m31  15  Medals needed /
+chunk_r36_translated.json                R36/m139  15  Child of Ashira
+chunk_r36_translated.json                R36/m148  15  Child of Ashira
+chunk_r36_translated.json                R36/m149  15  Child of Ashira
+chunk_r36_translated.json                R36/m150  15  Child of Ashira
+chunk_r36_translated.json                R36/m151  15  Child of Ashira
+chunk_r37_r48_r49_translated.json        R48/m36  15  General Store /
+chunk_r37_r48_r49_translated.json        R48/m45  15  Regular Store /
+chunk_r37_r48_r49_translated.json        R48/m54  15  Trusted Store /
+chunk_r43_r45_translated.json            R43/m31  15  Medals needed /
+chunk_md_import.json                     R34/m1  15  Healing Stone /
+chunk_md_import.json                     R34/m2  15  War God Stone /
+chunk_md_import.json                     R34/m4  15  Brahman Stone /
+chunk_md_import.json                     R34/m45  15  Shax Leg Chip /
+chunk_md_import.json                     R34/m112  15  Leather Armor /
+chunk_md_import.json                     R34/m217  15  Bune Arm Chip /
+chunk_md_import.json                     R34/m219  15  Caim Arm Chip /
+chunk_md_import.json                     R34/m222  15  Amon Arm Chip /
+chunk_md_import.json                     R34/m386  15  Crystal Sword /
+chunk_md_import.json                     R34/m420  15  Healing Staff /
+chunk_md_import.json                     R34/m422  15  Binding Staff /
+chunk_md_import.json                     R34/m424  15  Inferno Staff /
+chunk_md_import.json                     R34/m706  15  Revive Potion /
+chunk_md_import.json                     R34/m710  15  Return Potion /
+chunk_md_import.json                     R34/m844  15  ?Spell Scroll /
+chunk_md_import.json                     R34/m920  15  Spider Thread /
+chunk_md_import.json                     R34/m1002  15  Helm Fragment /
+chunk_md_import.json                     R34/m1004  15  Romy's Amulet /
+chunk_md_import.json                     R34/m1015  15  Wagness Stone /
+chunk_md_import.json                     R36/m139  15  Child of Ashira
+chunk_md_import.json                     R36/m148  15  Child of Ashira
+chunk_md_import.json                     R36/m149  15  Child of Ashira
+chunk_md_import.json                     R36/m150  15  Child of Ashira
+chunk_md_import.json                     R36/m151  15  Child of Ashira
+chunk_md_import.json                     R39/m437  15  Deadline Passed
+chunk_md_import.json                     R39/m457  15  Want Ingo's Key
+chunk_md_import.json                     R39/m558  15  Holy Spell Book
+chunk_md_import.json                     R39/m578  15  Throwing Knives
+chunk_md_import.json                     R43/m31  15  Medals needed /
+chunk_md_import.json                     R48/m36  15  General Store /
+chunk_md_import.json                     R48/m45  15  Regular Store /
+chunk_md_import.json                     R48/m54  15  Trusted Store /
+batch_08.json                            R1212/m18  15  "I'm so bored!"
+batch_09.json                            R1353/m18  15  "I'm so bored!"
+batch_r39_equip_b.json                   R39/m437  15  Deadline Passed
+batch_r39_equip_b.json                   R39/m558  15  Holy Spell Book
+batch_r39_equip_b.json                   R39/m578  15  Throwing Knives
+chunk_r37_r48_r49_translated.json        R48/m32  14  Common Store /
+chunk_r37_r48_r49_translated.json        R48/m46  14  Famous Store /
+chunk_r37_r48_r49_translated.json        R48/m32  14  Common Store /
+chunk_r37_r48_r49_translated.json        R48/m46  14  Famous Store /
+chunk_md_import.json                     R34/m9  14  Psychic Ring /
+chunk_md_import.json                     R34/m11  14  Samurai Ring /
+chunk_md_import.json                     R34/m166  14  Crystal Helm /
+chunk_md_import.json                     R34/m427  14  Sage's Staff /
+chunk_md_import.json                     R34/m428  14  Cursed Staff /
+chunk_md_import.json                     R34/m720  14  Fighter Soul /
+chunk_md_import.json                     R34/m725  14  Samurai Soul /
+chunk_md_import.json                     R34/m916  14  Dragon Scale /
+chunk_md_import.json                     R34/m931  14  Bird Feather /
+chunk_md_import.json                     R34/m940  14  Mage Earring /
+chunk_md_import.json                     R34/m1008  14  Magic Elixir /
+chunk_md_import.json                     R34/m1132  14  ?Magic Stone /
+chunk_md_import.json                     R34/m1143  14  ?Breastplate /
+chunk_md_import.json                     R39/m453  14  Give Me Medals
+chunk_md_import.json                     R39/m559  14  Automater Chip
+chunk_md_import.json                     R39/m624  14  Lv1 Spell Book
+chunk_md_import.json                     R39/m625  14  Lv2 Spell Book
+chunk_md_import.json                     R39/m626  14  Lv3 Spell Book
+chunk_md_import.json                     R39/m627  14  Lv4 Spell Book
+chunk_md_import.json                     R39/m628  14  Lv5 Spell Book
+chunk_md_import.json                     R39/m629  14  Lv6 Spell Book
+chunk_md_import.json                     R39/m630  14  Lv7 Spell Book
+chunk_md_import.json                     R47/m126  14  Mirror Image /
+chunk_md_import.json                     R48/m32  14  Common Store /
+chunk_md_import.json                     R48/m46  14  Famous Store /
+batch_r39_equip_b.json                   R39/m559  14  Automater Chip
+batch_r39_equip_b.json                   R39/m624  14  Lv1 Spell Book
+batch_r39_equip_b.json                   R39/m625  14  Lv2 Spell Book
+batch_r39_equip_b.json                   R39/m626  14  Lv3 Spell Book
+batch_r39_equip_b.json                   R39/m627  14  Lv4 Spell Book
+batch_r39_equip_b.json                   R39/m628  14  Lv5 Spell Book
+batch_r39_equip_b.json                   R39/m629  14  Lv6 Spell Book
+batch_r39_equip_b.json                   R39/m630  14  Lv7 Spell Book
+chunk_07_translated.json                 R48/m24  13  Cheap Store /
+chunk_08_translated.json                 R48/m42  13  Cheap Store /
+chunk_r36_translated.json                R36/m10  13  Boring Beetle
+chunk_r36_translated.json                R36/m96  13  Death Bringer
+chunk_r37_r48_r49_translated.json        R48/m24  13  Cheap Store /
+chunk_r43_r45_translated.json            R43/m30  13  Medals held /
+chunk_r36_translated.json                R36/m10  13  Boring Beetle
+chunk_r36_translated.json                R36/m96  13  Death Bringer
+chunk_r37_r48_r49_translated.json        R48/m24  13  Cheap Store /
+chunk_r43_r45_translated.json            R43/m30  13  Medals held /
+chunk_md_import.json                     R34/m7  13  Death Stone /
+chunk_md_import.json                     R34/m8  13  Ornate Ring /
+chunk_md_import.json                     R34/m10  13  Memory Ring /
+chunk_md_import.json                     R34/m136  13  Breastplate /
+chunk_md_import.json                     R34/m425  13  Frost Staff /
+chunk_md_import.json                     R34/m426  13  Death Staff /
+chunk_md_import.json                     R34/m478  13  Soul Buster /
+chunk_md_import.json                     R34/m518  13  Garian Claw /
+chunk_md_import.json                     R34/m718  13  Priest Wine /
+chunk_md_import.json                     R34/m723  13  Priest Soul /
+chunk_md_import.json                     R34/m726  13  Knight Soul /
+chunk_md_import.json                     R34/m727  13  Bishop Soul /
+chunk_md_import.json                     R34/m730  13  Ranger Soul /
+chunk_md_import.json                     R34/m906  13  Spirit Body /
+chunk_md_import.json                     R34/m943  13  Angel Stone /
+chunk_md_import.json                     R34/m989  13  Id Bracelet /
+chunk_md_import.json                     R34/m1014  13  Skedim Horn /
+chunk_md_import.json                     R34/m1093  13  Magic Stone /
+chunk_md_import.json                     R34/m1141  13  ?Hide Armor /
+chunk_md_import.json                     R36/m10  13  Boring Beetle
+chunk_md_import.json                     R36/m96  13  Death Bringer
+chunk_md_import.json                     R43/m30  13  Medals held /
+chunk_md_import.json                     R48/m24  13  Cheap Store /
+batch_05.json                            R1206/m546  13  Mom wore one~
+batch_05.json                            R1207/m546  13  Mom wore one~
+
+--- UNSCOPED name-like >12 (for review) ---
+chunk_md_import.json                     R46/m216  37  [FF04]Beat [Wriggling] Again![FFF0] /
+chunk_md_import.json                     R46/m148  35  [FF04]Want a Part-Time Job?[FFF0] /
+chunk_md_import.json                     R46/m157  35  [FF04]Robbed at Vigger Shop[FFF0] /
+chunk_md_import.json                     R46/m146  34  [FF04]Done: Creta Mage Cpt[FFF0] /
+chunk_md_import.json                     R46/m153  34  [FF04]Bogie-Cats Are Great[FFF0] /
+chunk_md_import.json                     R46/m171  34  [FF04]Rock-Paper-Scissors?[FFF0] /
+chunk_md_import.json                     R46/m175  34  [FF04]Soldiers Hit Again!?[FFF0] /
+chunk_md_import.json                     R46/m194  34  [FF04]Witch on 3rd Floor!![FFF0] /
+chunk_md_import.json                     R46/m184  33  [FF04]What's Vigger Shop?[FFF0] /
+chunk_md_import.json                     R46/m203  33  [FF04]About Personality 2[FFF0] /
+chunk_md_import.json                     R46/m155  32  [FF04]How to Learn Magic[FFF0] /
+chunk_md_import.json                     R46/m212  32  [FF04]Princess Is Back!![FFF0] /
+chunk_md_import.json                     R46/m151  31  [FF04]Weird Guy in Maze[FFF0] /
+chunk_md_import.json                     R46/m162  31  [FF04]The Good Old Days[FFF0] /
+chunk_md_import.json                     R46/m178  31  [FF04]About Personality[FFF0] /
+chunk_md_import.json                     R46/m215  31  [FF04]Beat [Wriggling]![FFF0] /
+chunk_md_import.json                     R46/m164  30  [FF04]Aurora the Witch[FFF0] /
+chunk_md_import.json                     R46/m145  29  [FF04]Combat Board Up[FFF0] /
+chunk_md_import.json                     R46/m173  29  [FF04]Place an Order![FFF0] /
+chunk_md_import.json                     R46/m206  29  [FF04]You Bought Info[FFF0] /
+chunk_md_import.json                     R39/m444  28  Salem Church Missionary Work
+chunk_md_import.json                     R46/m147  28  [FF04]New Shop Items[FFF0] /
+chunk_md_import.json                     R46/m225  28  [FF04]Wicked Party Spotted /
+batch_10.json                            R1084/m748  28  [BINARY] Spell ability flags
+batch_10.json                            R1084/m3015  28  [BINARY] Katakana name table
+batch_11.json                            R2141/m66  28  [DATA] Equipment screen data
+batch_11.json                            R2141/m79  28  [DATA] Equipment screen data
+batch_11.json                            R2141/m96  28  [DATA] Equipment screen data
+batch_11.json                            R2141/m97  28  [DATA] Equipment screen data
+batch_11.json                            R2166/m15  28  [DATA] Animation layout data
+chunk_md_import.json                     R46/m152  27  [FF04]Go to Karman?[FFF0] /
+batch_10.json                            R1084/m815  27  [BINARY] Palette color data
+batch_10.json                            R1084/m3007  27  [BINARY] Defense collection
+batch_11.json                            R1112/m16  27  [DATA] Animation frame data
+batch_11.json                            R2161/m16  27  [DATA] Animation frame data
+batch_10.json                            R1084/m4490  26  [BINARY] Emotion fear data
+batch_10.json                            R1084/m4529  26  [BINARY] Area terrain data
+batch_11.json                            R1959/m32  26  [DATA] Dungeon system data
+batch_11.json                            R1972/m13  26  [DATA] Dungeon system data
+chunk_md_import.json                     R39/m415  25  Abandoning a request will
+chunk_md_import.json                     R39/m450  25  Please Take Care of Pippi
+chunk_md_import.json                     R39/m494  25  Allied action proficiency
+chunk_md_import.json                     R39/m499  25  All party members' status
+chunk_md_import.json                     R46/m210  25  [FF04]**B5 Info**[FFF0] /
+chunk_md_import.json                     R46/m214  25  [FF04]Webster Is|[FFF0] /
+chunk_md_import.json                     R46/m224  25  [FF04]Info Broker Open! /
+chunk_md_import.json                     R46/m239  25  [FF04]Accept My Request /
+batch_10.json                            R726/m6  25  [DATA] Column layout data
+batch_11.json                            R2200/m12  25  [DATA] Column layout data
+batch_11.json                            R2201/m8  25  [DATA] Column layout data
+batch_11.json                            R2204/m8  25  [DATA] Column layout data
+batch_11.json                            R2206/m95  25  [DATA] Event trigger data
+batch_11.json                            R2206/m155  25  [DATA] Event trigger data
+batch_11.json                            R2207/m12  25  [DATA] Column layout data
+batch_11.json                            R2208/m12  25  [DATA] Column layout data
+batch_11.json                            R2208/m141  25  [DATA] Column layout data
+batch_11.json                            R2208/m161  25  [DATA] Column layout data
+batch_11.json                            R2208/m177  25  [DATA] Column layout data
+batch_gap1347.json                       R1348/m1  25  0123456789- The leader is
+chunk_md_import.json                     R39/m430  24  Request from Adventurers
+chunk_md_import.json                     R39/m431  24  Request from Dark Street
+chunk_md_import.json                     R39/m489  24  User's alignment changed
+chunk_md_import.json                     R39/m490  24  User's alignment changed
+chunk_md_import.json                     R39/m491  24  User's alignment changed
+chunk_md_import.json                     R39/m554  24  Unidentified Accessories
+chunk_md_import.json                     R39/m654  24  [Some of AA's parts have
+batch_10.json                            R1084/m2230  24  [BINARY] Item stat table
+batch_10.json                            R1084/m3135  24  [BINARY] Inner flag data
+batch_r39_equip_b.json                   R39/m430  24  Request from Adventurers
+batch_r39_equip_b.json                   R39/m431  24  Request from Dark Street
+batch_r39_equip_b.json                   R39/m554  24  Unidentified Accessories
+chunk_md_import.json                     R34/m203  23  Holy Knight Gauntlets /
+chunk_md_import.json                     R39/m341  23  No Allied Actions set /
+chunk_md_import.json                     R39/m449  23  Adventurer Support Plan
+chunk_md_import.json                     R39/m552  23  Self-Repair Accessories
+chunk_md_import.json                     R46/m201  23  [FF04]*DELETED*[FFF0] /
+chunk_md_import.json                     R46/m205  23  Sorry for the trouble /
+chunk_md_import.json                     R46/m240  23  Hey^have some decency /
+chunk_md_import.json                     R39/m341  23  No Allied Actions set /
+batch_11.json                            R1110/m9  23  [DATA] Level curve data
+batch_r39_equip_b.json                   R39/m552  23  Self-Repair Accessories
+chunk_06_translated.json                 R45/m124  22  Shop level too /low! /
+chunk_08_translated.json                 R48/m81  22  Illegal
+Construction /
+chunk_09_translated.json                 R49/m58  22  Warp to upper floor? /
+chunk_09_translated.json                 R49/m59  22  Warp to lower floor? /
+chunk_09_translated.json                 R49/m61  22  Climb up the ladder? /
+chunk_r37_r48_r49_translated.json        R49/m73  22  Enter the warp zone? /
+chunk_r37_r48_r49_translated.json        R49/m73  22  Enter the warp zone? /
+chunk_md_import.json                     R34/m19  22  Silver Hair Ornament /
+chunk_md_import.json                     R34/m22  22  Cursed Hair Ornament /
+chunk_md_import.json                     R34/m24  22  Ogre Power Wristband /
+chunk_md_import.json                     R34/m28  22  Exhausting Wristband /
+chunk_md_import.json                     R34/m206  22  Demon King Gauntlets /
+chunk_md_import.json                     R34/m380  22  Restless Short Sword /
+chunk_md_import.json                     R34/m382  22  Unending Short Sword /
+chunk_md_import.json                     R34/m503  22  Holy Warrior Polearm /
+chunk_md_import.json                     R35/m13  22  Back Attack Auto Fix /
+chunk_md_import.json                     R39/m90  22  Curse was dispelled! /
+chunk_md_import.json                     R39/m468  22  Please Temper My Armor
+chunk_md_import.json                     R39/m496  22  User's ability charges
+chunk_md_import.json                     R39/m566  22  Unidentified Equipment
+chunk_md_import.json                     R46/m102  22  Duhan Merchant Guild /
+chunk_md_import.json                     R46/m163  22  I can't forgive that /
+chunk_md_import.json                     R46/m228  22  What does that mean! /
+chunk_md_import.json                     R46/m231  22  What are you saying? /
+chunk_md_import.json                     R49/m73  22  Enter the warp zone? /
+batch_10.json                            R750/m8  22  [DATA] UI element data
+batch_10.json                            R1084/m32  22  [LAYOUT] Column header
+batch_gap1347.json                       R1348/m2  22  [DEBUG] Image Aura Set
+batch_md_import.json                     R1205/m868  22  A woman's voice echoes
+batch_md_import.json                     R1354/m226  22  He showed a stern look
+batch_r39_equip_b.json                   R39/m566  22  Unidentified Equipment
+chunk_06_translated.json                 R45/m82  21  Accept this /order? /
+chunk_07_translated.json                 R45/m166  21  Set Up Resting Room /
+chunk_07_translated.json                 R47/m28  21  Too large to flank! /
+chunk_08_translated.json                 R48/m60  21  Waste
+Disposal Site /
+chunk_08_translated.json                 R48/m78  21  Waste
+Disposal Site /
+chunk_08_translated.json                 R48/m90  21  Waste
+Disposal Site /
+chunk_08_translated.json                 R48/m99  21  Waste
+Disposal Site /
+chunk_r37_r48_r49_translated.json        R48/m50  21  Country Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m61  21  Capital Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m92  21  Global Garbage Dump /
+chunk_r37_r48_r49_translated.json        R49/m57  21  Go down the stairs? /
+chunk_r43_r45_translated.json            R43/m36  21  No quests completed /
+chunk_r43_r45_translated.json            R44/m38  21  No cursed gear held /
+chunk_r43_r45_translated.json            R45/m130  21  Summer horror fest! /
+chunk_r43_r45_translated.json            R45/m139  21  No orders available /
+chunk_r37_r48_r49_translated.json        R48/m50  21  Country Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m61  21  Capital Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m92  21  Global Garbage Dump /
+chunk_r37_r48_r49_translated.json        R49/m57  21  Go down the stairs? /
+chunk_r43_r45_translated.json            R43/m36  21  No quests completed /
+chunk_r43_r45_translated.json            R44/m38  21  No cursed gear held /
+chunk_r43_r45_translated.json            R45/m130  21  Summer horror fest! /
+chunk_r43_r45_translated.json            R45/m139  21  No orders available /
+chunk_md_import.json                     R34/m16  21  Lapis Hair Ornament /
+chunk_md_import.json                     R34/m145  21  Fallen Warrior Mail /
+chunk_md_import.json                     R34/m374  21  Mithril Short Sword /
+chunk_md_import.json                     R34/m376  21  Ancient Short Sword /
+chunk_md_import.json                     R34/m405  21  Death Pilgrim Blade /
+chunk_md_import.json                     R34/m449  21  Vengeful Battle Axe /
+chunk_md_import.json                     R35/m12  21  Cmd Memory (Battle) /
+chunk_md_import.json                     R35/m42  21  Select data to load /
+chunk_md_import.json                     R39/m429  21  Request from Citizens
+chunk_md_import.json                     R39/m465  21  Retrieve My Lost Item
+chunk_md_import.json                     R39/m479  21  All party members' MP
+chunk_md_import.json                     R39/m480  21  All party members' HP
+chunk_md_import.json                     R39/m495  21  Automater's inner EXP
+chunk_md_import.json                     R39/m500  21  The presence of death
+chunk_md_import.json                     R39/m503  21  Magic Mastery: Arcane
+chunk_md_import.json                     R39/m564  21  Self-Repair Equipment
+chunk_md_import.json                     R39/m647  21  Party rank has become
+chunk_md_import.json                     R39/m649  21  Party rank [Disabled]
+chunk_md_import.json                     R39/m650  21  A party rank has been
+chunk_md_import.json                     R39/m651  21  A party rank has been
+chunk_md_import.json                     R43/m36  21  No quests completed /
+chunk_md_import.json                     R44/m38  21  No cursed gear held /
+chunk_md_import.json                     R45/m130  21  Summer horror fest! /
+chunk_md_import.json                     R45/m139  21  No orders available /
+chunk_md_import.json                     R46/m133  21  Turgor (Matchmaker) /
+chunk_md_import.json                     R46/m183  21  Don't forget Pixie! /
+chunk_md_import.json                     R46/m232  21  Come out here once! /
+chunk_md_import.json                     R47/m28  21  Too large to flank! /
+chunk_md_import.json                     R47/m73  21  Attack won't reach! /
+chunk_md_import.json                     R47/m95  21  Select steal target /
+chunk_md_import.json                     R48/m50  21  Country Incinerator /
+chunk_md_import.json                     R48/m61  21  Capital Incinerator /
+chunk_md_import.json                     R48/m92  21  Global Garbage Dump /
+chunk_md_import.json                     R49/m57  21  Go down the stairs? /
+batch_06.json                            R1209/m38  21  Nooooooooooooooooo! /
+batch_md_import.json                     R1200/m167  21  ~Grand Reincarnation~
+batch_md_import.json                     R1202/m93  21  said it was the price
+batch_md_import.json                     R1202/m111  21  said it was the price
+batch_md_import.json                     R1203/m809  21  [What are you doing?]
+batch_md_import.json                     R1210/m624  21  What? Found something
+batch_r39_equip_b.json                   R39/m429  21  Request from Citizens
+batch_r39_equip_b.json                   R39/m503  21  Magic Mastery: Arcane
+batch_r39_equip_b.json                   R39/m564  21  Self-Repair Equipment
+chunk_07_translated.json                 R45/m165  20  Set Up Event Space /
+chunk_07_translated.json                 R47/m2  20  Friendly monsters! /
+chunk_07_translated.json                 R47/m6  20  Monsters attacked! /
+chunk_07_translated.json                 R47/m26  20  Allies gave chase! /
+chunk_07_translated.json                 R47/m29  20  Too large to skip! /
+chunk_07_translated.json                 R48/m16  20  Nearby Incinerator /
+chunk_08_translated.json                 R48/m63  20  Abandoned Building /
+chunk_r37_r48_r49_translated.json        R48/m17  20  Local Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m80  20  World Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m84  20  City Souvenir Shop /
+chunk_r37_r48_r49_translated.json        R48/m91  20  Global Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m94  20  Country Attraction /
+chunk_r43_r45_translated.json            R45/m124  20  Shop level too low /
+chunk_r43_r45_translated.json            R45/m125  20  Warehouse is empty /
+chunk_r43_r45_translated.json            R45/m135  20  Cursed gear buy ok /
+chunk_r43_r45_translated.json            R45/m140  20  No orders accepted /
+chunk_r43_r45_translated.json            R45/m167  20  Can't renovate now /
+chunk_r37_r48_r49_translated.json        R48/m17  20  Local Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m80  20  World Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m84  20  City Souvenir Shop /
+chunk_r37_r48_r49_translated.json        R48/m91  20  Global Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m94  20  Country Attraction /
+chunk_r43_r45_translated.json            R45/m124  20  Shop level too low /
+chunk_r43_r45_translated.json            R45/m125  20  Warehouse is empty /
+chunk_r43_r45_translated.json            R45/m135  20  Cursed gear buy ok /
+chunk_r43_r45_translated.json            R45/m140  20  No orders accepted /
+chunk_r43_r45_translated.json            R45/m167  20  Can't renovate now /
+chunk_md_import.json                     R34/m26  20  Knight's Wristband /
+chunk_md_import.json                     R34/m127  20  Blessed Chain Mail /
+chunk_md_import.json                     R34/m154  20  Divine Great Armor /
+chunk_md_import.json                     R34/m191  20  Holy Knight Shield /
+chunk_md_import.json                     R34/m192  20  Useless Orc Shield /
+chunk_md_import.json                     R34/m368  20  Useless Orc Dagger /
+chunk_md_import.json                     R34/m378  20  Arcana Short Sword /
+chunk_md_import.json                     R34/m393  20  First Memory Sword /
+chunk_md_import.json                     R34/m445  20  Avenger Battle Axe /
+chunk_md_import.json                     R34/m498  20  Betrayer Great Bow /
+chunk_md_import.json                     R39/m445  20  Recruiting Employees
+chunk_md_import.json                     R39/m461  20  Capture the Succubus
+chunk_md_import.json                     R39/m544  20  Unidentified Weapons
+chunk_md_import.json                     R39/m652  20  [Allied Points] have
+chunk_md_import.json                     R39/m653  20  [Allied Points] have
+chunk_md_import.json                     R45/m124  20  Shop level too low /
+chunk_md_import.json                     R45/m125  20  Warehouse is empty /
+chunk_md_import.json                     R45/m135  20  Cursed gear buy ok /
+chunk_md_import.json                     R45/m140  20  No orders accepted /
+chunk_md_import.json                     R45/m167  20  Can't renovate now /
+chunk_md_import.json                     R46/m165  20  Well^she's a woman /
+chunk_md_import.json                     R46/m172  20  Janken Man's Habit /
+chunk_md_import.json                     R46/m193  20  That's ridiculous| /
+chunk_md_import.json                     R46/m200  20  Won't do it again| /
+chunk_md_import.json                     R47/m2  20  Friendly monsters! /
+chunk_md_import.json                     R47/m6  20  Monsters attacked! /
+chunk_md_import.json                     R47/m26  20  Allies gave chase! /
+chunk_md_import.json                     R47/m29  20  Too large to skip! /
+chunk_md_import.json                     R47/m110  20  Call from the Wild /
+chunk_md_import.json                     R48/m17  20  Local Garbage Dump /
+chunk_md_import.json                     R48/m80  20  World Garbage Dump /
+chunk_md_import.json                     R48/m84  20  City Souvenir Shop /
+chunk_md_import.json                     R48/m91  20  Global Incinerator /
+chunk_md_import.json                     R48/m94  20  Country Attraction /
+batch_10.json                            R1084/m711  20  [BINARY] System data
+batch_10.json                            R1084/m724  20  [BINARY] System data
+batch_10.json                            R1084/m877  20  [BINARY] System data
+batch_10.json                            R1084/m878  20  [BINARY] System data
+batch_10.json                            R1084/m1024  20  [BINARY] Combat data
+batch_10.json                            R1084/m1029  20  [BINARY] System data
+batch_10.json                            R1084/m1146  20  [BINARY] System data
+batch_10.json                            R1084/m1168  20  [BINARY] System data
+batch_10.json                            R1084/m1171  20  [BINARY] System data
+batch_10.json                            R1084/m2378  20  [BINARY] System data
+batch_10.json                            R1084/m2381  20  [BINARY] System data
+batch_10.json                            R1084/m2468  20  [BINARY] System data
+batch_10.json                            R1084/m2470  20  [BINARY] System data
+batch_10.json                            R1084/m2490  20  [BINARY] System data
+batch_10.json                            R1084/m2625  20  [BINARY] System data
+batch_10.json                            R1084/m2913  20  [BINARY] System data
+batch_10.json                            R1084/m2938  20  [BINARY] System data
+batch_10.json                            R1084/m3000  20  [BINARY] System data
+batch_10.json                            R1084/m3063  20  [BINARY] System data
+batch_10.json                            R1084/m3100  20  [BINARY] System data
+batch_10.json                            R1084/m3122  20  [BINARY] System data
+batch_10.json                            R1084/m3140  20  [BINARY] System data
+batch_10.json                            R1084/m3144  20  [BINARY] System data
+batch_10.json                            R1084/m3146  20  [BINARY] System data
+batch_10.json                            R1084/m3159  20  [BINARY] System data
+batch_10.json                            R1084/m3160  20  [BINARY] System data
+batch_10.json                            R1084/m3183  20  [BINARY] System data
+batch_10.json                            R1084/m3206  20  [BINARY] System data
+batch_10.json                            R1084/m3207  20  [BINARY] System data
+batch_10.json                            R1084/m3210  20  [BINARY] System data
+batch_10.json                            R1084/m3211  20  [BINARY] System data
+batch_10.json                            R1084/m3641  20  [BINARY] System data
+batch_10.json                            R1084/m3658  20  [BINARY] System data
+batch_10.json                            R1084/m3683  20  [BINARY] System data
+batch_10.json                            R1084/m3706  20  [BINARY] System data
+batch_10.json                            R1084/m3743  20  [BINARY] System data
+batch_10.json                            R1084/m4093  20  [BINARY] Accept data
+batch_10.json                            R1084/m4128  20  [BINARY] System data
+batch_10.json                            R1084/m4142  20  [BINARY] System data
+batch_10.json                            R1084/m4163  20  [BINARY] System data
+batch_10.json                            R1084/m4363  20  [BINARY] System data
+batch_10.json                            R1084/m4519  20  [BINARY] System data
+batch_10.json                            R1084/m4520  20  [BINARY] System data
+batch_10.json                            R1084/m4552  20  [BINARY] System data
+batch_10.json                            R1084/m4652  20  [BINARY] System data
+batch_10.json                            R1084/m4682  20  [BINARY] System data
+batch_md_import.json                     R1205/m756  20  A woman is screaming
+batch_md_import.json                     R1207/m281  20  But that makes sense
+batch_md_import.json                     R1354/m77  20  I look forward to it
+batch_r39_equip_b.json                   R39/m544  20  Unidentified Weapons
+chunk_01_translated.json                 R36/m125  19  The High Master b /
+chunk_04_translated.json                 R40/m27  19  Change class to ? /
+chunk_06_translated.json                 R45/m127  19  Winter Clearance! /
+chunk_07_translated.json                 R45/m163  19  Add Purchase Type /
+chunk_07_translated.json                 R45/m164  19  Add Shipping Type /
+chunk_07_translated.json                 R47/m15  19  Created a new aa! /
+chunk_07_translated.json                 R48/m3  19  Waste Incinerator /
+chunk_07_translated.json                 R48/m5  19  Oversized Garbage /
+chunk_r37_r48_r49_translated.json        R48/m1  19  Illegal Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m3  19  Waste Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m5  19  Oversized Garbage /
+chunk_r37_r48_r49_translated.json        R48/m16  19  Local Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m18  19  Huge Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m29  19  Town Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m41  19  City Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m48  19  Country Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m59  19  Capital Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m79  19  World Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m93  19  Country Souvenirs /
+chunk_r37_r48_r49_translated.json        R49/m56  19  Go up the stairs? /
+chunk_r37_r48_r49_translated.json        R49/m82  19  A strange statue! /
+chunk_r43_r45_translated.json            R43/m37  19  Inventory is full /
+chunk_r43_r45_translated.json            R44/m31  19  Inventory is full /
+chunk_r43_r45_translated.json            R44/m32  19  Recruit automata? /
+chunk_r43_r45_translated.json            R45/m96  19  Expand warehouse? /
+chunk_r43_r45_translated.json            R45/m114  19  Inventory is full /
+chunk_r43_r45_translated.json            R45/m127  19  Winter clearance! /
+chunk_r37_r48_r49_translated.json        R48/m1  19  Illegal Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m3  19  Waste Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m5  19  Oversized Garbage /
+chunk_r37_r48_r49_translated.json        R48/m16  19  Local Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m18  19  Huge Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m29  19  Town Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m41  19  City Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m48  19  Country Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m59  19  Capital Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m79  19  World Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m93  19  Country Souvenirs /
+chunk_r37_r48_r49_translated.json        R49/m56  19  Go up the stairs? /
+chunk_r37_r48_r49_translated.json        R49/m82  19  A strange statue! /
+chunk_r43_r45_translated.json            R43/m37  19  Inventory is full /
+chunk_r43_r45_translated.json            R44/m31  19  Inventory is full /
+chunk_r43_r45_translated.json            R44/m32  19  Recruit automata? /
+chunk_r43_r45_translated.json            R45/m96  19  Expand warehouse? /
+chunk_r43_r45_translated.json            R45/m114  19  Inventory is full /
+chunk_r43_r45_translated.json            R45/m127  19  Winter clearance! /
+chunk_md_import.json                     R34/m17  19  Elf Hair Ornament /
+chunk_md_import.json                     R34/m25  19  Thief's Wristband /
+chunk_md_import.json                     R34/m126  19  Dragon Chain Mail /
+chunk_md_import.json                     R34/m132  19  Cursed Chain Mail /
+chunk_md_import.json                     R34/m134  19  Fallen Chain Mail /
+chunk_md_import.json                     R34/m150  19  Dark Silver Armor /
+chunk_md_import.json                     R34/m157  19  Holy Knight Armor /
+chunk_md_import.json                     R34/m195  19  Demon King Shield /
+chunk_md_import.json                     R34/m373  19  Magus Short Sword /
+chunk_md_import.json                     R34/m388  19  Divine Lord Sword /
+chunk_md_import.json                     R34/m391  19  Holy Knight Sword /
+chunk_md_import.json                     R34/m397  19  Magus Great Sword /
+chunk_md_import.json                     R34/m404  19  Heavy Great Sword /
+chunk_md_import.json                     R34/m407  19  Demon Great Sword /
+chunk_md_import.json                     R34/m440  19  Vengeful Hand Axe /
+chunk_md_import.json                     R34/m443  19  Slayer Battle Axe /
+chunk_md_import.json                     R34/m444  19  Arcane Battle Axe /
+chunk_md_import.json                     R34/m482  19  Wind Cutter Knife /
+chunk_md_import.json                     R34/m502  19  Guardian Pole Arm /
+chunk_md_import.json                     R35/m8  19  Status Panel Size /
+chunk_md_import.json                     R35/m11  19  Cmd Memory (Turn) /
+chunk_md_import.json                     R39/m235  19  Concentrated Attack
+chunk_md_import.json                     R39/m466  19  Karman Guide Wanted
+chunk_md_import.json                     R39/m474  19  Find My Subordinate
+chunk_md_import.json                     R39/m488  19  A dead party member
+chunk_md_import.json                     R39/m492  19  User's trust rating
+chunk_md_import.json                     R39/m497  19  Attack power of one
+chunk_md_import.json                     R39/m504  19  Magic Mastery: Holy
+chunk_md_import.json                     R39/m542  19  Self-Repair Weapons
+chunk_md_import.json                     R43/m37  19  Inventory is full /
+chunk_md_import.json                     R44/m31  19  Inventory is full /
+chunk_md_import.json                     R44/m32  19  Recruit automata? /
+chunk_md_import.json                     R45/m96  19  Expand warehouse? /
+chunk_md_import.json                     R45/m114  19  Inventory is full /
+chunk_md_import.json                     R45/m127  19  Winter clearance! /
+chunk_md_import.json                     R46/m198  19  Turgor isn't cool /
+chunk_md_import.json                     R47/m15  19  Created a new aa! /
+chunk_md_import.json                     R47/m71  19  The dead revived! /
+chunk_md_import.json                     R47/m109  19  forgot one spell! /
+chunk_md_import.json                     R47/m113  19  An ally appeared! /
+chunk_md_import.json                     R48/m1  19  Illegal Dump Site /
+chunk_md_import.json                     R48/m3  19  Waste Incinerator /
+chunk_md_import.json                     R48/m5  19  Oversized Garbage /
+chunk_md_import.json                     R48/m16  19  Local Incinerator /
+chunk_md_import.json                     R48/m18  19  Huge Garbage Dump /
+chunk_md_import.json                     R48/m29  19  Town Garbage Dump /
+chunk_md_import.json                     R48/m41  19  City Garbage Dump /
+chunk_md_import.json                     R48/m48  19  Country Dump Site /
+chunk_md_import.json                     R48/m59  19  Capital Dump Site /
+chunk_md_import.json                     R48/m79  19  World Incinerator /
+chunk_md_import.json                     R48/m93  19  Country Souvenirs /
+chunk_md_import.json                     R49/m56  19  Go up the stairs? /
+chunk_md_import.json                     R49/m82  19  A strange statue! /
+batch_01.json                            R1196/m523  19  His Majesty's will:
+batch_06.json                            R1208/m278  19  Item list 13 is cut
+batch_06.json                            R1208/m320  19  Item list 13 is cut
+batch_06.json                            R1208/m354  19  "Please come back!"
+batch_08.json                            R1212/m632  19  "Here! This is it!"
+batch_09.json                            R1353/m626  19  "Here! This is it!"
+batch_dungeon_a.json                     R35/m16  19  Select data to load
+batch_r39_equip_a.json                   R39/m235  19  Concentrated Attack
+batch_r39_equip_b.json                   R39/m504  19  Magic Mastery: Holy
+batch_r39_equip_b.json                   R39/m542  19  Self-Repair Weapons
+chunk_01_translated.json                 R36/m78  18  Master Priestess /
+chunk_04_translated.json                 R41/m14  18  Request healing? /
+chunk_04_translated.json                 R42/m8  18  Stay at the Inn? /
+chunk_06_translated.json                 R45/m97  18  Open new branch? /
+chunk_07_translated.json                 R48/m8  18  Dilapidated Shed /
+chunk_07_translated.json                 R48/m28  18  Town Incinerator /
+chunk_07_translated.json                 R48/m30  18  Illegal Building /
+chunk_08_translated.json                 R48/m36  18  General Merchant /
+chunk_08_translated.json                 R48/m75  18  Dilapidated Shed /
+chunk_08_translated.json                 R48/m83  18  General Merchant /
+chunk_08_translated.json                 R48/m87  18  Dilapidated Shed /
+chunk_08_translated.json                 R48/m96  18  Dilapidated Shed /
+chunk_09_translated.json                 R49/m73  18  Enter warp zone? /
+chunk_09_translated.json                 R49/m82  18  An eerie statue! /
+chunk_r37_r48_r49_translated.json        R48/m8  18  Ramshackle Shack /
+chunk_r37_r48_r49_translated.json        R48/m28  18  Town Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m30  18  Illegal Building /
+chunk_r37_r48_r49_translated.json        R48/m40  18  City Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m49  18  Country Disposal /
+chunk_r37_r48_r49_translated.json        R48/m58  18  Country Recycler /
+chunk_r37_r48_r49_translated.json        R48/m60  18  Capital Disposal /
+chunk_r37_r48_r49_translated.json        R48/m65  18  Famous Specialty /
+chunk_r37_r48_r49_translated.json        R48/m66  18  Capital Recycler /
+chunk_r37_r48_r49_translated.json        R48/m89  18  Global Dump Site /
+chunk_r43_r45_translated.json            R45/m92  18  Expand warehouse /
+chunk_r43_r45_translated.json            R45/m97  18  Open new branch? /
+chunk_r43_r45_translated.json            R45/m189  18  Set the quantity /
+chunk_r43_r45_translated.json            R45/m191  18  Ship to storage? /
+chunk_r37_r48_r49_translated.json        R48/m8  18  Ramshackle Shack /
+chunk_r37_r48_r49_translated.json        R48/m28  18  Town Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m30  18  Illegal Building /
+chunk_r37_r48_r49_translated.json        R48/m40  18  City Incinerator /
+chunk_r37_r48_r49_translated.json        R48/m49  18  Country Disposal /
+chunk_r37_r48_r49_translated.json        R48/m58  18  Country Recycler /
+chunk_r37_r48_r49_translated.json        R48/m60  18  Capital Disposal /
+chunk_r37_r48_r49_translated.json        R48/m65  18  Famous Specialty /
+chunk_r37_r48_r49_translated.json        R48/m66  18  Capital Recycler /
+chunk_r37_r48_r49_translated.json        R48/m89  18  Global Dump Site /
+chunk_r43_r45_translated.json            R45/m92  18  Expand warehouse /
+chunk_r43_r45_translated.json            R45/m97  18  Open new branch? /
+chunk_r43_r45_translated.json            R45/m189  18  Set the quantity /
+chunk_r43_r45_translated.json            R45/m191  18  Ship to storage? /
+chunk_md_import.json                     R34/m41  18  Anti-Magic Cloak /
+chunk_md_import.json                     R34/m43  18  Demon King Cloak /
+chunk_md_import.json                     R34/m125  18  Magus Chain Mail /
+chunk_md_import.json                     R34/m128  18  Ninja Chain Mail /
+chunk_md_import.json                     R34/m129  18  Frost Chain Mail /
+chunk_md_import.json                     R34/m133  18  Rusty Chain Mail /
+chunk_md_import.json                     R34/m135  18  Ghost Chain Mail /
+chunk_md_import.json                     R34/m161  18  Demon King Armor /
+chunk_md_import.json                     R34/m170  18  Holy Knight Helm /
+chunk_md_import.json                     R34/m198  18  Silver Gauntlets /
+chunk_md_import.json                     R34/m205  18  Wicked Gauntlets /
+chunk_md_import.json                     R34/m364  18  Paralysis Dagger /
+chunk_md_import.json                     R34/m379  18  Evil Short Sword /
+chunk_md_import.json                     R34/m399  18  Fury Great Sword /
+chunk_md_import.json                     R34/m434  18  Thunder Hand Axe /
+chunk_md_import.json                     R34/m446  18  Dwarf Battle Axe /
+chunk_md_import.json                     R34/m447  18  Demon Battle Axe /
+chunk_md_import.json                     R34/m450  18  Ghost Battle Axe /
+chunk_md_import.json                     R34/m910  18  Pied Piper Flute /
+chunk_md_import.json                     R34/m999  18  Simzon's Journal /
+chunk_md_import.json                     R35/m15  18  Reset to Default /
+chunk_md_import.json                     R35/m58  18  Save clear data? /
+chunk_md_import.json                     R39/m230  18  Concentrated Spell
+chunk_md_import.json                     R39/m295  18  2 adjacent members
+chunk_md_import.json                     R39/m325  18  2 adjacent members
+chunk_md_import.json                     R39/m420  18  Estimated Deadline
+chunk_md_import.json                     R39/m434  18  No active requests
+chunk_md_import.json                     R39/m467  18  Seeking Fine Armor
+chunk_md_import.json                     R39/m475  18  Punish the Bad Guy
+chunk_md_import.json                     R39/m535  18  Adventurer's Guild
+chunk_md_import.json                     R39/m549  18  Unidentified Armor
+chunk_md_import.json                     R39/m551  18  Repair Accessories
+chunk_md_import.json                     R39/m553  18  Cursed Accessories
+chunk_md_import.json                     R45/m92  18  Expand warehouse /
+chunk_md_import.json                     R45/m97  18  Open new branch? /
+chunk_md_import.json                     R45/m189  18  Set the quantity /
+chunk_md_import.json                     R45/m191  18  Ship to storage? /
+chunk_md_import.json                     R46/m103  18  Fighting Warrior /
+chunk_md_import.json                     R46/m125  18  Gido the Insider /
+chunk_md_import.json                     R46/m185  18  It's a good shop /
+chunk_md_import.json                     R46/m195  18  Turgor's amazing /
+chunk_md_import.json                     R46/m211  18  About Automatons /
+chunk_md_import.json                     R46/m222  18  You tricked me!! /
+chunk_md_import.json                     R46/m227  18  Sounds dangerous /
+chunk_md_import.json                     R48/m8  18  Ramshackle Shack /
+chunk_md_import.json                     R48/m28  18  Town Incinerator /
+chunk_md_import.json                     R48/m30  18  Illegal Building /
+chunk_md_import.json                     R48/m40  18  City Incinerator /
+chunk_md_import.json                     R48/m49  18  Country Disposal /
+chunk_md_import.json                     R48/m58  18  Country Recycler /
+chunk_md_import.json                     R48/m60  18  Capital Disposal /
+chunk_md_import.json                     R48/m65  18  Famous Specialty /
+chunk_md_import.json                     R48/m66  18  Capital Recycler /
+chunk_md_import.json                     R48/m89  18  Global Dump Site /
+batch_04.json                            R1205/m46  18  "You! You there!!"
+batch_08.json                            R1212/m134  18  Sign: Lost & Found
+batch_08.json                            R1213/m38  18  Iris: They'll say:
+batch_09.json                            R1353/m134  18  Sign: Lost & Found
+batch_10.json                            R1084/m4051  18  [BINARY] Side data
+batch_r39_equip_a.json                   R39/m230  18  Concentrated Spell
+batch_r39_equip_a.json                   R39/m295  18  2 adjacent members
+batch_r39_equip_a.json                   R39/m325  18  2 adjacent members
+batch_r39_equip_b.json                   R39/m434  18  No active requests
+batch_r39_equip_b.json                   R39/m535  18  Adventurer's Guild
+batch_r39_equip_b.json                   R39/m549  18  Unidentified Armor
+batch_r39_equip_b.json                   R39/m551  18  Repair Accessories
+batch_r39_equip_b.json                   R39/m553  18  Cursed Accessories
+chunk_01_translated.json                 R36/m109  17  The High Master /
+chunk_01_translated.json                 R36/m118  17  Phantom Thief b /
+chunk_05_translated.json                 R43/m25  17  Start practice? /
+chunk_05_translated.json                 R44/m33  17  Form the squad? /
+chunk_06_translated.json                 R45/m94  17  Change Services /
+chunk_06_translated.json                 R45/m95  17  Relocate Branch /
+chunk_06_translated.json                 R45/m96  17  Expand storage? /
+chunk_06_translated.json                 R45/m114  17  Inventory full! /
+chunk_06_translated.json                 R45/m129  17  Summer Bargain! /
+chunk_06_translated.json                 R45/m130  17  Horror Special! /
+chunk_06_translated.json                 R45/m132  17  Adventure Fair! /
+chunk_06_translated.json                 R45/m133  17  Buyback Lifted! /
+chunk_07_translated.json                 R47/m1  17  Choose Response /
+chunk_07_translated.json                 R47/m11  17  Open the chest? /
+chunk_07_translated.json                 R48/m15  17  Nearby Disposal /
+chunk_07_translated.json                 R48/m18  17  Giant Junk Heap /
+chunk_07_translated.json                 R48/m25  17  Nearby Recycler /
+chunk_09_translated.json                 R49/m53  17  Use the ladder? /
+chunk_09_translated.json                 R49/m66  17  Return to town? /
+chunk_r36_translated.json                R36/m125  17  The High Master B
+chunk_r37_r48_r49_translated.json        R48/m14  17  Local Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m43  17  Clip Joint Shop /
+chunk_r37_r48_r49_translated.json        R48/m73  17  Major Specialty /
+chunk_r37_r48_r49_translated.json        R48/m77  17  World Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m85  17  City Attraction /
+chunk_r37_r48_r49_translated.json        R48/m88  17  Budget Recycler /
+chunk_r37_r48_r49_translated.json        R48/m90  17  Global Disposal /
+chunk_r37_r48_r49_translated.json        R48/m97  17  Global Recycler /
+chunk_r37_r48_r49_translated.json        R49/m34  17  Open the chest? /
+chunk_r37_r48_r49_translated.json        R49/m66  17  Return to town? /
+chunk_r43_r45_translated.json            R43/m28  17  Not enough gold /
+chunk_r43_r45_translated.json            R44/m25  17  Not enough gold /
+chunk_r43_r45_translated.json            R45/m94  17  Change services /
+chunk_r43_r45_translated.json            R45/m102  17  Not enough gold /
+chunk_r43_r45_translated.json            R45/m129  17  Summer bargain! /
+chunk_r43_r45_translated.json            R45/m131  17  Final big sale! /
+chunk_r43_r45_translated.json            R45/m132  17  Adventure fair! /
+chunk_r43_r45_translated.json            R45/m151  17  Renovation menu /
+chunk_r43_r45_translated.json            R45/m165  17  Add event space /
+chunk_r36_translated.json                R36/m125  17  The High Master B
+chunk_r37_r48_r49_translated.json        R48/m14  17  Local Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m43  17  Clip Joint Shop /
+chunk_r37_r48_r49_translated.json        R48/m73  17  Major Specialty /
+chunk_r37_r48_r49_translated.json        R48/m77  17  World Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m85  17  City Attraction /
+chunk_r37_r48_r49_translated.json        R48/m88  17  Budget Recycler /
+chunk_r37_r48_r49_translated.json        R48/m90  17  Global Disposal /
+chunk_r37_r48_r49_translated.json        R48/m97  17  Global Recycler /
+chunk_r37_r48_r49_translated.json        R49/m34  17  Open the chest? /
+chunk_r37_r48_r49_translated.json        R49/m66  17  Return to town? /
+chunk_r43_fix.json                       R43/m25  17  Start practice? /
+chunk_r43_r45_translated.json            R43/m28  17  Not enough gold /
+chunk_r43_r45_translated.json            R44/m25  17  Not enough gold /
+chunk_r43_r45_translated.json            R45/m94  17  Change services /
+chunk_r43_r45_translated.json            R45/m102  17  Not enough gold /
+chunk_r43_r45_translated.json            R45/m129  17  Summer bargain! /
+chunk_r43_r45_translated.json            R45/m131  17  Final big sale! /
+chunk_r43_r45_translated.json            R45/m132  17  Adventure fair! /
+chunk_r43_r45_translated.json            R45/m151  17  Renovation menu /
+chunk_r43_r45_translated.json            R45/m165  17  Add event space /
+chunk_md_import.json                     R34/m131  17  Evil Chain Mail /
+chunk_md_import.json                     R34/m159  17  Crumbling Armor /
+chunk_md_import.json                     R34/m173  17  Demon King Helm /
+chunk_md_import.json                     R34/m199  17  Magic Gauntlets /
+chunk_md_import.json                     R34/m200  17  Power Gauntlets /
+chunk_md_import.json                     R34/m201  17  Angel Gauntlets /
+chunk_md_import.json                     R34/m357  17  Unused glyph data
+chunk_md_import.json                     R34/m363  17  Assassin Dagger /
+chunk_md_import.json                     R34/m406  17  Full Moon Sword /
+chunk_md_import.json                     R34/m433  17  Master Hand Axe /
+chunk_md_import.json                     R34/m437  17  Holy Knight Axe /
+chunk_md_import.json                     R34/m438  17  Cursed Hand Axe /
+chunk_md_import.json                     R34/m453  17  Poison Shuriken /
+chunk_md_import.json                     R34/m454  17  Shadow Shuriken /
+chunk_md_import.json                     R34/m456  17  Grudge Shuriken /
+chunk_md_import.json                     R34/m457  17  Cursed Shuriken /
+chunk_md_import.json                     R34/m473  17  Invisible Flail /
+chunk_md_import.json                     R34/m475  17  Crumbling Flail /
+chunk_md_import.json                     R34/m477  17  Pure Evil Flail /
+chunk_md_import.json                     R34/m500  17  Bishop Pole Arm /
+chunk_md_import.json                     R34/m505  17  King's Pole Arm /
+chunk_md_import.json                     R34/m517  17  Blessed Knuckle /
+chunk_md_import.json                     R34/m717  17  Priest Cocktail /
+chunk_md_import.json                     R34/m935  17  Leprechaun Shoe /
+chunk_md_import.json                     R34/m1013  17  Princess Brooch /
+chunk_md_import.json                     R35/m5  17  Return to Title /
+chunk_md_import.json                     R36/m125  17  The High Master B
+chunk_md_import.json                     R39/m94  17  Return to town? /
+chunk_md_import.json                     R39/m239  17  Multi-Jump Attack
+chunk_md_import.json                     R39/m250  17  Nightmare Quake /
+chunk_md_import.json                     R39/m427  17  Request Abandoned
+chunk_md_import.json                     R39/m428  17  Request Completed
+chunk_md_import.json                     R39/m459  17  Search for Kunnal
+chunk_md_import.json                     R39/m460  17  Trap Game Contest
+chunk_md_import.json                     R39/m547  17  Self-Repair Armor
+chunk_md_import.json                     R43/m25  17  Start practice? /
+chunk_md_import.json                     R43/m28  17  Not enough gold /
+chunk_md_import.json                     R44/m25  17  Not enough gold /
+chunk_md_import.json                     R45/m94  17  Change services /
+chunk_md_import.json                     R45/m102  17  Not enough gold /
+chunk_md_import.json                     R45/m129  17  Summer bargain! /
+chunk_md_import.json                     R45/m131  17  Final big sale! /
+chunk_md_import.json                     R45/m132  17  Adventure fair! /
+chunk_md_import.json                     R45/m151  17  Renovation menu /
+chunk_md_import.json                     R45/m165  17  Add event space /
+chunk_md_import.json                     R46/m141  17  Heinz the Thief /
+chunk_md_import.json                     R46/m159  17  Info 1: Survive /
+chunk_md_import.json                     R46/m169  17  It's our child! /
+chunk_md_import.json                     R46/m186  17  Pretty ordinary /
+chunk_md_import.json                     R46/m197  17  Eek! So dreamy! /
+chunk_md_import.json                     R46/m236  17  But spells are| /
+chunk_md_import.json                     R47/m1  17  Choose Response /
+chunk_md_import.json                     R47/m11  17  Open the chest? /
+chunk_md_import.json                     R47/m62  17  Bless our path! /
+chunk_md_import.json                     R47/m112  17  called an ally! /
+chunk_md_import.json                     R48/m14  17  Local Dump Site /
+chunk_md_import.json                     R48/m43  17  Clip Joint Shop /
+chunk_md_import.json                     R48/m73  17  Major Specialty /
+chunk_md_import.json                     R48/m77  17  World Dump Site /
+chunk_md_import.json                     R48/m85  17  City Attraction /
+chunk_md_import.json                     R48/m88  17  Budget Recycler /
+chunk_md_import.json                     R48/m90  17  Global Disposal /
+chunk_md_import.json                     R48/m97  17  Global Recycler /
+chunk_md_import.json                     R49/m34  17  Open the chest? /
+chunk_md_import.json                     R49/m66  17  Return to town? /
+chunk_md_import.json                     R39/m250  17  Nightmare Quake /
+batch_01.json                            R1197/m751  17  "Wait with that!"
+batch_06.json                            R1208/m251  17  "Fine! Whatever!"
+batch_08.json                            R1212/m651  17  "We can go back!"
+batch_09.json                            R1353/m645  17  "We can go back!"
+batch_r39_equip_a.json                   R39/m239  17  Multi-Jump Attack
+batch_r39_equip_b.json                   R39/m427  17  Request Abandoned
+batch_r39_equip_b.json                   R39/m428  17  Request Completed
+batch_r39_equip_b.json                   R39/m547  17  Self-Repair Armor
+chunk_01_translated.json                 R36/m114  16  Master Thief b /
+chunk_01_translated.json                 R36/m117  16  Master Thief b /
+chunk_01_translated.json                 R36/m120  16  Master Thief c /
+chunk_01_translated.json                 R36/m124  16  Master Ninja b /
+chunk_05_translated.json                 R44/m35  16  Begin changes? /
+chunk_06_translated.json                 R45/m90  16  Curse removed! /
+chunk_06_translated.json                 R45/m92  16  Expand Storage /
+chunk_06_translated.json                 R45/m126  16  New Year Sale! /
+chunk_06_translated.json                 R45/m128  16  Freshman Sale! /
+chunk_06_translated.json                 R45/m151  16  Expansion Menu /
+chunk_07_translated.json                 R45/m190  16  Purchase this? /
+chunk_07_translated.json                 R48/m13  16  Recycling Shop /
+chunk_07_translated.json                 R48/m17  16  Nearby Garbage /
+chunk_08_translated.json                 R48/m105  16  World Heritage /
+chunk_08_translated.json                 R49/m39  16  Take the item? /
+chunk_09_translated.json                 R49/m57  16  Go downstairs? /
+chunk_r36_translated.json                R36/m78  16  Master Priestess
+chunk_r37_r48_r49_translated.json        R48/m2  16  Disposal Plant /
+chunk_r37_r48_r49_translated.json        R48/m13  16  Recycling Shop /
+chunk_r37_r48_r49_translated.json        R48/m15  16  Local Disposal /
+chunk_r37_r48_r49_translated.json        R48/m25  16  Local Recycler /
+chunk_r37_r48_r49_translated.json        R48/m26  16  Town Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m38  16  City Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m42  16  Crooked Market /
+chunk_r37_r48_r49_translated.json        R48/m55  16  Specialty Shop /
+chunk_r37_r48_r49_translated.json        R48/m78  16  World Disposal /
+chunk_r37_r48_r49_translated.json        R48/m105  16  World Heritage /
+chunk_r37_r48_r49_translated.json        R49/m39  16  Take the item? /
+chunk_r43_r45_translated.json            R45/m90  16  Curse removed! /
+chunk_r43_r45_translated.json            R45/m98  16  Add a service? /
+chunk_r43_r45_translated.json            R45/m126  16  New Year sale! /
+chunk_r43_r45_translated.json            R45/m128  16  Freshman sale! /
+chunk_r43_r45_translated.json            R45/m136  16  Gear buying ok /
+chunk_r43_r45_translated.json            R45/m137  16  Healing buy ok /
+chunk_r43_r45_translated.json            R45/m138  16  Item buying ok /
+chunk_r43_r45_translated.json            R45/m185  16  Can't hire now /
+chunk_r43_r45_translated.json            R45/m193  16  Warehouse full /
+chunk_r36_translated.json                R36/m78  16  Master Priestess
+chunk_r37_r48_r49_translated.json        R48/m2  16  Disposal Plant /
+chunk_r37_r48_r49_translated.json        R48/m13  16  Recycling Shop /
+chunk_r37_r48_r49_translated.json        R48/m15  16  Local Disposal /
+chunk_r37_r48_r49_translated.json        R48/m25  16  Local Recycler /
+chunk_r37_r48_r49_translated.json        R48/m26  16  Town Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m38  16  City Dump Site /
+chunk_r37_r48_r49_translated.json        R48/m42  16  Crooked Market /
+chunk_r37_r48_r49_translated.json        R48/m55  16  Specialty Shop /
+chunk_r37_r48_r49_translated.json        R48/m78  16  World Disposal /
+chunk_r37_r48_r49_translated.json        R48/m105  16  World Heritage /
+chunk_r37_r48_r49_translated.json        R49/m39  16  Take the item? /
+chunk_r43_r45_translated.json            R45/m90  16  Curse removed! /
+chunk_r43_r45_translated.json            R45/m98  16  Add a service? /
+chunk_r43_r45_translated.json            R45/m126  16  New Year sale! /
+chunk_r43_r45_translated.json            R45/m128  16  Freshman sale! /
+chunk_r43_r45_translated.json            R45/m136  16  Gear buying ok /
+chunk_r43_r45_translated.json            R45/m137  16  Healing buy ok /
+chunk_r43_r45_translated.json            R45/m138  16  Item buying ok /
+chunk_r43_r45_translated.json            R45/m185  16  Can't hire now /
+chunk_r43_r45_translated.json            R45/m193  16  Warehouse full /
+chunk_md_import.json                     R34/m29  16  Boots of Speed /
+chunk_md_import.json                     R34/m130  16  Elf Chain Mail /
+chunk_md_import.json                     R34/m179  16  Neutral Shield /
+chunk_md_import.json                     R34/m182  16  Malice Buckler /
+chunk_md_import.json                     R34/m183  16  Divine Buckler /
+chunk_md_import.json                     R34/m187  16  Support Shield /
+chunk_md_import.json                     R34/m189  16  Supreme Shield /
+chunk_md_import.json                     R34/m194  16  Heretic Shield /
+chunk_md_import.json                     R34/m197  16  Iron Gauntlets /
+chunk_md_import.json                     R34/m202  16  Evil Gauntlets /
+chunk_md_import.json                     R34/m204  16  Worn Gauntlets /
+chunk_md_import.json                     R34/m367  16  Exorcism Knife /
+chunk_md_import.json                     R34/m390  16  Ethereal Sword /
+chunk_md_import.json                     R34/m417  16  Singing Katana /
+chunk_md_import.json                     R34/m418  16  Weeping Katana /
+chunk_md_import.json                     R34/m451  16  Demon King Axe /
+chunk_md_import.json                     R34/m455  16  Ninja Shuriken /
+chunk_md_import.json                     R34/m465  16  Faithless Mace /
+chunk_md_import.json                     R34/m481  16  Scorpion Knife /
+chunk_md_import.json                     R34/m516  16  Dragon Knuckle /
+chunk_md_import.json                     R35/m10  16  Battle Effects /
+chunk_md_import.json                     R36/m78  16  Master Priestess
+chunk_md_import.json                     R39/m217  16  Cross-Gauge Kill
+chunk_md_import.json                     R39/m220  16  Anti-Magic Shell
+chunk_md_import.json                     R39/m223  16  Evasive Maneuver
+chunk_md_import.json                     R39/m232  16  Magic Rapid Fire
+chunk_md_import.json                     R39/m244  16  Elemental Attack
+chunk_md_import.json                     R39/m435  16  No active orders
+chunk_md_import.json                     R39/m439  16  Also In Progress
+chunk_md_import.json                     R39/m462  16  Labyrinth Survey
+chunk_md_import.json                     R39/m508  16  Inhuman Strength
+chunk_md_import.json                     R39/m563  16  Repair Equipment
+chunk_md_import.json                     R39/m565  16  Cursed Equipment
+chunk_md_import.json                     R45/m90  16  Curse removed! /
+chunk_md_import.json                     R45/m98  16  Add a service? /
+chunk_md_import.json                     R45/m126  16  New Year sale! /
+chunk_md_import.json                     R45/m128  16  Freshman sale! /
+chunk_md_import.json                     R45/m136  16  Gear buying ok /
+chunk_md_import.json                     R45/m137  16  Healing buy ok /
+chunk_md_import.json                     R45/m138  16  Item buying ok /
+chunk_md_import.json                     R45/m185  16  Can't hire now /
+chunk_md_import.json                     R45/m193  16  Warehouse full /
+chunk_md_import.json                     R46/m116  16  Soldier Rippen /
+chunk_md_import.json                     R46/m127  16  Old Man Gordon /
+chunk_md_import.json                     R46/m149  16  Got a question /
+chunk_md_import.json                     R46/m177  16  Heart-Pounding /
+chunk_md_import.json                     R46/m192  16  Eat monsters!? /
+chunk_md_import.json                     R46/m229  16  Taking a break /
+chunk_md_import.json                     R47/m105  16  Thunder Breath /
+chunk_md_import.json                     R48/m2  16  Disposal Plant /
+chunk_md_import.json                     R48/m13  16  Recycling Shop /
+chunk_md_import.json                     R48/m15  16  Local Disposal /
+chunk_md_import.json                     R48/m25  16  Local Recycler /
+chunk_md_import.json                     R48/m26  16  Town Dump Site /
+chunk_md_import.json                     R48/m38  16  City Dump Site /
+chunk_md_import.json                     R48/m42  16  Crooked Market /
+chunk_md_import.json                     R48/m55  16  Specialty Shop /
+chunk_md_import.json                     R48/m78  16  World Disposal /
+chunk_md_import.json                     R48/m105  16  World Heritage /
+chunk_md_import.json                     R49/m39  16  Take the item? /
+batch_01.json                            R1197/m398  16  "Alright! Done!"
+batch_08.json                            R1212/m614  16  "Grr! Annoying!"
+batch_09.json                            R1353/m608  16  "Grr! Annoying!"
+batch_dungeon_a.json                     R35/m5  16  Select save data
+batch_md_import.json                     R1203/m658  16  [It's the best!]
+batch_r39_equip_a.json                   R39/m217  16  Cross-Gauge Kill
+batch_r39_equip_a.json                   R39/m220  16  Anti-Magic Shell
+batch_r39_equip_a.json                   R39/m223  16  Evasive Maneuver
+batch_r39_equip_a.json                   R39/m232  16  Magic Rapid Fire
+batch_r39_equip_a.json                   R39/m244  16  Elemental Attack
+batch_r39_equip_b.json                   R39/m435  16  No active orders
+batch_r39_equip_b.json                   R39/m439  16  Also In Progress
+batch_r39_equip_b.json                   R39/m508  16  Inhuman Strength
+batch_r39_equip_b.json                   R39/m563  16  Repair Equipment
+batch_r39_equip_b.json                   R39/m565  16  Cursed Equipment
+chunk_01_translated.json                 R36/m75  15  Lv5 Priestess /
+chunk_01_translated.json                 R36/m84  15  Copper Dragon /
+chunk_01_translated.json                 R36/m87  15  Champ Samurai /
+chunk_01_translated.json                 R36/m104  15  Spiral Beetle /
+chunk_01_translated.json                 R36/m115  15  Bushwhacker b /
+chunk_01_translated.json                 R36/m140  15  Wall of Might /
+chunk_01_translated.json                 R36/m156  15  Mazikim Ghost /
+chunk_01_translated.json                 R36/m157  15  Wall of Might /
+chunk_03_translated.json                 R38/m179  15  Honest Person /
+chunk_04_translated.json                 R39/m74  15  Cant swap weapn
+chunk_04_translated.json                 R40/m33  15  By High Level /
+chunk_04_translated.json                 R42/m13  15  has awakened! /
+chunk_05_translated.json                 R44/m32  15  Add Automata? /
+chunk_05_translated.json                 R44/m41  15  Change to MHP /
+chunk_05_translated.json                 R44/m42  15  Change to STR /
+chunk_05_translated.json                 R44/m43  15  Change to INT /
+chunk_05_translated.json                 R44/m44  15  Change to FTH /
+chunk_05_translated.json                 R44/m45  15  Change to VIT /
+chunk_05_translated.json                 R44/m46  15  Change to AGI /
+chunk_05_translated.json                 R44/m47  15  Change to LCK /
+chunk_06_translated.json                 R45/m98  15  Add services? /
+chunk_07_translated.json                 R45/m153  15  Category List /
+chunk_07_translated.json                 R45/m154  15  Delivery List /
+chunk_07_translated.json                 R45/m162  15  Deliver this? /
+chunk_07_translated.json                 R45/m195  15  Give to ally? /
+chunk_07_translated.json                 R47/m14  15  Chest Results /
+chunk_07_translated.json                 R48/m2  15  Disposal Site /
+chunk_07_translated.json                 R48/m6  15  Knockoff Shop /
+chunk_07_translated.json                 R48/m27  15  Town Disposal /
+chunk_r36_translated.json                R36/m62  15  Phantom Thief a
+chunk_r36_translated.json                R36/m109  15  The High Master
+chunk_r36_translated.json                R36/m118  15  Phantom Thief B
+chunk_r37_r48_r49_translated.json        R48/m7  15  Run-Down Shop /
+chunk_r37_r48_r49_translated.json        R48/m27  15  Town Disposal /
+chunk_r37_r48_r49_translated.json        R48/m37  15  Town Recycler /
+chunk_r37_r48_r49_translated.json        R48/m39  15  City Disposal /
+chunk_r37_r48_r49_translated.json        R48/m47  15  City Recycler /
+chunk_r37_r48_r49_translated.json        R48/m57  15  Budget Market /
+chunk_r37_r48_r49_translated.json        R48/m95  15  Global Office /
+chunk_r40_r42_translated.json            R41/m17  15  Not Enough Gold
+chunk_r40_r42_translated.json            R42/m11  15  Not Enough Gold
+chunk_r43_r45_translated.json            R44/m33  15  - synthesize? /
+chunk_r43_r45_translated.json            R44/m41  15  Change to mhp /
+chunk_r43_r45_translated.json            R44/m42  15  Change to str /
+chunk_r43_r45_translated.json            R44/m43  15  Change to int /
+chunk_r43_r45_translated.json            R44/m44  15  Change to fth /
+chunk_r43_r45_translated.json            R44/m45  15  Change to vit /
+chunk_r43_r45_translated.json            R44/m46  15  Change to agi /
+chunk_r43_r45_translated.json            R44/m47  15  Change to lck /
+chunk_r43_r45_translated.json            R44/m57  15  Cannot remove /
+chunk_r43_r45_translated.json            R45/m89  15  Remove curse? /
+chunk_r43_r45_translated.json            R45/m133  15  Buying lifted /
+chunk_r43_r45_translated.json            R45/m152  15  Location list /
+chunk_r43_r45_translated.json            R45/m166  15  Add rest stop /
+chunk_r43_r45_translated.json            R45/m195  15  Give to ally? /
+chunk_r36_translated.json                R36/m62  15  Phantom Thief a
+chunk_r36_translated.json                R36/m109  15  The High Master
+chunk_r36_translated.json                R36/m118  15  Phantom Thief B
+chunk_r37_r48_r49_translated.json        R48/m7  15  Run-Down Shop /
+chunk_r37_r48_r49_translated.json        R48/m27  15  Town Disposal /
+chunk_r37_r48_r49_translated.json        R48/m37  15  Town Recycler /
+chunk_r37_r48_r49_translated.json        R48/m39  15  City Disposal /
+chunk_r37_r48_r49_translated.json        R48/m47  15  City Recycler /
+chunk_r37_r48_r49_translated.json        R48/m57  15  Budget Market /
+chunk_r37_r48_r49_translated.json        R48/m95  15  Global Office /
+chunk_r40_r42_translated.json            R41/m17  15  Not Enough Gold
+chunk_r40_r42_translated.json            R42/m11  15  Not Enough Gold
+chunk_r43_r45_translated.json            R44/m33  15  - synthesize? /
+chunk_r43_r45_translated.json            R44/m41  15  Change to mhp /
+chunk_r43_r45_translated.json            R44/m42  15  Change to str /
+chunk_r43_r45_translated.json            R44/m43  15  Change to int /
+chunk_r43_r45_translated.json            R44/m44  15  Change to fth /
+chunk_r43_r45_translated.json            R44/m45  15  Change to vit /
+chunk_r43_r45_translated.json            R44/m46  15  Change to agi /
+chunk_r43_r45_translated.json            R44/m47  15  Change to lck /
+chunk_r43_r45_translated.json            R44/m57  15  Cannot remove /
+chunk_r43_r45_translated.json            R45/m89  15  Remove curse? /
+chunk_r43_r45_translated.json            R45/m133  15  Buying lifted /
+chunk_r43_r45_translated.json            R45/m152  15  Location list /
+chunk_r43_r45_translated.json            R45/m166  15  Add rest stop /
+chunk_r43_r45_translated.json            R45/m195  15  Give to ally? /
+chunk_md_import.json                     R34/m23  15  Orc Wristband /
+chunk_md_import.json                     R34/m32  15  Stamina Boots /
+chunk_md_import.json                     R34/m33  15  Mercury Boots /
+chunk_md_import.json                     R34/m111  15  Betrayer Robe /
+chunk_md_import.json                     R34/m148  15  Quality Armor /
+chunk_md_import.json                     R34/m153  15  Neutral Armor /
+chunk_md_import.json                     R34/m155  15  Supreme Armor /
+chunk_md_import.json                     R34/m165  15  Teleport Helm /
+chunk_md_import.json                     R34/m176  15  Magus Buckler /
+chunk_md_import.json                     R34/m186  15  Silver Shield /
+chunk_md_import.json                     R34/m188  15  Dragon Shield /
+chunk_md_import.json                     R34/m193  15  Warped Shield /
+chunk_md_import.json                     R34/m362  15  Master Dagger /
+chunk_md_import.json                     R34/m365  15  Mystic Dagger /
+chunk_md_import.json                     R34/m366  15  Thief's Knife /
+chunk_md_import.json                     R34/m370  15  Cursed Dagger /
+chunk_md_import.json                     R34/m401  15  Ice God Sword /
+chunk_md_import.json                     R34/m409  15  Master Katana /
+chunk_md_import.json                     R34/m419  15  Cursed Katana /
+chunk_md_import.json                     R34/m448  15  Faithless Axe /
+chunk_md_import.json                     R34/m461  15  Striking Mace /
+chunk_md_import.json                     R34/m501  15  Gold Pole Arm /
+chunk_md_import.json                     R34/m504  15  Void Pole Arm /
+chunk_md_import.json                     R34/m512  15  Asura's Light /
+chunk_md_import.json                     R34/m715  15  Mage Cocktail /
+chunk_md_import.json                     R34/m911  15  Dullahan Head /
+chunk_md_import.json                     R34/m934  15  Banshee Voice /
+chunk_md_import.json                     R34/m941  15  Samurai Beard /
+chunk_md_import.json                     R34/m1018  15  Orobas Object /
+chunk_md_import.json                     R36/m62  15  Phantom Thief a
+chunk_md_import.json                     R36/m109  15  The High Master
+chunk_md_import.json                     R36/m118  15  Phantom Thief B
+chunk_md_import.json                     R38/m179  15  Honest Person /
+chunk_md_import.json                     R39/m74  15  Cant swap weapn
+chunk_md_import.json                     R39/m222  15  Dense Formation
+chunk_md_import.json                     R39/m231  15  Silence Breaker
+chunk_md_import.json                     R39/m246  15  Zantsuki Iaijin
+chunk_md_import.json                     R39/m247  15  Nightmare Quake
+chunk_md_import.json                     R39/m396  15  Survey Deadline
+chunk_md_import.json                     R39/m421  15  From Acceptance
+chunk_md_import.json                     R39/m521  15  Status Recovery
+chunk_md_import.json                     R39/m536  15  Duhan Town Hall
+chunk_md_import.json                     R41/m17  15  Not Enough Gold
+chunk_md_import.json                     R42/m11  15  Not Enough Gold
+chunk_md_import.json                     R44/m33  15  - synthesize? /
+chunk_md_import.json                     R44/m41  15  Change to mhp /
+chunk_md_import.json                     R44/m42  15  Change to str /
+chunk_md_import.json                     R44/m43  15  Change to int /
+chunk_md_import.json                     R44/m44  15  Change to fth /
+chunk_md_import.json                     R44/m45  15  Change to vit /
+chunk_md_import.json                     R44/m46  15  Change to agi /
+chunk_md_import.json                     R44/m47  15  Change to lck /
+chunk_md_import.json                     R44/m57  15  Cannot remove /
+chunk_md_import.json                     R45/m89  15  Remove curse? /
+chunk_md_import.json                     R45/m133  15  Buying lifted /
+chunk_md_import.json                     R45/m152  15  Location list /
+chunk_md_import.json                     R45/m166  15  Add rest stop /
+chunk_md_import.json                     R45/m195  15  Give to ally? /
+chunk_md_import.json                     R46/m118  15  Bishop Sirius /
+chunk_md_import.json                     R46/m168  15  Just a rumor| /
+chunk_md_import.json                     R47/m14  15  Chest Results /
+chunk_md_import.json                     R47/m46  15  Slightly High /
+chunk_md_import.json                     R47/m88  15  Select Target /
+chunk_md_import.json                     R47/m106  15  Poison Breath /
+chunk_md_import.json                     R47/m117  15  Double Action /
+chunk_md_import.json                     R48/m7  15  Run-Down Shop /
+chunk_md_import.json                     R48/m27  15  Town Disposal /
+chunk_md_import.json                     R48/m37  15  Town Recycler /
+chunk_md_import.json                     R48/m39  15  City Disposal /
+chunk_md_import.json                     R48/m47  15  City Recycler /
+chunk_md_import.json                     R48/m57  15  Budget Market /
+chunk_md_import.json                     R48/m95  15  Global Office /
+batch_r39_equip_a.json                   R39/m222  15  Dense Formation
+batch_r39_equip_a.json                   R39/m231  15  Silence Breaker
+batch_r39_equip_a.json                   R39/m246  15  Zantsuki Iaijin
+batch_r39_equip_a.json                   R39/m247  15  Nightmare Quake
+batch_r39_equip_a.json                   R39/m396  15  Survey Deadline
+batch_r39_equip_b.json                   R39/m421  15  From Acceptance
+batch_r39_equip_b.json                   R39/m521  15  Status Recovery
+batch_r39_equip_b.json                   R39/m536  15  Duhan Town Hall
+chunk_01_translated.json                 R36/m85  14  Minor Daimyo /
+chunk_01_translated.json                 R36/m86  14  Major Daimyo /
+chunk_01_translated.json                 R36/m90  14  White Dragon /
+chunk_01_translated.json                 R36/m95  14  Life Stealer /
+chunk_01_translated.json                 R36/m101  14  Silver Slime /
+chunk_01_translated.json                 R36/m108  14  Master Ninja /
+chunk_01_translated.json                 R36/m126  14  High Ninja b /
+chunk_01_translated.json                 R36/m127  14  Fuma Ninja b /
+chunk_01_translated.json                 R36/m154  14  Chicken Ogre /
+chunk_01_translated.json                 R36/m155  14  Shedim Ghost /
+chunk_03_translated.json                 R39/m26  14  No Special Pwr
+chunk_04_translated.json                 R39/m73  14  Cant swap armr
+chunk_04_translated.json                 R40/m5  14  -New Summon- /
+chunk_04_translated.json                 R40/m7  14  Change Class /
+chunk_04_translated.json                 R40/m10  14  Add to Party /
+chunk_04_translated.json                 R40/m34  14  By Low Level /
+chunk_07_translated.json                 R45/m180  14  Party Spells /
+chunk_07_translated.json                 R45/m181  14  Party Skills /
+chunk_07_translated.json                 R47/m25  14  But tripped! /
+chunk_07_translated.json                 R48/m1  14  Illegal Dump /
+chunk_07_translated.json                 R48/m4  14  Garbage Dump /
+chunk_07_translated.json                 R48/m7  14  Premium Shop /
+chunk_07_translated.json                 R48/m10  14  Private Home /
+chunk_07_translated.json                 R48/m29  14  Town Garbage /
+chunk_07_translated.json                 R48/m31  14  Crooked Shop /
+chunk_08_translated.json                 R48/m34  14  Premium Shop /
+chunk_08_translated.json                 R48/m55  14  Private Home /
+chunk_08_translated.json                 R48/m71  14  Premium Shop /
+chunk_08_translated.json                 R48/m72  14  Street Stall /
+chunk_08_translated.json                 R48/m74  14  Street Stall /
+chunk_08_translated.json                 R48/m86  14  Street Stall /
+chunk_08_translated.json                 R48/m95  14  Street Stall /
+chunk_08_translated.json                 R48/m104  14  Street Stall /
+chunk_09_translated.json                 R49/m56  14  Go upstairs? /
+chunk_09_translated.json                 R49/m72  14  Warp to B10? /
+chunk_r36_translated.json                R36/m9  14  Rotting Corpse
+chunk_r36_translated.json                R36/m61  14  Master Thief a
+chunk_r36_translated.json                R36/m114  14  Master Thief B
+chunk_r36_translated.json                R36/m117  14  Master Thief B
+chunk_r36_translated.json                R36/m120  14  Master Thief C
+chunk_r36_translated.json                R36/m124  14  Master Ninja B
+chunk_r37_r48_r49_translated.json        R48/m4  14  Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m10  14  Private Home /
+chunk_r37_r48_r49_translated.json        R48/m31  14  Crooked Shop /
+chunk_r37_r48_r49_translated.json        R48/m51  14  Country Dump /
+chunk_r37_r48_r49_translated.json        R48/m62  14  Capital Dump /
+chunk_r37_r48_r49_translated.json        R48/m63  14  Thief Market /
+chunk_r37_r48_r49_translated.json        R49/m72  14  Warp to b10? /
+chunk_r43_r45_translated.json            R45/m100  14  Hire worker? /
+chunk_r43_r45_translated.json            R45/m153  14  Service list /
+chunk_r43_r45_translated.json            R45/m154  14  Move to list /
+chunk_r43_r45_translated.json            R45/m164  14  Add delivery /
+chunk_r43_r45_translated.json            R45/m180  14  Search party /
+chunk_r43_r45_translated.json            R45/m181  14  Search skill /
+chunk_r36_translated.json                R36/m9  14  Rotting Corpse
+chunk_r36_translated.json                R36/m61  14  Master Thief a
+chunk_r36_translated.json                R36/m114  14  Master Thief B
+chunk_r36_translated.json                R36/m117  14  Master Thief B
+chunk_r36_translated.json                R36/m120  14  Master Thief C
+chunk_r36_translated.json                R36/m124  14  Master Ninja B
+chunk_r37_r48_r49_translated.json        R48/m4  14  Garbage Dump /
+chunk_r37_r48_r49_translated.json        R48/m10  14  Private Home /
+chunk_r37_r48_r49_translated.json        R48/m31  14  Crooked Shop /
+chunk_r37_r48_r49_translated.json        R48/m51  14  Country Dump /
+chunk_r37_r48_r49_translated.json        R48/m62  14  Capital Dump /
+chunk_r37_r48_r49_translated.json        R48/m63  14  Thief Market /
+chunk_r37_r48_r49_translated.json        R49/m72  14  Warp to b10? /
+chunk_r43_r45_translated.json            R45/m100  14  Hire worker? /
+chunk_r43_r45_translated.json            R45/m153  14  Service list /
+chunk_r43_r45_translated.json            R45/m154  14  Move to list /
+chunk_r43_r45_translated.json            R45/m164  14  Add delivery /
+chunk_r43_r45_translated.json            R45/m180  14  Search party /
+chunk_r43_r45_translated.json            R45/m181  14  Search skill /
+chunk_md_import.json                     R34/m34  14  Coward Boots /
+chunk_md_import.json                     R34/m35  14  Cursed Boots /
+chunk_md_import.json                     R34/m37  14  Poison Cloak /
+chunk_md_import.json                     R34/m39  14  Bishop Cloak /
+chunk_md_import.json                     R34/m42  14  Cursed Cloak /
+chunk_md_import.json                     R34/m106  14  Rebirth Robe /
+chunk_md_import.json                     R34/m109  14  Despair Robe /
+chunk_md_import.json                     R34/m149  14  Master Armor /
+chunk_md_import.json                     R34/m164  14  Stealth Helm /
+chunk_md_import.json                     R34/m168  14  Warrior Helm /
+chunk_md_import.json                     R34/m174  14  Small Shield /
+chunk_md_import.json                     R34/m175  14  Iron Buckler /
+chunk_md_import.json                     R34/m178  14  Dwarf Shield /
+chunk_md_import.json                     R34/m180  14  Gnome Shield /
+chunk_md_import.json                     R34/m185  14  Tower Shield /
+chunk_md_import.json                     R34/m371  14  Killer Blade /
+chunk_md_import.json                     R34/m384  14  Slayer Sword /
+chunk_md_import.json                     R34/m385  14  Mighty Sword /
+chunk_md_import.json                     R34/m392  14  Regret Sword /
+chunk_md_import.json                     R34/m395  14  Dispel Sword /
+chunk_md_import.json                     R34/m398  14  Ghost Killer /
+chunk_md_import.json                     R34/m403  14  Demon Buster /
+chunk_md_import.json                     R34/m459  14  Morning Star /
+chunk_md_import.json                     R34/m467  14  Tainted Mace /
+chunk_md_import.json                     R34/m474  14  Prince Flail /
+chunk_md_import.json                     R34/m484  14  Clumsy Knife /
+chunk_md_import.json                     R34/m511  14  Curse Glaive /
+chunk_md_import.json                     R34/m513  14  Iron Knuckle /
+chunk_md_import.json                     R34/m905  14  Maggot Flesh /
+chunk_md_import.json                     R34/m915  14  Dragon Heart /
+chunk_md_import.json                     R34/m928  14  Chimera Head /
+chunk_md_import.json                     R34/m936  14  Broken Sword /
+chunk_md_import.json                     R34/m997  14  Ornate Pouch /
+chunk_md_import.json                     R35/m9  14  Camera Shake /
+chunk_md_import.json                     R36/m9  14  Rotting Corpse
+chunk_md_import.json                     R36/m61  14  Master Thief a
+chunk_md_import.json                     R36/m114  14  Master Thief B
+chunk_md_import.json                     R36/m117  14  Master Thief B
+chunk_md_import.json                     R36/m120  14  Master Thief C
+chunk_md_import.json                     R36/m124  14  Master Ninja B
+chunk_md_import.json                     R39/m26  14  No Special Pwr
+chunk_md_import.json                     R39/m73  14  Cant swap armr
+chunk_md_import.json                     R39/m381  14  Castle Steward
+chunk_md_import.json                     R39/m390  14  Merchant Guild
+chunk_md_import.json                     R39/m426  14  Request Failed
+chunk_md_import.json                     R39/m507  14  Vampire Hunter
+chunk_md_import.json                     R39/m511  14  Accuracy Sense
+chunk_md_import.json                     R39/m541  14  Repair Weapons
+chunk_md_import.json                     R39/m543  14  Cursed Weapons
+chunk_md_import.json                     R45/m100  14  Hire worker? /
+chunk_md_import.json                     R45/m153  14  Service list /
+chunk_md_import.json                     R45/m154  14  Move to list /
+chunk_md_import.json                     R45/m164  14  Add delivery /
+chunk_md_import.json                     R45/m180  14  Search party /
+chunk_md_import.json                     R45/m181  14  Search skill /
+chunk_md_import.json                     R46/m113  14  Builder Kish /
+chunk_md_import.json                     R46/m114  14  Baker Thomas /
+chunk_md_import.json                     R46/m137  14  Contrary Joe /
+chunk_md_import.json                     R46/m207  14  So that's it /
+chunk_md_import.json                     R46/m226  14  Could it be| /
+chunk_md_import.json                     R47/m25  14  But tripped! /
+chunk_md_import.json                     R47/m41  14  Spell Cancel /
+chunk_md_import.json                     R47/m43  14  Slightly Low /
+chunk_md_import.json                     R47/m64  14  Full Retreat /
+chunk_md_import.json                     R47/m116  14  Memory Field /
+chunk_md_import.json                     R48/m4  14  Garbage Dump /
+chunk_md_import.json                     R48/m10  14  Private Home /
+chunk_md_import.json                     R48/m31  14  Crooked Shop /
+chunk_md_import.json                     R48/m51  14  Country Dump /
+chunk_md_import.json                     R48/m62  14  Capital Dump /
+chunk_md_import.json                     R48/m63  14  Thief Market /
+chunk_md_import.json                     R49/m72  14  Warp to b10? /
+batch_05.json                            R1206/m291  14  'Lost & Found'
+batch_05.json                            R1207/m290  14  That monster--
+batch_md_import.json                     R1202/m251  14  [Here you go~]
+batch_r39_equip_a.json                   R39/m381  14  Castle Steward
+batch_r39_equip_a.json                   R39/m390  14  Merchant Guild
+batch_r39_equip_b.json                   R39/m426  14  Request Failed
+batch_r39_equip_b.json                   R39/m507  14  Vampire Hunter
+batch_r39_equip_b.json                   R39/m511  14  Accuracy Sense
+batch_r39_equip_b.json                   R39/m541  14  Repair Weapons
+batch_r39_equip_b.json                   R39/m543  14  Cursed Weapons
+chunk_01_translated.json                 R36/m72  13  High Wizard /
+chunk_01_translated.json                 R36/m73  13  Necromancer /
+chunk_01_translated.json                 R36/m77  13  High Priest /
+chunk_01_translated.json                 R36/m81  13  Lv10 Bishop /
+chunk_01_translated.json                 R36/m83  13  Blue Dragon /
+chunk_01_translated.json                 R36/m91  13  Gold Dragon /
+chunk_01_translated.json                 R36/m92  13  Spell Demon /
+chunk_01_translated.json                 R36/m93  13  Elder Demon /
+chunk_01_translated.json                 R36/m116  13  Lv4 Thief b /
+chunk_01_translated.json                 R36/m121  13  Lv3 Ninja b /
+chunk_01_translated.json                 R36/m122  13  Lv6 Ninja b /
+chunk_01_translated.json                 R36/m123  13  Lv8 Ninja b /
+chunk_01_translated.json                 R36/m152  13  Flesh Golem /
+chunk_01_translated.json                 R36/m153  13  Flesh Golem /
+chunk_01_translated.json                 R37/m7  13  Is this OK? /
+chunk_03_translated.json                 R38/m177  13  Queen Guard /
+chunk_03_translated.json                 R38/m182  13  Great Heart /
+chunk_03_translated.json                 R38/m185  13  Achievement /
+chunk_03_translated.json                 R39/m8  13  Is this OK? /
+chunk_03_translated.json                 R39/m30  13  Cant use item
+chunk_03_translated.json                 R39/m31  13  Cant re-equip
+chunk_04_translated.json                 R39/m87  13  inspcts chest
+chunk_04_translated.json                 R40/m11  13  Leave Party /
+chunk_06_translated.json                 R45/m103  13  Identified! /
+chunk_06_translated.json                 R45/m131  13  Grand Sale! /
+chunk_07_translated.json                 R45/m152  13  Branch List /
+chunk_07_translated.json                 R47/m23  13  was stolen! /
+chunk_07_translated.json                 R48/m14  13  Nearby Dump /
+chunk_09_translated.json                 R49/m54  13  Upper Floor /
+chunk_09_translated.json                 R49/m55  13  Lower Floor /
+chunk_09_translated.json                 R49/m69  13  Warp to B1? /
+chunk_09_translated.json                 R49/m70  13  Warp to B4? /
+chunk_09_translated.json                 R49/m71  13  Warp to B5? /
+chunk_09_translated.json                 R49/m74  13  Move to B3? /
+chunk_09_translated.json                 R49/m75  13  Move to B5? /
+chunk_09_translated.json                 R49/m97  13  Warp to B8? /
+chunk_09_translated.json                 R49/m98  13  Warp to B6? /
+chunk_09_translated.json                 R49/m99  13  Warp to B3? /
+chunk_r36_translated.json                R36/m13  13  Undead Kobold
+chunk_r36_translated.json                R36/m15  13  Huge Spider a
+chunk_r36_translated.json                R36/m16  13  Huge Spider B
+chunk_r36_translated.json                R36/m17  13  Giant Spinner
+chunk_r36_translated.json                R36/m28  13  Dragon Zombie
+chunk_r36_translated.json                R36/m33  13  Greater Demon
+chunk_r36_translated.json                R36/m45  13  Medusa Lizard
+chunk_r36_translated.json                R36/m58  13  Bushwhacker a
+chunk_r36_translated.json                R36/m75  13  Lv5 Priestess
+chunk_r36_translated.json                R36/m84  13  Copper Dragon
+chunk_r36_translated.json                R36/m87  13  Champ Samurai
+chunk_r36_translated.json                R36/m104  13  Spiral Beetle
+chunk_r36_translated.json                R36/m115  13  Bushwhacker B
+chunk_r36_translated.json                R36/m156  13  Mazikim Ghost
+chunk_r37_r48_r49_translated.json        R37/m8  13  Bonus Point /
+chunk_r37_r48_r49_translated.json        R48/m56  13  Supermarket /
+chunk_r37_r48_r49_translated.json        R48/m72  13  Town Office /
+chunk_r37_r48_r49_translated.json        R48/m74  13  City Office /
+chunk_r37_r48_r49_translated.json        R49/m54  13  Floor Above /
+chunk_r37_r48_r49_translated.json        R49/m55  13  Floor Below /
+chunk_r37_r48_r49_translated.json        R49/m69  13  Warp to b1? /
+chunk_r37_r48_r49_translated.json        R49/m70  13  Warp to b4? /
+chunk_r37_r48_r49_translated.json        R49/m71  13  Warp to b5? /
+chunk_r37_r48_r49_translated.json        R49/m74  13  Move to b3? /
+chunk_r37_r48_r49_translated.json        R49/m75  13  Move to b5? /
+chunk_r37_r48_r49_translated.json        R49/m97  13  Warp to b8? /
+chunk_r37_r48_r49_translated.json        R49/m98  13  Warp to b6? /
+chunk_r37_r48_r49_translated.json        R49/m99  13  Warp to b3? /
+chunk_r40_r42_translated.json            R40/m9  13  Delete Member
+chunk_r40_r42_translated.json            R40/m33  13  Highest Level
+chunk_r43_r45_translated.json            R45/m95  13  Move branch /
+chunk_r43_r45_translated.json            R45/m103  13  Identified! /
+chunk_r43_r45_translated.json            R45/m162  13  Deliver it? /
+chunk_r36_translated.json                R36/m13  13  Undead Kobold
+chunk_r36_translated.json                R36/m15  13  Huge Spider a
+chunk_r36_translated.json                R36/m16  13  Huge Spider B
+chunk_r36_translated.json                R36/m17  13  Giant Spinner
+chunk_r36_translated.json                R36/m28  13  Dragon Zombie
+chunk_r36_translated.json                R36/m33  13  Greater Demon
+chunk_r36_translated.json                R36/m45  13  Medusa Lizard
+chunk_r36_translated.json                R36/m58  13  Bushwhacker a
+chunk_r36_translated.json                R36/m75  13  Lv5 Priestess
+chunk_r36_translated.json                R36/m84  13  Copper Dragon
+chunk_r36_translated.json                R36/m87  13  Champ Samurai
+chunk_r36_translated.json                R36/m104  13  Spiral Beetle
+chunk_r36_translated.json                R36/m115  13  Bushwhacker B
+chunk_r36_translated.json                R36/m156  13  Mazikim Ghost
+chunk_r37_extra.json                     R37/m7  13  Is this OK? /
+chunk_r37_r48_r49_translated.json        R37/m8  13  Bonus Point /
+chunk_r37_r48_r49_translated.json        R48/m56  13  Supermarket /
+chunk_r37_r48_r49_translated.json        R48/m72  13  Town Office /
+chunk_r37_r48_r49_translated.json        R48/m74  13  City Office /
+chunk_r37_r48_r49_translated.json        R49/m54  13  Floor Above /
+chunk_r37_r48_r49_translated.json        R49/m55  13  Floor Below /
+chunk_r37_r48_r49_translated.json        R49/m69  13  Warp to b1? /
+chunk_r37_r48_r49_translated.json        R49/m70  13  Warp to b4? /
+chunk_r37_r48_r49_translated.json        R49/m71  13  Warp to b5? /
+chunk_r37_r48_r49_translated.json        R49/m74  13  Move to b3? /
+chunk_r37_r48_r49_translated.json        R49/m75  13  Move to b5? /
+chunk_r37_r48_r49_translated.json        R49/m97  13  Warp to b8? /
+chunk_r37_r48_r49_translated.json        R49/m98  13  Warp to b6? /
+chunk_r37_r48_r49_translated.json        R49/m99  13  Warp to b3? /
+chunk_r40_r42_translated.json            R40/m9  13  Delete Member
+chunk_r40_r42_translated.json            R40/m33  13  Highest Level
+chunk_r43_r45_translated.json            R45/m95  13  Move branch /
+chunk_r43_r45_translated.json            R45/m103  13  Identified! /
+chunk_r43_r45_translated.json            R45/m162  13  Deliver it? /
+chunk_md_import.json                     R34/m38  13  Flame Cloak /
+chunk_md_import.json                     R34/m107  13  Sage's Robe /
+chunk_md_import.json                     R34/m108  13  Cursed Robe /
+chunk_md_import.json                     R34/m151  13  Knight Mail /
+chunk_md_import.json                     R34/m152  13  Sigil Armor /
+chunk_md_import.json                     R34/m160  13  Demon Armor /
+chunk_md_import.json                     R34/m172  13  Cursed Helm /
+chunk_md_import.json                     R34/m190  13  Evil Shield /
+chunk_md_import.json                     R34/m372  13  Short Sword /
+chunk_md_import.json                     R34/m377  13  Ninja Blade /
+chunk_md_import.json                     R34/m396  13  Great Sword /
+chunk_md_import.json                     R34/m400  13  Flame Sword /
+chunk_md_import.json                     R34/m463  13  Prayer Mace /
+chunk_md_import.json                     R34/m466  13  Mighty Mace /
+chunk_md_import.json                     R34/m469  13  Power Flail /
+chunk_md_import.json                     R34/m470  13  Magus Flail /
+chunk_md_import.json                     R34/m471  13  Dwarf Flail /
+chunk_md_import.json                     R34/m480  13  Bird Killer /
+chunk_md_import.json                     R34/m483  13  Shade Knife /
+chunk_md_import.json                     R34/m485  13  Agony Knife /
+chunk_md_import.json                     R34/m489  13  Wishing Bow /
+chunk_md_import.json                     R34/m490  13  Thief's Bow /
+chunk_md_import.json                     R34/m507  13  Armor Crush /
+chunk_md_import.json                     R34/m508  13  Rune Glaive /
+chunk_md_import.json                     R34/m519  13  Dark Murder /
+chunk_md_import.json                     R34/m912  13  Giant Tooth /
+chunk_md_import.json                     R34/m913  13  Giant Liver /
+chunk_md_import.json                     R34/m917  13  Dragon Tail /
+chunk_md_import.json                     R34/m918  13  Slime Fluid /
+chunk_md_import.json                     R34/m922  13  Slime Jelly /
+chunk_md_import.json                     R34/m925  13  Frog Tongue /
+chunk_md_import.json                     R34/m939  13  Priest Hair /
+chunk_md_import.json                     R34/m990  13  Entry Sheet /
+chunk_md_import.json                     R34/m998  13  Member Card /
+chunk_md_import.json                     R34/m1003  13  Idol Statue /
+chunk_md_import.json                     R34/m1006  13  Jin's Blade /
+chunk_md_import.json                     R34/m1019  13  Treasure 31 /
+chunk_md_import.json                     R34/m1020  13  Treasure 32 /
+chunk_md_import.json                     R34/m1021  13  Treasure 33 /
+chunk_md_import.json                     R34/m1022  13  Treasure 34 /
+chunk_md_import.json                     R34/m1023  13  Treasure 35 /
+chunk_md_import.json                     R34/m1024  13  Treasure 36 /
+chunk_md_import.json                     R34/m1025  13  Treasure 37 /
+chunk_md_import.json                     R34/m1026  13  Treasure 38 /
+chunk_md_import.json                     R34/m1027  13  Treasure 39 /
+chunk_md_import.json                     R34/m1028  13  Treasure 40 /
+chunk_md_import.json                     R34/m1029  13  Treasure 41 /
+chunk_md_import.json                     R34/m1030  13  Treasure 42 /
+chunk_md_import.json                     R34/m1031  13  Treasure 43 /
+chunk_md_import.json                     R34/m1032  13  Treasure 44 /
+chunk_md_import.json                     R34/m1033  13  Treasure 45 /
+chunk_md_import.json                     R34/m1034  13  Treasure 46 /
+chunk_md_import.json                     R34/m1035  13  Treasure 47 /
+chunk_md_import.json                     R34/m1036  13  Treasure 48 /
+chunk_md_import.json                     R34/m1037  13  Treasure 49 /
+chunk_md_import.json                     R34/m1038  13  Treasure 50 /
+chunk_md_import.json                     R34/m1113  13  Short Sword /
+chunk_md_import.json                     R34/m1115  13  Great Sword /
+chunk_md_import.json                     R34/m1142  13  ?Chain Mail /
+chunk_md_import.json                     R36/m13  13  Undead Kobold
+chunk_md_import.json                     R36/m15  13  Huge Spider a
+chunk_md_import.json                     R36/m16  13  Huge Spider B
+chunk_md_import.json                     R36/m17  13  Giant Spinner
+chunk_md_import.json                     R36/m28  13  Dragon Zombie
+chunk_md_import.json                     R36/m33  13  Greater Demon
+chunk_md_import.json                     R36/m45  13  Medusa Lizard
+chunk_md_import.json                     R36/m58  13  Bushwhacker a
+chunk_md_import.json                     R36/m75  13  Lv5 Priestess
+chunk_md_import.json                     R36/m84  13  Copper Dragon
+chunk_md_import.json                     R36/m87  13  Champ Samurai
+chunk_md_import.json                     R36/m104  13  Spiral Beetle
+chunk_md_import.json                     R36/m115  13  Bushwhacker B
+chunk_md_import.json                     R36/m156  13  Mazikim Ghost
+chunk_md_import.json                     R37/m7  13  Is this OK? /
+chunk_md_import.json                     R37/m8  13  Bonus Point /
+chunk_md_import.json                     R38/m177  13  Queen Guard /
+chunk_md_import.json                     R38/m182  13  Great Heart /
+chunk_md_import.json                     R38/m185  13  Achievement /
+chunk_md_import.json                     R39/m8  13  Is this OK? /
+chunk_md_import.json                     R39/m30  13  Cant use item
+chunk_md_import.json                     R39/m31  13  Cant re-equip
+chunk_md_import.json                     R39/m87  13  inspcts chest
+chunk_md_import.json                     R39/m224  13  Restrict Shot
+chunk_md_import.json                     R39/m227  13  Breath Cancel
+chunk_md_import.json                     R39/m249  13  Double Breath
+chunk_md_import.json                     R39/m455  13  Land For Sale
+chunk_md_import.json                     R39/m505  13  Dragon Hunter
+chunk_md_import.json                     R39/m514  13  Anatomy Sense
+chunk_md_import.json                     R39/m522  13  Defense Sense
+chunk_md_import.json                     R39/m537  13  Soldier Corps
+chunk_md_import.json                     R40/m5  13  -new recruit-
+chunk_md_import.json                     R40/m9  13  Delete Member
+chunk_md_import.json                     R40/m33  13  Highest Level
+chunk_md_import.json                     R45/m95  13  Move branch /
+chunk_md_import.json                     R45/m103  13  Identified! /
+chunk_md_import.json                     R45/m162  13  Deliver it? /
+chunk_md_import.json                     R46/m104  13  Vigger Shop /
+chunk_md_import.json                     R46/m140  13  Mage Shiela /
+chunk_md_import.json                     R46/m160  13  Reap's Gang /
+chunk_md_import.json                     R46/m166  13  600 years!? /
+chunk_md_import.json                     R46/m187  13  Better not| /
+chunk_md_import.json                     R46/m196  13  Wonderful!! /
+chunk_md_import.json                     R46/m235  13  Use spells! /
+chunk_md_import.json                     R47/m23  13  was stolen! /
+chunk_md_import.json                     R47/m33  13  Hit Level   /
+chunk_md_import.json                     R47/m63  13  Front Guard /
+chunk_md_import.json                     R47/m96  13  Select Race /
+chunk_md_import.json                     R47/m103  13  Fire Breath /
+chunk_md_import.json                     R47/m104  13  Cold Breath /
+chunk_md_import.json                     R47/m123  13  Cannibalism /
+chunk_md_import.json                     R48/m56  13  Supermarket /
+chunk_md_import.json                     R48/m72  13  Town Office /
+chunk_md_import.json                     R48/m74  13  City Office /
+chunk_md_import.json                     R49/m54  13  Floor Above /
+chunk_md_import.json                     R49/m55  13  Floor Below /
+chunk_md_import.json                     R49/m69  13  Warp to b1? /
+chunk_md_import.json                     R49/m70  13  Warp to b4? /
+chunk_md_import.json                     R49/m71  13  Warp to b5? /
+chunk_md_import.json                     R49/m74  13  Move to b3? /
+chunk_md_import.json                     R49/m75  13  Move to b5? /
+chunk_md_import.json                     R49/m97  13  Warp to b8? /
+chunk_md_import.json                     R49/m98  13  Warp to b6? /
+chunk_md_import.json                     R49/m99  13  Warp to b3? /
+batch_01.json                            R1197/m939  13  "A new face?"
+batch_04.json                            R1205/m44  13  "H-Help me!!"
+batch_06.json                            R1208/m194  13  "Here we go!"
+batch_08.json                            R1212/m513  13  "Get me out!"
+batch_08.json                            R1212/m613  13  "Stupid orc!"
+batch_09.json                            R1353/m507  13  "Get me out!"
+batch_09.json                            R1353/m607  13  "Stupid orc!"
+batch_md_import.json                     R1203/m634  13  Jill: [Wait!]
+batch_r39_equip_a.json                   R39/m224  13  Restrict Shot
+batch_r39_equip_a.json                   R39/m227  13  Breath Cancel
+batch_r39_equip_a.json                   R39/m249  13  Double Breath
+batch_r39_equip_a.json                   R39/m398  13  Soldier Corps
+batch_r39_equip_b.json                   R39/m505  13  Dragon Hunter
+batch_r39_equip_b.json                   R39/m514  13  Anatomy Sense
+batch_r39_equip_b.json                   R39/m522  13  Defense Sense
+batch_r39_equip_b.json                   R39/m537  13  Soldier Corps

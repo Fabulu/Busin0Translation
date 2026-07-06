@@ -1,0 +1,5 @@
+mi=1881 'Items': glyphwords=5 budget_words=7 OK (trailing FFFE restored on pad)
+mi=1882 'Mons': glyphwords=4 budget_words=5 OK (trailing FFFE restored on pad)
+mi=1883 'Lore': glyphwords=4 budget_words=5 OK (trailing FFFE restored on pad)
+mi=1884 'Shop': glyphwords=4 budget_words=5 OK (trailing FFFE restored on pad)
+mi=1885 'Aid': glyphwords=3 budget_words=5 OK (trailing FFFE restored on pad)

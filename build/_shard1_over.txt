@@ -1,0 +1,108 @@
+idx=190	msg=397	g=17	|Magus Great Sword|	notes=magus great sword
+idx=192	msg=399	g=16	|Fury Great Sword|	notes=passionate great sword
+idx=194	msg=401	g=13	|Ice God Sword|	notes=ice god sword
+idx=197	msg=404	g=17	|Heavy Great Sword|	notes=heavy great sword
+idx=198	msg=405	g=19	|Death Pilgrim Blade|	notes=death pilgrim blade
+idx=199	msg=406	g=15	|Full Moon Sword|	notes=full moon great sword
+idx=200	msg=407	g=17	|Demon Great Sword|	notes=demon great sword
+idx=202	msg=409	g=13	|Master Katana|	notes=master katana
+idx=210	msg=417	g=14	|Singing Katana|	notes=singing katana
+idx=211	msg=418	g=14	|Weeping Katana|	notes=weeping katana
+idx=212	msg=419	g=13	|Cursed Katana|	notes=cursed katana
+idx=213	msg=420	g=13	|Healing Staff|	notes=healing staff
+idx=214	msg=421	g=16	|Divination Staff|	notes=divination staff
+idx=215	msg=422	g=13	|Binding Staff|	notes=binding staff
+idx=216	msg=423	g=14	|Recovery Staff|	notes=recovery staff
+idx=217	msg=424	g=13	|Inferno Staff|	notes=great fire staff
+idx=222	msg=429	g=15	|Crumbling Staff|	notes=crumbling staff
+idx=226	msg=433	g=15	|Master Hand Axe|	notes=master hand axe
+idx=227	msg=434	g=16	|Thunder Hand Axe|	notes=thunder hand axe
+idx=229	msg=436	g=14	|Flash Hand Axe|	notes=flash/light hand axe
+idx=230	msg=437	g=16	|Holy Soldier Axe|	notes=holy knight hand axe
+idx=231	msg=438	g=15	|Cursed Hand Axe|	notes=cursed hand axe
+idx=232	msg=439	g=17	|Blood-Stained Axe|	notes=blood-stained hand axe
+idx=233	msg=440	g=17	|Vengeful Hand Axe|	notes=vengeful hand axe
+idx=236	msg=443	g=17	|Slayer Battle Axe|	notes=slayer battle axe
+idx=237	msg=444	g=17	|Arcane Battle Axe|	notes=arcane swordsman battle axe
+idx=238	msg=445	g=18	|Avenger Battle Axe|	notes=avenger battle axe
+idx=239	msg=446	g=16	|Dwarf Battle Axe|	notes=dwarf battle axe
+idx=240	msg=447	g=16	|Demon Battle Axe|	notes=demon battle axe
+idx=241	msg=448	g=13	|Faithless Axe|	notes=faithless battle axe
+idx=242	msg=449	g=19	|Vengeful Battle Axe|	notes=vengeful battle axe
+idx=243	msg=450	g=16	|Ghost Battle Axe|	notes=ghost battle axe
+idx=244	msg=451	g=14	|Demon King Axe|	notes=vampire lord battle axe
+idx=246	msg=453	g=15	|Poison Shuriken|	notes=poison shuriken
+idx=247	msg=454	g=15	|Shadow Shuriken|	notes=shadow shuriken
+idx=248	msg=455	g=14	|Ninja Shuriken|	notes=ninja shuriken
+idx=249	msg=456	g=15	|Grudge Shuriken|	notes=grudge shuriken
+idx=250	msg=457	g=15	|Cursed Shuriken|	notes=cursed shuriken
+idx=254	msg=461	g=13	|Striking Mace|	notes=striking mace
+idx=258	msg=465	g=14	|Faithless Mace|	notes=faithless mace
+idx=266	msg=473	g=15	|Invisible Flail|	notes=invisible flail
+idx=268	msg=475	g=15	|Crumbling Flail|	notes=crumbling flail
+idx=269	msg=476	g=18	|Blood-Soaked Flail|	notes=blood-soaked flail
+idx=270	msg=477	g=15	|Pure Evil Flail|	notes=pure evil flail
+idx=272	msg=479	g=14	|Throwing Knife|	notes=throwing knife
+idx=274	msg=481	g=14	|Scorpion Knife|	notes=scorpion knife
+idx=275	msg=482	g=17	|Wind Cutter Knife|	notes=wind cutting knife
+idx=289	msg=496	g=15	|Flash Great Bow|	notes=flash great bow
+idx=291	msg=498	g=18	|Betrayer Great Bow|	notes=betrayer great bow
+idx=293	msg=500	g=15	|Bishop Pole Arm|	notes=bishop pole arm
+idx=294	msg=501	g=13	|Gold Pole Arm|	notes=gold pole arm
+idx=295	msg=502	g=17	|Guardian Pole Arm|	notes=guardian pole arm
+idx=296	msg=503	g=20	|Holy Warrior Polearm|	notes=holy warrior pole arm
+idx=297	msg=504	g=13	|Void Pole Arm|	notes=void pole arm
+idx=298	msg=505	g=15	|King's Pole Arm|	notes=king's pole arm
+idx=305	msg=512	g=13	|Asura's Light|	notes=asura's light
+idx=309	msg=516	g=14	|Dragon Knuckle|	notes=dragon knuckle
+idx=310	msg=517	g=15	|Blessed Knuckle|	notes=blessed knuckle
+idx=313	msg=520	g=15	|Balam Hand Chip|	notes=demon name + hand chip
+idx=314	msg=521	g=15	|Morax Hand Chip|	notes=demon name + hand chip
+idx=315	msg=522	g=15	|Seere Hand Chip|	notes=demon name + hand chip
+idx=316	msg=523	g=14	|Buer Hand Chip|	notes=demon name + hand chip
+idx=317	msg=524	g=14	|Vine Hand Chip|	notes=demon name + hand chip
+idx=318	msg=525	g=16	|Gusion Hand Chip|	notes=demon name + hand chip
+idx=319	msg=526	g=17	|Asmodai Hand Chip|	notes=demon name + hand chip
+idx=320	msg=527	g=17	|Gamigin Hand Chip|	notes=demon name + hand chip
+idx=321	msg=528	g=17	|Flauros Hand Chip|	notes=demon name + hand chip
+idx=322	msg=529	g=16	|Belial Hand Chip|	notes=demon name + hand chip
+idx=323	msg=704	g=14	|Healing Potion|	notes=healing potion
+idx=324	msg=705	g=16	|Full Heal Potion|	notes=complete healing potion
+idx=325	msg=706	g=13	|Revive Potion|	notes=revival potion
+idx=326	msg=707	g=15	|Antidote Potion|	notes=antidote potion
+idx=327	msg=708	g=14	|Paralysis Cure|	notes=paralysis cure potion
+idx=328	msg=709	g=14	|Uncurse Potion|	notes=uncurse potion
+idx=329	msg=710	g=13	|Return Potion|	notes=return to stairs potion
+idx=330	msg=711	g=15	|Teleport Potion|	notes=teleport potion
+idx=331	msg=712	g=18	|Town Return Potion|	notes=return to town potion
+idx=332	msg=713	g=19	|Resurrection Potion|	notes=resurrection potion
+idx=333	msg=714	g=15	|Exorcism Potion|	notes=exorcism potion
+idx=334	msg=715	g=13	|Mage Cocktail|	notes=mage cocktail
+idx=336	msg=717	g=15	|Priest Cocktail|	notes=priest cocktail
+idx=347	msg=728	g=14	|Alchemist Soul|	notes=alchemist class change item
+idx=350	msg=731	g=17	|Holy Soldier Soul|	notes=holy knight class change item
+idx=351	msg=732	g=17	|Dark Soldier Soul|	notes=dark knight class change item
+idx=352	msg=733	g=14	|Commander Soul|	notes=commander class change item
+idx=353	msg=734	g=14	|Professor Soul|	notes=professor class change item
+idx=354	msg=735	g=18	|Phantom Thief Soul|	notes=phantom thief class change item
+idx=355	msg=736	g=14	|Reflect Potion|	notes=reflect potion
+idx=356	msg=737	g=16	|Megadeath Potion|	notes=megadeath potion
+idx=357	msg=788	g=16	|Scroll of Kureta|	notes=fire spell scroll
+idx=358	msg=789	g=16	|Scroll of Kurudo|	notes=thunder spell scroll
+idx=359	msg=790	g=14	|Scroll of Teel|	notes=ice spell scroll
+idx=360	msg=791	g=17	|Scroll of Analyze|	notes=analyze spell scroll
+idx=361	msg=792	g=14	|Scroll of Weak|	notes=weak spell scroll
+idx=362	msg=793	g=15	|Scroll of Delay|	notes=delay spell scroll
+idx=363	msg=794	g=15	|Scroll of Depth|	notes=depth spell scroll
+idx=364	msg=795	g=16	|Scroll of Feeble|	notes=feeble spell scroll
+idx=365	msg=796	g=16	|Scroll of Shrade|	notes=death spell scroll
+idx=366	msg=797	g=17	|Scroll of Supreme|	notes=supreme spell scroll
+idx=367	msg=798	g=16	|Scroll of Salome|	notes=salome spell scroll
+idx=368	msg=799	g=16	|Scroll of Escape|	notes=escape spell scroll
+idx=369	msg=800	g=18	|Scroll of Zakureta|	notes=fire group spell
+idx=370	msg=801	g=18	|Scroll of Zakurudo|	notes=thunder group spell
+idx=371	msg=802	g=16	|Scroll of Zateel|	notes=ice group spell
+idx=372	msg=803	g=14	|Scroll of Thru|	notes=thru spell scroll
+idx=373	msg=804	g=16	|Scroll of Zarado|	notes=death group spell
+idx=374	msg=805	g=15	|Scroll of Drain|	notes=drain spell scroll
+idx=375	msg=806	g=16	|Scroll of Repeal|	notes=repeal spell scroll

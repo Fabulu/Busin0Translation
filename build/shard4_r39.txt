@@ -1,0 +1,282 @@
+39:412 | JP= [FFFE] | EN=
+39:413 | JP=この依頼を引き受けますか？[FFFE] | EN=Accept this request?
+39:414 | JP=この依頼を紹棄しますか？[FFFE] | EN=Abandon this request?
+39:415 | JP=依頼を紹棄すれば信頼度が下がります。[FFFE]それでもよろしいでしょうか？[FFFE] | EN=Abandoning a request will
+lower your trust rating.
+Are you sure?
+39:416 | JP=は い[FFFE] | EN=Yes
+39:417 | JP=いいえ[FFFE] | EN=No
+39:418 | JP=依頼人[FFFE] | EN=Client
+39:419 | JP=報酬[FFFE] | EN=Reward
+39:420 | JP=[03E9]編開錠日[FFFE] | EN=Deadline
+39:421 | JP=依頼引き受けより[FFFE] | EN=From Acceptance
+39:422 | JP=日[FFFE] | EN=Day(s)
+39:423 | JP=これ以上引き受けられません[FFFE] | EN=Cannot accept any more
+39:424 | JP=なし[FFFE] | EN=None
+39:425 | JP=g[FFFE] | EN=G
+39:426 | JP=依頼達隊[FFFE] | EN=Request Failed
+39:427 | JP=依頼紹棄[FFFE] | EN=Request Abandoned
+39:428 | JP=依頼成功[FFFE] | EN=Request Completed
+39:429 | JP=器民からの依頼[FFFE] | EN=Request from Citizens
+39:430 | JP=冒険者からの依頼[FFFE] | EN=Request from Adventurers
+39:431 | JP=宣暗街からの依頼[FFFE] | EN=Request from Dark Street
+39:432 | JP=オーダー[FFFE] | EN=Order
+39:433 | JP=依頼[FFFE] | EN=Request
+39:434 | JP=依頼を受けていません[FFFE] | EN=No active requests
+39:435 | JP=オーダーを受けていません[FFFE] | EN=No active orders
+39:436 | JP=あと[FFFE] | EN=Remaining
+39:437 | JP=期限オーバー[FFFE] | EN=Deadline Passed
+39:438 | JP=[03E9]編中[FFFE] | EN=In Progress
+39:439 | JP=と[03E9]編中[FFFE] | EN=Also In Progress
+39:440 | JP=「引受可能」[FFFE] | EN="Accepting"
+39:441 | JP=対応終了[FFFE] | EN=Completed
+39:443 | JP= [FFFE] | EN=
+39:444 | JP=サレム教会[0390]教活動[FFFE] | EN=Salem Work
+39:445 | JP=社員ボシュウ [FFFE] | EN=Recruiting
+39:446 | JP=地下５階まで来てください [FFFE] | EN=Come to B5F
+39:447 | JP=クレタの騎法団長方[FFFE] | EN=Kreta Book
+39:448 | JP=集え、ジャンケン小神 [FFFE] | EN=Janken Mstr
+39:449 | JP=冒険者[0362]助書[FFFE] | EN=Adv Support
+39:450 | JP=ピッピちゃんを頼む[FFFE] | EN=Mind Pippi
+39:451 | JP=古古王戦の秘宝[FFFE] | EN=Royal Hoard
+39:452 | JP=ピクシーについて[FFFE] | EN=About Pixies
+39:453 | JP=オレにメダルをくれ[FFFE] | EN=Give Medals
+39:454 | JP=サキュバスファンの集い[FFFE] | EN=Succubus Fan
+39:455 | JP=[0387]地をおゆずりします[FFFE] | EN=Land 4 Sale
+39:456 | JP=アタイを助けて [FFFE] | EN=Help Me!
+39:457 | JP=インゴのカギがほしい[FFFE] | EN=Ingo's Key
+39:458 | JP=インゴのカギがほしければ！[FFFE] | EN=Ingo's Key!
+39:459 | JP=クンナルを探してほしい[FFFE] | EN=Find Kunnar
+39:460 | JP=トラップゲームコンテスト[FFFE] | EN=Trap Contest
+39:461 | JP=サキュバスをつかまえて[FFFE] | EN=Catch Succu
+39:462 | JP=迷宮アンケート[FFFE] | EN=Maze Survey
+39:463 | JP=冒書事持パーティに入れて [FFFE] | EN=Join Party!
+39:464 | JP=体をさがして！[FFFE] | EN=Find Body!
+39:465 | JP=忘れ士をひろってきて[FFFE] | EN=Lost Item
+39:466 | JP=カルマンガイド人手配 [FFFE] | EN=Karman Guide
+39:467 | JP=一進の鎧、求む[FFFE] | EN=Fine Armor
+39:468 | JP=鎧をきたえてほしい[FFFE] | EN=Temper Armor
+39:469 | JP=一進の戦いが見たい[FFFE] | EN=Great Battle
+39:470 | JP=回復の層[026F][0268][FFFE] | EN=Spring Res.
+39:471 | JP=回復の層[026F][0268][0061][FFFE] | EN=Spring Res 2
+39:472 | JP=回復の層[026F][0268][0062][FFFE] | EN=Spring Res 3
+39:473 | JP=開神に[03D6]かれた人にあいたい[FFFE] | EN=Possessed
+39:474 | JP=子分を探してきておくれ[FFFE] | EN=Find Aide
+39:475 | JP=わるいヤツをこらしめてくで[FFFE] | EN=Punish Thug
+39:476 | JP=水瓶の壁へ連れてっておくれ[FFFE] | EN=Water Jar Rm
+39:478 | JP= [FFFE] | EN=
+39:479 | JP=パーティ全員のmpが全回復する[FFFE]spが発動した [FFFE] | EN=All party members' MP
+fully restored.
+SP activated.
+39:480 | JP=パーティ全員のhpが全回復する[FFFE]spが発動した [FFFE] | EN=All party members' HP
+fully restored.
+SP activated.
+39:481 | JP=殿放者の早大hpが上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's max HP increased.
+SP activated.
+39:482 | JP=殿放者の力が上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's Strength increased.
+SP activated.
+39:483 | JP=殿放者の知恵が上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's Intelligence increased.
+SP activated.
+39:484 | JP=殿放者の信仰心が上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's Piety increased.
+SP activated.
+39:485 | JP=殿放者の生命力が上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's Vitality increased.
+SP activated.
+39:486 | JP=殿放者の敏捷度が上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's Agility increased.
+SP activated.
+39:487 | JP=殿放者の幸運度が上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's Luck increased.
+SP activated.
+39:488 | JP=パーティ[0319]の開者がよみがえる[FFFE]spが発動した [FFFE] | EN=A dead party member
+has been revived.
+SP activated.
+39:489 | JP=殿放者の条果が枚に変除する[FFFE]spが発動した [FFFE] | EN=User's alignment changed
+to Good.
+SP activated.
+39:490 | JP=殿放者の条果が中立に変除する[FFFE]spが発動した [FFFE] | EN=User's alignment changed
+to Neutral.
+SP activated.
+39:491 | JP=殿放者の条果が悪に変除する[FFFE]spが発動した [FFFE] | EN=User's alignment changed
+to Evil.
+SP activated.
+39:492 | JP=殿放者の信頼度が上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's trust rating
+increased.
+SP activated.
+39:493 | JP=殿放者のexpが上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's EXP increased.
+SP activated.
+39:494 | JP=アレイドの[03FA]練度が上[03E1]する[FFFE]spが発動した [FFFE] | EN=Allied action proficiency
+increased.
+SP activated.
+39:495 | JP=オートマターの心expが[FFFE]上[03E1]するspが発動した [FFFE] | EN=Automater's inner EXP
+increased. SP activated.
+39:496 | JP=殿放者の使息回数が[FFFE]回復するspが発動した [FFFE] | EN=User's ability charges
+restored. SP activated.
+39:497 | JP=殿放者の持つ武器一つの獲得力が[FFFE]上[03E1]するspが発動した [FFFE] | EN=Attack power of one
+weapon increased.
+SP activated.
+39:498 | JP=殿放者の解消力が上[03E1]する[FFFE]spが発動した [FFFE] | EN=User's Defense increased.
+SP activated.
+39:499 | JP=パーティ全員のステータス取通が[FFFE]回復するspが発動した [FFFE] | EN=All party members' status
+ailments cured.
+SP activated.
+39:500 | JP=spによってフロア[0319]から[FFFE]開神の気配が除えた [FFFE] | EN=The presence of death
+has vanished from this
+floor due to SP.
+39:502 | JP=なし[FFFE] | EN=None
+39:503 | JP=騎力・騎[FFFE] | EN=Magic Mastery: Arcane
+39:504 | JP=騎力・神[FFFE] | EN=Magic Mastery: Holy
+39:505 | JP=[0169][01C5]人[FFFE] | EN=Dragon Hunter
+39:506 | JP=悪騎[01C5]人[FFFE] | EN=Demon Hunter
+39:507 | JP=[0380]腕[01C5]人[FFFE] | EN=Vampire Hunter
+39:508 | JP=美力[FFFE] | EN=Inhuman Strength
+39:509 | JP=見切り[FFFE] | EN=Parry
+39:510 | JP=辺の[0335]体[FFFE] | EN=Ironskin
+39:511 | JP=命中センス[FFFE] | EN=Accuracy Sense
+39:512 | JP=経所センス[FFFE] | EN=Vital Sense
+39:513 | JP=盗賊の目[FFFE] | EN=Thief Eye
+39:514 | JP=殿体センス[FFFE] | EN=Anatomy Sense
+39:515 | JP=自復[FFFE] | EN=Auto-Heal
+39:516 | JP=カリスマ[FFFE] | EN=Charisma
+39:517 | JP=知覚力[FFFE] | EN=Perception
+39:518 | JP=武器センス[FFFE] | EN=Weapon Sense
+39:519 | JP=解闘センス[FFFE] | EN=Armor Sense
+39:520 | JP=騎法センス[FFFE] | EN=Magic Sense
+39:521 | JP=取通退除[FFFE] | EN=Status Recovery
+39:522 | JP=解消センス[FFFE] | EN=Defense Sense
+39:524 | JP= [FFFE] | EN=
+39:525 | JP=ヴィガー商店[FFFE] | EN=Vigor General Store
+39:526 | JP=ミリィ[FFFE] | EN=Miri
+39:527 | JP=モッチ[FFFE] | EN=Mocchi
+39:528 | JP=ノッチ[FFFE] | EN=Nocchi
+39:529 | JP=クンナル[FFFE] | EN=Kunnar
+39:530 | JP=メラーニエ[FFFE] | EN=Melanie
+39:531 | JP=リディ[FFFE] | EN=Lidi
+39:532 | JP=ルーシー[FFFE] | EN=Lucy
+39:533 | JP=ヨッペン[FFFE] | EN=Yoppen
+39:534 | JP=冒書事ギルド[FFFE] | EN=Mage Guild
+39:535 | JP=冒険者ギルド[FFFE] | EN=Adventurer's Guild
+39:536 | JP=ドゥーハン器合[FFFE] | EN=Duhan Town Hall
+39:537 | JP=兵士団[FFFE] | EN=Soldier Corps
+39:539 | JP= [FFFE] | EN=
+39:540 | JP=武器[FFFE] | EN=Weapons
+39:541 | JP=回復武器[FFFE] | EN=Repair Weapons
+39:542 | JP=自回復武器[FFFE] | EN=Self-Repair Weapons
+39:543 | JP=通通武器[FFFE] | EN=Cursed Weapons
+39:544 | JP=使いの武器[FFFE] | EN=Unidentified Weapons
+39:545 | JP=解闘[FFFE] | EN=Armor
+39:546 | JP=回復解闘[FFFE] | EN=Repair Armor
+39:547 | JP=自回復解闘[FFFE] | EN=Self-Repair Armor
+39:548 | JP=通通解闘[FFFE] | EN=Cursed Armor
+39:549 | JP=使いの解闘[FFFE] | EN=Unidentified Armor
+39:550 | JP=アクセサリー[FFFE] | EN=Accessories
+39:551 | JP=回復アクセサリー[FFFE] | EN=Repair Accessories
+39:552 | JP=自回復アクセサリー[FFFE] | EN=Self-Repair Accessories
+39:553 | JP=通通アクセサリー[FFFE] | EN=Cursed Accessories
+39:554 | JP=使いのアクセサリー[FFFE] | EN=Unidentified Accessories
+39:555 | JP=アイテム[FFFE] | EN=Items
+39:556 | JP=騎法団[FFFE] | EN=Spell Book
+39:557 | JP=騎事持騎法騎法団[FFFE] | EN=Arcane Spell Book
+39:558 | JP=神聖騎法騎法団[FFFE] | EN=Holy Spell Book
+39:559 | JP=オートマターチップ[FFFE] | EN=Automater Chip
+39:560 | JP=回復チップ[FFFE] | EN=Repair Chip
+39:561 | JP=自回復チップ[FFFE] | EN=Self-Repair Chip
+39:562 | JP=装備品[FFFE] | EN=Equipment
+39:563 | JP=回復装備品[FFFE] | EN=Repair Equipment
+39:564 | JP=自回復装備品[FFFE] | EN=Self-Repair Equipment
+39:565 | JP=通通装備品[FFFE] | EN=Cursed Equipment
+39:566 | JP=使いの装備品[FFFE] | EN=Unidentified Equipment
+39:567 | JP=ダガー[FFFE] | EN=Dagger
+39:568 | JP=ショートソード[FFFE] | EN=Shortsword
+39:569 | JP=ロングソード[FFFE] | EN=Longsword
+39:570 | JP=グレートソード[FFFE] | EN=Greatsword
+39:571 | JP=鎧[FFFE] | EN=Katana
+39:572 | JP=動[FFFE] | EN=Wand
+39:573 | JP=[0349]手攻[FFFE] | EN=Handaxe
+39:574 | JP=唱手攻[FFFE] | EN=Greataxe
+39:575 | JP=手迷祠[FFFE] | EN=Shuriken
+39:576 | JP=メイス[FFFE] | EN=Mace
+39:577 | JP=フレイル[FFFE] | EN=Flail
+39:578 | JP=スローイングダガー[FFFE] | EN=Throwing Knives
+39:579 | JP=クロスボウ[FFFE] | EN=Crossbow
+39:580 | JP=ロングボウ[FFFE] | EN=Longbow
+39:581 | JP=[01E0][FFFE] | EN=Cudgel
+39:582 | JP=ポールアックス[FFFE] | EN=Poleaxe
+39:583 | JP=グローブ[FFFE] | EN=Knuckles
+39:584 | JP=？短鎧[FFFE] | EN=? Shortsword
+39:585 | JP=？祠[FFFE] | EN=? Shuriken
+39:586 | JP=？鎧[FFFE] | EN=? Katana
+39:587 | JP=？動[FFFE] | EN=? Wand
+39:588 | JP=？攻[FFFE] | EN=? Axe
+39:589 | JP=？武器[FFFE] | EN=? Weapon
+39:590 | JP=？メイス[FFFE] | EN=? Mace
+39:591 | JP=？フレイル[FFFE] | EN=? Flail
+39:592 | JP=？法[FFFE] | EN=? Bow
+39:593 | JP=？棒[FFFE] | EN=? Cudgel
+39:594 | JP=宮[FFFE] | EN=Helmet
+39:595 | JP=[0126][FFFE] | EN=Robe
+39:596 | JP=防[FFFE] | EN=Shield
+39:597 | JP=小手[FFFE] | EN=Gauntlets
+39:598 | JP=？宮[FFFE] | EN=? Helmet
+39:599 | JP=？[0126][FFFE] | EN=? Robe
+39:600 | JP=？防[FFFE] | EN=? Shield
+39:601 | JP=？小手[FFFE] | EN=? Gauntlets
+39:602 | JP=魔石[FFFE] | EN=Amulet
+39:603 | JP=罰野[FFFE] | EN=Ring
+39:604 | JP=依飾り[FFFE] | EN=Necklace
+39:605 | JP=[0340]石[FFFE] | EN=Gemstone
+39:606 | JP=ブーツ[FFFE] | EN=Boots
+39:607 | JP=マント[FFFE] | EN=Cloak
+39:608 | JP=？魔石[FFFE] | EN=? Amulet
+39:609 | JP=？罰野[FFFE] | EN=? Ring
+39:610 | JP=？依飾り[FFFE] | EN=? Necklace
+39:611 | JP=？[0340]石[FFFE] | EN=? Gemstone
+39:612 | JP=？ブーツ[FFFE] | EN=? Boots
+39:613 | JP=？マント[FFFE] | EN=? Cloak
+39:614 | JP=ハンドチップ[FFFE] | EN=Hand Chip
+39:615 | JP=？ハンドチップ[FFFE] | EN=? Hand Chip
+39:616 | JP=ボディチップ[FFFE] | EN=Body Chip
+39:617 | JP=？ボディチップ[FFFE] | EN=? Body Chip
+39:618 | JP=アームチップ[FFFE] | EN=Arm Chip
+39:619 | JP=？アームチップ[FFFE] | EN=? Arm Chip
+39:620 | JP=レッグチップ[FFFE] | EN=Leg Chip
+39:621 | JP=？レッグチップ[FFFE] | EN=? Leg Chip
+39:622 | JP=ブレインチップ[FFFE] | EN=Brain Chip
+39:623 | JP=？ブレインチップ[FFFE] | EN=? Brain Chip
+39:624 | JP=lv１騎法団[FFFE] | EN=Lv1 Spell Book
+39:625 | JP=lv２騎法団[FFFE] | EN=Lv2 Spell Book
+39:626 | JP=lv３騎法団[FFFE] | EN=Lv3 Spell Book
+39:627 | JP=lv４騎法団[FFFE] | EN=Lv4 Spell Book
+39:628 | JP=lv５騎法団[FFFE] | EN=Lv5 Spell Book
+39:629 | JP=lv６騎法団[FFFE] | EN=Lv6 Spell Book
+39:630 | JP=lv７騎法団[FFFE] | EN=Lv7 Spell Book
+39:631 | JP=lv１騎事持騎法団[FFFE] | EN=Lv1 Arcane Spell Book
+39:632 | JP=lv２騎事持騎法団[FFFE] | EN=Lv2 Arcane Spell Book
+39:633 | JP=lv３騎事持騎法団[FFFE] | EN=Lv3 Arcane Spell Book
+39:634 | JP=lv４騎事持騎法団[FFFE] | EN=Lv4 Arcane Spell Book
+39:635 | JP=lv５騎事持騎法団[FFFE] | EN=Lv5 Arcane Spell Book
+39:636 | JP=lv６騎事持騎法団[FFFE] | EN=Lv6 Arcane Spell Book
+39:637 | JP=lv７騎事持騎法団[FFFE] | EN=Lv7 Arcane Spell Book
+39:638 | JP=lv１騎事持騎法団[FFFE] | EN=Lv1 Holy Spell Book
+39:639 | JP=lv２騎事持騎法団[FFFE] | EN=Lv2 Holy Spell Book
+39:640 | JP=lv３騎事持騎法団[FFFE] | EN=Lv3 Holy Spell Book
+39:641 | JP=lv４騎事持騎法団[FFFE] | EN=Lv4 Holy Spell Book
+39:642 | JP=lv５騎事持騎法団[FFFE] | EN=Lv5 Holy Spell Book
+39:643 | JP=lv６騎事持騎法団[FFFE] | EN=Lv6 Holy Spell Book
+39:644 | JP=lv７騎事持騎法団[FFFE] | EN=Lv7 Holy Spell Book
+39:646 | JP=なし[FFFE] | EN=None
+39:647 | JP=パーティランクが[FF01]イ不ゴ[FFF0]となりました [FFFE][FF01]aaが使息できなくなりました [FFF0][FFFE] | EN=Party rank has become
+[Disabled].
+[AA] can no longer be used.
+39:648 | JP=aaが使息できなくなりました [FFFE] | EN=AA can no longer be used.
+39:649 | JP=パーティランク[FF01]イ不ゴ[FFF0]が回復しました[FFFE] | EN=Party rank [Disabled]
+has been restored.
+39:650 | JP=パーティランクが発生しました [FFFE] | EN=A party rank has been
+established!
+39:651 | JP=パーティランクが除店しました [FFFE][FF01]aaが使息できなくなりました [FFF0][FFFE] | EN=A party rank has been
+removed!
+[AA] can no longer be used.
+39:652 | JP=[FF01]アレイドポイント[FFF0]がアップしました [FFFE] | EN=[Allied Points] have
+increased!
+39:653 | JP=[FF01]アレイドポイント[FFF0]がダウンしました [FFFE] | EN=[Allied Points] have
+decreased!
+39:654 | JP=[FF01]aaの一部が外されました [FFF0][FFFE] | EN=[Some of AA's parts have
+been removed.]
+39:655 | JP=                                                                                                                                                                                                                                                                                    | EN=

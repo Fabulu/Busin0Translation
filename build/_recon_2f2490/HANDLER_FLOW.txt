@@ -1,0 +1,69 @@
+HUB MENU HANDLER 0x2F2490 — annotated flow (RECON 1)
+gp=0x504FF0. s1 = a0 = menu ctx (frozen a0=0x1379D0; via sched obj+0x0C ctx=0x1137A00).
+s0 = return of gate getter A (0x2F1590) = [gp-0x6944] (=0 both dumps).
+Edge/pad word read by 0x2F15C0 = lw [gp-0x694C] (=0x4FE6A4). Consume = 0x2F15F0: [gp-0x694C] &= ~a0.
+
+PROLOGUE / PRE-INPUT GATES
+  2F24A0 jal 0x2ED9A0                      ; misc tick
+  2F24A8 jal 0x2F1590 -> s0=[gp-0x6944]
+  2F24B0 bnez v0 -> 2F24C8                 ; GATE A: if [gp-0x6944]!=0 -> block (call 496510, exit). BOTH=0 -> open.
+  2F24B8 jal 0x2F15A0 ([gp-0x6964])
+  2F24C0 beqz v0 -> 2F24D8                 ; GATE B: if [gp-0x6964]==0 continue; else block+exit. BOTH=0 -> continue.
+  2F24C8 (blocked path) jal 496510; lw a0,[gp-0x6230]; b 2F2860 (exit)
+  2F24D8 jal 0x131D20 ([gp-0x7334])
+  2F24E0 bnez v0 -> 2F2860 (exit)          ; GATE C: early-exit if [gp-0x7334]!=0. BOTH=0 -> open.
+  ==> ALL THREE PRE-INPUT GATES ARE OPEN IN BOTH WORKING AND FROZEN. Input IS reached.
+
+INPUT BIT-DISPATCH CHAIN (each: jal 2F15C0 -> read edge word; andi mask; act+exit if set)
+  2F24E8 bit 0x10  -> 2F1E30 (CANCEL handler, switches on ctx+0x2A4) ; exit
+  2F2510 bit 0x02  -> (none) beqz->exit                              ; swallowed
+  2F2524 bit 0x04  -> 2F2240 (CONFIRM/SELECT handler)                ; exit
+  2F2548 UNCONDITIONAL render/build calls: 2ED5E0,309870(a2=0xC8),2F3450,30B840,30CBE0
+  2F2578 bit 0x200 -> sound + 495E00 -> 4964A0(a0=2F1DF0/2F1DB0)     ; exit
+  2F25F8 bit 0x80  -> 30B210 -> 2F15F0(0x80)                          ; exit
+  2F2638 bit 0x1000-> 494D80 -> 2F15F0(0x1000)                        ; exit
+  2F2670 bit 0x2000-> [reads ctx+0x29A as index!] 494050 -> 2F15F0    ; exit
+  2F26B8 bit 0x4000-> 18D9C0 -> 2F15F0(0x4000)                        ; exit
+  2F26F0 bit 0x100 -> bnez exit (button BLOCKED/no-op)
+  2F2704 bit 0x800 -> if ctx+0x00(script IP word)==0: 17BBA0;181F90(ctx+0xA);2F15F0(0x800)
+  2F2740 bit 0x8000-> bnez exit (BLOCKED)
+  2F2754 bit 0x10000-> bnez exit (BLOCKED)
+  2F276C bit 0x80000-> bnez exit (BLOCKED)
+  2F2784 bit 0x100000-> bnez exit (BLOCKED)
+  2F279C bit 0x20000-> 30C920 -> 2F15F0(0x20000)                      ; exit
+  2F27E0 bit 0x40000-> bnez exit (BLOCKED)
+  2F27F8 bit 0x40  -> bnez 2F2838(exit)
+  2F280C lw a0,ctx+0x290; if a0 & (0x10|0x20|0x40|0x80) -> 2F2838(exit)  ; ctx+0x290 read HERE only
+         (WORK +0x290=4, FROZ +0x290=0: NEITHER sets those bits -> branch identical -> falls through)
+  2F2840 lhu v1,ctx+0x29C (cursor repeat timer); if !=0 dec & store; else:
+  2F2858 jal 0x2F3330  -> drives 0x2F3230 BYTECODE INTERPRETER (menu script tick / cursor)
+  2F2860 EPILOGUE jr ra
+
+KEY SUBROUTINES
+  0x2F2240 CONFIRM: reads ctx+0x2A2 (phase). ==1: consume(2F15F0,4) & return. ==0: party-readiness
+           checks (187D30/D90/DF0/E50, 30CD00); if any fail -> return (ignore confirm); else big scene
+           transition then sets ctx+0x2A2=1. >=2: return (ignore). BOTH dumps ctx+0x2A2=0.
+  0x2F1E30 CANCEL: switches on ctx+0x2A4 (0..4). BOTH dumps ctx+0x2A4=4 -> branch 0x2F2160.
+  0x2F3230 BYTECODE INTERPRETER: ip=ctx+0x00; fetch u16 opcode; table @0x4C9360 (=0x4D0000-0x6CA0);
+           jalr handler. The menu (cursor move, item draw, selection) is a bytecode program.
+           ctx+0x00 script IP = 0x11C3D20 IN BOTH (identical bytes) -> script not stuck at diff PC.
+
+STATE DIFF (tavern104=WORK vs fuckinghellman=FROZ), ctx=0x1137A00:
+  +0x54  2  -> 0     (item count?)            +0x5C  2 -> 0
+  +0x60  0x101 -> 0  (flags/enable byte)      +0xA0  0x91EA -> 0xF1   +0xAC 0x988F -> 0xF8
+  +0xB0  4 -> 3                               +0x290 4 -> 0
+  Everything the handler/confirm/cancel branch on directly (2A2,2A4,29A,29C, gates 6944/6964/7334,
+  edge word 694C) is IDENTICAL. Edge word=0 in both (static snapshot, no held button).
+
+WRITERS OF THE DIFFERING FIELDS (menu code 0x2F2xxx/0x2F4xxx):
+  RESET/CLEAR routine ~0x2F28C0-0x2F2A9C: sh zero,0x54 ; sb zero,0x60 (x8) ; sw zero,0x290
+  BUILD/POPULATE routine ~0x2F4750-0x2F4A38: sh s2,0x54 ; sb v1,0x60 ; sw v1,0x290
+  ==> FROZEN ctx matches the CLEARED template; WORKING matches the POPULATED template.
+
+CONCLUSION
+  No branch inside 0x2F2490 gates input on a stuck state -- the three pre-input gates are open in both
+  and the handler reaches the bit chain. The hub menu is bytecode-driven (0x2F3230). The frozen ctx is
+  in the CLEARED/empty state (item-count fields +0x54/+0x5C/+0x60/+0x290 all zero) -- the request flow
+  RESET the hub menu but it was never RE-POPULATED, so the menu has no items: ticks every frame, reads
+  input, but has nothing to navigate/select -> appears frozen. The fix must re-run the menu populate
+  routine (or prevent the clear from persisting after the request flow returns to the hub).

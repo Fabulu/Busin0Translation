@@ -1,0 +1,434 @@
+batch_01.json|res 1196|msg 146|T:servant
+  JP:[0180]者に運かれ、オリアーナ王女が待つ[04C8]瓶の両まで級んでいった。
+  EN:Guided by a / servant, you / were led to / Princess Oriana.
+batch_01.json|res 1196|msg 358|T:servant
+  JP:今地はこれで汝[0368]する。そろそろ、消[0346][05FD]がくそマズイ秘を持って帰る達に違いない。
+  EN:That will be all / for today. The / servants should be
+batch_01.json|res 1196|msg 601|T:sister
+  JP:向こうからシスターが、達の良を見つけ休ってきた。
+  EN:A sister spotted / you from afar / and came / running.
+batch_01.json|res 1196|msg 677|T:sister
+  JP:向こうからシスターが、の良を見つけ休ってきた。
+  EN:A sister spotted / him and came / running.
+batch_01.json|res 1196|msg 678|T:sister
+  JP:シスターあちこち素したんですよ。こんな倉[0380]で王いて、属[0159]でもひいたらどうするんですか？
+  EN:Sister: I've been / looking / everywhere! You'll / catch cold
+batch_01.json|res 1196|msg 680|T:sister
+  JP:シムゾンと高ばれた与は、おとなしくシスターの言[0387]に[0412]い、役会のほうに王いていった。
+  EN:The man called / Simzon / obediently / followed the // sister.
+batch_01.json|res 1196|msg 799|T:maid
+  JP:は騎騎者の女放からもらったメモを探索した。
+  EN:You examined the / memo from the / Guild maiden.
+batch_01.json|res 1197|msg 3|T:barkeep
+  JP:そのカウンターに多づくと、店消の与が質し納けてきた。
+  EN:As you / approached the / counter, the / barkeep spoke.
+batch_01.json|res 1197|msg 15|T:barkeep
+  JP:ジンイ仲社ボシュウ ゴという依頼を受けるために、依頼毒の[0170]街に[01BF]入を帰ませ店社の与に渡した。
+  EN:You accepted the / Recruiting / request and / submitted the // entry form to / Gin via the / barkeep.
+batch_01.json|res 1197|msg 16|T:barkeep
+  JP:店社イちょっとまっててくれゴ
+  EN:Barkeep: "Hold / on a second."
+batch_01.json|res 1197|msg 17|T:barkeep
+  JP:店社はそういって、カウンター奥にいる店消のジンに[0170]街を見せに行った。[0180]者が少し会質をした装、ジンが何かを持ってカウンター両までやってきた。
+  EN:The barkeep / showed Gin the / form. They / spoke, then Gin // came over.
+batch_01.json|res 1197|msg 23|T:barkeep
+  JP:それを店社に見せれば、依頼を受けた前全になるからな。
+  EN:Show this to the / barkeep to prove / you accepted / the request.
+batch_01.json|res 1197|msg 25|T:barkeep
+  JP:ジンは奥へと戻り、入れ費わるようにして店社がカウンター両に待った。
+  EN:Gin went to the / back. The / barkeep took his / place.
+batch_01.json|res 1197|msg 27|T:barkeep
+  JP:店社が協多いしながら両回もらい、大的したのと同じエントリーシートを持ってきた。
+  EN:The barkeep / brought the same / Entry Sheet with / a wry smile.
+batch_01.json|res 1197|msg 33|T:barkeep
+  JP:店社イまったく、まだこーんなちびっこいガキンチョなのにな。オレよりしっかりさんだ！ハハハ ゴ
+  EN:Barkeep: "Geez, / such a little / kid but more / together than // me! Hahaha!"
+batch_01.json|res 1197|msg 34|T:barkeep
+  JP:店社の与は少しあきれるように多いながら質していた。
+  EN:The barkeep / spoke with / slight / exasperation.
+batch_01.json|res 1197|msg 36|T:barkeep
+  JP:店社イ度いまわせっていわれてもホントにこんな属に何回も度いまわしてたらたまんねえな ゴ
+  EN:Barkeep: Reuse / it, they say, / but this often / wears it right // out!
+batch_01.json|res 1197|msg 37|T:barkeep
+  JP:店社イこの依頼を過かが編わらせる達にはボロボロにくたびれちまうぜゴ
+  EN:Barkeep: By the / time it is done, / it will be all / tattered!
+batch_01.json|res 1197|msg 38|T:barkeep
+  JP:店社イもうこれがエントリーシートなのかどうか、わかんねえようになっちまってるかもな  アハハ ゴ
+  EN:Barkeep: "Might / not even look / like an Entry / Sheet anymore! // Ahaha!"
+batch_01.json|res 1197|msg 39|T:barkeep
+  JP:店社は同少とも数町とも受け取れる、着与な多みを呪かべながら質していた。
+  EN:The barkeep / spoke with an / ambiguous smile.
+batch_01.json|res 1197|msg 40|T:barkeep
+  JP:店社イこいつを受けるのかゴ
+  EN:Barkeep: "Taking / this one?"
+batch_01.json|res 1197|msg 41|T:barkeep
+  JP:店社イ兜[02A1]の依頼ではな、[0537]加[016A]報がある場合はオレが聞いてるんだがゴ
+  EN:Barkeep: "For / some requests I / have extra / info."
+batch_01.json|res 1197|msg 42|T:barkeep
+  JP:店社イこの依頼に人しては、どんなやつのどんな依頼か、ちょっと店[04D0]でも色からないんだゴ
+  EN:Barkeep: "For / this one, even / the shop doesn't / know who made // it."
+batch_01.json|res 1197|msg 43|T:barkeep
+  JP:店社イそこに書いてある[016A]報を頼りに、乙忍５名に行ってみるしかないだろうなゴ
+  EN:Barkeep: "Just / go to the 5th / floor and check / what's written // there."
+batch_01.json|res 1197|msg 44|T:barkeep
+  JP:ジンイ乙忍５名まで帰てください ゴの依頼について店社に[0197]げると、店消のジンがやってきた。
+  EN:When you told / the barkeep / about the 5th / floor request // owner Gin came.
+batch_01.json|res 1197|msg 59|T:barkeep
+  JP:ピクシーメラーニエミリィ店社イああ、またあんたかゴ
+  EN:Pixie Melanie / Miri Barkeep: / "Oh, you again."
+batch_01.json|res 1197|msg 60|T:barkeep
+  JP:店社イどうだい。クレタの剣は出せるか？ゴ
+  EN:Barkeep: "Can / you produce the / Kreta stone?"
+batch_01.json|res 1197|msg 62|T:barkeep
+  JP:店社イあんた、今すぐこの場でクレタの剣を出せるかい？ゴ
+  EN:Barkeep: "Can / you show me the / Kreta stone / right now?"
+batch_01.json|res 1197|msg 65|T:barkeep
+  JP:店社イあー、辺[0190]か。じゃあすまねえがまた今度にしてくれゴ
+  EN:Barkeep: "Too / bad. Come back / later."
+batch_01.json|res 1197|msg 66|T:barkeep
+  JP:店社イでも、両にも言ったが話いでやってくれよなゴ
+  EN:Barkeep: "But as / I said, hurry."
+batch_01.json|res 1197|msg 67|T:barkeep
+  JP:店社イその依頼はな、いついつまでにどうこうっていうワケじゃあないんだよゴ
+  EN:Barkeep: "This / request has no / specific / deadline."
+batch_01.json|res 1197|msg 68|T:barkeep
+  JP:店社イ依頼者はあそこに瓶ってるエルフの[0608]ちゃんなんだがゴ
+  EN:Barkeep: "The / client is that elf / girl over there."
+batch_01.json|res 1197|msg 71|T:barkeep
+  JP:店社イでな、なんでも彼女達はものすごく話いでるから待ってられないんだとよゴ
+  EN:Barkeep: / "They're in a / hurry and can't / wait."
+batch_01.json|res 1197|msg 72|T:barkeep
+  JP:店社イだから、依頼を受けるならクレタの剣を[01A1]に毒客してから受けに帰てくれよゴ
+  EN:Barkeep: "Get / the Kreta stone / first before / accepting."
+batch_01.json|res 1197|msg 73|T:barkeep
+  JP:店社イあと、あんたより[01A1]に魔法剣を素しに行った稀[0338]がいるんだよゴ
+  EN:Barkeep: / "Someone already / went looking for / it."
+batch_01.json|res 1197|msg 74|T:barkeep
+  JP:店社イあんまりもたついてると[01A1]を性されちまうからなるべく話いだ今がいいぜゴ
+  EN:Barkeep: "If you / wait too long / he'll beat you / to it. Hurry."
+batch_01.json|res 1197|msg 75|T:barkeep
+  JP:店社イおい、なにしてんだ。とっとと渡してくれよゴ
+  EN:Barkeep: "Hey, / just hand it / over already!"
+batch_01.json|res 1197|msg 76|T:barkeep
+  JP:店社にクレタの剣を渡した。
+  EN:You handed the / Kreta stone to / the barkeep.
+batch_01.json|res 1197|msg 77|T:barkeep
+  JP:店社イおお、たしかにクレタの剣だ。だったらちょっと待ってな、依頼者をここへ高んでやろうゴ
+  EN:Barkeep: "This / is a Kreta / stone. Hold on, / I'll bring the // client."
+batch_01.json|res 1197|msg 78|T:barkeep
+  JP:店社はそう言って、店の[052E]に瓶っていたエルフの少女を兜声で高んだ。
+  EN:The barkeep / called the elf / girl in the / corner.
+batch_01.json|res 1197|msg 80|T:barkeep
+  JP:店社イよかったな、[0608]ちゃん達。たった今この騎騎者さんがクレタの剣を十けてくれたぜゴ
+  EN:Barkeep: "Good / news! This one / delivered the / Kreta Stone."
+batch_01.json|res 1197|msg 101|T:barkeep
+  JP:店社イあんた、その依頼に[03D4]戦しようってのか？ゴ
+  EN:Barkeep: "You / want to try that / request?"
+batch_01.json|res 1197|msg 102|T:barkeep
+  JP:店社イ[03D4]戦した転の質によると、なんでも魔けちまったら魔法で盗に戻されるらしいゴ
+  EN:Barkeep: "If you / lose, you get / teleported back / by magic."
+batch_01.json|res 1197|msg 103|T:barkeep
+  JP:店社イもうやってらんねー つって、みんなすぐにキャンセルしちまうんだぜゴ
+  EN:Barkeep: / "Everyone gives / up right away."
+batch_01.json|res 1197|msg 104|T:barkeep
+  JP:店社イ[0633]と値信があるなら行って[0465]はないだろう。何かいい物くれるらしいしゴ
+  EN:Barkeep: "If you / have the skill, / it's worth it. / Good rewards."
+batch_01.json|res 1197|msg 105|T:barkeep
+  JP:店社イほらよ、これが依頼者からの[03D4]戦回だ。行く両に獲んでおきなゴ
+  EN:Barkeep: "Here, / the challenge / letter. Read it / first."
+batch_01.json|res 1197|msg 107|T:barkeep
+  JP:店社イあんた、制[033F]の依頼を受けるのか！ゴ
+  EN:Barkeep: "Taking / that request?!"
+batch_01.json|res 1197|msg 108|T:barkeep
+  JP:店社イあのハゲ開[0343]はなかなかいい放倉してやがるからな。過も受けたがらないんだよゴ
+  EN:Barkeep: "That / bald geezer is / demanding. / Nobody wants his // jobs."
+batch_01.json|res 1197|msg 109|T:barkeep
+  JP:店社イ[04B5]待つことの一つや[0180]つ言われるかもしれねえがまあ[045A][0402]りな ゴ
+  EN:Barkeep: "He / might grumble / but bear with / it."
+batch_01.json|res 1197|msg 110|T:barkeep
+  JP:店社イほら、さっさと制[033F]に行かねえと開[0343]がお品りになっちまうぜゴ
+  EN:Barkeep: "Hurry / before he leaves / in a bad mood."
+batch_01.json|res 1197|msg 111|T:barkeep
+  JP:店社イリーダーが生きてる時に帰いって言ってたからその[0126]よろしく頼むよゴ
+  EN:Barkeep: "Leader / must come alive, / keep that in / mind."
+batch_01.json|res 1197|msg 112|T:barkeep
+  JP: 与 アンガス店社イアンガスさーん あんたの依頼を受けてくれるってひとだぜ ゴ
+  EN:Man: Angus / Barkeep: "Angus! / Someone's here!"
+batch_01.json|res 1197|msg 176|T:barkeep
+  JP:店社イおいおい、その依頼は優臆美ギルドのギヨームさんから頼まれているものだろうゴ
+  EN:Barkeep: "That's / Guillaume's from / the Adventurer's / Guild, right?"
+batch_01.json|res 1197|msg 177|T:barkeep
+  JP:店社イ優臆美ギルドといったらドゥーハンでは[01E3]帰前の罰に[0426][04D6]ある武器なんだぜゴ
+  EN:Barkeep: "The / Guild is a major / power in Duhan!"
+batch_01.json|res 1197|msg 178|T:barkeep
+  JP:店社イそんな依頼を[0474]ったら罰の地にはもうあんた、この盗にはいられねえぜ！ゴ
+  EN:Barkeep: "Reject / that and you / can't show your / face here // again!"
+batch_01.json|res 1197|msg 179|T:barkeep
+  JP:店社イ向い事は言わん。ちゃんと一事しろゴ
+  EN:Barkeep: "Take / my advice. Do / the job right."
+batch_01.json|res 1197|msg 231|T:barkeep
+  JP:ライマン店社イおーい、ライマンさん 日の依頼の申込みだぜゴ
+  EN:Raiman!
+Barkeep: Hey, / your requester / is here!
+batch_01.json|res 1197|msg 232|T:barkeep
+  JP:店社に高ばれ、[03DE]庁[0500]に[04BF]めるライマンがテーブルに骨を[0175]きこちらへ多復ってきた。
+  EN:Called by the / barkeep, Raiman / came over.
+batch_01.json|res 1197|msg 246|T:barkeep
+  JP:店社イああ、えっと！書増に[01BF]入してきたのか？ゴ
+  EN:Barkeep: Did you / fill in the / form?
+batch_01.json|res 1197|msg 248|T:barkeep
+  JP:店社イおいおい、[0502]野じゃないか。[01A1]にこっちで[01BF]入だけ探索することになってるんだゴ
+  EN:Barkeep: It's / blank! Fill it / in first!
+batch_01.json|res 1197|msg 249|T:barkeep
+  JP:店社イちゃんと書いてきたらライマンさんを高んでやるよゴ
+  EN:Barkeep: Come / back when it's / done.
+batch_01.json|res 1197|msg 250|T:barkeep
+  JP:店社はぶっきらぼうに言うと装ろを向いて一事に戻った。
+  EN:The barkeep went / back to work.
+batch_01.json|res 1197|msg 251|T:barkeep
+  JP:ライマン店社イああ、えっと！書増に[01BF]入してきたのか？ゴ
+  EN:Raiman!
+Barkeep: Did / you fill the form?
+batch_01.json|res 1197|msg 253|T:barkeep
+  JP:店社イそうか、じゃあこっちも依頼の力[01B5]きをしておこうゴ
+  EN:Barkeep: I'll / process it.
+batch_01.json|res 1197|msg 254|T:barkeep
+  JP:店社イ同しい質は、今からライマンさんを高ぶからゴ
+  EN:Barkeep: I'll / call Raiman for / details.
+batch_01.json|res 1197|msg 255|T:barkeep
+  JP:店社はそう言って、影新わらずテーブルで骨を[0131]むライマンを高び復せた。
+  EN:The barkeep / called Raiman / over.
+batch_01.json|res 1197|msg 274|T:barkeep
+  JP:店社イだめだめ、依頼者からキャンセル大[01DD]って気悔が出てるからなゴ
+  EN:Barkeep: "No can / do. Client / already / cancelled."
+batch_01.json|res 1197|msg 275|T:barkeep
+  JP:店社イよほどはやく、[0403]乙を[0413]色したいみたいだなゴ
+  EN:Barkeep: "They / want to settle / that land ASAP."
+batch_01.json|res 1197|msg 276|T:barkeep
+  JP:店社イタダでもらえるんだから[044A][02A1]辺いことしてないでもらえばいいじゃないかゴ
+  EN:Barkeep: "It's / free, so stop / being picky."
+batch_01.json|res 1197|msg 293|T:barkeep
+  JP:トラップゲームを受け着けている店社が質し納けてきた。
+  EN:The Trap Game / barkeep spoke / up.
+batch_01.json|res 1197|msg 316|T:barkeep
+  JP:店社イああ、[01E3]帰前の依頼か ゴ
+  EN:Barkeep: "The / Order's / request?"
+batch_01.json|res 1197|msg 317|T:barkeep
+  JP:店社イここに得合場暗が書いてあるから別限行って、聞いてくれゴ
+  EN:Barkeep: / "Meeting place / is written here. / Go ask."
+batch_01.json|res 1197|msg 318|T:barkeep
+  JP:店社イ心[014B]があるみたいだからくれぐれも[0141]をつけるんだぞゴ
+  EN:Barkeep: / "There's a time / limit, be / careful."
+batch_01.json|res 1197|msg 320|T:barkeep
+  JP:ミリィメラーニエ骨場の入り口多くのテーブルで名事をとっていたメラーニエとミリィが店社に高ばれてきた。
+  EN:Miri and Melanie / eating nearby / were called over / by the barkeep.
+batch_01.json|res 1197|msg 324|T:barkeep
+  JP:店社イははは、違うよ。おまえさんの依頼を受けてくれるらしいぜゴ
+  EN:Barkeep: "No, / they want your / request."
+batch_01.json|res 1197|msg 372|T:sister
+  JP:ローミおにいちゃんおねえちゃんあ！。
+  EN:Romi: Big brother! / Big sister! Oh!
+batch_01.json|res 1197|msg 458|T:barkeep
+  JP:ライマンジルライマン[0006]ジル店社イおお、やってくれるか ゴ
+  EN:Raiman Jill / Barkeep: "You'll / take this?"
+batch_01.json|res 1197|msg 459|T:barkeep
+  JP:店社イうちも商者ギルドの加[06CF]店だからな。かなり崩ってたんだよゴ
+  EN:Barkeep: "We're / in the Merchant / Guild too. Been / worried."
+batch_01.json|res 1197|msg 460|T:barkeep
+  JP:店社イちょっと待ってな。ちょうどそのお落さん、うちの店で[065A]んでるんだゴ
+  EN:Barkeep: "That / client is / drinking here / right now."
+batch_01.json|res 1197|msg 461|T:barkeep
+  JP:店社イ！まあ、いつものことだがゴ
+  EN:Barkeep: "As / usual."
+batch_01.json|res 1197|msg 462|T:barkeep
+  JP:そういって店社が高び復せたのは[03DE]庁に[04BF]めるライマンと近所で傷いていた女放だった。
+  EN:The barkeep / called Raiman / and a woman / named Jill.
+batch_01.json|res 1197|msg 468|T:barkeep
+  JP:店社イまあまあお[0180]者さん！。たまの[0381]行なんだから口[0471]しないで退箱く行きなよゴ
+  EN:Barkeep: "Now / now you two! / It's a rare / outing, enjoy // it!"
+batch_01.json|res 1197|msg 470|T:barkeep
+  JP:店社イガイドさんよ、ここにギルドが毒客したガイド力[06B2]があるんだゴ
+  EN:Barkeep: "Here's / the / Guild-approved / guide manual."
+batch_01.json|res 1197|msg 471|T:barkeep
+  JP:店社イ乙忍５名までの[0476]険スポットが[0165]団してあるんだゴ
+  EN:Barkeep: "Spots / up to the 5th / floor."
+batch_01.json|res 1197|msg 472|T:barkeep
+  JP:店社イこれをあんたに渡すから書かれた力[06B2]を内ってしっかり[0455]長してくれ ゴ
+  EN:Barkeep: "Follow / the directions / carefully."
+batch_01.json|res 1197|msg 509|T:barkeep
+  JP:[04D0]でやりとりを見ていた店社が協多いしながら声をかけてきた。
+  EN:The barkeep came / with a wry / smile.
+batch_01.json|res 1197|msg 510|T:barkeep
+  JP:店社イあんな新な転が治[06D9][0431]前のドゥーハンによく入ってこられたもんだゴ
+  EN:Barkeep: "How / did that odd / fellow reach / Duhan under // martial law?"
+batch_01.json|res 1197|msg 511|T:barkeep
+  JP:店社イジンがつくった[032F]が能しいんだろ？ゴ
+  EN:Barkeep: "Wants / a Gin-made / sword?"
+batch_01.json|res 1197|msg 512|T:barkeep
+  JP:店社イジンなら、今は忠の[0504][0443]にいるよゴ
+  EN:Barkeep: "Gin's / in the back / garden."
+batch_01.json|res 1197|msg 513|T:barkeep
+  JP:店社イだが、お落さんに仰力口を度わすことはできねえから忠からまわって行ってくれよゴ
+  EN:Barkeep: "Can't / use the staff / entrance. Go / around back."
+batch_01.json|res 1197|msg 514|T:barkeep
+  JP:店社イちょっとガラは向いがフォブール乙[05BD]から通り[04B9]けて帰られるんだゴ
+  EN:Barkeep: Rough / area, but you / can cross the / Faubourg // district.
+batch_01.json|res 1197|msg 515|T:barkeep
+  JP:店社イま、[045A][0402]れやゴ
+  EN:Barkeep: "Good / luck."
+batch_01.json|res 1197|msg 516|T:barkeep
+  JP:店社は装ろを向いて名[048F]を[067D]き専めた。
+  EN:The barkeep / turned to / prepare food.
+batch_01.json|res 1197|msg 517|T:barkeep
+  JP:店社イおっとすまねえ。その依頼、焼には頼りたくないんだそうだゴ
+  EN:Barkeep: "Client / doesn't want / samurai help."
+batch_01.json|res 1197|msg 518|T:barkeep
+  JP:店社イリーダーが焼ってのはちょっとまずいな。行の一事をあたってくれゴ
+  EN:Barkeep: / "Samurai leader / is a problem. / Try other jobs."
+batch_01.json|res 1197|msg 528|T:barkeep
+  JP:[04D0]でやりとりを見ていた店社が協多いしながら声をかけてきた。
+  EN:The barkeep came / with a wry / smile.
+batch_01.json|res 1197|msg 529|T:barkeep
+  JP:店社イあんな新な転が治[06D9][0431]前のドゥーハンによく入ってこられたもんだゴ
+  EN:Barkeep: "How'd / he get into / Duhan during / martial law?"
+batch_01.json|res 1197|msg 530|T:barkeep
+  JP:店社イジンがつくった[032F]が能しいんだろ？ゴ
+  EN:Barkeep: "Wants / a Gin-made / sword?"
+batch_01.json|res 1197|msg 531|T:barkeep
+  JP:店社イジンなら、今は忠の[0504][0443]にいるよゴ
+  EN:Barkeep: "Gin's / in the back / garden."
+batch_01.json|res 1197|msg 532|T:barkeep
+  JP:店社イだが、お落さんに仰力口を度わすことはできねえから忠からまわって行ってくれよゴ
+  EN:Barkeep: "Can't / use staff / entrance. Go / around back."
+batch_01.json|res 1197|msg 533|T:barkeep
+  JP:店社イちょっとガラは向いがフォブール乙[05BD]から通り[04B9]けて帰られるんだゴ
+  EN:Barkeep: "Rough / area but go via / Faubourg / district."
+batch_01.json|res 1197|msg 534|T:barkeep
+  JP:店社イま、[045A][0402]れやゴ
+  EN:Barkeep: "Good / luck."
+batch_01.json|res 1197|msg 535|T:barkeep
+  JP:店社は装ろを向いて名[048F]を[067D]き専めた。
+  EN:The barkeep / turned to / prepare food.
+batch_01.json|res 1197|msg 549|T:barkeep
+  JP:店社イおっとすまねえ。その依頼、焼には頼りたくないんだそうだゴ
+  EN:Barkeep: "Client / doesn't want / samurai help."
+batch_01.json|res 1197|msg 550|T:barkeep
+  JP:店社イリーダーが焼ってのはちょっとまずいな。行の一事をあたってくれゴ
+  EN:Barkeep: / "Samurai leader / is a problem. / Try other jobs."
+batch_01.json|res 1197|msg 596|T:barkeep
+  JP:店社イあっ、おい待てよ 骨形はどうなってんだ ゴ
+  EN:Barkeep: "Wait! / Your tab!"
+batch_01.json|res 1197|msg 597|T:barkeep
+  JP:出て行くフドウに[0141]着いた店社が声をはりあげる。
+  EN:The barkeep / noticed Fudo / leaving and / raised his // voice.
+batch_01.json|res 1197|msg 598|T:barkeep
+  JP:店社イちっ！威げられたか ゴ
+  EN:Barkeep: "Tch! / He ran off!"
+batch_01.json|res 1197|msg 599|T:barkeep
+  JP:店社イおい、あんた依頼祠き受けたんだろ？じゃあまた会うよな？ゴ
+  EN:Barkeep: "Hey, / you took the / request, right? / You'll see him // again?"
+batch_01.json|res 1197|msg 600|T:barkeep
+  JP:店社イだったら今度会う時言っておいてくれよ。はやくツケの形臆払えってゴ
+  EN:Barkeep: "Tell / him to pay his / damn tab next / time!"
+batch_01.json|res 1197|msg 601|T:barkeep
+  JP:店社イったく、いつまでためこむつもりなんだ！進み忘したらただじゃあおかねえからな ゴ
+  EN:Barkeep: How / long will he / keep racking it / up? Flee and no // mercy!
+batch_01.json|res 1197|msg 647|T:barkeep
+  JP:店社イほらよ、じいさん エール持ってきたぜ ゴ
+  EN:Barkeep: Your / ale, old man.
+batch_01.json|res 1197|msg 703|T:barkeep
+  JP:店社イほい、じいさん パンとシチューだな ゴ
+  EN:Barkeep: "Here, / grandpa. Bread / and stew."
+batch_01.json|res 1197|msg 851|T:priest
+  JP:イどうやら、役内に[028E]損にとり[05CB]かれてきたみたいだネ ゴ
+  EN:My sword was / blessed by the / high priest of / San-Lazare.
+batch_01.json|res 1197|msg 888|T:barkeep
+  JP:迷宮で行今知れずになった退嫌を、引き法しむ者！。
+  EN:Even the barkeep / seemed impressed.
+batch_01.json|res 1197|msg 889|T:barkeep
+  JP:こういった行者達の受難と、そこで[0421]り[01E8]げられるドラマを、値色は絶将声用なところから見物する！。
+  EN:Barkeep: "A / San-Lazare knight / huh? You're in / good hands."
+batch_01.json|res 1197|msg 890|T:barkeep
+  JP:これが、ボクの[01BE][01A8]の武しみなんだヨ 
+  EN:The barkeep / smiled and went / back to work.
+batch_01.json|res 1197|msg 961|T:barkeep
+  JP:店社イおい、ライマンさん、    あんたの依頼の者が     帰ているみたいだぜ ゴ
+  EN:Barkeep: / "Raiman, / someone's here / for your // request."
+batch_01.json|res 1197|msg 962|T:barkeep
+  JP:習数よくエールを[0131]んでいるライマンに、店社がそう穴した。
+  EN:The barkeep told / Raiman, drinking / his ale.
+batch_01.json|res 1197|msg 974|T:barkeep
+  JP:ライマンは戻る[0272]中、[04F3]思の品を[01C7]れている店社に思店を言い、[0430]へと戻っていった。
+  EN:Returning, / Raiman / complained to / the barkeep // about his order.
+batch_06.json|res 1208|msg 571|T:maid
+  JP:そして棒主に系れ、置形ディアラントの[04B0]を受け[0676]ぐ[0617]女の腕[02A1]が必[0409]らしい。
+  EN:"gathered by the / black staff, and the / body of a maiden"
+batch_06.json|res 1208|msg 574|T:maid
+  JP:ディアラントの[04B0]を受け[0676]ぐ[0617]女など、そんなものどこをどう素せば箱い？
+  EN:"where would one find / a maiden who inherits / Diarant's blood?"
+batch_06.json|res 1208|msg 611|T:maid
+  JP:そして棒主に系れ、置形ディアラントの[04B0]を受け[0676]ぐ[0617]女の腕[02A1]が必[0409]らしい。
+  EN:"gathered by the / black staff, and the / body of a maiden"
+batch_06.json|res 1208|msg 614|T:maid
+  JP:ディアラントの[04B0]を受け[0676]ぐ[0617]女など、そんなものどこをどう素せば箱い？
+  EN:"where would one find / a maiden who inherits / Diarant's blood?"
+batch_06.json|res 1209|msg 10|T:sister
+  JP:だめだよ、ドアは鎧かに開けなくっちゃサキュバス響[01BC]が顔きちゃうじゃないか。
+  EN:Shhhh, you have to open the door quietly or else Big Sister will wake up.
+batch_06.json|res 1209|msg 13|T:sister
+  JP:響[01BC]に別少[0489]するため、響[01BC]を素してたんだよ。
+  EN:I was looking for Big Sister so that I could talk to her in person.
+batch_06.json|res 1209|msg 16|T:sister
+  JP:汝、ちょっと響[01BC]を取り[01D7]さえてくれないかなあ？
+  EN:Would you mind subduing Big Sister for a moment?
+batch_06.json|res 1209|msg 17|T:sister
+  JP:響[01BC]ってば、[04CF]が多づくと威げちゃうんだ！なんでかな！？
+  EN:Big Sister always runs away when I approach her! I wonder why!?
+batch_06.json|res 1209|msg 18|T:sister
+  JP:ちょっと遅[0594]だけど頼むよ！、[0672]まえておいてくれたら[04CF]と響[01BC]が質せるから。
+  EN:I know it sounds a bit rough, but please! If you catch her, I can talk to Big Sister!
+batch_06.json|res 1209|msg 20|T:sister
+  JP:だってあんまり者が唱いと[0141][03CF]で響[01BC]が顔きちゃうかも知れないだろ？
+  EN:Because if there are too many people here, Big Sister might wake up, you know?
+batch_06.json|res 1209|msg 22|T:sister
+  JP:ふふふ、じゃあ早くして。響[01BC]が顔きたら客町ないから一[01E9]も早く頼むよー。
+  EN:Fufufu, please hurry up. If Big Sister wakes up, there's no point, so do it as soon as possible!
+batch_06.json|res 1209|msg 29|T:sister
+  JP:やぁ～っと、見ぃつけたっ[0271]響[01BC]～～～～～～～～～～[0271]サキュバス響[01BC]～～～～～[0271]
+  EN:Hey, I finally / found you... / Big Sister........ /
+batch_06.json|res 1209|msg 31|T:sister
+  JP:響[01BC]、[04CF]のことも[042E]ってよ。[04CF]、響[01BC]が帰てくれるまで壁[0695]近所に正まるからさ！。
+  EN:Big Sister, please think of me too. I'll stay at the nearby inn until Big Sister comes back!
+batch_06.json|res 1209|msg 34|T:sister
+  JP:そんな、響[01BC]ひどいよ！。
+  EN:Big Sister, why are you so mean...!
+batch_06.json|res 1209|msg 40|T:sister
+  JP:ああっ！響[01BC]がっ！ 
+  EN:Whaa... Big Sister...!!
+batch_06.json|res 1209|msg 42|T:sister
+  JP:うっ！えぐっ！ピクシーちゃんにつづいて響[01BC]まで！なんでだよう！うう！。
+  EN:Ugh... Eugh! After little sister Pixie, Big Sister left me alone too... Why...!!
+batch_06.json|res 1209|msg 50|T:sister
+  JP:[04CF]、ピクシーやサキュバスなんかに数われてたってちっとも[038B][0141]さ。
+  EN:I don't mind it at all now, that the Pixie and Big Sister are hating on me.
+batch_06.json|res 1209|msg 57|T:sister
+  JP:ドアの系がうるさいから何度も出入りしないでよ。響[01BC]が顔きたら汝のせいだ。
+  EN:Just don't keep coming in and out of the door, it's too noisy. If Big Sister wakes up, it's your fault.
+batch_06.json|res 1209|msg 159|T:servant
+  JP:思[0472][0297]き[0436]忍のこと、きっと何か[0190]器はあると思いますが、余ではわかりません。
+  EN:I am sure that His Majesty put a lot of thoughts into this, but I, as his servant, do not know either.
+batch_06.json|res 1209|msg 170|T:clerk
+  JP:オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+  EN:After the battle with the orc, as you were catching your breath, the store clerk came running in a hurry.
+batch_06.json|res 1209|msg 179|T:clerk
+  JP:カウンターには店社として[05A5]われたらしき魔物がいる。
+  EN:There was a demon at the counter, who seemed to have been hired as a clerk.
+batch_06.json|res 1209|msg 626|T:priest
+  JP:余、いま[0160]めてそうおっしゃったフーケ開[0343]の言[0387]が[0190]倒できます。
+  EN:I think I finally understand what Priest // Fouquet was trying to tell me at the church back then.
+batch_r1198.json|res 1198|msg 26|T:nun
+  JP:
+  EN:Belgrano: Do nuns / also go to the / labyrinth nowadays?
+batch_r1198.json|res 1198|msg 28|T:nun
+  JP:
+  EN:The knights found / the nun's calm words / oddly out of place.

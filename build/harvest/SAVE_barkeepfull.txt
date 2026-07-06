@@ -1,0 +1,6 @@
+SAVE barkeepfull.p2s — REFERENCE (what "correct" looks like), high confidence
+Decoded on-screen (VA 0x11E19AE): R1197 mi=904, 2 wide lines: "I will be blunt. I cannot take on" / "your request." 33-char first line = wide 480px box signature.
+GEOMETRY: DIALOGUE_BOX_PX=480 (correct) vs NARRATION_BOX_PX=360 (cramped). build_v9.py.
+CLASSIFIER: mi=904 -> DIALOGUE(480) auto-classified, NOT in DIALOGUE_FORCE. mi=4 (nextbarkeep) and mi=927 (verafourth) -> NARRATION(360) false-negatives.
+DISCRIMINATOR: classifier head-test = is the 0x04 display body block headed by a 0x14 name-island in group `first` or `first-1`? g904: body first-covered=904, group 903 IS the "Barkeep" name-island -> headed=True -> DIALOGUE (NAME-BEFORE-BODY). g4/g927: name-island sits AFTER the body block (verafourth's "Lady Knight" island at group 932, after body g927) -> head-test misses -> NARRATION (BODY-BEFORE-NAME).
+FIX PATTERN: re-route body-before-name dialogue groups into 480px (as DIALOGUE_FORCE already does for (1197,929)) WITHOUT globally loosening the classifier (which would regress validated R1196 narration). General fix = extend head-test to recognize a name-island immediately FOLLOWING a display block as a dialogue head.

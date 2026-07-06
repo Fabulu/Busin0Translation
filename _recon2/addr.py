@@ -1,0 +1,6 @@
+gp=0x504FF0
+for name,off in [("input_mask 0x694c",-0x694c),("gateA 0x6944",-0x6944),
+                 ("gateB 0x6964",-0x6964),("flag 0x693c",-0x693c),
+                 ("menuobj 0x6230",-0x6230),("inpedge 0x6438",-0x6438),
+                 ("0x6960",-0x6960)]:
+    print(f"{name:20s} -> 0x{gp+off:08X}")

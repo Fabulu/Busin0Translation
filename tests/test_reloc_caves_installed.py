@@ -53,13 +53,13 @@ P6_TRAMP = bytes.fromhex(
     "289d8293" "05000124" "03004110" "00000000"
     "102e0c08" "00000000" "0800e003" "00000000")
 
-# Patch 26 cave words (chargen body-text proportional, R2100 ADV2 read):
-# v170: idx17 lui at,0x4A + idx19 lbu at,0xF338(at) -> RELOCATED ADV2 @0x4AF338.
+# Patch 26 cave words (chargen body-text proportional, v173 canonical ADV read
+# @0x4C7564: lui at,0x4C = 0x3C01004C ; lbu at,0x7564(at) = 0x90217564):
 P26_CAVE_WORDS = [
     0x3C010050, 0x8C21ED18, 0x24040005, 0x14240014, 0x00000000,
     0x96E20000, 0x00021040, 0x02221021, 0x90430000, 0x90440001,
     0x00031A00, 0x00641025, 0x3042FFFF, 0x2C41005F, 0x10200009,
-    0x00000000, 0x86430000, 0x3C01004A, 0x00220821, 0x9021F338,
+    0x00000000, 0x86430000, 0x3C01004C, 0x00220821, 0x90217564,
     0x00611821, 0xA6430000, 0x080C1E80, 0x00000000, 0x080C1E74,
     0x8FA200E0,
 ]
@@ -173,10 +173,8 @@ def test_design_sizes_match_cave_reloc():
         % (sorted(CAVE_BYTES), sorted(RELOC.CAVE_RELOC))
     )
     # P27 is deliberately NOT in CAVE_RELOC (it has its own GAP_P27 slot).
-    # v170: P27 grew 21->23 words (84->92B) when it gained the gid>=95 ASCII guard for
-    # the relocated 95B R2100 ADV2 table.
-    assert len(RELOC.P27_WORDS) * 4 == 92, (
-        "P27 design cave is %d bytes, expected 92 (23 words)"
+    assert len(RELOC.P27_WORDS) * 4 == 84, (
+        "P27 design cave is %d bytes, expected 84 (21 words)"
         % (len(RELOC.P27_WORDS) * 4)
     )
     # Fragment chains: frag1 must j into frag2, P31 frag2 must rejoin 0x30797C.

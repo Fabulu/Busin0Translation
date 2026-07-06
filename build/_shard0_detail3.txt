@@ -1,0 +1,2255 @@
+=== R680 flen=135168 big_runs=77 total_mapped=2032
+  @word0 mapped=33 fb=0 len=42:   .bu. bu bu . .bu# . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word685 mapped=8 fb=0 len=12:    . . / .   chi
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word821 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word861 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word885 mapped=8 fb=0 len=12:    . . / .   chi
+  @word901 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word941 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word981 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1021 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1061 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word1421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+=== R681 flen=2269184 big_runs=4157 total_mapped=50439
+  @word14 mapped=32 fb=0 len=41:   . . . #        . . . . .       .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word242 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word466 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word502 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word534 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word670 mapped=12 fb=0 len=17:  . . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word754 mapped=9 fb=0 len=10:      .    
+  @word766 mapped=12 fb=0 len=17:  . . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word832 mapped=11 fb=0 len=15:  . . . .       
+  @word850 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word894 mapped=12 fb=0 len=17:  . . . . .       
+  @word926 mapped=12 fb=0 len=17:  . . . . .       
+  @word950 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1184 mapped=12 fb=0 len=17:  . . . .       .#
+  @word1216 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1266 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1362 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1408 mapped=11 fb=0 len=15:  . . . .       
+=== R683 flen=700416 big_runs=2029 total_mapped=28503
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=34 fb=0 len=45: #  . . . .        . . . . .       .       .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word160 mapped=15 fb=0 len=23:  . . . .       . . . . 
+  @word192 mapped=13 fb=0 len=18:  . . . .       .  
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word242 mapped=9 fb=0 len=10:      .    
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=15 fb=0 len=20:  . . . .       .    
+  @word342 mapped=25 fb=0 len=33:  .       . . . . .       .bu.     
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word480 mapped=16 fb=0 len=23:  . . . .       . . .   
+  @word512 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word724 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word832 mapped=11 fb=0 len=15:  . . . .       
+  @word862 mapped=12 fb=0 len=17:  . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=13 fb=0 len=18:  . . . .       .  
+  @word958 mapped=12 fb=0 len=17:  . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1044 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1118 mapped=14 fb=0 len=20: zu. . . . .       .  
+  @word1140 mapped=27 fb=0 len=35:    .       . . . . .       . .     
+  @word1183 mapped=12 fb=0 len=16: # . . . .       
+  @word1216 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1236 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1376 mapped=11 fb=0 len=15:  . . . .       
+=== R684 flen=120832 big_runs=91 total_mapped=2677
+  @word0 mapped=34 fb=0 len=42:   .bu. bu bu . pobu# . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word7057 mapped=10 fb=0 len=15: bu.bu.bu. . . # # 
+  @word7441 mapped=8 fb=0 len=15: #.#.#.#.#.#.#.pa
+  @word7833 mapped=8 fb=0 len=15: #.#.be.bu.#.#.#.#
+  @word18177 mapped=73 fb=0 len=82: #.#.#.#.###.#.#########################################bu#bu#######bu#bu###.#.######.#
+  @word18305 mapped=76 fb=0 len=84: #.#.#.##########be#be#bebebebo bo bo bo                                  . . . ~        #.#.#
+  @word18433 mapped=67 fb=0 len=78: #.#.###.#.#.#.##pa#pa#bepabe#be#be#be#be        be                        . . . . ~.e[##
+  @word18561 mapped=59 fb=0 len=66: #.#.###.#.#.#.##bo#bo#pa#be#be#be#be#be        be be                      . 
+  @word18689 mapped=56 fb=0 len=64: #.#.#.#.#.#.#.########be#bo#bo#bo#pabe be be be be be be be      . [        #
+  @word18817 mapped=54 fb=0 len=62: #.#.#.#.#.#.#.##########bo#bo#bo#bobe be be be be   be be    . [ #     bu 
+  @word18959 mapped=44 fb=0 len=49: ######bo#bo########be be be be bebube be be  . . . . . ] ] #
+  @word19085 mapped=46 fb=0 len=51: #.#################be be be be bebube be be  . . . . [ ] # #
+  @word19211 mapped=45 fb=0 len=52: #.#.##################bebebubebubebubobepa be be  ] # . . . . . 
+  @word19341 mapped=44 fb=0 len=50: #.##################bu#bubebubebubo pa be be  a # . . . . . 
+  @word19472 mapped=38 fb=0 len=43: ################bobebo pa be #be#be#bebebu . . .#. . 
+  @word19600 mapped=35 fb=0 len=37: ################bobebobebobepa #be#be#bebebe . .bu
+=== R685 flen=1042432 big_runs=2132 total_mapped=33075
+  @word0 mapped=8 fb=0 len=10:   .bu.   bu 
+  @word13 mapped=58 fb=0 len=74: bu  . . . #        . . . . .       .       .       . . . . .       .       
+  @word94 mapped=12 fb=0 len=17:  . . . . .       
+  @word118 mapped=22 fb=0 len=29:  .       . . . . .       .   
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=11 fb=0 len=15:  . . . .       
+  @word214 mapped=223 fb=0 len=289:  .       . . . . .       .   .   .       . . . . .       .   .   .       . . . . .       .       .       . . . . .      
+  @word512 mapped=11 fb=0 len=15:  . . . .       
+  @word534 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word606 mapped=12 fb=0 len=17:  . . . . .       
+  @word640 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word734 mapped=12 fb=0 len=17:  . . . . .       
+  @word768 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word818 mapped=9 fb=0 len=10:      .    
+  @word830 mapped=12 fb=0 len=17:  . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word894 mapped=12 fb=0 len=17:  . . . . .       
+  @word928 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1022 mapped=12 fb=0 len=17:  . . . . .       
+  @word1056 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1106 mapped=9 fb=0 len=10:      .    
+  @word1118 mapped=12 fb=0 len=17:  . . . . .       
+  @word1152 mapped=11 fb=0 len=15:  . . . .       
+  @word1182 mapped=12 fb=0 len=17:  . . . . .       
+  @word1216 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       .#.     
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1310 mapped=12 fb=0 len=17:  . . . . .       
+  @word1344 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1408 mapped=11 fb=0 len=15:  . . . .       
+  @word1438 mapped=12 fb=0 len=17:  . . . . .       
+  @word1472 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1502 mapped=12 fb=0 len=17:  . . . . .       
+  @word1536 mapped=11 fb=0 len=15:  . . . .       
+  @word1566 mapped=12 fb=0 len=17:  . . . . .       
+  @word1600 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+=== R686 flen=106496 big_runs=81 total_mapped=4838
+  @word0 mapped=34 fb=0 len=42:   .bu. bu bu z .bu# . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=8 fb=0 len=12:    . . / .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=12:    . . / .   chi
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word645 mapped=8 fb=0 len=12:    . . / .   chi
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word765 mapped=8 fb=0 len=12:    . . / .   chi
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word821 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word3816 mapped=2560 fb=0 len=2560:                                                                                                                         
+  @word20712 mapped=258 fb=0 len=512:   #chi.chi.chi.chi.chi.chi.chi.chi.chi.chi.#.#.chi.#.chi.chi.chi.chi.chi.chi.#.chi.chi.#.#.#.#.chi.chi.chi.chi.#.chi.#.#
+  @word42728 mapped=9 fb=0 len=10:   be#####.#
+  @word45801 mapped=21 fb=0 len=25:  .     #  ~.       .   . 
+  @word45829 mapped=8 fb=0 len=12:    . . / .   chi
+  @word45845 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word45885 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word45909 mapped=8 fb=0 len=12:    . . / .   chi
+  @word45925 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word45965 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word46083 mapped=36 fb=0 len=43:  . .                 .~.~.~#~ ~ ~ ~ ~.~~#.#
+=== R687 flen=1085440 big_runs=3359 total_mapped=56881
+  @word14 mapped=27 fb=0 len=36:   . . . #        . . . . .       .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word242 mapped=9 fb=0 len=10:      .    
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word350 mapped=12 fb=0 len=17:  . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word415 mapped=19 fb=0 len=24: # . . . .       .       
+  @word446 mapped=12 fb=0 len=17:  . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word832 mapped=11 fb=0 len=15:  . . . .       
+  @word854 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1088 mapped=12 fb=0 len=17:  . . . .       .#
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1183 mapped=12 fb=0 len=16: # . . . .       
+  @word1216 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1279 mapped=12 fb=0 len=16: # . . . .       
+  @word1312 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1376 mapped=11 fb=0 len=15:  . . . .       
+  @word1408 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1472 mapped=11 fb=0 len=15:  . . . .       
+  @word1504 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1524 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1568 mapped=11 fb=0 len=15:  . . . .       
+=== R688 flen=131072 big_runs=90 total_mapped=3506
+  @word0 mapped=33 fb=0 len=42:   .bu. bu bu . .bu# . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word645 mapped=8 fb=0 len=12:    . . / .   chi
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word685 mapped=8 fb=0 len=12:    . . / .   chi
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word725 mapped=8 fb=0 len=12:    . . / .   chi
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word821 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word861 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word885 mapped=8 fb=0 len=12:    . . / .   chi
+  @word901 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word1874 mapped=8 fb=0 len=13:  .bu.#.bu# . . 
+  @word2961 mapped=11 fb=0 len=14: #.#####i##.#.#
+  @word30980 mapped=10 fb=0 len=12: #.be.#pi####bu#
+  @word31105 mapped=13 fb=0 len=16: #.#.#.##########
+  @word31233 mapped=13 fb=0 len=18: #.#.#.pe.########.#
+  @word36367 mapped=9 fb=0 len=16: ##.#.#.#.#.#.#.#
+  @word36432 mapped=8 fb=0 len=15: #.#.#.#.bo.be.be.#
+  @word36487 mapped=16 fb=0 len=24: #.#.#.yu.pe.#pa#bo.bo#be#ya.bo.be
+  @word36553 mapped=15 fb=0 len=22: #.#.#.#bo#bo#bo#pa.bo.pa.bo.bo
+=== R689 flen=923648 big_runs=2370 total_mapped=32583
+  @word0 mapped=8 fb=0 len=10:   .bu.   bu 
+  @word13 mapped=32 fb=0 len=42: bu  . . . .        . . . . .       .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=12 fb=0 len=17:  . . . .       . 
+  @word128 mapped=11 fb=0 len=15:  . . . .       
+  @word150 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word182 mapped=69 fb=0 len=89:  .       . . . . .       .       .       . . . . .       .       .       . . . . .       
+  @word278 mapped=51 fb=0 len=65:  .       . . . . .       .       .       . . . . .       .       
+  @word349 mapped=13 fb=0 len=18: # . . . . .       
+  @word374 mapped=46 fb=0 len=60:  .       . . . . .       .       .       . . . . .       .  
+  @word438 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word562 mapped=9 fb=0 len=10:      .    
+  @word574 mapped=12 fb=0 len=17:  . . . . .       
+  @word594 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word640 mapped=13 fb=0 len=18:  . . . .       .  
+  @word672 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word830 mapped=12 fb=0 len=17:  . . . . .       
+  @word860 mapped=14 fb=0 len=19:    . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1086 mapped=12 fb=0 len=17:  . . . . .       
+  @word1120 mapped=11 fb=0 len=15:  . . . .       
+  @word1152 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1248 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1310 mapped=12 fb=0 len=17: #. . . . .       
+  @word1344 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1374 mapped=12 fb=0 len=17:  . . . . .       
+  @word1406 mapped=12 fb=0 len=17:  . . . . .       
+  @word1438 mapped=12 fb=0 len=17: #. . . . .       
+  @word1472 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1534 mapped=12 fb=0 len=17:  . . . . .       
+=== R691 flen=970752 big_runs=2623 total_mapped=34923
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=26 fb=0 len=34: #  . . . #        . . . . .       
+  @word54 mapped=128 fb=0 len=164:  .       . . . . .       .       .       . . . . .       .       .       . . . . .       .       .       . . . . .      
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word256 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word320 mapped=12 fb=0 len=17:  . . . .       . 
+  @word352 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word402 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word448 mapped=11 fb=0 len=15:  . . . .       
+  @word480 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word544 mapped=17 fb=0 len=23:  . . . .       . .     
+  @word576 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word672 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word832 mapped=13 fb=0 len=18:  . . . .       .  
+  @word864 mapped=13 fb=0 len=18:  . . . .       .  
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word924 mapped=14 fb=0 len=19:    . . . . .       
+  @word960 mapped=11 fb=0 len=15:  . . . .       
+  @word992 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1022 mapped=12 fb=0 len=17:  . . . . .       
+  @word1056 mapped=11 fb=0 len=15:  . . . .       
+  @word1088 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1108 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1152 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1184 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1280 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1376 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1440 mapped=11 fb=0 len=15:  . . . .       
+  @word1472 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1536 mapped=11 fb=0 len=15:  . . . .       
+  @word1568 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1598 mapped=12 fb=0 len=17:  . . . . .       
+  @word1632 mapped=11 fb=0 len=15:  . . . .       
+  @word1664 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+=== R693 flen=743424 big_runs=2081 total_mapped=25021
+  @word0 mapped=8 fb=0 len=10:   .bu.   bu 
+  @word13 mapped=32 fb=0 len=42: bu  . . . .        . . . . .       .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word86 mapped=26 fb=0 len=33:  .       . . . . .       .       
+  @word128 mapped=11 fb=0 len=15:  . . . .       
+  @word150 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word182 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word224 mapped=13 fb=0 len=18:  . . . .       .  
+  @word256 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word318 mapped=12 fb=0 len=17: ke. . . . .       
+  @word352 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word414 mapped=12 fb=0 len=17:  . . . . .       
+  @word448 mapped=11 fb=0 len=15:  . . . .       
+  @word480 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word512 mapped=11 fb=0 len=15:  . . . .       
+  @word542 mapped=12 fb=0 len=17:  . . . . .       
+  @word573 mapped=13 fb=0 len=18: # . . . . .       
+  @word608 mapped=11 fb=0 len=15:  . . . .       
+  @word640 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word706 mapped=10 fb=0 len=13:  . . .       
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=13 fb=0 len=18:  . . . .       .  
+  @word798 mapped=12 fb=0 len=17:  . . . . .       
+  @word830 mapped=12 fb=0 len=17:  . . . . .       
+  @word862 mapped=12 fb=0 len=17:  . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word960 mapped=11 fb=0 len=15:  . . . .       
+  @word990 mapped=12 fb=0 len=17:  . . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1056 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1086 mapped=12 fb=0 len=17:  . . . . .       
+  @word1117 mapped=13 fb=0 len=18: # . . . . .       
+  @word1149 mapped=13 fb=0 len=18: # . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1278 mapped=12 fb=0 len=17:  . . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1344 mapped=22 fb=0 len=28:  . . . .       .       .    
+=== R694 flen=51200 big_runs=75 total_mapped=3671
+  @word0 mapped=33 fb=0 len=42:   . . bu bu . . # . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word661 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word1898 mapped=11 fb=0 len=21: #.e.yu. .bu. .#.wa.~. .bu
+  @word3704 mapped=13 fb=0 len=14: be#be#########.#
+  @word4040 mapped=176 fb=0 len=176:                                                                                                                         
+  @word7256 mapped=14 fb=0 len=16: #[#.#.##########
+  @word11385 mapped=11 fb=0 len=16: #.#.#.#.#.##be# ki
+  @word13946 mapped=10 fb=0 len=14: #.#.###.bupe#.##
+  @word13964 mapped=17 fb=0 len=25: #.#.pe###.#.##.#.#~.##.bo#pa
+  @word13994 mapped=12 fb=0 len=14: #.#####.##ya#pa#
+  @word15480 mapped=13 fb=0 len=14: be#be#########.#
+  @word15816 mapped=176 fb=0 len=176:                                                                                                                         
+  @word19065 mapped=21 fb=0 len=25:  .     #  ~.       .   . 
+  @word19109 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word19133 mapped=9 fb=0 len=11:    .   .   
+  @word19149 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word19173 mapped=8 fb=0 len=12:    . . / .   chi
+  @word19189 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word19229 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word19253 mapped=9 fb=0 len=11:    .   .   
+  @word19269 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word19293 mapped=8 fb=0 len=12:    . . / .   chi
+  @word19309 mapped=8 fb=0 len=11:      /  /  / bube  
+=== R695 flen=479232 big_runs=1522 total_mapped=30286
+  @word0 mapped=8 fb=0 len=10:   .bu.   bu 
+  @word13 mapped=284 fb=0 len=362: bu  # . . #        . . . . .       .       .       . . . . .       .       .       . . . . .       .       .       . . .
+  @word388 mapped=9 fb=0 len=11:  . .       
+  @word406 mapped=69 fb=0 len=89:  .       . . . . .       .       .       . . . . .       .       .       . . . . .       
+  @word512 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word576 mapped=12 fb=0 len=17:  . . . .       . 
+  @word608 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word640 mapped=41 fb=0 len=55:  . . . .       . .     .       . . . . .       . .     
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word736 mapped=18 fb=0 len=23:  . . . .       .       
+  @word766 mapped=12 fb=0 len=17:  . . . . .       
+  @word800 mapped=17 fb=0 len=23:  . . . .       . .     
+  @word832 mapped=48 fb=0 len=62:  . . . .       .       .       . . . . .       . .     .#_bu.#_
+  @word896 mapped=16 fb=0 len=23:  . . . .       . .   . 
+  @word928 mapped=18 fb=0 len=23:  . . . .       .       
+  @word958 mapped=12 fb=0 len=17:  . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1184 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1215 mapped=43 fb=0 len=56: # . . . .       .       .       . . . . .       . .     
+  @word1278 mapped=14 fb=0 len=19: bu. . . . .       . 
+  @word1312 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1376 mapped=16 fb=0 len=23:  . . . .       . .   . 
+  @word1408 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1458 mapped=10 fb=0 len=12:      .    .#
+  @word1472 mapped=11 fb=0 len=15:  . . . .       
+  @word1504 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1554 mapped=9 fb=0 len=12:      .#. / .bu.
+  @word1568 mapped=17 fb=0 len=23:  . . . .       . .     
+  @word1600 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1664 mapped=12 fb=0 len=17:  . . . .       . 
+  @word1696 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1728 mapped=41 fb=0 len=55:  . . . .       . .     .       . . . . .       . .     
+  @word1792 mapped=11 fb=0 len=15:  . . . .       
+  @word1824 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1874 mapped=18 fb=0 len=21:      . /  bu####  .     
+  @word1939 mapped=302 fb=0 len=401:  . .bu.bubu       ~ . .bu.bubu       . . .bu.bubu       l . .bu.bu#       . . .bu.bubu       . . .bu.bubu       . . .bu.
+=== R697 flen=706560 big_runs=2516 total_mapped=39151
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=28 fb=0 len=37: #  . . . #        . . . . .       .  
+  @word52 mapped=28 fb=0 len=35:    .       . . . . .       .       
+  @word96 mapped=13 fb=0 len=18:  . . . .       .  
+  @word116 mapped=23 fb=0 len=30:    .       . . . . .       .  
+  @word160 mapped=13 fb=0 len=18:  . . . .       .  
+  @word180 mapped=23 fb=0 len=30:    .       . . . . .       .  
+  @word212 mapped=22 fb=0 len=30:    .   .  .# . . . .       .  
+  @word256 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word286 mapped=21 fb=0 len=28:  . . . . .       .       .  
+  @word316 mapped=16 fb=0 len=22:    . . . . .       .  
+  @word352 mapped=18 fb=0 len=23:  . . . .       .       
+  @word382 mapped=39 fb=0 len=52:  . . . . .       .       .       . . . . .       .  
+  @word436 mapped=28 fb=0 len=35:    .       . . . . .       .       
+  @word480 mapped=18 fb=0 len=23:  . . . .       .       
+  @word512 mapped=43 fb=0 len=55:  . . . .       .       .       . . . . .       .       
+  @word576 mapped=68 fb=0 len=87:  . . . .       .       .       . . . . .       .       .       . . . . .       .       
+  @word671 mapped=19 fb=0 len=24: # . . . .       .       
+  @word703 mapped=39 fb=0 len=51: # . . . .       .       .       . . . . .       .  
+  @word768 mapped=112 fb=0 len=146:  . . . .       .       .       . . . . .       .       .       . . . . .       .       .       . . . . .       .       .
+  @word928 mapped=66 fb=0 len=87:  . . . .       .       .   .  .# . . . .       .       .   .  .# . . . .       .       
+  @word1023 mapped=21 fb=0 len=27: # . . . .       .       .  
+  @word1056 mapped=11 fb=0 len=15:  . . . .       
+  @word1086 mapped=37 fb=0 len=49: #. . . . .       .       .       . . . . .       
+  @word1152 mapped=11 fb=0 len=15:  . . . .       
+  @word1184 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1246 mapped=12 fb=0 len=17:  . . . . .       
+  @word1266 mapped=9 fb=0 len=10:      .    
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1376 mapped=11 fb=0 len=15:  . . . .       
+  @word1407 mapped=12 fb=0 len=16: # . . . .       
+  @word1430 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word1472 mapped=11 fb=0 len=15:  . . . .       
+  @word1504 mapped=15 fb=0 len=20:  . . . .       .    
+  @word1536 mapped=11 fb=0 len=15:  . . . .       
+  @word1566 mapped=12 fb=0 len=17:  . . . . .       
+  @word1600 mapped=11 fb=0 len=15:  . . . .       
+  @word1632 mapped=15 fb=0 len=20:  . . . .       .    
+=== R698 flen=124928 big_runs=60 total_mapped=2143
+  @word0 mapped=34 fb=0 len=42:   .bu. bu bu g .bu# . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=8 fb=0 len=12:    . . / .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word605 mapped=8 fb=0 len=12:    . . / .   chi
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word805 mapped=8 fb=0 len=12:    . . / .   chi
+  @word821 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word7160 mapped=22 fb=0 len=29: #.bu. . .      bu bu   . bu  . .#
+  @word7287 mapped=24 fb=0 len=30: bu.# . . .                 . . 
+  @word7409 mapped=37 fb=0 len=46:  . .   ta re . .                    . ko . . . . 
+  @word7537 mapped=40 fb=0 len=46:  . .   ho ya [ .                      m a . . . 
+  @word7664 mapped=42 fb=0 len=48: hi mi i . . . .                        . .        
+  @word7792 mapped=43 fb=0 len=48: ya yu ri . . . .                          .        
+  @word7921 mapped=27 fb=0 len=32:  . . . . . fu mu                 m
+  @word7959 mapped=8 fb=0 len=10: #.bu #.# ##
+  @word8049 mapped=40 fb=0 len=48:  . . . . . . #       .         mv.#~#####s# ya ya#
+  @word8177 mapped=20 fb=0 len=31: [. . . . . . .  yu . #.  . . ze ru
+  @word8305 mapped=12 fb=0 len=20: s. . . . . . .  # .#
+=== R699 flen=1058816 big_runs=3228 total_mapped=39127
+  @word0 mapped=8 fb=0 len=10:   .bu.   bu 
+  @word13 mapped=58 fb=0 len=74: bu  . . . #        . . . . .       .       .       . . . . .       .       
+  @word94 mapped=12 fb=0 len=17:  . . . . .       
+  @word118 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word150 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word181 mapped=20 fb=0 len=26: # .       . . . . .       
+  @word214 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word244 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word278 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word310 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word342 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word373 mapped=20 fb=0 len=26: # .       . . . . .       
+  @word406 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word438 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word470 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word502 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word534 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word566 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word598 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word630 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word662 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word736 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word834 mapped=21 fb=0 len=26:  . . .       .       .    
+  @word866 mapped=10 fb=0 len=13:  . . .       
+  @word882 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word928 mapped=11 fb=0 len=15:  . . . .       
+  @word960 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1056 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1106 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1142 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word1174 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1246 mapped=24 fb=0 len=30: ## . . . .       .       .    
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1298 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1376 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+=== R701 flen=958464 big_runs=2371 total_mapped=28593
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=8 fb=0 len=11: #  . . . # 
+  @word26 mapped=16 fb=0 len=21:      . . . . .       
+  @word50 mapped=55 fb=0 len=69:      .       . . . . .       .       .       . . . . .       .       
+  @word128 mapped=11 fb=0 len=15:  . . . .       
+  @word160 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word256 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word318 mapped=12 fb=0 len=17:  . . . . .       
+  @word352 mapped=11 fb=0 len=15:  . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word414 mapped=12 fb=0 len=17:  . . . . .       
+  @word448 mapped=11 fb=0 len=15:  . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word498 mapped=9 fb=0 len=10:      .    
+  @word510 mapped=12 fb=0 len=17:  . . . . .       
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word576 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word669 mapped=13 fb=0 len=18: # . . . . .       
+  @word692 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word830 mapped=12 fb=0 len=17:  . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word896 mapped=15 fb=0 len=20:  . . . .       .    
+  @word926 mapped=12 fb=0 len=17:  . . . . .       
+  @word960 mapped=11 fb=0 len=15:  . . . .       
+  @word992 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1056 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1086 mapped=12 fb=0 len=17:  . . . . .       
+  @word1120 mapped=11 fb=0 len=15:  . . . .       
+  @word1152 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1202 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1279 mapped=37 fb=0 len=48: # . . . .       .       .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+=== R703 flen=571392 big_runs=1588 total_mapped=21749
+  @word0 mapped=8 fb=0 len=10:   .bu.   bu 
+  @word13 mapped=32 fb=0 len=42: bu  . . . .        . . . . .       .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word352 mapped=11 fb=0 len=15:  . . . .       
+  @word382 mapped=12 fb=0 len=17:  . . . . .       
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word448 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word510 mapped=12 fb=0 len=17:  . . . . .       
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word576 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word608 mapped=11 fb=0 len=15:  . . . .       
+  @word638 mapped=12 fb=0 len=17:  . . . . .       
+  @word670 mapped=12 fb=0 len=17: #. . . . .       
+  @word704 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=20 fb=0 len=26:  . . . .       .       .  
+  @word828 mapped=14 fb=0 len=19:    . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word896 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word926 mapped=12 fb=0 len=17:  . . . . .       
+  @word958 mapped=12 fb=0 len=17: #. . . . .       
+  @word992 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1152 mapped=11 fb=0 len=15:  . . . .       
+  @word1170 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1248 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1298 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+=== R704 flen=169984 big_runs=100 total_mapped=1467
+  @word0 mapped=33 fb=0 len=42:   .#. bu bu . .## . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=9 fb=0 len=11:    .   .   
+  @word101 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word125 mapped=8 fb=0 len=12:    . . / .    
+  @word141 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word165 mapped=8 fb=0 len=12:    . . / .    
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=10 fb=0 len=12:    .   .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=9 fb=0 len=11:    .   .   
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=9 fb=0 len=11:    .   .   
+  @word381 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word405 mapped=8 fb=0 len=12:    . . / .    
+  @word421 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word445 mapped=8 fb=0 len=12:    . . / .    
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=10 fb=0 len=12:    .   .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=9 fb=0 len=11:    .   .   
+  @word581 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word609 mapped=9 fb=0 len=14: be    . /  /  / .be   
+  @word679 mapped=9 fb=0 len=14: be    . /  /  / .be   
+  @word5031 mapped=14 fb=0 len=16: #.bu#be#pabuyobu#bu#bu.bu
+  @word5131 mapped=22 fb=0 len=28: #.#.#.#.#.#.##############ya#
+  @word11219 mapped=11 fb=0 len=20: #.#.##.#.pa.pi.bu.#.#.#
+  @word16425 mapped=8 fb=0 len=15: #.#.be.be.pu.pa.be. 
+  @word16681 mapped=10 fb=0 len=18: #.#.be.be.pa.pa.be.bebu.yu
+  @word16937 mapped=10 fb=0 len=18: pa.pa.be.be.#.#.be.bebe.be
+  @word17193 mapped=16 fb=0 len=30: pu.be.be.be.#.be.be.bebe.be.be. .be.be.be.be
+  @word17449 mapped=19 fb=0 len=30: #.#.be.be.#.po.pa.pabebebebebebebe.be.be.be.be
+  @word17707 mapped=21 fb=0 len=28: #.#.pa.#.#.u.pubebebebebebebebebebebe#be.be
+=== R705 flen=557056 big_runs=1570 total_mapped=20836
+  @word0 mapped=8 fb=0 len=10:   .bu.   bu 
+  @word13 mapped=32 fb=0 len=42: bu  . . . .        . . . . .       .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word352 mapped=11 fb=0 len=15:  . . . .       
+  @word382 mapped=12 fb=0 len=17:  . . . . .       
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word448 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word510 mapped=12 fb=0 len=17:  . . . . .       
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word576 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word608 mapped=11 fb=0 len=15:  . . . .       
+  @word638 mapped=12 fb=0 len=17:  . . . . .       
+  @word670 mapped=12 fb=0 len=17: #. . . . .       
+  @word704 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=20 fb=0 len=26:  . . . .       .       .  
+  @word828 mapped=14 fb=0 len=19:    . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word896 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word926 mapped=12 fb=0 len=17:  . . . . .       
+  @word958 mapped=12 fb=0 len=17: #. . . . .       
+  @word992 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1152 mapped=11 fb=0 len=15:  . . . .       
+  @word1170 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1248 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1298 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+=== R706 flen=169984 big_runs=124 total_mapped=1790
+  @word0 mapped=33 fb=0 len=42:   .#. bu bu . .## . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=9 fb=0 len=11:    .   .   
+  @word101 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word125 mapped=8 fb=0 len=12:    . . / .    
+  @word141 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word165 mapped=8 fb=0 len=12:    . . / .    
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=10 fb=0 len=12:    .   .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=9 fb=0 len=11:    .   .   
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=9 fb=0 len=11:    .   .   
+  @word381 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word405 mapped=8 fb=0 len=12:    . . / .    
+  @word421 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word445 mapped=8 fb=0 len=12:    . . / .    
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=10 fb=0 len=12:    .   .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=9 fb=0 len=11:    .   .   
+  @word581 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word609 mapped=9 fb=0 len=14: be    . /  /  / .be   
+  @word679 mapped=9 fb=0 len=14: be    . /  /  / .be   
+  @word5029 mapped=14 fb=0 len=18: #.##bu#.#.bupobubu # .bu
+  @word5113 mapped=8 fb=0 len=14: #.#.#.#.#.#.##
+  @word5129 mapped=23 fb=0 len=30: #.#.#.#.#.pu.pi.#pa#pa##########pa#
+  @word11219 mapped=11 fb=0 len=20: #.#.##.#.pa.pi.bu.#.#.#
+  @word16939 mapped=10 fb=0 len=16:  . # .#. . .  . 
+  @word17195 mapped=16 fb=0 len=28:  . # . . . .  . . .#. . . . 
+  @word17461 mapped=14 fb=0 len=18:  .        # . . . 
+  @word17481 mapped=12 fb=0 len=16: #.#.#.#.########
+  @word17720 mapped=13 fb=0 len=15:            . . 
+=== R707 flen=618496 big_runs=1632 total_mapped=21904
+  @word0 mapped=8 fb=0 len=10:   .bu.   bu 
+  @word13 mapped=32 fb=0 len=42: bu  . . . .        . . . . .       .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word352 mapped=11 fb=0 len=15:  . . . .       
+  @word382 mapped=12 fb=0 len=17:  . . . . .       
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word448 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word510 mapped=12 fb=0 len=17:  . . . . .       
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word576 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word608 mapped=11 fb=0 len=15:  . . . .       
+  @word638 mapped=12 fb=0 len=17:  . . . . .       
+  @word670 mapped=12 fb=0 len=17: #. . . . .       
+  @word704 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=20 fb=0 len=26:  . . . .       .       .  
+  @word828 mapped=14 fb=0 len=19:    . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word896 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word926 mapped=12 fb=0 len=17:  . . . . .       
+  @word958 mapped=12 fb=0 len=17: #. . . . .       
+  @word992 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1152 mapped=11 fb=0 len=15:  . . . .       
+  @word1170 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1248 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1298 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+=== R708 flen=172032 big_runs=121 total_mapped=2400
+  @word0 mapped=33 fb=0 len=42:   .#. bu bu . .## . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=9 fb=0 len=11:    .   .   
+  @word101 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word125 mapped=8 fb=0 len=12:    . . / .    
+  @word141 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word165 mapped=8 fb=0 len=12:    . . / .    
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=10 fb=0 len=12:    .   .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=9 fb=0 len=11:    .   .   
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=9 fb=0 len=11:    .   .   
+  @word381 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word405 mapped=8 fb=0 len=12:    . . / .    
+  @word421 mapped=19 fb=0 len=21:    #  ~.       .   chi 
+  @word445 mapped=8 fb=0 len=12:    . . / .    
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=10 fb=0 len=12:    .   .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=9 fb=0 len=11:    .   .   
+  @word581 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word609 mapped=9 fb=0 len=14: be    . /  /  / .be   
+  @word679 mapped=9 fb=0 len=14: be    . /  /  / .be   
+  @word5037 mapped=15 fb=0 len=18: #.##bu#bububobu.bubu # .bu
+  @word5121 mapped=8 fb=0 len=14: #.#.#.#.#.##.#
+  @word5137 mapped=22 fb=0 len=30: #.#.#.#.#.pu.pi.pe#############.#
+  @word11648 mapped=220 fb=0 len=316:                                                                                                                         
+  @word16433 mapped=9 fb=0 len=15: bu.bu. . . . . #bu
+  @word16689 mapped=11 fb=0 len=18: bu.bu. . . . . #  .~
+  @word16945 mapped=11 fb=0 len=18:  . . # .bu. . .  . 
+  @word17203 mapped=16 fb=0 len=28:  . # .bu.bu. .  . . .#. . . . 
+  @word17469 mapped=14 fb=0 len=18:  .        bu . . . 
+=== R709 flen=1521664 big_runs=2796 total_mapped=30203
+  @word14 mapped=25 fb=0 len=33:   . . . #        . . . . .       
+  @word54 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word86 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word116 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word150 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word182 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word214 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word256 mapped=11 fb=0 len=15:  . . . .       
+  @word288 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       .#.     
+  @word350 mapped=12 fb=0 len=17:  . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word404 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word444 mapped=14 fb=0 len=19:    . . . . .       
+  @word480 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word576 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word670 mapped=14 fb=0 len=20: yo. . . . .       .  
+  @word692 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word732 mapped=14 fb=0 len=19:    . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word786 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word830 mapped=12 fb=0 len=17:  . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word926 mapped=12 fb=0 len=17:  . . . . .       
+  @word960 mapped=11 fb=0 len=15:  . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1022 mapped=12 fb=0 len=17:  . . . . .       
+  @word1055 mapped=12 fb=0 len=16: # . . . .       
+  @word1088 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1110 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word1150 mapped=12 fb=0 len=17:  . . . . .       
+  @word1184 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1246 mapped=12 fb=0 len=17:  . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1342 mapped=12 fb=0 len=17:  . . . . .       
+  @word1375 mapped=12 fb=0 len=16: # . . . .       
+=== R711 flen=847872 big_runs=1758 total_mapped=23628
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=27 fb=0 len=37: #  . . . .        . . . . .       .  
+  @word54 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word96 mapped=11 fb=0 len=15:  . . . .       
+  @word128 mapped=13 fb=0 len=18:  . . . .       .  
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=11 fb=0 len=15:  . . . .       
+  @word224 mapped=13 fb=0 len=18:  . . . .       .  
+  @word256 mapped=13 fb=0 len=18:  . . . .       .  
+  @word286 mapped=14 fb=0 len=20:  . . . . .       .  
+  @word320 mapped=11 fb=0 len=15:  . . . .       
+  @word352 mapped=11 fb=0 len=15:  . . . .       
+  @word384 mapped=13 fb=0 len=18:  . . . .       .  
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word448 mapped=11 fb=0 len=15:  . . . .       
+  @word474 mapped=16 fb=0 len=21:      . . . . .       
+  @word512 mapped=11 fb=0 len=15:  . . . .       
+  @word542 mapped=14 fb=0 len=20:  . . . . .       .  
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=11 fb=0 len=15:  . . . .       
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word774 mapped=8 fb=0 len=9:  .       
+  @word806 mapped=8 fb=0 len=9:  .       
+  @word838 mapped=8 fb=0 len=9:  .       
+  @word866 mapped=10 fb=0 len=13:  . . .       
+  @word886 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word928 mapped=11 fb=0 len=15:  . . . .       
+  @word950 mapped=8 fb=0 len=9:  .       
+  @word962 mapped=12 fb=0 len=16:  . . .       .  
+  @word982 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word1014 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word1056 mapped=11 fb=0 len=15:  . . . .       
+  @word1088 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1152 mapped=11 fb=0 len=15:  . . . .       
+  @word1184 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1234 mapped=23 fb=0 len=29:      .       . . . . .       
+=== R713 flen=1452032 big_runs=3665 total_mapped=50510
+  @word14 mapped=75 fb=0 len=97:   . . . #        . . . . .       .       .       . . . . .       .       .       . . . . .       
+  @word118 mapped=73 fb=0 len=94:  .       . . . . .       .       .       . . . . .       .       .       . . . . .       .    
+  @word214 mapped=44 fb=0 len=57:  .       . . . . .       .       .       . . . . .       
+  @word278 mapped=98 fb=0 len=126:  .       . . . . .       .       .       . . . . .       .       .       . . . . .       .       .       . . . . .      
+  @word406 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word438 mapped=46 fb=0 len=60:  .       . . . . .       .       .       . . . . .       .  
+  @word502 mapped=128 fb=0 len=164:  .       . . . . .       .       .       . . . . .       .       .       . . . . .       .       .       . . . . .      
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word820 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word896 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word960 mapped=11 fb=0 len=15:  . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1012 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1056 mapped=11 fb=0 len=15:  . . . .       
+  @word1088 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1108 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1152 mapped=11 fb=0 len=15:  . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1204 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1300 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1376 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1396 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1440 mapped=11 fb=0 len=15:  . . . .       
+  @word1472 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1492 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1536 mapped=11 fb=0 len=15:  . . . .       
+  @word1568 mapped=11 fb=0 len=15:  . . . .       
+  @word1588 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1632 mapped=11 fb=0 len=15:  . . . .       
+  @word1664 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1696 mapped=11 fb=0 len=15:  . . . .       
+  @word1714 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1760 mapped=11 fb=0 len=15:  . . . .       
+=== R714 flen=124928 big_runs=58 total_mapped=1183
+  @word0 mapped=33 fb=0 len=42:   .bu. bu bu . .bu# . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=8 fb=0 len=12:    . . / .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=12:    . . / .   chi
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word605 mapped=8 fb=0 len=12:    . . / .   chi
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word645 mapped=8 fb=0 len=12:    . . / .   chi
+  @word661 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word16225 mapped=8 fb=0 len=15: #.#.#.#.#.#.#.#
+  @word16473 mapped=19 fb=0 len=31: #.#.#.#.#.#####.#.#.#.#.#.#.###
+  @word16601 mapped=8 fb=0 len=14: #.#.#.#.#.##.#
+  @word16617 mapped=9 fb=0 len=15: #.#.#.#.#.#.###
+  @word16737 mapped=8 fb=0 len=15: #.#.#.#.#.#.#.#
+  @word16865 mapped=8 fb=0 len=15: #.pa.#.#.#.#.#.#
+  @word16985 mapped=8 fb=0 len=14: #.#.yu.#.#.##.#
+  @word17001 mapped=9 fb=0 len=15: #.#.#.#.#.#.###
+  @word17241 mapped=18 fb=0 len=31: be.bu.be##.be.be.be.be.bo.be.be.be##.be.be.be
+=== R716 flen=100352 big_runs=85 total_mapped=3710
+  @word0 mapped=33 fb=0 len=42:   .bu. bu bu . .bu# . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=11:    . . .   
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=8 fb=0 len=12:    . . / .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=11:    . . .   
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word605 mapped=8 fb=0 len=12:    . . / .   chi
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word685 mapped=8 fb=0 len=12:    . . / .   chi
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word765 mapped=8 fb=0 len=12:    . . / .   chi
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word821 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word1304 mapped=9 fb=0 len=15: ###.#.pe.#.#.#.po
+  @word6297 mapped=15 fb=0 len=15:                
+  @word6360 mapped=22 fb=0 len=22:                   ####
+  @word11643 mapped=8 fb=0 len=14:  . . . . . . #
+  @word11769 mapped=9 fb=0 len=15:  . . . # . . . 
+  @word11897 mapped=11 fb=0 len=16:  .   . pe . . . bu
+  @word12024 mapped=25 fb=0 len=28:                  .   . .    
+=== R717 flen=1519616 big_runs=3418 total_mapped=43769
+  @word14 mapped=25 fb=0 len=33:   . . . #        . . . . .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=13 fb=0 len=18:  . . . .       .  
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=15 fb=0 len=20:  . . . .       .    
+  @word348 mapped=14 fb=0 len=19:    . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=15 fb=0 len=20:  . . . .       .    
+  @word438 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=11 fb=0 len=15:  . . . .       
+  @word538 mapped=16 fb=0 len=21:      . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=13 fb=0 len=18:  . . . .       .  
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word666 mapped=16 fb=0 len=21:      . . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word735 mapped=12 fb=0 len=16: # . . . .       
+  @word758 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word799 mapped=12 fb=0 len=16: # . . . .       
+  @word832 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=13 fb=0 len=18:  . . . .       .  
+  @word948 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1150 mapped=12 fb=0 len=17:  . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1246 mapped=12 fb=0 len=17:  . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1342 mapped=12 fb=0 len=17:  . . . . .       
+=== R718 flen=133120 big_runs=92 total_mapped=3741
+  @word0 mapped=33 fb=0 len=42:   .bu. bu bu . .bu# . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=12:    . . / .   chi
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word765 mapped=8 fb=0 len=12:    . . / .   chi
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word821 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word845 mapped=8 fb=0 len=12:    . . / .   chi
+  @word861 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word901 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word941 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word965 mapped=8 fb=0 len=12:    . . / .   chi
+  @word981 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word2152 mapped=9 fb=0 len=15:  . . #.ka . . . 
+  @word2200 mapped=26 fb=0 len=31:                  . .     . . . 
+  @word2264 mapped=33 fb=0 len=33:                                  
+  @word2313 mapped=46 fb=0 len=56:  . . . . . . #                                  . . . .#
+  @word2377 mapped=323 fb=0 len=334:  . . . . . .                                                                                                            
+  @word2713 mapped=8 fb=0 len=14: q.n.l.v..t.r.m
+  @word3304 mapped=15 fb=0 len=21:       . . . . .  . # 
+=== R721 flen=2117632 big_runs=4077 total_mapped=51274
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=28 fb=0 len=37: #  . . . #        . . . . .       .  
+  @word52 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word84 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word118 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word150 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word182 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word214 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word246 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word278 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word310 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word342 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word374 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word406 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word438 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word470 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word502 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word534 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word566 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word598 mapped=48 fb=0 len=62:  .       . . . . .       .       .       . . . . .       .    
+  @word662 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word694 mapped=69 fb=0 len=89:  .       . . . . .       .       .       . . . . .       .       .       . . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word830 mapped=37 fb=0 len=49: #. . . . .       .       .       . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=13 fb=0 len=18:  . . . .       .  
+  @word948 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1044 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1142 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1238 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1332 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1376 mapped=11 fb=0 len=15:  . . . .       
+=== R723 flen=1564672 big_runs=3458 total_mapped=59318
+  @word14 mapped=33 fb=0 len=44:   . . . .        . . . . .       .       .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=44 fb=0 len=58:  . . . .       .       .       . . . . .       . .     .  
+  @word156 mapped=20 fb=0 len=27:    . . . . .       . .     
+  @word192 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word255 mapped=12 fb=0 len=16: # . . . .       
+  @word288 mapped=18 fb=0 len=23:  . . . .       .       
+  @word318 mapped=12 fb=0 len=17:  . . . . .       
+  @word351 mapped=14 fb=0 len=19: # . . . .       .  
+  @word384 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word447 mapped=14 fb=0 len=19: # . . . .       .  
+  @word480 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word576 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word639 mapped=12 fb=0 len=16: # . . . .       
+  @word672 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word831 mapped=13 fb=0 len=18: # . . . .       . 
+  @word864 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word928 mapped=11 fb=0 len=15:  . . . .       
+  @word960 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1056 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1120 mapped=11 fb=0 len=15:  . . . .       
+  @word1152 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1216 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1248 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1344 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1407 mapped=13 fb=0 len=18: # . . . .       . 
+  @word1440 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1472 mapped=11 fb=0 len=15:  . . . .       
+  @word1504 mapped=11 fb=0 len=15:  . . . .       
+  @word1536 mapped=11 fb=0 len=15:  . . . .       
+  @word1568 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1600 mapped=11 fb=0 len=15:  . . . .       
+  @word1632 mapped=11 fb=0 len=15:  . . . .       
+  @word1664 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1727 mapped=12 fb=0 len=16: # . . . .       
+=== R724 flen=120832 big_runs=78 total_mapped=1447
+  @word0 mapped=34 fb=0 len=42:   .bu. bu bu . sabu# . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word5413 mapped=9 fb=0 len=16: #.#.#.#.#.##.#.#
+  @word5537 mapped=10 fb=0 len=18: #.#.#.#.#.#.#.##.#
+  @word5665 mapped=11 fb=0 len=15: #######.#.#.#.#
+  @word6609 mapped=13 fb=0 len=15: bu#bu# . #.# # # 
+  @word12929 mapped=9 fb=0 len=11: #######.#.#
+  @word15147 mapped=10 fb=0 len=18: #.#.##.#.#.#.#.#.#
+  @word15273 mapped=12 fb=0 len=22: #.#.#.##.#.#.#.#.#.#.#
+  @word15535 mapped=10 fb=0 len=16: ##.#.#.#.###.#.#
+  @word16229 mapped=13 fb=0 len=24: #.#.#.#.#.##.#.#.#.#.#.#
+  @word16305 mapped=8 fb=0 len=14: ##.#.#.#.#.#.#
+  @word16359 mapped=9 fb=0 len=16: #.#.#.#.##.#.#.#
+  @word16685 mapped=10 fb=0 len=16: #.##.##.#.#.#pe.#
+  @word16871 mapped=10 fb=0 len=12: #.]#poo#~#.##
+  @word17456 mapped=15 fb=0 len=16: pi pa pa . # # # # 
+  @word17520 mapped=14 fb=0 len=16: # # pa . . # # # 
+  @word17584 mapped=14 fb=0 len=16: pu . pi . # # bo # 
+  @word17648 mapped=17 fb=0 len=20: # pi . . # # bo be ##.#
+=== R725 flen=931840 big_runs=2042 total_mapped=25679
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=27 fb=0 len=37: #  . . . .        . . . . .       .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=23 fb=0 len=30:  . . . .       .       .    .#
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=11 fb=0 len=15:  . . . .       
+  @word338 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word466 mapped=9 fb=0 len=10:      .    
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=20 fb=0 len=26:  . . . .       .       .  
+  @word636 mapped=14 fb=0 len=19:    . . . . .       
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=13 fb=0 len=18:  . . . .       .  
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word766 mapped=12 fb=0 len=17:  . . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word831 mapped=37 fb=0 len=48: # . . . .       .       .       . . . . .       
+  @word882 mapped=9 fb=0 len=10:      .    
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word978 mapped=9 fb=0 len=10:      .    
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1266 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1344 mapped=15 fb=0 len=20:  . . . .       .    
+  @word1374 mapped=12 fb=0 len=17:  . . . . .       
+=== R727 flen=970752 big_runs=2623 total_mapped=34923
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=26 fb=0 len=34: #  . . . #        . . . . .       
+  @word54 mapped=128 fb=0 len=164:  .       . . . . .       .       .       . . . . .       .       .       . . . . .       .       .       . . . . .      
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word256 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word320 mapped=12 fb=0 len=17:  . . . .       . 
+  @word352 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word402 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word448 mapped=11 fb=0 len=15:  . . . .       
+  @word480 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word544 mapped=17 fb=0 len=23:  . . . .       . .     
+  @word576 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word672 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word832 mapped=13 fb=0 len=18:  . . . .       .  
+  @word864 mapped=13 fb=0 len=18:  . . . .       .  
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word924 mapped=14 fb=0 len=19:    . . . . .       
+  @word960 mapped=11 fb=0 len=15:  . . . .       
+  @word992 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1022 mapped=12 fb=0 len=17:  . . . . .       
+  @word1056 mapped=11 fb=0 len=15:  . . . .       
+  @word1088 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1108 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1152 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1184 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1280 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1376 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1440 mapped=11 fb=0 len=15:  . . . .       
+  @word1472 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1536 mapped=11 fb=0 len=15:  . . . .       
+  @word1568 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1598 mapped=12 fb=0 len=17:  . . . . .       
+  @word1632 mapped=11 fb=0 len=15:  . . . .       
+  @word1664 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+=== R729 flen=2658304 big_runs=4609 total_mapped=68213
+  @word14 mapped=27 fb=0 len=36:   . . . #        . . . . .       .  
+  @word52 mapped=35 fb=0 len=43:    .       . . . . .       .       .       
+  @word102 mapped=12 fb=0 len=14:  .       .    
+  @word118 mapped=21 fb=0 len=28:  .       . . . . .       .  
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word256 mapped=11 fb=0 len=15:  . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word306 mapped=9 fb=0 len=10:      .    
+  @word320 mapped=11 fb=0 len=15:  . . . .       
+  @word350 mapped=12 fb=0 len=17:  . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word446 mapped=12 fb=0 len=17:  . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=11 fb=0 len=15:  . . . .       
+  @word542 mapped=12 fb=0 len=17:  . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=11 fb=0 len=15:  . . . .       
+  @word638 mapped=13 fb=0 len=19:  . . . . .       .bu
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word710 mapped=33 fb=0 len=41:  .       .       .       . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word896 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word960 mapped=11 fb=0 len=15:  . . . .       
+  @word992 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1056 mapped=11 fb=0 len=15:  . . . .       
+  @word1088 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word1150 mapped=16 fb=0 len=22:  . . . . .       .    
+  @word1184 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1280 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1376 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1440 mapped=11 fb=0 len=15:  . . . .       
+  @word1474 mapped=41 fb=0 len=53:  . . .       .       .       . . . . .       . .     
+  @word1542 mapped=8 fb=0 len=9:  .       
+  @word1568 mapped=11 fb=0 len=15:  . . . .       
+=== R730 flen=149504 big_runs=117 total_mapped=1675
+  @word0 mapped=33 fb=0 len=42:   .#. bu bu . .## . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=8 fb=0 len=12:    . . / .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word805 mapped=8 fb=0 len=12:    . . / .   chi
+  @word821 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word845 mapped=8 fb=0 len=12:    . . / .   chi
+  @word861 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word885 mapped=8 fb=0 len=12:    . . / .   chi
+  @word901 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word925 mapped=8 fb=0 len=12:    . . / .   chi
+  @word941 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word965 mapped=8 fb=0 len=12:    . . / .   chi
+  @word981 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1005 mapped=8 fb=0 len=12:    . . / .   chi
+  @word1021 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word1061 mapped=18 fb=0 len=21:    #  ~.       .   . 
+=== R731 flen=1611776 big_runs=3513 total_mapped=43892
+  @word14 mapped=25 fb=0 len=33:   . . . #        . . . . .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=13 fb=0 len=18:  . . . .       .  
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word316 mapped=17 fb=0 len=24:  .#. . . . .       .    
+  @word348 mapped=14 fb=0 len=19:    . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=15 fb=0 len=20:  . . . .       .    
+  @word438 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=11 fb=0 len=15:  . . . .       
+  @word538 mapped=16 fb=0 len=21:      . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=13 fb=0 len=18:  . . . .       .  
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word666 mapped=16 fb=0 len=21:      . . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word734 mapped=12 fb=0 len=17: se. . . . .       
+  @word758 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word799 mapped=12 fb=0 len=16: # . . . .       
+  @word832 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=13 fb=0 len=18:  . . . .       .  
+  @word948 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1150 mapped=12 fb=0 len=17:  . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1246 mapped=12 fb=0 len=17:  . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1342 mapped=12 fb=0 len=17:  . . . . .       
+=== R732 flen=133120 big_runs=149 total_mapped=5169
+  @word0 mapped=33 fb=0 len=42:   .bu. bu bu . .bu# . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=12:    . . / .   chi
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word765 mapped=8 fb=0 len=12:    . . / .   chi
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word821 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word845 mapped=8 fb=0 len=12:    . . / .   chi
+  @word861 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word901 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word941 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word965 mapped=8 fb=0 len=12:    . . / .   chi
+  @word981 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word2200 mapped=26 fb=0 len=31:                  . .     . . . 
+  @word2264 mapped=33 fb=0 len=33:                                  
+  @word2313 mapped=45 fb=0 len=56:  . . . . . . .                                  . . . .#
+  @word2377 mapped=295 fb=0 len=301:  . . . . .                                                                                                              
+  @word3304 mapped=16 fb=0 len=23:  bu    . . . . .  . # .~
+  @word3357 mapped=24 fb=0 len=38:  . . . . .       . . . . bu  . . . . . 
+  @word3419 mapped=141 fb=0 len=145:  .     # . .                                                                                                            
+=== R733 flen=1617920 big_runs=3513 total_mapped=44318
+  @word14 mapped=25 fb=0 len=33:   . . . #        . . . . .       
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=13 fb=0 len=18:  . . . .       .  
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word254 mapped=12 fb=0 len=17:  . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=15 fb=0 len=20:  . . . .       .    
+  @word348 mapped=14 fb=0 len=19:    . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=15 fb=0 len=20:  . . . .       .    
+  @word438 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=11 fb=0 len=15:  . . . .       
+  @word538 mapped=16 fb=0 len=21:      . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=13 fb=0 len=18:  . . . .       .  
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word666 mapped=16 fb=0 len=21:      . . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word735 mapped=12 fb=0 len=16: # . . . .       
+  @word758 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word799 mapped=12 fb=0 len=16: # . . . .       
+  @word832 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=13 fb=0 len=18:  . . . .       .  
+  @word948 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1150 mapped=12 fb=0 len=17:  . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1246 mapped=12 fb=0 len=17:  . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1342 mapped=12 fb=0 len=17:  . . . . .       
+=== R734 flen=157696 big_runs=108 total_mapped=3909
+  @word0 mapped=33 fb=0 len=42:   .#. bu bu . .## . .     #  ~.       .   . 
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=12:    . . / .   chi
+  @word581 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word621 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word661 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word685 mapped=8 fb=0 len=12:    . . / .   chi
+  @word701 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word725 mapped=8 fb=0 len=12:    . . / .   chi
+  @word741 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word765 mapped=8 fb=0 len=12:    . . / .   chi
+  @word781 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word821 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word845 mapped=8 fb=0 len=12:    . . / .   chi
+  @word861 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word901 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word941 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word965 mapped=8 fb=0 len=12:    . . / .   chi
+  @word981 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word2200 mapped=26 fb=0 len=31:                  . .  bu  . . . 
+  @word2264 mapped=33 fb=0 len=33:                                  
+  @word2313 mapped=47 fb=0 len=57:  . . . . . . #                                  . . . . #
+=== R735 flen=1523712 big_runs=2143 total_mapped=27627
+  @word14 mapped=51 fb=0 len=67:   . . . #        . . . . .       .       .       . . . . .       .#
+  @word86 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word128 mapped=11 fb=0 len=15:  . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word222 mapped=12 fb=0 len=17:  . . . . .       
+  @word256 mapped=11 fb=0 len=15:  . . . .       
+  @word288 mapped=15 fb=0 len=20:  . . . .       .    
+  @word320 mapped=11 fb=0 len=15:  . . . .       
+  @word338 mapped=24 fb=0 len=31:      .       . . . . .       .~
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word436 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word510 mapped=37 fb=0 len=49: #. . . . .       .       .       . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=15 fb=0 len=20:  . . . .       .    
+  @word630 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=13 fb=0 len=18:  . . . .       .  
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word758 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word832 mapped=15 fb=0 len=20:  . . . .       .    
+  @word854 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=15 fb=0 len=20:  . . . .       .    
+  @word950 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=15 fb=0 len=20:  . . . .       .    
+  @word1046 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1246 mapped=12 fb=0 len=17:  . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1372 mapped=14 fb=0 len=19:    . . . . .       
+=== R737 flen=1314816 big_runs=2680 total_mapped=42166
+  @word14 mapped=8 fb=0 len=12:   . . . .   
+  @word28 mapped=23 fb=0 len=30:    . . . . .       .       .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word160 mapped=15 fb=0 len=23:  . . . .       . . . . 
+  @word190 mapped=47 fb=0 len=62: #. . . . .       .       .       . . . . .       . .     .    
+  @word256 mapped=13 fb=0 len=18:  . . . .       .  
+  @word288 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word320 mapped=11 fb=0 len=15:  . . . .       
+  @word338 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word384 mapped=17 fb=0 len=23:  . . . .       . .     
+  @word416 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=48 fb=0 len=62:  . . . .       .       .       . . . . .       . .     . _#_bu_
+  @word576 mapped=13 fb=0 len=19:  . . . .       . . 
+  @word608 mapped=18 fb=0 len=23:  . . . .       .       
+  @word638 mapped=12 fb=0 len=17:  . . . . .       
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=13 fb=0 len=18:  . . . .       .  
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word832 mapped=13 fb=0 len=18:  . . . .       .  
+  @word852 mapped=27 fb=0 len=35:    .       . . . . .       .#.     
+  @word896 mapped=13 fb=0 len=19:  . . . .       . . 
+  @word926 mapped=14 fb=0 len=20:  . . . . .       .  
+  @word948 mapped=22 fb=0 len=29:    .       . . . . .       . 
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=11 fb=0 len=15:  . . . .       
+  @word1148 mapped=14 fb=0 len=19:    . . . . .       
+  @word1184 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1216 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word1376 mapped=12 fb=0 len=17:  . . . .       . 
+  @word1414 mapped=33 fb=0 len=41:  .       .       .       . . . . .       
+  @word1472 mapped=12 fb=0 len=17:  . . . .       . 
+=== R738 flen=122880 big_runs=78 total_mapped=2172
+  @word0 mapped=34 fb=0 len=42:   .bu. bu bu . gibu# . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=8 fb=0 len=12:    . . / .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=12:    . . / .   chi
+  @word581 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word4337 mapped=12 fb=0 len=15: #.#.###.#######
+  @word13695 mapped=10 fb=0 len=17: #  .#.#.#.#.#.#.#
+  @word17393 mapped=8 fb=0 len=14: #.#.#.#.#.#.##
+  @word18033 mapped=10 fb=0 len=15: pa.pa.#.#.pe.#####
+  @word26913 mapped=11 fb=0 len=18: bu.bu.bu# .#.bu.bu.bu#.#
+  @word26976 mapped=15 fb=0 len=19: # # be bu . . . # bu.#
+  @word27009 mapped=9 fb=0 len=17: #.#.#.#.#.#.#.#.#
+  @word27672 mapped=12 fb=0 len=18: ##.#.~.##.#.##po#.#
+  @word27739 mapped=11 fb=0 len=17: i.#.##.#.#po_#.#.#
+  @word31616 mapped=11 fb=0 len=16:   ###chi.#.#.#.#.#
+  @word37051 mapped=8 fb=0 len=14: #.#.##.#.#.#.#
+=== R739 flen=2105344 big_runs=4960 total_mapped=67424
+  @word14 mapped=34 fb=0 len=44:   . . . #        . . . . .       .       .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word194 mapped=21 fb=0 len=26:  . . .       .       .    
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word258 mapped=10 fb=0 len=13:  . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=25 fb=0 len=31:  . . . .       .       .       
+  @word450 mapped=10 fb=0 len=13:  . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word514 mapped=10 fb=0 len=13:  . . .       
+  @word532 mapped=8 fb=0 len=10:    .    .#
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word578 mapped=10 fb=0 len=13:  . . .       
+  @word608 mapped=11 fb=0 len=15:  . . . .       
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word670 mapped=12 fb=0 len=17:  . . . . .       
+  @word704 mapped=11 fb=0 len=15:  . . . .       
+  @word736 mapped=13 fb=0 len=18:  . . . .       .  
+  @word770 mapped=10 fb=0 len=13:  . . .       
+  @word798 mapped=12 fb=0 len=17: #. . . . .       
+  @word832 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1088 mapped=11 fb=1 len=15:  . . . .       
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1374 mapped=12 fb=0 len=17: #. . . . .       
+  @word1408 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1472 mapped=11 fb=0 len=15:  . . . .       
+  @word1504 mapped=25 fb=0 len=31:  . . . .       .       .       
+  @word1538 mapped=10 fb=0 len=13:  . . .       
+=== R745 flen=1275904 big_runs=2624 total_mapped=40771
+  @word14 mapped=234 fb=0 len=300:   . . . #        . . . . .       .       .       . . . . .       .       .       . . . . .       .       .       . . . .
+  @word320 mapped=13 fb=0 len=18:  . . . .       .  
+  @word352 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word448 mapped=23 fb=0 len=30:  . . . .       .       .    .#
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word510 mapped=12 fb=0 len=17:  . . . . .       
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word576 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word606 mapped=12 fb=0 len=17:  . . . . .       
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word678 mapped=10 fb=0 len=12:  .       .  
+  @word692 mapped=24 fb=0 len=32:    .       . . . . .       . .  
+  @word736 mapped=17 fb=0 len=23:  . . . .       . .     
+  @word768 mapped=46 fb=0 len=60:  . . . .       .       .       . . . . .       . .     .    
+  @word832 mapped=13 fb=0 len=18:  . . . .       .  
+  @word864 mapped=44 fb=0 len=58:  . . . .       .       .       . . . . .       . .     .#.
+  @word928 mapped=12 fb=0 len=17:  . . . .       . 
+  @word960 mapped=13 fb=0 len=18:  . . . .       .  
+  @word990 mapped=12 fb=0 len=17:  . . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1056 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=11 fb=0 len=15:  . . . .       
+  @word1152 mapped=11 fb=0 len=15:  . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1212 mapped=14 fb=0 len=19:    . . . . .       
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1280 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1310 mapped=12 fb=0 len=17:  . . . . .       
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1382 mapped=19 fb=0 len=22:  .       .       .    
+  @word1406 mapped=12 fb=0 len=17:  . . . . .       
+  @word1426 mapped=9 fb=0 len=10:      .    
+  @word1440 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1472 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1536 mapped=11 fb=0 len=15:  . . . .       
+  @word1568 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1632 mapped=11 fb=0 len=15:  . . . .       
+  @word1664 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+=== R749 flen=1368064 big_runs=1881 total_mapped=29376
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=8 fb=0 len=11: #  . . . # 
+  @word30 mapped=21 fb=0 len=28:  . . . . .       .   chi chi .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word256 mapped=11 fb=0 len=15:  . . . .       
+  @word288 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word352 mapped=11 fb=0 len=15:  . . . .       
+  @word384 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word448 mapped=11 fb=0 len=15:  . . . .       
+  @word480 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word544 mapped=11 fb=0 len=15:  . . . .       
+  @word576 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word640 mapped=11 fb=0 len=15:  . . . .       
+  @word672 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word702 mapped=12 fb=0 len=17:  . . . . .       
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=18 fb=0 len=23:  . . . .       . chi   chi 
+  @word794 mapped=16 fb=0 len=21:      . . . . .       
+  @word832 mapped=11 fb=0 len=15:  . . . .       
+  @word864 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word928 mapped=11 fb=0 len=15:  . . . .       
+  @word958 mapped=37 fb=0 len=49: #. . . . .       .       .       . . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1056 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1120 mapped=11 fb=0 len=15:  . . . .       
+  @word1152 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1247 mapped=12 fb=0 len=16: # . . . .       
+  @word1280 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1330 mapped=9 fb=0 len=10:      .    
+  @word1344 mapped=11 fb=0 len=15:  . . . .       
+  @word1376 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1440 mapped=11 fb=0 len=15:  . . . .       
+  @word1472 mapped=20 fb=0 len=26:  . . . .       . chi     .  
+  @word1500 mapped=14 fb=0 len=19:    . . . . .       
+  @word1536 mapped=11 fb=0 len=15:  . . . .       
+=== R751 flen=1292288 big_runs=2478 total_mapped=39633
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word12 mapped=35 fb=0 len=46: me#  . . . .        . . . . .       .       .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word224 mapped=11 fb=0 len=15:  . . . .       
+  @word246 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word384 mapped=11 fb=0 len=15:  . . . .       
+  @word416 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=18 fb=0 len=23:  . . . .       .       
+  @word638 mapped=12 fb=0 len=17:  . . . . .       
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=20 fb=0 len=26:  . . . .       .       .  
+  @word732 mapped=14 fb=0 len=19:    . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word830 mapped=12 fb=0 len=17:  . . . . .       
+  @word864 mapped=11 fb=0 len=15:  . . . .       
+  @word894 mapped=23 fb=0 len=30: #. . . . .       .       .    
+  @word928 mapped=11 fb=0 len=15:  . . . .       
+  @word958 mapped=15 fb=0 len=22:  . . . . .       .#.  
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1376 mapped=11 fb=0 len=15:  . . . .       
+  @word1408 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1472 mapped=11 fb=0 len=15:  . . . .       
+  @word1504 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+=== R752 flen=96256 big_runs=59 total_mapped=1284
+  @word0 mapped=33 fb=0 len=42:   .bu. bu bu . .bu# . .     #  ~.       .   . 
+  @word45 mapped=9 fb=0 len=11:    .   .   
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=9 fb=0 len=11:    .   .   
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word530 mapped=11 fb=0 len=14: #   . .#bu   . 
+  @word603 mapped=10 fb=0 len=13:    .bu.#bu   .bu
+  @word793 mapped=8 fb=0 len=15: _.bu._.~. . . . 
+  @word825 mapped=8 fb=0 len=15: bu.~. .~. . . . 
+  @word859 mapped=8 fb=0 len=13:  .~_ .~. .~.~
+  @word893 mapped=22 fb=0 len=43:  .~. .~. .~. . . . . . . . . . . . . . . . 
+  @word5657 mapped=10 fb=0 len=14: #.##.#####.#.#
+  @word11271 mapped=13 fb=0 len=16: #be#bo#be#bo.be#be.be.#
+  @word11397 mapped=18 fb=0 len=19: #.#bobobobebobopo#pupupu#pa#pa#
+  @word12419 mapped=16 fb=0 len=20: #.#.~po#ya#ya#i~ya.ya#po.po
+  @word13720 mapped=16 fb=0 len=16:                 
+  @word13829 mapped=8 fb=0 len=9: mu.#hibushia~ 
+  @word13840 mapped=19 fb=0 len=24:  #~ya#kimu##  .bu.~w.shiya.gu.hi 
+  @word13979 mapped=10 fb=0 len=13: e#.#.ki##e#.his
+  @word15977 mapped=10 fb=0 len=12: #.#.###~####
+  @word29128 mapped=14 fb=0 len=16: #.#.############
+  @word29249 mapped=21 fb=0 len=24: #.#.#.##################
+  @word35753 mapped=17 fb=0 len=33:  . . . . . . . . . . . . . . . .#
+  @word37833 mapped=21 fb=0 len=25:  .     #  ~.       .   . 
+=== R753 flen=1468416 big_runs=3125 total_mapped=52171
+  @word0 mapped=8 fb=0 len=10:   .#.   bu 
+  @word13 mapped=34 fb=0 len=45: #  . . . .        . . . . .       .       .  
+  @word64 mapped=11 fb=0 len=15:  . . . .       
+  @word96 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word160 mapped=11 fb=0 len=15:  . . . .       
+  @word192 mapped=13 fb=0 len=18:  . . . .       .  
+  @word222 mapped=12 fb=0 len=17:  . . . . .       
+  @word256 mapped=11 fb=0 len=15:  . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word318 mapped=12 fb=0 len=17:  . . . . .       
+  @word352 mapped=11 fb=0 len=15:  . . . .       
+  @word384 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word438 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word562 mapped=9 fb=0 len=10:      .    
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word658 mapped=9 fb=0 len=10:      .    
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word768 mapped=11 fb=0 len=15:  . . . .       
+  @word800 mapped=13 fb=0 len=18:  . . . .       .  
+  @word832 mapped=11 fb=0 len=15:  . . . .       
+  @word862 mapped=12 fb=0 len=17:  . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=11 fb=0 len=15:  . . . .       
+  @word958 mapped=12 fb=0 len=17:  . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1054 mapped=12 fb=0 len=17:  . . . . .       
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1184 mapped=11 fb=0 len=15:  . . . .       
+  @word1216 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1248 mapped=11 fb=0 len=15:  . . . .       
+  @word1278 mapped=12 fb=0 len=17:  . . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1344 mapped=13 fb=0 len=18:  . . . .       .  
+=== R754 flen=129024 big_runs=202 total_mapped=4633
+  @word0 mapped=34 fb=0 len=42:   .bu. bu bu . gibu# . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=8 fb=0 len=12:    . . / .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=12:    . . / .   chi
+  @word581 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word21159 mapped=10 fb=0 len=18: #.#.#.#.##.#.#.#.#
+  @word21225 mapped=9 fb=0 len=16: #.#.#.##.#.#.#.#
+  @word24848 mapped=12 fb=0 len=16: ########.#.#.#.#
+  @word30337 mapped=9 fb=0 len=15: #.#.~##.#.~.~.~
+  @word36224 mapped=32 fb=0 len=32:                        yu        
+  @word36288 mapped=32 fb=0 len=32:                      ra ba        
+  @word36352 mapped=30 fb=0 len=32:                      . .   o bi du
+  @word36416 mapped=30 fb=0 len=32:                      . .   ge ba za
+  @word36480 mapped=29 fb=0 len=31:                  ge do ze fu   . . 
+  @word36544 mapped=28 fb=0 len=31:                  du ba ga fu . . . 
+  @word36608 mapped=28 fb=0 len=32:                  . . . . bi zo fu ne
+=== R755 flen=1896448 big_runs=3059 total_mapped=48619
+  @word14 mapped=53 fb=0 len=70:   . . . .        . . . . .       .       .       . . . . .       .    
+  @word96 mapped=11 fb=0 len=15:  . . . .       
+  @word128 mapped=42 fb=0 len=55:  . . . .       .       .       . . . . .       . .     
+  @word192 mapped=16 fb=0 len=23:  . . . .       . . .   
+  @word230 mapped=39 fb=0 len=49:  .       .       .       . . . . .       .#.     
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word326 mapped=23 fb=0 len=27:  .       .       .       . 
+  @word358 mapped=8 fb=0 len=9:  .       
+  @word370 mapped=27 fb=0 len=34:      .       . . . . .       .    
+  @word406 mapped=23 fb=0 len=30:  .       . . . . .       .    
+  @word438 mapped=28 fb=0 len=36:  .       . . . . .       .       .  
+  @word480 mapped=11 fb=0 len=15:  . . . .       
+  @word512 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word576 mapped=11 fb=0 len=15:  . . . .       
+  @word608 mapped=18 fb=0 len=23:  . . . .       .       
+  @word638 mapped=12 fb=0 len=17:  . . . . .       
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word704 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word758 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word800 mapped=11 fb=0 len=15:  . . . .       
+  @word832 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word862 mapped=12 fb=0 len=17:  . . . . .       
+  @word896 mapped=11 fb=0 len=15:  . . . .       
+  @word928 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word992 mapped=11 fb=0 len=15:  . . . .       
+  @word1024 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1074 mapped=9 fb=0 len=10:      .    
+  @word1088 mapped=11 fb=0 len=15:  . . . .       
+  @word1120 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1170 mapped=9 fb=0 len=10:      .    
+  @word1184 mapped=18 fb=0 len=23:  . . . .       .       
+  @word1216 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1280 mapped=11 fb=0 len=15:  . . . .       
+  @word1312 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1376 mapped=11 fb=0 len=15:  . . . .       
+  @word1408 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1440 mapped=11 fb=0 len=15:  . . . .       
+  @word1472 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1522 mapped=9 fb=0 len=10:      .    
+=== R756 flen=124928 big_runs=97 total_mapped=2334
+  @word0 mapped=34 fb=0 len=42:   .bu. bu bu . mabu# . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word245 mapped=8 fb=0 len=12:    . . / .   chi
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word285 mapped=8 fb=0 len=12:    . . / .   chi
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word525 mapped=8 fb=0 len=12:    . . / .   chi
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word565 mapped=8 fb=0 len=12:    . . / .   chi
+  @word581 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word961 mapped=60 fb=0 len=63:  .     . [                                     .papapapapapapa papapapapapabo
+  @word1089 mapped=61 fb=0 len=63:  .     . ~                                     pa###############
+  @word1216 mapped=63 fb=0 len=64: #boyabobobobobo.bobobobobobobobobobobobobobobobopabopabopabobobobobobopabopabobobobobobobobobo################
+  @word1344 mapped=47 fb=0 len=49: ########.#.######################################
+  @word1473 mapped=43 fb=0 len=46: #.########################################.#.#
+  @word1601 mapped=41 fb=0 len=46: #.####################################.#.#.#.#
+  @word1728 mapped=16 fb=0 len=17: ########.########
+  @word1748 mapped=9 fb=0 len=11: #.#.#######
+  @word4992 mapped=11 fb=0 len=16: #chi###chi.#.#.#.#.#
+  @word5504 mapped=11 fb=0 len=15:  # ya #.pu . . .bu
+  @word5632 mapped=11 fb=0 len=16:  . . . # .bu###.#
+=== R759 flen=1122304 big_runs=3137 total_mapped=46014
+  @word14 mapped=49 fb=0 len=65:   . . . .        . . . . .       .       .       . . . . .       
+  @word96 mapped=18 fb=0 len=23:  . . . .       .       
+  @word128 mapped=11 fb=0 len=15:  . . . .       
+  @word150 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word182 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word214 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word246 mapped=19 fb=0 len=25:  .       . . . . .       
+  @word288 mapped=11 fb=0 len=15:  . . . .       
+  @word320 mapped=22 fb=0 len=28:  . . . .       .       .    
+  @word352 mapped=11 fb=0 len=15:  . . . .       
+  @word370 mapped=23 fb=0 len=29:      .       . . . . .       
+  @word416 mapped=11 fb=0 len=15:  . . . .       
+  @word448 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word512 mapped=11 fb=0 len=15:  . . . .       
+  @word544 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word608 mapped=11 fb=0 len=15:  . . . .       
+  @word640 mapped=23 fb=0 len=29:  . . . .       .       .    #
+  @word672 mapped=11 fb=0 len=15:  . . . .       
+  @word702 mapped=12 fb=0 len=17:  . . . . .       
+  @word736 mapped=11 fb=0 len=15:  . . . .       
+  @word768 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word832 mapped=11 fb=0 len=15:  . . . .       
+  @word864 mapped=18 fb=0 len=23:  . . . .       .       
+  @word894 mapped=12 fb=0 len=17:  . . . . .       
+  @word916 mapped=9 fb=0 len=10:    .bu_ _bu.
+  @word928 mapped=11 fb=0 len=15:  . . . .       
+  @word960 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1024 mapped=11 fb=0 len=15:  . . . .       
+  @word1056 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1120 mapped=11 fb=0 len=15:  . . . .       
+  @word1152 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1216 mapped=11 fb=0 len=15:  . . . .       
+  @word1248 mapped=36 fb=0 len=47:  . . . .       .       .       . . . . .       
+  @word1312 mapped=11 fb=0 len=15:  . . . .       
+  @word1344 mapped=13 fb=0 len=18:  . . . .       .  
+  @word1364 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1408 mapped=11 fb=0 len=15:  . . . .       
+  @word1440 mapped=11 fb=0 len=15:  . . . .       
+  @word1460 mapped=21 fb=0 len=27:    .       . . . . .       
+  @word1504 mapped=11 fb=0 len=15:  . . . .       
+=== R760 flen=143360 big_runs=110 total_mapped=2962
+  @word0 mapped=34 fb=0 len=42:   .#. bu bu . ~## . .     #  ~.       .   . 
+  @word45 mapped=8 fb=0 len=12:    . . / .   chi
+  @word61 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word85 mapped=8 fb=0 len=12:    . . / .   chi
+  @word101 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word125 mapped=8 fb=0 len=12:    . . / .   chi
+  @word141 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word165 mapped=8 fb=0 len=12:    . . / .   chi
+  @word181 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word205 mapped=8 fb=0 len=12:    . . / .   chi
+  @word221 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word261 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word301 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word325 mapped=8 fb=0 len=12:    . . / .   chi
+  @word341 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word365 mapped=8 fb=0 len=12:    . . / .   chi
+  @word381 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word405 mapped=8 fb=0 len=12:    . . / .   chi
+  @word421 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word445 mapped=8 fb=0 len=12:    . . / .   chi
+  @word461 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word485 mapped=8 fb=0 len=12:    . . / .   chi
+  @word501 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word541 mapped=18 fb=0 len=21:    #  ~.       .   . 
+  @word581 mapped=8 fb=0 len=11:      /  /  / bube  
+  @word609 mapped=11 fb=0 len=23: be  . . /  /  / .be  . . /  /  / .be  
+  @word679 mapped=11 fb=0 len=23: be  . . /  /  / .be  . . /  /  / .be  
+  @word925 mapped=13 fb=0 len=18:  .      . . . # . 
+  @word1178 mapped=13 fb=0 len=21: pu.#.bu.ra.ibe#ka.#pa.v.chi.i
+  @word2087 mapped=8 fb=0 len=14:  .su.ra.de. ].nu.hi
+  @word5561 mapped=30 fb=0 len=38: g.e.i.esesesesesesesehause#sesasesesebohbo#ze.ke.pi.bo.bo.bo
+  @word5691 mapped=19 fb=0 len=21: ..t.ndodododododododorodojidodidodo#
+  @word11921 mapped=8 fb=0 len=15:  . . .bu.#. . . 
+  @word11952 mapped=12 fb=0 len=16:       .  . . . #
+  @word12066 mapped=10 fb=0 len=12: #.bubu    bu .pi
+  @word12080 mapped=14 fb=0 len=17: c ~ . . [bu # #.~e
+  @word18368 mapped=8 fb=0 len=15: #.#.#.#.#.#.#.#
+  @word18387 mapped=39 fb=0 len=45: #.#.#.#.#.#.#################################
+  @word18496 mapped=8 fb=0 len=15: #.#.#.#.#.#.#.#
+  @word18515 mapped=40 fb=0 len=45: #.#.###.#.#.#################################

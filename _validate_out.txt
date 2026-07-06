@@ -1,0 +1,11 @@
+OK  data/translate_chunks/chunk_03_translated.json  (113 items)
+OK  data/translate_chunks/chunk_r2654_library_fix.json  (12 items)
+OK  data/msg_glyph_map.json  (1100 items)
+OK  data/name_labels.json  (98 items)
+mi=1881 count in r2654 fix = 1 (expect 1)
+'Knights' keys=['士騎戦'] (expect 1)
+'Lady Knight' keys=['女無帰'] (expect the real one)
+R39 m8: 'Is this OK? / ' endswith ' / '=True
+R39 m9: 'Yes / ' endswith ' / '=True
+R39 m10: 'No / ' endswith ' / '=True
+glyph 900 = 図  glyph 926 = 鑑

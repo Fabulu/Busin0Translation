@@ -58,8 +58,10 @@ MODULES = [
     "test_name_consistency",
     "test_exe_sjis_strings",
     "test_reloc_caves_installed",
+    "test_cave_semantics",
     "test_r47_built_output",
     "test_r2138_containment",
+    "test_regress_harness",
 ]
 
 

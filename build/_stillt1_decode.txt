@@ -1,0 +1,42 @@
+total groups 655
+G442 start=26702 len=71
+G442 raw values: [0, 0, 34, 0, 286, 0, 286, 0, 340, 0, 416, 0, 444, 0, 476, 0, 524, 0, 554, 0, 574, 0, 608, 0, 608, 0, 658, 0, 696, 0, 734, 0, 778, 0, 814, 0, 858, 0, 888, 0, 934, 0, 1016, 0, 1064, 0, 1124, 0, 1174, 0, 1282, 0, 1282, 0, 1350, 0, 1392, 0, 1432, 0, 1432, 0, 1494, 0, 1494, 0, 1494, 0, 1494, 0, 1596]
+G442 after-FFFF base=26846
+header slot idx=2 value=34
+
+=== G442 title slots (slot8 should be 340 -> G451 g0) ===
+  slot[2]=34  HEADER/COUNT
+  slot[4]=286 -> G450 glyph0 : Please Take Care of Pippi[LB]
+  slot[6]=286 -> G450 glyph0 : Please Take Care of Pippi[LB]
+  slot[8]=340 -> G451 glyph0 : Treasure of the Ancient Royal Palace[LB]
+  slot[10]=416 -> G452 glyph0 : About Pixies[LB]
+  slot[12]=444 -> G453 glyph0 : Give Me Medals[LB]
+  slot[14]=476 -> G454 glyph0 : Succubus Fan Gathering[LB]
+  slot[16]=524 -> G455 glyph0 : Land For Sale[LB]
+  slot[18]=554 -> G456 glyph0 : Help Me![LB]
+  slot[20]=574 -> G457 glyph0 : Want Ingo's Key[LB]
+  slot[22]=608 -> G458 glyph0 : If You Want Ingo's Key![LB]
+  slot[24]=608 -> G458 glyph0 : If You Want Ingo's Key![LB]
+  slot[26]=658 -> G459 glyph0 : Search for Kunnal[LB]
+  slot[28]=696 -> G460 glyph0 : Trap Game Contest[LB]
+  slot[30]=734 -> G461 glyph0 : Capture the Succubus[LB]
+  slot[32]=778 -> G462 glyph0 : Labyrinth Survey[LB]
+  slot[34]=814 -> G463 glyph0 : Let Me Join a Party![LB]
+  slot[36]=858 -> G464 glyph0 : Find My Body![LB]
+  slot[38]=888 -> G465 glyph0 : Retrieve My Lost Item[LB]
+  slot[40]=934 -> G466 glyph0 : Karman Guide Wanted[LB]
+  slot[42]=1016 -> G468 glyph0 : Please Temper My Armor[LB]
+  slot[44]=1064 -> G469 glyph0 : I Want to See a Great Battle[LB]
+  slot[46]=1124 -> G470 glyph0 : Healing Spring Research[LB]
+  slot[48]=1174 -> G471 glyph0 : Healing Spring Research 2[LB]
+  slot[50]=1282 -> G473 glyph0 : I Want to Meet Someone Possessed[LB]
+  slot[52]=1282 -> G473 glyph0 : I Want to Meet Someone Possessed[LB]
+  slot[54]=1350 -> G474 glyph0 : Find My Subordinate[LB]
+  slot[56]=1392 -> G475 glyph0 : Punish the Bad Guy[LB]
+  slot[58]=1432 -> G476 glyph0 : Take Me to the Water Jar Room[LB]
+  slot[60]=1432 -> G476 glyph0 : Take Me to the Water Jar Room[LB]
+  slot[62]=1494 -> G477 glyph0 : 7 そ オ ろ セ バ 王 立 エ 時 彼 家 探 通 体 幸 年 雰 忘 集 評 宣 [042C] [0468]
+  slot[64]=1494 -> G477 glyph0 : 7 そ オ ろ セ バ 王 立 エ 時 彼 家 探 通 体 幸 年 雰 忘 集 評 宣 [042C] [0468]
+  slot[66]=1494 -> G477 glyph0 : 7 そ オ ろ セ バ 王 立 エ 時 彼 家 探 通 体 幸 年 雰 忘 集 評 宣 [042C] [0468]
+  slot[68]=1494 -> G477 glyph0 : 7 そ オ ろ セ バ 王 立 エ 時 彼 家 探 通 体 幸 年 雰 忘 集 評 宣 [042C] [0468]
+  slot[70]=1596 -> G479 glyph0 : パ}ティ全員のMPが全回復する[LB]SPが発動した![LB]

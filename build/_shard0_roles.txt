@@ -1,0 +1,2836 @@
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=38
+JP: 盗賊 / 
+EN: Thief / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=40
+JP: 神聖 / 
+EN: Priest / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=43
+JP: 集教 / 
+EN: Bishop / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=47
+JP: モンク / 
+EN: Monk / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=51
+JP: 教授 / 
+EN: Knight / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=96
+JP: 腕の気が聞く、通に解者との箱いを / 求めている。 / 
+EN: Skilled warrior who / seeks strong foes. / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=109
+JP: 生まれつき商人気質があり、商売などに / 解い関心をもっている。 / 
+EN: Born merchant soul. / Loves trade deeply. / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=128
+JP: 騎事務騎法の使い手。 / 全ての騎事務騎法を習下可能。 / 
+EN: Master of Sorcery. / Can learn all / Sorcery spells. / 
+
+FILE=data/translate_chunks/chunk_02_translated.json RES=38 MI=129
+JP: 神聖騎法の使い手。 / 不死族を退除するディスペルを覚えることができます。 / 全ての神聖騎法を習下可能。 / 
+EN: Holy magic master. / Can Dispel undead. / All Holy spells. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=3
+JP: é¨Žäº‹æŒã®é­”çŸ³ /
+EN: Knight's Stone /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=12
+JP: é¨Žæˆ¦ã®ç½°é‡Ž /
+EN: Warrior Talisman /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=13
+JP: è–çŽ‹ã®ç½°é‡Ž /
+EN: Holy King Talisman /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=21
+JP: é¨Žå¥³ã®ä¾é£¾ã‚Š /
+EN: Witch's Hair / Ornament /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=25
+JP: ç›—è³Šã®ãƒªã‚¹ãƒˆ /
+EN: Thief's Wristband /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=26
+JP: å…µå£«ã®ãƒªã‚¹ãƒˆ /
+EN: Knight's Wristband /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=39
+JP: é™ã®ãƒžãƒ³ãƒˆ /
+EN: Bishop Cloak /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=43
+JP: ãƒãƒœãƒªã‚¦ãƒ ç¦[039C] /
+EN: Demon King Cloak /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=56
+JP: ãŸã ã²ãŸã™ã‚‰^è‡ªã‚‰ã®é‹ã®ä½¿ã•ã‚’è¨˜ã„ / ã¦ã„ãŸäººé–“ã®å¥¥ãŒå®¿ã£ãŸé­”çŸ³_ / è£…å‚™è€…ã®å¹¸é‹åº¦ã‚’ä¸‹ã’ã‚‹_ /
+EN: A stone holding one / who cursed his own / ill fortune. Lowers / the wearer's LCK. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=60
+JP: é¨Žå£«ã®è…•ã‚’ä½¿ã£ã¦é€ ã‚‰ã‚ŒãŸç½°é‡Ž_ / è£…å‚™è€…ã®å‘½ä¸­æžœã‚’ä¸Šç¾½ã•ã›^é“é—˜ã¨ã— / ã¦ä½¿æ¯ã™ã‚Œã°å®ã‚’é™¤åº—ã•ã›ã‚‹_ /
+EN: A ring made from / a knight's arm. Ups / accuracy; in battle, / can banish foes. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=63
+JP: ãƒãƒªã‚¹ã®åŒ¹é ­æžœå¾©åˆãŒ^è–çŽ‹ã«æžœå¾©ã— / ãŸè€…ã«ãŠãã‚‹ç½°é‡Ž_ãã®æ¶ˆå‘ªã¯^ / è£…å‚™è€…ã®å‘½ä¸­æžœã‚’ä¸Šã’^é–‹ç¥žã® / é¨Žã®æ‰‹ã‹ã‚‰ã‚Œã‚‹_ /
+EN: A ring from Harris's / order for Holy King / servants. Ups acc, / wards Death. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=75
+JP: ç¾Žç›—ã¨å–åã‚’ã¨ã£ãŸç›—è³ŠãŒèº«ã«ã¤ã‘ã¦ / ã„ãŸãƒªã‚¹ãƒˆ_è£…å‚™è€…ã®ç²å¾—åŠ›ã‚’ä¸Šã’^ / å®ã®å…ˆæ†¤ç²å¾—ã‚’ã‚‚å°ã˜ã‚‹_ / ç›—è³Šç³»ã®è·æ¥­ã®ã¿è£…å‚™å¯èƒ½_ /
+EN: Worn by a thief, / the fair bandit. Ups / atk, blocks surprise / Thief class only. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=76
+JP: åã‚‚ä½¿ãå…µå£«ã®ãƒªã‚¹ãƒˆ_è£…å‚™è€…ã®é–‹ã® / åŠ¹æ€§ã¨ç²å¾—åŠ›ã‚’ä¸Šã’^åŠ›ã‚’æ®¿æ”¾ã™ã‚‹ã“ / ã¨ã§æŒã£ã¦ã„ã‚‹æ­¦å™¨ã®ã†ã¡ã©ã‚Œã‹ä¸€ã¤ / ã®ç²å¾—åŠ›ã‚’ä¸Šç¾½ã•ã›ã‚‹æ¶ˆå‘ªãŒã‚ã‚‹_ /
+EN: A nameless soldier's / wristband. Ups Death / res and attack. Can / boost a weapon. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=78
+JP: ã‚ã‚‹ç¥žè–ãŒ^é£²æˆ¦å£«ã‚’å°ã˜ã‚‹ãŸã‚ã« / é€ ã‚Šå‡ºã—ãŸã¨ã•ã‚Œã‚‹ãƒªã‚¹ãƒˆ_ / æŒã£ã¦ã„ã‚‹ã ã‘ã§åŠ›ãŒãƒ€ã‚¦ãƒ³ã™ã‚‹_ /
+EN: A wristband made by / a priest to seal / a demon warrior. / Holding it lowers STR /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=80
+JP: æˆ¦ç®±ã«ãŠã„ã¦ä½“åŠ›{æ•æ·ã•ã«ãŠã¨ã‚‹é¨Ž / äº‹æŒãŸã¡ãŒ^ãã‚Œã‚’æŒ¨ã†ãŸã‚ã«é€ ã‚Šå‡º / ã—ãŸ_è£…å‚™è€…ã®å›žé¿åŠ›{MAXHPã‚’ / ä¸Šç¾½ã•ã›ã‚‹_é¨Žäº‹æŒ{é›†æ•™åˆ»æ¯_ /
+EN: Made by mages weak / in body and speed. / Ups evasion & Max HP / Mage & bishop only. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=81
+JP: ã‚ã‚‹å…µå£«ã«ç›´è¨€ãŸã¡ãŒãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆã—ãŸ / ã¨ã•ã‚Œã‚‹ãƒ–}ãƒ„_è£…å‚™è€…ã®å›žé¿åŠ›ã¨ / è§£æ¶ˆåŠ›ã‚’ä¸Šç¾½ã•ã›^å‚·ã¤ã„ãŸä½“ã‚’å›žå¾© / ã•ã›ã‚‹åŠ›ãŒã‚ã‚‹_ /
+EN: Boots said to be / a gift to a soldier. / Raises evasion and / def; heals wounds. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=88
+JP: å–ç©ºã‚ˆã‚Šç¾ã‚Œã—ãƒžãƒ³ãƒˆ_ã‚ã‚‹é¨Žäº‹æŒã« / ã‚ˆã‚‹ã¨^é›†æ•™ã«ãªã‚ŠãŸã„ã¨ã„ã†å¿µãŒã“ / ã‚ã‚‰ã‚Œã¦ã„ã‚‹ã‚‰ã—ã„_å®ã‹ã‚‰ã®å ±é…¬ãƒ€ / ãƒ¡}ã‚¸ã‚’å“¡å°‘ã•ã›^ç‚Ž{çœ‹æ°—ã‚’è§£ã_ /
+EN: A cloak from the / void. Said to yearn / to become a bishop. / Cuts dmg, guards fire /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=91
+JP: å°‘ã•ã‚ŒãŸæ‰€æŒè€…ã®è…•ãŒ^è–ãªã‚‹å•†ä¼šã‚’ / å›žãªã‚‹ã‚‚ã®ã«å¤‰ãˆãŸãƒžãƒ³ãƒˆ_ / ãã®å•†ä¼šã®ä½¿ã„ã®åŠ›ãŒæŒã¤è€…ã® / é¨Žæ³•ã‚’å°ã˜ã‚‹_ /
+EN: A cloak whose fallen / owner twisted a holy / symbol. Its curse / seals bearer magic. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=92
+JP: é¨Žäººã¨å–åã‚’ã¨ã£ãŸçŽ‹ãŒ^èº«ã«ã¤ã‘ã¦ / ã„ãŸã¨ã•ã‚Œã‚‹_ã‚¨ãƒŠã‚¸}ãƒ‰ãƒ¬ã‚¤ãƒ³{ / ã‚¢ãƒ“ãƒªãƒ†ã‚£ãƒ‰ãƒ¬ã‚¤ãƒ³{[03DC]é–‹ãªã©ã‚’è§£ã / ãŒ^ãã®ä½¿ã„ã¯è£…å‚™è€…ã®å‘½ã‚’ã‘ãšã‚‹_ /
+EN: Worn by a king, / the Demon King. Guards / E.Drain, A.Drain, & / Death, but costs HP. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=107
+JP: ä½¿ã„ã®ãƒ­}ãƒ– /
+EN: Sage's Robe /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=140
+JP: ç½°ã‚Šã®é­”ã‚ã¦ /
+EN: Warrior Breastplate /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=145
+JP: å¤–é“ã®é­”ã‚ã¦ /
+EN: Fallen Warrior Mail /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=149
+JP: é‚ªéŠ€ã®å®® /
+EN: Master Armor /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=151
+JP: å•†ä¼šã®å®® /
+EN: Knight Mail /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=157
+JP: ä½¿ã‚ã‚ŒãŸå®® /
+EN: Holy Knight Armor /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=161
+JP: è¾º /
+EN: Demon King Armor /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=168
+JP: æ‚ªã®è¾º /
+EN: Warrior Helm /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=170
+JP: å£°ã®è¾º /
+EN: Holy Knight Helm /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=173
+JP: å°ã•ãªé˜² /
+EN: Demon King Helm /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=191
+JP: ã ã‚ã‚ª}ã‚¯ã®é˜² /
+EN: Holy Knight Shield /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=195
+JP: å°æ‰‹ /
+EN: Demon King Shield /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=203
+JP: ããŸã³ã‚ŒãŸå°æ‰‹ /
+EN: Holy Knight Gauntlets /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=206
+JP: ã‚¨ãƒªã‚´ãƒ«å›£[039C] /
+EN: Demon King Gauntlets /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=248
+JP: è¿·å®®ã«å¥¥ã‚’[01A4]ã‚ã‚ŒãŸç›—è³ŠãŒé–‹ã¬ã¨^ / ã“ã®å‘å®®ã«ãªã‚‹ã¨è¨€ã‚ã‚Œã¦ã„ã‚‹_ / èº«ã«ã¤ã‘ãŸè€…ã®å‘½ã‚’æ‹ ã†_ /
+EN: A dead thief's / hide from the / labyrinth
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=249
+JP: ä»²é–“ã‚’è¿·åˆ‡ã£ãŸç›—è³ŠãŒè£…å‚™ã—ã¦ã„ãŸã¨ / ã„ã†å‘å®®_ / èº«ã«ã¤ã‘ãŸè€…ã®ä¿¡é ¼åº¦ãŒ0ã«ãªã‚‹_ /
+EN: Betrayer's hide / worn by a thief / Trust falls to 0
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=251
+JP: ç‚Žã«ã¾ã‹ã‚Œè‡ªæ±ºã—ãŸãƒžã‚¹ã‚¿}å¿è€…ãŒ / èº«ã«ã¤ã‘ã¦ã„ãŸå‘å®®_å‘å®®ã®ä¸­ã§æ—©ä½Ž / æ€§èƒ½ã‚’ã»ã“ã‚‹ãŒ^ãã®ä½¿å¿µã®ãŠã‚‚ã„ãŒ / è£…å‚™è€…ã®MAXHPã‚’é«˜ä¸‹ã•ã›ã‚‹_ /
+EN: Master ninja hide / burned in suicide / Lowers max HP
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=262
+JP: æ›¸ã®ãŸã‚ã«ä»²é–“ã‚’è¿·åˆ‡ã£ãŸæˆ¦å£«ãŒã¤ã‘ / ã¦ã„ãŸè¡Œã‹ãŸã³ã‚‰_ãã®å¥³è½ã—ãŸæˆ¦å£« / ã®æ€å¿µãŒ^å®®ã‚’æ‰‹ã«ã™ã‚‹è€…ã®ãŠæ›¸ã‚’çŸ¥ / ã‚‰ãšçŸ¥ã‚‰ãšã®ã†ã¡ã«å“¡ã‚‰ã—ã¦ã„ã_ /
+EN: Mail of a warrior / who betrayed / allies
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=267
+JP: åç®—ã®æ‰‹ã«ã‚ˆã£ã¦é€ ã‚‰ã‚ŒãŸé­”ã‚ã¦_ / ãã®å…¨åº§ã‚’ãŠãŠã£ãŸé¨ŽåŠ›ã¯ / ã‚¨ãƒŠã‚¸}ãƒ‰ãƒ¬ã‚¤ãƒ³ã«åŠ¹æ€§ãŒã‚ã‚‹_ /
+EN: Master breastplate / Magic over its / face
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=271
+JP: æˆåŠŸé€ ã®é­”ã‚ã¦_ãã‚Œã°ã‹ã‚Šã‹é•·ã„é–“ / è¿·å®®ã«æ”¾ç½®ã•ã‚Œã¦ã„ãŸã›ã„ã§^å¤šè€…ã® / ã™ã¿ã‹ã¨ãªã£ãŸ_è£…å‚™ã™ã‚‹ã¨ç¥žè–MP / ã‚’æ‹ ã„å–ã‚‰ã‚Œã¦ã—ã¾ã†_ /
+EN: Well-made plate / long left in maze / Drains priest MP
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=272
+JP: ç¥žã‚’æŒã¦^æˆ¦ã„ã«é“ã‚’è¦‹å‡ºã—ãŸç¥žè–ãŒ / èº«ã«ã¤ã‘ã¦ã„ãŸé­”ã‚ã¦_ / è§£æ¶ˆåŠ›ã«ä¸¦ã‚Œã¦ã„ã‚‹ãŒè£…å‚™è€…ã®ä¿¡ä»°å¿ƒ / ãŒé«˜ããªã‚‹_ /
+EN: Plate of a holy / warrior of faith / Raises piety
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=279
+JP: ã‚ã‚‹å…µå£«ã®å®¶ã«å¤æ‰‹ã¤ãŸã‚ã£ã¦ããŸã¨ / ã„ã‚ã‚Œã‚‹å®®_è£…å‚™è€…ã®ææ€–åŠ¹æ€§ã‚’ä½Žã‚ / ã‚‹_èƒ½åŠ›ã‚’æ®¿æ”¾ã™ã‚Œã°ä½¿æ¯è€…ã®ãƒ¬ãƒ™ãƒ« / ãŒ1ä¸Šç¾½ã™ã‚‹ã ã‘ã®EXPãŒå…¥ã‚‹_ /
+EN: Old soldier armor / Lowers fear / Use to gain EXP
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=286
+JP: é¨Žå£«ã®ç²å¾—ã«ã‚ˆã£ã¦å´©ã•ã‚ŒãŸå®®_ / å®®ã«ã—ã¿ã“ã‚“ã é¨Žå£«ã®ã‹ãˆã‚Šè…•ãŒ^ / ç‚Žã«å¯¾ã—ã¦ã®ãƒ€ãƒ¡}ã‚¸ã‚’å¤§ããã™ã‚‹_ /
+EN: Armor broken by a / knight's art Takes / more
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=289
+JP: é¨Žäººã¨å–åã‚’ã¨ã£ãŸçŽ‹ãŒ^èº«ã«ã¤ã‘ã¦ / ã„ãŸã¨ã•ã‚Œã‚‹å®®_ / æ—©å¤§ã®è§£æ¶ˆåŠ›ã‚’ã»ã“ã‚‹ãŒ^è£…å‚™è€…ã® / ä¿¡é ¼åº¦ã‚’0ã«ã™ã‚‹_ /
+EN: Armor of a / demon king / Trust falls to 0
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=293
+JP: ã•ã‚‹é¨Žæ³•ç¥ å£«ãŒèº«ã«ã¤ã‘ã¦ã„ãŸè¾º_ / ãã®é¨ŽåŠ›ã«ã‚ˆã£ã¦æ¯’{å‹åˆ¶{å›£é™¤{ / é¨Žæ³•å‹åˆ¶ã«å¯¾ã—ã¦è§£ããªã‚‹ã¨ã¨ã‚‚ã« / è»¢ç‰©ã‚’å¯èƒ½ã¨ã™ã‚‹_ /
+EN: Mage-priest helm / Wards ailments / Enables teleport
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=298
+JP: è–äººã®ç¬‘ã‚ŠãŒã•ã•ã’ã‚‰ã‚ŒãŸè¾º_ / è–ãªã‚‹åŠ›ãŒ^è£…å‚™è€…ã®ã™ã¹ã¦ã® / ã‚¹ãƒ†}ã‚¿ã‚¹å–é€šã‚’è§£ãŽ^çŸ¥æµã‚’ä¸Šç¾½ / ã•ã›ã‚‹_å…µå£«ã®è·æ¥­ã®ã¿è£…å‚™å¯_ /
+EN: Saint-blessed helm / Raises wisdom / Soldier only
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=301
+JP: é¨Žäººã¨å–åã‚’ã¨ã£ãŸçŽ‹ãŒ^èº«ã«ã¤ã‘ã¦ / ã„ãŸã¨ã•ã‚Œã‚‹è¾º_è£…å‚™è€…ã®åŠ›ã‚’ãƒ€ã‚¦ãƒ³ / ã•ã›ã‚‹ä½¿ã„ãŒã“ã‚ã‚‰ã‚Œã¦ã„ã‚‹_ /
+EN: Demon king helm / Holds a curse / Lowers STR
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=323
+JP: é¨Žäººã¨å–åã‚’ã¨ã£ãŸçŽ‹ãŒ^èº«ã«ã¤ã‘ã¦ / ã„ãŸã¨ã•ã‚Œã‚‹é˜²_è£…å‚™è€…ã®ç”Ÿå‘½åŠ›ã‚’ãƒ€ / ã‚¦ãƒ³ã•ã›ã‚‹ä½¿ã„ãŒã“ã‚ã‚‰ã‚Œã¦ã„ã‚‹_ /
+EN: Demon king shield / Holds a curse / Lowers vitality
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=325
+JP: è¦‹ç¿’è·äººãŒé€ ã£ãŸå°æ‰‹_ / æ€§èƒ½ã¯ãã‚Œã»ã©è‰¯ããªã„ãŒ^è¾ºã‚’ãµã‚“ / ã ã‚“ã«ä½¿ã£ã¦ã„ã‚‹ã®ã§^è§£æ¶ˆåŠ›ã¯å°‘ã— / ã‚¢ãƒƒãƒ—ã—ã¦ã„ã‚‹_ /
+EN: Apprentice / gauntlets Roughly / made
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=329
+JP: ç›´è¨€ãŒä½Žåãªå…µå£«ã«ãƒ—ãƒ¬ã‚¼ãƒ³ãƒˆã—ãŸã¨ / ã•ã‚Œã‚‹å°æ‰‹_ç›´è¨€ã®åŠ›ãŒå®ã‹ã‚‰ã®æ¯’ã¨ / ã‚¨ãƒŠã‚¸}ãƒ‰ãƒ¬ã‚¤ãƒ³ã‚’è§£ãæ¶ˆå‘ªãŒã‚ã‚‹_ /
+EN: Gift from a sage / Wards poison and / energy drain
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=330
+JP: æ‚ªã®å…µå£«ãŒä½¿æ¯ã—ã¦ã„ãŸã¨ã„ã†å°æ‰‹_ / è£…å‚™è€…ã®ã‚¯ãƒªãƒ†ã‚£ã‚«ãƒ«æžœã‚’å¤§ããä¸Šã’ / ã‚‹æ¶ˆå‘ªãŒã‚ã‚‹_ /
+EN: Evil soldier / gauntlets Greatly / raise
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=334
+JP: é¨Žäººã¨å–åã‚’ã¨ã£ãŸçŽ‹ãŒ^èº«ã«ã¤ã‘ã¦ / ã„ãŸã¨ã•ã‚Œã‚‹å°æ‰‹_ã“ã®å°æ‰‹ã«ã“ã‚ã‚‰ / ã‚ŒãŸé¨ŽåŠ›ã¯å‘½ä¸­æžœã‚’ä¸Šç¾½ã•ã›ã‚‹_ /
+EN: Demon king / gauntlets Magic / within
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=362
+JP: ã‚¢ã‚µã‚·ãƒ³ãƒ€ã‚¬} /
+EN: Master Dagger /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=363
+JP: å›£é™¤ã®ãƒ€ã‚¬} /
+EN: Assassin Dagger /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=366
+JP: æ‰•é ¼ã®çŸ­éŽ§ /
+EN: Thief's Knife /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=388
+JP: ã‚¨ã‚¯ã‚¹ã‚«ãƒªãƒ} /
+EN: Divine Lord Sword /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=391
+JP: æ‚”ä¿¡ã®ç¥  /
+EN: Holy Knight Sword /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=409
+JP: ä¸­é ¼æ™‚ /
+EN: Master Katana /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=427
+JP: ä½¿ã„ã®å‹• /
+EN: Sage's Staff /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=433
+JP: å ´å¾—ã®æ‰‹æ”» /
+EN: Master Hand Axe /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=437
+JP: ä½¿ã„ã®æ‰‹æ”» /
+EN: Holy Knight Axe /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=451
+JP: æ‰‹è¿·ç¥  /
+EN: Demon King Axe /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=474
+JP: å´©ã‚Œã‹ã‘ã®ãƒ•ãƒ¬ã‚¤ãƒ« /
+EN: Prince Flail /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=490
+JP: ã‚¨ãƒ«ãƒ•ã®æ³• /
+EN: Thief's Bow /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=500
+JP: æ›¸[01E2][01E0] /
+EN: Bishop Pole Arm /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=503
+JP: ç„¡[01E4][01E0] /
+EN: Holy Warrior Polearm /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=505
+JP: ãƒãƒ«ãƒ™ãƒ«ãƒˆ /
+EN: King's Pole Arm /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=533
+JP: åç®—ã®æ‰‹ã«ã‚ˆã£ã¦é€ ã‚‰ã‚ŒãŸ^åˆ‡ã‚Œç”¨ã® / è‰¯ã„çŸ­éŽ§_ãã®ç†ã§ã®ç²å¾—ã¯^ãƒ€ãƒ¡} / ã‚¸ã‚’ä¸Žãˆã‚‹ã ã‘ã§ãªã^å®ã‚’æ°—æœ‰ã•ã› / ã‚‹ã“ã¨ã‚‚ã‚ã‚‹_ /
+EN: A keen dagger made / by a master. Its / edge
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=537
+JP: ãƒã‚¤ã‚¯ãƒ©ã‚¹ã®ç›—è³ŠãŒèº«ã«ã¤ã‘ã¦ã„ãŸã¨ / ã•ã‚Œã‚‹çŸ­éŽ§_æ•æ·åº¦ã‚’ä¸Šç¾½ã•ã›^ãã® / ãå™¨ã„å‹•ãã‹ã‚‰ãã‚Šã ã•ã‚Œã‚‹ç²å¾—ã¯ / å®ã‚’ä¸€å¾—ã§å€’ã™ã“ã¨ã‚’å¯èƒ½ã«ã™ã‚‹_ /
+EN: A dagger once used / by a master thief. / Raises
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=538
+JP: ãƒžã‚¹ã‚¿}å¿è€…ãŒä½¿æ¯ã—ã¦ã„ãŸã¨ã•ã‚Œã‚‹ / çŸ­éŽ§_è£…å‚™è€…ã®æ•æ·åº¦ã‚’ä¸Šç¾½ã•ã›^ã / ã®ç†ã‹ã‚‰ã¯ä¸é–‹æ—ã‚‚é€ƒã‚Œã‚‰ã‚Œãš^å®ã‚’ / ä¸€å¾—ã§å€’ã™ã“ã¨ã‚‚å¯èƒ½ã«ã™ã‚‹_ /
+EN: A master ninja's / dagger. Raises / AGI;
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=559
+JP: åˆ¥åæ—©ä¸»ã®é•·ç¥ ã¨èŠ±ã°ã‚Œã¦ã„ã‚‹_ / ãã®åŠ›ã¯è£…å‚™è€…ã®æ•æ·åº¦^å›žé¿åŠ›ã‚’ä½Ž / ã‚å®ã‚’ä¸€å¾—ã§å€’ã™ã“ã¨ã‚’å¯èƒ½ã«ã™ã‚‹_ /
+EN: Known as the Swift / Lord's sword. / Lowers
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=573
+JP: é£²æˆ¦å£«ãŒæ¯ã„ã¦ã„ãŸã¨ã„ã†å”±æ‰‹ç¥ _ / å®ã«ãµã‚‹ãˆã°^çµŒæ‰€ã‚’ä¸€å¾—ã—ãŸãã®ç† / ã¯å®ã‚’[03DC]é–‹ã•ã›ã‚‹ã“ã¨ãŒã‚ã‚‹_ / æ‚ªå±žæ€§åˆ»æ¯_ /
+EN: A / warrior-drunkard's / great
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=580
+JP: ä½¿åã ãŒç‰¹äº‹ã®ã‚ã‚‹åç®—ãŒããŸãˆãŸ / éŽ§_ / ãã®éŽ§èº«ã¯^é­”ãŒãµã‚ŒãŸã ã‘ã§å ´ã‚Œã¦ / ã—ã¾ã„^æ°—æœ‰ã•ã›ã‚‹ã“ã¨ã‚‚ã§ãã‚‹_ /
+EN: A katana forged by / an infamous / master.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=583
+JP: åç®—ãŒããŸãˆãŸæ¥­å£«_ / ãã®åˆ‡ã‚Œç”¨ã¯^å®ã‚’æ°—æœ‰ã•ã›ã‚‹ã“ã¨ãŒ / ã‚ã‚‹ã ã‘ã§ãªãä¸é–‹è€…ã§ã™ã‚‰ä¸€éŽ§å”±è²´ / ã§ãã‚‹ã»ã©ã§ã‚ã‚‹_ /
+EN: A master-forged / katana. It may / stun,
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=604
+JP: åç®—ãŒå¥¥ã‚’ã“ã‚ã¦ããŸãˆãŸã¨è¨€ã† / æ‰‹æ”»_æ±ºã—ã¦ç†ã«é¨ŽåŠ›ãŒè¾¼ã‚ã‚‰ã‚Œã¦ã„ / ã‚‹ã‚ã‘ã§ãªã„ãŒ^ãã®åˆ‡ã‚Œç”¨ã®è‰¯ã•ã¯ / ä¸é–‹æ—ã§ã™ã‚‰åˆ‡ã‚Šä¿¡ãã»ã©ã§ã‚ã‚‹_ /
+EN: A hand axe forged / with a master's / soul.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=605
+JP: ãƒ‰ãƒ¯}ãƒ•ã®æ­¦å™¨è·äººãŒé€ ã£ãŸã¨ã•ã‚Œã‚‹ / æ‰‹æ”»_ãã®åˆ‡ã‚Œç”¨ã®è‰¯ã•ã¨^ç²å¾—ã® / ã°ã‚‰ã¤ãã®å°‘ãªã•ã¯^æ ¼ã¨ç†ã®é‡ã•ã® / ç¥žæ¥­çš„ãªãƒãƒ©ãƒ³ã‚¹ã‹ã‚‰ãã¦ã„ã‚‹_ /
+EN: A dwarf smith's / axe. Its steady / damage
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=607
+JP: ã‚ã‚‹å†’æ›¸äº‹æŒãŒ^å¤å¤ã®è¨€å†’æ³•ã‚’ä¸Žè“„ / ã—é€ ã£ãŸæ‰‹æ”»_ãã®æ›¸å±žã¯^ã¾ã°ã‚†ã„ / å…‰ã‚’ç™ºã—^è£…å‚™è€…ã®ä½“åŠ›ã‚’å›žå¾©ã•ã›^ / å®ã«å¯¾ã—ã¦ã¯ç½ã‚Šã‚’ã•ãã†åŠ›ãŒã‚ã‚‹_ /
+EN: A scholar mixed in / ancient lore. It / heals
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=610
+JP: ç¥žä¼šã‚’èª ã„ã¤ã¥ã‘ãŸç›—è³ŠãŒæ‰‹ã«ã—ã¦ã„ / ãŸæ‰‹æ”»_å°‘ã•ã‚ŒãŸç¥žã®ä½¿ã„ãŒ^æ‰‹æ”»ã‚’ / æŒã£ã¦ã„ã‚‹ã ã‘ã§^ç¥žè–MPã‚’å“¡å°‘ã• / ã›ã‚‹_ /
+EN: A thief who mocked / the gods carried / it.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=616
+JP: å¤ã®æˆ¦å£«ã®å¥¥ãŒã“ã‚ã‚‰ã‚Œã¦ã„ã‚‹ã¨ã„ã† / æˆ¦æ”»_ãã®åŠ›ã‚’æ®¿æ”¾ã™ã‚Œã°ä½¿æ¯è€…ã‚’å–„ / å±žæ€§ã«å¤‰ãˆ^è£…å‚™è€…ã®ä¿¡é ¼åº¦ã‚’ä¸€å—çš„ / ã«ä¸Šç¾½ã•ã›ã‚‹_ /
+EN: Holds an ancient / warrior's soul. / Release
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=617
+JP: ä½Žåãªãƒ‰ãƒ¯}ãƒ•æˆ¦å£«ã®æˆ¦æ”»_ / åˆ‡ã‚Œç”¨ã«ä¸¦ã‚Œä¸Žãˆã‚‹ãƒ€ãƒ¡}ã‚¸ã‚‚ä½Žã„_ / è£…å‚™ã™ã‚‹ã¨ãƒ–ãƒ¬ã‚¹ã«ã‚‚è§£ããªã‚‹_ /
+EN: A famed dwarf / warrior's axe. / Excellent
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=619
+JP: ä»²é–“ã«è¦‹æŒã¦ã‚‰ã‚Œè¿·å®®ã§å‘½ã‚’è½ã¨ã—ãŸ / æˆ¦å£«ã®æ”»_ / å¨åŠ›ã¯ä¸¦ã‚Œã¦ã„ã‚‹ãŒ^è£…å‚™ã™ã‚‹ã¨ / ä¿¡é ¼åº¦ã®é«˜ä¸‹ãŒã²ã©ããªã‚‹_ /
+EN: A warrior / abandoned in the / maze
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=622
+JP: é¨Žäººã¨å–åã‚’ã¨ã£ãŸçŽ‹ãŒèº«ã«ã¤ã‘ã¦ã„ / ãŸã¨ã•ã‚Œã‚‹_è§£åŠ›ãªç²å¾—åŠ›ã‚’ã‚‚ã¡^[03DC] / é–‹æ¶ˆå‘ª{ä¸é–‹æ—ã¸ã®ç²å¾—ã‚‚å¯èƒ½ã ãŒ^ / ä½¿ã„ã«ã‚ˆã‚Šè£…å‚™è€…ã®å‘½ã¯ã‘ãšã‚‰ã‚Œã‚‹_ /
+EN: Worn by a king / called Demon. / Powerful,
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=631
+JP: ä½Žåãªç¥žè–ãŒç¬‘ã‚Šã‚’ã•ã•ã’ãŸãƒ¡ã‚¤ã‚¹_ / è£…å‚™è€…ã®ä¿¡ä»°å¿ƒã‚’ä½Žã‚^åŠ›ã‚’æ®¿æ”¾ã™ã‚‹ / ã¨ä½¿æ¯è€…ã®ä¿¡ä»°å¿ƒãŒä¸Šç¾½ã™ã‚‹_ / ä¸é–‹æ—ã«å¯¾ã—ã¦ã‚‚è‘—æ¶ˆ_ /
+EN: A famed priest's / mace. Lowers / faith,
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=633
+JP: è–ãªã‚‹æ•™ãˆã‚’çŸ¥ã‚‹ç¥žè–^åº¦ã®çŸ¥é‘‘ã« / ä¸¦ã‚ŒãŸé¨Žäº‹æŒ^ãã®ä¸¡ã¤ã®åŠ›ã‚’æŒã¤ / é›†æ•™åˆ»æ¯æ­¦å™¨_ä¸é–‹æ—ã‚’å€’ã™ç¬‘ã‚Šã¨^ / ç‚Žã®è¨€è‡†ãŒå°ã˜è¾¼ã‚ã‚‰ã‚Œã¦ã„ã‚‹_ /
+EN: A holy weapon of / priest and knight. / Holds fire magic
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=645
+JP: ã‚ªãƒ«ãƒˆãƒ«}ãƒ‰çŽ‹ãŒ^å…µç¥ˆã§ã®æˆ¦ç®±å—ã« / å“ã‚“ã§ä½¿æ¯ã—ãŸãƒ•ãƒ¬ã‚¤ãƒ«_ / æ‰±ã„ã¯ç™ºã—ã„ãŒ^ãã®ä¸€å¾—ã¯å®ã‚’[03DC]é–‹ / ã•ã›ã‚‹ç´¹å´©åŠ›ãŒã‚ã‚‹_ /
+EN: King Ortlead's / battle flail. Hard / to use, opens foes
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=651
+JP: æ€ªäººãŒé–‹ç™ºã—ãŸã¨ã„ã†æŠ•ã’ãƒŠã‚¤ãƒ•_ / å‘½ä¸­æžœã«ä¸¦ã‚Œ^å‹•ãã®ãå™¨ã„å‹•å£«ç³»ã® / é¨Žå£«ã«æ¶ˆå‘ªãŒã‚ã‚‹_å†…å®¹ç²å¾—å¯èƒ½_ /
+EN: A knife made by / a strange master. / Good vs quick foes
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=654
+JP: åäººã‚·ã‚§}ãƒ‰ãŒä½¿ã£ã¦ã„ãŸãƒŠã‚¤ãƒ•_ / å·®ã‚ã¦ä½Žã„å‘½ä¸­æžœã¨å®ã‚’å›£é™¤ã•ã›ã‚‹ / æ¶ˆå‘ªãŒã‚ã‚‹_å†…å®¹ç²å¾—å¯èƒ½_ /
+EN: Master Shade's / knife. High / accuracy
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=661
+JP: ç›—è³Šã®ã¿ãŒè£…å‚™ã§ãã‚‹å”±æ‰‹æ¯å›£æ³•_ / ä½Žã„å‘½ä¸­æžœã«åŠ ãˆ^å®ã‚’æ°—æœ‰ã•ã›ã‚‹ / ã“ã¨ã‚‚ã‚ã‚‹ã¨ã„ã†_å†…å®¹ç²å¾—å¯èƒ½_ /
+EN: A thief-only / thrower. High / accuracy
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=662
+JP: ã‚¨ãƒ«ãƒ•ã®å°‘å¥³ãŒ^æˆ¦å ´ã«å‘ã‹ã†ç‚¹äººã® / ãŸã‚ã«è‡ªã‚‰ã®ä¾ã‚’ã‚‚ã£ã¦é€ ã£ãŸã¨ã•ã‚Œ / ã‚‹å”±æ‰‹æ¯å›£æ³•_å®ã‚’ç½ã‚‰ã›ã‚‹åŠ›ãŒ / ã“ã‚ã‚‰ã‚Œã¦ã„ã‚‹_å†…å®¹ç²å¾—å¯èƒ½_ /
+EN: Made by an elf / maid for a / warrior.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=663
+JP: äººã‚’ä½•äººã‚‚å°‘ã—ãŸç›—è³ŠãŒèº«ã«ã¤ã‘ã¦ã„ / ãŸå”±æ‰‹æ¯å›£æ³•_å°‘å‚·åŠ›ã¯ã™ã•ã¾ã˜ã„ã‚‚ / ã®ã®^ä½¿ã„ã‹ã‚‰ã‹æ‰€æŒè€…ã®ãŠæ›¸ãŒçŸ¥ã‚‰ / ãšã†ã¡ã«å“¡ã£ã¦ã„ã_å†…å®¹ç²å¾—å¯èƒ½_ /
+EN: A killer thief's / throwing weapon. / Deadly, but cursed
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=675
+JP: ã‚ããªãè§£ã•ã‚’æ±‚ã‚^æˆ¦ã„ã®ä¸­ã§å‘½ã‚’ / è½ã¨ã—ãŸæ­¦ç®±å®¶ã®[01E0]_ / ãã®ä½¿å¿µã®ãŠã‚‚ã„ãŒ^è£…å‚™è€…ã®ç”Ÿå‘½åŠ› / ã‚’é«˜ä¸‹ã•ã›ã‚‹_ /
+EN: A warrior's weapon / of endless / seeking.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=682
+JP: é¨Žé“ã«å¥³ã¡ãŸå…µå£«ãŒæŒã£ã¦ã„ãŸã¨ã•ã‚Œ / ã‚‹å”±æ‰‹æ¯é•·æ”»_ã“ã‚ã‚‰ã‚ŒãŸä½¿ã„ãŒè£…å‚™ / è€…ã®ç”Ÿå‘½åŠ›ã‚’å“¡å°‘ã•ã›ã‚‹_ /
+EN: A fallen soldier's / polearm. Its curse / lowers vitality
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=688
+JP: ä¿¡ä»°å¿ƒã‚ãµã‚ŒãŸè·æ¥­ã§ã‚ã‚‹ãƒ¢ãƒ³ã‚¯åˆ»æ¯ / æ­¦å™¨_æ­¦å™¨ã«ã“ã‚ã‚‰ã‚ŒãŸè–ãªã‚‹åŠ›ã¯^ / å®ã®å¿ƒã‚’ç´„ã‚ã‚‹ãŸã‚^ç²å¾—ã•ã‚ŒãŸå®ã¯ / è§£æ¶ˆåŠ›ãŒé«˜ä¸‹ã—ã¦ã—ã¾ã†_ /
+EN: A monk weapon full / of faith. Lowers a / foe's will
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=717
+JP: ç¥žè–ã®ãƒ¯ã‚¤ãƒ³ /
+EN: Priest Cocktail /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=718
+JP: é¨Žæ³•ã®ãƒ¯ã‚¤ãƒ³ /
+EN: Priest Wine /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=721
+JP: é¨Žäº‹æŒã®å®æ•‘ /
+EN: Thief Soul /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=723
+JP: å¿è€…ã®å®æ•‘ /
+EN: Priest Soul /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=726
+JP: é›†æ•™ã®å®æ•‘ /
+EN: Knight Soul /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=727
+JP: å†’æ›¸äº‹æŒã®å®æ•‘ /
+EN: Bishop Soul /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=729
+JP: ç¾©è³Šã®å®æ•‘ /
+EN: Monk Soul /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=731
+JP: æš—å…µå£«ã®å®æ•‘ /
+EN: Holy Knight Soul /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=732
+JP: å°†å¾Œã®å®æ•‘ /
+EN: Dark Knight Soul /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=735
+JP: ãƒªãƒ•ãƒ¬ã‚¯ãƒˆã®ç© /
+EN: Phantom Thief Soul /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=756
+JP: ç›—è³Šã«è»¢è·ã§ãã‚‹å®æ•‘_ /
+EN: Allows class / change to Thief
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=758
+JP: ç¥žè–ã«è»¢è·ã§ãã‚‹å®æ•‘_ /
+EN: Allows class / change to Priest
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=761
+JP: å…µå£«ã«è»¢è·ã§ãã‚‹å®æ•‘_ /
+EN: Allows class / change to Knight
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=762
+JP: é›†æ•™ã«è»¢è·ã§ãã‚‹å®æ•‘_ /
+EN: Allows class / change to Bishop
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=764
+JP: ãƒ¢ãƒ³ã‚¯ã«è»¢è·ã§ãã‚‹å®æ•‘_ /
+EN: Allows class / change to Monk
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=766
+JP: è–å…µå£«ã«è»¢è·ã§ãã‚‹å®æ•‘_ /
+EN: Allows class / change to Holy / Knight
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=767
+JP: æš—å…µå£«ã«è»¢è·ã§ãã‚‹å®æ•‘_ /
+EN: Allows class / change to Dark / Knight
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=770
+JP: ç¾Žç›—ã«è»¢è·ã§ãã‚‹å®æ•‘_ /
+EN: Allows class / change to Phantom / Thief
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=777
+JP: ãƒ¬ãƒ™ãƒ«2ç¥žè–é¨Žæ³•ã®MPãŒå…¨å›žå¾©ã™ã‚‹_ / å›žå¾©ã™ã‚‹é¨Žæ³•ãƒ¬ãƒ™ãƒ«ãŒæ•—æ—¥å¤‰é™¤ã™ã‚‹ / ä¸æ€è­°ãªé¨Žæ³•çµ¶_ /
+EN: Restores all Lv2 / Priest spell MP. / Strange draught
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=778
+JP: ãƒ¬ãƒ™ãƒ«3ç¥žè–é¨Žæ³•ã®MPãŒå…¨å›žå¾©ã™ã‚‹_ / å›žå¾©ã™ã‚‹é¨Žæ³•ãƒ¬ãƒ™ãƒ«ãŒæ•—æ—¥å¤‰é™¤ã™ã‚‹ / ä¸æ€è­°ãªé¨Žæ³•çµ¶_ /
+EN: Restores all Lv3 / Priest spell MP. / Strange draught
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=779
+JP: ãƒ¬ãƒ™ãƒ«4ç¥žè–é¨Žæ³•ã®MPãŒå…¨å›žå¾©ã™ã‚‹_ / å›žå¾©ã™ã‚‹é¨Žæ³•ãƒ¬ãƒ™ãƒ«ãŒæ•—æ—¥å¤‰é™¤ã™ã‚‹ / ä¸æ€è­°ãªé¨Žæ³•çµ¶_ /
+EN: Restores all Lv4 / Priest spell MP. / Strange draught
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=780
+JP: ãƒ¬ãƒ™ãƒ«5ç¥žè–é¨Žæ³•ã®MPãŒå…¨å›žå¾©ã™ã‚‹_ / å›žå¾©ã™ã‚‹é¨Žæ³•ãƒ¬ãƒ™ãƒ«ãŒæ•—æ—¥å¤‰é™¤ã™ã‚‹ / ä¸æ€è­°ãªé¨Žæ³•çµ¶_ /
+EN: Restores all Lv5 / Priest spell MP. / Strange draught
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=781
+JP: ãƒ¬ãƒ™ãƒ«6ç¥žè–é¨Žæ³•ã®MPãŒå…¨å›žå¾©ã™ã‚‹_ / å›žå¾©ã™ã‚‹é¨Žæ³•ãƒ¬ãƒ™ãƒ«ãŒæ•—æ—¥å¤‰é™¤ã™ã‚‹ / ä¸æ€è­°ãªé¨Žæ³•çµ¶_ /
+EN: Restores all Lv6 / Priest spell MP. / Strange draught
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=782
+JP: ãƒ¬ãƒ™ãƒ«7ç¥žè–é¨Žæ³•ã®MPãŒå…¨å›žå¾©ã™ã‚‹_ / å›žå¾©ã™ã‚‹é¨Žæ³•ãƒ¬ãƒ™ãƒ«ãŒæ•—æ—¥å¤‰é™¤ã™ã‚‹ / ä¸æ€è­°ãªé¨Žæ³•çµ¶_ /
+EN: Restores all Lv7 / Priest spell MP. / Strange draught
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=819
+JP: ãƒ¤ã‚¤ãƒã®å›£ /
+EN: Scroll of Thief Eye /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=852
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«3[FFF0] / å®1ä½“ã®å›žé¿åŠ›ã‚’é«˜ä¸‹ã•ã›ã‚‹é¨Žæ³• / ãƒ‡ãƒ—ã‚¹ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv3[FFF0] Lowers 1 / foe
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=853
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«2[FFF0] / å®1ä½“ã®è§£æ¶ˆåŠ›ã‚’é«˜ä¸‹ã•ã›ã‚‹é¨Žæ³• / ãƒ•ã‚£ãƒ–ãƒ«ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv2[FFF0] Lowers 1 / foe
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=856
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«2[FFF0] / å®1å®¹ã®é¨Žæ³•ã‚’å°ã˜ã‚‹é¨Žæ³• / ã‚µãƒ­ãƒ¡ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv2[FFF0] Seals 1 / group's
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=864
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«4[FFF0] / å®ç®±ã«ã‹ã‘ã‚‰ã‚ŒãŸç½ ã®ç™ºå‹•ã‚’è§£ãé¨Žæ³• / ãƒªãƒ”}ãƒ«ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv4[FFF0] Cancels / chest
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=874
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«1[FFF0] / ç”¨æ–¹1äººã®HPã‚’å›žå¾©ã™ã‚‹é¨Žæ³• / ãƒ•ã‚£}ãƒ«ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv1[FFF0] Restores / 1
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=876
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«1[FFF0] / å®1ä½“ã«ä½¿å±žæ€§ãƒ€ãƒ¡}ã‚¸ã‚’ä¸Žãˆã‚‹é¨Žæ³• / ãƒãƒ¬ãƒƒãƒ„ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv1[FFF0] Dark / dmg:
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=877
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«1[FFF0] / ãƒ•ãƒ­ã‚¢è¯ã«æ®‹ã‚‹å®ç®±ã®æ•°ã‚’èª¿ã¹ã‚‹é¨Žæ³• / ã‚·}ãƒ•ã‚¢ã‚¤ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv1[FFF0] Counts / chests
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=880
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«2[FFF0] / ç”¨æ–¹1äººã®å›žé¿åŠ›ãŒä¸Šç¾½ã™ã‚‹é¨Žæ³• / ãƒ–ãƒ¬ã‚¹ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv2[FFF0] Raises 1 / ally
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=881
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«1[FFF0] / ç”¨æ–¹1äººã®è§£æ¶ˆåŠ›ãŒä¸Šç¾½ã™ã‚‹é¨Žæ³• / ãƒ—ãƒ­ãƒ†ã‚¯ãƒˆã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv1[FFF0] Raises 1 / ally
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=882
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«4[FFF0] / å®1å®¹ã«ä½¿å±žæ€§ãƒ€ãƒ¡}ã‚¸ã‚’ä¸Žãˆã‚‹é¨Žæ³• / ã‚¢ãƒ¢}ã‚¯ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv4[FFF0] Dark / dmg:
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=883
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«4[FFF0] / ç”¨æ–¹1å®¹ã®HPãŒå›žå¾©ã™ã‚‹é¨Žæ³• / ãƒ•ã‚£}ãƒ«ã‚ºã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv4[FFF0] Restores / group
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=884
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«5[FFF0] / å®1å®¹ã«æ¯’ã‚’ä¸Žãˆã‚‹é¨Žæ³• / ãƒã‚¤ã‚ºãƒ³ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv5[FFF0] Poisons / 1
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=885
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«3[FFF0] / å®1å®¹ã‚’åˆ¶ã‚Œã•ã›ã¦å‹•ã‘ãªãã™ã‚‹é¨Žæ³• / ã‚¹ãƒˆãƒ¬ã‚¤ãƒ³ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv3[FFF0] / Paralyzes
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=886
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«2[FFF0] / ç”¨æ–¹1äººã®æ¯’ã‚’å›žå¾©ã™ã‚‹é¨Žæ³• / ãƒã‚¤ã‚ºã‚±ã‚¢ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv2[FFF0] Cures / ally
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=887
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«3[FFF0] / ç”¨æ–¹1äººã®å‹åˆ¶ã‚’å›žå¾©ã™ã‚‹é¨Žæ³• / ãƒ‘ãƒ©ã‚ºã‚±ã‚¢ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv3[FFF0] Cures / paralysis
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=888
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«4[FFF0] / ç”¨æ–¹1äººã®ææ€–ã‚’å›žå¾©ã™ã‚‹é¨Žæ³• / ãƒ•ã‚£ã‚¢ã‚±ã‚¢ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv4[FFF0] Cures / fear
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=889
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«6[FFF0] / ã‚¹ã‚¿ãƒŸãƒŠã‚’å…¨å›žå¾©ã—^ / ä¸€å¾©æœŸé–“é™¤é›²ã—ãªãã™ã‚‹é¨Žæ³• / ãƒã‚¤ã‚¿ãƒ«ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv6[FFF0] Restores / stamina
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=890
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«6[FFF0] / ç”¨æ–¹1äººã‚’ä¸€å¾©çµæžœã§å¾©æ´»ã•ã›ã‚‹é¨Žæ³• / ã‚«}ã‚«ã‚¹ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv6[FFF0] Revives / 1
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=891
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«6[FFF0] / ç”¨æ–¹1äººã®HPã¨ã‚¹ãƒ†}ã‚¿ã‚¹å–é€šã‚’ / å›žå¾©ã™ã‚‹é¨Žæ³•ã‚¦ã‚£ãƒ«ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv6[FFF0] Restores / HP
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=892
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«5[FFF0] / ãƒ€}ã‚¯ãƒ•ã‚©ã‚°ã‚’å–ã‚Šè§£ãé¨Žæ³• / ãƒªãƒ¥ãƒŸãƒ«ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv5[FFF0] Clears / Dark
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=893
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«7[FFF0] / ä¸é–‹æ—ä»¥å¤–ã®å®ã‚°ãƒ«}ãƒ—ã«å¯¾ã—ã¦ / ãƒ‡ã‚£ã‚¹ãƒšãƒ«ã‚’è‘—æ¶ˆã«ã™ã‚‹é¨Žæ³• / ã‚¢ãƒ³ãƒ‡ãƒƒãƒ‰ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv7[FFF0] Makes / Dispel
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=894
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«3[FFF0] / ä»Šã„ã‚‹ãƒ•ãƒ­ã‚¢ã®ä¸Šã‚ŠéšŽæ®µå‰ã« / å…†é–“ç‰©å‹•ã™ã‚‹é¨Žæ³• / ãƒˆãƒ©ãƒ³ã‚¹ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv3[FFF0] Warps to / stairs
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=895
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«5[FFF0] / æ•—ã‚¿}ãƒ³è‡ªå‹•ã§HPãŒå›žå¾©ã™ã‚‹é¨Žæ³• / ãƒªã‚«ãƒ}ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv5[FFF0] / Auto-heals
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=896
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«6[FFF0] / ä½¿ã„ã®è£…å‚™ã‚’å¤–ã™é¨Žæ³• / ã‚¢ãƒ³ã‚«}ã‚ºã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv6[FFF0] Removes / cursed
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=898
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«7[FFF0] / å®å…¨ä½“ã«ä½¿å±žæ€§ãƒ€ãƒ¡}ã‚¸ã‚’ä¸Žãˆã‚‹é¨Žæ³• / ã‚¹ãƒ†ã‚£ã‚°ãƒžã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv7[FFF0] Dark / dmg:
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=899
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«5[FFF0] / ç”¨æ–¹å…¨å“¡ã®HPã‚’å›žå¾©ã™ã‚‹é¨Žæ³• / ãƒ©ãƒ•ã‚£}ãƒ«ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv5[FFF0] Restores / all
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=900
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«7[FFF0] / è‡ªã‚‰ã®å‘½ã¨å¼•ãæ›´ãˆã« / å®1ä½“ã‚’[03DC]é–‹ã•ã›ã‚‹é¨Žæ³• / ã‚ªãƒ•ã‚»ãƒƒãƒˆã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv7[FFF0] Gives / life
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=901
+JP: [FF02]ç¥žè–é¨Žæ³•ãƒ¬ãƒ™ãƒ«7[FFF0] / è‡ªã‚‰ã®å‘½ã¨å¼•ãæ›´ãˆã« / ç”¨æ–¹1äººã‚’å¾©æ´»ã•ã›ã‚‹é¨Žæ³• / ãƒªãƒ´ã‚¡ã‚¤ãƒ´ã‚’ç¿’ä¸‹ã™ã‚‹é¨Žæ³•å›£_ /
+EN: [FF02]Priest / Lv7[FFF0] Gives / life
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=937
+JP: å¿è€…ã®åŠé¡” /
+EN: Thief Skin /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=939
+JP: é¨Žäº‹æŒã®ãƒ”ã‚¢ã‚¹ /
+EN: Priest Hair /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=942
+JP: åœ°ä½¿ã®çŸ³ /
+EN: Bishop Gem /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=977
+JP: é¨Žã«å–ã‚Šã¤ã‹ã‚Œç†æ€§ã‚’æˆã£ãŸ / é£²æˆ¦å£«ãŒä½¿ã£ã¦ã„ãŸç¥ _ / æ‰“ã‚ŒãŸç†ã®å…ˆã‹ã‚‰é¨ŽåŠ›ãŒã»ã¨ã°ã—ã‚‹_ /
+EN: Blade used by a / mad, possessed / warrior.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=978
+JP: ç›—è³Šã®ä½“è¯ã‚’é€²ã‚Œã¦ã„ãŸè…•ã¯ / é¨Žå£«ã®è…•ã®ä¸­ã§é¨ŽåŠ›ãŒä½Žã„ã¨ã„ã‚ã‚Œ^ / å†’æ›¸äº‹ã«å†’ã‹ã›ãªã„ã¨ã•ã‚Œã¦ã„ã‚‹_ /
+EN: Skin from a / thief's corpse. / Weak
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=980
+JP: é¨Žã«ã‚€ã—ã°ã¾ã‚ŒãŸç¥žã®ä¾ã‚’ã‚€ã—ã£ãŸ / ã‚‚ã®_ç¥žã®å¥¥ãŒã‹ã™ã‹ã«æ®‹ã£ã¦ãŠã‚Š^ / ãã‚ŒãŒé¨Žæ³•ã‚’é€ ã‚‹ãã¨ãªã‚‹_ /
+EN: Hair torn from a / possessed priest. / A
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=991
+JP: æ›¸ã®ã‚«ã‚® /
+EN: Inn Ticket /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=1013
+JP: ã‚¹ã‚±ãƒ‡ã‚£ãƒ ã®ä¸Š /
+EN: Princess Brooch /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=1040
+JP: å†’é™ºè€…ãŒè¿·å®®ã«å…¥ã‚‹è­·^ / çŽ‹æˆ¦å…µå£«å›£ã‚ˆã‚Šé…ã‚‰ã‚Œã‚‹_ / ä»²äººã‚’é‘‘åˆ¥ã™ã‚‹ãŸã‚ã®ã‚‚ã®ã§^ / ã“ã‚ŒãŒãªã‘ã‚Œã°è¿·å®®ã‚’æŽ¢ç´¢ã§ããªã„_ /
+EN: Issued by the / Royal Guard before / entering
+
+FILE=data/translate_chunks/chunk_md_import.json RES=34 MI=1042
+JP: ãƒ´ã‚£ã‚¬}å•†åº—ã§è¡Œã‚ã‚ŒãŸ^ / [ã‚ª}ãƒ€}ã—ãŸã‚‰å®¿å¤ãŒOã }(ã‚ª}ãƒ€})ã‚­ãƒ£ãƒ³ãƒš}ãƒ³] / ã§é…ã‚‰ã‚ŒãŸãƒã‚±ãƒƒãƒˆ_ / å®¿æ³Šå—ã«å¤æ›¸ã‚’ã‹ãˆã—ã¦ã‚‚ã‚‰ãˆã‚‹_ /
+EN: A Vigger's Shop / campaign ticket. / Good
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=26
+JP: ã‚ª}ã‚¬ãƒ­}ãƒ‰ /
+EN: Ogre Lord
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=36
+JP: ãƒ´ã‚¡ãƒ³ãƒ‘ã‚¤ã‚¢ãƒ­}ãƒ‰ /
+EN: Vampire Lord
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=43
+JP: ãƒ¬ã‚¤ãƒ}ãƒ­}ãƒ‰ /
+EN: Labor Lord
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=46
+JP: ãƒ—ãƒª}ã‚¹ãƒ†ã‚¹ /
+EN: Priestess
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=49
+JP: LV1ãƒ—ãƒª}ã‚¹ãƒˆ /
+EN: Lv1 Priest
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=52
+JP: LV1ãƒ“ã‚·ãƒ§ãƒƒãƒ— /
+EN: Lv1 Bishop
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=60
+JP: LV4ã‚·}ãƒ•A /
+EN: Lv4 Thief a
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=61
+JP: ãƒžã‚¹ã‚¿}ã‚·}ãƒ•A /
+EN: Master Thief a
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=62
+JP: ãƒ•ã‚¡ãƒ³ãƒˆãƒ ã‚·}ãƒ•A /
+EN: Phantom Thief a
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=72
+JP: ãƒã‚¤ã‚¦ã‚£ã‚¶}ãƒ‰ /
+EN: High Wizard
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=74
+JP: LV3ãƒ—ãƒª}ã‚¹ãƒˆ /
+EN: Lv3 Priest
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=75
+JP: LV5ãƒ—ãƒª}ã‚¹ãƒ†ã‚¹ /
+EN: Lv5 Priestess
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=76
+JP: LV8ãƒ—ãƒª}ã‚¹ãƒˆ /
+EN: Lv8 Priest
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=77
+JP: ãƒã‚¤ãƒ—ãƒª}ã‚¹ãƒˆ /
+EN: High Priest
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=78
+JP: ãƒžã‚¹ã‚¿}ãƒ—ãƒª}ã‚¹ãƒ†ã‚¹ /
+EN: Master Priestess
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=79
+JP: ã‚¢}ã‚¯ãƒ—ãƒª}ã‚¹ãƒˆ /
+EN: Arch Priest
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=80
+JP: LV8ãƒ“ã‚·ãƒ§ãƒƒãƒ— /
+EN: Lv8 Bishop
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=81
+JP: LV10ãƒ“ã‚·ãƒ§ãƒƒãƒ— /
+EN: Lv10 Bishop
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=93
+JP: ã‚¨ãƒ«ãƒ€}ãƒ‡}ãƒ¢ãƒ³ /
+EN: Elder Demon
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=99
+JP: ã‚ª}ã‚¯ã‚­ãƒ³ã‚° /
+EN: Orc King
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=108
+JP: ãƒžã‚¹ã‚¿}ãƒ‹ãƒ³ã‚¸ãƒ£ /
+EN: Master Ninja
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=109
+JP: ã‚¶{ãƒã‚¤ãƒžã‚¹ã‚¿} /
+EN: The High Master
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=113
+JP: LV10ã‚·}ãƒ• /
+EN: Lv10 Thief
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=114
+JP: ãƒžã‚¹ã‚¿}ã‚·}ãƒ•B /
+EN: Master Thief B
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=116
+JP: LV4ã‚·}ãƒ•B /
+EN: Lv4 Thief B
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=117
+JP: ãƒžã‚¹ã‚¿}ã‚·}ãƒ•B /
+EN: Master Thief B
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=118
+JP: ãƒ•ã‚¡ãƒ³ãƒˆãƒ ã‚·}ãƒ•B /
+EN: Phantom Thief B
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=119
+JP: LV10ã‚·}ãƒ• /
+EN: Lv10 Thief
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=120
+JP: ãƒžã‚¹ã‚¿}ã‚·}ãƒ•C /
+EN: Master Thief C
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=124
+JP: ãƒžã‚¹ã‚¿}ãƒ‹ãƒ³ã‚¸ãƒ£B /
+EN: Master Ninja B
+
+FILE=data/translate_chunks/chunk_md_import.json RES=36 MI=125
+JP: ã‚¶{ãƒã‚¤ãƒžã‚¹ã‚¿}B /
+EN: The High Master B
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=38
+JP: ç›—è³Š /
+EN: Thief /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=40
+JP: ç¥žè– /
+EN: Priest /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=43
+JP: é›†æ•™ /
+EN: Bishop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=47
+JP: ãƒ¢ãƒ³ã‚¯ /
+EN: Monk /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=51
+JP: æ•™æŽˆ /
+EN: Knight /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=96
+JP: è…•ã®æ°—ãŒèžã^é€šã«è§£è€…ã¨ã®ç®±ã„ã‚’ / æ±‚ã‚ã¦ã„ã‚‹_ /
+EN: Skilled warrior who / seeks strong foes. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=109
+JP: ç”Ÿã¾ã‚Œã¤ãå•†äººæ°—è³ªãŒã‚ã‚Š^å•†å£²ãªã©ã« / è§£ã„é–¢å¿ƒã‚’ã‚‚ã£ã¦ã„ã‚‹_ /
+EN: Born merchant soul. / Loves trade deeply. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=128
+JP: é¨Žäº‹æŒé¨Žæ³•ã®ä½¿ã„æ‰‹_ / å…¨ã¦ã®é¨Žäº‹æŒé¨Žæ³•ã‚’ç¿’ä¸‹å¯èƒ½_ /
+EN: Master of Sorcery. / Can learn all / Sorcery spells. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=129
+JP: ç¥žè–é¨Žæ³•ã®ä½¿ã„æ‰‹_ / ä¸é–‹æ—ã‚’é€€é™¤ã™ã‚‹ãƒ‡ã‚£ã‚¹ãƒšãƒ«ã‚’è¦šãˆã‚‹ã“ã¨ãŒã§ãã¾ã™_ / å…¨ã¦ã®ç¥žè–é¨Žæ³•ã‚’ç¿’ä¸‹å¯èƒ½_ /
+EN: Holy magic master. / Can Dispel undead. / All Holy spells. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=131
+JP: é¨Žå£«ã‚’æ°—æœ‰ã•ã›ã‚‹ã“ã¨ãŒã§ãã‚‹æ­¦å™¨^éŽ§ã‚’è£…å‚™ã§ãã¾ã™_ / Lv5ã¾ã§ã®é¨Žäº‹æŒé¨Žæ³•ã‚’ç¿’ä¸‹å¯èƒ½_ /
+EN: Knight gear usable. / Learns Sorcery / up to Lv5. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=170
+JP: GUARD /
+EN: Guard /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=177
+JP: QUEEN GUARD /
+EN: Queen Guard /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=184
+JP: NORBLE /
+EN: Noble /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=38 MI=186
+JP: SAGE /
+EN: Sage /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=43
+JP: MASTER /
+EN: Master
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=129
+JP: ãƒãƒ¬ãƒƒãƒ„ /
+EN: Thief Eye
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=218
+JP: S{Jã‚¢ã‚¿ãƒƒã‚¯ /
+EN: Front Guard
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=281
+JP: ãƒ‘}ãƒ†ã‚£å…¨å“¡ã§ä½“é–“ãŸã‚Šç²å¾—ã‚’è¡Œã„^[FF07]å®å…¨ä½“ã«ãƒ€ãƒ¡}ã‚¸ã‚’  / ä¸Žãˆã‚‹_[FFF0][ãƒ•ãƒ­ãƒ³ãƒˆã‚¬}ãƒ‰]ã§ãƒ–ãƒ­ãƒƒã‚¯ã•ã‚Œãªã„é™ã‚Š^å›ž  / é¿ã•ã‚Œã‚‹ã“ã¨ã¯ãªã„_                  /
+EN: Evolved Slay Crash with a Monk.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=286
+JP: Wã‚¹ãƒ©ãƒƒã‚·ãƒ¥ãŒ^å…µå£«ã®è¿½åŠ ã«ã‚ˆã£ã¦å¤‰é™¤ã—ãŸã‚‚ã®_    / å‰å£²2äººãŒæ­¦å™¨ã‚’æŒ¯ã‚‹ã£ã¦[FF07]ã‚«ãƒžã‚¤ã‚¿ãƒã‚’ç™ºç”Ÿã•ã›^ç²å¾—_[FFF0]  / ç›®ä¸ã®å†…æ–¹ã«ã„ã‚‹å®ã«ã‚‚ãƒ€ãƒ¡}ã‚¸ã‚’ä¸Žãˆã‚‹ã“ã¨ãŒã‚ã‚‹_   /
+EN: Evolved SJ Attack with a Dark Knight.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=287
+JP: å‰å£²3äººãŒ^ä¸€ä½“ã«ãªã£ã¦æ­¦å™¨ã‚’æŒ¯ã‚Šå›žã—ãªãŒã‚‰^å®ã®  / å‰ã‚’ä¸€æ°—ã«ã‹ã‘ã¬ã‘^[FF07]å®å‰å£²1å®¹ã«ãƒ€ãƒ¡}ã‚¸ã‚’ä¸Žãˆã‚‹_[FFF0]   / ä¸Žãˆã‚‹ãƒ€ãƒ¡}ã‚¸ã“ãé«˜ã„ãŒ^ä½Žã„å‘½ä¸­æžœãŒãƒã‚¤ãƒ³ãƒˆ_    /
+EN: Evolved Hold Attack with a Bishop.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=342
+JP: ã‚¢ãƒ¬ã‚¤ãƒ‰ã‚¢ã‚¯ã‚·ãƒ§ãƒ³ã®ã‚»ãƒƒãƒ†ã‚£ãƒ³ã‚°ã‚’å…ƒã«å¸°ã—ã¾ã—ãŸ /
+EN: I don't mind entrusting you with the noble
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=343
+JP: éƒ¨éšŠã‚’å¤‰æ›´ã—^çµ‚äº†ã—ã¾ã™ã‹? /
+EN: Our Vigger Shop is currently recruiting
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=360
+JP: ä¸€æ–¹é€šè¡Œã«ãªã£ã¦ã‚‹å¸¸ã‹ã‚‰å‡ºã‚‰ã‚Œãªã / ãªã£ã¡ã‚ƒã£ãŸã‚“ã ã£ã¦ã°! / ã¯ã‚„ã^åŠ©ã‘ã¦! / ã“ã®éšŽã®ã©ã“ã‹ã®è½ã¨ã—ç©´ã«è½ã¡ã¡ã‚ƒã£ã¦ / ã“ã“ã«ã„ã‚‹ã‚ã‘ãªã‚“ã ã‘ã©ã‚‚! /
+EN: The Knight Order is conducting level checks
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=365
+JP: ã‚µã‚­ãƒ¥ãƒã‚¹ã­ãˆã•ã¾ã¨ãŠãªã¯ã—ã—ãŸã„ã‘ã© / ã™ãã«é€ƒã’ã¦ã„ã£ã¡ã‚ƒã†ã‚“ã _ / ã„ã¾ãŒãŠã¯ãªã—ã®ãƒãƒ£ãƒ³ã‚¹! / ç›®ã®å‰ã§ç½ã‚‹ã‚µã‚­ãƒ¥ãƒã‚¹ã­ãˆã•ã¾ã‚’ / ã¨ã‚ŠãŠã•ãˆã¦ãŠã„ã¦ã»ã—ã„ã‚“ã ~_ /
+EN: To master the way of the samurai and find
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=381
+JP: = ã‘ ã ã® ã‚† ã ã¥ ã… ã‚» ãƒ ãƒ¨ ã‚² ãƒ” ã‚§ éŽ§ è¿· ä¿¡ è½ è£… äº‹ åº¦ [0182] å¸° å®¿ ä¼š éšŠ æ‰€ å‰Š ç”· æ‰€
+EN: Castle Steward
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=390
+JP: ã‚®ãƒ¨}ãƒ  /
+EN: Merchant Guild
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=398
+JP: ãƒ•ãƒ‰ã‚¦ /
+EN: Knight Order
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=444
+JP: ã‚µãƒ¬ãƒ æ•™ä¼šè¡¨æ•™æ´»å‹• /
+EN: Salem Church Missionary Work
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=505
+JP: ç„¶æ€ªäºº /
+EN: Dragon Hunter
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=506
+JP: æ‚ªé¨Žæ€ªäºº /
+EN: Demon Hunter
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=507
+JP: å¥½è…•æ€ªäºº /
+EN: Vampire Hunter
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=513
+JP: ç›—è³Šã®ç›® /
+EN: Thief Eye
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=525
+JP: ãƒ´ã‚£ã‚¬}å•†åº— /
+EN: Vigor General Store
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=534
+JP: å†’æ›¸äº‹ã‚®ãƒ«ãƒ‰ /
+EN: Mage Guild
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=535
+JP: å†’é™ºè€…ã‚®ãƒ«ãƒ‰ /
+EN: Adventurer's Guild
+
+FILE=data/translate_chunks/chunk_md_import.json RES=39 MI=537
+JP: å…µå£«å›£ /
+EN: Soldier Corps
+
+FILE=data/translate_chunks/chunk_md_import.json RES=41 MI=1
+JP: ã“ã“ã¯ã‚µãƒ¬ãƒ æ•™ä¼š_ / |ä½•ç”¨ãªæ–¹ãŒ / ä¸€ä½“ã©ã‚“ãªæ¶ˆæ¯ã§? /
+EN: Salem Church. What / business do you / have here? /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=41 MI=2
+JP: ã‚µãƒ¬ãƒ æ•™ä¼šã¸ã‚ˆã†ã“ã_ / ãŠã‚„^å¯ºæ‰‹ã®åŠ©ã‘ãŒ / å¿…è¦ãªã‚ˆã†ã§ã™ãª_ /
+EN: Welcome to Salem / Church. Looks like / you need our help. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=41 MI=4
+JP: ã§ã¯^å¯ºãŒã‚µãƒ¬ãƒ æ•™ä¼šã« / å¿…è¦ãªã ã‘ã®ä¿®éšŽã‚’ / ã„ãŸã ãã¾ã—ã‚‡ã†ã‹_ /
+EN: Then we shall accept / the offering the / church requires. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=42 MI=1
+JP: å†’é™ºè€…ã®å®¿ã¸ã‚ˆã†ã“ã_ / ã“ã“ã¯å¿ƒèº«ã‚’å¸°ã‚^ / ã¾ãŸæ–°ãŸãªåŠ›ã‚’ä¸‹ã‚‹å ´æ‰€_ /
+EN: Welcome to the inn. / Rest your body and / gain strength. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=42 MI=2
+JP: å†’é™ºè€…ã®å®¿ã¸ã‚ˆã†ã“ã_ / ãŠã‚„^ãƒ¬ãƒ™ãƒ«ã‚¢ãƒƒãƒ— / ã•ã‚Œã‚‹æ–¹ãŒãŠã‚‰ã‚Œã¾ã™ã­_ /
+EN: Welcome to the inn. / it seems someone is / ready to level up.
+
+FILE=data/translate_chunks/chunk_md_import.json RES=42 MI=8
+JP: å®¿æ³Šã—ã¾ã™ã‹? /
+EN: Stay at the inn?
+
+FILE=data/translate_chunks/chunk_md_import.json RES=44 MI=6
+JP: æ±ºã—ã¦è¿·åˆ‡ã‚‰ãªã„å…ƒã§ã‚ã‚Š / å¿ å®Ÿãªæˆ¦å£«ã§ã™_ /   /
+EN: An unfailing ally / and loyal warrior. /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=1
+JP: ãƒ´ã‚£ã‚¬}ã—ã‚‡ã†ã¦ã‚“ã« / ã‚ˆã†ã“ã!!! /   /
+EN: Welcome to / Vigor's shop! /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=8
+JP: ãƒ´ã‚£ã‚¬}å•†åº—ã® / ã‚«ãƒ³ãƒªã‚‚ã—ã¦ãã§ã‚ˆ! /   /
+EN: I manage Vigor's / shop too! /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=9
+JP: ã‚¢ãƒ«ãƒã‚¤ãƒˆã‚’é›‡ã†ã£ã¦ã®ã¯ / ãªã‚“ã ã‹åº—ã£ã½ãã¦ / ãˆãˆã ã‚ˆãªã‚~! /
+EN: Hiring workers makes / this place feel like / a real shop! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=16
+JP: ã‚½ã‚¦ã‚³ã«ãªã«ã‹ / ã—ã¾ã£ã¨ãã ã‹? /   /
+EN: Want to store / something? /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=18
+JP: ã‚ãŒãƒ´ã‚£ã‚¬}ã—ã‚‡ã†ã¦ã‚“ã® / ã‘ã„ãˆã„ã˜ã‚‡ã†ãŸã„ã‚’ / ãŠã—ãˆã¦ã‚„ã‚‹ã ã‚ˆ! /
+EN: Let me show you / how Vigor's shop / is doing! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=19
+JP: ã‚ã‚Œã‚‰ãŒãƒ´ã‚£ã‚¬}å•†åº—ã‚’ / ã‚¹ãƒ†ã‚­ã«åœ°è£…ã™ã‚‹ã‹?! /
+EN: Shall we renovate / Vigor's shop? /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=29
+JP: ã©ã‚“ã©ã‚“ã‚ª}ãƒ€}ã‚’ / ã“ãªã—ã¦^åº—ã®è©•åˆ¤ã‚’ / ã‚°}ãƒ³ã¨ã‚ã’ã¦ãã§! /
+EN: Keep filling / orders to boost / the shop's fame! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=33
+JP: åº—ã®è©•åˆ¤ãŠã¨ã™ã‚ˆã†ãª / ã“ã¨ã¯ã‚«ãƒ³ãƒ™ãƒ³ã—ã¦ / ãã‚Œã ã‚ˆãª| /
+EN: Don't do anything / that'll hurt the / shop's reputation! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=39
+JP: ã©ã‚Œã‚’ã‚ãšã‘ã‚‹ã ã‚ˆ? /   /   /
+EN: Which to store? /   /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=49
+JP: ã»ã ! / ã“ã‚ŒãŒãŸã ã„ã¾ã® / ãƒ´ã‚£ã‚¬}å•†åº—æƒ…å ±ã ! /
+EN: Right then! / Here's the shop / status report! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=50
+JP: ã‚ã‚Œã‚‰ãŒãƒ´ã‚£ã‚¬}å•†åº—ã‚’ / ãå®ã«åœ°è£…ã™ã‚‹ã‹?! /   /
+EN: Renovate Vigor's / shop with gems? /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=52
+JP: ã‚ã‚Œã‚‰ãŒãƒ´ã‚£ã‚¬}å•†åº—ã® / æ”¯åº—ã‚’é€ ã‚‹ã‹! / ãã£ã‹ãã£ã‹}! /
+EN: Build a branch / of Vigor's shop? / Alright! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=53
+JP: æ”¯åº—ã‚’ãƒªãƒ‹ãƒ¥ã‚¢}ãƒ« / ã‚ª}ãƒ—ãƒ³ã•ã›ã‚‹ã¹ã‹? /   /
+EN: Reopen the / branch store? /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=55
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 20å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 20 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=56
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 30å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 30 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=57
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 40å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 40 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=58
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 50å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 50 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=59
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 60å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 60 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=60
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 70å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 70 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=61
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 80å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 80 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=62
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 90å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 90 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=63
+JP: ã„ã¾æ‹¡ç¯‰ã—ãŸã‚‰^ / ã‚¢ã‚¤ãƒ†ãƒ 100å€‹ã¾ã§ / ç½®ã‘ã‚‹ã‚ˆã†ã«ãªã‚‹ã©~! /
+EN: Expand now to / store up to / 100 items! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=66
+JP: ã‚ã“ãŒã‚Œã®æ”¯åº—ãŒ / ã¨ã†ã¨ã†ã§ãã‚‹ã®ã‹~! /   /
+EN: A branch store / at last! /   /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=45 MI=124
+JP: å•†åº—ãƒ¬ãƒ™ãƒ«ãŒè¶³ã‚Šã¾ã›ã‚“ /
+EN: Shop level too low /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=4
+JP: [FF01]ã‚»ãƒ«ãƒ•ã‚·ãƒ§ãƒƒãƒ—[FFF0]ã£ã¦ã‚ã‚‹ã ã‚^è¿·å®®ã«_ / ãªã‚“ã‹å¤‰ãª[FF01]ã‚«ã‚®[FFF0]ãŒå£²ã£ã¦ã‚‹ã‚“ã ã‘ã© / ã‚ã‚„ã—ã„|ã©ã“ã®ã‚«ã‚®ãªã‚“ã ã‚ã†? /   / èª°ã‹è²·ã£ãŸè²»ã„ãªã„ã®ã‹? /
+EN: Self-Seraph Shop / sells a strange key / What's it unlock? /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=5
+JP: ãƒ´ã‚£ã‚¬}å•†åº—ã§ã¯^ã™ã¿ã“ã¿ã§ / ã¯ãŸã‚‰ã‘ã‚‹[FF01]ã‚¢ãƒ«ãƒã‚¤ãƒˆ[FFF0]ã‚’ã•ãŒã—ã¦ã¾ã™! /   / å†’é™ºè€…ã«ã‹ãŽã‚‰ãšè‰²ã‚“ãªäººã« / è¦‹ã¦ã‚‚ã‚‰ã„ãŸã„ã®ã§^ä¾é ¼ã§ã¯ãªã / æŽ²é‰„æ¿ã§ãŠçŸ¥ã‚‰ã›ã—ã¦ã„ã¾ã™! /
+EN: Vigger Shop seeks / part-time workers! / All are welcome! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=6
+JP: ãƒ´ã‚£ã‚¬}ã—ã‚‡ã†ã¦ã‚“ã§ã‚ / ã‚ª}ã‚¯ãŒã„ã£ã±ã„^ã¯ãŸã ã„ã¦ã‚‹ / ã¿ãŸã„ã§ã™ã ãŒ^ã‚¢ãƒ«ãƒã‚¤ãƒ‰ã§ã‚‚ / ã‚„ã£ã±ã‚Šã‚ª}ã‚¯ã§ã‚‚ã„ã„ã‚“ã§ã™ã ã¹ã‹? /
+EN: Vigger Shop has / many orcs. Do they / hire orc workers? /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=9
+JP: ãƒ‰ã‚¥}ãƒãƒ³å•†äººã‚®ãƒ«ãƒ‰ã§ã¯ç™ºè¶³50å¹´ã‚’ / è¨˜å¿µã—^[FF01]ã‚«ãƒ«ãƒžãƒ³æŽ¢ç´¢ãƒ„ã‚¢}[FFF0]ã‚’è¡Œã„ã¾ã™_ / ãƒšã‚¢5çµ„ã®æ–¹ã«^è¿½åŠ è©²ã‚’ã•ã—ã‚ã’ã¾ã™! /   / æœŸé–“ä¸­ã«åŠ å…¥åº—ã§[FF01]10000Gä»¥ä¸Š[FFF0]ã® / è²·ã„å£«ã‚’ã•ã‚ŒãŸæ–¹ã®ä¸­ã‹ã‚‰é¸ã°ã›ã¦ / ã„ãŸã ãã¾ã™_ / ã¿ãªã•ã‚“ã®ã”è¿½åŠ ãŠå¾…ã¡ã—ã¦ã¾ã™! /   / (ãƒ‰ã‚¥}ãƒãƒ³ã«ä½æ°‘å¬å–šã•ã‚Œã¦ã„ã‚‹ /              æ–¹ã«é™ã‚Šã¾ã™) /
+EN: To mark 50 years, / Duhan Merchant Guild / presents a Karman / Labyrinth tour! / [PB] Five pairs will / win bonus prizes! / Spend over [FF01]10000G[FFF0] / at member stores / to enter. / [PB] We await entries! / Duhan residents only /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=10
+JP: [FF01]ãƒœã‚®~ã‚­ãƒ£ãƒƒãƒˆ[FFF0]ã£ã¦ã„ã„ã‚ˆã­~_ / ã‚ˆã™ãŽã‚‹ã‚ˆ_ / ãªã‚“ã¦ã£ãŸã£ã¦^ãµãã‚ˆã‹ãªé­”_ / ãã‚Šã£ã¨ã—ãŸã‚Šã‚Šã—ã„ãŠã‚ã‚ãŒ / ã‚»ã‚¯ã‚·~ã§ãƒ‰ã‚­ãƒ‰ã‚­ã—ã¡ã‚ƒã†_ /   / ã¿ã‚“ãª^ã‚ã‚“ã¾ã‚Šã„ã˜ã‚ãªã„ã§ã­_ /
+EN: [FF01]Bogey Cats[FFF0] are / great, aren't they? / Too great. / [PB] That round body, / those sharp, noble / eyes... so sexy my / heart races. / [PB] Everyone, don't / bully them too much /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=13
+JP: ãƒã‚¡? / ãƒ†ãƒ¡ã‚§^ãƒã‚«? /   / é¨Žæ³•ã¯[FF01]é¨Žæ³•å›£[FFF0]ã§è¦šãˆã‚‹ã« / ãã¾ã£ã¦ã‚“ã˜ã‚ƒã­}ã‹! / é¨Žæ³•å›£ã¯[FF01]å†’æ›¸äº‹ã‚®ãƒ«ãƒ‰[FFF0]ã§ / é€ ã‚‹ã‚“ã ã‚ˆ! / å¿ƒä¸¦ã—ã„ã‚ªãƒ¬ã‚µãƒžã«æ„Ÿè¬ã—ã‚! /
+EN: Huh? Are you stupid? / [PB] You learn Allied / Actions from an / [FF01]AA group[FFF0], duh! / Make one at the / [FF01]Adv. Guild[FFF0]! / Thank my kind self! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=14
+JP: [FF01]ãƒ´ã‚£ã‚¬}å•†åº—å…¥ç¤¾[FFF0]ã®ãŸã‚ã® / åº§é…¬ã‚’å—ã‘ã‚‰ã‚ŒãŸæ–¹^ãŠæ­»ã¿ãã ã•ã„_ /   / ç·¨æ€§è€…ãŒæ±ºã¾ã‚Šã¾ã—ãŸ_ / å ±é…¬ãŠã¤ãŸãˆã—ã¾ã™ã®ã§ / ãƒ´ã‚£ã‚¬}å•†åº—ã¾ã§ãŠã“ã—ãã ã•ã„_ /
+EN: To those who took / the [FF01]Vigger Shop job[FFF0] / trial, please read. / [PB] We have chosen / an applicant. Come / to Vigger Shop for / your reward. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=19
+JP: ã‚ãŸã—[FF01]å†’æ›¸äº‹æŒ[FFF0]ãªã‚“ã ã‘ã©^ / ç·¨éšŠãå‹²ã¯ã‚ã£ã¦ã‚‹ã¯ãšãªã®ã« / ãƒª}ãƒ—ã®å›£ãŒã§ããªãã¦^ã“ã¾ã£ã¦ãŸã®_ / ä½•åº¦ã‚„ã£ã¦ã‚‚ã‚·}ãƒ•ã‚¢ã‚¤ãŒã§ãã¡ã‚ƒã†_ /   / ã§ã‚‚^ãŠã‹ã’ã§ã‚ã‹ã£ãŸã‚_ / ç‰¹åˆ¥ã£ã¦^ãã£ã¨[FF01]çªç„¶å¤‰å–[FFF0]ã®ã“ã¨ã­! / [FF01]å†’æ›¸äº‹ã‚®ãƒ«ãƒ‰[FFF0]ã®å™¨é—˜ã˜ã‚ƒãªã„ã¨å¤‰å–ã¯ / ãŠã“ã›ãªã„ã‹ã‚‰^ã§ããªã„ã‚ã‘ã ! /
+EN: I'm an [FF01]Adventurer[FFF0] / and the formation / should be right, but / I couldn't make / Leap. I kept getting / Surefire instead. / [PB] Now I get it. / Special must mean / [FF01]mutation[FFF0]! You need / the [FF01]Guild[FFF0] facility / to trigger that. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=20
+JP: ã„ã„ã­! / ã‚„ã£ã±ã‚Šã¾ãšã¯ç”Ÿãæ®‹ã‚‰ãªã„ã¨ãª! /   / ã˜ã‚ƒã‚^[FF01]ãƒ¬ãƒ™ãƒ«ã‚¢ãƒƒãƒ—ã®ãã–ã—[FFF0]ã£ã¦åˆ†ã‹ã‚‹? / ãƒ¬ãƒ™ãƒ«ä¸ŠãŒã‚‹åˆ†ã®EXPãŒãŸã¾ã‚‹ã¨ / [FF01]ä¸‹ã®ãƒ‘ãƒãƒ«ãŒãƒ”ã‚«ãƒ”ã‚«å…‰ã‚ŠéŒ ã‚ã‚‹[FFF0]ã‚“ã _ /   / å…‰ã£ã¦ã‚‹ãƒ¤ãƒ„ãŒã„ãŸã‚‰^ãƒ¤ãƒ©ãƒ¬ã‚‹å‰ã« / è¡—ã«å¸°ã£ã¦^[FF01]å®¿[FFF0]ã«æ³Šã¾ã£ãŸæ–¹ãŒã„ã„ãœ! /
+EN: Good one! Staying / alive comes first. / [PB] Know the [FF01]sign of / a level-up[FFF0]? When / you have enough EXP, / the lower panel / starts flashing. / [PB] If someone's lit, / get back to town and / stay at the [FF01]inn[FFF0] / before they die! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=21
+JP: ã‚ã®ãªã¤ã‹ã—ãæ—¥æ‰‹ã‚’ã‚ãŸã—ã¯å¿˜ã‚Œãªã„_ /   / ã‚ã®æ—¥^è¡—ã‚’è¡Œã[FF01]ã‚ªãƒªã‚¢}ãƒŠçŽ‹å¥³[FFF0]ã®é¡”ã« / äººæ‰‹ã¯è¡¨ã„ã®åœ’ã‚’ãªã’ã‹ã‘^ / ç©ºã«ã¯è‰²ã¨ã‚Šã©ã‚Šã®ãƒ†}ãƒ—ãŒã¾ã£ã¦ã„ãŸ_ / ã¾ã•ã«ãƒ‰ã‚¥}ãƒãƒ³ã¯å¹¸æœ€ãã®ã‚‚ã®ã ã£ãŸ_ /   / ã ãŒä»Šã‚„^ã‚ªãƒªã‚¢}ãƒŠçŽ‹å¥³ã‚‚^ / äººæ‰‹ã®é•·æ–¹ã‚‚^ç•¥é ã«æˆã‚ã‚ŒãŸã®ã _ / ã‚ã‚^ã•ã‚‰ã°_èª‰ã‘ã‚‹æ—¥æ‰‹ã‚ˆ_ /
+EN: I will never forget / that beloved day. / [PB] As [FF01]Princess Oriana[FFF0] / passed through town, / people showered her / with petals, and / bright streamers / danced in the sky. / Duhan was happiness / itself. / [PB] Now Princess Oriana / and those days are / gone forever. / Farewell, shining days /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=22
+JP: ãŠã‚Œã‚‚ã‚ã®å—^çŽ‹å¥³ã•ã¾ã® / å¹¸ã›ãã†ãªé¡”ã‚’è¦‹ãŸãã¡ã ã‚ˆ_ /   / ã‚ã‚^ã¡ãã—ã‚‡ã†| / æœ‰å¯¾^è¨±ã›ã­ãˆ! / èª°ã‹å™¨ã^ã‚ã®é¨Žå¥³ã‚’å€’ã—ã¦ãã‚Œ! /
+EN: I saw the princess's / happy face that day / too. / [PB] Damn it all! / I can't forgive this / Somebody, please / defeat that witch! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=23
+JP: ã‚ãŸã—é”ã¯^çŽ‹å¥³ã•ã¾ãŒç”Ÿã¾ã‚ŒãŸ / å—ã‹ã‚‰ãšã£ã¨è¦‹ã¦ããŸã‚“ã ã‚ˆ_ / çŽ‹å¥³ã•ã¾ã¯^ãƒ‰ã‚¥}ãƒãƒ³å™¨æ°‘ã¿ã‚“ãªã® / å¤§åˆ‡ãªå­ã©ã‚‚ã ã£ãŸ| /   / ãã‚“ãªå¤§é ¼ãªå­ã‚’^ã‚ã®é¨Žå¥³ã¯ / å°‘ã—ã¡ã¾ã£ãŸã®ã•!! / å‘Šã¤ä¿¡ãã«ã—ã¦ã‚‚ã‚ããŸã‚Šãªã„ã‚ˆ! /
+EN: We've watched the / princess since the / day she was born. / She was precious to / every Duhan citizen! / [PB] That witch stole / such a dear child / from us!! Hanging is / too good for her! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=24
+JP: [FF01]é¨Žå¥³ã‚¢ã‚¦ãƒ­}ãƒ©[FFF0]ã£ã¦ã©ã‚“ãªãƒ¤ãƒ„ã ? /   / é¨Žå¥³ã£ã¦è¨€ã†ãã‚‰ã„ã ã‹ã‚‰ / å¥³ãªã‚“ã ã‚ã†ã‘ã©| / èª°ã‹è¦‹ãŸã“ã¨ã‚ã‚‹ã®ã‹? /
+EN: What kind of person / is [FF01]Witch Aurora[FFF0]? / [PB] They call her a witch / so I guess she's a / woman... anyone / seen her? /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=25
+JP: ã¾ã‚^é¨Žå¥³ã£ã¦è¨€ã£ã¦ã¦ç”·ã ã£ãŸã‚‰^ / äºŒã«ã™ã”ã„ã‘ã©ãª| /
+EN: Well, if a witch / turned out to be a / man, that'd be / something. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=26
+JP: é¨Žå¥³ã‚¢ã‚¦ãƒ­}ãƒ©ãŒçµæžœã•ã‚ŒãŸä¸€ç•ªå¤ã„è©±ã¯^ / 600å¹´å‰ã®ãƒŠãƒ«ã‚­ã‚¢ã£ã¦ã„ã†æˆ¦_ /   / ãã“ã§ã‚¢ã‚¦ãƒ­}ãƒ©ã¯^æˆ¦çŽ‹ã®å‰ã§åœ°ã‹ã‚‰ / é¨Žå£«ã‚’èŠ±ã³ä¿®ã›ãŸã‚‰ã—ã„_ /
+EN: The oldest tale of / Witch Aurora is from / the Nalkia War / 600 years ago. / [PB] They say Aurora / revived knights from / the earth before / the war king. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=30
+JP: ã“ã‚“ã«ã¡ã¯^[FF01]ãƒ´ã‚£ã‚¬}å•†åº—[FFF0]ã§ã™! /   / ãƒ´ã‚£ã‚¬}å•†åº—ã¯ãŸã ä»Š^[FF01]ã‚ª}ãƒ€}[FFF0]ã« / ã¨ã£ã¦ã‚‚åŠ›ã‚’ã„ã‚Œã¦ã„ã¾ã™! / ã‚ª}ãƒ€}ã®ãŸã‚ã«æ–°ã—ã„ä»²é–“ã‚‚ã‚„ã¨ã„^ / é–“åº—ã¯ã‚ã‚‰ãŸãªã‚¹ã‚¿}ãƒˆã‚’ãã‚Šã¾ã—ãŸ_ /   / [FF01]ã©ã“ãžã®ä½¿äººå•†åº—[FFF0]ãªã©ã«ã¯ã¨ã†ã¦ã„ / ã§ããªã„ã‚µ}ãƒ“ã‚¹ãŒ^é–“åº—ã®ã‚¦ãƒªã§ã™_ / ã¿ãªã•ã‚“^ã˜ã‚ƒã‚“ã˜ã‚ƒã‚“ã‚ª}ãƒ€} / ã—ã¦ãã ã•ã„ã­! /
+EN: Hello from / [FF01]Vigger Shop[FFF0]! / [PB] We are putting our / all into [FF01]orders[FFF0]! / We've hired new help / and made a fresh / start. / [PB] Our service beats / any other shop here. / Please send us lots / of orders! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=33
+JP: é¨Žå¥³ã¯ã‚´}ãƒ¢ãƒ³ãŒå“ãã‚‰ã—ã„_ / ãªã‚“ã§ã‚‚^ã‹}ãª}ã‚Š^æ®‹ã‚³ã‚¯ãª / å°‘ã•ã‚Œæ–¹ã ã£ãŸãã†ã ãœã‡| /
+EN: I hear the witch / likes torture. / They say the deaths / were truly brutal. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=34
+JP: ã^ãã‚Œã„ãªé¨Žå¥³ã•ã‚“ãªã‚‰ / ã‚ã—ã‚‚ã‚´}ãƒ¢ãƒ³ã•ã‚Œã¦ã¿ãŸã„ã‹ã‚‚| /
+EN: I-if she's a pretty / witch, maybe I'd let / her torture me... /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=41
+JP: [FF01]ãƒ´ã‚£ã‚¬}å•†åº—[FFF0]ã£ã¦~ / ãŒã‚“ã°ã£ã¦ã‚‹ã¿ãŸã„ãªã‚“ã ã‘ã©^ / å®Ÿè­·ã‚ã®ãŠåº—ã£ã¦ã©ã†ãªã®ã‚«ãƒŠ~? /   / ã‚¢ã‚¿ã‚·ã¿ãŸã„ãªã‚«ãƒ¨ãƒ¯ã‚¤å¥³ã®å­ãŒè¡Œã£ã¦ã‚‚ / ãƒ€ã‚¤ã‚¸ãƒ§ãƒ–ãªãŠåº—ãªã®ã‹ãª~ã£ã¦ / ãƒãƒ§ãƒƒãƒˆå¿ƒé…| /   / ã©ã‚“ãªãŠåº—ã‹ãƒ‘ãƒ¡ãƒ©ã«æ•™ãˆã¦ãã ã•ãã„_ / å¾…ã£ã¦ã¾ãã™â™¥ /
+EN: [FF01]Vigger Shop[FFF0] seems / to be trying hard, / but what's it really / like? / [PB] Is it safe for a / frail girl like me? / I'm a bit worried. / [PB] Tell Pamela what / kind of shop it is. / I'll be waiting! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=42
+JP: æ„Ÿã˜ãŒã„ã„åº—ã ã¨æ€ã†ã‚ˆ_ /   / [FF01]ã‚ª}ãƒ€}[FFF0]ã¨ã‹ã®å¯¾å¿œã‚‚ä¸»ã„ã—^ / å“ãžã‚ãˆã‚‚è‰¯ã„æ„Ÿã˜_ / ã‚ª}ã‚¯é”ã®[FF01]ã‚¢ãƒ«ãƒã‚¤ãƒˆ[FFF0]ã‚‚ã¯ã‚Šãã£ã¦ã¦ / ã»ã»ãˆã¾ã—ã„ã‚ˆã­~_ /   / ãœã²è¡Œã£ã¦ã¿ã‚‹ã“ã¨ã‚’ã‚ªã‚¹ã‚¹ãƒ¡ã™ã‚‹ã‚ˆ! /
+EN: I think it's a nice / shop. / [PB] They handle [FF01]orders[FFF0] / well, and the stock / is good. The Orc / [FF01]part-timers[FFF0] work / hard too. It's sweet / [PB] I recommend it! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=44
+JP: æ„Ÿã˜æ‚ªã„ã‚ˆ^ã‚ã®åº—_ /   / [FF01]ã‚ª}ãƒ€}[FFF0]ã¨ã‹è¨€ã£ã¦ã‚‹ã‘ã©^ / å—ã‘ã‚‹ã ã‘ã§å…¨ç„¶ã‚„ã£ã¦ãã‚Œãªã„ã—^ / å£²ã£ã¦ã‚‹ã‚‚ã®ã¯[FF01]ä½¿ã„ã®ã‚¢ã‚¤ãƒ†ãƒ [FFF0]ã°ã‹ã‚Š_ / å‡ºå…¥ã‚Šã—ã¦ã‚‹ã®ã¯^ã†ã•ã‚“ãã•ã„å¿è€…ã¨ã‹ / ãƒ¯ãƒ«ãã†ãªãƒ¤ãƒ„ã ã‘ã ã‚ˆ_ /   / ã“ã®é–“ã¯^[FF01]ã‚¢ãƒ«ãƒã‚¤ãƒˆ[FFF0]ã®ã‚ª}ã‚¯é”ãŒ / åº—ã®å‰ã§ã‚±ãƒ³ã‚«ã—ã¦ãŸãª| /
+EN: That shop feels bad. / [PB] They talk about / [FF01]orders[FFF0], but only / take them and never / do anything. They sell / mostly [FF01]cursed items[FFF0] / Shady ninja & rough / types go in and out. / [PB] The other day the / Orc [FF01]part-timers[FFF0] / were fighting outside /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=45
+JP: ãŠã¸ã‚“ã˜^ã‚ã‚ŠãŒã¨ã†~â™¥ /   / ã†~ã‚“^ã‘ã£ã“ã†ã‚¤ã‚¤ãŠåº—ã¿ãŸã„ã§ / ãƒ‘ãƒ¡ãƒ©å®‰å¿ƒâ™¥ / ãƒ‘ãƒ¡ãƒ©ãŒã»ã—ã„[FF01]æ‰‹è¿·ç¥ [FFF0]ã¨ã‹ã‚‚ / ã‚ª}ãƒ€}ã—ãŸã‚‰æŽ¢ã—ã¦ãã‚Œã‚‹ã‚«ãƒŠ~? /   / ä»Šåº¦è¡Œã£ã¦ã¿ã‚‹ã­! /
+EN: Thanks for the / reply! / [PB] Sounds like a good / shop. Pamela is / relieved. If I order / a [FF01]Lost Shrine[FFF0], will / they find one? / [PB] I'll go next time! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=48
+JP: ã‚·ãƒ ã‚¾ãƒ³ã®éƒ¨å†…ãŒæ¥ãŸã¨ãã¯^ / æœŸå¾…ã—ãŸã‚“ã ã‘ã©ãªã| / ã•ã£ãã†ã¨ã—ã¦ã¦^ã‚«ãƒƒã‚³ã‚ˆã‹ã£ãŸã—| /   / ã‚‚ã†ã—ã°ã‚‰ãé¨Žå¥³å€’ã™ã‚ˆã†ãªãƒ’}ãƒ­}ã¯ / å‡ºãªã„ã‚“ã˜ã‚ƒãªã„ã‹ãª| /
+EN: I had hopes when / Simzon's party came. / They looked dashing, / and so cool... / [PB] I doubt we'll see a / hero who can defeat / the witch for a while. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=49
+JP: 2éšŽã¨è¨€ãˆã°^é¨Žå¥³ãŒãƒ¢ãƒ³ã‚¹ã‚¿}ã‚’ / ãƒ ã‚·ãƒ£ãƒ ã‚·ãƒ£[01A4]ã¹ã‚‹ã£ã¦ã‚¦ãƒ¯ã‚µãŒã‚ã‚‹ã‘ã©^ / ä»²é–“ã‹ã—ã‚‰! /   / ã‚ª}ã‚¯é”ãŒ[[01A4]ã¹ã‚‰ã‚Œã‚‹]ã£ã¦ / å¤§ã•ã‚ãŽã—ã¦ã‚‹ã¿ãŸã„ãªã®! /
+EN: Speaking of 2F, / there's a rumor the / witch munches on / monsters. Is it true? / [PB] The Orcs are in a / panic, shouting / they'll get eaten! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=50
+JP: [é¨Žå¥³]ã£ã¦è¨€ãˆã°^ã‚„ã£ã±ã‚Š / ã¨ã‚“ãŒã‚Šãƒœ}ã‚·ã¨ã‚¯ãƒ„ã«æš—ã„[034F]^ / ãƒ›}ã‚­ã«ã¾ãŸãŒã£ã¦ã¦| / ã¦æ„Ÿã˜ã‹ã¨æ€ã£ã¦ãŸã‚“ã ã‘ã©^ / ã‚¢ã‚¦ãƒ­}ãƒ©ã¯ã¡ãŒã†ã®ã‹ãªã_ /   / ãƒ¢ãƒ³ã‚¹ã‚¿}[01A4]ã¹ã‚‹ãªã‚“ã¦^ / ãªã‚“ã‹ãƒã‚±ãƒ¢ãƒŽã˜ã¿ã¦ã‚‹ã‚“ã ã‘ã©_ / ã¡ã‚‡ã£ã¨ãŒã£ã‹ã‚Š_ /
+EN: When I hear "witch," / I picture a pointed / hat, black clothes, / and a broom. / Is Aurora different? / [PB] Eating monsters is / more like a fiend. / I'm a bit let down. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=51
+JP: [FF01]3éšŽ[FFF0]ã§é¨Žå¥³ãŒå‡ºãŸã¨ã„ã†æƒ…å ±ãŒå…¥ã‚Šã¾ã—ãŸ! /   / ä¸€ã¤ã®éƒ¨å†…ãŒå…¨åº—ã—ãŸãã†ã§ã™ãŒ^ / [FF01]ãƒ†ãƒ¥ãƒ«ã‚´}[FFF0]ã•ã‚“ã¨ã„ã†å¿è€…ã®æ–¹ã®ã¿^ / ã‹ã‚‰ãã‚‚ç”Ÿæˆ»ã•ã‚ŒãŸã‚ˆã†ã§ã™! /   / ã“ã‚Œã¯ãƒ†ãƒ¥ãƒ«ã‚´}ã•ã‚“ã‹ã‚‰ / å ±é…¬ããã¾ã—ãŸã‹ã‚‰^çµã‹ãªæƒ…å ±ã§ã™! /
+EN: We have reports that / the witch appeared on / [FF01]3F[FFF0]! / [PB] One party was wiped / out, but a ninja / [FF01]Turgot[FFF0] narrowly / survived! / [PB] I heard it from / Turgot himself, so / this is solid info! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=52
+JP: ãƒžã‚¸ã‹ã‚ˆ| / ãã‚“ãªè¿‘ãã®éšŽã«é¨Žå¥³ã£ã¦å‡ºã‚‹ã®ã‹!? /   / ã—ã‹ã—^ã‚ˆãç”Ÿãã®ã³ãŸãª_ / ã•ãžã‹ã—[0340]ã®ç«‹ã¤å†’é™ºè€…ãªã‚“ã ã‚ã†_ / ã‚½ãƒ³ã‚±}ã—ã¡ã‚ƒã†ãœ! /
+EN: Seriously? The witch / shows up that close? / [PB] Still, he survived / Must be one tough / adventurer. Respect! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=53
+JP: ã¨ã†ã¨ã†ãƒ‰ã‚¥}ãƒãƒ³ã«ã‚‚æ–°ãŸãªãƒ’}ãƒ­}ãŒ / ç”Ÿã¾ã‚ŒãŸã‹! /   / é¨Žå¥³ã¨å¯¾åº§ã—ã¦ç”Ÿãã®ã³ãŸãƒ¤ãƒ„ãªã© / æ—©è¿‘ã§ã¯å›ºã‚ã¦ã§ã¯ãªã„ã‹? / ç¾å“¡ã®å†’é™ºè€…ã®ä¸­ã§ã‚‚^ä¸€ä¸¡ã‚’ã‚ã‚‰ãã† / å®ŸåŠ›è€…ã¨è¨€ãˆã‚‹ã ã‚ã†_ /   / åŠ›ã³ãƒ†ãƒ¥ãƒ«ã‚´}ãŒè¿·å®®ã«å…¥ã‚‹ã¨ãã¯^ / é¨Žå¥³ã‚’å€’ã—ã¦ã—ã¾ã†ã‹ã‚‚ãª_ / æœŸå¾…ã—ã‚ˆã†ã§ã¯ãªã„ã‹! /
+EN: Has Duhan finally / found a new hero? / [PB] Someone who faced / the witch and lived / must be rare lately. / Among active / adventurers, he must / be one of the best. / [PB] Next time Turgot / enters the labyrinth / he may defeat her. / Let us hope! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=54
+JP: ãƒ†ãƒ¥ãƒ«ã‚´}ã•ã‚“^ã‚«ãƒƒã‚³ã„~! / é¨Žå¥³ã‚„ã£ã¤ã‘ã¡ã‚ƒã£ã¦~â™¥ /
+EN: Turgot, you're so / cool! Beat that / witch for us! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=55
+JP: |ã‚‚ã‚Šã‚ãŒã£ã¦ã‚‹ã¨ã“æ‚ªã„ã‘ã©^ / [FF01]ãƒ†ãƒ¥ãƒ«ã‚´}ä»²äºº[FFF0]ã _ / ãƒ˜ãƒ³ã«[0340]ã£ã·ã—ã‚’æœŸå¾…ã•ã‚Œã¦^ã‚­ã‚±ãƒ³ãª / ä¾é ¼é ¼ã¾ã‚ŒãŸã‚Šã—ã¦ã‚‚ã“ã¾ã‚‹ã‹ã‚‰æ›¸ãã‚ˆ_ /   / é¨Žå¥³ã®å‰ã§ã¯^ãµã‚‹ãˆã¦ãŸã ã‘ã§ / å˜ã«é‹ãŒè‰¯ã‹ã£ãŸã‹ã‚‰ç”Ÿãæ®‹ã‚ŒãŸã‚“ã _ / æ‚ªã„ãŒ^ã‚ã‚“ãªæ€–ã„æ€ã„ã¯ã‚‚ã†ãƒžãƒƒãƒ”ãƒ©ã _ /   / ã¤ã¾ã‚Šã‚ªãƒ¬ã¯^[01D1]æ­¦ã•ã‚†ãˆã®ã‚«ãƒ³ã—ã‹ / å–ã‚Šä¸‹ã®ãªã„^ãŸã ã®ç”·ãªã‚“ã _ / |å…¨ç„¶è§£ãã‚‚ã‚«ãƒƒã‚³ã‚ˆãã‚‚ãªã„ã‚ˆ_ /
+EN: Sorry to spoil the / mood, but this is / [FF01]Turgot himself[FFF0]. / [PB] I don't want people / expecting heroics / giving me dangerous / requests, so listen. / [PB] I only trembled / in front of the witch / I lived by luck. I / never want that fear / again. / [PB] I'm just a man with / decent instincts. / Not strong. Not cool /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=57
+JP: ã†ã‚~ã‚“^ã‚´ãƒ¡ãƒ³ãªã•ã„^ / ãƒ†ãƒ¥ãƒ«ã‚´}ãŠã«ã„ã¡ã‚ƒã‚“| /   / ãŠã«ã„ã¡ã‚ƒã‚“ã®ãŠã¯ãªã—^ / åº§é‚ªã‹ã£ãŸã‹ã‚‰^ã¤ã„| / ã‚‚ã†ã—ãªã„ã‹ã‚‰è¨±ã—ã¦ã‚ˆã†| /
+EN: Waaah, I'm sorry, / big brother Turgot! / [PB] Your stories were / so exciting, I just / I won't do it again, / so forgive me! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=64
+JP: |ã“ã“ã«æ›¸ã„ã¦ã‚‹ã²ã¨ã£ã¦^ / å®Ÿã¯^è¿·å®®ã«å…¥ã£ã¦ãªã„ã²ã¨ã°ã‹ã‚Š / ã ã£ãŸã‚“ã˜ã‚ƒãªã„ã ã‚ã†ã­? /   / ã‚ãŸã—ã‚ƒãŸã ã®å¤§ç®—ã®ãŠã‹ã¿ã ã‹ã‚‰^ / ã‚‚ã¡ã‚ã‚“è¿·å®®ã«ãªã‚“ã‹^å…¥ã£ãŸã“ã¨ / ãªã„ã‘ã©ã­! /
+EN: Wait, are all the / people posting here / actually folks who / never enter the maze? / [PB] I'm just an innkeeper / so of course I've / never gone in! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=69
+JP: ãªãªãªãªã‚“ã¨[FF01]ã‚ªãƒªã‚¢}ãƒŠçŽ‹å¥³[FFF0]ã•ã¾ãŒ / ã„ã„^ç”Ÿãã¦ãŠã‚‰ã‚ŒãŸ!! /   / ã¯ã‚ã¯ã‚^è½ã¡ç€ã‘ãƒ¯ã‚·_ / ã„ã‚„ã“ã‚ŒãŒè½ã¡ç€ã„ã¦ã„ã‚‰ã‚Œã‚‹ã‹! /   / ã¨ã«ã‹ãç”Ÿãã¦ãŠã‚‰ã‚ŒãŸã®ã˜ã‚ƒ}! / è‰¯ã‹ã£ãŸ~^è‰¯ã‹ã£ãŸã‚ã„~| / ã‚ã—ã‚ƒ~ã†ã‚Œã—ãã¦å£°ãŒå¡”ã¾ã‚‰ã‚“ã‚ˆ| /
+EN: Wh-wh-what?! / [FF01]Princess Oriana[FFF0] / is alive!! / [PB] Breathe, old man. / No, how can I stay / calm?! / [PB] She lives! Oh thank / goodness! I'm so happy / my voice won't stop! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=70
+JP: ã‚¸ã‚¸ã‚¤ã»ã‚“ã¨ã«è½ã¡ç€ã‘ã£ã¦_ /   / çŽ‹å¥³ã•ã¾ã¯^ã©ã†ã‚„ã‚‰åœ°ä¸‹[FF01]6éšŽ[FFF0]ã« / ã‹ãã¾ã‚ã‚Œã¦ãŸãã†ã _ /   / çŽ‹æ—ã®é ¼æƒ…ã¯ã‚ˆãåˆ†ã‹ã‚‰ã‚“ãŒ^ / [FF01]ã‚¦ã‚§ãƒ–ã‚¹ã‚¿}[FFF0]ãŒä½•ã‹ã‚„ã‚‰ã‹ã—ãŸã‚‰ã—ã„_ / ã„ã„ãªãšã‘ã«é€ƒã’ã‚‰ã‚Œã‚‹ãªã‚“ã–^ / ã‚ããªç”·ã˜ã‚ƒã­ã‡ã£ã¦ã“ã¨ã ãª_ /
+EN: Old man, seriously, / calm down. / [PB] The princess was / apparently hidden on / [FF01]B6F[FFF0]. / [PB] I don't know royal / business, but [FF01]Webster[FFF0] / seems to have done / something. If your / fiancee runs, you're / no decent man. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=71
+JP: åœ°ä¸‹[FF01]7éšŽ[FFF0]ã§ã‚ªãƒ¬ã¯è¦‹ãŸ! / [FF01]ã‚¦ã‚§ãƒ–ã‚¹ã‚¿}[FFF0]ãŒ^ã‚ã®ä¸–ã‹ã‚‰æ¥ãŸ / [FF01]é–‹ç¥ž[FFF0]ã¿ãŸã„ãªé™¤ã‘å£«ã«ãªã£ã¡ã¾ã£ãŸ_ / ã—ã‹ã‚‚^ã‚ã‚‹å†’é™ºè€…ãŒ^ / ãã‚Œã‚’å€’ã—ã¡ã¾ã£ãŸã‚“ã ! / ã™ã°ã‚‰ã—ã„ã‚¦ãƒ‡ã¨é€£æºã ã£ãŸãœ| /   / ã‚ªãƒ¬^ã—ã°ã‚‰ãã‚¢ã‚¤ãƒ„ã‚’ã“ã£ãã‚Š / ç™‚è¡Œã—ã¦ã¿ã‚ˆã†ã‹ãª_ / ã‚¢ã‚¤ãƒ„ãªã‚‰ãã£ã¨ã¾ã ã¾ã ã™ã’ã‡ã‚³ãƒˆ / ã—ã¦ãã‚Œãã†ã ãœ! /
+EN: I saw it on [FF01]B7F[FFF0]! / [FF01]Webster[FFF0] had turned / into some undead / priest from the other / world. / [PB] Then an adventurer / defeated him! Great / skill and teamwork. / [PB] I may secretly / follow that one for / a while. They'll do / more amazing things! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=75
+JP: çŽ‹å¥³ã•ã¾ãŒç”Ÿãã¦ãŠã‚‰ã‚ŒãŸã£ã¦| / ä»²é–“ã«^ä»²é–“ã ã­!? / ã‚^ã‚ãŸã—ã‚ƒã¦ã£ãã‚Š| /   / ã˜ã‚ƒã‚^ã¾ãŸå…ƒæ°—ãªçŽ‹å¥³ã•ã¾ã®ãŠé¡”ã‚’ / è¦‹ã‚‹ã“ã¨ãŒã§ãã‚‹ã‚“ã ã­!? / ã“ã‚“ãªã†ã‚Œã—ã„ã“ã¨ã¯ãªã„ã‚ˆ!! /
+EN: The princess lives? / Really, truly alive?! / I thought... / [PB] Then we'll see her / smiling face again? / Nothing could make me / happier!! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=76
+JP: ã“ã‚Šã‚ƒã‚^ã‚ã§ãŸã„! / ã‚ªãƒªã‚¢}ãƒŠçŽ‹å¥³ã•ã¾^ã°ã‚“ã–ã„!! /   / ä»Šæ—¥ã¯è¡¨ã„ã®ã†ãŸã’ã ãª!! /
+EN: This calls for joy! / Long live Princess / Oriana!! / [PB] Tonight we feast! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=77
+JP: çŽ‹å¥³ã•ã¾ç”Ÿä»£ã®çŸ¥ã‚‰ã›ã§^ / è¡—ã®äººæ‰‹ã®é™æƒ…ãŒ / ä¸€æ°—ã«æ‰‰ã‚‹ããªã£ãŸã‚ã­! /   / ã—ã‹ã—^çŽ‹å¥³ã•ã¾ãŒ / ç”Ÿãã¦ãŠã‚‰ã‚ŒãŸã£ã¦ã“ã¨ã¯| / é¨Žå¥³ã¯ã‘ã£ãã‚‡ã^ãŸã„ã—ã¦æ‚ªã„ã“ã¨ã‚’ / ã—ã¦ãªã„ã‚“ã˜ã‚ƒãªã„ã‹ã—ã‚‰!? /
+EN: News that the princess / lives has brightened / the whole town! / [PB] But if she's alive / did the witch really / do anything that bad? /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=78
+JP: çµã‹ã«å…µå£«å›£ãŒã‚„ã‚‰ã‚Œã¦ã„ã‚‹ãŒ^ / é¨Žå¥³ãŒè‡ªåˆ†ã®èº«ã‚’ã‚Œã‚‹ãŸã‚ä¾æ–¹ãªã^ / ã¨è€ƒãˆã‚‰ã‚Œãªãã‚‚ãªã„ãª| /   / åˆ†ã‹ã‚‰ã‚“! / ãªãœæˆ¦ã¯ãã‚“ãªã‚¦ã‚½ã‚’ã¤ã„ãŸã®ã !? / ãã‚‚ãã‚‚é¨Žå¥³ã¨ã¯ä¸€ä½“ãªã‚“ãªã‚“ã !! /
+EN: Soldiers have died, / true, but maybe the / witch was only / defending herself. / [PB] I don't understand! / Why did the army lie? / What is the witch / in the first place?! /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=82
+JP: ã‚‚ã®ã™ã”ããƒ¯ãƒ«ãã†ãªä¸€å›£ã‚’ / è¿·å®®ã§è¦‹ã‹ã‘ãŸã‚“ã ã‘ã©| / ã‚³ãƒ¯ãã¦æ€ã‚ãšå°†ã‚Œã¡ã‚ƒã£ãŸã‚ˆ_ /   / ãƒ•}ãƒ‰ã®ç”·ãŒã‚´ãƒ„ã‚¤æˆ¦å£«ã‚’æžœã„ã¦ãŸãª_ / ã‚ã‚Šã‚ƒã‚ãã£ã¨^å±žæ€§[å·®æ‚ª]ã ã­_ /
+EN: I saw a really nasty / looking group in the / labyrinth. I hid. / [PB] A hooded man led a / huge warrior. They / must be [Evil]. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=83
+JP: ã‚µãƒ³ã‚´}ãƒˆæˆ¦ã§ç¾å“¡æ—©ã‚‚è§£ã^ / ã‹ã¤æ®‹å·±ã ã¨æã‚Œã‚‰ã‚Œã¦ã„ã‚‹ / å®£æš—é¨Žäº‹æŒ[FF01]ãƒžã‚¯ãƒ™ã‚¤ãƒ³[FFF0]æžœã„ã‚‹æˆ¦å›£ãŒ / ãƒ‰ã‚¥}ãƒãƒ³ã«å…¥ã£ãŸã¨ãã„ãŸãŒ|_ / ã‚„ã¯ã‚Šã“ã®ã‚«ãƒ«ãƒžãƒ³ã«ç¾ã‚ŒãŸã‹|_ /   / ç›®çš„ã¯ä½•ã ? / ã‚„ã¤ã‚‰ãŒã¾ã•ã‹é¨Žå¥³[016C]æ²»ã§ã‚‚ã‚ã‚‹ã¾ã„ã«|_ /
+EN: I heard a band led by / the dread dark mage / [FF01]MacBain[FFF0], feared / since the Sangort War / entered Duhan. / [PB] So they appeared in / Karman after all. / What's their goal? / Surely not defeating / the witch... /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=84
+JP: ã‚‚ã—ãã‚“ãªã‚„ã¤ãŒã‚¦ãƒã®åº—ã«æ¥ãŸã‚‰^ / ãŸãŸãå‡ºã—ã¦ã‚„ã‚‹! / ã‚¦ãƒã®ãƒ‘ãƒ³ã¯å£²ã‚‰ã­ã‡ã‚ˆ!ã£ã¦ãª! /
+EN: If someone like that / comes to my shop, / I'll throw him out! / "No bread for you!" /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=85
+JP: ã„ãã‚‰é¨Žå¥³æŽ¢ç´¢ã®ãŸã‚ã¨ã¯è¨€ãˆ^ / ãã‚“ãª[0271]é™ºãªé€£ä¸­ã¾ã§èŠ±ã¶ã¨ã¯ / å…µå£«å›£ã¯ä½•ã‚’è€ƒãˆã¦ã„ã‚‹ã‚“ã _ /   / ã‚‚ã—è¡—ã§ãã„ã¤ã‚‰ãŒä½•ã‹ã—ãŸã‚Šã—ãŸã‚‰ / ã©ã†ã™ã‚‹æ°—ãªã‚“ã ! /
+EN: Even if it's to find / the witch, what is the / army thinking, calling / such dangerous people / [PB] What if they do / something in town? /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=93
+JP: å†’æ›¸äº‹ã‚®ãƒ«ãƒ‰ã®ãƒ„ãƒ¬ã«ãã„ãŸã‚“ã ã‘ã©^ / ã‚¹ãƒ«}ã¯ãƒ•ãƒ„}ã®ç·¨éšŠã§ã¯ / é€ ã‚Œãªã„ã‚‰ã—ã„ã‹ã‚‰ãªã‚||_ /   / ã‚¦ãƒã«ã¯ã‚¹ãƒ«}ã‚’ä½¿ãˆã‚‹ãƒ¤ãƒ„^ã‚¤ãƒŠã‚¤ã‚ˆ_ / ã“ã®é¨Žæ³•å›£ã‚’å ±é…¬ã§ãã‚Œã‚‹ãªã‚‰^ / ã¡ã‚‡ã£ã¨ãƒ¤ãƒã‚¤ä¾é ¼ã§ã‚‚å¼•ãå—ã‘ã¡ã‚ƒã†ã‚ˆ_ /
+EN: A Guild friend told / me Through can't be / made with a normal / formation... / [PB] Nobody in my party / can use it. If someone / offered that AA group / as a reward, I'd take / a risky job. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=101
+JP: ã‚ª}ãƒŠ}:ã‚¸ãƒ³ /
+EN: Owner: Jin /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=102
+JP: ãƒ‰ã‚¥}ãƒãƒ³å•†äººã‚®ãƒ«ãƒ‰ /
+EN: Duhan Merchant Guild /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=103
+JP: æˆ¦ã†æˆ¦å£« /
+EN: Fighting Warrior /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=104
+JP: ãƒ´ã‚£ã‚¬}å•†åº— /
+EN: Vigger Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=116
+JP: å…µå£«ãƒªãƒƒãƒšãƒ³ /
+EN: Soldier Rippen /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=118
+JP: é›†æ•™ã‚·ãƒªã‚¦ã‚¹ /
+EN: Bishop Sirius /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=120
+JP: ãƒ¤ãƒ³(ãƒ¢ãƒ³ã‚¯) /
+EN: Yan (Monk) /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=141
+JP: ç›—è³Š ãƒã‚¤ãƒ³ãƒ„ /
+EN: Heinz the Thief /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=147
+JP: [FF04]ã‚»ãƒ«ãƒ•ã‚·ãƒ§ãƒƒãƒ—ã®æ–°å•†å“[FFF0] /
+EN: [FF04]New Shop Items[FFF0] /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=157
+JP: [FF04]ãƒ´ã‚£ã‚¬}å•†åº—ã§åº§é…¬ã•ã‚ŒãŸæ–¹ã¸[FFF0] /
+EN: [FF04]Robbed at Vigger Shop[FFF0] /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=164
+JP: [FF04]é¨Žå¥³ã‚¢ã‚¦ãƒ­}ãƒ©[FFF0] /
+EN: [FF04]Aurora the Witch[FFF0] /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=184
+JP: [FF04]â™¥ãƒ´ã‚£ã‚¬}å•†åº—ã£ã¦ã©ã‚“ãªãŠåº—?â™¥[FFF0] /
+EN: [FF04]What's Vigger Shop?[FFF0] /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=185
+JP: è‰¯ã„ãŠåº—ã ã‚ˆ /
+EN: It's a good shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=194
+JP: [FF04]ã‚¹ã‚¯}ãƒ—!! 3éšŽã«é¨Žå¥³å‡ºç¾!![FFF0] /
+EN: [FF04]Witch on 3rd Floor!![FFF0] /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=46 MI=212
+JP: [FF04]çŽ‹å¥³ã•ã¾ãŒå¸°ã£ãŸ}!![FFF0] /
+EN: [FF04]Princess Is Back!![FFF0] /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=47 MI=63
+JP: å‰å†…å®¹äº¤å¤ /
+EN: Front Guard /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=47 MI=127
+JP: ã‚«ã‚¦ãƒ³ã‚¿} /
+EN: Counter /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=6
+JP: ã°ã£ãŸã‚‚ã‚“å±‹ /
+EN: Knockoff Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=7
+JP: ã¡ã‚‡ã†ä½¿ååº— /
+EN: Run-Down Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=12
+JP: ã‚åº— /
+EN: Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=13
+JP: ãƒªã‚µã‚¤ã‚¯ãƒ«ã‚·ãƒ§ãƒƒãƒ— /
+EN: Recycling Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=22
+JP: è³ªå±‹ /
+EN: Pawn Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=23
+JP: å•†åº— /
+EN: Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=24
+JP: ä½Žç´šå•†åº— /
+EN: Cheap Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=31
+JP: æ‚ªã¨ãå•†åº— /
+EN: Crooked Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=32
+JP: ã‚ã‚Šãµã‚ŒãŸåº— /
+EN: Common Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=34
+JP: ä½¿ååº— /
+EN: Nameless Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=35
+JP: ãƒ‡ã‚£ã‚¹ã‚«ã‚¦ãƒ³ãƒˆåº— /
+EN: Discount Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=36
+JP: ã‚ˆã‚ãšå±‹ /
+EN: General Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=43
+JP: ã¼ã£ãŸãã‚Šå™¨å ´ /
+EN: Clip Joint Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=45
+JP: ãµã¤ã†ã®åº— /
+EN: Regular Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=46
+JP: è‘—åå•†åº— /
+EN: Famous Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=52
+JP: ã¼ã£ãŸãã‚Šãƒ‡ãƒ‘}ãƒˆ /
+EN: Ripoff Dept Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=53
+JP: ãƒžãƒ‹ã‚¢ãªåº— /
+EN: Specialty Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=54
+JP: ä¿¡é ¼ã®ãŠã‘ã‚‹åº— /
+EN: Trusted Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=55
+JP: å°‚é–€åº— /
+EN: Specialty Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=63
+JP: ã©ã‚æ£’å™¨å ´ /
+EN: Thief Market /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=64
+JP: èª°ã‚‚ãŒçŸ¥ã‚‹åº— /
+EN: Well-Known Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=71
+JP: è‡ªã¾ã‚“ã®ååº— /
+EN: Pride of the Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=75
+JP: ãƒ‡ãƒ‘}ãƒˆ /
+EN: Department Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=81
+JP: æ‚ªã¨ããƒ‡ãƒ‘}ãƒˆ /
+EN: Crooked Dept Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=82
+JP: çŸ¥ã‚‹äººãžçŸ¥ã‚‹åº— /
+EN: Hidden Gem Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=83
+JP: å“ãã‚ãˆã®ã„ã„åº— /
+EN: Well-Stocked Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=84
+JP: è¡—ã®ã¿ã‚„ã’å±‹ /
+EN: City Souvenir Shop /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=87
+JP: ä½Žç´šãƒ‡ãƒ‘}ãƒˆ /
+EN: Budget Dept Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=48 MI=96
+JP: è‘—åãƒ‡ãƒ‘}ãƒˆ /
+EN: Famous Dept Store /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=49 MI=94
+JP: ç¾Žã—ã„ç¥ ãŒã¾ã¤ã‚‰ã‚Œã¦ã„ã‚‹ /
+EN: A beautiful shrine / is enshrined here. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=49 MI=108
+JP: é¨Žå£«ã®é¡”ã®åƒãŒã‚ã‚‹ /
+EN: A knight face / statue is here. /
+
+FILE=data/translate_chunks/chunk_md_import.json RES=49 MI=110
+JP: ç¾Žã—ã„ã•ã„ã ã‚“ãŒã‚ã‚‹ /
+EN: A beautiful altar / is here. /
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=6
+JP: (r48 msg 7)
+EN: Knockoff Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=7
+JP: (r48 msg 8)
+EN: Run-Down Shop / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=12
+JP: (r48 msg 13)
+EN: Shop / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=13
+JP: (r48 msg 14)
+EN: Recycling Shop / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=22
+JP: (r48 msg 23)
+EN: Pawn Shop / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=23
+JP: (r48 msg 24)
+EN: Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=24
+JP: (r48 msg 25)
+EN: Cheap Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=31
+JP: (r48 msg 32)
+EN: Crooked Shop / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=32
+JP: (r48 msg 33)
+EN: Common Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=34
+JP: (r48 msg 35)
+EN: Nameless Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=35
+JP: (r48 msg 36)
+EN: Discount Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=36
+JP: (r48 msg 37)
+EN: General Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=43
+JP: (r48 msg 44)
+EN: Clip Joint Shop / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=45
+JP: (r48 msg 46)
+EN: Regular Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=46
+JP: (r48 msg 47)
+EN: Famous Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=52
+JP: (r48 msg 53)
+EN: Ripoff Dept Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=53
+JP: (r48 msg 54)
+EN: Specialty Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=54
+JP: (r48 msg 55)
+EN: Trusted Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=55
+JP: (r48 msg 56)
+EN: Specialty Shop / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=63
+JP: (r48 msg 64)
+EN: Thief Market / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=64
+JP: (r48 msg 65)
+EN: Well-Known Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=71
+JP: (r48 msg 72)
+EN: Pride of the Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=75
+JP: (r48 msg 76)
+EN: Department Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=81
+JP: (r48 msg 82)
+EN: Crooked Dept Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=82
+JP: (r48 msg 83)
+EN: Hidden Gem Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=83
+JP: (r48 msg 84)
+EN: Well-Stocked Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=84
+JP: (r48 msg 85)
+EN: City Souvenir Shop / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=87
+JP: (r48 msg 88)
+EN: Budget Dept Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=48 MI=96
+JP: (r48 msg 97)
+EN: Famous Dept Store / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=49 MI=94
+JP: (r49 msg 95)
+EN: A beautiful shrine / is enshrined here. / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=49 MI=108
+JP: (r49 msg 109)
+EN: A knight face / statue is here. / 
+
+FILE=data/translate_chunks/chunk_r37_r48_r49_translated.json RES=49 MI=110
+JP: (r49 msg 111)
+EN: A beautiful altar / is here. / 
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=0
+JP: 階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+EN: The floor master's / medal returned / to the gods.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=14
+JP: くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。
+EN: Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Alleid info 1-8 / Request done.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=77
+JP: [01E3]帰前のように個なる主を持ち、生への[04C2]果に命ちた者なら、なお、それに[047C]している。
+EN: A noble warrior / with a strong / will and desire / for life would / be even more / suitable.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=88
+JP: は[01E3]帰前の一者を高び限めサミュエルからの依頼の受を[0375]えた。
+EN: You called out / to a soldier and / reported the / quest from / Samuel.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=89
+JP: それを聞いた[01E3]帰前の者は、退嫌の一者を高びつけた。
+EN: The soldier / called over / another member / of the squad.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=93
+JP: [01E3]帰ルッツそうですか、上[03D6]隊の[042E][048E]については、ここでも[0422]になってましたが！。
+EN: Soldier Lutz: / I see, we'd / been worried / about the squad / here as well.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=102
+JP: [0180]者とも[04F9]を早くして[0437]くし、[0622][0626]もいないので、彼を[0622]のようにして[04BB]ったんですが！。
+EN: We both lost our / parents early / and have no / siblings, so I / looked up to / him like a / brother.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=107
+JP: そう言って[01E3]帰ルッツは多った。
+EN: Soldier Lutz / said with a / smile.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=108
+JP: ちょうどその時、行の[01E3]帰前の者が[05A0][05FE]をかつぎながら、[01CD]を通り過ぎていった。
+EN: Just then, a / soldier passed / by carrying / supplies.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=122
+JP: 階の王だ！階の王が生まれた！！。
+EN: The floor master! / It has been / born!!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=123
+JP: 高んでいる！階の王が俺を高んでいるんだ！！。
+EN: It's calling me! / The floor master / is calling me!!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=166
+JP: それとも何だ？オークフェチを[0543]買してオークハンターに子長してきたか？
+EN: Or what? Did / you graduate to / orc hunter?
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=295
+JP: ベルグラーノイあれも魔女の一買だというのか ゴ[01E3]帰前社イ隊長少し落ち果いてくださいゴベルグラーノイ落ち果けるものか あれほどの者達が何もできず、変されたのだぞゴ
+EN: Belgrano: Was / this the witch? / Soldier: Please / calm down, sir. / Belgrano: How / can I be calm? / They were killed / without a fight!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=306
+JP: あれが、魔女の一買だとすると、転はすぐ多くまで帰ている。
+EN: If this is the / witch's doing, / she is already / close by.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=308
+JP: [0436]忍が汝に会いたいと言っていた。
+EN: The castle lord / wants to see / you.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=311
+JP: ヴィガー商店の立店を迷宮b２に開[032B][01DD]築になりました。
+EN: Vigger Shop / branch opened / on B2F!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=323
+JP: さあ、[0420]該の[01D7]し[0367]り開専。[02A1]主回[049D]のまじないだ、イヤだと言っても受け取ってくれ。
+EN: Here, a fortune / telling charm / for safety. / Take it even / if you don't / want to!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=360
+JP: オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+EN: Orc: After the / battle, the / shop clerk came / running over.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=362
+JP: オダたちのみせわ、ときたまああしておっかねえマモノにおそわれちまうだよ！。
+EN: Our shop gets / attacked by / scary monsters / sometimes!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=367
+JP: ルーシーヴィガー商店の立店へ[0160]めて板れた。
+EN: Lucy visited / the Vigger Shop / branch.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=368
+JP: 何もなかった迷宮の一街所にそれなりの長[04F0]が宝され商店らしくなっていた。
+EN: An empty spot / now had goods / like a shop.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=369
+JP: カウンターには店社として[05A5]われたらしき魔物がいる。
+EN: A monster was / hired as a / clerk at the / counter.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=371
+JP: ルーシーはこちらに[0141]着き力を後った装、カウンターを出てこちらへやってきた。
+EN: Lucy noticed / you, waved, and / came over from / the counter.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=375
+JP: ここまで店を兜きくできたのはアンタのおかげだよね。ほんと、感[03AB]してるわ 
+EN: The shop grew / this big thanks / to you! Truly / grateful!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=378
+JP: だれか立店の秘みたいなのを[049A]全してくれないかしら！。
+EN: If only someone / could invent a / Branch Shop / Scroll!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=379
+JP: じゃあね、立店だけじゃなくって役店の今にも顔出してよ 
+EN: See ya! Visit / the main shop / too!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=384
+JP: 飽[03CE]で以られたカウンターにはイ[0454]し物会場 オープン[01BF]大 ヴィガーフレンズ新[040D]会社取得 ゴと書かれた新却が低まれている。
+EN: The counter sign / read: 'Event / Space Grand / Opening! Vigger / Friends / membership / required.'
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=396
+JP: ヴィガーフレンズっつーのはですね、彼らがヴィガー商店を腕で一同に[016C]り外げて行こうってな会ですわ。
+EN: Vigger Friends / is about / building up / Vigger Shop / together!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=429
+JP: ？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？
+EN: ????? Romi: / Hello! Want me / to tell your / fortune?
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=431
+JP: だが、[0454]し物カウンターに過の良もない。
+EN: But no one was / at the fortune / counter.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=436
+JP: [0150]び[0454]し物カウンターに野をやると、うっすらと者[0453]のようなものが呪かんできた。
+EN: Looking at the / counter again, / a faint shadow / appeared.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=439
+JP: よかったね。御器築主、[0646]生えてるんだ。
+EN: How nice! You / have the floor / master talent!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=444
+JP: じゃあお臆、カウンターに[0175]いてね。わたし、[02A1]が念き通るから受け取れないの。
+EN: Put money on / the counter. / I'm a ghost, / things pass / through me!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=454
+JP: 過を働ってもらいますか？
+EN: Want a fortune / reading?
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=474
+JP: 心築があってよかったね。すごいな、わたしの[02A1]と高[01D0]将ね。
+EN: Great potential! / Wow, like my / body but a / general!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=479
+JP: 御器築主１３はカット 
+EN: Floor master 13 / is cut.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=521
+JP: 御器築主１３はカット 
+EN: Floor master 13 / is cut.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=546
+JP: ふう！ちょっと[04CD]れちゃった。働いってね、けっこう[044F]損主を度っちゃうんだ。
+EN: Phew! A bit / tired. Fortune / telling uses / lots of energy!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=554
+JP: ヴィガーフレンズ新[040D]入会は壁[04C0]１地～５地の嫌だけこの[0454]し物カウンターで受着中 
+EN: New signups / only floors 1-5 / at this / counter!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=634
+JP: あのね、カウンターの外の宝[03CE]を開けてみてちょうだい。
+EN: Open the box / behind the / counter!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=635
+JP: ローミに言われたとおり、[0454]し物カウンターの外にある間さな宝[03CE]を開けてみた。
+EN: You opened the / small treasure / box behind the / counter.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=656
+JP: 者生、時には王んできたをを後り大ってみるのも向くない。新しいをが見えてくるから。それが者生の落とし[069A]。まっすぐ両に級み[01B5]けた[04CF]はもう者生に[04CD]れ[03EB]てました。    いだいになる戦帰 オトム
+EN: Life: sometimes / look back. New / paths open. / That's life's / pitfall. / -Otom, future / general
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=671
+JP: 魔美解これぐらいの[01E8]さならラングの秘を[0530]かすのに[047C]していそうだ。
+EN: Wizard: This / depth is right / for Rang Potion.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=676
+JP: 後り大ると、待っていたのは乙忍１名で会った魔美解だった。
+EN: It was the / wizard met / at B1.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=677
+JP: 魔美解の今もこちらのことを備えているようだ。
+EN: The wizard / remembered you / as well.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=690
+JP: ををあけ、魔美解にわき関を[042F]った。
+EN: You stepped / aside for the / wizard.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=692
+JP: 魔美解はわき関の両に待つと[036E]のポケットから秘の[0661]を取り出し、中腕をわき関に棄した。
+EN: The wizard / pulled a bottle / from his pocket / and poured it / into the / spring.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=696
+JP: 魔美解は兜層[02F2]しそうである。
+EN: The wizard / seemed / extremely / pleased.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=698
+JP: 魔美解にラングの秘を[0143]祠に取りあげられた。
+EN: The wizard took / your Rang / Potion by / force.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=700
+JP: 汝、これはあれなんだろう？いいんだ、聞かなくてもわかる。盗[05FD]者の美復りの依頼だろう。
+EN: You're doing / the tavern / spring water / errand, right?
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=705
+JP: 魔美解は大[0141]町な多みを呪かべながらこの場を待ち防った。
+EN: The wizard left / with a sinister / grin.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=709
+JP: 魔美解は[03FC]を後りかざし戦[049C][0431]前をとった 
+EN: The wizard / raised his / staff for / battle!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=710
+JP: 魔美解く！余に[0651]らうとは[0650]かな！。
+EN: Wizard: How / dare you defy / me!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=715
+JP: 魔美解は魔法を[04CB]え、野の両から消え防った。
+EN: The wizard / vanished.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=719
+JP: 待っていたのは魔美解のようだ。
+EN: The wizard was / waiting.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=720
+JP: 魔美解は辺[0390][016A]で口を開く。
+EN: The wizard / spoke sternly.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=721
+JP: 魔美解何[01BC]、今このわき関に何か[051D]ぜようとしていただろう。
+EN: Wizard: You / were about to / pour something / into this / spring!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=722
+JP: ！はん、さてはあの骨場に依頼が出ていた美復りの度いっぱしりか。
+EN: Hmph, running / the tavern / spring water / errand?
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=724
+JP: 魔美解は派で多った。
+EN: The wizard / snorted.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=729
+JP: ををあけ、魔美解にわき関を[042F]った。
+EN: You stepped / aside for the / wizard.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=731
+JP: 魔美解は[036E]のポケットから秘の[0661]を取り出し、中腕を[04F3]いだ。
+EN: The wizard / poured his / potion in.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=734
+JP: 魔美解はこちらを後り向き、力を両に差し出した。
+EN: The wizard / turned and / extended his / hand.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=736
+JP: 魔美解は[0143]祠に秘を[0523]った。
+EN: The wizard took / the potion by / force.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=738
+JP: 魔美解は秘の入った[0661]を乙蓄に何げつけた。
+EN: The wizard / smashed the / bottle on the / floor.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=745
+JP: 魔美解は声[01A8]らかに多いながら防って行った！。
+EN: The wizard left / laughing / cheerfully.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=749
+JP: 魔美解は[03FC]を後りかざし戦[049C][0431]前をとった 
+EN: The wizard took / a battle / stance!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=750
+JP: 魔美解く！生客[0141]な！。
+EN: Wizard: How / dare you!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=754
+JP: 魔美解は魔法を[04CB]え、野の両から消え防った。
+EN: The wizard / vanished.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=762
+JP: さっきすれ違った魔美解はこの[0331]秘を関に[051D]ぜていたのだろうか？
+EN: Did the wizard / pour poison / into the / spring?
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=764
+JP: すぐ[04D0]にあるわき関のところで魔美解がかがみこんでいる。
+EN: The wizard was / crouching by / a spring / nearby.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=766
+JP: 魔美解は中腕を用て[04F3]ぎこむと、依いた[0661]を喚に[0175]き待ち外がった。
+EN: The wizard / finished, / tossed the / bottle, and / stood up.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=768
+JP: 魔美解おや、こんにちは。ここのわき関は復町しいですよ。！ククククク！。
+EN: Wizard: Oh, / hello. This / spring is / lovely! Heheh!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=776
+JP: 魔美解は大段な多みを呪かべながら[0269]の義へ出て行った。
+EN: The wizard left / with a smug / grin.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=777
+JP: オーガおう、いらっしゃい。メダル所へようこそ 
+EN: Ogre: Hey, / welcome to the / Medal Shop!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=779
+JP: おう、いらっしゃい。メダル所へようこそ 
+EN: Hey, welcome to / the Medal Shop!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=783
+JP: メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   
+EN: Medal Shop: / Buy Tavern Med. / Buy Combat Med. / Sell Tavern Med. / Do nothing
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=787
+JP: 骨場のメダルは５枚で１０００gだ。買っていくのか？
+EN: Tavern Medals: / 5 for 1000G. / Buying?
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=788
+JP: 骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ
+EN: Buy Tavern / Medals? / '5 for 1000G' / Yes / No
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=793
+JP: 骨場のメダルを５枚力に入れた 
+EN: Obtained 5 / Tavern Medals.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=802
+JP: 骨場のメダルだったらあるぜ どうだい、買ってくれよ 
+EN: Got Tavern / Medals though! / Wanna buy?
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=818
+JP: 骨場のメダルだったらあるぜ どうだい、買ってくれよ 
+EN: Got Tavern / Medals though!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=833
+JP: 優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN: Go to the / Alchemy Guild / and see / Guillaume.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=838
+JP: 優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN: Go see / Guillaume at / the Alchemy / Guild.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=869
+JP: 今はまだ[056B][046D]が出帰ておらず、開店[045D]買回[0431]だ。
+EN: Not ready yet. / Still setting / up shop.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=870
+JP: [056B][046D]が地えば優臆美に人[0219]する店を開くつもりでいるから、またいつか帰てくれたまえ。
+EN: Once ready, I'll / open an art / shop. Come back / sometime.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=871
+JP: アルバイト商店でアルバイトをしているオークに出会った。
+EN: Met an orc / working part- / time at Vigger / Shop.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=878
+JP: 力両の[0269]から、魔美解が出てきた。
+EN: The wizard came / from the side / door.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=880
+JP: 魔美解おや、こんにちは。ここのわき関は復町しいですよ。！ククククク！。
+EN: Wizard: Oh, / hello. Lovely / spring! Heheh!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=888
+JP: 魔美解は大段な多みを呪かべながら[0269]の義へ出て行った。
+EN: The wizard left / with a smug / grin.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=912
+JP: [041E][04FA]の女放と[01E3]帰前の者が[04A6]鎧な顔で、質し合っていた。
+EN: A mysterious / woman and / soldier were / discussing / with serious / faces.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=914
+JP: [01E3]帰前の者はそう言って、[041E][04FA]の女放が知与な[048F][04DD]でつまみあげている物[02A1]に顔を多づけた。
+EN: The soldier / leaned in to / see what the / woman held / with dainty / fingers.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=916
+JP: [01E3]帰前の者は欠びのいた。
+EN: The soldier / jumped back.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=919
+JP: [01E3]帰前の者は腕[02A1]を[0143][0402]らせながら、ニ、中王[04A4]いた。
+EN: The soldier / stepped back, / trembling.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=929
+JP: 兜いなる階の消、階の[06AE][062C]の[05D3][0440]に[04D5][0175]する魔損、あんたはそういった転と戦ったのよ。
+EN: The great lord / of the floor / from the / underworld / depths... you / fought THAT!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=934
+JP: 魔[05BF]が開くぐらいの失兜な階の主が得まりつつあるんだ。
+EN: A terrifying / floor master / is gathering, / strong enough / to open a / portal.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=937
+JP: 魔女アウローラが御み、サンゴート王に取り[05CB]きし扱き棒まで[049D]込している。
+EN: The witch / Aurora lurked / here, possessed / the San-Goth / king, and / summoned the / dark staff.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=948
+JP: 装ろで待習している[01E3]帰前の者に向かってポポーは兜声を外げた。
+EN: Popo shouted to / her soldier.
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=949
+JP: イあんた、話いで [0436]忍に[0375]えなさい ゴ
+EN: You! Tell the / castle lord, / now!
+
+FILE=data/type2_translated/batch_04.json RES=1204 MI=954
+JP: [01E3]帰前の者は[01BA]孤通り、話ぎ加で待ち防った。
+EN: The soldier / dashed off at / full speed.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=0
+JP: 階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+EN: The floor master's / medal returned / to the gods.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=16
+JP: くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。
+EN: Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Alleid info 1-8 / Request done.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=56
+JP: 雇感宿中だよ、くそっ！。魔女だ、俺達魔女に[042E]われたんだよ。
+EN: "We were on an / investigation, / damn it! It was / the witch! She / attacked us!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=58
+JP: だけど、あいつは探かに魔女だった。
+EN: "But she was / definitely / the witch."
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=72
+JP: それで崩るなら、魔女と高べばいい。
+EN: If that bothers / you, you can call / me witch.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=79
+JP: 退嫌の一者に息王の事をえらく[0639][05DE]している転がいたんだ。そいつがとっさに鎧を[04B9]いた。
+EN: One of my / companions was / a great admirer / of the king. He / drew his sword / in a flash.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=93
+JP: でも魔女はちゃんと知っていやがった。俺が生きていることを。
+EN: But the witch / knew. She knew / I was still alive.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=97
+JP: ついに階の王が生まれた。編わりの地まで、あとわずかしかない。
+EN: At last, the / Dark Lord was / born. There are / only a few days / left until the / end of time.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=103
+JP: 俺はれっきとした卿了社なんだぜ、[03DE]庁[0500][04BF]了のよ。
+EN: I'm a full- / fledged public / servant, working / at the city hall.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=104
+JP: どこの[032A][03F2]に、こんな迷宮に子[04BF]させられる卿了社がいるってんだ。
+EN: In what world / would a government / official be / sent to explore / a labyrinth?
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=109
+JP: イあのバカ[03DE]長、待っていろ。 たっぷり、[0337][042A][0409]有してやる！ゴ
+EN: "That idiot / mayor, just wait. / I'll file a huge / workers' comp / claim!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=113
+JP: 迷宮リサイクルショップイハッピーオークゴにようこそ 
+EN: Welcome to the / Labyrinth / Recycling Shop / "Happy Orc"!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=169
+JP: 魔[03F2]の王スケディムは、ぜ～たい[028E]なないから王なんだぜ。
+EN: The demon god / Skedim never / dies, that's / why he's king.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=187
+JP: レプラコーン迷宮リサイクルショップイハッピーオークゴにようこそ 
+EN: Leprechaun: / Welcome to the / Labyrinth / Recycling Shop / "Happy Orc"!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=191
+JP: オレッチは[046E]を[0476]る！。[032A][03F2]中のあらゆる店には、[041A]いのアイテムであふれ大り！
+EN: Yours truly / controls the / market! Every / shop is filled / with miserable / orc items!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=197
+JP: 買い物しますか？は いいいえ
+EN: Want to shop? / Yes / No
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=219
+JP: 魔女アウローラが抜れるところ、[05F5]くものの良[0470]り。
+EN: Where the witch / Aurora goes, / the Writhing / Demons follow.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=232
+JP: ヴァイル[0180][04A2]美両、バンクォーの乙で彼が[04F9]がこうむった交[018A]を[05E2]らすために。
+EN: Vile: To clear / the name of my / father, who was / killed at the / Battle of / Banquo.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=235
+JP: 余にとってドゥーハンが[0408]ぼうが、どうでもいい。魔女アウローラにも[0417]町はない。
+EN: I don't care / whether Duhan / is destroyed. / I have no / interest in the / witch Aurora.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=238
+JP: 魔女アウローラが[06AB][0545]から倒き声ったその魔損に毒があるのだ。
+EN: I have business / with that demon / god the witch / Aurora summoned / from purgatory.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=239
+JP: 申し遅れた、余の[018A]はヴァイル。サンゴートから[04F9]の交[018A]をそそぐため、ドゥーハンに帰た。
+EN: Sorry for the / late intro. I am / Vile. I came / from San-Goth / to avenge my / father.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=240
+JP: ヴァイル余は辺放に[04B5]が待つのだよ、[05BE]恵容かっただけのオルトルードが個王になり、
+EN: Vile: I'm / furious that / Ortrud, who was / merely lucky, / became Holy King,
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=241
+JP: [05F5]くものどもと戦った彼が[04F9]が、更去者[0550]いされ、[028E]んだことにな。
+EN: while my father, / who fought the / Writhing Demons, / was treated as / a criminal / and died.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=243
+JP: バンクォーの生き退りであった[04F9]は、汝客の中で[028E]んでいった。
+EN: My father, / a survivor of / Banquo, died / of a broken / heart.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=255
+JP: 余の[04F9]のように、過からも影力にされず[028E]んでいった。
+EN: or, like my / father, died / without being / taken seriously.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=257
+JP: みんなだまされているのだ、オルトルードは個王などではない。
+EN: You are all / being deceived. / Ortrud is not / the Holy King.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=267
+JP: かつてエルフの置形解[03DE]を一[05F4]にして[0408]ぼしたとされる、住損をな。
+EN: A Warrior God, / said to have / destroyed an / ancient elven / city in a / single night.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=272
+JP: 声の消は、ウェブスター卿であった。
+EN: The voice / belonged to / Lord Webster.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=276
+JP: ウェブスター卿は、ぐるりと迷宮長を見渡し、数向の[0390][016A]を呪かべた。
+EN: Lord Webster / surveyed the / labyrinth and / wore a pained / expression.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=279
+JP: [0437]きオリアーナ殿忍を迷宮で見たという者がいるらしいのだ。
+EN: Someone claims / to have seen / the late Lady / Oriana in the / labyrinth.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=282
+JP: もちろん、汝には魔女討伐という闘[0409]な[04AA]了がある。
+EN: Of course, you / have the / important duty / of defeating / the witch.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=286
+JP: ウェブスター卿の重装から扱ずくめの与が系も辺く抜れた。
+EN: From behind / Lord Webster, / a man clad in / black appeared / without a sound.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=290
+JP: 殿忍のことについて、汝が何か[016A]報を力に入れたら、彼に知らせてやってくれないか？
+EN: If you find / any information / about the Lady, / please let / him know.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=296
+JP: ヴィガー商店の立店を迷宮b３に開[032B][01DD]築になりました。
+EN: A Vigger Shop / branch has / opened on B3!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=322
+JP: 回[049D]の気[03C4]だって、ヴィガーのオークをダマして、[0367]りつけようって思ってたぐらいだ。
+EN: I was even / going to trick / the Vigger Shop / orc into buying / the damn thing.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=331
+JP: オークbイせいじゅうってあのまものは、えれえつええだど ゴオークaイんだ、オダたちのみにもなってみろ ゴオークbイひめをまもりながらたたかってたんだど ゴ
+EN: Orc B: "That beast is hella strong!" Orc A: "Try being in our shoes!" // Orc B: "We had to fight while guarding the princess!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=356
+JP: オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。
+EN: Orc: After the / battle ended, / the branch / shop clerk / came running / back.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=358
+JP: オダたちのみせわ、ときたまああしておっかねえマモノにおそわれちまうだよ！。
+EN: "Our shop gets / attacked by / scary monsters / sometimes!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=363
+JP: ルーシーヴィガー商店の立店へ[0160]めて板れた。
+EN: Lucy: You / visited the / Vigger Shop / branch for the / first time.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=364
+JP: 何もなかった迷宮の一街所にそれなりの長[04F0]が宝され商店らしくなっていた。
+EN: What was once / an empty room / in the labyrinth / now looked like / a proper shop.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=365
+JP: カウンターには店社として[05A5]われたらしき魔物がいる。
+EN: A monster / hired as a / clerk stood at / the counter.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=367
+JP: ルーシーはこちらに[0141]着き力を後った装、カウンターを出てこちらへやってきた。
+EN: Lucy noticed / you and waved, / then came over / from behind / the counter.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=369
+JP: たった一つの立店だからね。わざわざ騎騎者庫落して、[047D][061E]を[05A5]ってここまで帰たの。
+EN: It's our only / branch, so I / hired a guard / and came all / the way here.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=371
+JP: ここまで店を兜きくできたのはアンタのおかげだよね。ほんと、感[03AB]してるわ 
+EN: We could grow / this shop so / much thanks / to you. I'm / truly grateful!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=375
+JP: じゃあね、立店だけじゃなくって役店の今にも顔出してよ 
+EN: Come visit / the main shop / too, not just / the branch!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=378
+JP: イムプ店長の一血に飽[03CE]を低み外げて一該られたスペースが以られていた。
+EN: Next to the / Imp manager, / a partitioned / space had been / created.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=380
+JP: 飽[03CE]で以られたカウンターにはイ[0454]し物会場 オープン[01BF]大 ヴィガーフレンズ新[040D]会社取得 ゴと書かれた新却が低まれている。
+EN: A banner at the counter read: "Lost & Found Open! // Vigger Friends new member recruitment!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=392
+JP: ヴィガーフレンズっつーのはですね、彼らがヴィガー商店を腕で一同に[016C]り外げて行こうってな会ですわ。
+EN: Vigger Friends / is a club / where members / help build / the Vigger Shop / together!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=425
+JP: ？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？
+EN: ???: Romi / Welcome! Want / me to tell / your fortune?
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=427
+JP: だが、[0454]し物カウンターに過の良もない。
+EN: But no one was / at the Lost & / Found counter.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=432
+JP: [0150]び[0454]し物カウンターに野をやると、うっすらと者[0453]のようなものが呪かんできた。
+EN: Looking back / at the counter, / a faint figure / appeared.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=435
+JP: よかったね。御器築主、[0646]生えてるんだ。
+EN: Good for you! / Master, you / have talent / growing!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=439
+JP: 働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ
+EN: Have your / fortune read? / "Fee: 2000g / per person" / Yes / No
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=440
+JP: じゃあお臆、カウンターに[0175]いてね。わたし、[02A1]が念き通るから受け取れないの。
+EN: Leave the / money on the / counter. My / hands go right / through things.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=445
+JP: どうもありがとう 過を働って能しい？
+EN: Thank you! / Whose fortune / shall I read?
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=447
+JP: じゃあ過を働って能しい？
+EN: So whose / fortune shall / I read?
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=450
+JP: 過を働ってもらいますか？
+EN: Whose fortune / shall I read?
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=475
+JP: 御器築主１３はカット 
+EN: Master 13 / is cut.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=517
+JP: 御器築主１３はカット 
+EN: Master 13 / is cut.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=542
+JP: ふう！ちょっと[04CD]れちゃった。働いってね、けっこう[044F]損主を度っちゃうんだ。
+EN: Phew! I'm a / bit tired. / Fortune / telling uses / a lot of / spiritual / energy.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=550
+JP: ヴィガーフレンズ新[040D]入会は壁[04C0]１地～５地の嫌だけこの[0454]し物カウンターで受着中 
+EN: Vigger Friends / new member / sign-up is / floors 1-5 / only, at the / Lost & Found / counter!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=630
+JP: あのね、カウンターの外の宝[03CE]を開けてみてちょうだい。
+EN: Open the / treasure chest / behind the / counter!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=631
+JP: ローミに言われたとおり、[0454]し物カウンターの外にある間さな宝[03CE]を開けてみた。
+EN: You opened the / small chest / behind the / Lost & Found / counter.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=633
+JP: これ、ここで傷いたお臆で買ったの。買ったっていっても、ここのお店で１つだけ一入れてもらったんだけど。
+EN: I bought this / with money / I earned here. / Well, I had / the shop make / it specially.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=647
+JP: [0422]で聞いたんだけど！魔女がやったんでしょう？
+EN: I've heard / rumors. The / witch did this, / didn't she?
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=652
+JP: オーガおう、いらっしゃい。メダル所へようこそ 
+EN: Ogre: Hey, / welcome! / Welcome to / the Medal / Shop!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=654
+JP: おう、いらっしゃい。メダル所へようこそ 
+EN: Hey, welcome! / Welcome to / the Medal / Shop!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=658
+JP: メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   
+EN: Medal Shop Menu: / Buy Bar Medals / Buy Combat Medals / Sell Bar Medals / Do nothing
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=708
+JP: 優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN: Go to the / Alchemy Guild / and see / Guillaume.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=713
+JP: 優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN: Go to the / Alchemy Guild / and see / Guillaume.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=718
+JP: 優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN: Go to the / Alchemy Guild / and see / Guillaume.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=723
+JP: 優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN: Go to the / Alchemy Guild / and see / Guillaume.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=728
+JP: 優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN: Go to the / Alchemy Guild / and see / Guillaume.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=733
+JP: 優臆美ギルドへ行き、ギヨームにあわせてやればいい。
+EN: Go to the / Alchemy Guild / and see / Guillaume.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=745
+JP: [056B][046D]が地えば優臆美に人[0219]する店を開くつもりでいるから、またいつか帰てくれたまえ。
+EN: Once I'm done, / I plan to / open a shop / specializing / in alchemy. / Come again / sometime.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=746
+JP: アルバイト商店でアルバイトをしているオークに出会った。
+EN: Part-timer: / You met an orc / working part- / time at the / shop.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=770
+JP: イああっ、よかった やっとアタイの[036D][032A]消がご庫場したってわけね ゴ
+EN: "Oh great! / Finally my / knight in / shining armor / is here!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=775
+JP: イそう、これはお[036A]いじゃなくてれっきとした依頼なんだから ゴ
+EN: "This isn't a / favor, it's / an official / request!"
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=791
+JP: うん！あの！骨場の依頼の！。
+EN: Yes! The / tavern / request!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=815
+JP: ふぅー、迷宮といえど義の依[0141]は復町しいわね 
+EN: Whew, even in / a labyrinth, / a lady needs / her comfort!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=832
+JP: あら、優臆美ギルドのバイト [01BE]多見かけないと思ったらこんなところをうろついてたのね。
+EN: Oh, the / Alchemy Guild / part-timer! / Haven't seen / you around / lately.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=838
+JP: ねぇねぇ、アンタってさ、優臆美ギルドで傷いてるってことはもしかして優臆美解なワケ？
+EN: Hey hey, / you work at / the Alchemy / Guild? So / you're an / alchemist?
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=879
+JP: 魔女アウローラの下ろしさは、まさに[0422]通りだな。
+EN: but the / witch Aurora's / terror is / exactly as / the rumors / say.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=881
+JP: 探かに余は[04F9]や[0691][04F9]から、アウローラのことを聞かされてきた。
+EN: Indeed, I have / heard about / Aurora from / my father and / grandfather.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=882
+JP: 彼がイリキア王集を[0408]ぼした体むべき魔女だと。
+EN: That she is / the cursed / witch who / destroyed the / Kingdom of / Irikia.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=884
+JP: 内時、ベノアでも[018A][01A8]い魔運解達を地唱く[04AF]えていた彼が王息が、あの魔女一者に[03F1][0408]させられたのだ。
+EN: At the time, even the strongest sorcerers of Venoa were overwhelmed. // That kingdom fell to this one witch.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=897
+JP: イーリス魔女アウローラに[05F5]くもの！。
+EN: Iris: The / witch Aurora / and the / Writhing / Demons!
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=899
+JP: 者は余は、ササン息王の[01BA]を受け、この乙に帰た者だ。
+EN: I am here on / orders from / the King of / Sasan.
+
+FILE=data/type2_translated/batch_04.json RES=1205 MI=900
+JP: ドゥーハン王オルトルードが、[05B6]今に[0614]攻する下れがあるという[016A]報の探索のためにな。
+EN: I came to / investigate / reports that / King Ortrud of / Duhan might / be planning / an invasion.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=16
+JP: ヴィガー商店の立店を迷宮b１０に開[032B][01DD]築になりました。
+EN: Vigger Shop branch / open on B10!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=21
+JP: [04CF]がアウローラ[067E]だと思ってた[0141][03CF]が消えちゃったんだ。
+EN: The presence I / thought was Mother / Aurora vanished.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=23
+JP: [067E]には一度も会ったことないけどなんとなく[067E]のような[0141]がして、そう思ってたんだよ。
+EN: Never met her, / but felt like / Mother.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=26
+JP: [04CF]、アウローラ[067E]に会えないような[0141]がしてきたんだ。
+EN: I feel like I'll / never meet Mother / Aurora.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=39
+JP: ここまで御ってきたのだって[067E]を変すためなんだよね。
+EN: You came to save / Mother, right?
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=44
+JP: [067E]のことしか必えてなかったから、用恵思いつかないや。
+EN: Only thought of / Mother. No ideas.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=52
+JP: えっ！いいのっ？ [02F2]しいな、[04CF]、[045A][0402]って[067E]のこと[01C7]れるから 
+EN: Really?! Yay! / I'll forget Mother!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=53
+JP: [04CF]、今から早[044E]盗に戻って騎騎者ギルドで力[01B5]きするよ。
+EN: I'll register at / the Guild!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=55
+JP: 騎騎者[0170]街にヨッペンが庫落されました 
+EN: Yoppen registered / at the Guild.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=75
+JP: 下呪の王が[04A1]り、階のものどもが生きとし生けるものを回らい[04AE]くすため[04A1]ってくる。
+EN: The nether king / returns.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=85
+JP: 騎騎者よ、聞くがいい。[05F5]くものの[06CD]、アシラが[04A1]ってくる。
+EN: Ashira, mother / of crawlers, comes!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=113
+JP: オダたちのみせわ、ときたまああしておっかねえマモノにおそわれちまうだよ！
+EN: Shop gets attacked / sometimes!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=119
+JP: 何もなかった迷宮の一街所にそれなりの長[04F0]が宝され商店らしくなっていた。
+EN: Room became / a shop.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=120
+JP: カウンターには店社として[05A5]われたらしき魔物がいる。
+EN: Monster at counter.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=122
+JP: ルーシーはこちらに[0141]着き力を後った装、カウンターを出てこちらへやってきた。
+EN: Lucy noticed you / and came over from / behind the counter.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=130
+JP: じゃあね、立店だけじゃなくって役店の今にも顔出してよ 
+EN: Visit main shop!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=147
+JP: ヴィガーフレンズっつーのはですね、彼らがヴィガー商店を腕で一同に[016C]り外げて行こうってな会ですわ。
+EN: Vigger Friends / grows the shop!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=178
+JP: [0454]し物の[0455]長が書かれたボードにはイ心築働い、[045D][04C9]中です。      しばらくたってから帰てくださいゴと書かれている。
+EN: Fortune telling / closed.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=179
+JP: ？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？
+EN: Romi: Welcome! / Fortune?
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=194
+JP: じゃあお臆、カウンターに[0175]いてね。わたし、[02A1]が念き通るから受け取れないの。
+EN: Leave gold on / counter.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=201
+JP: じゃあ過を働って能しい？
+EN: Whose fortune?
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=204
+JP: 過を働ってもらいますか？
+EN: Whose fortune shall I read?
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=218
+JP: 心築があってよかったね。でも求手魔法が得客なんだったら制[033F]で傷く今が向いてるかもね。
+EN: Good potential! / Try church class.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=234
+JP: 心築があってよかったね。すごい魔主ね、ユグルタの魔法[04DA][033F]で役解になれるんじゃないかなあ。
+EN: Good potential! / Magic master!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=235
+JP: 心築があってよかったね。値色で泊[0141]を[0346]しちゃうなんて[01A9][01AA]を通り過ぎて、[040B][0169]ね。
+EN: Good potential! / Self-healer!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=279
+JP: 今はまだ心築が[058B]っているから辺[0190]だけど、そのうち[0143]祠に後り回しても場放を祠き出せると思うわ。
+EN: Gear is lacking / now, but you'll / master it soon.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=388
+JP: 生きてた達お[06CD]さんがいつもつけてて、あこがれてたんだ～。
+EN: Mother always / wore one.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=397
+JP: オーガおう、いらっしゃい。メダル所へようこそ 
+EN: Welcome to / Medal Shop!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=399
+JP: おう、いらっしゃい。メダル所へようこそ 
+EN: Welcome to / Medal Shop!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=403
+JP: メダルショップメニュー骨場のメダル[05AB]入打扱のメダル[05AB]入骨場のメダル[04A7]着何もしない   
+EN: Medal Shop Menu / Buy Dungeon Medal / Buy Special Medal / Exchange Medal / Do nothing
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=522
+JP: ア、アンガス[03DE]長！！なんで、てめえがこんなところに。
+EN: Angus! Captain!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=531
+JP: この俺を魔女[04A4][0346]に[03D6]り込もうとしているだけじゃねえか 
+EN: Making me fight / the witch!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=532
+JP: そんなに魔女を忘したければ力両がやればいいじゃねえかよ  
+EN: If you want the / witch dead, do it / yourself!
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=535
+JP: [03DE]長の顔が、法しげな[0390][016A]に新わった。
+EN: Captain looked sad.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=545
+JP: そして盗は、俺達を[04BB]ててくれた、かあちゃんみたいなものだ、そうだろ？
+EN: Town is our mother.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=551
+JP: これは[03DE]長としてじゃなく、一者の与として言わしてくれ。
+EN: Not as captain, / as a man:
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=557
+JP: [03DE]長は系しげに多い、テュルゴーの重中を[0180]回ほどトントンと[032E]いた。
+EN: Captain patted / his back.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=564
+JP: テュルゴーは[03DE]長の装を択てて漢いかけて言った。
+EN: Turgot ran after / captain.
+
+FILE=data/type2_translated/batch_09.json RES=1353 MI=588
+JP: 探かにあらゆる知識と魔美に長けた彼神だ、さらなる大[04FC]を野気したとしたら[01DD]築であろう。
+EN: We master magic.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=0
+JP: [01E8]嫌へと通されたは、ウェブスター卿に出上えられた。
+EN: You were led to / the audience / hall and greeted / by Lord Webster.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=7
+JP: ウェブスター卿がを息王のところに[0455]長しようとしたその時、
+EN: Just as Webster / was about to / lead you to the / king--
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=9
+JP: イはるか[0460]奉美両、セポイの王はこう言ったゴ
+EN: "500 years ago, / the King of / Sepoi said / this:"
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=19
+JP: オルトルード息王は、ウェブスター卿と、[04FC]者を取り[01D7]さえるべく変[0535]した男帰達にそう[01BA]孤した。
+EN: King Ortrud / ordered the / knights to stand / down.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=41
+JP: かつて[05B0]所王と下れられ、戦遅のベノアを[038B]期に運いた与が、
+EN: Why the man once / feared as the / Lion King, who led / war-torn Venoa / to peace--
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=43
+JP: なぜあの魔女を[0380]き仰力にさせておく？
+EN: Why let the witch / do as she / pleases?
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=47
+JP: だからあの魔女は兜者しく、余の[0438]を変し、この腕[02A1]に[041A]いをかけ、迷宮を以り出すに限めていると。
+EN: That the witch / obediently kills / my daughter, / curses my body, / and creates the / labyrinth?
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=51
+JP: 何を崩ることがある。過であろうと、魔女を討った者はドゥーハンの新たな[0576][0581]になる。
+EN: What's to fear? / Whoever slays the / witch becomes / Duhan's new hero.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=60
+JP: オルトルード息王はから気[03C4]を受け取り、それが王女の気[03C4]だと探索した。
+EN: King Ortrud took / the ring from / you and / confirmed it was // the princess'.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=80
+JP: 何数属の与汝が新しい討伐隊の者だな。
+EN: Knight: So you're / the new member of / the strike force.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=81
+JP: [01E3]帰前長のベルグラーノから報[0197]があったよ。
+EN: Captain Belgrano / sent a report.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=83
+JP: 申し遅れた、余はウェブスター卿、フェリー[001D]ルフォール。この息の[0601]影をつとめている。
+EN: I am Lord / Webster, Ferry / Leffort. Grand / chancellor of / this kingdom.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=86
+JP: ウェブスターさあ、あちらへ。オルトルード息王がお待ちだ。上[03D6]隊のことを質してくれたまえ。
+EN: Webster: Come, / this way. King / Ortrud awaits. / Tell him about / the strike force.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=88
+JP: オルトルード息王は、[0362]着きの者に[03AA]水を立えられ、頼りない加取りで抜れた。
+EN: King Ortrud sat / supported by / attendants, frail / and unsteady.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=89
+JP: 息王は[0538][0539]などをはぶき、いきなり役れへと入った。
+EN: The king skipped / formalities and / got straight to / the point.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=110
+JP: 息王は中依をにらみ、兜きくため息をついた。
+EN: The king glared / and sighed / heavily.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=112
+JP: 魔女の[041A]いのせいで、この腕[02A1]は[0577]ちゆく一今。今では王くのもままならぬ。
+EN: This body decays / from the witch's / curse. I can / barely walk.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=115
+JP: [0362]着きの者がの両に、まばゆく険る剣[0600]を差し出した。
+EN: An attendant / held out a / shining / crossbow.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=124
+JP: かつての余には何もなかった。[03A2][04FF][0500]の[043A]消の所[0285]に生まれ、鎧一つ買うのにも協[0337]してな。
+EN: Once I had / nothing. Born to / a minor lord, I / could barely / afford a sword.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=127
+JP: 余はドゥーハンの王となった。そして臆も[018A]療も力に入れた。
+EN: I became king / of Duhan. Got the / gold and glory.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=135
+JP: かつての余には何もなかった。[03A2][04FF][0500]の[043A]消の所[0285]に生まれ、鎧一つ買うのにも協[0337]してな。
+EN: Once I had / nothing. Born to / a minor lord, I / could barely / afford a sword.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=138
+JP: 余はドゥーハンの王となった。そして臆も[018A]療も力に入れた。
+EN: I became king / of Duhan. Got the / gold and glory.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=150
+JP: 今地はこれで汝[0368]する。そろそろ、消[0346][05FD]がくそマズイ秘を持って帰る達に違いない。
+EN: That's enough for / today. Time for / my doctor's / foul medicine.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=151
+JP: オルトルード息王は、[0362]着きの者に立えられ、防っていった。
+EN: Supported by / attendants, King / Ortrud departed.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=162
+JP: そこで彼神が汝に強むのは、迷宮へと[0407]き、すべての元書である魔女の誰を取ってくること。
+EN: What we ask is / that you enter / the labyrinth and / bring back the / witch's head.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=163
+JP: その魔女の[018A]は、アウローラ。
+EN: The witch's name / is Aurora.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=165
+JP: 体むべきその魔女が、ドゥーハン用[02A1]に[041A]いをかけ、迷宮を以り出しているのだ。
+EN: That witch cursed / all of Duhan and / created the / labyrinth.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=166
+JP: 転が抜れたのは、追美両のあの地、オリアーナ王女とウェブスター卿の[0429]民[042C][0432]だった。
+EN: It was six / months ago, at / Princess Oriana / and Lord // Webster's / engagement.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=168
+JP: 扱くきらめく[041F]を持った[0438]が、オルトルード息王の両に級み出た。
+EN: A woman with / dark, shining / eyes approached / King Ortrud.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=171
+JP: 過もがその下るべき[018A]を知っていた。大[028E]の[01BA]を持ち、脱唱の王集を[0408][0437]に[0424]れた魔女の[018A]両だった。
+EN: Everyone knew / that fearsome / name. The witch / who brought many // kingdoms to / ruin.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=176
+JP: あわただしく男帰達が多づいてきた。
+EN: Soldiers rushed / toward the / witch.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=180
+JP: 魔女は[041A]いの言[0387]を退し、防っていった。
+EN: The witch left / with her curse.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=181
+JP: それからしばらくしてからである、王集に地神の[042A]いが[042E]ったのは。者神は[0422]し合った、あの魔女が[041A]いをかけたのだと。
+EN: Soon after, / disasters / plagued the / royal line. The // witch had cursed / the king.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=199
+JP: わかってもらえると思うが、その[03E6]民の中腕は、息王値らが書かれたものだ。
+EN: These terms were / written by the / king himself.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=206
+JP: [0457]物[0444]などに入れずに、[046A]腕はなさず腕に着けていて能しい。
+EN: Don't store it. / Keep it on your / wrist at all / times.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=212
+JP: そうそう、もし[0346][034F]が必[0409]ならば、サレム制[033F]に行ってから帰るとよい。
+EN: If you need / supplies, visit / the Salem church / first.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=237
+JP: イなあ、頼むよ俺に役えてくれよ。 紹しても辺[0502]なんだぜゴ    
+EN: "Hey, tell me / where the priest / is hiding!"
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=240
+JP: [033A]しい与へへへ、損[01BC]ってどこに紹れているかお両、知っているだろ？
+EN: Stranger: Hehehe, / you know where / the priest is, / right?
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=242
+JP: へへ、俺は知ってんだぜ お両が損[01BC]の選場暗を紹しているってよ 
+EN: Heh, I know / you're hiding the / priest's location!
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=246
+JP: だから損[01BC]の選場暗を紹すんだろ？ふん、そんなことだろうって思ったぜ。
+EN: That's why you're / hiding the priest? / Hah, figures.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=249
+JP: それでな、ぼんやりしていると、義恵[042E]い納かってくるんだ。
+EN: Let your guard / down, and they / come crawling / at you.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=264
+JP: 向こうからシスターが、たちの良を見つけ休ってきた。
+EN: A nun came / running toward / you.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=265
+JP: シスターあちこち素したんですよ。こんな倉[0380]で王いて、属[0159]でもひいたらどうするんですか？
+EN: Sister: I looked / everywhere! / You'll catch cold / dressed like that!
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=267
+JP: シムゾンと高ばれた与は、おとなしくシスターの言[0387]に[0412]い、役会のほうに王いていった。
+EN: The man called / Simzon followed / the nun to the / church.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=269
+JP: 錠は、あの今も[0470][018A]な空男隊の隊長だったと聞きました。
+EN: I heard he was / once a famous / mercenary / captain.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=291
+JP: だって王女[01BC]が[0437]くなってから、ずっと数な出帰事ばかり。
+EN: Ever since the / princess died, / nothing but / bad news.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=292
+JP: 迷宮に魔物、盗は[04CE][0579]されちゃうし、息王[01BC]も大[0346]の泊。
+EN: Monsters, the / town blockaded, / and the king / gravely ill.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=293
+JP: これもぜんぶ迷宮に御む魔女の一買って質だけど、まだ過も[049A]見出帰ていないのよ。
+EN: They say the / witch in the / labyrinth is / behind it all, / but no one's / found her yet.
+
+FILE=data/type2_translated/batch_09.json RES=1354 MI=297
+JP: もし魔女を忘すことに封[0428]したら、すごい報女が待っているわよ。
+EN: If you defeat / the witch, an / amazing reward / awaits!
+
+FILE=data/type2_translated/batch_gap1347.json RES=1347 MI=4
+JP: きょうの、おまえさんのうんせいを / うらなってやろうか？
+EN: Shall I tell you / your fortune for today?
+
+FILE=data/type2_translated/batch_gap1347.json RES=1347 MI=5
+JP: うらなってもらう / テスト１ / テスト２ / オールセンター / やめる
+EN: Get fortune told / Test 1 / Test 2 / All Center / Cancel
+
+FILE=data/type2_translated/batch_gap1347.json RES=1347 MI=6
+JP: だいきょうきょうきちちゅうきちだいきちおまえさんの、きょうのうんせいは / ・・・・・じゃ。
+EN: Great Misfortune - Misfortune - Good Luck - Fair Luck - Great Luck: // Your fortune for today is .....so it is.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1348 MI=0
+JP: 階の主を倒避したメダルは / [044C]神に[052A]け[0410]った。
+EN: The medal earned from / defeating the floor master / was offered to the gods.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1349 MI=4
+JP: オーク授いが編わり、[0446]恵としていると / 立店の店社が択てて / 力け復ってきた。
+EN: When the orc battle ended / and you caught your breath, / the shopkeeper came rushing back.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1349 MI=6
+JP: オダたちのみせわ、ときたま / ああしておっかねえマモノに / おそわれちまうだよ！
+EN: Our shop sometimes / gets attacked by scary / monsters like that!
+
+FILE=data/type2_translated/batch_gap1347.json RES=1351 MI=4
+JP: これはね、お[04F9]さんとお[06CF]さんの / 出い除の品なんだって。 / お内りにって、もらったの。
+EN: This is a memento of / my father and mother. / They gave it to me / as a good luck charm.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1351 MI=14
+JP: あのね、カウンターの外の宝[03CE]を / 開けてみてちょうだい。
+EN: Lomi: Hey, try opening / that treasure chest / on top of the counter.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1351 MI=15
+JP: ローミに言われたとおり、 / [0454]し物カウンターの外にある / 間さな宝[03CE]を開けてみた。
+EN: You did as Lomi said / and opened the little / treasure chest on the counter.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1351 MI=17
+JP: これ、ここで傷いたお臆で買ったの。 / 買ったっていっても、ここのお店で / １つだけ一入れてもらったんだけど。
+EN: Lomi: I bought this with / the gold I earned here. / Well, I got one set aside / from this store.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1351 MI=22
+JP: じゃあ、また働いに帰てね。 / ばいばい、。
+EN: Lomi: Well, be sure to / come back for more / fortune-telling. Bye-bye!
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=3
+JP: [01E3]帰前向いが、ここは[01E4][01DD]された戦魔義、 / 侍ち入り代限となっている。
+EN: Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=4
+JP: それとも使は、迷宮に入るための / 物を持っているのか？
+EN: Knight: Or do you have / something that permits / entry into the labyrinth?
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=6
+JP: なら、早く盗に戻りなさい。 / ここは[045B]騎だ、兵[046C]の戦が帰るような / ところではない。
+EN: Knight: Then go back / to the city at once. / This is dangerous; / no place for civilians.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=7
+JP: [01E3]帰前小のつもりか苦らぬが、 / 小度帰ても、[02EC]えは効じだ。
+EN: Knight: I don't know what you're thinking, // but no matter how many times you come, the answer is the same.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=8
+JP: [01E4][01DD]辺き戦を、入れることはできぬ。
+EN: Knight: I cannot let / anyone without clearance / pass through.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=9
+JP: [01E3]帰前また使か！！
+EN: Knight: You again!!
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=10
+JP: くどいようだが、[01E4][01DD]辺き戦は / 通すわけにはいかんのだ。
+EN: Knight: I hate to repeat / myself, but I cannot let / anyone without clearance / pass through.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=11
+JP: 向いが、ここは[01E4][01DD]された戦魔義、 / 侍ち入り代限となっている。
+EN: Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=12
+JP: それとも使は、迷宮に入るための / 前全を持っているのか？
+EN: Knight: Or do you have / the credentials to enter / the labyrinth?
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=13
+JP: は、 / 頼潜ブレスレットを古り除して、 / 男帰に賊せた。
+EN: You took off your / Identification Bracelet / and showed it to the knight.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=14
+JP: なるほど。 / 使も討伐隊の兵社となったわけか。
+EN: Knight: I see. / So you've become a member / of the strike force as well.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=15
+JP: よろしいそれでは、 / 隊像から向全はあったと出うが、 / もう兵度[01E1]荷に向全させてもらおう。
+EN: Knight: Very well then. / I'm sure you were briefed / by the captain, but let me / explain once more.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=16
+JP: 使動士騎戦は魔装、彼神王息[01E3]帰前の / [03E9][0190]忍に[0175]かれる。
+EN: Knight: All adventurers / are bound by the rules / of the Order.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=17
+JP: 迷宮長での行功は値器だが、いかなる / 場合、[0190]器があっても、彼神の[01BA]孤が / [01BE]系[01A1]されることを[01C7]れないよう。
+EN: Knight: Acts of valor / in the labyrinth are noted, / but never forget that / the gods' judgment shall / always be upheld.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=18
+JP: 迷宮長で力に入れた物品に人しては、 / 士騎戦[04E0]者の暗[0470]物として索める。
+EN: Knight: Any items obtained / in the labyrinth are / recognized as the personal / property of the adventurer.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=19
+JP: また、半物どもを忘す野宿に[014B]るが、 / 単や[04EE]などの住[04DD]の度毒や半法の度 / 毒も索める。
+EN: Knight: Also, while slaying / monsters is the primary / mission, the use of poisons / and sorcery is also / permitted.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=20
+JP: それともう兵つ。 / これから[01A1]、頼潜ブレスレットは、 / 使教者を前全するものとなる。
+EN: Knight: One more thing. / From now on, / the Identification Bracelet / will serve to protect you.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=21
+JP: [0457]物[0444]などに入れずに、[046A]職はなさず / 職に業けていて能しい。
+EN: Knight: Do not put it / in your luggage bag. / Keep it on you / at all times.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=22
+JP: なぜなら、抜器彼神[01E3]帰前を[0283]め、 / 唱くの士騎戦が討伐隊となって迷宮に / 御っている。
+EN: Knight: The reason is that / many adventurers, including / knights of the Order, / are exploring the labyrinth.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=23
+JP: もし、迷宮長でそのブレスレットを / 職に業けていなければ、仕われても / 思店は言えないからな。
+EN: Knight: If you don't have / the bracelet on you / in the labyrinth, you can't / complain if you get attacked.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=25
+JP: この少し[01A1]の[03AA]水の街所で、 / 宝[03CE]や授[049C]についての[01E1]荷な向全を / 光けることができる。
+EN: Knight: In the rooms / just ahead, you can learn / the basics of treasure chests / and combat.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=26
+JP: 使がこういった迷宮に入るのが / [0160]めてなら、聞いておいて[0465]は / ないだろう。
+EN: Knight: If this is your / first time in a labyrinth / like this, it would be wise / to listen.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=27
+JP: 使動士騎戦の傷きには、息王も見方 / [045C]んでおられる。彼神も効[01BC]だ。 / 使も[045A][0402]ってくれたまえ 
+EN: Knight: The King himself / watches over the work of / the adventurers. The gods / are with you too. / Take care of yourself.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=28
+JP: おう、そうそう、質は方わるが、 / 使動は方わったチームだな。
+EN: Knight: Oh, by the way, / you've got quite an unusual / team there.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=29
+JP: [0160]めてみたよ、 / オークを支れて士騎する戦は。
+EN: Knight: It's the first / time I've seen anyone / adventuring with an Orc.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=30
+JP: 装ろのオーク動も退嫌なんだろ？
+EN: Knight: Those Orcs behind / you are your companions, / right?
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=33
+JP: アハハハハ、そうかそうか。 / なあに、俺の使[04A0]のばあさんが / オークと退箱しでな。
+EN: Knight: Ahahaha, is that so! / Well, my grandmother on / my mother's side married / an Orc, you know.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=34
+JP: 使[04A0]じゃ、集に１０己もいる / ぐらいなんだ。
+EN: Knight: On her side of / the family, there are about / 10 of them.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=35
+JP: それじゃ、装ろのお両動も頼を / つけてな。
+EN: Knight: Well then, / take care of your friends / back there too.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=38
+JP: 迷宮に入ってみると、 / [045E][046D]にあたっている男帰動の / ガヤガヤと悪ぐ避が聞こえてきた。
+EN: Upon entering the labyrinth, / you could hear the boisterous / voices of knights on guard duty.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=39
+JP: 男帰aイおい  /     族女が、[01AB]ってきたぞ  ゴ男帰bイどうだ？ /     聖回もやはり辺[0327]か？ゴ男帰aイそのようだ、さっきレオ動に /     半物の誰を飾していたが、 /     かすり[0327]兵つ魔っていないゴ男帰bイさすがだな！！ゴ
+EN: Soldier A: Hey! / She has returned! / Soldier B: How are they? / She's unwounded, right? / Soldier A: She had just / handed Rudi the head / of a demon. Not a / scratch on her. / Soldier B: Incredible!
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=41
+JP: 女放 イ聖回は[0460]名層まで行ったけど、 /     アウローラの良はどこにも /     辺かったゴ男帰cイ力がかりは辺しですかゴ女放 イええ、だけど！！    頼になることが兵つだけゴ男帰cイ小ですか？ /     お聞かせくださいゴ女放 イ[0180]名層の奥に行った時、 /     知与な頼[03CF]を感じたの！！ゴ
+EN: Female: This time we went / to the sixth floor, but / there was no trace of / Aurora anywhere. / Soldier C: Any leads? / Female: Yes, but there was / one thing that caught / my attention. / Soldier C: What was it? / Please tell us. / Female: When I went deep / into the second floor, / I sensed something / strange and powerful!
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=42
+JP: 男帰dイアウローラでは？ゴ女放 イ違うと出う。者嫌のものよりも /     あれはもっと！！[0159]向だった！。    うまく向全できなくて向いけどゴ男帰dイいえ、[0463]色です。    アオイさんがおっしゃるなら、 /     嫌違いないでしょうゴ男帰cイ話ぎ、[0180]名層に道登隊を /     大[045F]することにしますゴ
+EN: Soldier D: Was it Aurora? / Female: I don't think so. / It was something far more / evil than any demon. / Sorry I can't describe / it better. / Soldier D: That's fine. / If the famous Aoi says so, / it must be true. / Soldier C: Let's hurry and / authorize a search party / for the 2nd floor.
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=53
+JP: 男帰cイでは、近所まで[0362][0455]長しますゴアオイイ聖地も賊[0402]りつきってわけね。    これじゃ迷宮のほうが /     どれほど頼武かしらゴ男帰dイ！！元しわけありませんゴ
+EN: Soldier C: Well then, / we will escort you / to the inn. / Aoi: On watch duty today / too, I see. I wonder how / much more carefree life / outside would be. / Soldier D: We are sorry / about that!
+
+FILE=data/type2_translated/batch_gap1347.json RES=1355 MI=54
+JP: アオイイ不の[046E]は、兵度でいいから /     過にも[0159]半されないところで /     ゆっくりと[0464]ることゴ男帰cイ彼神は、ドアの義で侍って /     いるだけですからゴ男帰dイ携してお[045D]みの[0159]半はしない /     つもりですゴアオイイわかっているわ。効少よ。    もう[0459]れたからゴ
+EN: Aoi: My dream is to / sleep in a place where / no one will disturb me. / Soldier C: We're just going / to stand by the door. / Soldier D: We have no plans / to interrupt your rest. / Aoi: I know, I know. / It was just a joke. / I've gotten used to it.
+

@@ -282,9 +282,14 @@ def test_tier2_patch20_superseded_caves_not_installed():
         "NS_B hook @0x3059F8 trampolines to the ABANDONED Patch-20 cave 0x4CAA30 "
         "-- the summed-width centering design was superseded by Patch 23 left-flush"
     )
-    # NS_A (0x4C7860) still ships pristine-zero (no stale Patch-20 cave code).
+    # v158 REVERT: the R2100 ADV2 table is back in the arena-start hole (0x4B1000), NOT at
+    # the RANK-2 deep location 0x4C785F, so the freed NS_A pad 0x4C7860 is pristine-zero
+    # again.  The abandoned Patch-20 CAVE is proven not-installed by the hook checks above
+    # (nothing trampolines to 0x4C7860, so nothing EXECUTES there).  Pin the pad ALL-ZERO --
+    # catches any stale/abandoned cave code (or a table mistakenly landing) left behind.
     assert all(b == 0 for b in data[CAVE_A_FO:CAVE_A_FO + 16 * 4]), (
-        "NS_A 0x4C7860 cave pad is NOT all-zero -- abandoned Patch-20 cave installed"
+        "NS_A 0x4C7860 pad is NOT all-zero -- abandoned Patch-20 cave code installed here, "
+        "or a table landed here (v158 puts ADV2 back at 0x4B1000, not 0x4C785F)"
     )
     # v148: PATCH 24 (narration boxX=+96, GATED on boxX==0) was EVACUATED out of the old
     # in-arena 0x4CAA30 pad to RELOC.P24_VA below the arena.  Verify the exact gated cave at

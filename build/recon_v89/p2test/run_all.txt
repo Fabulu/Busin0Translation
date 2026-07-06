@@ -1,0 +1,206 @@
+  [PASS] test_R2124_size
+  [PASS] test_R2124_contain
+  [PASS] test_R2124_render
+  [PASS] test_R1365_size
+  [PASS] test_R1365_contain
+  [PASS] test_R1365_render
+  [PASS] test_R1054_size
+  [PASS] test_R1054_contain
+  [PASS] test_R1054_render
+  [PASS] test_R1360_size
+  [PASS] test_R1360_contain
+  [PASS] test_R1360_render
+  [PASS] test_R1361_size
+  [PASS] test_R1361_contain
+  [PASS] test_R1361_render
+  [PASS] test_R1362_size
+  [PASS] test_R1362_contain
+  [PASS] test_R1362_render
+  [PASS] test_R1363_size
+  [PASS] test_R1363_contain
+  [PASS] test_R1363_render
+  [PASS] test_R1364_size
+  [PASS] test_R1364_contain
+  [PASS] test_R1364_render
+  [PASS] test_R1359_size
+  [PASS] test_R1359_contain
+  [PASS] test_R1359_render
+  [PASS] test_R1367_size
+  [PASS] test_R1367_contain
+  [PASS] test_R1367_render
+  [PASS] test_R1910_size
+  [PASS] test_R1910_contain
+  [PASS] test_R1910_render
+  [PASS] test_R2141_size
+  [PASS] test_R2141_contain
+  [PASS] test_R2141_render
+  [PASS] test_R2144_size
+  [PASS] test_R2144_contain
+  [PASS] test_R2144_render
+  [PASS] test_R2150_size
+  [PASS] test_R2150_contain
+  [PASS] test_R2150_render
+  [PASS] test_R2153_size
+  [PASS] test_R2153_contain
+  [PASS] test_R2153_render
+  [PASS] test_R2147_size
+  [PASS] test_R2147_contain
+  [PASS] test_R2147_render
+  [PASS] test_R2155_size
+  [PASS] test_R2155_contain
+  [PASS] test_R2155_render
+  [PASS] test_R1370_size
+  [PASS] test_R1370_contain
+  [PASS] test_R1370_render
+  [PASS] test_R2880_size
+  [PASS] test_R2880_contain
+  [PASS] test_R2880_render
+  [PASS] test_R2881_size
+  [PASS] test_R2881_contain
+  [PASS] test_R2881_render
+  [PASS] test_R2155_hint_equals_R2147_window
+  [PASS] test_R2153_strips_equal_R2150
+  [PASS] test_R1188_not_repatched
+  [PASS] test_chargen_resources_shipped_patched
+  [PASS] test_R34_structural_and_glyphs
+    (R2654 ships at 225280 bytes / 110 sectors)
+  [PASS] test_R2654_structural_and_translations
+  [SKIP] test_iso_R2124_matches_build -- ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+  [SKIP] test_iso_R1365_matches_build -- ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+  [SKIP] test_iso_R2147_matches_build -- ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+  [SKIP] test_iso_R34_matches_build -- ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+  [SKIP] test_iso_R1370_matches_build -- ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+
+==============================================================================
+  v85 REGRESSION SUITE SUMMARY
+==============================================================================
+MODULE                 TEST                                         RESULT
+------------------------------------------------------------------------------
+test_sec1_disasm       test_walk_pristine_r1196                     PASS
+test_sec1_disasm       test_walk_pristine_r1197                     PASS
+test_sec1_disasm       test_walk_pristine_r1198                     PASS
+test_sec1_disasm       test_walk_pristine_r1193                     PASS
+test_sec1_disasm       test_ffff_invariant_pristine                 PASS
+test_sec1_disasm       test_walk_garbage_fails_cleanly              PASS
+test_sec1_disasm       test_binary_type02_walks_fail                PASS
+test_patch_section1    test_inject_r1198_synthetic                  PASS
+test_patch_section1    test_walk_failure_fallback_r989              PASS
+test_patch_section1    test_start_offset_correct                    PASS
+test_patch_section1    test_build_outputs_regression_gate           PASS
+test_choice_groups     test_marker_set_preserved                    PASS
+test_choice_groups     test_no_empty_injected_option                PASS
+test_choice_groups     test_section1_integrity                      PASS
+test_choice_groups     test_marker_count_tripwire                   PASS
+test_choice_groups     test_semantic_spotcheck                      PASS
+test_choice_groups     test_iso_choice_integrity                    SKIP
+                         -> ISO BUSIN0_EN_v85.iso predates build/patched_type2 -- no fresh ISO built since the choice groups were patched
+test_line_width        test_tier2_patched_type2_line_width          FAIL
+                         -> 2281 injected-English line(s) exceed 18 glyphs (v89 word-wrap regression). Worst: R1209 g502 w=132 'The survey is a flat
+test_line_width        test_tier3_iso_line_width                    FAIL
+                         -> 2281 injected-English line(s) exceed 18 glyphs in the ISO PACKDATA (v89 word-wrap regression on the real-PS2 path). Wors
+test_pipeline_rules    test_r1188_patchers_disabled                 PASS
+test_pipeline_rules    test_no_pattern_matching_in_sec1_patcher     PASS
+test_pipeline_rules    test_r34_mapping_rule                        PASS
+test_pipeline_rules    test_patched_type2_purge_present             PASS
+test_pipeline_rules    test_r1188_override_absent_in_build_output   PASS
+test_pipeline_rules    test_r35_header_intact_in_build_output       PASS
+test_r46_board         test_capacity_exactly_filled                 PASS
+test_r46_board         test_fffe_count_preserved                    PASS
+test_r46_board         test_no_dangling_fffe                        PASS
+test_r46_board         test_uniform_leading_pad                     PASS
+test_r46_board         test_exact_fit_passthrough                   PASS
+test_r46_board         test_built_r46_structure                     PASS
+test_r46_board         test_built_r46_msg21_typo_fixed              PASS
+test_r39_quests        test_g353_description_english                PASS
+test_r39_quests        test_g388_client_mayor_of_duhan              PASS
+test_r39_quests        test_offset_tables_preserve_semantics        PASS
+test_r39_quests        test_group_count_and_size_budget             PASS
+test_r1193_narration   test_exactly_23_records_with_page_structure  PASS
+test_r1193_narration   test_line_constraints_and_decode             PASS
+test_r1193_narration   test_deterministic                           PASS
+test_r1193_narration   test_header_and_padding                      PASS
+test_r1193_narration   test_output_walks_cleanly                    PASS
+test_iso_level         test_r1188_font_pristine                     PASS
+test_iso_level         test_r1196_walks_with_invariant              PASS
+test_iso_level         test_chargen_resources_shipped_patched       PASS
+test_iso_level         test_binary_resources_pristine               PASS
+test_v86_strips        test_R2124_size                              PASS
+test_v86_strips        test_R2124_contain                           PASS
+test_v86_strips        test_R2124_render                            PASS
+test_v86_strips        test_R1365_size                              PASS
+test_v86_strips        test_R1365_contain                           PASS
+test_v86_strips        test_R1365_render                            PASS
+test_v86_strips        test_R1054_size                              PASS
+test_v86_strips        test_R1054_contain                           PASS
+test_v86_strips        test_R1054_render                            PASS
+test_v86_strips        test_R1360_size                              PASS
+test_v86_strips        test_R1360_contain                           PASS
+test_v86_strips        test_R1360_render                            PASS
+test_v86_strips        test_R1361_size                              PASS
+test_v86_strips        test_R1361_contain                           PASS
+test_v86_strips        test_R1361_render                            PASS
+test_v86_strips        test_R1362_size                              PASS
+test_v86_strips        test_R1362_contain                           PASS
+test_v86_strips        test_R1362_render                            PASS
+test_v86_strips        test_R1363_size                              PASS
+test_v86_strips        test_R1363_contain                           PASS
+test_v86_strips        test_R1363_render                            PASS
+test_v86_strips        test_R1364_size                              PASS
+test_v86_strips        test_R1364_contain                           PASS
+test_v86_strips        test_R1364_render                            PASS
+test_v86_strips        test_R1359_size                              PASS
+test_v86_strips        test_R1359_contain                           PASS
+test_v86_strips        test_R1359_render                            PASS
+test_v86_strips        test_R1367_size                              PASS
+test_v86_strips        test_R1367_contain                           PASS
+test_v86_strips        test_R1367_render                            PASS
+test_v86_strips        test_R1910_size                              PASS
+test_v86_strips        test_R1910_contain                           PASS
+test_v86_strips        test_R1910_render                            PASS
+test_v86_strips        test_R2141_size                              PASS
+test_v86_strips        test_R2141_contain                           PASS
+test_v86_strips        test_R2141_render                            PASS
+test_v86_strips        test_R2144_size                              PASS
+test_v86_strips        test_R2144_contain                           PASS
+test_v86_strips        test_R2144_render                            PASS
+test_v86_strips        test_R2150_size                              PASS
+test_v86_strips        test_R2150_contain                           PASS
+test_v86_strips        test_R2150_render                            PASS
+test_v86_strips        test_R2153_size                              PASS
+test_v86_strips        test_R2153_contain                           PASS
+test_v86_strips        test_R2153_render                            PASS
+test_v86_strips        test_R2147_size                              PASS
+test_v86_strips        test_R2147_contain                           PASS
+test_v86_strips        test_R2147_render                            PASS
+test_v86_strips        test_R2155_size                              PASS
+test_v86_strips        test_R2155_contain                           PASS
+test_v86_strips        test_R2155_render                            PASS
+test_v86_strips        test_R1370_size                              PASS
+test_v86_strips        test_R1370_contain                           PASS
+test_v86_strips        test_R1370_render                            PASS
+test_v86_strips        test_R2880_size                              PASS
+test_v86_strips        test_R2880_contain                           PASS
+test_v86_strips        test_R2880_render                            PASS
+test_v86_strips        test_R2881_size                              PASS
+test_v86_strips        test_R2881_contain                           PASS
+test_v86_strips        test_R2881_render                            PASS
+test_v86_strips        test_R2155_hint_equals_R2147_window          PASS
+test_v86_strips        test_R2153_strips_equal_R2150                PASS
+test_v86_strips        test_R1188_not_repatched                     PASS
+test_v86_strips        test_chargen_resources_shipped_patched       PASS
+test_v86_strips        test_R34_structural_and_glyphs               PASS
+test_v86_strips        test_R2654_structural_and_translations       PASS
+test_v86_strips        test_iso_R2124_matches_build                 SKIP
+                         -> ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+test_v86_strips        test_iso_R1365_matches_build                 SKIP
+                         -> ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+test_v86_strips        test_iso_R2147_matches_build                 SKIP
+                         -> ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+test_v86_strips        test_iso_R34_matches_build                   SKIP
+                         -> ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+test_v86_strips        test_iso_R1370_matches_build                 SKIP
+                         -> ISO BUSIN0_EN_v86.iso predates build output -- no fresh v86 ISO built yet
+------------------------------------------------------------------------------
+TOTAL: 108 passed, 6 skipped, 2 FAILED   (13.6s)
+
+RESULT: FAIL -- do NOT ship this build.

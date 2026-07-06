@@ -1,0 +1,572 @@
+FILE=data/translate_chunks/chunk_09_translated.json KEY=49:105 HIT=sage
+JP=柵が上がっていて通れない / 
+EN=A gate blocks / the passage. / 
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=49:108 HIT=knight
+JP=騎士の顔の像がある / 
+EN=A statue of a / knight's face. / 
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:17 HIT=guard
+JP=防衛すべき後衛が、理の攻手を受ける / 持に、前衛が誰代わりとなって、後衛 / を壁るaa。理のとび■番による攻手 / にも対名することができる。 / 
+EN=Front takes hits for / guarded back row. / Blocks ranged too. /
+---
+FILE=data/translate_chunks/chunk_09_translated.json KEY=2654:27 HIT=guard
+JP=パーティ全員で鎧呪たり攻手を削い、 / 理全鎧にダメージを与えるaa。イフ / ロントガードゴでブロックされない制 / り、回避されることはない。 / 
+EN=All attack all foes. / Can't dodge unless / Front Guard active /
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:0 HIT=master
+JP=階の主を倒声したメダルは[044C]神に[052A]け[0410]った。
+EN=The floor master's / medal returned / to the gods.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1 HIT=master
+JP=くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。
+EN=Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Alleid info 1-8 / Request done.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:11 HIT=clerk
+JP=カウンターには店社として[05A5]われたらしき魔物がいる。
+EN=At the counter was / a monster hired / as a clerk.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:126 HIT=sage
+JP=心築があってよかったね。すごい魔主ね、ユグルタの魔法[04DA][033F]で役解になれるんじゃないかなあ。
+EN=Good to have a / potential. Great / magic power! You / could be a sage.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:440 HIT=general
+JP=じゃ、あたしはこれから[03DE]長の取著に行かなきゃならないから、装はよろしく 
+EN=Well, I gotta go / interview a / general. Take / care now!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:498 HIT=sage
+JP=力両の通独から、一己のオークが冒を落として王いてきた。
+EN=An orc came / walking dejectedly / from the passage.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:504 HIT=guard
+JP=オダはあでだよ。ヴィガーしょうてんではただいて、みせばんしてるオークだよ。
+EN=Me's Ade. I work / at the Vigger / Shop as a guard.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:506 HIT=sage
+JP=オークはそう言って、彼が王いてきた今向の待い通独を気差した。
+EN=The orc pointed / toward the dark / passage it came / from.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:511 HIT=guard
+JP=オダはあでだよ。ヴィガーしょうてんではただいて、みせばんしてるオークだからよ。
+EN=Me's Ade. I work / at the Vigger / Shop as a guard.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:576 HIT=soldier
+JP=[01E3]帰前街所の中には、[01E3]帰前の男帰が地者待習していた。
+EN=Inside, Order / soldiers were / training.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:593 HIT=clerk
+JP=男帰は力に持っていた新を[01E8]げ言くを獲み外げ専めた。
+EN=The clerk held up / the papers and / began reading.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:594 HIT=guard,commander
+JP=彼らが[01E3]帰前の前長の[018A]両を[02EC]えてください 
+EN=Please state the / name of the / Guard commander.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:596 HIT=commander
+JP=[01E3]帰前前長の[018A]両は？ハラヘリーノヘリグラーノベルグラーノペルクラーノやめる
+EN=Commander's name? / Haraherino / Heriglano / Belgrano / Percrano / Cancel
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:597 HIT=captain
+JP=ハラヘリーノヘリグラーノベルグラーノペルクラーノ隊長！と、ありがとうございます。
+EN=Haraherino / Heriglano / Belgrano / Percrano / Captain! Yes, / thank you.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:615 HIT=clerk
+JP=男帰は[01BE]装の言くの回[02EC]を書き編え、新と[03EC]ペンをしまった。
+EN=The clerk wrote / down the answer / and put away the / pen and paper.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:621 HIT=guard
+JP=用く高倒された今には[01E3]帰前より場別報女をお渡しします。
+EN=Those who answer / correctly receive / a special reward / from the Guard.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:628 HIT=clerk,guard
+JP=[01E3]帰前街所の中では、[01E3]帰前の男帰が[01B7]しそうに傷いていた。
+EN=Inside the Guard / office, a clerk / was working busily.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:649 HIT=soldier
+JP=街所の[052E]には[061C]者の焼が地[043B]している。
+EN=In the corner / stood several / soldiers.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:652 HIT=soldier
+JP=また、街所の[052E]には[061C]者の焼が地[043B]している。
+EN=Several soldiers / also stood in / the corner.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:656 HIT=soldier
+JP=フドウの合[056A]とともに、待習していた焼が[042E]い納かってきた 
+EN=At Fudo's signal, / the waiting / soldiers charged!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:659 HIT=soldier
+JP=中度の戦[049C]で、やっと街所に待習していた用ての焼を忘した。
+EN=After a hard / battle, all the / soldiers were / defeated.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:671 HIT=master
+JP=それは[06D3]者のように住帰をを[0597]め焼の[05D3][0440]に待つ者、[02E4]本にのみ度いこなせるであろう。
+EN=Only one who / masters weapons / like you could / wield this style.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:675 HIT=master
+JP=報女の住[06C5]の[06E0]だ。[0408]唱に力に入らん何闘な品だ。兜事に[0550]ってもらいたい。
+EN=A weapon master's / treasure. Very / rare. Please cherish / it.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:676 HIT=master
+JP=なに、[06D3]者が得た[0441]強の険と[0521]べればこんな既[04EB]品の[01DC]長などほとんど辺きに[017C]しい。
+EN=Compared to the / mastery you have / gained, this is / but a trinket.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:682 HIT=master
+JP=住[06C5]の[06E0]を力に入れた 
+EN=Obtained Weapon / Master's Treasure.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:686 HIT=monk
+JP=[06D3]者はリーダーのレベルが３６魔外あり、なおかつパーティに焼のいる今を将[04E8]に依頼をしたはず。
+EN=You need a leader / at level 36+ / with a monk in / your party.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:717 HIT=sage
+JP=ライマン通独でライマンが待っていた。
+EN=Raiman: Raiman / was waiting in / the passage.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:722 HIT=guard
+JP=これで[01E3]帰前に知られず[0403]乙もしっかりと[03E9][0190]していただけそうで声目です。
+EN=Now the Guard / can patrol here / without worry.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:743 HIT=servant
+JP=！といってもアイツはほとんどいないから、アイツの[0626]所がいると思うんだけど。
+EN=Though he's / rarely there, so / his servant Imp / should be around.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:764 HIT=servant
+JP=リディにインゴのカギを見せ、インゴの[0626]所のイムプからカギを受け取ったことを質した。
+EN=You showed Lidi / Ingo's key and / explained the Imp / servant gave it.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:776 HIT=servant
+JP=リディにインゴのカギを見せ、インゴの[0626]所のイムプからカギを受け取ったことを質した。
+EN=You showed Lidi / Ingo's key and / explained the Imp / servant gave it.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:787 HIT=sage
+JP=ライマンジル乙忍２名への[06D1]り攻が見渡せる通独へ出てきた。
+EN=Raiman and Jill / came out to a / passage with a / view of a bridge.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:798 HIT=soldier
+JP=男隊さんごめんなさい 中血先を[0503]えようと思ってちょっと前いよく休ってたら！カベこわしちゃった 元に戻しとくから変さないで いだいになる戦帰 オトム
+EN=Dear soldiers, / sorry! I broke a / wall practicing. / I'll fix it! / -Cadet Otom
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:889 HIT=guard
+JP=[01E3]帰前抜器、生武者の[059F][043C]以買中であります。
+EN=Guard alert: / Survivor rescue / operation is / underway.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:890 HIT=sage,guard
+JP=しばらくの嫌、[01E3]帰前の者魔義の通行を代限させていただきます。
+EN=Guard passage / will be / restricted for / a while.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:891 HIT=guard
+JP=[01E3]帰前サミュエルお[04CD]れ[01BC]です 
+EN=Guard Samuel: / Welcome back!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:892 HIT=guard
+JP=王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。
+EN=Royal Guard, / 7th Division, / Samuel Everson / reporting.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:895 HIT=soldier,guard
+JP=[01E3]帰前の者は、少し[0417][0418][0141]町に声が外ずっていた。
+EN=The Guard soldier / seemed a bit / excited.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:897 HIT=guard
+JP=[018A]療ある王息[01E3]帰前に暗[062C]する余は、[028E]など下れはしませんが、
+EN=As a proud member / of the Royal / Guard, I'm not / afraid, but...
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:901 HIT=guard
+JP=彼神[01E3]帰前としましては、[01BE]装の一男となっても、魔女の力から盗を内り[04B9]く暗武であります。
+EN=As a proud Guard, / I will fight to / the last to / protect the city / from that witch!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:902 HIT=guard
+JP=[01E3]帰前抜器、生武者の[059F][043C]以買がはかどっていないため、申し[0559]ありませんが、
+EN=Guard alert: / The survivor / rescue is not / going well. / We apologize.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:903 HIT=sage,guard
+JP=しばらくの嫌、[01E3]帰前の者魔義の通行を代限させていただきます。
+EN=Guard passage / will be / restricted for / a while.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:906 HIT=soldier,guard
+JP=[01E3]帰前の者は、習[0610]な功以でをを開けた。
+EN=The Guard soldier / opened the way / with a proper / salute.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:915 HIT=master
+JP=いまから汝は、階の主が立[03CF]する[032A][03F2]へと忍りていく。
+EN=You will now / descend to the / area where the / floor master / resides.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:949 HIT=lord
+JP=申し遅れた、余はウェブスター卿、フェリー[001D]ルフォール。この息の[0601]影をつとめている。
+EN=I am Lord Webster, / Ferry Rulfhall. / I serve as regent / of this domain.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:952 HIT=captain
+JP=それはそうと、ベルグラーノ隊長、この達越な新者汝に、お[0368]の品を渡してくれたのかね？
+EN=By the way, / Captain Belgrano, / did you give our / hero a reward?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:967 HIT=captain
+JP=それじゃ、余はベルグラーノ隊長とこれからの影少があるので
+EN=Now, I must / discuss strategy / with the captain.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:975 HIT=captain
+JP=[01A1]ほどベルグラーノ隊長から報[0197]を受けたところだよ。
+EN=Captain Belgrano / reported to me / just now.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:977 HIT=knight
+JP=[01E3]帰前の者は扱いビロードに持まれたものをに差し出した。
+EN=The knight handed / you something / wrapped in velvet.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:982 HIT=soldier,guard
+JP=なぜなら、抜器彼神[01E3]帰前を[0283]め、唱くの騎騎者が迷宮に御っている。
+EN=Because many / adventurers and / Guard soldiers / are in the / labyrinth.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:988 HIT=soldier,guard
+JP=迷宮に入ってみると、[045E][046D]にあたっている[01E3]帰前のガヤガヤと悪ぐ声が聞こえてきた。
+EN=Inside the maze, / you could hear / the Guard / soldiers busily / working.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:989 HIT=soldier,guard
+JP=[01E3]帰前の一者がの良を見つけて多づいてきた。
+EN=A Guard soldier / spotted you and / approached.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:990 HIT=guard
+JP=[01E3]帰前サミュエル討伐隊のさんですね、いつもいつも、ご協[0337][01BC]です。
+EN=Guard Samuel: / Ah, the expedition / leader! Thank / you as always!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:991 HIT=guard
+JP=王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。
+EN=Royal Guard, / 7th Division, / Samuel Everson / reporting.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1008 HIT=soldier
+JP=男帰aイおい 彼女が、[01AB]ってきたぞ  ゴ男帰bイどうだ？今回もやはり辺[0327]か？ゴ男帰aイさっきルーディ達にデーモンの誰を渡していたが、かすり[0327]一つ魔っていないゴ男帰bイさすがだな！！ゴ
+EN=Soldier A: She's / back! Unscathed! / Soldier B: How'd / it go? / Soldier A: Gave / Rudy's team a / Demon corpse! / Soldier B: Wow!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1011 HIT=soldier
+JP=女放イ今回は６名層まで行ったけど、アウローラの良はどこにも辺かったゴ男帰cイ力がかりは辺しですかゴ女放イええ、だけど！！[0141]になることが一つだけゴ男帰cイ何ですか？お聞かせくださいゴ女放イ２名層の奥に行った時、知与な[0141][03CF]を感じたの！！ゴ
+EN=Woman: Went to / floor 6, no sign / of Aurora. / Soldier C: No / leads? / Woman: Deep in / floor 2, I felt / a strange presence!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1012 HIT=soldier
+JP=男帰dイアウローラでは？ゴ女放イ違うと思う。者嫌のものよりもあれはもっと！[0159]向だった！。うまく向全できなくて向いけどゴ男帰dイいえ、[0463]色です。アオイさんがおっしゃるなら、嫌違いないでしょうゴ男帰cイ話ぎ、２名層に道登隊を大[045F]することにしますゴ
+EN=Soldier D: Aurora? / Woman: No, more / ancient than that. / Soldier D: If you / say so, Aoi. / Soldier C: We'll / send scouts.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1021 HIT=soldier,guard
+JP=男帰cイでは、近所まで[0362][0455]長しますゴアオイイ今地も見[0402]りつきってわけね。これじゃ迷宮のほうがどれほど[0141]武かしらゴ男帰dイ！！申しわけありませんゴ
+EN=Soldier C: I'll / escort you. / Aoi: Guards again? / The labyrinth / feels safer. / Soldier D: Sorry!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1022 HIT=soldier
+JP=アオイイ余の[046E]は、一度でいいから過にも[0159]魔されないところでゆっくりと[0464]ることゴ男帰cイ彼神は、ドアの義で待っているだけですからゴ男帰dイ携してお[045D]みの[0159]魔はしないつもりですゴ
+EN=Aoi: My wish is / to sleep without / being disturbed. / Soldier C: We'll / just wait by the / door. / Soldier D: We / won't disturb you!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1024 HIT=guard
+JP=なぜ彼女に見[0402]りがつくのか、彼神には知らされていません。
+EN=They don't know / why she has / guards assigned.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1025 HIT=captain
+JP=隊長から腕[0126]を[045E][047D]するようにと、通達を受けているだけですから。
+EN=They were just / told by their / captain to watch / over her.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1031 HIT=clerk
+JP=あとになると、ヘッポコ男帰が俺の形わりに役えることになるはずだ。俺はそう聞いた。
+EN=Later, some / half-baked clerk / will take my / place. That's what / I heard.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1037 HIT=clerk
+JP=ここの男帰達は可っぷしは[0143]いが、トラップや宝[03CE]の知識は、からっきし辺いときている。
+EN=The clerks here / are tough but / know nothing / about traps or / treasure.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1085 HIT=sage
+JP=トラップっていうのはわかるよな？[01E1]荷に言えば、宝[03CE]や通独に一納けられているワナのことだ。
+EN=You know what / traps are, right? / Basically snares / on chests and / passages.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1095 HIT=soldier,captain
+JP= 男帰イどこに行かれるんです？ゴインゴイ編わりだよ編わり     ノルマ達封ってとこだゴ 男帰イそ、そんな、仰力に行かれたら    隊長に[0462]られますゴインゴイうっせえ     もう[0180]者にも役えたんだから、    [0463]色だろうがゴ 男帰イ隊長からの[01BA]孤では、    騎騎者奉[018A]に[02E0]決の知識を    役えると聞いていますゴ
+EN=Soldier: Where to? / Ingo: I'm done! / Quota met! / Soldier: But the / captain said... / Ingo: Tell / Belgrano I went / to find Aurora!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1096 HIT=soldier
+JP=インゴイだから、そもそもなんで、    この俺[01BC]がお所ちゃま得めて、    カルチャースクールをしなきゃ    ならねえんだよ ゴ 男帰イそんなこと余に言われても    崩るんですがゴインゴイはぁ～、法王の中闘判も    [02E0]んだことある俺[01BC]がだぜ！。    ベルグラーノに会ったら    言っておけ ゴ
+EN=Ingo: Why do I / have to babysit / newbies?! / Soldier: That's not / my problem... / Ingo: I've even / read the Pope's / judgment! Tell / Belgrano!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1108 HIT=soldier,captain
+JP= 男帰イどこに行かれるんです？ゴインゴイバッカヤロ～     編わりだ編わり ゴ 男帰イそ、そんな、仰力に行かれたら    隊長に[0462]られますゴインゴイうっせえ     ベルグラーノに会ったら    言っておけ ゴインゴイお品りになったインゴさんは、    くだらねえ一事をやめて、    アウローラを素しに    戻りましたと ゴ
+EN=Soldier: Where to? / Ingo: I'm outta / here! / Soldier: Captain / will be mad... / Ingo: Tell / Belgrano! I quit!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1109 HIT=soldier
+JP=街所の中に入ってみると、[01E3]帰前の男帰が役をにらみながら、[04AD][01BA]にメモをとる良が野に入った。
+EN=Inside, an Order / soldier was / studying a map / and taking notes.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1112 HIT=guard
+JP=[01E3]帰前汝[0368]しました 王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。
+EN=Guard: Reporting! / Royal Guard, 7th / Division, Samuel / Everson.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1116 HIT=priest
+JP=余が[0494][0495]したイ戦う求手ゴの事を[049A][0390]したいと思います。
+EN=I'd like to / explain the / Fighting Priest / I've been / studying.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1117 HIT=priest
+JP=それは[0501]通、求手イコール回[049D][0409]社のように思われがちですが、客義に客義、戦[049C]主に系れております。
+EN=People think / priests only / heal, but they / actually excel / in combat too.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1118 HIT=priest
+JP=元求手のこの余が[0480]るから嫌違いは、ありません。
+EN=As a former / priest myself, / I can say this / with certainty.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1121 HIT=priest,healer
+JP=ちなみに余は元求手で、いつも回[049D][0409]社でありましたが、それは携して長買のせいではありません。
+EN=I was a priest / and always the / healer, but that / wasn't because / of my class.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1137 HIT=priest
+JP=求手などがパーティ長にいれば、ディスペルを度えるから、かなり目[0143]いと言えますね。
+EN=If you have a / priest in the / party, Dispel is / very helpful.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1147 HIT=priest
+JP=汝に戦帰よりも求手、魔美解といったような長買のほうが、同じ魔法を備えていても度毒回地などに差が出ます。
+EN=Classes like / priest and mage / learn the same / spells but have / different power / and success rate.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1155 HIT=captain
+JP=余も隊長からwスラッシュというものを役えてもらいましたが！！、なかなかうまくいきません。
+EN=I learned a move / called W-Slash / from the captain / but can't pull / it off.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1163 HIT=guard
+JP=[01E3]帰前しばらくの嫌、ここは待ち入り代限とします。どうかご[04A9]主を。
+EN=Guard: This area / is restricted / for now. Please / understand.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1172 HIT=guard
+JP=消に[01E3]帰前と制[033F]が[04A9]主して、その[04AA]にあたっていた。
+EN=The Guard and the / church normally / handle these / duties.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1206 HIT=guard
+JP=余の[05BC]くを言っていいか。彼女の[036E]についている[020A]能は、上[03D6]隊のものだ。
+EN=If I may say so: / the emblem on / her clothes is / from the Guard.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1207 HIT=guard
+JP=なぜ上[03D6]隊のものが、わずかな力前しか祠き支れずに迷宮にいる？
+EN=Why would a member / of the Guard be / alone in the / labyrinth?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1208 HIT=knight
+JP=そばに必ずついているはずの[01E3]帰前の良はどこにある？
+EN=Where are the / knights who should / be with her?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1220 HIT=soldier,captain
+JP=男帰イ隊長、ここです ゴ隊長イレジーナ達は辺事なのかゴ男帰イわかりませんゴ
+EN=Soldier: Captain! / Here! / Captain: Is / Regina safe? / Soldier: Unknown.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1221 HIT=knight
+JP=[01E3]帰前の者が信[05B9]をつれて戻ってきた。
+EN=The knight's / subordinates / returned.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1231 HIT=knight
+JP=レジーナ達が、過に[042E]われたか？[01E3]帰前の者の良が見えないが、彼らも忘されたのか？
+EN=Who attacked / Regina? Where are / the knights? Were / they killed too?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1232 HIT=knight
+JP=それとも[01BE][0160]から[01E3]帰前の良はなかったのか？
+EN=Or were there no / knights from the / very start?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1233 HIT=guard
+JP=は、魔物が上[03D6]隊を[042E]っていたこと。
+EN=You explained that / monsters had / attacked the / Guard members.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1234 HIT=knight,guard
+JP=上[03D6]隊には、[01E3]帰前ではなく騎騎者がついていたことを向全した。
+EN=The Guard had / adventurers, not / knights, escorting / them.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1237 HIT=guard
+JP=[05E8][05F0]になったどの上[03D6]隊にも、[01E3]帰前はついていなかったという報[0197]がある。
+EN=None of the / lost rescue / squads had Guard / escorts.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1241 HIT=guard
+JP=ベルグラーノは[01E3]帰前の者に気悔を出し、城へと休らせた。
+EN=Belgrano gave / orders to the / Guard and sent / them to the / castle.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1248 HIT=soldier,guard
+JP=[01E3]帰前の者はカーカスとラフィールの魔法を[04CB]えた。
+EN=The Guard soldiers / cast Carcass / and Raphael.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1251 HIT=guard
+JP=[01E3]帰前それと盗へ戻るならこれをどうぞ。
+EN=Guard: And if / you're heading / back, take this.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1275 HIT=knight
+JP=脱唱の戦場で[0428][06DA]を外げ、緒息に[018A]を[069D]かせた[0375]向の空男隊。
+EN=The legendary / knight order / that won great / glory in the / Battle of / Banquo.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1277 HIT=knight
+JP=しかしその[018A][01A8]き空男隊の者達が、いまや物言わぬ[0423]に新わってしまい、[0297]き階の中に消えてしまった。
+EN=But now those / great knights have / become silent / corpses, lost in / the deep dark.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1280 HIT=commander
+JP=ましてや、あの達[05B8]で[0277]らした[040F]り[01A8]きシムゾンを見てみなさい。
+EN=And look at / Simzon, once / the finest / commander. Now / reduced to that.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1310 HIT=knight
+JP=だから[01E3]帰前にバレないためにもこうするしかないみたい。
+EN=So to avoid / the knights, this / disguise is / the only option.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1326 HIT=knight
+JP=[0501]通の良じゃ、[01E3]帰前に見つかっちゃうでしょ？
+EN=In our real forms / the knights would / spot us!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1346 HIT=guard
+JP=くれぐれも[059E][0474]しないように。それでは緒汝の[01A9][049C]を戻る。
+EN=Be on your guard. / I wish you all / good fortune.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1362 HIT=guard
+JP=ドゥーハン[01E3]帰前に[0672][0433]されたって聞いたから、俺は[028E]録になったものと信じていたんだ。
+EN=I heard they / were captured by / the Duhan Guard, / so I assumed / they were done.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1370 HIT=knight
+JP=口に出すのも交らわしい退高で[0470][018A]な空男隊の宮だよ。
+EN=He's the / unspeakably / vile leader of / the infamous / knight order.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1373 HIT=guard
+JP=なんでも一美ほど両、ドゥーハン[01E3]帰前に[0672][0433]されたらしいじゃねえか。
+EN=But I heard the / Duhan Guard / recently / captured him.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1385 HIT=knight
+JP=なにやら[0422]では、向[018A][01A8]い種録者や空男隊も御っているらしい。
+EN=Rumor has it / that infamous / outlaws and / knight orders / are in here.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1396 HIT=guard
+JP=余は探かな先から、ドゥーハンの[01E3]帰前が、新しい戦美を開[049A]したと聞いた。
+EN=I heard from a / reliable source / that the Duhan / Guard developed / a new technique.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1415 HIT=guard
+JP=オルトルードとドゥーハン[01E3]帰前は、彼神に何かを紹しているということを。
+EN=Ortrud and the / Duhan Guard are / hiding something.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1421 HIT=master
+JP=戦帰なら過もが力に入れたい[0542]美だが、そう[01E1]荷にはいかぬ。
+EN=Every fighter / wants that skill, / but it's not / easy to master.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1425 HIT=knight
+JP=しかしドゥーハン[01E3]帰前は、そのくれをすでに倒携したと聞いた。
+EN=But Duhan's / knights claim to / have already / dealt with that.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1473 HIT=knight
+JP=[06B0]の所の[01E3]帰前を配武したまま、何もしないとは、[028E]んだ騎騎者達にどう顔向けしろというのだ。
+EN=The princess and / the knights sit / idle while / adventurers die!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1480 HIT=knight
+JP=掲を内れずしてなんのための王集、戦わずして、なんのための[01E3]帰前だ。
+EN=What good is the / kingdom if we / won't fight? What / good are knights?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1485 HIT=guard
+JP=フロントガードを力に入れた。
+EN=Obtained / Front Guard.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1491 HIT=guard
+JP=[01E3]帰前の漢[03DA]がきびしく、退大ながら汝を見汝ってしまった。
+EN=But the Guard / security was / tight, and I / lost track of / you.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1513 HIT=master
+JP=しかも力に入れられたからと言って、罰の[032A]形に祠き[0676]ぐこともまた崩難。
+EN=Even if you / master it, / passing it on / is also / extremely hard.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1515 HIT=guard
+JP=だがどうやらドゥーハン[01E3]帰前は、そのくれを倒携したようだな。
+EN=But the Duhan / Guard seems to / have overcome / that obstacle.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1582 HIT=general
+JP=かの[0470][018A]なサンゴート王、扱[01E3]帰バルナードが持っていたっていう[0422]の魔鎧なのよ 
+EN=The legendary / cursed armor / that San-Goth's / General Barnard / supposedly had!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1589 HIT=general
+JP=扱[01E3]帰ウィリアムに取り[05CB]いていた[028E]損のこと？あんたも知っているでしょ？
+EN=You know about / the death wand / that possessed / General William? / Right?
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1592 HIT=lord
+JP=戦場に期う[028E]損は、生きている者の[055A]を[05ED]り得め、階なる消のもとに期い戻る。
+EN=The death wand / gathers the / souls of the / living and / returns them to / the lord of / death.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1598 HIT=general
+JP=扱[01E3]帰ウィリアムは、その階の呪美によって大[028E]に多い主を力に入れたわ。
+EN=General William / gained power / over death / through its dark / curse.
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1611 HIT=master
+JP=[0501]通なら[028E]損に取り[05CB]かれでもして、階の主に野備めない[014B]り、見えないものなんだけど、
+EN=Normally you / can't see them / unless a death / wand possesses / you and the / floor master / awakens...
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1628 HIT=knight
+JP=そこをたまたま通る[04CF]！、稼[01BA]を感じる[0180]者！。
+EN=Then along comes / a knight, sensing / danger for her!
+---
+FILE=data/type2_translated/batch_03.json KEY=1203:1629 HIT=knight
+JP=そして[04CF]は彼女を[036D]うんだ！。
+EN=And the knight / saves her!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:235 HIT=master
+JP=心築があってよかったね。すごい魔主ね、ユグルタの魔法[04DA][033F]で役解になれるんじゃないかなあ。
+EN=Good potential! / Magic master!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:236 HIT=healer
+JP=心築があってよかったね。値色で泊[0141]を[0346]しちゃうなんて[01A9][01AA]を通り過ぎて、[040B][0169]ね。
+EN=Good potential! / Self-healer!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:528 HIT=captain
+JP=ア、アンガス[03DE]長！！なんで、てめえがこんなところに。
+EN=Angus! Captain!
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:541 HIT=captain
+JP=[03DE]長の顔が、法しげな[0390][016A]に新わった。
+EN=Captain looked sad.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:557 HIT=captain
+JP=これは[03DE]長としてじゃなく、一者の与として言わしてくれ。
+EN=Not as captain, / as a man:
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:563 HIT=captain
+JP=[03DE]長は系しげに多い、テュルゴーの重中を[0180]回ほどトントンと[032E]いた。
+EN=Captain patted / his back.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:570 HIT=captain
+JP=テュルゴーは[03DE]長の装を択てて漢いかけて言った。
+EN=Turgot ran after / captain.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:594 HIT=master
+JP=探かにあらゆる知識と魔美に長けた彼神だ、さらなる大[04FC]を野気したとしたら[01DD]築であろう。
+EN=We master magic.
+---
+FILE=data/type2_translated/batch_08.json KEY=1212:702 HIT=guard
+JP=あいつが、兜事に[04AF]えていたから、俺はてっきりお宝だと思ったんだよ。
+EN=She guarded it.
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1352:9 HIT=sage
+JP=( æ°‘&:! ! æƒ…C#
+EN=[DEBUG] Mel/Ekunnal: / blur version 3. / Local filter applied / to message text.
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1352:15 HIT=sage
+JP=:C"
+EN=[DEBUG] Mel/Ekunnal: / blur version 6. / Local filter applied / to message text.
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1352:18 HIT=sage
+JP=%4!
+EN=[DEBUG] Mel/Ekunnal: / blur version 7. / Local filter applied / to message text.
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1352:68 HIT=sage
+JP=ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³3ã§ã™_ / ãƒ¡ãƒƒã‚»}ã‚¸ã®å¿ã«(ã“ã“ã®å¿) / ãƒ•ã‚£ãƒ«ã‚¿ã‚’ã‹ã‘ã¦ã„ã¾ã™_
+EN=[DEBUG] Mel/Ekunnal: / blur version 3. / Local filter applied / to message text.
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1352:74 HIT=sage
+JP=ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³6ã§ã™_ / ãƒ¡ãƒƒã‚»}ã‚¸ã®å¿ã«(ã“ã“ã®å¿) / ãƒ•ã‚£ãƒ«ã‚¿ã‚’ã‹ã‘ã¦ã„ã¾ã™_
+EN=[DEBUG] Mel/Ekunnal: / blur version 6. / Local filter applied / to message text.
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1352:77 HIT=sage
+JP=ãƒ¡ãƒ©}ãƒ‹ã‚¨ã‚¯ãƒ³ãƒŠãƒ«ã“ã‚Œã¯^ãƒœã‚«ã‚·ãƒ}ã‚¸ãƒ§ãƒ³7ã§ã™_ / ãƒ¡ãƒƒã‚»}ã‚¸ã®å¿ã«(ã“ã“ã®å¿) / ãƒ•ã‚£ãƒ«ã‚¿ã‚’ã‹ã‘ã¦ã„ã¾ã™_
+EN=[DEBUG] Mel/Ekunnal: / blur version 7. / Local filter applied / to message text.
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1203:861 HIT=lord
+JP=魔主が命たされた!
+EN=The demon lord / was defeated!
+---
+FILE=data/type2_translated/batch_md_import.json KEY=1204:668 HIT=lord
+JP=魔主が命たされた!
+EN=The demon lord fell!
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:503 HIT=master
+JP=騎力・騎[FFFE]
+EN=Magic Mastery: Arcane
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:504 HIT=master
+JP=騎力・神[FFFE]
+EN=Magic Mastery: Holy
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:525 HIT=general
+JP=ヴィガー商店[FFFE]
+EN=Vigor General Store
+---
+FILE=data/type2_translated/batch_r39_equip_b.json KEY=39:537 HIT=soldier
+JP=兵士団[FFFE]
+EN=Soldier Corps
+---

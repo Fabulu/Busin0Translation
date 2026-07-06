@@ -1,0 +1,22 @@
+{
+ "save": "ramdumps/verafourth.p2s",
+ "symptom": "Vera (Lady Knight) dialogue line \"I must know. What destroyed his band and stole the light from Simzon's eyes.\" renders with a forced 4th line (\"Simzon's eyes.\") that overflows below the dialogue box; only 3 lines are visible on screen, the 4th is clipped.",
+ "root_cause": "The line is R1197 group/msg_index 927 (NOT 929 as the shared recon assumed — verafourth.p2s captures a different Vera line). It is OVER-WRAPPED: build_v9.py routes it to the 360px NARRATION budget, which wraps the flattened 1098px text into 4 lines; the correct 480px DIALOGUE budget wraps it into 3 lines (which is what the box fits). The mis-route is a classifier bug: tools/dialogue_classifier.py classifies g927 as narration because its 0x14 speaker name-island lands in group 932, which sits AFTER its 0x04 display block [927,928,929]. The head test `headed = (first in label_groups) or (first-1 in label_groups)` is therefore False (neither 927 nor 926 is a label group; only 932 is) — the same body-block-before-name ordering that affects g929. DIALOGUE_FORCE in build_v9.py contains ONLY (1197,929); the two sibling lines 927 and 928 in the SAME display block were missed, so g927 falls through to the 360px narration branch and gets a preventable 4th line. This is a build-side wrap/classification routing bug, not a renderer width-formula bug and not a cross-page collapse artifact.",
+ "evidence": [
+  "Screenshot.png in verafourth.p2s shows speaker 'Lady Knight'/Vera with 3 visible lines (4th clipped below box bottom).",
+  "v122 patches confirmed live in eeMemory.bin: P23 @0x308328 = 08 00 04 24 (li a0,8), P22 @0x308CB0 = 12 00 42 24, P19 @0x308040 = 80 59 13 08.",
+  "Text source: data/type2_translated/batch_01.json:10926, english = 'I must know. What / destroyed his / band and stole / the light from / Simzon's eyes.' (resource 1197, msg_index 927).",
+  "Classifier replay (build_dialogue_map/build_narration_map on 1197): g927 dialogue=False narration=True, DIALOGUE_FORCE membership=False -> routed to 360px narration; g929 DIALOGUE_FORCE=True -> 480px dialogue.",
+  "Section-1 display-block decode (sec1_disasm): 0x04 block covers groups [927,928,929], first=927, n_label=0, headed=False; the only nearby 0x14 name-island label_group is 932 (Vera: 'I am still a green knight...').",
+  "Wrap reproduction with tools/glyph_metrics (build_v9 enc, char-32 family): flat text = 1098px. At 360px -> 4 lines [258,323,283,207]. At 480px -> 3 lines [458,415,207]. Widest 480px line 458px + left margin ~39 = right-x ~497, inside the ~608px interior."
+ ],
+ "affected_code": [
+  "build/build_v9.py:505 (DIALOGUE_FORCE = {(1197, 929)} — missing 927 and 928)",
+  "build/build_v9.py:610 (narration branch wrap_px(en_text, NARRATION_BOX_PX=360, collapse=True))",
+  "build/build_v9.py:603 (routing: mi in dialogue_groups or (r_id,mi) in DIALOGUE_FORCE -> 480px)",
+  "tools/dialogue_classifier.py:81 (head test misses body-block-before-name speakers: headed = first/first-1 in label_groups)",
+  "data/type2_translated/batch_01.json:10926 (R1197 msg_index 927 source text)"
+ ],
+ "fix_hypothesis": "Immediate: add (1197,927) and (1197,928) to DIALOGUE_FORCE in build/build_v9.py — the other two members of Vera's [927,928,929] body-block-before-name dialogue block — so g927 wraps at the 480px dialogue budget and collapses 4 lines back to 3 (verified by reproduction). Correct/general fix: extend the classifier head test in tools/dialogue_classifier.py:81 to also treat a 0x14 name-island that immediately FOLLOWS a display block (body-before-name ordering, e.g. name-island in the group right after the block's last covered group) as a dialogue head, so all such inline-speaker blocks classify as dialogue corpus-wide without manual DIALOGUE_FORCE entries. Must be gated/regression-tested so it does not reclassify genuine narration (e.g. R1196 g575) as dialogue. A corpus-wide replay enumerating every 0x04 block whose covering name-island sits after the block would list all affected groups for either approach.",
+ "confidence": "high"
+}

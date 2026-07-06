@@ -133,6 +133,10 @@ def words_of(seg):
 # ----------------------------------------------------------------------------
 DESCRIPTION_SUBS = {1, 3, 5, 7, 11, 13}
 DESC_WRAP_CELLS = 18
+# sub9 spell-book bodies render in the WIDE synthesis/alchemy description box (not the
+# narrow inventory box), so their wrap gets a wider budget -- 18 wrapped ~3 words/line
+# and ran off the bottom (alchemypill.p2s). Tune by eye if the synthesis box differs.
+SUB9_WRAP_CELLS = 36
 NAME_MAX_GLYPHS = 16
 
 
@@ -194,7 +198,18 @@ def encode_sub9(english, orig_words):
         words.append(enc(ch))
     words.append(FFF0)
     words.append(FFFE)            # separator that followed FFF0 in the original
-    body_segs = body.split(' / ')
+    # BUG (shop/alchemy description overflow): sub9 spell-book BODIES ship with no
+    # authored ' / ' break (all 56 are single ~70-char sentences) and encode_sub9
+    # never wrapped them, so the body drew as one flat line that runs off the right
+    # edge of the item/synthesis description box (same overflow the DESCRIPTION_SUBS
+    # width-wrap already fixes for subs 1/3/5/7/11/13). Apply the SAME conservative
+    # width-wrap here — greedy wrap_desc_text at DESC_WRAP_CELLS, joined by FFFE line
+    # breaks the box renderer (VA 0x3A2EF0) already honors. Authored ' / ' bodies and
+    # short bodies are left exactly as before. Header box (opener..FFF0) is untouched.
+    if ' / ' not in body and len(body) > NAME_MAX_GLYPHS:
+        body_segs = wrap_desc_text(body, SUB9_WRAP_CELLS)
+    else:
+        body_segs = body.split(' / ')
     for si, seg in enumerate(body_segs):
         if si:
             words.append(FFFE)

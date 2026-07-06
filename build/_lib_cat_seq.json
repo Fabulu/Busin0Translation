@@ -1,0 +1,57 @@
+{
+ "item_compendium": {
+  "seq": [
+   193,
+   59,
+   211,
+   225,
+   1289,
+   677
+  ],
+  "all_found": true,
+  "len": 6
+ },
+ "char_directory": {
+  "seq": [
+   319,
+   412,
+   314,
+   677
+  ],
+  "all_found": true,
+  "len": 4
+ },
+ "glossary": {
+  "seq": [
+   670,
+   1152,
+   null,
+   null
+  ],
+  "all_found": false,
+  "len": 4
+ },
+ "adventure_guide": {
+  "seq": [
+   486,
+   487,
+   136,
+   276,
+   901,
+   118
+  ],
+  "all_found": true,
+  "len": 6
+ },
+ "book_list": {
+  "seq": [
+   419,
+   412,
+   232,
+   205,
+   212
+  ],
+  "all_found": true,
+  "len": 5
+ }
+}

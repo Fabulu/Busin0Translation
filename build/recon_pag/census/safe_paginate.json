@@ -1,0 +1,4157 @@
+[
+ {
+  "r": 1197,
+  "gi": 906,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Yet no report / has come that / your comrades' / remains were / found.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1197,
+  "gi": 907,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "This is only my / guess, but did / they not press / on to deeper / floors?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1197,
+  "gi": 908,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "From the / soldiers' talk, / Simzon's band / were feared as / San-Lazare's / demons.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1197,
+  "gi": 932,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Vera: I am still / a green knight, / but I'll strive / not to be a / burden.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1199,
+  "gi": 89,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "His magic knowledge / grew with time. Even / kings sought his counsel.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1200,
+  "gi": 33,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The temple offers / various services, / but those in need / of healing are many.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1200,
+  "gi": 107,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The less experience / one has, the harder / the resurrection. / It requires more / skilled hands.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1200,
+  "gi": 109,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The amount may / change as they grow, / but keep this / as a reference.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1201,
+  "gi": 4,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "And sleep can / sometimes make an / adventurer grow / overnight, they say.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1201,
+  "gi": 100,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Dwarf warrior: / Well, well! Haven't / been to Duhan in / ages. Didn't think / it'd be this / run-down!",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1201,
+  "gi": 103,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I heard he's / gravely ill, so / I came to see him. / Didn't think the / guy tougher than / me would get sick.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1201,
+  "gi": 111,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Well, I brought / plenty of his / favorite herbs / from back home. / That should cure / any illness.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1201,
+  "gi": 117,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The legendary / warrior who broke / the walls of Tour / during the great / war twenty years / ago.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1202,
+  "gi": 2,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Orc: Opening the / heavy iron door, / the shop was / filled with piles / of goods -- or was / it junk?",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1202,
+  "gi": 189,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "From the way she / was keeping the / books at the / counter, she / seemed to be / an employee.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1202,
+  "gi": 236,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Lucy: Upon / entering the shop, / Lucy called to / you while chatting / with Notch.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 26,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A sign on the / counter reads: / Lost & Found Open / Vigger Friends / New Members.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 648,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Inside Fudo's / room, Fudo sat / cross-legged in / the center, / meditating.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 815,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Probably trying / to mix healing / or recovery / potions. How / predictable.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 868,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The monster / stared intently / at a normal- / looking door, / muttering.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 902,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Guard alert: / The survivor / rescue is not / going well. / We apologize.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 910,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "They donned armor / with pride, ready / to forge their / own path in this / labyrinth.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 950,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Webster: I'm sure / we'll need your / help often. / Pleased to meet you.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1031,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Later, some / half-baked clerk / will take my / place. That's what / I heard.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1164,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "In the middle / of the corridor, / adventurers / were fighting / monsters.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1165,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "They fought / bravely, but the / two-pronged / monster attack / overwhelmed them.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1275,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The legendary / knight order / that won great / glory in the / Battle of / Banquo.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1276,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Every king in / the land tried / to recruit them. / That shows their / fame.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1277,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "But now those / great knights have / become silent / corpses, lost in / the deep dark.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1280,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "And look at / Simzon, once / the finest / commander. Now / reduced to that.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1385,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Rumor has it / that infamous / outlaws and / knight orders / are in here.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1386,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Supposedly, the / overwhelmed King / granted amnesty / to bolster / manpower.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1387,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "But think about / it. In the real / world, these are / people who'd be / executed.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1396,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I heard from a / reliable source / that the Duhan / Guard developed / a new technique.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1430,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Adventurer: I / don't know what's / going on in / there, but it / reeks of undead.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1432,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Some say that / sight awaits / those who delve / too deep, but / that's nonsense.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1491,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "But the Guard / security was / tight, and I / lost track of / you.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1497,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "This is / embarrassing, / but I really / can't stand / zombies.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1498,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Just a glimpse / of those / horrible things / gives me / goosebumps!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1617,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Kunnal: Just as / you turned the / corner, Kunnal / came up from / behind.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1203,
+  "gi": 1618,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "He was deep in / thought, mumbling / to himself, / not noticing / you at all.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 26,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A nauseating / stench grew as / the dark worms / began to make / eerie movements.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 55,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Wouri: After / returning to the / city, Belgradno / was furiously / declaring he'd / hunt them down.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 93,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Soldier Lutz: / I see, we'd / been worried / about the squad / here as well.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 160,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "You again. You / don't know / Janken Man, so / you've got no / business here!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 301,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "But such a / cruel killing / I've never seen / even on a / battlefield.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 315,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "While I was / talking with / the new folks, / something / weird happened!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 336,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Those in front / tried to stop, / but those / behind were too / busy fleeing.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 382,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Next to the Imp, / behind a / curtain, was / a prepared / space.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 384,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The counter sign / read: 'Event / Space Grand / Opening! Vigger / Friends / membership / required.'",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 385,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The Imp by the / space noticed / you and / started / talking.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 386,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "The Event Space / sign read: / 'Vigger Friends / Sign-Up / Available.'",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 421,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "The Event Space / sign read: / 'Vigger Friends / Sign-Up / Available.'",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 430,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The board reads: / 'Your hidden / potential... / I shall reveal / it for you.'",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 622,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Amazingly, it / passed through / her ghostly / body into her / hands.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 711,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Very well. / Those who die / here are hardly / better than B1 / adventurers.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 712,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Such fools / can't have / strong bracelet / memories. So / no harm done.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 721,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Wizard: You / were about to / pour something / into this / spring!",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 723,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "So you were / going to pour / recovery or / healing potions / in? Hmph.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 751,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "An adventurer / at this level / can't have / anything of / value anyway.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 770,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I put a very / effective / potion in that / spring. Quite / safe!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 820,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Readings: 1000G / flat. Let me / see how much / eye-power lies / within.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 882,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The spring / beyond the door / I put great / potion in. / Quite safe!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 973,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "No matter what / hardships await / I swear on / Simzon's soul / to overcome / them!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 974,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Konde: That was / terrifying! / I'm ashamed / but can't stop / trembling!",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 975,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Death isn't / rare at my age / yet facing / that creature / made me shake / like a child!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 983,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Battle tension / faded and / Erika was / trembling / violently.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1204,
+  "gi": 994,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If released / into the world, / not just Duhan / but all Venoa / would perish!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 17,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The Identification / Bracelet on / your arm / briefly / responded.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 52,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "He seemed to be / injured in several / places, but his / wounds were / surprisingly / minor.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 69,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"It wasn't like / a normal voice, / it was as if it / came directly / from inside / your head.\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 75,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Aurora: / After all, it is / comfortable for / me to be called / by that name.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 101,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "You'll understand / when you meet / her. I don't want / to see her ever / again though.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 104,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "In what world / would a government / official be / sent to explore / a labyrinth?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 108,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Turgot: / Well, see ya. / I'll thank you / properly when / I get back / to the city.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 109,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"That idiot / mayor, just wait. / I'll file a huge / workers' comp / claim!\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 112,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Leprechaun: / Items designed / to make orcs / weep with misery. / Handcrafted / with care.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 187,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Leprechaun: / Welcome to the / Labyrinth / Recycling Shop / \"Happy Orc\"!",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 188,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Items that look / useless, in the / hands of yours / truly, become / amazing!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 191,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Yours truly / controls the / market! Every / shop is filled / with miserable / orc items!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 217,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Adventurer: / I hear the 2nd / floor has been / in chaos. / The Writhing / Demons have / emerged.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 218,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Hmph, panicking / only now? How / foolish can / Duhan's soldiers / be?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 220,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "It's written / in every / encyclopedia. / Their emergence / should have been / anticipated.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 221,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Well, Duhan's / soldiers / couldn't do / anything about / it anyway.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 222,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Those fools who / still think they / can handle it / with swords and / magic cannot / defeat the / Writhing Demons.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 232,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Vile: To clear / the name of my / father, who was / killed at the / Battle of / Banquo.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 234,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If this person / can fight the / Writhing Demons, / I'd like to / meet them.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 235,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I don't care / whether Duhan / is destroyed. / I have no / interest in the / witch Aurora.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 237,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The Writhing / Demons / decimated two / armies in a / single night at / the Battle of / Banquo.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 238,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I have business / with that demon / god the witch / Aurora summoned / from purgatory.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 239,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Sorry for the / late intro. I am / Vile. I came / from San-Goth / to avenge my / father.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 240,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Vile: I'm / furious that / Ortrud, who was / merely lucky, / became Holy King,",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 241,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "while my father, / who fought the / Writhing Demons, / was treated as / a criminal / and died.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 273,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Webster: No / matter how / many times / I come here, / I never get / used to this / labyrinth.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 274,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Once you enter, / even someone / like me gets / tormented by / nightmares for / days.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 293,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Zel: If you / find something, / don't rush to / find us and / waste time.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 331,
+  "pages": [
+   8
+  ],
+  "worst": 8,
+  "cls": "DIALOGUE",
+  "jp_pb": true,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Orc B: \"That beast / is hella strong!\" / Orc A: \"Try being / in our shoes!\" / Orc B: \"We had to / fight while / guarding the / princess!\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 356,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Orc: After the / battle ended, / the branch / shop clerk / came running / back.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 359,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"You were / sleeping so / we left you / behind when / we evacuated!\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 378,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Next to the / Imp manager, / a partitioned / space had been / created.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 380,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A banner at / the counter / read: \"Lost & / Found Open! / Vigger Friends / new member / recruitment!\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 382,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Imp: The Lost / & Found space / has a sign: / \"Vigger Friends / Now Recruiting!\"",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 417,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Imp: The Lost / & Found space / has a sign: / \"Vigger Friends / Now Recruiting!\"",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 420,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Floors 1-5 / are the Vigger / Friends new / member sign-up / campaign!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 426,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The event / board reads: / \"I shall / reveal the / power hidden / within you.\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 548,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Floors 26-30, / 5-day period / is the Vigger / Friends / member-only / lucky number / draw!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 618,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Amazingly, / it passed / through her / hands and was / placed before / her.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 643,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Upon entering / the room, Jill / screamed at / the horrific / sight.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 645,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Both of them / half-covered / their faces, / as if seeing / something they / shouldn't.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 652,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Ogre: Hey, / welcome! / Welcome to / the Medal / Shop!",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 694,
+  "pages": [
+   11
+  ],
+  "worst": 11,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Alchemist: / I read / companion / dolls using / alchemy. / I make a / living / observing the / cycle of / soulless / dolls.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 695,
+  "pages": [
+   9
+  ],
+  "worst": 9,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The appraisal / fee is 1000g / per body, / regardless of / your standing. / Let me see how / much spirit / resides in / your doll.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 707,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- / 's body / already has / considerable / experience.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 712,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- / 's body / already has / considerable / experience.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 717,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- / 's body / already has / considerable / experience.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 722,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- / 's body / already has / considerable / experience.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 727,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- / 's body / already has / considerable / experience.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 732,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- / 's body / already has / considerable / experience.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 746,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Part-timer: / You met an orc / working part- / time at the / shop.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 758,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Melanie: / Melanie was / waiting alone / behind a door / in a passage.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 759,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "She hadn't / noticed you yet / and was arguing / with a voice / behind the door.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 787,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Melanie: / Behind the / door, Melanie / was still / flustered.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 808,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Finally, I can / get out of / this dark / place! What / a relief!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 809,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Can you / believe it? / I fell through / a trap door / but there was / no door to get / back out!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 871,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I'd heard she / was an / overwhelming / magic user, / but this is / beyond / imagination.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 879,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "but the / witch Aurora's / terror is / exactly as / the rumors / say.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 880,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If my friends / could see / this scene, / they'd know / how reckless / they've been!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 881,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Indeed, I have / heard about / Aurora from / my father and / grandfather.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 882,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "That she is / the cursed / witch who / destroyed the / Kingdom of / Irikia.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 884,
+  "pages": [
+   9
+  ],
+  "worst": 9,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "At the time, / even the / strongest / sorcerers of / Venoa were / overwhelmed. / That kingdom / fell to this / one witch.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 886,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The key to / survival here / is avoiding / her at all / costs.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 888,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "To possess the / power of a / god, yet use / it only for / such cruelty.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 891,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Then, over her / long life, / even the / worst villain / should develop / some good.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 893,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Even the / worst people / eventually / do good deeds / during their / long lives.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 894,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Because no / one can live / free from / the warmth / and kindness / of others.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 895,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Yet she has / lived alone / for ages, / bringing only / destruction / and chaos.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 896,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Am I / overthinking / it, to sense / some reason / behind it?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 897,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Iris: The / witch Aurora / and the / Writhing / Demons!",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 898,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "No one could / have imagined / such a crisis / unfolding / here.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 900,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I came to / investigate / reports that / King Ortrud of / Duhan might / be planning / an invasion.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 901,
+  "pages": [
+   8
+  ],
+  "worst": 8,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "What I'd heard / about was a / new battle / technique / called Alleid / being / developed by / the military.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 902,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "But after / entering this / labyrinth, I / realized such / concerns are / trivially / small.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1205,
+  "gi": 903,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A crisis / threatening / not just one / nation but / all of Venoa / lurks here.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 20,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"You probably came / here unknowing, but you / should turn back now.\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 43,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"Even if I am killed, / I wish to fulfill my / duty as a princess.\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 78,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Kunnal stood in the / middle of a clearing, / gazing up and muttering.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 111,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The moment you / entered the room, / Melanie and Miri / cried out in surprise.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 159,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Orc: After the battle, / the branch shop owner / came running over.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 162,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"Ya wouldn't wake up, / so we left ya behind / when we evacuated!\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 163,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"Well, glad yer safe! / C'mon, take another / rest, nice 'n easy!\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 183,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A sign on the / counter reads: / \"Lost & Found OPEN! / Vigger Friends / new member signup!\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 229,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A board reads: / \"For those chosen by / destiny, I shall / tell your fortune.\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 530,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"Fine. An adventurer / who would die in / this place can't have\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 562,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"that's the way of the / world, but Ortrud is / truly pitiful,\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 565,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"The grudges of those / killed while seizing / the throne have\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 602,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"that's the way of the / world, but Ortrud is / truly pitiful,\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 605,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"The grudges of those / killed while seizing / the throne have\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 670,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "\"The fee is 1000G / regardless of level. / Let me see how much\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 722,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The Orc seemed to / remember you too and / came running happily.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 738,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The hooded man, who / had been watching from / a distance, approached.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 743,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Aoi: Mac Bain, Mac Bain / Loudun. I will never / forget this name.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 745,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "You plundered the / village! You killed all / the innocent villagers.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 761,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Mac Bain: It is true / that we have done wrong / in many places.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 764,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Ever since I've been / stuck in this wretched / body, I have been",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 872,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Surely Webster didn't / hide her in the / labyrinth out of spite?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 873,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "In that meeting / with the elder, they / said Webster held the",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1208,
+  "gi": 876,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If it was a joint / effort with the king, / the princess would be",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 26,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "You forcibly subdued the Succubus, who was desperately and violently resisting.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 54,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "In Yoppen's room, Yoppen was silently staring at the Succubus, who was still sleeping.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 69,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I'm afraid I'm a bit busy at the moment. I'm sorry, but if you don't have any business with me, you'll have to leave.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 134,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Emilia: Fortunately, she's only sleeping because she's extremely tired.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 142,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I've been watching over Her Highness with my ninjas under the orders of His Majesty Ortrud.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 192,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "There was a space divided by a pile of wood in one corner of the store.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 193,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The words 'Event Space' were written on a plaque that was affixed at the entrance.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 194,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A stack of papers / read: \"To mark the / Event Venue opening, / Vigger Friends now / accept new members!\"",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 196,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "There was a sign at the Imp's Event Space saying 'The Vigger Friends are currently accepting new members!'",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 231,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "There was a sign at the Imp's Event Space saying 'The Vigger Friends are currently accepting new members!'",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 234,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Between the 1st and 5th of the month is the Vigger Friends new member sign-up campaign.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 501,
+  "pages": [
+   8
+  ],
+  "worst": 8,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Alchemist: I am a practitioner of alchemy. I make my living by inspecting the condition of those alchemically created dolls.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 502,
+  "pages": [
+   8
+  ],
+  "worst": 8,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The survey is a flat 1000G, regardless of the number of dolls. I will see how far your Automata has progressed to get her own heart.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 503,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "What do you think? Let's find out how far along your Automata is in its development, shall we?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 514,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- This Automata already has a decent amount of experience accumulated.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 519,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- This Automata already has a decent amount of experience accumulated.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 524,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- This Automata already has a decent amount of experience accumulated.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 529,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- This Automata already has a decent amount of experience accumulated.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 534,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- This Automata already has a decent amount of experience accumulated.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 539,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "0123456789- This Automata already has a decent amount of experience accumulated.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 572,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If you don't hurry up and rescue the princess, everything will go wrong!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 573,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "We first saw him walking around with that grandpa in high spirits at that place with the Warrior God,",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 588,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Emilia: You'll find Lord Webster and the alchemists in the room over there.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 604,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "But don't you think that Webster's willingness to sacrifice his own soul to achieve his goals is what makes a man a hero?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 606,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "His persistence and willpower would have made him a great man, if fate hadn't crossed his path.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 613,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Ortrud killed all members of the royal family and nobles of Duhan in revenge for being cut off at the battle of Banquo.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 615,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "That the Holy See actually abandoned the royal families and nobilities of Duhan in fear of reprisal from Ortrud?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 616,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If he had known about it, would he still have allied himself with the Holy See?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 620,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Simzon, Lord Webster, and all the others who were attracted to this labyrinth died a horrible death.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 621,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I know it sounds crazy, but I can't help but think that this labyrinth itself is some kind of eerie entity.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 624,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "But there is no other place in the world as full of death as this labyrinth.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 626,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I think I finally understand what Priest Fouquet was trying to tell me at the church back then.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 628,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Remember when earlier, the man called Cell said that the King was aware of everything?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 629,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "It's indeed strange to assume that the man who is called the Holy King would be unaware of a rebellion in his own ranks.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 631,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If they had been too uncareful, their heads could have been all on a spike by now.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 632,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Were they actually waiting all this time for Lord Webster to turn tail?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1209,
+  "gi": 633,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If that was actually the case, then they were kind of prick-teasing him.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 91,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "What sins have / we committed / that the gods / must endure such / trials?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 110,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The wise knew / Majikim's rise / was but a / prelude to the / dark ones.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 112,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Pain and suffering / are offerings to / the dark ones; / as long as they / are given, they / shall not awaken.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 158,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Aurora: Living / long enough, one / may encounter / such rare / meetings.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 159,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "When the dark ones / stir again, / ancient warriors / who fought them / rise once more,",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 163,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The dark ones will / emerge again, / tormenting all / life and ruining / the land.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 164,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Just as death / reaches everyone, / they can never / truly be / destroyed.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 167,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "After a terrible / battle at Banquo / where corpses / piled high, / he told me:",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 168,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "All will be fine. / No matter how / dark it gets, / someday we will / prevail.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 169,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Even if we fail, / someone will / surely slay the / dark ones and / bring peace / to Venoa.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 172,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "And Ortrud kept / his promise, / raising a warrior / to slay the / dark ones.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 173,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "You must be what / Ortrud called / the Guardian -- / protector of / the people from / the dark ones.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 192,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "The trap to slay / the dark ones / should have used / all the energy. / I too should / have shut down.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 193,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "In the endlessly / long time since, / I have asked / myself that / countless times.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 231,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Next to Imp's / booth, a space / sectioned off by / crates had been / created.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 233,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A sign read: / 'Event Hall Open! / Vigger Friends / New Members / Welcome!'",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 603,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "He drew me from / despair and gave / me purpose with / his merciful / hand!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 620,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Monsters have / been appearing / everywhere, / attacking / people.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 691,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Aurora: Brave / soldiers of / San-Goth bear / the danger / of darkness.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 692,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "One by one, dark / flames flicker / and die, offering / lives as light / to the dark lord.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 694,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A being that / feeds on life / and grows via / suffering is / being unleashed.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 758,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "And the reader / shall praise the / great mage Conde / who lived happily / -- or so I'd / like to say,",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 765,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Walking through / the labyrinth / feels like / sinking into / an abyss.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 766,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Monsters emerge, / yet God's true / face is still / nowhere to be / seen.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 767,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "For me now, only / my comrades' / faith is the one / light in the / darkness.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1210,
+  "gi": 774,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Aurora met Ortrud / at Banquo. She / saved his life in / exchange for / a promise.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 8,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Aurora: Ortrud / is dead. He fell / where we can / never meet or / weep again.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 12,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If death isn't / the end, then / perhaps his / actions make / some sense.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 76,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Next to Imp's / booth, a space / sectioned off by / crates had been / created.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 78,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "A sign read: / 'Event Hall Open! / Vigger Friends / New Members / Welcome!'",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 357,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Having gathered / the 5 sacred / relics, holy / power is / bestowed upon / the knight.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 396,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Having gathered / the ancient / king's treasures, / holy power is / bestowed.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 532,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Your arrival / means that you / must have slain / the dark one / Majikim.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 533,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Impressive. When / I saw those / creatures at / Banquo, I felt / only despair.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 552,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Aurora: If you / had heeded my / words, you could / have lived on / happily.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 557,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "For me, this is / the promised / land I searched / for across / countless years.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 558,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Nowhere else / possesses magic / strong enough to / forge weapons / against the / dark ones.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 559,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I never / imagined this / promised land / would also hold / my most / cherished / memories.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 589,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "In the labyrinth / depths, a / corpse-like / undead revealed / itself.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 591,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I have lived / an eternal life, / slaying all, / yet feel neither / joy nor regret.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 593,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Reflecting on / countless / experiences, / I grew more / certain.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 596,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I destroyed the / lives the gods / cherish, and / breathed new / life into them.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 603,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "That was exactly / like the tales / of the great / King Ortrud / I heard as / a child.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 605,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "overcoming all / hardship, / fighting against / overwhelming / evil -- Venoa's / light.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 606,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I feel as though / I've been taught / the true / meaning of / being a / warrior.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 607,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Can one rise / and fight for / others even / when broken and / facing death?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 609,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I still have far / to go! Someday, / I hope to face / death with such / courage!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 611,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "After the battle / in Gilten, I / watched him / return with his / comrades.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 613,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "But if his / people perished / and the peace he / fought for was / all a lie!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 615,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Yet he kept / searching for a / way to slay / the dark ones / all this time!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 618,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "As long as / Ortrud is in / Duhan, even if / the Demon King / allied with / the world, we / would not fear.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 621,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Surely someone / is watching. Even / if no one sees, / God knows what / we do.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 622,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "What purpose do / we, God's / servants, have / if we cannot / serve those / people's eyes?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 627,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If Ortrud knew / about the dark / ones, why didn't / he tell / everyone?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 628,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "If the nation / united, couldn't / they have found / a way to / defeat them?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 631,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "some would / surely try to / use this as / a chance to / wage war.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 632,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Thinking about / it, people / are just as / formidable as / the dark ones.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1211,
+  "gi": 633,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Bearing this / burden alone / for 25 years / must have been / heartbreaking.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1349,
+  "gi": 4,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "When the orc battle ended / and you caught your breath, / the shopkeeper came rushing back.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1349,
+  "gi": 7,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "You wouldn't wake up, / so we left you behind / and evacuated!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1349,
+  "gi": 8,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Man~, glad you're safe! / Come on, take your time / and rest up again!",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1351,
+  "gi": 1,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "You handed Lomi the cloth / bag that you had picked up / on the ninth floor.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1351,
+  "gi": 2,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Strangely enough, the bag / did not fall through / Lomi's hands.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1354,
+  "gi": 20,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "The Rune Knights / of Gilten brought / 7 nations under / their rule in / just 2 years.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1354,
+  "gi": 83,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "I am Lord / Webster, Ferry / Leffort. Grand / chancellor of / this kingdom.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1354,
+  "gi": 86,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Webster: Come, / this way. King / Ortrud awaits. / Tell him about / the strike force.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1354,
+  "gi": 92,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "We must face the / enemy united. / Such incidents / cannot be / ignored.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1354,
+  "gi": 215,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Zel: I received / word that you / encountered / bandits on the / 3rd floor.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1355,
+  "gi": 3,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1355,
+  "gi": 4,
+  "pages": [
+   6
+  ],
+  "worst": 6,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Knight: Or do you have / something that permits / entry into the labyrinth?",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1355,
+  "gi": 7,
+  "pages": [
+   9
+  ],
+  "worst": 9,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": true,
+  "walk_ok": true,
+  "en": "Knight: I don't know / what you're thinking, but / no matter how many times / you come, the answer / is the same.",
+  "n_label": 1,
+  "n_display": 1
+ },
+ {
+  "r": 1355,
+  "gi": 8,
+  "pages": [
+   5
+  ],
+  "worst": 5,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Knight: I cannot let / anyone without clearance / pass through.",
+  "n_label": 0,
+  "n_display": 1
+ },
+ {
+  "r": 1355,
+  "gi": 10,
+  "pages": [
+   7
+  ],
+  "worst": 7,
+  "cls": "DIALOGUE",
+  "jp_pb": false,
+  "label_grp": false,
+  "walk_ok": true,
+  "en": "Knight: I hate to repeat / myself, but I cannot let / anyone without clearance / pass through.",
+  "n_label": 0,
+  "n_display": 1
+ }
+]

@@ -1,0 +1,22 @@
+{
+ "save": "ramdumps/nextbarkeep.p2s",
+ "symptom": "Barkeep first-visit line \"A face I haven't seen before. First time looking for a request here?\" renders in the OLD narrow format: 4 cramped lines (FFFE breaks after \"seen\"/\"time\"/\"request\") instead of the wide full-box dialogue treatment (~3 lines) that barkeepfull.p2s receives.",
+ "root_cause": "The line is R1197, msg_index 4 (it is at batch_01.json ARRAY INDEX 929 -- do NOT confuse with msg_index 929, which is the unrelated Vera line). The dialogue classifier (tools/dialogue_classifier.py) classifies R1197 mi=4 as NARRATION (in build_narration_map, NOT build_dialogue_map), so build_v9.py wraps it at NARRATION_BOX_PX=360 instead of DIALOGUE_BOX_PX=480, producing the narrow 4-line layout. It is NOT in DIALOGUE_FORCE (which contains only (1197,929), the Vera line). This is a SYSTEMATIC classifier false-negative for the entire barkeep intro cutscene: the 0x14 speaker name-islands for the whole scene are front-loaded into groups 1-2 (24 label refs land in group 1, 2 in group 2), so the per-block head test '(first in label_groups) or (first-1 in label_groups)' finds NO name island heading the DISPLAY blocks of groups 4,5,6,7,8-12,13 -- they ALL classify as narration even though they are barkeep/Gin spoken dialogue shown with a 'Barkeep' name plate.",
+ "evidence": [
+  "RAM glyph stream at VA 0x11cf818 (BE cells, char-32 in high byte) decodes the line with FFFE newline codes after 'seen' (0x11cf842), 'time' (0x11cf868), 'request' (0x11cf894) -- exactly the 360px 4-line wrap.",
+  "Screenshot shows 'Barkeep' speaker name above the box => boxed dialogue, not narration.",
+  "Source data/type2_translated/batch_01.json[929] = resource:1197, msg_index:4, english:'A face I haven't / seen before. First / time looking for / a request here?', japanese:'おたくは見かけない顔だな。うちで一事を素すのは初めてなんじゃないのか？' (barkeep spoken line).",
+  "Classifier replay: build_dialogue_map(1197) does NOT contain mi4; build_narration_map(1197) DOES contain mi4. R1197 mi4 DISPLAY block off=295 cnt=66 covers groups [4,5], first=4, headed=False, n_label=0.",
+  "Section-1 structure: 0x14 label islands land only in groups 1,2,15,44,59... (NONE at 3/4/5/6); whole barkeep intro groups 4,5,6,7,8-12,13 all classify N (narration).",
+  "Wrap math (standalone glyph_metrics reproduction): 360px -> 4 lines [304,257,303,82]px; 480px -> 3 lines [416,457,82]px. The RAM FFFE break points match the 360px output exactly.",
+  "Save verified v122: 0x308328=08000424 (P23 li a0,8), 0x308CB0=12004224 (P22), 0x308040=80591308 (P19)."
+ ],
+ "affected_code": [
+  "build/build_v9.py:505 DIALOGUE_FORCE = {(1197, 929)} (does not include (1197,4))",
+  "build/build_v9.py:603-610 dialogue(480)/narration(360) routing decision",
+  "tools/dialogue_classifier.py:81 head test (first in label_groups) or (first-1 in label_groups) -- misses front-loaded name-island cutscenes",
+  "data/type2_translated/batch_01.json array index 929 = resource 1197, msg_index 4"
+ ],
+ "fix_hypothesis": "Scoped/lowest-risk (matches the existing DIALOGUE_FORCE pattern): add the mis-routed barkeep-intro groups to DIALOGUE_FORCE -- (1197,4),(1197,5),(1197,6),(1197,7),(1197,8),(1197,13) (the body-block-before-name spoken groups in that cutscene) -- re-routing them to the 480px wide-box dialogue wrap. Corpus-wide/better: fix the classifier head test to recognize a SCENE-LEVEL name-island region (a DISPLAY block whose covered groups belong to a scene whose label table contains 0x14 name islands, not just the immediately-preceding group), gated to not regress the validated R1196 g569/g575/g616 narration cases in dialogue_classifier.py:167-182. The corpus pass must enumerate every DISPLAY block that is spoken-by-named-character but whose name island is front-loaded, and route them to 480px. This is a build-side wrap-routing fix only; no EXE/renderer change is needed for THIS bug (the off-left/overlap renderer bugs are separate). Note the temp dump copies I made (build/_nb_ee.bin, build/_nb_gs.bin, build/_nextbarkeep_shot.png) were deleted after analysis.",
+ "confidence": "high"
+}

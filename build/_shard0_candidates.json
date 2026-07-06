@@ -1,0 +1,20 @@
+[
+ {
+  "file": "data/type2_translated/batch_r39_equip_b.json",
+  "key": "R39_M483",
+  "en": "User's Intelligence increased.\nSP activated.",
+  "jp_len": 15,
+  "en_len": 44,
+  "longest": 30,
+  "reason": "bloat_short_jp"
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M392",
+  "en": "Whose fortune shall I read?",
+  "jp_len": 12,
+  "en_len": 27,
+  "longest": 27,
+  "reason": "prompt_longline"
+ }
+]

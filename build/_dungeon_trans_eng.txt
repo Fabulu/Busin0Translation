@@ -1,0 +1,67 @@
+R690 mi=50 jplen=6801 ENG=[LAYOUT] Equipment screen layout / grid positions
+R712 mi=0 jplen=449 ENG=[LAYOUT] Menu template / grid positions
+R715 mi=0 jplen=9964 ENG=[DATA] Character info layout / coordinates table
+R715 mi=12 jplen=11295 ENG=[DATA] Character info layout / coordinates table
+R726 mi=6 jplen=79 ENG=[DATA] Column layout data
+R741 mi=0 jplen=10946 ENG=[DATA] Battle UI layout / coordinates table
+R741 mi=211 jplen=18388 ENG=[DATA] Battle UI layout / coordinates table
+R750 mi=8 jplen=868 ENG=[DATA] UI element data
+R757 mi=0 jplen=8039 ENG=[DATA] Skill screen layout / coordinates table
+R769 mi=0 jplen=9436 ENG=[DATA] Inventory screen layout / coordinates table
+R769 mi=105 jplen=11618 ENG=[DATA] Inventory screen layout / coordinates table
+R769 mi=119 jplen=11618 ENG=[DATA] Inventory screen layout / coordinates table
+R780 mi=0 jplen=679 ENG=[LAYOUT] Menu template / grid positions
+R785 mi=181 jplen=216 ENG=[DATA] UI control data / coordinates table
+R787 mi=70 jplen=346 ENG=[DATA] UI control data / coordinates table
+R787 mi=176 jplen=273 ENG=[DATA] UI control data / coordinates table
+R793 mi=0 jplen=11720 ENG=[DATA] Status screen layout / coordinates table
+R793 mi=60 jplen=11942 ENG=[DATA] Status screen layout / coordinates table
+R793 mi=67 jplen=11942 ENG=[DATA] Status screen layout / coordinates table
+R795 mi=0 jplen=11720 ENG=[DATA] Status screen layout / coordinates table
+R795 mi=60 jplen=11942 ENG=[DATA] Status screen layout / coordinates table
+R795 mi=67 jplen=11942 ENG=[DATA] Status screen layout / coordinates table
+R797 mi=0 jplen=11724 ENG=[DATA] Status screen layout / coordinates table
+R797 mi=65 jplen=11942 ENG=[DATA] Status screen layout / coordinates table
+R799 mi=0 jplen=9445 ENG=[DATA] Inventory screen layout / coordinates table
+R799 mi=105 jplen=11618 ENG=[DATA] Inventory screen layout / coordinates table
+R799 mi=119 jplen=11618 ENG=[DATA] Inventory screen layout / coordinates table
+R801 mi=0 jplen=9456 ENG=[DATA] Inventory screen layout / coordinates table
+R801 mi=101 jplen=11618 ENG=[DATA] Inventory screen layout / coordinates table
+R801 mi=115 jplen=11618 ENG=[DATA] Inventory screen layout / coordinates table
+R803 mi=0 jplen=9456 ENG=[DATA] Inventory screen layout / coordinates table
+R803 mi=101 jplen=11618 ENG=[DATA] Inventory screen layout / coordinates table
+R803 mi=115 jplen=11618 ENG=[DATA] Inventory screen layout / coordinates table
+R816 mi=261 jplen=43 ENG=[GLYPH TEST] n gu kai mu / fuku su ro ri mu yo / yo wa yu n ro gu / yo go re gu kai / shuu kai su ro yu / mu ro ne [XXXX
+R837 mi=0 jplen=10946 ENG=[DATA] Battle UI layout / coordinates table
+R837 mi=211 jplen=18388 ENG=[DATA] Battle UI layout / coordinates table
+R839 mi=0 jplen=10946 ENG=[DATA] Battle UI layout / coordinates table
+R839 mi=211 jplen=18388 ENG=[DATA] Battle UI layout / coordinates table
+R852 mi=1 jplen=439 ENG=[DATA] Menu template
+R860 mi=0 jplen=679 ENG=[LAYOUT] Menu template / grid positions
+R862 mi=0 jplen=679 ENG=[LAYOUT] Menu template / grid positions
+R864 mi=0 jplen=679 ENG=[LAYOUT] Menu template / grid positions
+R866 mi=0 jplen=679 ENG=[LAYOUT] Menu template / grid positions
+R868 mi=0 jplen=679 ENG=[LAYOUT] Menu template / grid positions
+R870 mi=16 jplen=18867 ENG=[LAYOUT] System data / grid positions
+R870 mi=22 jplen=43 ENG=[SYSTEM] Menu / label indices
+R870 mi=209 jplen=25 ENG=[SYSTEM] Ability / Map / Area / Submit / Quick
+R870 mi=243 jplen=20 ENG=[SYSTEM] Message / Medal / Data / Error
+R870 mi=275 jplen=25 ENG=[SYSTEM] Index / Sort / Message / Menu
+R870 mi=307 jplen=25 ENG=[SYSTEM] Index / Sort / Message / Menu
+R871 mi=0 jplen=11725 ENG=[DATA] Status screen layout / coordinates table
+R871 mi=69 jplen=11942 ENG=[DATA] Status screen layout / coordinates table
+R873 mi=0 jplen=12447 ENG=[DATA] Character screen layout / coordinates table
+R873 mi=81 jplen=12663 ENG=[DATA] Character screen layout / coordinates table
+R875 mi=0 jplen=12449 ENG=[DATA] Character screen layout / coordinates table
+R875 mi=75 jplen=12668 ENG=[DATA] Character screen layout / coordinates table
+R877 mi=0 jplen=12449 ENG=[DATA] Character screen layout / coordinates table
+R877 mi=75 jplen=12668 ENG=[DATA] Character screen layout / coordinates table
+R879 mi=0 jplen=12449 ENG=[DATA] Character screen layout / coordinates table
+R879 mi=75 jplen=12668 ENG=[DATA] Character screen layout / coordinates table
+R881 mi=0 jplen=12449 ENG=[DATA] Character screen layout / coordinates table
+R881 mi=75 jplen=12668 ENG=[DATA] Character screen layout / coordinates table
+R883 mi=0 jplen=12449 ENG=[DATA] Character screen layout / coordinates table
+R883 mi=75 jplen=12668 ENG=[DATA] Character screen layout / coordinates table
+R885 mi=0 jplen=12449 ENG=[DATA] Character screen layout / coordinates table
+R885 mi=75 jplen=12668 ENG=[DATA] Character screen layout / coordinates table
+R889 mi=33 jplen=98 ENG=[SYSTEM] Annihilate / flags data

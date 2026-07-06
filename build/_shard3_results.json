@@ -1,0 +1,597 @@
+[
+ {
+  "resource": 912,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "94 nonempty groups"
+ },
+ {
+  "resource": 913,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "13 nonempty groups"
+ },
+ {
+  "resource": 914,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "559 nonempty groups"
+ },
+ {
+  "resource": 915,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "7 nonempty groups"
+ },
+ {
+  "resource": 916,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "83 nonempty groups"
+ },
+ {
+  "resource": 918,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "26 nonempty groups"
+ },
+ {
+  "resource": 922,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 923,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "3 nonempty groups"
+ },
+ {
+  "resource": 924,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "4 nonempty groups"
+ },
+ {
+  "resource": 925,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "5 nonempty groups"
+ },
+ {
+  "resource": 926,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 928,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 930,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 931,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "3 nonempty groups"
+ },
+ {
+  "resource": 1054,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1055,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1056,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1473 nonempty groups"
+ },
+ {
+  "resource": 1058,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "595 nonempty groups"
+ },
+ {
+  "resource": 1059,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1060,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "8 nonempty groups"
+ },
+ {
+  "resource": 1062,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "10 nonempty groups"
+ },
+ {
+  "resource": 1063,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "3 nonempty groups"
+ },
+ {
+  "resource": 1064,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "137 nonempty groups"
+ },
+ {
+  "resource": 1065,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "6 nonempty groups"
+ },
+ {
+  "resource": 1066,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "5 nonempty groups"
+ },
+ {
+  "resource": 1067,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1068,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "132 nonempty groups"
+ },
+ {
+  "resource": 1069,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1070,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "42 nonempty groups"
+ },
+ {
+  "resource": 1071,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1074,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "292 nonempty groups"
+ },
+ {
+  "resource": 1076,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "193 nonempty groups"
+ },
+ {
+  "resource": 1078,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "861 nonempty groups"
+ },
+ {
+  "resource": 1079,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1080,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "14 nonempty groups"
+ },
+ {
+  "resource": 1082,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "352 nonempty groups"
+ },
+ {
+  "resource": 1085,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1086,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "96 nonempty groups"
+ },
+ {
+  "resource": 1087,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1088,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "61 nonempty groups"
+ },
+ {
+  "resource": 1089,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1090,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1720 nonempty groups"
+ },
+ {
+  "resource": 1092,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "44 nonempty groups"
+ },
+ {
+  "resource": 1094,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "193 nonempty groups"
+ },
+ {
+  "resource": 1095,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1096,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "3 nonempty groups"
+ },
+ {
+  "resource": 1100,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "5 nonempty groups"
+ },
+ {
+  "resource": 1103,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1106,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "506 nonempty groups"
+ },
+ {
+  "resource": 1107,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1108,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "191 nonempty groups"
+ },
+ {
+  "resource": 1116,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "84 nonempty groups"
+ },
+ {
+  "resource": 1117,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "12 nonempty groups"
+ },
+ {
+  "resource": 1118,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "75 nonempty groups"
+ },
+ {
+  "resource": 1120,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "650 nonempty groups"
+ },
+ {
+  "resource": 1124,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "5 nonempty groups"
+ },
+ {
+  "resource": 1126,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "964 nonempty groups"
+ },
+ {
+  "resource": 1127,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1128,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "676 nonempty groups"
+ },
+ {
+  "resource": 1132,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "7 nonempty groups"
+ },
+ {
+  "resource": 1134,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1181 nonempty groups"
+ },
+ {
+  "resource": 1137,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "2 nonempty groups"
+ },
+ {
+  "resource": 1142,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "872 nonempty groups"
+ },
+ {
+  "resource": 1148,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1213 nonempty groups"
+ },
+ {
+  "resource": 1152,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "38 nonempty groups"
+ },
+ {
+  "resource": 1154,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "5 nonempty groups"
+ },
+ {
+  "resource": 1156,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1157,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1158,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1159,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1162,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1187,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "19 nonempty groups"
+ },
+ {
+  "resource": 1189,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1192,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "87 nonempty groups"
+ },
+ {
+  "resource": 1195,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1214,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1358,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1359,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1360,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1361,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1362,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1363,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1365,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1366,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ },
+ {
+  "resource": 1367,
+  "kind": "binary",
+  "dialogueMsgCount": 0,
+  "sample": "",
+  "notes": "1 nonempty groups"
+ }
+]

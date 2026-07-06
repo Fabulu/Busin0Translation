@@ -112,18 +112,13 @@ def leftshift_table_95():
 
 
 def adv2_table_256():
-    """256-byte R2100 advance table (ADV2, legacy 256-byte layout).
+    """256-byte R2100 advance table (ADV2, Patches 26/27).
 
-    idx 0..94 = ADV2; the 95..255 tail stays 0x12 — byte-identical to the
-    canonical table's tail, so non-ASCII glyphs (kanji low-byte reads through
-    P27's unguarded `lbu -1(s2)`) keep the exact pre-v158 advance behaviour.
-
-    NOTE (v170 dead-.text relocation): the EXE no longer installs this 256-byte
-    table.  Patches 26/27/29/31 now read the RELOCATED 95-byte table
-    adv2_table_95() at ADV2_VA=0x4AF338 (dead libgraph trailing pad, below the
-    arena, dump-verified-zero) and reconstruct the 0x12 tail from their own
-    gid>=95 guards.  This 256-byte builder is retained only for the static
-    layout test (test_r2100_metrics_source T3).
+    idx 0..94 = ADV2; the 95..255 tail stays 0x12.  v158 installs the full 256B
+    at VA 0x4B1000 in the arena-start hole (HIGH-RISK in-arena placement forced
+    back by the battle softlock; the RANK-2 deep location 0x4C785F stalled the
+    monster-asset DMA, and below-arena has 0 free bytes).  test_r2100_metrics_source
+    T3 pins the 256B layout.
     """
     t = bytearray([0x12]) * 256
     for i, a in enumerate(ADV2):
@@ -132,41 +127,17 @@ def adv2_table_256():
 
 
 def leftshift2_table_256():
-    """256-byte R2100 left-shift table (LSH2, legacy 256-byte layout).
+    """256-byte R2100 left-shift table (LSH2, Patches 29/31).
 
-    idx 0..94 = LEFTSHIFT2; tail 95..255 = 0 (non-ASCII subtracts nothing),
-    matching the canonical table's zero tail.
-
-    NOTE (v170 dead-.text relocation): the EXE no longer installs this 256-byte
-    table.  Patches 26/27/29/31 now read the RELOCATED 95-byte table
-    leftshift2_table_95() at LSH2_VA=0x4AF398 and reconstruct the zero tail from
-    their own gid>=95 guards.  Retained only for the static layout test.
+    idx 0..94 = LEFTSHIFT2; tail 95..255 = 0.  v158 installs the full 256B at
+    VA 0x4B1100 (contiguous after ADV2 @0x4B1000, in the arena-start hole --
+    HIGH-RISK in-arena placement forced back by the battle softlock).  This
+    generator returns the full 256B; patch_exe installs all 256B.
     """
     t = bytearray(256)
     for i, s in enumerate(LEFTSHIFT2):
         t[i] = s & 0xFF
     return bytes(t)
-
-
-def adv2_table_95():
-    """95-byte R2100 advance table (gid 0..94 only) for the RELOCATED cave.
-
-    Patches 26/27/29/31 carry their OWN gid>=95 ASCII guard (ADV2 tail default
-    0x12), so this table needs only the 95 real ASCII slots — the old 256-byte
-    0x12 tail is reproduced by the caves' guards, byte-for-byte.  Installed at
-    ADV2_VA=0x4AF338 (dead libgraph trailing pad, below the arena).
-    """
-    return bytes((a & 0xFF) for a in ADV2)
-
-
-def leftshift2_table_95():
-    """95-byte R2100 left-shift table (gid 0..94 only) for the RELOCATED cave.
-
-    The relocated caves guard gid>=95 -> default LEFTSHIFT2 0 (subtract nothing),
-    matching the old 256-byte table's zero tail exactly.  Installed at
-    LSH2_VA=0x4AF398.
-    """
-    return bytes((s & 0xFF) for s in LEFTSHIFT2)
 
 
 def px_width2(s, enc):

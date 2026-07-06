@@ -1,0 +1,762 @@
+[
+ {
+  "file": "data/translate_chunks/chunk_04_translated.json",
+  "key": "R40_M1",
+  "en": "Welcome, adventurer. /   /   /",
+  "jp": "ようこそ、冒険者よ  /   /   / ",
+  "jp_len": 9,
+  "en_len": 30
+ },
+ {
+  "file": "data/translate_chunks/chunk_04_translated.json",
+  "key": "R40_M29",
+  "en": "Delete this ally? / Are you sure? /",
+  "jp": "仲間に削除して / よろしいですか？ / ",
+  "jp_len": 15,
+  "en_len": 35
+ },
+ {
+  "file": "data/translate_chunks/chunk_04_translated.json",
+  "key": "R41_M1",
+  "en": "Salem Church. What / business brings you / here? /",
+  "jp": "ここはサレム教会。 / ！何用な方が / 一体どんな消息で？ / ",
+  "jp_len": 24,
+  "en_len": 50
+ },
+ {
+  "file": "data/translate_chunks/chunk_04_translated.json",
+  "key": "R41_M2",
+  "en": "Welcome to Salem / Church. It seems you / need divine aid. /",
+  "jp": "サレム教会へようこそ。 / おや、■手の助けが / 必要なようですな。 / ",
+  "jp_len": 29,
+  "en_len": 60
+ },
+ {
+  "file": "data/translate_chunks/chunk_04_translated.json",
+  "key": "R42_M1",
+  "en": "Welcome to the Inn. / A place to rest / and regain strength. /",
+  "jp": "冒険者の宿へようこそ。 / ここは心身を休め、 / また新たな力を下る場所。 / ",
+  "jp_len": 32,
+  "en_len": 62
+ },
+ {
+  "file": "data/translate_chunks/chunk_04_translated.json",
+  "key": "R42_M2",
+  "en": "Welcome to the Inn. / It seems someone can / level up. /",
+  "jp": "冒険者の宿へようこそ。 / おや、レベルアップ / される方がおられますね。 / ",
+  "jp_len": 32,
+  "en_len": 56
+ },
+ {
+  "file": "data/translate_chunks/chunk_04_translated.json",
+  "key": "R42_M5",
+  "en": "Would you like / to stay? /   /",
+  "jp": "お泊りに / なられますか？ /   / ",
+  "jp_len": 11,
+  "en_len": 31
+ },
+ {
+  "file": "data/translate_chunks/chunk_04_translated.json",
+  "key": "R42_M7",
+  "en": "Oh, not enough gold / it seems. / Please come again. /",
+  "jp": "あら、お金が足りない / ようですね。 / またお越しください。 / ",
+  "jp_len": 26,
+  "en_len": 54
+ },
+ {
+  "file": "data/translate_chunks/chunk_07_translated.json",
+  "key": "R46_M4",
+  "en": "Vigger Shop seeks / part-time workers! / All are welcome! /",
+  "jp": "ヴィガー商店では、すみこみで / はたらける[SPEAKER:アルバイト]をさがしてます  /   / 冒険者にかぎらず色んな人に / 見てもらいたいので、依頼ではなく / 掲鉄板でお知らせしています  / ",
+  "jp_len": 73,
+  "en_len": 59
+ },
+ {
+  "file": "data/translate_chunks/chunk_07_translated.json",
+  "key": "R46_M6",
+  "en": "Friendly orcs are / welcome! We have 3 / already. Join us! /",
+  "jp": "街と人壁になじめる心並しい / オークでしたらいいですよ  /   / うちでは３びきのオークがいますし / 同じ種族同士、たのしく仲良く / やっていけると思います  / ",
+  "jp_len": 66,
+  "en_len": 60
+ },
+ {
+  "file": "data/translate_chunks/chunk_r43_fix.json",
+  "key": "R43_M9",
+  "en": "Argh! / You're too good, / bad for business! /",
+  "jp": "トホホ！、 / アンタにやられちゃ / 商売あがったりだぜ。 / ",
+  "jp_len": 24,
+  "en_len": 46
+ },
+ {
+  "file": "data/translate_chunks/chunk_r43_fix.json",
+  "key": "R43_M22",
+  "en": "Sort your stuff / then come back. /   /",
+  "jp": "持ち士を整理してから / 来てくれよ。 /   / ",
+  "jp_len": 16,
+  "en_len": 39
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1199_M61",
+  "en": "Well then, farewell. / Please take them / with you.",
+  "jp": "それでは民却だ。彼女を支れていってくれたまえ。",
+  "jp_len": 23,
+  "en_len": 51
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1199_M98",
+  "en": "What do you think? / Like something from / a fairy tale.",
+  "jp": "どう思う？まるで、損のごとき武器ではないか ",
+  "jp_len": 21,
+  "en_len": 56
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1199_M101",
+  "en": "I have business / to attend to, but / do share any news.",
+  "jp": "余は、話毒があって出かけるが、何か必[0409]なことがあったら、ぜひ[0439]毒してくれたまえ。",
+  "jp_len": 38,
+  "en_len": 56
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1199_M106",
+  "en": "Clerk: Do you have / the materials? / Pixie: Materials? / What do I need? / Clerk: For Kreta, / two demon bloods!",
+  "jp": "跡美イで！でで！でしたら、あの！合封に必[0409]な議著はお持ちいただけましたか？ゴピクシーイ合封？ 議著？？何よ、何がいるってのよ ゴ跡美イクレタでしたら！その！向魔の血を２つとか！ゴ",
+  "jp_len": 86,
+  "en_len": 113
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1199_M233",
+  "en": "Well then, / farewell!",
+  "jp": "それでは、ごきげんよう ",
+  "jp_len": 11,
+  "en_len": 22
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1200_M141",
+  "en": "Are you ready? / Yes / No",
+  "jp": "[056B][046D]はよろしいですか？は いいいえ",
+  "jp_len": 14,
+  "en_len": 25
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1200_M152",
+  "en": "'What is it?' / 'Quiet please!' / 'What happened?' / 'I can't see!'",
+  "jp": "イなんだ、なんだ一[02A1]ゴ  イ鎧かにして能しいわゴ イ何があったの？ゴ  イちょっと、見えない ゴ",
+  "jp_len": 41,
+  "en_len": 67
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1200_M191",
+  "en": "O Leader, / Leader please / we beg you / please come back / don't abandon us / please return",
+  "jp": "a[0048]ー       リーダー リーダーよm[0059]リーダーたのむよおねがいします   ぼくらを    −みすてないでください −かえってきてください",
+  "jp_len": 51,
+  "en_len": 92
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1200_M225",
+  "en": "If you or your / companions are / injured or die, / please come again.",
+  "jp": "では、あなた今もまた[02A1]を[0340]ったり、[028E]んでしまった時は[0564]更ともお性しください。",
+  "jp_len": 34,
+  "en_len": 70
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1200_M226",
+  "en": "I'm counting on / you! Farewell!",
+  "jp": "頼みましたよ それでは、汝[0368]します！。",
+  "jp_len": 17,
+  "en_len": 32
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1200_M239",
+  "en": "Now, I am busy, / and your help is no / longer needed. / Farewell.",
+  "jp": "では、余は[01B7]しいですからあなた今の影力はもう[0463]色ですし、汝[0368]します。",
+  "jp_len": 31,
+  "en_len": 66
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1201_M1",
+  "en": "Waitress: Welcome, / dear guest.",
+  "jp": "店社の女放コンデいらっしゃいませ、お落[01BC]  ",
+  "jp_len": 19,
+  "en_len": 32
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1201_M34",
+  "en": "I was looking for / companions.",
+  "jp": "退嫌を素しに行っておったのだ。",
+  "jp_len": 15,
+  "en_len": 31
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1201_M45",
+  "en": "Would you please / accept him as / your companion?",
+  "jp": "どうか[0362]携目してくださいませんか、コンデ[01BC]を[0362]退嫌にすると。",
+  "jp_len": 27,
+  "en_len": 50
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1201_M66",
+  "en": "Girl A: A new / person came! / Girl B: What are / they like? Nice? / Girl A: An outsider? / Girl B: Let's go see!",
+  "jp": "少女aイ新しい者が帰たみたいゴ少女bイどんな感じ？ [0143]そう？ゴ少女aイ働いに出た者かしら？ゴ少女bイ行ってみましょう ゴ",
+  "jp_len": 53,
+  "en_len": 113
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1201_M91",
+  "en": "Well, we have / business to attend / to. See you around / sometime.",
+  "jp": "それじゃ、あたし達毒事があるからこれで汝[0368]するけど、またどこかで会いましょう。",
+  "jp_len": 38,
+  "en_len": 67
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1201_M127",
+  "en": "'Not staying? Then / please come again.'",
+  "jp": "イお正りにならないのですね？では、また[0362][0439]毒くださいゴ",
+  "jp_len": 25,
+  "en_len": 40
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1201_M146",
+  "en": "Now then, I shall / set out on my / journey with this / sword. Farewell, / adventurer.",
+  "jp": "では、[06D3]者は早[044E]この[032F]を持って[0481]行に出かけるとする。さらば、騎騎者よ。",
+  "jp_len": 31,
+  "en_len": 86
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1201_M167",
+  "en": "Now then, I bid / you farewell.",
+  "jp": "では、[06D3]者はこれにて汝[0368]する。",
+  "jp_len": 13,
+  "en_len": 31
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M45",
+  "en": "W-W-Welcome! / Welcome to the / Vigger Shop!",
+  "jp": "よ！よよ、よーこそ  よーこそ ビガーしょうてんへよーこそ ",
+  "jp_len": 26,
+  "en_len": 44
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M75",
+  "en": "What's your job? / Tell / Don't tell",
+  "jp": "ごしょくぎょうは！？役える 役えない",
+  "jp_len": 17,
+  "en_len": 36
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M85",
+  "en": "Why do you want to work here? / Tell / Don't tell",
+  "jp": "ここで、はたらこうとおもったりゆうはなんですか！？[0190]器を言う  [0190]器を言わない",
+  "jp_len": 35,
+  "en_len": 49
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M88",
+  "en": "So that's that. / Come back again / sometime!",
+  "jp": "じゃ、そういうことだからまたこんど、きてくでな ",
+  "jp_len": 23,
+  "en_len": 45
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M152",
+  "en": "You're a [class], / right? Looking for / work here!",
+  "jp": "をやってる、だなっ ワケあってしゅうしょくきぼう ",
+  "jp_len": 23,
+  "en_len": 51
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M157",
+  "en": "Come back then!",
+  "jp": "そしたらまたきてくで ",
+  "jp_len": 10,
+  "en_len": 15
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M174",
+  "en": "Come back then!",
+  "jp": "そしたらまたきてくで ",
+  "jp_len": 10,
+  "en_len": 15
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M185",
+  "en": "Come back then!",
+  "jp": "そしたらまたきてくで ",
+  "jp_len": 10,
+  "en_len": 15
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M210",
+  "en": "Lucy: Oh no! / What do I do?!",
+  "jp": "ルーシーイあぁ！どうしよう！ゴ",
+  "jp_len": 15,
+  "en_len": 29
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M214",
+  "en": "Business booming / is great, but / workers are hard / to find!",
+  "jp": "店が重[016C]するのは[02F2]しいけど傷き力はなかなか追えないから崩ったもんだわ！。",
+  "jp_len": 34,
+  "en_len": 62
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "key": "R1202_M231",
+  "en": "As expected of / the Vigger Shop's / business leader!",
+  "jp": "さっすが、ヴィガー商店の員[0508][05AA]対リーダー ",
+  "jp_len": 18,
+  "en_len": 53
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M123",
+  "en": "Business with / Master Ingo.",
+  "jp": "！ふ～ん、テメェはそれでインゴ[0622]何に毒があるってワケだな。",
+  "jp_len": 28,
+  "en_len": 28
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M134",
+  "en": "No business? / Get out!",
+  "jp": "毒事がないなら出て行けよ ",
+  "jp_len": 12,
+  "en_len": 23
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M209",
+  "en": "What do you / desire!?",
+  "jp": "ウェズベル！わしは知りたいのじゃ。お両が、何を強んでいるのかを。",
+  "jp_len": 32,
+  "en_len": 22
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M210",
+  "en": "Immortal power / -- what do you / seek?",
+  "jp": "大[028E]の[01BA]を持ち、絶兜なる魔主に通じたお両がいったい何を能しているのかとな。",
+  "jp_len": 35,
+  "en_len": 39
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M221",
+  "en": "What do you / desire!?",
+  "jp": "さあ、役えてくれぬか？お両は何を強み、何を素している？",
+  "jp_len": 27,
+  "en_len": 22
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M258",
+  "en": "No town welcomes / Papacy.",
+  "jp": "だからどこの息でも法王庁の団入を[0380]まぬのだ。",
+  "jp_len": 21,
+  "en_len": 26
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M292",
+  "en": "'Open! Members / Welcome!'",
+  "jp": "飽[03CE]で以られたカウンターにはイ[0454]し物会場 オープン[01BF]大 ヴィガーフレンズ新[040D]会社取得 ゴと金かれた新却が低まれている。",
+  "jp_len": 52,
+  "en_len": 26
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M459",
+  "en": "Imp: Welcome!",
+  "jp": "イムプはいはい、いらっしゃい ",
+  "jp_len": 14,
+  "en_len": 13
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M463",
+  "en": "Come again!",
+  "jp": "[0564]更、帰てくださいよ ",
+  "jp_len": 9,
+  "en_len": 11
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M470",
+  "en": "What'll it be?",
+  "jp": "ういっス、バッチリっスね じゃあ、どうしやしょう？",
+  "jp_len": 24,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M498",
+  "en": "Come again!",
+  "jp": "な～んだ退大 じゃあまた帰てください ",
+  "jp_len": 17,
+  "en_len": 11
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M564",
+  "en": "What'll it be?",
+  "jp": "さあ、なんにするんだ？",
+  "jp_len": 11,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M568",
+  "en": "What'll it be?",
+  "jp": "さあ、なんにするんだ？",
+  "jp_len": 11,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M648",
+  "en": "Come back!",
+  "jp": "どうだ、命加したかね？また[0509]期して能しくなったらここへ帰るといいだろう。",
+  "jp_len": 35,
+  "en_len": 10
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M662",
+  "en": "Good luck / senpai!",
+  "jp": "オダたちがんばりますだよ でわっ、せんぱいもがんばってくだせえ ",
+  "jp_len": 30,
+  "en_len": 19
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1206_M836",
+  "en": "Come back!",
+  "jp": "まあ、値信がついたらまたおいで。内色ここにいるんだからさ。",
+  "jp_len": 29,
+  "en_len": 10
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M30",
+  "en": "Welcome to / Dialanto.",
+  "jp": "ウェブスターようこそ[0375]向の解ディアラントへ。",
+  "jp_len": 21,
+  "en_len": 22
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M292",
+  "en": "'Open! Members / Welcome!'",
+  "jp": "ルーシーヴィガー商店の立店へ[0160]めて板れた。",
+  "jp_len": 20,
+  "en_len": 26
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M392",
+  "en": "Whose fortune shall I read?",
+  "jp": "過を働ってもらいますか？",
+  "jp_len": 12,
+  "en_len": 27
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M459",
+  "en": "Imp: Welcome!",
+  "jp": "御器築主１３はカット ",
+  "jp_len": 10,
+  "en_len": 13
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M463",
+  "en": "Come again!",
+  "jp": "あなたはとても感受放が[0143]いわ。",
+  "jp_len": 14,
+  "en_len": 11
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M470",
+  "en": "What'll it be?",
+  "jp": "今はまだ心築が[058B]っているから辺[0190]だけど、そのうち[0143]祠に腕につけても場放を祠き出せると思うわ。",
+  "jp_len": 43,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M498",
+  "en": "Come again!",
+  "jp": "ナンバー[05FB]選は[01BE]鑑でもポイントが１ポイント魔外ないと参加できないっス。",
+  "jp_len": 33,
+  "en_len": 11
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M557",
+  "en": "Not drawing? / Come back later!",
+  "jp": "[05FB]選しないっスか。じゃあまた[05FB]選やってる地に[04FB]びに帰てくださいよ ",
+  "jp_len": 29,
+  "en_len": 31
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M564",
+  "en": "What'll it be?",
+  "jp": "へへ！[0339][0336]な剣でしょ。",
+  "jp_len": 9,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M568",
+  "en": "What'll it be?",
+  "jp": "ブレイクサイレンスを力に入れた。",
+  "jp_len": 16,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M648",
+  "en": "Come back!",
+  "jp": "おだ！おだ、ちょうさしてただけなんだよう。だのに、だのに、しどいべ！。",
+  "jp_len": 35,
+  "en_len": 10
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M662",
+  "en": "Good luck / senpai!",
+  "jp": "だから、おめえがあいつをやっつけてくでるまで、ここにかくれてるだよ！。",
+  "jp_len": 35,
+  "en_len": 19
+ },
+ {
+  "file": "data/type2_translated/batch_05.json",
+  "key": "R1207_M836",
+  "en": "Come back!",
+  "jp": "イ！なぜ何[01BC]が   生きているんだゴ",
+  "jp_len": 14,
+  "en_len": 10
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M30",
+  "en": "What do you say? / She's somewhere / She's gone",
+  "jp": "なんと[02EC]えますか？どこかにいると言う変したと言う   ",
+  "jp_len": 23,
+  "en_len": 47
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M174",
+  "en": "Welcome back!",
+  "jp": "０１２３４５６７８９−００００００まいどっ え～っと！会社番実のさんっスよね？",
+  "jp_len": 38,
+  "en_len": 13
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M180",
+  "en": "Romi: Welcome! / Fortune?",
+  "jp": "？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？",
+  "jp_len": 36,
+  "en_len": 25
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M295",
+  "en": "Come back later.",
+  "jp": "ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね。",
+  "jp_len": 34,
+  "en_len": 16
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M299",
+  "en": "Come back later.",
+  "jp": "ちょっと[045D][04C9]するから、行の者も働ってほしければしばらくたってから帰てね。",
+  "jp_len": 34,
+  "en_len": 16
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M302",
+  "en": "Imp: Welcome!",
+  "jp": "イムプはいはい、いらっしゃい ",
+  "jp_len": 14,
+  "en_len": 13
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M306",
+  "en": "Come back!",
+  "jp": "[0564]更、帰てくださいよ ",
+  "jp_len": 9,
+  "en_len": 10
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M307",
+  "en": "Member #! Welcome!",
+  "jp": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
+  "jp_len": 49,
+  "en_len": 18
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M341",
+  "en": "Come back!",
+  "jp": "な～んだ退大 じゃあまた帰てください ",
+  "jp_len": 17,
+  "en_len": 10
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M370",
+  "en": "Not drawing? / Come back!",
+  "jp": "[05FB]選しないっスか。じゃあまた[05FB]選やってる地に[04FB]びに帰てくださいよ ",
+  "jp_len": 29,
+  "en_len": 25
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M397",
+  "en": "Welcome to / Medal Shop!",
+  "jp": "オーガおう、いらっしゃい。メダル所へようこそ ",
+  "jp_len": 22,
+  "en_len": 24
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M398",
+  "en": "What'll it be?",
+  "jp": "さあ、なんにするんだ？",
+  "jp_len": 11,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M399",
+  "en": "Welcome to / Medal Shop!",
+  "jp": "おう、いらっしゃい。メダル所へようこそ ",
+  "jp_len": 19,
+  "en_len": 24
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M402",
+  "en": "What'll it be?",
+  "jp": "さあ、なんにするんだ？",
+  "jp_len": 11,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M417",
+  "en": "Anything else?",
+  "jp": "！で、まだ何か毒かい？",
+  "jp_len": 11,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M419",
+  "en": "Anything else?",
+  "jp": "！で、まだ何か毒かい？",
+  "jp_len": 11,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M433",
+  "en": "Anything else?",
+  "jp": "！で、まだ何か毒かい？",
+  "jp_len": 11,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_08.json",
+  "key": "R1212_M435",
+  "en": "Anything else?",
+  "jp": "！で、まだ何か毒かい？",
+  "jp_len": 11,
+  "en_len": 14
+ },
+ {
+  "file": "data/type2_translated/batch_gap1347.json",
+  "key": "R1347_M4",
+  "en": "Shall I tell you / your fortune for today?",
+  "jp": "きょうの、おまえさんのうんせいを / うらなってやろうか？",
+  "jp_len": 26,
+  "en_len": 42
+ },
+ {
+  "file": "data/type2_translated/batch_gap1347.json",
+  "key": "R1347_M6",
+  "en": "Great Misfortune - Misfortune - Good Luck - Fair Luck - Great Luck: // Your fortune for today is .....so it is.",
+  "jp": "だいきょうきょうきちちゅうきちだいきちおまえさんの、きょうのうんせいは / ・・・・・じゃ。",
+  "jp_len": 43,
+  "en_len": 111
+ },
+ {
+  "file": "data/type2_translated/batch_gap1347.json",
+  "key": "R1347_M7",
+  "en": "Farewell.",
+  "jp": "さらばじゃ  ",
+  "jp_len": 5,
+  "en_len": 9
+ },
+ {
+  "file": "data/type2_translated/batch_gap1347.json",
+  "key": "R1351_M4",
+  "en": "This is a memento of / my father and mother. / They gave it to me / as a good luck charm.",
+  "jp": "これはね、お[04F9]さんとお[06CF]さんの / 出い除の品なんだって。 / お内りにって、もらったの。",
+  "jp_len": 37,
+  "en_len": 89
+ },
+ {
+  "file": "data/type2_translated/batch_gap1347.json",
+  "key": "R1351_M22",
+  "en": "Lomi: Well, be sure to / come back for more / fortune-telling. Bye-bye!",
+  "jp": "じゃあ、また働いに帰てね。 / ばいばい、。",
+  "jp_len": 19,
+  "en_len": 71
+ },
+ {
+  "file": "data/type2_translated/batch_r39_equip_b.json",
+  "key": "R39_M415",
+  "en": "Abandoning a request will\nlower your trust rating.\nAre you sure?",
+  "jp": "依頼を紹棄すれば信頼度が下がります。[FFFE]それでもよろしいでしょうか？[FFFE]",
+  "jp_len": 32,
+  "en_len": 64
+ }
+]

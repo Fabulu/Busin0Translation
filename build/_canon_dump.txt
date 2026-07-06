@@ -1,0 +1,1785 @@
+{
+ "\u5192\u967a\u8005\u306e\u5bbf\u5c4b": {
+  "english": "Adventurer's Inn",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 102,
+  "fits": true,
+  "source_of_truth": "SHIPPED data/translations_shop_church.json + guide 'ADVENTURER'S INN' + data/glossary.json"
+ },
+ "\u30b5\u30ec\u30e0\u5bfa\u9662": {
+  "english": "Church of Salem",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 104,
+  "fits": true,
+  "source_of_truth": "guide line 65/1757 'Church of Salem' + data/glossary.json + translations_shop_church.json",
+  "short_alt": {
+   "english": "Salem Church",
+   "measured_px": 88,
+   "fits": true
+  },
+  "note": "dialogue chunk_04 shipped 'Salem Church' \u2014 conflict noted"
+ },
+ "\u932c\u91d1\u8853\u30ae\u30eb\u30c9": {
+  "english": "Alchemy Guild",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 92,
+  "fits": true,
+  "source_of_truth": "guide line 63/2499 + data/glossary.json + shipped r2138 sub26 'Alchemy Guild'"
+ },
+ "\u30f4\u30a3\u30ac\u30fc\u5546\u5e97": {
+  "english": "Vigger Shop",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 78,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_05 'Vigger Shop' + guide line 89 + glossary.json"
+ },
+ "\u9152\u5834 LUNALIGHT": {
+  "english": "Bar Luna Light",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 93,
+  "fits": true,
+  "source_of_truth": "guide line 44/1591 'Bar Luna Light' + glossary.json; JP pixel strip itself contains 'bar LUNA LIGHT' latin (R2147 title)",
+  "note": "guide line 3689 'BAR LUNAR LIGHT' is a guide typo"
+ },
+ "\u5192\u967a\u8005\u30ae\u30eb\u30c9": {
+  "english": "Adventurer's Guild",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 116,
+  "fits": true,
+  "source_of_truth": "guide line 46/2364 + glossary.json"
+ },
+ "\u30ab\u30eb\u30de\u30f3\u306e\u8ff7\u5bae": {
+  "english": "Karman's Labyrinth",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 121,
+  "fits": true,
+  "source_of_truth": "SHIPPED batch_01 'Karman's Labyrinth' + guide p43/line 136 'KARMAN'S LABYRINTH' + glossary.json",
+  "note": "v85 note '\u30ab\u30eb\u30eb\u30de\u30f3' is wrong \u2014 pixel strip (r2124_tex_3x.png) reads \u30ab\u30eb\u30de\u30f3\u306e\u8ff7\u5bae; all shipped text uses Karman"
+ },
+ "\u30c6\u30d0\u30a4\u30fc\u30c9\u306e\u5854": {
+  "english": "Tower of Tebayd",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 103,
+  "fits": true,
+  "source_of_truth": "guide line 37002/37030 'Tower of Tebayd'",
+  "note": "JP pixel strip reads \u30c6\u30d0\u30a4\u30fc\u30c9 (te, not de) \u2014 VERIFIED r2124_tex_3x.png"
+ },
+ "\u5e02\u5e81\u820e\u524d": {
+  "english": "Town Hall Plaza",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 100,
+  "fits": true,
+  "source_of_truth": "SHIPPED batch_r39_equip_b 'Duhan Town Hall' (\u5e02\u5e81\u820e); \u524d=plaza per guide 'plaza in the center of Duhan'",
+  "short_alt": {
+   "english": "Town Hall",
+   "measured_px": 62,
+   "fits": true
+  },
+  "note": "guide body uses lowercase 'city hall'; shipped R39 label wins -> Town Hall"
+ },
+ "\u30d5\u30a9\u30d6\u30fc\u30eb\u5730\u533a": {
+  "english": "Faubourg District",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 109,
+  "fits": true,
+  "source_of_truth": "SHIPPED batch_01 'Faubourg district' + guide 'Faubourg Street unlocked!'"
+ },
+ "\u30dc\u30ed\u30fc\u30e9\u5730\u533a": {
+  "english": "Porola District",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 90,
+  "fits": true,
+  "source_of_truth": "JP pixels read \u30dd\u30ed\u30fc\u30e9 (handakuten, VERIFIED label_R_y050-097 4x crop) + guide line 2120/7954 'Porola Street'",
+  "short_alt": {
+   "english": "Volola District",
+   "measured_px": 89,
+   "fits": true
+  },
+  "note": "CONFLICT: data/glossary.json + guide ToC say 'Volola District'; guide body says 'Porola Street'; pixel JP is \u30dd -> Porola chosen"
+ },
+ "\u30f4\u30a1\u30ec\u30fc\u5730\u533a": {
+  "english": "Vare District",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 77,
+  "fits": true,
+  "source_of_truth": "guide lines 22096/22148/22300 'Vare District' (incl. unlock message)",
+  "short_alt": {
+   "english": "Vallee District",
+   "measured_px": 87,
+   "fits": true
+  },
+  "note": "CONFLICT: shipped batch_01 'Valley Dist.', batch_03 'Vallee district' \u2014 shipped text itself split, guide settles"
+ },
+ "\u30c9\u30a5\u30fc\u30cf\u30f3\u57ce": {
+  "english": "Duhan Castle",
+  "screen": "town_hub(R2124)",
+  "resource": "R2124",
+  "font_size": 13,
+  "max_px": 126,
+  "measured_px": 82,
+  "fits": true,
+  "source_of_truth": "SHIPPED r39 quest text 'Duhan Castle' + guide 'Duhan Castle Event unlocked!'"
+ },
+ "\u7a2e\u65cf": {
+  "english": "Race",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 26,
+  "fits": true,
+  "source_of_truth": "guide 1711-1712 RACE + shipped r2138 sub7 'Race'"
+ },
+ "\u6027\u5225": {
+  "english": "Sex",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 20,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 chargen 'Sex'",
+  "short_alt": {
+   "english": "Gender",
+   "measured_px": 40,
+   "fits": true
+  },
+  "note": "guide says GENDER; on-screen chargen pixels say Sex \u2014 shipped wins"
+ },
+ "\u5c5e\u6027": {
+  "english": "Align",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 28,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 'Align' (guide: ALIGNMENT)"
+ },
+ "\u8077\u696d": {
+  "english": "Class",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 29,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 'Class'"
+ },
+ "\u6027\u683c": {
+  "english": "Trait",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 24,
+  "fits": true,
+  "source_of_truth": "guide 'PERSONALITY (TRAITS)'; menu_labels.csv row 51 'trait'",
+  "short_alt": {
+   "english": "Personality",
+   "measured_px": 59,
+   "fits": false
+  },
+  "note": "'Personality' only fits 72px rects"
+ },
+ "\u653b\u6483\u529b": {
+  "english": "Atk",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 19,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 'Atk' (guide: ATTACK POWER OFE)",
+  "short_alt": {
+   "english": "Attack",
+   "measured_px": 35,
+   "fits": true
+  }
+ },
+ "\u9632\u5fa1\u529b": {
+  "english": "Def",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 18,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 'Def'",
+  "short_alt": {
+   "english": "Defense",
+   "measured_px": 43,
+   "fits": true
+  }
+ },
+ "\u56de\u907f\u529b": {
+  "english": "Eva",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 19,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 'Eva'",
+  "short_alt": {
+   "english": "Evasion",
+   "measured_px": 42,
+   "fits": true
+  }
+ },
+ "\u529b": {
+  "english": "Str",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 16,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 + r2100 'Str'"
+ },
+ "\u77e5\u6075": {
+  "english": "Int",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 14,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 + r2100 'Int'"
+ },
+ "\u4fe1\u4ef0\u5fc3": {
+  "english": "Pie",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 16,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 + r2100 'Pie'",
+  "note": "guide uses FTH \u2014 shipped pixels win"
+ },
+ "\u751f\u547d\u529b": {
+  "english": "Vit",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 14,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 + r2100 'Vit'",
+  "note": "guide uses VIG \u2014 shipped pixels win"
+ },
+ "\u654f\u6377\u5ea6": {
+  "english": "Agi",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 18,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 + r2100 'Agi'"
+ },
+ "\u5e78\u904b\u5ea6": {
+  "english": "Lck",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 20,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 + r2100 'Lck'"
+ },
+ "\u30a2\u30a4\u30c6\u30e0": {
+  "english": "Item",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 56,
+  "measured_px": 23,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 tab 'Item'",
+  "short_alt": {
+   "english": "Items",
+   "measured_px": 29,
+   "fits": true
+  }
+ },
+ "\u8cb4\u91cd\u54c1": {
+  "english": "Quest Items",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 72,
+  "measured_px": 64,
+  "fits": true,
+  "source_of_truth": "guide 1603 'L1 QUEST ITEMS'",
+  "short_alt": {
+   "english": "Key Items",
+   "measured_px": 52,
+   "fits": true
+  }
+ },
+ "\u5408\u6210\u7d20\u6750": {
+  "english": "Materials",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 72,
+  "measured_px": 47,
+  "fits": true,
+  "source_of_truth": "guide 1602 'R1 SYNTHETIC MATERIALS' shortened",
+  "short_alt": {
+   "english": "Synth Mat.",
+   "measured_px": 56,
+   "fits": true
+  }
+ },
+ "\u30b9\u30c6\u30fc\u30bf\u30b9": {
+  "english": "Status",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 60,
+  "measured_px": 34,
+  "fits": true,
+  "source_of_truth": "shipped infer_r40 'Status' + guide STATUS"
+ },
+ "\u9b54\u8853\u5e2b\u9b54\u6cd5": {
+  "english": "Mage Magic",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 72,
+  "measured_px": 62,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 tab 'Mage Magic' (guide: SORCERIES)",
+  "short_alt": {
+   "english": "Sorceries",
+   "measured_px": 49,
+   "fits": true
+  }
+ },
+ "\u50e7\u4fb6\u9b54\u6cd5": {
+  "english": "Prs. Magic",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 72,
+  "measured_px": 54,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 tab 'Prs. Magic' (guide: HOLY MAGIC)",
+  "short_alt": {
+   "english": "Holy Magic",
+   "measured_px": 58,
+   "fits": true
+  }
+ },
+ "\u30ad\u30e3\u30f3\u30d7": {
+  "english": "Camp",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 56,
+  "measured_px": 31,
+  "fits": true,
+  "source_of_truth": "guide 'CAMP MENU' + batch_01 'Camp Menu'"
+ },
+ "\u30b7\u30b9\u30c6\u30e0": {
+  "english": "System",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 60,
+  "measured_px": 39,
+  "fits": true,
+  "source_of_truth": "guide 1598 'SELECT SYSTEM'"
+ },
+ "\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc": {
+  "english": "Library",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 72,
+  "measured_px": 37,
+  "fits": true,
+  "source_of_truth": "SHIPPED batch_01 'Library:' + guide GAME LIBRARY"
+ },
+ "\u30aa\u30fc\u30c0\u30fc": {
+  "english": "Order",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 56,
+  "measured_px": 31,
+  "fits": true,
+  "source_of_truth": "SHIPPED gen_r39_equip_b add(335,'Order') + chunk_05/06 'order(s)'",
+  "short_alt": {
+   "english": "Orders",
+   "measured_px": 36,
+   "fits": true
+  }
+ },
+ "\u5207\u308a\u66ff\u3048": {
+  "english": "Switch",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 56,
+  "measured_px": 36,
+  "fits": true,
+  "source_of_truth": "plain UI term; no prior shipped use",
+  "note": "HYPOTHESIS (no prior art)"
+ },
+ "\u4f9d\u983c": {
+  "english": "Requests",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 56,
+  "measured_px": 50,
+  "fits": true,
+  "source_of_truth": "guide 'REQUESTS' camp-menu entry (line 1629)",
+  "short_alt": {
+   "english": "Request",
+   "measured_px": 44,
+   "fits": true
+  },
+  "note": "gen_r39_equip_b add(336,'Request') singular is a column header; menu list uses plural per guide"
+ },
+ "\u5009\u5eab": {
+  "english": "Storage",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 56,
+  "measured_px": 41,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_06 '\u5009\u5eab=Storage'"
+ },
+ "\u547d\u4e2d\u7387\u4fee\u6b63": {
+  "english": "Accuracy",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 72,
+  "measured_px": 49,
+  "fits": true,
+  "source_of_truth": "lit. 'hit-rate modifier'",
+  "short_alt": {
+   "english": "Hit Mod.",
+   "measured_px": 44,
+   "fits": true
+  },
+  "note": "HYPOTHESIS (no guide/shipped term)"
+ },
+ "\u5909\u5316\u671f\u9650": {
+  "english": "Expires",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 72,
+  "measured_px": 39,
+  "fits": true,
+  "source_of_truth": "lit. 'change deadline' (transforming items)",
+  "short_alt": {
+   "english": "Time Left",
+   "measured_px": 50,
+   "fits": true
+  },
+  "note": "HYPOTHESIS"
+ },
+ "\u5909\u63db\u5024": {
+  "english": "Convert",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 64,
+  "measured_px": 42,
+  "fits": true,
+  "source_of_truth": "lit. 'conversion value' (shown with O/X)",
+  "short_alt": {
+   "english": "Conv.",
+   "measured_px": 31,
+   "fits": true
+  },
+  "note": "HYPOTHESIS"
+ },
+ "\u6f5c\u5728\u80fd\u529b": {
+  "english": "Potential",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 72,
+  "measured_px": 47,
+  "fits": true,
+  "source_of_truth": "guide 1721-1722 \u6f5c\u5728\u80fd\u529b = POTENTIAL ABILITY shortened",
+  "short_alt": {
+   "english": "Pot. Abl.",
+   "measured_px": 45,
+   "fits": true
+  }
+ },
+ "\u8a73\u7d30": {
+  "english": "Details",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 48,
+  "measured_px": 36,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 tab 'Details'"
+ },
+ "\u65e5": {
+  "english": "Day",
+  "screen": "status_screen(R1365)",
+  "resource": "R1365",
+  "font_size": 11,
+  "max_px": 24,
+  "measured_px": 20,
+  "fits": true,
+  "source_of_truth": "calendar unit"
+ },
+ "\u6bd2": {
+  "english": "Poison",
+  "screen": "status_conditions(R1365 brush row)",
+  "resource": "R1365",
+  "font_size": 12,
+  "max_px": 80,
+  "measured_px": 39,
+  "fits": true,
+  "source_of_truth": "guide 1456 'POISONED' / POISON RES"
+ },
+ "\u9ebb\u75fa": {
+  "english": "Paralysis",
+  "screen": "status_conditions(R1365 brush row)",
+  "resource": "R1365",
+  "font_size": 12,
+  "max_px": 80,
+  "measured_px": 54,
+  "fits": true,
+  "source_of_truth": "guide 1456 'PARALYSED' / PARALYSIS RES",
+  "short_alt": {
+   "english": "Paralyzed",
+   "measured_px": 57,
+   "fits": true
+  }
+ },
+ "\u6050\u6016": {
+  "english": "Fear",
+  "screen": "status_conditions(R1365 brush row)",
+  "resource": "R1365",
+  "font_size": 12,
+  "max_px": 80,
+  "measured_px": 26,
+  "fits": true,
+  "source_of_truth": "guide 736 'inflicting FEAR'"
+ },
+ "\u6b7b\u4ea1": {
+  "english": "Dead",
+  "screen": "status_conditions(R1365 brush row)",
+  "resource": "R1365",
+  "font_size": 12,
+  "max_px": 80,
+  "measured_px": 30,
+  "fits": true,
+  "source_of_truth": "Wizardry convention; guide 'dead bodies'",
+  "short_alt": {
+   "english": "Death",
+   "measured_px": 34,
+   "fits": true
+  }
+ },
+ "\u77f3\u5316": {
+  "english": "Stone",
+  "screen": "status_conditions(R1365 brush row)",
+  "resource": "R1365",
+  "font_size": 12,
+  "max_px": 80,
+  "measured_px": 33,
+  "fits": true,
+  "source_of_truth": "guide 'PETRIFIED' / STONE RES",
+  "short_alt": {
+   "english": "Petrified",
+   "measured_px": 48,
+   "fits": true
+  }
+ },
+ "\u7070": {
+  "english": "Ashes",
+  "screen": "status_conditions(R1365 brush row)",
+  "resource": "R1365",
+  "font_size": 12,
+  "max_px": 80,
+  "measured_px": 37,
+  "fits": true,
+  "source_of_truth": "Wizardry convention (ash state)"
+ },
+ "\u6b7b\u795e\u6191\u304d": {
+  "english": "Possessed",
+  "screen": "status_conditions(R1365 brush row)",
+  "resource": "R1365",
+  "font_size": 12,
+  "max_px": 80,
+  "measured_px": 64,
+  "fits": true,
+  "source_of_truth": "guide 1228/3464 'possessed (by the Grim Reaper)'",
+  "short_alt": {
+   "english": "Reaper",
+   "measured_px": 42,
+   "fits": true
+  }
+ },
+ "\u5916\u306b\u51fa\u308b": {
+  "english": "Go Outside",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 63,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub0 'Go Outside'"
+ },
+ "\u4f9d\u983c|tavern_menu(R2147)": {
+  "english": "Requests",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 55,
+  "fits": true,
+  "source_of_truth": "guide 1933 'REQUESTS' tavern menu",
+  "short_alt": {
+   "english": "Request",
+   "measured_px": 48,
+   "fits": true
+  }
+ },
+ "\u738b\u56fd\u63b2\u793a\u677f": {
+  "english": "Message Board",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 90,
+  "fits": true,
+  "source_of_truth": "guide 2611 'MESSAGE BOARD' (citizens' messages)",
+  "short_alt": {
+   "english": "Bulletin Board",
+   "measured_px": 81,
+   "fits": true
+  },
+  "note": "project files call R46/47 'bulletin board' (internal name only, never on screen); guide on-screen term wins"
+ },
+ "\u9054\u6210\u5c65\u6b74": {
+  "english": "Personal Deeds",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 91,
+  "fits": true,
+  "source_of_truth": "guide 2612 'PERSONAL DEEDS' (fulfilled/discarded/failed quests)",
+  "short_alt": {
+   "english": "Deed History",
+   "measured_px": 75,
+   "fits": true
+  }
+ },
+ "\u30c8\u30e9\u30c3\u30d7\u30b2\u30fc\u30e0": {
+  "english": "Trap Game",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 63,
+  "fits": true,
+  "source_of_truth": "SHIPPED batch_01 'Trap Game' + guide TRAP GAME"
+ },
+ "\u7df4\u7fd2": {
+  "english": "Practice",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 48,
+  "fits": true,
+  "source_of_truth": "guide 2630 \u7df4\u7fd2=PRACTICE + shipped chunk_05 'practice'"
+ },
+ "\u30b2\u30fc\u30e0": {
+  "english": "Game",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 34,
+  "fits": true,
+  "source_of_truth": "guide 2638 \u30b2\u4e00\u30e0=GAME"
+ },
+ "\u666f\u54c1\u4ea4\u63db": {
+  "english": "Prize Exchange",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 89,
+  "fits": true,
+  "source_of_truth": "guide 2643 \u8cde\u54c1\u4ea4\u63db='PRIZE EXCHANG[E]'; JP strip here is \u666f\u54c1\u4ea4\u63db",
+  "short_alt": {
+   "english": "Medal Exchange",
+   "measured_px": 94,
+   "fits": true
+  },
+  "note": "guide also uses 'MEDAL EXCHANGE' for same counter \u2014 Prize Exchange matches JP \u666f\u54c1"
+ },
+ "\u9152\u5834 LUNALIGHT|tavern_menu(R2147)": {
+  "english": "Bar Luna Light",
+  "screen": "tavern_menu(R2147)",
+  "resource": "R2147",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 83,
+  "fits": true,
+  "source_of_truth": "title strip; same as town-hub entry",
+  "note": "JP strip already contains latin 'bar LUNA LIGHT'"
+ },
+ "\u5916\u306b\u51fa\u308b|church_menu(R2141)": {
+  "english": "Go Outside",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 63,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub0"
+ },
+ "\u6bd2\u306e\u56de\u5fa9": {
+  "english": "Cure Poison",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 70,
+  "fits": true,
+  "source_of_truth": "guide status terms + Wizardry convention"
+ },
+ "\u9ebb\u75fa\u306e\u56de\u5fa9": {
+  "english": "Cure Paralysis",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 85,
+  "fits": true,
+  "source_of_truth": "guide PARALYSED",
+  "short_alt": {
+   "english": "Cure Palsy",
+   "measured_px": 63,
+   "fits": true
+  }
+ },
+ "\u77f3\u5316\u306e\u56de\u5fa9": {
+  "english": "Cure Petrify",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 69,
+  "fits": true,
+  "source_of_truth": "guide PETRIFIED",
+  "short_alt": {
+   "english": "Cure Stone",
+   "measured_px": 64,
+   "fits": true
+  }
+ },
+ "\u6050\u6016\u306e\u56de\u5fa9": {
+  "english": "Cure Fear",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 57,
+  "fits": true,
+  "source_of_truth": "guide FEAR"
+ },
+ "\u6b7b\u8005\u306e\u8607\u751f": {
+  "english": "Resurrection",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 75,
+  "fits": true,
+  "source_of_truth": "Wizardry convention; guide 'resuscitation/resurrection' (5555,5460ff)",
+  "short_alt": {
+   "english": "Resurrect",
+   "measured_px": 58,
+   "fits": true
+  }
+ },
+ "\u7070\u306e\u8607\u751f": {
+  "english": "Restore Ashes",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 86,
+  "fits": true,
+  "source_of_truth": "Wizardry convention (restore from ashes)",
+  "short_alt": {
+   "english": "Raise Ashes",
+   "measured_px": 73,
+   "fits": true
+  },
+  "note": "HYPOTHESIS naming"
+ },
+ "\u6b7b\u795e\u306e\u6d44\u5316": {
+  "english": "Exorcism",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 55,
+  "fits": true,
+  "source_of_truth": "lit. 'purify the Reaper(-possession)'; guide 'possessed by the Grim Reaper'",
+  "short_alt": {
+   "english": "Purify",
+   "measured_px": 34,
+   "fits": true
+  },
+  "note": "HYPOTHESIS naming"
+ },
+ "\u30b5\u30ec\u30e0\u5bfa\u9662|church_menu(R2141)": {
+  "english": "Church of Salem",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 95,
+  "fits": true,
+  "source_of_truth": "title strip; canonical facility name",
+  "short_alt": {
+   "english": "Salem Church",
+   "measured_px": 81,
+   "fits": true
+  }
+ },
+ "\u5bc4\u4ed8\u91d1": {
+  "english": "Donation",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 51,
+  "fits": true,
+  "source_of_truth": "guide 5555 'donations for the resuscitation'"
+ },
+ "\u5168\u54e1": {
+  "english": "Everyone",
+  "screen": "church_menu(R2141)",
+  "resource": "R2141",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 55,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub25 '\u5168\u54e1=Everyone'"
+ },
+ "\u6cca\u307e\u308b": {
+  "english": "Stay",
+  "screen": "inn_menu(R2144)",
+  "resource": "R2144",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 26,
+  "fits": true,
+  "source_of_truth": "lit. 'stay the night'; guide inn = rest/level up",
+  "short_alt": {
+   "english": "Rest",
+   "measured_px": 27,
+   "fits": true
+  },
+  "note": "HYPOTHESIS wording"
+ },
+ "\u5192\u967a\u8005\u306e\u5bbf\u5c4b|inn_menu(R2144)": {
+  "english": "Adventurer's Inn",
+  "screen": "inn_menu(R2144)",
+  "resource": "R2144",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 95,
+  "fits": true,
+  "source_of_truth": "same as town-hub canonical"
+ },
+ "\u5916\u306b\u51fa\u308b|shop_menu(R2150)": {
+  "english": "Go Outside",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 63,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub0"
+ },
+ "\u30f4\u30a3\u30ac\u30fc\u5546\u5e97|shop_menu(R2150)": {
+  "english": "Vigger Shop",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 69,
+  "fits": true,
+  "source_of_truth": "canonical facility name (shipped)"
+ },
+ "\u8cb7\u3044\u53d6\u308a": {
+  "english": "Sell",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 21,
+  "fits": true,
+  "source_of_truth": "player sells to shop; matches SHIPPED r2138 sub26 'Sell'"
+ },
+ "\u8ca9\u58f2": {
+  "english": "Buy",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 23,
+  "fits": true,
+  "source_of_truth": "shop sells to player; matches SHIPPED r2138 sub26 'Buy'"
+ },
+ "\u30aa\u30fc\u30c0\u30fc|shop_menu(R2150)": {
+  "english": "Order",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 33,
+  "fits": true,
+  "source_of_truth": "SHIPPED gen_r39_equip_b 'Order'",
+  "short_alt": {
+   "english": "Orders",
+   "measured_px": 40,
+   "fits": true
+  }
+ },
+ "\u30aa\u30fc\u30c0\u30fc\u3092\u53d7\u3051\u308b": {
+  "english": "Take Order",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 64,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_05 'Taking orders?'",
+  "short_alt": {
+   "english": "Accept Order",
+   "measured_px": 77,
+   "fits": true
+  }
+ },
+ "\u30aa\u30fc\u30c0\u30fc\u306e\u78ba\u8a8d": {
+  "english": "Check Orders",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 80,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_05 'Here are your current orders'",
+  "short_alt": {
+   "english": "Order Status",
+   "measured_px": 73,
+   "fits": true
+  }
+ },
+ "\u7d0d\u54c1\u3059\u308b": {
+  "english": "Deliver",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 41,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_06 'Deliver and complete order?'"
+ },
+ "\u9451\u5b9a": {
+  "english": "Identify",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 42,
+  "fits": true,
+  "source_of_truth": "guide 735 'identify items' + Wizardry convention"
+ },
+ "\u89e3\u546a": {
+  "english": "Uncurse",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 49,
+  "fits": true,
+  "source_of_truth": "guide spell list 'L6 UNCURSE' + 'UNCURSE MEDICINE'",
+  "short_alt": {
+   "english": "Lift Curse",
+   "measured_px": 56,
+   "fits": true
+  }
+ },
+ "\u5e97\u306e\u7ba1\u7406": {
+  "english": "Manage Shop",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 77,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_05 'I manage the Vigger Shop'"
+ },
+ "\u5e97\u8217\u60c5\u5831": {
+  "english": "Shop Info",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 53,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_06 'Vigger Shop info'"
+ },
+ "\u5009\u5eab|shop_menu(R2150)": {
+  "english": "Storage",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 45,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_06 'Storage'"
+ },
+ "\u5009\u5eab\u306e\u7ba1\u7406": {
+  "english": "Manage Storage",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 93,
+  "fits": true,
+  "source_of_truth": "extends shipped 'Storage'",
+  "short_alt": {
+   "english": "Storage Mgmt",
+   "measured_px": 80,
+   "fits": true
+  }
+ },
+ "\u5009\u5eab\u306b\u5165\u308c\u308b": {
+  "english": "Deposit",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 44,
+  "fits": true,
+  "source_of_truth": "put items into storage",
+  "short_alt": {
+   "english": "Store Items",
+   "measured_px": 66,
+   "fits": true
+  }
+ },
+ "\u6539\u88c5": {
+  "english": "Redecorate",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 67,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_05 'Redecorate our Vigger Shop?'",
+  "short_alt": {
+   "english": "Renovate",
+   "measured_px": 55,
+   "fits": true
+  }
+ },
+ "\u30a2\u30eb\u30d0\u30a4\u30c8": {
+  "english": "Part-Time",
+  "screen": "shop_menu(R2150)",
+  "resource": "R2150",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 56,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_07/batch_03 'part-time (workers/trust)' + guide PART TIME JOBS",
+  "short_alt": {
+   "english": "Part-Timers",
+   "measured_px": 68,
+   "fits": true
+  }
+ },
+ "\u652f\u5e97": {
+  "english": "Branch",
+  "screen": "shop_branch_menu(R2153)",
+  "resource": "R2153",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 42,
+  "fits": true,
+  "source_of_truth": "guide 9.3.3 STORE FRONT context",
+  "short_alt": {
+   "english": "Store Front",
+   "measured_px": 64,
+   "fits": true
+  },
+  "note": "HYPOTHESIS which guide term maps"
+ },
+ "\u8cfc\u5165": {
+  "english": "Purchase",
+  "screen": "shop_branch_menu(R2153)",
+  "resource": "R2153",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 55,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub6 'Purchase'",
+  "short_alt": {
+   "english": "Buy",
+   "measured_px": 23,
+   "fits": true
+  }
+ },
+ "\u914d\u9001": {
+  "english": "Delivery",
+  "screen": "shop_branch_menu(R2153)",
+  "resource": "R2153",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 48,
+  "fits": true,
+  "source_of_truth": "lit.; shipped chunk_06 'send yer stuff to storage'",
+  "short_alt": {
+   "english": "Ship",
+   "measured_px": 25,
+   "fits": true
+  },
+  "note": "HYPOTHESIS wording"
+ },
+ "\u50ac\u3057\u7269": {
+  "english": "Events",
+  "screen": "shop_branch_menu(R2153)",
+  "resource": "R2153",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 40,
+  "fits": true,
+  "source_of_truth": "guide 9.3.5 EVENT SPACE",
+  "short_alt": {
+   "english": "Event",
+   "measured_px": 33,
+   "fits": true
+  }
+ },
+ "\u4f11\u61a9\u6240": {
+  "english": "Rest Area",
+  "screen": "shop_branch_menu(R2153)",
+  "resource": "R2153",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 58,
+  "fits": true,
+  "source_of_truth": "lit.",
+  "short_alt": {
+   "english": "Lounge",
+   "measured_px": 42,
+   "fits": true
+  },
+  "note": "HYPOTHESIS wording"
+ },
+ "\u30a2\u30ec\u30a4\u30c9\u30a2\u30af\u30b7\u30e7\u30f3": {
+  "english": "Alleid Actions",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 79,
+  "fits": true,
+  "source_of_truth": "SHIPPED batch_r39_equip_a 'Alleid Actions' + guide ALLEID ACTIONS",
+  "short_alt": {
+   "english": "Alleids",
+   "measured_px": 39,
+   "fits": true
+  }
+ },
+ "\u524d\u5f8c\u5217\u4ea4\u4ee3": {
+  "english": "Front to Back",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 77,
+  "fits": true,
+  "source_of_truth": "guide 2553 'FRONT TO BACK'",
+  "short_alt": {
+   "english": "Row Swap",
+   "measured_px": 59,
+   "fits": true
+  }
+ },
+ "\u4e00\u6589\u9003\u8d70": {
+  "english": "Flee",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 24,
+  "fits": true,
+  "source_of_truth": "guide 2555 'FLEE (party flee)'",
+  "short_alt": {
+   "english": "Flee All",
+   "measured_px": 42,
+   "fits": true
+  }
+ },
+ "\u5404\u81ea\u884c\u52d5": {
+  "english": "Single Action",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 75,
+  "fits": true,
+  "source_of_truth": "guide 2549 'SINGLE ACTION'",
+  "short_alt": {
+   "english": "Act Single",
+   "measured_px": 58,
+   "fits": true
+  }
+ },
+ "\u653b\u6483": {
+  "english": "Attack",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 38,
+  "fits": true,
+  "source_of_truth": "guide 'ATTACK ENEMY'"
+ },
+ "\u8eab\u3092\u5b88\u308b": {
+  "english": "Defend",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 41,
+  "fits": true,
+  "source_of_truth": "guide 'DEFEND'"
+ },
+ "\u9b54\u6cd5": {
+  "english": "Magic",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 34,
+  "fits": true,
+  "source_of_truth": "guide 'MAGIC'"
+ },
+ "\u30c7\u30a3\u30b9\u30da\u30eb": {
+  "english": "Dispel",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 36,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_07 'Dispel' + guide DISPEL"
+ },
+ "\u4f4d\u7f6e\u4ea4\u4ee3": {
+  "english": "Switch Position",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 87,
+  "fits": true,
+  "source_of_truth": "guide 2546 'SWITCH POSITION'",
+  "short_alt": {
+   "english": "Swap Spot",
+   "measured_px": 60,
+   "fits": true
+  }
+ },
+ "\u9003\u3052\u308b": {
+  "english": "Flee",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 24,
+  "fits": true,
+  "source_of_truth": "individual flee; same verb",
+  "short_alt": {
+   "english": "Run",
+   "measured_px": 23,
+   "fits": true
+  },
+  "note": "HYPOTHESIS: distinguish from \u4e00\u6589\u9003\u8d70 if both visible at once"
+ },
+ "\u5168\u4f53\u884c\u52d5": {
+  "english": "Party Action",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 71,
+  "fits": true,
+  "source_of_truth": "party-wide command screen (vs SINGLE ACTION)",
+  "short_alt": {
+   "english": "Party Menu",
+   "measured_px": 65,
+   "fits": true
+  },
+  "note": "HYPOTHESIS (guide calls top level 'PARTY MENU')"
+ },
+ "\u76d7\u3080": {
+  "english": "Steal",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 29,
+  "fits": true,
+  "source_of_truth": "guide 'STEAL ITEMS'"
+ },
+ "AA\u7de8\u6210": {
+  "english": "AA Setup",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 54,
+  "fits": true,
+  "source_of_truth": "guide 'SET AA ATTACKS' + shipped chunk_03 'End AA setup'",
+  "short_alt": {
+   "english": "Set AA",
+   "measured_px": 40,
+   "fits": true
+  }
+ },
+ "\u9b54\u8853\u5e2b\u9b54\u6cd5|battle_menu(R1054)": {
+  "english": "Mage Magic",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 68,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 tab",
+  "short_alt": {
+   "english": "Sorceries",
+   "measured_px": 56,
+   "fits": true
+  }
+ },
+ "\u50e7\u4fb6\u9b54\u6cd5|battle_menu(R1054)": {
+  "english": "Prs. Magic",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 60,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 tab",
+  "short_alt": {
+   "english": "Holy Magic",
+   "measured_px": 63,
+   "fits": true
+  }
+ },
+ "\u30a2\u30a4\u30c6\u30e0|battle_menu(R1054)": {
+  "english": "Item",
+  "screen": "battle_menu(R1054)",
+  "resource": "R1054",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 25,
+  "fits": true,
+  "source_of_truth": "SHIPPED r2138 sub7 tab 'Item'",
+  "short_alt": {
+   "english": "Items",
+   "measured_px": 32,
+   "fits": true
+  }
+ },
+ "\u968a\u5217": {
+  "english": "Formation",
+  "screen": "camp_menu(R1359)",
+  "resource": "R1359",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 58,
+  "fits": true,
+  "source_of_truth": "guide 'TEAM POSITIONING'",
+  "short_alt": {
+   "english": "Positions",
+   "measured_px": 53,
+   "fits": true
+  }
+ },
+ "\u932c\u91d1\u8853": {
+  "english": "Alchemy",
+  "screen": "camp_menu(R1359)",
+  "resource": "R1359",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 51,
+  "fits": true,
+  "source_of_truth": "guide 1632 'ALCHEMY'"
+ },
+ "\u30aa\u30fc\u30c8\u30de\u30bf\u30fc": {
+  "english": "Automata",
+  "screen": "camp_menu(R1359)",
+  "resource": "R1359",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 56,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_01 'Automata'",
+  "note": "chunk_02 once used 'Automa' \u2014 outlier, Automata dominates"
+ },
+ "\u9b54\u6cd5\u77f3\u5408\u6210": {
+  "english": "Stone Synthesis",
+  "screen": "camp_menu(R1359)",
+  "resource": "R1359",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 93,
+  "fits": true,
+  "source_of_truth": "guide 'SYNTHESIZE MAGIC STONES' + shipped sub26 'Magic Stones'/'Synthesize'",
+  "short_alt": {
+   "english": "Synth Stones",
+   "measured_px": 76,
+   "fits": true
+  }
+ },
+ "\u30ad\u30e3\u30f3\u30d7|camp_menu(R1359)": {
+  "english": "Camp",
+  "screen": "camp_menu(R1359)",
+  "resource": "R1359",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 34,
+  "fits": true,
+  "source_of_truth": "title; guide CAMP MENU"
+ },
+ "AA\u30bb\u30c3\u30c8": {
+  "english": "Set AA",
+  "screen": "aa_setup(R1360)",
+  "resource": "R1360",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 40,
+  "fits": true,
+  "source_of_truth": "guide 'SET AA ATTACKS'",
+  "short_alt": {
+   "english": "AA Set",
+   "measured_px": 40,
+   "fits": true
+  }
+ },
+ "\u5168\u3066\u5916\u3059": {
+  "english": "Remove All",
+  "screen": "aa_setup(R1360)",
+  "resource": "R1360",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 66,
+  "fits": true,
+  "source_of_truth": "guide camp AA menu 'REMOVE EVERYTHING'"
+ },
+ "\u5143\u306b\u623b\u3059": {
+  "english": "Reset",
+  "screen": "aa_setup(R1360)",
+  "resource": "R1360",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 34,
+  "fits": true,
+  "source_of_truth": "guide 'RESET TO LAST CONFIGURATION'",
+  "short_alt": {
+   "english": "Undo",
+   "measured_px": 30,
+   "fits": true
+  }
+ },
+ "\u7d42\u4e86": {
+  "english": "Exit",
+  "screen": "aa_setup(R1360)",
+  "resource": "R1360",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 22,
+  "fits": true,
+  "source_of_truth": "guide camp AA menu option 4 'LEAVE' / \u7d42\u4e86 CLOSE",
+  "short_alt": {
+   "english": "Done",
+   "measured_px": 30,
+   "fits": true
+  }
+ },
+ "\u653b\u6483\u7cfb\u30a2\u30ec\u30a4\u30c9": {
+  "english": "Attack Alleids",
+  "screen": "aa_setup(R1360)",
+  "resource": "R1360",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 80,
+  "fits": true,
+  "source_of_truth": "guide 9332 'ATTACK TYPE AA'"
+ },
+ "\u9632\u5fa1\u7cfb\u30a2\u30ec\u30a4\u30c9": {
+  "english": "Defense Alleids",
+  "screen": "aa_setup(R1360)",
+  "resource": "R1360",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 90,
+  "fits": true,
+  "source_of_truth": "guide 9332 'DEFENSIVE AA'"
+ },
+ "\u9b54\u6cd5\u7cfb\u30a2\u30ec\u30a4\u30c9": {
+  "english": "Magic Alleids",
+  "screen": "aa_setup(R1360)",
+  "resource": "R1360",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 76,
+  "fits": true,
+  "source_of_truth": "guide 9332 'MAGIC AA'",
+  "note": "3rd row glyphs degraded in render \u2014 category set VERIFIED by guide's four groups"
+ },
+ "\u63f4\u8b77\u7cfb\u30a2\u30ec\u30a4\u30c9": {
+  "english": "Support Alleids",
+  "screen": "aa_setup(R1360)",
+  "resource": "R1360",
+  "font_size": 12,
+  "max_px": 110,
+  "measured_px": 87,
+  "fits": true,
+  "source_of_truth": "guide 9332 'SUPPORT AA'"
+ },
+ "\u30bb\u30fc\u30d6": {
+  "english": "Save",
+  "screen": "system_menu(R1910)",
+  "resource": "R1910",
+  "font_size": 13,
+  "max_px": 140,
+  "measured_px": 30,
+  "fits": true,
+  "source_of_truth": "guide 1613 SAVE"
+ },
+ "\u30ed\u30fc\u30c9": {
+  "english": "Load",
+  "screen": "system_menu(R1910)",
+  "resource": "R1910",
+  "font_size": 13,
+  "max_px": 140,
+  "measured_px": 31,
+  "fits": true,
+  "source_of_truth": "guide 1616 LOAD"
+ },
+ "\u30aa\u30d7\u30b7\u30e7\u30f3": {
+  "english": "Options",
+  "screen": "system_menu(R1910)",
+  "resource": "R1910",
+  "font_size": 13,
+  "max_px": 140,
+  "measured_px": 49,
+  "fits": true,
+  "source_of_truth": "SHIPPED chunk_00 'Options' + guide GAME OPTIONS"
+ },
+ "\u30bf\u30a4\u30c8\u30eb\u306b\u623b\u308b": {
+  "english": "Return to Title",
+  "screen": "system_menu(R1910)",
+  "resource": "R1910",
+  "font_size": 13,
+  "max_px": 140,
+  "measured_px": 88,
+  "fits": true,
+  "source_of_truth": "guide 1620 'RETURN TO TITLE'",
+  "short_alt": {
+   "english": "To Title",
+   "measured_px": 47,
+   "fits": true
+  }
+ },
+ "\u4e2d\u65ad\u30bb\u30fc\u30d6": {
+  "english": "Save & Quit",
+  "screen": "system_menu(R1910)",
+  "resource": "R1910",
+  "font_size": 13,
+  "max_px": 140,
+  "measured_px": 74,
+  "fits": true,
+  "source_of_truth": "guide 1612 'SAVE AND QUIT (DUNGEON ONLY)'",
+  "short_alt": {
+   "english": "Suspend Save",
+   "measured_px": 89,
+   "fits": true
+  }
+ },
+ "\u7d46": {
+  "english": "Bond",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 30,
+  "fits": true,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)"
+ },
+ "\u8a93": {
+  "english": "Pledge",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 39,
+  "fits": true,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)"
+ },
+ "\u4fe1": {
+  "english": "Trust",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 30,
+  "fits": true,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)"
+ },
+ "\u53cb": {
+  "english": "Friends",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 43,
+  "fits": true,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)"
+ },
+ "\u60c5": {
+  "english": "Compassion",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 72,
+  "fits": false,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)",
+  "short_alt": {
+   "english": "Sympathy",
+   "measured_px": 58,
+   "fits": true
+  },
+  "note": "exceeds 9-char rule \u2014 use alt",
+  "recommended": "Sympathy"
+ },
+ "\u7fa9": {
+  "english": "Obligation",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 57,
+  "fits": false,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)",
+  "short_alt": {
+   "english": "Duty",
+   "measured_px": 27,
+   "fits": true
+  },
+  "note": "exceeds 9-char rule \u2014 use alt",
+  "recommended": "Duty"
+ },
+ "\u76df": {
+  "english": "Alliance",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 46,
+  "fits": true,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)"
+ },
+ "\u7591": {
+  "english": "Doubt",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 34,
+  "fits": true,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)"
+ },
+ "\u618e": {
+  "english": "Hate",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 27,
+  "fits": true,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)"
+ },
+ "\u4e0d": {
+  "english": "Broken",
+  "screen": "party_rank(R1370)",
+  "resource": "R1370",
+  "font_size": 12,
+  "max_px": 60,
+  "measured_px": 42,
+  "fits": true,
+  "source_of_truth": "guide PARTY RANKS list lines 1810-1830 (Doubt/Hate/Alliance/Obligation/Compassion/Friends/Trust/Pledge/Bond/Broken)"
+ }
+}
