@@ -6,7 +6,7 @@ released only in Japan. This repository holds the full translation toolchain: th
 scripts that decode the game's text and graphics, the English translation data, and
 the build pipeline that produces a patched, **real-PS2-compatible** disc image.
 
-> **Status: Public Beta (v171).**
+> **Status: Public Beta (v180).**
 > Playable start to finish in English. Download the ready-made patch at
 > **[busin0-en.pages.dev](https://busin0-en.pages.dev)** — you do not need this
 > repository to play, only to build from source or contribute.
@@ -27,28 +27,28 @@ You need three things:
    - **Source ISO MD5:** `48a5639afdf9931913c7dde298dc5349`
    - If your dump's MD5 differs, you have a different revision and the patch will
      not apply cleanly.
-2. **The patch file:** `busin0_en_v171.xdelta` (~1.0 MB), from
+2. **The patch file:** `busin0_en_v180.xdelta` (~1.0 MB), from
    [busin0-en.pages.dev](https://busin0-en.pages.dev).
 3. **An xdelta3 tool** — either the command line or a GUI.
 
 ### Command line
 
 ```bash
-xdelta3 -d -s "Busin 0 (Japan).iso" busin0_en_v171.xdelta BUSIN0_EN.iso
+xdelta3 -d -s "Busin 0 (Japan).iso" busin0_en_v180.xdelta BUSIN0_EN.iso
 ```
 
 ### GUI (Delta Patcher, Windows)
 
 1. Open Delta Patcher.
 2. **Original file** = your Japanese ISO.
-3. **XDelta patch** = `busin0_en_v171.xdelta`.
+3. **XDelta patch** = `busin0_en_v180.xdelta`.
 4. Click **Apply Patch**. It writes the English ISO next to the original.
 
 ### Verify the result
 
 Check the MD5 of the output ISO:
 
-- **Patched ISO MD5:** `622e1ff2284a577f7a770e2ba9583f32`
+- **Patched ISO MD5:** `78f6d8a3ad44ff9de718e0b08f24f590`
 
 If it matches, the patch applied perfectly. Boot `BUSIN0_EN.iso` in your PS2, or in
 PCSX2 via **File → Boot ISO**.
@@ -64,7 +64,7 @@ PCSX2 via **File → Boot ISO**.
 
 ### Found a problem?
 
-Bug reports are welcome. Please include: the **patch version** (v171 beta), where in
+Bug reports are welcome. Please include: the **patch version** (v180 beta), where in
 the game it happens (screen/menu/scene), what you expected vs. what you saw, and a
 screenshot if you can. Discussion happens in the r/wizardry community thread linked
 from the site.
@@ -73,7 +73,7 @@ from the site.
 
 ## What's translated
 
-As of v171 the translation is **effectively complete** — you can play the whole game
+As of v180 the translation is **effectively complete** — you can play the whole game
 in English:
 
 - All story **dialogue and narration**, including the intro and ending narration.
@@ -92,6 +92,10 @@ in English:
   confirmed on screen.
 - **Ending render verification** — the ending text is translated but no end-game
   screenshot has confirmed the on-screen result yet.
+- **Item-name capsule** — widened in v180 so long English names fit; the new width
+  hasn't been eyeballed in-game yet. Reports welcome.
+- **Two micro-spacing overlaps** (the in-battle equipped-marker "EHealing" and the
+  alchemy-shop name/quantity collision) — analyzed, wait on a live-debugger session.
 
 ### Release history
 
@@ -103,7 +107,9 @@ in English:
 | v166 | **The Library Update** — entire in-game library (text + banner art), ~900 repaired/new dialogue lines, game-wide name unification. |
 | v167 | Polish — Bishop class description fix, flagged dialogue/item-name cleanups, unified spellings. |
 | v168 | Character-creation trait wording (Bold, Superstitious, Narcissist). |
-| v171 | **Battle fix** — resolves the enemyless-camera / missing-monster battle softlock (font tables relocated out of the battle-memory region). Fixes choices that showed only a continue-arrow and scattered/wrong on-screen text; shop, label, and Knight-NPC text corrections. |
+| v171–v173 | Choices that showed only a continue-arrow fixed, scattered/wrong on-screen text fixed, dungeon signs & shops repaired, name/label corrections — plus two *incomplete* attempts at the battle softlock (each later shown insufficient). |
+| v174 | **Pulled** — an EXE-extension experiment the console's loader rejected; it booted to the BIOS. |
+| v180 | **The real battle fix** (boot-confirmed, harpy included): translation font data relocated out of battle memory for good. Character creation restored to full polish (letter spacing, gender symbols, description banner) and the item-name capsule widened. |
 
 ---
 
@@ -140,7 +146,7 @@ rebuilding a valid ISO.
 Because a single stray byte can corrupt a font or crash the VIF/GS upload, the build
 leans hard on gates: **pristine-diff checks** (every byte outside an intended edit
 window must be byte-identical to the original), **containment asserts** on pixel and
-resource edits, a **300-test regression suite** (`tests/`), and an **MD5 round-trip
+resource edits, a **336-test regression suite** (`tests/`), and an **MD5 round-trip
 gate** on every release patch. Failed build steps abort loudly rather than shipping
 stale output.
 
@@ -161,7 +167,7 @@ You need the game data yourself — this repo contains **no copyrighted game con
 **Build the English ISO**
 
 ```bash
-python tools/generate_font_atlas.py && python build/build_v9.py && cp build/BUSIN0_EN_v9.iso build/BUSIN0_EN_v168.iso
+python tools/generate_font_atlas.py && python build/build_v9.py && cp build/BUSIN0_EN_v9.iso build/BUSIN0_EN_v180.iso
 ```
 
 Always rebuild and copy in one command — the build writes the archive directory size
@@ -170,8 +176,8 @@ as its final step, and copying mid-build produces a truncated ISO.
 **Verify and test**
 
 ```bash
-python verify_iso.py build/BUSIN0_EN_v168.iso   # structural checks on the built ISO
-python tests/run_all.py                         # the full regression suite (300 tests)
+python verify_iso.py build/BUSIN0_EN_v180.iso   # structural checks on the built ISO
+python tests/run_all.py                         # the full regression suite (336 tests)
 ```
 
 The finished disc image lands in `build/`.
@@ -240,6 +246,7 @@ script isn't listed here or called by `build_v9.py`, treat it as archaeology.
 | `build/inject_r34_db.py` | R34 — item database. |
 | `tools/patch_r2654_names.py`, `patch_r2654_library.py`, `patch_r1892_names.py` | R2654/R1892 — roster names and the variable-length **library** name subs. |
 | `tools/patch_r2655_library_strips.py` | R2655 — the library banner / tab / footer artwork, re-inked to English. |
+| `tools/patch_pill_widen.py` | R2139/R2138 — widens the item-name capsule (geometry record + box-art re-ink, v180). |
 | `tools/patch_r2124.py`, `patch_r1365.py`, `patch_battle_strips.py`, `patch_camp_strips.py`, `patch_facility_strips.py`, `patch_r2147.py`, `patch_r1370.py`, `patch_r2880.py`, `patch_r2881_ending.py`, `patch_r2882_grave.py` | Pre-rendered UI strips — town hub, facilities, battle/camp chrome, status, intro/ending/grave cutscenes. |
 
 ### Verification
@@ -247,7 +254,7 @@ script isn't listed here or called by `build_v9.py`, treat it as archaeology.
 | Script | Role |
 |--------|------|
 | `verify_iso.py` | Structural check of a built ISO (TOC, resource integrity, relocation). |
-| `tests/run_all.py` | The full regression suite (300+ gates) — pristine-diff, containment, and structural invariants. |
+| `tests/run_all.py` | The full regression suite (336 gates) — pristine-diff, containment, and structural invariants. |
 | `build/rebuild_packdata.py`, `verify_iso.py` | Together enforce the overflow self-heal + relocation MD5 gate at ISO-build time. |
 
 Patch releases are encoded with `pyxdelta` and round-trip-verified (apply to the JP
