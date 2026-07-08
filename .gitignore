@@ -80,3 +80,15 @@ build/debug_*/
 # agent diagnostic scratch
 scratch_*.py
 scratchpad_previews/
+
+# Game data must never be tracked (extracted resources, script dumps, memory images, third-party guide)
+*.raw
+PCSX2 Internal Structures.dat
+data/type2_dialogue_full.json
+data/type2_dialogue_full.txt
+data/type2_dialogue_corrected.json
+data/type2_dialogue_corrected.txt
+data/untranslated_1371_2654.txt
+data/untranslated_for_review.md
+data/guide_full_text.txt
+_purge_list_tmp.txt
