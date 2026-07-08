@@ -1816,6 +1816,12 @@ def main():
         print(f"  precheck: cave@0x4CAA48 free={cave_free}; reserve@0x308968=0x{margin:08X} "
               f"(want 0x{P25_MARGIN_ORIG:08X})")
     else:
+        # ARENA LAW: the P25 cave VA (0x4CAA48) is INSIDE the battle arena
+        # (0x4B0E00..0x4FDE30). assert_install_safe will refuse it — correctly.
+        # The cave MUST be re-sited below 0x4B0DCF before this branch can ever
+        # be enabled; installing it as-is re-creates the battle-softlock class.
+        # (Master-audit finding #10, 2026-07-08.)
+        RELOC.assert_install_safe(0x4CAA48, len(p25_cave) * 4, "Patch 25 cave")
         h25 = struct.unpack_from("<I", data, P25_HOOK)[0]
         gate = struct.unpack_from("<I", data, P25_GATE_OFF)[0]
         cave_free = all(b == 0 for b in data[P25_CAVE:P25_CAVE + len(p25_cave) * 4])
@@ -1944,6 +1950,26 @@ def main():
           % (olen, len(repl), olen - len(repl), RELOC.ADV_VA, RELOC.LSH_VA, RELOC.ADV2_VA))
     print("  OK   no ISO growth, e_phnum=2, e_shoff pristine; in-arena 0x4C7564/0x4C7690 pristine-zero (battle fix)")
     patched_count += 1
+
+    # ─── Patch-count completeness gate (master-audit finding #5) ───────
+    # Every guard mismatch above only WARNs; Step 8.4 gates on exit code, so a
+    # silently skipped patch (e.g. the whole Patch-14 -> 19/26/27/29/31 chargen
+    # cascade) would otherwise ship a half-patched EXE with a green build.
+    # EXPECTED_PATCHES is the count of a known-good full build (v179+ = 56:
+    # the pre-withdrawal pill build counted 57; the withdrawn pill patch no
+    # longer increments). Diag env levers legitimately skip patches -> bypass.
+    EXPECTED_PATCHES = 56
+    _diag = [v for v in ("DISABLE_PATCH6", "DISABLE_P27_P14", "CHARGEN_DIAG", "FIRE_DIAG")
+             if os.environ.get(v)]
+    if _diag:
+        print(f"\n  NOTE diag lever(s) {_diag} active -- patch-count gate bypassed "
+              f"({patched_count} applied; full build expects {EXPECTED_PATCHES})")
+    elif patched_count != EXPECTED_PATCHES:
+        raise SystemExit(
+            f"FATAL: {patched_count} patches applied, expected {EXPECTED_PATCHES}. "
+            f"A guard mismatch silently skipped part of the cascade (scan the WARN "
+            f"lines above). Refusing to write a half-patched EXE. If a patch was "
+            f"intentionally added/removed, update EXPECTED_PATCHES in the same commit.")
 
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)

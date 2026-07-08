@@ -30,27 +30,39 @@ for unsafe_r, tc in [(1053, '03'), (1908, '06')]:
 print("\n=== Step 2: Fix type-1 FFFF mismatches ===")
 table = json.load(open('data/english_glyph_table.json', encoding='utf-8'))
 
+# A PRESENT-but-unparseable chunk file is a FATAL error: swallowing it silently
+# un-translates everything that ships only through this loader (e.g. the entire
+# library via chunk_r2654_library_fix.json) with a green build. A MISSING file
+# stays a loud skip. (Master-audit finding #4, 2026-07-08.)
+def _load_chunk(path):
+    if not os.path.exists(path):
+        print(f'  WARN chunk file missing, skipped: {path}')
+        return None
+    try:
+        return json.load(open(path, encoding='utf-8'))
+    except Exception as e:
+        print(f'  FATAL: chunk file present but unreadable: {path} ({type(e).__name__}: {e})')
+        sys.exit(1)
+
 translations = {}
 for i in range(10):
-    try:
-        d = json.load(open(f'data/translate_chunks/chunk_{i:02d}_translated.json', encoding='utf-8'))
-        for e in d:
-            k = (e.get('resource', -1), e.get('message', -1))
-            en = e.get('english', '').strip()
-            if en and en != e.get('japanese', ''):
-                translations[k] = en
-    except:
-        pass
+    d = _load_chunk(f'data/translate_chunks/chunk_{i:02d}_translated.json')
+    if d is None:
+        continue
+    for e in d:
+        k = (e.get('resource', -1), e.get('message', -1))
+        en = e.get('english', '').strip()
+        if en and en != e.get('japanese', ''):
+            translations[k] = en
 for fix in ['chunk_r38_fix.json', 'chunk_r43_fix.json', 'chunk_r37_extra.json', 'chunk_r40_r42_translated.json', 'chunk_r36_translated.json', 'chunk_r37_r48_r49_translated.json', 'chunk_r43_r45_translated.json', 'chunk_r35_menus_fix.json', 'chunk_r2654_library_fix.json']:
-    try:
-        d = json.load(open(f'data/translate_chunks/{fix}', encoding='utf-8'))
-        for e in d:
-            k = (e.get('resource', -1), e.get('message', -1))
-            en = e.get('english', '').strip()
-            if en:
-                translations[k] = en
-    except:
-        pass
+    d = _load_chunk(f'data/translate_chunks/{fix}')
+    if d is None:
+        continue
+    for e in d:
+        k = (e.get('resource', -1), e.get('message', -1))
+        en = e.get('english', '').strip()
+        if en:
+            translations[k] = en
 
 def enc(ch):
     if ch in table:

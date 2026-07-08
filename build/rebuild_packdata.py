@@ -61,7 +61,16 @@ with open('build/PACKDATA_v3.DIG', 'wb') as out:
         else:
             import glob
             cc = glob.glob(f'extracted/packdata_raw/{idx:04d}_type*.raw')
-            d = open(cc[0], 'rb').read() if cc else b'\x00' * SECTOR
+            if not cc:
+                # Shipping a zeroed resource silently is how a whole subsystem
+                # vanishes with a green build (master-audit finding #9).
+                raise SystemExit(
+                    f'FATAL: resource {idx:04d} (type {tc:02d}) has no override '
+                    f'AND no pristine raw -- refusing to ship a zeroed sector. '
+                    f'Re-run the extraction or fix the manifest.')
+            print(f'  WARN R{idx:04d}: manifest type {tc:02d} raw not found, using '
+                  f'{os.path.basename(cc[0])} (type-code drift?)')
+            d = open(cc[0], 'rb').read()
 
         # R1188 PRISTINE GATE (BUG-3): R1188 is the LIVE dialogue/narration font
         # and MUST ship byte-identical to the pristine extracted raw. The old

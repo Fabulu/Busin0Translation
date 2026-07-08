@@ -92,3 +92,5 @@ data/untranslated_1371_2654.txt
 data/untranslated_for_review.md
 data/guide_full_text.txt
 _purge_list_tmp.txt
+build/_base_fixA.elf
+*.elf

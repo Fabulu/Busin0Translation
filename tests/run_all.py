@@ -65,6 +65,7 @@ MODULES = [
     "test_r2138_containment",
     "test_pill_widen",
     "test_banner_widget_pristine",
+    "test_optione_arena",
     "test_regress_harness",
 ]
 
@@ -105,6 +106,14 @@ def main():
     )
     if n_fail:
         print("\nRESULT: FAIL -- do NOT ship this build.")
+        return 1
+    # Release gate (master-audit finding #7): a SKIP means a tier's inputs were
+    # absent -- exactly the mechanism that let the ISO tier stay dead for ~70
+    # builds. For a release candidate, run with BUSIN_RELEASE=1: every SKIP is
+    # then a failure, so a wiped build/ dir can never produce a green release.
+    if os.environ.get("BUSIN_RELEASE") and n_skip:
+        print("\nRESULT: FAIL -- BUSIN_RELEASE=1 and %d test(s) SKIPPED. A release "
+              "run must exercise every tier (build outputs + ISO present)." % n_skip)
         return 1
     print("\nRESULT: OK%s" % (" (some tiers skipped)" if n_skip else ""))
     return 0
