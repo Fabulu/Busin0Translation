@@ -59,17 +59,34 @@ def test_d1_hook_is_j_to_frag1_at_drawx_site():
 
 
 def test_d2_frag1_sources_lsh_from_canonical_table():
-    """v173 FINAL BATTLE-FIX: frag1 READS LEFTSHIFT from the CANONICAL R1188 LSH table
-    @0x4C7690 (lui t9,0x4C ; ... ; lbu t9,0x7690(t9)).  The v158 R2100 in-arena table
-    (0x4B1100) was DROPPED -- it softlocked battle at every arena placement -- so LSH2_VA
-    now ALIASES the canonical LSH_VA and NOTHING is read from the arena."""
+    """v175 Option E ("holy fix"): frag1 READS LEFTSHIFT from the SEPARATE R2100 chargen
+    leftshift table LSH2 @0x1216C8 (lui t9,0x12 ; ... ; lbu t9,0x16C8(t9)).  LSH2 is NO
+    LONGER aliased to the R1188 LSH -- it is the fourth 92-byte table packed directly
+    after ADV2 in the freed strncpy span.  Aliasing LSH2 to the wide R1188 leftshift
+    yanked chargen glyphs past the tight ADV2 advance, so the alias MUST be gone."""
     f1 = RELOC.P31_F1_WORDS
-    assert RELOC.LSH2_VA == RELOC.LSH_VA == 0x4C7690
+    # LSH2 is a SEPARATE table, packed right after ADV2 (ADV|LSH|ADV2|LSH2 at +0/+N/+2N/+3N).
+    assert RELOC.LSH2_VA == RELOC.ADV2_VA + RELOC.TABLE_ENTRIES, (
+        "v175 Option E: LSH2_VA must pack directly after ADV2 (ADV2_VA + %d); got "
+        "ADV2=0x%06X LSH2=0x%06X" % (RELOC.TABLE_ENTRIES, RELOC.ADV2_VA, RELOC.LSH2_VA)
+    )
+    assert RELOC.LSH2_VA != RELOC.LSH_VA, (
+        "v175 Option E: LSH2 must NOT be aliased to the R1188 LSH -- the alias is the "
+        "chargen blow-out this fix removes"
+    )
+    assert (RELOC.LSH2_VA & 0xFFFF) < 0x8000  # no lbu sign-extension carry
     assert any(_op(w) == 0x0F and _imm(w) == (RELOC.LSH2_VA >> 16) for w in f1), (
-        "frag1 must lui the canonical LSH table base 0x%X0000" % (RELOC.LSH2_VA >> 16)
+        "frag1 must lui the freed-span LSH2 table base 0x%X0000" % (RELOC.LSH2_VA >> 16)
     )
     assert any(_op(w) == 0x24 and _imm(w) == (RELOC.LSH2_VA & 0xFFFF) for w in f1), (
-        "frag1 must lbu LEFTSHIFT[gid] at 0x%X == RELOC.LSH2_VA" % (RELOC.LSH2_VA & 0xFFFF)
+        "frag1 must lbu LEFTSHIFT2[gid] at 0x%X == RELOC.LSH2_VA" % (RELOC.LSH2_VA & 0xFFFF)
+    )
+    # The table the frag indexes must be the real R2100 chargen leftshift (leftshift2).
+    import glyph_metrics  # noqa: E402
+    tbls = dict(RELOC.build_metric_tables())
+    assert tbls[RELOC.LSH2_VA] == bytes(glyph_metrics.leftshift2_table_256()[:RELOC.TABLE_ENTRIES]), (
+        "the LSH2 table frag1 reads is not glyph_metrics.leftshift2_table_256()[:%d] -- "
+        "the chargen leftshift has desynced from the R2100 SoT" % RELOC.TABLE_ENTRIES
     )
     # TEETH: the OLD in-arena R2100 read (lui 0x4B / lbu 0x1100) must be GONE -- that is the
     # exact placement that softlocked battle.
@@ -83,13 +100,15 @@ def test_d2_frag1_sources_lsh_from_canonical_table():
 
 def test_d3_gid_recovered_and_ascii_guarded():
     """gid is the stored drawn glyph `lhu t8,0x10(sp)`, and the read is ASCII-guarded
-    (sltiu <95 + movz -> gid>=95 subtracts nothing; index bounded by andi 0xFF)."""
+    (sltiu <TABLE_ENTRIES + movz -> gid>=92 subtracts nothing; index bounded by andi
+    0xFF).  v175 Option E: the guard is sltiu <92 (was <95) -- the four 92-byte tables
+    cover gids 0..91 (max real glyph 'z'=90), so a gid>=92 must subtract nothing."""
     f1 = RELOC.P31_F1_WORDS
     # lhu t8, 0x10(sp)  (op 0x25, rt=t8=24, rs=sp=29, off=0x10)
     assert any(_op(w) == 0x25 and _rt(w) == 24 and _rs(w) == 29 and _imm(w) == 0x10
                for w in f1), "frag1 must recover gid via lhu 0x10(sp)"
-    assert any(_op(w) == 0x0B and _imm(w) == 95 for w in f1), (
-        "frag1 must ASCII-guard via sltiu <95"
+    assert any(_op(w) == 0x0B and _imm(w) == RELOC.TABLE_ENTRIES for w in f1), (
+        "frag1 must ASCII-guard via sltiu <%d (RELOC.TABLE_ENTRIES)" % RELOC.TABLE_ENTRIES
     )
     assert any(_op(w) == 0x0C and _imm(w) == 0xFF for w in f1), (
         "frag1 must bound the table index via andi 0xFF"

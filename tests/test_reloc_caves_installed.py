@@ -53,13 +53,14 @@ P6_TRAMP = bytes.fromhex(
     "289d8293" "05000124" "03004110" "00000000"
     "102e0c08" "00000000" "0800e003" "00000000")
 
-# Patch 26 cave words (chargen body-text proportional, v173 canonical ADV read
-# @0x4C7564: lui at,0x4C = 0x3C01004C ; lbu at,0x7564(at) = 0x90217564):
+# Patch 26 cave words (chargen body-text proportional, v175 Option E freed-strncpy-span
+# ADV2 read @0x12166C: lui at,0x12 = 0x3C010012 ; lbu at,0x166C(at) = 0x9021166C
+# -- the ADV2 lbu offset MOVED 0x1674 -> 0x166C when the four 92-byte tables repacked):
 P26_CAVE_WORDS = [
     0x3C010050, 0x8C21ED18, 0x24040005, 0x14240014, 0x00000000,
     0x96E20000, 0x00021040, 0x02221021, 0x90430000, 0x90440001,
     0x00031A00, 0x00641025, 0x3042FFFF, 0x2C41005F, 0x10200009,
-    0x00000000, 0x86430000, 0x3C01004C, 0x00220821, 0x90217564,
+    0x00000000, 0x86430000, 0x3C010012, 0x00220821, 0x9021166C,
     0x00611821, 0xA6430000, 0x080C1E80, 0x00000000, 0x080C1E74,
     0x8FA200E0,
 ]
@@ -69,18 +70,21 @@ P24_CAVE_WORDS = [
     0x860A003C, 0x15400002, 0x00000000, 0x240A0060, 0x080C25D1, 0x00000000,
 ]
 
-# Patch 19 cave1 (chargen Path-1 advance LUT, mode==5 gate, srl-8 gid):
+# Patch 19 cave1 (chargen Path-1 advance LUT, mode==5 gate, srl-8 gid; v175 FIX B
+# freed-strncpy-span ADV read @0x1215B4: lui t0,0x12 = 0x3C080012 ; lbu t0,0x15B4(t0) = 0x910815B4):
 P19_CAVE1_WORDS = [
     0x8F819D28, 0x86230040, 0x24080005, 0x14280008, 0x00031A02,
-    0x3C08004C, 0x01034021, 0x91087564, 0x87A201CC, 0x00481021,
+    0x3C080012, 0x01034021, 0x910815B4, 0x87A201CC, 0x00481021,
     0x10000003, 0x00000000, 0x87A201CC, 0x24420018, 0xA7A201CC,
     0x080C2012, 0x00000000,
 ]
 
-# Patch 19 cave2 (chargen Path-1 draw-shift, LEFTSHIFT @0x7690):
+# Patch 19 cave2 (chargen Path-1 draw-shift; v175 Option E freed-strncpy-span LSH read
+# @0x121610: lui at,0x12 = 0x3C010012 ; lbu at,0x1610(at) = 0x90211610
+# -- the LSH lbu offset MOVED 0x1614 -> 0x1610 when the four 92-byte tables repacked):
 P19_CAVE2_WORDS = [
     0x8F999D28, 0x87A301CC, 0x24180005, 0x17380006, 0x86390040,
-    0x0019CA02, 0x3C01004C, 0x00390821, 0x90217690, 0x00611823,
+    0x0019CA02, 0x3C010012, 0x00390821, 0x90211610, 0x00611823,
     0x080C2007, 0x00000000,
 ]
 

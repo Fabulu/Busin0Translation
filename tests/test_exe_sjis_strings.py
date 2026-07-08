@@ -35,7 +35,14 @@ from _helpers import ROOT, Skip, main_exit
 
 PRISTINE_EXE = os.path.join(ROOT, "extracted", "SLPM_653.78")
 PATCHED_EXE = os.path.join(ROOT, "build", "SLPM_653.78_patched")
-EXPECTED_SIZE = 4_185_776
+# v175 FIX B: ZERO ELF-structure change -- no added segment, no file growth.  The
+# built EXE is byte-length IDENTICAL to the pristine EXE (4,185,776); the font-metric
+# tables live in the freed tail of the shrunk libc strncpy (@VA 0x121568), fully inside
+# the existing .text.  Every string-patch window is unaffected.
+PRISTINE_SIZE = 4_185_776
+OUTPUT_SIZE = 4_185_776
+EXPECTED_SIZES = {"pristine EXE": PRISTINE_SIZE,
+                  "built EXE (run build/patch_exe.py)": OUTPUT_SIZE}
 
 # ── Patch 1: save-slot names (offset, window_size, pristine_sjis_hex, ascii) ──
 SAVE_SLOT_PATCHES = [
@@ -81,9 +88,10 @@ def _exe(path, tag):
         if not os.path.isfile(path):
             raise Skip("%s missing (%s)" % (os.path.relpath(path, ROOT), tag))
         data = open(path, "rb").read()
-        assert len(data) == EXPECTED_SIZE, (
+        want = EXPECTED_SIZES[tag]
+        assert len(data) == want, (
             "%s is %d bytes, expected %d -- wrong EXE?"
-            % (os.path.relpath(path, ROOT), len(data), EXPECTED_SIZE)
+            % (os.path.relpath(path, ROOT), len(data), want)
         )
         _CACHE[tag] = data
     return _CACHE[tag]

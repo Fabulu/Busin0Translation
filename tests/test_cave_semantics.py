@@ -63,7 +63,11 @@ CAVES_REGISTRY = [
     ("P24",   CAVES.P24_CAVE_WORDS,  RELOC.P24_VA,   set()),
     ("P19c1", CAVES.P19_CAVE1_WORDS, RELOC.P19C1_VA, {RELOC.ADV_VA}),
     ("P19c2", CAVES.P19_CAVE2_WORDS, RELOC.P19C2_VA, {RELOC.LSH_VA}),
-    ("P29f1", RELOC.P29_F1_WORDS,    RELOC.P29_F1_VA, {RELOC.LSH2_VA, MCA.MODE_SENTINEL_VA}),
+    # v175 gender guard: P29's mode-read tail moved into frag2, so (like P31) the mode
+    # read now SPANS the frag1->frag2 boundary (lui in frag1, lw in frag2).  frag1 decoded
+    # alone therefore records ONLY the self-contained LSH2 read; frag2 decoded alone sees
+    # the lw's base `at` as unknown -> no recorded abs access (no false positive).
+    ("P29f1", RELOC.P29_F1_WORDS,    RELOC.P29_F1_VA, {RELOC.LSH2_VA}),
     ("P29f2", RELOC.P29_F2_WORDS,    RELOC.P29_F2_VA, set()),
     ("P31f1", RELOC.P31_F1_WORDS,    RELOC.P31_F1_VA, {RELOC.LSH2_VA}),
     # P31f2's mode read spans the frag1->frag2 boundary (lui in frag1, lw in
@@ -74,7 +78,9 @@ CAVES_REGISTRY = [
 ]
 
 # Caves that MUST prove they read the mode sentinel 0x4FED18 (self-contained).
-MODE_READERS = {"P27", "P26", "P29f1"}
+# v175: P29f1 dropped -- its mode read now spans the frag1->frag2 boundary (like P31f2),
+# so it is no longer self-contained; the mode gate is still pinned by test_chargen_lsh_patch29.
+MODE_READERS = {"P27", "P26"}
 
 
 # ===========================================================================
@@ -211,11 +217,36 @@ def test_built_exe_caves_semantics():
     assert not problems, "built-EXE cave violations:\n  " + "\n  ".join(problems)
 
 
+def test_stale_arena_table_read_flagged():
+    """v174 MIGRATION GUARD: the font tables moved OUT of the battle arena into the
+    segment @0x580000.  A cave that still reads the OLD in-arena table (lui 0x4C /
+    lbu 0x7564 -> EA 0x4C7564, or lbu 0x7690 -> 0x4C7690) must be FLAGGED, since
+    0x4C7564/0x4C7690 are no longer in the address book.  This proves the migration
+    cannot silently leave an arena-pointing reader."""
+    for lbu_off, stale_ea in ((0x7564, 0x4C7564), (0x7690, 0x4C7690)):
+        stale = [
+            RELOC.lui('at', 0x4C),
+            RELOC.addu('at', 'at', 'v1'),
+            RELOC.lbu('v1', lbu_off, 'at'),
+        ]
+        insns = MCA.decode(stale, 0x4AB554)
+        eas = [a['ea'] for a in MCA.resolve_absolute_accesses(insns)]
+        assert stale_ea in eas, (
+            "harness broken: analyser did not compute stale EA 0x%06X (got %s)"
+            % (stale_ea, [hex(e) for e in eas]))
+        fails = MCA.check_effective_addresses(insns, BOOK)
+        assert any(f['ea'] == stale_ea for f in fails), (
+            "GATE FAILED: a stale in-arena table read (EA 0x%06X) was NOT flagged -- "
+            "the v174 segment migration could silently leave an arena-pointing reader"
+            % stale_ea)
+
+
 TESTS = [
     test_rule_k_all_caves,
     test_effective_addresses_all_caves,
     test_mode_read_resolves_to_sentinel,
     test_regression_catches_v171_bugs,
+    test_stale_arena_table_read_flagged,
     test_built_exe_caves_semantics,
 ]
 

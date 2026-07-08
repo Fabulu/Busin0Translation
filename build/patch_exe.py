@@ -46,7 +46,14 @@ except Exception:
 
 SRC = os.path.join(os.path.dirname(__file__), "..", "extracted", "SLPM_653.78")
 DST = os.path.join(os.path.dirname(__file__), "SLPM_653.78_patched")
-EXPECTED_SIZE = 4_185_776
+EXPECTED_SIZE = 4_185_776       # pristine input size (file 0..0x3FDEB0)
+# v174 EXE-EXTENSION output size.  The 768B font-metric blob starts at file 0x3FDD00
+# (= end of PH0's file image) and ends at 0x3FE000 == the 2044-sector boundary, so the
+# EXE grows by 336 bytes into its last (already-allocated) ISO sector -- the sector COUNT
+# is unchanged (endlba stays 459462 == SYSTEM.CNF lba), so NO ISO relocation.
+OUTPUT_SIZE = 4_186_112         # 0x3FE000 (EXPECTED_SIZE + 336; blob ends at sector boundary)
+SEG_FILE_OFF = 0x3FDD00         # blob file offset (== PH0 off+filesz; PH1 p_offset)
+PH1_OFF = 0x54                  # ELF program-header 1 (spare PT_LOAD) at file 0x54
 
 # ─── CHARGEN_DIAG (default OFF) ────────────────────────────────────────────
 # When True, build/patch_exe.py installs ONLY a pure read+store DIAGNOSTIC cave
@@ -510,26 +517,25 @@ def main():
     else:
         print(f"  WARN 0x{fpitch_off:06X}: expected 0x3442C28F, got 0x{fpitch_word:08X}")
 
-    # ─── PATCH: Item-name PILL width (treasure/alchemy capsule) ─────────
-    # The rounded item-name capsule is engine-drawn at a fixed ~185px width; long
-    # English item names ("Town Return Potion", "Zateal Spell Book") spill past its
-    # rounded caps.  Width is a box-draw immediate at VA 0x13F688 (addiu a1,zero,185;
-    # a2=8 = corner radius -> a rounded pill).  Of only 5 sites project-wide that set
-    # exactly 185, this is the strongest 2D-UI match.  In-place .text immediate, VA far
-    # below the battle arena (0x13F688 << 0x4B0DCF) -- SAFE class, NOT a cave.  BLIND
-    # candidate, VERIFY-BY-EYE: tune PILL_W (too wide / too narrow); if the pill does
-    # NOT change on-screen, swap PILL_VA to the next candidate (0x170EC4).
-    PILL_VA, PILL_W = 0x13F688, 440   # candidate site; target px (orig 185; #1@260 grew -> more headroom)
-    print("\n--- Patch: item-name pill width 185 -> %d @VA 0x%06X ---" % (PILL_W, PILL_VA))
-    pill_off = PILL_VA - 0x100000 + 0x80
+    # ─── PATCH: Item-name PILL width — WITHDLED (caused the v175–v178 white-banner
+    # regression).  185 at VA 0x13F688 is NOT a pixel width: the function at
+    # ~0x13F5xx draws a 3-part stretchable box via three `jal 0x14DF30` calls with
+    # a1 = 0xB8/0xB9/0xBA (184=left cap, 185=MIDDLE TILE ID, 186=right cap); the
+    # real width is the caller-computed s0 passed on the stack (`sd s0,(sp)`), and
+    # the middle call is skipped when s0<=0 (`blez`).  Patching 185->440 made the
+    # middle segment reference a wrong/absent tile, which is exactly the chargen
+    # white-banner regression (caps still drew, middle vanished; RAM-verified 440
+    # in 177gender/stillborked vs 185 in 168gender).  The item-name spill fix must
+    # instead adjust the CALLER's s0 width computation — do NOT re-enable this.
+    print("\n--- Patch: item-name pill @0x13F688 DISABLED (tile ID, not width — banner regression) ---")
+    pill_off = 0x13F688 - 0x100000 + 0x80
     pill_word = struct.unpack_from("<I", data, pill_off)[0]
     _rt = (pill_word >> 16) & 31
-    if (pill_word >> 26) == 0x09 and ((pill_word >> 21) & 31) == 0 and (pill_word & 0xFFFF) == 0xB9:
-        struct.pack_into("<I", data, pill_off, (0x24000000 | (_rt << 16)) | (PILL_W & 0xFFFF))
-        print(f"  OK   0x{pill_off:06X}: pill width 185 -> {PILL_W} (addiu ${_rt})")
-        patched_count += 1
+    if (pill_word >> 26) == 0x09 and ((pill_word >> 21) & 31) == 0 and (pill_word & 0xFFFF) != 0xB9:
+        struct.pack_into("<I", data, pill_off, (0x24000000 | (_rt << 16)) | 0xB9)
+        print(f"  OK   0x{pill_off:06X}: restored middle-tile id 0xB9 (was 0x{pill_word:08X})")
     else:
-        print(f"  WARN 0x{pill_off:06X}: expected addiu rt,zero,185, got 0x{pill_word:08X}")
+        print(f"  OK   0x{pill_off:06X}: pristine (0x{pill_word:08X})")
 
     # ─── PATCH 13: Narration glyph advance 24px -> 18px + re-centering ──
     # The narration renderer (func 0x307da0, R1188 sprites at GS TBP0=0x3000)
@@ -616,11 +622,17 @@ def main():
     elif h1 == 0x87A201CE and h2 == 0x00EC6021:
         RELOC.assert_install_safe(RELOC.P14C1_VA, len(p14c1) * 4, "Patch 14 cave1")
         RELOC.assert_install_safe(RELOC.P14C2_VA, len(p14c2) * 4, "Patch 14 cave2")
-        # ---- canonical 256B tables (whitelisted resident rodata; caves + P19/25/26 read) ----
-        RELOC.assert_install_safe(0x4C7564, 256, "Patch 14 ADV table", allow_canonical_table=True)
-        RELOC.assert_install_safe(0x4C7690, 256, "Patch 14 LSH table", allow_canonical_table=True)
-        data[P14_TBL1:P14_TBL1 + 256] = glyph_metrics.adv_table_256()
-        data[P14_TBL2:P14_TBL2 + 256] = glyph_metrics.leftshift_table_256()
+        # ---- v174 EXE-EXTENSION: the ADV/LSH/ADV2 tables are NO LONGER written into the
+        # battle arena.  They live in the new file-backed PT_LOAD @0x580000 (written by the
+        # "EXE-EXTENSION" block just before write-out).  Here we ZERO the two old in-arena
+        # windows (0x4C7564 / 0x4C7690) so the arena 0x4B0E00..0x4FDE30 ships byte-identical
+        # to pristine (the battle fix; both windows are all-zero in the pristine EXE).  The
+        # caves read the segment tables (ADV_VA/LSH_VA/ADV2_VA = 0x580000/0x580100/0x580200).
+        RELOC.assert_install_safe(RELOC.ADV_VA, 256, "seg ADV table", allow_canonical_table=True)
+        RELOC.assert_install_safe(RELOC.LSH_VA, 256, "seg LSH table", allow_canonical_table=True)
+        RELOC.assert_install_safe(RELOC.ADV2_VA, 256, "seg ADV2 table", allow_canonical_table=True)
+        data[P14_TBL1:P14_TBL1 + 256] = b"\x00" * 256   # vacate old in-arena ADV -> pristine
+        data[P14_TBL2:P14_TBL2 + 256] = b"\x00" * 256   # vacate old in-arena LSH -> pristine
         # ---- Stage-1 advance cave (relocated @RELOC.P14C1_VA) ----
         for i, w in enumerate(p14c1):
             struct.pack_into("<I", data, f_c1 + i * 4, w)
@@ -636,7 +648,8 @@ def main():
                 struct.pack_into("<I", data, off, new)
         print(f"  OK   advance LUT @0x{RELOC.P14C1_VA:06X} + draw-shift @0x{RELOC.P14C2_VA:06X} "
               f"(RELOCATED below arena; avg {sum(glyph_metrics.ADV)/95:.1f}px); "
-              f"canonical 256B tables @0x4C7564/0x4C7690; gate marker @0x209820=0x{NEW_H1:08X}")
+              f"segment tables @0x{RELOC.ADV_VA:06X}/0x{RELOC.LSH_VA:06X}/0x{RELOC.ADV2_VA:06X} "
+              f"(old in-arena windows vacated); gate marker @0x209820=0x{NEW_H1:08X}")
         patched_count += 1
     else:
         print(f"  WARN proportional caves not applied: hook1=0x{h1:08X} hook2=0x{h2:08X}")
@@ -843,9 +856,9 @@ def main():
         0x24080005,  # li   $t0, 5
         0x14280008,  # bne  $at, $t0, STOCK(0x4D6630) ; mode!=5 -> stock 24px
         0x00031A02,  # srl  $v1, $v1, 8          ; (delay) char-32 = HIGH byte
-        0x3C08004C,  # lui  $t0, 0x4C            ; t0 = 0x4C0000 (resident ADV @+0x7564)
+        0x3C080012,  # lui  $t0, 0x12            ; FIX B: t0 = 0x120000 (ADV_VA 0x1215B4)
         0x01034021,  # addu $t0, $t0, $v1
-        0x91087564,  # lbu  $t0, 0x7564($t0)     ; ADV[char-32]
+        0x910815B4,  # lbu  $t0, 0x15B4($t0)     ; ADV[char-32] @0x1215B4 (freed strncpy span)
         0x87A201CC,  # lh   $v0, 0x1cc($sp)      ; pen
         0x00481021,  # addu $v0, $v0, $t0        ; pen += ADV
         0x10000003,  # b    STORE(0x4D6638)
@@ -864,9 +877,9 @@ def main():
         0x17380006,  # bne  $t9, $t8, DONE(0x4D6688) ; mode!=5 -> no shift
         0x86390040,  # lh   $t9, 0x40($s1)       ; (delay) cell
         0x0019CA02,  # srl  $t9, $t9, 8          ; char-32 = HIGH byte
-        0x3C01004C,  # lui  $at, 0x4C            ; at = 0x4C0000 (resident LEFTSHIFT @+0x7690)
+        0x3C010012,  # lui  $at, 0x12            ; FIX B: at = 0x120000 (LSH_VA 0x121614)
         0x00390821,  # addu $at, $at, $t9
-        0x90217690,  # lbu  $at, 0x7690($at)     ; LEFTSHIFT[char-32]
+        0x90211610,  # lbu  $at, 0x1610($at)     ; LEFTSHIFT[char-32] @0x121610 (freed span, LSH)
         0x00611823,  # subu $v1, $v1, $at        ; penX -= LEFTSHIFT (draw-X only)
         0x080C2007,  # DONE: j 0x30801C
         0x00000000,  # nop
@@ -1005,9 +1018,9 @@ def main():
         0x10200009,  # 0x4C77C8  beqz  at,0x4C77F0      ; gid>=95 -> STOCK
         0x00000000,  # 0x4C77CC  nop
         0x86430000,  # 0x4C77D0  lh    v1,0(s2)         ; cursor X
-        0x3C01004C,  # 0x4C77D4  lui   at,0x4C          ; v173: canonical ADV table base 0x4C0000
+        0x3C010012,  # 0x4C77D4  lui   at,0x12          ; FIX B: R2100 ADV2 base 0x120000 (0x121674)
         0x00220821,  # 0x4C77D8  addu  at,at,v0
-        0x90217564,  # 0x4C77DC  lbu   at,0x7564(at)    ; ADV[gid] @0x4C7564 (canonical R1188)
+        0x9021166C,  # 0x4C77DC  lbu   at,0x166C(at)    ; ADV2[gid] @0x12166C (R2100 chargen)
         0x00611821,  # 0x4C77E0  addu  v1,v1,at         ; cursor += ADV
         0xA6430000,  # 0x4C77E4  sh    v1,0(s2)
         0x080C1E80,  # 0x4C77E8  j     0x307A00         ; loop tail (proportional done)
@@ -1781,9 +1794,9 @@ def main():
     p25_cave = [
         0x96A20002,  # 0x4CAA48  lhu  v0, 2(s5)        ; v0 = current glyph cell (s5 not yet bumped)
         0x0002C202,  # 0x4CAA4C  srl  t8, v0, 8        ; t8 = gid = cell>>8 (hi byte = char-32)
-        0x3C01004C,  # 0x4CAA50  lui  at, 0x4C         ; at = 0x4C0000 (resident ADV @+0x7564)
-        0x00380821,  # 0x4CAA54  addu at, at, t8       ; at = 0x4C0000 + gid
-        0x90397564,  # 0x4CAA58  lbu  t9, 0x7564(at)   ; t9 = ADV[gid]
+        0x3C010012,  # 0x4CAA50  lui  at, 0x12         ; FIX B: at = 0x120000 (ADV2 base 0x121674)
+        0x00380821,  # 0x4CAA54  addu at, at, t8       ; at = 0x120000 + gid
+        0x9039166C,  # 0x4CAA58  lbu  t9, 0x166C(at)   ; t9 = ADV2[gid] @0x12166C
         0x87A201CE,  # 0x4CAA5C  lh   v0, 0x1ce(sp)    ; v0 = pen (displaced hook insn)
         0x00591021,  # 0x4CAA60  addu v0, v0, t9       ; pen += ADV
         0xA7A201CE,  # 0x4CAA64  sh   v0, 0x1ce(sp)    ; store pen
@@ -1884,6 +1897,53 @@ def main():
     # so the game CAN write it at runtime.  That is exactly why nothing may be cave-installed
     # there; the v148 guardrail (RELOC.assert_install_safe) now forbids any such placement.
     print("\n--- Patch 18: DELETED (request freeze root-fixed in R39; dead constants removed v148) ---")
+
+    # ─── PATCH FIX B (v175): shrink strncpy, tables live in the FREED span ──────
+    # v174's ELF segment @0x580000 boots to BIOS; a clean LIEF-added segment CRASHES
+    # PCSX2 -- this game's loader rejects any added/edited program header.  FIX B
+    # changes ZERO ELF structure: overwrite the self-contained libc strncpy @0x121568
+    # (444B) with a 76B replacement that is PROVEN byte-for-byte equivalent
+    # (tests/test_shrink_equivalence.py -- dual oracle, 2008 cases) and drop the three
+    # 95-byte metric tables into the freed tail.  Every table reader now points at the
+    # freed span: the 4 hardcoded P19/ADV2 caves above (lui 0x12 / lbu 0x15B4/0x1614/
+    # 0x1674) + the _reloc P14/26/27/29/31 caves (via ADV_VA/LSH_VA/ADV2_VA).  ARENA
+    # (0x4B0E00..0x4FDE30) ships byte-identical to pristine.  NO ISO growth, no header
+    # edit.  Precedent: Tales-of-Rebirth slps.asm (reclaim-a-routine + repoint).
+    print("\n--- PATCH FIX B (v175): strncpy shrink @0x%06X + 3 tables in freed span ---"
+          % RELOC.STRNCPY_VA)
+    assert len(data) == EXPECTED_SIZE, (
+        "FIX B expects pristine-size input (%d), got %d" % (EXPECTED_SIZE, len(data)))
+    pristine = open(src, "rb").read()
+
+    # (1) verify the target is the untouched pristine strncpy, then overwrite its body.
+    repl = RELOC.build_strncpy_replacement()
+    sf = RELOC.STRNCPY_FILE
+    olen = RELOC.STRNCPY_ORIG_LEN
+    assert data[sf:sf + olen] == pristine[sf:sf + olen], (
+        "strncpy @0x%06X modified before FIX B -- unexpected" % RELOC.STRNCPY_VA)
+    assert len(repl) <= olen, "replacement (%dB) > original (%dB)" % (len(repl), olen)
+    data[sf:sf + olen] = b"\x00" * olen        # clear the whole original body
+    data[sf:sf + len(repl)] = repl             # write the compact replacement
+
+    # (2) place the three 95-byte tables in the freed tail (after the replacement).
+    for va, tbl in RELOC.build_metric_tables():
+        tf = va - 0x100000 + 0x80
+        assert sf + len(repl) <= tf and tf + len(tbl) <= sf + olen, (
+            "table @0x%06X (file 0x%06X) does not fit in the freed strncpy span" % (va, tf))
+        data[tf:tf + len(tbl)] = tbl
+
+    # (3) invariants: no ISO growth, ELF structure untouched, arena pristine.
+    assert len(data) == EXPECTED_SIZE, "FIX B must not change EXE size (got %d)" % len(data)
+    assert struct.unpack_from("<H", data, 0x2C)[0] == 2, "e_phnum must stay 2 (no segment)"
+    assert data[0x20:0x24] == pristine[0x20:0x24], "e_shoff must stay pristine (no segment)"
+    for va, fo in ((0x4C7564, P14_TBL1), (0x4C7690, P14_TBL2)):
+        assert data[fo:fo + 256] == b"\x00" * 256 == pristine[fo:fo + 256], (
+            "BATTLE-FIX BROKEN: in-arena table window VA 0x%06X (file 0x%06X) is NOT "
+            "pristine-zero -- a metric table is still resident in the arena" % (va, fo))
+    print("  OK   strncpy %dB -> %dB (frees %dB); ADV/LSH/ADV2 @0x%06X/0x%06X/0x%06X in freed span"
+          % (olen, len(repl), olen - len(repl), RELOC.ADV_VA, RELOC.LSH_VA, RELOC.ADV2_VA))
+    print("  OK   no ISO growth, e_phnum=2, e_shoff pristine; in-arena 0x4C7564/0x4C7690 pristine-zero (battle fix)")
+    patched_count += 1
 
     # ─── Write output ──────────────────────────────────────────────────
     os.makedirs(os.path.dirname(dst), exist_ok=True)

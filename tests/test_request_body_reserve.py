@@ -100,6 +100,9 @@ from _helpers import (  # noqa: E402  (path insert first)
 
 import glyph_metrics  # noqa: E402  (TOOLS_DIR put on sys.path by _helpers)
 
+sys.path.insert(0, os.path.join(ROOT, "build"))
+import _reloc_v147_design as RELOC  # noqa: E402  (freed-span table VAs, single source)
+
 PATCH_EXE = os.path.join(ROOT, "build", "patch_exe.py")
 PATCHED_EXE = os.path.join(ROOT, "build", "SLPM_653.78_patched")
 PRISTINE_EXE = os.path.join(ROOT, "extracted", "SLPM_653.78")
@@ -458,13 +461,16 @@ def test_tier2_advance_equals_built_table_default_metric():
     default-glyph advance.  Confirms the per-glyph advance, the reserve and the build
     wrap all consume the ONE SoT table (it is byte-identical to glyph_metrics)."""
     data = _patched()
-    adv_tbl_fo = _fo(0x4C7564)
-    tbl = data[adv_tbl_fo:adv_tbl_fo + 256]
-    assert tbl == glyph_metrics.adv_table_256(), (
-        "the resident ADV table in the built EXE is not glyph_metrics.adv_table_256() "
-        "-- the default-metric the advance literal must match is from a desynced table"
+    adv_tbl_fo = RELOC.fo(RELOC.ADV_VA)   # v175 Option E: ADV table in the freed strncpy span (VA 0x1215B4)
+    N = RELOC.TABLE_ENTRIES               # 92 (four 92B tables pack the freed span)
+    tbl = data[adv_tbl_fo:adv_tbl_fo + N]
+    assert tbl == glyph_metrics.adv_table_256()[:N], (
+        "the resident ADV table in the built EXE is not glyph_metrics.adv_table_256()[:%d] "
+        "-- the default-metric the advance literal must match is from a desynced table" % N
     )
-    default_metric = tbl[255]  # the 95..255 fill byte == the default-glyph advance
+    # The freed-span table ships only the 92 real glyphs; the default-metric fill byte
+    # (indices 95..255) lives in the SoT's full 256-byte table.
+    default_metric = glyph_metrics.adv_table_256()[255]  # default-glyph advance (SoT)
     shipped = _w(data, ADV_B[0]) & 0xFFFF
     assert shipped == default_metric == 18, (
         "shipped advance imm (%d) != built-table default-metric (%d) -- the request "

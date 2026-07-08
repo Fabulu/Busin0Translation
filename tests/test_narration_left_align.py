@@ -147,7 +147,7 @@ P20_FOS = (0x205A00, 0x205A14, 0x205A70, 0x205A84)
 P14_MODE2_FOS = (_fo(0x308364), _fo(0x30836C))  # 0x2083E4, 0x2083EC
 
 # Narration per-glyph advance = the resident Patch-14 ADV LUT (Block-3 hook).
-ADV_TBL_FO = _fo(0x4C7564)    # 0x3C75E4
+ADV_TBL_FO = RELOC.fo(RELOC.ADV_VA)   # v175 FIX B: ADV table in the freed strncpy span (VA 0x1215B4)
 P14_HOOK_FO = _fo(0x3097A0)   # 0x209820  Patch-14 resident-table hook word
 P14_GATE_WORD = RELOC.NEW_GATE_MARKER    # j relocated P14 cave1 (Patch 14 hook -> ADV table present, v147)
 
@@ -435,10 +435,11 @@ def test_tier2_narration_adv_table_is_glyph_metrics():
         "Patch-14 hook word @file 0x%X = 0x%08X != 0x%08X -- the resident narration "
         "ADV LUT is not installed" % (P14_HOOK_FO, _w(data, P14_HOOK_FO), P14_GATE_WORD)
     )
-    tbl = data[ADV_TBL_FO:ADV_TBL_FO + 256]
-    assert tbl == glyph_metrics.adv_table_256(), (
-        "resident ADV table @file 0x%X != glyph_metrics.adv_table_256() -- the "
-        "narration per-glyph advance has desynced from the SoT" % ADV_TBL_FO
+    N = RELOC.TABLE_ENTRIES   # v175 Option E: 92 (four 92B tables pack the freed span)
+    tbl = data[ADV_TBL_FO:ADV_TBL_FO + N]
+    assert tbl == glyph_metrics.adv_table_256()[:N], (
+        "resident ADV table @file 0x%X != glyph_metrics.adv_table_256()[:%d] -- the "
+        "narration per-glyph advance has desynced from the SoT" % (ADV_TBL_FO, N)
     )
 
 

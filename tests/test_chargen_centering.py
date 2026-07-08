@@ -128,9 +128,11 @@ HOOK3_FO = _fo(0x307FBC)   # 0x20803C  centering head -- Stage 3 NOT hooked (PRI
 # Cave bodies -- v148 RELOCATED below the EE battle-heap arena (was 0x4D6600/0x4D6660).
 CAVE1_FO = _fo(RELOC.P19C1_VA)   # Stage 1 advance LUT (17 words)
 CAVE2_FO = _fo(RELOC.P19C2_VA)   # Stage 2 draw-shift  (12 words)
-# Resident tables Patch 14 installs (the caves READ these -- never recompute)
-ADV_TBL_FO = _fo(0x4C7564)   # 0x3C75E4
-LSH_TBL_FO = _fo(0x4C7690)   # 0x3C7710
+# v175 FIX B: the ADV/LSH tables live in the freed tail of the shrunk libc strncpy
+# (ADV @VA 0x1215B4, LSH @VA 0x121614).  The caves READ these -- never recompute.
+# File offset via the ordinary fo() = VA - 0x100000 + 0x80.
+ADV_TBL_FO = RELOC.fo(RELOC.ADV_VA)   # ADV_VA 0x1215B4 -> file 0x21634
+LSH_TBL_FO = RELOC.fo(RELOC.LSH_VA)   # v175 Option E: LSH_VA 0x121610 -> file 0x21690
 P14_HOOK1_FO = _fo(0x3097A0)  # 0x209820  Patch-14 resident-table gate word
 
 # Trampoline j-words Patch 19 writes at each hook (v148 relocated targets)
@@ -152,7 +154,7 @@ J_RET2 = 0x080C2007  # j 0x30801C  (draw-shift cave)
 #   cave1[2]  li  $t0,5              mode-5 literal     (0x24080005)
 #   cave1[3]  bne $at,$t0,STOCK      mode gate          (op 0x05)
 #   cave1[4]  srl $v1,$v1,8          BIG-ENDIAN hi byte (funct 0x02, sa 8)
-#   cave1[7]  lbu $t0,0x7564($t0)    resident ADV read  (0x91087564)
+#   cave1[7]  lbu $t0,0x15B4($t0)    freed-span ADV read (v175 FIX B; 0x910815B4)
 #   cave1[8]  lh  $v0,0x1cc($sp)     chargen pen        (imm 0x1cc)
 #   cave1[13] addiu $v0,$v0,0x18     STOCK 24px fallback (0x24420018)
 #   cave1[14] sh  $v0,0x1cc($sp)     pen store          (imm 0x1cc)
@@ -161,14 +163,14 @@ J_RET2 = 0x080C2007  # j 0x30801C  (draw-shift cave)
 #   cave2[1]  lh  $v1,0x1cc($sp)     penX (displaced hook)      (imm 0x1cc)
 #   cave2[3]  bne $t9,$t8,DONE       mode gate          (op 0x05)
 #   cave2[5]  srl $t9,$t9,8          BIG-ENDIAN hi byte (funct 0x02, sa 8)
-#   cave2[8]  lbu $at,0x7690($at)    resident LEFTSHIFT read    (0x90217690)
+#   cave2[8]  lbu $at,0x1610($at)    freed-span LEFTSHIFT read (v175 Option E; 0x90211610)
 #   cave2[10] j   0x30801C           return
 MODE_READ_GP_IMM = 0x9D28   # lw rt,-0x62d8($gp): -0x62d8 as u16
 GP_REG = 28                 # $gp
 AT_REG, T9_REG = 1, 25
 MODE5_LI = 0x24080005       # li $t0,5  (the chargen mode literal in cave1)
-ADV_LBU_IMM = 0x7564        # lbu ...,0x7564(base) -> resident ADV   @0x4C7564 + gid
-LSH_LBU_IMM = 0x7690        # lbu ...,0x7690(base) -> resident LEFTSHIFT @0x4C7690 + gid
+ADV_LBU_IMM = RELOC.ADV_VA & 0xFFFF   # v175 FIX B: lbu ...,0x15B4(base) -> freed-span ADV @0x1215B4 + gid
+LSH_LBU_IMM = RELOC.LSH_VA & 0xFFFF   # v175 Option E: lbu ...,0x1610(base) -> freed-span LEFTSHIFT @0x121610 + gid
 CHARGEN_PEN_IMM = 0x1CC     # chargen pen slot 0x1cc(sp) -- DISTINCT from narration 0x1ce
 NARRATION_PEN_IMM = 0x1CE
 STOCK_ADV_WORD = 0x24420018  # addiu $v0,$v0,0x18 -- the mode!=5 stock fallback advance
@@ -452,8 +454,8 @@ def test_tier2_caves_read_sot_tables_use_chargen_pen_and_gate_mode5():
     # lbu of the resident ADV table @0x7564
     c1_lbu = _w(data, CAVE1_FO + 7 * 4)
     assert (c1_lbu & 0xFFFF) == ADV_LBU_IMM, (
-        "advance cave lbu imm16 = 0x%04X != 0x%04X -- it does NOT read the Patch-14 "
-        "resident ADV table @0x4C7564" % (c1_lbu & 0xFFFF, ADV_LBU_IMM)
+        "advance cave lbu imm16 = 0x%04X != 0x%04X -- it does NOT read the freed-span "
+        "ADV table @0x1215B4" % (c1_lbu & 0xFFFF, ADV_LBU_IMM)
     )
     # chargen pen 0x1cc(sp) load (word[8]) + store (word[14])
     c1_lh = _w(data, CAVE1_FO + 8 * 4)
@@ -484,8 +486,8 @@ def test_tier2_caves_read_sot_tables_use_chargen_pen_and_gate_mode5():
     )
     c2_lbu = _w(data, CAVE2_FO + 8 * 4)
     assert (c2_lbu & 0xFFFF) == LSH_LBU_IMM, (
-        "draw-shift cave lbu imm16 = 0x%04X != 0x%04X -- it does NOT read the Patch-"
-        "14 resident LEFTSHIFT table @0x4C7690" % (c2_lbu & 0xFFFF, LSH_LBU_IMM)
+        "draw-shift cave lbu imm16 = 0x%04X != 0x%04X -- it does NOT read the freed-"
+        "span LEFTSHIFT table @0x121614" % (c2_lbu & 0xFFFF, LSH_LBU_IMM)
     )
     assert _w(data, CAVE2_FO + 10 * 4) == J_RET2, (
         "draw-shift cave does not j 0x30801C back into Path-1 (got 0x%08X)"
@@ -511,15 +513,16 @@ def test_tier2_resident_tables_are_glyph_metrics():
     leftshift_table_256() -- advance, draw-shift AND the build wrap all consume the
     ONE SoT, so they can never desync (project bug #1)."""
     data = _patched()
-    adv = data[ADV_TBL_FO:ADV_TBL_FO + 256]
-    lsh = data[LSH_TBL_FO:LSH_TBL_FO + 256]
-    assert adv == glyph_metrics.adv_table_256(), (
-        "resident ADV table @file 0x%X != glyph_metrics.adv_table_256() -- the "
-        "Patch-19 advance cave would use a desynced table" % ADV_TBL_FO
+    N = RELOC.TABLE_ENTRIES   # v175 Option E: 92 (four 92B tables pack the freed span)
+    adv = data[ADV_TBL_FO:ADV_TBL_FO + N]
+    lsh = data[LSH_TBL_FO:LSH_TBL_FO + N]
+    assert adv == glyph_metrics.adv_table_256()[:N], (
+        "resident ADV table @file 0x%X != glyph_metrics.adv_table_256()[:%d] -- the "
+        "Patch-19 advance cave would use a desynced table" % (ADV_TBL_FO, N)
     )
-    assert lsh == glyph_metrics.leftshift_table_256(), (
-        "resident LEFTSHIFT table @file 0x%X != glyph_metrics.leftshift_table_256() "
-        "-- the Patch-19 draw-shift cave would use a desynced table" % LSH_TBL_FO
+    assert lsh == glyph_metrics.leftshift_table_256()[:N], (
+        "resident LEFTSHIFT table @file 0x%X != glyph_metrics.leftshift_table_256()[:%d] "
+        "-- the Patch-19 draw-shift cave would use a desynced table" % (LSH_TBL_FO, N)
     )
 
 
@@ -528,7 +531,7 @@ def test_tier2_live_table_width_equals_glyph_metrics():
     a real chargen line equals glyph_metrics.px_width -- the live per-glyph advance IS
     the SoT line width (no recompute)."""
     data = _patched()
-    live = data[ADV_TBL_FO:ADV_TBL_FO + 256]
+    live = data[ADV_TBL_FO:ADV_TBL_FO + 95]
     for phrase in ("Lives to hoard gold.", "Enter your name.", "Select personality."):
         model = _sot_width(_enc(phrase), live)
         truth = glyph_metrics.px_width(phrase, lambda c: ord(c) - 32)

@@ -57,17 +57,35 @@ def test_d1_hooks_are_jal_to_frag1():
 
 
 def test_d2_frag1_sources_lsh_from_canonical_table():
-    """v173 FINAL BATTLE-FIX: frag1 READS LEFTSHIFT from the CANONICAL R1188 LSH table
-    @0x4C7690 (lui t9,0x4C ; ... ; lbu t9,0x7690(t9)).  The v158 R2100 in-arena table
-    (0x4B1100) was DROPPED -- it softlocked battle at every arena placement -- so LSH2_VA
-    now ALIASES the canonical LSH_VA and NOTHING is read from the arena."""
+    """v175 Option E ("holy fix"): frag1 READS LEFTSHIFT from the SEPARATE R2100 chargen
+    leftshift table LSH2 @0x1216C8 (lui t9,0x12 ; ... ; lbu t9,0x16C8(t9)).  LSH2 is NO
+    LONGER aliased to the R1188 LSH -- it is the fourth 92-byte table packed directly
+    after ADV2 in the freed strncpy span.  Aliasing LSH2 to the wide R1188 leftshift
+    yanked chargen glyphs past the tight ADV2 advance (the "worse than ever" blow-out),
+    so the alias MUST be gone."""
     f1 = RELOC.P29_F1_WORDS
-    assert RELOC.LSH2_VA == RELOC.LSH_VA == 0x4C7690
+    # LSH2 is a SEPARATE table, packed right after ADV2 (ADV|LSH|ADV2|LSH2 at +0/+N/+2N/+3N).
+    assert RELOC.LSH2_VA == RELOC.ADV2_VA + RELOC.TABLE_ENTRIES, (
+        "v175 Option E: LSH2_VA must pack directly after ADV2 (ADV2_VA + %d); got "
+        "ADV2=0x%06X LSH2=0x%06X" % (RELOC.TABLE_ENTRIES, RELOC.ADV2_VA, RELOC.LSH2_VA)
+    )
+    assert RELOC.LSH2_VA != RELOC.LSH_VA, (
+        "v175 Option E: LSH2 must NOT be aliased to the R1188 LSH -- the alias is the "
+        "chargen blow-out this fix removes"
+    )
+    assert (RELOC.LSH2_VA & 0xFFFF) < 0x8000  # no lbu sign-extension carry
     assert any(_op(w) == 0x0F and _imm(w) == (RELOC.LSH2_VA >> 16) for w in f1), (
-        "frag1 must lui the canonical LSH table base 0x%X0000" % (RELOC.LSH2_VA >> 16)
+        "frag1 must lui the freed-span LSH2 table base 0x%X0000" % (RELOC.LSH2_VA >> 16)
     )
     assert any(_op(w) == 0x24 and _imm(w) == (RELOC.LSH2_VA & 0xFFFF) for w in f1), (
-        "frag1 must lbu LEFTSHIFT[gid] at 0x%X == RELOC.LSH2_VA" % (RELOC.LSH2_VA & 0xFFFF)
+        "frag1 must lbu LEFTSHIFT2[gid] at 0x%X == RELOC.LSH2_VA" % (RELOC.LSH2_VA & 0xFFFF)
+    )
+    # The table the frag indexes must be the real R2100 chargen leftshift (leftshift2).
+    import glyph_metrics  # noqa: E402
+    tbls = dict(RELOC.build_metric_tables())
+    assert tbls[RELOC.LSH2_VA] == bytes(glyph_metrics.leftshift2_table_256()[:RELOC.TABLE_ENTRIES]), (
+        "the LSH2 table frag1 reads is not glyph_metrics.leftshift2_table_256()[:%d] -- "
+        "the chargen leftshift has desynced from the R2100 SoT" % RELOC.TABLE_ENTRIES
     )
     # TEETH: the OLD in-arena R2100 read (lui 0x4B / lbu 0x1100) must be GONE -- that is the
     # exact placement that softlocked battle.
@@ -95,12 +113,15 @@ def test_d4_mode_gate_present_matches_patch27_read():
     mode subtracts nothing (byte-identical stock draw-X)."""
     f1 = RELOC.P29_F1_WORDS
     f2 = RELOC.P29_F2_WORDS
-    assert any(_op(w) == 0x0F and _imm(w) == 0x0050 for w in f1), "mode read: lui 0x50"
-    assert any(_op(w) == 0x23 and _imm(w) == (0x10000 - 0x12E8) for w in f1), (
+    all_words = list(f1) + list(f2)
+    # v175 gender guard: the mode-read base (lui 0x50) stays in frag1's delay slot, but
+    # the `lw -0x12E8` tail moved into frag2 (to free 2 words for the sltiu/movz guard),
+    # so the read spans the boundary -- check across both fragments.
+    assert any(_op(w) == 0x0F and _imm(w) == 0x0050 for w in f1), "mode read: lui 0x50 (frag1 delay slot)"
+    assert any(_op(w) == 0x23 and _imm(w) == (0x10000 - 0x12E8) for w in all_words), (
         "mode read: lw -0x12E8 (RAM 0x4FED18) -- same as Patch 27"
     )
     # gate fold: addiu at,at,-5 then andi at,at,0xFFFD (true iff mode in {5,7})
-    all_words = list(f1) + list(f2)
     assert any(_op(w) == 0x09 and _imm(w) == (0x10000 - 5) for w in all_words), (
         "gate must subtract 5 (mode-5)"
     )
@@ -185,17 +206,27 @@ def test_b2_built_fragments_match_design():
 
 
 def test_b3_built_cave_reads_lsh_and_gates():
-    """Built EXE frag1 contains the lbu LSH2 read (v158: 0x1100(0x4B0000)) and the
-    lw -0x12E8 (mode read) -- proves the shipped cave both sources LSH2 and
-    mode-gates."""
+    """Built EXE frag1 contains the lbu LSH2 read and (v175) the frag2 lw -0x12E8
+    (mode read moved there to make room for the gender-tile guard) -- proves the
+    shipped cave both sources LSH2 and mode-gates."""
     data = _load_patched()
-    f = RELOC.fo(RELOC.P29_F1_VA)
-    words = [struct.unpack_from("<I", data, f + i * 4)[0] for i in range(len(RELOC.P29_F1_WORDS))]
-    assert any(_op(w) == 0x24 and _imm(w) == (RELOC.LSH2_VA & 0xFFFF) for w in words), (
+    f1 = RELOC.fo(RELOC.P29_F1_VA)
+    f2 = RELOC.fo(RELOC.P29_F2_VA)
+    w1 = [struct.unpack_from("<I", data, f1 + i * 4)[0] for i in range(len(RELOC.P29_F1_WORDS))]
+    w2 = [struct.unpack_from("<I", data, f2 + i * 4)[0] for i in range(len(RELOC.P29_F2_WORDS))]
+    assert any(_op(w) == 0x24 and _imm(w) == (RELOC.LSH2_VA & 0xFFFF) for w in w1), (
         "shipped frag1 must read LSH2 @0x%X" % (RELOC.LSH2_VA & 0xFFFF)
     )
-    assert any(_op(w) == 0x23 and _imm(w) == (0x10000 - 0x12E8) for w in words), (
-        "shipped frag1 must read mode @-0x12E8 (the {5,7} gate)"
+    assert any(_op(w) == 0x23 and _imm(w) == (0x10000 - 0x12E8) for w in (w1 + w2)), (
+        "shipped cave must read mode @-0x12E8 (the {5,7} gate)"
+    )
+    # v175: the gender-tile guard -- sltiu t8,gid,92 (op 0x0B, imm 92) + movz t9,zero,t8
+    # (op 0, funct 0x0A) -- must be present in frag1 so gid>=92 (tiles) -> shift 0.
+    assert any(_op(w) == 0x0B and _imm(w) == RELOC.TABLE_ENTRIES for w in w1), (
+        "shipped frag1 must carry the sltiu gid<%d gender-tile guard" % RELOC.TABLE_ENTRIES
+    )
+    assert any(_op(w) == 0x00 and _fn(w) == 0x0A for w in w1), (
+        "shipped frag1 must carry the movz (zero the shift for gid>=92 tiles)"
     )
 
 

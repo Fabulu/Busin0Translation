@@ -52,6 +52,7 @@ MODULES = [
     "test_chargen_lsh_patch29",
     "test_chargen_sidebar_patch30",
     "test_chargen_lsh_patch31",
+    "test_chargen_spacing",
     "test_chargen_class_descriptions",
     "test_chargen_centering",
     "test_chargen_diag_guard",
@@ -59,8 +60,11 @@ MODULES = [
     "test_exe_sjis_strings",
     "test_reloc_caves_installed",
     "test_cave_semantics",
+    "test_shrink_equivalence",
     "test_r47_built_output",
     "test_r2138_containment",
+    "test_pill_widen",
+    "test_banner_widget_pristine",
     "test_regress_harness",
 ]
 

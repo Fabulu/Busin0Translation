@@ -19,7 +19,7 @@ root_size = struct.unpack_from('<I', pvd, 166)[0]
 iso.seek(root_lba * 2048)
 root_dir = iso.read(root_size)
 
-pack_lba = pack_size = exe_lba = None
+pack_lba = pack_size = exe_lba = exe_size = None
 pos = 0
 while pos < len(root_dir):
     rl = root_dir[pos]
@@ -31,7 +31,14 @@ while pos < len(root_dir):
         pack_size = struct.unpack_from('<I', root_dir, pos + 10)[0]
     if 'SLPM' in nm:
         exe_lba = struct.unpack_from('<I', root_dir, pos + 2)[0]
+        exe_size = struct.unpack_from('<I', root_dir, pos + 10)[0]
     pos += rl
+
+# v174 EXE-EXTENSION: the patched EXE grows from 4,185,776 to 4,186,112 bytes (the
+# 768B font-metric segment ends exactly at the 2044-sector boundary, so the sector
+# count -- and therefore endlba/adjacency to SYSTEM.CNF -- is unchanged).  The file-
+# overlap gate below treats end_lba == next_lba as clean adjacency (l < prev_end).
+EXE_EXPECTED_SIZE = 4_185_776   # v175 FIX B: pristine size (no ISO growth, no segment)
 
 passed = 0
 failed = 0
@@ -131,6 +138,49 @@ if exe_lba:
         passed += 1
     else:
         print(f"  FAIL: EXE save slot = {save_name} (expected 'BUSIN 0')")
+        failed += 1
+
+# Test 3b (v175 FIX B): ZERO ELF-structure change -- pristine size + pristine PH1 +
+# pristine heap base; the libc strncpy @0x121568 is the verified shrunk replacement,
+# and the three metric tables live in its freed tail.
+if exe_size is not None:
+    if exe_size == EXE_EXPECTED_SIZE:
+        print(f"  PASS: EXE size = {exe_size:,} bytes (pristine -- no ISO growth)")
+        passed += 1
+    else:
+        print(f"  FAIL: EXE size = {exe_size:,} bytes (expected {EXE_EXPECTED_SIZE:,})")
+        failed += 1
+    # PH1 must stay the pristine spare (filesz==0) -- no added/edited program header.
+    iso.seek(exe_lba * 2048 + 0x54)
+    ph1 = struct.unpack('<8I', iso.read(32))
+    if ph1[4] == 0 and ph1[5] == 0:
+        print(f"  PASS: EXE PH1 pristine spare (filesz=0) -- zero ELF-structure change")
+        passed += 1
+    else:
+        print(f"  FAIL: EXE PH1 edited (filesz=0x{ph1[4]:X}) -- FIX B must not touch program headers")
+        failed += 1
+    # strncpy @VA 0x121568 (EXE file offset 0x215E8 = va-0x100000+0x80) must be the
+    # verified shrunk replacement.  Compare the FULL 76B blob from the relocation
+    # single-source so this gate fails on ANY drift, not just a coincidental first word.
+    import os as _os
+    sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), 'build'))
+    import _reloc_v147_design as _RELOC
+    _repl = _RELOC.build_strncpy_replacement()
+    iso.seek(exe_lba * 2048 + _RELOC.STRNCPY_FILE)   # 0x215E8
+    if iso.read(len(_repl)) == _repl:
+        print(f"  PASS: strncpy @0x121568 = the verified shrunk replacement ({len(_repl)}B)")
+        passed += 1
+    else:
+        print(f"  FAIL: strncpy @0x121568 is not the FIX B replacement")
+        failed += 1
+    # heap base must stay PRISTINE (FIX B does not reserve/bump it -- no segment).
+    iso.seek(exe_lba * 2048 + 0x3AF6D4)
+    heap_base = struct.unpack('<I', iso.read(4))[0]
+    if heap_base == 0x00579800:
+        print(f"  PASS: EXE heap base pristine 0x{heap_base:06X} (no sbrk bump)")
+        passed += 1
+    else:
+        print(f"  FAIL: EXE heap base = 0x{heap_base:08X} (expected pristine 0x00579800)")
         failed += 1
 
 # Test 4: R1272 font atlas size

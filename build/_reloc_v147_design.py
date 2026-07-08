@@ -58,6 +58,8 @@ def andi(rt, rs, imm):   return (0x0c << 26) | (_R(rs) << 21) | (_R(rt) << 16) |
 def sltiu(rt, rs, imm):  return (0x0b << 26) | (_R(rs) << 21) | (_R(rt) << 16) | (imm & 0xffff)
 def addu(rd, rs, rt):    return (_R(rs) << 21) | (_R(rt) << 16) | (_R(rd) << 11) | 0x21
 def subu(rd, rs, rt):    return (_R(rs) << 21) | (_R(rt) << 16) | (_R(rd) << 11) | 0x23
+def daddu(rd, rs, rt):   return (_R(rs) << 21) | (_R(rt) << 16) | (_R(rd) << 11) | 0x2d
+def sb(rt, off, rs):     return (0x28 << 26) | (_R(rs) << 21) | (_R(rt) << 16) | (off & 0xffff)
 def dsll32(rd, rt, sa):  return (_R(rt) << 16) | (_R(rd) << 11) | ((sa & 31) << 6) | 0x3c
 def dsra32(rd, rt, sa):  return (_R(rt) << 16) | (_R(rd) << 11) | ((sa & 31) << 6) | 0x3f
 def srl(rd, rt, sa):     return (_R(rt) << 16) | (_R(rd) << 11) | ((sa & 31) << 6) | 0x02
@@ -92,26 +94,88 @@ P27_VA   = 0x4AB554          # relocated Patch-27 box-text cave (20 words / 80B)
 # patch_exe's Patch-14 installer is a single-source consumer (it writes them in-arena).
 P14C1_VA = 0x4C7540          # Patch-14 advance-LUT cave (production in-arena)
 P14C2_VA = 0x4C7670          # Patch-14 draw-shift cave  (production in-arena)
-ADV_VA   = 0x4C7564          # canonical ADV table  (production in-arena)
-LSH_VA   = 0x4C7690          # canonical LEFTSHIFT table (production in-arena)
+# ── v174 EXE-EXTENSION: font metric tables moved OUT of the battle arena ──────
+# The v173 tables sat at the in-arena rodata holes 0x4C7564/0x4C7690.  Even though
+# those were proven "intact" in dumps, the FINAL battle fix requires the arena
+# (0x4B0E00..0x4FDE30) to ship byte-identical to pristine.  v174 relocates the
+# three load-bearing tables into a NEW file-backed PT_LOAD (repurposed PH1) at a
+# heap-reserved VA 0x580000 (64KiB-aligned so every cave lbu offset is <0x8000 ->
+# no sign-extension carry).  patch_exe writes the 768B blob at file 0x3FDD00 and
+# bumps the sbrk break so malloc can never hand back an address inside the segment.
+#   ADV_VA  0x580000  adv_table_256      (R1188 advance,   Patch14/19 readers)
+#   LSH_VA  0x580100  leftshift_table_256(R1188 leftshift, Patch14/19/29/31 readers)
+#   ADV2_VA 0x580200  adv2_table_256     (R2100 chargen advance, Patch26/27/25 readers)
+# v175 FIX B + Option E (the R2100 chargen-leftshift restore -- the "holy fix"):
+# FOUR metric tables live in the FREED strncpy span -- ZERO ELF-structure change
+# (the v174 PT_LOAD @0x580000 boots to BIOS; a clean LIEF-added segment crashes
+# PCSX2).  We shrink the self-contained libc strncpy @0x121568 (444B -> 76B; proven
+# byte-for-byte equivalent by tests/test_shrink_equivalence.py, dual-oracle) and pack
+# FOUR 92-byte tables into the 368B freed tail: 4*92 = 368 EXACTLY.  gids 0..91 cover
+# all real text (chargen/dialogue gid = char-0x20; max glyph 'z' = 90; dropped 92..94
+# = '|}~' never appear).  All VAs low-16 < 0x8000 (no lbu sign-ext); ~3.7MB below the
+# arena in pure .text.  ARENA ships byte-identical to pristine.  Tales-of-Rebirth
+# slps.asm precedent (c:\temp).
+#   ADV_VA  adv_table_256        R1188 dialogue advance   (P14c1/P19c1)
+#   LSH_VA  leftshift_table_256  R1188 dialogue leftshift (P14c2/P19c2)
+#   ADV2_VA adv2_table_256       R2100 chargen advance    (P26/P27)
+#   LSH2_VA leftshift2_table_256 R2100 chargen leftshift  (P29/P31)  <- the deferred
+#     4th table, NOW SHIPPED.  v174 gave chargen the tight R2100 ADVANCE but left LSH2
+#     aliased to the wide R1188 leftshift -> draw-X = pen - R1188_lsh yanked glyphs
+#     past the small pen advance (the "worse than ever" blow-out).  Shipping the
+#     matched R2100 leftshift restores the upright font clean.
+STRNCPY_VA   = 0x121568          # reclaimed libc strncpy (leaf, no gp/abs-addr, 12 callers)
+STRNCPY_FILE = STRNCPY_VA - 0x100000 + 0x80   # 0x215E8
+STRNCPY_ORIG_LEN = 444
+TABLE_ENTRIES = 92               # 4*92 = 368 = the freed span; gids 0..91 (max real 'z'=90)
+ADV_VA   = 0x1215B4                     # freed span +0x00
+LSH_VA   = ADV_VA  + TABLE_ENTRIES      # 0x121610  freed span +0x5C
+ADV2_VA  = LSH_VA  + TABLE_ENTRIES      # 0x12166C  freed span +0xB8
+LSH2_VA  = ADV2_VA + TABLE_ENTRIES      # 0x1216C8  freed span +0x114 (R2100 chargen LSH)
 
-# ── v173 BATTLE-FIX (FINAL, Option 1): R2100 tables DROPPED -> read canonical ─
-# The v158 R2100 metric tables (chargen/request UI font) were PROVEN to cause the
-# intermittent empty-monster softlock at BOTH placements they were ever tried:
-#   * arena-start hole 0x4B1000/0x4B1100  (dump "Emptyfuckyou": table present @0x4B1000,
-#     mode 8, monster-asset heap partially empty)
-#   * deep RANK-2 0x4C785F/0x4C7790        (dump "mfs")
-# The user's pristine-EXE test (NO R2100 tables anywhere) works.  ROOT: ANY of our data
-# resident in the battle arena is dragged into camera/monster setup by the arena-START
-# DMA-sweep.  FINAL FIX: STOP putting our tables in the arena at all.  The chargen/request
-# caves (P26/P27/P29/P31) now read the GAME'S OWN canonical R1188 tables -- ADV @0x4C7564 /
-# LSH @0x4C7690, installed by Patch 14 and INTACT in every battle dump -- and NOTHING is
-# written to 0x4B1000/0x4B1100.  The arena then == pristine, so battle works.  Chargen
-# reverts to the mild pre-v158 "Ge nde r" spacing (acceptable: softlock >> spacing).
-# ADV2_VA/LSH2_VA are kept as ALIASES of the canonical VAs so the address book + the
-# cave-semantics gate track the caves' real reads with no special-casing.
-ADV2_VA  = ADV_VA            # v173: caves read the CANONICAL ADV table (was R2100 @0x4B1000)
-LSH2_VA  = LSH_VA            # v173: caves read the CANONICAL LSH table (was R2100 @0x4B1100)
+
+def build_strncpy_replacement(base=STRNCPY_VA):
+    """Compact scalar strncpy (a0=dst, a1=src, a2=n -> v0=dst): 76B / 19 instrs.
+    VERIFIED byte-for-byte equivalent to the original @0x121568 by
+    tests/test_shrink_equivalence.py (dual-oracle, 2008 cases). SINGLE SOURCE:
+    both the gate and patch_exe consume this so the test proves the shipped bytes."""
+    import struct
+    COPY, PAD, DONE = base + 1 * 4, base + 10 * 4, base + 17 * 4
+    w = [
+        daddu('t0', 'a0', 'zero'),               # 0   t0 = dst (return)
+        beq('a2', 'zero', DONE, base + 1 * 4),   # 1   COPY: n==0 -> done
+        nop(),                                    # 2
+        lbu('v0', 0, 'a1'),                      # 3   v0 = *src
+        addiu('a1', 'a1', 1),                    # 4   src++
+        sb('v0', 0, 'a0'),                       # 5   *dst = v0
+        addiu('a0', 'a0', 1),                    # 6   dst++
+        addiu('a2', 'a2', -1),                   # 7   n--
+        bne('v0', 'zero', COPY, base + 8 * 4),   # 8   v0!=0 -> keep copying
+        nop(),                                    # 9
+        beq('a2', 'zero', DONE, base + 10 * 4),  # 10  PAD: n==0 -> done
+        nop(),                                    # 11
+        sb('zero', 0, 'a0'),                     # 12  *dst = 0
+        addiu('a0', 'a0', 1),                    # 13
+        addiu('a2', 'a2', -1),                   # 14
+        b(PAD, base + 15 * 4),                   # 15  -> PAD
+        nop(),                                    # 16
+        jr('ra'),                                # 17  DONE
+        daddu('v0', 't0', 'zero'),               # 18  (delay) v0 = dst
+    ]
+    return b''.join(struct.pack('<I', x) for x in w)
+
+
+def build_metric_tables():
+    """The FOUR 92-byte tables in VA order: [(va, bytes)]. Single source.
+    ADV/LSH = R1188 dialogue advance/leftshift; ADV2/LSH2 = R2100 chargen
+    advance/leftshift (Option E: the matched R2100 pair fixes the half-done
+    ADV2 restore).  4*92 = 368 = the freed span; gids 0..91 cover all real text."""
+    import glyph_metrics as gm
+    n = TABLE_ENTRIES
+    tabs = [(ADV_VA, gm.adv_table_256()),
+            (LSH_VA, gm.leftshift_table_256()),
+            (ADV2_VA, gm.adv2_table_256()),
+            (LSH2_VA, gm.leftshift2_table_256())]
+    return [(va, bytes(t[:n])) for va, t in tabs]
 
 ARENA_LO, ARENA_HI = 0x4B0E00, 0x4FDE30
 
@@ -159,9 +223,9 @@ def build_p27():
     # PROP arm (chargen/request -> proportional advance from the R2100 ADV2 table)
     i_prop = len(w)
     w.append(lbu('v1', -1, 's2'))             # 12 lbu v1,-1(s2)   ; gid (char-32, <95)
-    w.append(lui('at', 0x4C))                 # 13 lui at,0x4C      ; v173: canonical ADV table base 0x4C0000
+    w.append(lui('at', ADV2_VA >> 16))        # 13 lui at,hi(ADV2) ; v174: R2100 ADV2 table base
     w.append(addu('at', 'at', 'v1'))          # 14 addu at,at,v1
-    w.append(lbu('v1', 0x7564, 'at'))         # 15 lbu v1,0x7564(at) ; ADV[gid] @0x4C7564 (canonical R1188)
+    w.append(lbu('v1', ADV2_VA & 0xFFFF, 'at'))  # 15 lbu v1,lo(ADV2)(at) ; ADV2[gid] @segment
     # APPLY
     i_apply = len(w)
     w.append(addu('v1', 's1', 'v1'))          # 16 addu v1,s1,v1
@@ -185,10 +249,10 @@ def build_p14c1():
     # @0x4C7540: lui t0,0x4C ; andi v1,s1,0xFF ; addu t0,t0,v1 ; lbu v1,0x7564(t0) ;
     #            lh v0,0x1CE(sp) ; addu v0,v0,v1 ; sh v0,0x1CE(sp) ; j 0x3097E0 ; nop
     return [
-        lui('t0', 0x4C),                      # 0
+        lui('t0', ADV_VA >> 16),              # 0  v174: R1188 ADV table base (segment)
         andi('v1', 's1', 0xFF),               # 1
         addu('t0', 't0', 'v1'),               # 2
-        lbu('v1', 0x7564, 't0'),              # 3  ADV[gid] canonical
+        lbu('v1', ADV_VA & 0xFFFF, 't0'),     # 3  ADV[gid] @segment
         lh('v0', 0x1CE, 'sp'),                # 4
         addu('v0', 'v0', 'v1'),               # 5
         sh('v0', 0x1CE, 'sp'),                # 6
@@ -200,9 +264,9 @@ def build_p14c2():
     # @0x4C7670: lui at,0x4C ; addu at,at,s1 ; lbu at,0x7690(at) ; subu a3,a3,at ;
     #            addu t4,a3,t4 ; j 0x309758 ; nop
     return [
-        lui('at', 0x4C),                      # 0
+        lui('at', LSH_VA >> 16),              # 0  v174: R1188 LSH table base (segment)
         addu('at', 'at', 's1'),               # 1
-        lbu('at', 0x7690, 'at'),              # 2  LSH[gid] canonical
+        lbu('at', LSH_VA & 0xFFFF, 'at'),     # 2  LSH[gid] @segment
         subu('a3', 'a3', 'at'),               # 3
         addu('t4', 'a3', 't4'),               # 4
         j(0x309758),                          # 5
@@ -282,7 +346,7 @@ CAVE_RELOC = {
     "P19c2": (0x4D6660, 0x4AFA70, 48),    # chargen draw-shift cave
     "P19c1": (0x4D6600, 0x4AB5A8, 68),    # chargen advance-LUT cave
     "P29f1": (0x4B0C48, 0x4B0C48, 40),    # box-text LSH draw-shift, fragment 1 (10 words)
-    "P29f2": (0x4B0BC8, 0x4B0BC8, 16),    # box-text LSH draw-shift, fragment 2 ( 4 words)
+    "P29f2": (0x4B0BC8, 0x4B0BC8, 24),    # box-text LSH draw-shift, fragment 2 ( 6 words; v175 gender guard)
     # P31 (v157) is a NEW cave (not a relocation): the chargen DESCRIPTION-box LSH
     # draw-shift for renderer 0x307510 (the Patch-26 body-text path).  Split across
     # two verified-zero post-`jr ra` .text pads (old_va == new_va); registered here so
@@ -347,35 +411,60 @@ P19C2_HOOK_JWORD = jword(P19C2_VA)   # j 0x4AFA70
 # second branch that would not have fit.  Behaviour for every non-{5,7} mode is identical
 # to the original addu.
 #
+# v175 GENDER-TILE GUARD: frag1 gained a `sltiu t8,gid,92` + `movz t9,zero,t8` bounds
+# guard (gid>=92 -> shift 0 = the tile's natural position); see build_p29().  To make room
+# without a 3rd fragment the mode-read TAIL (`lw -0x12E8` + `addiu -5`) moved into frag2,
+# which grew 4->6 words (fills its 24B pad exactly).  frag1 stays 10 words.
+#
 # frag1 @0x4B0C48 (10 words); the internal `j P29_F2_VA` at 0x4B0C68 has its delay slot at
 #   0x4B0C6C (still inside the pad), so nothing executes the live data at 0x4B0C70.
-# frag2 @0x4B0BC8 (4 words); the `jr ra` at 0x4B0BD0 has its delay slot at 0x4B0BD4 (still
-#   inside the pad), so the live EE exception handler at 0x4B0BE0 is never run as a slot.
+# frag2 @0x4B0BC8 (6 words); the `jr ra` at 0x4B0BD8 has its delay slot at 0x4B0BDC (the
+#   last word of the 24B pad), so the live EE exception handler at 0x4B0BE0 is never run
+#   as a slot.
 P29_HOOK1     = 0x3A30F4          # site A  (file 0x2A3174)
 P29_HOOK2     = 0x3A3170          # site B  (file 0x2A31F0)
 P29_ORIG_SITE = 0x00431821       # addu v1,v0,v1 (pristine at BOTH sites)
 P29_F1_VA     = 0x4B0C48          # fragment 1 pad (40B zero; below arena, clear of libgraph)
-P29_F2_VA     = 0x4B0BC8          # fragment 2 pad (24B zero; we use 16B)
+P29_F2_VA     = 0x4B0BC8          # fragment 2 pad (24B zero; all 6 words used)
 
 def build_p29():
-    """Two word lists (frag1, frag2) for the split box-text LSH draw-shift sub."""
+    """Two word lists (frag1, frag2) for the split box-text LSH draw-shift sub.
+
+    v175 GENDER-TILE GUARD: the gender M/F symbols are TILES (glyph id 0x2A0/0x2A1,
+    Patch 7); gid recovery `lbu at,-1(s2)` reads their LOW byte = 0xA0/0xA1 = 160/161.
+    LSH2 is only TABLE_ENTRIES (92) bytes, and in Option E it is the LAST packed table,
+    so an un-guarded LSH2[160] over-read runs 68B off the freed-strncpy-span end into
+    live code -> a garbage leftshift (proven 0x2D=45 male / 0xF0=240 female) that FLINGS
+    the gender tile off-screen.  The guard `sltiu t8,gid,92` + `movz t9,zero,t8` forces
+    the shift to 0 for gid>=92 (the tile's NATURAL position), mirroring the guard Patch
+    31 already carries.  gid<92 (all real ASCII text, max 'z'=90) is byte-identical:
+    t8=1 -> the movz is a no-op.  t8 is dead at BOTH hook sites (the renderer's own
+    `jal 0x3A2E10` at site+~0x30 clobbers it with no prior read -- verified against the
+    pristine renderer 0x3A2EF0), so it is a free scratch here.
+
+    To fit the 2 guard words without a 3rd fragment the mode-read TAIL (`lw -0x12E8` +
+    `addiu -5`) moved into frag2 (which grows 4->6 words, filling its 24B pad exactly);
+    frag1's delay slot keeps `lui at,0x50` so frag2's `lw` has its base.  The mode read
+    now spans the frag1->frag2 boundary exactly like Patch 31."""
     frag1 = [
-        lw('at', 0xE0, 'sp'),        # 0x4B0C48  reload baseX (v0 clobbered by jal delay slot)
-        addu('v1', 'at', 'v1'),      # 0x4B0C4C  v1 = baseX + pen   (STOCK draw-X)
-        lbu('at', -1, 's2'),         # 0x4B0C50  at = gid (low byte of BE u16; char-32 <95)
-        lui('t9', 0x4C),             # 0x4B0C54  v173: canonical LSH table base 0x4C0000
-        addu('t9', 't9', 'at'),      # 0x4B0C58  t9 = 0x4C0000 + gid
-        lbu('t9', 0x7690, 't9'),     # 0x4B0C5C  t9 = LEFTSHIFT[gid] @0x4C7690 (canonical R1188; 0 for space)
-        lui('at', 0x50),             # 0x4B0C60  mode read (absolute, matches Patch 27)
-        lw('at', -0x12E8, 'at'),     # 0x4B0C64  at = mode (RAM 0x4FED18)
-        j(P29_F2_VA),                # 0x4B0C68  -> frag2 (delay slot below stays in-pad)
-        addiu('at', 'at', -5),       # 0x4B0C6C  (ds) at = mode - 5
+        lw('at', 0xE0, 'sp'),                 # 0x4B0C48  reload baseX (v0 clobbered by jal delay slot)
+        addu('v1', 'at', 'v1'),               # 0x4B0C4C  v1 = baseX + pen   (STOCK draw-X)
+        lbu('at', -1, 's2'),                  # 0x4B0C50  at = gid (low byte of BE u16; 0..0xFF)
+        sltiu('t8', 'at', TABLE_ENTRIES),     # 0x4B0C54  t8 = (gid < 92) ? 1 : 0   [tile/ASCII guard]
+        lui('t9', LSH2_VA >> 16),             # 0x4B0C58  LSH2 table base hi (freed strncpy span)
+        addu('t9', 't9', 'at'),               # 0x4B0C5C  t9 = LSH2_base + gid
+        lbu('t9', LSH2_VA & 0xFFFF, 't9'),    # 0x4B0C60  t9 = LSH2[gid]  (garbage over-read if gid>=92)
+        movz('t9', 'zero', 't8'),             # 0x4B0C64  gid>=92 (t8==0) -> t9 = 0  [natural tile pos]
+        j(P29_F2_VA),                         # 0x4B0C68  -> frag2 (delay slot below stays in-pad)
+        lui('at', 0x50),                      # 0x4B0C6C  (ds) mode read base (absolute, matches Patch 27)
     ]
     frag2 = [
-        andi('at', 'at', 0xFFFD),    # 0x4B0BC8  0 iff mode in {5,7}
-        movn('t9', 'zero', 'at'),    # 0x4B0BCC  not gated (at!=0) -> t9 = 0 (subtract nothing)
-        jr('ra'),                    # 0x4B0BD0  return to site+8
-        subu('v1', 'v1', 't9'),      # 0x4B0BD4  (ds) draw-X -= (LSH or 0)
+        lw('at', -0x12E8, 'at'),              # 0x4B0BC8  at = mode (RAM 0x4FED18)
+        addiu('at', 'at', -5),                # 0x4B0BCC  at = mode - 5
+        andi('at', 'at', 0xFFFD),             # 0x4B0BD0  0 iff mode in {5,7}
+        movn('t9', 'zero', 'at'),             # 0x4B0BD4  not gated (mode!=5,7) -> t9 = 0
+        jr('ra'),                             # 0x4B0BD8  return to site+8
+        subu('v1', 'v1', 't9'),               # 0x4B0BDC  (ds) draw-X -= (LSH2 or 0)
     ]
     return frag1, frag2
 
@@ -434,10 +523,10 @@ def build_p31():
         lh('t2', 0, 's2'),           # 0x4AFA00  reload penX (the displaced hook insn)
         lhu('t8', 0x10, 'sp'),       # 0x4AFA04  gid = stored drawn glyph (0..0x7FFF)
         andi('at', 't8', 0xFF),      # 0x4AFA08  bounded LSH2 table index (0..255) -> safe read
-        lui('t9', 0x4C),             # 0x4AFA0C  v173: canonical LSH table base 0x4C0000
-        addu('t9', 't9', 'at'),      # 0x4AFA10  t9 = 0x4C0000 + (gid & 0xFF)
-        lbu('t9', 0x7690, 't9'),     # 0x4AFA14  t9 = LEFTSHIFT[gid&0xFF] @0x4C7690 (canonical R1188; 0 for 95..255)
-        sltiu('at', 't8', 95),       # 0x4AFA18  at = (gid < 95) ? 1 : 0   (real ASCII guard)
+        lui('t9', LSH2_VA >> 16),    # 0x4AFA0C  v174: LSH2 table base (== LSH_VA, segment)
+        addu('t9', 't9', 'at'),      # 0x4AFA10  t9 = LSH2_base + (gid & 0xFF)
+        lbu('t9', LSH2_VA & 0xFFFF, 't9'),  # 0x4AFA14  t9 = LEFTSHIFT[gid&0xFF] @segment (0 for 95..255)
+        sltiu('at', 't8', TABLE_ENTRIES),  # 0x4AFA18  at=(gid<92)?1:0 (guard; table is 92 entries)
         movz('t9', 'zero', 'at'),    # 0x4AFA1C  gid>=95 -> shift = 0
         j(P31_F2_VA),                # 0x4AFA20  -> frag2 (delay slot below stays in-pad)
         lui('at', 0x50),             # 0x4AFA24  (ds) mode read base (absolute, matches Patch 26)
@@ -506,19 +595,22 @@ def _selfcheck():
     for i in range(1, len(spans)):
         if spans[i][0] < spans[i - 1][1]:
             print("  FAIL OVERLAP %s vs %s" % (spans[i - 1][2], spans[i][2])); ok = False
-    # ADV/LSH tables stay canonical (whitelisted, NOT relocated).
-    print("  ADV/LSH tables canonical @0x%06X / 0x%06X (whitelisted, NOT relocated)" % (ADV_VA, LSH_VA))
-    # v173 BATTLE-FIX (FINAL): the R2100 tables are DROPPED.  The chargen/request caves read
-    # the CANONICAL R1188 tables (ADV2_VA==ADV_VA, LSH2_VA==LSH_VA) and NOTHING of ours is
-    # written to the old arena-start hole 0x4B1000/0x4B1100 -> the arena ships PRISTINE
-    # (== the battle fix).  Assert the aliasing so the caves + address book track the reads.
-    if ADV2_VA == ADV_VA == 0x4C7564 and LSH2_VA == LSH_VA == 0x4C7690:
-        print("  R2100 tables DROPPED (v173 arena-softlock fix); caves read canonical "
-              "ADV @0x%06X / LSH @0x%06X; NOTHING written to 0x4B1000/0x4B1100 (arena pristine)"
-              % (ADV_VA, LSH_VA))
+    # v175 FIX B: ADV/LSH/ADV2 live in the FREED strncpy span (zero ELF change).
+    print("  Option E tables: ADV @0x%06X / LSH @0x%06X / ADV2 @0x%06X / LSH2 @0x%06X "
+          "(freed strncpy span; arena PRISTINE)" % (ADV_VA, LSH_VA, ADV2_VA, LSH2_VA))
+    _span_lo = STRNCPY_VA + len(build_strncpy_replacement())
+    _span_hi = STRNCPY_VA + STRNCPY_ORIG_LEN
+    if (_span_lo <= ADV_VA and LSH2_VA + TABLE_ENTRIES <= _span_hi
+            and LSH_VA == ADV_VA + TABLE_ENTRIES and ADV2_VA == LSH_VA + TABLE_ENTRIES
+            and LSH2_VA == ADV2_VA + TABLE_ENTRIES
+            and all((v & 0xFFFF) < 0x8000 for v in (ADV_VA, LSH_VA, ADV2_VA, LSH2_VA))):
+        print("  layout OK: 4 tables (ADV/LSH/ADV2/LSH2, 92B each) packed in the freed span "
+              "0x%06X..0x%06X; LSH2 = real R2100 leftshift (Option E); low-16 < 0x8000"
+              % (_span_lo, _span_hi))
     else:
-        print("  FAIL R2100 alias: ADV2_VA=0x%06X (want ADV_VA 0x%06X) / LSH2_VA=0x%06X "
-              "(want LSH_VA 0x%06X)" % (ADV2_VA, ADV_VA, LSH2_VA, LSH_VA)); ok = False
+        print("  FAIL FIX B layout: ADV_VA=0x%06X LSH_VA=0x%06X ADV2_VA=0x%06X "
+              "(want inside freed span 0x%06X..0x%06X)"
+              % (ADV_VA, LSH_VA, ADV2_VA, _span_lo, _span_hi)); ok = False
     # Gate marker now points at the relocated Patch-14 cave1.
     if NEW_GATE_MARKER != jword(P14C1_VA):
         print("  FAIL gate marker 0x%08X != j 0x%06X" % (NEW_GATE_MARKER, P14C1_VA)); ok = False
@@ -536,8 +628,8 @@ def _selfcheck():
     # v173: the cave reads the CANONICAL ADV table (lui 0x4C + lbu 0x7564).
     has_adv2 = any((w >> 26) == 0x24 and (w & 0xffff) == (ADV2_VA & 0xFFFF) for w in P27_WORDS) \
         and any((w >> 26) == 0x0f and (w & 0xffff) == (ADV2_VA >> 16) for w in P27_WORDS)
-    print("  P27 cave reads canonical ADV @0x%X(0x%X0000): %s"
-          % (ADV2_VA & 0xFFFF, ADV2_VA >> 16, "YES" if has_adv2 else "NO -- FAIL"))
+    print("  P27 cave reads segment ADV2 @0x%06X (lui 0x%X / lbu 0x%X): %s"
+          % (ADV2_VA, ADV2_VA >> 16, ADV2_VA & 0xFFFF, "YES" if has_adv2 else "NO -- FAIL"))
     if not has_adv2: ok = False
     # No relocated piece may touch the PsII libgraph SDK data block (0x4AF2E0..0x4AF400).
     if 0x4AF2E0 <= P27_VA < 0x4AF400 or 0x4AF2E0 <= end - 1 < 0x4AF400:
@@ -597,9 +689,9 @@ if __name__ == '__main__':
         sys.stdout.reconfigure(encoding='ascii', errors='replace')
     except Exception:
         pass
-    print("v147 RELOCATION DESIGN (SIMPLIFIED -- P27 cave only)")
-    print("P27_VA=0x%06X  (canonical ADV @0x%06X / LSH @0x%06X, NOT relocated)"
-          % (P27_VA, ADV_VA, LSH_VA))
+    print("v147 RELOCATION DESIGN (v174: tables moved to segment @0x580000)")
+    print("P27_VA=0x%06X  (segment ADV @0x%06X / LSH @0x%06X / ADV2 @0x%06X)"
+          % (P27_VA, ADV_VA, LSH_VA, ADV2_VA))
     print("hooks: P27 j-word=0x%08X (RELOCATED)  P14h1=0x%08X(GATE,prod)  P14h2=0x%08X(prod)"
           % (P27_HOOK_JWORD, P14_HOOK1_JWORD, P14_HOOK2_JWORD))
     print()

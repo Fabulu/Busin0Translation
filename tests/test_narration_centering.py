@@ -100,7 +100,7 @@ CAVE_A_FO = _fo(0x4C7860)   # 0x3C78E0  old NS_A / Patch-18 pad (must ship zero)
 OLD_CAVE_B_FO = _fo(0x4CAA30)   # old Patch-16/Patch-24 pad (must ship zero post-v148)
 P24_CAVE_FO = _fo(RELOC.P24_VA)   # v148 RELOCATED Patch-24 cave (was 0x4CAA30)
 P14_HOOK1_FO = _fo(0x3097A0)  # 0x209820  Patch-14 resident-table gate word
-ADV_TBL_FO = _fo(0x4C7564)  # 0x3C75E4  the resident ADV table Patch 14 installs
+ADV_TBL_FO = RELOC.fo(RELOC.ADV_VA)   # v175 FIX B: ADV table in the freed strncpy span (VA 0x1215B4)
 
 J_A_WORD = 0x08131E18  # j 0x4C7860 (old, abandoned Patch-20 NS_A target)
 J_B_WORD = 0x08132A8C  # j 0x4CAA30 (old, abandoned Patch-20 NS_B target)
@@ -328,10 +328,12 @@ def test_tier2_cave_adv_table_is_glyph_metrics():
     byte glyph_metrics.adv_table_256() -- the centering sum, the Patch-14 per-glyph
     advance and the build wrap all consume the ONE SoT table."""
     data = _patched()
-    got = data[ADV_TBL_FO:ADV_TBL_FO + 256]
-    assert got == glyph_metrics.adv_table_256(), (
-        "resident ADV table @file 0x%X != glyph_metrics.adv_table_256() -- the "
-        "Patch-20 cave would sum a table that has desynced from the SoT" % ADV_TBL_FO
+    N = RELOC.TABLE_ENTRIES   # v175 Option E: 92 (four 92B tables pack the freed span)
+    got = data[ADV_TBL_FO:ADV_TBL_FO + N]
+    assert got == glyph_metrics.adv_table_256()[:N], (
+        "resident ADV table @file 0x%X != glyph_metrics.adv_table_256()[:%d] -- the "
+        "Patch-20 cave would sum a table that has desynced from the SoT"
+        % (ADV_TBL_FO, N)
     )
 
 
@@ -340,7 +342,7 @@ def test_tier2_cave_sum_equals_live_table_sum():
     real narration line equals sum(glyph_metrics.ADV) -- the live reserve the
     renderer centers on IS the SoT pixel width."""
     data = _patched()
-    live_tbl = data[ADV_TBL_FO:ADV_TBL_FO + 256]
+    live_tbl = data[ADV_TBL_FO:ADV_TBL_FO + 95]
     for phrase in ("A heavy fog had settled over the deserted streets.",
                    "the deserted streets", "OK"):
         gids = glyph_metrics_enc(phrase)

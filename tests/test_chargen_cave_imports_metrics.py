@@ -19,22 +19,29 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _helpers import BUILD_V9, main_exit, require_file  # noqa: E402
+from _helpers import BUILD_V9, ROOT, main_exit, require_file  # noqa: E402
+
+sys.path.insert(0, os.path.join(ROOT, "build"))
+import _reloc_v147_design as RELOC  # noqa: E402  (freed-span table VAs + SoT sourcing)
 
 PATCH_EXE = os.path.join(os.path.dirname(BUILD_V9), "patch_exe.py")
+RELOC_SRC = os.path.join(os.path.dirname(BUILD_V9), "_reloc_v147_design.py")
 # chargen advance / left-shift hook VAs (data/chargen_spacing_backlog.md)
 CHARGEN_VAS = (0x308040, 0x307FBC, 0x307DA0)
 # any of the VA literals, in the hex forms patch_exe.py uses (0x308040 etc.)
 _VA_RE = re.compile(r"0x3080[0-9A-Fa-f]{2}|0x307F[0-9A-Fa-f]{2}|0x307D[0-9A-Fa-f]{2}")
 _RAW_ADV_TBL = re.compile(r"bytearray\(\s*\[\s*0x12\s*\]\s*\)\s*\*\s*256")
 
-# Resident SoT-table displacements that the Patch-14 hook writes into the EXE from
-# glyph_metrics (adv_table_256 @VA 0x4C7564, leftshift_table_256 @VA 0x4C7690): the
-# Patch-19 chargen caves MUST index THESE same resident tables (lbu ...0x7564 /
-# ...0x7690) rather than carry their own advance/left-shift literals.  Match either
-# the bare displacement (lbu comment / cave machine word low half) or the full VA.
-_ADV_TABLE_REF = re.compile(r"0x4C7564|0x7564\b")
-_LEFTSHIFT_TABLE_REF = re.compile(r"0x4C7690|0x7690\b")
+# v175 Option E: the SoT tables pack the FREED tail of the shrunk libc strncpy as four
+# 92-byte tables (ADV @VA 0x1215B4, LSH @VA 0x121610, ADV2 @VA 0x12166C, LSH2 @VA
+# 0x1216C8; RELOC.ADV_VA/LSH_VA/ADV2_VA/LSH2_VA).  The Patch-19 chargen caves MUST index
+# THESE freed-span tables (lbu ...0x15B4 / ...0x1610) rather than carry their own
+# advance/left-shift literals.  Displacements sourced from the relocation single-source
+# so a table-VA change desyncs this guard.
+_ADV_LBU_OFF = RELOC.ADV_VA & 0xFFFF        # 0x15B4
+_LSH_LBU_OFF = RELOC.LSH_VA & 0xFFFF        # 0x1610
+_ADV_TABLE_REF = re.compile(r"0x%04X\b" % _ADV_LBU_OFF)
+_LEFTSHIFT_TABLE_REF = re.compile(r"0x%04X\b" % _LSH_LBU_OFF)
 
 
 def _src():
@@ -96,32 +103,54 @@ def test_patch19_caves_index_shared_sot_tables():
     if "0x308040" not in src or "0x307FBC" not in src:
         return  # no chargen hooks yet -- guard correctly inert (PASS)
 
-    # The cave must read the resident ADV table (advance LUT + summed centering) and
-    # the resident LEFTSHIFT table (draw-shift) -- the exact tables Patch 14 writes
-    # from glyph_metrics.  No reference => the cave recomputed widths (project bug #1).
+    # The cave must read the freed-span ADV table (advance LUT + summed centering) and
+    # the freed-span LEFTSHIFT table (draw-shift) -- the exact tables FIX B writes from
+    # glyph_metrics.  No reference => the cave recomputed widths (project bug #1).
     assert _ADV_TABLE_REF.search(src), (
-        "Patch 19 chargen caves do NOT index the resident ADV table (0x4C7564 / "
-        "lbu 0x7564) that Patch 14 fills from glyph_metrics.adv_table_256() -- the "
-        "advance LUT + summed-centering caves must read the shared SoT table, never "
-        "recompute (silent desync, project bug #1)"
+        "Patch 19 chargen caves do NOT index the freed-span ADV table (lbu 0x%04X) "
+        "that FIX B fills from glyph_metrics.adv_table_256() -- the advance LUT + "
+        "summed-centering caves must read the shared SoT table, never recompute "
+        "(silent desync, project bug #1)" % _ADV_LBU_OFF
     )
     assert _LEFTSHIFT_TABLE_REF.search(src), (
-        "Patch 19 chargen draw-shift cave does NOT index the resident LEFTSHIFT "
-        "table (0x4C7690 / lbu 0x7690) that Patch 14 fills from "
-        "glyph_metrics.leftshift_table_256() -- it must read the shared SoT table, "
-        "never recompute (silent desync, project bug #1)"
+        "Patch 19 chargen draw-shift cave does NOT index the freed-span LEFTSHIFT "
+        "table (lbu 0x%04X) that FIX B fills from glyph_metrics.leftshift_table_256() "
+        "-- it must read the shared SoT table, never recompute (silent desync, "
+        "project bug #1)" % _LSH_LBU_OFF
     )
 
-    # And the resident tables those caves index MUST themselves be populated from
-    # glyph_metrics by Patch 14 (else the caves would index stale/inline data).
-    assert "glyph_metrics.adv_table_256()" in src, (
-        "patch_exe.py no longer fills the resident ADV table from "
-        "glyph_metrics.adv_table_256() -- Patch 19's caves would index non-SoT data"
+    # And the freed-span tables those caves index MUST themselves be populated from
+    # glyph_metrics.  v175 FIX B centralizes this in _reloc.build_metric_tables()
+    # (the SINGLE SOURCE the gate consumes), which patch_exe writes verbatim.
+    assert "build_metric_tables()" in src, (
+        "patch_exe.py no longer writes RELOC.build_metric_tables() -- Patch 19's "
+        "caves would index non-SoT data (the freed-span tables are unfilled)"
     )
-    assert "glyph_metrics.leftshift_table_256()" in src, (
-        "patch_exe.py no longer fills the resident LEFTSHIFT table from "
-        "glyph_metrics.leftshift_table_256() -- Patch 19's draw-shift cave would "
-        "index non-SoT data"
+    require_file(RELOC_SRC, "reloc single-source for metric tables")
+    reloc_src = open(RELOC_SRC, encoding="utf-8").read()
+    assert "adv_table_256()" in reloc_src and "leftshift_table_256()" in reloc_src, (
+        "_reloc_v147_design.build_metric_tables() no longer sources the ADV/LEFTSHIFT "
+        "tables from glyph_metrics.adv_table_256()/leftshift_table_256() -- Patch 19's "
+        "caves would index non-SoT data"
+    )
+    # Runtime proof the single source really yields the SoT bytes at the freed-span VAs.
+    # v175 Option E: FOUR 92-byte tables (ADV/LSH/ADV2/LSH2); LSH2 is the SEPARATE R2100
+    # chargen leftshift (the "holy fix"), no longer aliased to R1188 LSH.
+    import glyph_metrics  # noqa: E402  (TOOLS_DIR on sys.path via _helpers)
+    N = RELOC.TABLE_ENTRIES
+    tbls = dict(RELOC.build_metric_tables())
+    for va, sot, name in ((RELOC.ADV_VA, glyph_metrics.adv_table_256(), "ADV"),
+                          (RELOC.LSH_VA, glyph_metrics.leftshift_table_256(), "LSH"),
+                          (RELOC.ADV2_VA, glyph_metrics.adv2_table_256(), "ADV2"),
+                          (RELOC.LSH2_VA, glyph_metrics.leftshift2_table_256(), "LSH2")):
+        assert tbls[va] == bytes(sot[:N]), (
+            "RELOC.build_metric_tables()[%s_VA] != glyph_metrics.%s[:%d]"
+            % (name, name, N)
+        )
+    # LSH2 must be a genuinely SEPARATE table (a re-alias to LSH re-breaks chargen).
+    assert RELOC.LSH2_VA != RELOC.LSH_VA and tbls[RELOC.LSH2_VA] != tbls[RELOC.LSH_VA], (
+        "v175 Option E: LSH2 must be the separate R2100 chargen leftshift, NOT aliased "
+        "to R1188 LSH -- an alias yanks chargen glyphs past the tight ADV2 advance"
     )
 
 

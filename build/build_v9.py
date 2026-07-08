@@ -990,6 +990,7 @@ for script in [
     'tools/patch_r2654_library.py',  # v163: variable-length LIBRARY name subs (monster/spell/AA names; AFTER the two above -- composes on their R2654 output)
     'tools/patch_r1892_names.py',  # romanize the REAL party-bar name source R1892 (LE roster; R2654 is off the bar's path)
     'tools/patch_r2655_library_strips.py',  # v165: library banner/tab/footer pixel strips (independent of R2654 order)
+    'tools/patch_pill_widen.py',  # v180: item-name capsule 192->256 (R2139 sub13 rec2 + R2138 sub27 band; composes on Step 3.9's R2138 output, must run after it)
 ]:
     rc = os.system(f'python {script}')
     if rc != 0:
@@ -1206,12 +1207,40 @@ if os.path.exists(exe_path):
             name = root_dir[pos + 33:pos + 33 + name_len].decode('ascii', errors='replace')
             if 'SLPM' in name:
                 exe_lba = struct.unpack_from('<I', root_dir, pos + 2)[0]
+                # ---- ISO-EXTENT GATE (v174 EXE-EXTENSION) ----
+                # The v174 EXE grows by 336 bytes but stays within the SAME sector
+                # count (768B blob ends exactly at the 2044-sector boundary), so the
+                # EXE's end LBA is unchanged and it stays adjacent to the next file
+                # (SYSTEM.CNF).  Assert the EXE does NOT overrun the next file: parse
+                # every directory entry, find the lowest LBA strictly above exe_lba,
+                # and require exe_end_lba <= that.  If a future change pushes the EXE
+                # past 4,186,112 this goes RED (guards SYSTEM.CNF from a silent clobber).
+                import math as _math
+                _p2 = 0
+                _next_lba = None
+                while _p2 < len(root_dir):
+                    _rl = root_dir[_p2]
+                    if _rl == 0:
+                        break
+                    _lba = struct.unpack_from('<I', root_dir, _p2 + 2)[0]
+                    if _lba > exe_lba and (_next_lba is None or _lba < _next_lba):
+                        _next_lba = _lba
+                    _p2 += _rl
+                exe_end_lba = exe_lba + _math.ceil(len(exe_data) / SECTOR)
+                if _next_lba is not None:
+                    assert exe_end_lba <= _next_lba, (
+                        "Step 8.5 ISO-EXTENT GATE: patched EXE (%d bytes, end LBA %d) "
+                        "OVERRUNS the next file at LBA %d -- it would clobber SYSTEM.CNF. "
+                        "The EXE grew past its sector allocation." % (
+                            len(exe_data), exe_end_lba, _next_lba))
                 iso.seek(root_lba * SECTOR + pos + 10)
                 iso.write(struct.pack('<I', len(exe_data)))
                 iso.write(struct.pack('>I', len(exe_data)))
                 iso.seek(exe_lba * SECTOR)
                 iso.write(exe_data)
-                print(f"  EXE patched: {len(exe_data):,} bytes at LBA {exe_lba}")
+                print(f"  EXE patched: {len(exe_data):,} bytes at LBA {exe_lba} "
+                      f"(end LBA {exe_end_lba}"
+                      + (f" <= next file LBA {_next_lba})" if _next_lba is not None else ")"))
                 break
             pos += rec_len
 else:

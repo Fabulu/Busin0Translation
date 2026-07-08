@@ -49,8 +49,20 @@ import _reloc_v147_design as RELOC  # noqa: E402  (relocation single-source)
 # SDK data block at 0x4AF2E0..0x4AF400 (the prior v147 did, smearing the final GS-write
 # descriptor word -> the title-screen hang -- guarded below).
 PATCHED_EXE = os.path.join(ROOT, "build", "SLPM_653.78_patched")
-P14_TBL1 = 0x3C75E4   # canonical advance LUT, 256B  (VA 0x4C7564)
-P14_TBL2 = 0x3C7710   # canonical left-shift,  256B  (VA 0x4C7690)
+# v175 Option E: FOUR metric tables (ADV/LSH/ADV2/LSH2) live in the FREED tail of the
+# shrunk libc strncpy (@VA 0x121568) -- ZERO ELF-structure change, no added segment
+# (the v174 PT_LOAD @0x580000 booted to BIOS but a clean LIEF segment crashed PCSX2).
+# The freed-span table VAs (RELOC.ADV_VA/LSH_VA/ADV2_VA/LSH2_VA = 0x1215B4/0x121610/
+# 0x12166C/0x1216C8, TABLE_ENTRIES=92 each, 4*92=368) map to the file with the ordinary
+# fo() = VA-0x100000+0x80.  LSH2 is now a SEPARATE R2100 chargen leftshift (the "holy
+# fix"), NO LONGER aliased to R1188 LSH.  The old in-arena windows 0x4C7564/0x4C7690
+# are VACATED (zeroed -> pristine == the battle fix).
+OLD_ADV_WIN = 0x3C75E4   # old in-arena ADV window (VA 0x4C7564) -- must ship ZERO now
+OLD_LSH_WIN = 0x3C7710   # old in-arena LSH window (VA 0x4C7690) -- must ship ZERO now
+# The tables must live inside the freed strncpy span (proves no segment was re-added and
+# nothing landed back in the arena); the standard fo() maps them to the file.
+FREED_SPAN_LO = RELOC.STRNCPY_VA + len(RELOC.build_strncpy_replacement())
+FREED_SPAN_HI = RELOC.STRNCPY_VA + RELOC.STRNCPY_ORIG_LEN
 # v173 FINAL BATTLE-FIX: the v158 R2100 tables are DROPPED (they softlocked battle at
 # EVERY arena placement).  ADV2_VA/LSH2_VA now ALIAS the canonical R1188 tables
 # (0x4C7564/0x4C7690), and the OLD arena-start hole 0x4B1000/0x4B1100 ships PRISTINE-ZERO
@@ -75,41 +87,63 @@ def test_g1_built_exe_tables_match_metrics():
     with open(PATCHED_EXE, "rb") as fh:
         data = fh.read()
 
-    # canonical 256B tables (in-arena caves AND chargen/request readers index these)
-    want_adv = glyph_metrics.adv_table_256()
-    want_lsh = glyph_metrics.leftshift_table_256()
-    got_adv = data[P14_TBL1:P14_TBL1 + 256]
-    got_lsh = data[P14_TBL2:P14_TBL2 + 256]
-    assert got_adv == want_adv, (
-        "patched EXE canonical advance LUT @file 0x%X != glyph_metrics.adv_table_256() "
-        "(Patch 14 desynced from the metrics module)" % P14_TBL1
+    # v175 Option E: FOUR metric tables pack the freed strncpy span EXACTLY -- ADV
+    # @0x1215B4, LSH @0x121610, ADV2 @0x12166C, LSH2 @0x1216C8 -- TABLE_ENTRIES (92)
+    # bytes each (4*92 = 368 = the freed span; max real glyph 'z'=90 < 92).  LSH2 is
+    # now a SEPARATE R2100 chargen leftshift table (NO LONGER aliased to R1188 LSH):
+    # the "holy fix" that stops draw-X = pen - R1188_lsh from yanking chargen glyphs.
+    # The caves index them there; compare the shipped bytes to the SoT.
+    N = RELOC.TABLE_ENTRIES
+    for va, table, name in ((RELOC.ADV_VA, glyph_metrics.adv_table_256(), "ADV"),
+                            (RELOC.LSH_VA, glyph_metrics.leftshift_table_256(), "LSH"),
+                            (RELOC.ADV2_VA, glyph_metrics.adv2_table_256(), "ADV2"),
+                            (RELOC.LSH2_VA, glyph_metrics.leftshift2_table_256(), "LSH2")):
+        fo = RELOC.fo(va)
+        assert data[fo:fo + N] == bytes(table[:N]), (
+            "patched EXE freed-span %s table @VA 0x%06X (file 0x%06X) != glyph_metrics "
+            "(the caves would index a desynced table)" % (name, va, fo)
+        )
+    # The four tables must pack the freed strncpy span EXACTLY (proves no segment was
+    # re-added and nothing landed back in the arena), and every table's low-16 offset
+    # must be < 0x8000 (no lbu sign-extension carry).
+    assert FREED_SPAN_LO <= RELOC.ADV_VA and RELOC.LSH2_VA + N <= FREED_SPAN_HI, (
+        "RELOC ADV..LSH2 tables must lie inside the freed strncpy span "
+        "0x%06X..0x%06X; got ADV=0x%06X LSH2=0x%06X"
+        % (FREED_SPAN_LO, FREED_SPAN_HI, RELOC.ADV_VA, RELOC.LSH2_VA)
     )
-    assert got_lsh == want_lsh, (
-        "patched EXE canonical left-shift table @file 0x%X != "
-        "glyph_metrics.leftshift_table_256()" % P14_TBL2
+    assert all((v & 0xFFFF) < 0x8000 for v in
+               (RELOC.ADV_VA, RELOC.LSH_VA, RELOC.ADV2_VA, RELOC.LSH2_VA)), (
+        "a freed-span table low-16 offset >= 0x8000 -> lbu sign-extension carry"
     )
-    # The relocated ADV/LSH constants point AT the canonical tables (NO separate copy).
-    assert RELOC.ADV_VA == 0x4C7564 and RELOC.LSH_VA == 0x4C7690, (
-        "RELOC.ADV_VA/LSH_VA must be the canonical in-arena tables (0x4C7564/0x4C7690); "
-        "got 0x%06X/0x%06X -- a relocated table copy is the title-hang bug" % (RELOC.ADV_VA, RELOC.LSH_VA)
+    # v175 Option E: FOUR separate, contiguously-packed 92-byte tables in VA order
+    # ADV | LSH | ADV2 | LSH2 (+0/+N/+2N/+3N).  A re-alias (LSH2 == LSH) or a wrong
+    # pack offset must FAIL here -- this pins the holy fix's layout.
+    assert (RELOC.LSH_VA == RELOC.ADV_VA + N
+            and RELOC.ADV2_VA == RELOC.LSH_VA + N
+            and RELOC.LSH2_VA == RELOC.ADV2_VA + N), (
+        "v175 Option E: tables must pack ADV|LSH|ADV2|LSH2 at +0/+N/+2N/+3N; "
+        "got ADV=0x%06X LSH=0x%06X ADV2=0x%06X LSH2=0x%06X"
+        % (RELOC.ADV_VA, RELOC.LSH_VA, RELOC.ADV2_VA, RELOC.LSH2_VA)
     )
-
-    # v173 FINAL BATTLE-FIX: the R2100 tables are DROPPED (they softlocked battle at every
-    # arena placement).  ADV2_VA/LSH2_VA ALIAS the canonical R1188 tables, the chargen/request
-    # caves read the canonical ADV/LSH, and the OLD arena-start hole 0x4B1000/0x4B1100 must
-    # ship PRISTINE-ZERO (== the battle fix).
-    assert RELOC.ADV2_VA == RELOC.ADV_VA == 0x4C7564 and RELOC.LSH2_VA == RELOC.LSH_VA == 0x4C7690, (
-        "v173: RELOC.ADV2_VA/LSH2_VA must ALIAS the canonical tables (0x4C7564/0x4C7690); "
-        "got 0x%06X/0x%06X -- an in-arena R2100 table softlocked battle" % (RELOC.ADV2_VA, RELOC.LSH2_VA)
+    assert RELOC.LSH2_VA != RELOC.LSH_VA and RELOC.ADV2_VA != RELOC.ADV_VA, (
+        "v175 Option E: LSH2 must be a SEPARATE table (NOT aliased to LSH), ADV2 "
+        "separate from ADV; got LSH=0x%06X LSH2=0x%06X ADV=0x%06X ADV2=0x%06X"
+        % (RELOC.LSH_VA, RELOC.LSH2_VA, RELOC.ADV_VA, RELOC.ADV2_VA)
     )
-    assert data[ARENA_ADV2_FO:ARENA_ADV2_FO + 256] == b"\x00" * 256, (
-        "arena-start hole 0x4B1000 is NOT zero in the built EXE -- an in-arena R2100 table "
-        "shipped (the battle-softlock regression the v173 fix removes)"
+    # The shipped R2100 leftshift must genuinely DIFFER from the R1188 leftshift --
+    # if they were byte-identical the "separate table" would be an inert re-alias.
+    assert (glyph_metrics.leftshift2_table_256()[:N]
+            != glyph_metrics.leftshift_table_256()[:N]), (
+        "v175 Option E: leftshift2_table_256 must DIFFER from leftshift_table_256 "
+        "(the matched R2100 chargen leftshift); identical means the fix is inert"
     )
-    assert data[ARENA_LSH2_FO:ARENA_LSH2_FO + 256] == b"\x00" * 256, (
-        "arena-start hole 0x4B1100 is NOT zero in the built EXE -- an in-arena R2100 table "
-        "shipped (the battle-softlock regression the v173 fix removes)"
-    )
+    # BATTLE FIX: the vacated in-arena windows AND the old arena-start hole ship ZERO.
+    for va, fo in ((0x4C7564, OLD_ADV_WIN), (0x4C7690, OLD_LSH_WIN),
+                   (0x4B1000, ARENA_ADV2_FO), (0x4B1100, ARENA_LSH2_FO)):
+        assert data[fo:fo + 256] == b"\x00" * 256, (
+            "arena window VA 0x%06X (file 0x%06X) is NOT zero -- a metric table is "
+            "still resident in the battle-heap arena" % (va, fo)
+        )
 
     h1 = struct.unpack_from("<I", data, P14_HOOK1)[0]
     h2 = struct.unpack_from("<I", data, P14_HOOK2)[0]
@@ -150,23 +184,27 @@ def test_g1b_relocated_caves_below_arena():
             "%s cave VA 0x%06X..0x%06X is in/over the battle-heap arena (>= 0x%06X)"
             % (label, new_va, new_va + size, SAFE_HI)
         )
-    # The canonical tables ARE in-arena (read-only resident rodata, whitelisted -- not code).
+    # v174: the tables are in the segment (whitelisted canonical VAs, out of the arena).
     assert RELOC.ADV_VA in RELOC.CANONICAL_TABLE_VAS and RELOC.LSH_VA in RELOC.CANONICAL_TABLE_VAS
+    assert RELOC.ADV2_VA in RELOC.CANONICAL_TABLE_VAS
 
     # 2) The relocated P27 cave words byte-match the design module.
     f = RELOC.fo(RELOC.P27_VA)
     got = [struct.unpack_from("<I", data, f + i * 4)[0] for i in range(len(RELOC.P27_WORDS))]
     assert got == list(RELOC.P27_WORDS), "relocated P27 cave words != design module"
-    # v173: the P27 cave reads the CANONICAL ADV table (lui 0x4C + lbu 0x7564) -- the R2100
-    # in-arena table was DROPPED (it softlocked battle); ADV2_VA now aliases ADV_VA=0x4C7564.
-    assert RELOC.ADV2_VA == 0x4C7564
+    # v175 Option E: the P27 cave reads the freed-strncpy-span R2100 ADV2 table
+    # (lui 0x12 + lbu 0x166C) @0x12166C.  Source the lui/lbu operands from RELOC so a
+    # table-VA change (or a re-added segment @0x58xxxx) desyncs this pin.
+    assert FREED_SPAN_LO <= RELOC.ADV2_VA and RELOC.ADV2_VA + RELOC.TABLE_ENTRIES <= FREED_SPAN_HI, (
+        "P27's ADV2 table VA 0x%06X is not inside the freed strncpy span" % RELOC.ADV2_VA
+    )
     assert any((w >> 26) == 0x24 and (w & 0xFFFF) == (RELOC.ADV2_VA & 0xFFFF)
                for w in RELOC.P27_WORDS), (
-        "relocated P27 cave must read canonical ADV @0x%X" % (RELOC.ADV2_VA & 0xFFFF)
+        "relocated P27 cave must read freed-span ADV2 (lbu 0x%X)" % (RELOC.ADV2_VA & 0xFFFF)
     )
     assert any((w >> 26) == 0x0F and (w & 0xFFFF) == (RELOC.ADV2_VA >> 16)
                for w in RELOC.P27_WORDS), (
-        "relocated P27 cave must lui the canonical ADV table base 0x%X0000" % (RELOC.ADV2_VA >> 16)
+        "relocated P27 cave must lui the freed-span ADV2 base 0x%X0000" % (RELOC.ADV2_VA >> 16)
     )
 
     # 3) The P27 hook AND the P14 hooks (= the gate marker) j into the RELOCATED caves below
@@ -194,7 +232,8 @@ def test_g1b_relocated_caves_below_arena():
     #    here (the RANK-2 deep placement was reverted after it caused the battle softlock).
     for old_va, size in [(0x4C7410, 84),                       # old P27
                          (0x4C7540, 36), (0x4C7670, 28),       # old P14 c1/c2
-                         (0x4C7790, 104),                       # old P26 (LSH2 now at 0x4B1100)
+                         (0x4C7564, 256), (0x4C7690, 256),     # v174 vacated ADV/LSH windows
+                         (0x4C7790, 104),                       # old P26
                          (0x4CAA30, 24),                       # old P24
                          (0x4D6600, 68), (0x4D6660, 48),       # old P19 c1/c2
                          (0x4B0DD0, 32)]:                      # old P6

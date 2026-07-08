@@ -76,7 +76,7 @@ P25_MARGIN_ORIG = 0x00442023 # subu $a0,$v0,$a0  (pristine)
 P25_MARGIN_NEW = 0x00002021  # move $a0,$zero   (Option B, only when ENABLED)
 P25_GATE_VAL = RELOC.NEW_GATE_MARKER    # Patch-14 marker word @VA 0x3097A0 (v147 relocated)
 
-ADV_TBL_FO = _fo(0x4C7564)   # resident Patch-14 ADV table
+ADV_TBL_FO = RELOC.fo(RELOC.ADV_VA)   # v175 FIX B: ADV table in the freed strncpy span (VA 0x1215B4)
 
 
 def _src():
@@ -251,7 +251,7 @@ def test_tier2_patch14_table_present_for_enable():
     exists in the built EXE -- so the documented one-line enable is genuinely safe
     (the cave's lbu 0x7564 would resolve to real advance bytes, not a zero pad)."""
     data = _patched()
-    tbl = data[ADV_TBL_FO:ADV_TBL_FO + 256]
+    tbl = data[ADV_TBL_FO:ADV_TBL_FO + RELOC.TABLE_ENTRIES]  # v175 Option E: 92-entry ADV
     # The table must be non-trivial (Patch 14 filled it from glyph_metrics).
     assert any(b != 0 for b in tbl), (
         "resident ADV table @file 0x%X is all-zero -- Patch 14 did not install it, so "
