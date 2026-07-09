@@ -129,7 +129,7 @@
     "resource": 2654,
     "message": 127,
     "japanese": "(library body, sub via wave3)",
-    "english": "Almost forgot the big one! The hero pulled off an Alleid! To Oda that's, uh, nothing much - but doing it without being a mage? Something! Why? The bracelet, that's what's fishy.......! P.S. Reported from Oda's secret passage!"
+    "english": "Almost forgot the big one! The hero pulled off an Allied Action! To Oda that's, uh, nothing much - but doing it without being a mage? Something! Why? The bracelet, that's what's fishy.......! P.S. Reported from Oda's secret passage!"
   },
   {
     "resource": 2654,
@@ -513,7 +513,7 @@
     "resource": 2654,
     "message": 380,
     "japanese": "(library body, sub via wave3)",
-    "english": "Some spells cast outside battle - Feal, when salves run dry; check your fellows' magic. Attack spells won't cast in town. No Creta on the square."
+    "english": "Some spells cast outside battle - Feal, when salves run dry; check your fellows' magic. Attack spells won't cast in town. No Kreta on the square."
   },
   {
     "resource": 2654,
@@ -843,7 +843,7 @@
     "resource": 2654,
     "message": 571,
     "japanese": "(library body, sub via wave3)",
-    "english": "Fire dmg, 1 foe. / Creta stone."
+    "english": "Fire dmg, 1 foe. / Kreta stone."
   },
   {
     "resource": 2654,
@@ -1557,7 +1557,7 @@
     "resource": 2654,
     "message": 1553,
     "japanese": "(library body, sub via wave3)",
-    "english": "Church-state at Venoa's edge; Duhan's foe. Its invasion began Banquo's War."
+    "english": "Church-state at Venoa's edge; Duhan's foe. Its invasion began the Battle of Banquo."
   },
   {
     "resource": 2654,
@@ -1593,7 +1593,7 @@
     "resource": 2654,
     "message": 1559,
     "japanese": "(library body, sub via wave3)",
-    "english": "Six lands: Duhan, Jugurtha, Haris, Estoria, Sangoht, Gilten."
+    "english": "Six lands: Duhan, Jugurtha, Haris, Estoria, San-Goth, Gilten."
   },
   {
     "resource": 2654,
@@ -2175,13 +2175,13 @@
     "resource": 2654,
     "message": 1659,
     "japanese": "(library body, sub via wave3)",
-    "english": "Gas dragon kin, but brighter: shock spells, and thunder breath from its stored charge. A dragon in full."
+    "english": "The bishops' summit: every mage and priest craft, mastered whole. His rings are famed - and often cursed."
   },
   {
     "resource": 2654,
     "message": 1660,
     "japanese": "(library body, sub via wave3)",
-    "english": "Gas dragon kin - but that hide! A full blow leaves a scratch."
+    "english": "Gas dragon kin, but brighter: shock spells, and thunder breath from its stored charge. A dragon in full."
   },
   {
     "resource": 2654,
@@ -2589,67 +2589,67 @@
     "resource": 2654,
     "message": 1928,
     "japanese": "(library body, sub via wave3)",
-    "english": "FICKLE / +Quick delves and / quick fights! / +Cranky = kindred / -Dawdlers, no! / COWARD / +Just let me flee / +Timid? Same here! / -A Reaper?! Eeek! / -Adventurous sorts / drag me along... / MISER / +Delve to earn! / +Economists get it / -Broke trips hurt / -Wasteful? Ugh!"
+    "english": "FICKLE / +Quick delves and / quick fights! / +Cranky = kindred / -Dawdlers, no! / COWARD / +Just let me flee / +Timid? Same here! / -A Reaper?! Eeek! / -Explorers drag / me along... / MISER / +Delve to earn! / +Merchants get it / -Broke trips hurt / -Wasteful? Ugh!"
   },
   {
     "resource": 2654,
     "message": 1929,
     "japanese": "(library body, sub via wave3)",
-    "english": "LONELY / +Quiet, small bands / +Lonelies don't / chatter. Nice. / -Sociables wear me / out / SOCIABLE / +More heads, more / fun! / -Tiny parties bore / -Lonelies, come / party! / COLLECTOR / +Delve to collect! / +Collectors trade / -Skipping loot / hurts / -Wasteful? Clash!"
+    "english": "LONELY / +Quiet, small bands / +Lonelies don't / chatter. Nice. / -Sociables wear me / out / SOCIABLE / +More heads, more / fun! / -Tiny parties bore / -Lonelies, come / party! / PACKRAT / +Delve to collect! / +Packrats trade / -Skipping loot / hurts / -Wasteful? Clash!"
   },
   {
     "resource": 2654,
     "message": 1930,
     "japanese": "(library body, sub via wave3)",
-    "english": "WARY / +Fight your own / size / +Careful, fellow / Warys / -Trappers' folly / appalls / STUDIOUS / +Every foe is data / -No fights = / stress / -Sensitives won't / study / SMART / +Fusing, learning: / joy! / +Studious kindred / -Scorns battle-mad / fools"
+    "english": "WARY / +Fight your own / size / +Careful, fellow / Warys / -Trappers' folly / appalls / STUDIOUS / +Every foe is data / -No fights = / stress / -Fatalists won't / study / SMART / +Fusing, learning: / joy! / +Studious kindred / -Scorns battle-mad / fools"
   },
   {
     "resource": 2654,
     "message": 1931,
     "japanese": "(library body, sub via wave3)",
-    "english": "BELLIGERENT / +Strong foes = my / reason to live / +Rivals in kind / -Weak foes bore me / -Timids? No sport / ADVENTUROUS / +Fight hard, roam / hard! / +Slayers are fun / -Cowards cling / SUPERSTITIOUS / +First strike = / good omen / -Ambushed = bad / omen / -Even Wary can't / beat fate"
+    "english": "WARLIKE / +Strong foes = my / reason to live / +Rivals in kind / -Weak foes bore me / -Timids? No sport / EXPLORER / +Fight hard, roam / hard! / +Slayers are fun / -Cowards cling / FATALIST / +First strike = / good omen / -Ambushed = bad / omen / -Even Wary can't / beat fate"
   },
   {
     "resource": 2654,
     "message": 1932,
     "japanese": "(library body, sub via wave3)",
-    "english": "TRAPPER / +Traps? Easy work! / +Risk it, brothers! / -Misers dream small / TIMID / +Undead, begone... / whew / +Fraternal folk, / be kind to me / -Belligerents = / bullies / ECOLOGIST / +Waste not! Reuse! / +Kindred recycle / -Tossers of loot!! / -Wasteful = trash"
+    "english": "TRAPPER / +Traps? Easy work! / +Risk it, brothers! / -Misers dream small / TIMID / +Undead, begone... / whew / +Caring folk, be / kind to me / -The Warlike = / bullies / RECYCLER / +Waste not! Reuse! / +Kindred recycle / -Tossers of loot!! / -Wasteful = trash"
   },
   {
     "resource": 2654,
     "message": 1933,
     "japanese": "(library body, sub via wave3)",
-    "english": "MAIDEN / +Girls' adventures / are the best! / -Boys keep out! / -Hot-bloods reek / HOT-BLOODED / +Hot blood, full / speed! / +True men's road! / -Women, stay home! / JUST / +Kind beasts are / friends / -Slaying the tame: / vile / -Masochism? Warped"
+    "english": "MAIDEN / +Girls' adventures / are the best! / -Boys keep out! / -Machos reek / MACHO / +Hot blood, full / speed! / +True men's road! / -Women, stay home! / JUST / +Kind beasts are / friends / -Slaying the tame: / vile / -Martyrs? Warped"
   },
   {
     "resource": 2654,
     "message": 1934,
     "japanese": "(library body, sub via wave3)",
-    "english": "SLAYER / +Slay! Slay more! / -Cowards, go home / COOPERATIVE / +Team arts = joy / +Co-op x co-op! / -Solo is wasteful / -Lonelies won't / link / FRATERNAL / +All safe? Relief. / -A friend's death / wounds me / -Masochists, love / yourselves!"
+    "english": "SLAYER / +Slay! Slay more! / -Cowards, go home / TEAMWORK / +Team arts = joy / +Co-op x co-op! / -Solo is wasteful / -Lonelies won't / link / CARING / +All safe? Relief. / -A friend's death / wounds me / -Martyrs, be kind / to yourselves!"
   },
   {
     "resource": 2654,
     "message": 1935,
     "japanese": "(library body, sub via wave3)",
-    "english": "CRANKY / +Quick fights, yes! / +Fickles agree / -Slow fights grate / ECONOMIST / +Thrift is the art / +Misers get it / -Waste nothing! / -Simples: hopeless / LUSTFUL / +A party of / beauties! / +Narcissists: fine / folk / -Plain crews bore / -Kin = rivals in / love"
+    "english": "CRANKY / +Quick fights, yes! / +Fickles agree / -Slow fights grate / MERCHANT / +Thrift is the art / +Misers get it / -Waste nothing! / -Stupids: hopeless / LUSTFUL / +A party of / beauties! / +The Vain: fine / folk / -Plain crews bore / -Kin = rivals in / love"
   },
   {
     "resource": 2654,
     "message": 1936,
     "japanese": "(library body, sub via wave3)",
-    "english": "NARCISSIST / +Criticals become / me / +Smarts are cool / -My mistakes? None / -Vain, the lot of / them / MOODY / +Good days: good / +Kin drift along / -Bad days are bad / -Cranky is a / loser's game / SELFISH / +Pain, oddly sweet / +Solitude suits / -Keep your pity / -Fraternals stare / so coldly"
+    "english": "VAIN / +Criticals become / me / +Smarts are cool / -My mistakes? None / -Other Vains are / cocky / MOODY / +Good days: good / +Kin drift along / -Bad days are bad / -Cranky is a / loser's game / MARTYR / +Pain, oddly sweet / +Solitude suits / -Keep your pity / -The Caring stare / so coldly"
   },
   {
     "resource": 2654,
     "message": 1937,
     "japanese": "(library body, sub via wave3)",
-    "english": "TRIBAL / +My kin, my true / comrades / -Others? Hm. / -Lustfuls have no / lines / BOLD / +Others' smiles = / my smiles / +Kin just get it / -Smarts look down / on me / WASTEFUL / +Use what you've / got! / -Hoarders: misery / -Collectors: ugh"
+    "english": "TRIBAL / +My kin, my true / comrades / -Others? Hm. / -Lustfuls have no / lines / STUPID / +Others' smiles = / my smiles / +Kin just get it / -Smarts look down / on me / WASTEFUL / +Use what you've / got! / -Misers: misery / -Packrats: ugh"
   },
   {
     "resource": 2654,
     "message": 1938,
     "japanese": "(library body, sub via wave3)",
-    "english": "Every nature has matches: Maiden pairs best with Maiden, worst with Hot-Blooded. Pairs in a party sway how trust moves - good matches climb quick, bad ones tumble hard. See our nature columns for each!"
+    "english": "Every nature has matches: Maiden pairs best with Maiden, worst with Macho. Pairs in a party sway how trust moves - good matches climb quick, bad ones tumble hard. See our nature columns for each!"
   },
   {
     "resource": 2654,
@@ -2661,19 +2661,19 @@
     "resource": 2654,
     "message": 1940,
     "japanese": "(library body, sub via wave3)",
-    "english": "(From Omazo, Masochist.) A Reaper's chill grip is bliss; I let one ride me, as I do. On my camp road, where a wall should stand - an unknown door! In I went; deep inside lay precious gear. Thank my nature!"
+    "english": "(From Omazo, Martyr.) A Reaper latched on; I let it ride, savoring each exquisite chill - what bliss! On my camp road, where a wall should stand - an unknown door! In I went; deep inside lay precious gear. Thank my nature!"
   },
   {
     "resource": 2654,
     "message": 1941,
     "japanese": "(library body, sub via wave3)",
-    "english": "Some Alleids wake only under set conditions; a nameless tip says class is the key. Test it yourself!"
+    "english": "Some Allied Actions wake only under set conditions; a nameless tip says class is the key. Test it yourself!"
   },
   {
     "resource": 2654,
     "message": 1942,
     "japanese": "(library body, sub via wave3)",
-    "english": "(From Nagul, Belligerent warrior.) B2, hunting coin with an all-warrior crew, an orc mob jumped us. Small fry, but a swarm - so we matched them: all of us swinging as one. Power surged, something incredible. Sixteen orcs, wiped in a blink. Ha!"
+    "english": "(From Nagul, Warlike.) B2, hunting coin with an all-warrior crew, an orc mob jumped us. Small fry, but a swarm - so we matched them: all of us swinging as one. Power surged, something incredible. Sixteen orcs, wiped in a blink. Ha!"
   },
   {
     "resource": 2654,
@@ -2758,5 +2758,40 @@
     "message": 1968,
     "japanese": "(library body, sub via wave3)",
     "english": "Dec 10. Floor 8. A song led us to a flooded temple hall - and the witch. 'So Ortrud sends you against the Writhing One.' I drew; she laughed and vanished. A cold, evil air hangs here. Something is close... (It ends here.)"
+  },
+  {
+    "resource": 2654,
+    "message": 35,
+    "japanese": "前衛３鉄が、険鎧になって武器を振り / 回しながら、理の前を険秘にかけぬけ / 理前衛１脱にダメージを与えるａａ。 / 与えるダメージこそ系いが、覚い聞動 / 払がポイント。 / ",
+    "english": "3 allies sweep the / whole enemy front / row. Light damage / but rarely misses.",
+    "note": "AA desc, sub0 e33 'Area Attack' (mi=gi+1, g34; pristine cap 80 cells, this is 73). JP field is the in-resource decode (map approximation). JP says low damage / high hit rate (koso...ga pointo construction)."
+  },
+  {
+    "resource": 2654,
+    "message": 36,
+    "japanese": "スタンスマッシュが、頼事・炎悔の■ / 団によって進商したもの。 / 囮がフェイント攻手を削って聞動払を / 上げ、すかさずもう１鉄が攻手をたた / きこみ、理を秘計させる。 / ",
+    "english": "Stun Smash evolved / by a Thief. A / feint sets up a / strike that stuns / the foe.",
+    "note": "AA desc, sub0 e34 'Fake Attack' (g35; cap 80 cells, this is 75). Class attribution follows the shipped R39 block4 sibling (r39_aa_descriptions.json key 36)."
+  },
+  {
+    "resource": 2654,
+    "message": 37,
+    "japanese": "バックアタックが、限の■団によって / 進商したもの。 / 限の野騎によって、より強王なカウン / ター攻手にくわえて、理を備仰させる / ことすらある。 / ",
+    "english": "Back Attack / evolved by a / Samurai. A keen / counter that can / paralyze.",
+    "note": "AA desc, sub0 e35 'Moon Iai Slash' (g36; cap 70 cells, this is 67). Mirrors r39_aa_descriptions key 37."
+  },
+  {
+    "resource": 2654,
+    "message": 38,
+    "japanese": "ｓ・ｊアタックが法心賊の■団によっ / て進商したもの。 / 上新から秘をこめて武器をたたきつけ / ることでフィールドを大きくゆるがせ / 理全鎧にダメージと秘計を与える。 / ",
+    "english": "S.J Attack evolved / by a Dark Knight. / A quaking blow / stuns and hurts / all foes.",
+    "note": "AA desc, sub0 e36 'Nightmare Quake' (g37; cap 80 cells, this is 77). Mirrors r39_aa_descriptions key 38."
+  },
+  {
+    "resource": 2654,
+    "message": 39,
+    "japanese": "ホールドアタックが、上力の■団に / よって進商したもの。 / 後衛が理をホールドする持に理のスキ / を喚募き、そこを前衛が攻手すること / で、より強王なダメージを与える。 / ",
+    "english": "Hold Attack / evolved by a / Bishop. Strikes a / held foe's weak / spot for big dmg.",
+    "note": "AA desc, sub0 e37 'Weak Smash' (g38; cap 81 cells, this is 76). Mirrors r39_aa_descriptions key 39."
   }
 ]

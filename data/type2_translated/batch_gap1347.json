@@ -195,19 +195,19 @@
     "resource": 1351,
     "msg_index": 0,
     "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
-    "english": "Lomi: Oh! Did you / bring it for me?"
+    "english": "Romi: Oh! Did you / bring it for me?"
   },
   {
     "resource": 1351,
     "msg_index": 1,
     "japanese": "ローミに乙忍９名で投った / [0268][0444]を力飾した。",
-    "english": "You handed Lomi the cloth / bag that you had picked up / on the ninth floor."
+    "english": "You handed Romi the cloth / bag that you had picked up / on the ninth floor."
   },
   {
     "resource": 1351,
     "msg_index": 2,
     "japanese": "それは不出衛なことに、 / ローミの意を念き通ることなく / 族女の力に銀せられた。",
-    "english": "Strangely enough, the bag / did not fall through / Lomi's hands."
+    "english": "Strangely enough, the bag / did not fall through / Romi's hands."
   },
   {
     "resource": 1351,
@@ -225,7 +225,7 @@
     "resource": 1351,
     "msg_index": 5,
     "japanese": "ローミは[02F2]しそうに / [0444]のひもをとき、中から / 門い宝削を古り除した。",
-    "english": "Lomi happily untied / the bag and pulled out / a red gemstone from inside."
+    "english": "Romi happily untied / the bag and pulled out / a red gemstone from inside."
   },
   {
     "resource": 1351,
@@ -237,7 +237,7 @@
     "resource": 1351,
     "msg_index": 7,
     "japanese": "ローミに差し除された削を / 力にとってみた。",
-    "english": "You picked up the stone / that Lomi offered to you."
+    "english": "You picked up the stone / that Romi offered to you."
   },
   {
     "resource": 1351,
@@ -249,7 +249,7 @@
     "resource": 1351,
     "msg_index": 9,
     "japanese": "門い宝削に込められた出大から、 / 方しい授美「アレイド」を / 力に入れた。",
-    "english": "From the memories sealed / in the red gemstone, you learned / a new Alleid: Silencer Breaker!"
+    "english": "From the memories sealed / in the red gemstone, you learned / a new Allied Action: Silencer Breaker!"
   },
   {
     "resource": 1351,
@@ -261,31 +261,31 @@
     "resource": 1351,
     "msg_index": 11,
     "japanese": "、だいじょうぶ？",
-    "english": "Lomi: Are you okay?"
+    "english": "Romi: Are you okay?"
   },
   {
     "resource": 1351,
     "msg_index": 12,
     "japanese": "ローミに削を大した。",
-    "english": "You returned the stone / to Lomi."
+    "english": "You returned the stone / to Romi."
   },
   {
     "resource": 1351,
     "msg_index": 13,
     "japanese": "そうだ！お[0368]しなくっちゃ ",
-    "english": "Lomi: Oh yes, / I must thank you!"
+    "english": "Romi: Oh yes, / I must thank you!"
   },
   {
     "resource": 1351,
     "msg_index": 14,
     "japanese": "あのね、カウンターの外の宝[03CE]を / 開けてみてちょうだい。",
-    "english": "Lomi: Hey, try opening / that treasure chest / on top of the counter."
+    "english": "Romi: Hey, try opening / that treasure chest / on top of the counter."
   },
   {
     "resource": 1351,
     "msg_index": 15,
     "japanese": "ローミに言われたとおり、 / [0454]し物カウンターの外にある / 間さな宝[03CE]を開けてみた。",
-    "english": "You did as Lomi said / and opened the little / treasure chest on the counter."
+    "english": "You did as Romi said / and opened the little / treasure chest on the counter."
   },
   {
     "resource": 1351,
@@ -297,25 +297,25 @@
     "resource": 1351,
     "msg_index": 17,
     "japanese": "これ、ここで傷いたお臆で買ったの。 / 買ったっていっても、ここのお店で / １つだけ一入れてもらったんだけど。",
-    "english": "Lomi: I bought this with / the gold I earned here. / Well, I got one set aside / from this store."
+    "english": "Romi: I bought this with / the gold I earned here. / Well, I got one set aside / from this store."
   },
   {
     "resource": 1351,
     "msg_index": 18,
     "japanese": "生きてた動お[06CF]さんがいつも / つけてて、あこがれてたんだ～。",
-    "english": "Lomi: When my mom was alive, / she always wore one, / and I adored it~"
+    "english": "Romi: When my mom was alive, / she always wore one, / and I adored it~"
   },
   {
     "resource": 1351,
     "msg_index": 19,
     "japanese": "苦ってる？ / ミスリル拡ってとっても何闘で / めったにとれないんだって。",
-    "english": "Lomi: Did you know? / Baked silver is extremely / precious and hard to come by."
+    "english": "Romi: Did you know? / Baked silver is extremely / precious and hard to come by."
   },
   {
     "resource": 1351,
     "msg_index": 20,
     "japanese": "わたし、買ったのはいいけれど / つけられないから、あげる。",
-    "english": "Lomi: I bought it, but / I can't wear it, / so I'm giving it to you."
+    "english": "Romi: I bought it, but / I can't wear it, / so I'm giving it to you."
   },
   {
     "resource": 1351,
@@ -327,7 +327,7 @@
     "resource": 1351,
     "msg_index": 22,
     "japanese": "じゃあ、また働いに帰てね。 / ばいばい、。",
-    "english": "Lomi: Well, be sure to / come back for more / fortune-telling. Bye-bye!"
+    "english": "Romi: Well, be sure to / come back for more / fortune-telling. Bye-bye!"
   },
   {
     "resource": 1352,
@@ -693,7 +693,7 @@
     "resource": 1355,
     "msg_index": 39,
     "japanese": "男帰aイおい  /     族女が、[01AB]ってきたぞ  ゴ男帰bイどうだ？ /     聖回もやはり辺[0327]か？ゴ男帰aイそのようだ、さっきレオ動に /     半物の誰を飾していたが、 /     かすり[0327]兵つ魔っていないゴ男帰bイさすがだな！！ゴ",
-    "english": "Soldier A: Hey! / She has returned! / Soldier B: How are they? / She's unwounded, right? / Soldier A: She had just / handed Rudi the head / of a demon. Not a / scratch on her. / Soldier B: Incredible!"
+    "english": "Soldier A: Hey! / She has returned! / Soldier B: How are they? / She's unwounded, right? / Soldier A: She had just / handed Rudy the head / of a demon. Not a / scratch on her. / Soldier B: Incredible!"
   },
   {
     "resource": 1355,

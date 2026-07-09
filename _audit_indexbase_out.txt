@@ -1,0 +1,99 @@
+=== PER-FILE / PER-RESOURCE INDEX-BASE VERDICTS ===
+chunk_00_translated.json                   R   34 OK                           n=25 decisive=24 votes={1: 24}
+chunk_00_translated.json                   R   35 OK                           n=19 decisive=19 votes={1: 19}
+chunk_00_translated.json                   R   36 OK                           n=69 decisive=67 votes={0: 67}
+chunk_01_translated.json                   R   36 OK                           n=87 decisive=76 votes={0: 76}
+chunk_01_translated.json                   R   37 OK                           n=15 decisive=13 votes={0: 13}
+chunk_01_translated.json                   R   38 OK                           n=11 decisive=9 votes={0: 9}
+chunk_02_translated.json                   R   38 OK                           n=113 decisive=106 votes={0: 106}
+chunk_03_translated.json                   R   38 OK                           n=52 decisive=51 votes={0: 51}
+chunk_03_translated.json                   R   39 OK                           n=61 decisive=61 votes={0: 61}
+chunk_04_translated.json                   R   39 OK                           n=23 decisive=21 votes={0: 21}
+chunk_04_translated.json                   R   40 OK                           n=55 decisive=53 votes={0: 53}
+chunk_04_translated.json                   R   41 OK                           n=17 decisive=10 votes={0: 10}
+chunk_04_translated.json                   R   42 OK                           n=13 decisive=13 votes={0: 13}
+chunk_04_translated.json                   R   43 OK                           n=5 decisive=5 votes={0: 5}
+chunk_05_translated.json                   R   43 OK                           n=21 decisive=21 votes={0: 21}
+chunk_05_translated.json                   R   44 OK                           n=57 decisive=57 votes={0: 57}
+chunk_05_translated.json                   R   45 OK                           n=35 decisive=35 votes={0: 35}
+chunk_06_translated.json                   R   45 OK                           n=113 decisive=102 votes={0: 102}
+chunk_07_translated.json                   R   45 OK                           n=43 decisive=43 votes={0: 43}
+chunk_07_translated.json                   R   46 OK                           n=7 decisive=7 votes={0: 7}
+chunk_07_translated.json                   R   47 OK                           n=29 decisive=27 votes={0: 27}
+chunk_07_translated.json                   R   48 OK                           n=34 decisive=34 votes={0: 34}
+chunk_08_translated.json                   R   48 OK                           n=73 decisive=73 votes={0: 73}
+chunk_08_translated.json                   R   49 OK                           n=40 decisive=37 votes={0: 37}
+chunk_09_translated.json                   R   49 OK                           n=69 decisive=55 votes={0: 55}
+chunk_09_translated.json                   R 1053 MISMATCH d=-1 (exp 0)        n=4 decisive=1 votes={-1: 1}
+chunk_09_translated.json                   R 1908 NO-SIGNAL                    n=3 decisive=0 votes={}
+chunk_09_translated.json                   R 2654 OK                           n=32 decisive=32 votes={-1: 32}
+chunk_r38_fix.json                         R   38 OK                           n=10 decisive=10 votes={0: 10}
+chunk_r43_fix.json                         R   43 OK                           n=26 decisive=26 votes={0: 26}
+chunk_r37_extra.json                       R   37 OK                           n=111 decisive=108 votes={0: 108}
+chunk_r36_translated.json                  R   36 OK                           n=156 decisive=144 votes={0: 144}
+chunk_r37_r48_r49_translated.json          R   37 OK                           n=13 decisive=9 votes={0: 9}
+chunk_r37_r48_r49_translated.json          R   48 NO-SIGNAL                    n=107 decisive=0 votes={}
+chunk_r37_r48_r49_translated.json          R   49 NO-SIGNAL                    n=111 decisive=0 votes={}
+chunk_r40_r42_translated.json              R   40 OK                           n=55 decisive=53 votes={0: 53}
+chunk_r40_r42_translated.json              R   41 OK                           n=17 decisive=10 votes={0: 10}
+chunk_r40_r42_translated.json              R   42 OK                           n=13 decisive=13 votes={0: 13}
+chunk_r43_r45_translated.json              R   43 OK                           n=12 decisive=12 votes={0: 12}
+chunk_r43_r45_translated.json              R   44 OK                           n=57 decisive=57 votes={0: 57}
+chunk_r43_r45_translated.json              R   45 OK                           n=195 decisive=184 votes={0: 184}
+chunk_r34_fix.json                         R   34 MISMATCH d=0 (exp 1)         n=563 decisive=538 votes={0: 533, 1: 5}
+chunk_r35_menus_fix.json                   R   35 OK                           n=39 decisive=37 votes={1: 37}
+chunk_r2654_library_fix.json               R 2654 OK                           n=465 decisive=6 votes={-1: 6}
+chunk_r39_sysmsgs_fix.json                 R   39 MISMATCH d=1 (exp 0)         n=7 decisive=7 votes={0: 1, 1: 6}
+chunk_md_import.json                       R   34 NO-SIGNAL                    n=1135 decisive=0 votes={}
+chunk_md_import.json                       R   35 NO-SIGNAL                    n=60 decisive=0 votes={}
+chunk_md_import.json                       R   36 NO-SIGNAL                    n=156 decisive=0 votes={}
+chunk_md_import.json                       R   37 NO-SIGNAL                    n=125 decisive=0 votes={}
+chunk_md_import.json                       R   38 NO-SIGNAL                    n=186 decisive=0 votes={}
+chunk_md_import.json                       R   39 NO-SIGNAL                    n=632 decisive=0 votes={}
+chunk_md_import.json                       R   40 NO-SIGNAL                    n=55 decisive=0 votes={}
+chunk_md_import.json                       R   41 NO-SIGNAL                    n=17 decisive=0 votes={}
+chunk_md_import.json                       R   42 NO-SIGNAL                    n=13 decisive=0 votes={}
+chunk_md_import.json                       R   43 NO-SIGNAL                    n=38 decisive=0 votes={}
+chunk_md_import.json                       R   44 NO-SIGNAL                    n=57 decisive=0 votes={}
+chunk_md_import.json                       R   45 NO-SIGNAL                    n=196 decisive=0 votes={}
+chunk_md_import.json                       R   46 NO-SIGNAL                    n=236 decisive=0 votes={}
+chunk_md_import.json                       R   47 NO-SIGNAL                    n=122 decisive=0 votes={}
+chunk_md_import.json                       R   48 NO-SIGNAL                    n=107 decisive=0 votes={}
+chunk_md_import.json                       R   49 NO-SIGNAL                    n=111 decisive=0 votes={}
+
+=== MISMATCH DETAILS (chunk jp vs pristine group m+d) ===
+--- chunk_09_translated.json R1053: expected d=0, file consensus d=-1
+    d=-1 m=4: jp="ブベ     " ~ pristine[g3]="ブベ     " (1.0)
+--- chunk_r34_fix.json R34: expected d=1, file consensus d=0
+    d=+0 m=31: jp="事持のブーツ / " ~ pristine[g31]="騎事持のブーツ/" (0.92)
+    d=+0 m=32: jp="スタミナブーツ / " ~ pristine[g32]="スタミナブーツ/" (1.0)
+    d=+0 m=33: jp="マーキュリーブーツ / " ~ pristine[g33]="マーキュリーブーツ/" (1.0)
+    d=+1 m=8: jp="飾りの罰野 / " ~ pristine[g9]="飾りの罰野/" (1.0)
+    d=+1 m=9: jp="心像の罰野 / " ~ pristine[g10]="心長の罰野/" (0.8)
+    d=+1 m=10: jp="憶除の罰野 / " ~ pristine[g11]="憶除の罰野/" (1.0)
+--- chunk_r39_sysmsgs_fix.json R39: expected d=0, file consensus d=1
+    d=+0 m=90: jp="呪いが解かれ抜け落ちた！" ~ pristine[g90]="使いが殿かれ抜け落った " (0.73)
+    d=+1 m=91: jp="対宝箱トラップのシールドをはりました" ~ pristine[g92]="対宝箱トラップのシールドをはりました/" (1.0)
+    d=+1 m=92: jp="スタミナが回復・解除されました！" ~ pristine[g93]="スタミナが回復・解除されました /" (1.0)
+    d=+1 m=93: jp="パーティ全員の体がうき上がった！" ~ pristine[g94]="パーティ全員の体がうき上がった /" (1.0)
+
+=== GROUP-0/1 CONTENT (blank/structural leading groups) ===
+R   34 ngroups=1163 g0='q ク セ フ レ ヂ ェ 聖 迷 団 多 一 初 # 度 報 秘 短 後 幸 '     g1=BLANK
+R   35 ngroups=  63 g0=BLANK                                          g1=BLANK
+R   36 ngroups= 159 g0=BLANK                                          g1='バブリースライム/'
+R   37 ngroups= 127 g0=BLANK                                          g1='名団を入力してください。/「男名・女名#名団を自動で入力」/'
+R   38 ngroups= 189 g0='hp/'                                          g1='hp／mhp/'
+R   39 ngroups= 657 g0=BLANK                                          g1='使う/'
+R   40 ngroups=  58 g0=BLANK                                          g1='ようこそ、冒険者よ / / /'
+R   41 ngroups=  19 g0=BLANK                                          g1='ここはサレム教会。/！何用な方が/一体どんな消息で？/'
+R   42 ngroups=  15 g0=BLANK                                          g1='冒険者の宿へようこそ。/ここは心身を士め、/また新たな力を下る場所。/'
+R   43 ngroups=  40 g0=BLANK                                          g1='おうおう、/あの依頼はどうなった？/ /'
+R   44 ngroups=  59 g0=BLANK                                          g1='よく来てくださいました。/冒書事に御用を/お持ちですか？/'
+R   45 ngroups= 198 g0=BLANK                                          g1='ヴィガーしょうてんに/ようこそ   / /'
+R   46 ngroups= 243 g0=BLANK                                          g1='この度、ドゥーハン器民のみなさまが/気素に払見交更を行えるよう、/王戦掲鉄図を増'
+R   47 ngroups= 130 g0=BLANK                                          g1='対応の決復/'
+R   48 ngroups= 108 g0='なし/'                                          g1='不法投棄場/'
+R   49 ngroups= 112 g0='特に変わったところはない/'                                g1='こちらからは開きそうにない/'
+R 1053 ngroups= 168 g0=BLANK                                          g1=BLANK
+R 1908 ngroups=14253 g0=BLANK                                          g1=BLANK
+R 2654 ngroups=2277 g0='f を ご ゾ # 感 終 連 遂 闘 甘 # # # # # # # # # '     g1=BLANK

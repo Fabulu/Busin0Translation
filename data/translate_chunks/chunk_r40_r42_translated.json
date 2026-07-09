@@ -81,7 +81,7 @@
     "resource": 40,
     "message": 15,
     "japanese": "冒険者登録から名前を削除します。 / 削除内は両度と元に帰せません。",
-    "english": "Delete from / registry. this / cannot be undone. /"
+    "english": "Delete from / registry. This / cannot be undone. /"
   },
   {
     "resource": 40,
@@ -147,7 +147,7 @@
     "resource": 40,
     "message": 26,
     "japanese": "属性が編わないため / 転職できません。",
-    "english": "Alignment mismatch. / cannot change class."
+    "english": "Alignment mismatch. / Cannot change class."
   },
   {
     "resource": 40,
@@ -165,7 +165,7 @@
     "resource": 40,
     "message": 29,
     "japanese": "仲間に削除して / よろしいですか？",
-    "english": "Delete this member? / are you sure?"
+    "english": "Delete this member? / Are you sure?"
   },
   {
     "resource": 40,
@@ -255,19 +255,19 @@
     "resource": 40,
     "message": 44,
     "japanese": "[L1]ボタンか[R1]ボタンをおすと / 早終結果へ物ります。",
-    "english": "Press l1 or r1 to / skip to final / result. /"
+    "english": "Press L1 or R1 to / skip to final / result. /"
   },
   {
     "resource": 40,
     "message": 45,
     "japanese": "能力値と属性があわないため / 転職できません。",
-    "english": "Stats and alignment / do not match. cannot / change class. /"
+    "english": "Stats and alignment / do not match. Cannot / change class. /"
   },
   {
     "resource": 40,
     "message": 46,
     "japanese": "リーダーが動けないため / 仲間を外せません。",
-    "english": "Leader cannot move. / cannot remove / members. /"
+    "english": "Leader cannot move. / Cannot remove / members. /"
   },
   {
     "resource": 40,
@@ -453,7 +453,7 @@
     "resource": 42,
     "message": 4,
     "japanese": "もう出発されるのですか？ / どうかお気をつけて。 /  ",
-    "english": "Leaving already? / please take care. /  "
+    "english": "Leaving already? / Please take care. /  "
   },
   {
     "resource": 42,
@@ -471,7 +471,7 @@
     "resource": 42,
     "message": 7,
     "japanese": "あら、お書が足りない / ようですね。 / またお越しください。",
-    "english": "Oh, you don't have / enough gold. / please come again."
+    "english": "Oh, you don't have / enough gold. / Please come again."
   },
   {
     "resource": 42,

@@ -55,7 +55,10 @@ N_RESOURCES = 2883  # PACKDATA.DIG TOC entry count
 # and bumped 256 -> 320 on 2026-07-04 (v165): the relocation machinery is
 # uncapped and gated; this budget exists purely as a growth tripwire. If it
 # trips again, account for the delta before bumping.
-PACKDATA_OVERFLOW_BUDGET_SECTORS = 320
+# 320 -> 360 on 2026-07-09 (v182): 1,510 telegraphic stub lines upgraded to full
+# guide-sourced dialogue (R1206-R1213/R1353 Section-2 growth +24-39KB each) +141
+# promoted dialogue wraps; measured overflow 328 sectors, fully accounted.
+PACKDATA_OVERFLOW_BUDGET_SECTORS = 360
 
 if TOOLS_DIR not in sys.path:
     sys.path.insert(0, TOOLS_DIR)

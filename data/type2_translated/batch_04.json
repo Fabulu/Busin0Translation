@@ -63,7 +63,7 @@
     "resource": 1204,
     "msg_index": 14,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Alleid info 1-8 / Request done."
+    "english": "Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Allied info 1-8 / Request done."
   },
   {
     "resource": 1204,
@@ -297,13 +297,13 @@
     "resource": 1204,
     "msg_index": 54,
     "japanese": "俺はウーリ[001D]エルンスト。汝達と同じ討伐隊の者だ。",
-    "english": "I'm Wouri Ernst. / A member of the / strike force, / same as you."
+    "english": "I'm Uuri Ernst. / A member of the / strike force, / same as you."
   },
   {
     "resource": 1204,
     "msg_index": 55,
     "japanese": "ウーリ[047A]しぶりに盗に戻ってみると、ベルグラーノがすごい勲影で段討ちするって[04D1]んでいてね。",
-    "english": "Wouri: After / returning to the / city, Belgrano / was furiously / declaring he'd / hunt them down."
+    "english": "Uuri: After / returning to the / city, Belgrano / was furiously / declaring he'd / hunt them down."
   },
   {
     "resource": 1204,
@@ -339,7 +339,7 @@
     "resource": 1204,
     "msg_index": 61,
     "japanese": "ウーリは、[053A]の中に入っていった。",
-    "english": "Wouri went into / the room."
+    "english": "Uuri went into / the room."
   },
   {
     "resource": 1204,
@@ -369,7 +369,7 @@
     "resource": 1204,
     "msg_index": 66,
     "japanese": "ウーリは何かを力にして戻ってきた。",
-    "english": "Wouri came back / holding something."
+    "english": "Uuri came back / holding something."
   },
   {
     "resource": 1204,
@@ -477,7 +477,7 @@
     "resource": 1204,
     "msg_index": 84,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "From the memories / in the bracelet, / you learned a / new Alleid."
+    "english": "From the memories / in the bracelet, / you learned a / new Allied Action."
   },
   {
     "resource": 1204,
@@ -645,7 +645,7 @@
     "resource": 1204,
     "msg_index": 113,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "From the memories / in the bracelet, / you learned a / new Alleid."
+    "english": "From the memories / in the bracelet, / you learned a / new Allied Action."
   },
   {
     "resource": 1204,
@@ -1341,7 +1341,7 @@
     "resource": 1204,
     "msg_index": 234,
     "japanese": "アレイドスレイクラッシュを[04C3]得した ",
-    "english": "Learned Alleid / Slay Crash."
+    "english": "Learned Allied Action / Slay Crash."
   },
   {
     "resource": 1204,
@@ -1677,7 +1677,7 @@
     "resource": 1204,
     "msg_index": 291,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "From the memories / in the bracelet, / you learned a / new Alleid."
+    "english": "From the memories / in the bracelet, / you learned a / new Allied Action."
   },
   {
     "resource": 1204,
@@ -1875,13 +1875,13 @@
     "resource": 1204,
     "msg_index": 324,
     "japanese": "インゴはラフィールの魔法を[04CB]えた。",
-    "english": "Ingo cast / Rapheal's / healing magic."
+    "english": "Ingo cast / Raphael's / healing magic."
   },
   {
     "resource": 1204,
     "msg_index": 325,
     "japanese": "騎騎者はラフィールの魔法を[04CB]えた。",
-    "english": "Adventurer cast / Rapheal's / healing magic."
+    "english": "Adventurer cast / Raphael's / healing magic."
   },
   {
     "resource": 1204,
@@ -3351,7 +3351,7 @@
     "resource": 1204,
     "msg_index": 578,
     "japanese": "ブレスレットに込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "From its / memories, you / learned a new / Alleid."
+    "english": "From its / memories, you / learned a new / Allied Action."
   },
   {
     "resource": 1204,
@@ -3651,7 +3651,7 @@
     "resource": 1204,
     "msg_index": 629,
     "japanese": "門い宝剣に込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "From the white / sword's memories / you learned a / new Alleid."
+    "english": "From the white / sword's memories / you learned a / new Allied Action."
   },
   {
     "resource": 1204,
@@ -3795,7 +3795,7 @@
     "resource": 1204,
     "msg_index": 654,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "From the / bracelet's / memories, you / learned a new / Alleid."
+    "english": "From the / bracelet's / memories, you / learned a new / Allied Action."
   },
   {
     "resource": 1204,
@@ -3813,13 +3813,13 @@
     "resource": 1204,
     "msg_index": 657,
     "japanese": "これぐらいの[01E8]さならラングの秘を[0530]かすのに[047C]していそうだ。",
-    "english": "This depth / seems right for / a Rang Potion."
+    "english": "This depth / seems right for / a Lang Potion."
   },
   {
     "resource": 1204,
     "msg_index": 658,
     "japanese": "ラングの秘を度いますか？は いいいえ",
-    "english": "Use Rang / Potion? / Yes / No"
+    "english": "Use Lang / Potion? / Yes / No"
   },
   {
     "resource": 1204,
@@ -3891,19 +3891,19 @@
     "resource": 1204,
     "msg_index": 671,
     "japanese": "魔美解これぐらいの[01E8]さならラングの秘を[0530]かすのに[047C]していそうだ。",
-    "english": "Wizard: This / depth is right / for Rang Potion."
+    "english": "Wizard: This / depth is right / for Lang Potion."
   },
   {
     "resource": 1204,
     "msg_index": 672,
     "japanese": "ラングの秘を度いますか？は いいいえ",
-    "english": "Use Rang / Potion? / Yes / No"
+    "english": "Use Lang / Potion? / Yes / No"
   },
   {
     "resource": 1204,
     "msg_index": 673,
     "japanese": "[0457]物からラングの秘を取り出し、関に[0530]かそうと[0661]に力をかけた。",
-    "english": "You pulled the / Rang Potion / and tried to / pour it in."
+    "english": "You pulled the / Lang Potion / and tried to / pour it in."
   },
   {
     "resource": 1204,
@@ -4047,7 +4047,7 @@
     "resource": 1204,
     "msg_index": 698,
     "japanese": "魔美解にラングの秘を[0143]祠に取りあげられた。",
-    "english": "The wizard took / your Rang / Potion by / force."
+    "english": "The wizard took / your Lang / Potion by / force."
   },
   {
     "resource": 1204,
@@ -4395,7 +4395,7 @@
     "resource": 1204,
     "msg_index": 758,
     "japanese": "これぐらいの蓄低ならラングの秘を[0530]かすのに[047C]していそうだ。",
-    "english": "This depth / seems right for / a Rang Potion."
+    "english": "This depth / seems right for / a Lang Potion."
   },
   {
     "resource": 1204,
@@ -4425,7 +4425,7 @@
     "resource": 1204,
     "msg_index": 763,
     "japanese": "どちらにせよ、これではラングの秘を入れることはできない！。",
-    "english": "The Rang Potion / can't be used / here now!"
+    "english": "The Lang Potion / can't be used / here now!"
   },
   {
     "resource": 1204,
@@ -5871,7 +5871,7 @@
     "resource": 1205,
     "msg_index": 16,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Alleid info 1-8 / Request done."
+    "english": "Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Allied info 1-8 / Request done."
   },
   {
     "resource": 1205,
@@ -5949,7 +5949,7 @@
     "resource": 1205,
     "msg_index": 30,
     "japanese": "ワーグネスの[03C4]を力に入れた。",
-    "english": "Obtained / Waergness's / Shield."
+    "english": "Obtained / Wargness's / Shield."
   },
   {
     "resource": 1205,
@@ -7305,7 +7305,7 @@
     "resource": 1205,
     "msg_index": 267,
     "japanese": "かつてエルフの置形解[03DE]を一[05F4]にして[0408]ぼしたとされる、住損をな。",
-    "english": "A Warrior God, / said to have / destroyed an / ancient elven / city in a / single night."
+    "english": "A War God, / said to have / destroyed an / ancient elven / city in a / single night."
   },
   {
     "resource": 1205,
@@ -7317,7 +7317,7 @@
     "resource": 1205,
     "msg_index": 269,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "From the / memories in the / bracelet, you / learned a new / Alleid skill."
+    "english": "From the / memories in the / bracelet, you / learned a new / Allied skill."
   },
   {
     "resource": 1205,
@@ -9093,7 +9093,7 @@
     "resource": 1205,
     "msg_index": 574,
     "japanese": "ブレスレットに込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "From the / bracelet's / memories, you / learned a new / Alleid skill!"
+    "english": "From the / bracelet's / memories, you / learned a new / Allied skill!"
   },
   {
     "resource": 1205,
@@ -9393,7 +9393,7 @@
     "resource": 1205,
     "msg_index": 625,
     "japanese": "門い宝剣に込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "From the / memories in / the holy sword, / you learned / a new Alleid / skill!"
+    "english": "From the / memories in / the holy sword, / you learned / a new Allied / skill!"
   },
   {
     "resource": 1205,
@@ -10425,7 +10425,7 @@
     "resource": 1205,
     "msg_index": 806,
     "japanese": "ミリィメラーニエクンナル落とし[069A]を落ちた[01A1]にはメラーニエと一同にいるピクシーのミリィがいた。",
-    "english": "Miri / Melanie / Kunnar: / Beyond the / trap door, / Miri the / Pixie was with / Melanie."
+    "english": "Milly / Melanie / Kunnal: / Beyond the / trap door, / Milly the / Pixie was with / Melanie."
   },
   {
     "resource": 1205,
@@ -10467,7 +10467,7 @@
     "resource": 1205,
     "msg_index": 814,
     "japanese": "ミリィに重中を[01D7]されて[0269]を開けると、野の両にメラーニエが待っていた。",
-    "english": "Pushed by / Miri, you / opened the / door and found / Melanie / waiting."
+    "english": "Pushed by / Milly, you / opened the / door and found / Melanie / waiting."
   },
   {
     "resource": 1205,
@@ -10515,7 +10515,7 @@
     "resource": 1205,
     "msg_index": 822,
     "japanese": "メラーニエが力をひっこめると[0150]びミリィが質し専めた。",
-    "english": "After Melanie / withdrew her / hand, Miri / spoke up again."
+    "english": "After Melanie / withdrew her / hand, Milly / spoke up again."
   },
   {
     "resource": 1205,
@@ -10557,7 +10557,7 @@
     "resource": 1205,
     "msg_index": 829,
     "japanese": " その時、野の両の[0269]を開けてクンナルが通独に入ってきた。",
-    "english": "Just then, / Kunnar entered / through the / door behind."
+    "english": "Just then, / Kunnal entered / through the / door behind."
   },
   {
     "resource": 1205,
@@ -10599,7 +10599,7 @@
     "resource": 1205,
     "msg_index": 837,
     "japanese": "ミリィは義恵、兜声をあげた。",
-    "english": "Miri suddenly / shouted."
+    "english": "Milly suddenly / shouted."
   },
   {
     "resource": 1205,
@@ -10641,13 +10641,13 @@
     "resource": 1205,
     "msg_index": 844,
     "japanese": "にえきらない[0431]度をとっているクンナルを携目させようと、ミリィはなにか[05D1]いたようだ。",
-    "english": "Miri noticed / Kunnar's / hesitation / and seemed to / have an idea."
+    "english": "Milly noticed / Kunnal's / hesitation / and seemed to / have an idea."
   },
   {
     "resource": 1205,
     "msg_index": 845,
     "japanese": "ミリィがメラーニエに[033C][032D]ちすると顔を[04A6]っ[041E]にしたが、そのまま消え入りそうな声でクンナルに質した。",
-    "english": "Miri whispered / to Melanie, / who turned / bright red, / then spoke to / Kunnar softly."
+    "english": "Milly whispered / to Melanie, / who turned / bright red, / then spoke to / Kunnal softly."
   },
   {
     "resource": 1205,
@@ -10665,7 +10665,7 @@
     "resource": 1205,
     "msg_index": 848,
     "japanese": "メラーニエの一言でクンナルは携目したようだ。",
-    "english": "Melanie's / words made / Kunnar decide / instantly."
+    "english": "Melanie's / words made / Kunnal decide / instantly."
   },
   {
     "resource": 1205,
@@ -10689,7 +10689,7 @@
     "resource": 1205,
     "msg_index": 852,
     "japanese": "メラーニエは申し[0559]なさそうにクンナルを外野づかいで見つめる。",
-    "english": "Melanie looked / at Kunnar / apologetically."
+    "english": "Melanie looked / at Kunnal / apologetically."
   },
   {
     "resource": 1205,
@@ -10701,7 +10701,7 @@
     "resource": 1205,
     "msg_index": 854,
     "japanese": "クンナルの言[0387]を聞いてメラーニエは持っていた兜きな[0457]物の[0444]を乙蓄に[0175]いた。",
-    "english": "Melanie placed / her large / luggage bag / on Kunnar's / back."
+    "english": "Melanie placed / her large / luggage bag / on Kunnal's / back."
   },
   {
     "resource": 1205,
@@ -10713,13 +10713,13 @@
     "resource": 1205,
     "msg_index": 857,
     "japanese": "ミリィとメラーニエはクンナルの入ってきた[0269]を開け、出て行った。",
-    "english": "Miri and / Melanie / left through / the door / Kunnar entered."
+    "english": "Milly and / Melanie / left through / the door / Kunnal entered."
   },
   {
     "resource": 1205,
     "msg_index": 858,
     "japanese": "一者取り退されたクンナルはメラーニエの[0457]物を持とうとした。",
-    "english": "Left behind, / Kunnar tried / to lift / Melanie's bag."
+    "english": "Left behind, / Kunnal tried / to lift / Melanie's bag."
   },
   {
     "resource": 1205,
@@ -10743,7 +10743,7 @@
     "resource": 1205,
     "msg_index": 862,
     "japanese": "クンナルは[0457]物の[0444]をひきずりながら、装を漢った。",
-    "english": "Kunnar / dragged the / bag and chased / after them."
+    "english": "Kunnal / dragged the / bag and chased / after them."
   },
   {
     "resource": 1205,
@@ -10971,7 +10971,7 @@
     "resource": 1205,
     "msg_index": 901,
     "japanese": "余が聞かされていたのは、アレイドという新戦美を会得した[01E3]帰前の[05AC][04D6]だった。",
-    "english": "What I'd heard about was a new battle // technique called Alleid being developed by the military."
+    "english": "What I'd heard about was a new battle // technique called Allied Actions being developed by the military."
   },
   {
     "resource": 1205,

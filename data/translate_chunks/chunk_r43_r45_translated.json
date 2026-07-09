@@ -1,86 +1,86 @@
 [
   {
     "resource": 43,
-    "message": 26,
+    "message": 27,
     "japanese": "メダル [006B]      / ",
     "english": "Medals:        / ",
     "notes": "Medal count display label"
   },
   {
     "resource": 43,
-    "message": 27,
+    "message": 28,
     "japanese": "メダルと景品を / 交更しますか？ / ",
     "english": "Trade medals / for a prize? / ",
     "notes": "Medal exchange confirmation"
   },
   {
     "resource": 43,
-    "message": 28,
+    "message": 29,
     "japanese": "所持書が不足しています / ",
     "english": "Not enough gold / ",
     "notes": "Insufficient gold"
   },
   {
     "resource": 43,
-    "message": 29,
+    "message": 30,
     "japanese": "は / ",
     "english": "  / ",
     "notes": "Spacer/divider"
   },
   {
     "resource": 43,
-    "message": 30,
+    "message": 31,
     "japanese": "所持メダル / ",
     "english": "Medals held / ",
     "notes": "Current medal count label"
   },
   {
     "resource": 43,
-    "message": 31,
+    "message": 32,
     "japanese": "必要メダル / ",
     "english": "Medals needed / ",
     "notes": "Required medal count label"
   },
   {
     "resource": 43,
-    "message": 32,
+    "message": 33,
     "japanese": "恩 / ",
     "english": "  / ",
     "notes": "Particle/spacer"
   },
   {
     "resource": 43,
-    "message": 33,
+    "message": 34,
     "japanese": "を受け取った  / ",
     "english": "Received!! / ",
     "notes": "Item received message suffix"
   },
   {
     "resource": 43,
-    "message": 34,
+    "message": 35,
     "japanese": "メダルが不足しています / ",
     "english": "Not enough medals / ",
     "notes": "Insufficient medals"
   },
   {
     "resource": 43,
-    "message": 35,
+    "message": 36,
     "japanese": "それと交更するには / メダルが足りねえぜ  /   / ",
     "english": "You don't have / enough medals / for that! / ",
     "notes": "Not enough medals for exchange (dialogue)"
   },
   {
     "resource": 43,
-    "message": 36,
+    "message": 37,
     "japanese": "依頼をこなしていません / ",
     "english": "No quests completed / ",
     "notes": "No completed quests"
   },
   {
     "resource": 43,
-    "message": 37,
+    "message": 38,
     "japanese": "所持品がいっぱいです / ",
-    "english": "No completed requests / ",
+    "english": "Inventory is full / ",
     "notes": "Personal Deeds empty-list message (was 'Inventory is full'; the empty completed-requests screen references this group). Prize-receipt inventory-full is a separate message (R43 msg 22 'Sort your stuff'). See wave9 report."
   },
   {
@@ -1088,8 +1088,8 @@
     "resource": 45,
     "message": 87,
     "japanese": "持てる / ",
-    "english": "Hold / ",
-    "notes": "Give to party member"
+    "english": "Discard / ",
+    "notes": "VERIFIED 捨てる=Discard, not 持てる: glyph 0x25D+てる is byte-identical to R39 m6 (behaviorally proven Discard camp option); every genuine 持 in R45 (所持品 m102/m114/m118, 持ち m25/m38/m67) uses glyph 0x29C instead. Same garble class as the fixed camp menu."
   },
   {
     "resource": 45,

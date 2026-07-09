@@ -600,6 +600,23 @@ DIALOGUE_WRAP_EXCLUDE = {(1194, 0), (1196, 810), (1200, 64),
 # belt-and-suspenders guard on top of the body-span predicate.
 NARR_PAD_EXCLUDE = {(1197, 1), (1212, 1), (1213, 1), (1353, 1)}
 
+# DIALOGUE-WRAP PROMOTIONS (data/dialogue_wrap_force.json).  These (resource,
+# msg_index) groups are conversational prose rendered in the BOXED-DIALOGUE
+# window, but their DISPLAY opcodes live in Section-1 code ISLANDS the BFS walk
+# cannot reach (the v171 unwalked-island family), so build_dialogue_map never
+# sees them and they fell through to the narrow char-20 wrap_type2_text
+# (under-filled choppy lines).  Each listed entry was mode-verified PURE-
+# DIALOGUE offline via the same 0x63-helper rule extended into the islands
+# (see the data file's _comment); island-N/unknown/choice-adjacent/list groups
+# stay narrow.  Treated exactly like build_dialogue_map members below —
+# DIALOGUE_WRAP_EXCLUDE and pristine choice groups still take precedence
+# because this only widens the `mi in dialogue_groups` arm of the same
+# if-chain.  Gate: tests/test_dialogue_wrap_force.py.  Loader law as the batch
+# files: a present-but-unreadable file must ABORT, never silently un-promote.
+with open('data/dialogue_wrap_force.json', encoding='utf-8') as _dwf_f:
+    DIALOGUE_WRAP_FORCE = {tuple(e) for e in
+                           json.load(_dwf_f)['force_dialogue_wrap']}
+
 # BOX-MODE MECHANISM (2026-06-20): render mode is now read DIRECTLY from the
 # engine's own rule in tools/dialogue_classifier.py — every 0x04 DISPLAY block is
 # preceded (control-flow order) by a 0x12 GOSUB to a mode-config helper whose first
@@ -638,7 +655,10 @@ for fn in sorted(glob.glob('data/type2_translated/batch_*.json')):
                 all_trans[r] = {}
             all_trans[r][mi] = en
     except Exception as ex:
-        print(f"  Warning: {fn}: {ex}")
+        # Same law as the Step-2 chunk loaders (master-audit #4): a PRESENT but
+        # unreadable batch file silently un-translates everything it carries.
+        print(f"  FATAL: batch file present but unreadable: {fn} ({type(ex).__name__}: {ex})")
+        sys.exit(1)
 
 print(f"  Loaded translations for {len(all_trans)} resources")
 
@@ -733,9 +753,11 @@ for r_id in sorted(type02_resources):
             # vertical overflow AND a smaller Section 2).  Narration/structural
             # groups are NOT in dialogue_groups, so they pass straight to
             # wrap_type2_text byte-identically to v97 — the gate is dialogue-only.
-            if mi in dialogue_groups:
+            if mi in dialogue_groups or (r_id, mi) in DIALOGUE_WRAP_FORCE:
                 # Engine-classified BOXED DIALOGUE (the 0x63-helper rule): wrap at
-                # the wide 480px box, collapsing premature ' / ' breaks.
+                # the wide 480px box, collapsing premature ' / ' breaks.  The
+                # DIALOGUE_WRAP_FORCE promotions (island-mode-verified dialogue
+                # the walk cannot reach) take the identical path.
                 en_text = wrap_px(en_text, DIALOGUE_BOX_PX)
             elif mi in narration_groups:
                 en_text = wrap_px(en_text, NARRATION_BOX_PX, collapse=True)

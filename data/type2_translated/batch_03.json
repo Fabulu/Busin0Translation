@@ -9,7 +9,7 @@
   "resource": 1203,
   "msg_index": 1,
   "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-  "english": "Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Alleid info 1-8 / Request done."
+  "english": "Explore / Master? / Storage 1-10 / Shadow chk / Appraisal / thanks? / Allied info 1-8 / Request done."
  },
  {
   "resource": 1203,
@@ -1275,7 +1275,7 @@
   "resource": 1203,
   "msg_index": 220,
   "japanese": "ブレスレットに込められた思大から、新しい戦美「アレイド」を力に入れた。",
-  "english": "From the memories / in the bracelet, / learned new Alleid."
+  "english": "From the memories / in the bracelet, / learned new Allied Action."
  },
  {
   "resource": 1203,
@@ -1575,7 +1575,7 @@
   "resource": 1203,
   "msg_index": 271,
   "japanese": "門い宝剣に込められた思大から、新しい戦美「アレイド」を力に入れた。",
-  "english": "From the memories / in the gem sword, / learned new Alleid."
+  "english": "From the memories / in the gem sword, / learned new Allied Action."
  },
  {
   "resource": 1203,
@@ -5499,7 +5499,7 @@
   "resource": 1203,
   "msg_index": 958,
   "japanese": "どれをもらいますか？マグスの兜鎧マグスの帯[01E0]ザクレタの剣",
-  "english": "Choose a reward: / Magus Armor / Magus Bracelet / Sword of Zakleta"
+  "english": "Choose a reward: / Magus Armor / Magus Bracelet / Sword of Zakreta"
  },
  {
   "resource": 1203,
@@ -5517,7 +5517,7 @@
   "resource": 1203,
   "msg_index": 961,
   "japanese": "ザクレタの剣を受け取った ",
-  "english": "Received the / Sword of Zakleta."
+  "english": "Received the / Sword of Zakreta."
  },
  {
   "resource": 1203,
@@ -6105,7 +6105,7 @@
   "resource": 1203,
   "msg_index": 1062,
   "japanese": "[02E0]決や高者がパーティ長にいれば、その宝[03CE]のまわりにオーラが巨っているのが見えるはずだ。",
-  "english": "If you have a / thief or gizoku, / you'll see an aura / around it."
+  "english": "If you have a / thief or Gizoku, / you'll see an aura / around it."
  },
  {
   "resource": 1203,
@@ -6273,7 +6273,7 @@
   "resource": 1203,
   "msg_index": 1090,
   "japanese": "高者や[02E0]決がいれば、そりゃ少しは武になるが、[0490]役宿には値色の可をみがくしかねえ。",
-  "english": "Thieves and gizoku / help, but / ultimately you / train your own hands."
+  "english": "Thieves and Gizoku / help, but / ultimately you / train your own hands."
  },
  {
   "resource": 1203,
@@ -7233,7 +7233,7 @@
   "resource": 1203,
   "msg_index": 1255,
   "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-  "english": "From the bracelet's / lingering will, / you learned a / new Alleid!"
+  "english": "From the bracelet's / lingering will, / you learned a / new Allied Action!"
  },
  {
   "resource": 1203,
@@ -8085,7 +8085,7 @@
   "resource": 1203,
   "msg_index": 1397,
   "japanese": "その戦美とは、一街の者がアレイドと高んでいるものだ。",
-  "english": "It's what some / people call / Alleid."
+  "english": "It's what some / people call / Allied Actions."
  },
  {
   "resource": 1203,
@@ -8097,7 +8097,7 @@
   "resource": 1203,
   "msg_index": 1399,
   "japanese": "余は知っている。あのベルグラーノという者が、アレイドを腕に着けていることを。",
-  "english": "I know that / Belgrano / himself uses / Alleid."
+  "english": "I know that / Belgrano / himself uses / Allied Actions."
  },
  {
   "resource": 1203,
@@ -8115,13 +8115,13 @@
   "resource": 1203,
   "msg_index": 1402,
   "japanese": "魔物どもが持っている得前戦美、アレイドのことを。",
-  "english": "About the / coordinated / combat technique / monsters use, / called Alleid."
+  "english": "About the / coordinated / combat technique / monsters use, / called Allied Actions."
  },
  {
   "resource": 1203,
   "msg_index": 1403,
   "japanese": "アレイドを知っているは いいいえ",
-  "english": "Do you know / about Alleid? / Yes / No"
+  "english": "Do you know / about Allied Actions? / Yes / No"
  },
  {
   "resource": 1203,
@@ -8139,7 +8139,7 @@
   "resource": 1203,
   "msg_index": 1406,
   "japanese": "アレイドを度う[01D1]の男帰達のことを。",
-  "english": "Of human teams / using Alleid."
+  "english": "Of human teams / using Allied Actions."
  },
  {
   "resource": 1203,
@@ -8241,7 +8241,7 @@
   "resource": 1203,
   "msg_index": 1423,
   "japanese": "一つのアレイドを腕に着けるために[0409]する[0434]兜な時嫌を、どう倒携するかということだ。",
-  "english": "Plus the massive / time investment / needed for just / one Alleid."
+  "english": "Plus the massive / time investment / needed for just / one Allied Action."
  },
  {
   "resource": 1203,
@@ -8601,7 +8601,7 @@
   "resource": 1203,
   "msg_index": 1484,
   "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-  "english": "From the memories / in the bracelet, / learned new Alleid."
+  "english": "From the memories / in the bracelet, / learned new Allied Action."
  },
  {
   "resource": 1203,
@@ -8637,7 +8637,7 @@
   "resource": 1203,
   "msg_index": 1490,
   "japanese": "イーリスヴァレー乙[05BD]の集を[067B]出したあと、あれから汝を素したのだが、",
-  "english": "Eris: After the / Iris Valley / incident, I / searched for you."
+  "english": "Iris: After the / Vallee district / incident, I / searched for you."
  },
  {
   "resource": 1203,
@@ -8697,7 +8697,7 @@
   "resource": 1203,
   "msg_index": 1500,
   "japanese": "イーリスはそう言って、顔をしかめ、腕難いさせた。",
-  "english": "Eris said that / and shuddered / with a grimace."
+  "english": "Iris said that / and shuddered / with a grimace."
  },
  {
   "resource": 1203,
@@ -8709,7 +8709,7 @@
   "resource": 1203,
   "msg_index": 1502,
   "japanese": "余と一同にアレイドの事を道べてくれる[0141]はないか？",
-  "english": "Would you help / me investigate / Alleid?"
+  "english": "Would you help / me investigate / Allied Actions?"
  },
  {
   "resource": 1203,
@@ -8721,13 +8721,13 @@
   "resource": 1203,
   "msg_index": 1504,
   "japanese": "ここだけの質だが、余はある息の王からアレイドの道登を頼まれている。",
-  "english": "Just between us, / a certain king / asked me to / research Alleid."
+  "english": "Just between us, / a certain king / asked me to / research Allied Actions."
  },
  {
   "resource": 1203,
   "msg_index": 1505,
   "japanese": "もしアレイドの[016A]報を入力できれば、その見大りにかなりの報女が力に入るはずだ。",
-  "english": "If we can get / Alleid info, / the reward will / be substantial."
+  "english": "If we can get / Allied info, / the reward will / be substantial."
  },
  {
   "resource": 1203,
@@ -8745,19 +8745,19 @@
   "resource": 1203,
   "msg_index": 1508,
   "japanese": "イーリスは退嫌にして能しいと言っている申し出を受ける[0474]る     ",
-  "english": "Eris is asking / you to be his / companion. / Accept / Decline"
+  "english": "Iris is asking / you to be her / companion. / Accept / Decline"
  },
  {
   "resource": 1203,
   "msg_index": 1509,
   "japanese": "汝も[0141]づいていると思うが、アレイドの[049A]見はベノアの前主[056A]を兜きく新える主がある。",
-  "english": "As you may have / noticed, Alleid / could shift the / balance of power / in Venoa."
+  "english": "As you may have / noticed, Allied Actions / could shift the / balance of power / in Venoa."
  },
  {
   "resource": 1203,
   "msg_index": 1510,
   "japanese": "アレイドとは、魔物でしか[0550]えないとされてきた支[0492]攻[048E]。",
-  "english": "Alleid is the / coordinated / attack that only / monsters were / thought to use."
+  "english": "The Allied Action is the / coordinated / attack that only / monsters were / thought to use."
  },
  {
   "resource": 1203,
@@ -8793,7 +8793,7 @@
   "resource": 1203,
   "msg_index": 1516,
   "japanese": "イーリスは[04A6]鎧な[0284]差しでの力を[0143]く石った。",
-  "english": "Eris fixed you / with an intense / stare."
+  "english": "Iris fixed you / with an intense / stare."
  },
  {
   "resource": 1203,
@@ -8823,7 +8823,7 @@
   "resource": 1203,
   "msg_index": 1521,
   "japanese": "イーリスが騎騎者[0170]街に庫落されました。",
-  "english": "Eris has been / added to the / adventurer / roster!"
+  "english": "Iris has been / added to the / adventurer / roster!"
  },
  {
   "resource": 1203,
@@ -8847,7 +8847,7 @@
   "resource": 1203,
   "msg_index": 1525,
   "japanese": "ならばアレイドは、彼らが腕に着けていたブレスレットを見つけるのが[01BE]も多をだからな。",
-  "english": "So finding those / bracelets is / the fastest way / to discover / Alleid."
+  "english": "So finding those / bracelets is / the fastest way / to discover / Allied Actions."
  },
  {
   "resource": 1203,
@@ -8871,13 +8871,13 @@
   "resource": 1203,
   "msg_index": 1529,
   "japanese": "そう言ってイーリスは、[03A2]野をつぶった。",
-  "english": "Eris said that / and closed his / eyes."
+  "english": "Iris said that / and closed her / eyes."
  },
  {
   "resource": 1203,
   "msg_index": 1531,
   "japanese": "そうそう もしアレイドに[0417]町があるなら、迷宮長で[028E]んだ騎騎者を素すことだ。",
-  "english": "Oh, if you're / interested in / Alleid, search / for dead / adventurers."
+  "english": "Oh, if you're / interested in / Allied Actions, search / for dead / adventurers."
  },
  {
   "resource": 1203,
@@ -8889,7 +8889,7 @@
   "resource": 1203,
   "msg_index": 1533,
   "japanese": "ならばアレイドは、その識別ブレスレットを見つけるのが、[01BE]も多をだからな。",
-  "english": "Finding those / bracelets is the / fastest way to / discover Alleid."
+  "english": "Finding those / bracelets is the / fastest way to / discover Allied Actions."
  },
  {
   "resource": 1203,
@@ -9387,7 +9387,7 @@
   "resource": 1203,
   "msg_index": 1617,
   "japanese": "クンナルちょうど名成を外り編えると、クンナルが装ろからやってきた。",
-  "english": "Kunnar: Just as / you turned the / corner, Kunnar / came up from / behind."
+  "english": "Kunnal: Just as / you turned the / corner, Kunnal / came up from / behind."
  },
  {
   "resource": 1203,
@@ -9477,6 +9477,6 @@
   "resource": 1203,
   "msg_index": 1632,
   "japanese": "クンナルは、そのままぶつぶつ冒きながら[01A1]に級んだ。",
-  "english": "Kunnar continued / mumbling to / himself as he / walked on."
+  "english": "Kunnal continued / mumbling to / himself as he / walked on."
  }
 ]

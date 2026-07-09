@@ -9,7 +9,7 @@
     "resource": 1210,
     "msg_index": 1,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Explore / Ability? / Misc1-10 / ShadowChk / Appraise / Gods? / Alleid1-8 / Request done."
+    "english": "Explore / Ability? / Misc1-10 / ShadowChk / Appraise / Gods? / Allied1-8 / Request done."
   },
   {
     "resource": 1210,
@@ -591,7 +591,7 @@
     "resource": 1210,
     "msg_index": 105,
     "japanese": "マジキムと戦った場暗に知与なアイテムが落ちていた。",
-    "english": "A strange item lay / where you fought / Majikim."
+    "english": "A strange item lay / where you fought / Mazikim."
   },
   {
     "resource": 1210,
@@ -621,13 +621,13 @@
     "resource": 1210,
     "msg_index": 110,
     "japanese": "錠の者は知っていた、マジキムの出抜は、[05F5]くもの[0614]攻の両[05C4]だと。",
-    "english": "The wise knew / Majikim's rise / was but a / prelude to the / dark ones."
+    "english": "The wise knew / Mazikim's rise / was but a / prelude to the / dark ones."
   },
   {
     "resource": 1210,
     "msg_index": 111,
     "japanese": "だから、マジキムをなだめるために、何[05B7]もの[05E8][05F0]を部げたの。",
-    "english": "So they offered / many sacrifices / to appease / Majikim."
+    "english": "So they offered / many sacrifices / to appease / Mazikim."
   },
   {
     "resource": 1210,
@@ -753,7 +753,7 @@
     "resource": 1210,
     "msg_index": 132,
     "japanese": "イ[05F5]く物！マジキム！！ゴ",
-    "english": "O dark one! / Majikim!!"
+    "english": "O dark one! / Mazikim!!"
   },
   {
     "resource": 1210,
@@ -807,13 +807,13 @@
     "resource": 1210,
     "msg_index": 141,
     "japanese": "その出抜から、わずか追美で、用ディアラントの解[03DE]を[0408][0437]に[0424]れた。",
-    "english": "Within mere days / they conquered / all of Diarant."
+    "english": "Within mere days / they conquered / all of Dialant."
   },
   {
     "resource": 1210,
     "msg_index": 142,
     "japanese": "ディアラントの杯掲は、余達オートマターやオグなどを以って[068F][0690]を売みたが、すべては遅かった！。",
-    "english": "Diarant's people / used us Automata / and ogres to / fight back, but / it was too late!"
+    "english": "Dialant's people / used us Automata / and ogres to / fight back, but / it was too late!"
   },
   {
     "resource": 1210,
@@ -891,13 +891,13 @@
     "resource": 1210,
     "msg_index": 156,
     "japanese": "イ[05F5]くものマジキムを 忘す者が抜れたと思ったらゴ",
-    "english": "The one who slew / dark one Majikim / has appeared!"
+    "english": "The one who slew / dark one Mazikim / has appeared!"
   },
   {
     "resource": 1210,
     "msg_index": 157,
     "japanese": "イディアラントの[01BE]装を 知る者に会えるなんてゴ",
-    "english": "To meet one who / knows the secrets / of Diarant!"
+    "english": "To meet one who / knows the secrets / of Dialant!"
   },
   {
     "resource": 1210,
@@ -1059,7 +1059,7 @@
     "resource": 1210,
     "msg_index": 185,
     "japanese": "ディアラントの[055A]辺き戦帰よ、一つお両に聞きたい。",
-    "english": "Ancient warrior / of Diarant, / I have a / question."
+    "english": "Ancient warrior / of Dialant, / I have a / question."
   },
   {
     "resource": 1210,
@@ -2463,7 +2463,7 @@
     "resource": 1210,
     "msg_index": 427,
     "japanese": "ブレスレットに込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "Bracelet memories / unlocked a new / Alleid!"
+    "english": "Bracelet memories / unlocked a new / Allied Action!"
   },
   {
     "resource": 1210,
@@ -2763,7 +2763,7 @@
     "resource": 1210,
     "msg_index": 478,
     "japanese": "門い宝剣に込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "The white sword's / memories unlocked / a new Alleid!"
+    "english": "The white sword's / memories unlocked / a new Allied Action!"
   },
   {
     "resource": 1210,
@@ -2853,7 +2853,7 @@
     "resource": 1210,
     "msg_index": 494,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "Bracelet memories / unlocked a new / Alleid!"
+    "english": "Bracelet memories / unlocked a new / Allied Action!"
   },
   {
     "resource": 1210,
@@ -4341,7 +4341,7 @@
     "resource": 1210,
     "msg_index": 756,
     "japanese": "コンデいやはや、まさかこの余が、あの[0375]向の魔損マジキムを忘すとは、いったい過が雇[03A6]したであろう。",
-    "english": "Konde: Well well, / who'd have thought / I would slay the / demon Majikim!"
+    "english": "Konde: Well well, / who'd have thought / I would slay the / demon Mazikim!"
   },
   {
     "resource": 1210,
@@ -4467,7 +4467,7 @@
     "resource": 1210,
     "msg_index": 777,
     "japanese": "探かにアレイドの開[049A]も、その出で必えればうなずける質だ。",
-    "english": "The Alleid / discovery makes / sense now in / that context."
+    "english": "The Allied Action / discovery makes / sense now in / that context."
   },
   {
     "resource": 1210,
@@ -4521,7 +4521,7 @@
     "resource": 1211,
     "msg_index": 1,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Explore / Ability? / Misc1-10 / ShadowChk / Appraise / Gods? / Alleid1-8 / Request done."
+    "english": "Explore / Ability? / Misc1-10 / ShadowChk / Appraise / Gods? / Allied1-8 / Request done."
   },
   {
     "resource": 1211,
@@ -4605,7 +4605,7 @@
     "resource": 1211,
     "msg_index": 15,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "Bracelet memories / unlocked a new / Alleid!"
+    "english": "Bracelet memories / unlocked a new / Allied Action!"
   },
   {
     "resource": 1211,
@@ -6093,7 +6093,7 @@
     "resource": 1211,
     "msg_index": 272,
     "japanese": "ブレスレットに込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "Bracelet memories / unlocked a new / Alleid!"
+    "english": "Bracelet memories / unlocked a new / Allied Action!"
   },
   {
     "resource": 1211,
@@ -6435,7 +6435,7 @@
     "resource": 1211,
     "msg_index": 330,
     "japanese": "門い宝剣に込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "The white sword's / memories unlocked / a new Alleid!"
+    "english": "The white sword's / memories unlocked / a new Allied Action!"
   },
   {
     "resource": 1211,
@@ -6525,7 +6525,7 @@
     "resource": 1211,
     "msg_index": 346,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "Bracelet memories / unlocked a new / Alleid!"
+    "english": "Bracelet memories / unlocked a new / Allied Action!"
   },
   {
     "resource": 1211,
@@ -7599,7 +7599,7 @@
     "resource": 1211,
     "msg_index": 532,
     "japanese": "ここに帰たということは、[05F5]くものマジキムを忘したのは、どうやら汝と言うことだな。",
-    "english": "Your arrival / means that you / must have slain / the dark one / Majikim."
+    "english": "Your arrival / means that you / must have slain / the dark one / Mazikim."
   },
   {
     "resource": 1211,

@@ -15,7 +15,7 @@
    "idx": 1,
    "msg": 1,
    "jp": "回復の魔石 / ",
-   "english": "Healing Stone",
+   "english": "Ring of Recovery",
    "preserve_prefix": false
   },
   {
@@ -23,7 +23,7 @@
    "idx": 2,
    "msg": 2,
    "jp": "武神の魔石 / ",
-   "english": "War God Stone",
+   "english": "Warrior God Ring",
    "preserve_prefix": false
   },
   {
@@ -31,7 +31,7 @@
    "idx": 3,
    "msg": 3,
    "jp": "騎事持の魔石 / ",
-   "english": "Mage's Stone",
+   "english": "Magician's Ring",
    "preserve_prefix": false
   },
   {
@@ -39,7 +39,7 @@
    "idx": 4,
    "msg": 4,
    "jp": "ブラフマンの魔石 / ",
-   "english": "Brahman Stone",
+   "english": "Ring of Brahman",
    "preserve_prefix": false
   },
   {
@@ -47,7 +47,7 @@
    "idx": 5,
    "msg": 5,
    "jp": "力落の魔石 / ",
-   "english": "Corruption Stone",
+   "english": "Crimson Ring",
    "preserve_prefix": false
   },
   {
@@ -55,7 +55,7 @@
    "idx": 6,
    "msg": 6,
    "jp": "汝いの魔石 / ",
-   "english": "Cursed Stone",
+   "english": "Cursed Ring",
    "preserve_prefix": false
   },
   {
@@ -63,7 +63,7 @@
    "idx": 7,
    "msg": 7,
    "jp": "開の魔石 / ",
-   "english": "Death Stone",
+   "english": "Ring of Death",
    "preserve_prefix": false
   },
   {
@@ -71,7 +71,7 @@
    "idx": 8,
    "msg": 8,
    "jp": "渡りの罰野 / ",
-   "english": "Ornate Ring",
+   "english": "Decorative Talisman",
    "preserve_prefix": false
   },
   {
@@ -79,7 +79,7 @@
    "idx": 9,
    "msg": 9,
    "jp": "心長の罰野 / ",
-   "english": "Psychic Ring",
+   "english": "Statue Talisman",
    "preserve_prefix": false
   },
   {
@@ -87,7 +87,7 @@
    "idx": 10,
    "msg": 10,
    "jp": "憶出の罰野 / ",
-   "english": "Memory Ring",
+   "english": "Dusty Talisman",
    "preserve_prefix": false
   },
   {
@@ -95,7 +95,7 @@
    "idx": 11,
    "msg": 11,
    "jp": "待の罰野 / ",
-   "english": "Samurai Ring",
+   "english": "Samurai Talisman",
    "preserve_prefix": false
   },
   {
@@ -103,7 +103,7 @@
    "idx": 12,
    "msg": 12,
    "jp": "騎者の罰野 / ",
-   "english": "Warrior Ring",
+   "english": "Battlemage Talisman",
    "preserve_prefix": false
   },
   {
@@ -111,7 +111,7 @@
    "idx": 13,
    "msg": 13,
    "jp": "今王の罰野 / ",
-   "english": "Holy King Ring",
+   "english": "Holy Knight Talisman",
    "preserve_prefix": false
   },
   {
@@ -119,7 +119,7 @@
    "idx": 14,
    "msg": 14,
    "jp": "二さ報紹の罰野 / ",
-   "english": "Holy Symbol Ring",
+   "english": "Saint Peter Talisman",
    "preserve_prefix": false
   },
   {
@@ -127,7 +127,7 @@
    "idx": 15,
    "msg": 15,
    "jp": "汝いの罰野 / ",
-   "english": "Cursed Ring",
+   "english": "Cursed Talisman",
    "preserve_prefix": false
   },
   {
@@ -343,7 +343,7 @@
    "idx": 42,
    "msg": 42,
    "jp": "飲王のマント / ",
-   "english": "Demon King Cloak",
+   "english": "Mad King Cloak",
    "preserve_prefix": false
   },
   {
@@ -407,7 +407,7 @@
    "idx": 1,
    "msg": 51,
    "jp": "生命の受が封じられた美しい魔石_ / その受の力は^装備者の傷ついた体を / をし^道闘として汝息すればフィ}ル / の消呪がある_ / ",
-   "english": "A lovely magic stone with life's light. Heals wounds; casts Heal in battle.",
+   "english": "A lovely ring with life's light. Heals wounds; casts Heal in battle.",
    "preserve_prefix": false
   },
   {
@@ -415,7 +415,7 @@
    "idx": 2,
    "msg": 52,
    "jp": "取空より現れし魔石_低名な騎事持に / よると^征者の者騎の奥が宿っている / という_その力は^開の同性を上げ^ / 宝からの先憤獲得を封じる力がある_ / ",
-   "english": "A magic stone from the void. A famed mage claims the soul of a conquering war god dwells within. It raises resistance to Death and blocks surprise attacks from enemies.",
+   "english": "A ring from the void. A famed mage claims the soul of a conquering war god dwells within. It raises resistance to Death and blocks surprise attacks from enemies.",
    "preserve_prefix": false
   },
   {
@@ -423,7 +423,7 @@
    "idx": 3,
    "msg": 53,
    "jp": "低名な騎事持の汝呪が^心り込まれた / 魔石_道闘として汝息すれば勝制を治 / すことが可能で^力を殿放すると汝息 / 者の知恵が上羽する_ / ",
-   "english": "A stone inscribed with a famed mage's spellwork. Used in battle it can cure paralysis, and releasing its power raises the user's wisdom.",
+   "english": "A ring inscribed with a famed mage's spellwork. Used in battle it can cure paralysis, and releasing its power raises the user's wisdom.",
    "preserve_prefix": false
   },
   {
@@ -431,7 +431,7 @@
    "idx": 4,
    "msg": 54,
    "jp": "取者の神今の中で^早低礼の者だけが / 手にするとされる魔石_取の現知が / 宿っており^エナジ}ドレインを解ぎ / 道闘として汝息すればスル}の消呪が / ある_ / ",
-   "english": "A magic stone said to pass only into the hands of the highest among the priests of old. Ancient wisdom dwells within, guarding against Energy Drain, and used in battle it grants the effect of Through.",
+   "english": "A ring said to pass only into the hands of the highest among the priests of old. Ancient wisdom dwells within, guarding against Energy Drain, and used in battle it grants the effect of Through.",
    "preserve_prefix": false
   },
   {
@@ -439,7 +439,7 @@
    "idx": 5,
    "msg": 55,
    "jp": "宝団の中に直言の腕が休ぜられている / 魔石_解い思念が込められており^ / 装備者の傷ついた身体ををし^[0x03DC]開の / 同性を上げる力がある_ / ",
-   "english": "A magic stone with a fallen angel's arm sealed inside. Strong wishes dwell within, mending the wearer's wounds and raising resistance to Death.",
+   "english": "A ring with a fallen angel's arm sealed inside. Strong wishes dwell within, mending the wearer's wounds and raising resistance to Death.",
    "preserve_prefix": false
   },
   {
@@ -447,7 +447,7 @@
    "idx": 6,
    "msg": 56,
    "jp": "ただひたすら^自らの運の汝さを記い / ていた人間の奥が宿った魔石_ / 装備者の幸運度を下げる_ / ",
-   "english": "A stone holding one who cursed his own ill fortune. Lowers the wearer's LCK.",
+   "english": "A ring holding one who cursed his own ill fortune. Lowers the wearer's LCK.",
    "preserve_prefix": false
   },
   {
@@ -455,7 +455,7 @@
    "idx": 7,
    "msg": 57,
    "jp": "仲間に迷切られた冒険者の汝いに十ちて / いる魔石_その汝いは^持っているだけ / で開へとちかづくという_ / ",
-   "english": "A stone filled with a betrayed one's curse. Merely holding it invites death.",
+   "english": "A ring filled with a betrayed one's curse. Merely holding it invites death.",
    "preserve_prefix": false
   },
   {
@@ -471,7 +471,7 @@
    "idx": 9,
    "msg": 59,
    "jp": "低名な騎事持が念を込めた罰野_ / 装備者の命中果を上羽させ^道闘とし / て汝息すれば宝の達きを封じ込める_ / ",
-   "english": "A ring imbued by a famed mage. Raises accuracy; in battle binds foe movement.",
+   "english": "A talisman imbued by a famed mage. Raises accuracy; in battle binds foe movement.",
    "preserve_prefix": false
   },
   {
@@ -479,7 +479,7 @@
    "idx": 10,
    "msg": 60,
    "jp": "騎騎の腕を汝って造られた罰野_ / 装備者の命中果を上羽させ^道闘とし / て汝息すれば宝を出店させる_ / ",
-   "english": "A ring made from a knight's arm. Ups accuracy; in battle, can banish foes.",
+   "english": "A talisman made from a monster's arm. Ups accuracy; in battle, can banish foes.",
    "preserve_prefix": false
   },
   {
@@ -495,7 +495,7 @@
    "idx": 12,
    "msg": 62,
    "jp": "低名な騎事持が念をこめた罰野_ / 装備者の命中果を上羽させ^道闘とし / て汝息すれば匹頭をおこす力がある_ / ",
-   "english": "A ring imbued with a famed mage's will. It raises the wearer's accuracy, and used in battle it can sow confusion among enemies.",
+   "english": "A talisman imbued with a famed mage's will. It raises the wearer's accuracy, and used in battle it can sow confusion among enemies.",
    "preserve_prefix": false
   },
   {
@@ -503,7 +503,7 @@
    "idx": 13,
    "msg": 63,
    "jp": "ハリスの匹頭果復合が^今王に果復し / た者におくる罰野_その消呪は^ / 装備者の命中果を上げ^開神の / 騎の手かられる_ / ",
-   "english": "A ring the Order of Harris grants to those who served the Holy King. It raises the wearer's accuracy and wards them from the Reaper's grasp.",
+   "english": "A talisman the Order of Haris grants to those who served the Holy Knight. It raises the wearer's accuracy and wards them from the Reaper's grasp.",
    "preserve_prefix": false
   },
   {
@@ -511,7 +511,7 @@
    "idx": 14,
    "msg": 64,
    "jp": "今なる商会を二さにして置いた罰野_ / 装備者の命中果を上げる消呪はあるが / 汝いの力によって信仰心が高下し^恐 / 怖に対する同性が下がってしまう_ / ",
-   "english": "A ring set with a holy symbol split in two. It raises accuracy, but its curse lowers faith and weakens resistance to fear.",
+   "english": "A talisman set with an inverted holy symbol. It raises accuracy, but its curse lowers faith and weakens resistance to fear.",
    "preserve_prefix": false
   },
   {
@@ -519,7 +519,7 @@
    "idx": 15,
    "msg": 65,
    "jp": "度の力を花び修せるとされる商会が / 置かれた罰野_ / 装備者の命中果は上がるが^汝いに / よって神今MPを拠われてしまう_ / ",
-   "english": "A ring bearing a symbol said to draw forth the power of darkness. It raises the wearer's accuracy but drains their Holy MP.",
+   "english": "A talisman bearing a symbol said to draw forth the power of darkness. It raises the wearer's accuracy but drains their Holy MP.",
    "preserve_prefix": false
   },
   {
@@ -735,7 +735,7 @@
    "idx": 42,
    "msg": 92,
    "jp": "騎人と取名をとった王が^身につけて / いたとされる_エナジ}ドレイン{ / アビリティドレイン{[0x03DC]開などを解ぐ / が^その汝いは装備者の命をけずる_ / ",
-   "english": "Said to have been worn by a king infamous as the Demon King. It guards against Energy Drain, Ability Drain, and Death, but its curse carves away the wearer's life.",
+   "english": "Said to have been worn by a king infamous as the Mad King. It guards against Energy Drain, Ability Drain, and Death, but its curse carves away the wearer's life.",
    "preserve_prefix": false
   },
   {
@@ -1271,7 +1271,7 @@
    "idx": 60,
    "msg": 160,
    "jp": "飲王の宮 / ",
-   "english": "Demon King Armor",
+   "english": "Mad King Armor",
    "preserve_prefix": false
   },
   {
@@ -1367,7 +1367,7 @@
    "idx": 72,
    "msg": 172,
    "jp": "飲王の辺 / ",
-   "english": "Demon King Helm",
+   "english": "Mad King Helm",
    "preserve_prefix": false
   },
   {
@@ -1543,7 +1543,7 @@
    "idx": 94,
    "msg": 194,
    "jp": "飲王の防 / ",
-   "english": "Demon King Shield",
+   "english": "Mad King Shield",
    "preserve_prefix": false
   },
   {
@@ -1631,7 +1631,7 @@
    "idx": 105,
    "msg": 205,
    "jp": "飲王の何手 / ",
-   "english": "Demon King Gauntlets",
+   "english": "Mad King Gauntlets",
    "preserve_prefix": false
   },
   {
@@ -2847,7 +2847,7 @@
    "idx": 1,
    "msg": 359,
    "jp": "団 / ",
-   "english": "Spell Book",
+   "english": "Magic Stone",
    "preserve_prefix": false
   },
   {
@@ -3247,7 +3247,7 @@
    "idx": 51,
    "msg": 409,
    "jp": "中頼時 / ",
-   "english": "Naginata",
+   "english": "Dotanuki",
    "preserve_prefix": false
   },
   {
@@ -3255,7 +3255,7 @@
    "idx": 52,
    "msg": 410,
    "jp": "長[0x01D7] / ",
-   "english": "Nodachi",
+   "english": "Osafune",
    "preserve_prefix": false
   },
   {
@@ -3263,7 +3263,7 @@
    "idx": 53,
    "msg": 411,
    "jp": "込[0x01D9] / ",
-   "english": "Kodachi",
+   "english": "Kotetsu",
    "preserve_prefix": false
   },
   {
@@ -3271,7 +3271,7 @@
    "idx": 54,
    "msg": 412,
    "jp": "遺復 / ",
-   "english": "Odachi",
+   "english": "Kanesada",
    "preserve_prefix": false
   },
   {
@@ -3279,7 +3279,7 @@
    "idx": 55,
    "msg": 413,
    "jp": "感一呪紹 / ",
-   "english": "Masamune",
+   "english": "Kikuichimonji",
    "preserve_prefix": false
   },
   {
@@ -3287,7 +3287,7 @@
    "idx": 56,
    "msg": 414,
    "jp": "多器 / ",
-   "english": "Muramasa",
+   "english": "Masamune",
    "preserve_prefix": false
   },
   {
@@ -3295,7 +3295,7 @@
    "idx": 57,
    "msg": 415,
    "jp": "町多 / ",
-   "english": "Kusanagi",
+   "english": "Muramasa",
    "preserve_prefix": false
   },
   {
@@ -3575,7 +3575,7 @@
    "idx": 92,
    "msg": 450,
    "jp": "飲王の者攻 / ",
-   "english": "Demon King Axe",
+   "english": "Mad King Axe",
    "preserve_prefix": false
   },
   {
@@ -4215,7 +4215,7 @@
    "idx": 1,
    "msg": 531,
    "jp": "団 / ",
-   "english": "A spell book.",
+   "english": "A magic stone.",
    "preserve_prefix": false
   },
   {
@@ -4655,7 +4655,7 @@
    "idx": 56,
    "msg": 586,
    "jp": "町多と別ぶ名鎧_その理は余開彼を切 / り信き^巨人を一鎧唱貴する_ / 理に込められた力を殿放すると開者を / もよみがえらせる_気有消呪著_ / ",
-   "english": "A famed blade called Muramasa. Its edge cleaves the undead and cuts giants in two, and releasing the power within is said to raise even the dead. Often strikes fear.",
+   "english": "A famed blade called Masamune. Its edge cleaves the undead and cuts giants in two, and releasing the power within is said to raise even the dead. Often strikes fear.",
    "preserve_prefix": false
   },
   {
@@ -4663,7 +4663,7 @@
    "idx": 57,
    "msg": 587,
    "jp": "直鎧と取名をとる[0x0182]の鎧_鎧身は直し / い受を放ち^その場得は空気をも切り / 信くと言われおり^受には[0x03DC]開させる / ほどの力を秘めている_気有消呪著_ / ",
-   "english": "A sacred katana with a righteous gleam. Its swing is said to cut the very air, and its light hides power enough to slay. Often strikes fear.",
+   "english": "A katana infamous as a demon blade. Its swing is said to cut the very air, and its eerie light hides power enough to slay. Often strikes fear.",
    "preserve_prefix": false
   },
   {
@@ -5847,7 +5847,7 @@
    "idx": 34,
    "msg": 736,
    "jp": "メガデスの穏 / ",
-   "english": "Megadeath Potion",
+   "english": "Megadeth Potion",
    "preserve_prefix": false
   },
   {
@@ -6223,7 +6223,7 @@
    "idx": 46,
    "msg": 784,
    "jp": "者箱中に汝息すると^宝全体に / 汝帯性の大ダメ}ジをあたえる / 騎事持騎法メガデスが発達する_ / ",
-   "english": "Used in battle, it unleashes the mage spell Megadeath, dealing massive dark damage to all enemies.",
+   "english": "Used in battle, it unleashes the mage spell Megadeth, dealing massive dark damage to all enemies.",
    "preserve_prefix": false
   },
   {
@@ -6239,7 +6239,7 @@
    "idx": 1,
    "msg": 787,
    "jp": "クレタの団 / ",
-   "english": "Kreta Spell Book",
+   "english": "Kreta Stone",
    "preserve_prefix": false
   },
   {
@@ -6247,7 +6247,7 @@
    "idx": 2,
    "msg": 788,
    "jp": "クルドの団 / ",
-   "english": "Kurudo Spell Book",
+   "english": "Kurudo Stone",
    "preserve_prefix": false
   },
   {
@@ -6255,7 +6255,7 @@
    "idx": 3,
    "msg": 789,
    "jp": "ティ}ルの団 / ",
-   "english": "Teal Spell Book",
+   "english": "Teal Stone",
    "preserve_prefix": false
   },
   {
@@ -6263,7 +6263,7 @@
    "idx": 4,
    "msg": 790,
    "jp": "アナライズの団 / ",
-   "english": "Analyze Spell Book",
+   "english": "Analyze Stone",
    "preserve_prefix": false
   },
   {
@@ -6271,7 +6271,7 @@
    "idx": 5,
    "msg": 791,
    "jp": "ウィ}クの団 / ",
-   "english": "Weak Spell Book",
+   "english": "Weak Stone",
    "preserve_prefix": false
   },
   {
@@ -6279,7 +6279,7 @@
    "idx": 6,
    "msg": 792,
    "jp": "ディレイの団 / ",
-   "english": "Delay Spell Book",
+   "english": "Delay Stone",
    "preserve_prefix": false
   },
   {
@@ -6287,7 +6287,7 @@
    "idx": 7,
    "msg": 793,
    "jp": "デプスの団 / ",
-   "english": "Depth Spell Book",
+   "english": "Depth Stone",
    "preserve_prefix": false
   },
   {
@@ -6295,7 +6295,7 @@
    "idx": 8,
    "msg": 794,
    "jp": "フィブルの団 / ",
-   "english": "Feeble Spell Book",
+   "english": "Feeble Stone",
    "preserve_prefix": false
   },
   {
@@ -6303,7 +6303,7 @@
    "idx": 9,
    "msg": 795,
    "jp": "シュラ}ドの団 / ",
-   "english": "Shroud Spell Book",
+   "english": "Shroud Stone",
    "preserve_prefix": false
   },
   {
@@ -6311,7 +6311,7 @@
    "idx": 10,
    "msg": 796,
    "jp": "スプリ}ムの団 / ",
-   "english": "Spleem Spell Book",
+   "english": "Spleem Stone",
    "preserve_prefix": false
   },
   {
@@ -6319,7 +6319,7 @@
    "idx": 11,
    "msg": 797,
    "jp": "サロメの団 / ",
-   "english": "Salome Spell Book",
+   "english": "Salome Stone",
    "preserve_prefix": false
   },
   {
@@ -6327,7 +6327,7 @@
    "idx": 12,
    "msg": 798,
    "jp": "エスケ}プの団 / ",
-   "english": "Escape Spell Book",
+   "english": "Escape Stone",
    "preserve_prefix": false
   },
   {
@@ -6335,7 +6335,7 @@
    "idx": 13,
    "msg": 799,
    "jp": "ザクレタの団 / ",
-   "english": "Zakreta Spell Book",
+   "english": "Zakreta Stone",
    "preserve_prefix": false
   },
   {
@@ -6343,7 +6343,7 @@
    "idx": 14,
    "msg": 800,
    "jp": "ザクルドの団 / ",
-   "english": "Zakurudo Spell Book",
+   "english": "Zakurudo Stone",
    "preserve_prefix": false
   },
   {
@@ -6351,7 +6351,7 @@
    "idx": 15,
    "msg": 801,
    "jp": "ザティ}ルの団 / ",
-   "english": "Zateal Spell Book",
+   "english": "Zateal Stone",
    "preserve_prefix": false
   },
   {
@@ -6359,7 +6359,7 @@
    "idx": 16,
    "msg": 802,
    "jp": "スル}の団 / ",
-   "english": "Through Spell Book",
+   "english": "Through Stone",
    "preserve_prefix": false
   },
   {
@@ -6367,7 +6367,7 @@
    "idx": 17,
    "msg": 803,
    "jp": "ザラ}ドの団 / ",
-   "english": "Zarado Spell Book",
+   "english": "Zarado Stone",
    "preserve_prefix": false
   },
   {
@@ -6375,7 +6375,7 @@
    "idx": 18,
    "msg": 804,
    "jp": "ドレインの団 / ",
-   "english": "Drain Spell Book",
+   "english": "Drain Stone",
    "preserve_prefix": false
   },
   {
@@ -6383,7 +6383,7 @@
    "idx": 19,
    "msg": 805,
    "jp": "リピ}ルの団 / ",
-   "english": "Ripu Spell Book",
+   "english": "Ripu Stone",
    "preserve_prefix": false
   },
   {
@@ -6391,7 +6391,7 @@
    "idx": 20,
    "msg": 806,
    "jp": "カニバルの団 / ",
-   "english": "Cannibal Spell Book",
+   "english": "Cannibal Stone",
    "preserve_prefix": false
   },
   {
@@ -6399,7 +6399,7 @@
    "idx": 21,
    "msg": 807,
    "jp": "ジャクレタの団 / ",
-   "english": "Jakreta Spell Book",
+   "english": "Jakreta Stone",
    "preserve_prefix": false
   },
   {
@@ -6407,7 +6407,7 @@
    "idx": 22,
    "msg": 808,
    "jp": "ジャクルドの団 / ",
-   "english": "Jakurudo Spell Book",
+   "english": "Jakurudo Stone",
    "preserve_prefix": false
   },
   {
@@ -6415,7 +6415,7 @@
    "idx": 23,
    "msg": 809,
    "jp": "ジャティルの団 / ",
-   "english": "Jateel Spell Book",
+   "english": "Jateel Stone",
    "preserve_prefix": false
   },
   {
@@ -6423,7 +6423,7 @@
    "idx": 24,
    "msg": 810,
    "jp": "レイトの団 / ",
-   "english": "Late Spell Book",
+   "english": "Late Stone",
    "preserve_prefix": false
   },
   {
@@ -6431,7 +6431,7 @@
    "idx": 25,
    "msg": 811,
    "jp": "ジャラ}ドの団 / ",
-   "english": "Jarado Spell Book",
+   "english": "Jarado Stone",
    "preserve_prefix": false
   },
   {
@@ -6439,7 +6439,7 @@
    "idx": 26,
    "msg": 812,
    "jp": "ヴァルハラの団 / ",
-   "english": "Valhalla Spell Book",
+   "english": "Valhalla Stone",
    "preserve_prefix": false
   },
   {
@@ -6447,7 +6447,7 @@
    "idx": 27,
    "msg": 813,
    "jp": "リフレクトの団 / ",
-   "english": "Reflect Spell Book",
+   "english": "Reflect Stone",
    "preserve_prefix": false
   },
   {
@@ -6455,7 +6455,7 @@
    "idx": 28,
    "msg": 814,
    "jp": "メガデスの団 / ",
-   "english": "Megadeath Spell Book",
+   "english": "Megadeth Stone",
    "preserve_prefix": false
   },
   {
@@ -6463,7 +6463,7 @@
    "idx": 29,
    "msg": 815,
    "jp": "フィ}ルの団 / ",
-   "english": "Heal Spell Book",
+   "english": "Heal Stone",
    "preserve_prefix": false
   },
   {
@@ -6471,7 +6471,7 @@
    "idx": 30,
    "msg": 816,
    "jp": "リ}プの団 / ",
-   "english": "Leap Spell Book",
+   "english": "Leap Stone",
    "preserve_prefix": false
   },
   {
@@ -6479,7 +6479,7 @@
    "idx": 31,
    "msg": 817,
    "jp": "バレッツの団 / ",
-   "english": "Bullets Spell Book",
+   "english": "Bullets Stone",
    "preserve_prefix": false
   },
   {
@@ -6487,7 +6487,7 @@
    "idx": 32,
    "msg": 818,
    "jp": "シ}フアイの団 / ",
-   "english": "Thief Eye Spell Book",
+   "english": "Thief Eye Stone",
    "preserve_prefix": false
   },
   {
@@ -6495,7 +6495,7 @@
    "idx": 33,
    "msg": 819,
    "jp": "ヤイバの団 / ",
-   "english": "Yaiba Spell Book",
+   "english": "Yaiba Stone",
    "preserve_prefix": false
   },
   {
@@ -6503,7 +6503,7 @@
    "idx": 34,
    "msg": 820,
    "jp": "コ}トの団 / ",
-   "english": "Coat Spell Book",
+   "english": "Coat Stone",
    "preserve_prefix": false
   },
   {
@@ -6511,7 +6511,7 @@
    "idx": 35,
    "msg": 821,
    "jp": "ブレスの団 / ",
-   "english": "Bless Spell Book",
+   "english": "Bless Stone",
    "preserve_prefix": false
   },
   {
@@ -6519,7 +6519,7 @@
    "idx": 36,
    "msg": 822,
    "jp": "プロテクトの団 / ",
-   "english": "Protect Spell Book",
+   "english": "Protect Stone",
    "preserve_prefix": false
   },
   {
@@ -6527,7 +6527,7 @@
    "idx": 37,
    "msg": 823,
    "jp": "アモ}クの団 / ",
-   "english": "Amok Spell Book",
+   "english": "Amok Stone",
    "preserve_prefix": false
   },
   {
@@ -6535,7 +6535,7 @@
    "idx": 38,
    "msg": 824,
    "jp": "フィ}ルズの団 / ",
-   "english": "Heals Spell Book",
+   "english": "Heals Stone",
    "preserve_prefix": false
   },
   {
@@ -6543,7 +6543,7 @@
    "idx": 39,
    "msg": 825,
    "jp": "ポイズンの団 / ",
-   "english": "Poison Spell Book",
+   "english": "Poison Stone",
    "preserve_prefix": false
   },
   {
@@ -6551,7 +6551,7 @@
    "idx": 40,
    "msg": 826,
    "jp": "ストレインの団 / ",
-   "english": "Strain Spell Book",
+   "english": "Strain Stone",
    "preserve_prefix": false
   },
   {
@@ -6559,7 +6559,7 @@
    "idx": 41,
    "msg": 827,
    "jp": "ポイズケアの団 / ",
-   "english": "Poisonkea Spell Book",
+   "english": "Poisonkea Stone",
    "preserve_prefix": false
   },
   {
@@ -6567,7 +6567,7 @@
    "idx": 42,
    "msg": 828,
    "jp": "パラズケアの団 / ",
-   "english": "Parazukea Spell Book",
+   "english": "Parazukea Stone",
    "preserve_prefix": false
   },
   {
@@ -6575,7 +6575,7 @@
    "idx": 43,
    "msg": 829,
    "jp": "フィアケアの団 / ",
-   "english": "Fiakea Spell Book",
+   "english": "Fiakea Stone",
    "preserve_prefix": false
   },
   {
@@ -6583,7 +6583,7 @@
    "idx": 44,
    "msg": 830,
    "jp": "バイタルの団 / ",
-   "english": "Vital Spell Book",
+   "english": "Vital Stone",
    "preserve_prefix": false
   },
   {
@@ -6591,7 +6591,7 @@
    "idx": 45,
    "msg": 831,
    "jp": "カ}カスの団 / ",
-   "english": "Carcass Spell Book",
+   "english": "Carcass Stone",
    "preserve_prefix": false
   },
   {
@@ -6599,7 +6599,7 @@
    "idx": 46,
    "msg": 832,
    "jp": "ウィルの団 / ",
-   "english": "Will Spell Book",
+   "english": "Will Stone",
    "preserve_prefix": false
   },
   {
@@ -6607,7 +6607,7 @@
    "idx": 47,
    "msg": 833,
    "jp": "リュミルの団 / ",
-   "english": "Lumiel Spell Book",
+   "english": "Lumil Stone",
    "preserve_prefix": false
   },
   {
@@ -6615,7 +6615,7 @@
    "idx": 48,
    "msg": 834,
    "jp": "アンデッドの団 / ",
-   "english": "Undead Spell Book",
+   "english": "Undead Stone",
    "preserve_prefix": false
   },
   {
@@ -6623,7 +6623,7 @@
    "idx": 49,
    "msg": 835,
    "jp": "トランスの団 / ",
-   "english": "Trance Spell Book",
+   "english": "Trance Stone",
    "preserve_prefix": false
   },
   {
@@ -6631,7 +6631,7 @@
    "idx": 50,
    "msg": 836,
    "jp": "リカバ}の団 / ",
-   "english": "Recover Spell Book",
+   "english": "Recover Stone",
    "preserve_prefix": false
   },
   {
@@ -6639,7 +6639,7 @@
    "idx": 51,
    "msg": 837,
    "jp": "アンカ}ズの団 / ",
-   "english": "Anchors Spell Book",
+   "english": "Anchors Stone",
    "preserve_prefix": false
   },
   {
@@ -6647,7 +6647,7 @@
    "idx": 52,
    "msg": 838,
    "jp": "フロ}トの団 / ",
-   "english": "Float Spell Book",
+   "english": "Float Stone",
    "preserve_prefix": false
   },
   {
@@ -6655,7 +6655,7 @@
    "idx": 53,
    "msg": 839,
    "jp": "スティグマの団 / ",
-   "english": "Stigma Spell Book",
+   "english": "Stigma Stone",
    "preserve_prefix": false
   },
   {
@@ -6663,7 +6663,7 @@
    "idx": 54,
    "msg": 840,
    "jp": "ラフィ}ルの団 / ",
-   "english": "Raheal Spell Book",
+   "english": "Raheal Stone",
    "preserve_prefix": false
   },
   {
@@ -6671,7 +6671,7 @@
    "idx": 55,
    "msg": 841,
    "jp": "オフセットの団 / ",
-   "english": "Offset Spell Book",
+   "english": "Offset Stone",
    "preserve_prefix": false
   },
   {
@@ -6679,7 +6679,7 @@
    "idx": 56,
    "msg": 842,
    "jp": "リヴァイヴの団 / ",
-   "english": "Revive Spell Book",
+   "english": "Revive Stone",
    "preserve_prefix": false
   },
   {
@@ -6687,7 +6687,7 @@
    "idx": 57,
    "msg": 843,
    "jp": "?騎法団 / ",
-   "english": "? Spell Book",
+   "english": "? Magic Stone",
    "preserve_prefix": false
   },
   {
@@ -6703,7 +6703,7 @@
    "idx": 1,
    "msg": 846,
    "jp": "[FF07]騎事持騎法レベル1[FFF0] / 宝1体に炎帯性ダメ}ジを与える騎法 / クレタを習下する騎法団_ / ",
-   "english": "Mage Magic Lv1 / Deals fire damage to a single enemy. A spell book that teaches Kreta.",
+   "english": "Mage Magic Lv1 / Deals fire damage to a single enemy. A magic stone that teaches Kreta.",
    "preserve_prefix": true
   },
   {
@@ -6711,7 +6711,7 @@
    "idx": 2,
    "msg": 847,
    "jp": "[FF07]騎事持騎法レベル3[FFF0] / 宝1体に禍帯性ダメ}ジを与える騎法 / クルドを習下する騎法団_ / ",
-   "english": "Mage Magic Lv3 / Deals ice damage to a single enemy. A spell book that teaches Kurudo.",
+   "english": "Mage Magic Lv3 / Deals ice damage to a single enemy. A magic stone that teaches Kurudo.",
    "preserve_prefix": true
   },
   {
@@ -6719,7 +6719,7 @@
    "idx": 3,
    "msg": 848,
    "jp": "[FF07]騎事持騎法レベル1[FFF0] / 宝1体に限帯性ダメ}ジを与える騎法 / ティ}ルを習下する騎法団_ / ",
-   "english": "Mage Magic Lv1 / Deals lightning damage to a single enemy. A spell book that teaches Teal.",
+   "english": "Mage Magic Lv1 / Deals lightning damage to a single enemy. A magic stone that teaches Teal.",
    "preserve_prefix": true
   },
   {
@@ -6727,7 +6727,7 @@
    "idx": 4,
    "msg": 849,
    "jp": "[FF07]騎事持騎法レベル1[FFF0] / 宝のステ}タス情報を調べる騎法 / アナライズを習下する騎法団_ / ",
-   "english": "Mage Magic Lv1 / Examines the status information of an enemy. A spell book that teaches Analyze.",
+   "english": "Mage Magic Lv1 / Examines the status information of an enemy. A magic stone that teaches Analyze.",
    "preserve_prefix": true
   },
   {
@@ -6735,7 +6735,7 @@
    "idx": 5,
    "msg": 850,
    "jp": "[FF07]騎事持騎法レベル4[FFF0] / 宝1体の獲得力を高下させる騎法 / ウィ}クを習下する騎法団_ / ",
-   "english": "Mage Magic Lv4 / Reduces the attack power of a single enemy. A spell book that teaches Weak.",
+   "english": "Mage Magic Lv4 / Reduces the attack power of a single enemy. A magic stone that teaches Weak.",
    "preserve_prefix": true
   },
   {
@@ -6743,7 +6743,7 @@
    "idx": 6,
    "msg": 851,
    "jp": "[FF07]騎事持騎法レベル5[FFF0] / 宝1体の敏捷度を高下させる騎法 / ディレイを習下する騎法団_ / ",
-   "english": "Mage Magic Lv5 / Reduces the agility of a single enemy. A spell book that teaches Delay.",
+   "english": "Mage Magic Lv5 / Reduces the agility of a single enemy. A magic stone that teaches Delay.",
    "preserve_prefix": true
   },
   {
@@ -6751,7 +6751,7 @@
    "idx": 7,
    "msg": 852,
    "jp": "[FF02]神今騎法レベル3[FFF0] / 宝1体の回声力を高下させる騎法 / デプスを習下する騎法団_ / ",
-   "english": "Priest Magic Lv3 / Reduces the evasion of a single enemy. A spell book that teaches Depth.",
+   "english": "Priest Magic Lv3 / Reduces the evasion of a single enemy. A magic stone that teaches Depth.",
    "preserve_prefix": true
   },
   {
@@ -6759,7 +6759,7 @@
    "idx": 8,
    "msg": 853,
    "jp": "[FF02]神今騎法レベル2[FFF0] / 宝1体の解消力を高下させる騎法 / フィブルを習下する騎法団_ / ",
-   "english": "Priest Magic Lv2 / Reduces the defense of a single enemy. A spell book that teaches Feeble.",
+   "english": "Priest Magic Lv2 / Reduces the defense of a single enemy. A magic stone that teaches Feeble.",
    "preserve_prefix": true
   },
   {
@@ -6767,7 +6767,7 @@
    "idx": 9,
    "msg": 854,
    "jp": "[FF07]騎事持騎法レベル5[FFF0] / 宝1体を[0x03DC]開させる騎法 / シュラ}ドを習下する騎法団_ / ",
-   "english": "Mage Magic Lv5 / Instantly kills a single enemy. A spell book that teaches Shroud.",
+   "english": "Mage Magic Lv5 / Instantly kills a single enemy. A magic stone that teaches Shroud.",
    "preserve_prefix": true
   },
   {
@@ -6775,7 +6775,7 @@
    "idx": 10,
    "msg": 855,
    "jp": "[FF07]騎事持騎法レベル1[FFF0] / 宝1容を災らせる騎法 / スプリ}ムを習下する騎法団_ / ",
-   "english": "Mage Magic Lv1 / Puts a single enemy to sleep. A spell book that teaches Spleem.",
+   "english": "Mage Magic Lv1 / Puts a single enemy to sleep. A magic stone that teaches Spleem.",
    "preserve_prefix": true
   },
   {
@@ -6783,7 +6783,7 @@
    "idx": 11,
    "msg": 856,
    "jp": "[FF02]神今騎法レベル2[FFF0] / 宝1容の騎法を封じる騎法 / サロメを習下する騎法団_ / ",
-   "english": "Priest Magic Lv2 / Seals a single enemy's magic. A spell book that teaches Salome.",
+   "english": "Priest Magic Lv2 / Seals a single enemy's magic. A magic stone that teaches Salome.",
    "preserve_prefix": true
   },
   {
@@ -6791,7 +6791,7 @@
    "idx": 12,
    "msg": 857,
    "jp": "[FF07]騎事持騎法レベル4[FFF0] / 者箱から離脱する騎法 / エスケ}プを習下する騎法団_ / ",
-   "english": "Mage Magic Lv4 / Flee from battle. A spell book that teaches Escape.",
+   "english": "Mage Magic Lv4 / Flee from battle. A magic stone that teaches Escape.",
    "preserve_prefix": true
   },
   {
@@ -6799,7 +6799,7 @@
    "idx": 13,
    "msg": 858,
    "jp": "[FF07]騎事持騎法レベル3[FFF0] / 宝1容に炎帯性ダメ}ジを与える騎法 / ザクレタを習下する騎法団_ / ",
-   "english": "Mage Magic Lv3 / Deals fire damage to an enemy group. A spell book that teaches Zakreta.",
+   "english": "Mage Magic Lv3 / Deals fire damage to an enemy group. A magic stone that teaches Zakreta.",
    "preserve_prefix": true
   },
   {
@@ -6807,7 +6807,7 @@
    "idx": 14,
    "msg": 859,
    "jp": "[FF07]騎事持騎法レベル4[FFF0] / 宝1容に禍帯性ダメ}ジを与える騎法 / ザクルドを習下する騎法団_ / ",
-   "english": "Mage Magic Lv4 / Deals ice damage to an enemy group. A spell book that teaches Zakurudo.",
+   "english": "Mage Magic Lv4 / Deals ice damage to an enemy group. A magic stone that teaches Zakurudo.",
    "preserve_prefix": true
   },
   {
@@ -6815,7 +6815,7 @@
    "idx": 15,
    "msg": 860,
    "jp": "[FF07]騎事持騎法レベル2[FFF0] / 宝1容に限帯性ダメ}ジを与える騎法 / ザティ}ルを習下する騎法団_ / ",
-   "english": "Mage Magic Lv2 / Deals lightning damage to an enemy group. A spell book that teaches Zateal.",
+   "english": "Mage Magic Lv2 / Deals lightning damage to an enemy group. A magic stone that teaches Zateal.",
    "preserve_prefix": true
   },
   {
@@ -6823,7 +6823,7 @@
    "idx": 16,
    "msg": 861,
    "jp": "[FF07]騎事持騎法レベル2[FFF0] / 一復受間^騎騎が思現しなくなる騎法 / スル}を習下する騎法団_ / ",
-   "english": "Mage Magic Lv2 / Temporarily prevents random encounters. A spell book that teaches Through.",
+   "english": "Mage Magic Lv2 / Temporarily prevents random encounters. A magic stone that teaches Through.",
    "preserve_prefix": true
   },
   {
@@ -6831,7 +6831,7 @@
    "idx": 17,
    "msg": 862,
    "jp": "[FF07]騎事持騎法レベル6[FFF0] / 宝1容を[0x03DC]開させる騎法 / ザラ}ドを習下する騎法団_ / ",
-   "english": "Mage Magic Lv6 / Instantly kills an enemy group. A spell book that teaches Zarado.",
+   "english": "Mage Magic Lv6 / Instantly kills an enemy group. A magic stone that teaches Zarado.",
    "preserve_prefix": true
   },
   {
@@ -6839,7 +6839,7 @@
    "idx": 18,
    "msg": 863,
    "jp": "[FF07]騎事持騎法レベル6[FFF0] / 宝1体のHPを好所する騎法 / ドレインを習下する騎法団_ / ",
-   "english": "Mage Magic Lv6 / Absorbs HP from a single enemy. A spell book that teaches Drain.",
+   "english": "Mage Magic Lv6 / Absorbs HP from a single enemy. A magic stone that teaches Drain.",
    "preserve_prefix": true
   },
   {
@@ -6847,7 +6847,7 @@
    "idx": 19,
    "msg": 864,
    "jp": "[FF02]神今騎法レベル4[FFF0] / 宝箱にかけられた罠の発達を解ぐ騎法 / リピ}ルを習下する騎法団_ / ",
-   "english": "Priest Magic Lv4 / Disarms traps on treasure chests. A spell book that teaches Ripu.",
+   "english": "Priest Magic Lv4 / Disarms traps on treasure chests. A magic stone that teaches Ripu.",
    "preserve_prefix": true
   },
   {
@@ -6855,7 +6855,7 @@
    "idx": 20,
    "msg": 865,
    "jp": "[FF07]騎事持騎法レベル5[FFF0] / 騎理獲得ダメ}ジをはねかえす騎法 / カニバルを習下する騎法団_ / ",
-   "english": "Mage Magic Lv5 / Reflects physical damage taken back once. A spell book that teaches Cannibal.",
+   "english": "Mage Magic Lv5 / Reflects physical damage taken back once. A magic stone that teaches Cannibal.",
    "preserve_prefix": true
   },
   {
@@ -6863,7 +6863,7 @@
    "idx": 21,
    "msg": 866,
    "jp": "[FF07]騎事持騎法レベル5[FFF0] / 宝全体に炎帯性ダメ}ジを与える騎法 / ジャクレタを習下する騎法団_ / ",
-   "english": "Mage Magic Lv5 / Deals fire damage to all enemies. A spell book that teaches Jakreta.",
+   "english": "Mage Magic Lv5 / Deals fire damage to all enemies. A magic stone that teaches Jakreta.",
    "preserve_prefix": true
   },
   {
@@ -6871,7 +6871,7 @@
    "idx": 22,
    "msg": 867,
    "jp": "[FF07]騎事持騎法レベル6[FFF0] / 宝全体に禍帯性ダメ}ジを与える騎法 / ジャクルドを習下する騎法団_ / ",
-   "english": "Mage Magic Lv6 / Deals ice damage to all enemies. A spell book that teaches Jakurudo.",
+   "english": "Mage Magic Lv6 / Deals ice damage to all enemies. A magic stone that teaches Jakurudo.",
    "preserve_prefix": true
   },
   {
@@ -6879,7 +6879,7 @@
    "idx": 23,
    "msg": 868,
    "jp": "[FF07]騎事持騎法レベル4[FFF0] / 宝全体に限帯性ダメ}ジを与える騎法 / ジャティルを習下する騎法団_ / ",
-   "english": "Mage Magic Lv4 / Deals lightning damage to all enemies. A spell book that teaches Jateel.",
+   "english": "Mage Magic Lv4 / Deals lightning damage to all enemies. A magic stone that teaches Jateel.",
    "preserve_prefix": true
   },
   {
@@ -6887,7 +6887,7 @@
    "idx": 24,
    "msg": 869,
    "jp": "[FF07]騎事持騎法レベル7[FFF0] / 宝1体に解消力を汝広して獲得する騎法 / レイトを習下する騎法団_ / ",
-   "english": "Mage Magic Lv7 / Attacks a single enemy using defense power. A spell book that teaches Late.",
+   "english": "Mage Magic Lv7 / Attacks a single enemy using defense power. A magic stone that teaches Late.",
    "preserve_prefix": true
   },
   {
@@ -6895,7 +6895,7 @@
    "idx": 25,
    "msg": 870,
    "jp": "[FF07]騎事持騎法レベル7[FFF0] / 宝全体を[0x03DC]開させる騎法 / ジャラ}ドを習下する騎法団_ / ",
-   "english": "Mage Magic Lv7 / Instantly kills all enemies. A spell book that teaches Jarado.",
+   "english": "Mage Magic Lv7 / Instantly kills all enemies. A magic stone that teaches Jarado.",
    "preserve_prefix": true
   },
   {
@@ -6903,7 +6903,7 @@
    "idx": 26,
    "msg": 871,
    "jp": "[FF07]騎事持騎法レベル7[FFF0] / レベルとひきかえに匹頭をおこす騎法 / ヴァルハラを習下する騎法団_ / ",
-   "english": "Mage Magic Lv7 / Sacrifices one level to cause a catastrophe. A spell book that teaches Valhalla.",
+   "english": "Mage Magic Lv7 / Sacrifices one level to cause a catastrophe. A magic stone that teaches Valhalla.",
    "preserve_prefix": true
   },
   {
@@ -6911,7 +6911,7 @@
    "idx": 27,
    "msg": 872,
    "jp": "[FF07]騎事持騎法レベル6[FFF0] / 受けた騎法をはねかえす騎法 / リフレクトを習下する騎法団_ / ",
-   "english": "Mage Magic Lv6 / Reflects magic back once. A spell book that teaches Reflect.",
+   "english": "Mage Magic Lv6 / Reflects magic back once. A magic stone that teaches Reflect.",
    "preserve_prefix": true
   },
   {
@@ -6919,7 +6919,7 @@
    "idx": 28,
    "msg": 873,
    "jp": "[FF07]騎事持騎法レベル7[FFF0] / 宝全体に汝帯性ダメ}ジを与える騎法 / メガデスを習下する騎法団_ / ",
-   "english": "Mage Magic Lv7 / Deals holy damage to all enemies. A spell book that teaches Megadeath.",
+   "english": "Mage Magic Lv7 / Deals holy damage to all enemies. A magic stone that teaches Megadeth.",
    "preserve_prefix": true
   },
   {
@@ -6927,7 +6927,7 @@
    "idx": 29,
    "msg": 874,
    "jp": "[FF02]神今騎法レベル1[FFF0] / 用新1人のHPを回復する騎法 / フィ}ルを習下する騎法団_ / ",
-   "english": "Priest Magic Lv1 / Restores HP to a single ally. A spell book that teaches Heal.",
+   "english": "Priest Magic Lv1 / Restores HP to a single ally. A magic stone that teaches Heal.",
    "preserve_prefix": true
   },
   {
@@ -6935,7 +6935,7 @@
    "idx": 30,
    "msg": 875,
    "jp": "[FF07]騎事持騎法レベル2[FFF0] / 街に兆間物達する騎法 / リ}プを習下する騎法団_ / ",
-   "english": "Mage Magic Lv2 / Instantly warps back to town. A spell book that teaches Leap.",
+   "english": "Mage Magic Lv2 / Instantly warps back to town. A magic stone that teaches Leap.",
    "preserve_prefix": true
   },
   {
@@ -6943,7 +6943,7 @@
    "idx": 31,
    "msg": 876,
    "jp": "[FF02]神今騎法レベル1[FFF0] / 宝1体に汝帯性ダメ}ジを与える騎法 / バレッツを習下する騎法団_ / ",
-   "english": "Priest Magic Lv1 / Deals holy damage to a single enemy. A spell book that teaches Bullets.",
+   "english": "Priest Magic Lv1 / Deals holy damage to a single enemy. A magic stone that teaches Bullets.",
    "preserve_prefix": true
   },
   {
@@ -6951,7 +6951,7 @@
    "idx": 32,
    "msg": 877,
    "jp": "[FF02]神今騎法レベル1[FFF0] / フロア華に残る宝箱の数を調べる騎法 / シ}フアイを習下する騎法団_ / ",
-   "english": "Priest Magic Lv1 / Checks the number of treasure chests remaining on the floor. A spell book that teaches Thief Eye.",
+   "english": "Priest Magic Lv1 / Checks the number of treasure chests remaining on the floor. A magic stone that teaches Thief Eye.",
    "preserve_prefix": true
   },
   {
@@ -6959,7 +6959,7 @@
    "idx": 33,
    "msg": 878,
    "jp": "[FF07]騎事持騎法レベル2[FFF0] / 用新1人の獲得力が上羽し / 余開彼を獲得可能にする騎法 / ヤイバを習下する騎法団_ / ",
-   "english": "Mage Magic Lv2 / Increases one ally's hit rate and attack power, enabling hitting undead. A spell book that teaches Yaiba.",
+   "english": "Mage Magic Lv2 / Increases one ally's hit rate and attack power, enabling hitting undead. A magic stone that teaches Yaiba.",
    "preserve_prefix": true
   },
   {
@@ -6967,7 +6967,7 @@
    "idx": 34,
    "msg": 879,
    "jp": "[FF07]騎事持騎法レベル3[FFF0] / 用新1人の敏捷度が上羽する騎法 / コ}トを習下する騎法団_ / ",
-   "english": "Mage Magic Lv3 / Increases one ally's agility. A spell book that teaches Coat.",
+   "english": "Mage Magic Lv3 / Increases one ally's agility. A magic stone that teaches Coat.",
    "preserve_prefix": true
   },
   {
@@ -6975,7 +6975,7 @@
    "idx": 35,
    "msg": 880,
    "jp": "[FF02]神今騎法レベル2[FFF0] / 用新1人の回声力が上羽する騎法 / ブレスを習下する騎法団_ / ",
-   "english": "Priest Magic Lv2 / Increases one ally's evasion. A spell book that teaches Bless.",
+   "english": "Priest Magic Lv2 / Increases one ally's evasion. A magic stone that teaches Bless.",
    "preserve_prefix": true
   },
   {
@@ -6983,7 +6983,7 @@
    "idx": 36,
    "msg": 881,
    "jp": "[FF02]神今騎法レベル1[FFF0] / 用新1人の解消力が上羽する騎法 / プロテクトを習下する騎法団_ / ",
-   "english": "Priest Magic Lv1 / Increases one ally's defense. A spell book that teaches Protect.",
+   "english": "Priest Magic Lv1 / Increases one ally's defense. A magic stone that teaches Protect.",
    "preserve_prefix": true
   },
   {
@@ -6991,7 +6991,7 @@
    "idx": 37,
    "msg": 882,
    "jp": "[FF02]神今騎法レベル4[FFF0] / 宝1容に汝帯性ダメ}ジを与える騎法 / アモ}クを習下する騎法団_ / ",
-   "english": "Priest Magic Lv4 / Deals holy damage to an enemy group. A spell book that teaches Amok.",
+   "english": "Priest Magic Lv4 / Deals holy damage to an enemy group. A magic stone that teaches Amok.",
    "preserve_prefix": true
   },
   {
@@ -6999,7 +6999,7 @@
    "idx": 38,
    "msg": 883,
    "jp": "[FF02]神今騎法レベル4[FFF0] / 用新1容のHPが回復する騎法 / フィ}ルズを習下する騎法団_ / ",
-   "english": "Priest Magic Lv4 / Restores HP to an ally group. A spell book that teaches Heals.",
+   "english": "Priest Magic Lv4 / Restores HP to an ally group. A magic stone that teaches Heals.",
    "preserve_prefix": true
   },
   {
@@ -7007,7 +7007,7 @@
    "idx": 39,
    "msg": 884,
    "jp": "[FF02]神今騎法レベル5[FFF0] / 宝1容に毒を与える騎法 / ポイズンを習下する騎法団_ / ",
-   "english": "Priest Magic Lv5 / Inflicts poison on an enemy group. A spell book that teaches Poison.",
+   "english": "Priest Magic Lv5 / Inflicts poison on an enemy group. A magic stone that teaches Poison.",
    "preserve_prefix": true
   },
   {
@@ -7015,7 +7015,7 @@
    "idx": 40,
    "msg": 885,
    "jp": "[FF02]神今騎法レベル3[FFF0] / 宝1容を制れさせて達けなくする騎法 / ストレインを習下する騎法団_ / ",
-   "english": "Priest Magic Lv3 / Magically paralyzes an enemy group, preventing them from moving. A spell book that teaches Strain.",
+   "english": "Priest Magic Lv3 / Magically paralyzes an enemy group, preventing them from moving. A magic stone that teaches Strain.",
    "preserve_prefix": true
   },
   {
@@ -7023,7 +7023,7 @@
    "idx": 41,
    "msg": 886,
    "jp": "[FF02]神今騎法レベル2[FFF0] / 用新1人の毒を回復する騎法 / ポイズケアを習下する騎法団_ / ",
-   "english": "Priest Magic Lv2 / Cures one ally's poison. A spell book that teaches Poisonkea.",
+   "english": "Priest Magic Lv2 / Cures one ally's poison. A magic stone that teaches Poisonkea.",
    "preserve_prefix": true
   },
   {
@@ -7031,7 +7031,7 @@
    "idx": 42,
    "msg": 887,
    "jp": "[FF02]神今騎法レベル3[FFF0] / 用新1人の勝制を回復する騎法 / パラズケアを習下する騎法団_ / ",
-   "english": "Priest Magic Lv3 / Cures one ally's paralysis. A spell book that teaches Parazukea.",
+   "english": "Priest Magic Lv3 / Cures one ally's paralysis. A magic stone that teaches Parazukea.",
    "preserve_prefix": true
   },
   {
@@ -7039,7 +7039,7 @@
    "idx": 43,
    "msg": 888,
    "jp": "[FF02]神今騎法レベル4[FFF0] / 用新1人の恐怖を回復する騎法 / フィアケアを習下する騎法団_ / ",
-   "english": "Priest Magic Lv4 / Cures one ally's fear. A spell book that teaches Fiakea.",
+   "english": "Priest Magic Lv4 / Cures one ally's fear. A magic stone that teaches Fiakea.",
    "preserve_prefix": true
   },
   {
@@ -7047,7 +7047,7 @@
    "idx": 44,
    "msg": 889,
    "jp": "[FF02]神今騎法レベル6[FFF0] / スタミナを全回復し^ / 一復期間出雲しなくする騎法 / バイタルを習下する騎法団_ / ",
-   "english": "Priest Magic Lv6 / Fully restores stamina and enables movement without encounters for a turn. A spell book that teaches Vital.",
+   "english": "Priest Magic Lv6 / Fully restores stamina and enables movement without encounters for a turn. A magic stone that teaches Vital.",
    "preserve_prefix": true
   },
   {
@@ -7055,7 +7055,7 @@
    "idx": 45,
    "msg": 890,
    "jp": "[FF02]神今騎法レベル6[FFF0] / 用新1人を一復結果で復活させる騎法 / カ}カスを習下する騎法団_ / ",
-   "english": "Priest Magic Lv6 / Revives one ally with partial HP. A spell book that teaches Carcass.",
+   "english": "Priest Magic Lv6 / Revives one ally with partial HP. A magic stone that teaches Carcass.",
    "preserve_prefix": true
   },
   {
@@ -7063,7 +7063,7 @@
    "idx": 46,
    "msg": 891,
    "jp": "[FF02]神今騎法レベル6[FFF0] / 用新1人のHPとステ}タス取通を / 回復する騎法ウィルを習下する騎法団_ / ",
-   "english": "Priest Magic Lv6 / Restores one ally's HP and cures status ailments. A spell book that teaches Will.",
+   "english": "Priest Magic Lv6 / Restores one ally's HP and cures status ailments. A magic stone that teaches Will.",
    "preserve_prefix": true
   },
   {
@@ -7071,7 +7071,7 @@
    "idx": 47,
    "msg": 892,
    "jp": "[FF02]神今騎法レベル5[FFF0] / ダ}クフォグを取り解く騎法 / リュミルを習下する騎法団_ / ",
-   "english": "Priest Magic Lv5 / Removes Dark Fog. A spell book that teaches Lumiel.",
+   "english": "Priest Magic Lv5 / Removes Dark Fog. A magic stone that teaches Lumil.",
    "preserve_prefix": true
   },
   {
@@ -7079,7 +7079,7 @@
    "idx": 48,
    "msg": 893,
    "jp": "[FF02]神今騎法レベル7[FFF0] / 余開彼以外の宝グル}プに対して / ディスペルを著消にする騎法 / アンデッドを習下する騎法団_ / ",
-   "english": "Priest Magic Lv7 / Makes Dispel highly effective against non-undead enemy groups. A spell book that teaches Undead.",
+   "english": "Priest Magic Lv7 / Makes Dispel highly effective against non-undead enemy groups. A magic stone that teaches Undead.",
    "preserve_prefix": true
   },
   {
@@ -7087,7 +7087,7 @@
    "idx": 49,
    "msg": 894,
    "jp": "[FF02]神今騎法レベル3[FFF0] / 今いるフロアの上り階段前に / 兆間物達する騎法 / トランスを習下する騎法団_ / ",
-   "english": "Priest Magic Lv3 / Warps to the stairs entrance on the current floor. A spell book that teaches Trance.",
+   "english": "Priest Magic Lv3 / Warps to the stairs entrance on the current floor. A magic stone that teaches Trance.",
    "preserve_prefix": true
   },
   {
@@ -7095,7 +7095,7 @@
    "idx": 50,
    "msg": 895,
    "jp": "[FF02]神今騎法レベル5[FFF0] / 敗タ}ン自達でHPが回復する騎法 / リカバ}を習下する騎法団_ / ",
-   "english": "Priest Magic Lv5 / Automatically restores a small amount of HP each turn. A spell book that teaches Recover.",
+   "english": "Priest Magic Lv5 / Automatically restores a small amount of HP each turn. A magic stone that teaches Recover.",
    "preserve_prefix": true
   },
   {
@@ -7103,7 +7103,7 @@
    "idx": 51,
    "msg": 896,
    "jp": "[FF02]神今騎法レベル6[FFF0] / 汝いの装備を外す騎法 / アンカ}ズを習下する騎法団_ / ",
-   "english": "Priest Magic Lv6 / Restores a used equipped item. However, the caster may become frightened. A spell book that teaches Anchors.",
+   "english": "Priest Magic Lv6 / Restores a used equipped item. However, the caster may become frightened. A magic stone that teaches Anchors.",
    "preserve_prefix": true
   },
   {
@@ -7111,7 +7111,7 @@
    "idx": 52,
    "msg": 897,
    "jp": "[FF07]騎事持騎法レベル3[FFF0] / 一復期間^ダメ}ジ柵を汝消にする騎法 / フロ}トを習下する騎法団_ / ",
-   "english": "Mage Magic Lv3 / Temporarily nullifies damage traps. A spell book that teaches Float.",
+   "english": "Mage Magic Lv3 / Temporarily nullifies damage traps. A magic stone that teaches Float.",
    "preserve_prefix": true
   },
   {
@@ -7119,7 +7119,7 @@
    "idx": 53,
    "msg": 898,
    "jp": "[FF02]神今騎法レベル7[FFF0] / 宝全体に汝帯性ダメ}ジを与える騎法 / スティグマを習下する騎法団_ / ",
-   "english": "Priest Magic Lv7 / Deals holy damage to all enemies. A spell book that teaches Stigma.",
+   "english": "Priest Magic Lv7 / Deals holy damage to all enemies. A magic stone that teaches Stigma.",
    "preserve_prefix": true
   },
   {
@@ -7127,7 +7127,7 @@
    "idx": 54,
    "msg": 899,
    "jp": "[FF02]神今騎法レベル5[FFF0] / 用新全員のHPを回復する騎法 / ラフィ}ルを習下する騎法団_ / ",
-   "english": "Priest Magic Lv5 / Restores HP to all allies. A spell book that teaches Raheal.",
+   "english": "Priest Magic Lv5 / Restores HP to all allies. A magic stone that teaches Raheal.",
    "preserve_prefix": true
   },
   {
@@ -7135,7 +7135,7 @@
    "idx": 55,
    "msg": 900,
    "jp": "[FF02]神今騎法レベル7[FFF0] / 自らの命と引き更えに / 宝1体を[0x03DC]開させる騎法 / オフセットを習下する騎法団_ / ",
-   "english": "Priest Magic Lv7 / Sacrifices own life to instantly kill a single enemy. A spell book that teaches Offset.",
+   "english": "Priest Magic Lv7 / Sacrifices own life to instantly kill a single enemy. A magic stone that teaches Offset.",
    "preserve_prefix": true
   },
   {
@@ -7143,7 +7143,7 @@
    "idx": 56,
    "msg": 901,
    "jp": "[FF02]神今騎法レベル7[FFF0] / 自らの命と引き更えに / 用新1人を復活させる騎法 / リヴァイヴを習下する騎法団_ / ",
-   "english": "Priest Magic Lv7 / Sacrifices own life to revive a single ally. A spell book that teaches Revive.",
+   "english": "Priest Magic Lv7 / Sacrifices own life to revive a single ally. A magic stone that teaches Revive.",
    "preserve_prefix": true
   },
   {
@@ -8759,7 +8759,7 @@
    "idx": 1,
    "msg": 1110,
    "jp": "団 / ",
-   "english": "Spell Book",
+   "english": "Magic Stone",
    "preserve_prefix": false
   },
   {
@@ -9055,7 +9055,7 @@
    "idx": 1,
    "msg": 1150,
    "jp": "?団 / ",
-   "english": "? Spell Book",
+   "english": "? Magic Stone",
    "preserve_prefix": false
   },
   {

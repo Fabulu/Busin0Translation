@@ -1,0 +1,3428 @@
+[
+  {
+    "resource": 1206,
+    "msg_index": 28,
+    "japanese": "",
+    "english": "You turned around. There stood / Bertin, the dwarf warrior you / met at this level's entrance."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 30,
+    "japanese": "",
+    "english": "My my, adventurers these days / are just as tough as we were!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 31,
+    "japanese": "",
+    "english": "Don't know what they are, but / these crystals seem to hold the / thoughts of an ancient demon god."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 32,
+    "japanese": "",
+    "english": "That's why the monsters guard / places like this. They hold / them as holy ground."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 33,
+    "japanese": "",
+    "english": "Takes me back. It took us months / on end to beat the / likes of them."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 34,
+    "japanese": "",
+    "english": "We'd get hurt, crawl back to / town, stock up on items, and / dive right back in. Over and over."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 35,
+    "japanese": "",
+    "english": "Can't count how many times those / fellows beat us to a pulp."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 36,
+    "japanese": "",
+    "english": "Look at the scars on this face. / Every one of them was their / work, back in the day."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 37,
+    "japanese": "",
+    "english": "Bertin winked like a naughty / child and grinned."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 39,
+    "japanese": "",
+    "english": "That's why you came to this / crystal chamber too, eh?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 40,
+    "japanese": "",
+    "english": "So, how did it feel, taking the / monsters' Allied Action for / the very first time?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 42,
+    "japanese": "",
+    "english": "What's that? You're not taking / me for a ride, are you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 43,
+    "japanese": "",
+    "english": "Allied Action is mastered only / by monsters that have killed / each other for ages untold."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 44,
+    "japanese": "",
+    "english": "If it were that easy for us to / learn, we'd have had no / trouble at all!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 48,
+    "japanese": "",
+    "english": "Come to think of it, I heard / some strange rumors on the / way here. Many times."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 49,
+    "japanese": "",
+    "english": "Word that the Knights of Duhan / had mastered Allied Action, / or some such tale!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 50,
+    "japanese": "",
+    "english": "I didn't give it a second / sniff. Sounded ridiculous / to me."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 52,
+    "japanese": "",
+    "english": "I always wondered how folk / reach the lower levels so / easily these days."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 53,
+    "japanese": "",
+    "english": "And watching you fight, there's / something different from the / way we used to do it."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 54,
+    "japanese": "",
+    "english": "I'm no learned man, but when it / comes to fighting, I've got / an eye for detail."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 55,
+    "japanese": "",
+    "english": "Now then. What in blazes is / Ortrud up to, and why the / silence? Best find out."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 57,
+    "japanese": "",
+    "english": "That's right, that's right! We / were amazed at first too - / gaining a demon god's power."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 58,
+    "japanese": "",
+    "english": "The flow of those coordinated / moves, and the killing blows / born out of them."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 59,
+    "japanese": "",
+    "english": "No need for words, not even a / glance. All of us moved as / if we were one creature."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 60,
+    "japanese": "",
+    "english": "Back then I felt we wouldn't / lose even if a Gold Dragon / came at us."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 61,
+    "japanese": "",
+    "english": "But even in those days, Ortrud / was an odd one."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 62,
+    "japanese": "",
+    "english": "Know what he said, back when we / were living our simple, / happy days?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 63,
+    "japanese": "",
+    "english": "'With this, peace will come / back to Venoa.' That's / what he said."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 67,
+    "japanese": "",
+    "english": "we brought down the unbeatable / Black Knight of San-Goth."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 69,
+    "japanese": "",
+    "english": "Ah, that reminds me. I hear some / fool went and raised the / death spirits again."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 70,
+    "japanese": "",
+    "english": "Walked the labyrinth a bit and a / whole swarm came at me. / Annoying as all get-out!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 71,
+    "japanese": "",
+    "english": "Must be some fool who knows / nothing of how Black Knight / William met his end."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 72,
+    "japanese": "",
+    "english": "When I find the one who did it, / we're going to have a nice / long talk, believe me!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 73,
+    "japanese": "",
+    "english": "Well then! Can't let you beat / me. I'd best push on and / head deeper myself."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 74,
+    "japanese": "",
+    "english": "Bertin strode off, his body / swaying like a barrel / of liquor."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 75,
+    "japanese": "",
+    "english": "A torrent of countless / thoughts came flooding in."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 76,
+    "japanese": "",
+    "english": "The thoughts of monsters that / ruled this lair, ever craving / power, filled the crystal."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 77,
+    "japanese": "",
+    "english": "And at the end of those grim / thoughts shone one record, / bright as a jewel."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 78,
+    "japanese": "",
+    "english": "It was the memory of a demon / god from ages long past."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 83,
+    "japanese": "",
+    "english": "Mmph! That's it, I can't! Too / hot! It's coming off!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 84,
+    "japanese": "",
+    "english": "With that, the orc gripped his / own neck two-handed and / heaved with all his might."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 85,
+    "japanese": "",
+    "english": "Inside the sagging orc head / was Yoppen's own!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 86,
+    "japanese": "",
+    "english": "He tugged the bandana free and / mopped his sweat-soaked / yellow face, panting."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 87,
+    "japanese": "",
+    "english": "Whew! Thought I was gonna die! / Why's the heat change so much / just one floor down!?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 88,
+    "japanese": "",
+    "english": "And princess, you don't have to / go holing up in this / labyrinth, you know~"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 90,
+    "japanese": "",
+    "english": "Call me the patient prince, / jerked around on purpose / by his selfish princess."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 91,
+    "japanese": "",
+    "english": "Ah well, since I'm here, I'll / just take a dip over there!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 93,
+    "japanese": "",
+    "english": "Yoppen leapt straight / into the pool."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 94,
+    "japanese": "",
+    "english": "Hyaa~, it's cold! Cold! / It feels so good~!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 96,
+    "japanese": "",
+    "english": "Whew! Thought I was gonna die! / Why's the heat change so much / just one floor down!?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 97,
+    "japanese": "",
+    "english": "And princess, you don't have to / go holing up in this / labyrinth, you know~"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 99,
+    "japanese": "",
+    "english": "Call me the patient prince, / jerked around on purpose / by his selfish princess."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 100,
+    "japanese": "",
+    "english": "Awww, there used to be a / spring here. Now it's gone!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 101,
+    "japanese": "",
+    "english": "And I came all this way for / a dip! What a rip-off!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 103,
+    "japanese": "",
+    "english": "Wiping away sweat, Yoppen / shouldered his gear and / walked off."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 105,
+    "japanese": "",
+    "english": "Seeing the empty water tank, / Raiman began to speak."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 106,
+    "japanese": "",
+    "english": "Hmm!? According to the map, this / tank should be the famous / sight of this floor!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 108,
+    "japanese": "",
+    "english": "You explained to the puzzled / Raiman about the lever needed / to explore this floor."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 109,
+    "japanese": "",
+    "english": "Oh, I see! So there was a / hidden device beneath us!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 110,
+    "japanese": "",
+    "english": "Just what you'd expect of a / true adventurer. Listening to / you, I can feel the adventure!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 111,
+    "japanese": "",
+    "english": "Still, I did so want to see the / witch's water that never / dries up in this heat."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 113,
+    "japanese": "",
+    "english": "That said, no use lingering / here any longer!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 115,
+    "japanese": "",
+    "english": "I'm so looking forward to it. / After all, that War God is / still down there, isn't he?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 119,
+    "japanese": "",
+    "english": "Inside, an imp sprawled on the / floor, reading a book."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 120,
+    "japanese": "",
+    "english": "This here's big bro Ingo's / secret hideout! Don't you / dare barge in here!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 121,
+    "japanese": "",
+    "english": "So this is Ingo's hideout that / Lidi spoke of. No doubt / about it."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 122,
+    "japanese": "",
+    "english": "You told the imp about / Lidi's request."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 123,
+    "japanese": "",
+    "english": "Hmm, so that's why you're here. / Business with big bro / Ingo, huh."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 124,
+    "japanese": "",
+    "english": "But bro ain't here now. Fact is, / he almost never comes back / to this place."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 125,
+    "japanese": "",
+    "english": "After all, bro's a legendary / treasure hunter, always / running the labyrinth!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 126,
+    "japanese": "",
+    "english": "Too bad for you, though. I got / orders from bro about / that thing."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 127,
+    "japanese": "",
+    "english": "If it weren't his orders I'd / kick you right out, but I / got no choice!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 128,
+    "japanese": "",
+    "english": "The imp clicked his tongue / in frustration."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 129,
+    "japanese": "",
+    "english": "Then, grudgingly, he took out / the request note he'd gotten / from Ingo and showed it."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 130,
+    "japanese": "",
+    "english": "Fine. Then do like bro says: / bring me a Thief's Mask, the / kind them midgets wear."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 131,
+    "japanese": "",
+    "english": "Do that, and I'll trade you the / thing bro left with me!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 132,
+    "japanese": "",
+    "english": "Oh yeah? I don't give a damn / what you do!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 133,
+    "japanese": "",
+    "english": "But 'til you take bro's request, / no way his key ends up in / your hands!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 136,
+    "japanese": "",
+    "english": "Knew it! Came crawling back to / take bro's request after / all, huh?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 137,
+    "japanese": "",
+    "english": "Fine. Then do like bro says: / bring me a Thief's Mask, the / kind them midgets wear."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 138,
+    "japanese": "",
+    "english": "Do that, and I'll trade you the / thing bro left with me!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 140,
+    "japanese": "",
+    "english": "My anger gauge shoots up every / time you spout another / dumb joke, pal!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 144,
+    "japanese": "",
+    "english": "Yep, that's the mask the / Leprechaun folk wear, / no mistake."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 145,
+    "japanese": "",
+    "english": "Tch! Galls me to hand it to some / shady drifter I don't know / from nowhere, but..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 146,
+    "japanese": "",
+    "english": "Bro's orders are orders. Take / it and be grateful!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 148,
+    "japanese": "",
+    "english": "That key's bro's handiwork, made / with heart and soul! Don't / you dare treat it rough!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 149,
+    "japanese": "",
+    "english": "There, business done, right? / Then scram! And don't / come back!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 150,
+    "japanese": "",
+    "english": "You had no Thief's Mask to show. / The imp shook his head."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 151,
+    "japanese": "",
+    "english": "What the hell, man! Just catch a / Leprechaun or two and snatch / their masks already!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 154,
+    "japanese": "",
+    "english": "Time sure flies. Twenty years / already, since that day!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 155,
+    "japanese": "",
+    "english": "A dwarf warrior stood there, / gazing fondly at the statue / of a goddess."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 156,
+    "japanese": "",
+    "english": "Noticing your eyes on him, the / dwarf came over, scratching / his head sheepishly."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 157,
+    "japanese": "",
+    "english": "Strange! That statue used to / face sideways. Now she's / facing front!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 158,
+    "japanese": "",
+    "english": "Dunno who moved it, but don't / you think it looks better / this way?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 159,
+    "japanese": "",
+    "english": "Feels that way to me, anyhow. / Yeah, it's better now / for sure!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 160,
+    "japanese": "",
+    "english": "Well, I suppose none of that / matters much to you, eh."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 161,
+    "japanese": "",
+    "english": "The dwarf warrior gave a / friendly smile and a big, / hearty laugh."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 162,
+    "japanese": "",
+    "english": "I'm Bertin, of Gnome Valley. / Pleasure to meet you."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 163,
+    "japanese": "",
+    "english": "Funny, though. Is it a sign of / age, that the old days feel / so dear to me now?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 164,
+    "japanese": "",
+    "english": "Those were the best days of my / life. Lately they even show / up in my dreams!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 165,
+    "japanese": "",
+    "english": "They were all good folk, every / one of them with a dream / of their own."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 166,
+    "japanese": "",
+    "english": "We fought like mad to build a / land where everyone could / live and laugh together."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 167,
+    "japanese": "",
+    "english": "But that war took / most of them!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 168,
+    "japanese": "",
+    "english": "The dwarf warrior let out / a heavy sigh."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 169,
+    "japanese": "",
+    "english": "Now it's just me and / Ortrud left."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 170,
+    "japanese": "",
+    "english": "And him, becoming king and all. / Can't have been easy on him."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 171,
+    "japanese": "",
+    "english": "Curse or whatever it is, they / say he's grown too weak to / even move about freely."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 172,
+    "japanese": "",
+    "english": "By rights I ought to be at his / side, helping him, but..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 173,
+    "japanese": "",
+    "english": "ever since that business, I've / kept my distance from him!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 174,
+    "japanese": "",
+    "english": "The man who came back from / Banquo was like a whole / different person."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 175,
+    "japanese": "",
+    "english": "Seems the old king of Duhan and / the nobles betrayed us / at Banquo."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 176,
+    "japanese": "",
+    "english": "I don't know the details. I was / off leading a detachment / against the city of Toul."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 177,
+    "japanese": "",
+    "english": "But what he did was wrong! War / or no war, there are things / you just don't do."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 179,
+    "japanese": "",
+    "english": "He spoke no further, but dark / memories of the past were / plainly crossing his mind."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 180,
+    "japanese": "",
+    "english": "In revenge for that betrayal, he / hanged near a hundred nobles / in the land of Kadina."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 181,
+    "japanese": "",
+    "english": "When I heard, I felt sad, angry, / helpless, all at once!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 182,
+    "japanese": "",
+    "english": "What did we fight for? Wasn't it / to make everyone happy? / That's what I thought."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 183,
+    "japanese": "",
+    "english": "Betrayed or not, there's no / right to kill those who / hold no sword."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 184,
+    "japanese": "",
+    "english": "I'd had enough of it all. I went / home and holed up in / Gnome Valley."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 186,
+    "japanese": "",
+    "english": "Oh, sorry, sorry! Turning / gossipy is a sign of / age too."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 188,
+    "japanese": "",
+    "english": "The dwarf warrior walked away / humming a tune, his big frame / swaying as he went."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 189,
+    "japanese": "",
+    "english": "The rubble-choked room was thick / with a foul stench and an / eerie, heavy air."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 190,
+    "japanese": "",
+    "english": "It smelled of a burnt-out fire, / and sharply of scorched air."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 191,
+    "japanese": "",
+    "english": "A faint whiff of bloodlust told / that a battle had been / fought here."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 193,
+    "japanese": "",
+    "english": "You rushed over and propped / the old mage upright."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 199,
+    "japanese": "",
+    "english": "Aurora: To think the great mage / Wesbell had only such lousy / servants at his disposal."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 200,
+    "japanese": "",
+    "english": "Proof that mages and their magic / don't always progress with / time, is it not?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 202,
+    "japanese": "",
+    "english": "Why not borrow the strength of / those adventurers there for / the next round?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 203,
+    "japanese": "",
+    "english": "Perhaps they could even / put a scratch on me."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 204,
+    "japanese": "",
+    "english": "The old mage raised his worn, / exhausted body and spoke."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 205,
+    "japanese": "",
+    "english": "Wesbell: I learned I was no / match for you at Irikia, / ten years past!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 206,
+    "japanese": "",
+    "english": "Once I challenged you rashly, / and it cost me my sight / and my right arm."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 208,
+    "japanese": "",
+    "english": "While the mage strained to / speak, the witch listened / serenely, arms lightly / crossed."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 209,
+    "japanese": "",
+    "english": "Wesbell! I wish to know. What / is it that you desire?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 210,
+    "japanese": "",
+    "english": "You hold deathless life and the / deepest secrets of magic. / What could you still seek?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 211,
+    "japanese": "",
+    "english": "Kingdoms fall and it leaves you / empty. No power, no treasure / can fill your heart."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 212,
+    "japanese": "",
+    "english": "What do you search for, / wandering through that / eternity of time?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 213,
+    "japanese": "",
+    "english": "There is nothing you could not / take, if you wished it."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 214,
+    "japanese": "",
+    "english": "I have not long to live. Let me / die knowing at least that. / What do you seek?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 215,
+    "japanese": "",
+    "english": "Heh heh heh... I expected better / of the great mage Wesbell. / How foolish."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 216,
+    "japanese": "",
+    "english": "What do you hope to draw out of / me, the one they fear / and call a witch?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 217,
+    "japanese": "",
+    "english": "Shall I tell you a heap of lies? / You may pick whichever one / you fancy."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 218,
+    "japanese": "",
+    "english": "Then die in the dark of death, / tasting nothing but despair."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 219,
+    "japanese": "",
+    "english": "Lies have ever been the / tools of the weak."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 221,
+    "japanese": "",
+    "english": "Now, will you not tell me? What / do you wish for? What do / you seek?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 222,
+    "japanese": "",
+    "english": "A strange tension flowed between / the mage and Aurora."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 223,
+    "japanese": "",
+    "english": "Nothing could be read from / the witch's face."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 225,
+    "japanese": "",
+    "english": "That, from a man who knows light / and dark, who even followed / a demon god?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 227,
+    "japanese": "",
+    "english": "Either way, it is nothing I / could tell your kind."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 228,
+    "japanese": "",
+    "english": "If there is such a thing as a / god, go and ask him."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 229,
+    "japanese": "",
+    "english": "With those cryptic words, / Aurora vanished."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 230,
+    "japanese": "",
+    "english": "No use! I no longer have the / strength left to pursue her!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 231,
+    "japanese": "",
+    "english": "Adventurers... will you hear / one wish of mine?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 232,
+    "japanese": "",
+    "english": "The lowest depth of this / labyrinth! Where Aurora / dwells, and all the brood / of darkness gathers."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 234,
+    "japanese": "",
+    "english": "I pray you reach that place, and / lay hands on the truth in / my stead."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 235,
+    "japanese": "",
+    "english": "The old mage dragged himself / away and was gone."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 236,
+    "japanese": "",
+    "english": "The demon god's memory / became yours."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 238,
+    "japanese": "",
+    "english": "The demon god's memory / became yours."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 240,
+    "japanese": "",
+    "english": "The demon god's memory / became yours."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 242,
+    "japanese": "",
+    "english": "Things don't look too good, / do they?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 243,
+    "japanese": "",
+    "english": "An elf adventurer noticed you / and came over."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 244,
+    "japanese": "",
+    "english": "Uuri: Just now, Sir Webster went / heading down, wearing a / mighty proud look."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 245,
+    "japanese": "",
+    "english": "Seems the lord gave the order to / undo the seal on the / holy beasts."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 246,
+    "japanese": "",
+    "english": "And with that Cardinal Langobalt / going along, there's no / doubt about it."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 248,
+    "japanese": "",
+    "english": "It's not as if he doesn't know / that man's true colors!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 249,
+    "japanese": "",
+    "english": "This Langobalt is a papal / guardian, an enforcer of / the divine power."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 250,
+    "japanese": "",
+    "english": "Put simply, a mage who summons / holy beasts in the name / of God."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 251,
+    "japanese": "",
+    "english": "'Holy beast' sounds fine and / well, but they're just the / Papacy's pet monsters."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 252,
+    "japanese": "",
+    "english": "The adventurer frowned, lost / for a moment in thought."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 253,
+    "japanese": "",
+    "english": "The name's Uuri Ernst. For now, / one of the strike force, / same as you."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 254,
+    "japanese": "",
+    "english": "Uuri: I used to be with the / Papacy myself, so I know / just how they think."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 256,
+    "japanese": "",
+    "english": "So if they've come all the way / out here, risking danger,"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 257,
+    "japanese": "",
+    "english": "it means this Duhan has / something juicy in it / for them."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 258,
+    "japanese": "",
+    "english": "That's why no town welcomes / the Papacy's meddling."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 259,
+    "japanese": "",
+    "english": "How can a man like Ortrud / not see it!?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 261,
+    "japanese": "",
+    "english": "With a deep sigh and a sorrowful / look, Uuri walked away."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 552,
+    "japanese": "",
+    "english": "Raiman and Jill's cold stares / pierced your back."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 553,
+    "japanese": "",
+    "english": "No doubt because you haven't yet / shown them this floor's / famous sight."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 554,
+    "japanese": "",
+    "english": "The heat here is a cut above / the rest of the floor."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 555,
+    "japanese": "",
+    "english": "This must be where the lava / burns hottest on this level."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 556,
+    "japanese": "",
+    "english": "Dip Fudo's sword in the lava? / Yes / No"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 557,
+    "japanese": "",
+    "english": "You dipped the sword's blade / into the lava."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 558,
+    "japanese": "",
+    "english": "The blade glowed red with heat, / yet did not warp or melt. It / seemed to drink the heat in."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 559,
+    "japanese": "",
+    "english": "Whether by its rare steel or the / labyrinth's magic in the lava, / the blade shone brighter still."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 560,
+    "japanese": "",
+    "english": "A strangely sorrowful air / hung about its glow."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 561,
+    "japanese": "",
+    "english": "You drew the shining blade from / the lava and wrapped it in / the cloth once more."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 658,
+    "japanese": "",
+    "english": "You met the Orc who works / part-time at the shop."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 659,
+    "japanese": "",
+    "english": "The Orc remembered your face / too, and trotted over / happily."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 660,
+    "japanese": "",
+    "english": "H-hello dere~! You remember / Oda? Oda's doin' his / part-time job!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 661,
+    "japanese": "",
+    "english": "So happy~! Did ya come all dis / way 'cause ya worried about / Oda an' friends?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 662,
+    "japanese": "",
+    "english": "Oda an' friends will work hard! / You work hard too, senpai!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 663,
+    "japanese": "",
+    "english": "The Orc happily went / back to work."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 665,
+    "japanese": "",
+    "english": "Don't play dumb with us! / Yeah! The sooner you show us / the way, the better for you!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 666,
+    "japanese": "",
+    "english": "Two orcs stood surrounded by / vicious-looking thugs."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 668,
+    "japanese": "",
+    "english": "B-but we dunno what yer talkin' / about! // We SAW you! Walkin' round with / a real beauty, and she sure / weren't no adventurer!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 669,
+    "japanese": "",
+    "english": "Yeah, no mistake! That's gotta / be the woman Webster's after! // N-no, yer wrong! / Dat was just a succubus!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 670,
+    "japanese": "",
+    "english": "Don't screw with us! / That's it, I've had enough! / I'm gonna kill you both!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 672,
+    "japanese": "",
+    "english": "Backing away, the two orcs / spotted you and cried / out in joy."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 677,
+    "japanese": "",
+    "english": "The orcs scurried behind / your backs to hide."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 678,
+    "japanese": "",
+    "english": "The hell are you!? This ain't / your business, so butt out!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 679,
+    "japanese": "",
+    "english": "Or what, you mean to cross us, / the Black Snake Squad?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 681,
+    "japanese": "",
+    "english": "Dung Snakes, was it? How / stupid! What a lame name!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 682,
+    "japanese": "",
+    "english": "Yeah! An ugly, smelly squad like / yours is a crime against / humanity!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 684,
+    "japanese": "",
+    "english": "Enraged, the thugs attacked!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 685,
+    "japanese": "",
+    "english": "The orcs hiding in the shadows / made sure it was safe, then / poked their heads out."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 686,
+    "japanese": "",
+    "english": "Will more of them keep coming / after us like that!?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 689,
+    "japanese": "",
+    "english": "Seems Webster's got all sorts of / adventurers hunting for her."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 690,
+    "japanese": "",
+    "english": "What do we do now? This may be / too much for us to handle / alone."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 692,
+    "japanese": "",
+    "english": "I'll ask just in case, but you / DO know who we are, right?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 695,
+    "japanese": "",
+    "english": "It's all 'cause adventurers are / such dirty rats that we're / stuck with this mess!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 697,
+    "japanese": "",
+    "english": "They get blinded by gold and / help the villains. That's / why we suffer so!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 698,
+    "japanese": "",
+    "english": "So said the two orcs, / glaring right at you."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 700,
+    "japanese": "",
+    "english": "How about we have her wear an / orc costume, same as ours?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 701,
+    "japanese": "",
+    "english": "Might stink a little, but hey, / a smell never killed anyone!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 703,
+    "japanese": "",
+    "english": "Okay, decided! We're all going / with the orc disguise!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 705,
+    "japanese": "",
+    "english": "Overthinking everything - / that's our bad habit, huh!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 707,
+    "japanese": "",
+    "english": "Satisfied at last, Lute and / Emilia bustled off through / the door, chattering away."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 708,
+    "japanese": "",
+    "english": "Such a beautiful face! Turning / toward the voice, you saw a / lovely woman shimmer forth / from the rock wall."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 709,
+    "japanese": "",
+    "english": "Weary of this fleeting life, / never knowing true love, / dying without a trace... // Come to me, come... / Let us sleep in the cold dark, / for the darkness hides all... / Do as your heart desires... // To think you could fell the / bewitched Succubus. You have / grown strong indeed."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 711,
+    "japanese": "",
+    "english": "His battle over, Belgrano / approached you with a smile."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 712,
+    "japanese": "",
+    "english": "Belgrano: My, how you've grown / in the time since we / last met."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 713,
+    "japanese": "",
+    "english": "As if you'd walked the line / between life and death many / times over."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 715,
+    "japanese": "",
+    "english": "I can't count how often the / monsters nearly did me in / before I reached this floor."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 716,
+    "japanese": "",
+    "english": "Cowering before a rushing horde / of monsters... I looked / pathetic, and comical!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 717,
+    "japanese": "",
+    "english": "My arm has gone embarrassingly / dull, I fear."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 718,
+    "japanese": "",
+    "english": "Belgrano said it with a / cheerful, wry smile."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 720,
+    "japanese": "",
+    "english": "I was raised on battlefields. / This labyrinth's bristling / air oddly puts me at ease."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 721,
+    "japanese": "",
+    "english": "Swinging a sword suits me far / better than scowling on a / seat back at the castle."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 722,
+    "japanese": "",
+    "english": "Come to think of it, I still / never plan for the morrow. / That much hasn't changed."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 723,
+    "japanese": "",
+    "english": "In the war twenty years back, I / gathered orphans like myself / and ran a band of rogues."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 724,
+    "japanese": "",
+    "english": "We robbed gold and goods from / wicked men and played at / being justice itself."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 725,
+    "japanese": "",
+    "english": "Had I never met His Majesty, / I'd have been killed and / buried somewhere long ago."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 726,
+    "japanese": "",
+    "english": "He often told me: Belgrano, even / in doing good, be as cunning / as the devil."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 727,
+    "japanese": "",
+    "english": "But with casualties mounting / like this, I cannot idly wait / for the right moment."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 728,
+    "japanese": "",
+    "english": "Even if it goes against the / code of the Knights."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 729,
+    "japanese": "",
+    "english": "Around Belgrano there was no / sign of the Knights who / should have escorted him."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 730,
+    "japanese": "",
+    "english": "Sensing the question on / everyone's face, Belgrano / went on."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 731,
+    "japanese": "",
+    "english": "I stand here now not as captain / of the Knights, but purely / as one man."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 732,
+    "japanese": "",
+    "english": "His Majesty decreed the Knights / must wait until adventurers / reach the eighth level."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 733,
+    "japanese": "",
+    "english": "I know not his reason. Knowing / him, there is some deep / design behind it, but..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 734,
+    "japanese": "",
+    "english": "I grew tired of waiting. So / here I am, ahead of everyone, / in the labyrinth."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 735,
+    "japanese": "",
+    "english": "If someone must do it, then let / it be me who breaks through / to the eighth level."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 736,
+    "japanese": "",
+    "english": "And if I fail, the loss is one / reckless fool. Nothing the / realm cannot bear."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 740,
+    "japanese": "",
+    "english": "Opening the door, you found a / sour-faced woman inside, / counting her gold."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 743,
+    "japanese": "",
+    "english": "Honestly, were prices really / this cheap in the old days?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 744,
+    "japanese": "",
+    "english": "Where I come from, this kind of / coin wouldn't even cover / a bar tab."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 745,
+    "japanese": "",
+    "english": "The woman heaved another deep / sigh and changed the subject."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 746,
+    "japanese": "",
+    "english": "Ah, enough of this gloomy talk! / The name's Vago. Lady Vago / of the Flames."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 747,
+    "japanese": "",
+    "english": "You came here 'cause you want / the Identification Bracelet, / am I right?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 751,
+    "japanese": "",
+    "english": "Well, for reasons of my own, I / won't be moving from here / for a while."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 752,
+    "japanese": "",
+    "english": "Come again if you want it. I've / got a favor to ask of / adventurers myself."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 753,
+    "japanese": "",
+    "english": "Oh, you're back. Decided you / want the Identification / Bracelet after all?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 755,
+    "japanese": "",
+    "english": "What? Then what in blazes did / you come back here for?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 756,
+    "japanese": "",
+    "english": "I told you: no bracelet, no / business. There's nothing / else for you here."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 758,
+    "japanese": "",
+    "english": "I've got things of my own / to do. I'm busy!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 759,
+    "japanese": "",
+    "english": "Oh, you're back. Well? Ready to / hear my request now, / are you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 761,
+    "japanese": "",
+    "english": "A big pillar had fallen in front / of that door, but I blew it / away with my Megadeath."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 762,
+    "japanese": "",
+    "english": "When you find him, tell him to / come straight here. He / knows the place."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 763,
+    "japanese": "",
+    "english": "Oh, right. The pig's name is / Casta. Do remember it, / will you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 764,
+    "japanese": "",
+    "english": "What? Then what in blazes did / you come back here for?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 765,
+    "japanese": "",
+    "english": "If you won't hear my request, / there's nothing for you / here at all."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 767,
+    "japanese": "",
+    "english": "I've got things of my own / to do. I'm busy!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 768,
+    "japanese": "",
+    "english": "Opening the door, you found a / sour-faced woman inside, / counting her gold."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 771,
+    "japanese": "",
+    "english": "Honestly, are prices really / this cheap in the old days?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 772,
+    "japanese": "",
+    "english": "Where I come from, this kind of / coin wouldn't even cover / a bar tab."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 773,
+    "japanese": "",
+    "english": "The woman heaved another deep / sigh and changed the subject."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 774,
+    "japanese": "",
+    "english": "Ah, enough of this gloomy talk! / The name's Vago. Lady Vago / of the Flames."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 775,
+    "japanese": "",
+    "english": "You're here because you read my / note on the tavern's message / board, I take it?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 776,
+    "japanese": "",
+    "english": "Which means you've come to / hear my request, yes?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 780,
+    "japanese": "",
+    "english": "Well, for reasons of my own, I / won't be moving from here / for a while."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 781,
+    "japanese": "",
+    "english": "Come back when you feel like it. / I've even got a reward / ready, so do hear me out."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 782,
+    "japanese": "",
+    "english": "Well, well! So there ARE still / like-minded folk about! / What a relief!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 783,
+    "japanese": "",
+    "english": "Vago held up a blood-crusted / Identification Bracelet / and gave it a shake."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 784,
+    "japanese": "",
+    "english": "The old days really are / backward through and / through, eh."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 785,
+    "japanese": "",
+    "english": "When I picked this up, the / memory of an Allied Action's / use flowed into my head."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 786,
+    "japanese": "",
+    "english": "But it's the most common Allied / Action there is. I know it / already. Useless to me."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 787,
+    "japanese": "",
+    "english": "You lot can only learn Allied / Actions this way? How sad / is that!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 788,
+    "japanese": "",
+    "english": "Where I'm from, you learn Allied / Actions at a guild, long as / you pay the fee."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 789,
+    "japanese": "",
+    "english": "Point is, this bracelet's trash / to me. Maggoty meat would / be worth more."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 790,
+    "japanese": "",
+    "english": "Want it? It's yours. But I've a / favor to ask of you too, / so hear me out."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 791,
+    "japanese": "",
+    "english": "Without waiting for your answer, / Vago launched into the / details of her request."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 792,
+    "japanese": "",
+    "english": "Truth is, my orc henchman / has gone missing."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 793,
+    "japanese": "",
+    "english": "Believe it or not, the two of / us were sent here from / the future!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 796,
+    "japanese": "",
+    "english": "Well, I don't need the likes of / you to believe me. It's the / truth all the same."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 797,
+    "japanese": "",
+    "english": "But look at this place. Killing / monsters pays peanuts, and / no grand treasure either."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 798,
+    "japanese": "",
+    "english": "I want to get home quick, / back to my own world."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 799,
+    "japanese": "",
+    "english": "So the pig and I split up to / search for a way back. And / he never came back."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 800,
+    "japanese": "",
+    "english": "He can't have wanted to settle / down HERE, so I doubt he / ran off on me."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 801,
+    "japanese": "",
+    "english": "I've been looking myself, but / I just can't find him!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 802,
+    "japanese": "",
+    "english": "But from a rusty locked room on / the fifth floor, I hear / strange crying sounds."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 803,
+    "japanese": "",
+    "english": "I can't shake the feeling it's / his voice. Trouble is, I've / got no key."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 804,
+    "japanese": "",
+    "english": "So find a key that opens that / door, and see if he's in / there, will you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 805,
+    "japanese": "",
+    "english": "I'm not like those impatient / clients at the tavern. No / deadlines from me. Please."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 807,
+    "japanese": "",
+    "english": "A big pillar had fallen in front / of that door, but I blew it / away with my Megadeath."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 808,
+    "japanese": "",
+    "english": "When you find him, tell him to / come straight here. He / knows the place."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 809,
+    "japanese": "",
+    "english": "Oh, right. The pig's name is / Casta. Do remember it, / will you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 810,
+    "japanese": "",
+    "english": "What, no confidence to handle / even this? What a pathetic / adventurer you are!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 811,
+    "japanese": "",
+    "english": "Allied Actions and adventurers / go hand in hand. And this is / your chance at one!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 812,
+    "japanese": "",
+    "english": "Well, come back when you find / your spine. I'll be here / a while yet."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 813,
+    "japanese": "",
+    "english": "Oh, you'll do it? Well, / that's a relief!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 814,
+    "japanese": "",
+    "english": "Vago flashed a shy smile, then / her face snapped stern again / as she laid out the request."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 815,
+    "japanese": "",
+    "english": "Truth is, my orc henchman / has gone missing."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 816,
+    "japanese": "",
+    "english": "Believe it or not, the two of / us were sent here from / the future!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 819,
+    "japanese": "",
+    "english": "Well, I don't need the likes of / you to believe me. It's the / truth all the same."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 820,
+    "japanese": "",
+    "english": "But look at this place. Killing / monsters pays peanuts, and / no grand treasure either."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 821,
+    "japanese": "",
+    "english": "I want to get home quick, / back to my own world."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 822,
+    "japanese": "",
+    "english": "So the pig and I split up to / search for a way back. And / he never came back."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 823,
+    "japanese": "",
+    "english": "He can't have wanted to settle / down HERE, so I doubt he / ran off on me."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 824,
+    "japanese": "",
+    "english": "I've been looking myself, but / I just can't find him!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 825,
+    "japanese": "",
+    "english": "But from a rusty locked room on / the fifth floor, I hear / strange crying sounds."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 826,
+    "japanese": "",
+    "english": "I can't shake the feeling it's / his voice. Trouble is, I've / got no key."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 827,
+    "japanese": "",
+    "english": "So find a key that opens that / door, and see if he's in / there, will you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 828,
+    "japanese": "",
+    "english": "I've got a few rewards in / store. When it's done, I'll / let you pick the one / you like."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 829,
+    "japanese": "",
+    "english": "What they are is a secret. More / fun that way, don't you / think?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 830,
+    "japanese": "",
+    "english": "I'm not like those impatient / clients at the tavern. No / deadlines from me. Please."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 832,
+    "japanese": "",
+    "english": "A big pillar had fallen in front / of that door, but I blew it / away with my Megadeath."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 833,
+    "japanese": "",
+    "english": "When you find him, tell him to / come straight here. He / knows the place."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 834,
+    "japanese": "",
+    "english": "Oh, right. The pig's name is / Casta. Do remember it, / will you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 835,
+    "japanese": "",
+    "english": "What, no confidence to handle / even this? What a pathetic / adventurer you are!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 836,
+    "japanese": "",
+    "english": "Well, come back when you find / your spine. I'll be here / a while yet."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 837,
+    "japanese": "",
+    "english": "Oh, you're back. Ready to hear / me out now, are you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 839,
+    "japanese": "",
+    "english": "What? Then what in blazes did / you come back here for?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 841,
+    "japanese": "",
+    "english": "I've got things of my own / to do. I'm busy!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 842,
+    "japanese": "",
+    "english": "Oh, you're back. Well? Ready to / hear my request now, / are you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 844,
+    "japanese": "",
+    "english": "A big pillar had fallen in front / of that door, but I blew it / away with my Megadeath."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 845,
+    "japanese": "",
+    "english": "When you find him, tell him to / come straight here. He / knows the place."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 846,
+    "japanese": "",
+    "english": "Oh, right. The pig's name is / Casta. Do remember it, / will you?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 847,
+    "japanese": "",
+    "english": "What? Then what in blazes did / you come back here for?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 848,
+    "japanese": "",
+    "english": "If you won't hear my request, / there's nothing for you / here at all."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 850,
+    "japanese": "",
+    "english": "I've got things of my own / to do. I'm busy!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 851,
+    "japanese": "",
+    "english": "Inside the room, Vago and Casta / were talking over a map / spread between them."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 852,
+    "japanese": "",
+    "english": "Ah, there you are! Casta told me / everything. Sorry for the / trouble, really!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 853,
+    "japanese": "",
+    "english": "As promised, the Identification / Bracelet is yours."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 854,
+    "japanese": "",
+    "english": "Vago slipped the bracelet off / her own arm and tossed / it over."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 855,
+    "japanese": "",
+    "english": "We're heading for the lower / levels now."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 856,
+    "japanese": "",
+    "english": "Casta says he found a spot that / might take us back to our / world, so we'll try it."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 857,
+    "japanese": "",
+    "english": "Whew, home at last, maybe. We / owe you one. Take care of / yourself down here!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 858,
+    "japanese": "",
+    "english": "Ah, there you are! Casta told me / everything. Sorry for the / trouble, really!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 859,
+    "japanese": "",
+    "english": "As promised, pick whichever / reward you like. Well, / which will it be?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 862,
+    "japanese": "",
+    "english": "We're heading for the lower / levels now."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 863,
+    "japanese": "",
+    "english": "Casta says he found a spot that / might take us back to our / world, so we'll try it."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 864,
+    "japanese": "",
+    "english": "Whew, home at last, maybe. We / owe you one. Take care of / yourself down here!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 866,
+    "japanese": "",
+    "english": "Vago and Casta shouldered their / luggage and left the room."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 868,
+    "japanese": "",
+    "english": "Got the Blessed Chainmail!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 870,
+    "japanese": "",
+    "english": "The Identification Bracelet from / Vago began to shine."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 871,
+    "japanese": "",
+    "english": "The light poured someone's / memories straight into / your mind!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 873,
+    "japanese": "",
+    "english": "As ever, Vago and Casta / were in the room."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 875,
+    "japanese": "",
+    "english": "Oh, so you came! Does that mean / you'll take us to the / crystal room?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 876,
+    "japanese": "",
+    "english": "Wonderful! I knew you'd / come through!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 877,
+    "japanese": "",
+    "english": "It's on the tenth floor, that / much seems certain. You only / need lead us there."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 878,
+    "japanese": "",
+    "english": "We'll follow along behind you. / We won't get in the way!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 880,
+    "japanese": "",
+    "english": "What, you didn't come to / take our request?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 882,
+    "japanese": "",
+    "english": "If you're going to show your / face, at least come ready / to take the request!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 884,
+    "japanese": "",
+    "english": "In my mind, Aurora was a witch / who killed on sight, no / questions asked."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 885,
+    "japanese": "",
+    "english": "She must have known we're with / the strike force, yet she / did nothing. So..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 886,
+    "japanese": "",
+    "english": "are we not yet strong enough / to be worth her notice?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 888,
+    "japanese": "",
+    "english": "True, I expected some raging / berserker, so this was a / bit of a letdown,"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 889,
+    "japanese": "",
+    "english": "but Aurora struck me as one with / no interest in anything / outside her own purpose."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 891,
+    "japanese": "",
+    "english": "Konde: My my, our first meeting, / and who knew the witch would / be such a comely young / maiden!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 893,
+    "japanese": "",
+    "english": "But having met her, I find the / mystery of her draws me more / than the terror."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 894,
+    "japanese": "",
+    "english": "Not, mind you, because I / have an eye for women!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 895,
+    "japanese": "",
+    "english": "As Wesbell said, if we learn / what she desires,"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 896,
+    "japanese": "",
+    "english": "it will be our finest weapon / for breaking Aurora."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 897,
+    "japanese": "",
+    "english": "If you would win a battle, find / what the enemy wants most / of all."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 900,
+    "japanese": "",
+    "english": "I don't know why. It's been / there ever since I first / saw Aurora!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 901,
+    "japanese": "",
+    "english": "Is it that icy bearing of hers / that makes me feel so?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 902,
+    "japanese": "",
+    "english": "She lives on and on, spurning / every salvation God offers..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 903,
+    "japanese": "",
+    "english": "But her face, when told there / was nothing she could / not have..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 904,
+    "japanese": "",
+    "english": "it looked for all the world like / she was begging for God's / help!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 905,
+    "japanese": "",
+    "english": "Iris: A witch indeed, and a / mysterious one at that."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 906,
+    "japanese": "",
+    "english": "A rabid dog that bares its fangs / at everything is far easier / to handle."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 907,
+    "japanese": "",
+    "english": "As Wesbell asked: what / does she desire?"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 908,
+    "japanese": "",
+    "english": "Magic, gold, eternal youth... / she has all of it."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 909,
+    "japanese": "",
+    "english": "If she wished, she could take / not just Venoa but the whole / world in her hands."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 910,
+    "japanese": "",
+    "english": "Struck by some thought, Iris / fell silent a moment, / pondering."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 912,
+    "japanese": "",
+    "english": "The resurrection of the dead... / a beloved someone lost long / ago, or a beloved child..."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 913,
+    "japanese": "",
+    "english": "Well, that is all I can think / of, if it were me."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 25,
+    "japanese": "",
+    "english": "Stepping onto the fifth floor, / you saw a band of alchemists, / and Webster at their center."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 26,
+    "japanese": "",
+    "english": "The Royal Knights are to be / dealt with on sight!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 27,
+    "japanese": "",
+    "english": "Let no one near who would / hinder my work. Understood?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 28,
+    "japanese": "",
+    "english": "Webster was briskly issuing / orders to the alchemists."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 29,
+    "japanese": "",
+    "english": "Webster noticed you / and came over."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 30,
+    "japanese": "",
+    "english": "Webster: Welcome to Dialant, / the city of legend."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 31,
+    "japanese": "",
+    "english": "We stand upon the elven city of / old, which met its end seven / thousand years ago."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 32,
+    "japanese": "",
+    "english": "How long I have waited for this / day, ever since word of / ancient Dialant reached me!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 33,
+    "japanese": "",
+    "english": "And standing here at last... it / stirs the heart, does / it not?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 34,
+    "japanese": "",
+    "english": "Until now, only a handful ever / reached this floor."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 35,
+    "japanese": "",
+    "english": "But thanks to your strike force / securing the route down,"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 36,
+    "japanese": "",
+    "english": "even I could make the descent. / You have my gratitude."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 37,
+    "japanese": "",
+    "english": "Now I go to wake the / sleeping giant god."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 38,
+    "japanese": "",
+    "english": "The god who, they say, destroyed / this ancient city in a / single night."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 39,
+    "japanese": "",
+    "english": "Webster's gaze turned distant, / as if fixed on something / far away."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 40,
+    "japanese": "",
+    "english": "I have longed for it! Ortrud, / who pacified Venoa and leads / the peerless Knights called / the Holy Kings,"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 41,
+    "japanese": "",
+    "english": "and the Black Knight, King of / San-Goth, who leads the / dread Dracul Knights!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 43,
+    "japanese": "",
+    "english": "But at long last, the means to / raise a sword of my own is / within my grasp."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 45,
+    "japanese": "",
+    "english": "O Duhan, land of the dead! This / dirge shall see you to / heaven, or to hell!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 46,
+    "japanese": "",
+    "english": "Unable to contain his / excitement, Webster strode / briskly away."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 47,
+    "japanese": "",
+    "english": "A sickening stench of blood. / Corpses of adventurers and / monster flesh lay everywhere."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 48,
+    "japanese": "",
+    "english": "This was the site of a fierce / battle, fought only / moments ago."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 49,
+    "japanese": "",
+    "english": "Cardinal Langobalt, feel like / talking yet, do we?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 50,
+    "japanese": "",
+    "english": "A group of men stood ringed / around the wounded Cardinal."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 52,
+    "japanese": "",
+    "english": "You do realize what it is / you are doing, knave?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 53,
+    "japanese": "",
+    "english": "To raise your hand against me / is to defy the Papacy / itself,"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 54,
+    "japanese": "",
+    "english": "and to slay one of God's own / angels will surely bring / down His wrath...!!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 55,
+    "japanese": "",
+    "english": "The hooded man drove his knife / into the Cardinal's thigh."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 56,
+    "japanese": "",
+    "english": "Tut tut. One must not speak / the name of God in vain."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 57,
+    "japanese": "",
+    "english": "Is that not written in / the holy scripture?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 58,
+    "japanese": "",
+    "english": "Ah yes, and the scripture / also says this:"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 59,
+    "japanese": "",
+    "english": "Blessed are the righteous, for / they shall never perish, but / have life everlasting."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 60,
+    "japanese": "",
+    "english": "Is that not a / wonderful gospel?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 61,
+    "japanese": "",
+    "english": "Do you mean to keep that / eternal life all to / yourself, Cardinal?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 62,
+    "japanese": "",
+    "english": "I should so love a share of / that blessing myself."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 64,
+    "japanese": "",
+    "english": "Clutching his wounds, the / Cardinal edged backward, / away from them."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 69,
+    "japanese": "",
+    "english": "Perhaps the works of our / merciful Lord will grant / you a miracle."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 71,
+    "japanese": "",
+    "english": "The Cardinal broke into a / staggering, drowning run."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 73,
+    "japanese": "",
+    "english": "The knife flew from the hooded / man's hand and sank deep / into the Cardinal's back."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 75,
+    "japanese": "",
+    "english": "It seems God's grace / did not reach you."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 76,
+    "japanese": "",
+    "english": "The hooded man spotted you and / broke into a broad smile."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 78,
+    "japanese": "",
+    "english": "To meet so often in this vast / labyrinth... one senses the / hand of fate, no?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 79,
+    "japanese": "",
+    "english": "Then you simply must witness the / moment I lay hold of / eternal life."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 80,
+    "japanese": "",
+    "english": "I shall have a seat prepared / for you. Do come quickly, / won't you?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 81,
+    "japanese": "",
+    "english": "With a shrill laugh, the hooded / man departed with his men."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 83,
+    "japanese": "",
+    "english": "We have the lord's permission / too. I fear I must refuse / you entry."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 84,
+    "japanese": "",
+    "english": "Entering the room, you were met / by a bizarre-looking monster / and an old priest."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 86,
+    "japanese": "",
+    "english": "None who do not conform to / God's will may set foot / here. Not a single one."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 88,
+    "japanese": "",
+    "english": "We owe them for investigating / the matter of Her Highness."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 89,
+    "japanese": "",
+    "english": "Webster: Truly, the discovery / of the century!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 90,
+    "japanese": "",
+    "english": "That is the dread War God the / ancient elves called Og."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 91,
+    "japanese": "",
+    "english": "It is said he razed the great / city of the elven folk in / a single night."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 93,
+    "japanese": "",
+    "english": "You gazed from up close at the / thing they called a War God."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 94,
+    "japanese": "",
+    "english": "It was a fearsome sight."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 95,
+    "japanese": "",
+    "english": "A colossal thing in the shape / of a human torso, hanging / in the empty air."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 96,
+    "japanese": "",
+    "english": "Huge beyond compare. Any monster / would seem a trifle beside / this War God."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 98,
+    "japanese": "",
+    "english": "The golden-scaled, undying demon / god of the ancient elven / scriptures."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 99,
+    "japanese": "",
+    "english": "Unleashed, its power crushes the / hosts of ten armies and / shakes heaven and earth."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 100,
+    "japanese": "",
+    "english": "By the look of it, it was left / here unfinished for some / reason. And yet..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 101,
+    "japanese": "",
+    "english": "should it ever awaken, the witch / would be nothing beside it."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 102,
+    "japanese": "",
+    "english": "Knowing the danger, I had it / attacked earlier, as a test."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 103,
+    "japanese": "",
+    "english": "No weapon of any kind so much as / marks it. Even magic is / simply nullified."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 104,
+    "japanese": "",
+    "english": "How it is brought to life, / I do not yet know."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 105,
+    "japanese": "",
+    "english": "But it moved once. It can surely / be made to move again."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 106,
+    "japanese": "",
+    "english": "I shall gather every scholar I / can and pour all my strength / into the War God's revival."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 107,
+    "japanese": "",
+    "english": "With it, Duhan will hold / everlasting peace in / its hands."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 108,
+    "japanese": "",
+    "english": "His speech done, Webster turned / and signaled the old priest."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 109,
+    "japanese": "",
+    "english": "The priest stepped near and / urged you to leave."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 111,
+    "japanese": "",
+    "english": "This place is now a holy / administrative zone of / the Papacy."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 113,
+    "japanese": "",
+    "english": "We have His Majesty's leave, / of course, in proper form."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 114,
+    "japanese": "",
+    "english": "If my hunch is right, this / 'sacred zone' is a joke in / the worst of taste."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 116,
+    "japanese": "",
+    "english": "Uuri: The root of every tragedy / lay in ancient Dialant, / seven thousand years ago."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 117,
+    "japanese": "",
+    "english": "Dialant's fall is where the / tragedy begins. That is the / conclusion I've reached."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 118,
+    "japanese": "",
+    "english": "He spoke calmly, but Uuri's / voice could not hide its / excitement."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 119,
+    "japanese": "",
+    "english": "I've been here turning my / reasoning over from / every angle."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 120,
+    "japanese": "",
+    "english": "If Aurora is truly undying, / then what exactly is she?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 121,
+    "japanese": "",
+    "english": "Living for millennia tells us / she's no life form like us."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 122,
+    "japanese": "",
+    "english": "The likes of us could never / endure the soul's decay / that time brings."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 123,
+    "japanese": "",
+    "english": "She has clear intellect and / purpose. Simple undead like / zombies are ruled out."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 124,
+    "japanese": "",
+    "english": "An undead king, then, like a / vampire lord? I could rule / that out as well."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 125,
+    "japanese": "",
+    "english": "Unlike zombies those keep mind / and feeling, but they can't / even exist in the normal / world."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 126,
+    "japanese": "",
+    "english": "An undead king takes form only / where darkness runs strong, / like this labyrinth."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 129,
+    "japanese": "",
+    "english": "Uuri pointed to the Automata / standing in rows along the / chamber wall."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 130,
+    "japanese": "",
+    "english": "Is she not an Automata, a / soulless automaton born of / Dialant's ancient arts?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 132,
+    "japanese": "",
+    "english": "Her mind unrotted by eternal / time, her fixation on the / Writhing Evil. It all fits."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 133,
+    "japanese": "",
+    "english": "From here it's a further leap, / but I'm convinced it's / the truth."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 134,
+    "japanese": "",
+    "english": "Wasn't Aurora right there at the / moment Dialant fell to the / Writhing Evil?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 135,
+    "japanese": "",
+    "english": "An Automata, she miraculously / withstood the blast and / wandered the ruined city."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 136,
+    "japanese": "",
+    "english": "Bound to the single order her / master left her: exterminate / the Writhing Evil."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 137,
+    "japanese": "",
+    "english": "Cast out of paradise, Aurora has / lived through eternal time, / hunting the Writhing Evil."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 138,
+    "japanese": "",
+    "english": "Being an Automata, time will / never wash away her tragedy / and sorrow."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 139,
+    "japanese": "",
+    "english": "Her mind stays frozen on that / scene: Dialant's fall, / wrapped in dancing flames."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 140,
+    "japanese": "",
+    "english": "A touch fanciful, I grant. But I / don't think it's far off / the mark either."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 141,
+    "japanese": "",
+    "english": "The theory still wants proof. / But the question now is, / how do you FIGHT her?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 142,
+    "japanese": "",
+    "english": "Uuri looked up at the ceiling / and muttered with a sigh."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 143,
+    "japanese": "",
+    "english": "A high-class Automata that / mastered the highest of / magical arts..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 144,
+    "japanese": "",
+    "english": "She's like something out / of a myth."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 145,
+    "japanese": "",
+    "english": "Uuri's expression darkened."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 146,
+    "japanese": "",
+    "english": "If you're going after Aurora, / would you confirm this / theory of mine?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 147,
+    "japanese": "",
+    "english": "I'll be back in town. If you / need my help, just say / the word...!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 148,
+    "japanese": "",
+    "english": "Shameful to admit, but the / truth is, I'm scared."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 149,
+    "japanese": "",
+    "english": "After all... one must be / prepared to die."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 153,
+    "japanese": "",
+    "english": "In the dusty, dim room stood / a number of figures."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 154,
+    "japanese": "",
+    "english": "Popo, is it possible to / transport these?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 155,
+    "japanese": "",
+    "english": "Though the knight beside her / kept asking, the red-haired / woman was off in the clouds."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 158,
+    "japanese": "",
+    "english": "Knight: Ah, the strike force! / Good work, as ever."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 159,
+    "japanese": "",
+    "english": "The knight glanced at Popo / and sighed."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 160,
+    "japanese": "",
+    "english": "And I need to finish this search / and report back soon... / honestly, what a mess."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 161,
+    "japanese": "",
+    "english": "What was that!? If you must / complain, do it where I / can't hear you!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 164,
+    "japanese": "",
+    "english": "Those things lining that wall / are, every last one of / them, Automata."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 165,
+    "japanese": "",
+    "english": "Faithful friends and undying / warriors, born of ancient / Dialant's wondrous arts."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 166,
+    "japanese": "",
+    "english": "Anyone who could stand unmoved / before such ancient wisdom / must be out of their mind!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 167,
+    "japanese": "",
+    "english": "Come, come! You must have a / closer look too!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 169,
+    "japanese": "",
+    "english": "The Automata rose from the / walls like so many exquisite / sculptures."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 171,
+    "japanese": "",
+    "english": "A golden temple-city, glittering / far across the gulf / of time!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 172,
+    "japanese": "",
+    "english": "Decked all year in lovely trees / and flowers, where hunger and / want were no more!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 173,
+    "japanese": "",
+    "english": "Its people at peace. Beasts / never struck them, and even / death could not claim them."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 174,
+    "japanese": "",
+    "english": "In short, a perfect paradise."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 175,
+    "japanese": "",
+    "english": "But one day, that paradise / suddenly vanished."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 177,
+    "japanese": "",
+    "english": "Some say the guardian War God / destroyed it; some, a flash / that fell from the sky."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 178,
+    "japanese": "",
+    "english": "Like a maiden in love, Popo / gazed on the ancient city, / utterly enraptured."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 179,
+    "japanese": "",
+    "english": "Ecstasy... Est Lepere Brahe... / A woman's whisper drifted / from somewhere, like / an incantation."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 180,
+    "japanese": "",
+    "english": "The knight standing apart / collapsed, clutching / his belly!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 181,
+    "japanese": "",
+    "english": "Behind him stood two / golden figures."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 182,
+    "japanese": "",
+    "english": "Unmistakably the same as those / on the walls: Automata, / Dialant's engines of war."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 183,
+    "japanese": "",
+    "english": "From the crumbling metal of the / fallen Automata, you drew / out a chip."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 185,
+    "japanese": "",
+    "english": "Wait, wait, what on earth just / happened here!?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 186,
+    "japanese": "",
+    "english": "The Automata that attacked us / are the ones from this / wall, aren't they!?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 188,
+    "japanese": "",
+    "english": "And what we heard just now was / the ancient elven tongue, / I'm sure of it!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 189,
+    "japanese": "",
+    "english": "It said 'destroy those who come / out of the darkness,' / or so I think."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 192,
+    "japanese": "",
+    "english": "Popo tore at her hair, face / flushed red, and racked / her brains."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 194,
+    "japanese": "",
+    "english": "Wait! Maybe the old documents / back home hold a clue!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 198,
+    "japanese": "",
+    "english": "Frieder abruptly left the ranks / and wandered off, unsteady, / into the room."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 200,
+    "japanese": "",
+    "english": "I slept here, together / with my sisters!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 202,
+    "japanese": "",
+    "english": "In my soft slumber, my eyes / were fixed upon a woman."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 203,
+    "japanese": "",
+    "english": "She turned a kindly gaze upon / me, and she said:"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 205,
+    "japanese": "",
+    "english": "The whole city was swallowed in / flame, staining the sky red!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 206,
+    "japanese": "",
+    "english": "Into the flames... / the woman vanished!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 209,
+    "japanese": "",
+    "english": "I sank down, down, into a / darkness without end."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 211,
+    "japanese": "",
+    "english": "Only now did Popo seem to notice / Frieder standing there."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 213,
+    "japanese": "",
+    "english": "Are you that Automata they say / Guillaume brought back / to life!?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 214,
+    "japanese": "",
+    "english": "That odd outfit fooled me, but / that's it, isn't it! It / must be!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 216,
+    "japanese": "",
+    "english": "Frieder: Yes. Manufactured / 2050rot, unit no. io223freeda. / I am called Frieder."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 218,
+    "japanese": "",
+    "english": "And here I was sure it was one / of Guillaume's tall tales,"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 220,
+    "japanese": "",
+    "english": "Then you! Do you still hold / memories of the past, of / ancient Dialant!?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 222,
+    "japanese": "",
+    "english": "You were saying all sorts of / things just now, weren't you!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 224,
+    "japanese": "",
+    "english": "My cranial ether memory bank has / not yet fully re-engaged. I / can recall nothing further."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 225,
+    "japanese": "",
+    "english": "With a huge sigh, Popo's / shoulders slumped."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 227,
+    "japanese": "",
+    "english": "Frieder: An order making all / things targets, save Master / and the people of Dialant."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 228,
+    "japanese": "",
+    "english": "I cannot identify the voice. But / it surely came from the / labyrinth's lower depths."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 230,
+    "japanese": "",
+    "english": "From now on, any Automata fit to / wake may attack you, / following that command."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 231,
+    "japanese": "",
+    "english": "So Frieder said, toneless as / ever, and returned to / the ranks."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 233,
+    "japanese": "",
+    "english": "Eek, how scary! Let's get / through this place / double-quick!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 234,
+    "japanese": "",
+    "english": "Ohh, isn't there a shortcut to / floor three somewhere?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 238,
+    "japanese": "",
+    "english": "Melanie was the first / to notice you."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 239,
+    "japanese": "",
+    "english": "Milly and Kunnal turned to / look as well."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 240,
+    "japanese": "",
+    "english": "You again!? Don't tell me / you've been tailing us?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 241,
+    "japanese": "",
+    "english": "Keep up that sneaking and / you'll lose your life, / you know."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 242,
+    "japanese": "",
+    "english": "Or the War God will get you, the / weapon the ancient elves / built! ...Just kidding."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 243,
+    "japanese": "",
+    "english": "Kunnal shot you a leering / look and grinned."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 244,
+    "japanese": "",
+    "english": "The way this place is melted / isn't natural. Some great / force did this, no doubt."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 245,
+    "japanese": "",
+    "english": "The War God is a legend set down / in an ancient text that / Guillaume keeps."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 246,
+    "japanese": "",
+    "english": "When I saw that strange statue / in the big room back there, / I thought: could it be!?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 247,
+    "japanese": "",
+    "english": "Isn't this part of the ancient / elven city the War God / destroyed?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 248,
+    "japanese": "",
+    "english": "Don't you think it all / fits the legend?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 250,
+    "japanese": "",
+    "english": "So you see the beauty of my / theory. Well, of course / you do."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 251,
+    "japanese": "",
+    "english": "Hmph, you don't get it. Fine. / Wasn't expecting much from / you anyway."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 252,
+    "japanese": "",
+    "english": "Something here must prove my / theory. I'm going to search / for it right now!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 253,
+    "japanese": "",
+    "english": "At that one remark, Milly's / eyes went wide with alarm."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 255,
+    "japanese": "",
+    "english": "No dawdling around this creepy / place! We're moving on, / and fast!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 257,
+    "japanese": "",
+    "english": "And you! Stop lending an ear to / this fool's every word. / It's a waste of time!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 258,
+    "japanese": "",
+    "english": "We're finding a shortcut and / moving on. See you!"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 259,
+    "japanese": "",
+    "english": "Milly seized Kunnal's sleeve / with both hands and hauled / him off, brooking no protest."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 261,
+    "japanese": "",
+    "english": "That is a War God: a soulless / artificial being, a secret / art of the old elf kingdom."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 264,
+    "japanese": "",
+    "english": "The arts to wake it, and to / control it, should be long / since lost."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 265,
+    "japanese": "",
+    "english": "So what are they using / as their basis?"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 266,
+    "japanese": "",
+    "english": "True, if the Papacy is moving, / odds are they've found some / kind of answer..."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 269,
+    "japanese": "",
+    "english": "Uuri's expression changed."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 270,
+    "japanese": "",
+    "english": "He said nothing of it, but / memories of a dark past were / crossing his mind."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 271,
+    "japanese": "",
+    "english": "No... surely not. It's just / that something's been / nagging at me."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 272,
+    "japanese": "",
+    "english": "Forget it. It's not a / pleasant story."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 274,
+    "japanese": "",
+    "english": "I once built a thing / using corpses."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 276,
+    "japanese": "",
+    "english": "But it wouldn't move. The flame / of life can't be kindled / that way."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 278,
+    "japanese": "",
+    "english": "To move an artificial being, you / need the soul of one with / strong will and lust for / life."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 279,
+    "japanese": "",
+    "english": "That's what got me expelled from / the Papacy and thrown into / this labyrinth."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 280,
+    "japanese": "",
+    "english": "If they're using the research / they supposedly burned, the / War God could truly wake."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 282,
+    "japanese": "",
+    "english": "Waking a War God would take / souls by the hundreds."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 284,
+    "japanese": "",
+    "english": "Impossible, unless you built / some giant altar of / sacrifice."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 285,
+    "japanese": "",
+    "english": "An artificial being needs souls / to run. Souls that are the / very flame of life."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 286,
+    "japanese": "",
+    "english": "And a thing as vast as a War / God would need hundreds / of them."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 288,
+    "japanese": "",
+    "english": "Well, if the War God does wake, / even Aurora won't be / laughing."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 289,
+    "japanese": "",
+    "english": "Let's sit back and watch / what they do next."
+  },
+  {
+    "resource": 1207,
+    "msg_index": 290,
+    "japanese": "",
+    "english": "Oh, right. That monster / trailing Langobalt around,"
+  },
+  {
+    "resource": 1207,
+    "msg_index": 291,
+    "japanese": "",
+    "english": "that's a holy beast. It has the / power of a demon god, so / don't go provoking it."
+  }
+]

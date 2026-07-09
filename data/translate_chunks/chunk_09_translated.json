@@ -414,48 +414,6 @@
   "english": "A beautiful altar / stands here. / "
  },
  {
-  "resource": 1053,
-  "message": 0,
-  "japanese": "ブベ     ",
-  "english": "DATA_LABEL_A     "
- },
- {
-  "resource": 1053,
-  "message": 1,
-  "japanese": "別ベ     ",
-  "english": "DATA_LABEL_B     "
- },
- {
-  "resource": 1053,
-  "message": 2,
-  "japanese": "容ベ     ",
-  "english": "DATA_LABEL_C     "
- },
- {
-  "resource": 1053,
-  "message": 4,
-  "japanese": "ブベ     ",
-  "english": "DATA_LABEL_A     "
- },
- {
-  "resource": 1908,
-  "message": 0,
-  "japanese": "ブベ     ",
-  "english": "DATA_LABEL_A     "
- },
- {
-  "resource": 1908,
-  "message": 1,
-  "japanese": "別ベ     ",
-  "english": "DATA_LABEL_B     "
- },
- {
-  "resource": 1908,
-  "message": 2,
-  "japanese": "容ベ     ",
-  "english": "DATA_LABEL_C     "
- },
- {
   "resource": 2654,
   "message": 3,
   "japanese": "前衛２鉄が理１鎧にタイミングを騎わ / せ同持に攻手し、大きなダメージを与 / えるaa。 / ",

@@ -182,6 +182,16 @@ def _build_v9_pair_set(name):
 # (r_id, mi) in DIALOGUE_FORCE`).  This gate must treat them as DIALOGUE, not
 # NARRATION, or it false-fails on the correct 480px wrap.
 DIALOGUE_FORCE = _build_v9_pair_set("DIALOGUE_FORCE")
+# data/dialogue_wrap_force.json (2026-07-09 promoter): island-verified boxed-dialogue
+# groups the build routes into the DIALOGUE px wrap via DIALOGUE_WRAP_FORCE. Same
+# treatment as DIALOGUE_FORCE -- they legitimately exceed the char-20 ceiling.
+import json as _json
+try:
+    _dwf = _json.load(open(os.path.join(ROOT, "data", "dialogue_wrap_force.json"),
+                           encoding="utf-8"))
+    DIALOGUE_FORCE |= {tuple(p) for p in _dwf.get("force_dialogue_wrap", [])}
+except FileNotFoundError:
+    pass
 # DIALOGUE_WRAP_EXCLUDE: groups the build ships with authored ' / ' breaks intact
 # (bypasses BOTH px-wrap paths).  Their authored lines are not px-wrapped, so the
 # px ceilings do not apply -- gate them by the char-20 structural ceiling only.

@@ -243,7 +243,7 @@
     "resource": 38,
     "message": 58,
     "japanese": "収集家 / ",
-    "english": "Collector / "
+    "english": "Packrat / "
   },
   {
     "resource": 38,
@@ -267,19 +267,19 @@
     "resource": 38,
     "message": 62,
     "japanese": "好戦的 / ",
-    "english": "Belligerent / "
+    "english": "Warlike / "
   },
   {
     "resource": 38,
     "message": 63,
     "japanese": "冒険家 / ",
-    "english": "Adventurous / "
+    "english": "Explorer / "
   },
   {
     "resource": 38,
     "message": 64,
     "japanese": "迷信家 / ",
-    "english": "Superstitious / "
+    "english": "Fatalist / "
   },
   {
     "resource": 38,
@@ -297,7 +297,7 @@
     "resource": 38,
     "message": 67,
     "japanese": "エコロジスト / ",
-    "english": "Ecologist / "
+    "english": "Recycler / "
   },
   {
     "resource": 38,
@@ -309,7 +309,7 @@
     "resource": 38,
     "message": 69,
     "japanese": "重腕漢 / ",
-    "english": "Hot-Blooded / "
+    "english": "Macho / "
   },
   {
     "resource": 38,
@@ -327,13 +327,13 @@
     "resource": 38,
     "message": 72,
     "japanese": "協力的 / ",
-    "english": "Cooperative / "
+    "english": "Teamwork / "
   },
   {
     "resource": 38,
     "message": 73,
     "japanese": "友愛 / ",
-    "english": "Fraternal / "
+    "english": "Caring / "
   },
   {
     "resource": 38,
@@ -345,7 +345,7 @@
     "resource": 38,
     "message": 75,
     "japanese": "エコノミスト / ",
-    "english": "Economist / "
+    "english": "Merchant / "
   },
   {
     "resource": 38,
@@ -357,7 +357,7 @@
     "resource": 38,
     "message": 77,
     "japanese": "ナルシスト / ",
-    "english": "Narcissist / "
+    "english": "Vain / "
   },
   {
     "resource": 38,
@@ -368,8 +368,8 @@
   {
     "resource": 38,
     "message": 79,
-    "japanese": "自己的 / ",
-    "english": "Selfish / "
+    "japanese": "自虐的 / ",
+    "english": "Martyr / "
   },
   {
     "resource": 38,
@@ -380,8 +380,8 @@
   {
     "resource": 38,
     "message": 81,
-    "japanese": "大胆 / ",
-    "english": "Bold / "
+    "japanese": "愚鈍 / ",
+    "english": "Stupid / "
   },
   {
     "resource": 38,

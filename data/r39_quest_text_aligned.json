@@ -17,11 +17,11 @@
   },
   "352": {
     "japanese": "オレっチとジャンケン勤勉で５連勤すれば\nいいものをやろう だが勉ければ�リープ \n追加雲は１回につき打れた祠１個 \n�に自信のあるヤツは迷宮b２、ろうやが\nたくさんある階にある小部屋に集編",
-    "english": "Win 5 straight Janken rounds for a prize; lose and you pay. Meet in the small room on B2F (jail floor)."
+    "english": "Win 5 straight Janken rounds for a prize. Fee: 1 broken sword a round. Meet in the small room on B2F (jail floor)."
   },
   "353": {
     "japanese": "このたびドゥーハン器では、冒険者挨助\n書を増立いたしました。\n絶場に仲間を５人連れてきていただいた\n人全員に、特別冒険者手間てとして\n５００gを交階いたします。",
-    "english": "Duhan Castle's Adventurer Assistance Program: bring 5 companions and each gets a 500G stipend."
+    "english": "The city of Duhan's Adventurer's Grant: bring 5 companions to the tavern and receive a 500G award."
   },
   "354": {
     "japanese": "大頼な、カワイイ、口しい\nピッピちゃんを連れて、\n地下８階まで行ってきてくれ",
@@ -57,7 +57,7 @@
   },
   "362": {
     "japanese": "オレさまがちょちょいと造ってやったカギ、\nほしがるヤツが出てくるのはわかってたぜ \nだがタダでやるワケねえだろう \nほしけりゃオレさまの依頼道闘である\n小人の座のスペアを１恩持ってこい",
-    "english": "Knew someone would want the key I made! Not free, though. Bring me a spare Gnome's Ring as payment."
+    "english": "Knew someone would want the key I made! Not free, though. Bring me a spare Leprechaun mask as payment."
   },
   "363": {
     "japanese": "クンナルっていう腕色の悪い冒書事持が\nいるんだけど、そいつがどっか行っちゃって\nこまってるの \n悪いけど探して、見かけたらとっとと\n帰ってこいって言ってくれないかな～？",
@@ -77,7 +77,7 @@
   },
   "367": {
     "japanese": "一人前の騎事持になるために、日手避行を\nしているエルフの女の子メラーニエと\nそのマネージャーのミリィです \nたくさん騎法を覚えたいので、冒書事持の\nいるパーティにいれてください",
-    "english": "I'm Melanie, an elf mage-in-training, with manager Miri. Let us join a party so I can learn spells."
+    "english": "I'm Melanie, an elf mage-in-training, with manager Milly. Let us join a party with an alchemist to learn spells."
   },
   "368": {
     "japanese": "わたしの体をさがしてください。\nわたしはずっとむかし、ひとりで\nあやしいきょうかいにしのびこんだとき\nこわいかおのしきょうさまに\nころされてしまいました。",
@@ -85,7 +85,7 @@
   },
   "369": {
     "japanese": "アタシの大頼な大頼な宝士を、地下１階の\nおっかない部屋に落っことしてきて\nしまったんだわさ \nちょっとここには書けないけど、いいもの\nあげるから、おねがい、ひろってきて",
-    "english": "I dropped my precious treasure chest in the scary room on B1F. I'll reward you well; please fetch it!"
+    "english": "I dropped my precious treasure in the scary room on B1F. I'll reward you well; please fetch it!"
   },
   "370": {
     "japanese": "ドゥーハン商人ギルドで�看していた\nカルマン探索ツアーのガイドが一名\n経に冒員となり、古わりのガイドさんを\n探しています \n迷宮探索に自信のある方、待ってます",
@@ -93,15 +93,15 @@
   },
   "371": {
     "japanese": "侍道を差め、新たなる光を見出すため\nには一進の職人によってつくられた鎧が\n必要であると感じた。\nどなたか手に入れてもらえないだろうか？",
-    "english": "To master the samurai way, I need armor forged by a master artisan. Could someone obtain one for me?"
+    "english": "To master the samurai way, I need a sword forged by a master artisan. Could someone obtain one for me?"
   },
   "372": {
     "japanese": "やっとの思いで手に入れた一進の鎧。\nだが新たなる光を見出すにはまだ\nまだ何かが足りぬようだ。\nそこでこの鎧を迷宮の欠岩できた\nえてきてはもらえぬだろうか？",
-    "english": "I won the masterwork armor, yet something's missing. Please temper it in the labyrinth's lava rocks."
+    "english": "At last I have the masterwork sword, yet something's missing. Please temper it in the lava of B4F."
   },
   "373": {
     "japanese": "一進の鎧に迷宮の騎力をそそぎこみ、\n早解にきたえぬいた鎧で日手戦い向いて\nきたがまだ何かが足りない。そこで異人\nの戦いというものをじっくり見士したい。\n一進の武士からのもうし出を待つ",
-    "english": "Even magic-tempered, the armor lacks something. I'd study foreign combat. I await a master warrior."
+    "english": "Even magic-tempered, the sword lacks something. I'd study foreign combat. I await a first-class samurai."
   },
   "374": {
     "japanese": "ワシの造った秘穏を地下１階の\nわき水に休ぜてきてくれんかの？",
@@ -117,7 +117,7 @@
   },
   "377": {
     "japanese": "ボクは、開神にとり撃かれた人を\n見たことがないので、あってみたいです。\n迷宮で開神に撃かれた柱態で、\n絶場まで帰ってきてくれればいいです。\nよろしくおねがいします。",
-    "english": "I long to see someone possessed by a death spirit. Please return to the Castle while possessed by one."
+    "english": "I long to see someone possessed by a death spirit. Please return to the tavern while possessed by one."
   },
   "378": {
     "japanese": "子分がどこかへいっちまったんだよ。\nオークのキャスタっていうんだけど\n探してきておくれよ。\n地下５階のさびたカギのかかった部屋に\nかくれていそうなんだけど！。",
@@ -129,7 +129,7 @@
   },
   "380": {
     "japanese": "地下１０階のどこかに、部屋の力ん中に\n大きな水瓶が飾られている部屋があるはず\nなんだけど、場所がわからないんだよ。\nあそこへ行けば、元の受古に帰れると\n思うから、連れてっておくれよ。",
-    "english": "A room on B10F holds a great water vase. Reaching it sends me back to my own time. Please take me there."
+    "english": "A room on B10F holds a great crystal. Reaching it sends me back to my own time. Please take me there."
   },
   "383": {
     "japanese": "フーケ",
@@ -145,7 +145,7 @@
   },
   "386": {
     "japanese": "ミリィ",
-    "english": "Miri"
+    "english": "Milly"
   },
   "387": {
     "japanese": "ジャンケンマン",
@@ -153,7 +153,7 @@
   },
   "388": {
     "japanese": "ドゥーハン器長",
-    "english": "Duhan"
+    "english": "Mayor"
   },
   "389": {
     "japanese": "アンガス",
@@ -181,7 +181,7 @@
   },
   "395": {
     "japanese": "ローミ",
-    "english": "Lomi"
+    "english": "Romi"
   },
   "396": {
     "japanese": "ポポー",
@@ -197,7 +197,7 @@
   },
   "399": {
     "japanese": "ラング",
-    "english": "Rang"
+    "english": "Lang"
   },
   "400": {
     "japanese": "？？？がいずみに向かいはじめた",
@@ -205,7 +205,7 @@
   },
   "401": {
     "japanese": "絶場",
-    "english": "Castle"
+    "english": "Tavern"
   },
   "402": {
     "japanese": "スコーン",

@@ -39,7 +39,7 @@
     "resource": 1199,
     "msg_index": 12,
     "japanese": "もし彼神が、アレイドを力度して戦う[0495][0597]の戦帰を力に入れなければ、",
-    "english": "If the gods cannot / obtain warriors made / by uniting Allayed,"
+    "english": "If the gods cannot / obtain warriors made / by uniting Allied Actions,"
   },
   {
     "resource": 1199,
@@ -57,7 +57,7 @@
     "resource": 1199,
     "msg_index": 15,
     "japanese": "なぜならアレイドは、汝もすでにわかっていると思うが、",
-    "english": "For Allayed, as you / must already know,"
+    "english": "For Allied Actions, as you / must already know,"
   },
   {
     "resource": 1199,
@@ -117,7 +117,7 @@
     "resource": 1199,
     "msg_index": 25,
     "japanese": "すなわち、[055A]辺き戦帰達を以り出し、アレイドの者験をできないかと。",
-    "english": "That is, craft the / immortal warriors / to wield Allayed."
+    "english": "That is, craft the / immortal warriors / to wield Allied Actions."
   },
   {
     "resource": 1199,
@@ -495,7 +495,7 @@
     "resource": 1199,
     "msg_index": 88,
     "japanese": "彼はかつて魔法[04DA][033F]ユグルタの[01BE][01A8][0426][04D6]であり、あらゆる魔運解の野[04AC]でもあった者だ。",
-    "english": "He was once the / right hand of the / Archmage Yugurta."
+    "english": "He was once the / right hand of the / Archmage Jugurtha."
   },
   {
     "resource": 1199,
@@ -735,7 +735,7 @@
     "resource": 1199,
     "msg_index": 129,
     "japanese": "メラーニエミリィクンナル優臆美ギルドに入ると、メラーニエとミリィが板れていた。",
-    "english": "Melanie, Milly, / Kunnar: At the / Alchemist Guild."
+    "english": "Melanie, Milly, / Kunnal: At the / Alchemist Guild."
   },
   {
     "resource": 1199,
@@ -1101,25 +1101,25 @@
     "resource": 1199,
     "msg_index": 192,
     "japanese": "ではまず、振[04C1]をお[036A]いします。優臆美ギルド[04BF]了[02BF]１美７[04BA][04C0]、クンナル[001D]アルトハイムさん ",
-    "english": "First, introductions! / Alchemist Guild / Member #17, Kunnar!"
+    "english": "First, introductions! / Alchemist Guild / Member #17, Kunnal!"
   },
   {
     "resource": 1199,
     "msg_index": 193,
     "japanese": "クンナルというのは、ギルドの[0412]買社である跡美のことらしい。",
-    "english": "Kunnar was the elf / clerk working at / the guild."
+    "english": "Kunnal was the elf / clerk working at / the guild."
   },
   {
     "resource": 1199,
     "msg_index": 194,
     "japanese": "ミリィはクンナルに家帯新の騎物を渡し、それを獲み外げるよう気悔した。",
-    "english": "Milly handed Kunnar / a scroll and told / her to read it."
+    "english": "Milly handed Kunnal / a scroll and told / her to read it."
   },
   {
     "resource": 1199,
     "msg_index": 195,
     "japanese": "クンナルはうろたえながら騎物を[01E8]げ、それを獲み外げた。",
-    "english": "Kunnar nervously / took the scroll / and began to read."
+    "english": "Kunnal nervously / took the scroll / and began to read."
   },
   {
     "resource": 1199,
@@ -1335,7 +1335,7 @@
     "resource": 1199,
     "msg_index": 235,
     "japanese": "装に退されたクンナルが兜きな声で[03D1]り言をつぶやく！。",
-    "english": "Kunnar, left behind, / muttered under / her breath."
+    "english": "Kunnal, left behind, / muttered under / her breath."
   },
   {
     "resource": 1199,
@@ -1395,7 +1395,7 @@
     "resource": 1199,
     "msg_index": 245,
     "japanese": "クンナルはぶつぶつ言いながら名成を外っていった。",
-    "english": "Kunnar went down / the stairs, still / muttering."
+    "english": "Kunnal went down / the stairs, still / muttering."
   },
   {
     "resource": 1199,
@@ -1425,7 +1425,7 @@
     "resource": 1199,
     "msg_index": 250,
     "japanese": "ラゴスのキューブがチップ生封[04F0][0175]に[01D0]信した。",
-    "english": "Lagos's Cube added / to the chip lab."
+    "english": "Ragos Cube added / to the chip lab."
   },
   {
     "resource": 1199,
@@ -1827,7 +1827,7 @@
     "resource": 1200,
     "msg_index": 64,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Investigate. / Curiosity? / Topics 1-10 / Shadow Check / Lab anger / God's grace? / Cursed Allayed 1-8 / Request completed."
+    "english": "Investigate. / Curiosity? / Topics 1-10 / Shadow Check / Lab anger / God's grace? / Allied Info 1-8 / Request completed."
   },
   {
     "resource": 1200,
@@ -2925,7 +2925,7 @@
     "resource": 1201,
     "msg_index": 1,
     "japanese": "店社の女放コンデいらっしゃいませ、お落[01BC]  ",
-    "english": "Waitress: Welcome, / dear guest."
+    "english": "Welcome, / dear guest."
   },
   {
     "resource": 1201,
@@ -3939,7 +3939,7 @@
     "resource": 1202,
     "msg_index": 1,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Investigate. Curiosity? Topics 1-10 Shadow Check Lab anger God's grace? // Cursed Allayed 1-8 Request completed."
+    "english": "Investigate. Curiosity? Topics 1-10 Shadow Check Lab anger God's grace? // Allied Info 1-8 Request completed."
   },
   {
     "resource": 1202,
@@ -3975,157 +3975,157 @@
     "resource": 1202,
     "msg_index": 7,
     "japanese": "いらっしゃいだよ～ヴィガーしょうてんへ、よぐきだ ",
-    "english": "The orc chattered / excitedly, then / noticed the Entry / Sheet sticking out."
+    "english": "Welcome, welcome / to the Vigger / Shop~! Glad ya / came!"
   },
   {
     "resource": 1202,
     "msg_index": 8,
     "japanese": "！あ～、でも、あれだど！なんか、かいにきたならばざんねんなのだ！。",
-    "english": "An orc who had / been tending the / shop, upon seeing / the Entry Sheet, / rushed over."
+    "english": "Ah~ but, but! If / ya came to buy / somethin', that's / too bad!"
   },
   {
     "resource": 1202,
     "msg_index": 9,
     "japanese": "いまちょうど、ひろばでバザーやってるのだよ！。だから、ここにはなにもないべだ！。",
-    "english": "Whaddya got there? / Lemme see..."
+    "english": "There's a bazaar / goin' on in the / plaza right now! / So there's // nothin' here!"
   },
   {
     "resource": 1202,
     "msg_index": 10,
     "japanese": "かいものしたかったら、ひろばへぜひともいってくで ",
-    "english": "The orc snatched / the Entry Sheet / from you and / examined it closely."
+    "english": "If ya wanna shop, / ya gotta head to / the plaza!"
   },
   {
     "resource": 1202,
     "msg_index": 11,
     "japanese": "ひろば、わかるだろ？しちょーさんがいるでっけ～たてもんのまえだ ",
-    "english": "Hmm hmm! This is / the Entry Sheet / from the tavern!"
+    "english": "Ya know the / plaza? In front / of the biiig / building where // the mayor is!"
   },
   {
     "resource": 1202,
     "msg_index": 12,
     "japanese": "あっ、けどな、けどな かいとりとかそういうのわやってるからあんしんしろ ",
-    "english": "It still smells / like the potpourri / Hannah put on it!"
+    "english": "Oh, but, but! We / still do buyin' / and all that, so / no worries!"
   },
   {
     "resource": 1202,
     "msg_index": 13,
     "japanese": "さあ、ゆっくりしてってくで ",
-    "english": "Hannah can sniff / out anything!"
+    "english": "So take yer / time, then!"
   },
   {
     "resource": 1202,
     "msg_index": 14,
     "japanese": "オークはそれだけ言うと、喚に[0175]いた[0457]物を持ち外げてこちらに[04F3]客を向けながら以買を[0150]開した。",
-    "english": "The orc pressed / the Entry Sheet / against her nose / and sniffed deeply."
+    "english": "With that, the / orc hoisted her / load again and / went back to // work, still / glancing your / way."
   },
   {
     "resource": 1202,
     "msg_index": 15,
     "japanese": "オークしんにゅうしゃいんか～？ ",
-    "english": "Yep yep! / Definitely smells / like it!"
+    "english": "Orc: A new / employee~?!"
   },
   {
     "resource": 1202,
     "msg_index": 16,
     "japanese": "中に入ったと同時に、[0417][0418][0141]町のオークが休ってきた。",
-    "english": "To make sure, / Hannah searched / around you."
+    "english": "The moment you / stepped inside, / the shopkeeper / orc came // hustling over."
   },
   {
     "resource": 1202,
     "msg_index": 17,
     "japanese": "ほれっ、ほれっ エントリーシートはないだか？もってるなら、みせろだよ ",
-    "english": "She quickly found / where the sheet / had been hidden / and took it back."
+    "english": "C'mon, c'mon! / Got an Entry / Sheet? If ya got / one, show me!"
   },
   {
     "resource": 1202,
     "msg_index": 18,
     "japanese": "そういってオークはカウンター奥の壁にかかった[0268]をめくり、その向こうに紹されていた[0269]を開けて力考きした。",
-    "english": "Smells of the / potpourri are / all over you too!"
+    "english": "The orc flipped / back a cloth on / the wall behind / the counter, // opened the door / hidden there, / and beckoned."
   },
   {
     "resource": 1202,
     "msg_index": 19,
     "japanese": "依頼を受けたことを[0197]げ、骨場で渡されたエントリーシートを渡した。",
-    "english": "I bet you had it / hidden somewhere, / didn't ya!"
+    "english": "You said you'd / taken the request / and handed over / the Entry Sheet // from the tavern."
   },
   {
     "resource": 1202,
     "msg_index": 20,
     "japanese": "！ん？お！おおおっ、やっぱしか オメェ、ウチではたらきたいか ",
-    "english": "A faint smile / appeared on the / orc's face."
+    "english": "Hm? Oh! Ohhhh, I / knew it! Ya wanna / work here!"
   },
   {
     "resource": 1202,
     "msg_index": 21,
     "japanese": "いやあ～～～[0267]それならそうとはよ、いってくでよう[0271]",
-    "english": "Hehehe, you can't / fool old Hannah!"
+    "english": "Well say so / sooner then, ya / shoulda~!"
   },
   {
     "resource": 1202,
     "msg_index": 22,
     "japanese": "そでぢゃあ、そでぢゃあいそいでメンセツするだよ ",
-    "english": "But don't worry, / I won't tell / anyone."
+    "english": "Then, then, we / gotta do yer / interview, quick!"
   },
   {
     "resource": 1202,
     "msg_index": 23,
     "japanese": "なーに  しんぱいしなくてもオメエならうかるだよ。オダは、そんなきがする ",
-    "english": "That sheet was / supposed to be / for the interview."
+    "english": "Don't worry, / you'll be fine! / I have a feeling / about you!"
   },
   {
     "resource": 1202,
     "msg_index": 24,
     "japanese": "さ、さささ こっちくるだよ オダについてこい ",
-    "english": "But you already / passed my test / just by bringing / it here!"
+    "english": "Come, come, come! / Follow me!"
   },
   {
     "resource": 1202,
     "msg_index": 25,
     "japanese": "エントリーシートは持っているが、オークには見せなかった。",
-    "english": "Hannah tapped / your shoulder."
+    "english": "You had the Entry / Sheet, but did / not show it to / the orc."
   },
   {
     "resource": 1202,
     "msg_index": 26,
     "japanese": "！オメェ、もってないだか？ ほんとにか？ ほんとに、もってないだかっ？ ",
-    "english": "You're honest / enough. I like / that about ya."
+    "english": "Ya don't have / one?! Really?! Ya / REALLY don't have / one?!"
   },
   {
     "resource": 1202,
     "msg_index": 27,
     "japanese": "オークは影内ショックを受けたようだった。",
-    "english": "But Hannah / noticed the sheet / had never been / filled in at all."
+    "english": "The orc looked / deeply shocked."
   },
   {
     "resource": 1202,
     "msg_index": 28,
     "japanese": "だが義恵においをかぎ専め、何かのにおいを感じとったのか話に全るい声で悪ぎ出した。",
-    "english": "Hey, you didn't / even write your / name on this!"
+    "english": "But then her nose / caught a whiff of / something, and / she suddenly // perked right up."
   },
   {
     "resource": 1202,
     "msg_index": 29,
     "japanese": "オメェ、そんなこといっぢゃっで、じつわもってるだろ～ エ ン ト リ ～ シ ～ ト ",
-    "english": "Well, no matter. / I already know / everything I need / to know about ya."
+    "english": "Ya say that, but / ya really do / have one, / dontcha~! An // E-n-t-r-y / S-h-e-e-t!"
   },
   {
     "resource": 1202,
     "msg_index": 30,
     "japanese": "オダのハナはごまかせねえど～[0267]オメェのまわりから、シートにつけたポプリのにおいがするべ ",
-    "english": "Hannah folded the / sheet neatly and / tucked it away."
+    "english": "Can't fool this / nose o' mine~! / I smell the / sheet's potpourri // all over ya!"
   },
   {
     "resource": 1202,
     "msg_index": 31,
     "japanese": "そういって[02A1]やら[0457]物やらを仰力に素りはじめた。",
-    "english": "Alright then, / time for the / real interview!"
+    "english": "With that, she / started rummaging / through your / things without // so much as a / by-your-leave."
   },
   {
     "resource": 1202,
     "msg_index": 32,
     "japanese": "それから嫌もなく、シートの器り[0413]をつきとめ、[0523]い取った。",
-    "english": "Soon after, she / tracked down / the sheet and / took it back."
+    "english": "Soon enough she / sniffed out the / sheet's hiding / spot and // snatched it back."
   },
   {
     "resource": 1202,
@@ -5607,7 +5607,7 @@
     "resource": 1202,
     "msg_index": 298,
     "japanese": "ブレスレットに込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "From the memories / in the bracelet, / you obtained the / battle art 'Allayed'."
+    "english": "From the memories / in the bracelet, / you obtained the / battle art 'Allied Action'."
   },
   {
     "resource": 1202,

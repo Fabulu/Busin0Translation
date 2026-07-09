@@ -94,3 +94,5 @@ data/guide_full_text.txt
 _purge_list_tmp.txt
 build/_base_fixA.elf
 *.elf
+
+data/guide_text/

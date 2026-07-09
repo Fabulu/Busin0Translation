@@ -15,7 +15,7 @@ the label.  This is a NEW horizontal collision in the Client row, distinct from 
 THE ROUND-2 FIX (W1-REQ)
 ------------------------
   * data/r39_quest_text_aligned.json: the 8 over-budget client-name groups are
-    capped to <=8 glyph cells (G387 Janken Man->Janken, G388 Mayor of Duhan->Duhan,
+    capped to <=8 glyph cells (G387 Janken Man->Janken, G388 Mayor of Duhan->Mayor,
     G390 Guillaume->Guillem, G392 Pitiful Imp->Imp, G394 Contest Over->Contest,
     G397 Merchant Guild->Guild, G403 Survey Deadline->Survey, G405 Knight Order->
     Knights), so a short value can no longer walk left under the "Client" label.
@@ -26,13 +26,13 @@ THE ROUND-2 FIX (W1-REQ)
     ASSERT that FAILS THE BUILD if any G383-G410 non-event client name exceeds 8
     cells, so a future over-long name is caught before it can collide live.
 
-WHAT THIS GATE ASSERTS (data + source level; G388 'Duhan' also checked in built R39)
+WHAT THIS GATE ASSERTS (data + source level; G388 'Mayor' also checked in built R39)
 -----------------------------------------------------------------------------------
   CAP-DATA      every G383-G410 NON-EVENT client name in
                 data/r39_quest_text_aligned.json encodes to <= 8 glyph cells
                 (the count budget that clears the "Client" label) -- using the EXACT
                 inject_r39_quest cell rule (each char incl. space = 1 cell).
-  CAP-DUHAN     G388 is 'Duhan' (the v132 collision client), <= 8 cells, matching the
+  CAP-DUHAN     G388 is 'Mayor' (the v132 collision client; 'Mayor' alone read as the city — guide p127: client is the Mayor), <= 8 cells, matching the
                 castle name used in the title/desc.
   EVENT-UNTOUCHED  the 4 event sentences G400/G404/G406/G410 are still full
                 sentences ending in '.'/'!' and are NOT shortened to <=8 cells (they
@@ -41,7 +41,7 @@ WHAT THIS GATE ASSERTS (data + source level; G388 'Duhan' also checked in built 
                 CELL-CAP ASSERT with the <=8 cap and the event '.'/'!' exemption, so
                 the build itself rejects a future over-long name.
   BUILT-DUHAN   (TIER-2, SKIP if no built R39) the built
-                build/packdata_resources/0039_type15.raw decodes G388 to 'Duhan'
+                build/packdata_resources/0039_type15.raw decodes G388 to 'Mayor'
                 and that decoded value is <= 8 cells.
 """
 
@@ -68,7 +68,7 @@ CLIENT_NAME_CELL_CAP = 8               # mirror inject_r39_quest CLIENT_NAME_CEL
 EVENT_GROUPS = (400, 404, 406, 410)    # notification-bar sentences (exempt)
 # The 8 groups round-2 capped, with their expected shortened values.
 CAPPED = {
-    387: "Janken", 388: "Duhan", 390: "Guillem", 392: "Imp",
+    387: "Janken", 388: "Mayor", 390: "Guillem", 392: "Imp",
     394: "Contest", 397: "Guild", 403: "Survey", 405: "Knights",
 }
 
@@ -133,7 +133,7 @@ def test_all_client_names_within_cell_budget():
 
 def test_capped_groups_have_expected_short_values():
     """CAP-DUHAN (+ the 8 capped groups): each round-2-capped group holds its
-    expected shortened value (G388='Duhan' is the v132 collision client) and each is
+    expected shortened value (G388='Mayor' is the v132 collision client) and each is
     <= 8 cells.  Pins the specific edits so a regression that restores 'Mayor of
     Duhan' (12 cells) trips here."""
     d = _aligned()
@@ -213,7 +213,7 @@ def test_inject_has_client_cell_cap_assert():
 
 
 # ---------------------------------------------------------------------------
-# BUILT-DUHAN (TIER-2): the built R39 decodes G388 to 'Duhan'
+# BUILT-DUHAN (TIER-2): the built R39 decodes G388 to 'Mayor'
 # ---------------------------------------------------------------------------
 import struct  # noqa: E402
 
@@ -236,7 +236,7 @@ def _scan_groups(data):
 
 
 def test_built_g388_is_duhan():
-    """BUILT-DUHAN (TIER-2): the built R39 decodes G388 to 'Duhan' (the v132 collision
+    """BUILT-DUHAN (TIER-2): the built R39 decodes G388 to 'Mayor' (the v132 collision
     client), and that value is <= 8 cells.  SKIP when no built R39 is present (the
     data/source gates above already cover the autonomous path)."""
     p = os.path.join(PACKDATA_RES_DIR, "0039_type15.raw")
@@ -246,13 +246,13 @@ def test_built_g388_is_duhan():
     groups = _scan_groups(data)
     assert len(groups) > 388, "only %d groups in built R39" % len(groups)
     text = decode_glyphs(groups[388], linebreak=" ").strip()
-    assert text == "Duhan", (
-        "built R39 G388 client decodes to %r, expected 'Duhan' -- the round-2 cap that "
+    assert text == "Mayor", (
+        "built R39 G388 client decodes to %r, expected 'Mayor' -- the round-2 cap that "
         "fixes the 'Ma[Client] Duhan' collision did not ship" % text
     )
     cells = len([g for g in groups[388] if g not in (0xFFFE, 0xFFFF)])
     assert cells <= CLIENT_NAME_CELL_CAP, (
-        "built G388 'Duhan' is %d cells (> %d) -- it could still collide with the "
+        "built G388 'Mayor' is %d cells (> %d) -- it could still collide with the "
         "'Client' label" % (cells, CLIENT_NAME_CELL_CAP)
     )
 

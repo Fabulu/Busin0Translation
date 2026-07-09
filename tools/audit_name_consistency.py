@@ -51,7 +51,7 @@ CANON = {
     "Roomi": "Romi",
     "Layman": "Raiman",
     "Beltan": "Bertin",
-    "Kunnal": "Kunnar",
+    "Kunnar": "Kunnal",  # canon flipped 2026-07-09: guide uses Kunnal 54:1
     "Melarnie": "Melanie",
     "Merani": "Melanie",
     "Melaanie": "Melanie",

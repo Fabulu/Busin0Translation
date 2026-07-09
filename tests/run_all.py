@@ -66,6 +66,7 @@ MODULES = [
     "test_pill_widen",
     "test_banner_widget_pristine",
     "test_optione_arena",
+    "test_dialogue_wrap_force",
     "test_regress_harness",
 ]
 

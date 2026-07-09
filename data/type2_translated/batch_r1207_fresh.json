@@ -1214,7 +1214,7 @@
   "resource": 1207,
   "msg_index": 516,
   "japanese": "ブレスレットに込められた思大から^ / 新しい戦美(アレイド)を / 力に入れた_",
-  "english": "From the memories / in the bracelet, / learned a new / Alaid!"
+  "english": "From the memories / in the bracelet, / learned a new / Allied Action!"
  },
  {
   "resource": 1207,
@@ -1498,7 +1498,7 @@
   "resource": 1207,
   "msg_index": 567,
   "japanese": "門い宝剣に込められた思大から^ / 新しい戦美(アレイド)を / 力に入れた_",
-  "english": "From the memories / in the gem sword, / learned a new / Alaid!"
+  "english": "From the memories / in the gem sword, / learned a new / Allied Action!"
  },
  {
   "resource": 1207,
@@ -1570,7 +1570,7 @@
   "resource": 1207,
   "msg_index": 583,
   "japanese": "ブレスレットに込められた思大から^ / は / 新しい戦美(アレイド)を / 力に入れた_",
-  "english": "From the memories / in the bracelet, / learned a new / Alaid!"
+  "english": "From the memories / in the bracelet, / learned a new / Allied Action!"
  },
  {
   "resource": 1207,
@@ -1582,13 +1582,13 @@
   "resource": 1207,
   "msg_index": 585,
   "japanese": "ライマンジル住損の街所に帰た_",
-  "english": "Laiman & Jill: You / arrived at the place / of the Seal."
+  "english": "Raiman & Jill: You / arrived at the place / of the Seal."
  },
  {
   "resource": 1207,
   "msg_index": 586,
   "japanese": "ライマン達は^その抜者町の / ない険光に[0x0447]用に目を / [0x0523]われ[0x0668]入っている_",
-  "english": "Laiman and the others / stood utterly / spellbound by the / unreal sight before / them."
+  "english": "Raiman and the others / stood utterly / spellbound by the / unreal sight before / them."
  },
  {
   "resource": 1207,
@@ -1649,7 +1649,7 @@
   "resource": 1207,
   "msg_index": 601,
   "japanese": "ライマン達は短く一礼をし^ / 二者ほぼ同時に[0x01AB]還の秘を / 飲んで良を消した_",
-  "english": "Laiman and Jill gave / a short bow, drank / their potions almost / in unison, and / vanished."
+  "english": "Raiman and Jill gave / a short bow, drank / their potions almost / in unison, and / vanished."
  },
  {
   "resource": 1207,
@@ -2336,7 +2336,7 @@
   "resource": 1207,
   "msg_index": 729,
   "japanese": "どうだね? / 汝の値功者勲が今どれぐらいの / 封長過幸にあるか道べてやろうか?",
-  "english": "Well then - shall I / examine how far / your Automaton has / progressed?"
+  "english": "Well then - shall I / examine how far / your Automata has / progressed?"
  },
  {
   "resource": 1207,
@@ -2348,7 +2348,7 @@
   "resource": 1207,
   "msg_index": 732,
   "japanese": "汝は見たところ^値功者勲を支れては / いないようだな|_",
-  "english": "Hm. By the look of / it, you travel with / no Automaton..."
+  "english": "Hm. By the look of / it, you travel with / no Automata..."
  },
  {
   "resource": 1207,
@@ -2384,7 +2384,7 @@
   "resource": 1207,
   "msg_index": 738,
   "japanese": "優臆美解は場[0x047B]なを処を度い / 入大にオ}トマタ}を道べた_",
-  "english": "The alchemist / examined the / Automaton carefully / with peculiar / instruments."
+  "english": "The alchemist / examined the / Automata carefully / with peculiar / instruments."
  },
  {
   "resource": 1207,
@@ -2403,7 +2403,7 @@
   "resource": 1207,
   "msg_index": 741,
   "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
-  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+  "english": "Go to the Alchemy / Guild and let / Guillaume see it."
  },
  {
   "resource": 1207,
@@ -2434,7 +2434,7 @@
   "resource": 1207,
   "msg_index": 746,
   "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
-  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+  "english": "Go to the Alchemy / Guild and let / Guillaume see it."
  },
  {
   "resource": 1207,
@@ -2465,7 +2465,7 @@
   "resource": 1207,
   "msg_index": 751,
   "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
-  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+  "english": "Go to the Alchemy / Guild and let / Guillaume see it."
  },
  {
   "resource": 1207,
@@ -2496,7 +2496,7 @@
   "resource": 1207,
   "msg_index": 756,
   "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
-  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+  "english": "Go to the Alchemy / Guild and let / Guillaume see it."
  },
  {
   "resource": 1207,
@@ -2527,7 +2527,7 @@
   "resource": 1207,
   "msg_index": 761,
   "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
-  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+  "english": "Go to the Alchemy / Guild and let / Guillaume see it."
  },
  {
   "resource": 1207,
@@ -2558,7 +2558,7 @@
   "resource": 1207,
   "msg_index": 766,
   "japanese": "優臆美ギルドへ行き^ / ギヨ}ムにあわせてやればいい_",
-  "english": "Go to the Alchemy / Guild and let / Giyoumu see it."
+  "english": "Go to the Alchemy / Guild and let / Guillaume see it."
  },
  {
   "resource": 1207,
@@ -3225,7 +3225,7 @@
   "resource": 1207,
   "msg_index": 886,
   "japanese": "しかしそれにしても^ / オルトル}ドは^街忍が何を[0x05AA]んで / いるのか知らぬとは^情けない質だな_",
-  "english": "Still - for Ortlud / not to know what / his own vassal / schemes... a sorry / state of affairs."
+  "english": "Still - for Ortrud / not to know what / his own vassal / schemes... a sorry / state of affairs."
  },
  {
   "resource": 1207,
@@ -3279,7 +3279,7 @@
   "resource": 1207,
   "msg_index": 895,
   "japanese": "ランゴバルト[0x06C3]習[0x06C4]と言えば^ / ハリスでも彼両を知らない者がいない / ほどの挨今です_",
-  "english": "Archbishop Langobalt / is a man whose name / everyone in Harris / knows."
+  "english": "Archbishop Langobalt / is a man whose name / everyone in Haris / knows."
  },
  {
   "resource": 1207,

@@ -207,7 +207,7 @@
     "resource": 39,
     "msg_index": 447,
     "japanese": "クレタの騎法団長方[FFFE]",
-    "english": "Kreta Book"
+    "english": "Kreta Stone"
   },
   {
     "resource": 39,
@@ -255,7 +255,7 @@
     "resource": 39,
     "msg_index": 455,
     "japanese": "[0387]地をおゆずりします[FFFE]",
-    "english": "Land 4 Sale"
+    "english": "Free Land!"
   },
   {
     "resource": 39,
@@ -279,7 +279,7 @@
     "resource": 39,
     "msg_index": 459,
     "japanese": "クンナルを探してほしい[FFFE]",
-    "english": "Find Kunnar"
+    "english": "Find Kunnal"
   },
   {
     "resource": 39,
@@ -327,13 +327,13 @@
     "resource": 39,
     "msg_index": 467,
     "japanese": "一進の鎧、求む[FFFE]",
-    "english": "Fine Armor"
+    "english": "Fine Sword"
   },
   {
     "resource": 39,
     "msg_index": 468,
     "japanese": "鎧をきたえてほしい[FFFE]",
-    "english": "Temper Armor"
+    "english": "Temper Sword"
   },
   {
     "resource": 39,
@@ -381,7 +381,7 @@
     "resource": 39,
     "msg_index": 476,
     "japanese": "水瓶の壁へ連れてっておくれ[FFFE]",
-    "english": "Water Jar Rm"
+    "english": "Crystal Room"
   },
   {
     "resource": 39,
@@ -483,7 +483,7 @@
     "resource": 39,
     "msg_index": 494,
     "japanese": "アレイドの[03FA]練度が上[03E1]する[FFFE]spが発動した [FFFE]",
-    "english": "Allied action proficiency\nincreased.\nSP activated."
+    "english": "Allied Action proficiency\nincreased.\nSP activated."
   },
   {
     "resource": 39,
@@ -663,7 +663,7 @@
     "resource": 39,
     "msg_index": 526,
     "japanese": "ミリィ[FFFE]",
-    "english": "Miri"
+    "english": "Milly"
   },
   {
     "resource": 39,
@@ -681,7 +681,7 @@
     "resource": 39,
     "msg_index": 529,
     "japanese": "クンナル[FFFE]",
-    "english": "Kunnar"
+    "english": "Kunnal"
   },
   {
     "resource": 39,
@@ -837,19 +837,19 @@
     "resource": 39,
     "msg_index": 556,
     "japanese": "騎法団[FFFE]",
-    "english": "Spell Book"
+    "english": "Magic Stone"
   },
   {
     "resource": 39,
     "msg_index": 557,
     "japanese": "騎事持騎法騎法団[FFFE]",
-    "english": "Arc SpellBk"
+    "english": "Arc Stone"
   },
   {
     "resource": 39,
     "msg_index": 558,
     "japanese": "神聖騎法騎法団[FFFE]",
-    "english": "Holy SpellBk"
+    "english": "Holy Stone"
   },
   {
     "resource": 39,
@@ -1245,43 +1245,43 @@
     "resource": 39,
     "msg_index": 624,
     "japanese": "lv１騎法団[FFFE]",
-    "english": "Lv1 SpellBk"
+    "english": "Lv1 Stone"
   },
   {
     "resource": 39,
     "msg_index": 625,
     "japanese": "lv２騎法団[FFFE]",
-    "english": "Lv2 SpellBk"
+    "english": "Lv2 Stone"
   },
   {
     "resource": 39,
     "msg_index": 626,
     "japanese": "lv３騎法団[FFFE]",
-    "english": "Lv3 SpellBk"
+    "english": "Lv3 Stone"
   },
   {
     "resource": 39,
     "msg_index": 627,
     "japanese": "lv４騎法団[FFFE]",
-    "english": "Lv4 SpellBk"
+    "english": "Lv4 Stone"
   },
   {
     "resource": 39,
     "msg_index": 628,
     "japanese": "lv５騎法団[FFFE]",
-    "english": "Lv5 SpellBk"
+    "english": "Lv5 Stone"
   },
   {
     "resource": 39,
     "msg_index": 629,
     "japanese": "lv６騎法団[FFFE]",
-    "english": "Lv6 SpellBk"
+    "english": "Lv6 Stone"
   },
   {
     "resource": 39,
     "msg_index": 630,
     "japanese": "lv７騎法団[FFFE]",
-    "english": "Lv7 SpellBk"
+    "english": "Lv7 Stone"
   },
   {
     "resource": 39,

@@ -45,7 +45,7 @@
     "resource": 36,
     "message": 7,
     "japanese": "ボギーキャット",
-    "english": "Bogey Cat"
+    "english": "Bogy Cat"
   },
   {
     "resource": 36,
@@ -93,7 +93,7 @@
     "resource": 36,
     "message": 15,
     "japanese": "ヒュージスパイダーa",
-    "english": "Huge Spider a"
+    "english": "Huge Spider A"
   },
   {
     "resource": 36,
@@ -105,7 +105,7 @@
     "resource": 36,
     "message": 17,
     "japanese": "ジャイアントスピナー",
-    "english": "Giant Spinner"
+    "english": "Giant Spider"
   },
   {
     "resource": 36,
@@ -141,7 +141,7 @@
     "resource": 36,
     "message": 23,
     "japanese": "ウィル・オ・ウィスプ",
-    "english": "Will-O-Wisp"
+    "english": "Will O' Wisp"
   },
   {
     "resource": 36,
@@ -213,7 +213,7 @@
     "resource": 36,
     "message": 35,
     "japanese": "バイドパイパー",
-    "english": "Baid Piper"
+    "english": "Pidepiper"
   },
   {
     "resource": 36,
@@ -255,13 +255,13 @@
     "resource": 36,
     "message": 42,
     "japanese": "ケルベロス",
-    "english": "Cerberus"
+    "english": "Kerberos"
   },
   {
     "resource": 36,
     "message": 43,
     "japanese": "レイバーロード",
-    "english": "Labor Lord"
+    "english": "Raver Lord"
   },
   {
     "resource": 36,
@@ -327,7 +327,7 @@
     "resource": 36,
     "message": 54,
     "japanese": "ナインテール",
-    "english": "Nine Tails"
+    "english": "Ninetail"
   },
   {
     "resource": 36,
@@ -339,19 +339,19 @@
     "resource": 36,
     "message": 56,
     "japanese": "フレッシュゴーレム",
-    "english": "Flesh Golem"
+    "english": "Fleshgolem"
   },
   {
     "resource": 36,
     "message": 57,
     "japanese": "ブシン",
-    "english": "Busin"
+    "english": "War God"
   },
   {
     "resource": 36,
     "message": 58,
     "japanese": "ブッシュワッカーa",
-    "english": "Bushwhacker a"
+    "english": "Bushwacker A"
   },
   {
     "resource": 36,
@@ -363,19 +363,19 @@
     "resource": 36,
     "message": 60,
     "japanese": "lv４シーフa",
-    "english": "Lv4 Thief a"
+    "english": "Lv4 Thief A"
   },
   {
     "resource": 36,
     "message": 61,
     "japanese": "マスターシーフa",
-    "english": "Master Thief a"
+    "english": "Master Thief A"
   },
   {
     "resource": 36,
     "message": 62,
     "japanese": "ファントムシーフa",
-    "english": "Phantom Thief a"
+    "english": "Phantom Thief A"
   },
   {
     "resource": 36,
@@ -399,7 +399,7 @@
     "resource": 36,
     "message": 66,
     "japanese": "ソードマン",
-    "english": "Swordsman"
+    "english": "Swordman"
   },
   {
     "resource": 36,
@@ -423,7 +423,7 @@
     "resource": 36,
     "message": 70,
     "japanese": "アークメイジ",
-    "english": "Archmage"
+    "english": "Arch Mage"
   },
   {
     "resource": 36,
@@ -495,7 +495,7 @@
     "resource": 36,
     "message": 82,
     "japanese": "アークビショップ",
-    "english": "Archbishop"
+    "english": "Arch Bishop"
   },
   {
     "resource": 36,
@@ -615,7 +615,7 @@
     "resource": 36,
     "message": 102,
     "japanese": "フェアリー",
-    "english": "Fairy"
+    "english": "Faerie"
   },
   {
     "resource": 36,
@@ -693,7 +693,7 @@
     "resource": 36,
     "message": 115,
     "japanese": "ブッシュワッカーb",
-    "english": "Bushwhacker B"
+    "english": "Bushwacker B"
   },
   {
     "resource": 36,
@@ -855,7 +855,7 @@
     "resource": 36,
     "message": 142,
     "japanese": "オートマター",
-    "english": "Automaton"
+    "english": "Automata"
   },
   {
     "resource": 36,
@@ -915,13 +915,13 @@
     "resource": 36,
     "message": 152,
     "japanese": "フレッシュゴーレム",
-    "english": "Flesh Golem"
+    "english": "Fleshgolem"
   },
   {
     "resource": 36,
     "message": 153,
     "japanese": "フレッシュゴーレム",
-    "english": "Flesh Golem"
+    "english": "Fleshgolem"
   },
   {
     "resource": 36,

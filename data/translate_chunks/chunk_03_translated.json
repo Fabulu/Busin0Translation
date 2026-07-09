@@ -375,7 +375,7 @@
     "resource": 39,
     "message": 11,
     "japanese": "使いで外すことができません / ",
-    "english": "Cant rmv / curse"
+    "english": "Curse locks it"
   },
   {
     "resource": 39,
@@ -459,7 +459,7 @@
     "resource": 39,
     "message": 25,
     "japanese": "装備できません / ",
-    "english": "Cant eqp"
+    "english": "No equip"
   },
   {
     "resource": 39,
@@ -489,13 +489,13 @@
     "resource": 39,
     "message": 30,
     "japanese": "このアイテムは使えません / ",
-    "english": "Cant use item"
+    "english": "Item unusable"
   },
   {
     "resource": 39,
     "message": 31,
     "japanese": "つけかえることができません / ",
-    "english": "Cant re-equip"
+    "english": "Can't re-equip"
   },
   {
     "resource": 39,
@@ -507,7 +507,7 @@
     "resource": 39,
     "message": 33,
     "japanese": "編隊しますか？ / ",
-    "english": "Form up?"
+    "english": "Synthesize?"
   },
   {
     "resource": 39,
@@ -519,7 +519,7 @@
     "resource": 39,
     "message": 40,
     "japanese": "習下不可 / ",
-    "english": "Cant"
+    "english": "Can't"
   },
   {
     "resource": 39,
@@ -603,7 +603,7 @@
     "resource": 39,
     "message": 54,
     "japanese": "騎法団の変更を行いますか？ / ",
-    "english": "Chg spell sch?"
+    "english": "Change stones?"
   },
   {
     "resource": 39,

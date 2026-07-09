@@ -1,0 +1,2746 @@
+[
+ {
+  "resource": 1198,
+  "msg_index": 20,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "The strike force / has vanished on / the labyrinth's 2F.",
+  "new": "The strike force has vanished / on the labyrinth's 2F."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 21,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "I'd send a search / party, but I lack / the manpower.",
+  "new": "I'd send a search party, / but I lack the manpower."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 22,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "If you could look / into it, that would / help greatly.",
+  "new": "If you could look into it, / that would help greatly."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 23,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Pardon me. I am / Belgrano von Buren, / Order commander.",
+  "new": "Pardon me. I am Belgrano von / Buren, Order commander."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 26,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Belgrano: Do nuns / also go to the / labyrinth nowadays?",
+  "new": "Belgrano: Do nuns also go to / the labyrinth nowadays?"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 27,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Erika: Yes, I was / hoping I could be / of some help!",
+  "new": "Erika: Yes, I was hoping I / could be of some help!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 35,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Uhm, are you also / looking for / companions?",
+  "new": "Uhm, are you also looking for / companions?"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 37,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "I've heard the Guild / is where leaders / find companions.",
+  "new": "I've heard the Guild is where / leaders find companions."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 39,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "And I don't know / anything about / fighting either...!",
+  "new": "And I don't know anything / about fighting either...!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 42,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Please, would you / lend me your / strength?",
+  "new": "Please, would you lend me your / strength?"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 44,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "I'm so glad...! / What would I do / if you refused?",
+  "new": "I'm so glad...! What would I do / if you refused?"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 48,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "But perhaps this is / one of the trials / that God gave me.",
+  "new": "But perhaps this is one of the / trials that God gave me."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 49,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "I will try to do it / by myself without / help from others.",
+  "new": "I will try to do it by myself / without help from others."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 57,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Giant Man: I've got / a question for you, / if that's okay?",
+  "new": "Giant Man: I've got a question / for you, if that's okay?"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 61,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "That bastard has me / running around in / this damn cold!",
+  "new": "That bastard has me running / around in this damn cold!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 62,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "He's really getting / on my nerves, / that bastard!!",
+  "new": "He's really getting on my / nerves, that bastard!!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 64,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Oh, yeah, there's / something I want / to ask you...!",
+  "new": "Oh, yeah, there's something I / want to ask you...!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 65,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Seen a tattooed / bastard around here? / Short, strange hat.",
+  "new": "Seen a tattooed bastard around / here? Short, strange hat."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 69,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "So that bastard / is still lurking / around here...!",
+  "new": "So that bastard is still lurking / around here...!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 70,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Thanks, that saves / me a lot of / trouble.",
+  "new": "Thanks, that saves me a lot of / trouble."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 76,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "I threw the bastard / into the labyrinth / to hunt the witch!",
+  "new": "I threw the bastard into the / labyrinth to hunt the witch!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 77,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "But he came back / looking cowardly, / ready to flee town.",
+  "new": "But he came back looking / cowardly, ready to flee town."
+ },
+ {
+  "resource": 1198,
+  "msg_index": 78,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "How dare he run off / during this damned / personnel crisis!",
+  "new": "How dare he run off during / this damned personnel crisis!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 79,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "I just yelled a bit / and he left his / resignation letter!",
+  "new": "I just yelled a bit and he left / his resignation letter!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 81,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "If I find him, / I'll gut him and / toss him in the canal!",
+  "new": "If I find him, I'll gut him and / toss him in the canal!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 84,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "If you see that / Turgot bastard, / tell him this:",
+  "new": "If you see that Turgot bastard, / tell him this:"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 85,
+  "file": "data/type2_translated/batch_r1198.json",
+  "old": "Duhan's life is at / stake! No city, no / pension! Tell him!",
+  "new": "Duhan's life is at stake! / No city, no pension! Tell him!"
+ },
+ {
+  "resource": 1206,
+  "msg_index": 737,
+  "file": "data/type2_translated/batch_md_import.json",
+  "old": "Well then, you / take care too.",
+  "new": "Well then, you take care too."
+ },
+ {
+  "resource": 1206,
+  "msg_index": 738,
+  "file": "data/type2_translated/batch_md_import.json",
+  "old": "Don't trust the / man called / MacBain. I hear / he's dangerous.",
+  "new": "Don't trust the man called / MacBain. I hear he's dangerous."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 23,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I've never met a / princess, but it just / felt like one, / you know?",
+  "new": "I've never met a princess, / but it just felt like one, / you know?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 25,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "It was just my own / idea, but I'd believed / it so long that losing / it makes me lonely...",
+  "new": "It was just my own idea, / but I'd believed it so long that / losing it makes me lonely..."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 26,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I'm starting to think / I'll never get to meet / Princess Aurora.",
+  "new": "I'm starting to think I'll never / get to meet Princess Aurora."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 32,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You're such a / softie, you know.",
+  "new": "You're such a softie, you know."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 37,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I dunno why, but / monsters never attack / me. Most people / aren't so lucky.",
+  "new": "I dunno why, but monsters / never attack me. / Most people aren't so lucky."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 40,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Guess there was no / choice... She DID do / terrible things to the / King and Princess.",
+  "new": "Guess there was no choice... / She DID do terrible things to / the King and Princess."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 44,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "The princess was all / I ever thought about. / I can't think of / anything else.",
+  "new": "The princess was all I ever / thought about. I can't think of / anything else."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 45,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You were looking for / the princess too, / weren't you? What / will you do now?",
+  "new": "You were looking for the / princess too, weren't you? / What will you do now?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 47,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "So, um... it's fine if / you say no, but... / could I maybe join / your party?",
+  "new": "So, um... it's fine if you say no, / but... could I maybe join / your party?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 49,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "With you, I bet I'd / meet tons of monsters! / No princess anymore, / but I DO love monsters.",
+  "new": "With you, I bet I'd meet tons of / monsters! No princess anymore, / but I DO love monsters."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 52,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Huh? Really?! / I'm so happy! I'll try / my best to forget / about the princess!",
+  "new": "Huh? Really?! I'm so happy! / I'll try my best to forget about / the princess!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 66,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Twenty years ago, at / Banquo, I saved Ortrud's / life. In thanks, he / has sent me... you.",
+  "new": "Twenty years ago, at Banquo, / I saved Ortrud's life. / In thanks, he has sent me... you."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 67,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You laid the risen / Writhing Ones to rest, / and now you stand / to challenge me.",
+  "new": "You laid the risen Writhing / Ones to rest, and now you stand / to challenge me."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 73,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I have waited in this / labyrinth for the great / gate of darkness / to open.",
+  "new": "I have waited in this labyrinth / for the great gate of darkness / to open."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 75,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "The queen of the / netherworld shall rise; / the dark ones return to / devour all that lives.",
+  "new": "The queen of the netherworld / shall rise; the dark ones return / to devour all that lives."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 76,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "It has been so very / long... After an / eternity, I shall see / them once again.",
+  "new": "It has been so very long... / After an eternity, / I shall see them once again."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 80,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Now, let us fight-- / to end the night / that never ends.",
+  "new": "Now, let us fight-- to end the / night that never ends."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 84,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "What a long dream it / has been... At last, / that day has come.",
+  "new": "What a long dream it has been... / At last, that day has come."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 85,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Hear me, adventurers. / Ashira, mother of the / Writhing Ones, is / returning to life.",
+  "new": "Hear me, adventurers. / Ashira, mother of the Writhing / Ones, is returning to life."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 86,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I broke the labyrinth's / seal and summoned the / Writhing Ones-- all / for that one purpose.",
+  "new": "I broke the labyrinth's seal and / summoned the Writhing Ones-- / all for that one purpose."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 87,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "No magic and no sword / can ever destroy / the Writhing Ones.",
+  "new": "No magic and no sword can ever / destroy the Writhing Ones."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 89,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You fought Skedim. / You, of all people, / should know this.",
+  "new": "You fought Skedim. You, / of all people, should know this."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 139,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Interested in / Vigger Friends!",
+  "new": "Interested in Vigger Friends!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 147,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Vigger Friends / grows the shop!",
+  "new": "Vigger Friends grows the shop!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 165,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Whaaaat?! You / don't have 5000g?! / That's rough, pal!",
+  "new": "Whaaaat?! You don't have / 5000g?! That's rough, pal!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 206,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 208,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 210,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 212,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 214,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 216,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 221,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Good you were / prepared. Forgetting / monsters makes you / the real monster.",
+  "new": "Good you were prepared. / Forgetting monsters makes you / the real monster."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 223,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Good potential! / Kinda scary!",
+  "new": "Good potential! Kinda scary!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 225,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Good potential! / Amazing body!",
+  "new": "Good potential! Amazing body!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 226,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Good potential! / Low miss rate!",
+  "new": "Good potential! Low miss rate!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 229,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Good potential! / No ghost drops!",
+  "new": "Good potential! No ghost drops!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 232,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Good potential! / Fleeing=weak!",
+  "new": "Good potential! Fleeing=weak!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 235,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Good potential! / Magic master!",
+  "new": "Good potential! Magic master!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 236,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Good potential! / Self-healer!",
+  "new": "Good potential! Self-healer!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 244,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Potential grows / via knowledge.",
+  "new": "Potential grows via knowledge."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 257,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Enemy moves / slow for you.",
+  "new": "Enemy moves slow for you."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 260,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Push further and / you could gain / incredibly strong / abilities.",
+  "new": "Push further and you could / gain incredibly strong / abilities."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 261,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Sharp vision. / Concentration / seems high too.",
+  "new": "Sharp vision. Concentration / seems high too."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 275,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Spirit is / potential too.",
+  "new": "Spirit is potential too."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 278,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Without battle / sense, even with / good gear, you / can't draw out / true power.",
+  "new": "Without battle sense, / even with good gear, / you can't draw out / true power."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 280,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Preparation is / still lacking, but / soon you can draw / out spells even / in tough fights.",
+  "new": "Preparation is still lacking, / but soon you can draw out / spells even in tough fights."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 283,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Any accessory / works for you.",
+  "new": "Any accessory works for you."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 303,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Floors 26-30: / Member Lottery!",
+  "new": "Floors 26-30: Member Lottery!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 358,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Only 1 bracelet, / so if there are / multiple winners, / prize changes to / the next item.",
+  "new": "Only 1 bracelet, so if there are / multiple winners, / prize changes to the next item."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 388,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Bought with / my earnings.",
+  "new": "Bought with my earnings."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 404,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "Equipping via / monster trade.",
+  "new": "Equipping via monster trade."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 443,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "I deal in fine / art. I make my / living viewing / sealed portraits.",
+  "new": "I deal in fine art. / I make my living viewing / sealed portraits."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 444,
+  "file": "data/type2_translated/batch_08.json",
+  "old": "You don't seem to / have any medals / of achievement.",
+  "new": "You don't seem to have any / medals of achievement."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 521,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "and when I scrambled / after it, I slipped-- / and, well, you saw!",
+  "new": "and when I scrambled after it, / I slipped-- and, well, you saw!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 522,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "My arms were going numb / and my head was swimming. / I really thought I / was done for.",
+  "new": "My arms were going numb and / my head was swimming. / I really thought I was done for."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 535,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You just get a kick / outta pushing me / around, don't you?!",
+  "new": "You just get a kick outta / pushing me around, don't you?!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 540,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If I could still fight, / I'd have done it long / ago-- and never asked / the likes of you.",
+  "new": "If I could still fight, / I'd have done it long ago-- and / never asked the likes of you."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 553,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "That power of yours-- / just once in your short / life, how about using / it for our ma?",
+  "new": "That power of yours-- just / once in your short life, / how about using it for our ma?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 558,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Me? I'd rather die / holding a big dream / than live on already / dead inside.",
+  "new": "Me? I'd rather die holding a big / dream than live on already / dead inside."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 559,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "And protecting this / town and her people-- / ain't that dream / big enough?",
+  "new": "And protecting this town and / her people-- ain't that dream / big enough?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 560,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "...Fine, I get it. But / if I die, you'd better / pay up proper funeral / money, hear me?",
+  "new": "...Fine, I get it. But if I die, / you'd better pay up proper / funeral money, hear me?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 561,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "There's no one to / collect it, so spend it / feeding my dog / something tasty.",
+  "new": "There's no one to collect it, / so spend it feeding my dog / something tasty."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 564,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Deal, deal! You're a / soft-hearted bastard / after all. I'll keep / that promise, swear it.",
+  "new": "Deal, deal! You're a / soft-hearted bastard after all. / I'll keep that promise, swear it."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 574,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "What is it that / separates the living / from the dead?",
+  "new": "What is it that separates the / living from the dead?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 575,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I once broke the taboo / of creating life to / challenge that great / mystery-- and failed.",
+  "new": "I once broke the taboo of / creating life to challenge that / great mystery-- and failed."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 577,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If immortality truly / exists, and Aurora / truly possesses it,",
+  "new": "If immortality truly exists, / and Aurora truly possesses it,"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 581,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "But they are merely / dead flesh, decaying / and reforming over / and over.",
+  "new": "But they are merely dead flesh, / decaying and reforming over / and over."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 584,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Because life cannot / withstand the corrosion / that time brings.",
+  "new": "Because life cannot withstand / the corrosion that time brings."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 588,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "When she appeared in / the land of Narkia six / hundred years ago, / she said this:",
+  "new": "When she appeared in the land / of Narkia six hundred years / ago, she said this:"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 589,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "that she had lived a / thousand years and / watched countless / kingdoms fall.",
+  "new": "that she had lived a thousand / years and watched countless / kingdoms fall."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 592,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If anything could live / a thousand years and / stay sane... it would / have to be a god.",
+  "new": "If anything could live a / thousand years and stay sane... / it would have to be a god."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 593,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Even we elves are said / to live a thousand / years at most.",
+  "new": "Even we elves are said to live a / thousand years at most."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 594,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "With all our knowledge / and magic, we could / surely reach / further still.",
+  "new": "With all our knowledge and / magic, we could surely reach / further still."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 597,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Have you ever / considered it?",
+  "new": "Have you ever considered it?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 598,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "What would become of / you, given a thousand / years of life?",
+  "new": "What would become of you, / given a thousand years of life?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 600,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Inevitably you would / weary of living, your / feelings wearing / duller by the day.",
+  "new": "Inevitably you would weary of / living, your feelings wearing / duller by the day."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 601,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Life forever / seeks change.",
+  "new": "Life forever seeks change."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 602,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Even what stirs the / heart, even every / sense of the body-- / time corrodes them all.",
+  "new": "Even what stirs the heart, / even every sense of the body-- / time corrodes them all."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 603,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Were we granted / immortality, we could / never bear its / torments.",
+  "new": "Were we granted immortality, / we could never bear its / torments."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 607,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Eliminate the / impossible, and what / remains-- however / improbable-- is truth.",
+  "new": "Eliminate the impossible, / and what remains-- however / improbable-- is truth."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 619,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "This idiot says he was / so busy cowering on the / fifth floor, he forgot / where the crystal is!",
+  "new": "This idiot says he was so busy / cowering on the fifth floor, / he forgot where the crystal is!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 621,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Hmph! Like I'd / want to know!",
+  "new": "Hmph! Like I'd want to know!"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 623,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Say, you know your way / around here? I want to / reach the room with a / big crystal at its heart.",
+  "new": "Say, you know your way around / here? I want to reach the room / with a big crystal at its heart."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 624,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Well? Take us there / and I'll make it / worth your while.",
+  "new": "Well? Take us there and I'll / make it worth your while."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 630,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "No use, then. We'll go / back to the fourth floor / and start over.",
+  "new": "No use, then. We'll go back to / the fourth floor and start over."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 631,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "So if you ever feel / like taking the job, / come see us down on / the fourth floor.",
+  "new": "So if you ever feel like taking / the job, come see us down on / the fourth floor."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 638,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I'm grateful for / everything you've / done for us. Truly.",
+  "new": "I'm grateful for everything / you've done for us. Truly."
+ },
+ {
+  "resource": 1212,
+  "msg_index": 643,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "We won't ever meet / again, this time for / real-- so look at this / ring now and then, // and remember us, okay?",
+  "new": "We won't ever meet again, / this time for real-- so look at / this ring now and then, // and remember us, okay?"
+ },
+ {
+  "resource": 1212,
+  "msg_index": 644,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Now, Casta! I'll scrape / the crystal like when / we came here-- you / stay close by me!",
+  "new": "Now, Casta! I'll scrape the / crystal like when we came / here-- you stay close by me!"
+ },
+ {
+  "resource": 1213,
+  "msg_index": 6,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Vera: Our mission is / almost at its end... / and its weight has / never been greater.",
+  "new": "Vera: Our mission is almost at / its end... and its weight has / never been greater."
+ },
+ {
+  "resource": 1213,
+  "msg_index": 13,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Would you let Simzon / and his comrades fight / this final battle / at our side?",
+  "new": "Would you let Simzon and his / comrades fight this final battle / at our side?"
+ },
+ {
+  "resource": 1213,
+  "msg_index": 16,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "have come to win back / freedom, peace, and / light for Duhan.",
+  "new": "have come to win back freedom, / peace, and light for Duhan."
+ },
+ {
+  "resource": 1213,
+  "msg_index": 18,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "So let us gather all / our courage and give / these monsters the / beating they deserve!",
+  "new": "So let us gather all our courage / and give these monsters the / beating they deserve!"
+ },
+ {
+  "resource": 1213,
+  "msg_index": 22,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "So even if I fall in / this battle, I can face / her again with my / head held high.",
+  "new": "So even if I fall in this battle, / I can face her again with my / head held high."
+ },
+ {
+  "resource": 1213,
+  "msg_index": 25,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If we live through / this battle,",
+  "new": "If we live through this battle,"
+ },
+ {
+  "resource": 1213,
+  "msg_index": 31,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "We stand here now as / heirs to their spirit / and their will.",
+  "new": "We stand here now as heirs to / their spirit and their will."
+ },
+ {
+  "resource": 1213,
+  "msg_index": 33,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If there is a God, / He will not / abandon us.",
+  "new": "If there is a God, He will not / abandon us."
+ },
+ {
+  "resource": 1213,
+  "msg_index": 34,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "But it is fine / even if He is not.",
+  "new": "But it is fine even if He is not."
+ },
+ {
+  "resource": 1213,
+  "msg_index": 39,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "that the moment we / first met was the / beginning of / their downfall.",
+  "new": "that the moment we first met / was the beginning of their / downfall."
+ },
+ {
+  "resource": 1213,
+  "msg_index": 42,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If there is such a / thing as a miracle, / our meeting was / surely it.",
+  "new": "If there is such a thing as a / miracle, our meeting was / surely it."
+ },
+ {
+  "resource": 1213,
+  "msg_index": 48,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "So let us go-- / for the shining dawn / of Duhan's glory!",
+  "new": "So let us go-- for the shining / dawn of Duhan's glory!"
+ },
+ {
+  "resource": 1351,
+  "msg_index": 4,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "This is a memento of / my father and mother. / They gave it to me / as a good luck charm.",
+  "new": "This is a memento of my father / and mother. They gave it to me / as a good luck charm."
+ },
+ {
+  "resource": 1351,
+  "msg_index": 13,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "Romi: Oh yes, / I must thank you!",
+  "new": "Romi: Oh yes, I must thank you!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 23,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I've never met a / princess, but it just / felt like one, / you know?",
+  "new": "I've never met a princess, / but it just felt like one, / you know?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 25,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "It was just my own / idea, but I'd believed / it so long that losing / it makes me lonely...",
+  "new": "It was just my own idea, / but I'd believed it so long that / losing it makes me lonely..."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 26,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I'm starting to think / I'll never get to meet / Princess Aurora.",
+  "new": "I'm starting to think I'll never / get to meet Princess Aurora."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 32,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You're such a / softie, you know.",
+  "new": "You're such a softie, you know."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 37,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I dunno why, but / monsters never attack / me. Most people / aren't so lucky.",
+  "new": "I dunno why, but monsters / never attack me. / Most people aren't so lucky."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 40,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Guess there was no / choice... She DID do / terrible things to the / King and Princess.",
+  "new": "Guess there was no choice... / She DID do terrible things to / the King and Princess."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 44,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "The princess was all / I ever thought about. / I can't think of / anything else.",
+  "new": "The princess was all I ever / thought about. I can't think of / anything else."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 45,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You were looking for / the princess too, / weren't you? What / will you do now?",
+  "new": "You were looking for the / princess too, weren't you? / What will you do now?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 47,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "So, um... it's fine if / you say no, but... / could I maybe join / your party?",
+  "new": "So, um... it's fine if you say no, / but... could I maybe join / your party?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 49,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "With you, I bet I'd / meet tons of monsters! / No princess anymore, / but I DO love monsters.",
+  "new": "With you, I bet I'd meet tons of / monsters! No princess anymore, / but I DO love monsters."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 52,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Huh? Really?! / I'm so happy! I'll try / my best to forget / about the princess!",
+  "new": "Huh? Really?! I'm so happy! / I'll try my best to forget about / the princess!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 66,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Twenty years ago, at / Banquo, I saved Ortrud's / life. In thanks, he / has sent me... you.",
+  "new": "Twenty years ago, at Banquo, / I saved Ortrud's life. / In thanks, he has sent me... you."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 67,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You laid the risen / Writhing Ones to rest, / and now you stand / to challenge me.",
+  "new": "You laid the risen Writhing / Ones to rest, and now you stand / to challenge me."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 73,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I have waited in this / labyrinth for the great / gate of darkness / to open.",
+  "new": "I have waited in this labyrinth / for the great gate of darkness / to open."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 75,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "The queen of the / netherworld shall rise; / the dark ones return to / devour all that lives.",
+  "new": "The queen of the netherworld / shall rise; the dark ones return / to devour all that lives."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 76,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "It has been so very / long... After an / eternity, I shall see / them once again.",
+  "new": "It has been so very long... / After an eternity, / I shall see them once again."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 80,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Now, let us fight-- / to end the night / that never ends.",
+  "new": "Now, let us fight-- to end the / night that never ends."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 84,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "What a long dream it / has been... At last, / that day has come.",
+  "new": "What a long dream it has been... / At last, that day has come."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 85,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Hear me, adventurers. / Ashira, mother of the / Writhing Ones, is / returning to life.",
+  "new": "Hear me, adventurers. / Ashira, mother of the Writhing / Ones, is returning to life."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 86,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I broke the labyrinth's / seal and summoned the / Writhing Ones-- all / for that one purpose.",
+  "new": "I broke the labyrinth's seal and / summoned the Writhing Ones-- / all for that one purpose."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 87,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "No magic and no sword / can ever destroy / the Writhing Ones.",
+  "new": "No magic and no sword can ever / destroy the Writhing Ones."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 89,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You fought Skedim. / You, of all people, / should know this.",
+  "new": "You fought Skedim. You, / of all people, should know this."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 139,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Interested in / Vigger Friends!",
+  "new": "Interested in Vigger Friends!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 147,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Vigger Friends / grows the shop!",
+  "new": "Vigger Friends grows the shop!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 165,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "What?! You don't / have 5000g?! / That's rough, bro~",
+  "new": "What?! You don't have 5000g?! / That's rough, bro~"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 190,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good for you, . / Nothing now, but / great things await!",
+  "new": "Good for you, . Nothing now, / but great things await!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 205,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 207,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 209,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 211,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 213,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 215,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "'s potential / already unlocked.",
+  "new": "'s potential already unlocked."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 220,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good you have gear. / Forgetting demons / is your thing, but / to them, you're the / real demon!",
+  "new": "Good you have gear. / Forgetting demons is your / thing, but to them, you're the / real demon!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 222,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good potential! / Kinda scary!",
+  "new": "Good potential! Kinda scary!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 224,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good potential! / Amazing body!",
+  "new": "Good potential! Amazing body!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 225,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good potential! / Low miss rate!",
+  "new": "Good potential! Low miss rate!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 228,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good potential! / No ghost drops!",
+  "new": "Good potential! No ghost drops!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 231,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good potential! / Fleeing=weak!",
+  "new": "Good potential! Fleeing=weak!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 234,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good potential! / Magic master!",
+  "new": "Good potential! Magic master!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 235,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good potential! / Self-healer!",
+  "new": "Good potential! Self-healer!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 243,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Potential grows / via knowledge.",
+  "new": "Potential grows via knowledge."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 256,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Enemy moves / slow for you.",
+  "new": "Enemy moves slow for you."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 259,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "With more training, / you could get an / incredible one.",
+  "new": "With more training, / you could get an incredible one."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 260,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Sharp observation / skills. Good at / collecting too.",
+  "new": "Sharp observation skills. / Good at collecting too."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 274,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Spirit is / potential too.",
+  "new": "Spirit is potential too."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 277,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Even with rare loot / from battle, it's / useless without / the right gear.",
+  "new": "Even with rare loot from / battle, it's useless without the / right gear."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 279,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Gear is lacking / now, but you'll / master it soon.",
+  "new": "Gear is lacking now, / but you'll master it soon."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 282,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Any accessory / works for you.",
+  "new": "Any accessory works for you."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 302,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Floors 26-30: / Member Lottery!",
+  "new": "Floors 26-30: Member Lottery!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 357,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Only 1 bracelet, / so once won, prize / changes to next!",
+  "new": "Only 1 bracelet, so once won, / prize changes to next!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 387,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Bought with / my earnings.",
+  "new": "Bought with my earnings."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 404,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Equipping via / monster trade.",
+  "new": "Equipping via monster trade."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 440,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I read beauty's / records. I earn my / living reading the / fates of the sealed.",
+  "new": "I read beauty's records. / I earn my living reading the / fates of the sealed."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 515,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "and when I scrambled / after it, I slipped-- / and, well, you saw!",
+  "new": "and when I scrambled after it, / I slipped-- and, well, you saw!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 516,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "My arms were going numb / and my head was swimming. / I really thought I / was done for.",
+  "new": "My arms were going numb and / my head was swimming. / I really thought I was done for."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 529,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "You just get a kick / outta pushing me / around, don't you?!",
+  "new": "You just get a kick outta / pushing me around, don't you?!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 534,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If I could still fight, / I'd have done it long / ago-- and never asked / the likes of you.",
+  "new": "If I could still fight, / I'd have done it long ago-- and / never asked the likes of you."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 547,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "That power of yours-- / just once in your short / life, how about using / it for our ma?",
+  "new": "That power of yours-- just / once in your short life, / how about using it for our ma?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 552,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Me? I'd rather die / holding a big dream / than live on already / dead inside.",
+  "new": "Me? I'd rather die holding a big / dream than live on already / dead inside."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 553,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "And protecting this / town and her people-- / ain't that dream / big enough?",
+  "new": "And protecting this town and / her people-- ain't that dream / big enough?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 554,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "...Fine, I get it. But / if I die, you'd better / pay up proper funeral / money, hear me?",
+  "new": "...Fine, I get it. But if I die, / you'd better pay up proper / funeral money, hear me?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 555,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "There's no one to / collect it, so spend it / feeding my dog / something tasty.",
+  "new": "There's no one to collect it, / so spend it feeding my dog / something tasty."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 558,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Deal, deal! You're a / soft-hearted bastard / after all. I'll keep / that promise, swear it.",
+  "new": "Deal, deal! You're a / soft-hearted bastard after all. / I'll keep that promise, swear it."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 568,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "What is it that / separates the living / from the dead?",
+  "new": "What is it that separates the / living from the dead?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 569,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I once broke the taboo / of creating life to / challenge that great / mystery-- and failed.",
+  "new": "I once broke the taboo of / creating life to challenge that / great mystery-- and failed."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 571,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If immortality truly / exists, and Aurora / truly possesses it,",
+  "new": "If immortality truly exists, / and Aurora truly possesses it,"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 575,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "But they are merely / dead flesh, decaying / and reforming over / and over.",
+  "new": "But they are merely dead flesh, / decaying and reforming over / and over."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 578,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Because life cannot / withstand the corrosion / that time brings.",
+  "new": "Because life cannot withstand / the corrosion that time brings."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 582,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "When she appeared in / the land of Narkia six / hundred years ago, / she said this:",
+  "new": "When she appeared in the land / of Narkia six hundred years / ago, she said this:"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 583,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "that she had lived a / thousand years and / watched countless / kingdoms fall.",
+  "new": "that she had lived a thousand / years and watched countless / kingdoms fall."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 586,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "If anything could live / a thousand years and / stay sane... it would / have to be a god.",
+  "new": "If anything could live a / thousand years and stay sane... / it would have to be a god."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 587,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Even we elves are said / to live a thousand / years at most.",
+  "new": "Even we elves are said to live a / thousand years at most."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 588,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "With all our knowledge / and magic, we could / surely reach / further still.",
+  "new": "With all our knowledge and / magic, we could surely reach / further still."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 591,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Have you ever / considered it?",
+  "new": "Have you ever considered it?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 592,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "What would become of / you, given a thousand / years of life?",
+  "new": "What would become of you, / given a thousand years of life?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 594,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Inevitably you would / weary of living, your / feelings wearing / duller by the day.",
+  "new": "Inevitably you would weary of / living, your feelings wearing / duller by the day."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 595,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Life forever / seeks change.",
+  "new": "Life forever seeks change."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 596,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Even what stirs the / heart, even every / sense of the body-- / time corrodes them all.",
+  "new": "Even what stirs the heart, / even every sense of the body-- / time corrodes them all."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 597,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Were we granted / immortality, we could / never bear its / torments.",
+  "new": "Were we granted immortality, / we could never bear its / torments."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 601,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Eliminate the / impossible, and what / remains-- however / improbable-- is truth.",
+  "new": "Eliminate the impossible, / and what remains-- however / improbable-- is truth."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 613,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "This idiot says he was / so busy cowering on the / fifth floor, he forgot / where the crystal is!",
+  "new": "This idiot says he was so busy / cowering on the fifth floor, / he forgot where the crystal is!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 615,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Hmph! Like I'd / want to know!",
+  "new": "Hmph! Like I'd want to know!"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 617,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Say, you know your way / around here? I want to / reach the room with a / big crystal at its heart.",
+  "new": "Say, you know your way around / here? I want to reach the room / with a big crystal at its heart."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 618,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Well? Take us there / and I'll make it / worth your while.",
+  "new": "Well? Take us there and I'll / make it worth your while."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 624,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "No use, then. We'll go / back to the fourth floor / and start over.",
+  "new": "No use, then. We'll go back to / the fourth floor and start over."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 625,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "So if you ever feel / like taking the job, / come see us down on / the fourth floor.",
+  "new": "So if you ever feel like taking / the job, come see us down on / the fourth floor."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 632,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "I'm grateful for / everything you've / done for us. Truly.",
+  "new": "I'm grateful for everything / you've done for us. Truly."
+ },
+ {
+  "resource": 1353,
+  "msg_index": 637,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "We won't ever meet / again, this time for / real-- so look at this / ring now and then, // and remember us, okay?",
+  "new": "We won't ever meet again, / this time for real-- so look at / this ring now and then, // and remember us, okay?"
+ },
+ {
+  "resource": 1353,
+  "msg_index": 638,
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+  "old": "Now, Casta! I'll scrape / the crystal like when / we came here-- you / stay close by me!",
+  "new": "Now, Casta! I'll scrape the / crystal like when we came / here-- you stay close by me!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 1,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Webster: Zel just / sent a report.",
+  "new": "Webster: Zel just sent a report."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 2,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "He found traces / of Her Highness. / You have my thanks.",
+  "new": "He found traces of Her / Highness. You have my thanks."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 3,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "This confirms that / Her Highness' body / is hidden in the / labyrinth.",
+  "new": "This confirms that Her / Highness' body is hidden in the / labyrinth."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 4,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I intend to send / a search party / immediately to / recover her body.",
+  "new": "I intend to send a search party / immediately to recover her / body."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 5,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "At last, Her / Highness may find / peace.",
+  "new": "At last, Her Highness may find / peace."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 6,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Now then, His / Majesty awaits. / Come this way.",
+  "new": "Now then, His Majesty awaits. / Come this way."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 14,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "What are the / guards doing?!",
+  "new": "What are the guards doing?!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 15,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "No one noticed / him getting / this far?",
+  "new": "No one noticed him getting / this far?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 20,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "The Rune Knights / of Gilten brought / 7 nations under / their rule in / just 2 years.",
+  "new": "The Rune Knights of Gilten / brought 7 nations under their / rule in / just 2 years."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 21,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "The mages of the / Illyrian dynasty / had power to / move the stars.",
+  "new": "The mages of the Illyrian / dynasty had power to move the / stars."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 22,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "But they all / perished! Yes, / that woman / destroyed them!",
+  "new": "But they all perished! Yes, / that woman destroyed them!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 23,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Those once-great / nations have left / no trace in this / world.",
+  "new": "Those once-great nations have / left no trace in this / world."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 24,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Do you know what / I speak of, / Ortrud?",
+  "new": "Do you know what I speak of, / Ortrud?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 25,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Ortrud: How would / I know what the / great mage Wesbell / ponders?",
+  "new": "Ortrud: How would I know what / the great mage Wesbell / ponders?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 27,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "But you didn't / come here for a / history lesson.",
+  "new": "But you didn't come here for a / history lesson."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 28,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "What do you wish / to tell me, great / mage Wesbell?",
+  "new": "What do you wish to tell me, / great mage Wesbell?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 29,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "What are you / hiding, Ortrud?",
+  "new": "What are you hiding, Ortrud?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 31,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Why has that / woman done / nothing for six / months?",
+  "new": "Why has that woman done / nothing for six / months?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 32,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "If she were / serious, she could / not only curse / you--",
+  "new": "If she were serious, / she could not only curse / you--"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 33,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "but destroy all / of Duhan with / ease.",
+  "new": "but destroy all of Duhan with / ease."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 34,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "You know / something. Tell me.",
+  "new": "You know something. Tell me."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 35,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Don't intimidate / me, Wesbell. We / have enough / problems already.",
+  "new": "Don't intimidate me, / Wesbell. We have enough / problems already."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 36,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "My daughter was / killed, and this / decaying curse / cripples me.",
+  "new": "My daughter was killed, / and this decaying curse / cripples me."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 37,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "That labyrinth / forced us to halt / trade between / nations.",
+  "new": "That labyrinth forced us to halt / trade between / nations."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 38,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "You've seen how / Duhan has fallen / into despair.",
+  "new": "You've seen how Duhan has / fallen into despair."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 39,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "You'd have me / invite even more / misfortune?",
+  "new": "You'd have me invite even more / misfortune?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 41,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Why the man once / feared as the / Lion King, who led / war-torn Venoa / to peace--",
+  "new": "Why the man once feared as the / Lion King, who led war-torn / Venoa / to peace--"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 42,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "now only sends / huddled masses as / a strike force?",
+  "new": "now only sends huddled masses / as a strike force?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 43,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Why let the witch / do as she / pleases?",
+  "new": "Why let the witch do as she / pleases?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 44,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Why hold back the / holy knights and / leave the holy / beasts unsealed?",
+  "new": "Why hold back the holy knights / and leave the holy beasts / unsealed?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 45,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Wesbell, no more / riddles. What are / you implying?",
+  "new": "Wesbell, no more riddles. / What are you implying?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 47,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "That the witch / obediently kills / my daughter, / curses my body, / and creates the / labyrinth?",
+  "new": "That the witch obediently kills / my daughter, curses my body, / and creates the / labyrinth?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 49,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Instead of such / conspiracy / theories, join the / strike force!",
+  "new": "Instead of such conspiracy / theories, join the strike force!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 50,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Hmm! So you're / saying I'm free / to investigate?",
+  "new": "Hmm! So you're saying I'm free / to investigate?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 51,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "What's to fear? / Whoever slays the / witch becomes / Duhan's new hero.",
+  "new": "What's to fear? Whoever slays / the witch becomes Duhan's new / hero."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 52,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "And I eagerly / await that. That / is my only wish.",
+  "new": "And I eagerly await that. / That is my only wish."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 53,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Very well. I'll / gather companions / and head into the / labyrinth myself.",
+  "new": "Very well. I'll gather / companions and head into the / labyrinth myself."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 57,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Aurora took / everything from / him. Now he is / but a shadow.",
+  "new": "Aurora took everything from / him. Now he is but a shadow."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 58,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Forgive the / unexpected / interruption.",
+  "new": "Forgive the unexpected / interruption."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 61,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "This is indeed / Oriana's. But why / was it in the / labyrinth?",
+  "new": "This is indeed Oriana's. / But why was it in the / labyrinth?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 62,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "What interest / does he have in / her body? Why / spread her scent?",
+  "new": "What interest does he have in / her body? Why spread her / scent?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 63,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I don't know. But / this proves / someone hid Her / Highness' body / in the labyrinth.",
+  "new": "I don't know. But this proves / someone hid Her Highness' / body in the labyrinth."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 64,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I too shall enter / the labyrinth and / join the strike / force.",
+  "new": "I too shall enter the labyrinth / and join the strike / force."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 65,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Rest assured. / I will fulfill / Her Highness' / last wishes.",
+  "new": "Rest assured. I will fulfill Her / Highness' / last wishes."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 68,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Adventurer, how / curious. Many / have gathered here / in Duhan.",
+  "new": "Adventurer, how curious. / Many have gathered here / in Duhan."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 69,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Good and evil / alike fight to / make their dreams / come true.",
+  "new": "Good and evil alike fight to / make their dreams / come true."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 70,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Some venture in / to reclaim what / they once lost.",
+  "new": "Some venture in to reclaim / what they once lost."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 71,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Others head to / the labyrinth to / realize unseen / ambitions.",
+  "new": "Others head to the labyrinth to / realize unseen / ambitions."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 72,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Whatever they / hold in their / hearts, it could / save Duhan.",
+  "new": "Whatever they hold in their / hearts, it could / save Duhan."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 73,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "It matters not / who. If anyone / in this world can / defeat Aurora--",
+  "new": "It matters not who. / If anyone in this world can / defeat Aurora--"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 80,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Knight: So you're / the new member of / the strike force.",
+  "new": "Knight: So you're the new / member of the strike force."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 81,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Captain Belgrano / sent a report.",
+  "new": "Captain Belgrano sent a report."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 83,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I am Lord / Webster, Ferry / Leffort. Grand / chancellor of / this kingdom.",
+  "new": "I am Lord Webster, / Ferry Leffort. Grand / chancellor of this kingdom."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 84,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I expect we'll be / working together. / Pleased to meet / you.",
+  "new": "I expect we'll be working / together. Pleased to meet / you."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 86,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Webster: Come, / this way. King / Ortrud awaits. / Tell him about / the strike force.",
+  "new": "Webster: Come, this way. / King Ortrud awaits. / Tell him about the strike force."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 90,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Ortrud: Recently, / attacks on the / convoys have / grown worse.",
+  "new": "Ortrud: Recently, / attacks on the convoys have / grown worse."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 91,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "There are rumors / that adventurers / have turned / hostile.",
+  "new": "There are rumors that / adventurers have turned / hostile."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 92,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "We must face the / enemy united. / Such incidents / cannot be / ignored.",
+  "new": "We must face the enemy united. / Such incidents cannot be / ignored."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 93,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I ask again: was / the convoy attack / the work of / monsters?",
+  "new": "I ask again: was the convoy / attack the work of / monsters?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 95,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "So it was / monsters, just as / previous reports / stated.",
+  "new": "So it was monsters, / just as previous reports / stated."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 97,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "The knights with / the convoy were / all found dead in / the labyrinth.",
+  "new": "The knights with the convoy / were all found dead in the / labyrinth."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 98,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "How terrible, to / die unable to / clear their names / on the field.",
+  "new": "How terrible, to die unable to / clear their names / on the field."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 99,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Unsavory rumors / about the Order / are going around / town.",
+  "new": "Unsavory rumors about the / Order are going around / town."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 100,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "All convoy / incidents were / planned by the / Order itself.",
+  "new": "All convoy incidents were / planned by the Order itself."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 103,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "An Order member / wouldn't need / poison; they have / many other ways.",
+  "new": "An Order member wouldn't / need poison; they have many / other ways."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 105,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Before the / monsters attacked, / the convoy had / contact with / someone.",
+  "new": "Before the monsters attacked, / the convoy had contact with / someone."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 107,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "It seems unsavory / rumors about the / Order are making / the rounds in // town.",
+  "new": "It seems unsavory rumors about / the Order are making the / rounds in // town."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 108,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "All convoy / incidents were / planned by the / Order itself.",
+  "new": "All convoy incidents were / planned by the Order itself."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 112,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "This body decays / from the witch's / curse. I can / barely walk.",
+  "new": "This body decays from the / witch's curse. I can / barely walk."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 113,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "If only I were / free of this / curse, I'd go / investigate / myself!",
+  "new": "If only I were free of this / curse, I'd go investigate / myself!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 114,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I thank you, . / For your hard / work.",
+  "new": "I thank you, . For your hard / work."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 117,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "It's enchanted. / Useful against / the undead.",
+  "new": "It's enchanted. Useful against / the undead."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 118,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Accept it as / thanks for your / hard work.",
+  "new": "Accept it as thanks for your / hard work."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 119,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Adventurer, may / I ask you / something?",
+  "new": "Adventurer, may I ask you / something?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 120,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Why do you / explore the / labyrinth?",
+  "new": "Why do you explore the / labyrinth?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 121,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "For gold? For / glory? Or do you / fight without / purpose?",
+  "new": "For gold? For glory? / Or do you fight without / purpose?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 124,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Once I had / nothing. Born to / a minor lord, I / could barely / afford a sword.",
+  "new": "Once I had nothing. / Born to a minor lord, / I could barely afford a sword."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 126,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Friends to trust, / dreams worth / risking your life / for--everything.",
+  "new": "Friends to trust, / dreams worth risking your life / for--everything."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 127,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I became king / of Duhan. Got the / gold and glory.",
+  "new": "I became king of Duhan. / Got the gold and glory."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 128,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "But everything / I once had is / now gone.",
+  "new": "But everything I once had is / now gone."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 129,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Take this advice / from one who was / once like you.",
+  "new": "Take this advice from one who / was once like you."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 131,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "A friend to watch / your back in / battle--no amount / of gold can buy / that.",
+  "new": "A friend to watch your back in / battle--no amount of gold can / buy / that."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 132,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "They won't just / save your life. / They'll help you / achieve / everything.",
+  "new": "They won't just save your life. / They'll help you achieve / everything."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 135,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Once I had / nothing. Born to / a minor lord, I / could barely / afford a sword.",
+  "new": "Once I had nothing. / Born to a minor lord, / I could barely afford a sword."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 137,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Friends to trust, / dreams worth / risking your life / for--everything.",
+  "new": "Friends to trust, / dreams worth risking your life / for--everything."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 138,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I became king / of Duhan. Got the / gold and glory.",
+  "new": "I became king of Duhan. / Got the gold and glory."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 139,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "But everything / I once had is / now gone.",
+  "new": "But everything I once had is / now gone."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 140,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Take this advice / from one who was / once like you.",
+  "new": "Take this advice from one who / was once like you."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 142,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "A friend to watch / your back in / battle--no amount / of gold can buy / that.",
+  "new": "A friend to watch your back in / battle--no amount of gold can / buy / that."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 143,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "They won't just / save your life. / They'll help you / achieve / everything.",
+  "new": "They won't just save your life. / They'll help you achieve / everything."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 145,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Then let me say / this. Find a / friend you can / truly trust.",
+  "new": "Then let me say this. / Find a friend you can / truly trust."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 146,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "A friend to watch / your back in / battle--no amount / of gold can buy / that.",
+  "new": "A friend to watch your back in / battle--no amount of gold can / buy / that."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 147,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "They won't just / save your life. / They'll help you / achieve / everything.",
+  "new": "They won't just save your life. / They'll help you achieve / everything."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 149,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Heh, this illness / makes me too / sentimental.",
+  "new": "Heh, this illness makes me too / sentimental."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 150,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "That's enough for / today. Time for / my doctor's / foul medicine.",
+  "new": "That's enough for today. / Time for my doctor's foul / medicine."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 158,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "The recruitment / of adventurers-- / it's all because / of this crisis.",
+  "new": "The recruitment of / adventurers-- it's all because / of this crisis."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 159,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "The crisis is / the emergence / of monsters.",
+  "new": "The crisis is the emergence / of monsters."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 160,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "You know of / Karman's Labyrinth / at the city / outskirts?",
+  "new": "You know of Karman's / Labyrinth at the city / outskirts?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 161,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Their numbers are / small, but / monsters are / emerging from it.",
+  "new": "Their numbers are small, / but monsters are emerging / from it."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 162,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "What we ask is / that you enter / the labyrinth and / bring back the / witch's head.",
+  "new": "What we ask is that you enter / the labyrinth and bring back / the witch's head."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 164,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "An ancient evil, / personification / of destruction.",
+  "new": "An ancient evil, / personification of destruction."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 165,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "That witch cursed / all of Duhan and / created the / labyrinth.",
+  "new": "That witch cursed all of Duhan / and created the / labyrinth."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 182,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Belgrano: We / must defeat her / and lift the / curse on Duhan.",
+  "new": "Belgrano: We must defeat her / and lift the curse on Duhan."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 183,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "If you bring / Aurora's head, / the reward is / yours to choose.",
+  "new": "If you bring Aurora's head, / the reward is yours to choose."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 184,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Even information / helps. Anything / useful will be / rewarded.",
+  "new": "Even information helps. / Anything useful will be / rewarded."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 185,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Will you join the / strike force and / lend us your / strength?",
+  "new": "Will you join the strike force / and lend us your / strength?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 187,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I see. Caution / is a fine virtue / for an adventurer.",
+  "new": "I see. Caution is a fine virtue / for an adventurer."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 188,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "No pressure, but / if you ever want / to help Duhan, / come see me.",
+  "new": "No pressure, but if you ever / want to help Duhan, / come see me."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 190,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Quick decisions / are the mark of / a good leader.",
+  "new": "Quick decisions are the mark of / a good leader."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 191,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Belgrano: So? / Ready to join / the strike force?",
+  "new": "Belgrano: So? Ready to join the / strike force?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 192,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Or did you come / just to sightsee / and go home?",
+  "new": "Or did you come just to / sightsee and go home?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 195,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I believe this / will bring you / rare experience / and adventure.",
+  "new": "I believe this will bring you / rare experience and adventure."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 199,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "These terms were / written by the / king himself.",
+  "new": "These terms were written by / the king himself."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 200,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "As long as Duhan / stands, this / contract will be / honored.",
+  "new": "As long as Duhan stands, / this contract will be / honored."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 204,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "This bracelet / identifies you / as strike force.",
+  "new": "This bracelet identifies you as / strike force."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 205,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "All who enter / the labyrinth / must wear one.",
+  "new": "All who enter the labyrinth / must wear one."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 206,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Don't store it. / Keep it on your / wrist at all / times.",
+  "new": "Don't store it. Keep it on your / wrist at all / times."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 207,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Our knights and / many adventurers / are in the / labyrinth.",
+  "new": "Our knights and many / adventurers are in the / labyrinth."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 208,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Without it, / you could be / attacked--and no / one's to blame.",
+  "new": "Without it, you could be / attacked--and no one's to / blame."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 210,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I visit the / labyrinth often / to encourage the / adventurers.",
+  "new": "I visit the labyrinth often to / encourage the adventurers."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 212,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "If you need / supplies, visit / the Salem church / first.",
+  "new": "If you need supplies, / visit the Salem church / first."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 215,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Zel: I received / word that you / encountered / bandits on the / 3rd floor.",
+  "new": "Zel: I received word that you / encountered bandits on the / 3rd floor."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 218,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Don't misunder- / stand. Those / bandits fled here / long ago.",
+  "new": "Don't misunder- stand. / Those bandits fled here / long ago."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 219,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Nothing to do / with us. Just / scum.",
+  "new": "Nothing to do with us. Just / scum."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 220,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "We planned to / handle them / eventually.",
+  "new": "We planned to handle them / eventually."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 221,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Thank you for / dealing with / them for us.",
+  "new": "Thank you for dealing with / them for us."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 224,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Show me the ring / you obtained.",
+  "new": "Show me the ring you obtained."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 227,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Hmm. This seal / is indeed Her / Highness'. No / doubt about it.",
+  "new": "Hmm. This seal is indeed Her / Highness'. No doubt about it."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 228,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Well found. This / is a clue to / locating Her / Highness' body.",
+  "new": "Well found. This is a clue to / locating Her Highness' body."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 240,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Stranger: Hehehe, / you know where / the priest is, / right?",
+  "new": "Stranger: Hehehe, / you know where the priest is, / right?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 241,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "C'mon, tell me! / I gotta report / what I saw!",
+  "new": "C'mon, tell me! I gotta report / what I saw!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 242,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Heh, I know / you're hiding the / priest's location!",
+  "new": "Heh, I know you're hiding the / priest's location!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 243,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Better hurry. / It's for your / own good.",
+  "new": "Better hurry. It's for your / own good."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 245,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Aha, I see. You / don't know about / what happened.",
+  "new": "Aha, I see. You don't know / about what happened."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 246,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "That's why you're / hiding the priest? / Hah, figures.",
+  "new": "That's why you're hiding the / priest? Hah, figures."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 248,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Yeah, they were / there. Hiding / in the dark.",
+  "new": "Yeah, they were there. Hiding / in the dark."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 249,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Let your guard / down, and they / come crawling / at you.",
+  "new": "Let your guard down, / and they come crawling / at you."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 251,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Munch, chomp. / Munch, chomp.",
+  "new": "Munch, chomp. Munch, chomp."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 259,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Ahahaha! Some / fought with all / they had!",
+  "new": "Ahahaha! Some fought with all / they had!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 260,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "But no matter / what--useless, / useless!",
+  "new": "But no matter what--useless, / useless!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 266,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Your meal is / ready. Please / come eat.",
+  "new": "Your meal is ready. Please / come eat."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 268,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Please don't / judge him. He / fought for this / town.",
+  "new": "Please don't judge him. / He fought for this / town."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 269,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I heard he was / once a famous / mercenary / captain.",
+  "new": "I heard he was once a famous / mercenary / captain."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 270,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "But Karman's / Labyrinth broke / his mind.",
+  "new": "But Karman's Labyrinth broke / his mind."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 271,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Since then he's / wandered the / town, afraid of / something.",
+  "new": "Since then he's wandered the / town, afraid of / something."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 273,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "But it must have / been terrible / enough to drive / a strong man / mad.",
+  "new": "But it must have been terrible / enough to drive a strong man / mad."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 275,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "A difficult path. / You risk your / life for what / you seek.",
+  "new": "A difficult path. / You risk your life for what / you seek."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 277,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Well then, do / take great care.",
+  "new": "Well then, do take great care."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 285,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Elf girl: Hey, / you're the new / adventurer, / right?",
+  "new": "Elf girl: Hey, you're the new / adventurer, / right?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 286,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "We saw you / checking in at / the entrance.",
+  "new": "We saw you checking in at the / entrance."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 288,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "You're going into / Karman's Labyrinth / too, aren't you?",
+  "new": "You're going into Karman's / Labyrinth too, aren't you?"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 289,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "No one can leave / this town because / of the labyrinth.",
+  "new": "No one can leave this town / because of the labyrinth."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 291,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Ever since the / princess died, / nothing but / bad news.",
+  "new": "Ever since the princess died, / nothing but / bad news."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 292,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Monsters, the / town blockaded, / and the king / gravely ill.",
+  "new": "Monsters, the town blockaded, / and the king / gravely ill."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 293,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "They say the / witch in the / labyrinth is / behind it all, / but no one's / found her yet.",
+  "new": "They say the witch in the / labyrinth is behind it all, / but no one's found her yet."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 294,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Which means / everyone here / is useless.",
+  "new": "Which means everyone here / is useless."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 297,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "If you defeat / the witch, an / amazing reward / awaits!",
+  "new": "If you defeat the witch, / an amazing reward / awaits!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 298,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "We did a / divination. The / stars told us.",
+  "new": "We did a divination. / The stars told us."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 299,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "Soon, something / will change / Duhan's fate.",
+  "new": "Soon, something will change / Duhan's fate."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 300,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "That's why we're / watching for new / adventurers.",
+  "new": "That's why we're watching for / new adventurers."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 303,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "A terrifying / nightmare! The / town in darkness, / everyone dies!",
+  "new": "A terrifying nightmare! / The town in darkness, / everyone dies!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 304,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "We don't know / what it means, / but something / big is coming.",
+  "new": "We don't know what it means, / but something big is coming."
+ },
+ {
+  "resource": 1354,
+  "msg_index": 308,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "We have things / to do. See you / around!",
+  "new": "We have things to do. See you / around!"
+ },
+ {
+  "resource": 1354,
+  "msg_index": 310,
+  "file": "data/type2_translated/batch_09.json",
+  "old": "I'm Lute. We / both live in the / castle. See ya!",
+  "new": "I'm Lute. We both live in the / castle. See ya!"
+ },
+ {
+  "resource": 1355,
+  "msg_index": 6,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "Knight: Then go back / to the city at once. / This is dangerous; / no place for civilians.",
+  "new": "Knight: Then go back to the / city at once. This is dangerous; / no place for civilians."
+ },
+ {
+  "resource": 1355,
+  "msg_index": 8,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "Knight: I cannot let / anyone without clearance / pass through.",
+  "new": "Knight: I cannot let anyone / without clearance pass through."
+ },
+ {
+  "resource": 1355,
+  "msg_index": 10,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "Knight: I hate to repeat / myself, but I cannot let / anyone without clearance / pass through.",
+  "new": "Knight: I hate to repeat myself, / but I cannot let anyone without / clearance pass through."
+ },
+ {
+  "resource": 1355,
+  "msg_index": 21,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "Knight: Do not put it / in your luggage bag. / Keep it on you / at all times.",
+  "new": "Knight: Do not put it in your / luggage bag. Keep it on you / at all times."
+ },
+ {
+  "resource": 1355,
+  "msg_index": 27,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "Knight: The King himself / watches over the work of / the adventurers. The gods / are with you too. / Take care of yourself.",
+  "new": "Knight: The King himself / watches over the work of the / adventurers. The gods are with / you too. Take care of yourself."
+ },
+ {
+  "resource": 1355,
+  "msg_index": 49,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "Aoi: I may be scolded / for this, but let me / say it anyway.",
+  "new": "Aoi: I may be scolded for this, / but let me say it anyway."
+ },
+ {
+  "resource": 1355,
+  "msg_index": 50,
+  "file": "data/type2_translated/batch_gap1347.json",
+  "old": "Aoi: The darkness of the / labyrinth grows as deep / as the size of your / own ambitions.",
+  "new": "Aoi: The darkness of the / labyrinth grows as deep as the / size of your own ambitions."
+ }
+]

@@ -759,7 +759,7 @@
     "resource": 1196,
     "msg_index": 131,
     "japanese": "ブレスレットに込められた思大から、は新しい戦美「アレイド」を力に入れた。",
-    "english": "From the bracelet, / you learned the / Allied Art."
+    "english": "From the bracelet, / you learned the / Allied Action."
   },
   {
     "resource": 1196,
@@ -1191,7 +1191,7 @@
     "resource": 1196,
     "msg_index": 203,
     "japanese": "はアレイドイミラーイメージゴを力に入れた。",
-    "english": "the suffering. / You obtained / Allied Art."
+    "english": "the suffering. / You obtained / Allied Action."
   },
   {
     "resource": 1196,
@@ -1569,13 +1569,13 @@
     "resource": 1196,
     "msg_index": 268,
     "japanese": "ウェブスター卿がランゴバルト[06C3]習[06C4]とともに迷宮に御ったようです。",
-    "english": "Lord Webster has / entered the / labyrinth with the / Langobalt"
+    "english": "Lord Webster has / entered the / labyrinth with / Archbishop"
   },
   {
     "resource": 1196,
     "msg_index": 269,
     "japanese": "いかがなさいますか？",
-    "english": "training corps. / What shall we do?"
+    "english": "Langobalt. / What shall we do?"
   },
   {
     "resource": 1196,
@@ -2799,19 +2799,19 @@
     "resource": 1196,
     "msg_index": 477,
     "japanese": "だって、ウェブスター卿が住損を[04A1]らせるための打扱の書を、",
-    "english": "the princess's / life. We saw him / receive secret"
+    "english": "the princess's / life. We saw him / receive the book / of dark rites"
   },
   {
     "resource": 1196,
     "msg_index": 478,
     "japanese": "ランゴバルト[06C3]習[06C4]から受け取ったのを見たの。",
-    "english": "orders from the / Langobalt training / corps."
+    "english": "for reviving the / War God from / Archbishop / Langobalt."
   },
   {
     "resource": 1196,
     "msg_index": 479,
     "japanese": "住損を[04A1]らせるには、エルフの置き[04B0]数の生[062B]が必[0409]なのよ。",
-    "english": "To carry out his / plan, he needed / the living blood"
+    "english": "To revive the / War God, he needed / the living blood"
   },
   {
     "resource": 1196,
@@ -4287,7 +4287,7 @@
     "resource": 1196,
     "msg_index": 731,
     "japanese": "あなたはいまアレイドっていう主を力に入れたのよ。",
-    "english": "\"You've just / gained the power / called Allied Art."
+    "english": "\"You've just / gained the power / called Allied Actions."
   },
   {
     "resource": 1196,
@@ -4491,7 +4491,7 @@
     "resource": 1196,
     "msg_index": 767,
     "japanese": "ドゥーハン[01E3]帰前がアレイドを力に入れているということも、これで[03D0]得できるというもの。",
-    "english": "Allied Art. This / explains how / Duhan's knights"
+    "english": "Allied Actions. This / explains how / Duhan's knights"
   },
   {
     "resource": 1196,
@@ -4563,7 +4563,7 @@
     "resource": 1196,
     "msg_index": 779,
     "japanese": "おたがい[018A]銀っていなかったな。余はイーリス[001D]イェガー。アレイドのことを道べている。",
-    "english": "I'm Iris Yeager. / I study the / Allied Arts."
+    "english": "I'm Iris Yeager. / I study the / Allied Actions."
   },
   {
     "resource": 1196,
@@ -4575,7 +4575,7 @@
     "resource": 1196,
     "msg_index": 781,
     "japanese": "余達は、アレイドのことをもっと同しく道べる必[0409]がある。",
-    "english": "We need to learn / more about the / Allied Arts."
+    "english": "We need to learn / more about the / Allied Actions."
   },
   {
     "resource": 1196,
@@ -4659,13 +4659,13 @@
     "resource": 1196,
     "msg_index": 796,
     "japanese": "そうそう、アレイドを腕に着けたことは、過にも言わないほうがいい。",
-    "english": "Don't tell anyone / about the / Allied Arts."
+    "english": "Don't tell anyone / about the / Allied Actions."
   },
   {
     "resource": 1196,
     "msg_index": 797,
     "japanese": "はアレイドイwスラッシュゴを力に入れた。",
-    "english": "Learned Allied / Art: w-Slash."
+    "english": "Learned Allied / Action: w-Slash."
   },
   {
     "resource": 1196,
@@ -4737,7 +4737,7 @@
     "resource": 1196,
     "msg_index": 810,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Search thoroughly\nRoom Details 1-10\nShadow Check\nItem Appraisal\nAllied Art Info 1-8\nProcessing complete."
+    "english": "Search thoroughly\nRoom Details 1-10\nShadow Check\nItem Appraisal\nAllied Info 1-8\nProcessing complete."
   },
   {
     "resource": 1196,
@@ -5907,7 +5907,7 @@
     "resource": 1197,
     "msg_index": 59,
     "japanese": "ピクシーメラーニエミリィ店社イああ、またあんたかゴ",
-    "english": "Pixie Melanie / Miri Barkeep: / \"Oh, you again.\""
+    "english": "Pixie Melanie / Milly Barkeep: / \"Oh, you again.\""
   },
   {
     "resource": 1197,
@@ -6057,7 +6057,7 @@
     "resource": 1197,
     "msg_index": 84,
     "japanese": "アタイ、ミリィ アタイがこの頼りないメラーニエにかわって、依頼を出したのよ ",
-    "english": "I'm Miri! I put up / the request for / this unreliable / Melanie!"
+    "english": "I'm Milly! I put up / the request for / this unreliable / Melanie!"
   },
   {
     "resource": 1197,
@@ -6093,7 +6093,7 @@
     "resource": 1197,
     "msg_index": 91,
     "japanese": "ミリィは言[0387]をさえぎり、メラーニエの[0457]物[0444]の中に欠びこんだ。",
-    "english": "Miri cut in and / dove into / Melanie's bag."
+    "english": "Milly cut in and / dove into / Melanie's bag."
   },
   {
     "resource": 1197,
@@ -6105,7 +6105,7 @@
     "resource": 1197,
     "msg_index": 93,
     "japanese": "[0444]から出てきたミリィは間さなお内りのようなものを[04AF]きかかえていた。",
-    "english": "Miri held a small / amulet-like / object."
+    "english": "Milly held a small / amulet-like / object."
   },
   {
     "resource": 1197,
@@ -6141,7 +6141,7 @@
     "resource": 1197,
     "msg_index": 100,
     "japanese": "メラーニエとミリィは店社から魔法剣を受け取り、骨場を出て行った。",
-    "english": "Melanie and Miri / took the stone and / left the tavern."
+    "english": "Melanie and Milly / took the stone and / left the tavern."
   },
   {
     "resource": 1197,
@@ -7335,7 +7335,7 @@
     "resource": 1197,
     "msg_index": 311,
     "japanese": "さあ民却通り、系仰[053C]品の[06B0]解を差し外げましょう。",
-    "english": "As promised, the / grand prize."
+    "english": "Now, as promised: / the grand prize, / the Nagasone / Kotetsu."
   },
   {
     "resource": 1197,
@@ -7383,13 +7383,13 @@
     "resource": 1197,
     "msg_index": 320,
     "japanese": "ミリィメラーニエ骨場の入り口多くのテーブルで名事をとっていたメラーニエとミリィが店社に高ばれてきた。",
-    "english": "Miri and Melanie / eating nearby / were called over / by the barkeep."
+    "english": "Milly and Melanie / eating nearby / were called over / by the barkeep."
   },
   {
     "resource": 1197,
     "msg_index": 321,
     "japanese": "こちらの良を見た[0272]自、ミリィが数そうな顔をした。",
-    "english": "Miri made an / annoyed face."
+    "english": "Milly made an / annoyed face."
   },
   {
     "resource": 1197,
@@ -7419,7 +7419,7 @@
     "resource": 1197,
     "msg_index": 326,
     "japanese": "くい[06BD]めるミリィにうなずいてみせた。",
-    "english": "You nodded at / Miri."
+    "english": "You nodded at / Milly."
   },
   {
     "resource": 1197,
@@ -7431,7 +7431,7 @@
     "resource": 1197,
     "msg_index": 328,
     "japanese": "ミリィはじろじろ見回す。",
-    "english": "Miri looked you / up and down."
+    "english": "Milly looked you / up and down."
   },
   {
     "resource": 1197,
@@ -7449,7 +7449,7 @@
     "resource": 1197,
     "msg_index": 331,
     "japanese": "くい[06BD]めるミリィにうなずいてみせた。",
-    "english": "You nodded at / Miri."
+    "english": "You nodded at / Milly."
   },
   {
     "resource": 1197,
@@ -7461,7 +7461,7 @@
     "resource": 1197,
     "msg_index": 333,
     "japanese": "ミリィはじろじろ見回す。",
-    "english": "Miri looked you / up and down."
+    "english": "Milly looked you / up and down."
   },
   {
     "resource": 1197,
@@ -7521,7 +7521,7 @@
     "resource": 1197,
     "msg_index": 345,
     "japanese": "メラーニエとミリィは[02F2]しそうに骨場を出て行った。",
-    "english": "Melanie and Miri / happily left."
+    "english": "Melanie and Milly / happily left."
   },
   {
     "resource": 1197,
@@ -7569,13 +7569,13 @@
     "resource": 1197,
     "msg_index": 353,
     "japanese": "ミリィはメラーニエを支れて[0430]に戻り、[0150]び名事をはじめた。",
-    "english": "Miri took / Melanie back and / resumed eating."
+    "english": "Milly took / Melanie back and / resumed eating."
   },
   {
     "resource": 1197,
     "msg_index": 354,
     "japanese": "ミリィメラーニエイ優臆美解 ゴ",
-    "english": "Melanie Miri: / \"Alchemist!\""
+    "english": "Melanie Milly: / \"Alchemist!\""
   },
   {
     "resource": 1197,
@@ -7587,7 +7587,7 @@
     "resource": 1197,
     "msg_index": 356,
     "japanese": "声の消はすぐ多くの[0430]についていたピクシーのミリィであった。",
-    "english": "It was Miri at / the nearby / table."
+    "english": "It was Milly at / the nearby / table."
   },
   {
     "resource": 1197,
@@ -7605,7 +7605,7 @@
     "resource": 1197,
     "msg_index": 359,
     "japanese": "ミリィは兜はしゃぎだ。",
-    "english": "Miri was / overjoyed."
+    "english": "Milly was / overjoyed."
   },
   {
     "resource": 1197,
@@ -7659,7 +7659,7 @@
     "resource": 1197,
     "msg_index": 370,
     "japanese": "メラーニエとミリィは[02F2]しそうに骨場を出て行った。",
-    "english": "Melanie and Miri / happily left."
+    "english": "Melanie and Milly / happily left."
   },
   {
     "resource": 1197,
@@ -9717,325 +9717,325 @@
     "resource": 1197,
     "msg_index": 722,
     "japanese": "フィアケアの剣を力に入れた ",
-    "english": "Next time, try / to complete the / job properly."
+    "english": "Obtained the / Fearkea Stone."
   },
   {
     "resource": 1197,
     "msg_index": 723,
     "japanese": "むう！その魔美解とやらは、乙忍１名で会ったのと同じ転なんじゃろう？",
-    "english": "Obtained the / Fearkea Stone."
+    "english": "Hmm! That magician / must be the same / one you met on / the 1st floor?"
   },
   {
     "resource": 1197,
     "msg_index": 724,
     "japanese": "魔美解の行[061D]は[01E4]せんが、おまえさんもまた会うことは[0463]色に雇[066A]できたじゃろう。",
-    "english": "Lang got up and / headed for the / message board."
+    "english": "I don't approve of / what he did, but / you could've seen / that meeting // coming."
   },
   {
     "resource": 1197,
     "msg_index": 725,
     "japanese": "また言いなりになっていてはちっとも客町がないじゃないか。",
-    "english": "Confess the 2nd / floor events? / Tell the truth / Give false report"
+    "english": "Just doing as / you're told again? / You've hardly / grown at all."
   },
   {
     "resource": 1197,
     "msg_index": 726,
     "japanese": "ふう！おまえさんには心待しとったんじゃが、どうやらワシの見込み違いだったようじゃな。",
-    "english": "You gave Lang / a false report / about dissolving / the medicine."
+    "english": "Hmph. I had high / hopes for you, / but it seems I / misjudged."
   },
   {
     "resource": 1197,
     "msg_index": 727,
     "japanese": "[0180]度も汝[0499]されたら、棄剣に今回は報女はやれんよ。",
-    "english": "If you fail too / many times, I / can't reward you."
+    "english": "After two / failures, I / can't give you a / reward this time."
   },
   {
     "resource": 1197,
     "msg_index": 728,
     "japanese": "依頼はそんなに[051C]くないんじゃ。行の一事で汝[0499]したくなければ[0451]にめいじておくことじゃな。",
-    "english": "Lang got up and / slowly left / his seat."
+    "english": "Requests aren't / so forgiving. / Remember that if / you don't want // to fail the / next one."
   },
   {
     "resource": 1197,
     "msg_index": 729,
     "japanese": "ラングは闘い記をあげ、ゆっくりと[0430]を待った。",
-    "english": "I must warn the / adventurers / before harm is / done. You be // careful too."
+    "english": "Lang heaved / himself up and / slowly rose from / his seat."
   },
   {
     "resource": 1197,
     "msg_index": 730,
     "japanese": "兜事になる両に、騎騎者どもに知らせておかないといかんな。",
-    "english": "Don't drink the / water in the / labyrinth."
+    "english": "I must let the / adventurers know / before this / turns serious."
   },
   {
     "resource": 1197,
     "msg_index": 731,
     "japanese": "ではな、おまえさんも迷宮では関を[0131]まないように、[0463]色に[0141]をつけなさいよ。",
-    "english": "Lang mumbled / and headed for / the exit."
+    "english": "Farewell -- and / you mind you / don't drink the / water in the // labyrinth either."
   },
   {
     "resource": 1197,
     "msg_index": 732,
     "japanese": "ラングはぶつぶつ[03D1]り言を言いながら出口の今へ向かって行った。",
-    "english": "You told Lang / you dissolved / the medicine in / the fountain. He // listened / happily."
+    "english": "Muttering to / himself, Lang / headed for the / exit."
   },
   {
     "resource": 1197,
     "msg_index": 733,
     "japanese": "わき関に場柵秘を棄してきたとラングに残の報[0197]をした。",
-    "english": "Lang: \"How are / you doing?\""
+    "english": "You told Lang / you dissolved / the medicine in / the waterway."
   },
   {
     "resource": 1197,
     "msg_index": 734,
     "japanese": "ラングは[05BC]う[01BC]所もなく[02F2]しそうに質を聞いていた。",
-    "english": "It was Lang, / cheerfully / approaching you."
+    "english": "Lang listened / happily, without / a shred of / suspicion."
   },
   {
     "resource": 1197,
     "msg_index": 735,
     "japanese": "ラングイよう、道所はどうじゃね？ゴ",
-    "english": "He was having a / rare drink at / his usual table."
+    "english": "Lang: \"Hey, how's / it going?\""
   },
   {
     "resource": 1197,
     "msg_index": 736,
     "japanese": "[0361][0141]に声をかけてきたのは盗[05FD]者のラングである。",
-    "english": "Thanks to your / help, patients / have calmed / down. I feel // relieved."
+    "english": "The one hailing / you so casually / was Healer Lang."
   },
   {
     "resource": 1197,
     "msg_index": 737,
     "japanese": "いつもの[0430]で仲しく骨を[0131]んでいるらしく、[0361][0141]に多っている。",
-    "english": "No more requests / needed, but I / still have / surplus // medicine."
+    "english": "He seemed to be / enjoying a rare / drink at his / usual table, // waving you / over."
   },
   {
     "resource": 1197,
     "msg_index": 738,
     "japanese": "いやあ、おまえさんのお識で[0340]者の地も落ち果いてのう。ワシもだいぶと武になったよ。",
-    "english": "Special potions I / mixed just in / case. Shame to let / them go to waste."
+    "english": "Thanks to your / help, patients / have calmed down. / I feel relieved."
   },
   {
     "resource": 1197,
     "msg_index": 739,
     "japanese": "役内ならもう別に依頼などせんでもええんじゃが、新しい秘が[043D]ってしまってのう。",
-    "english": "I heard from / a patient that / there's a fountain / on the 6th floor."
+    "english": "No more requests / needed, really -- / but I have / medicine left // over."
   },
   {
     "resource": 1197,
     "msg_index": 740,
     "japanese": "[0340]者が[053E]らなかった場合を必えて、とっておきの秘を道合してあったんじゃよ。",
-    "english": "Would you mix / this medicine / with the fountain / water?"
+    "english": "A special brew I / mixed in case the / patients kept / coming."
   },
   {
     "resource": 1197,
     "msg_index": 741,
     "japanese": "そのまま[0175]いておいても一今がないし、かといって[048B]てるのも力嫌をかけとるだけに[044A][02A1]辺い。",
-    "english": "Here is the / Returning Souls / Special Remedy."
+    "english": "No point letting / it sit, and after / all that work / it'd be a waste // to just throw / away."
   },
   {
     "resource": 1197,
     "msg_index": 742,
     "japanese": "それでだな、[01A1]地ウチに帰た[0340]者に聞いたんじゃが、なんでも迷宮の乙忍６名には[0580]関があるとか。",
-    "english": "Lang held out / a bottle."
+    "english": "Now, a patient / who visited told / me there's a / fountain on the // 6th floor."
   },
   {
     "resource": 1197,
     "msg_index": 743,
     "japanese": "その[0580]関にこの秘を入れてきてくれんかの？",
-    "english": "Obtained the / Returning Souls / Special Remedy."
+    "english": "Would you mix / this medicine / into that / fountain?"
   },
   {
     "resource": 1197,
     "msg_index": 744,
     "japanese": "ほれ、これがとっておきの秘じゃ。",
-    "english": "Well, you know / where to find me."
+    "english": "Here, this is my / special remedy."
   },
   {
     "resource": 1197,
     "msg_index": 745,
     "japanese": "関を[0131]まぬよう必[028E]で高びかけ、質を[01E8]めてもらおうとしたんじゃがあまり柵[03EB]がなかったようじゃ！。",
-    "english": "Lang took another / sip of his drink."
+    "english": "I begged folk not / to drink the / water, tried to / spread the word -- // but it did / little good!"
   },
   {
     "resource": 1197,
     "msg_index": 746,
     "japanese": "ほんとに、騎騎者ならば騎騎者同帰での[016A]報[014D]炎など[0490]役中の[0490]役じゃろうに！。",
-    "english": "This fountain / would be suitable / for Lang's / medicine."
+    "english": "Honestly! For / adventurers, / sharing word like / that should be // the basics of / the basics!"
   },
   {
     "resource": 1197,
     "msg_index": 747,
     "japanese": "やはり用ての騎騎者に[0375]わるというのは難しく、[0131]んでしまった転もいるようなんじゃ。",
-    "english": "You poured Lang's / medicine into / the fountain."
+    "english": "Still, word never / reaches everyone. / Seems some drank / it anyway."
   },
   {
     "resource": 1197,
     "msg_index": 748,
     "japanese": "とはいえ乙忍２名の行のわき関に秘を[051D]ぜては[043D][056F]こんがらがるし、第一もう[044D]度いい場暗もなかろう。",
-    "english": "The medicine / dissolved fast. A / sweet smell began / to fill the air."
+    "english": "But dosing that / waterway on the / 2nd floor would / just muddle // things -- and / there's no good / spot left there / anyway."
   },
   {
     "resource": 1197,
     "msg_index": 749,
     "japanese": "そこでじゃが、者はこの時のために道合しておいた、とっておきの秘を[051D]ぜてきてほしいのじゃ。",
-    "english": "Use Lang's / medicine? / Yes / No"
+    "english": "So here it is: I / want you to mix / in this special / remedy I brewed // for just such a / time."
   },
   {
     "resource": 1197,
     "msg_index": 750,
     "japanese": "なんでも乙忍６名には、[0580]関があるらしいんじゃ。",
-    "english": "You took out / the medicine and / readied the cork."
+    "english": "Word is there's a / fountain down on / the 6th floor."
   },
   {
     "resource": 1197,
     "msg_index": 751,
     "japanese": "そこなら騎騎者もよく[045D][04C9]に[0439]毒するじゃろう。",
-    "english": "\"Wait with that!\""
+    "english": "Adventurers must / stop by it all / the time."
   },
   {
     "resource": 1197,
     "msg_index": 752,
     "japanese": "ほれ、これがとっておきの秘じゃ。",
-    "english": "A cold voice / gripped your arm / from behind -- the / magician again."
+    "english": "Here, this is my / special remedy."
   },
   {
     "resource": 1197,
     "msg_index": 753,
     "japanese": "[053F][055A]の場柵秘ラングは秘の入った[0661]を差し出した。",
-    "english": "He seemed to / remember you / too."
+    "english": "Lang held out a / bottle of the / Returning Souls / Special Remedy."
   },
   {
     "resource": 1197,
     "msg_index": 755,
     "japanese": "じゃあ、またここで会おう。",
-    "english": "Give up the / fountain? / Yes / No"
+    "english": "Well then, let's / meet here again."
   },
   {
     "resource": 1197,
     "msg_index": 756,
     "japanese": "ラングは[0131]みかけの骨にまた口をつけた。",
-    "english": "You gave way and / left the / fountain to the / magician."
+    "english": "Lang returned to / his half-finished / drink."
   },
   {
     "resource": 1197,
     "msg_index": 757,
     "japanese": "ラング骨場では、盗[05FD]者ラングが行の落と少多していた。",
-    "english": "The magician / poured poison / into the / fountain."
+    "english": "In the tavern, / Healer Lang was / chatting with the / patrons."
   },
   {
     "resource": 1197,
     "msg_index": 758,
     "japanese": "たまたま入り口多くに召出をやったラングと野が合い、力考きされたので多復った。",
-    "english": "The magician / looked happy."
+    "english": "Glancing toward / the entrance, / Lang caught your / eye and beckoned // you over."
   },
   {
     "resource": 1197,
     "msg_index": 759,
     "japanese": "乙忍６名の受、どうなったかの？もう一事は帰んだのか？",
-    "english": "The magician took / Lang's medicine / by force."
+    "english": "How goes the 6th / floor fountain? / Is the job done / yet?"
   },
   {
     "resource": 1197,
     "msg_index": 760,
     "japanese": "[0580]関に秘を[0530]かしてきたことを報[0197]した。",
-    "english": "Such medicine / has no reason to / exist. I'll / dispose of it."
+    "english": "You reported / dissolving the / medicine in the / fountain."
   },
   {
     "resource": 1197,
     "msg_index": 761,
     "japanese": "なんとも、ありがたい やはりおまえさんに[04AA]せて高倒じゃったよ。",
-    "english": "The magician / left with an / eerie smile."
+    "english": "You don't know / how grateful I am! / It was right to / leave it to you."
   },
   {
     "resource": 1197,
     "msg_index": 762,
     "japanese": "これでせっかく以った秘が辺[0502]になることもなくなったし[033A]彼者も[053E]るじゃろうし箱かった。",
-    "english": "Lang was chatting / in the tavern. / He beckoned you."
+    "english": "Now the medicine / won't go to / waste, and fewer / folk will // suffer. Well / done."
   },
   {
     "resource": 1197,
     "msg_index": 763,
     "japanese": "さて、それじゃあお[0368]の魔法剣を渡すとしようかな。",
-    "english": "Have you finished / on the 6th floor?"
+    "english": "Now then, let me / hand over the / magic stone I / promised."
   },
   {
     "resource": 1197,
     "msg_index": 764,
     "japanese": "ラングは持ってきていた[0444]の中から魔法剣を取り出した。",
-    "english": "You lied to Lang / about dissolving / the medicine. He / believed you."
+    "english": "Lang drew a magic / stone from the / bag he'd brought / along."
   },
   {
     "resource": 1197,
     "msg_index": 765,
     "japanese": "この魔法剣にこめられとるのはリヴァイヴという魔法なんじゃ。ワシゃ度ったことはないが。",
-    "english": "You reported / dissolving the / medicine in the / fountain."
+    "english": "This stone holds / the magic Revive. / Never used it / myself."
   },
   {
     "resource": 1197,
     "msg_index": 766,
     "japanese": "おまえさんは知っておるか？これは値色が[028E]ぬ形わりに過かを[054C]生する値[060D][05E8][05F0]魔法じゃ。",
-    "english": "You don't know / how grateful I am! / It was right to / leave it to you."
+    "english": "You sacrifice / your life to / revive another. / Know it?"
   },
   {
     "resource": 1197,
     "msg_index": 767,
     "japanese": "下ろしい魔法よのう！。まあ、度うなとは言わんがの。",
-    "english": "Good that the / medicine won't go / to waste and fewer / will be injured."
+    "english": "A frightful magic! / Though I won't / tell you not to / use it."
   },
   {
     "resource": 1197,
     "msg_index": 768,
     "japanese": "ワシにはこんな魔法にいったい何の客町があるのかわからんが、この魔法剣は合封が難しいらしい。",
-    "english": "Here, a magic / stone as thanks."
+    "english": "Can't see what / anyone wants with / it, but the stone / is said to be // hard to make."
   },
   {
     "resource": 1197,
     "msg_index": 769,
     "japanese": "ワシはいらんが、何闘らしいからおまえさんにやるとするよ。",
-    "english": "Lang took out / a magic stone."
+    "english": "It's no use to / me, and they say / it's rare -- so / you have it."
   },
   {
     "resource": 1197,
     "msg_index": 770,
     "japanese": "ラングは[0446]れるように間さく息を[0485]いた。",
-    "english": "This stone has / the magic / Revive. Never / used it."
+    "english": "Lang let out a / small sigh, half / exasperated."
   },
   {
     "resource": 1197,
     "msg_index": 771,
     "japanese": "まあええわい。そろそろ[0516][0190]も帰る達じゃろう。ほれ、もう[01AB]っておくれ。",
-    "english": "You sacrifice / your life to / revive another. / Know it?"
+    "english": "Well, the food / should be ready. / Go home now."
   },
   {
     "resource": 1197,
     "msg_index": 772,
     "japanese": "ラングは力に持っていた魔法剣を[0268]きれで一[067D]きし、差し出した。",
-    "english": "Terrible magic. / But the stone is / hard to make so / it's rare."
+    "english": "Lang gave the / stone a wipe / with a cloth and / held it out."
   },
   {
     "resource": 1197,
     "msg_index": 773,
     "japanese": "ま、こんな魔法に頼らずにすむよう、[01A9][01AA][03E9][0190]には[0141]をつけることだな。",
-    "english": "I have no use / for it. Take it."
+    "english": "Mind your health / so you never / need to lean on / this magic."
   },
   {
     "resource": 1197,
     "msg_index": 774,
     "japanese": "おまえさんも、辺[03B7]な騎騎をしてうちに力け込んでくるなよ。ワシゃあ、[054D]てやらんぞ ",
-    "english": "Lang took a deep / breath."
+    "english": "And don't go / adventuring / recklessly then / come running to // me. I won't / treat you!"
   },
   {
     "resource": 1197,
     "msg_index": 776,
     "japanese": "リヴァイヴの剣を力に入れた ",
-    "english": "Take care of / your health so / you don't need / this magic."
+    "english": "Obtained the / Revive Stone."
   },
   {
     "resource": 1197,
     "msg_index": 777,
     "japanese": "短く力を後ると、ラングはまた知者達と[033D]少を専めた。",
-    "english": "Don't come to / me with reckless / adventure tales!"
+    "english": "With a short / wave, Lang went / back to chatting / with the // regulars."
   },
   {
     "resource": 1197,
@@ -10047,7 +10047,7 @@
     "resource": 1197,
     "msg_index": 779,
     "japanese": "ラングに[0580]関で魔美解に[059D][0536]されたことを向全した。",
-    "english": "You told Lang / about being / sabotaged by a / magician."
+    "english": "You told Lang a / magician / sabotaged you at / the fountain."
   },
   {
     "resource": 1197,
@@ -10083,7 +10083,7 @@
     "resource": 1197,
     "msg_index": 785,
     "japanese": "すまんが、今回の依頼は汝[0499]と店には報[0197]させてもらうぞ。",
-    "english": "I'll report this / as a failure."
+    "english": "Sorry, but I'll / report this as / a failure."
   },
   {
     "resource": 1197,
@@ -10095,67 +10095,67 @@
     "resource": 1197,
     "msg_index": 787,
     "japanese": "ラングは持ってきていた[0444]の中から魔法剣を取り出した。",
-    "english": "Lang pulled out / a magic stone."
+    "english": "Lang drew a magic / stone from the / bag he'd brought / along."
   },
   {
     "resource": 1197,
     "msg_index": 788,
     "japanese": "この魔法剣にこめられとるのはリヴァイヴという魔法なんじゃ。ワシゃ度ったことはないが。",
-    "english": "This has the / magic Revive. / Never used it."
+    "english": "This stone holds / the magic Revive. / Never used it / myself."
   },
   {
     "resource": 1197,
     "msg_index": 789,
     "japanese": "おまえさんは知っておるか？これは値色が[028E]ぬ形わりに過かを[054C]生する値[060D][05E8][05F0]魔法じゃ。",
-    "english": "You sacrifice / your life to / resurrect another. / Do you know it?"
+    "english": "You sacrifice / your life to / revive another. / Know it?"
   },
   {
     "resource": 1197,
     "msg_index": 790,
     "japanese": "下ろしい魔法よのう！。まあ、度うなとは言わんがの。",
-    "english": "Terrible magic! / Use it as you / see fit."
+    "english": "A frightful magic! / Though I won't / tell you not to / use it."
   },
   {
     "resource": 1197,
     "msg_index": 791,
     "japanese": "ワシにはこんな魔法にいったい何の客町があるのかわからんが、この魔法剣は合封が難しいらしい。",
-    "english": "I see no point / but it's hard / to synthesize."
+    "english": "Can't see what / anyone wants with / it, but the stone / is said to be // hard to make."
   },
   {
     "resource": 1197,
     "msg_index": 792,
     "japanese": "ワシはいらんが、何闘らしいからおまえさんにやるとするよ。",
-    "english": "No use for me / but it's rare. / Take it."
+    "english": "It's no use to / me, and they say / it's rare -- so / you have it."
   },
   {
     "resource": 1197,
     "msg_index": 793,
     "japanese": "ラングは[0446]れるように間さく息を[0485]いた。",
-    "english": "Lang sighed."
+    "english": "Lang let out a / small sigh, half / exasperated."
   },
   {
     "resource": 1197,
     "msg_index": 794,
     "japanese": "まあええわい。そろそろ[0516][0190]も帰る達じゃろう。ほれ、もう[01AB]っておくれ。",
-    "english": "Food should come / soon. Go home."
+    "english": "Well, the food / should be ready. / Go home now."
   },
   {
     "resource": 1197,
     "msg_index": 795,
     "japanese": "ラングは力に持っていた魔法剣を[0268]きれで一[067D]きし、差し出した。",
-    "english": "Lang wiped the / stone and / presented it."
+    "english": "Lang gave the / stone a wipe / with a cloth and / held it out."
   },
   {
     "resource": 1197,
     "msg_index": 796,
     "japanese": "ま、こんな魔法に頼らずにすむよう、[01A9][01AA][03E9][0190]には[0141]をつけることだな。",
-    "english": "Don't rely on / this magic. Stay / safe out there."
+    "english": "Mind your health / so you never / need to lean on / this magic."
   },
   {
     "resource": 1197,
     "msg_index": 797,
     "japanese": "おまえさんも、辺[03B7]な騎騎をしてうちに力け込んでくるなよ。ワシゃあ、[054D]てやらんぞ ",
-    "english": "Don't come to / me with reckless / adventure tales. / I won't treat you!"
+    "english": "And don't go / adventuring / recklessly then / come running to // me. I won't / treat you!"
   },
   {
     "resource": 1197,
@@ -10167,601 +10167,601 @@
     "resource": 1197,
     "msg_index": 800,
     "japanese": "ラングは店を出て行った。",
-    "english": "Lang left."
+    "english": "Lang left the / tavern."
   },
   {
     "resource": 1197,
     "msg_index": 801,
     "japanese": "むう！その魔美解とやらは、乙忍２名で会ったのと同じ転なんじゃろう？",
-    "english": "You told Lang / about the / magician at the / fountain."
+    "english": "Hmm! That magician / must be the same / one you met on / the 2nd floor?"
   },
   {
     "resource": 1197,
     "msg_index": 802,
     "japanese": "魔美解の行[061D]は[01E4]せんが、おまえさんもまた会うことは[0463]色に雇[066A]できたじゃろう。",
-    "english": "Lang wasn't angry / and listened."
+    "english": "I don't approve of / what he did, but / you could've seen / that meeting // coming."
   },
   {
     "resource": 1197,
     "msg_index": 803,
     "japanese": "また言いなりになっていてはちっとも客町がないじゃないか。",
-    "english": "That magician / must be the same / one from the / 1st floor."
+    "english": "Just doing as / you're told again? / You've hardly / grown at all."
   },
   {
     "resource": 1197,
     "msg_index": 804,
     "japanese": "ふう！おまえさんには心待しとったんじゃが、どうやらワシの見込み違いだったようじゃな。",
-    "english": "You could have / predicted you'd / meet again."
+    "english": "Hmph. I had high / hopes for you, / but it seems I / misjudged."
   },
   {
     "resource": 1197,
     "msg_index": 805,
     "japanese": "[0180]度も汝[0499]されたら、棄剣に今回は報女はやれんよ。",
-    "english": "I had high hopes / but it seems I / was wrong."
+    "english": "After two / failures, I / can't give you a / reward this time."
   },
   {
     "resource": 1197,
     "msg_index": 806,
     "japanese": "依頼はそんなに[051C]くないんじゃ。行の一事で汝[0499]したくなければ[0451]にめいじておくことじゃな。",
-    "english": "You already / failed twice so / no reward this / time."
+    "english": "Requests aren't / so forgiving. / Remember that if / you don't want // to fail the / next one."
   },
   {
     "resource": 1197,
     "msg_index": 807,
     "japanese": "ラングは闘い記をあげ、ゆっくりと[0430]を待った。",
-    "english": "It's not easy to / get commissions. / Keep that in / mind."
+    "english": "Lang heaved / himself up and / slowly rose from / his seat."
   },
   {
     "resource": 1197,
     "msg_index": 808,
     "japanese": "兜事になる両に、はやいこと腕に知らせておかないといかんな。",
-    "english": "Lang got up / slowly."
+    "english": "Before this / turns serious, I / must let everyone / know, and fast."
   },
   {
     "resource": 1197,
     "msg_index": 809,
     "japanese": "ではな、おまえさんも迷宮では関を[0131]まないように、[0463]色に[0141]をつけなさいよ。",
-    "english": "I must warn / adventurers / before there are / casualties."
+    "english": "Farewell -- and / you mind you / don't drink the / water in the // labyrinth either."
   },
   {
     "resource": 1197,
     "msg_index": 810,
     "japanese": "ラングはぶつぶつ[03D1]り言を言いながら店を出て行った。",
-    "english": "Be careful not / to drink the / labyrinth water."
+    "english": "Muttering to / himself, Lang / left the tavern."
   },
   {
     "resource": 1197,
     "msg_index": 811,
     "japanese": "むう！その魔美解とやらは、乙忍１名で会ったのと同じ転なんじゃろう？",
-    "english": "Lang mumbled and / headed for the / exit."
+    "english": "Hmm! That magician / must be the same / one you met on / the 1st floor?"
   },
   {
     "resource": 1197,
     "msg_index": 812,
     "japanese": "魔美解の行[061D]は[01E4]せんが、おまえさんもまた会うことは[0463]色に雇[066A]できたじゃろう。",
-    "english": "You told Lang / about the / fountain being / sabotaged."
+    "english": "I don't approve of / what he did, but / you could've seen / that meeting // coming."
   },
   {
     "resource": 1197,
     "msg_index": 813,
     "japanese": "また言いなりになっていてはちっとも客町がないじゃないか。",
-    "english": "Lang listened / without anger."
+    "english": "Just doing as / you're told again? / You've hardly / grown at all."
   },
   {
     "resource": 1197,
     "msg_index": 814,
     "japanese": "ふう！おまえさんには心待しとったんじゃが、どうやらワシの見込み違いだったようじゃな。",
-    "english": "Hmm, can't be / helped."
+    "english": "Hmph. I had high / hopes for you, / but it seems I / misjudged."
   },
   {
     "resource": 1197,
     "msg_index": 815,
     "japanese": "[0180]度も汝[0499]されたら、棄剣に今回は報女はやれんよ。",
-    "english": "The problem is / the poisoned / water, not your / failure."
+    "english": "After two / failures, I / can't give you a / reward this time."
   },
   {
     "resource": 1197,
     "msg_index": 816,
     "japanese": "依頼はそんなに[051C]くないんじゃ。行の一事で汝[0499]したくなければ[0451]にめいじておくことじゃな。",
-    "english": "Must warn people / on the message / board."
+    "english": "Requests aren't / so forgiving. / Remember that if / you don't want // to fail the / next one."
   },
   {
     "resource": 1197,
     "msg_index": 817,
     "japanese": "ラングは闘い記をあげ、ゆっくりと[0430]を待った。",
-    "english": "Sigh, no drinks / again. Better / write the / message."
+    "english": "Lang heaved / himself up and / slowly rose from / his seat."
   },
   {
     "resource": 1197,
     "msg_index": 818,
     "japanese": "兜事になる両に、はやいこと腕に知らせておかないといかんな。",
-    "english": "I'll report it / as a failure / but give you the / stone anyway."
+    "english": "Before this / turns serious, I / must let everyone / know, and fast."
   },
   {
     "resource": 1197,
     "msg_index": 819,
     "japanese": "ではな、おまえさんも迷宮では関を[0131]まないように、[0463]色に[0141]をつけなさいよ。",
-    "english": "Lang pulled out / a magic stone."
+    "english": "Farewell -- and / you mind you / don't drink the / water in the // labyrinth either."
   },
   {
     "resource": 1197,
     "msg_index": 820,
     "japanese": "ラングはぶつぶつ[03D1]り言を言いながら店を出て行った。",
-    "english": "This has the / magic Revive."
+    "english": "Muttering to / himself, Lang / left the tavern."
   },
   {
     "resource": 1197,
     "msg_index": 821,
     "japanese": "[0580]関に場柵秘を棄してきたとラングに残の報[0197]をした。",
-    "english": "You sacrifice / your life to / revive another."
+    "english": "You gave Lang a / false report: the / remedy went into / the fountain."
   },
   {
     "resource": 1197,
     "msg_index": 822,
     "japanese": "ラングは[05BC]う[01BC]所もなく[02F2]しそうに質を聞いていた。",
-    "english": "Terrible magic / but the stone is / hard to make."
+    "english": "Lang listened / happily, without / a shred of / suspicion."
   },
   {
     "resource": 1197,
     "msg_index": 823,
     "japanese": " 与 スコーン依頼を受けると、骨場の奥で店長を見回していた与が一者、こちらに多づいて帰た。",
-    "english": "I have no use / for it. Take it."
+    "english": "When you took the / request, a man / who'd been looking / around the tavern // came up to you."
   },
   {
     "resource": 1197,
     "msg_index": 824,
     "japanese": "イあんたがボクの依頼を受けてくれた新わり者かイ？ゴ",
-    "english": "Obtained the / Revive Stone."
+    "english": "\"So YOU'RE the / oddball who took / my request?\""
   },
   {
     "resource": 1197,
     "msg_index": 825,
     "japanese": "損員言そうな野をした与が、落ち果かない道所で加をパタパタ進み[0277]らしてやってきた。",
-    "english": "Lang headed for / the message / board."
+    "english": "A nervous-eyed / man came over, / restlessly / tapping his // feet."
   },
   {
     "resource": 1197,
     "msg_index": 826,
     "japanese": "ボクの[018A]はスコーン。[028E]損[05CB]きになってもいいって者がいるなんて！感[0450]だヨ ",
-    "english": "Confess about / the 6th floor? / Tell the truth / Give false report"
+    "english": "My name is Scone. / To think someone's / willing to be / possessed by a // death spirit! / I'm so moved!"
   },
   {
     "resource": 1197,
     "msg_index": 827,
     "japanese": "クックック、と多いながらスコーンは依頼長[0199]を質し専めた。",
-    "english": "Give up the / fountain? Yes No"
+    "english": "Chuckling to / himself, Scone / began to explain / the request."
   },
   {
     "resource": 1197,
     "msg_index": 828,
     "japanese": "者はボク、大[01CC]な者達を見るのがネ、！たまらなく[0380]きなんだヨ。",
-    "english": "Use Lang's / medicine? / Yes / No"
+    "english": "Truth is, I just / LOVE watching / unfortunate / people."
   },
   {
     "resource": 1197,
     "msg_index": 829,
     "japanese": "わざわざドゥーハンに帰たのも、そのためなんだヨ。値色で迷宮に入る[0141]なんか、用恵ないネ。",
-    "english": "This fountain is / suitable for / Lang's medicine."
+    "english": "That's exactly why / I came all the way / to Duhan. I've no / intention of // entering the / labyrinth myself."
   },
   {
     "resource": 1197,
     "msg_index": 830,
     "japanese": "ここなら、迷宮に入る騎騎者達が声っておいてもヒドイ野に[06BF]って[01AB]ってくるからネ ",
-    "english": "Here, adventurers / drop things and / monsters bring / them back."
+    "english": "Here, even if I / leave them alone, / adventurers go / into the labyrinth // and come back in / terrible shape!"
   },
   {
     "resource": 1197,
     "msg_index": 831,
     "japanese": "魔物に[042E]われ、ほうほうの[02A1]で威げ出してくる者。退嫌の忠該りにあった者。",
-    "english": "You can find all / sorts of things / dropped by / adventurers here."
+    "english": "Some flee for / their lives, / chased by / monsters. Some // are betrayed by / their companions."
   },
   {
     "resource": 1197,
     "msg_index": 832,
     "japanese": "迷宮で行今知れずになった退嫌を、引き法しむ者！。",
-    "english": "That's why so / many shops set up / here, I hear."
+    "english": "Some grieve for / friends lost / forever in the / labyrinth!"
   },
   {
     "resource": 1197,
     "msg_index": 833,
     "japanese": "こういう行者の大[01CC]と、そこで[0421]り[01E8]げられるドラマを、値色は絶将声用なところから見物する。",
-    "english": "I used to set up / shop in places / like this, back / in my day."
+    "english": "And I get to watch / others' misfortune / and all its drama / from perfect // safety."
   },
   {
     "resource": 1197,
     "msg_index": 834,
     "japanese": "これが、ボクの[01BE][01A8]の武しみなんだヨ ",
-    "english": "A voice came / from behind you."
+    "english": "THAT is my / greatest joy!"
   },
   {
     "resource": 1197,
     "msg_index": 835,
     "japanese": "しばらくの嫌うっとりと中依を見外げていたスコーンは、ニヤケ顔を戻してわざとらしくため息をついた。",
-    "english": "Looking behind / you, there was a / female knight."
+    "english": "After a while of / dreamy staring, / Scone dropped the / grin and gave a // theatrical sigh."
   },
   {
     "resource": 1197,
     "msg_index": 836,
     "japanese": "ここにきてから、たくさんの大[01CC]な者を見てきたボクなんだけど、",
-    "english": "Her armor was / scratched and / battle-worn."
+    "english": "Since coming here, / I've seen plenty / of unfortunate / souls, but..."
   },
   {
     "resource": 1197,
     "msg_index": 837,
     "japanese": "[028E]損にとり[05CB]かれた騎騎者だけ、まだ見たことがないんだヨ～。",
-    "english": "The female knight / spoke with a / serious look."
+    "english": "an adventurer / possessed by a / death spirit -- / THAT I've never // seen~."
   },
   {
     "resource": 1197,
     "msg_index": 838,
     "japanese": "[028E]損のことはもちろん知ってるネ？",
-    "english": "Are you an / adventurer / heading deeper?"
+    "english": "You know about / death spirits, / of course?"
   },
   {
     "resource": 1197,
     "msg_index": 839,
     "japanese": "迷宮で騎騎者の[055A]を[05ED]るという、下ろしい、扱き[028E]棒だヨ。",
-    "english": "If so, I have / a request."
+    "english": "The dreadful / spirits that reap / adventurers' souls / in the labyrinth."
   },
   {
     "resource": 1197,
     "msg_index": 840,
     "japanese": "なんでも、とり[05CB]かれたまま[028E]ぬと、[055A]ごと消[0408]しちゃって、制[033F]や魔法でも[0180]度と[049D]込できないんだって？",
-    "english": "I'm looking for / companions to / explore the / labyrinth."
+    "english": "They say if you / die while / possessed, your / soul is destroyed -- // no temple or / magic can ever / bring you back."
   },
   {
     "resource": 1197,
     "msg_index": 841,
     "japanese": "そんな下ろしいモノにとり[05CB]かれた、これ魔外ないほど大[01CC]な者物！。",
-    "english": "I came to Duhan / to investigate / the labyrinth."
+    "english": "Someone possessed / by a horror like / that is the / unluckiest being // imaginable!"
   },
   {
     "resource": 1197,
     "msg_index": 842,
     "japanese": "ああ ぜひ見たい 見た過ぎる ムヒョー  ",
-    "english": "But my previous / companions all / left after / disagreements."
+    "english": "Ahh! I want to see / it! I NEED to see / it! Muhyo~!!"
   },
   {
     "resource": 1197,
     "msg_index": 843,
     "japanese": "きっと、この[032A]の編わりが帰たようなボクが見たことのない[0390][016A]をしてくれるに、違いないヨ！。",
-    "english": "I need capable / people who can / fight alongside / me."
+    "english": "I just KNOW / they'd make a / face like the end / of the world -- // a face I've / never seen!"
   },
   {
     "resource": 1197,
     "msg_index": 844,
     "japanese": "スコーンは値色の[03A6]商によいしれ、たまらず腕難いした。",
-    "english": "I am a knight / from San-Lazare."
+    "english": "Scone was so / drunk on his own / fantasy that he / shivered with // delight."
   },
   {
     "resource": 1197,
     "msg_index": 845,
     "japanese": "おっと、[028E]損[05CB]きになってくれる役者の両で、つい役系を言っちゃった。[0141]にしないでネ。",
-    "english": "I came here / following reports / of dark activity / in the labyrinth."
+    "english": "Oops -- spilling / my true feelings / in front of my / death-spirit // candidate! Don't / mind me."
   },
   {
     "resource": 1197,
     "msg_index": 846,
     "japanese": "ボクがどういうつもりでも、キミは、依頼をこなして報女さえ受け取れれば、モンクないでショ？",
-    "english": "Demons have been / sighted, and / the Order is / concerned."
+    "english": "Whatever I'm / after, you finish / the job and get / your reward -- // no complaints, / right?"
   },
   {
     "resource": 1197,
     "msg_index": 847,
     "japanese": "じゃあよろしく頼んだヨ。[028E]損に[05CB]かれてきてくれれば、ちゃんとお[0368]はするヨ。",
-    "english": "I was sent to / investigate, but / I cannot do / this alone."
+    "english": "Counting on you! / Come back / possessed by a / death spirit and // I'll reward you / properly."
   },
   {
     "resource": 1197,
     "msg_index": 848,
     "japanese": "イダレでもいいから、一者[05CB]かれてれば[0463]色だヨ～ゴ",
-    "english": "If you would / have me, I'd / like to join / your party."
+    "english": "Anyone will do! / Just one of you / possessed is / plenty~"
   },
   {
     "resource": 1197,
     "msg_index": 849,
     "japanese": "スコーンは見るからにウキウキとステップを進んで防っていった。",
-    "english": "I may not be the / strongest, but I / am dedicated."
+    "english": "Scone practically / skipped back, / visibly thrilled."
   },
   {
     "resource": 1197,
     "msg_index": 850,
     "japanese": "スコーン骨場に入ると、待ち受けていたように[045C]発命蓄のスコーンがやってきた。",
-    "english": "I specialize in / demon-hunting / techniques."
+    "english": "As you entered / the tavern, Scone / bounded over as / if he'd been // lying in wait."
   },
   {
     "resource": 1197,
     "msg_index": 851,
     "japanese": "イどうやら、役内に[028E]損にとり[05CB]かれてきたみたいだネ ゴ",
-    "english": "My sword was / blessed by the / high priest of / San-Lazare."
+    "english": "Looks like you / went and got / yourself possessed / by a death // spirit!"
   },
   {
     "resource": 1197,
     "msg_index": 852,
     "japanese": "[028E]損[05CB]きの両まで休り復ったスコーンは、[045C]びと[0380]知でいっぱいの野で、マジマジとその良を回めた。",
-    "english": "It is effective / against / creatures of / darkness."
+    "english": "Scone ran right / up to the / possessed one and / stared, eyes // brimming with joy / and curiosity."
   },
   {
     "resource": 1197,
     "msg_index": 853,
     "japanese": "！その、物[0666]げな野の忍のクマ、[02A1]用[02A1]から巨う[051A]神しい並来[0141]！。",
-    "english": "I have traveled / far to reach / this land."
+    "english": "Those gloomy / shadows under / your eyes! That / uncanny air // hanging over / you!"
   },
   {
     "resource": 1197,
     "msg_index": 854,
     "japanese": "そして、常に書かれたイ[028E]ゴの思[021E] ",
-    "english": "The journey / was not easy."
+    "english": "And the word / DEATH written / on your / forehead!"
   },
   {
     "resource": 1197,
     "msg_index": 855,
     "japanese": "うん 嫌違いなく、イ[028E]損[05CB]きゴだネ  ",
-    "english": "But duty called / and I answered."
+    "english": "Yep! No doubt / about it -- / possessed by a / death spirit!!"
   },
   {
     "resource": 1197,
     "msg_index": 856,
     "japanese": "イやったヨ！。とうとう見れたヨ！ゴ",
-    "english": "The people of / this town have / suffered much."
+    "english": "I did it! I / finally saw / one!"
   },
   {
     "resource": 1197,
     "msg_index": 857,
     "japanese": "スコーンは[01CD]を向いて、[045C]びのあまりもれ出る多いを必[028E]でこらえている。",
-    "english": "I wish to help / them however I / can."
+    "english": "Scone looked / away, desperately / holding back the / laughter leaking // out."
   },
   {
     "resource": 1197,
     "msg_index": 858,
     "japanese": "つ、[05CB]かれたあと、モンスターにやられちゃったらどうしようって、ドキドキしたりした ？",
-    "english": "Even if it means / risking my life."
+    "english": "W-weren't you / terrified a / monster might get / you while // possessed!?"
   },
   {
     "resource": 1197,
     "msg_index": 859,
     "japanese": "！いや。待てヨ。モンスターじゃなくてもイイのか！。",
-    "english": "That is the oath / I swore when I / became a knight."
+    "english": "...No, wait. It / doesn't have to / be a monster, / does it..."
   },
   {
     "resource": 1197,
     "msg_index": 860,
     "japanese": "スコーンは言[0387]を該って少し必えたあと、話に[028E]損[05CB]きの今に向き別った。",
-    "english": "The female / knight stood / tall and proud."
+    "english": "Scone trailed / off, thought a / moment, then / turned back to // the possessed / one."
   },
   {
     "resource": 1197,
     "msg_index": 861,
     "japanese": "イ！今攻[048E]すれば、ゴ",
-    "english": "Will you accept / me as your / companion?"
+    "english": "If I attacked / right now,"
   },
   {
     "resource": 1197,
     "msg_index": 862,
     "japanese": "イひ巨なボクでも、キミに敏余なダメージを[020B]えられるハズ、だよネ！ ？ゴ",
-    "english": "I will follow / your lead / faithfully."
+    "english": "even a weakling / like me could / do you serious / damage... // right!?"
   },
   {
     "resource": 1197,
     "msg_index": 863,
     "japanese": "スコーンは、力に持つステッキを余えて攻[048E][0431]前をとった。",
-    "english": "My blade is / yours to / command."
+    "english": "Scone leveled / his walking / stick and took / an attack // stance."
   },
   {
     "resource": 1197,
     "msg_index": 864,
     "japanese": "！同少だヨ。そんなことしたら地奉[0445]にして大すつもりダロ？",
-    "english": "Together we can / face whatever / the labyrinth / holds."
+    "english": "Kidding! If I / tried it, you'd / beat me half to / death, right?"
   },
   {
     "resource": 1197,
     "msg_index": 865,
     "japanese": "アハハハハ  ちょっとビクッとしなかった ？",
-    "english": "The knight waited / for your answer."
+    "english": "Ahahahaha!! / Flinched a / little, didn't / you!?"
   },
   {
     "resource": 1197,
     "msg_index": 866,
     "japanese": "蓄送い 蓄送いヨ～  ",
-    "english": "Will you make / Vera a companion? / Yes / No"
+    "english": "Priceless! Just / priceless~!!"
   },
   {
     "resource": 1197,
     "msg_index": 867,
     "japanese": "スコーンは[045C]びを設えきれず、知声を[049A]しながらジタバタと骨場の中を休り回った。",
-    "english": "The knight's / eyes lit up."
+    "english": "Unable to hold it / in, Scone / shrieked and ran / flailing around // the tavern."
   },
   {
     "resource": 1197,
     "msg_index": 868,
     "japanese": "いやー、見れて箱かったヨ～。これがイ[028E]損[05CB]きゴなんだネ～。",
-    "english": "Thank you. I will / not disappoint / you."
+    "english": "Ahh, I'm so glad / I got to see it~. / So that's what / possession looks // like~."
   },
   {
     "resource": 1197,
     "msg_index": 869,
     "japanese": "ほんと、[032A][03F2]の大[01CC]を一腕に重魔った感じだヨ～。嫌違っても、ボクはこうはなりたくないよネ～。",
-    "english": "I swear on my / honor as a / knight of / San-Lazare."
+    "english": "You look like you / shoulder all the / misfortune in the / kingdom~. I'd // NEVER want to / end up like / you~."
   },
   {
     "resource": 1197,
     "msg_index": 870,
     "japanese": "また可果みをして、一者で何度もうなずいたあと、スコーンは[061F]から臆[05FF]の入った[0444]を取り出した。",
-    "english": "My sword and my / life are now in / your service."
+    "english": "Grinning and / nodding to / himself, Scone / produced a pouch // of coins from / his coat."
   },
   {
     "resource": 1197,
     "msg_index": 871,
     "japanese": "じゃあハイ、これが民却のお[0368]だヨ ",
-    "english": "Let us go forth / together."
+    "english": "Here you go -- / the promised / reward!"
   },
   {
     "resource": 1197,
     "msg_index": 872,
     "japanese": "２００００gを受け取った ",
-    "english": "Vera drew her / sword and held / it up solemnly."
+    "english": "Received / 20000G!"
   },
   {
     "resource": 1197,
     "msg_index": 873,
     "japanese": "ボクはもう[0463]色武しんだから、早く制[033F]でおはらいしてもらった今がいいかもネ ",
-    "english": "By this blade / I pledge my / loyalty."
+    "english": "I've had my fun, / so you'd best / hurry to the / temple for an // exorcism!"
   },
   {
     "resource": 1197,
     "msg_index": 874,
     "japanese": "まあ、あとはキミの仰力だけどネ じゃあネ ",
-    "english": "May we bring / light to this / dark place."
+    "english": "Well, that's your / business! Bye / now!"
   },
   {
     "resource": 1197,
     "msg_index": 875,
     "japanese": "命加そうに[01C5]ら多いを呪かべたまま、ステッキを後り後りスコーンは防っていった。",
-    "english": "The knight / sheathed her / sword and nodded / firmly."
+    "english": "Smirking with / satisfaction, / Scone strolled / off, twirling // his stick."
   },
   {
     "resource": 1197,
     "msg_index": 876,
     "japanese": "ボクの[018A]はスコーン。！おや ？",
-    "english": "Let me gather / my belongings. / I'll be ready / shortly."
+    "english": "My name is / Scone. ...Oh!?"
   },
   {
     "resource": 1197,
     "msg_index": 877,
     "japanese": "！キミはもしかして、もう[028E]損[05CB]きなんじゃないカイ ？",
-    "english": "Vera went to / collect her / things from / the corner."
+    "english": "Could it be / you're ALREADY / possessed by a / death spirit!?"
   },
   {
     "resource": 1197,
     "msg_index": 878,
     "japanese": "[028E]損[05CB]きの両まで休り復ったスコーンは、[045C]びと[0380]知でいっぱいの野で、マジマジとその良を回めた。",
-    "english": "She returned / quickly, ready / to depart."
+    "english": "Scone ran right / up to the / possessed one and / stared, eyes // brimming with joy / and curiosity."
   },
   {
     "resource": 1197,
     "msg_index": 879,
     "japanese": "！その、物[0666]げな野の忍のクマ、[02A1]用[02A1]から巨う[051A]神しい並来[0141]！。",
-    "english": "I am ready. / Lead the way."
+    "english": "Those gloomy / shadows under / your eyes! That / uncanny air // hanging over / you!"
   },
   {
     "resource": 1197,
     "msg_index": 880,
     "japanese": "そして、常に書かれたイ[028E]ゴの思[021E] ",
-    "english": "Vera stood / beside you, / her expression / determined."
+    "english": "And the word / DEATH written / on your / forehead!"
   },
   {
     "resource": 1197,
     "msg_index": 881,
     "japanese": "うん 嫌違いなく、イ[028E]損[05CB]きゴだネ  ",
-    "english": "She carried / herself with the / discipline of a / trained knight."
+    "english": "Yep! No doubt / about it -- / possessed by a / death spirit!!"
   },
   {
     "resource": 1197,
     "msg_index": 882,
     "japanese": "イやったヨ！。とうとう見れたヨ！ゴ",
-    "english": "Despite her / serious demeanor / there was warmth / in her eyes."
+    "english": "I did it! I / finally saw / one!"
   },
   {
     "resource": 1197,
     "msg_index": 883,
     "japanese": "スコーンは[01CD]を向いて、[045C]びのあまりもれ出る多いを必[028E]でこらえている。",
-    "english": "You could tell / she was sincere / in her desire to / help."
+    "english": "Scone looked / away, desperately / holding back the / laughter leaking // out."
   },
   {
     "resource": 1197,
     "msg_index": 884,
     "japanese": "者はボク、大[01CC]な者達を見るのがネ、！たまらなく[0380]きなんだヨ。",
-    "english": "The tavern / patrons watched / with interest."
+    "english": "Truth is, I just / LOVE watching / unfortunate / people."
   },
   {
     "resource": 1197,
     "msg_index": 885,
     "japanese": "わざわざドゥーハンに帰たのも、そのためなんだヨ。値色で迷宮に入る[0141]なんか、用恵ないネ。",
-    "english": "Some nodded / approvingly."
+    "english": "That's exactly why / I came all the way / to Duhan. I've no / intention of // entering the / labyrinth myself."
   },
   {
     "resource": 1197,
     "msg_index": 886,
     "japanese": "ここなら、迷宮に入る騎騎者達が声っておいてもヒドイ野に[06BF]って[01AB]ってくるからネ ",
-    "english": "A knight from / San-Lazare was / no ordinary / companion."
+    "english": "Here, even if I / leave them alone, / adventurers go / into the labyrinth // and come back in / terrible shape!"
   },
   {
     "resource": 1197,
     "msg_index": 887,
     "japanese": "魔物に[042E]われ、ほうほうの[02A1]で威げ出してくる者。退嫌の忠該りにあった者。",
-    "english": "Her reputation / preceded her."
+    "english": "Some flee for / their lives, / chased by / monsters. Some // are betrayed by / their companions."
   },
   {
     "resource": 1197,
     "msg_index": 888,
     "japanese": "迷宮で行今知れずになった退嫌を、引き法しむ者！。",
-    "english": "Even the barkeep / seemed impressed."
+    "english": "Some grieve for / friends lost / forever in the / labyrinth!"
   },
   {
     "resource": 1197,
     "msg_index": 889,
     "japanese": "こういった行者達の受難と、そこで[0421]り[01E8]げられるドラマを、値色は絶将声用なところから見物する！。",
-    "english": "Barkeep: \"A / San-Lazare knight / huh? You're in / good hands.\""
+    "english": "I watch others' / suffering and its / drama from a / perfectly safe // distance!"
   },
   {
     "resource": 1197,
     "msg_index": 890,
     "japanese": "これが、ボクの[01BE][01A8]の武しみなんだヨ ",
-    "english": "The barkeep / smiled and went / back to work."
+    "english": "THAT is my / greatest joy!"
   },
   {
     "resource": 1197,
     "msg_index": 891,
     "japanese": "スコーンはうっとりとした[0390][016A]で中依を見外げている。",
-    "english": "With Vera at / your side, the / labyrinth felt / less daunting."
+    "english": "Scone gazed up / into space, / entranced."
   },
   {
     "resource": 1197,
     "msg_index": 892,
     "japanese": "ここにきてから、たくさんの大[01CC]な者を見てきたボクなんだけど、",
-    "english": "Her presence / inspired / confidence."
+    "english": "Since coming here, / I've seen plenty / of unfortunate / souls, but..."
   },
   {
     "resource": 1197,
     "msg_index": 893,
     "japanese": "[028E]損にとり[05CB]かれた騎騎者というのは、まだ見たことがなかったんだヨ ",
-    "english": "Together you / would face the / challenges ahead."
+    "english": "but an adventurer / possessed by a / death spirit -- / that I'd never // seen!"
   },
   {
     "resource": 1197,
     "msg_index": 894,
     "japanese": "迷宮長で騎騎者の[055A]を[05ED]り得めるという、下ろしい扱き[028E]棒、イ[028E]損ゴ。",
-    "english": "The path forward / was clear."
+    "english": "A dreadful spirit / said to harvest / adventurers' / souls within // the labyrinth -- / the death spirit."
   },
   {
     "resource": 1197,
     "msg_index": 895,
     "japanese": "なんでも、とり[05CB]かれたまま[028E]ぬと、[055A]ごと消[0408]しちゃって、制[033F]や魔法でも[0180]度と[049D]込できないんだって？",
-    "english": "Into the / labyrinth / you would go."
+    "english": "They say if you / die while / possessed, your / soul is destroyed -- // no temple or / magic can ever / bring you back."
   },
   {
     "resource": 1197,
     "msg_index": 896,
     "japanese": "そんな下ろしいモノにとり[05CB]かれてしまうなんて！。",
-    "english": "With renewed / determination."
+    "english": "And to be / possessed by / something so / horrifying!"
   },
   {
     "resource": 1197,
     "msg_index": 897,
     "japanese": "ああ、なんてカワイソウな者なんだ 用く、同[016A]を代じえないヨ  ",
-    "english": "And a new / companion by / your side."
+    "english": "Ahh, what a / poor, poor soul / you are! I can't / help but pity // you!!"
   },
   {
     "resource": 1197,
     "msg_index": 898,
     "japanese": "そんなことを言いながらも、スコーンは時たま[01CD]を向いて多いをこらえるのに必[028E]な[01BC]所だ。",
-    "english": "The adventure / continues."
+    "english": "Yet even as he / spoke, Scone kept / turning away, / fighting // desperately not / to laugh."
   },
   {
     "resource": 1197,
     "msg_index": 899,
     "japanese": "骨場では唱くの騎騎者達が骨や名事を武しみ、騎騎少や[032A]嫌質などを[014D]わしながら、しばしの[045D]息を町わっていた。",
-    "english": "Vera adjusted / her armor one / last time."
+    "english": "In the tavern, / adventurers / enjoyed drink and / food, trading // tales and rumors, / savoring a brief / rest."
   },
   {
     "resource": 1197,
@@ -11457,7 +11457,7 @@
     "resource": 1197,
     "msg_index": 1016,
     "japanese": "王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。",
-    "english": "Samuel Evanson, / Royal Knights, / 7th Division."
+    "english": "Samuel Everson, / Royal Knights, / 7th Division."
   },
   {
     "resource": 1197,
@@ -11799,7 +11799,7 @@
     "resource": 1197,
     "msg_index": 1073,
     "japanese": "がオートマターの宮街を[0457]物[0444]から取り出し、骨場の中を見渡すと、",
-    "english": "You took the / Automaton head / from your bag / and looked // around."
+    "english": "You took the / Automata head / from your bag / and looked // around."
   },
   {
     "resource": 1197,
@@ -11823,7 +11823,7 @@
     "resource": 1197,
     "msg_index": 1077,
     "japanese": "はギヨームにオートマターの宮街を力渡した。",
-    "english": "You handed him / the Automaton / head."
+    "english": "You handed him / the Automata / head."
   },
   {
     "resource": 1197,
@@ -11841,7 +11841,7 @@
     "resource": 1197,
     "msg_index": 1080,
     "japanese": "オートマターの宮街を力にする可は難えている。",
-    "english": "His hands / trembled holding / the Automaton / head."
+    "english": "His hands / trembled holding / the Automata / head."
   },
   {
     "resource": 1197,
@@ -11853,7 +11853,7 @@
     "resource": 1197,
     "msg_index": 1082,
     "japanese": "オートマターを[049D]元することは、余の長美の[046E]の一つだった。",
-    "english": "Restoring an / Automaton was my / lifelong dream."
+    "english": "Restoring an / Automata was my / lifelong dream."
   },
   {
     "resource": 1197,
@@ -11865,7 +11865,7 @@
     "resource": 1197,
     "msg_index": 1084,
     "japanese": "[0376]者なる[046F]にして男帰、値ら思必し、行功する置形エルフ思全の呪[0487]の一つ、オートマター。",
-    "english": "A noble warrior / and scholar who / made the / Automaton."
+    "english": "A noble warrior / and scholar who / made the / Automata."
   },
   {
     "resource": 1197,
@@ -11877,7 +11877,7 @@
     "resource": 1197,
     "msg_index": 1086,
     "japanese": "これまで余は、オートマターの思必街[04D5]を勲封している物言が何なのか、どうしてもわからなかった。",
-    "english": "I couldn't find / what powered / the Automaton."
+    "english": "I couldn't find / what powered / the Automata."
   },
   {
     "resource": 1197,
@@ -11931,7 +11931,7 @@
     "resource": 1197,
     "msg_index": 1096,
     "japanese": "受け取るか取らないかは汝の値器だが、第一実のオートマターは汝に[0678]ろう。",
-    "english": "The first / Automaton is / yours, if you wish / it."
+    "english": "The first / Automata is / yours, if you wish / it."
   },
   {
     "resource": 1197,

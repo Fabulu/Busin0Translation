@@ -171,7 +171,7 @@
     "resource": 39,
     "msg_index": 125,
     "japanese": "メガデス",
-    "english": "Megadeath"
+    "english": "Megadeth"
   },
   {
     "resource": 39,
@@ -285,7 +285,7 @@
     "resource": 39,
     "msg_index": 144,
     "japanese": "リュミル",
-    "english": "Lumiel"
+    "english": "Lumil"
   },
   {
     "resource": 39,
@@ -1431,19 +1431,19 @@
     "resource": 39,
     "msg_index": 335,
     "japanese": "アレイドアクションを全て外しました",
-    "english": "All Alleid Actions have been removed."
+    "english": "All Allied Actions have been removed."
   },
   {
     "resource": 39,
     "msg_index": 336,
     "japanese": "アレイドアクションが一つもセットされていません",
-    "english": "No Alleid Actions are currently set."
+    "english": "No Allied Actions are currently set."
   },
   {
     "resource": 39,
     "msg_index": 337,
     "japanese": "アレイドアクションのセッティングを元に帰しました",
-    "english": "Alleid Action settings have been reset."
+    "english": "Allied Action settings have been reset."
   },
   {
     "resource": 39,
@@ -1563,7 +1563,7 @@
     "resource": 39,
     "msg_index": 357,
     "japanese": "クンナルっていう腕色の悪い冒書事持が\nいるんだけど、そいつがどっか行っちゃって\nこまってるの \n悪いけど探して、見かけたらとっとと\n帰ってこいって言ってくれないかな～？",
-    "english": "A shady adventurer named Kunnar has gone\nmissing somewhere. I'm in trouble.\nPlease find him and tell him\nto come back immediately."
+    "english": "A shady adventurer named Kunnal has gone\nmissing somewhere. I'm in trouble.\nPlease find him and tell him\nto come back immediately."
   },
   {
     "resource": 39,
@@ -1587,7 +1587,7 @@
     "resource": 39,
     "msg_index": 361,
     "japanese": "一人前の騎事持になるために、日手避行を\nしているエルフの女の子メラーニエと\nそのマネージャーのミリィです \nたくさん騎法を覚えたいので、冒書事持の\nいるパーティにいれてください",
-    "english": "I'm Melanie, an elf girl training daily\nto become a full-fledged mage,\nand my manager Miri.\nI want to learn lots of spells, so please\nlet me join a party with adventurers."
+    "english": "I'm Melanie, an elf girl training daily\nto become a full-fledged mage,\nand my manager Milly.\nI want to learn lots of spells, so please\nlet me join a party with adventurers."
   },
   {
     "resource": 39,
@@ -1695,7 +1695,7 @@
     "resource": 39,
     "msg_index": 379,
     "japanese": "ミリィ",
-    "english": "Miri"
+    "english": "Milly"
   },
   {
     "resource": 39,
@@ -1749,7 +1749,7 @@
     "resource": 39,
     "msg_index": 388,
     "japanese": "ローミ",
-    "english": "Lomi"
+    "english": "Romi"
   },
   {
     "resource": 39,
@@ -1773,7 +1773,7 @@
     "resource": 39,
     "msg_index": 392,
     "japanese": "ラング",
-    "english": "Rang"
+    "english": "Lang"
   },
   {
     "resource": 39,

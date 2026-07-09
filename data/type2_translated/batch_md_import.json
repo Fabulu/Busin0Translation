@@ -213,7 +213,7 @@
     "resource": 1197,
     "msg_index": 314,
     "japanese": "[0x06B0]解を力に入れた!",
-    "english": "Got the [0x06B0] key!"
+    "english": "Obtained the / Nagasone Kotetsu!"
   },
   {
     "resource": 1197,
@@ -375,7 +375,7 @@
     "resource": 1199,
     "msg_index": 213,
     "japanese": "クレタ",
-    "english": "Creta"
+    "english": "Kreta"
   },
   {
     "resource": 1200,
@@ -465,13 +465,13 @@
     "resource": 1202,
     "msg_index": 93,
     "japanese": "値色はだと言った_",
-    "english": "said it was the price"
+    "english": "You told him your class."
   },
   {
     "resource": 1202,
     "msg_index": 111,
     "japanese": "値色はだと言った_",
-    "english": "said it was the price"
+    "english": "You told him your class."
   },
   {
     "resource": 1202,
@@ -1287,7 +1287,7 @@
     "resource": 1206,
     "msg_index": 693,
     "japanese": "リュ}トです!!",
-    "english": "I am Ryut!!"
+    "english": "I am Lute!!"
   },
   {
     "resource": 1206,
@@ -2392,5 +2392,17 @@
     "msg_index": 0,
     "japanese": "ダミ}テキスト!",
     "english": "Dummy text!"
+  },
+  {
+    "resource": 1206,
+    "msg_index": 737,
+    "japanese": "それでは、汝も[0141]をつけてな。",
+    "english": "Well then, you / take care too."
+  },
+  {
+    "resource": 1206,
+    "msg_index": 738,
+    "japanese": "場にマクベインという与には[0141]を[01E4]さないことだ。書向な与と聞く。",
+    "english": "Don't trust the / man called / MacBain. I hear / he's dangerous."
   }
 ]

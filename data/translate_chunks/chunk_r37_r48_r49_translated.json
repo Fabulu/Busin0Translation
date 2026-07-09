@@ -741,13 +741,13 @@
     "resource": 49,
     "message": 3,
     "japanese": "(r49 msg 4)",
-    "english": "The switch is off. / the switch was / turned on. /"
+    "english": "The switch is off. / The switch was / turned on. /"
   },
   {
     "resource": 49,
     "message": 4,
     "japanese": "(r49 msg 5)",
-    "english": "The switch is on. / the switch was / turned off. /"
+    "english": "The switch is on. / The switch was / turned off. /"
   },
   {
     "resource": 49,
@@ -939,7 +939,7 @@
     "resource": 49,
     "message": 36,
     "japanese": "(r49 msg 37)",
-    "english": "Inventory is full. / drop something? / "
+    "english": "Inventory is full. / Drop something? / "
   },
   {
     "resource": 49,
@@ -1041,7 +1041,7 @@
     "resource": 49,
     "message": 53,
     "japanese": "(r49 msg 54)",
-    "english": "Move via ladder? / cancel: x button / "
+    "english": "Move via ladder? / Cancel: X button / "
   },
   {
     "resource": 49,
@@ -1131,7 +1131,7 @@
     "resource": 49,
     "message": 68,
     "japanese": "(r49 msg 69)",
-    "english": "Used the key. / the key crumbled. /"
+    "english": "Used the key. / The key crumbled. /"
   },
   {
     "resource": 49,
@@ -1203,7 +1203,7 @@
     "resource": 49,
     "message": 80,
     "japanese": "(r49 msg 81)",
-    "english": "Flames are blazing. / jumping down seems / dangerous. / "
+    "english": "Flames are blazing. / Jumping down seems / dangerous. / "
   },
   {
     "resource": 49,

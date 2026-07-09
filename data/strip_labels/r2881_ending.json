@@ -1,5 +1,5 @@
 {
- "_comment": "R2881 sub7 — pre-rendered ENDING / EPILOGUE narration pages. PER-WINDOW SLOT model (v94), mirroring R2880. Two 512x512 PSMT4 pages (img0 @file 1978608, img1 @file 2109744; inverted ramp bg=15/ink=0, bw_psmt4=512, dbw_ct32=256). Each page is a two-column poetic layout: a LEFT column window [0,232] and a RIGHT column window [256,512], with a 24px BLANK gutter dead-zone at x=232..256 that is NEVER inked (mirrors R2880's split-row dead-zones). A few rows are single CENTERED windows (img0 bands 8,9). Each row band i (24px pitch, top=i*24+1) lists 'windows' ([x0,x1] texels) and 'segs' (one English segment per window). patch_r2881_ending.py draws seg[k] left-aligned at windows[k][0]+left_pad and HARD-ASSERTS ink width <= window width; the clear+verify step guarantees the gutter dead-zone stays bg=15. English condensed from the v86 transcription to fit each window at 16px bold. NO ending GS dump exists; windows inferred from the JP page two-column ink structure on the 24px grid (build/recon_cine/ending). Names: Venoa, Oriana, Queen Guard, Alaid, Ashira.",
+ "_comment": "R2881 sub7 — pre-rendered ENDING / EPILOGUE narration pages. PER-WINDOW SLOT model (v94), mirroring R2880. Two 512x512 PSMT4 pages (img0 @file 1978608, img1 @file 2109744; inverted ramp bg=15/ink=0, bw_psmt4=512, dbw_ct32=256). Each page is a two-column poetic layout: a LEFT column window [0,232] and a RIGHT column window [256,512], with a 24px BLANK gutter dead-zone at x=232..256 that is NEVER inked (mirrors R2880's split-row dead-zones). A few rows are single CENTERED windows (img0 bands 8,9). Each row band i (24px pitch, top=i*24+1) lists 'windows' ([x0,x1] texels) and 'segs' (one English segment per window). patch_r2881_ending.py draws seg[k] left-aligned at windows[k][0]+left_pad and HARD-ASSERTS ink width <= window width; the clear+verify step guarantees the gutter dead-zone stays bg=15. English condensed from the v86 transcription to fit each window at 16px bold. NO ending GS dump exists; windows inferred from the JP page two-column ink structure on the 24px grid (build/recon_cine/ending). Names: Venoa, Oriana, Queen Guard, Allied, Ashira.",
  "layout": {
   "left_pad": 2,
   "band_height": 23,
@@ -661,7 +661,7 @@
       ]
      ],
      "segs": [
-      "the great Alaid made flesh —",
+      "the great Allied made flesh —",
       "had they but heard it..."
      ]
     },

@@ -1,0 +1,6974 @@
+[
+ {
+  "resource": 1196,
+  "msg_index": 23,
+  "file": "batch_01.json",
+  "old": "Girl: What? / Standing there is / bad for business, / you know!",
+  "new": "Girl: What? Standing there is / bad for business, you know!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 24,
+  "file": "batch_01.json",
+  "old": "Since you bothered / me, buy something / to make up for it!",
+  "new": "Since you bothered me, buy / something to make up for it!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 27,
+  "file": "batch_01.json",
+  "old": "Good choice~! Look / at the goods. / They're really / great!",
+  "new": "Good choice~! Look at the / goods. They're really great!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 28,
+  "file": "batch_01.json",
+  "old": "What's your deal? / You're annoying!",
+  "new": "What's your deal? You're / annoying!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 29,
+  "file": "batch_01.json",
+  "old": "If you're not / buying, stop / standing in front / of my shop!",
+  "new": "If you're not buying, stop / standing in front of my shop!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 31,
+  "file": "batch_01.json",
+  "old": "Girl: Oh, you / again? I'm so / charming you just / can't stay away~",
+  "new": "Girl: Oh, you again? I'm so / charming you just can't stay / away~"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 32,
+  "file": "batch_01.json",
+  "old": "Since you came / back, you'll buy / something, right?",
+  "new": "Since you came back, you'll buy / something, right?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 34,
+  "file": "batch_01.json",
+  "old": "What's your deal? / You're annoying!",
+  "new": "What's your deal? You're / annoying!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 35,
+  "file": "batch_01.json",
+  "old": "If you're not / buying, stop / standing in front / of my shop!",
+  "new": "If you're not buying, stop / standing in front of my shop!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 37,
+  "file": "batch_01.json",
+  "old": "Good choice~! Look / at the goods. / They're really / great!",
+  "new": "Good choice~! Look at the / goods. They're really great!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 42,
+  "file": "batch_01.json",
+  "old": "Sure, I'll sell it / to you. Thanks~!",
+  "new": "Sure, I'll sell it to you. / Thanks~!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 44,
+  "file": "batch_01.json",
+  "old": "Sure, I'll sell it / to you. Thanks~!",
+  "new": "Sure, I'll sell it to you. / Thanks~!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 46,
+  "file": "batch_01.json",
+  "old": "Sure, I'll sell it / to you. Thanks~!",
+  "new": "Sure, I'll sell it to you. / Thanks~!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 48,
+  "file": "batch_01.json",
+  "old": "Sure, I'll sell it / to you. Thanks~!",
+  "new": "Sure, I'll sell it to you. / Thanks~!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 50,
+  "file": "batch_01.json",
+  "old": "If you're not / buying, stop / standing in front / of my shop!",
+  "new": "If you're not buying, stop / standing in front of my shop!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 52,
+  "file": "batch_01.json",
+  "old": "What? Your pack is / full! Come back / when you have / room!",
+  "new": "What? Your pack is full! / Come back when you have room!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 53,
+  "file": "batch_01.json",
+  "old": "If you're not / buying, get going / already!",
+  "new": "If you're not buying, get going / already!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 55,
+  "file": "batch_01.json",
+  "old": "What? You don't / have enough money? / Being poor is / tough!",
+  "new": "What? You don't have enough / money? Being poor is tough!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 56,
+  "file": "batch_01.json",
+  "old": "If you're not / buying, get going / already!",
+  "new": "If you're not buying, get going / already!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 74,
+  "file": "batch_01.json",
+  "old": "Zel: We all / stumble, trying to / cross to the other / side,",
+  "new": "Zel: We all stumble, trying to / cross to the other side,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 75,
+  "file": "batch_01.json",
+  "old": "but at some point, / the thread snaps / and we fall.",
+  "new": "but at some point, the thread / snaps and we fall."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 76,
+  "file": "batch_01.json",
+  "old": "There is no / savior. If one / exists, they / merely watch.",
+  "new": "There is no savior. If one / exists, they merely watch."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 77,
+  "file": "batch_01.json",
+  "old": "Do you think me / a fool?",
+  "new": "Do you think me a fool?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 78,
+  "file": "batch_01.json",
+  "old": "Those who fought / in that war share / the same thoughts.",
+  "new": "Those who fought in that war / share the same thoughts."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 80,
+  "file": "batch_01.json",
+  "old": "Before the great / power, lords and / armies are / useless.",
+  "new": "Before the great power, / lords and armies are useless."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 82,
+  "file": "batch_01.json",
+  "old": "Until the great / war, Venoa had / been plagued by / conflict.",
+  "new": "Until the great war, Venoa had / been plagued by conflict."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 108,
+  "file": "batch_01.json",
+  "old": "Their own king / had conspired with / the enemy.",
+  "new": "Their own king had conspired / with the enemy."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 109,
+  "file": "batch_01.json",
+  "old": "A secret deal / had been struck / behind the scenes.",
+  "new": "A secret deal had been struck / behind the scenes."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 110,
+  "file": "batch_01.json",
+  "old": "The terms: land / and Simzon's head.",
+  "new": "The terms: land and Simzon's / head."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 111,
+  "file": "batch_01.json",
+  "old": "To San-Goat's / king, Simzon was a / constant threat.",
+  "new": "To San-Goat's king, Simzon / was a constant threat."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 113,
+  "file": "batch_01.json",
+  "old": "On the / battlefield, / Simzon could never / have known this.",
+  "new": "On the battlefield, Simzon / could never have known this."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 114,
+  "file": "batch_01.json",
+  "old": "But he learned of / the betrayal.",
+  "new": "But he learned of the betrayal."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 115,
+  "file": "batch_01.json",
+  "old": "Because he / survived.",
+  "new": "Because he survived."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 118,
+  "file": "batch_01.json",
+  "old": "Lord Webster bears / no blame. He too / was a victim.",
+  "new": "Lord Webster bears no blame. / He too was a victim."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 119,
+  "file": "batch_01.json",
+  "old": "Lord Webster, / Ferry de Rufour,",
+  "new": "Lord Webster, Ferry de Rufour,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 120,
+  "file": "batch_01.json",
+  "old": "His real name is / Philibert de / Navarre, a noble / of Duhan.",
+  "new": "His real name is Philibert de / Navarre, a noble of Duhan."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 121,
+  "file": "batch_01.json",
+  "old": "Simzon was one of / the few survivors / of the great war.",
+  "new": "Simzon was one of the few / survivors of the great war."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 122,
+  "file": "batch_01.json",
+  "old": "I only recently / learned he / survived.",
+  "new": "I only recently learned he / survived."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 123,
+  "file": "batch_01.json",
+  "old": "Someone at the / Holy See quietly / told me.",
+  "new": "Someone at the Holy See / quietly told me."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 124,
+  "file": "batch_01.json",
+  "old": "But Simzon knew / the truth and / did nothing.",
+  "new": "But Simzon knew the truth and / did nothing."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 125,
+  "file": "batch_01.json",
+  "old": "He said: 'He too / is needed in / Duhan. Let him / be.'",
+  "new": "He said: 'He too is needed in / Duhan. Let him be.'"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 126,
+  "file": "batch_01.json",
+  "old": "You may wonder why / I tell you this.",
+  "new": "You may wonder why I tell you / this."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 127,
+  "file": "batch_01.json",
+  "old": "You may be the one / they've been / waiting for.",
+  "new": "You may be the one they've / been waiting for."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 128,
+  "file": "batch_01.json",
+  "old": "To defeat that / which devours all.",
+  "new": "To defeat that which devours / all."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 129,
+  "file": "batch_01.json",
+  "old": "Please accept this / gift. You've / earned my trust.",
+  "new": "Please accept this gift. / You've earned my trust."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 133,
+  "file": "batch_01.json",
+  "old": "I told the Guild / about you. Go / see them.",
+  "new": "I told the Guild about you. / Go see them."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 134,
+  "file": "batch_01.json",
+  "old": "Someone of your / caliber has great / potential.",
+  "new": "Someone of your caliber has / great potential."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 139,
+  "file": "batch_01.json",
+  "old": "Lute: Emilia, / everyone lost hope / since Simzon left.",
+  "new": "Lute: Emilia, everyone lost / hope since Simzon left."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 140,
+  "file": "batch_01.json",
+  "old": "Simzon took only / a few knights to / the labyrinth.",
+  "new": "Simzon took only a few knights / to the labyrinth."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 141,
+  "file": "batch_01.json",
+  "old": "Of course everyone / tried to stop him.",
+  "new": "Of course everyone tried to / stop him."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 143,
+  "file": "batch_01.json",
+  "old": "He left Duhan / to you and the / princess.",
+  "new": "He left Duhan to you and the / princess."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 144,
+  "file": "batch_01.json",
+  "old": "Ask the princess / why Simzon trusted / you as well.",
+  "new": "Ask the princess why Simzon / trusted you as well."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 145,
+  "file": "batch_01.json",
+  "old": "Please, this way. / The princess / awaits you.",
+  "new": "Please, this way. The princess / awaits you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 149,
+  "file": "batch_01.json",
+  "old": "Oriana: Zel, I / heard you / accepted.",
+  "new": "Oriana: Zel, I heard you / accepted."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 150,
+  "file": "batch_01.json",
+  "old": "First, let me / give my thanks.",
+  "new": "First, let me give my thanks."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 152,
+  "file": "batch_01.json",
+  "old": "What I'm about / to say may seem / unbelievable.",
+  "new": "What I'm about to say may seem / unbelievable."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 153,
+  "file": "batch_01.json",
+  "old": "But please, / hear me out.",
+  "new": "But please, hear me out."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 154,
+  "file": "batch_01.json",
+  "old": "It is connected to / the curse on / Duhan.",
+  "new": "It is connected to the curse on / Duhan."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 156,
+  "file": "batch_01.json",
+  "old": "While I lay there, / I had a vision.",
+  "new": "While I lay there, I had a / vision."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 157,
+  "file": "batch_01.json",
+  "old": "A terrifying / vision that made / my eyes water.",
+  "new": "A terrifying vision that made / my eyes water."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 158,
+  "file": "batch_01.json",
+  "old": "My homeland / consumed by flames / before my eyes.",
+  "new": "My homeland consumed by / flames before my eyes."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 159,
+  "file": "batch_01.json",
+  "old": "I was inside the / swirling flames.",
+  "new": "I was inside the swirling / flames."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 160,
+  "file": "batch_01.json",
+  "old": "Everything dear, / everything sacred, / vanishing.",
+  "new": "Everything dear, everything / sacred, vanishing."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 161,
+  "file": "batch_01.json",
+  "old": "The former / master's cries / echoed.",
+  "new": "The former master's cries / echoed."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 162,
+  "file": "batch_01.json",
+  "old": "They wage war / for war's sake, / without mercy.",
+  "new": "They wage war for war's sake, / without mercy."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 163,
+  "file": "batch_01.json",
+  "old": "They destroyed all / life on the land / as they wished.",
+  "new": "They destroyed all life on the / land as they wished."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 164,
+  "file": "batch_01.json",
+  "old": "A voice from / a distant era!",
+  "new": "A voice from a distant era!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 165,
+  "file": "batch_01.json",
+  "old": "Neither Duhan nor / any Venoan land / is touched yet.",
+  "new": "Neither Duhan nor any Venoan / land is touched yet."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 166,
+  "file": "batch_01.json",
+  "old": "I saw that / catastrophe / in my vision!",
+  "new": "I saw that catastrophe in my / vision!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 168,
+  "file": "batch_01.json",
+  "old": "Have you met / the former master / of this floor?",
+  "new": "Have you met the former / master of this floor?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 169,
+  "file": "batch_01.json",
+  "old": "An entity dwelling / in all darkness, / absolute evil,",
+  "new": "An entity dwelling in all / darkness, absolute evil,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 170,
+  "file": "batch_01.json",
+  "old": "known as / 'The Devourer.'",
+  "new": "known as 'The Devourer.'"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 171,
+  "file": "batch_01.json",
+  "old": "Father fought / The Devourer at / Banquo's fortress.",
+  "new": "Father fought The Devourer at / Banquo's fortress."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 172,
+  "file": "batch_01.json",
+  "old": "I learned this / from Zel recently.",
+  "new": "I learned this from Zel / recently."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 173,
+  "file": "batch_01.json",
+  "old": "Father was drawn / to seek The / Devourer's source.",
+  "new": "Father was drawn to seek The / Devourer's source."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 174,
+  "file": "batch_01.json",
+  "old": "He said: if one / can pass on the / will after death,",
+  "new": "He said: if one can pass on the / will after death,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 175,
+  "file": "batch_01.json",
+  "old": "that becomes the / key to saving / Duhan.",
+  "new": "that becomes the key to saving / Duhan."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 178,
+  "file": "batch_01.json",
+  "old": "The labyrinth / exists to find / the worthy.",
+  "new": "The labyrinth exists to find the / worthy."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 179,
+  "file": "batch_01.json",
+  "old": "If this plan / fails, not just / Duhan but all / Venoa will fall.",
+  "new": "If this plan fails, not just / Duhan but all Venoa will fall."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 180,
+  "file": "batch_01.json",
+  "old": "However, you / were born.",
+  "new": "However, you were born."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 181,
+  "file": "batch_01.json",
+  "old": "His Majesty barely / made it in time.",
+  "new": "His Majesty barely made it in / time."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 183,
+  "file": "batch_01.json",
+  "old": "You must have / things to say. But / please know this / at least.",
+  "new": "You must have things to say. / But please know this at least."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 185,
+  "file": "batch_01.json",
+  "old": "The Devourer. And / that one will lead / Duhan's future.",
+  "new": "The Devourer. And that one / will lead Duhan's future."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 186,
+  "file": "batch_01.json",
+  "old": "You truly have / that quality.",
+  "new": "You truly have that quality."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 188,
+  "file": "batch_01.json",
+  "old": "I too shall head / to the labyrinth.",
+  "new": "I too shall head to the / labyrinth."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 191,
+  "file": "batch_01.json",
+  "old": "in time since / Banquo. Where our / comrades perished!",
+  "new": "in time since Banquo. Where / our comrades perished!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 192,
+  "file": "batch_01.json",
+  "old": "I know what His / Majesty is trying / to seal away.",
+  "new": "I know what His Majesty is / trying to seal away."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 193,
+  "file": "batch_01.json",
+  "old": "At times like / these, I wish I / too had the / strength to help!",
+  "new": "At times like these, I wish I too / had the strength to help!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 196,
+  "file": "batch_01.json",
+  "old": "This brooch I / received. I hope / it may be of some / use.",
+  "new": "This brooch I received. / I hope it may be of some use."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 197,
+  "file": "batch_01.json",
+  "old": "It is said among / the elves to ward / off evil magic.",
+  "new": "It is said among the elves to / ward off evil magic."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 206,
+  "file": "batch_01.json",
+  "old": "labyrinth! It / feels so / nostalgic, it / almost brings me",
+  "new": "labyrinth! It feels so nostalgic, / it almost brings me"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 208,
+  "file": "batch_01.json",
+  "old": "Father said this / Duhan is cursed.",
+  "new": "Father said this Duhan is / cursed."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 209,
+  "file": "batch_01.json",
+  "old": "This spell has / plagued us far / longer than known.",
+  "new": "This spell has plagued us far / longer than known."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 211,
+  "file": "batch_01.json",
+  "old": "If anyone can end / this spell, it can / only be you.",
+  "new": "If anyone can end this spell, / it can only be you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 213,
+  "file": "batch_01.json",
+  "old": "I can only return / to the castle, but / I pray for you.",
+  "new": "I can only return to the castle, / but I pray for you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 215,
+  "file": "batch_01.json",
+  "old": "Belgrano. Just / now, I received a / report from Zel's / unit.",
+  "new": "Belgrano. Just now, I received / a report from Zel's unit."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 216,
+  "file": "batch_01.json",
+  "old": "It seems you found / His Majesty's / keepsake. Thank / you.",
+  "new": "It seems you found His / Majesty's keepsake. Thank you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 218,
+  "file": "batch_01.json",
+  "old": "expose the truth. / Now then, His / Majesty awaits.",
+  "new": "expose the truth. Now then, / His Majesty awaits."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 226,
+  "file": "batch_01.json",
+  "old": "What are the / guards doing?!",
+  "new": "What are the guards doing?!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 228,
+  "file": "batch_01.json",
+  "old": "Throw him out / at once!",
+  "new": "Throw him out at once!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 232,
+  "file": "batch_01.json",
+  "old": "Wesbell, a rune / knight of Gilten, / was renowned for",
+  "new": "Wesbell, a rune knight of / Gilten, was renowned for"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 233,
+  "file": "batch_01.json",
+  "old": "his speed. The / magicians of old / Irikia could move",
+  "new": "his speed. The magicians of old / Irikia could move"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 234,
+  "file": "batch_01.json",
+  "old": "mountains with / their power. But / they are all dead.",
+  "new": "mountains with their power. / But they are all dead."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 235,
+  "file": "batch_01.json",
+  "old": "That woman killed / them! The great / kingdom no longer",
+  "new": "That woman killed them! / The great kingdom no longer"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 238,
+  "file": "batch_01.json",
+  "old": "Wesbell thinks? / I am not that / sharp.",
+  "new": "Wesbell thinks? I am not that / sharp."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 239,
+  "file": "batch_01.json",
+  "old": "But you did not / come here just / to visit.",
+  "new": "But you did not come here just / to visit."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 240,
+  "file": "batch_01.json",
+  "old": "Grand Magician / Wesbell, what do / you want to say,",
+  "new": "Grand Magician Wesbell, / what do you want to say,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 241,
+  "file": "batch_01.json",
+  "old": "bringing up the / old kingdom? What / are you hiding,",
+  "new": "bringing up the old kingdom? / What are you hiding,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 242,
+  "file": "batch_01.json",
+  "old": "Ortrud? Why has / Duhan survived?",
+  "new": "Ortrud? Why has Duhan / survived?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 243,
+  "file": "batch_01.json",
+  "old": "All these years, / why has that woman / done nothing?",
+  "new": "All these years, why has that / woman done nothing?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 244,
+  "file": "batch_01.json",
+  "old": "If she became / serious, she could / not only curse",
+  "new": "If she became serious, / she could not only curse"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 245,
+  "file": "batch_01.json",
+  "old": "your bloodline but / easily destroy / Duhan. You surely",
+  "new": "your bloodline but easily / destroy Duhan. You surely"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 246,
+  "file": "batch_01.json",
+  "old": "know something. / Tell me.",
+  "new": "know something. Tell me."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 247,
+  "file": "batch_01.json",
+  "old": "Enough, Wesbell. / Things are dire / enough as it is.",
+  "new": "Enough, Wesbell. Things are / dire enough as it is."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 248,
+  "file": "batch_01.json",
+  "old": "My body has been / cursed, and my / people suffer more",
+  "new": "My body has been cursed, / and my people suffer more"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 250,
+  "file": "batch_01.json",
+  "old": "trade. You have / seen how Duhan has / fallen into ruin.",
+  "new": "trade. You have seen how / Duhan has fallen into ruin."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 251,
+  "file": "batch_01.json",
+  "old": "And you want me to / bear even more?",
+  "new": "And you want me to bear even / more?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 252,
+  "file": "batch_01.json",
+  "old": "I simply want / to know.",
+  "new": "I simply want to know."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 253,
+  "file": "batch_01.json",
+  "old": "The one hailed as / the Holy King, who / brought peace to",
+  "new": "The one hailed as the Holy / King, who brought peace to"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 254,
+  "file": "batch_01.json",
+  "old": "war-torn Venoa -- / why now, when the / kingdom is under",
+  "new": "war-torn Venoa -- why now, / when the kingdom is under"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 255,
+  "file": "batch_01.json",
+  "old": "threat, do you / only let the witch / roam free?",
+  "new": "threat, do you only let the / witch roam free?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 257,
+  "file": "batch_01.json",
+  "old": "plight. Wesbell, / enough pretense. / What do you want",
+  "new": "plight. Wesbell, enough / pretense. What do you want"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 258,
+  "file": "batch_01.json",
+  "old": "to say? That I / have some secret / pact with Aurora?",
+  "new": "to say? That I have some secret / pact with Aurora?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 259,
+  "file": "batch_01.json",
+  "old": "That the witch / spares me, curses / my body, and",
+  "new": "That the witch spares me, / curses my body, and"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 260,
+  "file": "batch_01.json",
+  "old": "created the / labyrinth? Hmph, / ridiculous!",
+  "new": "created the labyrinth? Hmph, / ridiculous!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 261,
+  "file": "batch_01.json",
+  "old": "If you have time / for such nonsense, / join the strike / force!",
+  "new": "If you have time for such / nonsense, join the strike force!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 262,
+  "file": "batch_01.json",
+  "old": "Hmm! So you're / saying it's fine / if I go myself?",
+  "new": "Hmm! So you're saying it's fine / if I go myself?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 264,
+  "file": "batch_01.json",
+  "old": "And I look forward / to it. That is my / only wish.",
+  "new": "And I look forward to it. / That is my only wish."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 265,
+  "file": "batch_01.json",
+  "old": "Very well. I shall / gather comrades / and enter the maze.",
+  "new": "Very well. I shall gather / comrades and enter the maze."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 267,
+  "file": "batch_01.json",
+  "old": "Zel: Your Majesty, / urgent news!",
+  "new": "Zel: Your Majesty, urgent / news!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 269,
+  "file": "batch_01.json",
+  "old": "Langobalt. / What shall we do?",
+  "new": "Langobalt. What shall we do?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 270,
+  "file": "batch_01.json",
+  "old": "My, today is full / of surprises.",
+  "new": "My, today is full of surprises."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 271,
+  "file": "batch_01.json",
+  "old": "And what prompted / Lord Webster to / act on his own?",
+  "new": "And what prompted Lord / Webster to act on his own?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 272,
+  "file": "batch_01.json",
+  "old": "His Majesty's / keepsake was found / in the labyrinth.",
+  "new": "His Majesty's keepsake was / found in the labyrinth."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 273,
+  "file": "batch_01.json",
+  "old": "Of course, that is / not the only / reason, I'm sure.",
+  "new": "Of course, that is not the only / reason, I'm sure."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 274,
+  "file": "batch_01.json",
+  "old": "He is a stubborn / old man who never / budges.",
+  "new": "He is a stubborn old man who / never budges."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 275,
+  "file": "batch_01.json",
+  "old": "You wouldn't know, / but no one in all / of Venoa can beat",
+  "new": "You wouldn't know, but no one / in all of Venoa can beat"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 276,
+  "file": "batch_01.json",
+  "old": "him at chess. He / has extraordinary / resourcefulness.",
+  "new": "him at chess. He has / extraordinary resourcefulness."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 278,
+  "file": "batch_01.json",
+  "old": "the papal court / with the other. If / such a man raised",
+  "new": "the papal court with the other. / If such a man raised"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 279,
+  "file": "batch_01.json",
+  "old": "the battle flag, / everything must be / in place. Your",
+  "new": "the battle flag, everything / must be in place. Your"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 280,
+  "file": "batch_01.json",
+  "old": "Pay it no mind. / Let things stand / as they are.",
+  "new": "Pay it no mind. Let things stand / as they are."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 281,
+  "file": "batch_01.json",
+  "old": "We can only wait, / even if it leads / us to ruin.",
+  "new": "We can only wait, even if it / leads us to ruin."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 284,
+  "file": "batch_01.json",
+  "old": "Adventurer, what a / grand sight. / People of all / kinds gather",
+  "new": "Adventurer, what a grand sight. / People of all kinds gather"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 285,
+  "file": "batch_01.json",
+  "old": "in Duhan. The / righteous and the / wicked alike fight",
+  "new": "in Duhan. The righteous and / the wicked alike fight"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 286,
+  "file": "batch_01.json",
+  "old": "for their dreams. / Some come to / reclaim what was / lost.",
+  "new": "for their dreams. Some come to / reclaim what was lost."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 288,
+  "file": "batch_01.json",
+  "old": "Whatever they / seek, it all / serves to protect / Duhan.",
+  "new": "Whatever they seek, it all / serves to protect Duhan."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 289,
+  "file": "batch_01.json",
+  "old": "Anyone is welcome. / If one who can / defeat Aurora",
+  "new": "Anyone is welcome. If one who / can defeat Aurora"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 290,
+  "file": "batch_01.json",
+  "old": "exists, I would / gladly give up / this throne.",
+  "new": "exists, I would gladly give up / this throne."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 292,
+  "file": "batch_01.json",
+  "old": "Perhaps you are / the one.",
+  "new": "Perhaps you are the one."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 298,
+  "file": "batch_01.json",
+  "old": "Ortrud: Recently, / attacks on the / strike force have",
+  "new": "Ortrud: Recently, attacks on / the strike force have"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 300,
+  "file": "batch_01.json",
+  "old": "knights to attack / them. When we must / unite against the",
+  "new": "knights to attack them. / When we must unite against the"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 301,
+  "file": "batch_01.json",
+  "old": "enemy, we cannot / ignore this. Tell / me, was it / monsters",
+  "new": "enemy, we cannot ignore this. / Tell me, was it monsters"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 303,
+  "file": "batch_01.json",
+  "old": "As I suspected -- / the work of / monsters, same as / before!",
+  "new": "As I suspected -- the work of / monsters, same as before!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 304,
+  "file": "batch_01.json",
+  "old": "Good grief, the / problems only / mount.",
+  "new": "Good grief, the problems only / mount."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 306,
+  "file": "batch_01.json",
+  "old": "They must have / suffered greatly, / unable to even",
+  "new": "They must have suffered / greatly, unable to even"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 307,
+  "file": "batch_01.json",
+  "old": "Meanwhile, ugly / rumors spread about / His Majesty --",
+  "new": "Meanwhile, ugly rumors spread / about His Majesty --"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 308,
+  "file": "batch_01.json",
+  "old": "that every strike- / force attack was / staged by knights.",
+  "new": "that every strike- force attack / was staged by knights."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 311,
+  "file": "batch_01.json",
+  "old": "strike force woman / had. A knight has / many ways to kill",
+  "new": "strike force woman had. / A knight has many ways to kill"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 312,
+  "file": "batch_01.json",
+  "old": "without such / marks. That leaves / one conclusion.",
+  "new": "without such marks. That / leaves one conclusion."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 314,
+  "file": "batch_01.json",
+  "old": "someone else. / Valuable intel.",
+  "new": "someone else. Valuable intel."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 315,
+  "file": "batch_01.json",
+  "old": "There are unsavory / rumors about the / knights lately.",
+  "new": "There are unsavory rumors / about the knights lately."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 321,
+  "file": "batch_01.json",
+  "old": "day. I can barely / walk. If only I / could go myself!",
+  "new": "day. I can barely walk. If only I / could go myself!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 322,
+  "file": "batch_01.json",
+  "old": "You there. Thank / you for your / service.",
+  "new": "You there. Thank you for your / service."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 325,
+  "file": "batch_01.json",
+  "old": "Nothing special, / but it is imbued / with magic. It",
+  "new": "Nothing special, but it is / imbued with magic. It"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 326,
+  "file": "batch_01.json",
+  "old": "should be useful. / Please accept it / as a token of / thanks.",
+  "new": "should be useful. Please accept / it as a token of thanks."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 327,
+  "file": "batch_01.json",
+  "old": "Adventurer, may I / ask you something?",
+  "new": "Adventurer, may I ask you / something?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 329,
+  "file": "batch_01.json",
+  "old": "For wealth? For / revenge? Or do you / fight without",
+  "new": "For wealth? For revenge? / Or do you fight without"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 332,
+  "file": "batch_01.json",
+  "old": "I once had / nothing. Born to a / poor family, I / could",
+  "new": "I once had nothing. Born to a / poor family, I could"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 333,
+  "file": "batch_01.json",
+  "old": "barely afford / armor. But looking / back, I had / everything.",
+  "new": "barely afford armor. But / looking back, I had everything."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 335,
+  "file": "batch_01.json",
+  "old": "for. I became King / of Duhan and / gained wealth and / revenge.",
+  "new": "for. I became King of Duhan / and gained wealth and revenge."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 336,
+  "file": "batch_01.json",
+  "old": "But now, / everything I once / had is gone.",
+  "new": "But now, everything I once had / is gone."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 338,
+  "file": "batch_01.json",
+  "old": "Find comrades you / can truly trust.",
+  "new": "Find comrades you can truly / trust."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 340,
+  "file": "batch_01.json",
+  "old": "than any fortune. / They watch your / back and give you",
+  "new": "than any fortune. They watch / your back and give you"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 341,
+  "file": "batch_01.json",
+  "old": "everything -- / wealth, revenge, / dreams.",
+  "new": "everything -- wealth, revenge, / dreams."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 342,
+  "file": "batch_01.json",
+  "old": "For revenge! I / once had nothing. / Born to a poor / family,",
+  "new": "For revenge! I once had / nothing. Born to a poor family,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 343,
+  "file": "batch_01.json",
+  "old": "I could barely / afford armor.",
+  "new": "I could barely afford armor."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 344,
+  "file": "batch_01.json",
+  "old": "But looking back, / I had everything.",
+  "new": "But looking back, I had / everything."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 345,
+  "file": "batch_01.json",
+  "old": "Comrades I could / trust, dreams / worth risking my / life for.",
+  "new": "Comrades I could trust, dreams / worth risking my life for."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 347,
+  "file": "batch_01.json",
+  "old": "But now, / everything I once / had is gone.",
+  "new": "But now, everything I once had / is gone."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 349,
+  "file": "batch_01.json",
+  "old": "Find comrades you / can trust from / the heart.",
+  "new": "Find comrades you can trust / from the heart."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 351,
+  "file": "batch_01.json",
+  "old": "than any fortune. / They watch your / back and give you",
+  "new": "than any fortune. They watch / your back and give you"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 352,
+  "file": "batch_01.json",
+  "old": "everything -- / wealth, revenge, / dreams.",
+  "new": "everything -- wealth, revenge, / dreams."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 353,
+  "file": "batch_01.json",
+  "old": "Then let me say: / Find comrades you / can truly trust.",
+  "new": "Then let me say: Find comrades / you can truly trust."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 355,
+  "file": "batch_01.json",
+  "old": "than any fortune. / They watch your / back and give you",
+  "new": "than any fortune. They watch / your back and give you"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 356,
+  "file": "batch_01.json",
+  "old": "everything -- / wealth, revenge, / dreams!",
+  "new": "everything -- wealth, revenge, / dreams!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 357,
+  "file": "batch_01.json",
+  "old": "Ha, must be the / drink talking. / I've grown / sentimental.",
+  "new": "Ha, must be the drink talking. / I've grown sentimental."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 358,
+  "file": "batch_01.json",
+  "old": "That will be all / for today. The / servants should be",
+  "new": "That will be all for today. / The servants should be"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 362,
+  "file": "batch_01.json",
+  "old": "Belgrano: Welcome. / Please, be at ease.",
+  "new": "Belgrano: Welcome. Please, / be at ease."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 365,
+  "file": "batch_01.json",
+  "old": "Duhan is facing / a dire crisis.",
+  "new": "Duhan is facing a dire crisis."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 367,
+  "file": "batch_01.json",
+  "old": "adventurers is / all because of / this. You know of",
+  "new": "adventurers is all because of / this. You know of"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 368,
+  "file": "batch_01.json",
+  "old": "Karman's / Labyrinth, yes? / Their numbers are / still small,",
+  "new": "Karman's Labyrinth, yes? / Their numbers are still small,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 369,
+  "file": "batch_01.json",
+  "old": "but monsters have / been emerging. / What we ask is for / you",
+  "new": "but monsters have been / emerging. What we ask is for / you"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 371,
+  "file": "batch_01.json",
+  "old": "Her name is Aurora, / a hero who once / served Duhan.",
+  "new": "Her name is Aurora, a hero who / once served Duhan."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 372,
+  "file": "batch_01.json",
+  "old": "That woman cursed / all of Duhan and / made the labyrinth.",
+  "new": "That woman cursed all of / Duhan and made the labyrinth."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 389,
+  "file": "batch_01.json",
+  "old": "Belgrano: We must / find her to lift / the curse.",
+  "new": "Belgrano: We must find her to / lift the curse."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 390,
+  "file": "batch_01.json",
+  "old": "Bring the witch / Aurora's head for / your reward.",
+  "new": "Bring the witch Aurora's head / for your reward."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 391,
+  "file": "batch_01.json",
+  "old": "Any information / about her is also / worth a reward.",
+  "new": "Any information about her is / also worth a reward."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 392,
+  "file": "batch_01.json",
+  "old": "Will you join the / subjugation force?",
+  "new": "Will you join the subjugation / force?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 394,
+  "file": "batch_01.json",
+  "old": "Very well. / Prudence is a / virtue.",
+  "new": "Very well. Prudence is a / virtue."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 395,
+  "file": "batch_01.json",
+  "old": "If you change your / mind, come back / anytime.",
+  "new": "If you change your mind, / come back anytime."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 396,
+  "file": "batch_01.json",
+  "old": "I will be / waiting here.",
+  "new": "I will be waiting here."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 397,
+  "file": "batch_01.json",
+  "old": "Your quick / decision shows / leadership.",
+  "new": "Your quick decision shows / leadership."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 398,
+  "file": "batch_01.json",
+  "old": "Belgrano: Will you / join the force?",
+  "new": "Belgrano: Will you join the / force?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 399,
+  "file": "batch_01.json",
+  "old": "Or will you just / explore and / go home?",
+  "new": "Or will you just explore and go / home?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 401,
+  "file": "batch_01.json",
+  "old": "You've finally / decided.",
+  "new": "You've finally decided."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 402,
+  "file": "batch_01.json",
+  "old": "This will bring / you great / experience.",
+  "new": "This will bring you great / experience."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 403,
+  "file": "batch_01.json",
+  "old": "Still undecided? / Take your time.",
+  "new": "Still undecided? Take your / time."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 406,
+  "file": "batch_01.json",
+  "old": "That document was / written by the / king himself.",
+  "new": "That document was written by / the king himself."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 407,
+  "file": "batch_01.json",
+  "old": "As long as Duhan / stands, the decree / is valid.",
+  "new": "As long as Duhan stands, / the decree is valid."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 409,
+  "file": "batch_01.json",
+  "old": "Come see me / when you're ready.",
+  "new": "Come see me when you're / ready."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 415,
+  "file": "batch_01.json",
+  "old": "Oh, you came! / Thank you!",
+  "new": "Oh, you came! Thank you!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 416,
+  "file": "batch_01.json",
+  "old": "See, Lute? / He can be trusted.",
+  "new": "See, Lute? He can be trusted."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 417,
+  "file": "batch_01.json",
+  "old": "Oh, you came! / Thank you!",
+  "new": "Oh, you came! Thank you!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 418,
+  "file": "batch_01.json",
+  "old": "See, Lute? She can / be trusted.",
+  "new": "See, Lute? She can be trusted."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 419,
+  "file": "batch_01.json",
+  "old": "What we wanted to / ask, as I said / at the castle,",
+  "new": "What we wanted to ask, as I said / at the castle,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 420,
+  "file": "batch_01.json",
+  "old": "is to take us into / the labyrinth.",
+  "new": "is to take us into the labyrinth."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 421,
+  "file": "batch_01.json",
+  "old": "Please! We won't / cause any trouble!",
+  "new": "Please! We won't cause any / trouble!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 422,
+  "file": "batch_01.json",
+  "old": "We don't want to / fight monsters.",
+  "new": "We don't want to fight / monsters."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 423,
+  "file": "batch_01.json",
+  "old": "We won't join your / party. We won't / slow you down.",
+  "new": "We won't join your party. / We won't slow you down."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 424,
+  "file": "batch_01.json",
+  "old": "We'll just follow / quietly behind.",
+  "new": "We'll just follow quietly / behind."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 425,
+  "file": "batch_01.json",
+  "old": "Please? Just for / a short while.",
+  "new": "Please? Just for a short while."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 427,
+  "file": "batch_01.json",
+  "old": "It has hidden / inscriptions we / can't reveal yet.",
+  "new": "It has hidden inscriptions we / can't reveal yet."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 428,
+  "file": "batch_01.json",
+  "old": "We need to / investigate it.",
+  "new": "We need to investigate it."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 429,
+  "file": "batch_01.json",
+  "old": "We'll reward you / for your help.",
+  "new": "We'll reward you for your help."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 431,
+  "file": "batch_01.json",
+  "old": "How about royal / enchanted armor / as payment?",
+  "new": "How about royal enchanted / armor as payment?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 433,
+  "file": "batch_01.json",
+  "old": "Yay! You finally / agreed!",
+  "new": "Yay! You finally agreed!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 434,
+  "file": "batch_01.json",
+  "old": "Don't worry, we / won't interfere!",
+  "new": "Don't worry, we won't / interfere!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 435,
+  "file": "batch_01.json",
+  "old": "We'll prepare and / wait for you in / the labyrinth.",
+  "new": "We'll prepare and wait for you / in the labyrinth."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 436,
+  "file": "batch_01.json",
+  "old": "Hmm, I see. Okay, / I'll have to / change the battle / lineup.",
+  "new": "Hmm, I see. Okay, I'll have to / change the battle lineup."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 437,
+  "file": "batch_01.json",
+  "old": "Right, no time to / waste. Don't blame / me if it goes / wrong.",
+  "new": "Right, no time to waste. Don't / blame me if it goes wrong."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 441,
+  "file": "batch_01.json",
+  "old": "The medical tent / is this way! / Everyone, hurry!",
+  "new": "The medical tent is this way! / Everyone, hurry!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 452,
+  "file": "batch_01.json",
+  "old": "Old Bishop: Pitiful / souls. I do not / grieve for them.",
+  "new": "Old Bishop: Pitiful souls. / I do not grieve for them."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 453,
+  "file": "batch_01.json",
+  "old": "I do not grieve. / It is folly to / send unreliable",
+  "new": "I do not grieve. It is folly to / send unreliable"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 455,
+  "file": "batch_01.json",
+  "old": "hardened they are, / the result is the / same. Ordinary",
+  "new": "hardened they are, the result is / the same. Ordinary"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 456,
+  "file": "batch_01.json",
+  "old": "mortals who fear / death cannot stand / against true evil.",
+  "new": "mortals who fear death cannot / stand against true evil."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 457,
+  "file": "batch_01.json",
+  "old": "But I am / different. I know / that witch.",
+  "new": "But I am different. I know that / witch."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 465,
+  "file": "batch_01.json",
+  "old": "Look at this! / While the / suffering cry out / in agony,",
+  "new": "Look at this! While the / suffering cry out in agony,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 466,
+  "file": "batch_01.json",
+  "old": "where is God? / Probably lounging / in paradise!",
+  "new": "where is God? Probably / lounging in paradise!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 467,
+  "file": "batch_01.json",
+  "old": "Shameful! I could / only mutter words / of prayer, trying",
+  "new": "Shameful! I could only mutter / words of prayer, trying"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 468,
+  "file": "batch_01.json",
+  "old": "my best. True evil / can shatter even / iron faith.",
+  "new": "my best. True evil can shatter / even iron faith."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 472,
+  "file": "batch_01.json",
+  "old": "Emilia: If you / hadn't been there, / the princess would",
+  "new": "Emilia: If you hadn't been / there, the princess would"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 473,
+  "file": "batch_01.json",
+  "old": "have been killed / by him. We cannot / thank you enough.",
+  "new": "have been killed by him. / We cannot thank you enough."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 474,
+  "file": "batch_01.json",
+  "old": "You may have / noticed, but we've / been hiding the",
+  "new": "You may have noticed, / but we've been hiding the"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 475,
+  "file": "batch_01.json",
+  "old": "princess all / along. Yes, to / deceive Lord / Webster, we",
+  "new": "princess all along. Yes, / to deceive Lord Webster, we"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 476,
+  "file": "batch_01.json",
+  "old": "faked her death. / We knew that Lord / Webster was after",
+  "new": "faked her death. We knew that / Lord Webster was after"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 479,
+  "file": "batch_01.json",
+  "old": "To revive the / War God, he needed / the living blood",
+  "new": "To revive the War God, / he needed the living blood"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 480,
+  "file": "batch_01.json",
+  "old": "of an elf. And / the princess has / that blood!",
+  "new": "of an elf. And the princess has / that blood!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 481,
+  "file": "batch_01.json",
+  "old": "We told the king, / but he wouldn't / believe us.",
+  "new": "We told the king, but he / wouldn't believe us."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 482,
+  "file": "batch_01.json",
+  "old": "He just waved us / off, saying 'yes, / yes, I / understand.'",
+  "new": "He just waved us off, saying / 'yes, yes, I understand.'"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 483,
+  "file": "batch_01.json",
+  "old": "So we decided / on our own to fake / the princess's",
+  "new": "So we decided on our own to / fake the princess's"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 484,
+  "file": "batch_01.json",
+  "old": "death using our / magic potions, to / fool whoever was",
+  "new": "death using our magic potions, / to fool whoever was"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 485,
+  "file": "batch_01.json",
+  "old": "after her life. We / took the princess / into the / labyrinth,",
+  "new": "after her life. We took the / princess into the labyrinth,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 486,
+  "file": "batch_01.json",
+  "old": "but it's dangerous / there. We wanted / to get her to",
+  "new": "but it's dangerous there. / We wanted to get her to"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 487,
+  "file": "batch_01.json",
+  "old": "safety as soon as / possible. Now we / don't have to wear",
+  "new": "safety as soon as possible. / Now we don't have to wear"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 488,
+  "file": "batch_01.json",
+  "old": "those awful Orc / disguises anymore. / If we'd had to",
+  "new": "those awful Orc disguises / anymore. If we'd had to"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 489,
+  "file": "batch_01.json",
+  "old": "keep it up, we / would've gone / crazy. We need to / thank",
+  "new": "keep it up, we would've gone / crazy. We need to thank"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 490,
+  "file": "batch_01.json",
+  "old": "you properly! / If you'd like, we / could help with",
+  "new": "you properly! If you'd like, / we could help with"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 491,
+  "file": "batch_01.json",
+  "old": "the fight against / Aurora. We're / pretty confident",
+  "new": "the fight against Aurora. / We're pretty confident"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 492,
+  "file": "batch_01.json",
+  "old": "in our magic. / Which of us should / be your companion?",
+  "new": "in our magic. Which of us / should be your companion?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 493,
+  "file": "batch_01.json",
+  "old": "Lute or me? / We have the same / abilities, so",
+  "new": "Lute or me? We have the same / abilities, so"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 495,
+  "file": "batch_01.json",
+  "old": "Then I'll head / to the Guild to / register.",
+  "new": "Then I'll head to the Guild to / register."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 496,
+  "file": "batch_01.json",
+  "old": "Phew, what a / relief! I'll go / practice magic.",
+  "new": "Phew, what a relief! I'll go / practice magic."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 498,
+  "file": "batch_01.json",
+  "old": "Then I'll head / to the Guild to / register.",
+  "new": "Then I'll head to the Guild to / register."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 499,
+  "file": "batch_01.json",
+  "old": "Bummer! I'll go / practice magic / with Barbo the / Orc.",
+  "new": "Bummer! I'll go practice magic / with Barbo the Orc."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 503,
+  "file": "batch_01.json",
+  "old": "Yes. The land of / Sasan is perfectly / safe.",
+  "new": "Yes. The land of Sasan is / perfectly safe."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 504,
+  "file": "batch_01.json",
+  "old": "That's right. No / papal power, cut / off from Venoa.",
+  "new": "That's right. No papal power, / cut off from Venoa."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 510,
+  "file": "batch_01.json",
+  "old": "Majesty's / keepsake. Thank / you. On behalf of / the late",
+  "new": "Majesty's keepsake. Thank you. / On behalf of the late"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 512,
+  "file": "batch_01.json",
+  "old": "Majesty, I thank / you. His Majesty / always thought of",
+  "new": "Majesty, I thank you. / His Majesty always thought of"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 513,
+  "file": "batch_01.json",
+  "old": "you all, without / ever seeing his / own children, / never",
+  "new": "you all, without ever seeing his / own children, never"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 514,
+  "file": "batch_01.json",
+  "old": "forgetting Duhan. / Look at this -- / His Majesty's / will.",
+  "new": "forgetting Duhan. Look at this / -- His Majesty's will."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 524,
+  "file": "batch_01.json",
+  "old": "Duhan's Order / pledges its loyalty / to you eternally.",
+  "new": "Duhan's Order pledges its / loyalty to you eternally."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 527,
+  "file": "batch_01.json",
+  "old": "His Majesty would / scold me, but I'm / always ready.",
+  "new": "His Majesty would scold me, / but I'm always ready."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 528,
+  "file": "batch_01.json",
+  "old": "I'm always ready / for battle. If / you plan to face",
+  "new": "I'm always ready for battle. / If you plan to face"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 529,
+  "file": "batch_01.json",
+  "old": "If you face the / final fight, please / call on me.",
+  "new": "If you face the final fight, / please call on me."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 540,
+  "file": "batch_01.json",
+  "old": "It was Zel, leader / of the knight / unit. Zel: I heard / you",
+  "new": "It was Zel, leader of the knight / unit. Zel: I heard you"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 541,
+  "file": "batch_01.json",
+  "old": "fought rogues on / the third floor. / I hurried there,",
+  "new": "fought rogues on the third / floor. I hurried there,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 543,
+  "file": "batch_01.json",
+  "old": "but you'd already / dealt with them. / To be clear, those",
+  "new": "but you'd already dealt with / them. To be clear, those"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 545,
+  "file": "batch_01.json",
+  "old": "deserted the / Order. I intended / to deal with them",
+  "new": "deserted the Order. I intended / to deal with them"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 546,
+  "file": "batch_01.json",
+  "old": "Thank you for / handling it in / my stead.",
+  "new": "Thank you for handling it in / my stead."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 548,
+  "file": "batch_01.json",
+  "old": "I have one more / request.",
+  "new": "I have one more request."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 549,
+  "file": "batch_01.json",
+  "old": "Show me the / keepsake you / obtained.",
+  "new": "Show me the keepsake you / obtained."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 550,
+  "file": "batch_01.json",
+  "old": "The one you / received from a / man called Ingo.\"",
+  "new": "The one you received from a / man called Ingo.\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 552,
+  "file": "batch_01.json",
+  "old": "\"Indeed, this / belongs to His / Majesty. Well / found.",
+  "new": "\"Indeed, this belongs to His / Majesty. Well found."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 553,
+  "file": "batch_01.json",
+  "old": "This will help / in the search / for His Majesty.\"",
+  "new": "This will help in the search for / His Majesty.\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 557,
+  "file": "batch_01.json",
+  "old": "examine His / Majesty's coffin. / Astonishingly,",
+  "new": "examine His Majesty's coffin. / Astonishingly,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 558,
+  "file": "batch_01.json",
+  "old": "it was empty. / So someone took / the remains?",
+  "new": "it was empty. So someone took / the remains?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 559,
+  "file": "batch_01.json",
+  "old": "It's possible, but / no skilled / alchemist would",
+  "new": "It's possible, but no skilled / alchemist would"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 560,
+  "file": "batch_01.json",
+  "old": "have need of / remains. If they / work in the city,",
+  "new": "have need of remains. If they / work in the city,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 562,
+  "file": "batch_01.json",
+  "old": "But it's certain / someone is moving / in the shadows.",
+  "new": "But it's certain someone is / moving in the shadows."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 563,
+  "file": "batch_01.json",
+  "old": "in the shadows. / All answers lie / in the labyrinth.",
+  "new": "in the shadows. All answers lie / in the labyrinth."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 565,
+  "file": "batch_01.json",
+  "old": "Now go to the / castle.",
+  "new": "Now go to the castle."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 566,
+  "file": "batch_01.json",
+  "old": "His Majesty will / be pleased by your / accomplishment.",
+  "new": "His Majesty will be pleased by / your accomplishment."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 577,
+  "file": "batch_01.json",
+  "old": "Hey friend, hehe -- / you know where / God hides, right?",
+  "new": "Hey friend, hehe -- you know / where God hides, right?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 578,
+  "file": "batch_01.json",
+  "old": "God hides, right? / Come on, tell me. / I must tell Him",
+  "new": "God hides, right? Come on, / tell me. I must tell Him"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 579,
+  "file": "batch_01.json",
+  "old": "something soon. / Hehe, I know / you're hunting for",
+  "new": "something soon. Hehe, I know / you're hunting for"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 580,
+  "file": "batch_01.json",
+  "old": "God's hiding place / too. Better find / Him fast.",
+  "new": "God's hiding place too. / Better find Him fast."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 582,
+  "file": "batch_01.json",
+  "old": "\"Ahh, I see. You / don't know about / what happened.",
+  "new": "\"Ahh, I see. You don't know / about what happened."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 583,
+  "file": "batch_01.json",
+  "old": "That's why you're / looking for God's / hiding place.",
+  "new": "That's why you're looking for / God's hiding place."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 584,
+  "file": "batch_01.json",
+  "old": "But you know what? / I saw it!",
+  "new": "But you know what? I saw it!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 585,
+  "file": "batch_01.json",
+  "old": "Yeah, they were / there alright, / hiding in the / dark.",
+  "new": "Yeah, they were there alright, / hiding in the dark."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 586,
+  "file": "batch_01.json",
+  "old": "And if you let / your guard down, / they come at you.",
+  "new": "And if you let your guard down, / they come at you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 587,
+  "file": "batch_01.json",
+  "old": "Hehe, my friends / got chomped right / from the start.",
+  "new": "Hehe, my friends got chomped / right from the start."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 588,
+  "file": "batch_01.json",
+  "old": "Munch, chomp. / Munch, chomp, / like this.",
+  "new": "Munch, chomp. Munch, chomp, / like this."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 590,
+  "file": "batch_01.json",
+  "old": "No use, no use, / no use!",
+  "new": "No use, no use, no use!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 591,
+  "file": "batch_01.json",
+  "old": "Some even fought / while crying.",
+  "new": "Some even fought while crying."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 592,
+  "file": "batch_01.json",
+  "old": "Hehehehe, / Ahahahahaha!",
+  "new": "Hehehehe, Ahahahahaha!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 596,
+  "file": "batch_01.json",
+  "old": "Ahahaha! Some / fought desperately.",
+  "new": "Ahahaha! Some fought / desperately."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 597,
+  "file": "batch_01.json",
+  "old": "everything they / had! But nothing / worked, nothing!",
+  "new": "everything they had! / But nothing worked, nothing!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 598,
+  "file": "batch_01.json",
+  "old": "Sure thing, I tell / you. Even God / would be done for!",
+  "new": "Sure thing, I tell you. Even God / would be done for!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 602,
+  "file": "batch_01.json",
+  "old": "I've been looking / everywhere for you!",
+  "new": "I've been looking everywhere / for you!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 603,
+  "file": "batch_01.json",
+  "old": "Dressed so, you'll / catch cold! Come, / dinner is ready.",
+  "new": "Dressed so, you'll catch cold! / Come, dinner is ready."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 605,
+  "file": "batch_01.json",
+  "old": "Please do not / blame him. He / fought for us all.",
+  "new": "Please do not blame him. / He fought for us all."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 606,
+  "file": "batch_01.json",
+  "old": "He once led a sad / band of sellswords, / I am told.",
+  "new": "He once led a sad band of / sellswords, I am told."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 607,
+  "file": "batch_01.json",
+  "old": "But Karman's / Labyrinth clouded / his sight.",
+  "new": "But Karman's Labyrinth / clouded his sight."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 608,
+  "file": "batch_01.json",
+  "old": "Now he wanders / the streets, as if / fleeing something.",
+  "new": "Now he wanders the streets, / as if fleeing something."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 609,
+  "file": "batch_01.json",
+  "old": "What he saw, / no one knows.",
+  "new": "What he saw, no one knows."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 610,
+  "file": "batch_01.json",
+  "old": "Yet it must have / been dread enough / to break him.",
+  "new": "Yet it must have been dread / enough to break him."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 611,
+  "file": "batch_01.json",
+  "old": "You seem to be an / adventurer too.",
+  "new": "You seem to be an adventurer / too."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 612,
+  "file": "batch_01.json",
+  "old": "A hard calling. You / risk your life / to gain anything.",
+  "new": "A hard calling. You risk your / life to gain anything."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 613,
+  "file": "batch_01.json",
+  "old": "May peace be with / you. I will / pray for you.",
+  "new": "May peace be with you. / I will pray for you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 614,
+  "file": "batch_01.json",
+  "old": "Well then, please / take great care.",
+  "new": "Well then, please take great / care."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 623,
+  "file": "batch_01.json",
+  "old": "Elf girl: Hey, / you're a new / adventurer, right?",
+  "new": "Elf girl: Hey, you're a new / adventurer, right?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 624,
+  "file": "batch_01.json",
+  "old": "I saw you at the / entrance earlier.",
+  "new": "I saw you at the entrance / earlier."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 626,
+  "file": "batch_01.json",
+  "old": "You're headed for / Karman's Labyrinth / too, right?",
+  "new": "You're headed for Karman's / Labyrinth too, right?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 627,
+  "file": "batch_01.json",
+  "old": "With things as / they are, no one / else dares leave.",
+  "new": "With things as they are, / no one else dares leave."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 628,
+  "file": "batch_01.json",
+  "old": "one can leave this / city. Sigh, it's / so depressing.",
+  "new": "one can leave this city. Sigh, / it's so depressing."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 629,
+  "file": "batch_01.json",
+  "old": "Ever since the / princess died, / nothing but bad",
+  "new": "Ever since the princess died, / nothing but bad"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 630,
+  "file": "batch_01.json",
+  "old": "things happen. / Monsters from the / labyrinth, the / city",
+  "new": "things happen. Monsters from / the labyrinth, the city"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 631,
+  "file": "batch_01.json",
+  "old": "blockaded, and the / king gravely ill. / All because of",
+  "new": "blockaded, and the king gravely / ill. All because of"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 632,
+  "file": "batch_01.json",
+  "old": "the witch in the / labyrinth, and / nobody has been",
+  "new": "the witch in the labyrinth, / and nobody has been"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 633,
+  "file": "batch_01.json",
+  "old": "able to find her. / Basically, / everyone is / useless.",
+  "new": "able to find her. Basically, / everyone is useless."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 635,
+  "file": "batch_01.json",
+  "old": "Think you could / find her? If you / defeat the witch,",
+  "new": "Think you could find her? / If you defeat the witch,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 636,
+  "file": "batch_01.json",
+  "old": "a huge reward / awaits! We asked / around. Someone",
+  "new": "a huge reward awaits! We asked / around. Someone"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 638,
+  "file": "batch_01.json",
+  "old": "fate will happen. / So we're watching / for new / adventurers.",
+  "new": "fate will happen. So we're / watching for new adventurers."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 639,
+  "file": "batch_01.json",
+  "old": "And there's one / more important / thing.",
+  "new": "And there's one more important / thing."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 640,
+  "file": "batch_01.json",
+  "old": "Someone with / great knowledge is / being sought.",
+  "new": "Someone with great knowledge / is being sought."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 642,
+  "file": "batch_01.json",
+  "old": "by darkness and / all will perish. / We don't know what",
+  "new": "by darkness and all will perish. / We don't know what"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 643,
+  "file": "batch_01.json",
+  "old": "it means, but / something big is / coming. We're",
+  "new": "it means, but something big is / coming. We're"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 646,
+  "file": "batch_01.json",
+  "old": "We have things to / do. Let's meet / again sometime.",
+  "new": "We have things to do. Let's / meet again sometime."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 647,
+  "file": "batch_01.json",
+  "old": "Let's meet again. / My name is Emilia.",
+  "new": "Let's meet again. My name is / Emilia."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 648,
+  "file": "batch_01.json",
+  "old": "I'm Lute. We both / live at the / castle. See you!\"",
+  "new": "I'm Lute. We both live at the / castle. See you!\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 653,
+  "file": "batch_01.json",
+  "old": "Hey friend, hehe -- / you know where / God hides, right?",
+  "new": "Hey friend, hehe -- you know / where God hides, right?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 654,
+  "file": "batch_01.json",
+  "old": "God hides, right? / Come on, tell me. / I must tell Him",
+  "new": "God hides, right? Come on, / tell me. I must tell Him"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 655,
+  "file": "batch_01.json",
+  "old": "something soon. / Hehe, I know / you're hunting for",
+  "new": "something soon. Hehe, I know / you're hunting for"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 656,
+  "file": "batch_01.json",
+  "old": "God's hiding place / too. Better find / Him fast.",
+  "new": "God's hiding place too. / Better find Him fast."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 658,
+  "file": "batch_01.json",
+  "old": "\"Ahh, I see. You / don't know about / what happened.",
+  "new": "\"Ahh, I see. You don't know / about what happened."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 659,
+  "file": "batch_01.json",
+  "old": "That's why you're / looking for God's / hiding place.",
+  "new": "That's why you're looking for / God's hiding place."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 660,
+  "file": "batch_01.json",
+  "old": "But you know what? / I saw it!",
+  "new": "But you know what? I saw it!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 661,
+  "file": "batch_01.json",
+  "old": "Yeah, they were / there, hiding / in the dark.",
+  "new": "Yeah, they were there, / hiding in the dark."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 662,
+  "file": "batch_01.json",
+  "old": "And if you let / your guard down, / they come at you.",
+  "new": "And if you let your guard down, / they come at you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 663,
+  "file": "batch_01.json",
+  "old": "Hehe, my friends / got chomped right / from the start.",
+  "new": "Hehe, my friends got chomped / right from the start."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 664,
+  "file": "batch_01.json",
+  "old": "Munch, chomp. / Munch, chomp, / like this.",
+  "new": "Munch, chomp. Munch, chomp, / like this."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 666,
+  "file": "batch_01.json",
+  "old": "No use, no use, / no use!",
+  "new": "No use, no use, no use!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 667,
+  "file": "batch_01.json",
+  "old": "Some even fought / while crying.",
+  "new": "Some even fought while crying."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 668,
+  "file": "batch_01.json",
+  "old": "Hehehehe, / Ahahahahaha!",
+  "new": "Hehehehe, Ahahahahaha!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 672,
+  "file": "batch_01.json",
+  "old": "Ahahaha! Some / fought desperately.",
+  "new": "Ahahaha! Some fought / desperately."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 673,
+  "file": "batch_01.json",
+  "old": "But nothing / worked, nothing!",
+  "new": "But nothing worked, nothing!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 674,
+  "file": "batch_01.json",
+  "old": "Sure thing, I tell / you. Even God / would be done for!",
+  "new": "Sure thing, I tell you. Even God / would be done for!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 679,
+  "file": "batch_01.json",
+  "old": "out here! Come, / dinner is ready. / Please come eat.",
+  "new": "out here! Come, dinner is / ready. Please come eat."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 681,
+  "file": "batch_01.json",
+  "old": "Please don't judge / him. He fought / for this city.",
+  "new": "Please don't judge him. / He fought for this city."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 682,
+  "file": "batch_01.json",
+  "old": "He was once a / famous mercenary / captain.",
+  "new": "He was once a famous / mercenary captain."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 684,
+  "file": "batch_01.json",
+  "old": "Now he wanders, / as if fleeing / from something.",
+  "new": "Now he wanders, as if fleeing / from something."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 685,
+  "file": "batch_01.json",
+  "old": "I don't know what / he saw.",
+  "new": "I don't know what he saw."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 687,
+  "file": "batch_01.json",
+  "old": "You seem to be / an adventurer too.",
+  "new": "You seem to be an adventurer / too."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 688,
+  "file": "batch_01.json",
+  "old": "It's a hard life, / having to risk / everything.",
+  "new": "It's a hard life, having to risk / everything."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 730,
+  "file": "batch_01.json",
+  "old": "where did you / get it?\"",
+  "new": "where did you get it?\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 731,
+  "file": "batch_01.json",
+  "old": "\"You've just / gained the power / called Allied Actions.",
+  "new": "\"You've just gained the power / called Allied Actions."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 733,
+  "file": "batch_01.json",
+  "old": "can use. We want / to know how it was / stored in the",
+  "new": "can use. We want to know how it / was stored in the"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 734,
+  "file": "batch_01.json",
+  "old": "bracelet. We know / you saw a dead / adventurer's",
+  "new": "bracelet. We know you saw a / dead adventurer's"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 735,
+  "file": "batch_01.json",
+  "old": "memories. But why / did only yours / activate?",
+  "new": "memories. But why did only / yours activate?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 738,
+  "file": "batch_01.json",
+  "old": "death? I knew it! / I suspected it / from the start.",
+  "new": "death? I knew it! I suspected it / from the start."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 739,
+  "file": "batch_01.json",
+  "old": "Memory imprinting / can't be done / carelessly.",
+  "new": "Memory imprinting can't be / done carelessly."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 741,
+  "file": "batch_01.json",
+  "old": "can trigger it. / What should we do, / Lute?\"",
+  "new": "can trigger it. What should we / do, Lute?\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 743,
+  "file": "batch_01.json",
+  "old": "\"I absolutely hate / human / experiments.\"",
+  "new": "\"I absolutely hate human / experiments.\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 744,
+  "file": "batch_01.json",
+  "old": "\"I know, I know, / but for now, / silence is best.\"",
+  "new": "\"I know, I know, but for now, / silence is best.\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 745,
+  "file": "batch_01.json",
+  "old": "\"What? You mean / pretend we don't / know?\"",
+  "new": "\"What? You mean pretend we / don't know?\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 747,
+  "file": "batch_01.json",
+  "old": "Belgrano is a good / man. He won't / harm us.",
+  "new": "Belgrano is a good man. / He won't harm us."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 748,
+  "file": "batch_01.json",
+  "old": "But if word gets / out that we know, / they will come.",
+  "new": "But if word gets out that we / know, they will come."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 752,
+  "file": "batch_01.json",
+  "old": "Lady Knight: Oh? / It's you!",
+  "new": "Lady Knight: Oh? It's you!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 759,
+  "file": "batch_01.json",
+  "old": "So the Bracelet / stores a dead / hero's memories?",
+  "new": "So the Bracelet stores a dead / hero's memories?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 763,
+  "file": "batch_01.json",
+  "old": "The memories of / the dead? The Pope / would be furious.",
+  "new": "The memories of the dead? / The Pope would be furious."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 765,
+  "file": "batch_01.json",
+  "old": "\"But this clears / things up. The / Identification",
+  "new": "\"But this clears things up. / The Identification"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 767,
+  "file": "batch_01.json",
+  "old": "Allied Actions. This / explains how / Duhan's knights",
+  "new": "Allied Actions. This explains / how Duhan's knights"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 768,
+  "file": "batch_01.json",
+  "old": "obtained it. But / to think such / a thing was",
+  "new": "obtained it. But to think such a / thing was"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 769,
+  "file": "batch_01.json",
+  "old": "possible... / 'Imprinting' -- / an astounding",
+  "new": "possible... 'Imprinting' -- / an astounding"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 770,
+  "file": "batch_01.json",
+  "old": "phenomenon. / 'Memory / imprinting.'\"",
+  "new": "phenomenon. 'Memory / imprinting.'\""
+ },
+ {
+  "resource": 1196,
+  "msg_index": 771,
+  "file": "batch_01.json",
+  "old": "Yes, just like the / cursed dwelling.",
+  "new": "Yes, just like the cursed / dwelling."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 772,
+  "file": "batch_01.json",
+  "old": "Dark memories are / sealed inside / objects.",
+  "new": "Dark memories are sealed / inside objects."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 774,
+  "file": "batch_01.json",
+  "old": "So what will Iris / do? Leave the / city?",
+  "new": "So what will Iris do? Leave the / city?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 775,
+  "file": "batch_01.json",
+  "old": "Don't forget those / items! Three of / them, OK?",
+  "new": "Don't forget those items! / Three of them, OK?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 776,
+  "file": "batch_01.json",
+  "old": "If I leave now, / I'll be hunted. / I'll keep / researching.",
+  "new": "If I leave now, I'll be hunted. / I'll keep researching."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 777,
+  "file": "batch_01.json",
+  "old": "Rumors say / San-Goat has / started moving.",
+  "new": "Rumors say San-Goat has / started moving."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 779,
+  "file": "batch_01.json",
+  "old": "I'm Iris Yeager. / I study the / Allied Actions.",
+  "new": "I'm Iris Yeager. I study the / Allied Actions."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 780,
+  "file": "batch_01.json",
+  "old": "Iris: Will you / make a deal?",
+  "new": "Iris: Will you make a deal?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 781,
+  "file": "batch_01.json",
+  "old": "We need to learn / more about the / Allied Actions.",
+  "new": "We need to learn more about the / Allied Actions."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 782,
+  "file": "batch_01.json",
+  "old": "What I'd like / to ask you...",
+  "new": "What I'd like to ask you..."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 786,
+  "file": "batch_01.json",
+  "old": "Emilia, got / the pouch?",
+  "new": "Emilia, got the pouch?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 790,
+  "file": "batch_01.json",
+  "old": "The herbs inside / strengthen our / connection.",
+  "new": "The herbs inside strengthen / our connection."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 791,
+  "file": "batch_01.json",
+  "old": "We want to learn / about your power,",
+  "new": "We want to learn about your / power,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 792,
+  "file": "batch_01.json",
+  "old": "and I'm sure / you feel the same.",
+  "new": "and I'm sure you feel the same."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 793,
+  "file": "batch_01.json",
+  "old": "With this, we can / communicate with / each other.",
+  "new": "With this, we can communicate / with each other."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 794,
+  "file": "batch_01.json",
+  "old": "Details will / become clear soon.",
+  "new": "Details will become clear soon."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 795,
+  "file": "batch_01.json",
+  "old": "Leave quickly / before you draw / attention.",
+  "new": "Leave quickly before you draw / attention."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 796,
+  "file": "batch_01.json",
+  "old": "Don't tell anyone / about the / Allied Actions.",
+  "new": "Don't tell anyone about the / Allied Actions."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 804,
+  "file": "batch_01.json",
+  "old": "Knight: This area / is restricted.",
+  "new": "Knight: This area is restricted."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 805,
+  "file": "batch_01.json",
+  "old": "Do you have / permission to / enter?",
+  "new": "Do you have permission to / enter?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 807,
+  "file": "batch_01.json",
+  "old": "Then return to / the city. Not a / place for you.",
+  "new": "Then return to the city. / Not a place for you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 808,
+  "file": "batch_01.json",
+  "old": "Knight: No matter / how many times, / the answer is no.",
+  "new": "Knight: No matter how many / times, the answer is no."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 809,
+  "file": "batch_01.json",
+  "old": "Unauthorized / persons cannot / enter.",
+  "new": "Unauthorized persons cannot / enter."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 813,
+  "file": "batch_01.json",
+  "old": "Well well, kid. / Dangerous to / wander here.",
+  "new": "Well well, kid. Dangerous to / wander here."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 814,
+  "file": "batch_01.json",
+  "old": "Coming to the / back? Something to / tell me?",
+  "new": "Coming to the back? Something / to tell me?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 817,
+  "file": "batch_01.json",
+  "old": "I thought he came / often for a / reason.",
+  "new": "I thought he came often for a / reason."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 818,
+  "file": "batch_01.json",
+  "old": "Ha ha, I've / started already. / But I'll gladly / help.",
+  "new": "Ha ha, I've started already. / But I'll gladly help."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 819,
+  "file": "batch_01.json",
+  "old": "It's a quest, so / you're getting / paid too, right?",
+  "new": "It's a quest, so you're getting / paid too, right?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 820,
+  "file": "batch_01.json",
+  "old": "Can't do it / for free.",
+  "new": "Can't do it for free."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 824,
+  "file": "batch_01.json",
+  "old": "But come to think / of it, you've / already done many.",
+  "new": "But come to think of it, / you've already done many."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 825,
+  "file": "batch_01.json",
+  "old": "So as a token of / our thanks, here / you go.",
+  "new": "So as a token of our thanks, / here you go."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 830,
+  "file": "batch_01.json",
+  "old": "Now then! Don't / linger around here / too long. Get",
+  "new": "Now then! Don't linger around / here too long. Get"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 831,
+  "file": "batch_01.json",
+  "old": "back to the main / street. Very well, / complete three",
+  "new": "back to the main street. / Very well, complete three"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 833,
+  "file": "batch_01.json",
+  "old": "They don't have / to be from us -- / any request that",
+  "new": "They don't have to be from us / -- any request that"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 834,
+  "file": "batch_01.json",
+  "old": "benefits us will / do. Truth is, / I've been too busy",
+  "new": "benefits us will do. Truth is, / I've been too busy"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 835,
+  "file": "batch_01.json",
+  "old": "with work to go / out much. If you / can complete my",
+  "new": "with work to go out much. / If you can complete my"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 836,
+  "file": "batch_01.json",
+  "old": "Gin: Oh, what / is it?",
+  "new": "Gin: Oh, what is it?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 838,
+  "file": "batch_01.json",
+  "old": "Good, excellent. / Wait here a moment.",
+  "new": "Good, excellent. Wait here a / moment."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 843,
+  "file": "batch_01.json",
+  "old": "Now then! Don't / linger here. Get / back to the street.",
+  "new": "Now then! Don't linger here. / Get back to the street."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 861,
+  "file": "batch_01.json",
+  "old": "This place is so / narrow, the stairs / are steep too.",
+  "new": "This place is so narrow, / the stairs are steep too."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 862,
+  "file": "batch_01.json",
+  "old": "And with the / storage upstairs, / I'm always running",
+  "new": "And with the storage upstairs, / I'm always running"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 863,
+  "file": "batch_01.json",
+  "old": "up and down! So I / slip and fall / constantly!",
+  "new": "up and down! So I slip and fall / constantly!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 864,
+  "file": "batch_01.json",
+  "old": "Ugh, my head / hurts!",
+  "new": "Ugh, my head hurts!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 866,
+  "file": "batch_01.json",
+  "old": "Oh, sorry! That / doesn't matter.",
+  "new": "Oh, sorry! That doesn't matter."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 867,
+  "file": "batch_01.json",
+  "old": "Thanks for coming! / Are you here / for information?",
+  "new": "Thanks for coming! Are you / here for information?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 869,
+  "file": "batch_01.json",
+  "old": "I see! Since it's / your first time, / let me explain",
+  "new": "I see! Since it's your first / time, let me explain"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 870,
+  "file": "batch_01.json",
+  "old": "our system. Oh! / But first, wait!",
+  "new": "our system. Oh! But first, wait!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 871,
+  "file": "batch_01.json",
+  "old": "Huh, that's not / it? Well, you / might need / information",
+  "new": "Huh, that's not it? Well, / you might need information"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 872,
+  "file": "batch_01.json",
+  "old": "someday, right? / So let me explain / our system anyway.",
+  "new": "someday, right? So let me / explain our system anyway."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 873,
+  "file": "batch_01.json",
+  "old": "Oh! But first, / wait a moment.",
+  "new": "Oh! But first, wait a moment."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 875,
+  "file": "batch_01.json",
+  "old": "Our info isn't / free, you know! / That's no way",
+  "new": "Our info isn't free, you know! / That's no way"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 876,
+  "file": "batch_01.json",
+  "old": "to run a business. / But I think it's / worth the price.",
+  "new": "to run a business. But I think / it's worth the price."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 877,
+  "file": "batch_01.json",
+  "old": "it! Here, I give / these out for / free, so take one!",
+  "new": "it! Here, I give these out for / free, so take one!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 878,
+  "file": "batch_01.json",
+  "old": "It's a file to / keep the info you / buy from us!",
+  "new": "It's a file to keep the info you / buy from us!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 880,
+  "file": "batch_01.json",
+  "old": "Info is 1000g each. / Normally 1200g, / Pipin vouched.",
+  "new": "Info is 1000g each. Normally / 1200g, Pipin vouched."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 882,
+  "file": "batch_01.json",
+  "old": "Oh, Pipin! You can / stop hiding now.",
+  "new": "Oh, Pipin! You can stop hiding / now."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 883,
+  "file": "batch_01.json",
+  "old": "Anyway, that's the / intro done. / Come again when",
+  "new": "Anyway, that's the intro done. / Come again when"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 884,
+  "file": "batch_01.json",
+  "old": "you need info! / I'll be waiting!",
+  "new": "you need info! I'll be waiting!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 886,
+  "file": "batch_01.json",
+  "old": "Info is 1000g each, / normally 1200g, but / Pipin vouched.",
+  "new": "Info is 1000g each, normally / 1200g, but Pipin vouched."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 888,
+  "file": "batch_01.json",
+  "old": "Oh, Pipin! No need / to hide in here.",
+  "new": "Oh, Pipin! No need to hide in / here."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 889,
+  "file": "batch_01.json",
+  "old": "Anyway, that's the / intro done.",
+  "new": "Anyway, that's the intro done."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 890,
+  "file": "batch_01.json",
+  "old": "Come again when / you need info! / I'll be waiting!",
+  "new": "Come again when you need / info! I'll be waiting!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 893,
+  "file": "batch_01.json",
+  "old": "Lidi: Welcome! / Need information?",
+  "new": "Lidi: Welcome! Need / information?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 895,
+  "file": "batch_01.json",
+  "old": "Oh, that's not it? / Well, come again!",
+  "new": "Oh, that's not it? Well, / come again!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 897,
+  "file": "batch_01.json",
+  "old": "Aww, not enough / money? Sorry, but / I can't give",
+  "new": "Aww, not enough money? / Sorry, but I can't give"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 898,
+  "file": "batch_01.json",
+  "old": "discounts. Bring / enough next time! / Bye-bye!",
+  "new": "discounts. Bring enough next / time! Bye-bye!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 900,
+  "file": "batch_01.json",
+  "old": "Thanks! Now then, / let me find your / information...",
+  "new": "Thanks! Now then, let me find / your information..."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 903,
+  "file": "batch_01.json",
+  "old": "See for yourself! / Come again soon!",
+  "new": "See for yourself! Come again / soon!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 904,
+  "file": "batch_01.json",
+  "old": "Sorry, I've no / more information / for you right now.",
+  "new": "Sorry, I've no more / information for you right now."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 906,
+  "file": "batch_01.json",
+  "old": "I can't just leave / the shop open, so / fresh tips",
+  "new": "I can't just leave the shop / open, so fresh tips"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 907,
+  "file": "batch_01.json",
+  "old": "no new tips are / coming in from / adventurers!",
+  "new": "no new tips are coming in from / adventurers!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 910,
+  "file": "batch_01.json",
+  "old": "Hey, how about / you let me join / your party?",
+  "new": "Hey, how about you let me join / your party?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 911,
+  "file": "batch_01.json",
+  "old": "Sitting here won't / get me any new / scoops.",
+  "new": "Sitting here won't get me any / new scoops."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 913,
+  "file": "batch_01.json",
+  "old": "the labyrinth. / But I can't go / alone past the",
+  "new": "the labyrinth. But I can't go / alone past the"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 914,
+  "file": "batch_01.json",
+  "old": "fourth floor. So, / please? I want to / see the depths",
+  "new": "fourth floor. So, please? / I want to see the depths"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 916,
+  "file": "batch_01.json",
+  "old": "[Yes] [No] Yay, / it's decided!",
+  "new": "[Yes] [No] Yay, it's decided!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 917,
+  "file": "batch_01.json",
+  "old": "I'll dash to the / Adventurer's Guild / right now!",
+  "new": "I'll dash to the Adventurer's / Guild right now!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 918,
+  "file": "batch_01.json",
+  "old": "By the time you / return, I should be / ready to join you.",
+  "new": "By the time you return, / I should be ready to join you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 919,
+  "file": "batch_01.json",
+  "old": "Oh, right! I must / post a closure / notice too!",
+  "new": "Oh, right! I must post a closure / notice too!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 923,
+  "file": "batch_01.json",
+  "old": "Awww, no? I guess / I'm just dead / weight, right?",
+  "new": "Awww, no? I guess I'm just / dead weight, right?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 924,
+  "file": "batch_01.json",
+  "old": "But I can't stay / cooped up here / forever.",
+  "new": "But I can't stay cooped up here / forever."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 925,
+  "file": "batch_01.json",
+  "old": "Alright, I'll try / the labyrinth / alone again!",
+  "new": "Alright, I'll try the labyrinth / alone again!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 926,
+  "file": "batch_01.json",
+  "old": "Too bad we can't / go together, but / let's both do",
+  "new": "Too bad we can't go together, / but let's both do"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 927,
+  "file": "batch_01.json",
+  "old": "First I must post / a closure notice / and get ready.",
+  "new": "First I must post a closure / notice and get ready."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 928,
+  "file": "batch_01.json",
+  "old": "Well then, goodbye! / Let's meet again / someday!",
+  "new": "Well then, goodbye! Let's meet / again someday!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 930,
+  "file": "batch_01.json",
+  "old": "Vera: What a / terrible feeling!",
+  "new": "Vera: What a terrible feeling!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 931,
+  "file": "batch_01.json",
+  "old": "Like having a / needle driven into / your heart!",
+  "new": "Like having a needle driven / into your heart!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 933,
+  "file": "batch_01.json",
+  "old": "can this be right? / Those girls said / they designed the",
+  "new": "can this be right? Those girls / said they designed the"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 934,
+  "file": "batch_01.json",
+  "old": "Bracelet, but they / didn't know how / it would be used.",
+  "new": "Bracelet, but they didn't know / how it would be used."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 935,
+  "file": "batch_01.json",
+  "old": "King Ortrud must / have known.",
+  "new": "King Ortrud must have known."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 936,
+  "file": "batch_01.json",
+  "old": "That the Bracelet / can trap a dying / person's memories.",
+  "new": "That the Bracelet can trap a / dying person's memories."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 937,
+  "file": "batch_01.json",
+  "old": "Konde: The / memories of the / dead? Unsettling / talk.",
+  "new": "Konde: The memories of the / dead? Unsettling talk."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 938,
+  "file": "batch_01.json",
+  "old": "For one who has / seen much death / firsthand, it is",
+  "new": "For one who has seen much / death firsthand, it is"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 939,
+  "file": "batch_01.json",
+  "old": "not a pleasant / thought. Death is / cruel -- a sense",
+  "new": "not a pleasant thought. Death is / cruel -- a sense"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 940,
+  "file": "batch_01.json",
+  "old": "of helplessness / and regret. Being / unable to help",
+  "new": "of helplessness and regret. / Being unable to help"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 941,
+  "file": "batch_01.json",
+  "old": "is the worst. But / what matters now / is not that.",
+  "new": "is the worst. But what matters / now is not that."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 943,
+  "file": "batch_01.json",
+  "old": "memories into the / Bracelet? I sense / something akin",
+  "new": "memories into the Bracelet? / I sense something akin"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 944,
+  "file": "batch_01.json",
+  "old": "to a conspiracy. / I hope I'm wrong.",
+  "new": "to a conspiracy. I hope I'm / wrong."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 945,
+  "file": "batch_01.json",
+  "old": "Erika: My heart / aches!",
+  "new": "Erika: My heart aches!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 946,
+  "file": "batch_01.json",
+  "old": "Unable to receive / last rites, dying / in the depths",
+  "new": "Unable to receive last rites, / dying in the depths"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 947,
+  "file": "batch_01.json",
+  "old": "of the labyrinth / like that... For / our adventurer",
+  "new": "of the labyrinth like that... / For our adventurer"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 948,
+  "file": "batch_01.json",
+  "old": "friends to endure / such hardship... / I never truly",
+  "new": "friends to endure such / hardship... I never truly"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 949,
+  "file": "batch_01.json",
+  "old": "considered it. / Trapping a dying / person's memories",
+  "new": "considered it. Trapping a dying / person's memories"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 950,
+  "file": "batch_01.json",
+  "old": "is wrong. But / rather than / pursuing blame,",
+  "new": "is wrong. But rather than / pursuing blame,"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 952,
+  "file": "batch_01.json",
+  "old": "I may be speaking / out of turn, but / that is what I",
+  "new": "I may be speaking out of turn, / but that is what I"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 4,
+  "file": "batch_01.json",
+  "old": "A face I haven't / seen before. First / time looking for / a request here?",
+  "new": "A face I haven't seen before. / First time looking for a / request here?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 5,
+  "file": "batch_01.json",
+  "old": "I am the owner of / this place. My / name is Gin / Barbus.",
+  "new": "I am the owner of this place. / My name is Gin Barbus."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 6,
+  "file": "batch_01.json",
+  "old": "Take requests or / not as you wish, / but keep this / just in case.",
+  "new": "Take requests or not as you / wish, but keep this just in case."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 8,
+  "file": "batch_01.json",
+  "old": "There are many / requests. Accept / one and come to me / for client info.",
+  "new": "There are many requests. / Accept one and come to me for / client info."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 9,
+  "file": "batch_01.json",
+  "old": "Keep notes of work / instructions from / clients. It's good / to stay organized.",
+  "new": "Keep notes of work / instructions from clients. / It's good to stay organized."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 10,
+  "file": "batch_01.json",
+  "old": "Some requests have / deadlines, some / need reapplying. / Keep that in mind.",
+  "new": "Some requests have deadlines, / some need reapplying. / Keep that in mind."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 11,
+  "file": "batch_01.json",
+  "old": "Not every client / has patience, so / don't miss crucial / information.",
+  "new": "Not every client has patience, / so don't miss crucial / information."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 12,
+  "file": "batch_01.json",
+  "old": "If you fail a / quest, this bar's / reputation suffers / too.",
+  "new": "If you fail a quest, this bar's / reputation suffers too."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 19,
+  "file": "batch_01.json",
+  "old": "Then take this / with you.",
+  "new": "Then take this with you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 24,
+  "file": "batch_01.json",
+  "old": "If you don't show / it, they'll think / you're a thief.",
+  "new": "If you don't show it, they'll / think you're a thief."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 45,
+  "file": "batch_01.json",
+  "old": "You went to the / request location / and were attacked.",
+  "new": "You went to the request / location and were attacked."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 47,
+  "file": "batch_01.json",
+  "old": "They wanted to / ambush adventurers / who came for it.",
+  "new": "They wanted to ambush / adventurers who came for it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 48,
+  "file": "batch_01.json",
+  "old": "But others got / there first and / took them down.",
+  "new": "But others got there first and / took them down."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 49,
+  "file": "batch_01.json",
+  "old": "Those adventurers / were after the / Ogre bounty too.",
+  "new": "Those adventurers were after / the Ogre bounty too."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 50,
+  "file": "batch_01.json",
+  "old": "We watch out, but / monsters sometimes / post fake / requests.",
+  "new": "We watch out, but monsters / sometimes post fake requests."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 51,
+  "file": "batch_01.json",
+  "old": "The reward was / a lie. Lesson / learned.",
+  "new": "The reward was a lie. Lesson / learned."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 82,
+  "file": "batch_01.json",
+  "old": "Kyaaaaa! We did / it, we did it!",
+  "new": "Kyaaaaa! We did it, we did it!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 83,
+  "file": "batch_01.json",
+  "old": "You brought it! / Thank you!",
+  "new": "You brought it! Thank you!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 84,
+  "file": "batch_01.json",
+  "old": "I'm Milly! I put up / the request for / this unreliable / Melanie!",
+  "new": "I'm Milly! I put up the request / for this unreliable Melanie!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 85,
+  "file": "batch_01.json",
+  "old": "Hey Melanie! / Thank them too!",
+  "new": "Hey Melanie! Thank them too!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 87,
+  "file": "batch_01.json",
+  "old": "Tha... thanks... / thank you!",
+  "new": "Tha... thanks... thank you!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 89,
+  "file": "batch_01.json",
+  "old": "Oh... that's... / right!",
+  "new": "Oh... that's... right!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 95,
+  "file": "batch_01.json",
+  "old": "We're busy, / so we'll go now.",
+  "new": "We're busy, so we'll go now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 96,
+  "file": "batch_01.json",
+  "old": "She has to learn / magic, register / as an adventurer / and everything!",
+  "new": "She has to learn magic, / register as an adventurer and / everything!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 116,
+  "file": "batch_01.json",
+  "old": "Few adventurers / reach the 8th / floor. Glad you / came!",
+  "new": "Few adventurers reach the 8th / floor. Glad you came!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 119,
+  "file": "batch_01.json",
+  "old": "The favor I ask / is about my / little Pippi.",
+  "new": "The favor I ask is about my / little Pippi."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 126,
+  "file": "batch_01.json",
+  "old": "Take Pippi to the / 8th floor, let / her play, and / bring her back.",
+  "new": "Take Pippi to the 8th floor, let / her play, and bring her back."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 127,
+  "file": "batch_01.json",
+  "old": "Pippi was found / by an adventurer / in the labyrinth.",
+  "new": "Pippi was found by an / adventurer in the labyrinth."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 129,
+  "file": "batch_01.json",
+  "old": "I used to ask / the adventurer / who found her.",
+  "new": "I used to ask the adventurer / who found her."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 130,
+  "file": "batch_01.json",
+  "old": "But he recently / lost his life in / the labyrinth. / So I posted this.",
+  "new": "But he recently lost his life in / the labyrinth. So I posted this."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 132,
+  "file": "batch_01.json",
+  "old": "There there, / soon this person / will take you. / Be patient.",
+  "new": "There there, soon this person / will take you. Be patient."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 133,
+  "file": "batch_01.json",
+  "old": "I'm counting on / you. Don't let / Pippi get hurt.",
+  "new": "I'm counting on you. Don't let / Pippi get hurt."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 135,
+  "file": "batch_01.json",
+  "old": "As I wrote, the / round trip limit / is 2 days.",
+  "new": "As I wrote, the round trip limit / is 2 days."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 136,
+  "file": "batch_01.json",
+  "old": "May seem short, / but it's hard for / me to let Pippi / go for long.",
+  "new": "May seem short, but it's hard / for me to let Pippi go for long."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 139,
+  "file": "batch_01.json",
+  "old": "You returned / Pippi to Angus.",
+  "new": "You returned Pippi to Angus."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 140,
+  "file": "batch_01.json",
+  "old": "Were you okay, / Pippi?",
+  "new": "Were you okay, Pippi?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 144,
+  "file": "batch_01.json",
+  "old": "Looks like she / got refreshed! / Great spirits!",
+  "new": "Looks like she got refreshed! / Great spirits!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 145,
+  "file": "batch_01.json",
+  "old": "Thank you! Here / is your reward.",
+  "new": "Thank you! Here is your / reward."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 147,
+  "file": "batch_01.json",
+  "old": "Oh, Pippi likes / you! She doesn't / want to leave!",
+  "new": "Oh, Pippi likes you! She / doesn't want to leave!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 150,
+  "file": "batch_01.json",
+  "old": "Wahaha! No no, / time to go home, / cute Pippi!",
+  "new": "Wahaha! No no, time to go / home, cute Pippi!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 154,
+  "file": "batch_01.json",
+  "old": "Hmm? Where's / Pippi?",
+  "new": "Hmm? Where's Pippi?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 157,
+  "file": "batch_01.json",
+  "old": "She got away, / you say?!",
+  "new": "She got away, you say?!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 158,
+  "file": "batch_01.json",
+  "old": "Y-you fool! / You can't just / go home after / that!",
+  "new": "Y-you fool! You can't just go / home after that!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 159,
+  "file": "batch_01.json",
+  "old": "Why didn't you / grab her?! My / Pippi is now...!",
+  "new": "Why didn't you grab her?! / My Pippi is now...!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 167,
+  "file": "batch_01.json",
+  "old": "Too bad, request / ends here. Hand / Pippi over!",
+  "new": "Too bad, request ends here. / Hand Pippi over!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 170,
+  "file": "batch_01.json",
+  "old": "Can't handle a / simple request? / The adventurers / today are weak!",
+  "new": "Can't handle a simple request? / The adventurers today are / weak!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 171,
+  "file": "batch_01.json",
+  "old": "Pippi, sorry. I / misjudged them.",
+  "new": "Pippi, sorry. I misjudged them."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 172,
+  "file": "batch_01.json",
+  "old": "Next time I'll / ask someone / better.",
+  "new": "Next time I'll ask someone / better."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 180,
+  "file": "batch_01.json",
+  "old": "Cheerful man: / Yoppen...",
+  "new": "Cheerful man: Yoppen..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 184,
+  "file": "batch_01.json",
+  "old": "I'm Yoppen, the / one who posted / the request!",
+  "new": "I'm Yoppen, the one who posted / the request!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 185,
+  "file": "batch_01.json",
+  "old": "First, tell me / what you know / about Pixies!",
+  "new": "First, tell me what you know / about Pixies!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 187,
+  "file": "batch_01.json",
+  "old": "Oh! Wow! You know / so much!",
+  "new": "Oh! Wow! You know so much!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 188,
+  "file": "batch_01.json",
+  "old": "You really know / everything about / Pixies!",
+  "new": "You really know everything / about Pixies!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 189,
+  "file": "batch_01.json",
+  "old": "Listen! I set up / a Pixie fan / gathering!",
+  "new": "Listen! I set up a Pixie fan / gathering!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 192,
+  "file": "batch_01.json",
+  "old": "It's at the Seraph / Shop on the 1st / floor.",
+  "new": "It's at the Seraph Shop on the / 1st floor."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 193,
+  "file": "batch_01.json",
+  "old": "I'm heading there / now, so come / quick! I'll wait!",
+  "new": "I'm heading there now, / so come quick! I'll wait!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 196,
+  "file": "batch_01.json",
+  "old": "Hmm, not enough. / Can't say you / know everything.",
+  "new": "Hmm, not enough. Can't say you / know everything."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 197,
+  "file": "batch_01.json",
+  "old": "I wrote \"someone / who knows all\" / on the request!",
+  "new": "I wrote \"someone who knows / all\" on the request!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 198,
+  "file": "batch_01.json",
+  "old": "Well, you took it / so you must have / some interest / in Pixies?",
+  "new": "Well, you took it so you must / have some interest in Pixies?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 199,
+  "file": "batch_01.json",
+  "old": "They're so cute! / I could just eat / them up!",
+  "new": "They're so cute! I could just eat / them up!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 200,
+  "file": "batch_01.json",
+  "old": "Go study up on / Pixies now.",
+  "new": "Go study up on Pixies now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 201,
+  "file": "batch_01.json",
+  "old": "You're an / adventurer, right? / Got a bestiary?",
+  "new": "You're an adventurer, right? / Got a bestiary?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 203,
+  "file": "batch_01.json",
+  "old": "What? You don't / know anything!",
+  "new": "What? You don't know / anything!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 204,
+  "file": "batch_01.json",
+  "old": "I wrote \"someone / who knows all\" / on the request!",
+  "new": "I wrote \"someone who knows / all\" on the request!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 205,
+  "file": "batch_01.json",
+  "old": "Well, you took it / so you must have / some interest?",
+  "new": "Well, you took it so you must / have some interest?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 206,
+  "file": "batch_01.json",
+  "old": "They're so cute! / I could eat / them up!",
+  "new": "They're so cute! I could eat / them up!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 207,
+  "file": "batch_01.json",
+  "old": "Go study up on / Pixies now.",
+  "new": "Go study up on Pixies now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 208,
+  "file": "batch_01.json",
+  "old": "You're an / adventurer? Got / a bestiary?",
+  "new": "You're an adventurer? / Got a bestiary?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 211,
+  "file": "batch_01.json",
+  "old": "This is amazing / right? I became / an adventurer / just for this!",
+  "new": "This is amazing right? I became / an adventurer just for this!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 213,
+  "file": "batch_01.json",
+  "old": "According to the / data, the grimoire / absorbs info on / kills.",
+  "new": "According to the data, the / grimoire absorbs info on kills."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 214,
+  "file": "batch_01.json",
+  "old": "Defeat about 50 / to complete the / monster's data.",
+  "new": "Defeat about 50 to complete the / monster's data."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 215,
+  "file": "batch_01.json",
+  "old": "About those / Pixies, they're / cute but...",
+  "new": "About those Pixies, they're / cute but..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 216,
+  "file": "batch_01.json",
+  "old": "Ah, I can't / say it!",
+  "new": "Ah, I can't say it!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 218,
+  "file": "batch_01.json",
+  "old": "Hah, hah! I'll / wait at the Seraph / Shop!",
+  "new": "Hah, hah! I'll wait at the / Seraph Shop!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 219,
+  "file": "batch_01.json",
+  "old": "I'll write it down / so you won't / forget!",
+  "new": "I'll write it down so you won't / forget!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 224,
+  "file": "batch_01.json",
+  "old": "We're a great / match, aren't we~!",
+  "new": "We're a great match, aren't / we~!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 225,
+  "file": "batch_01.json",
+  "old": "You know what / to do, right?",
+  "new": "You know what to do, right?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 234,
+  "file": "batch_01.json",
+  "old": "Nice to meet you. / I'm Raiman from / City Hall.",
+  "new": "Nice to meet you. I'm Raiman / from City Hall."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 235,
+  "file": "batch_01.json",
+  "old": "You don't look / like a knight. / That won't do.",
+  "new": "You don't look like a knight. / That won't do."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 236,
+  "file": "batch_01.json",
+  "old": "Let me start / the registration.",
+  "new": "Let me start the registration."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 237,
+  "file": "batch_01.json",
+  "old": "Sorry, but orders / are orders.",
+  "new": "Sorry, but orders are orders."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 239,
+  "file": "batch_01.json",
+  "old": "Fill in the / property address / here please.",
+  "new": "Fill in the property address / here please."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 240,
+  "file": "batch_01.json",
+  "old": "It's city / property, so no / issues are / allowed!",
+  "new": "It's city property, so no issues / are allowed!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 241,
+  "file": "batch_01.json",
+  "old": "The property is / on labyrinth / Floor 1.",
+  "new": "The property is on labyrinth / Floor 1."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 242,
+  "file": "batch_01.json",
+  "old": "No need to fill / it in right now.",
+  "new": "No need to fill it in right now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 243,
+  "file": "batch_01.json",
+  "old": "Come back when / you've filled it / to finish up.",
+  "new": "Come back when you've filled / it to finish up."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 257,
+  "file": "batch_01.json",
+  "old": "Right! You want / the property?",
+  "new": "Right! You want the property?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 258,
+  "file": "batch_01.json",
+  "old": "May I see the / form?",
+  "new": "May I see the form?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 260,
+  "file": "batch_01.json",
+  "old": "'Vigger Shop / branch' ...Vigger / Shop!",
+  "new": "'Vigger Shop branch' ...Vigger / Shop!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 261,
+  "file": "batch_01.json",
+  "old": "They're doing / well. A branch! / Impressive!",
+  "new": "They're doing well. A branch! / Impressive!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 262,
+  "file": "batch_01.json",
+  "old": "The owner seems / reliable. No / issues.",
+  "new": "The owner seems reliable. / No issues."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 263,
+  "file": "batch_01.json",
+  "old": "The property goes / to Vigger Shop.",
+  "new": "The property goes to Vigger / Shop."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 266,
+  "file": "batch_01.json",
+  "old": "About that place, / it's complicated / and we can't / manage alone.",
+  "new": "About that place, / it's complicated and we can't / manage alone."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 267,
+  "file": "batch_01.json",
+  "old": "Monsters we've / never seen on this / floor moved in.",
+  "new": "Monsters we've never seen on / this floor moved in."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 268,
+  "file": "batch_01.json",
+  "old": "Normally we'd / handle it with / traps, but these / are too much.",
+  "new": "Normally we'd handle it with / traps, but these are too much."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 269,
+  "file": "batch_01.json",
+  "old": "This land has been / explored since / ancient times. If / word gets out...",
+  "new": "This land has been explored / since ancient times. If word / gets out..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 270,
+  "file": "batch_01.json",
+  "old": "So we gave up on / traps. Just deal / with monsters / before it spreads.",
+  "new": "So we gave up on traps. / Just deal with monsters before / it spreads."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 271,
+  "file": "batch_01.json",
+  "old": "Please help. I'll / go ahead and / clear the path.",
+  "new": "Please help. I'll go ahead and / clear the path."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 282,
+  "file": "batch_01.json",
+  "old": "This is the / contest overview / with past scores.",
+  "new": "This is the contest overview / with past scores."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 284,
+  "file": "batch_01.json",
+  "old": "Practice doesn't / count. Only real / games.",
+  "new": "Practice doesn't count. / Only real games."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 286,
+  "file": "batch_01.json",
+  "old": "Play as many / times as you want. / We record your / best score.",
+  "new": "Play as many times as you want. / We record your best score."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 287,
+  "file": "batch_01.json",
+  "old": "Existing high / scores count too.",
+  "new": "Existing high scores count too."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 288,
+  "file": "batch_01.json",
+  "old": "Honestly, 3 / digits would be / impressive this / year.",
+  "new": "Honestly, 3 digits would be / impressive this year."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 289,
+  "file": "batch_01.json",
+  "old": "Give it your / best. Looking / forward to it.",
+  "new": "Give it your best. Looking / forward to it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 307,
+  "file": "batch_01.json",
+  "old": "Everyone! The / winner has been / decided.",
+  "new": "Everyone! The winner has been / decided."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 309,
+  "file": "batch_01.json",
+  "old": "Congratulations! / Over 100 is a / first!",
+  "new": "Congratulations! Over 100 is a / first!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 310,
+  "file": "batch_01.json",
+  "old": "A first-timer / winning is / remarkable!",
+  "new": "A first-timer winning is / remarkable!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 311,
+  "file": "batch_01.json",
+  "old": "Now, as promised: / the grand prize, / the Nagasone / Kotetsu.",
+  "new": "Now, as promised: the grand / prize, the Nagasone Kotetsu."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 312,
+  "file": "batch_01.json",
+  "old": "I only make a / few each year. / Treasure it.",
+  "new": "I only make a few each year. / Treasure it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 313,
+  "file": "batch_01.json",
+  "old": "Relax and enjoy / yourselves.",
+  "new": "Relax and enjoy yourselves."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 322,
+  "file": "batch_01.json",
+  "old": "Oh great, you / again!",
+  "new": "Oh great, you again!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 323,
+  "file": "batch_01.json",
+  "old": "What? Spying on / us again?",
+  "new": "What? Spying on us again?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 325,
+  "file": "batch_01.json",
+  "old": "Huh? Does your / party have an / alchemist?",
+  "new": "Huh? Does your party have an / alchemist?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 327,
+  "file": "batch_01.json",
+  "old": "Oh, you ARE an / alchemist!",
+  "new": "Oh, you ARE an alchemist!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 329,
+  "file": "batch_01.json",
+  "old": "Your companions / aren't even here!",
+  "new": "Your companions aren't even / here!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 330,
+  "file": "batch_01.json",
+  "old": "And you're not / an alchemist. / I can tell!",
+  "new": "And you're not an alchemist. / I can tell!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 334,
+  "file": "batch_01.json",
+  "old": "Where's the / alchemist? I can / tell by looking!",
+  "new": "Where's the alchemist? / I can tell by looking!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 336,
+  "file": "batch_01.json",
+  "old": "Yay! Melanie, / we did it!",
+  "new": "Yay! Melanie, we did it!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 337,
+  "file": "batch_01.json",
+  "old": "With you it's / a sure thing. We / know you, and / you're skilled!",
+  "new": "With you it's a sure thing. We / know you, and you're skilled!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 338,
+  "file": "batch_01.json",
+  "old": "We'll go join / your party at / the Guild!",
+  "new": "We'll go join your party at the / Guild!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 339,
+  "file": "batch_01.json",
+  "old": "Only Melanie / gets registered / though.",
+  "new": "Only Melanie gets registered / though."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 340,
+  "file": "batch_01.json",
+  "old": "They say I'm a / Pixie even though / I'm an elf! / So unfair!",
+  "new": "They say I'm a Pixie even / though I'm an elf! So unfair!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 341,
+  "file": "batch_01.json",
+  "old": "Well, I don't / fight anyway and / Pixies don't get / targeted.",
+  "new": "Well, I don't fight anyway and / Pixies don't get targeted."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 342,
+  "file": "batch_01.json",
+  "old": "Register her and / don't abandon us!",
+  "new": "Register her and don't abandon / us!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 343,
+  "file": "batch_01.json",
+  "old": "Put us both in / the party as a / set!",
+  "new": "Put us both in the party as a / set!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 357,
+  "file": "batch_01.json",
+  "old": "You became an / alchemist!",
+  "new": "You became an alchemist!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 358,
+  "file": "batch_01.json",
+  "old": "There's an / alchemist!",
+  "new": "There's an alchemist!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 361,
+  "file": "batch_01.json",
+  "old": "Now you can / learn magic! / Good for you, / Melanie!",
+  "new": "Now you can learn magic! / Good for you, Melanie!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 363,
+  "file": "batch_01.json",
+  "old": "As promised, / joining your / party! Off to / the Guild!",
+  "new": "As promised, joining your / party! Off to the Guild!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 364,
+  "file": "batch_01.json",
+  "old": "Only Melanie / gets registered.",
+  "new": "Only Melanie gets registered."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 365,
+  "file": "batch_01.json",
+  "old": "They say I'm a / Pixie even though / I'm an elf!",
+  "new": "They say I'm a Pixie even / though I'm an elf!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 366,
+  "file": "batch_01.json",
+  "old": "I don't fight / anyway. Pixies / don't get / targeted.",
+  "new": "I don't fight anyway. Pixies / don't get targeted."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 367,
+  "file": "batch_01.json",
+  "old": "Register her and / don't abandon us!",
+  "new": "Register her and don't abandon / us!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 368,
+  "file": "batch_01.json",
+  "old": "Put us both in / as a set!",
+  "new": "Put us both in as a set!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 372,
+  "file": "batch_01.json",
+  "old": "Romi: Big brother! / Big sister! Oh!",
+  "new": "Romi: Big brother! Big sister! / Oh!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 374,
+  "file": "batch_01.json",
+  "old": "Glad it's someone / I know. Strangers / forget after / seeing my face.",
+  "new": "Glad it's someone I know. / Strangers forget after seeing / my face."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 375,
+  "file": "batch_01.json",
+  "old": "As you can see, / I'm dead.",
+  "new": "As you can see, I'm dead."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 376,
+  "file": "batch_01.json",
+  "old": "Been looking for / my body but / can't find it.",
+  "new": "Been looking for my body but / can't find it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 377,
+  "file": "batch_01.json",
+  "old": "Even dead, most / monsters see me / and bully me.",
+  "new": "Even dead, most monsters see / me and bully me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 378,
+  "file": "batch_01.json",
+  "old": "Finding my body / won't bring me / back but still...",
+  "new": "Finding my body won't bring / me back but still..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 379,
+  "file": "batch_01.json",
+  "old": "I want my parents' / heirloom sword / back.",
+  "new": "I want my parents' heirloom / sword back."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 380,
+  "file": "batch_01.json",
+  "old": "Find my body and / bring back the / sword.",
+  "new": "Find my body and bring back / the sword."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 383,
+  "file": "batch_01.json",
+  "old": "I was tied up, / they cast some / spell, and I / don't remember / after that.",
+  "new": "I was tied up, they cast some / spell, and I don't remember / after that."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 385,
+  "file": "batch_01.json",
+  "old": "Where the shop / is now.",
+  "new": "Where the shop is now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 387,
+  "file": "batch_01.json",
+  "old": "Find it and bring / it to the shop / while I'm there.",
+  "new": "Find it and bring it to the shop / while I'm there."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 388,
+  "file": "batch_01.json",
+  "old": "Thanks! Heading / back to the shop.",
+  "new": "Thanks! Heading back to the / shop."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 399,
+  "file": "batch_01.json",
+  "old": "Sorry for the / wait! Testing a / paralysis cure.",
+  "new": "Sorry for the wait! Testing a / paralysis cure."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 400,
+  "file": "batch_01.json",
+  "old": "Last time, it / made me lose / body weight / instead.",
+  "new": "Last time, it made me lose body / weight instead."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 401,
+  "file": "batch_01.json",
+  "old": "This time I think / it'll work.",
+  "new": "This time I think it'll work."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 402,
+  "file": "batch_01.json",
+  "old": "So, you're here / to help me.",
+  "new": "So, you're here to help me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 403,
+  "file": "batch_01.json",
+  "old": "I'm Popo Milgott. / Nice to meet you!",
+  "new": "I'm Popo Milgott. Nice to meet / you!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 404,
+  "file": "batch_01.json",
+  "old": "Sorry for the / wait! Testing a / paralysis cure.",
+  "new": "Sorry for the wait! Testing a / paralysis cure."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 405,
+  "file": "batch_01.json",
+  "old": "Last time, it / made me lose / body weight.",
+  "new": "Last time, it made me lose body / weight."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 406,
+  "file": "batch_01.json",
+  "old": "This time it'll / work for sure.",
+  "new": "This time it'll work for sure."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 407,
+  "file": "batch_01.json",
+  "old": "Anyway, I hear / you're helping me.",
+  "new": "Anyway, I hear you're helping / me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 409,
+  "file": "batch_01.json",
+  "old": "I'm really / depressed right / now.",
+  "new": "I'm really depressed right now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 410,
+  "file": "batch_01.json",
+  "old": "I dropped my Dark / Medal bag in the / labyrinth.",
+  "new": "I dropped my Dark Medal bag in / the labyrinth."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 412,
+  "file": "batch_01.json",
+  "old": "I, a great / alchemist, spent / 2 years making it.",
+  "new": "I, a great alchemist, spent 2 / years making it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 413,
+  "file": "batch_01.json",
+  "old": "Hahhh, such an / idiot for losing / it!",
+  "new": "Hahhh, such an idiot for losing / it!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 414,
+  "file": "batch_01.json",
+  "old": "Know how much / it cost?",
+  "new": "Know how much it cost?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 416,
+  "file": "batch_01.json",
+  "old": "But there's a / silver lining.",
+  "new": "But there's a silver lining."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 417,
+  "file": "batch_01.json",
+  "old": "I came across / a shocking / incident!",
+  "new": "I came across a shocking / incident!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 419,
+  "file": "batch_01.json",
+  "old": "Ugh, remembering / gives me goose / bumps. Look!",
+  "new": "Ugh, remembering gives me / goose bumps. Look!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 421,
+  "file": "batch_01.json",
+  "old": "It happened on / the 1st floor.",
+  "new": "It happened on the 1st floor."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 422,
+  "file": "batch_01.json",
+  "old": "Found a suspicious / room deep in the / raised area.",
+  "new": "Found a suspicious room deep / in the raised area."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 423,
+  "file": "batch_01.json",
+  "old": "I was checking / the altar and / other things.",
+  "new": "I was checking the altar and / other things."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 424,
+  "file": "batch_01.json",
+  "old": "Then voices / approached. I / thought it was / the Order and hid!",
+  "new": "Then voices approached. / I thought it was the Order and / hid!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 427,
+  "file": "batch_01.json",
+  "old": "Scared, I peeked / from under the / altar.",
+  "new": "Scared, I peeked from under / the altar."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 428,
+  "file": "batch_01.json",
+  "old": "Know what / happened?",
+  "new": "Know what happened?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 429,
+  "file": "batch_01.json",
+  "old": "Weirdly dressed / people doing an / evil ritual!",
+  "new": "Weirdly dressed people doing / an evil ritual!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 430,
+  "file": "batch_01.json",
+  "old": "They were / alchemists!",
+  "new": "They were alchemists!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 432,
+  "file": "batch_01.json",
+  "old": "People who do / anything -- banned / experiments, / even murder.",
+  "new": "People who do anything -- / banned experiments, even / murder."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 433,
+  "file": "batch_01.json",
+  "old": "Excommunicated / and wanted across / all Venoa.",
+  "new": "Excommunicated and wanted / across all Venoa."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 434,
+  "file": "batch_01.json",
+  "old": "Normally they'd / live in hiding.",
+  "new": "Normally they'd live in hiding."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 435,
+  "file": "batch_01.json",
+  "old": "But in Karman's / Labyrinth they / operate freely.",
+  "new": "But in Karman's Labyrinth they / operate freely."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 437,
+  "file": "batch_01.json",
+  "old": "Right, so / anyway --",
+  "new": "Right, so anyway --"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 439,
+  "file": "batch_01.json",
+  "old": "If I'd fainted / they'd have / killed me!",
+  "new": "If I'd fainted they'd have / killed me!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 440,
+  "file": "batch_01.json",
+  "old": "I held my breath / cast Leap and / barely escaped!",
+  "new": "I held my breath cast Leap and / barely escaped!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 441,
+  "file": "batch_01.json",
+  "old": "But it was / the WORST!",
+  "new": "But it was the WORST!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 443,
+  "file": "batch_01.json",
+  "old": "Please get my / luggage bag back.",
+  "new": "Please get my luggage bag back."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 444,
+  "file": "batch_01.json",
+  "old": "It's behind a / passage with / movement traps.",
+  "new": "It's behind a passage with / movement traps."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 446,
+  "file": "batch_01.json",
+  "old": "Gin: \"Can't turn / this one down, / dear guest.\"",
+  "new": "Gin: \"Can't turn this one down, / dear guest.\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 447,
+  "file": "batch_01.json",
+  "old": "This doesn't seem / too hard for you.",
+  "new": "This doesn't seem too hard for / you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 448,
+  "file": "batch_01.json",
+  "old": "Just accept it, / please.",
+  "new": "Just accept it, please."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 449,
+  "file": "batch_01.json",
+  "old": "Sir, that request / can't be refused.",
+  "new": "Sir, that request can't be / refused."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 451,
+  "file": "batch_01.json",
+  "old": "She's the only / daughter of the / Milgott family, / richest in Venoa.",
+  "new": "She's the only daughter of / the Milgott family, richest in / Venoa."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 452,
+  "file": "batch_01.json",
+  "old": "The Milgotts / produced many / cardinals. Very / powerful family.",
+  "new": "The Milgotts produced many / cardinals. Very powerful / family."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 453,
+  "file": "batch_01.json",
+  "old": "Powerful enough / to be a bank for / royalty.",
+  "new": "Powerful enough to be a bank / for royalty."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 454,
+  "file": "batch_01.json",
+  "old": "I received their / help setting up / this shop too.",
+  "new": "I received their help setting up / this shop too."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 455,
+  "file": "batch_01.json",
+  "old": "Doesn't sound / difficult anyway.",
+  "new": "Doesn't sound difficult anyway."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 456,
+  "file": "batch_01.json",
+  "old": "Accept it as a / favor to me.",
+  "new": "Accept it as a favor to me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 464,
+  "file": "batch_01.json",
+  "old": "Thank you. She's / looked forward / to this trip.",
+  "new": "Thank you. She's looked / forward to this trip."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 465,
+  "file": "batch_01.json",
+  "old": "I got time off / from city hall. / At my age, fine.",
+  "new": "I got time off from city hall. / At my age, fine."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 466,
+  "file": "batch_01.json",
+  "old": "Raiman, you were / fired for laziness / but claim you / resigned!",
+  "new": "Raiman, you were fired / for laziness but claim you / resigned!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 467,
+  "file": "batch_01.json",
+  "old": "H-hey Jill! Keep / that a secret!",
+  "new": "H-hey Jill! Keep that a secret!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 476,
+  "file": "batch_01.json",
+  "old": "You did the guide / job, I hear.",
+  "new": "You did the guide job, I hear."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 477,
+  "file": "batch_01.json",
+  "old": "We were short- / handed. I'd have / done it but the / shop needs me.",
+  "new": "We were short- handed. / I'd have done it but the shop / needs me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 478,
+  "file": "batch_01.json",
+  "old": "Appreciate it. / The Merchant Guild / sent a reward.",
+  "new": "Appreciate it. The Merchant / Guild sent a reward."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 483,
+  "file": "batch_01.json",
+  "old": "Excuse me, I'm / busy. Goodbye.",
+  "new": "Excuse me, I'm busy. Goodbye."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 489,
+  "file": "batch_01.json",
+  "old": "I am Fudo Genpaku / from the far east.",
+  "new": "I am Fudo Genpaku from the / far east."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 490,
+  "file": "batch_01.json",
+  "old": "I was told kind / souls would hear / my request.",
+  "new": "I was told kind souls would / hear my request."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 492,
+  "file": "batch_01.json",
+  "old": "I heard a famous / swordsmith lives / in Duhan.",
+  "new": "I heard a famous swordsmith / lives in Duhan."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 493,
+  "file": "batch_01.json",
+  "old": "He's the owner / of this bar. But / there's a problem.",
+  "new": "He's the owner of this bar. / But there's a problem."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 494,
+  "file": "batch_01.json",
+  "old": "The owner is a / samurai, like me.",
+  "new": "The owner is a samurai, / like me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 495,
+  "file": "batch_01.json",
+  "old": "I cannot rely on / a fellow samurai!",
+  "new": "I cannot rely on a fellow / samurai!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 498,
+  "file": "batch_01.json",
+  "old": "Are you also / a samurai?!",
+  "new": "Are you also a samurai?!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 500,
+  "file": "batch_01.json",
+  "old": "Let me withdraw / this request.",
+  "new": "Let me withdraw this request."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 501,
+  "file": "batch_01.json",
+  "old": "If you wish to / help, change your / class.",
+  "new": "If you wish to help, change / your class."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 504,
+  "file": "batch_01.json",
+  "old": "You're not a / samurai, I see.",
+  "new": "You're not a samurai, I see."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 506,
+  "file": "batch_01.json",
+  "old": "I'm staying / nearby. Bring it / when you have it.",
+  "new": "I'm staying nearby. Bring it / when you have it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 521,
+  "file": "batch_01.json",
+  "old": "You changed class / for my request? / How gracious!",
+  "new": "You changed class for my / request? How gracious!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 522,
+  "file": "batch_01.json",
+  "old": "How admirable. / Let me explain.",
+  "new": "How admirable. Let me explain."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 523,
+  "file": "batch_01.json",
+  "old": "As I said, I seek / this bar owner's / blade.",
+  "new": "As I said, I seek this bar / owner's blade."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 524,
+  "file": "batch_01.json",
+  "old": "Please negotiate / and get the blade / for me.",
+  "new": "Please negotiate and get the / blade for me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 525,
+  "file": "batch_01.json",
+  "old": "Bring it when / you have it.",
+  "new": "Bring it when you have it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 538,
+  "file": "batch_01.json",
+  "old": "Deeply grateful / you got the blade.",
+  "new": "Deeply grateful you got the / blade."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 539,
+  "file": "batch_01.json",
+  "old": "And you've come / again! Truly / moved!",
+  "new": "And you've come again! / Truly moved!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 542,
+  "file": "batch_01.json",
+  "old": "Please reconsider / your path.",
+  "new": "Please reconsider your path."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 543,
+  "file": "batch_01.json",
+  "old": "It's the only way / we both benefit.",
+  "new": "It's the only way we both / benefit."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 546,
+  "file": "batch_01.json",
+  "old": "Deeply grateful / for the blade.",
+  "new": "Deeply grateful for the blade."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 547,
+  "file": "batch_01.json",
+  "old": "And you've come / again! Moved!",
+  "new": "And you've come again! Moved!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 554,
+  "file": "batch_01.json",
+  "old": "How admirable. / Let me explain.",
+  "new": "How admirable. Let me explain."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 559,
+  "file": "batch_01.json",
+  "old": "With the blade, / I've trained hard / in the labyrinth.",
+  "new": "With the blade, I've trained / hard in the labyrinth."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 560,
+  "file": "batch_01.json",
+  "old": "At last I sense / a new realm of / swordsmanship!",
+  "new": "At last I sense a new realm of / swordsmanship!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 562,
+  "file": "batch_01.json",
+  "old": "But something / is missing.",
+  "new": "But something is missing."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 564,
+  "file": "batch_01.json",
+  "old": "I reached one / conclusion.",
+  "new": "I reached one conclusion."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 566,
+  "file": "batch_01.json",
+  "old": "My request: / temper this blade / beyond its limits.",
+  "new": "My request: temper this blade / beyond its limits."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 567,
+  "file": "batch_01.json",
+  "old": "This blade must / slay the floor / boss.",
+  "new": "This blade must slay the floor / boss."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 568,
+  "file": "batch_01.json",
+  "old": "Take it to the 4th / floor springs to / temper it, then / slay the boss.",
+  "new": "Take it to the 4th floor springs / to temper it, then slay the boss."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 570,
+  "file": "batch_01.json",
+  "old": "The springs have / the strongest / spiritual energy. / Temper it there.",
+  "new": "The springs have the strongest / spiritual energy. Temper it / there."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 571,
+  "file": "batch_01.json",
+  "old": "Bring it back / when done. I'll / be waiting.",
+  "new": "Bring it back when done. / I'll be waiting."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 576,
+  "file": "batch_01.json",
+  "old": "Just holding it / fills me with / power!",
+  "new": "Just holding it fills me with / power!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 578,
+  "file": "batch_01.json",
+  "old": "Yet I still can't / find the new realm / of swordsmanship.",
+  "new": "Yet I still can't find the new / realm of swordsmanship."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 579,
+  "file": "batch_01.json",
+  "old": "To ease my mind I / meditate by the / waterfalls on / floor 3.",
+  "new": "To ease my mind I meditate by / the waterfalls on floor 3."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 580,
+  "file": "batch_01.json",
+  "old": "The other day, / something struck / me while / meditating.",
+  "new": "The other day, something / struck me while meditating."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 583,
+  "file": "batch_01.json",
+  "old": "I thought relying / on another was / weakness.",
+  "new": "I thought relying on another / was weakness."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 584,
+  "file": "batch_01.json",
+  "old": "But then I / wondered if I / was wrong.",
+  "new": "But then I wondered if I was / wrong."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 585,
+  "file": "batch_01.json",
+  "old": "Maybe I was just / hiding in my / own shell.",
+  "new": "Maybe I was just hiding in my / own shell."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 586,
+  "file": "batch_01.json",
+  "old": "If I seek new / heights but trust / only myself, no / new ideas arise.",
+  "new": "If I seek new heights but trust / only myself, no new ideas / arise."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 587,
+  "file": "batch_01.json",
+  "old": "So I decided / to learn from / many warriors.",
+  "new": "So I decided to learn from many / warriors."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 588,
+  "file": "batch_01.json",
+  "old": "This request is / part of that.",
+  "new": "This request is part of that."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 590,
+  "file": "batch_01.json",
+  "old": "The battle stage / is prepared.",
+  "new": "The battle stage is prepared."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 592,
+  "file": "batch_01.json",
+  "old": "I'll wait in a / small room / beyond.",
+  "new": "I'll wait in a small room / beyond."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 594,
+  "file": "batch_01.json",
+  "old": "I want to see / samurai fighting. / Counting on you.",
+  "new": "I want to see samurai fighting. / Counting on you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 608,
+  "file": "batch_01.json",
+  "old": "Haven't you been / to my place?",
+  "new": "Haven't you been to my place?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 609,
+  "file": "batch_01.json",
+  "old": "I'm Lang, a healer / on the outskirts.",
+  "new": "I'm Lang, a healer on the / outskirts."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 610,
+  "file": "batch_01.json",
+  "old": "Young folks rely / too much on magic!",
+  "new": "Young folks rely too much on / magic!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 611,
+  "file": "batch_01.json",
+  "old": "A few kids think / they can beat / an ancient witch!",
+  "new": "A few kids think they can beat / an ancient witch!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 612,
+  "file": "batch_01.json",
+  "old": "They charge in / alone with no / preparation!",
+  "new": "They charge in alone with no / preparation!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 613,
+  "file": "batch_01.json",
+  "old": "These fools keep / me busy! Harder / than war itself!",
+  "new": "These fools keep me busy! / Harder than war itself!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 615,
+  "file": "batch_01.json",
+  "old": "At this rate, / I'll never finish / my research.",
+  "new": "At this rate, I'll never finish / my research."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 616,
+  "file": "batch_01.json",
+  "old": "I have a favor / to ask.",
+  "new": "I have a favor to ask."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 617,
+  "file": "batch_01.json",
+  "old": "I have two / potions. Physical / and magical.",
+  "new": "I have two potions. Physical / and magical."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 618,
+  "file": "batch_01.json",
+  "old": "Both specially / brewed by me. / Top quality.",
+  "new": "Both specially brewed by me. / Top quality."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 619,
+  "file": "batch_01.json",
+  "old": "Pour one in a / spring on Floor 1.",
+  "new": "Pour one in a spring on Floor 1."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 621,
+  "file": "batch_01.json",
+  "old": "Very well. / Take this.",
+  "new": "Very well. Take this."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 624,
+  "file": "batch_01.json",
+  "old": "Pour it into a / spring on Floor 1.",
+  "new": "Pour it into a spring on Floor / 1."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 625,
+  "file": "batch_01.json",
+  "old": "This potion is / potent. Don't / drink it.",
+  "new": "This potion is potent. Don't / drink it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 626,
+  "file": "batch_01.json",
+  "old": "Soaking it in / a spring gives / the right dosage.",
+  "new": "Soaking it in a spring gives the / right dosage."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 627,
+  "file": "batch_01.json",
+  "old": "Not too deep / or it'll be / diluted.",
+  "new": "Not too deep or it'll be diluted."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 628,
+  "file": "batch_01.json",
+  "old": "I found a good / spot gathering / herbs nearby.",
+  "new": "I found a good spot gathering / herbs nearby."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 629,
+  "file": "batch_01.json",
+  "old": "A wall with battle / marks. A spring / is right there.",
+  "new": "A wall with battle marks. / A spring is right there."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 630,
+  "file": "batch_01.json",
+  "old": "Roughly in the / middle of Floor 1.",
+  "new": "Roughly in the middle of Floor / 1."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 631,
+  "file": "batch_01.json",
+  "old": "I always eat here. / Find me when / you're done.",
+  "new": "I always eat here. Find me / when you're done."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 635,
+  "file": "batch_01.json",
+  "old": "Oh, you! Found / a good spring?",
+  "new": "Oh, you! Found a good spring?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 638,
+  "file": "batch_01.json",
+  "old": "Now I can post an / ad and patients / will come.",
+  "new": "Now I can post an ad and / patients will come."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 639,
+  "file": "batch_01.json",
+  "old": "I couldn't enjoy / my drink with / all the work.",
+  "new": "I couldn't enjoy my drink with / all the work."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 640,
+  "file": "batch_01.json",
+  "old": "But now I can / finally relax!",
+  "new": "But now I can finally relax!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 644,
+  "file": "batch_01.json",
+  "old": "This Leap Sword / was from an / alchemist friend.",
+  "new": "This Leap Sword was from an / alchemist friend."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 645,
+  "file": "batch_01.json",
+  "old": "It lets you / instantly return / to town.",
+  "new": "It lets you instantly return to / town."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 646,
+  "file": "batch_01.json",
+  "old": "Don't be reckless / in the labyrinth.",
+  "new": "Don't be reckless in the / labyrinth."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 649,
+  "file": "batch_01.json",
+  "old": "I'm going to enjoy / this. Don't bother / me for a while.",
+  "new": "I'm going to enjoy this. / Don't bother me for a while."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 655,
+  "file": "batch_01.json",
+  "old": "Hmm, I see. So / that happened.",
+  "new": "Hmm, I see. So that happened."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 656,
+  "file": "batch_01.json",
+  "old": "Well, can't be / helped.",
+  "new": "Well, can't be helped."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 659,
+  "file": "batch_01.json",
+  "old": "Sigh, no drinks / for me again / today. Better / write that note.",
+  "new": "Sigh, no drinks for me again / today. Better write that note."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 660,
+  "file": "batch_01.json",
+  "old": "Sorry, but I'll / report this as / a failure.",
+  "new": "Sorry, but I'll report this as a / failure."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 661,
+  "file": "batch_01.json",
+  "old": "But since you / accepted, here's / the magic stone / as your reward.",
+  "new": "But since you accepted, here's / the magic stone as your reward."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 663,
+  "file": "batch_01.json",
+  "old": "Here, this is the / Ripu magic stone I / made from leftover / synthetic drugs.",
+  "new": "Here, this is the Ripu magic / stone I made from leftover / synthetic drugs."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 664,
+  "file": "batch_01.json",
+  "old": "Learn this and you / can return to the / city instantly. / Very useful.",
+  "new": "Learn this and you can / return to the city instantly. / Very useful."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 665,
+  "file": "batch_01.json",
+  "old": "Well, next time / try to complete / the job / properly.",
+  "new": "Well, next time try to complete / the job properly."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 673,
+  "file": "batch_01.json",
+  "old": "Oh, it's you / again.",
+  "new": "Oh, it's you again."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 674,
+  "file": "batch_01.json",
+  "old": "Despite your help / dissolving the / medicine, my / workload keeps / increasing.",
+  "new": "Despite your help dissolving / the medicine, my workload / keeps increasing."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 676,
+  "file": "batch_01.json",
+  "old": "So as written in / the request, / please go down / to the 2nd floor / this time.",
+  "new": "So as written in the request, / please go down to the 2nd floor / this time."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 677,
+  "file": "batch_01.json",
+  "old": "Luckily, I still / have some of my / concoction left.",
+  "new": "Luckily, I still have some of my / concoction left."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 678,
+  "file": "batch_01.json",
+  "old": "Which medicine / would be useful / for the 2nd floor?",
+  "new": "Which medicine would be useful / for the 2nd floor?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 680,
+  "file": "batch_01.json",
+  "old": "Really, if you're / an adventurer / you should use the / message board / for information!",
+  "new": "Really, if you're an adventurer / you should use the message / board for information!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 682,
+  "file": "batch_01.json",
+  "old": "But I still have / medicine left, so / would you go down / to the 2nd floor?",
+  "new": "But I still have medicine left, / so would you go down to the / 2nd floor?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 684,
+  "file": "batch_01.json",
+  "old": "Which medicine / would be useful / for the 2nd floor?",
+  "new": "Which medicine would be useful / for the 2nd floor?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 686,
+  "file": "batch_01.json",
+  "old": "Body Recovery / Spirit Recovery / I see. Take it / with you.",
+  "new": "Body Recovery Spirit Recovery / I see. Take it with you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 688,
+  "file": "batch_01.json",
+  "old": "The procedure is / the same as / floor 1, so you / should understand.",
+  "new": "The procedure is the same / as floor 1, so you should / understand."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 689,
+  "file": "batch_01.json",
+  "old": "Come back when / the job's done.",
+  "new": "Come back when the job's done."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 693,
+  "file": "batch_01.json",
+  "old": "How is it? Have / you been to the / 2nd floor?",
+  "new": "How is it? Have you been to the / 2nd floor?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 695,
+  "file": "batch_01.json",
+  "old": "Oh, thank you! / As expected of / you.",
+  "new": "Oh, thank you! As expected of / you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 698,
+  "file": "batch_01.json",
+  "old": "Here, this is your / reward. A stone / to learn the / magic Fearkea.",
+  "new": "Here, this is your reward. / A stone to learn the magic / Fearkea."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 699,
+  "file": "batch_01.json",
+  "old": "Fearkea, know it? / It cures the fear / affliction. Pretty / useful, right?",
+  "new": "Fearkea, know it? It cures the / fear affliction. Pretty useful, / right?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 702,
+  "file": "batch_01.json",
+  "old": "Well, the food / should be ready. / Go home now.",
+  "new": "Well, the food should be ready. / Go home now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 705,
+  "file": "batch_01.json",
+  "old": "I'll savor my / meal now, so I'll / be out of sight / for a while.",
+  "new": "I'll savor my meal now, so I'll / be out of sight for a while."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 711,
+  "file": "batch_01.json",
+  "old": "Hmm, I see. So / that happened.",
+  "new": "Hmm, I see. So that happened."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 714,
+  "file": "batch_01.json",
+  "old": "Sigh, no drinks / again. Better / warn everyone.",
+  "new": "Sigh, no drinks again. Better / warn everyone."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 715,
+  "file": "batch_01.json",
+  "old": "I'll report this / as a failure.",
+  "new": "I'll report this as a failure."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 716,
+  "file": "batch_01.json",
+  "old": "But since you / accepted, I'll / give the magic / stone anyway.",
+  "new": "But since you accepted, I'll / give the magic stone anyway."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 718,
+  "file": "batch_01.json",
+  "old": "Here is the / Fearkea magic / stone as reward.",
+  "new": "Here is the Fearkea magic / stone as reward."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 719,
+  "file": "batch_01.json",
+  "old": "Fearkea cures / the fear / affliction. / Useful, right?",
+  "new": "Fearkea cures the fear / affliction. Useful, right?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 723,
+  "file": "batch_01.json",
+  "old": "Hmm! That magician / must be the same / one you met on / the 1st floor?",
+  "new": "Hmm! That magician must be / the same one you met on the 1st / floor?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 724,
+  "file": "batch_01.json",
+  "old": "I don't approve of / what he did, but / you could've seen / that meeting // coming.",
+  "new": "I don't approve of what he did, / but you could've seen that / meeting // coming."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 725,
+  "file": "batch_01.json",
+  "old": "Just doing as / you're told again? / You've hardly / grown at all.",
+  "new": "Just doing as you're told again? / You've hardly grown at all."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 726,
+  "file": "batch_01.json",
+  "old": "Hmph. I had high / hopes for you, / but it seems I / misjudged.",
+  "new": "Hmph. I had high hopes for / you, but it seems I misjudged."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 727,
+  "file": "batch_01.json",
+  "old": "After two / failures, I / can't give you a / reward this time.",
+  "new": "After two failures, I can't give / you a reward this time."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 728,
+  "file": "batch_01.json",
+  "old": "Requests aren't / so forgiving. / Remember that if / you don't want // to fail the / next one.",
+  "new": "Requests aren't so forgiving. / Remember that if you don't / want // to fail the next one."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 738,
+  "file": "batch_01.json",
+  "old": "Thanks to your / help, patients / have calmed down. / I feel relieved.",
+  "new": "Thanks to your help, / patients have calmed down. / I feel relieved."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 739,
+  "file": "batch_01.json",
+  "old": "No more requests / needed, really -- / but I have / medicine left // over.",
+  "new": "No more requests needed, / really -- but I have medicine / left // over."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 741,
+  "file": "batch_01.json",
+  "old": "No point letting / it sit, and after / all that work / it'd be a waste // to just throw / away.",
+  "new": "No point letting it sit, / and after all that work it'd be a / waste // to just throw away."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 742,
+  "file": "batch_01.json",
+  "old": "Now, a patient / who visited told / me there's a / fountain on the // 6th floor.",
+  "new": "Now, a patient who visited told / me there's a fountain on the // 6th floor."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 744,
+  "file": "batch_01.json",
+  "old": "Here, this is my / special remedy.",
+  "new": "Here, this is my special / remedy."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 745,
+  "file": "batch_01.json",
+  "old": "I begged folk not / to drink the / water, tried to / spread the word -- // but it did / little good!",
+  "new": "I begged folk not to drink the / water, tried to spread the word / -- // but it did little good!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 746,
+  "file": "batch_01.json",
+  "old": "Honestly! For / adventurers, / sharing word like / that should be // the basics of / the basics!",
+  "new": "Honestly! For adventurers, / sharing word like that should / be // the basics of the basics!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 747,
+  "file": "batch_01.json",
+  "old": "Still, word never / reaches everyone. / Seems some drank / it anyway.",
+  "new": "Still, word never reaches / everyone. Seems some drank it / anyway."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 749,
+  "file": "batch_01.json",
+  "old": "So here it is: I / want you to mix / in this special / remedy I brewed // for just such a / time.",
+  "new": "So here it is: I want you to mix / in this special remedy I brewed // for just such a time."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 750,
+  "file": "batch_01.json",
+  "old": "Word is there's a / fountain down on / the 6th floor.",
+  "new": "Word is there's a fountain down / on the 6th floor."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 751,
+  "file": "batch_01.json",
+  "old": "Adventurers must / stop by it all / the time.",
+  "new": "Adventurers must stop by it all / the time."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 752,
+  "file": "batch_01.json",
+  "old": "Here, this is my / special remedy.",
+  "new": "Here, this is my special / remedy."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 755,
+  "file": "batch_01.json",
+  "old": "Well then, let's / meet here again.",
+  "new": "Well then, let's meet here / again."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 759,
+  "file": "batch_01.json",
+  "old": "How goes the 6th / floor fountain? / Is the job done / yet?",
+  "new": "How goes the 6th floor / fountain? Is the job done yet?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 761,
+  "file": "batch_01.json",
+  "old": "You don't know / how grateful I am! / It was right to / leave it to you.",
+  "new": "You don't know how grateful I / am! It was right to leave it to / you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 762,
+  "file": "batch_01.json",
+  "old": "Now the medicine / won't go to / waste, and fewer / folk will // suffer. Well / done.",
+  "new": "Now the medicine won't go to / waste, and fewer folk will // suffer. Well done."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 763,
+  "file": "batch_01.json",
+  "old": "Now then, let me / hand over the / magic stone I / promised.",
+  "new": "Now then, let me hand over the / magic stone I promised."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 765,
+  "file": "batch_01.json",
+  "old": "This stone holds / the magic Revive. / Never used it / myself.",
+  "new": "This stone holds the magic / Revive. Never used it myself."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 766,
+  "file": "batch_01.json",
+  "old": "You sacrifice / your life to / revive another. / Know it?",
+  "new": "You sacrifice your life to / revive another. Know it?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 767,
+  "file": "batch_01.json",
+  "old": "A frightful magic! / Though I won't / tell you not to / use it.",
+  "new": "A frightful magic! Though I / won't tell you not to use it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 768,
+  "file": "batch_01.json",
+  "old": "Can't see what / anyone wants with / it, but the stone / is said to be // hard to make.",
+  "new": "Can't see what anyone wants / with it, but the stone is said to / be // hard to make."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 769,
+  "file": "batch_01.json",
+  "old": "It's no use to / me, and they say / it's rare -- so / you have it.",
+  "new": "It's no use to me, and they say / it's rare -- so you have it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 771,
+  "file": "batch_01.json",
+  "old": "Well, the food / should be ready. / Go home now.",
+  "new": "Well, the food should be ready. / Go home now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 774,
+  "file": "batch_01.json",
+  "old": "And don't go / adventuring / recklessly then / come running to // me. I won't / treat you!",
+  "new": "And don't go adventuring / recklessly then come running / to // me. I won't treat you!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 781,
+  "file": "batch_01.json",
+  "old": "Hmm, I see. So / that happened.",
+  "new": "Hmm, I see. So that happened."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 784,
+  "file": "batch_01.json",
+  "old": "Sigh, no drinks / again. Better / warn everyone.",
+  "new": "Sigh, no drinks again. Better / warn everyone."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 785,
+  "file": "batch_01.json",
+  "old": "Sorry, but I'll / report this as / a failure.",
+  "new": "Sorry, but I'll report this as a / failure."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 786,
+  "file": "batch_01.json",
+  "old": "But since you / accepted, I'll / give the magic / stone anyway.",
+  "new": "But since you accepted, I'll / give the magic stone anyway."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 788,
+  "file": "batch_01.json",
+  "old": "This stone holds / the magic Revive. / Never used it / myself.",
+  "new": "This stone holds the magic / Revive. Never used it myself."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 789,
+  "file": "batch_01.json",
+  "old": "You sacrifice / your life to / revive another. / Know it?",
+  "new": "You sacrifice your life to / revive another. Know it?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 790,
+  "file": "batch_01.json",
+  "old": "A frightful magic! / Though I won't / tell you not to / use it.",
+  "new": "A frightful magic! Though I / won't tell you not to use it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 791,
+  "file": "batch_01.json",
+  "old": "Can't see what / anyone wants with / it, but the stone / is said to be // hard to make.",
+  "new": "Can't see what anyone wants / with it, but the stone is said to / be // hard to make."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 792,
+  "file": "batch_01.json",
+  "old": "It's no use to / me, and they say / it's rare -- so / you have it.",
+  "new": "It's no use to me, and they say / it's rare -- so you have it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 794,
+  "file": "batch_01.json",
+  "old": "Well, the food / should be ready. / Go home now.",
+  "new": "Well, the food should be ready. / Go home now."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 797,
+  "file": "batch_01.json",
+  "old": "And don't go / adventuring / recklessly then / come running to // me. I won't / treat you!",
+  "new": "And don't go adventuring / recklessly then come running / to // me. I won't treat you!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 801,
+  "file": "batch_01.json",
+  "old": "Hmm! That magician / must be the same / one you met on / the 2nd floor?",
+  "new": "Hmm! That magician must be / the same one you met on the / 2nd floor?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 802,
+  "file": "batch_01.json",
+  "old": "I don't approve of / what he did, but / you could've seen / that meeting // coming.",
+  "new": "I don't approve of what he did, / but you could've seen that / meeting // coming."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 803,
+  "file": "batch_01.json",
+  "old": "Just doing as / you're told again? / You've hardly / grown at all.",
+  "new": "Just doing as you're told again? / You've hardly grown at all."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 804,
+  "file": "batch_01.json",
+  "old": "Hmph. I had high / hopes for you, / but it seems I / misjudged.",
+  "new": "Hmph. I had high hopes for / you, but it seems I misjudged."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 805,
+  "file": "batch_01.json",
+  "old": "After two / failures, I / can't give you a / reward this time.",
+  "new": "After two failures, I can't give / you a reward this time."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 806,
+  "file": "batch_01.json",
+  "old": "Requests aren't / so forgiving. / Remember that if / you don't want // to fail the / next one.",
+  "new": "Requests aren't so forgiving. / Remember that if you don't / want // to fail the next one."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 808,
+  "file": "batch_01.json",
+  "old": "Before this / turns serious, I / must let everyone / know, and fast.",
+  "new": "Before this turns serious, / I must let everyone know, / and fast."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 811,
+  "file": "batch_01.json",
+  "old": "Hmm! That magician / must be the same / one you met on / the 1st floor?",
+  "new": "Hmm! That magician must be / the same one you met on the 1st / floor?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 812,
+  "file": "batch_01.json",
+  "old": "I don't approve of / what he did, but / you could've seen / that meeting // coming.",
+  "new": "I don't approve of what he did, / but you could've seen that / meeting // coming."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 813,
+  "file": "batch_01.json",
+  "old": "Just doing as / you're told again? / You've hardly / grown at all.",
+  "new": "Just doing as you're told again? / You've hardly grown at all."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 814,
+  "file": "batch_01.json",
+  "old": "Hmph. I had high / hopes for you, / but it seems I / misjudged.",
+  "new": "Hmph. I had high hopes for / you, but it seems I misjudged."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 815,
+  "file": "batch_01.json",
+  "old": "After two / failures, I / can't give you a / reward this time.",
+  "new": "After two failures, I can't give / you a reward this time."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 816,
+  "file": "batch_01.json",
+  "old": "Requests aren't / so forgiving. / Remember that if / you don't want // to fail the / next one.",
+  "new": "Requests aren't so forgiving. / Remember that if you don't / want // to fail the next one."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 818,
+  "file": "batch_01.json",
+  "old": "Before this / turns serious, I / must let everyone / know, and fast.",
+  "new": "Before this turns serious, / I must let everyone know, / and fast."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 826,
+  "file": "batch_01.json",
+  "old": "My name is Scone. / To think someone's / willing to be / possessed by a // death spirit! / I'm so moved!",
+  "new": "My name is Scone. To think / someone's willing to be / possessed by a // death spirit! I'm so moved!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 828,
+  "file": "batch_01.json",
+  "old": "Truth is, I just / LOVE watching / unfortunate / people.",
+  "new": "Truth is, I just LOVE watching / unfortunate people."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 829,
+  "file": "batch_01.json",
+  "old": "That's exactly why / I came all the way / to Duhan. I've no / intention of // entering the / labyrinth myself.",
+  "new": "That's exactly why I came / all the way to Duhan. I've no / intention of // entering the labyrinth myself."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 830,
+  "file": "batch_01.json",
+  "old": "Here, even if I / leave them alone, / adventurers go / into the labyrinth // and come back in / terrible shape!",
+  "new": "Here, even if I leave them / alone, adventurers go into the / labyrinth // and come back in terrible / shape!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 831,
+  "file": "batch_01.json",
+  "old": "Some flee for / their lives, / chased by / monsters. Some // are betrayed by / their companions.",
+  "new": "Some flee for their lives, / chased by monsters. Some // are betrayed by their / companions."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 833,
+  "file": "batch_01.json",
+  "old": "And I get to watch / others' misfortune / and all its drama / from perfect // safety.",
+  "new": "And I get to watch others' / misfortune and all its drama / from perfect // safety."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 834,
+  "file": "batch_01.json",
+  "old": "THAT is my / greatest joy!",
+  "new": "THAT is my greatest joy!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 836,
+  "file": "batch_01.json",
+  "old": "Since coming here, / I've seen plenty / of unfortunate / souls, but...",
+  "new": "Since coming here, I've seen / plenty of unfortunate souls, / but..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 838,
+  "file": "batch_01.json",
+  "old": "You know about / death spirits, / of course?",
+  "new": "You know about death spirits, / of course?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 842,
+  "file": "batch_01.json",
+  "old": "Ahh! I want to see / it! I NEED to see / it! Muhyo~!!",
+  "new": "Ahh! I want to see it! I NEED / to see it! Muhyo~!!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 845,
+  "file": "batch_01.json",
+  "old": "Oops -- spilling / my true feelings / in front of my / death-spirit // candidate! Don't / mind me.",
+  "new": "Oops -- spilling my true / feelings in front of my / death-spirit // candidate! Don't mind me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 846,
+  "file": "batch_01.json",
+  "old": "Whatever I'm / after, you finish / the job and get / your reward -- // no complaints, / right?",
+  "new": "Whatever I'm after, you finish / the job and get your reward -- // no complaints, right?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 847,
+  "file": "batch_01.json",
+  "old": "Counting on you! / Come back / possessed by a / death spirit and // I'll reward you / properly.",
+  "new": "Counting on you! Come back / possessed by a death spirit and // I'll reward you properly."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 853,
+  "file": "batch_01.json",
+  "old": "Those gloomy / shadows under / your eyes! That / uncanny air // hanging over / you!",
+  "new": "Those gloomy shadows under / your eyes! That uncanny air // hanging over you!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 855,
+  "file": "batch_01.json",
+  "old": "Yep! No doubt / about it -- / possessed by a / death spirit!!",
+  "new": "Yep! No doubt about it -- / possessed by a death spirit!!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 859,
+  "file": "batch_01.json",
+  "old": "...No, wait. It / doesn't have to / be a monster, / does it...",
+  "new": "...No, wait. It doesn't have to be / a monster, does it..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 864,
+  "file": "batch_01.json",
+  "old": "Kidding! If I / tried it, you'd / beat me half to / death, right?",
+  "new": "Kidding! If I tried it, you'd / beat me half to death, right?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 865,
+  "file": "batch_01.json",
+  "old": "Ahahahaha!! / Flinched a / little, didn't / you!?",
+  "new": "Ahahahaha!! Flinched a little, / didn't you!?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 866,
+  "file": "batch_01.json",
+  "old": "Priceless! Just / priceless~!!",
+  "new": "Priceless! Just priceless~!!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 868,
+  "file": "batch_01.json",
+  "old": "Ahh, I'm so glad / I got to see it~. / So that's what / possession looks // like~.",
+  "new": "Ahh, I'm so glad I got to see / it~. So that's what possession / looks // like~."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 871,
+  "file": "batch_01.json",
+  "old": "Here you go -- / the promised / reward!",
+  "new": "Here you go -- the promised / reward!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 873,
+  "file": "batch_01.json",
+  "old": "I've had my fun, / so you'd best / hurry to the / temple for an // exorcism!",
+  "new": "I've had my fun, so you'd best / hurry to the temple for an // exorcism!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 874,
+  "file": "batch_01.json",
+  "old": "Well, that's your / business! Bye / now!",
+  "new": "Well, that's your business! / Bye now!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 876,
+  "file": "batch_01.json",
+  "old": "My name is / Scone. ...Oh!?",
+  "new": "My name is Scone. ...Oh!?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 879,
+  "file": "batch_01.json",
+  "old": "Those gloomy / shadows under / your eyes! That / uncanny air // hanging over / you!",
+  "new": "Those gloomy shadows under / your eyes! That uncanny air // hanging over you!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 881,
+  "file": "batch_01.json",
+  "old": "Yep! No doubt / about it -- / possessed by a / death spirit!!",
+  "new": "Yep! No doubt about it -- / possessed by a death spirit!!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 884,
+  "file": "batch_01.json",
+  "old": "Truth is, I just / LOVE watching / unfortunate / people.",
+  "new": "Truth is, I just LOVE watching / unfortunate people."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 885,
+  "file": "batch_01.json",
+  "old": "That's exactly why / I came all the way / to Duhan. I've no / intention of // entering the / labyrinth myself.",
+  "new": "That's exactly why I came / all the way to Duhan. I've no / intention of // entering the labyrinth myself."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 886,
+  "file": "batch_01.json",
+  "old": "Here, even if I / leave them alone, / adventurers go / into the labyrinth // and come back in / terrible shape!",
+  "new": "Here, even if I leave them / alone, adventurers go into the / labyrinth // and come back in terrible / shape!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 887,
+  "file": "batch_01.json",
+  "old": "Some flee for / their lives, / chased by / monsters. Some // are betrayed by / their companions.",
+  "new": "Some flee for their lives, / chased by monsters. Some // are betrayed by their / companions."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 890,
+  "file": "batch_01.json",
+  "old": "THAT is my / greatest joy!",
+  "new": "THAT is my greatest joy!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 892,
+  "file": "batch_01.json",
+  "old": "Since coming here, / I've seen plenty / of unfortunate / souls, but...",
+  "new": "Since coming here, I've seen / plenty of unfortunate souls, / but..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 897,
+  "file": "batch_01.json",
+  "old": "Ahh, what a / poor, poor soul / you are! I can't / help but pity // you!!",
+  "new": "Ahh, what a poor, poor soul you / are! I can't help but pity // you!!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 903,
+  "file": "batch_01.json",
+  "old": "I must know. What / befell Simzon's / band in Karman's / Labyrinth.",
+  "new": "I must know. What befell / Simzon's band in Karman's / Labyrinth."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 904,
+  "file": "batch_01.json",
+  "old": "I will be blunt. / I cannot take / on your request.",
+  "new": "I will be blunt. I cannot take on / your request."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 907,
+  "file": "batch_01.json",
+  "old": "This is only my / guess, but did / they not press / on to deeper / floors?",
+  "new": "This is only my guess, but did / they not press on to deeper / floors?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 908,
+  "file": "batch_01.json",
+  "old": "From the / soldiers' talk, / Simzon's band / were feared as / San-Lazare's / demons.",
+  "new": "From the soldiers' talk, / Simzon's band were feared as / San-Lazare's demons."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 910,
+  "file": "batch_01.json",
+  "old": "By now, surely / you understand.",
+  "new": "By now, surely you understand."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 911,
+  "file": "batch_01.json",
+  "old": "Even if I took / your request, / no one could / see it done.",
+  "new": "Even if I took your request, / no one could see it done."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 912,
+  "file": "batch_01.json",
+  "old": "I'll spare you / cruel words. Just / wait until they / climb back up.",
+  "new": "I'll spare you cruel words. Just / wait until they climb back up."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 918,
+  "file": "batch_01.json",
+  "old": "...I simply / cannot believe / it.",
+  "new": "...I simply cannot believe it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 920,
+  "file": "batch_01.json",
+  "old": "In the brief / while before I / returned, his / band was wiped / out, and Simzon / became that.",
+  "new": "In the brief while before I / returned, his band was wiped / out, and Simzon became that."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 922,
+  "file": "batch_01.json",
+  "old": "Famed from the / battlefields of / the rebellion, / feared as / San-Lazare's / demon,",
+  "new": "Famed from the battlefields / of the rebellion, feared as / San-Lazare's demon,"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 923,
+  "file": "batch_01.json",
+  "old": "courted and / dreaded across / Venoa. I'd not / wish to see him / so broken.",
+  "new": "courted and dreaded across / Venoa. I'd not wish to see him / so broken."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 924,
+  "file": "batch_01.json",
+  "old": "That those who / live by the blade / may one day / fall, I do not / dispute.",
+  "new": "That those who live by the / blade may one day fall, / I do not dispute."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 927,
+  "file": "batch_01.json",
+  "old": "I must know. What / destroyed his / band and stole / the light from / Simzon's eyes.",
+  "new": "I must know. What destroyed / his band and stole the light / from Simzon's eyes."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 928,
+  "file": "batch_01.json",
+  "old": "I beg you. Help / me slay the one / behind it.",
+  "new": "I beg you. Help me slay the one / behind it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 929,
+  "file": "batch_01.json",
+  "old": "Take me with you / into the maze, / and grant me / the chance to / find the truth.",
+  "new": "Take me with you into the / maze, and grant me the chance / to find the truth."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 931,
+  "file": "batch_01.json",
+  "old": "Thank you. I am / Vera el-Muwahhid.",
+  "new": "Thank you. I am Vera / el-Muwahhid."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 932,
+  "file": "batch_01.json",
+  "old": "Vera: I am still / a green knight, / but I'll strive / not to be a / burden.",
+  "new": "Vera: I am still a green knight, / but I'll strive not to be a / burden."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 933,
+  "file": "batch_01.json",
+  "old": "I look forward / to serving with / you.",
+  "new": "I look forward to serving with / you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 936,
+  "file": "batch_01.json",
+  "old": "Forgive me for / your time. I'll / seek out / another.",
+  "new": "Forgive me for your time. / I'll seek out another."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 937,
+  "file": "batch_01.json",
+  "old": "Composing / herself, the / knight slipped / out of the / tavern.",
+  "new": "Composing herself, the knight / slipped out of the tavern."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 941,
+  "file": "batch_01.json",
+  "old": "What can I do / for you?",
+  "new": "What can I do for you?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 945,
+  "file": "batch_01.json",
+  "old": "I'm quite / friendly really.",
+  "new": "I'm quite friendly really."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 946,
+  "file": "batch_01.json",
+  "old": "New customers / always seem / scared of me.",
+  "new": "New customers always seem / scared of me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 950,
+  "file": "batch_01.json",
+  "old": "This attire keeps / my spirits / focused.",
+  "new": "This attire keeps my spirits / focused."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 952,
+  "file": "batch_01.json",
+  "old": "I am Gin, the / one who runs this / establishment.",
+  "new": "I am Gin, the one who runs this / establishment."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 953,
+  "file": "batch_01.json",
+  "old": "Nice to meet you. / Please remember / me.",
+  "new": "Nice to meet you. Please / remember me."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 954,
+  "file": "batch_01.json",
+  "old": "Many adventurers / patronize our / shop.",
+  "new": "Many adventurers patronize our / shop."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 955,
+  "file": "batch_01.json",
+  "old": "But there's one / rule everyone / follows.",
+  "new": "But there's one rule everyone / follows."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 956,
+  "file": "batch_01.json",
+  "old": "Complaining about / food or getting / drunk is fine.",
+  "new": "Complaining about food or / getting drunk is fine."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 957,
+  "file": "batch_01.json",
+  "old": "But fighting is / forbidden.",
+  "new": "But fighting is forbidden."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 960,
+  "file": "batch_01.json",
+  "old": "Make yourself / comfortable.",
+  "new": "Make yourself comfortable."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 965,
+  "file": "batch_01.json",
+  "old": "Yes, the / Adventurer's / Subsidy. I / remember.",
+  "new": "Yes, the Adventurer's Subsidy. / I remember."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 966,
+  "file": "batch_01.json",
+  "old": "You've gathered / companions!",
+  "new": "You've gathered companions!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 968,
+  "file": "batch_01.json",
+  "old": "If more were like / you, I'd have / less work.",
+  "new": "If more were like you, I'd have / less work."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 969,
+  "file": "batch_01.json",
+  "old": "Here's the / subsidy.",
+  "new": "Here's the subsidy."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 973,
+  "file": "batch_01.json",
+  "old": "I'll let you know / about other / grants. Farewell.",
+  "new": "I'll let you know about other / grants. Farewell."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 978,
+  "file": "batch_01.json",
+  "old": "Middle-aged man: / \"Ahh, busy busy.\"",
+  "new": "Middle-aged man: \"Ahh, / busy busy.\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 979,
+  "file": "batch_01.json",
+  "old": "\"No time to relax / lately.\"",
+  "new": "\"No time to relax lately.\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 980,
+  "file": "batch_01.json",
+  "old": "\"I am Raiman / from Duhan's / municipality.\"",
+  "new": "\"I am Raiman from Duhan's / municipality.\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 981,
+  "file": "batch_01.json",
+  "old": "Raiman: \"Busy / busy.\"",
+  "new": "Raiman: \"Busy busy.\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 982,
+  "file": "batch_01.json",
+  "old": "\"No time to relax / lately.\"",
+  "new": "\"No time to relax lately.\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 983,
+  "file": "batch_01.json",
+  "old": "About the / Adventurer's / Subsidy.",
+  "new": "About the Adventurer's / Subsidy."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 985,
+  "file": "batch_01.json",
+  "old": "The Adventurer's / Subsidy is part / of that.",
+  "new": "The Adventurer's Subsidy is / part of that."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 986,
+  "file": "batch_01.json",
+  "old": "Gather 5 / companions for / a 500g grant.",
+  "new": "Gather 5 companions for a 500g / grant."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 989,
+  "file": "batch_01.json",
+  "old": "If more were like / you, I'd have / less work.",
+  "new": "If more were like you, I'd have / less work."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 990,
+  "file": "batch_01.json",
+  "old": "Here's the / subsidy.",
+  "new": "Here's the subsidy."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 994,
+  "file": "batch_01.json",
+  "old": "I'll let you know / about more grants. / Farewell.",
+  "new": "I'll let you know about more / grants. Farewell."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 995,
+  "file": "batch_01.json",
+  "old": "Lately people / rush in / unprepared. / Worrying.",
+  "new": "Lately people rush in / unprepared. Worrying."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 996,
+  "file": "batch_01.json",
+  "old": "The Order can't / cover everyone.",
+  "new": "The Order can't cover / everyone."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 997,
+  "file": "batch_01.json",
+  "old": "So the city / helps out.",
+  "new": "So the city helps out."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 998,
+  "file": "batch_01.json",
+  "old": "Simple: get 5 / companions from / the Guild.",
+  "new": "Simple: get 5 companions from / the Guild."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 999,
+  "file": "batch_01.json",
+  "old": "Once you have 5 / come to the / request counter.",
+  "new": "Once you have 5 come to the / request counter."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1002,
+  "file": "batch_01.json",
+  "old": "Raiman: \"Don't / need the subsidy?\"",
+  "new": "Raiman: \"Don't need the / subsidy?\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1003,
+  "file": "batch_01.json",
+  "old": "You already have / companions / though.",
+  "new": "You already have companions / though."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1005,
+  "file": "batch_01.json",
+  "old": "Ah! You trust / only your own / abilities?",
+  "new": "Ah! You trust only your own / abilities?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1006,
+  "file": "batch_01.json",
+  "old": "I see. One way / to go about it.",
+  "new": "I see. One way to go about it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1007,
+  "file": "batch_01.json",
+  "old": "The hard road / takes real / determination.",
+  "new": "The hard road takes real / determination."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1008,
+  "file": "batch_01.json",
+  "old": "Not many could. / Truly impressive.",
+  "new": "Not many could. Truly / impressive."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1009,
+  "file": "batch_01.json",
+  "old": "I, Raiman, am / deeply moved.",
+  "new": "I, Raiman, am deeply moved."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1015,
+  "file": "batch_01.json",
+  "old": "Knight Samuel: / \"Hello!\"",
+  "new": "Knight Samuel: \"Hello!\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1016,
+  "file": "batch_01.json",
+  "old": "Samuel Everson, / Royal Knights, / 7th Division.",
+  "new": "Samuel Everson, Royal / Knights, 7th Division."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1017,
+  "file": "batch_01.json",
+  "old": "Could you assist / the patrol on / the 2nd floor?",
+  "new": "Could you assist the patrol on / the 2nd floor?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1018,
+  "file": "batch_01.json",
+  "old": "You may already / know, but...",
+  "new": "You may already know, but..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1019,
+  "file": "batch_01.json",
+  "old": "Our patrols keep / getting attacked. / Unacceptable.",
+  "new": "Our patrols keep getting / attacked. Unacceptable."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1020,
+  "file": "batch_01.json",
+  "old": "As a knight I / can't stand by.",
+  "new": "As a knight I can't stand by."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1022,
+  "file": "batch_01.json",
+  "old": "Sounds simple / but...",
+  "new": "Sounds simple but..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1024,
+  "file": "batch_01.json",
+  "old": "Still green like / me, and his / swordwork is / honestly lacking.",
+  "new": "Still green like me, and his / swordwork is honestly lacking."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1026,
+  "file": "batch_01.json",
+  "old": "But I'm worried / about him.",
+  "new": "But I'm worried about him."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1027,
+  "file": "batch_01.json",
+  "old": "Could you boost / morale and / assist them?",
+  "new": "Could you boost morale and / assist them?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1028,
+  "file": "batch_01.json",
+  "old": "They should be / in the waterfall / area on floor 2.",
+  "new": "They should be in the waterfall / area on floor 2."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1029,
+  "file": "batch_01.json",
+  "old": "I'm counting / on you!",
+  "new": "I'm counting on you!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1031,
+  "file": "batch_01.json",
+  "old": "I must head to / the 4th floor.",
+  "new": "I must head to the 4th floor."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1032,
+  "file": "batch_01.json",
+  "old": "The reward is / with the tavern / owner. Collect / it when done.",
+  "new": "The reward is with the tavern / owner. Collect it when done."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1035,
+  "file": "batch_01.json",
+  "old": "Elf: \"You / accepted my / request?\"",
+  "new": "Elf: \"You accepted my / request?\""
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1037,
+  "file": "batch_01.json",
+  "old": "Yes, at my shop / once...",
+  "new": "Yes, at my shop once..."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1038,
+  "file": "batch_01.json",
+  "old": "Right! When / Wesbell visited, / we met briefly.",
+  "new": "Right! When Wesbell visited, / we met briefly."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1039,
+  "file": "batch_01.json",
+  "old": "Let me properly / introduce myself.",
+  "new": "Let me properly introduce / myself."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1040,
+  "file": "batch_01.json",
+  "old": "I am Guillaume. I / run the / Adventurer's / Guild.",
+  "new": "I am Guillaume. I run the / Adventurer's Guild."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1043,
+  "file": "batch_01.json",
+  "old": "You know about / Karman's / Labyrinth.",
+  "new": "You know about Karman's / Labyrinth."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1045,
+  "file": "batch_01.json",
+  "old": "It has rare / ingredients like / Mandracora.",
+  "new": "It has rare ingredients like / Mandracora."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1047,
+  "file": "batch_01.json",
+  "old": "For alchemists / it's a treasure / trove.",
+  "new": "For alchemists it's a treasure / trove."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1048,
+  "file": "batch_01.json",
+  "old": "And now something / amazing was found.",
+  "new": "And now something amazing / was found."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1049,
+  "file": "batch_01.json",
+  "old": "Ancient Elf / Kingdom ruins on / the 5th floor!",
+  "new": "Ancient Elf Kingdom ruins on / the 5th floor!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1050,
+  "file": "batch_01.json",
+  "old": "The kingdom of / Dialant, lost in / the distant past.",
+  "new": "The kingdom of Dialant, / lost in the distant past."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1057,
+  "file": "batch_01.json",
+  "old": "That truth was / swallowed by time.",
+  "new": "That truth was swallowed by / time."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1058,
+  "file": "batch_01.json",
+  "old": "Elven lore says / a demon Og / destroyed them.",
+  "new": "Elven lore says a demon Og / destroyed them."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1060,
+  "file": "batch_01.json",
+  "old": "No one alive / truly knows.",
+  "new": "No one alive truly knows."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1061,
+  "file": "batch_01.json",
+  "old": "No records / survive.",
+  "new": "No records survive."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1062,
+  "file": "batch_01.json",
+  "old": "Their end must / have been sudden / and catastrophic.",
+  "new": "Their end must have been / sudden and catastrophic."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1064,
+  "file": "batch_01.json",
+  "old": "Can you / understand my / excitement?",
+  "new": "Can you understand my / excitement?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1065,
+  "file": "batch_01.json",
+  "old": "For elves, / Dialant is a / paradise lost!",
+  "new": "For elves, Dialant is a paradise / lost!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1066,
+  "file": "batch_01.json",
+  "old": "After so long we / may learn the / truth!",
+  "new": "After so long we may learn the / truth!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1067,
+  "file": "batch_01.json",
+  "old": "What will we / find?",
+  "new": "What will we find?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1068,
+  "file": "batch_01.json",
+  "old": "I can't even / imagine.",
+  "new": "I can't even imagine."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1069,
+  "file": "batch_01.json",
+  "old": "Even junk is / fine. Bring back / any elf relics.",
+  "new": "Even junk is fine. Bring back / any elf relics."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1070,
+  "file": "batch_01.json",
+  "old": "My associate is / excavating on / the 3rd floor.",
+  "new": "My associate is excavating on / the 3rd floor."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1071,
+  "file": "batch_01.json",
+  "old": "Rough-spoken / monster but a / nimble craftsman. / Ask about finds.",
+  "new": "Rough-spoken monster but a / nimble craftsman. Ask about / finds."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1072,
+  "file": "batch_01.json",
+  "old": "May be a dull / request, but I'm / counting on you.",
+  "new": "May be a dull request, but I'm / counting on you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1076,
+  "file": "batch_01.json",
+  "old": "Guillaume: Did / the Leprechaun / find anything?",
+  "new": "Guillaume: Did the Leprechaun / find anything?"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1078,
+  "file": "batch_01.json",
+  "old": "C-could this / be...?!",
+  "new": "C-could this be...?!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1081,
+  "file": "batch_01.json",
+  "old": "I hoped for even / a sword fragment / but this...!",
+  "new": "I hoped for even a sword / fragment but this...!"
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1082,
+  "file": "batch_01.json",
+  "old": "Restoring an / Automata was my / lifelong dream.",
+  "new": "Restoring an Automata was my / lifelong dream."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1083,
+  "file": "batch_01.json",
+  "old": "Not just mine. / Any alchemist / has dreamed of / this.",
+  "new": "Not just mine. Any alchemist / has dreamed of this."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1085,
+  "file": "batch_01.json",
+  "old": "No one could see / his creation / without awe.",
+  "new": "No one could see his creation / without awe."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1086,
+  "file": "batch_01.json",
+  "old": "I couldn't find / what powered / the Automata.",
+  "new": "I couldn't find what powered / the Automata."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1087,
+  "file": "batch_01.json",
+  "old": "I tested every / substance. None / worked.",
+  "new": "I tested every substance. / None worked."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1088,
+  "file": "batch_01.json",
+  "old": "A great force / existed there.",
+  "new": "A great force existed there."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1091,
+  "file": "batch_01.json",
+  "old": "But now I can / finally complete / it.",
+  "new": "But now I can finally complete / it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1092,
+  "file": "batch_01.json",
+  "old": "The door to the / future opens / before us.",
+  "new": "The door to the future opens / before us."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1094,
+  "file": "batch_01.json",
+  "old": "I'll return to / the Guild to begin / experiments.",
+  "new": "I'll return to the Guild to begin / experiments."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1095,
+  "file": "batch_01.json",
+  "old": "When I succeed, / I'll share that / joy with you.",
+  "new": "When I succeed, I'll share that / joy with you."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1096,
+  "file": "batch_01.json",
+  "old": "The first / Automata is / yours, if you wish / it.",
+  "new": "The first Automata is yours, / if you wish it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 1097,
+  "file": "batch_01.json",
+  "old": "Look forward to / it.",
+  "new": "Look forward to it."
+ },
+ {
+  "resource": 1197,
+  "msg_index": 919,
+  "file": "batch_01.json",
+  "old": "It has been but / ten short days.",
+  "new": "It has been but ten short days."
+ }
+]

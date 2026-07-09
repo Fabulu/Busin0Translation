@@ -9,7 +9,7 @@
     "resource": 1212,
     "msg_index": 1,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Let's explore! / Quest Log? / Treasure 1-10 / Shadow Check / Appraisal / Allayed Info 1-8 / Quest mgmt enabled."
+    "english": "Let's explore! / Quest Log? / Treasure 1-10 / Shadow Check / Appraisal / Allied Info 1-8 / Quest mgmt enabled."
   },
   {
     "resource": 1212,
@@ -525,7 +525,7 @@
     "resource": 1212,
     "msg_index": 91,
     "japanese": "アウローラはゆらめく扱い[0419]が入った。剣を力渡した。",
-    "english": "Aurora gave you / a flame sword."
+    "english": "Aurora handed you / a stone wrapped in / black flame."
   },
   {
     "resource": 1212,
@@ -537,7 +537,7 @@
     "resource": 1212,
     "msg_index": 93,
     "japanese": "置形ディアラントを消[0408]させた剣よ。",
-    "english": "The sword that / destroyed Dialant."
+    "english": "The stone that / destroyed ancient / Dialant."
   },
   {
     "resource": 1212,
@@ -1905,7 +1905,7 @@
     "resource": 1212,
     "msg_index": 329,
     "japanese": "ブレスレットに込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "Learned new / Allayed!"
+    "english": "Learned new / Allied Action!"
   },
   {
     "resource": 1212,
@@ -2205,7 +2205,7 @@
     "resource": 1212,
     "msg_index": 380,
     "japanese": "門い宝剣に込められた思大から、新しい戦美「アレイド」を力に入れた。",
-    "english": "Learned Allayed / from sword!"
+    "english": "Learned Allied Action / from sword!"
   },
   {
     "resource": 1212,
@@ -3321,7 +3321,7 @@
     "resource": 1212,
     "msg_index": 573,
     "japanese": "エルフ数のウーリがゆっくりと多づいてきた。",
-    "english": "Wuri approached."
+    "english": "Uuri approached."
   },
   {
     "resource": 1212,
@@ -3405,7 +3405,7 @@
     "resource": 1212,
     "msg_index": 587,
     "japanese": "ウーリは言[0387]を限めた。その[0390][016A]が[0297]く思[0455]に[058E]む。",
-    "english": "Wuri paused."
+    "english": "Uuri paused."
   },
   {
     "resource": 1212,
@@ -3519,7 +3519,7 @@
     "resource": 1212,
     "msg_index": 606,
     "japanese": "ウーリはうつむき、しばらく何かに必えを[0687]らせていた。",
-    "english": "Wuri thought."
+    "english": "Uuri thought."
   },
   {
     "resource": 1212,
@@ -3549,7 +3549,7 @@
     "resource": 1212,
     "msg_index": 611,
     "japanese": "ウーリはそう言って着多み、防っていった。",
-    "english": "Wuri left."
+    "english": "Uuri left."
   },
   {
     "resource": 1212,
@@ -3873,7 +3873,7 @@
     "resource": 1212,
     "msg_index": 665,
     "japanese": "コンデ探かに余は見た！、[05F5]くものの多い声が依に経き渡り、一つの思全が[0408]んでいく[0470][01BC]を！。",
-    "english": "Conte: I saw / it all!"
+    "english": "Konde: I saw / it all!"
   },
   {
     "resource": 1212,
@@ -3891,7 +3891,7 @@
     "resource": 1212,
     "msg_index": 668,
     "japanese": "コンデは品りで顔を[04A6]っ[041E]にして[04D1]んだ。",
-    "english": "Conte raged."
+    "english": "Konde raged."
   },
   {
     "resource": 1212,
@@ -4221,7 +4221,7 @@
     "resource": 1213,
     "msg_index": 1,
     "japanese": "くまなく道べよう 御器築主？ 放倉あれこれ１放倉あれこれ２放倉あれこれ３放倉あれこれ４放倉あれこれ５放倉あれこれ６放倉あれこれ７放倉あれこれ８放倉あれこれ９放倉あれこれ１０影放チェック [04F0][046D]品の品言[028E]損のおかげ？ 呪基アレイド[016A]報１呪基アレイド[016A]報２呪基アレイド[016A]報３呪基アレイド[016A]報４呪基アレイド[016A]報５呪基アレイド[016A]報６呪基アレイド[016A]報７呪基アレイド[016A]報８依頼安理の力[01B5]きを帰ませた。",
-    "english": "Let's explore! / Quest Log? / Treasure 1-10 / Shadow Check / Appraisal / Allayed Info 1-8 / Quest mgmt enabled."
+    "english": "Let's explore! / Quest Log? / Treasure 1-10 / Shadow Check / Appraisal / Allied Info 1-8 / Quest mgmt enabled."
   },
   {
     "resource": 1213,
@@ -4305,7 +4305,7 @@
     "resource": 1213,
     "msg_index": 15,
     "japanese": "サン・ラザールの向魔、義[048E]隊暗[062C]、ヴェーラ[001D]ムワッヒド、",
-    "english": "vera almohad, / san lazare demon / hunter."
+    "english": "Vera Almohad, / Demon of / San-Lazare."
   },
   {
     "resource": 1213,
@@ -4329,7 +4329,7 @@
     "resource": 1213,
     "msg_index": 19,
     "japanese": "コンデついにここまで帰たのだな！。",
-    "english": "Conte: We made / it this far!"
+    "english": "Konde: We made / it this far!"
   },
   {
     "resource": 1213,
@@ -4359,7 +4359,7 @@
     "resource": 1213,
     "msg_index": 24,
     "japanese": "コンデはそう言って[03A2]今のまゆを外げ、[03B7]野っ[0141]あふれる[0390][016A]を見せた。",
-    "english": "Conte raised brow."
+    "english": "Konde raised brow."
   },
   {
     "resource": 1213,
