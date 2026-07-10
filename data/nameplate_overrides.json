@@ -1,0 +1,19 @@
+{
+  "_comment": "Per-(resource,group) 0x14 name-island override. Applied to the ACTIVE speaker slice in patch_section1_offsets BEFORE name_labels lookup. Reason: 士騎戦 decodes to 'Knight' globally but is really 冒険者/Adventurer in these groups (Glyph-Page Law); a global name_labels flip would corrupt R1196 g752 Lady Knight and R1206 g244 Uuri.",
+  "1203": {
+    "1034": "Adventurer",
+    "1380": "Adventurer",
+    "1395": "Adventurer",
+    "1430": "Adventurer"
+  },
+  "1204": {
+    "266": "Adventurer"
+  },
+  "1205": {
+    "51": "Adventurer",
+    "217": "Adventurer"
+  },
+  "1207": {
+    "879": "Adventurer"
+  }
+}

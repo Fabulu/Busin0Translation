@@ -93,7 +93,7 @@ def test_canonical_present_where_expected():
         ("batch_03.json", "Pipin"),
         ("batch_02.json", "Melanie"),
         ("batch_08.json", "Turgot"),
-        ("batch_07.json", "Erika"),
+        ("batch_08.json", "Erika"),  # was batch_07; her only batch_07 mentions were redundant "Erika:" prefixes removed 2026-07-11 (name now via nameplate island)
     ]
     by_name = {os.path.basename(p): p for p in audit.TARGETS}
     issues = []

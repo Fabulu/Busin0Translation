@@ -903,7 +903,7 @@
     "resource": 1210,
     "msg_index": 158,
     "japanese": "アウローラ長く生きていれば、このような知与な[049E]合にも出会うのかもしれない。",
-    "english": "Aurora: Living / long enough, one / may encounter / such rare / meetings."
+    "english": "Living / long enough, one / may encounter / such rare / meetings."
   },
   {
     "resource": 1210,
@@ -1089,7 +1089,7 @@
     "resource": 1210,
     "msg_index": 190,
     "japanese": "フリーダー余は行の者のことは知らない。",
-    "english": "Frieder: I do not / know about the / others."
+    "english": "I do not / know about the / others."
   },
   {
     "resource": 1210,
@@ -1443,7 +1443,7 @@
     "resource": 1210,
     "msg_index": 250,
     "japanese": "そうっスか、入会っスか では、入会臆[000B]会[03CD]５０００gと申込書に[018A]両をお[036A]いしやす ",
-    "english": "To sign up: fee / is 5000g plus / your signature!"
+    "english": "fee / is 5000G plus / your signature!"
   },
   {
     "resource": 1210,
@@ -1473,7 +1473,7 @@
     "resource": 1210,
     "msg_index": 255,
     "japanese": "入会しますか？「入会[03CD]毒 ５０００g」は いいいえ",
-    "english": "Sign up? // 'Fee: 5000g' / Yes / No"
+    "english": "Sign up? // 'Fee: 5000G' / Yes / No"
   },
   {
     "resource": 1210,
@@ -1485,7 +1485,7 @@
     "resource": 1210,
     "msg_index": 257,
     "japanese": "５０００g立払った。",
-    "english": "Paid 5000g."
+    "english": "Paid 5000G."
   },
   {
     "resource": 1210,
@@ -1521,13 +1521,13 @@
     "resource": 1210,
     "msg_index": 263,
     "japanese": "！って、えええええっ？ 持ってないっすか、５０００g！。同少キツいっすよ、お落さ～ん ",
-    "english": "Whaaat!? You don't / have 5000g!? / That's rough!"
+    "english": "Whaaat!? You don't / have 5000G!? / That's rough!"
   },
   {
     "resource": 1210,
     "msg_index": 264,
     "japanese": "一今ないなあ！。今度帰た時は５０００g、[033C]を[0510]えて持ってきてくださいよ ",
-    "english": "No good! Next time / bring 5000g!"
+    "english": "No good! Next time / bring 5000G!"
   },
   {
     "resource": 1210,
@@ -1671,13 +1671,13 @@
     "resource": 1210,
     "msg_index": 291,
     "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
-    "english": "I'm Romi, a ghost. / Pay 2000g and / I'll tell you / more!"
+    "english": "I'm Romi, a ghost. / Pay 2000G and / I'll tell you / more!"
   },
   {
     "resource": 1210,
     "msg_index": 292,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Read your fortune? // '2000g each' / Yes / No"
+    "english": "Read your fortune? // '2000G each' / Yes / No"
   },
   {
     "resource": 1210,
@@ -1701,13 +1701,13 @@
     "resource": 1210,
     "msg_index": 296,
     "japanese": "お臆持ってないんだったら、お臆持ってきてね。２０００gだからね。",
-    "english": "No money? Come / back when you / have 2000g!"
+    "english": "No money? Come / back when you / have 2000G!"
   },
   {
     "resource": 1210,
     "msg_index": 297,
     "japanese": "２０００g立払った ",
-    "english": "Paid 2000g."
+    "english": "Paid 2000G."
   },
   {
     "resource": 1210,
@@ -2313,7 +2313,7 @@
     "resource": 1210,
     "msg_index": 400,
     "japanese": "イムプはいはい、いらっしゃい ",
-    "english": "Imp: Yes yes, / welcome!"
+    "english": "Yes yes, / welcome!"
   },
   {
     "resource": 1210,
@@ -2619,7 +2619,7 @@
     "resource": 1210,
     "msg_index": 454,
     "japanese": "え～、会社ナンバー[05FB]選はですね、ナンバー[05FB]選を行って、その番実が会社番実と同じなら内選です ",
-    "english": "The lottery: if / your drawn number / matches your / member number, / you win!"
+    "english": "if / your drawn number / matches your / member number, / you win!"
   },
   {
     "resource": 1210,
@@ -2709,7 +2709,7 @@
     "resource": 1210,
     "msg_index": 469,
     "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
-    "english": "Romi: Hey! / Did you bring it?"
+    "english": "Hey! / Did you bring it?"
   },
   {
     "resource": 1210,
@@ -2877,7 +2877,7 @@
     "resource": 1210,
     "msg_index": 498,
     "japanese": "オーガおう、いらっしゃい。メダル所へようこそ ",
-    "english": "Ogre: Yo, welcome! / To the Medal / Shop!"
+    "english": "Yo, welcome! / To the Medal / Shop!"
   },
   {
     "resource": 1210,
@@ -2937,13 +2937,13 @@
     "resource": 1210,
     "msg_index": 508,
     "japanese": "骨場のメダルは５枚で１０００gだ。買っていくのか？",
-    "english": "Dungeon Medals: / 5 for 1000g. / Wanna buy?"
+    "english": "5 for 1000G. / Wanna buy?"
   },
   {
     "resource": 1210,
     "msg_index": 509,
     "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-    "english": "Buy Dungeon Medal? // '5 for 1000g' / Yes / No"
+    "english": "Buy Dungeon Medal? // '5 for 1000G' / Yes / No"
   },
   {
     "resource": 1210,
@@ -2955,7 +2955,7 @@
     "resource": 1210,
     "msg_index": 513,
     "japanese": "形臆１０００gを立払った。",
-    "english": "Paid 1000g."
+    "english": "Paid 1000G."
   },
   {
     "resource": 1210,
@@ -2973,7 +2973,7 @@
     "resource": 1210,
     "msg_index": 517,
     "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-    "english": "Not giving even / 1g discount! / Don't even think / about haggling!"
+    "english": "Not giving even / 1G discount! / Don't even think / about haggling!"
   },
   {
     "resource": 1210,
@@ -3015,13 +3015,13 @@
     "resource": 1210,
     "msg_index": 524,
     "japanese": "打扱のメダルは１枚[014B]期で１０００gだが買っていくのか？",
-    "english": "Special Medals: / 1000g each, / limited stock. / Wanna buy?"
+    "english": "1000G each, / limited stock. / Wanna buy?"
   },
   {
     "resource": 1210,
     "msg_index": 525,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special Medal? // '1 for 1000g' / Yes / No"
+    "english": "Buy Special Medal? // '1 for 1000G' / Yes / No"
   },
   {
     "resource": 1210,
@@ -3033,7 +3033,7 @@
     "resource": 1210,
     "msg_index": 529,
     "japanese": "形臆１０００gを立払った。",
-    "english": "Paid 1000g."
+    "english": "Paid 1000G."
   },
   {
     "resource": 1210,
@@ -3051,7 +3051,7 @@
     "resource": 1210,
     "msg_index": 533,
     "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-    "english": "Not giving even / 1g discount! / Don't even think / about haggling!"
+    "english": "Not giving even / 1G discount! / Don't even think / about haggling!"
   },
   {
     "resource": 1210,
@@ -3099,7 +3099,7 @@
     "resource": 1210,
     "msg_index": 541,
     "japanese": "道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。",
-    "english": "Appraisal: 1000g / flat. Let me see / how much soul / your doll has."
+    "english": "Appraisal: 1000G / flat. Let me see / how much soul / your doll has."
   },
   {
     "resource": 1210,
@@ -3111,7 +3111,7 @@
     "resource": 1210,
     "msg_index": 543,
     "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
-    "english": "Have Automata examined? // 'Fee: 1000g' / Yes / No"
+    "english": "Have Automata examined? // 'Fee: 1000G' / Yes / No"
   },
   {
     "resource": 1210,
@@ -3135,7 +3135,7 @@
     "resource": 1210,
     "msg_index": 547,
     "japanese": "[0509]期[0516]１０００gを払った ",
-    "english": "Paid appraisal / fee of 1000g."
+    "english": "Paid appraisal / fee of 1000G."
   },
   {
     "resource": 1210,
@@ -3465,7 +3465,7 @@
     "resource": 1210,
     "msg_index": 602,
     "japanese": "ランゴバルト[049D]込の時は多いと。",
-    "english": "Langobalt: The / time of prophecy / is at hand."
+    "english": "The / time of prophecy / is at hand."
   },
   {
     "resource": 1210,
@@ -3495,7 +3495,7 @@
     "resource": 1210,
     "msg_index": 607,
     "japanese": "損は民却された、すべての録はあらい棄され、損の王息に上え入れられると。",
-    "english": "God has promised: / all sins shall / be washed away / and accepted / into his kingdom!"
+    "english": "all sins shall / be washed away / and accepted / into his kingdom!"
   },
   {
     "resource": 1210,
@@ -3753,7 +3753,7 @@
     "resource": 1210,
     "msg_index": 654,
     "japanese": "アウローラ武しい[0562][0561]がいま専まったのに、もう[04A4]場なさるつもり？",
-    "english": "Aurora: A lovely / spectacle just / began. Leaving / already?"
+    "english": "A lovely / spectacle just / began. Leaving / already?"
   },
   {
     "resource": 1210,
@@ -4263,7 +4263,7 @@
     "resource": 1210,
     "msg_index": 743,
     "japanese": "ヴェーラここがシムゾンが[028E]んだ場暗だ。",
-    "english": "Vera: This is / where Simzon / died."
+    "english": "This is / where Simzon / died."
   },
   {
     "resource": 1210,
@@ -4341,7 +4341,7 @@
     "resource": 1210,
     "msg_index": 756,
     "japanese": "コンデいやはや、まさかこの余が、あの[0375]向の魔損マジキムを忘すとは、いったい過が雇[03A6]したであろう。",
-    "english": "Konde: Well well, / who'd have thought / I would slay the / demon Mazikim!"
+    "english": "Well well, / who'd have thought / I would slay the / demon Mazikim!"
   },
   {
     "resource": 1210,
@@ -4389,7 +4389,7 @@
     "resource": 1210,
     "msg_index": 764,
     "japanese": "エーリカ階が[0297]くなってきましたね！。",
-    "english": "Erika: The / darkness grows / stronger!"
+    "english": "The / darkness grows / stronger!"
   },
   {
     "resource": 1210,
@@ -4443,7 +4443,7 @@
     "resource": 1210,
     "msg_index": 773,
     "japanese": "イーリスどうやら[03CB][033D]にからみ合う[06E1]が、罰第にほぐれてきたようだな。",
-    "english": "Iris: The tangled / threads are slowly / coming undone."
+    "english": "The tangled / threads are slowly / coming undone."
   },
   {
     "resource": 1210,
@@ -4563,7 +4563,7 @@
     "resource": 1211,
     "msg_index": 8,
     "japanese": "アウローラオルトルードは[028E]んだ、もう[0180]度と多うことも年くこともできない階に落ちていった。",
-    "english": "Aurora: Ortrud / is dead. He fell / where we can / never meet or / weep again."
+    "english": "Ortrud / is dead. He fell / where we can / never meet or / weep again."
   },
   {
     "resource": 1211,
@@ -4689,43 +4689,43 @@
     "resource": 1211,
     "msg_index": 30,
     "japanese": "ベルタンイ力両はいつだってそうなんだよ！ゴ",
-    "english": "Bertin: You / always do this!"
+    "english": "You / always do this!"
   },
   {
     "resource": 1211,
     "msg_index": 31,
     "japanese": "ベルタンイいつも種って行功しやがるんだゴ",
-    "english": "Bertin: You / always go off / on your own!"
+    "english": "You / always go off / on your own!"
   },
   {
     "resource": 1211,
     "msg_index": 32,
     "japanese": "ベルタンイ俺達は、退嫌だろ？なんでいつも力両だけ[0457]物を重魔い込むんだゴ",
-    "english": "Bertin: We're / comrades! Why / take on / everything / alone!?"
+    "english": "We're / comrades! Why / take on / everything / alone!?"
   },
   {
     "resource": 1211,
     "msg_index": 33,
     "japanese": "ベルタンイやい、なんとか言ったらどうだ！ゴ",
-    "english": "Bertin: Say / something!"
+    "english": "Say / something!"
   },
   {
     "resource": 1211,
     "msg_index": 34,
     "japanese": "ベルタンイあんなひでえ戦いを生き退ったんじゃねえかゴ",
-    "english": "Bertin: We / survived that / terrible battle / together!"
+    "english": "We / survived that / terrible battle / together!"
   },
   {
     "resource": 1211,
     "msg_index": 35,
     "japanese": "ベルタンイ俺達は[01CC]せにならなきゃいけねえんだよゴ",
-    "english": "Bertin: We're / supposed to / be happy!"
+    "english": "We're / supposed to / be happy!"
   },
   {
     "resource": 1211,
     "msg_index": 36,
     "japanese": "ベルタンイわかっているのかよ、なんで種って[028E]ぬんだゴ",
-    "english": "Bertin: You knew / you'd die! Why / go alone!?"
+    "english": "You knew / you'd die! Why / go alone!?"
   },
   {
     "resource": 1211,
@@ -4737,7 +4737,7 @@
     "resource": 1211,
     "msg_index": 38,
     "japanese": "ゼルイさあ、行こうゴ",
-    "english": "Zel: Come, / let's go."
+    "english": "Come, / let's go."
   },
   {
     "resource": 1211,
@@ -4755,13 +4755,13 @@
     "resource": 1211,
     "msg_index": 41,
     "japanese": "ゼル[032A]質をかけたな！。",
-    "english": "Zel: You avenged / him!"
+    "english": "You avenged / him!"
   },
   {
     "resource": 1211,
     "msg_index": 42,
     "japanese": "ベルタンあんたが[0632]をとってくれたんだな、ありがとうよ！。",
-    "english": "Bertin: You took / revenge for him. / Thank you!"
+    "english": "You took / revenge for him. / Thank you!"
   },
   {
     "resource": 1211,
@@ -5073,7 +5073,7 @@
     "resource": 1211,
     "msg_index": 95,
     "japanese": "そうっスか、入会っスか では、入会臆[000B]会[03CD]５０００gと申込書に[018A]両をお[036A]いしやす ",
-    "english": "To sign up: fee / is 5000g plus / your signature!"
+    "english": "fee / is 5000G plus / your signature!"
   },
   {
     "resource": 1211,
@@ -5103,7 +5103,7 @@
     "resource": 1211,
     "msg_index": 100,
     "japanese": "入会しますか？「入会[03CD]毒 ５０００g」は いいいえ",
-    "english": "Sign up? // 'Fee: 5000g' / Yes / No"
+    "english": "Sign up? // 'Fee: 5000G' / Yes / No"
   },
   {
     "resource": 1211,
@@ -5115,7 +5115,7 @@
     "resource": 1211,
     "msg_index": 102,
     "japanese": "５０００g立払った。",
-    "english": "Paid 5000g."
+    "english": "Paid 5000G."
   },
   {
     "resource": 1211,
@@ -5151,13 +5151,13 @@
     "resource": 1211,
     "msg_index": 108,
     "japanese": "！って、えええええっ？ 持ってないっすか、５０００g！。同少キツいっすよ、お落さ～ん ",
-    "english": "Whaaat!? You don't / have 5000g!? / That's rough!"
+    "english": "Whaaat!? You don't / have 5000G!? / That's rough!"
   },
   {
     "resource": 1211,
     "msg_index": 109,
     "japanese": "一今ないなあ！。今度帰た時は５０００g、[033C]を[0510]えて持ってきてくださいよ ",
-    "english": "No good! Next time / bring 5000g!"
+    "english": "No good! Next time / bring 5000G!"
   },
   {
     "resource": 1211,
@@ -5301,13 +5301,13 @@
     "resource": 1211,
     "msg_index": 136,
     "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
-    "english": "I'm Romi, a ghost. / Pay 2000g and / I'll tell you / more!"
+    "english": "I'm Romi, a ghost. / Pay 2000G and / I'll tell you / more!"
   },
   {
     "resource": 1211,
     "msg_index": 137,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Read your fortune? // '2000g each' / Yes / No"
+    "english": "Read your fortune? // '2000G each' / Yes / No"
   },
   {
     "resource": 1211,
@@ -5331,13 +5331,13 @@
     "resource": 1211,
     "msg_index": 141,
     "japanese": "お臆持ってないんだったら、お臆持ってきてね。２０００gだからね。",
-    "english": "No money? Come / back when you / have 2000g!"
+    "english": "No money? Come / back when you / have 2000G!"
   },
   {
     "resource": 1211,
     "msg_index": 142,
     "japanese": "２０００g立払った ",
-    "english": "Paid 2000g."
+    "english": "Paid 2000G."
   },
   {
     "resource": 1211,
@@ -5943,7 +5943,7 @@
     "resource": 1211,
     "msg_index": 245,
     "japanese": "イムプはいはい、いらっしゃい ",
-    "english": "Imp: Yes yes, / welcome!"
+    "english": "Yes yes, / welcome!"
   },
   {
     "resource": 1211,
@@ -6249,7 +6249,7 @@
     "resource": 1211,
     "msg_index": 299,
     "japanese": "え～、会社ナンバー[05FB]選はですね、ナンバー[05FB]選を行って、その番実が会社番実と同じなら内選です ",
-    "english": "The lottery: if / your drawn number / matches your / member number, / you win!"
+    "english": "if / your drawn number / matches your / member number, / you win!"
   },
   {
     "resource": 1211,
@@ -6381,7 +6381,7 @@
     "resource": 1211,
     "msg_index": 321,
     "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
-    "english": "Romi: Hey! / Did you bring it?"
+    "english": "Hey! / Did you bring it?"
   },
   {
     "resource": 1211,
@@ -6993,7 +6993,7 @@
     "resource": 1211,
     "msg_index": 425,
     "japanese": "オーガおう、いらっしゃい。メダル所へようこそ ",
-    "english": "Ogre: Yo, welcome! / To the Medal / Shop!"
+    "english": "Yo, welcome! / To the Medal / Shop!"
   },
   {
     "resource": 1211,
@@ -7053,13 +7053,13 @@
     "resource": 1211,
     "msg_index": 435,
     "japanese": "骨場のメダルは５枚で１０００gだ。買っていくのか？",
-    "english": "Dungeon Medals: / 5 for 1000g. / Wanna buy?"
+    "english": "5 for 1000G. / Wanna buy?"
   },
   {
     "resource": 1211,
     "msg_index": 436,
     "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-    "english": "Buy Dungeon Medal? // '5 for 1000g' / Yes / No"
+    "english": "Buy Dungeon Medal? // '5 for 1000G' / Yes / No"
   },
   {
     "resource": 1211,
@@ -7071,7 +7071,7 @@
     "resource": 1211,
     "msg_index": 440,
     "japanese": "形臆１０００gを立払った。",
-    "english": "Paid 1000g."
+    "english": "Paid 1000G."
   },
   {
     "resource": 1211,
@@ -7089,7 +7089,7 @@
     "resource": 1211,
     "msg_index": 444,
     "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-    "english": "Not giving even / 1g discount! / Don't even think / about haggling!"
+    "english": "Not giving even / 1G discount! / Don't even think / about haggling!"
   },
   {
     "resource": 1211,
@@ -7131,13 +7131,13 @@
     "resource": 1211,
     "msg_index": 451,
     "japanese": "打扱のメダルは１枚[014B]期で１０００gだが買っていくのか？",
-    "english": "Special Medals: / 1000g each, / limited stock. / Wanna buy?"
+    "english": "1000G each, / limited stock. / Wanna buy?"
   },
   {
     "resource": 1211,
     "msg_index": 452,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special Medal? // '1 for 1000g' / Yes / No"
+    "english": "Buy Special Medal? // '1 for 1000G' / Yes / No"
   },
   {
     "resource": 1211,
@@ -7149,7 +7149,7 @@
     "resource": 1211,
     "msg_index": 456,
     "japanese": "形臆１０００gを立払った。",
-    "english": "Paid 1000g."
+    "english": "Paid 1000G."
   },
   {
     "resource": 1211,
@@ -7167,7 +7167,7 @@
     "resource": 1211,
     "msg_index": 460,
     "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-    "english": "Not giving even / 1g discount! / Don't even think / about haggling!"
+    "english": "Not giving even / 1G discount! / Don't even think / about haggling!"
   },
   {
     "resource": 1211,
@@ -7215,7 +7215,7 @@
     "resource": 1211,
     "msg_index": 468,
     "japanese": "道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。",
-    "english": "Appraisal: 1000g / flat. Let me see / how much soul / your doll has."
+    "english": "Appraisal: 1000G / flat. Let me see / how much soul / your doll has."
   },
   {
     "resource": 1211,
@@ -7227,7 +7227,7 @@
     "resource": 1211,
     "msg_index": 470,
     "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
-    "english": "Have Automata examined? // 'Fee: 1000g' / Yes / No"
+    "english": "Have Automata examined? // 'Fee: 1000G' / Yes / No"
   },
   {
     "resource": 1211,
@@ -7251,7 +7251,7 @@
     "resource": 1211,
     "msg_index": 474,
     "japanese": "[0509]期[0516]１０００gを払った ",
-    "english": "Paid appraisal / fee of 1000g."
+    "english": "Paid appraisal / fee of 1000G."
   },
   {
     "resource": 1211,
@@ -7593,7 +7593,7 @@
     "resource": 1211,
     "msg_index": 531,
     "japanese": "オルトルード騎騎者よ、よく帰た。",
-    "english": "Ortrud: / Adventurer, / welcome."
+    "english": "Adventurer, / welcome."
   },
   {
     "resource": 1211,
@@ -7719,7 +7719,7 @@
     "resource": 1211,
     "msg_index": 552,
     "japanese": "アウローラあの時の余の言[0387]に[0412]っていれば、[028E]ぬこともなく、今も[01CC]せに生きていれたのに。",
-    "english": "Aurora: If you / had heeded my / words, you could / have lived on / happily."
+    "english": "If you / had heeded my / words, you could / have lived on / happily."
   },
   {
     "resource": 1211,
@@ -8013,7 +8013,7 @@
     "resource": 1211,
     "msg_index": 602,
     "japanese": "ヴェーラ[05B0]所は、美[04FC]いてもやはり[05B0]所だな。",
-    "english": "Vera: Even after / many years, a / hero remains / a hero."
+    "english": "Even after / many years, a / hero remains / a hero."
   },
   {
     "resource": 1211,
@@ -8061,7 +8061,7 @@
     "resource": 1211,
     "msg_index": 610,
     "japanese": "コンデ余は、器りし地のオルトルードを見たことがある。",
-    "english": "Konde: I once / saw Ortrud in / his prime."
+    "english": "I once / saw Ortrud in / his prime."
   },
   {
     "resource": 1211,
@@ -8115,7 +8115,7 @@
     "resource": 1211,
     "msg_index": 619,
     "japanese": "エーリカ彼のように者のために[04AE]くした者が、[01CC]せを得られないとしたら、",
-    "english": "Erika: If one / who sacrificed / so much cannot / find happiness,"
+    "english": "If one / who sacrificed / so much cannot / find happiness,"
   },
   {
     "resource": 1211,
@@ -8157,7 +8157,7 @@
     "resource": 1211,
     "msg_index": 626,
     "japanese": "イーリス余はずっと[01D1]だった！。",
-    "english": "Iris: I've always / wondered!"
+    "english": "I've always / wondered!"
   },
   {
     "resource": 1211,

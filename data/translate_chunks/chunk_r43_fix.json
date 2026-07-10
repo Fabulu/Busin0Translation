@@ -73,7 +73,7 @@
     "resource": 43,
     "message": 11,
     "japanese": "ゲームは１回５００gだぜ。 /   /   / ",
-    "english": "It's 500g a game. /   /   / ",
+    "english": "It's 500G a game. /   /   / ",
     "notes": "Medal game cost"
   },
   {
@@ -178,7 +178,7 @@
     "resource": 43,
     "message": 26,
     "japanese": "ゲームをはじめますか？ / 「１プレイ ５００g」 / ",
-    "english": "Start the game? / [1 play: 500g] / ",
+    "english": "Start the game? / [1 play: 500G] / ",
     "notes": "Medal game start confirmation with cost"
   }
 ]

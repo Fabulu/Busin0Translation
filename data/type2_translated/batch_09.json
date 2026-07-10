@@ -777,7 +777,7 @@
     "resource": 1353,
     "msg_index": 134,
     "japanese": "入り口[01CD]の飽[03CE]には、イ[0454]し物会場ゴと書かれたプレートが[032D]ち着けられている。",
-    "english": "Sign: Lost & Found"
+    "english": "Lost & Found"
   },
   {
     "resource": 1353,
@@ -879,7 +879,7 @@
     "resource": 1353,
     "msg_index": 152,
     "japanese": "そうっスか、入会っスか では、入会臆[000B]会[03CD]５０００gと申込書に[018A]両をお[036A]いしやす ",
-    "english": "Joining? 5000g!"
+    "english": "Joining? 5000G!"
   },
   {
     "resource": 1353,
@@ -909,7 +909,7 @@
     "resource": 1353,
     "msg_index": 157,
     "japanese": "入会しますか？「入会[03CD]毒 ５０００g」は いいいえ",
-    "english": "Join? (5000g) / Yes / No"
+    "english": "Join? (5000G) / Yes / No"
   },
   {
     "resource": 1353,
@@ -921,7 +921,7 @@
     "resource": 1353,
     "msg_index": 159,
     "japanese": "５０００g立払った。",
-    "english": "Paid 5000g."
+    "english": "Paid 5000G."
   },
   {
     "resource": 1353,
@@ -957,13 +957,13 @@
     "resource": 1353,
     "msg_index": 165,
     "japanese": "！って、えええええっ？ 持ってないっすか、５０００g！。同少キツいっすよ、お落さ～ん ",
-    "english": "What?! You don't / have 5000g?! / That's rough, bro~"
+    "english": "What?! You don't / have 5000G?! / That's rough, bro~"
   },
   {
     "resource": 1353,
     "msg_index": 166,
     "japanese": "一今ないなあ！。今度帰た時は５０００g、[033C]を[0510]えて持ってきてくださいよ ",
-    "english": "Bring 5000g!"
+    "english": "Bring 5000G!"
   },
   {
     "resource": 1353,
@@ -1035,7 +1035,7 @@
     "resource": 1353,
     "msg_index": 179,
     "japanese": "？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？",
-    "english": "Romi: Welcome! / Fortune?"
+    "english": "Welcome! / Fortune?"
   },
   {
     "resource": 1353,
@@ -1101,13 +1101,13 @@
     "resource": 1353,
     "msg_index": 192,
     "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
-    "english": "I'm Romi, ghost. / 2000g for reading."
+    "english": "I'm Romi, ghost. / 2000G for reading."
   },
   {
     "resource": 1353,
     "msg_index": 193,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Reading? (2000g) / Yes / No"
+    "english": "Reading? (2000G) / Yes / No"
   },
   {
     "resource": 1353,
@@ -1131,13 +1131,13 @@
     "resource": 1353,
     "msg_index": 197,
     "japanese": "お臆持ってないんだったら、お臆持ってきてね。２０００gだからね。",
-    "english": "Bring 2000g."
+    "english": "Bring 2000G."
   },
   {
     "resource": 1353,
     "msg_index": 198,
     "japanese": "２０００g立払った ",
-    "english": "Paid 2000g."
+    "english": "Paid 2000G."
   },
   {
     "resource": 1353,
@@ -1737,13 +1737,13 @@
     "resource": 1353,
     "msg_index": 301,
     "japanese": "イムプはいはい、いらっしゃい ",
-    "english": "Imp: Welcome!"
+    "english": "Welcome!"
   },
   {
     "resource": 1353,
     "msg_index": 302,
     "japanese": "壁[04C0]２６地～３０地の[04C0][0552]５地嫌はヴィガーフレンズ会社[014B]期会社ナンバー[05FB]選兜会   ",
-    "english": "Floors 26-30: / Member Lottery!"
+    "english": "Member Lottery!"
   },
   {
     "resource": 1353,
@@ -1899,7 +1899,7 @@
     "resource": 1353,
     "msg_index": 330,
     "japanese": "ちなみに罰回からの内選[053C]品は[0578]の[06BA]骨・魔法のワインに新自っスから ",
-    "english": "Next: Spirit Bone / & Magic Wine!"
+    "english": "Spirit Bone / & Magic Wine!"
   },
   {
     "resource": 1353,
@@ -2349,13 +2349,13 @@
     "resource": 1353,
     "msg_index": 407,
     "japanese": "骨場のメダルは５枚で１０００gだ。買っていくのか？",
-    "english": "Dungeon: 5 for / 1000g."
+    "english": "5 for / 1000G."
   },
   {
     "resource": 1353,
     "msg_index": 408,
     "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-    "english": "Buy 5? (1000g) / Yes / No"
+    "english": "Buy 5? (1000G) / Yes / No"
   },
   {
     "resource": 1353,
@@ -2367,7 +2367,7 @@
     "resource": 1353,
     "msg_index": 412,
     "japanese": "形臆１０００gを立払った。",
-    "english": "Paid 1000g."
+    "english": "Paid 1000G."
   },
   {
     "resource": 1353,
@@ -2385,7 +2385,7 @@
     "resource": 1353,
     "msg_index": 416,
     "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-    "english": "Not 1g off!"
+    "english": "Not 1G off!"
   },
   {
     "resource": 1353,
@@ -2427,13 +2427,13 @@
     "resource": 1353,
     "msg_index": 423,
     "japanese": "打扱のメダルは１枚[014B]期で１０００gだが買っていくのか？",
-    "english": "Special: 1000g."
+    "english": "1000G."
   },
   {
     "resource": 1353,
     "msg_index": 424,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special? (1000g) // Yes / No"
+    "english": "Buy Special? (1000G) // Yes / No"
   },
   {
     "resource": 1353,
@@ -2445,7 +2445,7 @@
     "resource": 1353,
     "msg_index": 428,
     "japanese": "形臆１０００gを立払った。",
-    "english": "Paid 1000g."
+    "english": "Paid 1000G."
   },
   {
     "resource": 1353,
@@ -2463,7 +2463,7 @@
     "resource": 1353,
     "msg_index": 432,
     "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-    "english": "Not 1g off!"
+    "english": "Not 1G off!"
   },
   {
     "resource": 1353,
@@ -2493,7 +2493,7 @@
     "resource": 1353,
     "msg_index": 437,
     "japanese": "道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。",
-    "english": "Inspection: 1000g."
+    "english": "1000G."
   },
   {
     "resource": 1353,
@@ -2505,7 +2505,7 @@
     "resource": 1353,
     "msg_index": 439,
     "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
-    "english": "Inspect? (1000g) / Yes / No"
+    "english": "Inspect? (1000G) / Yes / No"
   },
   {
     "resource": 1353,
@@ -2529,7 +2529,7 @@
     "resource": 1353,
     "msg_index": 443,
     "japanese": "[0509]期[0516]１０００gを払った ",
-    "english": "Paid registration / fee of 1000g."
+    "english": "Paid registration / fee of 1000G."
   },
   {
     "resource": 1353,
@@ -3789,7 +3789,7 @@
     "resource": 1354,
     "msg_index": 1,
     "japanese": "ウェブスターいまゼルから報[0197]があったよ。",
-    "english": "Webster: Zel just / sent a report."
+    "english": "Zel just / sent a report."
   },
   {
     "resource": 1354,
@@ -3837,19 +3837,19 @@
     "resource": 1354,
     "msg_index": 9,
     "japanese": "イはるか[0460]奉美両、セポイの王はこう言ったゴ",
-    "english": "\"500 years ago, / the King of / Sepoy said / this:\""
+    "english": "500 years ago, / the King of / Sepoy said / this:"
   },
   {
     "resource": 1354,
     "msg_index": 10,
     "japanese": "イ値色の生きている嫌に[05B6]今へと男を[03D6]り、用兜[0416]を立[03CF]に入れるとゴ",
-    "english": "\"He would send / his army east / and take a / continent in his // lifetime.\""
+    "english": "He would send / his army east / and take a / continent in his // lifetime."
   },
   {
     "resource": 1354,
     "msg_index": 11,
     "japanese": "イ探かに[01DD]築だったであろう。その罰の美に[04A2][05B7]もの男帰が変されていなければなゴ",
-    "english": "\"It would have / been possible, / if not for the / hundred thousand // dead.\""
+    "english": "It would have / been possible, / if not for the / hundred thousand // dead."
   },
   {
     "resource": 1354,
@@ -3885,13 +3885,13 @@
     "resource": 1354,
     "msg_index": 17,
     "japanese": "イかまわぬ、通してやれ ゴ",
-    "english": "\"Let him / through.\""
+    "english": "Let him / through."
   },
   {
     "resource": 1354,
     "msg_index": 18,
     "japanese": "イ兜魔運解ウェズベルだ。彼を[05B3]限できる者などこの[032A]にはおらぬゴ",
-    "english": "\"It is the great / mage Wesbell. No / one here could / restrain him.\""
+    "english": "It is the great / mage Wesbell. No / one here could / restrain him."
   },
   {
     "resource": 1354,
@@ -3933,7 +3933,7 @@
     "resource": 1354,
     "msg_index": 25,
     "japanese": "オルトルードなぜ兜魔運解ウェズベルの必えが、この余にわかるというのだ？",
-    "english": "Ortrud: How would / I know what the / great mage Wesbell / ponders?"
+    "english": "How would / I know what the / great mage Wesbell / ponders?"
   },
   {
     "resource": 1354,
@@ -4257,13 +4257,13 @@
     "resource": 1354,
     "msg_index": 80,
     "japanese": "何数属の与汝が新しい討伐隊の者だな。",
-    "english": "Knight: So you're / the new member of / the strike force."
+    "english": "So you're / the new member of / the strike force."
   },
   {
     "resource": 1354,
     "msg_index": 81,
     "japanese": "[01E3]帰前長のベルグラーノから報[0197]があったよ。",
-    "english": "Captain Belgrano / sent a report."
+    "english": "Commander Belgrano / sent a report."
   },
   {
     "resource": 1354,
@@ -4293,7 +4293,7 @@
     "resource": 1354,
     "msg_index": 86,
     "japanese": "ウェブスターさあ、あちらへ。オルトルード息王がお待ちだ。上[03D6]隊のことを質してくれたまえ。",
-    "english": "Webster: Come, / this way. King / Ortrud awaits. / Tell him about / the strike force."
+    "english": "Come, / this way. King / Ortrud awaits. / Tell him about / the strike force."
   },
   {
     "resource": 1354,
@@ -4317,7 +4317,7 @@
     "resource": 1354,
     "msg_index": 90,
     "japanese": "オルトルード[01BE]多、上[03D6]隊の者への[042E][048E]がとみに野待つようになった。",
-    "english": "Ortrud: Recently, / attacks on the / convoys have / grown worse."
+    "english": "Recently, / attacks on the / convoys have / grown worse."
   },
   {
     "resource": 1354,
@@ -4335,7 +4335,7 @@
     "resource": 1354,
     "msg_index": 93,
     "japanese": "それで慎めて突ねるが、上[03D6]隊を[042E]っていたのは、魔物ということで嫌違いはないか？",
-    "english": "I ask again: was / the convoy attack / the work of / monsters?"
+    "english": "was / the convoy attack / the work of / monsters?"
   },
   {
     "resource": 1354,
@@ -4689,7 +4689,7 @@
     "resource": 1354,
     "msg_index": 154,
     "japanese": "ベルグラーノ待たせたな。まあ、武にしてくれ。",
-    "english": "Belgrano: Sorry / to keep you. / Please, sit."
+    "english": "Sorry / to keep you. / Please, sit."
   },
   {
     "resource": 1354,
@@ -4767,7 +4767,7 @@
     "resource": 1354,
     "msg_index": 167,
     "japanese": "イお[047A]しぶりです[0436]忍ゴ",
-    "english": "\"It's been a / while, Your / Majesty.\""
+    "english": "It's been a / while, Your / Majesty."
   },
   {
     "resource": 1354,
@@ -4839,7 +4839,7 @@
     "resource": 1354,
     "msg_index": 179,
     "japanese": "イいいわ、なら[0408]びのをを王みなさい。雇言してあげる、あなたの腕[02A1]は待ち[0435]れ、殿忍は[03C3]たき[0423]となるゴ",
-    "english": "\"Then walk the / path of ruin. / Your body shall / wither, you // shall be a / wreck.\""
+    "english": "Then walk the / path of ruin. / Your body shall / wither, you // shall be a / wreck."
   },
   {
     "resource": 1354,
@@ -4857,7 +4857,7 @@
     "resource": 1354,
     "msg_index": 182,
     "japanese": "ベルグラーノ彼神は一[01E9]も早く転を忘し、このドゥーハンにかけられた[041A]いを倒かねばならん。",
-    "english": "Belgrano: We / must defeat her / and lift the / curse on Duhan."
+    "english": "We / must defeat her / and lift the / curse on Duhan."
   },
   {
     "resource": 1354,
@@ -4911,7 +4911,7 @@
     "resource": 1354,
     "msg_index": 191,
     "japanese": "ベルグラーノどうだ？ 討伐隊に参加する[0141]になってくれたか？",
-    "english": "Belgrano: So? / Ready to join / the strike force?"
+    "english": "So? / Ready to join / the strike force?"
   },
   {
     "resource": 1354,
@@ -5037,7 +5037,7 @@
     "resource": 1354,
     "msg_index": 213,
     "japanese": "イ高者街隊に[042E]われたらしいなゴ",
-    "english": "\"I hear the / convoy was / attacked.\""
+    "english": "I hear the / convoy was / attacked."
   },
   {
     "resource": 1354,
@@ -5049,7 +5049,7 @@
     "resource": 1354,
     "msg_index": 215,
     "japanese": "ゼルお両が第３名層で高者達と[06B4][06B5]し、[042E]われたという報[0197]が入った。",
-    "english": "Zel: I received / word that you / encountered / bandits on the / 3rd floor."
+    "english": "I received / word that you / encountered / bandits on the / 3rd floor."
   },
   {
     "resource": 1354,
@@ -5169,7 +5169,7 @@
     "resource": 1354,
     "msg_index": 237,
     "japanese": "イなあ、頼むよ俺に役えてくれよ。 紹しても辺[0502]なんだぜゴ    ",
-    "english": "\"Hey, tell me / where the priest / is hiding!\""
+    "english": "Hey, tell me / where the priest / is hiding!"
   },
   {
     "resource": 1354,
@@ -5187,7 +5187,7 @@
     "resource": 1354,
     "msg_index": 240,
     "japanese": "[033A]しい与へへへ、損[01BC]ってどこに紹れているかお両、知っているだろ？",
-    "english": "Stranger: Hehehe, / you know where / the priest is, / right?"
+    "english": "Hehehe, / you know where / the priest is, / right?"
   },
   {
     "resource": 1354,
@@ -5319,7 +5319,7 @@
     "resource": 1354,
     "msg_index": 263,
     "japanese": "イそんなところで何をなさって いるのですかゴ      ",
-    "english": "\"What are you / doing out here?\""
+    "english": "What are you / doing out here?"
   },
   {
     "resource": 1354,
@@ -5331,7 +5331,7 @@
     "resource": 1354,
     "msg_index": 265,
     "japanese": "シスターあちこち素したんですよ。こんな倉[0380]で王いて、属[0159]でもひいたらどうするんですか？",
-    "english": "Sister: I looked / everywhere! / You'll catch cold / dressed like that!"
+    "english": "I looked / everywhere! / You'll catch cold / dressed like that!"
   },
   {
     "resource": 1354,
@@ -5451,7 +5451,7 @@
     "resource": 1354,
     "msg_index": 285,
     "japanese": "エルフの少女ねえねえ、あなた新しい騎騎者よね。",
-    "english": "Elf girl: Hey, / you're the new / adventurer, / right?"
+    "english": "Hey, / you're the new / adventurer, / right?"
   },
   {
     "resource": 1354,

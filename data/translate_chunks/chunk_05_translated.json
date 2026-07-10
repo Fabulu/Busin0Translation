@@ -33,7 +33,7 @@
     "resource": 43,
     "message": 11,
     "japanese": "ゲームは１回５００gだぜ。 /   /   / ",
-    "english": "One game's 500g. /   /   / "
+    "english": "One game's 500G. /   /   / "
   },
   {
     "resource": 43,
@@ -123,7 +123,7 @@
     "resource": 43,
     "message": 26,
     "japanese": "ゲームをはじめますか？ / 「１プレイ ５００g」 / ",
-    "english": "Start the game? / [1 Play: 500g] / "
+    "english": "Start the game? / [1 Play: 500G] / "
   },
   {
     "resource": 44,

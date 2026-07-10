@@ -11,9 +11,12 @@ the build pipeline that produces a patched, **real-PS2-compatible** disc image.
 > **[busin0-en.pages.dev](https://busin0-en.pages.dev)** — you do not need this
 > repository to play, only to build from source or contribute.
 
-Target disc: **SLPM-65378** (original 2006 release — *not* the Atlus Best Collection
-SLPM-65876). Every fix modifies the actual ISO data (game resources, EXE, font
-atlases) so it runs on real hardware, not just emulators.
+Target disc: **SLPM-65378** — the original release, software **version 1.03**. This is
+*not* the Atlus Best Collection (SLPM-65876), which is version 2.01 and is a separate,
+later "bug-fix" pressing. (Some dumps of SLPM-65378 are mislabeled "v2.01" in their
+filename; ignore the filename and trust the MD5 below.) Every fix modifies the actual
+ISO data (game resources, EXE, font atlases) so it runs on real hardware, not just
+emulators.
 
 ---
 

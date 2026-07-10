@@ -65,7 +65,7 @@ R46_SUB0 = {
     6: "vigger shop has many / orcs. can orcs / apply too?",
     7: "friendly orcs are / ok! we have 3 orcs / already. youll get / along great!",
     8: "on b4f i got cursed / and lost. found a / room with a hobbit / and imp. odd folk / but they gave me a / healing item. nice!",
-    9: "duhan trade guild / marks 50 years! / karman tour for 5 / pairs! spend 10000g / at member shops to / enter the draw! / duhan residents / only",
+    9: "duhan trade guild / marks 50 years! / karman tour for 5 / pairs! spend 10000G / at member shops to / enter the draw! / duhan residents / only",
     10: "bogey cats are so / cute! those eyes / are adorable! / dont hurt em much.",
     11: "venoan bookstore / moved to 124-3 / porora street.",
     12: "how to learn magic?",

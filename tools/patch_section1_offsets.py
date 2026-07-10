@@ -81,12 +81,13 @@ ISLAND_SWEEP_ENABLED = True
 # -- lazily-loaded shared tables ------------------------------------------------
 _GLYPH_MAP = None       # glyph index (str) -> JP char
 _NAME_LABELS = None     # JP name string -> English
+_NAMEPLATE_OVERRIDES = None  # (res_idx, msg_idx) -> English speaker label
 _ENG_TABLE = None       # ASCII char -> glyph index
 _ENG_REV = None         # glyph index -> ASCII char (reverse of _ENG_TABLE)
 
 
 def _load_tables():
-    global _GLYPH_MAP, _NAME_LABELS, _ENG_TABLE, _ENG_REV
+    global _GLYPH_MAP, _NAME_LABELS, _NAMEPLATE_OVERRIDES, _ENG_TABLE, _ENG_REV
     if _GLYPH_MAP is None:
         _GLYPH_MAP = json.load(
             open(os.path.join(_ROOT, "data", "msg_glyph_map.json"), encoding="utf-8")
@@ -99,6 +100,26 @@ def _load_tables():
             _NAME_LABELS = {k: v for k, v in d.items() if not k.startswith("_")}
         except OSError:
             _NAME_LABELS = {}
+    if _NAMEPLATE_OVERRIDES is None:
+        # Per-(resource, group) 0x14 name-island override. Needed where the
+        # decoded JP key is ambiguous across resources (Glyph-Page Law): e.g.
+        # 士騎戦 -> "Knight" globally but really 冒険者/Adventurer in specific
+        # groups, while other 士騎戦 islands ARE genuine knights (R1196 g752) or
+        # a named speaker (R1206 g244 Uuri). Consulted for the ACTIVE speaker
+        # slice before the name_labels lookup, so only the listed groups change.
+        _NAMEPLATE_OVERRIDES = {}
+        try:
+            d = json.load(
+                open(os.path.join(_ROOT, "data", "nameplate_overrides.json"),
+                     encoding="utf-8")
+            )
+            for res_k, groups in d.items():
+                if res_k.startswith("_"):
+                    continue
+                for grp_k, label in groups.items():
+                    _NAMEPLATE_OVERRIDES[(int(res_k), int(grp_k))] = label
+        except OSError:
+            pass
     if _ENG_TABLE is None:
         _ENG_TABLE = json.load(
             open(os.path.join(_ROOT, "data", "english_glyph_table.json"), encoding="utf-8")
@@ -759,10 +780,15 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir,
             new_slices = []
             npos = 0
             active_label_en = None  # English string of the FIRST/active speaker
+            override_label = _NAMEPLATE_OVERRIDES.get((res_idx, msg_idx))
             for si, (so, sc) in enumerate(slices):
                 old_slice = original_group[so : so + sc]
                 jp = _decode_jp(old_slice)
                 en = _NAME_LABELS.get(jp) if jp is not None else None
+                # Per-(resource,group) override wins for the active speaker slice
+                # (the name box) — see _NAMEPLATE_OVERRIDES.
+                if si == 0 and override_label is not None:
+                    en = override_label
                 if si == 0 and en is not None:
                     active_label_en = en
                 if en is not None:

@@ -195,7 +195,7 @@
     "resource": 1351,
     "msg_index": 0,
     "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
-    "english": "Romi: Oh! Did you / bring it for me?"
+    "english": "Oh! Did you / bring it for me?"
   },
   {
     "resource": 1351,
@@ -261,7 +261,7 @@
     "resource": 1351,
     "msg_index": 11,
     "japanese": "、だいじょうぶ？",
-    "english": "Romi: Are you okay?"
+    "english": "Are you okay?"
   },
   {
     "resource": 1351,
@@ -273,13 +273,13 @@
     "resource": 1351,
     "msg_index": 13,
     "japanese": "そうだ！お[0368]しなくっちゃ ",
-    "english": "Romi: Oh yes, / I must thank you!"
+    "english": "Oh yes, / I must thank you!"
   },
   {
     "resource": 1351,
     "msg_index": 14,
     "japanese": "あのね、カウンターの外の宝[03CE]を / 開けてみてちょうだい。",
-    "english": "Romi: Hey, try opening / that treasure chest / on top of the counter."
+    "english": "Hey, try opening / that treasure chest / on top of the counter."
   },
   {
     "resource": 1351,
@@ -297,25 +297,25 @@
     "resource": 1351,
     "msg_index": 17,
     "japanese": "これ、ここで傷いたお臆で買ったの。 / 買ったっていっても、ここのお店で / １つだけ一入れてもらったんだけど。",
-    "english": "Romi: I bought this with / the gold I earned here. / Well, I got one set aside / from this store."
+    "english": "I bought this with / the gold I earned here. / Well, I got one set aside / from this store."
   },
   {
     "resource": 1351,
     "msg_index": 18,
     "japanese": "生きてた動お[06CF]さんがいつも / つけてて、あこがれてたんだ～。",
-    "english": "Romi: When my mom was alive, / she always wore one, / and I adored it~"
+    "english": "When my mom was alive, / she always wore one, / and I adored it~"
   },
   {
     "resource": 1351,
     "msg_index": 19,
     "japanese": "苦ってる？ / ミスリル拡ってとっても何闘で / めったにとれないんだって。",
-    "english": "Romi: Did you know? / Baked silver is extremely / precious and hard to come by."
+    "english": "Did you know? / Baked silver is extremely / precious and hard to come by."
   },
   {
     "resource": 1351,
     "msg_index": 20,
     "japanese": "わたし、買ったのはいいけれど / つけられないから、あげる。",
-    "english": "Romi: I bought it, but / I can't wear it, / so I'm giving it to you."
+    "english": "I bought it, but / I can't wear it, / so I'm giving it to you."
   },
   {
     "resource": 1351,
@@ -327,7 +327,7 @@
     "resource": 1351,
     "msg_index": 22,
     "japanese": "じゃあ、また働いに帰てね。 / ばいばい、。",
-    "english": "Romi: Well, be sure to / come back for more / fortune-telling. Bye-bye!"
+    "english": "Well, be sure to / come back for more / fortune-telling. Bye-bye!"
   },
   {
     "resource": 1352,
@@ -477,13 +477,13 @@
     "resource": 1355,
     "msg_index": 3,
     "japanese": "[01E3]帰前向いが、ここは[01E4][01DD]された戦魔義、 / 侍ち入り代限となっている。",
-    "english": "Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted."
+    "english": "I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted."
   },
   {
     "resource": 1355,
     "msg_index": 4,
     "japanese": "それとも使は、迷宮に入るための / 物を持っているのか？",
-    "english": "Knight: Or do you have / something that permits / entry into the labyrinth?"
+    "english": "Or do you have / something that permits / entry into the labyrinth?"
   },
   {
     "resource": 1355,
@@ -495,43 +495,43 @@
     "resource": 1355,
     "msg_index": 6,
     "japanese": "なら、早く盗に戻りなさい。 / ここは[045B]騎だ、兵[046C]の戦が帰るような / ところではない。",
-    "english": "Knight: Then go back / to the city at once. / This is dangerous; / no place for civilians."
+    "english": "Then go back / to the city at once. / This is dangerous; / no place for civilians."
   },
   {
     "resource": 1355,
     "msg_index": 7,
     "japanese": "[01E3]帰前小のつもりか苦らぬが、 / 小度帰ても、[02EC]えは効じだ。",
-    "english": "Knight: I don't know what you're thinking, // but no matter how many times you come, the answer is the same."
+    "english": "I don't know what you're thinking, // but no matter how many times you come, the answer is the same."
   },
   {
     "resource": 1355,
     "msg_index": 8,
     "japanese": "[01E4][01DD]辺き戦を、入れることはできぬ。",
-    "english": "Knight: I cannot let / anyone without clearance / pass through."
+    "english": "I cannot let / anyone without clearance / pass through."
   },
   {
     "resource": 1355,
     "msg_index": 9,
     "japanese": "[01E3]帰前また使か！！",
-    "english": "Knight: You again!!"
+    "english": "You again!!"
   },
   {
     "resource": 1355,
     "msg_index": 10,
     "japanese": "くどいようだが、[01E4][01DD]辺き戦は / 通すわけにはいかんのだ。",
-    "english": "Knight: I hate to repeat / myself, but I cannot let / anyone without clearance / pass through."
+    "english": "I hate to repeat / myself, but I cannot let / anyone without clearance / pass through."
   },
   {
     "resource": 1355,
     "msg_index": 11,
     "japanese": "向いが、ここは[01E4][01DD]された戦魔義、 / 侍ち入り代限となっている。",
-    "english": "Knight: I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted."
+    "english": "I'm sorry, but / this labyrinth has been / sealed off. Entry is / restricted."
   },
   {
     "resource": 1355,
     "msg_index": 12,
     "japanese": "それとも使は、迷宮に入るための / 前全を持っているのか？",
-    "english": "Knight: Or do you have / the credentials to enter / the labyrinth?"
+    "english": "Or do you have / the credentials to enter / the labyrinth?"
   },
   {
     "resource": 1355,
@@ -543,61 +543,61 @@
     "resource": 1355,
     "msg_index": 14,
     "japanese": "なるほど。 / 使も討伐隊の兵社となったわけか。",
-    "english": "Knight: I see. / So you've become a member / of the strike force as well."
+    "english": "I see. / So you've become a member / of the strike force as well."
   },
   {
     "resource": 1355,
     "msg_index": 15,
     "japanese": "よろしいそれでは、 / 隊像から向全はあったと出うが、 / もう兵度[01E1]荷に向全させてもらおう。",
-    "english": "Knight: Very well then. / I'm sure you were briefed / by the captain, but let me / explain once more."
+    "english": "Very well then. / I'm sure you were briefed / by the captain, but let me / explain once more."
   },
   {
     "resource": 1355,
     "msg_index": 16,
     "japanese": "使動士騎戦は魔装、彼神王息[01E3]帰前の / [03E9][0190]忍に[0175]かれる。",
-    "english": "Knight: All adventurers / are bound by the rules / of the Order."
+    "english": "All adventurers / are bound by the rules / of the Order."
   },
   {
     "resource": 1355,
     "msg_index": 17,
     "japanese": "迷宮長での行功は値器だが、いかなる / 場合、[0190]器があっても、彼神の[01BA]孤が / [01BE]系[01A1]されることを[01C7]れないよう。",
-    "english": "Knight: Acts of valor / in the labyrinth are noted, / but never forget that / the gods' judgment shall / always be upheld."
+    "english": "Acts of valor / in the labyrinth are noted, / but never forget that / the gods' judgment shall / always be upheld."
   },
   {
     "resource": 1355,
     "msg_index": 18,
     "japanese": "迷宮長で力に入れた物品に人しては、 / 士騎戦[04E0]者の暗[0470]物として索める。",
-    "english": "Knight: Any items obtained / in the labyrinth are / recognized as the personal / property of the adventurer."
+    "english": "Any items obtained / in the labyrinth are / recognized as the personal / property of the adventurer."
   },
   {
     "resource": 1355,
     "msg_index": 19,
     "japanese": "また、半物どもを忘す野宿に[014B]るが、 / 単や[04EE]などの住[04DD]の度毒や半法の度 / 毒も索める。",
-    "english": "Knight: Also, while slaying / monsters is the primary / mission, the use of poisons / and sorcery is also / permitted."
+    "english": "Also, while slaying / monsters is the primary / mission, the use of poisons / and sorcery is also / permitted."
   },
   {
     "resource": 1355,
     "msg_index": 20,
     "japanese": "それともう兵つ。 / これから[01A1]、頼潜ブレスレットは、 / 使教者を前全するものとなる。",
-    "english": "Knight: One more thing. / From now on, / the Identification Bracelet / will serve to protect you."
+    "english": "One more thing. / From now on, / the Identification Bracelet / will serve to protect you."
   },
   {
     "resource": 1355,
     "msg_index": 21,
     "japanese": "[0457]物[0444]などに入れずに、[046A]職はなさず / 職に業けていて能しい。",
-    "english": "Knight: Do not put it / in your luggage bag. / Keep it on you / at all times."
+    "english": "Do not put it / in your luggage bag. / Keep it on you / at all times."
   },
   {
     "resource": 1355,
     "msg_index": 22,
     "japanese": "なぜなら、抜器彼神[01E3]帰前を[0283]め、 / 唱くの士騎戦が討伐隊となって迷宮に / 御っている。",
-    "english": "Knight: The reason is that / many adventurers, including / knights of the Order, / are exploring the labyrinth."
+    "english": "The reason is that / many adventurers, including / knights of the Order, / are exploring the labyrinth."
   },
   {
     "resource": 1355,
     "msg_index": 23,
     "japanese": "もし、迷宮長でそのブレスレットを / 職に業けていなければ、仕われても / 思店は言えないからな。",
-    "english": "Knight: If you don't have / the bracelet on you / in the labyrinth, you can't / complain if you get attacked."
+    "english": "If you don't have / the bracelet on you / in the labyrinth, you can't / complain if you get attacked."
   },
   {
     "resource": 1355,
@@ -609,79 +609,79 @@
     "resource": 1355,
     "msg_index": 25,
     "japanese": "この少し[01A1]の[03AA]水の街所で、 / 宝[03CE]や授[049C]についての[01E1]荷な向全を / 光けることができる。",
-    "english": "Knight: In the rooms / just ahead, you can learn / the basics of treasure chests / and combat."
+    "english": "In the rooms / just ahead, you can learn / the basics of treasure chests / and combat."
   },
   {
     "resource": 1355,
     "msg_index": 26,
     "japanese": "使がこういった迷宮に入るのが / [0160]めてなら、聞いておいて[0465]は / ないだろう。",
-    "english": "Knight: If this is your / first time in a labyrinth / like this, it would be wise / to listen."
+    "english": "If this is your / first time in a labyrinth / like this, it would be wise / to listen."
   },
   {
     "resource": 1355,
     "msg_index": 27,
     "japanese": "使動士騎戦の傷きには、息王も見方 / [045C]んでおられる。彼神も効[01BC]だ。 / 使も[045A][0402]ってくれたまえ ",
-    "english": "Knight: The King himself / watches over the work of / the adventurers. The gods / are with you too. / Take care of yourself."
+    "english": "The King himself / watches over the work of / the adventurers. The gods / are with you too. / Take care of yourself."
   },
   {
     "resource": 1355,
     "msg_index": 28,
     "japanese": "おう、そうそう、質は方わるが、 / 使動は方わったチームだな。",
-    "english": "Knight: Oh, by the way, / you've got quite an unusual / team there."
+    "english": "Oh, by the way, / you've got quite an unusual / team there."
   },
   {
     "resource": 1355,
     "msg_index": 29,
     "japanese": "[0160]めてみたよ、 / オークを支れて士騎する戦は。",
-    "english": "Knight: It's the first / time I've seen anyone / adventuring with an Orc."
+    "english": "It's the first / time I've seen anyone / adventuring with an Orc."
   },
   {
     "resource": 1355,
     "msg_index": 30,
     "japanese": "装ろのオーク動も退嫌なんだろ？",
-    "english": "Knight: Those Orcs behind / you are your companions, / right?"
+    "english": "Those Orcs behind / you are your companions, / right?"
   },
   {
     "resource": 1355,
     "msg_index": 31,
     "japanese": "イお、おう、そうよダド～[0267]ゴ",
-    "english": "Orc: Oh, yeah, / that's right~!"
+    "english": "Oh, yeah, / that's right~!"
   },
   {
     "resource": 1355,
     "msg_index": 32,
     "japanese": "イオ、オダたちみんな /  なかよしですダド～[0267]ゴ",
-    "english": "Orc: We're all / good friends~!"
+    "english": "We're all / good friends~!"
   },
   {
     "resource": 1355,
     "msg_index": 33,
     "japanese": "アハハハハ、そうかそうか。 / なあに、俺の使[04A0]のばあさんが / オークと退箱しでな。",
-    "english": "Knight: Ahahaha, is that so! / Well, my grandmother on / my mother's side married / an Orc, you know."
+    "english": "Ahahaha, is that so! / Well, my grandmother on / my mother's side married / an Orc, you know."
   },
   {
     "resource": 1355,
     "msg_index": 34,
     "japanese": "使[04A0]じゃ、集に１０己もいる / ぐらいなんだ。",
-    "english": "Knight: On her side of / the family, there are about / 10 of them."
+    "english": "On her side of / the family, there are about / 10 of them."
   },
   {
     "resource": 1355,
     "msg_index": 35,
     "japanese": "それじゃ、装ろのお両動も頼を / つけてな。",
-    "english": "Knight: Well then, / take care of your friends / back there too."
+    "english": "Well then, / take care of your friends / back there too."
   },
   {
     "resource": 1355,
     "msg_index": 36,
     "japanese": "イありがとうですダド～[0267]ゴ",
-    "english": "Orc: Thank you~!"
+    "english": "Thank you~!"
   },
   {
     "resource": 1355,
     "msg_index": 37,
     "japanese": "イかんしゃ、かんしゃダド～[0267]ゴ",
-    "english": "Orc: So grateful, / so grateful~!"
+    "english": "So grateful, / so grateful~!"
   },
   {
     "resource": 1355,
@@ -693,7 +693,7 @@
     "resource": 1355,
     "msg_index": 39,
     "japanese": "男帰aイおい  /     族女が、[01AB]ってきたぞ  ゴ男帰bイどうだ？ /     聖回もやはり辺[0327]か？ゴ男帰aイそのようだ、さっきレオ動に /     半物の誰を飾していたが、 /     かすり[0327]兵つ魔っていないゴ男帰bイさすがだな！！ゴ",
-    "english": "Soldier A: Hey! / She has returned! / Soldier B: How are they? / She's unwounded, right? / Soldier A: She had just / handed Rudy the head / of a demon. Not a / scratch on her. / Soldier B: Incredible!"
+    "english": "Hey! / She has returned! / Soldier B: How are they? / She's unwounded, right? / Soldier A: She had just / handed Rudy the head / of a demon. Not a / scratch on her. / Soldier B: Incredible!"
   },
   {
     "resource": 1355,
@@ -705,13 +705,13 @@
     "resource": 1355,
     "msg_index": 41,
     "japanese": "女放 イ聖回は[0460]名層まで行ったけど、 /     アウローラの良はどこにも /     辺かったゴ男帰cイ力がかりは辺しですかゴ女放 イええ、だけど！！    頼になることが兵つだけゴ男帰cイ小ですか？ /     お聞かせくださいゴ女放 イ[0180]名層の奥に行った時、 /     知与な頼[03CF]を感じたの！！ゴ",
-    "english": "Female: This time we went / to the sixth floor, but / there was no trace of / Aurora anywhere. / Soldier C: Any leads? / Female: Yes, but there was / one thing that caught / my attention. / Soldier C: What was it? / Please tell us. / Female: When I went deep / into the second floor, / I sensed something / strange and powerful!"
+    "english": "This time we went / to the sixth floor, but / there was no trace of / Aurora anywhere. / Soldier C: Any leads? / Female: Yes, but there was / one thing that caught / my attention. / Soldier C: What was it? / Please tell us. / Female: When I went deep / into the second floor, / I sensed something / strange and powerful!"
   },
   {
     "resource": 1355,
     "msg_index": 42,
     "japanese": "男帰dイアウローラでは？ゴ女放 イ違うと出う。者嫌のものよりも /     あれはもっと！！[0159]向だった！。    うまく向全できなくて向いけどゴ男帰dイいえ、[0463]色です。    アオイさんがおっしゃるなら、 /     嫌違いないでしょうゴ男帰cイ話ぎ、[0180]名層に道登隊を /     大[045F]することにしますゴ",
-    "english": "Soldier D: Was it Aurora? / Female: I don't think so. / It was something far more / evil than any demon. / Sorry I can't describe / it better. / Soldier D: That's fine. / If the famous Aoi says so, / it must be true. / Soldier C: Let's hurry and / authorize a search party / for the 2nd floor."
+    "english": "Was it Aurora? / Female: I don't think so. / It was something far more / evil than any demon. / Sorry I can't describe / it better. / Soldier D: That's fine. / If the famous Aoi says so, / it must be true. / Soldier C: Let's hurry and / authorize a search party / for the 2nd floor."
   },
   {
     "resource": 1355,
@@ -723,7 +723,7 @@
     "resource": 1355,
     "msg_index": 44,
     "japanese": "アオイあなたも迷宮に御るつもりなの？",
-    "english": "Aoi: Are you going into / the labyrinth as well?"
+    "english": "Are you going into / the labyrinth as well?"
   },
   {
     "resource": 1355,
@@ -735,55 +735,55 @@
     "resource": 1355,
     "msg_index": 46,
     "japanese": "そのほうがいいわ。",
-    "english": "Aoi: That would be wise."
+    "english": "That would be wise."
   },
   {
     "resource": 1355,
     "msg_index": 47,
     "japanese": "[038B]景な生込は、使った時に[0160]めて / その見該さがわかる。",
-    "english": "Aoi: Reckless ambitions / reveal their true ugliness / only when it's too late."
+    "english": "Reckless ambitions / reveal their true ugliness / only when it's too late."
   },
   {
     "resource": 1355,
     "msg_index": 48,
     "japanese": "そして頼づいた時には、[0180]度と古り / 戻せはしないのだから。",
-    "english": "Aoi: And by the time / you realize it, there is / no way to turn back."
+    "english": "And by the time / you realize it, there is / no way to turn back."
   },
   {
     "resource": 1355,
     "msg_index": 49,
     "japanese": "[0462]られるかもしれないけど、 / あえて言わせて。",
-    "english": "Aoi: I may be scolded / for this, but let me / say it anyway."
+    "english": "I may be scolded / for this, but let me / say it anyway."
   },
   {
     "resource": 1355,
     "msg_index": 50,
     "japanese": "迷宮の階は、稀目の見きさの色だけ / [0297]くなっていく。",
-    "english": "Aoi: The darkness of the / labyrinth grows as deep / as the size of your / own ambitions."
+    "english": "The darkness of the / labyrinth grows as deep / as the size of your / own ambitions."
   },
   {
     "resource": 1355,
     "msg_index": 51,
     "japanese": "不はそういった者動を唱く賊てきた。 / 迷宮の奥[01AE]で[0423]となった者動は、 / [018A]療や宝を有め、[028E]んでいった。",
-    "english": "Aoi: I've seen many such people. Fame and treasure they may have found, // but they all perished in the depths of the labyrinth."
+    "english": "I've seen many such people. Fame and treasure they may have found, // but they all perished in the depths of the labyrinth."
   },
   {
     "resource": 1355,
     "msg_index": 52,
     "japanese": "生き退ることを第兵に必えなさい。 / [018A]療や[046E]はその装についてくるから。",
-    "english": "Aoi: Think first of / surviving. Fame and glory / will follow on their own."
+    "english": "Think first of / surviving. Fame and glory / will follow on their own."
   },
   {
     "resource": 1355,
     "msg_index": 53,
     "japanese": "男帰cイでは、近所まで[0362][0455]長しますゴアオイイ聖地も賊[0402]りつきってわけね。    これじゃ迷宮のほうが /     どれほど頼武かしらゴ男帰dイ！！元しわけありませんゴ",
-    "english": "Soldier C: Well then, / we will escort you / to the inn. / Aoi: On watch duty today / too, I see. I wonder how / much more carefree life / outside would be. / Soldier D: We are sorry / about that!"
+    "english": "Well then, / we will escort you / to the inn. / Aoi: On watch duty today / too, I see. I wonder how / much more carefree life / outside would be. / Soldier D: We are sorry / about that!"
   },
   {
     "resource": 1355,
     "msg_index": 54,
     "japanese": "アオイイ不の[046E]は、兵度でいいから /     過にも[0159]半されないところで /     ゆっくりと[0464]ることゴ男帰cイ彼神は、ドアの義で侍って /     いるだけですからゴ男帰dイ携してお[045D]みの[0159]半はしない /     つもりですゴアオイイわかっているわ。効少よ。    もう[0459]れたからゴ",
-    "english": "Aoi: My dream is to / sleep in a place where / no one will disturb me. / Soldier C: We're just going / to stand by the door. / Soldier D: We have no plans / to interrupt your rest. / Aoi: I know, I know. / It was just a joke. / I've gotten used to it."
+    "english": "My dream is to / sleep in a place where / no one will disturb me. / Soldier C: We're just going / to stand by the door. / Soldier D: We have no plans / to interrupt your rest. / Aoi: I know, I know. / It was just a joke. / I've gotten used to it."
   },
   {
     "resource": 1350,

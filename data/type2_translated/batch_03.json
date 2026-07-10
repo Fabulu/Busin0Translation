@@ -255,7 +255,7 @@
   "resource": 1203,
   "msg_index": 43,
   "japanese": "そうっスか、入会っスか では、入会臆[000B]会[03CD]５０００gと申込書に[018A]両をお[036A]いしやす ",
-  "english": "Sign up? Alright! / Membership fee: / 5000g plus form."
+  "english": "Sign up? Alright! / Membership fee: / 5000G plus form."
  },
  {
   "resource": 1203,
@@ -285,7 +285,7 @@
   "resource": 1203,
   "msg_index": 48,
   "japanese": "入会しますか？「入会[03CD]毒 ５０００g」は いいいえ",
-  "english": "Join? Fee: 5000g / Yes / No"
+  "english": "Join? Fee: 5000G / Yes / No"
  },
  {
   "resource": 1203,
@@ -297,7 +297,7 @@
   "resource": 1203,
   "msg_index": 50,
   "japanese": "５０００g立払った。",
-  "english": "Paid 5000g."
+  "english": "Paid 5000G."
  },
  {
   "resource": 1203,
@@ -333,13 +333,13 @@
   "resource": 1203,
   "msg_index": 56,
   "japanese": "！って、えええええっ？ 持ってないっすか、５０００g！。同少キツいっすよ、お落さ～ん ",
-  "english": "What?! You don't / have 5000g?! / That's rough!"
+  "english": "What?! You don't / have 5000G?! / That's rough!"
  },
  {
   "resource": 1203,
   "msg_index": 57,
   "japanese": "一今ないなあ！。今度帰た時は５０００g、[033C]を[0510]えて持ってきてくださいよ ",
-  "english": "No can do! Bring / 5000g or more / next time, ok?"
+  "english": "No can do! Bring / 5000G or more / next time, ok?"
  },
  {
   "resource": 1203,
@@ -483,13 +483,13 @@
   "resource": 1203,
   "msg_index": 84,
   "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
-  "english": "I'm Romi, a ghost. / Pay 2000g and / I'll tell you more."
+  "english": "I'm Romi, a ghost. / Pay 2000G and / I'll tell you more."
  },
  {
   "resource": 1203,
   "msg_index": 85,
   "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-  "english": "Get a reading? / One person: 2000g / Yes / No"
+  "english": "Get a reading? / One person: 2000G / Yes / No"
  },
  {
   "resource": 1203,
@@ -513,13 +513,13 @@
   "resource": 1203,
   "msg_index": 89,
   "japanese": "お臆持ってないんだったら、お臆持ってきてね。２０００gだからね。",
-  "english": "If you don't have / money, bring some. / It's 2000g."
+  "english": "If you don't have / money, bring some. / It's 2000G."
  },
  {
   "resource": 1203,
   "msg_index": 90,
   "japanese": "２０００g立払った ",
-  "english": "Paid 2000g."
+  "english": "Paid 2000G."
  },
  {
   "resource": 1203,
@@ -1125,13 +1125,13 @@
   "resource": 1203,
   "msg_index": 193,
   "japanese": "イムプはいはい、いらっしゃい ",
-  "english": "Imp: Hey, welcome!"
+  "english": "Hey, welcome!"
  },
  {
   "resource": 1203,
   "msg_index": 194,
   "japanese": "壁[04C0]２６地～３０地の[04C0][0552]５地嫌はヴィガーフレンズ会社[014B]期会社ナンバー[05FB]選兜会   ",
-  "english": "Ranks 26-30: It's / the Vigger Friends / member number / lucky draw!"
+  "english": "It's / the Vigger Friends / member number / lucky draw!"
  },
  {
   "resource": 1203,
@@ -1521,7 +1521,7 @@
   "resource": 1203,
   "msg_index": 262,
   "japanese": "ローミおにいちゃんおねえちゃんあっ！持ってきてくれたの？",
-  "english": "Romi: Hey! Did you / bring it for me?"
+  "english": "Hey! Did you / bring it for me?"
  },
  {
   "resource": 1203,
@@ -1659,7 +1659,7 @@
   "resource": 1203,
   "msg_index": 286,
   "japanese": "オーガおう、いらっしゃい。メダル所へようこそ ",
-  "english": "Ogre: Hey, welcome / to the Medal / Exchange!"
+  "english": "Hey, welcome / to the Medal / Exchange!"
  },
  {
   "resource": 1203,
@@ -1719,13 +1719,13 @@
   "resource": 1203,
   "msg_index": 296,
   "japanese": "骨場のメダルは５枚で１０００gだ。買っていくのか？",
-  "english": "Floor medals are / 5 for 1000g. / Buying?"
+  "english": "Floor medals are / 5 for 1000G. / Buying?"
  },
  {
   "resource": 1203,
   "msg_index": 297,
   "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-  "english": "Buy floor medals? / 5 for 1000g / Yes / No"
+  "english": "Buy floor medals? / 5 for 1000G / Yes / No"
  },
  {
   "resource": 1203,
@@ -1737,7 +1737,7 @@
   "resource": 1203,
   "msg_index": 301,
   "japanese": "形臆１０００gを立払った。",
-  "english": "Paid 1000g."
+  "english": "Paid 1000G."
  },
  {
   "resource": 1203,
@@ -1755,7 +1755,7 @@
   "resource": 1203,
   "msg_index": 305,
   "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-  "english": "Not 1g discount! / Don't even think / about bargaining!"
+  "english": "Not 1G discount! / Don't even think / about bargaining!"
  },
  {
   "resource": 1203,
@@ -1797,13 +1797,13 @@
   "resource": 1203,
   "msg_index": 312,
   "japanese": "打扱のメダルは１枚[014B]期で１０００gだが買っていくのか？",
-  "english": "Special medals / are 1000g each. / Buying?"
+  "english": "Special medals / are 1000G each. / Buying?"
  },
  {
   "resource": 1203,
   "msg_index": 313,
   "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-  "english": "Buy special medal? / 1 for 1000g / Yes / No"
+  "english": "Buy special medal? / 1 for 1000G / Yes / No"
  },
  {
   "resource": 1203,
@@ -1815,7 +1815,7 @@
   "resource": 1203,
   "msg_index": 317,
   "japanese": "形臆１０００gを立払った。",
-  "english": "Paid 1000g."
+  "english": "Paid 1000G."
  },
  {
   "resource": 1203,
@@ -1833,7 +1833,7 @@
   "resource": 1203,
   "msg_index": 321,
   "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-  "english": "Not 1g discount! / Don't even think / about bargaining!"
+  "english": "Not 1G discount! / Don't even think / about bargaining!"
  },
  {
   "resource": 1203,
@@ -1881,7 +1881,7 @@
   "resource": 1203,
   "msg_index": 329,
   "japanese": "道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。",
-  "english": "Appraisal is a / flat 1000g. He / examines how much / soul the work has."
+  "english": "Appraisal is a / flat 1000G. He / examines how much / soul the work has."
  },
  {
   "resource": 1203,
@@ -1893,7 +1893,7 @@
   "resource": 1203,
   "msg_index": 331,
   "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
-  "english": "Get Automata / appraised? 1000g / Yes / No"
+  "english": "Get Automata / appraised? 1000G / Yes / No"
  },
  {
   "resource": 1203,
@@ -1917,7 +1917,7 @@
   "resource": 1203,
   "msg_index": 335,
   "japanese": "[0509]期[0516]１０００gを払った ",
-  "english": "Paid appraisal / fee: 1000g."
+  "english": "Paid appraisal / fee: 1000G."
  },
  {
   "resource": 1203,
@@ -2223,7 +2223,7 @@
   "resource": 1203,
   "msg_index": 386,
   "japanese": "オーク戦いが編わり、[0446]恵としていると立店の店社が択てて力け復ってきた。",
-  "english": "Orc: After the / battle ended, the / shopkeep came / running back."
+  "english": "After the / battle ended, the / shopkeep came / running back."
  },
  {
   "resource": 1203,
@@ -2313,7 +2313,7 @@
   "resource": 1203,
   "msg_index": 403,
   "japanese": "リディオークピピン[041E][04FA]の女さんよね？あたし、リディ[001D]ヴァレンシュタイン。ベノアン書店の仲長やってるの ",
-  "english": "Lidi: You're the / leader, right? / I'm Lidi / Wallenstein of / Venoan Bookstore."
+  "english": "You're the / leader, right? / I'm Lidi / Wallenstein of / Venoan Bookstore."
  },
  {
   "resource": 1203,
@@ -2601,13 +2601,13 @@
   "resource": 1203,
   "msg_index": 452,
   "japanese": "[001C]商品リスト[001E][04CE][0327]の秘   ３００g[01AB][053F]の秘   ３００g倒[0331]の秘   ３００g[045D]加の秘   ３００gさびたカギ   品該れ[05AB]入をやめる     ",
-  "english": "<Product List> / Healing Potion 300g / Return Potion 300g / Antidote 300g / Rest Potion 300g / Rusty Key SOLD OUT / Cancel"
+  "english": "<Product List> / Healing Potion 300G / Return Potion 300G / Antidote 300G / Rest Potion 300G / Rusty Key SOLD OUT / Cancel"
  },
  {
   "resource": 1203,
   "msg_index": 453,
   "japanese": "[001C]商品リスト[001E][04CE][0327]の秘    ３００g[01AB][053F]の秘    ３００g倒[0331]の秘    ３００g[045D]加の秘    ３００gさびたカギ  ３０００g[05AB]入をやめる      ",
-  "english": "<Product List> / Healing Potion 300g / Return Potion 300g / Antidote 300g / Rest Potion 300g / Rusty Key 3000g / Cancel"
+  "english": "<Product List> / Healing Potion 300G / Return Potion 300G / Antidote 300G / Rest Potion 300G / Rusty Key 3000G / Cancel"
  },
  {
   "resource": 1203,
@@ -2835,7 +2835,7 @@
   "resource": 1203,
   "msg_index": 491,
   "japanese": "勉店の[0362][0455]長セルフショップは、目辺い騎騎者の[042E][048E]にあい、[05D0]に退大ながら勉店せざるを得なくなりました。長らくの[0362][035D][05CE][0470]難うございました。",
-  "english": "Notice: Self-Shop / is permanently / closed due to / theft. Thank you / for your patronage."
+  "english": "Self-Shop / is permanently / closed due to / theft. Thank you / for your patronage."
  },
  {
   "resource": 1203,
@@ -2901,7 +2901,7 @@
   "resource": 1203,
   "msg_index": 503,
   "japanese": "オークオメェ、オダたちのみせにきてくでたこと、あるだよな！？",
-  "english": "Orc: Hey! Ya been / to our shop / before, right?!"
+  "english": "Hey! Ya been / to our shop / before, right?!"
  },
  {
   "resource": 1203,
@@ -2979,7 +2979,7 @@
   "resource": 1203,
   "msg_index": 517,
   "japanese": "ヨッペンイばぁ～～～ ゴ",
-  "english": "Yoppen: Heeey!"
+  "english": "Heeey!"
  },
  {
   "resource": 1203,
@@ -3099,7 +3099,7 @@
   "resource": 1203,
   "msg_index": 538,
   "japanese": "ヨッペンイチャララチャチャ～ン ゴ",
-  "english": "Yoppen: / Cha-la-la-cha~!"
+  "english": "Cha-la-la-cha~!"
  },
  {
   "resource": 1203,
@@ -3285,7 +3285,7 @@
   "resource": 1203,
   "msg_index": 570,
   "japanese": "魔美解のどでも[0620]きましたか？関を[0131]むなら、どうぞ！ククク！。",
-  "english": "Sorcerer: Did you / see something? / Feel free to / drink! Hehehe!"
+  "english": "Did you / see something? / Feel free to / drink! Hehehe!"
  },
  {
   "resource": 1203,
@@ -3297,7 +3297,7 @@
   "resource": 1203,
   "msg_index": 572,
   "japanese": "ライマンイこれこれゴ",
-  "english": "Raiman: Ahem."
+  "english": "Ahem."
  },
  {
   "resource": 1203,
@@ -3435,7 +3435,7 @@
   "resource": 1203,
   "msg_index": 597,
   "japanese": "ハラヘリーノヘリグラーノベルグラーノペルクラーノ隊長！と、ありがとうございます。",
-  "english": "Haraherino / Heriglano / Belgrano / Percrano / Captain! Yes, / thank you."
+  "english": "Haraherino / Heriglano / Belgrano / Percrano / Commander! Yes, / thank you."
  },
  {
   "resource": 1203,
@@ -3549,7 +3549,7 @@
   "resource": 1203,
   "msg_index": 618,
   "japanese": "３０００g受け取った ",
-  "english": "Received 3000g."
+  "english": "Received 3000G."
  },
  {
   "resource": 1203,
@@ -3687,7 +3687,7 @@
   "resource": 1203,
   "msg_index": 642,
   "japanese": "ライマンジル迷宮に入ってすぐのところでジルが[05CD]声をあげた。",
-  "english": "Raiman & Jill: / Upon entering the / labyrinth, Jill / let out a gasp."
+  "english": "Upon entering the / labyrinth, Jill / let out a gasp."
  },
  {
   "resource": 1203,
@@ -3951,7 +3951,7 @@
   "resource": 1203,
   "msg_index": 691,
   "japanese": "ノッチイここだべな！うん！ここにまちがいないど！ゴ",
-  "english": "Notch: This is / the place! Yep, / no doubt!"
+  "english": "This is / the place! Yep, / no doubt!"
  },
  {
   "resource": 1203,
@@ -4029,7 +4029,7 @@
   "resource": 1203,
   "msg_index": 704,
   "japanese": "ライマンよかった、お待ちしてましたよ ",
-  "english": "Raiman: Great, / I was waiting / for you!"
+  "english": "Great, / I was waiting / for you!"
  },
  {
   "resource": 1203,
@@ -4107,7 +4107,7 @@
   "resource": 1203,
   "msg_index": 717,
   "japanese": "ライマン通独でライマンが待っていた。",
-  "english": "Raiman: Raiman / was waiting in / the passage."
+  "english": "Raiman / was waiting in / the passage."
  },
  {
   "resource": 1203,
@@ -4161,7 +4161,7 @@
   "resource": 1203,
   "msg_index": 726,
   "japanese": "リディ魔法[05EF]で子[03D6]されてきた街所にはリディがいた。",
-  "english": "Lidi: In the room / connected by the / magic circle, / Lidi was there."
+  "english": "In the room / connected by the / magic circle, / Lidi was there."
  },
  {
   "resource": 1203,
@@ -4653,7 +4653,7 @@
   "resource": 1203,
   "msg_index": 813,
   "japanese": "魔美解何[01BC]、今この関独の関に何か[051D]ぜようとしていただろう。",
-  "english": "Sorcerer: I see / you were about to / mix something in / that spring."
+  "english": "I see / you were about to / mix something in / that spring."
  },
  {
   "resource": 1203,
@@ -4827,7 +4827,7 @@
   "resource": 1203,
   "msg_index": 842,
   "japanese": "魔美解く！生客[0141]な！。",
-  "english": "Sorcerer: Tch! / How dare you!"
+  "english": "Tch! / How dare you!"
  },
  {
   "resource": 1203,
@@ -4965,7 +4965,7 @@
   "resource": 1203,
   "msg_index": 867,
   "japanese": "魔物イむむむむむむむ おかしい、大[01DD]倒だ ゴ",
-  "english": "Monster: Mmm... / Something is / wrong. Very wrong."
+  "english": "Mmm... / Something is / wrong. Very wrong."
  },
  {
   "resource": 1203,
@@ -5085,7 +5085,7 @@
   "resource": 1203,
   "msg_index": 889,
   "japanese": "[01E3]帰前抜器、生武者の[059F][043C]以買中であります。",
-  "english": "Guard alert: / Survivor rescue / operation is / underway."
+  "english": "Survivor rescue / operation is / underway."
  },
  {
   "resource": 1203,
@@ -5097,7 +5097,7 @@
   "resource": 1203,
   "msg_index": 891,
   "japanese": "[01E3]帰前サミュエルお[04CD]れ[01BC]です ",
-  "english": "Guard Samuel: / Welcome back!"
+  "english": "Welcome back!"
  },
  {
   "resource": 1203,
@@ -5163,7 +5163,7 @@
   "resource": 1203,
   "msg_index": 902,
   "japanese": "[01E3]帰前抜器、生武者の[059F][043C]以買がはかどっていないため、申し[0559]ありませんが、",
-  "english": "Guard alert: / The survivor / rescue is not / going well. / We apologize."
+  "english": "The survivor / rescue is not / going well. / We apologize."
  },
  {
   "resource": 1203,
@@ -5199,7 +5199,7 @@
   "resource": 1203,
   "msg_index": 908,
   "japanese": "ベルグラーノ汝は制[033F]に稼び込まれたあの[028E][02A1]を見たかね？",
-  "english": "Belgrano: Did / you see the / tragedy they / were summoned to?"
+  "english": "Did / you see the / tragedy they / were summoned to?"
  },
  {
   "resource": 1203,
@@ -5319,7 +5319,7 @@
   "resource": 1203,
   "msg_index": 928,
   "japanese": "[01C7]れてはならない。彼らが神一、迷宮長で汝を容けてくれる者であるということを。",
-  "english": "But never forget: / they are the only / ones who'll help / you in the maze."
+  "english": "they are the only / ones who'll help / you in the maze."
  },
  {
   "resource": 1203,
@@ -5385,7 +5385,7 @@
   "resource": 1203,
   "msg_index": 939,
   "japanese": "[01C7]れてはならない。彼らが神一、迷宮長で汝を容けてくれる者であるということを。",
-  "english": "But never forget: / they are the only / ones who'll help / you in the maze."
+  "english": "they are the only / ones who'll help / you in the maze."
  },
  {
   "resource": 1203,
@@ -5451,7 +5451,7 @@
   "resource": 1203,
   "msg_index": 950,
   "japanese": "ウェブスターこれからも何かと主を[0588]りることになると思うが、よろしく頼むよ。",
-  "english": "Webster: I'm sure / we'll need your / help often. / Pleased to meet you."
+  "english": "I'm sure / we'll need your / help often. / Pleased to meet you."
  },
  {
   "resource": 1203,
@@ -5463,7 +5463,7 @@
   "resource": 1203,
   "msg_index": 952,
   "japanese": "それはそうと、ベルグラーノ隊長、この達越な新者汝に、お[0368]の品を渡してくれたのかね？",
-  "english": "By the way, / Captain Belgrano, / did you give our / hero a reward?"
+  "english": "By the way, / Commander Belgrano, / did you give our / hero a reward?"
  },
  {
   "resource": 1203,
@@ -5499,7 +5499,7 @@
   "resource": 1203,
   "msg_index": 958,
   "japanese": "どれをもらいますか？マグスの兜鎧マグスの帯[01E0]ザクレタの剣",
-  "english": "Choose a reward: / Magus Armor / Magus Bracelet / Sword of Zakreta"
+  "english": "Magus Armor / Magus Bracelet / Sword of Zakreta"
  },
  {
   "resource": 1203,
@@ -5541,7 +5541,7 @@
   "resource": 1203,
   "msg_index": 965,
   "japanese": "３０００gを力に入れた。",
-  "english": "Obtained 3000g."
+  "english": "Obtained 3000G."
  },
  {
   "resource": 1203,
@@ -5595,13 +5595,13 @@
   "resource": 1203,
   "msg_index": 974,
   "japanese": "[01E3]帰前汝が、行今大全になったレジーナ達を素してくれる者かね。",
-  "english": "You're the one who / found Regina's / party, correct?"
+  "english": "You're the one who / was sent to look / for Regina's / party, correct?"
  },
  {
   "resource": 1203,
   "msg_index": 975,
   "japanese": "[01A1]ほどベルグラーノ隊長から報[0197]を受けたところだよ。",
-  "english": "Captain Belgrano / reported to me / just now."
+  "english": "Commander Belgrano / reported to me / just now."
  },
  {
   "resource": 1203,
@@ -5691,7 +5691,7 @@
   "resource": 1203,
   "msg_index": 990,
   "japanese": "[01E3]帰前サミュエル討伐隊のさんですね、いつもいつも、ご協[0337][01BC]です。",
-  "english": "Guard Samuel: / Ah, the expedition / leader! Thank / you as always!"
+  "english": "Ah, the expedition / leader! Thank / you as always!"
  },
  {
   "resource": 1203,
@@ -5793,7 +5793,7 @@
   "resource": 1203,
   "msg_index": 1008,
   "japanese": "男帰aイおい 彼女が、[01AB]ってきたぞ  ゴ男帰bイどうだ？今回もやはり辺[0327]か？ゴ男帰aイさっきルーディ達にデーモンの誰を渡していたが、かすり[0327]一つ魔っていないゴ男帰bイさすがだな！！ゴ",
-  "english": "Soldier A: She's / back! Unscathed! / Soldier B: How'd / it go? / Soldier A: Gave / Rudy's team a / Demon corpse! / Soldier B: Wow!"
+  "english": "She's / back! Unscathed! / Soldier B: How'd / it go? / Soldier A: Gave / Rudy's team a / Demon corpse! / Soldier B: Wow!"
  },
  {
   "resource": 1203,
@@ -5811,13 +5811,13 @@
   "resource": 1203,
   "msg_index": 1011,
   "japanese": "女放イ今回は６名層まで行ったけど、アウローラの良はどこにも辺かったゴ男帰cイ力がかりは辺しですかゴ女放イええ、だけど！！[0141]になることが一つだけゴ男帰cイ何ですか？お聞かせくださいゴ女放イ２名層の奥に行った時、知与な[0141][03CF]を感じたの！！ゴ",
-  "english": "Woman: Went to / floor 6, no sign / of Aurora. / Soldier C: No / leads? / Woman: Deep in / floor 2, I felt / a strange presence!"
+  "english": "Went to / floor 6, no sign / of Aurora. / Soldier C: No / leads? / Woman: Deep in / floor 2, I felt / a strange presence!"
  },
  {
   "resource": 1203,
   "msg_index": 1012,
   "japanese": "男帰dイアウローラでは？ゴ女放イ違うと思う。者嫌のものよりもあれはもっと！[0159]向だった！。うまく向全できなくて向いけどゴ男帰dイいえ、[0463]色です。アオイさんがおっしゃるなら、嫌違いないでしょうゴ男帰cイ話ぎ、２名層に道登隊を大[045F]することにしますゴ",
-  "english": "Soldier D: Aurora? / Woman: No, more / ancient than that. / Soldier D: If you / say so, Aoi. / Soldier C: We'll / send scouts."
+  "english": "Aurora? / Woman: No, more / ancient than that. / Soldier D: If you / say so, Aoi. / Soldier C: We'll / send scouts."
  },
  {
   "resource": 1203,
@@ -5829,7 +5829,7 @@
   "resource": 1203,
   "msg_index": 1014,
   "japanese": "アオイあなたも迷宮に御るつもりなの？",
-  "english": "Aoi: You plan / to enter the / labyrinth too?"
+  "english": "You plan / to enter the / labyrinth too?"
  },
  {
   "resource": 1203,
@@ -5871,19 +5871,19 @@
   "resource": 1203,
   "msg_index": 1021,
   "japanese": "男帰cイでは、近所まで[0362][0455]長しますゴアオイイ今地も見[0402]りつきってわけね。これじゃ迷宮のほうがどれほど[0141]武かしらゴ男帰dイ！！申しわけありませんゴ",
-  "english": "Soldier C: I'll / escort you. / Aoi: Guards again? / The labyrinth / feels safer. / Soldier D: Sorry!"
+  "english": "I'll / escort you. / Aoi: Guards again? / The labyrinth / feels safer. / Soldier D: Sorry!"
  },
  {
   "resource": 1203,
   "msg_index": 1022,
   "japanese": "アオイイ余の[046E]は、一度でいいから過にも[0159]魔されないところでゆっくりと[0464]ることゴ男帰cイ彼神は、ドアの義で待っているだけですからゴ男帰dイ携してお[045D]みの[0159]魔はしないつもりですゴ",
-  "english": "Aoi: My wish is / to sleep without / being disturbed. / Soldier C: We'll / just wait by the / door. / Soldier D: We / won't disturb you!"
+  "english": "My wish is / to sleep without / being disturbed. / Soldier C: We'll / just wait by the / door. / Soldier D: We / won't disturb you!"
  },
  {
   "resource": 1203,
   "msg_index": 1023,
   "japanese": "アオイイわかっているわ。同少よ。！もう[0459]れたからゴ",
-  "english": "Aoi: I know. / Fine. I'm tired / already."
+  "english": "I know. / Fine. I'm tired / already."
  },
  {
   "resource": 1203,
@@ -5919,7 +5919,7 @@
   "resource": 1203,
   "msg_index": 1029,
   "japanese": "インゴおう、またアンタかい やっぱり宝[03CE]の事を知りたくなったんだろ？",
-  "english": "Ingo: Oh, it's / you again! Come / to ask about / treasure chests?"
+  "english": "Oh, it's / you again! Come / to ask about / treasure chests?"
  },
  {
   "resource": 1203,
@@ -5943,19 +5943,19 @@
   "resource": 1203,
   "msg_index": 1033,
   "japanese": "インゴ宝[03CE]のことを聞きますか？は いいいえ",
-  "english": "Ingo: Ask about / treasure chests? / Yes / No"
+  "english": "Ask about / treasure chests? / Yes / No"
  },
  {
   "resource": 1203,
   "msg_index": 1034,
   "japanese": "騎騎者おっ、なんだい、新[03CA]さんかい？俺はインゴってんだ、よろしくな。",
-  "english": "Adventurer: Oh, / a newcomer? I'm / Ingo. Nice to / meet ya."
+  "english": "Oh, / a newcomer? I'm / Ingo. Nice to / meet ya."
  },
  {
   "resource": 1203,
   "msg_index": 1035,
   "japanese": "インゴ迷宮の宝[03CE]のことを聞きたくてしょうがないのかい？",
-  "english": "Ingo: Dying to / know about / treasure chests?"
+  "english": "Dying to / know about / treasure chests?"
  },
  {
   "resource": 1203,
@@ -6099,7 +6099,7 @@
   "resource": 1203,
   "msg_index": 1061,
   "japanese": "その１、宝[03CE]は３依増武器する。１つは報もトラップも辺いお所ちゃま向けの宝[03CE]。",
-  "english": "Tip 1: There are / 3 types of chest. / First: safe ones / with no traps."
+  "english": "There are / 3 types of chest. / First: safe ones / with no traps."
  },
  {
   "resource": 1203,
@@ -6189,7 +6189,7 @@
   "resource": 1203,
   "msg_index": 1076,
   "japanese": "インゴおう、またアンタかい やっぱりトラップの事を知りたくなったんだろ？",
-  "english": "Ingo: Oh, you / again! Wanna / learn about traps?"
+  "english": "Oh, you / again! Wanna / learn about traps?"
  },
  {
   "resource": 1203,
@@ -6213,7 +6213,7 @@
   "resource": 1203,
   "msg_index": 1080,
   "japanese": "インゴトラップについて聞きますか？は いいいえ",
-  "english": "Ingo: Ask about / traps? / Yes / No"
+  "english": "Ask about / traps? / Yes / No"
  },
  {
   "resource": 1203,
@@ -6297,19 +6297,19 @@
   "resource": 1203,
   "msg_index": 1095,
   "japanese": " 男帰イどこに行かれるんです？ゴインゴイ編わりだよ編わり     ノルマ達封ってとこだゴ 男帰イそ、そんな、仰力に行かれたら    隊長に[0462]られますゴインゴイうっせえ     もう[0180]者にも役えたんだから、    [0463]色だろうがゴ 男帰イ隊長からの[01BA]孤では、    騎騎者奉[018A]に[02E0]決の知識を    役えると聞いていますゴ",
-  "english": "Soldier: Where to? / Ingo: I'm done! / Quota met! / Soldier: But the / captain said... / Ingo: Tell / Belgrano I went / to find Aurora!"
+  "english": "Where to? / Ingo: I'm done! / Quota met! / Soldier: But the / commander said... / Ingo: Tell / Belgrano I went / to find Aurora!"
  },
  {
   "resource": 1203,
   "msg_index": 1096,
   "japanese": "インゴイだから、そもそもなんで、    この俺[01BC]がお所ちゃま得めて、    カルチャースクールをしなきゃ    ならねえんだよ ゴ 男帰イそんなこと余に言われても    崩るんですがゴインゴイはぁ～、法王の中闘判も    [02E0]んだことある俺[01BC]がだぜ！。    ベルグラーノに会ったら    言っておけ ゴ",
-  "english": "Ingo: Why do I / have to babysit / newbies?! / Soldier: That's not / my problem... / Ingo: I've even / read the Pope's / judgment! Tell / Belgrano!"
+  "english": "Why do I / have to babysit / newbies?! / Soldier: That's not / my problem... / Ingo: I've even / read the Pope's / judgment! Tell / Belgrano!"
  },
  {
   "resource": 1203,
   "msg_index": 1097,
   "japanese": "インゴイお品りになったインゴさんは、    くだらねえ一事をやめて、    アウローラを素しに    戻りましたと ゴ",
-  "english": "Ingo: Tell them / Ingo's done with / this nonsense and / went to find / Aurora!"
+  "english": "Tell them / Ingo's done with / this nonsense and / went to find / Aurora!"
  },
  {
   "resource": 1203,
@@ -6363,7 +6363,7 @@
   "resource": 1203,
   "msg_index": 1108,
   "japanese": " 男帰イどこに行かれるんです？ゴインゴイバッカヤロ～     編わりだ編わり ゴ 男帰イそ、そんな、仰力に行かれたら    隊長に[0462]られますゴインゴイうっせえ     ベルグラーノに会ったら    言っておけ ゴインゴイお品りになったインゴさんは、    くだらねえ一事をやめて、    アウローラを素しに    戻りましたと ゴ",
-  "english": "Soldier: Where to? / Ingo: I'm outta / here! / Soldier: Captain / will be mad... / Ingo: Tell / Belgrano! I quit!"
+  "english": "Where to? / Ingo: I'm outta / here! / Soldier: Commander / will be mad... / Ingo: Tell / Belgrano! I quit!"
  },
  {
   "resource": 1203,
@@ -6387,19 +6387,19 @@
   "resource": 1203,
   "msg_index": 1112,
   "japanese": "[01E3]帰前汝[0368]しました 王息[01E3]帰前、第７支隊、サミュエル[001D]エバーソンであります。",
-  "english": "Guard: Reporting! / Royal Guard, 7th / Division, Samuel / Everson."
+  "english": "Reporting! / Royal Guard, 7th / Division, Samuel / Everson."
  },
  {
   "resource": 1203,
   "msg_index": 1113,
   "japanese": "サミュエル役地の本事役練はいかなる長[0199]をお強みでしょうか ",
-  "english": "Samuel: What / sort of combat / training does / your party do?"
+  "english": "What / sort of combat / training does / your party do?"
  },
  {
   "resource": 1203,
   "msg_index": 1114,
   "japanese": "サミュエル役地の本事役練はいかなる長[0199]をお強みでしょうか ",
-  "english": "Samuel: What / sort of combat / training does / your party do?"
+  "english": "What / sort of combat / training does / your party do?"
  },
  {
   "resource": 1203,
@@ -6693,7 +6693,7 @@
   "resource": 1203,
   "msg_index": 1163,
   "japanese": "[01E3]帰前しばらくの嫌、ここは待ち入り代限とします。どうかご[04A9]主を。",
-  "english": "Guard: This area / is restricted / for now. Please / understand."
+  "english": "This area / is restricted / for now. Please / understand."
  },
  {
   "resource": 1203,
@@ -6729,7 +6729,7 @@
   "resource": 1203,
   "msg_index": 1169,
   "japanese": "[0327]ついた女戦帰上[03D6]隊が！魔物の[04A8]れに！！[042E]われているのです！。",
-  "english": "Wounded fighter: / The rescue squad / is under attack / by monsters!"
+  "english": "The rescue squad / is under attack / by monsters!"
  },
  {
   "resource": 1203,
@@ -7023,7 +7023,7 @@
   "resource": 1203,
   "msg_index": 1220,
   "japanese": "男帰イ隊長、ここです ゴ隊長イレジーナ達は辺事なのかゴ男帰イわかりませんゴ",
-  "english": "Soldier: Captain! / Here! / Captain: Is / Regina safe? / Soldier: Unknown."
+  "english": "Captain! / Here! / Captain: Is / Regina safe? / Soldier: Unknown."
  },
  {
   "resource": 1203,
@@ -7083,7 +7083,7 @@
   "resource": 1203,
   "msg_index": 1230,
   "japanese": "ベルグラーノここで何があったか向全してくれないか？",
-  "english": "Belgrano: Tell / me what happened / here."
+  "english": "Tell / me what happened / here."
  },
  {
   "resource": 1203,
@@ -7209,7 +7209,7 @@
   "resource": 1203,
   "msg_index": 1251,
   "japanese": "[01E3]帰前それと盗へ戻るならこれをどうぞ。",
-  "english": "Guard: And if / you're heading / back, take this."
+  "english": "And if / you're heading / back, take this."
  },
  {
   "resource": 1203,
@@ -7269,7 +7269,7 @@
   "resource": 1203,
   "msg_index": 1261,
   "japanese": "シムゾンうう！お両も早く素すんだよ！。[01C9]息のをが消えちまうんだ！。",
-  "english": "Simzon: Run! The / scent of death / is fading! We / must hurry!"
+  "english": "Run! The / scent of death / is fading! We / must hurry!"
  },
  {
   "resource": 1203,
@@ -7413,7 +7413,7 @@
   "resource": 1203,
   "msg_index": 1285,
   "japanese": "戦帰お宮、素しましたぜ、こんなところにいらしたんですか？",
-  "english": "Fighter: Sir, / I found you. / What are you / doing here?"
+  "english": "Sir, / I found you. / What are you / doing here?"
  },
  {
   "resource": 1203,
@@ -7491,7 +7491,7 @@
   "resource": 1203,
   "msg_index": 1298,
   "japanese": "リュートエミーリアオーク！！い、い、いた～い。",
-  "english": "Lute & Emilia: / Oww, that hurt!"
+  "english": "Oww, that hurt!"
  },
  {
   "resource": 1203,
@@ -7647,7 +7647,7 @@
   "resource": 1203,
   "msg_index": 1324,
   "japanese": "一信言っておきますけど、リュートとエミーリアです ",
-  "english": "Just so you know: / Lute and Emilia!"
+  "english": "Lute and Emilia!"
  },
  {
   "resource": 1203,
@@ -7707,7 +7707,7 @@
   "resource": 1203,
   "msg_index": 1334,
   "japanese": "ベルグラーノよく得まってくれた。",
-  "english": "Belgrano: Thank / you for coming."
+  "english": "Thank / you for coming."
  },
  {
   "resource": 1203,
@@ -7833,7 +7833,7 @@
   "resource": 1203,
   "msg_index": 1355,
   "japanese": "ドワーフの戦帰このあたりで、跡いフードをかぶった[01C5][0141]町向い与を見なかったか？",
-  "english": "Dwarf: Have you / seen a suspicious / hooded figure / around here?"
+  "english": "Have you / seen a suspicious / hooded figure / around here?"
  },
  {
   "resource": 1203,
@@ -7983,7 +7983,7 @@
   "resource": 1203,
   "msg_index": 1380,
   "japanese": "騎騎者汝はおかしいと思わないか？",
-  "english": "Adventurer: / Don't you find / this strange?"
+  "english": "Don't you find / this strange?"
  },
  {
   "resource": 1203,
@@ -8049,7 +8049,7 @@
   "resource": 1203,
   "msg_index": 1391,
   "japanese": "目しておきたまえ、転らは、彼神に何かを紹している。",
-  "english": "Mark my words: / they are hiding / something."
+  "english": "they are hiding / something."
  },
  {
   "resource": 1203,
@@ -8073,7 +8073,7 @@
   "resource": 1203,
   "msg_index": 1395,
   "japanese": "騎騎者どうして転らは紹す？",
-  "english": "Adventurer: / Why do they / hide things?"
+  "english": "Why do they / hide things?"
  },
  {
   "resource": 1203,
@@ -8283,7 +8283,7 @@
   "resource": 1203,
   "msg_index": 1430,
   "japanese": "騎騎者いったい何のつもりか知らんが、この街所の中は、アンデッドの[057E]ときている。",
-  "english": "Adventurer: I / don't know what's / going on in / there, but it / reeks of undead."
+  "english": "I / don't know what's / going on in / there, but it / reeks of undead."
  },
  {
   "resource": 1203,
@@ -8343,7 +8343,7 @@
   "resource": 1203,
   "msg_index": 1440,
   "japanese": "イみんな、きばるだー ゴ",
-  "english": "Orc: Let's do / this, everyone!"
+  "english": "Let's do / this, everyone!"
  },
  {
   "resource": 1203,
@@ -8433,7 +8433,7 @@
   "resource": 1203,
   "msg_index": 1455,
   "japanese": "ベルグラーノウェブスターなぜ汝は、あのような支中をカルマンの迷宮に入れるのだ ",
-  "english": "Belgrano: Why / did you let such / people into / the labyrinth?!"
+  "english": "Why / did you let such / people into / the labyrinth?!"
  },
  {
   "resource": 1203,
@@ -8637,7 +8637,7 @@
   "resource": 1203,
   "msg_index": 1490,
   "japanese": "イーリスヴァレー乙[05BD]の集を[067B]出したあと、あれから汝を素したのだが、",
-  "english": "Iris: After the / Vallee district / incident, I / searched for you."
+  "english": "After the / Vallee district / incident, I / searched for you."
  },
  {
   "resource": 1203,
@@ -8973,7 +8973,7 @@
   "resource": 1203,
   "msg_index": 1547,
   "japanese": "レプラコーンコロス、ぜ～ったいコロス ",
-  "english": "Leprechaun: / Kill! I'll / definitely / kill you!"
+  "english": "Kill! I'll / definitely / kill you!"
  },
  {
   "resource": 1203,
@@ -9387,7 +9387,7 @@
   "resource": 1203,
   "msg_index": 1617,
   "japanese": "クンナルちょうど名成を外り編えると、クンナルが装ろからやってきた。",
-  "english": "Kunnal: Just as / you turned the / corner, Kunnal / came up from / behind."
+  "english": "Just as / you turned the / corner, Kunnal / came up from / behind."
  },
  {
   "resource": 1203,

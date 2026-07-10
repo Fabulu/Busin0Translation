@@ -1,0 +1,1491 @@
+============================================================
+  BUILD FULL ENGLISH PATCH  v2  (fixed pipeline)
+============================================================
+
+STEP 1: Loading translation chunks ...
+  data/translate_chunks/chunk_00_translated.json: 113 entries
+  data/translate_chunks/chunk_01_translated.json: 113 entries
+  data/translate_chunks/chunk_02_translated.json: 113 entries
+  data/translate_chunks/chunk_03_translated.json: 113 entries
+  data/translate_chunks/chunk_04_translated.json: 113 entries
+  data/translate_chunks/chunk_05_translated.json: 113 entries
+  data/translate_chunks/chunk_06_translated.json: 113 entries
+  data/translate_chunks/chunk_07_translated.json: 113 entries
+  data/translate_chunks/chunk_08_translated.json: 113 entries
+  data/translate_chunks/chunk_09_translated.json: 101 entries
+  data/translate_chunks/chunk_r38_fix.json: 12 entries (OVERRIDE)
+  data/translate_chunks/chunk_r43_fix.json: 26 entries (OVERRIDE)
+  data/translate_chunks/chunk_r37_extra.json: 111 entries (OVERRIDE)
+  data/translate_chunks/chunk_r36_translated.json: 158 entries (OVERRIDE)
+  data/translate_chunks/chunk_r37_r48_r49_translated.json: 231 entries (OVERRIDE)
+  data/translate_chunks/chunk_r40_r42_translated.json: 85 entries (OVERRIDE)
+  data/translate_chunks/chunk_r43_r45_translated.json: 264 entries (OVERRIDE)
+  data/translate_chunks/chunk_r34_fix.json: 564 entries (OVERRIDE)
+  Total raw entries: 2569
+  Unique (resource, message) pairs: 1821
+
+STEP 2: Cleaning and encoding translations ...
+  Encoded 1813 messages for 17 resources
+  Skipped 1 identity translations, 0 errors
+
+STEP 3: Injecting font atlas ...
+  Font atlas -> 1272_type01.raw (67584 bytes, 33 sectors)
+
+STEP 3b: R1188 atlas patchers DISABLED (BUG-3: live dialogue font)
+
+STEP 4: Injecting translations into MSG resources ...
+  R0034: SKIPPED -- multi-sub header, handled in Step 2
+  R0035 (0035_type02.raw): replaced 19/64 groups, 2->3 sectors, payload 524->664, offset_table=rebuilt (orig=25, new=25), extra_data=3556
+  R0036 (0036_type01.raw): replaced 156/159 groups, 2->3 sectors, payload 3390->4360, offset_table=rebuilt (orig=158, new=158), extra_data=690
+  R0037 (0037_type01.raw): replaced 125/127 groups, 2->2 sectors, payload 2908->2848, offset_table=rebuilt (orig=126, new=126), extra_data=1172
+  R0038 (0038_type01.raw): replaced 186/189 groups, 4->5 sectors, payload 7512->8152, offset_table=rebuilt (orig=188, new=188), extra_data=664
+  R0039 (0039_type15.raw): replaced 84/657 groups, 13->13 sectors, payload 2462->2412, offset_table=rebuilt (orig=97, new=91) *** COUNT CHANGED ***, extra_data=24146
+  R0040 (0040_type01.raw): replaced 55/58 groups, 2->3 sectors, payload 2034->2994, offset_table=rebuilt (orig=57, new=57), extra_data=2046
+  R0041 (0041_type01.raw): replaced 17/19 groups, 1->2 sectors, payload 1000->1436, offset_table=rebuilt (orig=18, new=18), extra_data=1032
+  R0042 (0042_type01.raw): replaced 13/15 groups, 1->2 sectors, payload 614->884, offset_table=rebuilt (orig=14, new=14), extra_data=1418
+  R0043 (0043_type01.raw): replaced 36/40 groups, 1->2 sectors, payload 1416->1840, offset_table=rebuilt (orig=39, new=39), extra_data=616
+  R0044 (0044_type01.raw): replaced 57/59 groups, 2->3 sectors, payload 2306->3032, offset_table=rebuilt (orig=58, new=58), extra_data=1774
+  R0045 (0045_type01.raw): replaced 192/198 groups, 4->6 sectors, payload 6950->9338, offset_table=rebuilt (orig=197, new=197), extra_data=1226
+  R0046: SKIPPED -- multi-sub header, handled in Step 2
+  R0047: SKIPPED -- multi-sub header, handled in Step 2
+  R0048 (0048_type01.raw): replaced 107/108 groups, 2->3 sectors, payload 2186->3874, offset_table=rebuilt (orig=107, new=107), extra_data=1894
+  R0049 (0049_type01.raw): replaced 111/112 groups, 2->4 sectors, payload 3458->6116, offset_table=rebuilt (orig=111, new=111), extra_data=622
+  R2654 (2654_type44.raw): replaced 32/2278 groups, 90->90 sectors, payload 5666->4510, offset_table=rebuilt (orig=38, new=34) *** COUNT CHANGED ***, extra_data=178690, extra_replaced=1
+  Modified 14 resources
+
+  R37: In-place patching ALL 125 groups (EXE Patch 9 prevents F/M pollution)...
+  R37 group 2: relocated to 0x0B6C (offset 0x0B5C, 30 bytes data)
+  R37 group 3: relocated to 0x0B8C (offset 0x0B7C, 30 bytes data)
+  R37 group 4: relocated to 0x0BAC (offset 0x0B9C, 36 bytes data)
+  R37 group 5: relocated to 0x0BD2 (offset 0x0BC2, 32 bytes data)
+  R37 group 6: relocated to 0x0BF4 (offset 0x0BE4, 44 bytes data)
+  R37 group 11: relocated to 0x0C22 (offset 0x0C12, 10 bytes data)
+  R37 group 12: relocated to 0x0C2E (offset 0x0C1E, 10 bytes data)
+  R37 group 13: relocated to 0x0C3A (offset 0x0C2A, 8 bytes data)
+  R37 group 14: relocated to 0x0C44 (offset 0x0C34, 8 bytes data)
+  R37 group 15: relocated to 0x0C4E (offset 0x0C3E, 10 bytes data)
+  R37 in-place patch: 125/125 messages, 4096 bytes
+  R37 relocated 10 overflowing instruction groups to free space
+  Keyboard groups preserved at original byte offsets
+  Remapped uppercase A-Z (33-58 -> 121-146) in 102 name groups
+
+STEP 5: Rebuilding PACKDATA.DIG ...
+  Size: 840,273,920 bytes  (orig: 839,661,568, diff: +612,352)
+  WARNING: new PACKDATA.DIG is 612,352 bytes LARGER than original!
+  This will NOT fit in the original ISO extent. Truncating is NOT safe.
+  The ISO build step will proceed but the result may be corrupt.
+
+STEP 6: standalone ISO build SKIPPED (set BUILD_STANDALONE_ISO=1 to force;
+        build/BUSIN0_EN.iso is NOT relocation-safe and must never ship)
+
+============================================================
+  BUILD COMPLETE (packdata resources + PACKDATA.DIG only)
+  1813 messages encoded across 17 resources
+  14 resource files modified
+  PACKDATA.DIG: build/PACKDATA.DIG
+============================================================
+R39 original: 26624 bytes
+Parsed 97 FFFF-delimited messages in glyph stream
+Loaded 84 R39 translations
+Loaded 7 additional R39 sysmsg translations from data/translate_chunks/chunk_r39_sysmsgs_fix.json
+  WARNING: msg[6] truncated -> 4 slots (cap 4, trailing-LB kept=False) ('Discard')
+  WARNING: msg[33] truncated -> 8 slots (cap 8, trailing-LB kept=False) ('Synthesize?')
+Replaced 91 messages (2 truncated)
+Sanity checks passed: OT and sequential sections are untouched
+Stray-slash assert passed: no translated R39 group ends in a literal slash glyph.
+Written 26624 bytes to build/packdata_resources/0039_type15.raw
+R39 loaded: 26624 bytes (base 26624)
+Parsed 559 FFFF-delimited records in extra data
+
+Replaced 158 records (0 truncated, 0 skipped)
+Sanity checks passed: 558 FFFFx, 763 FFFEx preserved
+Written 26624 bytes to build/packdata_resources/0039_type15.raw
+R39 inline patch complete
+R39 from previous step: 26624 bytes (from build/packdata_resources/0039_type15.raw)
+Loaded 232 translations from batch_r39_equip_b.json
+Loaded 61 aligned quest description/client translations
+Total FFFF groups in stream: 655
+Structure assertions passed.
+G346: 34 non-zero offset entries
+G381: 29 non-zero offset entries
+G411: 30 non-zero offset entries
+G442: 34 non-zero offset entries
+Translated: 124 groups, kept original: 2 groups
+Client-name cell-cap assert PASSED (all G383-G410 non-event names <= 8 cells).
+Old end: 26624 bytes, New end: 28106 bytes (delta: +1482)
+G346 base: old=14512, new=14512 (delta=+0)
+G346: 32 offset values updated
+G381 base: old=19856, new=21148 (delta=+1292)
+G381: 27 offset values updated
+G411 base: old=20432, new=21902 (delta=+1470)
+G411: 28 offset values updated
+G442 base: old=21056, new=22972 (delta=+1916)
+G442: 32 offset values updated
+  section rec[6]: off 14512->14512, size 5330->6622
+  section rec[7]: off 19856->21148, size 564->742
+  section rec[8]: off 20432->21902, size 620->1066
+  section rec[9]: off 21056->22972, size 912->990
+  section rec[10]: off 21968->23962, size 1178->1178
+  section rec[11]: off 23152->25146, size 336->336
+  section rec[12]: off 23488->25482, size 232->232
+  section rec[13]: off 23728->25722, size 1916->1916
+  section rec[14]: off 25648->27642, size 426->464
+Remapped 9 top-level section-table records (grow-shifted).
+
+Output: 28672 bytes (14 sectors)
+  NOTE: Grew from 13 to 14 sectors -- rebuild_packdata.py recomputes the TOC.
+Written to build/packdata_resources/0039_type15.raw
+
+=== Verification: quest label groups ===
+Re-scanned groups: 655
+
+=== P5 self-check: offset-table slots resolve to group starts ===
+  G346: 34 content slots verified at group start (base=14512, firstNZ_idx=4)
+  G381: 29 content slots verified at group start (base=21148, firstNZ_idx=7)
+  G411: 30 content slots verified at group start (base=21902, firstNZ_idx=6)
+  G442: 34 content slots verified at group start (base=22972, firstNZ_idx=2)
+P5 self-check PASSED: all four offset tables resolve to group starts.
+
+  G348: 'I'd gladly entrust[LB]you with spreading[LB]the Church of[LB]Salem's healing[LB]power across the[LB]world.[LB]' | expected: 'I'd gladly entrust you with spreading the Church of Salem's healing power across the world.'
+  G353: 'The city of Duhan's[LB]Adventurer's Grant:[LB]bring 5 companions[LB]to the tavern and[LB]receive a 500G[LB]award.[LB]' | expected: 'The city of Duhan's Adventurer's Grant: bring 5 companions to the tavern and receive a 500G award.'
+  G380: 'A room on B10F holds[LB]a great crystal.[LB]Reaching it sends me[LB]back to my own time.[LB]Please take me[LB]there.[LB]' | expected: 'A room on B10F holds a great crystal. Reaching it sends me back to my own time. Please take me there.'
+  G383: 'Fuke[LB]' | expected: 'Fuke'
+  G388: 'Mayor[LB]' | expected: 'Mayor'
+  G410: 'A shadow targets[LB]Janken Man![LB]' | expected: 'A shadow targets Janken Man!'
+  G413: 'Accept this request?[LB]' | expected: 'Accept this request?'
+  G414: 'Abandon this request?[LB]' | expected: 'Abandon this request?'
+  G415: 'Abandoning a request will[LB]lower your trust rating.[LB]Are you sure?[LB]' | expected: 'Abandoning a request will / lower your trust rating. / Are you sure?'
+  G416: 'Yes[LB]' | expected: 'Yes'
+  G417: 'No[LB]' | expected: 'No'
+  G418: 'Client[LB]' | expected: 'Client'
+  G419: 'Reward[LB]' | expected: 'Reward'
+  G420: 'Deadline[LB]' | expected: 'Deadline'
+  G421: 'From Acceptance[LB]' | expected: 'From Acceptance'
+  G422: 'Day(s)[LB]' | expected: 'Day(s)'
+  G424: 'None[LB]' | expected: 'None'
+  G425: 'G[LB]' | expected: 'G'
+  G426: 'Request Failed[LB]' | expected: 'Request Failed'
+  G427: 'Request Abandoned[LB]' | expected: 'Request Abandoned'
+  G428: 'Request Completed[LB]' | expected: 'Request Completed'
+  G429: 'Request from Citizens[LB]' | expected: 'Request from Citizens'
+  G430: 'Request from Adventurers[LB]' | expected: 'Request from Adventurers'
+  G431: 'Request from Dark Street[LB]' | expected: 'Request from Dark Street'
+  G432: 'Order[LB]' | expected: 'Order'
+  G433: 'Request[LB]' | expected: 'Request'
+  G436: 'Remaining[LB]' | expected: 'Remaining'
+  G437: 'Deadline Passed[LB]' | expected: 'Deadline Passed'
+  G438: 'In Progress[LB]' | expected: 'In Progress'
+  G441: 'Completed[LB]' | expected: 'Completed'
+  G444: 'Salem Work[LB]' | expected: 'Salem Work'
+  G445: 'Recruiting[LB]' | expected: 'Recruiting'
+  G446: 'Come to B5F[LB]' | expected: 'Come to B5F'
+  G449: 'Adv Support[LB]' | expected: 'Adv Support'
+  G450: 'Mind Pippi[LB]' | expected: 'Mind Pippi'
+  G456: 'Help Me![LB]' | expected: 'Help Me!'
+  G460: 'Trap Contest[LB]' | expected: 'Trap Contest'
+  G476: 'Crystal Room[LB]' | expected: 'Crystal Room'
+
+Done.
+R39 spell-desc: 28672 bytes in, 56 english descriptions
+offset-table format OK: 1 header(count=57) + 57 block-relative start offsets, (value,0x0000) pair-stride
+re-encoded 56 english spell descriptions
+block2: 2148 -> 4038 bytes (delta +1890)
+PRISTINE-DIFF GATE PASSED: all bytes outside block 2 unchanged; header recs 3..14 shifted by delta with sizes preserved.
+Written 30720 bytes (15 sectors) to build/packdata_resources/0039_type15.raw
+  56 records changed cell length (56 grew); block2 offset table + header recompute absorbs the size change.
+R39 AA: 30720 bytes in; 39 names, 37 descriptions, 45 requirements, 7 ui messages, 22 sp msgs, 21 traits, 13 clients, 21 troop labels, 8 rank msgs
+re-encoded: 39 names, 37 descriptions, 45 requirements, 7 ui messages, 22 sp msgs, 21 traits, 13 clients, 21 troop labels, 8 rank msgs
+PRISTINE-DIFF GATE PASSED: blk3 822->1184, blk4 7572->8044, blk5 280->346, blk10 1178->1842, blk11 336->666, blk12 232->334, blk13 1916->2028, blk14 464->688 bytes; total delta +2332; all other bytes verbatim, untouched header sizes preserved.
+Written 32768 bytes (16 sectors, content 32328) to build/packdata_resources/0039_type15.raw
+==================================================
+  R46/R47 Type-03 Text Injection
+==================================================
+
+Guard: checking pristine R47 friendly-choice signature...
+  R47 friendly-choice signature OK (title/Fight/Leave at g2,4,5; Dispel/Steal at g19,20)
+
+Validating translations...
+All translations fit!
+R46 sub0: 97 + 0 dups
+R46 sub2: 96 + 0 dups
+R47 sub0: 71 + 0 dups
+
+R46: 22528 bytes
+  Sub0: 97 replaced (0 truncated)
+  Sub1: 41 replaced (0 truncated)
+  Sub2: 96 replaced (0 truncated)
+  Sub0 FFFF: 99==99 OK
+  Sub1 FFFF: 44==44 OK
+  Sub2 FFFF: 99==99 OK
+  Written 22528 bytes -> build/packdata_resources/0046_type03.raw
+
+R47: 4096 bytes
+  Sub0: 71 replaced (0 truncated)
+  Sub1: 23 replaced (0 truncated)
+  Sub2: 25 replaced (0 truncated)
+  Sub0 FFFF: 75==75 OK
+  Sub1 FFFF: 26==26 OK
+  Sub2 FFFF: 28==28 OK
+  Written 4096 bytes -> build/packdata_resources/0047_type03.raw
+
+Total: R46=234 (0 trunc), R47=119 (0 trunc)
+Done!
+C:\Programmieren\wizardrytranslation\tools\patch_r2100.py:219: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels = list(img.getdata())
+=== R2100 Stat Label Patcher ===
+
+Reading R2100 from C:\Programmieren\wizardrytranslation\extracted\PACKDATA.DIG...
+  TOC: sector_offset=0x11, sector_count=68, type=4
+  Byte offset: 34816, size: 139264
+
+  Descriptor table:
+    Sub 0: size=0x8740, offset=0x40
+    Sub 1: size=0x8740, offset=0x8780
+    Sub 2: size=0x8740, offset=0x10EC0
+    Sub 3: size=0x8740, offset=0x19600
+  Using font: C:/Windows/Fonts/arialbd.ttf size 9
+
+  Sub-block 0: 0 stat patches, 0 gender patches
+    Duplicated 26 uppercase cells (33-58 -> 121-146)
+    Preview: C:\Programmieren\wizardrytranslation\build\r2100_sub0_patched.png
+
+  Sub-block 1: 4 stat patches, 0 gender patches
+    Patch (5,10): render 'Str'
+    Patch (3,4): render 'Pie'
+    Patch (6,2): blank
+    Patch (4,0): blank
+    Preview: C:\Programmieren\wizardrytranslation\build\r2100_sub1_patched.png
+
+  Sub-block 2: 9 stat patches, 2 gender patches
+    Patch (1,7): render 'Int'
+    Patch (12,13): blank
+    Patch (4,6): render 'Agi'
+    Patch (12,15): blank
+    Patch (4,14): blank
+    Patch (12,14): render 'Vit'
+    Patch (11,8): blank
+    Patch (13,0): render 'Lck'
+    Patch (13,1): blank
+    Patch (10,0): render '♂' (male)
+    Patch (10,1): render '♀' (female)
+    Preview: C:\Programmieren\wizardrytranslation\build\r2100_sub2_patched.png
+
+  Total patches applied: 15
+
+  Output: C:\Programmieren\wizardrytranslation\build\packdata_resources\2100_type04.raw (139264 bytes)
+DONE!
+C:\Programmieren\wizardrytranslation\tools\patch_r2138.py:379: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels = list(img.getdata())
+============================================================
+  R2138 Unified Patcher — All Sub-Resources
+============================================================
+
+Reading R2138 from C:\Programmieren\wizardrytranslation\extracted\packdata_raw\2138_type29.raw...
+  Size: 1542144 bytes (OK)
+
+--- sub0_town_menu (sub 0) ---
+  Pixel data: 32768 bytes at 0x6D0
+  Texture: 256x256, bw=256, dbw=128
+  Palette: bg=0, ink=15
+  Round-trip: PASS
+  [29,2 70x20] 'Go Outside'
+  [16,25 99x21] 'Registry'
+  [9,49 111x21] 'Guild'
+  Labels patched: 3
+  Preview: C:\Programmieren\wizardrytranslation\build\r2138_sub0_town_menu_preview.png
+  Patched round-trip: PASS
+
+--- sub4_classchange_header (sub 4) ---
+  Pixel data: 65536 bytes at 0x4BD90
+  Texture: 512x256, bw=512, dbw=256
+  Palette: bg=0, ink=15
+  Round-trip: PASS
+  [186,176 63x18] 'Class Reqs'
+  Labels patched: 1
+  Change-box guard: PASS (all edits within (186, 176, 248, 194))
+  Preview: C:\Programmieren\wizardrytranslation\build\r2138_sub4_classchange_header_preview.png
+  Patched round-trip: PASS
+
+--- sub6_guild_roster (sub 6) ---
+  Pixel data: 32768 bytes at 0x6D110
+  Texture: 256x256, bw=256, dbw=128
+  Palette: bg=0, ink=15
+  Round-trip: PASS
+  [7,1 108x22] 'Adv. Roster' (cleared 23px)
+  [7,24 108x23] 'Change Class' (cleared 25px)
+  [7,49 108x22] 'Join Party' (cleared 25px)
+  [7,74 109x21] 'Leave Party'
+  [16,96 86x24] 'Delete' (cleared 49px)
+  [18,121 86x22] 'Swap Roster'
+  [16,145 88x23] 'New Character'
+  [28,170 63x21] 'Rename'
+  [27,193 66x22] 'Purchase'
+  [129,76 84x17] '[] Swap'
+  [128,100 85x17] '/\ Info'
+  [130,144 126x19] '<Join Party>' (cleared 22px)
+  [130,166 101x17] '<Leave Party>'
+  [139,185 83x18] '<Delete>' (cleared 20px)
+  [139,205 83x18] '<Swap>'
+  Labels patched: 15
+  Preview: C:\Programmieren\wizardrytranslation\build\r2138_sub6_guild_roster_preview.png
+  Patched round-trip: PASS
+
+--- sub7_chargen_stats (sub 7) ---
+  Pixel data: 32768 bytes at 0x755D0
+  Texture: 256x256, bw=256, dbw=128
+  Palette: bg=15, ink=0
+  Round-trip: PASS
+  Cleared [0,100 96x12]
+  Cleared [96,80 40x20]
+  Cleared [110,0 26x100]
+  Cleared [86,78 66x22]
+  [192,80 64x16] 'Str' (cleared 20px)
+  [192,100 64x16] 'Int' (cleared 20px)
+  [192,120 64x16] 'Pie' (cleared 20px)
+  [192,140 64x16] 'Vit' (cleared 20px)
+  [192,160 64x16] 'Agi' (cleared 20px)
+  [192,180 64x16] 'Lck' (cleared 20px)
+  [192,200 48x16] 'Atk'
+  [194,221 45x15] 'Eva' (cleared 20px)
+  [194,241 45x15] 'Def'
+  [0,0 96x20] 'Basic Info'
+  [0,20 96x20] 'Details'
+  [0,40 96x20] 'Item'
+  [0,60 96x20] 'Mage Magic'
+  [0,80 96x20] 'Prs. Magic'
+  [96,0 32x20] 'Kana'
+  [96,20 32x20] 'Hira'
+  [96,40 32x20] 'ABC'
+  [96,60 32x20] 'Sym'
+  [136,0 48x20] 'Sex'
+  [136,20 48x20] 'Race'
+  [136,40 48x20] 'Align'
+  [136,60 48x20] 'Class'
+  [88,88 40x24] 'OK'
+  Labels patched: 23
+  Preview: C:\Programmieren\wizardrytranslation\build\r2138_sub7_chargen_stats_preview.png
+  Patched round-trip: PASS
+
+--- sub25_level_up (sub 25) ---
+  Pixel data: 32768 bytes at 0x15CBB0
+  Texture: 256x256, bw=256, dbw=128
+  Palette: bg=0, ink=15
+  Round-trip: PASS
+  [4,176 118x41] 'Level Up!!'
+  [5,224 116x30] 'Skill Up!!'
+  [144,198 44x19] 'Everyone'
+  [35,151 32x16] 'All'
+  [144,176 44x16] 'Next' (cleared 22px)
+  [132,155 73x11] (clear)
+  Labels patched: 6
+  Preview: C:\Programmieren\wizardrytranslation\build\r2138_sub25_level_up_preview.png
+  Patched round-trip: PASS
+
+--- sub26_shop_alchemy (sub 26) ---
+  Pixel data: 32768 bytes at 0x1652B0
+  Texture: 256x256, bw=256, dbw=128
+  Palette: bg=0, ink=15
+  Round-trip: PASS
+  [29,0 70x22] 'Go Outside'
+  [12,24 101x21] 'Magic Stones'
+  [42,48 44x21] 'Synthesize' (cleared 72px)
+  [43,72 44x22] 'Disassemble'
+  [17,97 96x20] 'Automaton' (cleared 119px)
+  [42,120 45x22] 'Buy'
+  [44,145 42x21] 'Enhance'
+  [19,168 93x20] 'Customize'
+  [16,192 101x21] 'Brain Chip'
+  [17,216 100x21] 'Body Chip'
+  [144,0 101x22] 'Hand Chip'
+  [147,24 97x21] 'Arm Chip' (cleared 24px)
+  [147,48 98x21] 'Leg Chip'
+  [154,72 79x22] 'Shop'
+  [170,97 45x20] 'Buy'
+  [171,120 43x22] 'Sell'
+  [137,145 113x21] 'Alchemy Guild'
+  [136,192 113x21] 'Buy Automaton' (cleared 24px)
+  [136,216 112x21] 'Enhance Auto.'
+  Labels patched: 19
+  Preview: C:\Programmieren\wizardrytranslation\build\r2138_sub26_shop_alchemy_preview.png
+  Patched round-trip: PASS
+
+--- sub27_purchase_curse (sub 27) ---
+  Pixel data: 32768 bytes at 0x16DC30
+  Texture: 256x256, bw=256, dbw=128
+  Palette: bg=0, ink=15
+  Round-trip: PASS
+  [171,110 76x18] 'Total Price'
+  [125,218 90x14] 'Curse Pwr' (cleared 16px)
+  [125,234 110x14] 'Req. Curse Pwr'
+  Labels patched: 3
+  Preview: C:\Programmieren\wizardrytranslation\build\r2138_sub27_purchase_curse_preview.png
+  Patched round-trip: PASS
+
+--- Integrity Check ---
+  Integrity: PASS (only pixel data regions modified)
+
+  Output: C:\Programmieren\wizardrytranslation\build\packdata_resources\2138_type29.raw (1542144 bytes)
+
+============================================================
+  DONE: 7 sub-resources, 70 labels patched
+============================================================
+C:\Programmieren\wizardrytranslation\tools\patch_r2124.py:134: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  ink_px = list(ink.getdata())
+C:\Programmieren\wizardrytranslation\tools\patch_r2124.py:135: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  outl_px = list(outl.getdata())
+pre-flight roundtrip: PASS (32768/32768 bytes)
+  L0_inn         'Adventurer's Inn' -> 104px @ 13px in rect [0, 0, 128, 24]
+  L1_temple      'Salem Church' -> 90px @ 13px in rect [0, 24, 128, 24]
+  L2_alchguild   'Alchemy Guild' -> 94px @ 13px in rect [0, 48, 128, 24]
+  L3_shop        'Vigger Shop' -> 80px @ 13px in rect [0, 72, 128, 24]
+  L4_tavern      'Bar Luna Light' -> 95px @ 13px in rect [0, 96, 128, 24]
+  L5_advguild    'Adv. Guild' -> 68px @ 13px in rect [0, 120, 128, 24]
+  L6_karman      'Karman Labyrinth' -> 113px @ 13px in rect [0, 144, 128, 24]
+  L7_tower       'Tower of Tebayd' -> 105px @ 13px in rect [0, 168, 128, 24]
+  R0_townhall    'Town Hall Plaza' -> 102px @ 13px in rect [128, 0, 128, 24]
+  R1_faubourg    'Faubourg Dist.' -> 94px @ 13px in rect [128, 24, 128, 24]
+  R2_porola      'Porola District' -> 92px @ 13px in rect [128, 48, 128, 24]
+  R3_vare        'Vare District' -> 79px @ 13px in rect [128, 72, 128, 24]
+  R4_castle      'Duhan Castle' -> 84px @ 13px in rect [128, 96, 128, 24]
+pixel containment: PASS (all diffs inside the 13 label rects; do_not_touch regions untouched)
+post-write roundtrip: PASS
+modified bytes: 13339, range 0x02E0-0x815C (writable window 0x02E0-0x82DF): OK
+wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2124_type01.raw (34816 bytes)
+  saved C:\Programmieren\wizardrytranslation\build\recon_v86\v86-out\r2124_before_gray_2x.png
+  saved C:\Programmieren\wizardrytranslation\build\recon_v86\v86-out\r2124_after_gray_2x.png
+  saved C:\Programmieren\wizardrytranslation\build\recon_v86\v86-out\r2124_after_clut0_2x.png
+ALL ASSERTS PASSED
+C:\Programmieren\wizardrytranslation\tools\patch_r1365.py:115: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  return list(img.getdata()), size
+============================================================
+  R1365 Patcher — status/bottom-bar atlas labels
+============================================================
+  Input: C:\Programmieren\wizardrytranslation\extracted\packdata_raw\1365_type02.raw (38912 bytes, OK)
+  Labels: 42 rect entries from C:\Programmieren\wizardrytranslation\data\strip_labels\r1365_labels.json
+  Pre-edit roundtrip: PASS (exact)
+  [       4] (200,  0  48x16) 'Race'  font=11  levels=15 (max 15)
+  [       5] (  0, 16  48x16) 'Sex'  font=11  levels=15 (max 15)
+  [       6] ( 48, 16  48x16) 'Align'  font=11  levels=15 (max 15)
+  [       7] ( 96, 16  48x16) 'Class'  font=11  levels=15 (max 15)
+  [       8] (144, 16  48x16) 'Nature'  font=11  levels=15 (max 15)
+  [       9] (192, 16  48x16) 'Atk'  font=11  levels=8 (max 15)
+  [      10] (  0, 32  48x16) 'Def'  font=11  levels=8 (max 15)
+  [      11] ( 48, 32  48x16) 'Eva'  font=11  levels=7 (max 15)
+  [      12] ( 96, 32  48x16) 'Str'  font=11  levels=8 (max 15)
+  [      13] (144, 32  48x16) 'Int'  font=11  levels=8 (max 15)
+  [      14] (192, 32  48x16) 'Pie'  font=11  levels=8 (max 15)
+  [      15] (  0, 48  48x16) 'Vit'  font=11  levels=8 (max 15)
+  [      16] ( 48, 48  48x16) 'Agi'  font=11  levels=8 (max 15)
+  [      17] ( 96, 48  48x16) 'Lck'  font=11  levels=8 (max 15)
+  [      18] (  0,216  64x16) 'Accuracy'  font=11  levels=8 (max 15)
+  [      22] (  0, 80  72x16) 'Status'  font=11  levels=8 (max 15)
+  [      23] ( 72, 80  72x16) 'Mage Magic'  font=11  levels=8 (max 15)
+  [      24] (144, 80  72x16) 'Prs. Magic'  font=11  levels=8 (max 15)
+  [25+26+29] (144, 48  72x16) 'Items'  font=11  levels=8 (max 15)
+  [      27] (104, 64  72x16) 'Key Items'  font=11  levels=8 (max 15)
+  [      28] (176, 64  72x16) 'Materials'  font=11  levels=8 (max 15)
+  [      38] (192, 96  56x16) 'Library'  font=11  levels=15 (max 15)
+  [      39] ( 72, 96  40x16) 'Camp'  font=11  levels=15 (max 15)
+  [      41] (152, 96  40x16) 'System'  font=11  levels=15 (max 15)
+  [      43] (176,160  48x16) 'Convert'  font=11  levels=8 (max 15)
+  [      44] (176,176  56x16) 'Potential'  font=11  levels=8 (max 15)
+  [      45] (176,192  48x16) 'Detail'  font=11  levels=15 (max 15)
+  [      46] ( 64,200  48x16) 'Order'  font=11  levels=8 (max 15)
+  [      47] (112,200  48x16) 'Switch'  font=11  levels=8 (max 15)
+  [      48] ( 64,216  48x16) 'Requests'  font=11  levels=8 (max 15)
+  [      49] (112,216  48x16) 'Storage'  font=11  levels=8 (max 15)
+  [      50] (  0,112  48x32) 'Poison'  font=16  levels=15 (max 15)
+  [      51] ( 48,112  48x32) 'Numb'  font=16  levels=15 (max 15)
+  [      52] ( 96,112  48x32) 'Fear'  font=16  levels=15 (max 15)
+  [      53] (144,112  48x32) 'Dead'  font=16  levels=15 (max 15)
+  [      54] (192,112  48x32) 'Stone'  font=16  levels=15 (max 15)
+  [      55] (  0,144  48x32) 'Ash'  font=16  levels=15 (max 15)
+  [      56] ( 48,144  96x32) 'Possessed'  font=16  levels=15 (max 15)
+  [      78] (184,144  72x16) 'Expires'  font=11  levels=15 (max 15)
+  [      79] (224,192  16x16) 'd'  font=11  levels=15 (max 15)
+  Pixel containment: PASS (changes only inside listed rects)
+  Integrity: PASS (header, CLUTs, rect table, tail byte-identical)
+  Output: C:\Programmieren\wizardrytranslation\build\packdata_resources\1365_type02.raw (38912 bytes)
+  Previews: C:\Programmieren\wizardrytranslation\build\recon_v86\r1365-status\r1365_before_2x.png
+            C:\Programmieren\wizardrytranslation\build\recon_v86\r1365-status\r1365_after_2x.png
+============================================================
+  DONE: 40 regions (42 rect entries) patched
+============================================================
+
+=== R1054 ===
+  rect table @ 34656: 16 rects
+  patching rect 0 [0,0 128x24] (font<= 13)
+  patching rect 1 [0,24 128x24] (font<= 13)
+  patching rect 2 [0,48 128x24] (font<= 13)
+  patching rect 3 [0,72 128x24] (font<= 13)
+  patching rect 4 [0,96 128x24] (font<= 13)
+  patching rect 5 [0,120 128x24] (font<= 13)
+  patching rect 6 [0,144 128x24] (font<= 13)
+  patching rect 7 [0,168 128x24] (font<= 13)
+  patching rect 8 [0,192 128x24] (font<= 13)
+  patching rect 9 [0,216 128x24] (font<= 13)
+  patching rect 10 [128,0 128x24] (font<= 13)
+  patching rect 11 [128,24 128x24] (font<= 13)
+  patching rect 12 [128,48 128x24] (font<= 13)
+  patching rect 13 [128,72 128x24] (font<= 13)
+  patching rect 14 [128,96 128x24] (font<= 13)
+  patching rect 15 [128,120 128x24] (font<= 13)
+  ASSERT ok: size 36864 preserved; bytes outside [1312, 34080) pristine
+  ASSERT ok: 0 untouched rects pixel-identical (0 skipped as pixel-shared with patched rects)
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\1054_type02.raw
+
+=== R1360 ===
+  rect table @ 34656: 8 rects
+  patching rect 0 [0,0 128x24] (font<= 13)
+  patching rect 1 [0,24 128x24] (font<= 13)
+  patching rect 2 [0,48 128x24] (font<= 13)
+  patching rect 3 [0,72 128x24] (font<= 13)
+  patching rect 4 [0,96 128x24] (font<= 13)
+  patching rect 5 [0,120 128x24] (font<= 13)
+  patching rect 6 [0,168 128x24] (font<= 13)
+  patching rect 7 [0,144 128x24] (font<= 13)
+  ASSERT ok: size 36864 preserved; bytes outside [1312, 34080) pristine
+  ASSERT ok: 0 untouched rects pixel-identical (0 skipped as pixel-shared with patched rects)
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\1360_type02.raw
+
+=== R1361 ===
+  rect table @ 34656: 20 rects
+  patching rect 0 [0,0 128x24] (font<= 13)
+  patching rect 1 [0,24 128x24] (font<= 13)
+  patching rect 2 [0,48 128x24] (font<= 13)
+  patching rect 3 [0,72 128x24] (font<= 13)
+  patching rect 4 [0,96 128x24] (font<= 13)
+  patching rect 5 [0,120 128x24] (font<= 13)
+  patching rect 6 [0,144 128x24] (font<= 13)
+  patching rect 7 [0,168 128x24] (font<= 13)
+  patching rect 8 [0,192 128x24] (font<= 13)
+  patching rect 9 [0,216 128x24] (font<= 13)
+  patching rect 10 [128,0 128x24] (font<= 13)
+  patching rect 11 [128,24 128x24] (font<= 13)
+  patching rect 12 [128,48 128x24] (font<= 13)
+  patching rect 13 [128,72 128x24] (font<= 13)
+  patching rect 14 [128,96 128x24] (font<= 13)
+  patching rect 15 [128,120 128x24] (font<= 13)
+  patching rect 16 [128,144 128x24] (font<= 13)
+  patching rect 17 [128,168 128x24] (font<= 13)
+  patching rect 18 [128,192 128x24] (font<= 13)
+  patching rect 19 [128,216 128x24] (font<= 13)
+  ASSERT ok: size 36864 preserved; bytes outside [1312, 34080) pristine
+  ASSERT ok: 0 untouched rects pixel-identical (0 skipped as pixel-shared with patched rects)
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\1361_type02.raw
+
+=== R1362 ===
+  rect table @ 34656: 18 rects
+  patching rect 0 [0,0 128x24] (font<= 13)
+  patching rect 1 [0,24 128x24] (font<= 13)
+  patching rect 2 [0,48 128x24] (font<= 13)
+  patching rect 3 [0,72 128x24] (font<= 13)
+  patching rect 4 [0,96 128x24] (font<= 13)
+  patching rect 5 [0,120 128x24] (font<= 13)
+  patching rect 6 [0,144 128x24] (font<= 13)
+  patching rect 7 [0,168 128x24] (font<= 13)
+  patching rect 8 [0,192 128x24] (font<= 13)
+  patching rect 9 [0,216 128x24] (font<= 13)
+  patching rect 10 [128,0 128x24] (font<= 13)
+  patching rect 11 [128,24 128x24] (font<= 13)
+  patching rect 12 [128,48 128x24] (font<= 13)
+  patching rect 13 [128,72 128x24] (font<= 13)
+  patching rect 14 [128,96 128x24] (font<= 13)
+  patching rect 15 [128,120 128x24] (font<= 13)
+  patching rect 16 [128,144 128x24] (font<= 13)
+  patching rect 17 [128,168 128x24] (font<= 13)
+  ASSERT ok: size 36864 preserved; bytes outside [1312, 34080) pristine
+  ASSERT ok: 0 untouched rects pixel-identical (0 skipped as pixel-shared with patched rects)
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\1362_type02.raw
+
+=== R1363 ===
+  rect table @ 38560: 83 rects
+  rect 41: covered by rect 73 (same pixels) — no separate patch
+  patching rect 60 [112,176 72x32] (font<= 18)
+  patching rect 71 [112,80 48x16] (font<= 13)
+  patching rect 72 [112,96 40x16] (font<= 13)
+  patching rect 73 [112,112 64x16] (font<= 13)
+  patching rect 75 [152,96 40x16] (font<= 13)
+  patching rect 80 [160,80 32x16] (font<= 13)
+  patching rect 82 [112,144 40x16] (font<= 13)
+  patching rect 21 [232,0 24x24] freeform 'Bond' font 8 ink=14
+  patching rect 22 [232,24 24x24] freeform 'Oath' font 8 ink=12
+  patching rect 23 [232,48 24x24] freeform 'Trst' font 8 ink=13
+  patching rect 24 [232,72 24x24] freeform 'Frnd' font 8 ink=14
+  patching rect 25 [232,96 24x24] freeform 'Symp' font 8 ink=13
+  patching rect 26 [232,120 24x24] freeform 'Duty' font 8 ink=14
+  patching rect 27 [232,144 24x24] freeform 'Ally' font 8 ink=14
+  patching rect 28 [232,168 24x24] freeform 'Dbt' font 8 ink=14
+  patching rect 29 [208,168 24x24] freeform 'Hate' font 8 ink=14
+  ASSERT ok: size 40960 preserved; bytes outside [3808, 36576) pristine
+  ASSERT ok: 66 untouched rects pixel-identical (1 skipped as pixel-shared with patched rects)
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\1363_type02.raw
+
+=== R1364 ===
+  rect table @ 35456: 31 rects
+  patching rect 28 [0,224 32x16] (font<= 13)
+  patching rect 29 [32,224 32x16] (font<= 13)
+  patching rect 30 [64,224 32x16] (font<= 13)
+  ASSERT ok: size 71680 preserved; bytes outside [1920, 34688) pristine
+  ASSERT ok: 28 untouched rects pixel-identical (0 skipped as pixel-shared with patched rects)
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\1364_type04.raw
+
+=== SUMMARY ===
+  R1054: 16 rects patched, 0 untouched verified, skipped=[] -> C:\Programmieren\wizardrytranslation\build\packdata_resources\1054_type02.raw
+  R1360: 8 rects patched, 0 untouched verified, skipped=[] -> C:\Programmieren\wizardrytranslation\build\packdata_resources\1360_type02.raw
+  R1361: 20 rects patched, 0 untouched verified, skipped=[] -> C:\Programmieren\wizardrytranslation\build\packdata_resources\1361_type02.raw
+  R1362: 18 rects patched, 0 untouched verified, skipped=[] -> C:\Programmieren\wizardrytranslation\build\packdata_resources\1362_type02.raw
+  R1363: 16 rects patched, 66 untouched verified, skipped=[] -> C:\Programmieren\wizardrytranslation\build\packdata_resources\1363_type02.raw
+  R1364: 3 rects patched, 28 untouched verified, skipped=[] -> C:\Programmieren\wizardrytranslation\build\packdata_resources\1364_type04.raw
+ALL RESOURCES PATCHED, ALL ASSERTS PASSED
+================================================================
+  R1359 — 1359_type02.raw
+================================================================
+  pixel base @1312 (find_pixel_base, matches manifest)
+  rect table @34656: 16 rects
+  R1359: round-trip PASS (256x256 dbw=128 @0x520)
+    [  0,  0 128x24] ink=15 (573 px sampled) 'Items'
+    [  0, 24 128x24] ink=13 (593 px sampled) 'Magic'
+    [  0, 48 128x24] ink=15 (729 px sampled) 'Status'
+    [  0, 72 128x24] ink=14 (548 px sampled) 'Formation'
+    [  0, 96 128x24] ink=15 (894 px sampled) 'AA Setup'
+    [  0,120 128x24] ink=14 (583 px sampled) 'Requests'
+    [  0,144 128x24] ink=14 (848 px sampled) 'Alchemy'
+    [  0,168 128x24] ink=15 (723 px sampled) 'Automata'
+    [  0,192 128x24] ink=14 (1296 px sampled) 'Stone Fusion'
+    [128,  0 128x24] ink=14 (561 px sampled) 'Camp'
+    [128, 24 128x24] ink=13 (1489 px sampled) 'Mage Magic'
+    [128, 48 128x24] ink=13 (1164 px sampled) 'Prs. Magic'
+    [128, 72 128x24] ink=14 (747 px sampled) 'Key Items'
+    [128, 96 128x24] ink=15 (1010 px sampled) 'Materials'
+    [128,120 128x24] ink=13 (555 px sampled) 'Identify'
+    [128,144 128x24] ink=15 (894 px sampled) 'AA Setup'
+  Output: C:\Programmieren\wizardrytranslation\build\packdata_resources\1359_type02.raw (36864 bytes)
+  Asserts: size OK | round-trip exact | window pristine | containment OK
+  Previews: C:\Programmieren\wizardrytranslation\build\recon_v86\camp-out\r1359_before_2x.png / C:\Programmieren\wizardrytranslation\build\recon_v86\camp-out\r1359_after_2x.png
+================================================================
+  R1367 — 1367_type02.raw
+================================================================
+  pixel base @1904 (find_pixel_base, matches manifest)
+  rect table @35632: 45 rects
+  R1367: round-trip PASS (256x256 dbw=128 @0x770)
+    [ 32, 48 48x16] ink=14 (457 px sampled) 'Results'
+    [ 32, 64 56x16] ink=14 (642 px sampled) 'Items'
+    [ 32, 80 56x16] ink=14 (619 px sampled) 'Client'
+    [ 32, 96 48x16] ink=14 (519 px sampled) 'Reward'
+    [ 32,112 48x16] ink=15 (407 px sampled) 'Due'
+    [ 32,128 48x16] ink=14 (406 px sampled) 'Storage'
+    [ 32,144 40x16] ink=15 (414 px sampled) 'All'
+    [ 32,160 80x16] ink=14 (1067 px sampled) 'Swap Rows'
+    [ 32,176 56x16] ink=14 (620 px sampled) 'Conf. Day'
+    [ 88,176 24x16] ink=14 (169 px sampled) 'Sw.'
+    [128,176 64x16] ink=14 (579 px sampled) 'L2 Sw R2 X'
+    [ 32,192 32x16] ink=14 (360 px sampled) 'Swap'
+    [112,192 40x16] ink=14 (400 px sampled) 'R2 Mv'
+    [  0,  0 24x16] ink=14 (158 px sampled) 'L3'
+    [ 24,  0 40x16] ink=14 (367 px sampled) 'Reset'
+  Output: C:\Programmieren\wizardrytranslation\build\packdata_resources\1367_type02.raw (36864 bytes)
+  Asserts: size OK | round-trip exact | window pristine | containment OK
+  Previews: C:\Programmieren\wizardrytranslation\build\recon_v86\camp-out\r1367_before_2x.png / C:\Programmieren\wizardrytranslation\build\recon_v86\camp-out\r1367_after_2x.png
+================================================================
+  R1910 — 1910_type02.raw (render-verified only)
+================================================================
+  pixel base @1840 (find_pixel_base, matches manifest)
+  banner structure verified (6 x 192x40, bright plaques + ink)
+  labels: 5 banners to render (rect 4 EXIT untouched)
+    banner 0 'Save': erased 1745 ink px, wrote 3024 ink px
+    banner 1 'Load': erased 1891 ink px, wrote 3024 ink px
+    banner 2 'Options': erased 1802 ink px, wrote 3024 ink px
+    banner 3 'Return to Title': erased 1805 ink px, wrote 3024 ink px
+    banner 5 'Save & Quit': erased 2177 ink px, wrote 3024 ink px
+  Output: C:\Programmieren\wizardrytranslation\build\packdata_resources\1910_type02.raw (36864 bytes)
+  Asserts: size OK | round-trip exact | window pristine | containment OK
+  Scrollwork ornaments (x<44, x>=170): pixel-identical
+  Previews: C:\Programmieren\wizardrytranslation\build\recon_v86\camp-out\r1910_before_2x.png / C:\Programmieren\wizardrytranslation\build\recon_v86\camp-out\r1910_after_2x.png
+================================================================
+  SUMMARY
+    R1359: OK
+    R1367: OK
+    R1910: OK
+================================================================
+C:\Programmieren\wizardrytranslation\tools\patch_facility_strips.py:116: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  return list(img.getdata()), size
+================================================================
+  Facility strip patcher — R2141 / R2144 / R2150 / R2153
+================================================================
+
+=== 2141_type02  (69632 bytes) ===
+  -- R2141 sub0 (temple menu) @off 1312
+    [ 14,  5 100x17] dark_bg   f12 'Go Outside'
+    [ 14, 28 100x18] dark_bg   f12 'Cure Poison'
+    [ 14, 52 100x18] dark_bg   f12 'Cure Paral.'
+    [ 14, 77 100x16] dark_bg   f12 'Cure Petrify'
+    [ 14,100 100x18] dark_bg   f12 'Cure Fear'
+    [ 14,124 100x18] dark_bg   f12 'Raise Dead'
+    [ 14,148 100x17] dark_bg   f12 'Restore Ashes'
+    [ 14,172 100x18] dark_bg   f12 'Exorcism'
+    [ 14,196 100x17] dark_bg   f12 'Salem Church'
+  -- R2141 aux (donation/everyone). EXP/NEXT EXP/Level Up!! already English -- untouched. @off 36384
+    [156,174  58x18] dark_bg   f12 'Donation'
+    [146,199  52x18] dark_bg   f12 'All'
+    [134,231  50x18] dark_bg   f12 'All'
+    [188,231  52x18] dark_bg   f12 'All'
+  containment OK: only 2 window(s) differ
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2141_type02.raw (69632 bytes)
+
+=== 2144_type02  (69632 bytes) ===
+  -- R2144 sub0 (inn menu) @off 1312
+    [ 14,  3 100x17] dark_bg   f12 'Go Outside'
+    [ 14, 28 100x16] dark_bg   f12 'Stay'
+    [ 14, 51 100x18] dark_bg   f12 'Adv. Inn'
+  -- R2144 aux Level-Up sheet. base 36400 (formula; 36384 renders misaligned). Press button / Level Up!! already English -- untouched. @off 36400
+    [  2, 31  64x17] dark_bg   f11 'Room Fee'
+  containment OK: only 2 window(s) differ
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2144_type02.raw (69632 bytes)
+
+=== 2150_type05  (147456 bytes) ===
+  -- R2150 sub0 (Vigger shop, two columns) @off 1360
+    [  8,  3 112x17] dark_bg   f12 'Go Outside'
+    [  8, 27 112x18] dark_bg   f12 'Vigger Shop'
+    [  8, 50 112x17] dark_bg   f12 'Sell'
+    [  8, 76 112x15] dark_bg   f12 'Order'
+    [  8, 99 112x18] dark_bg   f12 'Take Order'
+    [  8,123 112x17] dark_bg   f12 'Check Orders'
+    [  8,148 112x16] dark_bg   f12 'Deliver'
+    [  8,171 112x17] dark_bg   f12 'Identify'
+    [  8,196 112x16] dark_bg   f12 'Uncurse'
+    [136,  3 112x18] dark_bg   f12 'Manage Shop'
+    [136, 27 112x18] dark_bg   f12 'Shop Info'
+    [136, 51 112x18] dark_bg   f12 'Storage'
+    [136, 75 112x18] dark_bg   f12 'Manage Storage'
+    [136, 99 112x18] dark_bg   f12 'Store Items'
+    [136,123 112x17] dark_bg   f12 'Redecorate'
+    [136,148 112x16] dark_bg   f12 'Part-time Job'
+    [136,171 112x18] dark_bg   f12 'Sales'
+  -- R2150 s1 (economy labels, black bg) @off 36384
+    [  0,117  40x18] dark_bg   f11 'Wages'
+    [ 78,117  84x18] dark_bg   f12 'Uncurse Fee'
+    [157,117  84x18] dark_bg   f12 'ID Fee'
+    [  0,144  84x15] dark_bg   f12 'Sell Price'
+    [  0,169  84x14] dark_bg   f12 'Shop Level'
+    [ 78,169  56x14] dark_bg   f12 'Fame'
+    [134,169  42x14] dark_bg   f12 'Align'
+    [  0,190  64x18] dark_bg   f12 'Title'
+    [ 54,190  66x18] dark_bg   f12 'Sales'
+    [128,190  38x18] dark_bg   f10 'Branch'
+    [167,190  38x18] dark_bg   f12 'Cost'
+    [  0,216  84x16] dark_bg   f12 'Buy Price'
+    [ 88,216  84x16] dark_bg   f12 'Room Fee'
+  -- R2150 s2 (parchment, baked labels). In-paint kanji areas with sampled parchment then draw dark ink. @off 71008
+    [ 12,  3 102x21] parchment f13 'Shop Level'
+    [ 12, 31  80x17] parchment f13 'Fame'
+    [ 12, 55  74x17] parchment f13 'Align'
+    [ 12, 79  80x17] parchment f13 'Title'
+    [ 12,102  92x19] parchment f13 'Sales'
+    [ 12,151  64x18] parchment f13 'Branch'
+  -- R2150 s3 (guild stats parchment + plain-white duplicate). Upper = parchment in-paint; lower = dark-bg clear+render. @off 105616
+    [ 12, 22 100x18] parchment f13 'Survey Skill'
+    [ 12, 46  80x17] parchment f13 'Surv. Rate'
+    [ 12, 70  90x18] parchment f13 'Trust'
+    [  8,142 106x14] dark_bg   f13 'Survey Skill'
+    [  8,156  70x20] dark_bg   f13 'Surv. Rate'
+    [  8,182  80x18] dark_bg   f13 'Trust'
+  containment OK: only 4 window(s) differ
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2150_type05.raw (147456 bytes)
+
+=== 2153_type05  (147456 bytes) ===
+  -- R2153 sub0 (branch shop menu) @off 1360
+    [ 14,  3 100x17] dark_bg   f12 'Go Outside'
+    [ 14, 28 100x18] dark_bg   f12 'Branch'
+    [ 14, 52 100x17] dark_bg   f12 'Buy'
+    [ 14, 76 100x17] dark_bg   f12 'Sell'
+    [ 14,101 100x16] dark_bg   f12 'Delivery'
+    [ 14,124 100x17] dark_bg   f12 'Events'
+    [ 14,148 100x18] dark_bg   f12 'Rest Area'
+  containment OK: only 1 window(s) differ
+  wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2153_type05.raw (147456 bytes)
+
+=== R2153 <- R2150 stat-window copy ===
+  copied window @36384 (R2150 -> R2153), equality OK
+  copied window @71008 (R2150 -> R2153), equality OK
+  copied window @105616 (R2150 -> R2153), equality OK
+  rewrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2153_type05.raw with copied windows (147456 bytes)
+
+================================================================
+  DONE. Outputs in build/packdata_resources/, PNGs in build/recon_v86/facility-out/
+================================================================
+[window 1] tavern_submenu_sheet @0x560
+  tavern_submenu_sheet: round-trip PASS (256x256 dbw=128 @0x560)
+    [  0,  1 128x22] 'Go Outside'
+    [  0, 25 128x22] 'Message Board'
+    [  0, 49 128x22] 'Requests'
+    [  0, 73 128x22] 'Personal Deeds'
+    [  0, 97 128x22] 'Trap Game'
+    [  0,120 128x23] 'Bar Luna Light'
+    [  0,145 128x22] 'Practice'
+    [  0,169 128x22] 'Game'
+    [  0,193 128x22] 'Prize Exchange'
+[window 2] bulletin_hint_strip @0x12020
+  bulletin_hint_strip: round-trip PASS (256x256 dbw=128 @0x12020)
+    [ 73, 40 105x16] 'L1/R1 Switch'
+    [178, 40 70x16] 'Next Page'
+    [ 88, 56 50x16] 'OK'
+    [150, 56 41x16] 'Back'
+    [197, 56 51x16] 'Switch'
+wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2147_type06.raw (382976 bytes)
+wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2155_type10.raw (274432 bytes)
+OK: all asserts passed.
+section0 find_pixel_base = 3808 (using verified PIXEL_OFF=3808)
+VERIFY: T1 blob @3808: 96 VRAM-matched windows, 96 in pages (339, 340, 341, 342) (100.00% purity), zero stray pages
+VERIFIED base 3808, T1 match 100.00% on pages (339, 340, 341, 342)
+    [  4,120 42x44] 絆 -> 'Bond' ink=14 start=14 (1101px sampled)
+    [ 52,120 41x44] 誓 -> 'Pledge' ink=14 start=14 (1162px sampled)
+    [ 98,120 42x44] 信 -> 'Trust' ink=13 start=14 (1056px sampled)
+    [146,120 43x44] 友 -> 'Friends' ink=13 start=14 (796px sampled)
+    [194,120 42x44] 情 -> 'Sympathy' ink=14 start=14 (1121px sampled)
+    [  4,168 42x44] 義 -> 'Duty' ink=14 start=14 (1086px sampled)
+    [ 52,168 41x44] 盟 -> 'Alliance' ink=14 start=14 (1201px sampled)
+    [ 98,168 42x44] 疑 -> 'Doubt' ink=14 start=14 (1218px sampled)
+    [146,168 43x44] 憎 -> 'Hate' ink=14 start=14 (1218px sampled)
+    [194,168 42x44] 不 -> 'Broken' ink=14 start=14 (891px sampled)
+POST-PATCH T2 (pages (344, 345, 346, 347)) purity: 96/96 (100.00%) zero stray — surrounding HUD art intact
+WROTE C:\Programmieren\wizardrytranslation\build\packdata_resources\1370_type04.raw (81920 bytes)
+previews: C:\Programmieren\wizardrytranslation\build\recon_v86\r1370-out\patch_before.png / C:\Programmieren\wizardrytranslation\build\recon_v86\r1370-out\patch_after.png
+C:\Programmieren\wizardrytranslation\tools\patch_r2880.py:59: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  return [BG - (v * (BG - INK) + 127) // 255 for v in gray_img.getdata()]
+source: C:\Programmieren\wizardrytranslation\extracted\packdata_raw\2880_type11.raw (2113536 bytes)
+roundtrip (pre-edit): PASS
+before: C:\Programmieren\wizardrytranslation\build\recon_v86\r2880-out\r2880s7_before.png
+  i= 0 y=  1 win[  0, 72] w= 50px cap= 70px  'Once,'
+  i= 0 y=  1 win[ 96,384] w=174px cap=286px  'for thirty long years,'
+  i= 1 y= 25 win[  0,312] w=307px cap=310px  'the Kingdom of Duhan was plunged'
+  i= 2 y= 49 win[  0,240] w=182px cap=238px  'into blood and terror.'
+  i= 3 y= 73 win[  0,144] w=106px cap=142px  'The war that'
+  i= 3 y= 73 win[168,456] w=216px cap=286px  'cut the kingdom's people'
+  i= 4 y= 97 win[  0,192] w= 77px cap=190px  'to a third'
+  i= 4 y= 97 win[216,336] w= 71px cap=118px  'is called'
+  i= 5 y=121 win[  0,216] w=181px cap=214px  'the Battle of Banquo.'
+  i= 6 y=145 win[  0,216] w=205px cap=214px  'Seized by a death spirit,'
+  i= 7 y=169 win[  0,312] w=217px cap=310px  'the San-Goth king led his'
+  i= 8 y=194 win[  0,240] w=186px cap=238px  'beastmen to attack —'
+  i= 9 y=218 win[  0,288] w=217px cap=286px  'that was how it all began,'
+  i=10 y=241 win[  0,336] w=255px cap=334px  'but war engulfed all of Venoa.'
+  i=11 y=265 win[  0,312] w=238px cap=310px  'Had one hero not appeared,'
+  i=12 y=290 win[  0,216] w=193px cap=214px  'the Kingdom of Duhan'
+  i=13 y=313 win[  0,336] w=280px cap=334px  'would have vanished from earth.'
+  i=14 y=337 win[  0,216] w=128px cap=214px  'He was Ortrud,'
+  i=14 y=337 win[240,384] w=121px cap=142px  'the Holy King.'
+  i=15 y=361 win[  0,312] w=238px cap=310px  'He broke the San-Goth host'
+  i=16 y=385 win[  0,192] w=109px cap=190px  'and restored'
+  i=16 y=385 win[216,504] w=278px cap=286px  'peace and hope to the Kingdom.'
+  i=17 y=409 win[  0,168] w=156px cap=166px  'Twenty years on...'
+  typeset 23 window segments across 18 rows
+  dead-zones verified blank
+after:  C:\Programmieren\wizardrytranslation\build\recon_v86\r2880-out\r2880s7_after.png
+crops:  C:\Programmieren\wizardrytranslation\build\recon_v86\r2880-out\r2880s7_after_2x_top.png, C:\Programmieren\wizardrytranslation\build\recon_v86\r2880-out\r2880s7_before_2x_top.png
+asserts: size unchanged (2113536); outside [1962944, 2094016) pristine; 35621 bytes changed inside window
+wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2880_type11.raw
+C:\Programmieren\wizardrytranslation\tools\patch_r2881_ending.py:67: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  return [BG - (v * (BG - INK) + 127) // 255 for v in gray_img.getdata()]
+source: C:\Programmieren\wizardrytranslation\extracted\packdata_raw\2881_type15.raw (2316288 bytes)
+  img0: typeset 36 window segments across 21 bands
+  img0: dead-zones verified blank
+  img0: window [1978608, 2109680), 73374 bytes changed
+  img1: typeset 33 window segments across 21 bands
+  img1: dead-zones verified blank
+  img1: window [2109744, 2240816), 73028 bytes changed
+asserts: size unchanged (2316288); outside windows pristine
+wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2881_type15.raw
+C:\Programmieren\wizardrytranslation\tools\patch_r2882_grave.py:50: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  return [BG - (v * (BG - INK) + 127) // 255 for v in gray.getdata()]
+source: C:\Programmieren\wizardrytranslation\extracted\packdata_raw\2882_type09.raw (681984 bytes)
+roundtrip (pre-edit): PASS
+  i=0 y=  4 w=236px  'Man's price to face the dark'
+  i=1 y= 36 w=229px  'is the flame of his own life.'
+  i=2 y= 72 w= 66px  'And so,'
+  i=3 y=100 w=198px  'though I was given life,'
+  i=4 y=133 w= 92px  'now sleep,'
+  i=5 y=163 w=245px  'in the dark that never opens,'
+  i=6 y=196 w=134px  'for all eternity...'
+asserts: size unchanged; outside [644368,677136) pristine; 8679 bytes changed inside window
+wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2882_type09.raw
+=== Rebuilding R34 (0034_type20.raw) ===
+R34 written: 118784 bytes = 58 sectors (pristine 69632 = 34 sectors)
+
+R34 per-sub growth table:
+  sub     old     new   delta
+    0     972    1890    +918
+    1    5948   11244   +5296
+    2    2394    4682   +2288
+    3   14608   23200   +8592
+    4    3268    5752   +2484
+    5   20786   34762  +13976
+    6     638    1196    +558
+    7    2690    4338   +1648
+    8    1176    1842    +666
+    9    5138   10668   +5530
+   10     720    1246    +526
+   11    4042    7578   +3536
+   12    1108    1580    +472
+   13    3408    5452   +2044
+   14     112     158     +46
+   15     118     176     +58
+   16     324     462    +138
+   17     104     158     +54
+   18     138     252    +114
+   19     172     298    +126
+
+*** NOTE: R34 58 sectors (>40 estimate). No structural ceiling — sequential TOC resource; proceeding.
+    Adds ~24 sectors of PACKDATA overflow handled by build Step 8.2; flag audio + item screens for the real-PS2 spot-check. ***
+
+=== Rebuilding R2654 mirror (2654_type44.raw) ===
+R2654 base input: build/packdata_resources/2654_type44.raw
+  NOTE: on-disk build R2654 used as base; for standalone verify this is a STALE leftover (build not run this session).
+R2654 written: 225280 bytes = 110 sectors (pristine 184320 = 90 sectors)
+
+=== SELF-VERIFY ===
+R34: all 1123 text entries decode EXACTLY to aligned English; 20 placeholders kept verbatim. Structure walk clean.
+R2654: all 907 mirrored text entries decode EXACTLY to aligned English; 11 placeholders kept verbatim.
+R2654: all 33 untouched subs byte-identical to input.
+
+=== FINAL SECTOR COUNTS ===
+  R34   :  118784 bytes = 58 sectors (budget <=40, pristine 34)
+  R2654 :  225280 bytes = 110 sectors (pristine 90)
+
+ALL SELF-VERIFY ASSERTIONS PASSED.
+
+(R34 58 / R2654 110 sectors — within runaway ceiling 80; see overflow NOTE above.)
+R2654 base input: build/packdata_resources/2654_type44.raw (Step-2/inject_r34_db output)  (225280 bytes)
+sub 7: off=0x008210 size=0x02fc count=47
+sub 7 rebuilt: 47 entries, 764 -> 880 bytes, 44 romanized
+  entry  1  アウローラ      -> Aurora     (14B -> 16B)
+  entry  2  アオイ        -> Aoi        (10B -> 10B)
+  entry  3  アンガス       -> Angus      (12B -> 14B)
+  entry  4  イーリス       -> Iris       (12B -> 12B)
+  entry  5  インゴ        -> Ingo       (10B -> 12B)
+  entry  6  ウーリ        -> Uli        (10B -> 10B)
+  entry  7  ヴェーラ       -> Vera       (12B -> 12B)
+  entry  8  ウェズベル      -> Wesbell    (14B -> 18B)
+  entry  9  ウェブスター     -> Webster    (16B -> 18B)
+  entry 10  エーリカ       -> Erika      (12B -> 14B)
+  entry 11  エミーリア      -> Emilia     (14B -> 16B)
+  entry 12  オルトルード     -> Ortrud     (16B -> 16B)
+  entry 13  フリーダー      -> Frieder    (14B -> 18B)
+  entry 14  ギヨーム       -> Guillaume  (12B -> 22B)
+  entry 15  クンナル       -> Kunnal     (12B -> 16B)
+  entry 16  コンデ        -> Konde      (10B -> 14B)
+  entry 17  シムゾン       -> Simzon     (12B -> 16B)
+  entry 18  ジン         -> Gin        (8B -> 10B)
+  entry 19  ゼル         -> Zel        (8B -> 10B)
+  entry 20  テュルゴー      -> Turgot     (14B -> 16B)
+  entry 21  キャスタ       -> Casta      (12B -> 14B)
+  entry 22  フーケ        -> Fouquet    (10B -> 18B)
+  entry 23  フドウ        -> Fudo       (10B -> 12B)
+  entry 24  ベルグラーノ     -> Belgrano   (16B -> 20B)
+  entry 25  ベルタン       -> Bertin     (12B -> 16B)
+  entry 26  ポポー        -> Popo       (10B -> 12B)
+  entry 28  ミリィ        -> Milly      (10B -> 14B)
+  entry 29  メラーニエ      -> Melanie    (14B -> 18B)
+  entry 30  ヴァーゴ       -> Vago       (12B -> 12B)
+  entry 31  ヨッペン       -> Yoppen     (12B -> 16B)
+  entry 32  ライマン       -> Raiman     (12B -> 16B)
+  entry 33  ラング        -> Lang       (10B -> 12B)
+  entry 34  ランゴバルト     -> Langobard  (16B -> 22B)
+  entry 35  リディ        -> Lidi       (10B -> 12B)
+  entry 37  リュート       -> Lute       (12B -> 12B)
+  entry 38  ルーシー       -> Lucy       (12B -> 12B)
+  entry 39  オリアーナ      -> Oriana     (14B -> 16B)
+  entry 40  ローミ        -> Romi       (10B -> 12B)
+  entry 41  ヴァイル       -> Weil       (12B -> 12B)
+  entry 42  サミュエル      -> Samuel     (14B -> 16B)
+  entry 43  ジル         -> Jill       (8B -> 12B)
+  entry 44  スコーン       -> Scone      (12B -> 14B)
+  entry 45  ピピン        -> Pipin      (10B -> 14B)
+  entry 46  マクベイン      -> MacBain    (14B -> 18B)
+R2654 written: 225280 bytes = 110 sectors -> C:\Programmieren\wizardrytranslation\build/packdata_resources/2654_type44.raw
+
+=== SELF-VERIFY ===
+  non-sub-7 subs byte-identical: OK
+  romaji decoded back from patched sub 7: ['Angus', 'Aoi', 'Aurora', 'Belgrano', 'Bertin', 'Casta', 'Emilia', 'Erika', 'Fouquet', 'Frieder', 'Fudo', 'Gin', 'Guillaume', 'Ingo', 'Iris', 'Jill', 'Konde', 'Kunnal', 'Lang', 'Langobard', 'Lidi', 'Lucy', 'Lute', 'MacBain', 'Melanie', 'Milly', 'Oriana', 'Ortrud', 'Pipin', 'Popo', 'Raiman', 'Romi', 'Samuel', 'Scone', 'Simzon', 'Turgot', 'Uli', 'Vago', 'Vera', 'Webster', 'Weil', 'Wesbell', 'Yoppen', 'Zel']
+  expected 44 romanized, found 44 (all present)
+  premade-party Vera: OK
+  premade-party Konde: OK
+  premade-party Erika: OK
+
+DONE.
+R2654 library rebuilder: 14 subs, 635 names (sub1, sub2, sub4, sub6, sub9, sub14, sub25, sub28, sub30, sub32, sub40, sub41, sub42, sub43)
+  pristine-structure gate OK (14 signatures)
+  base input: C:\Programmieren\wizardrytranslation\build/packdata_resources/2654_type44.raw (225280 bytes = 110 sectors)
+  per-sub rebuild:
+    sub  1:    802 ->   1150 bytes, 38 translated, 0 kept verbatim
+    sub  2:    852 ->   1340 bytes, 37 translated, 1 kept verbatim
+    sub  4:    428 ->    646 bytes, 17 translated, 1 kept verbatim
+    sub  6:   1362 ->   1752 bytes, 20 translated, 1 kept verbatim
+    sub  9:    848 ->   1434 bytes, 42 translated, 1 kept verbatim
+    sub 14:    628 ->    982 bytes, 30 translated, 1 kept verbatim
+    sub 25:    586 ->   1006 bytes, 30 translated, 1 kept verbatim
+    sub 28:   3302 ->   4270 bytes, 152 translated, 2 kept verbatim
+    sub 30:    604 ->   1042 bytes, 25 translated, 1 kept verbatim
+    sub 32:    148 ->    216 bytes, 8 translated, 1 kept verbatim
+    sub 40:   1770 ->   2510 bytes, 90 translated, 1 kept verbatim
+    sub 41:    938 ->   1118 bytes, 56 translated, 1 kept verbatim
+    sub 42:   1528 ->   2132 bytes, 88 translated, 17 kept verbatim
+    sub 43:    126 ->    132 bytes, 2 translated, 8 kept verbatim
+  self-verify OK: descriptors consistent, untouched subs identical, all listed entries decode to English, unlisted entries preserved; token gate OK (4 token entries, control/line/icon multisets == pristine)
+  idempotence gate OK (re-run on own output is byte-identical)
+R2654 written: 231424 bytes = 113 sectors -> C:\Programmieren\wizardrytranslation\build/packdata_resources/2654_type44.raw
+R1892 base input: extracted/packdata_raw/1892_type20.raw (PRISTINE) (8192 bytes)
+  SHORTEN rec15 ベルグラーノ: Belgrano (18B) -> Belgran (field is a hard 16B)
+R1892 written: 8192 bytes -> build/packdata_resources/1892_type20.raw
+romanized 20 roster names:
+  rec 0 id=  1  アイリス     -> Iris
+  rec 1 id=  2  バスコー     -> Basco
+  rec 2 id=  3  エバン      -> Eban
+  rec 3 id=  4  フリージア    -> Freesia
+  rec 4 id=  5  バルテルス    -> Bartels
+  rec 5 id= 15  ヨッペン     -> Yoppen
+  rec 6 id= 16  フリーダー    -> Frieder
+  rec 7 id= 17  メラーニエ    -> Melanie
+  rec 8 id= 18  リディ      -> Lidi
+  rec 9 id= 19  ヴェーラ     -> Vera
+  rec10 id= 20  エーリカ     -> Erika
+  rec11 id= 21  コンデ      -> Konde
+  rec12 id= 22  イーリス     -> Iris
+  rec13 id= 23  テュルゴー    -> Turgot
+  rec14 id= 24  アオイ      -> Aoi
+  rec15 id= 25  ベルグラーノ   -> Belgran
+  rec16 id= 26  ベルタン     -> Bertin
+  rec17 id= 27  ヴァイル     -> Weil
+  rec18 id= 28  ウーリ      -> Uli
+  rec19 id= 29  メラーニエ    -> Melanie
+
+=== SELF-VERIFY ===
+  Vera record decodes to: 'Vera'  OK
+  records romanized: 20 ; file size stable: OK
+DONE.
+C:\Programmieren\wizardrytranslation\tools\patch_r2655_library_strips.py:181: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  return [ramp_map(v, ramp) for v in img.getdata()], size
+fonts: banner=timesbd.ttf tiles=arialbd.ttf
+pristine gate: size + section table + pixel bases OK
+pristine gate: JP ink present in all 22 boxes
+  s6 [132, 98 24x29] CLEARED (split-cell lead)
+  s6 [196,226 28x28] CLEARED (split-cell lead)
+  s6 [  5,  3 136x28] 'Library' @22px
+  s6 [146,  3 109x28] 'Bestiary' @22px
+  s6 [  1, 34 118x29] 'Allied Actions' @19px (shrunk 22->19)
+  s6 [146, 34 109x29] 'Person Register' @16px (shrunk 22->16)
+  s6 [  5, 66 143x29] 'Adventurer's Guide' @16px (shrunk 22->16)
+  s6 [  1, 98 114x29] 'Book List' @22px
+  s6 [  3,130 114x30] 'Glossary' @22px
+  s6 [131,130 118x30] 'Simzon's Journal' @15px (shrunk 22->15)
+  s6 [  1,166 157x24] 'Item Compendium' @19px (shrunk 20->19)
+  s6 [  1,195 140x27] 'Request File' @22px
+  s6 [149,195 104x27] 'Info File' @22px
+  s6 [  2,226 156x28] 'The Karman Report' @17px (shrunk 22->17)
+  d17 [  1,  0 62x32] 'Info' @20px
+  d17 [ 65,  0 62x32] 'Details' @18px (shrunk 20->18)
+  d17 [  3, 64 120x32] 'Abilities' @22px
+  d17 [  3, 97 117x31] 'Art' @22px
+  d19 [  3, 16 57x32] CLEARED (split-cell lead)
+  d19 [  3, 16 57x15] 'Show' @13px
+  d19 [  3, 31 57x17] '/Hide' @13px
+  d21 [ 16,  0 48x16] 'Fast-fwd' @10px (shrunk 11->10)
+containment gate A: bytes outside the 4 pixel blobs pristine
+containment gate B: all pixel diffs inside declared band boxes
+previews written to C:\Users\FABIAN~1\AppData\Local\Temp\claude\C--Programmieren-wizardrytranslation\ecc36257-22cb-4b50-aba9-4e922aa0f1af\scratchpad\wave5_strips
+output already identical (idempotent re-run) -- OK
+wrote C:\Programmieren\wizardrytranslation\build\packdata_resources\2655_type07.raw (200704 B, 19073 bytes differ)
+bands shrunk below start size: s6 'Allied Actions' 22->19px; s6 'Person Register' 22->16px; s6 'Adventurer's Guide' 22->16px; s6 'Simzon's Journal' 22->15px; s6 'Item Compendium' 20->19px; s6 'The Karman Report' 22->17px; d17 'Details' 20->18px; d21 'Fast-fwd' 11->10px
+R2655 library strips: ALL GATES PASS
+--- patch_pill_widen: item-name capsule 192 -> 256 ---
+  R2139 sub13 rec2 w: 192 -> 256 (2 bytes changed at ['0x122a', '0x122b']) -> C:\Programmieren\wizardrytranslation\build\packdata_resources\2139_type15.raw
+  R2138 sub27 band re-inked (rows 136..199, cols 176..255; border now ~x248) -> C:\Programmieren\wizardrytranslation\build\packdata_resources\2138_type29.raw
+  previews: build/pill_widen_before.png / _after.png
+patch_pill_widen: OK
+  Patched R2100 in header (139264 bytes)
+  Patched R1370 in header (81920 bytes)
+Patched: 73 resources
+Size: 840,325,120 bytes (orig: 839,661,568, diff: +663,552)
+WARNING: 663,552 bytes LARGER than original!
+Loaded C:\Programmieren\wizardrytranslation\extracted\SLPM_653.78 (4185776 bytes)
+
+--- Patch 1: Save Slot Names ---
+  OK   0x3FC720: -> 'BUSIN 0'
+  OK   0x3FC750: -> 'BUSIN 0 Data 1'
+  OK   0x3FC770: -> 'BUSIN 0 Data 2'
+  OK   0x3FC790: -> 'BUSIN 0 Data 3'
+  OK   0x3F9370: -> 'BUSIN 0 Suspend'
+  OK   0x3F9678: -> 'BUSIN 0'
+
+--- Patch 2: Player-Visible Strings ---
+  OK   0x3F8240: -> 'Continue loading!\n'
+  OK   0x3F8260: -> 'No one can equip it.\n'
+
+--- Patch 3: NPC Names ---
+  OK   0x3C93B0: エミーリア -> 'Emilia' (6 glyphs + 2 pad)
+  OK   0x3C93C0: リュート -> 'Lute' (4 glyphs + 4 pad)
+
+--- Patch 4: Banner Glyph IDs (新規登録 -> New Reg.) ---
+  OK   0x3C33F0: 新 -> Ne (5 u16 values patched)
+  OK   0x3C3428: 規 -> w_ (5 u16 values patched)
+  OK   0x3C3268: 登 -> Re (6 u16 values patched)
+  OK   0x3C32A0: 録 -> g. (6 u16 values patched)
+
+--- Patch 5: Banner byte-50 glyph IDs ---
+  OK   0x3C3422: rec 0x3C33F0 byte50: glyph 498 -> 46 (n)
+  OK   0x3C345A: rec 0x3C3428 byte50: glyph 499 -> 37 (e)
+  OK   0x3C329A: rec 0x3C3268 byte50: glyph 491 -> 55 (w)
+  OK   0x3C32D2: rec 0x3C32A0 byte50: glyph 492 ->  0 (space)
+
+--- Patch 6: Mode-gated RenderAllTiles trampoline (portraits + clean chargen) [v148 RELOCATED] ---
+  OK   0x3B0DCC: 32-byte mode-gate trampoline @VA 0x4B0D4C (skip RenderAllTiles iff mode==5)
+  OK   0x1F25E8: JAL 0x30B840 -> JAL 0x4B0D4C (relocated trampoline)
+
+--- Patch 7: Chargen gender glyphs (353->672, 349->673) ---
+  OK   0x3C289E: male: 353 -> 672 (♂)
+  OK   0x3C28E6: female: 349 -> 673 (♀)
+
+--- Patch 8: Font widths for name uppercase (121-146) ---
+  OK   0x3DDC48: copied widths 33-58 -> 121-146
+  OK   0x3DDD48: copied widths 33-58 -> 121-146
+  OK   0x3DDE48: copied widths 33-58 -> 121-146
+  OK   0x3DDF48: copied widths 33-58 -> 121-146
+
+--- Patch 9: Keyboard F/M metrics fix (glyphs 38,45,70,77) ---
+  OK   0x363B78: F(38) JAL+DADDU -> ADDIU v0,1 + NOP
+  OK   0x363C3C: M(45) JAL+DADDU -> ADDIU v0,1 + NOP
+  OK   0x363EF8: f(70) JAL+DADDU -> ADDIU v0,1 + NOP
+  OK   0x363FBC: m(77) JAL+DADDU -> ADDIU v0,1 + NOP
+
+--- Patch 10: Page-0 cursor validity ---
+  OK   0x3DB180: page 0 sub_index 9 -> 0
+
+--- Patch 11: Dialogue line-pitch INTEGER path (inert; see Patch 12) ---
+  OK   0x207A5C: addiu v0,v0,24 -> 18 (inert path)
+
+--- Patch 12: Dialogue line-pitch FLOAT 0.24 -> 0.18 (fit ~6 lines) ---
+  OK   0x20777C: pitch float 0.24 -> 0.18
+
+--- Patch: item-name pill @0x13F688 DISABLED (tile ID, not width — banner regression) ---
+  OK   0x03F708: pristine (0x240500B9)
+
+--- Patch 13: Narration advance 24->18px + re-center (count*24->*18) ---
+  OK   0x209824: advance int 24->18 (0x3097A4)
+  OK   0x209838: advance float 0.24->0.18 (0x3097B8)
+  OK   0x205A08: center A sll 1->3 (0x305988)
+  OK   0x205A10: center A sll 3->1 (0x305990)
+  OK   0x205A78: center B sll 1->3 (0x3059F8)
+  OK   0x205A80: center B sll 3->1 (0x305A00)
+
+--- Patch 14: PROPORTIONAL narration spacing (advance LUT + draw-shift) [v148 RELOCATED below arena] ---
+  OK   advance LUT @0x4B049C + draw-shift @0x4B047C (RELOCATED below arena; avg 17.4px); segment tables @0x1215B4/0x121610/0x12166C (old in-arena windows vacated); gate marker @0x209820=0x0812C127
+
+--- R2100 metric tables: DROPPED (v173 battle-softlock fix); arena stays pristine ---
+  OK   0x4B1000/0x4B1100 pristine-zero (no in-arena table); caves read canonical ADV @0x4C7564 / LSH @0x4C7690
+
+--- Patch 19: CHARGEN Path-1 proportional (advance LUT + draw-shift + summed centering) ---
+  OK   Stage 1 advance LUT  @0x4AB5A8 (hook 0x308040, gate mode==5, ADV 0x7564, srl-8)
+  OK   Stage 2 draw-shift   @0x4AFA70 (hook 0x308018, gate mode==5, LEFTSHIFT 0x7690)
+  ---  Stage 3 NOT hooked: stock count*12 cancels s7 -> left-anchored proportional
+
+--- Patch 26: CHARGEN body text PROPORTIONAL (real renderer 0x307510 Loop A) [v148 RELOCATED] ---
+  OK   0x3079CC -> j 0x4B0414; 26-word ADV cave (abs mode==5 gate, canonical ADV @0x12166C, v1-preserving STOCK); chargen body now proportional
+
+--- Patch 27: BOX-TEXT proportional (real renderer 0x3A2EF0, mode 5/7 gated) [v147 RELOCATED] ---
+  OK   0x3A31A0 -> j 0x4AB554 (RELOCATED below arena); 21-word cave (gid lbu -1(s2), canonical ADV @0x12166C, mode==5/7 gate via $v1 -> battle-safe STOCK path); chargen + request box text proportional
+
+--- Patch 29: BOX-TEXT first-letter-gap LSH (renderer 0x3A2EF0, mode 5/7 gated) ---
+  OK   0x3A30F4 + 0x3A3170 -> jal 0x4B0C48 (2 hooks); frag1 10w @0x4B0C48 + frag2 6w @0x4B0BC8 (gid lbu -1(s2), canonical LSH @0x1216C8, mode==5/7 gate -> battle-safe STOCK)
+
+--- Patch 31: CHARGEN desc-box LSH (renderer 0x307510, mode 5 gated) ---
+  OK   0x307974 -> j 0x4AFA00; frag1 10w @0x4AFA00 + frag2 5w @0x4AB5EC (gid lhu 0x10(sp), canonical LSH @0x1216C8, mode==5 gate -> stock draw-X elsewhere)
+
+--- Patch 28: chargen race-NAME column nudge-left (3x addiu t2,zero,-216) ---
+  SKIP race-name column X stays STOCK -216 (v158: R2100 ADV2 tables removed the overflow)
+
+--- Patch 30: chargen sidebar value-column left-shift (72 -> 44) ---
+  OK   0x14C0A0: sidebar value-column base X 72 -> 44 (28px left)
+
+--- Patch 20: NARRATION fixed LEFT-MARGIN origin (DEAD-per-RAM mode-3 path; left as-is) ---
+  OK   0x205A00: NS_A li v1,0xE0 -> li v1,-56 (0x305980)
+  OK   0x205A14: NS_A subu (count*18 reserve) -> nop (0x305994)
+  OK   0x205A70: NS_B li v1,0xC0 -> li v1,-88 (0x3059F0)
+  OK   0x205A84: NS_B subu (count*18 reserve) -> nop (0x305A04)
+
+--- Patch 21: REVERTED (restore mode-2 origin @0x308378 pristine; dead for narration) ---
+  SKIP 0x2083F8: already pristine (0x00A42021)
+
+--- Patch 22: REQUEST body reserve count*24->*18 + Block-2 advance 24->18 ---
+  OK   0x2089EC: reserve idiom head sll v0,a0,1 -> sll v0,a0,3 (0x30896C)
+  OK   0x2089F4: reserve idiom tail sll v0,v0,3 -> sll v0,v0,1 (0x308974)
+  OK   0x208D30: Block-2 advance 24->18 (0x308CB0)
+  OK   0x208DFC: Block-2 advance 24->18 sibling (0x308D7C)
+
+--- Patch 23: NARRATION true LEFT-FLUSH (X-dispatcher count*12 reserve @0x308328 -> li a0,8) ---
+  OK   0x2083A8: subu a0,a0,a1 -> li a0,8 (narration left-flush at boxX+8)
+
+--- Patch 24: NARRATION boxX=+96 via draw-X load @0x30973c (gated boxX==0) [v148 RELOCATED] ---
+  OK   0x2097BC: lh t2,0x3c(s0) -> j 0x4AFA58; cave sets boxX=96 only if boxX==0
+
+--- Patch 25: REQUEST body proportional advance @0x308CAC + Option-B fixed margin (align==2) ---
+  DISABLED (PATCH25_ENABLE=False, awaiting live confirm DEFAULT-path + left-anchor)
+  precheck: hook@0x208D2C=0x87A201CE (want 0x87A201CE); marker@0x209820=0x0812C127 (want 0x0812C127)
+  precheck: cave@0x4CAA48 free=True; reserve@0x308968=0x00442023 (want 0x00442023)
+
+--- Patch 15: REVERTED (inert modal-latch gate; restore modal pristine) ---
+  SKIP 0x2A0910: modal already pristine (no v102 hook present)
+
+--- Patch 16: DELETED (request freeze root-fixed in R39; dead constants removed v148) ---
+
+--- Patch 18: DELETED (request freeze root-fixed in R39; dead constants removed v148) ---
+
+--- PATCH FIX B (v175): strncpy shrink @0x121568 + 3 tables in freed span ---
+  OK   strncpy 444B -> 76B (frees 368B); ADV/LSH/ADV2 @0x1215B4/0x121610/0x12166C in freed span
+  OK   no ISO growth, e_phnum=2, e_shoff pristine; in-arena 0x4C7564/0x4C7690 pristine-zero (battle fix)
+
+=== Summary: 56 patches applied ===
+Written to C:\Programmieren\wizardrytranslation\build\SLPM_653.78_patched (4185776 bytes)
+============================================================
+  BUILD v9 - Full variable-size + Section 1 patching
+============================================================
+
+=== Step 1: Type-1 injection (v2 pipeline) ===
+  v2 pipeline complete
+
+=== Step 2: Fix type-1 FFFF mismatches ===
+  R34: 25 replaced, FFFF 1163==1163 OK
+  R35: 58 replaced, FFFF 63==63 OK
+  R2654: 497 replaced, FFFF 2277==2277 OK
+
+=== Step 3: R39 type-15 injection ===
+  R39 injected
+
+=== Step 3.1: R39 inline Japanese patch ===
+  R39 inline labels patched
+
+=== Step 3.2: R39 quest labels and titles ===
+  R39 quest labels injected
+
+=== Step 3.3: R39 block-2 spell descriptions ===
+  R39 spell descriptions injected
+
+=== Step 3.4: R39 AA names/descriptions ===
+  R39 AA text injected
+
+=== Step 3.5: R46/R47 type-03 injection ===
+  R46/R47 injected
+
+=== Step 3.6/3.7: R1188 patches DISABLED (BUG-3: live dialogue font) ===
+  No R1188 override present � pristine 1188_type01.raw will be used
+
+=== Step 3.8: R2100 chargen font atlas ===
+
+=== Step 3.9: R2138 unified patcher (sub0/4/6/7/25/26/27) ===
+
+=== Step 4: Variable-size type-2 + Section 1 patching ===
+  Loaded translations for 35 resources
+  Type-02 dialogue resources: 33
+  Purged 29 stale files from build/patched_type2
+  R35: SKIPPED -- sec1 walk failed -- skipped, resource left pristine
+  R989: SKIPPED -- sec1 walk failed -- skipped, resource left pristine
+  R990: SKIPPED -- sec1 walk failed -- skipped, resource left pristine
+  R1034: SKIPPED -- sec1 walk failed -- skipped, resource left pristine
+  Section 1: unwalked-island sweep remapped 0 DISPLAY_TEXT (2 near-misses rejected by the group/terminator gate)
+  Section 2: 964 -> 2824 bytes (+1860), 1 groups; Section 1: 653 walked instrs, 1/1 DISPLAY_TEXT remapped, 42 0x14 labels, 0 name refs
+  R1194: replaced 1/1 (1 name-prefix groups, 0 label tables kept verbatim), sec2 964->2824 (+1860 bytes), 4->5 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 0 DISPLAY_TEXT (9 near-misses rejected by the group/terminator gate)
+  Section 2: 61028 -> 95880 bytes (+34852), 953 groups; Section 1: 7294 walked instrs, 405/405 DISPLAY_TEXT remapped, 116 0x14 labels, 0 name refs
+  R1196: replaced 953/953 (47 name-prefix groups, 0 label tables kept verbatim), sec2 61028->95880 (+34852 bytes), 52->70 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 0 DISPLAY_TEXT (3 near-misses rejected by the group/terminator gate)
+  Section 2: 69212 -> 102836 bytes (+33624), 1099 groups; Section 1: 5097 walked instrs, 532/532 DISPLAY_TEXT remapped, 89 0x14 labels, 0 name refs
+  R1197: replaced 1098/1099 (45 name-prefix groups, 0 label tables kept verbatim), sec2 69212->102836 (+33624 bytes), 57->74 sectors, OFFSETS PATCHED (walked)
+  Section 2: 5874 -> 9162 bytes (+3288), 88 groups; Section 1: 2610 walked instrs, 42/42 DISPLAY_TEXT remapped, 5 0x14 labels, 0 name refs
+  R1198: replaced 88/88 (4 name-prefix groups, 0 label tables kept verbatim), sec2 5874->9162 (+3288 bytes), 10->12 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 0 DISPLAY_TEXT (1 near-misses rejected by the group/terminator gate)
+  Section 2: 15834 -> 25524 bytes (+9690), 254 groups; Section 1: 3697 walked instrs, 119/119 DISPLAY_TEXT remapped, 11 0x14 labels, 0 name refs
+  R1199: replaced 254/254 (7 name-prefix groups, 0 label tables kept verbatim), sec2 15834->25524 (+9690 bytes), 18->23 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 70 DISPLAY_TEXT (0 near-misses rejected by the group/terminator gate)
+  Section 2: 24358 -> 33896 bytes (+9538), 252 groups; Section 1: 1556 walked instrs, 50/50 DISPLAY_TEXT remapped, 30 0x14 labels, 0 name refs
+  R1200: replaced 252/252 (7 name-prefix groups, 0 label tables kept verbatim), sec2 24358->33896 (+9538 bytes), 23->28 sectors, OFFSETS PATCHED (walked)
+  Section 2: 11032 -> 19882 bytes (+8850), 171 groups; Section 1: 3008 walked instrs, 88/88 DISPLAY_TEXT remapped, 9 0x14 labels, 0 name refs
+  R1201: replaced 171/171 (8 name-prefix groups, 0 label tables kept verbatim), sec2 11032->19882 (+8850 bytes), 13->18 sectors, OFFSETS PATCHED (walked)
+  Section 2: 18634 -> 36306 bytes (+17672), 300 groups; Section 1: 5328 walked instrs, 146/146 DISPLAY_TEXT remapped, 69 0x14 labels, 0 name refs
+  R1202: replaced 295/300 (12 name-prefix groups, 0 label tables kept verbatim), sec2 18634->36306 (+17672 bytes), 24->33 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  Section 2: 100462 -> 128142 bytes (+27680), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 145672 bytes (+45210), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 154744 bytes (+54282), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 159150 bytes (+58688), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 160976 bytes (+60514), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 162282 bytes (+61820), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 162992 bytes (+62530), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 163358 bytes (+62896), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 163508 bytes (+63046), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 163560 bytes (+63098), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 163644 bytes (+63182), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  R1203: re-derived cap group 1632 (px-wrap), dropped 0 overflow translations
+    WARNING: R1203 group 958 choice group kept untranslated -- english has 3 0xFFFE segments, need >= 4 (question + 3 options)
+  WARNING: R1203 group 1033: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  WARNING: R1203 group 1080: mid-group offset rel=3 in changed group without label plan; mapping to group start
+  Section 1: unwalked-island sweep remapped 21 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  WARNING: R1203 0x14 at S1+0xBEAF: slice (rel=0,cnt=3) has no plan entry in changed group 1033; clamped to (rel=0,cnt=3)
+  WARNING: R1203 0x14 at S1+0xC15F: slice (rel=0,cnt=3) has no plan entry in changed group 1080; clamped to (rel=0,cnt=3)
+  Section 2: 100462 -> 163640 bytes (+63178), 1633 groups; Section 1: 11779 walked instrs, 782/782 DISPLAY_TEXT remapped, 155 0x14 labels, 0 name refs
+  R1203: replaced 1632/1633 (85 name-prefix groups, 0 label tables kept verbatim), sec2 100462->163640 (+63178 bytes), 83->114 sectors, OFFSETS PATCHED (walked)
+    WARNING: R1204 group 783 choice group kept untranslated -- english has 4 0xFFFE segments, need >= 5 (question + 4 options)
+  Section 1: unwalked-island sweep remapped 16 DISPLAY_TEXT (5 near-misses rejected by the group/terminator gate)
+  Section 2: 59372 -> 91206 bytes (+31834), 999 groups; Section 1: 8415 walked instrs, 527/527 DISPLAY_TEXT remapped, 120 0x14 labels, 0 name refs
+  R1204: replaced 998/999 (55 name-prefix groups, 0 label tables kept verbatim), sec2 59372->91206 (+31834 bytes), 54->70 sectors, OFFSETS PATCHED (walked)
+    WARNING: R1205 group 658 choice group kept untranslated -- english has 4 0xFFFE segments, need >= 5 (question + 4 options)
+  Section 1: unwalked-island sweep remapped 4 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  Section 2: 55388 -> 96238 bytes (+40850), 906 groups; Section 1: 7661 walked instrs, 462/462 DISPLAY_TEXT remapped, 101 0x14 labels, 0 name refs
+  R1205: replaced 905/906 (47 name-prefix groups, 0 label tables kept verbatim), sec2 55388->96238 (+40850 bytes), 49->69 sectors, OFFSETS PATCHED (walked)
+  WARNING: R1206 group 740: mid-group offset rel=14 not on a label boundary; mapping past the new prefix
+  Section 1: unwalked-island sweep remapped 10 DISPLAY_TEXT (8 near-misses rejected by the group/terminator gate)
+  Section 2: 57110 -> 74140 bytes (+17030), 914 groups; Section 1: 7571 walked instrs, 443/443 DISPLAY_TEXT remapped, 99 0x14 labels, 0 name refs
+  R1206: replaced 914/914 (43 name-prefix groups, 0 label tables kept verbatim), sec2 57110->74140 (+17030 bytes), 50->59 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 10 DISPLAY_TEXT (7 near-misses rejected by the group/terminator gate)
+  Section 2: 54398 -> 101592 bytes (+47194), 912 groups; Section 1: 8092 walked instrs, 469/469 DISPLAY_TEXT remapped, 96 0x14 labels, 0 name refs
+  R1207: replaced 912/912 (49 name-prefix groups, 0 label tables kept verbatim), sec2 54398->101592 (+47194 bytes), 50->74 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 39 DISPLAY_TEXT (8 near-misses rejected by the group/terminator gate)
+  Section 2: 54700 -> 93406 bytes (+38706), 907 groups; Section 1: 7545 walked instrs, 436/436 DISPLAY_TEXT remapped, 93 0x14 labels, 0 name refs
+  R1208: replaced 907/907 (45 name-prefix groups, 0 label tables kept verbatim), sec2 54700->93406 (+38706 bytes), 49->68 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 10 DISPLAY_TEXT (5 near-misses rejected by the group/terminator gate)
+  Section 2: 37956 -> 84134 bytes (+46178), 634 groups; Section 1: 6180 walked instrs, 315/315 DISPLAY_TEXT remapped, 75 0x14 labels, 0 name refs
+  R1209: replaced 633/634 (34 name-prefix groups, 0 label tables kept verbatim), sec2 37956->84134 (+46178 bytes), 37->60 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 24 DISPLAY_TEXT (12 near-misses rejected by the group/terminator gate)
+  Section 2: 47238 -> 77040 bytes (+29802), 785 groups; Section 1: 7199 walked instrs, 365/365 DISPLAY_TEXT remapped, 89 0x14 labels, 0 name refs
+  R1210: replaced 782/785 (40 name-prefix groups, 0 label tables kept verbatim), sec2 47238->77040 (+29802 bytes), 44->59 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 5 DISPLAY_TEXT (9 near-misses rejected by the group/terminator gate)
+  Section 2: 37364 -> 61128 bytes (+23764), 635 groups; Section 1: 6681 walked instrs, 343/343 DISPLAY_TEXT remapped, 79 0x14 labels, 0 name refs
+  R1211: replaced 635/635 (34 name-prefix groups, 0 label tables kept verbatim), sec2 37364->61128 (+23764 bytes), 38->50 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 17 DISPLAY_TEXT (18 near-misses rejected by the group/terminator gate)
+  Section 2: 42798 -> 55990 bytes (+13192), 723 groups; Section 1: 3587 walked instrs, 337/337 DISPLAY_TEXT remapped, 79 0x14 labels, 0 name refs
+  R1212: replaced 723/723 (28 name-prefix groups, 0 label tables kept verbatim), sec2 42798->55990 (+13192 bytes), 42->49 sectors, OFFSETS PATCHED (walked)
+  Section 2: 3238 -> 7804 bytes (+4566), 49 groups; Section 1: 3269 walked instrs, 19/19 DISPLAY_TEXT remapped, 37 0x14 labels, 0 name refs
+  R1213: replaced 49/49 (6 name-prefix groups, 0 label tables kept verbatim), sec2 3238->7804 (+4566 bytes), 11->14 sectors, OFFSETS PATCHED (walked)
+  Section 2: 820 -> 1340 bytes (+520), 11 groups; Section 1: 285 walked instrs, 9/9 DISPLAY_TEXT remapped, 7 0x14 labels, 0 name refs
+  R1347: replaced 6/11 (1 name-prefix groups, 0 label tables kept verbatim), sec2 820->1340 (+520 bytes), 2->3 sectors, OFFSETS PATCHED (walked)
+  Section 2: 292 -> 462 bytes (+170), 10 groups; Section 1: 2332 walked instrs, 10/10 DISPLAY_TEXT remapped, 1 0x14 labels, 0 name refs
+  R1348: replaced 2/10 (1 name-prefix groups, 0 label tables kept verbatim), sec2 292->462 (+170 bytes), 6->7 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 0 DISPLAY_TEXT (2 near-misses rejected by the group/terminator gate)
+  Section 2: 668 -> 1472 bytes (+804), 11 groups; Section 1: 279 walked instrs, 6/6 DISPLAY_TEXT remapped, 1 0x14 labels, 0 name refs
+  R1349: replaced 11/11 (1 name-prefix groups, 0 label tables kept verbatim), sec2 668->1472 (+804 bytes), 1->2 sectors, OFFSETS PATCHED (walked)
+  R1350: SKIPPED -- no FFFF groups in Section 2
+  Section 2: 1264 -> 2856 bytes (+1592), 23 groups; Section 1: 315 walked instrs, 15/15 DISPLAY_TEXT remapped, 3 0x14 labels, 0 name refs
+  R1351: replaced 23/23 (1 name-prefix groups, 0 label tables kept verbatim), sec2 1264->2856 (+1592 bytes), 2->3 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 3 DISPLAY_TEXT (10 near-misses rejected by the group/terminator gate)
+  Section 2: 38788 -> 48978 bytes (+10190), 652 groups; Section 1: 3516 walked instrs, 335/335 DISPLAY_TEXT remapped, 79 0x14 labels, 0 name refs
+  R1353: replaced 652/652 (28 name-prefix groups, 0 label tables kept verbatim), sec2 38788->48978 (+10190 bytes), 37->42 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 0 DISPLAY_TEXT (2 near-misses rejected by the group/terminator gate)
+  Section 2: 19166 -> 31702 bytes (+12536), 312 groups; Section 1: 1293 walked instrs, 119/119 DISPLAY_TEXT remapped, 13 0x14 labels, 0 name refs
+  R1354: replaced 312/312 (13 name-prefix groups, 0 label tables kept verbatim), sec2 19166->31702 (+12536 bytes), 13->20 sectors, OFFSETS PATCHED (walked)
+  Section 1: unwalked-island sweep remapped 0 DISPLAY_TEXT (2 near-misses rejected by the group/terminator gate)
+  Section 2: 4408 -> 9508 bytes (+5100), 55 groups; Section 1: 472 walked instrs, 25/25 DISPLAY_TEXT remapped, 6 0x14 labels, 0 name refs
+  R1355: replaced 55/55 (4 name-prefix groups, 0 label tables kept verbatim), sec2 4408->9508 (+5100 bytes), 4->7 sectors, OFFSETS PATCHED (walked)
+  Section 2: 18 -> 24 bytes (+6), 1 groups; Section 1: 12 walked instrs, 1/1 DISPLAY_TEXT remapped, 0 0x14 labels, 0 name refs
+  R1356: replaced 1/1 (0 name-prefix groups, 0 label tables kept verbatim), sec2 18->24 (+6 bytes), 1->2 sectors, OFFSETS PATCHED (walked)
+  Section 2: 18 -> 24 bytes (+6), 1 groups; Section 1: 12 walked instrs, 1/1 DISPLAY_TEXT remapped, 0 0x14 labels, 0 name refs
+  R1357: replaced 1/1 (0 name-prefix groups, 0 label tables kept verbatim), sec2 18->24 (+6 bytes), 1->2 sectors, OFFSETS PATCHED (walked)
+  Patched 28 resources, 13268 messages
+
+=== Step 5: R1193 intro narration ===
+  Section 2: 702 -> 1092 bytes (+390), 2 groups; Section 1: 484 walked instrs, 2/2 DISPLAY_TEXT remapped, 33 0x14 labels, 0 name refs
+  R1193 group injection: replaced 1/2 (1 name-prefix groups, 0 label tables kept verbatim), sec2 702->1092 (+390 bytes), 3->4 sectors, OFFSETS PATCHED (walked)
+  R1193 trailing block: 234 -> 477 words (23 lines, pages 4/3/2/4/1/3/2/3/1), sec2 1578 bytes, file 8192 bytes
+
+=== Step 5c: R1194 ending narration ===
+  R1194 ending narration: group 0 482 -> 872 words (42 lines, pages 3/3/4/2/3/3/2/2/2/2/3/1/2/1/3/3/3, tail 36 words), sec2 1744 bytes, file 8192 bytes
+  R1193 short prologue: 10 lines (pages 4/2/4) appended at word 789, 0x04@S1+0x5BF re-pointed to key-wait (off=303 cnt=9), sec2 1578 -> 1944 bytes, file 8192 bytes
+  R1194 ending narration + R1193 short-prologue injected
+
+=== Step 6: Merge resources ===
+
+=== Step 6.1: JP-residue guard (v142) ===
+  WARNING: 3 translated group(s) still ship PRISTINE JAPANESE:
+    R1203: groups 958
+    R1204: groups 783
+    R1205: groups 658
+  71 files in build/packdata_resources
+
+=== Step 6.5: v86 pre-rendered UI strips + item DB ===
+
+=== Step 7: Rebuild PACKDATA.DIG ===
+
+=== Step 8: Build ISO ===
+
+=== Step 8.2: Check PACKDATA overflow ===
+  PACKDATA overflow: 324 sectors into subsequent files
+  Shifting 14 files forward by 324 sectors...
+  Done. ISO extended by 663,552 bytes
+  [gate] Step 8.2 verified: BSN2_0.DSI;1 relocated to LBA 426344, first sector is original content
+
+=== Step 8.4: Patch EXE ===
+
+=== Step 8.5: Patch EXE ===
+  EXE patched: 4,185,776 bytes at LBA 457467 (end LBA 459511 <= next file LBA 459511)
+
+============================================================
+  BUSIN0_EN_v9.iso built (840,325,120 bytes)
+  Variable-size + Section 1 opcode patching + EXE
+============================================================

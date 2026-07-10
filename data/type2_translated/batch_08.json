@@ -783,7 +783,7 @@
     "resource": 1212,
     "msg_index": 134,
     "japanese": "入り口[01CD]の飽[03CE]には、イ[0454]し物会場ゴと書かれたプレートが[032D]ち着けられている。",
-    "english": "Sign: Lost & Found"
+    "english": "Lost & Found"
   },
   {
     "resource": 1212,
@@ -885,7 +885,7 @@
     "resource": 1212,
     "msg_index": 152,
     "japanese": "そうっスか、入会っスか では、入会臆[000B]会[03CD]５０００gと申込書に[018A]両をお[036A]いしやす ",
-    "english": "Joining? 5000g!"
+    "english": "Joining? 5000G!"
   },
   {
     "resource": 1212,
@@ -915,7 +915,7 @@
     "resource": 1212,
     "msg_index": 157,
     "japanese": "入会しますか？「入会[03CD]毒 ５０００g」は いいいえ",
-    "english": "Join? (5000g) / Yes / No"
+    "english": "Join? (5000G) / Yes / No"
   },
   {
     "resource": 1212,
@@ -927,7 +927,7 @@
     "resource": 1212,
     "msg_index": 159,
     "japanese": "５０００g立払った。",
-    "english": "Paid 5000g."
+    "english": "Paid 5000G."
   },
   {
     "resource": 1212,
@@ -963,13 +963,13 @@
     "resource": 1212,
     "msg_index": 165,
     "japanese": "！って、えええええっ？ 持ってないっすか、５０００g！。同少キツいっすよ、お落さ～ん ",
-    "english": "Whaaaat?! You / don't have 5000g?! / That's rough, pal!"
+    "english": "Whaaaat?! You / don't have 5000G?! / That's rough, pal!"
   },
   {
     "resource": 1212,
     "msg_index": 166,
     "japanese": "一今ないなあ！。今度帰た時は５０００g、[033C]を[0510]えて持ってきてくださいよ ",
-    "english": "Bring 5000g!"
+    "english": "Bring 5000G!"
   },
   {
     "resource": 1212,
@@ -1047,7 +1047,7 @@
     "resource": 1212,
     "msg_index": 180,
     "japanese": "？？？？？ローミおにいちゃんおねえちゃんいらっしゃい。働ってあげようか？",
-    "english": "Romi: Welcome! / Fortune?"
+    "english": "Welcome! / Fortune?"
   },
   {
     "resource": 1212,
@@ -1113,13 +1113,13 @@
     "resource": 1212,
     "msg_index": 193,
     "japanese": "わたし、おばけのローミ。２０００g払ってくれたら、もっと同しく働ってあげる。",
-    "english": "I'm Romi, ghost. / 2000g for reading."
+    "english": "I'm Romi, ghost. / 2000G for reading."
   },
   {
     "resource": 1212,
     "msg_index": 194,
     "japanese": "働ってもらいますか？「[0509]期[0516]：１者２０００g」は いいいえ",
-    "english": "Reading? (2000g) / Yes / No"
+    "english": "Reading? (2000G) / Yes / No"
   },
   {
     "resource": 1212,
@@ -1143,13 +1143,13 @@
     "resource": 1212,
     "msg_index": 198,
     "japanese": "お臆持ってないんだったら、お臆持ってきてね。２０００gだからね。",
-    "english": "Bring 2000g."
+    "english": "Bring 2000G."
   },
   {
     "resource": 1212,
     "msg_index": 199,
     "japanese": "２０００g立払った ",
-    "english": "Paid 2000g."
+    "english": "Paid 2000G."
   },
   {
     "resource": 1212,
@@ -1755,13 +1755,13 @@
     "resource": 1212,
     "msg_index": 302,
     "japanese": "イムプはいはい、いらっしゃい ",
-    "english": "Imp: Welcome!"
+    "english": "Welcome!"
   },
   {
     "resource": 1212,
     "msg_index": 303,
     "japanese": "壁[04C0]２６地～３０地の[04C0][0552]５地嫌はヴィガーフレンズ会社[014B]期会社ナンバー[05FB]選兜会   ",
-    "english": "Floors 26-30: / Member Lottery!"
+    "english": "Member Lottery!"
   },
   {
     "resource": 1212,
@@ -1917,7 +1917,7 @@
     "resource": 1212,
     "msg_index": 331,
     "japanese": "ちなみに罰回からの内選[053C]品は[0578]の[06BA]骨・魔法のワインに新自っスから ",
-    "english": "Next: Spirit Bone / & Magic Wine!"
+    "english": "Spirit Bone / & Magic Wine!"
   },
   {
     "resource": 1212,
@@ -2361,13 +2361,13 @@
     "resource": 1212,
     "msg_index": 407,
     "japanese": "骨場のメダルは５枚で１０００gだ。買っていくのか？",
-    "english": "Dungeon: 5 for / 1000g."
+    "english": "5 for / 1000G."
   },
   {
     "resource": 1212,
     "msg_index": 408,
     "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-    "english": "Buy 5? (1000g) / Yes / No"
+    "english": "Buy 5? (1000G) / Yes / No"
   },
   {
     "resource": 1212,
@@ -2379,7 +2379,7 @@
     "resource": 1212,
     "msg_index": 412,
     "japanese": "形臆１０００gを立払った。",
-    "english": "Paid 1000g."
+    "english": "Paid 1000G."
   },
   {
     "resource": 1212,
@@ -2397,7 +2397,7 @@
     "resource": 1212,
     "msg_index": 416,
     "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-    "english": "Not 1g off!"
+    "english": "Not 1G off!"
   },
   {
     "resource": 1212,
@@ -2439,13 +2439,13 @@
     "resource": 1212,
     "msg_index": 423,
     "japanese": "打扱のメダルは１枚[014B]期で１０００gだが買っていくのか？",
-    "english": "Special: 1000g."
+    "english": "1000G."
   },
   {
     "resource": 1212,
     "msg_index": 424,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special Medal? / (1000g) // Yes / No"
+    "english": "Buy Special Medal? / (1000G) // Yes / No"
   },
   {
     "resource": 1212,
@@ -2457,7 +2457,7 @@
     "resource": 1212,
     "msg_index": 428,
     "japanese": "形臆１０００gを立払った。",
-    "english": "Paid 1000g."
+    "english": "Paid 1000G."
   },
   {
     "resource": 1212,
@@ -2475,7 +2475,7 @@
     "resource": 1212,
     "msg_index": 432,
     "japanese": "いっとくけど１gもまけてやらねえぜ 長該ろうなんて更去な必えは[048B]てるんだな ",
-    "english": "Not 1g off!"
+    "english": "Not 1G off!"
   },
   {
     "resource": 1212,
@@ -2523,7 +2523,7 @@
     "resource": 1212,
     "msg_index": 440,
     "japanese": "道登は[02A1]地に[014B]らず一[0515]１０００g。目を持たぬ者勲にどれ幸の目のかけらが[064B]低されているかを見てやろう。",
-    "english": "Inspection: 1000g."
+    "english": "1000G."
   },
   {
     "resource": 1212,
@@ -2535,7 +2535,7 @@
     "resource": 1212,
     "msg_index": 442,
     "japanese": "オートマターをみてもらいますか？「道登[0516]：１０００g」は いいいえ",
-    "english": "Inspect? (1000g) / Yes / No"
+    "english": "Inspect? (1000G) / Yes / No"
   },
   {
     "resource": 1212,
@@ -2559,7 +2559,7 @@
     "resource": 1212,
     "msg_index": 446,
     "japanese": "[0509]期[0516]１０００gを払った ",
-    "english": "Paid the fee / of 1000g."
+    "english": "Paid the fee / of 1000G."
   },
   {
     "resource": 1212,
