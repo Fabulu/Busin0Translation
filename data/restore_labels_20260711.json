@@ -1,0 +1,345 @@
+[
+ {
+  "resource": 1196,
+  "msg_index": 59,
+  "restored": "Girl A:",
+  "old": "They won't / give us a sword!\nGirl B: The guide / says they're at / the Guild!\nGirl A: You need / a permit!\nGirl B: Then ask!",
+  "new": "Girl A: They won't / give us a sword!\nGirl B: The guide / says they're at / the Guild!\nGirl A: You need / a permit!\nGirl B: Then ask!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 60,
+  "restored": "Girl A:",
+  "old": "Why blame me? / You just sit there!\nGirl B: I didn't say / that! But without / a magic sword...",
+  "new": "Girl A: Why blame me? / You just sit there!\nGirl B: I didn't say / that! But without / a magic sword..."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 61,
+  "restored": "Girl A:",
+  "old": "That's why / we're thinking!\nGirl B: I have / no ideas!\nGirl A: Ha! I do! / The Bar!\nGirl B: The guide?",
+  "new": "Girl A: That's why / we're thinking!\nGirl B: I have / no ideas!\nGirl A: Ha! I do! / The Bar!\nGirl B: The guide?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 62,
+  "restored": "Girl A:",
+  "old": "No, a quest! / Q-U-E-S-T!\nGirl B: A quest!?\nGirl A: Request / a magic sword!\nGirl B: Would that work?",
+  "new": "Girl A: No, a quest! / Q-U-E-S-T!\nGirl B: A quest!?\nGirl A: Request / a magic sword!\nGirl B: Would that work?"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 63,
+  "restored": "Girl A:",
+  "old": "Trust me! / The Bar's full of / adventurers!\nGirl B: Let's try!\nGirl A: To the Bar!\nGirl B: Let's go!",
+  "new": "Girl A: Trust me! / The Bar's full of / adventurers!\nGirl B: Let's try!\nGirl A: To the Bar!\nGirl B: Let's go!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 66,
+  "restored": "Girl A:",
+  "old": "It's so / pretty! I want to / keep it!\nGirl B: No! We'll have / plenty of swords!\nGirl A: Let me try!\nGirl B: ...............",
+  "new": "Girl A: It's so / pretty! I want to / keep it!\nGirl B: No! We'll have / plenty of swords!\nGirl A: Let me try!\nGirl B: ..............."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 67,
+  "restored": "Girl B:",
+  "old": "Wait!\nGirl A: Huh?\nGirl B: Not here! / This is special!\nGirl A: Special, huh!",
+  "new": "Girl B: Wait!\nGirl A: Huh?\nGirl B: Not here! / This is special!\nGirl A: Special, huh!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 68,
+  "restored": "Girl B:",
+  "old": "Let's go to / the Guild!\nGirl A: Again?\nGirl B: Of course! / You'll go many times!\nGirl A: I guess!",
+  "new": "Girl B: Let's go to / the Guild!\nGirl A: Again?\nGirl B: Of course! / You'll go many times!\nGirl A: I guess!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 69,
+  "restored": "Girl B:",
+  "old": "Presentation / matters! That place / is perfect!\nGirl A: Right! Let's go!",
+  "new": "Girl B: Presentation / matters! That place / is perfect!\nGirl A: Right! Let's go!"
+ },
+ {
+  "resource": 1196,
+  "msg_index": 411,
+  "restored": "Orc:",
+  "old": "Do it right!\nGirl A: We know!\nOrc: Don't forget!\nGirl B: We won't!\nOrc: You better not!",
+  "new": "Orc: Do it right!\nGirl A: We know!\nOrc: Don't forget!\nGirl B: We won't!\nOrc: You better not!"
+ },
+ {
+  "resource": 1198,
+  "msg_index": 14,
+  "restored": "Commander:",
+  "old": "This is / Webster's mess! / Knight: Sir, shh!",
+  "new": "Commander: This is / Webster's mess! / Knight: Sir, shh!"
+ },
+ {
+  "resource": 1199,
+  "msg_index": 105,
+  "restored": "Pixie:",
+  "old": "Hey, hey! / I want a magic stone / with Kreta! / Clerk: K-Kreta?! / Pixie: Yeah, Kreta. / The light Kreta.",
+  "new": "Pixie: Hey, hey! / I want a magic stone / with Kreta! / Clerk: K-Kreta?! / Pixie: Yeah, Kreta. / The light Kreta."
+ },
+ {
+  "resource": 1199,
+  "msg_index": 106,
+  "restored": "Clerk:",
+  "old": "Do you have / the materials? / Pixie: Materials? / What do I need? / Clerk: For Kreta, / two demon bloods!",
+  "new": "Clerk: Do you have / the materials? / Pixie: Materials? / What do I need? / Clerk: For Kreta, / two demon bloods!"
+ },
+ {
+  "resource": 1199,
+  "msg_index": 107,
+  "restored": "Pixie:",
+  "old": "How do I get / those?! Clerk: You / must bring them! / Pixie: Grr! Forget / it! Let's go, / Melanie! Girl: ...",
+  "new": "Pixie: How do I get / those?! Clerk: You / must bring them! / Pixie: Grr! Forget / it! Let's go, / Melanie! Girl: ..."
+ },
+ {
+  "resource": 1201,
+  "msg_index": 66,
+  "restored": "Girl A:",
+  "old": "A new / person came! / Girl B: What are / they like? Nice? / Girl A: An outsider? / Girl B: Let's go see!",
+  "new": "Girl A: A new / person came! / Girl B: What are / they like? Nice? / Girl A: An outsider? / Girl B: Let's go see!"
+ },
+ {
+  "resource": 1201,
+  "msg_index": 90,
+  "restored": "Girl A:",
+  "old": "Hey, / Emilia, let's go! / Girl B: Yeah, they / might notice. / Girl A: If we get / caught, they won't / let us out!",
+  "new": "Girl A: Hey, / Emilia, let's go! / Girl B: Yeah, they / might notice. / Girl A: If we get / caught, they won't / let us out!"
+ },
+ {
+  "resource": 1201,
+  "msg_index": 96,
+  "restored": "Clerk:",
+  "old": "Sir, I said / you can't! / Warrior: Why not?! / Clerk: You can't / walk around with / such a huge axe! / Warrior: What's / the big deal?",
+  "new": "Clerk: Sir, I said / you can't! / Warrior: Why not?! / Clerk: You can't / walk around with / such a huge axe! / Warrior: What's / the big deal?"
+ },
+ {
+  "resource": 1201,
+  "msg_index": 97,
+  "restored": "Warrior:",
+  "old": "Ortrud's / soldiers are like / grandchildren! / Clerk: I see... / Warrior: Grandpa / came to visit, so / no complaints!",
+  "new": "Warrior: Ortrud's / soldiers are like / grandchildren! / Clerk: I see... / Warrior: Grandpa / came to visit, so / no complaints!"
+ },
+ {
+  "resource": 1201,
+  "msg_index": 98,
+  "restored": "Clerk:",
+  "old": "I don't get / it, but if you / get caught it's / not my fault! / Warrior: Gahaha! / Fair enough!",
+  "new": "Clerk: I don't get / it, but if you / get caught it's / not my fault! / Warrior: Gahaha! / Fair enough!"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 1008,
+  "restored": "Soldier A:",
+  "old": "She's / back! Unscathed! / Soldier B: How'd / it go? / Soldier A: Gave / Rudy's team a / Demon corpse! / Soldier B: Wow!",
+  "new": "Soldier A: She's / back! Unscathed! / Soldier B: How'd / it go? / Soldier A: Gave / Rudy's team a / Demon corpse! / Soldier B: Wow!"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 1011,
+  "restored": "Woman:",
+  "old": "Went to / floor 6, no sign / of Aurora. / Soldier C: No / leads? / Woman: Deep in / floor 2, I felt / a strange presence!",
+  "new": "Woman: Went to / floor 6, no sign / of Aurora. / Soldier C: No / leads? / Woman: Deep in / floor 2, I felt / a strange presence!"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 1012,
+  "restored": "Soldier D:",
+  "old": "Aurora? / Woman: No, more / ancient than that. / Soldier D: If you / say so, Aoi. / Soldier C: We'll / send scouts.",
+  "new": "Soldier D: Aurora? / Woman: No, more / ancient than that. / Soldier D: If you / say so, Aoi. / Soldier C: We'll / send scouts."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 1021,
+  "restored": "Soldier C:",
+  "old": "I'll / escort you. / Aoi: Guards again? / The labyrinth / feels safer. / Soldier D: Sorry!",
+  "new": "Soldier C: I'll / escort you. / Aoi: Guards again? / The labyrinth / feels safer. / Soldier D: Sorry!"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 1022,
+  "restored": "Aoi:",
+  "old": "My wish is / to sleep without / being disturbed. / Soldier C: We'll / just wait by the / door. / Soldier D: We / won't disturb you!",
+  "new": "Aoi: My wish is / to sleep without / being disturbed. / Soldier C: We'll / just wait by the / door. / Soldier D: We / won't disturb you!"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 1096,
+  "restored": "Ingo:",
+  "old": "Why do I / have to babysit / newbies?! / Soldier: That's not / my problem... / Ingo: I've even / read the Pope's / judgment! Tell / Belgrano!",
+  "new": "Ingo: Why do I / have to babysit / newbies?! / Soldier: That's not / my problem... / Ingo: I've even / read the Pope's / judgment! Tell / Belgrano!"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 1220,
+  "restored": "Soldier:",
+  "old": "Captain! / Here! / Captain: Is / Regina safe? / Soldier: Unknown.",
+  "new": "Soldier: Captain! / Here! / Captain: Is / Regina safe? / Soldier: Unknown."
+ },
+ {
+  "resource": 1204,
+  "msg_index": 129,
+  "restored": "Monster A:",
+  "old": "Please? / Monster B: Hmm... / Monster A: I need / it for Lepra Goods! / Monster B: Those / Cursed Armors are / nice! / Monster A: Mean!",
+  "new": "Monster A: Please? / Monster B: Hmm... / Monster A: I need / it for Lepra Goods! / Monster B: Those / Cursed Armors are / nice! / Monster A: Mean!"
+ },
+ {
+  "resource": 1204,
+  "msg_index": 130,
+  "restored": "Monster B:",
+  "old": "Fine, / I'll give you my / spare. / Monster A: Yay! / Monster B: Meet me / later, I don't / have it now. / Monster A: Sure!",
+  "new": "Monster B: Fine, / I'll give you my / spare. / Monster A: Yay! / Monster B: Meet me / later, I don't / have it now. / Monster A: Sure!"
+ },
+ {
+  "resource": 1204,
+  "msg_index": 131,
+  "restored": "Monster B:",
+  "old": "The / usual spot. / Wait for me. / Monster A: / Okie dokie, / see ya~",
+  "new": "Monster B: The / usual spot. / Wait for me. / Monster A: / Okie dokie, / see ya~"
+ },
+ {
+  "resource": 1204,
+  "msg_index": 295,
+  "restored": "Belgrano:",
+  "old": "Was / this the witch? / Soldier: Please / calm down, sir. / Belgrano: How / can I be calm? / They were killed / without a fight!",
+  "new": "Belgrano: Was / this the witch? / Soldier: Please / calm down, sir. / Belgrano: How / can I be calm? / They were killed / without a fight!"
+ },
+ {
+  "resource": 1204,
+  "msg_index": 331,
+  "restored": "Orc A:",
+  "old": "Is it / true?! / Orc B: Go see! / Bones all over! / Orc C: Why eat / monsters? Never / heard of that!",
+  "new": "Orc A: Is it / true?! / Orc B: Go see! / Bones all over! / Orc C: Why eat / monsters? Never / heard of that!"
+ },
+ {
+  "resource": 1204,
+  "msg_index": 332,
+  "restored": "Orc B:",
+  "old": "How / should I know?! / Orc A: Will we / get eaten too? / Orc B: It's not / safe here! / Orc C: What do / we do?!",
+  "new": "Orc B: How / should I know?! / Orc A: Will we / get eaten too? / Orc B: It's not / safe here! / Orc C: What do / we do?!"
+ },
+ {
+  "resource": 1205,
+  "msg_index": 21,
+  "restored": "Orc C:",
+  "old": "We smash / stuff up good~! / Orc A: Cool / city demo crew~! / Orc B: Slam / that hammer~! / Boss: Together / we get rich~!",
+  "new": "Orc C: We smash / stuff up good~! / Orc A: Cool / city demo crew~! / Orc B: Slam / that hammer~! / Boss: Together / we get rich~!"
+ },
+ {
+  "resource": 1205,
+  "msg_index": 330,
+  "restored": "Orc F:",
+  "old": "\"What are you gonna do?\" // Orc G: \"That shield is really important!\" Orc A: \"You don't know nothing!\"",
+  "new": "Orc F: \"What are you gonna do?\" // Orc G: \"That shield is really important!\" Orc A: \"You don't know nothing!\""
+ },
+ {
+  "resource": 1205,
+  "msg_index": 331,
+  "restored": "Orc B:",
+  "old": "\"That beast is hella strong!\" Orc A: \"Try being in our shoes!\" // Orc B: \"We had to fight while guarding the princess!\"",
+  "new": "Orc B: \"That beast is hella strong!\" Orc A: \"Try being in our shoes!\" // Orc B: \"We had to fight while guarding the princess!\""
+ },
+ {
+  "resource": 1205,
+  "msg_index": 334,
+  "restored": "Orc F:",
+  "old": "\"Why do / we have to pull / up our pants / in unison / every battle?\" / Orc G: \"Isn't / that weird? / That's why you / drop things!\"",
+  "new": "Orc F: \"Why do / we have to pull / up our pants / in unison / every battle?\" / Orc G: \"Isn't / that weird? / That's why you / drop things!\""
+ },
+ {
+  "resource": 1205,
+  "msg_index": 335,
+  "restored": "Orc C:",
+  "old": "\"Grr...\" / Orc D: \"It's / our policy!\" / Orc E: \"Yeah! / All orcs do it!\"",
+  "new": "Orc C: \"Grr...\" / Orc D: \"It's / our policy!\" / Orc E: \"Yeah! / All orcs do it!\""
+ },
+ {
+  "resource": 1205,
+  "msg_index": 336,
+  "restored": "Orc F:",
+  "old": "\"Hmm, / is that so. / But don't you / think it lacks / style?\" / Orc G: \"Why / not try / something / different?\"",
+  "new": "Orc F: \"Hmm, / is that so. / But don't you / think it lacks / style?\" / Orc G: \"Why / not try / something / different?\""
+ },
+ {
+  "resource": 1205,
+  "msg_index": 339,
+  "restored": "Orc F:",
+  "old": "\"Wh-What! / You're going to / use force?!\" / Orc G: \"E-Even / if you do, / we'll never / give in!\"",
+  "new": "Orc F: \"Wh-What! / You're going to / use force?!\" / Orc G: \"E-Even / if you do, / we'll never / give in!\""
+ },
+ {
+  "resource": 1205,
+  "msg_index": 760,
+  "restored": "Voice:",
+  "old": "\"Can't you / break this door?\" / Melanie: \"No way!\" / Voice: \"Get help!\" / Melanie: \"That's / even harder!\" / Voice: \"Hurry up!\"",
+  "new": "Voice: \"Can't you / break this door?\" / Melanie: \"No way!\" / Voice: \"Get help!\" / Melanie: \"That's / even harder!\" / Voice: \"Hurry up!\""
+ },
+ {
+  "resource": 1205,
+  "msg_index": 763,
+  "restored": "Melanie:",
+  "old": "\"S- / Stop it, / you're / embarrassing / me! People / will come!\" / Voice: \"That's / the whole / point!\"",
+  "new": "Melanie: \"S- / Stop it, / you're / embarrassing / me! People / will come!\" / Voice: \"That's / the whole / point!\""
+ },
+ {
+  "resource": 1208,
+  "msg_index": 106,
+  "restored": "Girl A:",
+  "old": "\"That fool / is hopeless.\" / Girl B: \"You kept / calling him a fool, / so he ran off!\" / Girl A: \"I only / told the truth!\"",
+  "new": "Girl A: \"That fool / is hopeless.\" / Girl B: \"You kept / calling him a fool, / so he ran off!\" / Girl A: \"I only / told the truth!\""
+ },
+ {
+  "resource": 1208,
+  "msg_index": 107,
+  "restored": "Girl B:",
+  "old": "\"Fools have / their uses! His alchemy / got us this far.\" // Girl A: \"...True. With his / potions, getting home / was never a worry.\"",
+  "new": "Girl B: \"Fools have / their uses! His alchemy / got us this far.\" // Girl A: \"...True. With his / potions, getting home / was never a worry.\""
+ },
+ {
+  "resource": 1208,
+  "msg_index": 108,
+  "restored": "Girl A:",
+  "old": "\"Wandering / alone here is / insane! I refuse!\" / Girl B: \"Then what?\" / Girl A: \"Let's post / a request in town / for help.\"",
+  "new": "Girl A: \"Wandering / alone here is / insane! I refuse!\" / Girl B: \"Then what?\" / Girl A: \"Let's post / a request in town / for help.\""
+ },
+ {
+  "resource": 1355,
+  "msg_index": 39,
+  "restored": "Soldier A:",
+  "old": "Hey, she's back! / Soldier B: How is she? Unhurt? / Soldier A: She gave Rudy a / demon's head. Not a scratch. / Soldier B: Incredible!",
+  "new": "Soldier A: Hey, she's back! / Soldier B: How is she? Unhurt? / Soldier A: She gave Rudy a / demon's head. Not a scratch. / Soldier B: Incredible!"
+ },
+ {
+  "resource": 1355,
+  "msg_index": 41,
+  "restored": "Aoi:",
+  "old": "Floor 6 held no sign of Aurora. / Soldier C: Any leads? / Aoi: One thing caught my eye: / on floor 2, a strange, / powerful presence!",
+  "new": "Aoi: Floor 6 held no sign of Aurora. / Soldier C: Any leads? / Aoi: One thing caught my eye: / on floor 2, a strange, / powerful presence!"
+ },
+ {
+  "resource": 1355,
+  "msg_index": 42,
+  "restored": "Soldier D:",
+  "old": "Was it Aurora? / Aoi: No, something far worse-- / an evil beyond any demon. / Soldier D: If you say so, Aoi. / Soldier C: Search floor 2 at once.",
+  "new": "Soldier D: Was it Aurora? / Aoi: No, something far worse-- / an evil beyond any demon. / Soldier D: If you say so, Aoi. / Soldier C: Search floor 2 at once."
+ },
+ {
+  "resource": 1355,
+  "msg_index": 53,
+  "restored": "Soldier C:",
+  "old": "Well then, we'll escort you to the inn. / Aoi: On guard duty again, I see. / Life outside must be far freer. / Soldier D: We're sorry about that!",
+  "new": "Soldier C: Well then, we'll escort you to the inn. / Aoi: On guard duty again, I see. / Life outside must be far freer. / Soldier D: We're sorry about that!"
+ },
+ {
+  "resource": 1355,
+  "msg_index": 54,
+  "restored": "Aoi:",
+  "old": "My dream: to sleep undisturbed. / Soldier C: We'll wait by the door. / Soldier D: We won't disturb you. / Aoi: I know. Just a joke.",
+  "new": "Aoi: My dream: to sleep undisturbed. / Soldier C: We'll wait by the door. / Soldier D: We won't disturb you. / Aoi: I know. Just a joke."
+ }
+]
