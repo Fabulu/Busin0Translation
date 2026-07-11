@@ -99,7 +99,7 @@
     "resource": 2654,
     "message": 122,
     "japanese": "(library body, sub via wave3)",
-    "english": "Just watching, for now - get caught tailing and Oda gets squashed. The mark made rounds: tavern, temple, inn, guild. Talked with a wild girl, a shady geezer, a temple sister... A party, that mix?! Oda snickered. Pff!"
+    "english": "Just watching, for now - get caught tailing and Oda gets squashed. The mark made rounds: Bar, temple, inn, guild. Talked with a wild girl, a shady geezer, a temple sister... A party, that mix?! Oda snickered. Pff!"
   },
   {
     "resource": 2654,
@@ -357,7 +357,7 @@
     "resource": 2654,
     "message": 186,
     "japanese": "(library body, sub via wave3)",
-    "english": "The 6th Trap Contest - a trap-game high-score battle! Splendid prizes. Play during the term; your best score enters, tries unlimited. Past winners: 5th Raiman 86, 4th Ingo 65, 3rd Jin 77, 2nd Lidi 49, 1st Ingo 53."
+    "english": "The 6th Trap Contest - a trap-game high-score battle! Splendid prizes. Play during the term; your best score enters, tries unlimited. Past winners: 5th Raiman 86, 4th Ingo 65, 3rd Gin 77, 2nd Lidi 49, 1st Ingo 53."
   },
   {
     "resource": 2654,
@@ -531,7 +531,7 @@
     "resource": 2654,
     "message": 383,
     "japanese": "(library body, sub via wave3)",
-    "english": "Note every promise taken at the tavern; forget none - a lapsed pledge ends an adventurer's name. Neglect one of mine, and my paper's next page will be all about you."
+    "english": "Note every promise taken at the Bar; forget none - a lapsed pledge ends an adventurer's name. Neglect one of mine, and my paper's next page will be all about you."
   },
   {
     "resource": 2654,
@@ -765,7 +765,7 @@
     "resource": 2654,
     "message": 524,
     "japanese": "(library body, sub via wave3)",
-    "english": "Jin made it. / Very sharp."
+    "english": "Gin made it. / Very sharp."
   },
   {
     "resource": 2654,
@@ -2791,7 +2791,7 @@
     "resource": 2654,
     "message": 39,
     "japanese": "ホールドアタックが、上力の■団に / よって進商したもの。 / 後衛が理をホールドする持に理のスキ / を喚募き、そこを前衛が攻手すること / で、より強王なダメージを与える。 / ",
-    "english": "Hold Attack / evolved by a / Bishop. Strikes a / held foe's weak / spot for big dmg.",
+    "english": "Just watching, for now - get caught tailing and Oda gets squashed. The mark made rounds: Bar, temple, inn, guild. Talked with a wild girl, a shady geezer, a temple sister... A party, that mix?! Oda snickered. Pff!",
     "note": "AA desc, sub0 e37 'Weak Smash' (g38; cap 81 cells, this is 76). Mirrors r39_aa_descriptions key 39."
   }
 ]

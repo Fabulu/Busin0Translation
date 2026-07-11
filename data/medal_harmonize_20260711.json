@@ -1,0 +1,1389 @@
+{
+ "note": "v185 medal harmonization; reverse each",
+ "changes": [
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1203,
+   "msg_index": 292,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1206,
+   "msg_index": 569,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1207,
+   "msg_index": 609,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1208,
+   "msg_index": 633,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1209,
+   "msg_index": 465,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1210,
+   "msg_index": 504,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1211,
+   "msg_index": 431,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1212,
+   "msg_index": 403,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1353,
+   "msg_index": 403,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1204,
+   "msg_index": 783,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_zzz_choicefix.json",
+   "resource": 1205,
+   "msg_index": 658,
+   "kind": "menu-unify",
+   "old": "<menu variant>",
+   "new": "Medal Shop Menu / Buy Trap Game Medals / Buy Dark Medals / Loan Trap Game Medals / Do nothing"
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1196,
+   "msg_index": 61,
+   "kind": "facility-tavern",
+   "old": "That's why / we're thinking!\nGirl B: I have / no ideas!\nGirl A: Ha! I do! / The tavern!\nGirl B: The guide?",
+   "new": "That's why / we're thinking!\nGirl B: I have / no ideas!\nGirl A: Ha! I do! / The Bar!\nGirl B: The guide?"
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1196,
+   "msg_index": 63,
+   "kind": "facility-tavern",
+   "old": "Trust me! / The tavern's full of / adventurers!\nGirl B: Let's try!\nGirl A: To the tavern!\nGirl B: Let's go!",
+   "new": "Trust me! / The Bar's full of / adventurers!\nGirl B: Let's try!\nGirl A: To the Bar!\nGirl B: Let's go!"
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1196,
+   "msg_index": 839,
+   "kind": "facility-tavern",
+   "old": "Gin went through / the back door / and into the / tavern.",
+   "new": "Gin went through / the back door / and into the / Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1196,
+   "msg_index": 844,
+   "kind": "facility-tavern",
+   "old": "Following the / tavern's / address, you / made your way",
+   "new": "Following the / Bar's / address, you / made your way"
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1196,
+   "msg_index": 845,
+   "kind": "facility-tavern",
+   "old": "tavern notice, / you headed to / the Venoan / Bookstore.",
+   "new": "Bar notice, / you headed to / the Venoan / Bookstore."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 2,
+   "kind": "facility-tavern",
+   "old": "At Gin's tavern / counter, / requests were / offered to // adventurers.",
+   "new": "At Gin's Bar / counter, / requests were / offered to // adventurers."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 100,
+   "kind": "facility-tavern",
+   "old": "Melanie and Milly / took the stone and / left the tavern.",
+   "new": "Melanie and Milly / took the stone and / left the Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 194,
+   "kind": "facility-tavern",
+   "old": "Yoppen skipped / out of the / tavern.",
+   "new": "Yoppen skipped / out of the / Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 229,
+   "kind": "facility-tavern",
+   "old": "Yoppen left the / tavern.",
+   "new": "Yoppen left the / Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 273,
+   "kind": "facility-tavern",
+   "old": "Raiman bowed / awkwardly and / left the tavern.",
+   "new": "Raiman bowed / awkwardly and / left the Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 355,
+   "kind": "facility-tavern",
+   "old": "A loud voice / called as you / entered the / tavern.",
+   "new": "A loud voice / called as you / entered the / Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 475,
+   "kind": "facility-tavern",
+   "old": "Back at the / tavern Gin came / out to greet / you.",
+   "new": "Back at the / Bar Gin came / out to greet / you."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 508,
+   "kind": "facility-tavern",
+   "old": "Fudo paid and / left the tavern.",
+   "new": "Fudo paid and / left the Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 633,
+   "kind": "facility-tavern",
+   "old": "Lang was eating / at the tavern.",
+   "new": "Lang was eating / at the Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 691,
+   "kind": "facility-tavern",
+   "old": "Lang was at the / tavern waiting / for his meal.",
+   "new": "Lang was at the / Bar waiting / for his meal."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 757,
+   "kind": "facility-tavern",
+   "old": "In the tavern, / Healer Lang was / chatting with the / patrons.",
+   "new": "In the Bar, / Healer Lang was / chatting with the / patrons."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 800,
+   "kind": "facility-tavern",
+   "old": "Lang left the / tavern.",
+   "new": "Lang left the / Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 810,
+   "kind": "facility-tavern",
+   "old": "Muttering to / himself, Lang / left the tavern.",
+   "new": "Muttering to / himself, Lang / left the Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 820,
+   "kind": "facility-tavern",
+   "old": "Muttering to / himself, Lang / left the tavern.",
+   "new": "Muttering to / himself, Lang / left the Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 823,
+   "kind": "facility-tavern",
+   "old": "When you took the / request, a man / who'd been looking / around the tavern // came up to you.",
+   "new": "When you took the / request, a man / who'd been looking / around the Bar // came up to you."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 850,
+   "kind": "facility-tavern",
+   "old": "As you entered / the tavern, Scone / bounded over as / if he'd been // lying in wait.",
+   "new": "As you entered / the Bar, Scone / bounded over as / if he'd been // lying in wait."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 867,
+   "kind": "facility-tavern",
+   "old": "Unable to hold it / in, Scone / shrieked and ran / flailing around // the tavern.",
+   "new": "Unable to hold it / in, Scone / shrieked and ran / flailing around // the Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 899,
+   "kind": "facility-tavern",
+   "old": "In the tavern, / adventurers / enjoyed drink and / food, trading // tales and rumors, / savoring a brief / rest.",
+   "new": "In the Bar, / adventurers / enjoyed drink and / food, trading // tales and rumors, / savoring a brief / rest."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 905,
+   "kind": "facility-tavern",
+   "old": "This tavern only / handles requests / for floors that // mapped parties / have charted.",
+   "new": "This Bar only / handles requests / for floors that // mapped parties / have charted."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 937,
+   "kind": "facility-tavern",
+   "old": "Composing / herself, the / knight slipped / out of the / tavern.",
+   "new": "Composing / herself, the / knight slipped / out of the / Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_01.json",
+   "resource": 1197,
+   "msg_index": 1032,
+   "kind": "facility-tavern",
+   "old": "The reward is / with the tavern / owner. Collect / it when done.",
+   "new": "The reward is / with the Bar / owner. Collect / it when done."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1200,
+   "msg_index": 67,
+   "kind": "facility-tavern",
+   "old": "I received word / from the tavern. / You wish to help / Salem Temple, yes?",
+   "new": "I received word / from the Bar. / You wish to help / Salem Temple, yes?"
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1200,
+   "msg_index": 111,
+   "kind": "facility-tavern",
+   "old": "I received word / from the tavern. / You wish to help / Salem Temple, yes?",
+   "new": "I received word / from the Bar. / You wish to help / Salem Temple, yes?"
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1200,
+   "msg_index": 122,
+   "kind": "facility-tavern",
+   "old": "Before explaining / the task from the / tavern, I need you / to hear this / several times.",
+   "new": "Before explaining / the task from the / Bar, I need you / to hear this / several times."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1200,
+   "msg_index": 130,
+   "kind": "facility-tavern",
+   "old": "Before explaining / the task from the / tavern, I need you / to hear this / several times.",
+   "new": "Before explaining / the task from the / Bar, I need you / to hear this / several times."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 19,
+   "kind": "facility-tavern",
+   "old": "You said you'd / taken the request / and handed over / the Entry Sheet // from the tavern.",
+   "new": "You said you'd / taken the request / and handed over / the Entry Sheet // from the Bar."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 155,
+   "kind": "facility-tavern",
+   "old": "She'll check / with the tavern / and guild, then / give the final / result.",
+   "new": "She'll check / with the Bar / and guild, then / give the final / result."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 156,
+   "kind": "facility-tavern",
+   "old": "When the result / is ready, we'll / post it on the / tavern board.",
+   "new": "When the result / is ready, we'll / post it on the / Bar board."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 172,
+   "kind": "facility-tavern",
+   "old": "The tavern and / guild will tell us / everything. / Results after that.",
+   "new": "The Bar and / guild will tell us / everything. / Results after that."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 173,
+   "kind": "facility-tavern",
+   "old": "When the result / is ready, we'll / post it on the / tavern board.",
+   "new": "When the result / is ready, we'll / post it on the / Bar board."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 179,
+   "kind": "facility-tavern",
+   "old": "Our Notch is / heading to the / tavern and guild / right now.",
+   "new": "Our Notch is / heading to the / Bar and guild / right now."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 184,
+   "kind": "facility-tavern",
+   "old": "When the result / is ready, we'll / post it on the / tavern board.",
+   "new": "When the result / is ready, we'll / post it on the / Bar board."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 227,
+   "kind": "facility-tavern",
+   "old": "Hey, Notch told me / something. You / know about the / government request / at the tavern?",
+   "new": "Hey, Notch told me / something. You / know about the / government request / at the Bar?"
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 279,
+   "kind": "medal-name",
+   "old": "Received 1 / tavern medal.",
+   "new": "Received 1 / Trap Game Medal."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 280,
+   "kind": "medal-name",
+   "old": "Received 2 / tavern medals.",
+   "new": "Received 2 / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 281,
+   "kind": "medal-name",
+   "old": "Received 3 / tavern medals.",
+   "new": "Received 3 / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 282,
+   "kind": "medal-name",
+   "old": "Received 4 / tavern medals.",
+   "new": "Received 4 / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 283,
+   "kind": "medal-name",
+   "old": "Received 5 / tavern medals.",
+   "new": "Received 5 / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "resource": 1202,
+   "msg_index": 284,
+   "kind": "medal-name",
+   "old": "Received 6 / tavern medals.",
+   "new": "Received 6 / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 289,
+   "kind": "medal-name",
+   "old": "We're a Medal / Shop. We buy and / sell floor medals.",
+   "new": "We're a Medal / Shop. We buy and / sell Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 296,
+   "kind": "medal-name",
+   "old": "Floor medals are / 5 for 1000G. / Buying?",
+   "new": "Trap Game Medals are / 5 for 1000G. / Buying?"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 297,
+   "kind": "medal-name",
+   "old": "Buy floor medals? / 5 for 1000G / Yes / No",
+   "new": "Buy Trap Game Medals? / 5 for 1000G / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 312,
+   "kind": "medal-name",
+   "old": "Special medals / are 1000G each. / Buying?",
+   "new": "Dark Medals / are 1000G each. / Buying?"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 313,
+   "kind": "medal-name",
+   "old": "Buy special medal? / 1 for 1000G / Yes / No",
+   "new": "Buy Dark Medal? / 1 for 1000G / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 1568,
+   "kind": "medal-name",
+   "old": "That item is a / special medal / the girl with / the shop has!",
+   "new": "That item is a / Dark Medal / the girl with / the shop has!"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 700,
+   "kind": "facility-tavern",
+   "old": "You're doing / the tavern / spring water / errand, right?",
+   "new": "You're doing / the Bar / spring water / errand, right?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 722,
+   "kind": "facility-tavern",
+   "old": "Hmph, running / the tavern / spring water / errand?",
+   "new": "Hmph, running / the Bar / spring water / errand?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 788,
+   "kind": "facility-tavern",
+   "old": "Buy Tavern / Medals? / '5 for 1000G' / Yes / No",
+   "new": "Buy Bar / Medals? / '5 for 1000G' / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 793,
+   "kind": "medal-name",
+   "old": "Obtained 5 / Tavern Medals.",
+   "new": "Obtained 5 / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 800,
+   "kind": "medal-name",
+   "old": "Yeah yeah, / Combat Medals?",
+   "new": "Yeah yeah, / Dark Medals?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 802,
+   "kind": "facility-tavern",
+   "old": "Got Tavern / Medals though! / Wanna buy?",
+   "new": "Got Bar / Medals though! / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 809,
+   "kind": "medal-name",
+   "old": "Obtained a / Combat Medal.",
+   "new": "Obtained a / Dark Medal."
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 816,
+   "kind": "medal-name",
+   "old": "Yeah yeah, / Combat Medals?",
+   "new": "Yeah yeah, / Dark Medals?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 818,
+   "kind": "facility-tavern",
+   "old": "Got Tavern / Medals though!",
+   "new": "Got Bar / Medals though!"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 662,
+   "kind": "medal-name",
+   "old": "Bar Medals / are 5 for / 1000G. / Want to buy?",
+   "new": "Trap Game Medals / are 5 for / 1000G. / Want to buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 668,
+   "kind": "medal-name",
+   "old": "Obtained 5 / Bar Medals!",
+   "new": "Obtained 5 / Trap Game Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 675,
+   "kind": "medal-name",
+   "old": "Sure! / Battle Medals, / right?",
+   "new": "Sure! / Dark Medals, / right?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 678,
+   "kind": "medal-name",
+   "old": "Battle Medals / are 1 for / 1000G. / Want to buy?",
+   "new": "Dark Medals / are 1 for / 1000G. / Want to buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 684,
+   "kind": "medal-name",
+   "old": "Obtained a / Battle Medal!",
+   "new": "Obtained a / Dark Medal!"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 691,
+   "kind": "medal-name",
+   "old": "Sure! / Battle Medals, / right?",
+   "new": "Sure! / Dark Medals, / right?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 791,
+   "kind": "facility-tavern",
+   "old": "Yes! The / tavern / request!",
+   "new": "Yes! The / Bar / request!"
+  },
+  {
+   "file": "data/type2_translated/batch_05.json",
+   "resource": 1206,
+   "msg_index": 574,
+   "kind": "medal-name",
+   "old": "Buy arena medals? 5 for 1000G // Yes / No",
+   "new": "Buy Trap Game Medals? 5 for 1000G // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_05.json",
+   "resource": 1206,
+   "msg_index": 590,
+   "kind": "medal-name",
+   "old": "Buy dealer medals? 1 for 1000G // Yes / No",
+   "new": "Buy Dark Medals? 1 for 1000G // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_05.json",
+   "resource": 1207,
+   "msg_index": 614,
+   "kind": "medal-name",
+   "old": "Buy arena medals? 5 for 1000G // Yes / No",
+   "new": "Buy Trap Game Medals? 5 for 1000G // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_05.json",
+   "resource": 1207,
+   "msg_index": 630,
+   "kind": "medal-name",
+   "old": "Buy dealer medals? 1 for 1000G // Yes / No",
+   "new": "Buy Dark Medals? 1 for 1000G // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 502,
+   "kind": "facility-tavern",
+   "old": "Hmph, I see. An / errand boy for that / tavern's request.",
+   "new": "Hmph, I see. An / errand boy for that / Bar's request."
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 523,
+   "kind": "facility-tavern",
+   "old": "Go back to the / tavern and collect / your reward! Ahahaha!",
+   "new": "Go back to the / Bar and collect / your reward! Ahahaha!"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 630,
+   "kind": "medal-name",
+   "old": "We buy and sell / tavern medals here.",
+   "new": "We buy and sell / Trap Game Medals here."
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 637,
+   "kind": "medal-name",
+   "old": "Tavern medals are / 5 for 1000G. / Wanna buy?",
+   "new": "Trap Game Medals are / 5 for 1000G. / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 638,
+   "kind": "medal-name",
+   "old": "Buy tavern medals? // 5 for 1000G // Yes / No",
+   "new": "Buy Trap Game Medals? // 5 for 1000G // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 643,
+   "kind": "facility-tavern",
+   "old": "Obtained 5 tavern / medals!",
+   "new": "Obtained 5 Bar / medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 650,
+   "kind": "medal-name",
+   "old": "Hmm? Oh sure, / battle medals, right.",
+   "new": "Hmm? Oh sure, / Dark Medals, right."
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 652,
+   "kind": "medal-name",
+   "old": "Got tavern medals / though! Wanna buy?",
+   "new": "Got Trap Game Medals / though! Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 653,
+   "kind": "medal-name",
+   "old": "Battle medals are / 1 for 1000G in / limited stock. Buy?",
+   "new": "Dark Medals are / 1 for 1000G in / limited stock. Buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 654,
+   "kind": "medal-name",
+   "old": "Buy battle medals? // 1 for 1000G // Yes / No",
+   "new": "Buy Dark Medals? // 1 for 1000G // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 659,
+   "kind": "medal-name",
+   "old": "Obtained battle medal!",
+   "new": "Obtained Dark Medal!"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 666,
+   "kind": "medal-name",
+   "old": "Hmm? Oh sure, / battle medals, right.",
+   "new": "Hmm? Oh sure, / Dark Medals, right."
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 668,
+   "kind": "medal-name",
+   "old": "Got tavern medals / though! Wanna buy?",
+   "new": "Got Trap Game Medals / though! Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1209,
+   "msg_index": 470,
+   "kind": "medal-name",
+   "old": "Buy tavern medals? // 5 for 1000G // Yes / No",
+   "new": "Buy Trap Game Medals? // 5 for 1000G // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1209,
+   "msg_index": 486,
+   "kind": "medal-name",
+   "old": "Buy battle medals? // 1 for 1000G // Yes / No",
+   "new": "Buy Dark Medals? // 1 for 1000G // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 36,
+   "kind": "medal-name",
+   "old": "Y'see, I got a / debt. It's about / dungeon Medals.",
+   "new": "Y'see, I got a / debt. It's about / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 501,
+   "kind": "medal-name",
+   "old": "We buy, sell, / and attach / dungeon Medals.",
+   "new": "We buy, sell, / and attach / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 509,
+   "kind": "medal-name",
+   "old": "Buy Dungeon Medal? // '5 for 1000G' / Yes / No",
+   "new": "Buy Trap Game Medal? // '5 for 1000G' / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 514,
+   "kind": "medal-name",
+   "old": "Obtained 5 / Dungeon Medals!",
+   "new": "Obtained 5 / Trap Game Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 521,
+   "kind": "medal-name",
+   "old": "Special Medals, / right!",
+   "new": "Dark Medals, / right!"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 525,
+   "kind": "medal-name",
+   "old": "Buy Special Medal? // '1 for 1000G' / Yes / No",
+   "new": "Buy Dark Medal? // '1 for 1000G' / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 530,
+   "kind": "medal-name",
+   "old": "Obtained / Special Medal!",
+   "new": "Obtained / Dark Medal!"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 537,
+   "kind": "medal-name",
+   "old": "Special Medals, / right!",
+   "new": "Dark Medals, / right!"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 428,
+   "kind": "medal-name",
+   "old": "We buy, sell, / and attach / dungeon Medals.",
+   "new": "We buy, sell, / and attach / Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 436,
+   "kind": "medal-name",
+   "old": "Buy Dungeon Medal? // '5 for 1000G' / Yes / No",
+   "new": "Buy Trap Game Medal? // '5 for 1000G' / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 441,
+   "kind": "medal-name",
+   "old": "Obtained 5 / Dungeon Medals!",
+   "new": "Obtained 5 / Trap Game Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 448,
+   "kind": "medal-name",
+   "old": "Special Medals, / right!",
+   "new": "Dark Medals, / right!"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 452,
+   "kind": "medal-name",
+   "old": "Buy Special Medal? // '1 for 1000G' / Yes / No",
+   "new": "Buy Dark Medal? // '1 for 1000G' / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 457,
+   "kind": "medal-name",
+   "old": "Obtained / Special Medal!",
+   "new": "Obtained / Dark Medal!"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 464,
+   "kind": "medal-name",
+   "old": "Special Medals, / right!",
+   "new": "Dark Medals, / right!"
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "resource": 1212,
+   "msg_index": 422,
+   "kind": "medal-name",
+   "old": "Got Dungeon Medals.",
+   "new": "Got Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "resource": 1212,
+   "msg_index": 424,
+   "kind": "medal-name",
+   "old": "Buy Special Medal? / (1000G) // Yes / No",
+   "new": "Buy Dark Medal? / (1000G) // Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "resource": 1212,
+   "msg_index": 429,
+   "kind": "medal-name",
+   "old": "Got Special Medal.",
+   "new": "Got Dark Medal."
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "resource": 1212,
+   "msg_index": 438,
+   "kind": "medal-name",
+   "old": "Got Dungeon Medals.",
+   "new": "Got Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_09.json",
+   "resource": 1353,
+   "msg_index": 422,
+   "kind": "medal-name",
+   "old": "Got Dungeon Medals.",
+   "new": "Got Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_09.json",
+   "resource": 1353,
+   "msg_index": 429,
+   "kind": "medal-name",
+   "old": "Got Special Medal.",
+   "new": "Got Dark Medal."
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 613,
+   "kind": "medal-name",
+   "old": "Arena medals are 5 / for 1000G. / Buying?",
+   "new": "Trap Game Medals are 5 / for 1000G. / Buying?"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 626,
+   "kind": "medal-name",
+   "old": "Ehh... right-o, / dealer medals, / yeah...?",
+   "new": "Ehh... right-o, / Dark Medals, / yeah...?"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 628,
+   "kind": "medal-name",
+   "old": "Arena medals I got! / How 'bout it - / buy some!",
+   "new": "Trap Game Medals I got! / How 'bout it - / buy some!"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 629,
+   "kind": "medal-name",
+   "old": "Dealer medals are / limited to 1 each, / 1000G. Buying?",
+   "new": "Dark Medals are / limited to 1 each, / 1000G. Buying?"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 642,
+   "kind": "medal-name",
+   "old": "Ehh... right-o, / dealer medals, / yeah...?",
+   "new": "Ehh... right-o, / Dark Medals, / yeah...?"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 644,
+   "kind": "medal-name",
+   "old": "Arena medals I got! / How 'bout it - / buy some!",
+   "new": "Trap Game Medals I got! / How 'bout it - / buy some!"
+  },
+  {
+   "file": "data/type2_translated/batch_r39_equip_a.json",
+   "resource": 39,
+   "msg_index": 358,
+   "kind": "facility-tavern",
+   "old": "We're holding a Trap Game Contest at the\ntavern. Anyone confident in their skills,\nplease sign up!\nThe grand champion will receive\na rare item.",
+   "new": "We're holding a Trap Game Contest at the\nBar. Anyone confident in their skills,\nplease sign up!\nThe grand champion will receive\na rare item."
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w1.json",
+   "resource": 1206,
+   "msg_index": 775,
+   "kind": "facility-tavern",
+   "old": "You're here because you read my / note on the tavern's message / board, I take it?",
+   "new": "You're here because you read my / note on the Bar's message / board, I take it?"
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w1.json",
+   "resource": 1206,
+   "msg_index": 805,
+   "kind": "facility-tavern",
+   "old": "I'm not like those impatient / clients at the tavern. No / deadlines from me. Please.",
+   "new": "I'm not like those impatient / clients at the Bar. No / deadlines from me. Please."
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w1.json",
+   "resource": 1206,
+   "msg_index": 830,
+   "kind": "facility-tavern",
+   "old": "I'm not like those impatient / clients at the tavern. No / deadlines from me. Please.",
+   "new": "I'm not like those impatient / clients at the Bar. No / deadlines from me. Please."
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w4b_r1200.json",
+   "resource": 1200,
+   "msg_index": 67,
+   "kind": "facility-tavern",
+   "old": "I've had word from someone at the tavern. You're the ones who wish to lend a hand to Salem Temple, aren't you?",
+   "new": "I've had word from someone at the Bar. You're the ones who wish to lend a hand to Salem Temple, aren't you?"
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w4b_r1200.json",
+   "resource": 1200,
+   "msg_index": 111,
+   "kind": "facility-tavern",
+   "old": "I've had word from someone at the tavern. You're the ones who wish to lend a hand to Salem Temple, aren't you?",
+   "new": "I've had word from someone at the Bar. You're the ones who wish to lend a hand to Salem Temple, aren't you?"
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w4b_r1200.json",
+   "resource": 1200,
+   "msg_index": 122,
+   "kind": "facility-tavern",
+   "old": "Before I lay out the task you took on through the tavern, I do want every one of you to hear it.",
+   "new": "Before I lay out the task you took on through the Bar, I do want every one of you to hear it."
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w4b_r1200.json",
+   "resource": 1200,
+   "msg_index": 130,
+   "kind": "facility-tavern",
+   "old": "Before I lay out the task you took on through the tavern, I do want every one of you to hear it.",
+   "new": "Before I lay out the task you took on through the Bar, I do want every one of you to hear it."
+  },
+  {
+   "file": "data/translate_chunks/chunk_r2654_library_fix.json",
+   "resource": 2654,
+   "msg_index": null,
+   "kind": "facility-tavern",
+   "old": "Just watching, for now - get caught tailing and Oda gets squashed. The mark made rounds: tavern, temple, inn, guild. Talked with a wild girl, a shady geezer, a temple sister... A party, that mix?! Oda snickered. Pff!",
+   "new": "Just watching, for now - get caught tailing and Oda gets squashed. The mark made rounds: Bar, temple, inn, guild. Talked with a wild girl, a shady geezer, a temple sister... A party, that mix?! Oda snickered. Pff!"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 289,
+   "kind": "verb-fix",
+   "old": "We're a Medal / Shop. We buy and / sell Trap Game Medals.",
+   "new": "We're a Medal / Shop. We buy and / loan Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 302,
+   "kind": "medal-linebreak",
+   "old": "Obtained 5 floor / medals.",
+   "new": "Obtained 5 Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 309,
+   "kind": "medal-linebreak",
+   "old": "Alright, special / medals, huh?",
+   "new": "Alright, Dark Medals, huh?"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 311,
+   "kind": "medal-linebreak",
+   "old": "We have floor / medals though. / Wanna buy?",
+   "new": "We have Trap Game Medals though. / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 318,
+   "kind": "medal-linebreak",
+   "old": "Obtained special / medal.",
+   "new": "Obtained Dark Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 325,
+   "kind": "medal-linebreak",
+   "old": "Alright, special / medals, huh?",
+   "new": "Alright, Dark Medals, huh?"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 327,
+   "kind": "medal-linebreak",
+   "old": "We have floor / medals though. / Wanna buy?",
+   "new": "We have Trap Game Medals though. / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 780,
+   "kind": "verb-fix",
+   "old": "We sell and buy / all kinds of / medals!",
+   "new": "We buy and loan / all kinds of / medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 788,
+   "kind": "medal-linebreak",
+   "old": "Buy Bar / Medals? / '5 for 1000G' / Yes / No",
+   "new": "Buy Trap Game Medals? / '5 for 1000G' / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 802,
+   "kind": "medal-linebreak",
+   "old": "Got Bar / Medals though! / Wanna buy?",
+   "new": "Got Trap Game Medals though! / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 804,
+   "kind": "medal-linebreak",
+   "old": "Buy Combat / Medals? / '1 for 1000G' / Yes / No",
+   "new": "Buy Dark Medals? / '1 for 1000G' / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1204,
+   "msg_index": 818,
+   "kind": "medal-linebreak",
+   "old": "Got Bar / Medals though!",
+   "new": "Got Trap Game Medals though!"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 655,
+   "kind": "verb-fix",
+   "old": "We buy and / sell Battle / Medals here.",
+   "new": "We buy and / loan Dark / Medals here."
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 663,
+   "kind": "medal-linebreak",
+   "old": "Buy Bar / Medals? / 5 for 1000G / Yes / No",
+   "new": "Buy Trap Game Medals? / 5 for 1000G / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 677,
+   "kind": "medal-linebreak",
+   "old": "We have Bar / Medals though! / Want some?",
+   "new": "We have Trap Game Medals though! / Want some?"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 679,
+   "kind": "medal-linebreak",
+   "old": "Buy Battle / Medal? / 1 for 1000G / Yes / No",
+   "new": "Buy Dark Medals? / 1 for 1000G / Yes / No"
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "resource": 1205,
+   "msg_index": 693,
+   "kind": "medal-linebreak",
+   "old": "We have Bar / Medals though! / Want some?",
+   "new": "We have Trap Game Medals though! / Want some?"
+  },
+  {
+   "file": "data/type2_translated/batch_05.json",
+   "resource": 1206,
+   "msg_index": 566,
+   "kind": "verb-fix",
+   "old": "Sell special / medals.",
+   "new": "Loan Dark / medals."
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 630,
+   "kind": "verb-fix",
+   "old": "We buy and sell / Trap Game Medals here.",
+   "new": "We buy and loan / Trap Game Medals here."
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1208,
+   "msg_index": 643,
+   "kind": "medal-linebreak",
+   "old": "Obtained 5 Bar / medals!",
+   "new": "Obtained 5 Trap Game Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "resource": 1209,
+   "msg_index": 462,
+   "kind": "verb-fix",
+   "old": "This is the Medal Shop. We sell and lend various types of medals.",
+   "new": "This is the Medal Shop. We buy and loan various types of medals."
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 501,
+   "kind": "verb-fix",
+   "old": "We buy, sell, / and attach / Trap Game Medals.",
+   "new": "We buy and / loan Trap Game / Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 523,
+   "kind": "medal-linebreak",
+   "old": "Got Dungeon / Medals though. / Wanna buy?",
+   "new": "Got Trap Game Medals though. / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1210,
+   "msg_index": 539,
+   "kind": "medal-linebreak",
+   "old": "Got Dungeon / Medals though. / Wanna buy?",
+   "new": "Got Trap Game Medals though. / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 428,
+   "kind": "verb-fix",
+   "old": "We buy, sell, / and attach / Trap Game Medals.",
+   "new": "We buy and / loan Trap Game / Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 450,
+   "kind": "medal-linebreak",
+   "old": "Got Dungeon / Medals though. / Wanna buy?",
+   "new": "Got Trap Game Medals though. / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "resource": 1211,
+   "msg_index": 466,
+   "kind": "medal-linebreak",
+   "old": "Got Dungeon / Medals though. / Wanna buy?",
+   "new": "Got Trap Game Medals though. / Wanna buy?"
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "resource": 1212,
+   "msg_index": 400,
+   "kind": "verb-fix",
+   "old": "We trade medals.",
+   "new": "We buy and loan medals."
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "resource": 1212,
+   "msg_index": 413,
+   "kind": "medal-linebreak",
+   "old": "Got 5 Dungeon / Medals.",
+   "new": "Got 5 Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "resource": 1212,
+   "msg_index": 420,
+   "kind": "medal-linebreak",
+   "old": "Right, Special / Medals!",
+   "new": "Right, Dark Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "resource": 1212,
+   "msg_index": 436,
+   "kind": "medal-linebreak",
+   "old": "Right, Special / Medals!",
+   "new": "Right, Dark Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_09.json",
+   "resource": 1353,
+   "msg_index": 400,
+   "kind": "verb-fix",
+   "old": "We trade medals.",
+   "new": "We buy and loan medals."
+  },
+  {
+   "file": "data/type2_translated/batch_09.json",
+   "resource": 1353,
+   "msg_index": 413,
+   "kind": "medal-linebreak",
+   "old": "Got 5 Dungeon / Medals.",
+   "new": "Got 5 Trap Game Medals."
+  },
+  {
+   "file": "data/type2_translated/batch_09.json",
+   "resource": 1353,
+   "msg_index": 420,
+   "kind": "medal-linebreak",
+   "old": "Right, Special / Medals!",
+   "new": "Right, Dark Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 606,
+   "kind": "verb-fix",
+   "old": "We're a medal shop - / we sell and buy all / kinds of medals.",
+   "new": "We're a medal shop - / we buy and loan all / kinds of medals."
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 619,
+   "kind": "medal-linebreak",
+   "old": "Got 5 Arena / Medals!",
+   "new": "Got 5 Trap Game Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 635,
+   "kind": "medal-linebreak",
+   "old": "Got a Dealer / Medal!",
+   "new": "Got a Dark Medals!"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 286,
+   "kind": "shopname",
+   "old": "Hey, welcome / to the Medal / Exchange!",
+   "new": "Hey, welcome / to the Medal Shop!"
+  },
+  {
+   "file": "data/type2_translated/batch_03.json",
+   "resource": 1203,
+   "msg_index": 288,
+   "kind": "shopname",
+   "old": "Hey, welcome to / the Medal / Exchange!",
+   "new": "Hey, welcome to / the Medal Shop!"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 603,
+   "kind": "shopname",
+   "old": "Hey, welcome / to the Medal / Exchange!",
+   "new": "Hey, welcome / to the Medal Shop!"
+  },
+  {
+   "file": "data/type2_translated/batch_r1207_fresh.json",
+   "resource": 1207,
+   "msg_index": 605,
+   "kind": "shopname",
+   "old": "Hey, welcome to / the Medal / Exchange!",
+   "new": "Hey, welcome to / the Medal Shop!"
+  }
+ ]
+}

@@ -189,7 +189,7 @@
     "resource": 1210,
     "msg_index": 36,
     "japanese": "いやね、オレってばちょっと[0588]りがあるわけよ。骨場のメダルなんだけどさ。",
-    "english": "Y'see, I got a / debt. It's about / dungeon Medals."
+    "english": "Y'see, I got a / debt. It's about / Trap Game Medals."
   },
   {
     "resource": 1210,
@@ -2895,7 +2895,7 @@
     "resource": 1210,
     "msg_index": 501,
     "japanese": "うちはメダルショップ。[041B]依メダルの[0512][0367]・[04A7]着をやってる店だ。",
-    "english": "We buy, sell, / and attach / dungeon Medals."
+    "english": "We buy and / loan Trap Game / Medals."
   },
   {
     "resource": 1210,
@@ -2943,7 +2943,7 @@
     "resource": 1210,
     "msg_index": 509,
     "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-    "english": "Buy Dungeon Medal? // '5 for 1000G' / Yes / No"
+    "english": "Buy Trap Game Medal? // '5 for 1000G' / Yes / No"
   },
   {
     "resource": 1210,
@@ -2961,7 +2961,7 @@
     "resource": 1210,
     "msg_index": 514,
     "japanese": "骨場のメダルを５枚力に入れた ",
-    "english": "Obtained 5 / Dungeon Medals!"
+    "english": "Obtained 5 / Trap Game Medals!"
   },
   {
     "resource": 1210,
@@ -2997,7 +2997,7 @@
     "resource": 1210,
     "msg_index": 521,
     "japanese": "え～！はいはい、打扱のメダルね！。",
-    "english": "Special Medals, / right!"
+    "english": "Dark Medals, / right!"
   },
   {
     "resource": 1210,
@@ -3009,7 +3009,7 @@
     "resource": 1210,
     "msg_index": 523,
     "japanese": "骨場のメダルだったらあるぜ どうだい、買ってくれよ ",
-    "english": "Got Dungeon / Medals though. / Wanna buy?"
+    "english": "Got Trap Game Medals though. / Wanna buy?"
   },
   {
     "resource": 1210,
@@ -3021,7 +3021,7 @@
     "resource": 1210,
     "msg_index": 525,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special Medal? // '1 for 1000G' / Yes / No"
+    "english": "Buy Dark Medal? // '1 for 1000G' / Yes / No"
   },
   {
     "resource": 1210,
@@ -3039,7 +3039,7 @@
     "resource": 1210,
     "msg_index": 530,
     "japanese": "打扱のメダルを力に入れた ",
-    "english": "Obtained / Special Medal!"
+    "english": "Obtained / Dark Medal!"
   },
   {
     "resource": 1210,
@@ -3075,7 +3075,7 @@
     "resource": 1210,
     "msg_index": 537,
     "japanese": "え～！はいはい、打扱のメダルね！。",
-    "english": "Special Medals, / right!"
+    "english": "Dark Medals, / right!"
   },
   {
     "resource": 1210,
@@ -3087,7 +3087,7 @@
     "resource": 1210,
     "msg_index": 539,
     "japanese": "骨場のメダルだったらあるぜ どうだい、買ってくれよ ",
-    "english": "Got Dungeon / Medals though. / Wanna buy?"
+    "english": "Got Trap Game Medals though. / Wanna buy?"
   },
   {
     "resource": 1210,
@@ -7011,7 +7011,7 @@
     "resource": 1211,
     "msg_index": 428,
     "japanese": "うちはメダルショップ。[041B]依メダルの[0512][0367]・[04A7]着をやってる店だ。",
-    "english": "We buy, sell, / and attach / dungeon Medals."
+    "english": "We buy and / loan Trap Game / Medals."
   },
   {
     "resource": 1211,
@@ -7059,7 +7059,7 @@
     "resource": 1211,
     "msg_index": 436,
     "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-    "english": "Buy Dungeon Medal? // '5 for 1000G' / Yes / No"
+    "english": "Buy Trap Game Medal? // '5 for 1000G' / Yes / No"
   },
   {
     "resource": 1211,
@@ -7077,7 +7077,7 @@
     "resource": 1211,
     "msg_index": 441,
     "japanese": "骨場のメダルを５枚力に入れた ",
-    "english": "Obtained 5 / Dungeon Medals!"
+    "english": "Obtained 5 / Trap Game Medals!"
   },
   {
     "resource": 1211,
@@ -7113,7 +7113,7 @@
     "resource": 1211,
     "msg_index": 448,
     "japanese": "え～！はいはい、打扱のメダルね！。",
-    "english": "Special Medals, / right!"
+    "english": "Dark Medals, / right!"
   },
   {
     "resource": 1211,
@@ -7125,7 +7125,7 @@
     "resource": 1211,
     "msg_index": 450,
     "japanese": "骨場のメダルだったらあるぜ どうだい、買ってくれよ ",
-    "english": "Got Dungeon / Medals though. / Wanna buy?"
+    "english": "Got Trap Game Medals though. / Wanna buy?"
   },
   {
     "resource": 1211,
@@ -7137,7 +7137,7 @@
     "resource": 1211,
     "msg_index": 452,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special Medal? // '1 for 1000G' / Yes / No"
+    "english": "Buy Dark Medal? // '1 for 1000G' / Yes / No"
   },
   {
     "resource": 1211,
@@ -7155,7 +7155,7 @@
     "resource": 1211,
     "msg_index": 457,
     "japanese": "打扱のメダルを力に入れた ",
-    "english": "Obtained / Special Medal!"
+    "english": "Obtained / Dark Medal!"
   },
   {
     "resource": 1211,
@@ -7191,7 +7191,7 @@
     "resource": 1211,
     "msg_index": 464,
     "japanese": "え～！はいはい、打扱のメダルね！。",
-    "english": "Special Medals, / right!"
+    "english": "Dark Medals, / right!"
   },
   {
     "resource": 1211,
@@ -7203,7 +7203,7 @@
     "resource": 1211,
     "msg_index": 466,
     "japanese": "骨場のメダルだったらあるぜ どうだい、買ってくれよ ",
-    "english": "Got Dungeon / Medals though. / Wanna buy?"
+    "english": "Got Trap Game Medals though. / Wanna buy?"
   },
   {
     "resource": 1211,

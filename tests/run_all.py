@@ -26,6 +26,7 @@ MODULES = [
     "test_line_width",
     "test_dialogue_rewrap",
     "test_narration_wrap",
+    "test_narration_overflow",
     "test_narration_centering",
     "test_narration_left_align",
     "test_narration_pad_map",

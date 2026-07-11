@@ -1,0 +1,152 @@
+{
+ "note": "v185 owner canon Gin/Swordsman/Temple(Salem-facility) + R2654 Mocchi/Rudiker; reverse each",
+ "re_rules": [
+  [
+   "\\bJin\\b",
+   "Gin"
+  ],
+  [
+   "\\bSwordman\\b",
+   "Swordsman"
+  ]
+ ],
+ "lit_rules": [
+  [
+   "Salem Church",
+   "Salem Temple"
+  ],
+  [
+   "Church of Salem",
+   "Temple of Salem"
+  ],
+  [
+   "Salem church",
+   "Salem temple"
+  ]
+ ],
+ "changes": [
+  {
+   "file": "data/type2_translated/batch_09.json",
+   "path": "$[838].english",
+   "old": "If you need / supplies, visit / the Salem church / first.",
+   "new": "If you need / supplies, visit / the Salem temple / first."
+  },
+  {
+   "file": "data/type2_translated/batch_r39_equip_a.json",
+   "path": "$[245].english",
+   "old": "I don't mind entrusting you with the noble\ntask of spreading the healing power of the\nChurch of Salem throughout the world.",
+   "new": "I don't mind entrusting you with the noble\ntask of spreading the healing power of the\nTemple of Salem throughout the world."
+  },
+  {
+   "file": "data/translate_chunks/chunk_04_translated.json",
+   "path": "$[78].english",
+   "old": "Salem Church. What / business brings you / here? /",
+   "new": "Salem Temple. What / business brings you / here? /"
+  },
+  {
+   "file": "data/translate_chunks/chunk_04_translated.json",
+   "path": "$[81].english",
+   "old": "Then let us receive / the offering due to / Salem Church. / ",
+   "new": "Then let us receive / the offering due to / Salem Temple. / "
+  },
+  {
+   "file": "data/translate_chunks/chunk_r2654_library_fix.json",
+   "path": "$[59].english",
+   "old": "The 6th Trap Contest - a trap-game high-score battle! Splendid prizes. Play during the term; your best score enters, tries unlimited. Past winners: 5th Raiman 86, 4th Ingo 65, 3rd Jin 77, 2nd Lidi 49, 1st Ingo 53.",
+   "new": "The 6th Trap Contest - a trap-game high-score battle! Splendid prizes. Play during the term; your best score enters, tries unlimited. Past winners: 5th Raiman 86, 4th Ingo 65, 3rd Gin 77, 2nd Lidi 49, 1st Ingo 53."
+  },
+  {
+   "file": "data/translate_chunks/chunk_r2654_library_fix.json",
+   "path": "$[127].english",
+   "old": "Jin made it. / Very sharp.",
+   "new": "Gin made it. / Very sharp."
+  },
+  {
+   "file": "data/translate_chunks/chunk_r34_fix.json",
+   "path": "$[471].english",
+   "old": "Jin's Blade / ",
+   "new": "Gin's Blade / "
+  },
+  {
+   "file": "data/translate_chunks/chunk_r36_translated.json",
+   "path": "$[66].english",
+   "old": "Swordman",
+   "new": "Swordsman"
+  },
+  {
+   "file": "data/translate_chunks/chunk_r40_r42_translated.json",
+   "path": "$[55].english",
+   "old": "Salem Church. / What is your / business here? /",
+   "new": "Salem Temple. / What is your / business here? /"
+  },
+  {
+   "file": "data/r34_english_aligned.json",
+   "path": "$.entries[993].english",
+   "old": "Jin's Blade",
+   "new": "Gin's Blade"
+  },
+  {
+   "file": "data/r34_english_aligned.json",
+   "path": "$.entries[1044].english",
+   "old": "A blade Jin says he forged himself. It looks remarkably sharp.",
+   "new": "A blade Gin says he forged himself. It looks remarkably sharp."
+  },
+  {
+   "file": "data/r2654_library_names.json",
+   "path": "$.28.66",
+   "old": "Swordman",
+   "new": "Swordsman"
+  },
+  {
+   "file": "data/r2654_library_names.json",
+   "path": "$.14.18",
+   "old": "Jin's Blade",
+   "new": "Gin's Blade"
+  },
+  {
+   "file": "data/r39_quest_text_aligned.json",
+   "path": "$.348.english",
+   "old": "I'd gladly entrust you with spreading the Church of Salem's healing power across the world.",
+   "new": "I'd gladly entrust you with spreading the Temple of Salem's healing power across the world."
+  },
+  {
+   "file": "data/strip_labels/facility_labels.json",
+   "path": "$.2141_type02.sheets[0].labels[8].text",
+   "old": "Salem Church",
+   "new": "Salem Temple"
+  },
+  {
+   "file": "data/strip_labels/r2124_labels.json",
+   "path": "$.labels[1].english",
+   "old": "Salem Church",
+   "new": "Salem Temple"
+  },
+  {
+   "file": "data/name_labels.json",
+   "path": "$.マッチモッチノッチ",
+   "old": null,
+   "new": "Mocchi"
+  },
+  {
+   "file": "data/name_labels.json",
+   "path": "$.リューディカー",
+   "old": null,
+   "new": "Rudiker"
+  },
+  {
+   "file": "data/r2654_party_names.json",
+   "path": "$.entries.マッチモッチノッチ",
+   "old": "Mamonotch",
+   "new": "Mocchi"
+  }
+ ],
+ "r1200_canon_align": [
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w4a_r1200.json",
+   "resource": 1200,
+   "msg_index": 37,
+   "old": "Surely you too have heard of that man, Simson.",
+   "new": "Surely you too have heard of that man, Simzon."
+  }
+ ]
+}

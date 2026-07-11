@@ -1661,7 +1661,7 @@
   "resource": 1207,
   "msg_index": 603,
   "japanese": "オ}ガおう^いらっしゃい_ / メダル所へようこそ!",
-  "english": "Hey, welcome / to the Medal / Exchange!"
+  "english": "Hey, welcome / to the Medal Shop!"
  },
  {
   "resource": 1207,
@@ -1673,13 +1673,13 @@
   "resource": 1207,
   "msg_index": 605,
   "japanese": "おう^いらっしゃい_ / メダル所へようこそ!",
-  "english": "Hey, welcome to / the Medal / Exchange!"
+  "english": "Hey, welcome to / the Medal Shop!"
  },
  {
   "resource": 1207,
   "msg_index": 606,
   "japanese": "うちはメダルショップ_ / 長依メダルの[0x0512]売{倒着を / やってる店だ_",
-  "english": "We're a medal shop - / we sell and buy all / kinds of medals."
+  "english": "We're a medal shop - / we buy and loan all / kinds of medals."
  },
  {
   "resource": 1207,
@@ -1715,7 +1715,7 @@
   "resource": 1207,
   "msg_index": 613,
   "japanese": "骨場のメダルは5枚で1000Gだ_ / 買っていくのか?",
-  "english": "Arena medals are 5 / for 1000G. / Buying?"
+  "english": "Trap Game Medals are 5 / for 1000G. / Buying?"
  },
  {
   "resource": 1207,
@@ -1733,7 +1733,7 @@
   "resource": 1207,
   "msg_index": 619,
   "japanese": "骨場のメダルを5枚力に入れた!",
-  "english": "Got 5 Arena / Medals!"
+  "english": "Got 5 Trap Game Medals!"
  },
  {
   "resource": 1207,
@@ -1769,7 +1769,7 @@
   "resource": 1207,
   "msg_index": 626,
   "japanese": "え~|はいはい^打扱のメダルね|_",
-  "english": "Ehh... right-o, / dealer medals, / yeah...?"
+  "english": "Ehh... right-o, / Dark Medals, / yeah...?"
  },
  {
   "resource": 1207,
@@ -1781,13 +1781,13 @@
   "resource": 1207,
   "msg_index": 628,
   "japanese": "骨場のメダルだったらあるぜ! / どうだい^買ってくれよ!",
-  "english": "Arena medals I got! / How 'bout it - / buy some!"
+  "english": "Trap Game Medals I got! / How 'bout it - / buy some!"
  },
  {
   "resource": 1207,
   "msg_index": 629,
   "japanese": "打扱のメダルは1枚限期で / 1000Gだが買っていくのか?",
-  "english": "Dealer medals are / limited to 1 each, / 1000G. Buying?"
+  "english": "Dark Medals are / limited to 1 each, / 1000G. Buying?"
  },
  {
   "resource": 1207,
@@ -1805,7 +1805,7 @@
   "resource": 1207,
   "msg_index": 635,
   "japanese": "打扱のメダルを力に入れた!",
-  "english": "Got a Dealer / Medal!"
+  "english": "Got a Dark Medals!"
  },
  {
   "resource": 1207,
@@ -1841,7 +1841,7 @@
   "resource": 1207,
   "msg_index": 642,
   "japanese": "え~|はいはい^打扱のメダルね|_",
-  "english": "Ehh... right-o, / dealer medals, / yeah...?"
+  "english": "Ehh... right-o, / Dark Medals, / yeah...?"
  },
  {
   "resource": 1207,
@@ -1853,7 +1853,7 @@
   "resource": 1207,
   "msg_index": 644,
   "japanese": "骨場のメダルだったらあるぜ! / どうだい^買ってくれよ!",
-  "english": "Arena medals I got! / How 'bout it - / buy some!"
+  "english": "Trap Game Medals I got! / How 'bout it - / buy some!"
  },
  {
   "resource": 1207,

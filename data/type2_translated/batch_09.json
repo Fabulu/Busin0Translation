@@ -2307,7 +2307,7 @@
     "resource": 1353,
     "msg_index": 400,
     "japanese": "うちはメダルショップ。[041B]依メダルの[0512][0367]・[04A7]着をやってる店だ。",
-    "english": "We trade medals."
+    "english": "We buy and loan medals."
   },
   {
     "resource": 1353,
@@ -2373,7 +2373,7 @@
     "resource": 1353,
     "msg_index": 413,
     "japanese": "骨場のメダルを５枚力に入れた ",
-    "english": "Got 5 Dungeon / Medals."
+    "english": "Got 5 Trap Game Medals."
   },
   {
     "resource": 1353,
@@ -2409,7 +2409,7 @@
     "resource": 1353,
     "msg_index": 420,
     "japanese": "え～！はいはい、打扱のメダルね！。",
-    "english": "Right, Special / Medals!"
+    "english": "Right, Dark Medals!"
   },
   {
     "resource": 1353,
@@ -2421,7 +2421,7 @@
     "resource": 1353,
     "msg_index": 422,
     "japanese": "骨場のメダルだったらあるぜ どうだい、買ってくれよ ",
-    "english": "Got Dungeon Medals."
+    "english": "Got Trap Game Medals."
   },
   {
     "resource": 1353,
@@ -2451,7 +2451,7 @@
     "resource": 1353,
     "msg_index": 429,
     "japanese": "打扱のメダルを力に入れた ",
-    "english": "Got Special Medal."
+    "english": "Got Dark Medal."
   },
   {
     "resource": 1353,
@@ -5031,7 +5031,7 @@
     "resource": 1354,
     "msg_index": 212,
     "japanese": "そうそう、もし[0346][034F]が必[0409]ならば、サレム制[033F]に行ってから帰るとよい。",
-    "english": "If you need / supplies, visit / the Salem church / first."
+    "english": "If you need / supplies, visit / the Salem temple / first."
   },
   {
     "resource": 1354,

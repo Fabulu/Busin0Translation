@@ -3309,7 +3309,7 @@
   "resource": 1206,
   "msg_index": 566,
   "japanese": "うちはメダルショップ。[041B]依メダルの[0512][0367]・[04A7]着をやってる店だ。",
-  "english": "Sell special / medals."
+  "english": "Loan Dark / medals."
  },
  {
   "resource": 1206,
@@ -3357,7 +3357,7 @@
   "resource": 1206,
   "msg_index": 574,
   "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-  "english": "Buy arena medals? 5 for 1000G // Yes / No"
+  "english": "Buy Trap Game Medals? 5 for 1000G // Yes / No"
  },
  {
   "resource": 1206,
@@ -3435,7 +3435,7 @@
   "resource": 1206,
   "msg_index": 590,
   "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-  "english": "Buy dealer medals? 1 for 1000G // Yes / No"
+  "english": "Buy Dark Medals? 1 for 1000G // Yes / No"
  },
  {
   "resource": 1206,
@@ -7173,13 +7173,13 @@
   "resource": 1207,
   "msg_index": 614,
   "japanese": "骨場のメダルを[05AB]入しますか？「５枚！１０００g」は いいいえ",
-  "english": "Buy arena medals? 5 for 1000G // Yes / No"
+  "english": "Buy Trap Game Medals? 5 for 1000G // Yes / No"
  },
  {
   "resource": 1207,
   "msg_index": 630,
   "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-  "english": "Buy dealer medals? 1 for 1000G // Yes / No"
+  "english": "Buy Dark Medals? 1 for 1000G // Yes / No"
  },
  {
   "resource": 1207,

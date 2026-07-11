@@ -345,7 +345,7 @@
     "resource": 1196,
     "msg_index": 61,
     "japanese": "女aイだからそれを必えるためにこうやって以戦会衛をしてるんじゃない ゴ女bイ以戦！っていったって、なにも思いつかないわ！ゴ女aイフッ！アタイにはあるわ 倒携の報は！骨場よ ゴ女bイまた法悔[0182]？ 同じ事の[0421]り大しじゃ！ゴ",
-    "english": "That's why / we're thinking!\nGirl B: I have / no ideas!\nGirl A: Ha! I do! / The tavern!\nGirl B: The guide?"
+    "english": "That's why / we're thinking!\nGirl B: I have / no ideas!\nGirl A: Ha! I do! / The Bar!\nGirl B: The guide?"
   },
   {
     "resource": 1196,
@@ -357,7 +357,7 @@
     "resource": 1196,
     "msg_index": 63,
     "japanese": "女aイ兜集遺だってば 骨場は[0405]める者神を[036D]いたい騎騎者の[0335]まり場らしいわ ゴ女bイ！そうね、うん、そうだわ。やってみましょう ゴ女aイよし、そうと携まれば骨場に話ぐわよ ゴ女bイそうね、話がなきゃ ゴ",
-    "english": "Trust me! / The tavern's full of / adventurers!\nGirl B: Let's try!\nGirl A: To the tavern!\nGirl B: Let's go!"
+    "english": "Trust me! / The Bar's full of / adventurers!\nGirl B: Let's try!\nGirl A: To the Bar!\nGirl B: Let's go!"
   },
   {
     "resource": 1196,
@@ -4905,7 +4905,7 @@
     "resource": 1196,
     "msg_index": 839,
     "japanese": "ジンはそういうと一[0641]忠口の[0269]を開けて骨場の中へ入っていった。",
-    "english": "Gin went through / the back door / and into the / tavern."
+    "english": "Gin went through / the back door / and into the / Bar."
   },
   {
     "resource": 1196,
@@ -4929,13 +4929,13 @@
     "resource": 1196,
     "msg_index": 844,
     "japanese": "ポローラ通り１２４−３、骨場の法悔[0182]で見た杯暗を頼りにベノアン書店のオフィスへ向かった。",
-    "english": "Following the / tavern's / address, you / made your way"
+    "english": "Following the / Bar's / address, you / made your way"
   },
   {
     "resource": 1196,
     "msg_index": 845,
     "japanese": "オフィスがあるとは思えない杯[0395]乙の[0390]遠を一朽一朽探かめながらベノアン書店を素すこと一時嫌。",
-    "english": "tavern notice, / you headed to / the Venoan / Bookstore."
+    "english": "Bar notice, / you headed to / the Venoan / Bookstore."
   },
   {
     "resource": 1196,
@@ -5565,7 +5565,7 @@
     "resource": 1197,
     "msg_index": 2,
     "japanese": "店消ジン骨場のカウンターの[052E]では、[03DE]掲が依頼した一事を騎騎者に[0165]団するサービスが行われている。",
-    "english": "At Gin's tavern / counter, / requests were / offered to // adventurers."
+    "english": "At Gin's Bar / counter, / requests were / offered to // adventurers."
   },
   {
     "resource": 1197,
@@ -6141,7 +6141,7 @@
     "resource": 1197,
     "msg_index": 100,
     "japanese": "メラーニエとミリィは店社から魔法剣を受け取り、骨場を出て行った。",
-    "english": "Melanie and Milly / took the stone and / left the tavern."
+    "english": "Melanie and Milly / took the stone and / left the Bar."
   },
   {
     "resource": 1197,
@@ -6651,7 +6651,7 @@
     "resource": 1197,
     "msg_index": 194,
     "japanese": "ヨッペンはスキップで骨場を出て行った！。",
-    "english": "Yoppen skipped / out of the / tavern."
+    "english": "Yoppen skipped / out of the / Bar."
   },
   {
     "resource": 1197,
@@ -6849,7 +6849,7 @@
     "resource": 1197,
     "msg_index": 229,
     "japanese": "ヨッペンは習数よく骨場を出て行った。",
-    "english": "Yoppen left the / tavern."
+    "english": "Yoppen left the / Bar."
   },
   {
     "resource": 1197,
@@ -7107,7 +7107,7 @@
     "resource": 1197,
     "msg_index": 273,
     "japanese": "ライマンはお[04C1][0487]をするとおぼつかない加取りで骨場を装にした。",
-    "english": "Raiman bowed / awkwardly and / left the tavern."
+    "english": "Raiman bowed / awkwardly and / left the Bar."
   },
   {
     "resource": 1197,
@@ -7581,7 +7581,7 @@
     "resource": 1197,
     "msg_index": 355,
     "japanese": "骨場に入った[0272]自、兜声が聞こえた。",
-    "english": "A loud voice / called as you / entered the / tavern."
+    "english": "A loud voice / called as you / entered the / Bar."
   },
   {
     "resource": 1197,
@@ -8277,7 +8277,7 @@
     "resource": 1197,
     "msg_index": 475,
     "japanese": "ジン骨場に待ち復ると、ジンがカウンターから出てきて出上えてくれた。",
-    "english": "Back at the / tavern Gin came / out to greet / you."
+    "english": "Back at the / Bar Gin came / out to greet / you."
   },
   {
     "resource": 1197,
@@ -8463,7 +8463,7 @@
     "resource": 1197,
     "msg_index": 508,
     "japanese": "フドウは骨場の店社に骨形を払い、店を出て行った。",
-    "english": "Fudo paid and / left the tavern."
+    "english": "Fudo paid and / left the Bar."
   },
   {
     "resource": 1197,
@@ -9189,7 +9189,7 @@
     "resource": 1197,
     "msg_index": 633,
     "japanese": "ラング骨場では盗[05FD]者ラングが[044D]度、名事をとっていた。",
-    "english": "Lang was eating / at the tavern."
+    "english": "Lang was eating / at the Bar."
   },
   {
     "resource": 1197,
@@ -9531,7 +9531,7 @@
     "resource": 1197,
     "msg_index": 691,
     "japanese": "ラング骨場では盗[05FD]者ラングが、[04F3]思の[0516][0190]を待っているところだった。",
-    "english": "Lang was at the / tavern waiting / for his meal."
+    "english": "Lang was at the / Bar waiting / for his meal."
   },
   {
     "resource": 1197,
@@ -9921,7 +9921,7 @@
     "resource": 1197,
     "msg_index": 757,
     "japanese": "ラング骨場では、盗[05FD]者ラングが行の落と少多していた。",
-    "english": "In the tavern, / Healer Lang was / chatting with the / patrons."
+    "english": "In the Bar, / Healer Lang was / chatting with the / patrons."
   },
   {
     "resource": 1197,
@@ -10167,7 +10167,7 @@
     "resource": 1197,
     "msg_index": 800,
     "japanese": "ラングは店を出て行った。",
-    "english": "Lang left the / tavern."
+    "english": "Lang left the / Bar."
   },
   {
     "resource": 1197,
@@ -10227,7 +10227,7 @@
     "resource": 1197,
     "msg_index": 810,
     "japanese": "ラングはぶつぶつ[03D1]り言を言いながら店を出て行った。",
-    "english": "Muttering to / himself, Lang / left the tavern."
+    "english": "Muttering to / himself, Lang / left the Bar."
   },
   {
     "resource": 1197,
@@ -10287,7 +10287,7 @@
     "resource": 1197,
     "msg_index": 820,
     "japanese": "ラングはぶつぶつ[03D1]り言を言いながら店を出て行った。",
-    "english": "Muttering to / himself, Lang / left the tavern."
+    "english": "Muttering to / himself, Lang / left the Bar."
   },
   {
     "resource": 1197,
@@ -10305,7 +10305,7 @@
     "resource": 1197,
     "msg_index": 823,
     "japanese": " 与 スコーン依頼を受けると、骨場の奥で店長を見回していた与が一者、こちらに多づいて帰た。",
-    "english": "When you took the / request, a man / who'd been looking / around the tavern // came up to you."
+    "english": "When you took the / request, a man / who'd been looking / around the Bar // came up to you."
   },
   {
     "resource": 1197,
@@ -10467,7 +10467,7 @@
     "resource": 1197,
     "msg_index": 850,
     "japanese": "スコーン骨場に入ると、待ち受けていたように[045C]発命蓄のスコーンがやってきた。",
-    "english": "As you entered / the tavern, Scone / bounded over as / if he'd been // lying in wait."
+    "english": "As you entered / the Bar, Scone / bounded over as / if he'd been // lying in wait."
   },
   {
     "resource": 1197,
@@ -10569,7 +10569,7 @@
     "resource": 1197,
     "msg_index": 867,
     "japanese": "スコーンは[045C]びを設えきれず、知声を[049A]しながらジタバタと骨場の中を休り回った。",
-    "english": "Unable to hold it / in, Scone / shrieked and ran / flailing around // the tavern."
+    "english": "Unable to hold it / in, Scone / shrieked and ran / flailing around // the Bar."
   },
   {
     "resource": 1197,
@@ -10761,7 +10761,7 @@
     "resource": 1197,
     "msg_index": 899,
     "japanese": "骨場では唱くの騎騎者達が骨や名事を武しみ、騎騎少や[032A]嫌質などを[014D]わしながら、しばしの[045D]息を町わっていた。",
-    "english": "In the tavern, / adventurers / enjoyed drink and / food, trading // tales and rumors, / savoring a brief / rest."
+    "english": "In the Bar, / adventurers / enjoyed drink and / food, trading // tales and rumors, / savoring a brief / rest."
   },
   {
     "resource": 1197,
@@ -10797,7 +10797,7 @@
     "resource": 1197,
     "msg_index": 905,
     "japanese": "骨場が祠き受ける依頼は、[0490]役宿に[01E3]帰前が道登帰みの名層に[014B]られている。",
-    "english": "This tavern only / handles requests / for floors that // mapped parties / have charted."
+    "english": "This Bar only / handles requests / for floors that // mapped parties / have charted."
   },
   {
     "resource": 1197,
@@ -10983,7 +10983,7 @@
     "resource": 1197,
     "msg_index": 937,
     "japanese": "の良に[0141]づいた女[01E3]帰は、その召出から威れるように店の義に防っていった。",
-    "english": "Composing / herself, the / knight slipped / out of the / tavern."
+    "english": "Composing / herself, the / knight slipped / out of the / Bar."
   },
   {
     "resource": 1197,
@@ -11553,7 +11553,7 @@
     "resource": 1197,
     "msg_index": 1032,
     "japanese": "依頼の報女は骨場のオーナーに[043F]けておきますので、依頼[0447][0448]時には彼から受け取ってください。",
-    "english": "The reward is / with the tavern / owner. Collect / it when done."
+    "english": "The reward is / with the Bar / owner. Collect / it when done."
   },
   {
     "resource": 1197,

@@ -1,0 +1,114 @@
+[
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1200,
+  "msg_index": 33,
+  "old": "In other cities, temples tended the sick and the poor with all manner of treatments; here, though, nearly all who sought care were adventurers.",
+  "new": "In other cities, temples tended the sick and poor with all manner of care; here, nearly all who came were adventurers.",
+  "old_winning_batch": "batch_zz_guide_upgrade_w4a_r1200.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1200,
+  "msg_index": 85,
+  "old": "A corpse lay upon the pedestal, the leader of an adventuring party. His companions held his cold hands and quietly shed tears, while the priest meditating beside them opened his eyes and gently drew back the cloth covering the dead man's face.",
+  "new": "A corpse lay on the pedestal-- a party's leader. Companions wept over his cold hands as the priest drew the cloth from his face.",
+  "old_winning_batch": "batch_zz_guide_upgrade_w4b_r1200.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1200,
+  "msg_index": 86,
+  "old": "The pipe organ by the altar took up a mournful melody, and to it the choir sang a song of grief. The priest held his hands above the corpse and began a soft incantation, repeating the difficult words swiftly yet ever more beautifully, while the companions closed their eyes and murmured their hopes for the leader's return.",
+  "new": "A mournful organ and choir filled the hall. The priest chanted over the corpse as the companions prayed for their leader's return.",
+  "old_winning_batch": "batch_zz_guide_upgrade_w4b_r1200.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1200,
+  "msg_index": 87,
+  "old": "After a while, a faint aura of divine light began to seep from the priest's outstretched hands. Little by little it drifted down into the corpse, and as it wrapped the body in a glow, the once-icy hands grew warm and, ever so faintly, returned the companion's grasp.",
+  "new": "Divine light seeped from the priest's hands into the corpse. As it glowed, the icy hands warmed and faintly returned the companion's grasp.",
+  "old_winning_batch": "batch_zz_guide_upgrade_w4b_r1200.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1200,
+  "msg_index": 88,
+  "old": "The adventurer, his soul returned to his body, was dazzled by the divine light. When at last his eyes adjusted, his companion's face alone stayed blurred, and not from his own sight, but from the great tears brimming in the companion's eyes.",
+  "new": "His soul returned, the adventurer was dazzled by the light. Yet his companion's face stayed blurred-- not from his eyes, but from tears.",
+  "old_winning_batch": "batch_zz_guide_upgrade_w4b_r1200.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1203,
+  "msg_index": 451,
+  "old": "If you have a complaint, the Seraph attendants of this shop will come from the labyrinth. Please act in good conscience. We take no responsibility for rule violations. -Attendant Seraph",
+  "new": "Complaints? Our Seraph attendants come from the labyrinth. Act in good faith; we are not liable for violations. -Attendant Seraph",
+  "old_winning_batch": "batch_03.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1206,
+  "msg_index": 709,
+  "old": "Weary of this fleeting life, / never knowing true love, / dying without a trace... // Come to me, come... / Let us sleep in the cold dark, / for the darkness hides all... / Do as your heart desires... // To think you could fell the / bewitched Succubus. You have / grown strong indeed.",
+  "new": "Weary of fleeting life, unloved, / dying without a trace... / Come, sleep where all is hidden... / You felled the Succubus, / now grown strong.",
+  "old_winning_batch": "batch_zz_guide_upgrade_w1.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1210,
+  "msg_index": 101,
+  "old": "Embrace me. Your flesh / will be my body, your / blood will run / through my veins. // Blessed are the small / ones: they shall join / something greater and / live forever.",
+  "new": "Embrace me. Your flesh becomes my / body, your blood my veins. // Blessed are the small: they join / something greater, and live forever.",
+  "old_winning_batch": "batch_zz_guide_upgrade_w2.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1213,
+  "msg_index": 4,
+  "old": "Come forth, my children. / Devour to your hearts' / content. All this food / is ours. // The cries of all living / things are our joy. Let / us judge them with / great delight. // A killing intent blew / down upon you like / a searing wind.",
+  "new": "Come, children. Devour; all is ours. / Their cries are our joy to judge. // A killing intent swept over / you like a searing wind.",
+  "old_winning_batch": "batch_zz_guide_upgrade_w3.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1355,
+  "msg_index": 39,
+  "old": "Hey! / She has returned! / Soldier B: How are they? / She's unwounded, right? / Soldier A: She had just / handed Rudy the head / of a demon. Not a / scratch on her. / Soldier B: Incredible!",
+  "new": "Hey, she's back! / Soldier B: How is she? Unhurt? / Soldier A: She gave Rudy a / demon's head. Not a scratch. / Soldier B: Incredible!",
+  "old_winning_batch": "batch_gap1347.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1355,
+  "msg_index": 41,
+  "old": "This time we went / to the sixth floor, but / there was no trace of / Aurora anywhere. / Soldier C: Any leads? / Aoi: Yes, but there was / one thing that caught / my attention. / Soldier C: What was it? / Please tell us. / Aoi: When I went deep / into the second floor, / I sensed something / strange and powerful!",
+  "new": "Floor 6 held no sign of Aurora. / Soldier C: Any leads? / Aoi: One thing caught my eye: / on floor 2, a strange, / powerful presence!",
+  "old_winning_batch": "batch_gap1347.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1355,
+  "msg_index": 42,
+  "old": "Was it Aurora? / Aoi: I don't think so. / It was something far more / evil than any demon. / Sorry I can't describe / it better. / Soldier D: That's fine. / If the famous Aoi says so, / it must be true. / Soldier C: Let's hurry and / authorize a search party / for the 2nd floor.",
+  "new": "Was it Aurora? / Aoi: No, something far worse-- / an evil beyond any demon. / Soldier D: If you say so, Aoi. / Soldier C: Search floor 2 at once.",
+  "old_winning_batch": "batch_gap1347.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1355,
+  "msg_index": 53,
+  "old": "Well then, / we will escort you / to the inn. / Aoi: On watch duty today / too, I see. I wonder how / much more carefree life / outside would be. / Soldier D: We are sorry / about that!",
+  "new": "Well then, we'll escort you to the inn. / Aoi: On guard duty again, I see. / Life outside must be far freer. / Soldier D: We're sorry about that!",
+  "old_winning_batch": "batch_gap1347.json"
+ },
+ {
+  "file": "data/type2_translated/batch_zz_narration_fix.json",
+  "resource": 1355,
+  "msg_index": 54,
+  "old": "My dream is to / sleep in a place where / no one will disturb me. / Soldier C: We're just going / to stand by the door. / Soldier D: We have no plans / to interrupt your rest. / Aoi: I know, I know. / It was just a joke. / I've gotten used to it.",
+  "new": "My dream: to sleep undisturbed. / Soldier C: We'll wait by the door. / Soldier D: We won't disturb you. / Aoi: I know. Just a joke.",
+  "old_winning_batch": "batch_gap1347.json"
+ }
+]

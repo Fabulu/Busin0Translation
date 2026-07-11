@@ -2319,7 +2319,7 @@
     "resource": 1212,
     "msg_index": 400,
     "japanese": "うちはメダルショップ。[041B]依メダルの[0512][0367]・[04A7]着をやってる店だ。",
-    "english": "We trade medals."
+    "english": "We buy and loan medals."
   },
   {
     "resource": 1212,
@@ -2385,7 +2385,7 @@
     "resource": 1212,
     "msg_index": 413,
     "japanese": "骨場のメダルを５枚力に入れた ",
-    "english": "Got 5 Dungeon / Medals."
+    "english": "Got 5 Trap Game Medals."
   },
   {
     "resource": 1212,
@@ -2421,7 +2421,7 @@
     "resource": 1212,
     "msg_index": 420,
     "japanese": "え～！はいはい、打扱のメダルね！。",
-    "english": "Right, Special / Medals!"
+    "english": "Right, Dark Medals!"
   },
   {
     "resource": 1212,
@@ -2433,7 +2433,7 @@
     "resource": 1212,
     "msg_index": 422,
     "japanese": "骨場のメダルだったらあるぜ どうだい、買ってくれよ ",
-    "english": "Got Dungeon Medals."
+    "english": "Got Trap Game Medals."
   },
   {
     "resource": 1212,
@@ -2445,7 +2445,7 @@
     "resource": 1212,
     "msg_index": 424,
     "japanese": "打扱のメダルを[05AB]入しますか？「１枚！１０００g」は いいいえ",
-    "english": "Buy Special Medal? / (1000G) // Yes / No"
+    "english": "Buy Dark Medal? / (1000G) // Yes / No"
   },
   {
     "resource": 1212,
@@ -2463,7 +2463,7 @@
     "resource": 1212,
     "msg_index": 429,
     "japanese": "打扱のメダルを力に入れた ",
-    "english": "Got Special Medal."
+    "english": "Got Dark Medal."
   },
   {
     "resource": 1212,
@@ -2499,7 +2499,7 @@
     "resource": 1212,
     "msg_index": 436,
     "japanese": "え～！はいはい、打扱のメダルね！。",
-    "english": "Right, Special / Medals!"
+    "english": "Right, Dark Medals!"
   },
   {
     "resource": 1212,
@@ -2511,7 +2511,7 @@
     "resource": 1212,
     "msg_index": 438,
     "japanese": "骨場のメダルだったらあるぜ どうだい、買ってくれよ ",
-    "english": "Got Dungeon Medals."
+    "english": "Got Trap Game Medals."
   },
   {
     "resource": 1212,

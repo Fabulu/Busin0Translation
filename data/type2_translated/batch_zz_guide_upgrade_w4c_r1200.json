@@ -1,0 +1,596 @@
+[
+  {
+    "resource": 1200,
+    "msg_index": 138,
+    "japanese": "野待たないようにフーケ開[0343]を短く力考きした。",
+    "english": "Your companions beckoned discreetly to Priest Fouquet, so as not to keep him waiting."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 139,
+    "japanese": "合[056A]に[0141]着いた開[0343]もまた、なるべく者野につかないように制[033F]の壁つたいに記をかがめて間休りでやってきた。",
+    "english": "Noticing the signal, the priest kept low and crept along the temple wall to reach you as inconspicuously as possible."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 140,
+    "japanese": "やや、役者さんは地いましたね。余を高びつけたということは[0562][0542]と復着臆の今も地いましたかな？",
+    "english": "\"Ah, so the actors have gathered. Since you've called me over, I take it the roles -- and the donation -- are all arranged as well?\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 142,
+    "japanese": "そうですか、[056B][046D]は[0447][056D]ですか なんとも頼もしいことです。",
+    "english": "\"I see -- so you're all set, then. How very reassuring.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 143,
+    "japanese": "では余が今から、制[033F]にいる一[046C][03DE]掲の[04F3]客をひきつけます。",
+    "english": "\"Now, I shall draw the attention of everyone gathered here in the temple.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 144,
+    "japanese": "そこからはシナリオ通りにお[036A]いしますよ くれぐれもお嫌違えのないよう！。",
+    "english": "\"From there on, follow the script exactly. Whatever you do, make no mistakes!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 145,
+    "japanese": "おや、まだだというのですか。！まあ[056B][046D]が出帰ていないのならば一今がありませんね。",
+    "english": "\"Oh? Not ready yet? Well, if your preparations aren't in order, then it can't be helped.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 146,
+    "japanese": "なるべく早くお[036A]いしますよ。彼がサレム制[033F]の[0514]帰がかかっているのですから。",
+    "english": "\"Please be quick about it. The good name of Salem Temple is riding on this.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 149,
+    "japanese": "開[0343]は義恵、制[033F]の義にも聞こえるかのような兜声をあげた。",
+    "english": "The priest let out a cry so loud it seemed to carry to the very back of the temple."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 150,
+    "japanese": "制[033F]長にいた者は岩いてこちらに[04F3]野する。",
+    "english": "Everyone inside the temple turned to look his way in astonishment."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 151,
+    "japanese": "そればかりか制[033F]着多にいた人[0219]の辺い者までもが、何事かと制[033F]長に[01D7]し復せた。",
+    "english": "More than that, even people who had been outside came rushing in to see what was happening."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 152,
+    "japanese": "イなんだ、なんだ一[02A1]ゴ  イ鎧かにして能しいわゴ イ何があったの？ゴ  イちょっと、見えない ゴ",
+    "english": "\"What is it? What's going on?\" \"Quiet down, would you!\" \"What happened?\" \"Hey, I can't see a thing!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 153,
+    "japanese": "一[04C4]のうちに、開[0343]を来む者[056E]ができた。",
+    "english": "In an instant, a crowd had formed around the priest."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 154,
+    "japanese": "フーケみなさん、聞いてやってくださいな。",
+    "english": "\"Everyone, please -- hear me out.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 155,
+    "japanese": "この騎騎者さんは、兜事な兜事なリーダーを[0437]くし、[056F]り知れない法しみの[0570]にのみ込まれています。",
+    "english": "\"This adventurer has lost a dear, precious leader, and is now swallowed up in immeasurable grief.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 156,
+    "japanese": "そこで、わらにもすがる思いで彼がサレム制[033F]へ力け込まれたというわけなのです ",
+    "english": "\"And so, clutching at any last hope, they have rushed here to our Salem Temple!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 157,
+    "japanese": "イそりゃまあ、[028E]んだままが数なら[049D]込しかないからなあ！ゴイでも、ここって[054C]生するにはすごい常のお[0268]宝がいるのよね！ゴ  イ敏[0571]は臆持ちだけが[036D]われる！かゴ  イカーカスが[0572][0439]だわゴ  イ！[04CF]なら秘を度うけど！ゴ",
+    "english": "\"Well, if you'd rather not stay dead, resurrection's the only way, isn't it.\" \"But it costs a fortune to be brought back here.\" \"In the end only the rich get saved, I suppose.\" \"Such a waste of good money.\" \"If it were me, I'd just use medicine.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 159,
+    "japanese": "何汝、この騎騎者さんが秘や魔法など声[01D9]なものに頼らずここへ帰られたかと言いますと！、",
+    "english": "\"Tell me -- why did this adventurer come here, rather than lean on cheap conveniences like medicine and magic?\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 160,
+    "japanese": "そんなことで兜事なリーダーを秘づけにしたくない、そして[01BA]を[053D][0552]に[0550]いたくない！。",
+    "english": "\"Because they will not treat a precious leader like some object, casting a life aside so carelessly!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 161,
+    "japanese": "また、秘や魔法には[0573]以毒がつきもの。[054C]生に汝[0499]した時の形[0360]はなんと[055A]の消[0408] ",
+    "english": "\"And medicine and magic carry side effects. Should a resurrection fail, the price is the annihilation of the very soul!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 162,
+    "japanese": "そうなってはもう彼が制[033F]でも[054C]生は大[01DD]築。",
+    "english": "\"Should that come to pass, not even Salem Temple could bring them back.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 163,
+    "japanese": "探者に、声用な今法でリーダーを[054C]らせたい そういう該者な思いからなのです。",
+    "english": "\"Truly, they wish to revive their leader by safe and honest means. That is their sincere, heartfelt desire.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 164,
+    "japanese": "さあ、[0405]める騎騎者よ。あなた値腕の力で、彼が制[033F]へ[054C]生のためのお[0268]宝をしてください。",
+    "english": "\"Now, grieving adventurers -- with your own hands, make an offering to Salem Temple for your leader's resurrection.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 166,
+    "japanese": "ご[04A9]主感[03AB]します。では、リーダーさんをこちらへ！。",
+    "english": "\"Thank you for your generosity. Now then, bring your leader over here.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 168,
+    "japanese": "開[0343]は何も言わず種っている。ただ[0170]瓶へリーダーを運くよう力で気し悔している。",
+    "english": "The priest said nothing, standing in silence. He merely gestured with his hand for the leader to be carried to the bed."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 170,
+    "japanese": "開[0343]と見物落が見内る中、リーダーの[028E][02A1]をそっと[0170]瓶に瓶らせる。だが、客識のないリーダーを瓶らせようとしたところで、重先を[0584]ばすことができない。立えていた力を払した[04C4]嫌、リーダーの[0437][0423]は装ろへ忘れ[0585]い系とともに宮を[0170]瓶にぶつけた。[0437][0423]はそのまま、[0170]瓶へあお向けになった。",
+    "english": "As the priest and onlookers watched, your companion tried to sit your body gently upon the bed. But a lifeless leader will not hold the pose; the neck simply would not stay upright. // The instant they let go, the corpse toppled backward and struck its head against the bed with a dull thud, coming to rest face up."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 171,
+    "japanese": "イリーダーは[028E]んでいるのですから生きている時と同じようにはいきませんよ！ゴ開[0343]は協神しい口道で質しながらリーダーの力を果み合わせ、[0339][0336]に[02A1]前を地えた。",
+    "english": "\"A corpse cannot move the way it did in life, you know!\" Scolding in a strained tone, the priest folded the leader's hands together and neatly arranged the body."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 172,
+    "japanese": "開[0343]と見物落が見内る中、リーダーの[028E][02A1]を[04AF]きかかえそっと[0170]瓶に[0464]かせる。そして、取れたままだった力を[04DC]の外で果ませた。イ[0141]の[0331]なこった！いくら[049D]込できるとはいえ、[028E]ぬ嫌[023A]は協しかっただろうな！ゴ[04D0]で見ている者も、者物の[0437][0423]を野の両にして、いっそう整れんだ。",
+    "english": "As the priest and onlookers watched, your companion cradled your body and gently laid it upon the bed, folding your still-heavy hands over your chest. // \"Poor things... even knowing their leader will return to life, the parting must have been agony.\" Seeing a real corpse before them, the watchers pitied you all the more."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 173,
+    "japanese": "開[0343]と見物落が見内る中、リーダーの[028E][02A1]を[0170]瓶の[04A6]忍に御らせる。わざわざ重の[01A8]い[0170]瓶に闘い[028E][02A1]を銀せなくとも、[028E]んでいるのだから喚で[0463]色だろう。だが、その[01BC]所を見ていた開[0343]達の召出は[03C3]ややかだった。イリーダーの[028E][02A1]を喚に子がすだなんて、[0586]知らずだわゴ見物落は間声で[0587][0489]をしている。",
+    "english": "Your companion set your body down beneath the bed; since you were already dead, hoisting the heavy corpse up onto it seemed pointless -- the floor would do. But the watching priests turned cold eyes on the act, and the crowd muttered that laying a leader on the floor was shameless."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 174,
+    "japanese": "イこれこれ、リーダーの[028E]で[0141]が功子しているのはわかるが、もう少し、しっかりしなさい。[054C]生の[0487][042C]を行うのですよゴ開[0343]の力を[0588]り、リーダーの[028E][02A1]を慎めて[0170]瓶の外へ[0464]かせた。開[0343]のフォローに[03D0]得したのか者神も[0587][0489]をやめ、また整れみの[0390][016A]を呪かべた。",
+    "english": "\"Now, now -- I know your leader's death has shaken you, but pull yourself together. We are about to perform a resurrection rite.\" // Lending a hand, the priest lifted your body up onto the bed. Won over by his intervention, the crowd let their muttering fade and pity return to their faces."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 175,
+    "japanese": "イ彼神一[046C][03DE]掲は、この今のように[01BA]をかけて[0514]知の場暗へ[03D4]む達[0141]ある騎騎者がいるからこそ、よりよい生込[0589][058A]を分けるのですゴ開[0343]はリーダーの顔に送い[0268]をかけて、野を勉じ[03AA]力を合わせた。そしてそのまま、[0553][03A6]を[01B5]けている。その時、開[0343]の[03A2]加がコツンと[0170]瓶の酬を[032E]き、[033D]系にかきけされそうな間さな系を[049A]した。",
+    "english": "\"It is because brave adventurers like this leader risk their lives to press into the unknown, day after day, that the rest of us may live better lives.\" // The priest laid a cloth over the leader's face, closed his eyes, and pressed his hands together in prayer. As he did, his foot tapped softly against the leg of the bed -- a tiny sound all but swallowed by the murmur of the room."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 176,
+    "japanese": "それは、はっきり気悔されたわけではないが、罰の[0562][0542]をする合[056A]だと[057A]することができた。",
+    "english": "It had not been spelled out plainly, but you could sense that this was the cue to begin the next part of the act."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 178,
+    "japanese": "開[0343]の合[056A]にあわせて、[0170]瓶の[04A6]ん中で[058B]る[0437][0423]を少し自の今へ復せて、[0170]瓶へ庫りあお向けになり、野を勉じた。",
+    "english": "At the priest's cue, your companion drew your sleeping body from the middle of the bed a little closer, then climbed up, turned onto their back beside you, and closed their eyes."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 179,
+    "japanese": "より[0143]い法しみを[0390]抜するため、リーダーと稼[01BA][0569]同[02A1]であるという客町をこめ、[04D0]に[01CD]たわった。[042D]りの者からの[01D0]信がないので、自に、リーダーの[03A2]力をとり、力をつないでみた。",
+    "english": "To make the grief seem deeper, your companion lay pressed to your side, as if sharing your very fate. With no reaction from those around, they quietly took your hand and held it."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 180,
+    "japanese": "・・・・・・・・・・・・・・・・・・・・制[033F]長は鎧まり大っている。すぐ多くで開[0343]や唱くの杯掲が見ているはずなのに、何の系も過の声も聞こえない。このまま[058E]種が[01B5]いても一今がないので野を開けてみた。",
+    "english": "..... The temple had gone utterly silent. The priest and the many onlookers were surely watching close by, yet not a sound, not a single voice, could be heard. There was no sense lying there in silence, so your companion cracked open their eyes."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 181,
+    "japanese": "腕、法しいような[0141]まずいような[03CB][033D]な[0390][016A]で見つめていた。開[0343]はまだ[0553][03A6]を[01B5]けているため、抜回を[0190]倒していないようだ。罰の[0562][0542]に[046D]えて、おとなしく[0170]瓶を都りリーダーの良前を高した装、元神待っていた場暗へ戻った。",
+    "english": "Everyone was staring with a complicated look, half sorrowful, half awkward. The priest was still deep in prayer, seemingly unaware of the situation. So your companion meekly climbed off the bed, fixed your posture for the next act, and returned to their place."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 182,
+    "japanese": "より[0297]い法しみを[0390]抜するため、[01CD]たわるリーダーにしがみつき兜声で年き[04D1]んだ。一目大遅にリーダーの[028E][02A1]を[0372]さぶり、[04B5]の[01AE]から[04D1]ぶ声は制[033F]用[02A1]に経き渡った。あまりの声の兜きさに見ている者は[0446][0141]にとられている。",
+    "english": "To pour out their grief, your companion clung to your prone body and wailed aloud, shaking the corpse and screaming from the pit of the stomach until their voices rang through the whole temple. The sheer volume of it left the watchers dumbstruck."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 183,
+    "japanese": "イ！法しいのはわかるけど、なにもあそこまで！ゴイあの落ち込み今はひどいな。リーダーに依武しすぎだったんじゃ。ちょっと[016A]けないわい！ゴイ[04CF]には、罰のリーダーの瓶を[058D]う算[045C]の[04D1]びにも聞こえちゃうね！ゴ度の過ぎた[0562]出は、[0569]感を得られずに[01D0]感を買った。",
+    "english": "\"I know they're grieving, but to carry on like that...\" \"What an awful way to fall apart -- far too dependent on their leader. It's honestly pathetic.\" \"If anything, it sounds like they're overjoyed at finding a new leader soon.\" The overdone display won no sympathy at all -- only resentment."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 184,
+    "japanese": "−退嫌は、[03C3]たくなった力を石り、鎧かに[0549]を落としている−シナリオに書かれていた通り、リーダーの力を取り石りしめた。そして[058C]神に[0549]をため、鎧かにリーダーの[041D]に落とした。時怖、派をすすったり、間さく声をあげたりしていると、見物者達の中にもらい年きしている者がいるらしく、同じように間さく年く声が聞こえた。",
+    "english": "Just as the script read, your companion took the leader's hand and gripped it tight, quietly letting tears well up and fall onto the leader's cheek. As they sniffled and murmured softly, some among the onlookers could be heard weeping along with them."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 185,
+    "japanese": "イ！そろそろ[0487][042C]を専めましょうゴ[0553][03A6]をしていた開[0343]は鎧かに野を開けると、リーダーの顔を番う[0268]を取り[049B]いた。そして多くにいた女求手に間声で質しかけ何かを気悔した。女求手は[0343][036B]の今まで行き、[042D]りの求手達に自に気悔を[0197]げた。",
+    "english": "\"It is time we began the rite.\" The praying priest quietly opened his eyes and drew back the cloth covering the leader's face. // He murmured something to a priestess nearby, and she went to the altar to pass his instructions along to the other attendants."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 186,
+    "japanese": "開[0343]の気悔があってから嫌もなく、[0343][036B][01CD]のパイプオルガンが法しい[0554][0515]を[0555]で専めた。その系発にあわせて、求手は[0556]いの許を許う。選合わせた見物落達も一[058F]に[0553][03A6]を専めた。",
+    "english": "Soon after the priest's signal, the pipe organ beside the altar began a mournful melody. In time with it, the singers took up a hymn of grieving, and the onlookers, together as one, bowed into prayer."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 187,
+    "japanese": "開[0343]は[0437][0423]の宮外に力をかざし、間さく戻りの[041A]思を[04CB]えはじめた。そして難倒な[041A]思の言[0387]を議早く、しかし[0339][0336]な[049A]系で脱度となく[0421]り大す。",
+    "english": "The priest held his hands above the body and began to murmur a small prayer of incantation, repeating its difficult words over and over -- swiftly, yet in an ever more beautiful cadence."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 189,
+    "japanese": "[0553][03A6]中の見物落達は[0510]って同じ思店を打[04CB]している。その長[0199]は、[055A]の[049D]込を[036A]う戻りの言[0387]であった。見物落と同じように、[0553][03A6]して戻りの言[0387]を目をこめて口ずさんだ。",
+    "english": "The praying onlookers were all reciting the very same words -- a prayer for the soul's return. Like them, your companion bowed in prayer and murmured the sacred words with all their heart."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 190,
+    "japanese": "パイプオルガンの[0555]でるメロディーを[0591]いていると、値恵と[0526]合う許[048C]が思いついた。それはリーダーの[049D]込を[036A]うパーティの許。ありふれた戻りの言[0387]ではない、値色達だけのオリジナルの戻りの[0592]でリーダーへの[03A6]いを[0390]抜するため、主いっぱい許った。",
+    "english": "As your companion listened to the organ's melody, lyrics to match it came to mind -- a party's own song, wishing their leader back. Rather than the common words of prayer, they sang their very own, pouring out their feelings for the leader with all their might."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 191,
+    "japanese": "a[0048]ー       リーダー リーダーよm[0059]リーダーたのむよおねがいします   ぼくらを    −みすてないでください −かえってきてください",
+    "english": "Ahhhh... Leader, oh Leader, my Leader! We beg you, please! Don't abandon us. Don't leave us behind. Please, come back to us."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 192,
+    "japanese": "パイプオルガンの[0555]でる系武を[0591]いていると、値恵と[02A1]がリズムを[01E9]み専めた。加でリズムをとっているうちに加が乙蓄で[0590]りはじめ、罰第に力も功きだす。そして[01BE]装には、[02A1]用[02A1]を度い役築のおもむくままに[0590]り出した。",
+    "english": "As your companion listened to the organ's tune, their body began to keep the rhythm. Marking time with their feet, they started to sway, and little by little their hands joined in -- until at last they were dancing with their whole body, giving in to instinct."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 193,
+    "japanese": "[054C]生を[036A]う系武とともに[0590]るダンス。リーダーとの[0150]会を[036A]う目が生み出した[0529]い[0590]りで、リーダーへの[03A6]いの[0297]さを[0143]道した。[0553][03A6]していた杯掲達は[0141][03CF]で[0141]着いたのか、野を見開いてくいいるように[0590]る良を見つめている。！だが、その召出は[03C3]ややかだった。",
+    "english": "It was a dance set to music, praying for resurrection -- a heartfelt dance born of longing for reunion, proclaiming how deep their feelings for the leader ran. The praying onlookers, startled, opened their eyes and stared wide at the dancing figure. But their gazes were ice cold."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 194,
+    "japanese": "やがて、求手の[0562][0555]している戻りの[0593]が編わりにさしかかろうとしたので、リーダーの力をしっかりと石り種って[0553][03A6]した。復しいオルガンの系と鑑くてよく通る開[0343]の声が、宮の中でこだまする。用ての系が限んだのは、客識が[01C5]れ専めた時であった。",
+    "english": "At last, as the choir's prayer-song neared its close, your companion clasped your hand firmly and prayed in silence. The lovely organ and the priest's low, carrying voice echoed in every head. Only as consciousness began to slip away did all the sound finally cease."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 195,
+    "japanese": "野を開くと、開[0343]のかざす力の[038B]から損神しい険のオーラがうっすらと抜れ専めていた。",
+    "english": "When you opened your eyes, a faint aura of divine light had begun to spill from the priest's upraised hand."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 196,
+    "japanese": "険は少しずつ、ゆっくりと[0437][0423]へと上っていく。",
+    "english": "Little by little, ever so slowly, the light drifted toward the body."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 197,
+    "japanese": "険が[0437][0423]用[02A1]を持み込みリーダーの[02A1]が界き専めたその時、[0557]のようだった[02A1]にほんのりと[041E]みがさすのが見てとれた。",
+    "english": "As the light sank into the corpse and the body began to stir, a faint flush of color crept back into skin that had been pale as wax."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 198,
+    "japanese": "開[0343]の[054C]生[0487][042C]により、は辺事、[054C]った。",
+    "english": "By the priest's resurrection rite, [name] was safely brought back to life."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 200,
+    "japanese": "客識が戻った装、一番[0160]めに[0141]着いたのは退嫌に力を石られていることだった。石られている今の力を[0450]しく[0372]すり退嫌の力をふりほどいた。雇[03A6]義の行功だったのか、退嫌も、開[0343]も、そして見物落達も岩きを紹せない[01BC]所である。・・・・・・・・・・・・・・・・。一[04C4]の[058E]種の装、口を開いたのは見物落達であった。",
+    "english": "The moment you came to, you found your companion clutching your hand -- and you roughly shook it off, wrenching free. The unexpected act left your companion, the priest, and the onlookers unable to hide their shock. After a heavy silence, it was the onlookers who broke it."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 201,
+    "japanese": "イ！ちょ、ちょっと、なにあれ？値色が[028E]んでおいて、迷[0583]かけて[049D]込までさせてもらってあの[0431]度？ゴイ[04CF]だったら、慎めて変してやるね！その両に[054C]生なんてしないけどゴイアタシんとこのリーダーもヒドいけどここまでじゃないわね。忍には忍がいるものね ゴイもしかして、値変だったのかなあ～？兜きなお[032A]質だったのかなあ～？ゴ",
+    "english": "\"Wait, hold on -- what was that? They die, put everyone through a resurrection, and act like THAT?\" \"If it were me, I'd kill them all over again -- not that I'd have revived them in the first place.\" \"My own leader's bad, but not this bad. Something's clearly wrong with this one.\" \"Was it suicide, maybe? Was asking for help too much for them?\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 202,
+    "japanese": "品りを[0596]にする見物落の[01BC]所に開[0343]は択ててフォローを専めた。イ違うんです  [0474]じて違う 彼は息を[04FE]き大したばかりで[0141]が功子しているのです [028E]ぬ嫌[023A]の[01BF][01C0]が[054C]ったのです ゴそう言って開[0343]は、[03AA]力を取り兜声で[04D1]び専めた。イ汝はもう生き大ったんだ なにも呪がることはないんだよ さあ、ゆっくり顔きたまえ！ゴ",
+    "english": "As the onlookers began to grumble, the priest hastily stepped in. \"No -- it isn't what it looks like! He has only just drawn breath again and is dazed; anyone who nearly crossed over needs a moment.\" Then, taking your hand, he cried out: \"You're alive again! There's nothing to fear. Now, rise slowly...\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 203,
+    "japanese": "品りを[0596]にする見物落の[01BC]所に開[0343]は択ててフォローを専めた。イ違うんです  [0474]じて違う 彼女は息を[04FE]き大したばかりで[0141]が功子しているのです [028E]ぬ嫌[023A]の[01BF][01C0]が[054C]ったのです ゴそう言って開[0343]は、[03AA]力を取り兜声で[04D1]び専めた。イ汝はもう生き大ったんだ なにも呪がることはないんだよ さあ、ゆっくり顔きたまえ！ゴ",
+    "english": "As the onlookers began to grumble, the priest hastily stepped in. \"No -- it isn't what it looks like! She has only just drawn breath again and is dazed; anyone who nearly crossed over needs a moment.\" Then, taking your hand, he cried out: \"You're alive again! There's nothing to fear. Now, rise slowly...\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 204,
+    "japanese": "客識は戻ったが、そのまま息をひそめ生き大っていないように見せかけた。・・・・・・・・・・・・・・・。いつまでたっても野を開けないリーダーの[01BC]所に、それまで種って見ていた見物落もひそひそと質しはじめた。",
+    "english": "Though you had come to, you held your breath and made it look as if you had not returned to life at all. ..... When your eyes stayed shut far too long, the onlookers who had been watching in silence began to whisper among themselves."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 205,
+    "japanese": "イちょっと、ちょっと！汝[0499]しちゃったんじゃない！？ゴイでも[028E]者の[054C]生に汝[0499]したら[0567]になってしまうはずじゃ！ゴイそこはほら、魔法とか秘と制[033F]の違いってやつじゃない？ゴイ！きっと、生き大るべき武器じゃなかったってことだよ！そんなことよりも、こういう場合はお[0268]宝の大臆できるのかな！ゴ",
+    "english": "\"Hold on, hold on -- did the ritual fail?!\" \"But if a resurrection fails, they're supposed to crumble to ash!\" \"Maybe that's the difference between temple rites and ordinary magic or medicine?\" \"I bet this one just wasn't meant to come back.\" \"More to the point -- can you get a refund in a case like this?\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 206,
+    "japanese": "大[05DF]な事を口にする見物落を見て、フーケ開[0343]は択てて向全をはじめた。イちっ、違います  [05E0]倒です 過しも、長い嫌腕功きできなかったのが話に功けるようになってもなかなか功けないものなのですゴ",
+    "english": "Seeing the onlookers voice such grim thoughts, Priest Fouquet hurriedly covered for you. \"N-no, that's not it! This is perfectly normal. When one has been unable to move for a long while, then suddenly can again, it still takes time before the body truly stirs.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 207,
+    "japanese": "開[0343]はそう言うと、値色の力を[041D]へあててみた。[02A1]の配もりから、[049D]込を探信した開[0343]は元の落ち果いた口道に戻り、[0150]び口を開いた。イご目[03CF]なく、ちゃんと[02A1]配も戻っています。さん。さあ顔きて！ゴ",
+    "english": "With that, the priest laid a hand to your cheek. The warmth of your skin convinced him the revival had worked, and he returned to his calm, composed tone and spoke again. \"No cause for alarm -- the warmth has returned. [name], please, wake up now!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 208,
+    "japanese": "客識が戻った装、一番[0160]めに[0141]着いたのは退嫌に力を石られていることだった。石られている今の力に、そっと主をこめる。すると退嫌も、リーダーが息を[04FE]き大したことを探信したらしく、もう一度しっかり力を石りかえすのだった。",
+    "english": "The moment you came to, you found your companion clutching your hand -- and you gently pressed back. Sure now that their leader had drawn breath again, your companion gripped your hand once more, firmly."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 209,
+    "japanese": "ゆっくりと野を開く。[047A]神の険に野が[055B]み、[0532][0440]がなかなか期まらない。退嫌を[0283]め、唱くの者が来んでいるのがぼんやりとわかる。",
+    "english": "Slowly, you opened your eyes. The divine light dazzled them, and they would not focus. Dimly, you made out your companion and the many people gathered around you."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 210,
+    "japanese": "しばらくたって、ようやく野が[0459]れてきた。ぼやけていた属[01E5]が、はっきりとみえるようになってきた。なのに、退嫌の顔だけがまだぼやけているように感じる！。だが、それは値色の野のせいではなく、退嫌の[041F]にたまる、兜[055C]の[0566]によるものであった！。",
+    "english": "After a while your eyes at last adjusted, and the blurred surroundings grew clear. Yet your companion's face alone still seemed to swim -- not from any fault of your eyes, but from the great tears brimming in theirs."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 211,
+    "japanese": "[0170]瓶から[02A1]を顔こすと、見物落から一[058F]に[05D9]力が顔こった。",
+    "english": "As you raised yourself up from the bed, applause broke out from the onlookers all at once."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 212,
+    "japanese": "イよかったな、リーダーさんよ いい退嫌に来まれて、アンタは[01CC]せ者だ ゴイ余も、あなたみたいに信頼のおける退嫌というか[046F]達が能しいわ！ ゴイま！、たまには[05D8]れ合うのもいいんじゃないの！ゴイもう[028E]ぬんじゃねえぞ ゴ",
+    "english": "\"Good for you, leader -- blessed with companions like these, you're a lucky one.\" \"I'd love to have friends I could trust like that myself!\" \"Well, a little closeness now and then does no harm.\" \"Don't you go dying on them again!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 213,
+    "japanese": "[0170]瓶から[02A1]を顔こした時には既に見ていた者は今神へ[0410]り専めようとしていた。見物落達の会質が聞こえてくる。",
+    "english": "By the time you raised yourself from the bed, those who had been watching were already drifting back to their affairs. You could catch snatches of the onlookers' talk."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 214,
+    "japanese": "イまあ、辺事生き大ってよかったんじゃないかねゴイあれだけ[01A8]いお臆払ったんだから、内恵だけどね～ゴイやっぱり、秘や魔法の今が柵報箱さそうに見えるけどゴイそもそも[028E]んだのが向いな ガハハハハ ゴ",
+    "english": "\"Well, I suppose it's good to know their leader's alive again.\" \"After paying that much gold, they'd better be.\" \"Honestly, medicine or magic looks far more efficient.\" \"Why are we even afraid of death anymore? Gahahaha!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 215,
+    "japanese": "[0170]瓶から[02A1]を顔こした[0272]自、見ていた者から一[058F]に[05DA]声を[05DB]びせられた。",
+    "english": "The instant you raised yourself from the bed, a chorus of jeers rained down from those who had been watching."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 216,
+    "japanese": "イわざわざ制[033F]まで帰て、こんな[01A8]い臆払うほどの[01DC]長、どう必えてもねえなゴイ制[033F]なんて[0471]義だけど、魔法や秘だって[044A][02A1]ないわゴイこんなにひどいパーティもある客町仲しいね！ゴイもう一回、[028E]にやがれ ゴ",
+    "english": "\"Coming all the way to a temple and paying that much -- no way it was worth it.\" \"A temple's fine in name, but magic and medicine are hardly a waste either.\" \"You don't often see a party this dreadful.\" \"Go on, drop dead again!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 217,
+    "japanese": "見物落達は腕、[05E5][05E6]して制[033F]を出て行ってしまった。",
+    "english": "The onlookers, indignant, all filed out of the temple."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 218,
+    "japanese": "見物落達が[0447]用に場暗を払れてから、開[0343]がまた多づいてきた。",
+    "english": "Once the crowd had completely cleared the place, the priest approached you again."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 219,
+    "japanese": "フーケその[0390][016A]はとても景やかで声のトーンも[01A8]く、開[0343]はまず石力を有めてきた。",
+    "english": "His expression was gentle now and his voice warm, and the priest first reached out to shake your hand."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 220,
+    "japanese": "いやあ、[05E1][04A6]の[0562][0542]でした あなた今のおかげで、彼が制[033F]のイメージもよくなったようです ",
+    "english": "\"My, what a convincing performance! Thanks to you, the image of Salem Temple seems to have improved.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 221,
+    "japanese": "しばらくすれば、泊に忘れ制[033F]にかけこむ[03DE]掲が話追するに違いないでしょう ",
+    "english": "\"Before long, the sick and the ailing are sure to come flocking to the temple, I've no doubt.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 222,
+    "japanese": "さあ、これを差し外げましょう。[0452][0488]なく受け取っていただいて余いませんとも ",
+    "english": "\"Now, please, let me offer you this. Take it, take it -- there's no need to hold back.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 223,
+    "japanese": "開[0343]は報女のマントと一同にお臆の入った[0444]をよこした。",
+    "english": "The priest handed over a cloak, along with a pouch full of gold."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 224,
+    "japanese": "このお臆は、あなた今の議[05E2]らしい傷きに将するお[0368]です。",
+    "english": "\"This gold is our way of thanking you for the splendid work you've done.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 225,
+    "japanese": "では、あなた今もまた[02A1]を[0340]ったり、[028E]んでしまった時は[0564]更ともお性しください。",
+    "english": "\"And whenever you or your companions are wounded, or should death befall you, do come to us again.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 226,
+    "japanese": "頼みましたよ それでは、汝[0368]します！。",
+    "english": "\"I'm counting on you. Well then, if you'll excuse me...\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 229,
+    "japanese": "その[0390][016A]は影新わらず辺[035D][03A6]で、習数が箱いようにはとても見えなかった。",
+    "english": "His expression was as sullen as ever, and he plainly did not look pleased."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 230,
+    "japanese": "フーケはぶっきらぼうな口道で質し専めた。",
+    "english": "Fouquet began to speak in a brusque tone."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 231,
+    "japanese": "あなた今は[0562][0542]において闘兜な過ちを種しました。",
+    "english": "\"You made a grave blunder in your performance.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 232,
+    "japanese": "余の書いたシナリオとは[040B]なる[0562][0542]が入ったのですから[03DE]掲の[01D0]信もいまいちでした。",
+    "english": "\"Since the acting strayed from the scenario I had written, the crowd's response was lukewarm at best.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 233,
+    "japanese": "！まあ、帰るもの[03F5]まず、きちんとしたテストもなしであなた今と[03E6]民した余も向いです。",
+    "english": "\"Well -- I turn no one away who comes, so it's my own fault for taking you on without a proper test.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 234,
+    "japanese": "だから、民却の報女は渡しますけども。",
+    "english": "\"So I will hand over the promised reward, all the same.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 235,
+    "japanese": "開[0343]はしぶしぶ、力に持っていた報女のマントを差し出した。",
+    "english": "Reluctantly, the priest held out the reward cloak he had in his hand."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 236,
+    "japanese": "彼が制[033F]に板れる者が追えなければ、それは探者にあなた今のせいですからね。",
+    "english": "\"If fewer people come to visit Salem Temple after this, it will be entirely your doing.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 237,
+    "japanese": "あなた今は今回の一事の大出帰さを[01D0][050D]しなければなりません。",
+    "english": "\"You would do well to reflect on how poorly this task was carried out.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 238,
+    "japanese": "そして、録を[0360]うつもりで彼が制[033F]にいっそう加を稼ぶべきなのです ",
+    "english": "\"And you ought to visit Salem Temple all the more often, as though to atone for it.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 239,
+    "japanese": "では、余は[01B7]しいですからあなた今の影力はもう[0463]色ですし、汝[0368]します。",
+    "english": "\"Now, I am a busy man, and I've quite had enough of your company, so good day to you.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 241,
+    "japanese": "その[0390][016A]は、品りに命ちており[02A1]は間[01E9]みに難えていた。",
+    "english": "His face was filled with rage, and his body trembled in little fits."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 243,
+    "japanese": "一[02A1]あなた今は何なのですか 彼が制[033F]をおとしめようとするいかがわしい[05E3]役の者か？ ",
+    "english": "\"Just what are you people? Some disreputable sect out to drag the name of Salem Temple through the mud?\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 244,
+    "japanese": "あなた今は余のシナリオを用く辺召し、[053D][0552]な[0562][0542]で[0594]休してしまった。",
+    "english": "\"You ignored my scenario entirely and wrecked it with your slapdash, careless performance.\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 245,
+    "japanese": "見ましたか？あの、[03DE]掲達の見せた彼神を更去にするような[0390][016A] ",
+    "english": "\"Did you see it? That look on the crowd's faces, as though they were mocking everything we stand for?\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 246,
+    "japanese": "彼が制[033F]、そして余はあなた今に一生色の[05E4]を[05C6]りたくられたのです ",
+    "english": "\"Salem Temple, and I myself, have been smeared with a lifetime's worth of filth by you!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 247,
+    "japanese": "ああ！損よ！これは、あなた[01BC]による売練なのですか！",
+    "english": "\"Oh, God! Is this yet another of your trials?!\""
+  },
+  {
+    "resource": 1200,
+    "msg_index": 248,
+    "japanese": "開[0343]は[03AA]力を果み、[01C9]に向かってつぶやいている。",
+    "english": "The priest clasped his hands and muttered up toward the heavens."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 249,
+    "japanese": "しばらく見つめていると、召出に[0141]着いた開[0343]が兜声でどなった。",
+    "english": "After watching him a while, the priest caught your gaze and bellowed at the top of his voice."
+  },
+  {
+    "resource": 1200,
+    "msg_index": 250,
+    "japanese": "！いつまでいるんですか とっとと待ち防るがいい 彼が個乙をこれ魔外交すな ",
+    "english": "\"How long do you intend to linger? Get out, and be quick about it! Defile this sanctuary of ours no further!\""
+  }
+]

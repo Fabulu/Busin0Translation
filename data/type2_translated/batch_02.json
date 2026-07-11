@@ -1845,7 +1845,7 @@
     "resource": 1200,
     "msg_index": 67,
     "japanese": "骨場の者から支[0442]がありました。何今が彼がサレム制[033F]の力[0375]いをしたいという今でしょう？",
-    "english": "I received word / from the tavern. / You wish to help / Salem Temple, yes?"
+    "english": "I received word / from the Bar. / You wish to help / Salem Temple, yes?"
   },
   {
     "resource": 1200,
@@ -2103,7 +2103,7 @@
     "resource": 1200,
     "msg_index": 111,
     "japanese": "骨場の者から支[0442]がありました。何今が彼がサレム制[033F]の力[0375]いをしたいという今でしょう？",
-    "english": "I received word / from the tavern. / You wish to help / Salem Temple, yes?"
+    "english": "I received word / from the Bar. / You wish to help / Salem Temple, yes?"
   },
   {
     "resource": 1200,
@@ -2163,7 +2163,7 @@
     "resource": 1200,
     "msg_index": 122,
     "japanese": "骨場を通して受けられた一事をお[04AA]せするにあたって、[0564]更とも何今にも質を聞いてもらいたくてね。",
-    "english": "Before explaining / the task from the / tavern, I need you / to hear this / several times."
+    "english": "Before explaining / the task from the / Bar, I need you / to hear this / several times."
   },
   {
     "resource": 1200,
@@ -2205,7 +2205,7 @@
     "resource": 1200,
     "msg_index": 130,
     "japanese": "骨場を通して受けられた一事をお[04AA]せするにあたって、[0564]更とも何今にも質を聞いてもらいたくてね。",
-    "english": "Before explaining / the task from the / tavern, I need you / to hear this / several times."
+    "english": "Before explaining / the task from the / Bar, I need you / to hear this / several times."
   },
   {
     "resource": 1200,
@@ -4047,7 +4047,7 @@
     "resource": 1202,
     "msg_index": 19,
     "japanese": "依頼を受けたことを[0197]げ、骨場で渡されたエントリーシートを渡した。",
-    "english": "You said you'd / taken the request / and handed over / the Entry Sheet // from the tavern."
+    "english": "You said you'd / taken the request / and handed over / the Entry Sheet // from the Bar."
   },
   {
     "resource": 1202,
@@ -4773,13 +4773,13 @@
     "resource": 1202,
     "msg_index": 155,
     "japanese": "さかばとギルドでオメェのことをちょいとしらべてさいしゅうけっかをだすだよ。",
-    "english": "She'll check / with the tavern / and guild, then / give the final / result."
+    "english": "She'll check / with the Bar / and guild, then / give the final / result."
   },
   {
     "resource": 1202,
     "msg_index": 156,
     "japanese": "けっかがきまったらさかばのけいじばんでれんらくするだよ ",
-    "english": "When the result / is ready, we'll / post it on the / tavern board."
+    "english": "When the result / is ready, we'll / post it on the / Bar board."
   },
   {
     "resource": 1202,
@@ -4869,13 +4869,13 @@
     "resource": 1202,
     "msg_index": 172,
     "japanese": "さかばとギルドでしらべりゃたいがいのことはわかる けっかはそれからだすだよ。",
-    "english": "The tavern and / guild will tell us / everything. / Results after that."
+    "english": "The Bar and / guild will tell us / everything. / Results after that."
   },
   {
     "resource": 1202,
     "msg_index": 173,
     "japanese": "けっかがきまったらさかばのけいじばんでれんらくするだよ ",
-    "english": "When the result / is ready, we'll / post it on the / tavern board."
+    "english": "When the result / is ready, we'll / post it on the / Bar board."
   },
   {
     "resource": 1202,
@@ -4911,7 +4911,7 @@
     "resource": 1202,
     "msg_index": 179,
     "japanese": "いまからウチのノッチがさかばとギルドにいくんだ。",
-    "english": "Our Notch is / heading to the / tavern and guild / right now."
+    "english": "Our Notch is / heading to the / Bar and guild / right now."
   },
   {
     "resource": 1202,
@@ -4941,7 +4941,7 @@
     "resource": 1202,
     "msg_index": 184,
     "japanese": "けっかがきまったらさかばのけいじばんでれんらくするだよ ",
-    "english": "When the result / is ready, we'll / post it on the / tavern board."
+    "english": "When the result / is ready, we'll / post it on the / Bar board."
   },
   {
     "resource": 1202,
@@ -5193,7 +5193,7 @@
     "resource": 1202,
     "msg_index": 227,
     "japanese": "あのねえ、ノッチから聞いたの。知ってる？骨場で[03DE]庁が出してる依頼。",
-    "english": "Hey, Notch told me / something. You / know about the / government request / at the tavern?"
+    "english": "Hey, Notch told me / something. You / know about the / government request / at the Bar?"
   },
   {
     "resource": 1202,
@@ -5493,37 +5493,37 @@
     "resource": 1202,
     "msg_index": 279,
     "japanese": "骨場のメダルを１枚もらった ",
-    "english": "Received 1 / tavern medal."
+    "english": "Received 1 / Trap Game Medal."
   },
   {
     "resource": 1202,
     "msg_index": 280,
     "japanese": "骨場のメダルを２枚もらった ",
-    "english": "Received 2 / tavern medals."
+    "english": "Received 2 / Trap Game Medals."
   },
   {
     "resource": 1202,
     "msg_index": 281,
     "japanese": "骨場のメダルを３枚もらった ",
-    "english": "Received 3 / tavern medals."
+    "english": "Received 3 / Trap Game Medals."
   },
   {
     "resource": 1202,
     "msg_index": 282,
     "japanese": "骨場のメダルを４枚もらった ",
-    "english": "Received 4 / tavern medals."
+    "english": "Received 4 / Trap Game Medals."
   },
   {
     "resource": 1202,
     "msg_index": 283,
     "japanese": "骨場のメダルを５枚もらった ",
-    "english": "Received 5 / tavern medals."
+    "english": "Received 5 / Trap Game Medals."
   },
   {
     "resource": 1202,
     "msg_index": 284,
     "japanese": "骨場のメダルを６枚もらった ",
-    "english": "Received 6 / tavern medals."
+    "english": "Received 6 / Trap Game Medals."
   },
   {
     "resource": 1202,
