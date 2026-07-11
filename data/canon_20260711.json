@@ -1,0 +1,199 @@
+{
+ "note": "owner canon 2026-07-11; word-boundary replaces; revert = reverse each rule",
+ "rules": [
+  {
+   "from": "Uuri",
+   "to": "Uli"
+  },
+  {
+   "from": "Langobard",
+   "to": "Langobalt"
+  },
+  {
+   "from": "Vile",
+   "to": "Weil"
+  },
+  {
+   "from": "Veil",
+   "to": "Weil"
+  },
+  {
+   "from": "Kureta",
+   "to": "Kreta"
+  },
+  {
+   "from": "Zakureta",
+   "to": "Zakreta"
+  },
+  {
+   "from": "Jakureta",
+   "to": "Jakreta"
+  },
+  {
+   "from": "Zateel",
+   "to": "Zateal"
+  },
+  {
+   "from": "Trans",
+   "to": "Trance"
+  },
+  {
+   "from": "Barrets",
+   "to": "Bullets"
+  },
+  {
+   "from": "Megadeath",
+   "to": "Megadeth"
+  },
+  {
+   "from": "Jateal",
+   "to": "Jateel"
+  },
+  {
+   "from": "Parazkea",
+   "to": "Parazukea"
+  },
+  {
+   "from": "Belet",
+   "to": "Beleth"
+  },
+  {
+   "from": "Lumir",
+   "to": "Lumil"
+  },
+  {
+   "from": "Tebayd",
+   "to": "Tebaid"
+  },
+  {
+   "from": "Wargness",
+   "to": "Wagness"
+  },
+  {
+   "from": "Romy",
+   "to": "Romi"
+  },
+  {
+   "from": "Bushwhacker",
+   "to": "Bushwacker"
+  }
+ ],
+ "per_file": [
+  {
+   "file": "data/type2_translated/batch_02.json",
+   "changes": {
+    "Wargness->Wagness": 1
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_04.json",
+   "changes": {
+    "Uuri->Uli": 3,
+    "Vile->Weil": 3,
+    "Wargness->Wagness": 1
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_05.json",
+   "changes": {
+    "Uuri->Uli": 8,
+    "Belet->Beleth": 1
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_06.json",
+   "changes": {
+    "Vile->Weil": 14
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_07.json",
+   "changes": {
+    "Veil->Weil": 12
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_08.json",
+   "changes": {
+    "Uuri->Uli": 4
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_09.json",
+   "changes": {
+    "Uuri->Uli": 4
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w1.json",
+   "changes": {
+    "Uuri->Uli": 7,
+    "Megadeath->Megadeth": 4
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w2.json",
+   "changes": {
+    "Vile->Weil": 12
+   }
+  },
+  {
+   "file": "data/type2_translated/batch_zz_guide_upgrade_w3.json",
+   "changes": {
+    "Uuri->Uli": 8
+   }
+  },
+  {
+   "file": "data/translate_chunks/chunk_00_translated.json",
+   "changes": {
+    "Bushwhacker->Bushwacker": 1
+   }
+  },
+  {
+   "file": "data/translate_chunks/chunk_01_translated.json",
+   "changes": {
+    "Bushwhacker->Bushwacker": 1
+   }
+  },
+  {
+   "file": "data/translate_chunks/chunk_r2654_library_fix.json",
+   "changes": {
+    "Vile->Weil": 1,
+    "Barrets->Bullets": 1,
+    "Jateal->Jateel": 1,
+    "Parazkea->Parazukea": 1,
+    "Lumir->Lumil": 1
+   }
+  },
+  {
+   "file": "data/translate_chunks/chunk_r34_fix.json",
+   "changes": {
+    "Kureta->Kreta": 1,
+    "Zakureta->Zakreta": 1,
+    "Jakureta->Jakreta": 1,
+    "Zateel->Zateal": 1,
+    "Trans->Trance": 1,
+    "Barrets->Bullets": 1,
+    "Megadeath->Megadeth": 2
+   }
+  },
+  {
+   "file": "data/name_labels.json",
+   "changes": {
+    "Langobard->Langobalt": 1
+   }
+  },
+  {
+   "file": "data/r2654_party_names.json",
+   "changes": {
+    "Langobard->Langobalt": 2
+   }
+  },
+  {
+   "file": "data/r34_english_aligned.json",
+   "changes": {
+    "Romy->Romi": 2
+   }
+  }
+ ]
+}

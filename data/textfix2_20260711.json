@@ -1,0 +1,86 @@
+[
+ {
+  "file": "data/type2_translated/batch_zz_guide_upgrade_w1.json",
+  "resource": 1206,
+  "msg_index": 209,
+  "old": "Wesbell! I wish to know. What / is it that you desire?",
+  "new": "I wish to know. What / is it that you desire?"
+ },
+ {
+  "file": "data/type2_translated/batch_06.json",
+  "resource": 1208,
+  "msg_index": 736,
+  "old": "Aoi! I'm sorry, / I owe you one.",
+  "new": "I'm sorry, / I owe you one."
+ },
+ {
+  "file": "data/type2_translated/batch_06.json",
+  "resource": 1208,
+  "msg_index": 896,
+  "old": "Iris! That was / unexpected.",
+  "new": "That was / unexpected."
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "resource": 1200,
+  "msg_index": 1,
+  "old": "From the depths of / Thurgo's temple came / a familiar figure.",
+  "new": "From the depths of / Turgot's temple came / a familiar figure."
+ },
+ {
+  "file": "data/type2_translated/batch_02.json",
+  "resource": 1200,
+  "msg_index": 17,
+  "old": "Thurgo hurried off / as if fleeing.",
+  "new": "Turgot hurried off / as if fleeing."
+ },
+ {
+  "file": "data/type2_translated/batch_gap1347.json",
+  "resource": 1355,
+  "msg_index": 41,
+  "old": "This time we went / to the sixth floor, but / there was no trace of / Aurora anywhere. / Soldier C: Any leads? / Female: Yes, but there was / one thing that caught / my attention. / Soldier C: What was it? / Please tell us. / Female: When I went deep / into the second floor, / I sensed something / strange and powerful!",
+  "new": "This time we went / to the sixth floor, but / there was no trace of / Aurora anywhere. / Soldier C: Any leads? / Aoi: Yes, but there was / one thing that caught / my attention. / Soldier C: What was it? / Please tell us. / Aoi: When I went deep / into the second floor, / I sensed something / strange and powerful!"
+ },
+ {
+  "file": "data/translate_chunks/chunk_r43_r45_translated.json",
+  "resource": 44,
+  "message": 3,
+  "old": "Form magic stones / from medals your / knights collected. /",
+  "new": "Form magic stones / from materials / you have gathered. /"
+ },
+ {
+  "file": "data/translate_chunks/chunk_r43_r45_translated.json",
+  "resource": 44,
+  "message": 15,
+  "old": "Select the medal / combination for / synthesis. / ",
+  "new": "Select the material / combination for / synthesis. / "
+ },
+ {
+  "file": "data/translate_chunks/chunk_r43_r45_translated.json",
+  "resource": 44,
+  "message": 36,
+  "old": "You don't have / enough medals. /   / ",
+  "new": "You don't have / enough materials. /   / "
+ },
+ {
+  "file": "data/translate_chunks/chunk_r43_r45_translated.json",
+  "resource": 44,
+  "message": 37,
+  "old": "Not enough medals / ",
+  "new": "Not enough materials / "
+ },
+ {
+  "file": "data/translate_chunks/chunk_r43_r45_translated.json",
+  "resource": 45,
+  "message": 22,
+  "old": "That's equipped / and can't come off. / Give it up! / ",
+  "new": "That's cursed / and won't come off. / Give it up! / "
+ },
+ {
+  "file": "data/type2_translated/batch_gap1347.json",
+  "resource": 1355,
+  "msg_index": 42,
+  "old": "Was it Aurora? / Female: I don't think so. / It was something far more / evil than any demon. / Sorry I can't describe / it better. / Soldier D: That's fine. / If the famous Aoi says so, / it must be true. / Soldier C: Let's hurry and / authorize a search party / for the 2nd floor.",
+  "new": "Was it Aurora? / Aoi: I don't think so. / It was something far more / evil than any demon. / Sorry I can't describe / it better. / Soldier D: That's fine. / If the famous Aoi says so, / it must be true. / Soldier C: Let's hurry and / authorize a search party / for the 2nd floor."
+ }
+]

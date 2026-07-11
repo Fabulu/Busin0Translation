@@ -2495,14 +2495,14 @@
     "resource": 34,
     "message": 737,
     "japanese": "メガデスの穏 / ",
-    "english": "Megadeath Pot / ",
+    "english": "Megadeth Pot / ",
     "notes": "megadeath potion"
   },
   {
     "resource": 34,
     "message": 788,
     "japanese": "クレタの団 / ",
-    "english": "Scr.Kureta / ",
+    "english": "Scr.Kreta / ",
     "notes": "fire spell scroll"
   },
   {
@@ -2586,7 +2586,7 @@
     "resource": 34,
     "message": 800,
     "japanese": "ザクレタの団 / ",
-    "english": "Scr.Zakureta / ",
+    "english": "Scr.Zakreta / ",
     "notes": "fire group spell"
   },
   {
@@ -2600,7 +2600,7 @@
     "resource": 34,
     "message": 802,
     "japanese": "ザティールの団 / ",
-    "english": "Scr.Zateel / ",
+    "english": "Scr.Zateal / ",
     "notes": "ice group spell"
   },
   {
@@ -2642,7 +2642,7 @@
     "resource": 34,
     "message": 808,
     "japanese": "ジャクレタの団 / ",
-    "english": "Scr.Jakureta / ",
+    "english": "Scr.Jakreta / ",
     "notes": "fire all spell"
   },
   {
@@ -2691,7 +2691,7 @@
     "resource": 34,
     "message": 815,
     "japanese": "メガデスの団 / ",
-    "english": "Scr.Megadeath / ",
+    "english": "Scr.Megadeth / ",
     "notes": "megadeath spell scroll"
   },
   {
@@ -2712,7 +2712,7 @@
     "resource": 34,
     "message": 818,
     "japanese": "バレッツの団 / ",
-    "english": "Scr.Barrets / ",
+    "english": "Scr.Bullets / ",
     "notes": "barrets spell scroll"
   },
   {
@@ -2838,7 +2838,7 @@
     "resource": 34,
     "message": 836,
     "japanese": "トランスの団 / ",
-    "english": "Scr.Trans / ",
+    "english": "Scr.Trance / ",
     "notes": "trans spell scroll"
   },
   {

@@ -297,7 +297,7 @@
     "resource": 1204,
     "msg_index": 54,
     "japanese": "俺はウーリ[001D]エルンスト。汝達と同じ討伐隊の者だ。",
-    "english": "I'm Uuri Ernst. / A member of the / strike force, / same as you."
+    "english": "I'm Uli Ernst. / A member of the / strike force, / same as you."
   },
   {
     "resource": 1204,
@@ -339,7 +339,7 @@
     "resource": 1204,
     "msg_index": 61,
     "japanese": "ウーリは、[053A]の中に入っていった。",
-    "english": "Uuri went into / the room."
+    "english": "Uli went into / the room."
   },
   {
     "resource": 1204,
@@ -369,7 +369,7 @@
     "resource": 1204,
     "msg_index": 66,
     "japanese": "ウーリは何かを力にして戻ってきた。",
-    "english": "Uuri came back / holding something."
+    "english": "Uli came back / holding something."
   },
   {
     "resource": 1204,
@@ -5949,7 +5949,7 @@
     "resource": 1205,
     "msg_index": 30,
     "japanese": "ワーグネスの[03C4]を力に入れた。",
-    "english": "Obtained / Wargness's / Shield."
+    "english": "Obtained / Wagness's / Shield."
   },
   {
     "resource": 1205,
@@ -7095,7 +7095,7 @@
     "resource": 1205,
     "msg_index": 231,
     "japanese": "余はヴァイル[001D]ドゥーリエ。サンゴートから、[05F5]くものを忘すため、ドゥーハンに帰た。",
-    "english": "I am Vile / Doulier. I came / to Duhan from / San-Goth to / slay the / Writhing Demons."
+    "english": "I am Weil / Doulier. I came / to Duhan from / San-Goth to / slay the / Writhing Demons."
   },
   {
     "resource": 1205,
@@ -7143,7 +7143,7 @@
     "resource": 1205,
     "msg_index": 239,
     "japanese": "申し遅れた、余の[018A]はヴァイル。サンゴートから[04F9]の交[018A]をそそぐため、ドゥーハンに帰た。",
-    "english": "Sorry for the / late intro. I am / Vile. I came / from San-Goth / to avenge my / father."
+    "english": "Sorry for the / late intro. I am / Weil. I came / from San-Goth / to avenge my / father."
   },
   {
     "resource": 1205,
@@ -7161,7 +7161,7 @@
     "resource": 1205,
     "msg_index": 242,
     "japanese": "ヴァイルの[0390][016A]が義器、騎しくなった。",
-    "english": "Vile's / expression / suddenly / turned grim."
+    "english": "Weil's / expression / suddenly / turned grim."
   },
   {
     "resource": 1205,

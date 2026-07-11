@@ -101,7 +101,7 @@
     "resource": 44,
     "message": 3,
     "japanese": "騎士から集ったく勲を / 冒書事で編隊し、 / 騎法団を造りましょう。 / ",
-    "english": "Form magic stones / from medals your / knights collected. /",
+    "english": "Form magic stones / from materials / you have gathered. /",
     "notes": "騎法団 = magic stones, く勲 = medals/decorations"
   },
   {
@@ -185,7 +185,7 @@
     "resource": 44,
     "message": 15,
     "japanese": "造隊するための / く勲の組み編わせを / 選んでください。 / ",
-    "english": "Select the medal / combination for / synthesis. / ",
+    "english": "Select the material / combination for / synthesis. / ",
     "notes": "Medal combination selection"
   },
   {
@@ -332,14 +332,14 @@
     "resource": 44,
     "message": 36,
     "japanese": "編隊できるだけのく勲を / お持ちでないようですね。 /   / ",
-    "english": "You don't have / enough medals. /   / ",
+    "english": "You don't have / enough materials. /   / ",
     "notes": "Insufficient medals for synthesis"
   },
   {
     "resource": 44,
     "message": 37,
     "japanese": "編隊く勲が足りません / ",
-    "english": "Not enough medals / ",
+    "english": "Not enough materials / ",
     "notes": "Insufficient medals (short)"
   },
   {
@@ -633,7 +633,7 @@
     "resource": 45,
     "message": 22,
     "japanese": "それは使われちまってて / 外せねえだよう。 / あきらめろ  / ",
-    "english": "That's equipped / and can't come off. / Give it up! / ",
+    "english": "That's cursed / and won't come off. / Give it up! / ",
     "notes": "Cannot sell cursed equipped item"
   },
   {
