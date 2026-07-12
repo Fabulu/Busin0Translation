@@ -1,0 +1,44 @@
+[
+ {
+  "resource": 1196,
+  "msg_index": 41,
+  "japanese": "[001C]商品リスト[001E][04CE][0327]の秘   ３００g[01AB][053F]の秘   ３００g間さな[05EE]   ７００g間力     ６００g[05AB]入をやめる     ",
+  "english": "Product List // Potion 300G / Town Return Potion 300G / Small Shield 700G / Gauntlets 600G / Cancel Purchase"
+ },
+ {
+  "resource": 1199,
+  "msg_index": 231,
+  "japanese": "飽[03CE]の中には[01AB][053F]の秘が入っていた。",
+  "english": "Inside was a / Town Return Potion."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 958,
+  "japanese": "どれをもらいますか？マグスの兜鎧マグスの帯[01E0]ザクレタの剣",
+  "english": "Which will you take? / Magus Greatsword / Magus Hide Armor / Zakreta Stone"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 959,
+  "japanese": "マグスの兜鎧を受け取った ",
+  "english": "Received the / Magus Greatsword."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 960,
+  "japanese": "マグスの帯[01E0]を受け取った ",
+  "english": "Received the / Magus Hide Armor."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 961,
+  "japanese": "ザクレタの剣を受け取った ",
+  "english": "Received the / Zakreta Stone."
+ },
+ {
+  "resource": 1206,
+  "msg_index": 860,
+  "japanese": "どれをもらいますか？[044F]棒の間鎧   振[02B1]の[0579]かたびら魔美解のブーツ ",
+  "english": "Which will you take? / Ogre Armor / Blessed Chainmail / Mage Boots"
+ }
+]

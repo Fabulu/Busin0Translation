@@ -1,0 +1,44 @@
+[
+ {
+  "resource": 1203,
+  "msg_index": 958,
+  "old": "Which will you take? / Magus Armor / Magus Bracelet / Sword of Zakreta",
+  "new": "Which will you take? / Magus Greatsword / Magus Hide Armor / Zakreta Stone"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 959,
+  "old": "Received the / Magus Armor.",
+  "new": "Received the / Magus Greatsword."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 960,
+  "old": "Received the / Magus Bracelet.",
+  "new": "Received the / Magus Hide Armor."
+ },
+ {
+  "resource": 1203,
+  "msg_index": 961,
+  "old": "Received the / Sword of Zakreta.",
+  "new": "Received the / Zakreta Stone."
+ },
+ {
+  "resource": 1206,
+  "msg_index": 860,
+  "old": "Which will you take? / Ogre's Club / Vow's Chainmail / Half-Plate Boots",
+  "new": "Which will you take? / Ogre Armor / Blessed Chainmail / Mage Boots"
+ },
+ {
+  "resource": 1199,
+  "msg_index": 231,
+  "old": "Inside was a / revival herb.",
+  "new": "Inside was a / Town Return Potion."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 41,
+  "old": "Product List // Potion      300G / Antidote    300G / Small Gem   700G / Strength    600G / Cancel Purchase",
+  "new": "Product List // Potion 300G / Town Return Potion 300G / Small Shield 700G / Gauntlets 600G / Cancel Purchase"
+ }
+]
