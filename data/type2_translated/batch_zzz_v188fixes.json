@@ -1,0 +1,50 @@
+[
+ {
+  "resource": 1196,
+  "msg_index": 216,
+  "japanese": "殿忍の気[03C4]を見つけてくれたらしいな、[0368]を言う。",
+  "english": "It seems you found / Her Highness' / keepsake. Thank / you."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 272,
+  "japanese": "殿忍の気[03C4]が迷宮で見つかりました。",
+  "english": "Her Highness' / keepsake was found / in the labyrinth."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 552,
+  "japanese": "ふむ！探かに、この態能は殿忍のものに違いない。",
+  "english": "Indeed, this / belongs to Her / Highness. Well / found."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 553,
+  "japanese": "よく見つけてくれたな。これは殿忍[059F][043C]のヒントになる。",
+  "english": "This will help / in the search / for Her Highness."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 554,
+  "japanese": "イやはり殿忍は 生きているのかもなゴ",
+  "english": "Perhaps Her / Highness is still / alive."
+ },
+ {
+  "resource": 1196,
+  "msg_index": 557,
+  "japanese": "岩くべきことに、中は依っぽだったよ。",
+  "english": "examine Her / Highness' coffin. / Astonishingly,"
+ },
+ {
+  "resource": 1203,
+  "msg_index": 861,
+  "japanese": "魔主が命たされた!",
+  "english": "Your MP was / restored!"
+ },
+ {
+  "resource": 1204,
+  "msg_index": 668,
+  "japanese": "魔主が命たされた!",
+  "english": "Your MP was / restored!"
+ }
+]
