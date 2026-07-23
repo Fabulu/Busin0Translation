@@ -624,6 +624,58 @@ def sec1_regression_check(pristine, patched, name="?"):
             continue
         allowed.update(range(_i + 2, _i + 10))
         _i += 10
+    # Also permit the pass-a3 island label-pair operands (the #27/#30/#31
+    # infinite-loop fix): an unwalked mid-group 0x04 whose pristine span ends
+    # exactly on a group terminator (>= the containing group), and an unwalked
+    # SHORT 0x14 label (cnt 1..10) whose offset lies inside a group or the
+    # trailing region -- in both cases ONLY when the candidate's record span
+    # does not straddle any WALKED instruction's bytes (the patcher's overlap
+    # gate).  All gates mirror the patcher's a3 EXACTLY (same scan, same
+    # advance), so any diff outside a legit island operand still flags as
+    # v84-class corruption.  Remap correctness is enforced by the patcher's
+    # own build-time HARD ASSERT / clamp logic.
+    _wbytes = set()
+    for _pc, _op in instrs.items():
+        _wbytes.update(range(_pc, _pc + sd.LENB[_op]))
+    _granges, _trailing_start = group_offsets(pwords)
+    _i = 0
+    while _i <= len(ps1) - 10:
+        if struct.unpack_from(">H", ps1, _i)[0] != 0x0004 or _i in _walked:
+            _i += 1
+            continue
+        _off = struct.unpack_from(">I", ps1, _i + 2)[0]
+        _cnt = struct.unpack_from(">I", ps1, _i + 6)[0]
+        if _cnt == 0 or not _wbytes.isdisjoint(range(_i, _i + 10)):
+            _i += 1
+            continue
+        _gi = _find_group_index(_granges, _off)
+        if _gi is None or _off - _granges[_gi][0] == 0:
+            _i += 1
+            continue
+        _egi = gterm_to_gi.get(_off + _cnt - 1)
+        if _egi is None or _egi < _gi:
+            _i += 1
+            continue
+        allowed.update(range(_i + 2, _i + 10))
+        _i += 10
+    _i = 0
+    while _i <= len(ps1) - 14:
+        if struct.unpack_from(">H", ps1, _i)[0] != 0x0014 or _i in _walked:
+            _i += 1
+            continue
+        _off = struct.unpack_from(">I", ps1, _i + 6)[0]
+        _cnt = struct.unpack_from(">I", ps1, _i + 10)[0]
+        if _cnt == 0 or _cnt > 10 or _off >= len(pwords):
+            _i += 1
+            continue
+        if not _wbytes.isdisjoint(range(_i, _i + 14)):
+            _i += 1
+            continue
+        if _off < _trailing_start and _find_group_index(_granges, _off) is None:
+            _i += 1
+            continue
+        allowed.update(range(_i + 6, _i + 14))
+        _i += 14
     stray = [i for i in range(len(ps1)) if ps1[i] != ns1[i] and i not in allowed]
     if stray:
         issues.append(

@@ -503,6 +503,148 @@ def patch_section1(orig_data, patched_data, name_plan=None, res_name="?"):
             "(%d near-misses rejected by the group/terminator gate)"
             % (n_disp_sweep, n_disp_sweep_reject))
 
+    # --- (a3) UNWALKED-ISLAND label-pair sweep: mid-group 0x04 + island 0x14 -----
+    # Speaker-labeled dialogue inside an unwalked code island is a 0x14 LABEL
+    # (name prefix = the first words of the group) immediately followed by a
+    # 0x04 DISPLAY whose offset points MID-group (group_start + prefix_len).
+    # Pass a2 only remaps a 0x04 whose offset is EXACTLY a pristine group
+    # start, so these island pairs shipped STALE: once English grew Section 2
+    # the pristine offset landed inside a DIFFERENT scene's text and the span
+    # no longer ended on 0xFFFF -- wrong text + non-terminated display =
+    # infinite loop (issues #27/#30/#31).  The island 0x14 labels were never
+    # swept at all (pass b patches WALKED labels only) -> stale nameplates.
+    #
+    # This is NOT pattern matching.  Part 1 (0x04): a candidate is accepted
+    # ONLY when its pristine offset lies INSIDE a group (rel > 0; rel == 0 is
+    # pass a2's territory and stays with it) AND its pristine span ends
+    # EXACTLY on a group's 0xFFFF terminator at/after that group -- the same
+    # invariant every real display record satisfies.  The remap goes through
+    # map_rel_offset (name_plan aware) and is guarded by the same HARD ASSERT
+    # as the walked pass.  Part 2 (0x14): only SHORT slices (cnt <= 10 -- real
+    # name prefixes are 3-7 words) whose offset lies inside a group (or the
+    # trailing region, handled exactly like pass b) are remapped, through the
+    # exact pass-b plan/clamp/identity logic.  Anything failing a gate is left
+    # byte-for-byte untouched.
+    #
+    # OVERLAP GATE (both parts): a candidate whose record span intersects ANY
+    # WALKED instruction's bytes is a misaligned byte pattern straddling real
+    # code, NOT a record -- writing it would corrupt a walked instruction
+    # (proven on R1207: six unwalked "off=1 cnt=1537" 0x0004 patterns overlap
+    # walked opcodes; remapping one flipped a walked 0x06 jump to 0x0A and the
+    # re-walk failed).  Such candidates are skipped unconditionally.
+    walked_bytes = set()
+    for _pc, _op in instrs.items():
+        walked_bytes.update(range(_pc, _pc + LENB[_op]))
+    n_island_disp = 0
+    n_island_label = 0
+    i = 0
+    while ISLAND_SWEEP_ENABLED and i <= sec1_len - 10:
+        if struct.unpack_from(">H", orig_sec1, i)[0] != 0x0004 or i in walked_pcs:
+            i += 1
+            continue
+        old_off = struct.unpack_from(">I", orig_sec1, i + 2)[0]
+        old_cnt = struct.unpack_from(">I", orig_sec1, i + 6)[0]
+        if old_cnt == 0:
+            i += 1
+            continue
+        if not walked_bytes.isdisjoint(range(i, i + LENB[0x04])):
+            i += 1  # straddles a walked instruction -- not a record
+            continue
+        sgi = _find_group(old_groups, old_off)
+        if sgi is None:
+            i += 1
+            continue
+        rel = old_off - old_groups[sgi][0]
+        if rel == 0:
+            # Group-start case: pass a2's territory (already remapped there,
+            # or rejected by its gate and intentionally left untouched).
+            i += 1
+            continue
+        egi = old_term_to_gi.get(old_off + old_cnt - 1)
+        # STRICT gate: the pristine span must end EXACTLY on a group
+        # terminator at/after the containing group.
+        if egi is None or egi < sgi:
+            i += 1
+            continue
+        new_off = new_groups[sgi][0] + map_rel_offset(sgi, rel)
+        new_end = new_groups[egi][1] + 1   # right after the egi FFFF terminator
+        new_cnt = new_end - new_off
+        # HARD ASSERT: the remapped span MUST end exactly on 0xFFFF.
+        if (new_cnt <= 0 or new_end > new_n_words
+                or new_words[new_end - 1] != 0xFFFF):
+            raise ValueError(
+                "R%s: unwalked mid-group DISPLAY_TEXT at S1+0x%X: remapped "
+                "span off=%d cnt=%d does not end on FFFF -- refusing to ship "
+                "a violation" % (res_name, i, new_off, new_cnt))
+        if (new_off, new_cnt) != (old_off, old_cnt):
+            struct.pack_into(">I", sec1_bytes, i + 2, new_off)
+            struct.pack_into(">I", sec1_bytes, i + 6, new_cnt)
+            n_island_disp += 1
+        i += LENB[0x04]  # advance past a confirmed opcode's operands
+
+    # Part 2: unwalked 0x14 island labels.  Pass b below iterates recs["label"]
+    # (WALKED labels only); exclude those pcs so no record is double-processed.
+    walked_label_pcs = {r["pc"] for r in recs["label"]}
+    i = 0
+    while ISLAND_SWEEP_ENABLED and i <= sec1_len - LENB[0x14]:
+        if (struct.unpack_from(">H", orig_sec1, i)[0] != 0x0014
+                or i in walked_pcs or i in walked_label_pcs):
+            i += 1
+            continue
+        old_off = struct.unpack_from(">I", orig_sec1, i + 6)[0]
+        old_cnt = struct.unpack_from(">I", orig_sec1, i + 10)[0]
+        # Only SHORT label slices are swept (name prefixes are 3-7 words);
+        # anything longer is NOT a nameplate and is left untouched.
+        if old_cnt == 0 or old_cnt > 10:
+            i += 1
+            continue
+        if not walked_bytes.isdisjoint(range(i, i + LENB[0x14])):
+            i += 1  # straddles a walked instruction -- not a record
+            continue
+        if old_off >= old_n_words:
+            i += 1  # sentinel offset outside Section 2 -- leave untouched
+            continue
+        if old_off >= old_trailing_start:
+            # trailing-region narration: shift by the delta, keep cnt (pass b)
+            if trailing_delta != 0:
+                struct.pack_into(
+                    ">I", sec1_bytes, i + 6, old_off + trailing_delta)
+                n_island_label += 1
+            i += LENB[0x14]
+            continue
+        gi = _find_group(old_groups, old_off)
+        if gi is None:
+            i += 1
+            continue
+        ogs, _oge = old_groups[gi]
+        ngs, nge = new_groups[gi]
+        rel = old_off - ogs
+        plan = name_plan.get(gi)
+        new_rel, new_cnt = None, old_cnt
+        if plan is not None:
+            for (oso, osc), (nso, nsc) in zip(plan["old_slices"],
+                                              plan["new_slices"]):
+                if oso == rel and osc == old_cnt:
+                    new_rel, new_cnt = nso, nsc
+                    break
+        if new_rel is None:
+            if group_changed(gi):
+                # no slice match in a changed group: clamp inside the new group
+                new_len = nge - ngs
+                new_rel = min(rel, max(new_len - 1, 0))
+                new_cnt = max(min(old_cnt, new_len - new_rel), 0)
+            else:
+                new_rel, new_cnt = rel, old_cnt  # unchanged group: identity
+        if (ngs + new_rel, new_cnt) != (old_off, old_cnt):
+            struct.pack_into(">I", sec1_bytes, i + 6, ngs + new_rel)
+            struct.pack_into(">I", sec1_bytes, i + 10, new_cnt)
+            n_island_label += 1
+        i += LENB[0x14]  # advance past a confirmed opcode's operands
+    if n_island_disp or n_island_label:
+        print(
+            "  Section 1: island label-pair sweep remapped %d DISPLAY + %d LABEL"
+            % (n_island_disp, n_island_label))
+
     # --- (b) 0x14 NAME/LABEL REF --------------------------------------------------
     for r in recs["label"]:
         pc, old_off, old_cnt = r["pc"], r["off"], r["cnt"]

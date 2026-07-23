@@ -1025,6 +1025,7 @@ for script in [
     'tools/patch_r1892_names.py',  # romanize the REAL party-bar name source R1892 (LE roster; R2654 is off the bar's path)
     'tools/patch_r2655_library_strips.py',  # v165: library banner/tab/footer pixel strips (independent of R2654 order)
     'tools/patch_pill_widen.py',  # v180: item-name capsule 192->256 (R2139 sub13 rec2 + R2138 sub27 band; composes on Step 3.9's R2138 output, must run after it)
+    'tools/patch_r1204_janken.py',  # v190 (#26): restore Janken tremble tell -- re-insert FB04/FB05 into R1204 reveal groups 186/187 (size-neutral, in place on the merged English R1204)
 ]:
     rc = os.system(f'python {script}')
     if rc != 0:
