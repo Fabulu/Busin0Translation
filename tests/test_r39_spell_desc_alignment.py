@@ -299,7 +299,7 @@ def test_built_r47_battle_prompts():
     # text one full line BELOW the pill (long-standing cosmetic bug, live
     # A/B-PROVEN 2026-07-02 via the v159 R47_FFFE_EXPERIMENT diagnostic ISO).
     # v160 preserves the terminator by default and ships strings authored to
-    # fit cap-1 ('Go!!', 'Atk', 'Start turn').
+    # fit cap-1 ('Yes', 'Atk', 'Start turn'; #28 renamed Go!!->Yes).
     for g in (12, 13, 18):
         assert groups[g] and groups[g][-1] == 0xFFFE, (
             "built R47 sub0 g%d does NOT end with the 0xFFFE line terminator "
@@ -319,10 +319,10 @@ def test_built_r47_battle_prompts():
         "built R47 sub0 g12 is %r, expected it to start 'Start turn' (the "
         "order-confirm prompt). %s" % (texts[12], poison)
     )
-    assert texts[13] == "Go!!", (
-        "built R47 sub0 g13 is %r, expected 'Go!!' (confirm choice, JP "
-        "'commence battle'; 4-cell budget = 5-cell slot minus the preserved "
-        "0xFFFE terminator). %s" % (texts[13], poison)
+    assert texts[13] == "Yes", (
+        "built R47 sub0 g13 is %r, expected 'Yes' (confirm choice, JP "
+        "'commence battle'; issue #28 renamed Go!!->Yes; 5-cell slot minus the "
+        "preserved 0xFFFE terminator). %s" % (texts[13], poison)
     )
     assert texts[18] == "Atk", (
         "built R47 sub0 g18 is %r, expected 'Atk' (per-attack pill; was "

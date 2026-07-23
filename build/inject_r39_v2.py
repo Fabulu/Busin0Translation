@@ -158,6 +158,8 @@ for slot_idx, (slot_start, slot_end) in enumerate(messages):
 
     en_text = translations[msg_id]
     en_glyphs = encode_english(en_text)
+    if msg_id == 15:  # issue #28: render "[Name] IDing" with a leading space
+        en_glyphs = [0] + en_glyphs  # (JSON strip() eats a leading space, so inject it here)
 
     slot_capacity = (slot_end - slot_start) // 2  # number of glyph slots available
 

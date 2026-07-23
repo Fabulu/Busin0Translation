@@ -77,6 +77,8 @@ DESC_LINE_CELLS = 27   # visible cells per block-4 description line (pristine)
 DESC_LINES      = 3    # lines per block-4 description record (pristine)
 MAX_LINE_CELLS  = 27   # widest allowed visible line in blocks 10/14 (block-4 window proof)
 MAX_LABEL_CELLS = 24   # widest allowed single-line label in blocks 11/12/13
+MAX_REQ_CELLS   = 17   # block-4 AA requirement field: hard-clips at 18 cells on-screen
+                       # (measured, issue "All Mem" cutoff); 17 keeps a 1-cell overscan margin
 
 # pristine per-block record counts (incl. the g01 offset table)
 EXPECTED = {3: (40, 39), 4: (85, 84), 5: (8, 7),
@@ -281,6 +283,15 @@ def label_record(text, blk, g):
         f"blk{blk} g{g} label is {len(enc)} cells (max {MAX_LABEL_CELLS}): {text!r}"
     return enc + [0xFFFE]
 
+def req_record(text, g):
+    """block-4 AA requirement, single line with the narrow requirement-field guard.
+    Separate from line_record() on purpose: line_record also emits block5 messages
+    (e.g. g03 'All Allied Actions removed.' = 27 cells) which live in a wider field."""
+    enc = encode_line(text)
+    assert len(enc) <= MAX_REQ_CELLS, \
+        f"blk4 g{g} requirement is {len(enc)} cells (max {MAX_REQ_CELLS}): {text!r}"
+    return enc + [0xFFFE]
+
 def lines_record(lines, blk, g):
     """multi-line message record (blocks 10/14): every line -> cells + FFFE,
     exactly the pristine shape.  Lines may carry {HL}/{/HL} tokens."""
@@ -326,7 +337,7 @@ for g, lines in sorted(descriptions.items()):
     counts['descs'] += 1
 for g, text in sorted(requirements.items()):
     assert 40 <= g <= 85 and g != 66, f"block4 requirement key g{g} out of range (g66 is empty)"
-    recs[g - 1] = line_record(text)
+    recs[g - 1] = req_record(text, g)
     patched[4].add(g - 1)
     counts['reqs'] += 1
 assert recs[65] == list(blocks[4][65]) and len(recs[65]) == 0, "block4 g66 must stay empty"

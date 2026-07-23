@@ -464,9 +464,9 @@ R47_SUB0 = {
     # (proven via weirdasfuckdialogueatendofcombatturn.p2s + R34 prose anchors;
     # see runs/CLAUDE-RUNS/AUDIT-20260702-full-project.md). ---
     12: "Start turn",        # g12 戦闘を開始しますか? (v160: cap-1)
-    13: "Go!!",              # g13 戦闘開始 (v160: cap-1; 4 cells)
-    14: "Redo",              # g14 やりなおす
-    15: "Results",           # g15 戦闘開始の結果 (initiative-roll header) (v160: cap-1)
+    13: "Yes",               # g13 戦闘開始 (issue #28: Go!!->Yes; cap 5)
+    14: "No",                # g14 やりなおす (issue #28: Redo->No)
+    15: "Confirm",           # g15 戦闘開始の結果 (issue #28: Results->Confirm; cap 8)
     16: "New AA created!",   # g16 新たなAAを生み出しました (v160: cap-1)
     17: "Engaging",          # g17 戦闘を開始します (v160: cap-1)
     # --- Friendly-action / ability labels (the real Dispel/Steal home) ---
@@ -589,7 +589,7 @@ R47_SUB2 = {
     11: "Called!",             # 9 cap, 7 ok
     12: "Ally came!",          # 9 cap, 10 -> "ally came"=9
     13: "None came",           # 10 cap, 9 ok
-    14: "Hit",                 # 4 cap (v160: cap-1 -> 3; bash/knock back)
+    14: "Web",                 # 4 cap (issue #28: spider web-debuff attack, was "Hit")
     15: "Pain",                # 5 cap (v160: cap-1 -> 4; agony)
     16: "Dbl Actn",            # 9 cap, 8 ok
     17: "Drk",                 # 4 cap (v160: cap-1 -> 3; dark attack)

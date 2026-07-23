@@ -345,13 +345,13 @@
     "resource": 39,
     "message": 6,
     "japanese": "持てる / ",
-    "english": "Discard"
+    "english": "Drop"
   },
   {
     "resource": 39,
     "message": 7,
     "japanese": "回復 / ",
-    "english": "Rcv"
+    "english": "ID"
   },
   {
     "resource": 39,
@@ -399,13 +399,13 @@
     "resource": 39,
     "message": 15,
     "japanese": "が回復しています / ",
-    "english": "recoverng"
+    "english": "IDing"
   },
   {
     "resource": 39,
     "message": 16,
     "japanese": "回復しました / ",
-    "english": "Recovrd"
+    "english": "Success"
   },
   {
     "resource": 39,

@@ -47,7 +47,7 @@ N_SUBS = 3
 # present by decoding the shipped resource (build/packdata_resources/
 # 0047_type03.raw) -- these are the R47_SUB0 order-confirm / turn-flow / ability
 # labels at groups 12,13,14,15,18 respectively.
-KNOWN_SUB0_STRINGS = ["Start turn", "Go!!", "Redo", "Results", "Atk"]
+KNOWN_SUB0_STRINGS = ["Start turn", "Yes", "No", "Confirm", "Atk"]
 
 
 def _require_built():

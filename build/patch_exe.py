@@ -262,6 +262,18 @@ def main():
         (0x3C32A0, 707, 708, 71, 14, "録 -> g."),   # g=71, .=14
     ]
 
+    # Snapshot the IMAGE-RESOURCE-ID columns (rec+0x1C / +0x24 / +0x2C) BEFORE the
+    # value-scan corrupts them. These are loaded-resource id fields the BATTLE
+    # entity-setup loop reads (fn ~0x2375xx: `lw a0,0(0x4C2E84 + k*56); beq a0,-1
+    # -> SKIP the whole entity`), NOT display glyphs and NOT the "New Reg." banner
+    # (that renders from R2138 tiles). They coincidentally hold the same ids
+    # (698-722) as the kanji display glyphs, so the blind scan mangles them and
+    # breaks B5F battle monsters (e.g. the spiders): a garbage id crashes (zero-size
+    # store leak, #24/#25/#29/#32); a 0xFFFFFFFF sentinel makes the setup SKIP the
+    # entity entirely (invisible/un-init monster -> flee & pass battle-exit softlock).
+    # We restore them to pristine after the scan (see the FIX block below).
+    _rec_pristine = {rec_off: bytes(data[rec_off:rec_off + 56]) for rec_off, *_ in banner_patches}
+
     for rec_off, old_g1, old_g2, new_g1, new_g2, label in banner_patches:
         changes = 0
         # Scan all u16 positions in the 56-byte record
@@ -283,6 +295,10 @@ def main():
                 print(f"  SKIP 0x{rec_off:06X}: {label} (already patched)")
             else:
                 print(f"  WARN 0x{rec_off:06X}: {label} (expected g1={old_g1}, got {check_val})")
+
+    # (Patch 4's edits to these 4 records are FULLY REVERTED after Patch 5 below --
+    # see the "PATCH 4/5 REVERT" block. They are battle-entity resource records, not
+    # the chargen banner; the value-scan only corrupts them.)
 
     # ─── PATCH 5: Banner byte-50 glyph IDs (新規登録 -> "new ") ─────────
     # Each banner record has a THIRD glyph reference at byte 50 (offset +50
@@ -310,6 +326,27 @@ def main():
             print(f"  SKIP 0x{abs_off:06X}: {label} (already patched)")
         else:
             print(f"  WARN 0x{abs_off:06X}: {label} (expected {old_val}, got {cur})")
+
+    # ─── PATCH 4/5 REVERT: these 4 records must ship byte-identical to pristine ─
+    # Patch 4 + Patch 5 were written believing records 0x3C33F0/0x3C3428/0x3C3268/
+    # 0x3C32A0 were the chargen "新規登録 -> New Reg." banner. They are NOT: they are
+    # BATTLE-ENTITY resource registrations read by the per-monster setup loop (fn
+    # ~0x2375xx). The banner actually renders from R2138 tile art. The blind glyph-id
+    # value-scan corrupted these records' resource-id fields (ids 698-728 -> English
+    # letter glyph ids), which broke B5F monster setup: a garbage id -> zero-size
+    # texture store -> allocator leak -> "Empty Free" freeze (#24/#25/#29/#32); a
+    # -1/wrong id -> half-initialised entity -> monster invisible + un-targetable +
+    # flee/pass battle-exit softlock. PROVEN by the pristine-EXE-+-our-data build:
+    # spiders visible (lookspoodies.p2s). Patch 4/5 do nothing for the banner and only
+    # break battle -> revert them entirely on these records. (Gate:
+    # tests/test_menu_record_image_slots.py pins the id columns == pristine.)
+    reverted = 0
+    for _rec, _pv in _rec_pristine.items():
+        if bytes(data[_rec:_rec + 56]) != _pv:
+            data[_rec:_rec + 56] = _pv
+            reverted += 1
+    print(f"  FIX  Patch 4/5 REVERT: {reverted} battle-entity record(s) restored to "
+          "pristine (mis-identified as the banner; only ever corrupted B5F monsters)")
 
     # ─── PATCH 6: Mode-gated RenderAllTiles trampoline ────────────────
     # (chargen kanji hidden, PORTRAITS PRESERVED)
