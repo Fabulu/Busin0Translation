@@ -71,11 +71,11 @@ R46_SUB0 = {
     12: "how to learn magic?",
     13: "huh? magic comes / from magic stones! / make em at the / alchemy guild!",
     14: "vigger shop job / results are in. / come to vigger / shop.",
-    15: "been to jankenman? / cant win! lose and / he warps you back / with ripu! now i / go there when i / wanna go home.",
+    15: "been to jankenman? / cant win! lose and / he warps you back / with leap! now i / go there when i / wanna go home.",
     16: "i tried too. his / luck is insane! / but his voice / wavers each time / he says janken. / it changes. his / hands follow a / pattern. study!",
     17: "air in karmans / labyrinth is odd. / its dangerous. / lets share tips / with each other.",
-    18: "i'll start! if in / danger use escape / or return scrolls. / keep em stocked! / ripu is best but / that stone is / special!",
-    19: "im a mage. my / combo should work / but ripu wont. / keeps making thief / eye. oh i see! / special means / mutation! only / guild gear can / trigger them!",
+    18: "i'll start! if in / danger use escape / or return scrolls. / keep em stocked! / leap is best but / that stone is / special!",
+    19: "im a mage. my / combo should work / but leap wont. / keeps making thief / eye. oh i see! / special means / mutation! only / guild gear can / trigger them!",
     20: "nice tip! know / the level up sign? / when exp is full / bottom panel will / flash! if so go / back and rest at / the inn!",
     21: "i'll never forget / those days. oriana / in town, cheering, / streamers in sky. / duhan was pure / joy. but now the / princess and hope / are gone. fare / well.",
     22: "saw her that day / too. damn! cant / forgive! beat / the witch!",
@@ -236,7 +236,7 @@ R46_SUB2 = {
     14: "vigger job done",     # 17 -> 15
     15: "adventurer tip",      # 12 -> 14
     16: "tip1:survive!",       # 14 -> 13
-    17: "ripu",                # 6 -> 4
+    17: "leap",                # 6 -> 4
     18: "tip2:level up",       # 15 -> 13
     19: "old times",           # 10 -> 9
     20: "no way!",             # 8 -> 7. but cap is 8
@@ -366,7 +366,7 @@ import re as _re_recap
 _RECAP_PROPER = {
     "duhan": "Duhan", "oriana": "Oriana", "vigger": "Vigger", "venoan": "Venoan",
     "venoa": "Venoa", "karman": "Karman", "karmans": "Karmans", "seraph": "Seraph",
-    "kreta": "Kreta", "ripu": "Ripu", "jankenman": "Jankenman", "janken": "Janken",
+    "kreta": "Kreta", "leap": "Leap", "jankenman": "Jankenman", "janken": "Janken",
     "turgot": "Turgot", "gido": "Gido", "milly": "Milly", "pamela": "Pamela",
     "aurora": "Aurora", "simson": "Simson", "simsons": "Simsons", "bergran": "Bergran",
     "narcia": "Narcia", "webster": "Webster", "macbain": "MacBain", "popo": "Popo",

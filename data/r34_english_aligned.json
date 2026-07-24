@@ -6383,7 +6383,7 @@
    "idx": 19,
    "msg": 805,
    "jp": "リピ}ルの団 / ",
-   "english": "Ripu Stone",
+   "english": "Repeal Stone",
    "preserve_prefix": false
   },
   {
@@ -6775,7 +6775,7 @@
    "idx": 10,
    "msg": 855,
    "jp": "[FF07]騎事持騎法レベル1[FFF0] / 宝1容を災らせる騎法 / スプリ}ムを習下する騎法団_ / ",
-   "english": "Mage Magic Lv1 / Puts a single enemy to sleep. A magic stone that teaches Spleem.",
+   "english": "Mage Magic Lv1 / Puts an enemy group to sleep. A magic stone that teaches Spleem.",
    "preserve_prefix": true
   },
   {
@@ -6783,7 +6783,7 @@
    "idx": 11,
    "msg": 856,
    "jp": "[FF02]神今騎法レベル2[FFF0] / 宝1容の騎法を封じる騎法 / サロメを習下する騎法団_ / ",
-   "english": "Priest Magic Lv2 / Seals a single enemy's magic. A magic stone that teaches Salome.",
+   "english": "Priest Magic Lv2 / Seals an enemy group's magic. A magic stone that teaches Salome.",
    "preserve_prefix": true
   },
   {
@@ -6847,7 +6847,7 @@
    "idx": 19,
    "msg": 864,
    "jp": "[FF02]神今騎法レベル4[FFF0] / 宝箱にかけられた罠の発達を解ぐ騎法 / リピ}ルを習下する騎法団_ / ",
-   "english": "Priest Magic Lv4 / Disarms traps on treasure chests. A magic stone that teaches Ripu.",
+   "english": "Priest Magic Lv4 / Disarms traps on treasure chests. A magic stone that teaches Repeal.",
    "preserve_prefix": true
   },
   {

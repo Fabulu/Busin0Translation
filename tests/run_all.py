@@ -73,6 +73,7 @@ MODULES = [
     "test_optione_arena",
     "test_dialogue_wrap_force",
     "test_regress_harness",
+    "test_v192_spell_quest_fixes",
 ]
 
 

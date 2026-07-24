@@ -5499,7 +5499,7 @@
   "resource": 1203,
   "msg_index": 958,
   "japanese": "どれをもらいますか？マグスの兜鎧マグスの帯[01E0]ザクレタの剣",
-  "english": "Magus Armor / Magus Bracelet / Sword of Zakreta"
+  "english": "Magus Armor / Magus Bracelet / Zakreta Stone"
  },
  {
   "resource": 1203,
@@ -5517,7 +5517,7 @@
   "resource": 1203,
   "msg_index": 961,
   "japanese": "ザクレタの剣を受け取った ",
-  "english": "Received the / Sword of Zakreta."
+  "english": "Received the / Zakreta Stone."
  },
  {
   "resource": 1203,
@@ -6699,7 +6699,7 @@
   "resource": 1203,
   "msg_index": 1164,
   "japanese": "攻の[04A6]ん中で騎騎者の一前が魔物達と戦っていた。",
-  "english": "In the middle / of the corridor, / adventurers / were fighting / monsters."
+  "english": "In the middle / of the bridge, / adventurers / were fighting / monsters."
  },
  {
   "resource": 1203,
@@ -6711,7 +6711,7 @@
   "resource": 1203,
   "msg_index": 1166,
   "japanese": "が見ているわずかな嫌で、[0180][018A]の騎騎者が攻から子げ落ちていった。",
-  "english": "In moments, two / more adventurers / fell from the / corridor."
+  "english": "In moments, two / more adventurers / fell from the / bridge."
  },
  {
   "resource": 1203,
@@ -6753,7 +6753,7 @@
   "resource": 1203,
   "msg_index": 1173,
   "japanese": "攻を渡る[0272]中、大客をつかれ！！。",
-  "english": "While crossing the / bridge, you were / ambushed!"
+  "english": "While crossing the / bridge, we were / ambushed!"
  },
  {
   "resource": 1203,
@@ -6873,7 +6873,7 @@
   "resource": 1203,
   "msg_index": 1193,
   "japanese": "騎騎者[04D1]び声が聞こえたので、力けつけてみたのだが。",
-  "english": "An adventurer / came running, / drawn by the / screams."
+  "english": "I heard an / adventurer's cry / and rushed over, / but..."
  },
  {
   "resource": 1203,
@@ -8895,7 +8895,7 @@
   "resource": 1203,
   "msg_index": 1534,
   "japanese": "[06B3]の忍に跡い[0268]該れが落ちているのが見える。投いますか？",
-  "english": "At the bottom / of the stairs, / you can see / dirty rags. / Pick them up?"
+  "english": "Near the / barrels, you / can see dirty / rags. / Pick them up?"
  },
  {
   "resource": 1203,

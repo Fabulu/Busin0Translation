@@ -948,8 +948,8 @@
     "resource": 45,
     "message": 67,
     "japanese": "いつでも買取できれば / 持ち士のかたづけが / ラクチンだよな  / ",
-    "english": "Buy anytime to / keep your stuff / organized! / ",
-    "notes": "Buy service branch feature"
+    "english": "Sell anytime to / keep your stuff / organized! / ",
+    "notes": "Buy-service branch feature (shop buys from player = player sells)"
   },
   {
     "resource": 45,
@@ -1074,8 +1074,8 @@
     "resource": 45,
     "message": 85,
     "japanese": "買い取り / ",
-    "english": "Buy / ",
-    "notes": "Buy/purchase option"
+    "english": "Sell / ",
+    "notes": "Shop buys the player's stored item (kaitori) = Sell from player perspective"
   },
   {
     "resource": 45,

@@ -333,13 +333,13 @@
     "resource": 1196,
     "msg_index": 59,
     "japanese": "女aイだって、あそこでグダグダゴネたところで、あの[0333]巨与はなんにもしてくれないでしょ ゴ女bイだけど法悔[0182]には、魔法剣は優臆美ギルドで以るって書いてあったじゃない ゴ女aイでも、合封議著だかなんだか知らないけど、何か新なのがないとダメなんじゃん ゴ女bイだったら、その新なのはどこで力に入るのかぐらい聞いてくれてもいいでしょ？ゴ",
-    "english": "They won't / give us a sword!\nGirl B: The guide / says they're at / the Guild!\nGirl A: You need / a permit!\nGirl B: Then ask!"
+    "english": "They won't / give us a stone!\nGirl B: The guide / says they're at / the Guild!\nGirl A: You need / a permit!\nGirl B: Then ask!"
   },
   {
     "resource": 1196,
     "msg_index": 60,
     "japanese": "女aイなにさ アンタはいつも種ってるだけのクセに、なんでもかんでもアタイのせいにする[0141]？ ゴ女bイそ！そこまでは言ってないわよ！。けど、じゃあどうするの！？魔法剣がなければ、魔法は備えられないのよ！ゴ",
-    "english": "Why blame me? / You just sit there!\nGirl B: I didn't say / that! But without / a magic sword..."
+    "english": "Why blame me? / You just sit there!\nGirl B: I didn't say / that! But without / a magic stone..."
   },
   {
     "resource": 1196,
@@ -351,7 +351,7 @@
     "resource": 1196,
     "msg_index": 62,
     "japanese": "女aイちっがーう 依頼よ、イ・ラ・イ ゴ女bイい！依頼？ゴ女aイそうよ、依頼 魔法剣をくれっていう依頼を出せばいいのよ ゴ女bイでも、役内にそれだけで魔法剣をもらえるの！？ゴ",
-    "english": "No, a quest! / Q-U-E-S-T!\nGirl B: A quest!?\nGirl A: Request / a magic sword!\nGirl B: Would that work?"
+    "english": "No, a quest! / Q-U-E-S-T!\nGirl B: A quest!?\nGirl A: Request / a magic stone!\nGirl B: Would that work?"
   },
   {
     "resource": 1196,
@@ -375,7 +375,7 @@
     "resource": 1196,
     "msg_index": 66,
     "japanese": "女aイああ！[0339][0336]だわ！度うのが[044A][02A1]辺いわ！取っておきたいくらい！ ゴ女bイダメよ、なに言ってんの これからはイヤというほど魔法剣なんて度う雇期なんだから ゴ女aイもう、同少だってば じゃ！じゃあ早[044E]だけど度ってみるわよ！ゴ女bイ・・・・・・・・・・・・ゴ",
-    "english": "It's so / pretty! I want to / keep it!\nGirl B: No! We'll have / plenty of swords!\nGirl A: Let me try!\nGirl B: ..............."
+    "english": "It's so / pretty! I want to / keep it!\nGirl B: No! We'll have / plenty of stones!\nGirl A: Let me try!\nGirl B: ..............."
   },
   {
     "resource": 1196,
@@ -9093,7 +9093,7 @@
     "resource": 1197,
     "msg_index": 617,
     "japanese": "ここに２依増の秘がある。この秘はそれぞれ、[02A1]主の場柵秘・魔主の場柵秘じゃ。",
-    "english": "I have two / potions. Physical / and magical."
+    "english": "I have two / medicines. Body / recovery and / spirit recovery."
   },
   {
     "resource": 1197,
@@ -9111,7 +9111,7 @@
     "resource": 1197,
     "msg_index": 620,
     "japanese": "どの秘を選びますか？[02A1]主の場柵秘魔主の場柵秘",
-    "english": "Which potion? / Physical Barrier / Magical Barrier"
+    "english": "Which medicine? / Body Recovery / Spirit Recovery"
   },
   {
     "resource": 1197,
@@ -9123,13 +9123,13 @@
     "resource": 1197,
     "msg_index": 622,
     "japanese": "[02A1]主の場柵秘を力に入れた ",
-    "english": "Got the Physical / Barrier Potion."
+    "english": "Got the Body / Recovery Medicine."
   },
   {
     "resource": 1197,
     "msg_index": 623,
     "japanese": "魔主の場柵秘を力に入れた ",
-    "english": "Got the Magical / Barrier Potion."
+    "english": "Got the Spirit / Recovery Medicine."
   },
   {
     "resource": 1197,
@@ -9141,7 +9141,7 @@
     "resource": 1197,
     "msg_index": 625,
     "japanese": "というのも、この秘はとても[0143]主じゃから値色で[0131]んだりすると、柵きすぎて[0573]以毒が顔こる。",
-    "english": "This potion is / potent. Don't / drink it."
+    "english": "This medicine is / potent. Don't / drink it."
   },
   {
     "resource": 1197,
@@ -9207,7 +9207,7 @@
     "resource": 1197,
     "msg_index": 636,
     "japanese": "ラングに秘を[047C]内な関独に[0530]かしてきたことを報[0197]した。",
-    "english": "You reported the / potion was / placed."
+    "english": "You reported the / medicine was / placed."
   },
   {
     "resource": 1197,
@@ -9249,13 +9249,13 @@
     "resource": 1197,
     "msg_index": 643,
     "japanese": "ラングは[036E]のポケットから[0339][0336]に界く魔法剣を取り出した。",
-    "english": "Lang pulled out / a glowing sword."
+    "english": "Lang pulled out / a glowing stone."
   },
   {
     "resource": 1197,
     "msg_index": 644,
     "japanese": "ほれ、これはこないだ秘の道合で[043D]った合封議著で以ってもらったリープの剣じゃよ。",
-    "english": "This Leap Sword / was from an / alchemist friend."
+    "english": "This Leap Stone / was from an / alchemist friend."
   },
   {
     "resource": 1197,
@@ -9297,7 +9297,7 @@
     "resource": 1197,
     "msg_index": 651,
     "japanese": "リープの剣を力に入れた ",
-    "english": "Received the / Leap Sword."
+    "english": "Received the / Leap Stone."
   },
   {
     "resource": 1197,
@@ -9369,7 +9369,7 @@
     "resource": 1197,
     "msg_index": 663,
     "japanese": "ほれ、これはこないだ秘の道合で[043D]った合封議著で以ってもらったリープの剣じゃよ。",
-    "english": "Here, this is the / Ripu magic stone I / made from leftover / synthetic drugs."
+    "english": "Here, this is the / Leap magic stone I / made from leftover / synthetic drugs."
   },
   {
     "resource": 1197,
@@ -9387,7 +9387,7 @@
     "resource": 1197,
     "msg_index": 666,
     "japanese": "リープの剣を力に入れた ",
-    "english": "Obtained the / Ripu Stone."
+    "english": "Obtained the / Leap Stone."
   },
   {
     "resource": 1197,
