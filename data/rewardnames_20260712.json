@@ -33,12 +33,12 @@
   "resource": 1199,
   "msg_index": 231,
   "old": "Inside was a / revival herb.",
-  "new": "Inside was a / Town Return Potion."
+  "new": "Inside was a / Return Potion."
  },
  {
   "resource": 1196,
   "msg_index": 41,
   "old": "Product List // Potion      300G / Antidote    300G / Small Gem   700G / Strength    600G / Cancel Purchase",
-  "new": "Product List // Potion 300G / Town Return Potion 300G / Small Shield 700G / Gauntlets 600G / Cancel Purchase"
+  "new": "Product List // Medicine 300G / Return Potion 300G / Small Shield 700G / Gauntlets 600G / Cancel Purchase"
  }
 ]

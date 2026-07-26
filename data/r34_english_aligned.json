@@ -5583,7 +5583,7 @@
    "idx": 1,
    "msg": 703,
    "jp": "封傷の穏 / ",
-   "english": "Wound Salve",
+   "english": "Medicine",
    "preserve_prefix": false
   },
   {
@@ -5607,7 +5607,7 @@
    "idx": 4,
    "msg": 706,
    "jp": "殿毒の穏 / ",
-   "english": "Detox Potion",
+   "english": "Antidote",
    "preserve_prefix": false
   },
   {
@@ -5631,7 +5631,7 @@
    "idx": 7,
    "msg": 709,
    "jp": "帰足の穏 / ",
-   "english": "Vigor Potion",
+   "english": "Tonic",
    "preserve_prefix": false
   },
   {
@@ -9071,7 +9071,7 @@
    "idx": 3,
    "msg": 1152,
    "jp": "?祠 / ",
-   "english": "? Shuriken",
+   "english": "? Sword",
    "preserve_prefix": false
   },
   {

@@ -3,13 +3,13 @@
   "resource": 1196,
   "msg_index": 41,
   "japanese": "[001C]商品リスト[001E][04CE][0327]の秘   ３００g[01AB][053F]の秘   ３００g間さな[05EE]   ７００g間力     ６００g[05AB]入をやめる     ",
-  "english": "Product List // Potion 300G / Town Return Potion 300G / Small Shield 700G / Gauntlets 600G / Cancel Purchase"
+  "english": "Product List // Medicine 300G / Return Potion 300G / Small Shield 700G / Gauntlets 600G / Cancel Purchase"
  },
  {
   "resource": 1199,
   "msg_index": 231,
   "japanese": "飽[03CE]の中には[01AB][053F]の秘が入っていた。",
-  "english": "Inside was a / Town Return Potion."
+  "english": "Inside was a / Return Potion."
  },
  {
   "resource": 1203,

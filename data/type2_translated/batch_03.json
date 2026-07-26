@@ -2577,7 +2577,7 @@
   "resource": 1203,
   "msg_index": 448,
   "japanese": "セラフのセルフショップ[0160]めて[0362][0439]毒される今は必ず向全をお獲みください。買い物をする向全を獲む やめる   ",
-  "english": "Seraph Self-Shop. / First-timers must / read instructions. / Read / Stop"
+  "english": "Seraph Self-Shop. / First-timers must / read instructions. / Buy / Help / Exit"
  },
  {
   "resource": 1203,
@@ -2601,13 +2601,13 @@
   "resource": 1203,
   "msg_index": 452,
   "japanese": "[001C]商品リスト[001E][04CE][0327]の秘   ３００g[01AB][053F]の秘   ３００g倒[0331]の秘   ３００g[045D]加の秘   ３００gさびたカギ   品該れ[05AB]入をやめる     ",
-  "english": "<Product List> / Healing Potion 300G / Return Potion 300G / Antidote 300G / Rest Potion 300G / Rusty Key SOLD OUT / Cancel"
+  "english": "<Product List> / Medicine 300G / Return Potion 300G / Antidote 300G / Tonic 300G / Rusty Key SOLD OUT / Cancel"
  },
  {
   "resource": 1203,
   "msg_index": 453,
   "japanese": "[001C]商品リスト[001E][04CE][0327]の秘    ３００g[01AB][053F]の秘    ３００g倒[0331]の秘    ３００g[045D]加の秘    ３００gさびたカギ  ３０００g[05AB]入をやめる      ",
-  "english": "<Product List> / Healing Potion 300G / Return Potion 300G / Antidote 300G / Rest Potion 300G / Rusty Key 3000G / Cancel"
+  "english": "<Product List> / Medicine 300G / Return Potion 300G / Antidote 300G / Tonic 300G / Rusty Key 3000G / Cancel"
  },
  {
   "resource": 1203,
@@ -2619,7 +2619,7 @@
   "resource": 1203,
   "msg_index": 455,
   "japanese": "[04CE][0327]の秘を力に入れた ",
-  "english": "Obtained Healing / Potion."
+  "english": "Obtained / Medicine."
  },
  {
   "resource": 1203,
@@ -2655,7 +2655,7 @@
   "resource": 1203,
   "msg_index": 461,
   "japanese": "[045D]加の秘を力に入れた ",
-  "english": "Obtained Rest / Potion."
+  "english": "Obtained / Tonic."
  },
  {
   "resource": 1203,
@@ -2697,7 +2697,7 @@
   "resource": 1203,
   "msg_index": 468,
   "japanese": "[04CE][0327]の秘を[05AB]入した ",
-  "english": "Purchased Healing / Potion."
+  "english": "Purchased / Medicine."
  },
  {
   "resource": 1203,
@@ -2751,7 +2751,7 @@
   "resource": 1203,
   "msg_index": 477,
   "japanese": "[045D]加の秘を[05AB]入した ",
-  "english": "Purchased Rest / Potion."
+  "english": "Purchased / Tonic."
  },
  {
   "resource": 1203,
