@@ -741,7 +741,7 @@
     "resource": 1204,
     "msg_index": 129,
     "japanese": "魔物aイねえねえ、ねえねえゴ魔物bイ！むうううゴ魔物aイいいでしょ、お蓄。[04CF]あと、そのお蓄を[0537][0447]すればレプラグッズ、コンプリートするんだもんゴ魔物bイや、それはどうでもいいけどたしかにその、怖れた鎧１０役と[014D]炎はオイシイ！ゴ魔物aイでしょ、でしょ？！どうでもいいってのはヒドいけど！ゴ",
-    "english": "Please? / Monster B: Hmm... / Monster A: I need / it for Lepra Goods! / Monster B: Those / Cursed Armors are / nice! / Monster A: Mean!"
+    "english": "Please? / Monster B: Hmm... / Monster A: I need / it for Lepra Goods! / Monster B: Those / Broken Swords are / nice! / Monster A: Mean!"
   },
   {
     "resource": 1204,
@@ -837,13 +837,13 @@
     "resource": 1204,
     "msg_index": 146,
     "japanese": "ほれ、彼らが[01C9]段オークを変した前、怖れた鎧をよこすのだ ",
-    "english": "Hey, hand over / a Cursed Armor / if you wanna / play!"
+    "english": "Hey, hand over / a Broken Sword / if you wanna / play!"
   },
   {
     "resource": 1204,
     "msg_index": 147,
     "japanese": "怖れた鎧を渡しますか？は いいいえ",
-    "english": "Hand over a / Cursed Armor? / Yes / No"
+    "english": "Hand over a / Broken Sword? / Yes / No"
   },
   {
     "resource": 1204,
@@ -855,25 +855,25 @@
     "resource": 1204,
     "msg_index": 150,
     "japanese": "ジャンケンマンに怖れた鎧を渡した ",
-    "english": "Gave Cursed / Armor to Janken / Man."
+    "english": "Gave Broken / Sword to Janken / Man."
   },
   {
     "resource": 1204,
     "msg_index": 151,
     "japanese": "よしよし、探かに怖れた鎧だ。",
-    "english": "Good, good. / That's a real / Cursed Armor."
+    "english": "Good, good. / That's a real / Broken Sword."
   },
   {
     "resource": 1204,
     "msg_index": 152,
     "japanese": "もしかしたらファイターが怖った鎧かもしれない、何[01BC]が怖った鎧かもしれない。",
-    "english": "Maybe a Fighter / wore it, maybe / someone else."
+    "english": "Maybe a Fighter / wielded it, maybe / someone else."
   },
   {
     "resource": 1204,
     "msg_index": 153,
     "japanese": "だがオレっチは、この鎧が何[01BC]に変されたオークの[01DA]品だと信じることにする ",
-    "english": "But I believe / this armor / belonged to a / slain orc!"
+    "english": "But I believe / this sword / belonged to a / slain orc!"
   },
   {
     "resource": 1204,
@@ -885,7 +885,7 @@
     "resource": 1204,
     "msg_index": 155,
     "japanese": "怖れた鎧を渡すつもりが１つも持っていなかった。",
-    "english": "Tried to hand / over a Cursed / Armor but had / none."
+    "english": "Tried to hand / over a Broken / Sword but had / none."
   },
   {
     "resource": 1204,
@@ -957,7 +957,7 @@
     "resource": 1204,
     "msg_index": 167,
     "japanese": "それならそうと、前[0544]を見せろ ほら、とっととオークを変した前、怖れた鎧をよこすんだっ ",
-    "english": "Then show proof! / Hand over a / Cursed Armor / from a slain / orc!"
+    "english": "Then show proof! / Hand over a / Broken Sword / from a slain / orc!"
   },
   {
     "resource": 1204,
@@ -969,13 +969,13 @@
     "resource": 1204,
     "msg_index": 169,
     "japanese": "怖れた鎧を渡してジャンケンしますか？は いいいえ",
-    "english": "Hand over Cursed / Armor and play? / Yes / No"
+    "english": "Hand over Broken / Sword and play? / Yes / No"
   },
   {
     "resource": 1204,
     "msg_index": 170,
     "japanese": "怖れた鎧を渡そうとしたが１つも持っていなかった。",
-    "english": "Tried to hand / over Cursed / Armor but had / none."
+    "english": "Tried to hand / over Broken / Sword but had / none."
   },
   {
     "resource": 1204,
@@ -1017,13 +1017,13 @@
     "resource": 1204,
     "msg_index": 177,
     "japanese": "[0548]兜なオレッチ[01BC]は、怖れた鎧さえ持ってくればいつでもジャンケンしてやるぞ ",
-    "english": "Generous me will / play anytime if / you bring a / Cursed Armor!"
+    "english": "Generous me will / play anytime if / you bring a / Broken Sword!"
   },
   {
     "resource": 1204,
     "msg_index": 178,
     "japanese": "怖れた鎧を渡してジャンケンしますか？は いいいえ",
-    "english": "Hand over Cursed / Armor and play? / Yes / No"
+    "english": "Hand over Broken / Sword and play? / Yes / No"
   },
   {
     "resource": 1204,
