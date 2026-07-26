@@ -2775,7 +2775,7 @@
     "resource": 1200,
     "msg_index": 227,
     "japanese": "０１２３４５６７８９−開役属マントを力に入れた ",
-    "english": "0123456789- / Received a / Priestess Mantle."
+    "english": "0123456789- / Received the / Bishop Cloak."
   },
   {
     "resource": 1200,
@@ -2847,7 +2847,7 @@
     "resource": 1200,
     "msg_index": 240,
     "japanese": "０１２３４５６７８９−開役属マントを力に入れた ",
-    "english": "0123456789- / Received a / Priestess Mantle."
+    "english": "0123456789- / Received the / Bishop Cloak."
   },
   {
     "resource": 1200,
@@ -3801,7 +3801,7 @@
     "resource": 1201,
     "msg_index": 148,
     "japanese": "焼の宝[04C8]を力に入れた ",
-    "english": "Received the / Samurai Gem."
+    "english": "Received the / Samurai Soul."
   },
   {
     "resource": 1201,
@@ -3885,7 +3885,7 @@
     "resource": 1201,
     "msg_index": 162,
     "japanese": "これはそれなりの議言を持つ住帰にしか度いこなせないと言われる[018A][032F]、長員。",
-    "english": "This is a famed / blade only a / skilled samurai / can wield -- the / Nagamaki."
+    "english": "This is a famed / blade only a / skilled samurai / can wield -- the / Osafune."
   },
   {
     "resource": 1201,
@@ -3909,7 +3909,7 @@
     "resource": 1201,
     "msg_index": 166,
     "japanese": "フドウから長員の入った持みを受け取った。",
-    "english": "Received the / Nagamaki bundle / from Fudo."
+    "english": "Received the / Osafune bundle / from Fudo."
   },
   {
     "resource": 1201,
@@ -5613,6 +5613,6 @@
     "resource": 1202,
     "msg_index": 299,
     "japanese": "ブレスキャンセルを力に入れた。",
-    "english": "Received / Brace Cancel."
+    "english": "Received / Breath Cancel."
   }
 ]

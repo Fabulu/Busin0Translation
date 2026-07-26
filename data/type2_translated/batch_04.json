@@ -1125,7 +1125,7 @@
     "resource": 1204,
     "msg_index": 197,
     "japanese": "[01AB][053F]の秘を力に入れた ",
-    "english": "Obtained a / Return Scroll."
+    "english": "Obtained a / Return Potion."
   },
   {
     "resource": 1204,
@@ -1155,7 +1155,7 @@
     "resource": 1204,
     "msg_index": 202,
     "japanese": "[0346][0540]の秘を力に入れた ",
-    "english": "Obtained a / Heal Scroll."
+    "english": "Obtained a / Heal Potion."
   },
   {
     "resource": 1204,
@@ -1227,7 +1227,7 @@
     "resource": 1204,
     "msg_index": 215,
     "japanese": "[04D9][0540]の秘を力に入れた ",
-    "english": "Obtained a / Stamina Scroll."
+    "english": "Obtained a / Recovery Medicine."
   },
   {
     "resource": 1204,
@@ -1365,7 +1365,7 @@
     "resource": 1204,
     "msg_index": 238,
     "japanese": "[01AB][053F]の秘を力に入れた ",
-    "english": "Obtained a / Return Scroll."
+    "english": "Obtained a / Return Potion."
   },
   {
     "resource": 1204,
@@ -1395,7 +1395,7 @@
     "resource": 1204,
     "msg_index": 243,
     "japanese": "[0346][0540]の秘を力に入れた ",
-    "english": "Obtained a / Heal Scroll."
+    "english": "Obtained a / Heal Potion."
   },
   {
     "resource": 1204,
@@ -1467,7 +1467,7 @@
     "resource": 1204,
     "msg_index": 256,
     "japanese": "[04D9][0540]の秘を力に入れた ",
-    "english": "Obtained a / Stamina Scroll."
+    "english": "Obtained a / Recovery Medicine."
   },
   {
     "resource": 1204,
@@ -2193,7 +2193,7 @@
     "resource": 1204,
     "msg_index": 377,
     "japanese": "じゃあ、そろそろ盗に戻るわ。[01AB]りは[01AB][053F]の秘があるからラクなんだけどな～。",
-    "english": "Well, heading / back. Getting / home with a / Return Scroll / is easy!"
+    "english": "Well, heading / back. Getting / home with a / Return Potion / is easy!"
   },
   {
     "resource": 1204,
@@ -3495,7 +3495,7 @@
     "resource": 1204,
     "msg_index": 602,
     "japanese": "[04D9][0540]の秘を力に入れた ",
-    "english": "Obtained / Stamina Scroll."
+    "english": "Obtained / Recovery Medicine."
   },
   {
     "resource": 1204,
@@ -3525,7 +3525,7 @@
     "resource": 1204,
     "msg_index": 608,
     "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
-    "english": "Consolation: / Stamina Scroll. / Restores body / stamina!"
+    "english": "Consolation: / Recovery Medicine. / Fully restores / your energy!"
   },
   {
     "resource": 1204,
@@ -3567,7 +3567,7 @@
     "resource": 1204,
     "msg_index": 615,
     "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
-    "english": "Consolation: / Stamina Scroll. / Restores body / stamina!"
+    "english": "Consolation: / Recovery Medicine. / Fully restores / your energy!"
   },
   {
     "resource": 1204,
@@ -3657,7 +3657,7 @@
     "resource": 1204,
     "msg_index": 630,
     "japanese": "ブレイクサイレンスを力に入れた。",
-    "english": "Obtained / Break Silence."
+    "english": "Obtained / Silence Breaker."
   },
   {
     "resource": 1204,
@@ -3729,7 +3729,7 @@
     "resource": 1204,
     "msg_index": 643,
     "japanese": "拡の集取りを力に入れた ",
-    "english": "Obtained Jade / Accessory."
+    "english": "Obtained the / Silver Hair / Ornament."
   },
   {
     "resource": 1204,
@@ -7323,7 +7323,7 @@
     "resource": 1205,
     "msg_index": 270,
     "japanese": "スタンスマッシュを力に入れた。",
-    "english": "Obtained / Stance Smash!"
+    "english": "Obtained / Stun Smash!"
   },
   {
     "resource": 1205,
@@ -9237,7 +9237,7 @@
     "resource": 1205,
     "msg_index": 598,
     "japanese": "[04D9][0540]の秘を力に入れた ",
-    "english": "Obtained / Recovery Vial!"
+    "english": "Obtained / Recovery Medicine!"
   },
   {
     "resource": 1205,
@@ -9267,7 +9267,7 @@
     "resource": 1205,
     "msg_index": 604,
     "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
-    "english": "Lose and you / get a Recovery / Vial. Still / a great / consolation / prize!"
+    "english": "Lose and you / get a Recovery / Medicine. Still / a great / consolation / prize!"
   },
   {
     "resource": 1205,
@@ -9309,7 +9309,7 @@
     "resource": 1205,
     "msg_index": 611,
     "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
-    "english": "Lose and you / get a Recovery / Vial. Still / a great / consolation / prize!"
+    "english": "Lose and you / get a Recovery / Medicine. Still / a great / consolation / prize!"
   },
   {
     "resource": 1205,
@@ -9399,7 +9399,7 @@
     "resource": 1205,
     "msg_index": 626,
     "japanese": "ブレイクサイレンスを力に入れた。",
-    "english": "Obtained / Break Silence!"
+    "english": "Obtained / Silence Breaker!"
   },
   {
     "resource": 1205,
@@ -9429,7 +9429,7 @@
     "resource": 1205,
     "msg_index": 632,
     "japanese": "なかには何闘なベイクド拡で以られた[0339][0336]な集取りが入っていた。",
-    "english": "Inside was a / beautiful / baked-clay / ring."
+    "english": "Inside was a / beautiful hair / ornament made of / baked silver."
   },
   {
     "resource": 1205,
@@ -9471,7 +9471,7 @@
     "resource": 1205,
     "msg_index": 639,
     "japanese": "拡の集取りを力に入れた ",
-    "english": "Obtained the / Clay Ring!"
+    "english": "Obtained the / Silver Hair / Ornament!"
   },
   {
     "resource": 1205,

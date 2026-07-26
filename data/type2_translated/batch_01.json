@@ -765,7 +765,7 @@
     "resource": 1196,
     "msg_index": 132,
     "japanese": "s・jアタックを力に入れた。",
-    "english": "Learned the / s-j Attack."
+    "english": "Learned the / SJ Attack."
   },
   {
     "resource": 1196,
@@ -1191,7 +1191,7 @@
     "resource": 1196,
     "msg_index": 203,
     "japanese": "はアレイドイミラーイメージゴを力に入れた。",
-    "english": "the suffering. / You obtained / Allied Action."
+    "english": "the suffering. / You learned the / Allied Action / Mirror Image."
   },
   {
     "resource": 1196,
@@ -4845,7 +4845,7 @@
     "resource": 1196,
     "msg_index": 829,
     "japanese": "ジンの[032F]を力に入れた ",
-    "english": "You received / Gin's Box."
+    "english": "You received / Gin's Blade."
   },
   {
     "resource": 1196,
@@ -4917,7 +4917,7 @@
     "resource": 1196,
     "msg_index": 842,
     "japanese": "ジンの[032F]を力に入れた ",
-    "english": "You received / Gin's Box."
+    "english": "You received / Gin's Blade."
   },
   {
     "resource": 1196,
@@ -6945,7 +6945,7 @@
     "resource": 1197,
     "msg_index": 245,
     "japanese": "ライマンの書増を力に入れた ",
-    "english": "Received Raiman's / form."
+    "english": "Received the / Raiman Letter."
   },
   {
     "resource": 1197,

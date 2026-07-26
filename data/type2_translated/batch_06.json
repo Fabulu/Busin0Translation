@@ -1215,7 +1215,7 @@
     "resource": 1208,
     "msg_index": 211,
     "japanese": "メンバーカードを力に入れた ",
-    "english": "Obtained member card!"
+    "english": "Obtained the Member Card!"
   },
   {
     "resource": 1208,
@@ -2313,7 +2313,7 @@
     "resource": 1208,
     "msg_index": 401,
     "japanese": "[04D9][0540]の秘を力に入れた ",
-    "english": "Obtained Potion of / Recovery!"
+    "english": "Obtained / Recovery Medicine!"
   },
   {
     "resource": 1208,
@@ -2343,7 +2343,7 @@
     "resource": 1208,
     "msg_index": 407,
     "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
-    "english": "Even losing gets / you a Potion of / Recovery! Not bad, huh?"
+    "english": "Even losing gets / you a Recovery / Medicine! Not bad, huh?"
   },
   {
     "resource": 1208,
@@ -2385,7 +2385,7 @@
     "resource": 1208,
     "msg_index": 414,
     "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
-    "english": "Even losing gets / you a Potion of / Recovery! Not bad, huh?"
+    "english": "Even losing gets / you a Recovery / Medicine! Not bad, huh?"
   },
   {
     "resource": 1208,
@@ -2475,7 +2475,7 @@
     "resource": 1208,
     "msg_index": 429,
     "japanese": "ブレイクサイレンスを力に入れた。",
-    "english": "Learned Break Silence!"
+    "english": "Learned Silence Breaker!"
   },
   {
     "resource": 1208,
@@ -6537,7 +6537,7 @@
     "resource": 1209,
     "msg_index": 222,
     "japanese": "メンバーカードを力に入れた ",
-    "english": "You received the Membership Card!"
+    "english": "You received the Member Card!"
   },
   {
     "resource": 1209,
@@ -7503,7 +7503,7 @@
     "resource": 1209,
     "msg_index": 390,
     "japanese": "ちなみに罰回からの内選[053C]品は[0578]の[06BA]骨・魔法のワインに新自っスから ",
-    "english": "By the way, from next time onwards, the prize will be a Bone of the Dead and Magical Wine!"
+    "english": "By the way, from next time onwards, the prize will be a famous brand of wine, the Magic Wine!"
   },
   {
     "resource": 1209,
@@ -7515,13 +7515,13 @@
     "resource": 1209,
     "msg_index": 392,
     "japanese": "でもまあこれもサービス [0578]の[06BA]骨・魔法のワインを[059A]し外がれ～ ",
-    "english": "But hey, it's all part of the service! Take the Bone of the Dead and Magical Wine!"
+    "english": "But hey, it's all part of the service! Take this famous wine, the Magic Wine!"
   },
   {
     "resource": 1209,
     "msg_index": 393,
     "japanese": "魔法のワインを力に入れた ",
-    "english": "You received the Magical Wine!"
+    "english": "You received the Magic Wine!"
   },
   {
     "resource": 1209,
@@ -7701,7 +7701,7 @@
     "resource": 1209,
     "msg_index": 424,
     "japanese": "内選すれば替[0319][01E5]品。なんと[0578]の[06BA]骨、魔法のワイン 魔主がみなぎるっス ",
-    "english": "If you win, you get the Bone of the Dead and Magical Wine! Your magical power will be surging!"
+    "english": "If you win, you get a famous brand of wine, the Magic Wine! Your magical power will be surging!"
   },
   {
     "resource": 1209,

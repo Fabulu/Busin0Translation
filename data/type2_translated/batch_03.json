@@ -117,7 +117,7 @@
   "resource": 1203,
   "msg_index": 19,
   "japanese": "じゃあ、そろそろ盗に戻るわ。[01AB]りは[01AB][053F]の秘があるからラクなんだけどな～。",
-  "english": "Well, time to head / back. The return / scroll makes it easy."
+  "english": "Well, time to head / back. The Return / Potion makes it easy."
  },
  {
   "resource": 1203,
@@ -1419,7 +1419,7 @@
   "resource": 1203,
   "msg_index": 244,
   "japanese": "[04D9][0540]の秘を力に入れた ",
-  "english": "Obtained the / Dragon Potion."
+  "english": "Obtained the / Recovery Medicine."
  },
  {
   "resource": 1203,
@@ -1449,7 +1449,7 @@
   "resource": 1203,
   "msg_index": 250,
   "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
-  "english": "Consolation prize / is a Dragon / Potion. Not bad!"
+  "english": "Consolation prize / is a Recovery / Medicine. Not bad!"
  },
  {
   "resource": 1203,
@@ -1491,7 +1491,7 @@
   "resource": 1203,
   "msg_index": 257,
   "japanese": "義れれば参加[053C]・[04D9][0540]の秘。ん～、義れても替[0319]っス [02A1]主用[04D9]でビンビンっス ",
-  "english": "Consolation prize / is a Dragon / Potion. Not bad!"
+  "english": "Consolation prize / is a Recovery / Medicine. Not bad!"
  },
  {
   "resource": 1203,
@@ -1581,7 +1581,7 @@
   "resource": 1203,
   "msg_index": 272,
   "japanese": "ブレイクサイレンスを力に入れた。",
-  "english": "Obtained / Break Silence."
+  "english": "Obtained / Silence Breaker."
  },
  {
   "resource": 1203,
@@ -1653,7 +1653,7 @@
   "resource": 1203,
   "msg_index": 285,
   "japanese": "拡の集取りを力に入れた ",
-  "english": "Obtained the / Crystal Hair Clip."
+  "english": "Obtained the / Silver Hair / Ornament."
  },
  {
   "resource": 1203,
@@ -1821,7 +1821,7 @@
   "resource": 1203,
   "msg_index": 318,
   "japanese": "打扱のメダルを力に入れた ",
-  "english": "Obtained Dark Medals."
+  "english": "Obtained a / Dark Medal."
  },
  {
   "resource": 1203,
@@ -3255,7 +3255,7 @@
   "resource": 1203,
   "msg_index": 565,
   "japanese": "[0419]のメイスを力に入れた ",
-  "english": "Obtained the / Blessed Mace."
+  "english": "Obtained the / Flame Mace."
  },
  {
   "resource": 1203,
@@ -7215,7 +7215,7 @@
   "resource": 1203,
   "msg_index": 1252,
   "japanese": "[01AB][053F]の秘を力に入れた。",
-  "english": "Obtained a / Return Scroll."
+  "english": "Obtained a / Return Potion."
  },
  {
   "resource": 1203,
@@ -8907,7 +8907,7 @@
   "resource": 1203,
   "msg_index": 1536,
   "japanese": "オークのパンツを力に入れた。",
-  "english": "Obtained Orc / Underwear."
+  "english": "Obtained the / Orc Pants."
  },
  {
   "resource": 1203,
@@ -8919,7 +8919,7 @@
   "resource": 1203,
   "msg_index": 1538,
   "japanese": "オーク[049B]けのすずを力に入れた。",
-  "english": "Obtained Orc / Bell."
+  "english": "Obtained the / Repel Bell."
  },
  {
   "resource": 1203,
@@ -9345,7 +9345,7 @@
   "resource": 1203,
   "msg_index": 1609,
   "japanese": "打扱のメダルを力に入れた ",
-  "english": "Obtained the / Medal of the / Ancients."
+  "english": "Obtained a / Dark Medal."
  },
  {
   "resource": 1203,

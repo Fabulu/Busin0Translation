@@ -75,6 +75,7 @@ MODULES = [
     "test_regress_harness",
     "test_v192_spell_quest_fixes",
     "test_issue40_name_reconciliation",
+    "test_v195_item_name_divergence",
 ]
 
 
