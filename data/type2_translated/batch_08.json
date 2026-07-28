@@ -939,7 +939,7 @@
     "resource": 1212,
     "msg_index": 161,
     "japanese": "０１２３４５６７８９−００００００え～！あなたの会社番実は番になりやすので。会社前には書いてませんけどね。",
-    "english": "Your member # is ."
+    "english": "Your member number / is [FE01][FE02]. Not on card."
   },
   {
     "resource": 1212,
@@ -1017,7 +1017,7 @@
     "resource": 1212,
     "msg_index": 174,
     "japanese": "０１２３４５６７８９−００００００まいどっ え～っと！会社番実のさんっスよね？",
-    "english": "Welcome back!"
+    "english": "Hey there! Member / number [FE01][FE02], right?"
   },
   {
     "resource": 1212,
@@ -1785,7 +1785,7 @@
     "resource": 1212,
     "msg_index": 307,
     "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
-    "english": "Member #! Welcome!"
+    "english": "Oh, member / number [FE01][FE02]! / Welcome!"
   },
   {
     "resource": 1212,

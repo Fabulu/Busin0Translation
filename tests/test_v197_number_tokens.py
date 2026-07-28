@@ -96,7 +96,13 @@ def test_donation_gold_token():
 
 def test_member_number_tokens():
     # Member-card lines carry [FE01][FE02] where the member number prints.
-    for r, mi in [(1203, 52), (1203, 65), (1207, 348)]:
+    # First group = v197; second block = v198 (the 10 district-mirror member
+    # lines that were never leaking but had dropped their number token).
+    v197 = [(1203, 52), (1203, 65), (1207, 348)]
+    v198 = [(1206, 331), (1206, 464), (1208, 355), (1209, 366),
+            (1212, 161), (1212, 174), (1212, 307),
+            (1353, 161), (1353, 174), (1353, 306)]
+    for r, mi in v197 + v198:
         assert "[FE01][FE02]" in _eng(r, mi), (
             "R%d m%d lost its [FE01][FE02] member-number token" % (r, mi))
 

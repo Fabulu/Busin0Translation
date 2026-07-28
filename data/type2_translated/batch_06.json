@@ -2049,7 +2049,7 @@
     "resource": 1208,
     "msg_index": 355,
     "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
-    "english": "Hey there, / member number ! /"
+    "english": "Oh, member / number [FE01][FE02]! / Welcome!"
   },
   {
     "resource": 1208,
@@ -7371,7 +7371,7 @@
     "resource": 1209,
     "msg_index": 366,
     "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
-    "english": "Oh, member number! / Welcome aboard! /"
+    "english": "Oh, member / number [FE01][FE02]! / Welcome aboard!"
   },
   {
     "resource": 1209,
