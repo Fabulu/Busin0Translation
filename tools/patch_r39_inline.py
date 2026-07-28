@@ -178,7 +178,7 @@ EQUIP_CATEGORIES = {
     463: "RcvCp",        # 回復チップ (5 slots) - Recovery Chip
     464: "SRcvCp",       # 自回復チップ (6 slots) - Self-Recovery Chip
     465: "Eqp",          # 装備品 (3 slots) - Equipment
-    466: "RcvEq",        # 回復装備品 (5 slots) - Recovery Equipment
+    466: "Recov",        # 回復装備品 (5 slots) - Recovery Equipment (#43: guild-order label, 5-char hard cap)
     467: "SRcvEq",       # 自回復装備品 (6 slots) - Self-Recovery Equipment
     468: "PasEq",        # 通通装備品 (5 slots) - Passive Equipment
     469: "CrstEq",       # 使いの装備品 (6 slots) - Cursed Equipment
