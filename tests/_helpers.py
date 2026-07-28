@@ -659,15 +659,31 @@ def sec1_regression_check(pristine, patched, name="?"):
         allowed.update(range(_i + 2, _i + 10))
         _i += 10
     _i = 0
+    _digit_template = tuple(range(0x10, 0x1A)) + (0x0D,)  # ０..９− (issue #44; tuple to match pwords slice type)
     while _i <= len(ps1) - 14:
         if struct.unpack_from(">H", ps1, _i)[0] != 0x0014 or _i in _walked:
             _i += 1
             continue
         _off = struct.unpack_from(">I", ps1, _i + 6)[0]
         _cnt = struct.unpack_from(">I", ps1, _i + 10)[0]
-        if _cnt == 0 or _cnt > 10 or _off >= len(pwords):
+        if _cnt == 0 or _cnt > 11 or _off >= len(pwords):
             _i += 1
             continue
+        if _cnt == 11:
+            # pass-a3 DIGIT-TABLE exception (issue #44): the only cnt==11
+            # island 0x14 the patcher ever rewrites is a NUMBER-slot
+            # registration (p2 = real game-variable index, off = a group start,
+            # pristine slice = the canonical 11-glyph digit template) whose
+            # group got a seeded name plan -- mirrors
+            # patch_section1_offsets._island_digit_slices EXACTLY.  Any other
+            # cnt==11 diff is still flagged as v84-class corruption.
+            _p1 = struct.unpack_from(">H", ps1, _i + 2)[0]
+            _p2 = struct.unpack_from(">H", ps1, _i + 4)[0]
+            if (_p1 >= 10 or _p2 == 0xFFFF or _p2 >= 0x1B1
+                    or gstart_to_gi.get(_off) is None
+                    or pwords[_off:_off + 11] != _digit_template):
+                _i += 1
+                continue
         if not _wbytes.isdisjoint(range(_i, _i + 14)):
             _i += 1
             continue

@@ -94,6 +94,7 @@ sys.path.insert(0, os.path.join(ROOT, "tools"))
 from patch_section1_offsets import (  # noqa: E402
     _bucket_labels,
     _clean_prefix_len,
+    _island_digit_slices,
     parse_sec2_group_offsets,
 )
 
@@ -377,6 +378,17 @@ def _name_island_prefix_lens(parsed):
         elif plen >= (ge - gs):
             # Prefix covers the entire group => label table too (see above).
             label_tables.add(gi)
+
+    # Island DIGIT-TABLE prefixes (issue #44): the 3 R1200 island groups whose
+    # 0x14 registers an 11-word number digit-template at the group head.  Their
+    # paired 0x04 display starts at rel=11 (the template never renders), so the
+    # first 11 words are NOT on the first on-screen line -- exactly like a
+    # name-island label prefix.  Uses the patcher's own _island_digit_slices so
+    # the exemption stays in lockstep with the build (matches ONLY groups whose
+    # head is byte-exactly the digit template).  max() so a wider walked prefix
+    # (member-card "000000" tail) is never shrunk.
+    for gi in _island_digit_slices(sec1, instrs, groups, parsed["words"]):
+        prefixes[gi] = max(prefixes.get(gi, 0), 11)
     return prefixes, label_tables
 
 

@@ -2067,7 +2067,7 @@
     "resource": 1200,
     "msg_index": 105,
     "japanese": "０１２３４５６７８９−あっ！、一番[0451]目な事を言い[01C7]れてしまいました。",
-    "english": "0123456789- / Oh! I forgot the / most important / thing."
+    "english": "Oh! I forgot the / most important / thing."
   },
   {
     "resource": 1200,
@@ -2409,7 +2409,7 @@
     "resource": 1200,
     "msg_index": 165,
     "japanese": "０１２３４５６７８９−開[0343]に言われたとおり、[054C]生に必[0409]なgをお[0268]宝[03CE]に[0574][03D0]した。",
-    "english": "0123456789- / As instructed, you / donated [g] to / the offering box."
+    "english": "As instructed, you / donated [FE01]G to / the offering box."
   },
   {
     "resource": 1200,
@@ -2775,7 +2775,7 @@
     "resource": 1200,
     "msg_index": 227,
     "japanese": "０１２３４５６７８９−開役属マントを力に入れた ",
-    "english": "0123456789- / Received the / Bishop Cloak."
+    "english": "Received the / Bishop Cloak."
   },
   {
     "resource": 1200,
@@ -2847,7 +2847,7 @@
     "resource": 1200,
     "msg_index": 240,
     "japanese": "０１２３４５６７８９−開役属マントを力に入れた ",
-    "english": "0123456789- / Received the / Bishop Cloak."
+    "english": "Received the / Bishop Cloak."
   },
   {
     "resource": 1200,
@@ -3681,7 +3681,7 @@
     "resource": 1201,
     "msg_index": 128,
     "japanese": "０１２３４５６７８９−イ近正チケットを度われる お落[01BC]ですね？ゴ",
-    "english": "0123456789- / 'You'd like to use / a Lodging Ticket?'"
+    "english": "'You'd like to use / a Lodging Ticket?'"
   },
   {
     "resource": 1201,
@@ -3693,7 +3693,7 @@
     "resource": 1201,
     "msg_index": 130,
     "japanese": "gかえしてもらった ",
-    "english": "Got [g] back."
+    "english": "G returned to you."
   },
   {
     "resource": 1201,

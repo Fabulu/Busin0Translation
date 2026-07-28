@@ -309,7 +309,7 @@
   "resource": 1203,
   "msg_index": 52,
   "japanese": "０１２３４５６７８９−００００００え～！あなたの会社番実は番になりやすので。会社前には書いてませんけどね。",
-  "english": "0123456789-000000 / Your member number / is. Not on card."
+  "english": "Your member number / is [FE01][FE02]. Not on card."
  },
  {
   "resource": 1203,
@@ -387,7 +387,7 @@
   "resource": 1203,
   "msg_index": 65,
   "japanese": "０１２３４５６７８９−００００００まいどっ え～っと！会社番実のさんっスよね？",
-  "english": "0123456789-000000 / Hey there! Member / number, right?"
+  "english": "Hey there! Member / number [FE01][FE02], right?"
  },
  {
   "resource": 1203,
@@ -1155,7 +1155,7 @@
   "resource": 1203,
   "msg_index": 198,
   "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
-  "english": "0123456789-000000 / 0123456789- Oh, / member! Welcome!"
+  "english": "Oh, member / number [FE01][FE02]! / Welcome!"
  },
  {
   "resource": 1203,
@@ -1353,7 +1353,7 @@
   "resource": 1203,
   "msg_index": 233,
   "japanese": "０００００００１２３４５６７８９−[05FB]選中・・・",
-  "english": "0000000123456789- / Drawing..."
+  "english": "Drawing..."
  },
  {
   "resource": 1203,
@@ -1953,7 +1953,7 @@
   "resource": 1203,
   "msg_index": 341,
   "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-  "english": "0123456789- This / Automata has / gained enough / experience."
+  "english": "'s growth already / holds enough / experience."
  },
  {
   "resource": 1203,
@@ -1983,7 +1983,7 @@
   "resource": 1203,
   "msg_index": 346,
   "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-  "english": "0123456789- This / Automata has / gained enough / experience."
+  "english": "'s growth already / holds enough / experience."
  },
  {
   "resource": 1203,
@@ -2013,7 +2013,7 @@
   "resource": 1203,
   "msg_index": 351,
   "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-  "english": "0123456789- This / Automata has / gained enough / experience."
+  "english": "'s growth already / holds enough / experience."
  },
  {
   "resource": 1203,
@@ -2043,7 +2043,7 @@
   "resource": 1203,
   "msg_index": 356,
   "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-  "english": "0123456789- This / Automata has / gained enough / experience."
+  "english": "'s growth already / holds enough / experience."
  },
  {
   "resource": 1203,
@@ -2073,7 +2073,7 @@
   "resource": 1203,
   "msg_index": 361,
   "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-  "english": "0123456789- This / Automata has / gained enough / experience."
+  "english": "'s growth already / holds enough / experience."
  },
  {
   "resource": 1203,
@@ -2103,7 +2103,7 @@
   "resource": 1203,
   "msg_index": 366,
   "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-  "english": "0123456789- This / Automata has / gained enough / experience."
+  "english": "'s growth already / holds enough / experience."
  },
  {
   "resource": 1203,

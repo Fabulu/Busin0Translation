@@ -77,6 +77,7 @@ MODULES = [
     "test_issue40_name_reconciliation",
     "test_v195_item_name_divergence",
     "test_v196_reward_ritual_rcveq",
+    "test_v197_number_tokens",
 ]
 
 

@@ -71,6 +71,12 @@ def enc(ch):
         return table[ch.lower()]
     return 31
 
+# Authored control-word token: "[FB00]".."[FFFF]"-style UPPERCASE hex in an
+# english string (see the type-2 encode loop, Step 4).  F[B-F] guarantees the
+# emitted u16 is >= 0xFB00 (the engine's control range), never a text glyph.
+import re as _re
+CTRL_TOKEN_RE = _re.compile(r'(\[F[BCDEF][0-9A-F]{2}\])')
+
 def word_wrap(text, max_chars=18):
     """Wrap text to fit within max_chars per line.
 
@@ -790,8 +796,22 @@ for r_id in sorted(type02_resources):
         for pi, part in enumerate(parts):
             if pi > 0:
                 glyphs.append(0xFFFE)  # line break (from " / " or " // ")
-            for ch in part:
-                glyphs.append(enc(ch))
+            # Authored control-word tokens (issue #44, v197): "[FE01]".."[FFF6]"
+            # in an english string emit that CONTROL WORD verbatim instead of
+            # literal bracket text.  This restores the engine's inline
+            # number/variable inserts (0xFE0x prints game_var[slot] via the
+            # 0x14-registered digit table -- FE-dispatch VA 0x3084D0, formatter
+            # 0x307510) that the leading/trailing control split otherwise
+            # swallows with the JP text.  ONLY >=0xFB00 values match the regex
+            # (F[B-F]xx), so glyph-range text like "[044C]" in JP fields can
+            # never be emitted as a control; anything not matching passes
+            # through the char encoder unchanged.
+            for tok in CTRL_TOKEN_RE.split(part):
+                if CTRL_TOKEN_RE.fullmatch(tok):
+                    glyphs.append(int(tok[1:5], 16))
+                else:
+                    for ch in tok:
+                        glyphs.append(enc(ch))
         encoded_trans[mi] = glyphs
 
     # R1203: Section 2 overflow guard.

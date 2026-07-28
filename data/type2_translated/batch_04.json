@@ -2385,7 +2385,7 @@
     "resource": 1204,
     "msg_index": 410,
     "japanese": "０１２３４５６７８９−００００００え～！あなたの会社番実は番になりやすので。会社前には書いてませんけどね。",
-    "english": "0123456789-000000 / Your member # / is shown. / Not on the / card though."
+    "english": "Your member # / is [FE01][FE02]. / Not on the / card though."
   },
   {
     "resource": 1204,
@@ -2463,7 +2463,7 @@
     "resource": 1204,
     "msg_index": 423,
     "japanese": "０１２３４５６７８９−００００００まいどっ え～っと！会社番実のさんっスよね？",
-    "english": "0123456789-000000 / Hey! Member #, / right?"
+    "english": "Hey! Member / #[FE01][FE02], right?"
   },
   {
     "resource": 1204,
@@ -3231,7 +3231,7 @@
     "resource": 1204,
     "msg_index": 556,
     "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
-    "english": "0123456789-000000 / 0123456789- / Hey, member #! / Welcome!"
+    "english": "Hey, member / #[FE01][FE02]! / Welcome!"
   },
   {
     "resource": 1204,
@@ -4803,7 +4803,7 @@
     "resource": 1204,
     "msg_index": 832,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / Enough EXP has / accumulated."
+    "english": "'s EXP has / fully accumulated."
   },
   {
     "resource": 1204,
@@ -4833,7 +4833,7 @@
     "resource": 1204,
     "msg_index": 837,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / Enough EXP has / accumulated."
+    "english": "'s EXP has / fully accumulated."
   },
   {
     "resource": 1204,
@@ -4863,7 +4863,7 @@
     "resource": 1204,
     "msg_index": 842,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / Enough EXP."
+    "english": "'s EXP has / fully accumulated."
   },
   {
     "resource": 1204,
@@ -4893,7 +4893,7 @@
     "resource": 1204,
     "msg_index": 847,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / Enough EXP."
+    "english": "'s EXP has / fully accumulated."
   },
   {
     "resource": 1204,
@@ -4923,7 +4923,7 @@
     "resource": 1204,
     "msg_index": 852,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / Enough EXP."
+    "english": "'s EXP has / fully accumulated."
   },
   {
     "resource": 1204,
@@ -4953,7 +4953,7 @@
     "resource": 1204,
     "msg_index": 857,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / Enough EXP."
+    "english": "'s EXP has / fully accumulated."
   },
   {
     "resource": 1204,
@@ -8127,7 +8127,7 @@
     "resource": 1205,
     "msg_index": 406,
     "japanese": "０１２３４５６７８９−００００００え～！あなたの会社番実は番になりやすので。会社前には書いてませんけどね。",
-    "english": "0123456789- / 000000 / Your member / number is #! / It's not / printed on the / card though."
+    "english": "Your member / number is [FE01][FE02]! / It's not / printed on the / card though."
   },
   {
     "resource": 1205,
@@ -8205,7 +8205,7 @@
     "resource": 1205,
     "msg_index": 419,
     "japanese": "０１２３４５６７８９−００００００まいどっ え～っと！会社番実のさんっスよね？",
-    "english": "0123456789- / 000000 / Welcome, / member #!"
+    "english": "Welcome, / member #[FE01][FE02]!"
   },
   {
     "resource": 1205,
@@ -8973,7 +8973,7 @@
     "resource": 1205,
     "msg_index": 552,
     "japanese": "０１２３４５６７８９−０００００００１２３４５６７８９−おっ、会社ナンバーさん ようこそいらっしゃい ",
-    "english": "0123456789- / 0000000 / 0123456789- / Hey, member / #! Welcome!"
+    "english": "Hey, member / #[FE01][FE02]! / Welcome!"
   },
   {
     "resource": 1205,
@@ -9171,7 +9171,7 @@
     "resource": 1205,
     "msg_index": 587,
     "japanese": "０００００００１２３４５６７８９−[05FB]選中・・・",
-    "english": "0000000 / 0123456789- / Drawing..."
+    "english": "Drawing..."
   },
   {
     "resource": 1205,
@@ -9843,7 +9843,7 @@
     "resource": 1205,
     "msg_index": 707,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / 's body / already has / considerable / experience."
+    "english": "'s body / already has / considerable / experience."
   },
   {
     "resource": 1205,
@@ -9873,7 +9873,7 @@
     "resource": 1205,
     "msg_index": 712,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / 's body / already has / considerable / experience."
+    "english": "'s body / already has / considerable / experience."
   },
   {
     "resource": 1205,
@@ -9903,7 +9903,7 @@
     "resource": 1205,
     "msg_index": 717,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / 's body / already has / considerable / experience."
+    "english": "'s body / already has / considerable / experience."
   },
   {
     "resource": 1205,
@@ -9933,7 +9933,7 @@
     "resource": 1205,
     "msg_index": 722,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / 's body / already has / considerable / experience."
+    "english": "'s body / already has / considerable / experience."
   },
   {
     "resource": 1205,
@@ -9963,7 +9963,7 @@
     "resource": 1205,
     "msg_index": 727,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / 's body / already has / considerable / experience."
+    "english": "'s body / already has / considerable / experience."
   },
   {
     "resource": 1205,
@@ -9993,7 +9993,7 @@
     "resource": 1205,
     "msg_index": 732,
     "japanese": "０１２３４５６７８９−の[02A1]長には既に[0463]色、員験が近っているであろう。",
-    "english": "0123456789- / 's body / already has / considerable / experience."
+    "english": "'s body / already has / considerable / experience."
   },
   {
     "resource": 1205,

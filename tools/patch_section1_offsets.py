@@ -236,6 +236,74 @@ def _clean_prefix_len(slices):
 
 
 # ===============================================================================
+# Island digit-table 0x14 slices (issue #44)
+# ===============================================================================
+# The engine prints runtime numbers (gold, member id, EXP...) through a
+# per-message DIGIT-GLYPH TABLE: an 11-word slice [0..9 digit glyphs + minus]
+# at the head of a group, registered by opcode 0x14 with p2 (u16 @+4) set to a
+# GAME-VARIABLE index (p2 != 0xFFFF, p2 < 0x1B1 -- EXE handler 0x2F3F00 stores
+# (off, cnt, p2) into ctx+0xA0+12*p1; the FE0x number formatter 0x307510 then
+# reads glyph = Section2[off + digit] LIVE).  The 0x04 display offset points
+# PAST the table (rel=11) so the template never renders in JP.
+#
+# Walked digit-table 0x14s are handled by the ordinary name-plan machinery.
+# But three R1200 registrations live in UNWALKED islands; the a3 label sweep's
+# cnt<=10 nameplate gate skipped them, so they shipped STALE -- the offsets
+# pointed into the grown English Section 2 and numbers rendered as random
+# English letters (issue #44 gold garbage).  The helpers below seed the
+# name plan for exactly these groups so (a) the injector preserves the
+# pristine 11-word table at the group head and (b) the a3 sweep can remap the
+# 0x14 (plan-matched cnt==11 ONLY) and its paired mid-group 0x04.
+DIGIT_TEMPLATE = tuple(range(0x10, 0x1A)) + (0x0D,)  # ０１２３４５６７８９−
+
+
+def _island_digit_slices(sec1, instrs, group_ranges, words):
+    """
+    Find unwalked island 0x14 records that register a digit-glyph table.
+
+    STRICT gate (every clause must hold; anything else is left untouched):
+      * opcode bytes not part of any walked instruction (overlap gate);
+      * p1 (slot) < 10 and p2 is a real game-variable index
+        (p2 != 0xFFFF and p2 < 0x1B1 -- the 0x301E10 bound);
+      * cnt == 11 and off == a group start;
+      * the pristine slice content is EXACTLY the canonical digit template
+        (glyphs 0x10..0x19 + 0x0D).  This is a content check on THIS
+        resource's pristine bytes, not a cross-resource glyph-map assumption.
+
+    Returns {group_index: [(0, 11)]}.
+    """
+    walked_bytes = set()
+    for pc, op in instrs.items():
+        walked_bytes.update(range(pc, pc + LENB[op]))
+    start_to_gi = {gs: gi for gi, (gs, _ge) in enumerate(group_ranges)}
+    out = {}
+    n = len(sec1)
+    for pc in range(0, n - LENB[0x14] + 1):
+        if pc in instrs:
+            continue
+        if struct.unpack_from(">H", sec1, pc)[0] != 0x0014:
+            continue
+        if not walked_bytes.isdisjoint(range(pc, pc + LENB[0x14])):
+            continue
+        p1 = struct.unpack_from(">H", sec1, pc + 2)[0]
+        p2 = struct.unpack_from(">H", sec1, pc + 4)[0]
+        off = struct.unpack_from(">I", sec1, pc + 6)[0]
+        cnt = struct.unpack_from(">I", sec1, pc + 10)[0]
+        if p1 >= 10 or p2 == 0xFFFF or p2 >= 0x1B1 or cnt != 11:
+            continue
+        gi = start_to_gi.get(off)
+        if gi is None:
+            continue
+        gs, ge = group_ranges[gi]
+        if gs + 11 > ge:
+            continue
+        if tuple(words[gs:gs + 11]) != DIGIT_TEMPLATE:
+            continue
+        out.setdefault(gi, [(0, 11)])
+    return out
+
+
+# ===============================================================================
 # Section 1 patcher
 # ===============================================================================
 def patch_section1(orig_data, patched_data, name_plan=None, res_name="?"):
@@ -594,10 +662,17 @@ def patch_section1(orig_data, patched_data, name_plan=None, res_name="?"):
         old_off = struct.unpack_from(">I", orig_sec1, i + 6)[0]
         old_cnt = struct.unpack_from(">I", orig_sec1, i + 10)[0]
         # Only SHORT label slices are swept (name prefixes are 3-7 words);
-        # anything longer is NOT a nameplate and is left untouched.
-        if old_cnt == 0 or old_cnt > 10:
+        # anything longer is NOT a nameplate and is left untouched -- with ONE
+        # plan-gated exception (issue #44): cnt==11 candidates may be island
+        # DIGIT-TABLE registrations (see _island_digit_slices).  They are
+        # allowed PAST this gate but complete ONLY on an EXACT name_plan slice
+        # match below; any cnt==11 record without a seeded plan slice is left
+        # byte-for-byte untouched (no trailing-shift, no clamp, no identity
+        # rewrite).  The cnt<=10 nameplate path is unchanged.
+        if old_cnt == 0 or old_cnt > 11:
             i += 1
             continue
+        digit11 = (old_cnt == 11)
         if not walked_bytes.isdisjoint(range(i, i + LENB[0x14])):
             i += 1  # straddles a walked instruction -- not a record
             continue
@@ -605,6 +680,9 @@ def patch_section1(orig_data, patched_data, name_plan=None, res_name="?"):
             i += 1  # sentinel offset outside Section 2 -- leave untouched
             continue
         if old_off >= old_trailing_start:
+            if digit11:
+                i += 1  # digit-table candidates never live in the trailing region
+                continue
             # trailing-region narration: shift by the delta, keep cnt (pass b)
             if trailing_delta != 0:
                 struct.pack_into(
@@ -627,6 +705,9 @@ def patch_section1(orig_data, patched_data, name_plan=None, res_name="?"):
                 if oso == rel and osc == old_cnt:
                     new_rel, new_cnt = nso, nsc
                     break
+        if digit11 and new_rel is None:
+            i += 1  # cnt==11 without an exact plan slice: not ours, untouched
+            continue
         if new_rel is None:
             if group_changed(gi):
                 # no slice match in a changed group: clamp inside the new group
@@ -868,6 +949,19 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir,
         recs["label"], old_group_ranges, old_trailing_start
     )
 
+    # Issue #44: island digit-table registrations (see _island_digit_slices).
+    # Seed their (0, 11) slice into the label buckets so the ordinary
+    # name-prefix path preserves the pristine digit table at the group head and
+    # records a name_plan entry -- which in turn lets patch_section1's a3 sweep
+    # remap the island 0x14 (plan-matched cnt==11) and land the paired
+    # mid-group 0x04 display AFTER the table instead of at the group start.
+    # Only groups with NO walked slices are seeded (the walked machinery owns
+    # every group it already covers).
+    for gi, dslices in _island_digit_slices(
+            sec1, instrs, old_group_ranges, words).items():
+        if gi not in per_group_labels:
+            per_group_labels[gi] = dslices
+
     # --- Replace translated messages (variable-size, name-island aware) ----------
     replaced = 0
     skipped_label_tables = 0
@@ -951,6 +1045,7 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir,
             remainder = original_group[prefix_len:]
             leading, _old_text, trailing = _split_control_and_text(remainder)
             leading = _strip_leading_var_insert(leading)
+            leading = _strip_duplicated_fe_controls(leading, eng_glyphs)
             if msg_idx in strip_color:
                 trailing = _strip_trailing_color_controls(trailing)
             groups[msg_idx] = new_slice_glyphs + leading + eng_glyphs + trailing
@@ -963,6 +1058,7 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir,
         else:
             leading, _old_text, trailing = _split_control_and_text(original_group)
             leading = _strip_leading_var_insert(leading)
+            leading = _strip_duplicated_fe_controls(leading, eng_glyphs)
             if msg_idx in strip_color:
                 trailing = _strip_trailing_color_controls(trailing)
             groups[msg_idx] = leading + eng_glyphs + trailing
@@ -1117,6 +1213,22 @@ def _strip_leading_var_insert(leading):
     while i < len(leading) and VAR_INSERT_MIN <= leading[i] <= VAR_INSERT_MAX:
         i += 1
     return leading[i:]
+
+
+def _strip_duplicated_fe_controls(leading, eng_glyphs):
+    """Double-print guard for authored number tokens (issue #44).
+
+    When the translated glyph stream AUTHORS an inline number-insert control
+    (0xFE00..0xFE0F, from a "[FE0x]" token), the same control preserved in the
+    group's leading run would print the number twice.  Drop exactly the FE
+    words the translation authors itself; every other preserved control
+    (colours, breaks) stays verbatim.  When the translation authors no FE
+    token -- the overwhelmingly common case -- the leading run is returned
+    unchanged."""
+    authored = {g for g in eng_glyphs if 0xFE00 <= g <= 0xFE0F}
+    if not authored:
+        return leading
+    return [g for g in leading if g not in authored]
 
 
 def _split_control_and_text(group):

@@ -298,7 +298,7 @@
   "resource": 1207,
   "msg_index": 348,
   "japanese": "0123456789-000000え~|あなたの会社番実は / 番になりやすので_ / 会社前には書いてませんけどね_",
-  "english": "0123456789-000000 / Uh, your member / number is. It's not / written on the card / though!",
+  "english": "Uh, your member / number is [FE01][FE02]. It's not / written on the card / though!",
   "_note": "Leading digit run preserved verbatim (runtime number glyph prefix, canon precedent batch_03 r1203 m52). Number is inserted at runtime after 'is'."
  },
  {
@@ -377,7 +377,7 @@
   "resource": 1207,
   "msg_index": 361,
   "japanese": "0123456789-000000まいどっ! / え~っと|会社番実の / さんっスよね?",
-  "english": "0123456789-000000 / Welcome back! Member / number, right?",
+  "english": "Welcome back! Member / number [FE01][FE02], right?",
   "_note": "Digit prefix preserved verbatim (canon precedent batch_03 r1203 m65)."
  },
  {
@@ -1116,7 +1116,7 @@
   "resource": 1207,
   "msg_index": 494,
   "japanese": "0123456789-0000000123456789-おっ^会社ナンバ}さん! / ようこそいらっしゃい!",
-  "english": "0123456789-0000000123456789- / Oh! It's Member / Number! Welcome, / welcome!",
+  "english": "Oh! It's Member / Number [FE01][FE02]! Welcome, / welcome!",
   "_note": "JP prefix is a double digit strip '0123456789-0000000123456789-'; preserved as-is in final JSON build (see generator) for runtime number rendering."
  },
  {
@@ -1286,7 +1286,7 @@
   "resource": 1207,
   "msg_index": 529,
   "japanese": "0000000123456789-抽選中{{{",
-  "english": "0000000123456789- / Drawing...",
+  "english": "Drawing...",
   "_note": "Digit prefix preserved verbatim; JP tail was a middot run rendered as '...'."
  },
  {
@@ -2396,7 +2396,7 @@
   "resource": 1207,
   "msg_index": 740,
   "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
-  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "english": "'s body already / holds ample / experience.",
   "_note": "Digit prefix preserved for runtime number rendering."
  },
  {
@@ -2427,7 +2427,7 @@
   "resource": 1207,
   "msg_index": 745,
   "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
-  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "english": "'s body already / holds ample / experience.",
   "_note": "Digit prefix preserved for runtime number rendering."
  },
  {
@@ -2458,7 +2458,7 @@
   "resource": 1207,
   "msg_index": 750,
   "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
-  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "english": "'s body already / holds ample / experience.",
   "_note": "Digit prefix preserved for runtime number rendering."
  },
  {
@@ -2489,7 +2489,7 @@
   "resource": 1207,
   "msg_index": 755,
   "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
-  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "english": "'s body already / holds ample / experience.",
   "_note": "Digit prefix preserved for runtime number rendering."
  },
  {
@@ -2520,7 +2520,7 @@
   "resource": 1207,
   "msg_index": 760,
   "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
-  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "english": "'s body already / holds ample / experience.",
   "_note": "Digit prefix preserved for runtime number rendering."
  },
  {
@@ -2551,7 +2551,7 @@
   "resource": 1207,
   "msg_index": 765,
   "japanese": "0123456789-の意長には既に / 素色^員験が近っているであろう_",
-  "english": "0123456789- / Ample experience / already sleeps / within this one.",
+  "english": "'s body already / holds ample / experience.",
   "_note": "Digit prefix preserved for runtime number rendering."
  },
  {
