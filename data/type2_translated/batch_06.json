@@ -2157,13 +2157,13 @@
     "resource": 1208,
     "msg_index": 375,
     "japanese": "というワケでとっておきの[053C]品！思大ビッチリ識別ブレスレット～[0267]",
-    "english": "So here's the grand / prize! An Identify / Bracelet!"
+    "english": "So here's the grand / prize! An Id Bracelet!"
   },
   {
     "resource": 1208,
     "msg_index": 376,
     "japanese": "識別ブレスレットを力に入れた ",
-    "english": "Obtained Identify / Bracelet!"
+    "english": "Obtained Id Bracelet!"
   },
   {
     "resource": 1208,
@@ -2331,7 +2331,7 @@
     "resource": 1208,
     "msg_index": 405,
     "japanese": "内選すれば替[0319][01E5]品。なんと識別ブレスレット 思大もビッチリこびりついてます ",
-    "english": "number, you win! / Grand prize: Identify / Bracelet with memories!"
+    "english": "number, you win! / Grand prize: Id Bracelet with memories!"
   },
   {
     "resource": 1208,
@@ -2787,7 +2787,7 @@
     "resource": 1208,
     "msg_index": 484,
     "japanese": "声目したまえ。汝の識別ブレスレットは余が[04ED][04AA]を持って回[069F]してさしあげよう ",
-    "english": "Rest assured. I'll / take good care of / your Identify Bracelet."
+    "english": "Rest assured. I'll / take good care of / your Id Bracelet."
   },
   {
     "resource": 1208,
@@ -3135,7 +3135,7 @@
     "resource": 1208,
     "msg_index": 544,
     "japanese": "新わった勲の対に識別ブレスレットがかけられていた。",
-    "english": "An Identify Bracelet / hung on the arm / of a strange statue."
+    "english": "An Id Bracelet / hung on the arm / of a strange statue."
   },
   {
     "resource": 1208,
@@ -4515,7 +4515,7 @@
     "resource": 1208,
     "msg_index": 780,
     "japanese": "識別ブレスレットを投った。",
-    "english": "You picked up the / Identification / Bracelet."
+    "english": "You picked up the / Id Bracelet."
   },
   {
     "resource": 1208,
@@ -7479,13 +7479,13 @@
     "resource": 1209,
     "msg_index": 386,
     "japanese": "というワケでとっておきの[053C]品！思大ビッチリ識別ブレスレット～[0267]",
-    "english": "So, here's your special prize: A thought-filled Identification Bracelet!"
+    "english": "So, here's your special prize: A thought-filled Id Bracelet!"
   },
   {
     "resource": 1209,
     "msg_index": 387,
     "japanese": "識別ブレスレットを力に入れた ",
-    "english": "You received the Identification Bracelet!"
+    "english": "You received the Id Bracelet!"
   },
   {
     "resource": 1209,
@@ -7653,7 +7653,7 @@
     "resource": 1209,
     "msg_index": 416,
     "japanese": "内選すれば替[0319][01E5]品。なんと識別ブレスレット 思大もビッチリこびりついてます ",
-    "english": "If you win, you will get the luxury prize: an Identification Bracelet! It's got a lot of thoughts stuck in it!"
+    "english": "If you win, you will get the luxury prize: an Id Bracelet! It's got a lot of thoughts stuck in it!"
   },
   {
     "resource": 1209,
@@ -7749,7 +7749,7 @@
     "resource": 1209,
     "msg_index": 432,
     "japanese": "大[0141]町な商の忍に識別ブレスレットが落ちていた。",
-    "english": "An Identification Bracelet was lying in front of the eerie-looking statue."
+    "english": "An Id Bracelet was lying in front of the eerie-looking statue."
   },
   {
     "resource": 1209,

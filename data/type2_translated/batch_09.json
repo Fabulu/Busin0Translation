@@ -1875,13 +1875,13 @@
     "resource": 1353,
     "msg_index": 326,
     "japanese": "というワケでとっておきの[053C]品！思大ビッチリ識別ブレスレット～[0267]",
-    "english": "Prize: ID Bracelet!"
+    "english": "Prize: Id Bracelet!"
   },
   {
     "resource": 1353,
     "msg_index": 327,
     "japanese": "識別ブレスレットを力に入れた ",
-    "english": "Got ID Bracelet."
+    "english": "Got Id Bracelet."
   },
   {
     "resource": 1353,
@@ -2271,7 +2271,7 @@
     "resource": 1353,
     "msg_index": 394,
     "japanese": "[069A]のふちに識別ブレスレットが祠っかかっていた。",
-    "english": "An ID Bracelet was / caught on the edge / of the pit."
+    "english": "An Id Bracelet was / caught on the edge / of the pit."
   },
   {
     "resource": 1353,
@@ -4977,7 +4977,7 @@
     "resource": 1354,
     "msg_index": 202,
     "japanese": "識別ブレスレットを力に入れた。",
-    "english": "Got ID Bracelet."
+    "english": "Got Id Bracelet."
   },
   {
     "resource": 1354,
@@ -5013,7 +5013,7 @@
     "resource": 1354,
     "msg_index": 209,
     "japanese": "は、識別ブレスレットを腕につけた。",
-    "english": "You put on the / ID Bracelet."
+    "english": "You put on the / Id Bracelet."
   },
   {
     "resource": 1354,

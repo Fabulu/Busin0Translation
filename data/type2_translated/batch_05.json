@@ -2835,13 +2835,13 @@
   "resource": 1206,
   "msg_index": 484,
   "japanese": "というワケでとっておきの[053C]品！思大ビッチリ識別ブレスレット～[0267]",
-  "english": "Prize: Identify / Bracelet~!"
+  "english": "Prize: Id Bracelet~!"
  },
  {
   "resource": 1206,
   "msg_index": 485,
   "japanese": "識別ブレスレットを力に入れた ",
-  "english": "Got Identify / Bracelet!"
+  "english": "Got Id Bracelet!"
  },
  {
   "resource": 1206,
@@ -3009,7 +3009,7 @@
   "resource": 1206,
   "msg_index": 514,
   "japanese": "内選すれば替[0319][01E5]品。なんと識別ブレスレット 思大もビッチリこびりついてます ",
-  "english": "Prize: Identify / Bracelet!"
+  "english": "Prize: Id Bracelet!"
  },
  {
   "resource": 1206,
@@ -7215,6 +7215,6 @@
   "resource": 1207,
   "msg_index": 911,
   "japanese": "今はガイドの依頼中なので忍へ行くことはできない。",
-  "english": "Can not go deeper / during guide / quest."
+  "english": "Cannot go deeper / during guide / quest."
  }
 ]

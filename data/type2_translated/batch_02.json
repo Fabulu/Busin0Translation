@@ -2085,7 +2085,7 @@
     "resource": 1200,
     "msg_index": 108,
     "japanese": "！日えば、今のリーダーさんならgの復着が必[0409]です。",
-    "english": "For instance, your / leader needs / [g] in gold."
+    "english": "For instance, your / leader needs / [FE02]G to revive."
   },
   {
     "resource": 1200,
@@ -4755,7 +4755,7 @@
     "resource": 1202,
     "msg_index": 152,
     "japanese": "をやってる、だなっ ワケあってしゅうしょくきぼう ",
-    "english": "You're a [class], / right? Looking for / work here!"
+    "english": "You're a [FE09], / right? Looking for / work here!"
   },
   {
     "resource": 1202,
@@ -5553,7 +5553,7 @@
     "resource": 1202,
     "msg_index": 289,
     "japanese": "バイトリーダーが差し出したのは交れた識別ブレスレットだった。",
-    "english": "What the leader / offered was a / worn Identify / Bracelet."
+    "english": "What the leader / offered was a / worn Id Bracelet."
   },
   {
     "resource": 1202,
@@ -5601,7 +5601,7 @@
     "resource": 1202,
     "msg_index": 297,
     "japanese": "識別ブレスレットを力に入れた ",
-    "english": "Received an / Identify Bracelet."
+    "english": "Received an / Id Bracelet."
   },
   {
     "resource": 1202,

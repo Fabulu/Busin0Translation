@@ -1202,13 +1202,13 @@
   "resource": 1207,
   "msg_index": 514,
   "japanese": "というワケでとっておきの賞品| / 思大ビッチリ識別ブレスレット~！",
-  "english": "So here's the grand / prize... the memory- / packed Appraisal / Bracelet~!"
+  "english": "So here's the grand / prize... the memory- / packed Id Bracelet~!"
  },
  {
   "resource": 1207,
   "msg_index": 515,
   "japanese": " /  /  / 識別ブレスレットを力に入れた!",
-  "english": " /  /  / Got the Id / Bracelet!"
+  "english": " /  /  / Got the Id Bracelet!"
  },
  {
   "resource": 1207,
@@ -1366,7 +1366,7 @@
   "resource": 1207,
   "msg_index": 544,
   "japanese": "内選すれば替華光品_ / なんと識別ブレスレット! / 思大もビッチリこびりついてます!",
-  "english": "Win, and the deluxe / prize is the / Appraisal Bracelet! / Packed full of / memories, too!"
+  "english": "Win, and the deluxe / prize is the / Id Bracelet! / Packed full of / memories, too!"
  },
  {
   "resource": 1207,
@@ -1564,7 +1564,7 @@
   "resource": 1207,
   "msg_index": 582,
   "japanese": " /  / 鎧の[0x0186]のところに / 識別ブレスレットが / はめられていた_",
-  "english": " /  / An Appraisal / Bracelet was fitted / on the armor's arm."
+  "english": " /  / An Id Bracelet was fitted / on the armor's arm."
  },
  {
   "resource": 1207,

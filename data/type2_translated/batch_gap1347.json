@@ -537,7 +537,7 @@
     "resource": 1355,
     "msg_index": 13,
     "japanese": "は、 / 頼潜ブレスレットを古り除して、 / 男帰に賊せた。",
-    "english": "You took off your / Identification Bracelet / and showed it to the knight."
+    "english": "You took off your / Id Bracelet / and showed it to the knight."
   },
   {
     "resource": 1355,
@@ -579,7 +579,7 @@
     "resource": 1355,
     "msg_index": 20,
     "japanese": "それともう兵つ。 / これから[01A1]、頼潜ブレスレットは、 / 使教者を前全するものとなる。",
-    "english": "One more thing. / From now on, / the Identification Bracelet / will serve to protect you."
+    "english": "One more thing. / From now on, / the Id Bracelet / will serve to protect you."
   },
   {
     "resource": 1355,
@@ -603,7 +603,7 @@
     "resource": 1355,
     "msg_index": 24,
     "japanese": "は、 / 頼潜ブレスレットを職につけた。",
-    "english": "You put on the / Identification Bracelet."
+    "english": "You put on the / Id Bracelet."
   },
   {
     "resource": 1355,

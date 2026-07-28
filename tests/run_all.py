@@ -78,6 +78,7 @@ MODULES = [
     "test_v195_item_name_divergence",
     "test_v196_reward_ritual_rcveq",
     "test_v197_number_tokens",
+    "test_v200_proofread_placeholders",
 ]
 
 
