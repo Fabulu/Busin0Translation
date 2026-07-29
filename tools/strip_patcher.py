@@ -250,6 +250,14 @@ def render_label(text, width, height, font, bg_index, ink_index, align="center")
         cur = load_font(cur.size - 1)
         bbox = cur.getbbox(text)
 
+    # Overflow tripwire (menu-overflow hardening): never silently clip. If the
+    # text is still wider than the cell even at the min font, abort the build
+    # rather than ship a truncated label.
+    if bbox and (bbox[2] - bbox[0]) > width:
+        raise ValueError(
+            "menu label %r overflows its %dpx cell (%dpx even at min font) "
+            "-- shorten the label" % (text, width, bbox[2] - bbox[0]))
+
     img = Image.new("L", (width, height), 0)
     draw = ImageDraw.Draw(img)
     if bbox:

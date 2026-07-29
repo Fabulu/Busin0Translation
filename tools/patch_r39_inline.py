@@ -327,10 +327,13 @@ for rec_idx, english_text in sorted(REPLACEMENTS.items()):
     en_glyphs = encode_english(english_text)
 
     if len(en_glyphs) > capacity:
-        print(f"  WARNING: Record {rec_idx} truncated: '{english_text}' "
-              f"({len(en_glyphs)} glyphs) -> {capacity} slots")
-        en_glyphs = en_glyphs[:capacity]
-        truncated += 1
+        # Overflow tripwire (menu-overflow hardening): truncation used to be a
+        # warning that silently shipped a cut-off, unreadable label. Abort so
+        # the over-long R39 label is caught at build time.
+        raise SystemExit(
+            f"FATAL(patch_r39_inline): record {rec_idx} label '{english_text}' "
+            f"is {len(en_glyphs)} glyphs but only {capacity} slots fit -- "
+            f"shorten it")
 
     # Write English glyphs into the content positions
     for i, byte_pos in enumerate(content_positions):

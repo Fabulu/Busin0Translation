@@ -360,6 +360,11 @@ def render_label(text, width, height, font, bg_index=15, ink_index=0, align="cen
             cur_font = load_font(cur_font.size - 1, bold=True)
             bbox = cur_font.getbbox(text)
             tw = bbox[2] - bbox[0]
+        # Overflow tripwire (menu-overflow hardening): abort rather than clip.
+        if tw > width:
+            raise ValueError(
+                "R2138 label %r overflows its %dpx cell (%dpx even at min "
+                "font) -- shorten the label" % (text, width, tw))
 
     # Render to grayscale image
     img = Image.new("L", (width, height), 0)

@@ -104,6 +104,11 @@ def render_gray(text, w, h, start_size, align):
         size -= 1
         font = load_font(size)
         bbox = font.getbbox(text)
+    # Overflow tripwire (menu-overflow hardening): abort rather than clip.
+    if bbox and (bbox[2] - bbox[0]) > w:
+        raise ValueError(
+            "facility-strip label %r overflows its %dpx cell (%dpx even at "
+            "min font) -- shorten the label" % (text, w, bbox[2] - bbox[0]))
     img = Image.new("L", (w, h), 0)
     if bbox:
         tw, th = bbox[2] - bbox[0], bbox[3] - bbox[1]

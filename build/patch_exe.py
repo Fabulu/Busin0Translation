@@ -138,8 +138,13 @@ def main():
         if actual == expected_bytes:
             encoded = new_text.encode("ascii")
             if len(encoded) + 1 > avail:
-                print(f"  SKIP 0x{offset:06X}: new string too long ({len(encoded)+1} > {avail})")
-                continue
+                # Overflow tripwire (menu-overflow hardening): a too-long string
+                # used to be SKIPPED, silently leaving the original JAPANESE
+                # bytes in the EXE. Abort instead so it can't ship.
+                raise SystemExit(
+                    f"FATAL(patch_exe): string too long for slot 0x{offset:06X} "
+                    f"({len(encoded)+1} > {avail}) -- {new_text!r} would overrun "
+                    f"adjacent EXE data; shorten it")
             # Zero-fill then write
             for i in range(avail):
                 data[offset + i] = 0
@@ -177,8 +182,13 @@ def main():
         if actual == expected_bytes:
             encoded = new_text.encode("ascii")
             if len(encoded) + 1 > avail:
-                print(f"  SKIP 0x{offset:06X}: new string too long ({len(encoded)+1} > {avail})")
-                continue
+                # Overflow tripwire (menu-overflow hardening): a too-long string
+                # used to be SKIPPED, silently leaving the original JAPANESE
+                # bytes in the EXE. Abort instead so it can't ship.
+                raise SystemExit(
+                    f"FATAL(patch_exe): string too long for slot 0x{offset:06X} "
+                    f"({len(encoded)+1} > {avail}) -- {new_text!r} would overrun "
+                    f"adjacent EXE data; shorten it")
             for i in range(avail):
                 data[offset + i] = 0
             for i, b in enumerate(encoded):

@@ -80,6 +80,7 @@ MODULES = [
     "test_v197_number_tokens",
     "test_v200_proofread_placeholders",
     "test_v201_bracket_quotes",
+    "test_menu_overflow_guards",
 ]
 
 
