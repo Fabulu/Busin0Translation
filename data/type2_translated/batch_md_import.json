@@ -69,7 +69,7 @@
     "resource": 1196,
     "msg_index": 507,
     "japanese": "[待っていたよ]",
-    "english": "[I've been waiting.]"
+    "english": "\"I've been waiting.\""
   },
   {
     "resource": 1196,
@@ -135,7 +135,7 @@
     "resource": 1196,
     "msg_index": 857,
     "japanese": "[いたあ~|]",
-    "english": "[Oww~!]"
+    "english": "\"Oww~!\""
   },
   {
     "resource": 1196,
@@ -501,7 +501,7 @@
     "resource": 1202,
     "msg_index": 251,
     "japanese": "[ほいだよ~]",
-    "english": "[Here you go~]"
+    "english": "\"Here you go~\""
   },
   {
     "resource": 1203,
@@ -597,19 +597,19 @@
     "resource": 1203,
     "msg_index": 393,
     "japanese": "[ちょっと!]",
-    "english": "[Hey!]"
+    "english": "\"Hey!\""
   },
   {
     "resource": 1203,
     "msg_index": 398,
     "japanese": "[ちょっと!]",
-    "english": "[Hey!]"
+    "english": "\"Hey!\""
   },
   {
     "resource": 1203,
     "msg_index": 406,
     "japanese": "[はっ|はい|]",
-    "english": "[Y-yes!]"
+    "english": "\"Y-yes!\""
   },
   {
     "resource": 1203,
@@ -663,7 +663,7 @@
     "resource": 1203,
     "msg_index": 634,
     "japanese": "ジル[待って!]",
-    "english": "[Wait!]"
+    "english": "\"Wait!\""
   },
   {
     "resource": 1203,
@@ -675,7 +675,7 @@
     "resource": 1203,
     "msg_index": 658,
     "japanese": "[最装だっ!]",
-    "english": "[It's the best!]"
+    "english": "\"It's the best!\""
   },
   {
     "resource": 1203,
@@ -705,7 +705,7 @@
     "resource": 1203,
     "msg_index": 809,
     "japanese": "[何をしておる]",
-    "english": "[What are you doing?]"
+    "english": "\"What are you doing?\""
   },
   {
     "resource": 1203,
@@ -717,7 +717,7 @@
     "resource": 1203,
     "msg_index": 881,
     "japanese": "[イデッ!]",
-    "english": "[Ow!]"
+    "english": "\"Ow!\""
   },
   {
     "resource": 1203,
@@ -765,7 +765,7 @@
     "resource": 1203,
     "msg_index": 1197,
     "japanese": "[ひどいことを]",
-    "english": "[How cruel.]"
+    "english": "\"How cruel.\""
   },
   {
     "resource": 1203,

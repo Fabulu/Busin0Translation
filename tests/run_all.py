@@ -79,6 +79,7 @@ MODULES = [
     "test_v196_reward_ritual_rcveq",
     "test_v197_number_tokens",
     "test_v200_proofread_placeholders",
+    "test_v201_bracket_quotes",
 ]
 
 
