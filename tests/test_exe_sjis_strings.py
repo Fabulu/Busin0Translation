@@ -72,11 +72,20 @@ NPC_NEW_NAME2 = ("Lute", 8)
 
 MARGIN = 16  # bytes checked pristine on each side of every patched window
 
-# All byte windows the three patch blocks are allowed to touch.
+# ── Step 8.45: predecessor-save probe retargeted to the US region ──
+# patch_prequel_us_save.py overwrites the mc directory string in this same descriptor
+# blob (19 bytes: BISLPM-62098BUSINWZ -> BASLUS-20259WIZTFL + NUL), immediately before
+# the "BUSIN 0" SJIS comment window at 0x3F9678. Declared here so the MARGIN guard on
+# that neighbouring window does not flag this legitimate adjacent patch. Content is
+# asserted by tests/test_prequel_us_save.py.
+PREQUEL_PROBE_WINDOW = (0x3F9660, 0x3F9660 + 19)
+
+# All byte windows the patch blocks are allowed to touch.
 PATCH_WINDOWS = (
     [(off, off + avail) for off, avail, _h, _t in SAVE_SLOT_PATCHES]
     + [(off, off + avail) for off, avail, _h, _t in PLAYER_STRING_PATCHES]
     + [(NPC_OFFSET, NPC_OFFSET + NPC_WINDOW)]
+    + [PREQUEL_PROBE_WINDOW]
 )
 
 

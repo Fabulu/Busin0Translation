@@ -1241,6 +1241,19 @@ if rc != 0:
     print('FATAL: Step 8.4 (patch_exe.py) failed -- refusing to embed a stale/unpatched EXE')
     sys.exit(1)
 
+# ===== STEP 8.45: Predecessor-save bonus probe -> US region =====
+# Retarget the memory-card "Tale of the Forsaken Land" bonus check from the JP
+# directory (BISLPM-62098BUSINWZ) to the US one (BASLUS-20259WIZTFL, SLUS-20259),
+# so the +10 chargen bonus fires from a US prequel save -- which is what an English
+# patch's players actually own.  Pure in-place string swap (no cave), asserts the
+# stock JP string first and ABORTS on mismatch.  The JP+US dual-region retry is
+# designed but HELD on code-cave space (tools/patch_prequel_dualregion.py).
+print("\n=== Step 8.45: Prequel-save probe -> US region ===")
+rc = os.system('python tools/patch_prequel_us_save.py build/SLPM_653.78_patched')
+if rc != 0:
+    print('FATAL: Step 8.45 (patch_prequel_us_save.py) failed -- refusing to embed EXE')
+    sys.exit(1)
+
 # ===== STEP 8.5: Patch EXE into ISO =====
 print("\n=== Step 8.5: Patch EXE ===")
 exe_path = 'build/SLPM_653.78_patched'
