@@ -6,7 +6,7 @@ released only in Japan. This repository holds the full translation toolchain: th
 scripts that decode the game's text and graphics, the English translation data, and
 the build pipeline that produces a patched, **real-PS2-compatible** disc image.
 
-> **Status: Public Beta (v182).**
+> **Status: Public Beta (v202).**
 > Playable start to finish in English. Download the ready-made patch at
 > **[busin0-en.pages.dev](https://busin0-en.pages.dev)** — you do not need this
 > repository to play, only to build from source or contribute.
@@ -30,28 +30,28 @@ You need three things:
    - **Source ISO MD5:** `48a5639afdf9931913c7dde298dc5349`
    - If your dump's MD5 differs, you have a different revision and the patch will
      not apply cleanly.
-2. **The patch file:** `busin0_en_v182.xdelta` (~1.0 MB), from
+2. **The patch file:** `busin0_en_v202.xdelta` (~1.0 MB), from
    [busin0-en.pages.dev](https://busin0-en.pages.dev).
 3. **An xdelta3 tool** — either the command line or a GUI.
 
 ### Command line
 
 ```bash
-xdelta3 -d -s "Busin 0 (Japan).iso" busin0_en_v182.xdelta BUSIN0_EN.iso
+xdelta3 -d -s "Busin 0 (Japan).iso" busin0_en_v202.xdelta BUSIN0_EN.iso
 ```
 
 ### GUI (Delta Patcher, Windows)
 
 1. Open Delta Patcher.
 2. **Original file** = your Japanese ISO.
-3. **XDelta patch** = `busin0_en_v182.xdelta`.
+3. **XDelta patch** = `busin0_en_v202.xdelta`.
 4. Click **Apply Patch**. It writes the English ISO next to the original.
 
 ### Verify the result
 
 Check the MD5 of the output ISO:
 
-- **Patched ISO MD5:** `cdf272695faf4c8551c65055db7e34eb`
+- **Patched ISO MD5:** `95dea66003b6d0ed6d333010fdeb73ea`
 
 If it matches, the patch applied perfectly. Boot `BUSIN0_EN.iso` in your PS2, or in
 PCSX2 via **File → Boot ISO**.
@@ -67,7 +67,7 @@ PCSX2 via **File → Boot ISO**.
 
 ### Found a problem?
 
-Bug reports are welcome. Please include: the **patch version** (v182 beta), where in
+Bug reports are welcome. Please include: the **patch version** (v202 beta), where in
 the game it happens (screen/menu/scene), what you expected vs. what you saw, and a
 screenshot if you can. **[GitHub Issues](https://github.com/Fabulu/Busin0Translation/issues)**
 is the best place to report (you can attach save states and screenshots directly); the
@@ -77,7 +77,7 @@ r/wizardry community thread works too.
 
 ## What's translated
 
-As of v182 the translation is **effectively complete** — you can play the whole game
+As of v202 the translation is **effectively complete** — you can play the whole game
 in English:
 
 - All story **dialogue and narration**, including the intro and ending narration.
@@ -116,6 +116,8 @@ in English:
 | v180 | **The real battle fix** (boot-confirmed, harpy included): translation font data relocated out of battle memory for good. Character creation restored to full polish (letter spacing, gender symbols, description banner) and the item-name capsule widened. |
 | v181 | Consistency polish — duplicate personality trait resolved, library trait pages aligned with character creation, name spellings unified. Game code identical to v180. Plus a wave of new build safeguards from a full-repo audit. |
 | v182 | **The Language Update** — the deepest text pass yet: ~1,500 story lines that shipped as terse fragments rewritten as full dialogue (from the classic fan guide, cross-checked line by line), wrong quest objectives corrected, item categories (rings/talismans/stones) and famous-sword names sorted out, and personality traits both corrected and shortened to fit the recruitment screen. Beta-report fixes (tavern intro, trap game, inn greeting). Game code byte-identical to v180/v181. |
+| v183–v201 | Text refinement & beta-report fixes — the "Dialogue Cleanup" inline-speaker-prefix pass, canon/name unification, an item-name divergence sweep (menu vs. dialogue), dialogue-loop and battle-crash-class fixes, duplicated-line cleanups, reward/quest name corrections, and many small proofreading passes from GitHub issues #21–#44. Game code byte-identical to v180. |
+| v202 | **US prequel-save bonus** — the memory-card new-game bonus (extra character-creation points, better starting gear, pre-made companions renamed after the previous game's cast) now triggers from a **US** *Wizardry: Tale of the Forsaken Land* (SLUS-20259) save, not just the Japanese original. Boot-confirmed. First EXE change since v180 — a single retargeted memory-card directory string. |
 
 ---
 
@@ -173,7 +175,7 @@ You need the game data yourself — this repo contains **no copyrighted game con
 **Build the English ISO**
 
 ```bash
-python tools/generate_font_atlas.py && python build/build_v9.py && cp build/BUSIN0_EN_v9.iso build/BUSIN0_EN_v182.iso
+python tools/generate_font_atlas.py && python build/build_v9.py && cp build/BUSIN0_EN_v9.iso build/BUSIN0_EN_v202.iso
 ```
 
 Always rebuild and copy in one command — the build writes the archive directory size
@@ -182,7 +184,7 @@ as its final step, and copying mid-build produces a truncated ISO.
 **Verify and test**
 
 ```bash
-python verify_iso.py build/BUSIN0_EN_v182.iso   # structural checks on the built ISO
+python verify_iso.py build/BUSIN0_EN_v202.iso   # structural checks on the built ISO
 python tests/run_all.py                         # the full regression suite (345 tests)
 ```
 
