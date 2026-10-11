@@ -108,8 +108,12 @@ def test_member_number_tokens():
 
 
 def test_gold_rewords():
-    assert _eng(1200, 228).startswith("G obtained"), "R1200 m228 gold reword lost"
-    assert _eng(1201, 130).startswith("G returned"), "R1201 m130 gold reword lost"
+    # v203: the token pass closes the JP glow/highlight after the amount
+    # ("G[FFE0][FB00] obtained!"), so compare with control tokens removed.
+    assert re.sub(r"\[F[BCDEF][0-9A-F]{2}\]", "", _eng(1200, 228)).startswith(
+        "G obtained"), "R1200 m228 gold reword lost"
+    assert re.sub(r"\[F[BCDEF][0-9A-F]{2}\]", "", _eng(1201, 130)).startswith(
+        "G returned"), "R1201 m130 gold reword lost"
     assert "[g]" not in _eng(1201, 130), "R1201 m130 still has literal [g]"
 
 

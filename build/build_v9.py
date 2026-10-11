@@ -77,6 +77,24 @@ def enc(ch):
 import re as _re
 CTRL_TOKEN_RE = _re.compile(r'(\[F[BCDEF][0-9A-F]{2}\])')
 
+# Layout stand-ins for authored tokens (RUN-20261011-2104 token-preservation
+# pass).  A control token renders as nothing, EXCEPT the insert controls, which
+# the engine expands before layout: FE00 = a 0x14-registered string (item /
+# potion names, up to ~13 glyphs), FE01..FE0F = a game number, FFF0..FFF6 = a
+# character name.  Wrapping and narration padding measure a token as its
+# stand-in so a "[FFE1]" no longer counts as 6 visible characters.
+_TOKEN_STANDIN = {0xFE00: 'Xxxxxxxxxxxx'}
+for _t in range(0xFE01, 0xFE10):
+    _TOKEN_STANDIN[_t] = '00'
+for _t in range(0xFFF0, 0xFFF7):
+    _TOKEN_STANDIN[_t] = 'Xxxxxxx'
+
+
+def layout_text(s):
+    """Return s with every authored control token replaced by its on-screen
+    stand-in (see _TOKEN_STANDIN; non-insert controls -> empty)."""
+    return CTRL_TOKEN_RE.sub(lambda m: _TOKEN_STANDIN.get(int(m.group(0)[1:5], 16), ''), s)
+
 def word_wrap(text, max_chars=18):
     """Wrap text to fit within max_chars per line.
 
@@ -361,12 +379,15 @@ def pad_narration_left_align(text):
     left-aligned.  So pad each line with TRAILING SPACES (0x0000 cells, blank but
     counted) up to the longest line on its page.  Pure data; the on-screen text is
     unchanged, only the invisible trailing pad differs.  (Still needs the small
-    boxX reposition so the now-left-aligned block sits on-screen.)"""
+    boxX reposition so the now-left-aligned block sits on-screen.)  Line lengths
+    are measured through layout_text, so authored "[FXXX]" tokens count as their
+    on-screen stand-ins (inserts) or nothing, never as six characters."""
     out_pages = []
     for page in text.split(' // '):
         lines = page.split(' / ')
-        width = max(len(l) for l in lines)
-        out_pages.append(' / '.join(l + ' ' * (width - len(l)) for l in lines))
+        # Token-aware: the engine counts rendered glyphs, not "[FFE1]" text.
+        width = max(len(layout_text(l)) for l in lines)
+        out_pages.append(' / '.join(l + ' ' * (width - len(layout_text(l))) for l in lines))
     return ' // '.join(out_pages)
 
 
@@ -376,6 +397,19 @@ def _wrap_line(seg, max_chars):
     Breaks at spaces; only force-breaks mid-token when a single token alone
     exceeds max_chars (mirrors the Step-2 word_wrap helper)."""
     out = []
+    if CTRL_TOKEN_RE.search(seg):
+        # Authored control tokens: break only at spaces, measuring each word by
+        # its on-screen stand-in so a token is never split or over-counted.
+        cur = ''
+        for w in seg.split(' '):
+            cand = w if not cur else cur + ' ' + w
+            if cur and len(layout_text(cand)) > max_chars:
+                out.append(cur)
+                cur = w
+            else:
+                cur = cand
+        out.append(cur)
+        return out
     while len(seg) > max_chars:
         brk = seg.rfind(' ', 0, max_chars + 1)
         if brk <= 0:
@@ -431,7 +465,7 @@ def _wrap_line_px(seg, box_px):
     lines, cur = [], ''
     for w in words:
         cand = w if not cur else cur + ' ' + w
-        if cur and glyph_metrics.px_width(cand, enc) > box_px:
+        if cur and glyph_metrics.px_width(layout_text(cand), enc) > box_px:
             lines.append(cur)
             cur = w
         else:
@@ -446,12 +480,20 @@ def wrap_px(text, box_px=DIALOGUE_BOX_PX, collapse=True):
     reflow_dialogue + wrap_type2_text on the dialogue path: per ' // ' page,
     COLLAPSE the premature ' / ' breaks (the JP author wrapped at the narrow JP
     cell pitch) into one flat string, then re-wrap at `box_px` pixels.  ' // '
-    page boundaries are PRESERVED.
+    page boundaries are PRESERVED, and an authored "[FFFD]" page wait splits the
+    text into independently wrapped pages (the engine clears the box there).
+    Widths are measured through layout_text (token stand-ins).
 
     Break-agnostic: only ' / ' (line) / ' // ' (page) markers in and out — the
     downstream encoder turns each into a single 0xFFFE word and NEVER emits
     0xFFD2 (the v97 colour-code rule).  DIALOGUE-ONLY: the caller gates this behind
     build_dialogue_map so narration/choice/structural groups are untouched."""
+    if '[FFFD]' in text:
+        # Authored FFFD = the engine's page/wait between speakers of an
+        # overheard chat: each page is wrapped on its own (never collapsed
+        # across), and the token is re-emitted verbatim between them.
+        return '[FFFD]'.join(wrap_px(p.strip(' '), box_px, collapse)
+                             for p in text.split('[FFFD]'))
     if collapse:
         # Collapse ACROSS ' // ' too (v97: ' // ' is a line-break 0xFFFE, NOT a page
         # break), so a short tail after a ' // ' (e.g. the orphaned 'it."') is not

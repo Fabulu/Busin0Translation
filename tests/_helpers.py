@@ -71,6 +71,22 @@ class Skip(Exception):
     """Raise inside a test to mark it SKIP (missing tier inputs, etc.)."""
 
 
+def build_v9_layout_ns():
+    """Namespace holding build_v9's token-layout prelude (CTRL_TOKEN_RE,
+    _TOKEN_STANDIN, layout_text), sliced from source like the other
+    exec-loaders do (build_v9 builds at import).  wrap_px /
+    pad_narration_left_align reference layout_text as a module global, so
+    every exec-loader seeds its namespace with this (RUN-20261011-2104)."""
+    import re
+    src = open(os.path.join(ROOT, "build", "build_v9.py"), encoding="utf-8").read()
+    m = re.search(r"^CTRL_TOKEN_RE\s*=.*?^def layout_text\(.*?(?=^\S|\Z)",
+                  src, re.M | re.S)
+    assert m, "build_v9.py: token-layout prelude (CTRL_TOKEN_RE..layout_text) not found"
+    ns = {"_re": re}
+    exec(compile(m.group(0), "build_v9:layout_text", "exec"), ns)
+    return ns
+
+
 def run_tests(tests, module_name, verbose=True):
     """
     Run a list of test callables.  Returns [(module, test_name, status, detail)].

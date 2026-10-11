@@ -176,10 +176,13 @@ def _is_choice_group(group_words):
 
 
 def _split_lines(group_words):
-    """Split a group's glyph stream into on-screen lines on 0xFFFE / 0xFFD2."""
+    """Split a group's glyph stream into on-screen lines on 0xFFFE / 0xFFD2 /
+    0xFFFD.  0xFFFD (page wait) shares the engine layout pass's FFFE newline
+    handler (EXE 0x308734) and the controller's end-of-page path (0x303D7C);
+    v203 restored it inline between overheard-chat speakers."""
     line = []
     for w in group_words:
-        if w == LINE_BREAK or w == PAGE_BREAK:
+        if w == LINE_BREAK or w == PAGE_BREAK or w == 0xFFFD:
             yield line
             line = []
         else:

@@ -438,6 +438,7 @@ blowing context — use `head -n 50` on the output file, **never read the full s
 
 | Run ID | Description | Status | Working Directory |
 |--------|-------------|--------|-------------------|
+| RUN-20261011-2104 | Lang's Potion spring crash (real PS2, v202) + corpus-wide control-token loss pass | ✅ READY FOR REVIEW - Awaiting User Approval | runs/CLAUDE-RUNS/RUN-20261011-2104-lang-potion-lake-crash/ |
 
 <!-- [TODO: This table is maintained dynamically. Add rows as tasks are started,
      update status as work progresses, remove when archived.] -->

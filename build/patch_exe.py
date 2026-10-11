@@ -1044,7 +1044,18 @@ def main():
     # + the hook's j-immediate change.  (The CHARGEN_DIAG debug cave still uses 0x4C7790 --
     # it is mutually exclusive with production Patch 26 and out of the battle-path arena.)
     print("\n--- Patch 26: CHARGEN body text PROPORTIONAL (real renderer 0x307510 Loop A) [v148 RELOCATED] ---")
-    P26_HOOK = 0x207A4C            # VA 0x3079CC, pristine 0x8FA200E0 (lw v0,0xe0(sp))
+    # v203 REAL-PS2 FIX (RUN-20261011-2104): the hook used to sit at 0x3079CC, which
+    # put the STOCK `bne v0,v1` @0x3079D0 in the j's DELAY SLOT -- a branch in a jump
+    # delay slot is UNDEFINED on MIPS/R5900.  PCSX2 let the jump win; real hardware
+    # (classic pipeline) takes the bne with v0 = the glyph counter (the lw it used to
+    # compare was displaced), i.e. a different path than every emulator test.  The hook
+    # now sits ONE instr earlier, at 0x3079C8: `j cave` with the displaced
+    # `sw v0,0(s3)` (glyph counter store, a plain store) in its delay slot.  0x3079CC
+    # stays PRISTINE `lw v0,0xe0(sp)` (now dead: the cave's STOCK exit re-runs it in
+    # its own delay slot before rejoining the bne at 0x3079D0 as an ordinary jump
+    # target).  The cave words are UNCHANGED (they never read v0 on entry).
+    P26_HOOK = 0x207A48            # VA 0x3079C8, pristine 0xAE620000 (sw v0,0(s3))
+    P26_SLOT = 0x207A4C            # VA 0x3079CC delay slot <- displaced sw v0,0(s3)
     P26_CAVE = RELOC.fo(RELOC.P26_VA)   # VA RELOC.P26_VA (0x4B0414)
     P26_J_TO_CAVE = RELOC.P26_HOOK_JWORD  # j RELOC.P26_VA
     P26_CAVE_WORDS = [
@@ -1082,22 +1093,25 @@ def main():
         print(f"  WARN Patch 14 not installed (hook=0x{P26_GATE:08X}) -> Patch 26 SKIPPED")
     else:
         hook_now = struct.unpack_from("<I", data, P26_HOOK)[0]
+        slot_now = struct.unpack_from("<I", data, P26_SLOT)[0]
         cave_free = all(
             struct.unpack_from("<I", data, P26_CAVE + i * 4)[0] == 0
             for i in range(len(P26_CAVE_WORDS))
         )
-        if hook_now == 0x8FA200E0 and cave_free:
+        if hook_now == 0xAE620000 and slot_now == 0x8FA200E0 and cave_free:
             RELOC.assert_install_safe(RELOC.P26_VA, len(P26_CAVE_WORDS) * 4, "Patch 26 cave")
             for i, w in enumerate(P26_CAVE_WORDS):
                 struct.pack_into("<I", data, P26_CAVE + i * 4, w)
             struct.pack_into("<I", data, P26_HOOK, P26_J_TO_CAVE)   # j RELOC.P26_VA
+            struct.pack_into("<I", data, P26_SLOT, 0xAE620000)      # (delay) sw v0,0(s3)
             assert struct.unpack_from("<I", data, P26_HOOK)[0] == P26_J_TO_CAVE
             assert struct.unpack_from("<I", data, P26_CAVE)[0] == 0x3C010050
             patched_count += 1
-            print(f"  OK   0x3079CC -> j 0x{RELOC.P26_VA:06X}; 26-word ADV cave (abs mode==5 gate, "
+            print(f"  OK   0x3079C8 -> j 0x{RELOC.P26_VA:06X} (delay: sw v0,0(s3)); 26-word ADV cave (abs mode==5 gate, "
                   f"canonical ADV @0x{RELOC.ADV2_VA:06X}, v1-preserving STOCK); chargen body now proportional")
         else:
-            print(f"  WARN Patch 26 not applied: hook=0x{hook_now:08X} cave_free={cave_free}")
+            print(f"  WARN Patch 26 not applied: hook=0x{hook_now:08X} slot=0x{slot_now:08X} "
+                  f"cave_free={cave_free}")
 
     # ─── FIRE_DIAG: box-renderer fire-counter (env FIRE_DIAG=1; pure read+store) ──────
     if FIRE_DIAG:

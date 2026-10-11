@@ -116,8 +116,12 @@ HOOKS = [
      RELOC.P19C1_HOOK_JWORD,                  0x24420018),
     ("P19 stage2 hook VA 0x308018",   0x208098,
      RELOC.P19C2_HOOK_JWORD,                  0x87A301CC),
-    ("P26 hook VA 0x3079CC",          0x207A4C,
-     RELOC.P26_HOOK_JWORD,                    0x8FA200E0),
+    ("P26 hook VA 0x3079C8",          0x207A48,
+     RELOC.P26_HOOK_JWORD,                    0xAE620000),
+    # v203: the displaced `sw v0,0(s3)` moves into the j's delay slot; 0x3079CC
+    # is no longer the hook (it held the j whose delay slot was the size bne).
+    ("P26 delay VA 0x3079CC (sw v0,0(s3))", 0x207A4C,
+     0xAE620000,                              0x8FA200E0),
     ("P24 hook VA 0x30973C",          0x2097BC,
      RELOC.P24_HOOK_JWORD,                    0x860A003C),
     ("P27 hook VA 0x3A31A0",          0x2A3220,

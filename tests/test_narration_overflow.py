@@ -50,7 +50,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _helpers import ROOT, PACKDATA_RES_DIR, DATA_DIR, Skip, main_exit, require_dir
+from _helpers import ROOT, PACKDATA_RES_DIR, DATA_DIR, Skip, build_v9_layout_ns, main_exit, require_dir
 
 # build_v9.py's own classifier + the px metrics live under tools/ and build/.
 if os.path.join(ROOT, "tools") not in sys.path:
@@ -136,6 +136,9 @@ def _wrap_line_px(seg, box_px, px_width):
     return lines or ['']
 
 
+_LAYOUT_TEXT = build_v9_layout_ns()["layout_text"]
+
+
 def wrap_px_collapse(text, px_width, box_px=NARRATION_BOX_PX):
     flat = ' '.join(s.strip()
                     for s in text.replace(' // ', ' / ').split(' / ')
@@ -216,7 +219,10 @@ def _scan_overflows():
             is_pad = (gi in pad) and ((res, gi) not in NARR_PAD_EXCLUDE)
             if not (is_narr or is_pad):
                 continue
-            nlines = len(wrap_px_collapse(en, px_width))
+            # Lines per on-screen PAGE: an inline [FFFD] page wait clears the
+            # window (EXE 0x303D7C); tokens measure as their stand-ins.
+            nlines = max(len(wrap_px_collapse(_LAYOUT_TEXT(pg), px_width))
+                         for pg in en.split("[FFFD]"))
             results.append((res, gi, nlines))
     return results
 

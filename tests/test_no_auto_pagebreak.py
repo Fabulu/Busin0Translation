@@ -16,8 +16,9 @@ ONLY 0xFFFE line breaks and never a mid-message 0xFFD2.
 
 THE RULE
 --------
-The ONLY legitimate source of a 0xFFD2 in an injected-English group is an authored
-" // " page break in the translation JSON.  So for every translated, non-choice
+The ONLY legitimate sources of a 0xFFD2 in an injected-English group are an authored
+" // " page break in the translation JSON, or (v203) an inline "[FFD2]" colour token
+authored by the token-preservation pass.  So for every translated, non-choice
 type-02 group, the number of 0xFFD2 words in the BUILT group must EQUAL the number
 of " // " markers in its source english string.  An auto-inserted page break makes
 actual > expected and trips this gate; legitimately authored " // " breaks are
@@ -145,7 +146,10 @@ def _offenders():
             while hi > lo and group[hi - 1] >= CONTROL_FLOOR:
                 hi -= 1
             interior = group[lo:hi]
-            expected = en.count(" // ")
+            # v203 (RUN-20261011-2104): an inline "[FFD2]" token is a deliberately
+            # authored JP colour code restored by the token-preservation pass --
+            # legitimate, so it counts as expected too.
+            expected = en.count(" // ") + en.count("[FFD2]")
             actual = sum(1 for w in interior if w == PAGE_BREAK)
             if actual > expected:
                 offenders.append((res, mi, actual, expected,

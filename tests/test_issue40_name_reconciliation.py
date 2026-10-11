@@ -299,7 +299,9 @@ def test_girls_stall_and_pouch_names():
     )
 
     eng231 = _eng(entries, 1199, 231)
-    assert eng231 == "Inside was a / Return Potion.", (
+    # v203: compare visible text -- the token pass restored the JP [FFE1]..[FFE0]
+    # item highlight around the name (control tokens render as nothing).
+    assert _visible(eng231) == "Inside was a / Return Potion.", (
         "issue #40 regression: batch_zzz_rewardnames R1199 msg231 = %r, "
         "expected 'Inside was a / Return Potion.'" % eng231
     )
@@ -314,6 +316,11 @@ def test_girls_stall_and_pouch_names():
         "issue #40 regression: batch_02 R1199 msg230 still says "
         "'antidote herb' -- %r" % eng230
     )
+
+
+def _visible(english):
+    """english minus inline control tokens ("[FXXX]"), i.e. the on-screen text."""
+    return re.sub(r"\[F[BCDEF][0-9A-F]{2}\]", "", english or "")
 
 
 def test_type2_merge_resolved_potion_names():
@@ -335,7 +342,7 @@ def test_type2_merge_resolved_potion_names():
         "issue #40 regression: merged R1196 msg41 lost 'Medicine' -- %r"
         % _get(1196, 41)
     )
-    assert _get(1199, 231) == "Inside was a / Return Potion.", (
+    assert _visible(_get(1199, 231)) == "Inside was a / Return Potion.", (
         "issue #40 regression: merged R1199 msg231 = %r, expected 'Inside "
         "was a / Return Potion.'" % _get(1199, 231)
     )

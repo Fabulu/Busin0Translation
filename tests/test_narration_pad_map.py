@@ -55,7 +55,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _helpers import BUILD_V9, ROOT, Skip, main_exit, require_file  # noqa: E402
+from _helpers import BUILD_V9, ROOT, Skip, build_v9_layout_ns, main_exit, require_file  # noqa: E402
 
 import dialogue_classifier as dc  # noqa: E402  (TOOLS_DIR on sys.path via _helpers)
 
@@ -262,16 +262,15 @@ def _isolate_pad_fn():
 
     build_v9.py executes its top-level build on import (needs artifacts), so we
     regex-slice ONLY the pad function source and exec it in a clean namespace.
-    pad_narration_left_align is pure string ops with NO module-global dependencies
-    (verified: it only uses str.split/' / '/' // '/len), so the slice is self-
-    contained.  SKIP if the function can't be isolated (signature moved)."""
+    pad_narration_left_align is pure string ops; its only module-global dependency
+    is layout_text (v203 token stand-ins), seeded via build_v9_layout_ns().  SKIP if the function can't be isolated (signature moved)."""
     src = open(BUILD_V9, encoding="utf-8").read()
     m = re.search(
         r"^def pad_narration_left_align\(.*?(?=^def\s|\Z)", src, re.M | re.S
     )
     if not m:
         raise Skip("could not isolate build_v9.pad_narration_left_align (moved?)")
-    ns = {}
+    ns = build_v9_layout_ns()  # pad fn measures via layout_text (v203)
     try:
         exec(m.group(0), ns)
     except Exception as e:

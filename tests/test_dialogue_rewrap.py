@@ -34,7 +34,7 @@ import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _helpers import BUILD_V9, ROOT, Skip, main_exit  # noqa: E402
+from _helpers import BUILD_V9, ROOT, Skip, build_v9_layout_ns, main_exit  # noqa: E402
 
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 import glyph_metrics  # noqa: E402
@@ -57,6 +57,7 @@ def _load_build_wrap():
     WITHOUT running the build (it chdir+builds at import)."""
     src = open(BUILD_V9, encoding="utf-8").read()
     ns = {"glyph_metrics": glyph_metrics, "enc": _enc}
+    ns.update(build_v9_layout_ns())
     for cm, name in ((r"^DIALOGUE_BOX_PX\s*=\s*(\d+)", "DIALOGUE_BOX_PX"),
                      (r"^NARRATION_BOX_PX\s*=\s*(\d+)", "NARRATION_BOX_PX")):
         m = re.search(cm, src, re.M)
@@ -114,9 +115,19 @@ def _dialogue_maps():
     return build_dialogue_map
 
 
+_LAYOUT_TEXT = build_v9_layout_ns()["layout_text"]
+
+
+def _pages(text):
+    """On-screen pages: an authored ' // ' or an inline [FFFD] page wait (the
+    engine's message controller treats 0xFFFD like the FFFF end-of-page path
+    and its layout pass like a line break -- EXE 0x303D7C / 0x308734)."""
+    return [p for pg in text.split(" // ") for p in pg.split("[FFFD]")]
+
+
 def _max_lines_per_page(text, wrap_px, box):
     return max(len(wrap_px(page, box).split(" / "))
-               for page in text.split(" // "))
+               for page in _pages(text))
 
 
 def test_dialogue_box_px_is_canonical_budget():
@@ -149,9 +160,10 @@ def test_every_wrapped_dialogue_line_within_box():
         for mi, en in by_res[r].items():
             if mi not in dmap or (r, mi) in exclude:
                 continue
-            for page in wrap_px(en, box).split(" // "):
+            for page in _pages(wrap_px(en, box)):
                 for line in page.split(" / "):
-                    px = glyph_metrics.px_width(line, _enc)
+                    # measure tokens as their on-screen stand-ins (layout_text)
+                    px = glyph_metrics.px_width(_LAYOUT_TEXT(line), _enc)
                     checked += 1
                     if px > box and " " in line:
                         offenders.append((r, mi, px, line[:48]))

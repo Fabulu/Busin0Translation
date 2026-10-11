@@ -62,6 +62,7 @@ import sys
 import os
 import struct
 import json
+import collections
 import math
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -1046,6 +1047,8 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir,
             leading, _old_text, trailing = _split_control_and_text(remainder)
             leading = _strip_leading_var_insert(leading)
             leading = _strip_duplicated_fe_controls(leading, eng_glyphs)
+            leading, trailing = _dedupe_authored_controls(
+                leading, trailing, eng_glyphs, original_group)
             if msg_idx in strip_color:
                 trailing = _strip_trailing_color_controls(trailing)
             groups[msg_idx] = new_slice_glyphs + leading + eng_glyphs + trailing
@@ -1059,6 +1062,8 @@ def inject_and_patch(res_idx, msg_translations, raw_dir, out_dir,
             leading, _old_text, trailing = _split_control_and_text(original_group)
             leading = _strip_leading_var_insert(leading)
             leading = _strip_duplicated_fe_controls(leading, eng_glyphs)
+            leading, trailing = _dedupe_authored_controls(
+                leading, trailing, eng_glyphs, original_group)
             if msg_idx in strip_color:
                 trailing = _strip_trailing_color_controls(trailing)
             groups[msg_idx] = leading + eng_glyphs + trailing
@@ -1229,6 +1234,43 @@ def _strip_duplicated_fe_controls(leading, eng_glyphs):
     if not authored:
         return leading
     return [g for g in leading if g not in authored]
+
+
+def _dedupe_authored_controls(leading, trailing, eng_glyphs, original):
+    """Generalized double-emit guard for authored control tokens
+    (RUN-20261011-2104 token-preservation pass).
+
+    _split_control_and_text keeps only the pristine LEADING/TRAILING control
+    runs; the translation may author any control inline ("[FB01]", "[FFE1]",
+    "[FFFD]", "[FFF3]" ...) to restore interior controls the split would
+    otherwise swallow, or to MOVE an edge control next to the English word it
+    belongs to (e.g. the highlight opener of an item name).  For every authored
+    control value v, any occurrence in leading+authored+trailing beyond the
+    pristine group's own count of v is an excess copy: it is removed from the
+    leading run (nearest the text first), then from the trailing run.  Line
+    breaks (0xFFFE) are never touched.  With no authored control -- the common
+    case -- both runs are returned unchanged."""
+    authored = collections.Counter(g for g in eng_glyphs if g >= 0xFB00 and g != 0xFFFE)
+    if not authored:
+        return leading, trailing
+    pristine = collections.Counter(original)
+    leading, trailing = list(leading), list(trailing)
+    for v, n in authored.items():
+        excess = leading.count(v) + n + trailing.count(v) - pristine[v]
+        for i in range(len(leading) - 1, -1, -1):
+            if excess <= 0:
+                break
+            if leading[i] == v:
+                del leading[i]
+                excess -= 1
+        i = 0
+        while excess > 0 and i < len(trailing):
+            if trailing[i] == v:
+                del trailing[i]
+                excess -= 1
+            else:
+                i += 1
+    return leading, trailing
 
 
 def _split_control_and_text(group):

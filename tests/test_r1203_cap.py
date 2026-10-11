@@ -38,7 +38,7 @@ import struct
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from _helpers import ROOT, Skip  # noqa: E402
+from _helpers import ROOT, Skip, build_v9_layout_ns  # noqa: E402
 
 sys.path.insert(0, os.path.join(ROOT, "tools"))
 
@@ -61,6 +61,7 @@ def _load_wrap_helpers(enc):
     src = open(os.path.join(ROOT, "build", "build_v9.py"), encoding="utf-8").read()
     import glyph_metrics
     ns = {"glyph_metrics": glyph_metrics, "enc": enc}
+    ns.update(build_v9_layout_ns())
     for cm, name in ((r"^TYPE2_WRAP_WIDTH\s*=\s*(\d+)", "TYPE2_WRAP_WIDTH"),
                      (r"^DIALOGUE_BOX_PX\s*=\s*(\d+)", "DIALOGUE_BOX_PX")):
         m = re.search(cm, src, re.M)
