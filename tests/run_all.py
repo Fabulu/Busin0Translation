@@ -63,6 +63,7 @@ MODULES = [
     "test_reloc_caves_installed",
     "test_no_branch_in_delay_slot",
     "test_token_preservation",
+    "test_r2881_ending",
     "test_cave_semantics",
     "test_shrink_equivalence",
     "test_r47_built_output",

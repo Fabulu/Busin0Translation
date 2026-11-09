@@ -116,7 +116,8 @@ MANIFEST = [
     dict(id=2880, fname="2880_type11.raw", size=2113536,
          windows=[(1962944, 2094016)], desw=DESW_512),
     dict(id=2881, fname="2881_type15.raw", size=2316288,
-         windows=[(1978608, 2109680), (2109744, 2240816)], desw=DESW_512),
+         windows=[(1978608, 2109680), (2109744, 2240816),
+                  (2254384, 2287152)], desw=DESW_512),  # + img10 (v204)
 ]
 
 # R2141/R2144 sub-resource windows (the patcher writes into FFFF-group glyph

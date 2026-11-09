@@ -6,7 +6,7 @@ released only in Japan. This repository holds the full translation toolchain: th
 scripts that decode the game's text and graphics, the English translation data, and
 the build pipeline that produces a patched, **real-PS2-compatible** disc image.
 
-> **Status: Public Beta (v203).**
+> **Status: Public Beta (v204).**
 > Playable start to finish in English. Download the ready-made patch at
 > **[busin0-en.pages.dev](https://busin0-en.pages.dev)** — you do not need this
 > repository to play, only to build from source or contribute.
@@ -30,21 +30,21 @@ You need three things:
    - **Source ISO MD5:** `48a5639afdf9931913c7dde298dc5349`
    - If your dump's MD5 differs, you have a different revision and the patch will
      not apply cleanly.
-2. **The patch file:** `busin0_en_v203.xdelta` (~1.0 MB), from
+2. **The patch file:** `busin0_en_v204.xdelta` (~1.0 MB), from
    [busin0-en.pages.dev](https://busin0-en.pages.dev).
 3. **An xdelta3 tool** — either the command line or a GUI.
 
 ### Command line
 
 ```bash
-xdelta3 -d -s "Busin 0 (Japan).iso" busin0_en_v203.xdelta BUSIN0_EN.iso
+xdelta3 -d -s "Busin 0 (Japan).iso" busin0_en_v204.xdelta BUSIN0_EN.iso
 ```
 
 ### GUI (Delta Patcher, Windows)
 
 1. Open Delta Patcher.
 2. **Original file** = your Japanese ISO.
-3. **XDelta patch** = `busin0_en_v203.xdelta`.
+3. **XDelta patch** = `busin0_en_v204.xdelta`.
 4. Click **Apply Patch**. It writes the English ISO next to the original.
 
 ### Verify the result
@@ -67,7 +67,7 @@ PCSX2 via **File → Boot ISO**.
 
 ### Found a problem?
 
-Bug reports are welcome. Please include: the **patch version** (v203 beta), where in
+Bug reports are welcome. Please include: the **patch version** (v204 beta), where in
 the game it happens (screen/menu/scene), what you expected vs. what you saw, and a
 screenshot if you can. **[GitHub Issues](https://github.com/Fabulu/Busin0Translation/issues)**
 is the best place to report (you can attach save states and screenshots directly); the
@@ -77,7 +77,7 @@ r/wizardry community thread works too.
 
 ## What's translated
 
-As of v203 the translation is **effectively complete** — you can play the whole game
+As of v204 the translation is **effectively complete** — you can play the whole game
 in English:
 
 - All story **dialogue and narration**, including the intro and ending narration.
@@ -119,6 +119,7 @@ in English:
 | v183–v201 | Text refinement & beta-report fixes — the "Dialogue Cleanup" inline-speaker-prefix pass, canon/name unification, an item-name divergence sweep (menu vs. dialogue), dialogue-loop and battle-crash-class fixes, duplicated-line cleanups, reward/quest name corrections, and many small proofreading passes from GitHub issues #21–#44. Game code byte-identical to v180. |
 | v202 | **US prequel-save bonus** — Busin 0's memory-card new-game bonus (extra character-creation points, better starting gear, pre-made companions renamed after the previous game's cast) now triggers from a save of the **North American PS2 release of the previous game: *Wizardry: Tale of the Forsaken Land* (Atlus, 2001 — disc serial `SLUS-20259`)**, not just the Japanese original. Keep a memory-card save from that US game in the console and boot Busin 0 to get the bonus. (The JP original, *BUSIN ~Wizardry Alternative~* / `SLPM-62098`, is no longer detected — swapped, not added.) First EXE change since v180: a single retargeted memory-card directory string. Boot-confirmed. |
 | v203 | **Real-PS2 crash fix + restored control codes.** Fixes a reported real-hardware crash when pouring Lang's Potion into the B1F spring: one of our text-drawing EXE hooks (Patch 26) left a branch in a jump's delay slot (undefined on real hardware, emulators tolerate it); moved, plus a new gate rejecting any patched branch in a delay slot. Not reproduced locally, so reports welcome. Also re-authors ~1,760 dialogue lines that had silently lost mid-line control codes (name inserts, numbers, overheard-chat page waits, glow/shake), with a new gate comparing every translated group to the JP original. |
+| v204 | **Readable, fully English ending.** Ebony_Sun's full-clear report: the R2881 ending narration rewritten from the game's own sprite table (old inferred windows clipped ~10-13% of each line), drawn in the JP palette style (img0 dark core + white glow, img1 white core + dark outline; the old plain ramp read as grey ghost text), and the previously untranslated climax/reprise page (img10, the fade-to-black/white lines) translated. 71 lines retranslated in on-screen order. Lidi's reward リスト = wristband: "Thief's list" -> **Thief Band**. New gate `tests/test_r2881_ending.py`. Staff credits (R2878) still JP. |
 
 ---
 
