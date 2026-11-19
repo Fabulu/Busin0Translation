@@ -18,9 +18,14 @@ audit_group(pristine, built, allowed_missing) compares one FFFF-group:
       count, except the deliberately stripped leading variable insert
       (allowed_missing, see _strip_leading_var_insert).
     * END-STATE mismatch -- the glow flag (FB01/FB00), highlight index
-      (FFE0-FFE7), colour (FFD0-FFD9) and shake mode (FB02-FB05) in force
-      after the group's last word must equal pristine's, so no run is left
-      open (or closed) differently than the JP author wrote it.
+      (FFE0-FFE7) and shake mode (FB02-FB05) in force after the group's last
+      word must equal pristine's, so no run is left open (or closed)
+      differently than the JP author wrote it.
+    * INTERIOR SPACING -- FFD0..FFD9 are NOT colour: the narration renderer
+      (EXE 0x307da0, handlers 0x308d78+) advances the pen by (n+1)*24px.  JP
+      uses them only as line-edge indents beside FFFE; after the English
+      reflow an interior one is a mid-line gap (issue #46), so any FFDx
+      between the first and last text glyph of a built group is an error.
   WARNINGS (fidelity, not correctness)
     * fewer glow/highlight openers than pristine (an emphasized item name
       lost its emphasis).
@@ -54,25 +59,36 @@ VAR_INSERTS = set(range(0xFFF0, 0xFFF7))
 CTRL_TOKEN_RE = re.compile(r'(\[F[BCDEF][0-9A-F]{2}\])')
 
 
+SPACING = set(range(0xFFD0, 0xFFDA))   # horizontal space codes, (n+1)*24px
+
+
 def end_state(group):
-    """(glow, highlight, colour, shake) in force after the group's last word.
+    """(glow, highlight, shake) in force after the group's last word.
     Every one of these is reset per message by the draw routine (EXE
     0x3080C4..0x308114), so the state at the FFFF is what a later word in the
-    same message would inherit."""
-    glow = hl = col = shake = None
+    same message would inherit.  FFD0..FFD9 carry no state (spacing, see
+    interior_spacing) and are deliberately not tracked."""
+    glow = hl = shake = None
     for w in group:
         if w in (0xFB00, 0xFB01):
             glow = w
         elif 0xFFE0 <= w <= 0xFFE7:
             hl = w
-        elif 0xFFD0 <= w <= 0xFFD9:
-            col = w
         elif 0xFB02 <= w <= 0xFB05:
             shake = w
     # FB00 / FFE0 / FB02 are the engine defaults: "never set" == "reset".
     return (glow if glow != 0xFB00 else None,
             hl if hl != 0xFFE0 else None,
-            col, shake if shake != 0xFB02 else None)
+            shake if shake != 0xFB02 else None)
+
+
+def interior_spacing(group):
+    """FFD0..FFD9 words strictly between the group's first and last text
+    glyph (word < 0xFB00) -- each renders as a mid-line gap (issue #46)."""
+    text = [i for i, w in enumerate(group) if w < 0xFB00]
+    if not text:
+        return []
+    return [w for w in group[text[0] + 1:text[-1]] if w in SPACING]
 
 
 def audit_group(pristine, built, allowed_missing=()):
@@ -89,11 +105,17 @@ def audit_group(pristine, built, allowed_missing=()):
     if extra:
         errs.append("extra " + " ".join("%04X x%d" % (k, v) for k, v in sorted(extra.items())))
     sp, sb = end_state(pristine), end_state(built)
-    names = ("glow FB01", "highlight FFE*", "colour FFD*", "shake FB0x")
+    names = ("glow FB01", "highlight FFE*", "shake FB0x")
     for n, a, b in zip(names, sp, sb):
         if a != b:
             errs.append("end-state %s: pristine %s, built %s" % (
                 n, "%04X" % a if a else "reset", "%04X" % b if b else "reset"))
+    # A group shipped byte-identical to pristine (e.g. R990: binary Section 1,
+    # skipped by the injector) keeps JP's own line-edge indents -- only judge
+    # groups whose English we actually injected.
+    gaps = interior_spacing(built) if list(built) != list(pristine) else []
+    if gaps:
+        errs.append("interior spacing " + " ".join("%04X" % w for w in gaps))
     for lab, opener in (("glow", lambda w: w == 0xFB01),
                         ("highlight", lambda w: 0xFFE1 <= w <= 0xFFE7)):
         cp = sum(1 for w in pristine if opener(w))

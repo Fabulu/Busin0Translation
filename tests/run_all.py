@@ -54,6 +54,7 @@ MODULES = [
     "test_chargen_lsh_patch29",
     "test_chargen_sidebar_patch30",
     "test_chargen_lsh_patch31",
+    "test_name_insert_boxx_patch32",
     "test_chargen_spacing",
     "test_chargen_class_descriptions",
     "test_chargen_centering",

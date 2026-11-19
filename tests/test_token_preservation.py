@@ -20,9 +20,10 @@ last-wins load order and skip markers as build_v9), it compares the BUILT group
 in the newest ISO against the PRISTINE group with tools/token_audit.audit_group:
   * functional multiset equal (minus the deliberately stripped leading name
     insert, token_audit.stripped_leading_vars), and
-  * glow / highlight / colour / shake end-state equal (a pristine colour word
-    after the last text glyph may be dropped -- inert, see
-    _without_inert_trailing_colour).  KNOWN_RESIDUAL groups are listed explicitly.
+  * glow / highlight / shake end-state equal, and
+  * no FFD0-FFD9 spacing word between the first and last text glyph (those are
+    pen-advance gaps, not colour -- issue #46).  KNOWN_RESIDUAL groups are
+    listed explicitly.
 It also asserts no translated type-02 English contains a literal newline (it
 encodes as glyph 31, a visible "?").
 TIER-2: SKIPs when the ISO or the pristine raw resources are absent.
@@ -68,18 +69,6 @@ def _translations():
     return out
 
 
-def _without_inert_trailing_colour(pristine_group):
-    """pristine_group minus every colour word (0xFFD0-0xFFD9) AFTER its last
-    text glyph.  Such a colour governs no glyph; Step 4 deliberately strips it
-    from left-align-padded narration (build_v9 leftalign_pad_groups ->
-    _strip_trailing_color_controls), so the built colour end-state must match
-    the pristine state WITHOUT it."""
-    last_text = max((i for i, w in enumerate(pristine_group) if w < 0xFB00),
-                    default=-1)
-    return [w for i, w in enumerate(pristine_group)
-            if not (i > last_text and 0xFFD0 <= w <= 0xFFD9)]
-
-
 def test_no_literal_newline_in_type2_english():
     trans = _translations()
     bad = ["R%d G%d" % k for k, en in sorted(trans.items())
@@ -111,15 +100,6 @@ def test_translated_groups_keep_control_tokens():
                 if (r, mi) in KNOWN_RESIDUAL:
                     continue
                 errs, _w = TA.audit_group(pg[mi], bg[mi], allowed.get(mi, ()))
-                if any(e.startswith("end-state colour") for e in errs):
-                    # Pristine ended on an inert trailing colour (stripped by
-                    # Step 4 in padded narration): accept the built state if it
-                    # equals pristine minus that colour, or carries no colour.
-                    eff = TA.end_state(_without_inert_trailing_colour(pg[mi]))[2]
-                    stripped = len(_without_inert_trailing_colour(pg[mi])) < len(pg[mi])
-                    if TA.end_state(bg[mi])[2] in ((eff, None) if stripped else (eff,)):
-                        errs = [e for e in errs
-                                if not e.startswith("end-state colour")]
                 problems.extend("R%d G%d: %s" % (r, mi, e) for e in errs)
     finally:
         pd.close()

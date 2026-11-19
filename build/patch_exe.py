@@ -1782,6 +1782,63 @@ def main():
     else:
         print(f"  WARN 0x{P24_OFF:06X}: expected 0x{P24_ORIG:08X}, got 0x{p24:08X} -- Patch 24 SKIPPED")
 
+    # ─── PATCH 32: NAME-INSERT boxX=+96 in narration (issue #46, v206) ──────────────
+    # The name/variable-insert loop (FFF0..FFF6/FFCA, renderer 0x307da0, draw loop
+    # 0x308ac8..0x308ce4 -> jal 0x3060b0) builds each glyph X as
+    #   pen(0x1ce) + rec.x + boxX(lh 0x3c(s0) @0x308c48) + [0x120(sp)]
+    # and reads boxX RAW.  Patch 24 gives every NORMAL narration glyph boxX=96 when
+    # the descriptor's boxX is 0 (narration only), but this loop never got it -> the
+    # player's name drew 96px LEFT of its pen, on top of the preceding words
+    # ("winKeelvin" = "winked at Kevin", issue #46 screenshots).
+    # FIX (in place, no cave): 0x120(sp) (= line*12) is precomputed ONCE per insert in
+    # the straight-line prologue 0x308a80..0x308ac4 (loop head 0x308ac8; no branch
+    # targets inside -- checked).  Rewrite those 18 words to store
+    #   0x120(sp) = line*12 + (boxX==0 ? 96 : 0)
+    # via movn, keeping 0x110(sp)=sext16(s3) identical and the mtc1->use
+    # one-instruction gaps.  The same rewrite sets the float-branch name advance
+    # f20 = 0.18f*s3 (was 0.24f): narration's width metric is ~101 (v97 notes),
+    # and at metric != 100 the loop advances int(f20) -> 24px names vs 18px text.
+    # 0.18f*101 = 18 matches the integer-branch 18 (Patch 22 @0x308cb0).
+    # boxX!=0 (dialogue -228 / request) => +0 =>
+    # byte-for-byte the old X.  Same gate as Patch 24 (boxX==0 <=> narration).
+    print("\n--- Patch 32: NAME-INSERT boxX=+96 (narration-only, prologue 0x308a80) ---")
+    P32_OFF = 0x308A80 - 0x100000 + 0x80     # file 0x208B00
+    P32_ORIG = [
+        0x87A20190, 0x44930000, 0x00000000, 0x46800020, 0x0040202D, 0x0013143C,
+        0x00041840, 0x0002143F, 0xAFA20110, 0x00641021, 0x00021080, 0x3C033E75,
+        0xAFA20120, 0x3462C28F, 0x44820800, 0x00000000, 0x46000D02, 0x00000000,
+    ]
+    P32_NEW = [
+        0x87A20190,  # lh     v0,0x190(sp)      ; line index
+        0x44930000,  # mtc1   s3,f0             ; scale
+        0x3C033E38,  # lui    v1,0x3e38
+        0x46800020,  # cvt.s.w f0,f0
+        0x346351EC,  # ori    v1,v1,0x51ec      ; 0.18f (was 0.24f)
+        0x44830800,  # mtc1   v1,f1
+        0x8604003C,  # lh     a0,0x3c(s0)       ; boxX
+        0x46000D02,  # mul.s  f20,f1,f0         ; f20 = 0.18*scale (name advance, float branch)
+        0x00021840,  # sll    v1,v0,1
+        0x00621821,  # addu   v1,v1,v0          ; line*3
+        0x00031880,  # sll    v1,v1,2           ; line*12
+        0x24020060,  # addiu  v0,zero,96
+        0x0004100B,  # movn   v0,zero,a0        ; boxX!=0 -> +0
+        0x00621821,  # addu   v1,v1,v0
+        0xAFA30120,  # sw     v1,0x120(sp)      ; line*12 (+96 in narration)
+        0x0013143C,  # dsll32 v0,s3,16
+        0x0002143F,  # dsra32 v0,v0,16
+        0xAFA20110,  # sw     v0,0x110(sp)      ; sext16(scale) (unchanged)
+    ]
+    assert len(P32_NEW) == len(P32_ORIG)
+    p32_now = list(struct.unpack_from("<%dI" % len(P32_ORIG), data, P32_OFF))
+    if p32_now == P32_NEW:
+        print(f"  SKIP 0x{P32_OFF:06X}: name-insert boxX gate already installed")
+    elif p32_now == P32_ORIG:
+        struct.pack_into("<%dI" % len(P32_NEW), data, P32_OFF, *P32_NEW)
+        print(f"  OK   0x{P32_OFF:06X}: name prologue stores line*12 + (boxX==0 ? 96 : 0)")
+        patched_count += 1
+    else:
+        print(f"  WARN 0x{P32_OFF:06X}: name prologue not pristine -- Patch 32 SKIPPED")
+
     # ─── PATCH 25: REQUEST body PROPORTIONAL advance (mirror Patch 14) + Option-B fixed margin ─
     # GOAL (Issue B horizontal overflow): the tavern request DESCRIPTION body renders through
     #   the universal R1188 renderer's Block-2 (pen sp+0x1ce), reached via the align-mode
@@ -2018,8 +2075,9 @@ def main():
     # cascade) would otherwise ship a half-patched EXE with a green build.
     # EXPECTED_PATCHES is the count of a known-good full build (v179+ = 56:
     # the pre-withdrawal pill build counted 57; the withdrawn pill patch no
-    # longer increments). Diag env levers legitimately skip patches -> bypass.
-    EXPECTED_PATCHES = 56
+    # longer increments; v206 = 57 with Patch 32, the name-insert boxX gate).
+    # Diag env levers legitimately skip patches -> bypass.
+    EXPECTED_PATCHES = 57
     _diag = [v for v in ("DISABLE_PATCH6", "DISABLE_P27_P14", "CHARGEN_DIAG", "FIRE_DIAG")
              if os.environ.get(v)]
     if _diag:

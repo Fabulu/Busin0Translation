@@ -17,57 +17,57 @@
  {
   "resource": 1196,
   "msg_index": 59,
-  "english": "[FFE1]Girl A[FFE0]: They won't / [FFD2]give us a stone![FFFD][FFE7]Girl B[FFE0]: The guide / [FFD2]says they're at / the Guild![FFFD][FFE1]Girl A[FFE0]: You need / [FFD2]a permit![FFFD][FFE7]Girl B[FFE0]: Then ask![FFD2]"
+  "english": "[FFE1]Girl A[FFE0]: They won't / give us a stone![FFFD][FFE7]Girl B[FFE0]: The guide / says they're at / the Guild![FFFD][FFE1]Girl A[FFE0]: You need / a permit![FFFD][FFE7]Girl B[FFE0]: Then ask!"
  },
  {
   "resource": 1196,
   "msg_index": 60,
-  "english": "[FFE1]Girl A[FFE0]: Why blame me? / [FFD2]You just sit there![FFFD][FFE7]Girl B[FFE0]: I didn't say / [FFD2]that! But without / a magic stone..."
+  "english": "[FFE1]Girl A[FFE0]: Why blame me? / You just sit there![FFFD][FFE7]Girl B[FFE0]: I didn't say / that! But without / a magic stone..."
  },
  {
   "resource": 1196,
   "msg_index": 61,
-  "english": "[FFE1]Girl A[FFE0]: That's why / [FFD2]we're thinking![FFFD][FFE7]Girl B[FFE0]: I have / [FFD2]no ideas![FFFD][FFE1]Girl A[FFE0]: Ha! I do! / [FFD2]The Bar![FFFD][FFE7]Girl B[FFE0]: The guide?[FFD2]"
+  "english": "[FFE1]Girl A[FFE0]: That's why / we're thinking![FFFD][FFE7]Girl B[FFE0]: I have / no ideas![FFFD][FFE1]Girl A[FFE0]: Ha! I do! / The Bar![FFFD][FFE7]Girl B[FFE0]: The guide?"
  },
  {
   "resource": 1196,
   "msg_index": 62,
-  "english": "[FFE1]Girl A[FFE0]: No, a quest! / [FFD2]Q-U-E-S-T![FFFD][FFE7]Girl B[FFE0]: A quest!?[FFFD][FFE1]Girl A[FFE0]: Request / [FFD2]a magic stone![FFFD][FFE7]Girl B[FFE0]: Would that work?[FFD2]"
+  "english": "[FFE1]Girl A[FFE0]: No, a quest! / Q-U-E-S-T![FFFD][FFE7]Girl B[FFE0]: A quest!?[FFFD][FFE1]Girl A[FFE0]: Request / a magic stone![FFFD][FFE7]Girl B[FFE0]: Would that work?"
  },
  {
   "resource": 1196,
   "msg_index": 63,
-  "english": "[FFE1]Girl A[FFE0]: Trust me! / [FFD2]The Bar's full of / adventurers![FFFD][FFE7]Girl B[FFE0]: Let's try![FFD2][FFFD][FFE1]Girl A[FFE0]: To the Bar![FFD2][FFFD][FFE7]Girl B[FFE0]: Let's go!"
+  "english": "[FFE1]Girl A[FFE0]: Trust me! / The Bar's full of / adventurers![FFFD][FFE7]Girl B[FFE0]: Let's try![FFFD][FFE1]Girl A[FFE0]: To the Bar![FFFD][FFE7]Girl B[FFE0]: Let's go!"
  },
  {
   "resource": 1196,
   "msg_index": 66,
-  "english": "[FFE7]Girl A[FFE0]: It's so / [FFD2]pretty! I want to / keep it![FFFD][FFE1]Girl B[FFE0]: No! We'll have / [FFD2]plenty of stones![FFFD][FFE7]Girl A[FFE0]: Let me try![FFD2][FFFD][FFE1]Girl B[FFE0]: ..............."
+  "english": "[FFE7]Girl A[FFE0]: It's so / pretty! I want to / keep it![FFFD][FFE1]Girl B[FFE0]: No! We'll have / plenty of stones![FFFD][FFE7]Girl A[FFE0]: Let me try![FFFD][FFE1]Girl B[FFE0]: ..............."
  },
  {
   "resource": 1196,
   "msg_index": 67,
-  "english": "[FFE1]Girl B[FFE0]: Wait![FFFD][FFE7]Girl A[FFE0]: Huh?[FFFD][FFE1]Girl B[FFE0]: Not here! / [FFD2]This is special![FFFD][FFE7]Girl A[FFE0]: Special, huh!"
+  "english": "[FFE1]Girl B[FFE0]: Wait![FFFD][FFE7]Girl A[FFE0]: Huh?[FFFD][FFE1]Girl B[FFE0]: Not here! / This is special![FFFD][FFE7]Girl A[FFE0]: Special, huh!"
  },
  {
   "resource": 1196,
   "msg_index": 68,
-  "english": "[FFE1]Girl B[FFE0]: Let's go to / [FFD2]the Guild![FFFD][FFE7]Girl A[FFE0]: Again?[FFFD][FFE1]Girl B[FFE0]: Of course! / [FFD2]You'll go many times![FFFD][FFE7]Girl A[FFE0]: I guess![FFD2]"
+  "english": "[FFE1]Girl B[FFE0]: Let's go to / the Guild![FFFD][FFE7]Girl A[FFE0]: Again?[FFFD][FFE1]Girl B[FFE0]: Of course! / You'll go many times![FFFD][FFE7]Girl A[FFE0]: I guess!"
  },
  {
   "resource": 1196,
   "msg_index": 69,
-  "english": "[FFE1]Girl B[FFE0]: Presentation / [FFD2]matters! That place / is perfect![FFFD][FFE7]Girl A[FFE0]: Right! Let's go![FFD2]"
+  "english": "[FFE1]Girl B[FFE0]: Presentation / matters! That place / is perfect![FFFD][FFE7]Girl A[FFE0]: Right! Let's go!"
  },
  {
   "resource": 1196,
   "msg_index": 71,
-  "english": "If the threads[FFD3] / of fate were[FFD0] / spun where / wisdom ends..."
+  "english": "If the threads / of fate were / spun where / wisdom ends..."
  },
  {
   "resource": 1196,
   "msg_index": 72,
-  "english": "Then we are like[FFD2] / tightrope[FFD2] / walkers[FFD1] / blindfolded."
+  "english": "Then we are like / tightrope / walkers / blindfolded."
  },
  {
   "resource": 1196,
@@ -122,22 +122,22 @@
  {
   "resource": 1196,
   "msg_index": 221,
-  "english": "Long ago, the[FFD3] / [FFD0]King of Sepoy / said:"
+  "english": "Long ago, the / King of Sepoy / said:"
  },
  {
   "resource": 1196,
   "msg_index": 222,
-  "english": "While you still[FFD1] / [FFD0]live, look to[FFD2] / [FFD0]the future and / obtain"
+  "english": "While you still / live, look to / the future and / obtain"
  },
  {
   "resource": 1196,
   "msg_index": 223,
-  "english": "the holy sword. / [FFD0]Wise indeed, if / [FFD0]not for all the / soldiers"
+  "english": "the holy sword. / Wise indeed, if / not for all the / soldiers"
  },
  {
   "resource": 1196,
   "msg_index": 230,
-  "english": "This is Grand / [FFD0]Magician Wesbell.[FFD0] / [FFD0]No one here can"
+  "english": "This is Grand / Magician Wesbell. / No one here can"
  },
  {
   "resource": 1196,
@@ -172,7 +172,7 @@
  {
   "resource": 1196,
   "msg_index": 380,
-  "english": "you! Speak, what / is your wish?[FFFD]I wish for this / [FFD0]kingdom,"
+  "english": "you! Speak, what / is your wish?[FFFD]I wish for this / kingdom,"
  },
  {
   "resource": 1196,
@@ -187,7 +187,7 @@
  {
   "resource": 1196,
   "msg_index": 386,
-  "english": "Very well, / drink.[FFFD][FFD0]I / prophesy: your[FFD0] / [FFD0]path shall be // set."
+  "english": "Very well, / drink.[FFFD]I / prophesy: your / path shall be // set."
  },
  {
   "resource": 1196,
@@ -197,7 +197,7 @@
  {
   "resource": 1196,
   "msg_index": 411,
-  "english": "[FFE2]Orc[FFE0]: Do it / [FFD3]right![FFFD][FFE3]Girl A[FFE0]: We know![FFFD][FFE2]Orc[FFE0]: Don't forget![FFFD][FFE4]Girl B[FFE0]: We / [FFD3]won't![FFFD][FFE2]Orc[FFE0]: You better / [FFD3]not!"
+  "english": "[FFE2]Orc[FFE0]: Do it / right![FFFD][FFE3]Girl A[FFE0]: We know![FFFD][FFE2]Orc[FFE0]: Don't forget![FFFD][FFE4]Girl B[FFE0]: We / won't![FFFD][FFE2]Orc[FFE0]: You better / not!"
  },
  {
   "resource": 1196,
@@ -207,7 +207,7 @@
  {
   "resource": 1196,
   "msg_index": 439,
-  "english": "It's a patient![FFD4] / [FFD0]Please open the / gate!"
+  "english": "It's a patient! / Please open the / gate!"
  },
  {
   "resource": 1196,
@@ -217,7 +217,7 @@
  {
   "resource": 1196,
   "msg_index": 445,
-  "english": "wounded exceeded / [FFD0]ten."
+  "english": "wounded exceeded / ten."
  },
  {
   "resource": 1196,
@@ -232,7 +232,7 @@
  {
   "resource": 1196,
   "msg_index": 502,
-  "english": "So in exchange[FFD5] / for my help, you / want them sent / to Sasan?"
+  "english": "So in exchange / for my help, you / want them sent / to Sasan?"
  },
  {
   "resource": 1196,
@@ -247,12 +247,12 @@
  {
   "resource": 1196,
   "msg_index": 538,
-  "english": "off into town.[FFD3] / [FFD0]I heard you / were attacked by / rogue"
+  "english": "off into town. / I heard you / were attacked by / rogue"
  },
  {
   "resource": 1196,
   "msg_index": 554,
-  "english": "Perhaps Her[FFD3] / Highness is still / alive."
+  "english": "Perhaps Her / Highness is still / alive."
  },
  {
   "resource": 1196,
@@ -262,7 +262,7 @@
  {
   "resource": 1196,
   "msg_index": 574,
-  "english": "the fog. Hey,[FFD3] / [FFD0]come on. Tell[FFD1] / [FFD0]me. It doesn't / matter"
+  "english": "the fog. Hey, / come on. Tell / me. It doesn't / matter"
  },
  {
   "resource": 1196,
@@ -272,7 +272,7 @@
  {
   "resource": 1196,
   "msg_index": 600,
-  "english": "What are you[FFD5] / [FFD0]doing out here?"
+  "english": "What are you / doing out here?"
  },
  {
   "resource": 1196,
@@ -302,7 +302,7 @@
  {
   "resource": 1196,
   "msg_index": 645,
-  "english": "[FFE2]Girl A[FFE0]: \"Emilia, / [FFD3]let's go.\"[FFFD][FFE4]Girl B[FFE0]: \"Right.[FFD8] / [FFD3]They may have / noticed by now.\"[FFFD][FFE2]Girl A[FFE0]: \"If we're caught[FFD0] / [FFD3]again, we'll be / stuck inside!\""
+  "english": "[FFE2]Girl A[FFE0]: \"Emilia, / let's go.\"[FFFD][FFE4]Girl B[FFE0]: \"Right. / They may have / noticed by now.\"[FFFD][FFE2]Girl A[FFE0]: \"If we're caught / again, we'll be / stuck inside!\""
  },
  {
   "resource": 1196,
@@ -342,17 +342,17 @@
  {
   "resource": 1196,
   "msg_index": 710,
-  "english": "[FFE2]Girl A[FFE0]: \"No good, / not at all!\"[FFFD][FFD0][FFE4]Girl B[FFE0]: \"What is[FFD4] / [FFD4]this? The energy is / [FFD4]too dispersed!\""
+  "english": "[FFE2]Girl A[FFE0]: \"No good, / not at all!\"[FFFD][FFE4]Girl B[FFE0]: \"What is / this? The energy is / too dispersed!\""
  },
  {
   "resource": 1196,
   "msg_index": 711,
-  "english": "[FFE2]Girl A[FFE0]: \"Did you / [FFD4]fight like I told you?\"[FFD0][FFFD][FFE3]Orc A[FFE0][FB04]: \"W-We did!\"[FB02][FFFD][FFE5]Orc B[FFE0][FB04]: \"We fought / [FFD4]32 turns!\""
+  "english": "[FFE2]Girl A[FFE0]: \"Did you / fight like I told you?\"[FFFD][FFE3]Orc A[FFE0][FB04]: \"W-We did!\"[FB02][FFFD][FFE5]Orc B[FFE0][FB04]: \"We fought / 32 turns!\""
  },
  {
   "resource": 1196,
   "msg_index": 712,
-  "english": "[FFE2]Girl A[FFE0]: \"So ordinary[FFD4] / [FFD4]energy won't work!\"[FFFD][FFD0][FFE4]Girl B[FFE0]: \"We need[FFD3] / [FFD4]much stronger power.\""
+  "english": "[FFE2]Girl A[FFE0]: \"So ordinary / energy won't work!\"[FFFD][FFE4]Girl B[FFE0]: \"We need / much stronger power.\""
  },
  {
   "resource": 1196,
@@ -372,22 +372,22 @@
  {
   "resource": 1196,
   "msg_index": 716,
-  "english": "Why did only / [FFD0]his bracelet[FFD0] / [FFD0]activate the / imprint?"
+  "english": "Why did only / his bracelet / activate the / imprint?"
  },
  {
   "resource": 1196,
   "msg_index": 717,
-  "english": "Why did only her / [FFD0]bracelet activate[FFD0] / [FFD0]the imprint?"
+  "english": "Why did only her / bracelet activate / the imprint?"
  },
  {
   "resource": 1196,
   "msg_index": 721,
-  "english": "Either way, now[FFD3] / he will enter / the great flow."
+  "english": "Either way, now / he will enter / the great flow."
  },
  {
   "resource": 1196,
   "msg_index": 725,
-  "english": "Either way, now[FFD4] / she will enter / the great flow."
+  "english": "Either way, now / she will enter / the great flow."
  },
  {
   "resource": 1196,
@@ -402,47 +402,47 @@
  {
   "resource": 1196,
   "msg_index": 749,
-  "english": "Iris is back![FFD3][FFD0]"
+  "english": "Iris is back!"
  },
  {
   "resource": 1196,
   "msg_index": 750,
-  "english": "Sorry I'm late.[FFD2] / [FFD0]It took a while / [FFD0]to slip past"
+  "english": "Sorry I'm late. / It took a while / to slip past"
  },
  {
   "resource": 1196,
   "msg_index": 753,
-  "english": "[FFE0][FFD6]Listen! / [FFD0]His[FFD2] / [FFD0]Id Bracelet[FFD0] // [FFD0]activated!"
+  "english": "[FFE0]Listen! / His / Id Bracelet // activated!"
  },
  {
   "resource": 1196,
   "msg_index": 754,
-  "english": "[FFE0][FFD5]Yes, / [FFD0]just as we / predicted!"
+  "english": "[FFE0]Yes, / just as we / predicted!"
  },
  {
   "resource": 1196,
   "msg_index": 755,
-  "english": "[FFE0][FFD6]Listen! Her[FFD1] / [FFD0]Id Bracelet[FFD0] / [FFD0]activated!"
+  "english": "[FFE0]Listen! Her / Id Bracelet / activated!"
  },
  {
   "resource": 1196,
   "msg_index": 756,
-  "english": "[FFE0][FFD5]Yes, just[FFD0] / [FFD0]as we predicted!"
+  "english": "[FFE0]Yes, just / as we predicted!"
  },
  {
   "resource": 1196,
   "msg_index": 760,
-  "english": "[FFE0][FFD7]We knew it[FFD0] / [FFD0]could store / [FFD0]memories."
+  "english": "[FFE0]We knew it / could store / memories."
  },
  {
   "resource": 1196,
   "msg_index": 761,
-  "english": "[FFE0][FFD9]Of / course -- we[FFD2] / [FFD0]designed it that / way."
+  "english": "[FFE0]Of / course -- we / designed it that / way."
  },
  {
   "resource": 1196,
   "msg_index": 762,
-  "english": "[FFE0][FFD9]But we / never knew it / [FFD0]caught dying / moments."
+  "english": "[FFE0]But we / never knew it / caught dying / moments."
  },
  {
   "resource": 1196,
@@ -457,7 +457,7 @@
  {
   "resource": 1196,
   "msg_index": 783,
-  "english": "Bad news![FFD5] / [FFD0]Knights are / coming!"
+  "english": "Bad news! / Knights are / coming!"
  },
  {
   "resource": 1196,
@@ -497,7 +497,7 @@
  {
   "resource": 1196,
   "msg_index": 847,
-  "english": "an hour, you / found a terraced / house with a / [FFE3]sign[FFD2][FFD0][FFE0]:"
+  "english": "an hour, you / found a terraced / house with a / [FFE3]sign[FFE0]:"
  },
  {
   "resource": 1196,
@@ -562,42 +562,42 @@
  {
   "resource": 1197,
   "msg_index": 33,
-  "english": "Geez,[FFD7][FFD7] / such a little[FFD0] / [FFD0]kid but more[FFD6] / [FFD0]together than // me! Hahaha!"
+  "english": "Geez, / such a little / kid but more / together than // me! Hahaha!"
  },
  {
   "resource": 1197,
   "msg_index": 36,
-  "english": "Reuse[FFD6][FFD7] / it, they say,[FFD3] / [FFD0]but this often[FFD3] / [FFD0]wears it right // out!"
+  "english": "Reuse / it, they say, / but this often / wears it right // out!"
  },
  {
   "resource": 1197,
   "msg_index": 37,
-  "english": "By the[FFD6][FFD6] / time it is done,[FFD5] / [FFD0]it will be all[FFD5] / [FFD0]tattered!"
+  "english": "By the / time it is done, / it will be all / tattered!"
  },
  {
   "resource": 1197,
   "msg_index": 38,
-  "english": "Might[FFD7][FFD7] / not even look[FFD3] / [FFD0]like an Entry[FFD1] / [FFD0]Sheet anymore! // Ahaha!"
+  "english": "Might / not even look / like an Entry / Sheet anymore! // Ahaha!"
  },
  {
   "resource": 1197,
   "msg_index": 41,
-  "english": "For[FFD1] / [FFD2]some requests I[FFD0] / [FFD2]have extra / info."
+  "english": "For / some requests I / have extra / info."
  },
  {
   "resource": 1197,
   "msg_index": 42,
-  "english": "For[FFD0] / [FFD2]this one, even / [FFD2]the shop doesn't / know who made // it."
+  "english": "For / this one, even / the shop doesn't / know who made // it."
  },
  {
   "resource": 1197,
   "msg_index": 43,
-  "english": "Just[FFD0] / [FFD2]go to the 5th / [FFD2]floor and check / what's written // there."
+  "english": "Just / go to the 5th / floor and check / what's written // there."
  },
  {
   "resource": 1197,
   "msg_index": 52,
-  "english": "You went[FFD0] / [FFD2]there, so this / [FFD2]is a failure on / your record."
+  "english": "You went / there, so this / is a failure on / your record."
  },
  {
   "resource": 1197,
@@ -607,72 +607,72 @@
  {
   "resource": 1197,
   "msg_index": 58,
-  "english": "You went[FFD2] / [FFD2]there, so I'll[FFD0] / [FFD2]mark it as / completed."
+  "english": "You went / there, so I'll / mark it as / completed."
  },
  {
   "resource": 1197,
   "msg_index": 60,
-  "english": "Can[FFD6] / [FFD2]you produce the / Kreta stone?"
+  "english": "Can / you produce the / Kreta stone?"
  },
  {
   "resource": 1197,
   "msg_index": 62,
-  "english": "Can[FFD1] / [FFD2]you show me the / Kreta stone / right now?"
+  "english": "Can / you show me the / Kreta stone / right now?"
  },
  {
   "resource": 1197,
   "msg_index": 65,
-  "english": "Too[FFD2] / [FFD2]bad. Come back[FFD1] / [FFD2]later."
+  "english": "Too / bad. Come back / later."
  },
  {
   "resource": 1197,
   "msg_index": 66,
-  "english": "But as[FFD0] / [FFD2]I said, hurry."
+  "english": "But as / I said, hurry."
  },
  {
   "resource": 1197,
   "msg_index": 67,
-  "english": "This[FFD5] / [FFD2]request has no / [FFD2]specific / deadline."
+  "english": "This / request has no / specific / deadline."
  },
  {
   "resource": 1197,
   "msg_index": 68,
-  "english": "The[FFD0] / [FFD2]client is that elf / girl over there."
+  "english": "The / client is that elf / girl over there."
  },
  {
   "resource": 1197,
   "msg_index": 71,
-  "english": "They're in a[FFD0] / [FFD2]hurry and can't[FFD0] / [FFD2]wait."
+  "english": "They're in a / hurry and can't / wait."
  },
  {
   "resource": 1197,
   "msg_index": 72,
-  "english": "Get[FFD0] / [FFD2]the Kreta stone[FFD2] / [FFD2]first before / accepting."
+  "english": "Get / the Kreta stone / first before / accepting."
  },
  {
   "resource": 1197,
   "msg_index": 73,
-  "english": "Someone already / [FFD2]went looking for / [FFD2]it."
+  "english": "Someone already / went looking for / it."
  },
  {
   "resource": 1197,
   "msg_index": 74,
-  "english": "If you[FFD1] / [FFD2]wait too long[FFD2] / [FFD2]he'll beat you / to it. Hurry."
+  "english": "If you / wait too long / he'll beat you / to it. Hurry."
  },
  {
   "resource": 1197,
   "msg_index": 75,
-  "english": "Hey,[FFD0] / [FFD2]just hand it / over already!"
+  "english": "Hey, / just hand it / over already!"
  },
  {
   "resource": 1197,
   "msg_index": 77,
-  "english": "This / [FFD2]is a Kreta[FFD0] / [FFD2]stone. Hold on, / I'll bring the // client."
+  "english": "This / is a Kreta / stone. Hold on, / I'll bring the // client."
  },
  {
   "resource": 1197,
   "msg_index": 80,
-  "english": "Good[FFD1] / [FFD2]news! This one[FFD1] / [FFD2]delivered the / Kreta Stone."
+  "english": "Good / news! This one / delivered the / Kreta Stone."
  },
  {
   "resource": 1197,
@@ -687,27 +687,27 @@
  {
   "resource": 1197,
   "msg_index": 101,
-  "english": "You[FFD1] / [FFD2]want to try that / request?"
+  "english": "You / want to try that / request?"
  },
  {
   "resource": 1197,
   "msg_index": 102,
-  "english": "If you[FFD0] / [FFD2]lose, you get[FFD1] / [FFD2]teleported back / by magic."
+  "english": "If you / lose, you get / teleported back / by magic."
  },
  {
   "resource": 1197,
   "msg_index": 103,
-  "english": "Everyone gives[FFD2][FFD2] / [FFD2][FFD2]up right away."
+  "english": "Everyone gives / up right away."
  },
  {
   "resource": 1197,
   "msg_index": 104,
-  "english": "If you[FFD3] / [FFD2]have the skill,[FFD1] / [FFD2]it's worth it. / Good rewards."
+  "english": "If you / have the skill, / it's worth it. / Good rewards."
  },
  {
   "resource": 1197,
   "msg_index": 105,
-  "english": "Here,[FFD0] / [FFD2]the challenge[FFD2] / [FFD2]letter. Read it / first."
+  "english": "Here, / the challenge / letter. Read it / first."
  },
  {
   "resource": 1197,
@@ -717,32 +717,32 @@
  {
   "resource": 1197,
   "msg_index": 107,
-  "english": "Taking[FFD2] / [FFD2]that request?!"
+  "english": "Taking / that request?!"
  },
  {
   "resource": 1197,
   "msg_index": 108,
-  "english": "That[FFD1] / [FFD2]bald geezer is / [FFD2]demanding. / Nobody wants his // jobs."
+  "english": "That / bald geezer is / demanding. / Nobody wants his // jobs."
  },
  {
   "resource": 1197,
   "msg_index": 109,
-  "english": "He / [FFD2]might grumble / [FFD2]but bear with / it."
+  "english": "He / might grumble / but bear with / it."
  },
  {
   "resource": 1197,
   "msg_index": 110,
-  "english": "Hurry[FFD0] / [FFD2]before he leaves[FFD2] / [FFD2]in a bad mood."
+  "english": "Hurry / before he leaves / in a bad mood."
  },
  {
   "resource": 1197,
   "msg_index": 111,
-  "english": "Leader / [FFD2]must come alive,[FFD0] / [FFD2]keep that in / mind."
+  "english": "Leader / must come alive, / keep that in / mind."
  },
  {
   "resource": 1197,
   "msg_index": 112,
-  "english": "Angus[FFD2] / [FFD2]Barkeep: Angus![FFD0] / [FFD2]Someone's here!"
+  "english": "Angus / Barkeep: Angus! / Someone's here!"
  },
  {
   "resource": 1197,
@@ -762,7 +762,7 @@
  {
   "resource": 1197,
   "msg_index": 137,
-  "english": "You're[FFD8] / [FFD0]back! Is Pippi[FFD3] / [FFD0]okay?"
+  "english": "You're / back! Is Pippi / okay?"
  },
  {
   "resource": 1197,
@@ -777,7 +777,7 @@
  {
   "resource": 1197,
   "msg_index": 165,
-  "english": "I said 2[FFD3] / days, you!"
+  "english": "I said 2 / days, you!"
  },
  {
   "resource": 1197,
@@ -787,22 +787,22 @@
  {
   "resource": 1197,
   "msg_index": 176,
-  "english": "That's[FFD3] / [FFD2]Guillaume's from[FFD0] / [FFD2]the Adventurer's / Guild, right?"
+  "english": "That's / Guillaume's from / the Adventurer's / Guild, right?"
  },
  {
   "resource": 1197,
   "msg_index": 177,
-  "english": "The[FFD1] / [FFD2]Guild is a major[FFD1] / [FFD2]power in Duhan!"
+  "english": "The / Guild is a major / power in Duhan!"
  },
  {
   "resource": 1197,
   "msg_index": 178,
-  "english": "Reject[FFD2] / [FFD2]that and you[FFD1] / [FFD2]can't show your / face here // again!"
+  "english": "Reject / that and you / can't show your / face here // again!"
  },
  {
   "resource": 1197,
   "msg_index": 179,
-  "english": "Take[FFD0] / [FFD2]my advice. Do / the job right."
+  "english": "Take / my advice. Do / the job right."
  },
  {
   "resource": 1197,
@@ -837,7 +837,7 @@
  {
   "resource": 1197,
   "msg_index": 231,
-  "english": "Raiman! / Barkeep: Hey, / [FFD2]your requester / is here!"
+  "english": "Raiman! / Barkeep: Hey, / your requester / is here!"
  },
  {
   "resource": 1197,
@@ -852,52 +852,52 @@
  {
   "resource": 1197,
   "msg_index": 246,
-  "english": "Did you[FFD5] / [FFD2]fill in the / form?"
+  "english": "Did you / fill in the / form?"
  },
  {
   "resource": 1197,
   "msg_index": 248,
-  "english": "It's[FFD0] / [FFD2]blank! Fill it[FFD3] / [FFD2]in first!"
+  "english": "It's / blank! Fill it / in first!"
  },
  {
   "resource": 1197,
   "msg_index": 249,
-  "english": "Come[FFD3] / [FFD2]back when it's / done."
+  "english": "Come / back when it's / done."
  },
  {
   "resource": 1197,
   "msg_index": 251,
-  "english": "Raiman! / Barkeep: Did[FFD5] / [FFD2]you fill the form?"
+  "english": "Raiman! / Barkeep: Did / you fill the form?"
  },
  {
   "resource": 1197,
   "msg_index": 253,
-  "english": "I'll[FFD1] / [FFD2]process it."
+  "english": "I'll / process it."
  },
  {
   "resource": 1197,
   "msg_index": 254,
-  "english": "I'll[FFD2] / [FFD2]call Raiman for / details."
+  "english": "I'll / call Raiman for / details."
  },
  {
   "resource": 1197,
   "msg_index": 274,
-  "english": "No can / [FFD2]do. Client[FFD0] / [FFD2]already / cancelled."
+  "english": "No can / do. Client / already / cancelled."
  },
  {
   "resource": 1197,
   "msg_index": 275,
-  "english": "They[FFD0] / [FFD2]want to settle / that land ASAP."
+  "english": "They / want to settle / that land ASAP."
  },
  {
   "resource": 1197,
   "msg_index": 276,
-  "english": "It's[FFD0] / [FFD2]free, so stop[FFD0] / [FFD2]being picky."
+  "english": "It's / free, so stop / being picky."
  },
  {
   "resource": 1197,
   "msg_index": 277,
-  "english": "Interested[FFD6] / [FFD0]in the contest?"
+  "english": "Interested / in the contest?"
  },
  {
   "resource": 1197,
@@ -907,47 +907,47 @@
  {
   "resource": 1197,
   "msg_index": 292,
-  "english": "Oh, the[FFD3] / [FFD0]contest / participant!"
+  "english": "Oh, the / contest / participant!"
  },
  {
   "resource": 1197,
   "msg_index": 295,
-  "english": "Your ranking[FFD2] / [FFD0]is..."
+  "english": "Your ranking / is..."
  },
  {
   "resource": 1197,
   "msg_index": 296,
-  "english": "16th! Hmm,[FFD4] / [FFD0]disappointing."
+  "english": "16th! Hmm, / disappointing."
  },
  {
   "resource": 1197,
   "msg_index": 297,
-  "english": "12th! Could've[FFD4][FFD6] / [FFD0][FFD0]done better!"
+  "english": "12th! Could've / done better!"
  },
  {
   "resource": 1197,
   "msg_index": 298,
-  "english": "9th! Not bad[FFD5] / [FFD0]for a first / timer!"
+  "english": "9th! Not bad / for a first / timer!"
  },
  {
   "resource": 1197,
   "msg_index": 299,
-  "english": "5th! Wow, not[FFD5] / [FFD0]bad at all!"
+  "english": "5th! Wow, not / bad at all!"
  },
  {
   "resource": 1197,
   "msg_index": 300,
-  "english": "3rd! So close![FFD4] / [FFD0]Should've[FFD3] / [FFD0]practiced more!"
+  "english": "3rd! So close! / Should've / practiced more!"
  },
  {
   "resource": 1197,
   "msg_index": 301,
-  "english": "Too bad. A first[FFD4] / [FFD0]timer winning[FFD0] / [FFD0]would've been / something."
+  "english": "Too bad. A first / timer winning / would've been / something."
  },
  {
   "resource": 1197,
   "msg_index": 302,
-  "english": "Can't be helped.[FFD1] / [FFD0]Here, a contest[FFD0] / [FFD0]participation / prize."
+  "english": "Can't be helped. / Here, a contest / participation / prize."
  },
  {
   "resource": 1197,
@@ -957,7 +957,7 @@
  {
   "resource": 1197,
   "msg_index": 304,
-  "english": "Keep playing[FFD1] / [FFD0]and having fun!"
+  "english": "Keep playing / and having fun!"
  },
  {
   "resource": 1197,
@@ -967,12 +967,12 @@
  {
   "resource": 1197,
   "msg_index": 317,
-  "english": "Meeting place[FFD3] / [FFD2]is written here.[FFD4] / [FFD2]Go ask."
+  "english": "Meeting place / is written here. / Go ask."
  },
  {
   "resource": 1197,
   "msg_index": 318,
-  "english": "There's a time[FFD2] / [FFD2]limit, be / careful."
+  "english": "There's a time / limit, be / careful."
  },
  {
   "resource": 1197,
@@ -982,7 +982,7 @@
  {
   "resource": 1197,
   "msg_index": 324,
-  "english": "No,[FFD2] / [FFD2]they want your[FFD1] / [FFD2]request."
+  "english": "No, / they want your / request."
  },
  {
   "resource": 1197,
@@ -1002,12 +1002,12 @@
  {
   "resource": 1197,
   "msg_index": 459,
-  "english": "We're[FFD1] / [FFD2]in the Merchant[FFD2] / [FFD2]Guild too. Been / worried."
+  "english": "We're / in the Merchant / Guild too. Been / worried."
  },
  {
   "resource": 1197,
   "msg_index": 460,
-  "english": "That[FFD2] / [FFD2]client is[FFD0] / [FFD2]drinking here / right now."
+  "english": "That / client is / drinking here / right now."
  },
  {
   "resource": 1197,
@@ -1017,22 +1017,22 @@
  {
   "resource": 1197,
   "msg_index": 468,
-  "english": "Now[FFD2] / [FFD2]now you two![FFD3] / [FFD2]It's a rare / outing, enjoy // it!"
+  "english": "Now / now you two! / It's a rare / outing, enjoy // it!"
  },
  {
   "resource": 1197,
   "msg_index": 470,
-  "english": "Here's[FFD0] / [FFD2]the[FFD2] / [FFD2]Guild-approved / guide manual."
+  "english": "Here's / the / Guild-approved / guide manual."
  },
  {
   "resource": 1197,
   "msg_index": 471,
-  "english": "Spots[FFD1] / [FFD2]up to the 5th[FFD1] / [FFD2]floor."
+  "english": "Spots / up to the 5th / floor."
  },
  {
   "resource": 1197,
   "msg_index": 472,
-  "english": "Follow[FFD0] / [FFD2]the directions[FFD1] / [FFD2]carefully."
+  "english": "Follow / the directions / carefully."
  },
  {
   "resource": 1197,
@@ -1042,7 +1042,7 @@
  {
   "resource": 1197,
   "msg_index": 482,
-  "english": "Hey[FFD1] / [FFD1]Master, my / order!"
+  "english": "Hey / Master, my / order!"
  },
  {
   "resource": 1197,
@@ -1057,92 +1057,92 @@
  {
   "resource": 1197,
   "msg_index": 510,
-  "english": "How[FFD5] / [FFD2]did that odd[FFD1] / [FFD2]fellow reach / Duhan under // martial law?"
+  "english": "How / did that odd / fellow reach / Duhan under // martial law?"
  },
  {
   "resource": 1197,
   "msg_index": 511,
-  "english": "Wants[FFD2] / [FFD2]a Gin-made / sword?"
+  "english": "Wants / a Gin-made / sword?"
  },
  {
   "resource": 1197,
   "msg_index": 512,
-  "english": "Gin's[FFD1] / [FFD2]in the back / garden."
+  "english": "Gin's / in the back / garden."
  },
  {
   "resource": 1197,
   "msg_index": 513,
-  "english": "Can't[FFD1] / [FFD2]use the staff[FFD1] / [FFD2]entrance. Go / around back."
+  "english": "Can't / use the staff / entrance. Go / around back."
  },
  {
   "resource": 1197,
   "msg_index": 514,
-  "english": "Rough[FFD1] / [FFD2]area, but you[FFD2] / [FFD2]can cross the / Faubourg // district."
+  "english": "Rough / area, but you / can cross the / Faubourg // district."
  },
  {
   "resource": 1197,
   "msg_index": 517,
-  "english": "Client[FFD3] / [FFD2]doesn't want[FFD3] / [FFD2]samurai help."
+  "english": "Client / doesn't want / samurai help."
  },
  {
   "resource": 1197,
   "msg_index": 518,
-  "english": "Samurai leader[FFD1] / [FFD2]is a problem.[FFD2] / [FFD2]Try other jobs."
+  "english": "Samurai leader / is a problem. / Try other jobs."
  },
  {
   "resource": 1197,
   "msg_index": 529,
-  "english": "How'd[FFD5] / [FFD2]he get into[FFD1] / [FFD2]Duhan during / martial law?"
+  "english": "How'd / he get into / Duhan during / martial law?"
  },
  {
   "resource": 1197,
   "msg_index": 530,
-  "english": "Wants[FFD2] / [FFD2]a Gin-made / sword?"
+  "english": "Wants / a Gin-made / sword?"
  },
  {
   "resource": 1197,
   "msg_index": 531,
-  "english": "Gin's[FFD1] / [FFD2]in the back / garden."
+  "english": "Gin's / in the back / garden."
  },
  {
   "resource": 1197,
   "msg_index": 532,
-  "english": "Can't[FFD1] / [FFD2]use staff[FFD1] / [FFD2]entrance. Go / around back."
+  "english": "Can't / use staff / entrance. Go / around back."
  },
  {
   "resource": 1197,
   "msg_index": 533,
-  "english": "Rough[FFD1] / [FFD2]area but go via[FFD2] / [FFD2]Faubourg / district."
+  "english": "Rough / area but go via / Faubourg / district."
  },
  {
   "resource": 1197,
   "msg_index": 549,
-  "english": "Client[FFD3] / [FFD2]doesn't want[FFD3] / [FFD2]samurai help."
+  "english": "Client / doesn't want / samurai help."
  },
  {
   "resource": 1197,
   "msg_index": 550,
-  "english": "Samurai leader[FFD1] / [FFD2]is a problem.[FFD2] / [FFD2]Try other jobs."
+  "english": "Samurai leader / is a problem. / Try other jobs."
  },
  {
   "resource": 1197,
   "msg_index": 596,
-  "english": "Wait![FFD2] / [FFD2]Your tab!"
+  "english": "Wait! / Your tab!"
  },
  {
   "resource": 1197,
   "msg_index": 599,
-  "english": "Hey,[FFD2] / [FFD2]you took the[FFD1] / [FFD2]request, right? / You'll see him // again?"
+  "english": "Hey, / you took the / request, right? / You'll see him // again?"
  },
  {
   "resource": 1197,
   "msg_index": 600,
-  "english": "Tell[FFD3] / [FFD2]him to pay his[FFD2] / [FFD2]damn tab next / time!"
+  "english": "Tell / him to pay his / damn tab next / time!"
  },
  {
   "resource": 1197,
   "msg_index": 601,
-  "english": "How[FFD1] / [FFD2]long will he[FFD0] / [FFD2]keep racking it / up? Flee and no // mercy!"
+  "english": "How / long will he / keep racking it / up? Flee and no // mercy!"
  },
  {
   "resource": 1197,
@@ -1152,7 +1152,7 @@
  {
   "resource": 1197,
   "msg_index": 606,
-  "english": "You[FFD2] / [FFD0]the new helper?"
+  "english": "You / the new helper?"
  },
  {
   "resource": 1197,
@@ -1172,7 +1172,7 @@
  {
   "resource": 1197,
   "msg_index": 647,
-  "english": "Your[FFD1] / [FFD2]ale, old man."
+  "english": "Your / ale, old man."
  },
  {
   "resource": 1197,
@@ -1187,7 +1187,7 @@
  {
   "resource": 1197,
   "msg_index": 703,
-  "english": "Here,[FFD2] / [FFD2]grandpa. Bread / and stew."
+  "english": "Here, / grandpa. Bread / and stew."
  },
  {
   "resource": 1197,
@@ -1212,7 +1212,7 @@
  {
   "resource": 1197,
   "msg_index": 824,
-  "english": "So YOU'RE the[FFD3] / [FFD0]oddball who took / my request?"
+  "english": "So YOU'RE the / oddball who took / my request?"
  },
  {
   "resource": 1197,
@@ -1227,12 +1227,12 @@
  {
   "resource": 1197,
   "msg_index": 848,
-  "english": "Anyone will do![FFD4] / [FFD0]Just one of you / possessed is / plenty~"
+  "english": "Anyone will do! / Just one of you / possessed is / plenty~"
  },
  {
   "resource": 1197,
   "msg_index": 851,
-  "english": "Looks like you[FFD3] / [FFD0]went and got / yourself possessed / by a death // spirit!"
+  "english": "Looks like you / went and got / yourself possessed / by a death // spirit!"
  },
  {
   "resource": 1197,
@@ -1242,12 +1242,12 @@
  {
   "resource": 1197,
   "msg_index": 856,
-  "english": "I did it! I[FFD3] / [FFD0]finally saw / one!"
+  "english": "I did it! I / finally saw / one!"
  },
  {
   "resource": 1197,
   "msg_index": 862,
-  "english": "even a weakling[FFD6] / [FFD0]like me could[FFD3] / [FFD0]do you serious / damage... // right!?"
+  "english": "even a weakling / like me could / do you serious / damage... // right!?"
  },
  {
   "resource": 1197,
@@ -1272,7 +1272,7 @@
  {
   "resource": 1197,
   "msg_index": 882,
-  "english": "I did it! I[FFD3] / [FFD0]finally saw / one!"
+  "english": "I did it! I / finally saw / one!"
  },
  {
   "resource": 1197,
@@ -1282,7 +1282,7 @@
  {
   "resource": 1197,
   "msg_index": 900,
-  "english": "I'll pay any[FFD4] / sum. Please look[FFD1] / into what made / Simzon end / up like that."
+  "english": "I'll pay any / sum. Please look / into what made / Simzon end / up like that."
  },
  {
   "resource": 1197,
@@ -1312,12 +1312,12 @@
  {
   "resource": 1197,
   "msg_index": 943,
-  "english": "[FFE0]Stop[FFD2] / [FFD2]Master! You'll[FFD0] / [FFD2]scare them with[FFD6] / [FFD2]that look!"
+  "english": "[FFE0]Stop / Master! You'll / scare them with / that look!"
  },
  {
   "resource": 1197,
   "msg_index": 948,
-  "english": "[FFE0]Nobody wants an[FFD5] / [FFD2]armed master[FFD7] / [FFD2]coming at them!"
+  "english": "[FFE0]Nobody wants an / armed master / coming at them!"
  },
  {
   "resource": 1197,
@@ -1382,32 +1382,32 @@
  {
   "resource": 1198,
   "msg_index": 5,
-  "english": "The party of / [FFE2]adventurer[FFE0] / [FFD3]Regina Eranshika[FFD1] / [FFD3]is missing!"
+  "english": "The party of / [FFE2]adventurer[FFE0] / Regina Eranshika / is missing!"
  },
  {
   "resource": 1198,
   "msg_index": 6,
-  "english": "[FFE2]Last seen[FFE0] / on the 2nd floor[FFD2] / [FFD3]of the labyrinth!"
+  "english": "[FFE2]Last seen[FFE0] / on the 2nd floor / of the labyrinth!"
  },
  {
   "resource": 1198,
   "msg_index": 7,
-  "english": "[FFE2]Will anyone[FFE0] / investigate[FFD4] / [FFD3]their whereabouts?"
+  "english": "[FFE2]Will anyone[FFE0] / investigate / their whereabouts?"
  },
  {
   "resource": 1198,
   "msg_index": 9,
-  "english": "[FFE3]Adv. A[FFE0]: We have / [FFD4]our own / [FFD4]wounded![FFFD][FFE4]Adv. B[FFE0]: I heard / [FFD4]more."
+  "english": "[FFE3]Adv. A[FFE0]: We have / our own / wounded![FFFD][FFE4]Adv. B[FFE0]: I heard / more."
  },
  {
   "resource": 1198,
   "msg_index": 10,
-  "english": "[FFE5]Adv. C[FFE0]: They got / [FFD4]the cushy jobs![FFFD][FFE3]Adv. A[FFE0]: Hmph! / [FFD4]Unfair!"
+  "english": "[FFE5]Adv. C[FFE0]: They got / the cushy jobs![FFFD][FFE3]Adv. A[FFE0]: Hmph! / Unfair!"
  },
  {
   "resource": 1198,
   "msg_index": 14,
-  "english": "[FFE2]Commander[FFE0]: Ugh...[FFFD][FFD4]This is / [FFD4]Webster's mess![FFFD][FFE3]Knight[FFE0]: Sir, shh![FFFD][FFE2]Commander[FFE0]: ...Hmph."
+  "english": "[FFE2]Commander[FFE0]: Ugh...[FFFD]This is / Webster's mess![FFFD][FFE3]Knight[FFE0]: Sir, shh![FFFD][FFE2]Commander[FFE0]: ...Hmph."
  },
  {
   "resource": 1198,
@@ -1422,7 +1422,7 @@
  {
   "resource": 1198,
   "msg_index": 24,
-  "english": "Oh, uhm...![FFD7] / May I also go to / the labyrinth?"
+  "english": "Oh, uhm...! / May I also go to / the labyrinth?"
  },
  {
   "resource": 1198,
@@ -1437,7 +1437,7 @@
  {
   "resource": 1198,
   "msg_index": 51,
-  "english": "Where the hell did[FFD1] / that scallywag[FFD2] / run off to!?"
+  "english": "Where the hell did / that scallywag / run off to!?"
  },
  {
   "resource": 1198,
@@ -1492,17 +1492,17 @@
  {
   "resource": 1199,
   "msg_index": 7,
-  "english": "Thanks to you,[FFD3] we / now understand the / Automata's structure."
+  "english": "Thanks to you, we / now understand the / Automata's structure."
  },
  {
   "resource": 1199,
   "msg_index": 34,
-  "english": "Ortrud had already[FFD2] / taken some and headed / for the labyrinth."
+  "english": "Ortrud had already / taken some and headed / for the labyrinth."
  },
  {
   "resource": 1199,
   "msg_index": 35,
-  "english": "He too intends to[FFD1] / fulfill his own / promise, it seems."
+  "english": "He too intends to / fulfill his own / promise, it seems."
  },
  {
   "resource": 1199,
@@ -1537,17 +1537,17 @@
  {
   "resource": 1199,
   "msg_index": 105,
-  "english": "[FFE1]Pixie[FFE0]: Hey, hey! / [FFD4]I want a magic stone / [FFD4]with Kreta![FFFD][FFE2][FFD1]Clerk[FFE0]: K-Kreta?![FFFD][FFE1]Pixie[FFE0]: Yeah, Kreta. / [FFD4]The light Kreta."
+  "english": "[FFE1]Pixie[FFE0]: Hey, hey! / I want a magic stone / with Kreta![FFFD][FFE2]Clerk[FFE0]: K-Kreta?![FFFD][FFE1]Pixie[FFE0]: Yeah, Kreta. / The light Kreta."
  },
  {
   "resource": 1199,
   "msg_index": 106,
-  "english": "[FFE2][FFD1]Clerk[FFE0]: Do you have / [FFD4]the materials?[FFFD][FFE1]Pixie[FFE0]: Materials? / [FFD4]What do I need?[FFFD][FFE2][FFD1]Clerk[FFE0]: For Kreta, / [FFD4]two demon bloods!"
+  "english": "[FFE2]Clerk[FFE0]: Do you have / the materials?[FFFD][FFE1]Pixie[FFE0]: Materials? / What do I need?[FFFD][FFE2]Clerk[FFE0]: For Kreta, / two demon bloods!"
  },
  {
   "resource": 1199,
   "msg_index": 107,
-  "english": "[FFE1]Pixie[FFE0]: How do I get / [FFD4]those?![FFFD][FFE2][FFD1]Clerk[FFE0]: You / [FFD4]must bring them![FFFD][FFE1]Pixie[FFE0]: Grr! Forget / [FFD4]it! Let's go, / [FFD4]Melanie![FFFD][FFE7][FFD1]Girl[FFE0]: ..."
+  "english": "[FFE1]Pixie[FFE0]: How do I get / those?![FFFD][FFE2]Clerk[FFE0]: You / must bring them![FFFD][FFE1]Pixie[FFE0]: Grr! Forget / it! Let's go, / Melanie![FFFD][FFE7]Girl[FFE0]: ..."
  },
  {
   "resource": 1199,
@@ -1587,7 +1587,7 @@
  {
   "resource": 1200,
   "msg_index": 23,
-  "english": "No matter how many times you repeat yourself,[FFD2] my resolve will not waver."
+  "english": "No matter how many times you repeat yourself, my resolve will not waver."
  },
  {
   "resource": 1200,
@@ -1597,7 +1597,7 @@
  {
   "resource": 1200,
   "msg_index": 65,
-  "english": "Well, well, well![FFD4][FFD0] I've been waiting for you."
+  "english": "Well, well, well! I've been waiting for you."
  },
  {
   "resource": 1200,
@@ -1652,12 +1652,12 @@
  {
   "resource": 1200,
   "msg_index": 152,
-  "english": "\"What is it? What's going on?\"[FFFD] [FFD4]\"Quiet down, would you!\"[FFFD] \"What happened?\"[FFFD] [FFD5]\"Hey, I can't see a thing!\""
+  "english": "\"What is it? What's going on?\"[FFFD] \"Quiet down, would you!\"[FFFD] \"What happened?\"[FFFD] \"Hey, I can't see a thing!\""
  },
  {
   "resource": 1200,
   "msg_index": 157,
-  "english": "\"Well, if you'd rather not stay dead,[FFD0][FFD5] resurrection's the only way, isn't it.\"[FFFD] \"But it costs a fortune[FFD3][FFD0] to be brought back here.\"[FFFD] [FFD1]\"In the end only the rich[FFD8] get saved, I suppose.\"[FFFD] \"Such a waste of good money.\"[FFFD] [FFD3]\"If it were me, I'd just use medicine.\""
+  "english": "\"Well, if you'd rather not stay dead, resurrection's the only way, isn't it.\"[FFFD] \"But it costs a fortune to be brought back here.\"[FFFD] \"In the end only the rich get saved, I suppose.\"[FFFD] \"Such a waste of good money.\"[FFFD] \"If it were me, I'd just use medicine.\""
  },
  {
   "resource": 1200,
@@ -1682,27 +1682,27 @@
  {
   "resource": 1200,
   "msg_index": 171,
-  "english": "\"A corpse cannot move[FFD0] the way it did in life,[FFD0] you know!\"[FFFD] Scolding in a strained tone, the priest folded the leader's hands together and neatly arranged the body."
+  "english": "\"A corpse cannot move the way it did in life, you know!\"[FFFD] Scolding in a strained tone, the priest folded the leader's hands together and neatly arranged the body."
  },
  {
   "resource": 1200,
   "msg_index": 172,
-  "english": "As the priest and onlookers watched, your companion cradled your body and gently laid it upon the bed.[FFFD] Then they folded your still-heavy hands over your chest.[FFFD] \"Poor things...[FFD0] even knowing their leader will return to life,[FFD0] the parting must have been agony.\"[FFFD] Seeing a real corpse before them, the watchers pitied you all the more."
+  "english": "As the priest and onlookers watched, your companion cradled your body and gently laid it upon the bed.[FFFD] Then they folded your still-heavy hands over your chest.[FFFD] \"Poor things... even knowing their leader will return to life, the parting must have been agony.\"[FFFD] Seeing a real corpse before them, the watchers pitied you all the more."
  },
  {
   "resource": 1200,
   "msg_index": 173,
-  "english": "Your companion set your body down beneath the bed.[FFFD] Since you were already dead, hoisting the heavy corpse up onto it seemed pointless -- the floor would do.[FFFD] But the watching priests turned cold eyes on the act.[FFFD] \"Laying their leader on the floor?[FFD0] How shameless!\"[FFFD] The crowd muttered among themselves."
+  "english": "Your companion set your body down beneath the bed.[FFFD] Since you were already dead, hoisting the heavy corpse up onto it seemed pointless -- the floor would do.[FFFD] But the watching priests turned cold eyes on the act.[FFFD] \"Laying their leader on the floor? How shameless!\"[FFFD] The crowd muttered among themselves."
  },
  {
   "resource": 1200,
   "msg_index": 174,
-  "english": "\"Now, now -- I know your leader's death has shaken you,[FFD0] but pull yourself together.[FFD0] We are about to perform a resurrection rite.\"[FFFD] Lending a hand, the priest lifted your body up onto the bed.[FFFD] Won over by his intervention, the crowd let their muttering fade and pity return to their faces."
+  "english": "\"Now, now -- I know your leader's death has shaken you, but pull yourself together. We are about to perform a resurrection rite.\"[FFFD] Lending a hand, the priest lifted your body up onto the bed.[FFFD] Won over by his intervention, the crowd let their muttering fade and pity return to their faces."
  },
  {
   "resource": 1200,
   "msg_index": 175,
-  "english": "\"It is because brave adventurers like this leader[FFD0] risk their lives to press into the unknown, day after day,[FFD0] that the rest of us may live better lives.\"[FFFD] The priest laid a cloth over the leader's face, closed his eyes, and pressed his hands together.[FFFD] He remained in prayer.[FFFD] As he did, his foot tapped softly against the leg of the bed -- a tiny sound all but swallowed by the murmur of the room."
+  "english": "\"It is because brave adventurers like this leader risk their lives to press into the unknown, day after day, that the rest of us may live better lives.\"[FFFD] The priest laid a cloth over the leader's face, closed his eyes, and pressed his hands together.[FFFD] He remained in prayer.[FFFD] As he did, his foot tapped softly against the leg of the bed -- a tiny sound all but swallowed by the murmur of the room."
  },
  {
   "resource": 1200,
@@ -1732,12 +1732,12 @@
  {
   "resource": 1200,
   "msg_index": 183,
-  "english": "\"I know they're grieving,[FFD0] but to carry on like that...\"[FFFD] \"What an awful way to fall apart --[FFD0] far too dependent on their leader.[FFD0] It's honestly pathetic.\"[FFFD] \"If anything, it sounds like[FFD0] they're overjoyed at finding a new leader soon.\"[FFFD] The overdone display won no sympathy at all -- only resentment."
+  "english": "\"I know they're grieving, but to carry on like that...\"[FFFD] \"What an awful way to fall apart -- far too dependent on their leader. It's honestly pathetic.\"[FFFD] \"If anything, it sounds like they're overjoyed at finding a new leader soon.\"[FFFD] The overdone display won no sympathy at all -- only resentment."
  },
  {
   "resource": 1200,
   "msg_index": 184,
-  "english": "-The companion gripped the cold hand,[FFD4] quietly shedding tears-[FFE0][FFFD] Just as the script read, your companion took the leader's hand and gripped it tight.[FFFD] Then, quietly letting tears well up, they let them fall onto the leader's cheek.[FFFD] As they sniffled and murmured softly, some among the onlookers could be heard weeping along with them."
+  "english": "-The companion gripped the cold hand, quietly shedding tears-[FFE0][FFFD] Just as the script read, your companion took the leader's hand and gripped it tight.[FFFD] Then, quietly letting tears well up, they let them fall onto the leader's cheek.[FFFD] As they sniffled and murmured softly, some among the onlookers could be heard weeping along with them."
  },
  {
   "resource": 1200,
@@ -1797,17 +1797,17 @@
  {
   "resource": 1200,
   "msg_index": 201,
-  "english": "\"Wait, hold on -- what was that?[FFD0] They die, put everyone through a resurrection,[FFD0] and act like THAT?\"[FFFD] \"If it were me, I'd kill them all over again --[FFD0] not that I'd have revived them in the first place.\"[FFFD] \"My own leader's bad,[FFD0] but not this bad.[FFD0] Something's clearly wrong with this one.\"[FFFD] \"Was it suicide, maybe?[FFD0] Was asking for help too much for them?\""
+  "english": "\"Wait, hold on -- what was that? They die, put everyone through a resurrection, and act like THAT?\"[FFFD] \"If it were me, I'd kill them all over again -- not that I'd have revived them in the first place.\"[FFFD] \"My own leader's bad, but not this bad. Something's clearly wrong with this one.\"[FFFD] \"Was it suicide, maybe? Was asking for help too much for them?\""
  },
  {
   "resource": 1200,
   "msg_index": 202,
-  "english": "As the onlookers began to grumble, the priest hastily stepped in.[FFFD] \"No -- it isn't what it looks like![FFD0] He has only just drawn breath again and is dazed;[FFD0] anyone who nearly crossed over needs a moment.\"[FFFD] Then, taking your hand, he cried out:[FFFD] \"You're alive again![FFD0] There's nothing to fear.[FFD0] Now, rise slowly...\""
+  "english": "As the onlookers began to grumble, the priest hastily stepped in.[FFFD] \"No -- it isn't what it looks like! He has only just drawn breath again and is dazed; anyone who nearly crossed over needs a moment.\"[FFFD] Then, taking your hand, he cried out:[FFFD] \"You're alive again! There's nothing to fear. Now, rise slowly...\""
  },
  {
   "resource": 1200,
   "msg_index": 203,
-  "english": "As the onlookers began to grumble, the priest hastily stepped in.[FFFD] \"No -- it isn't what it looks like![FFD0] She has only just drawn breath again and is dazed;[FFD0] anyone who nearly crossed over needs a moment.\"[FFFD] Then, taking your hand, he cried out:[FFFD] \"You're alive again![FFD0] There's nothing to fear.[FFD0] Now, rise slowly...\""
+  "english": "As the onlookers began to grumble, the priest hastily stepped in.[FFFD] \"No -- it isn't what it looks like! She has only just drawn breath again and is dazed; anyone who nearly crossed over needs a moment.\"[FFFD] Then, taking your hand, he cried out:[FFFD] \"You're alive again! There's nothing to fear. Now, rise slowly...\""
  },
  {
   "resource": 1200,
@@ -1817,17 +1817,17 @@
  {
   "resource": 1200,
   "msg_index": 205,
-  "english": "\"Hold on, hold on --[FFD0] did the ritual fail?!\"[FFFD] \"But if a resurrection fails,[FFD0] they're supposed to crumble to ash!\"[FFFD] \"Maybe that's the difference[FFD0] between temple rites and ordinary magic or medicine?\"[FFFD] \"I bet this one[FFD0] just wasn't meant to come back.[FFD0] More to the point --[FFD0] can you get a refund in a case like this?\""
+  "english": "\"Hold on, hold on -- did the ritual fail?!\"[FFFD] \"But if a resurrection fails, they're supposed to crumble to ash!\"[FFFD] \"Maybe that's the difference between temple rites and ordinary magic or medicine?\"[FFFD] \"I bet this one just wasn't meant to come back. More to the point -- can you get a refund in a case like this?\""
  },
  {
   "resource": 1200,
   "msg_index": 206,
-  "english": "Seeing the onlookers voice such grim thoughts, Priest Fouquet hurriedly covered for you.[FFFD] \"N-no, that's not it! This is perfectly normal.[FFD0] When one has been unable to move for a long while,[FFD0] then suddenly can again,[FFD0] it still takes time before the body truly stirs.\""
+  "english": "Seeing the onlookers voice such grim thoughts, Priest Fouquet hurriedly covered for you.[FFFD] \"N-no, that's not it! This is perfectly normal. When one has been unable to move for a long while, then suddenly can again, it still takes time before the body truly stirs.\""
  },
  {
   "resource": 1200,
   "msg_index": 207,
-  "english": "With that, the priest laid a hand to your cheek.[FFFD] The warmth of your skin convinced him the revival had worked, and he returned to his calm, composed tone and spoke again.[FFFD] \"No cause for alarm --[FFD0] the warmth has returned.[FFD0] [FFF0], please, wake up now!\""
+  "english": "With that, the priest laid a hand to your cheek.[FFFD] The warmth of your skin convinced him the revival had worked, and he returned to his calm, composed tone and spoke again.[FFFD] \"No cause for alarm -- the warmth has returned. [FFF0], please, wake up now!\""
  },
  {
   "resource": 1200,
@@ -1847,7 +1847,7 @@
  {
   "resource": 1200,
   "msg_index": 212,
-  "english": "\"Good for you, leader --[FFD0] blessed with companions like these,[FFD0] you're a lucky one.\"[FFFD] \"I'd love to have friends[FFD0] I could trust like that[FFD0] myself!\"[FFFD] \"Well, a little closeness now and then[FFD0] does no harm.\"[FFFD] \"Don't you go dying on them again!\""
+  "english": "\"Good for you, leader -- blessed with companions like these, you're a lucky one.\"[FFFD] \"I'd love to have friends I could trust like that myself!\"[FFFD] \"Well, a little closeness now and then does no harm.\"[FFFD] \"Don't you go dying on them again!\""
  },
  {
   "resource": 1200,
@@ -1857,12 +1857,12 @@
  {
   "resource": 1200,
   "msg_index": 214,
-  "english": "\"Well, I suppose it's good[FFD0] to know their leader's alive again.\"[FFFD] \"After paying that much gold,[FFD0] they'd better be.\"[FFFD] \"Honestly, medicine or magic[FFD0] looks far more efficient.\"[FFFD] \"Why are we even afraid of death anymore?[FFD0] Gahahaha!\""
+  "english": "\"Well, I suppose it's good to know their leader's alive again.\"[FFFD] \"After paying that much gold, they'd better be.\"[FFFD] \"Honestly, medicine or magic looks far more efficient.\"[FFFD] \"Why are we even afraid of death anymore? Gahahaha!\""
  },
  {
   "resource": 1200,
   "msg_index": 216,
-  "english": "\"Coming all the way to a temple[FFD0] and paying that much --[FFD0] no way it was worth it.\"[FFFD] \"A temple's fine in name,[FFD0] but magic and medicine are hardly a waste either.\"[FFFD] \"You don't often see[FFD0] a party this dreadful.\"[FFFD] \"Go on, drop dead again!\""
+  "english": "\"Coming all the way to a temple and paying that much -- no way it was worth it.\"[FFFD] \"A temple's fine in name, but magic and medicine are hardly a waste either.\"[FFFD] \"You don't often see a party this dreadful.\"[FFFD] \"Go on, drop dead again!\""
  },
  {
   "resource": 1200,
@@ -1907,7 +1907,7 @@
  {
   "resource": 1201,
   "msg_index": 90,
-  "english": "[FFE2]Girl A[FFE0]: Hey, / Emilia,[FFD3] let's go![FFFD][FFE4]Girl B[FFE0]: Yeah,[FFD8] / [FFD3]they might notice.[FFFD][FFE2]Girl A[FFE0]: If we get / caught,[FFD0] / [FFD3]they won't let us out!"
+  "english": "[FFE2]Girl A[FFE0]: Hey, / Emilia, let's go![FFFD][FFE4]Girl B[FFE0]: Yeah, / they might notice.[FFFD][FFE2]Girl A[FFE0]: If we get / caught, / they won't let us out!"
  },
  {
   "resource": 1201,
@@ -1937,12 +1937,12 @@
  {
   "resource": 1201,
   "msg_index": 126,
-  "english": "'A Lodging Ticket, / I see. [FFD0]When you / check out,[FFD0] we will / [FFD0]refund the room[FFD1] / [FFD0]cost in cash.'"
+  "english": "'A Lodging Ticket, / I see. When you / check out, we will / refund the room / cost in cash.'"
  },
  {
   "resource": 1201,
   "msg_index": 127,
-  "english": "'Not staying? / [FFD0]Then please / come again.'"
+  "english": "'Not staying? / Then please / come again.'"
  },
  {
   "resource": 1201,
@@ -1962,12 +1962,12 @@
  {
   "resource": 1201,
   "msg_index": 131,
-  "english": "'We'll collect the[FFD6] / Lodging Ticket.'"
+  "english": "'We'll collect the / Lodging Ticket.'"
  },
  {
   "resource": 1201,
   "msg_index": 134,
-  "english": "Mr. Fudo / Genpaku?[FFD2] Please / wait a moment."
+  "english": "Mr. Fudo / Genpaku? Please / wait a moment."
  },
  {
   "resource": 1201,
@@ -1977,12 +1977,12 @@
  {
   "resource": 1201,
   "msg_index": 150,
-  "english": "I'm sorry,[FFD2] / [FFD2]our guest has / instructed us not[FFD1] / [FFD2]to let anyone / through."
+  "english": "I'm sorry, / our guest has / instructed us not / to let anyone / through."
  },
  {
   "resource": 1201,
   "msg_index": 153,
-  "english": "Mr. Fudo / Genpaku?[FFD2] Please / wait a moment."
+  "english": "Mr. Fudo / Genpaku? Please / wait a moment."
  },
  {
   "resource": 1201,
@@ -2142,7 +2142,7 @@
  {
   "resource": 1202,
   "msg_index": 278,
-  "english": "'What? Your bags / are full?[FFD2] / [FFD0]Here,[FFD3] / [FFD0]I'll trade the / extras for medals.'"
+  "english": "'What? Your bags / are full? / Here, / I'll trade the / extras for medals.'"
  },
  {
   "resource": 1202,
@@ -2712,17 +2712,17 @@
  {
   "resource": 1203,
   "msg_index": 691,
-  "english": "[FB04]This is / the place! Yep,[FFD2] / [FFD0]no doubt!"
+  "english": "[FB04]This is / the place! Yep, / no doubt!"
  },
  {
   "resource": 1203,
   "msg_index": 728,
-  "english": "Oda here, on the / other side of / the magic circle![FFD0] / [FFD0]I can hear ya!"
+  "english": "Oda here, on the / other side of / the magic circle! / I can hear ya!"
  },
  {
   "resource": 1203,
   "msg_index": 731,
-  "english": "Ehh! I already / started writing![FFD1] / [FFD0]OK, I won't!"
+  "english": "Ehh! I already / started writing! / OK, I won't!"
  },
  {
   "resource": 1203,
@@ -2752,12 +2752,12 @@
  {
   "resource": 1203,
   "msg_index": 822,
-  "english": "So you agree with[FFD3] / [FFD0]my plan?[FFD2] How / [FFD0]very wise of you."
+  "english": "So you agree with / my plan? How / very wise of you."
  },
  {
   "resource": 1203,
   "msg_index": 825,
-  "english": "Hehehe![FFD9] When the / [FFD0]adventurers drink / this...[FFD4] and the / [FFD0]bracelet is mine!"
+  "english": "Hehehe! When the / adventurers drink / this... and the / bracelet is mine!"
  },
  {
   "resource": 1203,
@@ -2767,7 +2767,7 @@
  {
   "resource": 1203,
   "msg_index": 867,
-  "english": "Mmm...[FFD2] / [FFD0]Something is / wrong. Very wrong."
+  "english": "Mmm... / Something is / wrong. Very wrong."
  },
  {
   "resource": 1203,
@@ -2777,7 +2777,7 @@
  {
   "resource": 1203,
   "msg_index": 904,
-  "english": "No, let them / through.[FFD5] They're / the new expedition / leader. Let them / pass."
+  "english": "No, let them / through. They're / the new expedition / leader. Let them / pass."
  },
  {
   "resource": 1203,
@@ -2857,32 +2857,32 @@
  {
   "resource": 1203,
   "msg_index": 1008,
-  "english": "[FFE2]Soldier A[FFE0]: She's / [FFD3]back! Unscathed![FFFD][FFE4]Soldier B[FFE0]: How'd / [FFD3]it go?[FFFD][FFE2]Soldier A[FFE0]: Gave / [FFD3]Rudy's team a / [FFD3]Demon corpse![FFFD][FFE4]Soldier B[FFE0]: Wow!"
+  "english": "[FFE2]Soldier A[FFE0]: She's / back! Unscathed![FFFD][FFE4]Soldier B[FFE0]: How'd / it go?[FFFD][FFE2]Soldier A[FFE0]: Gave / Rudy's team a / Demon corpse![FFFD][FFE4]Soldier B[FFE0]: Wow!"
  },
  {
   "resource": 1203,
   "msg_index": 1011,
-  "english": "[FFD0][FFE2]Woman[FFE0]: Went to / [FFD3]floor 6, no sign / [FFD3]of Aurora.[FFFD][FFE4]Soldier C[FFE0]: No leads?[FFFD][FFD0][FFE2]Woman[FFE0]: Well...[FFFD][FFD3]One thing bugs me.[FFFD][FFE4]Soldier C[FFE0]: What is it? / [FFD3]Tell us.[FFFD][FFD0][FFE2]Woman[FFE0]: Deep in / [FFD3]floor 2, I felt a / strange presence!"
+  "english": "[FFE2]Woman[FFE0]: Went to / floor 6, no sign / of Aurora.[FFFD][FFE4]Soldier C[FFE0]: No leads?[FFFD][FFE2]Woman[FFE0]: Well...[FFFD]One thing bugs me.[FFFD][FFE4]Soldier C[FFE0]: What is it? / Tell us.[FFFD][FFE2]Woman[FFE0]: Deep in / floor 2, I felt a / strange presence!"
  },
  {
   "resource": 1203,
   "msg_index": 1012,
-  "english": "[FFE3]Soldier D[FFE0]: Aurora?[FFFD][FFD0][FFE2]Woman[FFE0]: No, more / [FFD3]ancient / [FFD3]than that. / [FFD3]Hard to explain.[FFFD][FFE3]Soldier D[FFE0]: No, / it's fine.[FFFD][FFD3]If you say so, [FB01][FFE3]Aoi[FFE0][FB00], / [FFD3]it must be.[FFFD][FFE4]Soldier C[FFE0]: We'll / [FFD3]send scouts."
+  "english": "[FFE3]Soldier D[FFE0]: Aurora?[FFFD][FFE2]Woman[FFE0]: No, more / ancient / than that. / Hard to explain.[FFFD][FFE3]Soldier D[FFE0]: No, / it's fine.[FFFD]If you say so, [FB01][FFE3]Aoi[FFE0][FB00], / it must be.[FFFD][FFE4]Soldier C[FFE0]: We'll / send scouts."
  },
  {
   "resource": 1203,
   "msg_index": 1021,
-  "english": "[FFE4]Soldier C[FFE0]: I'll / escort you.[FFFD][FFE2]Aoi[FFE0]: Guards again? / [FFD3]The labyrinth / [FFD3]feels safer.[FFFD][FFE3]Soldier D[FFE0]: Sorry!"
+  "english": "[FFE4]Soldier C[FFE0]: I'll / escort you.[FFFD][FFE2]Aoi[FFE0]: Guards again? / The labyrinth / feels safer.[FFFD][FFE3]Soldier D[FFE0]: Sorry!"
  },
  {
   "resource": 1203,
   "msg_index": 1022,
-  "english": "[FFE2]Aoi[FFE0]: My wish is / [FFD3]to sleep without / [FFD3]being disturbed.[FFFD][FFE4]Soldier C[FFE0]: We'll / [FFD3]just wait by the / door.[FFFD][FFE3]Soldier D[FFE0]: We / [FFD3]won't disturb you!"
+  "english": "[FFE2]Aoi[FFE0]: My wish is / to sleep without / being disturbed.[FFFD][FFE4]Soldier C[FFE0]: We'll / just wait by the / door.[FFFD][FFE3]Soldier D[FFE0]: We / won't disturb you!"
  },
  {
   "resource": 1203,
   "msg_index": 1023,
-  "english": "[FFE2]Aoi[FFE0]: I know. Fine. / [FFD3]I'm tired already."
+  "english": "[FFE2]Aoi[FFE0]: I know. Fine. / I'm tired already."
  },
  {
   "resource": 1203,
@@ -2912,7 +2912,7 @@
  {
   "resource": 1203,
   "msg_index": 1110,
-  "english": "Should I greet / the alchemist?[FFD3] / [FFD0]Or call out?[FFD1] / [FFD0]Um, page 117!"
+  "english": "Should I greet / the alchemist? / Or call out? / Um, page 117!"
  },
  {
   "resource": 1203,
@@ -2957,17 +2957,17 @@
  {
   "resource": 1203,
   "msg_index": 1184,
-  "english": "Over there![FFD1] / [FFD0]I must tell them!"
+  "english": "Over there! / I must tell them!"
  },
  {
   "resource": 1203,
   "msg_index": 1186,
-  "english": "Please![FFD4] / [FFD0]Take this! / Deliver it!"
+  "english": "Please! / Take this! / Deliver it!"
  },
  {
   "resource": 1203,
   "msg_index": 1187,
-  "english": "Give this![FFD6] / [FFD0]To a woman / named Weil!"
+  "english": "Give this! / To a woman / named Weil!"
  },
  {
   "resource": 1203,
@@ -2992,7 +2992,7 @@
  {
   "resource": 1203,
   "msg_index": 1201,
-  "english": "A lethal poison[FFD1] / [FFD0]was introduced / through the cut."
+  "english": "A lethal poison / was introduced / through the cut."
  },
  {
   "resource": 1203,
@@ -3047,7 +3047,7 @@
  {
   "resource": 1203,
   "msg_index": 1258,
-  "english": "Tiny little[FFD2] / [FFD0]insects lined up[FFD4] / [FFD0]to be eaten!"
+  "english": "Tiny little / insects lined up / to be eaten!"
  },
  {
   "resource": 1203,
@@ -3067,7 +3067,7 @@
  {
   "resource": 1203,
   "msg_index": 1331,
-  "english": "Come,[FFD4] join us."
+  "english": "Come, join us."
  },
  {
   "resource": 1203,
@@ -3082,12 +3082,12 @@
  {
   "resource": 1203,
   "msg_index": 1352,
-  "english": "Hey, buddy.[FFD2] / Got a sec?"
+  "english": "Hey, buddy. / Got a sec?"
  },
  {
   "resource": 1203,
   "msg_index": 1353,
-  "english": "Hey, miss.[FFD2] / Got a sec?"
+  "english": "Hey, miss. / Got a sec?"
  },
  {
   "resource": 1203,
@@ -3102,17 +3102,17 @@
  {
   "resource": 1203,
   "msg_index": 1442,
-  "english": "One more rush![FFD3] / Here we gooo!"
+  "english": "One more rush! / Here we gooo!"
  },
  {
   "resource": 1203,
   "msg_index": 1443,
-  "english": "Put yer spirit[FFD7] / into it!"
+  "english": "Put yer spirit / into it!"
  },
  {
   "resource": 1203,
   "msg_index": 1449,
-  "english": "C-can't take[FFD7] / much more!"
+  "english": "C-can't take / much more!"
  },
  {
   "resource": 1203,
@@ -3182,12 +3182,12 @@
  {
   "resource": 1203,
   "msg_index": 1576,
-  "english": "Good,[FFD3] / [FFD0]nobody's around!"
+  "english": "Good, / nobody's around!"
  },
  {
   "resource": 1203,
   "msg_index": 1607,
-  "english": "Oh, right![FFD3] / [FFD0]I almost forgot / your reward!"
+  "english": "Oh, right! / I almost forgot / your reward!"
  },
  {
   "resource": 1203,
@@ -3287,17 +3287,17 @@
  {
   "resource": 1204,
   "msg_index": 129,
-  "english": "[FFE3]Monster A[FFE0]: Please?[FFFD][FFE1]Monster B[FFE0]: Hmm...[FFFD][FFE3]Monster A[FFE0]: I need it[FFD3] for[FFD3] Lepra Goods![FFFD][FFE1]Monster B[FFE0]: Cursed[FFD3] Armors are nice![FFFD][FFE3]Monster A[FFE0]: Meanie![FFD3]"
+  "english": "[FFE3]Monster A[FFE0]: Please?[FFFD][FFE1]Monster B[FFE0]: Hmm...[FFFD][FFE3]Monster A[FFE0]: I need it for Lepra Goods![FFFD][FFE1]Monster B[FFE0]: Cursed Armors are nice![FFFD][FFE3]Monster A[FFE0]: Meanie!"
  },
  {
   "resource": 1204,
   "msg_index": 130,
-  "english": "[FFE1]Monster B[FFE0]: Fine,[FFD3] I'll give you[FFD3] my spare.[FFFD][FFE3]Monster A[FFE0]: Yay![FFD3][FFFD][FFE1]Monster B[FFE0]: Meet me later,[FFD3] I don't[FFD3] have it now.[FFFD][FFE3]Monster A[FFE0]: Sure![FFD3]"
+  "english": "[FFE1]Monster B[FFE0]: Fine, I'll give you my spare.[FFFD][FFE3]Monster A[FFE0]: Yay![FFFD][FFE1]Monster B[FFE0]: Meet me later, I don't have it now.[FFFD][FFE3]Monster A[FFE0]: Sure!"
  },
  {
   "resource": 1204,
   "msg_index": 131,
-  "english": "[FFE1]Monster B[FFE0]: The usual spot.[FFD3] Wait for me.[FFFD][FFE3]Monster A[FFE0]: Okie dokie,[FFD3] see ya~"
+  "english": "[FFE1]Monster B[FFE0]: The usual spot. Wait for me.[FFFD][FFE3]Monster A[FFE0]: Okie dokie, see ya~"
  },
  {
   "resource": 1204,
@@ -3307,17 +3307,17 @@
  {
   "resource": 1204,
   "msg_index": 180,
-  "english": "Damn that woman![FFD0] / [FFD0]How dare she / cheat me!"
+  "english": "Damn that woman! / How dare she / cheat me!"
  },
  {
   "resource": 1204,
   "msg_index": 182,
-  "english": "J-Janken was / fair! [FFD0]She stole[FFD2] / [FFD0]my precious / prize!"
+  "english": "J-Janken was / fair! She stole / my precious / prize!"
  },
  {
   "resource": 1204,
   "msg_index": 183,
-  "english": "If I must face / such injustice[FFD3] / [FFD0]I'll revoke / Janken!"
+  "english": "If I must face / such injustice / I'll revoke / Janken!"
  },
  {
   "resource": 1204,
@@ -3377,12 +3377,12 @@
  {
   "resource": 1204,
   "msg_index": 259,
-  "english": "This time I / REALLY beat you[FFD2] / [FFD0]fair and square!"
+  "english": "This time I / REALLY beat you / fair and square!"
  },
  {
   "resource": 1204,
   "msg_index": 278,
-  "english": "Why do I have[FFD1] / to go through / this?!"
+  "english": "Why do I have / to go through / this?!"
  },
  {
   "resource": 1204,
@@ -3402,12 +3402,12 @@
  {
   "resource": 1204,
   "msg_index": 293,
-  "english": "[FFE2]Belgrano[FFE0][FFD5]: Damn it, whose / [FFD0]doing is this?![FFD3]"
+  "english": "[FFE2]Belgrano[FFE0]: Damn it, whose / doing is this?!"
  },
  {
   "resource": 1204,
   "msg_index": 295,
-  "english": "[FFE2]Belgrano[FFE0][FFD4]: Was / this[FFD0] the witch?[FFD3][FFFD][FFE4]Soldier[FFE0][FFD5]: Please / [FFD0]calm down, sir.[FFD3][FFFD][FFE2]Belgrano[FFE0][FFD3]: How / can I be calm? / [FFD0]They were[FFD0] / [FFD0]killed[FFD2] / [FFD0]without a fight![FFD0]"
+  "english": "[FFE2]Belgrano[FFE0]: Was / this the witch?[FFFD][FFE4]Soldier[FFE0]: Please / calm down, sir.[FFFD][FFE2]Belgrano[FFE0]: How / can I be calm? / They were / killed / without a fight!"
  },
  {
   "resource": 1204,
@@ -3422,7 +3422,7 @@
  {
   "resource": 1204,
   "msg_index": 312,
-  "english": "Ugh, this place[FFD0] / is the worst!!"
+  "english": "Ugh, this place / is the worst!!"
  },
  {
   "resource": 1204,
@@ -3437,12 +3437,12 @@
  {
   "resource": 1204,
   "msg_index": 331,
-  "english": "[FFE2]Orc A[FFE0]:[FB03] Is it / true?![FB02][FFFD][FFE4]Orc B[FFE0]:[FB03] Go see! / [FFD3]Bones all over![FB02][FFFD][FFE5]Orc C[FFE0]:[FB03] Why eat / monsters? [FFD3]Never / heard of that![FB02]"
+  "english": "[FFE2]Orc A[FFE0]:[FB03] Is it / true?![FB02][FFFD][FFE4]Orc B[FFE0]:[FB03] Go see! / Bones all over![FB02][FFFD][FFE5]Orc C[FFE0]:[FB03] Why eat / monsters? Never / heard of that![FB02]"
  },
  {
   "resource": 1204,
   "msg_index": 332,
-  "english": "[FFE4]Orc B[FFE0]:[FB03] How / [FFD3]should I know?![FB02][FFFD][FFE2]Orc A[FFE0]:[FB03] Will we / [FFD3]get eaten too?[FB02][FFFD][FFE4]Orc B[FFE0]:[FB03] It's not / [FFD3]safe here![FB02][FFFD][FFE5]Orc C[FFE0]:[FB03] What do / we do?![FB02]"
+  "english": "[FFE4]Orc B[FFE0]:[FB03] How / should I know?![FB02][FFFD][FFE2]Orc A[FFE0]:[FB03] Will we / get eaten too?[FB02][FFFD][FFE4]Orc B[FFE0]:[FB03] It's not / safe here![FB02][FFFD][FFE5]Orc C[FFE0]:[FB03] What do / we do?![FB02]"
  },
  {
   "resource": 1204,
@@ -3457,7 +3457,7 @@
  {
   "resource": 1204,
   "msg_index": 338,
-  "english": "E-everyone,[FFD5] / s-stoooop!!"
+  "english": "E-everyone, / s-stoooop!!"
  },
  {
   "resource": 1204,
@@ -3712,12 +3712,12 @@
  {
   "resource": 1204,
   "msg_index": 730,
-  "english": "I see, you / realized my[FFD3] / [FFD0]brilliant / scheme![FFD2] / [FFD0]Smart!"
+  "english": "I see, you / realized my / brilliant / scheme! / Smart!"
  },
  {
   "resource": 1204,
   "msg_index": 733,
-  "english": "Heh heh heh![FFD9] / [FFD0]When adventurers / drink this...[FFD4] / [FFD0]the bracelets / become mine!"
+  "english": "Heh heh heh! / When adventurers / drink this... / the bracelets / become mine!"
  },
  {
   "resource": 1204,
@@ -3817,57 +3817,57 @@
  {
   "resource": 1204,
   "msg_index": 890,
-  "english": "Hey, aren't you[FFD2] / [FFD0]cheating?!"
+  "english": "Hey, aren't you / cheating?!"
  },
  {
   "resource": 1204,
   "msg_index": 891,
-  "english": "My natural / skill[FFD6] / [FFD0]isn't cheating![FFD1] / [FFD0]How rude!"
+  "english": "My natural / skill / isn't cheating! / How rude!"
  },
  {
   "resource": 1204,
   "msg_index": 892,
-  "english": "You lost fair[FFD1] / [FFD0]and square![FFD2] / [FFD0]Take the Leep!"
+  "english": "You lost fair / and square! / Take the Leep!"
  },
  {
   "resource": 1204,
   "msg_index": 894,
-  "english": "GRRR![FFD6] / [FFD0]Next time[FFD1] / [FFD0]you're DEAD!"
+  "english": "GRRR! / Next time / you're DEAD!"
  },
  {
   "resource": 1204,
   "msg_index": 895,
-  "english": "What an[FFD1] / [FFD0]awful / woman!"
+  "english": "What an / awful / woman!"
  },
  {
   "resource": 1204,
   "msg_index": 898,
-  "english": "Get out![FFD5] / [FFD0]Don't / come back!"
+  "english": "Get out! / Don't / come back!"
  },
  {
   "resource": 1204,
   "msg_index": 899,
-  "english": "Shut up![FFD4] / [FFD0]No forgiveness / this time!"
+  "english": "Shut up! / No forgiveness / this time!"
  },
  {
   "resource": 1204,
   "msg_index": 900,
-  "english": "N-no! Stop![FFD1] / [FFD0]Help!"
+  "english": "N-no! Stop! / Help!"
  },
  {
   "resource": 1204,
   "msg_index": 905,
-  "english": "Now then, his / treasure bag...[FFD0] / [FFD0]good, this is / it."
+  "english": "Now then, his / treasure bag... / good, this is / it."
  },
  {
   "resource": 1204,
   "msg_index": 906,
-  "english": "So the bracelet / treasure[FFD3] / [FFD0]is inside?[FFD4] / [FFD0]Must be / fancy~"
+  "english": "So the bracelet / treasure / is inside? / Must be / fancy~"
  },
  {
   "resource": 1204,
   "msg_index": 907,
-  "english": "I'll examine / it at home.[FFD1] / [FFD0]Time to leave[FFD1] / [FFD0]this damp / place!"
+  "english": "I'll examine / it at home. / Time to leave / this damp / place!"
  },
  {
   "resource": 1204,
@@ -3877,22 +3877,22 @@
  {
   "resource": 1204,
   "msg_index": 913,
-  "english": "Popo has it.[FFD2] / Is that really / so?!"
+  "english": "Popo has it. / Is that really / so?!"
  },
  {
   "resource": 1204,
   "msg_index": 917,
-  "english": "This thing is[FFD4] / still alive!"
+  "english": "This thing is / still alive!"
  },
  {
   "resource": 1204,
   "msg_index": 918,
-  "english": "Even this small,[FFD1] / it can enter / your body and / eat you from / inside out!"
+  "english": "Even this small, / it can enter / your body and / eat you from / inside out!"
  },
  {
   "resource": 1204,
   "msg_index": 920,
-  "english": "Perfect[FFD8] / timing!"
+  "english": "Perfect / timing!"
  },
  {
   "resource": 1204,
@@ -3902,12 +3902,12 @@
  {
   "resource": 1204,
   "msg_index": 949,
-  "english": "You![FFD2] Tell the / castle lord, / now!"
+  "english": "You! Tell the / castle lord, / now!"
  },
  {
   "resource": 1204,
   "msg_index": 950,
-  "english": "We need an[FFD2] / investigation / team / immediately!"
+  "english": "We need an / investigation / team / immediately!"
  },
  {
   "resource": 1204,
@@ -3917,12 +3917,12 @@
  {
   "resource": 1204,
   "msg_index": 953,
-  "english": "Something far[FFD2] / worse could be[FFD1] / deeper down!"
+  "english": "Something far / worse could be / deeper down!"
  },
  {
   "resource": 1204,
   "msg_index": 955,
-  "english": "H-hey![FFD6] / Don't / leave me!"
+  "english": "H-hey! / Don't / leave me!"
  },
  {
   "resource": 1204,
@@ -3942,7 +3942,7 @@
  {
   "resource": 1205,
   "msg_index": 21,
-  "english": "[FFE4]Orc C[FFE0]: We smash[FFD3] / stuff up good~![FFFD][FFE2]Orc A[FFE0]: Cool / city demo crew~![FFFD][FFE3]Orc B[FFE0]: Slam[FFD3] / that hammer~![FFFD][FFE7]Boss[FFE0]: Together / we get rich~!"
+  "english": "[FFE4]Orc C[FFE0]: We smash / stuff up good~![FFFD][FFE2]Orc A[FFE0]: Cool / city demo crew~![FFFD][FFE3]Orc B[FFE0]: Slam / that hammer~![FFFD][FFE7]Boss[FFE0]: Together / we get rich~!"
  },
  {
   "resource": 1205,
@@ -3967,12 +3967,12 @@
  {
   "resource": 1205,
   "msg_index": 62,
-  "english": "Are you alright,[FFD3] / youngster!"
+  "english": "Are you alright, / youngster!"
  },
  {
   "resource": 1205,
   "msg_index": 64,
-  "english": "Are you sure / you're okay?[FFD1] / What could / attack us from / a place like / this?"
+  "english": "Are you sure / you're okay? / What could / attack us from / a place like / this?"
  },
  {
   "resource": 1205,
@@ -3982,12 +3982,12 @@
  {
   "resource": 1205,
   "msg_index": 76,
-  "english": "Why?![FFD6] / What are / you doing here?!"
+  "english": "Why?! / What are / you doing here?!"
  },
  {
   "resource": 1205,
   "msg_index": 80,
-  "english": "What are you / saying?![FFD1] / Because / of you, / everyone is--"
+  "english": "What are you / saying?! / Because / of you, / everyone is--"
  },
  {
   "resource": 1205,
@@ -4012,7 +4012,7 @@
  {
   "resource": 1205,
   "msg_index": 109,
-  "english": "That idiot / mayor, just wait.[FFD1] / I'll file a huge / workers' comp / claim!"
+  "english": "That idiot / mayor, just wait. / I'll file a huge / workers' comp / claim!"
  },
  {
   "resource": 1205,
@@ -4022,12 +4022,12 @@
  {
   "resource": 1205,
   "msg_index": 125,
-  "english": "If I give him / a fake, he'll / definitely find / out,[FFD0] but if I say / I don't have it,[FFD0] / who knows / what he'll do!"
+  "english": "If I give him / a fake, he'll / definitely find / out, but if I say / I don't have it, / who knows / what he'll do!"
  },
  {
   "resource": 1205,
   "msg_index": 140,
-  "english": "Yours truly / could tell. / It appealed to / me.[FFFD]'I'm not / dead yet,[FFD0] bring / me back to / life.'[FFD3][FFFD]Something / like that."
+  "english": "Yours truly / could tell. / It appealed to / me.[FFFD]'I'm not / dead yet, bring / me back to / life.'[FFFD]Something / like that."
  },
  {
   "resource": 1205,
@@ -4107,17 +4107,17 @@
  {
   "resource": 1205,
   "msg_index": 298,
-  "english": "W-Wait wait![FFD0] / What did I ever / do to you?!"
+  "english": "W-Wait wait! / What did I ever / do to you?!"
  },
  {
   "resource": 1205,
   "msg_index": 300,
-  "english": "Are you / crazy?![FFD5] / [FFD0]Stop it, / it hurts!!"
+  "english": "Are you / crazy?! / Stop it, / it hurts!!"
  },
  {
   "resource": 1205,
   "msg_index": 301,
-  "english": "I haven't done / anything[FFD1] / [FFD0]to deserve this!"
+  "english": "I haven't done / anything / to deserve this!"
  },
  {
   "resource": 1205,
@@ -4127,7 +4127,7 @@
  {
   "resource": 1205,
   "msg_index": 305,
-  "english": "Phew, that was / close![FFD3] / [FFD0]Be careful, those / guys are[FFD0] / seriously / insane!"
+  "english": "Phew, that was / close! / Be careful, those / guys are / seriously / insane!"
  },
  {
   "resource": 1205,
@@ -4142,37 +4142,37 @@
  {
   "resource": 1205,
   "msg_index": 330,
-  "english": "[FFE3]Orc F[FFE0]: \"What are you / [FFD4]gonna do?\"[FFFD][FFE5]Orc G[FFE0]: \"That shield[FFD0] / [FFD4]is really / [FFD4]important!\"[FFFD][FFE2]Orc A[FFE0]:[FB04] \"You don't[FFD3] / [FFD4]know[FFD3] / [FFD4]nothing!\"[FB02]"
+  "english": "[FFE3]Orc F[FFE0]: \"What are you / gonna do?\"[FFFD][FFE5]Orc G[FFE0]: \"That shield / is really / important!\"[FFFD][FFE2]Orc A[FFE0]:[FB04] \"You don't / know / nothing!\"[FB02]"
  },
  {
   "resource": 1205,
   "msg_index": 331,
-  "english": "[FFE4]Orc B[FFE0]:[FB04] \"That beast[FFD2] / [FFD4]is[FFD2] / [FFD4]hella strong!\"[FB02][FFFD][FFE2]Orc A[FFE0]:[FB04] \"Try being[FFD1] / [FFD4]in our shoes!\"[FB02][FFFD][FFE4]Orc B[FFE0]:[FB04] \"We had to fight[FFD1] / [FFD4]while guarding / the princess!\"[FB02]"
+  "english": "[FFE4]Orc B[FFE0]:[FB04] \"That beast / is / hella strong!\"[FB02][FFFD][FFE2]Orc A[FFE0]:[FB04] \"Try being / in our shoes!\"[FB02][FFFD][FFE4]Orc B[FFE0]:[FB04] \"We had to fight / while guarding / the princess!\"[FB02]"
  },
  {
   "resource": 1205,
   "msg_index": 334,
-  "english": "[FFE3]Orc F[FFE0]: \"Why do[FFD1] / [FFD4]we have to pull[FFD4] / [FFD4]up our pants[FFD3] / [FFD4]in unison / every battle?\"[FFFD][FFE5]Orc G[FFE0]: \"Isn't[FFD0] / [FFD4]that weird?[FFD4] / [FFD4]That's why you[FFD2] / [FFD4]drop things!\""
+  "english": "[FFE3]Orc F[FFE0]: \"Why do / we have to pull / up our pants / in unison / every battle?\"[FFFD][FFE5]Orc G[FFE0]: \"Isn't / that weird? / That's why you / drop things!\""
  },
  {
   "resource": 1205,
   "msg_index": 335,
-  "english": "[FFE2]Orc C[FFE0]:[FB04] \"Grr... / [FFD4]\"[FB02][FFFD][FFE4]Orc D[FFE0]:[FB04] \"It's / [FFD4]our policy!\"[FB02][FFFD][FFE7]Orc E[FFE0]:[FB04] \"Yeah! / [FFD4]All orcs / [FFD4]do it!\"[FB02]"
+  "english": "[FFE2]Orc C[FFE0]:[FB04] \"Grr... / \"[FB02][FFFD][FFE4]Orc D[FFE0]:[FB04] \"It's / our policy!\"[FB02][FFFD][FFE7]Orc E[FFE0]:[FB04] \"Yeah! / All orcs / do it!\"[FB02]"
  },
  {
   "resource": 1205,
   "msg_index": 336,
-  "english": "[FFE3]Orc F[FFE0]: \"Hmm, / is that so. / [FFD4]But don't you[FFD0] / [FFD4]think it lacks / style?\"[FFFD][FFE5]Orc G[FFE0]: \"Why / not try / [FFD4]something / different?\""
+  "english": "[FFE3]Orc F[FFE0]: \"Hmm, / is that so. / But don't you / think it lacks / style?\"[FFFD][FFE5]Orc G[FFE0]: \"Why / not try / something / different?\""
  },
  {
   "resource": 1205,
   "msg_index": 337,
-  "english": "[FFE2]Orc Boss[FFE0]:[FB05] That's it! / [FFD5]I've had it! / [FFD5]Time for / punishment![FFD1][FB02]"
+  "english": "[FFE2]Orc Boss[FFE0]:[FB05] That's it! / I've had it! / Time for / punishment![FB02]"
  },
  {
   "resource": 1205,
   "msg_index": 339,
-  "english": "[FFE3]Orc F[FFE0]: \"Wh-What! / [FFD4]You're going to / use force?!\"[FFFD][FFE5]Orc G[FFE0]: \"E-Even / if you do,[FFD0] / [FFD4]we'll never / [FFD4]give in!\"[FFD6]"
+  "english": "[FFE3]Orc F[FFE0]: \"Wh-What! / You're going to / use force?!\"[FFFD][FFE5]Orc G[FFE0]: \"E-Even / if you do, / we'll never / give in!\""
  },
  {
   "resource": 1205,
@@ -4507,122 +4507,122 @@
  {
   "resource": 1205,
   "msg_index": 755,
-  "english": "Somebody! / Help me![FFD2] / [FFD0]Please!"
+  "english": "Somebody! / Help me! / Please!"
  },
  {
   "resource": 1205,
   "msg_index": 760,
-  "english": "[FFD1][FFE1]Voice[FFE0]: \"Can't you / break[FFD5] this door?\"[FFFD][FFE7]Melanie[FFE0]: \"No way!\"[FFFD][FFD1][FFE1]Voice[FFE0]: \"Get / [FFD5]help!\"[FFFD][FFE7]Melanie[FFE0]: \"That's / [FFD5]even harder!\"[FFFD][FFD1][FFE1]Voice[FFE0]: \"Why?! / [FFD5]Then I'm stuck / [FFD5]here forever!\"[FFFD][FFE7]Melanie[FFE0]: \"N-no! / [FFD5]That'd be bad!\"[FFFD][FFD1][FFE1]Voice[FFE0]: \"Then hurry / [FFD5]up!\""
+  "english": "[FFE1]Voice[FFE0]: \"Can't you / break this door?\"[FFFD][FFE7]Melanie[FFE0]: \"No way!\"[FFFD][FFE1]Voice[FFE0]: \"Get / help!\"[FFFD][FFE7]Melanie[FFE0]: \"That's / even harder!\"[FFFD][FFE1]Voice[FFE0]: \"Why?! / Then I'm stuck / here forever!\"[FFFD][FFE7]Melanie[FFE0]: \"N-no! / That'd be bad!\"[FFFD][FFE1]Voice[FFE0]: \"Then hurry / up!\""
  },
  {
   "resource": 1205,
   "msg_index": 762,
-  "english": "Somebody! / Help![FFD0] / [FFD0]I'm gonna die / in here!"
+  "english": "Somebody! / Help! / I'm gonna die / in here!"
  },
  {
   "resource": 1205,
   "msg_index": 763,
-  "english": "[FFE7]Melanie[FFE0]: \"S- / Stop it, / [FFD5]you're / embarrassing / me! [FFD5]People / will come!\"[FFFD][FFD1][FFE1]Voice[FFE0]: \"That's / [FFD5]the whole / [FFD5]point!\""
+  "english": "[FFE7]Melanie[FFE0]: \"S- / Stop it, / you're / embarrassing / me! People / will come!\"[FFFD][FFE1]Voice[FFE0]: \"That's / the whole / point!\""
  },
  {
   "resource": 1205,
   "msg_index": 767,
-  "english": "What happened?[FFD2] / [FFD0]Did someone / come?"
+  "english": "What happened? / Did someone / come?"
  },
  {
   "resource": 1205,
   "msg_index": 770,
-  "english": "Oh great![FFD2] / [FFD0]Finally my / knight in[FFD0] / [FFD0]shining armor / is here!"
+  "english": "Oh great! / Finally my / knight in / shining armor / is here!"
  },
  {
   "resource": 1205,
   "msg_index": 771,
-  "english": "Hey, help me![FFD4] / [FFD0]I'm locked / in here!"
+  "english": "Hey, help me! / I'm locked / in here!"
  },
  {
   "resource": 1205,
   "msg_index": 772,
-  "english": "This door can / be opened from[FFD2] / [FFD0]your side, but[FFD1] / [FFD0]I can't do it!"
+  "english": "This door can / be opened from / your side, but / I can't do it!"
  },
  {
   "resource": 1205,
   "msg_index": 773,
-  "english": "There's a trap / door on this[FFD0] / [FFD0]floor that / leads here."
+  "english": "There's a trap / door on this / floor that / leads here."
  },
  {
   "resource": 1205,
   "msg_index": 774,
-  "english": "It seems / locked, so[FFD3] / [FFD0]there might be / a switch to[FFD2] / [FFD0]open it!"
+  "english": "It seems / locked, so / there might be / a switch to / open it!"
  },
  {
   "resource": 1205,
   "msg_index": 775,
-  "english": "This isn't a / favor,[FFD0] / [FFD0]it's an official / request!"
+  "english": "This isn't a / favor, / it's an official / request!"
  },
  {
   "resource": 1205,
   "msg_index": 778,
-  "english": "As expected / of a true / hero![FFD5] / [FFD0]Now[FFD3] / [FFD0]hurry up and / save me!"
+  "english": "As expected / of a true / hero! / Now / hurry up and / save me!"
  },
  {
   "resource": 1205,
   "msg_index": 782,
-  "english": "What?![FFD0] / [FFD0]You're just / going to / watch me / suffer?! / [FFD0]What nerve!"
+  "english": "What?! / You're just / going to / watch me / suffer?! / What nerve!"
  },
  {
   "resource": 1205,
   "msg_index": 783,
-  "english": "You'll regret / this forever![FFD1] / [FFD0]Your life just / [FFD0]took a wrong / turn because / of this!"
+  "english": "You'll regret / this forever! / Your life just / took a wrong / turn because / of this!"
  },
  {
   "resource": 1205,
   "msg_index": 784,
-  "english": "If you won't / help[FFD3] / [FFD0]then just / go away![FFD2] / [FFD0]I don't even / want to talk / to you!"
+  "english": "If you won't / help / then just / go away! / I don't even / want to talk / to you!"
  },
  {
   "resource": 1205,
   "msg_index": 790,
-  "english": "What's up?[FFD0] / [FFD0]Did someone / come again?"
+  "english": "What's up? / Did someone / come again?"
  },
  {
   "resource": 1205,
   "msg_index": 792,
-  "english": "What, you / again?[FFD0] / [FFD0]What / do you want?[FFD3] / [FFD0]If you're just / browsing, get / lost!"
+  "english": "What, you / again? / What / do you want? / If you're just / browsing, get / lost!"
  },
  {
   "resource": 1205,
   "msg_index": 793,
-  "english": "Or what,[FFD4] / [FFD0]you / regret turning / us down and[FFD0] / [FFD0]came crawling / back?"
+  "english": "Or what, / you / regret turning / us down and / came crawling / back?"
  },
  {
   "resource": 1205,
   "msg_index": 794,
-  "english": "Well, I / suppose[FFD2] / [FFD0]I could give you / [FFD0]another / chance."
+  "english": "Well, I / suppose / I could give you / another / chance."
  },
  {
   "resource": 1205,
   "msg_index": 796,
-  "english": "You should[FFD4] / [FFD0]have accepted / from the start![FFD3] / [FFD0]Honestly, how / foolish!"
+  "english": "You should / have accepted / from the start! / Honestly, how / foolish!"
  },
  {
   "resource": 1205,
   "msg_index": 797,
-  "english": "Well, since / you agreed,[FFD1] / [FFD0]hurry up and / save me!"
+  "english": "Well, since / you agreed, / hurry up and / save me!"
  },
  {
   "resource": 1205,
   "msg_index": 801,
-  "english": "What is[FFD3] / [FFD0]wrong with / you?!"
+  "english": "What is / wrong with / you?!"
  },
  {
   "resource": 1205,
   "msg_index": 802,
-  "english": "Fine![FFD2] / [FFD0]I'm / done talking!"
+  "english": "Fine! / I'm / done talking!"
  },
  {
   "resource": 1205,
   "msg_index": 803,
-  "english": "I won't / waste[FFD2] / [FFD0]my beautiful / voice[FFD0] / [FFD0]on someone like / you! Goodbye!"
+  "english": "I won't / waste / my beautiful / voice / on someone like / you! Goodbye!"
  },
  {
   "resource": 1205,
@@ -4652,7 +4652,7 @@
  {
   "resource": 1205,
   "msg_index": 867,
-  "english": "Somebody![FFD2] / [FFD0]Help me! / Help meeee!"
+  "english": "Somebody! / Help me! / Help meeee!"
  },
  {
   "resource": 1206,
@@ -4662,7 +4662,7 @@
  {
   "resource": 1206,
   "msg_index": 94,
-  "english": "Hyaa~, it's cold! Cold![FFD4] / [FFD0]It feels so good~!"
+  "english": "Hyaa~, it's cold! Cold! / It feels so good~!"
  },
  {
   "resource": 1206,
@@ -4697,7 +4697,7 @@
  {
   "resource": 1206,
   "msg_index": 195,
-  "english": "She is still[FFD1] / [FFD0]nearby!"
+  "english": "She is still / nearby!"
  },
  {
   "resource": 1206,
@@ -4737,7 +4737,7 @@
  {
   "resource": 1206,
   "msg_index": 242,
-  "english": "Things don't look too good,[FFD0] / [FFD0]do they?"
+  "english": "Things don't look too good, / do they?"
  },
  {
   "resource": 1206,
@@ -5072,22 +5072,22 @@
  {
   "resource": 1206,
   "msg_index": 665,
-  "english": "Thief A[FFE0]: Don't play dumb with us![FFFD] [FFE3]Thief B[FFE0]: Yeah![FFD3] The sooner you show us the way,[FFD3] the better for you!"
+  "english": "Thief A[FFE0]: Don't play dumb with us![FFFD] [FFE3]Thief B[FFE0]: Yeah! The sooner you show us the way, the better for you!"
  },
  {
   "resource": 1206,
   "msg_index": 668,
-  "english": "Orc A[FFE0][FB04]: B-but we dunno[FFD4] what yer talkin'[FFD4] about![FFFD] [FB02][FFE2]Thief A[FFE0]: We SAW you![FFD4] Walkin' round with a real beauty,[FFD4] and she sure[FFD4] weren't no adventurer!"
+  "english": "Orc A[FFE0][FB04]: B-but we dunno what yer talkin' about![FFFD] [FB02][FFE2]Thief A[FFE0]: We SAW you! Walkin' round with a real beauty, and she sure weren't no adventurer!"
  },
  {
   "resource": 1206,
   "msg_index": 669,
-  "english": "[FFE3]Thief B[FFE0]: Yeah, no mistake![FFD4] That's gotta be[FFD4] the woman Webster's after![FFFD] [FFE5]Orc B[FFE0][FB04]: N-no, yer wrong![FB02][FFFD] [FFE4]Orc A[FFE0][FB04]: Dat was just[FFD4] a succubus!"
+  "english": "[FFE3]Thief B[FFE0]: Yeah, no mistake! That's gotta be the woman Webster's after![FFFD] [FFE5]Orc B[FFE0][FB04]: N-no, yer wrong![FB02][FFFD] [FFE4]Orc A[FFE0][FB04]: Dat was just a succubus!"
  },
  {
   "resource": 1206,
   "msg_index": 670,
-  "english": "[FFE2]Thief A[FFE0]: Don't screw with us![FFFD] [FFE3]Thief B[FFE0]: That's it,[FFD4] I've had enough![FFD4] I'm gonna kill you both!"
+  "english": "[FFE2]Thief A[FFE0]: Don't screw with us![FFFD] [FFE3]Thief B[FFE0]: That's it, I've had enough! I'm gonna kill you both!"
  },
  {
   "resource": 1206,
@@ -5112,7 +5112,7 @@
  {
   "resource": 1206,
   "msg_index": 682,
-  "english": "Yeah![FFD7] An ugly, smelly squad like[FFD3] / yours is a crime[FFD4] / against humanity!"
+  "english": "Yeah! An ugly, smelly squad like / yours is a crime / against humanity!"
  },
  {
   "resource": 1206,
@@ -5132,7 +5132,7 @@
  {
   "resource": 1206,
   "msg_index": 741,
-  "english": "Meager[FFD2] / [FFD0]earnings!"
+  "english": "Meager / earnings!"
  },
  {
   "resource": 1206,
@@ -5147,7 +5147,7 @@
  {
   "resource": 1206,
   "msg_index": 769,
-  "english": "Meager![FFD2][FFD0]"
+  "english": "Meager!"
  },
  {
   "resource": 1206,
@@ -5202,12 +5202,12 @@
  {
   "resource": 1207,
   "msg_index": 49,
-  "english": "Cardinal Langobalt,[FFD0] / [FFD0]feel like / [FFD0]talking yet, do we?"
+  "english": "Cardinal Langobalt, / feel like / talking yet, do we?"
  },
  {
   "resource": 1207,
   "msg_index": 75,
-  "english": "It seems God's grace / [FFD0]did not[FFD3] / [FFD0]reach you."
+  "english": "It seems God's grace / did not / reach you."
  },
  {
   "resource": 1207,
@@ -5272,7 +5272,7 @@
  {
   "resource": 1207,
   "msg_index": 200,
-  "english": "I slept here, together[FFD3] / with my sisters!"
+  "english": "I slept here, together / with my sisters!"
  },
  {
   "resource": 1207,
@@ -5287,27 +5287,27 @@
  {
   "resource": 1207,
   "msg_index": 205,
-  "english": "The whole city was swallowed in / flame,[FFD2] staining the sky red!"
+  "english": "The whole city was swallowed in / flame, staining the sky red!"
  },
  {
   "resource": 1207,
   "msg_index": 206,
-  "english": "Into the flames...[FFD7] / the woman vanished!"
+  "english": "Into the flames... / the woman vanished!"
  },
  {
   "resource": 1207,
   "msg_index": 207,
-  "english": "Everything[FFD4] / vanished!"
+  "english": "Everything / vanished!"
  },
  {
   "resource": 1207,
   "msg_index": 233,
-  "english": "Eek, how scary![FFD3] / [FFD0]Let's get through this place[FFD1] / [FFD0]double-quick!"
+  "english": "Eek, how scary! / Let's get through this place / double-quick!"
  },
  {
   "resource": 1207,
   "msg_index": 234,
-  "english": "Ohh, isn't there a shortcut / [FFD0]to floor three somewhere?"
+  "english": "Ohh, isn't there a shortcut / to floor three somewhere?"
  },
  {
   "resource": 1207,
@@ -5317,7 +5317,7 @@
  {
   "resource": 1207,
   "msg_index": 291,
-  "english": "that's a holy beast.[FFD5] / It has the power of a demon god,[FFD0] / so don't go provoking it."
+  "english": "that's a holy beast. / It has the power of a demon god, / so don't go provoking it."
  },
  {
   "resource": 1207,
@@ -5607,7 +5607,7 @@
  {
   "resource": 1207,
   "msg_index": 669,
-  "english": "'If he finds ya it's[FFD0] / [FFD0]real bad, so quit[FFD1] / [FFD0]comin' in here so / much...'"
+  "english": "'If he finds ya it's / real bad, so quit / comin' in here so / much...'"
  },
  {
   "resource": 1207,
@@ -5722,7 +5722,7 @@
  {
   "resource": 1207,
   "msg_index": 831,
-  "english": "'Miss Aoi![FFD3] / So this is where[FFD2] / you were?'"
+  "english": "'Miss Aoi! / So this is where / you were?'"
  },
  {
   "resource": 1207,
@@ -5742,7 +5742,7 @@
  {
   "resource": 1208,
   "msg_index": 28,
-  "english": "Sir Knight, please[FFD2] / do come in."
+  "english": "Sir Knight, please / do come in."
  },
  {
   "resource": 1208,
@@ -5757,12 +5757,12 @@
  {
   "resource": 1208,
   "msg_index": 59,
-  "english": "Your Highness, / bad news![FFD3] Lord Webster[FFD3] / is heading this way!"
+  "english": "Your Highness, / bad news! Lord Webster / is heading this way!"
  },
  {
   "resource": 1208,
   "msg_index": 79,
-  "english": "This place too! / It's the same![FFD5] / [FFD0]This must be it!"
+  "english": "This place too! / It's the same! / This must be it!"
  },
  {
   "resource": 1208,
@@ -5772,17 +5772,17 @@
  {
   "resource": 1208,
   "msg_index": 106,
-  "english": "Girl A[FFE0]: \"That fool / [FFD2]is hopeless.\"[FFFD] / [FFE7]Girl B[FFE0]: \"You kept / [FFD2]calling him a fool, / [FFD2]so he ran off!\"[FFFD] / [FFE1]Girl A[FFE0]: \"I only / [FFD2]told the truth!\""
+  "english": "Girl A[FFE0]: \"That fool / is hopeless.\"[FFFD] / [FFE7]Girl B[FFE0]: \"You kept / calling him a fool, / so he ran off!\"[FFFD] / [FFE1]Girl A[FFE0]: \"I only / told the truth!\""
  },
  {
   "resource": 1208,
   "msg_index": 107,
-  "english": "Girl B[FFE0]: \"Fools have / [FFD2]their uses! His alchemy / [FFD2]got us this far.\"[FFFD] / [FFE1]Girl A[FFE0]: \"...True. With his / [FFD2]potions, getting home / [FFD2]was never a worry.\"[FFFD] / [FFE7]Girl B[FFE0]: \"Right?!\""
+  "english": "Girl B[FFE0]: \"Fools have / their uses! His alchemy / got us this far.\"[FFFD] / [FFE1]Girl A[FFE0]: \"...True. With his / potions, getting home / was never a worry.\"[FFFD] / [FFE7]Girl B[FFE0]: \"Right?!\""
  },
  {
   "resource": 1208,
   "msg_index": 108,
-  "english": "Girl A[FFE0]: \"Wandering / [FFD2]alone here is / [FFD2]insane! I refuse!\"[FFFD] / [FFE7]Girl B[FFE0]: \"Then what?\"[FFFD] / [FFE1]Girl A[FFE0]: \"Let's post / [FFD2]a request in town / [FFD2]for help. / [FFD2]Someone like / [FFD2][FFF0].\""
+  "english": "Girl A[FFE0]: \"Wandering / alone here is / insane! I refuse!\"[FFFD] / [FFE7]Girl B[FFE0]: \"Then what?\"[FFFD] / [FFE1]Girl A[FFE0]: \"Let's post / a request in town / for help. / Someone like / [FFF0].\""
  },
  {
   "resource": 1208,
@@ -6022,12 +6022,12 @@
  {
   "resource": 1208,
   "msg_index": 510,
-  "english": "I see,[FFD3] / [FFD0]you've agreed with my plan![FFD2] / [FFD0]How very sensible."
+  "english": "I see, / you've agreed with my plan! / How very sensible."
  },
  {
   "resource": 1208,
   "msg_index": 513,
-  "english": "Hehehe![FFD9] / [FFD0]When adventurers drink / this...[FFD4] / [FFD0]and the bracelet"
+  "english": "Hehehe! / When adventurers drink / this... / and the bracelet"
  },
  {
   "resource": 1208,
@@ -6057,12 +6057,12 @@
  {
   "resource": 1208,
   "msg_index": 554,
-  "english": "A fine chance to show / [FFD0]Venoa's cowardly[FFD0] / [FFD0]soldiers the raging / spirit of San-Goth![FFD2]"
+  "english": "A fine chance to show / Venoa's cowardly / soldiers the raging / spirit of San-Goth!"
  },
  {
   "resource": 1208,
   "msg_index": 555,
-  "english": "We shall slay the / Writhing Evil[FFD0] / [FFD0]and hang its heads / [FFD0]from the Temple of Germi![FFD0]"
+  "english": "We shall slay the / Writhing Evil / and hang its heads / from the Temple of Germi!"
  },
  {
   "resource": 1208,
@@ -6072,12 +6072,12 @@
  {
   "resource": 1208,
   "msg_index": 594,
-  "english": "A fine chance to show / [FFD0]Venoa's cowardly[FFD0] / [FFD0]soldiers the raging / spirit of San-Goth![FFD2]"
+  "english": "A fine chance to show / Venoa's cowardly / soldiers the raging / spirit of San-Goth!"
  },
  {
   "resource": 1208,
   "msg_index": 595,
-  "english": "We shall slay the / Writhing Evil[FFD0] / [FFD0]and hang its heads / [FFD0]from the Temple of Germi![FFD0]"
+  "english": "We shall slay the / Writhing Evil / and hang its heads / from the Temple of Germi!"
  },
  {
   "resource": 1208,
@@ -6187,12 +6187,12 @@
  {
   "resource": 1208,
   "msg_index": 750,
-  "english": "I swore![FFD4] I will find / you and avenge / them![FFD3]"
+  "english": "I swore! I will find / you and avenge / them!"
  },
  {
   "resource": 1208,
   "msg_index": 751,
-  "english": "Prepare yourself,[FFD4] / for this blade will[FFD4] / surely strike you!"
+  "english": "Prepare yourself, / for this blade will / surely strike you!"
  },
  {
   "resource": 1208,
@@ -6267,17 +6267,17 @@
  {
   "resource": 1209,
   "msg_index": 115,
-  "english": "Once possessed by the King of San-Goth...![FFD2]"
+  "english": "Once possessed by the King of San-Goth...!"
  },
  {
   "resource": 1209,
   "msg_index": 116,
-  "english": "You, the eternal knight and immortal being...![FFD2]"
+  "english": "You, the eternal knight and immortal being...!"
  },
  {
   "resource": 1209,
   "msg_index": 117,
-  "english": "Oh, Black Spirit of Death,[FFD4] reveal thyself!"
+  "english": "Oh, Black Spirit of Death, reveal thyself!"
  },
  {
   "resource": 1209,
@@ -6632,22 +6632,22 @@
  {
   "resource": 1209,
   "msg_index": 560,
-  "english": "*sniff*[FFD7] Oh no! It's all my fault!"
+  "english": "*sniff* Oh no! It's all my fault!"
  },
  {
   "resource": 1209,
   "msg_index": 561,
-  "english": "It was all because[FFD5] I told them to hide on the seventh floor![FFD2]"
+  "english": "It was all because I told them to hide on the seventh floor!"
  },
  {
   "resource": 1209,
   "msg_index": 562,
-  "english": "If anything happens to the princess, it will be all my fault! I might as well die too!![FFD2]"
+  "english": "If anything happens to the princess, it will be all my fault! I might as well die too!!"
  },
  {
   "resource": 1209,
   "msg_index": 564,
-  "english": "Lute will be bringing Belgrano with her![FFD0]"
+  "english": "Lute will be bringing Belgrano with her!"
  },
  {
   "resource": 1209,
@@ -6692,27 +6692,27 @@
  {
   "resource": 1210,
   "msg_index": 135,
-  "english": "We[FFD5] once fought / against them!"
+  "english": "We once fought / against them!"
  },
  {
   "resource": 1210,
   "msg_index": 150,
-  "english": "Something yet remains / to awaken the / sleeping god--[FFD3]"
+  "english": "Something yet remains / to awaken the / sleeping god--"
  },
  {
   "resource": 1210,
   "msg_index": 151,
-  "english": "the one who will burn / every last demon[FFD5] and / erase them from / this earth."
+  "english": "the one who will burn / every last demon and / erase them from / this earth."
  },
  {
   "resource": 1210,
   "msg_index": 156,
-  "english": "I found one capable / of slaying the / Writhing Demon / Mazikim[FFD3]--"
+  "english": "I found one capable / of slaying the / Writhing Demon / Mazikim--"
  },
  {
   "resource": 1210,
   "msg_index": 157,
-  "english": "and met one who saw / Dialant's fate[FFD0] with / her own eyes!"
+  "english": "and met one who saw / Dialant's fate with / her own eyes!"
  },
  {
   "resource": 1210,
@@ -7082,7 +7082,7 @@
  {
   "resource": 1211,
   "msg_index": 7,
-  "english": "Another warrior / has[FFD3] gone to join / the gods."
+  "english": "Another warrior / has gone to join / the gods."
  },
  {
   "resource": 1211,
@@ -7102,42 +7102,42 @@
  {
   "resource": 1211,
   "msg_index": 28,
-  "english": "Zel[FFE0]: Your Majesty![FFD2] / [FFD2]Why did you not / [FFD2]wait for us!?[FFD3]"
+  "english": "Zel[FFE0]: Your Majesty! / Why did you not / wait for us!?"
  },
  {
   "resource": 1211,
   "msg_index": 30,
-  "english": "Bertin[FFE0]: You[FFD0] / [FFD4]always do this![FFD0]"
+  "english": "Bertin[FFE0]: You / always do this!"
  },
  {
   "resource": 1211,
   "msg_index": 31,
-  "english": "Bertin[FFE0]: You / always go off[FFD2] / [FFD4]on your own!"
+  "english": "Bertin[FFE0]: You / always go off / on your own!"
  },
  {
   "resource": 1211,
   "msg_index": 32,
-  "english": "Bertin[FFE0]: We're / comrades![FFD1] / [FFD4]Why take on / everything[FFD0] / [FFD4]alone!?"
+  "english": "Bertin[FFE0]: We're / comrades! / Why take on / everything / alone!?"
  },
  {
   "resource": 1211,
   "msg_index": 33,
-  "english": "Bertin[FFE0]: Say[FFD1] / [FFD4]something!"
+  "english": "Bertin[FFE0]: Say / something!"
  },
  {
   "resource": 1211,
   "msg_index": 34,
-  "english": "Bertin[FFE0]: We / survived that / terrible battle[FFD2] / [FFD4]together!"
+  "english": "Bertin[FFE0]: We / survived that / terrible battle / together!"
  },
  {
   "resource": 1211,
   "msg_index": 35,
-  "english": "Bertin[FFE0]: We're / supposed[FFD0] / [FFD4]to be happy!"
+  "english": "Bertin[FFE0]: We're / supposed / to be happy!"
  },
  {
   "resource": 1211,
   "msg_index": 36,
-  "english": "Bertin[FFE0]: You knew / you'd die![FFD0] / [FFD4]Why go alone!?"
+  "english": "Bertin[FFE0]: You knew / you'd die! / Why go alone!?"
  },
  {
   "resource": 1211,
@@ -7147,7 +7147,7 @@
  {
   "resource": 1211,
   "msg_index": 39,
-  "english": "Zel[FFE0]: His Majesty must / be brought back to / the city.[FFD1] / [FFD2]Everyone / awaits his return."
+  "english": "Zel[FFE0]: His Majesty must / be brought back to / the city. / Everyone / awaits his return."
  },
  {
   "resource": 1211,
@@ -7672,7 +7672,7 @@
  {
   "resource": 1211,
   "msg_index": 585,
-  "english": "Now, hurry.[FFD3] The last / gate will soon / be opened."
+  "english": "Now, hurry. The last / gate will soon / be opened."
  },
  {
   "resource": 1212,
@@ -8022,12 +8022,12 @@
  {
   "resource": 1212,
   "msg_index": 513,
-  "english": "Anyone there?![FFD6] / Get me outta here!"
+  "english": "Anyone there?! / Get me outta here!"
  },
  {
   "resource": 1212,
   "msg_index": 514,
-  "english": "Please! Monster, witch, / anybody-- I'll take / anyone![FFD1]"
+  "english": "Please! Monster, witch, / anybody-- I'll take / anyone!"
  },
  {
   "resource": 1212,
@@ -8037,12 +8037,12 @@
  {
   "resource": 1212,
   "msg_index": 524,
-  "english": "Gwahahaha![FFD2] That's / divine punishment,[FFD4] / that is!"
+  "english": "Gwahahaha! That's / divine punishment, / that is!"
  },
  {
   "resource": 1212,
   "msg_index": 569,
-  "english": "I don't have a[FFD2] / Return Potion!"
+  "english": "I don't have a / Return Potion!"
  },
  {
   "resource": 1212,
@@ -8052,12 +8052,12 @@
  {
   "resource": 1212,
   "msg_index": 572,
-  "english": "Have you ever thought[FFD4] / that Aurora might[FFD3] / actually be a god?"
+  "english": "Have you ever thought / that Aurora might / actually be a god?"
  },
  {
   "resource": 1212,
   "msg_index": 653,
-  "english": "My body's about to be / transferred--[FFD2] / [FFD7]thank you for everything!"
+  "english": "My body's about to be / transferred-- / thank you for everything!"
  },
  {
   "resource": 1212,
@@ -8067,12 +8067,12 @@
  {
   "resource": 1212,
   "msg_index": 693,
-  "english": "Hehehe...[FFD6] Seriously, / I must be outta[FFD0] / my mind..."
+  "english": "Hehehe... Seriously, / I must be outta / my mind..."
  },
  {
   "resource": 1212,
   "msg_index": 694,
-  "english": "Why the heck did I[FFD2] / go and steal THIS / of all things?!"
+  "english": "Why the heck did I / go and steal THIS / of all things?!"
  },
  {
   "resource": 1212,
@@ -8092,7 +8092,7 @@
  {
   "resource": 1213,
   "msg_index": 11,
-  "english": "Simzon![FFD6] / Give me courage!"
+  "english": "Simzon! / Give me courage!"
  },
  {
   "resource": 1213,
@@ -8512,12 +8512,12 @@
  {
   "resource": 1353,
   "msg_index": 507,
-  "english": "Anyone there?![FFD6] / Get me outta here!"
+  "english": "Anyone there?! / Get me outta here!"
  },
  {
   "resource": 1353,
   "msg_index": 508,
-  "english": "Please! Monster, witch, / anybody-- I'll take / anyone![FFD1]"
+  "english": "Please! Monster, witch, / anybody-- I'll take / anyone!"
  },
  {
   "resource": 1353,
@@ -8527,12 +8527,12 @@
  {
   "resource": 1353,
   "msg_index": 518,
-  "english": "Gwahahaha![FFD2] That's / divine punishment,[FFD4] / that is!"
+  "english": "Gwahahaha! That's / divine punishment, / that is!"
  },
  {
   "resource": 1353,
   "msg_index": 563,
-  "english": "I don't have a[FFD2] / Return Potion!"
+  "english": "I don't have a / Return Potion!"
  },
  {
   "resource": 1353,
@@ -8542,12 +8542,12 @@
  {
   "resource": 1353,
   "msg_index": 566,
-  "english": "Have you ever thought[FFD4] / that Aurora might[FFD3] / actually be a god?"
+  "english": "Have you ever thought / that Aurora might / actually be a god?"
  },
  {
   "resource": 1353,
   "msg_index": 647,
-  "english": "My body's about to be / transferred--[FFD2] / [FFD7]thank you for everything!"
+  "english": "My body's about to be / transferred-- / thank you for everything!"
  },
  {
   "resource": 1353,
@@ -8567,22 +8567,22 @@
  {
   "resource": 1354,
   "msg_index": 9,
-  "english": "500 years ago,[FFD3] / [FFD0]the King of / Sepoy said / this:"
+  "english": "500 years ago, / the King of / Sepoy said / this:"
  },
  {
   "resource": 1354,
   "msg_index": 10,
-  "english": "He would send / his army[FFD1] / [FFD0]east and take a / continent[FFD2] / [FFD0]in his lifetime."
+  "english": "He would send / his army / east and take a / continent / in his lifetime."
  },
  {
   "resource": 1354,
   "msg_index": 11,
-  "english": "It would have / been possible, / [FFD0]if not for the / hundred thousand / [FFD0]dead."
+  "english": "It would have / been possible, / if not for the / hundred thousand / dead."
  },
  {
   "resource": 1354,
   "msg_index": 18,
-  "english": "It is the great / mage Wesbell. / [FFD0]No one here could[FFD0] / [FFD0]restrain him."
+  "english": "It is the great / mage Wesbell. / No one here could / restrain him."
  },
  {
   "resource": 1354,
@@ -8642,12 +8642,12 @@
  {
   "resource": 1354,
   "msg_index": 172,
-  "english": "\"What brings / you?\"[FFFD]\"Everyone / awaits.\"[FFFD]\"Your / Majesty, / remember your / promise?\"[FFFD][FFD0]\"Grant my wish, / [FFD0]and I leave at once.\""
+  "english": "\"What brings / you?\"[FFFD]\"Everyone / awaits.\"[FFFD]\"Your / Majesty, / remember your / promise?\"[FFFD]\"Grant my wish, / and I leave at once.\""
  },
  {
   "resource": 1354,
   "msg_index": 173,
-  "english": "\"Speak! What do / you want?\"[FFFD]\"This / kingdom, / [FFD0]Duhan itself.\""
+  "english": "\"Speak! What do / you want?\"[FFFD]\"This / kingdom, / Duhan itself.\""
  },
  {
   "resource": 1354,
@@ -8662,7 +8662,7 @@
  {
   "resource": 1354,
   "msg_index": 179,
-  "english": "Then walk the / path of ruin.[FFFD][FFD0]Your body shall / wither,[FFD0] / [FFD0]you shall be a / wreck."
+  "english": "Then walk the / path of ruin.[FFFD]Your body shall / wither, / you shall be a / wreck."
  },
  {
   "resource": 1354,
@@ -8682,7 +8682,7 @@
  {
   "resource": 1354,
   "msg_index": 213,
-  "english": "I hear the / convoy[FFD3] / [FFD0]was attacked."
+  "english": "I hear the / convoy / was attacked."
  },
  {
   "resource": 1354,
@@ -8727,7 +8727,7 @@
  {
   "resource": 1354,
   "msg_index": 307,
-  "english": "Girl A[FFE0]: Emilia, / [FFD3]let's go![FFFD][FFE4]Girl B[FFE0]: Right![FFD8] / [FFD3]They noticed![FFFD][FFE2]Girl A[FFE0]: If caught again,[FFD0] / [FFD3]no going out!"
+  "english": "Girl A[FFE0]: Emilia, / let's go![FFFD][FFE4]Girl B[FFE0]: Right! / They noticed![FFFD][FFE2]Girl A[FFE0]: If caught again, / no going out!"
  },
  {
   "resource": 1354,
@@ -8762,7 +8762,7 @@
  {
   "resource": 1355,
   "msg_index": 32,
-  "english": "We're all[FFD1] / good friends~!"
+  "english": "We're all / good friends~!"
  },
  {
   "resource": 1355,
